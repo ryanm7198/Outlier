@@ -175,3 +175,14 @@ details summary { cursor: pointer; color: var(--muted); padding: 8px 0; font-siz
   .result.t5.done .pts { animation: none; }
   .track .fill, .track .mark { transition: none; }
 }
+
+/* seven-prompt games and challenges */
+.seed { display: grid; gap: 10px; }
+.seed label { font-weight: 700; }
+.seed code { font-size: .85rem; word-break: break-all; user-select: all; }
+.row { display: flex; gap: 8px; align-items: stretch; }
+.row input { flex: 1; min-width: 0; }
+.row .btn { width: auto; padding: 0 18px; }
+.verdict { font-size: 1.25rem; font-weight: 800; color: var(--you); margin: 4px 0 0; }
+.vs { color: var(--muted); margin: 0; }
+.rows .num small { display: block; color: var(--muted); font-weight: 600; font-size: .75rem; text-align: right; }

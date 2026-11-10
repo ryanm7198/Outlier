@@ -20,6 +20,7 @@ import threading
 import time
 import traceback
 import unicodedata
+import zlib
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
@@ -29,6 +30,7 @@ DB_PATH = os.path.join(ROOT, "data", "outlier.db")
 PORT = int(os.environ.get("PORT", "8321"))
 
 DAILY_N = 5            # prompts in a daily game
+GAME_N = 7             # prompts in a free-play game
 ROUND_S = 30           # seconds to answer
 OUTLIER_PAIR = 30       # questions with this many answers have two Outliers
 MIN_ANSWERS = 8        # prompts with fewer possible answers are left out
@@ -82,6 +84,18 @@ def lev(a, b, cap):
 CATS = []      # [{id, label, filters: [{label, tags: [{id, label}]}]}]
 PROMPTS = {}   # id -> {id, text, cat, tags, names: [canonical...]}
 LOOKUP = {}    # id -> {normalised key: canonical name}
+CODES = {}     # 4-character code -> prompt id; a game's seed is its prompts' codes joined together
+
+B62 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+
+def code_for(pid):
+    """A short code that depends only on the prompt id, so seeds survive new questions and redeploys."""
+    n, out = zlib.crc32(pid.encode()) % 62 ** 4, ""
+    for _ in range(4):
+        n, r = divmod(n, 62)
+        out = B62[r] + out
+    return out
 
 
 def add_key(pid, key, name):
@@ -124,6 +138,9 @@ def load_prompts():
                             "tags": p.get("tags", []), "deep": bool(p.get("deep")),
                             "names": [a[0] for a in answers]}
             LOOKUP[pid] = {}
+            if code_for(pid) in CODES:
+                print(f"WARNING: {pid} shares a seed code with {CODES[code_for(pid)]}; rename one", flush=True)
+            CODES.setdefault(code_for(pid), pid)
             # Canonical names claim their keys first, so an alias never shadows one.
             for a in answers:
                 add_key(pid, norm(a[0]), a[0])
@@ -328,6 +345,32 @@ def daily(cat):
             "prompts": [public_prompt(i) for i in ids[idx * n:(idx + 1) * n]]}
 
 
+def new_game(cat, tags, seen):
+    """Seven prompts, preferring ones this player has not seen (seen is oldest first)."""
+    ids = pool(cat, tags)
+    if not ids:
+        raise ApiError(404, "No prompts match those filters")
+    fresh = [i for i in ids if i not in seen]
+    random.shuffle(fresh)
+    stale = sorted((i for i in ids if i in seen), key=seen.index)
+    picked = (fresh + stale)[:GAME_N]
+    random.shuffle(picked)
+    return game_out(picked, describe(cat, tags))
+
+
+def seeded_game(seed):
+    seed = re.sub(r"[^0-9A-Za-z]", "", str(seed or ""))
+    parts = [seed[i:i + 4] for i in range(0, len(seed), 4)]
+    if not parts or len(parts) > 20 or any(len(p) != 4 or p not in CODES for p in parts):
+        raise ApiError(404, "That seed doesn't match any game")
+    return game_out([CODES[p] for p in parts], "Challenge")
+
+
+def game_out(ids, label):
+    return {"seed": "".join(code_for(i) for i in ids), "label": label, "roundMs": ROUND_S * 1000,
+            "prompts": [public_prompt(i) for i in ids]}
+
+
 # ---------------------------------------------------------------- party rooms
 
 ROOMS = {}
@@ -459,6 +502,11 @@ def api_get(path, q):
         return categories()
     if path == "/api/daily":
         return daily(q.get("cat", "all"))
+    if path == "/api/game":
+        if q.get("seed"):
+            return seeded_game(q["seed"])
+        tags = [t for t in q.get("tags", "").split(",") if t]
+        return new_game(q.get("cat", "all"), tags, q.get("exclude", "").split(","))
     if path == "/api/random":
         tags = [t for t in q.get("tags", "").split(",") if t]
         ids = pool(q.get("cat", "all"), tags)

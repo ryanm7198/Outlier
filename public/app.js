@@ -294,7 +294,7 @@ function home() {
       ${crowdHTML(3)}
     </div>
     <div class="stack">
-      <button class="btn primary" id="solo">Play solo<small>Daily five or free play</small></button>
+      <button class="btn primary" id="solo">Play solo<small>Daily five or a seven-prompt game</small></button>
       <button class="btn" id="party">Party game<small>Everyone joins on their own phone</small></button>
     </div>
     ${streak.n > 1 ? `<p class="muted center">Daily streak: ${streak.n} days</p>` : ''}
@@ -317,20 +317,30 @@ function soloMenu() {
     <div class="stack">
       <button class="btn primary" id="daily"></button>
       <button class="btn" id="free"></button>
-    </div>`);
+    </div>
+    <details class="card"><summary>Got a seed from a friend?</summary>
+      <div class="row"><input type="text" id="seedIn" placeholder="Paste the seed or link" autocomplete="off"><button class="btn" id="seedGo">Play</button></div>
+    </details>`);
   const refresh = () => {
     const c = catOf(pick.cat), saved = store.get('outlier.daily.' + c.id);
     const today = new Date().toLocaleDateString('en-CA');
     const done = saved && saved.date === today && saved.done;
     $('#daily').innerHTML = `Daily five · ${esc(c.label)}<small>${done ? `Played today: ${saved.total} paces. Tap to view.` : 'Same five prompts for everyone today'}</small>`;
-    $('#free').innerHTML = `Free play<small>${esc(pickLabel(pick))}</small>`;
+    $('#free').innerHTML = `Seven-prompt game<small>${esc(pickLabel(pick))} · send the seed to challenge a friend</small>`;
     $('#free').disabled = !poolCount(pick);
   };
   mountPicker($('#picker'), refresh);
   refresh();
   $('#back').onclick = home;
   $('#daily').onclick = startDaily;
-  $('#free').onclick = () => freePlay({ total: 0, played: 0 });
+  $('#free').onclick = () => startGame();
+  $('#seedGo').onclick = () => {
+    const raw = $('#seedIn').value.trim();
+    let seed = raw, from = '', pts = '';
+    try { const u = new URL(raw); seed = u.searchParams.get('play') || ''; from = u.searchParams.get('from') || ''; pts = u.searchParams.get('pts') || ''; } catch { /* a bare seed */ }
+    if (!seed) return toast('Paste a seed or challenge link');
+    from ? challengeIntro(seed, from, pts) : startGame({ seed });
+  };
 }
 
 async function startDaily() {
@@ -404,42 +414,116 @@ function dailySummary(run) {
       <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}</span></li>`).join('')}</ul>
     <div class="stack">
       <button class="btn primary" id="share">Share result</button>
-      <button class="btn" id="free">Keep going in free play</button>
+      <button class="btn" id="free">Play a seven-prompt game</button>
     </div>
     <p class="muted center">New prompts tomorrow.</p>`);
   $('#back').onclick = soloMenu;
-  $('#free').onclick = () => freePlay({ total: 0, played: 0 });
+  $('#free').onclick = () => startGame();
   $('#share').onclick = () => shareText(`Outlier · ${label} #${saved.number}\n${saved.total}/${max} paces from the crowd\n${squares}`);
 }
 
-async function freePlay(session) {
-  // Prompts already played on this device, oldest first, so repeats only come round once everything has been seen.
+// ------------------------------------------------------------ seven-prompt games
+// Every game has a seed (its prompts' codes). Sharing the seed lets a friend play the same seven
+// prompts; the link carries your name and per-prompt points so they can see what they have to beat.
+
+async function startGame(opts = {}) {
   const seen = store.get('outlier.seen', []);
-  let prompt;
+  let game;
   try {
-    prompt = await api(`/api/random?cat=${encodeURIComponent(pick.cat)}&tags=${encodeURIComponent(pick.tags.join(','))}&exclude=${encodeURIComponent(seen.join(','))}`);
+    game = await api(opts.seed ? `/api/game?seed=${encodeURIComponent(opts.seed)}`
+      : `/api/game?cat=${encodeURIComponent(pick.cat)}&tags=${encodeURIComponent(pick.tags.join(','))}&exclude=${encodeURIComponent(seen.join(','))}`);
   } catch (e) { return toast(e.message); }
-  store.set('outlier.seen', [...seen.filter(id => id !== prompt.id), prompt.id].slice(-200));
-  const header = `<header class="bar"><button class="link" id="quit">✕ Quit</button><span>${esc(pickLabel(pick))}</span><span class="pill">${session.total}</span></header>`;
-  ask(prompt, prompt.roundMs, header, res => {
-    session.total += res.points;
-    session.played += 1;
-    show(`<header class="bar"><span></span><span>Free play · ${session.played} played</span><span></span></header>
+  const ids = game.prompts.map(p => p.id);
+  store.set('outlier.seen', [...seen.filter(id => !ids.includes(id)), ...ids].slice(-300));
+  if (opts.rival) game.label = `${opts.rival.name}'s challenge`;
+  gameQuestion({ game, rival: opts.rival || null, results: [] });
+}
+
+function gameQuestion(run) {
+  const { game, results, rival } = run, i = results.length, n = game.prompts.length;
+  const theirs = rival ? rival.points.slice(0, i).reduce((a, b) => a + b, 0) : 0;
+  const header = `<header class="bar"><button class="link" id="quit">✕ Quit</button>
+    <span>${esc(game.label)} · ${i + 1}/${n}</span><span class="pill">${sum(results)}${rival ? ` v ${theirs}` : ''}</span></header>`;
+  ask(game.prompts[i], game.roundMs, header, res => {
+    const before = sum(results);
+    results.push({ prompt: res.prompt, given: res.given, canonical: res.canonical, valid: res.valid, points: res.points });
+    const total = sum(results), done = results.length >= n, max = n * 100;
+    const lanes = [{ name: 'You', from: before, to: total, me: true }];
+    if (rival) lanes.push({ name: rival.name, from: theirs, to: theirs + (rival.points[i] || 0) });
+    show(`<header class="bar"><span></span><span>${esc(game.label)} · ${i + 1}/${n}</span><span></span></header>
       <p class="muted center">${esc(res.prompt)}</p>
       ${resultHTML(res)}
       <div class="after wait">
+        ${rival ? `<p class="center vs">${esc(rival.name)} scored <b>+${rival.points[i] || 0}</b> here</p>` : ''}
+        <div class="card">${trailHTML(lanes, max)}</div>
         ${outlierHTML(res.board.filter(b => b.outlier), res.canonical)}
         ${boardHTML(res.board, res.canonical)}
-        <div class="stack">
-          <button class="btn primary" id="next">Next prompt</button>
-          <button class="btn" id="done">Finish</button>
-        </div>
+        <button class="btn primary" id="next">${done ? 'See your score' : 'Next prompt'}</button>
       </div>`);
     buildUp(res);
-    $('#next').onclick = () => freePlay(session);
-    $('#done').onclick = soloMenu;
+    $('#next').onclick = () => done ? gameSummary(run) : gameQuestion(run);
   });
   $('#quit').onclick = soloMenu;
+}
+
+function challengeLink(run, name) {
+  const u = new URL(location.origin + location.pathname);
+  u.searchParams.set('play', run.game.seed);
+  u.searchParams.set('from', name);
+  u.searchParams.set('pts', run.results.map(r => r.points).join('.'));
+  return u.toString();
+}
+
+function gameSummary(run) {
+  const { results, rival, game } = run, total = sum(results), max = results.length * 100;
+  const squares = results.map(r => SQUARES[tier(r.points)]).join('');
+  const theirs = rival ? rival.points.reduce((a, b) => a + b, 0) : 0;
+  const verdict = !rival ? '' : total > theirs ? `You beat ${esc(rival.name)} by ${total - theirs}!`
+    : total < theirs ? `${esc(rival.name)} wins by ${theirs - total}.` : `Dead heat with ${esc(rival.name)}!`;
+  const lanes = [{ name: 'You', from: 0, to: total, me: true }];
+  if (rival) lanes.push({ name: rival.name, from: 0, to: theirs });
+  show(`<header class="bar"><button class="link" id="back">‹ Back</button><span>${esc(game.label)}</span><span></span></header>
+    <div class="total">${total}<small> / ${max} paces</small></div>
+    ${rival ? `<p class="center verdict">${verdict}</p>` : ''}
+    <div class="squares">${squares}</div>
+    <div class="card">${trailHTML(lanes, max)}
+      <p class="zone">You ended up: ${zoneName(total, max)}</p></div>
+    <ul class="rows card">${results.map((r, i) => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : `<span class="strike">${esc(r.given || 'No answer')}</span>`}</b>
+      <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}${rival ? `<small>${esc(rival.name)} +${rival.points[i] || 0}</small>` : ''}</span></li>`).join('')}</ul>
+    <div class="card seed">
+      <label for="who">Challenge a friend on these 7 prompts</label>
+      <input type="text" id="who" maxlength="16" placeholder="Your name" value="${esc(store.get('outlier.name', ''))}" autocomplete="off">
+      <button class="btn primary" id="share">Send challenge</button>
+      <p class="muted">Seed: <code>${esc(game.seed)}</code></p>
+    </div>
+    <div class="stack"><button class="btn" id="again">New game</button></div>`);
+  $('#back').onclick = soloMenu;
+  $('#again').onclick = () => startGame();
+  $('#share').onclick = () => {
+    const name = $('#who').value.trim().slice(0, 16) || 'A friend';
+    store.set('outlier.name', name);
+    shareText(`I scored ${total}/${max} on Outlier ${squares}\nCan you beat me on the same 7 prompts?\n${challengeLink(run, name)}`);
+  };
+}
+
+// A challenge link: ?play=<seed>&from=<name>&pts=12.40.100...
+function challengeIntro(seed, from, pts) {
+  stopTimer();
+  const points = (pts || '').split('.').map(n => Math.max(0, Math.min(100, parseInt(n, 10) || 0)));
+  const rival = from ? { name: from.slice(0, 16), points } : null;
+  const total = rival ? points.reduce((a, b) => a + b, 0) : 0;
+  show(`<div class="hero">
+      <div class="logo">Outl<b>i</b>er</div>
+      <p>${rival ? `<b>${esc(rival.name)}</b> scored <b>${total}</b> paces on 7 prompts.<br>Can you get further from the crowd?`
+        : 'Someone sent you a seven-prompt game.'}</p>
+      ${crowdHTML(3)}
+    </div>
+    <div class="stack">
+      <button class="btn primary" id="go">Play the challenge<small>Same 7 prompts, 30 seconds each</small></button>
+      <button class="btn" id="home">Not now</button>
+    </div>`);
+  $('#go').onclick = () => startGame({ seed, rival });
+  $('#home').onclick = home;
 }
 
 // ------------------------------------------------------------ party
@@ -617,7 +701,12 @@ function partyFinal(s, host) {
 (async function boot() {
   try { CATS = await api('/api/categories'); } catch { app.innerHTML = '<p class="center muted">Could not reach the game server.</p>'; return; }
   if (!CATS.some(c => c.id === pick.cat)) pick = { cat: 'all', tags: [] };
-  const invite = new URLSearchParams(location.search).get('room');
+  const params = new URLSearchParams(location.search);
+  const invite = params.get('room');
+  if (params.get('play')) {
+    history.replaceState(null, '', location.pathname);
+    return challengeIntro(params.get('play'), params.get('from') || '', params.get('pts') || '');
+  }
   const saved = store.get('outlier.party');
   if (saved && (!invite || invite.toUpperCase() === saved.code)) enterParty(saved.code, saved.pid);
   else if (invite) partyMenu(invite.toUpperCase().slice(0, 4));
