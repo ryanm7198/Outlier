@@ -307,6 +307,40 @@ def pool(cat, tags, deep=None):
     return sorted(out)
 
 
+def buckets(cat, tags, ids):
+    """Split a pool by the filters the player chose, so picking can share prompts out evenly between
+    them (Food and Games should be a mix, not mostly whichever has more questions). The filter group
+    with the most chosen tags decides the split."""
+    if cat == "all":   # Everything: share prompts out between the categories
+        return [b for b in ([i for i in ids if PROMPTS[i]["cat"] == c["id"]] for c in CATS) if b]
+    tags = set(tags or [])
+    best = max((g & tags for g in filter_groups(cat)), key=len, default=set())
+    if len(best) < 2:
+        return [list(ids)]
+    out = [[i for i in ids if t in PROMPTS[i]["tags"]] for t in sorted(best)]
+    return [b for b in out if b]
+
+
+def pick_balanced(cat, tags, ids, seen, n):
+    """Up to n prompts, taking turns between the chosen filters; within each, unseen prompts first
+    and then the ones seen longest ago (seen is oldest first)."""
+    order = []
+    for b in buckets(cat, tags, ids):
+        fresh = [i for i in b if i not in seen]
+        random.shuffle(fresh)
+        order.append(fresh + sorted((i for i in b if i in seen), key=seen.index))
+    random.shuffle(order)
+    picked = []
+    while len(picked) < n and any(order):
+        for b in order:
+            while b and b[0] in picked:
+                b.pop(0)
+            if b and len(picked) < n:
+                picked.append(b.pop(0))
+    random.shuffle(picked)
+    return picked
+
+
 def categories():
     out = [{"id": "all", "label": "Everything", "count": len(pool("all", [])), "filters": []}]
     for c in CATS:
@@ -352,12 +386,7 @@ def new_game(cat, tags, seen):
     ids = pool(cat, tags)
     if not ids:
         raise ApiError(404, "No prompts match those filters")
-    fresh = [i for i in ids if i not in seen]
-    random.shuffle(fresh)
-    stale = sorted((i for i in ids if i in seen), key=seen.index)
-    picked = (fresh + stale)[:GAME_N]
-    random.shuffle(picked)
-    return game_out(picked, describe(cat, tags))
+    return game_out(pick_balanced(cat, tags, ids, seen, GAME_N), describe(cat, tags))
 
 
 def seeded_game(seed):
@@ -433,11 +462,15 @@ def online(p):
 
 def next_question(room):
     ids = pool(room["cat"], room["tags"])
-    fresh = [i for i in ids if i not in room["used"]]
-    if not fresh:   # the room has been through every matching prompt; start over
+    if all(i in room["used"] for i in ids):   # the room has been through every matching prompt; start over
         room["used"] = [i for i in room["used"] if i not in ids]
-        fresh = ids
-    room["prompt"] = random.choice(fresh)
+    # Take turns between the chosen filters: the one with the fewest prompts played so far goes next.
+    groups = buckets(room["cat"], room["tags"], ids)
+    fresh = [[i for i in b if i not in room["used"]] for b in groups]
+    played = [sum(1 for i in b if i in room["used"]) for b in groups]
+    choices = [k for k in range(len(groups)) if fresh[k]]
+    low = min(played[k] for k in choices)
+    room["prompt"] = random.choice(fresh[random.choice([k for k in choices if played[k] == low])])
     room["used"].append(room["prompt"])
     room["round"] += 1
     for p in room["players"].values():
@@ -547,8 +580,7 @@ def api_get(path, q):
         if not ids:
             raise ApiError(404, "No prompts match those filters")
         seen = q.get("exclude", "").split(",")   # oldest first
-        fresh = [i for i in ids if i not in seen]
-        out = public_prompt(random.choice(fresh) if fresh else min(ids, key=seen.index))
+        out = public_prompt(pick_balanced(q.get("cat", "all"), tags, ids, seen, 1)[0])
         out.update(roundMs=ROUND_S * 1000, poolSize=len(ids))
         return out
     if path == "/api/room/state":
