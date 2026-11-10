@@ -1,0 +1,3037 @@
+{
+ "cat": "football",
+ "prompts": [
+  {
+   "id": "f6-first-division-1961-62",
+   "tags": [
+    "pl",
+    "60s"
+   ],
+   "text": "Name a club that played in the First Division (English top flight) in 1961-62",
+   "answers": [
+    "Tottenham Hotspur",
+    "Manchester United",
+    "Everton",
+    "Arsenal",
+    "Chelsea",
+    "Ipswich Town",
+    "Manchester City",
+    "West Ham United",
+    "Aston Villa",
+    "Burnley",
+    "Wolverhampton Wanderers",
+    "Sheffield Wednesday",
+    "Nottingham Forest",
+    "Blackburn Rovers",
+    "Bolton Wanderers",
+    "Leicester City",
+    "West Bromwich Albion",
+    "Birmingham City",
+    "Sheffield United",
+    "Fulham",
+    "Blackpool",
+    "Cardiff City"
+   ]
+  },
+  {
+   "id": "f6-first-division-1964-65",
+   "tags": [
+    "pl",
+    "60s"
+   ],
+   "text": "Name a club that played in the First Division (English top flight) in 1964-65",
+   "answers": [
+    "Manchester United",
+    "Liverpool",
+    "Chelsea",
+    "Leeds United",
+    "Tottenham Hotspur",
+    "Arsenal",
+    "Everton",
+    "West Ham United",
+    "Aston Villa",
+    "Nottingham Forest",
+    "Sheffield Wednesday",
+    "Burnley",
+    "Wolverhampton Wanderers",
+    "Blackburn Rovers",
+    "Stoke City",
+    "Sunderland",
+    "West Bromwich Albion",
+    "Leicester City",
+    "Birmingham City",
+    "Sheffield United",
+    "Fulham",
+    "Blackpool"
+   ]
+  },
+  {
+   "id": "f6-first-division-1968-69",
+   "tags": [
+    "pl",
+    "60s"
+   ],
+   "text": "Name a club that played in the First Division (English top flight) in 1968-69",
+   "answers": [
+    "Leeds United",
+    "Liverpool",
+    "Manchester United",
+    "Manchester City",
+    "Arsenal",
+    "Everton",
+    "Chelsea",
+    "Tottenham Hotspur",
+    "West Ham United",
+    "Newcastle United",
+    "Nottingham Forest",
+    "Wolverhampton Wanderers",
+    "West Bromwich Albion",
+    "Southampton",
+    "Leicester City",
+    "Sunderland",
+    "Stoke City",
+    "Ipswich Town",
+    "Sheffield Wednesday",
+    "Coventry City",
+    "Burnley",
+    "Queens Park Rangers"
+   ]
+  },
+  {
+   "id": "f6-first-division-top-three-1960s",
+   "tags": [
+    "pl",
+    "60s"
+   ],
+   "text": "Name a club that finished in the top three of the First Division in any season from 1960-61 to 1968-69",
+   "answers": [
+    "Manchester United",
+    "Liverpool",
+    "Tottenham Hotspur",
+    "Leeds United",
+    "Everton",
+    "Manchester City",
+    "Chelsea",
+    "Burnley",
+    "Ipswich Town",
+    "Nottingham Forest",
+    "Wolverhampton Wanderers",
+    "Sheffield Wednesday"
+   ]
+  },
+  {
+   "id": "f6-league-cup-finalists-1960s",
+   "tags": [
+    "cups",
+    "60s"
+   ],
+   "text": "Name a club that played in a League Cup final between 1961 and 1969 (winners or runners-up)",
+   "answers": [
+    "Arsenal",
+    "Chelsea",
+    "Leeds United",
+    "West Ham United",
+    "Aston Villa",
+    "Leicester City",
+    "Queens Park Rangers",
+    "West Bromwich Albion",
+    "Birmingham City",
+    "Stoke City",
+    "Norwich City",
+    "Swindon Town",
+    "Rotherham United",
+    "Rochdale"
+   ]
+  },
+  {
+   "id": "f6-spurs-1960-61",
+   "tags": [
+    "pl",
+    "60s"
+   ],
+   "text": "Name a player who made at least one league appearance for Tottenham Hotspur in their 1960-61 Double-winning season",
+   "answers": [
+    [
+     "Danny Blanchflower",
+     "Blanchflower"
+    ],
+    [
+     "Dave Mackay",
+     "Mackay"
+    ],
+    "Bobby Smith",
+    [
+     "Cliff Jones",
+     "Jones"
+    ],
+    "John White",
+    [
+     "Bill Brown",
+     "Brown"
+    ],
+    [
+     "Maurice Norman",
+     "Norman"
+    ],
+    [
+     "Les Allen",
+     "Allen"
+    ],
+    [
+     "Terry Dyson",
+     "Dyson"
+    ],
+    [
+     "Ron Henry",
+     "Henry"
+    ],
+    [
+     "Peter Baker",
+     "Baker"
+    ],
+    [
+     "Terry Medwin",
+     "Medwin"
+    ],
+    [
+     "Tony Marchi",
+     "Marchi"
+    ],
+    [
+     "Frank Saul",
+     "Saul"
+    ],
+    [
+     "John Hollowbread",
+     "Hollowbread"
+    ],
+    [
+     "Ken Barton",
+     "Barton"
+    ],
+    "John Smith"
+   ]
+  },
+  {
+   "id": "f6-man-utd-1964-65",
+   "tags": [
+    "pl",
+    "60s"
+   ],
+   "text": "Name a player who made at least one league appearance for Manchester United in their 1964-65 title season",
+   "answers": [
+    [
+     "George Best",
+     "Best"
+    ],
+    [
+     "Bobby Charlton",
+     "Charlton"
+    ],
+    [
+     "Denis Law",
+     "Law"
+    ],
+    [
+     "Nobby Stiles",
+     "Stiles"
+    ],
+    [
+     "Bill Foulkes",
+     "Foulkes"
+    ],
+    [
+     "Paddy Crerand",
+     "Crerand",
+     "pat crerand"
+    ],
+    [
+     "David Herd",
+     "Herd"
+    ],
+    [
+     "John Connelly",
+     "Connelly"
+    ],
+    "Tony Dunne",
+    [
+     "Shay Brennan",
+     "Brennan"
+    ],
+    "Pat Dunne",
+    [
+     "David Sadler",
+     "Sadler"
+    ],
+    [
+     "Noel Cantwell",
+     "Cantwell"
+    ],
+    [
+     "Maurice Setters",
+     "Setters"
+    ],
+    [
+     "David Gaskell",
+     "Gaskell"
+    ],
+    [
+     "John Fitzpatrick",
+     "Fitzpatrick"
+    ],
+    [
+     "John Aston",
+     "Aston",
+     "john aston jr"
+    ],
+    [
+     "Ian Moir",
+     "Moir"
+    ]
+   ]
+  },
+  {
+   "id": "f6-liverpool-1965-66",
+   "tags": [
+    "pl",
+    "60s"
+   ],
+   "text": "Name a player who made at least one league appearance for Liverpool in their 1965-66 title season",
+   "answers": [
+    [
+     "Roger Hunt",
+     "Hunt"
+    ],
+    [
+     "Ian St John",
+     "St John"
+    ],
+    [
+     "Ron Yeats",
+     "Yeats"
+    ],
+    [
+     "Ian Callaghan",
+     "Callaghan"
+    ],
+    [
+     "Tommy Smith",
+     "Smith"
+    ],
+    [
+     "Tommy Lawrence",
+     "Lawrence"
+    ],
+    [
+     "Chris Lawler",
+     "Lawler"
+    ],
+    [
+     "Peter Thompson",
+     "Thompson"
+    ],
+    [
+     "Gerry Byrne",
+     "Byrne"
+    ],
+    [
+     "Gordon Milne",
+     "Milne"
+    ],
+    [
+     "Willie Stevenson",
+     "Stevenson"
+    ],
+    [
+     "Geoff Strong",
+     "Strong"
+    ],
+    [
+     "Alf Arrowsmith",
+     "Arrowsmith"
+    ],
+    [
+     "Bobby Graham",
+     "Graham"
+    ]
+   ]
+  },
+  {
+   "id": "f6-european-cup-final-1967",
+   "tags": [
+    "ucl",
+    "scotland",
+    "60s"
+   ],
+   "text": "Name a player who appeared for either side in the 1967 European Cup final (Celtic v Inter Milan)",
+   "answers": [
+    [
+     "Billy McNeill",
+     "McNeill"
+    ],
+    [
+     "Jimmy Johnstone",
+     "Johnstone",
+     "jinky"
+    ],
+    [
+     "Tommy Gemmell",
+     "Gemmell"
+    ],
+    [
+     "Bobby Murdoch",
+     "Murdoch"
+    ],
+    [
+     "Bertie Auld",
+     "Auld"
+    ],
+    [
+     "Stevie Chalmers",
+     "Chalmers",
+     "steve chalmers"
+    ],
+    [
+     "Ronnie Simpson",
+     "Simpson"
+    ],
+    [
+     "Bobby Lennox",
+     "Lennox"
+    ],
+    [
+     "Jim Craig",
+     "Craig"
+    ],
+    [
+     "John Clark",
+     "Clark"
+    ],
+    [
+     "Willie Wallace",
+     "Wallace"
+    ],
+    [
+     "Giacinto Facchetti",
+     "Facchetti"
+    ],
+    [
+     "Sandro Mazzola",
+     "Mazzola"
+    ],
+    [
+     "Tarcisio Burgnich",
+     "Burgnich"
+    ],
+    [
+     "Giuliano Sarti",
+     "Sarti"
+    ],
+    [
+     "Armando Picchi",
+     "Picchi"
+    ],
+    [
+     "Mario Corso",
+     "Corso"
+    ],
+    [
+     "Angelo Domenghini",
+     "Domenghini"
+    ],
+    [
+     "Aristide Guarneri",
+     "Guarneri"
+    ],
+    [
+     "Gianfranco Bedin",
+     "Bedin"
+    ],
+    [
+     "Renato Cappellini",
+     "Cappellini"
+    ],
+    [
+     "Mauro Bicicli",
+     "Bicicli"
+    ]
+   ]
+  },
+  {
+   "id": "f6-european-cup-final-1968",
+   "tags": [
+    "ucl",
+    "60s"
+   ],
+   "text": "Name a player who appeared for either side in the 1968 European Cup final (Manchester United v Benfica)",
+   "answers": [
+    [
+     "George Best",
+     "Best"
+    ],
+    [
+     "Bobby Charlton",
+     "Charlton"
+    ],
+    [
+     "Nobby Stiles",
+     "Stiles"
+    ],
+    [
+     "Brian Kidd",
+     "Kidd"
+    ],
+    [
+     "Alex Stepney",
+     "Stepney"
+    ],
+    [
+     "Paddy Crerand",
+     "Crerand",
+     "pat crerand"
+    ],
+    [
+     "Bill Foulkes",
+     "Foulkes"
+    ],
+    [
+     "Tony Dunne",
+     "Dunne"
+    ],
+    [
+     "Shay Brennan",
+     "Brennan"
+    ],
+    [
+     "David Sadler",
+     "Sadler"
+    ],
+    [
+     "John Aston",
+     "Aston",
+     "john aston jr"
+    ],
+    "Eusébio",
+    [
+     "Mário Coluna",
+     "coluna"
+    ],
+    [
+     "José Torres",
+     "torres"
+    ],
+    [
+     "António Simões",
+     "simoes"
+    ],
+    [
+     "José Augusto",
+     "augusto"
+    ],
+    [
+     "Jaime Graça",
+     "graca"
+    ],
+    [
+     "José Henrique",
+     "henrique"
+    ],
+    [
+     "Humberto Fernandes",
+     "humberto"
+    ],
+    [
+     "Fernando Cruz",
+     "cruz"
+    ],
+    [
+     "Jacinto Santos",
+     "jacinto"
+    ],
+    [
+     "Adolfo Calisto",
+     "adolfo",
+     "calisto"
+    ]
+   ]
+  },
+  {
+   "id": "f6-european-finalists-1960s",
+   "tags": [
+    "ucl",
+    "60s"
+   ],
+   "text": "Name a club that played in a European Cup or Cup Winners' Cup final between 1960 and 1969 (winners or runners-up)",
+   "answers": [
+    "Real Madrid",
+    "Manchester United",
+    "Celtic",
+    "Liverpool",
+    "Tottenham Hotspur",
+    "West Ham United",
+    "Rangers",
+    "AC Milan",
+    "Inter Milan",
+    "Barcelona",
+    "Benfica",
+    "Bayern Munich",
+    "Ajax",
+    "Atlético Madrid",
+    "Borussia Dortmund",
+    "Eintracht Frankfurt",
+    "Hamburg",
+    "Fiorentina",
+    [
+     "Sporting CP",
+     "sporting lisbon",
+     "sporting"
+    ],
+    [
+     "Partizan",
+     "partizan belgrade"
+    ],
+    [
+     "1860 Munich",
+     "tsv 1860 munich",
+     "munich 1860"
+    ],
+    [
+     "Slovan Bratislava",
+     "slovan"
+    ],
+    [
+     "MTK Budapest",
+     "mtk"
+    ]
+   ]
+  },
+  {
+   "id": "f6-wc-1962-teams",
+   "tags": [
+    "worldcup",
+    "60s"
+   ],
+   "text": "Name a team that played at the 1962 World Cup in Chile",
+   "answers": [
+    "Brazil",
+    "England",
+    "Argentina",
+    "Italy",
+    "West Germany",
+    "Spain",
+    "Chile",
+    "Uruguay",
+    "Mexico",
+    "Soviet Union",
+    "Hungary",
+    "Czechoslovakia",
+    "Yugoslavia",
+    "Switzerland",
+    "Bulgaria",
+    "Colombia"
+   ]
+  },
+  {
+   "id": "f6-brazil-1962-squad",
+   "tags": [
+    "worldcup",
+    "60s"
+   ],
+   "text": "Name a player in Brazil's 22-man squad that won the 1962 World Cup",
+   "answers": [
+    "Pelé",
+    "Garrincha",
+    [
+     "Mário Zagallo",
+     "zagallo"
+    ],
+    "Vavá",
+    "Didi",
+    [
+     "Nílton Santos",
+     "nilton"
+    ],
+    [
+     "Djalma Santos",
+     "djalma"
+    ],
+    "Amarildo",
+    "Gilmar",
+    "Zito",
+    "Bellini",
+    [
+     "Mauro Ramos",
+     "mauro"
+    ],
+    "Zózimo",
+    "Coutinho",
+    "Pepe",
+    "Castilho",
+    "Altair",
+    "Jurandir",
+    "Zequinha",
+    "Mengálvio",
+    "Jair da Costa",
+    "Jair Marinho"
+   ]
+  },
+  {
+   "id": "f6-ballon-dor-top-three-1960s",
+   "tags": [
+    "europe",
+    "60s"
+   ],
+   "text": "Name a player who finished in the top three of the Ballon d'Or voting between 1960 and 1969",
+   "answers": [
+    [
+     "George Best",
+     "Best"
+    ],
+    [
+     "Bobby Charlton",
+     "Charlton"
+    ],
+    [
+     "Denis Law",
+     "Law"
+    ],
+    [
+     "Franz Beckenbauer",
+     "Beckenbauer"
+    ],
+    "Eusébio",
+    [
+     "Jimmy Greaves",
+     "Greaves"
+    ],
+    [
+     "Gerd Müller",
+     "Müller",
+     "muller"
+    ],
+    [
+     "Ferenc Puskás",
+     "Puskás",
+     "puskas"
+    ],
+    [
+     "Lev Yashin",
+     "Yashin"
+    ],
+    [
+     "Jimmy Johnstone",
+     "Johnstone"
+    ],
+    [
+     "Gianni Rivera",
+     "Rivera"
+    ],
+    [
+     "Uwe Seeler",
+     "Seeler"
+    ],
+    [
+     "Luis Suárez",
+     "Suárez",
+     "suarez"
+    ],
+    [
+     "Giacinto Facchetti",
+     "Facchetti"
+    ],
+    [
+     "Gigi Riva",
+     "Riva",
+     "luigi riva"
+    ],
+    [
+     "Johnny Haynes",
+     "Haynes"
+    ],
+    [
+     "Omar Sívori",
+     "Sívori",
+     "sivori"
+    ],
+    [
+     "Josef Masopust",
+     "Masopust"
+    ],
+    [
+     "Flórián Albert",
+     "Albert",
+     "florian albert"
+    ],
+    "Amancio",
+    [
+     "Karl-Heinz Schnellinger",
+     "Schnellinger"
+    ],
+    [
+     "Dragan Džajić",
+     "Džajić",
+     "dzajic"
+    ]
+   ]
+  },
+  {
+   "id": "f6-scottish-division-one-1966-67",
+   "tags": [
+    "scotland",
+    "60s"
+   ],
+   "text": "Name a club that played in the Scottish First Division (top flight) in 1966-67",
+   "answers": [
+    "Celtic",
+    "Rangers",
+    "Aberdeen",
+    "Heart of Midlothian",
+    "Hibernian",
+    "Dundee United",
+    "Dundee",
+    "Kilmarnock",
+    "Motherwell",
+    "St Mirren",
+    "Dunfermline Athletic",
+    "Partick Thistle",
+    "St Johnstone",
+    "Falkirk",
+    "Airdrieonians",
+    "Ayr United",
+    "Clyde",
+    "Stirling Albion"
+   ]
+  },
+  {
+   "id": "f6-first-division-1971-72",
+   "tags": [
+    "pl",
+    "70s"
+   ],
+   "text": "Name a club that played in the First Division (English top flight) in 1971-72",
+   "answers": [
+    "Liverpool",
+    "Manchester United",
+    "Leeds United",
+    "Arsenal",
+    "Derby County",
+    "Manchester City",
+    "Chelsea",
+    "Tottenham Hotspur",
+    "Everton",
+    "West Ham United",
+    "Newcastle United",
+    "Wolverhampton Wanderers",
+    "Nottingham Forest",
+    "Southampton",
+    "Ipswich Town",
+    "Leicester City",
+    "Stoke City",
+    "West Bromwich Albion",
+    "Coventry City",
+    "Crystal Palace",
+    "Sheffield United",
+    "Huddersfield Town"
+   ]
+  },
+  {
+   "id": "f6-first-division-1974-75",
+   "tags": [
+    "pl",
+    "70s"
+   ],
+   "text": "Name a club that played in the First Division (English top flight) in 1974-75",
+   "answers": [
+    "Liverpool",
+    "Derby County",
+    "Leeds United",
+    "Arsenal",
+    "Everton",
+    "Tottenham Hotspur",
+    "Manchester City",
+    "Chelsea",
+    "West Ham United",
+    "Newcastle United",
+    "Ipswich Town",
+    "Wolverhampton Wanderers",
+    "Middlesbrough",
+    "Stoke City",
+    "Queens Park Rangers",
+    "Coventry City",
+    "Leicester City",
+    "Sheffield United",
+    "Burnley",
+    "Birmingham City",
+    "Luton Town",
+    "Carlisle United"
+   ]
+  },
+  {
+   "id": "f6-first-division-top-three-1970s",
+   "tags": [
+    "pl",
+    "70s"
+   ],
+   "text": "Name a club that finished in the top three of the First Division in any season from 1970-71 to 1978-79",
+   "answers": [
+    "Liverpool",
+    "Leeds United",
+    "Arsenal",
+    "Manchester United",
+    "Nottingham Forest",
+    "Derby County",
+    "Tottenham Hotspur",
+    "Manchester City",
+    "Everton",
+    "Ipswich Town",
+    "Queens Park Rangers",
+    "West Bromwich Albion"
+   ]
+  },
+  {
+   "id": "f6-league-cup-finalists-1970s",
+   "tags": [
+    "cups",
+    "70s"
+   ],
+   "text": "Name a club that played in a League Cup final between 1970 and 1979 (winners or runners-up)",
+   "answers": [
+    "Liverpool",
+    "Manchester City",
+    "Tottenham Hotspur",
+    "Nottingham Forest",
+    "Aston Villa",
+    "Chelsea",
+    "Everton",
+    "Newcastle United",
+    "Wolverhampton Wanderers",
+    "Southampton",
+    "West Bromwich Albion",
+    "Stoke City",
+    "Norwich City"
+   ]
+  },
+  {
+   "id": "f6-leeds-1973-74",
+   "tags": [
+    "pl",
+    "70s"
+   ],
+   "text": "Name a player who made at least one league appearance for Leeds United in their 1973-74 title season",
+   "answers": [
+    [
+     "Billy Bremner",
+     "Bremner"
+    ],
+    [
+     "Norman Hunter",
+     "Hunter"
+    ],
+    [
+     "Johnny Giles",
+     "Giles",
+     "john giles"
+    ],
+    [
+     "Peter Lorimer",
+     "Lorimer"
+    ],
+    [
+     "Allan Clarke",
+     "Clarke",
+     "alan clarke"
+    ],
+    [
+     "Joe Jordan",
+     "Jordan"
+    ],
+    [
+     "Gordon McQueen",
+     "McQueen"
+    ],
+    "Eddie Gray",
+    [
+     "Paul Madeley",
+     "Madeley"
+    ],
+    [
+     "Paul Reaney",
+     "Reaney"
+    ],
+    [
+     "Mick Jones",
+     "Jones"
+    ],
+    [
+     "David Harvey",
+     "Harvey"
+    ],
+    [
+     "Trevor Cherry",
+     "Cherry"
+    ],
+    [
+     "Terry Yorath",
+     "Yorath"
+    ],
+    "Frank Gray",
+    [
+     "Terry Cooper",
+     "Cooper"
+    ],
+    [
+     "Mick Bates",
+     "Bates"
+    ],
+    [
+     "David Stewart",
+     "Stewart"
+    ],
+    [
+     "Roy Ellam",
+     "Ellam"
+    ],
+    [
+     "Gary Liddell",
+     "Liddell"
+    ]
+   ]
+  },
+  {
+   "id": "f6-forest-1977-78",
+   "tags": [
+    "pl",
+    "70s"
+   ],
+   "text": "Name a player who made at least one league appearance for Nottingham Forest in their 1977-78 title season",
+   "answers": [
+    [
+     "Peter Shilton",
+     "Shilton"
+    ],
+    [
+     "John Robertson",
+     "Robertson"
+    ],
+    [
+     "Martin O'Neill",
+     "O'Neill"
+    ],
+    [
+     "Archie Gemmill",
+     "Gemmill"
+    ],
+    [
+     "Viv Anderson",
+     "Anderson"
+    ],
+    [
+     "Kenny Burns",
+     "Burns"
+    ],
+    [
+     "Tony Woodcock",
+     "Woodcock"
+    ],
+    [
+     "Larry Lloyd",
+     "Lloyd"
+    ],
+    [
+     "John McGovern",
+     "McGovern"
+    ],
+    [
+     "Peter Withe",
+     "Withe"
+    ],
+    [
+     "Ian Bowyer",
+     "Bowyer"
+    ],
+    [
+     "Frank Clark",
+     "Clark"
+    ],
+    [
+     "Colin Barrett",
+     "Barrett"
+    ],
+    [
+     "David Needham",
+     "Needham"
+    ],
+    [
+     "John O'Hare",
+     "O'Hare"
+    ],
+    [
+     "John Middleton",
+     "Middleton"
+    ]
+   ]
+  },
+  {
+   "id": "f6-liverpool-1978-79",
+   "tags": [
+    "pl",
+    "70s"
+   ],
+   "text": "Name a player who made at least one league appearance for Liverpool in their 1978-79 title season",
+   "answers": [
+    [
+     "Kenny Dalglish",
+     "Dalglish"
+    ],
+    [
+     "Graeme Souness",
+     "Souness"
+    ],
+    [
+     "Alan Hansen",
+     "Hansen"
+    ],
+    [
+     "Ray Clemence",
+     "Clemence"
+    ],
+    [
+     "Phil Neal",
+     "Neal"
+    ],
+    [
+     "Terry McDermott",
+     "McDermott"
+    ],
+    [
+     "Jimmy Case",
+     "Case"
+    ],
+    [
+     "Emlyn Hughes",
+     "Hughes"
+    ],
+    [
+     "Phil Thompson",
+     "Thompson"
+    ],
+    "Ray Kennedy",
+    "Alan Kennedy",
+    [
+     "David Johnson",
+     "Johnson"
+    ],
+    [
+     "Steve Heighway",
+     "Heighway"
+    ],
+    [
+     "David Fairclough",
+     "Fairclough"
+    ],
+    [
+     "Sammy Lee",
+     "Lee"
+    ]
+   ]
+  },
+  {
+   "id": "f6-wc-final-1970",
+   "tags": [
+    "worldcup",
+    "70s"
+   ],
+   "text": "Name a player who appeared for either side in the 1970 World Cup final (Brazil v Italy), starters and used substitutes",
+   "answers": [
+    "Pelé",
+    "Jairzinho",
+    [
+     "Carlos Alberto",
+     "carlos alberto torres"
+    ],
+    "Rivellino",
+    "Tostão",
+    "Gérson",
+    [
+     "Gianni Rivera",
+     "rivera"
+    ],
+    [
+     "Gigi Riva",
+     "riva",
+     "luigi riva"
+    ],
+    [
+     "Giacinto Facchetti",
+     "facchetti"
+    ],
+    [
+     "Sandro Mazzola",
+     "mazzola"
+    ],
+    "Clodoaldo",
+    [
+     "Tarcisio Burgnich",
+     "burgnich"
+    ],
+    [
+     "Roberto Boninsegna",
+     "boninsegna"
+    ],
+    [
+     "Enrico Albertosi",
+     "albertosi"
+    ],
+    "Everaldo",
+    [
+     "Angelo Domenghini",
+     "domenghini"
+    ],
+    "Félix",
+    [
+     "Wilson Piazza",
+     "piazza"
+    ],
+    "Brito",
+    [
+     "Giancarlo De Sisti",
+     "de sisti"
+    ],
+    [
+     "Pierluigi Cera",
+     "cera"
+    ],
+    [
+     "Roberto Rosato",
+     "rosato"
+    ],
+    [
+     "Mario Bertini",
+     "bertini"
+    ],
+    [
+     "Antonio Juliano",
+     "juliano"
+    ]
+   ]
+  },
+  {
+   "id": "f6-wc-1970-teams",
+   "tags": [
+    "worldcup",
+    "70s"
+   ],
+   "text": "Name a team that played at the 1970 World Cup in Mexico",
+   "answers": [
+    "Brazil",
+    "England",
+    "Italy",
+    "West Germany",
+    "Mexico",
+    "Uruguay",
+    "Soviet Union",
+    "Sweden",
+    "Belgium",
+    "Peru",
+    "Romania",
+    "Czechoslovakia",
+    "Bulgaria",
+    "Morocco",
+    "Israel",
+    "El Salvador"
+   ]
+  },
+  {
+   "id": "f6-wc-1974-teams",
+   "tags": [
+    "worldcup",
+    "70s"
+   ],
+   "text": "Name a team that played at the 1974 World Cup in West Germany",
+   "answers": [
+    "West Germany",
+    "Netherlands",
+    "Brazil",
+    "Scotland",
+    "Italy",
+    "Argentina",
+    "Poland",
+    "East Germany",
+    "Uruguay",
+    "Sweden",
+    "Yugoslavia",
+    "Chile",
+    "Bulgaria",
+    "Australia",
+    "Haiti",
+    [
+     "Zaire",
+     "dr congo"
+    ]
+   ]
+  },
+  {
+   "id": "f6-england-1970-squad",
+   "tags": [
+    "worldcup",
+    "70s"
+   ],
+   "text": "Name a player in England's 22-man squad for the 1970 World Cup",
+   "answers": [
+    [
+     "Bobby Moore",
+     "Moore"
+    ],
+    "Bobby Charlton",
+    [
+     "Gordon Banks",
+     "Banks"
+    ],
+    [
+     "Geoff Hurst",
+     "Hurst"
+    ],
+    [
+     "Alan Ball",
+     "Ball"
+    ],
+    [
+     "Martin Peters",
+     "Peters"
+    ],
+    "Jack Charlton",
+    [
+     "Nobby Stiles",
+     "Stiles"
+    ],
+    [
+     "Francis Lee",
+     "Lee"
+    ],
+    [
+     "Peter Bonetti",
+     "Bonetti"
+    ],
+    [
+     "Alan Mullery",
+     "Mullery"
+    ],
+    [
+     "Terry Cooper",
+     "Cooper"
+    ],
+    [
+     "Emlyn Hughes",
+     "Hughes"
+    ],
+    [
+     "Norman Hunter",
+     "Hunter"
+    ],
+    [
+     "Colin Bell",
+     "Bell"
+    ],
+    [
+     "Peter Osgood",
+     "Osgood"
+    ],
+    [
+     "Allan Clarke",
+     "Clarke",
+     "alan clarke"
+    ],
+    [
+     "Jeff Astle",
+     "Astle"
+    ],
+    [
+     "Alex Stepney",
+     "Stepney"
+    ],
+    [
+     "Keith Newton",
+     "Newton"
+    ],
+    [
+     "Brian Labone",
+     "Labone"
+    ],
+    [
+     "Tommy Wright",
+     "Wright"
+    ]
+   ]
+  },
+  {
+   "id": "f6-scotland-1974-squad",
+   "tags": [
+    "worldcup",
+    "70s"
+   ],
+   "text": "Name a player in Scotland's 22-man squad for the 1974 World Cup",
+   "answers": [
+    [
+     "Billy Bremner",
+     "Bremner"
+    ],
+    [
+     "Kenny Dalglish",
+     "Dalglish"
+    ],
+    [
+     "Denis Law",
+     "Law"
+    ],
+    [
+     "Joe Jordan",
+     "Jordan"
+    ],
+    [
+     "Peter Lorimer",
+     "Lorimer"
+    ],
+    [
+     "Danny McGrain",
+     "McGrain"
+    ],
+    [
+     "Jimmy Johnstone",
+     "Johnstone"
+    ],
+    [
+     "Gordon McQueen",
+     "McQueen"
+    ],
+    [
+     "Martin Buchan",
+     "Buchan"
+    ],
+    [
+     "David Harvey",
+     "Harvey"
+    ],
+    [
+     "Sandy Jardine",
+     "Jardine"
+    ],
+    [
+     "Willie Morgan",
+     "Morgan"
+    ],
+    [
+     "David Hay",
+     "Hay"
+    ],
+    [
+     "Jim Holton",
+     "Holton"
+    ],
+    [
+     "Willie Donachie",
+     "Donachie"
+    ],
+    [
+     "Tommy Hutchison",
+     "Hutchison"
+    ],
+    [
+     "Peter Cormack",
+     "Cormack"
+    ],
+    [
+     "John Blackley",
+     "Blackley"
+    ],
+    [
+     "Jim Stewart",
+     "Stewart"
+    ],
+    [
+     "Donald Ford",
+     "Ford"
+    ],
+    [
+     "Erich Schaedler",
+     "Schaedler"
+    ],
+    [
+     "Thomson Allan",
+     "Allan"
+    ]
+   ]
+  },
+  {
+   "id": "f6-scotland-1978-squad",
+   "tags": [
+    "worldcup",
+    "70s"
+   ],
+   "text": "Name a player in Scotland's 22-man squad for the 1978 World Cup in Argentina",
+   "answers": [
+    [
+     "Kenny Dalglish",
+     "Dalglish"
+    ],
+    [
+     "Graeme Souness",
+     "Souness"
+    ],
+    [
+     "Archie Gemmill",
+     "Gemmill"
+    ],
+    [
+     "Joe Jordan",
+     "Jordan"
+    ],
+    [
+     "Alan Rough",
+     "Rough"
+    ],
+    [
+     "Lou Macari",
+     "Macari"
+    ],
+    [
+     "Gordon McQueen",
+     "McQueen"
+    ],
+    [
+     "Martin Buchan",
+     "Buchan"
+    ],
+    [
+     "Asa Hartford",
+     "Hartford"
+    ],
+    [
+     "John Robertson",
+     "Robertson"
+    ],
+    [
+     "Kenny Burns",
+     "Burns"
+    ],
+    [
+     "Willie Johnston",
+     "Johnston"
+    ],
+    [
+     "Bruce Rioch",
+     "Rioch"
+    ],
+    [
+     "Don Masson",
+     "Masson"
+    ],
+    [
+     "Derek Johnstone",
+     "Johnstone"
+    ],
+    [
+     "Sandy Jardine",
+     "Jardine"
+    ],
+    [
+     "Willie Donachie",
+     "Donachie"
+    ],
+    [
+     "Tom Forsyth",
+     "Forsyth"
+    ],
+    [
+     "Stuart Kennedy",
+     "Kennedy"
+    ],
+    [
+     "Joe Harper",
+     "Harper"
+    ],
+    [
+     "Jim Blyth",
+     "Blyth"
+    ],
+    [
+     "Bobby Clark",
+     "Clark"
+    ]
+   ]
+  },
+  {
+   "id": "f6-european-cup-finalists-1970s",
+   "tags": [
+    "ucl",
+    "70s"
+   ],
+   "text": "Name a club that played in a European Cup final between 1970 and 1979 (winners or runners-up)",
+   "answers": [
+    "Liverpool",
+    "Bayern Munich",
+    "Ajax",
+    "Nottingham Forest",
+    "Leeds United",
+    "Celtic",
+    "Juventus",
+    "Inter Milan",
+    "Atlético Madrid",
+    "Borussia Mönchengladbach",
+    "Feyenoord",
+    "Saint-Étienne",
+    [
+     "Club Brugge",
+     "bruges",
+     "club bruges"
+    ],
+    [
+     "Malmö FF",
+     "malmo"
+    ],
+    "Panathinaikos"
+   ]
+  },
+  {
+   "id": "f6-european-cup-final-1977",
+   "tags": [
+    "ucl",
+    "70s"
+   ],
+   "text": "Name a player who appeared for either side in the 1977 European Cup final (Liverpool v Borussia Mönchengladbach), starters and used substitutes",
+   "answers": [
+    [
+     "Kevin Keegan",
+     "Keegan"
+    ],
+    [
+     "Emlyn Hughes",
+     "Hughes"
+    ],
+    [
+     "Ray Clemence",
+     "Clemence"
+    ],
+    [
+     "Phil Neal",
+     "Neal"
+    ],
+    [
+     "Tommy Smith",
+     "Smith"
+    ],
+    [
+     "Jimmy Case",
+     "Case"
+    ],
+    [
+     "Terry McDermott",
+     "McDermott"
+    ],
+    [
+     "Ray Kennedy",
+     "Kennedy"
+    ],
+    [
+     "Ian Callaghan",
+     "Callaghan"
+    ],
+    [
+     "Steve Heighway",
+     "Heighway"
+    ],
+    [
+     "Joey Jones",
+     "Jones"
+    ],
+    [
+     "Allan Simonsen",
+     "Simonsen",
+     "alan simonsen"
+    ],
+    [
+     "Berti Vogts",
+     "Vogts"
+    ],
+    [
+     "Jupp Heynckes",
+     "Heynckes"
+    ],
+    [
+     "Rainer Bonhof",
+     "Bonhof"
+    ],
+    [
+     "Uli Stielike",
+     "Stielike"
+    ],
+    [
+     "Herbert Wimmer",
+     "Wimmer"
+    ],
+    [
+     "Wolfgang Kneib",
+     "Kneib"
+    ],
+    [
+     "Hans-Jürgen Wittkamp",
+     "Wittkamp",
+     "wittkamp"
+    ],
+    [
+     "Frank Schäffer",
+     "Schäffer",
+     "schaffer"
+    ],
+    [
+     "Hans Klinkhammer",
+     "Klinkhammer"
+    ],
+    [
+     "Horst Wohlers",
+     "Wohlers"
+    ],
+    [
+     "Christian Kulik",
+     "Kulik"
+    ],
+    [
+     "Wilfried Hannes",
+     "Hannes"
+    ]
+   ]
+  },
+  {
+   "id": "f6-ballon-dor-top-three-1970s",
+   "tags": [
+    "europe",
+    "70s"
+   ],
+   "text": "Name a player who finished in the top three of the Ballon d'Or voting between 1970 and 1979",
+   "answers": [
+    [
+     "Johan Cruyff",
+     "Cruyff",
+     "cruijff"
+    ],
+    [
+     "Franz Beckenbauer",
+     "Beckenbauer"
+    ],
+    [
+     "Kevin Keegan",
+     "Keegan"
+    ],
+    [
+     "Gerd Müller",
+     "Müller",
+     "muller"
+    ],
+    [
+     "George Best",
+     "Best"
+    ],
+    [
+     "Bobby Moore",
+     "Moore"
+    ],
+    [
+     "Michel Platini",
+     "Platini"
+    ],
+    [
+     "Dino Zoff",
+     "Zoff"
+    ],
+    [
+     "Karl-Heinz Rummenigge",
+     "Rummenigge"
+    ],
+    [
+     "Gigi Riva",
+     "Riva",
+     "luigi riva"
+    ],
+    [
+     "Sandro Mazzola",
+     "Mazzola"
+    ],
+    [
+     "Günter Netzer",
+     "Netzer",
+     "gunter netzer"
+    ],
+    [
+     "Ruud Krol",
+     "Krol"
+    ],
+    [
+     "Kazimierz Deyna",
+     "Deyna"
+    ],
+    [
+     "Oleg Blokhin",
+     "Blokhin"
+    ],
+    [
+     "Allan Simonsen",
+     "Simonsen",
+     "alan simonsen"
+    ],
+    [
+     "Rob Rensenbrink",
+     "Rensenbrink"
+    ],
+    [
+     "Hans Krankl",
+     "Krankl"
+    ],
+    [
+     "Ivo Viktor",
+     "Viktor"
+    ]
+   ]
+  },
+  {
+   "id": "f6-first-division-1984-85",
+   "tags": [
+    "pl",
+    "80s"
+   ],
+   "text": "Name a club that played in the First Division (English top flight) in 1984-85",
+   "answers": [
+    "Liverpool",
+    "Everton",
+    "Manchester United",
+    "Arsenal",
+    "Tottenham Hotspur",
+    "Chelsea",
+    "Aston Villa",
+    "West Ham United",
+    "Newcastle United",
+    "Nottingham Forest",
+    "Southampton",
+    "Sheffield Wednesday",
+    "Leicester City",
+    "Ipswich Town",
+    "Watford",
+    "West Bromwich Albion",
+    "Coventry City",
+    "Norwich City",
+    "Sunderland",
+    "Queens Park Rangers",
+    "Luton Town",
+    "Stoke City"
+   ]
+  },
+  {
+   "id": "f6-fa-cup-finalists-1980s",
+   "tags": [
+    "cups",
+    "80s"
+   ],
+   "text": "Name a club that played in an FA Cup final between 1980 and 1989 (winners or runners-up)",
+   "answers": [
+    "Liverpool",
+    "Everton",
+    "Manchester United",
+    "Tottenham Hotspur",
+    "Arsenal",
+    "West Ham United",
+    "Manchester City",
+    "Wimbledon",
+    "Coventry City",
+    "Watford",
+    "Queens Park Rangers",
+    "Brighton & Hove Albion"
+   ]
+  },
+  {
+   "id": "f6-league-cup-finalists-1980s",
+   "tags": [
+    "cups",
+    "80s"
+   ],
+   "text": "Name a club that played in a League Cup final between 1980 and 1989 (winners or runners-up)",
+   "answers": [
+    "Liverpool",
+    "Manchester United",
+    "Arsenal",
+    "Everton",
+    "Tottenham Hotspur",
+    "Nottingham Forest",
+    "West Ham United",
+    "Wolverhampton Wanderers",
+    "Luton Town",
+    "Queens Park Rangers",
+    "Norwich City",
+    "Oxford United",
+    "Sunderland"
+   ]
+  },
+  {
+   "id": "f6-aston-villa-1980-81",
+   "tags": [
+    "pl",
+    "80s"
+   ],
+   "text": "Name a player who made at least one league appearance for Aston Villa in their 1980-81 title season",
+   "answers": [
+    [
+     "Peter Withe",
+     "Withe"
+    ],
+    [
+     "Gordon Cowans",
+     "Cowans"
+    ],
+    [
+     "Dennis Mortimer",
+     "Mortimer"
+    ],
+    [
+     "Tony Morley",
+     "Morley"
+    ],
+    [
+     "Gary Shaw",
+     "Shaw"
+    ],
+    [
+     "Jimmy Rimmer",
+     "Rimmer"
+    ],
+    [
+     "Kenny Swain",
+     "Swain"
+    ],
+    [
+     "Ken McNaught",
+     "McNaught"
+    ],
+    [
+     "Allan Evans",
+     "Evans"
+    ],
+    [
+     "Des Bremner",
+     "Bremner"
+    ],
+    [
+     "Gary Williams",
+     "Williams"
+    ],
+    [
+     "Colin Gibson",
+     "Gibson"
+    ],
+    [
+     "David Geddis",
+     "Geddis"
+    ],
+    [
+     "Eamonn Deacy",
+     "Deacy"
+    ]
+   ]
+  },
+  {
+   "id": "f6-everton-1984-85",
+   "tags": [
+    "pl",
+    "80s"
+   ],
+   "text": "Name a player who made at least one league appearance for Everton in their 1984-85 title season",
+   "answers": [
+    [
+     "Neville Southall",
+     "Southall"
+    ],
+    [
+     "Peter Reid",
+     "Reid"
+    ],
+    [
+     "Andy Gray",
+     "Gray"
+    ],
+    [
+     "Graeme Sharp",
+     "Sharp"
+    ],
+    [
+     "Kevin Sheedy",
+     "Sheedy"
+    ],
+    [
+     "Trevor Steven",
+     "Steven"
+    ],
+    [
+     "Kevin Ratcliffe",
+     "Ratcliffe"
+    ],
+    [
+     "Gary Stevens",
+     "Stevens"
+    ],
+    [
+     "Paul Bracewell",
+     "Bracewell"
+    ],
+    [
+     "Derek Mountfield",
+     "Mountfield"
+    ],
+    [
+     "Pat Van Den Hauwe",
+     "Van Den Hauwe"
+    ],
+    [
+     "Adrian Heath",
+     "Heath"
+    ],
+    [
+     "John Bailey",
+     "Bailey"
+    ],
+    [
+     "Kevin Richardson",
+     "Richardson"
+    ],
+    [
+     "Alan Harper",
+     "Harper"
+    ],
+    [
+     "Terry Curran",
+     "Curran"
+    ],
+    [
+     "Ian Atkins",
+     "Atkins"
+    ],
+    [
+     "Paul Wilkinson",
+     "Wilkinson"
+    ],
+    [
+     "Darren Hughes",
+     "Hughes"
+    ],
+    [
+     "Robbie Wakenshaw",
+     "Wakenshaw",
+     "rob wakenshaw"
+    ],
+    [
+     "John Morrissey",
+     "Morrissey"
+    ],
+    [
+     "Jason Danskin",
+     "Danskin"
+    ],
+    [
+     "Derek Walsh",
+     "Walsh"
+    ],
+    [
+     "Darren Oldroyd",
+     "Oldroyd"
+    ],
+    [
+     "Neil Rimmer",
+     "Rimmer",
+     "neill rimmer"
+    ]
+   ]
+  },
+  {
+   "id": "f6-liverpool-1987-88",
+   "tags": [
+    "pl",
+    "80s"
+   ],
+   "text": "Name a player who made at least one league appearance for Liverpool in their 1987-88 title season",
+   "answers": [
+    [
+     "John Barnes",
+     "Barnes"
+    ],
+    [
+     "Peter Beardsley",
+     "Beardsley"
+    ],
+    [
+     "John Aldridge",
+     "Aldridge"
+    ],
+    [
+     "Kenny Dalglish",
+     "Dalglish"
+    ],
+    [
+     "Alan Hansen",
+     "Hansen"
+    ],
+    [
+     "Bruce Grobbelaar",
+     "Grobbelaar"
+    ],
+    [
+     "Steve McMahon",
+     "McMahon"
+    ],
+    [
+     "Ray Houghton",
+     "Houghton"
+    ],
+    [
+     "Ronnie Whelan",
+     "Whelan"
+    ],
+    [
+     "Steve Nicol",
+     "Nicol"
+    ],
+    [
+     "Gary Gillespie",
+     "Gillespie"
+    ],
+    [
+     "Mark Lawrenson",
+     "Lawrenson"
+    ],
+    [
+     "Craig Johnston",
+     "Johnston"
+    ],
+    [
+     "Nigel Spackman",
+     "Spackman"
+    ],
+    [
+     "Jan Mølby",
+     "Mølby",
+     "molby"
+    ],
+    [
+     "Gary Ablett",
+     "Ablett"
+    ],
+    [
+     "Barry Venison",
+     "Venison"
+    ],
+    [
+     "Paul Walsh",
+     "Walsh"
+    ],
+    [
+     "John Wark",
+     "Wark"
+    ],
+    [
+     "Mike Hooper",
+     "Hooper"
+    ],
+    [
+     "Kevin MacDonald",
+     "MacDonald"
+    ],
+    [
+     "Alex Watson",
+     "Watson"
+    ]
+   ]
+  },
+  {
+   "id": "f6-fa-cup-final-1985",
+   "tags": [
+    "cups",
+    "80s"
+   ],
+   "text": "Name a player who appeared for either side in the 1985 FA Cup final (Manchester United v Everton), starters and used substitutes",
+   "answers": [
+    [
+     "Bryan Robson",
+     "Robson"
+    ],
+    [
+     "Norman Whiteside",
+     "Whiteside"
+    ],
+    [
+     "Mark Hughes",
+     "Hughes"
+    ],
+    [
+     "Neville Southall",
+     "Southall"
+    ],
+    [
+     "Peter Reid",
+     "Reid"
+    ],
+    [
+     "Andy Gray",
+     "Gray"
+    ],
+    [
+     "Gordon Strachan",
+     "Strachan"
+    ],
+    [
+     "Paul McGrath",
+     "McGrath"
+    ],
+    [
+     "Kevin Moran",
+     "Moran"
+    ],
+    [
+     "Graeme Sharp",
+     "Sharp"
+    ],
+    [
+     "Kevin Sheedy",
+     "Sheedy"
+    ],
+    [
+     "Trevor Steven",
+     "Steven"
+    ],
+    [
+     "Kevin Ratcliffe",
+     "Ratcliffe"
+    ],
+    [
+     "Frank Stapleton",
+     "Stapleton"
+    ],
+    [
+     "Gary Stevens",
+     "Stevens"
+    ],
+    [
+     "Jesper Olsen",
+     "Olsen"
+    ],
+    [
+     "Paul Bracewell",
+     "Bracewell"
+    ],
+    [
+     "Derek Mountfield",
+     "Mountfield"
+    ],
+    [
+     "Pat Van Den Hauwe",
+     "Van Den Hauwe"
+    ],
+    [
+     "Gary Bailey",
+     "Bailey"
+    ],
+    [
+     "Arthur Albiston",
+     "Albiston"
+    ],
+    [
+     "John Gidman",
+     "Gidman"
+    ],
+    [
+     "Mike Duxbury",
+     "Duxbury"
+    ]
+   ]
+  },
+  {
+   "id": "f6-england-1982-squad",
+   "tags": [
+    "worldcup",
+    "80s"
+   ],
+   "text": "Name a player in England's 22-man squad for the 1982 World Cup",
+   "answers": [
+    [
+     "Kevin Keegan",
+     "Keegan"
+    ],
+    [
+     "Bryan Robson",
+     "Robson"
+    ],
+    [
+     "Glenn Hoddle",
+     "Hoddle"
+    ],
+    [
+     "Peter Shilton",
+     "Shilton"
+    ],
+    [
+     "Ray Wilkins",
+     "Wilkins"
+    ],
+    [
+     "Trevor Francis",
+     "Francis"
+    ],
+    [
+     "Trevor Brooking",
+     "Brooking"
+    ],
+    [
+     "Terry Butcher",
+     "Butcher"
+    ],
+    [
+     "Ray Clemence",
+     "Clemence"
+    ],
+    [
+     "Kenny Sansom",
+     "Sansom"
+    ],
+    [
+     "Viv Anderson",
+     "Anderson"
+    ],
+    [
+     "Phil Neal",
+     "Neal"
+    ],
+    [
+     "Phil Thompson",
+     "Thompson"
+    ],
+    [
+     "Steve Coppell",
+     "Coppell"
+    ],
+    [
+     "Paul Mariner",
+     "Mariner"
+    ],
+    [
+     "Tony Woodcock",
+     "Woodcock"
+    ],
+    [
+     "Peter Withe",
+     "Withe"
+    ],
+    [
+     "Terry McDermott",
+     "McDermott"
+    ],
+    [
+     "Mick Mills",
+     "Mills"
+    ],
+    [
+     "Graham Rix",
+     "Rix"
+    ],
+    [
+     "Joe Corrigan",
+     "Corrigan"
+    ],
+    [
+     "Steve Foster",
+     "Foster"
+    ]
+   ]
+  },
+  {
+   "id": "f6-england-1986-squad",
+   "tags": [
+    "worldcup",
+    "80s"
+   ],
+   "text": "Name a player in England's 22-man squad for the 1986 World Cup (the squad's two Gary Stevenses count as one answer)",
+   "answers": [
+    [
+     "Gary Lineker",
+     "Lineker"
+    ],
+    [
+     "Peter Shilton",
+     "Shilton"
+    ],
+    [
+     "Bryan Robson",
+     "Robson"
+    ],
+    [
+     "Glenn Hoddle",
+     "Hoddle"
+    ],
+    [
+     "Peter Beardsley",
+     "Beardsley"
+    ],
+    [
+     "John Barnes",
+     "Barnes"
+    ],
+    [
+     "Chris Waddle",
+     "Waddle"
+    ],
+    [
+     "Terry Butcher",
+     "Butcher"
+    ],
+    [
+     "Ray Wilkins",
+     "Wilkins"
+    ],
+    [
+     "Peter Reid",
+     "Reid"
+    ],
+    [
+     "Kenny Sansom",
+     "Sansom"
+    ],
+    [
+     "Mark Hateley",
+     "Hateley"
+    ],
+    [
+     "Trevor Steven",
+     "Steven"
+    ],
+    [
+     "Gary Stevens",
+     "Stevens"
+    ],
+    [
+     "Viv Anderson",
+     "Anderson"
+    ],
+    [
+     "Steve Hodge",
+     "Hodge"
+    ],
+    [
+     "Kerry Dixon",
+     "Dixon"
+    ],
+    [
+     "Chris Woods",
+     "Woods"
+    ],
+    [
+     "Terry Fenwick",
+     "Fenwick"
+    ],
+    [
+     "Alvin Martin",
+     "Martin"
+    ],
+    [
+     "Gary Bailey",
+     "Bailey"
+    ]
+   ]
+  },
+  {
+   "id": "f6-scotland-1982-squad",
+   "tags": [
+    "worldcup",
+    "80s"
+   ],
+   "text": "Name a player in Scotland's 22-man squad for the 1982 World Cup",
+   "answers": [
+    [
+     "Kenny Dalglish",
+     "Dalglish"
+    ],
+    [
+     "Graeme Souness",
+     "Souness"
+    ],
+    [
+     "Gordon Strachan",
+     "Strachan"
+    ],
+    [
+     "Alan Hansen",
+     "Hansen"
+    ],
+    [
+     "Joe Jordan",
+     "Jordan"
+    ],
+    [
+     "Willie Miller",
+     "Miller"
+    ],
+    [
+     "Alex McLeish",
+     "McLeish"
+    ],
+    [
+     "Danny McGrain",
+     "McGrain"
+    ],
+    [
+     "Alan Rough",
+     "Rough"
+    ],
+    [
+     "Jim Leighton",
+     "Leighton"
+    ],
+    [
+     "John Robertson",
+     "Robertson"
+    ],
+    [
+     "John Wark",
+     "Wark"
+    ],
+    [
+     "Steve Archibald",
+     "Archibald"
+    ],
+    [
+     "Asa Hartford",
+     "Hartford"
+    ],
+    [
+     "Frank Gray",
+     "Gray"
+    ],
+    [
+     "Alan Brazil",
+     "Brazil"
+    ],
+    [
+     "David Narey",
+     "Narey"
+    ],
+    [
+     "Allan Evans",
+     "Evans"
+    ],
+    [
+     "Paul Sturrock",
+     "Sturrock"
+    ],
+    [
+     "Davie Provan",
+     "Provan"
+    ],
+    [
+     "George Burley",
+     "Burley"
+    ],
+    [
+     "George Wood",
+     "Wood"
+    ]
+   ]
+  },
+  {
+   "id": "f6-scotland-1986-squad",
+   "tags": [
+    "worldcup",
+    "80s"
+   ],
+   "text": "Name a player in Scotland's 22-man squad for the 1986 World Cup",
+   "answers": [
+    [
+     "Graeme Souness",
+     "Souness"
+    ],
+    [
+     "Gordon Strachan",
+     "Strachan"
+    ],
+    [
+     "Steve Nicol",
+     "Nicol"
+    ],
+    [
+     "Jim Leighton",
+     "Leighton"
+    ],
+    [
+     "Alex McLeish",
+     "McLeish"
+    ],
+    [
+     "Willie Miller",
+     "Miller"
+    ],
+    [
+     "Charlie Nicholas",
+     "Nicholas"
+    ],
+    [
+     "Graeme Sharp",
+     "Sharp"
+    ],
+    [
+     "Paul McStay",
+     "McStay"
+    ],
+    [
+     "Roy Aitken",
+     "Aitken"
+    ],
+    [
+     "Richard Gough",
+     "Gough"
+    ],
+    [
+     "Andy Goram",
+     "Goram"
+    ],
+    [
+     "Frank McAvennie",
+     "McAvennie"
+    ],
+    [
+     "Steve Archibald",
+     "Archibald"
+    ],
+    [
+     "Maurice Malpas",
+     "Malpas"
+    ],
+    [
+     "Davie Cooper",
+     "Cooper"
+    ],
+    [
+     "Alan Rough",
+     "Rough"
+    ],
+    [
+     "David Narey",
+     "Narey"
+    ],
+    [
+     "Arthur Albiston",
+     "Albiston"
+    ],
+    [
+     "Jim Bett",
+     "Bett"
+    ],
+    [
+     "Eamonn Bannon",
+     "Bannon"
+    ],
+    [
+     "Paul Sturrock",
+     "Sturrock"
+    ]
+   ]
+  },
+  {
+   "id": "f6-england-euro-88-squad",
+   "tags": [
+    "euros",
+    "80s"
+   ],
+   "text": "Name a player in England's 20-man squad for Euro 88",
+   "answers": [
+    [
+     "Gary Lineker",
+     "Lineker"
+    ],
+    [
+     "Peter Shilton",
+     "Shilton"
+    ],
+    [
+     "Bryan Robson",
+     "Robson"
+    ],
+    [
+     "John Barnes",
+     "Barnes"
+    ],
+    [
+     "Peter Beardsley",
+     "Beardsley"
+    ],
+    [
+     "Tony Adams",
+     "Adams"
+    ],
+    [
+     "Glenn Hoddle",
+     "Hoddle"
+    ],
+    [
+     "Chris Waddle",
+     "Waddle"
+    ],
+    [
+     "Neil Webb",
+     "Webb"
+    ],
+    [
+     "Mark Hateley",
+     "Hateley"
+    ],
+    [
+     "Kenny Sansom",
+     "Sansom"
+    ],
+    [
+     "Gary Stevens",
+     "Stevens"
+    ],
+    [
+     "Peter Reid",
+     "Reid"
+    ],
+    [
+     "Steve McMahon",
+     "McMahon"
+    ],
+    [
+     "Trevor Steven",
+     "Steven"
+    ],
+    [
+     "Chris Woods",
+     "Woods"
+    ],
+    [
+     "Mark Wright",
+     "Wright"
+    ],
+    [
+     "Viv Anderson",
+     "Anderson"
+    ],
+    [
+     "Tony Dorigo",
+     "Dorigo"
+    ],
+    [
+     "Dave Watson",
+     "Watson",
+     "david watson"
+    ]
+   ]
+  },
+  {
+   "id": "f6-european-cup-finalists-1980s",
+   "tags": [
+    "ucl",
+    "80s"
+   ],
+   "text": "Name a club that played in a European Cup final between 1980 and 1989 (winners or runners-up)",
+   "answers": [
+    "Liverpool",
+    "Real Madrid",
+    "AC Milan",
+    "Juventus",
+    "Bayern Munich",
+    "Barcelona",
+    "Nottingham Forest",
+    "Aston Villa",
+    "Roma",
+    "Benfica",
+    "Hamburg",
+    "Porto",
+    "PSV Eindhoven",
+    "Steaua Bucharest"
+   ]
+  },
+  {
+   "id": "f6-uefa-cup-finalists-1980s",
+   "tags": [
+    "ucl",
+    "80s"
+   ],
+   "text": "Name a club that played in a UEFA Cup final between 1980 and 1989 (winners or runners-up)",
+   "answers": [
+    "Tottenham Hotspur",
+    "Real Madrid",
+    "Ipswich Town",
+    "Napoli",
+    "Dundee United",
+    "Benfica",
+    "Anderlecht",
+    "Hamburg",
+    "Bayer Leverkusen",
+    "Eintracht Frankfurt",
+    "Borussia Mönchengladbach",
+    [
+     "VfB Stuttgart",
+     "stuttgart"
+    ],
+    [
+     "1. FC Köln",
+     "koln",
+     "cologne",
+     "fc koln"
+    ],
+    [
+     "IFK Göteborg",
+     "goteborg",
+     "gothenburg",
+     "ifk gothenburg"
+    ],
+    "Espanyol",
+    [
+     "AZ Alkmaar",
+     "az",
+     "az 67"
+    ],
+    [
+     "Videoton",
+     "fehervar"
+    ]
+   ]
+  },
+  {
+   "id": "f6-wc-final-1986",
+   "tags": [
+    "worldcup",
+    "80s"
+   ],
+   "text": "Name a player who appeared for either side in the 1986 World Cup final (Argentina v West Germany), starters and used substitutes",
+   "answers": [
+    [
+     "Diego Maradona",
+     "maradona"
+    ],
+    [
+     "Lothar Matthäus",
+     "matthaus"
+    ],
+    [
+     "Karl-Heinz Rummenigge",
+     "rummenigge"
+    ],
+    [
+     "Rudi Völler",
+     "voller"
+    ],
+    [
+     "Jorge Valdano",
+     "valdano"
+    ],
+    [
+     "Jorge Burruchaga",
+     "burruchaga"
+    ],
+    [
+     "Harald Schumacher",
+     "schumacher",
+     "toni schumacher"
+    ],
+    [
+     "Andreas Brehme",
+     "brehme"
+    ],
+    [
+     "Oscar Ruggeri",
+     "ruggeri"
+    ],
+    [
+     "Felix Magath",
+     "magath"
+    ],
+    [
+     "Klaus Allofs",
+     "allofs"
+    ],
+    [
+     "Nery Pumpido",
+     "pumpido"
+    ],
+    [
+     "José Luis Brown",
+     "brown"
+    ],
+    [
+     "Hans-Peter Briegel",
+     "briegel"
+    ],
+    [
+     "Karlheinz Förster",
+     "forster"
+    ],
+    [
+     "Thomas Berthold",
+     "berthold"
+    ],
+    [
+     "Dieter Hoeneß",
+     "hoeness",
+     "hoenes"
+    ],
+    [
+     "Sergio Batista",
+     "batista"
+    ],
+    [
+     "Ricardo Giusti",
+     "giusti"
+    ],
+    [
+     "Héctor Enrique",
+     "enrique"
+    ],
+    [
+     "Julio Olarticoechea",
+     "olarticoechea"
+    ],
+    [
+     "José Luis Cuciuffo",
+     "cuciuffo"
+    ],
+    [
+     "Ditmar Jakobs",
+     "jakobs"
+    ],
+    [
+     "Norbert Eder",
+     "eder"
+    ],
+    [
+     "Marcelo Trobbiani",
+     "trobbiani"
+    ]
+   ]
+  },
+  {
+   "id": "f6-ballon-dor-top-three-1980s",
+   "tags": [
+    "europe",
+    "80s"
+   ],
+   "text": "Name a player who finished in the top three of the Ballon d'Or voting between 1980 and 1989",
+   "answers": [
+    [
+     "Marco van Basten",
+     "van Basten"
+    ],
+    [
+     "Ruud Gullit",
+     "Gullit"
+    ],
+    [
+     "Michel Platini",
+     "Platini"
+    ],
+    [
+     "Gary Lineker",
+     "Lineker"
+    ],
+    [
+     "Kenny Dalglish",
+     "Dalglish"
+    ],
+    [
+     "Frank Rijkaard",
+     "Rijkaard"
+    ],
+    [
+     "Karl-Heinz Rummenigge",
+     "Rummenigge"
+    ],
+    [
+     "Paolo Rossi",
+     "Rossi"
+    ],
+    [
+     "Franco Baresi",
+     "Baresi"
+    ],
+    [
+     "Emilio Butragueño",
+     "Butragueño",
+     "butragueno"
+    ],
+    [
+     "Zbigniew Boniek",
+     "Boniek"
+    ],
+    [
+     "Bernd Schuster",
+     "Schuster"
+    ],
+    [
+     "Paul Breitner",
+     "Breitner"
+    ],
+    [
+     "Igor Belanov",
+     "Belanov"
+    ],
+    [
+     "Paulo Futre",
+     "Futre"
+    ],
+    [
+     "Jean Tigana",
+     "Tigana"
+    ],
+    [
+     "Alain Giresse",
+     "Giresse"
+    ],
+    [
+     "Preben Elkjær",
+     "Elkjær",
+     "elkjaer"
+    ],
+    [
+     "Allan Simonsen",
+     "Simonsen",
+     "alan simonsen"
+    ]
+   ]
+  },
+  {
+   "id": "f6-scottish-premier-1980s",
+   "tags": [
+    "scotland",
+    "80s"
+   ],
+   "text": "Name a club that played in the Scottish Premier Division in any season from 1980-81 to 1988-89",
+   "answers": [
+    "Celtic",
+    "Rangers",
+    "Aberdeen",
+    "Dundee United",
+    "Heart of Midlothian",
+    "Hibernian",
+    "Motherwell",
+    "St Mirren",
+    "Dundee",
+    "Kilmarnock",
+    "St Johnstone",
+    "Dunfermline Athletic",
+    "Partick Thistle",
+    "Falkirk",
+    [
+     "Morton",
+     "greenock morton"
+    ],
+    [
+     "Hamilton Academical",
+     "hamilton"
+    ],
+    "Airdrieonians",
+    "Clydebank",
+    "Dumbarton"
+   ]
+  }
+ ]
+}

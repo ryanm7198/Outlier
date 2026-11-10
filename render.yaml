@@ -1,0 +1,12 @@
+# Render blueprint: New > Blueprint in the Render dashboard, then pick this repo.
+services:
+  - type: web
+    name: outlier
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7

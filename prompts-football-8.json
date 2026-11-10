@@ -1,0 +1,2810 @@
+{
+ "cat": "football",
+ "prompts": [
+  {
+   "id": "f8-pl-clubs-2011-12",
+   "tags": [
+    "10s",
+    "pl"
+   ],
+   "text": "Name a club that played in the 2011-12 Premier League",
+   "answers": [
+    "Manchester City",
+    "Manchester United",
+    "Arsenal",
+    "Chelsea",
+    "Liverpool",
+    "Tottenham Hotspur",
+    "Everton",
+    "Newcastle United",
+    "Aston Villa",
+    "Fulham",
+    "West Bromwich Albion",
+    "Sunderland",
+    "Stoke City",
+    "Swansea City",
+    "Norwich City",
+    "Queens Park Rangers",
+    "Blackburn Rovers",
+    "Wolverhampton Wanderers",
+    "Bolton Wanderers",
+    "Wigan Athletic"
+   ]
+  },
+  {
+   "id": "f8-pl-clubs-2013-14",
+   "tags": [
+    "10s",
+    "pl"
+   ],
+   "text": "Name a club that played in the 2013-14 Premier League",
+   "answers": [
+    "Manchester City",
+    "Liverpool",
+    "Chelsea",
+    "Arsenal",
+    "Manchester United",
+    "Tottenham Hotspur",
+    "Everton",
+    "Newcastle United",
+    "Aston Villa",
+    "West Ham United",
+    "Southampton",
+    "Crystal Palace",
+    "Stoke City",
+    "Sunderland",
+    "Swansea City",
+    "West Bromwich Albion",
+    "Fulham",
+    "Norwich City",
+    "Hull City",
+    "Cardiff City"
+   ]
+  },
+  {
+   "id": "f8-pl-clubs-2016-17",
+   "tags": [
+    "10s",
+    "pl"
+   ],
+   "text": "Name a club that played in the 2016-17 Premier League",
+   "answers": [
+    "Chelsea",
+    "Tottenham Hotspur",
+    "Manchester City",
+    "Liverpool",
+    "Arsenal",
+    "Manchester United",
+    "Leicester City",
+    "Everton",
+    "West Ham United",
+    "Southampton",
+    "Crystal Palace",
+    "Stoke City",
+    "West Bromwich Albion",
+    "Bournemouth",
+    "Watford",
+    "Burnley",
+    "Swansea City",
+    "Sunderland",
+    "Middlesbrough",
+    "Hull City"
+   ]
+  },
+  {
+   "id": "f8-pl-clubs-2021-22",
+   "tags": [
+    "20s",
+    "pl"
+   ],
+   "text": "Name a club that played in the 2021-22 Premier League",
+   "answers": [
+    "Manchester City",
+    "Liverpool",
+    "Chelsea",
+    "Tottenham Hotspur",
+    "Arsenal",
+    "Manchester United",
+    "West Ham United",
+    "Leicester City",
+    "Newcastle United",
+    "Everton",
+    "Aston Villa",
+    "Leeds United",
+    "Wolverhampton Wanderers",
+    "Crystal Palace",
+    "Brighton & Hove Albion",
+    "Southampton",
+    "Brentford",
+    "Burnley",
+    "Watford",
+    "Norwich City"
+   ]
+  },
+  {
+   "id": "f8-pl-clubs-2023-24",
+   "tags": [
+    "20s",
+    "pl"
+   ],
+   "text": "Name a club that played in the 2023-24 Premier League",
+   "answers": [
+    "Manchester City",
+    "Arsenal",
+    "Liverpool",
+    "Manchester United",
+    "Chelsea",
+    "Tottenham Hotspur",
+    "Aston Villa",
+    "Newcastle United",
+    "West Ham United",
+    "Everton",
+    "Brighton & Hove Albion",
+    "Crystal Palace",
+    "Wolverhampton Wanderers",
+    "Fulham",
+    "Bournemouth",
+    "Brentford",
+    "Nottingham Forest",
+    "Burnley",
+    "Sheffield United",
+    "Luton Town"
+   ]
+  },
+  {
+   "id": "f8-man-city-2011-12",
+   "tags": [
+    "10s",
+    "pl"
+   ],
+   "text": "Name a player who made at least one Premier League appearance for Manchester City in their 2011-12 title season",
+   "answers": [
+    [
+     "Sergio Agüero",
+     "Agüero"
+    ],
+    [
+     "Vincent Kompany",
+     "Kompany"
+    ],
+    [
+     "David Silva",
+     "Silva"
+    ],
+    [
+     "Yaya Touré",
+     "yaya"
+    ],
+    [
+     "Carlos Tevez",
+     "Tevez"
+    ],
+    [
+     "Joe Hart",
+     "Hart"
+    ],
+    [
+     "Mario Balotelli",
+     "Balotelli"
+    ],
+    [
+     "Edin Džeko",
+     "Džeko"
+    ],
+    [
+     "Samir Nasri",
+     "Nasri"
+    ],
+    [
+     "Joleon Lescott",
+     "Lescott"
+    ],
+    [
+     "Pablo Zabaleta",
+     "Zabaleta"
+    ],
+    [
+     "Gaël Clichy",
+     "Clichy"
+    ],
+    [
+     "Gareth Barry",
+     "Barry"
+    ],
+    [
+     "James Milner",
+     "Milner"
+    ],
+    [
+     "Micah Richards",
+     "Richards"
+    ],
+    [
+     "Kolo Touré",
+     "kolo"
+    ],
+    [
+     "Nigel de Jong",
+     "de Jong"
+    ],
+    [
+     "Aleksandar Kolarov",
+     "Kolarov"
+    ],
+    [
+     "Adam Johnson",
+     "Johnson"
+    ],
+    [
+     "Stefan Savić",
+     "Savić"
+    ],
+    [
+     "Owen Hargreaves",
+     "Hargreaves"
+    ],
+    [
+     "David Pizarro",
+     "Pizarro"
+    ],
+    [
+     "Nedum Onuoha",
+     "Onuoha"
+    ],
+    [
+     "Abdul Razak",
+     "Razak"
+    ]
+   ]
+  },
+  {
+   "id": "f8-chelsea-2016-17",
+   "tags": [
+    "10s",
+    "pl"
+   ],
+   "text": "Name a player who made at least one Premier League appearance for Chelsea in their 2016-17 title season",
+   "answers": [
+    [
+     "Eden Hazard",
+     "Hazard"
+    ],
+    [
+     "Diego Costa",
+     "Costa"
+    ],
+    [
+     "N'Golo Kanté",
+     "Kanté"
+    ],
+    [
+     "César Azpilicueta",
+     "Azpilicueta"
+    ],
+    [
+     "David Luiz",
+     "Luiz"
+    ],
+    [
+     "Gary Cahill",
+     "Cahill"
+    ],
+    [
+     "Thibaut Courtois",
+     "Courtois"
+    ],
+    [
+     "Victor Moses",
+     "Moses"
+    ],
+    [
+     "Marcos Alonso",
+     "Alonso"
+    ],
+    [
+     "Pedro",
+     "pedro rodriguez"
+    ],
+    [
+     "Nemanja Matić",
+     "Matić"
+    ],
+    [
+     "Cesc Fàbregas",
+     "Fàbregas",
+     "cesc"
+    ],
+    "Willian",
+    [
+     "John Terry",
+     "Terry"
+    ],
+    [
+     "Michy Batshuayi",
+     "Batshuayi"
+    ],
+    [
+     "Branislav Ivanović",
+     "Ivanović"
+    ],
+    "Oscar",
+    [
+     "Kurt Zouma",
+     "Zouma"
+    ],
+    [
+     "Ruben Loftus-Cheek",
+     "Loftus-Cheek"
+    ],
+    [
+     "Nathaniel Chalobah",
+     "Chalobah"
+    ],
+    [
+     "Asmir Begović",
+     "Begović"
+    ],
+    [
+     "Nathan Aké",
+     "Aké"
+    ],
+    [
+     "Ola Aina",
+     "Aina"
+    ],
+    "Kenedy"
+   ]
+  },
+  {
+   "id": "f8-man-city-2017-18",
+   "tags": [
+    "10s",
+    "pl"
+   ],
+   "text": "Name a player who made at least one Premier League appearance for Manchester City in their 2017-18 'Centurions' title season",
+   "answers": [
+    [
+     "Kevin De Bruyne",
+     "De Bruyne",
+     "kdb"
+    ],
+    [
+     "Sergio Agüero",
+     "Agüero"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Leroy Sané",
+     "Sané"
+    ],
+    "David Silva",
+    [
+     "Vincent Kompany",
+     "Kompany"
+    ],
+    [
+     "Ederson",
+     "ederson moraes"
+    ],
+    [
+     "Kyle Walker",
+     "Walker"
+    ],
+    [
+     "Nicolás Otamendi",
+     "Otamendi"
+    ],
+    "Fernandinho",
+    [
+     "Gabriel Jesus",
+     "Jesus"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Bernardo Silva",
+     "bernardo"
+    ],
+    [
+     "İlkay Gündoğan",
+     "Gündoğan"
+    ],
+    [
+     "Fabian Delph",
+     "Delph"
+    ],
+    [
+     "Yaya Touré",
+     "Touré",
+     "yaya"
+    ],
+    [
+     "Danilo",
+     "danilo pereira"
+    ],
+    [
+     "Benjamin Mendy",
+     "Mendy"
+    ],
+    [
+     "Aymeric Laporte",
+     "Laporte"
+    ],
+    [
+     "Oleksandr Zinchenko",
+     "Zinchenko"
+    ],
+    [
+     "Eliaquim Mangala",
+     "Mangala"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    [
+     "Claudio Bravo",
+     "Bravo"
+    ],
+    [
+     "Brahim",
+     "brahim diaz"
+    ],
+    [
+     "Lukas Nmecha",
+     "Nmecha"
+    ]
+   ]
+  },
+  {
+   "id": "f8-liverpool-2019-20",
+   "tags": [
+    "10s",
+    "pl"
+   ],
+   "text": "Name a player who made at least one Premier League appearance for Liverpool in their 2019-20 title season",
+   "answers": [
+    [
+     "Mohamed Salah",
+     "Salah",
+     "mo salah"
+    ],
+    [
+     "Sadio Mané",
+     "Mané"
+    ],
+    [
+     "Virgil van Dijk",
+     "van Dijk",
+     "vvd"
+    ],
+    [
+     "Roberto Firmino",
+     "Firmino",
+     "bobby firmino"
+    ],
+    [
+     "Trent Alexander-Arnold",
+     "Alexander-Arnold",
+     "trent",
+     "taa"
+    ],
+    [
+     "Jordan Henderson",
+     "Henderson"
+    ],
+    [
+     "Alisson",
+     "alisson becker",
+     "becker"
+    ],
+    [
+     "Andy Robertson",
+     "Robertson",
+     "andrew robertson"
+    ],
+    "Fabinho",
+    [
+     "Georginio Wijnaldum",
+     "Wijnaldum",
+     "gini wijnaldum"
+    ],
+    [
+     "Joe Gomez",
+     "Gomez"
+    ],
+    [
+     "James Milner",
+     "Milner"
+    ],
+    [
+     "Alex Oxlade-Chamberlain",
+     "Oxlade-Chamberlain",
+     "ox",
+     "the ox"
+    ],
+    [
+     "Divock Origi",
+     "Origi"
+    ],
+    [
+     "Naby Keïta",
+     "Keïta"
+    ],
+    [
+     "Joël Matip",
+     "Matip"
+    ],
+    [
+     "Dejan Lovren",
+     "Lovren"
+    ],
+    [
+     "Takumi Minamino",
+     "Minamino"
+    ],
+    [
+     "Adam Lallana",
+     "Lallana"
+    ],
+    [
+     "Xherdan Shaqiri",
+     "Shaqiri"
+    ],
+    [
+     "Adrián",
+     "adrian san miguel"
+    ],
+    [
+     "Curtis Jones",
+     "Jones"
+    ],
+    [
+     "Neco Williams",
+     "Williams"
+    ],
+    [
+     "Harvey Elliott",
+     "Elliott"
+    ]
+   ]
+  },
+  {
+   "id": "f8-man-city-2022-23",
+   "tags": [
+    "20s",
+    "pl"
+   ],
+   "text": "Name a player who made at least one Premier League appearance for Manchester City in their 2022-23 Treble season",
+   "answers": [
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Kevin De Bruyne",
+     "De Bruyne",
+     "kdb"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    [
+     "Jack Grealish",
+     "Grealish"
+    ],
+    [
+     "Rodri",
+     "rodrigo hernandez"
+    ],
+    [
+     "Bernardo Silva",
+     "Silva",
+     "bernardo"
+    ],
+    [
+     "İlkay Gündoğan",
+     "Gündoğan"
+    ],
+    [
+     "Riyad Mahrez",
+     "Mahrez"
+    ],
+    [
+     "Julián Álvarez",
+     "Álvarez"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Kyle Walker",
+     "Walker"
+    ],
+    [
+     "Rúben Dias",
+     "Dias"
+    ],
+    [
+     "Ederson",
+     "ederson moraes"
+    ],
+    [
+     "Manuel Akanji",
+     "Akanji"
+    ],
+    [
+     "Nathan Aké",
+     "Aké"
+    ],
+    [
+     "João Cancelo",
+     "Cancelo"
+    ],
+    [
+     "Aymeric Laporte",
+     "Laporte"
+    ],
+    [
+     "Kalvin Phillips",
+     "Phillips"
+    ],
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Rico Lewis",
+     "Lewis"
+    ],
+    [
+     "Stefan Ortega",
+     "Ortega"
+    ],
+    [
+     "Sergio Gómez",
+     "Gómez"
+    ],
+    [
+     "Máximo Perrone",
+     "Perrone"
+    ],
+    [
+     "Shea Charles",
+     "Charles"
+    ]
+   ]
+  },
+  {
+   "id": "f8-liverpool-2024-25",
+   "tags": [
+    "20s",
+    "pl"
+   ],
+   "text": "Name a player who made at least one Premier League appearance for Liverpool in their 2024-25 title season",
+   "answers": [
+    [
+     "Mohamed Salah",
+     "Salah",
+     "mo salah"
+    ],
+    [
+     "Virgil van Dijk",
+     "van Dijk",
+     "vvd"
+    ],
+    [
+     "Trent Alexander-Arnold",
+     "Alexander-Arnold",
+     "trent",
+     "taa"
+    ],
+    [
+     "Alexis Mac Allister",
+     "Mac Allister"
+    ],
+    [
+     "Ryan Gravenberch",
+     "Gravenberch"
+    ],
+    [
+     "Dominik Szoboszlai",
+     "Szoboszlai"
+    ],
+    [
+     "Luis Díaz",
+     "Díaz"
+    ],
+    [
+     "Cody Gakpo",
+     "Gakpo"
+    ],
+    [
+     "Darwin Núñez",
+     "Núñez",
+     "darwin"
+    ],
+    [
+     "Diogo Jota",
+     "Jota"
+    ],
+    [
+     "Alisson",
+     "alisson becker",
+     "becker"
+    ],
+    [
+     "Ibrahima Konaté",
+     "Konaté"
+    ],
+    [
+     "Andy Robertson",
+     "Robertson",
+     "andrew robertson"
+    ],
+    [
+     "Curtis Jones",
+     "Jones"
+    ],
+    [
+     "Harvey Elliott",
+     "Elliott"
+    ],
+    [
+     "Wataru Endo",
+     "Endo"
+    ],
+    [
+     "Federico Chiesa",
+     "Chiesa"
+    ],
+    [
+     "Caoimhín Kelleher",
+     "Kelleher"
+    ],
+    [
+     "Joe Gomez",
+     "Gomez"
+    ],
+    [
+     "Kostas Tsimikas",
+     "Tsimikas"
+    ],
+    [
+     "Conor Bradley",
+     "Bradley"
+    ],
+    [
+     "Jarell Quansah",
+     "Quansah"
+    ],
+    [
+     "Vítězslav Jaroš",
+     "Jaroš"
+    ],
+    [
+     "Jayden Danns",
+     "Danns"
+    ]
+   ]
+  },
+  {
+   "id": "f8-cup-finalists-2010s",
+   "tags": [
+    "10s",
+    "cups"
+   ],
+   "text": "Name a club that played in an FA Cup or League Cup final between 2010 and 2019 (winners or runners-up)",
+   "answers": [
+    "Manchester City",
+    "Chelsea",
+    "Arsenal",
+    "Manchester United",
+    "Liverpool",
+    "Tottenham Hotspur",
+    "Aston Villa",
+    "Wigan Athletic",
+    "Crystal Palace",
+    "Southampton",
+    "Watford",
+    "Swansea City",
+    "Stoke City",
+    "Hull City",
+    "Portsmouth",
+    "Birmingham City",
+    "Bradford City",
+    "Cardiff City",
+    "Sunderland"
+   ]
+  },
+  {
+   "id": "f8-ucl-semi-finalists-2010s",
+   "tags": [
+    "10s",
+    "ucl"
+   ],
+   "text": "Name a club that reached the Champions League semi-finals in any season from 2010-11 to 2019-20",
+   "answers": [
+    "Real Madrid",
+    "Barcelona",
+    "Bayern Munich",
+    "Liverpool",
+    "Chelsea",
+    "Manchester United",
+    "Manchester City",
+    "Tottenham Hotspur",
+    "Juventus",
+    "Atlético Madrid",
+    "Borussia Dortmund",
+    "Paris Saint-Germain",
+    "Ajax",
+    [
+     "Roma",
+     "as roma"
+    ],
+    "Monaco",
+    [
+     "Lyon",
+     "olympique lyonnais"
+    ],
+    [
+     "Schalke 04",
+     "schalke"
+    ],
+    "RB Leipzig"
+   ]
+  },
+  {
+   "id": "f8-ucl-semi-finalists-2020s",
+   "tags": [
+    "20s",
+    "ucl"
+   ],
+   "text": "Name a club that reached the Champions League semi-finals in any season from 2020-21 to 2024-25",
+   "answers": [
+    "Real Madrid",
+    "Manchester City",
+    "Bayern Munich",
+    "Paris Saint-Germain",
+    "Liverpool",
+    "Chelsea",
+    "Arsenal",
+    "Barcelona",
+    "Inter Milan",
+    "Borussia Dortmund",
+    "AC Milan",
+    "Villarreal"
+   ]
+  },
+  {
+   "id": "f8-man-utd-2011-final",
+   "tags": [
+    "10s",
+    "ucl"
+   ],
+   "text": "Name a Manchester United player who appeared in the 2011 Champions League final against Barcelona",
+   "answers": [
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Ryan Giggs",
+     "Giggs"
+    ],
+    [
+     "Rio Ferdinand",
+     "Ferdinand"
+    ],
+    [
+     "Nemanja Vidić",
+     "Vidić"
+    ],
+    [
+     "Patrice Evra",
+     "Evra"
+    ],
+    [
+     "Edwin van der Sar",
+     "van der Sar"
+    ],
+    [
+     "Park Ji-sung",
+     "park",
+     "ji-sung park"
+    ],
+    [
+     "Javier Hernández",
+     "Hernández",
+     "chicharito"
+    ],
+    [
+     "Michael Carrick",
+     "Carrick"
+    ],
+    [
+     "Antonio Valencia",
+     "Valencia"
+    ],
+    [
+     "Paul Scholes",
+     "Scholes"
+    ],
+    "Nani",
+    [
+     "Fábio",
+     "fabio da silva"
+    ]
+   ]
+  },
+  {
+   "id": "f8-ucl-final-2012",
+   "tags": [
+    "10s",
+    "ucl"
+   ],
+   "text": "Name a player who appeared for either side in the 2012 Champions League final (Bayern Munich v Chelsea), starters and used substitutes",
+   "answers": [
+    [
+     "Didier Drogba",
+     "Drogba"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Petr Čech",
+     "Čech"
+    ],
+    [
+     "Ashley Cole",
+     "Cole"
+    ],
+    [
+     "Juan Mata",
+     "Mata"
+    ],
+    [
+     "Fernando Torres",
+     "Torres"
+    ],
+    [
+     "Gary Cahill",
+     "Cahill"
+    ],
+    [
+     "David Luiz",
+     "Luiz"
+    ],
+    [
+     "Arjen Robben",
+     "Robben"
+    ],
+    [
+     "Franck Ribéry",
+     "Ribéry"
+    ],
+    [
+     "Thomas Müller",
+     "Müller",
+     "mueller"
+    ],
+    [
+     "Manuel Neuer",
+     "Neuer"
+    ],
+    [
+     "Bastian Schweinsteiger",
+     "Schweinsteiger",
+     "schweini"
+    ],
+    [
+     "Philipp Lahm",
+     "Lahm"
+    ],
+    [
+     "Toni Kroos",
+     "Kroos"
+    ],
+    [
+     "Jérôme Boateng",
+     "Boateng"
+    ],
+    [
+     "Mario Gómez",
+     "Gómez"
+    ],
+    [
+     "Mikel John Obi",
+     "mikel",
+     "john obi mikel",
+     "obi mikel"
+    ],
+    [
+     "José Bosingwa",
+     "Bosingwa"
+    ],
+    [
+     "Salomon Kalou",
+     "Kalou"
+    ],
+    [
+     "Ryan Bertrand",
+     "Bertrand"
+    ],
+    [
+     "Florent Malouda",
+     "Malouda"
+    ],
+    [
+     "Ivica Olić",
+     "Olić"
+    ],
+    [
+     "Daniel Van Buyten",
+     "Van Buyten"
+    ],
+    [
+     "Anatoliy Tymoshchuk",
+     "Tymoshchuk"
+    ],
+    [
+     "Diego Contento",
+     "Contento"
+    ]
+   ]
+  },
+  {
+   "id": "f8-spurs-2019-final",
+   "tags": [
+    "10s",
+    "ucl"
+   ],
+   "text": "Name a Tottenham Hotspur player who appeared in the 2019 Champions League final against Liverpool",
+   "answers": [
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Son Heung-min",
+     "son",
+     "heung-min son",
+     "sonny"
+    ],
+    [
+     "Christian Eriksen",
+     "Eriksen"
+    ],
+    [
+     "Dele Alli",
+     "Alli",
+     "dele"
+    ],
+    [
+     "Hugo Lloris",
+     "Lloris"
+    ],
+    [
+     "Jan Vertonghen",
+     "Vertonghen"
+    ],
+    [
+     "Toby Alderweireld",
+     "Alderweireld"
+    ],
+    [
+     "Kieran Trippier",
+     "Trippier"
+    ],
+    [
+     "Danny Rose",
+     "Rose"
+    ],
+    [
+     "Moussa Sissoko",
+     "Sissoko"
+    ],
+    [
+     "Harry Winks",
+     "Winks"
+    ],
+    [
+     "Lucas Moura",
+     "Moura",
+     "lucas"
+    ],
+    [
+     "Eric Dier",
+     "Dier"
+    ],
+    [
+     "Fernando Llorente",
+     "Llorente"
+    ]
+   ]
+  },
+  {
+   "id": "f8-ucl-final-2021",
+   "tags": [
+    "20s",
+    "ucl"
+   ],
+   "text": "Name a player who appeared for either side in the 2021 Champions League final (Manchester City v Chelsea), starters and used substitutes",
+   "answers": [
+    [
+     "Kai Havertz",
+     "Havertz"
+    ],
+    [
+     "Mason Mount",
+     "Mount"
+    ],
+    [
+     "N'Golo Kanté",
+     "Kanté"
+    ],
+    [
+     "Kevin De Bruyne",
+     "De Bruyne",
+     "kdb"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Jorginho",
+     "jorge luiz frello filho"
+    ],
+    [
+     "Timo Werner",
+     "Werner"
+    ],
+    [
+     "Édouard Mendy",
+     "Mendy"
+    ],
+    [
+     "Thiago Silva",
+     "thiago"
+    ],
+    [
+     "Antonio Rüdiger",
+     "Rüdiger"
+    ],
+    [
+     "César Azpilicueta",
+     "Azpilicueta"
+    ],
+    [
+     "Reece James",
+     "James"
+    ],
+    [
+     "Ben Chilwell",
+     "Chilwell"
+    ],
+    [
+     "Riyad Mahrez",
+     "Mahrez"
+    ],
+    [
+     "Bernardo Silva",
+     "bernardo"
+    ],
+    [
+     "İlkay Gündoğan",
+     "Gündoğan"
+    ],
+    [
+     "Rúben Dias",
+     "Dias"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Kyle Walker",
+     "Walker"
+    ],
+    [
+     "Ederson",
+     "ederson moraes"
+    ],
+    [
+     "Oleksandr Zinchenko",
+     "Zinchenko"
+    ],
+    [
+     "Sergio Agüero",
+     "Agüero"
+    ],
+    [
+     "Gabriel Jesus",
+     "Jesus"
+    ],
+    "Fernandinho",
+    [
+     "Christian Pulisic",
+     "Pulisic"
+    ],
+    [
+     "Mateo Kovačić",
+     "Kovačić"
+    ],
+    [
+     "Andreas Christensen",
+     "Christensen"
+    ]
+   ]
+  },
+  {
+   "id": "f8-ucl-final-2023",
+   "tags": [
+    "20s",
+    "ucl"
+   ],
+   "text": "Name a player who appeared for either side in the 2023 Champions League final (Manchester City v Inter Milan), starters and used substitutes",
+   "answers": [
+    [
+     "Rodri",
+     "rodrigo hernandez"
+    ],
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Kevin De Bruyne",
+     "De Bruyne",
+     "kdb"
+    ],
+    [
+     "Jack Grealish",
+     "Grealish"
+    ],
+    [
+     "Bernardo Silva",
+     "Silva",
+     "bernardo"
+    ],
+    [
+     "İlkay Gündoğan",
+     "Gündoğan"
+    ],
+    [
+     "Ederson",
+     "ederson moraes"
+    ],
+    [
+     "Rúben Dias",
+     "Dias"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Manuel Akanji",
+     "Akanji"
+    ],
+    [
+     "Nathan Aké",
+     "Aké"
+    ],
+    [
+     "Kyle Walker",
+     "Walker"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    [
+     "Romelu Lukaku",
+     "Lukaku"
+    ],
+    [
+     "Lautaro Martínez",
+     "Martínez",
+     "lautaro"
+    ],
+    [
+     "Edin Džeko",
+     "Džeko"
+    ],
+    [
+     "Nicolò Barella",
+     "Barella"
+    ],
+    [
+     "André Onana",
+     "Onana"
+    ],
+    [
+     "Marcelo Brozović",
+     "Brozović"
+    ],
+    [
+     "Hakan Çalhanoğlu",
+     "Çalhanoğlu"
+    ],
+    [
+     "Federico Dimarco",
+     "Dimarco"
+    ],
+    [
+     "Alessandro Bastoni",
+     "Bastoni"
+    ],
+    [
+     "Francesco Acerbi",
+     "Acerbi"
+    ],
+    [
+     "Denzel Dumfries",
+     "Dumfries"
+    ],
+    [
+     "Henrikh Mkhitaryan",
+     "Mkhitaryan"
+    ],
+    [
+     "Matteo Darmian",
+     "Darmian"
+    ],
+    [
+     "Robin Gosens",
+     "Gosens"
+    ],
+    [
+     "Danilo D'Ambrosio",
+     "D'Ambrosio"
+    ],
+    [
+     "Raoul Bellanova",
+     "Bellanova"
+    ]
+   ]
+  },
+  {
+   "id": "f8-fa-cup-final-2024",
+   "tags": [
+    "20s",
+    "cups"
+   ],
+   "text": "Name a player who appeared for either side in the 2024 FA Cup final (Manchester City v Manchester United), starters and used substitutes",
+   "answers": [
+    [
+     "Alejandro Garnacho",
+     "Garnacho"
+    ],
+    [
+     "Kobbie Mainoo",
+     "Mainoo"
+    ],
+    [
+     "Bruno Fernandes",
+     "Fernandes",
+     "bruno"
+    ],
+    [
+     "Marcus Rashford",
+     "Rashford"
+    ],
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Kevin De Bruyne",
+     "De Bruyne",
+     "kdb"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    [
+     "Rodri",
+     "rodrigo hernandez"
+    ],
+    [
+     "André Onana",
+     "Onana"
+    ],
+    [
+     "Raphaël Varane",
+     "Varane"
+    ],
+    [
+     "Diogo Dalot",
+     "Dalot"
+    ],
+    [
+     "Scott McTominay",
+     "McTominay"
+    ],
+    [
+     "Bernardo Silva",
+     "Silva",
+     "bernardo"
+    ],
+    [
+     "Kyle Walker",
+     "Walker"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Aaron Wan-Bissaka",
+     "Wan-Bissaka"
+    ],
+    [
+     "Lisandro Martínez",
+     "Martínez",
+     "lisandro"
+    ],
+    [
+     "Mason Mount",
+     "Mount"
+    ],
+    [
+     "Rasmus Højlund",
+     "Højlund",
+     "hojlund",
+     "rasmus hojlund",
+     "hoejlund"
+    ],
+    [
+     "Joško Gvardiol",
+     "Gvardiol"
+    ],
+    [
+     "Julián Álvarez",
+     "Álvarez"
+    ],
+    [
+     "Mateo Kovačić",
+     "Kovačić"
+    ],
+    [
+     "Nathan Aké",
+     "Aké"
+    ],
+    [
+     "Stefan Ortega",
+     "Ortega"
+    ],
+    [
+     "Jérémy Doku",
+     "Doku"
+    ],
+    [
+     "Manuel Akanji",
+     "Akanji"
+    ],
+    [
+     "Sofyan Amrabat",
+     "Amrabat"
+    ],
+    [
+     "Jonny Evans",
+     "Evans"
+    ],
+    [
+     "Victor Lindelöf",
+     "Lindelöf"
+    ]
+   ]
+  },
+  {
+   "id": "f8-wc-2014-teams",
+   "tags": [
+    "10s",
+    "worldcup"
+   ],
+   "text": "Name a team that played at the 2014 World Cup in Brazil",
+   "answers": [
+    "Germany",
+    "Brazil",
+    "Argentina",
+    "Netherlands",
+    "Spain",
+    "England",
+    "France",
+    "Italy",
+    "Portugal",
+    "Belgium",
+    "Uruguay",
+    "Colombia",
+    "Mexico",
+    "USA",
+    "Chile",
+    "Croatia",
+    "Switzerland",
+    "Costa Rica",
+    "Russia",
+    "Japan",
+    "Ivory Coast",
+    "Ghana",
+    "Nigeria",
+    "Cameroon",
+    "Australia",
+    "South Korea",
+    "Greece",
+    "Ecuador",
+    "Algeria",
+    "Iran",
+    "Bosnia and Herzegovina",
+    "Honduras"
+   ]
+  },
+  {
+   "id": "f8-euro-2012-teams",
+   "tags": [
+    "10s",
+    "euros"
+   ],
+   "text": "Name a team that played at Euro 2012 in Poland and Ukraine",
+   "answers": [
+    "Spain",
+    "Italy",
+    "Germany",
+    "Portugal",
+    "England",
+    "France",
+    "Netherlands",
+    "Ireland",
+    "Poland",
+    "Ukraine",
+    "Russia",
+    "Croatia",
+    "Sweden",
+    "Denmark",
+    "Greece",
+    "Czech Republic"
+   ]
+  },
+  {
+   "id": "f8-england-wc-2014-squad",
+   "tags": [
+    "10s",
+    "worldcup"
+   ],
+   "text": "Name a player in England's 23-man squad for the 2014 World Cup",
+   "answers": [
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Steven Gerrard",
+     "Gerrard"
+    ],
+    [
+     "Daniel Sturridge",
+     "Sturridge"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Joe Hart",
+     "Hart"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Gary Cahill",
+     "Cahill"
+    ],
+    [
+     "Leighton Baines",
+     "Baines"
+    ],
+    [
+     "Jordan Henderson",
+     "Henderson"
+    ],
+    [
+     "Danny Welbeck",
+     "Welbeck"
+    ],
+    [
+     "Jack Wilshere",
+     "Wilshere"
+    ],
+    [
+     "Glen Johnson",
+     "Johnson"
+    ],
+    [
+     "Phil Jagielka",
+     "Jagielka"
+    ],
+    [
+     "Chris Smalling",
+     "Smalling"
+    ],
+    [
+     "Phil Jones",
+     "Jones"
+    ],
+    [
+     "Alex Oxlade-Chamberlain",
+     "Oxlade-Chamberlain",
+     "ox",
+     "the ox"
+    ],
+    [
+     "James Milner",
+     "Milner"
+    ],
+    [
+     "Adam Lallana",
+     "Lallana"
+    ],
+    [
+     "Ross Barkley",
+     "Barkley"
+    ],
+    [
+     "Luke Shaw",
+     "Shaw"
+    ],
+    [
+     "Rickie Lambert",
+     "Lambert"
+    ],
+    [
+     "Ben Foster",
+     "Foster"
+    ],
+    [
+     "Fraser Forster",
+     "Forster"
+    ]
+   ]
+  },
+  {
+   "id": "f8-england-euro-2016-squad",
+   "tags": [
+    "10s",
+    "euros"
+   ],
+   "text": "Name a player in England's 23-man squad for Euro 2016",
+   "answers": [
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Jamie Vardy",
+     "Vardy"
+    ],
+    [
+     "Dele Alli",
+     "Alli",
+     "dele"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Joe Hart",
+     "Hart"
+    ],
+    [
+     "Marcus Rashford",
+     "Rashford"
+    ],
+    [
+     "Daniel Sturridge",
+     "Sturridge"
+    ],
+    [
+     "Kyle Walker",
+     "Walker"
+    ],
+    [
+     "Danny Rose",
+     "Rose"
+    ],
+    [
+     "Eric Dier",
+     "Dier"
+    ],
+    [
+     "Gary Cahill",
+     "Cahill"
+    ],
+    [
+     "Chris Smalling",
+     "Smalling"
+    ],
+    [
+     "Jordan Henderson",
+     "Henderson"
+    ],
+    [
+     "Jack Wilshere",
+     "Wilshere"
+    ],
+    [
+     "Adam Lallana",
+     "Lallana"
+    ],
+    [
+     "James Milner",
+     "Milner"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Ross Barkley",
+     "Barkley"
+    ],
+    [
+     "Nathaniel Clyne",
+     "Clyne"
+    ],
+    [
+     "Ryan Bertrand",
+     "Bertrand"
+    ],
+    [
+     "Fraser Forster",
+     "Forster"
+    ],
+    [
+     "Tom Heaton",
+     "Heaton"
+    ]
+   ]
+  },
+  {
+   "id": "f8-wales-euro-2016-squad",
+   "tags": [
+    "10s",
+    "euros"
+   ],
+   "text": "Name a player in Wales's 23-man squad for Euro 2016",
+   "answers": [
+    [
+     "Gareth Bale",
+     "Bale"
+    ],
+    [
+     "Aaron Ramsey",
+     "Ramsey"
+    ],
+    [
+     "Hal Robson-Kanu",
+     "Robson-Kanu"
+    ],
+    [
+     "Joe Allen",
+     "Allen"
+    ],
+    "Ashley Williams",
+    [
+     "Wayne Hennessey",
+     "Hennessey"
+    ],
+    [
+     "Ben Davies",
+     "Davies"
+    ],
+    [
+     "Neil Taylor",
+     "Taylor"
+    ],
+    [
+     "Chris Gunter",
+     "Gunter"
+    ],
+    [
+     "Joe Ledley",
+     "Ledley"
+    ],
+    [
+     "Sam Vokes",
+     "Vokes"
+    ],
+    [
+     "James Chester",
+     "Chester"
+    ],
+    [
+     "Andy King",
+     "King"
+    ],
+    "Jonny Williams",
+    [
+     "James Collins",
+     "Collins"
+    ],
+    [
+     "Danny Ward",
+     "Ward"
+    ],
+    [
+     "David Edwards",
+     "Edwards"
+    ],
+    [
+     "Jazz Richards",
+     "Richards"
+    ],
+    [
+     "David Vaughan",
+     "Vaughan"
+    ],
+    [
+     "Simon Church",
+     "Church"
+    ],
+    "George Williams",
+    [
+     "David Cotterill",
+     "Cotterill"
+    ],
+    "Owain Fôn Williams"
+   ]
+  },
+  {
+   "id": "f8-portugal-euro-2016-squad",
+   "tags": [
+    "10s",
+    "euros"
+   ],
+   "text": "Name a player in Portugal's 23-man squad that won Euro 2016",
+   "answers": [
+    [
+     "Cristiano Ronaldo",
+     "Ronaldo",
+     "cr7"
+    ],
+    "Pepe",
+    "Nani",
+    [
+     "Ricardo Quaresma",
+     "Quaresma"
+    ],
+    "Éder",
+    [
+     "Renato Sanches",
+     "Sanches"
+    ],
+    [
+     "João Moutinho",
+     "Moutinho"
+    ],
+    [
+     "Rui Patrício",
+     "Patrício"
+    ],
+    [
+     "Raphaël Guerreiro",
+     "Guerreiro"
+    ],
+    "William Carvalho",
+    [
+     "João Mário",
+     "Mário"
+    ],
+    "Ricardo Carvalho",
+    [
+     "José Fonte",
+     "Fonte"
+    ],
+    [
+     "Bruno Alves",
+     "Alves"
+    ],
+    [
+     "André Gomes",
+     "Gomes"
+    ],
+    "Adrien Silva",
+    "Rafa Silva",
+    [
+     "Cédric",
+     "cedric soares"
+    ],
+    "Vieirinha",
+    [
+     "Danilo",
+     "danilo pereira"
+    ],
+    "Eliseu",
+    [
+     "Anthony Lopes",
+     "Lopes"
+    ],
+    "Eduardo"
+   ]
+  },
+  {
+   "id": "f8-germany-wc-2014-squad",
+   "tags": [
+    "10s",
+    "worldcup"
+   ],
+   "text": "Name a player in Germany's 23-man squad that won the 2014 World Cup",
+   "answers": [
+    [
+     "Thomas Müller",
+     "Müller",
+     "mueller"
+    ],
+    [
+     "Manuel Neuer",
+     "Neuer"
+    ],
+    [
+     "Philipp Lahm",
+     "Lahm"
+    ],
+    [
+     "Bastian Schweinsteiger",
+     "Schweinsteiger",
+     "schweini"
+    ],
+    [
+     "Mesut Özil",
+     "Özil"
+    ],
+    [
+     "Toni Kroos",
+     "Kroos"
+    ],
+    [
+     "Miroslav Klose",
+     "Klose"
+    ],
+    [
+     "Mario Götze",
+     "Götze",
+     "goetze"
+    ],
+    [
+     "Mats Hummels",
+     "Hummels"
+    ],
+    [
+     "Jérôme Boateng",
+     "Boateng"
+    ],
+    [
+     "Sami Khedira",
+     "Khedira"
+    ],
+    [
+     "Lukas Podolski",
+     "Podolski"
+    ],
+    [
+     "André Schürrle",
+     "Schürrle"
+    ],
+    [
+     "Per Mertesacker",
+     "Mertesacker"
+    ],
+    [
+     "Benedikt Höwedes",
+     "Höwedes"
+    ],
+    [
+     "Julian Draxler",
+     "Draxler"
+    ],
+    [
+     "Shkodran Mustafi",
+     "Mustafi"
+    ],
+    [
+     "Christoph Kramer",
+     "Kramer"
+    ],
+    [
+     "Matthias Ginter",
+     "Ginter"
+    ],
+    [
+     "Kevin Großkreutz",
+     "Großkreutz",
+     "grosskreutz",
+     "kevin grosskreutz"
+    ],
+    [
+     "Erik Durm",
+     "Durm"
+    ],
+    [
+     "Roman Weidenfeller",
+     "Weidenfeller"
+    ],
+    [
+     "Ron-Robert Zieler",
+     "Zieler"
+    ]
+   ]
+  },
+  {
+   "id": "f8-france-wc-2018-squad",
+   "tags": [
+    "10s",
+    "worldcup"
+   ],
+   "text": "Name a player in France's 23-man squad that won the 2018 World Cup",
+   "answers": [
+    [
+     "Kylian Mbappé",
+     "Mbappé"
+    ],
+    [
+     "Antoine Griezmann",
+     "Griezmann"
+    ],
+    [
+     "Paul Pogba",
+     "Pogba"
+    ],
+    [
+     "N'Golo Kanté",
+     "Kanté"
+    ],
+    [
+     "Hugo Lloris",
+     "Lloris"
+    ],
+    [
+     "Olivier Giroud",
+     "Giroud"
+    ],
+    [
+     "Raphaël Varane",
+     "Varane"
+    ],
+    [
+     "Samuel Umtiti",
+     "Umtiti"
+    ],
+    [
+     "Benjamin Pavard",
+     "Pavard"
+    ],
+    [
+     "Lucas Hernandez",
+     "Hernandez"
+    ],
+    [
+     "Blaise Matuidi",
+     "Matuidi"
+    ],
+    [
+     "Ousmane Dembélé",
+     "Dembélé"
+    ],
+    [
+     "Benjamin Mendy",
+     "Mendy"
+    ],
+    [
+     "Corentin Tolisso",
+     "Tolisso"
+    ],
+    [
+     "Nabil Fekir",
+     "Fekir"
+    ],
+    [
+     "Thomas Lemar",
+     "Lemar"
+    ],
+    [
+     "Steven Nzonzi",
+     "Nzonzi"
+    ],
+    [
+     "Djibril Sidibé",
+     "Sidibé"
+    ],
+    [
+     "Presnel Kimpembe",
+     "Kimpembe"
+    ],
+    [
+     "Adil Rami",
+     "Rami"
+    ],
+    [
+     "Florian Thauvin",
+     "Thauvin"
+    ],
+    [
+     "Steve Mandanda",
+     "Mandanda"
+    ],
+    [
+     "Alphonse Areola",
+     "Areola"
+    ]
+   ]
+  },
+  {
+   "id": "f8-spain-euro-2012-squad",
+   "tags": [
+    "10s",
+    "euros"
+   ],
+   "text": "Name a player in Spain's 23-man squad that won Euro 2012",
+   "answers": [
+    [
+     "Andrés Iniesta",
+     "Iniesta"
+    ],
+    [
+     "Xavi",
+     "xavi hernandez"
+    ],
+    [
+     "Iker Casillas",
+     "Casillas"
+    ],
+    [
+     "Fernando Torres",
+     "Torres"
+    ],
+    [
+     "Sergio Ramos",
+     "Ramos"
+    ],
+    [
+     "Cesc Fàbregas",
+     "Fàbregas",
+     "cesc"
+    ],
+    [
+     "David Silva",
+     "Silva"
+    ],
+    [
+     "Gerard Piqué",
+     "Piqué"
+    ],
+    [
+     "Sergio Busquets",
+     "Busquets"
+    ],
+    [
+     "Xabi Alonso",
+     "Alonso"
+    ],
+    [
+     "Jordi Alba",
+     "Alba"
+    ],
+    [
+     "Juan Mata",
+     "Mata"
+    ],
+    [
+     "Pedro",
+     "pedro rodriguez"
+    ],
+    [
+     "Álvaro Arbeloa",
+     "Arbeloa"
+    ],
+    [
+     "Jesús Navas",
+     "Navas"
+    ],
+    [
+     "Santi Cazorla",
+     "Cazorla"
+    ],
+    [
+     "Fernando Llorente",
+     "Llorente"
+    ],
+    [
+     "Álvaro Negredo",
+     "Negredo"
+    ],
+    [
+     "Víctor Valdés",
+     "Valdés"
+    ],
+    [
+     "Pepe Reina",
+     "Reina"
+    ],
+    [
+     "Javi Martínez",
+     "Martínez"
+    ],
+    [
+     "Raúl Albiol",
+     "Albiol"
+    ],
+    [
+     "Juanfran",
+     "juan francisco torres"
+    ]
+   ]
+  },
+  {
+   "id": "f8-scottish-top-flight-2010s",
+   "tags": [
+    "10s",
+    "scotland"
+   ],
+   "text": "Name a club that played in the Scottish top flight (SPL or Premiership) in any season from 2010-11 to 2019-20",
+   "answers": [
+    "Celtic",
+    "Rangers",
+    "Aberdeen",
+    "Heart of Midlothian",
+    "Hibernian",
+    "Kilmarnock",
+    "Motherwell",
+    "Dundee United",
+    [
+     "St Johnstone",
+     "saint johnstone"
+    ],
+    [
+     "St Mirren",
+     "saint mirren"
+    ],
+    "Dundee",
+    [
+     "Inverness Caledonian Thistle",
+     "inverness ct",
+     "inverness",
+     "caley thistle",
+     "ict"
+    ],
+    "Ross County",
+    [
+     "Hamilton Academical",
+     "hamilton",
+     "accies"
+    ],
+    [
+     "Partick Thistle",
+     "partick"
+    ],
+    "Livingston",
+    [
+     "Dunfermline Athletic",
+     "dunfermline"
+    ]
+   ]
+  },
+  {
+   "id": "f8-pl-relegated-2010s",
+   "tags": [
+    "10s",
+    "pl"
+   ],
+   "text": "Name a club relegated from the Premier League at the end of any season from 2010-11 to 2019-20",
+   "answers": [
+    "West Ham United",
+    "Newcastle United",
+    "Aston Villa",
+    "Fulham",
+    "Norwich City",
+    "Sunderland",
+    "Stoke City",
+    "West Bromwich Albion",
+    "Swansea City",
+    "Queens Park Rangers",
+    "Blackburn Rovers",
+    "Bolton Wanderers",
+    "Wolverhampton Wanderers",
+    "Birmingham City",
+    "Wigan Athletic",
+    "Hull City",
+    "Cardiff City",
+    "Middlesbrough",
+    "Burnley",
+    "Watford",
+    "Bournemouth",
+    "Reading",
+    "Huddersfield Town",
+    "Blackpool"
+   ]
+  },
+  {
+   "id": "f8-england-wc-2022-squad",
+   "tags": [
+    "20s",
+    "worldcup"
+   ],
+   "text": "Name a player in England's 26-man squad for the 2022 World Cup",
+   "answers": [
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Jude Bellingham",
+     "Bellingham"
+    ],
+    [
+     "Bukayo Saka",
+     "Saka"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Marcus Rashford",
+     "Rashford"
+    ],
+    [
+     "Declan Rice",
+     "Rice"
+    ],
+    [
+     "Jordan Pickford",
+     "Pickford"
+    ],
+    [
+     "Kyle Walker",
+     "Walker"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Harry Maguire",
+     "Maguire"
+    ],
+    [
+     "Luke Shaw",
+     "Shaw"
+    ],
+    [
+     "Jack Grealish",
+     "Grealish"
+    ],
+    [
+     "Jordan Henderson",
+     "Henderson"
+    ],
+    [
+     "Mason Mount",
+     "Mount"
+    ],
+    [
+     "Trent Alexander-Arnold",
+     "Alexander-Arnold",
+     "trent",
+     "taa"
+    ],
+    [
+     "Kieran Trippier",
+     "Trippier"
+    ],
+    [
+     "Kalvin Phillips",
+     "Phillips"
+    ],
+    [
+     "Eric Dier",
+     "Dier"
+    ],
+    [
+     "Callum Wilson",
+     "Wilson"
+    ],
+    [
+     "James Maddison",
+     "Maddison"
+    ],
+    [
+     "Conor Gallagher",
+     "Gallagher"
+    ],
+    [
+     "Nick Pope",
+     "Pope"
+    ],
+    [
+     "Aaron Ramsdale",
+     "Ramsdale"
+    ],
+    [
+     "Conor Coady",
+     "Coady"
+    ],
+    [
+     "Ben White",
+     "White"
+    ]
+   ]
+  },
+  {
+   "id": "f8-scotland-euro-2024-squad",
+   "tags": [
+    "20s",
+    "euros"
+   ],
+   "text": "Name a player in Scotland's 26-man squad for Euro 2024",
+   "answers": [
+    [
+     "Andy Robertson",
+     "Robertson",
+     "andrew robertson"
+    ],
+    [
+     "Scott McTominay",
+     "McTominay"
+    ],
+    [
+     "John McGinn",
+     "McGinn"
+    ],
+    [
+     "Billy Gilmour",
+     "Gilmour"
+    ],
+    [
+     "Kieran Tierney",
+     "Tierney"
+    ],
+    [
+     "Callum McGregor",
+     "McGregor"
+    ],
+    [
+     "Angus Gunn",
+     "Gunn"
+    ],
+    [
+     "Ché Adams",
+     "Adams"
+    ],
+    [
+     "Ryan Christie",
+     "Christie"
+    ],
+    [
+     "Grant Hanley",
+     "Hanley"
+    ],
+    [
+     "Jack Hendry",
+     "Hendry"
+    ],
+    [
+     "Ryan Porteous",
+     "Porteous"
+    ],
+    [
+     "Lawrence Shankland",
+     "Shankland"
+    ],
+    [
+     "Stuart Armstrong",
+     "Armstrong"
+    ],
+    [
+     "Liam Cooper",
+     "Cooper"
+    ],
+    [
+     "Anthony Ralston",
+     "Ralston"
+    ],
+    [
+     "Greg Taylor",
+     "Taylor"
+    ],
+    [
+     "James Forrest",
+     "Forrest"
+    ],
+    [
+     "Scott McKenna",
+     "McKenna"
+    ],
+    [
+     "Kenny McLean",
+     "McLean"
+    ],
+    [
+     "Lewis Morgan",
+     "Morgan"
+    ],
+    [
+     "Ryan Jack",
+     "Jack"
+    ],
+    [
+     "Tommy Conway",
+     "Conway"
+    ],
+    [
+     "Zander Clark",
+     "Clark"
+    ],
+    [
+     "Ross McCrorie",
+     "McCrorie"
+    ],
+    [
+     "Liam Kelly",
+     "Kelly"
+    ]
+   ]
+  },
+  {
+   "id": "f8-spain-euro-2024-squad",
+   "tags": [
+    "20s",
+    "euros"
+   ],
+   "text": "Name a player in Spain's 26-man squad that won Euro 2024",
+   "answers": [
+    [
+     "Lamine Yamal",
+     "Yamal"
+    ],
+    [
+     "Nico Williams",
+     "Williams",
+     "nico"
+    ],
+    [
+     "Rodri",
+     "rodrigo hernandez"
+    ],
+    "Pedri",
+    [
+     "Álvaro Morata",
+     "Morata"
+    ],
+    [
+     "Dani Olmo",
+     "Olmo"
+    ],
+    [
+     "Dani Carvajal",
+     "Carvajal"
+    ],
+    [
+     "Marc Cucurella",
+     "Cucurella"
+    ],
+    [
+     "Unai Simón",
+     "Simón"
+    ],
+    [
+     "Fabián Ruiz",
+     "Ruiz",
+     "fabian"
+    ],
+    [
+     "Aymeric Laporte",
+     "Laporte"
+    ],
+    [
+     "Robin Le Normand",
+     "Le Normand"
+    ],
+    [
+     "Mikel Merino",
+     "Merino"
+    ],
+    [
+     "Mikel Oyarzabal",
+     "Oyarzabal"
+    ],
+    [
+     "Jesús Navas",
+     "Navas"
+    ],
+    [
+     "Ferran Torres",
+     "Torres"
+    ],
+    "Joselu",
+    [
+     "Álex Grimaldo",
+     "Grimaldo"
+    ],
+    [
+     "Martín Zubimendi",
+     "Zubimendi"
+    ],
+    [
+     "Nacho",
+     "nacho fernandez"
+    ],
+    [
+     "David Raya",
+     "Raya"
+    ],
+    [
+     "Álex Baena",
+     "Baena"
+    ],
+    [
+     "Fermín López",
+     "López",
+     "fermin"
+    ],
+    [
+     "Daniel Vivian",
+     "Vivian"
+    ],
+    [
+     "Álex Remiro",
+     "Remiro"
+    ],
+    [
+     "Ayoze Pérez",
+     "Pérez",
+     "ayoze"
+    ]
+   ]
+  },
+  {
+   "id": "f8-italy-euro-2020-squad",
+   "tags": [
+    "20s",
+    "euros"
+   ],
+   "text": "Name a player in Italy's 26-man squad that won Euro 2020",
+   "answers": [
+    [
+     "Giorgio Chiellini",
+     "Chiellini"
+    ],
+    [
+     "Leonardo Bonucci",
+     "Bonucci"
+    ],
+    [
+     "Gianluigi Donnarumma",
+     "Donnarumma",
+     "gigi donnarumma"
+    ],
+    [
+     "Lorenzo Insigne",
+     "Insigne"
+    ],
+    [
+     "Jorginho",
+     "jorge luiz frello filho"
+    ],
+    [
+     "Federico Chiesa",
+     "Chiesa"
+    ],
+    [
+     "Ciro Immobile",
+     "Immobile"
+    ],
+    [
+     "Nicolò Barella",
+     "Barella"
+    ],
+    [
+     "Leonardo Spinazzola",
+     "Spinazzola"
+    ],
+    [
+     "Marco Verratti",
+     "Verratti"
+    ],
+    [
+     "Manuel Locatelli",
+     "Locatelli"
+    ],
+    [
+     "Andrea Belotti",
+     "Belotti"
+    ],
+    [
+     "Domenico Berardi",
+     "Berardi"
+    ],
+    [
+     "Federico Bernardeschi",
+     "Bernardeschi"
+    ],
+    [
+     "Giovanni Di Lorenzo",
+     "Di Lorenzo"
+    ],
+    [
+     "Emerson Palmieri",
+     "Palmieri",
+     "emerson"
+    ],
+    [
+     "Matteo Pessina",
+     "Pessina"
+    ],
+    [
+     "Alessandro Florenzi",
+     "Florenzi"
+    ],
+    [
+     "Francesco Acerbi",
+     "Acerbi"
+    ],
+    [
+     "Alessandro Bastoni",
+     "Bastoni"
+    ],
+    [
+     "Bryan Cristante",
+     "Cristante"
+    ],
+    [
+     "Giacomo Raspadori",
+     "Raspadori"
+    ],
+    [
+     "Salvatore Sirigu",
+     "Sirigu"
+    ],
+    [
+     "Rafael Tolói",
+     "Tolói"
+    ],
+    [
+     "Gaetano Castrovilli",
+     "Castrovilli"
+    ],
+    [
+     "Alex Meret",
+     "Meret"
+    ]
+   ]
+  }
+ ]
+}

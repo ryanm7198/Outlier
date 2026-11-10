@@ -1,0 +1,13 @@
+{
+  "name": "Outlier",
+  "short_name": "Outlier",
+  "description": "Give the answer nobody else did.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#14152b",
+  "theme_color": "#14152b",
+  "icons": [
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}
