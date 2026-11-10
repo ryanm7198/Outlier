@@ -476,7 +476,8 @@ def next_question(room):
     for p in room["players"].values():
         p["answer"], p["doubling"], p["picked"] = None, False, False
     # Before the prompt is shown, anyone with their double down left sees the category and may use it.
-    if any(online(p) and p["double_left"] for p in room["players"].values()):
+    # Only in Everything games: with a single category chosen, the hint would tell players nothing.
+    if room["cat"] == "all" and any(online(p) and p["double_left"] for p in room["players"].values()):
         room["deadline"] = time.time() + PICK_S
         room["phase"] = "pick"
     else:
@@ -544,7 +545,7 @@ def room_state(room, token):
     me = room["players"][token]
     state = {
         "code": room["code"], "phase": room["phase"], "you": me["n"], "host": room["players"][room["host"]]["n"],
-        "round": room["round"], "rounds": room["rounds"], "secs": room["secs"],
+        "round": room["round"], "rounds": room["rounds"], "secs": room["secs"], "doubles": room["cat"] == "all",
         "label": describe(room["cat"], room["tags"]),
         "doubleLeft": me["double_left"], "doubling": me["doubling"], "picked": me["picked"],
         "players": [{"n": p["n"], "name": p["name"], "score": p["score"], "online": online(p),

@@ -593,7 +593,7 @@ function playersHTML(s) {
     ${!p.online ? '<span class="tag">Away</span>'
       : s.phase === 'question' ? `<span class="tag">${p.answered ? 'Locked in' : 'Thinking'}</span>`
       : s.phase === 'pick' ? `<span class="tag">${p.picked ? 'Ready' : 'Deciding'}</span>`
-      : s.phase !== 'final' && p.doubleLeft ? '<span class="tag dbl">×2 left</span>' : ''}
+      : s.phase !== 'final' && s.phase !== 'lobby' && s.doubles && p.doubleLeft ? '<span class="tag dbl">×2 left</span>' : ''}
   </li>`).join('');
 }
 
@@ -624,7 +624,7 @@ function partyLobby(s, host) {
         `<button class="chip${n === party.rounds ? ' on' : ''}" data-n="${n}">${n}</button>`).join('')}</div></div>
       <div class="group"><h3>Time to answer</h3><div class="chips" id="secs">${[15, 30, 45, 60].map(n =>
         `<button class="chip${n === party.secs ? ' on' : ''}" data-n="${n}">${n}s</button>`).join('')}</div></div>
-      <p class="muted">Everyone gets one double down per game: before each round you see the category, and can double that round's score.</p>
+      <p class="muted">Pick Everything to play with double downs: before each round you see the prompt's category and can double that round's score, once per game.</p>
       <button class="btn primary" id="start">Start game</button>`
       : '<p class="muted center">Waiting for the host to pick a category and start.</p>'}`);
   $('#invite').onclick = () => shareText(`${location.origin}/?room=${s.code}`);
