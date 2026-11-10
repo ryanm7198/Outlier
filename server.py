@@ -52,8 +52,13 @@ class ApiError(Exception):
 
 # ---------------------------------------------------------------- matching
 
+# Letters that Unicode does not decompose into a plain letter plus an accent.
+SPECIAL = str.maketrans({"æ": "ae", "Æ": "AE", "œ": "oe", "Œ": "OE", "ø": "o", "Ø": "O", "ß": "ss", "ł": "l",
+                         "Ł": "L", "đ": "d", "Đ": "D", "ð": "d", "Ð": "D", "þ": "th", "Þ": "Th", "ı": "i"})
+
+
 def norm(s):
-    s = str(s).replace("’", "").replace("'", "").replace("&", " and ")
+    s = str(s).replace("’", "").replace("'", "").replace("&", " and ").translate(SPECIAL)
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"[^a-z0-9]+", " ", s).strip()
     s = re.sub(r"^(the|a|an) ", "", s)
