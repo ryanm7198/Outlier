@@ -121,7 +121,8 @@ def load_prompts():
                 continue
             answers = [a + shared.get(a[0], []) for a in answers]
             PROMPTS[pid] = {"id": pid, "text": p["text"], "cat": data["cat"],
-                            "tags": p.get("tags", []), "names": [a[0] for a in answers]}
+                            "tags": p.get("tags", []), "deep": bool(p.get("deep")),
+                            "names": [a[0] for a in answers]}
             LOOKUP[pid] = {}
             # Canonical names claim their keys first, so an alias never shadows one.
             for a in answers:
@@ -272,13 +273,14 @@ def filter_groups(cat):
     return []
 
 
-def pool(cat, tags):
-    """Prompt ids in a category that pass every filter group."""
+def pool(cat, tags, deep=None):
+    """Prompt ids in a category that pass every filter group. Questions marked "deep" (specialist
+    ones, like one club's squad in one season) only come up once the player has picked a filter."""
     tags = set(tags or [])
     groups = filter_groups(cat)
     out = []
     for p in PROMPTS.values():
-        if cat not in ("all", p["cat"]):
+        if cat not in ("all", p["cat"]) or (p["deep"] and not (tags if deep is None else deep)):
             continue
         ptags = set(p["tags"])
         if all(group_ok(g, g & tags, ptags) for g in groups):
@@ -287,11 +289,12 @@ def pool(cat, tags):
 
 
 def categories():
-    out = [{"id": "all", "label": "Everything", "count": len(PROMPTS), "filters": []}]
+    out = [{"id": "all", "label": "Everything", "count": len(pool("all", [])), "filters": []}]
     for c in CATS:
         ids = pool(c["id"], [])
         out.append({"id": c["id"], "label": c["label"], "count": len(ids),
-                    "tagsets": [PROMPTS[i]["tags"] for i in ids], "filters": [
+                    "tagsets": [PROMPTS[i]["tags"] + (["~deep"] if PROMPTS[i]["deep"] else [])
+                                for i in pool(c["id"], [], deep=True)], "filters": [
             {"label": g["label"], "tags": [
                 {"id": t["id"], "label": t["label"],
                  "count": len(pool(c["id"], [t["id"]]))} for t in g["tags"]]}

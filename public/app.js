@@ -245,7 +245,7 @@ function poolCount(p) {
   const c = catOf(p.cat);
   if (!c.tagsets) return c.count;
   // Mirrors pool() in server.py: for Era, every decade a question spans must be picked.
-  return c.tagsets.filter(tags => c.filters.every(g => {
+  return c.tagsets.filter(tags => (p.tags.length || !tags.includes('~deep')) && c.filters.every(g => {
     const chosen = g.tags.filter(t => p.tags.includes(t.id));
     if (!chosen.length) return true;
     const have = g.tags.filter(t => tags.includes(t.id)).length;
