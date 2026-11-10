@@ -186,3 +186,20 @@ details summary { cursor: pointer; color: var(--muted); padding: 8px 0; font-siz
 .verdict { font-size: 1.25rem; font-weight: 800; color: var(--you); margin: 4px 0 0; }
 .vs { color: var(--muted); margin: 0; }
 .rows .num small { display: block; color: var(--muted); font-weight: 600; font-size: .75rem; text-align: right; }
+
+/* party: double down and the crowd chart */
+.tag.dbl { color: var(--good); border-color: var(--good); }
+.hintbig { text-align: center; font-size: 1.6rem; font-weight: 800; line-height: 1.2; margin: 4px 0 8px; }
+.hint { text-align: center; color: var(--muted); font-size: .85rem; margin: 0 0 -6px; }
+.hint b { color: var(--good); }
+.btn.dbl { background: var(--good); color: #062417; }
+.bars { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; }
+.bars li { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; align-items: center; }
+.bars .bl { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .9rem; }
+.bars .bt { height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; }
+.bars .bt i { display: block; height: 100%; background: var(--crowd); border-radius: 99px; }
+.bars li.picked .bt i { background: var(--you); }
+.bars li.out .bl b::after { content: ' ★'; color: var(--good); }
+.bars .bs { font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.bars .who { font-size: .7rem; font-weight: 700; padding: 1px 7px; border-radius: 99px; background: var(--you); color: var(--you-ink); }
+h3 small { text-transform: none; letter-spacing: 0; font-weight: 500; }

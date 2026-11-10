@@ -554,7 +554,7 @@ function partyMenu(code = '') {
 
 function enterParty(code, pid) {
   store.set('outlier.party', { code, pid });
-  party = { code, pid, key: null, busy: false, rounds: 5 };
+  party = { code, pid, key: null, busy: false, rounds: 5, secs: 30 };
   party.poll = setInterval(pollParty, 1000);
   pollParty();
 }
@@ -590,18 +590,21 @@ function playersHTML(s) {
   return s.players.map(p => `<li class="${p.n === s.you ? 'me' : ''}${p.online ? '' : ' off'}">
     <span class="main"><b>${esc(p.name)}</b></span>
     ${p.n === s.host ? '<span class="tag">Host</span>' : ''}
-    ${!p.online ? '<span class="tag">Away</span>' : s.phase === 'question' ? `<span class="tag">${p.answered ? 'Locked in' : 'Thinking'}</span>` : ''}
+    ${!p.online ? '<span class="tag">Away</span>'
+      : s.phase === 'question' ? `<span class="tag">${p.answered ? 'Locked in' : 'Thinking'}</span>`
+      : s.phase === 'pick' ? `<span class="tag">${p.picked ? 'Ready' : 'Deciding'}</span>`
+      : s.phase !== 'final' && p.doubleLeft ? '<span class="tag dbl">×2 left</span>' : ''}
   </li>`).join('');
 }
 
 function renderParty(s) {
   const host = s.you === s.host;
   const answered = s.phase === 'question' && s.yourAnswer != null;
-  const key = [s.phase, s.round, host, answered].join('|');
+  const key = [s.phase, s.round, host, answered, s.phase === 'pick' && s.picked].join('|');
   if (key !== party.key) {
     party.key = key;
     stopTimer();
-    ({ lobby: partyLobby, question: partyQuestion, reveal: partyReveal, final: partyFinal })[s.phase](s, host, answered);
+    ({ lobby: partyLobby, pick: partyPick, question: partyQuestion, reveal: partyReveal, final: partyFinal })[s.phase](s, host, answered);
     const leave = $('#leave');
     if (leave) leave.onclick = () => leaveParty();
   }
@@ -617,27 +620,54 @@ function partyLobby(s, host) {
     <button class="btn" id="invite">Share invite link</button>
     <div class="card"><h3>Players</h3><ul class="rows" id="players"></ul></div>
     ${host ? `<div id="picker"></div>
-      <div class="group"><h3>Rounds</h3><div class="chips" id="rounds">${[3, 5, 8].map(n =>
+      <div class="group"><h3>Rounds</h3><div class="chips" id="rounds">${[3, 5, 7, 10].map(n =>
         `<button class="chip${n === party.rounds ? ' on' : ''}" data-n="${n}">${n}</button>`).join('')}</div></div>
+      <div class="group"><h3>Time to answer</h3><div class="chips" id="secs">${[15, 30, 45, 60].map(n =>
+        `<button class="chip${n === party.secs ? ' on' : ''}" data-n="${n}">${n}s</button>`).join('')}</div></div>
+      <p class="muted">Everyone gets one double down per game: before each round you see the category, and can double that round's score.</p>
       <button class="btn primary" id="start">Start game</button>`
       : '<p class="muted center">Waiting for the host to pick a category and start.</p>'}`);
   $('#invite').onclick = () => shareText(`${location.origin}/?room=${s.code}`);
   if (!host) return;
   mountPicker($('#picker'), () => { $('#start').disabled = !poolCount(pick); });
-  $('#rounds').onclick = e => {
+  const chips = (id, field) => $(id).onclick = e => {
     const b = e.target.closest('.chip');
     if (!b) return;
-    party.rounds = +b.dataset.n;
-    $('#rounds').querySelectorAll('.chip').forEach(c => c.classList.toggle('on', c === b));
+    party[field] = +b.dataset.n;
+    $(id).querySelectorAll('.chip').forEach(c => c.classList.toggle('on', c === b));
   };
+  chips('#rounds', 'rounds');
+  chips('#secs', 'secs');
   $('#start').disabled = !poolCount(pick);
   $('#start').onclick = startParty;
 }
 
-const startParty = () => partyPost('/api/room/start', { cat: pick.cat, tags: pick.tags, rounds: party.rounds });
+const startParty = () => partyPost('/api/room/start', { cat: pick.cat, tags: pick.tags, rounds: party.rounds, secs: party.secs });
+
+// Before each prompt: the category only, and a once-per-game chance to double the round.
+function partyPick(s) {
+  const mid = `Round ${s.round}/${s.rounds}`;
+  const choice = !s.doubleLeft && !s.doubling ? '<p class="muted center">You have used your double down. Get ready…</p>'
+    : s.picked ? `<div class="card center"><h2>${s.doubling ? 'Doubling down ×2' : 'Playing it straight'}</h2><p class="muted">Waiting for the others…</p></div>`
+      : `<div class="stack">
+          <button class="btn primary dbl" id="dbl">Double down ×2<small>Your one double for this game</small></button>
+          <button class="btn" id="straight">Play it straight</button>
+        </div>`;
+  show(`${partyBar(s, mid)}
+    <div class="bar"><div class="timer grow"><i id="tbar"></i></div><span class="secs" id="tsecs"></span></div>
+    <p class="muted center">Next prompt is from</p>
+    <div class="hintbig">${esc(s.hint)}</div>
+    ${choice}
+    <div class="card"><h3>Players</h3><ul class="rows" id="players"></ul></div>`);
+  runTimer(s.remainingMs, s.roundMs, () => {});
+  if ($('#dbl')) {
+    $('#dbl').onclick = () => partyPost('/api/room/double', { double: true });
+    $('#straight').onclick = () => partyPost('/api/room/double', { double: false });
+  }
+}
 
 function partyQuestion(s, host, answered) {
-  const mid = `Round ${s.round}/${s.rounds} · ${esc(s.label)}`;
+  const mid = `Round ${s.round}/${s.rounds}${s.doubling ? ' · ×2' : ''}`;
   if (answered) {
     show(`${partyBar(s, mid)}
       <div class="bar"><div class="timer grow"><i id="tbar"></i></div><span class="secs" id="tsecs"></span></div>
@@ -646,13 +676,24 @@ function partyQuestion(s, host, answered) {
       <div class="card"><h3>Players</h3><ul class="rows" id="players"></ul></div>`);
     return runTimer(s.remainingMs, s.roundMs, () => {});
   }
-  show(partyBar(s, mid) + questionHTML(s.prompt));
+  show(partyBar(s, mid) + `<p class="hint">${esc(s.hint)}${s.doubling ? ' · <b>Doubling ×2</b>' : ''}</p>` + questionHTML(s.prompt));
   const onTimeout = wireAnswer(s.promptId, text => partyPost('/api/room/answer', { answer: text }));
   runTimer(s.remainingMs, s.roundMs, onTimeout);
   $('#input').focus();
 }
 
 const lanes = s => [...s.players].sort((a, b) => b.score - a.score);
+
+// What the crowd said: bars for the commonest answers, with each player's name on the answer they gave.
+function crowdChart(r) {
+  const top = Math.max(...r.crowd.map(b => b.share), 1);
+  return `<div class="card"><h3>What the crowd said <small class="muted">${r.answers} possible answers</small></h3>
+    <ul class="bars">${r.crowd.map(b => {
+      const who = r.results.filter(x => x.canonical === b.name).map(x => `<span class="who">${esc(x.name)}</span>`).join('');
+      return `<li class="${who ? 'picked' : ''}${b.outlier ? ' out' : ''}"><div class="bl"><b>${esc(b.name)}</b>${who}</div>
+        <div class="bt"><i style="width:${(100 * b.share / top).toFixed(1)}%"></i></div><span class="bs">${b.share}%</span></li>`;
+    }).join('')}</ul></div>`;
+}
 
 function partyReveal(s, host) {
   const r = s.reveal, mine = r.results.find(x => x.n === s.you);
@@ -664,11 +705,12 @@ function partyReveal(s, host) {
     <ul class="rows card">${r.results.map(x => `<li class="${x.n === s.you ? 'me' : ''}">
       <span class="main"><b>${esc(x.name)}</b><small>${x.valid ? `${esc(x.canonical)} · ${x.share}% said it`
         : x.given ? `<span class="strike">${esc(x.given)}</span> · not on the list` : 'No answer'}</small></span>
-      ${x.outlier ? '<span class="tag">Outlier</span>' : ''}${x.shared ? '<span class="tag">Shared ½</span>' : ''}<span class="num">+${x.points}</span></li>`).join('')}</ul>
+      ${x.outlier ? '<span class="tag">Outlier</span>' : ''}${x.shared ? '<span class="tag">Shared ½</span>' : ''}${x.doubled ? '<span class="tag dbl">×2</span>' : ''}<span class="num">+${x.points}</span></li>`).join('')}</ul>
+    ${crowdChart(r)}
     <div class="card">${trailHTML(lanes(s).map(p => {
       const got = r.results.find(x => x.n === p.n);
       return { name: p.name, from: p.score - (got ? got.points : 0), to: p.score, me: p.n === s.you };
-    }), s.rounds * 100)}</div>
+    }), (s.rounds + 1) * 100)}</div>
     ${outlierHTML(r.outliers, mine && mine.canonical)}
     <p class="muted center">Most common: <b>${esc(r.commonest.name)}</b></p>
     ${host ? `<button class="btn primary" id="next">${last ? 'Final standings' : 'Next round'}</button>`
@@ -679,7 +721,7 @@ function partyReveal(s, host) {
 }
 
 function partyFinal(s, host) {
-  const order = lanes(s), max = s.rounds * 100, top = order[0];
+  const order = lanes(s), max = (s.rounds + 1) * 100, top = order[0];
   const tied = order.filter(p => p.score === top.score).length > 1;
   show(`${partyBar(s, 'Final standings')}
     <div class="center"><p class="muted">${tied ? 'Furthest from the crowd (tied)' : 'Furthest from the crowd'}</p>

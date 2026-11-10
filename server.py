@@ -35,6 +35,8 @@ ROUND_S = 30           # seconds to answer
 OUTLIER_PAIR = 30       # questions with this many answers have two Outliers
 MIN_ANSWERS = 8        # prompts with fewer possible answers are left out
 GRACE_S = 2            # leeway for answers sent as the clock hits zero
+PICK_S = 10            # party: seconds to decide whether to double down
+TIMERS = (15, 20, 30, 45, 60)   # party: answer times the host can pick
 LAUNCH = datetime.date(2026, 11, 10)
 LOCK = threading.RLock()
 
@@ -393,7 +395,8 @@ def add_player(room, name):
         name, i = f"{base[:14]} {i}", i + 1
     token = secrets.token_hex(8)
     room["seq"] += 1
-    room["players"][token] = {"n": room["seq"], "name": name, "score": 0, "answer": None, "last": time.time()}
+    room["players"][token] = {"n": room["seq"], "name": name, "score": 0, "answer": None, "last": time.time(),
+                              "double_left": True, "doubling": False, "picked": False}
     return token
 
 
@@ -406,7 +409,8 @@ def create_room(name):
         if code not in ROOMS:
             break
     room = {"code": code, "players": {}, "seq": 0, "host": None, "phase": "lobby", "round": 0, "rounds": 5,
-            "cat": "all", "tags": [], "used": [], "prompt": None, "deadline": 0, "reveal": None, "touched": now}
+            "cat": "all", "tags": [], "used": [], "prompt": None, "deadline": 0, "reveal": None, "touched": now,
+            "secs": ROUND_S}
     token = add_player(room, name)
     room["host"] = token
     ROOMS[code] = room
@@ -437,9 +441,24 @@ def next_question(room):
     room["used"].append(room["prompt"])
     room["round"] += 1
     for p in room["players"].values():
-        p["answer"] = None
-    room["deadline"] = time.time() + ROUND_S
+        p["answer"], p["doubling"], p["picked"] = None, False, False
+    # Before the prompt is shown, anyone with their double down left sees the category and may use it.
+    if any(online(p) and p["double_left"] for p in room["players"].values()):
+        room["deadline"] = time.time() + PICK_S
+        room["phase"] = "pick"
+    else:
+        begin_question(room)
+
+
+def begin_question(room):
+    room["deadline"] = time.time() + room["secs"]
     room["phase"] = "question"
+
+
+def hint_for(pid):
+    """What players see before doubling: the category and the prompt's filter labels, never the prompt."""
+    p = PROMPTS[pid]
+    return describe(p["cat"], p["tags"])
 
 
 def resolve(room):
@@ -448,18 +467,23 @@ def resolve(room):
     results = []
     for p in room["players"].values():
         r = judge(pid, p["answer"], counts)
-        r.update(n=p["n"], name=p["name"], shared=False)
+        r.update(n=p["n"], name=p["name"], shared=False, doubled=p["doubling"])
         results.append(r)
     for r in results:
         if r["valid"] and sum(1 for o in results if o["canonical"] == r["canonical"]) > 1:
             r["shared"], r["points"] = True, round(r["points"] / 2)
+        if r["doubled"]:
+            r["points"] *= 2
     for p, r in zip(room["players"].values(), results):
         p["score"] += r["points"]
         if r["given"]:
             record(pid, r["canonical"], r["given"])
     board = board_for(counts)
     results.sort(key=lambda r: -r["points"])
-    room["reveal"] = {"prompt": PROMPTS[pid]["text"], "results": results,
+    # The crowd chart: the most common answers, plus every answer a player in the room gave.
+    said = {r["canonical"] for r in results if r["valid"]}
+    crowd = [b for i, b in enumerate(board) if i < 8 or b["name"] in said]
+    room["reveal"] = {"prompt": PROMPTS[pid]["text"], "results": results, "crowd": crowd, "answers": len(board),
                       "outliers": [b for b in board if b["outlier"]], "commonest": board[0]}
     room["phase"] = "reveal"
 
@@ -471,6 +495,10 @@ def tick(room):
             if online(p):
                 room["host"] = token
                 break
+    if room["phase"] == "pick":
+        deciding = [p for p in players.values() if online(p) and p["double_left"] and not p["picked"]]
+        if not deciding or time.time() >= room["deadline"]:
+            begin_question(room)
     if room["phase"] == "question":
         waiting = [p for p in players.values() if online(p) and p["answer"] is None]
         if not waiting or time.time() >= room["deadline"] + GRACE_S:
@@ -483,13 +511,19 @@ def room_state(room, token):
     me = room["players"][token]
     state = {
         "code": room["code"], "phase": room["phase"], "you": me["n"], "host": room["players"][room["host"]]["n"],
-        "round": room["round"], "rounds": room["rounds"], "label": describe(room["cat"], room["tags"]),
+        "round": room["round"], "rounds": room["rounds"], "secs": room["secs"],
+        "label": describe(room["cat"], room["tags"]),
+        "doubleLeft": me["double_left"], "doubling": me["doubling"], "picked": me["picked"],
         "players": [{"n": p["n"], "name": p["name"], "score": p["score"], "online": online(p),
-                     "answered": p["answer"] is not None} for p in room["players"].values()],
+                     "answered": p["answer"] is not None, "picked": p["picked"] or not p["double_left"],
+                     "doubleLeft": p["double_left"]} for p in room["players"].values()],
     }
+    left = max(0, int((room["deadline"] - time.time()) * 1000))
+    if room["phase"] == "pick":
+        state.update(hint=hint_for(room["prompt"]), roundMs=PICK_S * 1000, remainingMs=left)
     if room["phase"] == "question":
-        state.update(prompt=PROMPTS[room["prompt"]]["text"], promptId=room["prompt"], roundMs=ROUND_S * 1000, yourAnswer=me["answer"],
-                     remainingMs=max(0, int((room["deadline"] - time.time()) * 1000)))
+        state.update(prompt=PROMPTS[room["prompt"]]["text"], promptId=room["prompt"], hint=hint_for(room["prompt"]),
+                     roundMs=room["secs"] * 1000, yourAnswer=me["answer"], remainingMs=left)
     if room["phase"] == "reveal":
         state["reveal"] = room["reveal"]
     return state
@@ -554,6 +588,13 @@ def api_post(path, body):
 
     token = body.get("pid")
     room = get_room(body.get("code"), token)
+    if path == "/api/room/double":
+        me = room["players"][token]
+        if room["phase"] == "pick" and me["double_left"] and not me["picked"]:
+            me["picked"] = True
+            if body.get("double"):
+                me["doubling"], me["double_left"] = True, False
+        return room_state(room, token)
     if path == "/api/room/answer":
         me = room["players"][token]
         if room["phase"] == "question" and me["answer"] is None and time.time() < room["deadline"] + GRACE_S:
@@ -572,9 +613,14 @@ def api_post(path, body):
             rounds = int(body.get("rounds") or 5)
         except (TypeError, ValueError):
             rounds = 5
-        room.update(cat=cat, tags=tags, rounds=max(1, min(rounds, 10, size)), round=0)
+        try:
+            secs = int(body.get("secs") or ROUND_S)
+        except (TypeError, ValueError):
+            secs = ROUND_S
+        room.update(cat=cat, tags=tags, rounds=max(1, min(rounds, 10, size)), round=0,
+                    secs=secs if secs in TIMERS else ROUND_S)
         for p in room["players"].values():
-            p["score"] = 0
+            p["score"], p["double_left"] = 0, True
         next_question(room)
     elif path == "/api/room/next":
         if room["phase"] == "reveal":
