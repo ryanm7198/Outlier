@@ -1,0 +1,5835 @@
+{
+ "cat": "gaming",
+ "prompts": [
+  {
+   "id": "xg6-pokemon-bug151",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Bug-type Pokémon from the original 151 (including dual types)",
+   "answers": [
+    "Caterpie",
+    "Metapod",
+    "Butterfree",
+    "Weedle",
+    "Kakuna",
+    "Beedrill",
+    "Paras",
+    "Parasect",
+    "Venonat",
+    "Venomoth",
+    "Scyther",
+    "Pinsir"
+   ]
+  },
+  {
+   "id": "xg6-pokemon-psychic151",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Psychic-type Pokémon from the original 151 (including dual types)",
+   "answers": [
+    "Abra",
+    "Kadabra",
+    "Alakazam",
+    "Slowpoke",
+    "Slowbro",
+    "Drowzee",
+    "Hypno",
+    "Exeggcute",
+    "Exeggutor",
+    "Starmie",
+    [
+     "Mr. Mime",
+     "Mr Mime",
+     "Mime"
+    ],
+    "Jynx",
+    "Mewtwo",
+    "Mew"
+   ]
+  },
+  {
+   "id": "xg6-pokemon-mega-gen6",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Pokémon that could Mega Evolve in Pokémon X and Y or Omega Ruby and Alpha Sapphire (2013 to 2014)",
+   "answers": [
+    "Venusaur",
+    "Charizard",
+    "Blastoise",
+    "Alakazam",
+    "Gengar",
+    "Kangaskhan",
+    "Pinsir",
+    "Gyarados",
+    "Aerodactyl",
+    "Mewtwo",
+    "Ampharos",
+    "Scizor",
+    "Heracross",
+    "Houndoom",
+    "Tyranitar",
+    "Blaziken",
+    "Gardevoir",
+    "Mawile",
+    "Aggron",
+    "Medicham",
+    "Manectric",
+    "Banette",
+    "Absol",
+    "Garchomp",
+    "Lucario",
+    "Abomasnow",
+    "Beedrill",
+    "Pidgeot",
+    "Slowbro",
+    "Steelix",
+    "Sceptile",
+    "Swampert",
+    "Sableye",
+    "Sharpedo",
+    "Camerupt",
+    "Altaria",
+    "Glalie",
+    "Salamence",
+    "Metagross",
+    "Latias",
+    "Latios",
+    "Rayquaza",
+    "Lopunny",
+    "Gallade",
+    "Audino",
+    "Diancie"
+   ]
+  },
+  {
+   "id": "xg6-pokemon-regional-forms",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Pokémon that has an Alolan, Galarian, Hisuian or Paldean regional form (as of 2025)",
+   "answers": [
+    "Rattata",
+    "Raticate",
+    "Raichu",
+    "Sandshrew",
+    "Sandslash",
+    "Vulpix",
+    "Ninetales",
+    "Diglett",
+    "Dugtrio",
+    "Meowth",
+    "Persian",
+    "Geodude",
+    "Graveler",
+    "Golem",
+    "Grimer",
+    "Muk",
+    "Exeggutor",
+    "Marowak",
+    "Ponyta",
+    "Rapidash",
+    "Slowpoke",
+    "Slowbro",
+    "Slowking",
+    [
+     "Farfetch'd",
+     "Farfetchd"
+    ],
+    "Weezing",
+    [
+     "Mr. Mime",
+     "Mr Mime",
+     "Mime"
+    ],
+    "Articuno",
+    "Zapdos",
+    "Moltres",
+    "Corsola",
+    "Zigzagoon",
+    "Linoone",
+    "Darumaka",
+    "Darmanitan",
+    "Yamask",
+    "Stunfisk",
+    "Growlithe",
+    "Arcanine",
+    "Voltorb",
+    "Electrode",
+    "Typhlosion",
+    "Qwilfish",
+    "Sneasel",
+    "Samurott",
+    "Lilligant",
+    "Zorua",
+    "Zoroark",
+    "Braviary",
+    "Sliggoo",
+    "Goodra",
+    "Avalugg",
+    "Decidueye",
+    "Wooper",
+    "Tauros"
+   ]
+  },
+  {
+   "id": "xg6-pokemon-gen1-moves",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a move from the original Pokémon Red and Blue (Generation I)",
+   "answers": [
+    "Pound",
+    [
+     "Karate Chop",
+     "karatechop"
+    ],
+    [
+     "Double Slap",
+     "doubleslap"
+    ],
+    [
+     "Comet Punch",
+     "cometpunch"
+    ],
+    [
+     "Mega Punch",
+     "megapunch"
+    ],
+    [
+     "Pay Day",
+     "payday"
+    ],
+    [
+     "Fire Punch",
+     "Firepunch"
+    ],
+    [
+     "Ice Punch",
+     "Icepunch"
+    ],
+    [
+     "Thunder Punch",
+     "Thunderpunch"
+    ],
+    "Scratch",
+    [
+     "Vise Grip",
+     "Vice Grip"
+    ],
+    "Guillotine",
+    [
+     "Razor Wind",
+     "razorwind"
+    ],
+    [
+     "Swords Dance",
+     "swordsdance"
+    ],
+    "Cut",
+    "Gust",
+    [
+     "Wing Attack",
+     "wingattack"
+    ],
+    "Whirlwind",
+    "Fly",
+    "Bind",
+    "Slam",
+    [
+     "Vine Whip",
+     "vinewhip"
+    ],
+    "Stomp",
+    [
+     "Double Kick",
+     "doublekick"
+    ],
+    [
+     "Mega Kick",
+     "megakick"
+    ],
+    [
+     "Jump Kick",
+     "jumpkick"
+    ],
+    [
+     "Rolling Kick",
+     "rollingkick"
+    ],
+    [
+     "Sand Attack",
+     "Sand-Attack"
+    ],
+    "Headbutt",
+    [
+     "Horn Attack",
+     "hornattack"
+    ],
+    [
+     "Fury Attack",
+     "furyattack"
+    ],
+    [
+     "Horn Drill",
+     "horndrill"
+    ],
+    "Tackle",
+    [
+     "Body Slam",
+     "bodyslam"
+    ],
+    "Wrap",
+    [
+     "Take Down",
+     "takedown"
+    ],
+    "Thrash",
+    [
+     "Double-Edge",
+     "Double Edge"
+    ],
+    [
+     "Tail Whip",
+     "tailwhip"
+    ],
+    [
+     "Poison Sting",
+     "poisonsting"
+    ],
+    "Twineedle",
+    [
+     "Pin Missile",
+     "pinmissile"
+    ],
+    "Leer",
+    "Bite",
+    "Growl",
+    "Roar",
+    "Sing",
+    "Supersonic",
+    [
+     "Sonic Boom",
+     "sonicboom"
+    ],
+    "Disable",
+    "Acid",
+    "Ember",
+    "Flamethrower",
+    "Mist",
+    [
+     "Water Gun",
+     "watergun"
+    ],
+    [
+     "Hydro Pump",
+     "hydropump"
+    ],
+    "Surf",
+    [
+     "Ice Beam",
+     "icebeam"
+    ],
+    "Blizzard",
+    "Psybeam",
+    [
+     "Bubble Beam",
+     "bubblebeam"
+    ],
+    [
+     "Aurora Beam",
+     "aurorabeam"
+    ],
+    [
+     "Hyper Beam",
+     "hyperbeam"
+    ],
+    "Peck",
+    [
+     "Drill Peck",
+     "drillpeck"
+    ],
+    "Submission",
+    [
+     "Low Kick",
+     "lowkick"
+    ],
+    "Counter",
+    [
+     "Seismic Toss",
+     "seismictoss"
+    ],
+    "Strength",
+    "Absorb",
+    [
+     "Mega Drain",
+     "megadrain"
+    ],
+    [
+     "Leech Seed",
+     "leechseed"
+    ],
+    "Growth",
+    [
+     "Razor Leaf",
+     "razorleaf"
+    ],
+    [
+     "Solar Beam",
+     "solarbeam"
+    ],
+    [
+     "Poison Powder",
+     "Poisonpowder"
+    ],
+    [
+     "Stun Spore",
+     "stunspore"
+    ],
+    [
+     "Sleep Powder",
+     "sleeppowder"
+    ],
+    [
+     "Petal Dance",
+     "petaldance"
+    ],
+    [
+     "String Shot",
+     "stringshot"
+    ],
+    [
+     "Dragon Rage",
+     "dragonrage"
+    ],
+    [
+     "Fire Spin",
+     "firespin"
+    ],
+    [
+     "Thunder Shock",
+     "thundershock"
+    ],
+    "Thunderbolt",
+    [
+     "Thunder Wave",
+     "thunderwave"
+    ],
+    "Thunder",
+    [
+     "Rock Throw",
+     "rockthrow"
+    ],
+    "Earthquake",
+    "Fissure",
+    "Dig",
+    "Toxic",
+    "Confusion",
+    "Psychic",
+    "Hypnosis",
+    "Meditate",
+    "Agility",
+    [
+     "Quick Attack",
+     "quickattack"
+    ],
+    "Rage",
+    "Teleport",
+    [
+     "Night Shade",
+     "nightshade"
+    ],
+    "Mimic",
+    "Screech",
+    [
+     "Double Team",
+     "doubleteam"
+    ],
+    "Recover",
+    "Harden",
+    "Minimize",
+    [
+     "Smokescreen",
+     "Smoke Screen"
+    ],
+    [
+     "Confuse Ray",
+     "confuseray"
+    ],
+    "Withdraw",
+    [
+     "Defense Curl",
+     "defensecurl"
+    ],
+    "Barrier",
+    [
+     "Light Screen",
+     "lightscreen"
+    ],
+    "Haze",
+    "Reflect",
+    [
+     "Focus Energy",
+     "focusenergy"
+    ],
+    "Bide",
+    "Metronome",
+    [
+     "Mirror Move",
+     "mirrormove"
+    ],
+    [
+     "Self-Destruct",
+     "Self Destruct",
+     "Selfdestruct"
+    ],
+    [
+     "Egg Bomb",
+     "eggbomb"
+    ],
+    "Lick",
+    "Smog",
+    "Sludge",
+    [
+     "Bone Club",
+     "boneclub"
+    ],
+    [
+     "Fire Blast",
+     "fireblast"
+    ],
+    "Waterfall",
+    "Clamp",
+    "Swift",
+    [
+     "Skull Bash",
+     "skullbash"
+    ],
+    [
+     "Spike Cannon",
+     "spikecannon"
+    ],
+    "Constrict",
+    "Amnesia",
+    "Kinesis",
+    [
+     "Softboiled",
+     "Soft-Boiled",
+     "Soft Boiled"
+    ],
+    [
+     "High Jump Kick",
+     "highjumpkick"
+    ],
+    "Glare",
+    [
+     "Dream Eater",
+     "dreameater"
+    ],
+    [
+     "Poison Gas",
+     "poisongas"
+    ],
+    "Barrage",
+    [
+     "Leech Life",
+     "leechlife"
+    ],
+    [
+     "Lovely Kiss",
+     "lovelykiss"
+    ],
+    [
+     "Sky Attack",
+     "skyattack"
+    ],
+    "Transform",
+    "Bubble",
+    [
+     "Dizzy Punch",
+     "dizzypunch"
+    ],
+    "Spore",
+    "Flash",
+    "Psywave",
+    "Splash",
+    [
+     "Acid Armor",
+     "acidarmor"
+    ],
+    "Crabhammer",
+    "Explosion",
+    [
+     "Fury Swipes",
+     "furyswipes"
+    ],
+    "Bonemerang",
+    "Rest",
+    [
+     "Rock Slide",
+     "rockslide"
+    ],
+    [
+     "Hyper Fang",
+     "hyperfang"
+    ],
+    "Sharpen",
+    "Conversion",
+    [
+     "Tri Attack",
+     "triattack"
+    ],
+    [
+     "Super Fang",
+     "superfang"
+    ],
+    "Slash",
+    "Substitute",
+    "Struggle"
+   ]
+  },
+  {
+   "id": "xg6-pokemon-healing-items",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a healing or revival item in the Pokémon games",
+   "answers": [
+    "Potion",
+    "Super Potion",
+    "Hyper Potion",
+    "Max Potion",
+    "Full Restore",
+    "Revive",
+    "Max Revive",
+    "Antidote",
+    "Burn Heal",
+    "Ice Heal",
+    "Awakening",
+    "Paralyze Heal",
+    "Full Heal",
+    "Ether",
+    "Max Ether",
+    "Elixir",
+    "Max Elixir",
+    "Fresh Water",
+    "Soda Pop",
+    "Lemonade",
+    "Moomoo Milk",
+    "Berry Juice",
+    "Energy Powder",
+    "Energy Root",
+    "Heal Powder",
+    "Revival Herb",
+    "Sacred Ash"
+   ]
+  },
+  {
+   "id": "xg6-pokemon-evolution-items",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name an item that makes a Pokémon evolve (such as an evolution stone)",
+   "answers": [
+    "Sun Stone",
+    "Moon Stone",
+    "Fire Stone",
+    "Thunder Stone",
+    "Water Stone",
+    "Leaf Stone",
+    "Shiny Stone",
+    "Dusk Stone",
+    "Dawn Stone",
+    "Ice Stone",
+    "Dragon Scale",
+    [
+     "Up-Grade",
+     "Upgrade",
+     "Up Grade"
+    ],
+    "Protector",
+    "Electirizer",
+    "Magmarizer",
+    "Dubious Disc",
+    "Reaper Cloth",
+    "Prism Scale",
+    "Whipped Dream",
+    "Sachet",
+    [
+     "King's Rock",
+     "Kings Rock"
+    ],
+    "Metal Coat",
+    "Deep Sea Tooth",
+    "Deep Sea Scale",
+    "Razor Claw",
+    "Razor Fang",
+    "Sweet Apple",
+    "Tart Apple",
+    "Cracked Pot",
+    "Chipped Pot",
+    "Linking Cord",
+    "Black Augurite",
+    "Peat Block",
+    "Auspicious Armor",
+    "Malicious Armor",
+    "Syrupy Apple",
+    "Galarica Cuff",
+    "Galarica Wreath",
+    "Scroll of Darkness",
+    "Scroll of Waters"
+   ]
+  },
+  {
+   "id": "xg6-pokemon-spinoffs",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Pokémon spin-off game (not a main-series Pokémon RPG)",
+   "answers": [
+    [
+     "Pokémon Stadium",
+     "Stadium"
+    ],
+    [
+     "Pokémon Colosseum",
+     "Colosseum"
+    ],
+    [
+     "Pokémon XD: Gale of Darkness",
+     "XD",
+     "Gale of Darkness"
+    ],
+    [
+     "Pokémon Snap",
+     "Snap"
+    ],
+    "New Pokémon Snap",
+    [
+     "Pokémon Mystery Dungeon",
+     "Mystery Dungeon"
+    ],
+    [
+     "Pokémon Ranger",
+     "Ranger"
+    ],
+    [
+     "Pokémon Rumble",
+     "Rumble"
+    ],
+    [
+     "Pokémon Pinball",
+     "Pinball"
+    ],
+    [
+     "Pokémon Puzzle League",
+     "Puzzle League"
+    ],
+    [
+     "Pokémon Trozei",
+     "Trozei"
+    ],
+    [
+     "PokéPark",
+     "PokePark",
+     "Pokepark Wii"
+    ],
+    [
+     "Pokkén Tournament",
+     "Pokken Tournament",
+     "Pokken"
+    ],
+    [
+     "Pokémon Go",
+     "Go"
+    ],
+    [
+     "Pokémon Masters EX",
+     "Pokemon Masters",
+     "Masters EX"
+    ],
+    [
+     "Pokémon Unite",
+     "Unite"
+    ],
+    [
+     "Pokémon Café Mix",
+     "Cafe Mix",
+     "Pokémon Café ReMix"
+    ],
+    [
+     "Pokémon Quest",
+     "Quest"
+    ],
+    [
+     "Pokémon Conquest",
+     "Conquest"
+    ],
+    [
+     "Pokémon Shuffle",
+     "Shuffle"
+    ],
+    [
+     "Pokémon Duel",
+     "Duel"
+    ],
+    [
+     "Pokémon Sleep",
+     "Sleep"
+    ],
+    [
+     "Pokémon Home",
+     "Home"
+    ],
+    [
+     "Pokémon Channel",
+     "Channel"
+    ],
+    "Detective Pikachu",
+    [
+     "Hey You, Pikachu!",
+     "Hey You Pikachu"
+    ],
+    [
+     "Pokémon Dash",
+     "Dash"
+    ],
+    [
+     "Pokémon Battle Revolution",
+     "Battle Revolution"
+    ],
+    [
+     "Pokémon Trading Card Game",
+     "Pokemon TCG",
+     "TCG",
+     "Trading Card Game"
+    ],
+    [
+     "Pokémon Trading Card Game Pocket",
+     "TCG Pocket",
+     "Pokemon Pocket",
+     "Pokémon TCG Pocket"
+    ],
+    "Pokémon Smile"
+   ]
+  },
+  {
+   "id": "xg6-mc-commands",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a command you can type in Minecraft (such as /give or /tp)",
+   "answers": [
+    "advancement",
+    "attribute",
+    "ban",
+    [
+     "ban-ip",
+     "banip"
+    ],
+    "banlist",
+    "bossbar",
+    "clear",
+    "clone",
+    "damage",
+    "data",
+    "datapack",
+    "defaultgamemode",
+    "deop",
+    "difficulty",
+    "effect",
+    "enchant",
+    "execute",
+    [
+     "experience",
+     "xp"
+    ],
+    "fill",
+    "fillbiome",
+    "forceload",
+    "function",
+    "gamemode",
+    "gamerule",
+    "give",
+    "help",
+    "item",
+    "kick",
+    "kill",
+    "list",
+    "locate",
+    "loot",
+    "me",
+    [
+     "msg",
+     "tell",
+     "w"
+    ],
+    "op",
+    "pardon",
+    "particle",
+    "place",
+    "playsound",
+    "publish",
+    "random",
+    "recipe",
+    "reload",
+    "return",
+    "ride",
+    "say",
+    "schedule",
+    "scoreboard",
+    "seed",
+    "setblock",
+    "setworldspawn",
+    "spawnpoint",
+    "spectate",
+    "spreadplayers",
+    "stop",
+    "stopsound",
+    "summon",
+    "tag",
+    "team",
+    [
+     "teleport",
+     "tp"
+    ],
+    "tellraw",
+    "tick",
+    "time",
+    "title",
+    "transfer",
+    "trigger",
+    "weather",
+    "whitelist",
+    "worldborder",
+    "jfr",
+    [
+     "save-all",
+     "saveall"
+    ],
+    "teammsg",
+    "debug",
+    "setidletimeout"
+   ]
+  },
+  {
+   "id": "xg6-mc-editions-spinoffs",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a Minecraft edition, version or spin-off game (as of 2026)",
+   "answers": [
+    [
+     "Java Edition",
+     "Java"
+    ],
+    [
+     "Bedrock Edition",
+     "Bedrock"
+    ],
+    [
+     "Pocket Edition",
+     "Minecraft PE",
+     "Pocket"
+    ],
+    [
+     "Education Edition",
+     "Minecraft Education",
+     "Education"
+    ],
+    [
+     "Classic",
+     "Minecraft Classic"
+    ],
+    [
+     "Pi Edition",
+     "Raspberry Pi Edition",
+     "Minecraft Pi"
+    ],
+    "Windows 10 Edition",
+    [
+     "Legacy Console Edition",
+     "Console Edition"
+    ],
+    [
+     "Nintendo Switch Edition",
+     "Switch Edition"
+    ],
+    [
+     "PlayStation 4 Edition",
+     "PS4 Edition"
+    ],
+    [
+     "PlayStation 3 Edition",
+     "PS3 Edition"
+    ],
+    [
+     "PlayStation Vita Edition",
+     "Vita Edition"
+    ],
+    "Xbox 360 Edition",
+    "Xbox One Edition",
+    "Wii U Edition",
+    [
+     "New Nintendo 3DS Edition",
+     "3DS Edition"
+    ],
+    "China Edition",
+    [
+     "Minecraft: Story Mode",
+     "Story Mode"
+    ],
+    [
+     "Minecraft: Story Mode - Season Two",
+     "Story Mode Season 2",
+     "Story Mode Season Two"
+    ],
+    [
+     "Minecraft Earth",
+     "Earth"
+    ],
+    [
+     "Minecraft Dungeons",
+     "Dungeons"
+    ],
+    [
+     "Minecraft Dungeons Arcade",
+     "Dungeons Arcade"
+    ],
+    [
+     "Minecraft Legends",
+     "Legends"
+    ],
+    [
+     "Minecraft Blast",
+     "Blast"
+    ],
+    [
+     "Minecraft Dungeons II",
+     "Minecraft Dungeons 2",
+     "Dungeons II",
+     "Dungeons 2"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-mc-explosions",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name something that can cause an explosion or blast in Minecraft (as of 2026)",
+   "answers": [
+    "Creeper",
+    "Charged Creeper",
+    "TNT",
+    [
+     "TNT Minecart",
+     "Minecart with TNT"
+    ],
+    [
+     "Ghast",
+     "Ghast Fireball",
+     "Fireball"
+    ],
+    [
+     "End Crystal",
+     "Ender Crystal"
+    ],
+    [
+     "Bed",
+     "Beds"
+    ],
+    "Respawn Anchor",
+    "Wither",
+    "Wither Skull",
+    [
+     "Sulfur Cube",
+     "Sulfur Cube with TNT"
+    ],
+    [
+     "Firework Rocket",
+     "Firework"
+    ],
+    "Wind Charge"
+   ]
+  },
+  {
+   "id": "xg6-mc-furnace-fuel",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name an item or block you can burn as fuel in a Minecraft furnace",
+   "answers": [
+    "Coal",
+    "Charcoal",
+    [
+     "Block of Coal",
+     "Coal Block"
+    ],
+    [
+     "Lava Bucket",
+     "Bucket of Lava",
+     "Lava"
+    ],
+    "Blaze Rod",
+    "Dried Kelp Block",
+    "Bamboo",
+    [
+     "Stick",
+     "Sticks"
+    ],
+    [
+     "Wooden Planks",
+     "Planks",
+     "Wood Planks"
+    ],
+    [
+     "Logs",
+     "Log",
+     "Wood"
+    ],
+    [
+     "Sapling",
+     "Saplings"
+    ],
+    [
+     "Wooden Pickaxe",
+     "Wooden Tools",
+     "Wooden Axe",
+     "Wooden Sword",
+     "Wooden Shovel",
+     "Wooden Hoe"
+    ],
+    "Boat",
+    "Bow",
+    "Fishing Rod",
+    "Ladder",
+    "Crafting Table",
+    "Chest",
+    "Barrel",
+    "Bookshelf",
+    "Note Block",
+    "Jukebox",
+    "Scaffolding",
+    "Dead Bush",
+    "Wool",
+    "Carpet",
+    [
+     "Wooden Door",
+     "Door"
+    ],
+    "Fence",
+    "Sign",
+    "Banner",
+    "Bowl",
+    [
+     "Wooden Slab",
+     "Slab"
+    ],
+    [
+     "Wooden Stairs",
+     "Stairs"
+    ],
+    [
+     "Wooden Button",
+     "Button"
+    ],
+    [
+     "Wooden Pressure Plate",
+     "Pressure Plate"
+    ],
+    "Trapdoor",
+    "Daylight Detector",
+    "Azalea",
+    [
+     "Wooden Spear",
+     "Spear"
+    ],
+    "Chest Boat"
+   ]
+  },
+  {
+   "id": "xg6-mc-storage-blocks",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name an item that you can craft nine of into a single storage block in Minecraft (such as nine iron ingots)",
+   "answers": [
+    "Iron Ingot",
+    "Resin Clump",
+    "Gold Ingot",
+    "Diamond",
+    "Emerald",
+    "Coal",
+    [
+     "Lapis Lazuli",
+     "Lapis"
+    ],
+    [
+     "Redstone",
+     "Redstone Dust"
+    ],
+    "Copper Ingot",
+    "Netherite Ingot",
+    "Raw Iron",
+    "Raw Gold",
+    "Raw Copper",
+    "Wheat",
+    [
+     "Slime Ball",
+     "Slimeball"
+    ],
+    "Bone Meal",
+    "Dried Kelp"
+   ]
+  },
+  {
+   "id": "xg6-mc-iron-crafts",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name something you can craft using iron ingots in Minecraft",
+   "answers": [
+    "Iron Block",
+    [
+     "Iron Pickaxe",
+     "Pickaxe"
+    ],
+    "Iron Axe",
+    "Iron Shovel",
+    "Iron Hoe",
+    "Iron Sword",
+    "Iron Helmet",
+    "Iron Chestplate",
+    "Iron Leggings",
+    "Iron Boots",
+    "Iron Spear",
+    "Bucket",
+    "Shears",
+    "Compass",
+    "Hopper",
+    "Cauldron",
+    "Minecart",
+    "Rail",
+    "Powered Rail",
+    "Detector Rail",
+    "Activator Rail",
+    "Anvil",
+    "Iron Door",
+    "Iron Trapdoor",
+    "Iron Bars",
+    "Chain",
+    [
+     "Flint and Steel",
+     "Flint & Steel"
+    ],
+    "Tripwire Hook",
+    "Blast Furnace",
+    "Smithing Table",
+    "Stonecutter",
+    "Piston",
+    "Heavy Weighted Pressure Plate",
+    "Crossbow"
+   ]
+  },
+  {
+   "id": "xg6-mc-redstone-crafts",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name something you can craft using redstone dust in Minecraft",
+   "answers": [
+    "Redstone Torch",
+    [
+     "Block of Redstone",
+     "Redstone Block"
+    ],
+    "Repeater",
+    "Comparator",
+    "Compass",
+    "Clock",
+    "Dispenser",
+    "Dropper",
+    "Observer",
+    "Note Block",
+    "Redstone Lamp",
+    "Powered Rail",
+    "Activator Rail",
+    "Detector Rail",
+    [
+     "Target",
+     "Target Block"
+    ],
+    "Crafter",
+    "Piston",
+    "Copper Bulb"
+   ]
+  },
+  {
+   "id": "xg6-mc-tame-ride",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a mob you can tame, saddle or ride in Minecraft (as of 2026)",
+   "answers": [
+    "Horse",
+    "Zombie Horse",
+    "Skeleton Horse",
+    "Donkey",
+    "Mule",
+    "Llama",
+    "Trader Llama",
+    "Nautilus",
+    "Zombie Nautilus",
+    "Cat",
+    "Parrot",
+    "Wolf",
+    "Camel",
+    "Camel Husk",
+    "Happy Ghast",
+    "Pig",
+    "Strider"
+   ]
+  },
+  {
+   "id": "xg6-mc-advancements",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a Minecraft advancement (Java Edition, as listed on the Minecraft Wiki in 2026)",
+   "answers": [
+    "Stone Age",
+    "Getting an Upgrade",
+    "Acquire Hardware",
+    "Suit Up",
+    "Hot Stuff",
+    "Isn't It Iron Pick?",
+    "Not Today, Thank You",
+    "Ice Bucket Challenge",
+    "Diamonds!",
+    "We Need to Go Deeper",
+    "Cover Me with Diamonds",
+    "Enchanter",
+    "Zombie Doctor",
+    "Eye Spy",
+    "The End?",
+    "Return to Sender",
+    "Those Were the Days",
+    "Hidden in the Depths",
+    "Subspace Bubble",
+    "A Terrible Fortress",
+    "Who is Cutting Onions?",
+    "Oh Shiny",
+    "This Boat Has Legs",
+    "Uneasy Alliance",
+    "War Pigs",
+    "Cover Me in Debris",
+    "Spooky Scary Skeleton",
+    "Into Fire",
+    "Not Quite Nine Lives",
+    "Feels Like Home",
+    "Hot Tourist Destinations",
+    "Withering Heights",
+    "Local Brewery",
+    "Bring Home the Beacon",
+    "A Furious Cocktail",
+    "Beaconator",
+    "How Did We Get Here?",
+    "Free the End",
+    "The Next Generation",
+    "Remote Getaway",
+    "The End... Again...",
+    "You Need a Mint",
+    "The City at the End of the Game",
+    "Sky's the Limit",
+    "Great View From Up Here",
+    "Heart Transplanter",
+    "Voluntary Exile",
+    "Country Lode, Take Me Home",
+    "Is It a Bird?",
+    "Monster Hunter",
+    "The Power of Books",
+    "What a Deal!",
+    "Crafting a New Look",
+    "Sticky Situation",
+    "Ol' Betsy",
+    "Surge Protector",
+    "Caves & Cliffs",
+    "Respecting the Remnants",
+    "Sneak 100",
+    "Sweet Dreams",
+    "Hero of the Village",
+    "Is It a Balloon?",
+    "It Spreads",
+    "Take Aim",
+    "Monsters Hunted",
+    "What Goes Around Comes Around",
+    "Postmortal",
+    "Mob Kabob",
+    "Hired Help",
+    "Star Trader",
+    "Smithing with Style",
+    "Two Birds, One Arrow",
+    "Who's the Pillager Now?",
+    "Arbalistic",
+    "Careful Restoration",
+    "Adventuring Time",
+    "Sound of Music",
+    "Light as a Rabbit",
+    "Is It a Plane?",
+    "Very Very Frightening",
+    "Sniper Duel",
+    "Bullseye",
+    "Isn't It Scute?",
+    "Minecraft: Trial(s) Edition",
+    "Crafters Crafting Crafters",
+    "Lighten Up",
+    "Who Needs Rockets?",
+    "Under Lock and Key",
+    "Revaulting",
+    "Blowback",
+    "Over-Overkill",
+    "Stay Hydrated!",
+    "Bee Our Guest",
+    "The Parrots and the Bats",
+    "You've Got a Friend in Me",
+    "Whatever Floats Your Goat!",
+    "Best Friends Forever",
+    "Glow and Behold!",
+    "Fishy Business",
+    "Total Beelocation",
+    "Bukkit Bukkit",
+    "Uh-Oh",
+    "Smells Interesting",
+    "A Seedy Place",
+    "Wax On",
+    "Two by Two",
+    "Birthday Song",
+    "A Complete Catalogue",
+    "Tactical Fishing",
+    "When the Squad Hops into Town",
+    "Little Sniffs",
+    "A Balanced Diet",
+    "Serious Dedication",
+    "Wax Off",
+    "The Cutest Predator",
+    "With Our Powers Combined!",
+    "Planting the Past",
+    "The Healing Power of Friendship!",
+    "Good as New",
+    "The Whole Pack",
+    "Shear Brilliance"
+   ]
+  },
+  {
+   "id": "xg6-mc-light-sources",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a block that gives off light in Minecraft",
+   "answers": [
+    "Torch",
+    "Soul Torch",
+    "Lantern",
+    "Soul Lantern",
+    "Glowstone",
+    "Sea Lantern",
+    [
+     "Jack o'Lantern",
+     "Jack o Lantern",
+     "Pumpkin Lantern"
+    ],
+    "Shroomlight",
+    "Redstone Lamp",
+    "Beacon",
+    "End Rod",
+    "Campfire",
+    "Soul Campfire",
+    [
+     "Ochre Froglight",
+     "Froglight"
+    ],
+    "Verdant Froglight",
+    "Pearlescent Froglight",
+    "Lava",
+    "Fire",
+    "Candle",
+    "Conduit",
+    "Crying Obsidian",
+    "Enchanting Table",
+    "Respawn Anchor",
+    "Furnace",
+    "Blast Furnace",
+    "Smoker",
+    "Magma Block",
+    "Sea Pickle",
+    "Glow Lichen",
+    "Nether Portal",
+    "End Portal",
+    "Copper Bulb",
+    "Copper Torch",
+    "Copper Lantern",
+    "Amethyst Cluster",
+    "Ender Chest",
+    "Brewing Stand",
+    "Dragon Egg",
+    "Sculk Catalyst",
+    "Vault",
+    "Trial Spawner",
+    "Redstone Torch",
+    [
+     "Cave Vines",
+     "Glow Berries"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-mc-planks-crafts",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name something you can craft using wooden planks in Minecraft",
+   "answers": [
+    "Crafting Table",
+    "Chest",
+    [
+     "Stick",
+     "Sticks"
+    ],
+    "Boat",
+    "Door",
+    "Trapdoor",
+    "Fence",
+    "Fence Gate",
+    "Button",
+    "Pressure Plate",
+    "Sign",
+    "Bowl",
+    "Barrel",
+    "Bed",
+    "Loom",
+    "Bookshelf",
+    "Chiseled Bookshelf",
+    "Jukebox",
+    "Note Block",
+    "Stairs",
+    "Slab",
+    "Wooden Pickaxe",
+    "Wooden Axe",
+    "Wooden Shovel",
+    "Wooden Hoe",
+    "Wooden Sword",
+    "Cartography Table",
+    "Fletching Table",
+    "Smithing Table",
+    "Grindstone",
+    "Bamboo Raft",
+    "Wooden Spear"
+   ]
+  },
+  {
+   "id": "xg6-nes-3m",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name an NES game that sold at least 3 million copies (as listed on Wikipedia)",
+   "answers": [
+    [
+     "Super Mario Bros.",
+     "Super Mario Bros",
+     "Super Mario Brothers"
+    ],
+    "Duck Hunt",
+    [
+     "Super Mario Bros. 3",
+     "Super Mario Bros 3",
+     "Mario 3"
+    ],
+    "Tetris",
+    [
+     "Super Mario Bros. 2",
+     "Super Mario Bros 2",
+     "Mario 2"
+    ],
+    [
+     "The Legend of Zelda",
+     "Legend of Zelda",
+     "Zelda"
+    ],
+    [
+     "Dr. Mario",
+     "Dr Mario",
+     "Doctor Mario"
+    ],
+    [
+     "Zelda II: The Adventure of Link",
+     "Zelda II",
+     "Zelda 2",
+     "The Adventure of Link",
+     "Adventure of Link"
+    ],
+    "Excitebike",
+    [
+     "Golf",
+     "NES Golf"
+    ],
+    [
+     "Teenage Mutant Ninja Turtles",
+     "TMNT"
+    ],
+    [
+     "Dragon Quest III",
+     "Dragon Quest 3",
+     "Dragon Warrior III",
+     "Dragon Warrior 3"
+    ],
+    [
+     "Kung Fu",
+     "Kung-Fu"
+    ],
+    [
+     "Baseball",
+     "NES Baseball"
+    ],
+    [
+     "Dragon Quest IV",
+     "Dragon Quest 4",
+     "Dragon Warrior IV",
+     "Dragon Warrior 4"
+    ],
+    "World Class Track Meet",
+    [
+     "Punch-Out!!",
+     "Punch Out",
+     "Mike Tyson's Punch-Out!!",
+     "Mike Tysons Punch Out"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-snes-3m",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a Super Nintendo (SNES) game that sold at least 3 million copies (as listed on Wikipedia)",
+   "answers": [
+    "Super Mario World",
+    [
+     "Super Mario All-Stars",
+     "Mario All-Stars",
+     "All-Stars"
+    ],
+    [
+     "Donkey Kong Country",
+     "DKC"
+    ],
+    [
+     "Super Mario Kart",
+     "Mario Kart"
+    ],
+    [
+     "Street Fighter II: The World Warrior",
+     "Street Fighter II",
+     "Street Fighter 2",
+     "Street Fighter II The World Warrior"
+    ],
+    [
+     "Donkey Kong Country 2: Diddy's Kong Quest",
+     "Donkey Kong Country 2",
+     "Diddy's Kong Quest",
+     "DKC2"
+    ],
+    [
+     "The Legend of Zelda: A Link to the Past",
+     "A Link to the Past",
+     "Link to the Past",
+     "Zelda A Link to the Past"
+    ],
+    [
+     "Super Mario World 2: Yoshi's Island",
+     "Yoshi's Island",
+     "Yoshis Island",
+     "Super Mario World 2"
+    ],
+    [
+     "Street Fighter II Turbo",
+     "Street Fighter II Turbo: Hyper Fighting",
+     "Street Fighter 2 Turbo"
+    ],
+    [
+     "Star Fox",
+     "Starfox"
+    ],
+    [
+     "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+     "Donkey Kong Country 3",
+     "Dixie Kong's Double Trouble",
+     "DKC3"
+    ],
+    [
+     "Final Fantasy VI",
+     "Final Fantasy 6",
+     "Final Fantasy III"
+    ],
+    "Killer Instinct",
+    [
+     "Dragon Quest VI",
+     "Dragon Quest 6"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-gba-2m",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a Game Boy Advance game that sold at least 2 million copies (as listed on Wikipedia)",
+   "answers": [
+    [
+     "Pokémon Ruby and Sapphire",
+     "Pokémon Ruby",
+     "Pokémon Sapphire",
+     "Pokemon Ruby",
+     "Pokemon Sapphire",
+     "Ruby and Sapphire"
+    ],
+    [
+     "Pokémon FireRed and LeafGreen",
+     "Pokémon FireRed",
+     "Pokémon LeafGreen",
+     "Pokemon FireRed",
+     "Pokemon LeafGreen",
+     "FireRed and LeafGreen",
+     "Fire Red",
+     "Leaf Green"
+    ],
+    [
+     "Pokémon Emerald",
+     "Pokemon Emerald"
+    ],
+    [
+     "Mario Kart: Super Circuit",
+     "Super Circuit",
+     "Mario Kart Super Circuit"
+    ],
+    [
+     "Super Mario World: Super Mario Advance 2",
+     "Super Mario Advance 2"
+    ],
+    [
+     "Super Mario Advance",
+     "Super Mario Advance 1",
+     "Super Mario Bros. 2 Advance"
+    ],
+    [
+     "Super Mario Advance 4: Super Mario Bros. 3",
+     "Super Mario Advance 4",
+     "Super Mario Bros. 3 Advance"
+    ],
+    "Namco Museum",
+    [
+     "Pac-Man Collection",
+     "Pacman Collection"
+    ],
+    [
+     "Yoshi's Island: Super Mario Advance 3",
+     "Super Mario Advance 3",
+     "Yoshi's Island Advance"
+    ],
+    [
+     "The Legend of Zelda: A Link to the Past",
+     "A Link to the Past",
+     "Link to the Past"
+    ],
+    [
+     "Pokémon Mystery Dungeon: Red Rescue Team",
+     "Red Rescue Team",
+     "Pokemon Mystery Dungeon Red Rescue Team"
+    ],
+    [
+     "Classic NES Series: Super Mario Bros.",
+     "Classic NES Series Super Mario Bros"
+    ],
+    "Wario Land 4",
+    [
+     "Mario & Luigi: Superstar Saga",
+     "Mario and Luigi Superstar Saga",
+     "Superstar Saga"
+    ],
+    [
+     "Kirby: Nightmare in Dream Land",
+     "Kirby Nightmare in Dream Land",
+     "Nightmare in Dream Land"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-3ds-4m",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a Nintendo 3DS game that sold at least 4 million copies (as listed on Wikipedia, 2025)",
+   "answers": [
+    "Mario Kart 7",
+    [
+     "Pokémon X and Y",
+     "Pokémon X",
+     "Pokémon Y",
+     "Pokemon X",
+     "Pokemon Y",
+     "X and Y"
+    ],
+    [
+     "Pokémon Sun and Moon",
+     "Pokémon Sun",
+     "Pokémon Moon",
+     "Pokemon Sun",
+     "Pokemon Moon",
+     "Sun and Moon"
+    ],
+    [
+     "Pokémon Omega Ruby and Alpha Sapphire",
+     "Pokémon Omega Ruby",
+     "Pokémon Alpha Sapphire",
+     "Omega Ruby",
+     "Alpha Sapphire",
+     "Omega Ruby and Alpha Sapphire"
+    ],
+    [
+     "New Super Mario Bros. 2",
+     "New Super Mario Bros 2"
+    ],
+    [
+     "Animal Crossing: New Leaf",
+     "New Leaf"
+    ],
+    "Super Mario 3D Land",
+    [
+     "Super Smash Bros. for Nintendo 3DS",
+     "Super Smash Bros 3DS",
+     "Smash Bros 3DS"
+    ],
+    [
+     "Pokémon Ultra Sun and Ultra Moon",
+     "Pokémon Ultra Sun",
+     "Pokémon Ultra Moon",
+     "Ultra Sun",
+     "Ultra Moon",
+     "Ultra Sun and Ultra Moon"
+    ],
+    [
+     "Yo-kai Watch 2",
+     "Yokai Watch 2"
+    ],
+    "Tomodachi Life",
+    [
+     "Luigi's Mansion: Dark Moon",
+     "Luigi's Mansion 2",
+     "Dark Moon",
+     "Luigi's Mansion Dark Moon"
+    ],
+    [
+     "The Legend of Zelda: Ocarina of Time 3D",
+     "Ocarina of Time 3D",
+     "Zelda Ocarina of Time 3D"
+    ],
+    [
+     "Nintendogs + Cats",
+     "Nintendogs and Cats",
+     "Nintendogs"
+    ],
+    [
+     "Monster Hunter Generations",
+     "Monster Hunter Generations"
+    ],
+    [
+     "The Legend of Zelda: A Link Between Worlds",
+     "A Link Between Worlds",
+     "Link Between Worlds"
+    ],
+    [
+     "Monster Hunter 4 Ultimate",
+     "Monster Hunter 4U"
+    ],
+    "Monster Hunter 4"
+   ]
+  },
+  {
+   "id": "xg6-zelda-oot-dungeons",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a dungeon in The Legend of Zelda: Ocarina of Time (1998)",
+   "answers": [
+    [
+     "Inside the Deku Tree",
+     "Deku Tree"
+    ],
+    [
+     "Dodongo's Cavern",
+     "Dodongos Cavern"
+    ],
+    [
+     "Inside Jabu-Jabu's Belly",
+     "Jabu-Jabu's Belly",
+     "Jabu Jabu",
+     "Jabu-Jabu"
+    ],
+    "Forest Temple",
+    "Fire Temple",
+    "Water Temple",
+    "Shadow Temple",
+    "Spirit Temple",
+    "Ice Cavern",
+    [
+     "Bottom of the Well",
+     "The Well"
+    ],
+    [
+     "Gerudo Training Ground",
+     "Gerudo Training Grounds"
+    ],
+    [
+     "Ganon's Castle",
+     "Ganons Castle",
+     "Ganon's Tower"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-zelda-characters",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a character from The Legend of Zelda series",
+   "answers": [
+    "Link",
+    [
+     "Zelda",
+     "Princess Zelda"
+    ],
+    [
+     "Ganon",
+     "Ganondorf"
+    ],
+    "Navi",
+    "Epona",
+    "Midna",
+    "Tingle",
+    "Impa",
+    "Sheik",
+    "Fi",
+    "Ghirahim",
+    "Groose",
+    "Beedle",
+    "Saria",
+    "Darunia",
+    [
+     "Ruto",
+     "Princess Ruto"
+    ],
+    "Malon",
+    "Talon",
+    "Zant",
+    "Vaati",
+    "Agahnim",
+    "Tetra",
+    "King of Red Lions",
+    [
+     "Great Deku Tree",
+     "Deku Tree"
+    ],
+    "Kaepora Gaebora",
+    "Mipha",
+    "Daruk",
+    "Revali",
+    "Urbosa",
+    "Sidon",
+    "Purah",
+    "Robbie",
+    "Hestu",
+    "Kass",
+    "Paya",
+    "Majora",
+    "Happy Mask Salesman",
+    "Tatl",
+    "Medli",
+    "Makar",
+    "Linebeck",
+    "Ravio",
+    "Hilda",
+    "Yuga",
+    "Marin",
+    "Tarin",
+    "Wind Fish",
+    [
+     "Dampe",
+     "Dampé"
+    ],
+    "Mido",
+    "Nabooru",
+    [
+     "King Rhoam",
+     "Rhoam"
+    ],
+    "Riju",
+    "Teba",
+    "Tulin",
+    "Sonia",
+    "Bolson",
+    "Rusl",
+    "Ilia",
+    "Colin",
+    "Fyer",
+    "Ezlo",
+    "Demise",
+    "Rauru",
+    "Skull Kid",
+    "Mineru"
+   ]
+  },
+  {
+   "id": "xg6-zelda-items",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name an item, weapon or piece of equipment from The Legend of Zelda games",
+   "answers": [
+    "Master Sword",
+    "Hylian Shield",
+    [
+     "Ocarina of Time",
+     "Ocarina"
+    ],
+    "Boomerang",
+    "Hookshot",
+    [
+     "Bow",
+     "Hero's Bow"
+    ],
+    [
+     "Bombs",
+     "Bomb"
+    ],
+    "Deku Nut",
+    "Deku Stick",
+    "Slingshot",
+    "Lens of Truth",
+    "Megaton Hammer",
+    "Iron Boots",
+    "Hover Boots",
+    "Longshot",
+    "Din's Fire",
+    "Farore's Wind",
+    "Nayru's Love",
+    [
+     "Bottle",
+     "Fairy Bottle",
+     "Empty Bottle"
+    ],
+    [
+     "Rupee",
+     "Rupees"
+    ],
+    "Heart Container",
+    [
+     "Piece of Heart",
+     "Heart Piece"
+    ],
+    "Triforce",
+    "Power Bracelet",
+    "Magic Mirror",
+    "Cane of Somaria",
+    "Fire Rod",
+    "Ice Rod",
+    "Pegasus Boots",
+    "Roc's Feather",
+    "Flippers",
+    "Mirror Shield",
+    [
+     "Biggoron's Sword",
+     "Giant's Knife"
+    ],
+    "Goron Tunic",
+    "Zora Tunic",
+    "Kokiri Sword",
+    "Spinner",
+    "Clawshot",
+    "Gust Jar",
+    "Sheikah Slate",
+    "Paraglider",
+    "Magnesis",
+    "Stasis",
+    "Cryonis",
+    [
+     "Remote Bomb",
+     "Remote Bombs"
+    ],
+    "Korok Seed",
+    "Ultrahand",
+    "Fuse",
+    "Ascend",
+    "Recall",
+    "Deku Leaf",
+    "Hero's Charm",
+    "Magic Cape",
+    [
+     "Bug-Catching Net",
+     "Bug Net"
+    ],
+    "Boss Key",
+    [
+     "Small Key",
+     "Key"
+    ],
+    "Fierce Deity Mask",
+    "Bunny Hood",
+    "Mask of Truth",
+    [
+     "Fire Arrow",
+     "Fire Arrows"
+    ],
+    [
+     "Ice Arrow",
+     "Ice Arrows"
+    ],
+    [
+     "Light Arrow",
+     "Light Arrows"
+    ],
+    [
+     "Majora's Mask",
+     "Majoras Mask"
+    ],
+    [
+     "Lantern",
+     "Lamp"
+    ],
+    "Fishing Rod",
+    [
+     "Wind Waker",
+     "The Wind Waker",
+     "Windwaker"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-mario-spinoffs",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a Mario spin-off game or series (not a Super Mario platformer, Mario Kart or Mario Party)",
+   "answers": [
+    "Paper Mario",
+    [
+     "Mario & Luigi",
+     "Mario and Luigi"
+    ],
+    [
+     "Luigi's Mansion",
+     "Luigis Mansion"
+    ],
+    [
+     "Dr. Mario",
+     "Dr Mario"
+    ],
+    "Mario Tennis",
+    "Mario Golf",
+    [
+     "Mario Strikers",
+     "Super Mario Strikers"
+    ],
+    "Mario Paint",
+    [
+     "Mario's Picross",
+     "Mario Picross"
+    ],
+    [
+     "Mario vs. Donkey Kong",
+     "Mario vs Donkey Kong",
+     "Mario versus Donkey Kong"
+    ],
+    "Super Mario Maker",
+    "Super Mario Run",
+    [
+     "Captain Toad: Treasure Tracker",
+     "Captain Toad"
+    ],
+    [
+     "Mario + Rabbids Kingdom Battle",
+     "Mario Rabbids",
+     "Mario + Rabbids",
+     "Mario Plus Rabbids"
+    ],
+    [
+     "Mario Is Missing!",
+     "Mario is Missing"
+    ],
+    "Mario Teaches Typing",
+    [
+     "Mario Superstar Baseball",
+     "Superstar Baseball"
+    ],
+    [
+     "Mario Super Sluggers",
+     "Super Sluggers"
+    ],
+    "Mario Sports Mix",
+    [
+     "Mario Hoops 3-on-3",
+     "Mario Hoops"
+    ],
+    "Mario Slam Basketball",
+    "Mario's Time Machine",
+    "Mario's Early Years",
+    [
+     "Mario & Wario",
+     "Mario and Wario"
+    ],
+    [
+     "Mario Bros.",
+     "Mario Brothers"
+    ],
+    [
+     "Mario & Sonic at the Olympic Games",
+     "Mario and Sonic",
+     "Mario & Sonic"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-mk8dx-cups",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a cup in Mario Kart 8 Deluxe (including the Booster Course Pass cups)",
+   "answers": [
+    [
+     "Mushroom Cup",
+     "Mushroom"
+    ],
+    [
+     "Flower Cup",
+     "Flower"
+    ],
+    [
+     "Star Cup",
+     "Star"
+    ],
+    [
+     "Special Cup",
+     "Special"
+    ],
+    [
+     "Shell Cup",
+     "Shell"
+    ],
+    [
+     "Banana Cup",
+     "Banana"
+    ],
+    [
+     "Leaf Cup",
+     "Leaf"
+    ],
+    [
+     "Lightning Cup",
+     "Lightning"
+    ],
+    [
+     "Egg Cup",
+     "Egg"
+    ],
+    [
+     "Triforce Cup",
+     "Triforce"
+    ],
+    [
+     "Crossing Cup",
+     "Crossing"
+    ],
+    [
+     "Bell Cup",
+     "Bell"
+    ],
+    [
+     "Golden Dash Cup",
+     "Golden Dash"
+    ],
+    [
+     "Lucky Cat Cup",
+     "Lucky Cat"
+    ],
+    [
+     "Turnip Cup",
+     "Turnip"
+    ],
+    [
+     "Propeller Cup",
+     "Propeller"
+    ],
+    [
+     "Rock Cup",
+     "Rock"
+    ],
+    [
+     "Moon Cup",
+     "Moon"
+    ],
+    [
+     "Fruit Cup",
+     "Fruit"
+    ],
+    [
+     "Boomerang Cup",
+     "Boomerang"
+    ],
+    [
+     "Feather Cup",
+     "Feather"
+    ],
+    [
+     "Cherry Cup",
+     "Cherry"
+    ],
+    [
+     "Acorn Cup",
+     "Acorn"
+    ],
+    [
+     "Spiny Cup",
+     "Spiny"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-kirby-characters",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a character or enemy from the Kirby games",
+   "answers": [
+    "Kirby",
+    [
+     "King Dedede",
+     "Dedede"
+    ],
+    [
+     "Meta Knight",
+     "Metaknight"
+    ],
+    "Waddle Dee",
+    [
+     "Bandana Waddle Dee",
+     "Bandana Dee"
+    ],
+    "Waddle Doo",
+    "Gooey",
+    "Rick",
+    "Kine",
+    "Coo",
+    "Marx",
+    "Magolor",
+    "Dark Matter",
+    "Zero",
+    [
+     "Zero Two",
+     "02"
+    ],
+    "Susie",
+    "Adeleine",
+    "Ribbon",
+    "Taranza",
+    "Morpho Knight",
+    "Nightmare",
+    "Whispy Woods",
+    "Kracko",
+    "Daroach",
+    "Sir Kibble",
+    "Gordo",
+    "Scarfy",
+    "Bronto Burt",
+    "Galacta Knight",
+    "Francisca",
+    "Flamberge",
+    "Zan Partizanne",
+    "Sectonia",
+    "Landia",
+    "Elfilin",
+    "Void Termina",
+    "Haltmann",
+    "Dark Meta Knight",
+    "Chef Kawasaki",
+    "Mr. Shine",
+    "Mr. Bright",
+    "Paint Roller",
+    [
+     "Poppy Bros. Jr.",
+     "Poppy Bros Jr"
+    ],
+    "Blade Knight",
+    "Sword Knight",
+    "Mike",
+    "Hot Head",
+    "Chilly"
+   ]
+  },
+  {
+   "id": "xg6-cod-zombies-characters",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a character from the Call of Duty Zombies storyline",
+   "answers": [
+    [
+     "Dempsey",
+     "Tank Dempsey"
+    ],
+    [
+     "Nikolai",
+     "Nikolai Belinski"
+    ],
+    [
+     "Takeo",
+     "Takeo Masaki"
+    ],
+    [
+     "Richtofen",
+     "Edward Richtofen"
+    ],
+    [
+     "Misty",
+     "Abigail Briarton"
+    ],
+    [
+     "Marlton",
+     "Marlton Johnson"
+    ],
+    [
+     "Stuhlinger",
+     "Samuel Stuhlinger",
+     "Samuel J. Stuhlinger"
+    ],
+    [
+     "Russman",
+     "Sam Russman"
+    ],
+    [
+     "Sal DeLuca",
+     "Sal"
+    ],
+    [
+     "Billy Handsome",
+     "Billy"
+    ],
+    [
+     "Finn O'Leary",
+     "Finn"
+    ],
+    [
+     "Albert Arnold",
+     "Weasel"
+    ],
+    [
+     "Samantha Maxis",
+     "Samantha",
+     "Sam"
+    ],
+    [
+     "Dr Maxis",
+     "Ludvig Maxis",
+     "Maxis"
+    ],
+    "Brutus"
+   ]
+  },
+  {
+   "id": "xg6-cod-zombies-enemies",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a special enemy or boss zombie type in Call of Duty Zombies",
+   "answers": [
+    [
+     "Hellhound",
+     "Hell Hound",
+     "Hellhounds"
+    ],
+    [
+     "Panzer Soldat",
+     "Panzer"
+    ],
+    "Brutus",
+    [
+     "Napalm Zombie",
+     "Napalm"
+    ],
+    [
+     "Crawler",
+     "Crawlers"
+    ],
+    "Margwa",
+    [
+     "George A. Romero",
+     "Romero"
+    ],
+    [
+     "Apothicon Servant",
+     "Apothicon",
+     "Servant"
+    ],
+    "Mangler",
+    [
+     "Shrieker",
+     "Shrieker Zombie"
+    ],
+    "Thrasher",
+    "Blightfather",
+    "Abomination",
+    "Amalgam",
+    "Avogadro",
+    "Mimic",
+    [
+     "Giant",
+     "The Giant"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-cod-zombies-powerups",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a power-up drop in Call of Duty Zombies",
+   "answers": [
+    "Max Ammo",
+    [
+     "Insta-Kill",
+     "Instakill",
+     "Insta Kill"
+    ],
+    "Double Points",
+    "Nuke",
+    "Carpenter",
+    "Fire Sale",
+    [
+     "Death Machine",
+     "Minigun"
+    ],
+    "Bonfire Sale",
+    "Zombie Blood",
+    "Free Perk",
+    "Full Power",
+    "Bonus Points"
+   ]
+  },
+  {
+   "id": "xg6-cod-weapon-attachments",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a weapon attachment in Call of Duty multiplayer",
+   "answers": [
+    [
+     "Red Dot Sight",
+     "Red Dot",
+     "Reflex Sight",
+     "Reflex"
+    ],
+    [
+     "ACOG",
+     "ACOG Scope"
+    ],
+    [
+     "Holographic Sight",
+     "Holo Sight",
+     "Holographic"
+    ],
+    [
+     "Silencer",
+     "Suppressor"
+    ],
+    [
+     "Extended Mags",
+     "Extended Magazine",
+     "Extended Mag"
+    ],
+    [
+     "Grip",
+     "Foregrip",
+     "Vertical Grip",
+     "Fore Grip"
+    ],
+    [
+     "Laser Sight",
+     "Laser"
+    ],
+    [
+     "FMJ",
+     "Full Metal Jacket"
+    ],
+    "Rapid Fire",
+    [
+     "Fast Mags",
+     "Fast Magazine",
+     "Quick Mag"
+    ],
+    "Heartbeat Sensor",
+    [
+     "Thermal Scope",
+     "Thermal Sight",
+     "Thermal"
+    ],
+    [
+     "Variable Zoom",
+     "Variable Zoom Scope"
+    ],
+    [
+     "Dual Mags",
+     "Dual Magazine"
+    ],
+    [
+     "Akimbo",
+     "Dual Wield"
+    ],
+    [
+     "Grenade Launcher",
+     "Underbarrel Grenade Launcher",
+     "GL"
+    ],
+    "Masterkey",
+    "Flamethrower",
+    "Bayonet",
+    "Stock",
+    "Muzzle Brake",
+    "Compensator",
+    "Flash Hider",
+    "Choke",
+    "Quickdraw",
+    "Sleight of Hand",
+    "Iron Sights",
+    "Scope"
+   ]
+  },
+  {
+   "id": "xg6-cod-villains",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a villain or antagonist from a Call of Duty campaign",
+   "answers": [
+    [
+     "Vladimir Makarov",
+     "Makarov"
+    ],
+    [
+     "Imran Zakhaev",
+     "Zakhaev"
+    ],
+    [
+     "General Shepherd",
+     "Shepherd",
+     "Philip Shepherd"
+    ],
+    [
+     "Khaled Al-Asad",
+     "Al-Asad",
+     "Al Asad"
+    ],
+    [
+     "Raul Menendez",
+     "Menendez"
+    ],
+    [
+     "Nikita Dragovich",
+     "Dragovich"
+    ],
+    [
+     "Friedrich Steiner",
+     "Steiner"
+    ],
+    [
+     "Lev Kravchenko",
+     "Kravchenko"
+    ],
+    [
+     "Jonathan Irons",
+     "Irons"
+    ],
+    [
+     "Salen Kotch",
+     "Admiral Kotch",
+     "Kotch"
+    ],
+    [
+     "Phillip Graves",
+     "Graves"
+    ],
+    [
+     "General Barkov",
+     "Barkov"
+    ],
+    "Victor Zakhaev"
+   ]
+  },
+  {
+   "id": "xg6-cod-waw-guns",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a gun in Call of Duty: World at War",
+   "answers": [
+    [
+     "Colt M1911",
+     "M1911"
+    ],
+    [
+     "Walther P38",
+     "P38"
+    ],
+    [
+     "Tokarev TT-33",
+     "TT-33",
+     "Tokarev"
+    ],
+    [
+     "Nambu Type 14",
+     "Nambu"
+    ],
+    "Mauser C96",
+    [
+     "M1 Garand",
+     "Garand"
+    ],
+    [
+     "M1A1 Carbine",
+     "M1 Carbine"
+    ],
+    [
+     "Springfield",
+     "M1903 Springfield"
+    ],
+    [
+     "Kar98k",
+     "Karabiner 98k",
+     "Kar 98"
+    ],
+    [
+     "Mosin-Nagant",
+     "Mosin Nagant"
+    ],
+    [
+     "Type 99 Arisaka",
+     "Arisaka",
+     "Type 99"
+    ],
+    [
+     "Gewehr 43",
+     "G43"
+    ],
+    [
+     "STG-44",
+     "StG 44",
+     "STG44"
+    ],
+    [
+     "Thompson",
+     "Thompson M1A1"
+    ],
+    [
+     "PPSh-41",
+     "PPSh"
+    ],
+    "MP40",
+    "Type 100",
+    [
+     "Browning M1919",
+     "M1919"
+    ],
+    [
+     "DP-28",
+     "DP28"
+    ],
+    "MG42",
+    "Type 99 LMG",
+    [
+     "BAR",
+     "Browning Automatic Rifle"
+    ],
+    "FG42",
+    [
+     "M2 Flamethrower",
+     "Flamethrower"
+    ],
+    "Bazooka",
+    [
+     "Panzerschreck",
+     "Panzerschrek"
+    ],
+    [
+     "PTRS-41",
+     "PTRS"
+    ],
+    "Trench Gun",
+    [
+     "Double-Barreled Shotgun",
+     "Double Barrel Shotgun",
+     "Double Barrel"
+    ],
+    "Ray Gun",
+    [
+     ".357 Magnum",
+     "357 Magnum",
+     "357"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-cod-mw3-2011-guns",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a gun in 2011's Modern Warfare 3",
+   "answers": [
+    [
+     "M16A4",
+     "M16"
+    ],
+    [
+     "M4A1",
+     "M4"
+    ],
+    "FAD",
+    [
+     "ACR 6.8",
+     "ACR"
+    ],
+    "Type 95",
+    "G36C",
+    [
+     "AK-47",
+     "AK47"
+    ],
+    [
+     "SCAR-L",
+     "SCAR"
+    ],
+    "CM901",
+    "MP5",
+    [
+     "UMP45",
+     "UMP"
+    ],
+    "PP90M1",
+    "P90",
+    [
+     "PM-9",
+     "PM9"
+    ],
+    "MP7",
+    "Vector",
+    "Striker",
+    [
+     "SPAS-12",
+     "SPAS12"
+    ],
+    [
+     "AA-12",
+     "AA12"
+    ],
+    [
+     "USAS-12",
+     "USAS12"
+    ],
+    [
+     "KSG 12",
+     "KSG"
+    ],
+    "M1014",
+    "Model 1887",
+    [
+     "Barrett .50cal",
+     "Barrett"
+    ],
+    "L118A",
+    "MSR",
+    "RSASS",
+    [
+     "Dragunov",
+     "DragUnov"
+    ],
+    "AS50",
+    [
+     "L86 LSW",
+     "L86"
+    ],
+    [
+     "Mk46",
+     "MK46"
+    ],
+    [
+     "M60E4",
+     "M60"
+    ],
+    [
+     "PKP Pecheneg",
+     "PKP"
+    ],
+    "MG36",
+    [
+     "AK-74u",
+     "AK74u"
+    ],
+    "G18",
+    "M9",
+    [
+     "USP .45",
+     "USP"
+    ],
+    [
+     "Five-seven",
+     "Five Seven"
+    ],
+    "Desert Eagle",
+    "MP412",
+    [
+     "44 Magnum",
+     ".44 Magnum"
+    ],
+    "FMG9",
+    "MP9",
+    "Skorpion",
+    "Javelin",
+    [
+     "RPG-7",
+     "RPG"
+    ],
+    "SMAW",
+    "Stinger"
+   ]
+  },
+  {
+   "id": "xg6-cod-bo2-guns",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a gun in Call of Duty: Black Ops II (2012)",
+   "answers": [
+    [
+     "AN-94",
+     "AN94"
+    ],
+    "Peacekeeper",
+    "MSMC",
+    [
+     "Chicom CQB",
+     "Chicom"
+    ],
+    "Vector K10",
+    "Skorpion EVO",
+    "SMR",
+    "MTAR",
+    "Type 25",
+    "M8A1",
+    [
+     "SCAR-H",
+     "SCAR"
+    ],
+    [
+     "FAL OSW",
+     "FAL"
+    ],
+    "M27",
+    [
+     "SWAT-556",
+     "SWAT 556"
+    ],
+    "HAMR",
+    "RPD",
+    [
+     "Mk 48",
+     "MK48"
+    ],
+    "LSAT",
+    "QBB LSW",
+    "Ballista",
+    [
+     "DSR 50",
+     "DSR-50"
+    ],
+    [
+     "SVU-AS",
+     "SVU"
+    ],
+    [
+     "XPR-50",
+     "XPR"
+    ],
+    "KSG",
+    [
+     "R870 MCS",
+     "R870",
+     "Remington 870"
+    ],
+    "S12",
+    "Saiga 12",
+    "B23R",
+    [
+     "Five-seven",
+     "Five Seven"
+    ],
+    "Executioner",
+    [
+     "KAP-40",
+     "KAP40"
+    ],
+    [
+     "Tac-45",
+     "TAC45"
+    ],
+    "SMAW",
+    [
+     "FHJ-18",
+     "FHJ18"
+    ],
+    "Ballistic Knife",
+    [
+     "AK-47",
+     "AK47"
+    ],
+    "MP7",
+    [
+     "PDW-57",
+     "PDW57"
+    ],
+    "Crossbow"
+   ]
+  },
+  {
+   "id": "xg6-cod-bo1-missions",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a campaign mission in Call of Duty: Black Ops (2010)",
+   "answers": [
+    "Operation 40",
+    "Vorkuta",
+    [
+     "U.S.S.R.",
+     "USSR"
+    ],
+    "Executive Order",
+    "Numbers",
+    "WMD",
+    "Project Nova",
+    "Victor Charlie",
+    "Crash Site",
+    "Payback",
+    "SOG",
+    [
+     "The Defector",
+     "Defector"
+    ],
+    "Rebirth",
+    "Redemption",
+    "Revelations"
+   ]
+  },
+  {
+   "id": "xg6-cod-campaign-countries",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a country where a Call of Duty campaign mission is set",
+   "answers": [
+    [
+     "USA",
+     "United States",
+     "America"
+    ],
+    [
+     "UK",
+     "United Kingdom",
+     "Britain",
+     "England"
+    ],
+    "Russia",
+    "Ukraine",
+    "Afghanistan",
+    "Iraq",
+    "France",
+    "Germany",
+    "Poland",
+    "Cuba",
+    "Vietnam",
+    "Laos",
+    "Japan",
+    "Pakistan",
+    "Yemen",
+    "Angola",
+    "Nicaragua",
+    "Mexico",
+    [
+     "United Arab Emirates",
+     "UAE",
+     "Dubai"
+    ],
+    "Kazakhstan",
+    "Singapore",
+    "Egypt",
+    "Brazil",
+    [
+     "Myanmar",
+     "Burma"
+    ],
+    "Honduras"
+   ]
+  },
+  {
+   "id": "xg6-online-cs-maps",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a Counter-Strike map",
+   "answers": [
+    [
+     "Dust II",
+     "Dust 2",
+     "de_dust2"
+    ],
+    [
+     "Dust",
+     "de_dust"
+    ],
+    [
+     "Inferno",
+     "de_inferno"
+    ],
+    [
+     "Mirage",
+     "de_mirage"
+    ],
+    [
+     "Nuke",
+     "de_nuke"
+    ],
+    [
+     "Train",
+     "de_train"
+    ],
+    [
+     "Cache",
+     "de_cache"
+    ],
+    [
+     "Overpass",
+     "de_overpass"
+    ],
+    [
+     "Cobblestone",
+     "Cobble",
+     "de_cbble"
+    ],
+    [
+     "Vertigo",
+     "de_vertigo"
+    ],
+    [
+     "Ancient",
+     "de_ancient"
+    ],
+    [
+     "Anubis",
+     "de_anubis"
+    ],
+    [
+     "Aztec",
+     "de_aztec"
+    ],
+    [
+     "Office",
+     "cs_office"
+    ],
+    [
+     "Italy",
+     "cs_italy"
+    ],
+    [
+     "Assault",
+     "cs_assault"
+    ],
+    [
+     "Militia",
+     "cs_militia"
+    ],
+    [
+     "Agency",
+     "cs_agency"
+    ],
+    [
+     "Prodigy",
+     "de_prodigy"
+    ],
+    [
+     "Chateau",
+     "de_chateau"
+    ],
+    [
+     "Tuscan",
+     "de_tuscan"
+    ],
+    [
+     "Havana",
+     "cs_havana"
+    ],
+    [
+     "Canals",
+     "de_canals"
+    ],
+    [
+     "Lake",
+     "de_lake"
+    ],
+    [
+     "Safehouse",
+     "de_safehouse"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-online-pubg-maps",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a PUBG: Battlegrounds map (PC or mobile)",
+   "answers": [
+    "Erangel",
+    "Miramar",
+    "Sanhok",
+    "Vikendi",
+    "Karakin",
+    "Paramo",
+    "Haven",
+    "Taego",
+    "Deston",
+    "Rondo",
+    "Livik",
+    "Nusa",
+    "Camp Jackal"
+   ]
+  },
+  {
+   "id": "xg6-online-mmorpgs",
+   "tags": [
+    "online"
+   ],
+   "text": "Name an MMORPG (massively multiplayer online role-playing game)",
+   "answers": [
+    [
+     "World of Warcraft",
+     "WoW"
+    ],
+    [
+     "Final Fantasy XIV",
+     "FFXIV",
+     "Final Fantasy 14"
+    ],
+    [
+     "RuneScape",
+     "Runescape"
+    ],
+    [
+     "Old School RuneScape",
+     "OSRS"
+    ],
+    "Guild Wars",
+    "Guild Wars 2",
+    [
+     "EVE Online",
+     "Eve"
+    ],
+    [
+     "The Lord of the Rings Online",
+     "Lord of the Rings Online",
+     "LOTRO"
+    ],
+    [
+     "The Elder Scrolls Online",
+     "Elder Scrolls Online",
+     "ESO"
+    ],
+    [
+     "Black Desert Online",
+     "Black Desert"
+    ],
+    "Lost Ark",
+    "New World",
+    [
+     "Star Wars: The Old Republic",
+     "Star Wars The Old Republic",
+     "SWTOR"
+    ],
+    "Albion Online",
+    "Aion",
+    "Lineage",
+    [
+     "Lineage II",
+     "Lineage 2"
+    ],
+    [
+     "Ragnarok Online",
+     "Ragnarok"
+    ],
+    [
+     "EverQuest",
+     "Everquest"
+    ],
+    "Ultima Online",
+    [
+     "Tera",
+     "TERA"
+    ],
+    "ArcheAge",
+    "DC Universe Online",
+    "Neverwinter",
+    [
+     "Dungeons & Dragons Online",
+     "DDO"
+    ],
+    "Star Trek Online",
+    [
+     "MapleStory",
+     "Maple Story"
+    ],
+    "Tibia",
+    [
+     "Blade & Soul",
+     "Blade and Soul"
+    ],
+    "Throne and Liberty",
+    "Dofus",
+    [
+     "Final Fantasy XI",
+     "FFXI",
+     "Final Fantasy 11"
+    ],
+    "Dark Age of Camelot",
+    "Asheron's Call",
+    "City of Heroes",
+    "Warhammer Online",
+    "Age of Conan",
+    [
+     "WildStar",
+     "Wildstar"
+    ],
+    "Wizard101",
+    "Phantasy Star Online",
+    "Anarchy Online",
+    "Perfect World"
+   ]
+  },
+  {
+   "id": "xg6-online-moba-games",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a MOBA or hero arena game",
+   "answers": [
+    [
+     "League of Legends",
+     "LoL"
+    ],
+    [
+     "Dota 2",
+     "Dota"
+    ],
+    [
+     "Heroes of the Storm",
+     "HotS"
+    ],
+    "Smite",
+    "Smite 2",
+    [
+     "Mobile Legends: Bang Bang",
+     "Mobile Legends"
+    ],
+    "Honor of Kings",
+    "Arena of Valor",
+    [
+     "Pokémon Unite",
+     "Pokemon Unite"
+    ],
+    "Paragon",
+    "Deadlock",
+    "Heroes of Newerth",
+    "Vainglory",
+    "Strife",
+    [
+     "Wild Rift",
+     "League of Legends: Wild Rift"
+    ],
+    "Awesomenauts",
+    "Infinite Crisis",
+    "Battlerite",
+    "Predecessor"
+   ]
+  },
+  {
+   "id": "xg6-online-halo-maps",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a Halo multiplayer map",
+   "answers": [
+    [
+     "Blood Gulch",
+     "Blood Gulch Creek"
+    ],
+    [
+     "Hang 'Em High",
+     "Hang Em High"
+    ],
+    "Chiller",
+    "Damnation",
+    "Prisoner",
+    "Derelict",
+    "Boarding Action",
+    "Wizard",
+    "Sidewinder",
+    "Rat Race",
+    "Gephyrophobia",
+    "Danger Canyon",
+    "Beaver Creek",
+    "Death Island",
+    "Ice Fields",
+    "Infinity",
+    "Timberland",
+    "Carousel",
+    "Longest",
+    "Battle Creek",
+    "Lockout",
+    "Midship",
+    "Zanzibar",
+    "Ascension",
+    "Coagulation",
+    "Burial Mounds",
+    "Colossus",
+    "Containment",
+    "Foundation",
+    "Headlong",
+    "Waterworks",
+    "Warlock",
+    "Terminal",
+    "Tombstone",
+    "Turf",
+    "Uplift",
+    "Backwash",
+    "Elongation",
+    "Gemini",
+    "Relic",
+    "District",
+    "Ivory Tower",
+    "Sanctuary",
+    "Desolation",
+    "Guardian",
+    "Valhalla",
+    [
+     "The Pit",
+     "Pit"
+    ],
+    "Narrows",
+    "Epitaph",
+    "Snowbound",
+    "Sandtrap",
+    "High Ground",
+    "Last Resort",
+    [
+     "Rat's Nest",
+     "Rats Nest"
+    ],
+    "Standoff",
+    "Isolation",
+    "Construct",
+    "Cold Storage",
+    "Avalanche",
+    "Blackout",
+    "Ghost Town",
+    "Foundry",
+    "Heretic",
+    "Orbital",
+    "Sandbox",
+    "Assembly",
+    "Longshore"
+   ]
+  },
+  {
+   "id": "xg6-online-rocket-league-cars",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a car in Rocket League",
+   "answers": [
+    "Octane",
+    "Dominus",
+    "Fennec",
+    "Breakout",
+    "Merc",
+    "Gizmo",
+    "Batmobile",
+    "Takumi",
+    "Venom",
+    "Paladin",
+    "Endo",
+    "Road Hog",
+    "Hotshot",
+    "Backfire",
+    "Animus GP",
+    "Zippy",
+    "Marauder",
+    "Masamune",
+    "Aftershock",
+    "Octane ZSR",
+    [
+     "DeLorean Time Machine",
+     "DeLorean",
+     "Delorean"
+    ],
+    "Ecto-1",
+    "Mario NSR",
+    "Luigi RC",
+    "Samurai",
+    "Jager 619",
+    "Mantis",
+    "Proteus",
+    "Esper",
+    "Grog",
+    "X-Devil",
+    "Triton",
+    "Ripper",
+    "Peregrine TT",
+    "Cyclone",
+    "Centio",
+    "Twinzer",
+    "Werewolf",
+    "Tygris",
+    "Imperator DT5",
+    "Insidio",
+    "Mudcat"
+   ]
+  },
+  {
+   "id": "xg6-online-halo-characters",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a character from the Halo games",
+   "answers": [
+    [
+     "Master Chief",
+     "John-117",
+     "Chief"
+    ],
+    "Cortana",
+    [
+     "Arbiter",
+     "Thel 'Vadam",
+     "Thel Vadam"
+    ],
+    [
+     "Sergeant Johnson",
+     "Sgt Johnson",
+     "Avery Johnson",
+     "Johnson"
+    ],
+    "Miranda Keyes",
+    [
+     "Captain Keyes",
+     "Jacob Keyes"
+    ],
+    [
+     "343 Guilty Spark",
+     "Guilty Spark"
+    ],
+    "Gravemind",
+    [
+     "Noble Six",
+     "Six"
+    ],
+    [
+     "Kat",
+     "Catherine-B320"
+    ],
+    [
+     "Carter",
+     "Carter-A259"
+    ],
+    "Jorge",
+    "Emile",
+    "Jun",
+    [
+     "Lord Hood",
+     "Hood"
+    ],
+    "Atriox",
+    "Escharum",
+    [
+     "Spartan Locke",
+     "Locke",
+     "Jameson Locke"
+    ],
+    [
+     "Buck",
+     "Edward Buck"
+    ],
+    [
+     "Dare",
+     "Veronica Dare"
+    ],
+    [
+     "Sarah Palmer",
+     "Palmer"
+    ],
+    [
+     "The Weapon",
+     "Weapon"
+    ],
+    [
+     "The Didact",
+     "Didact"
+    ],
+    [
+     "The Librarian",
+     "Librarian"
+    ],
+    "Tartarus",
+    [
+     "Prophet of Truth",
+     "Truth"
+    ],
+    [
+     "Prophet of Mercy",
+     "Mercy"
+    ],
+    [
+     "Prophet of Regret",
+     "Regret"
+    ],
+    [
+     "Dr. Halsey",
+     "Catherine Halsey",
+     "Halsey"
+    ],
+    "Roland",
+    [
+     "Fred-104",
+     "Fred"
+    ],
+    [
+     "Linda-058",
+     "Linda"
+    ],
+    [
+     "Kelly-087",
+     "Kelly"
+    ],
+    "Mendicant Bias",
+    [
+     "Rtas 'Vadum",
+     "Rtas Vadum"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-online-halo-weapons",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a weapon in the Halo games",
+   "answers": [
+    [
+     "Assault Rifle",
+     "MA5B"
+    ],
+    [
+     "Battle Rifle",
+     "BR55"
+    ],
+    [
+     "Magnum",
+     "Pistol",
+     "M6D"
+    ],
+    [
+     "Sniper Rifle",
+     "SRS99"
+    ],
+    "Shotgun",
+    [
+     "Rocket Launcher",
+     "SPNKr"
+    ],
+    "Needler",
+    "Plasma Pistol",
+    "Plasma Rifle",
+    "Energy Sword",
+    "Gravity Hammer",
+    "Spartan Laser",
+    "Brute Shot",
+    [
+     "Covenant Carbine",
+     "Carbine"
+    ],
+    "Beam Rifle",
+    "Fuel Rod Gun",
+    "Sentinel Beam",
+    "Flamethrower",
+    [
+     "SMG",
+     "Submachine Gun"
+    ],
+    [
+     "DMR",
+     "Designated Marksman Rifle"
+    ],
+    "Mauler",
+    "Spiker",
+    "Focus Rifle",
+    "Binary Rifle",
+    "Incineration Cannon",
+    "Hydra",
+    "Scattershot",
+    "Suppressor",
+    "Sidekick",
+    "Commando",
+    "Bulldog",
+    "Ravager",
+    "Disruptor",
+    "Cindershot",
+    "Skewer",
+    "Shock Rifle",
+    "Pulse Carbine"
+   ]
+  },
+  {
+   "id": "xg6-online-halo-vehicles",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a vehicle in the Halo games",
+   "answers": [
+    [
+     "Warthog",
+     "Hog"
+    ],
+    [
+     "Scorpion",
+     "Scorpion Tank"
+    ],
+    "Mongoose",
+    "Ghost",
+    "Banshee",
+    "Wraith",
+    "Pelican",
+    "Phantom",
+    "Hornet",
+    "Falcon",
+    "Elephant",
+    "Mantis",
+    "Scarab",
+    "Spirit",
+    "Prowler",
+    [
+     "Chopper",
+     "Brute Chopper"
+    ],
+    "Revenant",
+    "Razorback",
+    "Rhino",
+    "Wasp",
+    "Locust",
+    "Shade",
+    "Gungoose",
+    [
+     "Warthog Gauss",
+     "Gauss Hog"
+    ],
+    [
+     "Sabre",
+     "Longsword"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-online-overwatch-modes",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a game mode in Overwatch or Overwatch 2",
+   "answers": [
+    "Escort",
+    "Hybrid",
+    "Control",
+    "Push",
+    "Flashpoint",
+    "Clash",
+    "Assault",
+    [
+     "Capture the Flag",
+     "CTF"
+    ],
+    "Deathmatch",
+    "Team Deathmatch",
+    "Elimination",
+    "Mystery Heroes",
+    "Quick Play",
+    "Competitive",
+    "Arcade",
+    "Custom Games",
+    [
+     "Lúcioball",
+     "Lucioball"
+    ],
+    [
+     "Junkenstein's Revenge",
+     "Junkenstein"
+    ],
+    "Total Mayhem",
+    "Stadium",
+    "Hero Mastery",
+    "Mystery Duel"
+   ]
+  },
+  {
+   "id": "xg6-othergames-arcade-classics",
+   "tags": [
+    "othergames"
+   ],
+   "text": "Name a classic arcade game from the 1970s or 1980s",
+   "answers": [
+    [
+     "Pac-Man",
+     "Pacman"
+    ],
+    "Space Invaders",
+    "Donkey Kong",
+    "Asteroids",
+    "Pong",
+    "Galaga",
+    "Frogger",
+    "Defender",
+    "Centipede",
+    "Dig Dug",
+    [
+     "Q*bert",
+     "Qbert"
+    ],
+    "Missile Command",
+    "Pole Position",
+    "Tempest",
+    "Joust",
+    "Galaxian",
+    "Breakout",
+    "Berzerk",
+    [
+     "Robotron: 2084",
+     "Robotron"
+    ],
+    "Gauntlet",
+    "Double Dragon",
+    [
+     "Out Run",
+     "OutRun"
+    ],
+    "Space Harrier",
+    [
+     "After Burner",
+     "Afterburner"
+    ],
+    "Paperboy",
+    "Bubble Bobble",
+    "Rampage",
+    [
+     "Track & Field",
+     "Track and Field"
+    ],
+    "Pengo",
+    [
+     "Mr. Do!",
+     "Mr Do"
+    ],
+    [
+     "Ms. Pac-Man",
+     "Ms Pacman"
+    ],
+    "Street Fighter",
+    [
+     "Dragon's Lair",
+     "Dragons Lair"
+    ],
+    "Star Wars",
+    "Battlezone",
+    "Xevious",
+    "1942",
+    "Gradius",
+    "R-Type",
+    [
+     "Ghosts 'n Goblins",
+     "Ghosts n Goblins"
+    ],
+    "Rygar",
+    "Marble Madness",
+    "Spy Hunter",
+    "Zaxxon",
+    [
+     "BurgerTime",
+     "Burgertime"
+    ],
+    "Karate Champ",
+    [
+     "Punch-Out!!",
+     "Punch Out"
+    ],
+    "Arkanoid",
+    "Elevator Action",
+    "Mario Bros.",
+    "Time Pilot",
+    "Moon Patrol",
+    "Tapper",
+    "Sinistar"
+   ]
+  },
+  {
+   "id": "xg6-othergames-sega-franchises",
+   "tags": [
+    "othergames"
+   ],
+   "text": "Name a video game franchise published by Sega",
+   "answers": [
+    [
+     "Sonic the Hedgehog",
+     "Sonic"
+    ],
+    "Streets of Rage",
+    "Golden Axe",
+    "Altered Beast",
+    "Shinobi",
+    "Virtua Fighter",
+    [
+     "Yakuza",
+     "Like a Dragon"
+    ],
+    "Phantasy Star",
+    [
+     "Out Run",
+     "OutRun"
+    ],
+    "Shenmue",
+    "Crazy Taxi",
+    "Jet Set Radio",
+    "Space Channel 5",
+    "Total War",
+    "Football Manager",
+    "Alex Kidd",
+    [
+     "The House of the Dead",
+     "House of the Dead"
+    ],
+    [
+     "NiGHTS",
+     "Nights into Dreams"
+    ],
+    "Super Monkey Ball",
+    "Valkyria Chronicles",
+    "Persona",
+    "Daytona USA",
+    "Sega Rally",
+    "Virtua Tennis",
+    "Virtua Cop",
+    [
+     "Ecco the Dolphin",
+     "Ecco"
+    ],
+    "Comix Zone",
+    [
+     "ToeJam & Earl",
+     "Toejam and Earl"
+    ],
+    "Space Harrier",
+    "Puyo Puyo",
+    "Sakura Wars",
+    "Panzer Dragoon",
+    "Skies of Arcadia",
+    "Vectorman",
+    "Sega Bass Fishing",
+    "Samba de Amigo",
+    "Rez",
+    [
+     "Alien: Isolation",
+     "Alien Isolation"
+    ],
+    [
+     "Two Point Hospital",
+     "Two Point Campus"
+    ],
+    "Binary Domain"
+   ]
+  },
+  {
+   "id": "xg6-othergames-playstation-series",
+   "tags": [
+    "othergames"
+   ],
+   "text": "Name a first-party PlayStation game series",
+   "answers": [
+    "God of War",
+    "Gran Turismo",
+    "Uncharted",
+    [
+     "The Last of Us",
+     "Last of Us"
+    ],
+    [
+     "Horizon",
+     "Horizon Zero Dawn"
+    ],
+    [
+     "Ratchet & Clank",
+     "Ratchet and Clank"
+    ],
+    [
+     "Marvel's Spider-Man",
+     "Spider-Man"
+    ],
+    [
+     "Ghost of Tsushima",
+     "Ghost of Yotei",
+     "Ghost of Yōtei"
+    ],
+    "Bloodborne",
+    "Killzone",
+    "Resistance",
+    [
+     "inFamous",
+     "Infamous"
+    ],
+    [
+     "Jak and Daxter",
+     "Jak & Daxter"
+    ],
+    "Sly Cooper",
+    "LittleBigPlanet",
+    "Ape Escape",
+    "MotorStorm",
+    "Wipeout",
+    "SingStar",
+    "Buzz!",
+    [
+     "Astro Bot",
+     "Astro's Playroom"
+    ],
+    "Returnal",
+    "Demon's Souls",
+    "Days Gone",
+    "Helldivers",
+    "Twisted Metal",
+    [
+     "PaRappa the Rapper",
+     "Parappa"
+    ],
+    [
+     "MediEvil",
+     "Medievil"
+    ],
+    "SOCOM",
+    "Syphon Filter",
+    [
+     "Everybody's Golf",
+     "Hot Shots Golf"
+    ],
+    "Dreams",
+    "Gravity Rush",
+    "Death Stranding",
+    "Knack",
+    "Tearaway",
+    "Until Dawn",
+    [
+     "The Order: 1886",
+     "The Order 1886"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-othergames-racing-series",
+   "tags": [
+    "othergames"
+   ],
+   "text": "Name a racing video game series",
+   "answers": [
+    "Gran Turismo",
+    "Forza Motorsport",
+    "Forza Horizon",
+    "Need for Speed",
+    "Mario Kart",
+    "Burnout",
+    [
+     "Colin McRae Rally",
+     "DiRT Rally",
+     "Dirt"
+    ],
+    [
+     "F1",
+     "Formula 1"
+    ],
+    [
+     "Project CARS",
+     "Project Cars"
+    ],
+    "Wipeout",
+    "Ridge Racer",
+    "Daytona USA",
+    [
+     "Out Run",
+     "OutRun"
+    ],
+    "Sega Rally",
+    "Test Drive",
+    "Midnight Club",
+    "Driver",
+    [
+     "TrackMania",
+     "Trackmania"
+    ],
+    "Assetto Corsa",
+    [
+     "Grid",
+     "GRID"
+    ],
+    "Crazy Taxi",
+    "Split/Second",
+    "The Crew",
+    "Horizon Chase",
+    "Hot Wheels Unleashed",
+    "Micro Machines",
+    "Rock n' Roll Racing",
+    "F-Zero",
+    "Diddy Kong Racing",
+    "Crash Team Racing",
+    "Sonic & All-Stars Racing",
+    [
+     "Cruis'n USA",
+     "Cruisin USA"
+    ],
+    [
+     "San Francisco Rush",
+     "Rush"
+    ],
+    "Super Sprint",
+    "Blur",
+    "MotorStorm",
+    "Wacky Races",
+    "Wreckfest",
+    "Art of Rally"
+   ]
+  },
+  {
+   "id": "xg6-othergames-capcom-franchises",
+   "tags": [
+    "othergames"
+   ],
+   "text": "Name a Capcom video game franchise",
+   "answers": [
+    [
+     "Resident Evil",
+     "Biohazard"
+    ],
+    "Street Fighter",
+    "Monster Hunter",
+    [
+     "Mega Man",
+     "Megaman"
+    ],
+    "Devil May Cry",
+    [
+     "Ace Attorney",
+     "Phoenix Wright"
+    ],
+    "Dead Rising",
+    [
+     "Dragon's Dogma",
+     "Dragons Dogma"
+    ],
+    [
+     "Ghosts 'n Goblins",
+     "Ghosts n Goblins"
+    ],
+    "Okami",
+    "Onimusha",
+    "Final Fight",
+    "Breath of Fire",
+    "Strider",
+    [
+     "Marvel vs. Capcom",
+     "Marvel vs Capcom"
+    ],
+    "Lost Planet",
+    "Viewtiful Joe",
+    "Sengoku Basara",
+    "Darkstalkers",
+    "Power Stone",
+    "Commando",
+    "1942",
+    "Bionic Commando",
+    "Forgotten Worlds",
+    "Exoprimal",
+    "Pragmata",
+    [
+     "Capcom vs. SNK",
+     "Capcom vs SNK"
+    ],
+    "Auto Modellista",
+    "Gargoyle's Quest",
+    [
+     "Disney's DuckTales",
+     "DuckTales"
+    ],
+    "Rival Schools",
+    "Dino Crisis",
+    "Steel Battalion"
+   ]
+  },
+  {
+   "id": "xg6-othergames-ubisoft-series",
+   "tags": [
+    "othergames"
+   ],
+   "text": "Name a Ubisoft video game series",
+   "answers": [
+    "Assassin's Creed",
+    "Far Cry",
+    "Rayman",
+    "Just Dance",
+    "Prince of Persia",
+    [
+     "Splinter Cell",
+     "Tom Clancy's Splinter Cell"
+    ],
+    [
+     "Ghost Recon",
+     "Tom Clancy's Ghost Recon"
+    ],
+    [
+     "Rainbow Six",
+     "Tom Clancy's Rainbow Six"
+    ],
+    [
+     "The Division",
+     "Tom Clancy's The Division"
+    ],
+    "Watch Dogs",
+    "Riders Republic",
+    "Anno",
+    "The Crew",
+    [
+     "Beyond Good & Evil",
+     "Beyond Good and Evil"
+    ],
+    "Child of Light",
+    "For Honor",
+    [
+     "Might & Magic",
+     "Heroes of Might and Magic"
+    ],
+    "Raving Rabbids",
+    [
+     "TrackMania",
+     "Trackmania"
+    ],
+    "Brawlhalla",
+    "Steep",
+    [
+     "Skull & Bones",
+     "Skull and Bones"
+    ],
+    "Star Wars Outlaws",
+    [
+     "Avatar: Frontiers of Pandora",
+     "Avatar Frontiers of Pandora"
+    ],
+    [
+     "The Settlers",
+     "Settlers"
+    ],
+    "Driver",
+    "Brothers in Arms",
+    "Valiant Hearts",
+    "Immortals Fenyx Rising",
+    "XDefiant",
+    "Hyper Scape",
+    "Zombi",
+    [
+     "South Park: The Stick of Truth",
+     "South Park"
+    ],
+    "Mario + Rabbids"
+   ]
+  },
+  {
+   "id": "xg6-resi-stars-members",
+   "tags": [
+    "resi"
+   ],
+   "text": "Name a member of S.T.A.R.S. in Resident Evil",
+   "answers": [
+    [
+     "Albert Wesker",
+     "Wesker"
+    ],
+    [
+     "Chris Redfield",
+     "Chris"
+    ],
+    [
+     "Jill Valentine",
+     "Jill"
+    ],
+    [
+     "Barry Burton",
+     "Barry"
+    ],
+    [
+     "Rebecca Chambers",
+     "Rebecca"
+    ],
+    [
+     "Joseph Frost",
+     "Joseph",
+     "Frost"
+    ],
+    [
+     "Brad Vickers",
+     "Brad",
+     "Chickenheart"
+    ],
+    [
+     "Enrico Marini",
+     "Enrico",
+     "Marini"
+    ],
+    [
+     "Forest Speyer",
+     "Forest",
+     "Speyer"
+    ],
+    [
+     "Kenneth J. Sullivan",
+     "Kenneth Sullivan",
+     "Kenneth"
+    ],
+    [
+     "Richard Aiken",
+     "Richard",
+     "Aiken"
+    ],
+    [
+     "Edward Dewey",
+     "Edward",
+     "Dewey"
+    ],
+    [
+     "Kevin Dooley",
+     "Kevin",
+     "Dooley"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-resi-playable-protagonists",
+   "tags": [
+    "resi"
+   ],
+   "text": "Name a playable protagonist in a Resident Evil game",
+   "answers": [
+    [
+     "Chris Redfield",
+     "Chris"
+    ],
+    [
+     "Jill Valentine",
+     "Jill"
+    ],
+    [
+     "Leon S. Kennedy",
+     "Leon Kennedy",
+     "Leon"
+    ],
+    [
+     "Claire Redfield",
+     "Claire"
+    ],
+    [
+     "Ada Wong",
+     "Ada"
+    ],
+    [
+     "Rebecca Chambers",
+     "Rebecca"
+    ],
+    [
+     "Barry Burton",
+     "Barry"
+    ],
+    [
+     "Sherry Birkin",
+     "Sherry"
+    ],
+    [
+     "Carlos Oliveira",
+     "Carlos"
+    ],
+    [
+     "Sheva Alomar",
+     "Sheva"
+    ],
+    [
+     "Jake Muller",
+     "Jake"
+    ],
+    [
+     "Piers Nivans",
+     "Piers"
+    ],
+    [
+     "Helena Harper",
+     "Helena"
+    ],
+    [
+     "Ethan Winters",
+     "Ethan"
+    ],
+    [
+     "Mia Winters",
+     "Mia"
+    ],
+    [
+     "Rose Winters",
+     "Rose"
+    ],
+    [
+     "HUNK",
+     "Hunk",
+     "Mr. Death"
+    ],
+    [
+     "Billy Coen",
+     "Billy"
+    ],
+    [
+     "Albert Wesker",
+     "Wesker"
+    ],
+    [
+     "Steve Burnside",
+     "Steve"
+    ],
+    [
+     "Grace Ashcroft",
+     "Grace"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-resi-villains",
+   "tags": [
+    "resi"
+   ],
+   "text": "Name a villain or antagonist from the Resident Evil games",
+   "answers": [
+    [
+     "Albert Wesker",
+     "Wesker"
+    ],
+    [
+     "William Birkin",
+     "Birkin",
+     "Dr Birkin"
+    ],
+    [
+     "Alexia Ashford",
+     "Alexia"
+    ],
+    [
+     "Alfred Ashford",
+     "Alfred"
+    ],
+    [
+     "Osmund Saddler",
+     "Saddler",
+     "Lord Saddler"
+    ],
+    [
+     "Ramon Salazar",
+     "Salazar"
+    ],
+    [
+     "Jack Baker",
+     "Jack"
+    ],
+    [
+     "Marguerite Baker",
+     "Marguerite"
+    ],
+    [
+     "Lucas Baker",
+     "Lucas"
+    ],
+    "Eveline",
+    [
+     "Mother Miranda",
+     "Miranda"
+    ],
+    [
+     "Lady Dimitrescu",
+     "Alcina Dimitrescu",
+     "Dimitrescu"
+    ],
+    [
+     "Karl Heisenberg",
+     "Heisenberg"
+    ],
+    [
+     "Salvatore Moreau",
+     "Moreau"
+    ],
+    [
+     "Donna Beneviento",
+     "Beneviento"
+    ],
+    [
+     "Jack Krauser",
+     "Krauser"
+    ],
+    [
+     "Excella Gionne",
+     "Excella"
+    ],
+    [
+     "Mr. X",
+     "Tyrant",
+     "T-103"
+    ],
+    [
+     "Nemesis",
+     "Nemesis-T Type"
+    ],
+    [
+     "Sergei Vladimir",
+     "Vladimir"
+    ],
+    [
+     "Oswell E. Spencer",
+     "Spencer",
+     "Ozwell Spencer"
+    ],
+    [
+     "Derek C. Simmons",
+     "Simmons"
+    ],
+    "Neil Fisher",
+    [
+     "Ricardo Irving",
+     "Irving"
+    ],
+    "Alex Wesker",
+    [
+     "Nicholai Ginovaef",
+     "Nicholai"
+    ],
+    [
+     "James Marcus",
+     "Marcus"
+    ],
+    [
+     "Bitores Mendez",
+     "Mendez"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-resi-re3-locations",
+   "tags": [
+    "resi"
+   ],
+   "text": "Name a location in Resident Evil 3 (1999 or 2020)",
+   "answers": [
+    "Raccoon City",
+    [
+     "Downtown",
+     "Downtown Raccoon City"
+    ],
+    "Uptown",
+    [
+     "Raccoon City Hospital",
+     "Hospital"
+    ],
+    "Clock Tower",
+    [
+     "Raccoon Park",
+     "Park"
+    ],
+    [
+     "Dead Factory",
+     "Factory"
+    ],
+    [
+     "Raccoon City Police Department",
+     "Police Station",
+     "RPD"
+    ],
+    [
+     "Subway",
+     "Subway Station"
+    ],
+    [
+     "Sewers",
+     "Sewer"
+    ],
+    [
+     "Umbrella Laboratory",
+     "Laboratory",
+     "Lab"
+    ],
+    [
+     "Raccoon Press",
+     "Press Office",
+     "Newspaper Office"
+    ],
+    [
+     "Apartment",
+     "Jill's Apartment"
+    ],
+    "City Hall"
+   ]
+  },
+  {
+   "id": "xg6-rpg-ffvii-locations",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a location in Final Fantasy VII (1997)",
+   "answers": [
+    "Midgar",
+    "Nibelheim",
+    "Cosmo Canyon",
+    "Junon",
+    "Costa del Sol",
+    [
+     "Gold Saucer",
+     "The Gold Saucer"
+    ],
+    "Wutai",
+    "Kalm",
+    "Rocket Town",
+    "Mideel",
+    "Icicle Inn",
+    [
+     "Corel",
+     "North Corel"
+    ],
+    "Fort Condor",
+    [
+     "Forgotten Capital",
+     "City of the Ancients"
+    ],
+    "North Crater",
+    [
+     "Shinra Building",
+     "Shinra HQ"
+    ],
+    "Sector 7",
+    "Wall Market",
+    [
+     "Sector 5 Church",
+     "Aerith's Church"
+    ],
+    "Temple of the Ancients",
+    [
+     "Mt. Nibel",
+     "Mount Nibel",
+     "Mt Nibel"
+    ],
+    "Mythril Mine",
+    "Gongaga",
+    "Bone Village",
+    "Great Glacier",
+    "Mount Corel"
+   ]
+  },
+  {
+   "id": "xg6-rpg-fallout4-locations",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a location in Fallout 4",
+   "answers": [
+    [
+     "Sanctuary Hills",
+     "Sanctuary"
+    ],
+    "Diamond City",
+    "Goodneighbor",
+    "Bunker Hill",
+    "Concord",
+    "Lexington",
+    "Vault 111",
+    "Vault 81",
+    "Far Harbor",
+    [
+     "Nuka-World",
+     "Nuka World"
+    ],
+    "Boston Common",
+    "Fort Hagen",
+    [
+     "The Glowing Sea",
+     "Glowing Sea"
+    ],
+    [
+     "The Institute",
+     "Institute"
+    ],
+    "Prydwen",
+    "Cambridge",
+    "Salem",
+    [
+     "Corvega Assembly Plant",
+     "Corvega"
+    ],
+    "Covenant",
+    "Hangman's Alley",
+    "Warwick Homestead",
+    "Red Rocket",
+    "Sunshine Tidings Co-op",
+    "Jamaica Plain",
+    "Malden",
+    "Quincy",
+    "Boston Airport",
+    "Mass Fusion Building"
+   ]
+  },
+  {
+   "id": "xg6-rpg-fnv-locations",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a location in Fallout: New Vegas",
+   "answers": [
+    "Goodsprings",
+    "Primm",
+    "Novac",
+    "Nipton",
+    "Freeside",
+    [
+     "The Strip",
+     "New Vegas Strip"
+    ],
+    "Hoover Dam",
+    "Camp McCarran",
+    "Black Mountain",
+    "Boulder City",
+    "Jacobstown",
+    "Lucky 38",
+    "Gomorrah",
+    "The Tops",
+    [
+     "Ultra-Luxe",
+     "Ultra Luxe"
+    ],
+    "Vault 21",
+    "Red Rock Canyon",
+    "Cottonwood Cove",
+    "Nelson",
+    "Searchlight",
+    "Camp Forlorn Hope",
+    "Mojave Outpost",
+    "Sloan",
+    "Camp Golf",
+    "Repconn",
+    "Helios One",
+    "The Fort",
+    "Fortification Hill",
+    "Big MT",
+    "Sierra Madre"
+   ]
+  },
+  {
+   "id": "xg6-rpg-fallout-factions",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a faction or group in the Fallout series",
+   "answers": [
+    "Brotherhood of Steel",
+    "Enclave",
+    [
+     "New California Republic",
+     "NCR"
+    ],
+    [
+     "Caesar's Legion",
+     "Legion"
+    ],
+    [
+     "The Institute",
+     "Institute"
+    ],
+    [
+     "The Railroad",
+     "Railroad"
+    ],
+    "Minutemen",
+    "Raiders",
+    "Super Mutants",
+    [
+     "Followers of the Apocalypse",
+     "Followers"
+    ],
+    "Great Khans",
+    "Boomers",
+    "Kings",
+    "Powder Gangers",
+    "Fiends",
+    "Vault-Tec",
+    "Gunners",
+    "Atom Cats",
+    "Responders",
+    "Children of Atom",
+    "Talon Company",
+    "Remnants",
+    "Van Graffs",
+    "Omertas",
+    "Chairmen",
+    "White Glove Society"
+   ]
+  },
+  {
+   "id": "xg6-rpg-fallout-creatures",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a creature or robot from the Fallout games",
+   "answers": [
+    "Deathclaw",
+    "Super Mutant",
+    "Radroach",
+    "Mirelurk",
+    [
+     "Feral Ghoul",
+     "Ghoul"
+    ],
+    [
+     "Mole Rat",
+     "Molerat"
+    ],
+    "Bloatfly",
+    [
+     "Radscorpion",
+     "Rad Scorpion"
+    ],
+    "Yao Guai",
+    "Behemoth",
+    [
+     "Mister Handy",
+     "Mr Handy"
+    ],
+    "Protectron",
+    "Sentry Bot",
+    "Brahmin",
+    "Centaur",
+    "Gecko",
+    "Cazador",
+    "Bloodbug",
+    "Stingwing",
+    "Mothman",
+    "Assaultron",
+    "Eyebot",
+    "Securitron",
+    "Robobrain",
+    [
+     "Mister Gutsy",
+     "Gutsy"
+    ],
+    "Nightstalker",
+    [
+     "Giant Ant",
+     "Ant"
+    ],
+    "Fire Ant",
+    "Wanamingo",
+    "Radstag",
+    "Bloodworm",
+    "Mongrel",
+    "Fog Crawler",
+    "Angler"
+   ]
+  },
+  {
+   "id": "xg6-rpg-witcher-monsters",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a type of monster in The Witcher 3: Wild Hunt",
+   "answers": [
+    [
+     "Griffin",
+     "Gryphon"
+    ],
+    [
+     "Leshen",
+     "Leshy"
+    ],
+    "Wyvern",
+    "Drowner",
+    "Ghoul",
+    "Nekker",
+    [
+     "Noonwraith",
+     "Noon Wraith"
+    ],
+    "Basilisk",
+    "Cockatrice",
+    "Fiend",
+    "Bruxa",
+    "Katakan",
+    [
+     "Troll",
+     "Rock Troll"
+    ],
+    "Werewolf",
+    "Wraith",
+    "Water Hag",
+    "Foglet",
+    "Harpy",
+    "Siren",
+    [
+     "Golem",
+     "Stone Golem"
+    ],
+    "Archgriffin",
+    "Arachas",
+    "Endrega",
+    "Gargoyle",
+    "Ekimmara",
+    "Alghoul",
+    "Devil by the Well",
+    "Botchling",
+    "Fugas",
+    "Godling",
+    "Ice Giant",
+    "Nightwraith",
+    "Pesta",
+    "Gravehag",
+    "Rotfiend",
+    "Forktail",
+    "Sylvan",
+    "Kikimore",
+    "Ice Troll"
+   ]
+  },
+  {
+   "id": "xg6-rpg-diablo-characters",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a character or boss from the Diablo series",
+   "answers": [
+    "Diablo",
+    "Mephisto",
+    "Baal",
+    "Andariel",
+    "Duriel",
+    "Azmodan",
+    "Belial",
+    "Lilith",
+    "Inarius",
+    "Tyrael",
+    [
+     "Deckard Cain",
+     "Cain"
+    ],
+    [
+     "Leoric",
+     "The Skeleton King",
+     "Skeleton King"
+    ],
+    [
+     "The Butcher",
+     "Butcher"
+    ],
+    "Malthael",
+    [
+     "Zoltun Kulle",
+     "Kulle"
+    ],
+    "Izual",
+    "Griswold",
+    "Adria",
+    "Akarat",
+    "Rathma",
+    "Hephasto",
+    "Lazarus",
+    "Uldyssian",
+    "Gharbad",
+    "Wirt",
+    "Rakanishu",
+    "Kashya",
+    "Charsi",
+    "Akara",
+    "Gheed",
+    "Warriv",
+    "Natalya"
+   ]
+  },
+  {
+   "id": "xg6-rpg-mass-effect-species",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name an alien species or race in the Mass Effect games",
+   "answers": [
+    [
+     "Human",
+     "Humans"
+    ],
+    "Asari",
+    "Turian",
+    "Salarian",
+    "Krogan",
+    "Quarian",
+    "Geth",
+    "Volus",
+    "Batarian",
+    "Elcor",
+    "Hanar",
+    "Drell",
+    "Vorcha",
+    [
+     "Reaper",
+     "Reapers"
+    ],
+    [
+     "Collector",
+     "Collectors"
+    ],
+    [
+     "Prothean",
+     "Protheans"
+    ],
+    "Rachni",
+    "Yahg",
+    "Leviathan",
+    "Angara",
+    "Kett",
+    "Remnant"
+   ]
+  },
+  {
+   "id": "xg6-rpg-elder-scrolls-races",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a race or people in The Elder Scrolls",
+   "answers": [
+    "Nord",
+    "Imperial",
+    "Breton",
+    "Redguard",
+    [
+     "High Elf",
+     "Altmer"
+    ],
+    [
+     "Wood Elf",
+     "Bosmer"
+    ],
+    [
+     "Dark Elf",
+     "Dunmer"
+    ],
+    [
+     "Orc",
+     "Orsimer"
+    ],
+    "Khajiit",
+    "Argonian",
+    [
+     "Falmer",
+     "Snow Elf"
+    ],
+    [
+     "Dwemer",
+     "Dwarf",
+     "Dwarves"
+    ],
+    [
+     "Maormer",
+     "Sea Elf"
+    ],
+    [
+     "Ayleid",
+     "Wild Elf"
+    ],
+    "Giant",
+    "Akaviri",
+    "Aldmer",
+    "Chimer",
+    "Ashlander",
+    "Kothringi",
+    "Yokudan",
+    "Tsaesci",
+    "Tang Mo",
+    "Kamal"
+   ]
+  },
+  {
+   "id": "xg6-rpg-elder-scrolls-provinces",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a province, island or continent in the Elder Scrolls universe",
+   "answers": [
+    "Skyrim",
+    "Cyrodiil",
+    "Morrowind",
+    "High Rock",
+    "Hammerfell",
+    "Valenwood",
+    "Elsweyr",
+    "Black Marsh",
+    [
+     "Summerset Isle",
+     "Summerset"
+    ],
+    "Akavir",
+    "Atmora",
+    "Yokuda",
+    "Pyandonea",
+    "Tamriel",
+    "Solstheim"
+   ]
+  },
+  {
+   "id": "xg6-rpg-cyberpunk-characters",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a character from Cyberpunk 2077",
+   "answers": [
+    "V",
+    [
+     "Johnny Silverhand",
+     "Johnny",
+     "Silverhand"
+    ],
+    [
+     "Judy Alvarez",
+     "Judy"
+    ],
+    [
+     "Panam Palmer",
+     "Panam"
+    ],
+    [
+     "Jackie Welles",
+     "Jackie"
+    ],
+    [
+     "River Ward",
+     "River"
+    ],
+    [
+     "Kerry Eurodyne",
+     "Kerry"
+    ],
+    [
+     "Rogue",
+     "Rogue Amendiares"
+    ],
+    [
+     "Goro Takemura",
+     "Takemura"
+    ],
+    [
+     "Adam Smasher",
+     "Smasher"
+    ],
+    [
+     "Evelyn Parker",
+     "Evelyn"
+    ],
+    [
+     "Dexter DeShawn",
+     "Dex"
+    ],
+    [
+     "Viktor Vektor",
+     "Viktor",
+     "Vik"
+    ],
+    [
+     "Misty Olszewski",
+     "Misty"
+    ],
+    [
+     "Claire Russell",
+     "Claire"
+    ],
+    "Mama Welles",
+    "T-Bug",
+    "Songbird",
+    [
+     "Alt Cunningham",
+     "Alt"
+    ],
+    [
+     "Saburo Arasaka",
+     "Saburo"
+    ],
+    [
+     "Yorinobu Arasaka",
+     "Yorinobu"
+    ],
+    [
+     "Hanako Arasaka",
+     "Hanako"
+    ],
+    [
+     "Meredith Stout",
+     "Meredith"
+    ],
+    "Placide",
+    "Lizzy Wizzy",
+    [
+     "Wakako Okada",
+     "Wakako"
+    ],
+    [
+     "Regina Jones",
+     "Regina"
+    ],
+    "Mitch",
+    "Pyra",
+    "Delamain",
+    [
+     "Solomon Reed",
+     "Reed"
+    ],
+    [
+     "Fred Myers",
+     "Myers"
+    ],
+    "Kurt Hansen",
+    "Mr. Hands"
+   ]
+  },
+  {
+   "id": "xg6-warcraft-famous-weapons",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a famous weapon from Warcraft lore",
+   "answers": [
+    "Frostmourne",
+    "Ashbringer",
+    "Doomhammer",
+    "Gorehowl",
+    [
+     "Thunderfury",
+     "Thunderfury, Blessed Blade of the Windseeker"
+    ],
+    [
+     "Sulfuras",
+     "Sulfuras, Hand of Ragnaros"
+    ],
+    "Shadowmourne",
+    [
+     "Atiesh",
+     "Atiesh, Greatstaff of the Guardian"
+    ],
+    [
+     "Warglaives of Azzinoth",
+     "Warglaives"
+    ],
+    [
+     "Thori'dal",
+     "Thori'dal, the Stars' Fury"
+    ],
+    "Quel'Delar",
+    [
+     "Dragonwrath",
+     "Dragonwrath, Tarecgosa's Rest",
+     "Tarecgosa's Rest"
+    ],
+    "Sword of a Thousand Truths",
+    "Truthguard",
+    "Felo'melorn",
+    "Titanstrike",
+    "Maw of the Damned"
+   ]
+  },
+  {
+   "id": "xg6-warcraft-starcraft-units",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a unit from StarCraft, StarCraft: Brood War or StarCraft II",
+   "answers": [
+    "Marine",
+    "Marauder",
+    "Reaper",
+    "Ghost",
+    "Hellion",
+    "Hellbat",
+    "Firebat",
+    "Medic",
+    "Vulture",
+    "Siege Tank",
+    "Cyclone",
+    "Widow Mine",
+    "Thor",
+    "Goliath",
+    "Viking",
+    [
+     "Medivac",
+     "Dropship"
+    ],
+    "Liberator",
+    "Banshee",
+    "Raven",
+    "Wraith",
+    "Valkyrie",
+    "Science Vessel",
+    "Battlecruiser",
+    "SCV",
+    "MULE",
+    "Probe",
+    "Zealot",
+    "Stalker",
+    "Sentry",
+    "Adept",
+    "High Templar",
+    "Dark Templar",
+    "Archon",
+    "Dark Archon",
+    "Immortal",
+    "Colossus",
+    "Disruptor",
+    "Reaver",
+    "Observer",
+    [
+     "Warp Prism",
+     "Shuttle"
+    ],
+    "Phoenix",
+    "Void Ray",
+    "Oracle",
+    "Tempest",
+    "Carrier",
+    "Mothership",
+    "Arbiter",
+    "Corsair",
+    "Scout",
+    "Drone",
+    "Zergling",
+    "Baneling",
+    "Roach",
+    "Ravager",
+    "Hydralisk",
+    "Lurker",
+    "Infestor",
+    "Swarm Host",
+    "Ultralisk",
+    "Overlord",
+    "Overseer",
+    "Mutalisk",
+    "Corruptor",
+    "Brood Lord",
+    "Viper",
+    "Queen",
+    "Scourge",
+    "Defiler",
+    "Guardian",
+    "Devourer"
+   ]
+  },
+  {
+   "id": "xg6-warcraft-starcraft-characters",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a character from the StarCraft games",
+   "answers": [
+    [
+     "Jim Raynor",
+     "Raynor"
+    ],
+    [
+     "Sarah Kerrigan",
+     "Kerrigan",
+     "Queen of Blades"
+    ],
+    [
+     "Arcturus Mengsk",
+     "Mengsk"
+    ],
+    "Zeratul",
+    "Artanis",
+    "Tassadar",
+    "Fenix",
+    "Aldaris",
+    [
+     "Matt Horner",
+     "Horner"
+    ],
+    [
+     "Tychus Findlay",
+     "Tychus"
+    ],
+    "Abathur",
+    [
+     "Alexei Stukov",
+     "Stukov"
+    ],
+    [
+     "Edmund Duke",
+     "Duke"
+    ],
+    [
+     "Valerian Mengsk",
+     "Valerian"
+    ],
+    [
+     "Nova",
+     "Nova Terra"
+    ],
+    "Selendis",
+    "Rohana",
+    "Alarak",
+    "Dehaka",
+    "Izsha",
+    "Zagara",
+    "Daggoth",
+    "Narud",
+    "Raszagal",
+    [
+     "Gabriel Tosh",
+     "Tosh"
+    ],
+    [
+     "Rory Swann",
+     "Swann"
+    ],
+    [
+     "Samir Duran",
+     "Duran"
+    ],
+    "Mira Han",
+    "Hanson",
+    "Warfield",
+    "Amon",
+    "Ulrezaj",
+    "Karax",
+    "Vorazun",
+    "Stetmann",
+    "Zasz"
+   ]
+  },
+  {
+   "id": "xg6-warcraft-wow-resources",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a class resource in World of Warcraft (such as mana or rage)",
+   "answers": [
+    "Mana",
+    "Rage",
+    "Energy",
+    "Focus",
+    "Runic Power",
+    "Fury",
+    "Maelstrom",
+    "Insanity",
+    "Soul Shards",
+    "Combo Points",
+    "Holy Power",
+    "Chi",
+    "Essence",
+    "Astral Power",
+    "Pain",
+    "Runes",
+    "Arcane Charges"
+   ]
+  },
+  {
+   "id": "xg6-warcraft-wow-holidays",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a holiday or world event in World of Warcraft",
+   "answers": [
+    "Brewfest",
+    [
+     "Hallow's End",
+     "Hallows End"
+    ],
+    [
+     "Feast of Winter Veil",
+     "Winter Veil"
+    ],
+    "Noblegarden",
+    "Lunar Festival",
+    "Love is in the Air",
+    [
+     "Midsummer Fire Festival",
+     "Midsummer"
+    ],
+    "Harvest Festival",
+    "Pilgrim's Bounty",
+    "Children's Week",
+    "Darkmoon Faire",
+    "Pirates' Day",
+    "Day of the Dead",
+    "Fireworks Spectacular",
+    "Call of the Scarab",
+    "Timewalking"
+   ]
+  },
+  {
+   "id": "xg6-warcraft-non-playable-races",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a non-playable race or creature people in Warcraft lore",
+   "answers": [
+    [
+     "Murloc",
+     "Murlocs"
+    ],
+    [
+     "Gnoll",
+     "Gnolls"
+    ],
+    [
+     "Kobold",
+     "Kobolds"
+    ],
+    [
+     "Ogre",
+     "Ogres"
+    ],
+    "Naga",
+    [
+     "Furbolg",
+     "Furbolgs"
+    ],
+    [
+     "Centaur",
+     "Centaurs"
+    ],
+    [
+     "Harpy",
+     "Harpies"
+    ],
+    [
+     "Quilboar",
+     "Quillboar"
+    ],
+    [
+     "Satyr",
+     "Satyrs"
+    ],
+    "Mogu",
+    "Mantid",
+    "Saurok",
+    "Jinyu",
+    "Hozen",
+    "Yaungol",
+    "Grummle",
+    "Tuskarr",
+    "Vrykul",
+    "Taunka",
+    [
+     "Nerubian",
+     "Nerubians"
+    ],
+    "Arakkoa",
+    [
+     "Ethereal",
+     "Ethereals"
+    ],
+    "Broken",
+    "Sethrak",
+    "Gronn",
+    "Ogron",
+    "Naaru",
+    [
+     "Tol'vir",
+     "Tolvir"
+    ],
+    [
+     "Dryad",
+     "Dryads"
+    ],
+    [
+     "Troggs",
+     "Trogg"
+    ],
+    [
+     "Giant",
+     "Giants"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-warcraft-titans-old-gods",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a Titan, Old God or Titan-related being in Warcraft lore",
+   "answers": [
+    "Sargeras",
+    "Aggramar",
+    "Eonar",
+    "Khaz'goroth",
+    "Norgannon",
+    "Golganneth",
+    [
+     "Aman'Thul",
+     "Amanthul"
+    ],
+    "Argus",
+    "Pantheon",
+    "Loken",
+    "Thorim",
+    "Freya",
+    "Hodir",
+    "Mimiron",
+    "Tyr",
+    "Odyn",
+    "Ra-den",
+    "Algalon",
+    [
+     "C'Thun",
+     "Cthun"
+    ],
+    [
+     "Yogg-Saron",
+     "Yogg Saron"
+    ],
+    [
+     "N'Zoth",
+     "Nzoth"
+    ],
+    [
+     "Y'Shaarj",
+     "Yshaarj"
+    ],
+    "Azeroth"
+   ]
+  },
+  {
+   "id": "xg6-warcraft-leaders",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a king, queen, chieftain, warchief or other major leader in Warcraft lore",
+   "answers": [
+    "Thrall",
+    [
+     "Garrosh Hellscream",
+     "Garrosh"
+    ],
+    [
+     "Vol'jin",
+     "Voljin"
+    ],
+    [
+     "Sylvanas Windrunner",
+     "Sylvanas"
+    ],
+    [
+     "Baine Bloodhoof",
+     "Baine"
+    ],
+    [
+     "Lor'themar Theron",
+     "Lor'themar"
+    ],
+    [
+     "Gallywix",
+     "Trade Prince Gallywix"
+    ],
+    [
+     "Varian Wrynn",
+     "Varian"
+    ],
+    [
+     "Anduin Wrynn",
+     "Anduin"
+    ],
+    [
+     "Jaina Proudmoore",
+     "Jaina"
+    ],
+    [
+     "Tyrande Whisperwind",
+     "Tyrande"
+    ],
+    [
+     "Malfurion Stormrage",
+     "Malfurion"
+    ],
+    [
+     "Genn Greymane",
+     "Greymane",
+     "Genn"
+    ],
+    [
+     "Magni Bronzebeard",
+     "Magni"
+    ],
+    [
+     "Moira Thaurissan",
+     "Moira"
+    ],
+    [
+     "Velen",
+     "Prophet Velen"
+    ],
+    "Khadgar",
+    [
+     "Gelbin Mekkatorque",
+     "Mekkatorque"
+    ],
+    [
+     "Orgrim Doomhammer",
+     "Doomhammer"
+    ],
+    [
+     "Saurfang",
+     "Varok Saurfang"
+    ],
+    [
+     "Cairne Bloodhoof",
+     "Cairne"
+    ],
+    [
+     "Terenas Menethil",
+     "Terenas"
+    ],
+    [
+     "Llane Wrynn",
+     "Llane"
+    ],
+    "Blackhand",
+    [
+     "Gul'dan",
+     "Guldan"
+    ],
+    "Durotan",
+    [
+     "Grom Hellscream",
+     "Grom"
+    ]
+   ]
+  },
+  {
+   "id": "xg6-warcraft-demon-lords",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a demon or Burning Legion commander in Warcraft lore",
+   "answers": [
+    "Sargeras",
+    "Archimonde",
+    [
+     "Kil'jaeden",
+     "Kiljaeden"
+    ],
+    "Mannoroth",
+    "Magtheridon",
+    [
+     "Doomlord Kazzak",
+     "Kazzak"
+    ],
+    [
+     "Gul'dan",
+     "Guldan"
+    ],
+    [
+     "Illidan Stormrage",
+     "Illidan"
+    ],
+    "Tichondrius",
+    "Balnazzar",
+    [
+     "Mal'Ganis",
+     "Malganis"
+    ],
+    "Varimathras",
+    "Detheroc",
+    "Azgalor",
+    [
+     "Jaraxxus",
+     "Lord Jaraxxus"
+    ],
+    [
+     "Terestian Illhoof",
+     "Terestian"
+    ],
+    "Brutallus",
+    "Mephistroth"
+   ]
+  },
+  {
+   "id": "xg6-warcraft-wow-languages",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a language in World of Warcraft",
+   "answers": [
+    "Common",
+    "Orcish",
+    "Thalassian",
+    "Darnassian",
+    "Dwarvish",
+    "Gnomish",
+    "Draenei",
+    "Taurahe",
+    [
+     "Zandali",
+     "Troll"
+    ],
+    "Gutterspeak",
+    "Goblin",
+    "Demonic",
+    "Draconic",
+    "Titan",
+    "Kalimag",
+    [
+     "Shath'Yar",
+     "Shathyar"
+    ],
+    "Nerglish",
+    "Pandaren",
+    [
+     "Gilnean",
+     "Worgen"
+    ],
+    "Vulpera",
+    "Eredun"
+   ]
+  }
+ ]
+}

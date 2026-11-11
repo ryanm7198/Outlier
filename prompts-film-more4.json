@@ -1,0 +1,2887 @@
+{
+ "cat": "film",
+ "prompts": [
+  {
+   "id": "xl4-animation-hanna-barbera-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a Hanna-Barbera cartoon character",
+   "answers": [
+    [
+     "Scooby-Doo",
+     "Scooby Doo",
+     "Scooby"
+    ],
+    [
+     "Shaggy",
+     "Shaggy Rogers"
+    ],
+    [
+     "Fred Flintstone",
+     "Fred"
+    ],
+    [
+     "Wilma Flintstone",
+     "Wilma"
+    ],
+    [
+     "Barney Rubble",
+     "Barney"
+    ],
+    [
+     "Betty Rubble",
+     "Betty"
+    ],
+    [
+     "Pebbles Flintstone",
+     "Pebbles"
+    ],
+    [
+     "Bamm-Bamm Rubble",
+     "Bamm-Bamm",
+     "Bam Bam"
+    ],
+    "Dino",
+    [
+     "Yogi Bear",
+     "Yogi"
+    ],
+    [
+     "Boo-Boo",
+     "Boo Boo"
+    ],
+    [
+     "Huckleberry Hound",
+     "Huckleberry"
+    ],
+    "Top Cat",
+    [
+     "Benny the Ball",
+     "Benny"
+    ],
+    "Jabberjaw",
+    "Hong Kong Phooey",
+    "Captain Caveman",
+    [
+     "Dick Dastardly",
+     "Dastardly"
+    ],
+    "Muttley",
+    "Snagglepuss",
+    [
+     "Quick Draw McGraw",
+     "Quick Draw"
+    ],
+    [
+     "Magilla Gorilla",
+     "Magilla"
+    ],
+    "Atom Ant",
+    "Secret Squirrel",
+    "Space Ghost",
+    "Jonny Quest",
+    [
+     "George Jetson",
+     "George"
+    ],
+    "Jane Jetson",
+    "Judy Jetson",
+    [
+     "Elroy Jetson",
+     "Elroy"
+    ],
+    "Astro",
+    [
+     "Rosie the Robot",
+     "Rosie"
+    ],
+    [
+     "Velma Dinkley",
+     "Velma"
+    ],
+    [
+     "Daphne Blake",
+     "Daphne"
+    ],
+    [
+     "Scrappy-Doo",
+     "Scrappy Doo",
+     "Scrappy"
+    ],
+    "Wally Gator",
+    "Peter Potamus",
+    "Squiddly Diddly",
+    [
+     "Penelope Pitstop",
+     "Penelope"
+    ],
+    "Josie",
+    [
+     "Pixie and Dixie",
+     "Pixie",
+     "Dixie"
+    ],
+    [
+     "Mr. Jinks",
+     "Mr Jinks"
+    ],
+    "Ranger Smith",
+    "Cindy Bear",
+    "Hokey Wolf",
+    [
+     "Touché Turtle",
+     "Touche Turtle"
+    ],
+    [
+     "Lippy the Lion",
+     "Lippy"
+    ],
+    "Hardy Har Har",
+    "Ricochet Rabbit",
+    [
+     "Augie Doggie",
+     "Doggie Daddy"
+    ],
+    [
+     "The Great Gazoo",
+     "Gazoo"
+    ],
+    [
+     "Mr. Slate",
+     "Mr Slate"
+    ]
+   ]
+  },
+  {
+   "id": "xl4-animation-futurama-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Futurama",
+   "answers": [
+    [
+     "Fry",
+     "Philip J. Fry",
+     "Philip Fry"
+    ],
+    [
+     "Leela",
+     "Turanga Leela"
+    ],
+    [
+     "Bender",
+     "Bender Rodriguez"
+    ],
+    [
+     "Professor Farnsworth",
+     "Farnsworth",
+     "Hubert Farnsworth"
+    ],
+    [
+     "Dr. Zoidberg",
+     "Zoidberg",
+     "Dr Zoidberg"
+    ],
+    [
+     "Amy Wong",
+     "Amy"
+    ],
+    [
+     "Hermes Conrad",
+     "Hermes"
+    ],
+    [
+     "Zapp Brannigan",
+     "Zapp"
+    ],
+    [
+     "Kif Kroker",
+     "Kif"
+    ],
+    "Mom",
+    "Nibbler",
+    "Scruffy",
+    "Calculon",
+    "Lrrr",
+    "Morbo",
+    "Linda",
+    "Hypnotoad",
+    [
+     "Cubert Farnsworth",
+     "Cubert"
+    ],
+    "Elzar",
+    "Robot Devil",
+    "Flexo",
+    "Roberto",
+    "URL",
+    "Clamps",
+    "Hedonismbot",
+    [
+     "Richard Nixon's Head",
+     "Nixon's Head",
+     "Nixon"
+    ],
+    [
+     "Dr. Wernstrom",
+     "Wernstrom",
+     "Professor Wernstrom"
+    ],
+    "Donbot",
+    "Walt",
+    "Larry",
+    "Igner",
+    [
+     "Seymour",
+     "Fry's dog Seymour"
+    ],
+    [
+     "Mayor Poopenmeyer",
+     "Poopenmeyer"
+    ],
+    "Joey Mousepad",
+    "Lars",
+    "Yancy Fry",
+    "Leo Wong"
+   ]
+  },
+  {
+   "id": "xl4-animation-family-guy-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Family Guy",
+   "answers": [
+    [
+     "Peter Griffin",
+     "Peter"
+    ],
+    [
+     "Lois Griffin",
+     "Lois"
+    ],
+    [
+     "Meg Griffin",
+     "Meg"
+    ],
+    [
+     "Chris Griffin",
+     "Chris"
+    ],
+    [
+     "Stewie Griffin",
+     "Stewie"
+    ],
+    [
+     "Brian Griffin",
+     "Brian"
+    ],
+    [
+     "Glenn Quagmire",
+     "Quagmire"
+    ],
+    [
+     "Cleveland Brown",
+     "Cleveland"
+    ],
+    [
+     "Joe Swanson",
+     "Joe"
+    ],
+    [
+     "Bonnie Swanson",
+     "Bonnie"
+    ],
+    [
+     "Mort Goldman",
+     "Mort"
+    ],
+    [
+     "Herbert",
+     "Herbert the Pervert"
+    ],
+    [
+     "Adam West",
+     "Mayor Adam West"
+    ],
+    "Tom Tucker",
+    "Diane Simmons",
+    [
+     "Carter Pewterschmidt",
+     "Carter"
+    ],
+    [
+     "Barbara Pewterschmidt",
+     "Barbara"
+    ],
+    "Death",
+    "Evil Monkey",
+    "Consuela",
+    [
+     "Ernie the Giant Chicken",
+     "Giant Chicken"
+    ],
+    "Seamus",
+    "Bruce",
+    "Jillian",
+    "Tricia Takanawa",
+    [
+     "Neil Goldman",
+     "Neil"
+    ],
+    "Jerome",
+    "Opie",
+    "Principal Shepherd",
+    "Angela",
+    "Ollie Williams",
+    "Greased-Up Deaf Guy",
+    "Rupert",
+    "Vinny",
+    [
+     "Mickey McFinnigan",
+     "Mickey"
+    ],
+    [
+     "Joyce Kinney",
+     "Joyce"
+    ],
+    [
+     "Francis Griffin",
+     "Francis"
+    ],
+    [
+     "Thelma Griffin",
+     "Thelma"
+    ],
+    [
+     "Susie Swanson",
+     "Susie Swanson"
+    ]
+   ]
+  },
+  {
+   "id": "xl4-animation-south-park-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from South Park",
+   "answers": [
+    [
+     "Eric Cartman",
+     "Cartman"
+    ],
+    [
+     "Kyle Broflovski",
+     "Kyle"
+    ],
+    [
+     "Stan Marsh",
+     "Stan"
+    ],
+    [
+     "Kenny McCormick",
+     "Kenny"
+    ],
+    [
+     "Butters Stotch",
+     "Butters"
+    ],
+    [
+     "Randy Marsh",
+     "Randy"
+    ],
+    [
+     "Mr. Garrison",
+     "Mr Garrison",
+     "Herbert Garrison"
+    ],
+    [
+     "Mr. Mackey",
+     "Mr Mackey"
+    ],
+    "Chef",
+    [
+     "Timmy Burch",
+     "Timmy"
+    ],
+    [
+     "Jimmy Valmer",
+     "Jimmy"
+    ],
+    [
+     "Wendy Testaburger",
+     "Wendy"
+    ],
+    [
+     "Token Black",
+     "Token"
+    ],
+    [
+     "Craig Tucker",
+     "Craig"
+    ],
+    [
+     "Tweek Tweak",
+     "Tweek"
+    ],
+    [
+     "Clyde Donovan",
+     "Clyde"
+    ],
+    [
+     "Mr. Hankey",
+     "Mr Hankey"
+    ],
+    "Towelie",
+    [
+     "Terrance and Phillip",
+     "Terrance",
+     "Phillip"
+    ],
+    "Satan",
+    "Big Gay Al",
+    [
+     "Sheila Broflovski",
+     "Sheila"
+    ],
+    [
+     "Sharon Marsh",
+     "Sharon"
+    ],
+    [
+     "Liane Cartman",
+     "Liane"
+    ],
+    [
+     "Ike Broflovski",
+     "Ike"
+    ],
+    [
+     "Pip Pirrup",
+     "Pip"
+    ],
+    [
+     "Principal Victoria",
+     "Principal Victoria"
+    ],
+    "PC Principal",
+    [
+     "Mr. Slave",
+     "Mr Slave"
+    ],
+    "Mephesto",
+    [
+     "Scott Tenorman",
+     "Scott"
+    ],
+    "Jesus",
+    [
+     "Bebe Stevens",
+     "Bebe"
+    ],
+    [
+     "Mr. Hat",
+     "Mr Hat"
+    ],
+    [
+     "Gerald Broflovski",
+     "Gerald"
+    ],
+    [
+     "Stuart McCormick",
+     "Stuart"
+    ],
+    "Manbearpig",
+    [
+     "Jimbo Kern",
+     "Jimbo"
+    ],
+    [
+     "Ned Gerblansky",
+     "Ned"
+    ],
+    "Nathan",
+    "Mimsy"
+   ]
+  },
+  {
+   "id": "xl4-animation-rick-and-morty-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Rick and Morty",
+   "answers": [
+    [
+     "Rick Sanchez",
+     "Rick"
+    ],
+    [
+     "Morty Smith",
+     "Morty"
+    ],
+    [
+     "Summer Smith",
+     "Summer"
+    ],
+    [
+     "Beth Smith",
+     "Beth"
+    ],
+    [
+     "Jerry Smith",
+     "Jerry"
+    ],
+    [
+     "Mr. Meeseeks",
+     "Mr Meeseeks",
+     "Meeseeks"
+    ],
+    "Birdperson",
+    "Squanchy",
+    [
+     "Mr. Poopybutthole",
+     "Poopybutthole"
+    ],
+    "Evil Morty",
+    [
+     "Tammy Gueterman",
+     "Tammy"
+    ],
+    "Unity",
+    "Krombopulos Michael",
+    "Pickle Rick",
+    "Scary Terry",
+    [
+     "Noob-Noob",
+     "Noob Noob"
+    ],
+    "Abradolf Lincler",
+    [
+     "Mr. Goldenfold",
+     "Goldenfold"
+    ],
+    "Jessica",
+    "Gearhead",
+    "Space Beth",
+    [
+     "Snuffles",
+     "Snowball"
+    ],
+    "Tiny Rick",
+    "Ants in My Eyes Johnson",
+    "Jaguar",
+    "King Jellybean",
+    "Glootie",
+    "Phoenixperson",
+    "Reverse Giraffe",
+    "Rick Prime"
+   ]
+  },
+  {
+   "id": "xl4-animation-despicable-me-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Despicable Me or Minions",
+   "answers": [
+    [
+     "Gru",
+     "Felonius Gru"
+    ],
+    "Kevin",
+    "Stuart",
+    "Bob",
+    "Dave",
+    "Jerry",
+    "Carl",
+    "Phil",
+    "Tim",
+    "Agnes",
+    "Edith",
+    "Margo",
+    [
+     "Dr. Nefario",
+     "Dr Nefario",
+     "Nefario"
+    ],
+    "Vector",
+    [
+     "Lucy Wilde",
+     "Lucy"
+    ],
+    "Scarlet Overkill",
+    "Herb Overkill",
+    [
+     "Balthazar Bratt",
+     "Bratt"
+    ],
+    "El Macho",
+    "Dru",
+    "Silas Ramsbottom",
+    "Wild Knuckles",
+    [
+     "Mr. Perkins",
+     "Mr Perkins"
+    ],
+    "Miss Hattie",
+    "Mel",
+    [
+     "Antonio Perez",
+     "Antonio"
+    ],
+    "Floyd Eaglesan",
+    "Valentina",
+    [
+     "Gru Jr.",
+     "Gru Junior"
+    ],
+    "Master Chow",
+    [
+     "Maxime Le Mal",
+     "Maxime"
+    ],
+    [
+     "Poppy Prescott",
+     "Poppy"
+    ]
+   ]
+  },
+  {
+   "id": "xl4-animation-disney-sidekicks",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a sidekick from a Disney animated film",
+   "answers": [
+    "Timon",
+    "Pumbaa",
+    "Olaf",
+    "Genie",
+    "Sebastian",
+    "Flounder",
+    "Jiminy Cricket",
+    "Mushu",
+    "Abu",
+    "Iago",
+    "Rajah",
+    "Pascal",
+    "Maximus",
+    "Meeko",
+    "Flit",
+    "Lumiere",
+    "Cogsworth",
+    "Baloo",
+    "Zazu",
+    "Sven",
+    "Gus",
+    "Jaq",
+    "Thumper",
+    "Flower",
+    "Tantor",
+    [
+     "Heihei",
+     "Hei Hei"
+    ],
+    "Pua",
+    "Pegasus",
+    "Phil",
+    [
+     "Mrs. Potts",
+     "Mrs Potts"
+    ],
+    "Chip",
+    "Kronk",
+    "Bagheera",
+    "Kaa",
+    "Kala",
+    "Terk",
+    [
+     "Tick-Tock the Crocodile",
+     "Tick Tock"
+    ],
+    "Smee",
+    "Nana",
+    [
+     "Tinker Bell",
+     "Tinkerbell"
+    ]
+   ]
+  },
+  {
+   "id": "xl4-animation-cars-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Pixar's Cars films",
+   "answers": [
+    [
+     "Lightning McQueen",
+     "McQueen"
+    ],
+    [
+     "Mater",
+     "Tow Mater"
+    ],
+    [
+     "Sally Carrera",
+     "Sally"
+    ],
+    [
+     "Doc Hudson",
+     "Doc"
+    ],
+    "Luigi",
+    "Guido",
+    "Ramone",
+    "Flo",
+    "Fillmore",
+    "Sarge",
+    "Sheriff",
+    "Lizzie",
+    "Mack",
+    "Chick Hicks",
+    [
+     "Strip Weathers",
+     "The King"
+    ],
+    [
+     "Finn McMissile",
+     "Finn"
+    ],
+    [
+     "Holley Shiftwell",
+     "Holley"
+    ],
+    [
+     "Francesco Bernoulli",
+     "Francesco"
+    ],
+    [
+     "Cruz Ramirez",
+     "Cruz"
+    ],
+    [
+     "Jackson Storm",
+     "Storm"
+    ],
+    "Smokey",
+    "Miss Fritter",
+    [
+     "Professor Z",
+     "Professor Zündapp"
+    ],
+    "Sterling",
+    "Mia",
+    "Tia",
+    "Red",
+    [
+     "Dusty Rust-eze",
+     "Dusty"
+    ],
+    [
+     "Rod Redline",
+     "Rod 'Torque' Redline"
+    ],
+    "Siddeley"
+   ]
+  },
+  {
+   "id": "xl4-animation-monsters-inc-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Monsters, Inc. or Monsters University",
+   "answers": [
+    [
+     "Sulley",
+     "James P. Sullivan",
+     "James Sullivan"
+    ],
+    [
+     "Mike Wazowski",
+     "Mike"
+    ],
+    "Boo",
+    [
+     "Randall Boggs",
+     "Randall"
+    ],
+    "Roz",
+    [
+     "Celia Mae",
+     "Celia"
+    ],
+    [
+     "Henry J. Waternoose",
+     "Waternoose"
+    ],
+    "Fungus",
+    "Needleman",
+    "Smitty",
+    "Art",
+    "Squishy",
+    [
+     "Dean Hardscrabble",
+     "Hardscrabble"
+    ],
+    [
+     "Terri Perry",
+     "Terri"
+    ],
+    [
+     "Terry Perry",
+     "Terry"
+    ],
+    [
+     "Don Carlton",
+     "Don"
+    ],
+    [
+     "Johnny Worthington",
+     "Johnny"
+    ],
+    [
+     "Chet Alexander",
+     "Chet"
+    ],
+    [
+     "Claire Wheeler",
+     "Claire"
+    ],
+    [
+     "Sherri Squibbles",
+     "Sherri"
+    ],
+    [
+     "Scott Squibbles",
+     "Scott"
+    ],
+    [
+     "Frank McCay",
+     "Frank"
+    ],
+    "Yeti",
+    "Abominable Snowman",
+    [
+     "George Sanderson",
+     "George"
+    ]
+   ]
+  },
+  {
+   "id": "xl4-animation-inside-out-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Pixar's Inside Out films",
+   "answers": [
+    "Joy",
+    "Sadness",
+    "Anger",
+    "Fear",
+    "Disgust",
+    "Bing Bong",
+    [
+     "Riley Andersen",
+     "Riley"
+    ],
+    "Anxiety",
+    "Envy",
+    "Ennui",
+    "Embarrassment",
+    "Nostalgia",
+    [
+     "Jangles the Clown",
+     "Jangles"
+    ],
+    [
+     "Lance Slashblade",
+     "Lance"
+    ],
+    "Bloofy",
+    [
+     "Mom",
+     "Jill Andersen",
+     "Jill"
+    ],
+    [
+     "Dad",
+     "Bill Andersen",
+     "Bill"
+    ],
+    "Bree",
+    "Grace",
+    "Valentina",
+    "Pouchy",
+    "Rainbow Unicorn",
+    "Forgetters"
+   ]
+  },
+  {
+   "id": "xl4-animation-aardman-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name an Aardman character",
+   "answers": [
+    "Wallace",
+    "Gromit",
+    [
+     "Shaun the Sheep",
+     "Shaun"
+    ],
+    [
+     "Feathers McGraw",
+     "Feathers"
+    ],
+    [
+     "Wendolene Ramsbottom",
+     "Wendolene"
+    ],
+    "Preston",
+    [
+     "Timmy",
+     "Timmy Time"
+    ],
+    "Bitzer",
+    "Shirley",
+    "Morph",
+    "Chas",
+    "Ginger",
+    [
+     "Rocky",
+     "Rocky the Rooster"
+    ],
+    "Babs",
+    "Bunty",
+    "Fowler",
+    [
+     "Mrs. Tweedy",
+     "Mrs Tweedy"
+    ],
+    [
+     "Mr. Tweedy",
+     "Mr Tweedy"
+    ],
+    "Nick",
+    "Fetcher",
+    [
+     "Piella Bakewell",
+     "Piella"
+    ],
+    "Fluffles",
+    "Lady Tottington",
+    "Victor Quartermaine",
+    "Philip"
+   ]
+  },
+  {
+   "id": "xl4-characters-avengers-members",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name an Avenger (from the comics or the films)",
+   "answers": [
+    [
+     "Iron Man",
+     "Tony Stark"
+    ],
+    [
+     "Captain America",
+     "Steve Rogers"
+    ],
+    "Thor",
+    [
+     "Hulk",
+     "Bruce Banner"
+    ],
+    [
+     "Black Widow",
+     "Natasha Romanoff"
+    ],
+    [
+     "Hawkeye",
+     "Clint Barton"
+    ],
+    "Vision",
+    [
+     "Scarlet Witch",
+     "Wanda Maximoff"
+    ],
+    [
+     "Falcon",
+     "Sam Wilson"
+    ],
+    [
+     "War Machine",
+     "James Rhodes",
+     "Rhodey"
+    ],
+    [
+     "Ant-Man",
+     "Scott Lang"
+    ],
+    [
+     "Wasp",
+     "Hope van Dyne",
+     "Janet van Dyne"
+    ],
+    [
+     "Black Panther",
+     "T'Challa"
+    ],
+    [
+     "Doctor Strange",
+     "Stephen Strange"
+    ],
+    [
+     "Spider-Man",
+     "Peter Parker"
+    ],
+    [
+     "Captain Marvel",
+     "Carol Danvers"
+    ],
+    [
+     "Quicksilver",
+     "Pietro Maximoff"
+    ],
+    "Wonder Man",
+    "Hercules",
+    [
+     "She-Hulk",
+     "Jennifer Walters"
+    ],
+    [
+     "Hank Pym",
+     "Giant-Man",
+     "Yellowjacket"
+    ],
+    [
+     "Winter Soldier",
+     "Bucky Barnes"
+    ],
+    "Shang-Chi",
+    "Moon Knight",
+    [
+     "Ms. Marvel",
+     "Kamala Khan"
+    ],
+    "Luke Cage",
+    "Jessica Jones",
+    "Tigra"
+   ]
+  },
+  {
+   "id": "xl4-characters-x-men-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name an X-Men character (hero or villain)",
+   "answers": [
+    [
+     "Wolverine",
+     "Logan"
+    ],
+    [
+     "Cyclops",
+     "Scott Summers"
+    ],
+    [
+     "Storm",
+     "Ororo Munroe"
+    ],
+    [
+     "Jean Grey",
+     "Phoenix"
+    ],
+    "Rogue",
+    "Gambit",
+    [
+     "Beast",
+     "Hank McCoy"
+    ],
+    [
+     "Professor X",
+     "Charles Xavier",
+     "Professor Xavier"
+    ],
+    [
+     "Magneto",
+     "Erik Lehnsherr"
+    ],
+    "Mystique",
+    "Nightcrawler",
+    "Colossus",
+    [
+     "Iceman",
+     "Bobby Drake"
+    ],
+    [
+     "Angel",
+     "Archangel",
+     "Warren Worthington"
+    ],
+    "Jubilee",
+    "Psylocke",
+    "Cable",
+    "Deadpool",
+    "Emma Frost",
+    [
+     "Shadowcat",
+     "Kitty Pryde"
+    ],
+    "Sabretooth",
+    "Juggernaut",
+    "Toad",
+    "Pyro",
+    "Havok",
+    "Polaris",
+    "Bishop",
+    "Forge",
+    "Dazzler",
+    "Banshee",
+    "Sunfire",
+    [
+     "Multiple Man",
+     "Jamie Madrox"
+    ],
+    "Longshot",
+    "Domino",
+    "Apocalypse",
+    [
+     "Mister Sinister",
+     "Mr Sinister"
+    ],
+    "Sebastian Shaw",
+    "Blob",
+    "Quicksilver",
+    "Moira MacTaggart",
+    "Lady Deathstrike",
+    "Omega Red",
+    [
+     "Stryker",
+     "William Stryker"
+    ],
+    [
+     "Bolivar Trask",
+     "Trask"
+    ],
+    "Mojo",
+    "Legion",
+    [
+     "X-23",
+     "Laura Kinney"
+    ],
+    "Magik",
+    "Cannonball"
+   ]
+  },
+  {
+   "id": "xl4-characters-justice-league-members",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a Justice League member (from the comics, films or TV)",
+   "answers": [
+    [
+     "Superman",
+     "Clark Kent"
+    ],
+    [
+     "Batman",
+     "Bruce Wayne"
+    ],
+    [
+     "Wonder Woman",
+     "Diana Prince"
+    ],
+    [
+     "The Flash",
+     "Flash",
+     "Barry Allen"
+    ],
+    [
+     "Green Lantern",
+     "Hal Jordan"
+    ],
+    [
+     "Aquaman",
+     "Arthur Curry"
+    ],
+    [
+     "Cyborg",
+     "Victor Stone"
+    ],
+    [
+     "Martian Manhunter",
+     "J'onn J'onzz"
+    ],
+    [
+     "Green Arrow",
+     "Oliver Queen"
+    ],
+    [
+     "Hawkgirl",
+     "Shayera Hol"
+    ],
+    "Zatanna",
+    [
+     "Black Canary",
+     "Dinah Lance"
+    ],
+    [
+     "Shazam",
+     "Captain Marvel",
+     "Billy Batson"
+    ],
+    [
+     "Hawkman",
+     "Carter Hall"
+    ],
+    [
+     "Atom",
+     "Ray Palmer"
+    ],
+    "Firestorm",
+    [
+     "Supergirl",
+     "Kara Zor-El"
+    ],
+    "Red Tornado",
+    "Elongated Man",
+    "Plastic Man",
+    "Booster Gold",
+    "Blue Beetle",
+    "Batwoman"
+   ]
+  },
+  {
+   "id": "xl4-characters-spider-man-villains",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a Spider-Man villain",
+   "answers": [
+    [
+     "Green Goblin",
+     "Norman Osborn"
+    ],
+    [
+     "Doctor Octopus",
+     "Doc Ock",
+     "Otto Octavius"
+    ],
+    [
+     "Venom",
+     "Eddie Brock"
+    ],
+    [
+     "Sandman",
+     "Flint Marko"
+    ],
+    [
+     "Vulture",
+     "Adrian Toomes"
+    ],
+    [
+     "Mysterio",
+     "Quentin Beck"
+    ],
+    [
+     "Electro",
+     "Max Dillon"
+    ],
+    [
+     "Lizard",
+     "Curt Connors",
+     "Dr. Curt Connors"
+    ],
+    [
+     "Kraven the Hunter",
+     "Kraven"
+    ],
+    "Rhino",
+    "Scorpion",
+    [
+     "Kingpin",
+     "Wilson Fisk"
+    ],
+    [
+     "Carnage",
+     "Cletus Kasady"
+    ],
+    "Hobgoblin",
+    "Shocker",
+    "Morbius",
+    "Chameleon",
+    "Tombstone",
+    "Black Cat",
+    "Hammerhead",
+    "Silvermane",
+    "Prowler",
+    "Jackal",
+    "Tinkerer",
+    [
+     "Mister Negative",
+     "Mr. Negative"
+    ],
+    "Hydro-Man",
+    "Spot",
+    "Beetle",
+    "Boomerang",
+    "Crime Master",
+    "Puma",
+    "Man-Wolf"
+   ]
+  },
+  {
+   "id": "xl4-characters-star-trek-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from Star Trek",
+   "answers": [
+    [
+     "James T. Kirk",
+     "Kirk",
+     "Captain Kirk"
+    ],
+    "Spock",
+    [
+     "Leonard McCoy",
+     "Dr. McCoy",
+     "Bones",
+     "McCoy"
+    ],
+    [
+     "Montgomery Scott",
+     "Scotty",
+     "Scott"
+    ],
+    [
+     "Nyota Uhura",
+     "Uhura"
+    ],
+    [
+     "Hikaru Sulu",
+     "Sulu"
+    ],
+    [
+     "Pavel Chekov",
+     "Chekov"
+    ],
+    [
+     "Jean-Luc Picard",
+     "Picard",
+     "Captain Picard"
+    ],
+    [
+     "William Riker",
+     "Riker",
+     "Will Riker"
+    ],
+    "Data",
+    "Worf",
+    [
+     "Deanna Troi",
+     "Troi"
+    ],
+    [
+     "Geordi La Forge",
+     "La Forge",
+     "Geordi"
+    ],
+    [
+     "Beverly Crusher",
+     "Crusher"
+    ],
+    [
+     "Kathryn Janeway",
+     "Janeway"
+    ],
+    [
+     "Benjamin Sisko",
+     "Sisko"
+    ],
+    [
+     "Jonathan Archer",
+     "Archer"
+    ],
+    [
+     "Michael Burnham",
+     "Burnham"
+    ],
+    "Q",
+    [
+     "Seven of Nine",
+     "Seven"
+    ],
+    "Odo",
+    "Quark",
+    [
+     "Kira Nerys",
+     "Kira"
+    ],
+    [
+     "Jadzia Dax",
+     "Dax"
+    ],
+    "Garak",
+    "Tuvok",
+    "Neelix",
+    [
+     "Tom Paris",
+     "Paris"
+    ],
+    [
+     "Harry Kim",
+     "Kim"
+    ],
+    [
+     "B'Elanna Torres",
+     "Torres"
+    ],
+    [
+     "The Doctor",
+     "Emergency Medical Hologram",
+     "EMH"
+    ],
+    "T'Pol",
+    [
+     "Trip Tucker",
+     "Charles Tucker",
+     "Tucker"
+    ],
+    [
+     "Khan",
+     "Khan Noonien Singh"
+    ],
+    [
+     "Christopher Pike",
+     "Pike"
+    ],
+    [
+     "Number One",
+     "Una Chin-Riley"
+    ],
+    "Saru",
+    [
+     "Wesley Crusher",
+     "Wesley"
+    ],
+    "Guinan",
+    "Lore",
+    [
+     "Tasha Yar",
+     "Yar"
+    ],
+    [
+     "Gul Dukat",
+     "Dukat"
+    ],
+    "Weyoun",
+    "Nog",
+    "Rom",
+    "Chakotay",
+    "Kes",
+    "Mayweather",
+    [
+     "Hoshi Sato",
+     "Hoshi"
+    ],
+    [
+     "Malcolm Reed",
+     "Reed"
+    ],
+    "Phlox",
+    "Shran",
+    "Sarek",
+    "Gowron",
+    "Martok",
+    "Kor",
+    [
+     "Julian Bashir",
+     "Bashir"
+    ],
+    [
+     "Miles O'Brien",
+     "O'Brien"
+    ],
+    "Jake Sisko",
+    "Leeta",
+    [
+     "Tilly",
+     "Sylvia Tilly"
+    ],
+    [
+     "Stamets",
+     "Paul Stamets"
+    ],
+    [
+     "Gabriel Lorca",
+     "Lorca"
+    ],
+    [
+     "Philippa Georgiou",
+     "Georgiou"
+    ],
+    [
+     "Rios",
+     "Cristobal Rios"
+    ],
+    [
+     "Raffi Musiker",
+     "Raffi"
+    ]
+   ]
+  },
+  {
+   "id": "xl4-characters-star-wars-sequel-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Star Wars sequel trilogy (2015 to 2019)",
+   "answers": [
+    "Rey",
+    "Finn",
+    [
+     "Poe Dameron",
+     "Poe"
+    ],
+    [
+     "Kylo Ren",
+     "Ben Solo"
+    ],
+    "BB-8",
+    [
+     "Leia Organa",
+     "Leia",
+     "Princess Leia"
+    ],
+    [
+     "Luke Skywalker",
+     "Luke"
+    ],
+    [
+     "Han Solo",
+     "Han"
+    ],
+    [
+     "Chewbacca",
+     "Chewie"
+    ],
+    [
+     "C-3PO",
+     "C3PO"
+    ],
+    [
+     "R2-D2",
+     "R2D2"
+    ],
+    [
+     "Supreme Leader Snoke",
+     "Snoke"
+    ],
+    [
+     "General Hux",
+     "Hux"
+    ],
+    [
+     "Captain Phasma",
+     "Phasma"
+    ],
+    [
+     "Rose Tico",
+     "Rose"
+    ],
+    [
+     "Maz Kanata",
+     "Maz"
+    ],
+    [
+     "Vice Admiral Holdo",
+     "Holdo"
+    ],
+    "DJ",
+    [
+     "Zorii Bliss",
+     "Zorii"
+    ],
+    "Jannah",
+    [
+     "Emperor Palpatine",
+     "Palpatine"
+    ],
+    [
+     "Lando Calrissian",
+     "Lando"
+    ],
+    [
+     "Admiral Ackbar",
+     "Ackbar"
+    ],
+    [
+     "Unkar Plutt",
+     "Plutt"
+    ],
+    "Lor San Tekka",
+    "Nien Nunb",
+    "D-O",
+    "Babu Frik",
+    [
+     "Allegiant General Pryde",
+     "Pryde"
+    ],
+    [
+     "Kaydel Ko Connix",
+     "Kaydel"
+    ],
+    "Admiral Statura"
+   ]
+  },
+  {
+   "id": "xl4-characters-mr-men",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a Mr. Men or Little Miss character",
+   "answers": [
+    [
+     "Mr. Tickle",
+     "Mr Tickle"
+    ],
+    [
+     "Mr. Happy",
+     "Mr Happy"
+    ],
+    [
+     "Mr. Bump",
+     "Mr Bump"
+    ],
+    [
+     "Mr. Greedy",
+     "Mr Greedy"
+    ],
+    [
+     "Mr. Strong",
+     "Mr Strong"
+    ],
+    [
+     "Mr. Nosey",
+     "Mr Nosey"
+    ],
+    [
+     "Mr. Messy",
+     "Mr Messy"
+    ],
+    [
+     "Mr. Silly",
+     "Mr Silly"
+    ],
+    [
+     "Mr. Uppity",
+     "Mr Uppity"
+    ],
+    [
+     "Mr. Small",
+     "Mr Small"
+    ],
+    [
+     "Mr. Daydream",
+     "Mr Daydream"
+    ],
+    [
+     "Mr. Forgetful",
+     "Mr Forgetful"
+    ],
+    [
+     "Mr. Jelly",
+     "Mr Jelly"
+    ],
+    [
+     "Mr. Noisy",
+     "Mr Noisy"
+    ],
+    [
+     "Mr. Lazy",
+     "Mr Lazy"
+    ],
+    [
+     "Mr. Funny",
+     "Mr Funny"
+    ],
+    [
+     "Mr. Mean",
+     "Mr Mean"
+    ],
+    [
+     "Mr. Chatterbox",
+     "Mr Chatterbox"
+    ],
+    [
+     "Mr. Fussy",
+     "Mr Fussy"
+    ],
+    [
+     "Mr. Bounce",
+     "Mr Bounce"
+    ],
+    [
+     "Mr. Muddle",
+     "Mr Muddle"
+    ],
+    [
+     "Mr. Dizzy",
+     "Mr Dizzy"
+    ],
+    [
+     "Mr. Impossible",
+     "Mr Impossible"
+    ],
+    [
+     "Mr. Perfect",
+     "Mr Perfect"
+    ],
+    [
+     "Mr. Cheerful",
+     "Mr Cheerful"
+    ],
+    [
+     "Mr. Cool",
+     "Mr Cool"
+    ],
+    [
+     "Mr. Rush",
+     "Mr Rush"
+    ],
+    [
+     "Mr. Grumpy",
+     "Mr Grumpy"
+    ],
+    [
+     "Mr. Clumsy",
+     "Mr Clumsy"
+    ],
+    [
+     "Mr. Quiet",
+     "Mr Quiet"
+    ],
+    [
+     "Mr. Brave",
+     "Mr Brave"
+    ],
+    [
+     "Mr. Snow",
+     "Mr Snow"
+    ],
+    [
+     "Mr. Wrong",
+     "Mr Wrong"
+    ],
+    [
+     "Mr. Skinny",
+     "Mr Skinny"
+    ],
+    [
+     "Mr. Worry",
+     "Mr Worry"
+    ],
+    [
+     "Mr. Nobody",
+     "Mr Nobody"
+    ],
+    [
+     "Mr. Slow",
+     "Mr Slow"
+    ],
+    [
+     "Mr. Topsy-Turvy",
+     "Mr Topsy-Turvy"
+    ],
+    [
+     "Mr. Tall",
+     "Mr Tall"
+    ],
+    [
+     "Mr. Persnickety",
+     "Mr Persnickety"
+    ],
+    [
+     "Mr. Adventure",
+     "Mr Adventure"
+    ],
+    [
+     "Mr. Marvellous",
+     "Mr Marvellous"
+    ],
+    [
+     "Mr. Birthday",
+     "Mr Birthday"
+    ],
+    [
+     "Mr. Christmas",
+     "Mr Christmas"
+    ],
+    [
+     "Mr. Calm",
+     "Mr Calm"
+    ],
+    [
+     "Mr. Nonsense",
+     "Mr Nonsense"
+    ],
+    [
+     "Mr. Busy",
+     "Mr Busy"
+    ],
+    [
+     "Mr. Stubborn",
+     "Mr Stubborn"
+    ],
+    [
+     "Little Miss Sunshine",
+     "Miss Sunshine"
+    ],
+    [
+     "Little Miss Bossy",
+     "Miss Bossy"
+    ],
+    [
+     "Little Miss Naughty",
+     "Miss Naughty"
+    ],
+    [
+     "Little Miss Chatterbox",
+     "Miss Chatterbox"
+    ],
+    [
+     "Little Miss Tiny",
+     "Miss Tiny"
+    ],
+    [
+     "Little Miss Trouble",
+     "Miss Trouble"
+    ],
+    [
+     "Little Miss Neat",
+     "Miss Neat"
+    ],
+    [
+     "Little Miss Helpful",
+     "Miss Helpful"
+    ],
+    [
+     "Little Miss Magic",
+     "Miss Magic"
+    ],
+    [
+     "Little Miss Shy",
+     "Miss Shy"
+    ],
+    [
+     "Little Miss Splendid",
+     "Miss Splendid"
+    ],
+    [
+     "Little Miss Late",
+     "Miss Late"
+    ],
+    [
+     "Little Miss Scatterbrain",
+     "Miss Scatterbrain"
+    ],
+    [
+     "Little Miss Giggles",
+     "Miss Giggles"
+    ],
+    [
+     "Little Miss Star",
+     "Miss Star"
+    ],
+    [
+     "Little Miss Fickle",
+     "Miss Fickle"
+    ],
+    [
+     "Little Miss Curious",
+     "Miss Curious"
+    ],
+    [
+     "Little Miss Dotty",
+     "Miss Dotty"
+    ],
+    [
+     "Little Miss Contrary",
+     "Miss Contrary"
+    ],
+    [
+     "Little Miss Lucky",
+     "Miss Lucky"
+    ],
+    [
+     "Little Miss Busy",
+     "Miss Busy"
+    ],
+    [
+     "Little Miss Greedy",
+     "Miss Greedy"
+    ],
+    [
+     "Little Miss Wise",
+     "Miss Wise"
+    ],
+    [
+     "Little Miss Stubborn",
+     "Miss Stubborn"
+    ],
+    [
+     "Little Miss Princess",
+     "Miss Princess"
+    ],
+    [
+     "Little Miss Fun",
+     "Miss Fun"
+    ],
+    [
+     "Little Miss Brainy",
+     "Miss Brainy"
+    ],
+    [
+     "Little Miss Whoops",
+     "Miss Whoops"
+    ],
+    [
+     "Little Miss Twins",
+     "Miss Twins"
+    ],
+    [
+     "Little Miss Quick",
+     "Miss Quick"
+    ],
+    [
+     "Little Miss Somersault",
+     "Miss Somersault"
+    ]
+   ]
+  },
+  {
+   "id": "xl4-characters-blackadder-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from Blackadder",
+   "answers": [
+    [
+     "Edmund Blackadder",
+     "Blackadder",
+     "Captain Blackadder"
+    ],
+    "Baldrick",
+    [
+     "Lord Percy",
+     "Percy"
+    ],
+    [
+     "Lord Melchett"
+    ],
+    [
+     "Captain Darling",
+     "Darling"
+    ],
+    [
+     "Lieutenant George",
+     "George"
+    ],
+    [
+     "Queenie",
+     "Queen Elizabeth I",
+     "Queen Elizabeth"
+    ],
+    "Nursie",
+    [
+     "Lord Flashheart",
+     "Flashheart"
+    ],
+    [
+     "Prince George",
+     "Prince Regent"
+    ],
+    [
+     "Mrs. Miggins",
+     "Mrs Miggins"
+    ],
+    "Bob",
+    "Kate",
+    "Bishop of Bath and Wells",
+    [
+     "Dr. Johnson",
+     "Dr Johnson",
+     "Samuel Johnson"
+    ],
+    [
+     "Field Marshal Haig",
+     "Haig"
+    ],
+    "General Melchett",
+    [
+     "Sir Walter Raleigh",
+     "Raleigh"
+    ],
+    "Mad Gerald",
+    [
+     "Ludwig the Indestructible",
+     "Ludwig"
+    ],
+    [
+     "Richard IV",
+     "The Prince"
+    ],
+    [
+     "Harry",
+     "Prince Harry"
+    ],
+    [
+     "Lord Whiteadder",
+     "Whiteadder"
+    ],
+    "Pitt the Younger"
+   ]
+  },
+  {
+   "id": "xl4-characters-dads-army-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from Dad's Army",
+   "answers": [
+    [
+     "Captain Mainwaring",
+     "Mainwaring",
+     "George Mainwaring"
+    ],
+    [
+     "Sergeant Wilson",
+     "Wilson",
+     "Arthur Wilson"
+    ],
+    [
+     "Lance Corporal Jones",
+     "Corporal Jones",
+     "Jones",
+     "Jack Jones"
+    ],
+    [
+     "Private Pike",
+     "Pike",
+     "Frank Pike"
+    ],
+    [
+     "Private Frazer",
+     "Frazer",
+     "James Frazer"
+    ],
+    [
+     "Private Godfrey",
+     "Godfrey",
+     "Charles Godfrey"
+    ],
+    [
+     "Private Walker",
+     "Walker",
+     "Joe Walker"
+    ],
+    [
+     "ARP Warden Hodges",
+     "Hodges",
+     "Warden Hodges",
+     "William Hodges"
+    ],
+    [
+     "The Vicar",
+     "Reverend Farthing",
+     "Vicar"
+    ],
+    [
+     "The Verger",
+     "Mr. Yeatman",
+     "Yeatman",
+     "Verger"
+    ],
+    [
+     "Mrs. Pike",
+     "Mrs Pike",
+     "Mavis Pike"
+    ],
+    [
+     "Colonel Pringle",
+     "Pringle"
+    ],
+    [
+     "Mrs. Fox",
+     "Mrs Fox"
+    ],
+    [
+     "Private Sponge",
+     "Sponge"
+    ],
+    [
+     "Mrs. Mainwaring",
+     "Elizabeth Mainwaring"
+    ]
+   ]
+  },
+  {
+   "id": "xl4-characters-red-dwarf-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from Red Dwarf",
+   "answers": [
+    [
+     "Dave Lister",
+     "Lister"
+    ],
+    [
+     "Arnold Rimmer",
+     "Rimmer"
+    ],
+    [
+     "Cat",
+     "The Cat"
+    ],
+    "Kryten",
+    "Holly",
+    [
+     "Kristine Kochanski",
+     "Kochanski"
+    ],
+    "Ace Rimmer",
+    [
+     "Duane Dibbley",
+     "Dibbley"
+    ],
+    [
+     "Talkie Toaster",
+     "Toaster"
+    ],
+    [
+     "Captain Hollister",
+     "Hollister"
+    ],
+    "Petersen",
+    "Selby",
+    "Legion",
+    "Queeg",
+    "Camille",
+    [
+     "Hudzen 10",
+     "Hudzen"
+    ],
+    "Able",
+    [
+     "Mr. Flibble",
+     "Mr Flibble"
+    ],
+    "Frankenstein",
+    "Kill Crazy",
+    "Binks",
+    "Bob",
+    "Ackerman",
+    "Chen",
+    [
+     "The Inquisitor",
+     "Inquisitor"
+    ]
+   ]
+  },
+  {
+   "id": "xl4-characters-inbetweeners-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from The Inbetweeners",
+   "answers": [
+    [
+     "Will McKenzie",
+     "Will"
+    ],
+    [
+     "Simon Cooper",
+     "Simon"
+    ],
+    [
+     "Jay Cartwright",
+     "Jay"
+    ],
+    [
+     "Neil Sutherland",
+     "Neil"
+    ],
+    [
+     "Mr. Gilbert",
+     "Mr Gilbert",
+     "Gilbert"
+    ],
+    [
+     "Carli D'Amato",
+     "Carli"
+    ],
+    [
+     "Charlotte Hinchcliffe",
+     "Charlotte"
+    ],
+    [
+     "Mark Donovan",
+     "Donovan"
+    ],
+    [
+     "Polly McKenzie",
+     "Polly"
+    ],
+    "Alan Cooper",
+    "Pamela Cooper",
+    [
+     "Mr. Cooper",
+     "Mr Cooper"
+    ],
+    "Tara",
+    "Lucy",
+    "Jane"
+   ]
+  },
+  {
+   "id": "xl4-tv-british-sitcoms",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a British sitcom (TV comedy series)",
+   "answers": [
+    "Fawlty Towers",
+    "Only Fools and Horses",
+    "Blackadder",
+    "Dad's Army",
+    "Porridge",
+    "Red Dwarf",
+    "The Office",
+    [
+     "Gavin & Stacey",
+     "Gavin and Stacey"
+    ],
+    "Peep Show",
+    "Phoenix Nights",
+    "Father Ted",
+    [
+     "The Vicar of Dibley",
+     "Vicar of Dibley"
+    ],
+    "Keeping Up Appearances",
+    "One Foot in the Grave",
+    "Open All Hours",
+    "Last of the Summer Wine",
+    [
+     "'Allo 'Allo!",
+     "Allo Allo"
+    ],
+    [
+     "Are You Being Served?",
+     "Are You Being Served"
+    ],
+    [
+     "Yes Minister",
+     "Yes, Minister"
+    ],
+    [
+     "Absolutely Fabulous",
+     "Ab Fab"
+    ],
+    "Black Books",
+    [
+     "The IT Crowd",
+     "IT Crowd"
+    ],
+    [
+     "The Inbetweeners",
+     "Inbetweeners"
+    ],
+    "Miranda",
+    "Not Going Out",
+    "Outnumbered",
+    "Friday Night Dinner",
+    "Derry Girls",
+    "Fleabag",
+    "Ghosts",
+    "Motherland",
+    "Detectorists",
+    "Gimme Gimme Gimme",
+    "Birds of a Feather",
+    "Men Behaving Badly",
+    "Bread",
+    "Terry and June",
+    "Rising Damp",
+    "Steptoe and Son",
+    "Till Death Us Do Part",
+    [
+     "Hi-de-Hi!",
+     "Hi-de-Hi"
+    ],
+    "Dinnerladies",
+    "Spaced",
+    "Green Wing",
+    "Benidorm",
+    [
+     "Two Pints of Lager and a Packet of Crisps",
+     "Two Pints of Lager"
+    ],
+    "My Family",
+    [
+     "Mrs. Brown's Boys",
+     "Mrs Brown's Boys"
+    ],
+    "Bottom",
+    [
+     "The Young Ones",
+     "Young Ones"
+    ],
+    "Drop the Dead Donkey",
+    "Citizen Smith",
+    "Butterflies",
+    "The Good Life",
+    "Man About the House",
+    "Mind Your Language",
+    "On the Buses",
+    "Goodnight Sweetheart",
+    "Waiting for God",
+    "Catastrophe",
+    "Stath Lets Flats",
+    "Toast of London",
+    "Plebs",
+    "W1A",
+    "Twenty Twelve",
+    [
+     "Rev.",
+     "Rev"
+    ],
+    "Cuckoo",
+    [
+     "The Thick of It",
+     "Thick of It"
+    ],
+    "I'm Alan Partridge",
+    [
+     "Peter Kay's Car Share",
+     "Car Share"
+    ],
+    "Early Doors",
+    [
+     "The Royle Family",
+     "Royle Family"
+    ],
+    "Shameless",
+    [
+     "The Brittas Empire",
+     "Brittas Empire"
+    ],
+    "As Time Goes By",
+    "2point4 Children",
+    "Fresh Meat",
+    "Chewing Gum",
+    "Bad Education",
+    "Count Arthur Strong",
+    "Upstart Crow",
+    "Boomers"
+   ]
+  },
+  {
+   "id": "xl4-tv-british-crime-dramas",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a British police or detective drama series",
+   "answers": [
+    "Line of Duty",
+    "Midsomer Murders",
+    [
+     "Inspector Morse",
+     "Morse"
+    ],
+    "Lewis",
+    "Endeavour",
+    "Vera",
+    "Luther",
+    "Sherlock",
+    "Broadchurch",
+    "Happy Valley",
+    "Prime Suspect",
+    [
+     "A Touch of Frost",
+     "Touch of Frost"
+    ],
+    "Taggart",
+    "Rebus",
+    "Wire in the Blood",
+    "Silent Witness",
+    "Waking the Dead",
+    "Spooks",
+    "Bodyguard",
+    "Shetland",
+    "Death in Paradise",
+    [
+     "Poirot",
+     "Agatha Christie's Poirot"
+    ],
+    [
+     "Miss Marple",
+     "Agatha Christie's Marple",
+     "Marple"
+    ],
+    [
+     "The Inspector Lynley Mysteries",
+     "Inspector Lynley",
+     "Lynley"
+    ],
+    "Dalziel and Pascoe",
+    "Cracker",
+    "The Bill",
+    "Heartbeat",
+    "Z-Cars",
+    [
+     "The Sweeney",
+     "Sweeney"
+    ],
+    "Juliet Bravo",
+    "Van der Valk",
+    "Bergerac",
+    "Lovejoy",
+    "Jonathan Creek",
+    "Grantchester",
+    "Father Brown",
+    "Unforgotten",
+    [
+     "Scott & Bailey",
+     "Scott and Bailey"
+    ],
+    "DCI Banks",
+    "Whitechapel",
+    "Ripper Street",
+    "Dixon of Dock Green",
+    [
+     "Softly, Softly",
+     "Softly Softly"
+    ],
+    [
+     "The Professionals",
+     "Professionals"
+    ],
+    "Life on Mars",
+    "Ashes to Ashes",
+    [
+     "Foyle's War",
+     "Foyles War"
+    ],
+    "Rosemary & Thyme",
+    "Cadfael",
+    "Bad Girls",
+    "Hamish Macbeth",
+    "Strike",
+    "Hinterland"
+   ]
+  },
+  {
+   "id": "xl4-tv-us-sitcoms",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a US sitcom",
+   "answers": [
+    "Friends",
+    "Seinfeld",
+    "Cheers",
+    "Frasier",
+    [
+     "The Big Bang Theory",
+     "Big Bang Theory"
+    ],
+    "How I Met Your Mother",
+    "Modern Family",
+    [
+     "Brooklyn Nine-Nine",
+     "Brooklyn 99"
+    ],
+    [
+     "Parks and Recreation",
+     "Parks & Recreation"
+    ],
+    [
+     "The Office",
+     "The Office US"
+    ],
+    "30 Rock",
+    "Arrested Development",
+    "Community",
+    "Scrubs",
+    [
+     "Curb Your Enthusiasm",
+     "Curb"
+    ],
+    "Two and a Half Men",
+    [
+     "That '70s Show",
+     "That 70s Show"
+    ],
+    [
+     "Will & Grace",
+     "Will and Grace"
+    ],
+    "Everybody Loves Raymond",
+    [
+     "The Fresh Prince of Bel-Air",
+     "Fresh Prince of Bel-Air",
+     "Fresh Prince"
+    ],
+    "Happy Days",
+    [
+     "M*A*S*H",
+     "MASH"
+    ],
+    "Roseanne",
+    [
+     "Married... with Children",
+     "Married with Children"
+    ],
+    "Family Ties",
+    [
+     "The Golden Girls",
+     "Golden Girls"
+    ],
+    "Saved by the Bell",
+    "Full House",
+    "Home Improvement",
+    "Malcolm in the Middle",
+    "New Girl",
+    "Schitt's Creek",
+    "Ted Lasso",
+    "Abbott Elementary",
+    "Superstore",
+    [
+     "The Good Place",
+     "Good Place"
+    ],
+    "Veep",
+    "The Simpsons",
+    "Taxi",
+    "Mork & Mindy",
+    [
+     "The Cosby Show",
+     "Cosby Show"
+    ],
+    "Gilligan's Island",
+    "I Love Lucy",
+    [
+     "The Brady Bunch",
+     "Brady Bunch"
+    ],
+    "Bewitched",
+    "I Dream of Jeannie",
+    "Mom",
+    "Black-ish",
+    "Fresh Off the Boat",
+    "Young Sheldon",
+    "The Middle",
+    "Everybody Hates Chris",
+    [
+     "King of Queens",
+     "The King of Queens"
+    ],
+    "Spin City",
+    "Mad About You",
+    "Wings",
+    "NewsRadio",
+    "Becker",
+    "Just Shoot Me",
+    "Third Rock from the Sun",
+    "Dharma & Greg",
+    "Ellen",
+    "Murphy Brown",
+    "Designing Women",
+    "Night Court",
+    "Mr. Belvedere",
+    "Diff'rent Strokes",
+    "The Jeffersons"
+   ]
+  },
+  {
+   "id": "xl4-tv-us-dramas",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a US TV drama series",
+   "answers": [
+    "Breaking Bad",
+    [
+     "The Sopranos",
+     "Sopranos"
+    ],
+    [
+     "The Wire",
+     "Wire"
+    ],
+    "Mad Men",
+    "Game of Thrones",
+    [
+     "The West Wing",
+     "West Wing"
+    ],
+    "Lost",
+    "24",
+    [
+     "House",
+     "House M.D."
+    ],
+    "ER",
+    [
+     "Grey's Anatomy",
+     "Greys Anatomy"
+    ],
+    "Dexter",
+    "Succession",
+    "Better Call Saul",
+    [
+     "The Walking Dead",
+     "Walking Dead"
+    ],
+    "Homeland",
+    "Boardwalk Empire",
+    "True Detective",
+    "Six Feet Under",
+    "Deadwood",
+    "Twin Peaks",
+    [
+     "The X-Files",
+     "X-Files"
+    ],
+    [
+     "Buffy the Vampire Slayer",
+     "Buffy"
+    ],
+    "Supernatural",
+    "NYPD Blue",
+    "Hill Street Blues",
+    "Dallas",
+    "Dynasty",
+    [
+     "The O.C.",
+     "The OC"
+    ],
+    "Gossip Girl",
+    "Desperate Housewives",
+    "Prison Break",
+    "Heroes",
+    "Fringe",
+    "Westworld",
+    "Yellowstone",
+    [
+     "The Handmaid's Tale",
+     "Handmaid's Tale"
+    ],
+    "Severance",
+    "The Last of Us",
+    "Ozark",
+    "Stranger Things",
+    "Sons of Anarchy",
+    "Justified",
+    "Friday Night Lights",
+    "Battlestar Galactica",
+    "Mindhunter",
+    "The Shield",
+    "Oz",
+    "Big Little Lies",
+    "The Americans",
+    "The Bear",
+    "Euphoria",
+    [
+     "The White Lotus",
+     "White Lotus"
+    ],
+    "Fargo",
+    "Hannibal",
+    [
+     "The Good Wife",
+     "Good Wife"
+    ],
+    "Suits",
+    "Law & Order",
+    "CSI",
+    "NCIS",
+    "Criminal Minds",
+    "Bones",
+    "Castle",
+    [
+     "The Mentalist",
+     "Mentalist"
+    ],
+    "Monk",
+    "Psych",
+    "Elementary",
+    "Blue Bloods",
+    "Chicago Fire",
+    "Scandal",
+    "How to Get Away with Murder",
+    "Pretty Little Liars",
+    "One Tree Hill",
+    [
+     "Dawson's Creek",
+     "Dawsons Creek"
+    ],
+    "90210",
+    "Beverly Hills 90210",
+    "Melrose Place",
+    "Party of Five",
+    "Gilmore Girls",
+    "Charmed",
+    "Smallville",
+    "Arrow",
+    "The Flash",
+    "Riverdale",
+    "Yellowjackets",
+    "Shogun",
+    "Andor"
+   ]
+  },
+  {
+   "id": "xl4-tv-british-panel-shows",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a British TV panel show",
+   "answers": [
+    "Have I Got News for You",
+    "QI",
+    "Mock the Week",
+    "8 Out of 10 Cats",
+    [
+     "Would I Lie to You?",
+     "Would I Lie to You"
+    ],
+    "A League of Their Own",
+    "Never Mind the Buzzcocks",
+    "They Think It's All Over",
+    "Shooting Stars",
+    "Celebrity Juice",
+    [
+     "A Question of Sport",
+     "Question of Sport"
+    ],
+    "Room 101",
+    "Insert Name Here",
+    [
+     "The Big Fat Quiz of the Year",
+     "Big Fat Quiz"
+    ],
+    "Unspun",
+    "The Last Leg",
+    [
+     "Richard Osman's House of Games",
+     "House of Games"
+    ],
+    "Duck Quacks Don't Echo",
+    [
+     "Whose Line Is It Anyway?",
+     "Whose Line Is It Anyway"
+    ],
+    "Argumental",
+    "8 Out of 10 Cats Does Countdown"
+   ]
+  },
+  {
+   "id": "xl4-tv-netflix-originals",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a Netflix original series",
+   "answers": [
+    "Stranger Things",
+    "The Crown",
+    "Squid Game",
+    "Bridgerton",
+    "Wednesday",
+    "Ozark",
+    [
+     "Money Heist",
+     "La Casa de Papel"
+    ],
+    "Narcos",
+    "Black Mirror",
+    "Orange Is the New Black",
+    "House of Cards",
+    "The Witcher",
+    "Sex Education",
+    "Cobra Kai",
+    "Dark",
+    "Lupin",
+    "Tiger King",
+    [
+     "The Queen's Gambit",
+     "Queen's Gambit"
+    ],
+    "Baby Reindeer",
+    "Adolescence",
+    [
+     "BoJack Horseman",
+     "Bojack Horseman"
+    ],
+    "Big Mouth",
+    "Love Is Blind",
+    "Too Hot to Handle",
+    [
+     "Formula 1: Drive to Survive",
+     "Drive to Survive"
+    ],
+    [
+     "The Umbrella Academy",
+     "Umbrella Academy"
+    ],
+    "You",
+    "13 Reasons Why",
+    "Elite",
+    "Emily in Paris",
+    [
+     "Ginny & Georgia",
+     "Ginny and Georgia"
+    ],
+    "Outer Banks",
+    "One Piece",
+    "Arcane",
+    "Heartstopper",
+    "After Life",
+    "Top Boy",
+    "The Night Agent",
+    "Beef",
+    "Kaos",
+    "Mindhunter",
+    [
+     "The Haunting of Hill House",
+     "Haunting of Hill House"
+    ],
+    "The Haunting of Bly Manor",
+    "Midnight Mass",
+    "Maid",
+    "Unbelievable",
+    "When They See Us",
+    "Making a Murderer",
+    "Chef's Table",
+    "Queer Eye",
+    "Nailed It!",
+    "The Circle",
+    "Selling Sunset",
+    "Virgin River",
+    "Sweet Magnolias",
+    "The Sandman",
+    "Shadow and Bone",
+    "Vikings: Valhalla",
+    "Cuphead Show"
+   ]
+  }
+ ]
+}
