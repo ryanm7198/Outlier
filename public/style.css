@@ -397,3 +397,17 @@ body.sheet-open { overflow: hidden; }
 .chip .more .ic { width: 14px; height: 14px; margin: 0 -4px 0 0; }
 @media (prefers-reduced-motion: reduce) { .sheet-bg, .sheet { transition: none; } }
 h4 small { text-transform: none; letter-spacing: 0; font-weight: 600; color: var(--you); margin-left: 4px; }
+
+/* Small screens: nothing may push the page sideways. Grid and flex children shrink below their text,
+   long labels wrap to two lines, and the page itself never scrolls horizontally. */
+html { overflow-x: clip; }
+#app > * { min-width: 0; max-width: 100%; }
+.sec, .recent, .cta, .picker, .modes, .how, .settings, .choice, .mix, .narrow, .group, .field, .sheet-b { grid-template-columns: minmax(0, 1fr); min-width: 0; }
+.btn.big small, .recentbtn span {
+  white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere;
+}
+.mixchip { max-width: 100%; overflow-wrap: anywhere; }
+.chip { max-width: 100%; text-align: left; }
+h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
+.roomcode { font-size: clamp(2.4rem, 14vw, 3.2rem); }
+.squares { font-size: clamp(1.25rem, 7.2vw, 1.9rem); letter-spacing: .04em; overflow-wrap: anywhere; }
