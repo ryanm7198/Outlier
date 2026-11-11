@@ -1,0 +1,2646 @@
+{
+ "cat": "nba",
+ "prompts": [
+  {
+   "id": "nba-g-argentina",
+   "tags": [
+    "global"
+   ],
+   "text": "Name an Argentine player who has played in the NBA (to the 2025-26 season)",
+   "answers": [
+    [
+     "Manu Ginóbili",
+     "Ginóbili"
+    ],
+    [
+     "Luis Scola",
+     "Scola"
+    ],
+    [
+     "Facundo Campazzo",
+     "Campazzo"
+    ],
+    [
+     "Andrés Nocioni",
+     "Nocioni"
+    ],
+    [
+     "Carlos Delfino",
+     "Delfino"
+    ],
+    [
+     "Fabricio Oberto",
+     "Oberto"
+    ],
+    [
+     "Pablo Prigioni",
+     "Prigioni"
+    ],
+    [
+     "Leandro Bolmaro",
+     "Bolmaro"
+    ],
+    [
+     "Gabriel Deck",
+     "Deck"
+    ],
+    [
+     "Nicolás Brussino",
+     "Brussino"
+    ],
+    [
+     "Patricio Garino",
+     "Garino"
+    ],
+    [
+     "Nicolás Laprovíttola",
+     "Laprovíttola"
+    ],
+    [
+     "Walter Herrmann",
+     "Herrmann"
+    ],
+    [
+     "Pepe Sánchez",
+     "Sánchez"
+    ],
+    [
+     "Rubén Wolkowyski",
+     "Wolkowyski"
+    ],
+    [
+     "Luca Vildoza",
+     "Vildoza"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-russia",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a Russian player who has played in the NBA (to the 2025-26 season)",
+   "answers": [
+    [
+     "Andrei Kirilenko",
+     "Kirilenko"
+    ],
+    [
+     "Timofey Mozgov",
+     "Mozgov"
+    ],
+    [
+     "Alexey Shved",
+     "Shved"
+    ],
+    [
+     "Egor Dëmin",
+     "Dëmin"
+    ],
+    [
+     "Sergei Bazarevich",
+     "Bazarevich"
+    ],
+    [
+     "Vladislav Goldin",
+     "Goldin"
+    ],
+    [
+     "Sasha Kaun",
+     "Kaun"
+    ],
+    [
+     "Viktor Khryapa",
+     "Khryapa"
+    ],
+    [
+     "Sergei Monia",
+     "Monia"
+    ],
+    [
+     "Pavel Podkolzin",
+     "Podkolzin"
+    ],
+    [
+     "Joel Bolomboy",
+     "Bolomboy"
+    ],
+    [
+     "Sergey Karasev",
+     "Karasev"
+    ],
+    [
+     "Yaroslav Korolev",
+     "Korolev"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "nba-g-britain",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a British player who has played in the NBA (to the 2025-26 season)",
+   "answers": [
+    [
+     "Luol Deng",
+     "Deng"
+    ],
+    [
+     "OG Anunoby",
+     "Anunoby"
+    ],
+    [
+     "Ben Gordon",
+     "Gordon"
+    ],
+    [
+     "Joel Freeland",
+     "Freeland"
+    ],
+    [
+     "Pops Mensah-Bonsu",
+     "Mensah-Bonsu"
+    ],
+    [
+     "Tosan Evbuomwan",
+     "Evbuomwan"
+    ],
+    [
+     "Amari Williams",
+     "Williams"
+    ],
+    [
+     "Ndudi Ebi",
+     "Ebi"
+    ],
+    [
+     "Robert Archibald",
+     "Archibald"
+    ],
+    [
+     "James Donaldson",
+     "Donaldson"
+    ],
+    [
+     "Steve Bucknall",
+     "Bucknall"
+    ],
+    [
+     "Chris Harris",
+     "Harris"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-slovenia",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a Slovenian player who has played in the NBA (to the 2025-26 season)",
+   "answers": [
+    [
+     "Luka Dončić",
+     "Dončić"
+    ],
+    "Goran Dragić",
+    "Zoran Dragić",
+    [
+     "Primož Brezec",
+     "Brezec"
+    ],
+    [
+     "Vlatko Čančar",
+     "Čančar"
+    ],
+    [
+     "Marko Milič",
+     "Milič"
+    ],
+    [
+     "Boštjan Nachbar",
+     "Nachbar"
+    ],
+    [
+     "Rasho Nesterović",
+     "Nesterović"
+    ],
+    [
+     "Anthony Randolph",
+     "Randolph"
+    ],
+    [
+     "Uroš Slokar",
+     "Slokar"
+    ],
+    [
+     "Beno Udrih",
+     "Udrih"
+    ],
+    [
+     "Sasha Vujačić",
+     "Vujačić"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-allstar-non-american",
+   "tags": [
+    "global"
+   ],
+   "text": "Name an NBA All-Star who was not American (by the nationality shown on Wikipedia's list of All-Stars, 1951 to the 2026 game)",
+   "answers": [
+    [
+     "Giannis Antetokounmpo",
+     "Antetokounmpo"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokić"
+    ],
+    [
+     "Luka Dončić",
+     "Dončić"
+    ],
+    [
+     "Dirk Nowitzki",
+     "Nowitzki"
+    ],
+    [
+     "Joel Embiid",
+     "Embiid"
+    ],
+    "Pau Gasol",
+    [
+     "Tony Parker",
+     "Parker"
+    ],
+    [
+     "Steve Nash",
+     "Nash"
+    ],
+    [
+     "Shai Gilgeous-Alexander",
+     "Gilgeous-Alexander"
+    ],
+    [
+     "Hakeem Olajuwon",
+     "Olajuwon"
+    ],
+    [
+     "Manu Ginóbili",
+     "Ginóbili"
+    ],
+    [
+     "Victor Wembanyama",
+     "Wembanyama"
+    ],
+    [
+     "Rudy Gobert",
+     "Gobert"
+    ],
+    [
+     "Dikembe Mutombo",
+     "Mutombo"
+    ],
+    [
+     "Tim Duncan",
+     "Duncan"
+    ],
+    [
+     "Patrick Ewing",
+     "Ewing"
+    ],
+    [
+     "Karl-Anthony Towns",
+     "Towns"
+    ],
+    [
+     "Al Horford",
+     "Horford"
+    ],
+    [
+     "Rolando Blackman",
+     "Blackman"
+    ],
+    [
+     "Pascal Siakam",
+     "Siakam"
+    ],
+    "Marc Gasol",
+    [
+     "Domantas Sabonis",
+     "Sabonis"
+    ],
+    [
+     "Detlef Schrempf",
+     "Schrempf"
+    ],
+    [
+     "Ben Simmons",
+     "Simmons"
+    ],
+    [
+     "Peja Stojaković",
+     "Stojaković"
+    ],
+    [
+     "Luol Deng",
+     "Deng"
+    ],
+    [
+     "Žydrūnas Ilgauskas",
+     "Ilgauskas"
+    ],
+    [
+     "Alperen Şengün",
+     "Şengün"
+    ],
+    [
+     "Nikola Vučević",
+     "Vučević"
+    ],
+    [
+     "Deni Avdija",
+     "Avdija"
+    ],
+    [
+     "Vlade Divac",
+     "Divac"
+    ],
+    [
+     "James Donaldson",
+     "Donaldson"
+    ],
+    [
+     "Goran Dragić",
+     "Dragić"
+    ],
+    [
+     "Andrei Kirilenko",
+     "Kirilenko"
+    ],
+    [
+     "Jamaal Magloire",
+     "Magloire"
+    ],
+    [
+     "Lauri Markkanen",
+     "Markkanen"
+    ],
+    [
+     "Jamal Murray",
+     "Murray"
+    ],
+    [
+     "Mehmet Okur",
+     "Okur"
+    ],
+    [
+     "Kristaps Porziņģis",
+     "Porziņģis"
+    ],
+    [
+     "Norman Powell",
+     "Powell"
+    ],
+    [
+     "Rik Smits",
+     "Smits"
+    ],
+    [
+     "Andrew Wiggins",
+     "Wiggins"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-first-pick-born-abroad",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player born outside the 50 US states who was picked first overall in the NBA draft (1947 to 2026)",
+   "answers": [
+    [
+     "Victor Wembanyama",
+     "Wembanyama"
+    ],
+    [
+     "Hakeem Olajuwon",
+     "Olajuwon"
+    ],
+    [
+     "Yao Ming",
+     "Ming"
+    ],
+    [
+     "Ben Simmons",
+     "Simmons"
+    ],
+    [
+     "Kyrie Irving",
+     "Irving"
+    ],
+    [
+     "Patrick Ewing",
+     "Ewing"
+    ],
+    [
+     "Tim Duncan",
+     "Duncan"
+    ],
+    [
+     "Andrew Wiggins",
+     "Wiggins"
+    ],
+    [
+     "Zaccharie Risacher",
+     "Risacher"
+    ],
+    [
+     "Deandre Ayton",
+     "Ayton"
+    ],
+    [
+     "Andrea Bargnani",
+     "Bargnani"
+    ],
+    [
+     "Andrew Bogut",
+     "Bogut"
+    ],
+    [
+     "Anthony Bennett",
+     "Bennett"
+    ],
+    [
+     "Michael Olowokandi",
+     "Olowokandi"
+    ],
+    [
+     "Mychal Thompson",
+     "Thompson"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-africa",
+   "tags": [
+    "global"
+   ],
+   "text": "Name an NBA player from an African country (by birth or nationality, to the 2025-26 season)",
+   "answers": [
+    [
+     "Joel Embiid",
+     "Embiid"
+    ],
+    [
+     "Hakeem Olajuwon",
+     "Olajuwon"
+    ],
+    [
+     "Dikembe Mutombo",
+     "Mutombo"
+    ],
+    [
+     "Pascal Siakam",
+     "Siakam"
+    ],
+    [
+     "Luol Deng",
+     "Deng"
+    ],
+    "Manute Bol",
+    [
+     "Thon Maker",
+     "Maker"
+    ],
+    [
+     "Bismack Biyombo",
+     "Biyombo"
+    ],
+    [
+     "Gorgui Dieng",
+     "Dieng"
+    ],
+    [
+     "DeSagana Diop",
+     "Diop"
+    ],
+    [
+     "Tacko Fall",
+     "Fall"
+    ],
+    [
+     "Jonathan Kuminga",
+     "Kuminga"
+    ],
+    "Bol Bol",
+    [
+     "Hasheem Thabeet",
+     "Thabeet"
+    ],
+    [
+     "Luc Mbah a Moute",
+     "Moute"
+    ],
+    [
+     "N'Faly Dante",
+     "Dante"
+    ],
+    [
+     "Christian Koloko",
+     "Koloko"
+    ],
+    [
+     "Yves Missi",
+     "Missi"
+    ],
+    [
+     "Oscar Tshiebwe",
+     "Tshiebwe"
+    ],
+    [
+     "Moussa Cissé",
+     "Cissé"
+    ],
+    [
+     "Precious Achiuwa",
+     "Achiuwa"
+    ],
+    [
+     "Charles Bassey",
+     "Bassey"
+    ],
+    [
+     "Josh Okogie",
+     "Okogie"
+    ],
+    [
+     "Mouhamed Gueye",
+     "Gueye"
+    ],
+    [
+     "Khaman Maluach",
+     "Maluach"
+    ],
+    [
+     "Bruno Fernando",
+     "Fernando"
+    ],
+    [
+     "Ulrich Chomche",
+     "Chomche"
+    ],
+    [
+     "Adama Sanogo",
+     "Sanogo"
+    ],
+    [
+     "Nathan Mensah",
+     "Mensah"
+    ],
+    [
+     "Mamadi Diakite",
+     "Diakite"
+    ],
+    "Udoka Azubuike",
+    [
+     "Ibou Badji",
+     "Badji"
+    ],
+    [
+     "Wenyen Gabriel",
+     "Gabriel"
+    ],
+    [
+     "Chris Silva",
+     "Silva"
+    ],
+    [
+     "Chima Moneke",
+     "Moneke"
+    ],
+    [
+     "Emmanuel Mudiay",
+     "Mudiay"
+    ],
+    [
+     "Abdel Nader",
+     "Nader"
+    ],
+    [
+     "Cheick Diallo",
+     "Diallo"
+    ],
+    [
+     "Amida Brimah",
+     "Brimah"
+    ],
+    [
+     "Marial Shayok",
+     "Shayok"
+    ],
+    [
+     "Deng Adel",
+     "Adel"
+    ],
+    [
+     "Salah Mejri",
+     "Mejri"
+    ],
+    [
+     "Mangok Mathiang",
+     "Mathiang"
+    ],
+    [
+     "Edy Tavares",
+     "Tavares"
+    ],
+    [
+     "Ben Bentil",
+     "Bentil"
+    ],
+    [
+     "Festus Ezeli",
+     "Ezeli"
+    ],
+    [
+     "Maurice Ndour",
+     "Ndour"
+    ],
+    "Hamady N'Diaye",
+    [
+     "Christian Eyenga",
+     "Eyenga"
+    ],
+    [
+     "Solomon Alabi",
+     "Alabi"
+    ],
+    "Kelenna Azubuike",
+    [
+     "Cheikh Samb",
+     "Samb"
+    ],
+    [
+     "Mouhamed Sene",
+     "Sene"
+    ],
+    [
+     "Stéphane Lasme",
+     "Lasme"
+    ],
+    [
+     "Michael Olowokandi",
+     "Olowokandi"
+    ],
+    [
+     "Pape Sow",
+     "Sow"
+    ],
+    [
+     "Boniface N'Dong",
+     "N'Dong"
+    ],
+    [
+     "Deng Gai",
+     "Gai"
+    ],
+    [
+     "Obinna Ekezie",
+     "Ekezie"
+    ],
+    "Mamadou N'Diaye",
+    [
+     "Ruben Boumtje-Boumtje",
+     "Boumtje-Boumtje"
+    ],
+    [
+     "Soumaila Samake",
+     "Samake"
+    ],
+    [
+     "Olumide Oyedeji",
+     "Oyedeji"
+    ],
+    [
+     "Peter Aluma",
+     "Aluma"
+    ],
+    "Makhtar N'Diaye",
+    [
+     "Yinka Dare",
+     "Dare"
+    ],
+    [
+     "Alaa Abdelnaby",
+     "Abdelnaby"
+    ],
+    [
+     "Julius Nwosu",
+     "Nwosu"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-asia",
+   "tags": [
+    "global"
+   ],
+   "text": "Name an NBA player from China, Japan, South Korea, Israel, Lebanon or Iran (to the 2025-26 season)",
+   "answers": [
+    [
+     "Yao Ming",
+     "Ming"
+    ],
+    [
+     "Rui Hachimura",
+     "Hachimura"
+    ],
+    [
+     "Deni Avdija",
+     "Avdija"
+    ],
+    [
+     "Yi Jianlian",
+     "Jianlian"
+    ],
+    [
+     "Wang Zhizhi",
+     "Zhizhi"
+    ],
+    [
+     "Mengke Bateer",
+     "Bateer"
+    ],
+    [
+     "Yuta Watanabe",
+     "Watanabe"
+    ],
+    [
+     "Omri Casspi",
+     "Casspi"
+    ],
+    [
+     "Rony Seikaly",
+     "Seikaly"
+    ],
+    [
+     "Yang Hansen",
+     "Hansen"
+    ],
+    [
+     "Ben Saraf",
+     "Saraf"
+    ],
+    [
+     "Yuki Kawamura",
+     "Kawamura"
+    ],
+    [
+     "Cui Yongxi",
+     "Yongxi"
+    ],
+    [
+     "Norvel Pelle",
+     "Pelle"
+    ],
+    [
+     "T. J. Leaf",
+     "Leaf"
+    ],
+    "Zhou Qi",
+    [
+     "Gal Mekel",
+     "Mekel"
+    ],
+    [
+     "Hamed Haddadi",
+     "Haddadi"
+    ],
+    [
+     "Sun Yue",
+     "Yue"
+    ],
+    [
+     "Ha Seung-Jin",
+     "Seung-Jin"
+    ],
+    [
+     "Yuta Tabuse",
+     "Tabuse"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-caribbean",
+   "tags": [
+    "global"
+   ],
+   "text": "Name an NBA player from a Caribbean country or territory, such as the Dominican Republic, Puerto Rico, the Bahamas, Jamaica, Haiti or the US Virgin Islands (to the 2025-26 season)",
+   "answers": [
+    "Al Horford",
+    [
+     "Patrick Ewing",
+     "Ewing"
+    ],
+    [
+     "Tim Duncan",
+     "Duncan"
+    ],
+    [
+     "Deandre Ayton",
+     "Ayton"
+    ],
+    [
+     "J. J. Barea",
+     "Barea"
+    ],
+    [
+     "Buddy Hield",
+     "Hield"
+    ],
+    [
+     "Carlos Arroyo",
+     "Arroyo"
+    ],
+    [
+     "Olden Polynice",
+     "Polynice"
+    ],
+    [
+     "Rumeal Robinson",
+     "Robinson"
+    ],
+    "Francisco García",
+    [
+     "Chris Duarte",
+     "Duarte"
+    ],
+    [
+     "V. J. Edgecombe",
+     "Edgecombe"
+    ],
+    "Andersson Garcia",
+    [
+     "David Jones-Garcia",
+     "Jones-Garcia"
+    ],
+    [
+     "Skal Labissière",
+     "Labissière"
+    ],
+    [
+     "Nick Richards",
+     "Richards"
+    ],
+    [
+     "Kai Jones",
+     "Jones"
+    ],
+    [
+     "D'Moi Hodge",
+     "Hodge"
+    ],
+    [
+     "Ángel Delgado",
+     "Delgado"
+    ],
+    [
+     "Luis Montero",
+     "Montero"
+    ],
+    [
+     "Omari Johnson",
+     "Johnson"
+    ],
+    [
+     "Gian Clavell",
+     "Clavell"
+    ],
+    [
+     "Jerome Jordan",
+     "Jordan"
+    ],
+    [
+     "Samardo Samuels",
+     "Samuels"
+    ],
+    [
+     "Raja Bell",
+     "Bell"
+    ],
+    [
+     "Guillermo Díaz",
+     "Díaz"
+    ],
+    [
+     "Luis Flores",
+     "Flores"
+    ],
+    [
+     "Peter John Ramos",
+     "Ramos"
+    ],
+    [
+     "Felipe López",
+     "López"
+    ],
+    "Garth Joseph",
+    [
+     "Lazaro Borrell",
+     "Borrell"
+    ],
+    [
+     "Charles Claxton",
+     "Claxton"
+    ],
+    [
+     "Andrés Guibert",
+     "Guibert"
+    ],
+    "Tito Horford",
+    [
+     "Dexter Cambridge",
+     "Cambridge"
+    ],
+    [
+     "Ian Lockhart",
+     "Lockhart"
+    ],
+    [
+     "Mychal Thompson",
+     "Thompson"
+    ],
+    [
+     "José Ortiz",
+     "Ortiz"
+    ],
+    [
+     "Ramón Rivas",
+     "Rivas"
+    ],
+    "Yvon Joseph",
+    [
+     "Wayne Sappleton",
+     "Sappleton"
+    ],
+    [
+     "Butch Lee",
+     "Lee"
+    ],
+    [
+     "Ken Charles",
+     "Charles"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-latin-america",
+   "tags": [
+    "global"
+   ],
+   "text": "Name an NBA player from Mexico, Venezuela, Panama, Colombia, Nicaragua or Uruguay (to the 2025-26 season)",
+   "answers": [
+    [
+     "Eduardo Nájera",
+     "Nájera"
+    ],
+    [
+     "Gustavo Ayón",
+     "Ayón"
+    ],
+    [
+     "Greivis Vásquez",
+     "Vásquez"
+    ],
+    [
+     "Rolando Blackman",
+     "Blackman"
+    ],
+    [
+     "Horacio Llamas",
+     "Llamas"
+    ],
+    [
+     "Karim López",
+     "López"
+    ],
+    [
+     "Norchad Omier",
+     "Omier"
+    ],
+    [
+     "Jaime Echenique",
+     "Echenique"
+    ],
+    [
+     "Jorge Gutiérrez",
+     "Gutiérrez"
+    ],
+    [
+     "Gary Forbes",
+     "Forbes"
+    ],
+    [
+     "Esteban Batista",
+     "Batista"
+    ],
+    [
+     "Óscar Torres",
+     "Torres"
+    ],
+    [
+     "Rubén Garcés",
+     "Garcés"
+    ],
+    [
+     "Carl Herrera",
+     "Herrera"
+    ],
+    [
+     "Stuart Gray",
+     "Gray"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "nba-g-steals-leaders",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who has led the NBA in steals per game for a season (1973-74 to 2025-26)",
+   "answers": [
+    [
+     "Chris Paul",
+     "Paul"
+    ],
+    [
+     "Allen Iverson",
+     "Iverson"
+    ],
+    [
+     "Michael Jordan",
+     "Jordan"
+    ],
+    [
+     "Alvin Robertson",
+     "Robertson"
+    ],
+    [
+     "Micheal Ray Richardson",
+     "Richardson"
+    ],
+    [
+     "Baron Davis",
+     "Davis"
+    ],
+    [
+     "Mookie Blaylock",
+     "Blaylock"
+    ],
+    [
+     "John Stockton",
+     "Stockton"
+    ],
+    [
+     "Magic Johnson",
+     "Johnson"
+    ],
+    [
+     "Ausar Thompson",
+     "Thompson"
+    ],
+    [
+     "Dyson Daniels",
+     "Daniels"
+    ],
+    [
+     "De'Aaron Fox",
+     "Fox"
+    ],
+    [
+     "OG Anunoby",
+     "Anunoby"
+    ],
+    [
+     "Dejounte Murray",
+     "Murray"
+    ],
+    [
+     "Jimmy Butler",
+     "Butler"
+    ],
+    [
+     "Ben Simmons",
+     "Simmons"
+    ],
+    [
+     "Paul George",
+     "George"
+    ],
+    [
+     "Victor Oladipo",
+     "Oladipo"
+    ],
+    "Draymond Green",
+    [
+     "Stephen Curry",
+     "Curry"
+    ],
+    [
+     "Kawhi Leonard",
+     "Leonard"
+    ],
+    [
+     "Rajon Rondo",
+     "Rondo"
+    ],
+    [
+     "Gerald Wallace",
+     "Wallace"
+    ],
+    [
+     "Larry Hughes",
+     "Hughes"
+    ],
+    [
+     "Eddie Jones",
+     "Jones"
+    ],
+    [
+     "Kendall Gill",
+     "Gill"
+    ],
+    [
+     "Gary Payton",
+     "Payton"
+    ],
+    [
+     "Scottie Pippen",
+     "Pippen"
+    ],
+    [
+     "Nate McMillan",
+     "McMillan"
+    ],
+    "Rickey Green",
+    [
+     "M. L. Carr",
+     "Carr"
+    ],
+    [
+     "Ron Lee",
+     "Lee"
+    ],
+    [
+     "Don Buse",
+     "Buse"
+    ],
+    [
+     "Slick Watts",
+     "Watts"
+    ],
+    [
+     "Rick Barry",
+     "Barry"
+    ],
+    [
+     "Larry Steele",
+     "Steele"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-blocks-leaders",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who has led the NBA in blocks per game for a season (1973-74 to 2025-26)",
+   "answers": [
+    [
+     "Marcus Camby",
+     "Camby"
+    ],
+    [
+     "Mark Eaton",
+     "Eaton"
+    ],
+    [
+     "Kareem Abdul-Jabbar",
+     "Abdul-Jabbar"
+    ],
+    [
+     "Victor Wembanyama",
+     "Wembanyama"
+    ],
+    [
+     "Anthony Davis",
+     "Davis"
+    ],
+    [
+     "Theo Ratliff",
+     "Ratliff"
+    ],
+    [
+     "Dikembe Mutombo",
+     "Mutombo"
+    ],
+    [
+     "Hakeem Olajuwon",
+     "Olajuwon"
+    ],
+    [
+     "George T. Johnson",
+     "Johnson"
+    ],
+    [
+     "Jaren Jackson Jr.",
+     "Jackson",
+     "Jaren Jackson"
+    ],
+    [
+     "Myles Turner",
+     "Turner"
+    ],
+    [
+     "Hassan Whiteside",
+     "Whiteside"
+    ],
+    [
+     "Serge Ibaka",
+     "Ibaka"
+    ],
+    [
+     "Dwight Howard",
+     "Howard"
+    ],
+    [
+     "Alonzo Mourning",
+     "Mourning"
+    ],
+    [
+     "Manute Bol",
+     "Bol"
+    ],
+    [
+     "Andrew Bogut",
+     "Bogut"
+    ],
+    [
+     "Andrei Kirilenko",
+     "Kirilenko"
+    ],
+    [
+     "Ben Wallace",
+     "Wallace"
+    ],
+    [
+     "Shawn Bradley",
+     "Bradley"
+    ],
+    [
+     "David Robinson",
+     "Robinson"
+    ],
+    [
+     "Tree Rollins",
+     "Rollins"
+    ],
+    [
+     "Bill Walton",
+     "Walton"
+    ],
+    [
+     "Elmore Smith",
+     "Smith"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-fg-pct-leaders",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who has led the NBA in field goal percentage for a season (1946-47 to 2025-26)",
+   "answers": [
+    [
+     "Shaquille O'Neal",
+     "O'Neal"
+    ],
+    [
+     "Wilt Chamberlain",
+     "Chamberlain"
+    ],
+    [
+     "DeAndre Jordan",
+     "Jordan"
+    ],
+    [
+     "Rudy Gobert",
+     "Gobert"
+    ],
+    [
+     "Artis Gilmore",
+     "Gilmore"
+    ],
+    [
+     "Neil Johnston",
+     "Johnston"
+    ],
+    [
+     "Gheorghe Mureșan",
+     "Mureșan"
+    ],
+    [
+     "Buck Williams",
+     "Williams"
+    ],
+    [
+     "Kevin McHale",
+     "McHale"
+    ],
+    [
+     "Cedric Maxwell",
+     "Maxwell"
+    ],
+    [
+     "Johnny Green",
+     "Green"
+    ],
+    [
+     "Ken Sears",
+     "Sears"
+    ],
+    [
+     "Ed Macauley",
+     "Macauley"
+    ],
+    [
+     "Alex Groza",
+     "Groza"
+    ],
+    [
+     "Jarrett Allen",
+     "Allen"
+    ],
+    [
+     "Daniel Gafford",
+     "Gafford"
+    ],
+    [
+     "Nic Claxton",
+     "Claxton"
+    ],
+    [
+     "Mitchell Robinson",
+     "Robinson"
+    ],
+    [
+     "Clint Capela",
+     "Capela"
+    ],
+    [
+     "Tyson Chandler",
+     "Chandler"
+    ],
+    "Nenê",
+    [
+     "Dwight Howard",
+     "Howard"
+    ],
+    [
+     "Andris Biedriņš",
+     "Biedriņš"
+    ],
+    [
+     "Mikki Moore",
+     "Moore"
+    ],
+    [
+     "Eddy Curry",
+     "Curry"
+    ],
+    [
+     "Chris Gatling",
+     "Gatling"
+    ],
+    [
+     "Cedric Ceballos",
+     "Ceballos"
+    ],
+    [
+     "Mark West",
+     "West"
+    ],
+    [
+     "Dennis Rodman",
+     "Rodman"
+    ],
+    [
+     "Steve Johnson",
+     "Johnson"
+    ],
+    [
+     "James Donaldson",
+     "Donaldson"
+    ],
+    [
+     "Bobby Jones",
+     "Jones"
+    ],
+    [
+     "Kareem Abdul-Jabbar",
+     "Abdul-Jabbar"
+    ],
+    [
+     "Wes Unseld",
+     "Unseld"
+    ],
+    [
+     "John Shumate",
+     "Shumate"
+    ],
+    [
+     "Don Nelson",
+     "Nelson"
+    ],
+    [
+     "Bob McAdoo",
+     "McAdoo"
+    ],
+    [
+     "Jerry Lucas",
+     "Lucas"
+    ],
+    [
+     "Walt Bellamy",
+     "Bellamy"
+    ],
+    [
+     "Jack Twyman",
+     "Twyman"
+    ],
+    [
+     "Larry Foust",
+     "Foust"
+    ],
+    [
+     "Paul Arizin",
+     "Arizin"
+    ],
+    [
+     "Arnie Risen",
+     "Risen"
+    ],
+    [
+     "Buddy Jeannette",
+     "Jeannette"
+    ],
+    [
+     "Bob Feerick",
+     "Feerick"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "nba-g-ft-pct-leaders",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who has led the NBA in free throw percentage for a season (1946-47 to 2025-26)",
+   "answers": [
+    [
+     "Bill Sharman",
+     "Sharman"
+    ],
+    [
+     "Rick Barry",
+     "Barry"
+    ],
+    [
+     "Stephen Curry",
+     "Curry"
+    ],
+    [
+     "Reggie Miller",
+     "Miller"
+    ],
+    [
+     "Larry Bird",
+     "Bird"
+    ],
+    [
+     "Mark Price",
+     "Price"
+    ],
+    [
+     "Dolph Schayes",
+     "Schayes"
+    ],
+    [
+     "Steve Nash",
+     "Nash"
+    ],
+    [
+     "Peja Stojaković",
+     "Stojaković"
+    ],
+    [
+     "Mahmoud Abdul-Rauf",
+     "Abdul-Rauf"
+    ],
+    [
+     "Kyle Macy",
+     "Macy"
+    ],
+    [
+     "Calvin Murphy",
+     "Murphy"
+    ],
+    [
+     "Ernie DiGregorio",
+     "DiGregorio"
+    ],
+    [
+     "Larry Siegfried",
+     "Siegfried"
+    ],
+    [
+     "Oscar Robertson",
+     "Robertson"
+    ],
+    [
+     "Larry Costello",
+     "Costello"
+    ],
+    [
+     "Bob Feerick",
+     "Feerick"
+    ],
+    [
+     "Cam Spencer",
+     "Spencer"
+    ],
+    [
+     "Klay Thompson",
+     "Thompson"
+    ],
+    [
+     "Tyler Herro",
+     "Herro"
+    ],
+    [
+     "Jordan Poole",
+     "Poole"
+    ],
+    [
+     "Chris Paul",
+     "Paul"
+    ],
+    [
+     "Brad Wanamaker",
+     "Wanamaker"
+    ],
+    [
+     "Malcolm Brogdon",
+     "Brogdon"
+    ],
+    [
+     "CJ McCollum",
+     "McCollum"
+    ],
+    [
+     "Brian Roberts",
+     "Roberts"
+    ],
+    [
+     "Kevin Durant",
+     "Durant"
+    ],
+    [
+     "Jamal Crawford",
+     "Crawford"
+    ],
+    [
+     "José Calderón",
+     "Calderón"
+    ],
+    [
+     "Kyle Korver",
+     "Korver"
+    ],
+    [
+     "Allan Houston",
+     "Houston"
+    ],
+    [
+     "Jeff Hornacek",
+     "Hornacek"
+    ],
+    [
+     "Chris Mullin",
+     "Mullin"
+    ],
+    [
+     "Spud Webb",
+     "Webb"
+    ],
+    [
+     "Magic Johnson",
+     "Johnson"
+    ],
+    [
+     "Jack Sikma",
+     "Sikma"
+    ],
+    [
+     "Jack Marin",
+     "Marin"
+    ],
+    [
+     "Chet Walker",
+     "Walker"
+    ],
+    [
+     "Flynn Robinson",
+     "Robinson"
+    ],
+    [
+     "Adrian Smith",
+     "Smith"
+    ],
+    [
+     "Bobby Wanzer",
+     "Wanzer"
+    ],
+    [
+     "Joe Fulks",
+     "Fulks"
+    ],
+    [
+     "Max Zaslofsky",
+     "Zaslofsky"
+    ],
+    [
+     "Fred Scolari",
+     "Scolari"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-ft-made-top25",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player in the top 25 for career NBA regular-season free throws made (as of the end of the 2025-26 season, ties included)",
+   "answers": [
+    "Karl Malone",
+    [
+     "LeBron James",
+     "James"
+    ],
+    [
+     "James Harden",
+     "Harden"
+    ],
+    "Moses Malone",
+    [
+     "Kobe Bryant",
+     "Bryant"
+    ],
+    [
+     "Kevin Durant",
+     "Durant"
+    ],
+    [
+     "Oscar Robertson",
+     "Robertson"
+    ],
+    [
+     "Michael Jordan",
+     "Jordan"
+    ],
+    [
+     "Dirk Nowitzki",
+     "Nowitzki"
+    ],
+    [
+     "Jerry West",
+     "West"
+    ],
+    [
+     "DeMar DeRozan",
+     "DeRozan"
+    ],
+    [
+     "Paul Pierce",
+     "Pierce"
+    ],
+    [
+     "Adrian Dantley",
+     "Dantley"
+    ],
+    [
+     "Kareem Abdul-Jabbar",
+     "Abdul-Jabbar"
+    ],
+    [
+     "Dolph Schayes",
+     "Schayes"
+    ],
+    [
+     "Allen Iverson",
+     "Iverson"
+    ],
+    [
+     "Charles Barkley",
+     "Barkley"
+    ],
+    [
+     "Carmelo Anthony",
+     "Anthony"
+    ],
+    [
+     "Reggie Miller",
+     "Miller"
+    ],
+    [
+     "Bob Pettit",
+     "Pettit"
+    ],
+    [
+     "Russell Westbrook",
+     "Westbrook"
+    ],
+    [
+     "Wilt Chamberlain",
+     "Chamberlain"
+    ],
+    [
+     "David Robinson",
+     "Robinson"
+    ],
+    [
+     "Dominique Wilkins",
+     "Wilkins"
+    ],
+    [
+     "Shaquille O'Neal",
+     "O'Neal"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-all-defensive-first",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player who has been named to the NBA All-Defensive First Team (1968-69 to 2025-26)",
+   "answers": [
+    [
+     "Kevin Garnett",
+     "Garnett"
+    ],
+    [
+     "Kobe Bryant",
+     "Bryant"
+    ],
+    [
+     "Gary Payton",
+     "Payton"
+    ],
+    "Michael Jordan",
+    [
+     "Rudy Gobert",
+     "Gobert"
+    ],
+    [
+     "Tim Duncan",
+     "Duncan"
+    ],
+    [
+     "Scottie Pippen",
+     "Pippen"
+    ],
+    "Bobby Jones",
+    [
+     "Chris Paul",
+     "Paul"
+    ],
+    [
+     "Dennis Rodman",
+     "Rodman"
+    ],
+    [
+     "Walt Frazier",
+     "Frazier"
+    ],
+    [
+     "Michael Cooper",
+     "Cooper"
+    ],
+    "Dennis Johnson",
+    [
+     "Dave DeBusschere",
+     "DeBusschere"
+    ],
+    [
+     "Draymond Green",
+     "Green"
+    ],
+    [
+     "LeBron James",
+     "James"
+    ],
+    [
+     "Bruce Bowen",
+     "Bowen"
+    ],
+    "Ben Wallace",
+    [
+     "Hakeem Olajuwon",
+     "Olajuwon"
+    ],
+    [
+     "Kareem Abdul-Jabbar",
+     "Abdul-Jabbar"
+    ],
+    [
+     "John Havlicek",
+     "Havlicek"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Antetokounmpo"
+    ],
+    [
+     "Dwight Howard",
+     "Howard"
+    ],
+    [
+     "Jason Kidd",
+     "Kidd"
+    ],
+    [
+     "David Robinson",
+     "Robinson"
+    ],
+    [
+     "Joe Dumars",
+     "Dumars"
+    ],
+    [
+     "Maurice Cheeks",
+     "Cheeks"
+    ],
+    [
+     "Sidney Moncrief",
+     "Moncrief"
+    ],
+    [
+     "Don Buse",
+     "Buse"
+    ],
+    [
+     "Jerry Sloan",
+     "Sloan"
+    ],
+    [
+     "Jerry West",
+     "West"
+    ],
+    [
+     "Anthony Davis",
+     "Davis"
+    ],
+    [
+     "Jrue Holiday",
+     "Holiday"
+    ],
+    [
+     "Marcus Smart",
+     "Smart"
+    ],
+    [
+     "Kawhi Leonard",
+     "Leonard"
+    ],
+    [
+     "Tony Allen",
+     "Allen"
+    ],
+    [
+     "Serge Ibaka",
+     "Ibaka"
+    ],
+    [
+     "Dikembe Mutombo",
+     "Mutombo"
+    ],
+    "Karl Malone",
+    [
+     "Mark Eaton",
+     "Eaton"
+    ],
+    [
+     "Kevin McHale",
+     "McHale"
+    ],
+    [
+     "Dan Roundfield",
+     "Roundfield"
+    ],
+    [
+     "Norm Van Lier",
+     "Lier"
+    ],
+    [
+     "Victor Wembanyama",
+     "Wembanyama"
+    ],
+    [
+     "Evan Mobley",
+     "Mobley"
+    ],
+    [
+     "Jaren Jackson Jr.",
+     "Jackson",
+     "Jaren Jackson"
+    ],
+    [
+     "Ben Simmons",
+     "Simmons"
+    ],
+    [
+     "Paul George",
+     "George"
+    ],
+    "DeAndre Jordan",
+    [
+     "Joakim Noah",
+     "Noah"
+    ],
+    [
+     "Rajon Rondo",
+     "Rondo"
+    ],
+    [
+     "Marcus Camby",
+     "Camby"
+    ],
+    [
+     "Ron Artest",
+     "Artest"
+    ],
+    [
+     "Alonzo Mourning",
+     "Mourning"
+    ],
+    [
+     "Mookie Blaylock",
+     "Blaylock"
+    ],
+    [
+     "Buck Williams",
+     "Williams"
+    ],
+    [
+     "Alvin Robertson",
+     "Robertson"
+    ],
+    [
+     "Paul Pressey",
+     "Pressey"
+    ],
+    "Caldwell Jones",
+    [
+     "Micheal Ray Richardson",
+     "Richardson"
+    ],
+    [
+     "Bill Walton",
+     "Walton"
+    ],
+    [
+     "Paul Silas",
+     "Silas"
+    ],
+    [
+     "Wilt Chamberlain",
+     "Chamberlain"
+    ],
+    [
+     "Nate Thurmond",
+     "Thurmond"
+    ],
+    "Gus Johnson",
+    [
+     "Derrick White",
+     "White"
+    ],
+    "Ausar Thompson",
+    [
+     "Chet Holmgren",
+     "Holmgren"
+    ],
+    "Amen Thompson",
+    [
+     "Luguentz Dort",
+     "Dort"
+    ],
+    [
+     "Dyson Daniels",
+     "Daniels"
+    ],
+    "Herbert Jones",
+    [
+     "Bam Adebayo",
+     "Adebayo"
+    ],
+    [
+     "Alex Caruso",
+     "Caruso"
+    ],
+    [
+     "Brook Lopez",
+     "Lopez"
+    ],
+    [
+     "Mikal Bridges",
+     "Bridges"
+    ],
+    [
+     "Eric Bledsoe",
+     "Bledsoe"
+    ],
+    [
+     "Robert Covington",
+     "Covington"
+    ],
+    [
+     "Victor Oladipo",
+     "Oladipo"
+    ],
+    [
+     "Patrick Beverley",
+     "Beverley"
+    ],
+    [
+     "Avery Bradley",
+     "Bradley"
+    ],
+    [
+     "Andre Iguodala",
+     "Iguodala"
+    ],
+    [
+     "Tyson Chandler",
+     "Chandler"
+    ],
+    "Gerald Wallace",
+    [
+     "Raja Bell",
+     "Bell"
+    ],
+    [
+     "Andrei Kirilenko",
+     "Kirilenko"
+    ],
+    [
+     "Dwyane Wade",
+     "Wade"
+    ],
+    [
+     "Larry Hughes",
+     "Hughes"
+    ],
+    [
+     "Doug Christie",
+     "Christie"
+    ],
+    [
+     "Charles Oakley",
+     "Oakley"
+    ],
+    [
+     "Larry Nance",
+     "Nance"
+    ],
+    [
+     "Patrick Ewing",
+     "Ewing"
+    ],
+    [
+     "Rodney McCray",
+     "McCray"
+    ],
+    [
+     "Wayne Rollins",
+     "Rollins"
+    ],
+    "Moses Malone",
+    [
+     "Bob Dandridge",
+     "Dandridge"
+    ],
+    [
+     "Lionel Hollins",
+     "Hollins"
+    ],
+    [
+     "Artis Gilmore",
+     "Gilmore"
+    ],
+    [
+     "Maurice Lucas",
+     "Lucas"
+    ],
+    [
+     "E. C. Coleman",
+     "Coleman"
+    ],
+    [
+     "Don Watts",
+     "Watts"
+    ],
+    [
+     "Dave Cowens",
+     "Cowens"
+    ],
+    [
+     "Willis Reed",
+     "Reed"
+    ],
+    [
+     "Bill Russell",
+     "Russell"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-allstar-game-mvp",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player who has won the NBA All-Star Game MVP award (1951 to 2026)",
+   "answers": [
+    [
+     "Kobe Bryant",
+     "Bryant"
+    ],
+    [
+     "Bob Pettit",
+     "Pettit"
+    ],
+    [
+     "LeBron James",
+     "James"
+    ],
+    [
+     "Shaquille O'Neal",
+     "O'Neal"
+    ],
+    [
+     "Michael Jordan",
+     "Jordan"
+    ],
+    [
+     "Oscar Robertson",
+     "Robertson"
+    ],
+    [
+     "Stephen Curry",
+     "Curry"
+    ],
+    [
+     "Kevin Durant",
+     "Durant"
+    ],
+    [
+     "Russell Westbrook",
+     "Westbrook"
+    ],
+    [
+     "Allen Iverson",
+     "Iverson"
+    ],
+    [
+     "Karl Malone",
+     "Malone"
+    ],
+    [
+     "Magic Johnson",
+     "Johnson"
+    ],
+    [
+     "Isiah Thomas",
+     "Thomas"
+    ],
+    [
+     "Julius Erving",
+     "Erving"
+    ],
+    [
+     "Bob Cousy",
+     "Cousy"
+    ],
+    [
+     "Anthony Edwards",
+     "Edwards"
+    ],
+    [
+     "Damian Lillard",
+     "Lillard"
+    ],
+    [
+     "Jayson Tatum",
+     "Tatum"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Antetokounmpo"
+    ],
+    [
+     "Kawhi Leonard",
+     "Leonard"
+    ],
+    [
+     "Anthony Davis",
+     "Davis"
+    ],
+    [
+     "Kyrie Irving",
+     "Irving"
+    ],
+    [
+     "Chris Paul",
+     "Paul"
+    ],
+    [
+     "Dwyane Wade",
+     "Wade"
+    ],
+    [
+     "Kevin Garnett",
+     "Garnett"
+    ],
+    [
+     "Tim Duncan",
+     "Duncan"
+    ],
+    [
+     "Glen Rice",
+     "Rice"
+    ],
+    [
+     "Mitch Richmond",
+     "Richmond"
+    ],
+    [
+     "Scottie Pippen",
+     "Pippen"
+    ],
+    [
+     "John Stockton",
+     "Stockton"
+    ],
+    [
+     "Charles Barkley",
+     "Barkley"
+    ],
+    [
+     "Tom Chambers",
+     "Chambers"
+    ],
+    [
+     "Ralph Sampson",
+     "Sampson"
+    ],
+    [
+     "Larry Bird",
+     "Bird"
+    ],
+    [
+     "Nate Archibald",
+     "Archibald"
+    ],
+    [
+     "George Gervin",
+     "Gervin"
+    ],
+    [
+     "David Thompson",
+     "Thompson"
+    ],
+    "Randy Smith",
+    [
+     "Dave Bing",
+     "Bing"
+    ],
+    [
+     "Walt Frazier",
+     "Frazier"
+    ],
+    [
+     "Bob Lanier",
+     "Lanier"
+    ],
+    [
+     "Dave Cowens",
+     "Cowens"
+    ],
+    [
+     "Jerry West",
+     "West"
+    ],
+    [
+     "Lenny Wilkens",
+     "Wilkens"
+    ],
+    [
+     "Willis Reed",
+     "Reed"
+    ],
+    [
+     "Hal Greer",
+     "Greer"
+    ],
+    [
+     "Rick Barry",
+     "Barry"
+    ],
+    "Adrian Smith",
+    [
+     "Jerry Lucas",
+     "Lucas"
+    ],
+    [
+     "Bill Russell",
+     "Russell"
+    ],
+    [
+     "Wilt Chamberlain",
+     "Chamberlain"
+    ],
+    [
+     "Elgin Baylor",
+     "Baylor"
+    ],
+    [
+     "Bill Sharman",
+     "Sharman"
+    ],
+    [
+     "George Mikan",
+     "Mikan"
+    ],
+    [
+     "Paul Arizin",
+     "Arizin"
+    ],
+    [
+     "Ed Macauley",
+     "Macauley"
+    ]
+   ]
+  },
+  {
+   "id": "nba-g-all-rookie-first-2016-2026",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player who made the NBA All-Rookie First Team between 2015-16 and 2025-26",
+   "answers": [
+    [
+     "Cedric Coward",
+     "Coward"
+    ],
+    [
+     "Dylan Harper",
+     "Harper"
+    ],
+    [
+     "V. J. Edgecombe",
+     "Edgecombe"
+    ],
+    [
+     "Kon Knueppel",
+     "Knueppel"
+    ],
+    [
+     "Cooper Flagg",
+     "Flagg"
+    ],
+    [
+     "Jaylen Wells",
+     "Wells"
+    ],
+    [
+     "Alex Sarr",
+     "Sarr"
+    ],
+    [
+     "Zaccharie Risacher",
+     "Risacher"
+    ],
+    [
+     "Zach Edey",
+     "Edey"
+    ],
+    [
+     "Stephon Castle",
+     "Castle"
+    ],
+    [
+     "Brandin Podziemski",
+     "Podziemski"
+    ],
+    [
+     "Jaime Jaquez Jr.",
+     "Jaquez",
+     "Jaime Jaquez"
+    ],
+    [
+     "Brandon Miller",
+     "Miller"
+    ],
+    [
+     "Chet Holmgren",
+     "Holmgren"
+    ],
+    [
+     "Victor Wembanyama",
+     "Wembanyama"
+    ],
+    [
+     "Jalen Williams",
+     "Williams"
+    ],
+    [
+     "Keegan Murray",
+     "Murray"
+    ],
+    [
+     "Bennedict Mathurin",
+     "Mathurin"
+    ],
+    [
+     "Walker Kessler",
+     "Kessler"
+    ],
+    [
+     "Paolo Banchero",
+     "Banchero"
+    ],
+    [
+     "Jalen Green",
+     "Green"
+    ],
+    [
+     "Franz Wagner",
+     "Wagner"
+    ],
+    [
+     "Cade Cunningham",
+     "Cunningham"
+    ],
+    [
+     "Evan Mobley",
+     "Mobley"
+    ],
+    [
+     "Scottie Barnes",
+     "Barnes"
+    ],
+    [
+     "Jae'Sean Tate",
+     "Tate"
+    ],
+    [
+     "Saddiq Bey",
+     "Bey"
+    ],
+    [
+     "Tyrese Haliburton",
+     "Haliburton"
+    ],
+    [
+     "Anthony Edwards",
+     "Edwards"
+    ],
+    [
+     "LaMelo Ball",
+     "Ball"
+    ],
+    [
+     "Eric Paschall",
+     "Paschall"
+    ],
+    [
+     "Zion Williamson",
+     "Williamson"
+    ],
+    [
+     "Brandon Clarke",
+     "Clarke"
+    ],
+    [
+     "Kendrick Nunn",
+     "Nunn"
+    ],
+    [
+     "Ja Morant",
+     "Morant"
+    ],
+    [
+     "Marvin Bagley III",
+     "Bagley",
+     "Marvin Bagley"
+    ],
+    [
+     "Jaren Jackson Jr.",
+     "Jackson",
+     "Jaren Jackson"
+    ],
+    [
+     "Deandre Ayton",
+     "Ayton"
+    ],
+    [
+     "Trae Young",
+     "Young"
+    ],
+    [
+     "Luka Dončić",
+     "Dončić"
+    ],
+    [
+     "Lauri Markkanen",
+     "Markkanen"
+    ],
+    [
+     "Kyle Kuzma",
+     "Kuzma"
+    ],
+    [
+     "Jayson Tatum",
+     "Tatum"
+    ],
+    [
+     "Donovan Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Ben Simmons",
+     "Simmons"
+    ],
+    [
+     "Willy Hernangómez",
+     "Hernangómez"
+    ],
+    [
+     "Buddy Hield",
+     "Hield"
+    ],
+    [
+     "Joel Embiid",
+     "Embiid"
+    ],
+    [
+     "Dario Šarić",
+     "Šarić"
+    ],
+    [
+     "Malcolm Brogdon",
+     "Brogdon"
+    ],
+    [
+     "Jahlil Okafor",
+     "Okafor"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokić"
+    ],
+    [
+     "Devin Booker",
+     "Booker"
+    ],
+    [
+     "Kristaps Porziņģis",
+     "Porziņģis"
+    ],
+    [
+     "Karl-Anthony Towns",
+     "Towns"
+    ]
+   ],
+   "deep": true
+  }
+ ]
+}
