@@ -1,0 +1,4064 @@
+{
+ "cat": "science",
+ "prompts": [
+  {
+   "id": "xn3-space-galaxies",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a galaxy (by its common name or Messier name)",
+   "answers": [
+    "Milky Way",
+    [
+     "Andromeda",
+     "Andromeda Galaxy",
+     "M31"
+    ],
+    [
+     "Triangulum",
+     "Triangulum Galaxy",
+     "M33"
+    ],
+    [
+     "Large Magellanic Cloud",
+     "LMC"
+    ],
+    [
+     "Small Magellanic Cloud",
+     "SMC"
+    ],
+    [
+     "Whirlpool",
+     "Whirlpool Galaxy",
+     "M51"
+    ],
+    [
+     "Sombrero",
+     "Sombrero Galaxy",
+     "M104"
+    ],
+    [
+     "Pinwheel",
+     "Pinwheel Galaxy",
+     "M101"
+    ],
+    [
+     "Cartwheel",
+     "Cartwheel Galaxy"
+    ],
+    [
+     "Messier 87",
+     "M87",
+     "Virgo A"
+    ],
+    [
+     "Centaurus A",
+     "Centaurus"
+    ],
+    [
+     "Cigar",
+     "Cigar Galaxy",
+     "M82"
+    ],
+    [
+     "Black Eye",
+     "Black Eye Galaxy",
+     "M64"
+    ],
+    [
+     "Sunflower",
+     "Sunflower Galaxy",
+     "M63"
+    ],
+    [
+     "Tadpole",
+     "Tadpole Galaxy"
+    ],
+    [
+     "Antennae",
+     "Antennae Galaxies"
+    ],
+    [
+     "Bode's Galaxy",
+     "Bodes Galaxy",
+     "M81"
+    ],
+    [
+     "Sculptor",
+     "Sculptor Galaxy"
+    ],
+    [
+     "Hoag's Object",
+     "Hoags Object"
+    ],
+    "Comet Galaxy",
+    [
+     "Southern Pinwheel",
+     "M83"
+    ],
+    [
+     "Fireworks Galaxy",
+     "NGC 6946"
+    ],
+    [
+     "Mice Galaxies",
+     "The Mice"
+    ],
+    [
+     "Circinus Galaxy",
+     "Circinus"
+    ],
+    "IC 1101",
+    "Sagittarius Dwarf",
+    "Canis Major Dwarf",
+    "Fornax Dwarf",
+    "Needle Galaxy",
+    "Spindle Galaxy",
+    "Backward Galaxy",
+    [
+     "Eye of Sauron",
+     "NGC 4151"
+    ],
+    [
+     "Cosmos Redshift 7",
+     "CR7"
+    ],
+    "Condor Galaxy",
+    "Cygnus A"
+   ]
+  },
+  {
+   "id": "xn3-space-star-types",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a type of star or stellar remnant",
+   "answers": [
+    "Red giant",
+    "White dwarf",
+    "Neutron star",
+    "Pulsar",
+    "Black hole",
+    "Supernova",
+    "Brown dwarf",
+    "Red dwarf",
+    "Blue giant",
+    [
+     "Main sequence star",
+     "Main sequence"
+    ],
+    "Protostar",
+    "Magnetar",
+    [
+     "Binary star",
+     "Binary"
+    ],
+    "Variable star",
+    [
+     "T Tauri star",
+     "T Tauri"
+    ],
+    "Supergiant",
+    "Red supergiant",
+    "Blue supergiant",
+    "Hypergiant",
+    "Yellow dwarf",
+    [
+     "Cepheid",
+     "Cepheid variable"
+    ],
+    [
+     "Wolf-Rayet star",
+     "Wolf Rayet"
+    ],
+    "Carbon star",
+    "Subdwarf",
+    "Black dwarf",
+    "Blue straggler",
+    "Nova",
+    "Hypernova",
+    "Quark star",
+    "Triple star",
+    "Eclipsing binary",
+    "Flare star",
+    [
+     "Mira variable",
+     "Mira"
+    ],
+    "Blue dwarf",
+    "Orange dwarf"
+   ]
+  },
+  {
+   "id": "xn3-space-rockets",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a rocket or launch vehicle (any country, past or present)",
+   "answers": [
+    [
+     "Saturn V",
+     "Saturn 5"
+    ],
+    "Falcon 9",
+    "Falcon Heavy",
+    "Ariane 5",
+    "Ariane 6",
+    "Ariane 4",
+    "Ariane",
+    [
+     "Soyuz",
+     "Soyuz rocket"
+    ],
+    [
+     "Atlas V",
+     "Atlas"
+    ],
+    [
+     "Delta IV",
+     "Delta"
+    ],
+    [
+     "Titan",
+     "Titan II",
+     "Titan IV"
+    ],
+    "Proton",
+    "Vostok",
+    [
+     "Long March",
+     "Chang Zheng"
+    ],
+    "Vega",
+    "New Shepard",
+    "Starship",
+    [
+     "SLS",
+     "Space Launch System"
+    ],
+    "Electron",
+    "Black Arrow",
+    "Redstone",
+    [
+     "Jupiter-C",
+     "Jupiter C"
+    ],
+    [
+     "Energia",
+     "Energiya"
+    ],
+    "Zenit",
+    [
+     "H-IIA",
+     "H2A"
+    ],
+    "H3",
+    "PSLV",
+    "GSLV",
+    "Antares",
+    "Minotaur",
+    [
+     "Vulcan",
+     "Vulcan Centaur"
+    ],
+    "New Glenn",
+    [
+     "Space Shuttle",
+     "Shuttle"
+    ],
+    "Pegasus",
+    "Delta II",
+    "Thor",
+    "Scout",
+    "Saturn I",
+    [
+     "Saturn IB",
+     "Saturn 1B"
+    ],
+    [
+     "V-2",
+     "V2"
+    ],
+    "Europa",
+    "Diamant",
+    "Black Knight",
+    "Blue Streak",
+    "Angara",
+    "N1",
+    [
+     "R-7",
+     "R7",
+     "Semyorka"
+    ],
+    "Rokot",
+    "Dnepr",
+    "Cyclone",
+    "Taurus",
+    "Ares I",
+    "Neutron",
+    "Terran",
+    [
+     "Firefly Alpha",
+     "Alpha"
+    ],
+    "Epsilon",
+    "Mu",
+    [
+     "Launcher One",
+     "LauncherOne"
+    ],
+    "Skylark",
+    "Vanguard",
+    "Juno I",
+    "Juno II",
+    "Atlas-Agena",
+    "Mercury-Redstone",
+    "Titan IIIE",
+    "Zhuque-2",
+    "Kuaizhou",
+    "Kinetica",
+    "Gravity-1",
+    "Lambda",
+    "Eris",
+    "Spectrum",
+    [
+     "Orbex Prime",
+     "Prime"
+    ],
+    "Skyrora",
+    "Rocket 3",
+    "Cosmos",
+    "Kosmos",
+    "Molniya",
+    "Voskhod",
+    "Tsyklon",
+    "Unha",
+    "Nuri",
+    "Simorgh",
+    "Safir"
+   ]
+  },
+  {
+   "id": "xn3-space-astronomers",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a famous astronomer or astrophysicist",
+   "answers": [
+    [
+     "Galileo",
+     "Galileo Galilei"
+    ],
+    [
+     "Copernicus",
+     "Nicolaus Copernicus"
+    ],
+    [
+     "Kepler",
+     "Johannes Kepler"
+    ],
+    [
+     "Hubble",
+     "Edwin Hubble"
+    ],
+    [
+     "William Herschel",
+     "Herschel"
+    ],
+    "Caroline Herschel",
+    [
+     "Halley",
+     "Edmond Halley"
+    ],
+    [
+     "Tycho Brahe",
+     "Tycho"
+    ],
+    [
+     "Carl Sagan",
+     "Sagan"
+    ],
+    [
+     "Patrick Moore",
+     "Moore"
+    ],
+    "Ptolemy",
+    [
+     "Newton",
+     "Isaac Newton"
+    ],
+    [
+     "Cassini",
+     "Giovanni Cassini"
+    ],
+    [
+     "Huygens",
+     "Christiaan Huygens"
+    ],
+    [
+     "Messier",
+     "Charles Messier"
+    ],
+    [
+     "Percival Lowell",
+     "Lowell"
+    ],
+    [
+     "Clyde Tombaugh",
+     "Tombaugh"
+    ],
+    [
+     "Henrietta Leavitt",
+     "Leavitt"
+    ],
+    [
+     "Annie Jump Cannon",
+     "Cannon"
+    ],
+    [
+     "Cecilia Payne",
+     "Payne",
+     "Cecilia Payne-Gaposchkin"
+    ],
+    [
+     "Jocelyn Bell Burnell",
+     "Bell Burnell",
+     "Jocelyn Bell"
+    ],
+    [
+     "Arthur Eddington",
+     "Eddington"
+    ],
+    [
+     "Laplace",
+     "Pierre-Simon Laplace"
+    ],
+    [
+     "Fred Hoyle",
+     "Hoyle"
+    ],
+    "Aristarchus",
+    "Hipparchus",
+    [
+     "Stephen Hawking",
+     "Hawking"
+    ],
+    [
+     "Vera Rubin",
+     "Rubin"
+    ],
+    [
+     "John Flamsteed",
+     "Flamsteed"
+    ],
+    [
+     "Jeremiah Horrocks",
+     "Horrocks"
+    ],
+    [
+     "Giordano Bruno",
+     "Bruno"
+    ],
+    [
+     "Ole Rømer",
+     "Ole Romer",
+     "Romer"
+    ],
+    [
+     "Johannes Hevelius",
+     "Hevelius"
+    ],
+    [
+     "George Ellery Hale",
+     "Hale"
+    ],
+    [
+     "Harlow Shapley",
+     "Shapley"
+    ],
+    [
+     "Karl Jansky",
+     "Jansky"
+    ],
+    [
+     "Arno Penzias",
+     "Penzias"
+    ],
+    [
+     "Subrahmanyan Chandrasekhar",
+     "Chandrasekhar"
+    ],
+    [
+     "Frank Drake",
+     "Drake"
+    ],
+    [
+     "Gerard Kuiper",
+     "Kuiper"
+    ],
+    [
+     "Jan Oort",
+     "Oort"
+    ],
+    [
+     "Fritz Zwicky",
+     "Zwicky"
+    ],
+    [
+     "Walter Baade",
+     "Baade"
+    ],
+    "Brian Cox",
+    [
+     "Maggie Aderin-Pocock",
+     "Aderin-Pocock"
+    ],
+    [
+     "Neil deGrasse Tyson",
+     "Tyson"
+    ],
+    "Edwin Salpeter",
+    [
+     "Martin Rees",
+     "Rees"
+    ],
+    [
+     "Heber Curtis",
+     "Curtis"
+    ],
+    [
+     "Williamina Fleming",
+     "Fleming"
+    ],
+    "Maria Mitchell",
+    [
+     "Bernard Lovell",
+     "Lovell"
+    ],
+    [
+     "Antony Hewish",
+     "Hewish"
+    ],
+    [
+     "Martin Ryle",
+     "Ryle"
+    ],
+    "Simon Newcomb",
+    [
+     "Nicolas-Louis de Lacaille",
+     "Lacaille"
+    ],
+    [
+     "Ejnar Hertzsprung",
+     "Hertzsprung"
+    ],
+    "Henry Norris Russell",
+    "Al-Sufi",
+    "Ulugh Beg",
+    "Thomas Wright",
+    [
+     "William Lassell",
+     "Lassell"
+    ],
+    [
+     "John Couch Adams",
+     "Adams"
+    ],
+    [
+     "Urbain Le Verrier",
+     "Le Verrier"
+    ],
+    [
+     "Johann Galle",
+     "Galle"
+    ]
+   ]
+  },
+  {
+   "id": "xn3-space-comet-asteroid-missions",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a space mission sent to a comet or asteroid (launched by 2025)",
+   "answers": [
+    "Rosetta",
+    "Philae",
+    "Giotto",
+    "Deep Impact",
+    [
+     "Stardust",
+     "Stardust-NExT"
+    ],
+    "Hayabusa",
+    [
+     "Hayabusa2",
+     "Hayabusa 2"
+    ],
+    [
+     "NEAR Shoemaker",
+     "NEAR"
+    ],
+    "Dawn",
+    [
+     "OSIRIS-REx",
+     "OSIRIS REx",
+     "OSIRIS-APEX"
+    ],
+    "Lucy",
+    [
+     "DART",
+     "Double Asteroid Redirection Test"
+    ],
+    "Psyche",
+    "Vega 1",
+    "Vega 2",
+    "Sakigake",
+    "Suisei",
+    [
+     "ICE",
+     "International Cometary Explorer",
+     "ISEE-3"
+    ],
+    "Hera",
+    [
+     "Tianwen-2",
+     "Tianwen 2"
+    ],
+    "Deep Space 1",
+    "EPOXI",
+    "CONTOUR",
+    "Chang'e 2",
+    "MINERVA",
+    "MASCOT",
+    "LICIACube"
+   ]
+  },
+  {
+   "id": "xn3-space-esa-craft",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a spacecraft, probe or observatory launched by (or with) the European Space Agency or its predecessors",
+   "answers": [
+    "Giotto",
+    "Huygens",
+    "Rosetta",
+    "Philae",
+    "Mars Express",
+    "Venus Express",
+    "Beagle 2",
+    "SMART-1",
+    "Hipparcos",
+    "Gaia",
+    "Herschel",
+    "Planck",
+    "Cluster",
+    "Ulysses",
+    "Solar Orbiter",
+    "BepiColombo",
+    [
+     "JUICE",
+     "Jupiter Icy Moons Explorer"
+    ],
+    "Schiaparelli",
+    [
+     "ExoMars Trace Gas Orbiter",
+     "Trace Gas Orbiter",
+     "ExoMars"
+    ],
+    "Hera",
+    "Euclid",
+    "Proba",
+    [
+     "ISO",
+     "Infrared Space Observatory"
+    ],
+    [
+     "XMM-Newton",
+     "XMM Newton"
+    ],
+    "INTEGRAL",
+    "CHEOPS",
+    "SOHO",
+    "Swarm",
+    "CryoSat",
+    "Sentinel",
+    "Envisat",
+    "ERS",
+    [
+     "Galileo",
+     "Galileo satellites"
+    ],
+    "Columbus",
+    "Spacelab",
+    "Meteosat",
+    "LISA Pathfinder",
+    "GOCE",
+    "Aeolus",
+    "EarthCARE",
+    "Biomass",
+    "Cassini-Huygens",
+    "Exosat",
+    "Cos-B",
+    [
+     "Hubble",
+     "Hubble Space Telescope"
+    ],
+    [
+     "James Webb Space Telescope",
+     "JWST",
+     "Webb"
+    ],
+    [
+     "ATV",
+     "Automated Transfer Vehicle",
+     "Jules Verne"
+    ]
+   ]
+  },
+  {
+   "id": "xn3-space-soviet-russian",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a Soviet or Russian spacecraft, probe or space station",
+   "answers": [
+    [
+     "Sputnik 1",
+     "Sputnik"
+    ],
+    "Sputnik 2",
+    [
+     "Luna",
+     "Luna programme"
+    ],
+    "Venera",
+    [
+     "Vostok 1",
+     "Vostok"
+    ],
+    "Voskhod",
+    "Soyuz",
+    "Salyut",
+    "Mir",
+    "Lunokhod",
+    "Zond",
+    [
+     "Mars 3",
+     "Mars programme"
+    ],
+    [
+     "Kosmos",
+     "Cosmos"
+    ],
+    "Vega",
+    "Phobos",
+    "Buran",
+    "Progress",
+    "Almaz",
+    "Molniya",
+    "Meteor",
+    "Zarya",
+    "Zvezda",
+    "Luna 25",
+    [
+     "Spektr-R",
+     "RadioAstron"
+    ],
+    "Kvant",
+    "Kristall",
+    "Elektro",
+    "Fobos-Grunt",
+    "Resurs",
+    "Gonets",
+    "Raduga",
+    "Ekran",
+    "Luch",
+    [
+     "GLONASS",
+     "Glonass"
+    ],
+    "Nauka",
+    "Prichal",
+    "Poisk",
+    "Rassvet",
+    "Pirs",
+    "Spektr",
+    "Priroda",
+    "Tselina",
+    "Strela",
+    "Yantar",
+    "Kobalt",
+    "Meteor-M",
+    "Arktika-M"
+   ]
+  },
+  {
+   "id": "xn3-space-named-asteroids",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a named asteroid (including ones visited by spacecraft)",
+   "answers": [
+    "Ceres",
+    "Vesta",
+    "Pallas",
+    "Hygiea",
+    "Juno",
+    "Eros",
+    "Bennu",
+    "Ryugu",
+    "Apophis",
+    "Itokawa",
+    "Ida",
+    "Gaspra",
+    "Mathilde",
+    "Psyche",
+    "Lutetia",
+    "Steins",
+    "Didymos",
+    "Dimorphos",
+    "Toutatis",
+    "Icarus",
+    "Kleopatra",
+    "Dactyl",
+    "Phaethon",
+    "Annefrank",
+    "Braille",
+    "Eugenia",
+    "Davida",
+    "Interamnia",
+    "Hektor",
+    "Achilles",
+    "Patroclus",
+    "Eurybates",
+    "Donaldjohanson",
+    "Dinkinesh",
+    "Selam",
+    "Sylvia",
+    "Camilla",
+    "Hidalgo",
+    "Adonis",
+    "Apollo",
+    "Aten",
+    "Amor",
+    "Hermes",
+    "Hebe",
+    "Iris",
+    "Flora",
+    "Metis",
+    "Eunomia",
+    "Astraea",
+    "Themis",
+    "Geographos",
+    [
+     "Kamo`oalewa",
+     "Kamooalewa"
+    ],
+    "Orpheus",
+    "Oljato",
+    "2008 TC3",
+    "1998 KY26",
+    "Rhea Silvia",
+    "Alinda"
+   ]
+  },
+  {
+   "id": "xn3-space-india-japan-china",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a space mission, spacecraft or space module launched by India, Japan or China",
+   "answers": [
+    [
+     "Chandrayaan-1",
+     "Chandrayaan 1"
+    ],
+    [
+     "Chandrayaan-2",
+     "Chandrayaan 2"
+    ],
+    [
+     "Chandrayaan-3",
+     "Chandrayaan 3",
+     "Chandrayaan"
+    ],
+    [
+     "Mangalyaan",
+     "Mars Orbiter Mission",
+     "MOM"
+    ],
+    [
+     "Aditya-L1",
+     "Aditya L1",
+     "Aditya"
+    ],
+    "AstroSat",
+    "XPoSat",
+    "Hayabusa",
+    [
+     "Hayabusa2",
+     "Hayabusa 2"
+    ],
+    [
+     "Kaguya",
+     "SELENE"
+    ],
+    [
+     "SLIM",
+     "Smart Lander for Investigating Moon"
+    ],
+    [
+     "Akatsuki",
+     "Venus Climate Orbiter"
+    ],
+    [
+     "IKAROS",
+     "Ikaros"
+    ],
+    "Nozomi",
+    "Hisaki",
+    "Hitomi",
+    [
+     "Chang'e 1",
+     "Chang'e-1"
+    ],
+    [
+     "Chang'e 2",
+     "Chang'e-2"
+    ],
+    [
+     "Chang'e 3",
+     "Chang'e-3"
+    ],
+    [
+     "Chang'e 4",
+     "Chang'e-4"
+    ],
+    [
+     "Chang'e 5",
+     "Chang'e-5"
+    ],
+    [
+     "Chang'e 6",
+     "Chang'e-6"
+    ],
+    [
+     "Tianwen-1",
+     "Tianwen 1"
+    ],
+    [
+     "Tianwen-2",
+     "Tianwen 2"
+    ],
+    [
+     "Shenzhou",
+     "Shenzhou 5"
+    ],
+    [
+     "Tiangong",
+     "Tiangong-1",
+     "Tiangong-2"
+    ],
+    [
+     "Yutu",
+     "Yutu-2",
+     "Jade Rabbit"
+    ],
+    "Zhurong",
+    [
+     "Tianhe",
+     "Tianhe-1"
+    ],
+    "Wentian",
+    "Mengtian",
+    "Tianzhou",
+    [
+     "Dongfanghong 1",
+     "Dong Fang Hong 1"
+    ],
+    "Shijian",
+    "Kibo",
+    [
+     "HTV",
+     "Kounotori",
+     "HTV-1"
+    ],
+    [
+     "Hinode",
+     "Solar-B"
+    ],
+    "Suzaku",
+    "Ginga",
+    "Hakucho",
+    "Cartosat",
+    "Oceansat",
+    "Insat",
+    "RISAT",
+    "Queqiao"
+   ]
+  },
+  {
+   "id": "xn3-space-observatories",
+   "tags": [
+    "space"
+   ],
+   "text": "Name an astronomical observatory or large telescope on Earth",
+   "answers": [
+    [
+     "Jodrell Bank",
+     "Lovell Telescope"
+    ],
+    [
+     "Royal Observatory Greenwich",
+     "Greenwich Observatory",
+     "Royal Observatory"
+    ],
+    "Mauna Kea",
+    [
+     "Palomar",
+     "Palomar Observatory",
+     "Hale Telescope"
+    ],
+    "Arecibo",
+    [
+     "Paranal",
+     "Very Large Telescope",
+     "VLT"
+    ],
+    [
+     "ALMA",
+     "Atacama Large Millimeter Array"
+    ],
+    [
+     "Mount Wilson",
+     "Hooker Telescope"
+    ],
+    [
+     "Lick",
+     "Lick Observatory"
+    ],
+    [
+     "Yerkes",
+     "Yerkes Observatory"
+    ],
+    "Kitt Peak",
+    [
+     "Parkes",
+     "Parkes Observatory",
+     "The Dish"
+    ],
+    "Green Bank",
+    "Effelsberg",
+    [
+     "Gran Telescopio Canarias",
+     "GTC"
+    ],
+    "Roque de los Muchachos",
+    [
+     "FAST",
+     "Five-hundred-metre Aperture Spherical Telescope"
+    ],
+    [
+     "Very Large Array",
+     "VLA"
+    ],
+    [
+     "Keck",
+     "Keck Observatory",
+     "W. M. Keck Observatory"
+    ],
+    [
+     "Gemini",
+     "Gemini Observatory"
+    ],
+    [
+     "Subaru",
+     "Subaru Telescope"
+    ],
+    [
+     "Lowell Observatory",
+     "Lowell"
+    ],
+    "Siding Spring",
+    "Cerro Tololo",
+    [
+     "Armagh Observatory",
+     "Armagh"
+    ],
+    "Herstmonceux",
+    "La Silla",
+    [
+     "Square Kilometre Array",
+     "SKA"
+    ],
+    [
+     "Vera C. Rubin Observatory",
+     "Rubin Observatory"
+    ],
+    "Allen Telescope Array",
+    "Isaac Newton Telescope",
+    "Anglo-Australian Telescope",
+    "William Herschel Telescope",
+    "Pic du Midi",
+    "Mount Stromlo",
+    [
+     "SALT",
+     "Southern African Large Telescope"
+    ],
+    "Dunsink",
+    [
+     "Birr Castle",
+     "Leviathan of Parsonstown"
+    ],
+    "Meudon",
+    "Pulkovo",
+    "Kodaikanal",
+    "Hobby-Eberly Telescope",
+    "Large Binocular Telescope",
+    "Teide Observatory",
+    "Haystack",
+    "MeerKAT",
+    "LOFAR",
+    [
+     "Extremely Large Telescope",
+     "ELT"
+    ],
+    "Thirty Meter Telescope",
+    "Giant Magellan Telescope",
+    "Las Campanas",
+    "Mullard Radio Astronomy Observatory",
+    "Cambridge Observatory",
+    "Radcliffe Observatory",
+    "Mount Teide",
+    "Griffith Observatory",
+    "Lowell Discovery Telescope",
+    "South Pole Telescope",
+    "IceCube",
+    "LIGO",
+    "Virgo",
+    "GMRT",
+    "Nobeyama",
+    [
+     "Murchison Radio-astronomy Observatory",
+     "Murchison"
+    ]
+   ]
+  },
+  {
+   "id": "xn3-space-spaceports",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a spaceport or rocket launch site (past or present)",
+   "answers": [
+    [
+     "Kennedy Space Center",
+     "Cape Canaveral",
+     "Cape Canaveral Space Force Station",
+     "KSC"
+    ],
+    [
+     "Baikonur",
+     "Baikonur Cosmodrome"
+    ],
+    [
+     "Vandenberg",
+     "Vandenberg Space Force Base"
+    ],
+    [
+     "Kourou",
+     "Guiana Space Centre",
+     "Centre Spatial Guyanais"
+    ],
+    [
+     "Plesetsk",
+     "Plesetsk Cosmodrome"
+    ],
+    [
+     "Vostochny",
+     "Vostochny Cosmodrome"
+    ],
+    "Jiuquan",
+    "Xichang",
+    "Taiyuan",
+    "Wenchang",
+    "Tanegashima",
+    "Uchinoura",
+    [
+     "Sriharikota",
+     "Satish Dhawan Space Centre"
+    ],
+    [
+     "Wallops",
+     "Wallops Flight Facility"
+    ],
+    [
+     "Starbase",
+     "Boca Chica"
+    ],
+    [
+     "Mahia",
+     "Rocket Lab Launch Complex 1",
+     "Mahia Peninsula"
+    ],
+    "SaxaVord",
+    "Esrange",
+    [
+     "Andøya",
+     "Andoya"
+    ],
+    "Woomera",
+    "Semnan",
+    [
+     "Naro",
+     "Naro Space Center"
+    ],
+    "Palmachim",
+    "Spaceport America",
+    [
+     "Mojave",
+     "Mojave Air and Space Port"
+    ],
+    [
+     "Spaceport Cornwall",
+     "Newquay"
+    ],
+    "Kapustin Yar",
+    "Dombarovsky",
+    "Svobodny",
+    "Kwajalein",
+    [
+     "Pacific Spaceport Complex Alaska",
+     "Kodiak"
+    ],
+    "Sohae",
+    "Hammaguir",
+    [
+     "Alcântara",
+     "Alcantara"
+    ],
+    "Sea Launch"
+   ]
+  },
+  {
+   "id": "xn3-body-joints",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a joint in the human body",
+   "answers": [
+    "Knee",
+    "Hip",
+    "Shoulder",
+    "Elbow",
+    "Wrist",
+    "Ankle",
+    [
+     "Knuckle",
+     "Knuckles"
+    ],
+    [
+     "Jaw",
+     "Temporomandibular joint",
+     "TMJ"
+    ],
+    [
+     "Neck",
+     "Cervical spine"
+    ],
+    [
+     "Spine",
+     "Vertebral joint"
+    ],
+    [
+     "Thumb joint",
+     "Saddle joint"
+    ],
+    [
+     "Finger joint",
+     "Interphalangeal joint"
+    ],
+    [
+     "Toe joint",
+     "Metatarsophalangeal joint"
+    ],
+    [
+     "Sacroiliac joint",
+     "Sacroiliac"
+    ],
+    [
+     "Acromioclavicular joint",
+     "AC joint"
+    ],
+    "Sternoclavicular joint",
+    "Radioulnar joint",
+    "Tibiofibular joint",
+    "Subtalar joint",
+    [
+     "Atlanto-occipital joint",
+     "Atlas joint"
+    ],
+    "Glenohumeral joint",
+    [
+     "Pubic symphysis",
+     "Symphysis pubis"
+    ],
+    "Costovertebral joint",
+    "Midtarsal joint"
+   ]
+  },
+  {
+   "id": "xn3-body-fluids",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a fluid produced by or found in the human body",
+   "answers": [
+    "Blood",
+    [
+     "Saliva",
+     "Spit"
+    ],
+    [
+     "Sweat",
+     "Perspiration"
+    ],
+    [
+     "Urine",
+     "Wee"
+    ],
+    "Tears",
+    [
+     "Mucus",
+     "Snot",
+     "Phlegm"
+    ],
+    "Bile",
+    "Lymph",
+    "Semen",
+    [
+     "Breast milk",
+     "Milk"
+    ],
+    [
+     "Plasma",
+     "Blood plasma"
+    ],
+    [
+     "Cerebrospinal fluid",
+     "CSF"
+    ],
+    [
+     "Gastric juice",
+     "Stomach acid",
+     "Gastric acid"
+    ],
+    [
+     "Synovial fluid",
+     "Joint fluid"
+    ],
+    "Sebum",
+    "Amniotic fluid",
+    "Pus",
+    [
+     "Vitreous humour",
+     "Vitreous humor"
+    ],
+    [
+     "Aqueous humour",
+     "Aqueous humor"
+    ],
+    [
+     "Earwax",
+     "Cerumen"
+    ],
+    [
+     "Interstitial fluid",
+     "Tissue fluid"
+    ],
+    "Pancreatic juice",
+    "Chyme",
+    "Vaginal fluid",
+    "Pleural fluid",
+    "Pericardial fluid",
+    "Colostrum",
+    "Intestinal juice",
+    "Prostatic fluid",
+    "Peritoneal fluid",
+    "Endolymph",
+    "Perilymph"
+   ]
+  },
+  {
+   "id": "xn3-body-cancers",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a type of cancer",
+   "answers": [
+    "Breast",
+    "Lung",
+    [
+     "Bowel",
+     "Colorectal",
+     "Colon"
+    ],
+    "Rectal",
+    "Prostate",
+    [
+     "Skin",
+     "Skin cancer",
+     "Melanoma"
+    ],
+    [
+     "Leukaemia",
+     "Leukemia"
+    ],
+    [
+     "Lymphoma",
+     "Hodgkin lymphoma",
+     "Non-Hodgkin lymphoma"
+    ],
+    [
+     "Pancreatic",
+     "Pancreas"
+    ],
+    [
+     "Ovarian",
+     "Ovary"
+    ],
+    [
+     "Cervical",
+     "Cervix"
+    ],
+    [
+     "Brain",
+     "Brain tumour"
+    ],
+    "Bladder",
+    [
+     "Kidney",
+     "Renal"
+    ],
+    "Liver",
+    [
+     "Stomach",
+     "Gastric"
+    ],
+    [
+     "Oesophageal",
+     "Esophageal",
+     "Oesophagus"
+    ],
+    "Thyroid",
+    [
+     "Testicular",
+     "Testis"
+    ],
+    [
+     "Mouth",
+     "Oral"
+    ],
+    [
+     "Myeloma",
+     "Multiple myeloma"
+    ],
+    "Sarcoma",
+    [
+     "Throat",
+     "Laryngeal",
+     "Larynx"
+    ],
+    [
+     "Womb",
+     "Uterine",
+     "Endometrial"
+    ],
+    "Bone",
+    "Head and neck",
+    "Eye",
+    [
+     "Gallbladder",
+     "Bile duct"
+    ],
+    "Mesothelioma",
+    "Anal",
+    [
+     "Vulval",
+     "Vaginal"
+    ],
+    "Penile",
+    "Nasal",
+    "Thymus",
+    "Adrenal"
+   ]
+  },
+  {
+   "id": "xn3-body-allergens",
+   "tags": [
+    "body"
+   ],
+   "text": "Name one of the 14 major allergens that UK food businesses must declare",
+   "answers": [
+    "Celery",
+    [
+     "Gluten",
+     "Cereals containing gluten",
+     "Wheat",
+     "Rye",
+     "Barley",
+     "Oats"
+    ],
+    [
+     "Crustaceans",
+     "Prawns",
+     "Crab",
+     "Lobster"
+    ],
+    [
+     "Eggs",
+     "Egg"
+    ],
+    "Fish",
+    "Lupin",
+    [
+     "Milk",
+     "Dairy"
+    ],
+    [
+     "Molluscs",
+     "Mussels",
+     "Oysters",
+     "Squid"
+    ],
+    "Mustard",
+    [
+     "Peanuts",
+     "Peanut",
+     "Groundnuts"
+    ],
+    [
+     "Sesame",
+     "Sesame seeds"
+    ],
+    [
+     "Soya",
+     "Soy",
+     "Soybeans"
+    ],
+    [
+     "Sulphur dioxide",
+     "Sulphites",
+     "Sulfites",
+     "Sulfur dioxide"
+    ],
+    [
+     "Tree nuts",
+     "Nuts",
+     "Almonds",
+     "Hazelnuts",
+     "Walnuts",
+     "Cashews",
+     "Pecans",
+     "Brazil nuts",
+     "Pistachios",
+     "Macadamia"
+    ]
+   ]
+  },
+  {
+   "id": "xn3-body-medical-tests",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a medical test, scan or screening check",
+   "answers": [
+    [
+     "X-ray",
+     "Xray"
+    ],
+    [
+     "MRI",
+     "MRI scan",
+     "Magnetic resonance imaging"
+    ],
+    [
+     "CT scan",
+     "CAT scan",
+     "CT",
+     "Computed tomography"
+    ],
+    [
+     "Ultrasound",
+     "Ultrasound scan",
+     "Sonogram"
+    ],
+    [
+     "ECG",
+     "EKG",
+     "Electrocardiogram"
+    ],
+    [
+     "EEG",
+     "Electroencephalogram"
+    ],
+    [
+     "Blood test",
+     "Blood sample"
+    ],
+    "Biopsy",
+    "Endoscopy",
+    "Colonoscopy",
+    [
+     "Mammogram",
+     "Mammography"
+    ],
+    [
+     "PET scan",
+     "PET"
+    ],
+    [
+     "Smear test",
+     "Cervical screening",
+     "Pap smear"
+    ],
+    [
+     "Blood pressure test",
+     "Blood pressure check"
+    ],
+    [
+     "Urine test",
+     "Urinalysis"
+    ],
+    [
+     "Angiogram",
+     "Angiography"
+    ],
+    [
+     "Spirometry",
+     "Lung function test"
+    ],
+    [
+     "Swab",
+     "Throat swab"
+    ],
+    [
+     "DEXA scan",
+     "Bone density scan"
+    ],
+    "Cholesterol test",
+    [
+     "Blood sugar test",
+     "Glucose test",
+     "HbA1c"
+    ],
+    [
+     "Allergy test",
+     "Skin prick test"
+    ],
+    [
+     "Eye test",
+     "Eye exam"
+    ],
+    [
+     "Hearing test",
+     "Audiogram"
+    ],
+    [
+     "Lumbar puncture",
+     "Spinal tap"
+    ],
+    [
+     "Stress test",
+     "Treadmill test"
+    ],
+    [
+     "Echocardiogram",
+     "Echo"
+    ],
+    "Bone marrow biopsy",
+    "Amniocentesis",
+    "Gastroscopy",
+    "Cystoscopy",
+    "Sigmoidoscopy",
+    [
+     "Barium meal",
+     "Barium swallow"
+    ],
+    [
+     "Faecal immunochemical test",
+     "FIT test",
+     "Bowel screening"
+    ],
+    "PSA test",
+    "Pregnancy test",
+    [
+     "Lateral flow test",
+     "Covid test"
+    ],
+    "HIV test",
+    [
+     "Genetic test",
+     "DNA test"
+    ],
+    [
+     "Pulse oximetry",
+     "Pulse oximeter"
+    ]
+   ]
+  },
+  {
+   "id": "xn3-body-doctor-specialists",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a type of doctor or medical specialist",
+   "answers": [
+    "Cardiologist",
+    "Neurologist",
+    "Oncologist",
+    "Dermatologist",
+    [
+     "Paediatrician",
+     "Pediatrician"
+    ],
+    [
+     "GP",
+     "General practitioner",
+     "Family doctor"
+    ],
+    "Surgeon",
+    "Radiologist",
+    [
+     "Anaesthetist",
+     "Anesthesiologist",
+     "Anesthetist"
+    ],
+    "Psychiatrist",
+    [
+     "Gynaecologist",
+     "Gynecologist"
+    ],
+    "Obstetrician",
+    "Urologist",
+    [
+     "Orthopaedic surgeon",
+     "Orthopedic surgeon",
+     "Orthopaedist"
+    ],
+    "Ophthalmologist",
+    [
+     "ENT specialist",
+     "ENT surgeon",
+     "Otolaryngologist",
+     "ENT"
+    ],
+    "Gastroenterologist",
+    "Endocrinologist",
+    [
+     "Haematologist",
+     "Hematologist"
+    ],
+    "Nephrologist",
+    "Rheumatologist",
+    "Pathologist",
+    "Geriatrician",
+    "Neurosurgeon",
+    [
+     "Pulmonologist",
+     "Respiratory physician"
+    ],
+    "Immunologist",
+    "Podiatrist",
+    "Plastic surgeon",
+    [
+     "Cardiac surgeon",
+     "Heart surgeon"
+    ],
+    "Vascular surgeon",
+    "Gynaecological oncologist",
+    "Neonatologist",
+    "Allergist",
+    "Virologist",
+    "Microbiologist",
+    "Epidemiologist",
+    "Physician",
+    "Sports doctor"
+   ]
+  },
+  {
+   "id": "xn3-body-mouth-parts",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a part of the human mouth",
+   "answers": [
+    "Tongue",
+    [
+     "Teeth",
+     "Tooth"
+    ],
+    [
+     "Gums",
+     "Gum"
+    ],
+    [
+     "Lips",
+     "Lip"
+    ],
+    [
+     "Palate",
+     "Roof of the mouth"
+    ],
+    "Hard palate",
+    "Soft palate",
+    "Uvula",
+    [
+     "Tonsils",
+     "Tonsil"
+    ],
+    [
+     "Cheeks",
+     "Cheek"
+    ],
+    "Frenulum",
+    [
+     "Salivary glands",
+     "Salivary gland"
+    ],
+    [
+     "Taste buds",
+     "Taste bud"
+    ],
+    "Epiglottis",
+    "Jaw",
+    "Enamel",
+    [
+     "Dentine",
+     "Dentin"
+    ],
+    "Papillae",
+    "Parotid gland",
+    "Sublingual gland",
+    "Submandibular gland",
+    [
+     "Molar",
+     "Molars"
+    ],
+    [
+     "Incisor",
+     "Incisors"
+    ],
+    [
+     "Canine",
+     "Canines"
+    ],
+    [
+     "Premolar",
+     "Premolars"
+    ],
+    [
+     "Wisdom tooth",
+     "Wisdom teeth"
+    ],
+    "Pulp"
+   ]
+  },
+  {
+   "id": "xn3-body-childhood-illnesses",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a common childhood illness or infection",
+   "answers": [
+    "Measles",
+    "Mumps",
+    "Chickenpox",
+    [
+     "Rubella",
+     "German measles"
+    ],
+    [
+     "Whooping cough",
+     "Pertussis"
+    ],
+    [
+     "Polio",
+     "Poliomyelitis"
+    ],
+    [
+     "Scarlet fever",
+     "Scarlatina"
+    ],
+    "Tonsillitis",
+    "Croup",
+    "Impetigo",
+    [
+     "Hand, foot and mouth disease",
+     "Hand foot and mouth",
+     "HFMD"
+    ],
+    [
+     "Glandular fever",
+     "Mononucleosis",
+     "Mono"
+    ],
+    "Diphtheria",
+    [
+     "Head lice",
+     "Nits",
+     "Headlice"
+    ],
+    [
+     "Slapped cheek syndrome",
+     "Slapped cheek",
+     "Fifth disease"
+    ],
+    [
+     "Threadworms",
+     "Threadworm"
+    ],
+    [
+     "Conjunctivitis",
+     "Pink eye"
+    ],
+    [
+     "Ear infection",
+     "Glue ear",
+     "Otitis media"
+    ],
+    "Bronchiolitis",
+    "Roseola",
+    "Meningitis",
+    [
+     "Cold",
+     "Common cold"
+    ],
+    [
+     "Flu",
+     "Influenza"
+    ],
+    [
+     "Tummy bug",
+     "Gastroenteritis"
+    ],
+    [
+     "Verruca",
+     "Verrucas"
+    ],
+    "Ringworm",
+    "Scabies",
+    [
+     "Norovirus",
+     "Winter vomiting bug"
+    ]
+   ]
+  },
+  {
+   "id": "xn3-body-sports-injuries",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a common sports injury",
+   "answers": [
+    [
+     "Sprain",
+     "Sprained ankle"
+    ],
+    [
+     "Strain",
+     "Muscle strain",
+     "Pulled muscle"
+    ],
+    [
+     "Torn ACL",
+     "ACL",
+     "Cruciate ligament"
+    ],
+    [
+     "Hamstring injury",
+     "Hamstring",
+     "Pulled hamstring"
+    ],
+    "Tennis elbow",
+    "Shin splints",
+    "Concussion",
+    [
+     "Fracture",
+     "Broken bone",
+     "Broken leg",
+     "Broken arm"
+    ],
+    [
+     "Dislocation",
+     "Dislocated shoulder"
+    ],
+    [
+     "Achilles tendonitis",
+     "Achilles tendon injury",
+     "Torn Achilles",
+     "Ruptured Achilles"
+    ],
+    "Whiplash",
+    [
+     "Bruise",
+     "Contusion"
+    ],
+    "Blister",
+    "Runner's knee",
+    "Golfer's elbow",
+    [
+     "Groin strain",
+     "Groin injury"
+    ],
+    [
+     "Rotator cuff injury",
+     "Rotator cuff"
+    ],
+    "Cramp",
+    "Plantar fasciitis",
+    [
+     "Cartilage tear",
+     "Torn meniscus",
+     "Meniscus tear"
+    ],
+    "Stress fracture",
+    "Black eye",
+    [
+     "Cut",
+     "Graze",
+     "Laceration"
+    ],
+    [
+     "Tendonitis",
+     "Tendinitis"
+    ],
+    [
+     "Sports hernia",
+     "Hernia"
+    ],
+    "Jumper's knee",
+    "Calf strain",
+    [
+     "Metatarsal fracture",
+     "Broken metatarsal"
+    ],
+    "Broken nose",
+    "Cauliflower ear",
+    "Dead leg",
+    "Hip flexor strain",
+    "Turf toe",
+    "Frozen shoulder",
+    "Bursitis",
+    "Back spasm",
+    [
+     "Ligament damage",
+     "Torn ligament"
+    ],
+    [
+     "Broken collarbone",
+     "Collarbone fracture"
+    ],
+    "Broken ankle",
+    "Torn hamstring"
+   ]
+  },
+  {
+   "id": "xn3-body-uk-over-the-counter-medicines",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a medicine you can buy over the counter in the UK, from a pharmacy or supermarket (generic or brand)",
+   "answers": [
+    "Paracetamol",
+    "Ibuprofen",
+    "Aspirin",
+    [
+     "Co-codamol",
+     "Codeine"
+    ],
+    [
+     "Loratadine",
+     "Antihistamine"
+    ],
+    "Cetirizine",
+    "Fexofenadine",
+    [
+     "Loperamide",
+     "Imodium"
+    ],
+    "Omeprazole",
+    "Gaviscon",
+    "Rennie",
+    "Lemsip",
+    "Beechams",
+    "Strepsils",
+    "Benylin",
+    "Sudafed",
+    "Piriton",
+    "Calpol",
+    "Nurofen",
+    "Anadin",
+    "Panadol",
+    "Savlon",
+    "Germolene",
+    "Sudocrem",
+    "Dioralyte",
+    "Buscopan",
+    "Canesten",
+    [
+     "Olbas Oil",
+     "Olbas"
+    ],
+    "Vicks",
+    "TCP",
+    "Deep Heat",
+    "Voltarol",
+    "Zirtek",
+    "Clarityn",
+    "Piriteze",
+    "Bonjela",
+    "Anusol",
+    "Senokot",
+    "Dulcolax",
+    "Movicol",
+    "Night Nurse",
+    "Day Nurse",
+    "Covonia",
+    "Hedrin",
+    "Fenistil",
+    [
+     "Calamine lotion",
+     "Calamine"
+    ],
+    "Optrex",
+    "Sterimar",
+    "Otrivine",
+    [
+     "Pro-Plus",
+     "Proplus"
+    ],
+    "Anbesol",
+    "Tixylix",
+    "Syndol",
+    "Solpadeine",
+    "Nurofen Plus",
+    [
+     "Alka-Seltzer",
+     "Alka Seltzer"
+    ],
+    "Setlers",
+    "Milk of Magnesia"
+   ]
+  },
+  {
+   "id": "xn3-maths-symbols",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a mathematical symbol or sign (by its name, like plus or pi)",
+   "answers": [
+    [
+     "Plus",
+     "Addition sign"
+    ],
+    [
+     "Minus",
+     "Subtraction sign"
+    ],
+    [
+     "Times",
+     "Multiplication sign",
+     "Multiply",
+     "Multiplication"
+    ],
+    [
+     "Divide",
+     "Division sign",
+     "Obelus",
+     "Division"
+    ],
+    [
+     "Equals",
+     "Equal sign",
+     "Equals sign"
+    ],
+    "Less than",
+    "Greater than",
+    [
+     "Not equal to",
+     "Not equals"
+    ],
+    "Pi",
+    "Infinity",
+    [
+     "Square root",
+     "Radical",
+     "Root"
+    ],
+    [
+     "Percent",
+     "Per cent",
+     "Percentage"
+    ],
+    [
+     "Sigma",
+     "Summation"
+    ],
+    "Integral",
+    "Delta",
+    [
+     "Factorial",
+     "Exclamation mark"
+    ],
+    [
+     "Brackets",
+     "Parentheses"
+    ],
+    [
+     "Degree",
+     "Degrees"
+    ],
+    [
+     "Plus-minus",
+     "Plus or minus"
+    ],
+    "Therefore",
+    "Proportional to",
+    [
+     "Approximately equal to",
+     "Approx equals"
+    ],
+    "Less than or equal to",
+    "Greater than or equal to",
+    [
+     "Absolute value",
+     "Modulus"
+    ],
+    "Theta",
+    "Partial derivative",
+    "Union",
+    "Intersection",
+    "Subset",
+    [
+     "Element of",
+     "Belongs to"
+    ],
+    "Decimal point",
+    [
+     "Ratio colon",
+     "Ratio"
+    ],
+    [
+     "Vinculum",
+     "Fraction bar"
+    ],
+    "Prime"
+   ]
+  },
+  {
+   "id": "xn3-maths-mathematicians",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a famous mathematician",
+   "answers": [
+    "Pythagoras",
+    "Euclid",
+    "Archimedes",
+    [
+     "Isaac Newton",
+     "Newton"
+    ],
+    [
+     "Carl Friedrich Gauss",
+     "Gauss"
+    ],
+    [
+     "Leonhard Euler",
+     "Euler"
+    ],
+    [
+     "Fibonacci",
+     "Leonardo of Pisa"
+    ],
+    [
+     "Alan Turing",
+     "Turing"
+    ],
+    [
+     "Blaise Pascal",
+     "Pascal"
+    ],
+    [
+     "Pierre de Fermat",
+     "Fermat"
+    ],
+    [
+     "René Descartes",
+     "Descartes"
+    ],
+    [
+     "Gottfried Leibniz",
+     "Leibniz"
+    ],
+    [
+     "Bernhard Riemann",
+     "Riemann"
+    ],
+    [
+     "Srinivasa Ramanujan",
+     "Ramanujan"
+    ],
+    [
+     "David Hilbert",
+     "Hilbert"
+    ],
+    [
+     "Emmy Noether",
+     "Noether"
+    ],
+    [
+     "Ada Lovelace",
+     "Lovelace"
+    ],
+    [
+     "George Boole",
+     "Boole"
+    ],
+    [
+     "Georg Cantor",
+     "Cantor"
+    ],
+    [
+     "Évariste Galois",
+     "Evariste Galois",
+     "Galois"
+    ],
+    "Hypatia",
+    [
+     "John Napier",
+     "Napier"
+    ],
+    [
+     "Charles Babbage",
+     "Babbage"
+    ],
+    [
+     "Andrew Wiles",
+     "Wiles"
+    ],
+    [
+     "G. H. Hardy",
+     "Hardy"
+    ],
+    [
+     "Paul Erdős",
+     "Paul Erdos",
+     "Erdős",
+     "Erdos"
+    ],
+    [
+     "Kurt Gödel",
+     "Kurt Godel",
+     "Gödel",
+     "Godel"
+    ],
+    [
+     "Pierre-Simon Laplace",
+     "Laplace"
+    ],
+    [
+     "Joseph-Louis Lagrange",
+     "Lagrange"
+    ],
+    [
+     "Grigori Perelman",
+     "Perelman"
+    ],
+    [
+     "Henri Poincaré",
+     "Henri Poincare",
+     "Poincare"
+    ],
+    [
+     "Augustin-Louis Cauchy",
+     "Cauchy"
+    ],
+    [
+     "Joseph Fourier",
+     "Fourier"
+    ],
+    [
+     "Benoit Mandelbrot",
+     "Mandelbrot"
+    ],
+    [
+     "John Nash",
+     "Nash"
+    ],
+    [
+     "John von Neumann",
+     "von Neumann"
+    ],
+    [
+     "John Conway",
+     "Conway"
+    ],
+    [
+     "Terence Tao",
+     "Tao"
+    ],
+    [
+     "Maryam Mirzakhani",
+     "Mirzakhani"
+    ],
+    "Thales",
+    "Eratosthenes",
+    "Diophantus",
+    [
+     "Al-Khwarizmi",
+     "Al Khwarizmi",
+     "Khwarizmi"
+    ],
+    [
+     "Omar Khayyam",
+     "Khayyam"
+    ],
+    "Brahmagupta",
+    "Aryabhata",
+    [
+     "Zeno of Elea",
+     "Zeno"
+    ],
+    [
+     "Bertrand Russell",
+     "Russell"
+    ],
+    [
+     "Alfred North Whitehead",
+     "Whitehead"
+    ],
+    [
+     "Marcus du Sautoy",
+     "du Sautoy"
+    ],
+    "Katherine Johnson",
+    [
+     "Hannah Fry",
+     "Fry"
+    ],
+    [
+     "Roger Penrose",
+     "Penrose"
+    ],
+    [
+     "Johannes Kepler",
+     "Kepler"
+    ],
+    "Apollonius",
+    "Hipparchus",
+    "Ptolemy",
+    "Taylor",
+    [
+     "Venn",
+     "John Venn"
+    ],
+    [
+     "Kovalevskaya",
+     "Sofia Kovalevskaya"
+    ],
+    [
+     "Sophie Germain",
+     "Germain"
+    ]
+   ]
+  },
+  {
+   "id": "xn3-maths-multiples-of-6",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a multiple of 6 below 100 (answer in digits)",
+   "answers": [
+    "6",
+    "12",
+    "18",
+    "24",
+    "30",
+    "36",
+    "42",
+    "48",
+    "54",
+    "60",
+    "66",
+    "72",
+    "78",
+    "84",
+    "90",
+    "96"
+   ]
+  },
+  {
+   "id": "xn3-maths-multiples-of-9-or-11",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a multiple of 9 or of 11 below 100 (answer in digits)",
+   "answers": [
+    "9",
+    "18",
+    "27",
+    "36",
+    "45",
+    "54",
+    "63",
+    "72",
+    "81",
+    "90",
+    "99",
+    "11",
+    "22",
+    "33",
+    "44",
+    "55",
+    "66",
+    "77",
+    "88"
+   ]
+  },
+  {
+   "id": "xn3-maths-angle-types",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a type of angle or angle relationship",
+   "answers": [
+    "Acute",
+    "Obtuse",
+    [
+     "Right",
+     "Right angle"
+    ],
+    "Reflex",
+    [
+     "Straight",
+     "Straight angle"
+    ],
+    "Complementary",
+    "Supplementary",
+    [
+     "Vertically opposite",
+     "Vertical"
+    ],
+    [
+     "Alternate",
+     "Z angles",
+     "Alternate angles"
+    ],
+    [
+     "Corresponding",
+     "F angles",
+     "Corresponding angles"
+    ],
+    [
+     "Co-interior",
+     "Allied",
+     "C angles",
+     "Co-interior angles"
+    ],
+    [
+     "Full turn",
+     "Full rotation",
+     "Revolution",
+     "Full angle"
+    ],
+    [
+     "Zero angle",
+     "Zero"
+    ],
+    [
+     "Adjacent",
+     "Adjacent angles"
+    ],
+    "Oblique",
+    [
+     "Exterior",
+     "Exterior angle"
+    ],
+    [
+     "Interior",
+     "Interior angle"
+    ]
+   ]
+  },
+  {
+   "id": "xn3-maths-metric-units",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a metric unit of length, mass, volume or area",
+   "answers": [
+    [
+     "Millimetre",
+     "Millimeter",
+     "mm"
+    ],
+    [
+     "Centimetre",
+     "Centimeter",
+     "cm"
+    ],
+    [
+     "Metre",
+     "Meter",
+     "m"
+    ],
+    [
+     "Kilometre",
+     "Kilometer",
+     "km"
+    ],
+    [
+     "Milligram",
+     "mg"
+    ],
+    [
+     "Gram",
+     "Gramme",
+     "g"
+    ],
+    [
+     "Kilogram",
+     "Kilo",
+     "kg"
+    ],
+    [
+     "Tonne",
+     "Metric ton",
+     "t"
+    ],
+    [
+     "Millilitre",
+     "Milliliter",
+     "ml"
+    ],
+    [
+     "Centilitre",
+     "cl"
+    ],
+    [
+     "Litre",
+     "Liter",
+     "l"
+    ],
+    [
+     "Cubic metre",
+     "m3"
+    ],
+    [
+     "Hectare",
+     "ha"
+    ],
+    [
+     "Square metre",
+     "m2"
+    ],
+    [
+     "Square kilometre",
+     "km2"
+    ],
+    [
+     "Cubic centimetre",
+     "cc",
+     "cm3"
+    ],
+    [
+     "Micrometre",
+     "Micron"
+    ],
+    [
+     "Nanometre",
+     "nm"
+    ],
+    [
+     "Decilitre",
+     "dl"
+    ],
+    [
+     "Hectolitre",
+     "hl"
+    ],
+    [
+     "Kilolitre",
+     "kl"
+    ],
+    [
+     "Decimetre",
+     "dm"
+    ],
+    [
+     "Decametre",
+     "Dekametre",
+     "dam"
+    ],
+    [
+     "Square centimetre",
+     "cm2"
+    ],
+    [
+     "Microgram",
+     "mcg"
+    ],
+    [
+     "Centigram",
+     "cg"
+    ]
+   ]
+  },
+  {
+   "id": "xn3-maths-number-quantity-words",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a word for a specific number of things (like dozen)",
+   "answers": [
+    "Dozen",
+    "Score",
+    "Gross",
+    [
+     "Pair",
+     "Brace"
+    ],
+    "Couple",
+    [
+     "Trio",
+     "Triplet"
+    ],
+    "Quartet",
+    "Quintet",
+    "Century",
+    "Decade",
+    "Millennium",
+    [
+     "Baker's dozen",
+     "Bakers dozen"
+    ],
+    [
+     "Half-dozen",
+     "Half dozen"
+    ],
+    "Myriad",
+    "Ream",
+    "Great gross",
+    "Quire",
+    "Fortnight",
+    [
+     "Quadruplet",
+     "Quad"
+    ],
+    [
+     "Octet",
+     "Octave"
+    ],
+    "Sextet",
+    "Septet",
+    "Nonet",
+    "Pentad",
+    "Decad",
+    "Dyad",
+    "Triad",
+    "Tetrad",
+    "Lustrum"
+   ]
+  },
+  {
+   "id": "xn3-science-lab-equipment",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a piece of laboratory equipment from school science",
+   "answers": [
+    [
+     "Bunsen burner",
+     "Bunsen"
+    ],
+    "Test tube",
+    "Beaker",
+    [
+     "Conical flask",
+     "Erlenmeyer flask"
+    ],
+    "Pipette",
+    "Burette",
+    "Tripod",
+    [
+     "Gauze",
+     "Wire gauze",
+     "Gauze mat"
+    ],
+    "Crucible",
+    "Tongs",
+    "Measuring cylinder",
+    "Petri dish",
+    "Microscope",
+    [
+     "Balance",
+     "Scales"
+    ],
+    [
+     "Clamp stand",
+     "Retort stand",
+     "Stand and clamp"
+    ],
+    [
+     "Evaporating basin",
+     "Evaporating dish"
+    ],
+    [
+     "Filter funnel",
+     "Funnel"
+    ],
+    "Thermometer",
+    "Spatula",
+    [
+     "Safety goggles",
+     "Goggles"
+    ],
+    [
+     "Glass rod",
+     "Stirring rod"
+    ],
+    "Boiling tube",
+    "Watch glass",
+    [
+     "Liebig condenser",
+     "Condenser"
+    ],
+    [
+     "Mortar and pestle",
+     "Pestle"
+    ],
+    "Heatproof mat",
+    "Filter paper",
+    [
+     "Round-bottomed flask",
+     "Round bottom flask"
+    ],
+    "Volumetric flask",
+    [
+     "Dropper",
+     "Dropping pipette"
+    ],
+    "Test tube rack",
+    "Stopwatch",
+    "Delivery tube",
+    [
+     "Bung",
+     "Stopper"
+    ],
+    "Lab coat",
+    "Fume cupboard",
+    "Desiccator",
+    "Centrifuge",
+    "Separating funnel",
+    "Spirit burner",
+    "Gas jar",
+    "Syringe",
+    "Splint",
+    [
+     "Litmus paper",
+     "Indicator paper"
+    ],
+    "Universal indicator",
+    "Magnifying glass",
+    "Gloves",
+    "Pipe clay triangle",
+    "Clamp",
+    "Boss",
+    "Water bath",
+    "Hot plate"
+   ]
+  },
+  {
+   "id": "xn3-science-forms-of-energy",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a form or store of energy",
+   "answers": [
+    "Kinetic",
+    [
+     "Potential",
+     "Potential energy"
+    ],
+    [
+     "Thermal",
+     "Heat"
+    ],
+    "Chemical",
+    [
+     "Electrical",
+     "Electric"
+    ],
+    "Nuclear",
+    [
+     "Light",
+     "Radiant"
+    ],
+    "Sound",
+    [
+     "Gravitational",
+     "Gravitational potential",
+     "GPE"
+    ],
+    [
+     "Elastic",
+     "Strain",
+     "Elastic potential"
+    ],
+    "Magnetic",
+    "Mechanical",
+    "Electromagnetic",
+    "Internal",
+    "Rotational"
+   ]
+  },
+  {
+   "id": "xn3-science-electricity-sources",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a source of energy used to generate electricity",
+   "answers": [
+    "Coal",
+    [
+     "Gas",
+     "Natural gas"
+    ],
+    "Oil",
+    [
+     "Nuclear",
+     "Nuclear power"
+    ],
+    [
+     "Wind",
+     "Wind power",
+     "Wind turbines"
+    ],
+    [
+     "Solar",
+     "Solar power",
+     "Solar panels",
+     "Photovoltaic"
+    ],
+    [
+     "Hydroelectric",
+     "Hydro",
+     "Hydropower"
+    ],
+    [
+     "Tidal",
+     "Tidal power"
+    ],
+    [
+     "Wave",
+     "Wave power"
+    ],
+    "Geothermal",
+    "Biomass",
+    "Biofuel",
+    "Hydrogen",
+    "Peat",
+    [
+     "Waste",
+     "Energy from waste",
+     "Incineration"
+    ],
+    "Pumped storage",
+    "Diesel",
+    [
+     "Wood",
+     "Wood pellets"
+    ],
+    [
+     "Landfill gas",
+     "Biogas"
+    ],
+    "Fuel cells"
+   ]
+  },
+  {
+   "id": "xn3-science-circuit-components",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a component used in an electric circuit",
+   "answers": [
+    "Resistor",
+    "Capacitor",
+    "Diode",
+    "Transistor",
+    [
+     "Battery",
+     "Cell",
+     "Power supply"
+    ],
+    "Switch",
+    [
+     "Bulb",
+     "Lamp",
+     "Light bulb"
+    ],
+    [
+     "LED",
+     "Light-emitting diode"
+    ],
+    "Fuse",
+    "Ammeter",
+    "Voltmeter",
+    "Motor",
+    "Buzzer",
+    [
+     "LDR",
+     "Light-dependent resistor",
+     "Photoresistor"
+    ],
+    "Thermistor",
+    [
+     "Variable resistor",
+     "Rheostat",
+     "Potentiometer"
+    ],
+    "Wire",
+    [
+     "Inductor",
+     "Coil"
+    ],
+    "Relay",
+    "Transformer",
+    "Heater",
+    [
+     "Speaker",
+     "Loudspeaker"
+    ],
+    "Microphone",
+    "Circuit breaker",
+    [
+     "Integrated circuit",
+     "Chip",
+     "Microchip"
+    ],
+    "Logic gate",
+    "Crystal oscillator",
+    "Earth",
+    "Bell",
+    "Generator",
+    "Solenoid",
+    "Electromagnet",
+    "Photodiode",
+    "Thyristor",
+    "Zener diode",
+    "Terminal",
+    "Connector"
+   ]
+  },
+  {
+   "id": "xn3-science-types-of-force",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a type of force",
+   "answers": [
+    [
+     "Gravity",
+     "Gravitational force"
+    ],
+    "Friction",
+    "Tension",
+    [
+     "Upthrust",
+     "Buoyancy"
+    ],
+    [
+     "Air resistance",
+     "Drag"
+    ],
+    "Thrust",
+    [
+     "Normal reaction",
+     "Reaction force",
+     "Normal force",
+     "Normal contact force"
+    ],
+    [
+     "Magnetic force",
+     "Magnetism"
+    ],
+    [
+     "Electrostatic force",
+     "Electrostatic"
+    ],
+    "Weight",
+    "Lift",
+    [
+     "Centripetal force",
+     "Centripetal"
+    ],
+    [
+     "Elastic force",
+     "Spring force"
+    ],
+    [
+     "Applied force",
+     "Push"
+    ],
+    "Pull",
+    "Compression",
+    [
+     "Strong nuclear force",
+     "Strong force"
+    ],
+    [
+     "Weak nuclear force",
+     "Weak force"
+    ],
+    [
+     "Electromagnetic force",
+     "Electromagnetism"
+    ],
+    [
+     "Centrifugal force",
+     "Centrifugal"
+    ],
+    "Surface tension"
+   ]
+  },
+  {
+   "id": "xn3-science-acids",
+   "tags": [
+    "science"
+   ],
+   "text": "Name an acid",
+   "answers": [
+    [
+     "Hydrochloric acid",
+     "Hydrochloric",
+     "HCl"
+    ],
+    [
+     "Sulfuric acid",
+     "Sulphuric acid",
+     "Sulfuric",
+     "Sulphuric",
+     "H2SO4"
+    ],
+    [
+     "Nitric acid",
+     "Nitric",
+     "HNO3"
+    ],
+    [
+     "Ethanoic acid",
+     "Acetic acid",
+     "Ethanoic",
+     "Acetic"
+    ],
+    [
+     "Citric acid",
+     "Citric"
+    ],
+    [
+     "Carbonic acid",
+     "Carbonic"
+    ],
+    [
+     "Phosphoric acid",
+     "Phosphoric"
+    ],
+    [
+     "Formic acid",
+     "Methanoic acid",
+     "Methanoic",
+     "Formic"
+    ],
+    [
+     "Lactic acid",
+     "Lactic"
+    ],
+    [
+     "Ascorbic acid",
+     "Ascorbic",
+     "Vitamin C"
+    ],
+    [
+     "Tartaric acid",
+     "Tartaric"
+    ],
+    [
+     "Malic acid",
+     "Malic"
+    ],
+    [
+     "Benzoic acid",
+     "Benzoic"
+    ],
+    [
+     "Oxalic acid",
+     "Oxalic"
+    ],
+    [
+     "Hydrofluoric acid",
+     "Hydrofluoric",
+     "HF"
+    ],
+    [
+     "Boric acid",
+     "Boric"
+    ],
+    [
+     "Tannic acid",
+     "Tannic"
+    ],
+    [
+     "Uric acid",
+     "Uric"
+    ],
+    [
+     "Stearic acid",
+     "Stearic"
+    ],
+    [
+     "Folic acid",
+     "Folic"
+    ],
+    [
+     "Amino acid",
+     "Amino acids"
+    ],
+    [
+     "Hydrobromic acid",
+     "Hydrobromic",
+     "HBr"
+    ],
+    [
+     "Hydroiodic acid",
+     "Hydroiodic",
+     "HI"
+    ],
+    [
+     "Perchloric acid",
+     "Perchloric"
+    ],
+    [
+     "Nitrous acid",
+     "Nitrous"
+    ],
+    [
+     "Sulfurous acid",
+     "Sulphurous acid",
+     "Sulfurous"
+    ],
+    [
+     "Hypochlorous acid",
+     "Hypochlorous"
+    ],
+    [
+     "Propanoic acid",
+     "Propionic acid",
+     "Propanoic"
+    ],
+    [
+     "Butanoic acid",
+     "Butyric acid",
+     "Butanoic"
+    ],
+    [
+     "Salicylic acid",
+     "Salicylic"
+    ],
+    [
+     "Linoleic acid",
+     "Linoleic"
+    ],
+    [
+     "Oleic acid",
+     "Oleic"
+    ],
+    [
+     "Palmitic acid",
+     "Palmitic"
+    ],
+    [
+     "Hydrocyanic acid",
+     "Prussic acid",
+     "Hydrocyanic"
+    ],
+    [
+     "Chloric acid",
+     "Chloric"
+    ],
+    [
+     "Carboxylic acid",
+     "Carboxylic"
+    ],
+    [
+     "Nucleic acid",
+     "Nucleic"
+    ],
+    [
+     "Sorbic acid",
+     "Sorbic"
+    ],
+    [
+     "Glutamic acid",
+     "Glutamic"
+    ],
+    [
+     "Fumaric acid",
+     "Fumaric"
+    ],
+    [
+     "Succinic acid",
+     "Succinic"
+    ],
+    [
+     "Gallic acid",
+     "Gallic"
+    ],
+    [
+     "Hyaluronic acid",
+     "Hyaluronic"
+    ],
+    [
+     "Acetylsalicylic acid",
+     "Aspirin"
+    ],
+    [
+     "Fluoroantimonic acid",
+     "Fluoroantimonic"
+    ],
+    [
+     "Abscisic acid",
+     "Abscisic"
+    ]
+   ]
+  },
+  {
+   "id": "xn3-science-units-energy-pressure",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a unit of energy, power, pressure or force",
+   "answers": [
+    [
+     "Joule",
+     "J"
+    ],
+    [
+     "Calorie",
+     "Cal"
+    ],
+    [
+     "Kilocalorie",
+     "kcal"
+    ],
+    [
+     "Kilowatt-hour",
+     "Kilowatt hour",
+     "kWh"
+    ],
+    [
+     "Watt",
+     "W"
+    ],
+    [
+     "Kilowatt",
+     "kW"
+    ],
+    [
+     "Horsepower",
+     "hp"
+    ],
+    [
+     "BTU",
+     "British thermal unit"
+    ],
+    [
+     "Electronvolt",
+     "eV",
+     "Electron volt"
+    ],
+    "Therm",
+    "Erg",
+    [
+     "Pascal",
+     "Pa"
+    ],
+    "Bar",
+    [
+     "Atmosphere",
+     "atm"
+    ],
+    [
+     "PSI",
+     "Pounds per square inch"
+    ],
+    [
+     "Newton",
+     "N"
+    ],
+    "Dyne",
+    [
+     "Millibar",
+     "mbar",
+     "mb"
+    ],
+    "Torr",
+    [
+     "mmHg",
+     "Millimetres of mercury",
+     "Millimeters of mercury"
+    ],
+    [
+     "Kilopascal",
+     "kPa"
+    ],
+    [
+     "Foot-pound",
+     "Foot pound"
+    ],
+    "Poundal",
+    [
+     "Megajoule",
+     "MJ"
+    ],
+    [
+     "Hectopascal",
+     "hPa"
+    ],
+    [
+     "Kilonewton",
+     "kN"
+    ],
+    [
+     "Megawatt",
+     "MW"
+    ],
+    [
+     "Gigawatt",
+     "GW"
+    ],
+    [
+     "Kilojoule",
+     "kJ"
+    ],
+    [
+     "Pound-force",
+     "lbf"
+    ],
+    [
+     "Kilogram-force",
+     "kgf"
+    ],
+    [
+     "Inch of mercury",
+     "inHg"
+    ],
+    [
+     "Terawatt",
+     "TW"
+    ]
+   ]
+  },
+  {
+   "id": "xn3-nature-rock-types",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a type of rock (like granite)",
+   "answers": [
+    "Granite",
+    "Basalt",
+    "Limestone",
+    "Sandstone",
+    "Slate",
+    "Marble",
+    "Chalk",
+    "Shale",
+    "Obsidian",
+    "Pumice",
+    "Quartzite",
+    "Gneiss",
+    "Schist",
+    "Flint",
+    "Coal",
+    "Conglomerate",
+    "Gabbro",
+    "Dolerite",
+    "Rhyolite",
+    "Andesite",
+    "Tuff",
+    "Mudstone",
+    "Siltstone",
+    "Dolomite",
+    "Diorite",
+    "Peridotite",
+    "Breccia",
+    "Chert",
+    "Ironstone",
+    [
+     "Oolite",
+     "Oolitic limestone"
+    ],
+    "Travertine",
+    [
+     "Gritstone",
+     "Millstone Grit"
+    ],
+    [
+     "Greywacke",
+     "Graywacke"
+    ],
+    "Hornfels",
+    "Phyllite",
+    "Serpentinite",
+    [
+     "Soapstone",
+     "Steatite"
+    ],
+    "Anthracite",
+    "Lignite",
+    "Gypsum",
+    [
+     "Rock salt",
+     "Halite"
+    ],
+    "Syenite",
+    "Pegmatite",
+    "Scoria",
+    "Kimberlite",
+    "Komatiite",
+    "Granodiorite",
+    "Eclogite",
+    "Amphibolite",
+    "Tufa",
+    "Ignimbrite",
+    "Flagstone",
+    "Whinstone"
+   ]
+  },
+  {
+   "id": "xn3-nature-uk-freshwater-fish",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a freshwater fish found in the UK (native or introduced and established)",
+   "answers": [
+    "Roach",
+    "Rudd",
+    "Perch",
+    "Pike",
+    [
+     "Carp",
+     "Common carp",
+     "Mirror carp"
+    ],
+    "Crucian carp",
+    "Tench",
+    [
+     "Bream",
+     "Common bream"
+    ],
+    "Silver bream",
+    "Chub",
+    "Dace",
+    "Barbel",
+    "Gudgeon",
+    "Bleak",
+    "Minnow",
+    [
+     "Three-spined stickleback",
+     "Stickleback"
+    ],
+    "Ten-spined stickleback",
+    [
+     "Bullhead",
+     "Miller's thumb"
+    ],
+    "Stone loach",
+    "Spined loach",
+    [
+     "Eel",
+     "European eel"
+    ],
+    [
+     "Brown trout",
+     "Trout"
+    ],
+    "Rainbow trout",
+    "Sea trout",
+    [
+     "Atlantic salmon",
+     "Salmon"
+    ],
+    "Grayling",
+    [
+     "Arctic charr",
+     "Char",
+     "Charr"
+    ],
+    [
+     "Whitefish",
+     "Powan",
+     "Vendace",
+     "Pollan",
+     "Gwyniad",
+     "Schelly"
+    ],
+    "Zander",
+    [
+     "Wels catfish",
+     "Catfish"
+    ],
+    "Ruffe",
+    [
+     "Lamprey",
+     "River lamprey",
+     "Brook lamprey"
+    ],
+    [
+     "Orfe",
+     "Ide"
+    ],
+    "Topmouth gudgeon",
+    "Smelt",
+    [
+     "Allis shad",
+     "Twaite shad",
+     "Shad"
+    ],
+    "Pumpkinseed",
+    "Sunbleak",
+    "Bitterling",
+    "Goldfish",
+    "Grass carp",
+    "Sturgeon",
+    "Golden orfe"
+   ]
+  },
+  {
+   "id": "xn3-nature-primates",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a primate (a type of monkey, ape, lemur or other primate)",
+   "answers": [
+    "Gorilla",
+    [
+     "Chimpanzee",
+     "Chimp"
+    ],
+    [
+     "Orangutan",
+     "Orang-utan",
+     "Orangutan"
+    ],
+    "Bonobo",
+    "Gibbon",
+    "Baboon",
+    "Macaque",
+    "Lemur",
+    "Marmoset",
+    "Tamarin",
+    "Capuchin",
+    [
+     "Howler monkey",
+     "Howler"
+    ],
+    "Spider monkey",
+    "Mandrill",
+    "Colobus",
+    "Langur",
+    "Tarsier",
+    [
+     "Loris",
+     "Slow loris"
+    ],
+    [
+     "Human",
+     "Homo sapiens",
+     "Man"
+    ],
+    "Siamang",
+    [
+     "Vervet",
+     "Vervet monkey"
+    ],
+    "Proboscis monkey",
+    [
+     "Bushbaby",
+     "Galago",
+     "Bush baby"
+    ],
+    [
+     "Aye-aye",
+     "Aye aye"
+    ],
+    "Squirrel monkey",
+    [
+     "Rhesus monkey",
+     "Rhesus macaque",
+     "Rhesus"
+    ],
+    [
+     "Barbary macaque",
+     "Barbary ape"
+    ],
+    [
+     "Japanese macaque",
+     "Snow monkey"
+    ],
+    "Mangabey",
+    "Guenon",
+    "Drill",
+    "Gelada",
+    "Saki",
+    "Uakari",
+    "Titi",
+    "Woolly monkey",
+    [
+     "Night monkey",
+     "Owl monkey"
+    ],
+    "Sifaka",
+    "Indri",
+    [
+     "Ring-tailed lemur",
+     "Ringtail lemur"
+    ],
+    "Potto",
+    "Snub-nosed monkey",
+    "Golden lion tamarin",
+    "Pygmy marmoset",
+    "Hamadryas baboon",
+    "Patas monkey",
+    "Diana monkey",
+    [
+     "De Brazza's monkey",
+     "De Brazzas monkey"
+    ],
+    "Mountain gorilla",
+    "Green monkey",
+    "Mona monkey",
+    "Emperor tamarin",
+    "Pygmy loris",
+    "Black howler"
+   ]
+  },
+  {
+   "id": "xn3-nature-marsupials",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a marsupial",
+   "answers": [
+    [
+     "Kangaroo",
+     "Red kangaroo"
+    ],
+    "Wallaby",
+    "Koala",
+    "Wombat",
+    [
+     "Tasmanian devil",
+     "Devil"
+    ],
+    [
+     "Possum",
+     "Brushtail possum"
+    ],
+    [
+     "Opossum",
+     "Virginia opossum"
+    ],
+    "Bandicoot",
+    "Quokka",
+    "Numbat",
+    "Quoll",
+    "Bilby",
+    "Wallaroo",
+    "Sugar glider",
+    [
+     "Thylacine",
+     "Tasmanian tiger",
+     "Tasmanian wolf"
+    ],
+    "Cuscus",
+    "Potoroo",
+    "Bettong",
+    [
+     "Tree-kangaroo",
+     "Tree kangaroo"
+    ],
+    "Pademelon",
+    "Antechinus",
+    "Dunnart",
+    "Marsupial mole",
+    "Honey possum",
+    [
+     "Yapok",
+     "Water opossum"
+    ],
+    "Monito del monte",
+    "Planigale",
+    "Kowari",
+    "Mulgara",
+    "Ringtail possum",
+    "Pygmy possum",
+    [
+     "Rat-kangaroo",
+     "Rat kangaroo"
+    ],
+    "Marsupial lion",
+    "Euro",
+    "Swamp wallaby",
+    "Greater glider",
+    "Feathertail glider",
+    "Kultarr",
+    "Quenda",
+    "Phascogale",
+    "Mouse opossum",
+    "Shrew opossum",
+    [
+     "Rock-wallaby",
+     "Rock wallaby"
+    ],
+    "Hare-wallaby",
+    "Nabarlek",
+    "Bridled nailtail wallaby"
+   ]
+  },
+  {
+   "id": "xn3-nature-cattle-breeds",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a breed of cattle",
+   "answers": [
+    [
+     "Aberdeen Angus",
+     "Angus"
+    ],
+    "Hereford",
+    [
+     "Friesian",
+     "Holstein",
+     "Holstein Friesian",
+     "British Friesian"
+    ],
+    "Jersey",
+    "Guernsey",
+    [
+     "Highland",
+     "Highland cattle"
+    ],
+    "Charolais",
+    "Limousin",
+    "Simmental",
+    "Ayrshire",
+    [
+     "Longhorn",
+     "English Longhorn"
+    ],
+    [
+     "Shorthorn",
+     "Beef Shorthorn",
+     "Dairy Shorthorn"
+    ],
+    "Galloway",
+    "Dexter",
+    [
+     "Belted Galloway",
+     "Belties",
+     "Oreo cow"
+    ],
+    "Brahman",
+    "Wagyu",
+    "Texas Longhorn",
+    [
+     "Devon",
+     "Red Ruby Devon",
+     "North Devon"
+    ],
+    "Welsh Black",
+    "Sussex",
+    "Lincoln Red",
+    "Belgian Blue",
+    "Brown Swiss",
+    "White Park",
+    "British White",
+    "Chillingham",
+    "Red Poll",
+    "South Devon",
+    "Luing",
+    "Irish Moiled",
+    "Vaynol",
+    [
+     "Blonde d'Aquitaine",
+     "Blonde dAquitaine"
+    ],
+    "Salers",
+    "Piedmontese",
+    "Santa Gertrudis",
+    "Murray Grey",
+    "Gloucester",
+    "Kerry",
+    "Shetland",
+    "Whitebred Shorthorn",
+    "Zebu",
+    [
+     "Watusi",
+     "Ankole-Watusi"
+    ],
+    [
+     "Montbéliarde",
+     "Montbeliarde"
+    ],
+    "Normande",
+    "Brangus",
+    "Chianina",
+    "Marchigiana",
+    "Romagnola",
+    "Hereford Polled",
+    "British Blue",
+    "Sahiwal",
+    "Gir",
+    "Nelore",
+    "Pinzgauer",
+    "Tarentaise",
+    "Parthenaise",
+    "Aubrac",
+    "Gelbvieh",
+    "Simbrah",
+    "Beefmaster"
+   ]
+  },
+  {
+   "id": "xn3-nature-sheep-breeds",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a breed of sheep",
+   "answers": [
+    "Merino",
+    "Suffolk",
+    "Texel",
+    "Herdwick",
+    "Swaledale",
+    "Cheviot",
+    [
+     "Scottish Blackface",
+     "Blackface"
+    ],
+    "Jacob",
+    [
+     "Romney",
+     "Romney Marsh"
+    ],
+    "Southdown",
+    [
+     "Dorset Horn",
+     "Dorset Down",
+     "Dorset"
+    ],
+    [
+     "Hampshire Down",
+     "Hampshire"
+    ],
+    [
+     "Leicester",
+     "Leicester Longwool",
+     "Border Leicester",
+     "Bluefaced Leicester"
+    ],
+    [
+     "Lincoln",
+     "Lincoln Longwool"
+    ],
+    [
+     "Cotswold",
+     "Cotswold Lion"
+    ],
+    "Shetland",
+    "Soay",
+    "Welsh Mountain",
+    [
+     "Beulah",
+     "Beulah Speckled Face"
+    ],
+    [
+     "Welsh Badger Face",
+     "Badger Face"
+    ],
+    "Hebridean",
+    [
+     "Manx Loaghtan",
+     "Loaghtan"
+    ],
+    "Rough Fell",
+    "Lonk",
+    "Wensleydale",
+    "Corriedale",
+    "Oxford Down",
+    "Shropshire",
+    "Charollais",
+    "Dorper",
+    "Karakul",
+    "Teeswater",
+    "Ryeland",
+    "Clun Forest",
+    "Lleyn",
+    "Dalesbred",
+    [
+     "Derbyshire Gritstone",
+     "Gritstone"
+    ],
+    "Kerry Hill",
+    "Wiltshire Horn",
+    "Norfolk Horn",
+    "Black Welsh Mountain",
+    "North Ronaldsay",
+    "Boreray",
+    "Zwartbles",
+    "Valais Blacknose",
+    "Rambouillet",
+    "Katahdin",
+    "Barbados Blackbelly",
+    "Awassi",
+    "Icelandic",
+    [
+     "Finnsheep",
+     "Finn"
+    ],
+    "Romanov",
+    "Cheviot Mule",
+    "Mule",
+    "North Country Cheviot",
+    "Exmoor Horn",
+    "Dartmoor",
+    "Whitefaced Woodland",
+    "Greyface Dartmoor",
+    "Poll Dorset",
+    "Easycare",
+    "Lacaune",
+    "Rouge",
+    "Berrichon",
+    "Bleu du Maine",
+    "Ile de France",
+    "Vendeen"
+   ]
+  }
+ ]
+}

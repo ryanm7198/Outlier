@@ -1,0 +1,2563 @@
+{
+ "cat": "history",
+ "prompts": [
+  {
+   "id": "xh3-prehistoric-sites-uk-ireland",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a prehistoric site or monument in Britain or Ireland",
+   "answers": [
+    "Stonehenge",
+    "Avebury",
+    "Skara Brae",
+    "Silbury Hill",
+    "Maeshowe",
+    [
+     "Ring of Brodgar",
+     "Brodgar"
+    ],
+    [
+     "Standing Stones of Stenness",
+     "Stenness"
+    ],
+    [
+     "Callanish",
+     "Callanish Standing Stones",
+     "Calanais"
+    ],
+    "Newgrange",
+    "Knowth",
+    "Dowth",
+    [
+     "Seahenge",
+     "Holme-next-the-Sea"
+    ],
+    [
+     "Grime's Graves",
+     "Grimes Graves"
+    ],
+    "Woodhenge",
+    "Durrington Walls",
+    [
+     "West Kennet Long Barrow",
+     "West Kennet"
+    ],
+    [
+     "Wayland's Smithy",
+     "Waylands Smithy"
+    ],
+    [
+     "Castlerigg Stone Circle",
+     "Castlerigg"
+    ],
+    [
+     "Long Meg and Her Daughters",
+     "Long Meg"
+    ],
+    [
+     "Rollright Stones",
+     "Rollrights"
+    ],
+    [
+     "Uffington White Horse",
+     "White Horse of Uffington"
+    ],
+    "Maiden Castle",
+    [
+     "Mousa Broch",
+     "Mousa"
+    ],
+    "Jarlshof",
+    [
+     "Hill of Tara",
+     "Tara"
+    ],
+    "Carrowmore",
+    [
+     "Poulnabrone",
+     "Poulnabrone Dolmen"
+    ],
+    "Kilmartin Glen",
+    "Nine Ladies",
+    "Arbor Low",
+    "Merry Maidens",
+    [
+     "Men-an-Tol",
+     "Men an Tol"
+    ],
+    "Lanyon Quoit",
+    "Chysauster",
+    "Star Carr",
+    "Stanton Drew",
+    "Pentre Ifan",
+    "Bryn Celli Ddu",
+    "Tinkinswood",
+    "Cairnpapple",
+    "Dun Carloway",
+    "Drombeg",
+    "Staigue Fort",
+    [
+     "Dun Aonghasa",
+     "Dún Aonghasa"
+    ],
+    "Grianan of Aileach",
+    "Ness of Brodgar",
+    "Knap of Howar",
+    "Cashtal yn Ard",
+    "Stonehenge Cursus",
+    "Sweet Track",
+    "Flag Fen",
+    "Boscawen-un",
+    [
+     "The Hurlers",
+     "Hurlers"
+    ],
+    "Swinside",
+    [
+     "Kents Cavern",
+     "Kent's Cavern"
+    ],
+    [
+     "Goat's Hole Paviland",
+     "Paviland"
+    ],
+    "Creswell Crags"
+   ]
+  },
+  {
+   "id": "xh3-egypt-sites",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient Egyptian monument or archaeological site",
+   "answers": [
+    [
+     "Great Pyramid of Giza",
+     "Great Pyramid",
+     "Pyramid of Khufu",
+     "Giza Pyramids",
+     "Pyramids of Giza",
+     "Giza",
+     "Pyramid of Cheops"
+    ],
+    [
+     "Pyramid of Khafre",
+     "Pyramid of Chephren"
+    ],
+    [
+     "Pyramid of Menkaure",
+     "Pyramid of Mycerinus"
+    ],
+    [
+     "Great Sphinx",
+     "Sphinx",
+     "Sphinx of Giza"
+    ],
+    [
+     "Step Pyramid of Djoser",
+     "Step Pyramid",
+     "Djoser's Pyramid",
+     "Pyramid of Djoser"
+    ],
+    [
+     "Saqqara",
+     "Sakkara"
+    ],
+    "Bent Pyramid",
+    "Red Pyramid",
+    "Dahshur",
+    [
+     "Karnak",
+     "Karnak Temple"
+    ],
+    [
+     "Luxor Temple",
+     "Luxor"
+    ],
+    "Valley of the Kings",
+    "Valley of the Queens",
+    "Abu Simbel",
+    [
+     "Philae",
+     "Philae Temple"
+    ],
+    [
+     "Deir el-Bahari",
+     "Temple of Hatshepsut",
+     "Hatshepsut's Temple",
+     "Deir el Bahri"
+    ],
+    [
+     "Edfu",
+     "Temple of Edfu",
+     "Temple of Horus at Edfu"
+    ],
+    "Kom Ombo",
+    [
+     "Dendera",
+     "Temple of Hathor"
+    ],
+    "Abydos",
+    "Memphis",
+    "Thebes",
+    [
+     "Amarna",
+     "Tell el-Amarna",
+     "Akhetaten"
+    ],
+    "Medinet Habu",
+    "Ramesseum",
+    "Colossi of Memnon",
+    "Hierakonpolis",
+    "Heliopolis",
+    "Tanis",
+    "Meidum",
+    "Elephantine",
+    [
+     "Pharos of Alexandria",
+     "Lighthouse of Alexandria",
+     "Pharos"
+    ],
+    "Lisht",
+    "Hawara",
+    "Beni Hasan",
+    "Siwa Oasis",
+    "Library of Alexandria",
+    "Unfinished Obelisk",
+    "Abusir",
+    "Zawyet el-Aryan",
+    "Tombs of the Nobles",
+    [
+     "Deir el-Medina",
+     "Deir el Medina"
+    ],
+    "Esna"
+   ]
+  },
+  {
+   "id": "xh3-mesopotamian-cities",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient city of Mesopotamia",
+   "answers": [
+    "Babylon",
+    "Ur",
+    "Nineveh",
+    [
+     "Uruk",
+     "Erech"
+    ],
+    "Nippur",
+    [
+     "Assur",
+     "Ashur"
+    ],
+    [
+     "Akkad",
+     "Agade"
+    ],
+    "Lagash",
+    "Kish",
+    "Eridu",
+    "Mari",
+    "Larsa",
+    "Sippar",
+    [
+     "Nimrud",
+     "Kalhu",
+     "Calah"
+    ],
+    [
+     "Khorsabad",
+     "Dur-Sharrukin"
+    ],
+    "Isin",
+    "Umma",
+    "Girsu",
+    "Borsippa",
+    "Ctesiphon",
+    "Seleucia",
+    "Hatra",
+    "Dur-Kurigalzu",
+    "Kar-Tukulti-Ninurta",
+    "Shuruppak",
+    "Adab",
+    [
+     "Eshnunna",
+     "Tell Asmar"
+    ],
+    "Tell Brak",
+    "Harran",
+    "Der",
+    "Opis"
+   ]
+  },
+  {
+   "id": "xh3-roman-offices",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a Roman political office, magistracy or priesthood",
+   "answers": [
+    "Consul",
+    "Praetor",
+    "Quaestor",
+    "Aedile",
+    [
+     "Tribune",
+     "Tribune of the Plebs",
+     "Plebeian Tribune"
+    ],
+    "Censor",
+    "Dictator",
+    "Senator",
+    [
+     "Pontifex Maximus",
+     "Pontifex"
+    ],
+    "Proconsul",
+    "Propraetor",
+    [
+     "Legate",
+     "Legatus"
+    ],
+    [
+     "Prefect",
+     "Praefectus"
+    ],
+    "Procurator",
+    [
+     "Emperor",
+     "Princeps",
+     "Imperator"
+    ],
+    [
+     "Magister Equitum",
+     "Master of the Horse"
+    ],
+    "Lictor",
+    "Augur",
+    "Flamen",
+    [
+     "Vestal Virgin",
+     "Vestal"
+    ],
+    [
+     "Rex",
+     "King"
+    ],
+    "Interrex",
+    "Decemvir",
+    "Triumvir",
+    [
+     "Praetorian Prefect",
+     "Praefectus Praetorio"
+    ],
+    [
+     "Urban Prefect",
+     "Praefectus Urbi"
+    ],
+    [
+     "Governor",
+     "Provincial Governor"
+    ],
+    "Curule Aedile",
+    "Duumvir",
+    "Haruspex",
+    "Epulones",
+    "Quindecimviri",
+    "Tribunus Militum",
+    "Vigintivir"
+   ]
+  },
+  {
+   "id": "xh3-rome-enemies",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a famous enemy of Rome or leader who rose against it",
+   "answers": [
+    [
+     "Hannibal",
+     "Hannibal Barca"
+    ],
+    "Spartacus",
+    [
+     "Boudicca",
+     "Boadicea",
+     "Boudica"
+    ],
+    "Vercingetorix",
+    [
+     "Attila",
+     "Attila the Hun"
+    ],
+    [
+     "Mithridates VI",
+     "Mithridates"
+    ],
+    [
+     "Cleopatra",
+     "Cleopatra VII"
+    ],
+    [
+     "Arminius",
+     "Hermann"
+    ],
+    "Jugurtha",
+    [
+     "Pyrrhus",
+     "Pyrrhus of Epirus"
+    ],
+    [
+     "Antiochus III",
+     "Antiochus the Great"
+    ],
+    [
+     "Caratacus",
+     "Caractacus"
+    ],
+    [
+     "Alaric",
+     "Alaric I"
+    ],
+    [
+     "Gaiseric",
+     "Genseric"
+    ],
+    "Zenobia",
+    [
+     "Shapur I",
+     "Shapur"
+    ],
+    "Decebalus",
+    [
+     "Philip V",
+     "Philip V of Macedon"
+    ],
+    [
+     "Perseus of Macedon",
+     "Perseus"
+    ],
+    [
+     "Tigranes",
+     "Tigranes the Great"
+    ],
+    "Calgacus",
+    [
+     "Hasdrubal",
+     "Hasdrubal Barca"
+    ],
+    [
+     "Hamilcar Barca",
+     "Hamilcar"
+    ],
+    "Odoacer",
+    "Viriathus",
+    [
+     "Simon bar Kokhba",
+     "Bar Kokhba"
+    ],
+    "Tacfarinas",
+    "Brennus",
+    "Ariovistus",
+    "Cassivellaunus",
+    "Sertorius",
+    "Ambiorix",
+    "Maroboduus",
+    [
+     "Queen Cartimandua",
+     "Cartimandua"
+    ],
+    "Veleda"
+   ]
+  },
+  {
+   "id": "xh3-ancient-women",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a woman of the ancient world (before about AD 500)",
+   "answers": [
+    [
+     "Cleopatra",
+     "Cleopatra VII"
+    ],
+    [
+     "Boudicca",
+     "Boadicea",
+     "Boudica"
+    ],
+    "Nefertiti",
+    "Hatshepsut",
+    "Nefertari",
+    [
+     "Agrippina the Younger",
+     "Agrippina"
+    ],
+    [
+     "Livia",
+     "Livia Drusilla"
+    ],
+    "Messalina",
+    "Octavia",
+    "Julia",
+    "Cornelia",
+    "Sappho",
+    "Zenobia",
+    "Olympias",
+    "Aspasia",
+    [
+     "Artemisia I of Caria",
+     "Artemisia"
+    ],
+    "Hypatia",
+    "Cartimandua",
+    "Fulvia",
+    [
+     "Poppaea",
+     "Poppaea Sabina"
+    ],
+    "Faustina",
+    "Julia Domna",
+    [
+     "Helena",
+     "Saint Helena"
+    ],
+    "Tomyris",
+    "Berenice",
+    "Arsinoe",
+    "Cynisca",
+    "Perpetua",
+    "Ankhesenamun",
+    [
+     "Neferusobek",
+     "Sobekneferu"
+    ],
+    "Ahhotep",
+    "Ahmose-Nefertari",
+    "Gorgo",
+    "Agrippina the Elder"
+   ]
+  },
+  {
+   "id": "xh3-rome-monuments",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient monument or building in the city of Rome",
+   "answers": [
+    [
+     "Colosseum",
+     "Coliseum",
+     "Flavian Amphitheatre"
+    ],
+    "Pantheon",
+    [
+     "Roman Forum",
+     "Forum"
+    ],
+    "Circus Maximus",
+    [
+     "Trajan's Column",
+     "Trajans Column"
+    ],
+    [
+     "Trajan's Markets",
+     "Markets of Trajan"
+    ],
+    "Baths of Caracalla",
+    "Baths of Diocletian",
+    "Arch of Constantine",
+    "Arch of Titus",
+    "Arch of Septimius Severus",
+    [
+     "Castel Sant'Angelo",
+     "Hadrian's Mausoleum",
+     "Mausoleum of Hadrian"
+    ],
+    "Theatre of Marcellus",
+    "Ara Pacis",
+    [
+     "Domus Aurea",
+     "Golden House"
+    ],
+    "Basilica of Maxentius",
+    "Temple of Saturn",
+    "Temple of Vesta",
+    "Temple of Hadrian",
+    "Mausoleum of Augustus",
+    "Column of Marcus Aurelius",
+    "Pyramid of Cestius",
+    "Mamertine Prison",
+    [
+     "Appian Way",
+     "Via Appia"
+    ],
+    "Aurelian Walls",
+    "Tabularium",
+    "Stadium of Domitian",
+    [
+     "Curia Julia",
+     "Curia"
+    ],
+    "Rostra",
+    "Forum of Augustus",
+    "Forum of Caesar",
+    "Temple of Antoninus and Faustina",
+    "Temple of Castor and Pollux",
+    "Temple of Portunus",
+    "Aqua Claudia",
+    "Porta Maggiore",
+    "Basilica Julia",
+    "Arch of Janus",
+    "Palatine Hill",
+    "Capitoline Hill",
+    "Catacombs",
+    "Largo Argentina",
+    "Temple of Hercules Victor",
+    "Baths of Trajan",
+    "Meta Sudans"
+   ]
+  },
+  {
+   "id": "xh3-greek-sites",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient Greek site, temple or monument",
+   "answers": [
+    "Parthenon",
+    "Acropolis",
+    [
+     "Erechtheion",
+     "Erechtheum"
+    ],
+    [
+     "Temple of Athena Nike",
+     "Athena Nike"
+    ],
+    "Propylaea",
+    [
+     "Ancient Agora of Athens",
+     "Agora"
+    ],
+    [
+     "Temple of Olympian Zeus",
+     "Olympieion"
+    ],
+    "Theatre of Dionysus",
+    [
+     "Temple of Hephaestus",
+     "Hephaisteion",
+     "Theseion"
+    ],
+    [
+     "Delphi",
+     "Temple of Apollo at Delphi"
+    ],
+    "Olympia",
+    [
+     "Knossos",
+     "Palace of Knossos"
+    ],
+    [
+     "Mycenae",
+     "Lion Gate"
+    ],
+    "Tiryns",
+    "Epidaurus",
+    [
+     "Sounion",
+     "Temple of Poseidon at Sounion",
+     "Cape Sounion"
+    ],
+    "Delos",
+    [
+     "Corinth",
+     "Ancient Corinth"
+    ],
+    "Sparta",
+    "Thermopylae",
+    "Marathon",
+    "Vergina",
+    "Dodona",
+    "Samothrace",
+    [
+     "Aegina",
+     "Temple of Aphaia"
+    ],
+    [
+     "Bassae",
+     "Temple of Apollo Epicurius"
+    ],
+    "Pella",
+    "Dion",
+    "Philippi",
+    "Phaistos",
+    "Akrotiri",
+    "Messene",
+    "Lindos",
+    "Colossus of Rhodes",
+    "Panathenaic Stadium",
+    [
+     "Odeon of Herodes Atticus",
+     "Herodes Atticus Theatre"
+    ],
+    "Tower of the Winds",
+    "Stoa of Attalos",
+    "Temple of Zeus at Olympia",
+    "Statue of Zeus at Olympia",
+    "Mount Olympus",
+    "Eleusis",
+    "Nemea",
+    "Isthmia",
+    "Argos",
+    "Thebes",
+    "Plataea",
+    "Temple of Artemis at Ephesus"
+   ]
+  },
+  {
+   "id": "xh3-pharaohs-before-new-kingdom",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a pharaoh who ruled Egypt before the New Kingdom (about 3100 to 1550 BC)",
+   "answers": [
+    [
+     "Narmer",
+     "Menes"
+    ],
+    [
+     "Djoser",
+     "Zoser"
+    ],
+    [
+     "Sneferu",
+     "Snefru"
+    ],
+    [
+     "Khufu",
+     "Cheops"
+    ],
+    [
+     "Khafre",
+     "Chephren"
+    ],
+    [
+     "Menkaure",
+     "Mycerinus"
+    ],
+    "Userkaf",
+    "Sahure",
+    "Unas",
+    "Teti",
+    "Pepi I",
+    "Pepi II",
+    [
+     "Mentuhotep II",
+     "Mentuhotep"
+    ],
+    "Amenemhat I",
+    "Amenemhat III",
+    [
+     "Senusret I",
+     "Sesostris I"
+    ],
+    [
+     "Senusret III",
+     "Sesostris III"
+    ],
+    [
+     "Sobekneferu",
+     "Neferusobek"
+    ],
+    "Hor-Aha",
+    "Den",
+    "Khasekhemwy",
+    "Huni",
+    "Shepseskaf",
+    "Djedefre",
+    "Sekhemkhet",
+    "Sanakht",
+    "Seqenenre Tao",
+    "Kamose",
+    "Djedkare Isesi",
+    "Neferirkare",
+    "Nyuserre",
+    "Amenemhat II",
+    "Senusret II",
+    "Khyan",
+    [
+     "Apepi",
+     "Apophis"
+    ]
+   ]
+  },
+  {
+   "id": "xh3-bible-lands-peoples",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient people or kingdom mentioned in the Bible",
+   "answers": [
+    [
+     "Israelites",
+     "Hebrews"
+    ],
+    "Philistines",
+    "Canaanites",
+    "Hittites",
+    "Amorites",
+    "Moabites",
+    "Edomites",
+    "Ammonites",
+    "Amalekites",
+    "Phoenicians",
+    "Assyrians",
+    "Babylonians",
+    "Egyptians",
+    "Samaritans",
+    "Midianites",
+    "Jebusites",
+    "Perizzites",
+    "Hivites",
+    "Girgashites",
+    [
+     "Arameans",
+     "Syrians",
+     "Aramaeans"
+    ],
+    "Medes",
+    "Persians",
+    "Chaldeans",
+    "Elamites",
+    [
+     "Ethiopians",
+     "Cushites",
+     "Kushites"
+    ],
+    "Greeks",
+    "Romans",
+    "Galatians",
+    "Corinthians",
+    "Ephesians",
+    "Philippians",
+    "Colossians",
+    "Thessalonians"
+   ]
+  },
+  {
+   "id": "xh3-athens-sparta-leaders",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a statesman or general of ancient Athens, Sparta or Thebes",
+   "answers": [
+    "Pericles",
+    "Solon",
+    "Themistocles",
+    "Cleisthenes",
+    "Draco",
+    "Alcibiades",
+    "Miltiades",
+    "Cimon",
+    "Aristides",
+    "Lycurgus",
+    "Leonidas",
+    "Lysander",
+    "Pausanias",
+    "Agesilaus",
+    "Epaminondas",
+    "Pelopidas",
+    [
+     "Pisistratus",
+     "Peisistratos"
+    ],
+    "Demosthenes",
+    "Nicias",
+    "Cleon",
+    "Xenophon",
+    "Brasidas",
+    "Thucydides",
+    "Phocion",
+    "Cleomenes",
+    "Archidamus",
+    "Gylippus",
+    "Conon",
+    "Iphicrates",
+    "Timotheus",
+    "Hippias",
+    "Ephialtes",
+    "Aeschines",
+    "Demetrius of Phalerum",
+    "Cleombrotus"
+   ]
+  },
+  {
+   "id": "xh3-roman-republic-figures",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a general or politician of the Roman Republic (509 to 27 BC)",
+   "answers": [
+    [
+     "Scipio Africanus",
+     "Scipio"
+    ],
+    [
+     "Pompey",
+     "Pompey the Great",
+     "Gnaeus Pompeius"
+    ],
+    [
+     "Julius Caesar",
+     "Caesar"
+    ],
+    [
+     "Crassus",
+     "Marcus Crassus"
+    ],
+    [
+     "Marius",
+     "Gaius Marius"
+    ],
+    [
+     "Sulla",
+     "Lucius Sulla"
+    ],
+    [
+     "Cato the Elder",
+     "Cato"
+    ],
+    "Cato the Younger",
+    "Cicero",
+    [
+     "Mark Antony",
+     "Marc Antony",
+     "Antony"
+    ],
+    "Lepidus",
+    [
+     "Fabius Maximus",
+     "Fabius"
+    ],
+    "Cincinnatus",
+    [
+     "Tiberius Gracchus",
+     "Gracchus"
+    ],
+    "Gaius Gracchus",
+    "Lucullus",
+    [
+     "Marcus Agrippa",
+     "Agrippa"
+    ],
+    [
+     "Brutus",
+     "Marcus Brutus"
+    ],
+    "Cassius",
+    "Camillus",
+    [
+     "Aemilius Paullus",
+     "Paullus"
+    ],
+    "Flaminius",
+    "Regulus",
+    "Scipio Aemilianus",
+    "Catiline",
+    "Sertorius",
+    "Clodius",
+    [
+     "Octavian",
+     "Octavianus"
+    ],
+    [
+     "Cornelius Cinna",
+     "Cinna"
+    ],
+    "Sallust",
+    "Verres",
+    "Milo",
+    "Curio",
+    "Labienus",
+    "Trebonius",
+    "Decimus Brutus",
+    [
+     "Appius Claudius Caecus",
+     "Appius Claudius"
+    ],
+    [
+     "Titus Quinctius Flamininus",
+     "Flamininus"
+    ]
+   ]
+  },
+  {
+   "id": "xh3-persian-rulers",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a king of the Achaemenid Persian Empire",
+   "answers": [
+    [
+     "Cyrus the Great",
+     "Cyrus",
+     "Cyrus II"
+    ],
+    [
+     "Cambyses II",
+     "Cambyses"
+    ],
+    [
+     "Darius I",
+     "Darius the Great",
+     "Darius"
+    ],
+    [
+     "Xerxes I",
+     "Xerxes",
+     "Xerxes the Great"
+    ],
+    "Artaxerxes I",
+    "Darius II",
+    "Artaxerxes II",
+    "Artaxerxes III",
+    [
+     "Artaxerxes IV",
+     "Arses"
+    ],
+    [
+     "Darius III",
+     "Codomannus"
+    ],
+    "Xerxes II",
+    "Sogdianus",
+    [
+     "Bardiya",
+     "Smerdis"
+    ]
+   ]
+  },
+  {
+   "id": "xh3-british-irish-folklore-creatures",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a creature from British or Irish folklore",
+   "answers": [
+    "Kelpie",
+    [
+     "Banshee",
+     "Bean Sidhe"
+    ],
+    "Selkie",
+    "Leprechaun",
+    [
+     "Pixie",
+     "Piskie",
+     "Pisky"
+    ],
+    "Brownie",
+    "Boggart",
+    [
+     "Bogeyman",
+     "Boogeyman"
+    ],
+    [
+     "Will-o'-the-wisp",
+     "Will o the wisp",
+     "Jack-o'-lantern"
+    ],
+    [
+     "Black Shuck",
+     "Shuck"
+    ],
+    [
+     "Loch Ness Monster",
+     "Nessie"
+    ],
+    "Green Man",
+    "Jenny Greenteeth",
+    "Redcap",
+    [
+     "Púca",
+     "Pooka",
+     "Puca"
+    ],
+    "Changeling",
+    "Hobgoblin",
+    "Goblin",
+    "Troll",
+    "Giant",
+    [
+     "Dragon",
+     "Y Ddraig Goch",
+     "Welsh Dragon"
+    ],
+    [
+     "Cù Sìth",
+     "Cu Sith",
+     "Fairy Dog"
+    ],
+    [
+     "Each-uisge",
+     "Each Uisge",
+     "Water Horse"
+    ],
+    "Nuckelavee",
+    [
+     "Bean-nighe",
+     "Washer at the Ford",
+     "Bean Nighe"
+    ],
+    [
+     "Knocker",
+     "Tommyknocker"
+    ],
+    "Spriggan",
+    "Barghest",
+    "Grindylow",
+    [
+     "Fairy",
+     "Faerie"
+    ],
+    "Elf",
+    "Mermaid",
+    "Merrow",
+    "Dullahan",
+    "Fachan",
+    "Gruagach",
+    [
+     "Hag",
+     "Cailleach"
+    ],
+    "Imp",
+    [
+     "Lambton Worm",
+     "Laidly Worm"
+    ],
+    "Morgawr",
+    "Hedley Kow",
+    "Bugbear",
+    "Bogle",
+    "Shellycoat",
+    "Wulver",
+    "Fenodyree",
+    "Buggane"
+   ]
+  },
+  {
+   "id": "xh3-celtic-mythology-figures",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a figure from Celtic (Irish, Welsh or Scottish) mythology",
+   "answers": [
+    [
+     "Cú Chulainn",
+     "Cuchulainn",
+     "Cu Chulainn",
+     "Setanta"
+    ],
+    [
+     "Fionn mac Cumhaill",
+     "Finn McCool",
+     "Fionn",
+     "Finn MacCool"
+    ],
+    "Lugh",
+    [
+     "Dagda",
+     "The Dagda"
+    ],
+    [
+     "Morrígan",
+     "Morrigan"
+    ],
+    "Brigid",
+    [
+     "Aengus",
+     "Aengus Og",
+     "Angus"
+    ],
+    [
+     "Danu",
+     "Dana"
+    ],
+    [
+     "Manannán mac Lir",
+     "Manannan",
+     "Manannan mac Lir"
+    ],
+    [
+     "Oisín",
+     "Oisin"
+    ],
+    [
+     "Medb",
+     "Maeve",
+     "Queen Maeve"
+    ],
+    [
+     "Diarmuid",
+     "Diarmuid Ua Duibhne"
+    ],
+    [
+     "Deirdre",
+     "Deirdre of the Sorrows"
+    ],
+    "Balor",
+    "Nuada",
+    "Ogma",
+    "Niamh",
+    [
+     "Étaín",
+     "Etain"
+    ],
+    "Aoife",
+    [
+     "Scáthach",
+     "Scathach"
+    ],
+    "Bran",
+    [
+     "Lir",
+     "Children of Lir"
+    ],
+    "Cernunnos",
+    "Epona",
+    "Rhiannon",
+    "Pwyll",
+    [
+     "Bran the Blessed",
+     "Bendigeidfran"
+    ],
+    "Taliesin",
+    "Arawn",
+    "Gwydion",
+    [
+     "Lleu Llaw Gyffes",
+     "Lleu"
+    ],
+    "Blodeuwedd",
+    "Math",
+    "Arianrhod",
+    "Branwen",
+    "Manawydan",
+    "Culhwch",
+    "Olwen",
+    [
+     "Ceridwen",
+     "Cerridwen"
+    ],
+    "Gwyn ap Nudd",
+    [
+     "Conchobar",
+     "Conor mac Nessa"
+    ],
+    [
+     "Fergus mac Róich",
+     "Fergus"
+    ],
+    "Conall Cernach",
+    "Ferdiad",
+    "Emer",
+    "Cailleach",
+    "Goibniu",
+    "Dian Cécht",
+    [
+     "Sadb",
+     "Sadhbh"
+    ],
+    [
+     "Grainne",
+     "Gráinne"
+    ],
+    "Macha",
+    "Badb",
+    "Nemain",
+    [
+     "Fomorians",
+     "Fomorians"
+    ],
+    "Partholon",
+    [
+     "Mil Espaine",
+     "Míl Espáine"
+    ]
+   ]
+  },
+  {
+   "id": "xh3-bible-women",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a woman in the Bible",
+   "answers": [
+    "Eve",
+    [
+     "Sarah",
+     "Sarai"
+    ],
+    [
+     "Rebecca",
+     "Rebekah"
+    ],
+    "Rachel",
+    "Leah",
+    "Ruth",
+    "Naomi",
+    "Esther",
+    "Deborah",
+    "Delilah",
+    "Bathsheba",
+    "Jezebel",
+    [
+     "Mary",
+     "Virgin Mary",
+     "Mary the mother of Jesus"
+    ],
+    "Elizabeth",
+    "Martha",
+    [
+     "Mary Magdalene",
+     "Magdalene"
+    ],
+    "Hagar",
+    "Miriam",
+    "Hannah",
+    "Dinah",
+    "Tamar",
+    "Rahab",
+    "Abigail",
+    "Salome",
+    "Lydia",
+    "Priscilla",
+    [
+     "Dorcas",
+     "Tabitha"
+    ],
+    "Eunice",
+    "Lois",
+    "Sapphira",
+    "Herodias",
+    "Bilhah",
+    "Zilpah",
+    "Keturah",
+    "Jochebed",
+    "Zipporah",
+    "Michal",
+    "Abishag",
+    "Athaliah",
+    "Vashti",
+    "Anna",
+    "Phoebe",
+    "Joanna",
+    [
+     "Lot's wife",
+     "Lots wife"
+    ],
+    [
+     "Queen of Sheba",
+     "Sheba"
+    ],
+    [
+     "Potiphar's wife",
+     "Potiphars wife"
+    ],
+    "Jael",
+    "Orpah",
+    "Huldah"
+   ]
+  },
+  {
+   "id": "xh3-christian-denominations",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a Christian denomination or church",
+   "answers": [
+    [
+     "Roman Catholic",
+     "Catholic"
+    ],
+    [
+     "Church of England",
+     "Anglican",
+     "Anglicanism"
+    ],
+    [
+     "Methodist",
+     "Methodism"
+    ],
+    "Baptist",
+    "Presbyterian",
+    "Lutheran",
+    [
+     "Quaker",
+     "Society of Friends",
+     "Quakers"
+    ],
+    "Pentecostal",
+    [
+     "Orthodox",
+     "Eastern Orthodox",
+     "Greek Orthodox",
+     "Russian Orthodox"
+    ],
+    [
+     "Mormon",
+     "Latter-day Saints",
+     "LDS",
+     "Church of Jesus Christ of Latter-day Saints"
+    ],
+    [
+     "Jehovah's Witnesses",
+     "Jehovahs Witnesses"
+    ],
+    [
+     "Seventh-day Adventist",
+     "Adventist"
+    ],
+    "Salvation Army",
+    [
+     "Church of Scotland",
+     "Kirk"
+    ],
+    [
+     "Calvinist",
+     "Calvinism"
+    ],
+    [
+     "Congregationalist",
+     "Congregational"
+    ],
+    "Unitarian",
+    "Moravian",
+    "Amish",
+    "Mennonite",
+    [
+     "Coptic Orthodox",
+     "Coptic"
+    ],
+    "Church in Wales",
+    "Church of Ireland",
+    [
+     "Free Church of Scotland",
+     "Wee Frees"
+    ],
+    [
+     "United Reformed Church",
+     "URC"
+    ],
+    "Christadelphians",
+    [
+     "Plymouth Brethren",
+     "Brethren"
+    ],
+    "Assemblies of God",
+    [
+     "Episcopal Church",
+     "Episcopalian"
+    ],
+    "Reformed",
+    "Anabaptist",
+    "Hutterite",
+    "Christian Science",
+    "Elim",
+    "Armenian Apostolic",
+    "Syriac Orthodox",
+    "Ethiopian Orthodox",
+    "Old Catholic",
+    "Greek Catholic",
+    "Maronite"
+   ]
+  },
+  {
+   "id": "xh3-norse-creatures",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a creature or being from Norse mythology",
+   "answers": [
+    [
+     "Fenrir",
+     "Fenris"
+    ],
+    [
+     "Jörmungandr",
+     "Jormungandr",
+     "Midgard Serpent",
+     "World Serpent"
+    ],
+    "Sleipnir",
+    [
+     "Valkyrie",
+     "Valkyries"
+    ],
+    [
+     "Giant",
+     "Jötunn",
+     "Jotunn",
+     "Frost Giant"
+    ],
+    [
+     "Dwarf",
+     "Dwarves",
+     "Dwarfs"
+    ],
+    [
+     "Elf",
+     "Light Elf",
+     "Dark Elf",
+     "Álfar",
+     "Alfar"
+    ],
+    "Ratatoskr",
+    [
+     "Níðhöggr",
+     "Nidhogg"
+    ],
+    "Huginn",
+    "Muninn",
+    [
+     "Fáfnir",
+     "Fafnir"
+    ],
+    "Garm",
+    [
+     "Norns",
+     "Norn"
+    ],
+    "Einherjar",
+    "Troll",
+    "Draugr",
+    "Huldra",
+    "Skoll",
+    "Hati",
+    [
+     "Surtr",
+     "Surt"
+    ],
+    "Ymir",
+    [
+     "Audhumla",
+     "Auðumbla"
+    ],
+    "Heidrun",
+    "Eikthyrnir",
+    [
+     "Mímir",
+     "Mimir"
+    ],
+    "Kraken",
+    "Hrungnir",
+    "Thrym"
+   ]
+  },
+  {
+   "id": "xh3-ot-prophets",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a prophet of the Old Testament or Hebrew Bible",
+   "answers": [
+    "Isaiah",
+    "Jeremiah",
+    "Ezekiel",
+    "Daniel",
+    "Hosea",
+    "Joel",
+    "Amos",
+    "Obadiah",
+    "Jonah",
+    "Micah",
+    "Nahum",
+    "Habakkuk",
+    "Zephaniah",
+    "Haggai",
+    "Zechariah",
+    "Malachi",
+    "Elijah",
+    "Elisha",
+    "Samuel",
+    "Nathan",
+    "Moses",
+    "Aaron",
+    "Miriam",
+    "Deborah",
+    "Gad",
+    "Ahijah",
+    "Micaiah",
+    "Huldah",
+    "Balaam",
+    "Abraham",
+    "Oded",
+    "Shemaiah",
+    "Iddo"
+   ]
+  },
+  {
+   "id": "xh3-famous-treaties",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a famous treaty or peace settlement (by place name, like Versailles)",
+   "answers": [
+    "Versailles",
+    "Rome",
+    "Maastricht",
+    "Lisbon",
+    "Utrecht",
+    "Paris",
+    "Waitangi",
+    "Tordesillas",
+    "Westphalia",
+    "Vienna",
+    "Ghent",
+    "Amiens",
+    [
+     "Union",
+     "Treaty of Union",
+     "Acts of Union"
+    ],
+    [
+     "Nanking",
+     "Nanjing"
+    ],
+    "Brest-Litovsk",
+    "Trianon",
+    [
+     "Sèvres",
+     "Sevres"
+    ],
+    "Lausanne",
+    "Locarno",
+    [
+     "Munich",
+     "Munich Agreement"
+    ],
+    "Verdun",
+    "Troyes",
+    [
+     "Brétigny",
+     "Bretigny"
+    ],
+    "Limerick",
+    "Windsor",
+    "Edinburgh",
+    "Northampton",
+    "Medina del Campo",
+    "Cambrai",
+    [
+     "Câteau-Cambrésis",
+     "Cateau-Cambresis"
+    ],
+    [
+     "Aix-la-Chapelle",
+     "Aachen"
+    ],
+    "Nijmegen",
+    "Ryswick",
+    "Karlowitz",
+    "Passarowitz",
+    "Kuchuk Kainardji",
+    "Jassy",
+    "Tilsit",
+    "Frankfurt",
+    "Berlin",
+    "San Stefano",
+    "Portsmouth",
+    "Shimonoseki",
+    "Saint-Germain",
+    "Neuilly",
+    "Rapallo",
+    "Washington",
+    [
+     "Kellogg-Briand",
+     "Kellogg Briand"
+    ],
+    "Geneva",
+    "Helsinki",
+    "Camp David",
+    "Oslo",
+    "Dayton",
+    [
+     "Good Friday Agreement",
+     "Belfast Agreement"
+    ],
+    "Antarctic",
+    "Kyoto",
+    "Schengen",
+    "Nerchinsk",
+    "Kiakhta",
+    "Georgievsk",
+    "Gulistan",
+    "Turkmenchay",
+    "Adrianople",
+    "Bucharest",
+    "Campo Formio",
+    "Pressburg",
+    [
+     "Schönbrunn",
+     "Schonbrunn"
+    ],
+    "Fontainebleau",
+    "Kiel",
+    "Chaumont",
+    "Pyrenees",
+    "Dover",
+    "Breda",
+    "Westminster",
+    "Roskilde",
+    "Copenhagen",
+    "Nystad",
+    "Stolbovo",
+    "Hudaybiyyah"
+   ]
+  },
+  {
+   "id": "xh3-famous-ships",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a famous historic ship",
+   "answers": [
+    "Titanic",
+    "Mary Rose",
+    [
+     "HMS Victory",
+     "Victory"
+    ],
+    "Cutty Sark",
+    "Golden Hind",
+    "Mayflower",
+    [
+     "HMS Bounty",
+     "Bounty"
+    ],
+    [
+     "Endeavour",
+     "HMS Endeavour"
+    ],
+    [
+     "HMS Discovery",
+     "Discovery"
+    ],
+    [
+     "HMS Beagle",
+     "Beagle"
+    ],
+    "Lusitania",
+    "Bismarck",
+    "Santa Maria",
+    "Queen Mary",
+    [
+     "SS Great Britain",
+     "Great Britain"
+    ],
+    "Great Eastern",
+    [
+     "HMS Warrior",
+     "Warrior"
+    ],
+    [
+     "Ark Royal",
+     "HMS Ark Royal"
+    ],
+    [
+     "HMS Hood",
+     "Hood"
+    ],
+    [
+     "Graf Spee",
+     "Admiral Graf Spee"
+    ],
+    [
+     "Potemkin",
+     "Battleship Potemkin"
+    ],
+    "Kon-Tiki",
+    "Fram",
+    "Nautilus",
+    "Vasa",
+    [
+     "Marie Celeste",
+     "Mary Celeste"
+    ],
+    "Flying Dutchman",
+    "Endurance",
+    "Terra Nova",
+    "Nimrod",
+    "Pinta",
+    [
+     "Niña",
+     "Nina"
+    ],
+    "Mayflower II",
+    [
+     "Queen Elizabeth 2",
+     "QE2"
+    ],
+    "Queen Elizabeth",
+    "Olympic",
+    "Britannic",
+    "Carpathia",
+    "Andrea Doria",
+    "Costa Concordia",
+    "Herald of Free Enterprise",
+    "Rainbow Warrior",
+    [
+     "Belgrano",
+     "General Belgrano",
+     "ARA General Belgrano"
+    ],
+    [
+     "HMS Sheffield",
+     "Sheffield"
+    ],
+    "Sir Galahad",
+    "Canberra",
+    "Atlantic Conveyor",
+    [
+     "HMS Dreadnought",
+     "Dreadnought"
+    ],
+    "Tirpitz",
+    "Yamato",
+    [
+     "Arizona",
+     "USS Arizona"
+    ],
+    [
+     "Missouri",
+     "USS Missouri"
+    ],
+    [
+     "Enterprise",
+     "USS Enterprise"
+    ],
+    [
+     "Constitution",
+     "USS Constitution",
+     "Old Ironsides"
+    ],
+    [
+     "Monitor",
+     "USS Monitor"
+    ],
+    [
+     "Merrimack",
+     "CSS Virginia"
+    ],
+    [
+     "Hunley",
+     "CSS Hunley"
+    ],
+    [
+     "Revenge",
+     "HMS Revenge"
+    ],
+    "Calypso",
+    "Bluenose",
+    [
+     "Windrush",
+     "Empire Windrush"
+    ],
+    "Amistad",
+    [
+     "Erebus",
+     "HMS Erebus"
+    ],
+    [
+     "Terror",
+     "HMS Terror"
+    ],
+    [
+     "Resolution",
+     "HMS Resolution"
+    ],
+    [
+     "Temeraire",
+     "Fighting Temeraire"
+    ],
+    "Royal George",
+    [
+     "Santísima Trinidad",
+     "Santisima Trinidad"
+    ],
+    "Tegetthoff"
+   ]
+  },
+  {
+   "id": "xh3-assassination-victims",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a famous political leader or public figure who was assassinated",
+   "answers": [
+    "Julius Caesar",
+    [
+     "Abraham Lincoln",
+     "Lincoln"
+    ],
+    [
+     "John F. Kennedy",
+     "JFK",
+     "Kennedy"
+    ],
+    [
+     "Mahatma Gandhi",
+     "Gandhi"
+    ],
+    [
+     "Archduke Franz Ferdinand",
+     "Franz Ferdinand"
+    ],
+    [
+     "Martin Luther King",
+     "MLK",
+     "Martin Luther King Jr"
+    ],
+    [
+     "John Lennon",
+     "Lennon"
+    ],
+    [
+     "Spencer Perceval",
+     "Perceval"
+    ],
+    "Malcolm X",
+    [
+     "Thomas Becket",
+     "Becket"
+    ],
+    "Indira Gandhi",
+    "Rajiv Gandhi",
+    [
+     "Anwar Sadat",
+     "Sadat"
+    ],
+    [
+     "Yitzhak Rabin",
+     "Rabin"
+    ],
+    [
+     "James Garfield",
+     "Garfield"
+    ],
+    [
+     "William McKinley",
+     "McKinley"
+    ],
+    [
+     "Alexander II",
+     "Tsar Alexander II"
+    ],
+    [
+     "Olof Palme",
+     "Palme"
+    ],
+    [
+     "Lord Mountbatten",
+     "Louis Mountbatten",
+     "Mountbatten"
+    ],
+    [
+     "Airey Neave",
+     "Neave"
+    ],
+    [
+     "Benazir Bhutto",
+     "Bhutto"
+    ],
+    [
+     "Henry IV of France",
+     "Henri IV"
+    ],
+    [
+     "Leon Trotsky",
+     "Trotsky"
+    ],
+    "Caligula",
+    [
+     "Robert F. Kennedy",
+     "Bobby Kennedy",
+     "Robert Kennedy",
+     "RFK"
+    ],
+    [
+     "Pim Fortuyn",
+     "Fortuyn"
+    ],
+    [
+     "Shinzo Abe",
+     "Abe"
+    ],
+    "Jo Cox",
+    [
+     "David Amess",
+     "Amess"
+    ],
+    [
+     "Patrice Lumumba",
+     "Lumumba"
+    ],
+    [
+     "Thomas Sankara",
+     "Sankara"
+    ],
+    [
+     "Harvey Milk",
+     "Milk"
+    ],
+    [
+     "Medgar Evers",
+     "Evers"
+    ],
+    [
+     "Archbishop Romero",
+     "Óscar Romero",
+     "Oscar Romero"
+    ],
+    "Park Chung-hee",
+    [
+     "Hendrik Verwoerd",
+     "Verwoerd"
+    ],
+    "Liaquat Ali Khan",
+    [
+     "Mujibur Rahman",
+     "Sheikh Mujib"
+    ],
+    [
+     "Ahmed Shah Massoud",
+     "Massoud"
+    ],
+    [
+     "King Faisal",
+     "Faisal"
+    ],
+    [
+     "Empress Elisabeth",
+     "Sisi"
+    ],
+    "Umberto I",
+    [
+     "Aldo Moro",
+     "Moro"
+    ],
+    "Sir Henry Wilson",
+    "Kevin O'Higgins",
+    [
+     "Walther Rathenau",
+     "Rathenau"
+    ],
+    [
+     "Reinhard Heydrich",
+     "Heydrich"
+    ],
+    [
+     "Engelbert Dollfuss",
+     "Dollfuss"
+    ],
+    [
+     "Pavel Stolypin",
+     "Stolypin"
+    ],
+    [
+     "Sergey Kirov",
+     "Kirov"
+    ],
+    [
+     "Duke of Buckingham",
+     "George Villiers"
+    ],
+    [
+     "Rafik Hariri",
+     "Hariri"
+    ],
+    [
+     "Zoran Djindjic",
+     "Djindjic"
+    ],
+    "Pierre Gemayel",
+    "Bashir Gemayel",
+    [
+     "Jovenel Moïse",
+     "Jovenel Moise"
+    ],
+    [
+     "Tom Mboya",
+     "Mboya"
+    ],
+    [
+     "Amilcar Cabral",
+     "Cabral"
+    ],
+    [
+     "Eduardo Mondlane",
+     "Mondlane"
+    ],
+    [
+     "Chris Hani",
+     "Hani"
+    ]
+   ]
+  },
+  {
+   "id": "xh3-polar-explorers",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a polar explorer",
+   "answers": [
+    [
+     "Robert Falcon Scott",
+     "Captain Scott",
+     "Scott"
+    ],
+    [
+     "Ernest Shackleton",
+     "Shackleton"
+    ],
+    [
+     "Roald Amundsen",
+     "Amundsen"
+    ],
+    [
+     "Robert Peary",
+     "Peary"
+    ],
+    [
+     "Frederick Cook",
+     "Dr Cook"
+    ],
+    [
+     "Fridtjof Nansen",
+     "Nansen"
+    ],
+    [
+     "John Franklin",
+     "Franklin",
+     "Sir John Franklin"
+    ],
+    [
+     "Douglas Mawson",
+     "Mawson"
+    ],
+    [
+     "Richard Byrd",
+     "Byrd"
+    ],
+    [
+     "Ranulph Fiennes",
+     "Fiennes"
+    ],
+    [
+     "Lawrence Oates",
+     "Oates",
+     "Captain Oates"
+    ],
+    [
+     "Edward Wilson",
+     "Wilson"
+    ],
+    [
+     "Henry Bowers",
+     "Bowers",
+     "Birdie Bowers"
+    ],
+    [
+     "Edgar Evans",
+     "Taff Evans"
+    ],
+    [
+     "Apsley Cherry-Garrard",
+     "Cherry-Garrard"
+    ],
+    [
+     "Edmund Hillary",
+     "Hillary"
+    ],
+    [
+     "Frank Wild",
+     "Wild"
+    ],
+    [
+     "Tom Crean",
+     "Crean"
+    ],
+    [
+     "Umberto Nobile",
+     "Nobile"
+    ],
+    [
+     "Knud Rasmussen",
+     "Rasmussen"
+    ],
+    [
+     "Henry Hudson",
+     "Hudson"
+    ],
+    [
+     "James Clark Ross",
+     "James Ross",
+     "Ross"
+    ],
+    [
+     "William Parry",
+     "Parry"
+    ],
+    [
+     "George Back",
+     "Back"
+    ],
+    [
+     "Matthew Henson",
+     "Henson"
+    ],
+    [
+     "Vivian Fuchs",
+     "Fuchs"
+    ],
+    [
+     "Carsten Borchgrevink",
+     "Borchgrevink"
+    ],
+    [
+     "Adrien de Gerlache",
+     "Gerlache"
+    ],
+    [
+     "Otto Sverdrup",
+     "Sverdrup"
+    ],
+    [
+     "Salomon Andrée",
+     "Andrée"
+    ],
+    [
+     "Borge Ousland",
+     "Ousland"
+    ],
+    [
+     "Robert Swan",
+     "Swan"
+    ],
+    [
+     "Wally Herbert",
+     "Herbert"
+    ],
+    [
+     "Pen Hadow",
+     "Hadow"
+    ],
+    [
+     "Ben Saunders",
+     "Saunders"
+    ],
+    [
+     "Felicity Aston",
+     "Aston"
+    ],
+    [
+     "Frank Hurley",
+     "Hurley"
+    ],
+    [
+     "Frank Worsley",
+     "Worsley"
+    ],
+    [
+     "John Rae",
+     "Rae"
+    ],
+    [
+     "Elisha Kent Kane",
+     "Kane"
+    ],
+    [
+     "William Scoresby",
+     "Scoresby"
+    ],
+    [
+     "Martin Frobisher",
+     "Frobisher"
+    ],
+    [
+     "Willem Barentsz",
+     "Barents"
+    ],
+    [
+     "Vitus Bering",
+     "Bering"
+    ]
+   ]
+  },
+  {
+   "id": "xh3-famous-wars",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a famous war or long conflict",
+   "answers": [
+    [
+     "Hundred Years' War",
+     "Hundred Years War"
+    ],
+    [
+     "Thirty Years' War",
+     "Thirty Years War"
+    ],
+    "Cold War",
+    "Wars of the Roses",
+    [
+     "Boer War",
+     "Anglo-Boer War",
+     "Second Boer War"
+    ],
+    "Crimean War",
+    "Vietnam War",
+    "Korean War",
+    "Gulf War",
+    [
+     "Napoleonic Wars",
+     "Napoleonic War"
+    ],
+    "Peninsular War",
+    [
+     "Opium Wars",
+     "First Opium War",
+     "Second Opium War"
+    ],
+    [
+     "Punic Wars",
+     "Second Punic War",
+     "First Punic War"
+    ],
+    [
+     "First World War",
+     "World War One",
+     "World War 1",
+     "WW1",
+     "WWI",
+     "Great War"
+    ],
+    [
+     "Second World War",
+     "World War Two",
+     "World War 2",
+     "WW2",
+     "WWII"
+    ],
+    [
+     "American Civil War",
+     "US Civil War"
+    ],
+    [
+     "English Civil War",
+     "Civil War"
+    ],
+    [
+     "American War of Independence",
+     "American Revolutionary War",
+     "Revolutionary War"
+    ],
+    "War of 1812",
+    "Spanish Civil War",
+    [
+     "Falklands War",
+     "Falklands"
+    ],
+    "Iraq War",
+    [
+     "Afghan War",
+     "War in Afghanistan",
+     "Afghanistan War"
+    ],
+    [
+     "Six-Day War",
+     "Six Day War"
+    ],
+    "Yom Kippur War",
+    "Suez Crisis",
+    [
+     "Seven Years' War",
+     "Seven Years War"
+    ],
+    "War of the Spanish Succession",
+    "War of the Austrian Succession",
+    [
+     "Greco-Persian Wars",
+     "Persian Wars"
+    ],
+    "Peloponnesian War",
+    "Trojan War",
+    [
+     "Crusades",
+     "The Crusades"
+    ],
+    "Russo-Japanese War",
+    "Franco-Prussian War",
+    "Mexican-American War",
+    "Spanish-American War",
+    "Iran-Iraq War",
+    "Russian Civil War",
+    "Chinese Civil War",
+    "Bosnian War",
+    "Kosovo War",
+    [
+     "Anglo-Zulu War",
+     "Zulu War"
+    ],
+    [
+     "Anglo-Afghan Wars",
+     "Anglo-Afghan War"
+    ],
+    [
+     "War of Jenkins' Ear",
+     "War of Jenkins Ear"
+    ],
+    [
+     "Eighty Years' War",
+     "Eighty Years War"
+    ],
+    "Great Northern War",
+    "Wars of Scottish Independence",
+    "Jacobite Risings",
+    "Franco-Dutch War",
+    "Nine Years' War",
+    "Barons' War",
+    "Anarchy",
+    "Anglo-Dutch Wars",
+    "Anglo-Spanish War",
+    [
+     "Cod Wars",
+     "Cod War"
+    ],
+    "Malayan Emergency",
+    "Mau Mau Uprising",
+    "Troubles",
+    "Balkan Wars",
+    [
+     "Indo-Pakistani War",
+     "Indo-Pakistani Wars"
+    ],
+    "War on Terror",
+    "Boxer Rebellion",
+    "Pacific War",
+    "Sino-Japanese War"
+   ]
+  },
+  {
+   "id": "xh3-historical-periods",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a named period or age of history (British or world, like Tudor)",
+   "answers": [
+    "Stone Age",
+    [
+     "Palaeolithic",
+     "Paleolithic"
+    ],
+    "Mesolithic",
+    "Neolithic",
+    "Bronze Age",
+    "Iron Age",
+    [
+     "Roman Britain",
+     "Roman",
+     "Roman Era"
+    ],
+    [
+     "Anglo-Saxon",
+     "Anglo-Saxon England"
+    ],
+    [
+     "Viking Age",
+     "Viking"
+    ],
+    [
+     "Medieval",
+     "Middle Ages",
+     "Medieval Period"
+    ],
+    [
+     "Norman",
+     "Norman England"
+    ],
+    "Plantagenet",
+    "Tudor",
+    "Elizabethan",
+    "Stuart",
+    "Jacobean",
+    "Restoration",
+    [
+     "Georgian",
+     "Georgian Era"
+    ],
+    "Regency",
+    [
+     "Victorian",
+     "Victorian Era"
+    ],
+    [
+     "Edwardian",
+     "Edwardian Era"
+    ],
+    [
+     "Interwar",
+     "Inter-war"
+    ],
+    "Renaissance",
+    "Reformation",
+    [
+     "Enlightenment",
+     "Age of Enlightenment"
+    ],
+    "Industrial Revolution",
+    "Dark Ages",
+    [
+     "Interregnum",
+     "Commonwealth"
+    ],
+    "Cold War",
+    [
+     "Swinging Sixties",
+     "Swinging 60s"
+    ],
+    "Age of Discovery",
+    "Space Age",
+    "Atomic Age",
+    "Jazz Age",
+    "Gilded Age",
+    [
+     "Belle Époque",
+     "Belle Epoque"
+    ],
+    [
+     "Roaring Twenties",
+     "Roaring 20s"
+    ],
+    "Age of Reason",
+    [
+     "Romantic Era",
+     "Romanticism"
+    ],
+    "Angevin",
+    [
+     "Early Modern",
+     "Early Modern Period"
+    ],
+    "Late Antiquity"
+   ]
+  }
+ ]
+}

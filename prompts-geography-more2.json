@@ -1,0 +1,2666 @@
+{
+ "cat": "geography",
+ "prompts": [
+  {
+   "id": "xg2-africa-rivers",
+   "tags": [
+    "physical",
+    "africa"
+   ],
+   "text": "Name a river in Africa",
+   "answers": [
+    "Nile",
+    "Congo",
+    "Niger",
+    [
+     "Zambezi",
+     "Zambesi"
+    ],
+    "Limpopo",
+    "Orange",
+    "Senegal",
+    "Volta",
+    "Okavango",
+    "Benue",
+    [
+     "Ubangi",
+     "Oubangui"
+    ],
+    "Kasai",
+    "Lualaba",
+    "Gambia",
+    "Vaal",
+    "Tana",
+    "Juba",
+    [
+     "Shebelle",
+     "Shabelle",
+     "Webi Shebelle"
+    ],
+    "Atbara",
+    "Blue Nile",
+    "White Nile",
+    [
+     "Cuanza",
+     "Kwanza"
+    ],
+    [
+     "Cunene",
+     "Kunene"
+    ],
+    "Rufiji",
+    [
+     "Ruvuma",
+     "Rovuma"
+    ],
+    [
+     "Save",
+     "Sabi"
+    ],
+    [
+     "Chari",
+     "Shari"
+    ],
+    [
+     "Ogooue",
+     "Ogowe"
+    ],
+    "Sanaga",
+    [
+     "Draa",
+     "Oued Draa"
+    ],
+    "Moulouya",
+    [
+     "Medjerda",
+     "Majerda"
+    ],
+    "Kafue",
+    "Luangwa",
+    "Shire",
+    [
+     "Cubango",
+     "Kavango"
+    ],
+    "Awash",
+    "Omo",
+    "Pangani",
+    "Sassandra",
+    [
+     "Comoe",
+     "Komoe"
+    ],
+    "Cavally",
+    "Bafing",
+    "Kagera",
+    "Semliki",
+    "Tugela",
+    [
+     "Great Fish River",
+     "Great Fish"
+    ],
+    "Berg",
+    "Olifants",
+    "Komati",
+    "Betsiboka",
+    "Mangoky",
+    "Sobat",
+    "Aruwimi",
+    [
+     "Uele",
+     "Uelle"
+    ],
+    "Kwango",
+    "Sankuru",
+    "Lomami",
+    "Chambeshi",
+    "Cross River",
+    "Wouri",
+    "Mono",
+    "Oueme",
+    "Black Volta",
+    "Sankarani",
+    "Mara",
+    [
+     "Ewaso Ng'iro",
+     "Ewaso Nyiro"
+    ],
+    "Galana",
+    "Athi"
+   ]
+  },
+  {
+   "id": "xg2-africa-national-parks",
+   "tags": [
+    "physical",
+    "africa"
+   ],
+   "text": "Name a national park or game reserve in Africa",
+   "answers": [
+    "Serengeti",
+    [
+     "Kruger",
+     "Kruger National Park"
+    ],
+    [
+     "Masai Mara",
+     "Maasai Mara",
+     "Mara"
+    ],
+    "Etosha",
+    "Okavango Delta",
+    "Chobe",
+    "Amboseli",
+    "Tsavo",
+    [
+     "Ngorongoro",
+     "Ngorongoro Crater"
+    ],
+    "Virunga",
+    [
+     "Bwindi",
+     "Bwindi Impenetrable"
+    ],
+    "Kafue",
+    [
+     "South Luangwa",
+     "Luangwa"
+    ],
+    "Hwange",
+    "Pilanesberg",
+    [
+     "Addo",
+     "Addo Elephant Park"
+    ],
+    [
+     "Namib-Naukluft",
+     "Namib Naukluft"
+    ],
+    [
+     "Kgalagadi",
+     "Kgalagadi Transfrontier Park"
+    ],
+    "Ruaha",
+    [
+     "Selous",
+     "Nyerere",
+     "Nyerere National Park"
+    ],
+    "Tarangire",
+    "Lake Nakuru",
+    "Murchison Falls",
+    [
+     "Queen Elizabeth",
+     "Queen Elizabeth National Park"
+    ],
+    [
+     "Kidepo",
+     "Kidepo Valley"
+    ],
+    "Gorongosa",
+    "Garamba",
+    "Mana Pools",
+    "Moremi",
+    [
+     "Sabi Sands",
+     "Sabi Sand"
+    ],
+    [
+     "iSimangaliso",
+     "St Lucia Wetland Park",
+     "Greater St Lucia Wetland Park"
+    ],
+    "Kakum",
+    [
+     "Mole",
+     "Mole National Park"
+    ],
+    "Pendjari",
+    [
+     "Niokolo-Koba",
+     "Niokolo Koba"
+    ],
+    "Djoudj",
+    [
+     "Volcanoes National Park",
+     "Parc National des Volcans"
+    ],
+    "Nyungwe",
+    "Akagera",
+    [
+     "Gombe Stream",
+     "Gombe"
+    ],
+    [
+     "Mahale",
+     "Mahale Mountains"
+    ],
+    [
+     "Hluhluwe-iMfolozi",
+     "Hluhluwe"
+    ],
+    "Table Mountain National Park",
+    "Samburu",
+    [
+     "Lake Manyara",
+     "Manyara"
+    ],
+    "Ol Pejeta",
+    "Laikipia",
+    "Mount Kenya National Park",
+    "Aberdare",
+    "Skeleton Coast",
+    "Waterberg",
+    [
+     "Matobo",
+     "Matopos"
+    ],
+    "Zakouma",
+    "Loango",
+    "Lope",
+    "Odzala",
+    [
+     "Kahuzi-Biega",
+     "Kahuzi Biega"
+    ],
+    "Salonga",
+    "Kibale",
+    "Mgahinga",
+    [
+     "Rwenzori Mountains",
+     "Rwenzori"
+    ],
+    [
+     "Bale Mountains",
+     "Bale"
+    ],
+    [
+     "Simien Mountains",
+     "Simien"
+    ],
+    [
+     "Tassili n'Ajjer",
+     "Tassili"
+    ],
+    "Toubkal National Park",
+    "Ichkeul",
+    "Banc d'Arguin",
+    [
+     "Tai National Park",
+     "Taï"
+    ],
+    "Liwonde",
+    "Majete",
+    "Nyika",
+    "Kasanka",
+    "Lower Zambezi",
+    [
+     "Mosi-oa-Tunya",
+     "Victoria Falls National Park"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-africa-east-countries",
+   "tags": [
+    "countries",
+    "africa"
+   ],
+   "text": "Name a country in Eastern Africa (UN regions; Zambia, Zimbabwe, Malawi and Mozambique count)",
+   "answers": [
+    "Burundi",
+    "Comoros",
+    "Djibouti",
+    "Eritrea",
+    "Ethiopia",
+    "Kenya",
+    "Madagascar",
+    "Malawi",
+    "Mauritius",
+    "Mozambique",
+    "Rwanda",
+    "Seychelles",
+    "Somalia",
+    "South Sudan",
+    "Tanzania",
+    "Uganda",
+    "Zambia",
+    "Zimbabwe"
+   ]
+  },
+  {
+   "id": "xg2-africa-independence-1960",
+   "tags": [
+    "countries",
+    "africa"
+   ],
+   "text": "Name an African country that gained independence in 1960 (the 'Year of Africa')",
+   "answers": [
+    "Cameroon",
+    "Togo",
+    "Madagascar",
+    [
+     "DR Congo",
+     "Zaire",
+     "Belgian Congo",
+     "Congo Kinshasa"
+    ],
+    "Somalia",
+    [
+     "Benin",
+     "Dahomey"
+    ],
+    "Niger",
+    [
+     "Burkina Faso",
+     "Upper Volta"
+    ],
+    "Ivory Coast",
+    "Chad",
+    "Central African Republic",
+    [
+     "Republic of the Congo",
+     "French Congo",
+     "Congo Brazzaville",
+     "Middle Congo"
+    ],
+    "Gabon",
+    "Senegal",
+    "Mali",
+    "Nigeria",
+    "Mauritania"
+   ]
+  },
+  {
+   "id": "xg2-borders-algeria-libya-egypt",
+   "tags": [
+    "countries",
+    "africa"
+   ],
+   "text": "Name a country or territory bordering Algeria, Libya or Egypt (Libya borders both of the others, so all three count)",
+   "answers": [
+    "Algeria",
+    "Libya",
+    "Egypt",
+    "Morocco",
+    "Western Sahara",
+    "Mauritania",
+    "Mali",
+    "Niger",
+    "Tunisia",
+    "Chad",
+    "Sudan",
+    "Israel",
+    [
+     "Palestine",
+     "Gaza",
+     "Gaza Strip"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-borders-senegal-guinea-mali",
+   "tags": [
+    "countries",
+    "africa"
+   ],
+   "text": "Name a country bordering Senegal, Guinea or Mali (they all border each other, so all three count)",
+   "answers": [
+    "Senegal",
+    "Guinea",
+    "Mali",
+    "Mauritania",
+    "Gambia",
+    "Guinea-Bissau",
+    "Sierra Leone",
+    "Liberia",
+    "Ivory Coast",
+    "Burkina Faso",
+    "Niger",
+    "Algeria"
+   ]
+  },
+  {
+   "id": "xg2-africa-west-capitals",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name the capital of a country in Western Africa (UN regions; official capitals plus the seats of government Cotonou and Abidjan)",
+   "answers": [
+    "Porto-Novo",
+    "Cotonou",
+    "Ouagadougou",
+    "Praia",
+    "Yamoussoukro",
+    "Abidjan",
+    "Banjul",
+    "Accra",
+    "Conakry",
+    "Bissau",
+    "Monrovia",
+    "Bamako",
+    "Nouakchott",
+    "Niamey",
+    "Abuja",
+    "Dakar",
+    "Freetown",
+    [
+     "Lomé",
+     "Lome"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-africa-east-capitals",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name the capital of a country in Eastern Africa (UN regions; official capitals as of 2025)",
+   "answers": [
+    "Gitega",
+    "Moroni",
+    [
+     "Djibouti",
+     "Djibouti City"
+    ],
+    "Asmara",
+    "Addis Ababa",
+    "Nairobi",
+    [
+     "Antananarivo",
+     "Tana"
+    ],
+    "Lilongwe",
+    "Port Louis",
+    "Maputo",
+    "Kigali",
+    "Victoria",
+    [
+     "Mogadishu",
+     "Mogadiscio"
+    ],
+    "Juba",
+    "Dodoma",
+    "Kampala",
+    "Lusaka",
+    "Harare"
+   ]
+  },
+  {
+   "id": "xg2-africa-north-central-south-capitals",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name the capital of a country in Northern, Central or Southern Africa (UN regions; all three South African capitals count)",
+   "answers": [
+    "Algiers",
+    "Cairo",
+    "Tripoli",
+    "Rabat",
+    "Khartoum",
+    "Tunis",
+    "Luanda",
+    [
+     "Yaoundé",
+     "Yaounde"
+    ],
+    "Bangui",
+    [
+     "N'Djamena",
+     "Ndjamena"
+    ],
+    "Brazzaville",
+    "Kinshasa",
+    "Malabo",
+    "Libreville",
+    [
+     "São Tomé",
+     "Sao Tome"
+    ],
+    "Gaborone",
+    "Maseru",
+    "Windhoek",
+    [
+     "Pretoria",
+     "Tshwane"
+    ],
+    "Cape Town",
+    "Bloemfontein",
+    "Mbabane",
+    "Lobamba"
+   ]
+  },
+  {
+   "id": "xg2-africa-former-french",
+   "tags": [
+    "countries",
+    "africa"
+   ],
+   "text": "Name an African country that was once ruled by France (colony, protectorate or mandate)",
+   "answers": [
+    "Algeria",
+    "Morocco",
+    "Tunisia",
+    "Mauritania",
+    "Senegal",
+    "Mali",
+    "Guinea",
+    "Ivory Coast",
+    "Burkina Faso",
+    "Niger",
+    "Benin",
+    "Togo",
+    "Cameroon",
+    "Chad",
+    "Central African Republic",
+    [
+     "Republic of the Congo",
+     "French Congo"
+    ],
+    "Gabon",
+    "Madagascar",
+    "Comoros",
+    "Djibouti"
+   ]
+  },
+  {
+   "id": "xg2-africa-ports",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name a port city in Africa",
+   "answers": [
+    "Durban",
+    "Mombasa",
+    "Lagos",
+    "Alexandria",
+    "Casablanca",
+    "Dar es Salaam",
+    [
+     "Tangier",
+     "Tanger"
+    ],
+    "Tema",
+    "Abidjan",
+    "Dakar",
+    "Maputo",
+    "Port Said",
+    "Cape Town",
+    [
+     "Port Elizabeth",
+     "Gqeberha"
+    ],
+    "Luanda",
+    "Beira",
+    [
+     "Djibouti",
+     "Djibouti City"
+    ],
+    "Walvis Bay",
+    "Tunis",
+    "Algiers",
+    "Tripoli",
+    "Port Louis",
+    "Suez",
+    "Nouakchott",
+    "Conakry",
+    "Freetown",
+    "Monrovia",
+    "Takoradi",
+    "Douala",
+    "Libreville",
+    "Port Harcourt",
+    "Matadi",
+    "Massawa",
+    "Berbera",
+    "Mogadishu",
+    "Port Sudan",
+    "Oran",
+    "Bizerte",
+    "Sfax",
+    "Benghazi",
+    "Misrata",
+    "Safi",
+    "Agadir",
+    [
+     "Lomé",
+     "Lome"
+    ],
+    "Cotonou",
+    "Banjul",
+    "Richards Bay",
+    "East London",
+    "Saldanha Bay",
+    "Lobito",
+    "Nacala",
+    [
+     "Toamasina",
+     "Tamatave"
+    ],
+    "Bejaia",
+    "Annaba",
+    "Skikda",
+    "Damietta",
+    "Port Gentil",
+    [
+     "Pointe-Noire",
+     "Pointe Noire"
+    ],
+    "Kribi"
+   ]
+  },
+  {
+   "id": "xg2-south-africa-provinces",
+   "tags": [
+    "regions",
+    "africa"
+   ],
+   "text": "Name one of South Africa's nine provinces, or one of its three capital cities",
+   "answers": [
+    "Eastern Cape",
+    "Free State",
+    "Gauteng",
+    [
+     "KwaZulu-Natal",
+     "Kwazulu Natal",
+     "Natal"
+    ],
+    "Limpopo",
+    "Mpumalanga",
+    "North West",
+    "Northern Cape",
+    "Western Cape",
+    [
+     "Pretoria",
+     "Tshwane"
+    ],
+    "Cape Town",
+    "Bloemfontein"
+   ]
+  },
+  {
+   "id": "xg2-south-africa-cities",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name a city or town in South Africa",
+   "answers": [
+    [
+     "Johannesburg",
+     "Joburg"
+    ],
+    "Cape Town",
+    "Durban",
+    [
+     "Pretoria",
+     "Tshwane"
+    ],
+    [
+     "Port Elizabeth",
+     "Gqeberha"
+    ],
+    "Bloemfontein",
+    "East London",
+    "Pietermaritzburg",
+    "Kimberley",
+    "Polokwane",
+    [
+     "Nelspruit",
+     "Mbombela"
+    ],
+    "Stellenbosch",
+    "Soweto",
+    "Sandton",
+    "Knysna",
+    "George",
+    "Paarl",
+    "Franschhoek",
+    "Hermanus",
+    "Mossel Bay",
+    [
+     "Plettenberg Bay",
+     "Plett"
+    ],
+    "Oudtshoorn",
+    "Rustenburg",
+    "Potchefstroom",
+    "Upington",
+    "Richards Bay",
+    "Ladysmith",
+    "Newcastle",
+    "Midrand",
+    "Centurion",
+    "Benoni",
+    "Boksburg",
+    "Germiston",
+    "Springs",
+    "Vereeniging",
+    "Welkom",
+    "Bethlehem",
+    "Graaff-Reinet",
+    [
+     "Grahamstown",
+     "Makhanda"
+    ],
+    "Port Shepstone",
+    "Ballito",
+    "Umhlanga",
+    "Somerset West",
+    "Worcester",
+    "Swellendam",
+    [
+     "Lüderitz",
+     "Luderitz"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-egypt-cities",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name a city or resort in Egypt",
+   "answers": [
+    "Cairo",
+    "Alexandria",
+    "Giza",
+    "Luxor",
+    "Aswan",
+    [
+     "Sharm El Sheikh",
+     "Sharm"
+    ],
+    "Hurghada",
+    "Port Said",
+    "Suez",
+    "Mansoura",
+    "Tanta",
+    [
+     "Faiyum",
+     "Fayoum"
+    ],
+    "Ismailia",
+    [
+     "Asyut",
+     "Assiut"
+    ],
+    "Damietta",
+    "Minya",
+    "Sohag",
+    "Zagazig",
+    "Qena",
+    "Dahab",
+    "Marsa Alam",
+    "Siwa",
+    "El Gouna",
+    "Taba",
+    "Nuweiba",
+    "Safaga",
+    "Makadi Bay",
+    "Soma Bay",
+    [
+     "Marsa Matruh",
+     "Mersa Matruh"
+    ],
+    "El Alamein",
+    "Edfu",
+    "Kom Ombo",
+    "Abu Simbel",
+    "Beni Suef",
+    "Damanhur",
+    "Banha",
+    "Kafr El Sheikh",
+    [
+     "Arish",
+     "El Arish"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-morocco-tunisia-places",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name a city or resort in Morocco or Tunisia",
+   "answers": [
+    [
+     "Marrakech",
+     "Marrakesh"
+    ],
+    "Casablanca",
+    [
+     "Fez",
+     "Fes"
+    ],
+    "Rabat",
+    [
+     "Tangier",
+     "Tanger"
+    ],
+    "Agadir",
+    "Essaouira",
+    "Chefchaouen",
+    "Meknes",
+    "Ouarzazate",
+    "Tetouan",
+    "Oujda",
+    "Merzouga",
+    "Dakhla",
+    "Asilah",
+    "Ifrane",
+    "El Jadida",
+    "Safi",
+    "Kenitra",
+    "Nador",
+    "Tunis",
+    "Sousse",
+    "Hammamet",
+    "Djerba",
+    "Monastir",
+    "Sfax",
+    "Kairouan",
+    "Carthage",
+    "Port El Kantaoui",
+    "Tozeur",
+    "Tabarka",
+    "Mahdia",
+    "Bizerte",
+    "Nabeul",
+    [
+     "Gabès",
+     "Gabes"
+    ],
+    "Douz",
+    "Matmata",
+    "Sidi Bou Said",
+    "Yasmine Hammamet",
+    "Zarzis",
+    "Tataouine"
+   ]
+  },
+  {
+   "id": "xg2-kenya-tanzania-places",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name a city or resort in Kenya or Tanzania",
+   "answers": [
+    "Nairobi",
+    "Mombasa",
+    "Nakuru",
+    "Kisumu",
+    "Malindi",
+    [
+     "Diani",
+     "Diani Beach"
+    ],
+    "Lamu",
+    "Eldoret",
+    "Naivasha",
+    "Thika",
+    "Dar es Salaam",
+    [
+     "Zanzibar",
+     "Zanzibar City",
+     "Stone Town"
+    ],
+    "Arusha",
+    "Dodoma",
+    "Mwanza",
+    "Moshi",
+    "Tanga",
+    "Mbeya",
+    "Nanyuki",
+    "Watamu",
+    "Kilifi",
+    "Nyeri",
+    "Machakos",
+    "Kakamega",
+    "Kitale",
+    "Embu",
+    "Kericho",
+    "Meru",
+    "Garissa",
+    "Morogoro",
+    "Iringa",
+    "Kigoma",
+    "Tabora",
+    "Musoma",
+    "Bagamoyo",
+    "Pemba",
+    [
+     "Mafia Island",
+     "Mafia"
+    ],
+    "Kilwa",
+    "Lindi",
+    "Mtwara",
+    "Songea",
+    "Singida",
+    "Shinyanga"
+   ]
+  },
+  {
+   "id": "xg2-asia-ese-capitals",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name the capital of a country in East or South-East Asia (Taiwan's capital counts)",
+   "answers": [
+    [
+     "Beijing",
+     "Peking"
+    ],
+    "Tokyo",
+    "Seoul",
+    "Pyongyang",
+    [
+     "Ulaanbaatar",
+     "Ulan Bator"
+    ],
+    "Taipei",
+    "Hanoi",
+    "Bangkok",
+    "Phnom Penh",
+    "Vientiane",
+    [
+     "Naypyidaw",
+     "Nay Pyi Taw",
+     "Naypyitaw"
+    ],
+    "Kuala Lumpur",
+    "Putrajaya",
+    "Singapore",
+    "Jakarta",
+    "Manila",
+    "Bandar Seri Begawan",
+    "Dili"
+   ]
+  },
+  {
+   "id": "xg2-asia-swc-capitals",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name the capital of a country in South, Central or Western Asia (UN regions; Jerusalem as the capital Israel declares)",
+   "answers": [
+    [
+     "New Delhi",
+     "Delhi"
+    ],
+    "Islamabad",
+    [
+     "Dhaka",
+     "Dacca"
+    ],
+    "Kathmandu",
+    "Thimphu",
+    [
+     "Colombo",
+     "Sri Jayawardenepura Kotte",
+     "Kotte"
+    ],
+    [
+     "Malé",
+     "Male"
+    ],
+    "Kabul",
+    "Tehran",
+    "Baghdad",
+    "Riyadh",
+    "Kuwait City",
+    "Doha",
+    "Manama",
+    "Abu Dhabi",
+    "Muscat",
+    [
+     "Sanaa",
+     "Sana'a"
+    ],
+    "Amman",
+    "Damascus",
+    "Beirut",
+    "Jerusalem",
+    "Ankara",
+    "Baku",
+    "Tbilisi",
+    "Yerevan",
+    "Nicosia",
+    [
+     "Astana",
+     "Nur-Sultan"
+    ],
+    "Tashkent",
+    "Bishkek",
+    "Dushanbe",
+    [
+     "Ashgabat",
+     "Ashkhabad"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-asia-currencies",
+   "tags": [
+    "countries",
+    "asia"
+   ],
+   "text": "Name a currency used in Asia (national currencies; the base name is enough, like rupee)",
+   "answers": [
+    "Yen",
+    [
+     "Yuan",
+     "Renminbi",
+     "RMB"
+    ],
+    [
+     "Dollar",
+     "Hong Kong dollar",
+     "Singapore dollar",
+     "Taiwan dollar",
+     "New Taiwan dollar",
+     "Brunei dollar"
+    ],
+    "Pataca",
+    "Won",
+    [
+     "Tugrik",
+     "Tögrög",
+     "Togrog"
+    ],
+    "Rupee",
+    "Taka",
+    "Ngultrum",
+    "Rufiyaa",
+    "Afghani",
+    "Baht",
+    "Dong",
+    "Riel",
+    "Kip",
+    "Kyat",
+    "Ringgit",
+    "Rupiah",
+    [
+     "Peso",
+     "Philippine peso"
+    ],
+    [
+     "Rial",
+     "Iranian rial",
+     "Omani rial",
+     "Yemeni rial"
+    ],
+    [
+     "Riyal",
+     "Saudi riyal",
+     "Qatari riyal"
+    ],
+    [
+     "Dinar",
+     "Iraqi dinar",
+     "Kuwaiti dinar",
+     "Jordanian dinar",
+     "Bahraini dinar"
+    ],
+    [
+     "Dirham",
+     "UAE dirham"
+    ],
+    [
+     "Shekel",
+     "Israeli shekel",
+     "New Shekel"
+    ],
+    [
+     "Lira",
+     "Turkish lira"
+    ],
+    [
+     "Pound",
+     "Lebanese pound",
+     "Syrian pound"
+    ],
+    [
+     "Dram",
+     "Armenian dram"
+    ],
+    [
+     "Lari",
+     "Georgian lari"
+    ],
+    [
+     "Manat",
+     "Azerbaijani manat",
+     "Turkmen manat"
+    ],
+    [
+     "Tenge",
+     "Kazakh tenge"
+    ],
+    [
+     "Som",
+     "Uzbek som",
+     "Kyrgyz som"
+    ],
+    [
+     "Somoni",
+     "Tajik somoni"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-asia-mountain-ranges",
+   "tags": [
+    "physical",
+    "asia"
+   ],
+   "text": "Name a mountain range in Asia (ranges on the Europe-Asia boundary count)",
+   "answers": [
+    [
+     "Himalayas",
+     "Himalaya"
+    ],
+    [
+     "Karakoram",
+     "Karakorum"
+    ],
+    "Hindu Kush",
+    [
+     "Pamirs",
+     "Pamir"
+    ],
+    [
+     "Tian Shan",
+     "Tien Shan"
+    ],
+    [
+     "Altai",
+     "Altay"
+    ],
+    [
+     "Kunlun",
+     "Kunlun Mountains"
+    ],
+    "Zagros",
+    [
+     "Elburz",
+     "Alborz"
+    ],
+    "Taurus",
+    [
+     "Pontic Mountains",
+     "Pontic"
+    ],
+    "Caucasus",
+    [
+     "Urals",
+     "Ural Mountains"
+    ],
+    "Western Ghats",
+    "Eastern Ghats",
+    [
+     "Aravalli",
+     "Aravalli Range"
+    ],
+    "Vindhya",
+    "Satpura",
+    [
+     "Sulaiman",
+     "Sulaiman Range"
+    ],
+    "Hengduan",
+    "Qinling",
+    [
+     "Annamite",
+     "Annamite Range",
+     "Truong Son"
+    ],
+    [
+     "Arakan Yoma",
+     "Arakan"
+    ],
+    [
+     "Sayan",
+     "Sayan Mountains"
+    ],
+    "Stanovoy",
+    "Verkhoyansk",
+    [
+     "Sikhote-Alin",
+     "Sikhote Alin"
+    ],
+    [
+     "Greater Khingan",
+     "Great Khingan",
+     "Greater Hinggan"
+    ],
+    [
+     "Barisan",
+     "Barisan Mountains"
+    ],
+    "Japanese Alps",
+    [
+     "Kopet Dag",
+     "Kopet Dagh"
+    ],
+    [
+     "Hijaz Mountains",
+     "Hejaz"
+    ],
+    [
+     "Hajar Mountains",
+     "Hajar"
+    ],
+    [
+     "Lebanon Mountains",
+     "Mount Lebanon"
+    ],
+    "Anti-Lebanon",
+    [
+     "Chersky Range",
+     "Cherskiy"
+    ],
+    "Dangrek",
+    [
+     "Cardamom Mountains",
+     "Cardamom"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-asia-deserts",
+   "tags": [
+    "physical",
+    "asia"
+   ],
+   "text": "Name a desert in Asia",
+   "answers": [
+    [
+     "Gobi",
+     "Gobi Desert"
+    ],
+    [
+     "Taklamakan",
+     "Taklamakan Desert",
+     "Takla Makan"
+    ],
+    [
+     "Thar",
+     "Thar Desert",
+     "Great Indian Desert"
+    ],
+    [
+     "Karakum",
+     "Karakum Desert",
+     "Kara Kum"
+    ],
+    [
+     "Kyzylkum",
+     "Kyzyl Kum",
+     "Kyzylkum Desert"
+    ],
+    [
+     "Arabian Desert",
+     "Arabian"
+    ],
+    [
+     "Rub' al Khali",
+     "Rub al Khali",
+     "Empty Quarter"
+    ],
+    [
+     "Nafud",
+     "An Nafud",
+     "Nefud"
+    ],
+    [
+     "Syrian Desert",
+     "Syrian"
+    ],
+    [
+     "Negev",
+     "Negev Desert"
+    ],
+    [
+     "Dasht-e Kavir",
+     "Dasht e Kavir",
+     "Great Salt Desert"
+    ],
+    [
+     "Dasht-e Lut",
+     "Dasht e Lut",
+     "Lut Desert"
+    ],
+    [
+     "Kharan",
+     "Kharan Desert"
+    ],
+    [
+     "Ordos",
+     "Ordos Desert"
+    ],
+    [
+     "Badain Jaran",
+     "Badain Jaran Desert"
+    ],
+    [
+     "Tengger",
+     "Tengger Desert"
+    ],
+    [
+     "Gurbantunggut",
+     "Gurbantunggut Desert"
+    ],
+    [
+     "Dahna",
+     "Ad Dahna"
+    ],
+    [
+     "Judean Desert",
+     "Judaean Desert"
+    ],
+    [
+     "Cholistan",
+     "Cholistan Desert"
+    ],
+    [
+     "Thal",
+     "Thal Desert"
+    ],
+    [
+     "Registan",
+     "Registan Desert"
+    ],
+    [
+     "Betpak-Dala",
+     "Betpak Dala"
+    ],
+    "Aralkum",
+    [
+     "Kumtag",
+     "Kumtag Desert"
+    ],
+    [
+     "Sinai",
+     "Sinai Desert"
+    ],
+    [
+     "Wahiba Sands",
+     "Sharqiya Sands"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-indonesia-philippines-islands",
+   "tags": [
+    "physical",
+    "asia"
+   ],
+   "text": "Name an island of Indonesia or the Philippines",
+   "answers": [
+    "Java",
+    "Sumatra",
+    [
+     "Borneo",
+     "Kalimantan"
+    ],
+    [
+     "Sulawesi",
+     "Celebes"
+    ],
+    "Bali",
+    "Lombok",
+    "Sumbawa",
+    "Flores",
+    "Timor",
+    "Komodo",
+    "Sumba",
+    [
+     "New Guinea",
+     "Papua"
+    ],
+    "Halmahera",
+    [
+     "Seram",
+     "Ceram"
+    ],
+    "Buru",
+    "Madura",
+    "Bangka",
+    "Belitung",
+    "Nias",
+    "Ambon",
+    "Ternate",
+    "Mentawai",
+    [
+     "Gili Islands",
+     "Gili"
+    ],
+    "Luzon",
+    "Mindanao",
+    "Palawan",
+    "Cebu",
+    "Bohol",
+    "Boracay",
+    "Leyte",
+    "Samar",
+    "Negros",
+    "Panay",
+    "Mindoro",
+    "Siargao",
+    "Masbate",
+    "Catanduanes",
+    "Camiguin",
+    "Siquijor",
+    "Coron",
+    "Basilan",
+    "Jolo",
+    "Batanes",
+    "Tidore",
+    "Alor",
+    "Rinca",
+    "Batam",
+    "Bintan",
+    "Biak",
+    "Morotai",
+    "Lembata",
+    "Marinduque",
+    "Romblon",
+    "Guimaras",
+    "Dinagat",
+    "Tawi-Tawi"
+   ]
+  },
+  {
+   "id": "xg2-asia-rivers",
+   "tags": [
+    "physical",
+    "asia"
+   ],
+   "text": "Name a river in Asia",
+   "answers": [
+    [
+     "Yangtze",
+     "Chang Jiang"
+    ],
+    [
+     "Yellow River",
+     "Huang He"
+    ],
+    "Mekong",
+    [
+     "Ganges",
+     "Ganga"
+    ],
+    "Indus",
+    [
+     "Brahmaputra",
+     "Tsangpo",
+     "Yarlung Tsangpo"
+    ],
+    "Tigris",
+    "Euphrates",
+    [
+     "Irrawaddy",
+     "Ayeyarwady"
+    ],
+    "Salween",
+    "Amur",
+    "Ob",
+    [
+     "Yenisei",
+     "Yenisey"
+    ],
+    "Lena",
+    [
+     "Amu Darya",
+     "Oxus"
+    ],
+    [
+     "Syr Darya",
+     "Jaxartes"
+    ],
+    [
+     "Pearl River",
+     "Zhujiang",
+     "Pearl"
+    ],
+    "Chao Phraya",
+    "Jordan",
+    [
+     "Yamuna",
+     "Jumna"
+    ],
+    "Godavari",
+    "Krishna",
+    "Narmada",
+    "Sutlej",
+    [
+     "Kaveri",
+     "Cauvery"
+    ],
+    "Mahanadi",
+    "Tapti",
+    [
+     "Hooghly",
+     "Hugli"
+    ],
+    [
+     "Red River",
+     "Hong River",
+     "Song Hong"
+    ],
+    "Han",
+    [
+     "Irtysh",
+     "Irtish"
+    ],
+    "Kolyma",
+    "Tarim",
+    "Ili",
+    "Karun",
+    [
+     "Kura",
+     "Kur"
+    ],
+    [
+     "Aras",
+     "Araxes"
+    ],
+    [
+     "Kizilirmak",
+     "Kızılırmak",
+     "Halys"
+    ],
+    "Orontes",
+    "Chenab",
+    "Jhelum",
+    "Ravi",
+    "Beas",
+    "Kabul River",
+    "Helmand",
+    "Zarafshan",
+    "Kapuas",
+    "Mahaweli",
+    "Perak",
+    "Pahang",
+    "Kinabatangan",
+    "Huangpu",
+    "Songhua",
+    "Liao",
+    "Huai",
+    "Yalu",
+    "Tumen",
+    [
+     "Nakdong",
+     "Naktong"
+    ],
+    "Shinano",
+    "Tone",
+    "Mahakam",
+    "Barito",
+    "Citarum",
+    [
+     "Bengawan Solo",
+     "Solo"
+    ],
+    "Cagayan",
+    "Pasig",
+    "Agno",
+    "Pampanga",
+    "Sepik"
+   ]
+  },
+  {
+   "id": "xg2-vietnam-places",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city, town or resort in Vietnam",
+   "answers": [
+    "Hanoi",
+    [
+     "Ho Chi Minh City",
+     "Saigon",
+     "HCMC"
+    ],
+    [
+     "Da Nang",
+     "Danang"
+    ],
+    "Hue",
+    "Hoi An",
+    "Nha Trang",
+    [
+     "Haiphong",
+     "Hai Phong"
+    ],
+    "Can Tho",
+    [
+     "Da Lat",
+     "Dalat"
+    ],
+    [
+     "Sapa",
+     "Sa Pa"
+    ],
+    "Vung Tau",
+    "Phan Thiet",
+    [
+     "Ha Long",
+     "Halong",
+     "Ha Long Bay"
+    ],
+    "Phu Quoc",
+    "Bien Hoa",
+    [
+     "Quy Nhon",
+     "Qui Nhon"
+    ],
+    "Buon Ma Thuot",
+    "Vinh",
+    "Ninh Binh",
+    "Mui Ne",
+    "Con Dao",
+    "Dong Hoi",
+    "Pleiku",
+    "Thanh Hoa",
+    "Nam Dinh",
+    "Long Xuyen",
+    "Rach Gia",
+    "Cam Ranh",
+    "Lao Cai",
+    "Dien Bien Phu",
+    "Ha Giang",
+    "Cao Bang",
+    "Bac Ha",
+    "Mai Chau",
+    "My Tho",
+    "Chau Doc",
+    "Ca Mau",
+    "Tay Ninh"
+   ]
+  },
+  {
+   "id": "xg2-turkey-places",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city, town or resort in Turkey",
+   "answers": [
+    "Istanbul",
+    "Ankara",
+    [
+     "Izmir",
+     "İzmir"
+    ],
+    "Antalya",
+    "Bursa",
+    "Adana",
+    "Gaziantep",
+    "Konya",
+    "Bodrum",
+    "Marmaris",
+    "Fethiye",
+    "Alanya",
+    [
+     "Kusadasi",
+     "Kuşadası"
+    ],
+    "Side",
+    "Kemer",
+    "Belek",
+    "Dalaman",
+    [
+     "Göreme",
+     "Goreme"
+    ],
+    "Pamukkale",
+    "Trabzon",
+    "Kayseri",
+    "Samsun",
+    [
+     "Eskişehir",
+     "Eskisehir"
+    ],
+    [
+     "Diyarbakır",
+     "Diyarbakir"
+    ],
+    "Mersin",
+    [
+     "Çeşme",
+     "Cesme"
+    ],
+    [
+     "Kaş",
+     "Kas"
+    ],
+    "Kalkan",
+    [
+     "Ölüdeniz",
+     "Oludeniz"
+    ],
+    [
+     "Içmeler",
+     "Icmeler"
+    ],
+    "Turgutreis",
+    [
+     "Datça",
+     "Datca"
+    ],
+    [
+     "Ayvalık",
+     "Ayvalik"
+    ],
+    [
+     "Çanakkale",
+     "Canakkale"
+    ],
+    "Edirne",
+    "Erzurum",
+    "Van",
+    [
+     "Şanlıurfa",
+     "Sanliurfa",
+     "Urfa"
+    ],
+    "Mardin",
+    [
+     "Ürgüp",
+     "Urgup"
+    ],
+    "Avanos",
+    "Cappadocia",
+    "Sirince",
+    [
+     "Selçuk",
+     "Selcuk"
+    ],
+    "Didim",
+    "Akyaka",
+    "Dalyan",
+    [
+     "Göcek",
+     "Gocek"
+    ],
+    "Anamur",
+    "Sinop",
+    "Rize",
+    "Amasya",
+    "Safranbolu",
+    "Bolu",
+    "Sivas",
+    "Malatya",
+    [
+     "Hatay",
+     "Antakya",
+     "Antioch"
+    ],
+    "Tarsus",
+    "Manavgat"
+   ]
+  },
+  {
+   "id": "xg2-iran-cities",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city in Iran",
+   "answers": [
+    "Tehran",
+    [
+     "Isfahan",
+     "Esfahan"
+    ],
+    "Shiraz",
+    "Mashhad",
+    "Tabriz",
+    "Karaj",
+    [
+     "Qom",
+     "Ghom"
+    ],
+    "Ahvaz",
+    "Kermanshah",
+    "Yazd",
+    "Rasht",
+    "Kerman",
+    [
+     "Urmia",
+     "Orumiyeh"
+    ],
+    "Zahedan",
+    "Bandar Abbas",
+    "Hamadan",
+    "Arak",
+    "Ardabil",
+    "Kish",
+    "Bushehr",
+    "Sari",
+    "Qazvin",
+    "Zanjan",
+    "Sanandaj",
+    "Gorgan",
+    "Khorramabad",
+    "Birjand",
+    "Semnan",
+    "Ilam",
+    "Bojnord",
+    [
+     "Shahr-e Kord",
+     "Shahrekord"
+    ],
+    "Yasuj",
+    "Abadan",
+    "Khorramshahr",
+    "Chabahar",
+    "Persepolis",
+    "Kashan",
+    [
+     "Neyshabur",
+     "Nishapur"
+    ],
+    "Dezful",
+    "Bam",
+    "Qeshm",
+    "Bandar Anzali",
+    "Maragheh",
+    "Khoy"
+   ]
+  },
+  {
+   "id": "xg2-sri-lanka-places",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city, town or resort in Sri Lanka",
+   "answers": [
+    "Colombo",
+    "Kandy",
+    "Galle",
+    "Jaffna",
+    "Negombo",
+    "Anuradhapura",
+    "Trincomalee",
+    "Sigiriya",
+    "Nuwara Eliya",
+    "Ella",
+    "Bentota",
+    "Hikkaduwa",
+    "Mirissa",
+    "Polonnaruwa",
+    "Dambulla",
+    "Batticaloa",
+    "Matara",
+    "Kurunegala",
+    "Ratnapura",
+    "Badulla",
+    "Arugam Bay",
+    "Unawatuna",
+    "Tangalle",
+    "Weligama",
+    "Dehiwala",
+    "Moratuwa",
+    "Kalutara",
+    "Beruwala",
+    "Wadduwa",
+    "Yala",
+    "Haputale",
+    "Kataragama",
+    "Hambantota",
+    "Kegalle",
+    "Puttalam",
+    "Chilaw",
+    "Mannar",
+    "Vavuniya",
+    "Kilinochchi",
+    "Pinnawala",
+    [
+     "Kotte",
+     "Sri Jayawardenepura Kotte"
+    ],
+    "Ambalangoda",
+    "Dikwella"
+   ]
+  },
+  {
+   "id": "xg2-mekong-countries-places",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city or town in Cambodia, Laos or Myanmar",
+   "answers": [
+    "Phnom Penh",
+    "Siem Reap",
+    "Sihanoukville",
+    "Battambang",
+    "Kampot",
+    "Kep",
+    "Vientiane",
+    "Luang Prabang",
+    "Vang Vieng",
+    "Pakse",
+    "Savannakhet",
+    [
+     "Yangon",
+     "Rangoon"
+    ],
+    "Mandalay",
+    [
+     "Bagan",
+     "Pagan"
+    ],
+    [
+     "Naypyidaw",
+     "Nay Pyi Taw"
+    ],
+    [
+     "Inle Lake",
+     "Nyaungshwe"
+    ],
+    [
+     "Mawlamyine",
+     "Moulmein"
+    ],
+    [
+     "Bago",
+     "Pegu"
+    ],
+    [
+     "Hpa-An",
+     "Hpa An"
+    ],
+    "Taunggyi",
+    [
+     "Pyin Oo Lwin",
+     "Maymyo"
+    ],
+    [
+     "Pathein",
+     "Bassein"
+    ],
+    [
+     "Kyaiktiyo",
+     "Golden Rock"
+    ],
+    "Sittwe",
+    "Myitkyina",
+    "Lashio",
+    "Kengtung",
+    "Ngapali",
+    "Dawei",
+    "Mrauk U",
+    "Monywa",
+    [
+     "Pyay",
+     "Prome"
+    ],
+    "Magway",
+    "Kratie",
+    "Koh Kong",
+    "Pursat",
+    "Kampong Cham",
+    "Kampong Thom",
+    "Stung Treng",
+    "Banlung",
+    "Poipet",
+    "Phonsavan",
+    "Thakhek",
+    "Luang Namtha",
+    "Muang Sing",
+    "Nong Khiaw",
+    [
+     "Si Phan Don",
+     "Four Thousand Islands"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-gulf-cities",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city in a Gulf state (Saudi Arabia, UAE, Qatar, Kuwait, Bahrain or Oman)",
+   "answers": [
+    "Riyadh",
+    [
+     "Jeddah",
+     "Jiddah"
+    ],
+    [
+     "Mecca",
+     "Makkah"
+    ],
+    [
+     "Medina",
+     "Madinah"
+    ],
+    "Dammam",
+    "Taif",
+    "Dubai",
+    "Abu Dhabi",
+    "Sharjah",
+    "Al Ain",
+    "Doha",
+    "Kuwait City",
+    "Muscat",
+    "Salalah",
+    "Sohar",
+    "Nizwa",
+    [
+     "Khobar",
+     "Al Khobar"
+    ],
+    "Tabuk",
+    "Abha",
+    "Manama",
+    "Ajman",
+    "Ras Al Khaimah",
+    "Fujairah",
+    "Umm Al Quwain",
+    "Hofuf",
+    "Buraidah",
+    "Hail",
+    "Jizan",
+    "Najran",
+    "Yanbu",
+    "Jubail",
+    "Al Wakrah",
+    "Al Khor",
+    "Sur",
+    "Khasab",
+    "Muharraq",
+    "Riffa",
+    "Ahmadi",
+    "Hawalli",
+    "Neom",
+    "Duqm",
+    "Buraimi",
+    "Khor Fakkan",
+    "Kalba",
+    "Dibba"
+   ]
+  },
+  {
+   "id": "xg2-europe-non-eu",
+   "tags": [
+    "countries",
+    "europe"
+   ],
+   "text": "Name a European country that is not in the European Union (as of 2026)",
+   "answers": [
+    "Albania",
+    "Andorra",
+    "Belarus",
+    "Bosnia and Herzegovina",
+    "Iceland",
+    "Kosovo",
+    "Liechtenstein",
+    "Moldova",
+    "Monaco",
+    "Montenegro",
+    "North Macedonia",
+    "Norway",
+    "Russia",
+    "San Marino",
+    "Serbia",
+    "Switzerland",
+    "Ukraine",
+    "UK",
+    [
+     "Vatican City",
+     "Vatican",
+     "Holy See"
+    ],
+    "Turkey",
+    "Georgia",
+    "Armenia",
+    "Azerbaijan"
+   ]
+  },
+  {
+   "id": "xg2-eu-joiners-2004-plus",
+   "tags": [
+    "countries",
+    "europe"
+   ],
+   "text": "Name a country that joined the European Union in 2004 or later",
+   "answers": [
+    "Cyprus",
+    "Czech Republic",
+    "Estonia",
+    "Hungary",
+    "Latvia",
+    "Lithuania",
+    "Malta",
+    "Poland",
+    "Slovakia",
+    "Slovenia",
+    "Bulgaria",
+    "Romania",
+    "Croatia"
+   ]
+  },
+  {
+   "id": "xg2-borders-italy-austria",
+   "tags": [
+    "countries",
+    "europe"
+   ],
+   "text": "Name a country bordering Italy or Austria (they border each other, so both count)",
+   "answers": [
+    "Italy",
+    "Austria",
+    "France",
+    "Switzerland",
+    "Slovenia",
+    "San Marino",
+    [
+     "Vatican City",
+     "Vatican"
+    ],
+    "Germany",
+    "Czech Republic",
+    "Slovakia",
+    "Hungary",
+    "Liechtenstein"
+   ]
+  },
+  {
+   "id": "xg2-borders-poland-ukraine-belarus",
+   "tags": [
+    "countries",
+    "europe"
+   ],
+   "text": "Name a country bordering Poland, Ukraine or Belarus (they all border each other, so all three count)",
+   "answers": [
+    "Poland",
+    "Ukraine",
+    "Belarus",
+    "Germany",
+    "Czech Republic",
+    "Slovakia",
+    "Lithuania",
+    "Russia",
+    "Hungary",
+    "Romania",
+    "Moldova",
+    "Latvia"
+   ]
+  },
+  {
+   "id": "xg2-europe-rivers",
+   "tags": [
+    "physical",
+    "europe"
+   ],
+   "text": "Name a river in Europe",
+   "answers": [
+    "Danube",
+    "Rhine",
+    "Thames",
+    "Seine",
+    "Loire",
+    [
+     "Rhône",
+     "Rhone"
+    ],
+    "Elbe",
+    "Volga",
+    "Po",
+    "Tiber",
+    [
+     "Tagus",
+     "Tejo"
+    ],
+    "Ebro",
+    [
+     "Douro",
+     "Duero"
+    ],
+    [
+     "Vistula",
+     "Wisla"
+    ],
+    [
+     "Oder",
+     "Odra"
+    ],
+    [
+     "Dnieper",
+     "Dnipro"
+    ],
+    "Don",
+    [
+     "Vltava",
+     "Moldau"
+    ],
+    "Garonne",
+    [
+     "Meuse",
+     "Maas"
+    ],
+    "Moselle",
+    "Main",
+    "Neckar",
+    "Arno",
+    "Adige",
+    "Shannon",
+    "Severn",
+    "Trent",
+    "Clyde",
+    "Tay",
+    "Tyne",
+    "Mersey",
+    "Humber",
+    "Ouse",
+    "Avon",
+    "Liffey",
+    "Lee",
+    "Boyne",
+    "Guadalquivir",
+    "Guadiana",
+    [
+     "Minho",
+     "Miño"
+    ],
+    "Jucar",
+    "Segura",
+    "Dordogne",
+    "Marne",
+    "Oise",
+    [
+     "Saone",
+     "Saône"
+    ],
+    "Aare",
+    "Inn",
+    "Salzach",
+    "Drava",
+    "Sava",
+    [
+     "Tisza",
+     "Tisa"
+    ],
+    "Morava",
+    "Prut",
+    [
+     "Dniester",
+     "Dniestr"
+    ],
+    "Neva",
+    "Northern Dvina",
+    "Kama",
+    "Ural",
+    "Oka",
+    [
+     "Neman",
+     "Nemunas"
+    ],
+    "Daugava",
+    "Narva",
+    "Glomma",
+    "Torne",
+    "Kemijoki",
+    "Weser",
+    "Ems",
+    "Spree",
+    "Havel",
+    "Saale",
+    "Isar",
+    "Lech",
+    "Tweed",
+    "Wye",
+    "Dee",
+    "Exe",
+    "Tamar",
+    "Medway",
+    "Cam",
+    "Great Ouse"
+   ]
+  },
+  {
+   "id": "xg2-europe-mountain-ranges",
+   "tags": [
+    "physical",
+    "europe"
+   ],
+   "text": "Name a mountain range in Europe",
+   "answers": [
+    "Alps",
+    "Pyrenees",
+    [
+     "Carpathians",
+     "Carpathian Mountains"
+    ],
+    "Apennines",
+    [
+     "Urals",
+     "Ural Mountains"
+    ],
+    "Caucasus",
+    "Dolomites",
+    [
+     "Balkan Mountains",
+     "Balkans",
+     "Stara Planina"
+    ],
+    [
+     "Tatra",
+     "Tatras",
+     "High Tatras"
+    ],
+    "Sierra Nevada",
+    [
+     "Cantabrian Mountains",
+     "Cantabrians"
+    ],
+    [
+     "Scandinavian Mountains",
+     "Scandes"
+    ],
+    "Jura",
+    "Vosges",
+    "Black Forest",
+    [
+     "Dinaric Alps",
+     "Dinarides"
+    ],
+    "Rila",
+    "Pindus",
+    "Massif Central",
+    "Sudetes",
+    [
+     "Ore Mountains",
+     "Erzgebirge"
+    ],
+    "Harz",
+    "Bohemian Forest",
+    "Pennines",
+    "Cairngorms",
+    "Grampians",
+    [
+     "Cheviot Hills",
+     "Cheviots"
+    ],
+    "Cambrian Mountains",
+    [
+     "Snowdonia",
+     "Eryri"
+    ],
+    [
+     "Brecon Beacons",
+     "Bannau Brycheiniog"
+    ],
+    [
+     "Scottish Highlands",
+     "Highlands"
+    ],
+    [
+     "Mourne Mountains",
+     "Mournes"
+    ],
+    "Macgillycuddy's Reeks",
+    "Sierra de Guadarrama",
+    "Sierra Morena",
+    "Pirin",
+    [
+     "Rhodope",
+     "Rhodopes"
+    ],
+    "Julian Alps",
+    [
+     "Karavanke",
+     "Karawanks"
+    ],
+    "Hohe Tauern",
+    "Bavarian Alps",
+    "Swabian Jura",
+    [
+     "Rhön",
+     "Rhon"
+    ],
+    "Ardennes",
+    "Eifel",
+    [
+     "Hunsrück",
+     "Hunsruck"
+    ],
+    "Taunus",
+    "Beskids",
+    [
+     "Giant Mountains",
+     "Karkonosze"
+    ],
+    "Dovrefjell",
+    "Jotunheimen"
+   ]
+  },
+  {
+   "id": "xg2-europe-volcanoes",
+   "tags": [
+    "physical",
+    "europe"
+   ],
+   "text": "Name a volcano in Europe (Iceland and the Atlantic islands count)",
+   "answers": [
+    [
+     "Etna",
+     "Mount Etna"
+    ],
+    [
+     "Vesuvius",
+     "Mount Vesuvius"
+    ],
+    "Stromboli",
+    [
+     "Teide",
+     "Mount Teide"
+    ],
+    [
+     "Santorini",
+     "Thera"
+    ],
+    "Hekla",
+    "Katla",
+    [
+     "Eyjafjallajökull",
+     "Eyjafjallajokull"
+    ],
+    [
+     "Grímsvötn",
+     "Grimsvotn"
+    ],
+    "Krafla",
+    "Askja",
+    [
+     "Bárðarbunga",
+     "Bardarbunga"
+    ],
+    "Surtsey",
+    "Fagradalsfjall",
+    [
+     "Öræfajökull",
+     "Oraefajokull"
+    ],
+    [
+     "Elbrus",
+     "Mount Elbrus"
+    ],
+    "Vulcano",
+    [
+     "Campi Flegrei",
+     "Phlegraean Fields"
+    ],
+    [
+     "Pico",
+     "Mount Pico"
+    ],
+    "Cumbre Vieja",
+    "Nisyros",
+    "Methana",
+    "Milos",
+    "Beerenberg",
+    [
+     "Laki",
+     "Lakagigar"
+    ],
+    "Eldfell",
+    [
+     "Kverkfjöll",
+     "Kverkfjoll"
+    ],
+    [
+     "Snæfellsjökull",
+     "Snaefellsjokull"
+    ],
+    "Monte Amiata",
+    [
+     "Puy de Dôme",
+     "Puy de Dome"
+    ],
+    "Ischia",
+    [
+     "Kazbek",
+     "Mount Kazbek"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-nordic-cities",
+   "tags": [
+    "capitals",
+    "europe"
+   ],
+   "text": "Name a city in Denmark, Finland, Norway or Sweden",
+   "answers": [
+    "Stockholm",
+    [
+     "Gothenburg",
+     "Göteborg"
+    ],
+    [
+     "Malmö",
+     "Malmo"
+    ],
+    "Uppsala",
+    "Oslo",
+    "Bergen",
+    "Trondheim",
+    "Stavanger",
+    [
+     "Tromsø",
+     "Tromso"
+    ],
+    [
+     "Copenhagen",
+     "Kobenhavn"
+    ],
+    [
+     "Aarhus",
+     "Århus"
+    ],
+    "Odense",
+    "Aalborg",
+    "Helsinki",
+    "Espoo",
+    "Tampere",
+    "Turku",
+    "Oulu",
+    [
+     "Västerås",
+     "Vasteras"
+    ],
+    [
+     "Örebro",
+     "Orebro"
+    ],
+    [
+     "Linköping",
+     "Linkoping"
+    ],
+    "Helsingborg",
+    [
+     "Jönköping",
+     "Jonkoping"
+    ],
+    [
+     "Norrköping",
+     "Norrkoping"
+    ],
+    "Lund",
+    [
+     "Umeå",
+     "Umea"
+    ],
+    "Kiruna",
+    "Visby",
+    "Kristiansand",
+    "Drammen",
+    "Fredrikstad",
+    [
+     "Bodø",
+     "Bodo"
+    ],
+    [
+     "Ålesund",
+     "Alesund"
+    ],
+    "Lillehammer",
+    "Narvik",
+    "Hammerfest",
+    "Esbjerg",
+    "Roskilde",
+    "Kolding",
+    "Horsens",
+    "Vejle",
+    "Randers",
+    "Lahti",
+    [
+     "Jyväskylä",
+     "Jyvaskyla"
+    ],
+    "Kuopio",
+    "Vaasa",
+    "Rovaniemi",
+    "Pori",
+    "Lappeenranta",
+    "Karlstad",
+    "Sundsvall",
+    [
+     "Gävle",
+     "Gavle"
+    ],
+    "Kalmar",
+    "Karlskrona",
+    "Falun",
+    [
+     "Luleå",
+     "Lulea"
+    ],
+    [
+     "Östersund",
+     "Ostersund"
+    ]
+   ]
+  }
+ ]
+}
