@@ -89,8 +89,9 @@ function runTimer(ms, total, onEnd) {
   const tick = () => {
     const left = Math.max(0, end - performance.now());
     const bar = $('#tbar'), secs = $('#tsecs');
-    if (bar) { bar.style.width = (100 * left / total) + '%'; bar.classList.toggle('low', left < 6000); }
-    if (secs) secs.textContent = Math.ceil(left / 1000);
+    const urgent = left > 0 && left <= 5000;
+    if (bar) { bar.style.width = (100 * left / total) + '%'; bar.classList.toggle('low', left < 6000); bar.parentElement.classList.toggle('urgent', urgent); }
+    if (secs) { secs.textContent = Math.ceil(left / 1000); secs.classList.toggle('urgent', urgent); }
     if (left <= 0) { stopTimer(); onEnd(); }
   };
   timer = setInterval(tick, 100);
@@ -170,10 +171,13 @@ function buildUp(res) {
   const finish = () => {
     skipBuild = null;
     if (!pts.isConnected) return;
-    const t = res.outlier ? 5 : Math.min(4, tier(res.points));
+    const t = res.tier || (res.outlier ? 5 : Math.min(4, tier(res.points)));
     paint(res.points, lit);
     box.className = `result t${t} done`;
-    tierEl.textContent = res.valid ? TIERS[t] : res.given ? 'Not on the list' : 'No answer';
+    if (res.valid) tierEl.innerHTML = `<span class="tierbadge t${t}"><i></i>${TIER_NAMES[t]}${t === 5 ? '!' : ''}</span>`;
+    else tierEl.textContent = res.given ? 'Not on the list' : 'No answer';
+    // A buzz for the good ones: short for Rare and Ball knowledge, a double for an Outlier.
+    try { if (res.valid && t >= 3 && navigator.vibrate) navigator.vibrate(t === 5 ? [70, 50, 140] : 35); } catch { /* not supported */ }
     $('#caption').innerHTML = !res.valid ? 'No distance gained this round.'
       : res.share < 1 ? `Fewer than <b>1 in 100</b> people said ${esc(res.canonical)}`
         : `<b>${lit} in 100</b> people said ${esc(res.canonical)}`;
@@ -406,7 +410,10 @@ function home() {
 
 function soloMenu() {
   stopTimer();
+  const recent = store.get('outlier.recent', []).filter(r => CATS.some(c => c.id === r.cat));
   show(`${topbar('Play solo')}
+    ${recent.length ? `<section class="sec"><h2 class="sec-h">Jump back in</h2><div class="recent">${recent.map((r, i) =>
+      `<button class="recentbtn" data-i="${i}">${ic(CAT_ICON[r.cat] || 'sparkles')}<span>${esc(pickLabel(r))}</span></button>`).join('')}</div></section>` : ''}
     <section class="sec"><h2 class="sec-h">Choose a category</h2><div id="picker"></div></section>
     <details class="seedbox"><summary>${ic('link')}<span>Got a challenge link or seed from a friend?</span>${ic('right', 'chev')}</summary>
       <div class="row"><input type="text" id="seedIn" placeholder="Paste the link or seed" autocomplete="off"><button class="btn" id="seedGo">Play</button></div>
@@ -428,6 +435,11 @@ function soloMenu() {
   $('#back').onclick = home;
   $('#daily').onclick = startDaily;
   $('#free').onclick = () => startGame();
+  app.querySelectorAll('.recentbtn').forEach(b => b.onclick = () => {
+    pick = { cat: recent[+b.dataset.i].cat, tags: [...recent[+b.dataset.i].tags] };
+    store.set('outlier.pick', pick);
+    startGame();
+  });
   $('#seedGo').onclick = () => {
     const raw = $('#seedIn').value.trim();
     let seed = raw, from = '', pts = '';
@@ -524,7 +536,15 @@ function dailySummary(run) {
 // Every game has a seed (its prompts' codes). Sharing the seed lets a friend play the same seven
 // prompts; the link carries your name and per-prompt points so they can see what they have to beat.
 
+// The last few category picks, newest first, so regulars can start in one tap.
+function rememberPick(p) {
+  const key = JSON.stringify({ cat: p.cat, tags: [...p.tags].sort() });
+  const list = store.get('outlier.recent', []).filter(r => JSON.stringify({ cat: r.cat, tags: [...r.tags].sort() }) !== key);
+  store.set('outlier.recent', [{ cat: p.cat, tags: [...p.tags] }, ...list].slice(0, 3));
+}
+
 async function startGame(opts = {}) {
+  if (!opts.seed) rememberPick(pick);
   const seen = store.get('outlier.seen', []);
   let game;
   try {

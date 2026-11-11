@@ -340,3 +340,26 @@ details summary { cursor: pointer; color: var(--muted); padding: 8px 0; font-siz
 .board li.tierhead { padding: 10px 0 2px; border: 0; font-size: .72rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .board li.tierhead .num { color: var(--muted); font-size: .72rem; }
 .board li.tierhead.t4, .board li.tierhead.t5 { color: var(--you); }
+
+/* result tier badge, coloured like the How it works legend */
+.tierbadge { display: inline-flex; align-items: center; gap: 7px; padding: 5px 12px; border-radius: 99px; font-size: .82rem; letter-spacing: .08em;
+  text-transform: uppercase; font-weight: 800; color: var(--tc); background: color-mix(in srgb, var(--tc) 16%, transparent); }
+.tierbadge i { width: 8px; height: 8px; border-radius: 50%; background: var(--tc); }
+.tierbadge.t1 { --tc: var(--t1); } .tierbadge.t2 { --tc: var(--t2); } .tierbadge.t3 { --tc: var(--t3); }
+.tierbadge.t4 { --tc: var(--t4); } .tierbadge.t5 { --tc: var(--t5); }
+.result .tier { margin-top: 10px; }
+
+/* the last five seconds */
+.timer.urgent i { background: #ff4d4d; }
+.timer.urgent, .secs.urgent { animation: urgent .5s ease-in-out infinite alternate; }
+.secs.urgent { color: #ff4d4d; }
+@keyframes urgent { from { opacity: 1; } to { opacity: .45; } }
+@media (prefers-reduced-motion: reduce) { .timer.urgent, .secs.urgent { animation: none; } }
+
+/* recent picks on the solo screen */
+.recent { display: grid; gap: 8px; }
+.recentbtn { display: flex; align-items: center; gap: 10px; padding: 11px 14px; border-radius: 14px; background: var(--card); border: 1px solid var(--line);
+  text-align: left; font-weight: 600; font-size: .92rem; }
+.recentbtn .ic { color: var(--you); }
+.recentbtn span { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.recentbtn:active { transform: scale(.985); }

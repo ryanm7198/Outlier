@@ -193,6 +193,27 @@ def match(pid, raw):
     return match_detail(pid, raw)[0]
 
 
+def near_miss(pid, raw):
+    """A looser guess for the "Did you mean ...?" step, only used once the normal match has failed:
+    a few more typos allowed, or a fragment that sits inside exactly one answer ("ronaldinh")."""
+    n = norm(raw)
+    if len(n) < 4:
+        return None
+    table = LOOKUP[pid]
+    cap = 2 if len(n) < 8 else 3
+    best, names = cap + 1, set()
+    for key, name in table.items():
+        d = lev(n, key, cap)
+        if d < best:
+            best, names = d, {name}
+        elif d == best:
+            names.add(name)
+    if best <= cap and len(names) == 1:
+        return names.pop()
+    inside = {name for key, name in table.items() if len(n) >= 5 and n in key}
+    return inside.pop() if len(inside) == 1 else None
+
+
 # ---------------------------------------------------------------- storage
 
 DB = None
@@ -718,6 +739,8 @@ def api_post(path, body):
             raise ApiError(404, "Unknown prompt")
         raw = str(body.get("answer") or "").strip()[:60]
         name, exact = match_detail(pid, raw)
+        if not name:
+            name = near_miss(pid, raw)   # offered as "Did you mean ...?", never scored as typed
         if not name:
             record(pid, None, raw)   # rejected attempts still queue for review
         return {"suggest": name, "exact": exact}
