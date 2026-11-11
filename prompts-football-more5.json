@@ -1,0 +1,3533 @@
+{
+ "cat": "football",
+ "prompts": [
+  {
+   "id": "fe5-efl-champ-relegated-2020s",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club relegated from the Championship to League One between 2019-20 and 2025-26",
+   "answers": [
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Sheffield Wed",
+     "Wednesday"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham",
+     "Brum"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Hull City",
+     "Hull"
+    ],
+    "Reading",
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Luton Town",
+     "Luton"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    "Blackpool",
+    [
+     "Plymouth Argyle",
+     "Plymouth"
+    ],
+    "Barnsley",
+    [
+     "Wycombe Wanderers",
+     "Wycombe"
+    ],
+    [
+     "Rotherham United",
+     "Rotherham"
+    ],
+    [
+     "Peterborough United",
+     "Peterborough",
+     "Posh"
+    ],
+    [
+     "Oxford United",
+     "Oxford"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-champ-relegated-2010s",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club relegated from the Championship to League One between 2009-10 and 2018-19",
+   "answers": [
+    "Sunderland",
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Sheffield United",
+     "Sheff Utd",
+     "Sheffield Utd",
+     "Sheff United"
+    ],
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Sheffield Wed",
+     "Wednesday"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Preston North End",
+     "Preston",
+     "PNE"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    "Millwall",
+    "Bristol City",
+    "Blackpool",
+    [
+     "Plymouth Argyle",
+     "Plymouth"
+    ],
+    "Barnsley",
+    [
+     "Peterborough United",
+     "Peterborough",
+     "Posh"
+    ],
+    [
+     "Scunthorpe United",
+     "Scunthorpe"
+    ],
+    [
+     "Doncaster Rovers",
+     "Doncaster"
+    ],
+    [
+     "Yeovil Town",
+     "Yeovil"
+    ],
+    [
+     "Milton Keynes Dons",
+     "MK Dons"
+    ],
+    [
+     "Rotherham United",
+     "Rotherham"
+    ],
+    [
+     "Burton Albion",
+     "Burton"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-l1-relegated-2020s",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club relegated from League One to League Two between 2019-20 and 2025-26",
+   "answers": [
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Tranmere Rovers",
+     "Tranmere"
+    ],
+    [
+     "Southend United",
+     "Southend"
+    ],
+    "Rochdale",
+    [
+     "Northampton Town",
+     "Northampton"
+    ],
+    [
+     "Swindon Town",
+     "Swindon"
+    ],
+    [
+     "Bristol Rovers",
+     "Gas"
+    ],
+    "Gillingham",
+    [
+     "Doncaster Rovers",
+     "Doncaster"
+    ],
+    [
+     "AFC Wimbledon",
+     "Wimbledon AFC"
+    ],
+    [
+     "Crewe Alexandra",
+     "Crewe"
+    ],
+    [
+     "Milton Keynes Dons",
+     "MK Dons"
+    ],
+    "Morecambe",
+    [
+     "Accrington Stanley",
+     "Accrington"
+    ],
+    [
+     "Forest Green Rovers",
+     "Forest Green"
+    ],
+    [
+     "Cheltenham Town",
+     "Cheltenham"
+    ],
+    [
+     "Fleetwood Town",
+     "Fleetwood"
+    ],
+    "Port Vale",
+    [
+     "Carlisle United",
+     "Carlisle"
+    ],
+    [
+     "Crawley Town",
+     "Crawley"
+    ],
+    [
+     "Cambridge United",
+     "Cambridge"
+    ],
+    [
+     "Shrewsbury Town",
+     "Shrewsbury"
+    ],
+    [
+     "Exeter City",
+     "Exeter"
+    ],
+    [
+     "Rotherham United",
+     "Rotherham"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-l2-relegated-nonleague",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club relegated out of the Football League from League Two from 2004-05 to 2025-26 (as listed on Wikipedia)",
+   "answers": [
+    [
+     "Luton Town",
+     "Luton"
+    ],
+    "Wrexham",
+    [
+     "Grimsby Town",
+     "Grimsby"
+    ],
+    [
+     "Oxford United",
+     "Oxford"
+    ],
+    [
+     "Lincoln City",
+     "Lincoln"
+    ],
+    [
+     "Stockport County",
+     "Stockport"
+    ],
+    "Notts County",
+    [
+     "Mansfield Town",
+     "Mansfield"
+    ],
+    "Torquay United",
+    "Hartlepool United",
+    "Barnet",
+    [
+     "Bristol Rovers",
+     "Gas"
+    ],
+    [
+     "Cheltenham Town",
+     "Cheltenham"
+    ],
+    [
+     "Tranmere Rovers",
+     "Tranmere"
+    ],
+    [
+     "Leyton Orient",
+     "Orient",
+     "Leyton O"
+    ],
+    "Chesterfield",
+    [
+     "Yeovil Town",
+     "Yeovil"
+    ],
+    [
+     "Southend United",
+     "Southend"
+    ],
+    [
+     "Oldham Athletic",
+     "Oldham"
+    ],
+    [
+     "Scunthorpe United",
+     "Scunthorpe"
+    ],
+    "Rochdale",
+    [
+     "Carlisle United",
+     "Carlisle"
+    ],
+    [
+     "Forest Green Rovers",
+     "Forest Green"
+    ],
+    "Morecambe",
+    "Sutton United",
+    [
+     "Harrogate Town",
+     "Harrogate"
+    ],
+    "Barrow",
+    "Macclesfield Town",
+    "Hereford United",
+    "Aldershot Town",
+    "Darlington",
+    "Chester City",
+    "Kidderminster Harriers",
+    [
+     "Cambridge United",
+     "Cambridge"
+    ],
+    "Rushden & Diamonds",
+    "Boston United",
+    "York City",
+    [
+     "Dagenham & Redbridge",
+     "Dagenham"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-l2-promoted-2020s",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club promoted from League Two to League One between 2019-20 and 2025-26",
+   "answers": [
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    "Wrexham",
+    [
+     "Plymouth Argyle",
+     "Plymouth"
+    ],
+    [
+     "Swindon Town",
+     "Swindon"
+    ],
+    [
+     "Crewe Alexandra",
+     "Crewe"
+    ],
+    [
+     "Northampton Town",
+     "Northampton"
+    ],
+    [
+     "Cheltenham Town",
+     "Cheltenham"
+    ],
+    [
+     "Cambridge United",
+     "Cambridge"
+    ],
+    "Morecambe",
+    [
+     "Forest Green Rovers",
+     "Forest Green"
+    ],
+    [
+     "Exeter City",
+     "Exeter"
+    ],
+    [
+     "Bristol Rovers",
+     "Gas"
+    ],
+    "Port Vale",
+    [
+     "Leyton Orient",
+     "Orient",
+     "Leyton O"
+    ],
+    "Stevenage",
+    [
+     "Carlisle United",
+     "Carlisle"
+    ],
+    [
+     "Stockport County",
+     "Stockport"
+    ],
+    [
+     "Mansfield Town",
+     "Mansfield"
+    ],
+    [
+     "Crawley Town",
+     "Crawley"
+    ],
+    [
+     "Doncaster Rovers",
+     "Doncaster"
+    ],
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    [
+     "AFC Wimbledon",
+     "Wimbledon AFC"
+    ],
+    "Bromley",
+    [
+     "Milton Keynes Dons",
+     "MK Dons"
+    ],
+    "Notts County"
+   ]
+  },
+  {
+   "id": "fe5-efl-l1-promoted-2020s",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club promoted from League One to the Championship between 2019-20 and 2025-26",
+   "answers": [
+    "Sunderland",
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Sheffield Wed",
+     "Wednesday"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham",
+     "Brum"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Hull City",
+     "Hull"
+    ],
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    "Wrexham",
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    "Blackpool",
+    [
+     "Plymouth Argyle",
+     "Plymouth"
+    ],
+    [
+     "Rotherham United",
+     "Rotherham"
+    ],
+    [
+     "Wycombe Wanderers",
+     "Wycombe"
+    ],
+    [
+     "Peterborough United",
+     "Peterborough",
+     "Posh"
+    ],
+    [
+     "Oxford United",
+     "Oxford"
+    ],
+    [
+     "Lincoln City",
+     "Lincoln"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-l1-promoted-2010s",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club promoted from League One to the Championship between 2009-10 and 2018-19",
+   "answers": [
+    [
+     "Leeds United",
+     "Leeds",
+     "Leeds Utd"
+    ],
+    [
+     "Southampton",
+     "Saints"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    [
+     "Bournemouth",
+     "AFC Bournemouth"
+    ],
+    [
+     "Brighton & Hove Albion",
+     "Brighton"
+    ],
+    "Brentford",
+    [
+     "Sheffield United",
+     "Sheff Utd",
+     "Sheffield Utd",
+     "Sheff United"
+    ],
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Sheffield Wed",
+     "Wednesday"
+    ],
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Preston North End",
+     "Preston",
+     "PNE"
+    ],
+    [
+     "Luton Town",
+     "Luton"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    "Millwall",
+    "Bristol City",
+    "Barnsley",
+    [
+     "Peterborough United",
+     "Peterborough",
+     "Posh"
+    ],
+    [
+     "Doncaster Rovers",
+     "Doncaster"
+    ],
+    [
+     "Yeovil Town",
+     "Yeovil"
+    ],
+    [
+     "Rotherham United",
+     "Rotherham"
+    ],
+    [
+     "Milton Keynes Dons",
+     "MK Dons"
+    ],
+    [
+     "Burton Albion",
+     "Burton"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-l1-relegated-2010s",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club relegated from League One to League Two between 2009-10 and 2018-19",
+   "answers": [
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    "Blackpool",
+    [
+     "Plymouth Argyle",
+     "Plymouth"
+    ],
+    "Gillingham",
+    [
+     "Wycombe Wanderers",
+     "Wycombe"
+    ],
+    [
+     "Southend United",
+     "Southend"
+    ],
+    [
+     "Stockport County",
+     "Stockport"
+    ],
+    [
+     "Dagenham & Redbridge",
+     "Dagenham"
+    ],
+    [
+     "Bristol Rovers",
+     "Gas"
+    ],
+    [
+     "Swindon Town",
+     "Swindon"
+    ],
+    [
+     "Exeter City",
+     "Exeter"
+    ],
+    "Rochdale",
+    [
+     "Scunthorpe United",
+     "Scunthorpe"
+    ],
+    "Bury",
+    "Hartlepool United",
+    [
+     "Tranmere Rovers",
+     "Tranmere"
+    ],
+    [
+     "Carlisle United",
+     "Carlisle"
+    ],
+    [
+     "Shrewsbury Town",
+     "Shrewsbury"
+    ],
+    "Stevenage",
+    "Notts County",
+    [
+     "Crawley Town",
+     "Crawley"
+    ],
+    [
+     "Leyton Orient",
+     "Orient",
+     "Leyton O"
+    ],
+    [
+     "Yeovil Town",
+     "Yeovil"
+    ],
+    [
+     "Doncaster Rovers",
+     "Doncaster"
+    ],
+    [
+     "Colchester United",
+     "Colchester"
+    ],
+    [
+     "Crewe Alexandra",
+     "Crewe"
+    ],
+    "Port Vale",
+    "Chesterfield",
+    [
+     "Oldham Athletic",
+     "Oldham"
+    ],
+    [
+     "Northampton Town",
+     "Northampton"
+    ],
+    [
+     "Milton Keynes Dons",
+     "MK Dons"
+    ],
+    "Walsall",
+    [
+     "Bradford City",
+     "Bradford"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-champ-runners-up",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club that finished second in the Championship from 2004-05 to 2025-26",
+   "answers": [
+    [
+     "Southampton",
+     "Saints"
+    ],
+    [
+     "Middlesbrough",
+     "Boro"
+    ],
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    "Burnley",
+    [
+     "Bournemouth",
+     "AFC Bournemouth"
+    ],
+    [
+     "Brighton & Hove Albion",
+     "Brighton"
+    ],
+    [
+     "Sheffield United",
+     "Sheff Utd",
+     "Sheffield Utd",
+     "Sheff United"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham",
+     "Brum"
+    ],
+    [
+     "Stoke City",
+     "Stoke"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Hull City",
+     "Hull"
+    ],
+    "Watford",
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-champ-playoff-losers",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club that lost the Championship play-off final from 2004-05 to 2025-26",
+   "answers": [
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "Leeds United",
+     "Leeds",
+     "Leeds Utd"
+    ],
+    [
+     "Middlesbrough",
+     "Boro"
+    ],
+    "Brentford",
+    [
+     "Sheffield United",
+     "Sheff Utd",
+     "Sheffield Utd",
+     "Sheff United"
+    ],
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Sheffield Wed",
+     "Wednesday"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Swansea City",
+     "Swansea"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    "Watford",
+    "Reading",
+    [
+     "Preston North End",
+     "Preston",
+     "PNE"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    "Bristol City",
+    "Blackpool"
+   ]
+  },
+  {
+   "id": "fe5-efl-l1-playoff-winners",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club that won promotion from League One through the play-offs from 2004-05 to 2025-26",
+   "answers": [
+    "Sunderland",
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Sheffield Wed",
+     "Wednesday"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Preston North End",
+     "Preston",
+     "PNE"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    "Millwall",
+    "Blackpool",
+    "Barnsley",
+    [
+     "Peterborough United",
+     "Peterborough",
+     "Posh"
+    ],
+    [
+     "Rotherham United",
+     "Rotherham"
+    ],
+    [
+     "Doncaster Rovers",
+     "Doncaster"
+    ],
+    [
+     "Scunthorpe United",
+     "Scunthorpe"
+    ],
+    [
+     "Yeovil Town",
+     "Yeovil"
+    ],
+    [
+     "Wycombe Wanderers",
+     "Wycombe"
+    ],
+    [
+     "Oxford United",
+     "Oxford"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-l2-playoff-winners",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club that won promotion from League Two through the play-offs from 2004-05 to 2025-26",
+   "answers": [
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    "Blackpool",
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    "Notts County",
+    [
+     "Crewe Alexandra",
+     "Crewe"
+    ],
+    "Stevenage",
+    "Gillingham",
+    [
+     "Southend United",
+     "Southend"
+    ],
+    [
+     "Cheltenham Town",
+     "Cheltenham"
+    ],
+    [
+     "Bristol Rovers",
+     "Gas"
+    ],
+    [
+     "Stockport County",
+     "Stockport"
+    ],
+    [
+     "Dagenham & Redbridge",
+     "Dagenham"
+    ],
+    [
+     "Fleetwood Town",
+     "Fleetwood"
+    ],
+    [
+     "AFC Wimbledon",
+     "Wimbledon AFC"
+    ],
+    [
+     "Tranmere Rovers",
+     "Tranmere"
+    ],
+    [
+     "Northampton Town",
+     "Northampton"
+    ],
+    "Morecambe",
+    "Port Vale",
+    [
+     "Carlisle United",
+     "Carlisle"
+    ],
+    [
+     "Crawley Town",
+     "Crawley"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "fe5-efl-founders-1888",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name one of the 12 founder members of the Football League in 1888-89",
+   "answers": [
+    [
+     "Preston North End",
+     "Preston",
+     "PNE"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    "Everton",
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    "Burnley",
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Stoke",
+     "Stoke City"
+    ],
+    "Notts County",
+    [
+     "Accrington",
+     "Accrington FC"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-championship-2025-26",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club that played in the 2025-26 EFL Championship",
+   "answers": [
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Southampton",
+     "Saints"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Middlesbrough",
+     "Boro"
+    ],
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    [
+     "Sheffield United",
+     "Sheff Utd",
+     "Sheffield Utd",
+     "Sheff United"
+    ],
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Sheffield Wed",
+     "Wednesday"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham",
+     "Brum"
+    ],
+    [
+     "Stoke City",
+     "Stoke"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Swansea City",
+     "Swansea"
+    ],
+    [
+     "Hull City",
+     "Hull"
+    ],
+    "Watford",
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Preston North End",
+     "Preston",
+     "PNE"
+    ],
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    "Wrexham",
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    "Millwall",
+    "Bristol City",
+    [
+     "Oxford United",
+     "Oxford"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-league-one-2025-26",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club that played in League One in 2025-26",
+   "answers": [
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    "Reading",
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Luton Town",
+     "Luton"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    "Blackpool",
+    [
+     "Plymouth Argyle",
+     "Plymouth"
+    ],
+    "Barnsley",
+    [
+     "Lincoln City",
+     "Lincoln"
+    ],
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    [
+     "Burton Albion",
+     "Burton"
+    ],
+    [
+     "Doncaster Rovers",
+     "Doncaster"
+    ],
+    [
+     "Exeter City",
+     "Exeter"
+    ],
+    [
+     "Leyton Orient",
+     "Orient",
+     "Leyton O"
+    ],
+    [
+     "Mansfield Town",
+     "Mansfield"
+    ],
+    [
+     "Northampton Town",
+     "Northampton"
+    ],
+    [
+     "Peterborough United",
+     "Peterborough",
+     "Posh"
+    ],
+    "Port Vale",
+    [
+     "Rotherham United",
+     "Rotherham"
+    ],
+    "Stevenage",
+    [
+     "Stockport County",
+     "Stockport"
+    ],
+    [
+     "Wycombe Wanderers",
+     "Wycombe"
+    ],
+    [
+     "AFC Wimbledon",
+     "Wimbledon AFC"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-efl-league-two-2025-26",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club that played in League Two in 2025-26",
+   "answers": [
+    [
+     "Bristol Rovers",
+     "Gas"
+    ],
+    "Notts County",
+    [
+     "Milton Keynes Dons",
+     "MK Dons"
+    ],
+    [
+     "Cambridge United",
+     "Cambridge"
+    ],
+    "Bromley",
+    [
+     "Accrington Stanley",
+     "Accrington"
+    ],
+    "Barnet",
+    "Barrow",
+    [
+     "Cheltenham Town",
+     "Cheltenham"
+    ],
+    "Chesterfield",
+    [
+     "Colchester United",
+     "Colchester"
+    ],
+    [
+     "Crawley Town",
+     "Crawley"
+    ],
+    [
+     "Crewe Alexandra",
+     "Crewe"
+    ],
+    [
+     "Fleetwood Town",
+     "Fleetwood"
+    ],
+    "Gillingham",
+    [
+     "Grimsby Town",
+     "Grimsby"
+    ],
+    [
+     "Harrogate Town",
+     "Harrogate"
+    ],
+    [
+     "Newport County",
+     "Newport"
+    ],
+    [
+     "Oldham Athletic",
+     "Oldham"
+    ],
+    [
+     "Salford City",
+     "Salford"
+    ],
+    [
+     "Shrewsbury Town",
+     "Shrewsbury"
+    ],
+    [
+     "Swindon Town",
+     "Swindon"
+    ],
+    [
+     "Tranmere Rovers",
+     "Tranmere"
+    ],
+    "Walsall"
+   ]
+  },
+  {
+   "id": "fe5-cups-fa-cup-three-plus",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that has won the FA Cup three or more times (as of 2026)",
+   "answers": [
+    [
+     "Manchester United",
+     "Man United",
+     "Man Utd",
+     "Man U"
+    ],
+    "Liverpool",
+    "Arsenal",
+    "Chelsea",
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    "Everton",
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle",
+     "Newcastle Utd"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Sheffield United",
+     "Sheff Utd",
+     "Sheffield Utd",
+     "Sheff United"
+    ],
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Sheffield Wed",
+     "Wednesday"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Wanderers",
+     "Wanderers FC"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-cups-league-cup-twice-plus",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that has won the League Cup (EFL Cup) more than once, up to 2025-26",
+   "answers": [
+    [
+     "Manchester United",
+     "Man United",
+     "Man Utd",
+     "Man U"
+    ],
+    "Liverpool",
+    "Arsenal",
+    "Chelsea",
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Nottingham Forest",
+     "Forest",
+     "Notts Forest"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham",
+     "Brum"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-cups-league-cup-lost-never-won",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that has lost a League Cup (EFL Cup) final but has never won the competition (to 2025-26)",
+   "answers": [
+    "Everton",
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    "Sunderland",
+    [
+     "Southampton",
+     "Saints"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    [
+     "Tranmere Rovers",
+     "Tranmere"
+    ],
+    [
+     "Rotherham United",
+     "Rotherham"
+    ],
+    "Rochdale",
+    [
+     "Oldham Athletic",
+     "Oldham"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-cups-community-shield-winners",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that has won the FA Charity Shield or Community Shield, outright or shared (to 2026)",
+   "answers": [
+    [
+     "Manchester United",
+     "Man United",
+     "Man Utd",
+     "Man U"
+    ],
+    "Liverpool",
+    "Arsenal",
+    "Chelsea",
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    "Everton",
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle",
+     "Newcastle Utd"
+    ],
+    [
+     "Leeds United",
+     "Leeds",
+     "Leeds Utd"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Nottingham Forest",
+     "Forest",
+     "Notts Forest"
+    ],
+    "Sunderland",
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    "Burnley",
+    [
+     "Brighton & Hove Albion",
+     "Brighton"
+    ],
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Sheffield Wed",
+     "Wednesday"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-cups-scottish-league-cup-winners",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that has won the Scottish League Cup (to 2025-26)",
+   "answers": [
+    "Rangers",
+    "Celtic",
+    "Aberdeen",
+    [
+     "Hearts",
+     "Heart of Midlothian"
+    ],
+    [
+     "Hibernian",
+     "Hibs"
+    ],
+    "Dundee",
+    [
+     "Dundee United",
+     "Dundee Utd"
+    ],
+    "St Mirren",
+    "Kilmarnock",
+    "Motherwell",
+    [
+     "Partick Thistle",
+     "Partick"
+    ],
+    [
+     "St Johnstone",
+     "St Johnstone FC"
+    ],
+    "Livingston",
+    [
+     "Raith Rovers",
+     "Raith"
+    ],
+    [
+     "Ross County",
+     "Ross Co"
+    ],
+    [
+     "East Fife",
+     "East Fife FC"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-cups-fa-cup-winner-never-league-cup",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that has won the FA Cup but has never won the League Cup (to 2026)",
+   "answers": [
+    "Everton",
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    "Sunderland",
+    [
+     "Southampton",
+     "Saints"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    "Burnley",
+    [
+     "Sheffield United",
+     "Sheff Utd",
+     "Sheffield Utd",
+     "Sheff United"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Preston North End",
+     "Preston",
+     "PNE"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    "Blackpool",
+    "Barnsley",
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    "Bury",
+    "Notts County",
+    [
+     "Wimbledon",
+     "Wimbledon FC"
+    ],
+    [
+     "Wanderers",
+     "Wanderers FC"
+    ],
+    [
+     "Old Etonians"
+    ],
+    [
+     "Royal Engineers"
+    ],
+    [
+     "Oxford University"
+    ],
+    [
+     "Clapham Rovers"
+    ],
+    [
+     "Old Carthusians"
+    ],
+    [
+     "Blackburn Olympic"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-cups-fa-cup-final-2026",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a player in the matchday squad for the 2026 FA Cup final, Chelsea v Man City (starters or substitutes)",
+   "answers": [
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    "Rodri",
+    [
+     "Bernardo Silva",
+     "Silva"
+    ],
+    [
+     "Enzo Fernández",
+     "Fernández"
+    ],
+    [
+     "Moisés Caicedo",
+     "Caicedo"
+    ],
+    [
+     "Reece James",
+     "James"
+    ],
+    [
+     "Marc Guéhi",
+     "Guéhi"
+    ],
+    [
+     "Rúben Dias",
+     "Dias"
+    ],
+    [
+     "Antoine Semenyo",
+     "Semenyo"
+    ],
+    [
+     "Jérémy Doku",
+     "Doku"
+    ],
+    [
+     "Alejandro Garnacho",
+     "Garnacho"
+    ],
+    [
+     "João Pedro",
+     "Pedro"
+    ],
+    [
+     "Gianluigi Donnarumma",
+     "Donnarumma"
+    ],
+    [
+     "Robert Sánchez",
+     "Sánchez"
+    ],
+    [
+     "James Trafford",
+     "Trafford"
+    ],
+    [
+     "Malo Gusto",
+     "Gusto"
+    ],
+    [
+     "Wesley Fofana",
+     "Fofana"
+    ],
+    [
+     "Levi Colwill",
+     "Colwill"
+    ],
+    [
+     "Jorrel Hato",
+     "Hato"
+    ],
+    [
+     "Marc Cucurella",
+     "Cucurella"
+    ],
+    [
+     "Filip Jörgensen",
+     "Jörgensen"
+    ],
+    [
+     "Tosin Adarabioyo",
+     "Adarabioyo"
+    ],
+    [
+     "Trevoh Chalobah",
+     "Chalobah"
+    ],
+    [
+     "Josh Acheampong",
+     "Acheampong"
+    ],
+    [
+     "Dário Essugo",
+     "Essugo"
+    ],
+    [
+     "Andrey Santos",
+     "Santos"
+    ],
+    [
+     "Pedro Neto",
+     "Neto"
+    ],
+    [
+     "Liam Delap",
+     "Delap"
+    ],
+    [
+     "Matheus Nunes",
+     "Nunes"
+    ],
+    [
+     "Abdukodir Khusanov",
+     "Khusanov"
+    ],
+    [
+     "Nico O'Reilly",
+     "O'Reilly"
+    ],
+    [
+     "Omar Marmoush",
+     "Marmoush"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Nathan Aké",
+     "Aké"
+    ],
+    [
+     "Tijjani Reijnders",
+     "Reijnders"
+    ],
+    [
+     "Mateo Kovačić",
+     "Kovačić"
+    ],
+    [
+     "Rayan Cherki",
+     "Cherki"
+    ],
+    "Savinho"
+   ]
+  },
+  {
+   "id": "fe5-brazil-1962-squad",
+   "tags": [
+    "60s"
+   ],
+   "text": "Name a player in Brazil's 22-man squad for the 1962 World Cup",
+   "answers": [
+    "Garrincha",
+    "Pelé",
+    "Vavá",
+    "Didi",
+    [
+     "Mário Zagallo",
+     "Zagallo"
+    ],
+    "Amarildo",
+    "Nílton Santos",
+    "Djalma Santos",
+    "Gilmar",
+    "Zito",
+    [
+     "Hilderaldo Bellini",
+     "Bellini"
+    ],
+    [
+     "Mauro Ramos",
+     "Ramos"
+    ],
+    "Zózimo",
+    "Coutinho",
+    "Pepe",
+    [
+     "Jair Marinho",
+     "Marinho"
+    ],
+    "Jurandir",
+    "Altair",
+    "Zequinha",
+    "Mengálvio",
+    [
+     "Jair da Costa",
+     "da Costa",
+     "Costa"
+    ],
+    "Castilho"
+   ]
+  },
+  {
+   "id": "fe5-west-germany-1966-squad",
+   "tags": [
+    "60s"
+   ],
+   "text": "Name a player in West Germany's 22-man squad for the 1966 World Cup",
+   "answers": [
+    [
+     "Franz Beckenbauer",
+     "Beckenbauer"
+    ],
+    [
+     "Uwe Seeler",
+     "Seeler"
+    ],
+    [
+     "Helmut Haller",
+     "Haller"
+    ],
+    [
+     "Wolfgang Overath",
+     "Overath"
+    ],
+    [
+     "Sepp Maier",
+     "Maier"
+    ],
+    [
+     "Sigfried Held",
+     "Held"
+    ],
+    [
+     "Karl-Heinz Schnellinger",
+     "Schnellinger"
+    ],
+    [
+     "Lothar Emmerich",
+     "Emmerich"
+    ],
+    [
+     "Hans Tilkowski",
+     "Tilkowski"
+    ],
+    [
+     "Wolfgang Weber",
+     "Weber"
+    ],
+    [
+     "Jürgen Grabowski",
+     "Grabowski"
+    ],
+    [
+     "Horst-Dieter Höttges",
+     "Höttges"
+    ],
+    [
+     "Willi Schulz",
+     "Schulz"
+    ],
+    [
+     "Albert Brülls",
+     "Brülls"
+    ],
+    [
+     "Heinz Hornig",
+     "Hornig"
+    ],
+    [
+     "Friedel Lutz",
+     "Lutz"
+    ],
+    [
+     "Bernd Patzke",
+     "Patzke"
+    ],
+    [
+     "Max Lorenz",
+     "Lorenz"
+    ],
+    [
+     "Wolfgang Paul",
+     "Paul"
+    ],
+    [
+     "Klaus-Dieter Sieloff",
+     "Sieloff"
+    ],
+    [
+     "Werner Krämer",
+     "Krämer"
+    ],
+    [
+     "Günter Bernard",
+     "Bernard"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-portugal-1966-squad",
+   "tags": [
+    "60s"
+   ],
+   "text": "Name a player in Portugal's 22-man squad for the 1966 World Cup",
+   "answers": [
+    "Eusébio",
+    [
+     "Mário Coluna",
+     "Coluna"
+    ],
+    [
+     "José Torres",
+     "Torres"
+    ],
+    [
+     "António Simões",
+     "Simões"
+    ],
+    [
+     "José Augusto",
+     "Augusto"
+    ],
+    [
+     "Jaime Graça",
+     "Graça"
+    ],
+    "Vicente",
+    "Hilário",
+    "Américo",
+    [
+     "Joaquim Carvalho",
+     "Carvalho"
+    ],
+    [
+     "José Pereira",
+     "Pereira"
+    ],
+    "Germano",
+    [
+     "Fernando Peres",
+     "Peres"
+    ],
+    [
+     "Ernesto Figueiredo",
+     "Figueiredo"
+    ],
+    [
+     "João Lourenço",
+     "Lourenço"
+    ],
+    [
+     "Fernando Cruz",
+     "Cruz"
+    ],
+    [
+     "Manuel Duarte",
+     "Duarte"
+    ],
+    [
+     "João Morais",
+     "Morais"
+    ],
+    [
+     "Custódio Pinto",
+     "Pinto"
+    ],
+    [
+     "Alexandre Baptista",
+     "Baptista"
+    ],
+    [
+     "José Carlos",
+     "Carlos"
+    ],
+    [
+     "Alberto Festa",
+     "Festa"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-fa-cup-final-1963",
+   "tags": [
+    "cups",
+    "60s"
+   ],
+   "text": "Name a player in the 1963 FA Cup final, Man Utd v Leicester City",
+   "answers": [
+    [
+     "Denis Law",
+     "Law"
+    ],
+    [
+     "Bobby Charlton",
+     "Charlton"
+    ],
+    [
+     "Gordon Banks",
+     "Banks"
+    ],
+    [
+     "Johnny Giles",
+     "Giles"
+    ],
+    [
+     "Paddy Crerand",
+     "Crerand"
+    ],
+    [
+     "Frank McLintock",
+     "McLintock"
+    ],
+    [
+     "Noel Cantwell",
+     "Cantwell"
+    ],
+    [
+     "Bill Foulkes",
+     "Foulkes"
+    ],
+    [
+     "Tony Dunne",
+     "Dunne"
+    ],
+    [
+     "David Herd",
+     "Herd"
+    ],
+    [
+     "Albert Quixall",
+     "Quixall"
+    ],
+    [
+     "Maurice Setters",
+     "Setters"
+    ],
+    [
+     "John Sjoberg",
+     "Sjoberg"
+    ],
+    [
+     "Richie Norman",
+     "Norman"
+    ],
+    [
+     "Ian King",
+     "King"
+    ],
+    [
+     "Colin Appleton",
+     "Appleton"
+    ],
+    [
+     "Howard Riley",
+     "Riley"
+    ],
+    [
+     "Graham Cross",
+     "Cross"
+    ],
+    [
+     "Ken Keyworth",
+     "Keyworth"
+    ],
+    [
+     "Dave Gibson",
+     "Gibson"
+    ],
+    [
+     "Mike Stringfellow",
+     "Stringfellow"
+    ],
+    [
+     "David Gaskell",
+     "Gaskell"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-brazil-1970-squad",
+   "tags": [
+    "70s"
+   ],
+   "text": "Name a player in Brazil's 22-man squad for the 1970 World Cup",
+   "answers": [
+    "Pelé",
+    "Jairzinho",
+    [
+     "Carlos Alberto",
+     "Alberto"
+    ],
+    [
+     "Rivellino",
+     "Rivelino"
+    ],
+    "Gérson",
+    "Tostão",
+    "Clodoaldo",
+    "Félix",
+    "Brito",
+    "Piazza",
+    "Everaldo",
+    [
+     "Paulo Cézar Caju",
+     "Caju",
+     "Paulo Cesar"
+    ],
+    [
+     "Marco Antônio",
+     "Antônio"
+    ],
+    "Ado",
+    [
+     "Roberto Miranda",
+     "Miranda"
+    ],
+    "Baldocchi",
+    "Fontana",
+    [
+     "Joel Camargo",
+     "Camargo"
+    ],
+    "Edu",
+    "Dario",
+    [
+     "Zé Maria",
+     "Maria"
+    ],
+    "Leão"
+   ]
+  },
+  {
+   "id": "fe5-italy-1970-squad",
+   "tags": [
+    "70s"
+   ],
+   "text": "Name a player in Italy's 22-man squad for the 1970 World Cup",
+   "answers": [
+    [
+     "Gianni Rivera",
+     "Rivera"
+    ],
+    [
+     "Gigi Riva",
+     "Riva"
+    ],
+    [
+     "Sandro Mazzola",
+     "Mazzola"
+    ],
+    [
+     "Giacinto Facchetti",
+     "Facchetti"
+    ],
+    [
+     "Dino Zoff",
+     "Zoff"
+    ],
+    [
+     "Tarcisio Burgnich",
+     "Burgnich"
+    ],
+    [
+     "Enrico Albertosi",
+     "Albertosi"
+    ],
+    [
+     "Roberto Boninsegna",
+     "Boninsegna"
+    ],
+    [
+     "Angelo Domenghini",
+     "Domenghini"
+    ],
+    [
+     "Pierino Prati",
+     "Prati"
+    ],
+    [
+     "Fabrizio Poletti",
+     "Poletti"
+    ],
+    [
+     "Pierluigi Cera",
+     "Cera"
+    ],
+    [
+     "Ugo Ferrante",
+     "Ferrante"
+    ],
+    [
+     "Comunardo Niccolai",
+     "Niccolai"
+    ],
+    [
+     "Roberto Rosato",
+     "Rosato"
+    ],
+    [
+     "Giorgio Puia",
+     "Puia"
+    ],
+    [
+     "Mario Bertini",
+     "Bertini"
+    ],
+    [
+     "Giancarlo De Sisti",
+     "De Sisti",
+     "Sisti"
+    ],
+    [
+     "Lido Vieri",
+     "Vieri"
+    ],
+    [
+     "Antonio Juliano",
+     "Juliano"
+    ],
+    [
+     "Sergio Gori",
+     "Gori"
+    ],
+    [
+     "Giuseppe Furino",
+     "Furino"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-netherlands-1974-squad",
+   "tags": [
+    "70s"
+   ],
+   "text": "Name a player in the Netherlands' 22-man squad for the 1974 World Cup (the van de Kerkhof twins count as one answer)",
+   "answers": [
+    [
+     "Johan Cruyff",
+     "Cruyff"
+    ],
+    [
+     "Johan Neeskens",
+     "Neeskens"
+    ],
+    [
+     "Johnny Rep",
+     "Rep"
+    ],
+    [
+     "Ruud Krol",
+     "Krol"
+    ],
+    [
+     "Rob Rensenbrink",
+     "Rensenbrink"
+    ],
+    [
+     "Arie Haan",
+     "Haan"
+    ],
+    [
+     "Willem van Hanegem",
+     "van Hanegem",
+     "Hanegem"
+    ],
+    [
+     "Jan Jongbloed",
+     "Jongbloed"
+    ],
+    [
+     "Van de Kerkhof",
+     "René van de Kerkhof",
+     "Willy van de Kerkhof"
+    ],
+    [
+     "Wim Suurbier",
+     "Suurbier"
+    ],
+    [
+     "Wim Rijsbergen",
+     "Rijsbergen"
+    ],
+    [
+     "Wim Jansen",
+     "Jansen"
+    ],
+    [
+     "Ruud Geels",
+     "Geels"
+    ],
+    [
+     "Kees van Ierssel",
+     "van Ierssel",
+     "Ierssel"
+    ],
+    [
+     "Rinus Israël",
+     "Israël"
+    ],
+    [
+     "Theo de Jong",
+     "de Jong",
+     "Jong"
+    ],
+    [
+     "Piet Keizer",
+     "Keizer"
+    ],
+    [
+     "Piet Schrijvers",
+     "Schrijvers"
+    ],
+    [
+     "Pleun Strik",
+     "Strik"
+    ],
+    [
+     "Eddy Treijtel",
+     "Treijtel"
+    ],
+    [
+     "Harry Vos",
+     "Vos"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-west-germany-1974-squad",
+   "tags": [
+    "70s"
+   ],
+   "text": "Name a player in West Germany's 22-man squad for the 1974 World Cup",
+   "answers": [
+    [
+     "Franz Beckenbauer",
+     "Beckenbauer"
+    ],
+    [
+     "Gerd Müller",
+     "Müller"
+    ],
+    [
+     "Sepp Maier",
+     "Maier"
+    ],
+    [
+     "Paul Breitner",
+     "Breitner"
+    ],
+    [
+     "Berti Vogts",
+     "Vogts"
+    ],
+    [
+     "Wolfgang Overath",
+     "Overath"
+    ],
+    [
+     "Günter Netzer",
+     "Netzer"
+    ],
+    [
+     "Jupp Heynckes",
+     "Heynckes"
+    ],
+    [
+     "Uli Hoeneß",
+     "Hoeneß"
+    ],
+    [
+     "Rainer Bonhof",
+     "Bonhof"
+    ],
+    [
+     "Jürgen Grabowski",
+     "Grabowski"
+    ],
+    [
+     "Bernd Hölzenbein",
+     "Hölzenbein"
+    ],
+    [
+     "Hans-Georg Schwarzenbeck",
+     "Schwarzenbeck"
+    ],
+    [
+     "Horst-Dieter Höttges",
+     "Höttges"
+    ],
+    [
+     "Herbert Wimmer",
+     "Wimmer"
+    ],
+    [
+     "Bernhard Cullmann",
+     "Cullmann"
+    ],
+    [
+     "Heinz Flohe",
+     "Flohe"
+    ],
+    [
+     "Dieter Herzog",
+     "Herzog"
+    ],
+    [
+     "Jupp Kapellmann",
+     "Kapellmann"
+    ],
+    [
+     "Helmut Kremers",
+     "Kremers"
+    ],
+    [
+     "Norbert Nigbur",
+     "Nigbur"
+    ],
+    [
+     "Wolfgang Kleff",
+     "Kleff"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-argentina-1978-squad",
+   "tags": [
+    "70s"
+   ],
+   "text": "Name a player in Argentina's 22-man squad for the 1978 World Cup",
+   "answers": [
+    [
+     "Mario Kempes",
+     "Kempes"
+    ],
+    [
+     "Osvaldo Ardiles",
+     "Ardiles",
+     "Ossie Ardiles"
+    ],
+    [
+     "Daniel Passarella",
+     "Passarella"
+    ],
+    [
+     "Ubaldo Fillol",
+     "Fillol"
+    ],
+    [
+     "Ricardo Villa",
+     "Villa",
+     "Ricky Villa"
+    ],
+    [
+     "Leopoldo Luque",
+     "Luque"
+    ],
+    [
+     "René Houseman",
+     "Houseman"
+    ],
+    [
+     "Daniel Bertoni",
+     "Bertoni"
+    ],
+    [
+     "Norberto Alonso",
+     "Alonso"
+    ],
+    [
+     "Alberto Tarantini",
+     "Tarantini"
+    ],
+    [
+     "Américo Gallego",
+     "Gallego"
+    ],
+    [
+     "Héctor Baley",
+     "Baley"
+    ],
+    "Luis Galván",
+    "Rubén Galván",
+    [
+     "Daniel Killer",
+     "Killer"
+    ],
+    [
+     "Omar Larrosa",
+     "Larrosa"
+    ],
+    [
+     "Ricardo La Volpe",
+     "La Volpe",
+     "Volpe"
+    ],
+    [
+     "Jorge Olguín",
+     "Olguín"
+    ],
+    [
+     "Oscar Ortiz",
+     "Ortiz"
+    ],
+    [
+     "Miguel Oviedo",
+     "Oviedo"
+    ],
+    [
+     "Rubén Pagnanini",
+     "Pagnanini"
+    ],
+    [
+     "José Daniel Valencia",
+     "Valencia"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-fa-cup-final-1974",
+   "tags": [
+    "cups",
+    "70s"
+   ],
+   "text": "Name a player in the matchday squad for the 1974 FA Cup final, Liverpool v Newcastle United",
+   "answers": [
+    [
+     "Kevin Keegan",
+     "Keegan"
+    ],
+    [
+     "Ray Clemence",
+     "Clemence"
+    ],
+    [
+     "Emlyn Hughes",
+     "Hughes"
+    ],
+    [
+     "John Toshack",
+     "Toshack"
+    ],
+    [
+     "Malcolm Macdonald",
+     "Macdonald"
+    ],
+    [
+     "Steve Heighway",
+     "Heighway"
+    ],
+    [
+     "Terry McDermott",
+     "McDermott"
+    ],
+    "Tommy Smith",
+    [
+     "Ian Callaghan",
+     "Callaghan"
+    ],
+    [
+     "Phil Thompson",
+     "Thompson"
+    ],
+    [
+     "Bobby Moncur",
+     "Moncur"
+    ],
+    [
+     "Peter Cormack",
+     "Cormack"
+    ],
+    [
+     "Alan Kennedy",
+     "Kennedy"
+    ],
+    [
+     "Alec Lindsay",
+     "Lindsay"
+    ],
+    [
+     "Brian Hall",
+     "Hall"
+    ],
+    [
+     "Chris Lawler",
+     "Lawler"
+    ],
+    [
+     "Willie McFaul",
+     "McFaul"
+    ],
+    [
+     "Frank Clark",
+     "Clark"
+    ],
+    [
+     "Pat Howard",
+     "Howard"
+    ],
+    "Jimmy Smith",
+    [
+     "Tommy Cassidy",
+     "Cassidy"
+    ],
+    [
+     "John Tudor",
+     "Tudor"
+    ],
+    [
+     "Terry Hibbitt",
+     "Hibbitt"
+    ],
+    [
+     "Tommy Gibb",
+     "Gibb"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-fa-cup-final-1976",
+   "tags": [
+    "cups",
+    "70s"
+   ],
+   "text": "Name a player in the matchday squad for the 1976 FA Cup final, Southampton v Man Utd",
+   "answers": [
+    [
+     "Lou Macari",
+     "Macari"
+    ],
+    [
+     "Alex Stepney",
+     "Stepney"
+    ],
+    [
+     "Martin Buchan",
+     "Buchan"
+    ],
+    [
+     "Gordon Hill",
+     "Hill"
+    ],
+    [
+     "Steve Coppell",
+     "Coppell"
+    ],
+    [
+     "Peter Osgood",
+     "Osgood"
+    ],
+    [
+     "Mick Channon",
+     "Channon"
+    ],
+    [
+     "Jim McCalliog",
+     "McCalliog"
+    ],
+    [
+     "Bobby Stokes",
+     "Stokes"
+    ],
+    [
+     "Sammy McIlroy",
+     "McIlroy"
+    ],
+    [
+     "Stuart Pearson",
+     "Pearson"
+    ],
+    [
+     "Brian Greenhoff",
+     "Greenhoff"
+    ],
+    [
+     "Alex Forsyth",
+     "Forsyth"
+    ],
+    [
+     "Stewart Houston",
+     "Houston"
+    ],
+    [
+     "Gerry Daly",
+     "Daly"
+    ],
+    [
+     "David McCreery",
+     "McCreery"
+    ],
+    [
+     "Ian Turner",
+     "Turner"
+    ],
+    [
+     "Peter Rodrigues",
+     "Rodrigues"
+    ],
+    [
+     "David Peach",
+     "Peach"
+    ],
+    [
+     "Nick Holmes",
+     "Holmes"
+    ],
+    [
+     "Mel Blyth",
+     "Blyth"
+    ],
+    [
+     "Jim Steele",
+     "Steele"
+    ],
+    [
+     "Paul Gilchrist",
+     "Gilchrist"
+    ],
+    [
+     "Hugh Fisher",
+     "Fisher"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-fa-cup-final-1977",
+   "tags": [
+    "cups",
+    "70s"
+   ],
+   "text": "Name a player in the matchday squad for the 1977 FA Cup final, Man Utd v Liverpool",
+   "answers": [
+    [
+     "Kevin Keegan",
+     "Keegan"
+    ],
+    [
+     "Ray Clemence",
+     "Clemence"
+    ],
+    [
+     "Steve Coppell",
+     "Coppell"
+    ],
+    "Jimmy Greenhoff",
+    [
+     "Emlyn Hughes",
+     "Hughes"
+    ],
+    [
+     "Ray Kennedy",
+     "Kennedy"
+    ],
+    [
+     "Phil Neal",
+     "Neal"
+    ],
+    [
+     "Lou Macari",
+     "Macari"
+    ],
+    [
+     "Terry McDermott",
+     "McDermott"
+    ],
+    [
+     "Gordon Hill",
+     "Hill"
+    ],
+    [
+     "Martin Buchan",
+     "Buchan"
+    ],
+    [
+     "Sammy McIlroy",
+     "McIlroy"
+    ],
+    [
+     "Alex Stepney",
+     "Stepney"
+    ],
+    [
+     "Stuart Pearson",
+     "Pearson"
+    ],
+    [
+     "Steve Heighway",
+     "Heighway"
+    ],
+    [
+     "Ian Callaghan",
+     "Callaghan"
+    ],
+    [
+     "Jimmy Case",
+     "Case"
+    ],
+    [
+     "Tommy Smith",
+     "Smith"
+    ],
+    [
+     "Joey Jones",
+     "Jones"
+    ],
+    [
+     "David Johnson",
+     "Johnson"
+    ],
+    [
+     "Jimmy Nicholl",
+     "Nicholl"
+    ],
+    [
+     "Arthur Albiston",
+     "Albiston"
+    ],
+    "Brian Greenhoff",
+    [
+     "David McCreery",
+     "McCreery"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-brazil-1982-squad",
+   "tags": [
+    "80s"
+   ],
+   "text": "Name a player in Brazil's 22-man squad for the 1982 World Cup",
+   "answers": [
+    "Zico",
+    "Sócrates",
+    "Falcão",
+    "Éder",
+    "Júnior",
+    [
+     "Toninho Cerezo",
+     "Cerezo"
+    ],
+    [
+     "Waldir Peres",
+     "Peres"
+    ],
+    "Leandro",
+    "Oscar",
+    "Luizinho",
+    "Serginho",
+    [
+     "Paulo Isidoro",
+     "Isidoro"
+    ],
+    [
+     "Roberto Dinamite",
+     "Dinamite"
+    ],
+    "Dirceu",
+    [
+     "Paulo Sérgio",
+     "Sérgio"
+    ],
+    "Edevaldo",
+    "Juninho",
+    "Edinho",
+    "Pedrinho",
+    "Batista",
+    "Renato",
+    "Carlos"
+   ]
+  },
+  {
+   "id": "fe5-argentina-1986-squad",
+   "tags": [
+    "80s"
+   ],
+   "text": "Name a player in Argentina's 22-man squad for the 1986 World Cup",
+   "answers": [
+    [
+     "Diego Maradona",
+     "Maradona"
+    ],
+    [
+     "Jorge Valdano",
+     "Valdano"
+    ],
+    [
+     "Jorge Burruchaga",
+     "Burruchaga"
+    ],
+    [
+     "Daniel Passarella",
+     "Passarella"
+    ],
+    [
+     "Nery Pumpido",
+     "Pumpido"
+    ],
+    [
+     "Oscar Ruggeri",
+     "Ruggeri"
+    ],
+    [
+     "Sergio Batista",
+     "Batista"
+    ],
+    [
+     "José Luis Brown",
+     "Brown"
+    ],
+    [
+     "Héctor Enrique",
+     "Enrique"
+    ],
+    [
+     "Ricardo Giusti",
+     "Giusti"
+    ],
+    [
+     "Julio Olarticoechea",
+     "Olarticoechea"
+    ],
+    [
+     "Pedro Pasculli",
+     "Pasculli"
+    ],
+    [
+     "Ricardo Bochini",
+     "Bochini"
+    ],
+    [
+     "Sergio Almirón",
+     "Almirón"
+    ],
+    [
+     "Claudio Borghi",
+     "Borghi"
+    ],
+    [
+     "Néstor Clausen",
+     "Clausen"
+    ],
+    [
+     "José Luis Cuciuffo",
+     "Cuciuffo"
+    ],
+    [
+     "Oscar Garré",
+     "Garré"
+    ],
+    [
+     "Luis Islas",
+     "Islas"
+    ],
+    [
+     "Carlos Tapia",
+     "Tapia"
+    ],
+    [
+     "Marcelo Trobbiani",
+     "Trobbiani"
+    ],
+    [
+     "Héctor Zelada",
+     "Zelada"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-fa-cup-final-1984",
+   "tags": [
+    "cups",
+    "80s"
+   ],
+   "text": "Name a player in the matchday squad for the 1984 FA Cup final, Everton v Watford",
+   "answers": [
+    [
+     "Neville Southall",
+     "Southall"
+    ],
+    [
+     "Graeme Sharp",
+     "Sharp"
+    ],
+    [
+     "Andy Gray",
+     "Gray"
+    ],
+    [
+     "Peter Reid",
+     "Reid"
+    ],
+    [
+     "Mo Johnston",
+     "Johnston"
+    ],
+    [
+     "John Barnes",
+     "Barnes"
+    ],
+    [
+     "Kevin Ratcliffe",
+     "Ratcliffe"
+    ],
+    [
+     "Trevor Steven",
+     "Steven"
+    ],
+    [
+     "Gary Stevens",
+     "Stevens"
+    ],
+    [
+     "Adrian Heath",
+     "Heath"
+    ],
+    [
+     "Kevin Richardson",
+     "Richardson"
+    ],
+    [
+     "Les Taylor",
+     "Taylor"
+    ],
+    [
+     "John Bailey",
+     "Bailey"
+    ],
+    [
+     "Derek Mountfield",
+     "Mountfield"
+    ],
+    [
+     "Alan Harper",
+     "Harper"
+    ],
+    [
+     "Steve Sherwood",
+     "Sherwood"
+    ],
+    [
+     "David Bardsley",
+     "Bardsley"
+    ],
+    [
+     "Neil Price",
+     "Price"
+    ],
+    [
+     "Steve Terry",
+     "Terry"
+    ],
+    [
+     "Lee Sinnott",
+     "Sinnott"
+    ],
+    [
+     "Nigel Callaghan",
+     "Callaghan"
+    ],
+    [
+     "George Reilly",
+     "Reilly"
+    ],
+    [
+     "Kenny Jackett",
+     "Jackett"
+    ],
+    [
+     "Paul Atkinson",
+     "Atkinson"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-fa-cup-final-1986",
+   "tags": [
+    "cups",
+    "80s"
+   ],
+   "text": "Name a player in the matchday squad for the 1986 FA Cup final, Liverpool v Everton",
+   "answers": [
+    [
+     "Ian Rush",
+     "Rush"
+    ],
+    [
+     "Gary Lineker",
+     "Lineker"
+    ],
+    [
+     "Kenny Dalglish",
+     "Dalglish"
+    ],
+    [
+     "Bruce Grobbelaar",
+     "Grobbelaar"
+    ],
+    [
+     "Alan Hansen",
+     "Hansen"
+    ],
+    [
+     "Jan Mølby",
+     "Mølby"
+    ],
+    [
+     "Graeme Sharp",
+     "Sharp"
+    ],
+    [
+     "Peter Reid",
+     "Reid"
+    ],
+    [
+     "Steve McMahon",
+     "McMahon"
+    ],
+    [
+     "Kevin Ratcliffe",
+     "Ratcliffe"
+    ],
+    [
+     "Mark Lawrenson",
+     "Lawrenson"
+    ],
+    [
+     "Craig Johnston",
+     "Johnston"
+    ],
+    [
+     "Ronnie Whelan",
+     "Whelan"
+    ],
+    [
+     "Steve Nicol",
+     "Nicol"
+    ],
+    [
+     "Jim Beglin",
+     "Beglin"
+    ],
+    [
+     "Kevin Sheedy",
+     "Sheedy"
+    ],
+    [
+     "Trevor Steven",
+     "Steven"
+    ],
+    [
+     "Gary Stevens",
+     "Stevens"
+    ],
+    [
+     "Adrian Heath",
+     "Heath"
+    ],
+    [
+     "Bobby Mimms",
+     "Mimms"
+    ],
+    [
+     "Derek Mountfield",
+     "Mountfield"
+    ],
+    [
+     "Pat Van Den Hauwe",
+     "Van Den Hauwe",
+     "Hauwe"
+    ],
+    [
+     "Paul Bracewell",
+     "Bracewell"
+    ],
+    [
+     "Kevin MacDonald",
+     "MacDonald"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-europe-eredivisie-2024-25",
+   "tags": [
+    "europe"
+   ],
+   "text": "Name a club that played in the Eredivisie in 2024-25",
+   "answers": [
+    [
+     "Ajax",
+     "AFC Ajax"
+    ],
+    [
+     "PSV Eindhoven",
+     "PSV"
+    ],
+    [
+     "Feyenoord",
+     "Feijenoord"
+    ],
+    [
+     "AZ",
+     "AZ Alkmaar"
+    ],
+    [
+     "Twente",
+     "FC Twente"
+    ],
+    [
+     "Utrecht",
+     "FC Utrecht"
+    ],
+    [
+     "Heerenveen",
+     "SC Heerenveen"
+    ],
+    [
+     "Sparta Rotterdam",
+     "Sparta"
+    ],
+    [
+     "NEC",
+     "NEC Nijmegen"
+    ],
+    "Go Ahead Eagles",
+    [
+     "Groningen",
+     "FC Groningen"
+    ],
+    [
+     "Fortuna Sittard",
+     "Fortuna"
+    ],
+    [
+     "Heracles Almelo",
+     "Heracles"
+    ],
+    [
+     "NAC Breda",
+     "NAC"
+    ],
+    [
+     "PEC Zwolle",
+     "Zwolle"
+    ],
+    [
+     "RKC Waalwijk",
+     "RKC"
+    ],
+    "Willem II",
+    [
+     "Almere City",
+     "Almere"
+    ]
+   ]
+  },
+  {
+   "id": "fe5-europe-primeira-liga-2024-25",
+   "tags": [
+    "europe"
+   ],
+   "text": "Name a club that played in the Portuguese Primeira Liga in 2024-25",
+   "answers": [
+    [
+     "Benfica",
+     "SL Benfica"
+    ],
+    [
+     "Porto",
+     "FC Porto"
+    ],
+    [
+     "Sporting CP",
+     "Sporting",
+     "Sporting Lisbon"
+    ],
+    [
+     "Braga",
+     "SC Braga",
+     "Sporting Braga"
+    ],
+    [
+     "Vitória de Guimarães",
+     "Vitoria Guimaraes",
+     "Guimaraes"
+    ],
+    "Boavista",
+    "Famalicão",
+    "Estoril",
+    [
+     "Gil Vicente",
+     "Gil Vicente FC"
+    ],
+    [
+     "Moreirense",
+     "Moreirense FC"
+    ],
+    [
+     "Casa Pia",
+     "Casa Pia AC"
+    ],
+    [
+     "Rio Ave",
+     "Rio Ave FC"
+    ],
+    [
+     "Santa Clara",
+     "CD Santa Clara"
+    ],
+    [
+     "Nacional",
+     "CD Nacional"
+    ],
+    "Arouca",
+    "Farense",
+    [
+     "Estrela da Amadora",
+     "Estrela Amadora",
+     "Estrela"
+    ],
+    "AVS"
+   ]
+  }
+ ]
+}
