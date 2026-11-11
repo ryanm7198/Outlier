@@ -422,12 +422,33 @@ def pool(cat, tags, deep=None):
     return sorted(out)
 
 
+def top_of(pid):
+    c = PROMPTS[pid]["cat"]
+    return parent_of(c) or c
+
+
+def fine_key(pid):
+    """Where a prompt sits for the Everything round: (top-level category, sub-category). Football and each sport
+    inside Sport are separate sub-categories of Sport."""
+    p = PROMPTS[pid]
+    c = p["cat"]
+    if parent_of(c):
+        return (parent_of(c), c)
+    if children_of(c):
+        lead = filter_groups(c)[0]
+        return (c, next((t for t in p["tags"] if t in lead), ""))
+    return (c, "")
+
+
 def buckets(cat, tags, ids):
     """Split a pool by the filters the player chose, so picking can share prompts out evenly between
     them (Food and Games should be a mix, not mostly whichever has more questions). The filter group
     with the most chosen tags decides the split."""
-    if cat == "all":   # Everything: share prompts out between the categories
-        return [b for b in ([i for i in ids if PROMPTS[i]["cat"] == c["id"]] for c in CATS) if b]
+    if cat == "all":   # Everything: one bucket per sub-category (football, darts, tennis, music...)
+        by = {}
+        for i in ids:
+            by.setdefault(fine_key(i), []).append(i)
+        return [by[k] for k in sorted(by)]
     if cat == "mix":
         return mix_plan(tags, ids)[0]
     tags = set(tags or [])
@@ -453,8 +474,37 @@ def bucket_weights(cat, groups, tags=()):
     square root of its size, so small ones turn up often enough without repeating themselves."""
     if cat == "mix":
         return mix_plan(tags, sorted(set().union(*groups)) if groups else [])[1]
-    spread = cat == "all" or (children_of(cat) and not sub_choices(cat, tags)[1])
+    if cat == "all":
+        # Every top-level category gets the same share of the round (so Sport, with far more questions, can't
+        # dominate). Inside one, its sub-categories (Football, Darts, Tennis...) split that share by sqrt of size.
+        root = [math.sqrt(len(b)) for b in groups]
+        tops = [top_of(b[0]) for b in groups]
+        totals = {}
+        for t, r in zip(tops, root):
+            totals[t] = totals.get(t, 0) + r
+        return [r / totals[t] for t, r in zip(tops, root)]
+    spread = children_of(cat) and not sub_choices(cat, tags)[1]
     return [math.sqrt(len(b)) if spread else 1.0 for b in groups]
+
+
+def balanced_order(cat, tags, ids, rng):
+    """Every prompt in a fair, repeatable order (for the Daily five): the sub-category furthest below its share
+    goes next, so any five-in-a-row slice is a good mix."""
+    groups = buckets(cat, tags, ids)
+    weights = bucket_weights(cat, groups, tags)
+    queues = []
+    for b in groups:
+        b = list(b)
+        rng.shuffle(b)
+        queues.append(b)
+    taken = [0] * len(queues)
+    out = []
+    while any(queues):
+        live = [k for k in range(len(queues)) if queues[k]]
+        k = min(live, key=lambda k: (taken[k] + rng.random()) / weights[k])
+        out.append(queues[k].pop(0))
+        taken[k] += 1
+    return out
 
 
 def pick_balanced(cat, tags, ids, seen, n):
@@ -524,7 +574,7 @@ def daily(cat):
     today = datetime.date.today()
     n = min(DAILY_N, len(ids))
     cycle, idx = divmod(today.toordinal(), max(1, len(ids) // n))
-    random.Random(f"outlier-{cat}-{cycle}").shuffle(ids)
+    ids = balanced_order(cat, [], ids, random.Random(f"outlier-{cat}-{cycle}"))
     return {"date": today.isoformat(), "number": (today - LAUNCH).days + 1, "cat": cat,
             "label": describe(cat, []), "roundMs": ROUND_S * 1000,
             "prompts": [public_prompt(i) for i in ids[idx * n:(idx + 1) * n]]}
