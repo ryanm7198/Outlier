@@ -124,7 +124,7 @@ def load_prompts():
     for data in sorted(files, key=lambda d: "filters" not in d):
         if not any(c["id"] == data["cat"] for c in CATS):
             CATS.append({
-                "id": data["cat"], "label": data["label"],
+                "id": data["cat"], "label": data["label"], "order": data.get("order", 99),
                 "filters": [{"label": g["label"], "tags": [{"id": t[0], "label": t[1]} for t in g["tags"]]}
                             for g in data.get("filters", [])],
             })
@@ -149,6 +149,7 @@ def load_prompts():
             for a in answers:
                 for alias in a[1:]:
                     add_key(pid, norm(alias), a[0])
+    CATS.sort(key=lambda c: (c.get("order", 99), c["label"]))   # the picker's order
 
 
 def match_detail(pid, raw):
@@ -321,22 +322,34 @@ def buckets(cat, tags, ids):
     return [b for b in out if b]
 
 
+def bucket_weights(cat, groups):
+    """Chosen filters share prompts equally. In Everything, a category's share grows with the square
+    root of its size, so small categories turn up often enough without repeating themselves."""
+    return [math.sqrt(len(b)) if cat == "all" else 1.0 for b in groups]
+
+
 def pick_balanced(cat, tags, ids, seen, n):
-    """Up to n prompts, taking turns between the chosen filters; within each, unseen prompts first
-    and then the ones seen longest ago (seen is oldest first)."""
+    """Up to n prompts spread across the chosen filters (or categories); within each, unseen prompts
+    first and then the ones seen longest ago (seen is oldest first)."""
+    groups = buckets(cat, tags, ids)
+    weights = bucket_weights(cat, groups)
     order = []
-    for b in buckets(cat, tags, ids):
+    for b in groups:
         fresh = [i for i in b if i not in seen]
         random.shuffle(fresh)
         order.append(fresh + sorted((i for i in b if i in seen), key=seen.index))
-    random.shuffle(order)
+    taken = [0] * len(order)
     picked = []
     while len(picked) < n and any(order):
-        for b in order:
-            while b and b[0] in picked:
-                b.pop(0)
-            if b and len(picked) < n:
-                picked.append(b.pop(0))
+        # The filter furthest below its fair share goes next; the random nudge lets bigger ones win ties more often.
+        live = [k for k in range(len(order)) if order[k]]
+        k = min(live, key=lambda k: (taken[k] + random.random()) / weights[k])
+        b = order[k]
+        while b and b[0] in picked:
+            b.pop(0)
+        if b:
+            picked.append(b.pop(0))
+            taken[k] += 1
     random.shuffle(picked)
     return picked
 
@@ -464,13 +477,14 @@ def next_question(room):
     ids = pool(room["cat"], room["tags"])
     if all(i in room["used"] for i in ids):   # the room has been through every matching prompt; start over
         room["used"] = [i for i in room["used"] if i not in ids]
-    # Take turns between the chosen filters: the one with the fewest prompts played so far goes next.
+    # Take turns between the chosen filters: the one furthest below its fair share goes next.
     groups = buckets(room["cat"], room["tags"], ids)
+    weights = bucket_weights(room["cat"], groups)
     fresh = [[i for i in b if i not in room["used"]] for b in groups]
     played = [sum(1 for i in b if i in room["used"]) for b in groups]
     choices = [k for k in range(len(groups)) if fresh[k]]
-    low = min(played[k] for k in choices)
-    room["prompt"] = random.choice(fresh[random.choice([k for k in choices if played[k] == low])])
+    k = min(choices, key=lambda k: (played[k] + random.random()) / weights[k])
+    room["prompt"] = random.choice(fresh[k])
     room["used"].append(room["prompt"])
     room["round"] += 1
     for p in room["players"].values():
