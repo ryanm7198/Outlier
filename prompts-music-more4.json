@@ -1,0 +1,1288 @@
+{
+ "cat": "music",
+ "prompts": [
+  {
+   "id": "xu4-catch-a-fire-burnin-tracks",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a track on Bob Marley and the Wailers' 'Catch a Fire' or 'Burnin'' (original track listings)",
+   "answers": [
+    "Stir It Up",
+    [
+     "I Shot the Sheriff",
+     "Shot the Sheriff"
+    ],
+    [
+     "Get Up, Stand Up",
+     "Get Up Stand Up"
+    ],
+    "Concrete Jungle",
+    "Slave Driver",
+    "Kinky Reggae",
+    "Small Axe",
+    "Duppy Conqueror",
+    [
+     "Burnin' and Lootin'",
+     "Burning and Looting",
+     "Burnin and Lootin"
+    ],
+    [
+     "400 Years",
+     "Four Hundred Years"
+    ],
+    "Stop That Train",
+    [
+     "Baby We've Got a Date (Rock It Baby)",
+     "Baby We've Got a Date",
+     "Rock It Baby"
+    ],
+    "No More Trouble",
+    "Midnight Ravers",
+    "Hallelujah Time",
+    "Put It On",
+    "Pass It On",
+    "One Foundation",
+    [
+     "Rasta Man Chant",
+     "Rastaman Chant"
+    ]
+   ]
+  },
+  {
+   "id": "xu4-natty-dread-rastaman-vibration-tracks",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a track on Bob Marley and the Wailers' 'Natty Dread' or 'Rastaman Vibration' (original track listings)",
+   "answers": [
+    [
+     "No Woman, No Cry",
+     "No Woman No Cry"
+    ],
+    "War",
+    "Lively Up Yourself",
+    "Rat Race",
+    "Positive Vibration",
+    [
+     "Roots, Rock, Reggae",
+     "Roots Rock Reggae"
+    ],
+    [
+     "Them Belly Full (But We Hungry)",
+     "Them Belly Full"
+    ],
+    [
+     "Rebel Music (3 O'Clock Roadblock)",
+     "Rebel Music",
+     "3 O'Clock Roadblock"
+    ],
+    [
+     "Talkin' Blues",
+     "Talking Blues"
+    ],
+    "Natty Dread",
+    "Bend Down Low",
+    "So Jah Seh",
+    "Revolution",
+    "Johnny Was",
+    "Cry to Me",
+    "Want More",
+    [
+     "Crazy Baldhead",
+     "Crazy Bald Head"
+    ],
+    "Who the Cap Fit",
+    "Night Shift"
+   ]
+  },
+  {
+   "id": "xu4-ub40-members",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a member of UB40, past or present",
+   "answers": [
+    [
+     "Ali Campbell",
+     "Ali"
+    ],
+    [
+     "Robin Campbell",
+     "Robin"
+    ],
+    "Astro",
+    [
+     "Brian Travers",
+     "Travers"
+    ],
+    [
+     "Earl Falconer",
+     "Falconer"
+    ],
+    [
+     "Norman Hassan",
+     "Hassan"
+    ],
+    [
+     "Jimmy Brown",
+     "James Brown",
+     "Brown"
+    ],
+    [
+     "Mickey Virtue",
+     "Virtue"
+    ],
+    [
+     "Duncan Campbell",
+     "Duncan"
+    ],
+    [
+     "Yomi Babayemi",
+     "Babayemi"
+    ],
+    [
+     "Jimmy Lynn",
+     "Lynn"
+    ],
+    [
+     "Tony Mullings",
+     "Mullings"
+    ],
+    [
+     "Laurence Parry",
+     "Parry"
+    ],
+    [
+     "Martin Meredith",
+     "Meredith"
+    ],
+    [
+     "Matt Doyle",
+     "Doyle"
+    ],
+    [
+     "Ian Thompson",
+     "Thompson"
+    ],
+    "Henry Tenyue",
+    "Patrick Tenyue",
+    "Gilly G",
+    [
+     "Jahred Gordon",
+     "Gordon"
+    ],
+    "Matt Campbell"
+   ]
+  },
+  {
+   "id": "xu4-toots-maytals-albums",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a studio album by Toots and the Maytals (as listed on Wikipedia, to 2020)",
+   "answers": [
+    "Never Grow Old",
+    [
+     "The Sensational Maytals",
+     "Sensational Maytals"
+    ],
+    "Sweet and Dandy",
+    "Monkey Man",
+    "Slatyam Stoot",
+    "Funky Kingston",
+    "From the Roots",
+    "Roots Reggae",
+    "In the Dark",
+    "Reggae Got Soul",
+    "Toots Presents the Maytals",
+    "Pass the Pipe",
+    "Just Like That",
+    "Knock Out!",
+    "Toots in Memphis",
+    "Recoup",
+    "Ska Father",
+    "True Love",
+    "Light Your Light",
+    "Flip and Twist",
+    "Got to Be Tough",
+    "World Is Turning"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu4-johnny-cash-albums",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a Johnny Cash studio or live album (as listed on Wikipedia, to 2025)",
+   "answers": [
+    [
+     "Johnny Cash with His Hot and Blue Guitar!",
+     "Hot and Blue Guitar",
+     "Hot and Blue Guitar!"
+    ],
+    [
+     "The Fabulous Johnny Cash",
+     "Fabulous Johnny Cash"
+    ],
+    "Hymns by Johnny Cash",
+    "Songs of Our Soil",
+    [
+     "Now, There Was a Song!",
+     "Now There Was a Song"
+    ],
+    "Ride This Train",
+    "Hymns from the Heart",
+    [
+     "The Sound of Johnny Cash",
+     "Sound of Johnny Cash"
+    ],
+    [
+     "Blood, Sweat and Tears",
+     "Blood Sweat and Tears"
+    ],
+    [
+     "The Christmas Spirit",
+     "Christmas Spirit"
+    ],
+    "Keep on the Sunny Side",
+    "I Walk the Line",
+    [
+     "Bitter Tears: Ballads of the American Indian",
+     "Bitter Tears"
+    ],
+    "Orange Blossom Special",
+    [
+     "Johnny Cash Sings the Ballads of the True West",
+     "Ballads of the True West"
+    ],
+    "Everybody Loves a Nut",
+    "Happiness Is You",
+    [
+     "Carryin' On with Johnny Cash and June Carter",
+     "Carryin' On"
+    ],
+    "From Sea to Shining Sea",
+    [
+     "The Holy Land",
+     "Holy Land"
+    ],
+    [
+     "Hello, I'm Johnny Cash",
+     "Hello I'm Johnny Cash"
+    ],
+    "Man in Black",
+    [
+     "A Thing Called Love",
+     "Thing Called Love"
+    ],
+    [
+     "America: A 200-Year Salute in Story and Song",
+     "America A 200-Year Salute"
+    ],
+    [
+     "The Johnny Cash Family Christmas",
+     "Johnny Cash Family Christmas"
+    ],
+    "Any Old Wind That Blows",
+    "Johnny Cash and His Woman",
+    "Ragged Old Flag",
+    [
+     "The Junkie and the Juicehead Minus Me",
+     "Junkie and the Juicehead"
+    ],
+    [
+     "The Johnny Cash Children's Album",
+     "Children's Album"
+    ],
+    [
+     "Johnny Cash Sings Precious Memories",
+     "Precious Memories"
+    ],
+    "John R. Cash",
+    "Look at Them Beans",
+    "One Piece at a Time",
+    [
+     "The Last Gunfighter Ballad",
+     "Last Gunfighter Ballad"
+    ],
+    [
+     "The Rambler",
+     "Rambler"
+    ],
+    "I Would Like to See You Again",
+    "Gone Girl",
+    "Silver",
+    [
+     "A Believer Sings the Truth",
+     "Believer Sings the Truth"
+    ],
+    "Rockabilly Blues",
+    "Classic Christmas",
+    [
+     "The Baron",
+     "Baron"
+    ],
+    [
+     "The Adventures of Johnny Cash",
+     "Adventures of Johnny Cash"
+    ],
+    "Johnny 99",
+    "Highwayman",
+    "Rainbow",
+    "Heroes",
+    [
+     "Class of '55",
+     "Class of 55"
+    ],
+    "Believe in Him",
+    "Water from the Wells of Home",
+    "Boom Chicka Boom",
+    "Highwayman 2",
+    [
+     "The Mystery of Life",
+     "Mystery of Life"
+    ],
+    "Country Christmas",
+    [
+     "American Recordings",
+     "American I"
+    ],
+    [
+     "The Road Goes On Forever",
+     "Road Goes On Forever"
+    ],
+    [
+     "American II: Unchained",
+     "Unchained",
+     "American II"
+    ],
+    [
+     "American III: Solitary Man",
+     "Solitary Man",
+     "American III"
+    ],
+    [
+     "American IV: The Man Comes Around",
+     "The Man Comes Around",
+     "Man Comes Around",
+     "American IV"
+    ],
+    "My Mother's Hymn Book",
+    [
+     "American V: A Hundred Highways",
+     "A Hundred Highways",
+     "American V"
+    ],
+    [
+     "American VI: Ain't No Grave",
+     "Ain't No Grave",
+     "American VI"
+    ],
+    "Out Among the Stars",
+    "Songwriter",
+    [
+     "At Folsom Prison",
+     "Folsom Prison"
+    ],
+    [
+     "At San Quentin",
+     "San Quentin"
+    ],
+    [
+     "The Johnny Cash Show",
+     "Johnny Cash Show"
+    ],
+    [
+     "På Österåker",
+     "Pa Osteraker",
+     "At Osteraker"
+    ],
+    "Strawberry Cake",
+    [
+     "The Survivors",
+     "Survivors"
+    ],
+    [
+     "Koncert v Praze (In Prague-Live)",
+     "In Prague Live",
+     "Koncert v Praze"
+    ],
+    [
+     "VH1 Storytellers: Johnny Cash & Willie Nelson",
+     "VH1 Storytellers"
+    ],
+    [
+     "At Madison Square Garden",
+     "Madison Square Garden"
+    ],
+    [
+     "A Concert Behind Prison Walls",
+     "Concert Behind Prison Walls"
+    ],
+    [
+     "Live from Austin, TX",
+     "Live from Austin"
+    ],
+    [
+     "The Great Lost Performance",
+     "Great Lost Performance"
+    ],
+    "Live in Ireland",
+    [
+     "Man in Black: Johnny Cash Live in Denmark 1971",
+     "Live in Denmark"
+    ],
+    [
+     "A Night to Remember",
+     "Night to Remember"
+    ],
+    [
+     "Bear's Sonic Journals: At the Carousel Ballroom",
+     "Carousel Ballroom"
+    ]
+   ]
+  },
+  {
+   "id": "xu4-dolly-parton-albums",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a Dolly Parton studio album (as listed on Wikipedia, 1967 to 2023)",
+   "answers": [
+    [
+     "Hello, I'm Dolly",
+     "Hello I'm Dolly"
+    ],
+    "Just Because I'm a Woman",
+    [
+     "In the Good Old Days (When Times Were Bad)",
+     "In the Good Old Days"
+    ],
+    "My Blue Ridge Mountain Boy",
+    [
+     "The Fairest of Them All",
+     "Fairest of Them All"
+    ],
+    [
+     "The Golden Streets of Glory",
+     "Golden Streets of Glory"
+    ],
+    "Joshua",
+    "Coat of Many Colors",
+    "Touch Your Woman",
+    "My Favorite Songwriter, Porter Wagoner",
+    "My Tennessee Mountain Home",
+    "Bubbling Over",
+    "Jolene",
+    "Love Is Like a Butterfly",
+    [
+     "The Bargain Store",
+     "Bargain Store"
+    ],
+    "Dolly",
+    "All I Can Do",
+    [
+     "New Harvest...First Gathering",
+     "New Harvest"
+    ],
+    "Here You Come Again",
+    "Heartbreaker",
+    "Great Balls of Fire",
+    [
+     "Dolly, Dolly, Dolly",
+     "Dolly Dolly Dolly"
+    ],
+    [
+     "9 to 5 and Odd Jobs",
+     "9 to 5"
+    ],
+    "Heartbreak Express",
+    [
+     "Burlap & Satin",
+     "Burlap and Satin"
+    ],
+    [
+     "The Great Pretender",
+     "Great Pretender"
+    ],
+    "Real Love",
+    "Rainbow",
+    "White Limozeen",
+    "Home for Christmas",
+    "Eagle When She Flies",
+    "Slow Dancing with the Moon",
+    "Something Special",
+    "Treasures",
+    "Hungry Again",
+    "Precious Memories",
+    [
+     "The Grass Is Blue",
+     "Grass Is Blue"
+    ],
+    "Little Sparrow",
+    [
+     "Halos & Horns",
+     "Halos and Horns"
+    ],
+    "For God and Country",
+    "Those Were the Days",
+    "Backwoods Barbie",
+    "Better Day",
+    "Blue Smoke",
+    [
+     "Pure & Simple",
+     "Pure and Simple"
+    ],
+    "I Believe in You",
+    [
+     "A Holly Dolly Christmas",
+     "Holly Dolly Christmas"
+    ],
+    [
+     "Run, Rose, Run",
+     "Run Rose Run"
+    ],
+    "Rockstar"
+   ]
+  },
+  {
+   "id": "xu4-cma-female-vocalist-winners",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a winner of the CMA Female Vocalist of the Year award (1967 to 2025 ceremonies)",
+   "answers": [
+    [
+     "Lainey Wilson",
+     "Lainey"
+    ],
+    [
+     "Carly Pearce",
+     "Carly"
+    ],
+    [
+     "Maren Morris",
+     "Maren"
+    ],
+    [
+     "Kacey Musgraves",
+     "Kacey",
+     "Musgraves"
+    ],
+    [
+     "Miranda Lambert",
+     "Miranda",
+     "Lambert"
+    ],
+    [
+     "Carrie Underwood",
+     "Carrie",
+     "Underwood"
+    ],
+    [
+     "Taylor Swift",
+     "Taylor",
+     "Swift"
+    ],
+    [
+     "Gretchen Wilson",
+     "Gretchen"
+    ],
+    [
+     "Martina McBride",
+     "Martina",
+     "McBride"
+    ],
+    [
+     "Lee Ann Womack",
+     "Womack"
+    ],
+    [
+     "Faith Hill",
+     "Faith"
+    ],
+    [
+     "Trisha Yearwood",
+     "Trisha",
+     "Yearwood"
+    ],
+    [
+     "Patty Loveless",
+     "Loveless"
+    ],
+    [
+     "Alison Krauss",
+     "Krauss"
+    ],
+    [
+     "Pam Tillis",
+     "Tillis"
+    ],
+    [
+     "Mary Chapin Carpenter",
+     "Chapin Carpenter"
+    ],
+    [
+     "Tanya Tucker",
+     "Tucker"
+    ],
+    [
+     "Kathy Mattea",
+     "Mattea"
+    ],
+    [
+     "K.T. Oslin",
+     "KT Oslin",
+     "Oslin"
+    ],
+    [
+     "Reba McEntire",
+     "Reba",
+     "McEntire"
+    ],
+    [
+     "Janie Fricke",
+     "Fricke"
+    ],
+    [
+     "Barbara Mandrell",
+     "Mandrell"
+    ],
+    [
+     "Emmylou Harris",
+     "Emmylou"
+    ],
+    [
+     "Crystal Gayle",
+     "Gayle"
+    ],
+    [
+     "Dolly Parton",
+     "Dolly",
+     "Parton"
+    ],
+    [
+     "Olivia Newton-John",
+     "Olivia Newton John",
+     "Newton-John"
+    ],
+    [
+     "Loretta Lynn",
+     "Loretta"
+    ],
+    "Lynn Anderson",
+    [
+     "Tammy Wynette",
+     "Tammy",
+     "Wynette"
+    ]
+   ]
+  },
+  {
+   "id": "xu4-last-night-proms-conductors",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a conductor of the Last Night of the Proms (1945 to 2026)",
+   "answers": [
+    [
+     "Henry Wood",
+     "Sir Henry Wood",
+     "Wood"
+    ],
+    [
+     "Adrian Boult",
+     "Sir Adrian Boult",
+     "Boult"
+    ],
+    [
+     "Basil Cameron",
+     "Cameron"
+    ],
+    [
+     "Constant Lambert",
+     "Lambert"
+    ],
+    [
+     "Malcolm Sargent",
+     "Sir Malcolm Sargent",
+     "Sargent"
+    ],
+    [
+     "Colin Davis",
+     "Sir Colin Davis"
+    ],
+    [
+     "Norman Del Mar",
+     "Del Mar"
+    ],
+    [
+     "Charles Groves",
+     "Sir Charles Groves",
+     "Groves"
+    ],
+    [
+     "James Loughran",
+     "Loughran"
+    ],
+    [
+     "Charles Mackerras",
+     "Sir Charles Mackerras",
+     "Mackerras"
+    ],
+    [
+     "Vernon Handley",
+     "Handley"
+    ],
+    [
+     "Raymond Leppard",
+     "Leppard"
+    ],
+    [
+     "Mark Elder",
+     "Sir Mark Elder",
+     "Elder"
+    ],
+    [
+     "Andrew Davis",
+     "Sir Andrew Davis"
+    ],
+    [
+     "John Pritchard",
+     "Sir John Pritchard",
+     "Pritchard"
+    ],
+    [
+     "Barry Wordsworth",
+     "Wordsworth"
+    ],
+    [
+     "Leonard Slatkin",
+     "Slatkin"
+    ],
+    [
+     "Paul Daniel",
+     "Daniel"
+    ],
+    [
+     "Jiří Bělohlávek",
+     "Jiri Belohlavek",
+     "Belohlavek"
+    ],
+    [
+     "Roger Norrington",
+     "Sir Roger Norrington",
+     "Norrington"
+    ],
+    [
+     "David Robertson",
+     "Robertson"
+    ],
+    [
+     "Edward Gardner",
+     "Gardner"
+    ],
+    [
+     "Marin Alsop",
+     "Alsop"
+    ],
+    [
+     "Sakari Oramo",
+     "Oramo"
+    ],
+    [
+     "Dalia Stasevska",
+     "Stasevska"
+    ],
+    "Elim Chan"
+   ]
+  },
+  {
+   "id": "xu4-britten-operas",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name an opera by Benjamin Britten (Paul Bunyan counts)",
+   "answers": [
+    "Peter Grimes",
+    [
+     "The Turn of the Screw",
+     "Turn of the Screw"
+    ],
+    "Billy Budd",
+    [
+     "A Midsummer Night's Dream",
+     "Midsummer Night's Dream"
+    ],
+    "Death in Venice",
+    "Albert Herring",
+    "Gloriana",
+    [
+     "Noye's Fludde",
+     "Noyes Fludde"
+    ],
+    [
+     "The Rape of Lucretia",
+     "Rape of Lucretia"
+    ],
+    "Owen Wingrave",
+    "Curlew River",
+    [
+     "The Burning Fiery Furnace",
+     "Burning Fiery Furnace"
+    ],
+    [
+     "The Prodigal Son",
+     "Prodigal Son"
+    ],
+    [
+     "The Little Sweep",
+     "Little Sweep",
+     "Let's Make an Opera"
+    ],
+    [
+     "The Golden Vanity",
+     "Golden Vanity"
+    ],
+    "Paul Bunyan"
+   ]
+  },
+  {
+   "id": "xu4-masters-of-kings-music",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a Master of the King's (or Queen's) Music since 1625",
+   "answers": [
+    [
+     "Edward Elgar",
+     "Elgar"
+    ],
+    [
+     "Arthur Bliss",
+     "Bliss"
+    ],
+    [
+     "Arnold Bax",
+     "Bax"
+    ],
+    [
+     "Peter Maxwell Davies",
+     "Maxwell Davies"
+    ],
+    [
+     "Judith Weir",
+     "Weir"
+    ],
+    "Walford Davies",
+    [
+     "Malcolm Williamson",
+     "Williamson"
+    ],
+    [
+     "Errollyn Wallen",
+     "Wallen"
+    ],
+    [
+     "Walter Parratt",
+     "Parratt"
+    ],
+    [
+     "William Boyce",
+     "Boyce"
+    ],
+    [
+     "John Eccles",
+     "Eccles"
+    ],
+    [
+     "Maurice Greene",
+     "Greene"
+    ],
+    [
+     "Nicholas Lanier",
+     "Lanier"
+    ],
+    [
+     "William Shield",
+     "Shield"
+    ],
+    [
+     "William Cusins",
+     "Cusins"
+    ],
+    [
+     "John Stanley",
+     "Stanley"
+    ],
+    [
+     "William Parsons",
+     "Parsons"
+    ],
+    [
+     "Louis Grabu",
+     "Grabu"
+    ],
+    [
+     "Nicholas Staggins",
+     "Staggins"
+    ],
+    [
+     "Christian Kramer",
+     "Kramer"
+    ],
+    [
+     "Franz Cramer",
+     "Cramer"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu4-dizzee-rascal-singles",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a Dizzee Rascal single (lead or featured, as listed on Wikipedia, excluding charity singles)",
+   "answers": [
+    "I Luv U",
+    [
+     "Fix Up, Look Sharp",
+     "Fix Up Look Sharp"
+    ],
+    [
+     "Jus' a Rascal",
+     "Just a Rascal"
+    ],
+    "Stand Up Tall",
+    "Dream",
+    [
+     "Off 2 Work",
+     "Off to Work"
+    ],
+    "Sirens",
+    [
+     "Pussyole (Old Skool)",
+     "Pussyole",
+     "Pussy Ole"
+    ],
+    "Flex",
+    [
+     "Dance wiv Me",
+     "Dance with Me"
+    ],
+    "Bonkers",
+    "Holiday",
+    "Dirtee Cash",
+    "You Got the Dirtee Love",
+    "Dirtee Disco",
+    "Scream",
+    [
+     "Goin' Crazy",
+     "Going Crazy"
+    ],
+    "Something Really Bad",
+    "Love This Town",
+    [
+     "Still Sittin' Here",
+     "Still Sitting Here"
+    ],
+    "Hype",
+    "Space",
+    "Money Right",
+    [
+     "L.L.L.L. (Love Life Live Large)",
+     "LLLL",
+     "Love Life Live Large"
+    ],
+    "Act Like You Know",
+    "Body Loose",
+    "Sugar and Spice",
+    "Get Out the Way",
+    "How Did I Get So Calm",
+    "What You Know About That",
+    [
+     "Gather Around (Good Times)",
+     "Gather Around",
+     "Good Times"
+    ],
+    [
+     "C U Dance",
+     "See You Dance"
+    ],
+    "All Night",
+    "So Hot",
+    [
+     "What U Need",
+     "What You Need"
+    ],
+    "Lucky Star",
+    "Toe Jam",
+    "Loca",
+    "Violence",
+    [
+     "Bluku! Bluku!",
+     "Bluku Bluku"
+    ],
+    [
+     "The Power",
+     "Power"
+    ],
+    "Wild",
+    "When It Comes to You",
+    "How Love Begins",
+    [
+     "Revvin'",
+     "Revvin"
+    ],
+    "Blessed",
+    "Back It",
+    "Smoke",
+    "Riot",
+    "On One",
+    [
+     "Grime Ain't Dead",
+     "Grime Aint Dead"
+    ],
+    "High Road"
+   ]
+  },
+  {
+   "id": "xu4-j-hus-singles",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a J Hus single (lead or featured, as listed on Wikipedia)",
+   "answers": [
+    [
+     "Lean & Bop",
+     "Lean and Bop"
+    ],
+    [
+     "Doin It",
+     "Doin' It"
+    ],
+    "Friendly",
+    "Clean It Up",
+    "Playing Sports",
+    "Samantha",
+    "Did You See",
+    "Common Sense",
+    "Spirit",
+    "Bouff Daddy",
+    "Dark Vader",
+    "Daily Duppy",
+    "Must Be",
+    "No Denying",
+    "Repeat",
+    "Play Play",
+    [
+     "It's Crazy",
+     "Its Crazy"
+    ],
+    "Who Told You",
+    "Masculine",
+    "Gold",
+    "Outside",
+    "So Paranoid",
+    "High Roller",
+    "Everyday",
+    "Sekkle Down",
+    "Disaster",
+    "Feelings",
+    "Hollows"
+   ]
+  },
+  {
+   "id": "xu4-tongue-n-cheek-tracks",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a studio track on Dizzee Rascal's 'Tongue n' Cheek' (2009, standard or Dirtee Deluxe edition)",
+   "answers": [
+    "Bonkers",
+    "Road Rage",
+    [
+     "Dance wiv Me",
+     "Dance with Me"
+    ],
+    "Freaky Freaky",
+    [
+     "Can't Tek No More",
+     "Can't Take No More"
+    ],
+    [
+     "Chillin' wiv da Man Dem",
+     "Chillin with the Man Dem"
+    ],
+    "Dirtee Cash",
+    [
+     "Money, Money",
+     "Money Money"
+    ],
+    "Leisure",
+    "Holiday",
+    [
+     "Bad Behaviour",
+     "Bad Behavior"
+    ],
+    "Dirtee Disco",
+    [
+     "Nuffin' Long",
+     "Nothing Long"
+    ],
+    [
+     "Marks Outta Ten",
+     "Marks Out of Ten"
+    ],
+    "Heavy",
+    [
+     "Doin' It Big",
+     "Doing It Big"
+    ]
+   ]
+  },
+  {
+   "id": "xu4-maths-english-tracks",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a track on Dizzee Rascal's 'Maths + English' (2007, UK standard edition)",
+   "answers": [
+    "World Outside",
+    [
+     "Pussyole (Old Skool)",
+     "Pussyole"
+    ],
+    "Sirens",
+    [
+     "Where's da G's",
+     "Wheres da Gs"
+    ],
+    "Paranoid",
+    "Suk My Dick",
+    "Flex",
+    [
+     "Da Feelin'",
+     "Da Feeling"
+    ],
+    "Bubbles",
+    "Excuse Me Please",
+    [
+     "Hardback (Industry)",
+     "Hardback"
+    ],
+    "Temptation",
+    "Wanna Be",
+    [
+     "U Can't Tell Me Nuffin'",
+     "U Can't Tell Me Nothing"
+    ]
+   ]
+  },
+  {
+   "id": "xu4-alive-till-im-dead-tracks",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a track on Professor Green's 'Alive Till I'm Dead' (2011, standard edition)",
+   "answers": [
+    "Kids That Love to Dance",
+    "Just Be Good to Green",
+    "I Need You Tonight",
+    "City of Gold",
+    "Oh My God",
+    "Jungle",
+    "Do for You",
+    "Falling Down",
+    "Monster",
+    "Closing the Door",
+    "Where Do We Go",
+    "Goodnight"
+   ]
+  },
+  {
+   "id": "xu4-showtime-tracks",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a track on Dizzee Rascal's 'Showtime' (2004)",
+   "answers": [
+    "Showtime",
+    "Stand Up Tall",
+    "Everywhere",
+    [
+     "Graftin'",
+     "Grafting"
+    ],
+    "Learn",
+    "Hype Talk",
+    "Face",
+    "Respect Me",
+    "Get By",
+    [
+     "Knock, Knock",
+     "Knock Knock"
+    ],
+    "Dream",
+    "Girls",
+    "Imagine",
+    [
+     "Flyin'",
+     "Flying"
+    ],
+    "Fickle"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu4-kano-singles",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a Kano single (as lead artist, as listed on Wikipedia)",
+   "answers": [
+    [
+     "P's and Q's",
+     "Ps and Qs"
+    ],
+    "Typical Me",
+    "Remember Me",
+    [
+     "Nite Nite",
+     "Night Night"
+    ],
+    "Brown Eyes",
+    "Signs in Life",
+    "Buss It Up",
+    "This Is the Girl",
+    "Feel Free",
+    "Hustler",
+    [
+     "Rock n Roller",
+     "Rock and Roller"
+    ],
+    "More Than One Way",
+    "Get Wild",
+    "Upside",
+    "Spaceship",
+    "Hail",
+    "New Banger",
+    [
+     "Garage Skank Freestyle",
+     "Garage Skank"
+    ],
+    [
+     "3 Wheel-Ups",
+     "3 Wheel Ups",
+     "Three Wheel Ups"
+    ],
+    "Trouble",
+    "Class of Deja"
+   ],
+   "deep": true
+  }
+ ]
+}

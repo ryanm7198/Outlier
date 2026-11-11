@@ -1,0 +1,673 @@
+{
+ "cat": "football",
+ "prompts": [
+  {
+   "id": "fef-fa-cup-finalists-never-won",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that has played in an FA Cup final but has never won the competition (as of 2026)",
+   "answers": [
+    [
+     "Queen's Park",
+     "Queens Park"
+    ],
+    "Birmingham City",
+    "Watford",
+    "Bristol City",
+    [
+     "Luton Town",
+     "Luton"
+    ],
+    "Fulham",
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Brighton & Hove Albion",
+     "Brighton and Hove Albion",
+     "Brighton"
+    ],
+    "Middlesbrough",
+    "Millwall",
+    [
+     "Stoke City",
+     "Stoke"
+    ],
+    [
+     "Hull City",
+     "Hull"
+    ]
+   ]
+  },
+  {
+   "id": "fef-fa-cup-won-once",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that has won the FA Cup exactly once (as of 2026)",
+   "answers": [
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    "Leicester City",
+    [
+     "Oxford University",
+     "Oxford Uni"
+    ],
+    "Royal Engineers",
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    "Southampton",
+    "Burnley",
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    "Blackpool",
+    "Crystal Palace",
+    "Clapham Rovers",
+    "Notts County",
+    "Barnsley",
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    "Old Carthusians",
+    [
+     "Blackburn Olympic",
+     "Olympic"
+    ],
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Wimbledon",
+     "Wimbledon FC",
+     "The Crazy Gang"
+    ],
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ]
+   ]
+  },
+  {
+   "id": "fef-fa-cup-winners-never-champions",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that has won the FA Cup but has never won the English top-flight league title (as of 2026)",
+   "answers": [
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    "Old Etonians",
+    "Bury",
+    [
+     "Oxford University",
+     "Oxford Uni"
+    ],
+    "Royal Engineers",
+    "Southampton",
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    "Blackpool",
+    "Crystal Palace",
+    "Clapham Rovers",
+    "Notts County",
+    "Barnsley",
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    "Old Carthusians",
+    [
+     "Blackburn Olympic",
+     "Olympic"
+    ],
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Wimbledon",
+     "Wimbledon FC",
+     "The Crazy Gang"
+    ],
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Wanderers",
+     "The Wanderers",
+     "Wanderers FC"
+    ]
+   ]
+  },
+  {
+   "id": "fef-fa-cup-and-league-cup-winners",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that has won both the FA Cup and the League Cup (EFL Cup), up to 2026",
+   "answers": [
+    "Arsenal",
+    "Manchester United",
+    "Chelsea",
+    "Liverpool",
+    "Manchester City",
+    [
+     "Tottenham Hotspur",
+     "Tottenham"
+    ],
+    [
+     "Aston Villa",
+     "Aston"
+    ],
+    "Newcastle United",
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Bromwich"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolverhampton"
+    ],
+    "Sheffield Wednesday",
+    "Nottingham Forest",
+    "Leicester City",
+    [
+     "Leeds United",
+     "Leeds"
+    ]
+   ]
+  },
+  {
+   "id": "fef-fa-cup-lost-two-finals",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that has lost at least two FA Cup finals (as of 2026)",
+   "answers": [
+    "Arsenal",
+    "Manchester United",
+    "Chelsea",
+    "Liverpool",
+    "Manchester City",
+    [
+     "Aston Villa",
+     "Aston"
+    ],
+    "Newcastle United",
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    "Everton",
+    [
+     "West Bromwich Albion",
+     "West Bromwich"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolverhampton"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    "Sheffield United",
+    "Sheffield Wednesday",
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Preston North End",
+     "Preston"
+    ],
+    "Old Etonians",
+    "Portsmouth",
+    "Sunderland",
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    "Leicester City",
+    [
+     "Oxford University",
+     "Oxford Uni"
+    ],
+    "Royal Engineers",
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    "Southampton",
+    "Burnley",
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    "Blackpool",
+    "Crystal Palace",
+    [
+     "Queen's Park",
+     "Queens Park"
+    ],
+    "Birmingham City",
+    "Watford"
+   ]
+  },
+  {
+   "id": "fef-efl-2026-27-never-top-flight",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club in the 2026-27 EFL (Championship, League One or League Two) that has never played in the top flight of English football",
+   "answers": [
+    [
+     "Lincoln City",
+     "Lincoln"
+    ],
+    "Wrexham",
+    [
+     "Plymouth Argyle",
+     "Plymouth"
+    ],
+    [
+     "Milton Keynes Dons",
+     "MK Dons"
+    ],
+    "AFC Wimbledon",
+    [
+     "Burton Albion",
+     "Burton"
+    ],
+    [
+     "Cambridge United",
+     "Cambridge"
+    ],
+    [
+     "Doncaster Rovers",
+     "Doncaster"
+    ],
+    [
+     "Mansfield Town",
+     "Mansfield"
+    ],
+    [
+     "Peterborough United",
+     "Peterborough"
+    ],
+    [
+     "Stockport County",
+     "Stockport"
+    ],
+    [
+     "Wycombe Wanderers",
+     "Wycombe"
+    ],
+    "Stevenage",
+    "Bromley",
+    "Bristol Rovers",
+    "Port Vale",
+    [
+     "Tranmere Rovers",
+     "Tranmere"
+    ],
+    [
+     "Rotherham United",
+     "Rotherham"
+    ],
+    "Gillingham",
+    [
+     "Exeter City",
+     "Exeter"
+    ],
+    "Walsall",
+    [
+     "Crewe Alexandra",
+     "Crewe"
+    ],
+    [
+     "Salford City",
+     "Salford"
+    ],
+    [
+     "Colchester United",
+     "Colchester"
+    ],
+    [
+     "Accrington Stanley",
+     "Accrington"
+    ],
+    [
+     "Cheltenham Town",
+     "Cheltenham"
+    ],
+    "Chesterfield",
+    [
+     "Crawley Town",
+     "Crawley"
+    ],
+    [
+     "Newport County",
+     "Newport"
+    ],
+    "Rochdale",
+    [
+     "Shrewsbury Town",
+     "Shrewsbury"
+    ],
+    [
+     "York City",
+     "York"
+    ],
+    "Barnet",
+    [
+     "Fleetwood Town",
+     "Fleetwood"
+    ]
+   ]
+  },
+  {
+   "id": "fef-efl-2026-27-played-premier-league",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club in the 2026-27 EFL (Championship, League One or League Two) that has played in the Premier League",
+   "answers": [
+    "Birmingham City",
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    "Burnley",
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    "Middlesbrough",
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    "Portsmouth",
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    "Sheffield United",
+    "Southampton",
+    [
+     "Stoke City",
+     "Stoke"
+    ],
+    [
+     "Swansea City",
+     "Swansea"
+    ],
+    "Watford",
+    [
+     "West Bromwich Albion",
+     "West Bromwich"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolverhampton"
+    ],
+    "Leicester City",
+    "Sheffield Wednesday",
+    [
+     "Luton Town",
+     "Luton"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    "Reading",
+    "Blackpool",
+    "Barnsley",
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    [
+     "Swindon Town",
+     "Swindon"
+    ],
+    [
+     "Oldham Athletic",
+     "Oldham"
+    ]
+   ]
+  },
+  {
+   "id": "fef-efl-2026-27-fa-cup-winners",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club in the 2026-27 EFL (Championship, League One or League Two) that has won the FA Cup",
+   "answers": [
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    "Burnley",
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    "Portsmouth",
+    [
+     "Preston North End",
+     "Preston"
+    ],
+    "Sheffield United",
+    "Southampton",
+    [
+     "West Bromwich Albion",
+     "West Bromwich"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolverhampton"
+    ],
+    "Leicester City",
+    "Sheffield Wednesday",
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    "Blackpool",
+    "Barnsley",
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    "Notts County"
+   ]
+  },
+  {
+   "id": "fef-efl-2026-27-league-cup-winners",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club in the 2026-27 EFL (Championship, League One or League Two) that has won the League Cup",
+   "answers": [
+    "Birmingham City",
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    "Middlesbrough",
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Stoke City",
+     "Stoke"
+    ],
+    [
+     "Swansea City",
+     "Swansea"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Bromwich"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolverhampton"
+    ],
+    "Leicester City",
+    "Sheffield Wednesday",
+    [
+     "Luton Town",
+     "Luton"
+    ],
+    [
+     "Oxford United",
+     "Oxford"
+    ],
+    [
+     "Swindon Town",
+     "Swindon"
+    ]
+   ]
+  },
+  {
+   "id": "fef-efl-2026-27-city-clubs",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club with 'City' in its name in the 2026-27 EFL (Championship, League One or League Two)",
+   "answers": [
+    "Birmingham City",
+    "Bristol City",
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Lincoln City",
+     "Lincoln"
+    ],
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    [
+     "Stoke City",
+     "Stoke"
+    ],
+    [
+     "Swansea City",
+     "Swansea"
+    ],
+    "Leicester City",
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    [
+     "Exeter City",
+     "Exeter"
+    ],
+    [
+     "Salford City",
+     "Salford"
+    ],
+    [
+     "York City",
+     "York"
+    ]
+   ]
+  }
+ ]
+}

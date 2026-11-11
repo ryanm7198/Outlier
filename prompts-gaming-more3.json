@@ -1,0 +1,279 @@
+{
+ "cat": "gaming",
+ "prompts": [
+  {
+   "id": "xg3-mc-redstone-components",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a redstone component in Minecraft (as listed on the Minecraft Wiki, 2026)",
+   "answers": [
+    [
+     "Redstone dust",
+     "Redstone",
+     "Dust",
+     "Redstone wire"
+    ],
+    [
+     "Redstone torch",
+     "Torch"
+    ],
+    [
+     "Redstone repeater",
+     "Repeater"
+    ],
+    [
+     "Redstone comparator",
+     "Comparator"
+    ],
+    [
+     "Piston",
+     "Sticky piston",
+     "Pistons"
+    ],
+    "Observer",
+    "Dispenser",
+    "Dropper",
+    "Hopper",
+    "Lever",
+    [
+     "Button",
+     "Stone button",
+     "Wooden button",
+     "Polished blackstone button"
+    ],
+    [
+     "Pressure plate",
+     "Stone pressure plate",
+     "Wooden pressure plate",
+     "Weighted pressure plate"
+    ],
+    [
+     "Tripwire hook",
+     "Tripwire"
+    ],
+    [
+     "Daylight detector",
+     "Daylight sensor"
+    ],
+    [
+     "Target",
+     "Target block"
+    ],
+    [
+     "Note block",
+     "Noteblock"
+    ],
+    [
+     "Redstone lamp",
+     "Lamp"
+    ],
+    "TNT",
+    [
+     "Block of redstone",
+     "Redstone block"
+    ],
+    "Trapped chest",
+    "Lectern",
+    "Lightning rod",
+    "Sculk sensor",
+    "Calibrated sculk sensor",
+    "Copper bulb",
+    "Crafter",
+    "Jukebox",
+    "Bell",
+    [
+     "Big dripleaf",
+     "Dripleaf"
+    ],
+    [
+     "Door",
+     "Iron door",
+     "Wooden door"
+    ],
+    [
+     "Trapdoor",
+     "Trap door"
+    ],
+    "Fence gate",
+    [
+     "Powered rail",
+     "Booster rail"
+    ],
+    "Detector rail",
+    "Activator rail",
+    [
+     "Rail",
+     "Rails"
+    ],
+    "Minecart",
+    [
+     "Minecart with chest",
+     "Chest minecart"
+    ],
+    [
+     "Minecart with furnace",
+     "Furnace minecart"
+    ],
+    [
+     "Minecart with hopper",
+     "Hopper minecart"
+    ],
+    [
+     "Minecart with TNT",
+     "TNT minecart"
+    ],
+    "Command block",
+    "Structure block",
+    [
+     "Armor stand",
+     "Armour stand"
+    ],
+    "Dragon head",
+    "Piglin head"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg3-mc-16-colour-items",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a block or item that comes in all 16 colours in Minecraft (as of 2026, not counting dyeable armour)",
+   "answers": [
+    "Wool",
+    [
+     "Carpet",
+     "Wool carpet"
+    ],
+    [
+     "Terracotta",
+     "Stained terracotta",
+     "Hardened clay"
+    ],
+    "Glazed terracotta",
+    "Concrete",
+    "Concrete powder",
+    "Stained glass",
+    [
+     "Stained glass pane",
+     "Glass pane"
+    ],
+    "Shulker box",
+    "Bed",
+    "Banner",
+    "Candle",
+    "Bundle",
+    "Harness",
+    "Dye"
+   ]
+  },
+  {
+   "id": "xg3-mc-water-mobs",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a mob that lives in or spawns in water in Minecraft (as of 2026)",
+   "answers": [
+    "Cod",
+    "Salmon",
+    "Tropical fish",
+    [
+     "Pufferfish",
+     "Puffer fish"
+    ],
+    "Squid",
+    "Glow squid",
+    "Dolphin",
+    [
+     "Turtle",
+     "Sea turtle"
+    ],
+    "Drowned",
+    "Guardian",
+    "Elder guardian",
+    "Axolotl",
+    "Tadpole",
+    "Nautilus",
+    "Zombie nautilus"
+   ]
+  },
+  {
+   "id": "xg3-mc-neutral-mobs",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a neutral mob in Minecraft (as listed on the Minecraft Wiki, 2026)",
+   "answers": [
+    "Wolf",
+    "Spider",
+    "Enderman",
+    "Bee",
+    "Iron golem",
+    "Polar bear",
+    "Panda",
+    "Llama",
+    "Trader llama",
+    "Fox",
+    "Goat",
+    "Dolphin",
+    "Cave spider",
+    "Drowned",
+    "Piglin",
+    [
+     "Zombified piglin",
+     "Zombie pigman",
+     "Zombie piglin"
+    ],
+    "Pufferfish",
+    "Nautilus",
+    "Zombie nautilus"
+   ]
+  },
+  {
+   "id": "xg3-mc-hostile-mobs",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a hostile mob (including bosses) in Minecraft (as listed on the Minecraft Wiki, 2026)",
+   "answers": [
+    "Creeper",
+    "Zombie",
+    "Skeleton",
+    "Blaze",
+    "Ghast",
+    "Witch",
+    "Slime",
+    "Magma cube",
+    "Silverfish",
+    "Phantom",
+    "Warden",
+    "Wither skeleton",
+    "Zombie villager",
+    "Husk",
+    "Stray",
+    "Guardian",
+    "Elder guardian",
+    "Evoker",
+    "Vindicator",
+    "Pillager",
+    "Ravager",
+    "Vex",
+    "Shulker",
+    "Endermite",
+    "Hoglin",
+    "Zoglin",
+    "Piglin brute",
+    "Breeze",
+    "Bogged",
+    "Creaking",
+    "Parched",
+    [
+     "Ender dragon",
+     "Enderdragon"
+    ],
+    "Wither"
+   ]
+  }
+ ]
+}
