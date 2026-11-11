@@ -9,7 +9,7 @@ import json
 import os
 import sys
 
-from server import MIN_ANSWERS, norm
+from server import ERAS, MIN_ANSWERS, norm
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 WANT = 12   # new questions should have at least this many answers
@@ -66,6 +66,20 @@ def main():
                 problems.append(f"{name} {pid}: only {len(answers)} answers, will be skipped by the game")
             elif len(answers) < WANT:
                 print(f"note  {name} {pid}: {len(answers)} answers (aim for {WANT}+)")
+            if p.get("eras"):   # per-answer decades for era versions of a broad question
+                names = {a[0] for a in answers}
+                if "{era}" not in p.get("eraText", ""):
+                    problems.append(f"{name} {pid}: eras needs an eraText containing {{era}}")
+                if set(p.get("tags", [])) & set(ERAS):
+                    problems.append(f"{name} {pid}: a question with eras must not carry era tags itself")
+                for n, es in p["eras"].items():
+                    if n not in names:
+                        problems.append(f"{name} {pid}: eras names '{n}', which is not an answer")
+                    elif not es or set(es) - set(ERAS):
+                        problems.append(f"{name} {pid}: bad decades for '{n}': {es}")
+                undated = len(names - set(p["eras"]))
+                if undated:
+                    print(f"note  {name} {pid}: {undated} answers have no decade")
             keys = {}
             for a in answers:   # canonical names first, exactly as the game does
                 keys.setdefault(norm(a[0]), a[0])

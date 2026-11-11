@@ -163,8 +163,9 @@ function outlierHTML(list, mine) {
   return `<p class="muted center">${list.length > 1 ? 'The Outliers were' : 'The Outlier was'} ${list.map(o => `<b>${esc(o.name)}</b>`).join(' and ')}</p>`;
 }
 
-function boardHTML(board, mine) {
-  return `<details><summary>See every answer (${board.length})</summary><ol class="rows board">${board.map(b => `
+function boardHTML(board, mine, total) {
+  const more = total && total > board.length;
+  return `<details><summary>${more ? `See the top answers (${total} in all)` : `See every answer (${board.length})`}</summary><ol class="rows board">${board.map(b => `
     <li class="${b.name === mine ? 'me' : ''}"><span class="main"><b>${esc(b.name)}</b></span>
     ${b.outlier ? '<span class="tag">Outlier</span>' : ''}<span class="share">${b.share}%</span><span class="num">${b.points}</span></li>`).join('')}</ol></details>`;
 }
@@ -245,7 +246,9 @@ function poolCount(p) {
   const c = catOf(p.cat);
   if (!c.tagsets) return c.count;
   // Mirrors pool() in server.py: for Era, every decade a question spans must be picked.
-  return c.tagsets.filter(tags => (p.tags.length || !tags.includes('~deep')) && c.filters.every(g => {
+  return c.tagsets.filter(tags => (p.tags.length || !tags.includes('~deep'))
+    && tags.every(t => !t.startsWith('~only:') || p.tags.includes(t.slice(6)))   // decade versions need their decade
+    && c.filters.every(g => {
     const chosen = g.tags.filter(t => p.tags.includes(t.id));
     if (!chosen.length) return true;
     const have = g.tags.filter(t => tags.includes(t.id)).length;
@@ -384,7 +387,7 @@ function dailyQuestion(run) {
         <div class="card">${trailHTML([{ name: 'You', from: before, to: saved.total, me: true }], max)}
           <p class="zone">${zoneName(saved.total, max)}<span class="muted">${saved.total} paces from the crowd</span></p></div>
         ${outlierHTML(res.board.filter(b => b.outlier), res.canonical)}
-        ${boardHTML(res.board, res.canonical)}
+        ${boardHTML(res.board, res.canonical, res.boardTotal)}
         <button class="btn primary" id="next">${saved.done ? 'See your day' : 'Next prompt'}</button>
       </div>`);
     buildUp(res);
@@ -457,7 +460,7 @@ function gameQuestion(run) {
         ${rival ? `<p class="center vs">${esc(rival.name)} scored <b>+${rival.points[i] || 0}</b> here</p>` : ''}
         <div class="card">${trailHTML(lanes, max)}</div>
         ${outlierHTML(res.board.filter(b => b.outlier), res.canonical)}
-        ${boardHTML(res.board, res.canonical)}
+        ${boardHTML(res.board, res.canonical, res.boardTotal)}
         <button class="btn primary" id="next">${done ? 'See your score' : 'Next prompt'}</button>
       </div>`);
     buildUp(res);

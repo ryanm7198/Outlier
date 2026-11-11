@@ -31,6 +31,8 @@ PORT = int(os.environ.get("PORT", "8321"))
 
 DAILY_N = 5            # prompts in a daily game
 GAME_N = 7             # prompts in a free-play game
+ERAS = {"60s": "1960s", "70s": "1970s", "80s": "1980s", "90s": "1990s", "00s": "2000s", "10s": "2010s", "20s": "2020s"}
+ERA_MIN = 10           # a decade gets its own version of a broad question once it has this many answers
 ROUND_S = 30           # seconds to answer
 OUTLIER_PAIR = 30       # questions with this many answers have two Outliers
 MIN_ANSWERS = 8        # prompts with fewer possible answers are left out
@@ -129,27 +131,39 @@ def load_prompts():
                             for g in data.get("filters", [])],
             })
         for p in data["prompts"]:
-            pid = p["id"]
-            if pid in PROMPTS:
-                raise SystemExit(f"Duplicate prompt id: {pid}")
             answers = [[a] if isinstance(a, str) else a for a in p["answers"]]
-            if len(answers) < MIN_ANSWERS:
-                continue
             answers = [a + shared.get(a[0], []) for a in answers]
-            PROMPTS[pid] = {"id": pid, "text": p["text"], "cat": data["cat"],
-                            "tags": p.get("tags", []), "deep": bool(p.get("deep")),
-                            "names": [a[0] for a in answers]}
-            LOOKUP[pid] = {}
-            if code_for(pid) in CODES:
-                print(f"WARNING: {pid} shares a seed code with {CODES[code_for(pid)]}; rename one", flush=True)
-            CODES.setdefault(code_for(pid), pid)
-            # Canonical names claim their keys first, so an alias never shadows one.
-            for a in answers:
-                add_key(pid, norm(a[0]), a[0])
-            for a in answers:
-                for alias in a[1:]:
-                    add_key(pid, norm(alias), a[0])
+            add_prompt(p["id"], p["text"], data["cat"], p.get("tags", []), bool(p.get("deep")), answers)
+            # Era variants: a broad question whose answers carry decades also comes in one version
+            # per decade ("...in the 2010s"), accepting only that decade's answers. They only appear
+            # when the player picks that decade.
+            for era, label in ERAS.items():
+                if not p.get("eras"):
+                    break
+                subset = [a for a in answers if era in p["eras"].get(a[0], [])]
+                if len(subset) >= ERA_MIN:
+                    add_prompt(f'{p["id"]}--{era}', p["eraText"].format(era=label), data["cat"],
+                               p.get("tags", []) + [era], True, subset, era_only=era)
     CATS.sort(key=lambda c: (c.get("order", 99), c["label"]))   # the picker's order
+
+
+def add_prompt(pid, text, cat, tags, deep, answers, era_only=None):
+    if pid in PROMPTS:
+        raise SystemExit(f"Duplicate prompt id: {pid}")
+    if len(answers) < MIN_ANSWERS:
+        return
+    PROMPTS[pid] = {"id": pid, "text": text, "cat": cat, "tags": tags, "deep": deep, "era_only": era_only,
+                    "names": [a[0] for a in answers]}
+    LOOKUP[pid] = {}
+    if code_for(pid) in CODES:
+        print(f"WARNING: {pid} shares a seed code with {CODES[code_for(pid)]}; rename one", flush=True)
+    CODES.setdefault(code_for(pid), pid)
+    # Canonical names claim their keys first, so an alias never shadows one.
+    for a in answers:
+        add_key(pid, norm(a[0]), a[0])
+    for a in answers:
+        for alias in a[1:]:
+            add_key(pid, norm(alias), a[0])
 
 
 def match_detail(pid, raw):
@@ -219,11 +233,13 @@ def outliers_for(counts):
     return sorted(counts, key=lambda n: (counts[n], n))[:2 if len(counts) >= OUTLIER_PAIR else 1]
 
 
-def points_for(counts, name):
-    """Only an Outlier scores 100. Everything else runs from 10 (most common) up to 99."""
-    if name in outliers_for(counts):
+def points_for(counts, name, stats=None):
+    """Only an Outlier scores 100. Everything else runs from 10 (most common) up to 99.
+    stats = (outliers, hi, lo) can be passed in when scoring a whole board at once."""
+    top, hi, lo = stats or (outliers_for(counts), max(counts.values()), min(counts.values()))
+    if name in top:
         return 100
-    c, hi, lo = counts[name], max(counts.values()), min(counts.values())
+    c = counts[name]
     if hi == lo:
         return 55
     return min(99, round(10 + 89 * (math.log(hi) - math.log(c)) / (math.log(hi) - math.log(lo))))
@@ -233,10 +249,16 @@ def share_for(counts, name):
     return round(100 * counts[name] / sum(counts.values()), 1)
 
 
-def board_for(counts):
+BOARD_MAX = 150   # long lists send the commonest answers plus the player's own and the Outliers
+
+
+def board_for(counts, keep=()):
     rows, top = sorted(counts, key=lambda n: -counts[n]), outliers_for(counts)
-    return [{"name": n, "share": share_for(counts, n), "points": points_for(counts, n), "outlier": n in top}
-            for n in rows]
+    stats, total = (top, max(counts.values()), min(counts.values())), sum(counts.values())
+    if len(rows) > BOARD_MAX:
+        rows = rows[:BOARD_MAX] + [n for n in rows[BOARD_MAX:] if n in top or n in keep]
+    return [{"name": n, "share": round(100 * counts[n] / total, 1), "points": points_for(counts, n, stats),
+             "outlier": n in top} for n in rows]
 
 
 def record(pid, name, raw):
@@ -302,6 +324,8 @@ def pool(cat, tags, deep=None):
     for p in PROMPTS.values():
         if cat not in ("all", p["cat"]) or (p["deep"] and not (tags if deep is None else deep)):
             continue
+        if p["era_only"] and p["era_only"] not in tags:   # decade versions need their decade picked
+            continue
         ptags = set(p["tags"])
         if all(group_ok(g, g & tags, ptags) for g in groups):
             out.append(p["id"])
@@ -359,8 +383,8 @@ def categories():
     for c in CATS:
         ids = pool(c["id"], [])
         out.append({"id": c["id"], "label": c["label"], "count": len(ids),
-                    "tagsets": [PROMPTS[i]["tags"] + (["~deep"] if PROMPTS[i]["deep"] else [])
-                                for i in pool(c["id"], [], deep=True)], "filters": [
+                    "tagsets": [p["tags"] + (["~deep"] if p["deep"] else []) + ([f'~only:{p["era_only"]}'] if p["era_only"] else [])
+                                for p in PROMPTS.values() if p["cat"] == c["id"]], "filters": [
             {"label": g["label"], "tags": [
                 {"id": t["id"], "label": t["label"],
                  "count": len(pool(c["id"], [t["id"]]))} for t in g["tags"]]}
@@ -526,12 +550,12 @@ def resolve(room):
         p["score"] += r["points"]
         if r["given"]:
             record(pid, r["canonical"], r["given"])
-    board = board_for(counts)
+    board = board_for(counts, keep={r["canonical"] for r in results if r["valid"]})
     results.sort(key=lambda r: -r["points"])
     # The crowd chart: the most common answers, plus every answer a player in the room gave.
     said = {r["canonical"] for r in results if r["valid"]}
     crowd = [b for i, b in enumerate(board) if i < 8 or b["name"] in said]
-    room["reveal"] = {"prompt": PROMPTS[pid]["text"], "results": results, "crowd": crowd, "answers": len(board),
+    room["reveal"] = {"prompt": PROMPTS[pid]["text"], "results": results, "crowd": crowd, "answers": len(counts),
                       "outliers": [b for b in board if b["outlier"]], "commonest": board[0]}
     room["phase"] = "reveal"
 
@@ -611,7 +635,8 @@ def api_post(path, body):
             raise ApiError(404, "Unknown prompt")
         counts = counts_for(pid)
         out = judge(pid, body.get("answer"), counts)
-        out["board"] = board_for(counts)
+        out["board"] = board_for(counts, keep=(out["canonical"],))
+        out["boardTotal"] = len(counts)
         out["prompt"] = PROMPTS[pid]["text"]
         if out["given"]:
             record(pid, out["canonical"], out["given"])
