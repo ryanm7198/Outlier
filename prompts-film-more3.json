@@ -1,0 +1,409 @@
+{
+ "cat": "film",
+ "prompts": [
+  {
+   "id": "xl3-pirates-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Pirates of the Caribbean films",
+   "answers": [
+    [
+     "Jack Sparrow",
+     "Captain Jack Sparrow"
+    ],
+    [
+     "Hector Barbossa",
+     "Barbossa",
+     "Captain Barbossa"
+    ],
+    [
+     "Joshamee Gibbs",
+     "Gibbs",
+     "Mr Gibbs"
+    ],
+    [
+     "Will Turner",
+     "William Turner",
+     "Will"
+    ],
+    [
+     "Elizabeth Swann",
+     "Elizabeth"
+    ],
+    [
+     "James Norrington",
+     "Norrington",
+     "Commodore Norrington"
+    ],
+    [
+     "Bootstrap Bill Turner",
+     "Bootstrap Bill",
+     "Bootstrap"
+    ],
+    "Davy Jones",
+    [
+     "Cutler Beckett",
+     "Beckett",
+     "Lord Beckett"
+    ],
+    "Sao Feng",
+    [
+     "Angelica",
+     "Angelica Teach"
+    ],
+    [
+     "Blackbeard",
+     "Edward Teach"
+    ],
+    [
+     "Armando Salazar",
+     "Salazar",
+     "Captain Salazar"
+    ],
+    [
+     "Henry Turner",
+     "Henry"
+    ],
+    [
+     "Carina Smyth",
+     "Carina"
+    ],
+    [
+     "Tia Dalma",
+     "Calypso"
+    ],
+    "Pintel",
+    "Ragetti",
+    "Cotton",
+    "Marty",
+    "Anamaria",
+    [
+     "Governor Weatherby Swann",
+     "Weatherby Swann",
+     "Governor Swann"
+    ],
+    "Murtogg",
+    "Mullroy",
+    "Jack the Monkey",
+    [
+     "Philip Swift",
+     "Swift"
+    ],
+    "Syrena",
+    "Scrum",
+    [
+     "King George",
+     "King George II"
+    ],
+    [
+     "Lieutenant Gillette",
+     "Gillette"
+    ],
+    [
+     "Theodore Groves",
+     "Groves"
+    ],
+    "Scarlett",
+    "Giselle",
+    [
+     "Ian Mercer",
+     "Mercer"
+    ],
+    [
+     "Captain Bellamy",
+     "Bellamy"
+    ],
+    [
+     "Captain Teague",
+     "Teague"
+    ],
+    [
+     "The Spaniard",
+     "Spaniard"
+    ],
+    [
+     "Lieutenant Scarfield",
+     "Scarfield"
+    ],
+    "Prison Dog"
+   ]
+  },
+  {
+   "id": "xl3-batman-villains",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a Batman villain (from any film, TV series or comic)",
+   "answers": [
+    [
+     "Joker",
+     "The Joker"
+    ],
+    [
+     "Penguin",
+     "The Penguin",
+     "Oswald Cobblepot"
+    ],
+    [
+     "Riddler",
+     "The Riddler",
+     "Edward Nygma"
+    ],
+    [
+     "Catwoman",
+     "Selina Kyle"
+    ],
+    [
+     "Two-Face",
+     "Two Face",
+     "Harvey Dent"
+    ],
+    "Bane",
+    [
+     "Scarecrow",
+     "Dr Jonathan Crane"
+    ],
+    "Poison Ivy",
+    "Harley Quinn",
+    [
+     "Mr. Freeze",
+     "Mr Freeze",
+     "Mister Freeze"
+    ],
+    [
+     "Ra's al Ghul",
+     "Rass al Ghul",
+     "Ras al Ghul"
+    ],
+    "Clayface",
+    "Killer Croc",
+    "Hush",
+    "Black Mask",
+    [
+     "Mad Hatter",
+     "The Mad Hatter"
+    ],
+    [
+     "Man-Bat",
+     "Man Bat"
+    ],
+    "Deadshot",
+    [
+     "Talia al Ghul",
+     "Talia"
+    ],
+    "Hugo Strange",
+    [
+     "Victor Zsasz",
+     "Zsasz"
+    ],
+    "Firefly",
+    "Killer Moth",
+    "Calendar Man",
+    [
+     "Ventriloquist",
+     "The Ventriloquist"
+    ],
+    "Scarface",
+    "Deathstroke",
+    [
+     "Professor Pyg",
+     "Pyg"
+    ],
+    "Anarky",
+    "Solomon Grundy",
+    "Egghead",
+    "King Tut",
+    "Bookworm",
+    "Louie the Lilac",
+    "Maxie Zeus",
+    [
+     "Carmine Falcone",
+     "Falcone"
+    ],
+    "Rupert Thorne",
+    "Red Hood",
+    "Lady Shiva",
+    "Copperhead",
+    [
+     "Ratcatcher",
+     "Rat Catcher"
+    ],
+    [
+     "Tweedledum and Tweedledee",
+     "Tweedledum",
+     "Tweedledee"
+    ],
+    [
+     "Court of Owls",
+     "The Court of Owls"
+    ],
+    "Joe Chill",
+    "Cluemaster"
+   ]
+  },
+  {
+   "id": "xl3-peanuts-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Peanuts (Charlie Brown and Snoopy)",
+   "answers": [
+    "Charlie Brown",
+    "Snoopy",
+    [
+     "Lucy van Pelt",
+     "Lucy"
+    ],
+    [
+     "Linus van Pelt",
+     "Linus"
+    ],
+    [
+     "Sally Brown",
+     "Sally"
+    ],
+    "Schroeder",
+    "Peppermint Patty",
+    "Marcie",
+    "Woodstock",
+    [
+     "Pig-Pen",
+     "Pigpen"
+    ],
+    "Franklin",
+    [
+     "Rerun van Pelt",
+     "Rerun"
+    ],
+    "Spike",
+    "Violet",
+    "Shermy",
+    "Patty",
+    "Frieda",
+    "Eudora",
+    "Lydia",
+    "Roy",
+    "Truffles",
+    "Sophie",
+    [
+     "The Little Red-Haired Girl",
+     "Little Red-Haired Girl",
+     "Little Red Haired Girl"
+    ],
+    [
+     "The Great Pumpkin",
+     "Great Pumpkin"
+    ],
+    [
+     "The Red Baron",
+     "Red Baron"
+    ],
+    "Joe Shlabotnik",
+    "Olaf",
+    "Andy",
+    "Marbles",
+    "Belle",
+    "Molly Volley",
+    "Tapioca Pudding",
+    "Royanne",
+    "Thibault",
+    "Joe Cool",
+    "Miss Othmar",
+    "Morag"
+   ]
+  },
+  {
+   "id": "xl3-tmnt-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Teenage Mutant Ninja Turtles",
+   "answers": [
+    "Leonardo",
+    "Donatello",
+    "Raphael",
+    "Michelangelo",
+    [
+     "Splinter",
+     "Master Splinter"
+    ],
+    [
+     "April O'Neil",
+     "April ONeil",
+     "April"
+    ],
+    [
+     "Casey Jones",
+     "Casey"
+    ],
+    [
+     "Shredder",
+     "The Shredder",
+     "Oroku Saki"
+    ],
+    "Krang",
+    "Bebop",
+    "Rocksteady",
+    "Baxter Stockman",
+    "Karai",
+    "Leatherhead",
+    "Slash",
+    "Rat King",
+    [
+     "Hamato Yoshi",
+     "Yoshi"
+    ],
+    "Tokka",
+    "Rahzar",
+    "Mondo Gecko",
+    [
+     "Irma Langenstein",
+     "Irma"
+    ],
+    [
+     "Venus de Milo",
+     "Venus"
+    ],
+    "Jennika",
+    [
+     "Baron Draxum",
+     "Draxum"
+    ],
+    "Hun",
+    "Fugitoid",
+    "Metalhead",
+    [
+     "Usagi Yojimbo",
+     "Miyamoto Usagi",
+     "Usagi"
+    ],
+    [
+     "General Traag",
+     "Traag"
+    ],
+    [
+     "Sergeant Granitor",
+     "Granitor"
+    ],
+    "Tang Shen",
+    "Alopex",
+    "Mutagen Man",
+    "Ray Fillet",
+    "Ninjara",
+    [
+     "Renet Tilley",
+     "Renet"
+    ],
+    "Pizzaface",
+    [
+     "Lord Dregg",
+     "Dregg"
+    ],
+    "Armaggon",
+    "Chrome Dome"
+   ]
+  }
+ ]
+}

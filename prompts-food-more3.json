@@ -1,0 +1,1421 @@
+{
+ "cat": "food",
+ "prompts": [
+  {
+   "id": "xf3-sparkling-wines",
+   "tags": [
+    "drinks"
+   ],
+   "text": "Name a type or name of sparkling wine",
+   "answers": [
+    "Champagne",
+    "Prosecco",
+    "Cava",
+    [
+     "Crémant",
+     "Cremant"
+    ],
+    "Franciacorta",
+    [
+     "Asti",
+     "Asti Spumante"
+    ],
+    "Lambrusco",
+    "Sekt",
+    [
+     "Cap Classique",
+     "Méthode Cap Classique",
+     "Methode Cap Classique"
+    ],
+    [
+     "English Sparkling Wine",
+     "English Sparkling"
+    ],
+    "Moscato d'Asti",
+    [
+     "Pétillant Naturel",
+     "Pet-Nat",
+     "Pet Nat"
+    ],
+    [
+     "Blanquette de Limoux",
+     "Limoux"
+    ],
+    [
+     "Trento DOC",
+     "Trento"
+    ],
+    "Espumante",
+    "Spumante",
+    "Sparkling Shiraz",
+    "Frizzante",
+    "Clairette de Die",
+    [
+     "Sparkling Rosé",
+     "Sparkling Rose"
+    ],
+    [
+     "Crémant de Loire",
+     "Cremant de Loire"
+    ],
+    [
+     "Saumur Mousseux",
+     "Saumur"
+    ],
+    "Vouvray Mousseux"
+   ]
+  },
+  {
+   "id": "xf3-scotch-brands",
+   "tags": [
+    "drinks"
+   ],
+   "text": "Name a Scotch whisky brand",
+   "answers": [
+    "Johnnie Walker",
+    [
+     "The Famous Grouse",
+     "Famous Grouse"
+    ],
+    [
+     "Bell's",
+     "Bells"
+    ],
+    [
+     "Teacher's",
+     "Teachers"
+    ],
+    [
+     "Grant's",
+     "Grants"
+    ],
+    [
+     "Chivas Regal",
+     "Chivas"
+    ],
+    [
+     "Dewar's",
+     "Dewars"
+    ],
+    [
+     "J&B",
+     "JB"
+    ],
+    [
+     "Whyte & Mackay",
+     "Whyte and Mackay"
+    ],
+    [
+     "Ballantine's",
+     "Ballantines"
+    ],
+    "Cutty Sark",
+    "Glenfiddich",
+    [
+     "The Glenlivet",
+     "Glenlivet"
+    ],
+    [
+     "The Macallan",
+     "Macallan"
+    ],
+    "Laphroaig",
+    "Lagavulin",
+    "Talisker",
+    "Glenmorangie",
+    "Highland Park",
+    [
+     "Isle of Jura",
+     "Jura"
+    ],
+    "Bowmore",
+    "Ardbeg",
+    "Bruichladdich",
+    [
+     "The Dalmore",
+     "Dalmore"
+    ],
+    [
+     "The Balvenie",
+     "Balvenie"
+    ],
+    "Cardhu",
+    "Oban",
+    "Aberlour",
+    "Glen Grant",
+    [
+     "The Singleton",
+     "Singleton"
+    ],
+    "Auchentoshan",
+    "Bunnahabhain",
+    "Monkey Shoulder",
+    "Haig",
+    "VAT 69",
+    [
+     "Black & White",
+     "Black and White"
+    ],
+    "Black Bottle",
+    "Compass Box",
+    "Glenfarclas",
+    "Springbank",
+    "Tomatin",
+    "Tobermory",
+    "Kilchoman",
+    "Caol Ila",
+    "Glen Moray",
+    [
+     "Arran",
+     "Isle of Arran"
+    ],
+    "Edradour",
+    "Dalwhinnie",
+    "Cragganmore",
+    "Clynelish",
+    "Benromach",
+    [
+     "The Glenrothes",
+     "Glenrothes"
+    ],
+    "Scapa",
+    "Tamdhu"
+   ]
+  },
+  {
+   "id": "xf3-plant-milks",
+   "tags": [
+    "drinks"
+   ],
+   "text": "Name a plant-based milk",
+   "answers": [
+    "Oat",
+    [
+     "Soya",
+     "Soy"
+    ],
+    "Almond",
+    "Coconut",
+    "Rice",
+    "Hemp",
+    "Pea",
+    "Cashew",
+    "Hazelnut",
+    "Macadamia",
+    "Flax",
+    [
+     "Lupin",
+     "Lupine"
+    ],
+    "Quinoa",
+    "Chia",
+    "Spelt",
+    "Pistachio",
+    "Walnut",
+    "Potato",
+    "Barley",
+    "Peanut"
+   ]
+  },
+  {
+   "id": "xf3-belgian-beers",
+   "tags": [
+    "drinks"
+   ],
+   "text": "Name a Belgian beer brand",
+   "answers": [
+    [
+     "Stella Artois",
+     "Stella"
+    ],
+    "Leffe",
+    "Hoegaarden",
+    "Duvel",
+    "Chimay",
+    "Jupiler",
+    "Kwak",
+    [
+     "Delirium Tremens",
+     "Delirium"
+    ],
+    "Orval",
+    "Westmalle",
+    "Rochefort",
+    "Westvleteren",
+    [
+     "La Chouffe",
+     "Chouffe"
+    ],
+    "Grimbergen",
+    "Lindemans",
+    "Cantillon",
+    "Maes",
+    "Affligem",
+    [
+     "Tripel Karmeliet",
+     "Karmeliet"
+    ],
+    "Palm",
+    [
+     "Cuvée des Trolls",
+     "Cuvee des Trolls"
+    ],
+    "Gouden Carolus",
+    [
+     "St. Bernardus",
+     "St Bernardus"
+    ],
+    "Bush",
+    "Corsendonk",
+    "Vedett",
+    "Brugse Zot",
+    "Straffe Hendrik",
+    "Blanche de Bruxelles",
+    [
+     "Saison Dupont",
+     "Dupont"
+    ],
+    "Rodenbach",
+    "Boon",
+    "Mort Subite",
+    "Primus",
+    "Haacht",
+    "Bellevue",
+    "Liefmans",
+    "Floris",
+    "Gulden Draak",
+    "Piraat",
+    "Kasteel",
+    "Barbar",
+    "Hapkin",
+    "Ename"
+   ]
+  },
+  {
+   "id": "xf3-german-beers",
+   "tags": [
+    "drinks"
+   ],
+   "text": "Name a German beer brand",
+   "answers": [
+    [
+     "Beck's",
+     "Becks"
+    ],
+    "Warsteiner",
+    "Bitburger",
+    "Paulaner",
+    "Erdinger",
+    [
+     "Löwenbräu",
+     "Lowenbrau",
+     "Lowenbrau"
+    ],
+    "Krombacher",
+    "Weihenstephaner",
+    "Spaten",
+    "Holsten",
+    "Franziskaner",
+    "Augustiner",
+    [
+     "Hofbräu",
+     "Hofbrau"
+    ],
+    [
+     "König Pilsener",
+     "Konig Pilsener",
+     "Konig"
+    ],
+    "Veltins",
+    "Radeberger",
+    "Jever",
+    "Flensburger",
+    [
+     "Hasseröder",
+     "Hasseroder"
+    ],
+    "Astra",
+    [
+     "Köstritzer",
+     "Kostritzer"
+    ],
+    "Schneider Weisse",
+    "Ayinger",
+    "Oettinger",
+    "DAB",
+    "Binding",
+    "Clausthaler",
+    [
+     "Fürstenberg",
+     "Furstenberg"
+    ],
+    "Tegernseer",
+    [
+     "Maisel's",
+     "Maisels"
+    ],
+    "Reissdorf",
+    [
+     "Früh",
+     "Fruh"
+    ],
+    "Gaffel",
+    "Diebels",
+    "Karlsberg",
+    [
+     "Schöfferhofer",
+     "Schofferhofer"
+    ],
+    [
+     "Berliner Kindl",
+     "Kindl"
+    ],
+    [
+     "Wernesgrüner",
+     "Wernesgruner"
+    ],
+    [
+     "Lübzer",
+     "Lubzer"
+    ]
+   ]
+  },
+  {
+   "id": "xf3-asian-beers",
+   "tags": [
+    "drinks"
+   ],
+   "text": "Name a beer brand from Asia",
+   "answers": [
+    "Tiger",
+    "Singha",
+    "Chang",
+    "Tsingtao",
+    "Kirin",
+    "Asahi",
+    "Sapporo",
+    "Kingfisher",
+    "Bintang",
+    "Saigon",
+    [
+     "Beerlao",
+     "Beer Lao"
+    ],
+    "Hite",
+    "Cass",
+    "OB",
+    "Taiwan Beer",
+    "Snow",
+    "Harbin",
+    "Yanjing",
+    "Leo",
+    "Angkor",
+    [
+     "Hanoi Beer",
+     "Bia Hanoi"
+    ],
+    [
+     "333",
+     "Ba Ba Ba"
+    ],
+    "Red Horse",
+    "Lion"
+   ]
+  },
+  {
+   "id": "xf3-latin-beers",
+   "tags": [
+    "drinks"
+   ],
+   "text": "Name a beer brand from Mexico or Latin America",
+   "answers": [
+    "Corona",
+    [
+     "Modelo",
+     "Modelo Especial"
+    ],
+    "Sol",
+    [
+     "Dos Equis",
+     "XX"
+    ],
+    "Tecate",
+    "Pacifico",
+    "Victoria",
+    "Bohemia",
+    "Negra Modelo",
+    "Indio",
+    "Superior",
+    "Brahma",
+    "Skol",
+    "Antarctica",
+    "Quilmes",
+    [
+     "Cusqueña",
+     "Cusquena"
+    ],
+    "Polar",
+    "Presidente",
+    "Imperial",
+    [
+     "Pilsen Callao",
+     "Pilsen"
+    ],
+    "Club Colombia",
+    [
+     "Águila",
+     "Aguila"
+    ],
+    "Poker",
+    "Cristal",
+    "Escudo",
+    "Medalla",
+    "Atlas",
+    "Kaiser",
+    "Itaipava",
+    "Eisenbahn",
+    "Devassa"
+   ]
+  },
+  {
+   "id": "xf3-whisky-types",
+   "tags": [
+    "drinks"
+   ],
+   "text": "Name a type or style of whisky or whiskey",
+   "answers": [
+    "Single Malt",
+    [
+     "Blended",
+     "Blended Scotch"
+    ],
+    "Blended Malt",
+    "Single Grain",
+    "Grain",
+    "Bourbon",
+    "Rye",
+    [
+     "Tennessee",
+     "Tennessee Whiskey"
+    ],
+    "Scotch",
+    [
+     "Irish",
+     "Irish Whiskey"
+    ],
+    [
+     "Japanese",
+     "Japanese Whisky"
+    ],
+    [
+     "Canadian",
+     "Canadian Whisky"
+    ],
+    "Corn",
+    "Wheat",
+    "Malt",
+    "Cask Strength",
+    "Peated",
+    "Single Cask",
+    "Small Batch",
+    "Straight Bourbon",
+    "Pot Still"
+   ]
+  },
+  {
+   "id": "xf3-whisky-countries",
+   "tags": [
+    "drinks"
+   ],
+   "text": "Name a country that produces whisky",
+   "answers": [
+    "Scotland",
+    "Ireland",
+    [
+     "USA",
+     "United States",
+     "America"
+    ],
+    "Canada",
+    "Japan",
+    "India",
+    "Taiwan",
+    "Wales",
+    "England",
+    "Australia",
+    "France",
+    "Sweden",
+    "Germany",
+    "New Zealand",
+    "South Africa",
+    "Finland",
+    "Denmark",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "Belgium",
+    "Switzerland",
+    "Austria",
+    [
+     "Czech Republic",
+     "Czechia"
+    ],
+    "Israel",
+    "Spain"
+   ]
+  },
+  {
+   "id": "xf3-french-drinks",
+   "tags": [
+    "drinks"
+   ],
+   "text": "Name a drink or drinks brand from France (not wine)",
+   "answers": [
+    "Cognac",
+    "Armagnac",
+    "Calvados",
+    "Pastis",
+    "Pernod",
+    "Ricard",
+    "Chartreuse",
+    "Cointreau",
+    "Grand Marnier",
+    [
+     "Bénédictine",
+     "Benedictine"
+    ],
+    "Absinthe",
+    [
+     "Crème de Cassis",
+     "Creme de Cassis",
+     "Cassis"
+    ],
+    "Kir",
+    [
+     "Pineau des Charentes",
+     "Pineau"
+    ],
+    "Suze",
+    "Lillet",
+    "Dubonnet",
+    "Noilly Prat",
+    "Evian",
+    "Perrier",
+    "Badoit",
+    "Volvic",
+    "Vittel",
+    "Orangina",
+    [
+     "Kronenbourg",
+     "Kronenbourg 1664",
+     "1664"
+    ],
+    "Fischer",
+    "Hennessy",
+    [
+     "Rémy Martin",
+     "Remy Martin"
+    ],
+    "Courvoisier",
+    "Martell",
+    "Grey Goose",
+    "Chambord",
+    [
+     "St-Germain",
+     "St Germain"
+    ],
+    [
+     "Cidre",
+     "Breton Cider"
+    ],
+    "Get 27",
+    "Cusenier",
+    "Cristaline"
+   ]
+  },
+  {
+   "id": "xf3-italian-drinks",
+   "tags": [
+    "drinks"
+   ],
+   "text": "Name an Italian drink or drinks brand (not wine)",
+   "answers": [
+    "Aperol",
+    "Campari",
+    [
+     "Amaretto",
+     "Disaronno"
+    ],
+    "Limoncello",
+    "Sambuca",
+    "Grappa",
+    "Peroni",
+    [
+     "Birra Moretti",
+     "Moretti"
+    ],
+    [
+     "San Pellegrino",
+     "Pellegrino"
+    ],
+    [
+     "Martini",
+     "Martini Rosso",
+     "Martini & Rossi"
+    ],
+    "Cinzano",
+    "Frangelico",
+    "Strega",
+    [
+     "Fernet-Branca",
+     "Fernet Branca",
+     "Fernet"
+    ],
+    "Galliano",
+    "Nocino",
+    "Amaro",
+    "Cynar",
+    "Nastro Azzurro",
+    "Menabrea",
+    "Ichnusa",
+    "Messina",
+    "Averna",
+    "Montenegro",
+    "Select",
+    "Punt e Mes",
+    [
+     "Maraschino",
+     "Luxardo"
+    ],
+    "Chinotto",
+    "Illy",
+    "Lavazza",
+    [
+     "Sanbittèr",
+     "Sanbitter"
+    ],
+    "Aranciata"
+   ]
+  },
+  {
+   "id": "xf3-bread-brands",
+   "tags": [
+    "brands"
+   ],
+   "text": "Name a bread brand sold in the UK",
+   "answers": [
+    "Warburtons",
+    "Hovis",
+    "Kingsmill",
+    "Allinson",
+    [
+     "Mother's Pride",
+     "Mothers Pride"
+    ],
+    "Sunblest",
+    "Roberts",
+    [
+     "Vogel's",
+     "Vogels"
+    ],
+    "Genius",
+    [
+     "Jacksons of Piccadilly",
+     "Jacksons"
+    ],
+    "Burgen",
+    "Nimble",
+    [
+     "Brace's",
+     "Braces"
+    ],
+    "Soreen",
+    "Rudi's",
+    [
+     "The Village Bakery",
+     "Village Bakery"
+    ],
+    "Wonderloaf",
+    "Fletchers"
+   ]
+  },
+  {
+   "id": "xf3-cheese-brands",
+   "tags": [
+    "brands"
+   ],
+   "text": "Name a cheese brand sold in the UK",
+   "answers": [
+    "Cathedral City",
+    "Dairylea",
+    "Philadelphia",
+    "Babybel",
+    [
+     "The Laughing Cow",
+     "Laughing Cow"
+    ],
+    [
+     "Président",
+     "President"
+    ],
+    "Boursin",
+    [
+     "Pilgrim's Choice",
+     "Pilgrims Choice"
+    ],
+    "Seriously Strong",
+    "Cheestrings",
+    "Primula",
+    "Applewood",
+    [
+     "Saint Agur",
+     "St Agur"
+    ],
+    "Davidstow",
+    [
+     "Barber's",
+     "Barbers"
+    ],
+    "Wyke Farms",
+    "Tickler",
+    "Kerrygold",
+    "Arla",
+    "Galbani",
+    "Castello",
+    "Violife",
+    "Wensleydale Creamery"
+   ]
+  },
+  {
+   "id": "xf3-yoghurt-brands",
+   "tags": [
+    "brands"
+   ],
+   "text": "Name a yoghurt or dessert brand sold in the UK",
+   "answers": [
+    [
+     "Müller",
+     "Muller"
+    ],
+    "Yeo Valley",
+    "Activia",
+    "Danone",
+    "Onken",
+    "Yakult",
+    "Actimel",
+    "Petits Filous",
+    "Frubes",
+    "Munch Bunch",
+    "Ski",
+    "Fage",
+    "Chobani",
+    [
+     "Rachel's",
+     "Rachels"
+    ],
+    "Alpro",
+    [
+     "Arla Skyr",
+     "Skyr"
+    ],
+    "Ambrosia",
+    "Angel Delight",
+    [
+     "Müllerlight",
+     "Mullerlight"
+    ],
+    [
+     "Müller Corner",
+     "Muller Corner",
+     "Corner"
+    ],
+    "Shape",
+    [
+     "Gü",
+     "Gu"
+    ],
+    "Danio",
+    [
+     "Bird's",
+     "Birds"
+    ],
+    [
+     "Mullerice",
+     "Müllerice"
+    ],
+    "Yoplait"
+   ]
+  },
+  {
+   "id": "xf3-frozen-food-brands",
+   "tags": [
+    "brands"
+   ],
+   "text": "Name a frozen food brand sold in the UK",
+   "answers": [
+    [
+     "Birds Eye",
+     "Bird's Eye"
+    ],
+    "Findus",
+    "McCain",
+    [
+     "Aunt Bessie's",
+     "Aunt Bessies"
+    ],
+    [
+     "Young's",
+     "Youngs"
+    ],
+    "Ross",
+    [
+     "Goodfella's",
+     "Goodfellas"
+    ],
+    "Chicago Town",
+    [
+     "Dr. Oetker",
+     "Dr Oetker",
+     "Oetker"
+    ],
+    "Quorn",
+    [
+     "Linda McCartney's",
+     "Linda McCartney"
+    ],
+    "Richmond",
+    "Strong Roots",
+    [
+     "Wall's",
+     "Walls"
+    ],
+    "Ristorante"
+   ]
+  },
+  {
+   "id": "xf3-condiment-brands",
+   "tags": [
+    "brands"
+   ],
+   "text": "Name a condiment or table sauce brand sold in the UK",
+   "answers": [
+    "Heinz",
+    [
+     "HP",
+     "HP Sauce"
+    ],
+    [
+     "Daddies",
+     "Daddies Sauce"
+    ],
+    [
+     "Lea & Perrins",
+     "Lea and Perrins"
+    ],
+    [
+     "Colman's",
+     "Colmans"
+    ],
+    [
+     "Hellmann's",
+     "Hellmanns"
+    ],
+    "Branston",
+    "Encona",
+    "Tabasco",
+    [
+     "Nando's",
+     "Nandos"
+    ],
+    "Kikkoman",
+    "Maggi",
+    [
+     "Frank's RedHot",
+     "Franks RedHot",
+     "Frank's"
+    ],
+    [
+     "Henderson's Relish",
+     "Hendersons Relish",
+     "Hendersons"
+    ],
+    "Reggae Reggae",
+    [
+     "Sarson's",
+     "Sarsons"
+    ],
+    "Chef",
+    [
+     "OK Sauce",
+     "O.K. Sauce"
+    ],
+    "Crosse & Blackwell",
+    "Baxters"
+   ]
+  },
+  {
+   "id": "xf3-cooking-sauce-brands",
+   "tags": [
+    "brands"
+   ],
+   "text": "Name a cooking sauce, gravy or stock brand sold in the UK",
+   "answers": [
+    "Dolmio",
+    [
+     "Ragu",
+     "Ragù"
+    ],
+    "Loyd Grossman",
+    [
+     "Uncle Ben's",
+     "Uncle Bens"
+    ],
+    "Old El Paso",
+    [
+     "Patak's",
+     "Pataks"
+    ],
+    [
+     "Sharwood's",
+     "Sharwoods"
+    ],
+    "Blue Dragon",
+    "Amoy",
+    "Homepride",
+    "Chicken Tonight",
+    "Seeds of Change",
+    "Bisto",
+    "Oxo",
+    "Knorr",
+    "Schwartz",
+    [
+     "Colman's",
+     "Colmans"
+    ],
+    "Sacla'",
+    [
+     "Newman's Own",
+     "Newmans Own"
+    ],
+    "Maggi",
+    "Bovril",
+    "Kallo"
+   ]
+  },
+  {
+   "id": "xf3-chocolate-makers",
+   "tags": [
+    "brands"
+   ],
+   "text": "Name a chocolate maker or chocolate brand (not an individual bar)",
+   "answers": [
+    [
+     "Cadbury",
+     "Cadbury's"
+    ],
+    "Mars",
+    [
+     "Nestlé",
+     "Nestle"
+    ],
+    "Galaxy",
+    [
+     "Hershey's",
+     "Hershey"
+    ],
+    "Lindt",
+    "Ferrero",
+    [
+     "Thorntons",
+     "Thornton's"
+    ],
+    "Hotel Chocolat",
+    [
+     "Green & Black's",
+     "Green and Blacks"
+    ],
+    "Toblerone",
+    "Milka",
+    "Godiva",
+    "Ghirardelli",
+    [
+     "Terry's",
+     "Terrys"
+    ],
+    [
+     "Rowntree's",
+     "Rowntrees"
+    ],
+    [
+     "Fry's",
+     "Frys"
+    ],
+    [
+     "Whittaker's",
+     "Whittakers"
+    ],
+    [
+     "Montezuma's",
+     "Montezumas"
+    ],
+    [
+     "Tony's Chocolonely",
+     "Tonys Chocolonely"
+    ],
+    "Divine",
+    "Guylian",
+    "Ritter Sport",
+    "Neuhaus",
+    "Leonidas",
+    "Prestat",
+    "Charbonnel et Walker",
+    "Bendicks",
+    "Elizabeth Shaw",
+    "Callebaut",
+    "Valrhona",
+    [
+     "Lily O'Brien's",
+     "Lily OBriens"
+    ],
+    "Booja-Booja",
+    "Kinder"
+   ]
+  },
+  {
+   "id": "xf3-coffee-brands",
+   "tags": [
+    "brands"
+   ],
+   "text": "Name a coffee brand sold in the UK",
+   "answers": [
+    [
+     "Nescafé",
+     "Nescafe"
+    ],
+    "Kenco",
+    "Douwe Egberts",
+    "Lavazza",
+    "Illy",
+    [
+     "Taylors of Harrogate",
+     "Taylors"
+    ],
+    "Carte Noire",
+    "Maxwell House",
+    "Gold Blend",
+    "Tassimo",
+    "Nespresso",
+    [
+     "Dolce Gusto",
+     "Nescafé Dolce Gusto"
+    ],
+    "Percol",
+    [
+     "Cafédirect",
+     "Cafedirect"
+    ],
+    "Jacobs",
+    "Segafredo",
+    [
+     "Union Coffee",
+     "Union"
+    ],
+    "Folgers",
+    "Starbucks",
+    "Costa",
+    "Grumpy Mule",
+    "Whittard",
+    [
+     "Camp Coffee",
+     "Camp"
+    ],
+    "Mellow Birds",
+    [
+     "Bewley's",
+     "Bewleys"
+    ],
+    "Monsoon Estates",
+    "Alta Rica",
+    "Kimbo",
+    [
+     "Caffè Nero",
+     "Caffe Nero"
+    ],
+    "Tchibo",
+    "Gevalia"
+   ]
+  },
+  {
+   "id": "xf3-spread-brands",
+   "tags": [
+    "brands"
+   ],
+   "text": "Name a butter, spread or jam brand sold in the UK",
+   "answers": [
+    [
+     "Hartley's",
+     "Hartleys"
+    ],
+    [
+     "Robertson's",
+     "Robertsons"
+    ],
+    "Bonne Maman",
+    "Tiptree",
+    [
+     "Wilkin & Sons",
+     "Wilkin and Sons",
+     "Wilkins"
+    ],
+    "Marmite",
+    "Bovril",
+    "Nutella",
+    "Lurpak",
+    "Flora",
+    "Anchor",
+    "Utterly Butterly",
+    "Clover",
+    [
+     "I Can't Believe It's Not Butter!",
+     "I Cant Believe Its Not Butter",
+     "ICBINB"
+    ],
+    "Kerrygold",
+    "Country Life",
+    "Stork",
+    "Bertolli",
+    "Benecol",
+    "Vitalite",
+    "Pure",
+    [
+     "Sun-Pat",
+     "Sun Pat"
+    ],
+    "Skippy",
+    "Meridian",
+    "Whole Earth",
+    [
+     "Pip & Nut",
+     "Pip and Nut"
+    ],
+    [
+     "Biscoff",
+     "Lotus Biscoff"
+    ],
+    [
+     "Lyle's",
+     "Lyles"
+    ],
+    "Rowse",
+    [
+     "Frank Cooper's",
+     "Frank Coopers"
+    ],
+    "Chivers",
+    "Gales",
+    [
+     "Smucker's",
+     "Smuckers"
+    ]
+   ]
+  },
+  {
+   "id": "xf3-pasta-brands",
+   "tags": [
+    "brands"
+   ],
+   "text": "Name a pasta or pasta sauce brand sold in the UK",
+   "answers": [
+    "Barilla",
+    "De Cecco",
+    "Napolina",
+    "Buitoni",
+    "Dolmio",
+    [
+     "Ragu",
+     "Ragù"
+    ],
+    "Loyd Grossman",
+    "Sacla'",
+    "Bertolli",
+    "Seeds of Change",
+    "Homepride",
+    [
+     "Uncle Ben's",
+     "Uncle Bens"
+    ],
+    "Divella",
+    "Garofalo",
+    [
+     "Giovanni Rana",
+     "Rana"
+    ],
+    "Agnesi",
+    "Rummo",
+    "Mutti",
+    "Pasta Reale",
+    "Merchant Gourmet",
+    [
+     "Newman's Own",
+     "Newmans Own"
+    ],
+    "Chicken Tonight",
+    "Filippo Berio",
+    "Cirio",
+    "La Doria"
+   ]
+  },
+  {
+   "id": "xf3-tinned-food-brands",
+   "tags": [
+    "brands"
+   ],
+   "text": "Name a tinned or canned food brand sold in the UK",
+   "answers": [
+    "Heinz",
+    "Baxters",
+    "Princes",
+    "John West",
+    "Batchelors",
+    "Napolina",
+    "Branston",
+    [
+     "Crosse & Blackwell",
+     "Crosse and Blackwell"
+    ],
+    [
+     "Campbell's",
+     "Campbells"
+    ],
+    "Fray Bentos",
+    "Spam",
+    "Ambrosia",
+    "Carnation",
+    [
+     "Libby's",
+     "Libbys"
+    ],
+    "Del Monte",
+    "Dole",
+    "Hormel",
+    "Glenryck",
+    "Bonduelle",
+    "Green Giant"
+   ]
+  },
+  {
+   "id": "xf3-cocktails-pineapple-juice",
+   "tags": [
+    "cocktails"
+   ],
+   "text": "Name a cocktail made with pineapple juice",
+   "answers": [
+    [
+     "Piña Colada",
+     "Pina Colada"
+    ],
+    "Painkiller",
+    "Singapore Sling",
+    "Blue Hawaiian",
+    "Blue Hawaii",
+    "Jungle Bird",
+    [
+     "Planter's Punch",
+     "Planters Punch"
+    ],
+    "Zombie",
+    "Bay Breeze",
+    [
+     "Chi Chi",
+     "Chi-Chi"
+    ],
+    "Bahama Mama",
+    "Lava Flow",
+    "Rum Runner",
+    "Torpedo Juice",
+    "Shark Bite",
+    "Electric Shark",
+    "Gunga Din",
+    "Chuck Yeager",
+    "Yaka Hula Hickey Dula"
+   ]
+  },
+  {
+   "id": "xf3-cocktails-ginger",
+   "tags": [
+    "cocktails"
+   ],
+   "text": "Name a cocktail or mixed drink made with ginger beer or ginger ale",
+   "answers": [
+    "Moscow Mule",
+    [
+     "Dark 'n' Stormy",
+     "Dark and Stormy",
+     "Dark N Stormy",
+     "Dark & Stormy"
+    ],
+    "Mamie Taylor",
+    "Kentucky Mule",
+    [
+     "Gin-Gin Mule",
+     "Gin Gin Mule"
+    ],
+    "Mexican Mule",
+    "London Mule",
+    "Irish Mule",
+    [
+     "Horse's Neck",
+     "Horses Neck"
+    ],
+    [
+     "Gin Buck",
+     "Buck"
+    ],
+    "Jamaican Mule",
+    "Foghorn",
+    "Presbyterian",
+    "Shirley Temple",
+    "Mule"
+   ]
+  },
+  {
+   "id": "xf3-cocktails-colours",
+   "tags": [
+    "cocktails"
+   ],
+   "text": "Name a cocktail or mixed drink with a colour in its name",
+   "answers": [
+    "Black Russian",
+    "White Russian",
+    "Red Russian",
+    "Blue Lagoon",
+    "Blue Hawaiian",
+    "Blue Hawaii",
+    "Pink Lady",
+    "White Lady",
+    "Pink Gin",
+    "Black Velvet",
+    "Yellow Bird",
+    "Golden Dream",
+    "Purple Rain",
+    "Golden Cadillac",
+    "Red Snapper",
+    "Brown Derby",
+    "Pink Squirrel",
+    "Blue Moon",
+    "White Spider",
+    "Black Widow",
+    "Blue Blazer",
+    "Golden Doublet",
+    [
+     "Black and Tan",
+     "Black & Tan"
+    ],
+    "Red Eye",
+    "Blue Margarita",
+    "White Negroni"
+   ]
+  }
+ ]
+}

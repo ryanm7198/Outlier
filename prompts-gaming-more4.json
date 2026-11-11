@@ -1,0 +1,3108 @@
+{
+ "cat": "gaming",
+ "prompts": [
+  {
+   "id": "xg4-skyrim-creatures",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a creature or enemy type in Skyrim (including DLC)",
+   "answers": [
+    "Ash Hopper",
+    "Ash Guardian",
+    "Ash Spawn",
+    "Bear",
+    "Bristleback",
+    "Chicken",
+    "Cow",
+    "Deer",
+    "Dog",
+    "Fox",
+    "Goat",
+    "Horker",
+    "Horse",
+    "Mammoth",
+    "Mudcrab",
+    [
+     "Nix-Hound",
+     "Nix Hound"
+    ],
+    "Rabbit",
+    [
+     "Sabre Cat",
+     "Sabrecat",
+     "Saber Cat"
+    ],
+    "Skeever",
+    "Slaughterfish",
+    "Wolf",
+    [
+     "Flame Atronach",
+     "Fire Atronach"
+    ],
+    [
+     "Frost Atronach",
+     "Ice Atronach"
+    ],
+    [
+     "Storm Atronach",
+     "Lightning Atronach"
+    ],
+    "Lurker",
+    "Seeker",
+    [
+     "Dwarven Ballista",
+     "Ballista"
+    ],
+    [
+     "Dwarven Centurion",
+     "Centurion"
+    ],
+    [
+     "Dwarven Sphere",
+     "Sphere"
+    ],
+    "Dwarven Spider",
+    "Burnt Spriggan",
+    [
+     "Chaurus",
+     "Chaurus Reaper"
+    ],
+    "Dragon",
+    "Falmer",
+    "Fire Wyrm",
+    "Frost Giant",
+    [
+     "Frostbite Spider",
+     "Spider"
+    ],
+    "Gargoyle",
+    "Giant",
+    "Hagraven",
+    "Ice Wraith",
+    "Netch",
+    "Riekling",
+    "Spriggan",
+    "Troll",
+    "Werewolf",
+    [
+     "Wisp",
+     "Will-o-the-wisp"
+    ],
+    "Draugr",
+    "Dragon Priest",
+    "Ghost",
+    "Skeleton",
+    "Zombie",
+    "Death Hound"
+   ]
+  },
+  {
+   "id": "xg4-final-fantasy-summons",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a summon (summoned monster) from the Final Fantasy series",
+   "answers": [
+    "Ifrit",
+    "Shiva",
+    "Ramuh",
+    "Bahamut",
+    "Odin",
+    "Leviathan",
+    "Titan",
+    "Carbuncle",
+    "Phoenix",
+    "Alexander",
+    [
+     "Diabolos",
+     "Diablos"
+    ],
+    "Siren",
+    "Golem",
+    "Cerberus",
+    [
+     "Quezacotl",
+     "Quetzalcoatl",
+     "Quetzacotl"
+    ],
+    "Eden",
+    "Anima",
+    "Valefor",
+    "Ixion",
+    "Yojimbo",
+    "Hades",
+    "Garuda",
+    "Fenrir",
+    "Chocobo",
+    [
+     "Moogle",
+     "Mog"
+    ],
+    [
+     "Knights of the Round",
+     "Round Table"
+    ],
+    "Magus Sisters",
+    "Brothers",
+    "Pandemona",
+    "Doomtrain",
+    "Cactuar",
+    "Tonberry",
+    "Atomos"
+   ]
+  },
+  {
+   "id": "xg4-dnd-races",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a playable race or species in the Dungeons & Dragons 5th Edition Player's Handbook (2014 or 2024)",
+   "answers": [
+    "Human",
+    "Elf",
+    "Dwarf",
+    "Halfling",
+    "Gnome",
+    "Dragonborn",
+    [
+     "Half-Elf",
+     "Half Elf"
+    ],
+    [
+     "Half-Orc",
+     "Half Orc"
+    ],
+    "Tiefling",
+    "Aasimar",
+    "Goliath",
+    "Orc"
+   ]
+  },
+  {
+   "id": "xg4-diablo-classes",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a playable class in the Diablo series (Diablo I to IV, as of 2026)",
+   "answers": [
+    "Barbarian",
+    [
+     "Sorcerer",
+     "Sorceress"
+    ],
+    "Necromancer",
+    "Druid",
+    "Rogue",
+    "Spiritborn",
+    "Paladin",
+    "Warlock",
+    "Amazon",
+    "Assassin",
+    "Monk",
+    "Crusader",
+    "Demon Hunter",
+    "Witch Doctor",
+    "Wizard",
+    "Warrior"
+   ]
+  },
+  {
+   "id": "xg4-final-fantasy-jobs",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a job or class in the Final Fantasy series",
+   "answers": [
+    [
+     "Warrior",
+     "Fighter"
+    ],
+    [
+     "Monk",
+     "Black Belt"
+    ],
+    "Thief",
+    "White Mage",
+    "Black Mage",
+    "Red Mage",
+    "Knight",
+    "Dragoon",
+    "Summoner",
+    "Ninja",
+    "Samurai",
+    "Bard",
+    "Dancer",
+    "Paladin",
+    "Dark Knight",
+    "Blue Mage",
+    "Time Mage",
+    "Geomancer",
+    "Scholar",
+    "Astrologian",
+    "Machinist",
+    "Gunbreaker",
+    "Sage",
+    "Reaper",
+    "Viper",
+    "Pictomancer",
+    "Berserker",
+    "Beastmaster",
+    "Mystic Knight",
+    "Chemist",
+    "Mime",
+    "Archer",
+    "Oracle",
+    "Freelancer",
+    "Ranger",
+    "Calculator",
+    "Gladiator",
+    "Mediator",
+    "Priest"
+   ]
+  },
+  {
+   "id": "xg4-souls-starting-classes",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a starting class in Dark Souls (the first game or Dark Souls III) or Elden Ring",
+   "answers": [
+    "Warrior",
+    "Knight",
+    "Wanderer",
+    "Thief",
+    "Bandit",
+    "Hunter",
+    "Sorcerer",
+    "Pyromancer",
+    "Cleric",
+    "Deprived",
+    "Mercenary",
+    "Herald",
+    "Assassin",
+    "Vagabond",
+    "Hero",
+    "Astrologer",
+    "Prophet",
+    "Confessor",
+    "Samurai",
+    "Prisoner",
+    "Wretch"
+   ]
+  },
+  {
+   "id": "xg4-oblivion-classes",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a pre-made character class in The Elder Scrolls IV: Oblivion",
+   "answers": [
+    "Acrobat",
+    "Agent",
+    "Archer",
+    "Assassin",
+    "Barbarian",
+    "Bard",
+    "Battlemage",
+    "Crusader",
+    "Healer",
+    "Knight",
+    "Mage",
+    "Monk",
+    "Nightblade",
+    "Pilgrim",
+    "Rogue",
+    "Scout",
+    "Sorcerer",
+    "Spellsword",
+    "Thief",
+    "Warrior",
+    [
+     "Witchhunter",
+     "Witch Hunter"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-witcher3-characters",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a character in The Witcher 3: Wild Hunt",
+   "answers": [
+    [
+     "Geralt",
+     "Geralt of Rivia"
+    ],
+    "Yennefer",
+    [
+     "Triss",
+     "Triss Merigold"
+    ],
+    [
+     "Ciri",
+     "Cirilla"
+    ],
+    [
+     "Dandelion",
+     "Jaskier"
+    ],
+    [
+     "Zoltan",
+     "Zoltan Chivay"
+    ],
+    "Vesemir",
+    "Eredin",
+    [
+     "Emhyr",
+     "Emhyr var Emreis"
+    ],
+    [
+     "Bloody Baron",
+     "Philip Strenger"
+    ],
+    "Keira Metz",
+    [
+     "Roche",
+     "Vernon Roche"
+    ],
+    [
+     "Dijkstra",
+     "Sigismund Dijkstra"
+    ],
+    [
+     "Philippa Eilhart",
+     "Philippa"
+    ],
+    "Radovid",
+    "Letho",
+    "Eskel",
+    "Lambert",
+    "Regis",
+    "Hjalmar",
+    "Cerys",
+    [
+     "Crach an Craite",
+     "Crach"
+    ],
+    [
+     "Olgierd von Everec",
+     "Olgierd"
+    ],
+    [
+     "Gaunter O'Dimm",
+     "Master Mirror"
+    ],
+    "Shani",
+    [
+     "Avallac'h",
+     "Avallach"
+    ],
+    [
+     "Anna Henrietta",
+     "Duchess Anna Henrietta"
+    ],
+    "Ermion",
+    "Iorveth",
+    "Johnny",
+    "Lugos",
+    "Whoreson Junior",
+    [
+     "Margarita Laux-Antille",
+     "Margarita"
+    ],
+    "Priscilla",
+    "Menge",
+    "Ves",
+    "Sheala",
+    [
+     "Fringilla Vigo",
+     "Fringilla"
+    ],
+    "Gregoire de Carnavon"
+   ]
+  },
+  {
+   "id": "xg4-ff-playable-characters-2",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a playable character in Final Fantasy IV, V, VI or XV",
+   "answers": [
+    "Cecil",
+    "Kain",
+    "Rosa",
+    "Rydia",
+    "Edge",
+    "Tellah",
+    "Palom",
+    "Porom",
+    "Yang",
+    "FuSoYa",
+    "Edward",
+    "Bartz",
+    "Lenna",
+    "Faris",
+    "Galuf",
+    "Krile",
+    "Terra",
+    "Locke",
+    "Edgar",
+    "Sabin",
+    "Celes",
+    "Cyan",
+    "Shadow",
+    "Gau",
+    "Setzer",
+    "Strago",
+    "Relm",
+    "Mog",
+    "Umaro",
+    "Gogo",
+    "Noctis",
+    [
+     "Gladiolus",
+     "Gladio"
+    ],
+    "Ignis",
+    "Prompto"
+   ]
+  },
+  {
+   "id": "xg4-bg3-characters",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a character in Baldur's Gate 3",
+   "answers": [
+    "Astarion",
+    [
+     "Gale",
+     "Gale of Waterdeep"
+    ],
+    "Karlach",
+    [
+     "Lae'zel",
+     "Laezel"
+    ],
+    "Shadowheart",
+    "Wyll",
+    "Halsin",
+    "Minthara",
+    "Jaheira",
+    "Minsc",
+    "Raphael",
+    "Orin",
+    [
+     "Gortash",
+     "Enver Gortash"
+    ],
+    [
+     "Ketheric Thorm",
+     "Ketheric"
+    ],
+    "Withers",
+    "Volo",
+    [
+     "Auntie Ethel",
+     "Ethel"
+    ],
+    "Mizora",
+    "Isobel",
+    "Alfira",
+    [
+     "Dame Aylin",
+     "Aylin"
+    ],
+    [
+     "The Emperor",
+     "Emperor"
+    ],
+    "Zevlor",
+    "Scratch",
+    "Owlbear Cub",
+    [
+     "Dark Urge",
+     "The Dark Urge"
+    ],
+    "Tav",
+    "Lorroakan",
+    "Sceleritas Fel",
+    "Cazador",
+    "Dammon",
+    "Arabella",
+    "Nettie",
+    "Rolan",
+    [
+     "Sovereign Spaw",
+     "Spaw"
+    ],
+    "Barcus Wroot",
+    "Kagha",
+    "Mol"
+   ]
+  },
+  {
+   "id": "xg4-kingdom-hearts-worlds",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a world or location visited in the Kingdom Hearts games",
+   "answers": [
+    "Traverse Town",
+    "Wonderland",
+    [
+     "Olympus Coliseum",
+     "Olympus"
+    ],
+    "Deep Jungle",
+    "Agrabah",
+    "Atlantica",
+    "Halloween Town",
+    "Neverland",
+    [
+     "Hollow Bastion",
+     "Radiant Garden"
+    ],
+    [
+     "100 Acre Wood",
+     "Hundred Acre Wood"
+    ],
+    "Monstro",
+    "End of the World",
+    "Twilight Town",
+    "Land of Dragons",
+    [
+     "Beast's Castle",
+     "Beasts Castle"
+    ],
+    [
+     "Port Royal",
+     "The Caribbean",
+     "Caribbean"
+    ],
+    "Pride Lands",
+    "Space Paranoids",
+    "Timeless River",
+    "Disney Castle",
+    "Destiny Islands",
+    [
+     "The World That Never Was",
+     "World That Never Was"
+    ],
+    "Toy Box",
+    [
+     "Kingdom of Corona",
+     "Corona"
+    ],
+    "Monstropolis",
+    "Arendelle",
+    "San Fransokyo",
+    "Land of Departure",
+    "Dwarf Woodlands",
+    "Castle of Dreams",
+    "Enchanted Dominion",
+    "Mysterious Tower",
+    [
+     "Scala ad Caelum",
+     "Scala Ad Caelum"
+    ],
+    "Keyblade Graveyard"
+   ]
+  },
+  {
+   "id": "xg4-fallout3-locations",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a location in Fallout 3",
+   "answers": [
+    "Megaton",
+    "Rivet City",
+    "Tenpenny Tower",
+    "Canterbury Commons",
+    "Underworld",
+    "Vault 101",
+    "Vault 87",
+    "Springvale",
+    "Arefu",
+    "Paradise Falls",
+    "Girdershade",
+    "Evergreen Mills",
+    "Grayditch",
+    "Anchorage",
+    "Big Town",
+    [
+     "Little Lamplight",
+     "Lamplight"
+    ],
+    "Minefield",
+    [
+     "Republic of Dave",
+     "Dave's"
+    ],
+    "Point Lookout",
+    "Raven Rock",
+    "Oasis",
+    "Lincoln Memorial",
+    "Washington Monument",
+    "National Archives",
+    "Jefferson Memorial",
+    [
+     "The Citadel",
+     "Citadel"
+    ],
+    "Galaxy News Radio",
+    "Museum of History",
+    "Dunwich Building",
+    "Vault 106",
+    "Vault 92",
+    [
+     "Super-Duper Mart",
+     "Super Duper Mart"
+    ],
+    "Chryslus Building",
+    "Fort Constantine",
+    "Fort Independence",
+    "Hubris Comics",
+    [
+     "Smith Casey's Garage",
+     "Smith Caseys Garage"
+    ],
+    "Warrington Station",
+    [
+     "Mama Dolce's Food Processing Plant",
+     "Mama Dolces"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-r6-siege-maps",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a map in Rainbow Six Siege (as of 2025)",
+   "answers": [
+    "Bank",
+    "Border",
+    "Chalet",
+    "Clubhouse",
+    "Coastline",
+    "Consulate",
+    "Emerald Plains",
+    "Favela",
+    "Fortress",
+    [
+     "Hereford Base",
+     "Hereford"
+    ],
+    "House",
+    [
+     "Kafe Dostoyevsky",
+     "Kafe"
+    ],
+    "Kanal",
+    "Lair",
+    [
+     "Nighthaven Labs",
+     "Nighthaven"
+    ],
+    "Oregon",
+    "Outback",
+    "Skyscraper",
+    [
+     "Stadium Bravo",
+     "Stadium"
+    ],
+    "Theme Park",
+    "Tower",
+    "Villa",
+    "Yacht",
+    [
+     "Bartlett University",
+     "Bartlett"
+    ],
+    [
+     "Presidential Plane",
+     "Plane"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-gaming-streaming-platforms",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a live-streaming platform used for video games (past or present)",
+   "answers": [
+    "Twitch",
+    [
+     "YouTube Gaming",
+     "YouTube"
+    ],
+    "Kick",
+    [
+     "Facebook Gaming",
+     "Facebook"
+    ],
+    "Mixer",
+    "Trovo",
+    "DLive",
+    "Caffeine",
+    [
+     "Booyah",
+     "Booyah!"
+    ],
+    [
+     "Nimo TV",
+     "Nimo"
+    ],
+    "Rumble",
+    "Huya",
+    "DouYu",
+    [
+     "AfreecaTV",
+     "SOOP"
+    ],
+    "Bilibili",
+    [
+     "TikTok Live",
+     "TikTok"
+    ],
+    "Discord",
+    "Omlet Arcade",
+    "Glimesh",
+    [
+     "Steam Broadcasting",
+     "Steam Broadcast"
+    ],
+    "Loco",
+    [
+     "Stream.me",
+     "Azubu"
+    ],
+    "Hitbox",
+    "Smashcast",
+    [
+     "Justin.tv",
+     "Own3d.tv",
+     "Own3d"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-riot-games",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a game published or developed by Riot Games (as of 2026)",
+   "answers": [
+    [
+     "League of Legends",
+     "LoL"
+    ],
+    "Valorant",
+    [
+     "Teamfight Tactics",
+     "TFT"
+    ],
+    [
+     "League of Legends: Wild Rift",
+     "Wild Rift"
+    ],
+    [
+     "Legends of Runeterra",
+     "Runeterra"
+    ],
+    "2XKO",
+    [
+     "Ruined King",
+     "Ruined King: A League of Legends Story"
+    ],
+    "Hextech Mayhem",
+    [
+     "Convergence",
+     "Convergence: A League of Legends Story"
+    ],
+    [
+     "Song of Nunu",
+     "Song of Nunu: A League of Legends Story"
+    ],
+    [
+     "The Mageseeker",
+     "Mageseeker"
+    ],
+    "Riftbound"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-normal-type-151",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Normal-type Pokémon from the original 151",
+   "answers": [
+    "Pidgey",
+    "Pidgeotto",
+    "Pidgeot",
+    "Rattata",
+    "Raticate",
+    "Spearow",
+    "Fearow",
+    "Jigglypuff",
+    "Wigglytuff",
+    "Meowth",
+    "Persian",
+    [
+     "Farfetch'd",
+     "Farfetchd"
+    ],
+    "Doduo",
+    "Dodrio",
+    "Lickitung",
+    "Chansey",
+    "Kangaskhan",
+    "Tauros",
+    "Ditto",
+    "Eevee",
+    "Porygon",
+    "Snorlax"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-poison-type-151",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Poison-type Pokémon from the original 151",
+   "answers": [
+    "Bulbasaur",
+    "Ivysaur",
+    "Venusaur",
+    "Weedle",
+    "Kakuna",
+    "Beedrill",
+    "Ekans",
+    "Arbok",
+    [
+     "Nidoran female",
+     "female nidoran",
+     "nidoran f"
+    ],
+    "Nidorina",
+    "Nidoqueen",
+    [
+     "Nidoran male",
+     "male nidoran",
+     "nidoran m"
+    ],
+    "Nidorino",
+    "Nidoking",
+    "Zubat",
+    "Golbat",
+    "Oddish",
+    "Gloom",
+    "Vileplume",
+    "Venonat",
+    "Venomoth",
+    "Bellsprout",
+    "Weepinbell",
+    "Victreebel",
+    "Tentacool",
+    "Tentacruel",
+    "Grimer",
+    "Muk",
+    "Gastly",
+    "Haunter",
+    "Gengar",
+    "Koffing",
+    "Weezing"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-ground-type-151",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Ground-type Pokémon from the original 151",
+   "answers": [
+    "Sandshrew",
+    "Sandslash",
+    "Nidoqueen",
+    "Nidoking",
+    "Diglett",
+    "Dugtrio",
+    "Geodude",
+    "Graveler",
+    "Golem",
+    "Onix",
+    "Cubone",
+    "Marowak",
+    "Rhyhorn",
+    "Rhydon"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-flying-type-151",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Flying-type Pokémon from the original 151 (including dual types)",
+   "answers": [
+    "Charizard",
+    "Butterfree",
+    "Pidgey",
+    "Pidgeotto",
+    "Pidgeot",
+    "Spearow",
+    "Fearow",
+    "Zubat",
+    "Golbat",
+    [
+     "Farfetch'd",
+     "Farfetchd"
+    ],
+    "Doduo",
+    "Dodrio",
+    "Scyther",
+    "Gyarados",
+    "Aerodactyl",
+    "Articuno",
+    "Zapdos",
+    "Moltres",
+    "Dragonite"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-151-letters-a-c",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name an original 151 Pokémon beginning with A, B or C",
+   "answers": [
+    "Bulbasaur",
+    "Charmander",
+    "Charmeleon",
+    "Charizard",
+    "Blastoise",
+    "Caterpie",
+    "Butterfree",
+    "Beedrill",
+    "Arbok",
+    "Clefairy",
+    "Clefable",
+    "Arcanine",
+    "Abra",
+    "Alakazam",
+    "Bellsprout",
+    "Cloyster",
+    "Cubone",
+    "Chansey",
+    "Aerodactyl",
+    "Articuno"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-151-letters-d-f",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name an original 151 Pokémon beginning with D, E or F",
+   "answers": [
+    "Fearow",
+    "Ekans",
+    "Diglett",
+    "Dugtrio",
+    [
+     "Farfetch'd",
+     "Farfetchd"
+    ],
+    "Doduo",
+    "Dodrio",
+    "Dewgong",
+    "Drowzee",
+    "Electrode",
+    "Exeggcute",
+    "Exeggutor",
+    "Electabuzz",
+    "Ditto",
+    "Eevee",
+    "Flareon",
+    "Dratini",
+    "Dragonair",
+    "Dragonite"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-151-letters-g-k",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name an original 151 Pokémon beginning with G, H, I, J or K",
+   "answers": [
+    "Ivysaur",
+    "Kakuna",
+    "Jigglypuff",
+    "Golbat",
+    "Gloom",
+    "Golduck",
+    "Growlithe",
+    "Kadabra",
+    "Geodude",
+    "Graveler",
+    "Golem",
+    "Grimer",
+    "Gastly",
+    "Haunter",
+    "Gengar",
+    "Hypno",
+    "Krabby",
+    "Kingler",
+    "Hitmonlee",
+    "Hitmonchan",
+    "Koffing",
+    "Kangaskhan",
+    "Horsea",
+    "Goldeen",
+    "Jynx",
+    "Gyarados",
+    "Jolteon",
+    "Kabuto",
+    "Kabutops"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-151-letters-n-p",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name an original 151 Pokémon beginning with N, O or P",
+   "answers": [
+    "Pidgey",
+    "Pidgeotto",
+    "Pidgeot",
+    "Pikachu",
+    [
+     "Nidoran female",
+     "female nidoran",
+     "nidoran f"
+    ],
+    "Nidorina",
+    "Nidoqueen",
+    [
+     "Nidoran male",
+     "male nidoran",
+     "nidoran m"
+    ],
+    "Nidorino",
+    "Nidoking",
+    "Ninetales",
+    "Oddish",
+    "Paras",
+    "Parasect",
+    "Persian",
+    "Psyduck",
+    "Primeape",
+    "Poliwag",
+    "Poliwhirl",
+    "Poliwrath",
+    "Ponyta",
+    "Onix",
+    "Pinsir",
+    "Porygon",
+    "Omanyte",
+    "Omastar"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-151-letters-r-s",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name an original 151 Pokémon beginning with R or S",
+   "answers": [
+    "Squirtle",
+    "Rattata",
+    "Raticate",
+    "Spearow",
+    "Raichu",
+    "Sandshrew",
+    "Sandslash",
+    "Rapidash",
+    "Slowpoke",
+    "Slowbro",
+    "Seel",
+    "Shellder",
+    "Rhyhorn",
+    "Rhydon",
+    "Seadra",
+    "Seaking",
+    "Staryu",
+    "Starmie",
+    "Scyther",
+    "Snorlax"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-151-letters-t-z",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name an original 151 Pokémon beginning with T, V, W or Z",
+   "answers": [
+    "Venusaur",
+    "Wartortle",
+    "Weedle",
+    "Vulpix",
+    "Wigglytuff",
+    "Zubat",
+    "Vileplume",
+    "Venonat",
+    "Venomoth",
+    "Weepinbell",
+    "Victreebel",
+    "Tentacool",
+    "Tentacruel",
+    "Voltorb",
+    "Weezing",
+    "Tangela",
+    "Tauros",
+    "Vaporeon",
+    "Zapdos"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-starter-final-evolutions",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a fully evolved starter Pokémon from Generation I to IX",
+   "answers": [
+    "Venusaur",
+    "Charizard",
+    "Blastoise",
+    "Meganium",
+    "Typhlosion",
+    [
+     "Feraligatr",
+     "Feraligator"
+    ],
+    "Sceptile",
+    "Blaziken",
+    "Swampert",
+    "Torterra",
+    "Infernape",
+    "Empoleon",
+    "Serperior",
+    "Emboar",
+    "Samurott",
+    "Chesnaught",
+    "Delphox",
+    "Greninja",
+    "Decidueye",
+    "Incineroar",
+    "Primarina",
+    "Rillaboom",
+    "Cinderace",
+    "Inteleon",
+    "Meowscarada",
+    "Skeledirge",
+    "Quaquaval"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-poke-ball-types",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a type of Poké Ball",
+   "answers": [
+    [
+     "Poké Ball",
+     "Pokeball",
+     "Poke Ball"
+    ],
+    [
+     "Great Ball",
+     "Great"
+    ],
+    [
+     "Ultra Ball",
+     "Ultra"
+    ],
+    [
+     "Master Ball",
+     "Master"
+    ],
+    [
+     "Safari Ball",
+     "Safari"
+    ],
+    [
+     "Premier Ball",
+     "Premier"
+    ],
+    [
+     "Luxury Ball",
+     "Luxury"
+    ],
+    [
+     "Net Ball",
+     "Net"
+    ],
+    [
+     "Dive Ball",
+     "Dive"
+    ],
+    [
+     "Nest Ball",
+     "Nest"
+    ],
+    [
+     "Repeat Ball",
+     "Repeat"
+    ],
+    [
+     "Timer Ball",
+     "Timer"
+    ],
+    [
+     "Heal Ball",
+     "Heal"
+    ],
+    [
+     "Quick Ball",
+     "Quick"
+    ],
+    [
+     "Dusk Ball",
+     "Dusk"
+    ],
+    [
+     "Cherish Ball",
+     "Cherish"
+    ],
+    [
+     "Dream Ball",
+     "Dream"
+    ],
+    [
+     "Beast Ball",
+     "Beast"
+    ],
+    [
+     "Lure Ball",
+     "Lure"
+    ],
+    [
+     "Level Ball",
+     "Level"
+    ],
+    [
+     "Moon Ball",
+     "Moon"
+    ],
+    [
+     "Heavy Ball",
+     "Heavy"
+    ],
+    [
+     "Fast Ball",
+     "Fast"
+    ],
+    [
+     "Friend Ball",
+     "Friend"
+    ],
+    [
+     "Love Ball",
+     "Love"
+    ],
+    [
+     "Park Ball",
+     "Park"
+    ],
+    [
+     "Sport Ball",
+     "Sport"
+    ],
+    [
+     "Strange Ball",
+     "Strange"
+    ],
+    "Feather Ball",
+    "Wing Ball",
+    "Jet Ball",
+    "Leaden Ball",
+    "Gigaton Ball",
+    "Origin Ball"
+   ]
+  },
+  {
+   "id": "xg4-pokemon-kanto-johto-towns",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a town or city in Kanto or Johto (Pokémon Red/Blue and Gold/Silver)",
+   "answers": [
+    [
+     "Pallet Town",
+     "Pallet"
+    ],
+    [
+     "Viridian City",
+     "Viridian"
+    ],
+    [
+     "Pewter City",
+     "Pewter"
+    ],
+    [
+     "Cerulean City",
+     "Cerulean"
+    ],
+    [
+     "Vermilion City",
+     "Vermilion"
+    ],
+    [
+     "Lavender Town",
+     "Lavender"
+    ],
+    [
+     "Celadon City",
+     "Celadon"
+    ],
+    [
+     "Fuchsia City",
+     "Fuchsia"
+    ],
+    [
+     "Saffron City",
+     "Saffron"
+    ],
+    [
+     "Cinnabar Island",
+     "Cinnabar"
+    ],
+    "Indigo Plateau",
+    [
+     "New Bark Town",
+     "New Bark"
+    ],
+    [
+     "Cherrygrove City",
+     "Cherrygrove"
+    ],
+    [
+     "Violet City",
+     "Violet"
+    ],
+    [
+     "Azalea Town",
+     "Azalea"
+    ],
+    [
+     "Goldenrod City",
+     "Goldenrod"
+    ],
+    [
+     "Ecruteak City",
+     "Ecruteak"
+    ],
+    [
+     "Olivine City",
+     "Olivine"
+    ],
+    [
+     "Cianwood City",
+     "Cianwood"
+    ],
+    [
+     "Mahogany Town",
+     "Mahogany"
+    ],
+    [
+     "Blackthorn City",
+     "Blackthorn"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-dota2-heroes",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a hero in Dota 2 (as of 2026)",
+   "answers": [
+    "Abaddon",
+    "Alchemist",
+    [
+     "Ancient Apparition",
+     "Kaldr"
+    ],
+    [
+     "Anti-Mage",
+     "Antimage"
+    ],
+    "Arc Warden",
+    [
+     "Axe",
+     "Mogul Khan"
+    ],
+    "Bane",
+    "Batrider",
+    "Beastmaster",
+    "Bloodseeker",
+    "Bounty Hunter",
+    "Brewmaster",
+    "Bristleback",
+    "Broodmother",
+    [
+     "Centaur Warrunner",
+     "Centaur",
+     "Bradwarden"
+    ],
+    "Chaos Knight",
+    "Chen",
+    "Clinkz",
+    [
+     "Clockwerk",
+     "Clock"
+    ],
+    [
+     "Crystal Maiden",
+     "Rylai"
+    ],
+    "Dark Seer",
+    "Dark Willow",
+    "Dawnbreaker",
+    "Dazzle",
+    "Death Prophet",
+    "Disruptor",
+    "Doom",
+    [
+     "Dragon Knight",
+     "Davion"
+    ],
+    [
+     "Drow Ranger",
+     "Drow",
+     "Traxex"
+    ],
+    "Earth Spirit",
+    "Earthshaker",
+    [
+     "Elder Titan",
+     "Elder Titan"
+    ],
+    "Ember Spirit",
+    "Enchantress",
+    "Enigma",
+    [
+     "Faceless Void",
+     "Void"
+    ],
+    "Grimstroke",
+    "Gyrocopter",
+    "Hoodwink",
+    "Huskar",
+    [
+     "Invoker",
+     "Carl"
+    ],
+    [
+     "Io",
+     "Wisp"
+    ],
+    "Jakiro",
+    [
+     "Juggernaut",
+     "Yurnero"
+    ],
+    [
+     "Keeper of the Light",
+     "Ezalor",
+     "KOTL"
+    ],
+    "Kez",
+    "Kunkka",
+    "Largo",
+    [
+     "Legion Commander",
+     "Tresdin"
+    ],
+    "Leshrac",
+    "Lich",
+    [
+     "Lifestealer",
+     "Life Stealer",
+     "Naix"
+    ],
+    [
+     "Lina",
+     "Lina Inverse"
+    ],
+    "Lion",
+    [
+     "Lone Druid",
+     "Sylla"
+    ],
+    "Luna",
+    "Lycan",
+    "Magnus",
+    "Marci",
+    "Mars",
+    "Medusa",
+    "Meepo",
+    "Mirana",
+    [
+     "Monkey King",
+     "Sun Wukong"
+    ],
+    "Morphling",
+    "Muerta",
+    [
+     "Naga Siren",
+     "Naga"
+    ],
+    [
+     "Nature's Prophet",
+     "Natures Prophet",
+     "Furion"
+    ],
+    "Necrophos",
+    [
+     "Night Stalker",
+     "Balanar"
+    ],
+    [
+     "Nyx Assassin",
+     "Nyx"
+    ],
+    [
+     "Ogre Magi",
+     "Ogre"
+    ],
+    "Omniknight",
+    "Oracle",
+    [
+     "Outworld Destroyer",
+     "Outworld Devourer"
+    ],
+    "Pangolier",
+    [
+     "Phantom Assassin",
+     "Mortred"
+    ],
+    [
+     "Phantom Lancer",
+     "Azwraith"
+    ],
+    "Phoenix",
+    "Primal Beast",
+    "Puck",
+    [
+     "Pudge",
+     "Butcher"
+    ],
+    "Pugna",
+    [
+     "Queen of Pain",
+     "Akasha"
+    ],
+    "Razor",
+    "Riki",
+    "Ringmaster",
+    "Rubick",
+    [
+     "Sand King",
+     "Crixalis"
+    ],
+    "Shadow Demon",
+    [
+     "Shadow Fiend",
+     "Nevermore"
+    ],
+    [
+     "Shadow Shaman",
+     "Rhasta"
+    ],
+    "Silencer",
+    [
+     "Skywrath Mage",
+     "Skywrath"
+    ],
+    "Slardar",
+    "Slark",
+    "Snapfire",
+    [
+     "Sniper",
+     "Kardel Sharpeye"
+    ],
+    "Spectre",
+    [
+     "Spirit Breaker",
+     "Barathrum"
+    ],
+    [
+     "Storm Spirit",
+     "Raijin"
+    ],
+    "Sven",
+    "Techies",
+    [
+     "Templar Assassin",
+     "Lanaya"
+    ],
+    "Terrorblade",
+    "Tidehunter",
+    [
+     "Timbersaw",
+     "Rizzrack"
+    ],
+    "Tinker",
+    "Tiny",
+    [
+     "Treant Protector",
+     "Treant"
+    ],
+    [
+     "Troll Warlord",
+     "Jah'rakal"
+    ],
+    "Tusk",
+    [
+     "Underlord",
+     "Pit Lord"
+    ],
+    "Undying",
+    "Ursa",
+    [
+     "Vengeful Spirit",
+     "Venge"
+    ],
+    "Venomancer",
+    "Viper",
+    "Visage",
+    "Void Spirit",
+    "Warlock",
+    "Weaver",
+    [
+     "Windranger",
+     "Windrunner"
+    ],
+    "Winter Wyvern",
+    [
+     "Witch Doctor",
+     "Zharvakko"
+    ],
+    [
+     "Wraith King",
+     "Skeleton King"
+    ],
+    "Zeus"
+   ]
+  },
+  {
+   "id": "xg4-roblox-games",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a Roblox game (as listed on Wikipedia's list of Roblox games, 2026)",
+   "answers": [
+    "99 Nights in the Forest",
+    "Adopt Me!",
+    "Arsenal",
+    "Bee Swarm Simulator",
+    [
+     "Brookhaven RP",
+     "Brookhaven"
+    ],
+    "Dandy's World",
+    "Doors",
+    "Dress to Impress",
+    "Driving Empire",
+    "Epic Minigames",
+    "Flee the Facility",
+    "Frontlines",
+    "Grow a Garden",
+    "Hide and Seek Extreme",
+    "Jailbreak",
+    "MeepCity",
+    [
+     "The Mimic",
+     "Mimic"
+    ],
+    [
+     "Murder Mystery 2",
+     "Murder Mystery"
+    ],
+    [
+     "Natural Disaster Survival",
+     "Natural Disasters"
+    ],
+    [
+     "Pet Simulator",
+     "Pet Simulator 99",
+     "Pet Sim"
+    ],
+    "Phantom Forces",
+    "Piggy",
+    "Rainbow Friends",
+    "Restaurant Tycoon 2",
+    "Rift Royale",
+    "Rivals",
+    "Royale High",
+    "Scuba Diving at Quill Lake",
+    [
+     "SharkBite",
+     "Shark Bite"
+    ],
+    "Speed Run 4",
+    "Steal an Egg",
+    "Super Bomb Survival",
+    [
+     "Theme Park Tycoon 2",
+     "Theme Park Tycoon"
+    ],
+    "Tower of Hell",
+    [
+     "Welcome to Bloxburg",
+     "Bloxburg"
+    ],
+    [
+     "Work at a Pizza Place",
+     "Pizza Place"
+    ],
+    "The Co-Worker Game",
+    "Notoriety",
+    "Sonic Speed Simulator",
+    "SpongeBob Simulator",
+    "Steal a Brainrot",
+    "3008",
+    "Anime Fighting Simulator",
+    [
+     "BedWars",
+     "Bed Wars"
+    ],
+    [
+     "Blox Fruits",
+     "Blox Fruit"
+    ],
+    "Poppy Playtime Forever",
+    [
+     "Pokémon Brick Bronze",
+     "Brick Bronze"
+    ],
+    "Squid Game X"
+   ]
+  },
+  {
+   "id": "xg4-ffxiv-jobs",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a job in Final Fantasy XIV (as of the Dawntrail expansion)",
+   "answers": [
+    "Paladin",
+    "Warrior",
+    "Dark Knight",
+    "Gunbreaker",
+    "White Mage",
+    "Scholar",
+    "Astrologian",
+    "Sage",
+    "Monk",
+    "Dragoon",
+    "Ninja",
+    "Samurai",
+    "Reaper",
+    "Viper",
+    "Bard",
+    "Machinist",
+    "Dancer",
+    "Black Mage",
+    "Summoner",
+    "Red Mage",
+    "Pictomancer",
+    "Blue Mage",
+    "Beastmaster"
+   ]
+  },
+  {
+   "id": "xg4-battle-royale-games",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a battle royale video game",
+   "answers": [
+    [
+     "Fortnite",
+     "Fortnite Battle Royale"
+    ],
+    [
+     "PUBG: Battlegrounds",
+     "PUBG",
+     "Playerunknown's Battlegrounds",
+     "Battlegrounds"
+    ],
+    [
+     "Apex Legends",
+     "Apex"
+    ],
+    [
+     "Call of Duty: Warzone",
+     "Warzone",
+     "Warzone 2.0",
+     "CoD Warzone"
+    ],
+    [
+     "Free Fire",
+     "Garena Free Fire"
+    ],
+    "Realm Royale",
+    [
+     "H1Z1",
+     "King of the Kill",
+     "Just Survive"
+    ],
+    "Spellbreak",
+    "Hyper Scape",
+    "Super Animal Royale",
+    [
+     "Naraka: Bladepoint",
+     "Naraka"
+    ],
+    "Tetris 99",
+    [
+     "Fall Guys",
+     "Fall Guys: Ultimate Knockout"
+    ],
+    "Darwin Project",
+    "Radical Heights",
+    "Ring of Elysium",
+    "Knives Out",
+    "Rules of Survival",
+    [
+     "Firestorm",
+     "Battlefield V Firestorm"
+    ],
+    [
+     "Blackout",
+     "Black Ops 4 Blackout"
+    ],
+    "PUBG Mobile",
+    "Super People",
+    "Eternal Return",
+    "Battlefield Royale"
+   ]
+  },
+  {
+   "id": "xg4-pc-game-stores",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a PC game store or game launcher",
+   "answers": [
+    "Steam",
+    [
+     "Epic Games Store",
+     "Epic Games",
+     "Epic Games Launcher",
+     "Epic"
+    ],
+    [
+     "GOG",
+     "GOG.com",
+     "GOG Galaxy",
+     "Good Old Games"
+    ],
+    [
+     "EA app",
+     "Origin",
+     "EA Desktop",
+     "EA Origin"
+    ],
+    [
+     "Battle.net",
+     "Blizzard Battle.net",
+     "Blizzard Launcher"
+    ],
+    [
+     "Ubisoft Connect",
+     "Uplay",
+     "Ubisoft Store"
+    ],
+    [
+     "Xbox app",
+     "Microsoft Store",
+     "Xbox PC app"
+    ],
+    [
+     "itch.io",
+     "itch"
+    ],
+    [
+     "Humble Store",
+     "Humble Bundle",
+     "Humble"
+    ],
+    [
+     "Rockstar Games Launcher",
+     "Rockstar Launcher"
+    ],
+    "Green Man Gaming",
+    [
+     "Fanatical",
+     "Bundle Stars"
+    ],
+    [
+     "Bethesda Launcher",
+     "Bethesda.net Launcher"
+    ],
+    [
+     "Riot Client",
+     "Riot Games Launcher"
+    ],
+    [
+     "Amazon Games",
+     "Amazon Games App"
+    ],
+    "Direct2Drive",
+    "GamersGate"
+   ]
+  },
+  {
+   "id": "xg4-game-subscriptions",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a video game subscription or cloud gaming service (past or present)",
+   "answers": [
+    [
+     "Xbox Game Pass",
+     "Game Pass"
+    ],
+    [
+     "PlayStation Plus",
+     "PS Plus",
+     "PSN Plus"
+    ],
+    [
+     "PlayStation Now",
+     "PS Now"
+    ],
+    [
+     "Nintendo Switch Online",
+     "Switch Online"
+    ],
+    [
+     "EA Play",
+     "EA Access",
+     "Origin Access"
+    ],
+    [
+     "Ubisoft+",
+     "Ubisoft Plus",
+     "Uplay+"
+    ],
+    "Apple Arcade",
+    [
+     "GeForce Now",
+     "Nvidia GeForce Now"
+    ],
+    [
+     "Xbox Cloud Gaming",
+     "xCloud",
+     "Project xCloud"
+    ],
+    [
+     "Amazon Luna",
+     "Luna"
+    ],
+    [
+     "Google Stadia",
+     "Stadia"
+    ],
+    [
+     "Shadow",
+     "Shadow PC"
+    ],
+    "OnLive",
+    "Gaikai",
+    "Netflix Games",
+    [
+     "Prime Gaming",
+     "Twitch Prime"
+    ],
+    [
+     "Humble Choice",
+     "Humble Monthly"
+    ],
+    "Boosteroid",
+    [
+     "PlayStation Plus Premium",
+     "PS Plus Premium"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-owl-teams",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a team that played in the Overwatch League (2018 to 2023)",
+   "answers": [
+    "Boston Uprising",
+    "Dallas Fuel",
+    "Florida Mayhem",
+    "Houston Outlaws",
+    "London Spitfire",
+    [
+     "Los Angeles Gladiators",
+     "LA Gladiators"
+    ],
+    [
+     "Los Angeles Valiant",
+     "LA Valiant"
+    ],
+    [
+     "New York Excelsior",
+     "NY Excelsior"
+    ],
+    "Philadelphia Fusion",
+    [
+     "San Francisco Shock",
+     "SF Shock"
+    ],
+    "Seoul Dynasty",
+    "Shanghai Dragons",
+    "Atlanta Reign",
+    "Chengdu Hunters",
+    "Guangzhou Charge",
+    "Hangzhou Spark",
+    "Paris Eternal",
+    "Toronto Defiant",
+    "Vancouver Titans",
+    "Washington Justice"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg4-minecraft-passive-mobs",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a passive mob in Minecraft (as listed on the Minecraft Wiki, 2026)",
+   "answers": [
+    "Allay",
+    "Armadillo",
+    "Axolotl",
+    "Bat",
+    "Camel",
+    "Camel Husk",
+    "Cat",
+    "Chicken",
+    "Cod",
+    "Copper Golem",
+    "Cow",
+    "Donkey",
+    "Frog",
+    "Glow Squid",
+    "Happy Ghast",
+    "Horse",
+    "Mooshroom",
+    "Mule",
+    "Ocelot",
+    "Parrot",
+    "Pig",
+    "Rabbit",
+    "Salmon",
+    "Sheep",
+    "Skeleton Horse",
+    "Sniffer",
+    [
+     "Snow Golem",
+     "Snow Man"
+    ],
+    "Squid",
+    "Strider",
+    "Sulfur Cube",
+    "Tadpole",
+    "Tropical Fish",
+    "Turtle",
+    "Villager",
+    "Wandering Trader",
+    "Zombie Horse"
+   ]
+  },
+  {
+   "id": "xg4-minecraft-breedable",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name an animal or mob you can breed in Minecraft (as of 2026)",
+   "answers": [
+    "Armadillo",
+    "Axolotl",
+    "Bee",
+    "Camel",
+    "Cat",
+    "Chicken",
+    "Cow",
+    "Donkey",
+    "Fox",
+    "Frog",
+    "Goat",
+    "Hoglin",
+    "Horse",
+    "Llama",
+    "Mooshroom",
+    "Nautilus",
+    "Ocelot",
+    "Panda",
+    "Pig",
+    "Rabbit",
+    "Sheep",
+    "Sniffer",
+    "Strider",
+    "Trader Llama",
+    "Turtle",
+    "Wolf",
+    "Villager"
+   ]
+  },
+  {
+   "id": "xg4-minecraft-fishing-loot",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name an item you can catch by fishing in Minecraft",
+   "answers": [
+    [
+     "Raw Cod",
+     "Cod"
+    ],
+    [
+     "Raw Salmon",
+     "Salmon"
+    ],
+    "Pufferfish",
+    "Tropical Fish",
+    "Lily Pad",
+    "Bowl",
+    "Fishing Rod",
+    "Leather",
+    "Leather Boots",
+    "Rotten Flesh",
+    "Stick",
+    "String",
+    "Water Bottle",
+    "Bone",
+    "Ink Sac",
+    "Tripwire Hook",
+    "Bamboo",
+    "Bow",
+    "Enchanted Book",
+    "Name Tag",
+    "Nautilus Shell",
+    "Saddle"
+   ]
+  },
+  {
+   "id": "xg4-minecraft-mob-drops",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name an item that mobs drop in Minecraft",
+   "answers": [
+    "Rotten Flesh",
+    "Bone",
+    "Arrow",
+    "String",
+    "Spider Eye",
+    "Gunpowder",
+    "Ender Pearl",
+    "Blaze Rod",
+    "Ghast Tear",
+    [
+     "Slimeball",
+     "Slime Ball"
+    ],
+    "Magma Cream",
+    "Leather",
+    "Feather",
+    [
+     "Raw Chicken",
+     "Chicken"
+    ],
+    [
+     "Raw Beef",
+     "Beef"
+    ],
+    [
+     "Raw Porkchop",
+     "Porkchop",
+     "Pork"
+    ],
+    [
+     "Raw Mutton",
+     "Mutton"
+    ],
+    "Raw Rabbit",
+    "Rabbit Hide",
+    [
+     "Rabbit's Foot",
+     "Rabbit Foot"
+    ],
+    "Wool",
+    "Ink Sac",
+    "Glow Ink Sac",
+    "Phantom Membrane",
+    "Shulker Shell",
+    "Nautilus Shell",
+    "Prismarine Shard",
+    "Prismarine Crystals",
+    [
+     "Totem of Undying",
+     "Totem"
+    ],
+    "Emerald",
+    [
+     "Wither Skeleton Skull",
+     "Wither Skull"
+    ],
+    "Nether Star",
+    "Scute",
+    "Armadillo Scute",
+    "Breeze Rod",
+    "Coal",
+    "Iron Ingot",
+    "Gold Nugget",
+    "Redstone",
+    "Glowstone Dust",
+    "Carrot",
+    "Potato",
+    "Cod",
+    "Salmon",
+    "Pufferfish",
+    "Tropical Fish"
+   ]
+  },
+  {
+   "id": "xg4-minecraft-mineral-items",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a mineral, ingot or gem item in Minecraft",
+   "answers": [
+    "Coal",
+    "Charcoal",
+    [
+     "Iron Ingot",
+     "Iron"
+    ],
+    [
+     "Copper Ingot",
+     "Copper"
+    ],
+    [
+     "Gold Ingot",
+     "Gold"
+    ],
+    "Diamond",
+    "Emerald",
+    [
+     "Lapis Lazuli",
+     "Lapis"
+    ],
+    [
+     "Redstone",
+     "Redstone Dust"
+    ],
+    [
+     "Nether Quartz",
+     "Quartz"
+    ],
+    [
+     "Netherite Ingot",
+     "Netherite"
+    ],
+    "Netherite Scrap",
+    [
+     "Amethyst Shard",
+     "Amethyst"
+    ],
+    "Raw Iron",
+    "Raw Copper",
+    "Raw Gold",
+    "Iron Nugget",
+    "Gold Nugget",
+    "Copper Nugget",
+    "Glowstone Dust",
+    "Prismarine Shard",
+    "Prismarine Crystals"
+   ]
+  },
+  {
+   "id": "xg4-minecraft-nether-blocks",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a block that generates naturally in the Nether in Minecraft",
+   "answers": [
+    "Netherrack",
+    "Soul Sand",
+    "Soul Soil",
+    [
+     "Nether Quartz Ore",
+     "Quartz Ore"
+    ],
+    "Nether Gold Ore",
+    "Ancient Debris",
+    "Glowstone",
+    "Magma Block",
+    "Crimson Nylium",
+    "Warped Nylium",
+    "Crimson Stem",
+    "Warped Stem",
+    "Nether Wart Block",
+    "Warped Wart Block",
+    "Shroomlight",
+    "Basalt",
+    "Blackstone",
+    "Gilded Blackstone",
+    "Crying Obsidian",
+    "Obsidian",
+    "Lava",
+    [
+     "Nether Bricks",
+     "Nether Brick"
+    ],
+    "Weeping Vines",
+    "Twisting Vines",
+    "Crimson Roots",
+    "Warped Roots",
+    "Crimson Fungus",
+    "Warped Fungus",
+    "Nether Sprouts",
+    "Nether Wart",
+    "Bone Block",
+    "Chest",
+    "Fire",
+    "Soul Fire",
+    "Polished Blackstone Bricks",
+    "Chiseled Polished Blackstone",
+    "Polished Blackstone",
+    "Smooth Basalt"
+   ]
+  },
+  {
+   "id": "xg4-cod-wwii-games",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a Call of Duty game set in the Second World War",
+   "answers": [
+    [
+     "Call of Duty",
+     "Call of Duty 1",
+     "Call of Duty 2003"
+    ],
+    [
+     "Call of Duty: United Offensive",
+     "United Offensive"
+    ],
+    [
+     "Call of Duty: Finest Hour",
+     "Finest Hour"
+    ],
+    [
+     "Call of Duty 2",
+     "Call of Duty II"
+    ],
+    [
+     "Call of Duty 2: Big Red One",
+     "Big Red One"
+    ],
+    [
+     "Call of Duty 3",
+     "Call of Duty III"
+    ],
+    [
+     "Call of Duty: Roads to Victory",
+     "Roads to Victory"
+    ],
+    [
+     "Call of Duty: World at War",
+     "World at War",
+     "CoD WaW"
+    ],
+    [
+     "Call of Duty: World at War - Final Fronts",
+     "Final Fronts"
+    ],
+    [
+     "Call of Duty: WWII",
+     "Call of Duty WW2",
+     "WWII",
+     "WW2"
+    ],
+    [
+     "Call of Duty: Vanguard",
+     "Vanguard"
+    ],
+    [
+     "Call of Duty: Heroes",
+     "Heroes"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-cod-killstreaks",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a killstreak or scorestreak in Call of Duty multiplayer",
+   "answers": [
+    [
+     "UAV",
+     "Spy Plane",
+     "Recon Drone"
+    ],
+    [
+     "Counter-UAV",
+     "Counter UAV"
+    ],
+    [
+     "Care Package",
+     "Carepackage",
+     "Supply Drop"
+    ],
+    [
+     "Airstrike",
+     "Precision Airstrike"
+    ],
+    "Predator Missile",
+    [
+     "Attack Helicopter",
+     "Helicopter"
+    ],
+    "Chopper Gunner",
+    [
+     "Harrier Strike",
+     "Harrier"
+    ],
+    [
+     "AC-130",
+     "Gunship"
+    ],
+    [
+     "Tactical Nuke",
+     "Nuke"
+    ],
+    [
+     "Sentry Gun",
+     "Sentry"
+    ],
+    "Emergency Airdrop",
+    "Stealth Bomber",
+    "Pave Low",
+    "EMP",
+    [
+     "Napalm Strike",
+     "Napalm"
+    ],
+    "Juggernaut",
+    "Cluster Strike",
+    [
+     "RC-XD",
+     "RC Car"
+    ],
+    [
+     "Hunter Killer Drone",
+     "Hunter Killer"
+    ],
+    "Lightning Strike",
+    [
+     "Orbital VSAT",
+     "VSAT"
+    ],
+    [
+     "Dogs",
+     "Attack Dogs"
+    ],
+    [
+     "VTOL Warship",
+     "VTOL"
+    ],
+    "Death Machine",
+    "Guardian",
+    "Cruise Missile",
+    "Mortar Team",
+    "Reaper",
+    "Swarm",
+    "Loadout Drop",
+    "Shield Turret",
+    "Wheelson",
+    "Support Helicopter"
+   ]
+  },
+  {
+   "id": "xg4-cod-perks",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a perk in Call of Duty multiplayer",
+   "answers": [
+    "Juggernaut",
+    "Stopping Power",
+    "Sleight of Hand",
+    "Martyrdom",
+    "Last Stand",
+    "Deep Impact",
+    "Steady Aim",
+    "UAV Jammer",
+    "Overkill",
+    "Marathon",
+    "Scavenger",
+    "Ninja",
+    [
+     "Cold-Blooded",
+     "Cold Blooded"
+    ],
+    "Lightweight",
+    "Quickdraw",
+    "Commando",
+    "Hardline",
+    "Danger Close",
+    "Bling",
+    "One Man Army",
+    "Dead Silence",
+    "Tactical Mask",
+    "Scrambler",
+    "Ghost",
+    "Assassin",
+    "Flak Jacket",
+    "Blast Shield",
+    "Hardwired",
+    "Double Tap",
+    "Extreme Conditioning",
+    "Bomb Squad",
+    "Sitrep",
+    "Dexterity",
+    "Fast Hands",
+    [
+     "Gung-Ho",
+     "Gung Ho"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-cod-equipment",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a grenade or throwable piece of equipment in Call of Duty",
+   "answers": [
+    [
+     "Frag Grenade",
+     "Frag"
+    ],
+    "Semtex",
+    "Claymore",
+    "C4",
+    [
+     "Flashbang",
+     "Flash Grenade"
+    ],
+    [
+     "Stun Grenade",
+     "Concussion Grenade",
+     "Stun"
+    ],
+    [
+     "Smoke Grenade",
+     "Smoke"
+    ],
+    [
+     "Throwing Knife",
+     "Throwing Knives"
+    ],
+    "Tomahawk",
+    [
+     "Molotov",
+     "Molotov Cocktail"
+    ],
+    "Proximity Mine",
+    "Bouncing Betty",
+    "Trophy System",
+    [
+     "Decoy Grenade",
+     "Decoy"
+    ],
+    [
+     "Gas Grenade",
+     "Nova Gas"
+    ],
+    "Thermite",
+    [
+     "Stim Shot",
+     "Stim"
+    ],
+    "Shock Charge",
+    "Tactical Insertion",
+    "Combat Axe",
+    [
+     "Sticky Grenade",
+     "Sticky"
+    ],
+    "Heartbeat Sensor",
+    "Drill Charge",
+    "Snapshot Grenade",
+    "Thermobaric Grenade",
+    "Tear Gas",
+    "Battle Rage"
+   ]
+  },
+  {
+   "id": "xg4-cod-game-modes",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a multiplayer game mode in Call of Duty",
+   "answers": [
+    [
+     "Team Deathmatch",
+     "TDM"
+    ],
+    [
+     "Free-for-All",
+     "Free for All",
+     "FFA"
+    ],
+    [
+     "Domination",
+     "Dom"
+    ],
+    [
+     "Search and Destroy",
+     "Search & Destroy",
+     "SnD",
+     "S&D"
+    ],
+    "Hardpoint",
+    "Kill Confirmed",
+    [
+     "Capture the Flag",
+     "CTF"
+    ],
+    [
+     "Headquarters",
+     "HQ"
+    ],
+    "Control",
+    "Gun Game",
+    "Demolition",
+    "Sabotage",
+    "Ground War",
+    "Gunfight",
+    "Cranked",
+    "Prop Hunt",
+    "Infected",
+    "One in the Chamber",
+    "Drop Zone",
+    "Face Off",
+    "Blitz",
+    "Frontline",
+    "Safeguard",
+    "Uplink",
+    "Ranked Play",
+    "Shoot the Ship",
+    "Hunted",
+    "Team Defender",
+    "Kill Order",
+    "Moshpit"
+   ]
+  },
+  {
+   "id": "xg4-nintendo-ds-sellers",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a Nintendo DS game that sold more than 7 million copies (as listed on Wikipedia)",
+   "answers": [
+    [
+     "New Super Mario Bros.",
+     "New Super Mario Bros",
+     "NSMB"
+    ],
+    "Nintendogs",
+    "Mario Kart DS",
+    [
+     "Brain Age",
+     "Brain Training",
+     "Dr Kawashima's Brain Training",
+     "Brain Age: Train Your Brain in Minutes a Day"
+    ],
+    [
+     "Brain Age 2",
+     "More Brain Training",
+     "Brain Training 2"
+    ],
+    [
+     "Pokémon Diamond and Pearl",
+     "Pokémon Diamond",
+     "Pokémon Pearl",
+     "Diamond and Pearl",
+     "Diamond",
+     "Pearl"
+    ],
+    [
+     "Pokémon Black and White",
+     "Pokémon Black",
+     "Pokémon White",
+     "Black and White"
+    ],
+    [
+     "Pokémon HeartGold and SoulSilver",
+     "Pokémon HeartGold",
+     "Pokémon SoulSilver",
+     "HeartGold and SoulSilver",
+     "HeartGold",
+     "SoulSilver"
+    ],
+    [
+     "Animal Crossing: Wild World",
+     "Animal Crossing Wild World",
+     "Wild World"
+    ],
+    [
+     "Super Mario 64 DS",
+     "Mario 64 DS"
+    ],
+    "Mario Party DS",
+    [
+     "Pokémon Black 2 and White 2",
+     "Pokémon Black 2",
+     "Pokémon White 2",
+     "Black 2 and White 2"
+    ],
+    [
+     "Pokémon Platinum",
+     "Platinum"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-nintendo-wii-sellers",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a Wii game that sold more than 6 million copies (as listed on Wikipedia)",
+   "answers": [
+    "Wii Sports",
+    "Mario Kart Wii",
+    "Wii Sports Resort",
+    [
+     "New Super Mario Bros. Wii",
+     "New Super Mario Bros Wii",
+     "NSMB Wii"
+    ],
+    "Wii Play",
+    "Wii Fit",
+    "Wii Fit Plus",
+    [
+     "Super Smash Bros. Brawl",
+     "Smash Bros Brawl",
+     "Brawl",
+     "Super Smash Bros Brawl"
+    ],
+    [
+     "Super Mario Galaxy",
+     "Mario Galaxy"
+    ],
+    "Just Dance 3",
+    "Wii Party",
+    "Mario Party 8",
+    [
+     "The Legend of Zelda: Twilight Princess",
+     "Zelda Twilight Princess",
+     "Twilight Princess"
+    ],
+    [
+     "Super Mario Galaxy 2",
+     "Mario Galaxy 2"
+    ],
+    [
+     "Mario & Sonic at the Olympic Games",
+     "Mario and Sonic at the Olympic Games",
+     "Mario & Sonic Olympic Games"
+    ],
+    "Donkey Kong Country Returns",
+    [
+     "Mario & Sonic at the Olympic Winter Games",
+     "Mario and Sonic at the Olympic Winter Games",
+     "Mario & Sonic Winter Olympic Games"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-nintendo-n64-sellers",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a Nintendo 64 game that sold more than 3 million copies (as listed on Wikipedia)",
+   "answers": [
+    [
+     "Super Mario 64",
+     "Mario 64"
+    ],
+    "Mario Kart 64",
+    [
+     "GoldenEye 007",
+     "GoldenEye"
+    ],
+    [
+     "The Legend of Zelda: Ocarina of Time",
+     "Ocarina of Time",
+     "Zelda Ocarina of Time"
+    ],
+    [
+     "Super Smash Bros.",
+     "Super Smash Bros",
+     "Smash Bros",
+     "Smash 64",
+     "Super Smash Bros. 64"
+    ],
+    "Pokémon Stadium",
+    [
+     "Donkey Kong 64",
+     "DK64"
+    ],
+    "Diddy Kong Racing",
+    [
+     "Star Fox 64",
+     "Lylat Wars"
+    ],
+    [
+     "Banjo-Kazooie",
+     "Banjo Kazooie"
+    ],
+    "Pokémon Snap",
+    [
+     "The Legend of Zelda: Majora's Mask",
+     "Majora's Mask",
+     "Zelda Majora's Mask"
+    ],
+    [
+     "Star Wars Episode I: Racer",
+     "Star Wars Episode 1 Racer",
+     "Episode I Racer"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-nintendo-gamecube-sellers",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a GameCube game that sold more than 1.5 million copies (as listed on Wikipedia)",
+   "answers": [
+    [
+     "Super Smash Bros. Melee",
+     "Smash Bros Melee",
+     "Melee"
+    ],
+    [
+     "Mario Kart: Double Dash!!",
+     "Mario Kart Double Dash",
+     "Double Dash"
+    ],
+    [
+     "Super Mario Sunshine",
+     "Mario Sunshine"
+    ],
+    [
+     "The Legend of Zelda: The Wind Waker",
+     "Zelda Wind Waker",
+     "Wind Waker"
+    ],
+    "Luigi's Mansion",
+    "Metroid Prime",
+    [
+     "Animal Crossing",
+     "Animal Crossing GameCube"
+    ],
+    "Mario Party 4",
+    [
+     "Pokémon Colosseum",
+     "Colosseum"
+    ],
+    "Mario Party 5",
+    "Mario Party 7",
+    [
+     "Paper Mario: The Thousand-Year Door",
+     "Paper Mario Thousand Year Door",
+     "Thousand-Year Door"
+    ],
+    "Star Fox Adventures",
+    [
+     "Sonic Adventure 2: Battle",
+     "Sonic Adventure 2 Battle",
+     "Sonic Adventure 2"
+    ],
+    "Mario Party 6",
+    "Pikmin",
+    [
+     "Resident Evil 4",
+     "RE4"
+    ],
+    [
+     "Sonic Adventure DX: Director's Cut",
+     "Sonic Adventure DX"
+    ],
+    [
+     "Super Mario Strikers",
+     "Mario Strikers"
+    ]
+   ]
+  },
+  {
+   "id": "xg4-mario-enemies",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name an enemy or villain in the Super Mario games",
+   "answers": [
+    "Goomba",
+    [
+     "Koopa Troopa",
+     "Koopa"
+    ],
+    "Bowser",
+    [
+     "Bowser Jr.",
+     "Bowser Junior"
+    ],
+    "Piranha Plant",
+    "Bullet Bill",
+    "Boo",
+    "King Boo",
+    "Shy Guy",
+    "Lakitu",
+    [
+     "Hammer Bro",
+     "Hammer Brother"
+    ],
+    "Thwomp",
+    "Chain Chomp",
+    "Blooper",
+    "Cheep Cheep",
+    "Spiny",
+    "Wiggler",
+    "Dry Bones",
+    "Magikoopa",
+    "Kamek",
+    [
+     "Bob-omb",
+     "Bomb-omb",
+     "Bobomb"
+    ],
+    "Monty Mole",
+    "Pokey",
+    "Whomp",
+    "Podoboo",
+    "Buzzy Beetle",
+    "Angry Sun",
+    "Fuzzy",
+    [
+     "Chargin' Chuck",
+     "Charging Chuck"
+    ],
+    "Mechakoopa",
+    "Rocky Wrench",
+    "Sumo Bro",
+    "Banzai Bill",
+    "Petey Piranha",
+    "Koopalings",
+    "Ant Trooper",
+    "Biddybud",
+    "Spike"
+   ]
+  },
+  {
+   "id": "xg4-wow-allied-races",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name an allied race in World of Warcraft (as of the Midnight expansion)",
+   "answers": [
+    "Void Elf",
+    [
+     "Lightforged Draenei",
+     "Lightforged"
+    ],
+    "Nightborne",
+    [
+     "Highmountain Tauren",
+     "Highmountain"
+    ],
+    [
+     "Dark Iron Dwarf",
+     "Dark Iron"
+    ],
+    [
+     "Mag'har Orc",
+     "Maghar Orc",
+     "Mag'har",
+     "Maghar"
+    ],
+    [
+     "Zandalari Troll",
+     "Zandalari"
+    ],
+    [
+     "Kul Tiran",
+     "Kul Tiran Human"
+    ],
+    "Vulpera",
+    "Mechagnome",
+    "Earthen",
+    "Haranir"
+   ]
+  },
+  {
+   "id": "xg4-warcraft-dragons",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a dragon from Warcraft lore",
+   "answers": [
+    [
+     "Deathwing",
+     "Neltharion"
+    ],
+    "Alexstrasza",
+    "Ysera",
+    "Malygos",
+    "Nozdormu",
+    "Kalecgos",
+    "Onyxia",
+    "Nefarian",
+    "Sindragosa",
+    "Wrathion",
+    "Sinestra",
+    "Korialstrasz",
+    "Chromatus",
+    "Anachronos",
+    "Tyranastrasz",
+    "Eranikus",
+    "Tarecgosa",
+    "Soridormi"
+   ]
+  }
+ ]
+}
