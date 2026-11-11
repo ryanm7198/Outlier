@@ -1,0 +1,7583 @@
+{
+ "cat": "history",
+ "prompts": [
+  {
+   "id": "xh-new-kingdom-pharaohs",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a pharaoh of Egypt's New Kingdom (no number needed)",
+   "answers": [
+    [
+     "Tutankhamun",
+     "Tutankhamen",
+     "Tutankhamon",
+     "Tutankhaten",
+     "King Tut",
+     "Tut"
+    ],
+    [
+     "Ramesses",
+     "Ramses",
+     "Rameses",
+     "Ramesses the Great",
+     "Ozymandias",
+     "Ramesses I",
+     "Ramesses II",
+     "Ramesses III",
+     "Ramesses IV",
+     "Ramesses V",
+     "Ramesses VI",
+     "Ramesses VII",
+     "Ramesses VIII",
+     "Ramesses IX",
+     "Ramesses X",
+     "Ramesses XI",
+     "Ramses I",
+     "Ramses II",
+     "Ramses III",
+     "Ramses IV"
+    ],
+    [
+     "Akhenaten",
+     "Akhenaton",
+     "Akhnaton"
+    ],
+    "Hatshepsut",
+    [
+     "Thutmose",
+     "Tuthmosis",
+     "Thutmosis",
+     "Thutmose I",
+     "Thutmose II",
+     "Thutmose III",
+     "Thutmose IV",
+     "Tuthmosis I",
+     "Tuthmosis II",
+     "Tuthmosis III",
+     "Tuthmosis IV"
+    ],
+    [
+     "Amenhotep",
+     "Amenophis",
+     "Amenhotep I",
+     "Amenhotep II",
+     "Amenhotep III"
+    ],
+    [
+     "Seti",
+     "Sethi",
+     "Sethos",
+     "Seti I",
+     "Seti II"
+    ],
+    [
+     "Ahmose",
+     "Ahmose I",
+     "Amosis"
+    ],
+    [
+     "Horemheb",
+     "Haremhab"
+    ],
+    [
+     "Ay",
+     "Aye",
+     "Kheperkheperure Ay"
+    ],
+    "Smenkhkare",
+    "Neferneferuaten",
+    [
+     "Merneptah",
+     "Merenptah"
+    ],
+    [
+     "Amenmesse",
+     "Amenmeses"
+    ],
+    [
+     "Siptah",
+     "Merneptah Siptah"
+    ],
+    [
+     "Twosret",
+     "Tausret",
+     "Tawosret"
+    ],
+    [
+     "Setnakhte",
+     "Setnakht"
+    ]
+   ]
+  },
+  {
+   "id": "xh-ancient-olympic-events",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an event at the ancient Olympic Games (parts of the pentathlon count)",
+   "answers": [
+    [
+     "Stadion",
+     "Stade",
+     "Stadium race",
+     "Sprint",
+     "Foot race",
+     "Running",
+     "Footrace"
+    ],
+    [
+     "Wrestling",
+     "Pale"
+    ],
+    [
+     "Boxing",
+     "Pygmachia"
+    ],
+    [
+     "Chariot racing",
+     "Chariot race",
+     "Tethrippon",
+     "Synoris",
+     "Four-horse chariot race",
+     "Two-horse chariot race"
+    ],
+    "Pentathlon",
+    [
+     "Discus",
+     "Discus throw"
+    ],
+    [
+     "Javelin",
+     "Javelin throw"
+    ],
+    [
+     "Long jump",
+     "Jumping",
+     "Halma"
+    ],
+    [
+     "Pankration",
+     "Pancratium"
+    ],
+    [
+     "Horse racing",
+     "Horse race",
+     "Keles"
+    ],
+    "Diaulos",
+    [
+     "Dolichos",
+     "Long-distance race"
+    ],
+    [
+     "Hoplitodromos",
+     "Hoplite race",
+     "Race in armour",
+     "Race in armor"
+    ],
+    [
+     "Mule-cart race",
+     "Apene"
+    ],
+    [
+     "Mare race",
+     "Calpe",
+     "Kalpe"
+    ],
+    [
+     "Heralds and trumpeters contest",
+     "Heralds and trumpeters",
+     "Trumpeters",
+     "Heralds",
+     "Trumpet contest"
+    ]
+   ]
+  },
+  {
+   "id": "xh-plato-dialogues",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a dialogue traditionally attributed to Plato",
+   "answers": [
+    [
+     "Republic",
+     "Politeia"
+    ],
+    "Symposium",
+    [
+     "Apology",
+     "Apology of Socrates"
+    ],
+    "Phaedo",
+    "Crito",
+    "Meno",
+    "Timaeus",
+    "Phaedrus",
+    "Laws",
+    "Gorgias",
+    "Protagoras",
+    "Euthyphro",
+    [
+     "Theaetetus",
+     "Theatetus"
+    ],
+    "Parmenides",
+    "Sophist",
+    [
+     "Statesman",
+     "Politicus"
+    ],
+    "Critias",
+    "Philebus",
+    "Cratylus",
+    "Charmides",
+    "Laches",
+    "Lysis",
+    "Ion",
+    "Euthydemus",
+    [
+     "Hippias Major",
+     "Greater Hippias"
+    ],
+    [
+     "Hippias Minor",
+     "Lesser Hippias"
+    ],
+    "Menexenus",
+    [
+     "Alcibiades I",
+     "First Alcibiades",
+     "Alcibiades"
+    ],
+    [
+     "Alcibiades II",
+     "Second Alcibiades"
+    ],
+    [
+     "Clitophon",
+     "Cleitophon"
+    ],
+    "Epinomis",
+    "Hipparchus",
+    "Minos",
+    [
+     "Rival Lovers",
+     "Lovers",
+     "Erastai"
+    ],
+    "Theages"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-surviving-greek-plays",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a surviving play by Aeschylus, Sophocles, Euripides, Aristophanes or Menander",
+   "answers": [
+    [
+     "Oedipus Rex",
+     "Oedipus the King",
+     "Oedipus Tyrannus",
+     "Oedipus Tyrannos"
+    ],
+    "Antigone",
+    "Medea",
+    "Lysistrata",
+    "The Frogs",
+    "The Clouds",
+    "The Birds",
+    "Agamemnon",
+    [
+     "Electra",
+     "Elektra"
+    ],
+    [
+     "The Bacchae",
+     "Bacchantes"
+    ],
+    [
+     "The Trojan Women",
+     "Troades"
+    ],
+    [
+     "The Libation Bearers",
+     "Choephori"
+    ],
+    [
+     "The Eumenides",
+     "The Furies"
+    ],
+    "Prometheus Bound",
+    "The Persians",
+    "Seven Against Thebes",
+    [
+     "The Suppliants",
+     "The Suppliant Women",
+     "Suppliant Maidens"
+    ],
+    [
+     "Ajax",
+     "Aias"
+    ],
+    [
+     "Women of Trachis",
+     "Trachiniae"
+    ],
+    "Philoctetes",
+    "Oedipus at Colonus",
+    "Alcestis",
+    "Hippolytus",
+    [
+     "Children of Heracles",
+     "Heracleidae"
+    ],
+    "Andromache",
+    "Hecuba",
+    [
+     "Heracles",
+     "Herakles",
+     "Hercules Furens",
+     "The Madness of Heracles"
+    ],
+    [
+     "Iphigenia in Tauris",
+     "Iphigenia among the Taurians"
+    ],
+    "Ion",
+    "Helen",
+    [
+     "The Phoenician Women",
+     "Phoenissae"
+    ],
+    "Orestes",
+    [
+     "Iphigenia at Aulis",
+     "Iphigenia in Aulis"
+    ],
+    "Rhesus",
+    "Cyclops",
+    "The Acharnians",
+    "The Knights",
+    "The Wasps",
+    "Peace",
+    [
+     "Thesmophoriazusae",
+     "Women at the Thesmophoria"
+    ],
+    [
+     "Ecclesiazusae",
+     "Assemblywomen"
+    ],
+    [
+     "Plutus",
+     "Wealth",
+     "Ploutos"
+    ],
+    [
+     "Dyskolos",
+     "The Grouch",
+     "The Bad-Tempered Man",
+     "Dyscolus"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-gladiator-types",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a type of Roman gladiator",
+   "answers": [
+    [
+     "Retiarius",
+     "Net fighter",
+     "Retiarii"
+    ],
+    [
+     "Murmillo",
+     "Myrmillo",
+     "Mirmillo"
+    ],
+    "Secutor",
+    [
+     "Thraex",
+     "Thracian",
+     "Threx"
+    ],
+    "Hoplomachus",
+    [
+     "Samnite",
+     "Samnis"
+    ],
+    "Dimachaerus",
+    "Provocator",
+    [
+     "Eques",
+     "Equites"
+    ],
+    "Essedarius",
+    [
+     "Gallus",
+     "Gaul"
+    ],
+    [
+     "Gladiatrix",
+     "Female gladiator"
+    ],
+    [
+     "Bestiarius",
+     "Bestiarii"
+    ],
+    [
+     "Andabata",
+     "Andabatae"
+    ],
+    [
+     "Arbelas",
+     "Arbelai"
+    ],
+    "Bustuarius",
+    "Cestus",
+    "Crupellarius",
+    "Laquearius",
+    "Parmularius",
+    "Rudiarius",
+    "Sagittarius",
+    "Scissor",
+    "Scutarius",
+    [
+     "Veles",
+     "Velites"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-hadrians-wall-forts",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a Roman fort on or near Hadrian's Wall (Latin or modern name)",
+   "answers": [
+    [
+     "Vindolanda",
+     "Chesterholm",
+     "Little Chesters"
+    ],
+    [
+     "Housesteads",
+     "Vercovicium"
+    ],
+    [
+     "Segedunum",
+     "Wallsend"
+    ],
+    [
+     "Birdoswald",
+     "Banna"
+    ],
+    [
+     "Chesters",
+     "Cilurnum",
+     "Walwick Chesters"
+    ],
+    [
+     "Arbeia",
+     "South Shields"
+    ],
+    [
+     "Pons Aelius",
+     "Newcastle",
+     "Newcastle upon Tyne"
+    ],
+    [
+     "Corbridge",
+     "Coria",
+     "Corstopitum"
+    ],
+    [
+     "Benwell",
+     "Condercum"
+    ],
+    [
+     "Rudchester",
+     "Vindobala"
+    ],
+    [
+     "Halton Chesters",
+     "Hunnum",
+     "Onnum"
+    ],
+    [
+     "Carrawburgh",
+     "Procolita",
+     "Brocolitia"
+    ],
+    [
+     "Great Chesters",
+     "Aesica"
+    ],
+    [
+     "Carvoran",
+     "Magnis",
+     "Magna"
+    ],
+    [
+     "Castlesteads",
+     "Camboglanna"
+    ],
+    [
+     "Stanwix",
+     "Uxelodunum",
+     "Petriana"
+    ],
+    [
+     "Burgh by Sands",
+     "Aballava"
+    ],
+    [
+     "Drumburgh",
+     "Coggabata",
+     "Congavata"
+    ],
+    [
+     "Bowness-on-Solway",
+     "Maia",
+     "Mais",
+     "Bowness"
+    ],
+    [
+     "Risingham",
+     "Habitancum"
+    ],
+    [
+     "High Rochester",
+     "Bremenium"
+    ],
+    [
+     "Bewcastle",
+     "Fanum Cocidi"
+    ],
+    [
+     "Chew Green",
+     "Ad Fines"
+    ],
+    [
+     "Maryport",
+     "Alauna"
+    ],
+    [
+     "Whitley Castle",
+     "Epiacum"
+    ],
+    [
+     "Ebchester",
+     "Vindomora"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-iron-age-british-tribes",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an Iron Age tribe or people of Britain",
+   "answers": [
+    "Iceni",
+    "Brigantes",
+    "Catuvellauni",
+    [
+     "Trinovantes",
+     "Trinobantes"
+    ],
+    "Silures",
+    "Ordovices",
+    "Picts",
+    [
+     "Caledonians",
+     "Caledonii",
+     "Caledones"
+    ],
+    "Durotriges",
+    "Dumnonii",
+    "Atrebates",
+    "Belgae",
+    [
+     "Cantiaci",
+     "Cantii"
+    ],
+    [
+     "Regni",
+     "Regnenses",
+     "Regnences"
+    ],
+    "Dobunni",
+    [
+     "Cornovii",
+     "Cornavii"
+    ],
+    [
+     "Corieltauvi",
+     "Coritani"
+    ],
+    [
+     "Parisi",
+     "Parisii"
+    ],
+    "Deceangli",
+    "Demetae",
+    "Carvetii",
+    [
+     "Votadini",
+     "Otadini",
+     "Gododdin"
+    ],
+    "Novantae",
+    "Selgovae",
+    "Damnonii",
+    "Gangani",
+    "Setantii",
+    "Gabrantovices",
+    "Corionototae",
+    "Ancalites",
+    "Bibroci",
+    "Cassi",
+    "Segontiaci",
+    "Cenimagni",
+    "Attacotti",
+    [
+     "Boresti",
+     "Horesti"
+    ],
+    [
+     "Taexali",
+     "Taezali"
+    ],
+    "Vacomagi",
+    "Venicones",
+    "Carnonacae",
+    [
+     "Caereni",
+     "Carini",
+     "Cateni"
+    ],
+    "Creones",
+    [
+     "Decantae",
+     "Ducantae"
+    ],
+    "Epidii",
+    "Lugi",
+    [
+     "Maeatae",
+     "Maetae",
+     "Miathi"
+    ],
+    "Smertae"
+   ]
+  },
+  {
+   "id": "xh-caesar-assassins",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name one of the conspirators who assassinated Julius Caesar",
+   "answers": [
+    [
+     "Marcus Junius Brutus",
+     "Brutus",
+     "Marcus Brutus"
+    ],
+    [
+     "Gaius Cassius Longinus",
+     "Cassius",
+     "Cassius Longinus",
+     "Gaius Cassius"
+    ],
+    [
+     "Publius Servilius Casca",
+     "Casca",
+     "Publius Casca"
+    ],
+    [
+     "Decimus Junius Brutus Albinus",
+     "Decimus Brutus",
+     "Decimus",
+     "Brutus Albinus",
+     "Decimus Brutus Albinus"
+    ],
+    [
+     "Gaius Trebonius",
+     "Trebonius"
+    ],
+    [
+     "Lucius Tillius Cimber",
+     "Tillius Cimber",
+     "Cimber",
+     "Metellus Cimber"
+    ],
+    [
+     "Gaius Servilius Casca",
+     "Servilius Casca",
+     "Gaius Casca"
+    ],
+    [
+     "Servius Sulpicius Galba",
+     "Galba"
+    ],
+    [
+     "Pontius Aquila",
+     "Aquila"
+    ],
+    [
+     "Quintus Ligarius",
+     "Ligarius"
+    ],
+    [
+     "Lucius Minucius Basilus",
+     "Basilus",
+     "Minucius Basilus"
+    ],
+    [
+     "Gaius Cassius Parmensis",
+     "Cassius Parmensis",
+     "Parmensis"
+    ],
+    "Caecilius",
+    "Bucilianus",
+    [
+     "Rubrius Ruga",
+     "Ruga"
+    ],
+    [
+     "Marcus Spurius",
+     "Spurius"
+    ],
+    [
+     "Publius Sextius Naso",
+     "Sextius Naso",
+     "Naso"
+    ],
+    "Petronius",
+    [
+     "Publius Turullius",
+     "Turullius"
+    ],
+    [
+     "Pacuvius Labeo",
+     "Labeo"
+    ]
+   ]
+  },
+  {
+   "id": "xh-aztec-inca-rulers",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a ruler of the Aztecs (Tenochtitlan) or a Sapa Inca",
+   "answers": [
+    [
+     "Moctezuma",
+     "Montezuma",
+     "Motecuhzoma",
+     "Moctezuma II",
+     "Montezuma II",
+     "Moctezuma I",
+     "Moctezuma Xocoyotzin"
+    ],
+    [
+     "Atahualpa",
+     "Atawallpa",
+     "Atabalipa"
+    ],
+    [
+     "Pachacuti",
+     "Pachacutec",
+     "Pachakutiq"
+    ],
+    [
+     "Huayna Capac",
+     "Wayna Qhapaq",
+     "Huayna Capac Inca"
+    ],
+    [
+     "Huascar",
+     "Waskar"
+    ],
+    [
+     "Cuauhtemoc",
+     "Guatimozin"
+    ],
+    [
+     "Manco Capac",
+     "Manco Qhapaq"
+    ],
+    [
+     "Manco Inca Yupanqui",
+     "Manco Inca",
+     "Manco II"
+    ],
+    [
+     "Tupac Amaru",
+     "Tupac Amaru I",
+     "Thupa Amaru"
+    ],
+    [
+     "Tupac Inca Yupanqui",
+     "Topa Inca Yupanqui",
+     "Topa Inca",
+     "Tupac Yupanqui"
+    ],
+    [
+     "Viracocha Inca",
+     "Viracocha",
+     "Wiraqucha"
+    ],
+    "Sinchi Roca",
+    "Lloque Yupanqui",
+    "Mayta Capac",
+    "Capac Yupanqui",
+    "Inca Roca",
+    [
+     "Yahuar Huacac",
+     "Yawar Waqaq"
+    ],
+    [
+     "Tupac Huallpa",
+     "Tupac Hualpa",
+     "Toparpa"
+    ],
+    [
+     "Sayri Tupac",
+     "Sayri Tupaq"
+    ],
+    [
+     "Titu Cusi",
+     "Titu Cusi Yupanqui"
+    ],
+    "Acamapichtli",
+    "Huitzilihuitl",
+    "Chimalpopoca",
+    [
+     "Itzcoatl",
+     "Itzcohuatl"
+    ],
+    "Axayacatl",
+    "Tizoc",
+    "Ahuitzotl",
+    "Cuitlahuac"
+   ]
+  },
+  {
+   "id": "xh-greco-persian-alexander-battles",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a battle or siege of the Greco-Persian Wars or of Alexander the Great",
+   "answers": [
+    [
+     "Thermopylae",
+     "Battle of Thermopylae"
+    ],
+    [
+     "Marathon",
+     "Battle of Marathon"
+    ],
+    [
+     "Salamis",
+     "Battle of Salamis"
+    ],
+    [
+     "Plataea",
+     "Plataia",
+     "Battle of Plataea"
+    ],
+    [
+     "Gaugamela",
+     "Arbela",
+     "Battle of Gaugamela"
+    ],
+    [
+     "Issus",
+     "Battle of Issus"
+    ],
+    [
+     "Granicus",
+     "Battle of Granicus"
+    ],
+    [
+     "Tyre",
+     "Battle of Tyre"
+    ],
+    [
+     "Artemisium",
+     "Battle of Artemisium"
+    ],
+    [
+     "Mycale",
+     "Battle of Mycale"
+    ],
+    [
+     "Hydaspes",
+     "Jhelum",
+     "Battle of Hydaspes"
+    ],
+    [
+     "Thebes",
+     "Sack of Thebes",
+     "Battle of Thebes"
+    ],
+    [
+     "Halicarnassus",
+     "Battle of Halicarnassus"
+    ],
+    [
+     "Gaza",
+     "Battle of Gaza"
+    ],
+    [
+     "Miletus",
+     "Battle of Miletus"
+    ],
+    [
+     "Persian Gate",
+     "Persian Gates",
+     "Battle of Persian Gate"
+    ],
+    [
+     "Uxian Defile",
+     "Battle of Uxian Defile"
+    ],
+    [
+     "Cyropolis",
+     "Battle of Cyropolis"
+    ],
+    [
+     "Jaxartes",
+     "Battle of Jaxartes"
+    ],
+    [
+     "Gabai",
+     "Battle of Gabai"
+    ],
+    [
+     "Sogdian Rock",
+     "Battle of Sogdian Rock"
+    ],
+    [
+     "Aornos",
+     "Battle of Aornos"
+    ],
+    [
+     "Lade",
+     "Battle of Lade"
+    ],
+    [
+     "Eurymedon",
+     "Battle of Eurymedon"
+    ],
+    [
+     "Ephesus",
+     "Battle of Ephesus"
+    ],
+    [
+     "Sardis",
+     "Battle of Sardis"
+    ],
+    [
+     "Naxos",
+     "Battle of Naxos"
+    ],
+    [
+     "Eretria",
+     "Battle of Eretria"
+    ],
+    [
+     "Salamis in Cyprus",
+     "Battle of Salamis in Cyprus"
+    ]
+   ]
+  },
+  {
+   "id": "xh-punic-wars-battles",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a battle or siege of the Punic Wars",
+   "answers": [
+    [
+     "Cannae",
+     "Battle of Cannae"
+    ],
+    [
+     "Zama",
+     "Battle of Zama"
+    ],
+    [
+     "Lake Trasimene",
+     "Battle of Lake Trasimene"
+    ],
+    [
+     "Trebia",
+     "Battle of Trebia"
+    ],
+    [
+     "Carthage",
+     "Battle of Carthage"
+    ],
+    [
+     "Metaurus",
+     "Battle of Metaurus"
+    ],
+    [
+     "Saguntum",
+     "Battle of Saguntum"
+    ],
+    [
+     "Ilipa",
+     "Battle of Ilipa"
+    ],
+    [
+     "Mylae",
+     "Battle of Mylae"
+    ],
+    [
+     "Cape Ecnomus",
+     "Battle of Cape Ecnomus"
+    ],
+    [
+     "Aegates Islands",
+     "Battle of Aegates Islands"
+    ],
+    [
+     "Syracuse",
+     "Battle of Syracuse"
+    ],
+    [
+     "Drepana",
+     "Battle of Drepana"
+    ],
+    [
+     "Messana",
+     "Battle of Messana"
+    ],
+    [
+     "Agrigentum",
+     "Battle of Agrigentum"
+    ],
+    [
+     "Adys",
+     "Battle of Adys"
+    ],
+    [
+     "Bagradas",
+     "Battle of Bagradas",
+     "Bagradas River",
+     "Tunis"
+    ],
+    [
+     "Panormus",
+     "Battle of Panormus"
+    ],
+    [
+     "Lilybaeum",
+     "Battle of Lilybaeum"
+    ],
+    [
+     "Ticinus",
+     "Battle of Ticinus"
+    ],
+    [
+     "Nola",
+     "Battle of Nola"
+    ],
+    [
+     "Beneventum",
+     "Battle of Beneventum"
+    ],
+    [
+     "Tarentum",
+     "Battle of Tarentum"
+    ],
+    [
+     "Capua",
+     "Battle of Capua"
+    ],
+    [
+     "New Carthage",
+     "Battle of New Carthage",
+     "Battle of Cartagena"
+    ],
+    [
+     "Baecula",
+     "Battle of Baecula"
+    ],
+    [
+     "Utica",
+     "Battle of Utica"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-roman-roads-britain",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a Roman road in Britain",
+   "answers": [
+    "Watling Street",
+    [
+     "Fosse Way",
+     "Foss Way",
+     "The Fosse"
+    ],
+    "Ermine Street",
+    "Dere Street",
+    "Stane Street",
+    "Akeman Street",
+    "Stanegate",
+    "Peddars Way",
+    [
+     "Icknield Street",
+     "Ryknild Street"
+    ],
+    [
+     "Ermin Way",
+     "Ermin Street"
+    ],
+    "Sarn Helen",
+    "Devil's Causeway",
+    "Pye Road",
+    "King Street",
+    "Maiden Way",
+    [
+     "Port Way",
+     "Portway"
+    ],
+    "Stone Street",
+    "Ackling Dyke",
+    "Fen Causeway",
+    "Wade's Causeway"
+   ]
+  },
+  {
+   "id": "xh-roman-britain-latin-names",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a town or fort in Roman Britain by its Latin name (full or short form)",
+   "answers": [
+    "Londinium",
+    "Eboracum",
+    "Aquae Sulis",
+    [
+     "Deva Victrix",
+     "Deva"
+    ],
+    "Camulodunum",
+    "Verulamium",
+    [
+     "Lindum Colonia",
+     "Lindum"
+    ],
+    [
+     "Glevum Colonia",
+     "Glevum"
+    ],
+    "Vindolanda",
+    "Isca Dumnoniorum",
+    [
+     "Durovernum Cantiacorum",
+     "Durovernum"
+    ],
+    "Venta Belgarum",
+    [
+     "Corinium Dobunnorum",
+     "Corinium"
+    ],
+    [
+     "Ratae Corieltauvorum",
+     "Ratae"
+    ],
+    "Luguvalium",
+    [
+     "Mamucium",
+     "Mantio"
+    ],
+    [
+     "Viroconium Cornoviorum",
+     "Viroconium"
+    ],
+    "Segedunum",
+    "Pons Aelius",
+    "Dubris",
+    "Arbeia",
+    "Banna",
+    "Branodunum",
+    [
+     "Calleva Atrebatum",
+     "Calleva"
+    ],
+    "Cataractonium",
+    "Cilurnum",
+    "Clausentum",
+    "Danum",
+    "Derventio Brigantum",
+    "Durnovaria",
+    "Isca Augusta",
+    [
+     "Isurium",
+     "Isubrigantum"
+    ],
+    "Lindinis",
+    "Magnis",
+    "Noviomagus Reginorum",
+    "Olicana",
+    "Portus Lemanis",
+    "Regulbium",
+    "Rutupiae",
+    "Segontium",
+    [
+     "Venta Icenorum",
+     "Icinos"
+    ],
+    "Venta Silurum",
+    [
+     "Vercovicium",
+     "Borcovicium"
+    ],
+    "Vinovia"
+   ]
+  },
+  {
+   "id": "xh-ancient-civilisations",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient civilisation or empire",
+   "answers": [
+    [
+     "Egypt",
+     "Ancient Egypt",
+     "Egyptians",
+     "Egyptian"
+    ],
+    [
+     "Rome",
+     "Romans",
+     "Roman Empire",
+     "Ancient Rome",
+     "Roman"
+    ],
+    [
+     "Greece",
+     "Ancient Greece",
+     "Greeks",
+     "Greek",
+     "Hellenic"
+    ],
+    [
+     "Persia",
+     "Persians",
+     "Persian Empire",
+     "Achaemenid Empire",
+     "Achaemenids",
+     "Persian"
+    ],
+    [
+     "Babylon",
+     "Babylonians",
+     "Babylonia",
+     "Babylonian Empire",
+     "Babylonian"
+    ],
+    [
+     "Assyria",
+     "Assyrians",
+     "Assyrian Empire",
+     "Assyrian"
+    ],
+    [
+     "Sumer",
+     "Sumerians",
+     "Sumerian"
+    ],
+    [
+     "Aztecs",
+     "Aztec",
+     "Aztec Empire"
+    ],
+    [
+     "Inca",
+     "Incas",
+     "Inca Empire",
+     "Incan"
+    ],
+    [
+     "Maya",
+     "Mayans",
+     "Mayan"
+    ],
+    [
+     "Carthage",
+     "Carthaginians",
+     "Carthaginian Empire"
+    ],
+    [
+     "Minoans",
+     "Minoan",
+     "Minoan Crete"
+    ],
+    [
+     "Mycenaeans",
+     "Mycenaean",
+     "Mycenae"
+    ],
+    [
+     "Hittites",
+     "Hittite",
+     "Hittite Empire"
+    ],
+    [
+     "Phoenicians",
+     "Phoenicia",
+     "Phoenician"
+    ],
+    [
+     "Etruscans",
+     "Etruria",
+     "Etruscan"
+    ],
+    [
+     "Akkad",
+     "Akkadians",
+     "Akkadian Empire",
+     "Akkadian"
+    ],
+    [
+     "Indus Valley",
+     "Indus Valley Civilisation",
+     "Harappa",
+     "Harappan",
+     "Indus Valley Civilization"
+    ],
+    [
+     "Olmec",
+     "Olmecs"
+    ],
+    [
+     "Celts",
+     "Celtic",
+     "Celt"
+    ],
+    [
+     "Nubia",
+     "Nubians",
+     "Kush",
+     "Kingdom of Kush",
+     "Kushites"
+    ],
+    [
+     "Parthia",
+     "Parthians",
+     "Parthian Empire"
+    ],
+    [
+     "Scythians",
+     "Scythia",
+     "Scythian"
+    ],
+    [
+     "Macedon",
+     "Macedonia",
+     "Macedonians",
+     "Macedonian Empire"
+    ],
+    [
+     "Mauryan Empire",
+     "Maurya",
+     "Mauryans"
+    ],
+    [
+     "Elam",
+     "Elamites"
+    ],
+    [
+     "Lydia",
+     "Lydians"
+    ],
+    [
+     "Medes",
+     "Median Empire",
+     "Media"
+    ],
+    "Teotihuacan",
+    [
+     "Toltec",
+     "Toltecs"
+    ],
+    [
+     "Zapotec",
+     "Zapotecs"
+    ],
+    [
+     "Nazca",
+     "Nasca"
+    ],
+    [
+     "Moche",
+     "Mochica"
+    ],
+    "Chavin",
+    [
+     "Urartu",
+     "Urartians"
+    ],
+    [
+     "Seleucid Empire",
+     "Seleucids"
+    ],
+    [
+     "Ptolemaic Egypt",
+     "Ptolemaic Kingdom",
+     "Ptolemies"
+    ]
+   ]
+  },
+  {
+   "id": "xh-greek-city-states",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient Greek city or city-state",
+   "answers": [
+    [
+     "Athens",
+     "Athenian"
+    ],
+    [
+     "Sparta",
+     "Lacedaemon",
+     "Spartan"
+    ],
+    "Corinth",
+    "Thebes",
+    "Argos",
+    "Delphi",
+    "Olympia",
+    "Mycenae",
+    "Syracuse",
+    "Miletus",
+    "Ephesus",
+    "Rhodes",
+    [
+     "Knossos",
+     "Cnossus"
+    ],
+    "Megara",
+    "Eleusis",
+    "Pylos",
+    "Tiryns",
+    "Halicarnassus",
+    "Smyrna",
+    "Byzantium",
+    "Chalcis",
+    "Eretria",
+    "Aegina",
+    "Delos",
+    "Epidaurus",
+    "Cyrene",
+    "Samos",
+    "Chios",
+    "Mytilene",
+    "Elis",
+    "Mantinea",
+    "Plataea",
+    "Pella",
+    "Amphipolis",
+    "Olynthus",
+    [
+     "Marseille",
+     "Massalia",
+     "Massilia"
+    ],
+    [
+     "Taras",
+     "Tarentum",
+     "Taranto"
+    ],
+    "Sybaris",
+    [
+     "Croton",
+     "Kroton",
+     "Crotone"
+    ],
+    "Naxos",
+    [
+     "Pergamon",
+     "Pergamum"
+    ],
+    "Colophon",
+    "Phocaea",
+    "Megalopolis",
+    "Messene",
+    [
+     "Thessalonica",
+     "Thessaloniki"
+    ],
+    [
+     "Corcyra",
+     "Corfu"
+    ],
+    "Potidaea",
+    "Abdera"
+   ]
+  },
+  {
+   "id": "xh-greek-mathematicians",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient Greek mathematician or astronomer",
+   "answers": [
+    "Euclid",
+    "Pythagoras",
+    "Archimedes",
+    "Eratosthenes",
+    [
+     "Thales",
+     "Thales of Miletus"
+    ],
+    [
+     "Ptolemy",
+     "Claudius Ptolemy",
+     "Ptolemaeus"
+    ],
+    "Hipparchus",
+    [
+     "Apollonius of Perga",
+     "Apollonius"
+    ],
+    [
+     "Hero of Alexandria",
+     "Heron",
+     "Hero",
+     "Heron of Alexandria"
+    ],
+    "Diophantus",
+    [
+     "Pappus",
+     "Pappus of Alexandria"
+    ],
+    "Hypatia",
+    [
+     "Eudoxus",
+     "Eudoxus of Cnidus"
+    ],
+    [
+     "Zeno of Elea",
+     "Zeno"
+    ],
+    "Archytas",
+    [
+     "Aristarchus",
+     "Aristarchus of Samos"
+    ],
+    "Theaetetus",
+    [
+     "Menelaus",
+     "Menelaus of Alexandria"
+    ],
+    "Nicomachus",
+    "Hippocrates of Chios",
+    [
+     "Theon of Alexandria",
+     "Theon"
+    ],
+    "Proclus",
+    "Anaximander",
+    "Autolycus",
+    [
+     "Conon of Samos",
+     "Conon"
+    ],
+    "Hypsicles",
+    "Geminus",
+    "Philolaus",
+    "Posidonius",
+    [
+     "Seleucus of Seleucia",
+     "Seleucus"
+    ],
+    "Zenodorus",
+    "Eutocius"
+   ]
+  },
+  {
+   "id": "xh-greek-historians",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient historian or geographer who wrote in Greek",
+   "answers": [
+    "Herodotus",
+    "Thucydides",
+    "Xenophon",
+    "Polybius",
+    "Plutarch",
+    "Arrian",
+    [
+     "Diodorus Siculus",
+     "Diodorus"
+    ],
+    "Strabo",
+    "Pausanias",
+    [
+     "Appian",
+     "Appian of Alexandria"
+    ],
+    [
+     "Cassius Dio",
+     "Dio Cassius",
+     "Dio"
+    ],
+    [
+     "Josephus",
+     "Flavius Josephus"
+    ],
+    "Dionysius of Halicarnassus",
+    "Ctesias",
+    "Ephorus",
+    "Theopompus",
+    [
+     "Timaeus",
+     "Timaeus of Tauromenium"
+    ],
+    "Callisthenes",
+    "Herodian",
+    "Eusebius",
+    [
+     "Hecataeus",
+     "Hecataeus of Miletus"
+    ],
+    "Megasthenes",
+    "Pytheas",
+    "Zosimus",
+    "Agathias",
+    "Procopius"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-roman-writers",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a Roman writer or poet (not counting emperors)",
+   "answers": [
+    [
+     "Virgil",
+     "Vergil",
+     "Publius Vergilius Maro"
+    ],
+    [
+     "Ovid",
+     "Publius Ovidius Naso"
+    ],
+    [
+     "Horace",
+     "Quintus Horatius Flaccus"
+    ],
+    [
+     "Cicero",
+     "Marcus Tullius Cicero",
+     "Tully"
+    ],
+    [
+     "Seneca",
+     "Seneca the Younger",
+     "Lucius Annaeus Seneca"
+    ],
+    [
+     "Livy",
+     "Titus Livius"
+    ],
+    [
+     "Tacitus",
+     "Publius Cornelius Tacitus"
+    ],
+    [
+     "Suetonius",
+     "Gaius Suetonius Tranquillus"
+    ],
+    [
+     "Pliny",
+     "Pliny the Elder",
+     "Pliny the Younger"
+    ],
+    "Juvenal",
+    "Martial",
+    "Catullus",
+    "Lucretius",
+    "Plautus",
+    "Terence",
+    "Sallust",
+    [
+     "Julius Caesar",
+     "Caesar",
+     "Gaius Julius Caesar"
+    ],
+    "Petronius",
+    "Apuleius",
+    "Lucan",
+    "Statius",
+    "Propertius",
+    "Tibullus",
+    "Quintilian",
+    [
+     "Varro",
+     "Marcus Terentius Varro"
+    ],
+    [
+     "Cato the Elder",
+     "Cato",
+     "Marcus Porcius Cato"
+    ],
+    "Ennius",
+    "Valerius Maximus",
+    "Ammianus Marcellinus",
+    "Vitruvius",
+    "Columella",
+    "Persius",
+    "Ausonius",
+    "Boethius",
+    "Phaedrus",
+    [
+     "Aulus Gellius",
+     "Gellius"
+    ],
+    "Frontinus",
+    [
+     "Nepos",
+     "Cornelius Nepos"
+    ],
+    "Claudian",
+    "Lucilius",
+    "Naevius",
+    "Pacuvius",
+    "Silius Italicus",
+    "Valerius Flaccus"
+   ]
+  },
+  {
+   "id": "xh-roman-army-ranks",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a rank or role in the Roman army",
+   "answers": [
+    [
+     "Legionary",
+     "Legionnaire",
+     "Miles",
+     "Soldier",
+     "Legionary soldier"
+    ],
+    [
+     "Centurion",
+     "Centurio"
+    ],
+    [
+     "Legate",
+     "Legatus",
+     "Legatus legionis"
+    ],
+    [
+     "Tribune",
+     "Tribunus",
+     "Military tribune",
+     "Tribunus militum"
+    ],
+    "Optio",
+    [
+     "Decurion",
+     "Decurio"
+    ],
+    [
+     "Prefect",
+     "Praefectus"
+    ],
+    [
+     "Signifer",
+     "Standard bearer"
+    ],
+    [
+     "Aquilifer",
+     "Eagle bearer"
+    ],
+    "Tesserarius",
+    [
+     "Primus Pilus",
+     "Primipilus",
+     "Chief centurion"
+    ],
+    [
+     "Cornicen",
+     "Horn blower"
+    ],
+    "Imaginifer",
+    [
+     "Camp Prefect",
+     "Praefectus castrorum"
+    ],
+    [
+     "Auxiliary",
+     "Auxilia",
+     "Auxiliaries"
+    ],
+    "Evocatus",
+    "Immunis",
+    "Beneficiarius",
+    "Duplicarius",
+    "Vexillarius",
+    [
+     "Medicus",
+     "Army doctor"
+    ],
+    "Gregarius",
+    "Actarius",
+    "Cornicularius",
+    [
+     "Praetorian",
+     "Praetorian Guard",
+     "Praetorian prefect"
+    ],
+    "Hastatus",
+    "Princeps",
+    [
+     "Triarius",
+     "Triarii"
+    ],
+    [
+     "Velites",
+     "Veles"
+    ],
+    "Quaestor"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-egyptian-queens",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a queen of ancient Egypt (consort or ruler)",
+   "answers": [
+    [
+     "Cleopatra",
+     "Cleopatra VII"
+    ],
+    "Nefertiti",
+    "Hatshepsut",
+    "Nefertari",
+    [
+     "Ankhesenamun",
+     "Ankhesenamen",
+     "Ankhesenpaaten"
+    ],
+    [
+     "Tiye",
+     "Tiy"
+    ],
+    [
+     "Sobekneferu",
+     "Neferusobek"
+    ],
+    [
+     "Twosret",
+     "Tausret",
+     "Tawosret"
+    ],
+    [
+     "Arsinoe",
+     "Arsinoe II",
+     "Arsinoe IV"
+    ],
+    [
+     "Berenice",
+     "Berenice IV",
+     "Berenice II"
+    ],
+    [
+     "Ahhotep",
+     "Ahhotep I"
+    ],
+    "Ahmose-Nefertari",
+    "Meritaten",
+    "Kiya",
+    [
+     "Hetepheres",
+     "Hetepheres I"
+    ],
+    [
+     "Khentkaus",
+     "Khentkaus I"
+    ],
+    [
+     "Nitocris",
+     "Neithiqerty"
+    ],
+    "Merneith",
+    [
+     "Isetnofret",
+     "Isis-Nofret"
+    ],
+    [
+     "Mutnodjmet",
+     "Mutnedjmet"
+    ],
+    "Tuya",
+    "Meritamun"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-ww1-battles",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a battle, offensive or naval action of the First World War",
+   "answers": [
+    [
+     "Battle of the Somme",
+     "Somme",
+     "Battle of Somme",
+     "Second Battle of the Somme"
+    ],
+    [
+     "Battle of Ypres",
+     "Ypres",
+     "Fifth Battle of Ypres",
+     "First Battle of Ypres",
+     "Fourth Battle of Ypres",
+     "Second Battle of Ypres",
+     "Third Battle of Ypres"
+    ],
+    [
+     "Battle of Passchendaele",
+     "Passchendaele",
+     "First Battle of Passchendaele",
+     "Second Battle of Passchendaele"
+    ],
+    [
+     "Battle of Verdun",
+     "Verdun"
+    ],
+    [
+     "Gallipoli",
+     "Gallipoli Campaign",
+     "Dardanelles",
+     "Dardanelles Campaign",
+     "Battle of Gallipoli"
+    ],
+    [
+     "Battle of the Marne",
+     "Marne",
+     "Battle of Marne",
+     "First Battle of the Marne",
+     "Second Battle of the Marne"
+    ],
+    [
+     "Battle of Jutland",
+     "Jutland"
+    ],
+    [
+     "Battle of Mons",
+     "Mons",
+     "Second Battle of Mons"
+    ],
+    [
+     "Battle of Cambrai",
+     "Cambrai",
+     "Battle of Cambrai (1917)",
+     "Battle of Cambrai (1918)"
+    ],
+    [
+     "Battle of Vimy Ridge",
+     "Vimy Ridge"
+    ],
+    [
+     "Battle of Arras",
+     "Arras",
+     "Battle of Arras (1914)",
+     "Battle of Arras (1917)"
+    ],
+    [
+     "Battle of Loos",
+     "Loos"
+    ],
+    [
+     "Battle of Messines",
+     "Messines",
+     "Battle of Messines (1914)",
+     "Battle of Messines (1917)",
+     "Battle of Messines (1918)"
+    ],
+    [
+     "Battle of Amiens",
+     "Amiens",
+     "Battle of Amiens (1918)"
+    ],
+    [
+     "Battle of Tannenberg",
+     "Tannenberg",
+     "Battle of Tannenberg (1914)"
+    ],
+    [
+     "Battle of Caporetto",
+     "Caporetto"
+    ],
+    [
+     "Battle of Neuve Chapelle",
+     "Neuve Chapelle"
+    ],
+    [
+     "Battle of the Isonzo",
+     "Isonzo",
+     "Battle of Isonzo",
+     "Battles of the Isonzo",
+     "Eighth Battle of the Isonzo",
+     "Eleventh Battle of the Isonzo",
+     "Fifth Battle of the Isonzo",
+     "First Battle of the Isonzo",
+     "Fourth Battle of the Isonzo",
+     "Ninth Battle of the Isonzo",
+     "Second Battle of the Isonzo",
+     "Seventh Battle of the Isonzo",
+     "Sixth Battle of the Isonzo",
+     "Tenth Battle of the Isonzo",
+     "Third Battle of the Isonzo",
+     "Twelfth Battle of the Isonzo"
+    ],
+    [
+     "Battle of the Aisne",
+     "Aisne",
+     "Battle of Aisne",
+     "First Battle of the Aisne",
+     "Second Battle of the Aisne",
+     "Third Battle of the Aisne"
+    ],
+    [
+     "Hundred Days Offensive",
+     "Hundred Days"
+    ],
+    [
+     "Operation Michael",
+     "Spring Offensive",
+     "German Spring Offensive",
+     "Kaiserschlacht"
+    ],
+    [
+     "Battle of Kut",
+     "Kut",
+     "Second Battle of Kut"
+    ],
+    [
+     "Battle of Beersheba",
+     "Beersheba",
+     "Battle of Beersheba (1917)"
+    ],
+    [
+     "Battle of Megiddo",
+     "Megiddo",
+     "Battle of Megiddo (1918)"
+    ],
+    [
+     "Battle of Belleau Wood",
+     "Belleau Wood"
+    ],
+    [
+     "Battle of the Falkland Islands",
+     "Falkland Islands",
+     "Battle of Falkland Islands"
+    ],
+    [
+     "Battle of Dogger Bank",
+     "Dogger Bank",
+     "Battle of Dogger Bank (1915)"
+    ],
+    [
+     "Battle of Heligoland Bight",
+     "Heligoland Bight",
+     "Battle of Heligoland Bight (1914)",
+     "Second Battle of Heligoland Bight"
+    ],
+    [
+     "Battle of Coronel",
+     "Coronel"
+    ],
+    "Zeebrugge Raid",
+    [
+     "Battle of the Masurian Lakes",
+     "Masurian Lakes",
+     "Battle of Masurian Lakes",
+     "First Battle of the Masurian Lakes",
+     "Second Battle of the Masurian Lakes"
+    ],
+    "Brusilov Offensive",
+    [
+     "Battle of Aqaba",
+     "Aqaba"
+    ],
+    [
+     "Battle of Artois",
+     "Artois",
+     "Second Battle of Artois"
+    ],
+    [
+     "Battle of Asiago",
+     "Asiago"
+    ],
+    [
+     "Battle of Aubers",
+     "Aubers"
+    ],
+    [
+     "Battle of Baku",
+     "Baku"
+    ],
+    [
+     "Battle of Basra",
+     "Basra",
+     "Battle of Basra (1914)"
+    ],
+    [
+     "Battle of Bazentin Ridge",
+     "Bazentin Ridge"
+    ],
+    [
+     "Battle of Broodseinde",
+     "Broodseinde"
+    ],
+    [
+     "Battle of Cantigny",
+     "Cantigny"
+    ],
+    [
+     "Battle of Cer",
+     "Cer"
+    ],
+    [
+     "Battle of Champagne",
+     "Champagne",
+     "First Battle of Champagne",
+     "Second Battle of Champagne",
+     "Third Battle of Champagne"
+    ],
+    [
+     "Battle of Charleroi",
+     "Charleroi"
+    ],
+    [
+     "Battle of Chunuk Bair",
+     "Chunuk Bair"
+    ],
+    [
+     "Battle of Château-Thierry",
+     "Château-Thierry",
+     "Battle of Château-Thierry (1918)"
+    ],
+    [
+     "Battle of Ctesiphon",
+     "Ctesiphon",
+     "Battle of Ctesiphon (1915)"
+    ],
+    [
+     "Battle of Delville Wood",
+     "Delville Wood"
+    ],
+    [
+     "Battle of Doiran",
+     "Doiran",
+     "Battle of Doiran (1916)",
+     "Battle of Doiran (1917)",
+     "Battle of Doiran (1918)"
+    ],
+    [
+     "Battle of Festubert",
+     "Festubert"
+    ],
+    [
+     "Battle of Flers–Courcelette",
+     "Flers–Courcelette"
+    ],
+    [
+     "Battle of Fromelles",
+     "Fromelles"
+    ],
+    [
+     "Battle of Galicia",
+     "Galicia"
+    ],
+    [
+     "Battle of Gaza",
+     "Gaza",
+     "First Battle of Gaza",
+     "Second Battle of Gaza",
+     "Third Battle of Gaza"
+    ],
+    [
+     "Battle of Gheluvelt",
+     "Gheluvelt"
+    ],
+    [
+     "Battle of Guillemont",
+     "Guillemont"
+    ],
+    [
+     "Battle of Gumbinnen",
+     "Gumbinnen"
+    ],
+    [
+     "Battle of Hill 60",
+     "Hill 60",
+     "Battle of Hill 60 (Gallipoli)"
+    ],
+    [
+     "Battle of Gorlice-Tarnow",
+     "Gorlice-Tarnow",
+     "Gorlice",
+     "Tarnow",
+     "Gorlice-Tarnow Offensive"
+    ],
+    [
+     "Battle of Lemberg",
+     "Lemberg",
+     "Lviv"
+    ],
+    [
+     "Battle of Tanga",
+     "Tanga"
+    ],
+    [
+     "Siege of Tsingtao",
+     "Tsingtao",
+     "Qingdao",
+     "Battle of Tsingtao"
+    ],
+    [
+     "Battle of Vittorio Veneto",
+     "Vittorio Veneto"
+    ],
+    [
+     "Battle of the Piave",
+     "Piave",
+     "Battle of Piave River"
+    ],
+    [
+     "Battle of the Lys",
+     "Lys",
+     "Battle of Lys"
+    ],
+    [
+     "Battle of Hamel",
+     "Hamel"
+    ],
+    [
+     "Battle of Suvla Bay",
+     "Suvla Bay",
+     "Suvla"
+    ],
+    [
+     "Battle of Lone Pine",
+     "Lone Pine"
+    ],
+    [
+     "Battle of Cape Helles",
+     "Cape Helles",
+     "Helles"
+    ],
+    [
+     "Battle of Sari Bair",
+     "Sari Bair"
+    ],
+    [
+     "Meuse-Argonne Offensive",
+     "Argonne",
+     "Meuse Argonne",
+     "Battle of the Argonne"
+    ],
+    [
+     "Battle of Saint-Mihiel",
+     "St Mihiel",
+     "Saint Mihiel"
+    ],
+    [
+     "Battle of the St Quentin Canal",
+     "St Quentin Canal",
+     "Hindenburg Line",
+     "Breaking the Hindenburg Line"
+    ],
+    [
+     "Battle of Lake Naroch",
+     "Lake Naroch",
+     "Naroch"
+    ],
+    [
+     "Battle of Riga",
+     "Riga"
+    ],
+    [
+     "Capture of Jerusalem",
+     "Jerusalem",
+     "Battle of Jerusalem"
+    ]
+   ]
+  },
+  {
+   "id": "xh-ww2-battles",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a battle, siege or notable attack of the Second World War",
+   "answers": [
+    [
+     "Battle of Britain",
+     "Britain"
+    ],
+    [
+     "Battle of Stalingrad",
+     "Stalingrad"
+    ],
+    [
+     "Normandy landings",
+     "D-Day",
+     "Battle of Normandy",
+     "Normandy",
+     "Normandy invasion"
+    ],
+    [
+     "Battle of El Alamein",
+     "El Alamein",
+     "First Battle of El Alamein",
+     "Second Battle of El Alamein"
+    ],
+    [
+     "Battle of the Bulge",
+     "Bulge",
+     "Battle of Bulge",
+     "Ardennes Offensive",
+     "Ardennes"
+    ],
+    [
+     "Battle of Midway",
+     "Midway"
+    ],
+    [
+     "Attack on Pearl Harbor",
+     "Attack of Pearl Harbor",
+     "Pearl Harbor",
+     "Battle of Pearl Harbor",
+     "Pearl Harbour"
+    ],
+    [
+     "Battle of Dunkirk",
+     "Dunkirk",
+     "Dunkirk evacuation"
+    ],
+    [
+     "Battle of Arnhem",
+     "Arnhem",
+     "Market Garden",
+     "Operation Market Garden",
+     "A Bridge Too Far"
+    ],
+    [
+     "Battle of Kursk",
+     "Kursk"
+    ],
+    [
+     "Battle of Iwo Jima",
+     "Iwo Jima"
+    ],
+    [
+     "Battle of Okinawa",
+     "Okinawa"
+    ],
+    [
+     "Battle of Monte Cassino",
+     "Monte Cassino",
+     "Cassino"
+    ],
+    [
+     "Battle of the Atlantic",
+     "Atlantic",
+     "Battle of Atlantic"
+    ],
+    [
+     "Battle of Berlin",
+     "Berlin",
+     "Battle of Berlin (RAF campaign)",
+     "Battle of Berlin (air)"
+    ],
+    [
+     "Battle of Anzio",
+     "Anzio"
+    ],
+    [
+     "Battle of Crete",
+     "Crete"
+    ],
+    [
+     "Battle of Singapore",
+     "Singapore"
+    ],
+    [
+     "Siege of Leningrad",
+     "Leningrad",
+     "Battle of Leningrad"
+    ],
+    [
+     "Battle of Moscow",
+     "Moscow"
+    ],
+    [
+     "Battle of the Coral Sea",
+     "Coral Sea",
+     "Battle of Coral Sea"
+    ],
+    [
+     "Battle of Guadalcanal",
+     "Guadalcanal",
+     "Naval Battle of Guadalcanal"
+    ],
+    [
+     "Battle of Kohima",
+     "Kohima"
+    ],
+    [
+     "Battle of Imphal",
+     "Imphal"
+    ],
+    [
+     "Battle of the River Plate",
+     "River Plate",
+     "Battle of River Plate"
+    ],
+    [
+     "Battle of Leyte Gulf",
+     "Leyte Gulf"
+    ],
+    [
+     "Siege of Tobruk",
+     "Tobruk",
+     "Battle of Tobruk"
+    ],
+    [
+     "Battle of France",
+     "France"
+    ],
+    [
+     "Battle of Hürtgen Forest",
+     "Hürtgen Forest"
+    ],
+    [
+     "Battle of Caen",
+     "Caen",
+     "Battle for Caen"
+    ],
+    [
+     "Battle of Kharkov",
+     "Kharkov",
+     "First Battle of Kharkov",
+     "Fourth Battle of Kharkov",
+     "Second Battle of Kharkov",
+     "Third Battle of Kharkov"
+    ],
+    [
+     "Battle of Narvik",
+     "Narvik",
+     "Battles of Narvik"
+    ],
+    [
+     "Siege of Malta",
+     "Malta",
+     "Battle of Malta",
+     "Siege of Malta (World War II)"
+    ],
+    [
+     "Battle of Gazala",
+     "Gazala"
+    ],
+    [
+     "Battle of Kasserine Pass",
+     "Kasserine Pass"
+    ],
+    [
+     "Battle of Taranto",
+     "Taranto"
+    ],
+    [
+     "Battle of Cape Matapan",
+     "Cape Matapan"
+    ],
+    [
+     "Battle of the Denmark Strait",
+     "Denmark Strait",
+     "Battle of Denmark Strait"
+    ],
+    [
+     "Battle of the North Cape",
+     "North Cape",
+     "Battle of North Cape"
+    ],
+    [
+     "Siege of Warsaw",
+     "Warsaw",
+     "Battle of Warsaw",
+     "Siege of Warsaw (1939)"
+    ],
+    [
+     "Battle of Hong Kong",
+     "Hong Kong"
+    ],
+    [
+     "Battle of Saipan",
+     "Saipan"
+    ],
+    [
+     "Battle of the Philippine Sea",
+     "Philippine Sea",
+     "Battle of Philippine Sea"
+    ],
+    [
+     "Attack on Mers-el-Kébir",
+     "Attack of Mers-el-Kébir",
+     "Mers-el-Kébir",
+     "Battle of Mers-el-Kébir"
+    ],
+    [
+     "Attack on Sydney Harbour",
+     "Attack of Sydney Harbour",
+     "Sydney Harbour",
+     "Battle of Sydney Harbour"
+    ],
+    [
+     "Battle of Aachen",
+     "Aachen"
+    ],
+    [
+     "Battle of Alam el Halfa",
+     "Alam el Halfa"
+    ],
+    [
+     "Battle of Amba Alagi",
+     "Amba Alagi",
+     "Battle of Amba Alagi (1941)"
+    ],
+    [
+     "Battle of Attu",
+     "Attu"
+    ],
+    [
+     "Battle of Balikpapan",
+     "Balikpapan",
+     "Battle of Balikpapan (1942)",
+     "Battle of Balikpapan (1945)"
+    ],
+    [
+     "Battle of Bardia",
+     "Bardia",
+     "Raid of Bardia",
+     "Raid on Bardia"
+    ],
+    [
+     "Battle of Bataan",
+     "Bataan",
+     "Battle of Bataan (1945)"
+    ],
+    [
+     "Battle of Beda Fomm",
+     "Beda Fomm"
+    ],
+    [
+     "Battle of Biak",
+     "Biak"
+    ],
+    [
+     "Battle of Bir Hakeim",
+     "Bir Hakeim"
+    ],
+    [
+     "Battle of Bukit Timah",
+     "Bukit Timah"
+    ],
+    [
+     "Battle of Buna–Gona",
+     "Buna–Gona"
+    ],
+    [
+     "Battle of Calabria",
+     "Calabria"
+    ],
+    [
+     "Battle of Cape Esperance",
+     "Cape Esperance"
+    ],
+    [
+     "Battle of Cape Gloucester",
+     "Cape Gloucester"
+    ],
+    [
+     "Battle of Cape Spartivento",
+     "Cape Spartivento"
+    ],
+    [
+     "Battle of Carentan",
+     "Carentan"
+    ],
+    [
+     "Battle of Casablanca",
+     "Casablanca",
+     "Naval Battle of Casablanca"
+    ],
+    [
+     "Battle of Changsha",
+     "Changsha",
+     "Battle of Changsha (1939)",
+     "Battle of Changsha (1941)",
+     "Battle of Changsha (1941-1942)",
+     "Battle of Changsha (1941–1942)",
+     "Battle of Changsha (1944)"
+    ],
+    [
+     "Battle of Cherbourg",
+     "Cherbourg"
+    ],
+    [
+     "Battle of Tarawa",
+     "Tarawa"
+    ],
+    [
+     "Battle of Peleliu",
+     "Peleliu"
+    ],
+    [
+     "Battle of Corregidor",
+     "Corregidor"
+    ],
+    [
+     "Battle of Manila",
+     "Manila"
+    ],
+    [
+     "Battle of Bastogne",
+     "Bastogne",
+     "Siege of Bastogne"
+    ],
+    [
+     "Battle of Remagen",
+     "Remagen",
+     "Ludendorff Bridge"
+    ],
+    [
+     "Battle of Falaise",
+     "Falaise",
+     "Falaise Pocket"
+    ],
+    [
+     "Battle of Salerno",
+     "Salerno"
+    ],
+    [
+     "Allied invasion of Sicily",
+     "Sicily",
+     "Battle of Sicily"
+    ],
+    [
+     "Battle of Tunisia",
+     "Tunisia",
+     "Tunisian Campaign"
+    ],
+    [
+     "Battle of the Mareth Line",
+     "Mareth Line",
+     "Mareth"
+    ],
+    [
+     "Battle of the Scheldt",
+     "Scheldt",
+     "Scheldt Estuary"
+    ],
+    [
+     "Battle of Kiev",
+     "Kiev",
+     "Kyiv",
+     "Battle of Kyiv"
+    ],
+    [
+     "Battle of Smolensk",
+     "Smolensk"
+    ],
+    [
+     "Battle of Rzhev",
+     "Rzhev"
+    ],
+    [
+     "Siege of Sevastopol",
+     "Sevastopol",
+     "Sebastopol"
+    ],
+    [
+     "Battle of the Seelow Heights",
+     "Seelow Heights",
+     "Seelow"
+    ],
+    [
+     "Dieppe Raid",
+     "Dieppe",
+     "Battle of Dieppe",
+     "Operation Jubilee"
+    ],
+    [
+     "Battle of the Bismarck Sea",
+     "Bismarck Sea"
+    ],
+    [
+     "Battle of Savo Island",
+     "Savo Island"
+    ],
+    [
+     "Battle of the Java Sea",
+     "Java Sea"
+    ],
+    [
+     "Battle of Wake Island",
+     "Wake Island"
+    ],
+    [
+     "Battle of Tassafaronga",
+     "Tassafaronga"
+    ],
+    [
+     "Battle of the Santa Cruz Islands",
+     "Santa Cruz Islands",
+     "Santa Cruz"
+    ],
+    [
+     "Battle of the Eastern Solomons",
+     "Eastern Solomons"
+    ],
+    [
+     "Invasion of Poland",
+     "Poland",
+     "September Campaign",
+     "Battle of Poland"
+    ],
+    [
+     "Battle of Sedan",
+     "Sedan"
+    ],
+    "Battle of Cassino",
+    [
+     "Battle of the Philippines",
+     "Philippines",
+     "Philippines campaign"
+    ],
+    [
+     "Battle of Rabaul",
+     "Rabaul"
+    ],
+    [
+     "Kokoda Track campaign",
+     "Kokoda",
+     "Kokoda Track"
+    ],
+    [
+     "Battle of Milne Bay",
+     "Milne Bay"
+    ],
+    [
+     "Bombing of Hamburg",
+     "Hamburg",
+     "Battle of Hamburg"
+    ],
+    [
+     "Bombing of Dresden",
+     "Dresden",
+     "Battle of Dresden"
+    ],
+    [
+     "Siege of Budapest",
+     "Budapest",
+     "Battle of Budapest"
+    ],
+    [
+     "Battle of Vienna",
+     "Vienna"
+    ]
+   ]
+  },
+  {
+   "id": "xh-ww2-operations",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a code name of a Second World War military operation (the word after 'Operation' is enough)",
+   "answers": [
+    [
+     "Overlord",
+     "Operation Overlord"
+    ],
+    [
+     "Barbarossa",
+     "Operation Barbarossa"
+    ],
+    [
+     "Market Garden",
+     "Operation Market Garden"
+    ],
+    [
+     "Dynamo",
+     "Operation Dynamo"
+    ],
+    [
+     "Torch",
+     "Operation Torch"
+    ],
+    [
+     "Sea Lion",
+     "Seelowe",
+     "Operation Sea Lion",
+     "Operation Seelöwe"
+    ],
+    [
+     "Husky",
+     "Operation Husky"
+    ],
+    [
+     "Chastise",
+     "Operation Chastise"
+    ],
+    [
+     "Mincemeat",
+     "Operation Mincemeat"
+    ],
+    [
+     "Valkyrie",
+     "Operation Valkyrie"
+    ],
+    "Downfall",
+    [
+     "Neptune",
+     "Operation Neptune"
+    ],
+    [
+     "Fortitude",
+     "Operation Fortitude"
+    ],
+    [
+     "Bagration",
+     "Operation Bagration"
+    ],
+    [
+     "Uranus",
+     "Operation Uranus"
+    ],
+    [
+     "Avalanche",
+     "Operation Avalanche"
+    ],
+    [
+     "Shingle",
+     "Operation Shingle"
+    ],
+    [
+     "Dragoon",
+     "Operation Dragoon"
+    ],
+    [
+     "Pied Piper",
+     "Operation Pied Piper"
+    ],
+    [
+     "Pedestal",
+     "Operation Pedestal"
+    ],
+    [
+     "Crusader",
+     "Operation Crusader"
+    ],
+    [
+     "Compass",
+     "Operation Compass"
+    ],
+    [
+     "Jubilee",
+     "Operation Jubilee"
+    ],
+    [
+     "Chariot",
+     "Operation Chariot"
+    ],
+    [
+     "Varsity",
+     "Operation Varsity"
+    ],
+    [
+     "Plunder",
+     "Operation Plunder"
+    ],
+    [
+     "Cobra",
+     "Operation Cobra"
+    ],
+    [
+     "Goodwood",
+     "Operation Goodwood"
+    ],
+    [
+     "Epsom",
+     "Operation Epsom"
+    ],
+    [
+     "Zitadelle",
+     "Operation Zitadelle",
+     "Citadel",
+     "Operation Citadel"
+    ],
+    [
+     "Taifun",
+     "Operation Taifun",
+     "Typhoon",
+     "Operation Typhoon"
+    ],
+    [
+     "Weserübung",
+     "Operation Weserübung",
+     "Weser Exercise",
+     "Operation Weser Exercise"
+    ],
+    [
+     "Chronometer",
+     "Operation Chronometer"
+    ],
+    [
+     "Wacht am Rhein",
+     "Watch on the Rhine",
+     "Operation Wacht am Rhein",
+     "Ardennes Offensive"
+    ],
+    [
+     "Gomorrah",
+     "Operation Gomorrah"
+    ],
+    [
+     "Anthropoid",
+     "Operation Anthropoid"
+    ],
+    [
+     "Frankton",
+     "Operation Frankton"
+    ],
+    [
+     "Biting",
+     "Operation Biting"
+    ],
+    [
+     "Freshman",
+     "Operation Freshman"
+    ],
+    [
+     "Gunnerside",
+     "Operation Gunnerside"
+    ],
+    [
+     "Greif",
+     "Operation Greif"
+    ],
+    [
+     "Nordwind",
+     "Operation Nordwind"
+    ],
+    [
+     "Bodenplatte",
+     "Operation Bodenplatte"
+    ],
+    [
+     "Millennium",
+     "Operation Millennium"
+    ],
+    [
+     "Hydra",
+     "Operation Hydra"
+    ],
+    [
+     "Tidal Wave",
+     "Operation Tidal Wave"
+    ],
+    [
+     "Vengeance",
+     "Operation Vengeance"
+    ],
+    [
+     "Cartwheel",
+     "Operation Cartwheel"
+    ],
+    [
+     "Iceberg",
+     "Operation Iceberg"
+    ],
+    [
+     "Detachment",
+     "Operation Detachment"
+    ],
+    [
+     "Forager",
+     "Operation Forager"
+    ],
+    [
+     "Watchtower",
+     "Operation Watchtower"
+    ],
+    [
+     "Totalize",
+     "Operation Totalize"
+    ],
+    [
+     "Tractable",
+     "Operation Tractable"
+    ],
+    [
+     "Veritable",
+     "Operation Veritable"
+    ],
+    [
+     "Grenade",
+     "Operation Grenade"
+    ],
+    [
+     "Blackcock",
+     "Operation Blackcock"
+    ],
+    [
+     "Infatuate",
+     "Operation Infatuate"
+    ],
+    [
+     "Dracula",
+     "Operation Dracula"
+    ],
+    [
+     "Thursday",
+     "Operation Thursday"
+    ],
+    [
+     "Longcloth",
+     "Operation Longcloth"
+    ],
+    [
+     "Paperclip",
+     "Operation Paperclip"
+    ],
+    [
+     "Colossus",
+     "Operation Colossus"
+    ],
+    [
+     "Aphrodite",
+     "Operation Aphrodite"
+    ],
+    [
+     "Bernhard",
+     "Operation Bernhard"
+    ]
+   ]
+  },
+  {
+   "id": "xh-confederate-states",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a state admitted to the Confederate States of America (Kentucky and Missouri count)",
+   "answers": [
+    "Virginia",
+    "Texas",
+    "Georgia",
+    "South Carolina",
+    "Alabama",
+    "Mississippi",
+    "Louisiana",
+    "Tennessee",
+    "North Carolina",
+    "Florida",
+    "Arkansas",
+    "Kentucky",
+    "Missouri"
+   ]
+  },
+  {
+   "id": "xh-english-civil-war-battles",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a battle or siege of the English Civil Wars (1642 to 1651)",
+   "answers": [
+    [
+     "Battle of Naseby",
+     "Naseby"
+    ],
+    [
+     "Battle of Marston Moor",
+     "Marston Moor"
+    ],
+    [
+     "Battle of Edgehill",
+     "Edgehill"
+    ],
+    [
+     "Siege of Worcester",
+     "Worcester",
+     "Battle of Worcester",
+     "Siege of Worcester (1643)"
+    ],
+    [
+     "Battle of Newbury",
+     "Newbury",
+     "First Battle of Newbury",
+     "Second Battle of Newbury"
+    ],
+    [
+     "Battle of Preston",
+     "Preston",
+     "Battle of Preston (1648)"
+    ],
+    [
+     "Battle of Dunbar",
+     "Dunbar",
+     "Battle of Dunbar (1650)"
+    ],
+    [
+     "Battle of Roundway Down",
+     "Roundway Down"
+    ],
+    [
+     "Battle of Adwalton Moor",
+     "Adwalton Moor"
+    ],
+    [
+     "Battle of Lansdowne",
+     "Lansdowne"
+    ],
+    [
+     "Battle of Cheriton",
+     "Cheriton"
+    ],
+    [
+     "Battle of Nantwich",
+     "Nantwich"
+    ],
+    [
+     "Battle of Langport",
+     "Langport"
+    ],
+    [
+     "Battle of Cropredy Bridge",
+     "Cropredy Bridge"
+    ],
+    [
+     "Battle of Lostwithiel",
+     "Lostwithiel"
+    ],
+    [
+     "Battle of Turnham Green",
+     "Turnham Green"
+    ],
+    [
+     "Siege of Colchester",
+     "Colchester",
+     "Battle of Colchester"
+    ],
+    [
+     "Battle of Stow-on-the-Wold",
+     "Stow-on-the-Wold"
+    ],
+    [
+     "Battle of Torrington",
+     "Torrington"
+    ],
+    [
+     "Battle of Rowton Heath",
+     "Rowton Heath"
+    ],
+    [
+     "Battle of Winceby",
+     "Winceby"
+    ],
+    [
+     "Siege of Basing House",
+     "Basing House",
+     "Battle of Basing House"
+    ],
+    [
+     "Siege of Gloucester",
+     "Gloucester",
+     "Battle of Gloucester"
+    ],
+    [
+     "Siege of Hull",
+     "Hull",
+     "Battle of Hull",
+     "Siege of Hull (1642)",
+     "Siege of Hull (1643)"
+    ],
+    [
+     "Siege of York",
+     "York",
+     "Battle of York"
+    ],
+    [
+     "Battle of Powick Bridge",
+     "Powick Bridge"
+    ],
+    [
+     "Battle of Brentford",
+     "Brentford",
+     "Battle of Brentford (1642)"
+    ],
+    [
+     "Battle of Chalgrove Field",
+     "Chalgrove Field"
+    ],
+    [
+     "Battle of Stratton",
+     "Stratton"
+    ],
+    [
+     "Battle of Hopton Heath",
+     "Hopton Heath"
+    ],
+    [
+     "Battle of Marshall's Elm",
+     "Marshall's Elm"
+    ],
+    [
+     "Siege of Portsmouth",
+     "Portsmouth",
+     "Battle of Portsmouth"
+    ],
+    [
+     "Siege of Plymouth",
+     "Plymouth",
+     "Battle of Plymouth"
+    ],
+    [
+     "Battle of Babylon Hill",
+     "Babylon Hill"
+    ],
+    [
+     "Siege of Manchester",
+     "Manchester",
+     "Battle of Manchester"
+    ],
+    [
+     "Battle of Kings Norton",
+     "Kings Norton"
+    ],
+    [
+     "Battle of Braddock Down",
+     "Braddock Down"
+    ],
+    [
+     "Siege of Arundel",
+     "Arundel",
+     "Battle of Arundel"
+    ],
+    [
+     "Siege of Lathom House",
+     "Lathom House",
+     "Battle of Lathom House"
+    ],
+    [
+     "Siege of Lyme Regis",
+     "Lyme Regis",
+     "Battle of Lyme Regis"
+    ],
+    [
+     "Siege of Oxford",
+     "Oxford",
+     "Battle of Oxford"
+    ],
+    [
+     "Siege of Chester",
+     "Chester",
+     "Battle of Chester"
+    ],
+    [
+     "Siege of Taunton",
+     "Taunton",
+     "Battle of Taunton",
+     "Sieges of Taunton"
+    ],
+    [
+     "Siege of Carlisle",
+     "Carlisle",
+     "Battle of Carlisle",
+     "Siege of Carlisle (1644)"
+    ],
+    [
+     "Battle of Inverlochy",
+     "Inverlochy",
+     "Battle of Inverlochy (1645)"
+    ],
+    [
+     "Battle of Auldearn",
+     "Auldearn"
+    ],
+    [
+     "Battle of Alford",
+     "Alford"
+    ],
+    [
+     "Battle of Kilsyth",
+     "Kilsyth"
+    ],
+    [
+     "Siege of Bristol",
+     "Bristol",
+     "Battle of Bristol",
+     "Siege of Bristol (1645)"
+    ],
+    [
+     "Battle of Philiphaugh",
+     "Philiphaugh"
+    ],
+    [
+     "Siege of Newark",
+     "Newark",
+     "Battle of Newark"
+    ],
+    [
+     "Battle of St Fagans",
+     "St Fagans"
+    ],
+    [
+     "Battle of Inverkeithing",
+     "Inverkeithing"
+    ],
+    [
+     "Battle of Wigan Lane",
+     "Wigan Lane"
+    ]
+   ]
+  },
+  {
+   "id": "xh-hundred-years-war-battles",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a battle or siege of the Hundred Years' War",
+   "answers": [
+    [
+     "Battle of Agincourt",
+     "Agincourt"
+    ],
+    [
+     "Battle of Crécy",
+     "Crécy"
+    ],
+    [
+     "Battle of Poitiers",
+     "Poitiers"
+    ],
+    [
+     "Siege of Orléans",
+     "Orléans",
+     "Battle of Orléans",
+     "Siege of Orléans (1428–1429)"
+    ],
+    [
+     "Battle of Sluys",
+     "Sluys"
+    ],
+    [
+     "Siege of Harfleur",
+     "Harfleur",
+     "Battle of Harfleur"
+    ],
+    [
+     "Battle of Calais",
+     "Calais"
+    ],
+    [
+     "Battle of Castillon",
+     "Castillon"
+    ],
+    [
+     "Battle of Patay",
+     "Patay"
+    ],
+    [
+     "Battle of Formigny",
+     "Formigny"
+    ],
+    [
+     "Battle of Verneuil",
+     "Verneuil"
+    ],
+    [
+     "Siege of Rouen",
+     "Rouen",
+     "Battle of Rouen",
+     "Siege of Rouen (1418–1419)"
+    ],
+    [
+     "Battle of the Herrings",
+     "Herrings",
+     "Battle of Herrings"
+    ],
+    [
+     "Battle of Baugé",
+     "Baugé"
+    ],
+    [
+     "Battle of Cravant",
+     "Cravant"
+    ],
+    [
+     "Battle of Caen",
+     "Caen",
+     "Battle of Caen (1346)"
+    ],
+    [
+     "Siege of Compiègne",
+     "Compiègne",
+     "Battle of Compiègne"
+    ],
+    [
+     "Battle of Cadzand",
+     "Cadzand"
+    ],
+    [
+     "Battle of Arnemuiden",
+     "Arnemuiden"
+    ],
+    [
+     "Siege of Cambrai",
+     "Cambrai",
+     "Battle of Cambrai",
+     "Siege of Cambrai (1339)"
+    ],
+    [
+     "Battle of Saint-Omer",
+     "Saint-Omer"
+    ],
+    [
+     "Siege of Tournai",
+     "Tournai",
+     "Battle of Tournai",
+     "Siege of Tournai (1340)"
+    ],
+    [
+     "Siege of Brest",
+     "Brest",
+     "Battle of Brest",
+     "Siege of Brest (1342)",
+     "Siege of Brest (1386)"
+    ],
+    [
+     "Battle of Morlaix",
+     "Morlaix"
+    ],
+    [
+     "Battle of Bergerac",
+     "Bergerac"
+    ],
+    [
+     "Battle of Auberoche",
+     "Auberoche"
+    ],
+    [
+     "Siege of Aiguillon",
+     "Aiguillon",
+     "Battle of Aiguillon"
+    ],
+    [
+     "Battle of Blanchetaque",
+     "Blanchetaque"
+    ],
+    [
+     "Battle of Lunalonge",
+     "Lunalonge"
+    ],
+    [
+     "Battle of Winchelsea",
+     "Winchelsea"
+    ],
+    [
+     "Siege of Saint-Jean-d'Angély",
+     "Saint-Jean-d'Angély",
+     "Battle of Saint-Jean-d'Angély",
+     "Siege of Saint-Jean-d'Angély (1351)"
+    ],
+    [
+     "Battle of Cocherel",
+     "Cocherel"
+    ],
+    [
+     "Siege of Limoges",
+     "Limoges",
+     "Battle of Limoges"
+    ],
+    [
+     "Battle of Pontvallain",
+     "Pontvallain"
+    ],
+    [
+     "Battle of Roosebeke",
+     "Roosebeke"
+    ],
+    [
+     "Battle of Jargeau",
+     "Jargeau"
+    ],
+    [
+     "Battle of Meung-sur-Loire",
+     "Meung-sur-Loire"
+    ],
+    [
+     "Battle of Beaugency",
+     "Beaugency",
+     "Battle of Beaugency (1429)"
+    ],
+    [
+     "Siege of Paris",
+     "Paris",
+     "Battle of Paris",
+     "Siege of Paris (1429)",
+     "Siege of Paris (1435-1436)"
+    ]
+   ]
+  },
+  {
+   "id": "xh-wars-of-the-roses-battles",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a battle of the Wars of the Roses",
+   "answers": [
+    [
+     "Battle of Bosworth Field",
+     "Bosworth Field",
+     "Bosworth",
+     "Battle of Bosworth"
+    ],
+    [
+     "Battle of Towton",
+     "Towton"
+    ],
+    [
+     "Battle of Tewkesbury",
+     "Tewkesbury"
+    ],
+    [
+     "Battle of Barnet",
+     "Barnet"
+    ],
+    [
+     "Battle of St Albans",
+     "St Albans",
+     "First Battle of St Albans",
+     "Second Battle of St Albans"
+    ],
+    [
+     "Battle of Wakefield",
+     "Wakefield"
+    ],
+    [
+     "Battle of Stoke Field",
+     "Stoke Field",
+     "Stoke",
+     "Battle of Stoke"
+    ],
+    [
+     "Battle of Mortimer's Cross",
+     "Mortimer's Cross"
+    ],
+    [
+     "Battle of Blore Heath",
+     "Blore Heath"
+    ],
+    [
+     "Battle of Northampton",
+     "Northampton",
+     "Battle of Northampton (1460)"
+    ],
+    [
+     "Battle of Hexham",
+     "Hexham"
+    ],
+    [
+     "Battle of Edgcote",
+     "Edgcote",
+     "Edgecote",
+     "Battle of Edgecote Moor"
+    ],
+    [
+     "Battle of Losecoat Field",
+     "Losecoat Field"
+    ],
+    [
+     "Battle of Hedgeley Moor",
+     "Hedgeley Moor"
+    ],
+    [
+     "Battle of Ferrybridge",
+     "Ferrybridge"
+    ],
+    [
+     "Battle of Sandwich",
+     "Sandwich",
+     "Battle of Sandwich (1460)"
+    ],
+    [
+     "Siege of the Tower of London",
+     "Tower of London",
+     "Battle of Tower of London",
+     "Battle of the Tower of London",
+     "Siege of Tower of London",
+     "Siege of the Tower of London (1460)"
+    ],
+    [
+     "Battle of Worksop",
+     "Worksop"
+    ]
+   ]
+  },
+  {
+   "id": "xh-gunpowder-plotters",
+   "tags": [
+    "events"
+   ],
+   "text": "Name one of the 13 Gunpowder Plot conspirators",
+   "answers": [
+    [
+     "Guy Fawkes",
+     "Fawkes",
+     "Guido Fawkes",
+     "Guido"
+    ],
+    [
+     "Robert Catesby",
+     "Catesby"
+    ],
+    [
+     "Thomas Percy",
+     "Percy"
+    ],
+    [
+     "Thomas Wintour",
+     "Thomas Winter",
+     "Tom Wintour"
+    ],
+    [
+     "Robert Wintour",
+     "Robert Winter"
+    ],
+    [
+     "John Wright",
+     "Jack Wright"
+    ],
+    [
+     "Christopher Wright",
+     "Kit Wright"
+    ],
+    [
+     "Robert Keyes",
+     "Keyes"
+    ],
+    [
+     "John Grant",
+     "Grant"
+    ],
+    [
+     "Ambrose Rookwood",
+     "Rookwood"
+    ],
+    [
+     "Everard Digby",
+     "Digby",
+     "Sir Everard Digby"
+    ],
+    [
+     "Francis Tresham",
+     "Tresham"
+    ],
+    [
+     "Thomas Bates",
+     "Bates"
+    ]
+   ]
+  },
+  {
+   "id": "xh-nuremberg-defendants",
+   "tags": [
+    "events"
+   ],
+   "text": "Name one of the 24 men indicted at the main Nuremberg trial (1945 to 1946)",
+   "answers": [
+    [
+     "Hermann Göring",
+     "Goering",
+     "Göring",
+     "Hermann Goering"
+    ],
+    [
+     "Rudolf Hess",
+     "Hess",
+     "Rudolf Hes"
+    ],
+    [
+     "Joachim von Ribbentrop",
+     "Ribbentrop"
+    ],
+    [
+     "Albert Speer",
+     "Speer"
+    ],
+    [
+     "Karl Dönitz",
+     "Dönitz",
+     "Doenitz",
+     "Karl Doenitz"
+    ],
+    [
+     "Wilhelm Keitel",
+     "Keitel"
+    ],
+    [
+     "Alfred Jodl",
+     "Jodl"
+    ],
+    [
+     "Ernst Kaltenbrunner",
+     "Kaltenbrunner"
+    ],
+    [
+     "Alfred Rosenberg",
+     "Rosenberg"
+    ],
+    [
+     "Hans Frank",
+     "Frank"
+    ],
+    [
+     "Wilhelm Frick",
+     "Frick"
+    ],
+    [
+     "Julius Streicher",
+     "Streicher"
+    ],
+    [
+     "Walther Funk",
+     "Funk",
+     "Walter Funk"
+    ],
+    [
+     "Hjalmar Schacht",
+     "Schacht"
+    ],
+    [
+     "Erich Raeder",
+     "Raeder"
+    ],
+    [
+     "Baldur von Schirach",
+     "Schirach",
+     "von Schirach"
+    ],
+    [
+     "Fritz Sauckel",
+     "Sauckel"
+    ],
+    [
+     "Franz von Papen",
+     "Papen",
+     "von Papen"
+    ],
+    [
+     "Arthur Seyss-Inquart",
+     "Seyss-Inquart"
+    ],
+    [
+     "Konstantin von Neurath",
+     "Neurath",
+     "von Neurath"
+    ],
+    [
+     "Hans Fritzsche",
+     "Fritzsche"
+    ],
+    [
+     "Martin Bormann",
+     "Bormann"
+    ],
+    [
+     "Robert Ley",
+     "Ley"
+    ],
+    [
+     "Gustav Krupp",
+     "Krupp",
+     "Gustav Krupp von Bohlen und Halbach"
+    ]
+   ]
+  },
+  {
+   "id": "xh-declaration-signers",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a signer of the US Declaration of Independence",
+   "answers": [
+    [
+     "Thomas Jefferson",
+     "Jefferson"
+    ],
+    [
+     "Benjamin Franklin",
+     "Franklin"
+    ],
+    [
+     "John Hancock",
+     "Hancock"
+    ],
+    "John Adams",
+    "Samuel Adams",
+    [
+     "Josiah Bartlett",
+     "Bartlett"
+    ],
+    [
+     "William Whipple",
+     "Whipple"
+    ],
+    [
+     "Matthew Thornton",
+     "Thornton"
+    ],
+    [
+     "Robert Treat Paine",
+     "Paine"
+    ],
+    [
+     "Elbridge Gerry",
+     "Gerry"
+    ],
+    [
+     "Stephen Hopkins",
+     "Hopkins"
+    ],
+    [
+     "William Ellery",
+     "Ellery"
+    ],
+    [
+     "Roger Sherman",
+     "Sherman"
+    ],
+    [
+     "Samuel Huntington",
+     "Huntington"
+    ],
+    [
+     "William Williams",
+     "Williams"
+    ],
+    [
+     "Oliver Wolcott",
+     "Wolcott"
+    ],
+    [
+     "William Floyd",
+     "Floyd"
+    ],
+    [
+     "Philip Livingston",
+     "Livingston"
+    ],
+    [
+     "Francis Lewis",
+     "Lewis"
+    ],
+    "Lewis Morris",
+    [
+     "Richard Stockton",
+     "Stockton"
+    ],
+    [
+     "John Witherspoon",
+     "Witherspoon"
+    ],
+    [
+     "Francis Hopkinson",
+     "Hopkinson"
+    ],
+    [
+     "Abraham Clark",
+     "Clark"
+    ],
+    "Robert Morris",
+    [
+     "Benjamin Rush",
+     "Rush"
+    ],
+    [
+     "John Morton",
+     "Morton"
+    ],
+    [
+     "George Clymer",
+     "Clymer"
+    ],
+    [
+     "James Smith",
+     "Smith"
+    ],
+    [
+     "James Wilson",
+     "Wilson"
+    ],
+    [
+     "George Ross",
+     "Ross"
+    ],
+    [
+     "Caesar Rodney",
+     "Rodney"
+    ],
+    [
+     "George Read",
+     "Read"
+    ],
+    [
+     "Thomas McKean",
+     "McKean"
+    ],
+    [
+     "Samuel Chase",
+     "Chase"
+    ],
+    [
+     "William Paca",
+     "Paca"
+    ],
+    [
+     "Thomas Stone",
+     "Stone"
+    ],
+    [
+     "Charles Carroll of Carrollton",
+     "Charles Carroll",
+     "Carroll"
+    ],
+    [
+     "George Wythe",
+     "Wythe"
+    ],
+    "Richard Henry Lee",
+    [
+     "Benjamin Harrison",
+     "Harrison"
+    ],
+    [
+     "Thomas Nelson, Jr.",
+     "Thomas Nelson",
+     "Nelson"
+    ],
+    "Francis Lightfoot Lee",
+    [
+     "Carter Braxton",
+     "Braxton"
+    ],
+    [
+     "William Hooper",
+     "Hooper"
+    ],
+    [
+     "Joseph Hewes",
+     "Hewes"
+    ],
+    [
+     "John Penn",
+     "Penn"
+    ],
+    [
+     "Edward Rutledge",
+     "Rutledge"
+    ],
+    [
+     "Thomas Heyward, Jr.",
+     "Thomas Heyward",
+     "Heyward"
+    ],
+    [
+     "Thomas Lynch, Jr.",
+     "Thomas Lynch",
+     "Lynch"
+    ],
+    [
+     "Arthur Middleton",
+     "Middleton"
+    ],
+    [
+     "Button Gwinnett",
+     "Gwinnett"
+    ],
+    [
+     "Lyman Hall",
+     "Hall"
+    ],
+    [
+     "George Walton",
+     "Walton"
+    ],
+    [
+     "John Hart",
+     "Hart"
+    ],
+    [
+     "George Taylor",
+     "Taylor"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-independence-from-uk",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a country that gained independence from the United Kingdom",
+   "answers": [
+    [
+     "United States",
+     "USA",
+     "America",
+     "US",
+     "United States of America"
+    ],
+    "India",
+    [
+     "Ireland",
+     "Republic of Ireland",
+     "Irish Free State",
+     "Eire"
+    ],
+    "Australia",
+    "Canada",
+    "New Zealand",
+    "South Africa",
+    "Jamaica",
+    "Kenya",
+    "Nigeria",
+    "Pakistan",
+    [
+     "Ghana",
+     "Gold Coast"
+    ],
+    "Malta",
+    "Cyprus",
+    "Barbados",
+    [
+     "Zimbabwe",
+     "Rhodesia"
+    ],
+    [
+     "Sri Lanka",
+     "Ceylon"
+    ],
+    "Israel",
+    "Egypt",
+    "Uganda",
+    "Afghanistan",
+    [
+     "Antigua and Barbuda",
+     "Antigua"
+    ],
+    "The Bahamas",
+    "Bahrain",
+    [
+     "Belize",
+     "British Honduras"
+    ],
+    [
+     "Botswana",
+     "Bechuanaland"
+    ],
+    "Brunei",
+    "Dominica",
+    [
+     "Eswatini",
+     "Swaziland"
+    ],
+    "Fiji",
+    "The Gambia",
+    "Grenada",
+    [
+     "Guyana",
+     "British Guiana"
+    ],
+    "Iraq",
+    "Jordan",
+    [
+     "Kiribati",
+     "Gilbert Islands"
+    ],
+    "Kuwait",
+    [
+     "Lesotho",
+     "Basutoland"
+    ],
+    "Libya",
+    [
+     "Malawi",
+     "Nyasaland"
+    ],
+    [
+     "Malaya",
+     "Malaysia",
+     "Federation of Malaya"
+    ],
+    "Maldives",
+    "Mauritius",
+    [
+     "Myanmar",
+     "Burma"
+    ],
+    "Nauru",
+    "Oman",
+    "Qatar",
+    [
+     "Saint Lucia",
+     "St Lucia"
+    ],
+    [
+     "Saint Kitts and Nevis",
+     "St Kitts and Nevis",
+     "St Kitts"
+    ],
+    [
+     "Saint Vincent and the Grenadines",
+     "St Vincent and the Grenadines",
+     "St Vincent"
+    ],
+    "Seychelles",
+    "Sierra Leone",
+    "Solomon Islands",
+    [
+     "Somaliland",
+     "British Somaliland",
+     "Somalia"
+    ],
+    [
+     "South Yemen",
+     "Aden",
+     "Yemen"
+    ],
+    "Sudan",
+    [
+     "Tanganyika",
+     "Tanzania"
+    ],
+    "Tonga",
+    [
+     "Trinidad and Tobago",
+     "Trinidad"
+    ],
+    [
+     "Tuvalu",
+     "Ellice Islands"
+    ],
+    [
+     "United Arab Emirates",
+     "UAE"
+    ],
+    [
+     "Vanuatu",
+     "New Hebrides"
+    ],
+    [
+     "Zambia",
+     "Northern Rhodesia"
+    ],
+    [
+     "Sultanate of Zanzibar",
+     "Zanzibar"
+    ]
+   ]
+  },
+  {
+   "id": "xh-anglo-saxon-kingdoms",
+   "tags": [
+    "events"
+   ],
+   "text": "Name an Anglo-Saxon kingdom or sub-kingdom",
+   "answers": [
+    [
+     "Wessex",
+     "West Saxons"
+    ],
+    "Mercia",
+    "Northumbria",
+    "East Anglia",
+    "Kent",
+    [
+     "Essex",
+     "East Saxons"
+    ],
+    [
+     "Sussex",
+     "South Saxons"
+    ],
+    "Bernicia",
+    "Deira",
+    "Lindsey",
+    "Hwicce",
+    [
+     "Magonsæte",
+     "Magonsaete",
+     "Magonset"
+    ],
+    [
+     "Haestingas",
+     "Hæstingas"
+    ],
+    "Meonwara",
+    "Middle Angles",
+    [
+     "Middle Saxons",
+     "Middlesex"
+    ],
+    [
+     "Pecsæte",
+     "Pecsaete"
+    ],
+    "Surrey",
+    [
+     "Tomsæte",
+     "Tomsaete"
+    ],
+    [
+     "Wreocensæte",
+     "Wreocensaete"
+    ],
+    [
+     "Wihtwara",
+     "Isle of Wight"
+    ],
+    [
+     "Iclingas",
+     "Kingdom of the Iclingas"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-space-travellers-1961-1970",
+   "tags": [
+    "events"
+   ],
+   "text": "Name someone who flew in space from 1961 to 1970 (including the first X-15 pilots above 100 km)",
+   "answers": [
+    [
+     "Yuri Gagarin",
+     "Gagarin"
+    ],
+    [
+     "Neil Armstrong",
+     "Armstrong"
+    ],
+    [
+     "Buzz Aldrin",
+     "Aldrin",
+     "Edwin Aldrin"
+    ],
+    [
+     "Michael Collins",
+     "Collins"
+    ],
+    [
+     "Valentina Tereshkova",
+     "Tereshkova"
+    ],
+    [
+     "John Glenn",
+     "Glenn"
+    ],
+    [
+     "Alan Shepard",
+     "Shepard"
+    ],
+    [
+     "Jim Lovell",
+     "Lovell",
+     "James Lovell"
+    ],
+    [
+     "Alexei Leonov",
+     "Leonov",
+     "Alexey Leonov",
+     "Aleksei Leonov"
+    ],
+    [
+     "Gus Grissom",
+     "Grissom",
+     "Virgil Grissom"
+    ],
+    [
+     "Frank Borman",
+     "Borman"
+    ],
+    [
+     "William Anders",
+     "Anders",
+     "Bill Anders"
+    ],
+    [
+     "Gherman Titov",
+     "Titov",
+     "German Titov"
+    ],
+    [
+     "Scott Carpenter",
+     "Carpenter"
+    ],
+    [
+     "Andriyan Nikolayev",
+     "Nikolayev"
+    ],
+    [
+     "Pavel Popovich",
+     "Popovich"
+    ],
+    [
+     "Wally Schirra",
+     "Schirra",
+     "Walter Schirra"
+    ],
+    [
+     "Gordon Cooper",
+     "Cooper"
+    ],
+    [
+     "Valery Bykovsky",
+     "Bykovsky"
+    ],
+    [
+     "Joseph A. Walker",
+     "Walker"
+    ],
+    [
+     "Vladimir Komarov",
+     "Komarov"
+    ],
+    [
+     "Konstantin Feoktistov",
+     "Feoktistov"
+    ],
+    [
+     "Boris Yegorov",
+     "Yegorov"
+    ],
+    [
+     "Pavel Belyayev",
+     "Belyayev"
+    ],
+    [
+     "John Young",
+     "Young"
+    ],
+    [
+     "James McDivitt",
+     "McDivitt"
+    ],
+    [
+     "Ed White",
+     "Edward White"
+    ],
+    [
+     "Pete Conrad",
+     "Conrad",
+     "Charles Conrad"
+    ],
+    [
+     "Thomas P. Stafford",
+     "Stafford",
+     "Tom Stafford",
+     "Thomas Stafford"
+    ],
+    [
+     "David Scott",
+     "Scott",
+     "Dave Scott"
+    ],
+    [
+     "Eugene Cernan",
+     "Cernan",
+     "Gene Cernan"
+    ],
+    [
+     "Richard F. Gordon Jr.",
+     "Richard F. Gordon",
+     "Gordon",
+     "Dick Gordon",
+     "Richard Gordon"
+    ],
+    [
+     "Donn F. Eisele",
+     "Eisele"
+    ],
+    [
+     "Walter Cunningham",
+     "Cunningham"
+    ],
+    [
+     "Georgy Beregovoy",
+     "Beregovoy"
+    ],
+    [
+     "Vladimir Shatalov",
+     "Shatalov"
+    ],
+    [
+     "Aleksei Yeliseyev",
+     "Yeliseyev"
+    ],
+    [
+     "Yevgeny Khrunov",
+     "Khrunov"
+    ],
+    [
+     "Boris Volynov",
+     "Volynov"
+    ],
+    [
+     "Rusty Schweickart",
+     "Schweickart",
+     "Russell Schweickart"
+    ],
+    [
+     "Georgy Shonin",
+     "Shonin"
+    ],
+    [
+     "Valeri Kubasov",
+     "Kubasov"
+    ],
+    [
+     "Anatoly Filipchenko",
+     "Filipchenko"
+    ],
+    [
+     "Vladislav Volkov",
+     "Volkov"
+    ],
+    [
+     "Viktor Gorbatko",
+     "Gorbatko"
+    ],
+    [
+     "Alan Bean",
+     "Bean"
+    ],
+    [
+     "Jack Swigert",
+     "Swigert",
+     "John Swigert"
+    ],
+    [
+     "Fred Haise",
+     "Haise"
+    ],
+    [
+     "Vitaliy Sevastyanov",
+     "Sevastyanov"
+    ],
+    "Robert M. White",
+    [
+     "Robert A. Rushworth",
+     "Rushworth"
+    ],
+    [
+     "Joe Engle",
+     "Engle"
+    ],
+    [
+     "John B. McKay",
+     "McKay"
+    ],
+    [
+     "William H. Dana",
+     "Dana"
+    ],
+    [
+     "William J. Knight",
+     "Knight"
+    ],
+    [
+     "Michael J. Adams",
+     "Adams"
+    ]
+   ]
+  },
+  {
+   "id": "xh-jacobite-battles",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a battle, siege or skirmish of the Jacobite risings",
+   "answers": [
+    [
+     "Battle of Culloden",
+     "Culloden"
+    ],
+    [
+     "Battle of Prestonpans",
+     "Prestonpans"
+    ],
+    [
+     "Battle of Killiecrankie",
+     "Killiecrankie"
+    ],
+    [
+     "Battle of Sheriffmuir",
+     "Sheriffmuir"
+    ],
+    [
+     "Battle of Falkirk Muir",
+     "Falkirk Muir"
+    ],
+    [
+     "Massacre of Glencoe",
+     "Glencoe"
+    ],
+    [
+     "Battle of Glen Shiel",
+     "Glen Shiel",
+     "Glenshiel"
+    ],
+    [
+     "Battle of Preston",
+     "Preston",
+     "Battle of Preston (1715)"
+    ],
+    [
+     "Battle of Dunkeld",
+     "Dunkeld"
+    ],
+    [
+     "Battle of Cromdale",
+     "Cromdale"
+    ],
+    [
+     "Clifton Moor",
+     "Clifton Moor Skirmish",
+     "Clifton",
+     "Battle of Clifton Moor"
+    ],
+    [
+     "Siege of Carlisle",
+     "Carlisle",
+     "Battle of Carlisle",
+     "Siege of Carlisle (December 1745)",
+     "Siege of Carlisle (November 1745)"
+    ],
+    [
+     "Siege of Stirling Castle",
+     "Stirling Castle",
+     "Battle of Stirling Castle",
+     "Siege of Stirling Castle (1746)"
+    ],
+    [
+     "Battle of Inverurie",
+     "Inverurie",
+     "Battle of Inverurie (1745)"
+    ],
+    [
+     "Battle of Loup Hill",
+     "Loup Hill"
+    ],
+    [
+     "Siege of Culloden House",
+     "Culloden House",
+     "Battle of Culloden House",
+     "Siege of Culloden House (1715)",
+     "Siege of Culloden House (1745)"
+    ],
+    [
+     "Siege of Inverness",
+     "Inverness",
+     "Battle of Inverness",
+     "Siege of Inverness (1715)",
+     "Siege of Inverness (1746)"
+    ],
+    [
+     "Siege of Brahan",
+     "Brahan",
+     "Battle of Brahan"
+    ],
+    [
+     "Siege of Ruthven Barracks",
+     "Ruthven Barracks",
+     "Battle of Ruthven Barracks",
+     "Siege of Ruthven Barracks (1745)",
+     "Siege of Ruthven Barracks (1746)"
+    ],
+    [
+     "Siege of Fort Augustus",
+     "Fort Augustus",
+     "Battle of Fort Augustus",
+     "Siege of Fort Augustus (December 1745)",
+     "Siege of Fort Augustus (March 1746)"
+    ],
+    [
+     "Siege of Blair Castle",
+     "Blair Castle",
+     "Battle of Blair Castle"
+    ],
+    [
+     "Siege of Fort William",
+     "Fort William",
+     "Battle of Fort William"
+    ],
+    [
+     "Battle of Dornoch",
+     "Dornoch"
+    ],
+    [
+     "Battle of Littleferry",
+     "Littleferry"
+    ],
+    [
+     "Raid of Rannoch",
+     "Rannoch",
+     "Battle of Rannoch",
+     "Raid on Rannoch"
+    ],
+    [
+     "Highbridge",
+     "Highbridge Skirmish"
+    ],
+    [
+     "Skirmish of Keith",
+     "Keith"
+    ],
+    [
+     "Skirmish of Tongue",
+     "Tongue"
+    ]
+   ]
+  },
+  {
+   "id": "xh-trafalgar-british-ships",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a ship of the British fleet at the Battle of Trafalgar (1805)",
+   "answers": [
+    [
+     "Victory",
+     "HMS Victory"
+    ],
+    [
+     "Royal Sovereign",
+     "HMS Royal Sovereign"
+    ],
+    [
+     "Temeraire",
+     "HMS Temeraire",
+     "Fighting Temeraire"
+    ],
+    [
+     "Bellerophon",
+     "Billy Ruffian",
+     "HMS Bellerophon"
+    ],
+    [
+     "Neptune",
+     "HMS Neptune"
+    ],
+    [
+     "Britannia",
+     "HMS Britannia"
+    ],
+    [
+     "Conqueror",
+     "HMS Conqueror"
+    ],
+    [
+     "Leviathan",
+     "HMS Leviathan"
+    ],
+    [
+     "Ajax",
+     "HMS Ajax"
+    ],
+    [
+     "Orion",
+     "HMS Orion"
+    ],
+    [
+     "Agamemnon",
+     "HMS Agamemnon"
+    ],
+    [
+     "Minotaur",
+     "HMS Minotaur"
+    ],
+    [
+     "Spartiate",
+     "HMS Spartiate"
+    ],
+    [
+     "Africa",
+     "HMS Africa"
+    ],
+    [
+     "Belleisle",
+     "HMS Belleisle"
+    ],
+    [
+     "Colossus",
+     "HMS Colossus"
+    ],
+    [
+     "Mars",
+     "HMS Mars"
+    ],
+    [
+     "Tonnant",
+     "HMS Tonnant"
+    ],
+    [
+     "Achille",
+     "Achilles",
+     "HMS Achille"
+    ],
+    [
+     "Revenge",
+     "HMS Revenge"
+    ],
+    [
+     "Defiance",
+     "HMS Defiance"
+    ],
+    [
+     "Dreadnought",
+     "HMS Dreadnought"
+    ],
+    [
+     "Swiftsure",
+     "HMS Swiftsure"
+    ],
+    [
+     "Polyphemus",
+     "HMS Polyphemus"
+    ],
+    [
+     "Thunderer",
+     "HMS Thunderer"
+    ],
+    [
+     "Defence",
+     "HMS Defence"
+    ],
+    [
+     "Prince",
+     "HMS Prince"
+    ],
+    [
+     "Euryalus",
+     "HMS Euryalus"
+    ],
+    [
+     "Naiad",
+     "HMS Naiad"
+    ],
+    [
+     "Phoebe",
+     "HMS Phoebe"
+    ],
+    [
+     "Sirius",
+     "HMS Sirius"
+    ],
+    [
+     "Pickle",
+     "HMS Pickle"
+    ],
+    [
+     "Entreprenante",
+     "Entreprenant",
+     "HMS Entreprenante"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-scottish-independence-battles",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a battle or siege of the Wars of Scottish Independence",
+   "answers": [
+    [
+     "Battle of Bannockburn",
+     "Bannockburn"
+    ],
+    [
+     "Battle of Stirling Bridge",
+     "Stirling Bridge"
+    ],
+    [
+     "Battle of Falkirk",
+     "Falkirk"
+    ],
+    [
+     "Battle of Neville's Cross",
+     "Neville's Cross"
+    ],
+    [
+     "Battle of Halidon Hill",
+     "Halidon Hill"
+    ],
+    [
+     "Battle of Dunbar",
+     "Dunbar",
+     "Battle of Dunbar (1296)"
+    ],
+    [
+     "Battle of Dupplin Moor",
+     "Dupplin Moor"
+    ],
+    [
+     "Battle of Loudoun Hill",
+     "Loudoun Hill"
+    ],
+    [
+     "Battle of Methven",
+     "Methven"
+    ],
+    [
+     "Battle of Roslin",
+     "Roslin"
+    ],
+    [
+     "Battle of Glen Trool",
+     "Glen Trool"
+    ],
+    [
+     "Battle of Old Byland",
+     "Old Byland"
+    ],
+    [
+     "Battle of Myton",
+     "Myton"
+    ],
+    [
+     "Raid of Scone",
+     "Scone",
+     "Battle of Scone",
+     "Raid on Scone"
+    ],
+    [
+     "Battle of Happrew",
+     "Happrew"
+    ],
+    [
+     "Siege of Stirling Castle",
+     "Stirling Castle",
+     "Battle of Stirling Castle",
+     "Sieges of Stirling Castle"
+    ],
+    [
+     "Battle of Dalrigh",
+     "Dalrigh"
+    ],
+    [
+     "Battle of Loch Ryan",
+     "Loch Ryan"
+    ],
+    [
+     "Battle of Turnberry",
+     "Turnberry"
+    ],
+    [
+     "Battle of Slioch",
+     "Slioch"
+    ],
+    [
+     "Battle of Inverurie",
+     "Inverurie",
+     "Battle of Inverurie (1308)"
+    ],
+    [
+     "Battle of the River Dee",
+     "River Dee",
+     "Battle of River Dee"
+    ],
+    [
+     "Battle of the Pass of Brander",
+     "Pass of Brander",
+     "Battle of Pass of Brander"
+    ],
+    [
+     "Capture of Roxburgh",
+     "Roxburgh",
+     "Battle of Roxburgh",
+     "Capture of Roxburgh (1314)"
+    ],
+    [
+     "Battle of Moiry Pass",
+     "Moiry Pass"
+    ],
+    [
+     "Battle of Connor",
+     "Connor"
+    ],
+    [
+     "Battle of Kells",
+     "Kells"
+    ],
+    [
+     "Battle of Skerries",
+     "Skerries"
+    ],
+    [
+     "Battle of Faughart",
+     "Faughart"
+    ],
+    [
+     "Siege of Carlisle",
+     "Carlisle",
+     "Battle of Carlisle",
+     "Siege of Carlisle (1315)"
+    ],
+    [
+     "Battle of Skaithmuir",
+     "Skaithmuir"
+    ],
+    [
+     "Siege of Berwick",
+     "Berwick",
+     "Battle of Berwick",
+     "Siege of Berwick (1318)",
+     "Siege of Berwick (1333)",
+     "Sieges of Berwick (1355 and 1356)"
+    ],
+    [
+     "Battle of Kinghorn",
+     "Kinghorn"
+    ],
+    [
+     "Battle of Annan",
+     "Annan"
+    ],
+    [
+     "Battle of Dornock",
+     "Dornock"
+    ],
+    [
+     "Battle of Boroughmuir",
+     "Boroughmuir"
+    ],
+    [
+     "Battle of Culblean",
+     "Culblean"
+    ],
+    [
+     "Siege of Perth",
+     "Perth",
+     "Battle of Perth",
+     "Siege of Perth (1339)"
+    ],
+    [
+     "Battle of Nesbit Moor",
+     "Nesbit Moor",
+     "Battle of Nesbit Moor (1355)"
+    ],
+    "Sack of Berwick",
+    [
+     "Action at Lanark",
+     "Lanark"
+    ],
+    [
+     "Harrying of Buchan",
+     "Buchan"
+    ],
+    [
+     "Action at Earnside",
+     "Earnside"
+    ],
+    "Burnt Candlemas",
+    "Great Raid of 1322"
+   ]
+  },
+  {
+   "id": "xh-crimean-war-battles",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a battle or siege of the Crimean War",
+   "answers": [
+    [
+     "Battle of Balaclava",
+     "Balaclava",
+     "Balaklava",
+     "Charge of the Light Brigade",
+     "The Thin Red Line",
+     "Charge of the Heavy Brigade"
+    ],
+    [
+     "Siege of Sevastopol",
+     "Sevastopol",
+     "Battle of Sevastopol",
+     "Siege of Sevastopol (1854–1855)",
+     "Sebastopol"
+    ],
+    [
+     "Battle of Inkerman",
+     "Inkerman"
+    ],
+    [
+     "Battle of the Alma",
+     "Alma",
+     "Battle of Alma"
+    ],
+    [
+     "Battle of the Great Redan",
+     "Great Redan",
+     "Battle of Great Redan"
+    ],
+    [
+     "Battle of Malakoff",
+     "Malakoff"
+    ],
+    [
+     "Battle of Sinop",
+     "Sinop"
+    ],
+    [
+     "Battle of Eupatoria",
+     "Eupatoria"
+    ],
+    [
+     "Battle of the Chernaya",
+     "Chernaya",
+     "Battle of Chernaya"
+    ],
+    [
+     "Siege of Kars",
+     "Kars",
+     "Battle of Kars"
+    ],
+    [
+     "Battle of Kinburn",
+     "Kinburn",
+     "Battle of Kinburn (1855)"
+    ],
+    [
+     "Battle of Bomarsund",
+     "Bomarsund"
+    ],
+    [
+     "Siege of Petropavlovsk",
+     "Petropavlovsk",
+     "Battle of Petropavlovsk"
+    ],
+    [
+     "Siege of Silistria",
+     "Silistria",
+     "Battle of Silistria",
+     "Siege of Silistria (1854)"
+    ],
+    [
+     "Siege of Taganrog",
+     "Taganrog",
+     "Battle of Taganrog"
+    ],
+    [
+     "Battle of Oltenița",
+     "Oltenița"
+    ],
+    [
+     "Battle of Cetate",
+     "Cetate"
+    ],
+    [
+     "Siege of Calafat",
+     "Calafat",
+     "Battle of Calafat"
+    ],
+    [
+     "Battle of Caracal",
+     "Caracal"
+    ],
+    [
+     "Battle of Giurgiu",
+     "Giurgiu",
+     "Battle of Giurgiu (1854)"
+    ],
+    [
+     "Battle of Akhaltsikhe",
+     "Akhaltsikhe",
+     "Battle of Akhaltsikhe (1853)"
+    ],
+    [
+     "Battle of Başgedikler",
+     "Başgedikler"
+    ],
+    [
+     "Battle of Nigoiti",
+     "Nigoiti"
+    ],
+    [
+     "Battle of Choloki",
+     "Choloki"
+    ],
+    [
+     "Battle of Kurekdere",
+     "Kurekdere"
+    ],
+    [
+     "Battle of Suomenlinna",
+     "Suomenlinna",
+     "Sveaborg"
+    ]
+   ]
+  },
+  {
+   "id": "xh-american-civil-war-battles",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a battle or siege of the American Civil War",
+   "answers": [
+    [
+     "Battle of Gettysburg",
+     "Gettysburg"
+    ],
+    [
+     "Battle of Fort Sumter",
+     "Fort Sumter",
+     "Second Battle of Fort Sumter"
+    ],
+    [
+     "Battle of Bull Run",
+     "Bull Run",
+     "First Battle of Bull Run",
+     "Second Battle of Bull Run",
+     "Manassas",
+     "First Manassas",
+     "Second Manassas",
+     "Battle of Manassas",
+     "Second Bull Run"
+    ],
+    [
+     "Battle of Antietam",
+     "Antietam",
+     "Sharpsburg",
+     "Battle of Sharpsburg"
+    ],
+    [
+     "Siege of Vicksburg",
+     "Vicksburg",
+     "Battle of Vicksburg"
+    ],
+    [
+     "Battle of Shiloh",
+     "Shiloh",
+     "Pittsburg Landing"
+    ],
+    [
+     "Battle of Fredericksburg",
+     "Fredericksburg",
+     "Second Battle of Fredericksburg"
+    ],
+    [
+     "Battle of Chancellorsville",
+     "Chancellorsville"
+    ],
+    [
+     "Battle of Chickamauga",
+     "Chickamauga"
+    ],
+    [
+     "Battle of Atlanta",
+     "Atlanta"
+    ],
+    [
+     "Battle of Petersburg",
+     "Petersburg",
+     "First Battle of Petersburg",
+     "Second Battle of Petersburg",
+     "Third Battle of Petersburg"
+    ],
+    [
+     "Battle of the Wilderness",
+     "Wilderness",
+     "Battle of Wilderness"
+    ],
+    [
+     "Battle of Cold Harbor",
+     "Cold Harbor"
+    ],
+    [
+     "Battle of Spotsylvania Court House",
+     "Spotsylvania Court House"
+    ],
+    [
+     "Battle of Appomattox Court House",
+     "Appomattox Court House"
+    ],
+    [
+     "Battle of Hampton Roads",
+     "Hampton Roads"
+    ],
+    [
+     "Battle of Mobile Bay",
+     "Mobile Bay"
+    ],
+    [
+     "Battle of Franklin",
+     "Franklin",
+     "Battle of Franklin (1863)",
+     "Battle of Franklin (1864)"
+    ],
+    [
+     "Battle of Nashville",
+     "Nashville"
+    ],
+    [
+     "Battle of Stones River",
+     "Stones River"
+    ],
+    [
+     "Battle of Chattanooga",
+     "Chattanooga",
+     "First Battle of Chattanooga",
+     "Second Battle of Chattanooga"
+    ],
+    [
+     "Battle of Seven Pines",
+     "Seven Pines"
+    ],
+    [
+     "Battle of Fort Donelson",
+     "Fort Donelson"
+    ],
+    [
+     "Battle of Ball's Bluff",
+     "Ball's Bluff"
+    ],
+    [
+     "Battle of Baton Rouge",
+     "Baton Rouge",
+     "Battle of Baton Rouge (1862)"
+    ],
+    [
+     "Battle of Belmont",
+     "Belmont"
+    ],
+    [
+     "Battle of Bentonville",
+     "Bentonville"
+    ],
+    [
+     "Battle of Big Bethel",
+     "Big Bethel"
+    ],
+    [
+     "Battle of Brandy Station",
+     "Brandy Station"
+    ],
+    [
+     "Battle of Bristoe Station",
+     "Bristoe Station"
+    ],
+    [
+     "Battle of Cedar Creek",
+     "Cedar Creek"
+    ],
+    [
+     "Battle of Cedar Mountain",
+     "Cedar Mountain"
+    ],
+    [
+     "Battle of Champion Hill",
+     "Champion Hill"
+    ],
+    [
+     "Battle of Chantilly",
+     "Chantilly"
+    ],
+    [
+     "Battle of Corinth",
+     "Corinth",
+     "Second Battle of Corinth"
+    ],
+    [
+     "Battle of Cross Keys",
+     "Cross Keys"
+    ],
+    [
+     "Battle of Perryville",
+     "Perryville"
+    ],
+    [
+     "Battle of Wilson's Creek",
+     "Wilson's Creek"
+    ],
+    [
+     "Battle of Malvern Hill",
+     "Malvern Hill"
+    ],
+    [
+     "Battle of Fort Wagner",
+     "Fort Wagner",
+     "Battery Wagner"
+    ],
+    [
+     "Battle of Fort Fisher",
+     "Fort Fisher"
+    ],
+    [
+     "Battle of Sailor's Creek",
+     "Sailor's Creek"
+    ],
+    [
+     "Battle of Five Forks",
+     "Five Forks"
+    ],
+    [
+     "Battle of Peachtree Creek",
+     "Peachtree Creek"
+    ],
+    [
+     "Battle of Kennesaw Mountain",
+     "Kennesaw Mountain",
+     "Kennesaw"
+    ],
+    [
+     "Battle of Lookout Mountain",
+     "Lookout Mountain"
+    ],
+    [
+     "Battle of Missionary Ridge",
+     "Missionary Ridge"
+    ],
+    [
+     "Battle of Pea Ridge",
+     "Pea Ridge"
+    ],
+    [
+     "Battle of New Orleans",
+     "New Orleans"
+    ],
+    [
+     "Battle of Island Number Ten",
+     "Island Number Ten",
+     "Island No. 10"
+    ],
+    [
+     "Battle of Monocacy",
+     "Monocacy"
+    ],
+    [
+     "Battle of Glorieta Pass",
+     "Glorieta Pass"
+    ],
+    [
+     "Siege of Port Hudson",
+     "Port Hudson"
+    ],
+    [
+     "Battle of Mill Springs",
+     "Mill Springs"
+    ],
+    [
+     "Battle of Fort Henry",
+     "Fort Henry"
+    ],
+    [
+     "Battle of Gaines' Mill",
+     "Gaines' Mill"
+    ],
+    [
+     "Battle of Fair Oaks",
+     "Fair Oaks"
+    ],
+    [
+     "Battle of Williamsburg",
+     "Williamsburg"
+    ],
+    [
+     "Battle of Winchester",
+     "Winchester"
+    ],
+    [
+     "Battle of Fort Pillow",
+     "Fort Pillow"
+    ],
+    [
+     "Battle of Jonesboro",
+     "Jonesboro"
+    ],
+    [
+     "Battle of the Crater",
+     "The Crater"
+    ],
+    [
+     "Battle of South Mountain",
+     "South Mountain",
+     "Boonsboro"
+    ]
+   ]
+  },
+  {
+   "id": "xh-american-revolutionary-war-battles",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a battle or siege of the American War of Independence",
+   "answers": [
+    [
+     "Battle of Bunker Hill",
+     "Bunker Hill"
+    ],
+    [
+     "Battle of Lexington and Concord",
+     "Lexington and Concord",
+     "Battles of Lexington and Concord"
+    ],
+    [
+     "Battle of Saratoga",
+     "Saratoga",
+     "Battles of Saratoga"
+    ],
+    [
+     "Siege of Yorktown",
+     "Yorktown",
+     "Battle of Yorktown"
+    ],
+    [
+     "Battle of Trenton",
+     "Trenton",
+     "Second Battle of Trenton"
+    ],
+    [
+     "Battle of Princeton",
+     "Princeton"
+    ],
+    [
+     "Battle of Brandywine",
+     "Brandywine"
+    ],
+    [
+     "Battle of Long Island",
+     "Long Island"
+    ],
+    [
+     "Battle of Germantown",
+     "Germantown"
+    ],
+    [
+     "Battle of Monmouth",
+     "Monmouth"
+    ],
+    [
+     "Battle of Camden",
+     "Camden"
+    ],
+    [
+     "Battle of Cowpens",
+     "Cowpens"
+    ],
+    [
+     "Battle of Guilford Court House",
+     "Guilford Court House"
+    ],
+    [
+     "Siege of Boston",
+     "Boston",
+     "Battle of Boston"
+    ],
+    [
+     "Siege of Charleston",
+     "Charleston",
+     "Battle of Charleston"
+    ],
+    [
+     "Capture of Savannah",
+     "Savannah",
+     "Battle of Savannah"
+    ],
+    [
+     "Battle of Quebec",
+     "Quebec",
+     "Battle of Quebec (1775)"
+    ],
+    [
+     "Battle of Kings Mountain",
+     "Kings Mountain"
+    ],
+    [
+     "Battle of Bennington",
+     "Bennington"
+    ],
+    [
+     "Battle of Cape St. Vincent",
+     "Cape St. Vincent",
+     "Battle of Cape St. Vincent (1780)"
+    ],
+    [
+     "Battle of Eutaw Springs",
+     "Eutaw Springs"
+    ],
+    [
+     "Battle of Flamborough Head",
+     "Flamborough Head"
+    ],
+    [
+     "Battle of Fort Washington",
+     "Fort Washington"
+    ],
+    [
+     "Battle of Great Bridge",
+     "Great Bridge"
+    ],
+    [
+     "Battle of Harlem Heights",
+     "Harlem Heights"
+    ],
+    [
+     "Battle of Hobkirk's Hill",
+     "Hobkirk's Hill"
+    ],
+    [
+     "Battle of Hubbardton",
+     "Hubbardton"
+    ],
+    [
+     "Battle of Kettle Creek",
+     "Kettle Creek"
+    ],
+    [
+     "Battle of Moore's Creek Bridge",
+     "Moore's Creek Bridge"
+    ],
+    [
+     "Battle of Oriskany",
+     "Oriskany"
+    ],
+    [
+     "Battle of Paoli",
+     "Paoli"
+    ],
+    [
+     "Battle of Paulus Hook",
+     "Paulus Hook"
+    ],
+    [
+     "Battle of Porto Praya",
+     "Porto Praya"
+    ],
+    [
+     "Battle of Rhode Island",
+     "Rhode Island"
+    ],
+    [
+     "Battle of Stony Point",
+     "Stony Point"
+    ],
+    [
+     "Capture of Fort Ticonderoga",
+     "Ticonderoga",
+     "Fort Ticonderoga",
+     "Battle of Ticonderoga"
+    ],
+    [
+     "Battle of Valcour Island",
+     "Valcour Island",
+     "Valcour"
+    ],
+    [
+     "Battle of the Waxhaws",
+     "Waxhaws"
+    ],
+    [
+     "Battle of the Saintes",
+     "Saintes"
+    ],
+    [
+     "Battle of the Chesapeake",
+     "Capes",
+     "Battle of the Capes",
+     "Chesapeake"
+    ],
+    [
+     "Battle of White Plains",
+     "White Plains"
+    ],
+    [
+     "Battle of Newport",
+     "Newport"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-napoleonic-battles",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a battle of the Napoleonic Wars (1803 to 1815)",
+   "answers": [
+    [
+     "Waterloo",
+     "Battle of Waterloo"
+    ],
+    [
+     "Austerlitz",
+     "Battle of Austerlitz",
+     "Battle of the Three Emperors"
+    ],
+    [
+     "Trafalgar",
+     "Battle of Trafalgar"
+    ],
+    [
+     "Borodino",
+     "Battle of Borodino"
+    ],
+    [
+     "Leipzig",
+     "Battle of Leipzig",
+     "Battle of the Nations"
+    ],
+    [
+     "Wagram",
+     "Battle of Wagram"
+    ],
+    [
+     "Jena",
+     "Battle of Jena",
+     "Jena-Auerstedt",
+     "Auerstedt",
+     "Battle of Jena-Auerstedt"
+    ],
+    [
+     "Salamanca",
+     "Battle of Salamanca"
+    ],
+    [
+     "Vitoria",
+     "Battle of Vitoria",
+     "Vittoria"
+    ],
+    [
+     "Talavera",
+     "Battle of Talavera"
+    ],
+    [
+     "Corunna",
+     "Battle of Corunna",
+     "La Coruna",
+     "A Coruna"
+    ],
+    [
+     "Ulm",
+     "Battle of Ulm"
+    ],
+    [
+     "Eylau",
+     "Battle of Eylau",
+     "Preussisch Eylau"
+    ],
+    [
+     "Friedland",
+     "Battle of Friedland"
+    ],
+    [
+     "Copenhagen",
+     "Battle of Copenhagen"
+    ],
+    [
+     "Quatre Bras",
+     "Battle of Quatre Bras"
+    ],
+    [
+     "Ligny",
+     "Battle of Ligny"
+    ],
+    [
+     "Albuera",
+     "Battle of Albuera"
+    ],
+    [
+     "Badajoz",
+     "Siege of Badajoz"
+    ],
+    [
+     "Busaco",
+     "Battle of Busaco",
+     "Bussaco"
+    ],
+    [
+     "Fuentes de Onoro",
+     "Battle of Fuentes de Onoro"
+    ],
+    [
+     "Wavre",
+     "Battle of Wavre"
+    ],
+    [
+     "Dresden",
+     "Battle of Dresden"
+    ],
+    [
+     "Smolensk",
+     "Battle of Smolensk"
+    ],
+    [
+     "Berezina",
+     "Battle of the Berezina",
+     "Crossing of the Berezina"
+    ],
+    [
+     "Aspern-Essling",
+     "Battle of Aspern-Essling",
+     "Essling",
+     "Aspern"
+    ],
+    [
+     "Lutzen",
+     "Battle of Lutzen"
+    ],
+    [
+     "Bautzen",
+     "Battle of Bautzen"
+    ],
+    [
+     "Toulouse",
+     "Battle of Toulouse"
+    ],
+    [
+     "Vimeiro",
+     "Battle of Vimeiro"
+    ],
+    [
+     "Barrosa",
+     "Battle of Barrosa"
+    ],
+    [
+     "Maida",
+     "Battle of Maida"
+    ],
+    [
+     "Cape Finisterre",
+     "Battle of Cape Finisterre"
+    ],
+    [
+     "Hanau",
+     "Battle of Hanau"
+    ],
+    [
+     "Brienne",
+     "Battle of Brienne"
+    ],
+    [
+     "Montmirail",
+     "Battle of Montmirail"
+    ],
+    [
+     "Ciudad Rodrigo",
+     "Siege of Ciudad Rodrigo"
+    ],
+    [
+     "Burgos",
+     "Siege of Burgos"
+    ],
+    [
+     "Bailen",
+     "Battle of Bailen",
+     "Baylen"
+    ],
+    [
+     "Raszyn",
+     "Battle of Raszyn"
+    ],
+    [
+     "Lissa",
+     "Battle of Lissa"
+    ],
+    [
+     "Basque Roads",
+     "Battle of Basque Roads"
+    ],
+    [
+     "Heilsberg",
+     "Battle of Heilsberg"
+    ]
+   ]
+  },
+  {
+   "id": "xh-nz-prime-ministers",
+   "tags": [
+    "royals"
+   ],
+   "text": "Name a Prime Minister of New Zealand since 1935 (as of 2025)",
+   "answers": [
+    [
+     "Michael Joseph Savage",
+     "Michael Savage",
+     "Savage"
+    ],
+    [
+     "Peter Fraser",
+     "Fraser"
+    ],
+    [
+     "Sidney Holland",
+     "Holland"
+    ],
+    [
+     "Walter Nash",
+     "Nash"
+    ],
+    [
+     "Keith Holyoake",
+     "Holyoake"
+    ],
+    [
+     "John Marshall",
+     "Jack Marshall",
+     "Marshall"
+    ],
+    [
+     "Norman Kirk",
+     "Kirk"
+    ],
+    [
+     "Bill Rowling",
+     "Wallace Rowling",
+     "Rowling"
+    ],
+    [
+     "Robert Muldoon",
+     "Rob Muldoon",
+     "Muldoon"
+    ],
+    [
+     "David Lange",
+     "Lange"
+    ],
+    [
+     "Geoffrey Palmer",
+     "Palmer"
+    ],
+    [
+     "Mike Moore",
+     "Moore"
+    ],
+    [
+     "Jim Bolger",
+     "James Bolger",
+     "Bolger"
+    ],
+    [
+     "Jenny Shipley",
+     "Shipley"
+    ],
+    [
+     "Helen Clark",
+     "Clark"
+    ],
+    [
+     "John Key",
+     "Key"
+    ],
+    [
+     "Bill English",
+     "English"
+    ],
+    [
+     "Jacinda Ardern",
+     "Ardern"
+    ],
+    [
+     "Chris Hipkins",
+     "Christopher Hipkins",
+     "Hipkins"
+    ],
+    [
+     "Christopher Luxon",
+     "Chris Luxon",
+     "Luxon"
+    ]
+   ]
+  },
+  {
+   "id": "xh-holy-roman-emperors",
+   "tags": [
+    "royals"
+   ],
+   "text": "Name a Holy Roman Emperor (first name or nickname is enough; no number needed)",
+   "answers": [
+    [
+     "Charlemagne",
+     "Charles the Great",
+     "Karl der Grosse",
+     "Charles I"
+    ],
+    [
+     "Otto",
+     "Otto the Great",
+     "Otto I",
+     "Otto II",
+     "Otto III",
+     "Otto IV"
+    ],
+    [
+     "Frederick",
+     "Barbarossa",
+     "Frederick Barbarossa",
+     "Frederick I",
+     "Frederick II",
+     "Frederick III"
+    ],
+    [
+     "Henry",
+     "Henry II",
+     "Henry III",
+     "Henry IV",
+     "Henry V",
+     "Henry VI",
+     "Henry VII"
+    ],
+    [
+     "Charles",
+     "Charles IV",
+     "Charles V",
+     "Charles VI",
+     "Charles VII"
+    ],
+    [
+     "Maximilian",
+     "Maximilian I",
+     "Maximilian II"
+    ],
+    [
+     "Ferdinand",
+     "Ferdinand I",
+     "Ferdinand II",
+     "Ferdinand III"
+    ],
+    [
+     "Leopold",
+     "Leopold I",
+     "Leopold II"
+    ],
+    [
+     "Joseph",
+     "Joseph I",
+     "Joseph II"
+    ],
+    [
+     "Francis",
+     "Francis I",
+     "Francis II",
+     "Franz II"
+    ],
+    [
+     "Rudolf",
+     "Rudolf I",
+     "Rudolf II",
+     "Rudolph",
+     "Rudolph II"
+    ],
+    "Sigismund",
+    [
+     "Conrad",
+     "Conrad II",
+     "Konrad"
+    ],
+    [
+     "Lothair",
+     "Lothair I",
+     "Lothair III",
+     "Lothar"
+    ],
+    [
+     "Louis",
+     "Louis the Pious",
+     "Louis the Bavarian",
+     "Louis IV",
+     "Louis II"
+    ],
+    "Matthias",
+    "Charles the Bald",
+    "Arnulf",
+    [
+     "Wenceslaus",
+     "Wenceslas",
+     "Wenzel"
+    ],
+    [
+     "Albert",
+     "Albert II"
+    ],
+    "Berengar",
+    "Rupert",
+    "Philip of Swabia",
+    "Lambert",
+    "Guy",
+    "Charles the Fat",
+    "Adolf of Nassau"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-mughal-emperors",
+   "tags": [
+    "royals"
+   ],
+   "text": "Name a Mughal emperor (no number needed)",
+   "answers": [
+    [
+     "Akbar",
+     "Akbar the Great",
+     "Akbar I",
+     "Jalaluddin Muhammad Akbar"
+    ],
+    [
+     "Shah Jahan",
+     "Shah Jehan",
+     "Khurram",
+     "Shahjahan"
+    ],
+    [
+     "Babur",
+     "Zahir ud-din Muhammad Babur",
+     "Zahiruddin Babur"
+    ],
+    [
+     "Aurangzeb",
+     "Alamgir",
+     "Alamgir I",
+     "Aurangzeb Alamgir"
+    ],
+    "Humayun",
+    [
+     "Jahangir",
+     "Jehangir",
+     "Salim",
+     "Nuruddin Jahangir"
+    ],
+    [
+     "Bahadur Shah Zafar",
+     "Bahadur Shah II",
+     "Bahadur Shah"
+    ],
+    [
+     "Bahadur Shah I",
+     "Shah Alam I"
+    ],
+    "Jahandar Shah",
+    "Farrukhsiyar",
+    [
+     "Muhammad Shah",
+     "Muhammad Shah Rangila",
+     "Rangila"
+    ],
+    "Shah Alam II",
+    [
+     "Akbar II",
+     "Akbar Shah II"
+    ],
+    "Alamgir II",
+    [
+     "Ahmad Shah Bahadur",
+     "Ahmad Shah"
+    ],
+    "Rafi ud-Darajat",
+    [
+     "Rafi ud-Daulah",
+     "Shah Jahan II"
+    ],
+    "Shah Jahan III"
+   ]
+  },
+  {
+   "id": "xh-german-chancellors-reich",
+   "tags": [
+    "royals"
+   ],
+   "text": "Name a Chancellor of Germany between 1871 and 1945",
+   "answers": [
+    [
+     "Otto von Bismarck",
+     "Bismarck"
+    ],
+    [
+     "Adolf Hitler",
+     "Hitler"
+    ],
+    [
+     "Leo von Caprivi",
+     "Caprivi"
+    ],
+    [
+     "Chlodwig zu Hohenlohe-Schillingsfuerst",
+     "Hohenlohe",
+     "Prince Hohenlohe"
+    ],
+    [
+     "Bernhard von Bulow",
+     "Bulow",
+     "von Bulow"
+    ],
+    [
+     "Theobald von Bethmann Hollweg",
+     "Bethmann Hollweg"
+    ],
+    [
+     "Georg Michaelis",
+     "Michaelis"
+    ],
+    [
+     "Georg von Hertling",
+     "Hertling"
+    ],
+    [
+     "Max von Baden",
+     "Prince Max of Baden",
+     "Maximilian of Baden"
+    ],
+    [
+     "Friedrich Ebert",
+     "Ebert"
+    ],
+    [
+     "Gustav Bauer",
+     "Bauer"
+    ],
+    [
+     "Hermann Muller",
+     "Muller"
+    ],
+    [
+     "Konstantin Fehrenbach",
+     "Fehrenbach"
+    ],
+    [
+     "Joseph Wirth",
+     "Wirth"
+    ],
+    [
+     "Wilhelm Cuno",
+     "Cuno"
+    ],
+    [
+     "Gustav Stresemann",
+     "Stresemann"
+    ],
+    [
+     "Wilhelm Marx",
+     "Marx"
+    ],
+    [
+     "Hans Luther",
+     "Luther"
+    ],
+    [
+     "Heinrich Bruning",
+     "Bruning"
+    ],
+    [
+     "Franz von Papen",
+     "Papen",
+     "von Papen"
+    ],
+    [
+     "Kurt von Schleicher",
+     "Schleicher",
+     "von Schleicher"
+    ],
+    [
+     "Joseph Goebbels",
+     "Goebbels"
+    ]
+   ]
+  },
+  {
+   "id": "xh-south-african-leaders",
+   "tags": [
+    "royals"
+   ],
+   "text": "Name a Prime Minister, State President or President of South Africa (1910 to 2025)",
+   "answers": [
+    [
+     "Nelson Mandela",
+     "Mandela"
+    ],
+    [
+     "Jacob Zuma",
+     "Zuma"
+    ],
+    [
+     "Cyril Ramaphosa",
+     "Ramaphosa"
+    ],
+    [
+     "Thabo Mbeki",
+     "Mbeki"
+    ],
+    [
+     "F. W. de Klerk",
+     "FW de Klerk",
+     "de Klerk",
+     "Frederik de Klerk"
+    ],
+    [
+     "P. W. Botha",
+     "PW Botha"
+    ],
+    "Louis Botha",
+    [
+     "Jan Smuts",
+     "Smuts",
+     "Jan Christian Smuts"
+    ],
+    [
+     "J. B. M. Hertzog",
+     "Hertzog",
+     "JBM Hertzog"
+    ],
+    [
+     "D. F. Malan",
+     "Malan",
+     "DF Malan"
+    ],
+    [
+     "Hendrik Verwoerd",
+     "Verwoerd"
+    ],
+    [
+     "John Vorster",
+     "B. J. Vorster",
+     "Vorster",
+     "BJ Vorster"
+    ],
+    [
+     "J. G. Strijdom",
+     "Strijdom",
+     "JG Strijdom"
+    ],
+    [
+     "Kgalema Motlanthe",
+     "Motlanthe"
+    ],
+    [
+     "C. R. Swart",
+     "Swart",
+     "Charles Swart",
+     "CR Swart"
+    ],
+    [
+     "Nico Diederichs",
+     "Diederichs"
+    ],
+    [
+     "Marais Viljoen",
+     "Viljoen"
+    ],
+    [
+     "Jim Fouche",
+     "Fouche",
+     "J. J. Fouche"
+    ],
+    "Jan de Klerk"
+   ]
+  },
+  {
+   "id": "xh-british-royal-houses",
+   "tags": [
+    "royals"
+   ],
+   "text": "Name a royal house or dynasty that has ruled England, Scotland or Britain",
+   "answers": [
+    [
+     "Windsor",
+     "House of Windsor"
+    ],
+    [
+     "Tudor",
+     "House of Tudor"
+    ],
+    [
+     "Stuart",
+     "Stewart",
+     "House of Stuart",
+     "House of Stewart"
+    ],
+    [
+     "Hanover",
+     "House of Hanover",
+     "Hanoverian"
+    ],
+    [
+     "Plantagenet",
+     "House of Plantagenet",
+     "Angevin",
+     "Anjou",
+     "House of Anjou"
+    ],
+    [
+     "Lancaster",
+     "House of Lancaster",
+     "Lancastrian"
+    ],
+    [
+     "York",
+     "House of York",
+     "Yorkist"
+    ],
+    [
+     "Normandy",
+     "House of Normandy",
+     "Norman",
+     "Normans"
+    ],
+    [
+     "Wessex",
+     "House of Wessex"
+    ],
+    [
+     "Blois",
+     "House of Blois"
+    ],
+    [
+     "Saxe-Coburg and Gotha",
+     "House of Saxe-Coburg and Gotha",
+     "Saxe-Coburg-Gotha",
+     "Saxe-Coburg"
+    ],
+    [
+     "Godwin",
+     "House of Godwin",
+     "Godwinson"
+    ],
+    [
+     "Denmark",
+     "House of Denmark",
+     "Danish",
+     "Knytlinga"
+    ],
+    [
+     "Orange",
+     "House of Orange",
+     "Orange-Nassau",
+     "Nassau"
+    ],
+    [
+     "Dunkeld",
+     "House of Dunkeld"
+    ],
+    [
+     "Bruce",
+     "House of Bruce"
+    ],
+    [
+     "Balliol",
+     "House of Balliol"
+    ],
+    [
+     "Alpin",
+     "House of Alpin",
+     "Alpin dynasty",
+     "Kenneth MacAlpin"
+    ],
+    [
+     "Moray",
+     "House of Moray",
+     "Macbeth"
+    ]
+   ]
+  },
+  {
+   "id": "xh-viking-leaders",
+   "tags": [
+    "royals"
+   ],
+   "text": "Name a Viking-age king, warlord or explorer (793 to 1066)",
+   "answers": [
+    [
+     "Cnut the Great",
+     "Cnut",
+     "Canute",
+     "Knut",
+     "Knud",
+     "King Canute"
+    ],
+    [
+     "Harald Hardrada",
+     "Hardrada",
+     "Harald Sigurdsson",
+     "Harald III of Norway"
+    ],
+    [
+     "Ragnar Lothbrok",
+     "Ragnar",
+     "Lothbrok",
+     "Ragnar Lodbrok"
+    ],
+    [
+     "Ivar the Boneless",
+     "Ivar",
+     "Ivarr"
+    ],
+    [
+     "Erik the Red",
+     "Eric the Red",
+     "Erik Thorvaldsson"
+    ],
+    [
+     "Leif Erikson",
+     "Leif Ericson",
+     "Leif Eriksson",
+     "Leif"
+    ],
+    [
+     "Sweyn Forkbeard",
+     "Sweyn",
+     "Svein Forkbeard",
+     "Svein"
+    ],
+    [
+     "Eric Bloodaxe",
+     "Erik Bloodaxe"
+    ],
+    [
+     "Harald Bluetooth",
+     "Bluetooth",
+     "Harald Gormsson"
+    ],
+    [
+     "Harald Fairhair",
+     "Fairhair",
+     "Harald I of Norway"
+    ],
+    [
+     "Rollo",
+     "Hrolf",
+     "Gange-Rolf",
+     "Rolf the Walker"
+    ],
+    [
+     "Olaf Tryggvason",
+     "Olaf",
+     "Olav Tryggvason"
+    ],
+    [
+     "Olaf Haraldsson",
+     "St Olaf",
+     "Saint Olaf",
+     "Olaf II of Norway",
+     "Olav Haraldsson"
+    ],
+    [
+     "Halfdan Ragnarsson",
+     "Halfdan"
+    ],
+    [
+     "Guthrum",
+     "Guthrum the Old"
+    ],
+    [
+     "Ubba",
+     "Ubba Ragnarsson"
+    ],
+    [
+     "Bjorn Ironside",
+     "Bjorn",
+     "Bjorn Jarnsida"
+    ],
+    [
+     "Gorm the Old",
+     "Gorm"
+    ],
+    [
+     "Harthacnut",
+     "Hardicanute",
+     "Hardeknud"
+    ],
+    [
+     "Magnus the Good",
+     "Magnus Olafsson"
+    ],
+    [
+     "Haakon the Good",
+     "Haakon",
+     "Hakon the Good",
+     "Hakon"
+    ],
+    [
+     "Rurik",
+     "Rurik of Novgorod",
+     "Riurik"
+    ],
+    [
+     "Oleg of Novgorod",
+     "Oleg",
+     "Oleg the Prophet"
+    ],
+    [
+     "Thorfinn Karlsefni",
+     "Karlsefni"
+    ],
+    [
+     "Thorkell the Tall",
+     "Thorkell"
+    ],
+    [
+     "Sigurd Snake-in-the-Eye",
+     "Sigurd"
+    ],
+    [
+     "Hastein",
+     "Hasteinn"
+    ],
+    [
+     "Ketil Flatnose",
+     "Ketill Flatnose"
+    ],
+    "Olof Skotkonung"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-us-presidential-losers",
+   "tags": [
+    "royals"
+   ],
+   "text": "Name a major-party US presidential nominee who lost the election (1960 to 2024)",
+   "answers": [
+    [
+     "Richard Nixon",
+     "Nixon"
+    ],
+    [
+     "Barry Goldwater",
+     "Goldwater"
+    ],
+    [
+     "Hubert Humphrey",
+     "Humphrey"
+    ],
+    [
+     "George McGovern",
+     "McGovern"
+    ],
+    [
+     "Gerald Ford",
+     "Ford"
+    ],
+    [
+     "Jimmy Carter",
+     "Carter"
+    ],
+    [
+     "Walter Mondale",
+     "Mondale"
+    ],
+    [
+     "Michael Dukakis",
+     "Dukakis"
+    ],
+    [
+     "George H. W. Bush",
+     "George Bush",
+     "Bush",
+     "George Bush Sr",
+     "Bush Sr",
+     "George HW Bush"
+    ],
+    [
+     "Bob Dole",
+     "Dole",
+     "Robert Dole"
+    ],
+    [
+     "Al Gore",
+     "Gore",
+     "Albert Gore"
+    ],
+    [
+     "John Kerry",
+     "Kerry"
+    ],
+    [
+     "John McCain",
+     "McCain"
+    ],
+    [
+     "Mitt Romney",
+     "Romney"
+    ],
+    [
+     "Hillary Clinton",
+     "Clinton",
+     "Hilary Clinton",
+     "Hillary Rodham Clinton"
+    ],
+    [
+     "Donald Trump",
+     "Trump"
+    ],
+    [
+     "Kamala Harris",
+     "Harris"
+    ]
+   ]
+  },
+  {
+   "id": "xh-hindu-deities",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a Hindu god or goddess",
+   "answers": [
+    [
+     "Vishnu",
+     "Narayana",
+     "Hari"
+    ],
+    [
+     "Shiva",
+     "Siva",
+     "Mahadeva",
+     "Shankar"
+    ],
+    "Brahma",
+    [
+     "Ganesha",
+     "Ganesh",
+     "Ganapati"
+    ],
+    "Krishna",
+    [
+     "Rama",
+     "Ram"
+    ],
+    "Hanuman",
+    [
+     "Lakshmi",
+     "Laxmi"
+    ],
+    "Parvati",
+    "Durga",
+    "Kali",
+    [
+     "Saraswati",
+     "Sarasvati"
+    ],
+    "Indra",
+    "Agni",
+    [
+     "Surya",
+     "Suryadev"
+    ],
+    "Vayu",
+    "Varuna",
+    "Yama",
+    [
+     "Kartikeya",
+     "Murugan",
+     "Skanda",
+     "Kumara",
+     "Subramanya"
+    ],
+    "Kubera",
+    "Sita",
+    "Radha",
+    "Chandra",
+    [
+     "Kamadeva",
+     "Kama"
+    ],
+    "Narasimha",
+    "Vamana",
+    "Balarama",
+    "Garuda",
+    "Nandi",
+    "Ayyappa",
+    "Shani",
+    "Ganga",
+    "Bhairava",
+    "Jagannath",
+    [
+     "Venkateswara",
+     "Balaji",
+     "Tirupati Balaji"
+    ],
+    "Annapurna",
+    "Sati",
+    "Rudra",
+    [
+     "Usha",
+     "Ushas"
+    ],
+    "Prithvi",
+    "Aditi",
+    "Shakti",
+    "Dattatreya",
+    "Hayagriva",
+    "Parashurama",
+    "Matsya",
+    "Kurma",
+    "Varaha",
+    "Manasa",
+    "Chamunda"
+   ]
+  },
+  {
+   "id": "xh-kings-israel-judah",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a king of the united kingdom of Israel, the northern kingdom of Israel or the kingdom of Judah",
+   "answers": [
+    [
+     "David",
+     "King David"
+    ],
+    [
+     "Solomon",
+     "King Solomon"
+    ],
+    [
+     "Saul",
+     "King Saul"
+    ],
+    "Ahab",
+    "Hezekiah",
+    "Josiah",
+    "Rehoboam",
+    [
+     "Jeroboam",
+     "Jeroboam I",
+     "Jeroboam II"
+    ],
+    "Omri",
+    "Jehu",
+    "Asa",
+    "Jehoshaphat",
+    [
+     "Manasseh",
+     "Manasses"
+    ],
+    "Ahaz",
+    "Zedekiah",
+    "Jehoiakim",
+    [
+     "Jehoiachin",
+     "Jeconiah",
+     "Coniah"
+    ],
+    [
+     "Uzziah",
+     "Azariah"
+    ],
+    "Jotham",
+    "Amaziah",
+    [
+     "Joash",
+     "Jehoash"
+    ],
+    "Amon",
+    "Hoshea",
+    "Pekah",
+    "Menahem",
+    "Zimri",
+    "Baasha",
+    "Nadab",
+    "Elah",
+    "Ahaziah",
+    [
+     "Jehoram",
+     "Joram"
+    ],
+    "Jehoahaz",
+    "Zechariah",
+    "Shallum",
+    "Pekahiah",
+    [
+     "Abijah",
+     "Abijam"
+    ],
+    [
+     "Ish-bosheth",
+     "Ishbosheth",
+     "Eshbaal"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-jewish-holidays",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a Jewish holiday, festival or fast day",
+   "answers": [
+    [
+     "Passover",
+     "Pesach"
+    ],
+    [
+     "Yom Kippur",
+     "Day of Atonement"
+    ],
+    [
+     "Hanukkah",
+     "Chanukah",
+     "Hanukah",
+     "Festival of Lights"
+    ],
+    "Purim",
+    [
+     "Rosh Hashanah",
+     "Rosh Hashana",
+     "Jewish New Year"
+    ],
+    [
+     "Sukkot",
+     "Succot",
+     "Feast of Tabernacles",
+     "Feast of Booths"
+    ],
+    [
+     "Shavuot",
+     "Shavuos",
+     "Feast of Weeks"
+    ],
+    [
+     "Simchat Torah",
+     "Simhat Torah"
+    ],
+    [
+     "Shemini Atzeret",
+     "Shmini Atzeret"
+    ],
+    [
+     "Tu BiShvat",
+     "Tu B'Shvat"
+    ],
+    [
+     "Lag B'Omer",
+     "Lag BaOmer"
+    ],
+    "Tisha B'Av",
+    "Tu B'Av",
+    [
+     "Yom HaShoah",
+     "Holocaust Remembrance Day"
+    ],
+    [
+     "Yom Ha'atzmaut",
+     "Israel Independence Day"
+    ],
+    [
+     "Yom Yerushalayim",
+     "Jerusalem Day"
+    ],
+    "Yom HaZikaron",
+    [
+     "Shabbat",
+     "Sabbath",
+     "Shabbos"
+    ],
+    [
+     "Rosh Chodesh",
+     "Rosh Hodesh"
+    ],
+    [
+     "Fast of Gedaliah",
+     "Tzom Gedaliah",
+     "Tzom Gedalia"
+    ],
+    [
+     "Tenth of Tevet",
+     "Asarah BeTevet"
+    ],
+    [
+     "Fast of Esther",
+     "Taanit Esther"
+    ],
+    [
+     "Seventeenth of Tammuz",
+     "Tzom Tammuz",
+     "17 Tammuz"
+    ],
+    "Shushan Purim",
+    "Hoshana Rabbah",
+    "Sigd",
+    [
+     "Pesach Sheni",
+     "Second Passover"
+    ]
+   ]
+  },
+  {
+   "id": "xh-apocrypha-books",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a book of the Apocrypha (as printed in the King James Bible)",
+   "answers": [
+    [
+     "Tobit",
+     "Book of Tobit",
+     "Tobias"
+    ],
+    [
+     "Judith",
+     "Book of Judith"
+    ],
+    [
+     "Wisdom",
+     "Wisdom of Solomon",
+     "Book of Wisdom"
+    ],
+    [
+     "Ecclesiasticus",
+     "Sirach",
+     "Wisdom of Sirach",
+     "Ben Sira",
+     "Wisdom of Jesus the Son of Sirach"
+    ],
+    [
+     "Baruch",
+     "Book of Baruch"
+    ],
+    [
+     "1 Maccabees",
+     "First Maccabees",
+     "First Book of Maccabees",
+     "Maccabees",
+     "I Maccabees"
+    ],
+    [
+     "2 Maccabees",
+     "Second Maccabees",
+     "Second Book of Maccabees",
+     "II Maccabees"
+    ],
+    [
+     "1 Esdras",
+     "First Esdras",
+     "I Esdras",
+     "Esdras",
+     "3 Esdras"
+    ],
+    [
+     "2 Esdras",
+     "Second Esdras",
+     "II Esdras",
+     "4 Esdras"
+    ],
+    [
+     "Prayer of Manasseh",
+     "Prayer of Manasses",
+     "Manasseh"
+    ],
+    [
+     "Susanna",
+     "History of Susanna",
+     "Story of Susanna"
+    ],
+    "Bel and the Dragon",
+    [
+     "Song of the Three Children",
+     "Song of the Three Holy Children",
+     "Prayer of Azariah",
+     "Song of the Three Young Men"
+    ],
+    [
+     "Rest of Esther",
+     "Additions to Esther",
+     "Rest of the Book of Esther"
+    ],
+    [
+     "Letter of Jeremiah",
+     "Epistle of Jeremiah"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-argonauts",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name an Argonaut who sailed with Jason on the Argo (as listed in ancient sources)",
+   "answers": [
+    [
+     "Heracles",
+     "Hercules"
+    ],
+    "Orpheus",
+    "Castor",
+    [
+     "Pollux",
+     "Polydeuces"
+    ],
+    "Atalanta",
+    "Peleus",
+    "Telamon",
+    "Theseus",
+    "Zetes",
+    "Calais",
+    "Argus",
+    "Tiphys",
+    "Lynceus",
+    "Idas",
+    "Idmon",
+    "Mopsus",
+    "Meleager",
+    "Admetus",
+    "Euphemus",
+    "Hylas",
+    "Ancaeus",
+    "Augeas",
+    "Asclepius",
+    "Butes",
+    "Echion",
+    "Iphiclus",
+    "Iolaus",
+    "Acastus",
+    "Amphiaraus",
+    "Caeneus",
+    "Nestor",
+    "Laertes",
+    "Canthus",
+    "Periclymenus",
+    "Oileus",
+    "Actor",
+    "Polyphemus",
+    "Aethalides",
+    "Eurytus",
+    "Palaemon",
+    "Phalerus",
+    "Ascalaphus",
+    "Erginus",
+    "Peneleos"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xh-patron-saints-countries",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a patron saint of a country (primary or secondary)",
+   "answers": [
+    [
+     "Saint George",
+     "St George",
+     "George"
+    ],
+    [
+     "Saint Andrew",
+     "St Andrew",
+     "Andrew"
+    ],
+    [
+     "Saint David",
+     "St David",
+     "David",
+     "Dewi Sant"
+    ],
+    [
+     "Saint Patrick",
+     "St Patrick",
+     "Patrick"
+    ],
+    [
+     "Saint Denis",
+     "St Denis",
+     "Denis",
+     "Saint Denys"
+    ],
+    [
+     "Joan of Arc",
+     "Saint Joan of Arc"
+    ],
+    [
+     "Saint James",
+     "St James",
+     "James",
+     "Santiago",
+     "Saint James the Greater"
+    ],
+    [
+     "Saint Boniface",
+     "St Boniface",
+     "Boniface"
+    ],
+    [
+     "Saint Stephen",
+     "St Stephen",
+     "Stephen",
+     "King Stephen of Hungary"
+    ],
+    [
+     "Saint Wenceslas",
+     "St Wenceslas",
+     "Wenceslas",
+     "Good King Wenceslas",
+     "Wenceslaus"
+    ],
+    [
+     "Saint Olaf",
+     "St Olaf",
+     "Olaf",
+     "Olav"
+    ],
+    [
+     "Saint Casimir",
+     "St Casimir",
+     "Casimir"
+    ],
+    [
+     "Saint Stanislaus",
+     "St Stanislaus",
+     "Stanislaus",
+     "Stanislaw"
+    ],
+    [
+     "Saint Anthony of Padua",
+     "St Anthony",
+     "Anthony of Padua",
+     "Anthony",
+     "Saint Anthony"
+    ],
+    [
+     "Saint Francis of Assisi",
+     "St Francis",
+     "Francis of Assisi",
+     "Francis"
+    ],
+    [
+     "Saint Catherine of Siena",
+     "St Catherine of Siena",
+     "Catherine of Siena"
+    ],
+    [
+     "Saint Sava",
+     "St Sava",
+     "Sava"
+    ],
+    [
+     "Saint Nicholas",
+     "St Nicholas",
+     "Nicholas"
+    ],
+    [
+     "Saint Cyril",
+     "St Cyril",
+     "Cyril",
+     "Saint Methodius",
+     "Methodius",
+     "Cyril and Methodius"
+    ],
+    [
+     "Saint Rose of Lima",
+     "St Rose of Lima",
+     "Rose of Lima"
+    ],
+    [
+     "Saint Ansgar",
+     "St Ansgar",
+     "Ansgar",
+     "Anskar"
+    ],
+    [
+     "Saint Eric",
+     "St Eric",
+     "Eric",
+     "Saint Erik"
+    ],
+    [
+     "Saint Henry",
+     "St Henry",
+     "Henry",
+     "Saint Henry of Uppsala"
+    ],
+    [
+     "Saint Gregory the Illuminator",
+     "Gregory the Illuminator",
+     "St Gregory"
+    ],
+    [
+     "Saint Nino",
+     "St Nino",
+     "Nino"
+    ],
+    [
+     "Saint Brigid",
+     "St Brigid",
+     "Brigid",
+     "Saint Bridget",
+     "St Bridget",
+     "Bridget",
+     "Brigid of Kildare"
+    ],
+    [
+     "Saint Columba",
+     "St Columba",
+     "Columba",
+     "Colmcille"
+    ],
+    [
+     "Saint Willibrord",
+     "St Willibrord",
+     "Willibrord"
+    ],
+    [
+     "Saint Elizabeth of Hungary",
+     "St Elizabeth",
+     "Elizabeth of Hungary"
+    ],
+    [
+     "Saint Therese of Lisieux",
+     "St Therese",
+     "Therese of Lisieux",
+     "Therese"
+    ]
+   ]
+  },
+  {
+   "id": "xh-norse-realms-places",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a realm or place in Norse mythology",
+   "answers": [
+    [
+     "Asgard",
+     "Asgardr"
+    ],
+    [
+     "Midgard",
+     "Midgardr"
+    ],
+    [
+     "Valhalla",
+     "Valhol"
+    ],
+    [
+     "Jotunheim",
+     "Jotunheimr",
+     "Jotunheimen"
+    ],
+    [
+     "Yggdrasil",
+     "The World Tree",
+     "Yggdrasill"
+    ],
+    [
+     "Bifrost",
+     "The Rainbow Bridge"
+    ],
+    [
+     "Niflheim",
+     "Niflheimr"
+    ],
+    [
+     "Muspelheim",
+     "Muspell",
+     "Muspellsheim"
+    ],
+    [
+     "Vanaheim",
+     "Vanaheimr"
+    ],
+    [
+     "Alfheim",
+     "Alfheimr",
+     "Ljosalfheim"
+    ],
+    [
+     "Svartalfheim",
+     "Nidavellir",
+     "Svartalfaheim",
+     "Svartalfheimr"
+    ],
+    [
+     "Helheim",
+     "Hel",
+     "Helheimr"
+    ],
+    [
+     "Folkvangr",
+     "Folkvang"
+    ],
+    [
+     "Gimle",
+     "Gimli"
+    ],
+    [
+     "Utgard",
+     "Utgardr"
+    ],
+    "Ginnungagap",
+    "Hvergelmir",
+    [
+     "Well of Urd",
+     "Urdarbrunnr",
+     "Well of Fate"
+    ],
+    [
+     "Mimir's Well",
+     "Mimisbrunnr",
+     "Well of Mimir"
+    ],
+    [
+     "Gladsheim",
+     "Glaðsheimr"
+    ],
+    "Bilskirnir",
+    "Fensalir",
+    "Himinbjorg",
+    "Nastrond",
+    [
+     "Thrudheim",
+     "Thrudvangr",
+     "Thrudvang"
+    ],
+    [
+     "Vigrid",
+     "Vigridr",
+     "Vigríðr"
+    ],
+    "Breidablik",
+    "Sessrumnir",
+    "Hlidskjalf",
+    [
+     "Ironwood",
+     "Jarnvidr",
+     "Járnviðr"
+    ]
+   ]
+  },
+  {
+   "id": "xh-christian-festivals",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a festival, feast or holy day in the Christian church calendar",
+   "answers": [
+    [
+     "Christmas",
+     "Christmas Day",
+     "Nativity"
+    ],
+    [
+     "Easter",
+     "Easter Sunday",
+     "Easter Day"
+    ],
+    "Good Friday",
+    "Palm Sunday",
+    "Ash Wednesday",
+    [
+     "Pentecost",
+     "Whitsun",
+     "Whit Sunday",
+     "Whitsunday"
+    ],
+    [
+     "Ascension",
+     "Ascension Day"
+    ],
+    [
+     "Epiphany",
+     "Twelfth Night",
+     "Three Kings Day"
+    ],
+    "Advent",
+    "Lent",
+    [
+     "Maundy Thursday",
+     "Holy Thursday"
+    ],
+    [
+     "Shrove Tuesday",
+     "Pancake Day",
+     "Mardi Gras"
+    ],
+    [
+     "All Saints Day",
+     "All Saints",
+     "Hallowmas",
+     "All Hallows"
+    ],
+    [
+     "Candlemas",
+     "Presentation of Christ",
+     "Presentation in the Temple"
+    ],
+    "Trinity Sunday",
+    "Corpus Christi",
+    [
+     "Michaelmas",
+     "Feast of St Michael"
+    ],
+    [
+     "Holy Saturday",
+     "Easter Eve"
+    ],
+    [
+     "Assumption",
+     "Feast of the Assumption",
+     "Assumption Day"
+    ],
+    [
+     "Harvest Festival",
+     "Harvest Thanksgiving"
+    ],
+    [
+     "Annunciation",
+     "Lady Day",
+     "Feast of the Annunciation"
+    ],
+    [
+     "All Souls Day",
+     "All Souls"
+    ],
+    "Transfiguration",
+    "Christ the King",
+    [
+     "Holy Innocents",
+     "Childermas"
+    ],
+    [
+     "Immaculate Conception",
+     "Feast of the Immaculate Conception"
+    ],
+    "Easter Monday",
+    [
+     "Boxing Day",
+     "St Stephens Day",
+     "Feast of Stephen"
+    ],
+    [
+     "Martinmas",
+     "St Martins Day"
+    ],
+    [
+     "Rogation Sunday",
+     "Rogation Days"
+    ],
+    "Low Sunday",
+    "Mothering Sunday",
+    "Stir-up Sunday",
+    "Passion Sunday",
+    "Holy Week",
+    "Septuagesima",
+    "Quinquagesima",
+    [
+     "Exaltation of the Cross",
+     "Holy Cross Day"
+    ]
+   ]
+  },
+  {
+   "id": "xh-greek-heroes",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a hero of Greek mythology or the Trojan War (a mortal, not a god)",
+   "answers": [
+    [
+     "Heracles",
+     "Hercules"
+    ],
+    "Achilles",
+    [
+     "Odysseus",
+     "Ulysses"
+    ],
+    "Perseus",
+    "Theseus",
+    "Jason",
+    "Bellerophon",
+    "Orpheus",
+    "Atalanta",
+    [
+     "Ajax",
+     "Ajax the Great",
+     "Telamonian Ajax"
+    ],
+    "Diomedes",
+    "Meleager",
+    "Cadmus",
+    "Oedipus",
+    "Agamemnon",
+    "Menelaus",
+    "Patroclus",
+    "Nestor",
+    "Hector",
+    "Aeneas",
+    "Castor",
+    [
+     "Pollux",
+     "Polydeuces"
+    ],
+    "Peleus",
+    "Telemachus",
+    "Orestes",
+    "Philoctetes",
+    "Iolaus",
+    "Idomeneus",
+    "Paris",
+    "Priam",
+    "Sarpedon",
+    "Pelops",
+    "Minos",
+    "Daedalus",
+    "Icarus",
+    "Tydeus",
+    "Neoptolemus",
+    "Antilochus",
+    "Teucer",
+    [
+     "Ajax the Lesser",
+     "Oilean Ajax"
+    ],
+    "Cassandra"
+   ]
+  }
+ ]
+}
