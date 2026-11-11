@@ -382,6 +382,37 @@
      "The Grouch",
      "The Bad-Tempered Man",
      "Dyscolus"
+    ],
+    [
+     "Samia",
+     "The Woman from Samos",
+     "Woman from Samos",
+     "The Samian Woman"
+    ],
+    [
+     "Aspis",
+     "The Shield"
+    ],
+    [
+     "Epitrepontes",
+     "The Arbitration",
+     "Arbitration"
+    ],
+    [
+     "Perikeiromene",
+     "The Shorn Girl",
+     "Shorn Girl"
+    ],
+    [
+     "Misoumenos",
+     "The Hated Man",
+     "Hated Man"
+    ],
+    [
+     "Sikyonios",
+     "The Man from Sicyon",
+     "Man from Sicyon",
+     "Sikyonioi"
     ]
    ],
    "deep": true
@@ -578,6 +609,11 @@
     [
      "Ebchester",
      "Vindomora"
+    ],
+    [
+     "Carlisle",
+     "Luguvalium",
+     "Carlisle Castle fort"
     ]
    ],
    "deep": true
@@ -1001,6 +1037,24 @@
     [
      "Salamis in Cyprus",
      "Battle of Salamis in Cyprus"
+    ],
+    [
+     "Pelium",
+     "Battle of Pelium",
+     "Siege of Pelium"
+    ],
+    [
+     "Sestos",
+     "Siege of Sestos"
+    ],
+    [
+     "Eion",
+     "Siege of Eion"
+    ],
+    [
+     "Lyginus",
+     "Battle of the Lyginus River",
+     "Battle of Lyginus"
     ]
    ]
   },
@@ -1121,6 +1175,42 @@
     [
      "Utica",
      "Battle of Utica"
+    ],
+    [
+     "Hibera",
+     "Battle of Hibera",
+     "Battle of the Ebro",
+     "Ebro",
+     "Battle of Ebro River"
+    ],
+    [
+     "Cissa",
+     "Battle of Cissa"
+    ],
+    [
+     "Silarus",
+     "Battle of Silarus"
+    ],
+    [
+     "Herdonia",
+     "Battle of Herdonia"
+    ],
+    [
+     "Canusium",
+     "Battle of Canusium"
+    ],
+    [
+     "Grumentum",
+     "Battle of Grumentum"
+    ],
+    [
+     "Great Plains",
+     "Battle of the Great Plains",
+     "Battle of Great Plains"
+    ],
+    [
+     "Nepheris",
+     "Battle of Nepheris"
     ]
    ],
    "deep": true
@@ -1164,7 +1254,12 @@
     "Stone Street",
     "Ackling Dyke",
     "Fen Causeway",
-    "Wade's Causeway"
+    "Wade's Causeway",
+    "Via Devana",
+    [
+     "Cade's Road",
+     "Cades Road"
+    ]
    ]
   },
   {
@@ -3563,6 +3658,52 @@
      "Battle of Paris",
      "Siege of Paris (1429)",
      "Siege of Paris (1435-1436)"
+    ],
+    [
+     "Battle of La Rochelle",
+     "La Rochelle"
+    ],
+    [
+     "Battle of Auray",
+     "Auray"
+    ],
+    [
+     "Battle of Brignais",
+     "Brignais"
+    ],
+    [
+     "Battle of Nájera",
+     "Najera",
+     "Nájera"
+    ],
+    [
+     "Battle of La Roche-Derrien",
+     "La Roche-Derrien",
+     "Roche-Derrien"
+    ],
+    [
+     "Battle of the Thirty",
+     "Thirty"
+    ],
+    [
+     "Battle of Mauron",
+     "Mauron"
+    ],
+    [
+     "Battle of Gerberoy",
+     "Gerberoy"
+    ],
+    [
+     "Siege of Meaux",
+     "Meaux"
+    ],
+    [
+     "Siege of Melun",
+     "Melun"
+    ],
+    [
+     "Siege of Cherbourg",
+     "Cherbourg"
     ]
    ]
   },
@@ -3658,6 +3799,12 @@
     [
      "Battle of Worksop",
      "Worksop"
+    ],
+    [
+     "Battle of Ludford Bridge",
+     "Ludford Bridge",
+     "Ludford",
+     "Rout of Ludford"
     ]
    ]
   },
@@ -4222,7 +4369,8 @@
     [
      "Sultanate of Zanzibar",
      "Zanzibar"
-    ]
+    ],
+    "Singapore"
    ]
   },
   {
@@ -5162,6 +5310,18 @@
      "Battle of Suomenlinna",
      "Suomenlinna",
      "Sveaborg"
+    ],
+    [
+     "Bombardment of Odessa",
+     "Odessa",
+     "Siege of Odessa",
+     "Battle of Odessa"
+    ],
+    [
+     "Bombardment of Solovetsky Monastery",
+     "Solovetsky",
+     "Solovetsky Monastery",
+     "Siege of Solovetsky"
     ]
    ]
   },
