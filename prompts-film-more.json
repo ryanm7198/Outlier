@@ -1,0 +1,5489 @@
+{
+ "cat": "film",
+ "prompts": [
+  {
+   "id": "xf-coen-brothers-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by the Coen brothers together (1984 to 2018)",
+   "answers": [
+    "Fargo",
+    [
+     "The Big Lebowski",
+     "Big Lebowski",
+     "Lebowski"
+    ],
+    "No Country for Old Men",
+    [
+     "O Brother, Where Art Thou?",
+     "O Brother Where Art Thou",
+     "O Brother"
+    ],
+    "True Grit",
+    "Raising Arizona",
+    "Barton Fink",
+    [
+     "Miller's Crossing",
+     "Millers Crossing"
+    ],
+    "Blood Simple",
+    "Burn After Reading",
+    [
+     "A Serious Man",
+     "Serious Man"
+    ],
+    "Inside Llewyn Davis",
+    [
+     "Hail, Caesar!",
+     "Hail Caesar"
+    ],
+    [
+     "The Ballad of Buster Scruggs",
+     "Buster Scruggs",
+     "Ballad of Buster Scruggs"
+    ],
+    [
+     "The Hudsucker Proxy",
+     "Hudsucker Proxy"
+    ],
+    "Intolerable Cruelty",
+    [
+     "The Ladykillers",
+     "Ladykillers"
+    ],
+    [
+     "The Man Who Wasn't There",
+     "Man Who Wasnt There",
+     "Man Who Wasn't There"
+    ]
+   ]
+  },
+  {
+   "id": "xf-danny-boyle-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Danny Boyle (1994 to 2025)",
+   "answers": [
+    "Trainspotting",
+    "Slumdog Millionaire",
+    "28 Days Later",
+    "127 Hours",
+    "Yesterday",
+    "Shallow Grave",
+    [
+     "T2 Trainspotting",
+     "T2",
+     "Trainspotting 2",
+     "T2: Trainspotting"
+    ],
+    "Steve Jobs",
+    "Sunshine",
+    [
+     "The Beach",
+     "Beach"
+    ],
+    "28 Years Later",
+    "Trance",
+    "Millions",
+    [
+     "A Life Less Ordinary",
+     "Life Less Ordinary"
+    ]
+   ]
+  },
+  {
+   "id": "xf-guy-ritchie-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Guy Ritchie (1998 to 2025)",
+   "answers": [
+    [
+     "Lock, Stock and Two Smoking Barrels",
+     "Lock Stock and Two Smoking Barrels",
+     "Lock Stock",
+     "Lock Stock & Two Smoking Barrels"
+    ],
+    "Snatch",
+    "Sherlock Holmes",
+    [
+     "Sherlock Holmes: A Game of Shadows",
+     "A Game of Shadows",
+     "Game of Shadows",
+     "Sherlock Holmes 2"
+    ],
+    "Aladdin",
+    [
+     "The Gentlemen",
+     "Gentlemen"
+    ],
+    "RocknRolla",
+    "Revolver",
+    "Wrath of Man",
+    "Swept Away",
+    [
+     "The Man from U.N.C.L.E.",
+     "Man from UNCLE",
+     "The Man from UNCLE",
+     "Man from U.N.C.L.E."
+    ],
+    [
+     "King Arthur: Legend of the Sword",
+     "King Arthur",
+     "Legend of the Sword"
+    ],
+    [
+     "Operation Fortune: Ruse de Guerre",
+     "Operation Fortune"
+    ],
+    [
+     "The Covenant",
+     "Guy Ritchie's The Covenant",
+     "Guy Ritchies The Covenant",
+     "Covenant"
+    ],
+    [
+     "The Ministry of Ungentlemanly Warfare",
+     "Ministry of Ungentlemanly Warfare",
+     "Ungentlemanly Warfare"
+    ],
+    [
+     "Fountain of Youth",
+     "Guy Ritchie's Fountain of Youth"
+    ]
+   ]
+  },
+  {
+   "id": "xf-wes-anderson-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Wes Anderson (1996 to 2025)",
+   "answers": [
+    [
+     "The Grand Budapest Hotel",
+     "Grand Budapest Hotel",
+     "Grand Budapest"
+    ],
+    [
+     "The Royal Tenenbaums",
+     "Royal Tenenbaums",
+     "Tenenbaums"
+    ],
+    "Moonrise Kingdom",
+    "Isle of Dogs",
+    "Rushmore",
+    [
+     "Fantastic Mr. Fox",
+     "Fantastic Mr Fox"
+    ],
+    [
+     "The Life Aquatic with Steve Zissou",
+     "Life Aquatic",
+     "The Life Aquatic",
+     "Life Aquatic with Steve Zissou"
+    ],
+    [
+     "The French Dispatch",
+     "French Dispatch"
+    ],
+    "Asteroid City",
+    [
+     "The Darjeeling Limited",
+     "Darjeeling Limited",
+     "Darjeeling"
+    ],
+    "Bottle Rocket",
+    [
+     "The Phoenician Scheme",
+     "Phoenician Scheme"
+    ],
+    [
+     "The Wonderful Story of Henry Sugar",
+     "Henry Sugar",
+     "The Wonderful Story of Henry Sugar and Three More",
+     "Wonderful Story of Henry Sugar"
+    ]
+   ]
+  },
+  {
+   "id": "xf-palme-dor-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Palme d'Or at Cannes (2000 to 2025)",
+   "answers": [
+    "Dancer in the Dark",
+    [
+     "The Son's Room",
+     "Son's Room",
+     "La stanza del figlio"
+    ],
+    [
+     "The Pianist",
+     "Pianist"
+    ],
+    "Elephant",
+    [
+     "Fahrenheit 9/11",
+     "Fahrenheit 911"
+    ],
+    [
+     "L'Enfant",
+     "The Child",
+     "Lenfant"
+    ],
+    [
+     "The Wind That Shakes the Barley",
+     "Wind That Shakes the Barley"
+    ],
+    [
+     "4 Months, 3 Weeks and 2 Days",
+     "4 Months 3 Weeks 2 Days",
+     "Four Months Three Weeks and Two Days"
+    ],
+    [
+     "The Class",
+     "Entre les murs",
+     "Class"
+    ],
+    [
+     "The White Ribbon",
+     "White Ribbon"
+    ],
+    [
+     "Uncle Boonmee Who Can Recall His Past Lives",
+     "Uncle Boonmee"
+    ],
+    [
+     "The Tree of Life",
+     "Tree of Life"
+    ],
+    "Amour",
+    [
+     "Blue Is the Warmest Colour",
+     "Blue Is the Warmest Color",
+     "La Vie d'Adele",
+     "Adele"
+    ],
+    "Winter Sleep",
+    "Dheepan",
+    [
+     "I, Daniel Blake",
+     "I Daniel Blake",
+     "Daniel Blake"
+    ],
+    [
+     "The Square",
+     "Square"
+    ],
+    "Shoplifters",
+    "Parasite",
+    "Titane",
+    "Triangle of Sadness",
+    "Anatomy of a Fall",
+    "Anora",
+    [
+     "It Was Just an Accident",
+     "A Simple Accident",
+     "Yek Tasadef Sadeh"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xf-best-picture-1927-1969",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Best Picture Oscar (1927/28 to 1969)",
+   "answers": [
+    "Gone with the Wind",
+    "Casablanca",
+    [
+     "The Sound of Music",
+     "Sound of Music"
+    ],
+    "Ben-Hur",
+    "Lawrence of Arabia",
+    "West Side Story",
+    "My Fair Lady",
+    "All About Eve",
+    [
+     "The Apartment",
+     "Apartment"
+    ],
+    "Rebecca",
+    "On the Waterfront",
+    "Midnight Cowboy",
+    "It Happened One Night",
+    [
+     "Oliver!",
+     "Oliver"
+    ],
+    "From Here to Eternity",
+    [
+     "The Bridge on the River Kwai",
+     "Bridge on the River Kwai",
+     "Bridge over the River Kwai"
+    ],
+    "In the Heat of the Night",
+    [
+     "An American in Paris",
+     "American in Paris"
+    ],
+    "Gigi",
+    [
+     "Around the World in 80 Days",
+     "Around the World in Eighty Days"
+    ],
+    "Mutiny on the Bounty",
+    "How Green Was My Valley",
+    [
+     "Mrs. Miniver",
+     "Mrs Miniver"
+    ],
+    "Wings",
+    [
+     "The Broadway Melody",
+     "Broadway Melody"
+    ],
+    "All Quiet on the Western Front",
+    "Cimarron",
+    "Grand Hotel",
+    "Cavalcade",
+    [
+     "The Great Ziegfeld",
+     "Great Ziegfeld"
+    ],
+    [
+     "The Life of Emile Zola",
+     "Life of Emile Zola"
+    ],
+    [
+     "You Can't Take It with You",
+     "You Cant Take It With You"
+    ],
+    "Going My Way",
+    [
+     "The Lost Weekend",
+     "Lost Weekend"
+    ],
+    [
+     "The Best Years of Our Lives",
+     "Best Years of Our Lives"
+    ],
+    "Gentleman's Agreement",
+    "Hamlet",
+    "All the King's Men",
+    [
+     "The Greatest Show on Earth",
+     "Greatest Show on Earth"
+    ],
+    "Marty",
+    "Tom Jones",
+    [
+     "A Man for All Seasons",
+     "Man for All Seasons"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xf-best-picture-nominees-2015-2019",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film nominated for Best Picture at the Oscars, for films from 2015 to 2019 (winners included)",
+   "answers": [
+    "Spotlight",
+    "Moonlight",
+    [
+     "The Shape of Water",
+     "Shape of Water"
+    ],
+    "Green Book",
+    "Parasite",
+    [
+     "The Big Short",
+     "Big Short"
+    ],
+    "Bridge of Spies",
+    "Brooklyn",
+    [
+     "Mad Max: Fury Road",
+     "Fury Road",
+     "Mad Max Fury Road"
+    ],
+    [
+     "The Martian",
+     "Martian"
+    ],
+    [
+     "The Revenant",
+     "Revenant"
+    ],
+    "Room",
+    "Arrival",
+    "Fences",
+    "Hacksaw Ridge",
+    "Hell or High Water",
+    "Hidden Figures",
+    [
+     "La La Land",
+     "LaLa Land"
+    ],
+    "Lion",
+    "Manchester by the Sea",
+    "Call Me by Your Name",
+    "Darkest Hour",
+    "Dunkirk",
+    "Get Out",
+    "Lady Bird",
+    "Phantom Thread",
+    [
+     "The Post",
+     "Post"
+    ],
+    [
+     "Three Billboards Outside Ebbing, Missouri",
+     "Three Billboards",
+     "Three Billboards Outside Ebbing Missouri"
+    ],
+    "Black Panther",
+    [
+     "BlacKkKlansman",
+     "Black Klansman"
+    ],
+    "Bohemian Rhapsody",
+    [
+     "The Favourite",
+     "Favourite"
+    ],
+    "Roma",
+    [
+     "A Star Is Born",
+     "Star Is Born"
+    ],
+    "Vice",
+    [
+     "Ford v Ferrari",
+     "Le Mans 66",
+     "Ford vs Ferrari"
+    ],
+    [
+     "The Irishman",
+     "Irishman"
+    ],
+    "Jojo Rabbit",
+    "Joker",
+    "Little Women",
+    "Marriage Story",
+    "1917",
+    [
+     "Once Upon a Time in Hollywood",
+     "OUATIH"
+    ]
+   ]
+  },
+  {
+   "id": "xf-best-picture-nominees-2020-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film nominated for Best Picture at the Oscars, for films from 2020 to 2025 (winners included)",
+   "answers": [
+    "Nomadland",
+    "CODA",
+    [
+     "Everything Everywhere All at Once",
+     "Everything Everywhere",
+     "EEAAO"
+    ],
+    "Oppenheimer",
+    "Anora",
+    "One Battle After Another",
+    [
+     "The Father",
+     "Father"
+    ],
+    "Judas and the Black Messiah",
+    "Mank",
+    "Minari",
+    "Promising Young Woman",
+    "Sound of Metal",
+    [
+     "The Trial of the Chicago 7",
+     "Chicago 7",
+     "Chicago Seven",
+     "Trial of the Chicago 7"
+    ],
+    "Belfast",
+    [
+     "Don't Look Up",
+     "Dont Look Up"
+    ],
+    "Drive My Car",
+    "Dune",
+    "King Richard",
+    "Licorice Pizza",
+    "Nightmare Alley",
+    [
+     "The Power of the Dog",
+     "Power of the Dog"
+    ],
+    "West Side Story",
+    "All Quiet on the Western Front",
+    [
+     "Avatar: The Way of Water",
+     "Avatar 2",
+     "The Way of Water",
+     "Way of Water",
+     "Avatar The Way of Water"
+    ],
+    [
+     "The Banshees of Inisherin",
+     "Banshees of Inisherin"
+    ],
+    "Elvis",
+    [
+     "The Fabelmans",
+     "Fabelmans"
+    ],
+    "Tár",
+    [
+     "Top Gun: Maverick",
+     "Top Gun Maverick",
+     "Maverick"
+    ],
+    "Triangle of Sadness",
+    "Women Talking",
+    "American Fiction",
+    "Anatomy of a Fall",
+    "Barbie",
+    [
+     "The Holdovers",
+     "Holdovers"
+    ],
+    "Killers of the Flower Moon",
+    "Maestro",
+    "Past Lives",
+    "Poor Things",
+    [
+     "The Zone of Interest",
+     "Zone of Interest"
+    ],
+    [
+     "The Brutalist",
+     "Brutalist"
+    ],
+    [
+     "A Complete Unknown",
+     "Complete Unknown"
+    ],
+    "Conclave",
+    [
+     "Dune: Part Two",
+     "Dune 2",
+     "Dune Part 2",
+     "Dune Part Two"
+    ],
+    [
+     "Emilia Pérez",
+     "Emilia Perez"
+    ],
+    [
+     "I'm Still Here",
+     "Im Still Here"
+    ],
+    "Nickel Boys",
+    [
+     "The Substance",
+     "Substance"
+    ],
+    "Wicked",
+    "Bugonia",
+    [
+     "F1",
+     "F1 The Movie"
+    ],
+    "Frankenstein",
+    "Hamnet",
+    "Marty Supreme",
+    [
+     "The Secret Agent",
+     "Secret Agent"
+    ],
+    "Sentimental Value",
+    "Sinners",
+    "Train Dreams"
+   ]
+  },
+  {
+   "id": "xf-scream-jaws-final-destination",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a Scream, Jaws or Final Destination film (up to 2026)",
+   "answers": [
+    "Jaws",
+    "Scream",
+    "Scream 2",
+    "Scream 3",
+    "Scream 4",
+    [
+     "Scream VI",
+     "Scream 6"
+    ],
+    [
+     "Scream 7",
+     "Scream VII"
+    ],
+    "Final Destination",
+    "Final Destination 2",
+    "Final Destination 3",
+    [
+     "Final Destination 4",
+     "Final Destination (2009)"
+    ],
+    "Final Destination 5",
+    [
+     "Final Destination Bloodlines",
+     "Bloodlines"
+    ],
+    "Jaws 2",
+    [
+     "Jaws 3-D",
+     "Jaws 3",
+     "Jaws 3D"
+    ],
+    [
+     "Jaws: The Revenge",
+     "Jaws the Revenge",
+     "Jaws 4",
+     "The Revenge"
+    ]
+   ]
+  },
+  {
+   "id": "xf-ghostbusters-madmax-robocop-predator",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a Ghostbusters, Mad Max, RoboCop or Predator film",
+   "answers": [
+    "Ghostbusters",
+    [
+     "Ghostbusters II",
+     "Ghostbusters 2"
+    ],
+    [
+     "Ghostbusters: Afterlife",
+     "Afterlife"
+    ],
+    [
+     "Ghostbusters: Frozen Empire",
+     "Frozen Empire"
+    ],
+    [
+     "Ghostbusters: Answer the Call",
+     "Answer the Call"
+    ],
+    "Mad Max",
+    [
+     "Mad Max 2",
+     "The Road Warrior",
+     "Road Warrior",
+     "Mad Max 2: The Road Warrior"
+    ],
+    [
+     "Mad Max Beyond Thunderdome",
+     "Beyond Thunderdome",
+     "Mad Max 3",
+     "Thunderdome"
+    ],
+    [
+     "Mad Max: Fury Road",
+     "Fury Road",
+     "Mad Max Fury Road"
+    ],
+    [
+     "Furiosa: A Mad Max Saga",
+     "Furiosa"
+    ],
+    "RoboCop",
+    "RoboCop 2",
+    "RoboCop 3",
+    [
+     "Predator",
+     "The Predator (2018)"
+    ],
+    "Predator 2",
+    "Predators",
+    "Prey",
+    [
+     "Predator: Killer of Killers",
+     "Killer of Killers"
+    ],
+    [
+     "Predator: Badlands",
+     "Badlands"
+    ],
+    [
+     "Alien vs. Predator",
+     "Alien vs Predator",
+     "AVP",
+     "Alien versus Predator"
+    ],
+    [
+     "Aliens vs. Predator: Requiem",
+     "Alien vs Predator Requiem",
+     "AVP Requiem",
+     "AVPR",
+     "Requiem",
+     "Aliens vs Predator Requiem"
+    ]
+   ]
+  },
+  {
+   "id": "xf-hunger-games-twilight-divergent-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a Hunger Games, Twilight or Divergent film (up to 2023)",
+   "answers": [
+    [
+     "The Hunger Games",
+     "Hunger Games"
+    ],
+    [
+     "The Hunger Games: Catching Fire",
+     "Catching Fire",
+     "Hunger Games: Catching Fire"
+    ],
+    "Twilight",
+    [
+     "Twilight: New Moon",
+     "The Twilight Saga: New Moon",
+     "New Moon"
+    ],
+    [
+     "Twilight: Eclipse",
+     "The Twilight Saga: Eclipse",
+     "Eclipse"
+    ],
+    [
+     "The Twilight Saga: Breaking Dawn - Part 1",
+     "Breaking Dawn Part 1",
+     "Breaking Dawn",
+     "Breaking Dawn Part One",
+     "Twilight Saga: Breaking Dawn - Part 1"
+    ],
+    [
+     "The Twilight Saga: Breaking Dawn - Part 2",
+     "Breaking Dawn Part 2",
+     "Breaking Dawn Part Two",
+     "Twilight Saga: Breaking Dawn - Part 2"
+    ],
+    [
+     "The Hunger Games: Mockingjay - Part 1",
+     "Mockingjay Part 1",
+     "Mockingjay",
+     "Mockingjay Part One",
+     "Hunger Games: Mockingjay - Part 1"
+    ],
+    [
+     "The Hunger Games: Mockingjay - Part 2",
+     "Mockingjay Part 2",
+     "Mockingjay Part Two",
+     "Hunger Games: Mockingjay - Part 2"
+    ],
+    [
+     "The Hunger Games: The Ballad of Songbirds & Snakes",
+     "Ballad of Songbirds and Snakes",
+     "Songbirds and Snakes",
+     "The Hunger Games: The Ballad of Songbirds and Snakes",
+     "Hunger Games: The Ballad of Songbirds & Snakes"
+    ],
+    "Divergent",
+    "Insurgent",
+    "Allegiant"
+   ]
+  },
+  {
+   "id": "xf-ant-and-dec-tv-shows",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a TV show Ant & Dec have presented (1994 to 2025)",
+   "answers": [
+    [
+     "I'm a Celebrity...Get Me Out of Here!",
+     "I'm a Celebrity",
+     "Im a Celebrity",
+     "I'm a Celeb",
+     "Im a Celeb",
+     "I'm a Celebrity Get Me Out of Here"
+    ],
+    [
+     "Ant & Dec's Saturday Night Takeaway",
+     "Saturday Night Takeaway",
+     "SNT",
+     "Takeaway",
+     "Ant and Dec's Saturday Night Takeaway"
+    ],
+    "Britain's Got Talent",
+    "Pop Idol",
+    "SMTV Live",
+    [
+     "CD:UK",
+     "CDUK",
+     "CD UK"
+    ],
+    "Soccer Aid",
+    "Friends Like These",
+    [
+     "Ant & Dec's Push the Button",
+     "Push the Button",
+     "Ant and Dec's Push the Button"
+    ],
+    [
+     "Red or Black?",
+     "Red or Black"
+    ],
+    [
+     "Wanna Bet?",
+     "Wanna Bet"
+    ],
+    "Limitless Win",
+    [
+     "Ant & Dec's Gameshow Marathon",
+     "Gameshow Marathon",
+     "Ant and Dec's Gameshow Marathon"
+    ],
+    "PokerFace",
+    [
+     "The Ant & Dec Show",
+     "Ant and Dec Show",
+     "The Ant and Dec Show",
+     "Ant & Dec Show"
+    ],
+    [
+     "Ant & Dec Unzipped",
+     "Unzipped",
+     "Ant and Dec Unzipped"
+    ],
+    "Text Santa",
+    "World Idol",
+    [
+     "Slap Bang with Ant & Dec",
+     "Slap Bang",
+     "Slap Bang with Ant and Dec"
+    ],
+    [
+     "Ant & Dec's DNA Journey",
+     "DNA Journey",
+     "Ant and Dec's DNA Journey"
+    ],
+    [
+     "Britain's Got Talent: The Champions",
+     "BGT The Champions"
+    ],
+    [
+     "I'm a Celebrity... South Africa",
+     "I'm a Celebrity South Africa",
+     "Im a Celebrity South Africa"
+    ],
+    [
+     "The Record of the Year",
+     "Record of the Year"
+    ],
+    [
+     "The Accidental Tourist",
+     "Accidental Tourist"
+    ],
+    [
+     "Ant & Dec's Christmas Show",
+     "Ant and Dec's Christmas Show"
+    ],
+    "Gimme 5",
+    [
+     "BRIT Awards",
+     "Brits",
+     "The Brits"
+    ],
+    [
+     "Ant and Dec's Geordie Christmas",
+     "Geordie Christmas"
+    ],
+    [
+     "The Prince's Trust Awards",
+     "Prince's Trust Awards"
+    ]
+   ]
+  },
+  {
+   "id": "xf-taskmaster-contestants-1-10",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a Taskmaster contestant from series 1 to 10",
+   "answers": [
+    "Frank Skinner",
+    [
+     "Josh Widdicombe",
+     "Widdicombe"
+    ],
+    [
+     "Roisin Conaty",
+     "Conaty"
+    ],
+    [
+     "Romesh Ranganathan",
+     "Ranganathan"
+    ],
+    "Tim Key",
+    "Doc Brown",
+    "Joe Wilkinson",
+    "Jon Richardson",
+    "Katherine Ryan",
+    "Richard Osman",
+    "Al Murray",
+    "Dave Gorman",
+    [
+     "Paul Chowdhry",
+     "Chowdhry"
+    ],
+    [
+     "Rob Beckett",
+     "Beckett"
+    ],
+    [
+     "Sara Pascoe",
+     "Pascoe"
+    ],
+    [
+     "Hugh Dennis",
+     "Dennis"
+    ],
+    "Joe Lycett",
+    [
+     "Lolly Adefope",
+     "Adefope"
+    ],
+    [
+     "Mel Giedroyc",
+     "Giedroyc"
+    ],
+    [
+     "Noel Fielding",
+     "Fielding"
+    ],
+    [
+     "Aisling Bea",
+     "Bea"
+    ],
+    "Bob Mortimer",
+    [
+     "Mark Watson",
+     "Watson"
+    ],
+    [
+     "Nish Kumar",
+     "Kumar"
+    ],
+    "Sally Phillips",
+    [
+     "Alice Levine",
+     "Levine"
+    ],
+    [
+     "Asim Chaudhry",
+     "Chaudhry"
+    ],
+    [
+     "Liza Tarbuck",
+     "Tarbuck"
+    ],
+    [
+     "Russell Howard",
+     "Howard"
+    ],
+    [
+     "Tim Vine",
+     "Vine"
+    ],
+    [
+     "James Acaster",
+     "Acaster"
+    ],
+    [
+     "Jessica Knappett",
+     "Knappett"
+    ],
+    [
+     "Kerry Godliman",
+     "Godliman"
+    ],
+    "Phil Wang",
+    [
+     "Rhod Gilbert",
+     "Gilbert"
+    ],
+    [
+     "Iain Stirling",
+     "Stirling"
+    ],
+    "Joe Thomas",
+    [
+     "Lou Sanders",
+     "Sanders"
+    ],
+    [
+     "Paul Sinha",
+     "Sinha"
+    ],
+    [
+     "Sian Gibson",
+     "Gibson"
+    ],
+    [
+     "David Baddiel",
+     "Baddiel"
+    ],
+    [
+     "Ed Gamble",
+     "Gamble"
+    ],
+    "Jo Brand",
+    [
+     "Katy Wix",
+     "Wix"
+    ],
+    [
+     "Rose Matafeo",
+     "Matafeo"
+    ],
+    "Daisy May Cooper",
+    [
+     "Johnny Vegas",
+     "Vegas"
+    ],
+    "Katherine Parkinson",
+    [
+     "Mawaan Rizwan",
+     "Rizwan"
+    ],
+    "Richard Herring"
+   ]
+  },
+  {
+   "id": "xf-taskmaster-contestants-11-20",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a Taskmaster contestant from series 11 to 20",
+   "answers": [
+    [
+     "Charlotte Ritchie",
+     "Ritchie"
+    ],
+    [
+     "Jamali Maddix",
+     "Maddix"
+    ],
+    "Lee Mack",
+    "Mike Wozniak",
+    [
+     "Sarah Kendall",
+     "Kendall"
+    ],
+    "Alan Davies",
+    [
+     "Desiree Burch",
+     "Burch"
+    ],
+    [
+     "Guz Khan",
+     "Khan"
+    ],
+    [
+     "Morgana Robinson",
+     "Robinson"
+    ],
+    [
+     "Victoria Coren Mitchell",
+     "Victoria Coren",
+     "Coren Mitchell"
+    ],
+    [
+     "Ardal O'Hanlon",
+     "O'Hanlon"
+    ],
+    [
+     "Bridget Christie",
+     "Christie"
+    ],
+    "Chris Ramsey",
+    [
+     "Judi Love",
+     "Love"
+    ],
+    [
+     "Sophie Duker",
+     "Duker"
+    ],
+    [
+     "Dara Ó Briain",
+     "Dara O Briain",
+     "O Briain",
+     "Dara OBriain"
+    ],
+    [
+     "Fern Brady",
+     "Brady"
+    ],
+    [
+     "John Kearns",
+     "Kearns"
+    ],
+    [
+     "Munya Chawawa",
+     "Chawawa"
+    ],
+    [
+     "Sarah Millican",
+     "Millican"
+    ],
+    [
+     "Frankie Boyle",
+     "Boyle"
+    ],
+    [
+     "Ivo Graham",
+     "Graham"
+    ],
+    [
+     "Jenny Eclair",
+     "Eclair"
+    ],
+    [
+     "Kiell Smith-Bynoe",
+     "Smith-Bynoe"
+    ],
+    "Mae Martin",
+    [
+     "Julian Clary",
+     "Clary"
+    ],
+    [
+     "Lucy Beaumont",
+     "Beaumont"
+    ],
+    "Sam Campbell",
+    "Sue Perkins",
+    [
+     "Susan Wokoma",
+     "Wokoma"
+    ],
+    [
+     "Joanne McNally",
+     "McNally"
+    ],
+    "John Robins",
+    [
+     "Nick Mohammed",
+     "Mohammed"
+    ],
+    [
+     "Sophie Willan",
+     "Willan"
+    ],
+    [
+     "Steve Pemberton",
+     "Pemberton"
+    ],
+    [
+     "Andy Zaltzman",
+     "Zaltzman"
+    ],
+    [
+     "Babatunde Aléshé",
+     "Babatunde Aleshe",
+     "Tunde",
+     "Aleshe",
+     "Aléshé"
+    ],
+    [
+     "Emma Sidi",
+     "Sidi"
+    ],
+    "Jack Dee",
+    "Rosie Jones",
+    [
+     "Fatiha El-Ghorri",
+     "El-Ghorri"
+    ],
+    [
+     "Jason Mantzoukas",
+     "Mantzoukas"
+    ],
+    [
+     "Mathew Baynton",
+     "Baynton"
+    ],
+    "Rosie Ramsey",
+    "Stevie Martin",
+    [
+     "Ania Magliano",
+     "Magliano"
+    ],
+    [
+     "Maisie Adam",
+     "Adam"
+    ],
+    "Phil Ellis",
+    [
+     "Reece Shearsmith",
+     "Shearsmith"
+    ],
+    [
+     "Sanjeev Bhaskar",
+     "Bhaskar"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xf-strictly-judges-hosts",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a judge or host of Strictly Come Dancing (2004 to 2025)",
+   "answers": [
+    [
+     "Craig Revel Horwood",
+     "Craig",
+     "Horwood"
+    ],
+    [
+     "Bruno Tonioli",
+     "Bruno",
+     "Tonioli"
+    ],
+    [
+     "Shirley Ballas",
+     "Shirley",
+     "Ballas"
+    ],
+    [
+     "Len Goodman",
+     "Len",
+     "Goodman"
+    ],
+    [
+     "Tess Daly",
+     "Tess",
+     "Daly"
+    ],
+    [
+     "Claudia Winkleman",
+     "Claudia",
+     "Winkleman"
+    ],
+    [
+     "Bruce Forsyth",
+     "Brucie",
+     "Bruce",
+     "Forsyth"
+    ],
+    [
+     "Anton Du Beke",
+     "Anton",
+     "Du Beke"
+    ],
+    [
+     "Motsi Mabuse",
+     "Motsi",
+     "Mabuse"
+    ],
+    [
+     "Darcey Bussell",
+     "Darcey",
+     "Bussell"
+    ],
+    [
+     "Arlene Phillips",
+     "Arlene",
+     "Phillips"
+    ],
+    [
+     "Alesha Dixon",
+     "Alesha",
+     "Dixon"
+    ],
+    [
+     "Emma Willis",
+     "Emma",
+     "Willis"
+    ],
+    [
+     "Josh Widdicombe",
+     "Josh",
+     "Widdicombe"
+    ],
+    [
+     "Johannes Radebe",
+     "Johannes",
+     "Radebe"
+    ],
+    [
+     "Jennifer Grey",
+     "Grey"
+    ],
+    [
+     "Donny Osmond",
+     "Osmond"
+    ],
+    [
+     "Alfonso Ribeiro",
+     "Ribeiro"
+    ]
+   ]
+  },
+  {
+   "id": "xf-x-factor-judges-presenters",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a main judge or presenter of The X Factor UK (2004 to 2018)",
+   "answers": [
+    [
+     "Simon Cowell",
+     "Simon",
+     "Cowell"
+    ],
+    [
+     "Louis Walsh",
+     "Louis",
+     "Walsh"
+    ],
+    [
+     "Sharon Osbourne",
+     "Sharon",
+     "Osbourne"
+    ],
+    [
+     "Dermot O'Leary",
+     "Dermot",
+     "Dermot OLeary",
+     "O'Leary"
+    ],
+    [
+     "Cheryl",
+     "Cheryl Cole",
+     "Cheryl Tweedy",
+     "Cheryl Fernandez-Versini"
+    ],
+    [
+     "Dannii Minogue",
+     "Dannii",
+     "Minogue"
+    ],
+    [
+     "Gary Barlow",
+     "Gary",
+     "Barlow"
+    ],
+    [
+     "Tulisa",
+     "Tulisa Contostavlos"
+    ],
+    [
+     "Kelly Rowland",
+     "Rowland"
+    ],
+    [
+     "Nicole Scherzinger",
+     "Nicole",
+     "Scherzinger"
+    ],
+    [
+     "Mel B",
+     "Melanie Brown"
+    ],
+    [
+     "Nick Grimshaw",
+     "Grimmy",
+     "Grimshaw"
+    ],
+    [
+     "Rita Ora",
+     "Ora"
+    ],
+    [
+     "Ayda Field",
+     "Field"
+    ],
+    [
+     "Robbie Williams",
+     "Robbie",
+     "Williams"
+    ],
+    [
+     "Louis Tomlinson",
+     "Tomlinson"
+    ],
+    [
+     "Kate Thornton",
+     "Thornton"
+    ],
+    [
+     "Caroline Flack",
+     "Flack"
+    ],
+    [
+     "Olly Murs",
+     "Olly",
+     "Murs"
+    ]
+   ]
+  },
+  {
+   "id": "xf-voice-uk-coaches",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a coach on The Voice UK (series 1 to 14, 2012 to 2026)",
+   "answers": [
+    [
+     "will.i.am",
+     "will i am",
+     "william",
+     "Will"
+    ],
+    [
+     "Tom Jones",
+     "Sir Tom Jones"
+    ],
+    [
+     "Jessie J",
+     "Jessie"
+    ],
+    [
+     "Kylie Minogue",
+     "Kylie",
+     "Minogue"
+    ],
+    [
+     "Ricky Wilson",
+     "Wilson"
+    ],
+    [
+     "Danny O'Donoghue",
+     "Danny ODonoghue",
+     "O'Donoghue",
+     "ODonoghue"
+    ],
+    [
+     "Rita Ora",
+     "Ora"
+    ],
+    [
+     "Boy George",
+     "George"
+    ],
+    [
+     "Paloma Faith",
+     "Paloma",
+     "Faith"
+    ],
+    [
+     "Jennifer Hudson",
+     "JHud",
+     "Hudson"
+    ],
+    [
+     "Gavin Rossdale",
+     "Rossdale"
+    ],
+    [
+     "Olly Murs",
+     "Olly",
+     "Murs"
+    ],
+    [
+     "Meghan Trainor",
+     "Trainor"
+    ],
+    [
+     "Anne-Marie",
+     "Anne Marie"
+    ],
+    [
+     "LeAnn Rimes",
+     "Leann Rimes",
+     "Rimes"
+    ],
+    "Tom Fletcher",
+    "Danny Jones",
+    [
+     "Kelly Rowland",
+     "Rowland"
+    ]
+   ]
+  },
+  {
+   "id": "xf-law-order-ncis-csi-series",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a Law & Order, NCIS or CSI TV series (including spin-offs, up to 2026)",
+   "answers": [
+    [
+     "Law & Order",
+     "Law and Order"
+    ],
+    [
+     "Law & Order: Special Victims Unit",
+     "SVU",
+     "Special Victims Unit",
+     "Law and Order SVU",
+     "Law and Order: Special Victims Unit",
+     "Law & Order SVU"
+    ],
+    "NCIS",
+    [
+     "CSI: Crime Scene Investigation",
+     "CSI",
+     "CSI Las Vegas"
+    ],
+    [
+     "CSI: Miami",
+     "CSI Miami"
+    ],
+    [
+     "CSI: NY",
+     "CSI New York",
+     "CSI: New York",
+     "CSI NY"
+    ],
+    [
+     "NCIS: Los Angeles",
+     "NCIS LA",
+     "NCIS Los Angeles"
+    ],
+    [
+     "NCIS: New Orleans",
+     "NCIS New Orleans"
+    ],
+    [
+     "Law & Order: Criminal Intent",
+     "Criminal Intent",
+     "Law and Order Criminal Intent",
+     "Law and Order: Criminal Intent"
+    ],
+    [
+     "Law & Order: UK",
+     "Law and Order UK",
+     "Law & Order UK",
+     "Law and Order: UK"
+    ],
+    [
+     "CSI: Vegas",
+     "CSI Vegas"
+    ],
+    [
+     "CSI: Cyber",
+     "CSI Cyber"
+    ],
+    [
+     "NCIS: Hawai'i",
+     "NCIS Hawaii",
+     "NCIS: Hawaii"
+    ],
+    [
+     "NCIS: Sydney",
+     "NCIS Sydney"
+    ],
+    [
+     "NCIS: Origins",
+     "NCIS Origins"
+    ],
+    [
+     "NCIS: Tony & Ziva",
+     "NCIS Tony and Ziva",
+     "Tony and Ziva",
+     "NCIS: Tony and Ziva"
+    ],
+    [
+     "Law & Order: Organized Crime",
+     "Organized Crime",
+     "Law and Order Organized Crime",
+     "Law and Order: Organized Crime"
+    ],
+    [
+     "Law & Order: LA",
+     "Law and Order LA",
+     "Law & Order Los Angeles",
+     "Law and Order: LA",
+     "Law & Order: Los Angeles"
+    ],
+    [
+     "Law & Order: Trial by Jury",
+     "Trial by Jury",
+     "Law and Order Trial by Jury",
+     "Law and Order: Trial by Jury"
+    ],
+    [
+     "Law & Order True Crime",
+     "Law and Order True Crime",
+     "Law & Order: True Crime",
+     "The Menendez Murders"
+    ],
+    [
+     "Law & Order Toronto: Criminal Intent",
+     "Law and Order Toronto Criminal Intent",
+     "Law & Order Toronto",
+     "Toronto Criminal Intent",
+     "Law and Order Toronto: Criminal Intent"
+    ]
+   ]
+  },
+  {
+   "id": "xf-emmy-drama-winners-1990-2026",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a series that won the Emmy for Outstanding Drama Series (1990 to 2026 ceremonies)",
+   "answers": [
+    [
+     "L.A. Law",
+     "LA Law"
+    ],
+    "Northern Exposure",
+    "Picket Fences",
+    "NYPD Blue",
+    "ER",
+    [
+     "Law & Order",
+     "Law and Order"
+    ],
+    [
+     "The Practice",
+     "Practice"
+    ],
+    [
+     "The West Wing",
+     "West Wing"
+    ],
+    [
+     "The Sopranos",
+     "Sopranos"
+    ],
+    "Lost",
+    [
+     "24",
+     "Twenty Four"
+    ],
+    "Mad Men",
+    "Homeland",
+    "Breaking Bad",
+    [
+     "Game of Thrones",
+     "GoT"
+    ],
+    [
+     "The Handmaid's Tale",
+     "Handmaids Tale",
+     "Handmaid's Tale"
+    ],
+    "Succession",
+    [
+     "The Crown",
+     "Crown"
+    ],
+    [
+     "Shōgun",
+     "Shogun"
+    ],
+    [
+     "The Pitt",
+     "Pitt"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xf-emmy-comedy-winners-1990-2026",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a series that won the Emmy for Outstanding Comedy Series (1990 to 2026 ceremonies)",
+   "answers": [
+    "Murphy Brown",
+    "Cheers",
+    "Seinfeld",
+    "Frasier",
+    "Ally McBeal",
+    [
+     "Will & Grace",
+     "Will and Grace"
+    ],
+    [
+     "Sex and the City",
+     "Sex & the City"
+    ],
+    "Friends",
+    [
+     "Everybody Loves Raymond",
+     "Raymond"
+    ],
+    "Arrested Development",
+    [
+     "The Office",
+     "The Office US",
+     "The Office (US)",
+     "Office"
+    ],
+    [
+     "30 Rock",
+     "Thirty Rock"
+    ],
+    "Modern Family",
+    "Veep",
+    [
+     "The Marvelous Mrs. Maisel",
+     "Mrs Maisel",
+     "Marvelous Mrs Maisel",
+     "The Marvelous Mrs Maisel",
+     "Marvelous Mrs. Maisel"
+    ],
+    "Fleabag",
+    [
+     "Schitt's Creek",
+     "Schitts Creek"
+    ],
+    "Ted Lasso",
+    [
+     "The Bear",
+     "Bear"
+    ],
+    "Hacks",
+    [
+     "The Studio",
+     "Studio"
+    ],
+    [
+     "Widow's Bay",
+     "Widows Bay"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xf-gerry-anderson-tv-series",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a TV series made by Gerry Anderson (1957 to 2005)",
+   "answers": [
+    "Thunderbirds",
+    [
+     "Captain Scarlet and the Mysterons",
+     "Captain Scarlet"
+    ],
+    "Stingray",
+    "Joe 90",
+    "Fireball XL5",
+    "Terrahawks",
+    [
+     "Space: 1999",
+     "Space 1999"
+    ],
+    "UFO",
+    "Supercar",
+    [
+     "The Secret Service",
+     "Secret Service"
+    ],
+    "Space Precinct",
+    [
+     "The Adventures of Twizzle",
+     "Twizzle",
+     "Adventures of Twizzle"
+    ],
+    [
+     "Torchy the Battery Boy",
+     "Torchy"
+    ],
+    "Four Feather Falls",
+    [
+     "The Protectors",
+     "Protectors"
+    ],
+    [
+     "Dick Spanner, P.I.",
+     "Dick Spanner",
+     "Dick Spanner PI"
+    ],
+    "Lavender Castle",
+    [
+     "New Captain Scarlet",
+     "Gerry Anderson's New Captain Scarlet"
+    ]
+   ]
+  },
+  {
+   "id": "xf-star-trek-tv-series",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a Star Trek TV series (up to 2026)",
+   "answers": [
+    [
+     "Star Trek: The Next Generation",
+     "The Next Generation",
+     "TNG",
+     "Next Generation",
+     "Star Trek TNG"
+    ],
+    [
+     "Star Trek: The Original Series",
+     "Original Series",
+     "TOS",
+     "Star Trek",
+     "Star Trek: TOS"
+    ],
+    [
+     "Star Trek: Deep Space Nine",
+     "Deep Space Nine",
+     "DS9",
+     "Star Trek DS9"
+    ],
+    [
+     "Star Trek: Voyager",
+     "Voyager",
+     "Star Trek Voyager"
+    ],
+    [
+     "Star Trek: Enterprise",
+     "Enterprise",
+     "Star Trek Enterprise"
+    ],
+    [
+     "Star Trek: Discovery",
+     "Discovery",
+     "Star Trek Discovery"
+    ],
+    [
+     "Star Trek: Picard",
+     "Picard",
+     "Star Trek Picard"
+    ],
+    [
+     "Star Trek: Strange New Worlds",
+     "Strange New Worlds",
+     "SNW"
+    ],
+    [
+     "Star Trek: Lower Decks",
+     "Lower Decks"
+    ],
+    [
+     "Star Trek: Prodigy",
+     "Prodigy"
+    ],
+    [
+     "Star Trek: The Animated Series",
+     "The Animated Series",
+     "Animated Series",
+     "TAS"
+    ],
+    [
+     "Star Trek: Starfleet Academy",
+     "Starfleet Academy"
+    ],
+    [
+     "Star Trek: Short Treks",
+     "Short Treks"
+    ]
+   ]
+  },
+  {
+   "id": "xf-star-wars-tv-series",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a Star Wars TV series (up to 2026)",
+   "answers": [
+    [
+     "The Mandalorian",
+     "Mandalorian"
+    ],
+    "Andor",
+    [
+     "Obi-Wan Kenobi",
+     "Obi Wan Kenobi",
+     "Obi-Wan"
+    ],
+    "Ahsoka",
+    [
+     "Star Wars: The Clone Wars",
+     "The Clone Wars",
+     "Clone Wars"
+    ],
+    [
+     "Star Wars Rebels",
+     "Rebels"
+    ],
+    [
+     "The Book of Boba Fett",
+     "Book of Boba Fett",
+     "Boba Fett"
+    ],
+    [
+     "The Acolyte",
+     "Acolyte"
+    ],
+    [
+     "Star Wars: Skeleton Crew",
+     "Skeleton Crew"
+    ],
+    [
+     "Star Wars: The Bad Batch",
+     "The Bad Batch",
+     "Bad Batch"
+    ],
+    [
+     "Star Wars: Visions",
+     "Visions"
+    ],
+    [
+     "Star Wars Resistance",
+     "Resistance"
+    ],
+    [
+     "Star Wars: Tales of the Jedi",
+     "Tales of the Jedi",
+     "Tales of the Empire",
+     "Tales of the Underworld",
+     "Star Wars: Tales"
+    ],
+    [
+     "Star Wars: Young Jedi Adventures",
+     "Young Jedi Adventures"
+    ],
+    [
+     "Maul - Shadow Lord",
+     "Maul: Shadow Lord",
+     "Star Wars: Maul - Shadow Lord",
+     "Shadow Lord",
+     "Maul"
+    ],
+    [
+     "Star Wars: Droids",
+     "Droids",
+     "Droids: The Adventures of R2-D2 and C-3PO"
+    ],
+    [
+     "Ewoks",
+     "Star Wars: Ewoks"
+    ]
+   ]
+  },
+  {
+   "id": "xf-marvel-studios-disney-plus-series",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a Marvel Studios TV series on Disney+ (WandaVision, 2021, to 2026)",
+   "answers": [
+    "WandaVision",
+    [
+     "The Falcon and the Winter Soldier",
+     "Falcon and the Winter Soldier",
+     "Falcon & Winter Soldier"
+    ],
+    "Loki",
+    "Hawkeye",
+    "Moon Knight",
+    [
+     "What If...?",
+     "What If"
+    ],
+    [
+     "Ms. Marvel",
+     "Ms Marvel"
+    ],
+    [
+     "She-Hulk: Attorney at Law",
+     "She-Hulk",
+     "She Hulk"
+    ],
+    "Secret Invasion",
+    "Echo",
+    [
+     "Agatha All Along",
+     "Agatha"
+    ],
+    [
+     "Daredevil: Born Again",
+     "Born Again",
+     "Daredevil"
+    ],
+    [
+     "Your Friendly Neighborhood Spider-Man",
+     "Your Friendly Neighbourhood Spider-Man",
+     "Friendly Neighborhood Spider-Man"
+    ],
+    "Ironheart",
+    "Eyes of Wakanda",
+    "Marvel Zombies",
+    "Wonder Man",
+    "VisionQuest"
+   ]
+  },
+  {
+   "id": "xf-power-rangers-seasons",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a Power Rangers TV series or season (1993 to 2023)",
+   "answers": [
+    [
+     "Mighty Morphin Power Rangers",
+     "Mighty Morphin",
+     "MMPR",
+     "Power Rangers"
+    ],
+    [
+     "Mighty Morphin Alien Rangers",
+     "Alien Rangers"
+    ],
+    [
+     "Power Rangers Zeo",
+     "Zeo"
+    ],
+    [
+     "Power Rangers Turbo",
+     "Turbo"
+    ],
+    [
+     "Power Rangers in Space",
+     "In Space"
+    ],
+    [
+     "Power Rangers Lost Galaxy",
+     "Lost Galaxy"
+    ],
+    [
+     "Power Rangers Lightspeed Rescue",
+     "Lightspeed Rescue"
+    ],
+    [
+     "Power Rangers Time Force",
+     "Time Force"
+    ],
+    [
+     "Power Rangers Wild Force",
+     "Wild Force"
+    ],
+    [
+     "Power Rangers Ninja Storm",
+     "Ninja Storm"
+    ],
+    [
+     "Power Rangers Dino Thunder",
+     "Dino Thunder"
+    ],
+    [
+     "Power Rangers S.P.D.",
+     "SPD",
+     "Power Rangers SPD",
+     "S.P.D."
+    ],
+    [
+     "Power Rangers Mystic Force",
+     "Mystic Force"
+    ],
+    [
+     "Power Rangers Operation Overdrive",
+     "Operation Overdrive"
+    ],
+    [
+     "Power Rangers Jungle Fury",
+     "Jungle Fury"
+    ],
+    [
+     "Power Rangers RPM",
+     "RPM"
+    ],
+    [
+     "Power Rangers Samurai",
+     "Samurai",
+     "Super Samurai",
+     "Power Rangers Super Samurai"
+    ],
+    [
+     "Power Rangers Megaforce",
+     "Megaforce",
+     "Super Megaforce",
+     "Power Rangers Super Megaforce"
+    ],
+    [
+     "Power Rangers Dino Charge",
+     "Dino Charge",
+     "Dino Super Charge",
+     "Power Rangers Dino Super Charge"
+    ],
+    [
+     "Power Rangers Ninja Steel",
+     "Ninja Steel",
+     "Super Ninja Steel",
+     "Power Rangers Super Ninja Steel"
+    ],
+    [
+     "Power Rangers Beast Morphers",
+     "Beast Morphers"
+    ],
+    [
+     "Power Rangers Dino Fury",
+     "Dino Fury"
+    ],
+    [
+     "Power Rangers Cosmic Fury",
+     "Cosmic Fury"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xf-british-soap-operas",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a British soap opera, on TV or radio (past or present)",
+   "answers": [
+    [
+     "Coronation Street",
+     "Corrie"
+    ],
+    [
+     "EastEnders",
+     "East Enders"
+    ],
+    [
+     "Emmerdale",
+     "Emmerdale Farm"
+    ],
+    "Hollyoaks",
+    "Brookside",
+    "Crossroads",
+    "Doctors",
+    [
+     "The Archers",
+     "Archers"
+    ],
+    "Family Affairs",
+    "Eldorado",
+    "River City",
+    "Pobol y Cwm",
+    "Take the High Road",
+    [
+     "Howards' Way",
+     "Howards Way"
+    ],
+    "Night and Day",
+    "Albion Market",
+    "Triangle",
+    "Compact",
+    [
+     "Mrs Dale's Diary",
+     "Mrs. Dale's Diary",
+     "Mrs Dales Diary"
+    ],
+    [
+     "The Grove Family",
+     "Grove Family"
+    ],
+    [
+     "The Appleyards",
+     "Appleyards"
+    ],
+    [
+     "The Newcomers",
+     "Newcomers"
+    ],
+    "Springhill",
+    "Revelations",
+    "Rownd a Rownd",
+    "Silver Street",
+    "Hope Street",
+    "Family Pride",
+    "Families",
+    "Park Avenue",
+    "Citizens",
+    "Machair",
+    "Westway",
+    "London Bridge",
+    "Chalkhill Lives",
+    [
+     "Waggoners' Walk",
+     "Waggoners Walk"
+    ],
+    "Market in Honey Lane",
+    "High Living",
+    [
+     "The Cedar Tree",
+     "Cedar Tree"
+    ],
+    "Garnock Way",
+    [
+     "United!",
+     "United"
+    ],
+    "Weavers Green",
+    "199 Park Lane",
+    "Canary Wharf",
+    "Quayside",
+    "Castles",
+    "Together"
+   ]
+  },
+  {
+   "id": "xf-dreamworks-2011-2025",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a DreamWorks Animation film from 2011 to 2025",
+   "answers": [
+    "Kung Fu Panda 2",
+    "Puss in Boots",
+    [
+     "Madagascar 3: Europe's Most Wanted",
+     "Madagascar 3"
+    ],
+    "Rise of the Guardians",
+    [
+     "The Croods",
+     "Croods"
+    ],
+    "Turbo",
+    [
+     "Mr. Peabody & Sherman",
+     "Mr Peabody and Sherman",
+     "Peabody and Sherman",
+     "Mr. Peabody and Sherman"
+    ],
+    "How to Train Your Dragon 2",
+    "Penguins of Madagascar",
+    "Home",
+    "Kung Fu Panda 3",
+    "Trolls",
+    [
+     "The Boss Baby",
+     "Boss Baby"
+    ],
+    [
+     "Captain Underpants: The First Epic Movie",
+     "Captain Underpants"
+    ],
+    [
+     "How to Train Your Dragon: The Hidden World",
+     "The Hidden World",
+     "Hidden World",
+     "How to Train Your Dragon 3"
+    ],
+    "Abominable",
+    "Trolls World Tour",
+    [
+     "The Croods: A New Age",
+     "Croods 2",
+     "A New Age",
+     "Croods: A New Age"
+    ],
+    "Spirit Untamed",
+    [
+     "The Boss Baby: Family Business",
+     "Boss Baby 2",
+     "Family Business",
+     "Boss Baby: Family Business"
+    ],
+    [
+     "The Bad Guys",
+     "Bad Guys"
+    ],
+    [
+     "Puss in Boots: The Last Wish",
+     "The Last Wish",
+     "Last Wish"
+    ],
+    [
+     "Ruby Gillman, Teenage Kraken",
+     "Ruby Gillman"
+    ],
+    [
+     "Trolls Band Together",
+     "Trolls 3"
+    ],
+    "Kung Fu Panda 4",
+    [
+     "The Wild Robot",
+     "Wild Robot"
+    ],
+    "Dog Man",
+    [
+     "The Bad Guys 2",
+     "Bad Guys 2"
+    ],
+    [
+     "Gabby's Dollhouse: The Movie",
+     "Gabby's Dollhouse",
+     "Gabbys Dollhouse"
+    ],
+    [
+     "How to Train Your Dragon (2025)",
+     "How to Train Your Dragon"
+    ]
+   ]
+  },
+  {
+   "id": "xf-sony-pictures-animation-films",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a film made by Sony Pictures Animation (2006 to 2025)",
+   "answers": [
+    [
+     "Spider-Man: Into the Spider-Verse",
+     "Into the Spider-Verse",
+     "Into the Spiderverse"
+    ],
+    "Hotel Transylvania",
+    "Cloudy with a Chance of Meatballs",
+    [
+     "KPop Demon Hunters",
+     "K-Pop Demon Hunters",
+     "K Pop Demon Hunters"
+    ],
+    [
+     "Spider-Man: Across the Spider-Verse",
+     "Across the Spider-Verse",
+     "Across the Spiderverse"
+    ],
+    [
+     "The Mitchells vs. the Machines",
+     "The Mitchells vs the Machines",
+     "Mitchells vs the Machines",
+     "The Mitchells versus the Machines",
+     "Mitchells vs. the Machines"
+    ],
+    "Hotel Transylvania 2",
+    [
+     "Hotel Transylvania 3: Summer Vacation",
+     "Hotel Transylvania 3",
+     "Summer Vacation"
+    ],
+    "Cloudy with a Chance of Meatballs 2",
+    "Open Season",
+    [
+     "Surf's Up",
+     "Surfs Up"
+    ],
+    [
+     "The Emoji Movie",
+     "Emoji Movie"
+    ],
+    "Arthur Christmas",
+    [
+     "The Smurfs",
+     "Smurfs"
+    ],
+    [
+     "The Smurfs 2",
+     "Smurfs 2"
+    ],
+    [
+     "Smurfs: The Lost Village",
+     "The Lost Village",
+     "Smurfs the Lost Village",
+     "Smurfs 3"
+    ],
+    [
+     "The Pirates: Band of Misfits",
+     "The Pirates! Band of Misfits",
+     "Pirates Band of Misfits",
+     "Pirates: Band of Misfits"
+    ],
+    "Goosebumps",
+    [
+     "Goosebumps 2: Haunted Halloween",
+     "Haunted Halloween"
+    ],
+    "Peter Rabbit",
+    [
+     "The Star",
+     "Star"
+    ],
+    "Wish Dragon",
+    [
+     "Hotel Transylvania: Transformania",
+     "Hotel Transylvania 4",
+     "Transformania"
+    ],
+    "Open Season 2",
+    "Open Season 3",
+    [
+     "Open Season: Scared Silly",
+     "Scared Silly"
+    ],
+    [
+     "Surf's Up 2: WaveMania",
+     "Surfs Up 2",
+     "WaveMania"
+    ],
+    "Fixed"
+   ]
+  },
+  {
+   "id": "xf-blue-sky-studios-films",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a film made by Blue Sky Studios",
+   "answers": [
+    "Ice Age",
+    "Rio",
+    [
+     "Ice Age: The Meltdown",
+     "The Meltdown",
+     "Ice Age 2"
+    ],
+    [
+     "Ice Age: Dawn of the Dinosaurs",
+     "Dawn of the Dinosaurs",
+     "Ice Age 3"
+    ],
+    [
+     "Ice Age: Continental Drift",
+     "Continental Drift",
+     "Ice Age 4"
+    ],
+    [
+     "Ice Age: Collision Course",
+     "Collision Course",
+     "Ice Age 5"
+    ],
+    "Rio 2",
+    "Robots",
+    [
+     "Horton Hears a Who!",
+     "Dr. Seuss' Horton Hears a Who!",
+     "Horton Hears a Who",
+     "Horton"
+    ],
+    "Epic",
+    [
+     "The Peanuts Movie",
+     "Peanuts Movie",
+     "Peanuts"
+    ],
+    "Ferdinand",
+    "Spies in Disguise"
+   ]
+  },
+  {
+   "id": "xf-aardman-films-specials",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name an Aardman feature film or Wallace & Gromit film (to 2026)",
+   "answers": [
+    "Chicken Run",
+    [
+     "Wallace & Gromit: The Curse of the Were-Rabbit",
+     "Curse of the Were-Rabbit",
+     "The Curse of the Were-Rabbit",
+     "Curse of the Were Rabbit",
+     "Wallace and Gromit: The Curse of the Were-Rabbit"
+    ],
+    [
+     "Wallace & Gromit: Vengeance Most Fowl",
+     "Vengeance Most Fowl",
+     "Wallace and Gromit: Vengeance Most Fowl"
+    ],
+    [
+     "The Wrong Trousers",
+     "Wrong Trousers"
+    ],
+    [
+     "A Close Shave",
+     "Close Shave"
+    ],
+    [
+     "A Grand Day Out",
+     "Grand Day Out"
+    ],
+    [
+     "A Matter of Loaf and Death",
+     "Matter of Loaf and Death"
+    ],
+    [
+     "Shaun the Sheep Movie",
+     "Shaun the Sheep: The Movie"
+    ],
+    [
+     "A Shaun the Sheep Movie: Farmageddon",
+     "Farmageddon",
+     "Shaun the Sheep Movie: Farmageddon",
+     "Shaun the Sheep 2"
+    ],
+    "Flushed Away",
+    "Early Man",
+    "Arthur Christmas",
+    [
+     "The Pirates! In an Adventure with Scientists!",
+     "The Pirates",
+     "Pirates in an Adventure with Scientists",
+     "The Pirates! Band of Misfits",
+     "Pirates! In an Adventure with Scientists!"
+    ],
+    [
+     "Chicken Run: Dawn of the Nugget",
+     "Dawn of the Nugget",
+     "Chicken Run 2"
+    ],
+    [
+     "Shaun the Sheep: The Beast of Mossy Bottom",
+     "The Beast of Mossy Bottom",
+     "Beast of Mossy Bottom"
+    ]
+   ]
+  },
+  {
+   "id": "xf-cosgrove-hall-tv-series",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a children's TV series made by Cosgrove Hall Films (1971 to 2008)",
+   "answers": [
+    [
+     "Danger Mouse",
+     "Dangermouse"
+    ],
+    [
+     "Count Duckula",
+     "Duckula"
+    ],
+    [
+     "The Wind in the Willows",
+     "Wind in the Willows"
+    ],
+    "Postman Pat",
+    "Noddy",
+    [
+     "Noddy's Toyland Adventures",
+     "Noddys Toyland Adventures"
+    ],
+    [
+     "Chorlton and the Wheelies",
+     "Chorlton & the Wheelies",
+     "Chorlton"
+    ],
+    [
+     "Jamie and the Magic Torch",
+     "Jamie & the Magic Torch"
+    ],
+    [
+     "Rupert Bear, Follow the Magic...",
+     "Rupert Bear",
+     "Rupert"
+    ],
+    [
+     "Bill and Ben",
+     "Bill & Ben",
+     "Bill and Ben the Flowerpot Men"
+    ],
+    "Andy Pandy",
+    [
+     "Fifi and the Flowertots",
+     "Fifi & the Flowertots",
+     "Fifi"
+    ],
+    [
+     "Roary the Racing Car",
+     "Roary"
+    ],
+    "Pocoyo",
+    [
+     "Victor & Hugo: Bunglers in Crime",
+     "Victor and Hugo",
+     "Victor & Hugo",
+     "Victor and Hugo: Bunglers in Crime"
+    ],
+    "Truckers",
+    [
+     "Oh, Mr. Toad",
+     "Oh Mr Toad"
+    ],
+    "Cockleshell Bay",
+    "Alias the Jester",
+    "Creepy Crawlies",
+    [
+     "The Magic Ball",
+     "Magic Ball"
+    ],
+    [
+     "Captain Noah and His Floating Zoo",
+     "Captain Noah"
+    ],
+    [
+     "Sally and Jake",
+     "Sally & Jake"
+    ],
+    "Avenger Penguins",
+    [
+     "The Mutinearlys",
+     "Mutinearlys"
+    ],
+    "Oakie Doke",
+    "Fantomcat",
+    "Sooty's Amazing Adventures",
+    [
+     "The Enchanted World of Brambly Hedge",
+     "Brambly Hedge",
+     "Enchanted World of Brambly Hedge"
+    ],
+    "Captain Star",
+    [
+     "Rocky and the Dodos",
+     "Rocky & the Dodos"
+    ],
+    "Lavender Castle",
+    "Rotten Ralph",
+    [
+     "The Foxbusters",
+     "Foxbusters"
+    ],
+    [
+     "The Animal Shelf",
+     "Animal Shelf"
+    ],
+    [
+     "The Tales of Little Grey Rabbit",
+     "Little Grey Rabbit",
+     "Tales of Little Grey Rabbit"
+    ],
+    "Fetch the Vet",
+    "Engie Benjy",
+    "Albie",
+    "Little Robots",
+    "Eddie Retractorhead",
+    [
+     "Enid Blyton's Enchanted Lands",
+     "Enchanted Lands"
+    ],
+    "Rocket Boy and Toro"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xf-pixar-short-films-1984-2018",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a Pixar short film from 1984 to 2018 (not SparkShorts, Disney+ or bonus-feature shorts)",
+   "answers": [
+    [
+     "The Adventures of André & Wally B.",
+     "Andre and Wally B",
+     "Andre & Wally B",
+     "The Adventures of Andre and Wally B",
+     "The Adventures of André and Wally B.",
+     "Adventures of André & Wally B."
+    ],
+    [
+     "Luxo Jr.",
+     "Luxo Junior",
+     "Luxo Jr"
+    ],
+    [
+     "Red's Dream",
+     "Reds Dream"
+    ],
+    "Tin Toy",
+    "Knick Knack",
+    [
+     "Geri's Game",
+     "Geris Game"
+    ],
+    "For the Birds",
+    [
+     "Boundin'",
+     "Boundin"
+    ],
+    "One Man Band",
+    "Lifted",
+    "Presto",
+    "Partly Cloudy",
+    [
+     "Day & Night",
+     "Day and Night"
+    ],
+    "La Luna",
+    [
+     "The Blue Umbrella",
+     "Blue Umbrella"
+    ],
+    "Lava",
+    [
+     "Sanjay's Super Team",
+     "Sanjays Super Team"
+    ],
+    "Piper",
+    "Lou",
+    "Bao"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xf-nicktoons-1991-2005",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a Nicktoon that premiered between 1991 and 2005",
+   "answers": [
+    [
+     "SpongeBob SquarePants",
+     "SpongeBob",
+     "Sponge Bob"
+    ],
+    "Rugrats",
+    [
+     "Hey Arnold!",
+     "Hey Arnold"
+    ],
+    [
+     "The Fairly OddParents",
+     "Fairly OddParents",
+     "Fairly Odd Parents",
+     "The Fairly Odd Parents"
+    ],
+    [
+     "Avatar: The Last Airbender",
+     "Avatar the Last Airbender",
+     "Avatar",
+     "The Last Airbender"
+    ],
+    [
+     "The Adventures of Jimmy Neutron, Boy Genius",
+     "Jimmy Neutron",
+     "Jimmy Neutron Boy Genius",
+     "Adventures of Jimmy Neutron, Boy Genius"
+    ],
+    [
+     "The Wild Thornberrys",
+     "Wild Thornberrys",
+     "Thornberrys"
+    ],
+    [
+     "CatDog",
+     "Cat Dog"
+    ],
+    [
+     "Rocko's Modern Life",
+     "Rockos Modern Life",
+     "Rocko"
+    ],
+    "Doug",
+    [
+     "The Ren & Stimpy Show",
+     "Ren and Stimpy",
+     "Ren & Stimpy",
+     "The Ren and Stimpy Show",
+     "Ren & Stimpy Show"
+    ],
+    [
+     "Aaahh!!! Real Monsters",
+     "Aaahh Real Monsters",
+     "Real Monsters",
+     "Aaah Real Monsters"
+    ],
+    [
+     "The Angry Beavers",
+     "Angry Beavers"
+    ],
+    "Rocket Power",
+    "Invader Zim",
+    "Danny Phantom",
+    [
+     "As Told by Ginger",
+     "As Told By Ginger"
+    ],
+    [
+     "ChalkZone",
+     "Chalk Zone"
+    ],
+    [
+     "My Life as a Teenage Robot",
+     "Teenage Robot"
+    ],
+    [
+     "All Grown Up!",
+     "All Grown Up"
+    ],
+    [
+     "KaBlam!",
+     "Kablam"
+    ],
+    [
+     "Oh Yeah! Cartoons",
+     "Oh Yeah Cartoons"
+    ],
+    [
+     "Action League Now!",
+     "Action League Now"
+    ],
+    [
+     "Catscratch",
+     "CatScratch"
+    ],
+    [
+     "The X's",
+     "The Xs",
+     "X's"
+    ]
+   ]
+  },
+  {
+   "id": "xf-cartoon-network-cartoon-cartoons",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a Cartoon Network 'Cartoon Cartoons' series (the 1995 to 2003 line-up)",
+   "answers": [
+    [
+     "Dexter's Laboratory",
+     "Dexters Laboratory",
+     "Dexter's Lab"
+    ],
+    [
+     "The Powerpuff Girls",
+     "Powerpuff Girls"
+    ],
+    "Johnny Bravo",
+    [
+     "Cow and Chicken",
+     "Cow & Chicken"
+    ],
+    "I Am Weasel",
+    [
+     "Ed, Edd n Eddy",
+     "Ed Edd n Eddy",
+     "Ed Edd and Eddy",
+     "Ed, Edd and Eddy"
+    ],
+    [
+     "Courage the Cowardly Dog",
+     "Courage"
+    ],
+    [
+     "Codename: Kids Next Door",
+     "Kids Next Door",
+     "KND",
+     "Codename Kids Next Door"
+    ],
+    [
+     "The Grim Adventures of Billy & Mandy",
+     "Billy and Mandy",
+     "The Grim Adventures of Billy and Mandy",
+     "Billy & Mandy",
+     "Grim Adventures of Billy & Mandy"
+    ],
+    [
+     "Mike, Lu & Og",
+     "Mike Lu and Og",
+     "Mike Lu & Og",
+     "Mike, Lu and Og"
+    ],
+    "Sheep in the Big City",
+    "Time Squad",
+    [
+     "Grim & Evil",
+     "Grim and Evil"
+    ],
+    [
+     "Whatever Happened to... Robot Jones?",
+     "Robot Jones",
+     "Whatever Happened to Robot Jones"
+    ],
+    "Evil Con Carne",
+    [
+     "What a Cartoon!",
+     "What a Cartoon",
+     "The What a Cartoon Show"
+    ]
+   ]
+  },
+  {
+   "id": "xf-dragon-ball-animated-films",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name an animated Dragon Ball film (1986 to 2022)",
+   "answers": [
+    [
+     "Dragon Ball: Curse of the Blood Rubies",
+     "Curse of the Blood Rubies"
+    ],
+    [
+     "Dragon Ball: Sleeping Princess in Devil's Castle",
+     "Sleeping Princess in Devil's Castle",
+     "Sleeping Princess in Devils Castle"
+    ],
+    [
+     "Dragon Ball: Mystical Adventure",
+     "Mystical Adventure"
+    ],
+    [
+     "Dragon Ball: The Path to Power",
+     "The Path to Power",
+     "Path to Power"
+    ],
+    [
+     "Dragon Ball Z: Dead Zone",
+     "Dead Zone"
+    ],
+    [
+     "Dragon Ball Z: The World's Strongest",
+     "The World's Strongest",
+     "Worlds Strongest",
+     "The Worlds Strongest"
+    ],
+    [
+     "Dragon Ball Z: The Tree of Might",
+     "The Tree of Might",
+     "Tree of Might"
+    ],
+    [
+     "Dragon Ball Z: Lord Slug",
+     "Lord Slug"
+    ],
+    [
+     "Dragon Ball Z: Cooler's Revenge",
+     "Cooler's Revenge",
+     "Coolers Revenge"
+    ],
+    [
+     "Dragon Ball Z: The Return of Cooler",
+     "The Return of Cooler",
+     "Return of Cooler"
+    ],
+    [
+     "Dragon Ball Z: Super Android 13!",
+     "Super Android 13"
+    ],
+    [
+     "Dragon Ball Z: Broly - The Legendary Super Saiyan",
+     "Broly The Legendary Super Saiyan",
+     "The Legendary Super Saiyan",
+     "Legendary Super Saiyan"
+    ],
+    [
+     "Dragon Ball Z: Bojack Unbound",
+     "Bojack Unbound"
+    ],
+    [
+     "Dragon Ball Z: Broly - Second Coming",
+     "Broly Second Coming",
+     "Second Coming"
+    ],
+    [
+     "Dragon Ball Z: Bio-Broly",
+     "Bio-Broly",
+     "Bio Broly"
+    ],
+    [
+     "Dragon Ball Z: Fusion Reborn",
+     "Fusion Reborn"
+    ],
+    [
+     "Dragon Ball Z: Wrath of the Dragon",
+     "Wrath of the Dragon"
+    ],
+    [
+     "Dragon Ball Z: Battle of Gods",
+     "Battle of Gods"
+    ],
+    [
+     "Dragon Ball Z: Resurrection 'F'",
+     "Resurrection F",
+     "Resurrection of F"
+    ],
+    [
+     "Dragon Ball Super: Broly",
+     "Super: Broly",
+     "Dragon Ball Super Broly"
+    ],
+    [
+     "Dragon Ball Super: Super Hero",
+     "Super Hero",
+     "Dragon Ball Super Super Hero"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xf-shinkai-hosoda-films",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a feature film directed by Makoto Shinkai or Mamoru Hosoda (up to 2025)",
+   "answers": [
+    [
+     "Your Name",
+     "Kimi no Na wa"
+    ],
+    [
+     "Weathering with You",
+     "Tenki no Ko"
+    ],
+    [
+     "Suzume",
+     "Suzume no Tojimari"
+    ],
+    [
+     "5 Centimeters per Second",
+     "5 Centimetres per Second",
+     "Five Centimeters per Second"
+    ],
+    [
+     "The Garden of Words",
+     "Garden of Words",
+     "Kotonoha no Niwa"
+    ],
+    [
+     "The Place Promised in Our Early Days",
+     "Place Promised in Our Early Days"
+    ],
+    "Children Who Chase Lost Voices",
+    "Summer Wars",
+    "Wolf Children",
+    "Belle",
+    [
+     "The Girl Who Leapt Through Time",
+     "Girl Who Leapt Through Time"
+    ],
+    [
+     "The Boy and the Beast",
+     "Boy and the Beast"
+    ],
+    [
+     "Mirai",
+     "Mirai of the Future"
+    ],
+    "Scarlet",
+    [
+     "One Piece: Baron Omatsuri and the Secret Island",
+     "Baron Omatsuri and the Secret Island",
+     "One Piece Baron Omatsuri"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xf-disney-live-action-remakes-2010-2026",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a Disney live-action remake of an animated film, or a live-action spin-off from one (2010 to 2026)",
+   "answers": [
+    [
+     "Cinderella (2015)",
+     "Cinderella"
+    ],
+    [
+     "The Jungle Book (2016)",
+     "The Jungle Book",
+     "Jungle Book",
+     "Jungle Book (2016)"
+    ],
+    [
+     "Beauty and the Beast (2017)",
+     "Beauty and the Beast",
+     "Beauty & the Beast"
+    ],
+    [
+     "Aladdin (2019)",
+     "Aladdin"
+    ],
+    [
+     "The Lion King (2019)",
+     "The Lion King",
+     "Lion King",
+     "Lion King (2019)"
+    ],
+    [
+     "Dumbo (2019)",
+     "Dumbo"
+    ],
+    [
+     "Mulan (2020)",
+     "Mulan"
+    ],
+    [
+     "Lady and the Tramp (2019)",
+     "Lady and the Tramp",
+     "Lady & the Tramp"
+    ],
+    [
+     "Maleficent",
+     "Maleficent (2014)"
+    ],
+    [
+     "Maleficent: Mistress of Evil",
+     "Mistress of Evil"
+    ],
+    [
+     "Alice in Wonderland (2010)",
+     "Alice in Wonderland"
+    ],
+    "Alice Through the Looking Glass",
+    "Cruella",
+    [
+     "Pinocchio (2022)",
+     "Pinocchio"
+    ],
+    [
+     "The Little Mermaid (2023)",
+     "The Little Mermaid",
+     "Little Mermaid",
+     "Little Mermaid (2023)"
+    ],
+    [
+     "Peter Pan & Wendy",
+     "Peter Pan and Wendy"
+    ],
+    "Christopher Robin",
+    [
+     "Mufasa: The Lion King",
+     "Mufasa"
+    ],
+    [
+     "Snow White (2025)",
+     "Snow White"
+    ],
+    [
+     "Lilo & Stitch (2025)",
+     "Lilo & Stitch",
+     "Lilo and Stitch",
+     "Lilo and Stitch (2025)"
+    ],
+    [
+     "Moana (2026)",
+     "Moana"
+    ],
+    [
+     "The Sorcerer's Apprentice",
+     "Sorcerers Apprentice",
+     "Sorcerer's Apprentice"
+    ]
+   ]
+  },
+  {
+   "id": "xf-friends-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character in Friends",
+   "answers": [
+    [
+     "Rachel Green",
+     "Rachel"
+    ],
+    [
+     "Monica Geller",
+     "Monica"
+    ],
+    [
+     "Phoebe Buffay",
+     "Phoebe",
+     "Regina Phalange"
+    ],
+    [
+     "Joey Tribbiani",
+     "Joey",
+     "Tribbiani"
+    ],
+    [
+     "Chandler Bing",
+     "Chandler",
+     "Bing"
+    ],
+    [
+     "Ross Geller",
+     "Ross"
+    ],
+    "Gunther",
+    [
+     "Janice Litman-Goralnik",
+     "Janice"
+    ],
+    [
+     "Mike Hannigan",
+     "Mike"
+    ],
+    [
+     "Richard Burke",
+     "Richard"
+    ],
+    [
+     "Carol Willick",
+     "Carol"
+    ],
+    [
+     "Susan Bunch",
+     "Susan"
+    ],
+    [
+     "Ben Geller",
+     "Ben"
+    ],
+    [
+     "Emma Geller-Green",
+     "Emma"
+    ],
+    [
+     "Jack Geller",
+     "Jack"
+    ],
+    [
+     "Judy Geller",
+     "Judy"
+    ],
+    [
+     "Emily Waltham",
+     "Emily"
+    ],
+    [
+     "Mr. Heckles",
+     "Heckles",
+     "Mr Heckles"
+    ],
+    [
+     "Ursula Buffay",
+     "Ursula"
+    ],
+    [
+     "Estelle Leonard",
+     "Estelle"
+    ],
+    "Paolo",
+    [
+     "Charlie Wheeler",
+     "Charlie"
+    ],
+    [
+     "Frank Buffay Jr.",
+     "Frank Buffay Jr",
+     "Frank Jr",
+     "Frank"
+    ],
+    [
+     "Alice Knight Buffay",
+     "Alice Buffay",
+     "Alice"
+    ],
+    "Marcel",
+    [
+     "Tag Jones",
+     "Tag"
+    ],
+    [
+     "Barry Farber",
+     "Barry"
+    ],
+    [
+     "Janine Lecroix",
+     "Janine"
+    ],
+    "David",
+    "Kathy",
+    [
+     "Joshua Burgin",
+     "Joshua"
+    ],
+    [
+     "Eddie Menuek",
+     "Eddie"
+    ],
+    [
+     "Mr. Treeger",
+     "Treeger",
+     "Mr Treeger"
+    ],
+    [
+     "Nora Tyler Bing",
+     "Nora Bing",
+     "Nora"
+    ],
+    [
+     "Pete Becker",
+     "Pete"
+    ],
+    "Julie",
+    "Gary",
+    "Ugly Naked Guy",
+    [
+     "Helena Handbasket",
+     "Charles Bing",
+     "Charles"
+    ],
+    "Mona",
+    [
+     "Jill Green",
+     "Jill"
+    ],
+    [
+     "Amy Green",
+     "Amy"
+    ],
+    [
+     "Sandra Green",
+     "Sandra"
+    ],
+    [
+     "Dr. Leonard Green",
+     "Leonard Green",
+     "Dr Leonard Green"
+    ],
+    [
+     "Mark Robinson",
+     "Mark"
+    ],
+    [
+     "Kate Miller",
+     "Kate"
+    ],
+    [
+     "Elizabeth Stevens",
+     "Elizabeth"
+    ],
+    [
+     "Paul Stevens",
+     "Paul"
+    ],
+    [
+     "Mr. Waltham",
+     "Mr Waltham"
+    ],
+    [
+     "Mindy Hunter",
+     "Mindy"
+    ],
+    [
+     "Fun Bobby",
+     "Bobby"
+    ],
+    "Bonnie",
+    "Danny"
+   ]
+  },
+  {
+   "id": "xf-star-wars-original-trilogy-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the original Star Wars trilogy (1977 to 1983)",
+   "answers": [
+    [
+     "Luke Skywalker",
+     "Luke",
+     "Skywalker"
+    ],
+    [
+     "Darth Vader",
+     "Vader",
+     "Anakin Skywalker",
+     "Anakin"
+    ],
+    [
+     "Han Solo",
+     "Han",
+     "Solo"
+    ],
+    [
+     "Princess Leia Organa",
+     "Princess Leia",
+     "Leia",
+     "Leia Organa"
+    ],
+    [
+     "Obi-Wan Kenobi",
+     "Obi Wan Kenobi",
+     "Obi-Wan",
+     "Obi Wan",
+     "Ben Kenobi",
+     "Kenobi",
+     "Old Ben"
+    ],
+    "Yoda",
+    [
+     "Chewbacca",
+     "Chewie"
+    ],
+    [
+     "C-3PO",
+     "C3PO",
+     "See-Threepio",
+     "Threepio"
+    ],
+    [
+     "R2-D2",
+     "R2D2",
+     "Artoo",
+     "Artoo-Detoo"
+    ],
+    [
+     "Lando Calrissian",
+     "Lando"
+    ],
+    [
+     "Emperor Palpatine",
+     "The Emperor",
+     "Palpatine",
+     "Emperor",
+     "Darth Sidious"
+    ],
+    [
+     "Grand Moff Tarkin",
+     "Tarkin"
+    ],
+    [
+     "Boba Fett",
+     "Boba"
+    ],
+    [
+     "Jabba the Hutt",
+     "Jabba"
+    ],
+    [
+     "Admiral Ackbar",
+     "Ackbar"
+    ],
+    [
+     "Wedge Antilles",
+     "Wedge"
+    ],
+    "Greedo",
+    "Mon Mothma",
+    "Nien Nunb",
+    [
+     "Wicket W. Warrick",
+     "Wicket",
+     "Wicket the Ewok"
+    ],
+    [
+     "Biggs Darklighter",
+     "Biggs"
+    ],
+    [
+     "Jek Porkins",
+     "Porkins"
+    ],
+    [
+     "General Dodonna",
+     "Dodonna"
+    ],
+    [
+     "Admiral Motti",
+     "Motti"
+    ],
+    [
+     "General Veers",
+     "Veers"
+    ],
+    [
+     "Admiral Piett",
+     "Piett"
+    ],
+    [
+     "Admiral Ozzel",
+     "Ozzel"
+    ],
+    [
+     "Captain Needa",
+     "Needa"
+    ],
+    [
+     "General Tagge",
+     "Tagge"
+    ],
+    [
+     "Moff Jerjerrod",
+     "Jerjerrod"
+    ],
+    [
+     "Bib Fortuna",
+     "Fortuna"
+    ],
+    [
+     "Salacious B. Crumb",
+     "Salacious Crumb",
+     "Salacious"
+    ],
+    [
+     "Max Rebo",
+     "Max Rebo Band"
+    ],
+    [
+     "Sy Snootles",
+     "Snootles"
+    ],
+    "Oola",
+    "Bossk",
+    "Dengar",
+    [
+     "IG-88",
+     "IG88"
+    ],
+    "Zuckuss",
+    [
+     "4-LOM",
+     "4LOM"
+    ],
+    "Lobot",
+    [
+     "Owen Lars",
+     "Uncle Owen",
+     "Owen"
+    ],
+    [
+     "Beru Lars",
+     "Aunt Beru",
+     "Beru"
+    ],
+    [
+     "Captain Antilles",
+     "Raymus Antilles"
+    ],
+    [
+     "General Madine",
+     "Madine"
+    ],
+    [
+     "General Rieekan",
+     "Rieekan"
+    ],
+    [
+     "Dak Ralter",
+     "Dak"
+    ],
+    [
+     "Hobbie Klivian",
+     "Hobbie"
+    ],
+    [
+     "Major Derlin",
+     "Derlin"
+    ],
+    [
+     "Zev Senesca",
+     "Zev"
+    ],
+    [
+     "Red Leader",
+     "Garven Dreis"
+    ],
+    [
+     "Gold Leader",
+     "Dutch Vander"
+    ],
+    [
+     "Figrin D'an",
+     "Figrin Dan"
+    ],
+    [
+     "Doctor Evazan",
+     "Dr. Evazan",
+     "Evazan"
+    ],
+    [
+     "Ponda Baba",
+     "Ponda"
+    ],
+    "Garindan",
+    "Wuher",
+    [
+     "Momaw Nadon",
+     "Hammerhead"
+    ],
+    "Paploo",
+    "Logray",
+    [
+     "Chief Chirpa",
+     "Chirpa"
+    ],
+    [
+     "General Willard",
+     "Willard"
+    ],
+    "Muftak",
+    "Kabe",
+    [
+     "BoShek",
+     "Bo Shek"
+    ],
+    "Dannik Jerriko",
+    "Malakili",
+    "Ephant Mon",
+    "Wam Lufba",
+    "Sim Aloo",
+    [
+     "General Bast",
+     "Bast"
+    ]
+   ]
+  },
+  {
+   "id": "xf-game-of-thrones-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character in the TV series Game of Thrones (2011 to 2019)",
+   "answers": [
+    [
+     "Tyrion Lannister",
+     "Tyrion",
+     "Imp"
+    ],
+    [
+     "Jon Snow",
+     "Jon",
+     "Snow"
+    ],
+    [
+     "Daenerys Targaryen",
+     "Daenerys",
+     "Dany",
+     "Khaleesi",
+     "Targaryen"
+    ],
+    [
+     "Cersei Lannister",
+     "Cersei"
+    ],
+    [
+     "Jaime Lannister",
+     "Jaime",
+     "Kingslayer"
+    ],
+    [
+     "Arya Stark",
+     "Arya"
+    ],
+    [
+     "Sansa Stark",
+     "Sansa"
+    ],
+    [
+     "Bran Stark",
+     "Bran",
+     "Brandon Stark",
+     "Three-Eyed Raven"
+    ],
+    [
+     "Eddard Stark",
+     "Ned Stark",
+     "Ned"
+    ],
+    [
+     "Robb Stark",
+     "Robb"
+    ],
+    [
+     "Catelyn Stark",
+     "Catelyn",
+     "Lady Stoneheart"
+    ],
+    [
+     "Joffrey Baratheon",
+     "Joffrey"
+    ],
+    [
+     "Robert Baratheon",
+     "Robert"
+    ],
+    [
+     "Stannis Baratheon",
+     "Stannis"
+    ],
+    [
+     "Renly Baratheon",
+     "Renly"
+    ],
+    [
+     "Tywin Lannister",
+     "Tywin"
+    ],
+    [
+     "Theon Greyjoy",
+     "Theon",
+     "Reek"
+    ],
+    [
+     "Yara Greyjoy",
+     "Yara",
+     "Asha Greyjoy",
+     "Asha"
+    ],
+    [
+     "Euron Greyjoy",
+     "Euron"
+    ],
+    [
+     "Petyr Baelish",
+     "Littlefinger"
+    ],
+    [
+     "Varys",
+     "Lord Varys",
+     "The Spider"
+    ],
+    [
+     "Sandor Clegane",
+     "The Hound",
+     "Hound",
+     "Sandor"
+    ],
+    [
+     "Gregor Clegane",
+     "The Mountain",
+     "Mountain",
+     "Gregor"
+    ],
+    [
+     "Brienne of Tarth",
+     "Brienne"
+    ],
+    [
+     "Samwell Tarly",
+     "Sam Tarly",
+     "Samwell",
+     "Sam"
+    ],
+    "Gilly",
+    [
+     "Davos Seaworth",
+     "Davos",
+     "Onion Knight"
+    ],
+    [
+     "Melisandre",
+     "Red Woman"
+    ],
+    [
+     "Jorah Mormont",
+     "Jorah"
+    ],
+    [
+     "Jeor Mormont",
+     "Old Bear"
+    ],
+    [
+     "Lyanna Mormont",
+     "Lyanna"
+    ],
+    "Bronn",
+    [
+     "Podrick Payne",
+     "Podrick",
+     "Pod"
+    ],
+    [
+     "Khal Drogo",
+     "Drogo"
+    ],
+    [
+     "Viserys Targaryen",
+     "Viserys"
+    ],
+    "Missandei",
+    "Grey Worm",
+    [
+     "Daario Naharis",
+     "Daario"
+    ],
+    [
+     "Margaery Tyrell",
+     "Margaery"
+    ],
+    [
+     "Olenna Tyrell",
+     "Olenna",
+     "Queen of Thorns"
+    ],
+    [
+     "Loras Tyrell",
+     "Loras",
+     "Knight of Flowers"
+    ],
+    [
+     "Oberyn Martell",
+     "Oberyn",
+     "Red Viper"
+    ],
+    [
+     "Ellaria Sand",
+     "Ellaria"
+    ],
+    [
+     "Tormund Giantsbane",
+     "Tormund"
+    ],
+    "Ygritte",
+    [
+     "Mance Rayder",
+     "Mance"
+    ],
+    [
+     "Night King",
+     "The Night King"
+    ],
+    [
+     "Ramsay Bolton",
+     "Ramsay",
+     "Ramsay Snow"
+    ],
+    [
+     "Roose Bolton",
+     "Roose"
+    ],
+    [
+     "Walder Frey",
+     "Walder"
+    ],
+    "Hodor",
+    [
+     "Rickon Stark",
+     "Rickon"
+    ],
+    "Shae",
+    "Ros",
+    "Gendry",
+    "Hot Pie",
+    [
+     "Jaqen H'ghar",
+     "Jaqen",
+     "Jaqen Hghar"
+    ],
+    [
+     "Syrio Forel",
+     "Syrio"
+    ],
+    [
+     "Myrcella Baratheon",
+     "Myrcella"
+    ],
+    [
+     "Tommen Baratheon",
+     "Tommen"
+    ],
+    "Qyburn",
+    [
+     "High Sparrow",
+     "The High Sparrow"
+    ],
+    [
+     "Beric Dondarrion",
+     "Beric"
+    ],
+    [
+     "Thoros of Myr",
+     "Thoros"
+    ],
+    [
+     "Barristan Selmy",
+     "Barristan",
+     "Ser Barristan"
+    ],
+    [
+     "Maester Aemon",
+     "Aemon"
+    ],
+    [
+     "Grand Maester Pycelle",
+     "Pycelle"
+    ],
+    [
+     "Alliser Thorne",
+     "Thorne"
+    ],
+    [
+     "Lysa Arryn",
+     "Lysa"
+    ],
+    [
+     "Robin Arryn",
+     "Robin"
+    ],
+    "Osha",
+    "Craster",
+    [
+     "Meera Reed",
+     "Meera"
+    ],
+    [
+     "Jojen Reed",
+     "Jojen"
+    ],
+    [
+     "Edmure Tully",
+     "Edmure"
+    ],
+    [
+     "Brynden Tully",
+     "Blackfish",
+     "The Blackfish"
+    ],
+    [
+     "Shireen Baratheon",
+     "Shireen"
+    ],
+    [
+     "Selyse Baratheon",
+     "Selyse"
+    ],
+    [
+     "Doran Martell",
+     "Doran"
+    ],
+    [
+     "Trystane Martell",
+     "Trystane"
+    ],
+    [
+     "Septa Unella",
+     "Unella"
+    ],
+    [
+     "Ilyn Payne",
+     "Ilyn"
+    ],
+    [
+     "Lancel Lannister",
+     "Lancel"
+    ],
+    [
+     "Kevan Lannister",
+     "Kevan"
+    ],
+    [
+     "Maester Luwin",
+     "Luwin"
+    ],
+    [
+     "Rodrik Cassel",
+     "Rodrik"
+    ],
+    [
+     "Talisa Maegyr",
+     "Talisa"
+    ],
+    [
+     "Benjen Stark",
+     "Benjen"
+    ],
+    [
+     "Qhorin Halfhand",
+     "Qhorin"
+    ],
+    "Pyat Pree",
+    [
+     "Janos Slynt",
+     "Slynt"
+    ],
+    [
+     "Meryn Trant",
+     "Trant"
+    ],
+    [
+     "Lommy Greenhands",
+     "Lommy"
+    ],
+    "Old Nan",
+    "Orell",
+    [
+     "Tyene Sand",
+     "Tyene"
+    ],
+    [
+     "Obara Sand",
+     "Obara"
+    ],
+    "Nymeria Sand"
+   ]
+  },
+  {
+   "id": "xf-breaking-bad-better-call-saul-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from Breaking Bad or Better Call Saul",
+   "answers": [
+    [
+     "Walter White",
+     "Walt",
+     "Heisenberg",
+     "Mr White",
+     "Walter"
+    ],
+    [
+     "Jesse Pinkman",
+     "Jesse",
+     "Pinkman"
+    ],
+    [
+     "Saul Goodman",
+     "Jimmy McGill",
+     "Saul",
+     "Jimmy",
+     "Slippin' Jimmy"
+    ],
+    [
+     "Skyler White",
+     "Skyler"
+    ],
+    [
+     "Hank Schrader",
+     "Hank"
+    ],
+    [
+     "Marie Schrader",
+     "Marie"
+    ],
+    [
+     "Walter White Jr.",
+     "Walter Jr",
+     "Walt Jr",
+     "Flynn",
+     "Flynn White",
+     "Walter White Junior"
+    ],
+    [
+     "Gus Fring",
+     "Gustavo Fring",
+     "Gus",
+     "Gustavo"
+    ],
+    [
+     "Mike Ehrmantraut",
+     "Mike"
+    ],
+    [
+     "Kim Wexler",
+     "Kim"
+    ],
+    [
+     "Chuck McGill",
+     "Chuck"
+    ],
+    [
+     "Howard Hamlin",
+     "Howard"
+    ],
+    [
+     "Nacho Varga",
+     "Nacho"
+    ],
+    [
+     "Lalo Salamanca",
+     "Lalo"
+    ],
+    [
+     "Hector Salamanca",
+     "Héctor Salamanca",
+     "Hector",
+     "Tio Salamanca",
+     "Tio"
+    ],
+    [
+     "Tuco Salamanca",
+     "Tuco"
+    ],
+    [
+     "Todd Alquist",
+     "Todd"
+    ],
+    [
+     "Lydia Rodarte-Quayle",
+     "Lydia"
+    ],
+    [
+     "Badger",
+     "Brandon Mayhew"
+    ],
+    [
+     "Skinny Pete",
+     "Skinny"
+    ],
+    "Combo",
+    [
+     "Gale Boetticher",
+     "Gale"
+    ],
+    [
+     "Jane Margolis",
+     "Jane"
+    ],
+    [
+     "Krazy-8",
+     "Krazy 8",
+     "Domingo Molina",
+     "Krazy8"
+    ],
+    [
+     "Huell Babineaux",
+     "Huell"
+    ],
+    [
+     "Ted Beneke",
+     "Ted"
+    ],
+    [
+     "Holly White",
+     "Holly"
+    ],
+    [
+     "Gretchen Schwartz",
+     "Gretchen"
+    ],
+    [
+     "Elliott Schwartz",
+     "Elliott"
+    ],
+    [
+     "Andrea Cantillo",
+     "Andrea"
+    ],
+    [
+     "Brock Cantillo",
+     "Brock"
+    ],
+    [
+     "Juan Bolsa",
+     "Bolsa"
+    ],
+    [
+     "Steve Gomez",
+     "Gomez",
+     "Steven Gómez",
+     "Steven Gomez"
+    ],
+    [
+     "Tyrus Kitt",
+     "Tyrus"
+    ],
+    [
+     "Jack Welker",
+     "Jack"
+    ],
+    [
+     "Marco Salamanca",
+     "Marco"
+    ],
+    [
+     "Leonel Salamanca",
+     "Leonel"
+    ],
+    "Victor",
+    "Gonzo",
+    "Spooge",
+    [
+     "Donald Margolis",
+     "Donald"
+    ],
+    [
+     "Eladio Vuente",
+     "Don Eladio",
+     "Eladio"
+    ],
+    [
+     "Stacey Ehrmantraut",
+     "Stacey"
+    ],
+    [
+     "Kaylee Ehrmantraut",
+     "Kaylee"
+    ],
+    [
+     "Irene Landry",
+     "Irene"
+    ],
+    [
+     "Betsy Kettleman",
+     "Betsy"
+    ],
+    [
+     "Craig Kettleman",
+     "Craig"
+    ],
+    [
+     "Gene Takavic",
+     "Gene"
+    ],
+    [
+     "Francesca Liddy",
+     "Francesca"
+    ],
+    "Ernesto"
+   ]
+  },
+  {
+   "id": "xf-stranger-things-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character in Stranger Things",
+   "answers": [
+    [
+     "Eleven",
+     "El",
+     "Jane Hopper",
+     "011",
+     "Jane Ives"
+    ],
+    [
+     "Mike Wheeler",
+     "Mike"
+    ],
+    [
+     "Dustin Henderson",
+     "Dustin"
+    ],
+    [
+     "Lucas Sinclair",
+     "Lucas"
+    ],
+    [
+     "Will Byers",
+     "Will"
+    ],
+    [
+     "Max Mayfield",
+     "Max"
+    ],
+    [
+     "Joyce Byers",
+     "Joyce"
+    ],
+    [
+     "Jim Hopper",
+     "Hopper",
+     "Jim"
+    ],
+    [
+     "Nancy Wheeler",
+     "Nancy"
+    ],
+    [
+     "Jonathan Byers",
+     "Jonathan"
+    ],
+    [
+     "Steve Harrington",
+     "Steve"
+    ],
+    [
+     "Robin Buckley",
+     "Robin"
+    ],
+    [
+     "Erica Sinclair",
+     "Erica"
+    ],
+    [
+     "Billy Hargrove",
+     "Billy"
+    ],
+    [
+     "Eddie Munson",
+     "Eddie"
+    ],
+    [
+     "Vecna",
+     "Henry Creel",
+     "One",
+     "001"
+    ],
+    [
+     "Dr. Brenner",
+     "Martin Brenner",
+     "Papa",
+     "Brenner",
+     "Dr Brenner"
+    ],
+    [
+     "Murray Bauman",
+     "Murray"
+    ],
+    [
+     "Bob Newby",
+     "Bob"
+    ],
+    [
+     "Sam Owens",
+     "Owens"
+    ],
+    [
+     "Karen Wheeler",
+     "Karen"
+    ],
+    [
+     "Ted Wheeler",
+     "Ted"
+    ],
+    [
+     "Holly Wheeler",
+     "Holly"
+    ],
+    [
+     "Barb Holland",
+     "Barb",
+     "Barbara Holland"
+    ],
+    [
+     "Kali Prasad",
+     "Kali",
+     "Eight",
+     "008"
+    ],
+    "Argyle",
+    [
+     "Dr. Kay",
+     "Dr Kay"
+    ],
+    [
+     "Derek Turnbow",
+     "Derek"
+    ],
+    [
+     "Demogorgon",
+     "The Demogorgon"
+    ],
+    [
+     "Mind Flayer",
+     "The Mind Flayer",
+     "Shadow Monster"
+    ],
+    "Dart",
+    [
+     "Scott Clarke",
+     "Mr. Clarke",
+     "Mr Clarke"
+    ],
+    [
+     "Claudia Henderson",
+     "Claudia"
+    ],
+    [
+     "Lonnie Byers",
+     "Lonnie"
+    ],
+    [
+     "Tommy Hagan",
+     "Tommy"
+    ],
+    [
+     "Carol Perkins",
+     "Carol"
+    ],
+    [
+     "Troy Walsh",
+     "Troy"
+    ],
+    "James Dante",
+    "Angela",
+    [
+     "Suzie Bingham",
+     "Suzie"
+    ],
+    [
+     "Victor Creel",
+     "Victor"
+    ],
+    [
+     "Virginia Creel",
+     "Virginia"
+    ],
+    [
+     "Chrissy Cunningham",
+     "Chrissy"
+    ],
+    [
+     "Jason Carver",
+     "Jason"
+    ],
+    [
+     "Vickie Dunne",
+     "Vickie"
+    ],
+    [
+     "Dmitri Antonov",
+     "Enzo",
+     "Dmitri"
+    ],
+    "Grigori",
+    [
+     "Heather Holloway",
+     "Heather"
+    ],
+    [
+     "Bruce Lowe",
+     "Bruce"
+    ],
+    [
+     "Mayor Kline",
+     "Larry Kline"
+    ],
+    [
+     "Dr. Alexei",
+     "Alexei",
+     "Dr Alexei"
+    ],
+    [
+     "Terry Ives",
+     "Terry"
+    ],
+    [
+     "Calvin Powell",
+     "Powell"
+    ],
+    [
+     "Flo",
+     "Florence"
+    ],
+    [
+     "Wayne Munson",
+     "Wayne"
+    ],
+    "Sue Sinclair",
+    "Susan Hargrove",
+    [
+     "Nikki Baxter",
+     "Nikki"
+    ],
+    "Anna Baxter",
+    "Daniel Fischer"
+   ]
+  },
+  {
+   "id": "xf-gavin-and-stacey-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from Gavin & Stacey",
+   "answers": [
+    [
+     "Gavin Shipman",
+     "Gavin"
+    ],
+    [
+     "Stacey West",
+     "Stacey",
+     "Stacey Shipman"
+    ],
+    [
+     "Neil Smith",
+     "Smithy",
+     "Neil \"Smithy\" Smith"
+    ],
+    [
+     "Nessa Jenkins",
+     "Nessa",
+     "Vanessa Jenkins",
+     "Vanessa"
+    ],
+    [
+     "Mick Shipman",
+     "Mick",
+     "Michael Shipman"
+    ],
+    [
+     "Pam Shipman",
+     "Pam",
+     "Pamela Shipman",
+     "Pamela"
+    ],
+    [
+     "Bryn West",
+     "Bryn",
+     "Brynfor West"
+    ],
+    [
+     "Gwen West",
+     "Gwen"
+    ],
+    [
+     "Dawn Sutcliffe",
+     "Dawn"
+    ],
+    [
+     "Pete Sutcliffe",
+     "Pete",
+     "Peter Sutcliffe"
+    ],
+    [
+     "Jason West",
+     "Jason"
+    ],
+    [
+     "Doris O'Neill",
+     "Dor",
+     "Doris",
+     "Doris ONeill"
+    ],
+    "Dirtbox",
+    "Budgie",
+    "Fingers",
+    [
+     "Dave Coaches",
+     "Dave"
+    ],
+    [
+     "Chinese Alan",
+     "Alan"
+    ],
+    [
+     "Rudi Smith",
+     "Rudi",
+     "Ruth Smith"
+    ],
+    "Deano",
+    [
+     "Cath Smith",
+     "Cath",
+     "Catherina Smith"
+    ],
+    "Sonia"
+   ]
+  },
+  {
+   "id": "xf-spongebob-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from SpongeBob SquarePants",
+   "answers": [
+    [
+     "SpongeBob SquarePants",
+     "SpongeBob",
+     "Sponge Bob"
+    ],
+    [
+     "Patrick Star",
+     "Patrick"
+    ],
+    [
+     "Squidward Tentacles",
+     "Squidward"
+    ],
+    [
+     "Mr. Krabs",
+     "Mr Krabs",
+     "Eugene Krabs",
+     "Krabs"
+    ],
+    [
+     "Plankton",
+     "Sheldon Plankton",
+     "Sheldon J. Plankton"
+    ],
+    [
+     "Sandy Cheeks",
+     "Sandy"
+    ],
+    [
+     "Gary the Snail",
+     "Gary"
+    ],
+    [
+     "Mrs. Puff",
+     "Mrs Puff"
+    ],
+    [
+     "Pearl Krabs",
+     "Pearl"
+    ],
+    [
+     "Karen",
+     "Karen Plankton"
+    ],
+    [
+     "Patchy the Pirate",
+     "Patchy"
+    ],
+    [
+     "Potty the Parrot",
+     "Potty"
+    ],
+    "Mermaid Man",
+    "Barnacle Boy",
+    [
+     "The Flying Dutchman",
+     "Flying Dutchman"
+    ],
+    [
+     "King Neptune",
+     "Neptune"
+    ],
+    [
+     "Larry the Lobster",
+     "Larry"
+    ],
+    [
+     "Harold SquarePants",
+     "Harold"
+    ],
+    [
+     "Margaret SquarePants",
+     "Margaret"
+    ],
+    [
+     "Realistic Fish Head",
+     "Fish Head"
+    ],
+    [
+     "Perch Perkins",
+     "Perch"
+    ],
+    "Bubble Bass",
+    "Nosferatu",
+    [
+     "Slappy Laszlo",
+     "Slappy"
+    ],
+    [
+     "Old Man Jenkins",
+     "Jenkins"
+    ],
+    [
+     "Lady Upturn",
+     "Lady Mildred Upturn"
+    ],
+    [
+     "Mindy",
+     "Princess Mindy"
+    ],
+    "Dennis",
+    "Man Ray",
+    [
+     "DoodleBob",
+     "Doodle Bob"
+    ],
+    "Bubble Buddy",
+    [
+     "Squilliam Fancyson",
+     "Squilliam"
+    ],
+    [
+     "Prince Triton",
+     "Triton"
+    ],
+    [
+     "Queen Amphitrite",
+     "Amphitrite"
+    ],
+    [
+     "Flats the Flounder",
+     "Flats"
+    ],
+    [
+     "Fred",
+     "Fred the Fish"
+    ],
+    "Spot",
+    "Kelpy G",
+    "Sticky Fins Whiting",
+    [
+     "The Moth",
+     "Moth"
+    ],
+    "Dirty Bubble",
+    "Gordon",
+    [
+     "Burger-Beard the Pirate",
+     "Burger Beard",
+     "Burger-Beard"
+    ],
+    [
+     "King Poseidon",
+     "Poseidon"
+    ],
+    [
+     "Master Udon",
+     "Udon"
+    ],
+    [
+     "Jack Kahuna Laguna",
+     "Kahuna Laguna",
+     "Jack Kahuna"
+    ],
+    "Granny",
+    [
+     "Cuddle E. Hugs",
+     "Cuddle E Hugs"
+    ]
+   ]
+  },
+  {
+   "id": "xf-disney-animated-villains",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a villain from a Disney animated film (not Pixar)",
+   "answers": [
+    [
+     "Evil Queen",
+     "Queen Grimhilde",
+     "Grimhilde",
+     "The Evil Queen",
+     "The Queen"
+    ],
+    "Maleficent",
+    "Ursula",
+    "Scar",
+    "Jafar",
+    [
+     "Cruella de Vil",
+     "Cruella",
+     "De Vil"
+    ],
+    [
+     "Captain Hook",
+     "Hook"
+    ],
+    "Gaston",
+    "Hades",
+    [
+     "Lady Tremaine",
+     "Tremaine",
+     "Wicked Stepmother",
+     "The Stepmother"
+    ],
+    "Queen of Hearts",
+    "Shere Khan",
+    "Kaa",
+    [
+     "Prince John",
+     "John"
+    ],
+    [
+     "Sir Hiss",
+     "Hiss"
+    ],
+    [
+     "Sheriff of Nottingham",
+     "Nottingham"
+    ],
+    [
+     "Judge Claude Frollo",
+     "Frollo",
+     "Claude Frollo"
+    ],
+    [
+     "Governor Ratcliffe",
+     "Ratcliffe"
+    ],
+    "Clayton",
+    "Yzma",
+    [
+     "Dr. Facilier",
+     "Dr Facilier",
+     "Facilier",
+     "Shadow Man"
+    ],
+    [
+     "Mother Gothel",
+     "Gothel"
+    ],
+    [
+     "Prince Hans",
+     "Hans"
+    ],
+    [
+     "King Candy",
+     "Turbo"
+    ],
+    [
+     "Professor Ratigan",
+     "Ratigan"
+    ],
+    [
+     "Madam Medusa",
+     "Medusa"
+    ],
+    [
+     "Percival C. McLeach",
+     "McLeach",
+     "Percival McLeach"
+    ],
+    [
+     "Bill Sykes",
+     "Sykes"
+    ],
+    "Stromboli",
+    [
+     "Honest John",
+     "J. Worthington Foulfellow",
+     "Foulfellow"
+    ],
+    "Monstro",
+    "Lucifer",
+    [
+     "Madam Mim",
+     "Mim"
+    ],
+    [
+     "Edgar",
+     "Edgar Balthazar"
+    ],
+    "Shan Yu",
+    [
+     "Dr. Callaghan",
+     "Dr Callaghan",
+     "Callaghan",
+     "Yokai",
+     "Professor Callaghan"
+    ],
+    [
+     "Dawn Bellwether",
+     "Bellwether"
+    ],
+    "Tamatoa",
+    [
+     "The Stabbington Brothers",
+     "Stabbington Brothers",
+     "Stabbingtons"
+    ],
+    [
+     "The Horned King",
+     "Horned King"
+    ],
+    "Chernabog",
+    [
+     "Rourke",
+     "Commander Rourke"
+    ]
+   ]
+  },
+  {
+   "id": "xf-james-bond-villains",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a villain or henchman from the official James Bond films (up to No Time to Die)",
+   "answers": [
+    [
+     "Ernst Stavro Blofeld",
+     "Blofeld",
+     "Franz Oberhauser",
+     "Oberhauser"
+    ],
+    [
+     "Dr. No",
+     "Dr No",
+     "Julius No"
+    ],
+    [
+     "Auric Goldfinger",
+     "Goldfinger"
+    ],
+    "Oddjob",
+    "Jaws",
+    [
+     "Francisco Scaramanga",
+     "Scaramanga"
+    ],
+    [
+     "Max Zorin",
+     "Zorin"
+    ],
+    [
+     "Hugo Drax",
+     "Drax"
+    ],
+    [
+     "Le Chiffre",
+     "Chiffre"
+    ],
+    [
+     "Raoul Silva",
+     "Silva"
+    ],
+    [
+     "Lyutsifer Safin",
+     "Safin"
+    ],
+    [
+     "Alec Trevelyan",
+     "Trevelyan",
+     "Janus",
+     "006"
+    ],
+    [
+     "Elektra King",
+     "Elektra"
+    ],
+    [
+     "Renard",
+     "Victor Zokas",
+     "Victor 'Renard' Zokas"
+    ],
+    [
+     "Rosa Klebb",
+     "Klebb"
+    ],
+    [
+     "Red Grant",
+     "Donald Grant",
+     "Grant"
+    ],
+    [
+     "Emilio Largo",
+     "Largo"
+    ],
+    [
+     "Dr. Kananga",
+     "Mr. Big",
+     "Kananga",
+     "Mr Big",
+     "Dr Kananga"
+    ],
+    [
+     "Tee Hee",
+     "Tee-Hee"
+    ],
+    [
+     "Baron Samedi",
+     "Samedi"
+    ],
+    [
+     "Nick Nack",
+     "Nick-Nack"
+    ],
+    [
+     "Karl Stromberg",
+     "Stromberg"
+    ],
+    [
+     "Aristotle Kristatos",
+     "Kristatos"
+    ],
+    [
+     "Kamal Khan",
+     "Khan"
+    ],
+    [
+     "General Orlov",
+     "Orlov"
+    ],
+    [
+     "Mayday",
+     "May Day"
+    ],
+    "Necros",
+    [
+     "Franz Sanchez",
+     "Sanchez"
+    ],
+    [
+     "General Koskov",
+     "Koskov",
+     "Georgi Koskov"
+    ],
+    [
+     "Brad Whitaker",
+     "Whitaker"
+    ],
+    [
+     "Elliot Carver",
+     "Carver"
+    ],
+    [
+     "Stamper",
+     "Mr. Stamper",
+     "Mr Stamper"
+    ],
+    [
+     "Xenia Onatopp",
+     "Onatopp",
+     "Xenia"
+    ],
+    [
+     "Gustav Graves",
+     "Graves",
+     "Colonel Moon",
+     "Tan-Sun Moon"
+    ],
+    [
+     "Zao",
+     "Mr. Zao"
+    ],
+    [
+     "Mr. White",
+     "Mr White",
+     "White"
+    ],
+    [
+     "Dominic Greene",
+     "Greene"
+    ],
+    [
+     "Mr. Hinx",
+     "Hinx",
+     "Mr Hinx"
+    ],
+    [
+     "Max Denbigh",
+     "C",
+     "Denbigh"
+    ],
+    [
+     "Irma Bunt",
+     "Bunt"
+    ],
+    [
+     "Fiona Volpe",
+     "Volpe"
+    ],
+    [
+     "Helga Brandt",
+     "Brandt"
+    ],
+    "Gobinda",
+    [
+     "Mr. Wint",
+     "Wint",
+     "Mr Wint"
+    ],
+    [
+     "Mr. Kidd",
+     "Kidd",
+     "Mr Kidd"
+    ],
+    "Kronsteen",
+    "Dario",
+    [
+     "Locque",
+     "Emile Locque"
+    ],
+    [
+     "General Gogol",
+     "Gogol"
+    ],
+    "Dimitrios",
+    [
+     "Obanno",
+     "Steven Obanno"
+    ]
+   ]
+  },
+  {
+   "id": "xf-doctor-who-monsters-villains",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a Doctor Who monster, alien race or villain (e.g. the Daleks)",
+   "answers": [
+    [
+     "Dalek",
+     "Daleks"
+    ],
+    [
+     "Cyberman",
+     "Cybermen"
+    ],
+    [
+     "The Master",
+     "Master",
+     "Missy"
+    ],
+    [
+     "Weeping Angel",
+     "Weeping Angels"
+    ],
+    [
+     "Sontaran",
+     "Sontarans"
+    ],
+    "Davros",
+    [
+     "Zygon",
+     "Zygons"
+    ],
+    [
+     "Ice Warrior",
+     "Ice Warriors"
+    ],
+    [
+     "Silurian",
+     "Silurians"
+    ],
+    [
+     "Sea Devil",
+     "Sea Devils"
+    ],
+    [
+     "Auton",
+     "Autons",
+     "Nestene Consciousness",
+     "Nestene"
+    ],
+    [
+     "Ood",
+     "The Ood"
+    ],
+    [
+     "Slitheen",
+     "Raxacoricofallapatorian"
+    ],
+    "Judoon",
+    [
+     "The Silence",
+     "Silence",
+     "Silent",
+     "The Silents"
+    ],
+    "Sycorax",
+    [
+     "Yeti",
+     "The Yeti"
+    ],
+    [
+     "Great Intelligence",
+     "The Great Intelligence"
+    ],
+    "Macra",
+    "Voord",
+    "Zarbi",
+    [
+     "Draconian",
+     "Draconians"
+    ],
+    [
+     "Krynoid",
+     "Krynoids"
+    ],
+    "Sutekh",
+    [
+     "Mara",
+     "The Mara"
+    ],
+    [
+     "Krillitane",
+     "Krillitanes"
+    ],
+    "Vashta Nerada",
+    "Adipose",
+    [
+     "Racnoss",
+     "The Racnoss"
+    ],
+    "Toclafane",
+    [
+     "Carrionite",
+     "Carrionites"
+    ],
+    [
+     "Pyrovile",
+     "Pyroviles"
+    ],
+    [
+     "Terileptil",
+     "Terileptils"
+    ],
+    [
+     "The Rani",
+     "Rani"
+    ],
+    "Omega",
+    [
+     "Ogron",
+     "Ogrons"
+    ],
+    [
+     "Axon",
+     "Axons"
+    ],
+    [
+     "Mechonoid",
+     "Mechonoids",
+     "Mechanoid",
+     "Mechanoids"
+    ],
+    [
+     "Rutan",
+     "Rutans"
+    ],
+    [
+     "Thal",
+     "Thals"
+    ],
+    [
+     "Cybermat",
+     "Cybermats"
+    ],
+    "Aggedor",
+    [
+     "Graske",
+     "The Graske"
+    ],
+    [
+     "Weevil",
+     "Weevils"
+    ],
+    [
+     "Bane",
+     "The Bane"
+    ],
+    [
+     "Stenza",
+     "Tzim-Sha",
+     "Tim Shaw"
+    ],
+    [
+     "Clockwork Droid",
+     "Clockwork Droids"
+    ],
+    [
+     "The Trickster",
+     "Trickster"
+    ],
+    "Harmony Shoal",
+    [
+     "Vervoid",
+     "Vervoids"
+    ],
+    [
+     "Haemovore",
+     "Haemovores"
+    ],
+    "Menoptra",
+    [
+     "Nimon",
+     "The Nimon"
+    ],
+    "Slyther",
+    [
+     "Death's Head",
+     "Deaths Head"
+    ],
+    [
+     "The Toymaker",
+     "Toymaker"
+    ],
+    [
+     "Quark",
+     "Quarks"
+    ],
+    "Shadow Kin",
+    [
+     "Sandminer Robot",
+     "Sandminers"
+    ]
+   ]
+  },
+  {
+   "id": "xf-thunderbirds-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the original Thunderbirds TV series (1965 to 1966)",
+   "answers": [
+    [
+     "Scott Tracy",
+     "Scott"
+    ],
+    [
+     "Virgil Tracy",
+     "Virgil"
+    ],
+    [
+     "Alan Tracy",
+     "Alan"
+    ],
+    [
+     "Gordon Tracy",
+     "Gordon"
+    ],
+    [
+     "John Tracy",
+     "John"
+    ],
+    [
+     "Jeff Tracy",
+     "Jeff"
+    ],
+    [
+     "Lady Penelope",
+     "Penelope",
+     "Lady Penelope Creighton-Ward",
+     "Lady Penelope Creighton Ward"
+    ],
+    [
+     "Parker",
+     "Aloysius Parker",
+     "Nosey Parker"
+    ],
+    [
+     "Brains",
+     "Hiram Hackenbacker",
+     "Hackenbacker"
+    ],
+    [
+     "Tin-Tin Kyrano",
+     "Tin-Tin",
+     "Tin Tin",
+     "Tintin"
+    ],
+    "Kyrano",
+    [
+     "The Hood",
+     "Hood"
+    ],
+    [
+     "Grandma Tracy",
+     "Grandma"
+    ],
+    [
+     "Commander Norman",
+     "Norman"
+    ]
+   ]
+  },
+  {
+   "id": "xf-shrek-characters",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Shrek films",
+   "answers": [
+    "Shrek",
+    "Donkey",
+    [
+     "Princess Fiona",
+     "Fiona"
+    ],
+    [
+     "Lord Farquaad",
+     "Farquaad"
+    ],
+    [
+     "Puss in Boots",
+     "Puss"
+    ],
+    [
+     "Gingy",
+     "Gingerbread Man",
+     "Gingerbread Man (Gingy)"
+    ],
+    [
+     "Fairy Godmother",
+     "The Fairy Godmother"
+    ],
+    [
+     "Prince Charming",
+     "Charming"
+    ],
+    [
+     "King Harold",
+     "Harold"
+    ],
+    [
+     "Queen Lillian",
+     "Lillian"
+    ],
+    [
+     "Rumpelstiltskin",
+     "Rumpel"
+    ],
+    "Pinocchio",
+    [
+     "The Three Blind Mice",
+     "Three Blind Mice",
+     "Blind Mice"
+    ],
+    [
+     "Dragon",
+     "Dragon (Shrek)"
+    ],
+    [
+     "Magic Mirror",
+     "The Magic Mirror"
+    ],
+    [
+     "Big Bad Wolf",
+     "The Big Bad Wolf",
+     "Wolf"
+    ],
+    [
+     "The Three Little Pigs",
+     "Three Little Pigs",
+     "Pigs"
+    ],
+    [
+     "Artie",
+     "King Arthur",
+     "Prince Arthur",
+     "Arthur"
+    ],
+    "Merlin",
+    [
+     "Doris",
+     "Doris the Ugly Stepsister",
+     "Ugly Stepsister"
+    ],
+    "Cookie",
+    "Brogan",
+    [
+     "Captain Hook",
+     "Hook"
+    ],
+    "Mongo",
+    "Cinderella",
+    "Snow White",
+    "Sleeping Beauty",
+    [
+     "Kitty Softpaws",
+     "Kitty"
+    ],
+    [
+     "Humpty Dumpty",
+     "Humpty"
+    ],
+    [
+     "Pied Piper",
+     "The Pied Piper"
+    ],
+    "Gretched",
+    [
+     "Dronkeys",
+     "Dronkey"
+    ],
+    "Farkle",
+    "Fergus",
+    "Felicia",
+    "Rapunzel",
+    "Goldilocks",
+    [
+     "Thelonious",
+     "Thelonius"
+    ]
+   ]
+  }
+ ]
+}
