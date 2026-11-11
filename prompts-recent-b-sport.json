@@ -1,0 +1,616 @@
+{
+ "cat": "sport",
+ "prompts": [
+  {
+   "id": "xr2-sp-f1-circuits-2025",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a circuit that hosted a Formula 1 race in the 2025 season",
+   "answers": [
+    [
+     "Silverstone Circuit",
+     "Silverstone",
+     "British Grand Prix"
+    ],
+    [
+     "Circuit de Monaco",
+     "Monaco",
+     "Monte Carlo",
+     "Monaco Grand Prix"
+    ],
+    [
+     "Monza Circuit",
+     "Monza",
+     "Autodromo Nazionale Monza",
+     "Italian Grand Prix"
+    ],
+    [
+     "Circuit de Spa-Francorchamps",
+     "Spa-Francorchamps",
+     "Spa",
+     "Belgian Grand Prix"
+    ],
+    [
+     "Suzuka Circuit",
+     "Suzuka",
+     "Japanese Grand Prix"
+    ],
+    [
+     "Albert Park Circuit",
+     "Albert Park",
+     "Melbourne",
+     "Australian Grand Prix"
+    ],
+    [
+     "Interlagos Circuit",
+     "Interlagos",
+     "Autodromo Jose Carlos Pace",
+     "Sao Paulo",
+     "Sao Paulo Grand Prix",
+     "Brazilian Grand Prix"
+    ],
+    [
+     "Circuit of the Americas",
+     "COTA",
+     "Austin",
+     "United States Grand Prix"
+    ],
+    [
+     "Yas Marina Circuit",
+     "Yas Marina",
+     "Abu Dhabi",
+     "Abu Dhabi Grand Prix"
+    ],
+    [
+     "Circuit Gilles Villeneuve",
+     "Gilles Villeneuve",
+     "Montreal",
+     "Canadian Grand Prix"
+    ],
+    [
+     "Bahrain International Circuit",
+     "Bahrain",
+     "Sakhir",
+     "Bahrain Grand Prix"
+    ],
+    [
+     "Marina Bay Street Circuit",
+     "Marina Bay",
+     "Singapore",
+     "Singapore Grand Prix"
+    ],
+    [
+     "Las Vegas Strip Circuit",
+     "Las Vegas",
+     "Las Vegas Grand Prix"
+    ],
+    [
+     "Circuit de Barcelona-Catalunya",
+     "Barcelona",
+     "Catalunya",
+     "Circuit de Catalunya",
+     "Montmelo",
+     "Spanish Grand Prix"
+    ],
+    [
+     "Red Bull Ring",
+     "Spielberg",
+     "Austrian Grand Prix",
+     "Austria"
+    ],
+    [
+     "Hungaroring",
+     "Hungary",
+     "Budapest",
+     "Hungarian Grand Prix"
+    ],
+    [
+     "Circuit Zandvoort",
+     "Zandvoort",
+     "Dutch Grand Prix"
+    ],
+    [
+     "Baku City Circuit",
+     "Baku",
+     "Azerbaijan Grand Prix"
+    ],
+    [
+     "Miami International Autodrome",
+     "Miami",
+     "Miami Grand Prix"
+    ],
+    [
+     "Autodromo Hermanos Rodriguez",
+     "Mexico City",
+     "Hermanos Rodriguez",
+     "Mexican Grand Prix",
+     "Mexico City Grand Prix"
+    ],
+    [
+     "Shanghai International Circuit",
+     "Shanghai",
+     "Chinese Grand Prix"
+    ],
+    [
+     "Jeddah Corniche Circuit",
+     "Jeddah",
+     "Saudi Arabian Grand Prix"
+    ],
+    [
+     "Imola Circuit",
+     "Imola",
+     "Autodromo Enzo e Dino Ferrari",
+     "Emilia Romagna Grand Prix"
+    ],
+    [
+     "Lusail International Circuit",
+     "Lusail",
+     "Qatar",
+     "Qatar Grand Prix"
+    ]
+   ]
+  },
+  {
+   "id": "xr2-sp-f1-gp-winners-2010-2025",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who won a Formula 1 Grand Prix between 2010 and 2025",
+   "answers": [
+    [
+     "Lewis Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Max Verstappen",
+     "Verstappen"
+    ],
+    [
+     "Sebastian Vettel",
+     "Vettel"
+    ],
+    [
+     "Fernando Alonso",
+     "Alonso"
+    ],
+    [
+     "Lando Norris",
+     "Norris"
+    ],
+    [
+     "Charles Leclerc",
+     "Leclerc"
+    ],
+    [
+     "George Russell",
+     "Russell"
+    ],
+    [
+     "Nico Rosberg",
+     "Rosberg"
+    ],
+    [
+     "Jenson Button",
+     "Button"
+    ],
+    [
+     "Kimi Räikkönen",
+     "Raikkonen",
+     "Kimi",
+     "Iceman"
+    ],
+    [
+     "Daniel Ricciardo",
+     "Ricciardo"
+    ],
+    [
+     "Valtteri Bottas",
+     "Bottas"
+    ],
+    [
+     "Mark Webber",
+     "Webber"
+    ],
+    [
+     "Carlos Sainz",
+     "Sainz",
+     "Carlos Sainz Jr",
+     "Sainz Jr"
+    ],
+    [
+     "Sergio Pérez",
+     "Perez",
+     "Checo",
+     "Sergio Perez"
+    ],
+    [
+     "Oscar Piastri",
+     "Piastri"
+    ],
+    [
+     "Pierre Gasly",
+     "Gasly"
+    ],
+    [
+     "Esteban Ocon",
+     "Ocon"
+    ],
+    [
+     "Pastor Maldonado",
+     "Maldonado"
+    ]
+   ]
+  },
+  {
+   "id": "xr2-sp-ryder-cup-2018-players",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who played in the 2018 Ryder Cup at Le Golf National (either team)",
+   "answers": [
+    [
+     "Rory McIlroy",
+     "McIlroy",
+     "McIlroy",
+     "Rors"
+    ],
+    [
+     "Tiger Woods",
+     "Woods"
+    ],
+    [
+     "Phil Mickelson",
+     "Mickelson"
+    ],
+    [
+     "Tommy Fleetwood",
+     "Fleetwood"
+    ],
+    [
+     "Justin Rose",
+     "Rose"
+    ],
+    [
+     "Ian Poulter",
+     "Poulter"
+    ],
+    [
+     "Jordan Spieth",
+     "Spieth"
+    ],
+    [
+     "Dustin Johnson",
+     "Johnson",
+     "DJ",
+     "Johnson"
+    ],
+    [
+     "Brooks Koepka",
+     "Koepka",
+     "Koepka"
+    ],
+    [
+     "Sergio García",
+     "García",
+     "Sergio Garcia",
+     "Garcia"
+    ],
+    [
+     "Jon Rahm",
+     "Rahm"
+    ],
+    [
+     "Francesco Molinari",
+     "Molinari"
+    ],
+    [
+     "Justin Thomas",
+     "Thomas"
+    ],
+    [
+     "Rickie Fowler",
+     "Fowler"
+    ],
+    [
+     "Patrick Reed",
+     "Reed"
+    ],
+    [
+     "Bubba Watson",
+     "Watson"
+    ],
+    [
+     "Henrik Stenson",
+     "Stenson"
+    ],
+    [
+     "Paul Casey",
+     "Casey"
+    ],
+    [
+     "Bryson DeChambeau",
+     "DeChambeau",
+     "DeChambeau",
+     "Bryson",
+     "Dechambeau"
+    ],
+    [
+     "Tyrrell Hatton",
+     "Hatton"
+    ],
+    [
+     "Alex Norén",
+     "Norén",
+     "Noren",
+     "Alex Noren"
+    ],
+    [
+     "Thorbjørn Olesen",
+     "Olesen",
+     "Olesen",
+     "Thorbjorn Olesen"
+    ],
+    [
+     "Webb Simpson",
+     "Simpson",
+     "Simpson"
+    ],
+    [
+     "Tony Finau",
+     "Finau",
+     "Finau"
+    ]
+   ]
+  },
+  {
+   "id": "xr2-sp-ashes-2025-26-england-squad",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a player in England's squad for the 2025-26 Ashes series in Australia (including call-ups)",
+   "answers": [
+    [
+     "Ben Stokes",
+     "Stokes"
+    ],
+    [
+     "Joe Root",
+     "Root"
+    ],
+    [
+     "Harry Brook",
+     "Brook"
+    ],
+    [
+     "Jofra Archer",
+     "Archer"
+    ],
+    [
+     "Mark Wood",
+     "Wood",
+     "Woody"
+    ],
+    [
+     "Zak Crawley",
+     "Crawley"
+    ],
+    [
+     "Ben Duckett",
+     "Duckett"
+    ],
+    [
+     "Ollie Pope",
+     "Pope"
+    ],
+    [
+     "Jamie Smith",
+     "Smith"
+    ],
+    [
+     "Gus Atkinson",
+     "Atkinson"
+    ],
+    [
+     "Jacob Bethell",
+     "Bethell"
+    ],
+    [
+     "Brydon Carse",
+     "Carse"
+    ],
+    [
+     "Josh Tongue",
+     "Tongue"
+    ],
+    [
+     "Shoaib Bashir",
+     "Bashir"
+    ],
+    [
+     "Will Jacks",
+     "Jacks"
+    ],
+    [
+     "Matthew Potts",
+     "Potts"
+    ],
+    [
+     "Matthew Fisher",
+     "Fisher"
+    ]
+   ]
+  },
+  {
+   "id": "xr2-sp-england-six-nations-2025-squad",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a player in England's squad for the 2025 Six Nations (including call-ups during the tournament)",
+   "answers": [
+    [
+     "Maro Itoje",
+     "Itoje"
+    ],
+    [
+     "George Ford",
+     "Ford"
+    ],
+    "Marcus Smith",
+    [
+     "Jamie George",
+     "George"
+    ],
+    [
+     "Ellis Genge",
+     "Genge"
+    ],
+    "Tom Curry",
+    [
+     "Ben Earl",
+     "Earl"
+    ],
+    [
+     "Henry Slade",
+     "Slade"
+    ],
+    [
+     "Elliot Daly",
+     "Daly"
+    ],
+    [
+     "Freddie Steward",
+     "Steward"
+    ],
+    [
+     "Tommy Freeman",
+     "Freeman"
+    ],
+    [
+     "Ollie Lawrence",
+     "Lawrence"
+    ],
+    "Ben Curry",
+    "Fin Smith",
+    [
+     "Alex Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Will Stuart",
+     "Stuart"
+    ],
+    [
+     "Chandler Cunningham-South",
+     "Cunningham-South"
+    ],
+    [
+     "Henry Pollock",
+     "Pollock"
+    ],
+    [
+     "Alex Dombrandt",
+     "Dombrandt"
+    ],
+    [
+     "Ollie Chessum",
+     "Chessum"
+    ],
+    [
+     "Luke Cowan-Dickie",
+     "Cowan-Dickie"
+    ],
+    [
+     "Theo Dan",
+     "Dan"
+    ],
+    [
+     "Fin Baxter",
+     "Baxter"
+    ],
+    [
+     "Joe Heyes",
+     "Heyes"
+    ],
+    [
+     "Asher Opoku-Fordjour",
+     "Opoku-Fordjour"
+    ],
+    [
+     "Bevan Rodd",
+     "Rodd"
+    ],
+    [
+     "Alex Coles",
+     "Coles"
+    ],
+    [
+     "George Martin",
+     "Martin"
+    ],
+    [
+     "Ted Hill",
+     "Hill"
+    ],
+    [
+     "Tom Willis",
+     "Willis"
+    ],
+    [
+     "Harry Randall",
+     "Randall"
+    ],
+    [
+     "Jack van Poortvliet",
+     "Poortvliet",
+     "van Poortvliet",
+     "Poortvliet"
+    ],
+    [
+     "Oscar Beard",
+     "Beard"
+    ],
+    [
+     "Fraser Dingwall",
+     "Dingwall"
+    ],
+    [
+     "Cadan Murley",
+     "Murley"
+    ],
+    [
+     "Tom Roebuck",
+     "Roebuck"
+    ],
+    [
+     "Ollie Sleightholme",
+     "Sleightholme"
+    ],
+    [
+     "Curtis Langdon",
+     "Langdon"
+    ],
+    [
+     "Arthur Clark",
+     "Clark"
+    ],
+    [
+     "Raffi Quirke",
+     "Quirke"
+    ],
+    [
+     "Ben Spencer",
+     "Spencer"
+    ],
+    [
+     "Alex Lozowski",
+     "Lozowski"
+    ],
+    [
+     "Max Ojomoh",
+     "Ojomoh"
+    ]
+   ]
+  }
+ ]
+}

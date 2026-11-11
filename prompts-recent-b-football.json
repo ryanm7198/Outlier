@@ -1,0 +1,592 @@
+{
+ "cat": "football",
+ "prompts": [
+  {
+   "id": "xr2-fb-arsenal-2025-26-title",
+   "tags": [
+    "20s",
+    "pl"
+   ],
+   "text": "Name a player who played in the Premier League for Arsenal in their 2025-26 title season",
+   "answers": [
+    [
+     "Bukayo Saka",
+     "Saka"
+    ],
+    [
+     "Declan Rice",
+     "Rice"
+    ],
+    [
+     "Martin Ødegaard",
+     "Ødegaard",
+     "Odegaard",
+     "Martin Odegaard"
+    ],
+    [
+     "Gabriel Martinelli",
+     "Martinelli"
+    ],
+    [
+     "Viktor Gyökeres",
+     "Gyökeres",
+     "Gyokeres"
+    ],
+    [
+     "William Saliba",
+     "Saliba"
+    ],
+    [
+     "Kai Havertz",
+     "Havertz"
+    ],
+    [
+     "Eberechi Eze",
+     "Eze",
+     "Ebs"
+    ],
+    [
+     "David Raya",
+     "Raya"
+    ],
+    [
+     "Gabriel Magalhães",
+     "Magalhães",
+     "Gabriel",
+     "Magalhaes"
+    ],
+    [
+     "Leandro Trossard",
+     "Trossard"
+    ],
+    [
+     "Gabriel Jesus",
+     "Jesus",
+     "Jesus"
+    ],
+    [
+     "Martín Zubimendi",
+     "Zubimendi"
+    ],
+    [
+     "Ben White",
+     "White"
+    ],
+    [
+     "Cristhian Mosquera",
+     "Mosquera"
+    ],
+    [
+     "Piero Hincapié",
+     "Hincapié"
+    ],
+    [
+     "Jurriën Timber",
+     "Timber",
+     "Timber",
+     "Jurrien Timber"
+    ],
+    [
+     "Kepa Arrizabalaga",
+     "Arrizabalaga",
+     "Kepa"
+    ],
+    [
+     "Christian Nørgaard",
+     "Nørgaard"
+    ],
+    [
+     "Noni Madueke",
+     "Madueke",
+     "Madueke"
+    ],
+    [
+     "Ethan Nwaneri",
+     "Nwaneri"
+    ],
+    [
+     "Mikel Merino",
+     "Merino"
+    ],
+    [
+     "Riccardo Calafiori",
+     "Calafiori"
+    ],
+    [
+     "Myles Lewis-Skelly",
+     "Lewis-Skelly",
+     "Lewis Skelly",
+     "Skelly"
+    ],
+    [
+     "Max Dowman",
+     "Dowman"
+    ]
+   ]
+  },
+  {
+   "id": "xr2-fb-chelsea-2014-15-title",
+   "tags": [
+    "10s",
+    "pl"
+   ],
+   "text": "Name a player who played in the Premier League for Chelsea in their 2014-15 title season",
+   "answers": [
+    [
+     "Eden Hazard",
+     "Hazard",
+     "Hazard"
+    ],
+    [
+     "Diego Costa",
+     "Costa"
+    ],
+    [
+     "John Terry",
+     "Terry"
+    ],
+    [
+     "Cesc Fàbregas",
+     "Fàbregas",
+     "Fabregas",
+     "Cesc"
+    ],
+    [
+     "Didier Drogba",
+     "Drogba"
+    ],
+    [
+     "Thibaut Courtois",
+     "Courtois"
+    ],
+    [
+     "Branislav Ivanović",
+     "Ivanović",
+     "Ivanovic"
+    ],
+    [
+     "Gary Cahill",
+     "Cahill"
+    ],
+    [
+     "César Azpilicueta",
+     "Azpilicueta",
+     "Azpilicueta",
+     "Azpi"
+    ],
+    [
+     "Nemanja Matić",
+     "Matić",
+     "Matic"
+    ],
+    "Willian",
+    "Oscar",
+    "Ramires",
+    [
+     "Petr Čech",
+     "Čech",
+     "Cech"
+    ],
+    [
+     "John Obi Mikel",
+     "Mikel",
+     "Mikel",
+     "John Mikel",
+     "Obi Mikel"
+    ],
+    [
+     "André Schürrle",
+     "Schürrle",
+     "Schurrle",
+     "Schürrle"
+    ],
+    [
+     "Filipe Luís",
+     "Luís",
+     "Filipe Luis",
+     "Luis"
+    ],
+    [
+     "Loïc Rémy",
+     "Rémy",
+     "Remy"
+    ],
+    [
+     "Juan Cuadrado",
+     "Cuadrado"
+    ],
+    [
+     "Kurt Zouma",
+     "Zouma"
+    ],
+    [
+     "Mohamed Salah",
+     "Salah"
+    ],
+    [
+     "Nathan Aké",
+     "Aké"
+    ],
+    [
+     "Andreas Christensen",
+     "Christensen",
+     "Christensen"
+    ],
+    [
+     "Ruben Loftus-Cheek",
+     "Loftus-Cheek",
+     "Loftus Cheek",
+     "Loftus-Cheek",
+     "Cheek"
+    ],
+    [
+     "Isaiah Brown",
+     "Brown"
+    ]
+   ]
+  },
+  {
+   "id": "xr2-fb-man-utd-2012-13-title",
+   "tags": [
+    "10s",
+    "pl"
+   ],
+   "text": "Name a player who played in the Premier League for Man Utd in their 2012-13 title season",
+   "answers": [
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Robin van Persie",
+     "Persie",
+     "van Persie",
+     "RVP",
+     "Persie"
+    ],
+    [
+     "Ryan Giggs",
+     "Giggs"
+    ],
+    [
+     "Paul Scholes",
+     "Scholes"
+    ],
+    [
+     "Rio Ferdinand",
+     "Ferdinand"
+    ],
+    [
+     "Nemanja Vidić",
+     "Vidić",
+     "Vidic"
+    ],
+    [
+     "Michael Carrick",
+     "Carrick"
+    ],
+    [
+     "Patrice Evra",
+     "Evra"
+    ],
+    [
+     "Danny Welbeck",
+     "Welbeck"
+    ],
+    [
+     "David de Gea",
+     "Gea",
+     "de Gea",
+     "De Gea",
+     "Gea"
+    ],
+    [
+     "Javier Hernández",
+     "Hernández",
+     "Chicharito",
+     "Hernandez"
+    ],
+    [
+     "Shinji Kagawa",
+     "Kagawa",
+     "Kagawa"
+    ],
+    [
+     "Antonio Valencia",
+     "Valencia",
+     "Valencia"
+    ],
+    [
+     "Phil Jones",
+     "Jones"
+    ],
+    [
+     "Chris Smalling",
+     "Smalling"
+    ],
+    [
+     "Tom Cleverley",
+     "Cleverley"
+    ],
+    [
+     "Ashley Young",
+     "Young"
+    ],
+    "Nani",
+    [
+     "Rafael",
+     "Rafael da Silva"
+    ],
+    [
+     "Jonny Evans",
+     "Evans"
+    ],
+    [
+     "Anderson",
+     "Anderson Luis de Abreu Oliveira"
+    ],
+    [
+     "Darren Fletcher",
+     "Fletcher"
+    ],
+    [
+     "Anders Lindegaard",
+     "Lindegaard"
+    ],
+    [
+     "Nick Powell",
+     "Powell",
+     "Powell"
+    ],
+    [
+     "Alexander Büttner",
+     "Büttner",
+     "Buttner",
+     "Büttner"
+    ]
+   ]
+  },
+  {
+   "id": "xr2-fb-wales-2022-wc-squad",
+   "tags": [
+    "20s",
+    "worldcup"
+   ],
+   "text": "Name a player in Wales's squad for the 2022 World Cup",
+   "answers": [
+    [
+     "Gareth Bale",
+     "Bale"
+    ],
+    [
+     "Aaron Ramsey",
+     "Ramsey"
+    ],
+    [
+     "Ben Davies",
+     "Ben Davies"
+    ],
+    [
+     "Daniel James",
+     "James",
+     "Dan James"
+    ],
+    [
+     "Joe Allen",
+     "Allen"
+    ],
+    [
+     "Harry Wilson",
+     "Wilson"
+    ],
+    [
+     "Brennan Johnson",
+     "Johnson"
+    ],
+    [
+     "Kieffer Moore",
+     "Moore"
+    ],
+    [
+     "Wayne Hennessey",
+     "Hennessey",
+     "Hennessey"
+    ],
+    [
+     "Neco Williams",
+     "Neco"
+    ],
+    [
+     "Ethan Ampadu",
+     "Ampadu"
+    ],
+    [
+     "Connor Roberts",
+     "Roberts"
+    ],
+    [
+     "Chris Gunter",
+     "Gunter"
+    ],
+    [
+     "Chris Mepham",
+     "Mepham"
+    ],
+    [
+     "Joe Rodon",
+     "Rodon"
+    ],
+    [
+     "Danny Ward",
+     "Ward"
+    ],
+    [
+     "Joe Morrell",
+     "Morrell"
+    ],
+    [
+     "Tom Lockyer",
+     "Lockyer"
+    ],
+    [
+     "Jonny Williams",
+     "Jonny Williams"
+    ],
+    [
+     "Mark Harris",
+     "Harris"
+    ],
+    "Adam Davies",
+    [
+     "Sorba Thomas",
+     "Thomas"
+    ],
+    [
+     "Dylan Levitt",
+     "Levitt"
+    ],
+    [
+     "Ben Cabango",
+     "Cabango"
+    ],
+    [
+     "Rubin Colwill",
+     "Colwill"
+    ],
+    [
+     "Matthew Smith",
+     "Smith"
+    ]
+   ]
+  },
+  {
+   "id": "xr2-fb-lionesses-2023-wwc-squad",
+   "tags": [
+    "20s",
+    "worldcup"
+   ],
+   "text": "Name an England player in the squad for the 2023 Women's World Cup",
+   "answers": [
+    [
+     "Lucy Bronze",
+     "Bronze"
+    ],
+    [
+     "Mary Earps",
+     "Earps"
+    ],
+    [
+     "Lauren James",
+     "James"
+    ],
+    [
+     "Alessia Russo",
+     "Russo"
+    ],
+    [
+     "Millie Bright",
+     "Bright"
+    ],
+    [
+     "Keira Walsh",
+     "Walsh"
+    ],
+    [
+     "Chloe Kelly",
+     "Kelly"
+    ],
+    [
+     "Lauren Hemp",
+     "Hemp"
+    ],
+    [
+     "Ella Toone",
+     "Toone"
+    ],
+    [
+     "Georgia Stanway",
+     "Stanway"
+    ],
+    [
+     "Rachel Daly",
+     "Daly"
+    ],
+    [
+     "Alex Greenwood",
+     "Greenwood"
+    ],
+    [
+     "Jess Carter",
+     "Carter"
+    ],
+    [
+     "Niamh Charles",
+     "Charles"
+    ],
+    [
+     "Bethany England",
+     "England",
+     "Beth England",
+     "England"
+    ],
+    [
+     "Jordan Nobbs",
+     "Nobbs"
+    ],
+    [
+     "Hannah Hampton",
+     "Hampton",
+     "Hampton"
+    ],
+    [
+     "Lotte Wubben-Moy",
+     "Wubben-Moy",
+     "Wubben Moy",
+     "Wubben-Moy",
+     "Lotte Wubben"
+    ],
+    [
+     "Esme Morgan",
+     "Morgan",
+     "Esme Morgan"
+    ],
+    [
+     "Laura Coombs",
+     "Coombs"
+    ],
+    [
+     "Katie Zelem",
+     "Zelem"
+    ],
+    [
+     "Ellie Roebuck",
+     "Roebuck"
+    ],
+    [
+     "Katie Robinson",
+     "Robinson"
+    ]
+   ]
+  }
+ ]
+}

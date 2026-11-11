@@ -1,0 +1,265 @@
+{
+ "cat": "nba",
+ "prompts": [
+  {
+   "id": "xr2-nba-all-stars-2016",
+   "tags": [
+    "10s",
+    "awards"
+   ],
+   "text": "Name a player selected as an NBA All-Star in 2016 (starters, reserves and injury replacements)",
+   "answers": [
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant",
+     "Black Mamba"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Russell Westbrook",
+     "Westbrook",
+     "Russ"
+    ],
+    [
+     "Kawhi Leonard",
+     "Kawhi",
+     "Leonard"
+    ],
+    [
+     "Carmelo Anthony",
+     "Melo",
+     "Carmelo",
+     "Anthony"
+    ],
+    [
+     "Dwyane Wade",
+     "D-Wade",
+     "Flash",
+     "Wade"
+    ],
+    [
+     "Paul George",
+     "PG",
+     "PG13"
+    ],
+    [
+     "James Harden",
+     "The Beard",
+     "Harden"
+    ],
+    [
+     "Chris Paul",
+     "CP3"
+    ],
+    [
+     "Anthony Davis",
+     "AD",
+     "Davis"
+    ],
+    [
+     "Klay Thompson",
+     "Klay",
+     "Thompson"
+    ],
+    [
+     "Draymond Green",
+     "Draymond",
+     "Green"
+    ],
+    [
+     "Kyle Lowry",
+     "Lowry"
+    ],
+    [
+     "Jimmy Butler",
+     "Butler"
+    ],
+    [
+     "Chris Bosh",
+     "Bosh"
+    ],
+    [
+     "John Wall",
+     "Wall"
+    ],
+    [
+     "Paul Millsap",
+     "Millsap"
+    ],
+    [
+     "DeMar DeRozan",
+     "DeRozan"
+    ],
+    [
+     "Andre Drummond",
+     "Drummond"
+    ],
+    [
+     "Isaiah Thomas",
+     "IT",
+     "Thomas"
+    ],
+    [
+     "Pau Gasol",
+     "Gasol"
+    ],
+    [
+     "Al Horford",
+     "Horford"
+    ],
+    [
+     "LaMarcus Aldridge",
+     "Aldridge"
+    ],
+    [
+     "DeMarcus Cousins",
+     "Boogie",
+     "Cousins"
+    ]
+   ]
+  },
+  {
+   "id": "xr2-nba-all-stars-2020",
+   "tags": [
+    "20s",
+    "awards"
+   ],
+   "text": "Name a player selected as an NBA All-Star in 2020 (starters, reserves and injury replacements)",
+   "answers": [
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "James Harden",
+     "The Beard",
+     "Harden"
+    ],
+    [
+     "Kawhi Leonard",
+     "Kawhi",
+     "Leonard"
+    ],
+    [
+     "Anthony Davis",
+     "AD",
+     "Davis"
+    ],
+    [
+     "Luka Dončić",
+     "Luka",
+     "Doncic",
+     "Luka Doncic"
+    ],
+    [
+     "Joel Embiid",
+     "Embiid"
+    ],
+    [
+     "Jayson Tatum",
+     "Tatum"
+    ],
+    [
+     "Trae Young",
+     "Trae"
+    ],
+    [
+     "Russell Westbrook",
+     "Westbrook",
+     "Russ"
+    ],
+    [
+     "Chris Paul",
+     "CP3"
+    ],
+    [
+     "Damian Lillard",
+     "Dame",
+     "Lillard"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker",
+     "Nikola Jokic"
+    ],
+    [
+     "Jimmy Butler",
+     "Butler"
+    ],
+    [
+     "Ben Simmons",
+     "Simmons"
+    ],
+    [
+     "Devin Booker",
+     "Booker"
+    ],
+    [
+     "Kemba Walker",
+     "Kemba",
+     "Walker"
+    ],
+    [
+     "Pascal Siakam",
+     "Siakam"
+    ],
+    [
+     "Kyle Lowry",
+     "Lowry"
+    ],
+    [
+     "Khris Middleton",
+     "Middleton"
+    ],
+    [
+     "Bam Adebayo",
+     "Bam",
+     "Adebayo"
+    ],
+    [
+     "Domantas Sabonis",
+     "Sabonis"
+    ],
+    [
+     "Donovan Mitchell",
+     "Spida",
+     "Mitchell"
+    ],
+    [
+     "Brandon Ingram",
+     "Ingram"
+    ],
+    [
+     "Rudy Gobert",
+     "Gobert"
+    ]
+   ]
+  }
+ ]
+}
