@@ -1,0 +1,2457 @@
+{
+ "cat": "music",
+ "prompts": [
+  {
+   "id": "mn-uk-number-ones-60s",
+   "tags": [
+    "60s",
+    "pop"
+   ],
+   "text": "Name a UK number one single from the 1960s",
+   "answers": [
+    "She Loves You",
+    "I Want to Hold Your Hand",
+    "Hey Jude",
+    [
+     "Yellow Submarine",
+     "Eleanor Rigby"
+    ],
+    "Can't Buy Me Love",
+    [
+     "A Hard Day's Night",
+     "Hard Day's Night"
+    ],
+    "Help!",
+    "Hello, Goodbye",
+    "Get Back",
+    [
+     "Day Tripper",
+     "We Can Work It Out"
+    ],
+    "I Feel Fine",
+    "Paperback Writer",
+    "Lady Madonna",
+    "Ticket to Ride",
+    "From Me to You",
+    [
+     "A Whiter Shade of Pale",
+     "Whiter Shade of Pale"
+    ],
+    [
+     "Sugar, Sugar",
+     "Sugar Sugar"
+    ],
+    "Green, Green Grass of Home",
+    "Release Me",
+    "Those Were the Days",
+    "What a Wonderful World",
+    "Good Vibrations",
+    "Telstar",
+    "I'm a Believer",
+    [
+     "(I Can't Get No) Satisfaction",
+     "Satisfaction"
+    ],
+    "All You Need Is Love",
+    "Puppet on a String",
+    "Congratulations",
+    "Strangers in the Night",
+    "It's Now or Never",
+    "Do Wah Diddy Diddy",
+    [
+     "The House of the Rising Sun",
+     "House of the Rising Sun"
+    ],
+    "Baby Love",
+    "Mony Mony",
+    "Honky Tonk Women",
+    "Jumpin' Jack Flash",
+    "Paint It Black",
+    "Sunny Afternoon",
+    "Ob-La-Di, Ob-La-Da",
+    "I Heard It Through the Grapevine",
+    "Michelle",
+    "Reach Out I'll Be There",
+    "Wonderful Land",
+    "Cathy's Clown",
+    "I Remember You",
+    "Wooden Heart",
+    [
+     "The Young Ones",
+     "Young Ones"
+    ],
+    "Two Little Boys",
+    "Apache",
+    "Good Luck Charm",
+    "Lovesick Blues",
+    "Tears",
+    "Distant Drums",
+    [
+     "The Last Waltz",
+     "Last Waltz"
+    ],
+    "Why",
+    "My Old Man's a Dustman",
+    "Are You Lonesome Tonight?",
+    "Surrender",
+    "Johnny Remember Me",
+    [
+     "(Marie's the Name) His Latest Flame",
+     "His Latest Flame",
+     "Little Sister"
+    ],
+    [
+     "Can't Help Falling in Love",
+     "Rock-A-Hula Baby",
+     "Rock a Hula Baby",
+     "Rockahula Baby"
+    ],
+    "I Like It",
+    "You'll Never Walk Alone",
+    "You're My World",
+    "These Boots Are Made for Walkin'",
+    [
+     "The Sun Ain't Gonna Shine Anymore",
+     "Sun Ain't Gonna Shine Anymore"
+    ],
+    [
+     "San Francisco (Be Sure to Wear Flowers in Your Hair)",
+     "San Francisco"
+    ],
+    "Massachusetts",
+    "Young Girl",
+    [
+     "The Good, the Bad and the Ugly",
+     "Good, the Bad and the Ugly"
+    ],
+    "Lily the Pink",
+    [
+     "Where Do You Go To (My Lovely)?",
+     "Where Do You Go To?"
+    ],
+    "Good Timin'",
+    "Please Don't Tease",
+    "Tell Laura I Love Her",
+    [
+     "Walk Right Back",
+     "Ebony Eyes"
+    ],
+    "Runaway",
+    "You Don't Know",
+    "Walkin' Back to Happiness",
+    "Tower of Strength",
+    "She's Not You",
+    "Return to Sender",
+    [
+     "The Next Time",
+     "Next Time",
+     "Bachelor Boy"
+    ],
+    "Diamonds",
+    [
+     "The Wayward Wind",
+     "Wayward Wind"
+    ],
+    "Summer Holiday",
+    "How Do You Do It?",
+    "Bad to Me",
+    "Do You Love Me",
+    "Needles and Pins",
+    "Anyone Who Had a Heart",
+    "Oh, Pretty Woman",
+    [
+     "(There's) Always Something There to Remind Me",
+     "Always Something There to Remind Me"
+    ],
+    [
+     "The Last Time",
+     "Last Time"
+    ],
+    "Long Live Love",
+    "I'm Alive",
+    "Get Off of My Cloud",
+    [
+     "The Carnival Is Over",
+     "Carnival Is Over"
+    ],
+    "Pretty Flamingo",
+    "Silence Is Golden",
+    "Cinderella Rockefella",
+    "Baby, Come Back",
+    [
+     "The Ballad of John and Yoko",
+     "Ballad of John and Yoko"
+    ],
+    "Something in the Air",
+    "In the Year 2525",
+    "Bad Moon Rising",
+    "Poor Me",
+    "Running Bear",
+    "Three Steps to Heaven",
+    "Only the Lonely",
+    "I Love You",
+    "Poetry in Motion",
+    "Blue Moon",
+    "Temptation",
+    "Moon River",
+    "Come Outside",
+    "I Can't Stop Loving You",
+    "Confessin'",
+    "Sweets for My Sweet",
+    "Glad All Over",
+    "Little Children",
+    [
+     "A World Without Love",
+     "World Without Love"
+    ],
+    "Don't Throw Your Love Away",
+    "It's Over",
+    "Have I the Right?",
+    "You Really Got Me",
+    "I'm Into Something Good",
+    "Yeh, Yeh",
+    "You've Lost That Lovin' Feelin'",
+    "I'll Never Find Another You",
+    "Crying in the Chapel",
+    "Mr. Tambourine Man",
+    "I Got You Babe",
+    "Somebody Help Me",
+    "With a Girl Like You",
+    "This Is My Song",
+    "Somethin' Stupid",
+    "Baby Now That I've Found You",
+    "Let the Heartaches Begin",
+    "Everlasting Love",
+    "Mighty Quinn",
+    [
+     "(If Paradise Is) Half as Nice",
+     "Half as Nice"
+    ],
+    "Starry Eyed",
+    "Do You Mind?",
+    "Shakin' All Over",
+    "Sailor",
+    "On the Rebound",
+    "You're Driving Me Crazy",
+    "Well I Ask You",
+    [
+     "Reach for the Stars",
+     "Climb Ev'ry Mountain"
+    ],
+    "Kon-Tiki",
+    "Michael",
+    "Nut Rocker",
+    "Dance On!",
+    "Foot Tapper",
+    [
+     "(You're the) Devil in Disguise",
+     "Devil in Disguise"
+    ],
+    "Diane",
+    "Juliet",
+    "It's All Over Now",
+    "Little Red Rooster",
+    "Go Now",
+    "Tired of Waiting for You",
+    "It's Not Unusual",
+    "Concrete and Clay",
+    [
+     "The Minute You're Gone",
+     "Minute You're Gone"
+    ],
+    "King of the Road",
+    "Where Are You Now",
+    "Make It Easy on Yourself",
+    "Keep On Running",
+    "You Don't Have to Say You Love Me",
+    "Get Away",
+    "Out of Time",
+    "All or Nothing",
+    [
+     "The Ballad of Bonnie and Clyde",
+     "Ballad of Bonnie and Clyde"
+    ],
+    [
+     "The Legend of Xanadu",
+     "Legend of Xanadu"
+    ],
+    "I Pretend",
+    "Fire",
+    "Do It Again",
+    "I've Gotta Get a Message to You",
+    "With a Little Help from My Friends",
+    "Albatross",
+    "Blackberry Way",
+    "Israelites",
+    "Dizzy",
+    [
+     "Je t'aime... moi non plus",
+     "Je t'aime",
+     "Je taime"
+    ],
+    "I'll Never Fall in Love Again"
+   ]
+  },
+  {
+   "id": "mn-uk-number-ones-70s",
+   "tags": [
+    "70s",
+    "pop"
+   ],
+   "text": "Name a UK number one single from the 1970s",
+   "answers": [
+    "Bohemian Rhapsody",
+    [
+     "Mull of Kintyre",
+     "Girls' School",
+     "Girls School"
+    ],
+    "You're the One That I Want",
+    "Dancing Queen",
+    "Don't Go Breaking My Heart",
+    [
+     "Merry Xmas Everybody",
+     "Merry Christmas Everybody"
+    ],
+    [
+     "Reason to Believe",
+     "Maggie May"
+    ],
+    "I Will Survive",
+    "Heart of Glass",
+    [
+     "Another Brick in the Wall (Part II)",
+     "Another Brick in the Wall"
+    ],
+    [
+     "Y.M.C.A.",
+     "YMCA"
+    ],
+    [
+     "Rivers of Babylon",
+     "Brown Girl in the Ring"
+    ],
+    "Three Times a Lady",
+    "Summer Nights",
+    "Waterloo",
+    "I Feel Love",
+    "Space Oddity",
+    "Get It On",
+    "My Sweet Lord",
+    "Without You",
+    "Tie a Yellow Ribbon Round the Ole Oak Tree",
+    "Seasons in the Sun",
+    "Knock Three Times",
+    "Bye Bye Baby",
+    "Mamma Mia",
+    "Take a Chance on Me",
+    "Message in a Bottle",
+    "Video Killed the Radio Star",
+    "Cars",
+    "Ring My Bell",
+    "Hit Me with Your Rhythm Stick",
+    "Sailing",
+    "Wuthering Heights",
+    "I Don't Like Mondays",
+    "Bridge over Troubled Water",
+    "Kung Fu Fighting",
+    [
+     "Mouldy Old Dough",
+     "Moldy Old Dough"
+    ],
+    [
+     "Ernie (The Fastest Milkman in the West)",
+     "Ernie"
+    ],
+    "My Ding-a-Ling",
+    "School's Out",
+    "Cum On Feel the Noize",
+    "Metal Guru",
+    "Blockbuster!",
+    "Tiger Feet",
+    "Knowing Me, Knowing You",
+    "Fernando",
+    "Mississippi",
+    "Save Your Kisses for Me",
+    "Bright Eyes",
+    "Band of Gold",
+    "Amazing Grace",
+    "Puppy Love",
+    "Chirpy Chirpy Cheep Cheep",
+    "Long Haired Lover from Liverpool",
+    [
+     "I'd Like to Teach the World to Sing (In Perfect Harmony)",
+     "I'd Like to Teach the World to Sing"
+    ],
+    "In the Summertime",
+    [
+     "The Wonder of You",
+     "Wonder of You"
+    ],
+    "I Hear You Knocking",
+    "Hot Love",
+    [
+     "Love Grows (Where My Rosemary Goes)",
+     "Love Grows"
+    ],
+    "Way Down",
+    "I'm Still Waiting",
+    "Coz I Luv You",
+    "See My Baby Jive",
+    [
+     "I'm the Leader of the Gang (I Am)",
+     "I'm the Leader of the Gang"
+    ],
+    "Young Love",
+    "Eye Level",
+    "I Love You Love Me Love",
+    "Sugar Baby Love",
+    "She",
+    "Lonely This Christmas",
+    "Don't Give Up on Us",
+    [
+     "I Don't Want to Talk About It",
+     "First Cut Is the Deepest",
+     "The First Cut Is the Deepest"
+    ],
+    [
+     "Mary's Boy Child – Oh My Lord",
+     "Mary's Boy Child",
+     "Oh My Lord"
+    ],
+    "Are 'Friends' Electric?",
+    "We Don't Talk Anymore",
+    "Wand'rin' Star",
+    "Back Home",
+    "Woodstock",
+    "Grandad",
+    "Hey Girl Don't Bother Me",
+    "Son of My Father",
+    "Mama Weer All Crazee Now",
+    "Skweeze Me, Pleeze Me",
+    [
+     "Daydreamer",
+     "Puppy Song",
+     "The Puppy Song"
+    ],
+    "Billy Don't Be a Hero",
+    "Rock Your Baby",
+    "Love Me for a Reason",
+    "Everything I Own",
+    "Gonna Make You a Star",
+    "January",
+    "Stand by Your Man",
+    "Whispering Grass",
+    "Give a Little Love",
+    [
+     "Can't Give You Anything (But My Love)",
+     "Can't Give You Anything"
+    ],
+    "Hold Me Close",
+    [
+     "I Love to Love (But My Baby Loves to Dance)",
+     "I Love to Love"
+    ],
+    "You to Me Are Everything",
+    "If You Leave Me Now",
+    "Under the Moon of Love",
+    [
+     "When a Child Is Born (Soleado)",
+     "When a Child Is Born"
+    ],
+    "When I Need You",
+    "Chanson D'Amour",
+    "So You Win Again",
+    "Silver Lady",
+    [
+     "Matchstalk Men & Matchstalk Cats & Dogs",
+     "Matchstalk Men and Matchstalk Cats and Dogs"
+    ],
+    "Sunday Girl",
+    "One Day at a Time",
+    "When You're in Love with a Beautiful Woman",
+    "All Kinds of Everything",
+    "Spirit in the Sky",
+    "Baby Jump",
+    "Double Barrel",
+    "Telegram Sam",
+    "Vincent",
+    "How Can I Be Sure",
+    "Clair",
+    "Get Down",
+    "Devil Gate Drive",
+    "When Will I See You Again",
+    "You're the First, the Last, My Everything",
+    [
+     "Make Me Smile (Come Up and See Me)",
+     "Make Me Smile"
+    ],
+    "If",
+    "Oh Boy",
+    "I'm Not in Love",
+    "I Only Have Eyes for You",
+    [
+     "December, 1963 (Oh, What a Night)",
+     "December, 1963"
+    ],
+    "Combine Harvester",
+    "Free",
+    "Night Fever",
+    "Rat Trap",
+    "Tragedy",
+    "Yellow River",
+    [
+     "The Tears of a Clown",
+     "Tears of a Clown"
+    ],
+    "Voodoo Chile",
+    "Take Me Bak 'Ome",
+    "You Wear It Well",
+    [
+     "The Twelfth of Never",
+     "Twelfth of Never"
+    ],
+    "Can the Can",
+    "Rubber Bullets",
+    "Welcome Home",
+    "Angel Fingers",
+    "You Won't Find Another Fool Like Me",
+    "Jealous Mind",
+    [
+     "The Streak",
+     "Streak"
+    ],
+    "Always Yours",
+    "Annie's Song",
+    "Sad Sweet Dreamer",
+    "Down Down",
+    "Ms Grace",
+    "Tears on My Pillow",
+    "Barbados",
+    "D.I.V.O.R.C.E.",
+    "Forever and Ever",
+    "No Charge",
+    [
+     "The Roussos Phenomenon",
+     "Roussos Phenomenon",
+     "Demis Roussos"
+    ],
+    "Don't Cry for Me Argentina",
+    "Lucille",
+    "Show You the Way to Go",
+    "Angelo",
+    "Float On",
+    "Yes Sir, I Can Boogie",
+    "Uptown Top Ranking",
+    "Figaro",
+    "Dreadlock Holiday",
+    "Da Ya Think I'm Sexy?",
+    "Walking on the Moon"
+   ]
+  },
+  {
+   "id": "mn-uk-number-ones-80s",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a UK number one single from the 1980s",
+   "answers": [
+    [
+     "Do They Know It's Christmas?",
+     "Do They Know It's Christmas Time",
+     "Band Aid"
+    ],
+    "Tainted Love",
+    "Don't You Want Me",
+    "Karma Chameleon",
+    "Relax",
+    "Two Tribes",
+    "Never Gonna Give You Up",
+    "Come On Eileen",
+    "Eye of the Tiger",
+    "Every Breath You Take",
+    "Billie Jean",
+    "Like a Prayer",
+    "Uptown Girl",
+    "Take My Breath Away",
+    "West End Girls",
+    "Careless Whisper",
+    "Wake Me Up Before You Go-Go",
+    "Into the Groove",
+    "I Just Called to Say I Love You",
+    "Hello",
+    "Dancing in the Street",
+    [
+     "The Final Countdown",
+     "Final Countdown"
+    ],
+    "La Isla Bonita",
+    "Mistletoe and Wine",
+    "Ebony and Ivory",
+    "Imagine",
+    "Stand and Deliver",
+    "Ride on Time",
+    "Eternal Flame",
+    "True",
+    "Down Under",
+    "Under Pressure",
+    [
+     "The Power of Love",
+     "Power of Love"
+    ],
+    "Papa Don't Preach",
+    "Fame",
+    "Pass the Dutchie",
+    "Do You Really Want to Hurt Me",
+    "Let's Dance",
+    "Ghost Town",
+    [
+     "Going Underground",
+     "Dreams of Children"
+    ],
+    "Super Trouper",
+    "Woman",
+    "Ashes to Ashes",
+    "Rock Me Amadeus",
+    "Merry Christmas Everyone",
+    "Sealed with a Kiss",
+    "Orinoco Flow",
+    "Pump Up the Volume",
+    [
+     "The Only Way Is Up",
+     "Only Way Is Up"
+    ],
+    "I Should Be So Lucky",
+    [
+     "The Lady in Red",
+     "Lady in Red"
+    ],
+    "Only You",
+    "19",
+    "China in Your Hand",
+    "Swing the Mood",
+    "Don't Stand So Close to Me",
+    "Green Door",
+    "Prince Charming",
+    "It's My Party",
+    "Save Your Love",
+    [
+     "The Reflex",
+     "Reflex"
+    ],
+    "I Know Him So Well",
+    "Easy Lover",
+    "Frankie",
+    "When the Going Gets Tough, the Tough Get Going",
+    "Don't Leave Me This Way",
+    "Reet Petite",
+    "Nothing's Gonna Stop Us Now",
+    "You Win Again",
+    "Always on My Mind",
+    [
+     "With a Little Help from My Friends",
+     "She's Leaving Home"
+    ],
+    "Nothing's Gonna Change My Love for You",
+    "Something's Gotten Hold of My Heart",
+    [
+     "Back to Life (However Do You Want Me)",
+     "Back to Life"
+    ],
+    [
+     "Theme from M*A*S*H (Suicide is Painless)",
+     "Theme from M*A*S*H",
+     "Suicide Is Painless",
+     "Theme from MASH",
+     "MASH"
+    ],
+    "Crying",
+    "Woman in Love",
+    "Shaddap You Face",
+    "This Ole House",
+    "Making Your Mind Up",
+    [
+     "Town Called Malice",
+     "Precious"
+    ],
+    [
+     "The Lion Sleeps Tonight",
+     "Lion Sleeps Tonight"
+    ],
+    "Seven Tears",
+    "I Don't Wanna Dance",
+    "Baby Jane",
+    [
+     "Wherever I Lay My Hat (That's My Home)",
+     "Wherever I Lay My Hat"
+    ],
+    "Give It Up",
+    "Red Red Wine",
+    "99 Red Balloons",
+    "Freedom",
+    "I Feel for You",
+    "I Want to Know What Love Is",
+    "Chain Reaction",
+    "Living Doll",
+    [
+     "A Different Corner",
+     "Different Corner"
+    ],
+    [
+     "The Chicken Song",
+     "Chicken Song"
+    ],
+    "Spirit in the Sky",
+    "I Want to Wake Up with You",
+    "Every Loser Wins",
+    "Stand by Me",
+    "Let It Be",
+    "It's a Sin",
+    "I Think We're Alone Now",
+    "Heart",
+    "First Time",
+    "Especially for You",
+    "Ferry 'Cross the Mersey",
+    "That's What I Like",
+    [
+     "You Got It (The Right Stuff)",
+     "You Got It"
+    ],
+    "Brass in Pocket",
+    "Coward of the County",
+    "Atomic",
+    [
+     "Working My Way Back to You – Forgive Me Girl",
+     "Working My Way Back to You"
+    ],
+    "Geno",
+    "What's Another Year",
+    "Xanadu",
+    "Use It Up and Wear It Out",
+    [
+     "The Winner Takes It All",
+     "Winner Takes It All"
+    ],
+    "Feels Like I'm in Love",
+    [
+     "The Tide Is High",
+     "Tide Is High"
+    ],
+    "There's No One Quite Like Grandma",
+    "Jealous Guy",
+    "Being with You",
+    "One Day In Your Life",
+    [
+     "The Land of Make Believe",
+     "Land of Make Believe"
+    ],
+    [
+     "A Little Peace",
+     "Little Peace"
+    ],
+    "House of Fun",
+    "Goody Two Shoes",
+    "Happy Talk",
+    "Beat Surrender",
+    "You Can't Hurry Love",
+    "Too Shy",
+    "Total Eclipse of the Heart",
+    "Is There Something I Should Know?",
+    "Pipes of Peace",
+    [
+     "You Spin Me Round (Like a Record)",
+     "You Spin Me Round"
+    ],
+    "We Are the World",
+    "You'll Never Walk Alone",
+    [
+     "A Good Heart",
+     "Good Heart"
+    ],
+    "I'm Your Man",
+    "Saving All My Love for You",
+    [
+     "The Sun Always Shines on T.V.",
+     "Sun Always Shines on T.V."
+    ],
+    [
+     "The Edge of Heaven",
+     "Edge of Heaven"
+    ],
+    "Jack Your Body",
+    [
+     "I Knew You Were Waiting (For Me)",
+     "I Knew You Were Waiting"
+    ],
+    "Everything I Own",
+    [
+     "I Wanna Dance with Somebody (Who Loves Me)",
+     "I Wanna Dance with Somebody"
+    ],
+    "Star Trekkin'",
+    "La Bamba",
+    "I Just Can't Stop Loving You",
+    "Heaven Is a Place on Earth",
+    "Don't Turn Around",
+    "Theme from S'Express",
+    "I Owe You Nothing",
+    [
+     "A Groovy Kind of Love",
+     "Groovy Kind of Love"
+    ],
+    "He Ain't Heavy, He's My Brother",
+    "One Moment in Time",
+    "Belfast Child",
+    "Too Many Broken Hearts",
+    "You'll Never Stop Me Loving You",
+    "All Around the World",
+    "Together We Are Beautiful",
+    "Call Me",
+    "Start!",
+    [
+     "(Just Like) Starting Over",
+     "Starting Over"
+    ],
+    "Japanese Boy",
+    "Every Little Thing She Does Is Magic",
+    [
+     "Begin the Beguine (Volver a Empezar)",
+     "Begin the Beguine"
+    ],
+    "Oh Julie",
+    [
+     "The Model",
+     "Model",
+     "Computer Love"
+    ],
+    "My Camera Never Lies",
+    "I've Never Been to Me",
+    "Candy Girl",
+    "I Should Have Known Better",
+    "Move Closer",
+    [
+     "There Must Be an Angel (Playing with My Heart)",
+     "There Must Be an Angel"
+    ],
+    "I Got You Babe",
+    "If I Was",
+    "True Blue",
+    "Caravan of Love",
+    "Respectable",
+    "Who's That Girl",
+    "Perfect",
+    [
+     "Doctorin' the Tardis",
+     "Doctorin the Tardis"
+    ],
+    "Desire",
+    "Hand on Your Heart",
+    "Let's Party"
+   ]
+  },
+  {
+   "id": "mn-uk-number-ones-90s",
+   "tags": [
+    "90s",
+    "pop"
+   ],
+   "text": "Name a UK number one single from the 1990s",
+   "answers": [
+    [
+     "(Everything I Do) I Do It for You",
+     "I Do It for You",
+     "Everything I Do",
+     "Everything I Do I Do It for You"
+    ],
+    "Love Is All Around",
+    [
+     "Unchained Melody",
+     "White Cliffs of Dover"
+    ],
+    "I Will Always Love You",
+    "Wannabe",
+    "Believe",
+    [
+     "Candle in the Wind 1997",
+     "Candle in the Wind",
+     "Candle in the Wind 97",
+     "Something About the Way You Look Tonight"
+    ],
+    [
+     "Bohemian Rhapsody",
+     "These Are the Days of Our Lives"
+    ],
+    "Barbie Girl",
+    "Spice Up Your Life",
+    "2 Become 1",
+    "Say You'll Be There",
+    [
+     "...Baby One More Time",
+     "Baby One More Time",
+     "Hit Me Baby One More Time"
+    ],
+    "My Heart Will Go On",
+    [
+     "Mambo No. 5 (A Little Bit Of...)",
+     "Mambo No. 5",
+     "Mambo Number 5",
+     "Mambo No 5",
+     "Mambo Number Five",
+     "Mambo No 5 A Little Bit Of"
+    ],
+    [
+     "Blue (Da Ba Dee)",
+     "Blue"
+    ],
+    "Livin' la Vida Loca",
+    "Back for Good",
+    "Never Ever",
+    "Earth Song",
+    "Don't Look Back in Anger",
+    "Country House",
+    [
+     "Three Lions",
+     "Football's Coming Home",
+     "Footballs Coming Home"
+    ],
+    [
+     "3 Lions '98",
+     "Three Lions 98",
+     "Three Lions '98"
+    ],
+    "Ice Ice Baby",
+    "Vogue",
+    "Nothing Compares 2 U",
+    "Ebeneezer Goode",
+    "Pray",
+    [
+     "Sacrifice",
+     "Healing Hands"
+    ],
+    "Stay",
+    "Rhythm Is a Dancer",
+    "No Limit",
+    "Things Can Only Get Better",
+    "Cotton Eye Joe",
+    "Mr Blobby",
+    "Killing Me Softly",
+    "Gangsta's Paradise",
+    "Men in Black",
+    "I Believe I Can Fly",
+    "Perfect Day",
+    [
+     "The Millennium Prayer",
+     "Millennium Prayer"
+    ],
+    "No Matter What",
+    "Genie in a Bottle",
+    "Praise You",
+    [
+     "The Fly",
+     "Fly"
+    ],
+    [
+     "Itsy Bitsy Teenie Weenie Yellow Polka Dot Bikini",
+     "Yellow Polka Dot Bikini",
+     "Itsy Bitsy Teeny Weeny Yellow Polka Dot Bikini",
+     "Itsy Bitsy Teeny Weeny"
+    ],
+    "Boombastic",
+    "Firestarter",
+    "Fastlove",
+    "Don't Speak",
+    "Spaceman",
+    [
+     "Teletubbies say Eh-oh!",
+     "Teletubbies Say Eh-oh",
+     "Eh-oh",
+     "Eh oh",
+     "Teletubbies"
+    ],
+    [
+     "The Joker",
+     "Joker"
+    ],
+    "Think Twice",
+    "Killer",
+    [
+     "I'd Do Anything for Love (But I Won't Do That)",
+     "I'd Do Anything for Love"
+    ],
+    "I'll Be Missing You",
+    "It's Like That",
+    [
+     "The One and Only",
+     "One and Only"
+    ],
+    [
+     "The Shoop Shoop Song (It's in His Kiss)",
+     "Shoop Shoop Song",
+     "The Shoop Shoop Song",
+     "Shoop Shoop Song (It's in His Kiss)"
+    ],
+    "Please Don't Go",
+    [
+     "Abba-esque",
+     "Abbaesque",
+     "Abba esque"
+    ],
+    "Stay Another Day",
+    "Dub Be Good to Me",
+    "Turtle Power",
+    "Show Me Heaven",
+    "Goodnight Girl",
+    "Young at Heart",
+    "Mr. Vain",
+    "Without You",
+    "Saturday Night",
+    "Baby Come Back",
+    "Boom Boom Boom",
+    "Fairground",
+    [
+     "I Believe",
+     "Up on the Roof"
+    ],
+    [
+     "I Have a Dream",
+     "Seasons in the Sun"
+    ],
+    "Do the Bartman",
+    "I Wanna Sex You Up",
+    "Deeply Dippy",
+    "Ain't No Doubt",
+    "End of the Road",
+    [
+     "Five Live",
+     "Five Live EP"
+    ],
+    "All That She Wants",
+    "Dreams",
+    "Doop",
+    "Never Forget",
+    "How Deep Is Your Love",
+    [
+     "Mama",
+     "Who Do You Think You Are"
+    ],
+    "MMMBop",
+    "Hangin' Tough",
+    [
+     "The Power",
+     "Power"
+    ],
+    "World in Motion",
+    "Bring Your Daughter... to the Slaughter",
+    "3 a.m. Eternal",
+    "Should I Stay or Should I Go",
+    "Any Dream Will Do",
+    "Dizzy",
+    "Black or White",
+    "Don't Let the Sun Go Down on Me",
+    "Sleeping Satellite",
+    "Would I Lie to You?",
+    "Oh Carolina",
+    [
+     "(I Can't Help) Falling in Love With You",
+     "Falling in Love With You"
+    ],
+    "Living on My Own",
+    "Boom! Shake the Room",
+    "Relight My Fire",
+    "Twist and Shout",
+    "Everything Changes",
+    [
+     "The Most Beautiful Girl in the World",
+     "Most Beautiful Girl in the World"
+    ],
+    "Come On You Reds",
+    "Sure",
+    "Let Me Be Your Fantasy",
+    "You Are Not Alone",
+    "Return of the Mack",
+    "Ready or Not",
+    [
+     "What Becomes of the Brokenhearted",
+     "Saturday Night at the Movies",
+     "You'll Never Walk Alone"
+    ],
+    "Breathe",
+    "You're Not Alone",
+    "Too Much",
+    "Doctor Jones",
+    [
+     "Under the Bridge",
+     "Lady Marmalade"
+    ],
+    "C'est la Vie",
+    "Viva Forever",
+    "Rollercoaster",
+    "When the Going Gets Tough",
+    "Flat Beat",
+    "Perfect Moment",
+    "Swear It Again",
+    "Sweet like Chocolate",
+    [
+     "9 PM (Till I Come)",
+     "9 PM"
+    ],
+    "When You Say Nothing at All",
+    "Tears on My Pillow",
+    [
+     "A Little Time",
+     "Little Time"
+    ],
+    "Saviour's Day",
+    [
+     "Sadness (Part I)",
+     "Sadness"
+    ],
+    "Innuendo",
+    [
+     "The Stonk",
+     "Stonk"
+    ],
+    "Babe",
+    [
+     "The Real Thing",
+     "Real Thing"
+    ],
+    "Inside",
+    "Love Can Build a Bridge",
+    [
+     "Don't Stop (Wiggle Wiggle)",
+     "Don't Stop"
+    ],
+    "Some Might Say",
+    "Dreamer",
+    "Jesus to a Child",
+    "Ooh Aah... Just a Little Bit",
+    "Forever Love",
+    "Flava",
+    "Breakfast at Tiffany's",
+    "Setting Sun",
+    "Words",
+    "I Feel You",
+    [
+     "A Different Beat",
+     "Different Beat"
+    ],
+    [
+     "Knockin' on Heaven's Door",
+     "Throw These Guns Away"
+    ],
+    [
+     "Professional Widow (It's Got to Be Big)",
+     "Professional Widow"
+    ],
+    "Your Woman",
+    "Beetlebum",
+    "Ain't Nobody",
+    "Discothèque",
+    "Block Rockin' Beats",
+    "Blood on the Dance Floor",
+    "Love Won't Wait",
+    "I Wanna Be the Only One",
+    "D'You Know What I Mean?",
+    [
+     "The Drugs Don't Work",
+     "Drugs Don't Work"
+    ],
+    "All Around the World",
+    "You Make Me Wanna...",
+    "Brimful of Asha",
+    "Frozen",
+    "All That I Need",
+    "Turn Back Time",
+    "Feel It",
+    "Because We Want To",
+    "Freak Me",
+    "Deeper Underground",
+    "If You Tolerate This Your Children Will Be Next",
+    "Bootie Call",
+    "Millennium",
+    "I Want You Back",
+    "Girlfriend",
+    "Gym and Tonic",
+    "To You I Belong",
+    "Goodbye",
+    [
+     "Chocolate Salty Balls (P.S. I Love You)",
+     "Chocolate Salty Balls"
+    ],
+    [
+     "Heartbeat",
+     "Tragedy"
+    ],
+    [
+     "A Little Bit More",
+     "Little Bit More"
+    ],
+    [
+     "Pretty Fly (for a White Guy)",
+     "Pretty Fly"
+    ],
+    "You Don't Know Me",
+    "Maria",
+    "Fly Away",
+    "Blame It on the Weatherman",
+    "I Want It That Way",
+    "You Needed Me",
+    [
+     "Everybody's Free (To Wear Sunscreen)",
+     "Everybody's Free"
+    ],
+    "Bring It All Back",
+    "Boom, Boom, Boom, Boom!!",
+    "If I Let You Go",
+    "Mi Chico Latino",
+    "We're Going to Ibiza!",
+    "Flying Without Wings",
+    "Keep on Movin",
+    "Lift Me Up",
+    [
+     "She's the One",
+     "It's Only Us"
+    ],
+    "King of My Castle"
+   ]
+  },
+  {
+   "id": "mn-uk-number-ones-00s",
+   "tags": [
+    "00s",
+    "pop"
+   ],
+   "text": "Name a UK number one single from the 2000s",
+   "answers": [
+    "Can't Get You Out of My Head",
+    "Umbrella",
+    "Crazy",
+    "Hero",
+    [
+     "(Is This the Way to) Amarillo",
+     "Amarillo"
+    ],
+    "Bleeding Love",
+    "Where Is the Love?",
+    "Call on Me",
+    "You're Beautiful",
+    "Hips Don't Lie",
+    "Grace Kelly",
+    "Mercy",
+    "I Kissed a Girl",
+    "Sound of the Underground",
+    "Poker Face",
+    "Bad Romance",
+    "Just Dance",
+    "Boom Boom Pow",
+    "I Gotta Feeling",
+    "Hallelujah",
+    "Killing in the Name",
+    "Bring Me to Life",
+    "Crazy in Love",
+    "Toxic",
+    "Hung Up",
+    "Don't Cha",
+    "Dirrty",
+    "Unchained Melody",
+    "Whole Again",
+    "Stan",
+    "Lose Yourself",
+    "Beautiful Day",
+    [
+     "The Real Slim Shady",
+     "Real Slim Shady"
+    ],
+    "Oops!... I Did It Again",
+    "Rise",
+    "Pure Shores",
+    "Music",
+    [
+     "Mambo No. 5",
+     "Mambo Number 5",
+     "Mambo No 5",
+     "Mambo Number Five"
+    ],
+    "Can We Fix It?",
+    "Uptown Girl",
+    "Eternal Flame",
+    "Freak like Me",
+    "Kiss Kiss",
+    "Hey Baby",
+    "Heaven",
+    "Sex on Fire",
+    "Viva la Vida",
+    "SexyBack",
+    "Smile",
+    "You Raise Me Up",
+    "Dry Your Eyes",
+    [
+     "Do They Know It's Christmas?",
+     "Do They Know It's Christmas Time",
+     "Band Aid"
+    ],
+    "Sorry Seems to Be the Hardest Word",
+    "Angel",
+    "Mad World",
+    [
+     "The Ketchup Song",
+     "Ketchup Song"
+    ],
+    "Ignition",
+    "Axel F",
+    [
+     "A Moment Like This",
+     "Moment Like This"
+    ],
+    "Bonkers",
+    [
+     "Mama Do (Uh Oh, Uh Oh)",
+     "Mama Do"
+    ],
+    "4 Minutes",
+    "American Boy",
+    "Dance wiv Me",
+    "Bad Boys",
+    "Now You're Gone",
+    [
+     "A Little Less Conversation",
+     "Little Less Conversation"
+    ],
+    "All the Things She Said",
+    "Make Luv",
+    "Breathe",
+    [
+     "Fuck It (I Don't Want You Back)",
+     "Fuck It"
+    ],
+    "That's My Goal",
+    "I Don't Feel Like Dancin",
+    "Patience",
+    "Beautiful Girls",
+    "About You Now",
+    [
+     "The Fear",
+     "Fear"
+    ],
+    "It Feels So Good",
+    "Against All Odds",
+    "Pure and Simple",
+    "Because I Got High",
+    "Gotta Get Thru This",
+    "Somethin' Stupid",
+    [
+     "Anything Is Possible",
+     "Evergreen"
+    ],
+    [
+     "Anyone of Us (Stupid Mistake)",
+     "Anyone of Us"
+    ],
+    [
+     "The Tide Is High (Get the Feeling)",
+     "Tide Is High (Get the Feeling)",
+     "The Tide Is High",
+     "Tide Is High"
+    ],
+    "All This Time",
+    [
+     "F.U.R.B. (Fuck You Right Back)",
+     "F.U.R.B.",
+     "FURB",
+     "Fuck You Right Back"
+    ],
+    "Ghetto Gospel",
+    "Push the Button",
+    "Maneater",
+    [
+     "I'm Gonna Be (500 Miles)",
+     "I'm Gonna Be"
+    ],
+    "Beautiful Liar",
+    "When You Believe",
+    "So What",
+    "Number 1",
+    "Break Your Heart",
+    "Toca's Miracle",
+    [
+     "Lady (Hear Me Tonight)",
+     "Lady"
+    ],
+    "Rollin'",
+    "What Took You So Long?",
+    "Don't Stop Movin",
+    "It's Raining Men",
+    [
+     "Eternity",
+     "The Road to Mandalay",
+     "Road to Mandalay"
+    ],
+    "Let's Dance",
+    "Light My Fire",
+    "Colourblind",
+    [
+     "The Long and Winding Road",
+     "Long and Winding Road",
+     "Suspicious Minds"
+    ],
+    "Dilemma",
+    "Stop Living the Lie",
+    "Beautiful",
+    "Spirit in the Sky",
+    "Be Faithful",
+    "Leave Right Now",
+    "Take Me to the Clouds Above",
+    "Yeah!",
+    "5 Colours in Her Hair",
+    "I Don't Wanna Know",
+    "Burn",
+    [
+     "Thunderbirds",
+     "3AM"
+    ],
+    "These Words",
+    "I'll Stand by You",
+    "Lonely",
+    "Stickwitu",
+    "Nasty Girl",
+    "Thunder in My Heart Again",
+    "It's Chico Time",
+    "Welcome to the Black Parade",
+    "Shine",
+    [
+     "The Way I Are",
+     "Way I Are"
+    ],
+    "Stronger",
+    "Take a Bow",
+    "Singin' in the Rain",
+    "Run",
+    "I'm Not Alone",
+    "Evacuate the Dancefloor",
+    "Beat Again",
+    "Fight for This Love",
+    [
+     "The Official BBC Children in Need Medley",
+     "Official BBC Children in Need Medley"
+    ],
+    [
+     "The Masses Against the Classes",
+     "Masses Against the Classes"
+    ],
+    "Born to Make You Happy",
+    "Go Let It Out",
+    "American Pie",
+    "Don't Give Up",
+    "Bag It Up",
+    "Never Be the Same Again",
+    "Fool Again",
+    "Fill Me In",
+    [
+     "Bound 4 da Reload (Casualty)",
+     "Bound 4 da Reload"
+    ],
+    "Don't Call Me Baby",
+    [
+     "Day & Night",
+     "Day and Night"
+    ],
+    "You See the Trouble with Me",
+    "Spinning Around",
+    "Breathless",
+    "Life Is a Rollercoaster",
+    "We Will Rock You",
+    "7 Days",
+    "Rock DJ",
+    "I Turn to You",
+    [
+     "Groovejet (If This Ain't Love)",
+     "Groovejet"
+    ],
+    "Take On Me",
+    "Black Coffee",
+    "Stomp",
+    [
+     "Holler",
+     "Let Love Lead the Way"
+    ],
+    "My Love",
+    "Same Old Brand New You",
+    "Can't Fight the Moonlight",
+    "Independent Women Part I",
+    "Never Had a Dream Come True",
+    "Touch Me",
+    "Love Don't Cost a Thing",
+    "It Wasn't Me",
+    "Survivor",
+    "Do You Really Like It?",
+    "Lady Marmalade",
+    [
+     "The Way to Your Love",
+     "Way to Your Love"
+    ],
+    "Another Chance",
+    "21 Seconds",
+    "Too Close",
+    "Queen of My Heart",
+    "If You Come Back",
+    "Have You Ever",
+    "More Than a Woman",
+    "My Sweet Lord",
+    "World of Our Own",
+    [
+     "The Hindu Times",
+     "Hindu Times"
+    ],
+    "If Tomorrow Never Comes",
+    "Just a Little",
+    "Without Me",
+    "Round Round",
+    "Crossroads",
+    "Just Like a Pill",
+    "Unbreakable",
+    "If You're Not the One",
+    "You Said No",
+    "Loneliness",
+    "Never Gonna Leave Your Side",
+    "Are You Ready for Love",
+    "Hole in the Head",
+    "Slow",
+    "Crashed the Wedding",
+    "Mandy",
+    "Changes",
+    "With a Little Help from My Friends",
+    "Who's David?",
+    "Mysterious Girl",
+    "Cha Cha Slide",
+    "Everytime",
+    "Obviously",
+    "Lola's Theme",
+    "Baby Cakes",
+    [
+     "My Place",
+     "Flap Your Wings"
+    ],
+    "Real to Me",
+    "Radio",
+    "Wonderful",
+    "Just Lose It",
+    "Vertigo",
+    "Jailhouse Rock",
+    [
+     "One Night",
+     "I Got Stung"
+    ],
+    "Goodies",
+    "It's Now or Never",
+    "Like Toy Soldiers",
+    "Sometimes You Can't Make It on Your Own",
+    "Get Right",
+    "Over and Over",
+    "Dakota",
+    [
+     "All About You",
+     "You've Got a Friend"
+    ],
+    "Lyla",
+    "I'll Be OK",
+    [
+     "The Importance of Being Idle",
+     "Importance of Being Idle"
+    ],
+    "Dare",
+    "I Bet You Look Good on the Dancefloor",
+    "JCB",
+    "When the Sun Goes Down",
+    "Sorry",
+    "No Tomorrow",
+    "So Sick",
+    [
+     "I Wish I Was a Punk Rocker (With Flowers in My Hair)",
+     "I Wish I Was a Punk Rocker"
+    ],
+    [
+     "Don't Stop Me Now",
+     "Please, Please"
+    ],
+    "Déjà Vu",
+    "America",
+    "Star Girl",
+    "Put Your Hands Up for Detroit",
+    [
+     "The Rose",
+     "Rose"
+    ],
+    "Smack That",
+    "Ruby",
+    "Walk This Way",
+    "Give It to Me",
+    [
+     "Baby's Coming Back",
+     "Transylvania"
+    ],
+    "With Every Heartbeat",
+    "What a Wonderful World",
+    "That's Not My Name",
+    "Closer",
+    "All Summer Long",
+    [
+     "The Promise",
+     "Promise"
+    ],
+    "If I Were a Boy",
+    "Greatest Day",
+    "My Life Would Suck Without You",
+    "Right Round",
+    [
+     "(Barry) Islands in the Stream",
+     "Islands in the Stream"
+    ],
+    "When Love Takes Over",
+    "Bulletproof",
+    "Never Leave You",
+    "Sexy Chick",
+    "Holiday",
+    "Run This Town",
+    "Boys and Girls",
+    "Oopsy Daisy",
+    "Everybody in Love",
+    "Meet Me Halfway",
+    "You Are Not Alone"
+   ]
+  },
+  {
+   "id": "mn-uk-number-ones-10s",
+   "tags": [
+    "10s",
+    "pop"
+   ],
+   "text": "Name a UK number one single from the 2010s",
+   "answers": [
+    "Despacito",
+    "Shape of You",
+    "Uptown Funk",
+    "Happy",
+    "Get Lucky",
+    "Someone like You",
+    "Hello",
+    "Dance Monkey",
+    "Old Town Road",
+    "Somebody That I Used to Know",
+    "We Found Love",
+    "Call Me Maybe",
+    "Party Rock Anthem",
+    "Gangnam Style",
+    "Blurred Lines",
+    "Wrecking Ball",
+    "Royals",
+    "Thrift Shop",
+    "Titanium",
+    "Fireflies",
+    "Bad Romance",
+    "Perfect",
+    "Havana",
+    "Thank U, Next",
+    "7 Rings",
+    "Shallow",
+    "Someone You Loved",
+    "Thinking Out Loud",
+    "Love Yourself",
+    "Sorry",
+    "One Dance",
+    "Closer",
+    "Rockabye",
+    "See You Again",
+    "Cheerleader",
+    "Love Me like You Do",
+    "Hold My Hand",
+    "What Do You Mean?",
+    "Roar",
+    "Counting Stars",
+    "Timber",
+    "Rather Be",
+    "Waves",
+    "Rude",
+    "Bang Bang",
+    [
+     "Do They Know It's Christmas?",
+     "Do They Know It's Christmas Time",
+     "Band Aid"
+    ],
+    "All About That Bass",
+    "Rockstar",
+    "God's Plan",
+    "One Kiss",
+    "In My Feelings",
+    [
+     "Three Lions",
+     "Football's Coming Home",
+     "Footballs Coming Home"
+    ],
+    "Eastside",
+    "Sweet but Psycho",
+    [
+     "Señorita",
+     "Senorita"
+    ],
+    "I Love Sausage Rolls",
+    "Hall of Fame",
+    "Wake Me Up",
+    [
+     "Spectrum (Say My Name)",
+     "Spectrum"
+    ],
+    "Mirrors",
+    "Impossible",
+    "Heroes",
+    "Everybody Hurts",
+    "Wishing on a Star",
+    "Written in the Stars",
+    [
+     "The Lazy Song",
+     "Lazy Song"
+    ],
+    "Dynamite",
+    "Airplanes",
+    "California Gurls",
+    "Telephone",
+    "Pass Out",
+    "Replay",
+    "Shout",
+    "Forget You",
+    [
+     "Just the Way You Are (Amazing)",
+     "Just the Way You Are"
+    ],
+    "Grenade",
+    "Price Tag",
+    [
+     "Only Girl (In the World)",
+     "Only Girl"
+    ],
+    "Glad You Came",
+    "Sweet Nothing",
+    "Diamonds",
+    "Don't You Worry Child",
+    [
+     "Scream & Shout",
+     "Scream and Shout"
+    ],
+    "Candy",
+    "Sing",
+    [
+     "The Climb",
+     "Climb"
+    ],
+    "I Don't Care",
+    "Promises",
+    "7 Years",
+    "Cold Water",
+    "Take Me Back to London",
+    "Want to Want Me",
+    "I Took a Pill in Ibiza",
+    "Shotgun",
+    "Good Times",
+    "When We Collide",
+    "Give Me Everything",
+    "Burn",
+    "Somewhere Only We Know",
+    "Black Magic",
+    "Say You Won't Let Go",
+    "Shout Out to My Ex",
+    "Too Good at Goodbyes",
+    "This Ain't a Love Song",
+    "Start Without You",
+    "On the Floor",
+    "Changed the Way You Kiss Me",
+    "Don't Wanna Go Home",
+    "Read All About It",
+    "Domino",
+    "RIP",
+    "Payphone",
+    "Heatwave",
+    "Troublemaker",
+    [
+     "Get Up (Rattle)",
+     "Get Up"
+    ],
+    [
+     "Need U (100%)",
+     "Need U"
+    ],
+    "Talk Dirty",
+    "Ghost",
+    "Am I Wrong",
+    "Prayer in C",
+    "These Days",
+    "Lay Me Down",
+    "Stitches",
+    "New Rules",
+    "Look What You Made Me Do",
+    "Vossi Bop",
+    "In My Head",
+    "OMG",
+    "Once",
+    "Nothin' on You",
+    "Dirtee Disco",
+    "Gettin' Over You",
+    [
+     "The Club Is Alive",
+     "Club Is Alive"
+    ],
+    "We No Speak Americano",
+    "All Time Low",
+    "Beautiful Monster",
+    "Club Can't Handle Me",
+    "Green Light",
+    "Please Don't Let Me Go",
+    "Promise This",
+    "Love You More",
+    [
+     "The Time (Dirty Bit)",
+     "The Time",
+     "Time",
+     "Time (Dirty Bit)"
+    ],
+    "What's My Name?",
+    "We R Who We R",
+    "Don't Hold Your Breath",
+    "Louder",
+    "She Makes Me Wanna",
+    "Swagger Jagger",
+    "Don't Go",
+    "Heart Skips a Beat",
+    "Stay Awake",
+    "All About Tonight",
+    "What Makes You Beautiful",
+    "No Regrets",
+    "Loca People",
+    "Dance with Me Tonight",
+    "Cannonball",
+    "Wherever You Are",
+    "Paradise",
+    "Good Feeling",
+    "Twilight",
+    "Hot Right Now",
+    "Part of Me",
+    "Turn Up the Music",
+    "Young",
+    "We Are Young",
+    "Feel the Love",
+    "Call My Name",
+    "This Is Love",
+    [
+     "How We Do (Party)",
+     "How We Do"
+    ],
+    "Bom Bom",
+    "Wings",
+    [
+     "Let Me Love You (Until You Learn to Love Yourself)",
+     "Let Me Love You"
+    ],
+    "Beneath Your Beautiful",
+    "Little Things",
+    [
+     "The Power of Love",
+     "Power of Love"
+    ],
+    "He Ain't Heavy, He's My Brother",
+    "I Could Be the One",
+    [
+     "One Way or Another (Teenage Kicks)",
+     "One Way or Another"
+    ],
+    "What About Us",
+    "Let's Get Ready to Rhumble",
+    "Waiting All Night",
+    "La La La",
+    "I Love It",
+    "Love Me Again",
+    "We Can't Stop",
+    [
+     "The Monster",
+     "Monster"
+    ],
+    "Look Right Through",
+    "Animals",
+    "Under Control",
+    "Skyscraper",
+    "Money on My Mind",
+    "My Love",
+    [
+     "Tsunami (Jump)",
+     "Tsunami"
+    ],
+    "I Got U",
+    "She Looks So Perfect",
+    [
+     "The Man",
+     "Man"
+    ],
+    "Nobody to Love",
+    "Hideaway",
+    "Summer",
+    "I Will Never Let You Down",
+    "Stay with Me",
+    "I Wanna Feel",
+    [
+     "Gecko (Overdrive)",
+     "Gecko"
+    ],
+    "Problem",
+    "It's My Birthday",
+    "Me and My Broken Heart",
+    "Crazy Stupid Love",
+    "Lovers on the Sun",
+    "Blame",
+    "Changing",
+    "Something I Need",
+    "King",
+    "Not Letting Go",
+    "Are You with Me",
+    "House Every Weekend",
+    "Drag Me Down",
+    "Marvin Gaye",
+    "Don't Be So Hard on Yourself",
+    "Fight Song",
+    "Easy Love",
+    "Writing's on the Wall",
+    [
+     "Turn the Music Louder (Rumble)",
+     "Turn the Music Louder"
+    ],
+    [
+     "A Bridge over You",
+     "Bridge over You"
+    ],
+    "Pillowtalk",
+    "Sign of the Times",
+    "Symphony",
+    "I'm the One",
+    "Bridge over Troubled Water",
+    "Wild Thoughts",
+    "Feels",
+    "River",
+    "Freaky Friday",
+    "Nice for What",
+    "I'll Be There",
+    "Solo",
+    "Funky Friday",
+    "We Built This City",
+    "Break Up with Your Girlfriend, I'm Bored",
+    "Beautiful People"
+   ]
+  },
+  {
+   "id": "mn-uk-number-ones-20s",
+   "tags": [
+    "20s",
+    "pop"
+   ],
+   "text": "Name a UK number one single from the 2020s (up to now)",
+   "answers": [
+    "Rein Me In",
+    "Ordinary",
+    "Last Christmas",
+    "All I Want for Christmas Is You",
+    "Bad Habits",
+    "As It Was",
+    "Flowers",
+    "Blinding Lights",
+    "Easy on Me",
+    [
+     "Drivers License",
+     "Driver's License"
+    ],
+    "Anti-Hero",
+    "Running Up That Hill",
+    "We Don't Talk About Bruno",
+    "Wellerman",
+    "Shivers",
+    "Golden",
+    [
+     "The Fate of Ophelia",
+     "Fate of Ophelia"
+    ],
+    "Espresso",
+    "Please Please Please",
+    "Not Like Us",
+    "Fortnight",
+    "Sprinter",
+    "Stick Season",
+    "Taste",
+    "That's So True",
+    "Miracle",
+    [
+     "Montero (Call Me by Your Name)",
+     "Montero"
+    ],
+    [
+     "Good 4 U",
+     "Good For You"
+    ],
+    "Paint the Town Red",
+    [
+     "Texas Hold 'Em",
+     "Texas Hold Em",
+     "Texas Holdem"
+    ],
+    "Beautiful Things",
+    "Unholy",
+    "Vampire",
+    "Dance the Night",
+    "What Was I Made For?",
+    "Now and Then",
+    "Is It Over Now?",
+    [
+     "WAP",
+     "W.A.P.",
+     "Wet Ass Pussy"
+    ],
+    [
+     "Savage Love (Laxed – Siren Beat)",
+     "Savage Love",
+     "Laxed"
+    ],
+    "Mood",
+    "Positions",
+    [
+     "Head & Heart",
+     "Head and Heart"
+    ],
+    "Rockstar",
+    "Roses",
+    "No Time to Die",
+    "Rain on Me",
+    "Godzilla",
+    "Toosie Slide",
+    "Before You Go",
+    "Own It",
+    "You'll Never Walk Alone",
+    "Merry Christmas",
+    "Starlight",
+    "Afraid to Feel",
+    "Body",
+    [
+     "ABCDEFU",
+     "ABC DEF U",
+     "ABCDEF U"
+    ],
+    "Strangers",
+    [
+     "Lovin on Me",
+     "Lovin' on Me"
+    ],
+    "Pink Pony Club",
+    "Manchild",
+    "Dior",
+    "Daisies",
+    [
+     "The Subway",
+     "Subway"
+    ],
+    "Man I Need",
+    "Messy",
+    [
+     "Cold Heart (Pnau remix)",
+     "Cold Heart"
+    ],
+    "Sausage Rolls for Everyone",
+    [
+     "I'm Good (Blue)",
+     "I'm Good"
+    ],
+    [
+     "B.O.T.A. (Baddest of Them All)",
+     "B.O.T.A.",
+     "BOTA",
+     "Baddest of Them All"
+    ],
+    "Forget Me",
+    "Escapism",
+    "Eyes Closed",
+    "Pointless",
+    "Houdini",
+    "Too Sweet",
+    "Backbone",
+    "Sailor Song",
+    "XMAS",
+    "Guess",
+    "Great Expectation",
+    "Patient Zero",
+    "Babydoll",
+    "End of Beginning",
+    "Raindance",
+    "I Knew It, I Knew You",
+    "River",
+    "Times Like These",
+    "Lemonade",
+    "Don't Stop Me Eatin'",
+    "Sweet Melody",
+    "Food Aid",
+    "Wish You the Best",
+    "Survive",
+    "Where Is My Husband!",
+    "Aperture",
+    "Opalite",
+    "American Girls",
+    "Drop Dead",
+    "Hate That I Made You Love Me",
+    "Choosin' Texas"
+   ]
+  },
+  {
+   "id": "mn-uk-number-one-album-acts-20s",
+   "tags": [
+    "20s",
+    "pop"
+   ],
+   "text": "Name an act with a UK number one album in the 2020s",
+   "answers": [
+    "Taylor Swift",
+    "Ed Sheeran",
+    "Lewis Capaldi",
+    [
+     "Michael Bublé",
+     "Michael Buble",
+     "Buble"
+    ],
+    "Olivia Rodrigo",
+    "Sabrina Carpenter",
+    [
+     "Drake",
+     "21 Savage",
+     "Drake and 21 Savage"
+    ],
+    "Harry Styles",
+    "Olivia Dean",
+    "Blossoms",
+    "Dua Lipa",
+    [
+     "The Rolling Stones",
+     "Rolling Stones"
+    ],
+    "Kylie Minogue",
+    [
+     "Charli XCX",
+     "Charli"
+    ],
+    [
+     "Liam Gallagher",
+     "John Squire",
+     "Liam Gallagher and John Squire"
+    ],
+    [
+     "Yungblud",
+     "Aerosmith",
+     "Aerosmith and Yungblud"
+    ],
+    "Niall Horan",
+    [
+     "The Weeknd",
+     "Weeknd"
+    ],
+    [
+     "5 Seconds of Summer",
+     "5SOS"
+    ],
+    [
+     "The Killers",
+     "Killers"
+    ],
+    "Ariana Grande",
+    "Tom Grennan",
+    "Dave",
+    "Kasabian",
+    "Robbie Williams",
+    "Oasis",
+    [
+     "Paul Heaton",
+     "Jacqui Abbott",
+     "Paul Heaton and Jacqui Abbott"
+    ],
+    [
+     "Elton John",
+     "Brandi Carlile",
+     "Elton John and Brandi Carlile"
+    ],
+    "Stormzy",
+    "Eminem",
+    "J Hus",
+    "Green Day",
+    "BTS",
+    [
+     "The 1975",
+     "1975"
+    ],
+    "Lady Gaga",
+    "Paul Weller",
+    "Ellie Goulding",
+    "Biffy Clyro",
+    [
+     "Idles",
+     "IDLES"
+    ],
+    [
+     "Michael Ball and Alfie Boe",
+     "Michael Ball",
+     "Alfie Boe"
+    ],
+    [
+     "Paul McCartney",
+     "McCartney"
+    ],
+    "Foo Fighters",
+    "Lana Del Rey",
+    "Royal Blood",
+    "Wolf Alice",
+    "Billie Eilish",
+    [
+     "The Lathums",
+     "Lathums"
+    ],
+    "Sam Fender",
+    "Coldplay",
+    "Central Cee",
+    "Stereophonics",
+    "Wet Leg",
+    [
+     "Fontaines D.C.",
+     "Fontaines DC"
+    ],
+    [
+     "Florence and the Machine",
+     "Florence + the Machine",
+     "Florence"
+    ],
+    "Jamie T",
+    [
+     "Beyoncé",
+     "Beyonce"
+    ],
+    "Muse",
+    "Louis Tomlinson",
+    "Dermot Kennedy",
+    [
+     "The Reytons",
+     "Reytons"
+    ],
+    "Gorillaz",
+    [
+     "The Lottery Winners",
+     "Lottery Winners"
+    ],
+    "Maisie Peters",
+    "Shed Seven",
+    "Noah Kahan",
+    "Gracie Abrams",
+    "Chappell Roan",
+    [
+     "Beabadoobee",
+     "Bea"
+    ],
+    [
+     "Mumford & Sons",
+     "Mumford and Sons"
+    ],
+    "Pink Floyd",
+    "Alex Warren",
+    "Justin Bieber",
+    "Gerry Cinnamon",
+    "Bob Dylan",
+    "Haim",
+    [
+     "Juice WRLD",
+     "Juice Wrld"
+    ],
+    "Nines",
+    "Doves",
+    "Pop Smoke",
+    [
+     "Queen",
+     "Adam Lambert",
+     "Queen and Adam Lambert",
+     "Queen + Adam Lambert"
+    ],
+    "Headie One",
+    [
+     "The Vamps",
+     "Vamps"
+    ],
+    "Bruce Springsteen",
+    [
+     "AC/DC",
+     "ACDC",
+     "AC DC"
+    ],
+    "Gary Barlow",
+    "Barry Gibb",
+    "You Me at Six",
+    [
+     "Bring Me the Horizon",
+     "BMTH"
+    ],
+    "Celeste",
+    [
+     "Slowthai",
+     "slowthai"
+    ],
+    "Mogwai",
+    "Architects",
+    "Kings of Leon",
+    "Ben Howard",
+    [
+     "The Snuts",
+     "Snuts"
+    ],
+    "London Grammar",
+    "Tom Jones",
+    [
+     "Rag'n'Bone Man",
+     "Rag N Bone Man",
+     "Rag and Bone Man"
+    ],
+    [
+     "Noel Gallagher's High Flying Birds",
+     "Noel Gallagher",
+     "High Flying Birds"
+    ],
+    "Jack Savoretti",
+    "Inhaler",
+    "KSI",
+    [
+     "Kanye West",
+     "Ye",
+     "Kanye"
+    ],
+    [
+     "Manic Street Preachers",
+     "Manics"
+    ],
+    [
+     "The Script",
+     "Script"
+    ],
+    "ABBA",
+    "Adele",
+    [
+     "The Wombats",
+     "Wombats"
+    ],
+    [
+     "Years & Years",
+     "Years and Years",
+     "Olly Alexander"
+    ],
+    "Don Broco",
+    "Bastille",
+    "Frank Turner",
+    "Rex Orange County",
+    [
+     "Red Hot Chili Peppers",
+     "RHCP",
+     "Chili Peppers"
+    ],
+    "Digga D",
+    "Arcade Fire",
+    "George Ezra",
+    "Paolo Nutini",
+    "Steps",
+    "Blackpink",
+    "Slipknot",
+    "Olly Murs",
+    "Sam Ryder",
+    "Courteeners",
+    "Sam Smith",
+    "Shania Twain",
+    "Paramore",
+    [
+     "P!nk",
+     "Pink"
+    ],
+    "Miley Cyrus",
+    "U2",
+    [
+     "boygenius",
+     "Boygenius"
+    ],
+    "Metallica",
+    "Enter Shikari",
+    "Nothing but Thieves",
+    "Blur",
+    "Travis Scott",
+    "Cian Ducrot",
+    "Hozier",
+    "Burna Boy",
+    "Busted",
+    "Ren",
+    "Madness",
+    "Take That",
+    "Peter Gabriel",
+    [
+     "D-Block Europe",
+     "DBE",
+     "D Block Europe"
+    ],
+    "James Arthur",
+    [
+     "The Last Dinner Party",
+     "Last Dinner Party"
+    ],
+    [
+     "Rod Stewart",
+     "Jools Holland",
+     "Rod Stewart and Jools Holland"
+    ],
+    "Elbow",
+    [
+     "The Libertines",
+     "Libertines"
+    ],
+    "James",
+    "Post Malone",
+    "David Gilmour",
+    "Snow Patrol",
+    [
+     "Tyler, the Creator",
+     "Tyler the Creator"
+    ],
+    [
+     "The Cure",
+     "Cure"
+    ],
+    "Linkin Park",
+    "Kendrick Lamar",
+    "Playboi Carti",
+    "Those Damn Crows",
+    "Sleep Token",
+    "Morgan Wallen",
+    "Pulp",
+    "James Marriott",
+    "Lorde",
+    [
+     "The K's",
+     "Ks",
+     "The Ks",
+     "K's"
+    ],
+    [
+     "Reneé Rapp",
+     "Renee Rapp"
+    ],
+    "Raye",
+    "Skindred",
+    "Michael Jackson",
+    "Madonna",
+    "Phoebe Bridgers",
+    "Ezra Collective",
+    [
+     "My Chemical Romance",
+     "MCR"
+    ]
+   ]
+  }
+ ]
+}
