@@ -554,6 +554,7 @@ def game_out(ids, label):
 
 ROOMS = {}
 CODE_ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ"
+PLAYER_COLORS = 12   # swatches the page draws (indexes 0-11)
 
 
 def clean_name(name):
@@ -572,8 +573,10 @@ def add_player(room, name):
         name, i = f"{base[:14]} {i}", i + 1
     token = secrets.token_hex(8)
     room["seq"] += 1
+    used = {p["color"] for p in room["players"].values()}
+    color = next((c for c in range(PLAYER_COLORS) if c not in used), room["seq"] % PLAYER_COLORS)
     room["players"][token] = {"n": room["seq"], "name": name, "score": 0, "answer": None, "last": time.time(),
-                              "double_left": True, "doubling": False, "picked": False}
+                              "double_left": True, "doubling": False, "picked": False, "color": color}
     return token
 
 
@@ -587,7 +590,7 @@ def create_room(name):
             break
     room = {"code": code, "players": {}, "seq": 0, "host": None, "phase": "lobby", "round": 0, "rounds": 5,
             "cat": "all", "tags": [], "used": [], "prompt": None, "deadline": 0, "reveal": None, "touched": now,
-            "secs": ROUND_S}
+            "secs": ROUND_S, "history": [], "asks": []}
     token = add_player(room, name)
     room["host"] = token
     ROOMS[code] = room
@@ -661,6 +664,9 @@ def resolve(room):
         p["score"] += r["points"]
         if r["given"]:
             record(pid, r["canonical"], r["given"])
+    room["history"].append([{"n": r["n"], "name": r["name"], "points": r["points"], "valid": r["valid"],
+                             "answer": r["canonical"] or r["given"], "share": r["share"], "outlier": r["outlier"],
+                             "shared": r["shared"], "doubled": r["doubled"]} for r in results])
     board = board_for(counts, keep={r["canonical"] for r in results if r["valid"]})
     results.sort(key=lambda r: -r["points"])
     # The crowd chart: the most common answers, plus every answer a player in the room gave.
@@ -669,6 +675,36 @@ def resolve(room):
     room["reveal"] = {"prompt": PROMPTS[pid]["text"], "results": results, "crowd": crowd, "answers": len(counts),
                       "outliers": [b for b in board if b["outlier"]], "commonest": board[0]}
     room["phase"] = "reveal"
+
+
+def awards_for(room):
+    """Fun end-of-game awards worked out from every round. Only awards somebody actually earned are returned."""
+    names = {p["n"]: p["name"] for p in room["players"].values()}
+    rows = [h for rnd in room["history"] for h in rnd if h["n"] in names]
+    out = []
+
+    def best(title, icon, scores, detail, floor=1):
+        top = max(scores.values(), default=0)
+        if top >= floor:
+            who = [names[n] for n, v in scores.items() if v == top]
+            out.append({"title": title, "icon": icon, "winners": who, "detail": detail(top)})
+
+    best("Outlier hunter", "crosshair", {n: sum(1 for r in rows if r["n"] == n and r["outlier"]) for n in names},
+         lambda v: f"Found the Outlier {v} time{'s' if v != 1 else ''}")
+    best("Best round", "trophy", {n: max([r["points"] for r in rows if r["n"] == n] or [0]) for n in names},
+         lambda v: f"{v} points in a single round", floor=50)
+    valid = {n: [r["share"] for r in rows if r["n"] == n and r["valid"]] for n in names}
+    best("Rarest find", "sparkles", {n: round(100 - min(v), 1) for n, v in valid.items() if v},
+         lambda v: f"Gave an answer only {round(100 - v, 1)}% of people give", floor=96)
+    best("Crowd pleaser", "users", {n: round(sum(v) / len(v)) for n, v in valid.items() if len(v) >= 2},
+         lambda v: f"Their answers averaged {v}% of the crowd", floor=8)
+    best("Great minds", "link", {n: sum(1 for r in rows if r["n"] == n and r["shared"]) for n in names},
+         lambda v: f"Matched another player {v} time{'s' if v != 1 else ''}")
+    best("Double trouble", "zap", {n: max([r["points"] // 2 for r in rows if r["n"] == n and r["doubled"]] or [0]) for n in names},
+         lambda v: f"Their double down earned an extra {v}", floor=20)
+    best("Wild card", "shuffle", {n: sum(1 for r in rows if r["n"] == n and not r["valid"] and r["answer"]) for n in names},
+         lambda v: f"{v} answers that weren't on the list", floor=2)
+    return out[:7]
 
 
 def tick(room):
@@ -697,9 +733,10 @@ def room_state(room, token):
         "round": room["round"], "rounds": room["rounds"], "secs": room["secs"], "doubles": room["cat"] == "all",
         "label": describe(room["cat"], room["tags"]),
         "doubleLeft": me["double_left"], "doubling": me["doubling"], "picked": me["picked"],
-        "players": [{"n": p["n"], "name": p["name"], "score": p["score"], "online": online(p),
+        "players": [{"n": p["n"], "name": p["name"], "score": p["score"], "online": online(p), "color": p["color"],
                      "answered": p["answer"] is not None, "picked": p["picked"] or not p["double_left"],
                      "doubleLeft": p["double_left"]} for p in room["players"].values()],
+        "asks": room["asks"],
     }
     left = max(0, int((room["deadline"] - time.time()) * 1000))
     if room["phase"] == "pick":
@@ -709,6 +746,8 @@ def room_state(room, token):
                      roundMs=room["secs"] * 1000, yourAnswer=me["answer"], remainingMs=left)
     if room["phase"] == "reveal":
         state["reveal"] = room["reveal"]
+    if room["phase"] == "final":
+        state["awards"] = awards_for(room)
     return state
 
 
@@ -780,6 +819,20 @@ def api_post(path, body):
             if body.get("double"):
                 me["doubling"], me["double_left"] = True, False
         return room_state(room, token)
+    if path == "/api/room/color":
+        me = room["players"][token]
+        try:
+            c = int(body.get("color"))
+        except (TypeError, ValueError):
+            c = -1
+        if 0 <= c < PLAYER_COLORS and all(p["color"] != c for t, p in room["players"].items() if t != token):
+            me["color"] = c
+        return room_state(room, token)
+    if path == "/api/room/ask":
+        me = room["players"][token]
+        if room["phase"] == "final" and me["n"] not in room["asks"]:
+            room["asks"].append(me["n"])
+        return room_state(room, token)
     if path == "/api/room/answer":
         me = room["players"][token]
         if room["phase"] == "question" and me["answer"] is None and time.time() < room["deadline"] + GRACE_S:
@@ -803,7 +856,14 @@ def api_post(path, body):
         except (TypeError, ValueError):
             secs = ROUND_S
         room.update(cat=cat, tags=tags, rounds=max(1, min(rounds, 10, size)), round=0,
-                    secs=secs if secs in TIMERS else ROUND_S)
+                    secs=secs if secs in TIMERS else ROUND_S, history=[], asks=[])
+        for p in room["players"].values():
+            p["score"], p["double_left"] = 0, True
+        next_question(room)
+    elif path == "/api/room/rematch":   # same category, rounds, timer and players; fresh scores and new prompts
+        if room["phase"] != "final":
+            raise ApiError(400, "The game isn't over yet")
+        room.update(round=0, history=[], asks=[])
         for p in room["players"].values():
             p["score"], p["double_left"] = 0, True
         next_question(room)

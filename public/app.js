@@ -71,10 +71,15 @@ const ICON = {
   flame: '<path d="M12 21.5c3.9 0 6.5-2.7 6.5-6.3 0-3.7-2.6-5.6-3.6-9.7-1.8 1.4-2.8 3.4-2.9 5.4-1-.9-1.8-2.2-2-3.9-2.1 2.1-3.5 4.9-3.5 8.2 0 3.6 2.6 6.3 5.5 6.3z"/>',
   link: '<path d="M10 14a4 4 0 0 0 5.7 0l3.1-3.1a4 4 0 0 0-5.7-5.7l-1.2 1.2"/><path d="M14 10a4 4 0 0 0-5.7 0l-3.1 3.1a4 4 0 0 0 5.7 5.7l1.2-1.2"/>',
   crown: '<path d="M3 8l4.5 4.5L12 5l4.5 7.5L21 8l-2 11H5z"/>',
+  crosshair: '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>',
   zap: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
   check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
 };
 const ic = (name, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICON[name] || ''}</svg>`;
+const PCOL = ['#ff6b6b', '#ff9f43', '#feca57', '#7bd88f', '#2ed3b7', '#4cc9f0', '#5b8cff', '#9b7bff', '#d77bff', '#ff7bd0', '#b8c4d6', '#c9a27a'];
+const PCOL_NAMES = ['Red', 'Orange', 'Yellow', 'Green', 'Teal', 'Sky', 'Blue', 'Violet', 'Purple', 'Pink', 'Silver', 'Sand'];
+const avatar = (name, color) => `<span class="av" style="--pc:${PCOL[color] || PCOL[0]}">${esc((name || '?').trim().charAt(0).toUpperCase())}</span>`;
+const colorOf = (s, n) => (s.players.find(p => p.n === n) || {}).color;
 const CAT_ICON = { all: 'sparkles', sport: 'trophy', football: 'ball', music: 'music', film: 'film', gaming: 'gamepad',
   geography: 'globe', history: 'landmark', science: 'flask', food: 'utensils', words: 'book', misc: 'shuffle' };
 const topbar = (title, right = '', back = 'back', icon = 'left') =>
@@ -134,7 +139,7 @@ function trailHTML(lanes, max) {
       ${lanes.length > 1 ? `<span class="lname">${esc(l.name)}</span>` : '<span></span>'}
       <div class="track">${ticks}
         <div class="fill" data-to="${pct(l.to)}" style="width:${pct(l.from)}%"></div>
-        <div class="mark" data-to="${pct(l.to)}" style="left:${pct(l.from)}%">${esc(l.name[0].toUpperCase())}</div>
+        <div class="mark" data-to="${pct(l.to)}" style="left:${pct(l.from)}%${l.color != null ? `;--pc:${PCOL[l.color] || PCOL[0]}` : ''}">${esc(l.name[0].toUpperCase())}</div>
       </div>
       <span class="lscore">${l.to}</span>
     </div>`).join('')}
@@ -883,7 +888,7 @@ async function partyPost(path, extra) {
 
 function playersHTML(s) {
   return s.players.map(p => `<li class="${p.n === s.you ? 'me' : ''}${p.online ? '' : ' off'}">
-    <span class="av">${esc((p.name || '?').trim().charAt(0).toUpperCase())}</span>
+    ${avatar(p.name, p.color)}
     <span class="main"><b>${esc(p.name)}</b>${p.n === s.you ? '<small>You</small>' : ''}</span>
     ${p.n === s.host ? '<span class="tag">Host</span>' : ''}
     ${!p.online ? '<span class="tag">Away</span>'
@@ -896,7 +901,7 @@ function playersHTML(s) {
 function renderParty(s) {
   const host = s.you === s.host;
   const answered = s.phase === 'question' && s.yourAnswer != null;
-  const key = [s.phase, s.round, host, answered, s.phase === 'pick' && s.picked].join('|');
+  const key = [s.phase, s.round, host, answered, s.phase === 'pick' && s.picked, s.phase === 'final' && (s.asks || []).join('.')].join('|');
   if (key !== party.key) {
     party.key = key;
     stopTimer();
@@ -904,12 +909,20 @@ function renderParty(s) {
     const leave = $('#leave');
     if (leave) leave.onclick = () => leaveParty();
   }
+  const sw = $('#colors');
+  if (sw) sw.innerHTML = colorsHTML(s);
   const list = $('#players');
   if (list) {
     list.innerHTML = playersHTML(s);
     const count = list.closest('.card') && list.closest('.card').querySelector('h3 small');
     if (count) count.textContent = s.players.length;
   }
+}
+
+function colorsHTML(s) {
+  const mine = colorOf(s, s.you), taken = new Set(s.players.filter(p => p.n !== s.you).map(p => p.color));
+  return PCOL.map((c, i) => `<button class="swatch${i === mine ? ' on' : ''}" data-c="${i}" ${taken.has(i) ? 'disabled' : ''}
+    style="--pc:${c}" aria-label="${PCOL_NAMES[i]}${taken.has(i) ? ' (taken)' : ''}" aria-pressed="${i === mine}">${i === mine ? ic('check') : ''}</button>`).join('');
 }
 
 const partyBar = (s, mid) => topbar(mid, `<span class="pill">${esc(s.code)}</span>`, 'leave', 'x');
@@ -924,6 +937,7 @@ function partyLobby(s, host) {
       <button class="btn slim" id="invite">${ic('share')}<span>Share invite link</span></button>
     </section>
     <section class="card"><h3>Players <small>${s.players.length}</small></h3><ul class="rows players" id="players"></ul></section>
+    <section class="card"><h3>Your colour</h3><div class="swatches" id="colors"></div></section>
     ${host ? `<section class="sec"><h2 class="sec-h">Category</h2><div id="picker"></div></section>
       <section class="card settings">
         <div class="setting"><span>Rounds</span>${seg('rounds', [3, 5, 7, 10], party.rounds, '')}</div>
@@ -933,6 +947,7 @@ function partyLobby(s, host) {
       <div class="cta"><button class="btn primary big" id="start">${ic('play')}<span><b>Start game</b><small>Everyone in the room plays along</small></span></button></div>`
       : `<div class="waiting card"><span class="dots"><i></i><i></i><i></i></span><p>Waiting for the host to pick a category and start</p></div>`}`);
   $('#invite').onclick = () => shareText(`${location.origin}/?room=${s.code}`);
+  $('#colors').onclick = e => { const b = e.target.closest('[data-c]'); if (b && !b.disabled) partyPost('/api/room/color', { color: +b.dataset.c }); };
   if (!host) return;
   mountPicker($('#picker'), () => { $('#start').disabled = !poolCount(pick); });
   const chips = (id, field) => $(id).onclick = e => {
@@ -1011,7 +1026,7 @@ function partyReveal(s, host) {
     ${crowdChart(r)}
     <div class="card">${trailHTML(lanes(s).map(p => {
       const got = r.results.find(x => x.n === p.n);
-      return { name: p.name, from: p.score - (got ? got.points : 0), to: p.score, me: p.n === s.you };
+      return { name: p.name, from: p.score - (got ? got.points : 0), to: p.score, me: p.n === s.you, color: p.color };
     }), (s.rounds + 1) * 100)}</div>
     ${outlierHTML(r.outliers, mine && mine.canonical)}
     <p class="muted center">Most common: <b>${esc(r.commonest.name)}</b></p>
@@ -1027,7 +1042,7 @@ function partyReveal(s, host) {
 // so the best answer lands last, and each number pulses and takes the colour of the rarity it just reached.
 function raceHTML(s, r) {
   return `<ul class="race card">${r.results.map(x => `<li class="racer${x.n === s.you ? ' me' : ''}" data-pts="${x.points}" data-out="${x.outlier ? 1 : 0}" data-t="0">
-    <span class="av">${esc((x.name || '?').trim().charAt(0).toUpperCase())}</span>
+    ${avatar(x.name, colorOf(s, x.n))}
     <span class="rmain"><b>${esc(x.name)}</b>
       <small class="rsub">${x.valid ? `${esc(x.canonical)} · ${x.share}% said it`
         : x.given ? `<span class="strike">${esc(x.given)}</span> · not on the list` : 'No answer'}</small>
@@ -1077,21 +1092,35 @@ function raceUp() {
   requestAnimationFrame(frame);
 }
 
+function awardsHTML(s) {
+  if (!s.awards || !s.awards.length) return '';
+  return `<section class="card"><h3>Awards</h3><ul class="awards">${s.awards.map(a => `<li>
+    <span class="award-ic">${ic(a.icon)}</span>
+    <span class="award-t"><b>${esc(a.title)}</b><small>${esc(a.detail)}</small></span>
+    <span class="award-w">${a.winners.map(esc).join(' &amp; ')}</span></li>`).join('')}</ul></section>`;
+}
+
 function partyFinal(s, host) {
   const order = lanes(s), max = (s.rounds + 1) * 100, top = order[0];
   const tied = order.filter(p => p.score === top.score).length > 1;
+  const asked = (s.asks || []).map(n => (s.players.find(p => p.n === n) || {}).name).filter(Boolean);
+  const iAsked = (s.asks || []).includes(s.you);
   show(`${partyBar(s, 'Final standings')}
     <div class="center"><p class="muted">${tied ? 'Furthest from the crowd (tied)' : 'Furthest from the crowd'}</p>
       <h2>${esc(order.filter(p => p.score === top.score).map(p => p.name).join(' & '))}</h2>
       <p class="muted">${top.score} paces · ${zoneName(top.score, max)}</p></div>
-    <div class="card">${trailHTML(order.map(p => ({ name: p.name, from: 0, to: p.score, me: p.n === s.you })), max)}</div>
-    <ol class="rows card">${order.map((p, i) => `<li class="${p.n === s.you ? 'me' : ''}"><span class="num">${i + 1}</span>
+    <div class="card">${trailHTML(order.map(p => ({ name: p.name, from: 0, to: p.score, me: p.n === s.you, color: p.color })), max)}</div>
+    <ol class="rows card players">${order.map((p, i) => `<li class="${p.n === s.you ? 'me' : ''}"><span class="num rank">${i + 1}</span>
+      ${avatar(p.name, p.color)}
       <span class="main"><b>${esc(p.name)}</b><small>${zoneName(p.score, max)}</small></span><span class="num">${p.score}</span></li>`).join('')}</ol>
-    ${host ? `<div class="stack"><button class="btn primary" id="again">Play again</button>
+    ${awardsHTML(s)}
+    ${asked.length ? `<p class="muted center">${asked.map(esc).join(', ')} ${asked.length === 1 ? 'wants' : 'want'} a rematch</p>` : ''}
+    ${host ? `<div class="stack"><button class="btn primary" id="again">Rematch<small>Same players and settings, fresh prompts</small></button>
       <button class="btn" id="lobby">Change category</button></div>`
-      : '<p class="muted center">Waiting for the host to start another game.</p>'}`);
-  if (!host) return;
-  $('#again').onclick = startParty;
+      : `<button class="btn${iAsked ? '' : ' primary'}" id="ask" ${iAsked ? 'disabled' : ''}>${iAsked ? 'Rematch requested' : 'Ask for a rematch'}</button>
+         <p class="muted center">The host starts the next game.</p>`}`);
+  if (!host) { if ($('#ask')) $('#ask').onclick = () => partyPost('/api/room/ask'); return; }
+  $('#again').onclick = () => partyPost('/api/room/rematch');
   $('#lobby').onclick = () => partyPost('/api/room/lobby');
 }
 
