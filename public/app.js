@@ -591,7 +591,8 @@ function soloMenu() {
     const c = catOf(dailyCat(pick)), saved = store.get('outlier.daily.' + c.id);
     const today = new Date().toLocaleDateString('en-CA');
     const done = saved && saved.date === today && saved.done;
-    $('#free').innerHTML = `${ic('play')}<span><b>Quick game</b><small>7 prompts · ${esc(pickLabel(pick))} · challenge a friend after</small></span>`;
+    const n = poolCount(pick);   // the categories themselves are listed in Your mix, so keep this line short
+    $('#free').innerHTML = `${ic('play')}<span><b>Quick game</b><small>${selsOf(pick).length ? 'Custom' : 'Everything'} · ${n} prompt${n === 1 ? '' : 's'}</small></span>`;
     $('#daily').innerHTML = `${ic('calendar')}<span><b>Daily five · ${esc(c.label)}</b><small>${done ? `Played today: ${saved.total} paces. Tap to view.` : 'Same five prompts for everyone today'}</small></span>`;
     $('#free').disabled = !poolCount(pick);
   };
