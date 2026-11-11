@@ -139,6 +139,12 @@
 [
 "Reggie Miller",
 "Miller"
+],
+[
+"Jerry West",
+"West",
+"The Logo",
+"Mr. Clutch"
 ]
 ],
 "eraText": "Name a player with 25,000 or more career NBA points who played in the {era}",
@@ -268,6 +274,10 @@
 "80s",
 "90s",
 "00s"
+],
+"Jerry West": [
+"60s",
+"70s"
 ]
 }
 },
@@ -2993,6 +3003,22 @@
 [
 "Antoine Rigaudeau",
 "Rigaudeau"
+],
+[
+"Howard Carter",
+"Carter"
+],
+[
+"Killian Hayes",
+"Hayes"
+],
+[
+"Joakim Noah",
+"Noah"
+],
+[
+"Bob Riley",
+"Riley"
 ]
 ],
 "eraText": "Name a French player who played in the NBA in the {era}",
@@ -3186,6 +3212,19 @@
 ],
 "Antoine Rigaudeau": [
 "00s"
+],
+"Howard Carter": [
+"80s"
+],
+"Killian Hayes": [
+"20s"
+],
+"Joakim Noah": [
+"00s",
+"10s"
+],
+"Bob Riley": [
+"70s"
 ]
 }
 },
@@ -4067,9 +4106,9 @@
 "Babić"
 ],
 [
-"Bogoljub Marković",
-"Markovic",
-"Marković"
+"Predrag Savović",
+"Savović",
+"Savovic"
 ]
 ],
 "eraText": "Name a Serbian player who played in the NBA in the {era}",
@@ -4079,17 +4118,14 @@
 "20s"
 ],
 "Vlade Divac": [
-"80s",
-"90s",
 "00s",
-"10s",
-"20s"
+"80s",
+"90s"
 ],
 "Peja Stojaković": [
-"90s",
 "00s",
 "10s",
-"20s"
+"90s"
 ],
 "Boban Marjanović": [
 "10s",
@@ -4097,15 +4133,13 @@
 ],
 "Darko Miličić": [
 "00s",
-"10s",
-"20s"
+"10s"
 ],
 "Nikola Jović": [
 "20s"
 ],
 "Miloš Teodosić": [
-"10s",
-"20s"
+"10s"
 ],
 "Nemanja Bjelica": [
 "10s",
@@ -4116,75 +4150,48 @@
 "20s"
 ],
 "Radisav Ćurčić": [
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ],
 "Rastko Cvetković": [
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ],
 "Sasha Danilović": [
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ],
 "Aleksandar Djordjevic": [
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ],
 "Marko Gudurić": [
-"10s",
-"20s"
+"10s"
 ],
 "Mile Ilić": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Marko Jarić": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Nenad Krstić": [
 "00s",
-"10s",
-"20s"
+"10s"
 ],
 "Ognjen Kuzmić": [
-"10s",
-"20s"
+"10s"
 ],
 "Vasilije Micić": [
 "20s"
 ],
 "Nemanja Nedović": [
-"10s",
-"20s"
+"10s"
 ],
 "Žarko Paspalj": [
-"80s",
-"90s",
-"00s",
-"10s",
-"20s"
+"80s"
 ],
 "Sasha Pavlović": [
 "00s",
-"10s",
-"20s"
+"10s"
 ],
 "Kosta Perović": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Filip Petrušev": [
 "20s"
@@ -4194,31 +4201,23 @@
 ],
 "Vladimir Radmanović": [
 "00s",
-"10s",
-"20s"
+"10s"
 ],
 "Miroslav Raduljica": [
-"10s",
-"20s"
+"10s"
 ],
 "Igor Rakočević": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Željko Rebrača": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Alen Smailagić": [
 "10s",
 "20s"
 ],
 "Dragan Tarlać": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Nikola Topić": [
 "20s"
@@ -4229,8 +4228,8 @@
 "Miloš Babić": [
 "90s"
 ],
-"Bogoljub Marković": [
-"20s"
+"Predrag Savović": [
+"00s"
 ]
 }
 },
@@ -4362,8 +4361,7 @@
 "10s"
 ],
 "Nikola Mirotić": [
-"10s",
-"20s"
+"10s"
 ],
 "Hugo González": [
 "20s"
@@ -4487,6 +4485,14 @@
 [
 "Frido Frey",
 "Frey"
+],
+[
+"Hannes Steinbach",
+"Steinbach"
+],
+[
+"Isaiah Hartenstein",
+"Hartenstein"
 ]
 ],
 "eraText": "Name a German player who played in the NBA in the {era}",
@@ -4554,6 +4560,13 @@
 ],
 "Chris Welp": [
 "80s"
+],
+"Hannes Steinbach": [
+"20s"
+],
+"Isaiah Hartenstein": [
+"10s",
+"20s"
 ]
 }
 },
@@ -4609,6 +4622,18 @@
 [
 "Antonis Fotsis",
 "Fotsis"
+],
+[
+"Kosta Koufos",
+"Koufos"
+],
+[
+"Nick Calathes",
+"Calathes"
+],
+[
+"Tyler Dorsey",
+"Dorsey"
 ]
 ],
 "eraText": "Name a Greek player who played in the NBA in the {era}",
@@ -4635,9 +4660,7 @@
 "20s"
 ],
 "Jake Tsakalidis": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Georgios Kalaitzakis": [
 "20s"
@@ -4656,6 +4679,17 @@
 ],
 "Antonis Fotsis": [
 "00s"
+],
+"Kosta Koufos": [
+"00s",
+"10s"
+],
+"Nick Calathes": [
+"10s"
+],
+"Tyler Dorsey": [
+"10s",
+"20s"
 ]
 }
 },
@@ -4870,17 +4904,12 @@
 "eraText": "Name a Croatian player who played in the NBA in the {era}",
 "eras": {
 "Toni Kukoč": [
-"90s",
 "00s",
-"10s",
-"20s"
+"90s"
 ],
 "Dražen Petrović": [
 "80s",
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ],
 "Ivica Zubac": [
 "10s",
@@ -4898,60 +4927,39 @@
 "10s"
 ],
 "Dino Rađa": [
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ],
 "Dalibor Bagarić": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Gordan Giriček": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Mario Kasun": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Karlo Matković": [
 "20s"
 ],
 "Zoran Planinić": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Damjan Rudež": [
-"10s",
-"20s"
+"10s"
 ],
 "Bruno Šundov": [
-"90s",
 "00s",
-"10s",
-"20s"
+"90s"
 ],
 "Žan Tabak": [
-"90s",
 "00s",
-"10s",
-"20s"
+"90s"
 ],
 "Roko Ukić": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Stojko Vranković": [
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ],
 "Luka Šamanić": [
 "10s",
@@ -5038,7 +5046,8 @@
 [
 "Deividas Sirvydis",
 "Sirvydis"
-]
+],
+"Domantas Sabonis"
 ],
 "eraText": "Name a Lithuanian player who played in the NBA in the {era}",
 "eras": {
@@ -5047,58 +5056,43 @@
 "20s"
 ],
 "Arvydas Sabonis": [
-"90s",
 "00s",
-"10s",
-"20s"
+"90s"
 ],
 "Zydrunas Ilgauskas": [
-"90s",
 "00s",
 "10s",
-"20s"
+"90s"
 ],
 "Šarūnas Marčiulionis": [
 "80s",
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ],
 "Linas Kleiza": [
 "00s",
-"10s",
-"20s"
+"10s"
 ],
 "Donatas Motiejūnas": [
 "10s"
 ],
 "Martynas Andriuškevičius": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Kasparas Jakučionis": [
 "20s"
 ],
 "Šarūnas Jasikevičius": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Mindaugas Kuzminskas": [
-"10s",
-"20s"
+"10s"
 ],
 "Arvydas Macijauskas": [
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Darius Songaila": [
 "00s",
-"10s",
-"20s"
+"10s"
 ],
 "Ignas Brazdeikis": [
 "10s",
@@ -5108,6 +5102,10 @@
 "20s"
 ],
 "Deividas Sirvydis": [
+"20s"
+],
+"Domantas Sabonis": [
+"10s",
 "20s"
 ]
 }
@@ -5333,6 +5331,10 @@
 [
 "Ibo Kutluay",
 "Kutluay"
+],
+[
+"Shane Larkin",
+"Larkin"
 ]
 ],
 "eraText": "Name a Turkish player who played in the NBA in the {era}",
@@ -5365,10 +5367,7 @@
 "20s"
 ],
 "Mirsad Türkcan": [
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ],
 "Ömer Yurtseven": [
 "20s"
@@ -5391,6 +5390,9 @@
 ],
 "Ibo Kutluay": [
 "00s"
+],
+"Shane Larkin": [
+"10s"
 ]
 },
 "deep": true
@@ -5638,42 +5640,27 @@
 ],
 "Toni Kukoč": [
 "90s",
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Dražen Petrović": [
 "80s",
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ],
 "Arvydas Sabonis": [
 "90s",
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Vlade Divac": [
 "80s",
 "90s",
-"00s",
-"10s",
-"20s"
+"00s"
 ],
 "Dino Rađa": [
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ],
 "Šarūnas Marčiulionis": [
 "80s",
-"90s",
-"00s",
-"10s",
-"20s"
+"90s"
 ]
 },
 "deep": true
