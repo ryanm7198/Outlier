@@ -1,0 +1,5827 @@
+{
+"cat": "nba",
+"prompts": [
+{
+"id": "nba-c-lakers-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the Lakers (through the 2025-26 season)",
+"eraText": "Name a player who played for the Lakers in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"Kobe Bryant": [
+"90s",
+"00s",
+"10s"
+],
+"Kareem Abdul-Jabbar": [
+"70s",
+"80s"
+],
+"Magic Johnson": [
+"70s",
+"80s",
+"90s"
+],
+"Shaquille O'Neal": [
+"90s",
+"00s"
+],
+"LeBron James": [
+"10s"
+],
+"Jerry West": [
+"60s",
+"70s"
+],
+"Wilt Chamberlain": [
+"60s",
+"70s"
+],
+"Elgin Baylor": [
+"60s",
+"70s"
+],
+"Pau Gasol": [
+"00s",
+"10s"
+],
+"Anthony Davis": [
+"10s"
+],
+"Derek Fisher": [
+"90s",
+"00s",
+"10s"
+],
+"Lamar Odom": [
+"00s",
+"10s"
+],
+"Metta World Peace": [
+"00s",
+"10s"
+],
+"Andrew Bynum": [
+"00s",
+"10s"
+],
+"James Worthy": [
+"80s",
+"90s"
+],
+"Michael Cooper": [
+"70s",
+"80s"
+],
+"Gail Goodrich": [
+"60s",
+"70s"
+],
+"Jamaal Wilkes": [
+"70s",
+"80s"
+],
+"Vlade Divac": [
+"80s",
+"90s",
+"00s"
+],
+"Bobby Leonard": [
+"60s"
+],
+"Byron Scott": [
+"80s",
+"90s"
+],
+"A.C. Green": [
+"80s",
+"90s"
+],
+"Elden Campbell": [
+"90s"
+],
+"Rudy LaRusso": [
+"60s"
+],
+"Kurt Rambis": [
+"80s",
+"90s"
+],
+"Jim Krebs": [
+"60s"
+],
+"Luke Walton": [
+"00s",
+"10s"
+],
+"Rick Fox": [
+"90s",
+"00s"
+],
+"Norm Nixon": [
+"70s",
+"80s"
+],
+"Tom Hawkins": [
+"60s"
+],
+"Robert Horry": [
+"90s",
+"00s"
+],
+"Hot Rod Hundley": [
+"60s"
+],
+"Devean George": [
+"90s",
+"00s"
+],
+"Sasha Vujačić": [
+"00s",
+"10s"
+],
+"LeRoy Ellis": [
+"60s",
+"70s"
+],
+"Happy Hairston": [
+"60s",
+"70s"
+],
+"Sedale Threatt": [
+"90s"
+],
+"Nick Van Exel": [
+"90s"
+],
+"Mel Counts": [
+"60s",
+"70s"
+],
+"Don Ford": [
+"70s"
+],
+"Frank Selvy": [
+"60s"
+],
+"Jordan Farmar": [
+"00s",
+"10s"
+],
+"Mychal Thompson": [
+"80s",
+"90s"
+],
+"Darrall Imhoff": [
+"60s"
+],
+"Tony Smith": [
+"90s"
+],
+"Eddie Jones": [
+"90s"
+],
+"Keith Erickson": [
+"60s",
+"70s"
+],
+"Mike McGee": [
+"80s"
+],
+"Gene Wiley": [
+"60s"
+]
+},
+"answers": [
+[
+"Kobe Bryant",
+"Bryant",
+"Kobe"
+],
+[
+"Kareem Abdul-Jabbar",
+"Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor",
+"Jabbar"
+],
+[
+"Magic Johnson",
+"Johnson",
+"Magic",
+"Earvin Johnson"
+],
+[
+"Shaquille O'Neal",
+"O'Neal",
+"Shaq",
+"Shaquille"
+],
+[
+"LeBron James",
+"James",
+"LeBron"
+],
+[
+"Jerry West",
+"West"
+],
+[
+"Wilt Chamberlain",
+"Chamberlain",
+"Wilt",
+"The Big Dipper"
+],
+[
+"Elgin Baylor",
+"Baylor"
+],
+[
+"Pau Gasol",
+"Gasol"
+],
+[
+"Anthony Davis",
+"Davis"
+],
+[
+"Derek Fisher",
+"Fisher"
+],
+[
+"Lamar Odom",
+"Odom"
+],
+[
+"Metta World Peace",
+"Peace",
+"Ron Artest",
+"Artest",
+"Metta Sandiford-Artest",
+"Metta"
+],
+[
+"Andrew Bynum",
+"Bynum"
+],
+[
+"James Worthy",
+"Worthy"
+],
+[
+"Michael Cooper",
+"Cooper"
+],
+[
+"Vern Mikkelsen",
+"Mikkelsen"
+],
+[
+"Gail Goodrich",
+"Goodrich"
+],
+[
+"Jamaal Wilkes",
+"Wilkes"
+],
+[
+"Vlade Divac",
+"Divac"
+],
+[
+"Slater Martin",
+"Martin"
+],
+[
+"George Mikan",
+"Mikan"
+],
+[
+"Jim Pollard",
+"Pollard"
+],
+[
+"Bobby Leonard",
+"Leonard"
+],
+[
+"Byron Scott",
+"Scott"
+],
+[
+"Austin Reaves",
+"Reaves"
+],
+[
+"A.C. Green",
+"Green"
+],
+[
+"Elden Campbell",
+"Campbell"
+],
+[
+"Rudy LaRusso",
+"LaRusso"
+],
+[
+"Kurt Rambis",
+"Rambis"
+],
+[
+"Jim Krebs",
+"Krebs"
+],
+[
+"Luke Walton",
+"Walton"
+],
+[
+"Rick Fox",
+"Fox"
+],
+[
+"Norm Nixon",
+"Nixon"
+],
+[
+"Tom Hawkins",
+"Hawkins"
+],
+[
+"Robert Horry",
+"Horry"
+],
+[
+"Hot Rod Hundley",
+"Hundley"
+],
+[
+"Devean George",
+"George"
+],
+[
+"Sasha Vujačić",
+"Vujačić"
+],
+[
+"LeRoy Ellis",
+"Ellis"
+],
+[
+"Happy Hairston",
+"Hairston"
+],
+[
+"Sedale Threatt",
+"Threatt"
+],
+[
+"Nick Van Exel",
+"Exel"
+],
+[
+"Mel Counts",
+"Counts"
+],
+[
+"Don Ford",
+"Ford"
+],
+[
+"Frank Selvy",
+"Selvy"
+],
+[
+"Jordan Farmar",
+"Farmar"
+],
+[
+"Myer Skoog",
+"Skoog"
+],
+[
+"Dick Schnittker",
+"Schnittker"
+],
+[
+"Mychal Thompson",
+"Thompson"
+],
+[
+"Dick Garmaker",
+"Garmaker"
+],
+[
+"Darrall Imhoff",
+"Imhoff"
+],
+[
+"Tony Smith",
+"Smith"
+],
+[
+"Eddie Jones",
+"Jones"
+],
+[
+"Keith Erickson",
+"Erickson"
+],
+[
+"Bob Harrison",
+"Harrison"
+],
+[
+"Mike McGee",
+"McGee"
+],
+[
+"Gene Wiley",
+"Wiley"
+]
+]
+},
+{
+"id": "nba-c-celtics-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the Celtics (through the 2025-26 season)",
+"eraText": "Name a player who played for the Celtics in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"Larry Bird": [
+"70s",
+"80s",
+"90s"
+],
+"Bill Russell": [
+"60s"
+],
+"Paul Pierce": [
+"90s",
+"00s",
+"10s"
+],
+"Robert Parish": [
+"80s",
+"90s"
+],
+"Kevin McHale": [
+"80s",
+"90s"
+],
+"Kevin Garnett": [
+"00s",
+"10s"
+],
+"John Havlicek": [
+"60s",
+"70s"
+],
+"Jayson Tatum": [
+"10s"
+],
+"Bob Cousy": [
+"60s"
+],
+"Jaylen Brown": [
+"10s"
+],
+"Ray Allen": [
+"00s",
+"10s"
+],
+"Dave Cowens": [
+"70s"
+],
+"Rajon Rondo": [
+"00s",
+"10s"
+],
+"Al Horford": [
+"10s"
+],
+"Marcus Smart": [
+"10s"
+],
+"Satch Sanders": [
+"60s",
+"70s"
+],
+"Don Nelson": [
+"60s",
+"70s"
+],
+"Sam Jones": [
+"60s"
+],
+"Jo Jo White": [
+"60s",
+"70s"
+],
+"Bill Sharman": [
+"60s"
+],
+"K. C. Jones": [
+"60s"
+],
+"Tom Heinsohn": [
+"60s"
+],
+"Frank Ramsey": [
+"60s"
+],
+"Dennis Johnson": [
+"80s"
+],
+"Nate Archibald": [
+"70s",
+"80s"
+],
+"Bailey Howell": [
+"60s"
+],
+"Don Chaney": [
+"60s",
+"70s"
+],
+"Cedric Maxwell": [
+"70s",
+"80s"
+],
+"Danny Ainge": [
+"80s"
+],
+"Antoine Walker": [
+"90s",
+"00s"
+],
+"Jim Loscutoff": [
+"60s"
+],
+"Steve Kuberski": [
+"60s",
+"70s"
+],
+"Walter McCarty": [
+"90s",
+"00s"
+],
+"Dee Brown": [
+"90s"
+],
+"Larry Siegfried": [
+"60s"
+],
+"Eric Williams": [
+"90s",
+"00s"
+],
+"Kendrick Perkins": [
+"00s",
+"10s"
+],
+"Reggie Lewis": [
+"80s",
+"90s"
+],
+"Rick Fox": [
+"90s"
+],
+"Hank Finkel": [
+"60s",
+"70s"
+],
+"Kevin Gamble": [
+"80s",
+"90s"
+],
+"Avery Bradley": [
+"10s"
+],
+"Gerald Henderson": [
+"70s",
+"80s"
+],
+"M. L. Carr": [
+"70s",
+"80s"
+],
+"Ed Pinckney": [
+"80s",
+"90s"
+],
+"Rick Robey": [
+"70s",
+"80s"
+],
+"Mark Blount": [
+"00s"
+],
+"Tony Allen": [
+"00s"
+],
+"Tony Battie": [
+"90s",
+"00s"
+],
+"Joe Kleine": [
+"80s",
+"90s"
+],
+"Paul Silas": [
+"70s"
+],
+"Chris Ford": [
+"70s",
+"80s"
+],
+"Dana Barros": [
+"90s",
+"00s"
+],
+"Brandon Bass": [
+"10s"
+],
+"Art Williams": [
+"70s"
+]
+},
+"answers": [
+[
+"Larry Bird",
+"Bird"
+],
+[
+"Bill Russell",
+"Russell"
+],
+[
+"Paul Pierce",
+"Pierce"
+],
+[
+"Robert Parish",
+"Parish"
+],
+[
+"Kevin McHale",
+"McHale"
+],
+[
+"Kevin Garnett",
+"Garnett"
+],
+[
+"John Havlicek",
+"Havlicek"
+],
+[
+"Jayson Tatum",
+"Tatum"
+],
+[
+"Bob Cousy",
+"Cousy"
+],
+"Jaylen Brown",
+"Ray Allen",
+[
+"Dave Cowens",
+"Cowens"
+],
+[
+"Rajon Rondo",
+"Rondo"
+],
+[
+"Al Horford",
+"Horford"
+],
+[
+"Marcus Smart",
+"Smart"
+],
+[
+"Satch Sanders",
+"Sanders"
+],
+[
+"Don Nelson",
+"Nelson"
+],
+"Sam Jones",
+"Jo Jo White",
+[
+"Bill Sharman",
+"Sharman"
+],
+"K. C. Jones",
+[
+"Tom Heinsohn",
+"Heinsohn"
+],
+[
+"Frank Ramsey",
+"Ramsey"
+],
+[
+"Dennis Johnson",
+"Johnson",
+"DJ"
+],
+[
+"Ed Macauley",
+"Macauley"
+],
+[
+"Nate Archibald",
+"Archibald",
+"Tiny Archibald"
+],
+[
+"Bailey Howell",
+"Howell"
+],
+[
+"Payton Pritchard",
+"Pritchard"
+],
+[
+"Sam Hauser",
+"Hauser"
+],
+"Derrick White",
+[
+"Don Chaney",
+"Chaney"
+],
+[
+"Cedric Maxwell",
+"Maxwell"
+],
+[
+"Danny Ainge",
+"Ainge"
+],
+[
+"Antoine Walker",
+"Walker"
+],
+[
+"Jim Loscutoff",
+"Loscutoff"
+],
+[
+"Steve Kuberski",
+"Kuberski"
+],
+[
+"Walter McCarty",
+"McCarty"
+],
+"Dee Brown",
+[
+"Larry Siegfried",
+"Siegfried"
+],
+"Eric Williams",
+[
+"Kendrick Perkins",
+"Perkins"
+],
+[
+"Reggie Lewis",
+"Lewis"
+],
+[
+"Rick Fox",
+"Fox"
+],
+[
+"Hank Finkel",
+"Finkel"
+],
+[
+"Kevin Gamble",
+"Gamble"
+],
+[
+"Avery Bradley",
+"Bradley"
+],
+[
+"Gerald Henderson",
+"Henderson"
+],
+[
+"M. L. Carr",
+"Carr"
+],
+[
+"Ed Pinckney",
+"Pinckney"
+],
+[
+"Rick Robey",
+"Robey"
+],
+[
+"Mark Blount",
+"Blount"
+],
+"Tony Allen",
+[
+"Tony Battie",
+"Battie"
+],
+[
+"Joe Kleine",
+"Kleine"
+],
+[
+"Paul Silas",
+"Silas"
+],
+[
+"Jack Nichols",
+"Nichols"
+],
+[
+"Chris Ford",
+"Ford"
+],
+[
+"Dana Barros",
+"Barros"
+],
+[
+"Brandon Bass",
+"Bass"
+],
+"Art Williams"
+]
+},
+{
+"id": "nba-c-bulls-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the Bulls (through the 2025-26 season)",
+"eraText": "Name a player who played for the Bulls in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"Michael Jordan": [
+"80s",
+"90s"
+],
+"Scottie Pippen": [
+"80s",
+"90s",
+"00s"
+],
+"Derrick Rose": [
+"00s"
+],
+"Jerry Sloan": [
+"70s"
+],
+"Artis Gilmore": [
+"70s",
+"80s"
+],
+"Chet Walker": [
+"70s"
+],
+"Toni Kukoč": [
+"90s"
+],
+"Kirk Hinrich": [
+"00s"
+],
+"John Paxson": [
+"80s",
+"90s"
+],
+"Luol Deng": [
+"00s"
+],
+"Tom Boerwinkle": [
+"70s"
+],
+"Bob Love": [
+"70s"
+],
+"Joakim Noah": [
+"00s"
+],
+"Taj Gibson": [
+"00s"
+],
+"Dave Corzine": [
+"80s"
+],
+"Horace Grant": [
+"80s",
+"90s"
+],
+"Norm Van Lier": [
+"70s"
+],
+"B. J. Armstrong": [
+"80s",
+"90s"
+],
+"Will Perdue": [
+"80s",
+"90s"
+],
+"Bob Weiss": [
+"70s"
+],
+"David Greenwood": [
+"70s",
+"80s"
+],
+"Reggie Theus": [
+"70s",
+"80s"
+],
+"Ben Gordon": [
+"00s"
+],
+"Bill Cartwright": [
+"80s",
+"90s"
+],
+"Steve Kerr": [
+"90s"
+],
+"Bill Wennington": [
+"90s"
+],
+"Mickey Johnson": [
+"70s"
+],
+"Orlando Woolridge": [
+"80s"
+],
+"Andrés Nocioni": [
+"00s"
+],
+"Ron Harper": [
+"90s"
+],
+"Stacey King": [
+"80s",
+"90s"
+],
+"Tyson Chandler": [
+"00s"
+],
+"Randy Brown": [
+"90s"
+],
+"Dickey Simpkins": [
+"90s"
+],
+"Chris Duhon": [
+"00s"
+]
+},
+"answers": [
+[
+"Michael Jordan",
+"Jordan",
+"MJ",
+"Air Jordan"
+],
+[
+"Scottie Pippen",
+"Pippen"
+],
+[
+"Derrick Rose",
+"Rose",
+"D Rose"
+],
+[
+"Jimmy Butler",
+"Butler"
+],
+[
+"Jerry Sloan",
+"Sloan"
+],
+[
+"Artis Gilmore",
+"Gilmore"
+],
+[
+"Chet Walker",
+"Walker"
+],
+[
+"Toni Kukoč",
+"Kukoč"
+],
+[
+"Coby White",
+"White"
+],
+[
+"Zach LaVine",
+"LaVine"
+],
+[
+"Nikola Vučević",
+"Vučević"
+],
+[
+"Patrick Williams",
+"Williams"
+],
+[
+"Ayo Dosunmu",
+"Dosunmu"
+],
+[
+"Kirk Hinrich",
+"Hinrich"
+],
+[
+"John Paxson",
+"Paxson"
+],
+[
+"Luol Deng",
+"Deng"
+],
+[
+"Tom Boerwinkle",
+"Boerwinkle"
+],
+[
+"Bob Love",
+"Love"
+],
+[
+"Joakim Noah",
+"Noah"
+],
+[
+"Taj Gibson",
+"Gibson"
+],
+[
+"Dave Corzine",
+"Corzine"
+],
+[
+"Horace Grant",
+"Grant"
+],
+[
+"Norm Van Lier",
+"Lier"
+],
+[
+"B. J. Armstrong",
+"Armstrong"
+],
+[
+"Will Perdue",
+"Perdue"
+],
+[
+"Bob Weiss",
+"Weiss"
+],
+[
+"David Greenwood",
+"Greenwood"
+],
+[
+"Reggie Theus",
+"Theus"
+],
+[
+"Ben Gordon",
+"Gordon"
+],
+[
+"Bill Cartwright",
+"Cartwright"
+],
+[
+"Steve Kerr",
+"Kerr"
+],
+[
+"Bill Wennington",
+"Wennington"
+],
+[
+"Mickey Johnson",
+"Johnson"
+],
+[
+"Orlando Woolridge",
+"Woolridge"
+],
+[
+"Andrés Nocioni",
+"Nocioni"
+],
+[
+"Ron Harper",
+"Harper"
+],
+[
+"Stacey King",
+"King"
+],
+[
+"Tyson Chandler",
+"Chandler"
+],
+[
+"Randy Brown",
+"Brown"
+],
+[
+"Dickey Simpkins",
+"Simpkins"
+],
+[
+"Chris Duhon",
+"Duhon"
+]
+]
+},
+{
+"id": "nba-c-warriors-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the Warriors (through the 2025-26 season)",
+"eraText": "Name a player who played for the Warriors in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"Stephen Curry": [
+"00s",
+"10s"
+],
+"Wilt Chamberlain": [
+"60s"
+],
+"Draymond Green": [
+"10s"
+],
+"Klay Thompson": [
+"10s"
+],
+"Robert Parish": [
+"70s"
+],
+"Rick Barry": [
+"60s",
+"70s"
+],
+"Chris Mullin": [
+"80s",
+"00s"
+],
+"Nate Thurmond": [
+"60s",
+"70s"
+],
+"Paul Arizin": [
+"60s"
+],
+"Al Attles": [
+"60s",
+"70s"
+],
+"Guy Rodgers": [
+"60s"
+],
+"Tim Hardaway": [
+"80s"
+],
+"Tom Gola": [
+"60s"
+],
+"Kevon Looney": [
+"10s"
+],
+"Andre Iguodala": [
+"10s"
+],
+"Shaun Livingston": [
+"10s"
+],
+"Andrew Wiggins": [
+"10s"
+],
+"Jeff Mullins": [
+"60s",
+"70s"
+],
+"Adonal Foyle": [
+"00s"
+],
+"Larry Smith": [
+"80s"
+],
+"Purvis Short": [
+"70s",
+"80s"
+],
+"Clyde Lee": [
+"60s",
+"70s"
+],
+"Joe Graboski": [
+"60s"
+],
+"Clifford Ray": [
+"70s",
+"80s"
+],
+"Joe Ellis": [
+"60s",
+"70s"
+],
+"Andris Biedriņš": [
+"00s",
+"10s"
+],
+"Joe Barry Carroll": [
+"80s"
+],
+"Tom Meschery": [
+"60s"
+],
+"Sonny Parker": [
+"70s",
+"80s"
+],
+"Jason Richardson": [
+"00s"
+],
+"Phil Smith": [
+"70s"
+],
+"Erick Dampier": [
+"00s"
+],
+"Rod Higgins": [
+"80s"
+],
+"Monta Ellis": [
+"00s",
+"10s"
+],
+"Charles Johnson": [
+"70s"
+],
+"Ron Williams": [
+"60s",
+"70s"
+],
+"Terry Teagle": [
+"80s"
+],
+"Sleepy Floyd": [
+"80s"
+],
+"Troy Murphy": [
+"00s"
+],
+"Mike Dunleavy Jr.": [
+"00s"
+],
+"Antawn Jamison": [
+"00s"
+],
+"David Lee": [
+"10s"
+],
+"George Johnson": [
+"70s"
+],
+"Mickaël Piétrus": [
+"00s"
+],
+"Jerome Whitehead": [
+"80s"
+],
+"Harrison Barnes": [
+"10s"
+],
+"Charles Dudley": [
+"70s"
+]
+},
+"answers": [
+[
+"Stephen Curry",
+"Curry",
+"Steph Curry",
+"Steph"
+],
+[
+"Wilt Chamberlain",
+"Chamberlain",
+"Wilt",
+"The Big Dipper"
+],
+[
+"Draymond Green",
+"Green",
+"Draymond"
+],
+[
+"Klay Thompson",
+"Thompson"
+],
+[
+"Robert Parish",
+"Parish"
+],
+[
+"Rick Barry",
+"Barry"
+],
+[
+"Chris Mullin",
+"Mullin"
+],
+[
+"Nate Thurmond",
+"Thurmond"
+],
+[
+"Paul Arizin",
+"Arizin"
+],
+[
+"Al Attles",
+"Attles"
+],
+[
+"Guy Rodgers",
+"Rodgers"
+],
+[
+"Neil Johnston",
+"Johnston"
+],
+[
+"Joe Fulks",
+"Fulks"
+],
+[
+"Tim Hardaway",
+"Hardaway"
+],
+[
+"Tom Gola",
+"Gola"
+],
+[
+"Kevon Looney",
+"Looney"
+],
+[
+"Andre Iguodala",
+"Iguodala"
+],
+[
+"Shaun Livingston",
+"Livingston"
+],
+[
+"Moses Moody",
+"Moody"
+],
+[
+"Andrew Wiggins",
+"Wiggins"
+],
+[
+"Jeff Mullins",
+"Mullins"
+],
+[
+"Adonal Foyle",
+"Foyle"
+],
+"Larry Smith",
+[
+"Purvis Short",
+"Short"
+],
+"Clyde Lee",
+[
+"Joe Graboski",
+"Graboski"
+],
+[
+"Clifford Ray",
+"Ray"
+],
+"Joe Ellis",
+[
+"Andris Biedriņš",
+"Biedriņš"
+],
+[
+"Joe Barry Carroll",
+"Carroll"
+],
+[
+"George Senesky",
+"Senesky"
+],
+[
+"Tom Meschery",
+"Meschery"
+],
+[
+"Sonny Parker",
+"Parker"
+],
+[
+"Jason Richardson",
+"Richardson"
+],
+"Phil Smith",
+[
+"Erick Dampier",
+"Dampier"
+],
+[
+"Rod Higgins",
+"Higgins"
+],
+"Monta Ellis",
+"Charles Johnson",
+[
+"Latrell Sprewell",
+"Sprewell"
+],
+[
+"Jack George",
+"George"
+],
+[
+"Ron Williams",
+"Williams"
+],
+[
+"Terry Teagle",
+"Teagle"
+],
+[
+"Sleepy Floyd",
+"Floyd"
+],
+[
+"Ernie Beck",
+"Beck"
+],
+[
+"Troy Murphy",
+"Murphy"
+],
+[
+"Mike Dunleavy Jr.",
+"Mike Dunleavy",
+"Dunleavy"
+],
+[
+"Donyell Marshall",
+"Marshall"
+],
+[
+"Antawn Jamison",
+"Jamison"
+],
+"David Lee",
+"George Johnson",
+[
+"Chris Gatling",
+"Gatling"
+],
+[
+"Mickaël Piétrus",
+"Piétrus"
+],
+[
+"Jerome Whitehead",
+"Whitehead"
+],
+[
+"Harrison Barnes",
+"Barnes"
+],
+[
+"Charles Dudley",
+"Dudley"
+]
+]
+},
+{
+"id": "nba-c-knicks-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the Knicks (through the 2025-26 season)",
+"eraText": "Name a player who played for the Knicks in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"Patrick Ewing": [
+"80s",
+"90s"
+],
+"Walt Frazier": [
+"60s",
+"70s"
+],
+"Willis Reed": [
+"60s",
+"70s"
+],
+"Bill Bradley": [
+"60s",
+"70s"
+],
+"Carl Braun": [
+"60s"
+],
+"Phil Jackson": [
+"60s",
+"70s"
+],
+"Dick Barnett": [
+"60s",
+"70s"
+],
+"Earl Monroe": [
+"70s"
+],
+"Richie Guerin": [
+"60s"
+],
+"Dave DeBusschere": [
+"60s",
+"70s"
+],
+"Charles Oakley": [
+"80s",
+"90s"
+],
+"Trent Tucker": [
+"80s",
+"90s"
+],
+"Allan Houston": [
+"90s"
+],
+"John Starks": [
+"90s"
+],
+"Charlie Ward": [
+"90s"
+],
+"Kurt Thomas": [
+"90s"
+],
+"Gerald Wilkins": [
+"80s",
+"90s"
+],
+"Bill Cartwright": [
+"70s",
+"80s"
+],
+"Mark Jackson": [
+"80s",
+"90s"
+],
+"Johnny Green": [
+"60s"
+],
+"Willie Naulls": [
+"60s"
+],
+"Ken Sears": [
+"60s"
+],
+"Louis Orr": [
+"80s"
+],
+"Marvin Webster": [
+"70s",
+"80s"
+],
+"Ray Williams": [
+"70s",
+"80s"
+],
+"Anthony Mason": [
+"90s"
+],
+"Dave Budd": [
+"60s"
+],
+"Latrell Sprewell": [
+"90s"
+],
+"Kenny Walker": [
+"80s",
+"90s"
+],
+"Rory Sparrow": [
+"80s"
+],
+"Cazzie Russell": [
+"60s",
+"70s"
+],
+"Dave Stallworth": [
+"60s",
+"70s"
+],
+"Howard Komives": [
+"60s"
+],
+"Larry Johnson": [
+"90s"
+],
+"Micheal Ray Richardson": [
+"70s",
+"80s"
+],
+"Chris Childs": [
+"90s"
+],
+"John Gianelli": [
+"70s"
+]
+},
+"answers": [
+[
+"Patrick Ewing",
+"Ewing"
+],
+[
+"Carmelo Anthony",
+"Anthony"
+],
+[
+"Walt Frazier",
+"Frazier"
+],
+[
+"Willis Reed",
+"Reed"
+],
+[
+"Bill Bradley",
+"Bradley"
+],
+[
+"Carl Braun",
+"Braun"
+],
+"Phil Jackson",
+[
+"Harry Gallatin",
+"Gallatin"
+],
+[
+"Dick Barnett",
+"Barnett"
+],
+[
+"Earl Monroe",
+"Monroe",
+"Earl the Pearl",
+"The Pearl"
+],
+[
+"Dick McGuire",
+"McGuire"
+],
+[
+"Richie Guerin",
+"Guerin"
+],
+[
+"Nathaniel Clifton",
+"Clifton"
+],
+[
+"Dave DeBusschere",
+"DeBusschere"
+],
+"Mitchell Robinson",
+[
+"Julius Randle",
+"Randle"
+],
+[
+"Charles Oakley",
+"Oakley"
+],
+[
+"Trent Tucker",
+"Tucker"
+],
+[
+"Allan Houston",
+"Houston"
+],
+[
+"John Starks",
+"Starks"
+],
+[
+"Charlie Ward",
+"Ward"
+],
+[
+"Kurt Thomas",
+"Thomas"
+],
+[
+"Gerald Wilkins",
+"Wilkins"
+],
+[
+"Bill Cartwright",
+"Cartwright"
+],
+"Mark Jackson",
+[
+"Johnny Green",
+"Green"
+],
+[
+"Willie Naulls",
+"Naulls"
+],
+[
+"Ken Sears",
+"Sears"
+],
+[
+"Louis Orr",
+"Orr"
+],
+[
+"Marvin Webster",
+"Webster"
+],
+[
+"Ray Williams",
+"Williams"
+],
+[
+"Anthony Mason",
+"Mason"
+],
+[
+"Ray Felix",
+"Felix"
+],
+[
+"David Lee",
+"Lee"
+],
+[
+"Dave Budd",
+"Budd"
+],
+[
+"Latrell Sprewell",
+"Sprewell"
+],
+[
+"Kenny Walker",
+"Walker"
+],
+[
+"Rory Sparrow",
+"Sparrow"
+],
+[
+"Cazzie Russell",
+"Russell"
+],
+[
+"Dave Stallworth",
+"Stallworth"
+],
+[
+"Howard Komives",
+"Komives"
+],
+[
+"Larry Johnson",
+"Johnson"
+],
+[
+"Connie Simmons",
+"Simmons"
+],
+[
+"Micheal Ray Richardson",
+"Richardson"
+],
+"Nate Robinson",
+[
+"Chris Childs",
+"Childs"
+],
+[
+"John Gianelli",
+"Gianelli"
+]
+]
+},
+{
+"id": "nba-c-spurs-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the Spurs (through the 2025-26 season)",
+"eraText": "Name a player who played for the Spurs in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"Tim Duncan": [
+"00s",
+"10s"
+],
+"Tony Parker": [
+"00s",
+"10s"
+],
+"David Robinson": [
+"80s",
+"00s"
+],
+"Manu Ginóbili": [
+"00s",
+"10s"
+],
+"George Gervin": [
+"80s"
+],
+"Kawhi Leonard": [
+"10s"
+],
+"LaMarcus Aldridge": [
+"10s"
+],
+"Artis Gilmore": [
+"80s"
+],
+"Patty Mills": [
+"10s"
+],
+"Keldon Johnson": [
+"10s"
+],
+"Jakob Pöltl": [
+"10s"
+],
+"Dejounte Murray": [
+"10s"
+],
+"Bryn Forbes": [
+"10s"
+],
+"Sean Elliott": [
+"80s",
+"00s"
+],
+"Avery Johnson": [
+"00s"
+],
+"Matt Bonner": [
+"00s",
+"10s"
+],
+"Bruce Bowen": [
+"00s"
+],
+"James Silas": [
+"80s"
+],
+"Coby Dietrick": [
+"80s"
+],
+"Mark Olberding": [
+"80s"
+],
+"Danny Green": [
+"10s"
+],
+"Johnny Moore": [
+"80s"
+],
+"Malik Rose": [
+"00s"
+],
+"Mike Mitchell": [
+"80s"
+],
+"Willie Anderson": [
+"80s"
+],
+"Mike Gale": [
+"80s"
+],
+"Alvin Robertson": [
+"80s"
+],
+"Billy Paultz": [
+"80s"
+],
+"Terry Cummings": [
+"80s"
+],
+"Michael Finley": [
+"00s"
+],
+"Robert Horry": [
+"00s"
+],
+"Boris Diaw": [
+"10s"
+],
+"Gene Banks": [
+"80s"
+],
+"Tiago Splitter": [
+"10s"
+]
+},
+"answers": [
+[
+"Tim Duncan",
+"Duncan"
+],
+[
+"Tony Parker",
+"Parker"
+],
+[
+"David Robinson",
+"Robinson"
+],
+[
+"Manu Ginóbili",
+"Ginóbili",
+"Manu"
+],
+[
+"George Gervin",
+"Gervin"
+],
+[
+"Kawhi Leonard",
+"Leonard",
+"Kawhi"
+],
+[
+"LaMarcus Aldridge",
+"Aldridge"
+],
+[
+"Artis Gilmore",
+"Gilmore"
+],
+[
+"Patty Mills",
+"Mills"
+],
+"Keldon Johnson",
+[
+"Devin Vassell",
+"Vassell"
+],
+[
+"Jakob Pöltl",
+"Pöltl"
+],
+[
+"Dejounte Murray",
+"Murray"
+],
+[
+"Bryn Forbes",
+"Forbes"
+],
+[
+"Sean Elliott",
+"Elliott"
+],
+"Avery Johnson",
+[
+"Matt Bonner",
+"Bonner"
+],
+[
+"Bruce Bowen",
+"Bowen"
+],
+[
+"James Silas",
+"Silas"
+],
+[
+"Coby Dietrick",
+"Dietrick"
+],
+[
+"Mark Olberding",
+"Olberding"
+],
+[
+"Danny Green",
+"Green"
+],
+[
+"Johnny Moore",
+"Moore"
+],
+[
+"Malik Rose",
+"Rose"
+],
+[
+"Mike Mitchell",
+"Mitchell"
+],
+[
+"Willie Anderson",
+"Anderson"
+],
+[
+"Vinny Del Negro",
+"Negro"
+],
+[
+"Mike Gale",
+"Gale"
+],
+[
+"Larry Kenon",
+"Kenon"
+],
+[
+"Rich Jones",
+"Jones"
+],
+[
+"Alvin Robertson",
+"Robertson"
+],
+[
+"Billy Paultz",
+"Paultz"
+],
+[
+"Terry Cummings",
+"Cummings"
+],
+[
+"Michael Finley",
+"Finley"
+],
+[
+"John Beasley",
+"Beasley"
+],
+[
+"Robert Horry",
+"Horry"
+],
+[
+"Boris Diaw",
+"Diaw"
+],
+[
+"Gene Banks",
+"Banks"
+],
+[
+"Tiago Splitter",
+"Splitter"
+]
+]
+},
+{
+"id": "nba-c-rockets-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the Rockets (through the 2025-26 season)",
+"eraText": "Name a player who played for the Rockets in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"Hakeem Olajuwon": [
+"80s",
+"90s",
+"00s"
+],
+"Tracy McGrady": [
+"00s"
+],
+"Calvin Murphy": [
+"70s",
+"80s"
+],
+"Elvin Hayes": [
+"70s",
+"80s"
+],
+"Moses Malone": [
+"70s",
+"80s"
+],
+"Ralph Sampson": [
+"80s"
+],
+"Rudy Tomjanovich": [
+"70s",
+"80s"
+],
+"Robert Reid": [
+"70s",
+"80s"
+],
+"Allen Leavell": [
+"70s",
+"80s"
+],
+"Mike Newlin": [
+"70s"
+],
+"Matt Bullard": [
+"90s",
+"00s"
+],
+"Otis Thorpe": [
+"80s",
+"90s"
+],
+"Kenny Smith": [
+"90s"
+],
+"Sleepy Floyd": [
+"80s",
+"90s"
+],
+"Cuttino Mobley": [
+"90s",
+"00s"
+],
+"Buck Johnson": [
+"80s",
+"90s"
+],
+"Chuck Hayes": [
+"00s"
+],
+"Rodney McCray": [
+"80s"
+],
+"Vernon Maxwell": [
+"80s",
+"90s"
+],
+"Luis Scola": [
+"00s"
+],
+"Steve Francis": [
+"90s",
+"00s"
+],
+"Trevor Ariza": [
+"00s"
+],
+"Shane Battier": [
+"00s"
+],
+"Mario Elie": [
+"90s"
+],
+"Kevin Kunnert": [
+"70s"
+],
+"Moochie Norris": [
+"90s",
+"00s"
+],
+"Ed Ratleff": [
+"70s"
+],
+"Major Jones": [
+"70s",
+"80s"
+],
+"John Lucas": [
+"70s",
+"80s"
+],
+"Stu Lantz": [
+"70s"
+],
+"Kelvin Cato": [
+"90s",
+"00s"
+],
+"Toby Kimball": [
+"70s"
+]
+},
+"answers": [
+[
+"Hakeem Olajuwon",
+"Olajuwon",
+"Akeem Olajuwon",
+"Akeem",
+"Hakeem"
+],
+[
+"James Harden",
+"Harden"
+],
+[
+"Tracy McGrady",
+"McGrady",
+"T-Mac"
+],
+[
+"Calvin Murphy",
+"Murphy"
+],
+"Elvin Hayes",
+[
+"Moses Malone",
+"Malone"
+],
+[
+"Ralph Sampson",
+"Sampson"
+],
+[
+"Clint Capela",
+"Capela"
+],
+[
+"Eric Gordon",
+"Gordon"
+],
+[
+"Alperen Şengün",
+"Şengün"
+],
+[
+"Jae'Sean Tate",
+"Tate"
+],
+[
+"Rudy Tomjanovich",
+"Tomjanovich"
+],
+[
+"Robert Reid",
+"Reid"
+],
+[
+"Jalen Green",
+"Green"
+],
+[
+"Allen Leavell",
+"Leavell"
+],
+[
+"Mike Newlin",
+"Newlin"
+],
+[
+"Matt Bullard",
+"Bullard"
+],
+[
+"Otis Thorpe",
+"Thorpe"
+],
+[
+"Kenny Smith",
+"Smith"
+],
+[
+"Sleepy Floyd",
+"Floyd"
+],
+[
+"Cuttino Mobley",
+"Mobley"
+],
+[
+"Buck Johnson",
+"Johnson"
+],
+"Chuck Hayes",
+[
+"Rodney McCray",
+"McCray"
+],
+[
+"Vernon Maxwell",
+"Maxwell"
+],
+[
+"Luis Scola",
+"Scola"
+],
+[
+"Steve Francis",
+"Francis"
+],
+[
+"Trevor Ariza",
+"Ariza"
+],
+[
+"Shane Battier",
+"Battier"
+],
+[
+"Mario Elie",
+"Elie"
+],
+[
+"Kevin Kunnert",
+"Kunnert"
+],
+[
+"Moochie Norris",
+"Norris"
+],
+[
+"Ed Ratleff",
+"Ratleff"
+],
+[
+"Major Jones",
+"Jones"
+],
+[
+"John Lucas",
+"Lucas"
+],
+[
+"Stu Lantz",
+"Lantz"
+],
+[
+"Kelvin Cato",
+"Cato"
+],
+[
+"Toby Kimball",
+"Kimball"
+]
+]
+},
+{
+"id": "nba-c-sixers-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the 76ers (through the 2025-26 season)",
+"eraText": "Name a player who played for the 76ers in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"Julius Erving": [
+"70s",
+"80s"
+],
+"Charles Barkley": [
+"80s"
+],
+"Hal Greer": [
+"60s",
+"70s"
+],
+"Dolph Schayes": [
+"60s"
+],
+"Maurice Cheeks": [
+"70s",
+"80s"
+],
+"Billy Cunningham": [
+"60s",
+"70s"
+],
+"Bobby Jones": [
+"70s",
+"80s"
+],
+"Chet Walker": [
+"60s"
+],
+"Moses Malone": [
+"80s"
+],
+"Johnny Kerr": [
+"60s"
+],
+"Al Bianchi": [
+"60s"
+],
+"Steve Mix": [
+"70s",
+"80s"
+],
+"Larry Costello": [
+"60s"
+],
+"Lucious Jackson": [
+"60s",
+"70s"
+],
+"Caldwell Jones": [
+"70s",
+"80s"
+],
+"Dave Gambee": [
+"60s"
+],
+"Andrew Toney": [
+"80s"
+],
+"Wali Jones": [
+"60s",
+"70s"
+],
+"Darryl Dawkins": [
+"70s",
+"80s"
+],
+"Clint Richardson": [
+"70s",
+"80s"
+],
+"Doug Collins": [
+"70s",
+"80s"
+],
+"Fred Carter": [
+"70s"
+],
+"Hersey Hawkins": [
+"80s"
+],
+"Ron Anderson": [
+"80s"
+],
+"Henry Bibby": [
+"70s"
+],
+"Johnny Dawkins": [
+"80s"
+],
+"Matt Guokas": [
+"60s",
+"70s"
+],
+"Connie Dierking": [
+"60s",
+"70s"
+]
+},
+"answers": [
+[
+"Allen Iverson",
+"Iverson"
+],
+[
+"Julius Erving",
+"Erving",
+"Dr J",
+"Doctor J"
+],
+[
+"Charles Barkley",
+"Barkley"
+],
+[
+"Joel Embiid",
+"Embiid",
+"Jo Embiid"
+],
+[
+"Tyrese Maxey",
+"Maxey"
+],
+[
+"Hal Greer",
+"Greer"
+],
+[
+"Dolph Schayes",
+"Schayes"
+],
+[
+"Maurice Cheeks",
+"Cheeks"
+],
+[
+"Billy Cunningham",
+"Cunningham"
+],
+"Bobby Jones",
+[
+"Chet Walker",
+"Walker"
+],
+[
+"Earl Lloyd",
+"Lloyd"
+],
+[
+"Moses Malone",
+"Malone"
+],
+[
+"Johnny Kerr",
+"Kerr"
+],
+[
+"Tobias Harris",
+"Harris"
+],
+[
+"Furkan Korkmaz",
+"Korkmaz"
+],
+[
+"Robert Covington",
+"Covington"
+],
+[
+"T. J. McConnell",
+"McConnell"
+],
+[
+"Al Bianchi",
+"Bianchi"
+],
+[
+"Steve Mix",
+"Mix"
+],
+[
+"Larry Costello",
+"Costello"
+],
+[
+"Andre Iguodala",
+"Iguodala"
+],
+[
+"Paul Seymour",
+"Seymour"
+],
+[
+"Samuel Dalembert",
+"Dalembert"
+],
+[
+"Aaron McKie",
+"McKie"
+],
+[
+"Lucious Jackson",
+"Jackson"
+],
+[
+"Thaddeus Young",
+"Young"
+],
+"Caldwell Jones",
+[
+"Dave Gambee",
+"Gambee"
+],
+[
+"Andrew Toney",
+"Toney"
+],
+[
+"Lou Williams",
+"Williams"
+],
+"Wali Jones",
+[
+"Eric Snow",
+"Snow"
+],
+"Darryl Dawkins",
+[
+"Clarence Weatherspoon",
+"Weatherspoon"
+],
+[
+"Clint Richardson",
+"Richardson"
+],
+[
+"Willie Green",
+"Green"
+],
+[
+"Doug Collins",
+"Collins"
+],
+[
+"Fred Carter",
+"Carter"
+],
+[
+"Hersey Hawkins",
+"Hawkins"
+],
+[
+"Ron Anderson",
+"Anderson"
+],
+[
+"George King",
+"King"
+],
+[
+"Kyle Korver",
+"Korver"
+],
+[
+"Henry Bibby",
+"Bibby"
+],
+"Johnny Dawkins",
+[
+"Billy Gabor",
+"Gabor"
+],
+[
+"Matt Guokas",
+"Guokas"
+],
+[
+"Connie Dierking",
+"Dierking"
+]
+]
+},
+{
+"id": "nba-c-pistons-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the Pistons (through the 2025-26 season)",
+"eraText": "Name a player who played for the Pistons in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"Dennis Rodman": [
+"80s",
+"90s"
+],
+"Isiah Thomas": [
+"80s",
+"90s"
+],
+"Ben Wallace": [
+"00s",
+"10s"
+],
+"Joe Dumars": [
+"80s",
+"90s"
+],
+"Bob Lanier": [
+"70s"
+],
+"Dave Bing": [
+"60s",
+"70s"
+],
+"Chauncey Billups": [
+"00s",
+"10s"
+],
+"Dave DeBusschere": [
+"60s"
+],
+"Grant Hill": [
+"90s"
+],
+"Bailey Howell": [
+"60s"
+],
+"Andre Drummond": [
+"10s"
+],
+"Bill Laimbeer": [
+"80s",
+"90s"
+],
+"Vinnie Johnson": [
+"80s",
+"90s"
+],
+"Tayshaun Prince": [
+"00s",
+"10s"
+],
+"Lindsey Hunter": [
+"90s",
+"00s"
+],
+"Richard Hamilton": [
+"00s",
+"10s"
+],
+"John Long": [
+"70s",
+"80s",
+"90s"
+],
+"Terry Tyler": [
+"70s",
+"80s"
+],
+"Jason Maxiell": [
+"00s",
+"10s"
+],
+"Eddie Miles": [
+"60s"
+],
+"Chris Ford": [
+"70s"
+],
+"Rodney Stuckey": [
+"00s",
+"10s"
+],
+"Terry Mills": [
+"90s"
+],
+"John Salley": [
+"80s",
+"90s"
+],
+"Terry Dischinger": [
+"60s",
+"70s"
+],
+"Gene Shue": [
+"60s"
+],
+"Michael Curry": [
+"90s",
+"00s"
+],
+"Walter Dukes": [
+"60s"
+],
+"Ray Scott": [
+"60s"
+],
+"Chuck Noble": [
+"60s"
+],
+"Curtis Rowe": [
+"70s"
+],
+"Rasheed Wallace": [
+"00s"
+],
+"Kent Benson": [
+"70s",
+"80s"
+],
+"Jimmy Walker": [
+"60s",
+"70s"
+],
+"Antonio McDyess": [
+"00s"
+],
+"Greg Monroe": [
+"10s"
+],
+"Rick Mahorn": [
+"80s",
+"90s"
+],
+"Kelly Tripucka": [
+"80s"
+],
+"Eric Money": [
+"70s"
+],
+"Jackie Moreland": [
+"60s"
+],
+"Will Bynum": [
+"00s",
+"10s"
+],
+"Jerry Stackhouse": [
+"90s",
+"00s"
+],
+"Mark Aguirre": [
+"80s",
+"90s"
+],
+"Kentavious Caldwell-Pope": [
+"10s"
+],
+"Bob Ferry": [
+"60s"
+],
+"Leon Douglas": [
+"70s"
+],
+"Don Ohl": [
+"60s"
+],
+"Chucky Atkins": [
+"00s"
+],
+"Jonas Jerebko": [
+"00s",
+"10s"
+]
+},
+"answers": [
+[
+"Dennis Rodman",
+"Rodman",
+"The Worm"
+],
+[
+"Isiah Thomas",
+"Thomas"
+],
+"Ben Wallace",
+[
+"Joe Dumars",
+"Dumars"
+],
+[
+"Bob Lanier",
+"Lanier"
+],
+[
+"Dave Bing",
+"Bing"
+],
+[
+"Chauncey Billups",
+"Billups"
+],
+[
+"Dave DeBusschere",
+"DeBusschere"
+],
+[
+"Grant Hill",
+"Hill"
+],
+[
+"Bailey Howell",
+"Howell"
+],
+[
+"George Yardley",
+"Yardley"
+],
+[
+"Andre Drummond",
+"Drummond"
+],
+[
+"Bill Laimbeer",
+"Laimbeer"
+],
+[
+"Isaiah Stewart",
+"Stewart"
+],
+[
+"Vinnie Johnson",
+"Johnson"
+],
+[
+"Tayshaun Prince",
+"Prince"
+],
+[
+"Lindsey Hunter",
+"Hunter"
+],
+[
+"Richard Hamilton",
+"Hamilton"
+],
+[
+"John Long",
+"Long"
+],
+[
+"Terry Tyler",
+"Tyler"
+],
+[
+"Jason Maxiell",
+"Maxiell"
+],
+[
+"Eddie Miles",
+"Miles"
+],
+[
+"Chris Ford",
+"Ford"
+],
+[
+"Rodney Stuckey",
+"Stuckey"
+],
+[
+"Larry Foust",
+"Foust"
+],
+[
+"Terry Mills",
+"Mills"
+],
+[
+"John Salley",
+"Salley"
+],
+[
+"Terry Dischinger",
+"Dischinger"
+],
+[
+"Gene Shue",
+"Shue"
+],
+[
+"Michael Curry",
+"Curry"
+],
+[
+"Walter Dukes",
+"Dukes"
+],
+[
+"Ray Scott",
+"Scott"
+],
+[
+"Chuck Noble",
+"Noble"
+],
+[
+"Curtis Rowe",
+"Rowe"
+],
+"Rasheed Wallace",
+[
+"Kent Benson",
+"Benson"
+],
+[
+"Jimmy Walker",
+"Walker"
+],
+[
+"Antonio McDyess",
+"McDyess"
+],
+[
+"Greg Monroe",
+"Monroe"
+],
+[
+"Rick Mahorn",
+"Mahorn"
+],
+[
+"Kelly Tripucka",
+"Tripucka"
+],
+[
+"Eric Money",
+"Money"
+],
+[
+"Jackie Moreland",
+"Moreland"
+],
+[
+"Will Bynum",
+"Bynum"
+],
+[
+"Jerry Stackhouse",
+"Stackhouse"
+],
+[
+"Mark Aguirre",
+"Aguirre"
+],
+[
+"Kentavious Caldwell-Pope",
+"Caldwell-Pope"
+],
+[
+"Bob Ferry",
+"Ferry"
+],
+[
+"Leon Douglas",
+"Douglas"
+],
+[
+"Don Ohl",
+"Ohl"
+],
+[
+"Frank Brian",
+"Brian"
+],
+[
+"Chucky Atkins",
+"Atkins"
+],
+[
+"Jonas Jerebko",
+"Jerebko"
+]
+]
+},
+{
+"id": "nba-c-heat-5-seasons",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played five or more seasons for the Miami Heat (through the 2025-26 season)",
+"eraText": "Name a player who played for the Miami Heat in the {era} (among players with five or more seasons at the club, through 2025-26)",
+"eras": {
+"Dwyane Wade": [
+"00s",
+"10s"
+],
+"Chris Bosh": [
+"10s"
+],
+"Jimmy Butler": [
+"10s"
+],
+"Bam Adebayo": [
+"10s"
+],
+"Tyler Herro": [
+"10s"
+],
+"Alonzo Mourning": [
+"90s",
+"00s"
+],
+"Udonis Haslem": [
+"00s",
+"10s"
+],
+"Tim Hardaway": [
+"90s",
+"00s"
+],
+"Goran Dragić": [
+"10s"
+],
+"Duncan Robinson": [
+"10s"
+],
+"Josh Richardson": [
+"10s"
+],
+"Tyler Johnson": [
+"10s"
+],
+"Hassan Whiteside": [
+"10s"
+],
+"Justise Winslow": [
+"10s"
+],
+"Keith Askins": [
+"90s"
+],
+"Mario Chalmers": [
+"00s",
+"10s"
+],
+"Joel Anthony": [
+"00s",
+"10s"
+],
+"Bimbo Coles": [
+"90s"
+],
+"Grant Long": [
+"90s"
+],
+"Eddie Jones": [
+"00s"
+],
+"James Jones": [
+"00s",
+"10s"
+],
+"Glen Rice": [
+"90s"
+],
+"Rony Seikaly": [
+"90s"
+],
+"Dorell Wright": [
+"00s"
+],
+"Kevin Edwards": [
+"90s"
+],
+"Voshon Lenard": [
+"90s"
+],
+"Dan Majerle": [
+"90s",
+"00s"
+],
+"Steve Smith": [
+"90s"
+]
+},
+"answers": [
+[
+"Dwyane Wade",
+"Wade",
+"D-Wade",
+"Flash"
+],
+[
+"Chris Bosh",
+"Bosh"
+],
+[
+"Jimmy Butler",
+"Butler"
+],
+[
+"Bam Adebayo",
+"Adebayo"
+],
+[
+"Tyler Herro",
+"Herro"
+],
+[
+"Alonzo Mourning",
+"Mourning"
+],
+[
+"Udonis Haslem",
+"Haslem"
+],
+[
+"Tim Hardaway",
+"Hardaway"
+],
+[
+"Goran Dragić",
+"Dragić"
+],
+[
+"Duncan Robinson",
+"Robinson"
+],
+[
+"Josh Richardson",
+"Richardson"
+],
+[
+"Tyler Johnson",
+"Johnson"
+],
+[
+"Hassan Whiteside",
+"Whiteside"
+],
+[
+"Justise Winslow",
+"Winslow"
+],
+[
+"Keith Askins",
+"Askins"
+],
+[
+"Mario Chalmers",
+"Chalmers"
+],
+[
+"Joel Anthony",
+"Anthony"
+],
+[
+"Bimbo Coles",
+"Coles"
+],
+[
+"Grant Long",
+"Long"
+],
+"Eddie Jones",
+"James Jones",
+[
+"Glen Rice",
+"Rice"
+],
+[
+"Rony Seikaly",
+"Seikaly"
+],
+[
+"Dorell Wright",
+"Wright"
+],
+[
+"Kevin Edwards",
+"Edwards"
+],
+[
+"Voshon Lenard",
+"Lenard"
+],
+[
+"Dan Majerle",
+"Majerle"
+],
+[
+"Steve Smith",
+"Smith"
+]
+]
+},
+{
+"id": "nba-c-mavericks-5-seasons",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played five or more seasons for the Dallas Mavericks (through the 2025-26 season)",
+"eraText": "Name a player who played for the Dallas Mavericks in the {era} (among players with five or more seasons at the club, through 2025-26)",
+"eras": {
+"Dirk Nowitzki": [
+"90s",
+"00s"
+],
+"Steve Nash": [
+"90s",
+"00s"
+],
+"Jason Kidd": [
+"90s"
+],
+"Brad Davis": [
+"80s",
+"90s"
+],
+"Derek Harper": [
+"80s",
+"90s"
+],
+"José Juan Barea": [
+"00s"
+],
+"Rolando Blackman": [
+"80s",
+"90s"
+],
+"Devin Harris": [
+"00s"
+],
+"Shawn Bradley": [
+"90s",
+"00s"
+],
+"Michael Finley": [
+"90s",
+"00s"
+],
+"Mark Aguirre": [
+"80s"
+],
+"Jason Terry": [
+"00s"
+],
+"James Donaldson": [
+"80s",
+"90s"
+],
+"Josh Howard": [
+"00s"
+],
+"Erick Dampier": [
+"00s"
+],
+"Sam Perkins": [
+"80s"
+],
+"Roy Tarpley": [
+"80s",
+"90s"
+],
+"Terry Davis": [
+"90s"
+],
+"Donald Hodge": [
+"90s"
+],
+"Jim Jackson": [
+"90s"
+],
+"Shawn Marion": [
+"00s"
+],
+"Eduardo Nájera": [
+"00s"
+],
+"Kurt Nimphius": [
+"80s"
+],
+"Jerry Stackhouse": [
+"00s"
+],
+"Jay Vincent": [
+"80s"
+],
+"Bill Wennington": [
+"80s"
+],
+"Randy White": [
+"80s",
+"90s"
+]
+},
+"answers": [
+[
+"Dirk Nowitzki",
+"Nowitzki",
+"Dirk"
+],
+[
+"Steve Nash",
+"Nash"
+],
+[
+"Luka Dončić",
+"Dončić",
+"Luka"
+],
+[
+"Jason Kidd",
+"Kidd",
+"J-Kidd"
+],
+[
+"Dwight Powell",
+"Powell"
+],
+[
+"Maxi Kleber",
+"Kleber"
+],
+[
+"Dorian Finney-Smith",
+"Finney-Smith"
+],
+[
+"Tim Hardaway Jr.",
+"Tim Hardaway",
+"Hardaway"
+],
+"Brad Davis",
+[
+"Derek Harper",
+"Harper"
+],
+[
+"José Juan Barea",
+"Barea"
+],
+[
+"Rolando Blackman",
+"Blackman"
+],
+[
+"Devin Harris",
+"Harris"
+],
+[
+"Shawn Bradley",
+"Bradley"
+],
+[
+"Michael Finley",
+"Finley"
+],
+[
+"Mark Aguirre",
+"Aguirre"
+],
+[
+"Jason Terry",
+"Terry"
+],
+[
+"James Donaldson",
+"Donaldson"
+],
+[
+"Josh Howard",
+"Howard"
+],
+[
+"Erick Dampier",
+"Dampier"
+],
+[
+"Sam Perkins",
+"Perkins"
+],
+[
+"Roy Tarpley",
+"Tarpley"
+],
+"Terry Davis",
+[
+"Donald Hodge",
+"Hodge"
+],
+[
+"Jim Jackson",
+"Jackson"
+],
+[
+"Shawn Marion",
+"Marion",
+"The Matrix"
+],
+[
+"Eduardo Nájera",
+"Nájera"
+],
+[
+"Kurt Nimphius",
+"Nimphius"
+],
+[
+"Jerry Stackhouse",
+"Stackhouse"
+],
+[
+"Jay Vincent",
+"Vincent"
+],
+[
+"Bill Wennington",
+"Wennington"
+],
+[
+"Randy White",
+"White"
+]
+],
+"deep": true
+},
+{
+"id": "nba-c-suns-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the Suns (through the 2025-26 season)",
+"eraText": "Name a player who played for the Suns in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"Steve Nash": [
+"00s",
+"10s"
+],
+"Devin Booker": [
+"10s"
+],
+"Jason Kidd": [
+"00s"
+],
+"Walter Davis": [
+"70s",
+"80s"
+],
+"Amar'e Stoudemire": [
+"00s"
+],
+"Paul Westphal": [
+"70s",
+"80s"
+],
+"Grant Hill": [
+"00s",
+"10s"
+],
+"Connie Hawkins": [
+"70s"
+],
+"Alvan Adams": [
+"70s",
+"80s"
+],
+"Mikal Bridges": [
+"10s"
+],
+"Deandre Ayton": [
+"10s"
+],
+"Dick Van Arsdale": [
+"70s"
+],
+"Kevin Johnson": [
+"80s"
+],
+"Shawn Marion": [
+"00s"
+],
+"Alvin Scott": [
+"70s",
+"80s"
+],
+"Dan Majerle": [
+"80s",
+"00s"
+],
+"Leandro Barbosa": [
+"00s",
+"10s"
+],
+"Mark West": [
+"80s"
+],
+"Larry Nance": [
+"80s"
+],
+"Jared Dudley": [
+"00s",
+"10s"
+],
+"Jeff Hornacek": [
+"80s"
+],
+"Neal Walk": [
+"70s"
+],
+"Kyle Macy": [
+"80s"
+],
+"Goran Dragić": [
+"00s",
+"10s"
+],
+"Tom Chambers": [
+"80s"
+],
+"P. J. Tucker": [
+"10s"
+],
+"Lamar Green": [
+"70s"
+],
+"Markieff Morris": [
+"10s"
+],
+"Alex Len": [
+"10s"
+],
+"Joel Kramer": [
+"70s",
+"80s"
+],
+"Clem Haskins": [
+"70s"
+],
+"Dennis Awtrey": [
+"70s"
+],
+"Gar Heard": [
+"70s"
+],
+"Channing Frye": [
+"00s",
+"10s"
+]
+},
+"answers": [
+[
+"Steve Nash",
+"Nash"
+],
+[
+"Devin Booker",
+"Booker"
+],
+[
+"Jason Kidd",
+"Kidd",
+"J-Kidd"
+],
+[
+"Walter Davis",
+"Davis"
+],
+[
+"Amar'e Stoudemire",
+"Stoudemire",
+"Amare",
+"STAT"
+],
+[
+"Paul Westphal",
+"Westphal"
+],
+[
+"Grant Hill",
+"Hill"
+],
+[
+"Connie Hawkins",
+"Hawkins"
+],
+[
+"Alvan Adams",
+"Adams"
+],
+[
+"Mikal Bridges",
+"Bridges"
+],
+[
+"Deandre Ayton",
+"Ayton"
+],
+[
+"Dick Van Arsdale",
+"Arsdale"
+],
+[
+"Kevin Johnson",
+"Johnson"
+],
+[
+"Shawn Marion",
+"Marion",
+"The Matrix"
+],
+[
+"Alvin Scott",
+"Scott"
+],
+[
+"Dan Majerle",
+"Majerle"
+],
+[
+"Leandro Barbosa",
+"Barbosa"
+],
+[
+"Mark West",
+"West"
+],
+[
+"Larry Nance",
+"Nance"
+],
+[
+"Jared Dudley",
+"Dudley"
+],
+[
+"Jeff Hornacek",
+"Hornacek"
+],
+[
+"Neal Walk",
+"Walk"
+],
+[
+"Kyle Macy",
+"Macy"
+],
+[
+"Goran Dragić",
+"Dragić"
+],
+[
+"Tom Chambers",
+"Chambers"
+],
+[
+"P. J. Tucker",
+"Tucker"
+],
+[
+"Lamar Green",
+"Green"
+],
+[
+"Markieff Morris",
+"Morris"
+],
+[
+"Alex Len",
+"Len"
+],
+[
+"Cedric Ceballos",
+"Ceballos"
+],
+[
+"Joel Kramer",
+"Kramer"
+],
+[
+"Clem Haskins",
+"Haskins"
+],
+[
+"Dennis Awtrey",
+"Awtrey"
+],
+[
+"Gar Heard",
+"Heard"
+],
+[
+"Channing Frye",
+"Frye"
+]
+],
+"deep": true
+},
+{
+"id": "nba-c-nets-250-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 250+ regular-season games for the Nets (including as the New Jersey Nets or New York Nets) (through the 2025-26 season)",
+"answers": [
+[
+"Julius Erving",
+"Erving",
+"Dr J",
+"Doctor J"
+],
+[
+"Jason Kidd",
+"Kidd",
+"J-Kidd"
+],
+[
+"Vince Carter",
+"Carter"
+],
+"Joe Harris",
+[
+"Nic Claxton",
+"Claxton"
+],
+[
+"Spencer Dinwiddie",
+"Dinwiddie"
+],
+[
+"Day'Ron Sharpe",
+"Sharpe"
+],
+"Buck Williams",
+[
+"Brook Lopez",
+"Lopez"
+],
+[
+"Mike Gminski",
+"Gminski"
+],
+[
+"Jason Collins",
+"Collins"
+],
+[
+"Chris Morris",
+"Morris"
+],
+[
+"Bill Melchionni",
+"Melchionni"
+],
+[
+"Kerry Kittles",
+"Kittles"
+],
+[
+"Richard Jefferson",
+"Jefferson"
+],
+[
+"Darwin Cook",
+"Cook"
+],
+"Lucious Harris",
+[
+"Jan van Breda Kolff",
+"Kolff"
+],
+[
+"Albert King",
+"King"
+],
+[
+"John Williamson",
+"Williamson"
+],
+[
+"Billy Paultz",
+"Paultz"
+],
+[
+"Mike O'Koren",
+"O'Koren"
+],
+[
+"Otis Birdsong",
+"Birdsong"
+],
+"Jayson Williams",
+[
+"Derrick Coleman",
+"Coleman"
+],
+"Aaron Williams",
+[
+"Kendall Gill",
+"Gill"
+],
+[
+"Tim Bassett",
+"Bassett"
+],
+[
+"Keith Van Horn",
+"Horn"
+],
+"George Johnson",
+[
+"Kenny Anderson",
+"Anderson"
+],
+"Joe Johnson",
+[
+"Kenyon Martin",
+"Martin"
+],
+[
+"Sam Bowie",
+"Bowie"
+],
+"Deron Williams",
+[
+"Brian Taylor",
+"Taylor"
+],
+[
+"Darryl Dawkins",
+"Dawkins"
+],
+[
+"Josh Boone",
+"Boone"
+]
+],
+"deep": true
+},
+{
+"id": "nba-c-cavaliers-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the Cavaliers (through the 2025-26 season)",
+"eraText": "Name a player who played for the Cavaliers in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"LeBron James": [
+"10s"
+],
+"Kyrie Irving": [
+"10s"
+],
+"Tristan Thompson": [
+"10s",
+"20s"
+],
+"Anderson Varejão": [
+"10s",
+"20s"
+],
+"Kevin Love": [
+"10s",
+"20s"
+],
+"Darius Garland": [
+"10s",
+"20s"
+],
+"Cedi Osman": [
+"10s",
+"20s"
+],
+"Jarrett Allen": [
+"20s"
+],
+"Dean Wade": [
+"10s",
+"20s"
+],
+"Evan Mobley": [
+"20s"
+],
+"Isaac Okoro": [
+"20s"
+],
+"Matthew Dellavedova": [
+"10s",
+"20s"
+],
+"Zydrunas Ilgauskas": [
+"90s"
+],
+"Danny Ferry": [
+"90s"
+],
+"Hot Rod Williams": [
+"80s",
+"90s"
+],
+"Mark Price": [
+"80s",
+"90s"
+],
+"Brad Daugherty": [
+"80s",
+"90s"
+],
+"Craig Ehlo": [
+"80s",
+"90s"
+],
+"Phil Hubbard": [
+"80s"
+],
+"Terrell Brandon": [
+"90s"
+],
+"Larry Nance": [
+"80s",
+"90s"
+],
+"Campy Russell": [
+"80s"
+],
+"Daniel Gibson": [
+"10s"
+],
+"John Bagley": [
+"80s"
+],
+"John Lambert": [
+"80s"
+],
+"Bobby Phills": [
+"90s"
+],
+"Mark West": [
+"80s",
+"90s"
+],
+"Bob Sura": [
+"90s"
+],
+"Wesley Person": [
+"90s"
+],
+"Chris Mills": [
+"90s"
+],
+"Tyrone Hill": [
+"90s"
+]
+},
+"answers": [
+[
+"LeBron James",
+"James",
+"LeBron"
+],
+[
+"Kyrie Irving",
+"Irving",
+"Kyrie"
+],
+[
+"Tristan Thompson",
+"Thompson"
+],
+[
+"Anderson Varejão",
+"Varejão"
+],
+[
+"Kevin Love",
+"Love"
+],
+[
+"Darius Garland",
+"Garland"
+],
+[
+"Cedi Osman",
+"Osman"
+],
+[
+"Jarrett Allen",
+"Allen"
+],
+[
+"Dean Wade",
+"Wade"
+],
+[
+"Evan Mobley",
+"Mobley"
+],
+[
+"Isaac Okoro",
+"Okoro"
+],
+[
+"Matthew Dellavedova",
+"Dellavedova"
+],
+[
+"Zydrunas Ilgauskas",
+"Ilgauskas",
+"Z",
+"Big Z"
+],
+[
+"Danny Ferry",
+"Ferry"
+],
+[
+"Bingo Smith",
+"Smith"
+],
+[
+"Hot Rod Williams",
+"Williams"
+],
+[
+"Austin Carr",
+"Carr"
+],
+[
+"Mark Price",
+"Price"
+],
+[
+"Brad Daugherty",
+"Daugherty"
+],
+[
+"Craig Ehlo",
+"Ehlo"
+],
+[
+"Phil Hubbard",
+"Hubbard"
+],
+[
+"Jim Brewer",
+"Brewer"
+],
+[
+"Terrell Brandon",
+"Brandon"
+],
+[
+"Larry Nance",
+"Nance"
+],
+[
+"Foots Walker",
+"Walker"
+],
+[
+"Campy Russell",
+"Russell"
+],
+[
+"Jim Chones",
+"Chones"
+],
+[
+"Daniel Gibson",
+"Gibson"
+],
+[
+"Jim Cleamons",
+"Cleamons"
+],
+[
+"John Bagley",
+"Bagley"
+],
+[
+"John Lambert",
+"Lambert"
+],
+[
+"Bobby Phills",
+"Phills"
+],
+[
+"Mark West",
+"West"
+],
+[
+"Bob Sura",
+"Sura"
+],
+[
+"Wesley Person",
+"Person"
+],
+[
+"Chris Mills",
+"Mills"
+],
+[
+"Dick Snyder",
+"Snyder"
+],
+[
+"Tyrone Hill",
+"Hill"
+],
+[
+"Aleksandar Pavlović",
+"Pavlović"
+]
+],
+"deep": true
+},
+{
+"id": "nba-c-bucks-300-games",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played 300+ regular-season games for the Bucks (through the 2025-26 season)",
+"eraText": "Name a player who played for the Bucks in the {era} (among players with 300+ regular-season games for the club, through 2025-26)",
+"eras": {
+"Giannis Antetokounmpo": [
+"10s"
+],
+"Kareem Abdul-Jabbar": [
+"70s"
+],
+"Ray Allen": [
+"90s",
+"00s"
+],
+"Khris Middleton": [
+"10s"
+],
+"Sidney Moncrief": [
+"70s",
+"80s"
+],
+"Bob Dandridge": [
+"70s",
+"80s"
+],
+"Jack Sikma": [
+"80s",
+"90s"
+],
+"Ersan İlyasova": [
+"00s",
+"10s"
+],
+"Brook Lopez": [
+"10s"
+],
+"Pat Connaughton": [
+"10s"
+],
+"John Henson": [
+"10s"
+],
+"Junior Bridgeman": [
+"70s",
+"80s"
+],
+"Jon McGlocklin": [
+"70s"
+],
+"Brian Winters": [
+"70s",
+"80s"
+],
+"Paul Pressey": [
+"80s"
+],
+"Michael Redd": [
+"00s",
+"10s"
+],
+"Glenn Robinson": [
+"90s",
+"00s"
+],
+"Marques Johnson": [
+"70s",
+"80s"
+],
+"Dan Gadzuric": [
+"00s"
+],
+"Terry Cummings": [
+"80s",
+"90s"
+],
+"Alton Lister": [
+"80s",
+"90s"
+],
+"Quinn Buckner": [
+"70s",
+"80s"
+],
+"Ervin Johnson": [
+"90s",
+"00s"
+],
+"Ricky Pierce": [
+"80s",
+"90s"
+],
+"Randy Breuer": [
+"80s"
+],
+"Paul Mokeski": [
+"80s"
+],
+"Andrew Bogut": [
+"00s",
+"10s"
+],
+"Fred Roberts": [
+"80s",
+"90s"
+],
+"Tim Thomas": [
+"90s",
+"00s"
+],
+"Harvey Catchings": [
+"70s",
+"80s"
+],
+"Charlie Bell": [
+"00s"
+],
+"Brad Lohaus": [
+"80s",
+"90s"
+],
+"Luc Mbah a Moute": [
+"00s",
+"10s"
+],
+"Lee Mayberry": [
+"90s"
+],
+"Vin Baker": [
+"90s"
+],
+"Jay Humphries": [
+"80s",
+"90s"
+],
+"Sam Cassell": [
+"90s",
+"00s"
+],
+"Kevin Restani": [
+"70s"
+],
+"Brandon Jennings": [
+"00s",
+"10s"
+],
+"Lucius Allen": [
+"70s"
+]
+},
+"answers": [
+[
+"Giannis Antetokounmpo",
+"Antetokounmpo",
+"Giannis"
+],
+[
+"Kareem Abdul-Jabbar",
+"Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor",
+"Jabbar"
+],
+"Ray Allen",
+[
+"Khris Middleton",
+"Middleton"
+],
+[
+"Sidney Moncrief",
+"Moncrief"
+],
+[
+"Bob Dandridge",
+"Dandridge"
+],
+[
+"Jack Sikma",
+"Sikma"
+],
+[
+"Ersan İlyasova",
+"İlyasova"
+],
+[
+"Brook Lopez",
+"Lopez"
+],
+[
+"Pat Connaughton",
+"Connaughton"
+],
+[
+"Bobby Portis",
+"Portis"
+],
+[
+"John Henson",
+"Henson"
+],
+[
+"Junior Bridgeman",
+"Bridgeman"
+],
+[
+"Jon McGlocklin",
+"McGlocklin"
+],
+[
+"Brian Winters",
+"Winters"
+],
+[
+"Paul Pressey",
+"Pressey"
+],
+[
+"Michael Redd",
+"Redd"
+],
+[
+"Glenn Robinson",
+"Robinson"
+],
+"Marques Johnson",
+[
+"Dan Gadzuric",
+"Gadzuric"
+],
+[
+"Terry Cummings",
+"Cummings"
+],
+[
+"Alton Lister",
+"Lister"
+],
+[
+"Quinn Buckner",
+"Buckner"
+],
+"Ervin Johnson",
+[
+"Ricky Pierce",
+"Pierce"
+],
+[
+"Randy Breuer",
+"Breuer"
+],
+[
+"Paul Mokeski",
+"Mokeski"
+],
+[
+"Andrew Bogut",
+"Bogut"
+],
+[
+"Fred Roberts",
+"Roberts"
+],
+[
+"Tim Thomas",
+"Thomas"
+],
+[
+"Harvey Catchings",
+"Catchings"
+],
+[
+"Charlie Bell",
+"Bell"
+],
+[
+"Brad Lohaus",
+"Lohaus"
+],
+[
+"Luc Mbah a Moute",
+"Moute"
+],
+[
+"Lee Mayberry",
+"Mayberry"
+],
+[
+"Vin Baker",
+"Baker"
+],
+[
+"Jay Humphries",
+"Humphries"
+],
+[
+"Sam Cassell",
+"Cassell"
+],
+[
+"Kevin Restani",
+"Restani"
+],
+[
+"Brandon Jennings",
+"Jennings"
+],
+"Lucius Allen"
+],
+"deep": true
+},
+{
+"id": "nba-c-lakers-hall-of-famers",
+"tags": [
+"players",
+"awards"
+],
+"text": "Name a Basketball Hall of Fame member who played for the Lakers (as of November 2026)",
+"answers": [
+[
+"Kobe Bryant",
+"Bryant",
+"Kobe"
+],
+[
+"Kareem Abdul-Jabbar",
+"Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor",
+"Jabbar"
+],
+[
+"Magic Johnson",
+"Johnson",
+"Magic",
+"Earvin Johnson"
+],
+[
+"Shaquille O'Neal",
+"O'Neal",
+"Shaq",
+"Shaquille"
+],
+[
+"Jerry West",
+"West"
+],
+[
+"Wilt Chamberlain",
+"Chamberlain",
+"Wilt",
+"The Big Dipper"
+],
+[
+"Dennis Rodman",
+"Rodman",
+"The Worm"
+],
+[
+"Steve Nash",
+"Nash"
+],
+[
+"Elgin Baylor",
+"Baylor"
+],
+[
+"Pau Gasol",
+"Gasol"
+],
+[
+"Carmelo Anthony",
+"Anthony"
+],
+[
+"Dwight Howard",
+"Howard"
+],
+[
+"James Worthy",
+"Worthy"
+],
+[
+"Michael Cooper",
+"Cooper"
+],
+[
+"Vern Mikkelsen",
+"Mikkelsen"
+],
+[
+"Gail Goodrich",
+"Goodrich"
+],
+[
+"Jamaal Wilkes",
+"Wilkes"
+],
+[
+"Vlade Divac",
+"Divac"
+],
+[
+"Slater Martin",
+"Martin"
+],
+[
+"George Mikan",
+"Mikan"
+],
+[
+"Jim Pollard",
+"Pollard"
+],
+[
+"Bobby Leonard",
+"Leonard"
+],
+[
+"Pat Riley",
+"Riley"
+],
+[
+"Clyde Lovellette",
+"Lovellette"
+],
+[
+"Dick Barnett",
+"Barnett"
+],
+[
+"Bob McAdoo",
+"McAdoo"
+],
+[
+"Lou Hudson",
+"Hudson"
+],
+[
+"Don Nelson",
+"Nelson"
+],
+[
+"Adrian Dantley",
+"Dantley"
+],
+[
+"Connie Hawkins",
+"Hawkins"
+],
+[
+"Gary Payton",
+"Payton",
+"The Glove"
+],
+[
+"Spencer Haywood",
+"Haywood"
+],
+[
+"Zelmo Beaty",
+"Beaty"
+],
+[
+"Mitch Richmond",
+"Richmond"
+],
+[
+"Charlie Scott",
+"Scott"
+],
+[
+"Karl Malone",
+"Malone"
+]
+]
+},
+{
+"id": "nba-c-celtics-hall-of-famers",
+"tags": [
+"players",
+"awards"
+],
+"text": "Name a Basketball Hall of Fame member who played for the Celtics (as of November 2026)",
+"answers": [
+[
+"Larry Bird",
+"Bird"
+],
+[
+"Bill Russell",
+"Russell"
+],
+[
+"Shaquille O'Neal",
+"O'Neal",
+"Shaq",
+"Shaquille"
+],
+[
+"Paul Pierce",
+"Pierce"
+],
+[
+"Robert Parish",
+"Parish"
+],
+[
+"Kevin McHale",
+"McHale"
+],
+[
+"Kevin Garnett",
+"Garnett"
+],
+[
+"John Havlicek",
+"Havlicek"
+],
+[
+"Bob Cousy",
+"Cousy"
+],
+[
+"Ray Allen",
+"Allen"
+],
+[
+"Dave Cowens",
+"Cowens"
+],
+[
+"Satch Sanders",
+"Sanders"
+],
+[
+"Don Nelson",
+"Nelson"
+],
+"Sam Jones",
+[
+"Jo Jo White",
+"White"
+],
+[
+"Bill Sharman",
+"Sharman"
+],
+"K. C. Jones",
+[
+"Tom Heinsohn",
+"Heinsohn"
+],
+[
+"Frank Ramsey",
+"Ramsey"
+],
+[
+"Dennis Johnson",
+"Johnson",
+"DJ"
+],
+[
+"Ed Macauley",
+"Macauley"
+],
+[
+"Nate Archibald",
+"Archibald",
+"Tiny Archibald"
+],
+[
+"Bailey Howell",
+"Howell"
+],
+[
+"Chuck Cooper",
+"Cooper"
+],
+[
+"Dino Rađa",
+"Rađa"
+],
+[
+"Paul Westphal",
+"Westphal"
+],
+[
+"Arnie Risen",
+"Risen"
+],
+[
+"Charlie Scott",
+"Scott"
+],
+[
+"Wayne Embry",
+"Embry"
+],
+[
+"Andy Phillip",
+"Phillip"
+],
+[
+"Don Barksdale",
+"Barksdale"
+],
+[
+"Clyde Lovellette",
+"Lovellette"
+],
+[
+"Bill Walton",
+"Walton"
+],
+[
+"Dave Bing",
+"Bing"
+],
+[
+"Gary Payton",
+"Payton",
+"The Glove"
+],
+[
+"Dominique Wilkins",
+"Wilkins"
+],
+[
+"John Thompson",
+"Thompson"
+],
+[
+"Chauncey Billups",
+"Billups"
+],
+[
+"Carl Braun",
+"Braun"
+],
+[
+"Artis Gilmore",
+"Gilmore"
+],
+[
+"Pete Maravich",
+"Maravich",
+"Pistol Pete"
+],
+[
+"Bob McAdoo",
+"McAdoo"
+],
+[
+"Bob Houbregs",
+"Houbregs"
+]
+]
+},
+{
+"id": "nba-c-knicks-hall-of-famers",
+"tags": [
+"players",
+"awards"
+],
+"text": "Name a Basketball Hall of Fame member who played for the Knicks (as of November 2026)",
+"answers": [
+[
+"Patrick Ewing",
+"Ewing"
+],
+[
+"Carmelo Anthony",
+"Anthony"
+],
+[
+"Walt Frazier",
+"Frazier"
+],
+[
+"Willis Reed",
+"Reed"
+],
+[
+"Jason Kidd",
+"Kidd",
+"J-Kidd"
+],
+[
+"Tracy McGrady",
+"McGrady",
+"T-Mac"
+],
+[
+"Bill Bradley",
+"Bradley"
+],
+[
+"Carl Braun",
+"Braun"
+],
+[
+"Phil Jackson",
+"Jackson"
+],
+[
+"Harry Gallatin",
+"Gallatin"
+],
+[
+"Dick Barnett",
+"Barnett"
+],
+[
+"Earl Monroe",
+"Monroe",
+"Earl the Pearl",
+"The Pearl"
+],
+"Dick McGuire",
+[
+"Richie Guerin",
+"Guerin"
+],
+[
+"Nathaniel Clifton",
+"Clifton"
+],
+[
+"Dave DeBusschere",
+"DeBusschere"
+],
+[
+"Tom Gola",
+"Gola"
+],
+[
+"Walt Bellamy",
+"Bellamy"
+],
+[
+"Amar'e Stoudemire",
+"Stoudemire",
+"Amare",
+"STAT"
+],
+[
+"Jerry Lucas",
+"Lucas"
+],
+[
+"Spencer Haywood",
+"Haywood"
+],
+[
+"Bernard King",
+"King"
+],
+"Al McGuire",
+[
+"Bob McAdoo",
+"McAdoo"
+],
+[
+"Maurice Cheeks",
+"Cheeks"
+],
+[
+"Paul Westphal",
+"Westphal"
+],
+[
+"Dikembe Mutombo",
+"Mutombo"
+],
+[
+"Chauncey Billups",
+"Billups"
+],
+[
+"Slater Martin",
+"Martin"
+],
+[
+"Doc Rivers",
+"Rivers"
+]
+]
+},
+{
+"id": "nba-c-warriors-hall-of-famers",
+"tags": [
+"players",
+"awards"
+],
+"text": "Name a Basketball Hall of Fame member who played for the Warriors (as of November 2026)",
+"answers": [
+[
+"Wilt Chamberlain",
+"Chamberlain",
+"Wilt",
+"The Big Dipper"
+],
+[
+"Robert Parish",
+"Parish"
+],
+[
+"Rick Barry",
+"Barry"
+],
+[
+"Chris Mullin",
+"Mullin"
+],
+[
+"Nate Thurmond",
+"Thurmond"
+],
+[
+"Paul Arizin",
+"Arizin"
+],
+[
+"Al Attles",
+"Attles"
+],
+[
+"Guy Rodgers",
+"Rodgers"
+],
+[
+"Neil Johnston",
+"Johnston"
+],
+[
+"Joe Fulks",
+"Fulks"
+],
+[
+"Tim Hardaway",
+"Hardaway"
+],
+[
+"Tom Gola",
+"Gola"
+],
+[
+"Jamaal Wilkes",
+"Wilkes"
+],
+[
+"Mitch Richmond",
+"Richmond"
+],
+[
+"Šarūnas Marčiulionis",
+"Marčiulionis"
+],
+[
+"Bernard King",
+"King"
+],
+[
+"Andy Phillip",
+"Phillip"
+],
+[
+"Jerry Lucas",
+"Lucas"
+],
+[
+"Jo Jo White",
+"White"
+],
+[
+"Ralph Sampson",
+"Sampson"
+],
+[
+"Chris Webber",
+"Webber",
+"C-Webb"
+]
+]
+},
+{
+"id": "nba-c-spurs-hall-of-famers",
+"tags": [
+"players",
+"awards"
+],
+"text": "Name a Basketball Hall of Fame member who played for the Spurs (as of November 2026)",
+"answers": [
+[
+"Tim Duncan",
+"Duncan"
+],
+[
+"Tony Parker",
+"Parker"
+],
+[
+"David Robinson",
+"Robinson"
+],
+[
+"Manu Ginóbili",
+"Ginóbili",
+"Manu"
+],
+[
+"Dennis Rodman",
+"Rodman",
+"The Worm"
+],
+[
+"George Gervin",
+"Gervin"
+],
+[
+"Artis Gilmore",
+"Gilmore"
+],
+[
+"Louie Dampier",
+"Dampier"
+],
+[
+"Cliff Hagan",
+"Hagan"
+],
+[
+"Dominique Wilkins",
+"Wilkins"
+],
+[
+"Maurice Cheeks",
+"Cheeks"
+],
+[
+"Moses Malone",
+"Malone"
+],
+[
+"Doc Rivers",
+"Rivers"
+]
+]
+},
+{
+"id": "nba-c-pistons-hall-of-famers",
+"tags": [
+"players",
+"awards"
+],
+"text": "Name a Basketball Hall of Fame member who played for the Pistons (as of November 2026)",
+"answers": [
+[
+"Dennis Rodman",
+"Rodman",
+"The Worm"
+],
+[
+"Allen Iverson",
+"Iverson"
+],
+[
+"Isiah Thomas",
+"Thomas"
+],
+[
+"Ben Wallace",
+"Wallace"
+],
+[
+"Tracy McGrady",
+"McGrady",
+"T-Mac"
+],
+[
+"Joe Dumars",
+"Dumars"
+],
+[
+"Bob Lanier",
+"Lanier"
+],
+[
+"Dave Bing",
+"Bing"
+],
+[
+"Chauncey Billups",
+"Billups"
+],
+[
+"Dave DeBusschere",
+"DeBusschere"
+],
+[
+"Grant Hill",
+"Hill"
+],
+[
+"Bailey Howell",
+"Howell"
+],
+[
+"George Yardley",
+"Yardley"
+],
+[
+"Andy Phillip",
+"Phillip"
+],
+[
+"Dick McGuire",
+"McGuire"
+],
+[
+"Adrian Dantley",
+"Dantley"
+],
+[
+"Bob Houbregs",
+"Houbregs"
+],
+[
+"Earl Lloyd",
+"Lloyd"
+],
+[
+"Walt Bellamy",
+"Bellamy"
+],
+[
+"Rod Thorn",
+"Thorn"
+],
+[
+"Harry Gallatin",
+"Gallatin"
+],
+[
+"Nathaniel Clifton",
+"Clifton"
+],
+[
+"Bob McAdoo",
+"McAdoo"
+],
+[
+"Chris Webber",
+"Webber",
+"C-Webb"
+],
+[
+"Chuck Cooper",
+"Cooper"
+],
+[
+"Alex Hannum",
+"Hannum"
+]
+],
+"deep": true
+},
+{
+"id": "nba-c-sixers-hall-of-famers",
+"tags": [
+"players",
+"awards"
+],
+"text": "Name a Basketball Hall of Fame member who played for the 76ers (as of November 2026)",
+"answers": [
+[
+"Allen Iverson",
+"Iverson"
+],
+[
+"Julius Erving",
+"Erving",
+"Dr J",
+"Doctor J"
+],
+[
+"Charles Barkley",
+"Barkley"
+],
+[
+"Wilt Chamberlain",
+"Chamberlain",
+"Wilt",
+"The Big Dipper"
+],
+[
+"Hal Greer",
+"Greer"
+],
+[
+"Dolph Schayes",
+"Schayes"
+],
+[
+"Maurice Cheeks",
+"Cheeks"
+],
+[
+"Billy Cunningham",
+"Cunningham"
+],
+[
+"Bobby Jones",
+"Jones"
+],
+[
+"Chet Walker",
+"Walker"
+],
+[
+"Earl Lloyd",
+"Lloyd"
+],
+[
+"Moses Malone",
+"Malone"
+],
+[
+"George McGinnis",
+"McGinnis"
+],
+[
+"Al Cervi",
+"Cervi"
+],
+[
+"Dick Barnett",
+"Barnett"
+],
+[
+"Alex Hannum",
+"Hannum"
+],
+[
+"Chris Webber",
+"Webber",
+"C-Webb"
+],
+[
+"Dikembe Mutombo",
+"Mutombo"
+],
+[
+"George Yardley",
+"Yardley"
+],
+[
+"Bailey Howell",
+"Howell"
+],
+[
+"Toni Kukoč",
+"Kukoč"
+],
+[
+"Bob McAdoo",
+"McAdoo"
+]
+],
+"deep": true
+},
+{
+"id": "nba-c-rockets-hall-of-famers",
+"tags": [
+"players",
+"awards"
+],
+"text": "Name a Basketball Hall of Fame member who played for the Rockets (as of November 2026)",
+"answers": [
+[
+"Hakeem Olajuwon",
+"Olajuwon",
+"Akeem Olajuwon",
+"Akeem",
+"Hakeem"
+],
+[
+"Scottie Pippen",
+"Pippen"
+],
+[
+"Carmelo Anthony",
+"Anthony"
+],
+[
+"Charles Barkley",
+"Barkley"
+],
+[
+"Tracy McGrady",
+"McGrady",
+"T-Mac"
+],
+[
+"Dwight Howard",
+"Howard"
+],
+[
+"Rick Barry",
+"Barry"
+],
+[
+"Calvin Murphy",
+"Murphy"
+],
+[
+"Elvin Hayes",
+"Hayes"
+],
+[
+"Moses Malone",
+"Malone"
+],
+[
+"Ralph Sampson",
+"Sampson"
+],
+[
+"Dikembe Mutombo",
+"Mutombo"
+],
+[
+"Clyde Drexler",
+"Drexler"
+],
+[
+"Pat Riley",
+"Riley"
+]
+],
+"deep": true
+},
+{
+"id": "nba-c-lakers-retired-numbers",
+"tags": [
+"teams",
+"players"
+],
+"text": "Name a player who has had their number retired by the Los Angeles Lakers (as of November 2026)",
+"answers": [
+[
+"Kobe Bryant",
+"Bryant",
+"Kobe"
+],
+[
+"Kareem Abdul-Jabbar",
+"Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor",
+"Jabbar"
+],
+[
+"Magic Johnson",
+"Johnson",
+"Magic",
+"Earvin Johnson"
+],
+[
+"Shaquille O'Neal",
+"O'Neal",
+"Shaq",
+"Shaquille"
+],
+[
+"Jerry West",
+"West"
+],
+[
+"Wilt Chamberlain",
+"Chamberlain",
+"Wilt",
+"The Big Dipper"
+],
+[
+"Elgin Baylor",
+"Baylor"
+],
+[
+"Pau Gasol",
+"Gasol"
+],
+[
+"James Worthy",
+"Worthy"
+],
+[
+"Michael Cooper",
+"Cooper"
+],
+[
+"Gail Goodrich",
+"Goodrich"
+],
+[
+"Jamaal Wilkes",
+"Wilkes"
+],
+[
+"George Mikan",
+"Mikan"
+]
+]
+},
+{
+"id": "nba-c-celtics-retired-numbers",
+"tags": [
+"teams",
+"players"
+],
+"text": "Name a player who has had their number retired by the Boston Celtics (as of November 2026)",
+"answers": [
+[
+"Larry Bird",
+"Bird"
+],
+[
+"Bill Russell",
+"Russell"
+],
+[
+"Paul Pierce",
+"Pierce"
+],
+[
+"Robert Parish",
+"Parish"
+],
+[
+"Kevin McHale",
+"McHale"
+],
+[
+"Kevin Garnett",
+"Garnett"
+],
+[
+"John Havlicek",
+"Havlicek"
+],
+[
+"Bob Cousy",
+"Cousy"
+],
+[
+"Dave Cowens",
+"Cowens"
+],
+[
+"Satch Sanders",
+"Sanders"
+],
+[
+"Don Nelson",
+"Nelson"
+],
+"Sam Jones",
+[
+"Jo Jo White",
+"White"
+],
+[
+"Bill Sharman",
+"Sharman"
+],
+"K. C. Jones",
+[
+"Tom Heinsohn",
+"Heinsohn"
+],
+[
+"Frank Ramsey",
+"Ramsey"
+],
+[
+"Dennis Johnson",
+"Johnson",
+"DJ"
+],
+[
+"Ed Macauley",
+"Macauley"
+],
+[
+"Cedric Maxwell",
+"Maxwell"
+],
+[
+"Jim Loscutoff",
+"Loscutoff"
+],
+[
+"Reggie Lewis",
+"Lewis"
+]
+]
+},
+{
+"id": "nba-c-lakers-and-celtics",
+"tags": [
+"players",
+"teams"
+],
+"text": "Name a player who has played for both the Los Angeles Lakers and the Boston Celtics (through the 2025-26 season)",
+"answers": [
+[
+"Shaquille O'Neal",
+"O'Neal",
+"Shaq",
+"Shaquille"
+],
+[
+"Rajon Rondo",
+"Rondo"
+],
+[
+"Marcus Smart",
+"Smart"
+],
+[
+"Isaiah Thomas",
+"Thomas"
+],
+[
+"Don Nelson",
+"Nelson"
+],
+[
+"Clyde Lovellette",
+"Lovellette"
+],
+[
+"Bob McAdoo",
+"McAdoo"
+],
+[
+"Charlie Scott",
+"Scott"
+],
+[
+"Gary Payton",
+"Payton",
+"The Glove"
+],
+[
+"Avery Bradley",
+"Bradley"
+],
+[
+"Rick Fox",
+"Fox"
+],
+[
+"Don Chaney",
+"Chaney"
+],
+[
+"Dennis Schröder",
+"Schröder"
+],
+[
+"Sviatoslav Mykhailiuk",
+"Mykhailiuk"
+],
+[
+"Moritz Wagner",
+"Wagner"
+],
+[
+"Mel Counts",
+"Counts"
+],
+[
+"Mike Muscala",
+"Muscala"
+],
+[
+"Hank Finkel",
+"Finkel"
+],
+[
+"Matt Ryan",
+"Ryan"
+],
+[
+"Brian Shaw",
+"Shaw"
+],
+[
+"Brandon Bass",
+"Bass"
+],
+[
+"Joe Kleine",
+"Kleine"
+],
+[
+"Jim Barnes",
+"Barnes"
+],
+[
+"Kermit Washington",
+"Washington"
+],
+[
+"Travis Knight",
+"Knight"
+],
+[
+"Chris Mihm",
+"Mihm"
+],
+[
+"Fred Roberts",
+"Roberts"
+],
+[
+"Derek Strong",
+"Strong"
+],
+[
+"Gene Stump",
+"Stump"
+],
+[
+"Jumaine Jones",
+"Jones"
+],
+[
+"Chucky Atkins",
+"Atkins"
+],
+[
+"Earl Tatum",
+"Tatum"
+],
+[
+"Shammond Williams",
+"Williams"
+],
+[
+"Troy Murphy",
+"Murphy"
+],
+[
+"Von Wafer",
+"Wafer"
+],
+[
+"Frank Brickowski",
+"Brickowski"
+],
+[
+"Ernie DiGregorio",
+"DiGregorio"
+],
+[
+"Mike Bloom",
+"Bloom"
+],
+[
+"MarShon Brooks",
+"Brooks"
+],
+[
+"Theo Ratliff",
+"Ratliff"
+],
+[
+"Vander Blue",
+"Blue"
+]
+]
+}
+]
+}
