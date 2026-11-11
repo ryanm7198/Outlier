@@ -194,14 +194,36 @@ def match(pid, raw):
     return match_detail(pid, raw)[0]
 
 
+HINT_STOP = {"the", "and", "of", "in", "on", "to", "for", "a", "an", "mr", "mrs", "dr"}
+
+
+def singular(w):
+    for suffix, cut in (("ies", 3), ("es", 2), ("s", 1)):
+        if len(w) > cut + 2 and w.endswith(suffix):
+            return w[:-cut] + ("y" if suffix == "ies" else "")
+    return w
+
+
 def near_miss(pid, raw):
     """A looser guess for the "Did you mean ...?" step, only used once the normal match has failed:
-    a few more typos allowed, or a fragment that sits inside exactly one answer ("ronaldinh")."""
+    1. a typed word (or its singular) that is a whole word of an answer: "dogs" -> "Zombie Dog" (the answers
+       are listed likeliest first, so the likeliest one is offered);
+    2. a few more typos than the normal match allows;
+    3. a fragment that sits inside exactly one answer ("ronaldinh")."""
     n = norm(raw)
+    if len(n) < 3:
+        return None
+    words = [w for w in n.split() if w not in HINT_STOP]
+    if words and all(len(w) >= 3 for w in words):
+        want = [{w, singular(w)} for w in words]
+        for name in PROMPTS[pid]["names"]:
+            toks = set(norm(name).split())
+            if all(v & toks for v in want):
+                return name
     if len(n) < 4:
         return None
     table = LOOKUP[pid]
-    cap = 2 if len(n) < 8 else 3
+    cap = 1 if len(n) < 6 else 2 if len(n) < 8 else 3
     best, names = cap + 1, set()
     for key, name in table.items():
         d = lev(n, key, cap)
@@ -259,12 +281,15 @@ def outliers_for(counts):
     return sorted(counts, key=lambda n: (counts[n], n))[:2 if len(counts) >= OUTLIER_PAIR else 1]
 
 
+OUTLIER_POINTS = 150   # the rarest answer is worth a big step up from the 99 below it
+
+
 def points_for(counts, name, stats=None):
-    """Only an Outlier scores 100. Everything else runs from 10 (most common) up to 99.
+    """Only an Outlier scores 150 (OUTLIER_POINTS). Everything else runs from 10 (most common) up to 99.
     stats = (outliers, hi, lo) can be passed in when scoring a whole board at once."""
     top, hi, lo = stats or (outliers_for(counts), max(counts.values()), min(counts.values()))
     if name in top:
-        return 100
+        return OUTLIER_POINTS
     c = counts[name]
     if hi == lo:
         return 55
@@ -1001,7 +1026,7 @@ def challenge_page(path):
     if len(token) % 6 == 0:   # seed (4 characters a prompt) then points (2 characters a prompt, base 36)
         k = len(token) // 6
         pts = token[4 * k:]
-        total = sum(min(100, int(pts[i:i + 2], 36)) for i in range(0, len(pts), 2) if pts[i:i + 2].isalnum())
+        total = sum(min(150, int(pts[i:i + 2], 36)) for i in range(0, len(pts), 2) if pts[i:i + 2].isalnum())
     else:   # older links carried one rarity-tier digit a prompt
         k = len(token) // 5
         total = sum([0, 10, 25, 50, 75, 100][int(c)] for c in token[4 * k:] if c.isdigit() and int(c) < 6)

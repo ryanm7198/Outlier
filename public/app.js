@@ -188,7 +188,7 @@ function buildUp(res) {
     walk();
   };
   if (!res.valid || matchMedia('(prefers-reduced-motion: reduce)').matches) return finish();
-  const duration = 1500 + res.points * 35, start = performance.now();
+  const duration = 1500 + Math.min(res.points, 100) * 35 + Math.max(0, res.points - 100) * 10, start = performance.now();
   let stopped = false;
   skipBuild = () => { stopped = true; finish(); };
   const frame = now => {
@@ -563,7 +563,7 @@ function home() {
       <ol class="steps">
         <li><b>1</b><span>Get a prompt, like <i>Name a Pixar film</i>, and 30 seconds to answer.</span></li>
         <li><b>2</b><span>Any correct answer scores, from 10 for the one everyone says up to 99 for the rarest. The fewer people who say it, the more it is worth.</span></li>
-        <li><b>3</b><span>Find the <b>Outlier</b>, the single rarest answer on the list (two on very long lists), for the full 100.</span></li>
+        <li><b>3</b><span>Find the <b>Outlier</b>, the single rarest answer on the list (two on very long lists), for a big 150.</span></li>
       </ol>
       <p class="fine">Every answer played shifts how common it is. In party games, players who give the same answer share half the points.</p>
     </section>`);
@@ -682,7 +682,7 @@ function dailySummary(run) {
   const squares = saved.results.map(r => SQUARES[tier(r.points)]).join('');
   const label = saved.label || run.day.label;
   show(`<header class="bar"><button class="link" id="back">‹ Back</button><span>${esc(label)} #${saved.number}</span><span></span></header>
-    <div class="total">${saved.total}<small> / ${max} paces</small></div>
+    <div class="total">${saved.total}<small> / ${max * 1.5} paces</small></div>
     <div class="squares">${squares}</div>
     <div class="card">${trailHTML([{ name: 'You', from: 0, to: saved.total, me: true }], max)}
       <p class="zone">You ended up: ${zoneName(saved.total, max)}</p></div>
@@ -695,7 +695,7 @@ function dailySummary(run) {
     <p class="muted center">New prompts tomorrow.</p>`);
   $('#back').onclick = soloMenu;
   $('#free').onclick = () => startGame();
-  $('#share').onclick = () => shareText(`Outlier · ${label} #${saved.number}\n${saved.total}/${max} paces from the crowd\n${squares}`);
+  $('#share').onclick = () => shareText(`Outlier · ${label} #${saved.number}\n${saved.total}/${max * 1.5} paces from the crowd\n${squares}`);
 }
 
 // ------------------------------------------------------------ seven-prompt games
@@ -753,7 +753,7 @@ function gameQuestion(run) {
 // A challenge link: /c/<name>/<seed><two base-36 characters of points per prompt>
 function challengeLink(run, name) {
   const who = encodeURIComponent(name.replace(/\s+/g, '_'));
-  return `${location.origin}/c/${who}/${run.game.seed}${run.results.map(r => Math.min(100, r.points).toString(36).padStart(2, '0')).join('')}`;
+  return `${location.origin}/c/${who}/${run.game.seed}${run.results.map(r => Math.min(150, r.points).toString(36).padStart(2, '0')).join('')}`;
 }
 
 function readChallenge(path) {
@@ -761,7 +761,7 @@ function readChallenge(path) {
   const name = decodeURIComponent(who).replace(/_/g, ' ');
   if (token.length && token.length % 6 === 0) {   // seed (4 characters a prompt) then points (2 a prompt)
     const k = token.length / 6, pts = token.slice(4 * k);
-    return { seed: token.slice(0, 4 * k), from: name, pts: pts.match(/../g).map(x => Math.min(100, parseInt(x, 36) || 0)).join('.') };
+    return { seed: token.slice(0, 4 * k), from: name, pts: pts.match(/../g).map(x => Math.min(150, parseInt(x, 36) || 0)).join('.') };
   }
   const k = Math.floor(token.length / 5);   // older links: one rarity-tier digit a prompt
   if (!k) return null;
@@ -778,7 +778,7 @@ function gameSummary(run) {
   const lanes = [{ name: 'You', from: 0, to: total, me: true }];
   if (rival) lanes.push({ name: rival.name, from: 0, to: theirs });
   show(`<header class="bar"><button class="link" id="back">‹ Back</button><span>${esc(game.label)}</span><span></span></header>
-    <div class="total">${total}<small> / ${max} paces</small></div>
+    <div class="total">${total}<small> / ${max * 1.5} paces</small></div>
     ${rival ? `<p class="center verdict">${verdict}</p>` : ''}
     <div class="squares">${squares}</div>
     <div class="card">${trailHTML(lanes, max)}
@@ -804,7 +804,7 @@ function gameSummary(run) {
 // A challenge link: ?play=<seed>&from=<name>&pts=12.40.100...
 function challengeIntro(seed, from, pts) {
   stopTimer();
-  const points = (pts || '').split('.').map(n => Math.max(0, Math.min(100, parseInt(n, 10) || 0)));
+  const points = (pts || '').split('.').map(n => Math.max(0, Math.min(150, parseInt(n, 10) || 0)));
   const rival = from ? { name: from.slice(0, 16), points } : null;
   const total = rival ? points.reduce((a, b) => a + b, 0) : 0;
   show(`<div class="hero">
@@ -1060,7 +1060,7 @@ function raceUp() {
   if (!rows.length) return;
   const mark = (r, v, done) => {
     r.num.textContent = v;
-    r.bar.style.width = Math.min(100, v) + '%';
+    r.bar.style.width = Math.min(100, v / 1.5) + '%';   // full bar = an Outlier's 150
     const t = done && r.out ? 5 : tier(v);
     if (t !== r.t) {   // crossed a milestone: new colour, new label, and a pulse
       r.t = t;
@@ -1075,7 +1075,7 @@ function raceUp() {
   };
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return finish();
   const start = performance.now();
-  const dur = r => 500 + r.to * 24;   // 100 points takes about 3 seconds
+  const dur = r => 500 + Math.min(r.to, 100) * 24 + Math.max(0, r.to - 100) * 12;   // 100 points takes about 3 seconds; an Outlier a little longer
   let stopped = false;
   raceSkip = () => { stopped = true; finish(); };
   const frame = now => {
