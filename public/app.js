@@ -157,7 +157,7 @@ function resultHTML(res) {
 
 // Suspense: the score climbs continuously, slowing as it nears its final value, while the lit crowd
 // thins out to the people who gave the same answer. Everything marked .wait appears once it stops.
-let skipBuild = null;
+let skipBuild = null, raceSkip = null;
 function buildUp(res) {
   const lit = res.valid ? Math.max(1, Math.round(res.share)) : 0;
   const pts = $('#pts'), tierEl = $('#tier'), box = $('#result');
@@ -196,7 +196,7 @@ function buildUp(res) {
   };
   requestAnimationFrame(frame);
 }
-app.addEventListener('click', () => skipBuild && skipBuild());   // tap to skip the build-up
+app.addEventListener('click', () => { if (skipBuild) skipBuild(); if (raceSkip) raceSkip(); });   // tap to skip the build-up
 
 function outlierHTML(list, mine) {
   if (list.some(o => o.name === mine)) return '<p class="muted center">You found the Outlier.</p>';
@@ -1006,11 +1006,8 @@ function partyReveal(s, host) {
   show(`${partyBar(s, `Round ${s.round}/${s.rounds} · ${esc(s.label)}`)}
     <p class="muted center">${esc(r.prompt)}</p>
     ${mine ? resultHTML(mine) : ''}
+    ${raceHTML(s, r)}
     <div class="after${mine ? ' wait' : ''}">
-    <ul class="rows card">${r.results.map(x => `<li class="${x.n === s.you ? 'me' : ''}">
-      <span class="main"><b>${esc(x.name)}</b><small>${x.valid ? `${esc(x.canonical)} · ${x.share}% said it`
-        : x.given ? `<span class="strike">${esc(x.given)}</span> · not on the list` : 'No answer'}</small></span>
-      ${x.outlier ? '<span class="tag">Outlier</span>' : ''}${x.shared ? '<span class="tag">Shared ½</span>' : ''}${x.doubled ? '<span class="tag dbl">×2</span>' : ''}<span class="num">+${x.points}</span></li>`).join('')}</ul>
     ${crowdChart(r)}
     <div class="card">${trailHTML(lanes(s).map(p => {
       const got = r.results.find(x => x.n === p.n);
@@ -1022,7 +1019,62 @@ function partyReveal(s, host) {
       : `<p class="muted center">Waiting for the host to continue.</p>`}
     </div>`);
   if (mine) buildUp(mine);
+  raceUp();
   if (host) $('#next').onclick = () => partyPost('/api/room/next');
+}
+
+// ---- the score race: every player's round score climbs from 0 together. Higher scores take longer,
+// so the best answer lands last, and each number pulses and takes the colour of the rarity it just reached.
+function raceHTML(s, r) {
+  return `<ul class="race card">${r.results.map(x => `<li class="racer${x.n === s.you ? ' me' : ''}" data-pts="${x.points}" data-out="${x.outlier ? 1 : 0}" data-t="0">
+    <span class="av">${esc((x.name || '?').trim().charAt(0).toUpperCase())}</span>
+    <span class="rmain"><b>${esc(x.name)}</b>
+      <small class="rsub">${x.valid ? `${esc(x.canonical)} · ${x.share}% said it`
+        : x.given ? `<span class="strike">${esc(x.given)}</span> · not on the list` : 'No answer'}</small>
+      <span class="rbar"><i></i></span></span>
+    <span class="rside"><span class="rnum">0</span><span class="rlabel">&nbsp;</span></span>
+    <span class="rtags">${x.outlier ? '<span class="tag">Outlier</span>' : ''}${x.shared ? '<span class="tag">Shared ½</span>' : ''}${x.doubled ? '<span class="tag dbl">×2</span>' : ''}</span>
+  </li>`).join('')}</ul>`;
+}
+
+function raceUp() {
+  const rows = [...app.querySelectorAll('.racer')].map(el => ({
+    el, to: +el.dataset.pts, out: el.dataset.out === '1', t: 0,
+    num: $('.rnum', el), label: $('.rlabel', el), bar: $('.rbar i', el),
+  }));
+  if (!rows.length) return;
+  const mark = (r, v, done) => {
+    r.num.textContent = v;
+    r.bar.style.width = Math.min(100, v) + '%';
+    const t = done && r.out ? 5 : tier(v);
+    if (t !== r.t) {   // crossed a milestone: new colour, new label, and a pulse
+      r.t = t;
+      r.el.dataset.t = t;
+      r.label.textContent = t ? TIERS[t] : ' ';
+      r.el.classList.remove('pulse'); void r.el.offsetWidth; r.el.classList.add('pulse');
+    }
+  };
+  const finish = () => {
+    raceSkip = null;
+    rows.forEach(r => { mark(r, r.to, true); r.el.classList.add('done'); });
+  };
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return finish();
+  const start = performance.now();
+  const dur = r => 500 + r.to * 24;   // 100 points takes about 3 seconds
+  let stopped = false;
+  raceSkip = () => { stopped = true; finish(); };
+  const frame = now => {
+    if (stopped || !rows[0].el.isConnected) return;
+    let live = false;
+    rows.forEach(r => {
+      if (r.el.classList.contains('done')) return;
+      const k = Math.min(1, (now - start) / dur(r));
+      mark(r, Math.round(r.to * (1 - Math.pow(1 - k, 1.7))), false);
+      if (k >= 1) { mark(r, r.to, true); r.el.classList.add('done'); } else live = true;
+    });
+    if (live) requestAnimationFrame(frame); else raceSkip = null;
+  };
+  requestAnimationFrame(frame);
 }
 
 function partyFinal(s, host) {
