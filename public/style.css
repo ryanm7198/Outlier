@@ -455,3 +455,10 @@ h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
 .rank { width: 1.4em; color: var(--muted); }
 .track .mark[style*="--pc"] { background: var(--pc); color: #14152b; }
 .lane.me .mark[style*="--pc"] { box-shadow: 0 0 0 3px var(--card), 0 0 0 5px var(--pc); }
+
+/* Everything: a full-width box on its own row, above the category tiles */
+.tile.wide { grid-column: 1 / -1; padding: 14px 16px; }
+.picker > .tile.wide { width: 100%; }
+.tile.wide .tile-ic { width: 44px; height: 44px; border-radius: 12px; }
+.tile.wide .tile-l { font-size: 1.05rem; }
+.picker > .sec-h { margin-top: 6px; }

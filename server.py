@@ -30,7 +30,7 @@ PUBLIC = os.path.join(ROOT, "public")
 DB_PATH = os.environ.get("OUTLIER_DB") or os.path.join(ROOT, "data", "outlier.db")
 PORT = int(os.environ.get("PORT", "8321"))
 
-DAILY_N = 5            # prompts in a daily game
+DAILY_N = 7            # prompts in a daily game
 GAME_N = 7             # prompts in a free-play game
 ERAS = {"60s": "1960s", "70s": "1970s", "80s": "1980s", "90s": "1990s", "00s": "2000s", "10s": "2010s", "20s": "2020s"}
 ERA_MIN = 10           # a decade gets its own version of a broad question once it has this many answers

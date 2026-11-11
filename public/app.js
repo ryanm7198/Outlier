@@ -366,7 +366,7 @@ function upgradePick(p) {
   return { sels };
 }
 
-// The category a Daily five uses: the one picked category, or Everything for a mix.
+// The category a Daily seven uses: the one picked category, or Everything for a mix.
 function dailyCat(p) {
   const cats = [...new Set(selsOf(p).map(([cat]) => catOf(cat).parent || cat))];
   return cats.length === 1 ? cats[0] : 'all';
@@ -497,20 +497,23 @@ function parentSheet(cat, done) {
   });
 }
 
-function mountPicker(el, onChange) {
+function mountPicker(el, onChange, heading = 'Choose a category') {
   const sel = id => id in pick.sels || kidsOf(catOf(id)).some(k => k.id in pick.sels);
-  const tile = x => {
+  const tile = (x, wide) => {
     const on = x.id === 'all' ? !selsOf(pick).length : sel(x.id);
     const own = pick.sels[x.id];
     const sub = x.id !== 'all' && on ? (own && !own.length && !kidsOf(x).some(k => k.id in pick.sels) ? 'All of it' : 'Custom') : `${x.count} prompts`;
-    return `<button class="tile${on ? ' on' : ''}" data-cat="${x.id}" aria-pressed="${on}">
-      <span class="tile-ic">${on && x.id !== 'all' ? ic('check') : ic(CAT_ICON[x.id] || 'sparkles')}</span><span class="tile-l">${esc(x.label)}</span><span class="tile-n">${sub}</span></button>`;
+    return `<button class="tile${wide ? ' wide' : ''}${on ? ' on' : ''}" data-cat="${x.id}" aria-pressed="${on}">
+      <span class="tile-ic">${on && x.id !== 'all' ? ic('check') : ic(CAT_ICON[x.id] || 'sparkles')}</span><span class="tile-l">${esc(x.label)}</span><span class="tile-n">${wide ? `${x.count} prompts · a mix from every category` : sub}</span></button>`;
   };
   const save = () => { store.set('outlier.pick', pick); draw(); onChange && onChange(); };
   const draw = () => {
     const sels = selsOf(pick), n = poolCount(pick);
+    const everything = CATS.find(x => x.id === 'all');
     el.innerHTML = `<div class="picker">
-      <div class="tiles">${CATS.filter(x => !x.parent).map(tile).join('')}</div>
+      ${tile(everything, true)}
+      <h2 class="sec-h">${esc(heading)}</h2>
+      <div class="tiles">${CATS.filter(x => !x.parent && x.id !== 'all').map(x => tile(x)).join('')}</div>
       <div class="mix">
         <div class="narrow-h"><h3>Your mix</h3><span class="count">${n} prompt${n === 1 ? '' : 's'}</span></div>
         ${sels.length ? `<div class="chips">${sels.map(([cat, tags]) =>
@@ -554,7 +557,7 @@ function home() {
       ${crowdHTML(3)}
     </div>
     <div class="modes">
-      ${mode('solo', 'user', 'Play solo', 'Daily five, or a quick game to challenge a friend', true)}
+      ${mode('solo', 'user', 'Play solo', 'Daily seven, or a quick game to challenge a friend', true)}
       ${mode('party', 'users', 'Party game', 'Everyone plays together on their own phone')}
     </div>
     ${streak.n > 1 ? `<div class="streak">${ic('flame')}<span><b>${streak.n}-day</b> daily streak</span></div>` : ''}
@@ -579,7 +582,7 @@ function soloMenu() {
   show(`${topbar('Play solo')}
     ${recent.length ? `<section class="sec"><h2 class="sec-h">Jump back in</h2><div class="recent">${recent.map((r, i) =>
       `<button class="recentbtn" data-i="${i}">${ic(CAT_ICON[selsOf(r).length === 1 ? (catOf(selsOf(r)[0][0]).parent || selsOf(r)[0][0]) : 'all'] || 'sparkles')}<span>${esc(pickLabel(r))}</span></button>`).join('')}</div></section>` : ''}
-    <section class="sec"><h2 class="sec-h">Choose a category</h2><div id="picker"></div></section>
+    <section class="sec"><div id="picker"></div></section>
     <details class="seedbox"><summary>${ic('link')}<span>Got a challenge link or seed from a friend?</span>${ic('right', 'chev')}</summary>
       <div class="row"><input type="text" id="seedIn" placeholder="Paste the link or seed" autocomplete="off"><button class="btn" id="seedGo">Play</button></div>
     </details>
@@ -593,7 +596,7 @@ function soloMenu() {
     const done = saved && saved.date === today && saved.done;
     const n = poolCount(pick);   // the categories themselves are listed in Your mix, so keep this line short
     $('#free').innerHTML = `${ic('play')}<span><b>Quick game</b><small>${selsOf(pick).length ? 'Custom' : 'Everything'} · ${n} prompt${n === 1 ? '' : 's'}</small></span>`;
-    $('#daily').innerHTML = `${ic('calendar')}<span><b>Daily five · ${esc(c.label)}</b><small>${done ? `Played today: ${saved.total} paces. Tap to view.` : 'Same five prompts for everyone today'}</small></span>`;
+    $('#daily').innerHTML = `${ic('calendar')}<span><b>Daily seven · ${esc(c.label)}</b><small>${done ? `Played today: ${saved.total} paces. Tap to view.` : 'Same seven prompts for everyone today'}</small></span>`;
     $('#free').disabled = !poolCount(pick);
   };
   mountPicker($('#picker'), refresh);
@@ -938,7 +941,7 @@ function partyLobby(s, host) {
     </section>
     <section class="card"><h3>Players <small>${s.players.length}</small></h3><ul class="rows players" id="players"></ul></section>
     <section class="card"><h3>Your colour</h3><div class="swatches" id="colors"></div></section>
-    ${host ? `<section class="sec"><h2 class="sec-h">Category</h2><div id="picker"></div></section>
+    ${host ? `<section class="sec"><div id="picker"></div></section>
       <section class="card settings">
         <div class="setting"><span>Rounds</span>${seg('rounds', [3, 5, 7, 10], party.rounds, '')}</div>
         <div class="setting"><span>Time to answer</span>${seg('secs', [15, 30, 45, 60], party.secs, 's')}</div>
