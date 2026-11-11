@@ -408,13 +408,15 @@ function categorySheet(cat, current, done) {
   const c = catOf(cat);
   const groups = c.filters.map(g => {
     const chosen = g.tags.filter(t => (current || []).includes(t.id)).map(t => t.id);
+    // A new pick starts empty; an existing one shows what it covers (all of a group when none of it was narrowed).
+    if (!current) return new Set();
     return new Set(chosen.length ? chosen : g.tags.filter(t => t.count).map(t => t.id));
   });
   const full = k => c.filters[k].tags.filter(t => t.count).every(t => groups[k].has(t.id));
   const allOn = () => groups.every((_, k) => full(k));
   // A group with nothing ticked means any of it, so just Premier League is Premier League in every era.
   const tags = () => groups.flatMap((g, k) => full(k) || !g.size ? [] : [...g]);
-  const ok = () => true;
+  const ok = () => groups.some(g => g.size);   // something ticked, or Select all
   openSheet(c.label, () => {
     const n = ok() ? countOne({ cat, tags: tags() }) : 0;
     return `<button class="selall${allOn() ? ' on' : ''}" data-all><span class="box">${allOn() ? ic('check') : ''}</span><span><b>Select all</b><small>Everything in ${esc(c.label)}</small></span></button>
@@ -422,7 +424,7 @@ function categorySheet(cat, current, done) {
         chipHTML(groups[k].has(t.id), `data-k="${k}" data-t="${t.id}"`, t.label, !t.count)).join('')}</div></div>`).join('')}
       <div class="sheet-f">
         ${current ? '<button class="btn" data-remove>Remove</button>' : ''}
-        <button class="btn primary" data-ok ${ok() ? '' : 'disabled'}>${ok() ? `Confirm · ${n} prompts` : 'Pick at least one in each'}</button>
+        <button class="btn primary" data-ok ${ok() ? '' : 'disabled'}>${ok() ? `Confirm · ${n} prompts` : 'Tick some, or Select all'}</button>
       </div>`;
   }, (e, s) => {
     const b = e.target.closest('button');
@@ -450,7 +452,6 @@ function parentSheet(cat, done) {
     (pick.sels[cat] || []).forEach(t => ticked.add(t));
     kids.forEach(k => { if (k.id in pick.sels) { ticked.add(k.id); kidTags[k.id] = pick.sels[k.id]; } });
   }
-  if (!had) live.forEach(id => ticked.add(id));
   const allOn = () => live.every(id => ticked.has(id)) && kids.every(k => !(kidTags[k.id] || []).length);
   const result = () => {
     if (allOn()) return { [cat]: [] };
@@ -472,7 +473,7 @@ function parentSheet(cat, done) {
       <p class="fine">${ic('right')}<span>Tap ${kids.map(k => esc(k.label)).join(' or ')} to choose its eras and competitions.</span></p>
       <div class="sheet-f">
         ${had ? '<button class="btn" data-remove>Remove</button>' : ''}
-        <button class="btn primary" data-ok ${ticked.size ? '' : 'disabled'}>${ticked.size ? `Confirm · ${n} prompts` : 'Pick at least one'}</button>
+        <button class="btn primary" data-ok ${ticked.size ? '' : 'disabled'}>${ticked.size ? `Confirm · ${n} prompts` : 'Tick some, or Select all'}</button>
       </div>`;
   }, (e, s) => {
     const b = e.target.closest('button');
