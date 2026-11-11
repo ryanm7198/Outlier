@@ -26,7 +26,8 @@ from urllib.parse import parse_qs, urlparse
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 PUBLIC = os.path.join(ROOT, "public")
-DB_PATH = os.path.join(ROOT, "data", "outlier.db")
+# Where the crowd's answer counts live. On a host with a persistent disk, set OUTLIER_DB to a file on that disk.
+DB_PATH = os.environ.get("OUTLIER_DB") or os.path.join(ROOT, "data", "outlier.db")
 PORT = int(os.environ.get("PORT", "8321"))
 
 DAILY_N = 5            # prompts in a daily game
