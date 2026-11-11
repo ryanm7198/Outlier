@@ -1,0 +1,3088 @@
+{
+"cat": "sport",
+"prompts": [
+{
+"id": "dtm-matchplay-winners",
+"tags": [
+"darts"
+],
+"text": "Name a player who has won the World Matchplay",
+"answers": [
+[
+"Phil Taylor",
+"The Power",
+"Taylor"
+],
+[
+"Michael van Gerwen",
+"van Gerwen",
+"Gerwen",
+"MVG",
+"Mighty Mike"
+],
+[
+"Luke Littler",
+"Littler",
+"The Nuke",
+"Luke the Nuke"
+],
+[
+"Gary Anderson",
+"The Flying Scotsman",
+"Anderson"
+],
+[
+"Luke Humphries",
+"Humphries",
+"Cool Hand Luke"
+],
+[
+"Peter Wright",
+"Wright",
+"Snakebite"
+],
+[
+"Rob Cross",
+"Cross",
+"Voltage"
+],
+[
+"James Wade",
+"Wade",
+"The Machine"
+],
+[
+"Nathan Aspinall",
+"Aspinall",
+"The Asp"
+],
+[
+"Dimitri Van den Bergh",
+"Van den Bergh",
+"Bergh",
+"The DreamMaker",
+"DVDB"
+],
+[
+"Colin Lloyd",
+"Lloyd",
+"Jaws"
+],
+[
+"Rod Harrington",
+"The Prince of Style",
+"Harrington"
+],
+[
+"Peter Evison",
+"Evison"
+],
+[
+"Larry Butler",
+"Butler"
+]
+]
+},
+{
+"id": "dtm-grand-prix-winners",
+"tags": [
+"darts"
+],
+"text": "Name a player who has won the World Grand Prix",
+"answers": [
+[
+"Phil Taylor",
+"The Power",
+"Taylor"
+],
+[
+"Michael van Gerwen",
+"van Gerwen",
+"Gerwen",
+"MVG",
+"Mighty Mike"
+],
+[
+"Luke Littler",
+"Littler",
+"The Nuke",
+"Luke the Nuke"
+],
+[
+"Luke Humphries",
+"Humphries",
+"Cool Hand Luke"
+],
+[
+"Gerwyn Price",
+"Price",
+"The Iceman"
+],
+[
+"James Wade",
+"Wade",
+"The Machine"
+],
+[
+"Daryl Gurney",
+"Gurney",
+"Superchin"
+],
+[
+"Jonny Clayton",
+"Clayton",
+"The Ferret"
+],
+[
+"Colin Lloyd",
+"Lloyd",
+"Jaws"
+],
+[
+"Mike De Decker",
+"De Decker",
+"Decker",
+"The Real Deal"
+],
+[
+"Robert Thornton",
+"Thornton",
+"The Thorn"
+],
+[
+"Alan Warriner",
+"Warriner",
+"Alan Warriner-Little"
+]
+]
+},
+{
+"id": "dtm-euro-masters-pl-winners",
+"tags": [
+"darts"
+],
+"text": "Name a player who has won the European Championship, the Masters or the Premier League",
+"deep": true,
+"answers": [
+[
+"Phil Taylor",
+"The Power",
+"Taylor"
+],
+[
+"Michael van Gerwen",
+"van Gerwen",
+"Gerwen",
+"MVG",
+"Mighty Mike"
+],
+[
+"Luke Littler",
+"Littler",
+"The Nuke",
+"Luke the Nuke"
+],
+[
+"Gary Anderson",
+"The Flying Scotsman",
+"Anderson"
+],
+[
+"Luke Humphries",
+"Humphries",
+"Cool Hand Luke"
+],
+[
+"Raymond van Barneveld",
+"van Barneveld",
+"Barneveld",
+"Barney",
+"RvB"
+],
+[
+"Peter Wright",
+"Wright",
+"Snakebite"
+],
+[
+"Rob Cross",
+"Cross",
+"Voltage"
+],
+[
+"James Wade",
+"Wade",
+"The Machine"
+],
+[
+"Adrian Lewis",
+"Jackpot",
+"Lewis"
+],
+[
+"Jonny Clayton",
+"Clayton",
+"The Ferret"
+],
+[
+"Simon Whitlock",
+"Whitlock",
+"The Wizard"
+],
+[
+"Gian van Veen",
+"van Veen",
+"Veen",
+"The Giant"
+],
+[
+"Joe Cullen",
+"Cullen",
+"The Rockstar"
+],
+[
+"Chris Dobey",
+"Dobey",
+"Hollywood"
+],
+[
+"Stephen Bunting",
+"Bunting",
+"The Bullet"
+],
+[
+"Glen Durrant",
+"Durrant",
+"Duzza"
+],
+[
+"Ross Smith",
+"Smudger",
+"Smith"
+],
+[
+"Ritchie Edhouse",
+"Edhouse"
+]
+]
+},
+{
+"id": "dtm-worlds-english",
+"tags": [
+"darts"
+],
+"text": "Name an English player who has competed at the PDC World Championship",
+"answers": [
+[
+"Phil Taylor",
+"The Power"
+],
+[
+"Luke Littler",
+"Littler",
+"The Nuke",
+"Luke the Nuke"
+],
+[
+"Luke Humphries",
+"Humphries",
+"Cool Hand Luke"
+],
+[
+"Rob Cross",
+"Cross",
+"Voltage"
+],
+[
+"James Wade",
+"Wade",
+"The Machine"
+],
+[
+"Michael Smith",
+"Bully Boy"
+],
+[
+"Adrian Lewis",
+"Jackpot",
+"Lewis"
+],
+[
+"Nathan Aspinall",
+"Aspinall",
+"The Asp"
+],
+[
+"Joe Cullen",
+"Cullen",
+"The Rockstar"
+],
+[
+"Chris Dobey",
+"Dobey",
+"Hollywood"
+],
+[
+"Stephen Bunting",
+"Bunting",
+"The Bullet"
+],
+[
+"Glen Durrant",
+"Durrant",
+"Duzza"
+],
+[
+"Dennis Priestley",
+"Priestley",
+"The Menace"
+],
+[
+"Colin Lloyd",
+"Lloyd",
+"Jaws"
+],
+[
+"Andrew Gilding",
+"Gilding"
+],
+[
+"Ross Smith",
+"Smudger"
+],
+[
+"Ritchie Edhouse",
+"Edhouse"
+],
+[
+"Scott Waites",
+"Waites",
+"Scotty 2 Hotty"
+],
+[
+"Kevin Painter",
+"Painter",
+"The Artist"
+],
+[
+"Peter Manley",
+"Manley",
+"One Dart"
+],
+[
+"Rod Harrington",
+"The Prince of Style",
+"Harrington"
+],
+[
+"Peter Evison",
+"Evison"
+],
+[
+"Fallon Sherrock",
+"Sherrock",
+"Queen of the Palace"
+],
+[
+"Eric Bristow",
+"Bristow",
+"The Crafty Cockney"
+],
+[
+"John Lowe",
+"Old Stoneface"
+],
+[
+"Dave Chisnall",
+"Chisnall",
+"Chizzy"
+],
+[
+"Wayne Mardle",
+"Mardle",
+"Hawaii 501"
+],
+[
+"Mervyn King",
+"King"
+],
+[
+"Beau Greaves",
+"Greaves"
+],
+[
+"Lisa Ashton",
+"Ashton",
+"The Lancashire Rose"
+],
+[
+"Bob Anderson",
+"The Limestone Cowboy",
+"Anderson"
+],
+[
+"Keith Deller",
+"Deller"
+],
+[
+"Ryan Searle",
+"Searle",
+"Heavy Metal"
+],
+[
+"Ricky Evans",
+"Rapid Ricky"
+],
+[
+"Terry Jenkins",
+"The Bull"
+],
+[
+"Steve Beaton",
+"Beaton",
+"The Bronzed Adonis",
+"The Adonis"
+],
+[
+"Andy Hamilton",
+"Hamilton",
+"The Hammer"
+],
+[
+"Scott Mitchell",
+"Mitchell"
+],
+[
+"Deta Hedman",
+"The Dark Destroyer"
+],
+[
+"Callan Rydz",
+"Rydz",
+"Riot"
+],
+[
+"Luke Woodhouse",
+"Woodhouse"
+],
+[
+"Ronnie Baxter",
+"Baxter",
+"The Rocket"
+],
+[
+"Alan Warriner-Little",
+"Warriner-Little",
+"Warriner",
+"Alan Warriner"
+],
+[
+"Cliff Lazarenko",
+"Lazarenko",
+"Big Cliff"
+],
+[
+"Keegan Brown",
+"Brown"
+],
+[
+"Ian White",
+"White",
+"Diamond"
+],
+[
+"Wes Newton",
+"The Warrior"
+],
+[
+"Colin Osborne",
+"Osborne",
+"The Wolf"
+],
+"Dom Taylor",
+[
+"Steve West",
+"West"
+],
+[
+"Mark McGeeney",
+"McGeeney"
+],
+[
+"Mark Dudbridge",
+"Dudbridge"
+],
+"Dennis Smith",
+"Wayne Jones",
+[
+"Kirk Shepherd",
+"Shepherd"
+],
+"Andy Jenkins",
+[
+"Shayne Burgess",
+"Burgess"
+],
+[
+"Darren Webster",
+"Webster"
+],
+"Scott Williams",
+[
+"Dave Askew",
+"Askew"
+],
+[
+"Ryan Joyce",
+"Joyce"
+],
+[
+"Denis Ovens",
+"Ovens"
+],
+[
+"Alan Tabern",
+"Tabern"
+],
+[
+"Chris Mason",
+"Mason"
+],
+[
+"Alan Norris",
+"Norris"
+],
+[
+"Mark Walsh",
+"Walsh"
+],
+"Andy Smith",
+[
+"Justin Pipe",
+"Pipe"
+],
+[
+"Alex Roy",
+"Roy"
+],
+[
+"Jamie Caven",
+"Caven"
+],
+[
+"Ryan Meikle",
+"Meikle"
+],
+[
+"Justin Hood",
+"Hood"
+],
+[
+"Tony Eccles",
+"Eccles"
+],
+[
+"Kevin Spiolek",
+"Spiolek"
+],
+[
+"James Richardson",
+"Richardson"
+],
+[
+"Graeme Stoddart",
+"Stoddart"
+],
+[
+"James Hurrell",
+"Hurrell"
+],
+[
+"Jamie Hughes",
+"Hughes"
+],
+[
+"Matt Clark",
+"Clark"
+],
+"Colin Monk",
+[
+"James Wilson",
+"Wilson"
+],
+[
+"Andy Boulton",
+"Boulton"
+],
+[
+"Adam Hunt",
+"Hunt"
+],
+[
+"Martin Lukeman",
+"Lukeman"
+],
+[
+"Connor Scutt",
+"Scutt"
+],
+[
+"Kevin McDine",
+"McDine"
+],
+[
+"Steve Maish",
+"Maish"
+],
+"Jason Lowe",
+[
+"Ted Evetts",
+"Evetts"
+],
+[
+"Dave Whitcombe",
+"Whitcombe"
+],
+[
+"Joe Murnan",
+"Murnan"
+],
+[
+"Josh Payne",
+"Payne"
+],
+[
+"Charlie Manby",
+"Manby"
+],
+[
+"Dean Winstanley",
+"Winstanley"
+],
+[
+"Mick Manning",
+"Manning"
+],
+[
+"Steve Raw",
+"Raw"
+],
+[
+"John Ferrell",
+"Ferrell"
+],
+[
+"Matthew Edgar",
+"Edgar"
+],
+[
+"Gary Welding",
+"Welding"
+],
+[
+"Simon Whatley",
+"Whatley"
+],
+"Paul Williams",
+[
+"Ritchie Gardner",
+"Gardner",
+"Richie Gardner"
+],
+"Arron Monk",
+[
+"Bradley Brooks",
+"Brooks"
+],
+[
+"Stephen Burton",
+"Burton"
+],
+[
+"Chas Barstow",
+"Barstow"
+],
+"Harry Ward",
+[
+"Jason Heaver",
+"Heaver"
+],
+"Lee Evans",
+"Robbie Green",
+"David Evans",
+[
+"Nick Fullwell",
+"Fullwell"
+],
+[
+"Owen Bates",
+"Bates"
+],
+[
+"Peter Hudson",
+"Hudson"
+],
+[
+"Steve Farmer",
+"Farmer"
+],
+[
+"Adam Lipscombe",
+"Lipscombe"
+],
+[
+"Bhav Patel",
+"Patel"
+],
+[
+"Cam Crabtree",
+"Crabtree"
+],
+[
+"Gemma Hayter",
+"Hayter"
+],
+[
+"Les Fitton",
+"Fitton"
+],
+[
+"Matthew Dennant",
+"Dennant"
+],
+[
+"Tavis Dudeney",
+"Dudeney"
+],
+[
+"Mark Holden",
+"Holden"
+],
+[
+"Steve Hine",
+"Hine"
+],
+"Harry Robinson",
+[
+"John Bowles",
+"Bowles"
+],
+[
+"Mark Hylton",
+"Hylton"
+],
+[
+"Scott Rand",
+"Rand"
+],
+[
+"Lionel Sams",
+"Sams"
+],
+[
+"Reg Harding",
+"Harding"
+],
+[
+"Stuart Kellett",
+"Kellett"
+],
+[
+"David Pallett",
+"Pallett"
+],
+[
+"Michael Barnard",
+"Barnard"
+],
+[
+"Richard North",
+"North"
+],
+[
+"Robbie Widdows",
+"Widdows"
+],
+[
+"Nigel Heydon",
+"Heydon"
+],
+[
+"Kevin Simm",
+"Simm"
+],
+[
+"Adrian Gray",
+"Gray"
+],
+[
+"Alan Caves",
+"Caves"
+],
+[
+"Nigel Justice",
+"Justice"
+],
+[
+"Ritchie Buckle",
+"Buckle"
+],
+[
+"Simon Stevenson",
+"Stevenson"
+],
+[
+"Steve Smith",
+"Steven Smith"
+],
+[
+"Aden Kirk",
+"Kirk"
+],
+"Ben Ward",
+[
+"Chris Thompson",
+"Thompson"
+],
+[
+"Ian Moss",
+"Moss"
+],
+[
+"James Hubbard",
+"Hubbard"
+],
+[
+"Johnny Haines",
+"Haines"
+],
+[
+"Mark Frost",
+"Frost"
+],
+"Mark Jones",
+[
+"Matt Padgett",
+"Padgett"
+],
+[
+"Paul Barham",
+"Barham"
+],
+[
+"Peter Jacques",
+"Jacques"
+],
+[
+"Dave Ladley",
+"Ladley"
+],
+[
+"Mark Landers",
+"Landers"
+],
+[
+"Tony Ayres",
+"Ayres"
+],
+"Alan Green",
+"Al Hedman",
+"Dale Newton",
+[
+"Dave Honey",
+"Honey"
+],
+[
+"Dave Jowett",
+"Jowett"
+],
+"Dave Smith",
+[
+"Garry Spedding",
+"Spedding"
+],
+[
+"Jimmy Mann",
+"Mann"
+],
+[
+"Lee Palfreyman",
+"Palfreyman"
+],
+[
+"Mark Lawrence",
+"Lawrence"
+],
+"Mark Robinson",
+[
+"Mark Stephenson",
+"Stephenson"
+],
+[
+"Mark Thomson",
+"Thomson"
+],
+[
+"Martin Burchell",
+"Burchell"
+],
+[
+"Matt Chapman",
+"Chapman"
+],
+[
+"Steve Grubb",
+"Grubb"
+],
+[
+"Kevin Burrows",
+"Burrows"
+],
+[
+"Dean Allsop",
+"Allsop",
+"Dean Allsopp"
+]
+]
+},
+{
+"id": "dtm-worlds-irish",
+"tags": [
+"darts"
+],
+"text": "Name an Irish or Northern Irish player who has competed at the PDC World Championship",
+"answers": [
+[
+"Daryl Gurney",
+"Gurney",
+"Superchin"
+],
+[
+"Josh Rock",
+"Rock",
+"Rocky"
+],
+[
+"Brendan Dolan",
+"Dolan",
+"The History Maker"
+],
+"William O'Connor",
+[
+"Mickey Mansell",
+"Mansell"
+],
+[
+"Steve Lennon",
+"Lennon"
+],
+"Keane Barry",
+[
+"Mick McGowan",
+"McGowan"
+],
+[
+"Ciarán Teehan",
+"Teehan"
+],
+[
+"Dylan Slevin",
+"Slevin"
+],
+[
+"Kevin Burness",
+"Burness"
+],
+[
+"Nathan Rafferty",
+"Rafferty"
+],
+[
+"John O'Shea",
+"O'Shea"
+],
+[
+"Colin McGarry",
+"McGarry"
+],
+[
+"Tom Kirby",
+"Kirby"
+],
+"Aodhagan O'Neill",
+[
+"Geoff Wylie",
+"Wylie"
+],
+[
+"John MaGowan",
+"MaGowan"
+],
+[
+"Connie Finnan",
+"Finnan"
+],
+[
+"Felix McBrearty",
+"McBrearty"
+],
+"Henry O'Neill",
+[
+"Ian Branks",
+"Branks"
+],
+"Jason Barry",
+"Shane O'Connor"
+]
+},
+{
+"id": "dtm-worlds-german",
+"tags": [
+"darts"
+],
+"text": "Name a German player who has competed at the PDC World Championship",
+"answers": [
+[
+"Martin Schindler",
+"Schindler",
+"The Wall"
+],
+[
+"Ricardo Pietreczko",
+"Pietreczko"
+],
+[
+"Gabriel Clemens",
+"Clemens"
+],
+[
+"Max Hopp",
+"Hopp"
+],
+[
+"Florian Hempel",
+"Hempel"
+],
+[
+"Nico Kurz",
+"Kurz"
+],
+[
+"Arno Merk",
+"Merk"
+],
+[
+"Dragutin Horvat",
+"Horvat"
+],
+[
+"Jyhan Artut",
+"Artut"
+],
+[
+"Kai Gotthardt",
+"Gotthardt"
+],
+[
+"Kevin Münch",
+"Münch"
+],
+[
+"Niko Springer",
+"Springer"
+],
+[
+"Andree Welge",
+"Welge"
+],
+[
+"Dominik Grüllich",
+"Grüllich"
+],
+[
+"Fabian Schmutzler",
+"Schmutzler"
+],
+[
+"Lukas Wenig",
+"Wenig"
+],
+[
+"Tomas Seyler",
+"Seyler"
+],
+[
+"Robert Marijanović",
+"Marijanović"
+],
+[
+"Sascha Stein",
+"Stein"
+],
+[
+"René Eidams",
+"Eidams"
+],
+[
+"Bernd Roith",
+"Roith"
+],
+[
+"Michael Rosenauer",
+"Rosenauer"
+]
+]
+},
+{
+"id": "dtm-worlds-australian",
+"tags": [
+"darts"
+],
+"text": "Name an Australian player who has competed at the PDC World Championship",
+"answers": [
+[
+"Simon Whitlock",
+"Whitlock",
+"The Wizard"
+],
+[
+"Paul Nicholson",
+"Nicholson",
+"The Asset"
+],
+[
+"Damon Heta",
+"Heta",
+"The Heat"
+],
+"Kyle Anderson",
+"Raymond Smith",
+[
+"Russell Stewart",
+"Stewart"
+],
+[
+"Gordon Mathers",
+"Mathers"
+],
+[
+"Joe Comito",
+"Comito"
+],
+[
+"Darren Penhall",
+"Penhall"
+],
+[
+"James Bailey",
+"Bailey"
+],
+[
+"Mal Cuming",
+"Cuming"
+],
+"Ky Smith",
+[
+"Robbie King",
+"King"
+],
+[
+"Tim Pusey",
+"Pusey"
+],
+[
+"David Platt",
+"Platt"
+],
+[
+"Loz Ryder",
+"Ryder",
+"Laurence Ryder"
+],
+"Beau Anderson",
+[
+"Corey Cadby",
+"Cadby"
+],
+[
+"Shane Tichowitsch",
+"Tichowitsch"
+],
+[
+"Tony Fleet",
+"Fleet",
+"Anthony Fleet"
+],
+[
+"Geoff Kime",
+"Kime"
+],
+[
+"John Weber",
+"Weber"
+],
+[
+"Sean Reed",
+"Reed"
+],
+[
+"Barry Jouannet",
+"Jouannet"
+],
+[
+"Brian Roach",
+"Roach"
+],
+[
+"Mitchell Clegg",
+"Clegg"
+],
+[
+"Steve MacArthur",
+"MacArthur"
+]
+]
+},
+{
+"id": "dtm-worlds-north-american",
+"tags": [
+"darts"
+],
+"text": "Name an American or Canadian player who has competed at the PDC World Championship",
+"answers": [
+[
+"John Part",
+"Part",
+"Darth Maple"
+],
+[
+"Larry Butler",
+"Butler"
+],
+[
+"Jeff Smith",
+"Smith"
+],
+[
+"Steve Brown",
+"Brown"
+],
+[
+"Darin Young",
+"Young"
+],
+[
+"Matt Campbell",
+"Campbell"
+],
+[
+"David Cameron",
+"Cameron"
+],
+[
+"Danny Baggish",
+"Baggish"
+],
+[
+"Gary Mawson",
+"Mawson"
+],
+[
+"Leonard Gates",
+"Gates"
+],
+[
+"Jim Long",
+"Long"
+],
+[
+"Gerald Verrier",
+"Verrier"
+],
+[
+"Stowe Buntz",
+"Buntz"
+],
+[
+"Adam Sevada",
+"Sevada"
+],
+[
+"Alex Spellman",
+"Spellman"
+],
+[
+"Danny Lauby",
+"Danny Lauby II"
+],
+[
+"Gerry Convery",
+"Convery"
+],
+[
+"Sean Downs",
+"Downs"
+],
+[
+"Jules van Dongen",
+"van Dongen",
+"Dongen"
+],
+[
+"Tony Payne",
+"Payne"
+],
+[
+"John Kuczynski",
+"Kuczynski"
+],
+[
+"Jerry Umberger",
+"Umberger"
+],
+[
+"Ken MacNeil",
+"MacNeil"
+],
+[
+"Scott Kirchner",
+"Kirchner"
+],
+[
+"Ray Carver",
+"Carver"
+],
+[
+"John Verwey",
+"Verwey"
+],
+"Dan Lauby",
+[
+"Bill Davis",
+"Davis"
+],
+[
+"Chuck Puleo",
+"Puleo"
+],
+[
+"Dave Richardson",
+"Richardson"
+],
+[
+"Ross Snook",
+"Snook"
+],
+[
+"Scott Burnett",
+"Burnett"
+],
+[
+"Willard Bruguier",
+"Bruguier"
+],
+[
+"Scott Cummings",
+"Cummings"
+],
+[
+"Bryan Cyr",
+"Cyr",
+"Brian Cyr"
+],
+[
+"David Fatum",
+"Fatum"
+],
+[
+"Jim Watkins",
+"Watkins"
+],
+[
+"Dan Olson",
+"Olson"
+],
+[
+"Gayl King",
+"King"
+],
+[
+"Ken Woods",
+"Woods"
+],
+[
+"Ron Miller",
+"Miller"
+],
+[
+"Rory Orvis",
+"Orvis"
+],
+[
+"Dave Kelly",
+"Kelly"
+],
+[
+"John Norman Jnr",
+"Norman",
+"John Norman"
+]
+]
+},
+{
+"id": "dtm-worlds-nordic",
+"tags": [
+"darts"
+],
+"text": "Name a Nordic player (Finland, Sweden, Denmark or Norway) who has competed at the PDC World Championship",
+"answers": [
+[
+"Jeffrey de Graaf",
+"de Graaf",
+"Graaf"
+],
+[
+"Per Laursen",
+"Laursen"
+],
+[
+"Magnus Caris",
+"Caris"
+],
+[
+"Daniel Larsson",
+"Larsson"
+],
+[
+"Marko Kantele",
+"Kantele"
+],
+[
+"Andreas Harrysson",
+"Harrysson"
+],
+[
+"Jarkko Komula",
+"Komula"
+],
+[
+"Kim Viljanen",
+"Viljanen"
+],
+[
+"Cor Dekker",
+"Dekker"
+],
+[
+"Oskar Lukasiak",
+"Lukasiak"
+],
+[
+"Teemu Harju",
+"Harju"
+],
+[
+"Jani Haavisto",
+"Haavisto"
+],
+[
+"Dennis Nilsson",
+"Nilsson"
+],
+[
+"Petri Korte",
+"Korte"
+],
+[
+"Dennis Lindskjold",
+"Lindskjold"
+],
+[
+"Veijo Viinikka",
+"Viinikka"
+]
+]
+},
+{
+"id": "dtm-worlds-10-appearances",
+"tags": [
+"darts"
+],
+"text": "Name a player who has competed in 10 or more PDC World Championships",
+"deep": true,
+"answers": [
+[
+"Phil Taylor",
+"The Power",
+"Taylor"
+],
+[
+"Michael van Gerwen",
+"van Gerwen",
+"Gerwen",
+"MVG",
+"Mighty Mike"
+],
+[
+"Gary Anderson",
+"The Flying Scotsman"
+],
+[
+"Raymond van Barneveld",
+"van Barneveld",
+"Barneveld",
+"Barney",
+"RvB"
+],
+[
+"Peter Wright",
+"Wright",
+"Snakebite"
+],
+[
+"Gerwyn Price",
+"Price",
+"The Iceman"
+],
+[
+"James Wade",
+"Wade",
+"The Machine"
+],
+[
+"Michael Smith",
+"Bully Boy"
+],
+[
+"Adrian Lewis",
+"Jackpot",
+"Lewis"
+],
+[
+"Daryl Gurney",
+"Gurney",
+"Superchin"
+],
+[
+"Jonny Clayton",
+"Clayton",
+"The Ferret"
+],
+[
+"Simon Whitlock",
+"Whitlock",
+"The Wizard"
+],
+[
+"Joe Cullen",
+"Cullen",
+"The Rockstar"
+],
+[
+"Chris Dobey",
+"Dobey",
+"Hollywood"
+],
+[
+"Stephen Bunting",
+"Bunting",
+"The Bullet"
+],
+[
+"Dimitri Van den Bergh",
+"Van den Bergh",
+"Bergh",
+"The DreamMaker",
+"DVDB"
+],
+[
+"John Part",
+"Part",
+"Darth Maple"
+],
+[
+"Dennis Priestley",
+"Priestley",
+"The Menace"
+],
+[
+"Colin Lloyd",
+"Lloyd",
+"Jaws"
+],
+[
+"Mensur Suljović",
+"Suljović",
+"The Gentle"
+],
+[
+"Robert Thornton",
+"Thornton",
+"The Thorn"
+],
+[
+"Kevin Painter",
+"Painter",
+"The Artist"
+],
+[
+"Peter Manley",
+"Manley",
+"One Dart"
+],
+[
+"Rod Harrington",
+"The Prince of Style",
+"Harrington"
+],
+[
+"Roland Scholten",
+"Scholten"
+],
+[
+"Peter Evison",
+"Evison"
+],
+[
+"John Lowe",
+"Old Stoneface",
+"Lowe"
+],
+[
+"Dave Chisnall",
+"Chisnall",
+"Chizzy"
+],
+[
+"Mervyn King",
+"King"
+],
+[
+"Bob Anderson",
+"The Limestone Cowboy"
+],
+[
+"Keith Deller",
+"Deller"
+],
+[
+"Kim Huybrechts",
+"The Hurricane",
+"Huybrechts"
+],
+[
+"Brendan Dolan",
+"Dolan",
+"The History Maker"
+],
+[
+"Ricky Evans",
+"Rapid Ricky",
+"Evans"
+],
+[
+"Jelle Klaasen",
+"Klaasen",
+"The Cobra"
+],
+[
+"Vincent van der Voort",
+"van der Voort",
+"Voort",
+"The Dutch Destroyer"
+],
+[
+"Terry Jenkins",
+"The Bull"
+],
+[
+"Steve Beaton",
+"Beaton",
+"The Bronzed Adonis",
+"The Adonis"
+],
+[
+"Andy Hamilton",
+"Hamilton",
+"The Hammer"
+],
+[
+"Richie Burnett",
+"The Prince of Wales",
+"Burnett"
+],
+[
+"Jermaine Wattimena",
+"Wattimena"
+],
+[
+"Paul Lim",
+"Lim",
+"The Singapore Slinger"
+],
+[
+"Ronnie Baxter",
+"Baxter",
+"The Rocket"
+],
+[
+"Alan Warriner-Little",
+"Warriner-Little",
+"Warriner",
+"Alan Warriner"
+],
+[
+"Cliff Lazarenko",
+"Lazarenko",
+"Big Cliff"
+],
+[
+"Ian White",
+"White",
+"Diamond"
+],
+[
+"Wes Newton",
+"The Warrior",
+"Newton"
+],
+[
+"Mark Dudbridge",
+"Dudbridge"
+],
+"Dennis Smith",
+[
+"Wayne Jones",
+"Jones"
+],
+[
+"Jamie Harvey",
+"Harvey"
+],
+"Andy Jenkins",
+[
+"Darren Webster",
+"Webster"
+],
+[
+"Denis Ovens",
+"Ovens"
+],
+[
+"Mark Walsh",
+"Walsh"
+],
+"Andy Smith",
+[
+"Alex Roy",
+"Roy"
+],
+[
+"Mickey Mansell",
+"Mansell"
+],
+[
+"Jamie Caven",
+"Caven"
+],
+[
+"Darin Young",
+"Young"
+],
+[
+"Lourence Ilagan",
+"Ilagan"
+]
+]
+},
+{
+"id": "dtm-worlds-one-appearance",
+"tags": [
+"darts"
+],
+"text": "Name a player who has competed in just one PDC World Championship so far",
+"deep": true,
+"answers": [
+[
+"Scott Waites",
+"Waites",
+"Scotty 2 Hotty"
+],
+[
+"Scott Mitchell",
+"Mitchell"
+],
+[
+"Deta Hedman",
+"The Dark Destroyer"
+],
+[
+"Dom Taylor",
+"Taylor"
+],
+[
+"Mark McGeeney",
+"McGeeney"
+],
+[
+"Justin Hood",
+"Hood"
+],
+[
+"Andreas Harrysson",
+"Harrysson"
+],
+[
+"Dave Whitcombe",
+"Whitcombe"
+],
+[
+"Charlie Manby",
+"Manby"
+],
+[
+"Arno Merk",
+"Merk"
+],
+[
+"Jimmy Hendriks",
+"Hendriks"
+],
+[
+"Russell Stewart",
+"Stewart"
+],
+[
+"Berry van Peer",
+"van Peer",
+"Peer"
+],
+[
+"Derk Telnekes",
+"Telnekes"
+],
+[
+"Adam Sevada",
+"Sevada"
+],
+[
+"Alexander Merkx",
+"Merkx"
+],
+[
+"Chas Barstow",
+"Barstow"
+],
+[
+"Danny Jansen",
+"Jansen"
+],
+[
+"Danny van Trijp",
+"van Trijp",
+"Trijp"
+],
+[
+"Darren Beveridge",
+"Beveridge"
+],
+[
+"Darren Penhall",
+"Penhall"
+],
+[
+"David Davies",
+"Davies"
+],
+[
+"David Munyua",
+"Munyua"
+],
+[
+"Edward Foulkes",
+"Foulkes"
+],
+[
+"Grant Sampson",
+"Sampson"
+],
+"Harry Ward",
+[
+"Jason Heaver",
+"Heaver"
+],
+[
+"Jonny Tata",
+"Tata"
+],
+[
+"Kai Gotthardt",
+"Gotthardt"
+],
+"Lee Evans",
+[
+"Lok-Yin Lee",
+"Lee"
+],
+[
+"Motomu Sakai",
+"Sakai"
+],
+[
+"Nathan Rafferty",
+"Rafferty"
+],
+[
+"Radek Szaganski",
+"Szaganski"
+],
+[
+"Rhys Griffin",
+"Griffin"
+],
+[
+"Ryan Murray",
+"Murray"
+],
+[
+"William Borland",
+"Borland"
+],
+"Robbie Green",
+[
+"Andy Baetens",
+"Baetens"
+],
+"David Evans",
+[
+"John O'Shea",
+"O'Shea"
+],
+[
+"Mal Cuming",
+"Cuming"
+],
+[
+"Nick Fullwell",
+"Fullwell"
+],
+[
+"Adam Lipscombe",
+"Lipscombe"
+],
+[
+"Amit Gilitwala",
+"Gilitwala"
+],
+[
+"Benjamin Pratnemer",
+"Pratnemer"
+],
+[
+"Bhav Patel",
+"Patel"
+],
+[
+"Cam Crabtree",
+"Crabtree"
+],
+[
+"Cor Dekker",
+"Dekker"
+],
+[
+"Di Zhuang",
+"Zhuang"
+],
+[
+"Dmitriy Gorbunov",
+"Gorbunov"
+],
+[
+"Dominik Grüllich",
+"Grüllich"
+],
+[
+"Fabian Schmutzler",
+"Schmutzler"
+],
+[
+"Gemma Hayter",
+"Hayter"
+],
+[
+"Jamai van den Herik",
+"van den Herik",
+"Herik"
+],
+[
+"Jesús Salate",
+"Salate"
+],
+[
+"Jules van Dongen",
+"van Dongen",
+"Dongen"
+],
+[
+"Jurjen van der Velde",
+"van der Velde",
+"Velde"
+],
+"Ky Smith",
+[
+"Lukas Wenig",
+"Wenig"
+],
+[
+"Matthew Dennant",
+"Dennant"
+],
+[
+"Mitsuhiko Tatsunami",
+"Tatsunami"
+],
+[
+"Nobuhiro Yamamoto",
+"Yamamoto"
+],
+[
+"Oskar Lukasiak",
+"Lukasiak"
+],
+[
+"Patrik Kovács",
+"Kovács"
+],
+[
+"Prakash Jiwa",
+"Jiwa"
+],
+[
+"Rashad Sweeting",
+"Sweeting"
+],
+[
+"Reynaldo Rivera",
+"Rivera"
+],
+"Robbie King",
+[
+"Roman Benecký",
+"Benecký"
+],
+[
+"Romeo Grbavac",
+"Grbavac"
+],
+[
+"Simon Adams",
+"Adams"
+],
+[
+"Tavis Dudeney",
+"Dudeney"
+],
+[
+"Teemu Harju",
+"Harju"
+],
+[
+"Tim Pusey",
+"Pusey"
+],
+[
+"Toyokazu Shibata",
+"Shibata"
+],
+[
+"Vladyslav Omelchenko",
+"Omelchenko"
+],
+[
+"Xicheng Han",
+"Han"
+],
+[
+"Remco van Eijden",
+"van Eijden",
+"Eijden"
+],
+[
+"Tony Payne",
+"Payne"
+],
+[
+"Sascha Stein",
+"Stein"
+],
+[
+"Robbie Widdows",
+"Widdows"
+],
+[
+"Dennis Nilsson",
+"Nilsson"
+],
+[
+"Mareno Michels",
+"Michels"
+],
+[
+"Mark McGrath",
+"McGrath"
+],
+[
+"Steve Alker",
+"Alker"
+],
+"Aodhagan O'Neill",
+[
+"Beau Anderson",
+"Anderson"
+],
+"Bernie Smith",
+[
+"Corey Cadby",
+"Cadby"
+],
+[
+"Julio Barbero",
+"Barbero"
+],
+[
+"Keita Ono",
+"Ono"
+],
+[
+"Ken MacNeil",
+"MacNeil"
+],
+[
+"Kevin Simm",
+"Simm"
+],
+[
+"Leung Chun Nam",
+"Leung Chen Nam",
+"Chun Nam Leung",
+"Nam"
+],
+[
+"Nolan Arendse",
+"Arendse"
+],
+[
+"Osmann Kijamet",
+"Kijamet"
+],
+[
+"Petri Korte",
+"Korte"
+],
+[
+"Preston Ridd",
+"Ridd"
+],
+[
+"René Eidams",
+"Eidams"
+],
+[
+"Scott Kirchner",
+"Kirchner"
+],
+[
+"Tengku Hadzali Shah",
+"Tengku Shah",
+"Shah"
+],
+[
+"John Verwey",
+"Verwey"
+],
+[
+"Oliver Ferenc",
+"Ferenc"
+],
+[
+"Rico Vonck",
+"Vonck"
+],
+[
+"Ritchie Buckle",
+"Buckle"
+],
+[
+"Ryan de Vreede",
+"de Vreede",
+"Vreede"
+],
+[
+"Tony Fleet",
+"Fleet",
+"Anthony Fleet"
+],
+[
+"Wynand Havenga",
+"Havenga"
+],
+[
+"Geoff Wylie",
+"Wylie"
+],
+[
+"Aden Kirk",
+"Kirk"
+],
+[
+"Alan Ljubić",
+"Ljubić"
+],
+[
+"Alex Hon",
+"Hon"
+],
+[
+"Alex Tagarao",
+"Tagarao"
+],
+"Ben Ward",
+[
+"Bernd Roith",
+"Roith"
+],
+[
+"Charl Pietersen",
+"Pietersen"
+],
+[
+"Chris Thompson",
+"Thompson"
+],
+[
+"Chuck Puleo",
+"Puleo"
+],
+[
+"Connie Finnan",
+"Finnan"
+],
+[
+"Craig Ross",
+"Ross"
+],
+[
+"Dave Harrington",
+"Harrington"
+],
+[
+"Dave Richardson",
+"Richardson"
+],
+[
+"Dennis Lindskjold",
+"Lindskjold"
+],
+[
+"Dylan Duo",
+"Duo"
+],
+[
+"Francisco Ruiz",
+"Ruiz"
+],
+[
+"Geoff Kime",
+"Kime"
+],
+[
+"Gilbert Ulang",
+"Ulang"
+],
+[
+"Ian Moss",
+"Moss"
+],
+[
+"James Hubbard",
+"Hubbard"
+],
+[
+"Jason Hogg",
+"Hogg"
+],
+[
+"Johnny Haines",
+"Haines"
+],
+[
+"John Weber",
+"Weber"
+],
+[
+"Juanito Gionzon",
+"Gionzon",
+"Juanito Gionson"
+],
+[
+"Kai-Fan Leung",
+"Leung"
+],
+[
+"Kenny Neyens",
+"Neyens"
+],
+[
+"Koha Kokiri",
+"Kokiri"
+],
+[
+"Kurt van de Rijck",
+"van de Rijck",
+"Rijck"
+],
+[
+"Lee Choon Peng",
+"Choon Peng Lee",
+"Peng"
+],
+[
+"Les Francis",
+"Francis"
+],
+[
+"Mark Frost",
+"Frost"
+],
+[
+"Mark Jones",
+"Jones"
+],
+[
+"Masumi Chino",
+"Chino"
+],
+[
+"Matt Padgett",
+"Padgett"
+],
+[
+"Michael Rasztovits",
+"Rasztovits"
+],
+[
+"Paul Barham",
+"Barham"
+],
+[
+"Peter Jacques",
+"Jacques"
+],
+[
+"Phillip Hazel",
+"Hazel"
+],
+[
+"Roman Konchikov",
+"Konchikov"
+],
+[
+"Ross Snook",
+"Snook"
+],
+[
+"Scott Burnett",
+"Burnett"
+],
+[
+"Sean Reed",
+"Reed"
+],
+[
+"Sven Groen",
+"Groen"
+],
+[
+"Veijo Viinikka",
+"Viinikka"
+],
+[
+"Warrick Scheffer",
+"Scheffer"
+],
+[
+"Willard Bruguier",
+"Bruguier"
+],
+[
+"Yong Gaweenuntawong",
+"Gaweenuntawong",
+"Thanawat Gaweenuntawong"
+],
+[
+"Yordi Meeuwisse",
+"Meeuwisse"
+],
+[
+"Yuanjun Liu",
+"Liu"
+],
+[
+"Mark Salmon",
+"Salmon"
+],
+[
+"Alex MacKay",
+"MacKay"
+],
+[
+"Bryan Cyr",
+"Cyr",
+"Brian Cyr"
+],
+[
+"Dave Ladley",
+"Ladley"
+],
+[
+"David Fatum",
+"Fatum"
+],
+[
+"Mark Landers",
+"Landers"
+],
+[
+"Miloslav Navrátil",
+"Navrátil"
+],
+[
+"Tony Ayres",
+"Ayres"
+],
+[
+"Braulio Roncero",
+"Roncero"
+],
+[
+"Alan Bolton",
+"Bolton"
+],
+"Alan Green",
+[
+"Alan Reynolds",
+"Reynolds"
+],
+"Al Hedman",
+[
+"Anton Pein",
+"Pein"
+],
+[
+"Arjan Moen",
+"Moen"
+],
+[
+"Ashfaque Sayed",
+"Sayed"
+],
+[
+"Brian Roach",
+"Roach"
+],
+[
+"Dale Newton",
+"Newton"
+],
+[
+"Dan Olson",
+"Olson"
+],
+[
+"Dave Honey",
+"Honey"
+],
+[
+"Dave Jowett",
+"Jowett"
+],
+"Dave Smith",
+[
+"Felix McBrearty",
+"McBrearty"
+],
+[
+"Garry Spedding",
+"Spedding"
+],
+"Gayl King",
+[
+"Hannes Schnier",
+"Schnier"
+],
+"Henry O'Neill",
+[
+"Ian Branks",
+"Branks"
+],
+[
+"Jason Barry",
+"Barry"
+],
+[
+"Jimmy Mann",
+"Mann"
+],
+[
+"Ken Woods",
+"Woods"
+],
+[
+"Lee Palfreyman",
+"Palfreyman"
+],
+[
+"Leroy Kwadijk",
+"Kwadijk"
+],
+[
+"Mark Lawrence",
+"Lawrence"
+],
+[
+"Mark Robinson",
+"Robinson"
+],
+[
+"Mark Stephenson",
+"Stephenson"
+],
+[
+"Mark Thomson",
+"Thomson"
+],
+[
+"Martin Burchell",
+"Burchell"
+],
+[
+"Matt Chapman",
+"Chapman"
+],
+[
+"Michael Rosenauer",
+"Rosenauer"
+],
+[
+"Mitchell Clegg",
+"Clegg"
+],
+[
+"Nándor Bezzeg",
+"Bezzeg"
+],
+[
+"Patrick Bulen",
+"Bulen"
+],
+[
+"Rizal Barellano",
+"Barellano"
+],
+[
+"Ron Miller",
+"Miller"
+],
+[
+"Rory Orvis",
+"Orvis"
+],
+[
+"Shane O'Connor",
+"O'Connor"
+],
+[
+"Steve Grubb",
+"Grubb"
+],
+[
+"Steve MacArthur",
+"MacArthur"
+],
+[
+"Sudesh Fitzgerald",
+"Fitzgerald"
+],
+[
+"Tang Jun",
+"Tang",
+"Jun"
+],
+[
+"Tetsuya Wada",
+"Wada"
+],
+[
+"Toru Sano",
+"Sano"
+],
+[
+"Winston Cadogan",
+"Cadogan"
+],
+[
+"Kevin Burrows",
+"Burrows"
+],
+[
+"John Norman Jnr",
+"Norman",
+"John Norman"
+]
+]
+},
+{
+"id": "dtm-major-winner-no-worlds",
+"tags": [
+"darts"
+],
+"text": "Name a player who has won a televised PDC major but never the PDC World Championship",
+"answers": [
+[
+"James Wade",
+"Wade",
+"The Machine"
+],
+[
+"Nathan Aspinall",
+"Aspinall",
+"The Asp"
+],
+[
+"Daryl Gurney",
+"Gurney",
+"Superchin"
+],
+[
+"Jonny Clayton",
+"Clayton",
+"The Ferret"
+],
+[
+"Danny Noppert",
+"Noppert",
+"The Freeze"
+],
+[
+"Simon Whitlock",
+"Whitlock",
+"The Wizard"
+],
+[
+"Gian van Veen",
+"van Veen",
+"The Giant",
+"Veen"
+],
+[
+"Joe Cullen",
+"Cullen",
+"The Rockstar"
+],
+[
+"Chris Dobey",
+"Dobey",
+"Hollywood"
+],
+[
+"Stephen Bunting",
+"Bunting",
+"The Bullet"
+],
+[
+"Dimitri Van den Bergh",
+"Van den Bergh",
+"The DreamMaker",
+"Bergh"
+],
+[
+"Glen Durrant",
+"Durrant",
+"Duzza"
+],
+[
+"Colin Lloyd",
+"Lloyd",
+"Jaws"
+],
+[
+"Mike De Decker",
+"De Decker",
+"The Real Deal",
+"Decker"
+],
+[
+"Andrew Gilding",
+"Gilding",
+"Goldfinger"
+],
+[
+"Ross Smith",
+"Smudger",
+"Smith"
+],
+[
+"Ritchie Edhouse",
+"Edhouse"
+],
+[
+"José de Sousa",
+"de Sousa",
+"The Special One",
+"Sousa"
+],
+[
+"Mensur Suljović",
+"Suljović",
+"The Gentle"
+],
+[
+"Scott Waites",
+"Waites",
+"Scotty 2 Hotty"
+],
+[
+"Robert Thornton",
+"Thornton",
+"The Thorn"
+],
+[
+"Kevin Painter",
+"Painter",
+"The Artist"
+],
+[
+"Peter Manley",
+"Manley",
+"One Dart"
+],
+[
+"Rod Harrington",
+"Harrington",
+"The Prince of Style"
+],
+[
+"Paul Nicholson",
+"Nicholson"
+],
+[
+"Roland Scholten",
+"Scholten"
+],
+[
+"Alan Warriner",
+"Warriner",
+"Alan Warriner-Little"
+],
+[
+"Peter Evison",
+"Evison"
+],
+[
+"Larry Butler",
+"Butler",
+"The Pittsburgh Powerhouse"
+]
+]
+},
+{
+"id": "dtm-major-finalist-never-won",
+"tags": [
+"darts"
+],
+"text": "Name a player who has reached a televised PDC major final but never won one",
+"deep": true,
+"answers": [
+[
+"Wayne Mardle",
+"Mardle",
+"Hawaii 501"
+],
+[
+"Dave Chisnall",
+"Chisnall",
+"Chizzy"
+],
+[
+"Kim Huybrechts",
+"Huybrechts",
+"The Hurricane"
+],
+[
+"Mervyn King",
+"King",
+"The King"
+],
+[
+"Steve Beaton",
+"Beaton",
+"The Bronzed Adonis"
+],
+[
+"Dirk van Duijvenbode",
+"van Duijvenbode",
+"Aubergenius",
+"Duijvenbode"
+],
+[
+"Jermaine Wattimena",
+"Wattimena",
+"The Machine Gun"
+],
+[
+"Martin Schindler",
+"Schindler",
+"The Wall"
+],
+[
+"Brendan Dolan",
+"Dolan",
+"The History Maker"
+],
+[
+"Martin Lukeman",
+"Lukeman",
+"Smash"
+],
+[
+"Vincent van der Voort",
+"van der Voort",
+"The Dutch Destroyer",
+"Voort"
+],
+[
+"Andy Hamilton",
+"Hamilton",
+"The Hammer"
+],
+[
+"Mark Webster",
+"Webster"
+],
+[
+"Ronnie Baxter",
+"Baxter",
+"The Rocket"
+],
+[
+"Terry Jenkins",
+"Jenkins",
+"The Bull"
+],
+[
+"Wes Newton",
+"Newton",
+"The Warrior"
+],
+[
+"Corey Cadby",
+"Cadby"
+],
+[
+"Mark Walsh",
+"Walsh"
+],
+[
+"Richie Burnett",
+"Burnett"
+],
+[
+"Colin Osborne",
+"Osborne"
+],
+[
+"Mark Dudbridge",
+"Dudbridge"
+],
+[
+"Barrie Bates",
+"Bates"
+],
+[
+"Kirk Shepherd",
+"Shepherd"
+],
+[
+"Gary Mawson",
+"Mawson"
+],
+[
+"Shayne Burgess",
+"Burgess"
+],
+[
+"Wayne Jones",
+"Jones"
+]
+]
+},
+{
+"id": "dtm-worlds-countries",
+"tags": [
+"darts"
+],
+"text": "Name a country that has had a player at the PDC World Championship",
+"answers": [
+"England",
+"Scotland",
+"Wales",
+[
+"Republic of Ireland",
+"Ireland",
+"Eire"
+],
+"Northern Ireland",
+[
+"Netherlands",
+"Holland",
+"Dutch"
+],
+"Australia",
+[
+"United States",
+"USA",
+"America",
+"US",
+"United States of America"
+],
+"Germany",
+"Belgium",
+"Canada",
+"Japan",
+"New Zealand",
+"Philippines",
+"South Africa",
+"China",
+"Austria",
+"Finland",
+"Hong Kong",
+"Spain",
+"Sweden",
+"Russia",
+[
+"Czech Republic",
+"Czechia"
+],
+"India",
+"Poland",
+"Croatia",
+"Malaysia",
+"Guyana",
+"Barbados",
+"Denmark",
+"Hungary",
+"Slovenia",
+"Singapore",
+"Gibraltar",
+"Portugal",
+"Serbia",
+"Greece",
+"Thailand",
+"Brazil",
+"Lithuania",
+"Latvia",
+"Ukraine",
+"France",
+"Switzerland",
+"Bahamas",
+"Kenya",
+"Norway",
+"Argentina"
+]
+},
+{
+"id": "dtm-world-cup-countries",
+"tags": [
+"darts"
+],
+"text": "Name a country that has competed in the PDC World Cup of Darts",
+"answers": [
+"England",
+"Scotland",
+"Wales",
+"Northern Ireland",
+[
+"Republic of Ireland",
+"Ireland",
+"Eire"
+],
+[
+"Netherlands",
+"Holland",
+"Dutch"
+],
+"Australia",
+"Germany",
+"Belgium",
+[
+"United States",
+"USA",
+"America",
+"US"
+],
+"Canada",
+"Japan",
+"Spain",
+"Finland",
+"Austria",
+"Sweden",
+"Gibraltar",
+"Denmark",
+"New Zealand",
+"Poland",
+"South Africa",
+"Hungary",
+"Italy",
+[
+"Czech Republic",
+"Czechia"
+],
+"Hong Kong",
+"Singapore",
+"Philippines",
+"China",
+"Russia",
+"Lithuania",
+"Thailand",
+"Switzerland",
+"Portugal",
+"Croatia",
+"Norway",
+"Greece",
+"Brazil",
+"Latvia",
+"France",
+"India",
+"Malaysia",
+"Bahrain",
+"Slovenia",
+"Guyana",
+"Iceland",
+[
+"Chinese Taipei",
+"Taiwan"
+],
+"Slovakia",
+"Ukraine",
+"Argentina",
+"Mongolia",
+[
+"Trinidad and Tobago",
+"Trinidad",
+"Trinidad & Tobago"
+]
+]
+}
+]
+}
