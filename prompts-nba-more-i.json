@@ -1,0 +1,7447 @@
+{
+ "cat": "nba",
+ "prompts": [
+  {
+   "id": "nba-i-draft-2024",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 2024 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "Zaccharie Risacher",
+     "Risacher"
+    ],
+    [
+     "Alex Sarr",
+     "Sarr"
+    ],
+    [
+     "Reed Sheppard",
+     "Sheppard"
+    ],
+    [
+     "Stephon Castle",
+     "Castle"
+    ],
+    [
+     "Bronny James",
+     "James"
+    ],
+    [
+     "Zach Edey",
+     "Edey"
+    ],
+    [
+     "Dalton Knecht",
+     "Knecht"
+    ],
+    [
+     "Matas Buzelis",
+     "Buzelis"
+    ],
+    [
+     "Donovan Clingan",
+     "Clingan"
+    ],
+    [
+     "Rob Dillingham",
+     "Dillingham"
+    ],
+    [
+     "Jared McCain",
+     "McCain"
+    ],
+    [
+     "Yves Missi",
+     "Missi"
+    ],
+    [
+     "Kel'el Ware",
+     "Ware"
+    ],
+    [
+     "Ron Holland",
+     "Holland"
+    ],
+    [
+     "Cody Williams",
+     "Williams"
+    ],
+    [
+     "Tidjane Salaün",
+     "Salaün"
+    ],
+    [
+     "Nikola Topić",
+     "Topić"
+    ],
+    [
+     "Devin Carter",
+     "Carter"
+    ],
+    [
+     "Bub Carrington",
+     "Carrington"
+    ],
+    [
+     "Tristan da Silva",
+     "da Silva"
+    ],
+    [
+     "Ja'Kobe Walter",
+     "Walter"
+    ],
+    [
+     "Jaylon Tyson",
+     "Tyson"
+    ],
+    [
+     "DaRon Holmes II",
+     "Holmes"
+    ],
+    [
+     "AJ Johnson",
+     "Johnson"
+    ],
+    [
+     "Kyshawn George",
+     "George"
+    ],
+    [
+     "Pacôme Dadiet",
+     "Dadiet"
+    ],
+    [
+     "Dillon Jones",
+     "Jones"
+    ],
+    [
+     "Terrence Shannon Jr.",
+     "Shannon"
+    ],
+    [
+     "Ryan Dunn",
+     "Dunn"
+    ],
+    [
+     "Isaiah Collier",
+     "Collier"
+    ],
+    [
+     "Baylor Scheierman",
+     "Scheierman"
+    ],
+    [
+     "Jonathan Mogbo",
+     "Mogbo"
+    ],
+    [
+     "Kyle Filipowski",
+     "Filipowski"
+    ],
+    [
+     "Tyler Smith",
+     "Smith"
+    ],
+    [
+     "Tyler Kolek",
+     "Kolek"
+    ],
+    [
+     "Johnny Furphy",
+     "Furphy"
+    ],
+    [
+     "Juan Núñez",
+     "Núñez"
+    ],
+    [
+     "Bobi Klintman",
+     "Klintman"
+    ],
+    [
+     "Ajay Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Jaylen Wells",
+     "Wells"
+    ],
+    [
+     "Oso Ighodaro",
+     "Ighodaro"
+    ],
+    [
+     "Adem Bona",
+     "Bona"
+    ],
+    [
+     "KJ Simpson",
+     "Simpson"
+    ],
+    [
+     "Nikola Đurišić",
+     "Đurišić"
+    ],
+    [
+     "Pelle Larsson",
+     "Larsson"
+    ],
+    [
+     "Jamal Shead",
+     "Shead"
+    ],
+    [
+     "Cam Christie",
+     "Christie"
+    ],
+    [
+     "Antonio Reeves",
+     "Reeves"
+    ],
+    [
+     "Harrison Ingram",
+     "Ingram"
+    ],
+    [
+     "Tristen Newton",
+     "Newton"
+    ],
+    [
+     "Enrique Freeman",
+     "Freeman"
+    ],
+    [
+     "Melvin Ajinça",
+     "Ajinça"
+    ],
+    [
+     "Quinten Post",
+     "Post"
+    ],
+    [
+     "Cam Spencer",
+     "Spencer"
+    ],
+    [
+     "Anton Watson",
+     "Watson"
+    ],
+    [
+     "Kevin McCullar Jr.",
+     "McCullar"
+    ],
+    [
+     "Ulrich Chomche",
+     "Chomche"
+    ],
+    [
+     "Ariel Hukporti",
+     "Hukporti"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-draft-2016",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 2016 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "Ben Simmons",
+     "Simmons"
+    ],
+    [
+     "Brandon Ingram",
+     "Ingram"
+    ],
+    [
+     "Jaylen Brown",
+     "Brown"
+    ],
+    "Jamal Murray",
+    [
+     "Pascal Siakam",
+     "Siakam"
+    ],
+    [
+     "Domantas Sabonis",
+     "Sabonis"
+    ],
+    [
+     "Malcolm Brogdon",
+     "Brogdon"
+    ],
+    "Dejounte Murray",
+    [
+     "Ivica Zubac",
+     "Zubac"
+    ],
+    [
+     "Buddy Hield",
+     "Hield"
+    ],
+    [
+     "Jakob Pöltl",
+     "Jakob Poeltl",
+     "Poltl"
+    ],
+    [
+     "Caris LeVert",
+     "LeVert"
+    ],
+    [
+     "Kris Dunn",
+     "Dunn"
+    ],
+    [
+     "Thon Maker",
+     "Maker"
+    ],
+    [
+     "Dragan Bender",
+     "Bender"
+    ],
+    [
+     "Marquese Chriss",
+     "Chriss"
+    ],
+    [
+     "Taurean Prince",
+     "Prince"
+    ],
+    [
+     "Georgios Papagiannis",
+     "Papagiannis"
+    ],
+    [
+     "Denzel Valentine",
+     "Valentine"
+    ],
+    [
+     "Juancho Hernangómez",
+     "Hernangómez"
+    ],
+    [
+     "Guerschon Yabusele",
+     "Yabusele"
+    ],
+    [
+     "Wade Baldwin",
+     "Baldwin"
+    ],
+    [
+     "Henry Ellenson",
+     "Ellenson"
+    ],
+    [
+     "Malik Beasley",
+     "Beasley"
+    ],
+    [
+     "DeAndre' Bembry",
+     "Bembry"
+    ],
+    [
+     "Malachi Richardson",
+     "Richardson"
+    ],
+    [
+     "Ante Žižić",
+     "Žižić"
+    ],
+    [
+     "Timothé Luwawu-Cabarrot",
+     "Luwawu-Cabarrot"
+    ],
+    [
+     "Brice Johnson",
+     "Johnson"
+    ],
+    [
+     "Furkan Korkmaz",
+     "Korkmaz"
+    ],
+    [
+     "Skal Labissière",
+     "Labissière"
+    ],
+    [
+     "Damian Jones",
+     "Jones"
+    ],
+    [
+     "Deyonta Davis",
+     "Davis"
+    ],
+    [
+     "Cheick Diallo",
+     "Diallo"
+    ],
+    [
+     "Tyler Ulis",
+     "Ulis"
+    ],
+    [
+     "Rade Zagorac",
+     "Zagorac"
+    ],
+    [
+     "Chinanu Onuaku",
+     "Onuaku"
+    ],
+    [
+     "Patrick McCaw",
+     "McCaw"
+    ],
+    [
+     "David Michineau",
+     "Michineau"
+    ],
+    [
+     "Diamond Stone",
+     "Stone"
+    ],
+    [
+     "Stephen Zimmerman",
+     "Zimmerman"
+    ],
+    [
+     "Isaiah Whitehead",
+     "Whitehead"
+    ],
+    [
+     "Zhou Qi",
+     "Qi"
+    ],
+    [
+     "Isaïa Cordinier",
+     "Cordinier"
+    ],
+    [
+     "Demetrius Jackson",
+     "Jackson"
+    ],
+    [
+     "A. J. Hammons",
+     "Hammons"
+    ],
+    [
+     "Jake Layman",
+     "Layman"
+    ],
+    [
+     "Paul Zipser",
+     "Zipser"
+    ],
+    [
+     "Michael Gbinije",
+     "Gbinije"
+    ],
+    [
+     "Georges Niang",
+     "Niang"
+    ],
+    [
+     "Ben Bentil",
+     "Bentil"
+    ],
+    [
+     "Joel Bolomboy",
+     "Bolomboy"
+    ],
+    [
+     "Petr Cornelie",
+     "Cornelie"
+    ],
+    [
+     "Kay Felder",
+     "Felder"
+    ],
+    [
+     "Marcus Paige",
+     "Paige"
+    ],
+    [
+     "Daniel Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Wang Zhelin",
+     "Zhelin"
+    ],
+    [
+     "Abdel Nader",
+     "Nader"
+    ],
+    [
+     "Isaiah Cousins",
+     "Cousins"
+    ],
+    [
+     "Tyrone Wallace",
+     "Wallace"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-draft-2012",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 2012 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "Anthony Davis",
+     "AD",
+     "Davis"
+    ],
+    [
+     "Damian Lillard",
+     "Dame",
+     "Dame Lillard",
+     "Lillard"
+    ],
+    [
+     "Draymond Green",
+     "Draymond",
+     "Green"
+    ],
+    [
+     "Bradley Beal",
+     "Beal"
+    ],
+    [
+     "Andre Drummond",
+     "Drummond"
+    ],
+    [
+     "Khris Middleton",
+     "Middleton"
+    ],
+    [
+     "Jae Crowder",
+     "Crowder"
+    ],
+    [
+     "Harrison Barnes",
+     "Barnes"
+    ],
+    [
+     "Evan Fournier",
+     "Fournier"
+    ],
+    [
+     "Michael Kidd-Gilchrist",
+     "Kidd-Gilchrist"
+    ],
+    [
+     "Dion Waiters",
+     "Waiters"
+    ],
+    [
+     "Thomas Robinson",
+     "Robinson"
+    ],
+    [
+     "Terrence Ross",
+     "Ross"
+    ],
+    [
+     "Austin Rivers",
+     "Rivers"
+    ],
+    [
+     "Meyers Leonard",
+     "Leonard"
+    ],
+    "Jeremy Lamb",
+    [
+     "Kendall Marshall",
+     "Marshall"
+    ],
+    [
+     "John Henson",
+     "Henson"
+    ],
+    [
+     "Maurice Harkless",
+     "Harkless"
+    ],
+    [
+     "Royce White",
+     "White"
+    ],
+    [
+     "Tyler Zeller",
+     "Zeller"
+    ],
+    "Terrence Jones",
+    [
+     "Andrew Nicholson",
+     "Nicholson"
+    ],
+    [
+     "Jared Sullinger",
+     "Sullinger"
+    ],
+    [
+     "Fab Melo",
+     "Melo"
+    ],
+    [
+     "John Jenkins",
+     "Jenkins"
+    ],
+    [
+     "Jared Cunningham",
+     "Cunningham"
+    ],
+    [
+     "Tony Wroten",
+     "Wroten"
+    ],
+    [
+     "Miles Plumlee",
+     "Plumlee"
+    ],
+    [
+     "Arnett Moultrie",
+     "Moultrie"
+    ],
+    "Perry Jones III",
+    [
+     "Marquis Teague",
+     "Teague"
+    ],
+    [
+     "Festus Ezeli",
+     "Ezeli"
+    ],
+    "Jeffery Taylor",
+    [
+     "Tomáš Satoranský",
+     "Satoranský"
+    ],
+    [
+     "Bernard James",
+     "James"
+    ],
+    [
+     "Orlando Johnson",
+     "Johnson"
+    ],
+    [
+     "Quincy Acy",
+     "Acy"
+    ],
+    "Quincy Miller",
+    [
+     "Will Barton",
+     "Barton"
+    ],
+    "Tyshawn Taylor",
+    "Doron Lamb",
+    [
+     "Mike Scott",
+     "Scott"
+    ],
+    [
+     "Kim English",
+     "English"
+    ],
+    [
+     "Justin Hamilton",
+     "Hamilton"
+    ],
+    "Darius Miller",
+    [
+     "Kevin Murphy",
+     "Murphy"
+    ],
+    [
+     "Kostas Papanikolaou",
+     "Papanikolaou"
+    ],
+    [
+     "Kyle O'Quinn",
+     "O'Quinn"
+    ],
+    [
+     "İzzet Türkyılmaz",
+     "Türkyılmaz"
+    ],
+    [
+     "Kris Joseph",
+     "Joseph"
+    ],
+    [
+     "Ognjen Kuzmić",
+     "Kuzmić"
+    ],
+    [
+     "Furkan Aldemir",
+     "Aldemir"
+    ],
+    [
+     "Tornike Shengelia",
+     "Shengelia"
+    ],
+    [
+     "Darius Johnson-Odom",
+     "Johnson-Odom"
+    ],
+    [
+     "Tomislav Zubčić",
+     "Zubčić"
+    ],
+    [
+     "İlkan Karaman",
+     "Karaman"
+    ],
+    [
+     "Robbie Hummel",
+     "Hummel"
+    ],
+    [
+     "Marcus Denmon",
+     "Denmon"
+    ],
+    [
+     "Robert Sacre",
+     "Sacre"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-draft-2010",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 2010 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "John Wall",
+     "Wall"
+    ],
+    [
+     "DeMarcus Cousins",
+     "Cousins"
+    ],
+    [
+     "Paul George",
+     "George"
+    ],
+    "Gordon Hayward",
+    [
+     "Eric Bledsoe",
+     "Bledsoe"
+    ],
+    [
+     "Hassan Whiteside",
+     "Whiteside"
+    ],
+    [
+     "Greg Monroe",
+     "Monroe"
+    ],
+    [
+     "Evan Turner",
+     "Turner"
+    ],
+    [
+     "Landry Fields",
+     "Fields"
+    ],
+    [
+     "Lance Stephenson",
+     "Stephenson"
+    ],
+    [
+     "Derrick Favors",
+     "Favors"
+    ],
+    "Wesley Johnson",
+    [
+     "Ekpe Udoh",
+     "Udoh"
+    ],
+    [
+     "Al-Farouq Aminu",
+     "Aminu"
+    ],
+    [
+     "Cole Aldrich",
+     "Aldrich"
+    ],
+    [
+     "Xavier Henry",
+     "Henry"
+    ],
+    [
+     "Ed Davis",
+     "Davis"
+    ],
+    [
+     "Patrick Patterson",
+     "Patterson"
+    ],
+    [
+     "Larry Sanders",
+     "Sanders"
+    ],
+    [
+     "Luke Babbitt",
+     "Babbitt"
+    ],
+    [
+     "Kevin Séraphin",
+     "Séraphin"
+    ],
+    [
+     "Avery Bradley",
+     "Bradley"
+    ],
+    [
+     "James Anderson",
+     "Anderson"
+    ],
+    [
+     "Craig Brackins",
+     "Brackins"
+    ],
+    "Elliot Williams",
+    [
+     "Trevor Booker",
+     "Booker"
+    ],
+    [
+     "Damion James",
+     "James"
+    ],
+    [
+     "Dominique Jones",
+     "Jones"
+    ],
+    [
+     "Quincy Pondexter",
+     "Pondexter"
+    ],
+    [
+     "Jordan Crawford",
+     "Crawford"
+    ],
+    [
+     "Greivis Vásquez",
+     "Vásquez"
+    ],
+    [
+     "Daniel Orton",
+     "Orton"
+    ],
+    "Lazar Hayward",
+    [
+     "Tibor Pleiß",
+     "Pleiß"
+    ],
+    [
+     "Dexter Pittman",
+     "Pittman"
+    ],
+    "Armon Johnson",
+    [
+     "Nemanja Bjelica",
+     "Bjelica"
+    ],
+    [
+     "Terrico White",
+     "White"
+    ],
+    [
+     "Darington Hobson",
+     "Hobson"
+    ],
+    [
+     "Andy Rautins",
+     "Rautins"
+    ],
+    [
+     "Jarvis Varnado",
+     "Varnado"
+    ],
+    [
+     "Da'Sean Butler",
+     "Butler"
+    ],
+    [
+     "Devin Ebanks",
+     "Ebanks"
+    ],
+    [
+     "Jerome Jordan",
+     "Jordan"
+    ],
+    [
+     "Paulão Prestes",
+     "Prestes"
+    ],
+    [
+     "Gani Lawal",
+     "Lawal"
+    ],
+    [
+     "Tiny Gallon",
+     "Gallon"
+    ],
+    "Latavious Williams",
+    [
+     "Ryan Richards",
+     "Richards"
+    ],
+    [
+     "Solomon Alabi",
+     "Alabi"
+    ],
+    [
+     "Magnum Rolle",
+     "Rolle"
+    ],
+    [
+     "Luke Harangody",
+     "Harangody"
+    ],
+    [
+     "Pape Sy",
+     "Sy"
+    ],
+    [
+     "Willie Warren",
+     "Warren"
+    ],
+    [
+     "Jeremy Evans",
+     "Evans"
+    ],
+    [
+     "Hamady N'Diaye",
+     "N'Diaye"
+    ],
+    [
+     "Ryan Reid",
+     "Reid"
+    ],
+    [
+     "Derrick Caracter",
+     "Caracter"
+    ],
+    [
+     "Stanley Robinson",
+     "Robinson"
+    ],
+    [
+     "Dwayne Collins",
+     "Collins"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-draft-2006",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 2006 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "Andrea Bargnani",
+     "Bargnani"
+    ],
+    [
+     "LaMarcus Aldridge",
+     "Aldridge"
+    ],
+    [
+     "Brandon Roy",
+     "Roy"
+    ],
+    [
+     "Rajon Rondo",
+     "Rondo"
+    ],
+    [
+     "Kyle Lowry",
+     "Lowry"
+    ],
+    [
+     "Rudy Gay",
+     "Gay"
+    ],
+    [
+     "Paul Millsap",
+     "Millsap"
+    ],
+    [
+     "Adam Morrison",
+     "Morrison"
+    ],
+    [
+     "Tyrus Thomas",
+     "Thomas"
+    ],
+    [
+     "JJ Redick",
+     "J.J. Redick",
+     "JJ",
+     "Redick"
+    ],
+    [
+     "Jordan Farmar",
+     "Farmar"
+    ],
+    "Shelden Williams",
+    [
+     "Randy Foye",
+     "Foye"
+    ],
+    [
+     "Patrick O'Bryant",
+     "O'Bryant"
+    ],
+    [
+     "Mouhamed Sene",
+     "Sene"
+    ],
+    [
+     "Hilton Armstrong",
+     "Armstrong"
+    ],
+    [
+     "Thabo Sefolosha",
+     "Sefolosha"
+    ],
+    [
+     "Ronnie Brewer",
+     "Brewer"
+    ],
+    [
+     "Cedric Simmons",
+     "Simmons"
+    ],
+    [
+     "Rodney Carney",
+     "Carney"
+    ],
+    "Shawne Williams",
+    [
+     "Oleksiy Pecherov",
+     "Pecherov"
+    ],
+    [
+     "Quincy Douby",
+     "Douby"
+    ],
+    [
+     "Renaldo Balkman",
+     "Balkman"
+    ],
+    "Marcus Williams",
+    [
+     "Josh Boone",
+     "Boone"
+    ],
+    "Shannon Brown",
+    [
+     "Sergio Rodríguez",
+     "Rodríguez"
+    ],
+    [
+     "Maurice Ager",
+     "Ager"
+    ],
+    [
+     "Mardy Collins",
+     "Collins"
+    ],
+    [
+     "Joel Freeland",
+     "Freeland"
+    ],
+    [
+     "James White",
+     "White"
+    ],
+    [
+     "Steve Novak",
+     "Novak"
+    ],
+    "Solomon Jones",
+    [
+     "Paul Davis",
+     "Davis"
+    ],
+    [
+     "P. J. Tucker",
+     "Tucker"
+    ],
+    [
+     "Craig Smith",
+     "Smith"
+    ],
+    "Bobby Jones",
+    [
+     "Kosta Perović",
+     "Perović"
+    ],
+    [
+     "David Noel",
+     "Noel"
+    ],
+    "Denham Brown",
+    [
+     "James Augustine",
+     "Augustine"
+    ],
+    [
+     "Daniel Gibson",
+     "Gibson"
+    ],
+    [
+     "Marcus Vinicius",
+     "Vinicius"
+    ],
+    [
+     "Lior Eliyahu",
+     "Eliyahu"
+    ],
+    [
+     "Alexander Johnson",
+     "Johnson"
+    ],
+    "Dee Brown",
+    [
+     "Vladimir Veremeenko",
+     "Veremeenko"
+    ],
+    [
+     "Leon Powe",
+     "Powe"
+    ],
+    [
+     "Ryan Hollins",
+     "Hollins"
+    ],
+    [
+     "Cheikh Samb",
+     "Samb"
+    ],
+    [
+     "Guillermo Diaz",
+     "Diaz"
+    ],
+    [
+     "Yotam Halperin",
+     "Halperin"
+    ],
+    [
+     "Hassan Adams",
+     "Adams"
+    ],
+    [
+     "Ejike Ugboaja",
+     "Ugboaja"
+    ],
+    [
+     "Edin Bavčić",
+     "Bavčić"
+    ],
+    [
+     "Loukas Mavrokefalidis",
+     "Mavrokefalidis"
+    ],
+    [
+     "J. R. Pinnock",
+     "Pinnock"
+    ],
+    [
+     "Damir Markota",
+     "Markota"
+    ],
+    [
+     "Will Blalock",
+     "Blalock"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-draft-2005",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 2005 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "Andrew Bogut",
+     "Bogut"
+    ],
+    [
+     "Chris Paul",
+     "CP3",
+     "Paul"
+    ],
+    "Deron Williams",
+    "Marvin Williams",
+    [
+     "Andrew Bynum",
+     "Bynum"
+    ],
+    [
+     "Danny Granger",
+     "Granger"
+    ],
+    [
+     "Monta Ellis",
+     "Ellis"
+    ],
+    [
+     "Marcin Gortat",
+     "Gortat"
+    ],
+    [
+     "Amir Johnson",
+     "Johnson"
+    ],
+    [
+     "Nate Robinson",
+     "Robinson"
+    ],
+    "Lou Williams",
+    [
+     "David Lee",
+     "Lee"
+    ],
+    [
+     "Raymond Felton",
+     "Felton"
+    ],
+    [
+     "Martell Webster",
+     "Webster"
+    ],
+    [
+     "Charlie Villanueva",
+     "Villanueva"
+    ],
+    [
+     "Channing Frye",
+     "Frye"
+    ],
+    [
+     "Ike Diogu",
+     "Diogu"
+    ],
+    [
+     "Fran Vázquez",
+     "Vázquez"
+    ],
+    [
+     "Yaroslav Korolev",
+     "Korolev"
+    ],
+    [
+     "Sean May",
+     "May"
+    ],
+    [
+     "Rashad McCants",
+     "McCants"
+    ],
+    "Antoine Wright",
+    [
+     "Joey Graham",
+     "Graham"
+    ],
+    [
+     "Gerald Green",
+     "Green"
+    ],
+    [
+     "Hakim Warrick",
+     "Warrick"
+    ],
+    [
+     "Julius Hodge",
+     "Hodge"
+    ],
+    [
+     "Jarrett Jack",
+     "Jack"
+    ],
+    [
+     "Francisco García",
+     "García"
+    ],
+    [
+     "Luther Head",
+     "Head"
+    ],
+    [
+     "Johan Petro",
+     "Petro"
+    ],
+    [
+     "Jason Maxiell",
+     "Maxiell"
+    ],
+    [
+     "Linas Kleiza",
+     "Kleiza"
+    ],
+    [
+     "Ian Mahinmi",
+     "Mahinmi"
+    ],
+    [
+     "Wayne Simien",
+     "Simien"
+    ],
+    [
+     "Salim Stoudamire",
+     "Stoudamire"
+    ],
+    [
+     "Daniel Ewing",
+     "Ewing"
+    ],
+    [
+     "Brandon Bass",
+     "Bass"
+    ],
+    [
+     "C. J. Miles",
+     "Miles"
+    ],
+    [
+     "Ricky Sánchez",
+     "Sánchez"
+    ],
+    [
+     "Ersan İlyasova",
+     "İlyasova"
+    ],
+    [
+     "Ronny Turiaf",
+     "Turiaf"
+    ],
+    [
+     "Travis Diener",
+     "Diener"
+    ],
+    [
+     "Von Wafer",
+     "Wafer"
+    ],
+    [
+     "Roko Ukić",
+     "Ukić"
+    ],
+    [
+     "Chris Taft",
+     "Taft"
+    ],
+    [
+     "Mile Ilić",
+     "Ilić"
+    ],
+    [
+     "Martynas Andriuškevičius",
+     "Andriuškevičius"
+    ],
+    [
+     "Erazem Lorbek",
+     "Lorbek"
+    ],
+    "Bracey Wright",
+    [
+     "Mickaël Gelabale",
+     "Gelabale"
+    ],
+    [
+     "Andray Blatche",
+     "Blatche"
+    ],
+    [
+     "Ryan Gomes",
+     "Gomes"
+    ],
+    [
+     "Robert Whaley",
+     "Whaley"
+    ],
+    [
+     "Axel Hervelle",
+     "Hervelle"
+    ],
+    [
+     "Orien Greene",
+     "Greene"
+    ],
+    [
+     "Dijon Thompson",
+     "Thompson"
+    ],
+    [
+     "Lawrence Roberts",
+     "Roberts"
+    ],
+    [
+     "Uroš Slokar",
+     "Slokar"
+    ],
+    [
+     "Cenk Akyol",
+     "Akyol"
+    ],
+    [
+     "Alex Acker",
+     "Acker"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-draft-2004",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 2004 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "Dwight Howard",
+     "D12",
+     "Superman",
+     "Howard"
+    ],
+    [
+     "Emeka Okafor",
+     "Okafor"
+    ],
+    [
+     "Andre Iguodala",
+     "Iguodala"
+    ],
+    [
+     "Luol Deng",
+     "Deng"
+    ],
+    [
+     "Ben Gordon",
+     "Gordon"
+    ],
+    [
+     "Shaun Livingston",
+     "Livingston"
+    ],
+    "Josh Smith",
+    "J. R. Smith",
+    [
+     "Al Jefferson",
+     "Jefferson"
+    ],
+    [
+     "Trevor Ariza",
+     "Ariza"
+    ],
+    [
+     "Kevin Martin",
+     "Martin"
+    ],
+    [
+     "Anderson Varejão",
+     "Varejão"
+    ],
+    [
+     "Devin Harris",
+     "Harris"
+    ],
+    [
+     "Josh Childress",
+     "Childress"
+    ],
+    [
+     "Rafael Araújo",
+     "Araújo"
+    ],
+    [
+     "Luke Jackson",
+     "Jackson"
+    ],
+    [
+     "Andris Biedriņš",
+     "Biedriņš"
+    ],
+    [
+     "Robert Swift",
+     "Swift"
+    ],
+    [
+     "Sebastian Telfair",
+     "Telfair"
+    ],
+    [
+     "Kris Humphries",
+     "Humphries"
+    ],
+    [
+     "Kirk Snyder",
+     "Snyder"
+    ],
+    "Dorell Wright",
+    [
+     "Jameer Nelson",
+     "Nelson"
+    ],
+    [
+     "Pavel Podkolzin",
+     "Podkolzin"
+    ],
+    [
+     "Victor Khryapa",
+     "Khryapa"
+    ],
+    [
+     "Sergei Monia",
+     "Monia"
+    ],
+    [
+     "Delonte West",
+     "West"
+    ],
+    [
+     "Tony Allen",
+     "Allen"
+    ],
+    [
+     "Saša Vujačić",
+     "Vujačić"
+    ],
+    [
+     "Beno Udrih",
+     "Udrih"
+    ],
+    [
+     "David Harrison",
+     "Harrison"
+    ],
+    [
+     "Jackson Vroman",
+     "Vroman"
+    ],
+    [
+     "Peter John Ramos",
+     "Ramos"
+    ],
+    [
+     "Lionel Chalmers",
+     "Chalmers"
+    ],
+    "Donta Smith",
+    [
+     "Andre Emmett",
+     "Emmett"
+    ],
+    [
+     "Antonio Burks",
+     "Burks"
+    ],
+    [
+     "Royal Ivey",
+     "Ivey"
+    ],
+    [
+     "Chris Duhon",
+     "Duhon"
+    ],
+    [
+     "Albert Miralles",
+     "Miralles"
+    ],
+    [
+     "Justin Reed",
+     "Reed"
+    ],
+    [
+     "David Young",
+     "Young"
+    ],
+    [
+     "Viktor Sanikidze",
+     "Sanikidze"
+    ],
+    [
+     "Tim Pickett",
+     "Pickett"
+    ],
+    [
+     "Bernard Robinson",
+     "Robinson"
+    ],
+    [
+     "Ha Seung-Jin",
+     "Seung-Jin"
+    ],
+    [
+     "Pape Sow",
+     "Sow"
+    ],
+    [
+     "Ricky Minard",
+     "Minard"
+    ],
+    [
+     "Serhiy Lishchuk",
+     "Lishchuk"
+    ],
+    [
+     "Vassilis Spanoulis",
+     "Spanoulis"
+    ],
+    [
+     "Christian Drejer",
+     "Drejer"
+    ],
+    [
+     "Romain Sato",
+     "Sato"
+    ],
+    [
+     "Matt Freije",
+     "Freije"
+    ],
+    [
+     "Rickey Paulding",
+     "Paulding"
+    ],
+    [
+     "Luis Flores",
+     "Flores"
+    ],
+    [
+     "Marcus Douthit",
+     "Douthit"
+    ],
+    [
+     "Sergei Karaulov",
+     "Karaulov"
+    ],
+    [
+     "Blake Stepp",
+     "Stepp"
+    ],
+    "Rashad Wright"
+   ]
+  },
+  {
+   "id": "nba-i-draft-2002",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 2002 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "Yao Ming",
+     "Ming"
+    ],
+    [
+     "Amar'e Stoudemire",
+     "Stoudemire"
+    ],
+    [
+     "Carlos Boozer",
+     "Boozer"
+    ],
+    "Caron Butler",
+    [
+     "Tayshaun Prince",
+     "Prince"
+    ],
+    [
+     "Nenê Hilario",
+     "Nene",
+     "Nenê",
+     "Hilario"
+    ],
+    "Jay Williams",
+    [
+     "Luis Scola",
+     "Scola"
+    ],
+    [
+     "Matt Barnes",
+     "Barnes"
+    ],
+    [
+     "Juan Dixon",
+     "Dixon"
+    ],
+    [
+     "Drew Gooden",
+     "Gooden"
+    ],
+    [
+     "Mike Dunleavy Jr.",
+     "Dunleavy"
+    ],
+    [
+     "Nikoloz Tskitishvili",
+     "Tskitishvili"
+    ],
+    [
+     "Dajuan Wagner",
+     "Wagner"
+    ],
+    [
+     "Chris Wilcox",
+     "Wilcox"
+    ],
+    [
+     "Jared Jeffries",
+     "Jeffries"
+    ],
+    [
+     "Melvin Ely",
+     "Ely"
+    ],
+    [
+     "Marcus Haislip",
+     "Haislip"
+    ],
+    [
+     "Fred Jones",
+     "Jones"
+    ],
+    [
+     "Boštjan Nachbar",
+     "Nachbar"
+    ],
+    [
+     "Jiří Welsch",
+     "Welsch"
+    ],
+    [
+     "Curtis Borchardt",
+     "Borchardt"
+    ],
+    [
+     "Ryan Humphrey",
+     "Humphrey"
+    ],
+    [
+     "Kareem Rush",
+     "Rush"
+    ],
+    [
+     "Qyntel Woods",
+     "Woods"
+    ],
+    [
+     "Casey Jacobsen",
+     "Jacobsen"
+    ],
+    [
+     "Nenad Krstić",
+     "Krstić"
+    ],
+    "Frank Williams",
+    [
+     "John Salmons",
+     "Salmons"
+    ],
+    [
+     "Chris Jefferies",
+     "Jefferies"
+    ],
+    [
+     "Dan Dickau",
+     "Dickau"
+    ],
+    [
+     "Steve Logan",
+     "Logan"
+    ],
+    [
+     "Roger Mason Jr.",
+     "Mason"
+    ],
+    [
+     "Robert Archibald",
+     "Archibald"
+    ],
+    [
+     "Vincent Yarbrough",
+     "Yarbrough"
+    ],
+    [
+     "Dan Gadzuric",
+     "Gadzuric"
+    ],
+    [
+     "Miloš Vujanić",
+     "Vujanić"
+    ],
+    [
+     "David Andersen",
+     "Andersen"
+    ],
+    [
+     "Tito Maddox",
+     "Maddox"
+    ],
+    [
+     "Rod Grizzard",
+     "Grizzard"
+    ],
+    [
+     "Juan Carlos Navarro",
+     "Navarro"
+    ],
+    [
+     "Mario Kasun",
+     "Kasun"
+    ],
+    [
+     "Ronald Murray",
+     "Murray"
+    ],
+    [
+     "Jason Jennings",
+     "Jennings"
+    ],
+    [
+     "Lonny Baxter",
+     "Baxter"
+    ],
+    [
+     "Sam Clancy",
+     "Clancy"
+    ],
+    [
+     "Jamal Sampson",
+     "Sampson"
+    ],
+    [
+     "Chris Owens",
+     "Owens"
+    ],
+    [
+     "Peter Fehse",
+     "Fehse"
+    ],
+    [
+     "Darius Songaila",
+     "Songaila"
+    ],
+    [
+     "Federico Kammerichs",
+     "Kammerichs"
+    ],
+    [
+     "Marcus Taylor",
+     "Taylor"
+    ],
+    "Rasual Butler",
+    [
+     "Tamar Slay",
+     "Slay"
+    ],
+    [
+     "Mladen Šekularac",
+     "Šekularac"
+    ],
+    [
+     "Randy Holcomb",
+     "Holcomb"
+    ],
+    [
+     "Corsley Edwards",
+     "Edwards"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-draft-2001",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 2001 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "Pau Gasol",
+     "Gasol"
+    ],
+    [
+     "Tony Parker",
+     "TP",
+     "Parker"
+    ],
+    [
+     "Gilbert Arenas",
+     "Arenas"
+    ],
+    "Joe Johnson",
+    [
+     "Shane Battier",
+     "Battier"
+    ],
+    [
+     "Zach Randolph",
+     "Randolph"
+    ],
+    [
+     "Richard Jefferson",
+     "Jefferson"
+    ],
+    [
+     "Jason Richardson",
+     "Richardson"
+    ],
+    [
+     "Eddy Curry",
+     "Curry"
+    ],
+    [
+     "Gerald Wallace",
+     "Wallace"
+    ],
+    [
+     "Mehmet Okur",
+     "Okur"
+    ],
+    [
+     "Brian Scalabrine",
+     "Scalabrine"
+    ],
+    [
+     "Eddie Griffin",
+     "Griffin"
+    ],
+    [
+     "DeSagana Diop",
+     "Diop"
+    ],
+    [
+     "Rodney White",
+     "White"
+    ],
+    "Kedrick Brown",
+    [
+     "Vladimir Radmanović",
+     "Radmanović"
+    ],
+    [
+     "Troy Murphy",
+     "Murphy"
+    ],
+    [
+     "Steven Hunter",
+     "Hunter"
+    ],
+    [
+     "Kirk Haston",
+     "Haston"
+    ],
+    [
+     "Michael Bradley",
+     "Bradley"
+    ],
+    "Jason Collins",
+    [
+     "Brendan Haywood",
+     "Haywood"
+    ],
+    [
+     "Joseph Forte",
+     "Forte"
+    ],
+    [
+     "Jeryl Sasser",
+     "Sasser"
+    ],
+    [
+     "Brandon Armstrong",
+     "Armstrong"
+    ],
+    [
+     "Raül López",
+     "López"
+    ],
+    [
+     "Samuel Dalembert",
+     "Dalembert"
+    ],
+    [
+     "Jamaal Tinsley",
+     "Tinsley"
+    ],
+    [
+     "Trenton Hassell",
+     "Hassell"
+    ],
+    [
+     "Omar Cook",
+     "Cook"
+    ],
+    [
+     "Will Solomon",
+     "Solomon"
+    ],
+    [
+     "Terence Morris",
+     "Morris"
+    ],
+    [
+     "Jeff Trepagnier",
+     "Trepagnier"
+    ],
+    "Damone Brown",
+    [
+     "Michael Wright",
+     "Wright"
+    ],
+    [
+     "Earl Watson",
+     "Watson"
+    ],
+    [
+     "Jamison Brewer",
+     "Brewer"
+    ],
+    [
+     "Bobby Simmons",
+     "Simmons"
+    ],
+    [
+     "Eric Chenowith",
+     "Chenowith"
+    ],
+    [
+     "Kyle Hill",
+     "Hill"
+    ],
+    [
+     "Sean Lampley",
+     "Lampley"
+    ],
+    [
+     "Loren Woods",
+     "Woods"
+    ],
+    [
+     "Ousmane Cisse",
+     "Cisse"
+    ],
+    [
+     "Antonis Fotsis",
+     "Fotsis"
+    ],
+    "Ken Johnson",
+    [
+     "Ruben Boumtje-Boumtje",
+     "Boumtje-Boumtje"
+    ],
+    [
+     "Alton Ford",
+     "Ford"
+    ],
+    [
+     "Andre Hutson",
+     "Hutson"
+    ],
+    "Jarron Collins",
+    [
+     "Kenny Satterfield",
+     "Satterfield"
+    ],
+    [
+     "Maurice Jeffers",
+     "Jeffers"
+    ],
+    [
+     "Robertas Javtokas",
+     "Javtokas"
+    ],
+    [
+     "Alvin Jones",
+     "Jones"
+    ],
+    [
+     "Bryan Bracey",
+     "Bracey"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-draft-2000",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 2000 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "Kenyon Martin",
+     "Martin"
+    ],
+    [
+     "Jamal Crawford",
+     "Crawford"
+    ],
+    [
+     "Hedo Türkoğlu",
+     "Türkoğlu"
+    ],
+    [
+     "Michael Redd",
+     "Redd"
+    ],
+    [
+     "Mike Miller",
+     "Miller"
+    ],
+    [
+     "Darius Miles",
+     "Miles"
+    ],
+    [
+     "Eddie House",
+     "House"
+    ],
+    [
+     "Quentin Richardson",
+     "Richardson"
+    ],
+    [
+     "Jamaal Magloire",
+     "Magloire"
+    ],
+    [
+     "Morris Peterson",
+     "Peterson"
+    ],
+    [
+     "Stromile Swift",
+     "Swift"
+    ],
+    [
+     "Marcus Fizer",
+     "Fizer"
+    ],
+    [
+     "DerMarr Johnson",
+     "Johnson"
+    ],
+    [
+     "Chris Mihm",
+     "Mihm"
+    ],
+    [
+     "Joel Przybilla",
+     "Przybilla"
+    ],
+    [
+     "Keyon Dooling",
+     "Dooling"
+    ],
+    [
+     "Jérome Moïso",
+     "Moïso"
+    ],
+    [
+     "Etan Thomas",
+     "Thomas"
+    ],
+    [
+     "Courtney Alexander",
+     "Alexander"
+    ],
+    [
+     "Mateen Cleaves",
+     "Cleaves"
+    ],
+    [
+     "Jason Collier",
+     "Collier"
+    ],
+    [
+     "Desmond Mason",
+     "Mason"
+    ],
+    [
+     "Speedy Claxton",
+     "Claxton"
+    ],
+    [
+     "Donnell Harvey",
+     "Harvey"
+    ],
+    [
+     "DeShawn Stevenson",
+     "Stevenson"
+    ],
+    [
+     "Dalibor Bagarić",
+     "Bagarić"
+    ],
+    [
+     "Jake Tsakalidis",
+     "Tsakalidis"
+    ],
+    [
+     "Mamadou N'Diaye",
+     "N'Diaye"
+    ],
+    [
+     "Primož Brezec",
+     "Brezec"
+    ],
+    [
+     "Erick Barkley",
+     "Barkley"
+    ],
+    [
+     "Mark Madsen",
+     "Madsen"
+    ],
+    [
+     "Marko Jarić",
+     "Jarić"
+    ],
+    [
+     "Dan Langhi",
+     "Langhi"
+    ],
+    [
+     "A.J. Guyton",
+     "Guyton"
+    ],
+    [
+     "Jake Voskuhl",
+     "Voskuhl"
+    ],
+    [
+     "Khalid El-Amin",
+     "El-Amin"
+    ],
+    "Mike Smith",
+    [
+     "Soumaila Samake",
+     "Samake"
+    ],
+    [
+     "Eduardo Nájera",
+     "Nájera"
+    ],
+    [
+     "Lavor Postell",
+     "Postell"
+    ],
+    [
+     "Hanno Möttölä",
+     "Möttölä"
+    ],
+    [
+     "Chris Carrawell",
+     "Carrawell"
+    ],
+    [
+     "Olumide Oyedeji",
+     "Oyedeji"
+    ],
+    [
+     "Brian Cardinal",
+     "Cardinal"
+    ],
+    "Jabari Smith",
+    [
+     "DeeAndre Hulett",
+     "Hulett"
+    ],
+    [
+     "Josip Sesar",
+     "Sesar"
+    ],
+    [
+     "Mark Karcher",
+     "Karcher"
+    ],
+    [
+     "Jason Hart",
+     "Hart"
+    ],
+    [
+     "Kaniel Dickens",
+     "Dickens"
+    ],
+    [
+     "Igor Rakočević",
+     "Rakočević"
+    ],
+    [
+     "Ernest Brown",
+     "Brown"
+    ],
+    [
+     "Dan McClintock",
+     "McClintock"
+    ],
+    [
+     "Cory Hightower",
+     "Hightower"
+    ],
+    [
+     "Chris Porter",
+     "Porter"
+    ],
+    [
+     "Jaquay Walls",
+     "Walls"
+    ],
+    [
+     "Scoonie Penn",
+     "Penn"
+    ],
+    [
+     "Pete Mickeal",
+     "Mickeal"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-draft-1999",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 1999 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "Elton Brand",
+     "Brand"
+    ],
+    [
+     "Steve Francis",
+     "Francis"
+    ],
+    [
+     "Baron Davis",
+     "Davis"
+    ],
+    [
+     "Lamar Odom",
+     "Odom"
+    ],
+    [
+     "Shawn Marion",
+     "Marion"
+    ],
+    [
+     "Manu Ginóbili",
+     "Manu Ginobili",
+     "Manu",
+     "Ginobili"
+    ],
+    [
+     "Andre Miller",
+     "Miller"
+    ],
+    [
+     "Ron Artest",
+     "Metta World Peace",
+     "Metta Sandiford-Artest",
+     "Metta Artest",
+     "Metta",
+     "Artest"
+    ],
+    "Richard Hamilton",
+    [
+     "Jason Terry",
+     "Terry"
+    ],
+    [
+     "Wally Szczerbiak",
+     "Szczerbiak"
+    ],
+    [
+     "Andrei Kirilenko",
+     "Kirilenko"
+    ],
+    [
+     "Jonathan Bender",
+     "Bender"
+    ],
+    [
+     "Trajan Langdon",
+     "Langdon"
+    ],
+    [
+     "Aleksandar Radojević",
+     "Radojević"
+    ],
+    [
+     "Corey Maggette",
+     "Maggette"
+    ],
+    [
+     "Will Avery",
+     "Avery"
+    ],
+    [
+     "Frédéric Weis",
+     "Weis"
+    ],
+    [
+     "Cal Bowdler",
+     "Bowdler"
+    ],
+    [
+     "James Posey",
+     "Posey"
+    ],
+    [
+     "Quincy Lewis",
+     "Lewis"
+    ],
+    [
+     "Dion Glover",
+     "Glover"
+    ],
+    [
+     "Jeff Foster",
+     "Foster"
+    ],
+    [
+     "Kenny Thomas",
+     "Thomas"
+    ],
+    [
+     "Devean George",
+     "George"
+    ],
+    [
+     "Tim James",
+     "James"
+    ],
+    [
+     "Vonteego Cummings",
+     "Cummings"
+    ],
+    [
+     "Jumaine Jones",
+     "Jones"
+    ],
+    [
+     "Scott Padgett",
+     "Padgett"
+    ],
+    "Leon Smith",
+    [
+     "John Celestand",
+     "Celestand"
+    ],
+    [
+     "Rico Hill",
+     "Hill"
+    ],
+    [
+     "Michael Ruffin",
+     "Ruffin"
+    ],
+    [
+     "Chris Herren",
+     "Herren"
+    ],
+    [
+     "Evan Eschmeyer",
+     "Eschmeyer"
+    ],
+    [
+     "Calvin Booth",
+     "Booth"
+    ],
+    [
+     "Wang Zhizhi",
+     "Zhizhi"
+    ],
+    [
+     "Obinna Ekezie",
+     "Ekezie"
+    ],
+    [
+     "Laron Profit",
+     "Profit"
+    ],
+    [
+     "A. J. Bramlett",
+     "Bramlett"
+    ],
+    [
+     "Gordan Giriček",
+     "Giriček"
+    ],
+    [
+     "Francisco Elson",
+     "Elson"
+    ],
+    [
+     "Louis Bullock",
+     "Bullock"
+    ],
+    [
+     "Lee Nailon",
+     "Nailon"
+    ],
+    [
+     "Tyrone Washington",
+     "Washington"
+    ],
+    [
+     "Ryan Robertson",
+     "Robertson"
+    ],
+    [
+     "J. R. Koch",
+     "Koch"
+    ],
+    [
+     "Todd MacCulloch",
+     "MacCulloch"
+    ],
+    "Galen Young",
+    [
+     "Lari Ketner",
+     "Ketner"
+    ],
+    "Venson Hamilton",
+    "Antwain Smith",
+    [
+     "Roberto Bergersen",
+     "Bergersen"
+    ],
+    [
+     "Rodney Buford",
+     "Buford"
+    ],
+    [
+     "Melvin Levett",
+     "Levett"
+    ],
+    [
+     "Kris Clack",
+     "Clack"
+    ],
+    "Tim Young",
+    [
+     "Eddie Lucas",
+     "Lucas"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "nba-i-draft-1997",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted in the 1997 NBA draft (selected, whether or not they ever played)",
+   "answers": [
+    [
+     "Tim Duncan",
+     "Timmy",
+     "Duncan"
+    ],
+    [
+     "Tracy McGrady",
+     "McGrady"
+    ],
+    [
+     "Chauncey Billups",
+     "Billups"
+    ],
+    "Stephen Jackson",
+    "Bobby Jackson",
+    [
+     "Keith Van Horn",
+     "Van Horn"
+    ],
+    [
+     "Tony Battie",
+     "Battie"
+    ],
+    "Maurice Taylor",
+    [
+     "Brevin Knight",
+     "Knight"
+    ],
+    [
+     "Austin Croshere",
+     "Croshere"
+    ],
+    [
+     "God Shammgod",
+     "Shammgod"
+    ],
+    [
+     "Antonio Daniels",
+     "Daniels"
+    ],
+    [
+     "Ron Mercer",
+     "Mercer"
+    ],
+    "Tim Thomas",
+    [
+     "Adonal Foyle",
+     "Foyle"
+    ],
+    [
+     "Danny Fortson",
+     "Fortson"
+    ],
+    [
+     "Tariq Abdul-Wahad",
+     "Abdul-Wahad"
+    ],
+    [
+     "Derek Anderson",
+     "Anderson"
+    ],
+    [
+     "Kelvin Cato",
+     "Cato"
+    ],
+    "Johnny Taylor",
+    [
+     "Chris Anstey",
+     "Anstey"
+    ],
+    [
+     "Scot Pollard",
+     "Pollard"
+    ],
+    [
+     "Paul Grant",
+     "Grant"
+    ],
+    [
+     "Anthony Parker",
+     "Parker"
+    ],
+    [
+     "Ed Gray",
+     "Gray"
+    ],
+    [
+     "Rodrick Rhodes",
+     "Rhodes"
+    ],
+    "John Thomas",
+    [
+     "Charles Smith",
+     "Smith"
+    ],
+    [
+     "Jacque Vaughn",
+     "Vaughn"
+    ],
+    [
+     "Keith Booth",
+     "Booth"
+    ],
+    [
+     "Serge Zwikker",
+     "Zwikker"
+    ],
+    [
+     "Mark Sanford",
+     "Sanford"
+    ],
+    [
+     "Charles O'Bannon",
+     "O'Bannon"
+    ],
+    [
+     "James Cotton",
+     "Cotton"
+    ],
+    [
+     "Marko Milič",
+     "Milič"
+    ],
+    [
+     "Bubba Wells",
+     "Wells"
+    ],
+    [
+     "Kebu Stewart",
+     "Stewart"
+    ],
+    [
+     "James Collins",
+     "Collins"
+    ],
+    "Marc Jackson",
+    [
+     "Jerald Honeycutt",
+     "Honeycutt"
+    ],
+    [
+     "Anthony Johnson",
+     "Johnson"
+    ],
+    [
+     "Ed Elisma",
+     "Elisma"
+    ],
+    [
+     "Jason Lawson",
+     "Lawson"
+    ],
+    [
+     "Gordon Malone",
+     "Malone"
+    ],
+    [
+     "Cedric Henderson",
+     "Henderson"
+    ],
+    [
+     "Eric Washington",
+     "Washington"
+    ],
+    [
+     "Alvin Williams",
+     "Williams"
+    ],
+    [
+     "Predrag Drobnjak",
+     "Drobnjak"
+    ],
+    [
+     "Alain Digbeu",
+     "Digbeu"
+    ],
+    [
+     "Chris Crawford",
+     "Crawford"
+    ],
+    [
+     "DeJuan Wheat",
+     "Wheat"
+    ],
+    [
+     "C.J. Bruton",
+     "Bruton"
+    ],
+    [
+     "Paul Rogers",
+     "Rogers"
+    ],
+    [
+     "Mark Blount",
+     "Blount"
+    ],
+    [
+     "Ben Pepper",
+     "Pepper"
+    ],
+    [
+     "Nate Erdmann",
+     "Erdmann"
+    ],
+    [
+     "Roberto Dueñas",
+     "Dueñas"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "nba-i-finals-2018-warriors",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player on the 2018 Golden State Warriors championship roster (2017-18 season, as listed on Wikipedia)",
+   "answers": [
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Klay Thompson",
+     "Thompson"
+    ],
+    [
+     "Draymond Green",
+     "Draymond",
+     "Green"
+    ],
+    [
+     "Andre Iguodala",
+     "Iguodala"
+    ],
+    [
+     "Shaun Livingston",
+     "Livingston"
+    ],
+    [
+     "JaVale McGee",
+     "Javale McGee",
+     "McGee"
+    ],
+    [
+     "Zaza Pachulia",
+     "Pachulia"
+    ],
+    [
+     "Kevon Looney",
+     "Looney"
+    ],
+    [
+     "David West",
+     "West"
+    ],
+    [
+     "Nick Young",
+     "Young"
+    ],
+    [
+     "Jordan Bell",
+     "Bell"
+    ],
+    [
+     "Chris Boucher",
+     "Boucher"
+    ],
+    [
+     "Quinn Cook",
+     "Cook"
+    ],
+    [
+     "Damian Jones",
+     "Jones"
+    ],
+    [
+     "Patrick McCaw",
+     "McCaw"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-finals-2009-lakers",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player on the 2009 Los Angeles Lakers championship roster (2008-09 season, as listed on Wikipedia)",
+   "answers": [
+    [
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant"
+    ],
+    [
+     "Pau Gasol",
+     "Gasol"
+    ],
+    [
+     "Lamar Odom",
+     "Odom"
+    ],
+    [
+     "Andrew Bynum",
+     "Bynum"
+    ],
+    [
+     "Derek Fisher",
+     "Fisher"
+    ],
+    [
+     "Trevor Ariza",
+     "Ariza"
+    ],
+    [
+     "Luke Walton",
+     "Walton"
+    ],
+    [
+     "Shannon Brown",
+     "Brown"
+    ],
+    [
+     "Jordan Farmar",
+     "Farmar"
+    ],
+    [
+     "D. J. Mbenga",
+     "Mbenga"
+    ],
+    [
+     "Adam Morrison",
+     "Morrison"
+    ],
+    [
+     "Josh Powell",
+     "Powell"
+    ],
+    [
+     "Sasha Vujačić",
+     "Vujačić"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-finals-2007-spurs",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player on the 2007 San Antonio Spurs championship roster (2006-07 season, as listed on Wikipedia)",
+   "answers": [
+    [
+     "Tim Duncan",
+     "Timmy",
+     "Duncan"
+    ],
+    [
+     "Tony Parker",
+     "TP",
+     "Parker"
+    ],
+    [
+     "Manu Ginobili",
+     "Manu",
+     "Ginobili"
+    ],
+    [
+     "Robert Horry",
+     "Horry"
+    ],
+    [
+     "Bruce Bowen",
+     "Bowen"
+    ],
+    [
+     "Michael Finley",
+     "Finley"
+    ],
+    [
+     "Fabricio Oberto",
+     "Oberto"
+    ],
+    [
+     "Brent Barry",
+     "Barry"
+    ],
+    [
+     "Matt Bonner",
+     "Bonner"
+    ],
+    [
+     "Jackie Butler",
+     "Butler"
+    ],
+    [
+     "Francisco Elson",
+     "Elson"
+    ],
+    [
+     "Melvin Ely",
+     "Ely"
+    ],
+    [
+     "Beno Udrih",
+     "Udrih"
+    ],
+    [
+     "Jacque Vaughn",
+     "Vaughn"
+    ],
+    [
+     "James White",
+     "White"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-finals-2006-heat",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player on the 2006 Miami Heat championship roster (2005-06 season, as listed on Wikipedia)",
+   "answers": [
+    [
+     "Dwyane Wade",
+     "D-Wade",
+     "Flash",
+     "Wade"
+    ],
+    [
+     "Shaquille O'Neal",
+     "Shaq",
+     "Shaquille Oneal",
+     "O'Neal"
+    ],
+    [
+     "Alonzo Mourning",
+     "Mourning"
+    ],
+    [
+     "Gary Payton",
+     "Payton"
+    ],
+    [
+     "Antoine Walker",
+     "Walker"
+    ],
+    [
+     "Udonis Haslem",
+     "Haslem"
+    ],
+    [
+     "Jason Williams",
+     "Williams"
+    ],
+    [
+     "James Posey",
+     "Posey"
+    ],
+    "Derek Anderson",
+    "Shandon Anderson",
+    [
+     "Earl Barron",
+     "Barron"
+    ],
+    [
+     "Michael Doleac",
+     "Doleac"
+    ],
+    [
+     "Jason Kapono",
+     "Kapono"
+    ],
+    [
+     "Wayne Simien",
+     "Simien"
+    ],
+    [
+     "Dorell Wright",
+     "Wright"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-finals-2003-spurs",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player on the 2003 San Antonio Spurs championship roster (2002-03 season, as listed on Wikipedia)",
+   "answers": [
+    [
+     "Tim Duncan",
+     "Timmy",
+     "Duncan"
+    ],
+    [
+     "David Robinson",
+     "The Admiral",
+     "Robinson"
+    ],
+    [
+     "Tony Parker",
+     "TP",
+     "Parker"
+    ],
+    [
+     "Manu Ginóbili",
+     "Manu Ginobili",
+     "Manu",
+     "Ginobili"
+    ],
+    [
+     "Stephen Jackson",
+     "Jackson"
+    ],
+    [
+     "Steve Kerr",
+     "Kerr"
+    ],
+    [
+     "Bruce Bowen",
+     "Bowen"
+    ],
+    [
+     "Malik Rose",
+     "Rose"
+    ],
+    [
+     "Mengke Bateer",
+     "Bateer"
+    ],
+    [
+     "Speedy Claxton",
+     "Claxton"
+    ],
+    [
+     "Danny Ferry",
+     "Ferry"
+    ],
+    [
+     "Steve Smith",
+     "Smith"
+    ],
+    [
+     "Kevin Willis",
+     "Willis"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-finals-2002-lakers",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player on the 2002 Los Angeles Lakers championship roster (2001-02 season, as listed on Wikipedia)",
+   "answers": [
+    [
+     "Shaquille O'Neal",
+     "Shaq",
+     "Shaquille Oneal",
+     "O'Neal"
+    ],
+    [
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant"
+    ],
+    [
+     "Derek Fisher",
+     "Fisher"
+    ],
+    [
+     "Robert Horry",
+     "Horry"
+    ],
+    [
+     "Rick Fox",
+     "Fox"
+    ],
+    [
+     "Brian Shaw",
+     "Shaw"
+    ],
+    [
+     "Devean George",
+     "George"
+    ],
+    [
+     "Lindsey Hunter",
+     "Hunter"
+    ],
+    [
+     "Mark Madsen",
+     "Madsen"
+    ],
+    [
+     "Jelani McCoy",
+     "McCoy"
+    ],
+    [
+     "Slava Medvedenko",
+     "Medvedenko"
+    ],
+    [
+     "Mitch Richmond",
+     "Richmond"
+    ],
+    [
+     "Samaki Walker",
+     "Walker"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-finals-2000-lakers",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player on the 2000 Los Angeles Lakers championship roster (1999-2000 season, as listed on Wikipedia)",
+   "answers": [
+    [
+     "Shaquille O'Neal",
+     "Shaq",
+     "Shaquille Oneal",
+     "O'Neal"
+    ],
+    [
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant"
+    ],
+    [
+     "Glen Rice",
+     "Rice"
+    ],
+    [
+     "Ron Harper",
+     "Harper"
+    ],
+    [
+     "Rick Fox",
+     "Fox"
+    ],
+    [
+     "Robert Horry",
+     "Horry"
+    ],
+    [
+     "Derek Fisher",
+     "Fisher"
+    ],
+    [
+     "A.C. Green",
+     "Green"
+    ],
+    [
+     "John Celestand",
+     "Celestand"
+    ],
+    [
+     "Devean George",
+     "George"
+    ],
+    [
+     "Travis Knight",
+     "Knight"
+    ],
+    [
+     "Tyronn Lue",
+     "Lue"
+    ],
+    [
+     "John Salley",
+     "Salley"
+    ],
+    [
+     "Brian Shaw",
+     "Shaw"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-finals-1998-bulls",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player on the 1998 Chicago Bulls championship roster (1997-98 season, as listed on Wikipedia)",
+   "answers": [
+    [
+     "Michael Jordan",
+     "MJ",
+     "Air Jordan",
+     "Jordan"
+    ],
+    [
+     "Scottie Pippen",
+     "Pippen"
+    ],
+    [
+     "Dennis Rodman",
+     "The Worm",
+     "Rodman"
+    ],
+    [
+     "Toni Kukoč",
+     "Kukoč"
+    ],
+    [
+     "Steve Kerr",
+     "Kerr"
+    ],
+    [
+     "Ron Harper",
+     "Harper"
+    ],
+    [
+     "Luc Longley",
+     "Longley"
+    ],
+    [
+     "Randy Brown",
+     "Brown"
+    ],
+    [
+     "Keith Booth",
+     "Booth"
+    ],
+    [
+     "Jud Buechler",
+     "Buechler"
+    ],
+    [
+     "Scott Burrell",
+     "Burrell"
+    ],
+    [
+     "Joe Kleine",
+     "Kleine"
+    ],
+    [
+     "Rusty LaRue",
+     "LaRue"
+    ],
+    [
+     "Dickey Simpkins",
+     "Simpkins"
+    ],
+    [
+     "Bill Wennington",
+     "Wennington"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-finals-1990-pistons",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player on the 1990 Detroit Pistons championship roster (1989-90 season, as listed on Wikipedia)",
+   "answers": [
+    [
+     "Isiah Thomas",
+     "Thomas"
+    ],
+    [
+     "Joe Dumars",
+     "Dumars"
+    ],
+    [
+     "Dennis Rodman",
+     "The Worm",
+     "Rodman"
+    ],
+    [
+     "Bill Laimbeer",
+     "Laimbeer"
+    ],
+    [
+     "Vinnie Johnson",
+     "Johnson"
+    ],
+    [
+     "Mark Aguirre",
+     "Aguirre"
+    ],
+    [
+     "John Salley",
+     "Salley"
+    ],
+    [
+     "James Edwards",
+     "Edwards"
+    ],
+    [
+     "William Bedford",
+     "Bedford"
+    ],
+    [
+     "Dave Greenwood",
+     "Greenwood"
+    ],
+    [
+     "Scott Hastings",
+     "Hastings"
+    ],
+    [
+     "Gerald Henderson",
+     "Henderson"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "nba-i-stats-ft-pct-top25",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player in the top 25 for career NBA regular-season free throw percentage (minimum 1,200 made, as of November 2026)",
+   "answers": [
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Steve Nash",
+     "Nash"
+    ],
+    [
+     "Ray Allen",
+     "Allen"
+    ],
+    [
+     "Reggie Miller",
+     "Miller"
+    ],
+    [
+     "Larry Bird",
+     "Bird"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Dirk Nowitzki",
+     "Dirk",
+     "Nowitzki"
+    ],
+    [
+     "Damian Lillard",
+     "Dame",
+     "Dame Lillard",
+     "Lillard"
+    ],
+    [
+     "Kyrie Irving",
+     "Kyrie Irvin",
+     "Irving"
+    ],
+    [
+     "Chauncey Billups",
+     "Billups"
+    ],
+    [
+     "Peja Stojaković",
+     "Peja Stojakovic",
+     "Peja",
+     "Stojakovic"
+    ],
+    [
+     "JJ Redick",
+     "J.J. Redick",
+     "JJ",
+     "Redick"
+    ],
+    [
+     "Mark Price",
+     "Price"
+    ],
+    [
+     "Rick Barry",
+     "Barry"
+    ],
+    [
+     "Calvin Murphy",
+     "Murphy"
+    ],
+    [
+     "Scott Skiles",
+     "Skiles"
+    ],
+    [
+     "Bill Sharman",
+     "Sharman"
+    ],
+    [
+     "Khris Middleton",
+     "Middleton"
+    ],
+    [
+     "Jordan Poole",
+     "Poole"
+    ],
+    [
+     "Jeff Hornacek",
+     "Hornacek"
+    ],
+    [
+     "Kyle Korver",
+     "Korver"
+    ],
+    [
+     "Danilo Gallinari",
+     "Gallinari"
+    ],
+    [
+     "Earl Boykins",
+     "Boykins"
+    ],
+    [
+     "Ricky Pierce",
+     "Pierce"
+    ],
+    [
+     "Devin Booker",
+     "Booker"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-fg-pct-top25",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player in the top 25 for career NBA regular-season field goal percentage (minimum 2,000 made, as of November 2026)",
+   "answers": [
+    [
+     "DeAndre Jordan",
+     "Jordan"
+    ],
+    [
+     "Rudy Gobert",
+     "Gobert"
+    ],
+    [
+     "Shaquille O'Neal",
+     "Shaq",
+     "Shaquille Oneal",
+     "O'Neal"
+    ],
+    [
+     "Dwight Howard",
+     "D12",
+     "Superman",
+     "Howard"
+    ],
+    [
+     "Tyson Chandler",
+     "Chandler"
+    ],
+    [
+     "Zion Williamson",
+     "Williamson"
+    ],
+    [
+     "Clint Capela",
+     "Capela"
+    ],
+    [
+     "Steven Adams",
+     "Adams"
+    ],
+    [
+     "Deandre Ayton",
+     "Ayton"
+    ],
+    [
+     "Jarrett Allen",
+     "Allen"
+    ],
+    [
+     "Jakob Pöltl",
+     "Jakob Poeltl",
+     "Poltl"
+    ],
+    [
+     "Montrezl Harrell",
+     "Harrell"
+    ],
+    [
+     "Ivica Zubac",
+     "Zubac"
+    ],
+    [
+     "Artis Gilmore",
+     "Gilmore"
+    ],
+    [
+     "Mason Plumlee",
+     "Plumlee"
+    ],
+    [
+     "Hassan Whiteside",
+     "Whiteside"
+    ],
+    [
+     "Mark West",
+     "West"
+    ],
+    [
+     "JaVale McGee",
+     "Javale McGee",
+     "McGee"
+    ],
+    "Steve Johnson",
+    [
+     "Darryl Dawkins",
+     "Dawkins"
+    ],
+    [
+     "James Donaldson",
+     "Donaldson"
+    ],
+    "Amir Johnson",
+    [
+     "Bo Outlaw",
+     "Outlaw"
+    ],
+    [
+     "Jeff Ruland",
+     "Ruland"
+    ],
+    [
+     "Jonas Valančiūnas",
+     "Valančiūnas"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-3p-pct-top25",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player in the top 25 for career NBA regular-season three-point percentage (minimum 250 made, as of November 2026)",
+   "answers": [
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph"
+    ],
+    [
+     "Steve Kerr",
+     "Kerr"
+    ],
+    [
+     "Kyle Korver",
+     "Korver"
+    ],
+    [
+     "Steve Nash",
+     "Nash"
+    ],
+    [
+     "JJ Redick",
+     "J.J. Redick",
+     "JJ",
+     "Redick"
+    ],
+    "Seth Curry",
+    [
+     "Klay Thompson",
+     "Thompson"
+    ],
+    [
+     "Joe Harris",
+     "Harris"
+    ],
+    [
+     "Luke Kennard",
+     "Kennard"
+    ],
+    [
+     "Hubert Davis",
+     "Davis"
+    ],
+    [
+     "Dražen Petrović",
+     "Drazen Petrovic",
+     "Petrovic"
+    ],
+    [
+     "Jason Kapono",
+     "Kapono"
+    ],
+    [
+     "Tim Legler",
+     "Legler"
+    ],
+    [
+     "Steve Novak",
+     "Novak"
+    ],
+    [
+     "B. J. Armstrong",
+     "Armstrong"
+    ],
+    [
+     "Kon Knueppel",
+     "Knueppel"
+    ],
+    [
+     "A. J. Green",
+     "Green"
+    ],
+    [
+     "Wesley Person",
+     "Person"
+    ],
+    [
+     "Anthony Morrow",
+     "Morrow"
+    ],
+    [
+     "Matt Bonner",
+     "Bonner"
+    ],
+    [
+     "Sam Hauser",
+     "Hauser"
+    ],
+    [
+     "Dana Barros",
+     "Barros"
+    ],
+    [
+     "Doug McDermott",
+     "McDermott"
+    ],
+    [
+     "Bryn Forbes",
+     "Forbes"
+    ],
+    [
+     "Joe Ingles",
+     "Ingles"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-64-win-teams",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a team that has won 64 or more games in an NBA regular season (to the 2025-26 season)",
+   "answers": [
+    [
+     "Golden State Warriors",
+     "Warriors",
+     "Golden State",
+     "GSW"
+    ],
+    [
+     "Chicago Bulls",
+     "Bulls",
+     "Chicago"
+    ],
+    [
+     "Los Angeles Lakers",
+     "Lakers",
+     "LA Lakers",
+     "Los Angeles"
+    ],
+    [
+     "Philadelphia 76ers",
+     "76ers",
+     "Sixers",
+     "Philadelphia"
+    ],
+    [
+     "Boston Celtics",
+     "Celtics",
+     "Boston"
+    ],
+    [
+     "Oklahoma City Thunder",
+     "Thunder",
+     "Oklahoma City",
+     "OKC"
+    ],
+    [
+     "Dallas Mavericks",
+     "Mavericks",
+     "Mavs",
+     "Dallas"
+    ],
+    [
+     "San Antonio Spurs",
+     "Spurs",
+     "San Antonio"
+    ],
+    [
+     "Milwaukee Bucks",
+     "Bucks",
+     "Milwaukee"
+    ],
+    [
+     "Cleveland Cavaliers",
+     "Cavaliers",
+     "Cavs",
+     "Cleveland"
+    ],
+    [
+     "Miami Heat",
+     "Heat",
+     "Miami"
+    ],
+    [
+     "Seattle SuperSonics",
+     "SuperSonics",
+     "Sonics",
+     "Seattle"
+    ],
+    [
+     "Utah Jazz",
+     "Jazz",
+     "Utah"
+    ],
+    [
+     "Detroit Pistons",
+     "Pistons",
+     "Detroit"
+    ],
+    [
+     "Phoenix Suns",
+     "Suns",
+     "Phoenix"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-playoff-50-points",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who has scored 50 or more points in an NBA playoff game (to the end of the 2026 playoffs)",
+   "answers": [
+    [
+     "Michael Jordan",
+     "MJ",
+     "Air Jordan",
+     "Jordan"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Wilt Chamberlain",
+     "Wilt",
+     "Wilt the Stilt",
+     "Chamberlain"
+    ],
+    [
+     "Allen Iverson",
+     "AI",
+     "The Answer",
+     "Iverson"
+    ],
+    [
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant"
+    ],
+    [
+     "Charles Barkley",
+     "Chuck",
+     "Sir Charles",
+     "Barkley"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "Jayson Tatum",
+     "Tatum"
+    ],
+    [
+     "Damian Lillard",
+     "Dame",
+     "Dame Lillard",
+     "Lillard"
+    ],
+    [
+     "Donovan Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Jamal Murray",
+     "Murray"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker"
+    ],
+    [
+     "Joel Embiid",
+     "Embiid"
+    ],
+    [
+     "Dirk Nowitzki",
+     "Dirk",
+     "Nowitzki"
+    ],
+    [
+     "Vince Carter",
+     "Vinsanity",
+     "Carter"
+    ],
+    [
+     "Jimmy Butler",
+     "Butler"
+    ],
+    [
+     "Ray Allen",
+     "Allen"
+    ],
+    [
+     "Elgin Baylor",
+     "Baylor"
+    ],
+    [
+     "Rick Barry",
+     "Barry"
+    ],
+    [
+     "John Havlicek",
+     "Havlicek"
+    ],
+    [
+     "Jerry West",
+     "West"
+    ],
+    [
+     "Sam Jones",
+     "Jones"
+    ],
+    [
+     "Sleepy Floyd",
+     "Floyd"
+    ],
+    [
+     "Russell Westbrook",
+     "Russ",
+     "Westbrook"
+    ],
+    [
+     "Bob Cousy",
+     "Cousy"
+    ],
+    [
+     "Bob Pettit",
+     "Pettit"
+    ],
+    [
+     "Billy Cunningham",
+     "Cunningham"
+    ],
+    [
+     "Bob McAdoo",
+     "McAdoo"
+    ],
+    [
+     "Dominique Wilkins",
+     "Wilkins"
+    ],
+    [
+     "Karl Malone",
+     "The Mailman",
+     "Malone"
+    ],
+    [
+     "Isaiah Thomas",
+     "Thomas"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-free-throws-made-leaders",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who has led the NBA in free throws made for a season (1946-47 to 2025-26)",
+   "answers": [
+    [
+     "Karl Malone",
+     "The Mailman"
+    ],
+    [
+     "James Harden",
+     "The Beard",
+     "Harden"
+    ],
+    [
+     "Michael Jordan",
+     "MJ",
+     "Air Jordan",
+     "Jordan"
+    ],
+    [
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Dwyane Wade",
+     "D-Wade",
+     "Flash",
+     "Wade"
+    ],
+    [
+     "Allen Iverson",
+     "AI",
+     "The Answer",
+     "Iverson"
+    ],
+    [
+     "Joel Embiid",
+     "Embiid"
+    ],
+    [
+     "Shai Gilgeous-Alexander",
+     "SGA",
+     "Shai",
+     "Gilgeous Alexander"
+    ],
+    [
+     "Wilt Chamberlain",
+     "Wilt",
+     "Wilt the Stilt",
+     "Chamberlain"
+    ],
+    [
+     "Oscar Robertson",
+     "Robertson"
+    ],
+    [
+     "Jerry West",
+     "West"
+    ],
+    [
+     "Charles Barkley",
+     "Chuck",
+     "Sir Charles",
+     "Barkley"
+    ],
+    [
+     "Moses Malone",
+     "Moses"
+    ],
+    [
+     "Tracy McGrady",
+     "McGrady"
+    ],
+    [
+     "Kevin Love",
+     "Love"
+    ],
+    [
+     "Joe Fulks",
+     "Fulks"
+    ],
+    [
+     "George Mikan",
+     "Mikan"
+    ],
+    [
+     "Paul Arizin",
+     "Arizin"
+    ],
+    [
+     "Neil Johnston",
+     "Johnston"
+    ],
+    [
+     "Dolph Schayes",
+     "Schayes"
+    ],
+    [
+     "George Yardley",
+     "Yardley"
+    ],
+    [
+     "Bob Pettit",
+     "Pettit"
+    ],
+    [
+     "Elgin Baylor",
+     "Baylor"
+    ],
+    [
+     "Rick Barry",
+     "Barry"
+    ],
+    [
+     "Dave Bing",
+     "Bing"
+    ],
+    [
+     "Tiny Archibald",
+     "Nate Archibald",
+     "Nate Tiny Archibald",
+     "Archibald"
+    ],
+    [
+     "Bob McAdoo",
+     "McAdoo"
+    ],
+    [
+     "Pete Maravich",
+     "Pistol Pete",
+     "Maravich"
+    ],
+    [
+     "Adrian Dantley",
+     "Dantley"
+    ],
+    [
+     "World B. Free",
+     "World B Free",
+     "Lloyd Free",
+     "Free"
+    ],
+    [
+     "David Robinson",
+     "The Admiral",
+     "Robinson"
+    ],
+    [
+     "Jerry Stackhouse",
+     "Stackhouse"
+    ],
+    [
+     "Corey Maggette",
+     "Maggette"
+    ],
+    [
+     "Kevin Martin",
+     "Martin"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-franchise-scoring-leaders",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who is the all-time leading scorer for an NBA franchise (as listed on Wikipedia, November 2026)",
+   "answers": [
+    [
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant"
+    ],
+    [
+     "Michael Jordan",
+     "MJ",
+     "Air Jordan",
+     "Jordan"
+    ],
+    [
+     "Karl Malone",
+     "The Mailman",
+     "Malone"
+    ],
+    [
+     "Dirk Nowitzki",
+     "Dirk",
+     "Nowitzki"
+    ],
+    [
+     "Tim Duncan",
+     "Timmy",
+     "Duncan"
+    ],
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Dwyane Wade",
+     "D-Wade",
+     "Flash",
+     "Wade"
+    ],
+    [
+     "Hakeem Olajuwon",
+     "Hakeem",
+     "Akeem Olajuwon",
+     "The Dream",
+     "Olajuwon"
+    ],
+    [
+     "Patrick Ewing",
+     "Ewing"
+    ],
+    [
+     "Kevin Garnett",
+     "Garnett"
+    ],
+    [
+     "Reggie Miller",
+     "Miller"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "Russell Westbrook",
+     "Russ",
+     "Westbrook"
+    ],
+    [
+     "Damian Lillard",
+     "Dame",
+     "Dame Lillard",
+     "Lillard"
+    ],
+    [
+     "Dominique Wilkins",
+     "Wilkins"
+    ],
+    [
+     "John Havlicek",
+     "Havlicek"
+    ],
+    [
+     "Isiah Thomas",
+     "Thomas"
+    ],
+    [
+     "Devin Booker",
+     "Booker"
+    ],
+    [
+     "Dwight Howard",
+     "D12",
+     "Superman",
+     "Howard"
+    ],
+    [
+     "Anthony Davis",
+     "AD",
+     "Davis"
+    ],
+    [
+     "DeMar DeRozan",
+     "DeRozan"
+    ],
+    [
+     "Brook Lopez",
+     "Lopez"
+    ],
+    [
+     "Kemba Walker",
+     "Kemba",
+     "Walker"
+    ],
+    [
+     "Alex English",
+     "English"
+    ],
+    [
+     "Randy Smith",
+     "Smith"
+    ],
+    [
+     "Mike Conley",
+     "Conley"
+    ],
+    [
+     "Hal Greer",
+     "Greer"
+    ],
+    [
+     "Oscar Robertson",
+     "Robertson"
+    ],
+    [
+     "Elvin Hayes",
+     "Hayes"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-11-threes-game",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who has made 11 or more three-pointers in a single NBA game (regular season or playoffs, as of November 2026)",
+   "answers": [
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Klay Thompson",
+     "Thompson"
+    ],
+    [
+     "Damian Lillard",
+     "Dame",
+     "Dame Lillard",
+     "Lillard"
+    ],
+    [
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant"
+    ],
+    [
+     "Kyrie Irving",
+     "Kyrie Irvin",
+     "Irving"
+    ],
+    [
+     "Zach LaVine",
+     "LaVine"
+    ],
+    [
+     "Deron Williams",
+     "Williams"
+    ],
+    [
+     "J. R. Smith",
+     "Smith"
+    ],
+    [
+     "Marcus Smart",
+     "Smart"
+    ],
+    [
+     "Fred VanVleet",
+     "VanVleet"
+    ],
+    [
+     "CJ McCollum",
+     "McCollum"
+    ],
+    [
+     "Donyell Marshall",
+     "Marshall"
+    ],
+    [
+     "Keegan Murray",
+     "Murray"
+    ],
+    [
+     "Trey Murphy III",
+     "Murphy"
+    ],
+    [
+     "Dennis Scott",
+     "Scott"
+    ],
+    [
+     "Buddy Hield",
+     "Hield"
+    ],
+    [
+     "Bojan Bogdanović",
+     "Bogdanović"
+    ],
+    [
+     "Malik Beasley",
+     "Beasley"
+    ],
+    [
+     "Robert Covington",
+     "Covington"
+    ],
+    [
+     "Donte DiVincenzo",
+     "DiVincenzo"
+    ],
+    [
+     "Julian Champagnie",
+     "Champagnie"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-playoff-free-throws-top25",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player in the top 25 for career NBA playoff free throws made (to the end of the 2026 playoffs, ties included)",
+   "answers": [
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Michael Jordan",
+     "MJ",
+     "Air Jordan",
+     "Jordan"
+    ],
+    [
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant"
+    ],
+    [
+     "Karl Malone",
+     "The Mailman",
+     "Malone"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "James Harden",
+     "The Beard",
+     "Harden"
+    ],
+    [
+     "Tim Duncan",
+     "Timmy",
+     "Duncan"
+    ],
+    [
+     "Shaquille O'Neal",
+     "Shaq",
+     "Shaquille Oneal",
+     "O'Neal"
+    ],
+    [
+     "Dirk Nowitzki",
+     "Dirk",
+     "Nowitzki"
+    ],
+    [
+     "Magic Johnson",
+     "Magic"
+    ],
+    [
+     "Kareem Abdul-Jabbar",
+     "Kareem",
+     "Lew Alcindor",
+     "Abdul-Jabbar",
+     "Alcindor"
+    ],
+    [
+     "Dwyane Wade",
+     "D-Wade",
+     "Flash",
+     "Wade"
+    ],
+    [
+     "Larry Bird",
+     "Bird"
+    ],
+    [
+     "Jerry West",
+     "West"
+    ],
+    [
+     "John Havlicek",
+     "Havlicek"
+    ],
+    [
+     "Paul Pierce",
+     "Pierce"
+    ],
+    [
+     "Elgin Baylor",
+     "Baylor"
+    ],
+    [
+     "Manu Ginóbili",
+     "Manu Ginobili",
+     "Manu",
+     "Ginobili"
+    ],
+    [
+     "Chauncey Billups",
+     "Billups"
+    ],
+    [
+     "Scottie Pippen",
+     "Pippen"
+    ],
+    [
+     "Reggie Miller",
+     "Miller"
+    ],
+    [
+     "Kevin McHale",
+     "McHale"
+    ],
+    [
+     "Wilt Chamberlain",
+     "Wilt",
+     "Wilt the Stilt",
+     "Chamberlain"
+    ],
+    "Dennis Johnson",
+    [
+     "Charles Barkley",
+     "Chuck",
+     "Sir Charles",
+     "Barkley"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-22-assists-game",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who has recorded 22 or more assists in an NBA game (regular season or playoffs, as of November 2026)",
+   "answers": [
+    [
+     "John Stockton",
+     "Stockton"
+    ],
+    [
+     "Magic Johnson",
+     "Magic"
+    ],
+    [
+     "Jason Kidd",
+     "Kidd"
+    ],
+    [
+     "Steve Nash",
+     "Nash"
+    ],
+    [
+     "Isiah Thomas",
+     "Thomas"
+    ],
+    [
+     "Russell Westbrook",
+     "Russ",
+     "Westbrook"
+    ],
+    [
+     "Rajon Rondo",
+     "Rondo"
+    ],
+    [
+     "Trae Young",
+     "Young"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker"
+    ],
+    [
+     "Tyrese Haliburton",
+     "Haliburton"
+    ],
+    [
+     "Bob Cousy",
+     "Cousy"
+    ],
+    [
+     "Oscar Robertson",
+     "Robertson"
+    ],
+    [
+     "Mark Jackson",
+     "Jackson"
+    ],
+    [
+     "Tim Hardaway",
+     "Hardaway"
+    ],
+    "Kevin Johnson",
+    [
+     "Chris Duhon",
+     "Duhon"
+    ],
+    [
+     "Andre Miller",
+     "Miller"
+    ],
+    [
+     "Scott Skiles",
+     "Skiles"
+    ],
+    [
+     "Kevin Porter",
+     "Porter"
+    ],
+    [
+     "Guy Rodgers",
+     "Rodgers"
+    ],
+    [
+     "Geoff Huston",
+     "Huston"
+    ],
+    [
+     "Ernie DiGregorio",
+     "DiGregorio"
+    ],
+    [
+     "Nate McMillan",
+     "McMillan"
+    ],
+    [
+     "John Lucas",
+     "Lucas"
+    ],
+    [
+     "Ramon Sessions",
+     "Sessions"
+    ],
+    [
+     "Jerry West",
+     "West"
+    ],
+    [
+     "Nate Archibald",
+     "Archibald"
+    ],
+    [
+     "Fat Lever",
+     "Lever"
+    ],
+    [
+     "Mookie Blaylock",
+     "Blaylock"
+    ],
+    [
+     "Nick Van Exel",
+     "Van Exel"
+    ],
+    [
+     "Jamaal Tinsley",
+     "Tinsley"
+    ],
+    [
+     "Ryan Nembhard",
+     "Nembhard"
+    ],
+    [
+     "Art Williams",
+     "Williams"
+    ],
+    [
+     "Phil Ford",
+     "Ford"
+    ],
+    [
+     "Allen Leavell",
+     "Leavell"
+    ],
+    [
+     "Ennis Whatley",
+     "Whatley"
+    ],
+    [
+     "Doc Rivers",
+     "Rivers"
+    ],
+    [
+     "Sherman Douglas",
+     "Douglas"
+    ],
+    [
+     "Robert Pack",
+     "Pack"
+    ],
+    [
+     "George McCloud",
+     "McCloud"
+    ],
+    [
+     "Isaiah Collier",
+     "Collier"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-10-blocks-game",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who has blocked 10 or more shots in an NBA game (regular season or playoffs, as of November 2026)",
+   "answers": [
+    [
+     "Shaquille O'Neal",
+     "Shaq",
+     "Shaquille Oneal"
+    ],
+    [
+     "Hakeem Olajuwon",
+     "Hakeem",
+     "Akeem Olajuwon",
+     "The Dream",
+     "Olajuwon"
+    ],
+    [
+     "David Robinson",
+     "The Admiral",
+     "Robinson"
+    ],
+    [
+     "Dikembe Mutombo",
+     "Mutombo"
+    ],
+    [
+     "Manute Bol",
+     "Bol"
+    ],
+    [
+     "Mark Eaton",
+     "Eaton"
+    ],
+    [
+     "Victor Wembanyama",
+     "Wemby",
+     "Wembanyama"
+    ],
+    [
+     "Kareem Abdul-Jabbar",
+     "Kareem",
+     "Lew Alcindor",
+     "Abdul-Jabbar",
+     "Alcindor"
+    ],
+    [
+     "Dwight Howard",
+     "D12",
+     "Superman",
+     "Howard"
+    ],
+    [
+     "Anthony Davis",
+     "AD",
+     "Davis"
+    ],
+    [
+     "Ben Wallace",
+     "Wallace"
+    ],
+    [
+     "Shawn Kemp",
+     "Kemp"
+    ],
+    [
+     "Serge Ibaka",
+     "Ibaka"
+    ],
+    [
+     "Joakim Noah",
+     "Noah"
+    ],
+    [
+     "Marcus Camby",
+     "Camby"
+    ],
+    [
+     "Hassan Whiteside",
+     "Whiteside"
+    ],
+    [
+     "JaVale McGee",
+     "Javale McGee",
+     "McGee"
+    ],
+    [
+     "Andrew Bynum",
+     "Bynum"
+    ],
+    [
+     "Amar'e Stoudemire",
+     "Stoudemire"
+    ],
+    "Josh Smith",
+    "Elmore Smith",
+    [
+     "George T. Johnson",
+     "Johnson"
+    ],
+    [
+     "Darryl Dawkins",
+     "Dawkins"
+    ],
+    [
+     "Ralph Sampson",
+     "Sampson"
+    ],
+    [
+     "Shawn Bradley",
+     "Bradley"
+    ],
+    [
+     "Nate Thurmond",
+     "Thurmond"
+    ],
+    [
+     "Tree Rollins",
+     "Wayne Rollins",
+     "Wayne Tree Rollins",
+     "Rollins"
+    ],
+    [
+     "Vlade Divac",
+     "Divac"
+    ],
+    [
+     "Keon Clark",
+     "Clark"
+    ],
+    [
+     "Artis Gilmore",
+     "Gilmore"
+    ],
+    [
+     "Elvin Hayes",
+     "Hayes"
+    ],
+    [
+     "Robert Parish",
+     "Parish"
+    ],
+    [
+     "Larry Nance",
+     "Nance"
+    ],
+    [
+     "Greg Ostertag",
+     "Ostertag"
+    ],
+    [
+     "Roy Hibbert",
+     "Hibbert"
+    ],
+    [
+     "Harvey Catchings",
+     "Catchings"
+    ],
+    [
+     "Joe Meriweather",
+     "Meriweather"
+    ],
+    [
+     "Ben Poquette",
+     "Poquette"
+    ],
+    "Edgar Jones",
+    [
+     "Benoit Benjamin",
+     "Benjamin"
+    ],
+    [
+     "Wayne Cooper",
+     "Cooper"
+    ],
+    "Charles Jones",
+    "Jermaine O'Neal",
+    [
+     "Calvin Booth",
+     "Booth"
+    ],
+    [
+     "Andrei Kirilenko",
+     "Kirilenko"
+    ],
+    [
+     "Emeka Okafor",
+     "Okafor"
+    ],
+    [
+     "Larry Sanders",
+     "Sanders"
+    ],
+    [
+     "Clint Capela",
+     "Capela"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-9-steals-game",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who has recorded 9 or more steals in an NBA game (regular season or playoffs, as of November 2026)",
+   "answers": [
+    [
+     "Michael Jordan",
+     "MJ",
+     "Air Jordan"
+    ],
+    [
+     "Scottie Pippen",
+     "Pippen"
+    ],
+    [
+     "Magic Johnson",
+     "Magic"
+    ],
+    [
+     "Larry Bird",
+     "Bird"
+    ],
+    [
+     "Allen Iverson",
+     "AI",
+     "The Answer",
+     "Iverson"
+    ],
+    [
+     "Chris Paul",
+     "CP3",
+     "Paul"
+    ],
+    [
+     "John Stockton",
+     "Stockton"
+    ],
+    [
+     "Paul Pierce",
+     "Pierce"
+    ],
+    [
+     "Dirk Nowitzki",
+     "Dirk",
+     "Nowitzki"
+    ],
+    [
+     "Draymond Green",
+     "Draymond"
+    ],
+    [
+     "Clyde Drexler",
+     "Clyde",
+     "Drexler"
+    ],
+    [
+     "Alvin Robertson",
+     "Robertson"
+    ],
+    "Kevin Johnson",
+    "Gus Williams",
+    [
+     "Jerry West",
+     "West"
+    ],
+    [
+     "Larry Kenon",
+     "Kenon"
+    ],
+    [
+     "Kendall Gill",
+     "Gill"
+    ],
+    [
+     "Rick Barry",
+     "Barry"
+    ],
+    [
+     "John Wall",
+     "Wall"
+    ],
+    [
+     "Larry Steele",
+     "Steele"
+    ],
+    [
+     "Fred Brown",
+     "Brown"
+    ],
+    "Eddie Jordan",
+    [
+     "Johnny Moore",
+     "Moore"
+    ],
+    [
+     "Fat Lever",
+     "Lever"
+    ],
+    [
+     "Ron Harper",
+     "Harper"
+    ],
+    [
+     "Mookie Blaylock",
+     "Blaylock"
+    ],
+    [
+     "Michael Finley",
+     "Finley"
+    ],
+    [
+     "Brandon Roy",
+     "Roy"
+    ],
+    "Lou Williams",
+    [
+     "T. J. McConnell",
+     "McConnell"
+    ],
+    [
+     "Calvin Murphy",
+     "Murphy"
+    ],
+    [
+     "Slick Watts",
+     "Donald Watts",
+     "Don Watts",
+     "Watts"
+    ],
+    [
+     "Quinn Buckner",
+     "Buckner"
+    ],
+    [
+     "Earl Tatum",
+     "Tatum"
+    ],
+    [
+     "Ron Lee",
+     "Lee"
+    ],
+    [
+     "Dudley Bradley",
+     "Bradley"
+    ],
+    [
+     "Micheal Ray Richardson",
+     "Richardson"
+    ],
+    [
+     "Johnny High",
+     "High"
+    ],
+    [
+     "Jack Sikma",
+     "Sikma"
+    ],
+    "Rickey Green",
+    [
+     "Darwin Cook",
+     "Cook"
+    ],
+    [
+     "Maurice Cheeks",
+     "Cheeks"
+    ],
+    [
+     "T. R. Dunn",
+     "Dunn"
+    ],
+    [
+     "Hersey Hawkins",
+     "Hawkins"
+    ],
+    [
+     "Michael Adams",
+     "Adams"
+    ],
+    [
+     "Doc Rivers",
+     "Rivers"
+    ],
+    [
+     "Eric Murdock",
+     "Murdock"
+    ],
+    [
+     "Doug Christie",
+     "Christie"
+    ],
+    [
+     "Eddie Jones",
+     "Jones"
+    ],
+    [
+     "Andre Miller",
+     "Miller"
+    ],
+    [
+     "Rafer Alston",
+     "Alston"
+    ],
+    [
+     "Mario Chalmers",
+     "Chalmers"
+    ],
+    [
+     "Michael Carter-Williams",
+     "Carter-Williams"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-stats-3p-pct-season-leaders",
+   "tags": [
+    "stats"
+   ],
+   "text": "Name a player who has led the NBA in three-point percentage for a season (1979-80 to 2025-26)",
+   "answers": [
+    [
+     "Steve Kerr",
+     "Kerr"
+    ],
+    [
+     "Kyle Korver",
+     "Korver"
+    ],
+    "Dell Curry",
+    [
+     "Glen Rice",
+     "Rice"
+    ],
+    [
+     "Steve Novak",
+     "Novak"
+    ],
+    [
+     "José Calderón",
+     "Calderón"
+    ],
+    [
+     "JJ Redick",
+     "J.J. Redick",
+     "JJ",
+     "Redick"
+    ],
+    "Seth Curry",
+    [
+     "Hubert Davis",
+     "Davis"
+    ],
+    [
+     "Craig Hodges",
+     "Hodges"
+    ],
+    [
+     "Fred Brown",
+     "Brown"
+    ],
+    [
+     "Brian Taylor",
+     "Taylor"
+    ],
+    [
+     "Campy Russell",
+     "Russell"
+    ],
+    [
+     "Mike Dunleavy",
+     "Dunleavy"
+    ],
+    [
+     "Darrell Griffith",
+     "Griffith"
+    ],
+    [
+     "Byron Scott",
+     "Scott"
+    ],
+    [
+     "Kiki VanDeWeghe",
+     "VanDeWeghe"
+    ],
+    [
+     "Jon Sundvold",
+     "Sundvold"
+    ],
+    [
+     "Jim Les",
+     "Les"
+    ],
+    [
+     "Dana Barros",
+     "Barros"
+    ],
+    [
+     "B. J. Armstrong",
+     "Armstrong"
+    ],
+    [
+     "Tracy Murray",
+     "Murray"
+    ],
+    [
+     "Tim Legler",
+     "Legler"
+    ],
+    [
+     "Dale Ellis",
+     "Ellis"
+    ],
+    [
+     "Brent Barry",
+     "Barry"
+    ],
+    [
+     "Steve Smith",
+     "Smith"
+    ],
+    [
+     "Bruce Bowen",
+     "Bowen"
+    ],
+    [
+     "Anthony Peeler",
+     "Peeler"
+    ],
+    [
+     "Fred Hoiberg",
+     "Hoiberg"
+    ],
+    [
+     "Richard Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Jason Kapono",
+     "Kapono"
+    ],
+    [
+     "Anthony Morrow",
+     "Morrow"
+    ],
+    [
+     "Matt Bonner",
+     "Bonner"
+    ],
+    [
+     "Darren Collison",
+     "Collison"
+    ],
+    [
+     "Joe Harris",
+     "Harris"
+    ],
+    [
+     "George Hill",
+     "Hill"
+    ],
+    [
+     "Luke Kennard",
+     "Kennard"
+    ],
+    [
+     "Grayson Allen",
+     "Allen"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "nba-i-awards-sportsmanship",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player who has won the NBA Sportsmanship Award (Joe Dumars Trophy), up to 2025-26",
+   "answers": [
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Ray Allen",
+     "Allen"
+    ],
+    [
+     "David Robinson",
+     "The Admiral",
+     "Robinson"
+    ],
+    [
+     "Jason Kidd",
+     "Kidd"
+    ],
+    [
+     "Chauncey Billups",
+     "Billups"
+    ],
+    [
+     "Vince Carter",
+     "Vinsanity",
+     "Carter"
+    ],
+    [
+     "Grant Hill",
+     "Hill"
+    ],
+    [
+     "Joe Dumars",
+     "Dumars"
+    ],
+    [
+     "Jrue Holiday",
+     "Jrue",
+     "Holiday"
+    ],
+    [
+     "Tyrese Maxey",
+     "Maxey"
+    ],
+    [
+     "Derrick White",
+     "White"
+    ],
+    [
+     "Patty Mills",
+     "Mills"
+    ],
+    [
+     "Kyle Korver",
+     "Korver"
+    ],
+    [
+     "Luol Deng",
+     "Deng"
+    ],
+    [
+     "Kemba Walker",
+     "Kemba",
+     "Walker"
+    ],
+    [
+     "Mike Conley",
+     "Conley"
+    ],
+    [
+     "Terrell Brandon",
+     "Brandon"
+    ],
+    [
+     "Avery Johnson",
+     "Johnson"
+    ],
+    [
+     "Hersey Hawkins",
+     "Hawkins"
+    ],
+    [
+     "Eric Snow",
+     "Snow"
+    ],
+    [
+     "Steve Smith",
+     "Smith"
+    ],
+    [
+     "P. J. Brown",
+     "Brown"
+    ],
+    [
+     "Elton Brand",
+     "Brand"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-awards-all-stars-2026",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player selected as an NBA All-Star in 2026 (starters, reserves and injury replacements)",
+   "answers": [
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker"
+    ],
+    [
+     "Luka Dončić",
+     "Luka Doncic",
+     "Luka",
+     "Doncic"
+    ],
+    [
+     "Shai Gilgeous-Alexander",
+     "SGA",
+     "Shai",
+     "Gilgeous Alexander"
+    ],
+    [
+     "Victor Wembanyama",
+     "Wemby",
+     "Wembanyama"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Anthony Edwards",
+     "Edwards"
+    ],
+    [
+     "Jaylen Brown",
+     "Brown"
+    ],
+    [
+     "Jalen Brunson",
+     "Brunson"
+    ],
+    [
+     "Cade Cunningham",
+     "Cunningham"
+    ],
+    [
+     "Tyrese Maxey",
+     "Maxey"
+    ],
+    [
+     "Scottie Barnes",
+     "Barnes"
+    ],
+    [
+     "Jalen Duren",
+     "Duren"
+    ],
+    [
+     "Brandon Ingram",
+     "Ingram"
+    ],
+    [
+     "Jalen Johnson",
+     "Johnson"
+    ],
+    [
+     "Donovan Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Norman Powell",
+     "Powell"
+    ],
+    [
+     "Pascal Siakam",
+     "Siakam"
+    ],
+    [
+     "Karl-Anthony Towns",
+     "KAT",
+     "Towns"
+    ],
+    [
+     "Deni Avdija",
+     "Avdija"
+    ],
+    [
+     "Devin Booker",
+     "Booker"
+    ],
+    [
+     "Chet Holmgren",
+     "Holmgren"
+    ],
+    [
+     "Kawhi Leonard",
+     "Leonard"
+    ],
+    [
+     "Jamal Murray",
+     "Murray"
+    ],
+    [
+     "Alperen Şengün",
+     "Alperen Sengun",
+     "Sengun"
+    ],
+    [
+     "De'Aaron Fox",
+     "Fox"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-awards-all-stars-2025",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player selected as an NBA All-Star in 2025 (starters, reserves and injury replacements)",
+   "answers": [
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Shai Gilgeous-Alexander",
+     "SGA",
+     "Shai",
+     "Gilgeous Alexander"
+    ],
+    [
+     "Victor Wembanyama",
+     "Wemby",
+     "Wembanyama"
+    ],
+    [
+     "Jayson Tatum",
+     "Tatum"
+    ],
+    [
+     "Anthony Edwards",
+     "Edwards"
+    ],
+    [
+     "Damian Lillard",
+     "Dame",
+     "Dame Lillard",
+     "Lillard"
+    ],
+    [
+     "Jalen Brunson",
+     "Brunson"
+    ],
+    [
+     "Donovan Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Karl-Anthony Towns",
+     "KAT",
+     "Towns"
+    ],
+    [
+     "Jaylen Brown",
+     "Brown"
+    ],
+    [
+     "Cade Cunningham",
+     "Cunningham"
+    ],
+    [
+     "Darius Garland",
+     "Garland"
+    ],
+    [
+     "Tyler Herro",
+     "Herro"
+    ],
+    [
+     "Evan Mobley",
+     "Mobley"
+    ],
+    [
+     "Pascal Siakam",
+     "Siakam"
+    ],
+    [
+     "Trae Young",
+     "Young"
+    ],
+    [
+     "James Harden",
+     "The Beard",
+     "Harden"
+    ],
+    [
+     "Jaren Jackson Jr.",
+     "Jaren Jackson",
+     "JJJ",
+     "Jackson"
+    ],
+    [
+     "Jalen Williams",
+     "Williams"
+    ],
+    [
+     "Anthony Davis",
+     "AD",
+     "Davis"
+    ],
+    [
+     "Alperen Şengün",
+     "Alperen Sengun",
+     "Sengun"
+    ],
+    [
+     "Kyrie Irving",
+     "Kyrie Irvin",
+     "Irving"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-awards-all-stars-2024",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player selected as an NBA All-Star in 2024 (starters, reserves and injury replacements)",
+   "answers": [
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Luka Dončić",
+     "Luka Doncic",
+     "Luka",
+     "Doncic"
+    ],
+    [
+     "Joel Embiid",
+     "Embiid"
+    ],
+    [
+     "Jayson Tatum",
+     "Tatum"
+    ],
+    [
+     "Damian Lillard",
+     "Dame",
+     "Dame Lillard",
+     "Lillard"
+    ],
+    [
+     "Anthony Edwards",
+     "Edwards"
+    ],
+    [
+     "Tyrese Haliburton",
+     "Haliburton"
+    ],
+    [
+     "Jalen Brunson",
+     "Brunson"
+    ],
+    [
+     "Tyrese Maxey",
+     "Maxey"
+    ],
+    [
+     "Donovan Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Trae Young",
+     "Young"
+    ],
+    [
+     "Paolo Banchero",
+     "Banchero"
+    ],
+    [
+     "Scottie Barnes",
+     "Barnes"
+    ],
+    [
+     "Jaylen Brown",
+     "Brown"
+    ],
+    [
+     "Julius Randle",
+     "Randle"
+    ],
+    [
+     "Bam Adebayo",
+     "Adebayo"
+    ],
+    [
+     "Shai Gilgeous-Alexander",
+     "SGA",
+     "Shai",
+     "Gilgeous Alexander"
+    ],
+    [
+     "Devin Booker",
+     "Booker"
+    ],
+    [
+     "Paul George",
+     "George"
+    ],
+    [
+     "Kawhi Leonard",
+     "Leonard"
+    ],
+    [
+     "Karl-Anthony Towns",
+     "KAT",
+     "Towns"
+    ],
+    [
+     "Anthony Davis",
+     "AD",
+     "Davis"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-awards-all-stars-2023",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player selected as an NBA All-Star in 2023 (starters, reserves and injury replacements)",
+   "answers": [
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Luka Dončić",
+     "Luka Doncic",
+     "Luka",
+     "Doncic"
+    ],
+    [
+     "Joel Embiid",
+     "Embiid"
+    ],
+    [
+     "Jayson Tatum",
+     "Tatum"
+    ],
+    [
+     "Kyrie Irving",
+     "Kyrie Irvin",
+     "Irving"
+    ],
+    [
+     "Zion Williamson",
+     "Williamson"
+    ],
+    [
+     "Donovan Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Jaylen Brown",
+     "Brown"
+    ],
+    [
+     "DeMar DeRozan",
+     "DeRozan"
+    ],
+    [
+     "Tyrese Haliburton",
+     "Haliburton"
+    ],
+    [
+     "Jrue Holiday",
+     "Jrue",
+     "Holiday"
+    ],
+    [
+     "Julius Randle",
+     "Randle"
+    ],
+    [
+     "Bam Adebayo",
+     "Adebayo"
+    ],
+    [
+     "Pascal Siakam",
+     "Siakam"
+    ],
+    [
+     "Shai Gilgeous-Alexander",
+     "SGA",
+     "Shai",
+     "Gilgeous Alexander"
+    ],
+    [
+     "Damian Lillard",
+     "Dame",
+     "Dame Lillard",
+     "Lillard"
+    ],
+    [
+     "Ja Morant",
+     "Morant"
+    ],
+    [
+     "Paul George",
+     "George"
+    ],
+    [
+     "Jaren Jackson Jr.",
+     "Jaren Jackson",
+     "JJJ",
+     "Jackson"
+    ],
+    [
+     "Lauri Markkanen",
+     "Markkanen"
+    ],
+    [
+     "Domantas Sabonis",
+     "Sabonis"
+    ],
+    [
+     "Anthony Edwards",
+     "Edwards"
+    ],
+    [
+     "De'Aaron Fox",
+     "Fox"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-awards-all-stars-2022",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player selected as an NBA All-Star in 2022 (starters, reserves and injury replacements)",
+   "answers": [
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Luka Dončić",
+     "Luka Doncic",
+     "Luka",
+     "Doncic"
+    ],
+    [
+     "Joel Embiid",
+     "Embiid"
+    ],
+    [
+     "Jayson Tatum",
+     "Tatum"
+    ],
+    [
+     "Ja Morant",
+     "Morant"
+    ],
+    [
+     "Trae Young",
+     "Young"
+    ],
+    [
+     "DeMar DeRozan",
+     "DeRozan"
+    ],
+    [
+     "LaMelo Ball",
+     "Ball"
+    ],
+    [
+     "Darius Garland",
+     "Garland"
+    ],
+    [
+     "James Harden",
+     "The Beard",
+     "Harden"
+    ],
+    [
+     "Zach LaVine",
+     "LaVine"
+    ],
+    [
+     "Fred VanVleet",
+     "VanVleet"
+    ],
+    [
+     "Jimmy Butler",
+     "Butler"
+    ],
+    [
+     "Khris Middleton",
+     "Middleton"
+    ],
+    [
+     "Jarrett Allen",
+     "Allen"
+    ],
+    [
+     "Andrew Wiggins",
+     "Wiggins"
+    ],
+    [
+     "Devin Booker",
+     "Booker"
+    ],
+    [
+     "Donovan Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Dejounte Murray",
+     "Murray"
+    ],
+    [
+     "Chris Paul",
+     "CP3",
+     "Paul"
+    ],
+    [
+     "Draymond Green",
+     "Draymond",
+     "Green"
+    ],
+    [
+     "Rudy Gobert",
+     "Gobert"
+    ],
+    [
+     "Karl-Anthony Towns",
+     "KAT",
+     "Towns"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-awards-all-stars-2019",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player selected as an NBA All-Star in 2019 (starters, reserves and injury replacements)",
+   "answers": [
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Kawhi Leonard",
+     "Leonard"
+    ],
+    [
+     "Joel Embiid",
+     "Embiid"
+    ],
+    [
+     "James Harden",
+     "The Beard",
+     "Harden"
+    ],
+    [
+     "Kyrie Irving",
+     "Kyrie Irvin",
+     "Irving"
+    ],
+    [
+     "Dwyane Wade",
+     "D-Wade",
+     "Flash",
+     "Wade"
+    ],
+    [
+     "Dirk Nowitzki",
+     "Dirk",
+     "Nowitzki"
+    ],
+    [
+     "Kemba Walker",
+     "Kemba",
+     "Walker"
+    ],
+    [
+     "Kyle Lowry",
+     "Lowry"
+    ],
+    [
+     "Victor Oladipo",
+     "Oladipo"
+    ],
+    [
+     "Khris Middleton",
+     "Middleton"
+    ],
+    [
+     "Bradley Beal",
+     "Beal"
+    ],
+    [
+     "Ben Simmons",
+     "Simmons"
+    ],
+    [
+     "Blake Griffin",
+     "Griffin"
+    ],
+    [
+     "Nikola Vučević",
+     "Vučević"
+    ],
+    [
+     "D'Angelo Russell",
+     "Russell"
+    ],
+    [
+     "Paul George",
+     "George"
+    ],
+    [
+     "Russell Westbrook",
+     "Russ",
+     "Westbrook"
+    ],
+    [
+     "Damian Lillard",
+     "Dame",
+     "Dame Lillard",
+     "Lillard"
+    ],
+    [
+     "Klay Thompson",
+     "Thompson"
+    ],
+    [
+     "Anthony Davis",
+     "AD",
+     "Davis"
+    ],
+    [
+     "LaMarcus Aldridge",
+     "Aldridge"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker"
+    ],
+    [
+     "Karl-Anthony Towns",
+     "KAT",
+     "Towns"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "nba-i-awards-all-stars-2018",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player selected as an NBA All-Star in 2018 (starters, reserves and injury replacements)",
+   "answers": [
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "James Harden",
+     "The Beard",
+     "Harden"
+    ],
+    [
+     "Kyrie Irving",
+     "Kyrie Irvin",
+     "Irving"
+    ],
+    [
+     "Anthony Davis",
+     "AD",
+     "Davis"
+    ],
+    [
+     "Russell Westbrook",
+     "Russ",
+     "Westbrook"
+    ],
+    [
+     "Damian Lillard",
+     "Dame",
+     "Dame Lillard",
+     "Lillard"
+    ],
+    [
+     "Joel Embiid",
+     "Embiid"
+    ],
+    [
+     "DeMar DeRozan",
+     "DeRozan"
+    ],
+    [
+     "Bradley Beal",
+     "Beal"
+    ],
+    [
+     "Goran Dragić",
+     "Dragić"
+    ],
+    [
+     "Al Horford",
+     "Horford"
+    ],
+    [
+     "Kevin Love",
+     "Love"
+    ],
+    [
+     "Kyle Lowry",
+     "Lowry"
+    ],
+    [
+     "Victor Oladipo",
+     "Oladipo"
+    ],
+    [
+     "Kristaps Porziņģis",
+     "Porziņģis"
+    ],
+    [
+     "John Wall",
+     "Wall"
+    ],
+    [
+     "Andre Drummond",
+     "Drummond"
+    ],
+    [
+     "Kemba Walker",
+     "Kemba",
+     "Walker"
+    ],
+    [
+     "DeMarcus Cousins",
+     "Cousins"
+    ],
+    [
+     "Draymond Green",
+     "Draymond",
+     "Green"
+    ],
+    [
+     "Karl-Anthony Towns",
+     "KAT",
+     "Towns"
+    ],
+    [
+     "LaMarcus Aldridge",
+     "Aldridge"
+    ],
+    [
+     "Klay Thompson",
+     "Thompson"
+    ],
+    [
+     "Jimmy Butler",
+     "Butler"
+    ],
+    [
+     "Paul George",
+     "George"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "nba-i-awards-all-nba-2024-25",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player named to an All-NBA Team (first, second or third) for the 2024-25 season",
+   "answers": [
+    [
+     "Shai Gilgeous-Alexander",
+     "SGA",
+     "Shai",
+     "Gilgeous Alexander"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "Jayson Tatum",
+     "Tatum"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Anthony Edwards",
+     "Edwards"
+    ],
+    [
+     "Donovan Mitchell",
+     "Mitchell"
+    ],
+    [
+     "James Harden",
+     "The Beard",
+     "Harden"
+    ],
+    [
+     "Jalen Brunson",
+     "Brunson"
+    ],
+    [
+     "Cade Cunningham",
+     "Cunningham"
+    ],
+    [
+     "Karl-Anthony Towns",
+     "KAT",
+     "Towns"
+    ],
+    [
+     "Tyrese Haliburton",
+     "Haliburton"
+    ],
+    [
+     "Evan Mobley",
+     "Mobley"
+    ],
+    [
+     "Jalen Williams",
+     "Williams"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-awards-all-nba-2025-26",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player named to an All-NBA Team (first, second or third) for the 2025-26 season",
+   "answers": [
+    [
+     "Shai Gilgeous-Alexander",
+     "SGA",
+     "Shai",
+     "Gilgeous Alexander"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker"
+    ],
+    [
+     "Luka Dončić",
+     "Luka Doncic",
+     "Luka",
+     "Doncic"
+    ],
+    [
+     "Victor Wembanyama",
+     "Wemby",
+     "Wembanyama"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Jalen Brunson",
+     "Brunson"
+    ],
+    [
+     "Kawhi Leonard",
+     "Leonard"
+    ],
+    [
+     "Donovan Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Cade Cunningham",
+     "Cunningham"
+    ],
+    [
+     "Jaylen Brown",
+     "Brown"
+    ],
+    [
+     "Tyrese Maxey",
+     "Maxey"
+    ],
+    [
+     "Jamal Murray",
+     "Murray"
+    ],
+    [
+     "Jalen Johnson",
+     "Johnson"
+    ],
+    [
+     "Jalen Duren",
+     "Duren"
+    ],
+    [
+     "Chet Holmgren",
+     "Holmgren"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-awards-all-nba-10-selections",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player with 10 or more All-NBA Team selections (any of the teams, through 2025-26)",
+   "answers": [
+    [
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
+    ],
+    [
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant"
+    ],
+    [
+     "Michael Jordan",
+     "MJ",
+     "Air Jordan",
+     "Jordan"
+    ],
+    [
+     "Tim Duncan",
+     "Timmy",
+     "Duncan"
+    ],
+    [
+     "Karl Malone",
+     "The Mailman",
+     "Malone"
+    ],
+    [
+     "Shaquille O'Neal",
+     "Shaq",
+     "Shaquille Oneal",
+     "O'Neal"
+    ],
+    [
+     "Kareem Abdul-Jabbar",
+     "Kareem",
+     "Lew Alcindor",
+     "Abdul-Jabbar",
+     "Alcindor"
+    ],
+    [
+     "Magic Johnson",
+     "Magic",
+     "Johnson"
+    ],
+    [
+     "Larry Bird",
+     "Bird"
+    ],
+    [
+     "Kevin Durant",
+     "KD",
+     "Durant"
+    ],
+    [
+     "Dirk Nowitzki",
+     "Dirk",
+     "Nowitzki"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Chris Paul",
+     "CP3",
+     "Paul"
+    ],
+    [
+     "Charles Barkley",
+     "Chuck",
+     "Sir Charles",
+     "Barkley"
+    ],
+    [
+     "Hakeem Olajuwon",
+     "Hakeem",
+     "Akeem Olajuwon",
+     "The Dream",
+     "Olajuwon"
+    ],
+    [
+     "Bob Cousy",
+     "Cousy"
+    ],
+    [
+     "Jerry West",
+     "West"
+    ],
+    [
+     "Dolph Schayes",
+     "Schayes"
+    ],
+    [
+     "Bob Pettit",
+     "Pettit"
+    ],
+    [
+     "Oscar Robertson",
+     "Robertson"
+    ],
+    [
+     "John Havlicek",
+     "Havlicek"
+    ],
+    [
+     "Bill Russell",
+     "Russell"
+    ],
+    [
+     "John Stockton",
+     "Stockton"
+    ],
+    [
+     "Elgin Baylor",
+     "Baylor"
+    ],
+    [
+     "Wilt Chamberlain",
+     "Wilt",
+     "Wilt the Stilt",
+     "Chamberlain"
+    ],
+    [
+     "David Robinson",
+     "The Admiral",
+     "Robinson"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-awards-usa-olympic-1996",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player on the USA men's Olympic basketball team at the 1996 Games (gold medallists)",
+   "answers": [
+    [
+     "Shaquille O'Neal",
+     "Shaq",
+     "Shaquille Oneal",
+     "O'Neal"
+    ],
+    [
+     "Scottie Pippen",
+     "Pippen"
+    ],
+    [
+     "Charles Barkley",
+     "Chuck",
+     "Sir Charles",
+     "Barkley"
+    ],
+    [
+     "Karl Malone",
+     "The Mailman",
+     "Malone"
+    ],
+    [
+     "John Stockton",
+     "Stockton"
+    ],
+    [
+     "Hakeem Olajuwon",
+     "Hakeem",
+     "Akeem Olajuwon",
+     "The Dream",
+     "Olajuwon"
+    ],
+    [
+     "David Robinson",
+     "The Admiral",
+     "Robinson"
+    ],
+    [
+     "Reggie Miller",
+     "Miller"
+    ],
+    [
+     "Gary Payton",
+     "Payton"
+    ],
+    [
+     "Grant Hill",
+     "Hill"
+    ],
+    [
+     "Penny Hardaway",
+     "Anfernee Hardaway",
+     "Penny",
+     "Hardaway"
+    ],
+    [
+     "Mitch Richmond",
+     "Richmond"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-awards-usa-olympic-1984",
+   "tags": [
+    "awards"
+   ],
+   "text": "Name a player on the USA men's Olympic basketball team at the 1984 Games (gold medallists)",
+   "answers": [
+    [
+     "Michael Jordan",
+     "MJ",
+     "Air Jordan",
+     "Jordan"
+    ],
+    [
+     "Patrick Ewing",
+     "Ewing"
+    ],
+    [
+     "Chris Mullin",
+     "Mullin"
+    ],
+    [
+     "Sam Perkins",
+     "Perkins"
+    ],
+    [
+     "Alvin Robertson",
+     "Robertson"
+    ],
+    [
+     "Wayman Tisdale",
+     "Tisdale"
+    ],
+    [
+     "Steve Alford",
+     "Alford"
+    ],
+    [
+     "Leon Wood",
+     "Wood"
+    ],
+    [
+     "Vern Fleming",
+     "Fleming"
+    ],
+    [
+     "Joe Kleine",
+     "Kleine"
+    ],
+    [
+     "Jon Koncak",
+     "Koncak"
+    ],
+    [
+     "Jeff Turner",
+     "Turner"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-france-2024-olympics",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on France's squad for the 2024 Olympic basketball tournament in Paris (silver medallists)",
+   "answers": [
+    [
+     "Victor Wembanyama",
+     "Wemby",
+     "Wembanyama"
+    ],
+    [
+     "Rudy Gobert",
+     "Gobert"
+    ],
+    [
+     "Nicolas Batum",
+     "Batum"
+    ],
+    [
+     "Evan Fournier",
+     "Fournier"
+    ],
+    [
+     "Guerschon Yabusele",
+     "Yabusele"
+    ],
+    [
+     "Bilal Coulibaly",
+     "Coulibaly"
+    ],
+    [
+     "Frank Ntilikina",
+     "Ntilikina"
+    ],
+    [
+     "Nando de Colo",
+     "de Colo"
+    ],
+    [
+     "Andrew Albicy",
+     "Albicy"
+    ],
+    [
+     "Isaïa Cordinier",
+     "Cordinier"
+    ],
+    [
+     "Mathias Lessort",
+     "Lessort"
+    ],
+    [
+     "Matthew Strazel",
+     "Strazel"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-serbia-2024-olympics",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on Serbia's squad for the 2024 Olympic basketball tournament in Paris (bronze medallists)",
+   "answers": [
+    [
+     "Nikola Jokić",
+     "Jokic",
+     "Joker"
+    ],
+    [
+     "Bogdan Bogdanović",
+     "Bogdanović"
+    ],
+    [
+     "Nikola Jović",
+     "Jović"
+    ],
+    [
+     "Vasilije Micić",
+     "Micić"
+    ],
+    [
+     "Nikola Milutinov",
+     "Milutinov"
+    ],
+    [
+     "Filip Petrušev",
+     "Petrušev"
+    ],
+    [
+     "Uroš Plavšić",
+     "Plavšić"
+    ],
+    [
+     "Vanja Marinković",
+     "Marinković"
+    ],
+    [
+     "Ognjen Dobrić",
+     "Dobrić"
+    ],
+    [
+     "Marko Gudurić",
+     "Gudurić"
+    ],
+    [
+     "Dejan Davidovac",
+     "Davidovac"
+    ],
+    [
+     "Aleksa Avramović",
+     "Avramović"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-canada-2024-olympics",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on Canada's squad for the 2024 Olympic basketball tournament in Paris",
+   "answers": [
+    [
+     "Shai Gilgeous-Alexander",
+     "SGA",
+     "Shai",
+     "Gilgeous Alexander"
+    ],
+    [
+     "Jamal Murray",
+     "Murray"
+    ],
+    [
+     "RJ Barrett",
+     "Barrett"
+    ],
+    [
+     "Dillon Brooks",
+     "Brooks"
+    ],
+    [
+     "Luguentz Dort",
+     "Dort"
+    ],
+    [
+     "Kelly Olynyk",
+     "Olynyk"
+    ],
+    [
+     "Nickeil Alexander-Walker",
+     "Alexander-Walker"
+    ],
+    [
+     "Andrew Nembhard",
+     "Nembhard"
+    ],
+    [
+     "Dwight Powell",
+     "Powell"
+    ],
+    [
+     "Trey Lyles",
+     "Lyles"
+    ],
+    [
+     "Melvin Ejim",
+     "Ejim"
+    ],
+    [
+     "Khem Birch",
+     "Birch"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-germany-2023-world-cup",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on Germany's squad at the 2023 FIBA Basketball World Cup (the winners)",
+   "answers": [
+    [
+     "Dennis Schröder",
+     "Schröder"
+    ],
+    "Franz Wagner",
+    "Moritz Wagner",
+    [
+     "Daniel Theis",
+     "Theis"
+    ],
+    [
+     "Andreas Obst",
+     "Obst"
+    ],
+    [
+     "Isaac Bonga",
+     "Bonga"
+    ],
+    [
+     "Johannes Voigtmann",
+     "Voigtmann"
+    ],
+    [
+     "Maodo Lô",
+     "Lô"
+    ],
+    [
+     "Niels Giffey",
+     "Giffey"
+    ],
+    [
+     "Justus Hollatz",
+     "Hollatz"
+    ],
+    [
+     "Johannes Thiemann",
+     "Thiemann"
+    ],
+    [
+     "David Krämer",
+     "Krämer"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-australia-2024-olympics",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on Australia's squad for the 2024 Olympic basketball tournament in Paris",
+   "answers": [
+    [
+     "Josh Giddey",
+     "Giddey"
+    ],
+    [
+     "Patty Mills",
+     "Mills"
+    ],
+    [
+     "Joe Ingles",
+     "Ingles"
+    ],
+    [
+     "Matthew Dellavedova",
+     "Dellavedova"
+    ],
+    [
+     "Dante Exum",
+     "Exum"
+    ],
+    [
+     "Dyson Daniels",
+     "Daniels"
+    ],
+    [
+     "Josh Green",
+     "Green"
+    ],
+    [
+     "Jock Landale",
+     "Landale"
+    ],
+    [
+     "Nick Kay",
+     "Kay"
+    ],
+    [
+     "Jack McVeigh",
+     "McVeigh"
+    ],
+    [
+     "Will Magnay",
+     "Magnay"
+    ],
+    [
+     "Duop Reath",
+     "Reath"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-greece-2024-olympics",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on Greece's squad for the 2024 Olympic basketball tournament in Paris",
+   "answers": [
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "Nick Calathes",
+     "Calathes"
+    ],
+    [
+     "Kostas Papanikolaou",
+     "Papanikolaou"
+    ],
+    [
+     "Thomas Walkup",
+     "Walkup"
+    ],
+    [
+     "Georgios Papagiannis",
+     "Papagiannis"
+    ],
+    [
+     "Giannoulis Larentzakis",
+     "Larentzakis"
+    ],
+    [
+     "Dimitrios Moraitis",
+     "Moraitis"
+    ],
+    [
+     "Vassilis Toliopoulos",
+     "Toliopoulos"
+    ],
+    [
+     "Panagiotis Kalaitzakis",
+     "Kalaitzakis"
+    ],
+    [
+     "Vassilis Charalampopoulos",
+     "Charalampopoulos"
+    ],
+    [
+     "Nikos Chougkaz",
+     "Chougkaz"
+    ],
+    [
+     "Dinos Mitoglou",
+     "Mitoglou"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-south-sudan-2024-olympics",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on South Sudan's squad for the 2024 Olympic basketball tournament in Paris",
+   "answers": [
+    [
+     "Khaman Maluach",
+     "Maluach"
+    ],
+    [
+     "Wenyen Gabriel",
+     "Gabriel"
+    ],
+    [
+     "Carlik Jones",
+     "Jones"
+    ],
+    [
+     "Marial Shayok",
+     "Shayok"
+    ],
+    [
+     "Nuni Omot",
+     "Omot"
+    ],
+    [
+     "Peter Jok",
+     "Jok"
+    ],
+    [
+     "JT Thor",
+     "Thor"
+    ],
+    [
+     "Bul Kuol",
+     "Kuol"
+    ],
+    [
+     "Kuany Kuany",
+     "Kuany"
+    ],
+    [
+     "Jackson Makoi",
+     "Makoi"
+    ],
+    [
+     "Majok Deng",
+     "Deng"
+    ],
+    [
+     "Sunday Dech",
+     "Dech"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-spain-2024-olympics",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on Spain's squad for the 2024 Olympic basketball tournament in Paris",
+   "answers": [
+    "Willy Hernangómez",
+    "Juancho Hernangómez",
+    [
+     "Santi Aldama",
+     "Aldama"
+    ],
+    [
+     "Rudy Fernández",
+     "Fernández"
+    ],
+    [
+     "Sergio Llull",
+     "Llull"
+    ],
+    [
+     "Álex Abrines",
+     "Abrines"
+    ],
+    [
+     "Usman Garuba",
+     "Garuba"
+    ],
+    [
+     "Lorenzo Brown",
+     "Brown"
+    ],
+    [
+     "Jaime Pradilla",
+     "Pradilla"
+    ],
+    [
+     "Xabier López-Arostegui",
+     "López-Arostegui"
+    ],
+    [
+     "Darío Brizuela",
+     "Brizuela"
+    ],
+    [
+     "Alberto Díaz",
+     "Díaz"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-slovenia-2023-world-cup",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on Slovenia's squad at the 2023 FIBA Basketball World Cup",
+   "answers": [
+    [
+     "Luka Dončić",
+     "Luka Doncic",
+     "Luka",
+     "Doncic"
+    ],
+    [
+     "Zoran Dragić",
+     "Dragić"
+    ],
+    [
+     "Mike Tobey",
+     "Tobey"
+    ],
+    "Klemen Prepelič",
+    [
+     "Aleksej Nikolić",
+     "Nikolić"
+    ],
+    [
+     "Žiga Samar",
+     "Samar"
+    ],
+    [
+     "Jaka Blažič",
+     "Blažič"
+    ],
+    [
+     "Gregor Hrovat",
+     "Hrovat"
+    ],
+    [
+     "Žiga Dimec",
+     "Dimec"
+    ],
+    "Bine Prepelič",
+    [
+     "Gregor Glas",
+     "Glas"
+    ],
+    [
+     "Jakob Čebašek",
+     "Čebašek"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-latvia-2023-world-cup",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on Latvia's squad at the 2023 FIBA Basketball World Cup",
+   "answers": [
+    "Dāvis Bertāns",
+    "Rodions Kurucs",
+    [
+     "Anžejs Pasečņiks",
+     "Pasečņiks"
+    ],
+    "Dairis Bertāns",
+    [
+     "Rolands Šmits",
+     "Šmits"
+    ],
+    [
+     "Artūrs Strautiņš",
+     "Strautiņš"
+    ],
+    [
+     "Klāvs Čavars",
+     "Čavars"
+    ],
+    [
+     "Aigars Šķēle",
+     "Šķēle"
+    ],
+    [
+     "Andrejs Gražulis",
+     "Gražulis"
+    ],
+    "Artūrs Kurucs",
+    [
+     "Artūrs Žagars",
+     "Žagars"
+    ],
+    [
+     "Kristers Zoriks",
+     "Zoriks"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-italy-2023-world-cup",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on Italy's squad at the 2023 FIBA Basketball World Cup",
+   "answers": [
+    [
+     "Simone Fontecchio",
+     "Fontecchio"
+    ],
+    [
+     "Nicolò Melli",
+     "Melli"
+    ],
+    [
+     "Luigi Datome",
+     "Datome"
+    ],
+    [
+     "Achille Polonara",
+     "Polonara"
+    ],
+    [
+     "Marco Spissu",
+     "Spissu"
+    ],
+    [
+     "Stefano Tonut",
+     "Tonut"
+    ],
+    [
+     "Giampaolo Ricci",
+     "Ricci"
+    ],
+    [
+     "Matteo Spagnolo",
+     "Spagnolo"
+    ],
+    [
+     "Mouhamet Diouf",
+     "Diouf"
+    ],
+    [
+     "Luca Severini",
+     "Severini"
+    ],
+    [
+     "Gabriele Procida",
+     "Procida"
+    ],
+    [
+     "Alessandro Pajola",
+     "Pajola"
+    ]
+   ]
+  },
+  {
+   "id": "nba-i-global-brazil-2024-olympics",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on Brazil's squad for the 2024 Olympic basketball tournament in Paris",
+   "answers": [
+    [
+     "Bruno Caboclo",
+     "Caboclo"
+    ],
+    [
+     "Raul Neto",
+     "Neto"
+    ],
+    [
+     "Gui Santos",
+     "Santos"
+    ],
+    [
+     "Cristiano Felicio",
+     "Felicio"
+    ],
+    [
+     "Marcelinho Huertas",
+     "Huertas"
+    ],
+    [
+     "Yago dos Santos",
+     "dos Santos"
+    ],
+    [
+     "Didi Louzada",
+     "Louzada"
+    ],
+    [
+     "Vitor Benite",
+     "Benite"
+    ],
+    [
+     "Léo Meindl",
+     "Meindl"
+    ],
+    [
+     "Georginho de Paula",
+     "de Paula"
+    ],
+    [
+     "Mãozinha Pereira",
+     "Pereira"
+    ],
+    [
+     "Lucas Dias",
+     "Dias"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "nba-i-global-japan-2024-olympics",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a player on Japan's squad for the 2024 Olympic basketball tournament in Paris",
+   "answers": [
+    [
+     "Rui Hachimura",
+     "Hachimura"
+    ],
+    "Yuta Watanabe",
+    [
+     "Yuki Kawamura",
+     "Kawamura"
+    ],
+    [
+     "Josh Hawkinson",
+     "Hawkinson"
+    ],
+    [
+     "Keisei Tominaga",
+     "Tominaga"
+    ],
+    [
+     "Yuki Togashi",
+     "Togashi"
+    ],
+    [
+     "Akira Jacobs",
+     "Jacobs"
+    ],
+    [
+     "Makoto Hiejima",
+     "Hiejima"
+    ],
+    [
+     "Kai Toews",
+     "Toews"
+    ],
+    [
+     "Yudai Baba",
+     "Baba"
+    ],
+    "Hugh Watanabe",
+    [
+     "Hirotaka Yoshii",
+     "Yoshii"
+    ]
+   ],
+   "deep": true
+  }
+ ]
+}
