@@ -1,0 +1,9382 @@
+{
+ "cat": "sport",
+ "prompts": [
+  {
+   "id": "xs6-open-multiple-winners",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who has won The Open Championship more than once (1860 to 2026)",
+   "answers": [
+    [
+     "Ernie Els",
+     "Els"
+    ],
+    [
+     "Pádraig Harrington",
+     "Harrington"
+    ],
+    [
+     "Tiger Woods",
+     "Tiger",
+     "Woods"
+    ],
+    [
+     "Greg Norman",
+     "The Shark",
+     "Shark",
+     "Norman"
+    ],
+    [
+     "Nick Faldo",
+     "Sir Nick Faldo",
+     "Faldo"
+    ],
+    [
+     "Seve Ballesteros",
+     "Seve",
+     "Severiano Ballesteros",
+     "Ballesteros"
+    ],
+    [
+     "Tom Watson",
+     "Watson"
+    ],
+    [
+     "Jack Nicklaus",
+     "Golden Bear",
+     "Nicklaus"
+    ],
+    [
+     "Gary Player",
+     "Player"
+    ],
+    [
+     "Lee Trevino",
+     "Super Mex",
+     "Trevino"
+    ],
+    [
+     "Peter Thomson",
+     "Thomson"
+    ],
+    [
+     "Arnold Palmer",
+     "Arnie",
+     "Arnie Palmer",
+     "Palmer"
+    ],
+    [
+     "Bobby Locke",
+     "Arthur D'Arcy Locke",
+     "Sandy Locke",
+     "Locke"
+    ],
+    [
+     "Henry Cotton",
+     "Cotton"
+    ],
+    [
+     "Bobby Jones",
+     "Robert Tyre Jones",
+     "Jones"
+    ],
+    [
+     "Walter Hagen",
+     "The Haig",
+     "Hagen"
+    ],
+    [
+     "Harry Vardon",
+     "Vardon"
+    ],
+    [
+     "John Henry Taylor",
+     "J.H. Taylor",
+     "Taylor"
+    ],
+    [
+     "James Braid",
+     "Braid"
+    ],
+    [
+     "Harold Hilton",
+     "Hilton"
+    ],
+    [
+     "Willie Park Jr.",
+     "Willie Park Junior"
+    ],
+    [
+     "Bob Martin",
+     "Martin"
+    ],
+    [
+     "Bob Ferguson",
+     "Ferguson"
+    ],
+    [
+     "Jamie Anderson",
+     "Anderson"
+    ],
+    [
+     "Willie Park Sr.",
+     "Willie Park Senior"
+    ],
+    [
+     "Young Tom Morris",
+     "Young Tom",
+     "Tom Morris Jr",
+     "Tom Morris Junior"
+    ],
+    [
+     "Old Tom Morris",
+     "Old Tom",
+     "Tom Morris Sr",
+     "Tom Morris Senior"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-pga-multiple-winners",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who has won the PGA Championship more than once (1916 to 2026)",
+   "answers": [
+    [
+     "Brooks Koepka",
+     "Koepka"
+    ],
+    [
+     "Justin Thomas",
+     "JT",
+     "Thomas"
+    ],
+    [
+     "Phil Mickelson",
+     "Lefty",
+     "Phil",
+     "Mickelson"
+    ],
+    [
+     "Rory McIlroy",
+     "Rory",
+     "McIlroy"
+    ],
+    [
+     "Tiger Woods",
+     "Tiger",
+     "Woods"
+    ],
+    [
+     "Vijay Singh",
+     "Singh"
+    ],
+    [
+     "Nick Price",
+     "Price"
+    ],
+    "Larry Nelson",
+    [
+     "Lee Trevino",
+     "Super Mex",
+     "Trevino"
+    ],
+    [
+     "Raymond Floyd",
+     "Ray Floyd",
+     "Floyd"
+    ],
+    [
+     "Jack Nicklaus",
+     "Golden Bear",
+     "Nicklaus"
+    ],
+    [
+     "Dave Stockton",
+     "Stockton"
+    ],
+    [
+     "Gary Player",
+     "Player"
+    ],
+    [
+     "Sam Snead",
+     "Slammin Sammy",
+     "Snead"
+    ],
+    [
+     "Ben Hogan",
+     "Bantam Ben",
+     "Hogan"
+    ],
+    "Byron Nelson",
+    [
+     "Paul Runyan",
+     "Runyan"
+    ],
+    [
+     "Denny Shute",
+     "Shute"
+    ],
+    [
+     "Gene Sarazen",
+     "Sarazen"
+    ],
+    [
+     "Leo Diegel",
+     "Diegel"
+    ],
+    [
+     "Walter Hagen",
+     "The Haig",
+     "Hagen"
+    ],
+    [
+     "Jim Barnes",
+     "Barnes"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-us-open-multiple-winners",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who has won the US Open more than once (1895 to 2026)",
+   "answers": [
+    [
+     "Wyndham Clark",
+     "Clark"
+    ],
+    [
+     "Bryson DeChambeau",
+     "DeChambeau",
+     "Bryson"
+    ],
+    [
+     "Brooks Koepka",
+     "Koepka"
+    ],
+    [
+     "Tiger Woods",
+     "Tiger",
+     "Woods"
+    ],
+    [
+     "Retief Goosen",
+     "Goosen"
+    ],
+    [
+     "Payne Stewart",
+     "Stewart"
+    ],
+    [
+     "Lee Janzen",
+     "Janzen"
+    ],
+    [
+     "Ernie Els",
+     "Els"
+    ],
+    [
+     "Hale Irwin",
+     "Irwin"
+    ],
+    [
+     "Curtis Strange",
+     "Strange"
+    ],
+    [
+     "Andy North",
+     "North"
+    ],
+    [
+     "Jack Nicklaus",
+     "Golden Bear",
+     "Nicklaus"
+    ],
+    [
+     "Lee Trevino",
+     "Super Mex",
+     "Trevino"
+    ],
+    [
+     "Billy Casper",
+     "Casper"
+    ],
+    [
+     "Julius Boros",
+     "Boros"
+    ],
+    [
+     "Cary Middlecoff",
+     "Middlecoff"
+    ],
+    [
+     "Ben Hogan",
+     "Bantam Ben",
+     "Hogan"
+    ],
+    [
+     "Ralph Guldahl",
+     "Guldahl"
+    ],
+    [
+     "Gene Sarazen",
+     "Sarazen"
+    ],
+    [
+     "Bobby Jones",
+     "Robert Tyre Jones",
+     "Jones"
+    ],
+    [
+     "Walter Hagen",
+     "The Haig",
+     "Hagen"
+    ],
+    [
+     "John McDermott",
+     "McDermott"
+    ],
+    [
+     "Alex Smith",
+     "Smith"
+    ],
+    [
+     "Willie Anderson",
+     "Anderson"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-open-at-st-andrews",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who has won The Open Championship at St Andrews (1873 to 2022)",
+   "answers": [
+    [
+     "Cameron Smith",
+     "Smith"
+    ],
+    [
+     "Zach Johnson",
+     "Johnson"
+    ],
+    [
+     "Louis Oosthuizen",
+     "Oosthuizen"
+    ],
+    [
+     "Tiger Woods",
+     "Tiger",
+     "Woods"
+    ],
+    [
+     "John Daly",
+     "Daly"
+    ],
+    [
+     "Nick Faldo",
+     "Sir Nick Faldo",
+     "Faldo"
+    ],
+    [
+     "Seve Ballesteros",
+     "Seve",
+     "Severiano Ballesteros",
+     "Ballesteros"
+    ],
+    [
+     "Jack Nicklaus",
+     "Golden Bear",
+     "Nicklaus"
+    ],
+    [
+     "Tony Lema",
+     "Lema"
+    ],
+    [
+     "Kel Nagle",
+     "Nagle"
+    ],
+    [
+     "Bobby Locke",
+     "Arthur D'Arcy Locke",
+     "Sandy Locke",
+     "Locke"
+    ],
+    [
+     "Peter Thomson",
+     "Thomson"
+    ],
+    [
+     "Sam Snead",
+     "Slammin Sammy",
+     "Snead"
+    ],
+    [
+     "Dick Burton",
+     "Burton"
+    ],
+    [
+     "Denny Shute",
+     "Shute"
+    ],
+    [
+     "Bobby Jones",
+     "Robert Tyre Jones",
+     "Jones"
+    ],
+    [
+     "Jock Hutchison",
+     "Hutchison"
+    ],
+    [
+     "James Braid",
+     "Braid"
+    ],
+    [
+     "John Henry Taylor",
+     "J.H. Taylor",
+     "Taylor"
+    ],
+    [
+     "Hugh Kirkaldy",
+     "Kirkaldy"
+    ],
+    [
+     "Jack Burns",
+     "Burns"
+    ],
+    [
+     "Bob Martin",
+     "Martin"
+    ],
+    [
+     "Bob Ferguson",
+     "Ferguson"
+    ],
+    [
+     "Jamie Anderson",
+     "Anderson"
+    ],
+    [
+     "Tom Kidd",
+     "Kidd"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-open-at-muirfield",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who has won The Open Championship at Muirfield (1892 to 2013)",
+   "answers": [
+    [
+     "Phil Mickelson",
+     "Lefty",
+     "Phil",
+     "Mickelson"
+    ],
+    [
+     "Ernie Els",
+     "Els"
+    ],
+    [
+     "Nick Faldo",
+     "Sir Nick Faldo",
+     "Faldo"
+    ],
+    [
+     "Tom Watson",
+     "Watson"
+    ],
+    [
+     "Lee Trevino",
+     "Super Mex",
+     "Trevino"
+    ],
+    [
+     "Jack Nicklaus",
+     "Golden Bear",
+     "Nicklaus"
+    ],
+    [
+     "Gary Player",
+     "Player"
+    ],
+    [
+     "Henry Cotton",
+     "Cotton"
+    ],
+    [
+     "Alf Perry",
+     "Perry"
+    ],
+    [
+     "Walter Hagen",
+     "The Haig",
+     "Hagen"
+    ],
+    [
+     "Ted Ray",
+     "Ray"
+    ],
+    [
+     "James Braid",
+     "Braid"
+    ],
+    [
+     "Harry Vardon",
+     "Vardon"
+    ],
+    [
+     "Harold Hilton",
+     "Hilton"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs6-open-at-royal-st-georges",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who has won The Open Championship at Royal St George's (1894 to 2021)",
+   "answers": [
+    [
+     "Collin Morikawa",
+     "Morikawa"
+    ],
+    [
+     "Darren Clarke",
+     "Clarke"
+    ],
+    [
+     "Ben Curtis",
+     "Curtis"
+    ],
+    [
+     "Greg Norman",
+     "The Shark",
+     "Shark",
+     "Norman"
+    ],
+    [
+     "Sandy Lyle",
+     "Lyle"
+    ],
+    [
+     "Bill Rogers",
+     "Rogers"
+    ],
+    [
+     "Bobby Locke",
+     "Arthur D'Arcy Locke",
+     "Sandy Locke",
+     "Locke"
+    ],
+    [
+     "Reg Whitcombe",
+     "Whitcombe"
+    ],
+    [
+     "Henry Cotton",
+     "Cotton"
+    ],
+    [
+     "Walter Hagen",
+     "The Haig",
+     "Hagen"
+    ],
+    [
+     "Harry Vardon",
+     "Vardon"
+    ],
+    [
+     "Jack White",
+     "White"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs6-club-types",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a type of golf club (including old names)",
+   "answers": [
+    [
+     "Driver",
+     "1 wood",
+     "one wood"
+    ],
+    "Putter",
+    [
+     "Sand wedge",
+     "SW"
+    ],
+    [
+     "Pitching wedge",
+     "PW"
+    ],
+    [
+     "Lob wedge",
+     "LW"
+    ],
+    [
+     "Gap wedge",
+     "GW",
+     "approach wedge"
+    ],
+    "Wedge",
+    "Iron",
+    [
+     "7-iron",
+     "seven iron"
+    ],
+    [
+     "9-iron",
+     "nine iron"
+    ],
+    [
+     "5-iron",
+     "five iron"
+    ],
+    [
+     "3-iron",
+     "three iron"
+    ],
+    [
+     "Hybrid",
+     "rescue club",
+     "rescue"
+    ],
+    [
+     "Fairway wood",
+     "wood"
+    ],
+    [
+     "3-wood",
+     "three wood",
+     "brassie"
+    ],
+    [
+     "5-wood",
+     "five wood",
+     "spoon"
+    ],
+    [
+     "Mashie",
+     "mashie iron"
+    ],
+    "Niblick",
+    "Cleek",
+    [
+     "Baffy",
+     "baffing spoon"
+    ],
+    "Jigger",
+    "Mid-iron",
+    "Long iron",
+    "Short iron",
+    "Chipper",
+    [
+     "Blade",
+     "blades"
+    ],
+    [
+     "Utility iron",
+     "driving iron"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-score-terms",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golf score for a hole (relative to par)",
+   "answers": [
+    "Birdie",
+    "Eagle",
+    [
+     "Albatross",
+     "double eagle"
+    ],
+    "Bogey",
+    "Double bogey",
+    "Triple bogey",
+    "Par",
+    [
+     "Hole in one",
+     "ace"
+    ],
+    [
+     "Condor",
+     "double albatross"
+    ],
+    "Quadruple bogey",
+    "Quintuple bogey",
+    [
+     "Snowman",
+     "eight"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-course-features",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a part of a golf course",
+   "answers": [
+    [
+     "Tee",
+     "tee box",
+     "teeing ground"
+    ],
+    "Fairway",
+    [
+     "Rough",
+     "long grass"
+    ],
+    [
+     "Green",
+     "putting green"
+    ],
+    [
+     "Bunker",
+     "sand trap",
+     "sand bunker"
+    ],
+    [
+     "Water hazard",
+     "pond",
+     "lake"
+    ],
+    [
+     "Hole",
+     "cup"
+    ],
+    [
+     "Flag",
+     "pin",
+     "flagstick"
+    ],
+    [
+     "Fringe",
+     "collar",
+     "apron"
+    ],
+    "Dogleg",
+    "Clubhouse",
+    [
+     "Driving range",
+     "range"
+    ],
+    [
+     "Out of bounds",
+     "OB"
+    ],
+    [
+     "Semi-rough",
+     "first cut"
+    ],
+    "Practice green",
+    [
+     "Cart path",
+     "buggy path"
+    ],
+    "Links",
+    "19th hole",
+    [
+     "Hazard",
+     "hazards"
+    ],
+    "Divot",
+    "Pot bunker",
+    [
+     "Creek",
+     "burn"
+    ],
+    "Pro shop"
+   ]
+  },
+  {
+   "id": "xs6-tournaments",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a professional golf tournament or team event",
+   "answers": [
+    [
+     "The Open",
+     "Open Championship",
+     "British Open"
+    ],
+    [
+     "The Masters",
+     "Masters"
+    ],
+    "US Open",
+    "PGA Championship",
+    "Ryder Cup",
+    "Solheim Cup",
+    "Presidents Cup",
+    "Walker Cup",
+    "Curtis Cup",
+    [
+     "The Players Championship",
+     "Players Championship",
+     "The Players"
+    ],
+    "FedEx Cup",
+    "Tour Championship",
+    [
+     "BMW PGA Championship",
+     "BMW PGA",
+     "Wentworth"
+    ],
+    "Scottish Open",
+    "Irish Open",
+    [
+     "Dubai Desert Classic",
+     "Desert Classic"
+    ],
+    "Arnold Palmer Invitational",
+    [
+     "The Memorial",
+     "Memorial Tournament"
+    ],
+    [
+     "Genesis Invitational",
+     "Genesis Open"
+    ],
+    [
+     "Waste Management Phoenix Open",
+     "Phoenix Open"
+    ],
+    [
+     "Open de France",
+     "French Open"
+    ],
+    [
+     "Alfred Dunhill Links Championship",
+     "Dunhill Links"
+    ],
+    "Evian Championship",
+    [
+     "AIG Women's Open",
+     "Women's British Open",
+     "Women's Open"
+    ],
+    "US Women's Open",
+    "Women's PGA Championship",
+    "Hero World Challenge",
+    "Zurich Classic",
+    "Honda Classic",
+    "Farmers Insurance Open",
+    [
+     "AT&T Pebble Beach Pro-Am",
+     "Pebble Beach Pro-Am"
+    ],
+    "Wells Fargo Championship",
+    [
+     "WGC Match Play",
+     "Match Play"
+    ],
+    "World Match Play Championship",
+    "DP World Tour Championship",
+    "Sony Open",
+    [
+     "Sentry Tournament of Champions",
+     "Tournament of Champions"
+    ],
+    "Valspar Championship",
+    "Travelers Championship",
+    "John Deere Classic"
+   ]
+  },
+  {
+   "id": "xs6-men-three-slams",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a man who has won three or more Grand Slam singles titles (to the 2026 US Open)",
+   "answers": [
+    [
+     "Novak Djokovic",
+     "Nole",
+     "Djoker",
+     "Djokovic"
+    ],
+    [
+     "Rafael Nadal",
+     "Rafa",
+     "Nadal"
+    ],
+    [
+     "Roger Federer",
+     "Fed",
+     "Federer"
+    ],
+    [
+     "Pete Sampras",
+     "Sampras"
+    ],
+    [
+     "Roy Emerson",
+     "Emerson"
+    ],
+    [
+     "Rod Laver",
+     "Rocket Rod",
+     "Laver"
+    ],
+    [
+     "Björn Borg",
+     "Borg"
+    ],
+    [
+     "Bill Tilden",
+     "Big Bill Tilden",
+     "Tilden"
+    ],
+    [
+     "Fred Perry",
+     "Perry"
+    ],
+    [
+     "Ken Rosewall",
+     "Muscles",
+     "Rosewall"
+    ],
+    [
+     "Jimmy Connors",
+     "Connors"
+    ],
+    [
+     "Ivan Lendl",
+     "Lendl"
+    ],
+    [
+     "Andre Agassi",
+     "Agassi"
+    ],
+    [
+     "William Renshaw",
+     "Renshaw"
+    ],
+    [
+     "Richard Sears",
+     "Sears"
+    ],
+    [
+     "William Larned",
+     "Larned"
+    ],
+    [
+     "René Lacoste",
+     "The Crocodile",
+     "Lacoste"
+    ],
+    [
+     "Henri Cochet",
+     "Cochet"
+    ],
+    [
+     "John Newcombe",
+     "Newk",
+     "Newcombe"
+    ],
+    [
+     "John McEnroe",
+     "Johnny Mac",
+     "McEnroe"
+    ],
+    [
+     "Mats Wilander",
+     "Wilander"
+    ],
+    [
+     "Carlos Alcaraz",
+     "Carlitos",
+     "Alcaraz"
+    ],
+    "Laurence Doherty",
+    [
+     "Anthony Wilding",
+     "Wilding"
+    ],
+    [
+     "Jack Crawford",
+     "Crawford"
+    ],
+    [
+     "Don Budge",
+     "Budge"
+    ],
+    [
+     "Stefan Edberg",
+     "Edberg"
+    ],
+    [
+     "Boris Becker",
+     "Boom Boom",
+     "Becker"
+    ],
+    [
+     "Frank Sedgman",
+     "Sedgman"
+    ],
+    [
+     "Tony Trabert",
+     "Trabert"
+    ],
+    [
+     "Jannik Sinner",
+     "Sinner"
+    ],
+    [
+     "Robert Wrenn",
+     "Wrenn"
+    ],
+    "Reginald Doherty",
+    [
+     "Jean Borotra",
+     "Borotra"
+    ],
+    [
+     "Frank Parker",
+     "Parker"
+    ],
+    [
+     "Lew Hoad",
+     "Hoad"
+    ],
+    [
+     "Ashley Cooper",
+     "Cooper"
+    ],
+    [
+     "Manuel Santana",
+     "Santana"
+    ],
+    [
+     "Guillermo Vilas",
+     "Vilas"
+    ],
+    [
+     "Jim Courier",
+     "Courier"
+    ],
+    [
+     "Oliver Campbell",
+     "Campbell"
+    ],
+    [
+     "Wilfred Baddeley",
+     "Baddeley"
+    ],
+    [
+     "Malcolm Whitman",
+     "Whitman"
+    ],
+    [
+     "Arthur Gore",
+     "Gore"
+    ],
+    [
+     "Norman Brookes",
+     "Brookes"
+    ],
+    [
+     "Bill Johnston",
+     "Johnston"
+    ],
+    [
+     "Gerald Patterson",
+     "Patterson"
+    ],
+    [
+     "James Anderson",
+     "Anderson"
+    ],
+    [
+     "Ellsworth Vines",
+     "Vines"
+    ],
+    [
+     "Adrian Quist",
+     "Quist"
+    ],
+    [
+     "Bobby Riggs",
+     "Riggs"
+    ],
+    [
+     "Jack Kramer",
+     "Kramer"
+    ],
+    [
+     "Jaroslav Drobný",
+     "Drobný"
+    ],
+    [
+     "Neale Fraser",
+     "Fraser"
+    ],
+    [
+     "Arthur Ashe",
+     "Ashe"
+    ],
+    [
+     "Jan Kodeš",
+     "Kodeš"
+    ],
+    [
+     "Gustavo Kuerten",
+     "Guga",
+     "Kuerten"
+    ],
+    [
+     "Andy Murray",
+     "Sir Andy Murray",
+     "Murray"
+    ],
+    [
+     "Stan Wawrinka",
+     "Stanislas Wawrinka",
+     "Wawrinka"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-women-three-slams",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a woman who has won three or more Grand Slam singles titles (to the 2026 US Open)",
+   "answers": [
+    [
+     "Margaret Smith Court",
+     "Margaret Court",
+     "Margaret Smith",
+     "Court"
+    ],
+    [
+     "Serena Williams",
+     "Serena"
+    ],
+    [
+     "Steffi Graf",
+     "Graf"
+    ],
+    [
+     "Helen Wills Moody",
+     "Helen Wills",
+     "Moody"
+    ],
+    [
+     "Chris Evert",
+     "Chrissie Evert",
+     "Chris Evert Lloyd",
+     "Evert"
+    ],
+    [
+     "Martina Navratilova",
+     "Navratilova"
+    ],
+    [
+     "Billie Jean Moffitt King",
+     "Billie Jean King",
+     "BJK",
+     "King"
+    ],
+    [
+     "Maureen Connolly",
+     "Connolly"
+    ],
+    [
+     "Monica Seles",
+     "Seles"
+    ],
+    [
+     "Molla Bjurstedt Mallory",
+     "Molla Mallory",
+     "Mallory"
+    ],
+    [
+     "Suzanne Lenglen",
+     "Lenglen"
+    ],
+    [
+     "Dorothea Douglass Lambert Chambers",
+     "Dorothea Lambert Chambers",
+     "Dorothea Douglass",
+     "Mrs Lambert Chambers",
+     "Chambers"
+    ],
+    [
+     "Maria Bueno",
+     "Maria Esther Bueno",
+     "Bueno"
+    ],
+    [
+     "Evonne Goolagong Cawley",
+     "Evonne Goolagong",
+     "Evonne Cawley",
+     "Cawley"
+    ],
+    [
+     "Venus Williams",
+     "Venus"
+    ],
+    [
+     "Justine Henin",
+     "Justine Henin-Hardenne",
+     "Henin"
+    ],
+    [
+     "Blanche Bingley Hillyard",
+     "Blanche Hillyard",
+     "Blanche Bingley",
+     "Hillyard"
+    ],
+    [
+     "Nancye Wynne Bolton",
+     "Nancye Bolton",
+     "Bolton"
+    ],
+    [
+     "Margaret Osborne duPont",
+     "Margaret duPont",
+     "Margaret Osborne",
+     "duPont"
+    ],
+    [
+     "Louise Brough",
+     "Brough"
+    ],
+    [
+     "Doris Hart",
+     "Hart"
+    ],
+    [
+     "Iga Świątek",
+     "Świątek"
+    ],
+    [
+     "Lottie Dod",
+     "Dod"
+    ],
+    [
+     "Charlotte Cooper Sterry",
+     "Charlotte Cooper",
+     "Sterry"
+    ],
+    [
+     "Daphne Akhurst",
+     "Akhurst"
+    ],
+    [
+     "Helen Jacobs",
+     "Jacobs"
+    ],
+    [
+     "Alice Marble",
+     "Marble"
+    ],
+    [
+     "Pauline Betz",
+     "Betz"
+    ],
+    [
+     "Althea Gibson",
+     "Gibson"
+    ],
+    [
+     "Martina Hingis",
+     "Hingis"
+    ],
+    [
+     "Maria Sharapova",
+     "Sharapova"
+    ],
+    [
+     "Elisabeth Moore",
+     "Moore"
+    ],
+    [
+     "Hazel Hotchkiss Wightman",
+     "Hazel Wightman",
+     "Wightman"
+    ],
+    [
+     "Shirley Fry",
+     "Fry"
+    ],
+    [
+     "Hana Mandlíková",
+     "Mandlíková"
+    ],
+    [
+     "Arantxa Sánchez Vicario",
+     "Sanchez Vicario",
+     "Arantxa Sanchez",
+     "Vicario"
+    ],
+    [
+     "Kim Clijsters",
+     "Clijsters"
+    ],
+    [
+     "Naomi Osaka",
+     "Osaka"
+    ],
+    [
+     "Aryna Sabalenka",
+     "Sabalenka"
+    ],
+    [
+     "Juliette Atkinson",
+     "Atkinson"
+    ],
+    [
+     "May Sutton Bundy",
+     "May Sutton",
+     "Bundy"
+    ],
+    [
+     "Mary Browne",
+     "Browne"
+    ],
+    [
+     "Joan Hartigan",
+     "Hartigan"
+    ],
+    [
+     "Dorothy Round",
+     "Round"
+    ],
+    [
+     "Hilde Krahwinkel Sperling",
+     "Hilde Sperling",
+     "Sperling"
+    ],
+    [
+     "Angela Mortimer",
+     "Mortimer"
+    ],
+    [
+     "Darlene Hard",
+     "Hard"
+    ],
+    [
+     "Ann Haydon Jones",
+     "Ann Jones",
+     "Ann Haydon",
+     "Jones"
+    ],
+    [
+     "Virginia Wade",
+     "Wade"
+    ],
+    [
+     "Lindsay Davenport",
+     "Davenport"
+    ],
+    [
+     "Jennifer Capriati",
+     "Capriati"
+    ],
+    [
+     "Angelique Kerber",
+     "Kerber"
+    ],
+    [
+     "Ashleigh Barty",
+     "Ash Barty",
+     "Barty"
+    ],
+    [
+     "Elena Rybakina",
+     "Rybakina"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-men-slam-winners-1968-1999",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a man who won a Grand Slam singles title between 1968 and 1999",
+   "answers": [
+    [
+     "Adriano Panatta",
+     "Panatta"
+    ],
+    [
+     "Andre Agassi",
+     "Agassi"
+    ],
+    [
+     "Andrés Gimeno",
+     "Gimeno"
+    ],
+    [
+     "Andrés Gómez",
+     "Gómez"
+    ],
+    [
+     "Arthur Ashe",
+     "Ashe"
+    ],
+    [
+     "Bill Bowrey",
+     "William Bowrey",
+     "Bowrey"
+    ],
+    [
+     "Björn Borg",
+     "Borg"
+    ],
+    [
+     "Boris Becker",
+     "Boom Boom",
+     "Becker"
+    ],
+    [
+     "Brian Teacher",
+     "Teacher"
+    ],
+    [
+     "Carlos Moyá",
+     "Moyá"
+    ],
+    [
+     "Guillermo Vilas",
+     "Vilas"
+    ],
+    [
+     "Gustavo Kuerten",
+     "Guga",
+     "Kuerten"
+    ],
+    [
+     "Ilie Năstase",
+     "Năstase"
+    ],
+    [
+     "Ivan Lendl",
+     "Lendl"
+    ],
+    [
+     "Jan Kodeš",
+     "Kodeš"
+    ],
+    [
+     "Jim Courier",
+     "Courier"
+    ],
+    [
+     "Jimmy Connors",
+     "Connors"
+    ],
+    [
+     "Johan Kriek",
+     "Kriek"
+    ],
+    [
+     "John McEnroe",
+     "Johnny Mac",
+     "McEnroe"
+    ],
+    [
+     "John Newcombe",
+     "Newk",
+     "Newcombe"
+    ],
+    [
+     "Ken Rosewall",
+     "Muscles",
+     "Rosewall"
+    ],
+    [
+     "Manuel Orantes",
+     "Orantes"
+    ],
+    [
+     "Mark Edmondson",
+     "Edmondson"
+    ],
+    [
+     "Mats Wilander",
+     "Wilander"
+    ],
+    [
+     "Michael Chang",
+     "Chang"
+    ],
+    [
+     "Michael Stich",
+     "Stich"
+    ],
+    [
+     "Pat Cash",
+     "Patrick Cash",
+     "Cash"
+    ],
+    [
+     "Patrick Rafter",
+     "Pat Rafter",
+     "Rafter"
+    ],
+    [
+     "Pete Sampras",
+     "Sampras"
+    ],
+    [
+     "Petr Korda",
+     "Korda"
+    ],
+    [
+     "Richard Krajicek",
+     "Krajicek"
+    ],
+    [
+     "Rod Laver",
+     "Rocket Rod",
+     "Laver"
+    ],
+    [
+     "Roscoe Tanner",
+     "Tanner"
+    ],
+    [
+     "Sergi Bruguera",
+     "Bruguera"
+    ],
+    [
+     "Stan Smith",
+     "Smith"
+    ],
+    [
+     "Stefan Edberg",
+     "Edberg"
+    ],
+    [
+     "Thomas Muster",
+     "Muster"
+    ],
+    [
+     "Vitas Gerulaitis",
+     "Gerulaitis"
+    ],
+    [
+     "Yannick Noah",
+     "Noah"
+    ],
+    [
+     "Yevgeny Kafelnikov",
+     "Evgeny Kafelnikov",
+     "Kafelnikov"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-women-slam-winners-1968-1999",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a woman who won a Grand Slam singles title between 1968 and 1999",
+   "answers": [
+    [
+     "Ann Haydon Jones",
+     "Ann Jones",
+     "Ann Haydon",
+     "Jones"
+    ],
+    [
+     "Arantxa Sánchez Vicario",
+     "Sanchez Vicario",
+     "Arantxa Sanchez",
+     "Vicario"
+    ],
+    [
+     "Barbara Jordan",
+     "Jordan"
+    ],
+    [
+     "Billie Jean Moffitt King",
+     "Billie Jean King",
+     "BJK",
+     "King"
+    ],
+    [
+     "Chris Evert",
+     "Chrissie Evert",
+     "Chris Evert Lloyd",
+     "Evert"
+    ],
+    [
+     "Chris O'Neil",
+     "Christine O'Neil",
+     "O'Neil"
+    ],
+    [
+     "Conchita Martínez",
+     "Martínez"
+    ],
+    [
+     "Evonne Goolagong Cawley",
+     "Evonne Goolagong",
+     "Evonne Cawley",
+     "Cawley"
+    ],
+    [
+     "Gabriela Sabatini",
+     "Sabatini"
+    ],
+    [
+     "Hana Mandlíková",
+     "Mandlíková"
+    ],
+    [
+     "Iva Majoli",
+     "Majoli"
+    ],
+    [
+     "Jana Novotná",
+     "Novotná"
+    ],
+    [
+     "Kerry Reid",
+     "Kerry Melville Reid",
+     "Kerry Melville",
+     "Reid"
+    ],
+    [
+     "Lindsay Davenport",
+     "Davenport"
+    ],
+    [
+     "Margaret Smith Court",
+     "Margaret Court",
+     "Margaret Smith",
+     "Court"
+    ],
+    [
+     "Martina Hingis",
+     "Hingis"
+    ],
+    [
+     "Martina Navratilova",
+     "Navratilova"
+    ],
+    [
+     "Mary Pierce",
+     "Pierce"
+    ],
+    [
+     "Mima Jaušovec",
+     "Jaušovec"
+    ],
+    [
+     "Monica Seles",
+     "Seles"
+    ],
+    [
+     "Nancy Richey",
+     "Nancy Richey Gunter",
+     "Richey"
+    ],
+    [
+     "Serena Williams",
+     "Serena",
+     "Williams"
+    ],
+    [
+     "Steffi Graf",
+     "Graf"
+    ],
+    [
+     "Sue Barker",
+     "Barker"
+    ],
+    [
+     "Tracy Austin",
+     "Austin"
+    ],
+    [
+     "Virginia Ruzici",
+     "Ruzici"
+    ],
+    [
+     "Virginia Wade",
+     "Wade"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-wimbledon-men-finalists-2000-2026",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a man who has played in a Wimbledon singles final between 2000 and 2026",
+   "answers": [
+    [
+     "Jannik Sinner",
+     "Sinner"
+    ],
+    [
+     "Alexander Zverev",
+     "Zverev"
+    ],
+    [
+     "Carlos Alcaraz",
+     "Carlitos",
+     "Alcaraz"
+    ],
+    [
+     "Novak Djokovic",
+     "Nole",
+     "Djoker",
+     "Djokovic"
+    ],
+    [
+     "Nick Kyrgios",
+     "Kyrgios"
+    ],
+    [
+     "Matteo Berrettini",
+     "Berrettini"
+    ],
+    [
+     "Roger Federer",
+     "Fed",
+     "Federer"
+    ],
+    [
+     "Kevin Anderson",
+     "Anderson"
+    ],
+    [
+     "Marin Čilić",
+     "Čilić"
+    ],
+    [
+     "Andy Murray",
+     "Sir Andy Murray",
+     "Murray"
+    ],
+    [
+     "Milos Raonic",
+     "Raonic"
+    ],
+    [
+     "Rafael Nadal",
+     "Rafa",
+     "Nadal"
+    ],
+    [
+     "Tomáš Berdych",
+     "Berdych"
+    ],
+    [
+     "Andy Roddick",
+     "Roddick"
+    ],
+    [
+     "Mark Philippoussis",
+     "Philippoussis"
+    ],
+    [
+     "Lleyton Hewitt",
+     "Hewitt"
+    ],
+    [
+     "David Nalbandian",
+     "Nalbandian"
+    ],
+    [
+     "Goran Ivanišević",
+     "Ivanišević"
+    ],
+    [
+     "Patrick Rafter",
+     "Pat Rafter",
+     "Rafter"
+    ],
+    [
+     "Pete Sampras",
+     "Sampras"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-wimbledon-women-finalists-2000-2026",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a woman who has played in a Wimbledon singles final between 2000 and 2026",
+   "answers": [
+    [
+     "Linda Nosková",
+     "Nosková"
+    ],
+    [
+     "Karolína Muchová",
+     "Muchová"
+    ],
+    [
+     "Iga Świątek",
+     "Świątek"
+    ],
+    [
+     "Amanda Anisimova",
+     "Anisimova"
+    ],
+    [
+     "Barbora Krejčíková",
+     "Krejčíková"
+    ],
+    [
+     "Jasmine Paolini",
+     "Paolini"
+    ],
+    [
+     "Markéta Vondroušová",
+     "Vondroušová"
+    ],
+    [
+     "Ons Jabeur",
+     "Jabeur"
+    ],
+    [
+     "Elena Rybakina",
+     "Rybakina"
+    ],
+    [
+     "Ashleigh Barty",
+     "Ash Barty",
+     "Barty"
+    ],
+    [
+     "Karolína Plíšková",
+     "Plíšková"
+    ],
+    [
+     "Simona Halep",
+     "Halep"
+    ],
+    [
+     "Serena Williams",
+     "Serena"
+    ],
+    [
+     "Angelique Kerber",
+     "Kerber"
+    ],
+    [
+     "Garbiñe Muguruza",
+     "Muguruza"
+    ],
+    [
+     "Venus Williams",
+     "Venus"
+    ],
+    [
+     "Petra Kvitová",
+     "Kvitová"
+    ],
+    [
+     "Eugenie Bouchard",
+     "Bouchard"
+    ],
+    [
+     "Marion Bartoli",
+     "Bartoli"
+    ],
+    [
+     "Sabine Lisicki",
+     "Lisicki"
+    ],
+    [
+     "Agnieszka Radwańska",
+     "Radwańska"
+    ],
+    [
+     "Maria Sharapova",
+     "Sharapova"
+    ],
+    [
+     "Vera Zvonareva",
+     "Zvonareva"
+    ],
+    [
+     "Amélie Mauresmo",
+     "Mauresmo"
+    ],
+    [
+     "Justine Henin",
+     "Justine Henin-Hardenne",
+     "Henin"
+    ],
+    [
+     "Lindsay Davenport",
+     "Davenport"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-wimbledon-women-finalists-1968-1999",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a woman who played in a Wimbledon singles final between 1968 and 1999",
+   "answers": [
+    [
+     "Lindsay Davenport",
+     "Davenport"
+    ],
+    [
+     "Steffi Graf",
+     "Graf"
+    ],
+    [
+     "Jana Novotná",
+     "Novotná"
+    ],
+    [
+     "Nathalie Tauziat",
+     "Tauziat"
+    ],
+    [
+     "Martina Hingis",
+     "Hingis"
+    ],
+    [
+     "Arantxa Sánchez Vicario",
+     "Sanchez Vicario",
+     "Arantxa Sanchez",
+     "Vicario"
+    ],
+    [
+     "Conchita Martínez",
+     "Martínez"
+    ],
+    [
+     "Martina Navratilova",
+     "Navratilova"
+    ],
+    [
+     "Monica Seles",
+     "Seles"
+    ],
+    [
+     "Gabriela Sabatini",
+     "Sabatini"
+    ],
+    [
+     "Zina Garrison",
+     "Garrison"
+    ],
+    [
+     "Hana Mandlíková",
+     "Mandlíková"
+    ],
+    [
+     "Chris Evert",
+     "Chrissie Evert",
+     "Chris Evert Lloyd",
+     "Evert"
+    ],
+    [
+     "Andrea Jaeger",
+     "Jaeger"
+    ],
+    [
+     "Evonne Goolagong",
+     "Goolagong"
+    ],
+    [
+     "Virginia Wade",
+     "Wade"
+    ],
+    [
+     "Betty Stöve",
+     "Stöve"
+    ],
+    [
+     "Billie Jean King",
+     "King"
+    ],
+    [
+     "Olga Morozova",
+     "Morozova"
+    ],
+    [
+     "Margaret Court",
+     "Court"
+    ],
+    [
+     "Ann Jones",
+     "Jones"
+    ],
+    [
+     "Judy Tegart",
+     "Tegart"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs6-wimbledon-men-finalists-1968-1999",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a man who played in a Wimbledon singles final between 1968 and 1999",
+   "answers": [
+    [
+     "Pete Sampras",
+     "Sampras"
+    ],
+    [
+     "Andre Agassi",
+     "Agassi"
+    ],
+    [
+     "Goran Ivanišević",
+     "Ivanišević"
+    ],
+    [
+     "Cédric Pioline",
+     "Pioline"
+    ],
+    [
+     "Richard Krajicek",
+     "Krajicek"
+    ],
+    [
+     "MaliVai Washington",
+     "Washington"
+    ],
+    [
+     "Boris Becker",
+     "Boom Boom",
+     "Becker"
+    ],
+    [
+     "Jim Courier",
+     "Courier"
+    ],
+    [
+     "Michael Stich",
+     "Stich"
+    ],
+    [
+     "Stefan Edberg",
+     "Edberg"
+    ],
+    [
+     "Pat Cash",
+     "Patrick Cash",
+     "Cash"
+    ],
+    [
+     "Ivan Lendl",
+     "Lendl"
+    ],
+    [
+     "Kevin Curren",
+     "Curren"
+    ],
+    [
+     "John McEnroe",
+     "Johnny Mac",
+     "McEnroe"
+    ],
+    [
+     "Jimmy Connors",
+     "Connors"
+    ],
+    [
+     "Chris Lewis",
+     "Lewis"
+    ],
+    [
+     "Björn Borg",
+     "Borg"
+    ],
+    [
+     "Roscoe Tanner",
+     "Tanner"
+    ],
+    [
+     "Ilie Năstase",
+     "Năstase"
+    ],
+    [
+     "Arthur Ashe",
+     "Ashe"
+    ],
+    [
+     "Ken Rosewall",
+     "Muscles",
+     "Rosewall"
+    ],
+    [
+     "Jan Kodeš",
+     "Kodeš"
+    ],
+    [
+     "Alex Metreveli",
+     "Metreveli"
+    ],
+    [
+     "Stan Smith",
+     "Smith"
+    ],
+    [
+     "John Newcombe",
+     "Newk",
+     "Newcombe"
+    ],
+    [
+     "Rod Laver",
+     "Rocket Rod",
+     "Laver"
+    ],
+    [
+     "Tony Roche",
+     "Roche"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs6-tennis-terms",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a term used in tennis",
+   "answers": [
+    "Ace",
+    "Deuce",
+    "Love",
+    [
+     "Advantage",
+     "ad"
+    ],
+    "Fault",
+    "Double fault",
+    "Let",
+    "Rally",
+    "Volley",
+    "Lob",
+    [
+     "Smash",
+     "overhead",
+     "overhead smash"
+    ],
+    "Drop shot",
+    "Slice",
+    [
+     "Serve",
+     "service"
+    ],
+    "Forehand",
+    "Backhand",
+    "Baseline",
+    "Tiebreak",
+    "Set",
+    "Game",
+    "Match point",
+    "Set point",
+    "Break point",
+    "Game point",
+    "Seed",
+    "Wildcard",
+    "Bagel",
+    "Breadstick",
+    "Passing shot",
+    "Approach shot",
+    "Topspin",
+    [
+     "Hold",
+     "hold serve"
+    ],
+    [
+     "Break",
+     "break of serve"
+    ],
+    "Foot fault",
+    "Tramlines",
+    "Net cord",
+    "Unforced error",
+    "Winner",
+    "Half-volley",
+    "Groundstroke",
+    "Qualifier",
+    "Lucky loser",
+    "Walkover",
+    "Bye",
+    [
+     "Challenge",
+     "Hawk-Eye"
+    ],
+    "Deuce court",
+    "Ad court",
+    "Moonball",
+    "Tweener",
+    [
+     "Racket",
+     "racquet"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-show-courts",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a show court at one of the four Grand Slam tennis venues",
+   "answers": [
+    [
+     "Centre Court",
+     "Center Court"
+    ],
+    [
+     "No. 1 Court",
+     "Court One",
+     "Number One Court",
+     "Court 1"
+    ],
+    [
+     "No. 2 Court",
+     "Court Two",
+     "Number Two Court"
+    ],
+    [
+     "No. 3 Court",
+     "Court Three",
+     "Number Three Court"
+    ],
+    [
+     "Court Philippe-Chatrier",
+     "Philippe Chatrier",
+     "Chatrier"
+    ],
+    [
+     "Court Suzanne-Lenglen",
+     "Suzanne Lenglen",
+     "Lenglen"
+    ],
+    [
+     "Court Simonne-Mathieu",
+     "Simonne Mathieu"
+    ],
+    [
+     "Rod Laver Arena",
+     "Laver Arena"
+    ],
+    "Margaret Court Arena",
+    [
+     "John Cain Arena",
+     "Melbourne Arena"
+    ],
+    [
+     "Arthur Ashe Stadium",
+     "Ashe Stadium",
+     "Arthur Ashe"
+    ],
+    [
+     "Louis Armstrong Stadium",
+     "Louis Armstrong"
+    ],
+    [
+     "Grandstand",
+     "Grandstand Court"
+    ],
+    [
+     "Kia Arena",
+     "Hisense Arena"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-racket-brands",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a tennis racket brand",
+   "answers": [
+    "Wilson",
+    "Head",
+    "Babolat",
+    "Yonex",
+    "Prince",
+    "Dunlop",
+    "Slazenger",
+    [
+     "Tecnifibre",
+     "Technifibre"
+    ],
+    "Völkl",
+    "Donnay",
+    "Pro Kennex",
+    "Gamma",
+    "Pacific",
+    "Diadora",
+    "Fischer",
+    "Kneissl",
+    "Snauwaert",
+    "Spalding",
+    "Artengo",
+    "Black Knight",
+    "Mantis"
+   ]
+  },
+  {
+   "id": "xs6-rugby-wales-2019-squad",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a player in Wales' squad for the 2019 Rugby World Cup (the semi-finalists)",
+   "answers": [
+    [
+     "Elliot Dee",
+     "Dee"
+    ],
+    [
+     "Ryan Elias",
+     "Elias"
+    ],
+    [
+     "Ken Owens",
+     "Owens"
+    ],
+    [
+     "Rhys Carré",
+     "Carré"
+    ],
+    [
+     "Tomas Francis",
+     "Francis"
+    ],
+    "Wyn Jones",
+    [
+     "Dillon Lewis",
+     "Lewis"
+    ],
+    [
+     "Nicky Smith",
+     "Smith"
+    ],
+    [
+     "Jake Ball",
+     "Ball"
+    ],
+    [
+     "Adam Beard",
+     "Beard"
+    ],
+    "Bradley Davies",
+    [
+     "Cory Hill",
+     "Hill"
+    ],
+    "Alun Wyn Jones",
+    "James Davies",
+    [
+     "Ross Moriarty",
+     "Moriarty"
+    ],
+    [
+     "Josh Navidi",
+     "Navidi"
+    ],
+    [
+     "Aaron Shingler",
+     "Shingler"
+    ],
+    [
+     "Justin Tipuric",
+     "Tipuric"
+    ],
+    [
+     "Aaron Wainwright",
+     "Wainwright"
+    ],
+    "Aled Davies",
+    "Gareth Davies",
+    "Tomos Williams",
+    [
+     "Dan Biggar",
+     "Biggar"
+    ],
+    [
+     "Rhys Patchell",
+     "Patchell"
+    ],
+    "Jonathan Davies",
+    [
+     "Hadleigh Parkes",
+     "Parkes"
+    ],
+    [
+     "Owen Watkin",
+     "Watkin"
+    ],
+    [
+     "Josh Adams",
+     "Adams"
+    ],
+    [
+     "Hallam Amos",
+     "Amos"
+    ],
+    [
+     "Owen Lane",
+     "Lane"
+    ],
+    [
+     "George North",
+     "North"
+    ],
+    [
+     "Leigh Halfpenny",
+     "Halfpenny"
+    ],
+    "Liam Williams"
+   ]
+  },
+  {
+   "id": "xs6-rugby-ireland-2019-squad",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a player in Ireland's squad for the 2019 Rugby World Cup",
+   "answers": [
+    [
+     "Rory Best",
+     "Best"
+    ],
+    [
+     "Seán Cronin",
+     "Cronin"
+    ],
+    [
+     "Niall Scannell",
+     "Scannell"
+    ],
+    [
+     "Rob Herring",
+     "Herring"
+    ],
+    [
+     "Tadhg Furlong",
+     "Furlong"
+    ],
+    [
+     "Cian Healy",
+     "Healy"
+    ],
+    [
+     "Dave Kilcoyne",
+     "Kilcoyne"
+    ],
+    [
+     "Andrew Porter",
+     "Porter"
+    ],
+    "John Ryan",
+    [
+     "Tadhg Beirne",
+     "Beirne"
+    ],
+    [
+     "Iain Henderson",
+     "Henderson"
+    ],
+    [
+     "Jean Kleyn",
+     "Kleyn"
+    ],
+    "James Ryan",
+    [
+     "Jack Conan",
+     "Conan"
+    ],
+    [
+     "Jordi Murphy",
+     "Murphy"
+    ],
+    [
+     "Peter O'Mahony",
+     "O'Mahony"
+    ],
+    [
+     "Rhys Ruddock",
+     "Ruddock"
+    ],
+    [
+     "CJ Stander",
+     "Stander"
+    ],
+    [
+     "Josh van der Flier",
+     "Flier"
+    ],
+    [
+     "Luke McGrath",
+     "McGrath"
+    ],
+    [
+     "Conor Murray",
+     "Murray"
+    ],
+    [
+     "Joey Carbery",
+     "Carbery"
+    ],
+    [
+     "Jack Carty",
+     "Carty"
+    ],
+    [
+     "Johnny Sexton",
+     "Sexton"
+    ],
+    [
+     "Bundee Aki",
+     "Aki"
+    ],
+    [
+     "Chris Farrell",
+     "Farrell"
+    ],
+    [
+     "Robbie Henshaw",
+     "Henshaw"
+    ],
+    [
+     "Garry Ringrose",
+     "Ringrose"
+    ],
+    [
+     "Andrew Conway",
+     "Conway"
+    ],
+    [
+     "Keith Earls",
+     "Earls"
+    ],
+    [
+     "Jacob Stockdale",
+     "Stockdale"
+    ],
+    [
+     "Rob Kearney",
+     "Kearney"
+    ],
+    [
+     "Jordan Larmour",
+     "Larmour"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-rugby-scotland-2019-squad",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a player in Scotland's squad for the 2019 Rugby World Cup",
+   "answers": [
+    [
+     "Fraser Brown",
+     "Brown"
+    ],
+    [
+     "Stuart McInally",
+     "McInally"
+    ],
+    [
+     "George Turner",
+     "Turner"
+    ],
+    [
+     "Simon Berghan",
+     "Berghan"
+    ],
+    [
+     "Allan Dell",
+     "Dell"
+    ],
+    [
+     "Zander Fagerson",
+     "Fagerson"
+    ],
+    [
+     "WP Nel",
+     "Nel"
+    ],
+    [
+     "Gordon Reid",
+     "Reid"
+    ],
+    [
+     "Scott Cummings",
+     "Cummings"
+    ],
+    [
+     "Grant Gilchrist",
+     "Gilchrist"
+    ],
+    [
+     "Jonny Gray",
+     "Gray"
+    ],
+    [
+     "Ben Toolis",
+     "Toolis"
+    ],
+    [
+     "John Barclay",
+     "Barclay"
+    ],
+    [
+     "Magnus Bradbury",
+     "Bradbury"
+    ],
+    [
+     "Jamie Ritchie",
+     "Ritchie"
+    ],
+    [
+     "Blade Thomson",
+     "Thomson"
+    ],
+    [
+     "Hamish Watson",
+     "Watson"
+    ],
+    [
+     "Ryan Wilson",
+     "Wilson"
+    ],
+    "George Horne",
+    [
+     "Greig Laidlaw",
+     "Laidlaw"
+    ],
+    [
+     "Ali Price",
+     "Price"
+    ],
+    [
+     "Henry Pyrgos",
+     "Pyrgos"
+    ],
+    [
+     "Adam Hastings",
+     "Hastings"
+    ],
+    [
+     "Finn Russell",
+     "Russell"
+    ],
+    [
+     "Chris Harris",
+     "Harris"
+    ],
+    "Peter Horne",
+    [
+     "Sam Johnson",
+     "Johnson"
+    ],
+    [
+     "Duncan Taylor",
+     "Taylor"
+    ],
+    [
+     "Darcy Graham",
+     "Graham"
+    ],
+    [
+     "Sean Maitland",
+     "Maitland"
+    ],
+    [
+     "Tommy Seymour",
+     "Seymour"
+    ],
+    [
+     "Stuart Hogg",
+     "Hogg"
+    ],
+    [
+     "Blair Kinghorn",
+     "Kinghorn"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-rugby-england-2015-squad",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a player in England's squad for the 2015 Rugby World Cup (the hosts, knocked out in the pool stage)",
+   "answers": [
+    [
+     "Jamie George",
+     "George"
+    ],
+    [
+     "Rob Webber",
+     "Webber"
+    ],
+    "Tom Youngs",
+    [
+     "Kieran Brookes",
+     "Brookes"
+    ],
+    [
+     "Dan Cole",
+     "Cole"
+    ],
+    [
+     "Joe Marler",
+     "Marler"
+    ],
+    "Mako Vunipola",
+    [
+     "David Wilson",
+     "Wilson"
+    ],
+    [
+     "George Kruis",
+     "Kruis"
+    ],
+    [
+     "Joe Launchbury",
+     "Launchbury"
+    ],
+    [
+     "Courtney Lawes",
+     "Lawes"
+    ],
+    [
+     "Geoff Parling",
+     "Parling"
+    ],
+    [
+     "James Haskell",
+     "Haskell"
+    ],
+    [
+     "Chris Robshaw",
+     "Robshaw"
+    ],
+    [
+     "Tom Wood",
+     "Wood"
+    ],
+    [
+     "Nick Easter",
+     "Easter"
+    ],
+    [
+     "Ben Morgan",
+     "Morgan"
+    ],
+    "Billy Vunipola",
+    [
+     "Danny Care",
+     "Care"
+    ],
+    [
+     "Richard Wigglesworth",
+     "Wigglesworth"
+    ],
+    "Ben Youngs",
+    [
+     "Owen Farrell",
+     "Farrell"
+    ],
+    [
+     "George Ford",
+     "Ford"
+    ],
+    [
+     "Brad Barritt",
+     "Barritt"
+    ],
+    [
+     "Sam Burgess",
+     "Burgess"
+    ],
+    [
+     "Jonathan Joseph",
+     "Joseph"
+    ],
+    [
+     "Henry Slade",
+     "Slade"
+    ],
+    [
+     "Jonny May",
+     "May"
+    ],
+    [
+     "Jack Nowell",
+     "Nowell"
+    ],
+    [
+     "Anthony Watson",
+     "Watson"
+    ],
+    [
+     "Mike Brown",
+     "Brown"
+    ],
+    [
+     "Alex Goode",
+     "Goode"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-rugby-nz-2023-squad",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a player in New Zealand's squad for the 2023 Rugby World Cup (the runners-up, including replacements)",
+   "answers": [
+    [
+     "Dane Coles",
+     "Coles"
+    ],
+    [
+     "Samisoni Taukei'aho",
+     "Taukei'aho"
+    ],
+    [
+     "Codie Taylor",
+     "Taylor"
+    ],
+    [
+     "Ethan de Groot",
+     "Groot"
+    ],
+    [
+     "Nepo Laulala",
+     "Laulala"
+    ],
+    [
+     "Tyrel Lomax",
+     "Lomax"
+    ],
+    [
+     "Fletcher Newell",
+     "Newell"
+    ],
+    [
+     "Ofa Tu'ungafasi",
+     "Tu'ungafasi"
+    ],
+    [
+     "Tamaiti Williams",
+     "Williams"
+    ],
+    "Scott Barrett",
+    [
+     "Brodie Retallick",
+     "Retallick"
+    ],
+    [
+     "Tupou Vaa'i",
+     "Vaa'i"
+    ],
+    [
+     "Sam Whitelock",
+     "Whitelock"
+    ],
+    [
+     "Ethan Blackadder",
+     "Blackadder"
+    ],
+    [
+     "Sam Cane",
+     "Cane"
+    ],
+    [
+     "Shannon Frizell",
+     "Frizell"
+    ],
+    [
+     "Luke Jacobson",
+     "Jacobson"
+    ],
+    [
+     "Dalton Papalii",
+     "Papalii"
+    ],
+    [
+     "Ardie Savea",
+     "Savea"
+    ],
+    [
+     "Finlay Christie",
+     "Christie"
+    ],
+    [
+     "Cam Roigard",
+     "Roigard"
+    ],
+    [
+     "Aaron Smith",
+     "Smith"
+    ],
+    "Beauden Barrett",
+    [
+     "Damian McKenzie",
+     "McKenzie"
+    ],
+    [
+     "Richie Mo'unga",
+     "Mo'unga"
+    ],
+    "Jordie Barrett",
+    [
+     "David Havili",
+     "Havili"
+    ],
+    [
+     "Rieko Ioane",
+     "Ioane"
+    ],
+    [
+     "Anton Lienert-Brown",
+     "Lienert-Brown"
+    ],
+    [
+     "Caleb Clarke",
+     "Clarke"
+    ],
+    [
+     "Leicester Fainga'anuku",
+     "Fainga'anuku"
+    ],
+    [
+     "Emoni Narawa",
+     "Narawa"
+    ],
+    [
+     "Mark Tele'a",
+     "Tele'a"
+    ],
+    [
+     "Will Jordan",
+     "Jordan"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-rugby-france-2023-squad",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a player in France's squad for the 2023 Rugby World Cup (including replacements)",
+   "answers": [
+    [
+     "Pierre Bourgarit",
+     "Bourgarit"
+    ],
+    [
+     "Julien Marchand",
+     "Marchand"
+    ],
+    [
+     "Peato Mauvaka",
+     "Mauvaka"
+    ],
+    [
+     "Dorian Aldegheri",
+     "Aldegheri"
+    ],
+    [
+     "Uini Atonio",
+     "Atonio"
+    ],
+    [
+     "Cyril Baille",
+     "Baille"
+    ],
+    [
+     "Sipili Falatea",
+     "Falatea"
+    ],
+    [
+     "Jean-Baptiste Gros",
+     "Gros"
+    ],
+    [
+     "Reda Wardi",
+     "Wardi"
+    ],
+    [
+     "Bastien Chalureau",
+     "Chalureau"
+    ],
+    [
+     "Thibaud Flament",
+     "Flament"
+    ],
+    [
+     "Romain Taofifenua",
+     "Taofifenua"
+    ],
+    [
+     "Paul Willemse",
+     "Willemse"
+    ],
+    [
+     "Cameron Woki",
+     "Woki"
+    ],
+    [
+     "Grégory Alldritt",
+     "Alldritt"
+    ],
+    [
+     "Paul Boudehent",
+     "Boudehent"
+    ],
+    [
+     "François Cros",
+     "Cros"
+    ],
+    [
+     "Anthony Jelonch",
+     "Jelonch"
+    ],
+    [
+     "Sekou Macalou",
+     "Macalou"
+    ],
+    [
+     "Charles Ollivon",
+     "Ollivon"
+    ],
+    [
+     "Baptiste Couilloud",
+     "Couilloud"
+    ],
+    [
+     "Antoine Dupont",
+     "Dupont"
+    ],
+    [
+     "Maxime Lucu",
+     "Lucu"
+    ],
+    [
+     "Antoine Hastoy",
+     "Hastoy"
+    ],
+    [
+     "Matthieu Jalibert",
+     "Jalibert"
+    ],
+    [
+     "Jonathan Danty",
+     "Danty"
+    ],
+    [
+     "Gaël Fickou",
+     "Fickou"
+    ],
+    [
+     "Yoram Moefana",
+     "Moefana"
+    ],
+    [
+     "Arthur Vincent",
+     "Vincent"
+    ],
+    [
+     "Louis Bielle-Biarrey",
+     "Bielle-Biarrey"
+    ],
+    [
+     "Damian Penaud",
+     "Penaud"
+    ],
+    [
+     "Gabin Villière",
+     "Villière"
+    ],
+    [
+     "Melvyn Jaminet",
+     "Jaminet"
+    ],
+    [
+     "Thomas Ramos",
+     "Ramos"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-rugby-australia-2023-squad",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a player in Australia's squad for the 2023 Rugby World Cup (including replacements)",
+   "answers": [
+    [
+     "Matt Faessler",
+     "Faessler"
+    ],
+    [
+     "Dave Porecki",
+     "Porecki"
+    ],
+    [
+     "Jordan Uelese",
+     "Uelese"
+    ],
+    [
+     "Angus Bell",
+     "Bell"
+    ],
+    [
+     "Pone Fa'amausili",
+     "Fa'amausili"
+    ],
+    [
+     "Zane Nonggorr",
+     "Nonggorr"
+    ],
+    [
+     "Blake Schoupp",
+     "Schoupp"
+    ],
+    [
+     "James Slipper",
+     "Slipper"
+    ],
+    [
+     "Taniela Tupou",
+     "Tupou"
+    ],
+    [
+     "Richie Arnold",
+     "Arnold"
+    ],
+    [
+     "Nick Frost",
+     "Frost"
+    ],
+    [
+     "Matt Philip",
+     "Philip"
+    ],
+    [
+     "Will Skelton",
+     "Skelton"
+    ],
+    [
+     "Langi Gleeson",
+     "Gleeson"
+    ],
+    [
+     "Tom Hooper",
+     "Hooper"
+    ],
+    [
+     "Josh Kemeny",
+     "Kemeny"
+    ],
+    [
+     "Rob Leota",
+     "Leota"
+    ],
+    [
+     "Fraser McReight",
+     "McReight"
+    ],
+    [
+     "Rob Valetini",
+     "Valetini"
+    ],
+    [
+     "Issak Fines-Leleiwasa",
+     "Fines-Leleiwasa"
+    ],
+    [
+     "Tate McDermott",
+     "McDermott"
+    ],
+    [
+     "Nic White",
+     "White"
+    ],
+    [
+     "Carter Gordon",
+     "Gordon"
+    ],
+    [
+     "Ben Donaldson",
+     "Donaldson"
+    ],
+    [
+     "Lalakai Foketi",
+     "Foketi"
+    ],
+    [
+     "Samu Kerevi",
+     "Kerevi"
+    ],
+    [
+     "Izaia Perese",
+     "Perese"
+    ],
+    [
+     "Jordan Petaia",
+     "Petaia"
+    ],
+    [
+     "Max Jorgensen",
+     "Jorgensen"
+    ],
+    [
+     "Marika Koroibete",
+     "Koroibete"
+    ],
+    [
+     "Mark Nawaqanitawase",
+     "Nawaqanitawase"
+    ],
+    [
+     "Suliasi Vunivalu",
+     "Vunivalu"
+    ],
+    [
+     "Andrew Kellaway",
+     "Kellaway"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs6-rugby-argentina-2023-squad",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a player in Argentina's squad for the 2023 Rugby World Cup (the bronze-medal match losers, including replacements)",
+   "answers": [
+    [
+     "Agustín Creevy",
+     "Creevy"
+    ],
+    [
+     "Julián Montoya",
+     "Montoya"
+    ],
+    [
+     "Ignacio Ruiz",
+     "Ruiz"
+    ],
+    [
+     "Eduardo Bello",
+     "Bello"
+    ],
+    [
+     "Thomas Gallo",
+     "Gallo"
+    ],
+    [
+     "Francisco Gómez Kodela",
+     "Kodela"
+    ],
+    [
+     "Joel Sclavi",
+     "Sclavi"
+    ],
+    [
+     "Nahuel Tetaz Chaparro",
+     "Chaparro"
+    ],
+    [
+     "Mayco Vivas",
+     "Vivas"
+    ],
+    [
+     "Matías Alemanno",
+     "Alemanno"
+    ],
+    [
+     "Tomás Lavanini",
+     "Lavanini"
+    ],
+    [
+     "Lucas Paulos",
+     "Paulos"
+    ],
+    [
+     "Guido Petti",
+     "Petti"
+    ],
+    [
+     "Pedro Rubiolo",
+     "Rubiolo"
+    ],
+    [
+     "Rodrigo Bruni",
+     "Bruni"
+    ],
+    [
+     "Juan Martín González",
+     "González"
+    ],
+    [
+     "Santiago Grondona",
+     "Grondona"
+    ],
+    [
+     "Facundo Isa",
+     "Isa"
+    ],
+    [
+     "Marcos Kremer",
+     "Kremer"
+    ],
+    [
+     "Pablo Matera",
+     "Matera"
+    ],
+    [
+     "Joaquín Oviedo",
+     "Oviedo"
+    ],
+    [
+     "Lautaro Bazán",
+     "Bazán"
+    ],
+    [
+     "Gonzalo Bertranou",
+     "Bertranou"
+    ],
+    [
+     "Tomás Cubelli",
+     "Cubelli"
+    ],
+    "Santiago Carreras",
+    [
+     "Nicolás Sánchez",
+     "Sánchez"
+    ],
+    [
+     "Santiago Chocobares",
+     "Chocobares"
+    ],
+    [
+     "Lucio Cinti",
+     "Cinti"
+    ],
+    [
+     "Jerónimo de la Fuente",
+     "Fuente"
+    ],
+    [
+     "Matías Moroni",
+     "Moroni"
+    ],
+    [
+     "Emiliano Boffelli",
+     "Boffelli"
+    ],
+    "Mateo Carreras",
+    [
+     "Juan Imhoff",
+     "Imhoff"
+    ],
+    [
+     "Rodrigo Isgró",
+     "Isgró"
+    ],
+    [
+     "Martín Bogado",
+     "Bogado"
+    ],
+    [
+     "Juan Cruz Mallía",
+     "Mallía"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs6-rugby-lions-2017-squad",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a player in the British & Irish Lions squad for the 2017 tour of New Zealand (including call-ups and players who later withdrew)",
+   "answers": [
+    [
+     "Rory Best",
+     "Best"
+    ],
+    [
+     "Kristian Dacey",
+     "Dacey"
+    ],
+    [
+     "Jamie George",
+     "George"
+    ],
+    [
+     "Ken Owens",
+     "Owens"
+    ],
+    [
+     "Allan Dell",
+     "Dell"
+    ],
+    [
+     "Dan Cole",
+     "Cole"
+    ],
+    [
+     "Tomas Francis",
+     "Francis"
+    ],
+    [
+     "Tadhg Furlong",
+     "Furlong"
+    ],
+    [
+     "Joe Marler",
+     "Marler"
+    ],
+    [
+     "Jack McGrath",
+     "McGrath"
+    ],
+    [
+     "Kyle Sinckler",
+     "Sinckler"
+    ],
+    "Mako Vunipola",
+    [
+     "Iain Henderson",
+     "Henderson"
+    ],
+    [
+     "Cory Hill",
+     "Hill"
+    ],
+    [
+     "Maro Itoje",
+     "Itoje"
+    ],
+    [
+     "Alun Wyn Jones",
+     "Jones"
+    ],
+    [
+     "George Kruis",
+     "Kruis"
+    ],
+    [
+     "Courtney Lawes",
+     "Lawes"
+    ],
+    [
+     "Taulupe Faletau",
+     "Faletau"
+    ],
+    [
+     "James Haskell",
+     "Haskell"
+    ],
+    [
+     "Ross Moriarty",
+     "Moriarty"
+    ],
+    [
+     "Seán O'Brien",
+     "O'Brien"
+    ],
+    [
+     "Peter O'Mahony",
+     "O'Mahony"
+    ],
+    [
+     "CJ Stander",
+     "Stander"
+    ],
+    [
+     "Justin Tipuric",
+     "Tipuric"
+    ],
+    [
+     "Sam Warburton",
+     "Warburton"
+    ],
+    "Billy Vunipola",
+    "Gareth Davies",
+    [
+     "Greig Laidlaw",
+     "Laidlaw"
+    ],
+    [
+     "Conor Murray",
+     "Murray"
+    ],
+    [
+     "Rhys Webb",
+     "Webb"
+    ],
+    [
+     "Ben Youngs",
+     "Youngs"
+    ],
+    [
+     "Dan Biggar",
+     "Biggar"
+    ],
+    [
+     "Owen Farrell",
+     "Farrell"
+    ],
+    [
+     "Finn Russell",
+     "Russell"
+    ],
+    [
+     "Johnny Sexton",
+     "Sexton"
+    ],
+    "Jonathan Davies",
+    [
+     "Robbie Henshaw",
+     "Henshaw"
+    ],
+    [
+     "Jonathan Joseph",
+     "Joseph"
+    ],
+    [
+     "Jared Payne",
+     "Payne"
+    ],
+    [
+     "Ben Te'o",
+     "Te'o"
+    ],
+    [
+     "Elliot Daly",
+     "Daly"
+    ],
+    [
+     "George North",
+     "North"
+    ],
+    [
+     "Jack Nowell",
+     "Nowell"
+    ],
+    [
+     "Tommy Seymour",
+     "Seymour"
+    ],
+    [
+     "Anthony Watson",
+     "Watson"
+    ],
+    [
+     "Leigh Halfpenny",
+     "Halfpenny"
+    ],
+    [
+     "Stuart Hogg",
+     "Hogg"
+    ],
+    [
+     "Liam Williams",
+     "Williams"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-rugby-lions-2021-squad",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a player in the British & Irish Lions squad for the 2021 tour of South Africa (including call-ups and players who later withdrew)",
+   "answers": [
+    [
+     "Luke Cowan-Dickie",
+     "Cowan-Dickie"
+    ],
+    [
+     "Jamie George",
+     "George"
+    ],
+    [
+     "Rónan Kelleher",
+     "Kelleher"
+    ],
+    [
+     "Ken Owens",
+     "Owens"
+    ],
+    [
+     "Zander Fagerson",
+     "Fagerson"
+    ],
+    [
+     "Tadhg Furlong",
+     "Furlong"
+    ],
+    "Wyn Jones",
+    [
+     "Andrew Porter",
+     "Porter"
+    ],
+    [
+     "Kyle Sinckler",
+     "Sinckler"
+    ],
+    [
+     "Rory Sutherland",
+     "Sutherland"
+    ],
+    [
+     "Mako Vunipola",
+     "Vunipola"
+    ],
+    [
+     "Adam Beard",
+     "Beard"
+    ],
+    [
+     "Tadhg Beirne",
+     "Beirne"
+    ],
+    [
+     "Iain Henderson",
+     "Henderson"
+    ],
+    [
+     "Jonny Hill",
+     "Hill"
+    ],
+    [
+     "Maro Itoje",
+     "Itoje"
+    ],
+    "Alun Wyn Jones",
+    [
+     "Courtney Lawes",
+     "Lawes"
+    ],
+    [
+     "Jack Conan",
+     "Conan"
+    ],
+    [
+     "Tom Curry",
+     "Curry"
+    ],
+    [
+     "Taulupe Faletau",
+     "Faletau"
+    ],
+    [
+     "Josh Navidi",
+     "Navidi"
+    ],
+    [
+     "Sam Simmonds",
+     "Simmonds"
+    ],
+    [
+     "Justin Tipuric",
+     "Tipuric"
+    ],
+    "Hamish Watson",
+    [
+     "Gareth Davies",
+     "Davies"
+    ],
+    [
+     "Conor Murray",
+     "Murray"
+    ],
+    [
+     "Ali Price",
+     "Price"
+    ],
+    [
+     "Dan Biggar",
+     "Biggar"
+    ],
+    [
+     "Owen Farrell",
+     "Farrell"
+    ],
+    [
+     "Finn Russell",
+     "Russell"
+    ],
+    [
+     "Marcus Smith",
+     "Smith"
+    ],
+    [
+     "Bundee Aki",
+     "Aki"
+    ],
+    [
+     "Elliot Daly",
+     "Daly"
+    ],
+    [
+     "Chris Harris",
+     "Harris"
+    ],
+    [
+     "Robbie Henshaw",
+     "Henshaw"
+    ],
+    [
+     "Josh Adams",
+     "Adams"
+    ],
+    [
+     "Louis Rees-Zammit",
+     "Rees-Zammit"
+    ],
+    [
+     "Duhan van der Merwe",
+     "Merwe"
+    ],
+    "Anthony Watson",
+    [
+     "Stuart Hogg",
+     "Hogg"
+    ],
+    [
+     "Liam Williams",
+     "Williams"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-rugby-union-terms",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a term used in rugby union",
+   "answers": [
+    "Try",
+    "Conversion",
+    "Penalty",
+    "Drop goal",
+    "Scrum",
+    "Lineout",
+    "Ruck",
+    "Maul",
+    "Knock-on",
+    "Forward pass",
+    "Sin bin",
+    "Yellow card",
+    "Red card",
+    "Advantage",
+    "Tackle",
+    "Offside",
+    "Garryowen",
+    "Grubber",
+    [
+     "Up and under",
+     "box kick"
+    ],
+    [
+     "Hand-off",
+     "fend"
+    ],
+    [
+     "Dummy",
+     "dummy pass"
+    ],
+    "Mark",
+    [
+     "22 drop-out",
+     "drop-out"
+    ],
+    [
+     "Touch",
+     "touchline"
+    ],
+    [
+     "TMO",
+     "television match official"
+    ],
+    [
+     "Tap penalty",
+     "quick tap"
+    ],
+    "High tackle",
+    "Turnover",
+    [
+     "Jackal",
+     "jackaling"
+    ],
+    "Put-in",
+    "Gain line",
+    "Offload",
+    "Sidestep",
+    "Kick-off",
+    "Free kick",
+    "Penalty try",
+    "Hooker's throw",
+    [
+     "Crossbar",
+     "posts"
+    ],
+    "Try line",
+    "In-goal",
+    "Dead ball line",
+    "Bonus point",
+    "Grand Slam",
+    "Triple Crown",
+    "Wooden spoon",
+    "Replacement"
+   ]
+  },
+  {
+   "id": "xs6-national-team-nicknames",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name the nickname of a national men's rugby union team",
+   "answers": [
+    "All Blacks",
+    [
+     "Springboks",
+     "Boks"
+    ],
+    "Wallabies",
+    [
+     "Pumas",
+     "Los Pumas"
+    ],
+    [
+     "Les Bleus",
+     "Le XV de France"
+    ],
+    "Azzurri",
+    [
+     "Brave Blossoms",
+     "Cherry Blossoms"
+    ],
+    [
+     "Eagles",
+     "USA Eagles"
+    ],
+    [
+     "Flying Fijians",
+     "Fiji Airways Flying Fijians"
+    ],
+    "Manu Samoa",
+    "Ikale Tahi",
+    [
+     "Lelos",
+     "Lelo"
+    ],
+    [
+     "Oaks",
+     "Stejarii"
+    ],
+    [
+     "Los Teros",
+     "Teros"
+    ],
+    [
+     "Los Cóndores",
+     "Condores"
+    ],
+    [
+     "Welwitschias",
+     "Welwitschia"
+    ],
+    "Lobos",
+    [
+     "Los Leones",
+     "Leones"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cricket-england-2015-wc-squad",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a player in England's squad for the 2015 Cricket World Cup",
+   "answers": [
+    [
+     "Eoin Morgan",
+     "Morgan"
+    ],
+    [
+     "Jos Buttler",
+     "Buttler"
+    ],
+    [
+     "Moeen Ali",
+     "Ali"
+    ],
+    [
+     "James Anderson",
+     "Anderson"
+    ],
+    [
+     "Gary Ballance",
+     "Ballance"
+    ],
+    [
+     "Ian Bell",
+     "Bell"
+    ],
+    [
+     "Ravi Bopara",
+     "Bopara"
+    ],
+    [
+     "Stuart Broad",
+     "Broad"
+    ],
+    [
+     "Steven Finn",
+     "Finn"
+    ],
+    [
+     "Alex Hales",
+     "Hales"
+    ],
+    [
+     "Chris Jordan",
+     "Jordan"
+    ],
+    [
+     "Joe Root",
+     "Root"
+    ],
+    [
+     "James Taylor",
+     "Taylor"
+    ],
+    [
+     "James Tredwell",
+     "Tredwell"
+    ],
+    [
+     "Chris Woakes",
+     "Woakes"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cricket-england-2023-wc-squad",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a player in England's squad for the 2023 Cricket World Cup (including the replacement)",
+   "answers": [
+    [
+     "Jos Buttler",
+     "Buttler"
+    ],
+    [
+     "Moeen Ali",
+     "Ali"
+    ],
+    [
+     "Gus Atkinson",
+     "Atkinson"
+    ],
+    [
+     "Jonny Bairstow",
+     "Bairstow"
+    ],
+    [
+     "Harry Brook",
+     "Brook"
+    ],
+    [
+     "Brydon Carse",
+     "Carse"
+    ],
+    [
+     "Sam Curran",
+     "Curran"
+    ],
+    [
+     "Liam Livingstone",
+     "Livingstone"
+    ],
+    [
+     "Dawid Malan",
+     "Malan"
+    ],
+    [
+     "Adil Rashid",
+     "Rashid"
+    ],
+    [
+     "Joe Root",
+     "Root"
+    ],
+    [
+     "Ben Stokes",
+     "Stokes"
+    ],
+    [
+     "David Willey",
+     "Willey"
+    ],
+    [
+     "Chris Woakes",
+     "Woakes"
+    ],
+    [
+     "Mark Wood",
+     "Wood"
+    ],
+    [
+     "Reece Topley",
+     "Topley"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cricket-australia-2023-wc-squad",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a player in Australia's squad for the 2023 Cricket World Cup (the winners)",
+   "answers": [
+    [
+     "Pat Cummins",
+     "Cummins"
+    ],
+    [
+     "Sean Abbott",
+     "Abbott"
+    ],
+    [
+     "Alex Carey",
+     "Carey"
+    ],
+    [
+     "Cameron Green",
+     "Green"
+    ],
+    [
+     "Josh Hazlewood",
+     "Hazlewood"
+    ],
+    [
+     "Travis Head",
+     "Head"
+    ],
+    [
+     "Josh Inglis",
+     "Inglis"
+    ],
+    [
+     "Marnus Labuschagne",
+     "Labuschagne"
+    ],
+    [
+     "Mitchell Marsh",
+     "Marsh"
+    ],
+    [
+     "Glenn Maxwell",
+     "Maxwell"
+    ],
+    [
+     "Steve Smith",
+     "Smith"
+    ],
+    [
+     "Mitchell Starc",
+     "Starc"
+    ],
+    [
+     "Marcus Stoinis",
+     "Stoinis"
+    ],
+    [
+     "David Warner",
+     "Warner"
+    ],
+    [
+     "Adam Zampa",
+     "Zampa"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cricket-australia-2015-wc-squad",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a player in Australia's squad for the 2015 Cricket World Cup (the winners)",
+   "answers": [
+    [
+     "Michael Clarke",
+     "Clarke"
+    ],
+    [
+     "George Bailey",
+     "Bailey"
+    ],
+    [
+     "Pat Cummins",
+     "Cummins"
+    ],
+    [
+     "Xavier Doherty",
+     "Doherty"
+    ],
+    [
+     "James Faulkner",
+     "Faulkner"
+    ],
+    [
+     "Aaron Finch",
+     "Finch"
+    ],
+    [
+     "Brad Haddin",
+     "Haddin"
+    ],
+    [
+     "Josh Hazlewood",
+     "Hazlewood"
+    ],
+    [
+     "Mitchell Johnson",
+     "Johnson"
+    ],
+    [
+     "Mitchell Marsh",
+     "Marsh"
+    ],
+    [
+     "Glenn Maxwell",
+     "Maxwell"
+    ],
+    [
+     "Steve Smith",
+     "Smith"
+    ],
+    [
+     "Mitchell Starc",
+     "Starc"
+    ],
+    [
+     "David Warner",
+     "Warner"
+    ],
+    [
+     "Shane Watson",
+     "Watson"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cricket-india-2011-wc-squad",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a player in India's squad for the 2011 Cricket World Cup (the winners)",
+   "answers": [
+    [
+     "Mahendra Singh Dhoni",
+     "Dhoni"
+    ],
+    [
+     "Virender Sehwag",
+     "Sehwag"
+    ],
+    [
+     "Gautam Gambhir",
+     "Gambhir"
+    ],
+    [
+     "Sachin Tendulkar",
+     "Tendulkar"
+    ],
+    "Yuvraj Singh",
+    [
+     "Suresh Raina",
+     "Raina"
+    ],
+    [
+     "Virat Kohli",
+     "Kohli"
+    ],
+    [
+     "Yusuf Pathan",
+     "Pathan"
+    ],
+    [
+     "Zaheer Khan",
+     "Khan"
+    ],
+    "Harbhajan Singh",
+    [
+     "Ashish Nehra",
+     "Nehra"
+    ],
+    [
+     "Munaf Patel",
+     "Patel"
+    ],
+    [
+     "S. Sreesanth",
+     "Sreesanth"
+    ],
+    [
+     "Piyush Chawla",
+     "Chawla"
+    ],
+    [
+     "Ravichandran Ashwin",
+     "Ashwin"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cricket-india-2023-wc-squad",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a player in India's squad for the 2023 Cricket World Cup (the runners-up)",
+   "answers": [
+    [
+     "Rohit Sharma",
+     "Sharma"
+    ],
+    [
+     "Ravichandran Ashwin",
+     "Ashwin"
+    ],
+    [
+     "Jasprit Bumrah",
+     "Bumrah"
+    ],
+    [
+     "Shubman Gill",
+     "Gill"
+    ],
+    [
+     "Shreyas Iyer",
+     "Iyer"
+    ],
+    [
+     "Ravindra Jadeja",
+     "Jadeja"
+    ],
+    [
+     "Ishan Kishan",
+     "Kishan"
+    ],
+    [
+     "Virat Kohli",
+     "Kohli"
+    ],
+    [
+     "Prasidh Krishna",
+     "Krishna"
+    ],
+    [
+     "K. L. Rahul",
+     "Rahul"
+    ],
+    [
+     "Mohammed Shami",
+     "Shami"
+    ],
+    [
+     "Mohammed Siraj",
+     "Siraj"
+    ],
+    [
+     "Shardul Thakur",
+     "Thakur"
+    ],
+    "Kuldeep Yadav",
+    "Suryakumar Yadav"
+   ]
+  },
+  {
+   "id": "xs6-cricket-england-2011-wc-squad",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a player in England's squad for the 2011 Cricket World Cup (including replacements)",
+   "answers": [
+    [
+     "Andrew Strauss",
+     "Strauss"
+    ],
+    [
+     "James Anderson",
+     "Anderson"
+    ],
+    [
+     "Ian Bell",
+     "Bell"
+    ],
+    [
+     "Ravi Bopara",
+     "Bopara"
+    ],
+    [
+     "Tim Bresnan",
+     "Bresnan"
+    ],
+    [
+     "Stuart Broad",
+     "Broad"
+    ],
+    [
+     "Paul Collingwood",
+     "Collingwood"
+    ],
+    [
+     "Jade Dernbach",
+     "Dernbach"
+    ],
+    [
+     "Eoin Morgan",
+     "Morgan"
+    ],
+    [
+     "Kevin Pietersen",
+     "Pietersen"
+    ],
+    [
+     "Matt Prior",
+     "Prior"
+    ],
+    [
+     "Adil Rashid",
+     "Rashid"
+    ],
+    [
+     "Ajmal Shahzad",
+     "Shahzad"
+    ],
+    [
+     "Graeme Swann",
+     "Swann"
+    ],
+    [
+     "James Tredwell",
+     "Tredwell"
+    ],
+    [
+     "Chris Tremlett",
+     "Tremlett"
+    ],
+    [
+     "Jonathan Trott",
+     "Trott"
+    ],
+    [
+     "Luke Wright",
+     "Wright"
+    ],
+    [
+     "Michael Yardy",
+     "Yardy"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cricket-pakistan-2023-wc-squad",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a player in Pakistan's squad for the 2023 Cricket World Cup",
+   "answers": [
+    [
+     "Babar Azam",
+     "Azam"
+    ],
+    [
+     "Shadab Khan",
+     "Khan"
+    ],
+    [
+     "Shaheen Afridi",
+     "Afridi"
+    ],
+    [
+     "Ifitkhar Ahmed",
+     "Ahmed"
+    ],
+    [
+     "Hasan Ali",
+     "Ali"
+    ],
+    [
+     "Salman Ali Agha",
+     "Agha"
+    ],
+    [
+     "Usama Mir",
+     "Mir"
+    ],
+    [
+     "Mohammad Nawaz",
+     "Nawaz"
+    ],
+    [
+     "Haris Rauf",
+     "Rauf"
+    ],
+    [
+     "Mohammad Rizwan",
+     "Rizwan"
+    ],
+    [
+     "Abdullah Shafique",
+     "Shafique"
+    ],
+    [
+     "Saud Shakeel",
+     "Shakeel"
+    ],
+    "Imam-ul-Haq",
+    [
+     "Mohammad Wasim Jr.",
+     "Wasim"
+    ],
+    [
+     "Fakhar Zaman",
+     "Zaman"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs6-cricket-nz-2015-wc-squad",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a player in New Zealand's squad for the 2015 Cricket World Cup (the runners-up)",
+   "answers": [
+    "Brendon McCullum",
+    [
+     "Kane Williamson",
+     "Williamson"
+    ],
+    [
+     "Corey Anderson",
+     "Anderson"
+    ],
+    [
+     "Trent Boult",
+     "Boult"
+    ],
+    [
+     "Grant Elliott",
+     "Elliott"
+    ],
+    [
+     "Martin Guptill",
+     "Guptill"
+    ],
+    [
+     "Matt Henry",
+     "Henry"
+    ],
+    [
+     "Tom Latham",
+     "Latham"
+    ],
+    [
+     "Mitchell McClenaghan",
+     "McClenaghan"
+    ],
+    "Nathan McCullum",
+    [
+     "Kyle Mills",
+     "Mills"
+    ],
+    [
+     "Adam Milne",
+     "Milne"
+    ],
+    [
+     "Luke Ronchi",
+     "Ronchi"
+    ],
+    [
+     "Tim Southee",
+     "Southee"
+    ],
+    [
+     "Ross Taylor",
+     "Taylor"
+    ],
+    [
+     "Daniel Vettori",
+     "Vettori"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs6-cricket-equipment",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name an item of cricket equipment or kit",
+   "answers": [
+    "Bat",
+    [
+     "Ball",
+     "cricket ball"
+    ],
+    [
+     "Stumps",
+     "stump",
+     "wicket"
+    ],
+    [
+     "Bails",
+     "bail"
+    ],
+    [
+     "Pads",
+     "leg guards",
+     "batting pads"
+    ],
+    [
+     "Gloves",
+     "batting gloves"
+    ],
+    "Helmet",
+    [
+     "Box",
+     "abdominal guard",
+     "abdo guard",
+     "protector"
+    ],
+    "Thigh pad",
+    [
+     "Arm guard",
+     "forearm guard"
+    ],
+    [
+     "Whites",
+     "cricket whites"
+    ],
+    [
+     "Sweater",
+     "jumper",
+     "sweater vest"
+    ],
+    [
+     "Cap",
+     "baggy cap",
+     "sunhat"
+    ],
+    "Sight screen",
+    "Roller",
+    [
+     "Covers",
+     "pitch covers"
+    ],
+    [
+     "Boundary rope",
+     "rope"
+    ],
+    "Scoreboard",
+    [
+     "Wicketkeeping gloves",
+     "keeper's gloves",
+     "keeping gloves"
+    ],
+    [
+     "Spikes",
+     "cricket boots",
+     "boots"
+    ],
+    [
+     "Bat grip",
+     "grip"
+    ],
+    [
+     "Bat bag",
+     "kit bag"
+    ],
+    "Red ball",
+    "White ball",
+    "Pink ball",
+    "Bowling machine"
+   ]
+  },
+  {
+   "id": "xs6-world-cup-winning-captains",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a captain of a men's ODI World Cup winning team (1975 to 2023) or T20 World Cup winning team (2007 to 2024)",
+   "answers": [
+    [
+     "Clive Lloyd",
+     "Lloyd"
+    ],
+    [
+     "Kapil Dev",
+     "Dev"
+    ],
+    [
+     "Allan Border",
+     "Border"
+    ],
+    "Imran Khan",
+    [
+     "Arjuna Ranatunga",
+     "Ranatunga"
+    ],
+    [
+     "Steve Waugh",
+     "Waugh"
+    ],
+    [
+     "Ricky Ponting",
+     "Ponting"
+    ],
+    [
+     "MS Dhoni",
+     "Mahendra Singh Dhoni",
+     "Dhoni"
+    ],
+    [
+     "Michael Clarke",
+     "Clarke"
+    ],
+    [
+     "Eoin Morgan",
+     "Morgan"
+    ],
+    [
+     "Pat Cummins",
+     "Cummins"
+    ],
+    "Younis Khan",
+    [
+     "Paul Collingwood",
+     "Collingwood"
+    ],
+    [
+     "Darren Sammy",
+     "Daren Sammy",
+     "Sammy"
+    ],
+    [
+     "Aaron Finch",
+     "Finch"
+    ],
+    [
+     "Jos Buttler",
+     "Buttler"
+    ],
+    [
+     "Rohit Sharma",
+     "Sharma"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cue-crucible-2026",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who qualified for the 2026 World Snooker Championship at the Crucible",
+   "answers": [
+    [
+     "Zhao Xintong",
+     "Xintong"
+    ],
+    [
+     "Liam Highfield",
+     "Highfield"
+    ],
+    [
+     "Ding Junhui",
+     "Ding",
+     "Junhui"
+    ],
+    [
+     "David Gilbert",
+     "Gilbert"
+    ],
+    [
+     "Xiao Guodong",
+     "Guodong"
+    ],
+    [
+     "Zhou Yuelong",
+     "Yuelong"
+    ],
+    [
+     "Shaun Murphy",
+     "The Magician",
+     "Magician",
+     "Murphy"
+    ],
+    [
+     "Fan Zhengyi",
+     "Zhengyi"
+    ],
+    [
+     "John Higgins",
+     "The Wizard of Wishaw",
+     "Wizard of Wishaw",
+     "Higgins"
+    ],
+    [
+     "Ali Carter",
+     "The Captain",
+     "Captain",
+     "Carter"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "The Rocket",
+     "Ronnie",
+     "Rocket",
+     "O'Sullivan"
+    ],
+    [
+     "He Guoqiang",
+     "Guoqiang"
+    ],
+    [
+     "Chris Wakelin",
+     "Wakelin"
+    ],
+    [
+     "Liam Pullen",
+     "Pullen"
+    ],
+    [
+     "Neil Robertson",
+     "Thunder from Down Under",
+     "Robertson"
+    ],
+    [
+     "Pang Junxu",
+     "Junxu"
+    ],
+    [
+     "Kyren Wilson",
+     "The Warrior",
+     "Warrior"
+    ],
+    [
+     "Stan Moody",
+     "Moody"
+    ],
+    [
+     "Mark Allen",
+     "The Pistol",
+     "Pistol",
+     "Allen"
+    ],
+    [
+     "Zhang Anda",
+     "Anda"
+    ],
+    [
+     "Barry Hawkins",
+     "Hawkeye",
+     "The Hawk",
+     "Hawkins"
+    ],
+    [
+     "Matthew Stevens",
+     "Stevens"
+    ],
+    [
+     "Mark Williams",
+     "Welsh Potting Machine",
+     "Williams"
+    ],
+    [
+     "Antoni Kowalski",
+     "Kowalski"
+    ],
+    [
+     "Mark Selby",
+     "The Jester from Leicester",
+     "Selby"
+    ],
+    [
+     "Jak Jones",
+     "Jones"
+    ],
+    [
+     "Wu Yize",
+     "Yize"
+    ],
+    [
+     "Lei Peifan",
+     "Peifan"
+    ],
+    [
+     "Si Jiahui",
+     "Jiahui"
+    ],
+    [
+     "Hossein Vafaei",
+     "Vafaei"
+    ],
+    [
+     "Judd Trump",
+     "The Ace in the Pack",
+     "Trump"
+    ],
+    "Gary Wilson"
+   ]
+  },
+  {
+   "id": "xs6-cue-last16-2026",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who reached the last 16 of the 2026 World Snooker Championship",
+   "answers": [
+    [
+     "Zhao Xintong",
+     "Xintong"
+    ],
+    [
+     "Ding Junhui",
+     "Ding",
+     "Junhui"
+    ],
+    [
+     "Xiao Guodong",
+     "Guodong"
+    ],
+    [
+     "Shaun Murphy",
+     "The Magician",
+     "Magician",
+     "Murphy"
+    ],
+    [
+     "John Higgins",
+     "The Wizard of Wishaw",
+     "Wizard of Wishaw",
+     "Higgins"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "The Rocket",
+     "Ronnie",
+     "Rocket",
+     "O'Sullivan"
+    ],
+    [
+     "Chris Wakelin",
+     "Wakelin"
+    ],
+    [
+     "Neil Robertson",
+     "Thunder from Down Under",
+     "Robertson"
+    ],
+    [
+     "Kyren Wilson",
+     "The Warrior",
+     "Warrior",
+     "Wilson"
+    ],
+    [
+     "Mark Allen",
+     "The Pistol",
+     "Pistol",
+     "Allen"
+    ],
+    [
+     "Barry Hawkins",
+     "Hawkeye",
+     "The Hawk",
+     "Hawkins"
+    ],
+    [
+     "Mark Williams",
+     "Welsh Potting Machine",
+     "Williams"
+    ],
+    [
+     "Mark Selby",
+     "The Jester from Leicester",
+     "Selby"
+    ],
+    [
+     "Wu Yize",
+     "Yize"
+    ],
+    [
+     "Hossein Vafaei",
+     "Vafaei"
+    ],
+    [
+     "Judd Trump",
+     "The Ace in the Pack",
+     "Trump"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cue-crucible-2025",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who qualified for the 2025 World Snooker Championship at the Crucible",
+   "answers": [
+    [
+     "Kyren Wilson",
+     "The Warrior",
+     "Warrior",
+     "Wilson"
+    ],
+    [
+     "Lei Peifan",
+     "Peifan"
+    ],
+    [
+     "Jak Jones",
+     "Jones"
+    ],
+    [
+     "Zhao Xintong",
+     "Xintong"
+    ],
+    [
+     "Neil Robertson",
+     "Thunder from Down Under",
+     "Robertson"
+    ],
+    [
+     "Chris Wakelin",
+     "Wakelin"
+    ],
+    [
+     "Mark Allen",
+     "The Pistol",
+     "Pistol",
+     "Allen"
+    ],
+    [
+     "Fan Zhengyi",
+     "Zhengyi"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "The Rocket",
+     "Ronnie",
+     "Rocket",
+     "O'Sullivan"
+    ],
+    [
+     "Ali Carter",
+     "The Captain",
+     "Captain",
+     "Carter"
+    ],
+    [
+     "Zhang Anda",
+     "Anda"
+    ],
+    [
+     "Pang Junxu",
+     "Junxu"
+    ],
+    [
+     "Si Jiahui",
+     "Jiahui"
+    ],
+    [
+     "David Gilbert",
+     "Gilbert"
+    ],
+    [
+     "Mark Selby",
+     "The Jester from Leicester",
+     "Selby"
+    ],
+    [
+     "Ben Woollaston",
+     "Woollaston"
+    ],
+    [
+     "John Higgins",
+     "The Wizard of Wishaw",
+     "Wizard of Wishaw",
+     "Higgins"
+    ],
+    [
+     "Joe O'Connor",
+     "O'Connor"
+    ],
+    [
+     "Xiao Guodong",
+     "Guodong"
+    ],
+    [
+     "Matthew Selt",
+     "Selt"
+    ],
+    [
+     "Barry Hawkins",
+     "Hawkeye",
+     "The Hawk",
+     "Hawkins"
+    ],
+    [
+     "Hossein Vafaei",
+     "Vafaei"
+    ],
+    [
+     "Mark Williams",
+     "Welsh Potting Machine",
+     "Williams"
+    ],
+    [
+     "Wu Yize",
+     "Yize"
+    ],
+    [
+     "Luca Brecel",
+     "The Belgian Bullet",
+     "Belgian Bullet",
+     "Brecel"
+    ],
+    [
+     "Ryan Day",
+     "Day"
+    ],
+    [
+     "Ding Junhui",
+     "Ding",
+     "Junhui"
+    ],
+    [
+     "Zak Surety",
+     "Surety"
+    ],
+    [
+     "Shaun Murphy",
+     "The Magician",
+     "Magician",
+     "Murphy"
+    ],
+    [
+     "Daniel Wells",
+     "Wells"
+    ],
+    [
+     "Judd Trump",
+     "The Ace in the Pack",
+     "Trump"
+    ],
+    [
+     "Zhou Yuelong",
+     "Yuelong"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cue-last16-2025",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who reached the last 16 of the 2025 World Snooker Championship",
+   "answers": [
+    [
+     "Lei Peifan",
+     "Peifan"
+    ],
+    [
+     "Zhao Xintong",
+     "Xintong"
+    ],
+    [
+     "Chris Wakelin",
+     "Wakelin"
+    ],
+    [
+     "Mark Allen",
+     "The Pistol",
+     "Pistol",
+     "Allen"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "The Rocket",
+     "Ronnie",
+     "Rocket",
+     "O'Sullivan"
+    ],
+    [
+     "Pang Junxu",
+     "Junxu"
+    ],
+    [
+     "Si Jiahui",
+     "Jiahui"
+    ],
+    [
+     "Ben Woollaston",
+     "Woollaston"
+    ],
+    [
+     "John Higgins",
+     "The Wizard of Wishaw",
+     "Wizard of Wishaw",
+     "Higgins"
+    ],
+    [
+     "Xiao Guodong",
+     "Guodong"
+    ],
+    [
+     "Hossein Vafaei",
+     "Vafaei"
+    ],
+    [
+     "Mark Williams",
+     "Welsh Potting Machine",
+     "Williams"
+    ],
+    [
+     "Luca Brecel",
+     "The Belgian Bullet",
+     "Belgian Bullet",
+     "Brecel"
+    ],
+    [
+     "Ding Junhui",
+     "Ding",
+     "Junhui"
+    ],
+    [
+     "Shaun Murphy",
+     "The Magician",
+     "Magician",
+     "Murphy"
+    ],
+    [
+     "Judd Trump",
+     "The Ace in the Pack",
+     "Trump"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cue-crucible-2024",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who qualified for the 2024 World Snooker Championship at the Crucible",
+   "answers": [
+    [
+     "Luca Brecel",
+     "The Belgian Bullet",
+     "Belgian Bullet",
+     "Brecel"
+    ],
+    [
+     "David Gilbert",
+     "Gilbert"
+    ],
+    [
+     "Robert Milkins",
+     "Milkins"
+    ],
+    [
+     "Pang Junxu",
+     "Junxu"
+    ],
+    [
+     "Ali Carter",
+     "The Captain",
+     "Captain",
+     "Carter"
+    ],
+    [
+     "Stephen Maguire",
+     "Snooker Maguire",
+     "Maguire"
+    ],
+    [
+     "Shaun Murphy",
+     "The Magician",
+     "Magician",
+     "Murphy"
+    ],
+    [
+     "Lyu Haotian",
+     "Haotian"
+    ],
+    [
+     "Mark Selby",
+     "The Jester from Leicester",
+     "Selby"
+    ],
+    [
+     "Joe O'Connor",
+     "O'Connor"
+    ],
+    [
+     "Kyren Wilson",
+     "The Warrior",
+     "Warrior"
+    ],
+    [
+     "Dominic Dale",
+     "Dale"
+    ],
+    [
+     "John Higgins",
+     "The Wizard of Wishaw",
+     "Wizard of Wishaw",
+     "Higgins"
+    ],
+    "Jamie Jones",
+    [
+     "Mark Allen",
+     "The Pistol",
+     "Pistol",
+     "Allen"
+    ],
+    "Robbie Williams",
+    [
+     "Judd Trump",
+     "The Ace in the Pack",
+     "Trump"
+    ],
+    [
+     "Hossein Vafaei",
+     "Vafaei"
+    ],
+    [
+     "Tom Ford",
+     "Ford"
+    ],
+    [
+     "Ricky Walden",
+     "Walden"
+    ],
+    [
+     "Zhang Anda",
+     "Anda"
+    ],
+    "Jak Jones",
+    [
+     "Mark Williams",
+     "Welsh Potting Machine"
+    ],
+    [
+     "Si Jiahui",
+     "Jiahui"
+    ],
+    [
+     "Ding Junhui",
+     "Ding",
+     "Junhui"
+    ],
+    [
+     "Jack Lisowski",
+     "Lisowski"
+    ],
+    "Gary Wilson",
+    [
+     "Stuart Bingham",
+     "Ball-run Bingham",
+     "Bingham"
+    ],
+    [
+     "Barry Hawkins",
+     "Hawkeye",
+     "The Hawk",
+     "Hawkins"
+    ],
+    [
+     "Ryan Day",
+     "Day"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "The Rocket",
+     "Ronnie",
+     "Rocket",
+     "O'Sullivan"
+    ],
+    [
+     "Jackson Page",
+     "Page"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cue-last16-2024",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who reached the last 16 of the 2024 World Snooker Championship",
+   "answers": [
+    [
+     "David Gilbert",
+     "Gilbert"
+    ],
+    [
+     "Robert Milkins",
+     "Milkins"
+    ],
+    [
+     "Stephen Maguire",
+     "Snooker Maguire",
+     "Maguire"
+    ],
+    [
+     "Shaun Murphy",
+     "The Magician",
+     "Magician",
+     "Murphy"
+    ],
+    [
+     "Joe O'Connor",
+     "O'Connor"
+    ],
+    [
+     "Kyren Wilson",
+     "The Warrior",
+     "Warrior",
+     "Wilson"
+    ],
+    [
+     "John Higgins",
+     "The Wizard of Wishaw",
+     "Wizard of Wishaw",
+     "Higgins"
+    ],
+    [
+     "Mark Allen",
+     "The Pistol",
+     "Pistol",
+     "Allen"
+    ],
+    [
+     "Judd Trump",
+     "The Ace in the Pack",
+     "Trump"
+    ],
+    [
+     "Tom Ford",
+     "Ford"
+    ],
+    [
+     "Jak Jones",
+     "Jones"
+    ],
+    [
+     "Si Jiahui",
+     "Jiahui"
+    ],
+    [
+     "Jack Lisowski",
+     "Lisowski"
+    ],
+    [
+     "Stuart Bingham",
+     "Ball-run Bingham",
+     "Bingham"
+    ],
+    [
+     "Ryan Day",
+     "Day"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "The Rocket",
+     "Ronnie",
+     "Rocket",
+     "O'Sullivan"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cue-triple-crown-winners-since-2000",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who has won the World Championship, UK Championship or Masters in snooker since the 1999-2000 season (to 2026)",
+   "answers": [
+    [
+     "John Higgins",
+     "The Wizard of Wishaw",
+     "Wizard of Wishaw",
+     "Higgins"
+    ],
+    [
+     "Stephen Hendry",
+     "Hendry"
+    ],
+    [
+     "Mark Williams",
+     "Welsh Potting Machine",
+     "Williams"
+    ],
+    [
+     "Matthew Stevens",
+     "Stevens"
+    ],
+    [
+     "Paul Hunter",
+     "Hunter"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "The Rocket",
+     "Ronnie",
+     "Rocket",
+     "O'Sullivan"
+    ],
+    [
+     "Peter Ebdon",
+     "Ebdon"
+    ],
+    [
+     "Stephen Maguire",
+     "Snooker Maguire",
+     "Maguire"
+    ],
+    [
+     "Shaun Murphy",
+     "The Magician",
+     "Magician",
+     "Murphy"
+    ],
+    [
+     "Ding Junhui",
+     "Ding",
+     "Junhui"
+    ],
+    [
+     "Graeme Dott",
+     "Dott"
+    ],
+    [
+     "Mark Selby",
+     "The Jester from Leicester",
+     "Selby"
+    ],
+    [
+     "Neil Robertson",
+     "Thunder from Down Under",
+     "Robertson"
+    ],
+    [
+     "Judd Trump",
+     "The Ace in the Pack",
+     "Trump"
+    ],
+    [
+     "Stuart Bingham",
+     "Ball-run Bingham",
+     "Bingham"
+    ],
+    [
+     "Mark Allen",
+     "The Pistol",
+     "Pistol",
+     "Allen"
+    ],
+    [
+     "Yan Bingtao",
+     "Bingtao"
+    ],
+    [
+     "Zhao Xintong",
+     "Xintong"
+    ],
+    [
+     "Luca Brecel",
+     "The Belgian Bullet",
+     "Belgian Bullet",
+     "Brecel"
+    ],
+    [
+     "Kyren Wilson",
+     "The Warrior",
+     "Warrior",
+     "Wilson"
+    ],
+    [
+     "Wu Yize",
+     "Yize"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cue-players-championship",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who has won the Players Championship (formerly the Players Tour Championship Finals) in snooker (2011 to 2026)",
+   "answers": [
+    [
+     "Zhao Xintong",
+     "Xintong"
+    ],
+    [
+     "Kyren Wilson",
+     "The Warrior",
+     "Warrior",
+     "Wilson"
+    ],
+    [
+     "Mark Allen",
+     "The Pistol",
+     "Pistol",
+     "Allen"
+    ],
+    [
+     "Shaun Murphy",
+     "The Magician",
+     "Magician",
+     "Murphy"
+    ],
+    [
+     "Neil Robertson",
+     "Thunder from Down Under",
+     "Robertson"
+    ],
+    [
+     "John Higgins",
+     "The Wizard of Wishaw",
+     "Wizard of Wishaw",
+     "Higgins"
+    ],
+    [
+     "Judd Trump",
+     "The Ace in the Pack",
+     "Trump"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "The Rocket",
+     "Ronnie",
+     "Rocket",
+     "O'Sullivan"
+    ],
+    [
+     "Joe Perry",
+     "Gentleman Joe",
+     "Perry"
+    ],
+    [
+     "Barry Hawkins",
+     "Hawkeye",
+     "The Hawk",
+     "Hawkins"
+    ],
+    [
+     "Ding Junhui",
+     "Ding",
+     "Junhui"
+    ],
+    [
+     "Stephen Lee",
+     "Lee"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cue-ranking-event-winners",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who has won the ranking China Open, Shanghai Masters, English Open, World Grand Prix or Players Championship in snooker",
+   "answers": [
+    [
+     "Mark Selby",
+     "The Jester from Leicester",
+     "Selby"
+    ],
+    [
+     "Neil Robertson",
+     "Thunder from Down Under",
+     "Robertson"
+    ],
+    [
+     "Judd Trump",
+     "The Ace in the Pack",
+     "Trump"
+    ],
+    [
+     "Ding Junhui",
+     "Ding",
+     "Junhui"
+    ],
+    [
+     "Peter Ebdon",
+     "Ebdon"
+    ],
+    [
+     "Mark Williams",
+     "Welsh Potting Machine",
+     "Williams"
+    ],
+    [
+     "Stephen Maguire",
+     "Snooker Maguire",
+     "Maguire"
+    ],
+    [
+     "Graeme Dott",
+     "Dott"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "The Rocket",
+     "Ronnie",
+     "Rocket",
+     "O'Sullivan"
+    ],
+    [
+     "John Higgins",
+     "The Wizard of Wishaw",
+     "Wizard of Wishaw",
+     "Higgins"
+    ],
+    [
+     "Kyren Wilson",
+     "The Warrior",
+     "Warrior",
+     "Wilson"
+    ],
+    [
+     "Stuart Bingham",
+     "Ball-run Bingham",
+     "Bingham"
+    ],
+    [
+     "Ali Carter",
+     "The Captain",
+     "Captain",
+     "Carter"
+    ],
+    [
+     "Ricky Walden",
+     "Walden"
+    ],
+    [
+     "Dominic Dale",
+     "Dale"
+    ],
+    [
+     "Mark Allen",
+     "The Pistol",
+     "Pistol",
+     "Allen"
+    ],
+    [
+     "Liang Wenbo",
+     "Wenbo"
+    ],
+    [
+     "Zhao Xintong",
+     "Xintong"
+    ],
+    [
+     "Barry Hawkins",
+     "Hawkeye",
+     "The Hawk",
+     "Hawkins"
+    ],
+    [
+     "Shaun Murphy",
+     "The Magician",
+     "Magician",
+     "Murphy"
+    ],
+    [
+     "Joe Perry",
+     "Gentleman Joe",
+     "Perry"
+    ],
+    [
+     "Stephen Lee",
+     "Lee"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cue-wsc-multiple-winners",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who has won the World Snooker Championship more than once (1927 to 2026)",
+   "answers": [
+    "Joe Davis",
+    "Fred Davis",
+    [
+     "John Pulman",
+     "Pulman"
+    ],
+    [
+     "Stephen Hendry",
+     "Hendry"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "The Rocket",
+     "Ronnie",
+     "Rocket",
+     "O'Sullivan"
+    ],
+    [
+     "Steve Davis",
+     "The Nugget",
+     "Nugget"
+    ],
+    [
+     "Ray Reardon",
+     "Dracula",
+     "Reardon"
+    ],
+    [
+     "John Higgins",
+     "The Wizard of Wishaw",
+     "Wizard of Wishaw"
+    ],
+    [
+     "Mark Selby",
+     "The Jester from Leicester",
+     "Selby"
+    ],
+    [
+     "Mark Williams",
+     "Welsh Potting Machine",
+     "Williams"
+    ],
+    [
+     "John Spencer",
+     "Spencer"
+    ],
+    [
+     "Walter Donaldson",
+     "Donaldson"
+    ],
+    [
+     "Alex Higgins",
+     "Hurricane Higgins",
+     "The Hurricane"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-cue-terms",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a term used in snooker",
+   "answers": [
+    [
+     "Break",
+     "snooker break"
+    ],
+    [
+     "Century",
+     "century break",
+     "ton"
+    ],
+    [
+     "Maximum",
+     "147",
+     "maximum break"
+    ],
+    "Cue",
+    "Rest",
+    "Spider",
+    [
+     "Swan neck",
+     "swan-neck rest"
+    ],
+    [
+     "Extension",
+     "extended spider"
+    ],
+    [
+     "Baulk",
+     "baulk line"
+    ],
+    "D",
+    "Cushion",
+    "Pocket",
+    "Frame",
+    "Foul",
+    "Miss",
+    "Snooker",
+    [
+     "Safety",
+     "safety shot"
+    ],
+    "Plant",
+    "Kick",
+    [
+     "Screw",
+     "screw shot"
+    ],
+    [
+     "Stun",
+     "stun shot"
+    ],
+    [
+     "Side",
+     "side spin"
+    ],
+    "Chalk",
+    "Triangle",
+    "Double",
+    "Fluke",
+    [
+     "Pot",
+     "potting"
+    ],
+    "Kiss",
+    "Free ball",
+    [
+     "Re-spot",
+     "respotted black"
+    ],
+    [
+     "Pink spot",
+     "black spot",
+     "blue spot"
+    ],
+    "Cannon",
+    [
+     "Cue ball",
+     "white ball",
+     "white"
+    ],
+    [
+     "Colours",
+     "colors"
+    ],
+    [
+     "Reds",
+     "red ball"
+    ],
+    "Clearance",
+    "Tip",
+    "Bridge",
+    [
+     "Referee",
+     "ref"
+    ],
+    "Touching ball",
+    "Push shot",
+    "Jump shot",
+    "Break-off",
+    "Long pot"
+   ]
+  },
+  {
+   "id": "xs6-cue-sports",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a cue sport",
+   "answers": [
+    "Snooker",
+    "Pool",
+    [
+     "English billiards",
+     "billiards"
+    ],
+    [
+     "Eight-ball",
+     "8-ball",
+     "8 ball pool"
+    ],
+    [
+     "Nine-ball",
+     "9-ball"
+    ],
+    [
+     "Ten-ball",
+     "10-ball"
+    ],
+    [
+     "Straight pool",
+     "14.1 continuous",
+     "continuous pool"
+    ],
+    "One-pocket",
+    [
+     "Bank pool",
+     "banks"
+    ],
+    [
+     "Carom billiards",
+     "carom",
+     "caroms"
+    ],
+    [
+     "Three-cushion billiards",
+     "three-cushion"
+    ],
+    [
+     "Blackball",
+     "black ball pool"
+    ],
+    "Bar billiards",
+    [
+     "Russian pyramid",
+     "pyramid"
+    ],
+    "Kaisa",
+    [
+     "Four-ball billiards",
+     "four ball"
+    ],
+    [
+     "Artistic billiards",
+     "artistic pool"
+    ],
+    "Six-red snooker",
+    [
+     "Rotation pool",
+     "rotation"
+    ],
+    "Bumper pool",
+    [
+     "Cutthroat",
+     "cut-throat pool"
+    ],
+    [
+     "Seven-ball",
+     "7-ball"
+    ],
+    [
+     "Snookerpool",
+     "snooker plus"
+    ],
+    "Pocket billiards"
+   ]
+  },
+  {
+   "id": "xs6-cue-tournaments",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a professional snooker tournament",
+   "answers": [
+    [
+     "World Championship",
+     "World Snooker Championship"
+    ],
+    "UK Championship",
+    [
+     "Masters",
+     "The Masters"
+    ],
+    "Welsh Open",
+    "Scottish Open",
+    "English Open",
+    "Northern Ireland Open",
+    "German Masters",
+    "Shanghai Masters",
+    "China Open",
+    "International Championship",
+    "Players Championship",
+    "Tour Championship",
+    "Champion of Champions",
+    "Hong Kong Masters",
+    "Gibraltar Open",
+    [
+     "Shoot Out",
+     "Snooker Shoot Out"
+    ],
+    "World Grand Prix",
+    "Riga Masters",
+    "Paul Hunter Classic",
+    "European Masters",
+    "Indian Open",
+    "Wuhan Open",
+    "Saudi Arabia Masters",
+    "British Open",
+    "Championship League",
+    "Six-red World Championship",
+    "Haining Open",
+    "Xi'an Grand Prix",
+    "Home Nations Series",
+    "Irish Masters",
+    "Pot Black",
+    "Benson & Hedges Masters",
+    "Northern Ireland Trophy",
+    "Grand Prix",
+    [
+     "Premier League Snooker",
+     "Premier League"
+    ],
+    "World Open",
+    "Dubai Classic",
+    "Thailand Masters"
+   ]
+  },
+  {
+   "id": "xs6-cue-pool-games",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a pool game or variation (including American pool formats)",
+   "answers": [
+    [
+     "Eight-ball",
+     "8-ball"
+    ],
+    [
+     "Nine-ball",
+     "9-ball"
+    ],
+    [
+     "Ten-ball",
+     "10-ball"
+    ],
+    [
+     "Straight pool",
+     "14.1",
+     "continuous pool"
+    ],
+    "One-pocket",
+    [
+     "Bank pool",
+     "banks",
+     "bank"
+    ],
+    [
+     "Rotation",
+     "rotation pool"
+    ],
+    "Cutthroat",
+    [
+     "Killer",
+     "killer pool"
+    ],
+    "Chicago",
+    "Blackball",
+    [
+     "Seven-ball",
+     "7-ball"
+    ],
+    [
+     "Six-ball",
+     "6-ball"
+    ],
+    "Speed pool",
+    "Bowlliards",
+    "Honolulu",
+    [
+     "Baseball pool",
+     "Baseball"
+    ],
+    [
+     "Kelly pool",
+     "Kelly"
+    ],
+    [
+     "Fifteen-ball",
+     "15-ball"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-nfl-mvp",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a player who has won the AP NFL Most Valuable Player award (1957 to 2025)",
+   "answers": [
+    [
+     "Matthew Stafford",
+     "Matt Stafford",
+     "Stafford"
+    ],
+    "Josh Allen",
+    [
+     "Lamar Jackson",
+     "Lamar",
+     "Jackson"
+    ],
+    [
+     "Patrick Mahomes",
+     "Mahomes"
+    ],
+    [
+     "Aaron Rodgers",
+     "Rodgers"
+    ],
+    [
+     "Tom Brady",
+     "Brady"
+    ],
+    [
+     "Matt Ryan",
+     "Matty Ice",
+     "Ryan"
+    ],
+    [
+     "Cam Newton",
+     "Newton"
+    ],
+    [
+     "Peyton Manning",
+     "Peyton",
+     "Manning"
+    ],
+    [
+     "Adrian Peterson",
+     "AP",
+     "All Day",
+     "Peterson"
+    ],
+    [
+     "LaDainian Tomlinson",
+     "LaDainian",
+     "Tomlinson"
+    ],
+    [
+     "Shaun Alexander",
+     "Alexander"
+    ],
+    [
+     "Rich Gannon",
+     "Gannon"
+    ],
+    [
+     "Kurt Warner",
+     "Warner"
+    ],
+    [
+     "Marshall Faulk",
+     "Faulk"
+    ],
+    [
+     "Terrell Davis",
+     "Davis"
+    ],
+    [
+     "Brett Favre",
+     "Favre"
+    ],
+    [
+     "Steve Young",
+     "Young"
+    ],
+    [
+     "Emmitt Smith",
+     "Smith"
+    ],
+    [
+     "Thurman Thomas",
+     "Thomas"
+    ],
+    [
+     "Joe Montana",
+     "Joe Cool",
+     "Montana"
+    ],
+    [
+     "Boomer Esiason",
+     "Esiason"
+    ],
+    [
+     "John Elway",
+     "Elway"
+    ],
+    "Lawrence Taylor",
+    "Marcus Allen",
+    [
+     "Dan Marino",
+     "Marino"
+    ],
+    [
+     "Joe Theismann",
+     "Theismann"
+    ],
+    [
+     "Mark Moseley",
+     "Moseley"
+    ],
+    [
+     "Ken Anderson",
+     "Anderson"
+    ],
+    [
+     "Brian Sipe",
+     "Sipe"
+    ],
+    [
+     "Earl Campbell",
+     "Campbell"
+    ],
+    [
+     "Terry Bradshaw",
+     "Bradshaw"
+    ],
+    [
+     "Walter Payton",
+     "Sweetness",
+     "Payton"
+    ],
+    [
+     "Bert Jones",
+     "Jones"
+    ],
+    [
+     "Fran Tarkenton",
+     "Tarkenton"
+    ],
+    [
+     "Ken Stabler",
+     "Stabler"
+    ],
+    [
+     "O. J. Simpson",
+     "OJ",
+     "Simpson"
+    ],
+    "Larry Brown",
+    [
+     "Alan Page",
+     "Page"
+    ],
+    [
+     "John Brodie",
+     "Brodie"
+    ],
+    [
+     "Roman Gabriel",
+     "Gabriel"
+    ],
+    [
+     "Earl Morrall",
+     "Morrall"
+    ],
+    [
+     "Johnny Unitas",
+     "Unitas"
+    ],
+    [
+     "Bart Starr",
+     "Starr"
+    ],
+    "Jim Brown",
+    [
+     "Y. A. Tittle",
+     "Tittle"
+    ],
+    "Jim Taylor",
+    [
+     "Paul Hornung",
+     "Hornung"
+    ],
+    [
+     "Norm Van Brocklin",
+     "Brocklin"
+    ],
+    [
+     "Barry Sanders",
+     "Sanders"
+    ],
+    [
+     "Steve McNair",
+     "McNair"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-nhl-hart-winners",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a player who has won the Hart Trophy as the NHL's most valuable player (1924 to 2026)",
+   "answers": [
+    [
+     "Frank Nighbor",
+     "Nighbor"
+    ],
+    [
+     "Billy Burch",
+     "Burch"
+    ],
+    [
+     "Nels Stewart",
+     "Stewart"
+    ],
+    [
+     "Herb Gardiner",
+     "Gardiner"
+    ],
+    [
+     "Howie Morenz",
+     "Morenz"
+    ],
+    [
+     "Roy Worters",
+     "Worters"
+    ],
+    [
+     "Eddie Shore",
+     "Shore"
+    ],
+    [
+     "Aurele Joliat",
+     "Joliat"
+    ],
+    [
+     "Babe Siebert",
+     "Siebert"
+    ],
+    [
+     "Toe Blake",
+     "Blake"
+    ],
+    [
+     "Ebbie Goodfellow",
+     "Goodfellow"
+    ],
+    [
+     "Bill Cowley",
+     "Cowley"
+    ],
+    [
+     "Tommy Anderson",
+     "Anderson"
+    ],
+    [
+     "Babe Pratt",
+     "Pratt"
+    ],
+    [
+     "Elmer Lach",
+     "Lach"
+    ],
+    [
+     "Max Bentley",
+     "Bentley"
+    ],
+    [
+     "Maurice Richard",
+     "Rocket Richard",
+     "The Rocket",
+     "Richard"
+    ],
+    [
+     "Buddy O'Connor",
+     "O'Connor"
+    ],
+    [
+     "Sid Abel",
+     "Abel"
+    ],
+    [
+     "Chuck Rayner",
+     "Rayner"
+    ],
+    [
+     "Milt Schmidt",
+     "Schmidt"
+    ],
+    [
+     "Gordie Howe",
+     "Mr Hockey",
+     "Gordie",
+     "Howe"
+    ],
+    [
+     "Al Rollins",
+     "Rollins"
+    ],
+    [
+     "Ted Kennedy",
+     "Kennedy"
+    ],
+    [
+     "Jean Beliveau",
+     "Beliveau"
+    ],
+    [
+     "Andy Bathgate",
+     "Bathgate"
+    ],
+    [
+     "Bernie Geoffrion",
+     "Geoffrion"
+    ],
+    [
+     "Jacques Plante",
+     "Plante"
+    ],
+    "Bobby Hull",
+    [
+     "Stan Mikita",
+     "Mikita"
+    ],
+    [
+     "Phil Esposito",
+     "Esposito"
+    ],
+    [
+     "Bobby Orr",
+     "Orr"
+    ],
+    [
+     "Bobby Clarke",
+     "Clarke"
+    ],
+    [
+     "Guy Lafleur",
+     "Lafleur"
+    ],
+    [
+     "Bryan Trottier",
+     "Trottier"
+    ],
+    [
+     "Wayne Gretzky",
+     "The Great One",
+     "Gretzky"
+    ],
+    [
+     "Mario Lemieux",
+     "Super Mario",
+     "Lemieux"
+    ],
+    [
+     "Mark Messier",
+     "Messier"
+    ],
+    "Brett Hull",
+    [
+     "Sergei Fedorov",
+     "Fedorov"
+    ],
+    [
+     "Eric Lindros",
+     "Lindros"
+    ],
+    [
+     "Dominik Hašek",
+     "The Dominator",
+     "Hašek"
+    ],
+    [
+     "Jaromír Jágr",
+     "Jágr"
+    ],
+    [
+     "Chris Pronger",
+     "Pronger"
+    ],
+    [
+     "Joe Sakic",
+     "Sakic"
+    ],
+    [
+     "Jose Theodore",
+     "Theodore"
+    ],
+    [
+     "Peter Forsberg",
+     "Forsberg"
+    ],
+    [
+     "Martin St. Louis",
+     "Louis"
+    ],
+    [
+     "Joe Thornton",
+     "Thornton"
+    ],
+    [
+     "Sidney Crosby",
+     "Sid the Kid",
+     "Sid",
+     "Crosby"
+    ],
+    [
+     "Alexander Ovechkin",
+     "Ovi",
+     "Alex Ovechkin",
+     "Ovechkin"
+    ],
+    [
+     "Henrik Sedin",
+     "Sedin"
+    ],
+    [
+     "Corey Perry",
+     "Perry"
+    ],
+    [
+     "Evgeni Malkin",
+     "Malkin"
+    ],
+    [
+     "Carey Price",
+     "Price"
+    ],
+    [
+     "Patrick Kane",
+     "Kane"
+    ],
+    [
+     "Connor McDavid",
+     "McJesus",
+     "McDavid"
+    ],
+    [
+     "Taylor Hall",
+     "Hall"
+    ],
+    [
+     "Nikita Kucherov",
+     "Kucherov"
+    ],
+    [
+     "Leon Draisaitl",
+     "Draisaitl"
+    ],
+    [
+     "Auston Matthews",
+     "Matthews"
+    ],
+    [
+     "Nathan MacKinnon",
+     "MacKinnon"
+    ],
+    [
+     "Connor Hellebuyck",
+     "Hellebuyck"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-halftime-headliners",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a headline act of a Super Bowl halftime show between 2005 and 2026 (Super Bowl XXXIX to LX)",
+   "answers": [
+    "Paul McCartney",
+    [
+     "The Rolling Stones",
+     "Rolling Stones",
+     "Stones"
+    ],
+    "Prince",
+    [
+     "Tom Petty",
+     "Tom Petty and the Heartbreakers",
+     "Tom Petty & the Heartbreakers"
+    ],
+    [
+     "Bruce Springsteen",
+     "Springsteen",
+     "Bruce Springsteen and the E Street Band"
+    ],
+    [
+     "The Who",
+     "Who"
+    ],
+    [
+     "The Black Eyed Peas",
+     "Black Eyed Peas"
+    ],
+    "Madonna",
+    "Beyoncé",
+    "Bruno Mars",
+    "Katy Perry",
+    "Coldplay",
+    [
+     "Lady Gaga",
+     "Gaga"
+    ],
+    "Justin Timberlake",
+    "Maroon 5",
+    "Shakira",
+    [
+     "Jennifer Lopez",
+     "JLo"
+    ],
+    [
+     "The Weeknd",
+     "Weeknd"
+    ],
+    "Dr. Dre",
+    "Snoop Dogg",
+    "Eminem",
+    "Mary J. Blige",
+    [
+     "Kendrick Lamar",
+     "Kendrick"
+    ],
+    "Rihanna",
+    "Usher",
+    "Bad Bunny"
+   ]
+  },
+  {
+   "id": "xs6-nfl-stadiums",
+   "tags": [
+    "us"
+   ],
+   "text": "Name the home stadium of an NFL team (2026 season)",
+   "answers": [
+    [
+     "Acrisure Stadium",
+     "Heinz Field"
+    ],
+    "Allegiant Stadium",
+    [
+     "Arrowhead Stadium",
+     "Arrowhead"
+    ],
+    [
+     "AT&T Stadium",
+     "Cowboys Stadium",
+     "Jerry World"
+    ],
+    "Bank of America Stadium",
+    [
+     "Caesars Superdome",
+     "Superdome",
+     "Mercedes-Benz Superdome"
+    ],
+    [
+     "Empower Field at Mile High",
+     "Mile High",
+     "Mile High Stadium",
+     "Broncos Stadium",
+     "Sports Authority Field"
+    ],
+    [
+     "EverBank Stadium",
+     "TIAA Bank Field",
+     "Everbank Field",
+     "Jacksonville Municipal Stadium"
+    ],
+    "Ford Field",
+    "Gillette Stadium",
+    [
+     "Hard Rock Stadium",
+     "Sun Life Stadium",
+     "Dolphin Stadium",
+     "Pro Player Stadium"
+    ],
+    [
+     "Highmark Stadium",
+     "Ralph Wilson Stadium",
+     "New Era Field",
+     "Bills Stadium"
+    ],
+    [
+     "Huntington Bank Field",
+     "FirstEnergy Stadium",
+     "Cleveland Browns Stadium"
+    ],
+    [
+     "Lambeau Field",
+     "Lambeau"
+    ],
+    "Levi's Stadium",
+    [
+     "Lincoln Financial Field",
+     "The Linc",
+     "Lincoln Financial"
+    ],
+    "Lucas Oil Stadium",
+    [
+     "Lumen Field",
+     "CenturyLink Field",
+     "Qwest Field",
+     "Seahawks Stadium"
+    ],
+    [
+     "M&T Bank Stadium",
+     "Ravens Stadium"
+    ],
+    "Mercedes-Benz Stadium",
+    [
+     "MetLife Stadium",
+     "MetLife",
+     "Giants Stadium"
+    ],
+    [
+     "Nissan Stadium",
+     "LP Field",
+     "Adelphia Coliseum"
+    ],
+    [
+     "Northwest Stadium",
+     "FedExField",
+     "Jack Kent Cooke Stadium"
+    ],
+    [
+     "Paycor Stadium",
+     "Paul Brown Stadium"
+    ],
+    [
+     "Raymond James Stadium",
+     "Ray Jay"
+    ],
+    [
+     "Reliant Stadium",
+     "NRG Stadium",
+     "Reliant"
+    ],
+    [
+     "SoFi Stadium",
+     "SoFi"
+    ],
+    "Soldier Field",
+    [
+     "State Farm Stadium",
+     "University of Phoenix Stadium",
+     "Cardinals Stadium"
+    ],
+    "U.S. Bank Stadium"
+   ]
+  },
+  {
+   "id": "xs6-nfl-positions",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a position in American football",
+   "answers": [
+    [
+     "Quarterback",
+     "QB"
+    ],
+    [
+     "Running back",
+     "RB",
+     "halfback",
+     "tailback"
+    ],
+    [
+     "Fullback",
+     "FB"
+    ],
+    [
+     "Wide receiver",
+     "WR",
+     "receiver",
+     "wideout"
+    ],
+    [
+     "Tight end",
+     "TE"
+    ],
+    [
+     "Center",
+     "C"
+    ],
+    [
+     "Guard",
+     "offensive guard",
+     "OG"
+    ],
+    [
+     "Offensive tackle",
+     "OT",
+     "tackle"
+    ],
+    [
+     "Offensive lineman",
+     "OL"
+    ],
+    [
+     "Defensive end",
+     "DE"
+    ],
+    [
+     "Defensive tackle",
+     "DT"
+    ],
+    [
+     "Nose tackle",
+     "nose guard",
+     "NT"
+    ],
+    [
+     "Linebacker",
+     "LB"
+    ],
+    [
+     "Middle linebacker",
+     "MLB"
+    ],
+    [
+     "Outside linebacker",
+     "OLB"
+    ],
+    [
+     "Cornerback",
+     "CB"
+    ],
+    [
+     "Safety",
+     "S"
+    ],
+    [
+     "Free safety",
+     "FS"
+    ],
+    [
+     "Strong safety",
+     "SS"
+    ],
+    [
+     "Kicker",
+     "K",
+     "place kicker"
+    ],
+    [
+     "Punter",
+     "P"
+    ],
+    [
+     "Long snapper",
+     "LS"
+    ],
+    "Holder",
+    [
+     "Kick returner",
+     "KR"
+    ],
+    [
+     "Punt returner",
+     "PR"
+    ],
+    [
+     "Edge rusher",
+     "edge"
+    ],
+    [
+     "Slot receiver",
+     "slot"
+    ],
+    [
+     "Defensive back",
+     "DB"
+    ],
+    [
+     "Defensive lineman",
+     "DL"
+    ],
+    "Special teams"
+   ]
+  },
+  {
+   "id": "xs6-baseball-positions",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a position in baseball",
+   "answers": [
+    [
+     "Pitcher",
+     "starting pitcher",
+     "starter"
+    ],
+    "Catcher",
+    [
+     "First baseman",
+     "first base",
+     "1B"
+    ],
+    [
+     "Second baseman",
+     "second base",
+     "2B"
+    ],
+    [
+     "Third baseman",
+     "third base",
+     "3B"
+    ],
+    [
+     "Shortstop",
+     "SS"
+    ],
+    [
+     "Left fielder",
+     "left field",
+     "LF"
+    ],
+    [
+     "Centre fielder",
+     "center fielder",
+     "center field",
+     "centre field",
+     "CF"
+    ],
+    [
+     "Right fielder",
+     "right field",
+     "RF"
+    ],
+    [
+     "Designated hitter",
+     "DH"
+    ],
+    [
+     "Relief pitcher",
+     "reliever"
+    ],
+    "Closer",
+    "Outfielder",
+    "Infielder",
+    [
+     "Utility player",
+     "utility man",
+     "utility"
+    ],
+    "Pinch hitter",
+    "Pinch runner",
+    [
+     "Setup man",
+     "setup pitcher"
+    ],
+    "Middle reliever",
+    "Bullpen catcher"
+   ]
+  },
+  {
+   "id": "xs6-bowl-games",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a college football bowl game (past or present)",
+   "answers": [
+    "Rose Bowl",
+    "Orange Bowl",
+    "Sugar Bowl",
+    "Cotton Bowl",
+    "Fiesta Bowl",
+    "Peach Bowl",
+    "Citrus Bowl",
+    "Gator Bowl",
+    "Holiday Bowl",
+    "Alamo Bowl",
+    "Liberty Bowl",
+    "Sun Bowl",
+    "Outback Bowl",
+    "Music City Bowl",
+    "Las Vegas Bowl",
+    "Pinstripe Bowl",
+    "Independence Bowl",
+    "Armed Forces Bowl",
+    "Cheez-It Bowl",
+    "Texas Bowl",
+    "Hawaii Bowl",
+    "Poinsettia Bowl",
+    "Insight Bowl",
+    "Aloha Bowl",
+    "Copper Bowl",
+    "Gasparilla Bowl",
+    [
+     "Mobile Alabama Bowl",
+     "Mobile Bowl",
+     "GMAC Bowl"
+    ],
+    [
+     "Famous Idaho Potato Bowl",
+     "Potato Bowl"
+    ],
+    "Fenway Bowl",
+    "Birmingham Bowl",
+    "Camping World Bowl",
+    "Redbox Bowl",
+    "Foster Farms Bowl"
+   ]
+  },
+  {
+   "id": "xs6-baseball-pitches",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a type of pitch in baseball",
+   "answers": [
+    "Fastball",
+    [
+     "Curveball",
+     "curve"
+    ],
+    "Slider",
+    "Changeup",
+    [
+     "Knuckleball",
+     "knuckler"
+    ],
+    "Sinker",
+    [
+     "Cutter",
+     "cut fastball"
+    ],
+    [
+     "Splitter",
+     "split-finger fastball",
+     "split finger"
+    ],
+    "Screwball",
+    "Forkball",
+    "Sweeper",
+    "Slurve",
+    [
+     "Two-seam fastball",
+     "two-seamer"
+    ],
+    [
+     "Four-seam fastball",
+     "four-seamer"
+    ],
+    [
+     "Eephus",
+     "eephus pitch"
+    ],
+    "Palmball",
+    "Spitball",
+    "Knuckle curve",
+    [
+     "Circle changeup",
+     "circle change"
+    ],
+    "Gyroball",
+    "Vulcan changeup"
+   ]
+  },
+  {
+   "id": "xs6-american-football-terms",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a term used in American football",
+   "answers": [
+    "Touchdown",
+    "Field goal",
+    "Safety",
+    "Sack",
+    [
+     "Interception",
+     "pick"
+    ],
+    "Fumble",
+    "Punt",
+    "Kickoff",
+    "Snap",
+    "Blitz",
+    "Hail Mary",
+    "Audible",
+    "Huddle",
+    "First down",
+    "Fourth down",
+    "Two-point conversion",
+    [
+     "Extra point",
+     "point after"
+    ],
+    "Pass interference",
+    "Holding",
+    "False start",
+    "Offside",
+    "Encroachment",
+    "Delay of game",
+    "Personal foul",
+    "Facemask",
+    "Roughing the passer",
+    "Onside kick",
+    "Touchback",
+    "Fair catch",
+    "Lateral",
+    "Handoff",
+    "Play-action",
+    "Screen pass",
+    [
+     "Quarterback sneak",
+     "QB sneak",
+     "sneak"
+    ],
+    "Flea flicker",
+    "Reverse",
+    "Pick-six",
+    "Red zone",
+    "Line of scrimmage",
+    "Scrimmage",
+    "Drive",
+    "Down",
+    "Timeout",
+    "Two-minute warning",
+    "Turnover",
+    [
+     "Kneel down",
+     "victory formation"
+    ],
+    [
+     "Draw play",
+     "draw"
+    ],
+    "Bootleg",
+    "Option",
+    "Shotgun",
+    "Pocket",
+    "Pass rush",
+    "Coverage",
+    "Blitz pickup",
+    "Safety blitz",
+    [
+     "Bye week",
+     "bye"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-spoty-winners-1954-1999",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a winner of the BBC Sports Personality of the Year award between 1954 and 1999",
+   "answers": [
+    [
+     "Christopher Chataway",
+     "Chris Chataway",
+     "Chataway"
+    ],
+    [
+     "Gordon Pirie",
+     "Pirie"
+    ],
+    [
+     "Jim Laker",
+     "Laker"
+    ],
+    [
+     "Dai Rees",
+     "Rees"
+    ],
+    [
+     "Ian Black",
+     "Black"
+    ],
+    [
+     "John Surtees",
+     "Surtees"
+    ],
+    [
+     "David Broome",
+     "Broome"
+    ],
+    [
+     "Stirling Moss",
+     "Sir Stirling Moss",
+     "Moss"
+    ],
+    [
+     "Anita Lonsbrough",
+     "Lonsbrough"
+    ],
+    [
+     "Dorothy Hyman",
+     "Hyman"
+    ],
+    [
+     "Mary Rand",
+     "Rand"
+    ],
+    [
+     "Tom Simpson",
+     "Simpson"
+    ],
+    [
+     "Bobby Moore",
+     "Moore"
+    ],
+    [
+     "Henry Cooper",
+     "Our Enry",
+     "Sir Henry Cooper",
+     "Cooper"
+    ],
+    [
+     "David Hemery",
+     "Hemery"
+    ],
+    [
+     "Ann Jones",
+     "Jones"
+    ],
+    [
+     "Princess Anne",
+     "Anne",
+     "The Princess Royal",
+     "Princess Royal"
+    ],
+    [
+     "Mary Peters",
+     "Dame Mary Peters",
+     "Peters"
+    ],
+    [
+     "Jackie Stewart",
+     "Sir Jackie Stewart",
+     "Stewart"
+    ],
+    [
+     "Brendan Foster",
+     "Foster"
+    ],
+    [
+     "David Steele",
+     "Steele"
+    ],
+    [
+     "John Curry",
+     "Curry"
+    ],
+    [
+     "Virginia Wade",
+     "Wade"
+    ],
+    [
+     "Steve Ovett",
+     "Ovett"
+    ],
+    [
+     "Sebastian Coe",
+     "Seb Coe",
+     "Lord Coe",
+     "Coe"
+    ],
+    [
+     "Robin Cousins",
+     "Cousins"
+    ],
+    [
+     "Ian Botham",
+     "Beefy",
+     "Both",
+     "Botham"
+    ],
+    [
+     "Daley Thompson",
+     "Thompson"
+    ],
+    [
+     "Steve Cram",
+     "Cram"
+    ],
+    [
+     "Torvill and Dean",
+     "Jayne Torvill",
+     "Christopher Dean",
+     "Torvill",
+     "Dean",
+     "Chris Dean"
+    ],
+    [
+     "Barry McGuigan",
+     "McGuigan"
+    ],
+    [
+     "Nigel Mansell",
+     "Red Five",
+     "Mansell"
+    ],
+    [
+     "Fatima Whitbread",
+     "Whitbread"
+    ],
+    [
+     "Steve Davis",
+     "Davis"
+    ],
+    [
+     "Nick Faldo",
+     "Sir Nick Faldo",
+     "Faldo"
+    ],
+    [
+     "Paul Gascoigne",
+     "Gazza",
+     "Gascoigne"
+    ],
+    [
+     "Linford Christie",
+     "Christie"
+    ],
+    [
+     "Damon Hill",
+     "Hill"
+    ],
+    [
+     "Jonathan Edwards",
+     "Edwards"
+    ],
+    [
+     "Greg Rusedski",
+     "Rusedski"
+    ],
+    [
+     "Michael Owen",
+     "Owen"
+    ],
+    [
+     "Lennox Lewis",
+     "Lewis"
+    ],
+    [
+     "Liz McColgan",
+     "Elizabeth McColgan",
+     "McColgan"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-flat-champion-jockeys",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a jockey who has been British flat racing champion jockey (1950 to 2026)",
+   "answers": [
+    [
+     "Billy Loughnane",
+     "Loughnane"
+    ],
+    [
+     "Doug Smith",
+     "Smith"
+    ],
+    [
+     "Frankie Dettori",
+     "Frankie",
+     "Dettori"
+    ],
+    [
+     "Gordon Richards",
+     "Sir Gordon Richards",
+     "Richards"
+    ],
+    [
+     "Jamie Spencer",
+     "Spencer"
+    ],
+    [
+     "Jim Crowley",
+     "James Crowley",
+     "Crowley"
+    ],
+    [
+     "Joe Mercer",
+     "Mercer"
+    ],
+    [
+     "Kevin Darley",
+     "Darley"
+    ],
+    [
+     "Kieren Fallon",
+     "Kieran Fallon",
+     "Fallon"
+    ],
+    [
+     "Lester Piggott",
+     "Lester",
+     "Piggott"
+    ],
+    [
+     "Michael Roberts",
+     "Roberts"
+    ],
+    [
+     "Oisin Murphy",
+     "Murphy"
+    ],
+    [
+     "Pat Eddery",
+     "Eddery"
+    ],
+    [
+     "Paul Hanagan",
+     "Hanagan"
+    ],
+    [
+     "Ryan Moore",
+     "Moore"
+    ],
+    [
+     "Scobie Breasley",
+     "Arthur Breasley",
+     "Breasley"
+    ],
+    [
+     "Seb Sanders",
+     "Sanders"
+    ],
+    [
+     "Steve Cauthen",
+     "Cauthen"
+    ],
+    [
+     "William Buick",
+     "Buick"
+    ],
+    [
+     "Willie Carson",
+     "Willie",
+     "Carson"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-jump-champion-jockeys",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a jockey who has been British jump racing champion jockey (1950 to 2025)",
+   "answers": [
+    [
+     "Bob Davies",
+     "Davies"
+    ],
+    [
+     "Brian Hughes",
+     "Hughes"
+    ],
+    [
+     "Dick Francis",
+     "Francis"
+    ],
+    [
+     "Fred Winter",
+     "Winter"
+    ],
+    [
+     "Graham Thorner",
+     "Thorner"
+    ],
+    [
+     "Harry Cobden",
+     "Cobden"
+    ],
+    [
+     "Harry Skelton",
+     "Skelton"
+    ],
+    [
+     "John Francome",
+     "Francome"
+    ],
+    [
+     "Jonjo O'Neill",
+     "Jonjo",
+     "O'Neill"
+    ],
+    [
+     "Josh Gifford",
+     "Gifford"
+    ],
+    [
+     "Peter Scudamore",
+     "Scu",
+     "Scudamore"
+    ],
+    [
+     "Richard Dunwoody",
+     "Dunwoody"
+    ],
+    [
+     "Richard Johnson",
+     "Johnson"
+    ],
+    [
+     "Ron Barry",
+     "Barry"
+    ],
+    [
+     "Sean Bowen",
+     "Bowen"
+    ],
+    [
+     "Stan Mellor",
+     "Mellor"
+    ],
+    [
+     "Terry Biddlecombe",
+     "Biddlecombe"
+    ],
+    [
+     "Tim Brookshaw",
+     "Brookshaw"
+    ],
+    [
+     "Tim Molony",
+     "Molony"
+    ],
+    [
+     "Tommy Stack",
+     "Stack"
+    ],
+    [
+     "Tony McCoy",
+     "AP McCoy",
+     "AP",
+     "Sir Anthony McCoy",
+     "Anthony McCoy",
+     "McCoy"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-grand-national-horses-1960-1999",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a horse that won the Grand National between 1960 and 1999",
+   "answers": [
+    "Merryman II",
+    "Nicolaus Silver",
+    "Kilmore",
+    "Ayala",
+    "Team Spirit",
+    "Jay Trump",
+    "Anglo",
+    "Foinavon",
+    "Red Alligator",
+    "Highland Wedding",
+    "Gay Trip",
+    "Specify",
+    "Well To Do",
+    "Red Rum",
+    "L'Escargot",
+    "Rag Trade",
+    "Lucius",
+    "Rubstic",
+    "Ben Nevis",
+    "Aldaniti",
+    "Grittar",
+    "Corbiere",
+    "Hallo Dandy",
+    "Last Suspect",
+    "West Tip",
+    "Maori Venture",
+    "Rhyme 'n' Reason",
+    "Little Polveir",
+    "Mr Frisk",
+    "Seagram",
+    "Party Politics",
+    "Miinnehoma",
+    "Royal Athlete",
+    "Rough Quest",
+    "Lord Gyllene",
+    "Earth Summit",
+    "Bobbyjo"
+   ]
+  },
+  {
+   "id": "xs6-gold-cup-horses-1960-1999",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a horse that won the Cheltenham Gold Cup between 1960 and 1999",
+   "answers": [
+    "Pas Seul",
+    "Saffron Tartan",
+    "Mandarin",
+    "Mill House",
+    "Arkle",
+    "Woodland Venture",
+    "Fort Leney",
+    "What A Myth",
+    "L'Escargot",
+    "Glencaraig Lady",
+    "The Dikler",
+    "Captain Christy",
+    "Ten Up",
+    "Royal Frolic",
+    "Davy Lad",
+    "Midnight Court",
+    "Alverton",
+    "Master Smudge",
+    "Little Owl",
+    "Silver Buck",
+    "Bregawn",
+    "Burrough Hill Lad",
+    "Forgive 'n Forget",
+    "Dawn Run",
+    "The Thinker",
+    "Charter Party",
+    "Desert Orchid",
+    "Norton's Coin",
+    "Garrison Savannah",
+    "Cool Ground",
+    "Jodami",
+    "The Fellow",
+    "Master Oats",
+    "Imperial Call",
+    "Mr Mulligan",
+    "Cool Dawn",
+    "See More Business"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs6-us-triple-crown-horses",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a racehorse that has won the American Triple Crown (Kentucky Derby, Preakness and Belmont Stakes)",
+   "answers": [
+    "Sir Barton",
+    "Gallant Fox",
+    "Omaha",
+    "War Admiral",
+    "Whirlaway",
+    "Count Fleet",
+    "Assault",
+    "Citation",
+    [
+     "Secretariat",
+     "Big Red"
+    ],
+    [
+     "Seattle Slew",
+     "Slew"
+    ],
+    "Affirmed",
+    [
+     "American Pharoah",
+     "American Pharaoh"
+    ],
+    "Justify"
+   ]
+  },
+  {
+   "id": "xs6-english-triple-crown-horses",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a racehorse that has won the English Triple Crown (2000 Guineas, Derby and St Leger)",
+   "answers": [
+    "West Australian",
+    "Gladiateur",
+    "Lord Lyon",
+    "Ormonde",
+    "Common",
+    "Isinglass",
+    "Galtee More",
+    "Flying Fox",
+    "Diamond Jubilee",
+    "Rock Sand",
+    "Pommern",
+    "Gay Crusader",
+    "Gainsborough",
+    "Bahram",
+    [
+     "Nijinsky",
+     "Nijinsky II"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs6-gymnastics-apparatus",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name an apparatus or event in gymnastics",
+   "answers": [
+    [
+     "Floor",
+     "floor exercise"
+    ],
+    "Vault",
+    "Pommel horse",
+    [
+     "Rings",
+     "still rings"
+    ],
+    "Parallel bars",
+    [
+     "High bar",
+     "horizontal bar"
+    ],
+    [
+     "Uneven bars",
+     "asymmetric bars",
+     "asymmetrical bars"
+    ],
+    [
+     "Balance beam",
+     "beam"
+    ],
+    "Trampoline",
+    [
+     "Rhythmic hoop",
+     "hoop"
+    ],
+    [
+     "Rhythmic ball",
+     "ball"
+    ],
+    [
+     "Rhythmic clubs",
+     "clubs"
+    ],
+    [
+     "Rhythmic ribbon",
+     "ribbon"
+    ],
+    "Rope",
+    "Tumbling",
+    [
+     "Individual all-around",
+     "all-around"
+    ],
+    [
+     "Team all-around",
+     "team event"
+    ],
+    [
+     "Acrobatic gymnastics",
+     "acro"
+    ],
+    "Aerobic gymnastics"
+   ]
+  },
+  {
+   "id": "xs6-racket-sports",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a racket or racquet sport",
+   "answers": [
+    [
+     "Tennis",
+     "lawn tennis"
+    ],
+    "Badminton",
+    "Squash",
+    [
+     "Table tennis",
+     "ping pong"
+    ],
+    [
+     "Padel",
+     "padel tennis"
+    ],
+    "Pickleball",
+    "Racquetball",
+    [
+     "Real tennis",
+     "royal tennis",
+     "court tennis"
+    ],
+    "Rackets",
+    "Beach tennis",
+    [
+     "Platform tennis",
+     "paddle tennis"
+    ],
+    "Soft tennis",
+    [
+     "Speedminton",
+     "crossminton"
+    ],
+    [
+     "Eton fives",
+     "fives"
+    ],
+    [
+     "Short tennis",
+     "mini tennis"
+    ],
+    "Racketlon",
+    [
+     "Jai alai",
+     "pelota"
+    ],
+    "Frontenis"
+   ]
+  },
+  {
+   "id": "xs6-cycling-races",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a professional road cycling race",
+   "answers": [
+    "Tour de France",
+    [
+     "Giro d'Italia",
+     "Giro"
+    ],
+    [
+     "Vuelta a Espana",
+     "Vuelta",
+     "Tour of Spain"
+    ],
+    "Milan-San Remo",
+    [
+     "Tour of Flanders",
+     "Ronde van Vlaanderen"
+    ],
+    "Paris-Roubaix",
+    "Liege-Bastogne-Liege",
+    [
+     "Il Lombardia",
+     "Tour of Lombardy"
+    ],
+    "Strade Bianche",
+    "Paris-Nice",
+    "Tirreno-Adriatico",
+    [
+     "Criterium du Dauphine",
+     "Dauphine"
+    ],
+    "Tour de Suisse",
+    "Tour of Britain",
+    [
+     "Amstel Gold Race",
+     "Amstel Gold"
+    ],
+    [
+     "La Fleche Wallonne",
+     "Fleche Wallonne"
+    ],
+    "Gent-Wevelgem",
+    [
+     "Omloop Het Nieuwsblad",
+     "Omloop"
+    ],
+    "Tour Down Under",
+    "UAE Tour",
+    "Tour de Romandie",
+    "Tour of California",
+    [
+     "Volta a Catalunya",
+     "Tour of Catalonia"
+    ],
+    [
+     "E3 Saxo Classic",
+     "E3 Harelbeke",
+     "E3"
+    ],
+    "Dwars door Vlaanderen",
+    "Tour de Pologne",
+    "Eschborn-Frankfurt",
+    "Tour of Oman",
+    "Tour de Yorkshire"
+   ]
+  },
+  {
+   "id": "xs6-sailing-events",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a famous sailing race or yachting event",
+   "answers": [
+    "America's Cup",
+    [
+     "Fastnet",
+     "Fastnet Race"
+    ],
+    "Vendee Globe",
+    [
+     "The Ocean Race",
+     "Volvo Ocean Race",
+     "Whitbread Round the World Race",
+     "Whitbread"
+    ],
+    "Cowes Week",
+    [
+     "Sydney to Hobart",
+     "Sydney Hobart"
+    ],
+    "Admiral's Cup",
+    "Golden Globe Race",
+    "Route du Rhum",
+    "Transat Jacques Vabre",
+    [
+     "Clipper Round the World Yacht Race",
+     "Clipper Race"
+    ],
+    "SailGP",
+    "Round the Island Race",
+    "Jules Verne Trophy",
+    [
+     "ARC",
+     "Atlantic Rally for Cruisers"
+    ],
+    "Louis Vuitton Cup",
+    [
+     "Transpac",
+     "Transpacific Yacht Race"
+    ],
+    [
+     "Bermuda Race",
+     "Newport Bermuda Race"
+    ],
+    "Barcelona World Race",
+    "Mini Transat",
+    [
+     "Solitaire du Figaro",
+     "La Solitaire du Figaro"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-irish-racecourses",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a horse racing racecourse in Ireland (Republic of Ireland or Northern Ireland)",
+   "answers": [
+    [
+     "Curragh",
+     "The Curragh"
+    ],
+    "Leopardstown",
+    "Punchestown",
+    "Fairyhouse",
+    [
+     "Galway",
+     "Galway Racecourse",
+     "Ballybrit"
+    ],
+    [
+     "Cork",
+     "Cork Racecourse",
+     "Mallow"
+    ],
+    "Naas",
+    "Navan",
+    "Listowel",
+    "Killarney",
+    "Tipperary",
+    "Limerick",
+    "Gowran Park",
+    "Down Royal",
+    "Downpatrick",
+    "Roscommon",
+    "Sligo",
+    "Tramore",
+    "Wexford",
+    "Thurles",
+    "Dundalk",
+    "Laytown",
+    "Ballinrobe",
+    "Bellewstown",
+    "Clonmel",
+    "Kilbeggan",
+    "Tralee"
+   ]
+  },
+  {
+   "id": "xs6-gb-gold-sydney-2000",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a Team GB gold medallist at the Sydney 2000 Olympics",
+   "answers": [
+    [
+     "Jason Queally",
+     "Queally"
+    ],
+    [
+     "Richard Faulds",
+     "Faulds"
+    ],
+    [
+     "James Cracknell",
+     "Cracknell"
+    ],
+    [
+     "Tim Foster",
+     "Foster"
+    ],
+    [
+     "Matthew Pinsent",
+     "Pinsent"
+    ],
+    [
+     "Steve Redgrave",
+     "Redgrave"
+    ],
+    [
+     "Denise Lewis",
+     "Lewis"
+    ],
+    [
+     "Louis Attrill",
+     "Attrill"
+    ],
+    [
+     "Simon Dennis",
+     "Dennis"
+    ],
+    [
+     "Rowley Douglas",
+     "Douglas"
+    ],
+    [
+     "Ben Hunt-Davis",
+     "Hunt-Davis"
+    ],
+    [
+     "Luka Grubor",
+     "Grubor"
+    ],
+    [
+     "Andrew Lindsay",
+     "Lindsay"
+    ],
+    [
+     "Fred Scarlett",
+     "Scarlett"
+    ],
+    [
+     "Steve Trapmore",
+     "Trapmore"
+    ],
+    [
+     "Kieran West",
+     "West"
+    ],
+    [
+     "Jonathan Edwards",
+     "Edwards"
+    ],
+    [
+     "Shirley Robertson",
+     "Robertson"
+    ],
+    [
+     "Ben Ainslie",
+     "Ainslie"
+    ],
+    [
+     "Iain Percy",
+     "Percy"
+    ],
+    [
+     "Audley Harrison",
+     "Harrison"
+    ],
+    [
+     "Steph Cook",
+     "Cook"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-gb-gold-athens-2004",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a Team GB gold medallist at the Athens 2004 Olympics",
+   "answers": [
+    [
+     "Leslie Law",
+     "Law"
+    ],
+    [
+     "Chris Hoy",
+     "Hoy"
+    ],
+    [
+     "Bradley Wiggins",
+     "Wiggins"
+    ],
+    [
+     "Ed Coode",
+     "Coode"
+    ],
+    [
+     "James Cracknell",
+     "Cracknell"
+    ],
+    [
+     "Matthew Pinsent",
+     "Pinsent"
+    ],
+    [
+     "Steve Williams",
+     "Williams"
+    ],
+    [
+     "Ben Ainslie",
+     "Ainslie"
+    ],
+    [
+     "Sarah Ayton",
+     "Ayton"
+    ],
+    [
+     "Shirley Robertson",
+     "Robertson"
+    ],
+    [
+     "Sarah Webb",
+     "Webb"
+    ],
+    [
+     "Kelly Holmes",
+     "Holmes"
+    ],
+    [
+     "Darren Campbell",
+     "Campbell"
+    ],
+    [
+     "Marlon Devonish",
+     "Devonish"
+    ],
+    [
+     "Jason Gardener",
+     "Gardener"
+    ],
+    [
+     "Mark Lewis-Francis",
+     "Lewis-Francis"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-gb-gold-1980-1996",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a Team GB gold medallist at a Summer Olympics between 1980 and 1996 (Moscow to Atlanta)",
+   "answers": [
+    [
+     "Allan Wells",
+     "Wells"
+    ],
+    [
+     "Steve Ovett",
+     "Ovett"
+    ],
+    [
+     "Duncan Goodhew",
+     "Goodhew"
+    ],
+    [
+     "Malcolm Cooper",
+     "Cooper"
+    ],
+    [
+     "Richard Budgett",
+     "Budgett"
+    ],
+    [
+     "Martin Cross",
+     "Cross"
+    ],
+    [
+     "Adrian Ellison",
+     "Ellison"
+    ],
+    [
+     "Andy Holmes",
+     "Holmes"
+    ],
+    [
+     "Steve Redgrave",
+     "Steven Redgrave",
+     "Sir Steve Redgrave",
+     "Redgrave"
+    ],
+    [
+     "Tessa Sanderson",
+     "Sanderson"
+    ],
+    [
+     "Daley Thompson",
+     "Thompson"
+    ],
+    [
+     "Sebastian Coe",
+     "Seb Coe",
+     "Lord Coe",
+     "Coe"
+    ],
+    [
+     "Adrian Moorhouse",
+     "Moorhouse"
+    ],
+    [
+     "Mike McIntyre",
+     "McIntyre"
+    ],
+    [
+     "Bryn Vaile",
+     "Vaile"
+    ],
+    [
+     "Ian Taylor",
+     "Taylor"
+    ],
+    [
+     "Veryan Pappin",
+     "Pappin"
+    ],
+    [
+     "David Faulkner",
+     "Faulkner"
+    ],
+    [
+     "Paul Barber",
+     "Barber"
+    ],
+    [
+     "Sam Martin",
+     "Martin"
+    ],
+    [
+     "Jon Potter",
+     "Potter"
+    ],
+    [
+     "Richard Dodds",
+     "Dodds"
+    ],
+    [
+     "Martyn Grimley",
+     "Grimley"
+    ],
+    [
+     "Steve Batchelor",
+     "Batchelor"
+    ],
+    [
+     "Richard Leman",
+     "Leman"
+    ],
+    [
+     "Jimmy Kirkwood",
+     "Kirkwood"
+    ],
+    [
+     "Kulbir Bhaura",
+     "Bhaura"
+    ],
+    [
+     "Sean Kerly",
+     "Kerly"
+    ],
+    [
+     "Robert Clift",
+     "Clift"
+    ],
+    [
+     "Imran Sherwani",
+     "Sherwani"
+    ],
+    [
+     "Russell Garcia",
+     "Garcia"
+    ],
+    [
+     "Linford Christie",
+     "Christie"
+    ],
+    [
+     "Sally Gunnell",
+     "Gunnell"
+    ],
+    [
+     "Chris Boardman",
+     "Boardman"
+    ],
+    [
+     "Matthew Pinsent",
+     "Pinsent"
+    ],
+    [
+     "Garry Herbert",
+     "Herbert"
+    ],
+    "Greg Searle",
+    "Jonny Searle"
+   ]
+  },
+  {
+   "id": "xs6-london-2012-venues",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a venue used for the London 2012 Olympic Games (including football grounds outside London)",
+   "answers": [
+    [
+     "Olympic Stadium",
+     "London Stadium"
+    ],
+    [
+     "Aquatics Centre",
+     "London Aquatics Centre"
+    ],
+    [
+     "Velodrome",
+     "Lee Valley VeloPark"
+    ],
+    [
+     "Copper Box",
+     "Copper Box Arena",
+     "Handball Arena"
+    ],
+    "Basketball Arena",
+    "BMX Track",
+    "Riverbank Arena",
+    "Water Polo Arena",
+    [
+     "ExCeL",
+     "ExCeL London"
+    ],
+    [
+     "North Greenwich Arena",
+     "O2 Arena",
+     "The O2",
+     "O2"
+    ],
+    [
+     "Earls Court",
+     "Earls Court Exhibition Centre"
+    ],
+    "Horse Guards Parade",
+    "Hyde Park",
+    "Greenwich Park",
+    "Wembley Arena",
+    [
+     "Wembley Stadium",
+     "Wembley"
+    ],
+    [
+     "Lord's",
+     "Lords Cricket Ground"
+    ],
+    "Royal Artillery Barracks",
+    [
+     "Wimbledon",
+     "All England Lawn Tennis and Croquet Club",
+     "All England Club"
+    ],
+    "The Mall",
+    [
+     "Dorney Lake",
+     "Eton Dorney"
+    ],
+    "Hadleigh Farm",
+    [
+     "Lee Valley White Water Centre",
+     "White Water Centre"
+    ],
+    [
+     "Weymouth and Portland",
+     "Weymouth and Portland National Sailing Academy",
+     "Weymouth"
+    ],
+    [
+     "Millennium Stadium",
+     "Principality Stadium"
+    ],
+    "Hampden Park",
+    "Old Trafford",
+    "St James' Park",
+    [
+     "City of Coventry Stadium",
+     "Ricoh Arena",
+     "Coventry Stadium"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-olympic-football-champions",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a country that has won the men's Olympic football tournament (1900 to 2024)",
+   "answers": [
+    "Hungary",
+    [
+     "Great Britain",
+     "GB",
+     "England",
+     "United Kingdom"
+    ],
+    "Brazil",
+    "Spain",
+    "Argentina",
+    [
+     "Soviet Union",
+     "USSR",
+     "Russia"
+    ],
+    "Uruguay",
+    "Yugoslavia",
+    "Poland",
+    "France",
+    [
+     "East Germany",
+     "GDR"
+    ],
+    "Nigeria",
+    "Czechoslovakia",
+    "Italy",
+    "Sweden",
+    "Belgium",
+    "Mexico",
+    "Canada",
+    "Cameroon"
+   ]
+  },
+  {
+   "id": "xs6-martial-arts",
+   "tags": [
+    "combat"
+   ],
+   "text": "Name a martial art or combat sport",
+   "answers": [
+    "Boxing",
+    "Karate",
+    "Judo",
+    "Taekwondo",
+    "Kung fu",
+    [
+     "Brazilian jiu-jitsu",
+     "BJJ",
+     "jiu-jitsu",
+     "ju-jitsu"
+    ],
+    [
+     "Muay Thai",
+     "Thai boxing"
+    ],
+    "Kickboxing",
+    "Wrestling",
+    "Aikido",
+    "Kendo",
+    "Capoeira",
+    "Krav Maga",
+    [
+     "Sumo",
+     "sumo wrestling"
+    ],
+    [
+     "MMA",
+     "mixed martial arts"
+    ],
+    "Savate",
+    "Hapkido",
+    "Sambo",
+    [
+     "Tai chi",
+     "tai chi chuan"
+    ],
+    "Wing Chun",
+    "Ninjutsu",
+    "Fencing",
+    "Jeet Kune Do",
+    "Kyokushin",
+    "Taekkyon",
+    "Krabi krabong",
+    [
+     "Silat",
+     "pencak silat"
+    ],
+    [
+     "Kali",
+     "Eskrima",
+     "Arnis"
+    ],
+    "Glima",
+    "Greco-Roman wrestling",
+    "Freestyle wrestling",
+    "Shootfighting",
+    "Lethwei",
+    "Bartitsu",
+    "Systema",
+    "Iaido",
+    "Kenjutsu",
+    "Kyudo",
+    "Shaolin kung fu",
+    "Shotokan"
+   ]
+  },
+  {
+   "id": "xs6-boxing-weight-classes",
+   "tags": [
+    "combat"
+   ],
+   "text": "Name a weight division in professional boxing",
+   "answers": [
+    "Heavyweight",
+    [
+     "Cruiserweight",
+     "junior heavyweight"
+    ],
+    "Light-heavyweight",
+    "Super-middleweight",
+    "Middleweight",
+    [
+     "Light-middleweight",
+     "super-welterweight",
+     "junior middleweight"
+    ],
+    "Welterweight",
+    [
+     "Light-welterweight",
+     "super-lightweight",
+     "junior welterweight"
+    ],
+    "Lightweight",
+    [
+     "Super-featherweight",
+     "junior lightweight"
+    ],
+    "Featherweight",
+    [
+     "Super-bantamweight",
+     "junior featherweight"
+    ],
+    "Bantamweight",
+    [
+     "Super-flyweight",
+     "junior bantamweight"
+    ],
+    "Flyweight",
+    [
+     "Light-flyweight",
+     "junior flyweight"
+    ],
+    [
+     "Minimumweight",
+     "strawweight",
+     "mini-flyweight"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-f1-australian-gp-winners",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won the Australian Grand Prix as a Formula 1 race (1985 to 2026)",
+   "answers": [
+    [
+     "George Russell",
+     "Russell"
+    ],
+    [
+     "Lando Norris",
+     "Lando",
+     "Norris"
+    ],
+    [
+     "Carlos Sainz Jr.",
+     "Carlos Sainz",
+     "Sainz"
+    ],
+    [
+     "Max Verstappen",
+     "Max",
+     "Verstappen"
+    ],
+    [
+     "Charles Leclerc",
+     "Leclerc"
+    ],
+    [
+     "Valtteri Bottas",
+     "Bottas"
+    ],
+    [
+     "Sebastian Vettel",
+     "Seb",
+     "Vettel"
+    ],
+    [
+     "Nico Rosberg",
+     "Nico"
+    ],
+    [
+     "Lewis Hamilton",
+     "Lewis",
+     "Sir Lewis Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Kimi Räikkönen",
+     "Kimi",
+     "Raikkonen",
+     "Iceman"
+    ],
+    [
+     "Jenson Button",
+     "Button"
+    ],
+    [
+     "Fernando Alonso",
+     "Alonso",
+     "Nando"
+    ],
+    [
+     "Giancarlo Fisichella",
+     "Fisichella"
+    ],
+    [
+     "Michael Schumacher",
+     "Schumi",
+     "Michael",
+     "Schumacher"
+    ],
+    [
+     "David Coulthard",
+     "DC",
+     "Coulthard"
+    ],
+    [
+     "Eddie Irvine",
+     "Irvine"
+    ],
+    [
+     "Mika Häkkinen",
+     "Hakkinen",
+     "Mika"
+    ],
+    [
+     "Damon Hill",
+     "Hill"
+    ],
+    [
+     "Nigel Mansell",
+     "Mansell",
+     "Sir Nigel Mansell"
+    ],
+    [
+     "Ayrton Senna",
+     "Senna"
+    ],
+    [
+     "Gerhard Berger",
+     "Berger"
+    ],
+    [
+     "Nelson Piquet",
+     "Piquet"
+    ],
+    [
+     "Thierry Boutsen",
+     "Boutsen"
+    ],
+    [
+     "Alain Prost",
+     "The Professor",
+     "Prost"
+    ],
+    "Keke Rosberg"
+   ]
+  },
+  {
+   "id": "xs6-f1-spanish-gp-winners",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won the Spanish Grand Prix as a Formula 1 race (1951 to 2026)",
+   "answers": [
+    [
+     "Kimi Antonelli",
+     "Andrea Kimi Antonelli",
+     "Antonelli"
+    ],
+    [
+     "Oscar Piastri",
+     "Piastri"
+    ],
+    [
+     "Max Verstappen",
+     "Max",
+     "Verstappen"
+    ],
+    [
+     "Lewis Hamilton",
+     "Lewis",
+     "Sir Lewis Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Nico Rosberg",
+     "Nico",
+     "Rosberg"
+    ],
+    [
+     "Fernando Alonso",
+     "Alonso",
+     "Nando"
+    ],
+    [
+     "Pastor Maldonado",
+     "Maldonado"
+    ],
+    [
+     "Sebastian Vettel",
+     "Seb",
+     "Vettel"
+    ],
+    [
+     "Mark Webber",
+     "Webber"
+    ],
+    [
+     "Jenson Button",
+     "Button"
+    ],
+    [
+     "Kimi Räikkönen",
+     "Kimi",
+     "Raikkonen",
+     "Iceman"
+    ],
+    [
+     "Felipe Massa",
+     "Massa"
+    ],
+    [
+     "Michael Schumacher",
+     "Schumi",
+     "Michael",
+     "Schumacher"
+    ],
+    [
+     "Mika Häkkinen",
+     "Hakkinen",
+     "Mika"
+    ],
+    "Jacques Villeneuve",
+    "Damon Hill",
+    [
+     "Alain Prost",
+     "The Professor",
+     "Prost"
+    ],
+    [
+     "Nigel Mansell",
+     "Mansell",
+     "Sir Nigel Mansell"
+    ],
+    [
+     "Ayrton Senna",
+     "Senna"
+    ],
+    "Gilles Villeneuve",
+    [
+     "Alan Jones",
+     "Jones"
+    ],
+    [
+     "Patrick Depailler",
+     "Depailler"
+    ],
+    [
+     "Mario Andretti",
+     "Andretti"
+    ],
+    [
+     "James Hunt",
+     "Hunt"
+    ],
+    [
+     "Jochen Mass",
+     "Mass"
+    ],
+    [
+     "Niki Lauda",
+     "Lauda"
+    ],
+    [
+     "Emerson Fittipaldi",
+     "Fittipaldi"
+    ],
+    [
+     "Jackie Stewart",
+     "Sir Jackie Stewart",
+     "Stewart"
+    ],
+    "Graham Hill",
+    [
+     "Mike Hawthorn",
+     "Hawthorn"
+    ],
+    [
+     "Juan Manuel Fangio",
+     "Fangio",
+     "Juan Fangio"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-f1-brazilian-gp-winners",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won the Brazilian Grand Prix (including its São Paulo Grand Prix name) as a Formula 1 race (1973 to 2026)",
+   "answers": [
+    [
+     "Lando Norris",
+     "Lando",
+     "Norris"
+    ],
+    [
+     "Max Verstappen",
+     "Max",
+     "Verstappen"
+    ],
+    [
+     "George Russell",
+     "Russell"
+    ],
+    [
+     "Lewis Hamilton",
+     "Lewis",
+     "Sir Lewis Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Sebastian Vettel",
+     "Seb",
+     "Vettel"
+    ],
+    [
+     "Nico Rosberg",
+     "Nico",
+     "Rosberg"
+    ],
+    [
+     "Jenson Button",
+     "Button"
+    ],
+    [
+     "Mark Webber",
+     "Webber"
+    ],
+    [
+     "Felipe Massa",
+     "Massa"
+    ],
+    [
+     "Kimi Räikkönen",
+     "Kimi",
+     "Raikkonen",
+     "Iceman"
+    ],
+    [
+     "Juan Pablo Montoya",
+     "Montoya"
+    ],
+    [
+     "Giancarlo Fisichella",
+     "Fisichella"
+    ],
+    [
+     "Michael Schumacher",
+     "Schumi",
+     "Michael",
+     "Schumacher"
+    ],
+    [
+     "David Coulthard",
+     "DC",
+     "Coulthard"
+    ],
+    [
+     "Mika Häkkinen",
+     "Hakkinen",
+     "Mika"
+    ],
+    [
+     "Jacques Villeneuve",
+     "Villeneuve"
+    ],
+    [
+     "Damon Hill",
+     "Hill"
+    ],
+    [
+     "Ayrton Senna",
+     "Senna"
+    ],
+    [
+     "Nigel Mansell",
+     "Mansell",
+     "Sir Nigel Mansell"
+    ],
+    [
+     "Alain Prost",
+     "The Professor",
+     "Prost"
+    ],
+    [
+     "Nelson Piquet",
+     "Piquet"
+    ],
+    [
+     "Carlos Reutemann",
+     "Reutemann"
+    ],
+    [
+     "René Arnoux",
+     "Arnoux"
+    ],
+    [
+     "Jacques Laffite",
+     "Laffite"
+    ],
+    [
+     "Niki Lauda",
+     "Lauda"
+    ],
+    [
+     "Carlos Pace",
+     "Pace"
+    ],
+    [
+     "Emerson Fittipaldi",
+     "Fittipaldi"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-f1-japanese-gp-winners",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won the Japanese Grand Prix as a Formula 1 race (1976 to 2026)",
+   "answers": [
+    [
+     "Kimi Antonelli",
+     "Andrea Kimi Antonelli",
+     "Antonelli"
+    ],
+    [
+     "Max Verstappen",
+     "Max",
+     "Verstappen"
+    ],
+    [
+     "Valtteri Bottas",
+     "Bottas"
+    ],
+    [
+     "Lewis Hamilton",
+     "Lewis",
+     "Sir Lewis Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Nico Rosberg",
+     "Nico",
+     "Rosberg"
+    ],
+    [
+     "Sebastian Vettel",
+     "Seb",
+     "Vettel"
+    ],
+    [
+     "Jenson Button",
+     "Button"
+    ],
+    [
+     "Fernando Alonso",
+     "Alonso",
+     "Nando"
+    ],
+    [
+     "Kimi Räikkönen",
+     "Kimi",
+     "Raikkonen",
+     "Iceman"
+    ],
+    [
+     "Michael Schumacher",
+     "Schumi",
+     "Michael",
+     "Schumacher"
+    ],
+    [
+     "Rubens Barrichello",
+     "Barrichello"
+    ],
+    [
+     "Mika Häkkinen",
+     "Hakkinen",
+     "Mika"
+    ],
+    [
+     "Damon Hill",
+     "Hill"
+    ],
+    [
+     "Ayrton Senna",
+     "Senna"
+    ],
+    [
+     "Riccardo Patrese",
+     "Patrese"
+    ],
+    [
+     "Gerhard Berger",
+     "Berger"
+    ],
+    [
+     "Nelson Piquet",
+     "Piquet"
+    ],
+    [
+     "Alessandro Nannini",
+     "Nannini"
+    ],
+    [
+     "James Hunt",
+     "Hunt"
+    ],
+    [
+     "Mario Andretti",
+     "Andretti"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-f1-french-gp-winners",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won the French Grand Prix as a Formula 1 race (1950 to 2022)",
+   "answers": [
+    [
+     "Max Verstappen",
+     "Max",
+     "Verstappen"
+    ],
+    [
+     "Lewis Hamilton",
+     "Lewis",
+     "Sir Lewis Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Felipe Massa",
+     "Massa"
+    ],
+    [
+     "Kimi Räikkönen",
+     "Kimi",
+     "Raikkonen",
+     "Iceman"
+    ],
+    [
+     "Michael Schumacher",
+     "Schumi",
+     "Michael",
+     "Schumacher"
+    ],
+    [
+     "Fernando Alonso",
+     "Alonso",
+     "Nando"
+    ],
+    "Ralf Schumacher",
+    [
+     "David Coulthard",
+     "DC",
+     "Coulthard"
+    ],
+    [
+     "Heinz-Harald Frentzen",
+     "Frentzen"
+    ],
+    [
+     "Damon Hill",
+     "Hill"
+    ],
+    [
+     "Alain Prost",
+     "The Professor",
+     "Prost"
+    ],
+    [
+     "Nigel Mansell",
+     "Mansell",
+     "Sir Nigel Mansell"
+    ],
+    [
+     "Nelson Piquet",
+     "Piquet"
+    ],
+    [
+     "Niki Lauda",
+     "Lauda"
+    ],
+    [
+     "René Arnoux",
+     "Arnoux"
+    ],
+    [
+     "Alan Jones",
+     "Jones"
+    ],
+    [
+     "Jean-Pierre Jabouille",
+     "Jabouille"
+    ],
+    [
+     "Mario Andretti",
+     "Andretti"
+    ],
+    [
+     "James Hunt",
+     "Hunt"
+    ],
+    [
+     "Ronnie Peterson",
+     "Peterson"
+    ],
+    [
+     "Jackie Stewart",
+     "Sir Jackie Stewart",
+     "Stewart"
+    ],
+    [
+     "Jochen Rindt",
+     "Rindt"
+    ],
+    [
+     "Jacky Ickx",
+     "Ickx"
+    ],
+    [
+     "Jack Brabham",
+     "Sir Jack Brabham",
+     "Brabham"
+    ],
+    [
+     "Jim Clark",
+     "Clark"
+    ],
+    [
+     "Dan Gurney",
+     "Gurney"
+    ],
+    [
+     "Giancarlo Baghetti",
+     "Baghetti"
+    ],
+    [
+     "Tony Brooks",
+     "Brooks"
+    ],
+    [
+     "Mike Hawthorn",
+     "Hawthorn"
+    ],
+    [
+     "Juan Manuel Fangio",
+     "Fangio",
+     "Juan Fangio"
+    ],
+    [
+     "Peter Collins",
+     "Collins"
+    ],
+    [
+     "Alberto Ascari",
+     "Ascari"
+    ],
+    [
+     "Luigi Fagioli",
+     "Fagioli"
+    ]
+   ]
+  },
+  {
+   "id": "xs6-f1-austrian-gp-winners",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won the Austrian Grand Prix as a Formula 1 race (1964 to 2026)",
+   "answers": [
+    [
+     "George Russell",
+     "Russell"
+    ],
+    [
+     "Lando Norris",
+     "Lando",
+     "Norris"
+    ],
+    [
+     "Max Verstappen",
+     "Max",
+     "Verstappen"
+    ],
+    [
+     "Charles Leclerc",
+     "Leclerc"
+    ],
+    [
+     "Valtteri Bottas",
+     "Bottas"
+    ],
+    [
+     "Lewis Hamilton",
+     "Lewis",
+     "Sir Lewis Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Nico Rosberg",
+     "Nico",
+     "Rosberg"
+    ],
+    [
+     "Michael Schumacher",
+     "Schumi",
+     "Michael",
+     "Schumacher"
+    ],
+    [
+     "David Coulthard",
+     "DC",
+     "Coulthard"
+    ],
+    [
+     "Mika Häkkinen",
+     "Hakkinen",
+     "Mika"
+    ],
+    [
+     "Eddie Irvine",
+     "Irvine"
+    ],
+    [
+     "Jacques Villeneuve",
+     "Villeneuve"
+    ],
+    [
+     "Nigel Mansell",
+     "Mansell",
+     "Sir Nigel Mansell"
+    ],
+    [
+     "Alain Prost",
+     "The Professor",
+     "Prost"
+    ],
+    [
+     "Niki Lauda",
+     "Lauda"
+    ],
+    [
+     "Elio de Angelis",
+     "Angelis"
+    ],
+    [
+     "Jacques Laffite",
+     "Laffite"
+    ],
+    [
+     "Jean-Pierre Jabouille",
+     "Jabouille"
+    ],
+    [
+     "Alan Jones",
+     "Jones"
+    ],
+    [
+     "Ronnie Peterson",
+     "Peterson"
+    ],
+    [
+     "John Watson",
+     "Watson"
+    ],
+    [
+     "Vittorio Brambilla",
+     "Brambilla"
+    ],
+    [
+     "Carlos Reutemann",
+     "Reutemann"
+    ],
+    [
+     "Emerson Fittipaldi",
+     "Fittipaldi"
+    ],
+    [
+     "Jo Siffert",
+     "Siffert"
+    ],
+    [
+     "Jacky Ickx",
+     "Ickx"
+    ],
+    [
+     "Lorenzo Bandini",
+     "Bandini"
+    ]
+   ]
+  }
+ ]
+}
