@@ -62,12 +62,13 @@ function runTimer(ms, total, onEnd) {
   tick();
 }
 
-async function shareText(text) {
+async function shareText(text, url) {
+  const all = url ? `${text}\n${url}` : text;
   try {
-    if (navigator.share) { await navigator.share({ text }); return; }
-    if (navigator.clipboard) { await navigator.clipboard.writeText(text); toast('Copied'); return; }
+    if (navigator.share) { await navigator.share(url ? { text, url } : { text }); return; }
+    if (navigator.clipboard) { await navigator.clipboard.writeText(all); toast('Copied'); return; }
   } catch (e) { if (e.name === 'AbortError') return; }
-  const ta = Object.assign(document.createElement('textarea'), { value: text });
+  const ta = Object.assign(document.createElement('textarea'), { value: all });
   document.body.append(ta); ta.select();
   toast(document.execCommand('copy') ? 'Copied' : text);
   ta.remove();
@@ -383,7 +384,11 @@ function soloMenu() {
   $('#seedGo').onclick = () => {
     const raw = $('#seedIn').value.trim();
     let seed = raw, from = '', pts = '';
-    try { const u = new URL(raw); seed = u.searchParams.get('play') || ''; from = u.searchParams.get('from') || ''; pts = u.searchParams.get('pts') || ''; } catch { /* a bare seed */ }
+    try {
+      const u = new URL(raw), c = u.pathname.startsWith('/c/') && readChallenge(u.pathname);
+      if (c) ({ seed, from, pts } = c);
+      else { seed = u.searchParams.get('play') || ''; from = u.searchParams.get('from') || ''; pts = u.searchParams.get('pts') || ''; }
+    } catch { /* a bare seed */ }
     if (!seed) return toast('Paste a seed or challenge link');
     from ? challengeIntro(seed, from, pts) : startGame({ seed });
   };
@@ -512,12 +517,18 @@ function gameQuestion(run) {
   $('#quit').onclick = soloMenu;
 }
 
+// A challenge link: /c/<name>/<seed><one rarity-tier digit per prompt>, e.g. /c/Ryan/QRdC4e8K...Lu1235402
 function challengeLink(run, name) {
-  const u = new URL(location.origin + location.pathname);
-  u.searchParams.set('play', run.game.seed);
-  u.searchParams.set('from', name);
-  u.searchParams.set('pts', run.results.map(r => r.points).join('.'));
-  return u.toString();
+  const who = encodeURIComponent(name.replace(/\s+/g, '_'));
+  return `${location.origin}/c/${who}/${run.game.seed}${run.results.map(r => tier(r.points)).join('')}`;
+}
+
+function readChallenge(path) {
+  const [, , who = '', token = ''] = path.split('/');
+  const k = Math.floor(token.length / 5);
+  if (!k) return null;
+  const pts = [...token.slice(4 * k)].map(d => [0, 10, 25, 50, 75, 100][+d] || 0).join('.');
+  return { seed: token.slice(0, 4 * k), from: decodeURIComponent(who).replace(/_/g, ' '), pts };
 }
 
 function gameSummary(run) {
@@ -548,7 +559,7 @@ function gameSummary(run) {
   $('#share').onclick = () => {
     const name = $('#who').value.trim().slice(0, 16) || 'A friend';
     store.set('outlier.name', name);
-    shareText(`I scored ${total}/${max} on Outlier ${squares}\nCan you beat me on the same 7 prompts?\n${challengeLink(run, name)}`);
+    shareText(`I scored ${total} on Outlier ${squares}\nCan you beat me?`, challengeLink(run, name));
   };
 }
 
@@ -793,6 +804,11 @@ function partyFinal(s, host) {
   if (under) pick = { cat: under.parent, tags: [under.id, ...pick.tags] };
   const params = new URLSearchParams(location.search);
   const invite = params.get('room');
+  const challenge = location.pathname.startsWith('/c/') && readChallenge(location.pathname);
+  if (challenge) {
+    history.replaceState(null, '', '/');
+    return challengeIntro(challenge.seed, challenge.from, challenge.pts);
+  }
   if (params.get('play')) {
     history.replaceState(null, '', location.pathname);
     return challengeIntro(params.get('play'), params.get('from') || '', params.get('pts') || '');

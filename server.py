@@ -813,6 +813,8 @@ class Handler(BaseHTTPRequestHandler):
         if url.path.startswith("/api/"):
             q = {k: v[0] for k, v in parse_qs(url.query).items()}
             return self.run_api(api_get, url.path, q)
+        if url.path.startswith("/c/"):   # a challenge link: the app, with a preview card for messaging apps
+            return self.send_body(200, "text/html; charset=utf-8", challenge_page(url.path))
         rel = "index.html" if url.path == "/" else url.path.lstrip("/")
         full = os.path.normpath(os.path.join(PUBLIC, rel))
         if not full.startswith(PUBLIC + os.sep) or not os.path.isfile(full):
@@ -836,6 +838,25 @@ class Handler(BaseHTTPRequestHandler):
 
 
 # ---------------------------------------------------------------- entry
+
+def challenge_page(path):
+    """index.html with Open Graph tags, so a texted challenge link shows "Ryan scored 310 on Outlier"."""
+    import html
+    from urllib.parse import unquote
+    parts = path.split("/")
+    name = unquote(parts[2]).replace("_", " ")[:16] if len(parts) > 2 else ""
+    token = parts[3] if len(parts) > 3 else ""
+    k = len(token) // 5
+    total = sum(TIER_POINTS[int(c)] for c in token[4 * k:] if c.isdigit() and int(c) < len(TIER_POINTS))
+    title = f"{name or 'A friend'} scored {total} on Outlier" if k else "Outlier"
+    desc = f"Can you beat them on the same {k} prompts? Give the answer nobody else did." if k else "Give the answer nobody else did."
+    with open(os.path.join(PUBLIC, "index.html"), encoding="utf-8") as f:
+        page = f.read()
+    tags = (f'<meta property="og:title" content="{html.escape(title)}">\n'
+            f'  <meta property="og:description" content="{html.escape(desc)}">\n'
+            f'  <meta property="og:site_name" content="Outlier">\n  <title>')
+    return page.replace("<title>", tags, 1).encode()
+
 
 def cli(args):
     if args[0] == "suggestions":
