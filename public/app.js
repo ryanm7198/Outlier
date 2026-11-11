@@ -46,6 +46,41 @@ function show(html) {
   walk();
 }
 
+// A small line-icon set, drawn with currentColor so icons follow the text colour.
+const ICON = {
+  user: '<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/>',
+  users: '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.9 2.9-6 6.5-6s6.5 2.1 6.5 6"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8"/><path d="M18 14.3c2.2.7 3.5 2.6 3.5 5.7"/>',
+  trophy: '<path d="M8 21h8M12 17v4"/><path d="M7 4h10v6a5 5 0 0 1-10 0z"/><path d="M17 6h3v1a3 3 0 0 1-3 3M7 6H4v1a3 3 0 0 0 3 3"/>',
+  ball: '<circle cx="12" cy="12" r="9"/><path d="M12 7.5l4 2.9-1.5 4.7h-5L8 10.4z"/><path d="M12 3v4.5M16 10.4l4.3-1.4M14.5 15.1l2.7 3.7M9.5 15.1l-2.7 3.7M8 10.4 3.7 9"/>',
+  music: '<path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>',
+  film: '<rect x="3" y="10" width="18" height="11" rx="2"/><path d="m3.4 9.6 15.5-5 .9 2.9-15.5 5"/><path d="M8.2 8.1l1.9 2.7M13.2 6.5l1.9 2.7"/>',
+  gamepad: '<rect x="2" y="7" width="20" height="11" rx="5.5"/><path d="M7 10.5v4M5 12.5h4"/><circle cx="15.5" cy="11.5" r=".6"/><circle cx="18" cy="13.5" r=".6"/>',
+  globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>',
+  landmark: '<path d="M3 21h18M4 10h16M12 3l9 5H3z"/><path d="M6 10v8M10 10v8M14 10v8M18 10v8"/>',
+  flask: '<path d="M9 3h6M10 3v6.5L4.6 18.2A2 2 0 0 0 6.3 21h11.4a2 2 0 0 0 1.7-2.8L14 9.5V3"/><path d="M7 15h10"/>',
+  utensils: '<path d="M7 3v18M4 3v5a3 3 0 0 0 6 0V3"/><path d="M18 21V3c-2.2 1.2-3.5 4-3.5 8.5H18"/>',
+  book: '<path d="M12 6.5C10.4 5 8 4.5 4 4.5v14c4 0 6.4.5 8 2 1.6-1.5 4-2 8-2v-14c-4 0-6.4.5-8 2z"/><path d="M12 6.5v14"/>',
+  shuffle: '<path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/>',
+  sparkles: '<path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15.5l.8 1.9 1.9.8-1.9.8-.8 1.9-.8-1.9-1.9-.8 1.9-.8z"/>',
+  calendar: '<rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+  play: '<path d="M8 5.5v13l10.5-6.5z"/>',
+  left: '<path d="M15 18l-6-6 6-6"/>',
+  right: '<path d="M9 6l6 6-6 6"/>',
+  x: '<path d="M6 6l12 12M18 6 6 18"/>',
+  share: '<circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 13.2 7.6 4.6M15.8 6.2 8.2 10.8"/>',
+  flame: '<path d="M12 21.5c3.9 0 6.5-2.7 6.5-6.3 0-3.7-2.6-5.6-3.6-9.7-1.8 1.4-2.8 3.4-2.9 5.4-1-.9-1.8-2.2-2-3.9-2.1 2.1-3.5 4.9-3.5 8.2 0 3.6 2.6 6.3 5.5 6.3z"/>',
+  link: '<path d="M10 14a4 4 0 0 0 5.7 0l3.1-3.1a4 4 0 0 0-5.7-5.7l-1.2 1.2"/><path d="M14 10a4 4 0 0 0-5.7 0l-3.1 3.1a4 4 0 0 0 5.7 5.7l1.2-1.2"/>',
+  crown: '<path d="M3 8l4.5 4.5L12 5l4.5 7.5L21 8l-2 11H5z"/>',
+  zap: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
+  check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
+};
+const ic = (name, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICON[name] || ''}</svg>`;
+const CAT_ICON = { all: 'sparkles', sport: 'trophy', football: 'ball', music: 'music', film: 'film', gaming: 'gamepad',
+  geography: 'globe', history: 'landmark', science: 'flask', food: 'utensils', words: 'book', misc: 'shuffle' };
+const topbar = (title, right = '', back = 'back', icon = 'left') =>
+  `<header class="top"><button class="iconbtn" id="${back}" aria-label="${back === 'leave' ? 'Leave' : 'Back'}">${ic(icon)}</button>
+    <h1>${title}</h1><span class="top-r">${right}</span></header>`;
+
 let timer = null;
 function stopTimer() { clearInterval(timer); timer = null; }
 function runTimer(ms, total, onEnd) {
@@ -290,8 +325,10 @@ function pickLabel(p) {
 
 function mountPicker(el, onChange) {
   const chip = (on, data, label, off) =>
-    `<button class="chip${on ? ' on' : ''}" ${data} ${off ? 'disabled' : ''}>${esc(label)}</button>`;
-  const group = (title, chips) => `<div class="group"><h3>${esc(title)}</h3><div class="chips">${chips}</div></div>`;
+    `<button class="chip${on ? ' on' : ''}" ${data} ${off ? 'disabled' : ''} aria-pressed="${on}">${on ? ic('check') : ''}${esc(label)}</button>`;
+  const group = (title, chips) => `<div class="group"><h4>${esc(title)}</h4><div class="chips">${chips}</div></div>`;
+  const tile = x => `<button class="tile${x.id === pick.cat ? ' on' : ''}" data-cat="${x.id}" aria-pressed="${x.id === pick.cat}">
+    <span class="tile-ic">${ic(CAT_ICON[x.id] || 'sparkles')}</span><span class="tile-l">${esc(x.label)}</span><span class="tile-n">${x.count}</span></button>`;
   const draw = () => {
     const c = catOf(pick.cat);
     const kids = kidsOf(c), lead = leadOf(c);
@@ -299,19 +336,24 @@ function mountPicker(el, onChange) {
     const own = kids.length ? c.filters.slice(1) : c.filters;
     const ticked = kids.filter(k => pick.tags.includes(k.id));   // their filters show while ticked
     const filters = [...own, ...ticked.flatMap(k => k.filters.map(g => ({ ...g, label: ticked.length > 1 || pick.tags.some(t => lead.tags.some(x => x.id === t)) ? `${k.label} ${g.label.toLowerCase()}` : g.label })))];
+    const n = poolCount(pick);
+    const narrow = kids.length || filters.length;
     el.innerHTML = `<div class="picker">
-      ${group('Category', CATS.filter(x => !x.parent).map(x => chip(x.id === c.id, `data-cat="${x.id}"`, x.label)).join(''))}
-      ${kids.length ? group(c.label, [
-        chip(!pick.tags.some(t => subIds.includes(t)), `data-cat="${c.id}"`, `All ${c.label.toLowerCase()}`),
-        ...kids.map(k => chip(pick.tags.includes(k.id), `data-sub="${k.id}"`, k.label, !k.count)),
-        ...lead.tags.map(t => chip(pick.tags.includes(t.id), `data-sub="${t.id}"`, t.label, !t.count)),
-      ].join('')) : ''}
-      ${filters.map(g => group(g.label, g.tags.map(t => chip(pick.tags.includes(t.id), `data-tag="${t.id}"`, t.label, !t.count)).join(''))).join('')}
-      <p class="muted">${poolCount(pick)} prompts match${(filters.length || kids.length) && !pick.tags.length ? ' · tap a filter to narrow it down' : ''}</p>
+      <div class="tiles">${CATS.filter(x => !x.parent).map(tile).join('')}</div>
+      ${narrow ? `<div class="narrow">
+        <div class="narrow-h"><h3>${kids.length ? `Pick ${esc(c.label.toLowerCase())}` : 'Narrow it down'} <small>optional</small></h3>
+          <span class="count">${n} prompt${n === 1 ? '' : 's'}</span></div>
+        ${kids.length ? `<div class="chips">${[
+          chip(!pick.tags.some(t => subIds.includes(t)), `data-cat="${c.id}"`, `All ${c.label.toLowerCase()}`),
+          ...kids.map(k => chip(pick.tags.includes(k.id), `data-sub="${k.id}"`, k.label, !k.count)),
+          ...lead.tags.map(t => chip(pick.tags.includes(t.id), `data-sub="${t.id}"`, t.label, !t.count)),
+        ].join('')}</div>` : ''}
+        ${filters.map(g => group(g.label, g.tags.map(t => chip(pick.tags.includes(t.id), `data-tag="${t.id}"`, t.label, !t.count)).join(''))).join('')}
+      </div>` : ''}
     </div>`;
   };
   el.onclick = e => {
-    const b = e.target.closest('.chip');
+    const b = e.target.closest('.chip, .tile');
     if (!b) return;
     const toggle = t => pick.tags.includes(t) ? pick.tags.filter(x => x !== t) : [...pick.tags, t];
     if (b.dataset.cat) pick = { cat: b.dataset.cat, tags: [] };
@@ -334,23 +376,28 @@ function mountPicker(el, onChange) {
 function home() {
   stopTimer();
   const streak = store.get('outlier.streak', { n: 0 });
+  const mode = (id, icon, title, sub, primary) => `<button class="mode${primary ? ' primary' : ''}" id="${id}">
+    <span class="mode-ic">${ic(icon)}</span><span class="mode-t"><b>${title}</b><small>${sub}</small></span>${ic('right', 'chev')}</button>`;
   show(`<div class="hero">
       <div class="logo">Outl<b>i</b>er</div>
       <p>Give the answer nobody else did.</p>
       ${crowdHTML(3)}
     </div>
-    <div class="stack">
-      <button class="btn primary" id="solo">Play solo<small>Daily five or a seven-prompt game</small></button>
-      <button class="btn" id="party">Party game<small>Everyone joins on their own phone</small></button>
+    <div class="modes">
+      ${mode('solo', 'user', 'Play solo', 'Daily five, or seven prompts to challenge a friend', true)}
+      ${mode('party', 'users', 'Party game', 'Everyone plays together on their own phone')}
     </div>
-    ${streak.n > 1 ? `<p class="muted center">Daily streak: ${streak.n} days</p>` : ''}
-    <details class="card"><summary>How it works</summary>
-      <p class="muted">You get a prompt and 30 seconds. Any correct answer scores, and rarer answers score more.
-      Every answer sits in a rarity tier: <b>Common</b> 10, <b>Uncommon</b> 25, <b>Rare</b> 50, <b>Ball knowledge</b> 75,
-      and the rarest of all, the <b>Outlier</b> (two on very long lists), is worth 100. Your points are paces away from the crowd.
-      Every answer played shifts how common it is, so the rarest answer today might not be tomorrow.
-      In party games, players who give the same answer share half the points.</p>
-    </details>`);
+    ${streak.n > 1 ? `<div class="streak">${ic('flame')}<span><b>${streak.n}-day</b> daily streak</span></div>` : ''}
+    <section class="card how">
+      <h3>How it works</h3>
+      <ol class="steps">
+        <li><b>1</b><span>Get a prompt, like <i>Name a Pixar film</i>, and 30 seconds to answer.</span></li>
+        <li><b>2</b><span>Any correct answer scores. The fewer people who say it, the more it is worth.</span></li>
+        <li><b>3</b><span>Hit the <b>Outlier</b>, the rarest answer on the list, for the full 100.</span></li>
+      </ol>
+      <div class="tiers">${[1, 2, 3, 4, 5].map(t => `<span class="tierpill t${t}"><i></i>${TIER_NAMES[t]}<b>${[0, 10, 25, 50, 75, 100][t]}</b></span>`).join('')}</div>
+      <p class="fine">Every answer played shifts how common it is. In party games, players who give the same answer share half the points.</p>
+    </section>`);
   $('#solo').onclick = soloMenu;
   $('#party').onclick = () => partyMenu();
 }
@@ -359,21 +406,21 @@ function home() {
 
 function soloMenu() {
   stopTimer();
-  show(`<header class="bar"><button class="link" id="back">‹ Back</button><span>Solo</span><span></span></header>
-    <div id="picker"></div>
-    <div class="stack">
-      <button class="btn primary" id="daily"></button>
-      <button class="btn" id="free"></button>
-    </div>
-    <details class="card"><summary>Got a seed from a friend?</summary>
-      <div class="row"><input type="text" id="seedIn" placeholder="Paste the seed or link" autocomplete="off"><button class="btn" id="seedGo">Play</button></div>
-    </details>`);
+  show(`${topbar('Play solo')}
+    <section class="sec"><h2 class="sec-h">Choose a category</h2><div id="picker"></div></section>
+    <details class="seedbox"><summary>${ic('link')}<span>Got a challenge link or seed from a friend?</span>${ic('right', 'chev')}</summary>
+      <div class="row"><input type="text" id="seedIn" placeholder="Paste the link or seed" autocomplete="off"><button class="btn" id="seedGo">Play</button></div>
+    </details>
+    <div class="cta">
+      <button class="btn primary big" id="free"></button>
+      <button class="btn big" id="daily"></button>
+    </div>`);
   const refresh = () => {
     const c = catOf(pick.cat), saved = store.get('outlier.daily.' + c.id);
     const today = new Date().toLocaleDateString('en-CA');
     const done = saved && saved.date === today && saved.done;
-    $('#daily').innerHTML = `Daily five · ${esc(c.label)}<small>${done ? `Played today: ${saved.total} paces. Tap to view.` : 'Same five prompts for everyone today'}</small>`;
-    $('#free').innerHTML = `Seven-prompt game<small>${esc(pickLabel(pick))} · send the seed to challenge a friend</small>`;
+    $('#free').innerHTML = `${ic('play')}<span><b>Play 7 prompts</b><small>${esc(pickLabel(pick))} · challenge a friend after</small></span>`;
+    $('#daily').innerHTML = `${ic('calendar')}<span><b>Daily five · ${esc(c.label)}</b><small>${done ? `Played today: ${saved.total} paces. Tap to view.` : 'Same five prompts for everyone today'}</small></span>`;
     $('#free').disabled = !poolCount(pick);
   };
   mountPicker($('#picker'), refresh);
@@ -589,15 +636,20 @@ let party = null;
 
 function partyMenu(code = '') {
   stopTimer();
-  show(`<header class="bar"><button class="link" id="back">‹ Back</button><span>Party game</span><span></span></header>
-    <div class="group"><h3>Your name</h3>
-      <input type="text" id="name" maxlength="16" placeholder="Name" value="${esc(store.get('outlier.name', ''))}"></div>
-    <button class="btn primary" id="create">Host a new room</button>
-    <p class="muted center">or join one</p>
-    <form id="join" class="stack">
-      <input type="text" id="code" class="code" maxlength="4" placeholder="CODE" value="${esc(code)}" autocapitalize="characters" autocomplete="off">
-      <button class="btn">Join room</button>
-    </form>`);
+  show(`${topbar('Party game')}
+    <section class="field"><label for="name">Your name</label>
+      <input type="text" id="name" maxlength="16" placeholder="What should everyone call you?" value="${esc(store.get('outlier.name', ''))}" autocomplete="nickname"></section>
+    <section class="card choice${code ? '' : ' lead'}">
+      <div class="choice-h"><span class="mode-ic">${ic('crown')}</span><div><b>Host a game</b><small>Get a room code, pick the category, start when everyone's in</small></div></div>
+      <button class="btn${code ? '' : ' primary'}" id="create">Create a room</button>
+    </section>
+    <section class="card choice${code ? ' lead' : ''}">
+      <div class="choice-h"><span class="mode-ic">${ic('users')}</span><div><b>Join a game</b><small>Enter the 4-letter code from the host's screen</small></div></div>
+      <form id="join" class="row">
+        <input type="text" id="code" class="code" maxlength="4" placeholder="CODE" value="${esc(code)}" autocapitalize="characters" autocomplete="off" aria-label="Room code">
+        <button class="btn${code ? ' primary' : ''}">Join</button>
+      </form>
+    </section>`);
   const go = async (path, body) => {
     const name = $('#name').value.trim();
     if (!name) { $('#name').focus(); return toast('Enter a name first'); }
@@ -645,7 +697,8 @@ async function partyPost(path, extra) {
 
 function playersHTML(s) {
   return s.players.map(p => `<li class="${p.n === s.you ? 'me' : ''}${p.online ? '' : ' off'}">
-    <span class="main"><b>${esc(p.name)}</b></span>
+    <span class="av">${esc((p.name || '?').trim().charAt(0).toUpperCase())}</span>
+    <span class="main"><b>${esc(p.name)}</b>${p.n === s.you ? '<small>You</small>' : ''}</span>
     ${p.n === s.host ? '<span class="tag">Host</span>' : ''}
     ${!p.online ? '<span class="tag">Away</span>'
       : s.phase === 'question' ? `<span class="tag">${p.answered ? 'Locked in' : 'Thinking'}</span>`
@@ -666,24 +719,33 @@ function renderParty(s) {
     if (leave) leave.onclick = () => leaveParty();
   }
   const list = $('#players');
-  if (list) list.innerHTML = playersHTML(s);
+  if (list) {
+    list.innerHTML = playersHTML(s);
+    const count = list.closest('.card') && list.closest('.card').querySelector('h3 small');
+    if (count) count.textContent = s.players.length;
+  }
 }
 
-const partyBar = (s, mid) => `<header class="bar"><button class="link" id="leave">✕ Leave</button><span>${mid}</span><span class="pill">${esc(s.code)}</span></header>`;
+const partyBar = (s, mid) => topbar(mid, `<span class="pill">${esc(s.code)}</span>`, 'leave', 'x');
 
 function partyLobby(s, host) {
+  const seg = (id, values, current, unit) => `<div class="seg" id="${id}">${values.map(n =>
+    `<button class="chip${n === current ? ' on' : ''}" data-n="${n}" aria-pressed="${n === current}">${n}${unit}</button>`).join('')}</div>`;
   show(`${partyBar(s, 'Lobby')}
-    <div><p class="muted center">Room code</p><div class="roomcode">${esc(s.code)}</div></div>
-    <button class="btn" id="invite">Share invite link</button>
-    <div class="card"><h3>Players</h3><ul class="rows" id="players"></ul></div>
-    ${host ? `<div id="picker"></div>
-      <div class="group"><h3>Rounds</h3><div class="chips" id="rounds">${[3, 5, 7, 10].map(n =>
-        `<button class="chip${n === party.rounds ? ' on' : ''}" data-n="${n}">${n}</button>`).join('')}</div></div>
-      <div class="group"><h3>Time to answer</h3><div class="chips" id="secs">${[15, 30, 45, 60].map(n =>
-        `<button class="chip${n === party.secs ? ' on' : ''}" data-n="${n}">${n}s</button>`).join('')}</div></div>
-      <p class="muted">Pick Everything to play with double downs: before each round you see the prompt's category and can double that round's score, once per game.</p>
-      <button class="btn primary" id="start">Start game</button>`
-      : '<p class="muted center">Waiting for the host to pick a category and start.</p>'}`);
+    <section class="card codecard">
+      <p class="eyebrow">Room code</p>
+      <div class="roomcode">${esc(s.code)}</div>
+      <button class="btn slim" id="invite">${ic('share')}<span>Share invite link</span></button>
+    </section>
+    <section class="card"><h3>Players <small>${s.players.length}</small></h3><ul class="rows players" id="players"></ul></section>
+    ${host ? `<section class="sec"><h2 class="sec-h">Category</h2><div id="picker"></div></section>
+      <section class="card settings">
+        <div class="setting"><span>Rounds</span>${seg('rounds', [3, 5, 7, 10], party.rounds, '')}</div>
+        <div class="setting"><span>Time to answer</span>${seg('secs', [15, 30, 45, 60], party.secs, 's')}</div>
+        <p class="fine">${ic('zap')}<span>Play <b>Everything</b> to unlock double downs: before each round everyone sees the category and can double that round's score, once per game.</span></p>
+      </section>
+      <div class="cta"><button class="btn primary big" id="start">${ic('play')}<span><b>Start game</b><small>Everyone in the room plays along</small></span></button></div>`
+      : `<div class="waiting card"><span class="dots"><i></i><i></i><i></i></span><p>Waiting for the host to pick a category and start</p></div>`}`);
   $('#invite').onclick = () => shareText(`${location.origin}/?room=${s.code}`);
   if (!host) return;
   mountPicker($('#picker'), () => { $('#start').disabled = !poolCount(pick); });
