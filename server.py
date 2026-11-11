@@ -329,20 +329,41 @@ def in_cat(pcat, cat):
     return cat in ("all", pcat) or parent_of(pcat) == cat
 
 
+def sub_choices(cat, tags):
+    """For a parent category (Sport): the sports and sub-categories the player ticked, e.g. {"football", "darts"}.
+    The parent's first filter group lists its own sports; sub-categories (Football) are ticked by their id."""
+    groups = filter_groups(cat)
+    lead = set(groups[0]) if groups else set()
+    return lead, set(tags or []) & (lead | set(children_of(cat)))
+
+
 def pool(cat, tags, deep=None):
     """Prompt ids in a category that pass every filter group. Questions marked "deep" (specialist
     ones, like one club's squad in one season) only come up once the player has picked a filter.
-    A parent category (Sport) includes its sub-categories (Football) until a filter of its own is picked."""
+    A parent category (Sport) includes its sub-categories (Football). Ticking sports narrows it to those;
+    Football's own filters (Era, Competition) then apply to the football questions only."""
     tags = set(tags or [])
-    groups = filter_groups(cat)
+    kids = children_of(cat)
+    lead, subs = sub_choices(cat, tags) if kids else (set(), set())
     out = []
     for p in PROMPTS.values():
-        if not in_cat(p["cat"], cat) or (p["deep"] and not (tags if deep is None else deep)):
+        if not in_cat(p["cat"], cat):
             continue
         if p["era_only"] and p["era_only"] not in tags:   # decade versions need their decade picked
             continue
+        home, mine = cat, tags
+        if kids:
+            if p["cat"] in kids:
+                if subs and p["cat"] not in subs:
+                    continue
+                home = p["cat"]
+            elif subs and not (subs & lead):
+                continue
+            mine = tags & {t for g in filter_groups(home) for t in g}   # a filter that applies to this prompt
+        if p["deep"] and not (mine if deep is None else deep):
+            continue
         ptags = set(p["tags"])
-        if all(group_ok(g, g & tags, ptags) for g in groups):
+        if all(group_ok(g, g & tags, ptags) for g in filter_groups(home)):
             out.append(p["id"])
     return sorted(out)
 
@@ -354,13 +375,14 @@ def buckets(cat, tags, ids):
     if cat == "all":   # Everything: share prompts out between the categories
         return [b for b in ([i for i in ids if PROMPTS[i]["cat"] == c["id"]] for c in CATS) if b]
     tags = set(tags or [])
-    if children_of(cat) and not tags:   # all of Sport: Football, Darts, Tennis... each get a share
+    if children_of(cat):   # Sport: Football, Darts, Tennis... each get a share
+        lead, subs = sub_choices(cat, tags)
+
         def key(i):
             p = PROMPTS[i]
             if p["cat"] != cat:
                 return p["cat"]
-            own = filter_groups(cat)
-            return next((t for t in p["tags"] if own and t in own[0]), "")
+            return next((t for t in p["tags"] if t in lead and (not subs or t in subs)), "")
         keys = sorted({key(i) for i in ids})
         return [[i for i in ids if key(i) == k] for k in keys]
     best = max((g & tags for g in filter_groups(cat)), key=len, default=set())
@@ -370,10 +392,10 @@ def buckets(cat, tags, ids):
     return [b for b in out if b]
 
 
-def bucket_weights(cat, groups):
-    """Chosen filters share prompts equally. In Everything, a category's share grows with the square
-    root of its size, so small categories turn up often enough without repeating themselves."""
-    spread = cat == "all" or (children_of(cat) and len(groups) > 1)
+def bucket_weights(cat, groups, tags=()):
+    """Chosen filters share prompts equally. In Everything, and in all of Sport, a share grows with the
+    square root of its size, so small ones turn up often enough without repeating themselves."""
+    spread = cat == "all" or (children_of(cat) and not sub_choices(cat, tags)[1])
     return [math.sqrt(len(b)) if spread else 1.0 for b in groups]
 
 
@@ -381,7 +403,7 @@ def pick_balanced(cat, tags, ids, seen, n):
     """Up to n prompts spread across the chosen filters (or categories); within each, unseen prompts
     first and then the ones seen longest ago (seen is oldest first)."""
     groups = buckets(cat, tags, ids)
-    weights = bucket_weights(cat, groups)
+    weights = bucket_weights(cat, groups, tags)
     order = []
     for b in groups:
         fresh = [i for i in b if i not in seen]
@@ -409,6 +431,7 @@ def categories():
         ids = pool(c["id"], [])
         out.append({"id": c["id"], "label": c["label"], "count": len(ids), "parent": c["parent"],
                     "tagsets": [p["tags"] + (["~deep"] if p["deep"] else []) + ([f'~only:{p["era_only"]}'] if p["era_only"] else [])
+                                + ([f'~cat:{p["cat"]}'] if p["cat"] != c["id"] else [])
                                 for p in PROMPTS.values() if in_cat(p["cat"], c["id"])], "filters": [
             {"label": g["label"], "tags": [
                 {"id": t["id"], "label": t["label"],
@@ -420,7 +443,11 @@ def categories():
 def describe(cat, tags):
     for c in CATS:
         if c["id"] == cat:
-            labels = [t["label"] for g in c["filters"] for t in g["tags"] if t["id"] in (tags or [])]
+            tags = tags or []
+            labels = [t["label"] for g in c["filters"] for t in g["tags"] if t["id"] in tags]
+            for k in CATS:   # ticked sub-categories (Football) and their own filters
+                if k["parent"] == cat and k["id"] in tags:
+                    labels += [k["label"]] + [t["label"] for g in k["filters"] for t in g["tags"] if t["id"] in tags]
             return " · ".join([c["label"]] + labels)
     return "Everything"
 
@@ -528,7 +555,7 @@ def next_question(room):
         room["used"] = [i for i in room["used"] if i not in ids]
     # Take turns between the chosen filters: the one furthest below its fair share goes next.
     groups = buckets(room["cat"], room["tags"], ids)
-    weights = bucket_weights(room["cat"], groups)
+    weights = bucket_weights(room["cat"], groups, room["tags"])
     fresh = [[i for i in b if i not in room["used"]] for b in groups]
     played = [sum(1 for i in b if i in room["used"]) for b in groups]
     choices = [k for k in range(len(groups)) if fresh[k]]

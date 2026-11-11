@@ -242,25 +242,45 @@ let CATS = [];
 let pick = store.get('outlier.pick', { cat: 'all', tags: [] });
 const catOf = id => CATS.find(c => c.id === id) || CATS[0];
 
-function poolCount(p) {
-  const c = catOf(p.cat);
-  if (!c.tagsets) return c.count;
-  // Mirrors pool() in server.py: for Era, every decade a question spans must be picked.
-  return c.tagsets.filter(tags => (p.tags.length || !tags.includes('~deep'))
-    && tags.every(t => !t.startsWith('~only:') || p.tags.includes(t.slice(6)))   // decade versions need their decade
-    && c.filters.every(g => {
-    const chosen = g.tags.filter(t => p.tags.includes(t.id));
+// A parent category (Sport) holds its own sports in its first filter group, plus sub-categories (Football)
+// that are ticked by id and bring their own filters (Era, Competition) for their questions only.
+const kidsOf = c => CATS.filter(x => x.parent === c.id);
+const leadOf = c => kidsOf(c).length ? c.filters[0] : null;
+
+function passes(groups, tags, chosenTags) {
+  return groups.every(g => {
+    const chosen = g.tags.filter(t => chosenTags.includes(t.id));
     if (!chosen.length) return true;
     const have = g.tags.filter(t => tags.includes(t.id)).length;
     const hit = chosen.filter(t => tags.includes(t.id)).length;
     return hit > 0 && (g.label !== 'Era' || hit === have);
-  })).length;
+  });
+}
+
+function poolCount(p) {
+  const c = catOf(p.cat);
+  if (!c.tagsets) return c.count;
+  // Mirrors pool() in server.py: for Era, every decade a question spans must be picked.
+  const kids = kidsOf(c), lead = leadOf(c);
+  const subs = kids.length ? p.tags.filter(t => kids.some(k => k.id === t) || lead.tags.some(x => x.id === t)) : [];
+  return c.tagsets.filter(tags => {
+    if (!tags.every(t => !t.startsWith('~only:') || p.tags.includes(t.slice(6)))) return false;   // decade versions need their decade
+    let home = c;
+    const kid = (tags.find(t => t.startsWith('~cat:')) || '').slice(5);
+    if (kid) {
+      if (subs.length && !subs.includes(kid)) return false;
+      home = catOf(kid);
+    } else if (subs.length && !subs.some(t => lead.tags.some(x => x.id === t))) return false;
+    const mine = kids.length ? p.tags.filter(t => home.filters.some(g => g.tags.some(x => x.id === t))) : p.tags;
+    return (mine.length || !tags.includes('~deep')) && passes(home.filters, tags, p.tags);
+  }).length;
 }
 
 function pickLabel(p) {
   const c = catOf(p.cat);
-  const tags = c.filters.flatMap(g => g.tags).filter(t => p.tags.includes(t.id)).map(t => t.label);
-  return [c.label, ...tags].join(' · ');
+  const named = cs => cs.flatMap(x => x.filters).flatMap(g => g.tags).filter(t => p.tags.includes(t.id)).map(t => t.label);
+  const kids = kidsOf(c).filter(k => p.tags.includes(k.id));
+  return [c.label, ...named([c]), ...kids.flatMap(k => [k.label, ...named([k])])].join(' · ');
 }
 
 function mountPicker(el, onChange) {
@@ -269,20 +289,20 @@ function mountPicker(el, onChange) {
   const group = (title, chips) => `<div class="group"><h3>${esc(title)}</h3><div class="chips">${chips}</div></div>`;
   const draw = () => {
     const c = catOf(pick.cat);
-    const top = catOf(c.parent || c.id);                 // Sport, when Football is picked
-    const kids = CATS.filter(x => x.parent === top.id);  // sub-categories with filters of their own
-    // A parent's first filter group (Darts, Tennis...) sits in one row with its sub-categories (Football).
-    const [lead, ...rest] = kids.length ? top.filters : [null, ...c.filters];
-    const own = c.id === top.id ? rest : c.filters;
+    const kids = kidsOf(c), lead = leadOf(c);
+    const subIds = kids.length ? [...kids.map(k => k.id), ...lead.tags.map(t => t.id)] : [];
+    const own = kids.length ? c.filters.slice(1) : c.filters;
+    const ticked = kids.filter(k => pick.tags.includes(k.id));   // their filters show while ticked
+    const filters = [...own, ...ticked.flatMap(k => k.filters.map(g => ({ ...g, label: ticked.length > 1 || pick.tags.some(t => lead.tags.some(x => x.id === t)) ? `${k.label} ${g.label.toLowerCase()}` : g.label })))];
     el.innerHTML = `<div class="picker">
-      ${group('Category', CATS.filter(x => !x.parent).map(x => chip(x.id === top.id, `data-cat="${x.id}"`, x.label)).join(''))}
-      ${kids.length ? group(top.label, [
-        chip(c.id === top.id && !pick.tags.some(t => lead.tags.some(x => x.id === t)), `data-cat="${top.id}"`, `All ${top.label.toLowerCase()}`),
-        ...kids.map(k => chip(c.id === k.id, `data-cat="${k.id}"`, k.label)),
-        ...lead.tags.map(t => chip(c.id === top.id && pick.tags.includes(t.id), `data-sub="${t.id}"`, t.label, !t.count)),
+      ${group('Category', CATS.filter(x => !x.parent).map(x => chip(x.id === c.id, `data-cat="${x.id}"`, x.label)).join(''))}
+      ${kids.length ? group(c.label, [
+        chip(!pick.tags.some(t => subIds.includes(t)), `data-cat="${c.id}"`, `All ${c.label.toLowerCase()}`),
+        ...kids.map(k => chip(pick.tags.includes(k.id), `data-sub="${k.id}"`, k.label, !k.count)),
+        ...lead.tags.map(t => chip(pick.tags.includes(t.id), `data-sub="${t.id}"`, t.label, !t.count)),
       ].join('')) : ''}
-      ${own.map(g => group(g.label, g.tags.map(t => chip(pick.tags.includes(t.id), `data-tag="${t.id}"`, t.label, !t.count)).join(''))).join('')}
-      <p class="muted">${poolCount(pick)} prompts match${(own.length || kids.length) && !pick.tags.length ? ' · tap a filter to narrow it down' : ''}</p>
+      ${filters.map(g => group(g.label, g.tags.map(t => chip(pick.tags.includes(t.id), `data-tag="${t.id}"`, t.label, !t.count)).join(''))).join('')}
+      <p class="muted">${poolCount(pick)} prompts match${(filters.length || kids.length) && !pick.tags.length ? ' · tap a filter to narrow it down' : ''}</p>
     </div>`;
   };
   el.onclick = e => {
@@ -291,8 +311,10 @@ function mountPicker(el, onChange) {
     const toggle = t => pick.tags.includes(t) ? pick.tags.filter(x => x !== t) : [...pick.tags, t];
     if (b.dataset.cat) pick = { cat: b.dataset.cat, tags: [] };
     else if (b.dataset.sub) {   // a sport inside Sport: several can be mixed
-      const top = catOf(pick.cat).parent || pick.cat;
-      pick = pick.cat === top ? { cat: top, tags: toggle(b.dataset.sub) } : { cat: top, tags: [b.dataset.sub] };
+      const kid = CATS.find(k => k.id === b.dataset.sub);
+      pick.tags = toggle(b.dataset.sub);
+      if (kid && !pick.tags.includes(kid.id))   // unticking Football drops its Era/Competition picks
+        pick.tags = pick.tags.filter(t => !kid.filters.some(g => g.tags.some(x => x.id === t)));
     }
     else pick.tags = toggle(b.dataset.tag);
     store.set('outlier.pick', pick);
@@ -762,6 +784,8 @@ function partyFinal(s, host) {
 (async function boot() {
   try { CATS = await api('/api/categories'); } catch { app.innerHTML = '<p class="center muted">Could not reach the game server.</p>'; return; }
   if (!CATS.some(c => c.id === pick.cat)) pick = { cat: 'all', tags: [] };
+  const under = CATS.find(c => c.id === pick.cat && c.parent);   // an old Football pick becomes Sport + Football
+  if (under) pick = { cat: under.parent, tags: [under.id, ...pick.tags] };
   const params = new URLSearchParams(location.search);
   const invite = params.get('room');
   if (params.get('play')) {
