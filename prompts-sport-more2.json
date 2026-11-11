@@ -1,0 +1,1582 @@
+{
+ "cat": "sport",
+ "prompts": [
+  {
+   "id": "xs2-f1-british-starters-2000",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a British driver who has started a Formula 1 race since the year 2000 (2000 to 2026)",
+   "answers": [
+    [
+     "Lewis Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Jenson Button",
+     "Button"
+    ],
+    [
+     "David Coulthard",
+     "Coulthard"
+    ],
+    [
+     "George Russell",
+     "Russell"
+    ],
+    [
+     "Lando Norris",
+     "Norris"
+    ],
+    [
+     "Eddie Irvine",
+     "Irvine"
+    ],
+    [
+     "Johnny Herbert",
+     "Herbert"
+    ],
+    [
+     "Oliver Bearman",
+     "Ollie Bearman",
+     "Bearman"
+    ],
+    [
+     "Paul di Resta",
+     "Di Resta",
+     "Resta"
+    ],
+    [
+     "Jolyon Palmer",
+     "Palmer"
+    ],
+    [
+     "Max Chilton",
+     "Chilton"
+    ],
+    [
+     "Anthony Davidson",
+     "Davidson"
+    ],
+    [
+     "Justin Wilson",
+     "Wilson"
+    ],
+    [
+     "Will Stevens",
+     "Stevens"
+    ],
+    [
+     "Allan McNish",
+     "McNish"
+    ],
+    [
+     "Jack Aitken",
+     "Aitken"
+    ],
+    [
+     "Arvid Lindblad",
+     "Lindblad"
+    ]
+   ]
+  },
+  {
+   "id": "xs2-f1-five-wins-no-title",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won at least 5 Grands Prix but never a world drivers' championship (as of the 2026 São Paulo Grand Prix)",
+   "answers": [
+    [
+     "Charles Leclerc",
+     "Leclerc"
+    ],
+    [
+     "Oscar Piastri",
+     "Piastri"
+    ],
+    [
+     "George Russell",
+     "Russell"
+    ],
+    [
+     "Valtteri Bottas",
+     "Bottas"
+    ],
+    [
+     "Daniel Ricciardo",
+     "Ricciardo"
+    ],
+    [
+     "David Coulthard",
+     "Coulthard"
+    ],
+    [
+     "Stirling Moss",
+     "Moss"
+    ],
+    [
+     "Felipe Massa",
+     "Massa"
+    ],
+    [
+     "Rubens Barrichello",
+     "Barrichello"
+    ],
+    [
+     "Sergio Pérez",
+     "Sergio Perez",
+     "Perez",
+     "Checo",
+     "Pérez"
+    ],
+    [
+     "Mark Webber",
+     "Webber"
+    ],
+    [
+     "Gerhard Berger",
+     "Berger"
+    ],
+    [
+     "Juan Pablo Montoya",
+     "Montoya"
+    ],
+    [
+     "Ralf Schumacher",
+     "Schumacher"
+    ],
+    [
+     "Jacky Ickx",
+     "Ickx"
+    ],
+    [
+     "Carlos Reutemann",
+     "Reutemann"
+    ],
+    [
+     "Ronnie Peterson",
+     "Peterson"
+    ],
+    [
+     "Riccardo Patrese",
+     "Patrese"
+    ],
+    [
+     "René Arnoux",
+     "Rene Arnoux",
+     "Arnoux"
+    ],
+    [
+     "Gilles Villeneuve",
+     "Villeneuve"
+    ],
+    [
+     "Jacques Laffite",
+     "Laffite"
+    ],
+    [
+     "Tony Brooks",
+     "Brooks"
+    ],
+    [
+     "Clay Regazzoni",
+     "Regazzoni"
+    ],
+    [
+     "John Watson",
+     "Watson"
+    ],
+    [
+     "Michele Alboreto",
+     "Alboreto"
+    ]
+   ]
+  },
+  {
+   "id": "xs2-f1-2026-drivers",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has started a Formula 1 Grand Prix in the 2026 season (up to the São Paulo Grand Prix)",
+   "answers": [
+    [
+     "Lewis Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Max Verstappen",
+     "Verstappen"
+    ],
+    [
+     "Lando Norris",
+     "Norris"
+    ],
+    [
+     "George Russell",
+     "Russell"
+    ],
+    [
+     "Charles Leclerc",
+     "Leclerc"
+    ],
+    [
+     "Oscar Piastri",
+     "Piastri"
+    ],
+    [
+     "Fernando Alonso",
+     "Alonso"
+    ],
+    [
+     "Carlos Sainz Jr.",
+     "Carlos Sainz",
+     "Sainz",
+     "Jr."
+    ],
+    [
+     "Kimi Antonelli",
+     "Antonelli"
+    ],
+    [
+     "Alexander Albon",
+     "Alex Albon",
+     "Albon"
+    ],
+    [
+     "Pierre Gasly",
+     "Gasly"
+    ],
+    [
+     "Lance Stroll",
+     "Stroll"
+    ],
+    [
+     "Esteban Ocon",
+     "Ocon"
+    ],
+    [
+     "Nico Hülkenberg",
+     "Nico Hulkenberg",
+     "Hulkenberg",
+     "Hülkenberg"
+    ],
+    [
+     "Oliver Bearman",
+     "Ollie Bearman",
+     "Bearman"
+    ],
+    [
+     "Liam Lawson",
+     "Lawson"
+    ],
+    [
+     "Yuki Tsunoda",
+     "Tsunoda"
+    ],
+    [
+     "Isack Hadjar",
+     "Hadjar"
+    ],
+    [
+     "Gabriel Bortoleto",
+     "Bortoleto"
+    ],
+    [
+     "Franco Colapinto",
+     "Colapinto"
+    ],
+    [
+     "Arvid Lindblad",
+     "Lindblad"
+    ],
+    [
+     "Sergio Pérez",
+     "Sergio Perez",
+     "Perez",
+     "Checo",
+     "Pérez"
+    ],
+    [
+     "Valtteri Bottas",
+     "Bottas"
+    ],
+    [
+     "Ryo Hirakawa",
+     "Hirakawa"
+    ],
+    [
+     "Rafael Câmara",
+     "Rafael Camara",
+     "Camara",
+     "Câmara"
+    ]
+   ]
+  },
+  {
+   "id": "xs2-f1-pole-never-won",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who took a Formula 1 World Championship pole position but never won a Grand Prix (Indianapolis 500 rounds of 1950 to 1960 count; as of 2026)",
+   "answers": [
+    [
+     "Chris Amon",
+     "Amon"
+    ],
+    [
+     "Teo Fabi",
+     "Fabi"
+    ],
+    [
+     "Nico Hülkenberg",
+     "Nico Hulkenberg",
+     "Hulkenberg",
+     "Hülkenberg"
+    ],
+    [
+     "Nick Heidfeld",
+     "Heidfeld"
+    ],
+    [
+     "Kevin Magnussen",
+     "Magnussen"
+    ],
+    [
+     "Andrea de Cesaris",
+     "De Cesaris",
+     "Cesaris"
+    ],
+    [
+     "Jean-Pierre Jarier",
+     "Jarier"
+    ],
+    [
+     "Tom Pryce",
+     "Pryce"
+    ],
+    [
+     "Mike Parkes",
+     "Parkes"
+    ],
+    [
+     "Bruno Giacomelli",
+     "Giacomelli"
+    ],
+    [
+     "Stuart Lewis-Evans",
+     "Lewis-Evans",
+     "Lewis Evans"
+    ],
+    [
+     "Eugenio Castellotti",
+     "Castellotti"
+    ],
+    [
+     "Dick Rathmann",
+     "Rathmann"
+    ],
+    [
+     "Eddie Sachs",
+     "Sachs"
+    ],
+    [
+     "Johnny Thomson",
+     "Thomson"
+    ],
+    [
+     "Walt Faulkner",
+     "Faulkner"
+    ],
+    [
+     "Fred Agabashian",
+     "Agabashian"
+    ],
+    [
+     "Duke Nalon",
+     "Nalon"
+    ],
+    [
+     "Jerry Hoyt",
+     "Hoyt"
+    ],
+    [
+     "Jack McGrath",
+     "McGrath"
+    ],
+    [
+     "Pat O'Connor",
+     "Pat OConnor",
+     "O'Connor"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs2-tennis-slam-singles-countries",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a country whose player has won a Grand Slam singles title (men or women, all time, including former countries)",
+   "answers": [
+    [
+     "United States",
+     "USA",
+     "US",
+     "America",
+     "United States of America"
+    ],
+    "Australia",
+    "Spain",
+    [
+     "United Kingdom",
+     "UK",
+     "Britain",
+     "Great Britain",
+     "England",
+     "Scotland"
+    ],
+    "France",
+    "Germany",
+    "Switzerland",
+    "Sweden",
+    "Serbia",
+    "Russia",
+    [
+     "Czech Republic",
+     "Czechia",
+     "Czech"
+    ],
+    "Italy",
+    "Argentina",
+    "Belgium",
+    "Romania",
+    "Croatia",
+    "Austria",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "Czechoslovakia",
+    "Japan",
+    "China",
+    "Canada",
+    "Poland",
+    "Belarus",
+    "Denmark",
+    "Brazil",
+    "Kazakhstan",
+    "Latvia",
+    "New Zealand",
+    "South Africa",
+    "Hungary",
+    "Mexico",
+    "Chile",
+    "Ecuador",
+    "Egypt",
+    "Norway",
+    "Yugoslavia"
+   ]
+  },
+  {
+   "id": "xs2-tennis-wimbledon-final-never-won",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a man who played in a Wimbledon men's singles final between 1968 and 2026 but never won the title",
+   "answers": [
+    [
+     "Andy Roddick",
+     "Roddick"
+    ],
+    [
+     "Ivan Lendl",
+     "Lendl"
+    ],
+    [
+     "Nick Kyrgios",
+     "Kyrgios"
+    ],
+    [
+     "Matteo Berrettini",
+     "Berrettini"
+    ],
+    [
+     "Marin Čilić",
+     "Marin Cilic",
+     "Cilic",
+     "Čilić"
+    ],
+    [
+     "Alexander Zverev",
+     "Sascha Zverev",
+     "Zverev"
+    ],
+    [
+     "Kevin Anderson",
+     "Anderson"
+    ],
+    [
+     "Milos Raonic",
+     "Raonic"
+    ],
+    [
+     "Tomáš Berdych",
+     "Tomas Berdych",
+     "Berdych"
+    ],
+    [
+     "Patrick Rafter",
+     "Rafter"
+    ],
+    [
+     "Mark Philippoussis",
+     "Philippoussis"
+    ],
+    [
+     "David Nalbandian",
+     "Nalbandian"
+    ],
+    [
+     "Cédric Pioline",
+     "Cedric Pioline",
+     "Pioline"
+    ],
+    [
+     "MaliVai Washington",
+     "Washington"
+    ],
+    [
+     "Jim Courier",
+     "Courier"
+    ],
+    [
+     "Kevin Curren",
+     "Curren"
+    ],
+    [
+     "Chris Lewis",
+     "Lewis"
+    ],
+    [
+     "Roscoe Tanner",
+     "Tanner"
+    ],
+    [
+     "Ilie Năstase",
+     "Ilie Nastase",
+     "Nastase",
+     "Năstase"
+    ],
+    [
+     "Ken Rosewall",
+     "Rosewall"
+    ],
+    [
+     "Alex Metreveli",
+     "Metreveli"
+    ],
+    [
+     "Tony Roche",
+     "Roche"
+    ]
+   ]
+  },
+  {
+   "id": "xs2-tennis-wimbledon-mens-doubles-2000-2026",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a player who has won the Wimbledon men's doubles title (2000 to 2026)",
+   "answers": [
+    [
+     "Todd Woodbridge",
+     "Woodbridge"
+    ],
+    [
+     "Mark Woodforde",
+     "Woodforde"
+    ],
+    [
+     "Donald Johnson",
+     "Johnson"
+    ],
+    [
+     "Jared Palmer",
+     "Palmer"
+    ],
+    [
+     "Jonas Björkman",
+     "Jonas Bjorkman",
+     "Bjorkman",
+     "Björkman"
+    ],
+    [
+     "Stephen Huss",
+     "Huss"
+    ],
+    [
+     "Wesley Moodie",
+     "Moodie"
+    ],
+    "Bob Bryan",
+    "Mike Bryan",
+    [
+     "Arnaud Clément",
+     "Arnaud Clement",
+     "Clement",
+     "Clément"
+    ],
+    [
+     "Michaël Llodra",
+     "Michael Llodra",
+     "Llodra"
+    ],
+    [
+     "Daniel Nestor",
+     "Nestor"
+    ],
+    [
+     "Nenad Zimonjić",
+     "Nenad Zimonjic",
+     "Zimonjic",
+     "Zimonjić"
+    ],
+    [
+     "Jürgen Melzer",
+     "Jurgen Melzer",
+     "Melzer"
+    ],
+    [
+     "Philipp Petzschner",
+     "Petzschner"
+    ],
+    [
+     "Jonathan Marray",
+     "Marray"
+    ],
+    [
+     "Frederik Nielsen",
+     "Nielsen"
+    ],
+    [
+     "Vasek Pospisil",
+     "Pospisil"
+    ],
+    [
+     "Jack Sock",
+     "Sock"
+    ],
+    [
+     "Jean-Julien Rojer",
+     "Rojer"
+    ],
+    [
+     "Horia Tecău",
+     "Horia Tecau",
+     "Tecau",
+     "Tecău"
+    ],
+    [
+     "Pierre-Hugues Herbert",
+     "Herbert"
+    ],
+    [
+     "Nicolas Mahut",
+     "Mahut"
+    ],
+    [
+     "Łukasz Kubot",
+     "Lukasz Kubot",
+     "Kubot"
+    ],
+    [
+     "Marcelo Melo",
+     "Melo"
+    ],
+    [
+     "Juan Sebastián Cabal",
+     "Juan Sebastian Cabal",
+     "Cabal"
+    ],
+    [
+     "Robert Farah",
+     "Farah"
+    ],
+    [
+     "Nikola Mektić",
+     "Nikola Mektic",
+     "Mektic",
+     "Mektić"
+    ],
+    [
+     "Mate Pavić",
+     "Mate Pavic",
+     "Pavic",
+     "Pavić"
+    ],
+    [
+     "Matthew Ebden",
+     "Ebden"
+    ],
+    [
+     "Max Purcell",
+     "Purcell"
+    ],
+    [
+     "Wesley Koolhof",
+     "Koolhof"
+    ],
+    [
+     "Neal Skupski",
+     "Skupski"
+    ],
+    [
+     "Harri Heliövaara",
+     "Harri Heliovaara",
+     "Heliovaara",
+     "Heliövaara"
+    ],
+    [
+     "Henry Patten",
+     "Patten"
+    ],
+    [
+     "Julian Cash",
+     "Cash"
+    ],
+    [
+     "Lloyd Glasspool",
+     "Glasspool"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs2-tennis-british-slam-singles-winners",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a British player who has won a Grand Slam singles title (men or women, all time; pre-1922 players from Ireland count as United Kingdom players)",
+   "answers": [
+    [
+     "Andy Murray",
+     "Murray"
+    ],
+    [
+     "Fred Perry",
+     "Perry"
+    ],
+    [
+     "Virginia Wade",
+     "Wade"
+    ],
+    [
+     "Emma Raducanu",
+     "Raducanu"
+    ],
+    [
+     "Sue Barker",
+     "Susan Barker",
+     "Barker"
+    ],
+    [
+     "Angela Mortimer",
+     "Mortimer"
+    ],
+    [
+     "Christine Truman",
+     "Truman"
+    ],
+    [
+     "Ann Jones",
+     "Ann Haydon-Jones",
+     "Ann Haydon",
+     "Haydon-Jones",
+     "Jones"
+    ],
+    [
+     "Shirley Bloomer",
+     "Shirley Brasher",
+     "Brasher",
+     "Bloomer"
+    ],
+    [
+     "Dorothy Round",
+     "Round"
+    ],
+    [
+     "Kitty Godfree",
+     "Kathleen McKane",
+     "Kathleen Godfree",
+     "McKane",
+     "Godfree"
+    ],
+    [
+     "Betty Nuthall",
+     "Nuthall"
+    ],
+    [
+     "Margaret Scriven",
+     "Scriven"
+    ],
+    [
+     "Colin Gregory",
+     "Gregory"
+    ],
+    [
+     "Algernon Kingscote",
+     "Kingscote"
+    ],
+    [
+     "Francis Lowe",
+     "Gordon Lowe",
+     "Lowe"
+    ],
+    [
+     "Cecil Parke",
+     "James Cecil Parke",
+     "Parke"
+    ],
+    "Arthur Gore",
+    [
+     "Laurence Doherty",
+     "Laurie Doherty",
+     "Laurie"
+    ],
+    [
+     "Reginald Doherty",
+     "Reggie Doherty",
+     "Reggie"
+    ],
+    [
+     "Harold Mahony",
+     "Mahony"
+    ],
+    [
+     "Charlotte Cooper Sterry",
+     "Charlotte Cooper",
+     "Charlotte Sterry",
+     "Cooper Sterry",
+     "Sterry"
+    ],
+    [
+     "Dorothea Lambert Chambers",
+     "Dorothea Douglass",
+     "Dorothea Douglass Lambert Chambers",
+     "Douglass",
+     "Lambert Chambers",
+     "Chambers"
+    ],
+    [
+     "Ethel Larcombe",
+     "Ethel Thomson Larcombe",
+     "Larcombe"
+    ],
+    [
+     "Muriel Robb",
+     "Robb"
+    ],
+    [
+     "Dora Boothby",
+     "Boothby"
+    ],
+    [
+     "Lottie Dod",
+     "Dod"
+    ],
+    [
+     "Maud Watson",
+     "Watson"
+    ],
+    [
+     "Blanche Bingley Hillyard",
+     "Blanche Bingley",
+     "Hillyard",
+     "Bingley"
+    ],
+    [
+     "Lena Rice",
+     "Rice"
+    ],
+    [
+     "Mabel Cahill",
+     "Cahill"
+    ],
+    [
+     "Joshua Pim",
+     "Pim"
+    ],
+    [
+     "Wilfred Baddeley",
+     "Baddeley"
+    ],
+    [
+     "Herbert Lawford",
+     "Lawford"
+    ],
+    "Spencer Gore",
+    [
+     "Frank Hadow",
+     "Hadow"
+    ],
+    [
+     "John Hartley",
+     "Hartley"
+    ],
+    [
+     "William Renshaw",
+     "Willie Renshaw"
+    ],
+    "Ernest Renshaw",
+    [
+     "Willoughby Hamilton",
+     "Hamilton"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs2-golf-europe-ryder-captains",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who has captained Europe in the Ryder Cup (1979 to 2025)",
+   "answers": [
+    [
+     "Luke Donald",
+     "Donald"
+    ],
+    [
+     "Colin Montgomerie",
+     "Monty",
+     "Montgomerie"
+    ],
+    [
+     "Nick Faldo",
+     "Faldo"
+    ],
+    [
+     "Seve Ballesteros",
+     "Severiano Ballesteros",
+     "Seve",
+     "Ballesteros"
+    ],
+    [
+     "Tony Jacklin",
+     "Jacklin"
+    ],
+    [
+     "Sam Torrance",
+     "Torrance"
+    ],
+    [
+     "José María Olazábal",
+     "Jose Maria Olazabal",
+     "Olazabal",
+     "Ollie",
+     "Olazábal"
+    ],
+    [
+     "Pádraig Harrington",
+     "Padraig Harrington",
+     "Harrington"
+    ],
+    [
+     "Paul McGinley",
+     "McGinley"
+    ],
+    [
+     "Darren Clarke",
+     "Clarke"
+    ],
+    [
+     "Ian Woosnam",
+     "Woosnam"
+    ],
+    [
+     "Bernhard Langer",
+     "Bernard Langer",
+     "Langer"
+    ],
+    [
+     "Thomas Bjørn",
+     "Thomas Bjorn",
+     "Bjorn",
+     "Bjørn"
+    ],
+    [
+     "Bernard Gallacher",
+     "Gallacher"
+    ],
+    [
+     "Mark James",
+     "James"
+    ],
+    [
+     "John Jacobs",
+     "Jacobs"
+    ]
+   ]
+  },
+  {
+   "id": "xs2-golf-usa-ryder-captains",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who has captained the United States in the Ryder Cup (1979 to 2025)",
+   "answers": [
+    [
+     "Jack Nicklaus",
+     "Nicklaus"
+    ],
+    [
+     "Tom Watson",
+     "Watson"
+    ],
+    [
+     "Lee Trevino",
+     "Trevino"
+    ],
+    [
+     "Davis Love III",
+     "Davis Love",
+     "III"
+    ],
+    [
+     "Keegan Bradley",
+     "Bradley"
+    ],
+    [
+     "Zach Johnson",
+     "Johnson"
+    ],
+    [
+     "Steve Stricker",
+     "Stricker"
+    ],
+    [
+     "Jim Furyk",
+     "Furyk"
+    ],
+    [
+     "Hal Sutton",
+     "Sutton"
+    ],
+    [
+     "Tom Lehman",
+     "Lehman"
+    ],
+    [
+     "Paul Azinger",
+     "Azinger"
+    ],
+    [
+     "Corey Pavin",
+     "Pavin"
+    ],
+    [
+     "Curtis Strange",
+     "Strange"
+    ],
+    [
+     "Ben Crenshaw",
+     "Crenshaw"
+    ],
+    [
+     "Tom Kite",
+     "Kite"
+    ],
+    [
+     "Lanny Wadkins",
+     "Wadkins"
+    ],
+    [
+     "Raymond Floyd",
+     "Floyd"
+    ],
+    [
+     "Dave Stockton",
+     "Stockton"
+    ],
+    [
+     "Dave Marr",
+     "Marr"
+    ],
+    [
+     "Billy Casper",
+     "Casper"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xs2-golf-masters-non-us-winners",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer from outside the United States who has won the Masters (as of 2026)",
+   "answers": [
+    [
+     "Rory McIlroy",
+     "Rory",
+     "McIlroy"
+    ],
+    [
+     "Jon Rahm",
+     "Rahm"
+    ],
+    [
+     "Sergio García",
+     "Sergio Garcia",
+     "Garcia",
+     "García"
+    ],
+    [
+     "Seve Ballesteros",
+     "Severiano Ballesteros",
+     "Seve",
+     "Ballesteros"
+    ],
+    [
+     "José María Olazábal",
+     "Jose Maria Olazabal",
+     "Olazabal",
+     "Olazábal"
+    ],
+    [
+     "Nick Faldo",
+     "Faldo"
+    ],
+    [
+     "Sandy Lyle",
+     "Lyle"
+    ],
+    [
+     "Ian Woosnam",
+     "Woosnam"
+    ],
+    [
+     "Bernhard Langer",
+     "Bernard Langer",
+     "Langer"
+    ],
+    [
+     "Danny Willett",
+     "Willett"
+    ],
+    [
+     "Gary Player",
+     "Player"
+    ],
+    [
+     "Adam Scott",
+     "Scott"
+    ],
+    [
+     "Ángel Cabrera",
+     "Angel Cabrera",
+     "Cabrera"
+    ],
+    [
+     "Mike Weir",
+     "Weir"
+    ],
+    [
+     "Vijay Singh",
+     "Singh"
+    ],
+    [
+     "Hideki Matsuyama",
+     "Matsuyama"
+    ],
+    [
+     "Trevor Immelman",
+     "Immelman"
+    ],
+    [
+     "Charl Schwartzel",
+     "Schwartzel"
+    ]
+   ]
+  },
+  {
+   "id": "xs2-golf-us-open-venues-2000-2026",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golf course that has hosted the men's US Open (golf) between 2000 and 2026",
+   "answers": [
+    [
+     "Pebble Beach",
+     "Pebble Beach Golf Links",
+     "Beach"
+    ],
+    [
+     "Oakmont",
+     "Oakmont Country Club"
+    ],
+    [
+     "Shinnecock Hills",
+     "Shinnecock"
+    ],
+    [
+     "Pinehurst",
+     "Pinehurst No. 2",
+     "Pinehurst Number 2",
+     "Pinehurst Resort"
+    ],
+    [
+     "Bethpage Black",
+     "Bethpage",
+     "Bethpage State Park",
+     "Black"
+    ],
+    [
+     "Winged Foot",
+     "Foot"
+    ],
+    [
+     "Torrey Pines",
+     "Pines"
+    ],
+    "Southern Hills",
+    [
+     "Olympia Fields",
+     "Fields"
+    ],
+    [
+     "Congressional",
+     "Congressional Country Club"
+    ],
+    [
+     "Olympic Club",
+     "The Olympic Club"
+    ],
+    [
+     "Merion",
+     "Merion Golf Club"
+    ],
+    [
+     "Chambers Bay",
+     "Bay"
+    ],
+    "Erin Hills",
+    [
+     "Los Angeles Country Club",
+     "LACC",
+     "LA Country Club"
+    ],
+    [
+     "The Country Club",
+     "Brookline",
+     "The Country Club Brookline"
+    ]
+   ]
+  },
+  {
+   "id": "xs2-cricket-england-100-tests",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a cricketer who has played 100 or more Test matches for England (as of November 2026)",
+   "answers": [
+    [
+     "James Anderson",
+     "Jimmy Anderson",
+     "Jimmy",
+     "Anderson"
+    ],
+    [
+     "Joe Root",
+     "Root"
+    ],
+    [
+     "Stuart Broad",
+     "Broad"
+    ],
+    [
+     "Alastair Cook",
+     "Alistair Cook",
+     "Sir Alastair Cook",
+     "Cook"
+    ],
+    [
+     "Ben Stokes",
+     "Stokes"
+    ],
+    [
+     "Alec Stewart",
+     "Stewart"
+    ],
+    [
+     "Ian Bell",
+     "Bell"
+    ],
+    [
+     "Graham Gooch",
+     "Gooch"
+    ],
+    [
+     "David Gower",
+     "Gower"
+    ],
+    [
+     "Michael Atherton",
+     "Mike Atherton",
+     "Athers",
+     "Atherton"
+    ],
+    [
+     "Colin Cowdrey",
+     "Cowdrey"
+    ],
+    [
+     "Geoffrey Boycott",
+     "Geoff Boycott",
+     "Boycott"
+    ],
+    [
+     "Kevin Pietersen",
+     "KP",
+     "Pietersen"
+    ],
+    [
+     "Ian Botham",
+     "Beefy Botham",
+     "Botham",
+     "Beefy"
+    ],
+    [
+     "Graham Thorpe",
+     "Thorpe"
+    ],
+    [
+     "Andrew Strauss",
+     "Andy Strauss",
+     "Strauss"
+    ],
+    [
+     "Jonny Bairstow",
+     "Jonathan Bairstow",
+     "Bairstow"
+    ]
+   ]
+  },
+  {
+   "id": "xs2-cricket-england-150-test-wickets",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name an England bowler who has taken 150 or more Test wickets (as of November 2026)",
+   "answers": [
+    [
+     "James Anderson",
+     "Jimmy Anderson",
+     "Jimmy",
+     "Anderson"
+    ],
+    [
+     "Stuart Broad",
+     "Broad"
+    ],
+    [
+     "Ian Botham",
+     "Beefy Botham",
+     "Botham",
+     "Beefy"
+    ],
+    [
+     "Bob Willis",
+     "Willis"
+    ],
+    [
+     "Fred Trueman",
+     "Trueman"
+    ],
+    [
+     "Derek Underwood",
+     "Underwood"
+    ],
+    [
+     "Graeme Swann",
+     "Swann"
+    ],
+    [
+     "Brian Statham",
+     "Statham"
+    ],
+    [
+     "Ben Stokes",
+     "Stokes"
+    ],
+    [
+     "Matthew Hoggard",
+     "Matt Hoggard",
+     "Hoggard"
+    ],
+    [
+     "Alec Bedser",
+     "Bedser"
+    ],
+    [
+     "Andy Caddick",
+     "Andrew Caddick",
+     "Caddick"
+    ],
+    [
+     "Darren Gough",
+     "Gough"
+    ],
+    [
+     "Andrew Flintoff",
+     "Freddie Flintoff",
+     "Flintoff"
+    ],
+    [
+     "Steve Harmison",
+     "Steven Harmison",
+     "Harmison"
+    ],
+    [
+     "Moeen Ali",
+     "Moeen",
+     "Ali"
+    ],
+    [
+     "John Snow",
+     "Snow"
+    ],
+    [
+     "Jim Laker",
+     "Laker"
+    ],
+    [
+     "Chris Woakes",
+     "Woakes"
+    ],
+    [
+     "Sydney Barnes",
+     "Barnes"
+    ],
+    [
+     "Angus Fraser",
+     "Fraser"
+    ],
+    [
+     "Tony Lock",
+     "Lock"
+    ],
+    [
+     "Monty Panesar",
+     "Panesar"
+    ],
+    [
+     "Maurice Tate",
+     "Tate"
+    ],
+    [
+     "Fred Titmus",
+     "Titmus"
+    ]
+   ]
+  },
+  {
+   "id": "xs2-cricket-county-championship-winners",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a county that has won the official County Championship outright or shared (1890 to 2026)",
+   "answers": [
+    [
+     "Yorkshire",
+     "Yorkshire County Cricket Club"
+    ],
+    "Surrey",
+    "Middlesex",
+    "Lancashire",
+    "Kent",
+    [
+     "Nottinghamshire",
+     "Notts"
+    ],
+    [
+     "Warwickshire",
+     "Warks"
+    ],
+    "Essex",
+    [
+     "Worcestershire",
+     "Worcs"
+    ],
+    "Derbyshire",
+    "Durham",
+    "Glamorgan",
+    [
+     "Hampshire",
+     "Hants"
+    ],
+    [
+     "Leicestershire",
+     "Leics"
+    ],
+    "Sussex"
+   ]
+  },
+  {
+   "id": "xs2-cricket-t20-blast-winners",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a county that has won the English T20 Blast (Twenty20 Cup) (2003 to 2026)",
+   "answers": [
+    "Somerset",
+    [
+     "Hampshire",
+     "Hants"
+    ],
+    [
+     "Leicestershire",
+     "Leics",
+     "Leicestershire Foxes"
+    ],
+    [
+     "Northamptonshire",
+     "Northants",
+     "Northants Steelbacks"
+    ],
+    [
+     "Nottinghamshire",
+     "Notts",
+     "Notts Outlaws"
+    ],
+    [
+     "Kent",
+     "Kent Spitfires"
+    ],
+    "Surrey",
+    "Middlesex",
+    "Sussex",
+    "Lancashire",
+    "Essex",
+    [
+     "Worcestershire",
+     "Worcs",
+     "Worcestershire Rapids"
+    ],
+    [
+     "Gloucestershire",
+     "Glos"
+    ],
+    [
+     "Warwickshire",
+     "Birmingham Bears",
+     "Birmingham",
+     "Bears",
+     "Warks"
+    ]
+   ],
+   "deep": true
+  }
+ ]
+}
