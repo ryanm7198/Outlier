@@ -1,0 +1,3807 @@
+{
+"cat": "nba",
+"prompts": [
+{
+"id": "nba-e-playoff-points",
+"tags": [
+"finals",
+"stats"
+],
+"text": "Name a player in the top 25 for career NBA playoff points (to the end of the 2026 playoffs, ties included)",
+"eraText": "Name a player who played in the NBA playoffs in the {era} and is in the career top 25 for playoff points",
+"answers": [
+[
+"LeBron James",
+"LeBron",
+"King James",
+"Bron",
+"James"
+],
+[
+"Michael Jordan",
+"MJ",
+"Air Jordan",
+"Jordan"
+],
+[
+"Kareem Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor",
+"Abdul Jabbar"
+],
+[
+"Kobe Bryant",
+"Kobe",
+"Black Mamba",
+"Bryant"
+],
+[
+"Shaquille O'Neal",
+"Shaq",
+"Shaquille",
+"Diesel",
+"O'Neal"
+],
+[
+"Tim Duncan",
+"Duncan"
+],
+[
+"Kevin Durant",
+"KD",
+"Durant"
+],
+[
+"Karl Malone",
+"Malone"
+],
+[
+"Jerry West",
+"West"
+],
+[
+"James Harden",
+"Harden",
+"The Beard"
+],
+[
+"Stephen Curry",
+"Steph",
+"Steph Curry",
+"Curry"
+],
+[
+"Tony Parker",
+"Parker"
+],
+[
+"Dwyane Wade",
+"Flash",
+"D Wade",
+"Wade"
+],
+[
+"Larry Bird",
+"Larry Legend",
+"Bird"
+],
+[
+"John Havlicek",
+"Havlicek"
+],
+[
+"Hakeem Olajuwon",
+"Hakeem",
+"The Dream",
+"Olajuwon"
+],
+[
+"Magic Johnson",
+"Magic",
+"Earvin Johnson"
+],
+[
+"Dirk Nowitzki",
+"Dirk",
+"Nowitzki"
+],
+[
+"Scottie Pippen",
+"Scottie",
+"Pippen"
+],
+[
+"Elgin Baylor",
+"Baylor"
+],
+[
+"Wilt Chamberlain",
+"Wilt",
+"Wilt the Stilt",
+"Chamberlain"
+],
+[
+"Kevin McHale",
+"McHale"
+],
+[
+"Paul Pierce",
+"Pierce"
+],
+[
+"Kawhi Leonard",
+"Kawhi",
+"Leonard"
+],
+"Dennis Johnson"
+],
+"eras": {
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"Michael Jordan": [
+"80s",
+"90s"
+],
+"Kareem Abdul-Jabbar": [
+"70s",
+"80s"
+],
+"Kobe Bryant": [
+"90s",
+"00s",
+"10s"
+],
+"Shaquille O'Neal": [
+"90s",
+"00s",
+"10s"
+],
+"Tim Duncan": [
+"90s",
+"00s",
+"10s"
+],
+"Kevin Durant": [
+"10s",
+"20s"
+],
+"Karl Malone": [
+"80s",
+"90s",
+"00s"
+],
+"Jerry West": [
+"60s",
+"70s"
+],
+"James Harden": [
+"10s",
+"20s"
+],
+"Stephen Curry": [
+"10s",
+"20s"
+],
+"Tony Parker": [
+"00s",
+"10s"
+],
+"Dwyane Wade": [
+"00s",
+"10s"
+],
+"Larry Bird": [
+"80s",
+"90s"
+],
+"John Havlicek": [
+"60s",
+"70s"
+],
+"Hakeem Olajuwon": [
+"80s",
+"90s",
+"00s"
+],
+"Magic Johnson": [
+"80s",
+"90s"
+],
+"Dirk Nowitzki": [
+"00s",
+"10s"
+],
+"Scottie Pippen": [
+"80s",
+"90s",
+"00s"
+],
+"Elgin Baylor": [
+"60s",
+"70s"
+],
+"Wilt Chamberlain": [
+"60s",
+"70s"
+],
+"Kevin McHale": [
+"80s",
+"90s"
+],
+"Paul Pierce": [
+"00s",
+"10s"
+],
+"Kawhi Leonard": [
+"10s",
+"20s"
+],
+"Dennis Johnson": [
+"70s",
+"80s",
+"90s"
+]
+}
+},
+{
+"id": "nba-e-playoff-rebounds",
+"tags": [
+"finals",
+"stats"
+],
+"text": "Name a player in the top 25 for career NBA playoff rebounds (to the end of the 2026 playoffs, ties included)",
+"eraText": "Name a player who played in the NBA playoffs in the {era} and is in the career top 25 for playoff rebounds",
+"answers": [
+[
+"Bill Russell",
+"Russell"
+],
+[
+"Wilt Chamberlain",
+"Wilt",
+"Wilt the Stilt",
+"Chamberlain"
+],
+[
+"Tim Duncan",
+"Duncan"
+],
+[
+"LeBron James",
+"LeBron",
+"King James",
+"Bron",
+"James"
+],
+[
+"Shaquille O'Neal",
+"Shaq",
+"Shaquille",
+"Diesel",
+"O'Neal"
+],
+[
+"Kareem Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor",
+"Abdul Jabbar"
+],
+[
+"Karl Malone",
+"Malone"
+],
+[
+"Wes Unseld",
+"Unseld"
+],
+[
+"Robert Parish",
+"Parish"
+],
+[
+"Elgin Baylor",
+"Baylor"
+],
+[
+"Larry Bird",
+"Larry Legend",
+"Bird"
+],
+[
+"Dennis Rodman",
+"The Worm",
+"Rodman"
+],
+[
+"Hakeem Olajuwon",
+"Hakeem",
+"The Dream",
+"Olajuwon"
+],
+[
+"Scottie Pippen",
+"Scottie",
+"Pippen"
+],
+[
+"Charles Barkley",
+"Barkley"
+],
+[
+"Al Horford",
+"Horford"
+],
+[
+"Kevin Garnett",
+"Garnett"
+],
+[
+"Paul Silas",
+"Silas"
+],
+[
+"Dwight Howard",
+"Superman",
+"Howard"
+],
+[
+"Magic Johnson",
+"Magic",
+"Earvin Johnson",
+"Johnson"
+],
+[
+"Horace Grant",
+"Grant"
+],
+[
+"Draymond Green",
+"Draymond",
+"Green"
+],
+[
+"Ben Wallace",
+"Wallace"
+],
+[
+"Dirk Nowitzki",
+"Dirk",
+"Nowitzki"
+],
+[
+"Charles Oakley",
+"Oakley"
+]
+],
+"eras": {
+"Bill Russell": [
+"60s"
+],
+"Wilt Chamberlain": [
+"60s",
+"70s"
+],
+"Tim Duncan": [
+"90s",
+"00s",
+"10s"
+],
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"Shaquille O'Neal": [
+"90s",
+"00s",
+"10s"
+],
+"Kareem Abdul-Jabbar": [
+"70s",
+"80s"
+],
+"Karl Malone": [
+"80s",
+"90s",
+"00s"
+],
+"Wes Unseld": [
+"60s",
+"70s",
+"80s"
+],
+"Robert Parish": [
+"70s",
+"80s",
+"90s"
+],
+"Elgin Baylor": [
+"60s",
+"70s"
+],
+"Larry Bird": [
+"80s",
+"90s"
+],
+"Dennis Rodman": [
+"80s",
+"90s"
+],
+"Hakeem Olajuwon": [
+"80s",
+"90s",
+"00s"
+],
+"Scottie Pippen": [
+"80s",
+"90s",
+"00s"
+],
+"Charles Barkley": [
+"80s",
+"90s"
+],
+"Al Horford": [
+"00s",
+"10s",
+"20s"
+],
+"Kevin Garnett": [
+"90s",
+"00s",
+"10s"
+],
+"Paul Silas": [
+"60s",
+"70s",
+"80s"
+],
+"Dwight Howard": [
+"00s",
+"10s",
+"20s"
+],
+"Magic Johnson": [
+"80s",
+"90s"
+],
+"Horace Grant": [
+"80s",
+"90s",
+"00s"
+],
+"Draymond Green": [
+"10s",
+"20s"
+],
+"Ben Wallace": [
+"00s"
+],
+"Dirk Nowitzki": [
+"00s",
+"10s"
+],
+"Charles Oakley": [
+"80s",
+"90s",
+"00s"
+]
+}
+},
+{
+"id": "nba-e-playoff-assists",
+"tags": [
+"finals",
+"stats"
+],
+"text": "Name a player in the top 25 for career NBA playoff assists (to the end of the 2026 playoffs, ties included)",
+"eraText": "Name a player who played in the NBA playoffs in the {era} and is in the career top 25 for playoff assists",
+"answers": [
+[
+"Magic Johnson",
+"Magic",
+"Earvin Johnson"
+],
+[
+"LeBron James",
+"LeBron",
+"King James",
+"Bron",
+"James"
+],
+[
+"John Stockton",
+"Stockton"
+],
+[
+"Jason Kidd",
+"Kidd"
+],
+[
+"Chris Paul",
+"CP3",
+"Paul"
+],
+[
+"James Harden",
+"Harden",
+"The Beard"
+],
+[
+"Tony Parker",
+"Parker"
+],
+[
+"Rajon Rondo",
+"Rondo"
+],
+[
+"Larry Bird",
+"Larry Legend",
+"Bird"
+],
+[
+"Steve Nash",
+"Nash"
+],
+[
+"Scottie Pippen",
+"Scottie",
+"Pippen"
+],
+[
+"Kobe Bryant",
+"Kobe",
+"Black Mamba",
+"Bryant"
+],
+[
+"Michael Jordan",
+"MJ",
+"Air Jordan",
+"Jordan"
+],
+[
+"Draymond Green",
+"Draymond",
+"Green"
+],
+"Dennis Johnson",
+[
+"Isiah Thomas",
+"Thomas"
+],
+[
+"Jerry West",
+"West"
+],
+[
+"Russell Westbrook",
+"Westbrook"
+],
+[
+"Stephen Curry",
+"Steph",
+"Steph Curry",
+"Curry"
+],
+[
+"Bob Cousy",
+"Cousy"
+],
+"Kevin Johnson",
+[
+"Maurice Cheeks",
+"Cheeks"
+],
+[
+"Mark Jackson",
+"Jackson"
+],
+[
+"Clyde Drexler",
+"Drexler"
+],
+[
+"Dwyane Wade",
+"Flash",
+"D Wade",
+"Wade"
+]
+],
+"eras": {
+"Magic Johnson": [
+"80s",
+"90s"
+],
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"John Stockton": [
+"80s",
+"90s",
+"00s"
+],
+"Jason Kidd": [
+"90s",
+"00s",
+"10s"
+],
+"Chris Paul": [
+"00s",
+"10s",
+"20s"
+],
+"James Harden": [
+"10s",
+"20s"
+],
+"Tony Parker": [
+"00s",
+"10s"
+],
+"Rajon Rondo": [
+"00s",
+"10s",
+"20s"
+],
+"Larry Bird": [
+"80s",
+"90s"
+],
+"Steve Nash": [
+"90s",
+"00s",
+"10s"
+],
+"Scottie Pippen": [
+"80s",
+"90s",
+"00s"
+],
+"Kobe Bryant": [
+"90s",
+"00s",
+"10s"
+],
+"Michael Jordan": [
+"80s",
+"90s"
+],
+"Draymond Green": [
+"10s",
+"20s"
+],
+"Dennis Johnson": [
+"70s",
+"80s",
+"90s"
+],
+"Isiah Thomas": [
+"80s",
+"90s"
+],
+"Jerry West": [
+"60s",
+"70s"
+],
+"Russell Westbrook": [
+"10s",
+"20s"
+],
+"Stephen Curry": [
+"10s",
+"20s"
+],
+"Bob Cousy": [
+"60s"
+],
+"Kevin Johnson": [
+"80s",
+"90s",
+"00s"
+],
+"Maurice Cheeks": [
+"70s",
+"80s",
+"90s"
+],
+"Mark Jackson": [
+"80s",
+"90s",
+"00s"
+],
+"Clyde Drexler": [
+"80s",
+"90s"
+],
+"Dwyane Wade": [
+"00s",
+"10s"
+]
+}
+},
+{
+"id": "nba-e-playoff-threes",
+"tags": [
+"finals",
+"stats"
+],
+"text": "Name a player in the top 25 for career NBA playoff three-pointers made (to the end of the 2026 playoffs, ties included)",
+"eraText": "Name a player who played in the NBA playoffs in the {era} and is in the career top 25 for playoff three-pointers made",
+"answers": [
+[
+"Stephen Curry",
+"Steph",
+"Steph Curry",
+"Curry"
+],
+[
+"Klay Thompson",
+"Klay",
+"Thompson"
+],
+[
+"LeBron James",
+"LeBron",
+"King James",
+"Bron",
+"James"
+],
+[
+"James Harden",
+"Harden",
+"The Beard"
+],
+[
+"Ray Allen",
+"Allen"
+],
+[
+"Kevin Durant",
+"KD",
+"Durant"
+],
+[
+"Manu Ginóbili",
+"Manu",
+"Ginóbili"
+],
+[
+"Reggie Miller",
+"Miller"
+],
+[
+"Danny Green",
+"Green"
+],
+[
+"Paul George",
+"George"
+],
+[
+"Jayson Tatum",
+"Tatum"
+],
+[
+"J.R. Smith",
+"Smith"
+],
+[
+"Kobe Bryant",
+"Kobe",
+"Black Mamba",
+"Bryant"
+],
+[
+"Derek Fisher",
+"Fisher"
+],
+[
+"Jaylen Brown",
+"Jaylen",
+"Brown"
+],
+[
+"Paul Pierce",
+"Pierce"
+],
+[
+"Chauncey Billups",
+"Billups"
+],
+[
+"Robert Horry",
+"Big Shot Bob",
+"Bob Horry",
+"Horry"
+],
+[
+"Kyle Korver",
+"Korver"
+],
+[
+"Donovan Mitchell",
+"Mitchell"
+],
+[
+"Kawhi Leonard",
+"Kawhi",
+"Leonard"
+],
+[
+"Chris Paul",
+"CP3",
+"Paul"
+],
+[
+"Kyle Lowry",
+"Lowry"
+],
+[
+"Jason Kidd",
+"Kidd"
+],
+[
+"Kyrie Irving",
+"Irving"
+],
+[
+"Marcus Smart",
+"Smart"
+]
+],
+"eras": {
+"Stephen Curry": [
+"10s",
+"20s"
+],
+"Klay Thompson": [
+"10s",
+"20s"
+],
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"James Harden": [
+"10s",
+"20s"
+],
+"Ray Allen": [
+"90s",
+"00s",
+"10s"
+],
+"Kevin Durant": [
+"10s",
+"20s"
+],
+"Manu Ginóbili": [
+"00s",
+"10s"
+],
+"Reggie Miller": [
+"90s",
+"00s"
+],
+"Danny Green": [
+"10s",
+"20s"
+],
+"Paul George": [
+"10s",
+"20s"
+],
+"Jayson Tatum": [
+"10s",
+"20s"
+],
+"J.R. Smith": [
+"00s",
+"10s",
+"20s"
+],
+"Kobe Bryant": [
+"90s",
+"00s",
+"10s"
+],
+"Derek Fisher": [
+"90s",
+"00s",
+"10s"
+],
+"Jaylen Brown": [
+"10s",
+"20s"
+],
+"Paul Pierce": [
+"00s",
+"10s"
+],
+"Chauncey Billups": [
+"00s",
+"10s"
+],
+"Robert Horry": [
+"90s",
+"00s"
+],
+"Kyle Korver": [
+"00s",
+"10s",
+"20s"
+],
+"Donovan Mitchell": [
+"10s",
+"20s"
+],
+"Kawhi Leonard": [
+"10s",
+"20s"
+],
+"Chris Paul": [
+"00s",
+"10s",
+"20s"
+],
+"Kyle Lowry": [
+"00s",
+"10s",
+"20s"
+],
+"Jason Kidd": [
+"90s",
+"00s",
+"10s"
+],
+"Kyrie Irving": [
+"10s",
+"20s"
+],
+"Marcus Smart": [
+"10s",
+"20s"
+]
+}
+},
+{
+"id": "nba-e-playoff-steals",
+"tags": [
+"finals",
+"stats"
+],
+"text": "Name a player in the top 25 for career NBA playoff steals (to the end of the 2026 playoffs, ties included)",
+"eraText": "Name a player who played in the NBA playoffs in the {era} and is in the career top 25 for playoff steals",
+"answers": [
+[
+"LeBron James",
+"LeBron",
+"King James",
+"Bron",
+"James"
+],
+[
+"Scottie Pippen",
+"Scottie",
+"Pippen"
+],
+[
+"Michael Jordan",
+"MJ",
+"Air Jordan",
+"Jordan"
+],
+[
+"Magic Johnson",
+"Magic",
+"Earvin Johnson"
+],
+[
+"John Stockton",
+"Stockton"
+],
+[
+"James Harden",
+"Harden",
+"The Beard"
+],
+[
+"Kobe Bryant",
+"Kobe",
+"Black Mamba",
+"Bryant"
+],
+[
+"Jason Kidd",
+"Kidd"
+],
+[
+"Larry Bird",
+"Larry Legend",
+"Bird"
+],
+[
+"Maurice Cheeks",
+"Cheeks"
+],
+[
+"Manu Ginóbili",
+"Manu",
+"Ginóbili"
+],
+[
+"Chris Paul",
+"CP3",
+"Paul"
+],
+[
+"Clyde Drexler",
+"Drexler"
+],
+[
+"Robert Horry",
+"Big Shot Bob",
+"Bob Horry",
+"Horry"
+],
+[
+"Dwyane Wade",
+"Flash",
+"D Wade",
+"Wade"
+],
+[
+"Derek Fisher",
+"Fisher"
+],
+[
+"Karl Malone",
+"Malone"
+],
+[
+"Draymond Green",
+"Draymond",
+"Green"
+],
+[
+"Kawhi Leonard",
+"Kawhi",
+"Leonard"
+],
+"Dennis Johnson",
+[
+"Hakeem Olajuwon",
+"Hakeem",
+"The Dream",
+"Olajuwon"
+],
+[
+"Julius Erving",
+"Dr J",
+"Doctor J",
+"Erving"
+],
+[
+"Isiah Thomas",
+"Thomas"
+],
+[
+"Stephen Curry",
+"Steph",
+"Steph Curry",
+"Curry"
+],
+[
+"Rajon Rondo",
+"Rondo"
+]
+],
+"eras": {
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"Scottie Pippen": [
+"80s",
+"90s",
+"00s"
+],
+"Michael Jordan": [
+"80s",
+"90s"
+],
+"Magic Johnson": [
+"80s",
+"90s"
+],
+"John Stockton": [
+"80s",
+"90s",
+"00s"
+],
+"James Harden": [
+"10s",
+"20s"
+],
+"Kobe Bryant": [
+"90s",
+"00s",
+"10s"
+],
+"Jason Kidd": [
+"90s",
+"00s",
+"10s"
+],
+"Larry Bird": [
+"80s",
+"90s"
+],
+"Maurice Cheeks": [
+"70s",
+"80s",
+"90s"
+],
+"Manu Ginóbili": [
+"00s",
+"10s"
+],
+"Chris Paul": [
+"00s",
+"10s",
+"20s"
+],
+"Clyde Drexler": [
+"80s",
+"90s"
+],
+"Robert Horry": [
+"90s",
+"00s"
+],
+"Dwyane Wade": [
+"00s",
+"10s"
+],
+"Derek Fisher": [
+"90s",
+"00s",
+"10s"
+],
+"Karl Malone": [
+"80s",
+"90s",
+"00s"
+],
+"Draymond Green": [
+"10s",
+"20s"
+],
+"Kawhi Leonard": [
+"10s",
+"20s"
+],
+"Dennis Johnson": [
+"70s",
+"80s",
+"90s"
+],
+"Hakeem Olajuwon": [
+"80s",
+"90s",
+"00s"
+],
+"Julius Erving": [
+"70s",
+"80s"
+],
+"Isiah Thomas": [
+"80s",
+"90s"
+],
+"Stephen Curry": [
+"10s",
+"20s"
+],
+"Rajon Rondo": [
+"00s",
+"10s",
+"20s"
+]
+},
+"deep": true
+},
+{
+"id": "nba-e-playoff-blocks",
+"tags": [
+"finals",
+"stats"
+],
+"text": "Name a player in the top 25 for career NBA playoff blocks (to the end of the 2026 playoffs, ties included)",
+"eraText": "Name a player who played in the NBA playoffs in the {era} and is in the career top 25 for playoff blocks",
+"answers": [
+[
+"Tim Duncan",
+"Duncan"
+],
+[
+"Kareem Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor",
+"Abdul Jabbar"
+],
+[
+"Hakeem Olajuwon",
+"Hakeem",
+"The Dream",
+"Olajuwon"
+],
+[
+"Shaquille O'Neal",
+"Shaq",
+"Shaquille",
+"Diesel",
+"O'Neal"
+],
+[
+"David Robinson",
+"Robinson"
+],
+[
+"Robert Parish",
+"Parish"
+],
+[
+"Patrick Ewing",
+"Ewing"
+],
+[
+"Serge Ibaka",
+"Ibaka"
+],
+[
+"LeBron James",
+"LeBron",
+"King James",
+"Bron",
+"James"
+],
+[
+"Kevin McHale",
+"McHale"
+],
+[
+"Dikembe Mutombo",
+"Mutombo"
+],
+"Ben Wallace",
+[
+"Dwight Howard",
+"Superman",
+"Howard"
+],
+[
+"Al Horford",
+"Horford"
+],
+[
+"Julius Erving",
+"Dr J",
+"Doctor J",
+"Erving"
+],
+[
+"Pau Gasol",
+"Gasol"
+],
+[
+"Draymond Green",
+"Draymond",
+"Green"
+],
+[
+"Robert Horry",
+"Big Shot Bob",
+"Bob Horry",
+"Horry"
+],
+"Rasheed Wallace",
+[
+"Caldwell Jones",
+"Jones"
+],
+[
+"Elvin Hayes",
+"Hayes"
+],
+[
+"Alonzo Mourning",
+"Mourning"
+],
+[
+"Mark Eaton",
+"Eaton"
+],
+[
+"Kevin Durant",
+"KD",
+"Durant"
+],
+[
+"Kevin Garnett",
+"Garnett"
+]
+],
+"eras": {
+"Tim Duncan": [
+"90s",
+"00s",
+"10s"
+],
+"Kareem Abdul-Jabbar": [
+"70s",
+"80s"
+],
+"Hakeem Olajuwon": [
+"80s",
+"90s",
+"00s"
+],
+"Shaquille O'Neal": [
+"90s",
+"00s",
+"10s"
+],
+"David Robinson": [
+"90s",
+"00s"
+],
+"Robert Parish": [
+"70s",
+"80s",
+"90s"
+],
+"Patrick Ewing": [
+"80s",
+"90s",
+"00s"
+],
+"Serge Ibaka": [
+"10s",
+"20s"
+],
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"Kevin McHale": [
+"80s",
+"90s"
+],
+"Dikembe Mutombo": [
+"90s",
+"00s"
+],
+"Ben Wallace": [
+"00s"
+],
+"Dwight Howard": [
+"00s",
+"10s",
+"20s"
+],
+"Al Horford": [
+"00s",
+"10s",
+"20s"
+],
+"Julius Erving": [
+"70s",
+"80s"
+],
+"Pau Gasol": [
+"00s",
+"10s"
+],
+"Draymond Green": [
+"10s",
+"20s"
+],
+"Robert Horry": [
+"90s",
+"00s"
+],
+"Rasheed Wallace": [
+"90s",
+"00s",
+"10s"
+],
+"Caldwell Jones": [
+"70s",
+"80s",
+"90s"
+],
+"Elvin Hayes": [
+"70s",
+"80s"
+],
+"Alonzo Mourning": [
+"90s",
+"00s"
+],
+"Mark Eaton": [
+"80s",
+"90s"
+],
+"Kevin Durant": [
+"10s",
+"20s"
+],
+"Kevin Garnett": [
+"90s",
+"00s",
+"10s"
+]
+},
+"deep": true
+},
+{
+"id": "nba-e-playoff-triple-doubles",
+"tags": [
+"finals",
+"stats"
+],
+"text": "Name a player with 3 or more career NBA playoff triple-doubles (to the end of the 2026 playoffs)",
+"eraText": "Name a player who played in the NBA playoffs in the {era} and has 3 or more career playoff triple-doubles",
+"answers": [
+[
+"Magic Johnson",
+"Magic",
+"Earvin Johnson",
+"Johnson"
+],
+[
+"LeBron James",
+"LeBron",
+"King James",
+"Bron",
+"James"
+],
+[
+"Nikola Jokić",
+"Jokic",
+"Joker",
+"Nikola"
+],
+[
+"Russell Westbrook",
+"Westbrook"
+],
+[
+"Jason Kidd",
+"Kidd"
+],
+[
+"Larry Bird",
+"Larry Legend",
+"Bird"
+],
+[
+"Luka Dončić",
+"Luka",
+"Doncic"
+],
+[
+"Draymond Green",
+"Draymond",
+"Green"
+],
+[
+"Rajon Rondo",
+"Rondo"
+],
+[
+"Wilt Chamberlain",
+"Wilt",
+"Wilt the Stilt",
+"Chamberlain"
+],
+[
+"Oscar Robertson",
+"Robertson"
+],
+[
+"John Havlicek",
+"Havlicek"
+],
+[
+"Giannis Antetokounmpo",
+"Giannis",
+"Greek Freak",
+"Antetokounmpo"
+],
+[
+"Charles Barkley",
+"Barkley"
+],
+[
+"Elgin Baylor",
+"Baylor"
+],
+[
+"Tim Duncan",
+"Duncan"
+],
+[
+"Walt Frazier",
+"Frazier"
+],
+[
+"James Harden",
+"Harden",
+"The Beard"
+],
+[
+"Scottie Pippen",
+"Scottie",
+"Pippen"
+],
+[
+"Jimmy Butler",
+"Jimmy",
+"Butler"
+],
+[
+"Stephen Curry",
+"Steph",
+"Steph Curry",
+"Curry"
+],
+[
+"Clyde Drexler",
+"Drexler"
+],
+[
+"Kevin Garnett",
+"Garnett"
+],
+[
+"Tom Gola",
+"Gola"
+],
+[
+"Blake Griffin",
+"Griffin"
+],
+[
+"Fat Lever",
+"Lever"
+],
+[
+"Chris Paul",
+"CP3",
+"Paul"
+],
+[
+"Bill Russell",
+"Russell"
+],
+[
+"Ben Simmons",
+"Simmons"
+],
+[
+"Lenny Wilkens",
+"Wilkens"
+]
+],
+"eras": {
+"Magic Johnson": [
+"80s",
+"90s"
+],
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"Nikola Jokić": [
+"10s",
+"20s"
+],
+"Russell Westbrook": [
+"10s",
+"20s"
+],
+"Jason Kidd": [
+"90s",
+"00s",
+"10s"
+],
+"Larry Bird": [
+"80s",
+"90s"
+],
+"Luka Dončić": [
+"20s"
+],
+"Draymond Green": [
+"10s",
+"20s"
+],
+"Rajon Rondo": [
+"00s",
+"10s",
+"20s"
+],
+"Wilt Chamberlain": [
+"60s",
+"70s"
+],
+"Oscar Robertson": [
+"60s",
+"70s"
+],
+"John Havlicek": [
+"60s",
+"70s"
+],
+"Giannis Antetokounmpo": [
+"10s",
+"20s"
+],
+"Charles Barkley": [
+"80s",
+"90s"
+],
+"Elgin Baylor": [
+"60s",
+"70s"
+],
+"Tim Duncan": [
+"90s",
+"00s",
+"10s"
+],
+"Walt Frazier": [
+"60s",
+"70s"
+],
+"James Harden": [
+"10s",
+"20s"
+],
+"Scottie Pippen": [
+"80s",
+"90s",
+"00s"
+],
+"Jimmy Butler": [
+"10s",
+"20s"
+],
+"Stephen Curry": [
+"10s",
+"20s"
+],
+"Clyde Drexler": [
+"80s",
+"90s"
+],
+"Kevin Garnett": [
+"90s",
+"00s",
+"10s"
+],
+"Tom Gola": [
+"60s"
+],
+"Blake Griffin": [
+"10s",
+"20s"
+],
+"Fat Lever": [
+"80s",
+"90s"
+],
+"Chris Paul": [
+"00s",
+"10s",
+"20s"
+],
+"Bill Russell": [
+"60s"
+],
+"Ben Simmons": [
+"10s",
+"20s"
+],
+"Lenny Wilkens": [
+"60s"
+]
+},
+"deep": true
+},
+{
+"id": "nba-e-roster-2016-cavs",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 2016 Cleveland Cavaliers championship roster (2015-16 season, as listed on Wikipedia)",
+"answers": [
+[
+"LeBron James",
+"LeBron",
+"King James",
+"Bron",
+"James"
+],
+[
+"Kyrie Irving",
+"Irving"
+],
+[
+"Kevin Love",
+"Love"
+],
+[
+"J. R. Smith",
+"Smith"
+],
+[
+"Tristan Thompson",
+"Thompson"
+],
+[
+"Mo Williams",
+"Williams"
+],
+[
+"Richard Jefferson",
+"Jefferson"
+],
+[
+"Matthew Dellavedova",
+"Dellavedova"
+],
+[
+"Iman Shumpert",
+"Shumpert"
+],
+[
+"Channing Frye",
+"Frye"
+],
+"Dahntay Jones",
+"James Jones",
+[
+"Sasha Kaun",
+"Kaun"
+],
+[
+"Jordan McRae",
+"McRae"
+],
+[
+"Timofey Mozgov",
+"Mozgov"
+]
+]
+},
+{
+"id": "nba-e-roster-2014-spurs",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 2014 San Antonio Spurs championship roster (2013-14 season, as listed on Wikipedia)",
+"answers": [
+[
+"Tim Duncan",
+"Duncan"
+],
+[
+"Kawhi Leonard",
+"Kawhi",
+"Leonard"
+],
+[
+"Tony Parker",
+"Parker"
+],
+[
+"Manu Ginóbili",
+"Manu",
+"Ginóbili"
+],
+[
+"Danny Green",
+"Green"
+],
+[
+"Patty Mills",
+"Mills"
+],
+[
+"Boris Diaw",
+"Diaw"
+],
+[
+"Tiago Splitter",
+"Splitter"
+],
+[
+"Marco Belinelli",
+"Belinelli"
+],
+[
+"Jeff Ayres",
+"Ayres"
+],
+[
+"Aron Baynes",
+"Baynes"
+],
+[
+"Matt Bonner",
+"Bonner"
+],
+[
+"Austin Daye",
+"Daye"
+],
+[
+"Damion James",
+"James"
+],
+[
+"Cory Joseph",
+"Joseph"
+]
+]
+},
+{
+"id": "nba-e-roster-2008-celtics",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 2008 Boston Celtics championship roster (2007-08 season, as listed on Wikipedia)",
+"answers": [
+[
+"Kevin Garnett",
+"Garnett"
+],
+[
+"Paul Pierce",
+"Pierce"
+],
+"Ray Allen",
+[
+"Rajon Rondo",
+"Rondo"
+],
+[
+"Sam Cassell",
+"Cassell"
+],
+[
+"Kendrick Perkins",
+"Perkins"
+],
+[
+"Glen Davis",
+"Davis"
+],
+[
+"James Posey",
+"Posey"
+],
+"Tony Allen",
+[
+"Eddie House",
+"House"
+],
+[
+"P.J. Brown",
+"Brown"
+],
+[
+"Scot Pollard",
+"Pollard"
+],
+[
+"Leon Powe",
+"Powe"
+],
+[
+"Gabe Pruitt",
+"Pruitt"
+],
+[
+"Brian Scalabrine",
+"Scalabrine"
+]
+]
+},
+{
+"id": "nba-e-roster-2013-heat",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 2013 Miami Heat championship roster (2012-13 season, as listed on Wikipedia)",
+"answers": [
+[
+"LeBron James",
+"LeBron",
+"King James",
+"Bron",
+"James"
+],
+[
+"Dwyane Wade",
+"Flash",
+"D Wade",
+"Wade"
+],
+[
+"Ray Allen",
+"Allen"
+],
+[
+"Chris Bosh",
+"Bosh"
+],
+[
+"Mike Miller",
+"Miller"
+],
+[
+"Udonis Haslem",
+"Haslem"
+],
+[
+"Mario Chalmers",
+"Chalmers"
+],
+[
+"Shane Battier",
+"Battier"
+],
+[
+"Chris Andersen",
+"Andersen"
+],
+[
+"Rashard Lewis",
+"Lewis"
+],
+[
+"Norris Cole",
+"Cole"
+],
+[
+"Juwan Howard",
+"Howard"
+],
+[
+"Joel Anthony",
+"Anthony"
+],
+[
+"James Jones",
+"Jones"
+],
+[
+"Jarvis Varnado",
+"Varnado"
+]
+]
+},
+{
+"id": "nba-e-roster-2019-raptors",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 2019 Toronto Raptors championship roster (2018-19 season, as listed on Wikipedia)",
+"answers": [
+[
+"Kawhi Leonard",
+"Kawhi",
+"Leonard"
+],
+[
+"Marc Gasol",
+"Gasol"
+],
+[
+"Kyle Lowry",
+"Lowry"
+],
+[
+"Pascal Siakam",
+"Siakam"
+],
+[
+"Serge Ibaka",
+"Ibaka"
+],
+[
+"Fred VanVleet",
+"VanVleet"
+],
+[
+"Danny Green",
+"Green"
+],
+[
+"OG Anunoby",
+"Anunoby"
+],
+[
+"Chris Boucher",
+"Boucher"
+],
+[
+"Jeremy Lin",
+"Lin"
+],
+[
+"Jordan Loyd",
+"Loyd"
+],
+[
+"Patrick McCaw",
+"McCaw"
+],
+[
+"Jodie Meeks",
+"Meeks"
+],
+[
+"Malcolm Miller",
+"Miller"
+],
+[
+"Eric Moreland",
+"Moreland"
+],
+[
+"Norman Powell",
+"Powell"
+]
+]
+},
+{
+"id": "nba-e-roster-2022-warriors",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 2022 Golden State Warriors championship roster (2021-22 season, as listed on Wikipedia)",
+"answers": [
+[
+"Stephen Curry",
+"Steph",
+"Steph Curry",
+"Curry"
+],
+[
+"Klay Thompson",
+"Klay",
+"Thompson"
+],
+[
+"Draymond Green",
+"Draymond",
+"Green"
+],
+[
+"Andrew Wiggins",
+"Wiggins"
+],
+[
+"Andre Iguodala",
+"Iguodala"
+],
+[
+"Gary Payton II",
+"Gary Payton Jr",
+"Payton"
+],
+[
+"Jordan Poole",
+"Poole"
+],
+[
+"Kevon Looney",
+"Looney"
+],
+[
+"Nemanja Bjelica",
+"Bjelica"
+],
+[
+"Chris Chiozza",
+"Chiozza"
+],
+[
+"Jonathan Kuminga",
+"Kuminga"
+],
+[
+"Damion Lee",
+"Lee"
+],
+[
+"Moses Moody",
+"Moody"
+],
+[
+"Otto Porter Jr.",
+"Otto Porter",
+"Porter"
+],
+[
+"Juan Toscano-Anderson",
+"Toscano-Anderson"
+],
+[
+"Quinndary Weatherspoon",
+"Weatherspoon"
+],
+[
+"James Wiseman",
+"Wiseman"
+]
+]
+},
+{
+"id": "nba-e-roster-2023-nuggets",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 2023 Denver Nuggets championship roster (2022-23 season, as listed on Wikipedia)",
+"answers": [
+[
+"Nikola Jokić",
+"Jokic",
+"Joker",
+"Nikola"
+],
+[
+"Jamal Murray",
+"Murray"
+],
+[
+"Aaron Gordon",
+"Gordon"
+],
+[
+"Michael Porter Jr.",
+"Michael Porter",
+"MPJ",
+"Porter"
+],
+[
+"Kentavious Caldwell-Pope",
+"Caldwell-Pope"
+],
+[
+"Bruce Brown",
+"Brown"
+],
+[
+"Reggie Jackson",
+"Jackson"
+],
+[
+"Jeff Green",
+"Green"
+],
+[
+"Christian Braun",
+"Braun"
+],
+[
+"Thomas Bryant",
+"Bryant"
+],
+[
+"Vlatko Čančar",
+"Čančar"
+],
+[
+"Collin Gillespie",
+"Gillespie"
+],
+[
+"DeAndre Jordan",
+"Jordan"
+],
+[
+"Zeke Nnaji",
+"Nnaji"
+],
+[
+"Ish Smith",
+"Smith"
+],
+[
+"Peyton Watson",
+"Watson"
+],
+[
+"Jack White",
+"White"
+]
+]
+},
+{
+"id": "nba-e-roster-2024-celtics",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 2024 Boston Celtics championship roster (2023-24 season, as listed on Wikipedia)",
+"answers": [
+[
+"Jayson Tatum",
+"Tatum"
+],
+[
+"Jaylen Brown",
+"Jaylen",
+"Brown"
+],
+[
+"Jrue Holiday",
+"Holiday"
+],
+[
+"Kristaps Porziņģis",
+"Porzingis",
+"KP"
+],
+[
+"Derrick White",
+"White"
+],
+[
+"Al Horford",
+"Horford"
+],
+[
+"Oshae Brissett",
+"Brissett"
+],
+[
+"JD Davison",
+"Davison"
+],
+[
+"Sam Hauser",
+"Hauser"
+],
+[
+"Luke Kornet",
+"Kornet"
+],
+[
+"Sviatoslav Mykhailiuk",
+"Mykhailiuk"
+],
+[
+"Drew Peterson",
+"Peterson"
+],
+[
+"Payton Pritchard",
+"Pritchard"
+],
+[
+"Neemias Queta",
+"Queta"
+],
+[
+"Jaden Springer",
+"Springer"
+],
+[
+"Xavier Tillman",
+"Tillman"
+],
+[
+"Jordan Walsh",
+"Walsh"
+]
+]
+},
+{
+"id": "nba-e-roster-2001-lakers",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 2001 Los Angeles Lakers championship roster (2000-01 season, as listed on Wikipedia)",
+"answers": [
+[
+"Kobe Bryant",
+"Kobe",
+"Black Mamba",
+"Bryant"
+],
+[
+"Shaquille O'Neal",
+"Shaq",
+"Shaquille",
+"Diesel",
+"O'Neal"
+],
+[
+"Derek Fisher",
+"Fisher"
+],
+[
+"Robert Horry",
+"Big Shot Bob",
+"Bob Horry",
+"Horry"
+],
+[
+"Horace Grant",
+"Grant"
+],
+[
+"Ron Harper",
+"Harper"
+],
+[
+"Rick Fox",
+"Fox"
+],
+[
+"Brian Shaw",
+"Shaw"
+],
+[
+"Greg Foster",
+"Foster"
+],
+[
+"Devean George",
+"George"
+],
+[
+"Tyronn Lue",
+"Ty Lue",
+"Lue"
+],
+[
+"Mark Madsen",
+"Madsen"
+],
+[
+"Slava Medvedenko",
+"Medvedenko"
+],
+[
+"Mike Penberthy",
+"Penberthy"
+],
+[
+"Isaiah Rider",
+"Rider"
+]
+]
+},
+{
+"id": "nba-e-roster-2004-pistons",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 2004 Detroit Pistons championship roster (2003-04 season, as listed on Wikipedia)",
+"answers": [
+"Ben Wallace",
+[
+"Chauncey Billups",
+"Billups"
+],
+[
+"Richard Hamilton",
+"Hamilton"
+],
+"Rasheed Wallace",
+[
+"Tayshaun Prince",
+"Prince"
+],
+[
+"Mehmet Okur",
+"Okur"
+],
+[
+"Darko Miličić",
+"Miličić"
+],
+[
+"Corliss Williamson",
+"Williamson"
+],
+[
+"Elden Campbell",
+"Campbell"
+],
+[
+"Mike James",
+"James"
+],
+[
+"Lindsey Hunter",
+"Hunter"
+],
+[
+"Tremaine Fowlkes",
+"Fowlkes"
+],
+[
+"Darvin Ham",
+"Ham"
+]
+],
+"deep": true
+},
+{
+"id": "nba-e-roster-2011-mavericks",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 2011 Dallas Mavericks championship roster (2010-11 season, as listed on Wikipedia)",
+"answers": [
+[
+"Dirk Nowitzki",
+"Dirk",
+"Nowitzki"
+],
+[
+"Jason Kidd",
+"Kidd"
+],
+[
+"Tyson Chandler",
+"Chandler"
+],
+[
+"Jason Terry",
+"Terry"
+],
+[
+"Shawn Marion",
+"Marion"
+],
+[
+"Peja Stojaković",
+"Peja",
+"Stojaković"
+],
+[
+"José Juan Barea",
+"Barea"
+],
+[
+"Rodrigue Beaubois",
+"Beaubois"
+],
+[
+"Corey Brewer",
+"Brewer"
+],
+[
+"Caron Butler",
+"Butler"
+],
+[
+"Brian Cardinal",
+"Cardinal"
+],
+[
+"Brendan Haywood",
+"Haywood"
+],
+[
+"Dominique Jones",
+"Jones"
+],
+[
+"Ian Mahinmi",
+"Mahinmi"
+],
+[
+"DeShawn Stevenson",
+"Stevenson"
+],
+[
+"Alexis Ajinça",
+"Ajinça"
+],
+[
+"Steve Novak",
+"Novak"
+],
+[
+"Sasha Pavlović",
+"Pavlović"
+]
+],
+"deep": true
+},
+{
+"id": "nba-e-roster-1994-rockets",
+"tags": [
+"finals",
+"teams"
+],
+"text": "Name a player on the 1994 Houston Rockets championship roster (1993-94 season, as listed on Wikipedia)",
+"answers": [
+[
+"Hakeem Olajuwon",
+"Hakeem",
+"The Dream",
+"Olajuwon"
+],
+[
+"Robert Horry",
+"Big Shot Bob",
+"Bob Horry",
+"Horry"
+],
+[
+"Sam Cassell",
+"Cassell"
+],
+[
+"Kenny Smith",
+"Smith"
+],
+[
+"Mario Elie",
+"Elie"
+],
+[
+"Scott Brooks",
+"Brooks"
+],
+[
+"Matt Bullard",
+"Bullard"
+],
+[
+"Earl Cureton",
+"Cureton"
+],
+[
+"Carl Herrera",
+"Herrera"
+],
+[
+"Chris Jent",
+"Jent"
+],
+[
+"Vernon Maxwell",
+"Maxwell"
+],
+[
+"Richard Petruska",
+"Petruska"
+],
+[
+"Eric Riley",
+"Riley"
+],
+[
+"Larry Robinson",
+"Robinson"
+],
+[
+"Otis Thorpe",
+"Thorpe"
+]
+],
+"deep": true
+},
+{
+"id": "nba-e-champions-2000s",
+"tags": [
+"finals",
+"players"
+],
+"text": "Name a player who won an NBA championship in the 2000s (on a title team's end-of-season roster, as listed on Wikipedia)",
+"answers": [
+[
+"Kobe Bryant",
+"Kobe",
+"Black Mamba",
+"Bryant"
+],
+[
+"Shaquille O'Neal",
+"Shaq",
+"Shaquille",
+"Diesel",
+"O'Neal"
+],
+[
+"Tim Duncan",
+"Duncan"
+],
+[
+"Dwyane Wade",
+"Flash",
+"D Wade",
+"Wade"
+],
+[
+"Kevin Garnett",
+"Garnett"
+],
+[
+"Paul Pierce",
+"Pierce"
+],
+"Ray Allen",
+[
+"Tony Parker",
+"Parker"
+],
+[
+"Manu Ginóbili",
+"Manu",
+"Ginóbili"
+],
+[
+"Pau Gasol",
+"Gasol"
+],
+[
+"Gary Payton",
+"The Glove",
+"Payton"
+],
+[
+"Alonzo Mourning",
+"Mourning"
+],
+[
+"Rajon Rondo",
+"Rondo"
+],
+[
+"Lamar Odom",
+"Odom"
+],
+[
+"Derek Fisher",
+"Fisher"
+],
+[
+"Robert Horry",
+"Big Shot Bob",
+"Bob Horry",
+"Horry"
+],
+[
+"Horace Grant",
+"Grant"
+],
+[
+"Steve Kerr",
+"Kerr"
+],
+"Ben Wallace",
+[
+"Chauncey Billups",
+"Billups"
+],
+[
+"Richard Hamilton",
+"Hamilton"
+],
+"Rasheed Wallace",
+[
+"Tayshaun Prince",
+"Prince"
+],
+[
+"Ron Harper",
+"Harper"
+],
+[
+"Sam Cassell",
+"Cassell"
+],
+"David Robinson",
+[
+"Rick Fox",
+"Fox"
+],
+[
+"Glen Rice",
+"Rice"
+],
+[
+"Brian Shaw",
+"Shaw"
+],
+[
+"A.C. Green",
+"Green"
+],
+[
+"Udonis Haslem",
+"Haslem"
+],
+[
+"Kendrick Perkins",
+"Perkins"
+],
+[
+"Glen Davis",
+"Davis"
+],
+[
+"James Posey",
+"Posey"
+],
+"Tony Allen",
+[
+"Eddie House",
+"House"
+],
+"P.J. Brown",
+[
+"Bruce Bowen",
+"Bowen"
+],
+[
+"Mehmet Okur",
+"Okur"
+],
+[
+"Darko Miličić",
+"Miličić"
+],
+[
+"Corliss Williamson",
+"Williamson"
+],
+[
+"Elden Campbell",
+"Campbell"
+],
+[
+"Mike James",
+"James"
+],
+[
+"Lindsey Hunter",
+"Hunter"
+],
+[
+"Devean George",
+"George"
+],
+[
+"Tyronn Lue",
+"Ty Lue",
+"Lue"
+],
+[
+"Mark Madsen",
+"Madsen"
+],
+[
+"Slava Medvedenko",
+"Medvedenko"
+],
+[
+"Brent Barry",
+"Barry"
+],
+[
+"Beno Udrih",
+"Udrih"
+],
+[
+"John Celestand",
+"Celestand"
+],
+[
+"Travis Knight",
+"Knight"
+],
+[
+"John Salley",
+"Salley"
+],
+[
+"Greg Foster",
+"Foster"
+],
+[
+"Mike Penberthy",
+"Penberthy"
+],
+[
+"Isaiah Rider",
+"Rider"
+],
+[
+"Jelani McCoy",
+"McCoy"
+],
+[
+"Mitch Richmond",
+"Richmond"
+],
+"Samaki Walker",
+[
+"Mengke Bateer",
+"Bateer"
+],
+[
+"Speedy Claxton",
+"Claxton"
+],
+[
+"Danny Ferry",
+"Ferry"
+],
+[
+"Stephen Jackson",
+"Jackson"
+],
+[
+"Malik Rose",
+"Rose"
+],
+[
+"Steve Smith",
+"Smith"
+],
+[
+"Kevin Willis",
+"Willis"
+],
+[
+"Tremaine Fowlkes",
+"Fowlkes"
+],
+[
+"Darvin Ham",
+"Ham"
+],
+"Devin Brown",
+[
+"Linton Johnson",
+"Johnson"
+],
+[
+"Sean Marks",
+"Marks"
+],
+[
+"Tony Massenburg",
+"Massenburg"
+],
+[
+"Nazr Mohammed",
+"Mohammed"
+],
+[
+"Rasho Nesterović",
+"Nesterović"
+],
+"Glenn Robinson",
+[
+"Mike Wilks",
+"Wilks"
+],
+"Derek Anderson",
+"Shandon Anderson",
+[
+"Earl Barron",
+"Barron"
+],
+[
+"Michael Doleac",
+"Doleac"
+],
+[
+"Jason Kapono",
+"Kapono"
+],
+[
+"Wayne Simien",
+"Simien"
+],
+"Antoine Walker",
+[
+"Jason Williams",
+"Williams"
+],
+[
+"Dorell Wright",
+"Wright"
+],
+[
+"Matt Bonner",
+"Bonner"
+],
+[
+"Jackie Butler",
+"Butler"
+],
+[
+"Francisco Elson",
+"Elson"
+],
+[
+"Melvin Ely",
+"Ely"
+],
+[
+"Michael Finley",
+"Finley"
+],
+[
+"Fabricio Oberto",
+"Oberto"
+],
+[
+"Jacque Vaughn",
+"Vaughn"
+],
+[
+"James White",
+"White"
+],
+[
+"Scot Pollard",
+"Pollard"
+],
+[
+"Leon Powe",
+"Powe"
+],
+[
+"Gabe Pruitt",
+"Pruitt"
+],
+[
+"Brian Scalabrine",
+"Scalabrine"
+],
+[
+"Trevor Ariza",
+"Ariza"
+],
+"Shannon Brown",
+[
+"Andrew Bynum",
+"Bynum"
+],
+[
+"Jordan Farmar",
+"Farmar"
+],
+[
+"D. J. Mbenga",
+"Mbenga"
+],
+[
+"Adam Morrison",
+"Morrison"
+],
+[
+"Josh Powell",
+"Powell"
+],
+[
+"Sasha Vujačić",
+"Vujačić"
+],
+[
+"Luke Walton",
+"Walton"
+],
+[
+"Sun Yue",
+"Yue"
+]
+]
+},
+{
+"id": "nba-e-champions-2010s",
+"tags": [
+"finals",
+"players"
+],
+"text": "Name a player who won an NBA championship in the 2010s (on a title team's end-of-season roster, as listed on Wikipedia)",
+"answers": [
+[
+"LeBron James",
+"LeBron",
+"King James",
+"Bron"
+],
+[
+"Kobe Bryant",
+"Kobe",
+"Black Mamba",
+"Bryant"
+],
+[
+"Stephen Curry",
+"Steph",
+"Steph Curry"
+],
+[
+"Kevin Durant",
+"KD",
+"Durant"
+],
+[
+"Tim Duncan",
+"Duncan"
+],
+[
+"Dirk Nowitzki",
+"Dirk",
+"Nowitzki"
+],
+[
+"Dwyane Wade",
+"Flash",
+"D Wade",
+"Wade"
+],
+[
+"Kawhi Leonard",
+"Kawhi",
+"Leonard"
+],
+[
+"Kyrie Irving",
+"Irving"
+],
+[
+"Klay Thompson",
+"Klay"
+],
+[
+"Draymond Green",
+"Draymond"
+],
+[
+"Ray Allen",
+"Allen"
+],
+[
+"Tony Parker",
+"Parker"
+],
+[
+"Manu Ginóbili",
+"Manu",
+"Ginóbili"
+],
+"Pau Gasol",
+[
+"Chris Bosh",
+"Bosh"
+],
+[
+"Kevin Love",
+"Love"
+],
+[
+"Jason Kidd",
+"Kidd"
+],
+[
+"Andre Iguodala",
+"Iguodala"
+],
+"Marc Gasol",
+[
+"Kyle Lowry",
+"Lowry"
+],
+[
+"Pascal Siakam",
+"Siakam"
+],
+[
+"Serge Ibaka",
+"Ibaka"
+],
+[
+"Fred VanVleet",
+"VanVleet"
+],
+[
+"Lamar Odom",
+"Odom"
+],
+[
+"Ron Artest",
+"Metta World Peace",
+"Metta Sandiford-Artest",
+"Metta Artest",
+"Artest"
+],
+[
+"Derek Fisher",
+"Fisher"
+],
+[
+"Tyson Chandler",
+"Chandler"
+],
+[
+"Jason Terry",
+"Terry"
+],
+[
+"Shawn Marion",
+"Marion"
+],
+[
+"Peja Stojaković",
+"Peja",
+"Stojaković"
+],
+[
+"J. R. Smith",
+"Smith"
+],
+"Tristan Thompson",
+[
+"Mo Williams",
+"Williams"
+],
+[
+"Richard Jefferson",
+"Jefferson"
+],
+[
+"Matthew Dellavedova",
+"Dellavedova"
+],
+[
+"Iman Shumpert",
+"Shumpert"
+],
+[
+"Channing Frye",
+"Frye"
+],
+[
+"Shaun Livingston",
+"Livingston"
+],
+[
+"Zaza Pachulia",
+"Pachulia"
+],
+[
+"David West",
+"West"
+],
+[
+"JaVale McGee",
+"McGee"
+],
+"Harrison Barnes",
+[
+"Andrew Bogut",
+"Bogut"
+],
+[
+"Leandro Barbosa",
+"Barbosa"
+],
+"Danny Green",
+[
+"Patty Mills",
+"Mills"
+],
+[
+"Boris Diaw",
+"Diaw"
+],
+[
+"Tiago Splitter",
+"Splitter"
+],
+[
+"Marco Belinelli",
+"Belinelli"
+],
+"Mike Miller",
+[
+"Udonis Haslem",
+"Haslem"
+],
+[
+"Mario Chalmers",
+"Chalmers"
+],
+[
+"Shane Battier",
+"Battier"
+],
+[
+"Chris Andersen",
+"Andersen"
+],
+[
+"Kevon Looney",
+"Looney"
+],
+[
+"Rashard Lewis",
+"Lewis"
+],
+[
+"Norris Cole",
+"Cole"
+],
+[
+"Juwan Howard",
+"Howard"
+],
+[
+"Joel Anthony",
+"Anthony"
+],
+"James Jones",
+[
+"Patrick McCaw",
+"McCaw"
+],
+[
+"James Michael McAdoo",
+"McAdoo"
+],
+"Damian Jones",
+[
+"Chris Boucher",
+"Boucher"
+],
+[
+"Shannon Brown",
+"Brown"
+],
+[
+"Andrew Bynum",
+"Bynum"
+],
+[
+"Jordan Farmar",
+"Farmar"
+],
+[
+"D. J. Mbenga",
+"Mbenga"
+],
+[
+"Adam Morrison",
+"Morrison"
+],
+"Josh Powell",
+[
+"Sasha Vujačić",
+"Vujačić"
+],
+[
+"Luke Walton",
+"Walton"
+],
+[
+"José Juan Barea",
+"Barea"
+],
+[
+"Rodrigue Beaubois",
+"Beaubois"
+],
+[
+"Corey Brewer",
+"Brewer"
+],
+[
+"Caron Butler",
+"Butler"
+],
+[
+"Brian Cardinal",
+"Cardinal"
+],
+[
+"Brendan Haywood",
+"Haywood"
+],
+"Dominique Jones",
+[
+"Ian Mahinmi",
+"Mahinmi"
+],
+[
+"DeShawn Stevenson",
+"Stevenson"
+],
+[
+"Alexis Ajinça",
+"Ajinça"
+],
+[
+"Steve Novak",
+"Novak"
+],
+[
+"Sasha Pavlović",
+"Pavlović"
+],
+"Eddy Curry",
+[
+"Terrel Harris",
+"Harris"
+],
+[
+"Dexter Pittman",
+"Pittman"
+],
+[
+"Ronny Turiaf",
+"Turiaf"
+],
+[
+"Jarvis Varnado",
+"Varnado"
+],
+[
+"Jeff Ayres",
+"Ayres"
+],
+[
+"Aron Baynes",
+"Baynes"
+],
+[
+"Matt Bonner",
+"Bonner"
+],
+[
+"Austin Daye",
+"Daye"
+],
+"Damion James",
+[
+"Cory Joseph",
+"Joseph"
+],
+[
+"Festus Ezeli",
+"Ezeli"
+],
+[
+"Justin Holiday",
+"Holiday"
+],
+[
+"Ognjen Kuzmić",
+"Kuzmić"
+],
+[
+"David Lee",
+"Lee"
+],
+[
+"Brandon Rush",
+"Rush"
+],
+[
+"Marreese Speights",
+"Speights"
+],
+"Dahntay Jones",
+[
+"Sasha Kaun",
+"Kaun"
+],
+[
+"Jordan McRae",
+"McRae"
+],
+[
+"Timofey Mozgov",
+"Mozgov"
+],
+"Matt Barnes",
+[
+"Ian Clark",
+"Clark"
+],
+[
+"Jordan Bell",
+"Bell"
+],
+[
+"Quinn Cook",
+"Cook"
+],
+[
+"Nick Young",
+"Young"
+],
+[
+"OG Anunoby",
+"Anunoby"
+],
+[
+"Jeremy Lin",
+"Lin"
+],
+[
+"Jordan Loyd",
+"Loyd"
+],
+[
+"Jodie Meeks",
+"Meeks"
+],
+"Malcolm Miller",
+[
+"Eric Moreland",
+"Moreland"
+],
+"Norman Powell"
+]
+},
+{
+"id": "nba-e-champions-1990s",
+"tags": [
+"finals",
+"players"
+],
+"text": "Name a player who won an NBA championship in the 1990s (on a title team's end-of-season roster, as listed on Wikipedia)",
+"answers": [
+[
+"Michael Jordan",
+"MJ",
+"Air Jordan",
+"Jordan"
+],
+[
+"Tim Duncan",
+"Duncan"
+],
+[
+"Scottie Pippen",
+"Scottie",
+"Pippen"
+],
+[
+"Dennis Rodman",
+"The Worm",
+"Rodman"
+],
+[
+"Hakeem Olajuwon",
+"Hakeem",
+"The Dream",
+"Olajuwon"
+],
+[
+"Clyde Drexler",
+"Drexler"
+],
+[
+"Isiah Thomas",
+"Thomas"
+],
+[
+"Joe Dumars",
+"Dumars"
+],
+[
+"Robert Parish",
+"Parish"
+],
+[
+"Robert Horry",
+"Big Shot Bob",
+"Bob Horry",
+"Horry"
+],
+[
+"Horace Grant",
+"Grant"
+],
+[
+"Steve Kerr",
+"Kerr"
+],
+[
+"Toni Kukoč",
+"Kukoč"
+],
+[
+"Luc Longley",
+"Longley"
+],
+[
+"Ron Harper",
+"Harper"
+],
+[
+"BJ Armstrong",
+"Armstrong"
+],
+[
+"John Paxson",
+"Paxson"
+],
+[
+"Bill Cartwright",
+"Cartwright"
+],
+[
+"Sam Cassell",
+"Cassell"
+],
+[
+"Kenny Smith",
+"Smith"
+],
+[
+"Mario Elie",
+"Elie"
+],
+"David Robinson",
+"Avery Johnson",
+[
+"Sean Elliott",
+"Elliott"
+],
+[
+"Will Perdue",
+"Perdue"
+],
+"Stacey King",
+"Scott Williams",
+"Randy Brown",
+[
+"Jud Buechler",
+"Buechler"
+],
+[
+"Dickey Simpkins",
+"Simpkins"
+],
+[
+"Bill Wennington",
+"Wennington"
+],
+[
+"James Edwards",
+"Edwards"
+],
+[
+"John Salley",
+"Salley"
+],
+[
+"Craig Hodges",
+"Hodges"
+],
+[
+"Cliff Levingston",
+"Levingston"
+],
+[
+"Carl Herrera",
+"Herrera"
+],
+[
+"Vernon Maxwell",
+"Maxwell"
+],
+[
+"Jason Caffey",
+"Caffey"
+],
+[
+"Mark Aguirre",
+"Aguirre"
+],
+[
+"William Bedford",
+"Bedford"
+],
+[
+"Dave Greenwood",
+"Greenwood"
+],
+[
+"Scott Hastings",
+"Hastings"
+],
+[
+"Gerald Henderson",
+"Henderson"
+],
+"Vinnie Johnson",
+[
+"Bill Laimbeer",
+"Laimbeer"
+],
+[
+"Dennis Hopson",
+"Hopson"
+],
+[
+"Bobby Hansen",
+"Hansen"
+],
+[
+"Ricky Blanton",
+"Blanton"
+],
+[
+"Joe Courtney",
+"Courtney"
+],
+[
+"Jo Jo English",
+"English"
+],
+[
+"Rodney McCray",
+"McCray"
+],
+[
+"Ed Nealy",
+"Nealy"
+],
+[
+"Trent Tucker",
+"Tucker"
+],
+[
+"Darrell Walker",
+"Walker"
+],
+"Corey Williams",
+[
+"Scott Brooks",
+"Brooks"
+],
+[
+"Matt Bullard",
+"Bullard"
+],
+[
+"Earl Cureton",
+"Cureton"
+],
+[
+"Chris Jent",
+"Jent"
+],
+[
+"Richard Petruska",
+"Petruska"
+],
+[
+"Eric Riley",
+"Riley"
+],
+"Larry Robinson",
+[
+"Otis Thorpe",
+"Thorpe"
+],
+[
+"Tim Breaux",
+"Breaux"
+],
+"Chucky Brown",
+[
+"Pete Chilcutt",
+"Chilcutt"
+],
+[
+"Charles Jones",
+"Jones"
+],
+[
+"Tracy Murray",
+"Murray"
+],
+[
+"Žan Tabak",
+"Tabak"
+],
+[
+"Jack Haley",
+"Haley"
+],
+[
+"Matt Steigenga",
+"Steigenga"
+],
+"Brian Williams",
+[
+"Keith Booth",
+"Booth"
+],
+[
+"Scott Burrell",
+"Burrell"
+],
+[
+"Joe Kleine",
+"Kleine"
+],
+[
+"Rusty LaRue",
+"LaRue"
+],
+[
+"Antonio Daniels",
+"Daniels"
+],
+[
+"Andrew Gaze",
+"Gaze"
+],
+[
+"Jaren Jackson",
+"Jackson"
+],
+[
+"Jerome Kersey",
+"Kersey"
+],
+"Gerard King",
+[
+"Malik Rose",
+"Rose"
+],
+"Brandon Williams"
+]
+}
+]
+}
