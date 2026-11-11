@@ -1,0 +1,5654 @@
+{
+"cat": "nba",
+"prompts": [
+{
+"id": "nba-a-points-25k",
+"tags": [
+"stats",
+"players"
+],
+"text": "Name a player with 25,000 or more career NBA regular-season points (as of November 2026)",
+"answers": [
+[
+"LeBron James",
+"James",
+"LeBron",
+"King James"
+],
+[
+"Kareem Abdul-Jabbar",
+"Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor"
+],
+[
+"Karl Malone",
+"The Mailman",
+"Malone"
+],
+[
+"Kobe Bryant",
+"Bryant",
+"Kobe",
+"Black Mamba"
+],
+[
+"Kevin Durant",
+"Durant",
+"KD"
+],
+[
+"Michael Jordan",
+"Jordan",
+"MJ",
+"Mike Jordan"
+],
+[
+"Dirk Nowitzki",
+"Nowitzki",
+"Dirk"
+],
+[
+"Wilt Chamberlain",
+"Chamberlain",
+"Wilt",
+"Wilt the Stilt"
+],
+[
+"James Harden",
+"Harden",
+"The Beard"
+],
+[
+"Shaquille O'Neal",
+"O'Neal",
+"Shaq",
+"Shaquille"
+],
+[
+"Carmelo Anthony",
+"Anthony",
+"Melo",
+"Carmelo"
+],
+"Moses Malone",
+[
+"Elvin Hayes",
+"Hayes"
+],
+[
+"Russell Westbrook",
+"Westbrook",
+"Russ"
+],
+[
+"Hakeem Olajuwon",
+"Olajuwon",
+"Hakeem",
+"Akeem Olajuwon",
+"The Dream"
+],
+[
+"Stephen Curry",
+"Curry",
+"Steph Curry",
+"Steph"
+],
+[
+"DeMar DeRozan",
+"DeRozan"
+],
+[
+"Oscar Robertson",
+"Robertson",
+"Big O",
+"The Big O"
+],
+[
+"Dominique Wilkins",
+"Wilkins"
+],
+[
+"Tim Duncan",
+"Duncan",
+"Timmy"
+],
+[
+"Paul Pierce",
+"Pierce"
+],
+[
+"John Havlicek",
+"Havlicek"
+],
+[
+"Kevin Garnett",
+"Garnett",
+"KG"
+],
+[
+"Vince Carter",
+"Carter",
+"Vinsanity"
+],
+[
+"Alex English",
+"English"
+],
+[
+"Reggie Miller",
+"Miller"
+]
+],
+"eraText": "Name a player with 25,000 or more career NBA points who played in the {era}",
+"eras": {
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"Kareem Abdul-Jabbar": [
+"60s",
+"70s",
+"80s"
+],
+"Karl Malone": [
+"80s",
+"90s",
+"00s"
+],
+"Kobe Bryant": [
+"90s",
+"00s",
+"10s"
+],
+"Kevin Durant": [
+"00s",
+"10s",
+"20s"
+],
+"Michael Jordan": [
+"80s",
+"90s",
+"00s"
+],
+"Dirk Nowitzki": [
+"90s",
+"00s",
+"10s"
+],
+"Wilt Chamberlain": [
+"60s",
+"70s"
+],
+"James Harden": [
+"00s",
+"10s",
+"20s"
+],
+"Shaquille O'Neal": [
+"90s",
+"00s",
+"10s"
+],
+"Carmelo Anthony": [
+"00s",
+"10s",
+"20s"
+],
+"Moses Malone": [
+"70s",
+"80s",
+"90s"
+],
+"Elvin Hayes": [
+"60s",
+"70s",
+"80s"
+],
+"Russell Westbrook": [
+"00s",
+"10s",
+"20s"
+],
+"Hakeem Olajuwon": [
+"80s",
+"90s",
+"00s"
+],
+"Stephen Curry": [
+"00s",
+"10s",
+"20s"
+],
+"DeMar DeRozan": [
+"00s",
+"10s",
+"20s"
+],
+"Oscar Robertson": [
+"60s",
+"70s"
+],
+"Dominique Wilkins": [
+"80s",
+"90s"
+],
+"Tim Duncan": [
+"90s",
+"00s",
+"10s"
+],
+"Paul Pierce": [
+"90s",
+"00s",
+"10s"
+],
+"John Havlicek": [
+"60s",
+"70s"
+],
+"Kevin Garnett": [
+"90s",
+"00s",
+"10s"
+],
+"Vince Carter": [
+"90s",
+"00s",
+"10s"
+],
+"Alex English": [
+"70s",
+"80s",
+"90s"
+],
+"Reggie Miller": [
+"80s",
+"90s",
+"00s"
+]
+}
+},
+{
+"id": "nba-a-assists-7k",
+"tags": [
+"stats",
+"players"
+],
+"text": "Name a player with 7,000 or more career NBA regular-season assists (as of November 2026)",
+"answers": [
+[
+"John Stockton",
+"Stockton"
+],
+[
+"Chris Paul",
+"Paul",
+"CP3"
+],
+[
+"Jason Kidd",
+"Kidd",
+"J Kidd"
+],
+[
+"LeBron James",
+"James",
+"LeBron",
+"King James"
+],
+[
+"Russell Westbrook",
+"Westbrook",
+"Russ"
+],
+[
+"Steve Nash",
+"Nash"
+],
+[
+"Mark Jackson",
+"Jackson"
+],
+[
+"Magic Johnson",
+"Johnson",
+"Magic",
+"Earvin Johnson"
+],
+[
+"Oscar Robertson",
+"Robertson",
+"Big O",
+"The Big O"
+],
+[
+"Isiah Thomas",
+"Thomas"
+],
+[
+"Gary Payton",
+"Payton"
+],
+[
+"James Harden",
+"Harden",
+"The Beard"
+],
+[
+"Andre Miller",
+"Miller"
+],
+[
+"Rod Strickland",
+"Strickland"
+],
+[
+"Rajon Rondo",
+"Rondo"
+],
+[
+"Maurice Cheeks",
+"Cheeks"
+],
+[
+"Lenny Wilkens",
+"Wilkens"
+],
+[
+"Terry Porter",
+"Porter"
+],
+[
+"Kyle Lowry",
+"Lowry"
+],
+[
+"Tim Hardaway",
+"Hardaway"
+],
+[
+"Tony Parker",
+"Parker"
+]
+],
+"eraText": "Name a player with 7,000 or more career NBA assists who played in the {era}",
+"eras": {
+"John Stockton": [
+"80s",
+"90s",
+"00s"
+],
+"Chris Paul": [
+"00s",
+"10s",
+"20s"
+],
+"Jason Kidd": [
+"90s",
+"00s",
+"10s"
+],
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"Russell Westbrook": [
+"00s",
+"10s",
+"20s"
+],
+"Steve Nash": [
+"90s",
+"00s",
+"10s"
+],
+"Mark Jackson": [
+"80s",
+"90s",
+"00s"
+],
+"Magic Johnson": [
+"70s",
+"80s",
+"90s"
+],
+"Oscar Robertson": [
+"60s",
+"70s"
+],
+"Isiah Thomas": [
+"80s",
+"90s"
+],
+"Gary Payton": [
+"90s",
+"00s"
+],
+"James Harden": [
+"00s",
+"10s",
+"20s"
+],
+"Andre Miller": [
+"90s",
+"00s",
+"10s"
+],
+"Rod Strickland": [
+"80s",
+"90s",
+"00s"
+],
+"Rajon Rondo": [
+"00s",
+"10s",
+"20s"
+],
+"Maurice Cheeks": [
+"70s",
+"80s",
+"90s"
+],
+"Lenny Wilkens": [
+"60s",
+"70s"
+],
+"Terry Porter": [
+"80s",
+"90s",
+"00s"
+],
+"Kyle Lowry": [
+"00s",
+"10s",
+"20s"
+],
+"Tim Hardaway": [
+"80s",
+"90s",
+"00s"
+],
+"Tony Parker": [
+"00s",
+"10s"
+]
+}
+},
+{
+"id": "nba-a-rebounds-12k",
+"tags": [
+"stats",
+"players"
+],
+"text": "Name a player with 12,000 or more career NBA regular-season rebounds (as of November 2026)",
+"answers": [
+[
+"Wilt Chamberlain",
+"Chamberlain",
+"Wilt",
+"Wilt the Stilt"
+],
+[
+"Bill Russell",
+"Russell"
+],
+[
+"Kareem Abdul-Jabbar",
+"Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor"
+],
+[
+"Elvin Hayes",
+"Hayes"
+],
+"Moses Malone",
+[
+"Tim Duncan",
+"Duncan",
+"Timmy"
+],
+[
+"Karl Malone",
+"The Mailman",
+"Malone"
+],
+[
+"Robert Parish",
+"Parish"
+],
+[
+"Kevin Garnett",
+"Garnett",
+"KG"
+],
+[
+"Dwight Howard",
+"Howard"
+],
+[
+"Nate Thurmond",
+"Thurmond"
+],
+[
+"Walt Bellamy",
+"Bellamy"
+],
+[
+"Wes Unseld",
+"Unseld"
+],
+[
+"Hakeem Olajuwon",
+"Olajuwon",
+"Hakeem",
+"Akeem Olajuwon",
+"The Dream"
+],
+[
+"Shaquille O'Neal",
+"O'Neal",
+"Shaq",
+"Shaquille"
+],
+[
+"Buck Williams",
+"Williams"
+],
+[
+"Jerry Lucas",
+"Lucas"
+],
+[
+"Bob Pettit",
+"Pettit"
+],
+[
+"Charles Barkley",
+"Barkley",
+"Sir Charles"
+],
+[
+"Dikembe Mutombo",
+"Mutombo"
+],
+[
+"Paul Silas",
+"Silas"
+],
+[
+"Charles Oakley",
+"Oakley"
+],
+[
+"LeBron James",
+"James",
+"LeBron",
+"King James"
+]
+],
+"eraText": "Name a player with 12,000 or more career NBA rebounds who played in the {era}",
+"eras": {
+"Wilt Chamberlain": [
+"60s",
+"70s"
+],
+"Bill Russell": [
+"60s"
+],
+"Kareem Abdul-Jabbar": [
+"60s",
+"70s",
+"80s"
+],
+"Elvin Hayes": [
+"60s",
+"70s",
+"80s"
+],
+"Moses Malone": [
+"70s",
+"80s",
+"90s"
+],
+"Tim Duncan": [
+"90s",
+"00s",
+"10s"
+],
+"Karl Malone": [
+"80s",
+"90s",
+"00s"
+],
+"Robert Parish": [
+"70s",
+"80s",
+"90s"
+],
+"Kevin Garnett": [
+"90s",
+"00s",
+"10s"
+],
+"Dwight Howard": [
+"00s",
+"10s",
+"20s"
+],
+"Nate Thurmond": [
+"60s",
+"70s"
+],
+"Walt Bellamy": [
+"60s",
+"70s"
+],
+"Wes Unseld": [
+"60s",
+"70s",
+"80s"
+],
+"Hakeem Olajuwon": [
+"80s",
+"90s",
+"00s"
+],
+"Shaquille O'Neal": [
+"90s",
+"00s",
+"10s"
+],
+"Buck Williams": [
+"80s",
+"90s"
+],
+"Jerry Lucas": [
+"60s",
+"70s"
+],
+"Bob Pettit": [
+"60s"
+],
+"Charles Barkley": [
+"80s",
+"90s"
+],
+"Dikembe Mutombo": [
+"90s",
+"00s"
+],
+"Paul Silas": [
+"60s",
+"70s"
+],
+"Charles Oakley": [
+"80s",
+"90s",
+"00s"
+],
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+]
+}
+},
+{
+"id": "nba-a-threes-2000",
+"tags": [
+"stats",
+"players"
+],
+"text": "Name a player with 2,000 or more career NBA three-pointers made (as of November 2026)",
+"answers": [
+[
+"Stephen Curry",
+"Curry",
+"Steph Curry",
+"Steph"
+],
+[
+"James Harden",
+"Harden",
+"The Beard"
+],
+[
+"Ray Allen",
+"Allen"
+],
+[
+"Klay Thompson",
+"Thompson",
+"Klay"
+],
+[
+"Damian Lillard",
+"Lillard",
+"Dame",
+"Dame Lillard"
+],
+[
+"LeBron James",
+"James",
+"LeBron",
+"King James"
+],
+[
+"Reggie Miller",
+"Miller"
+],
+[
+"Paul George",
+"George",
+"PG",
+"PG13"
+],
+[
+"Kyle Korver",
+"Korver"
+],
+[
+"Kevin Durant",
+"Durant",
+"KD"
+],
+[
+"Vince Carter",
+"Carter",
+"Vinsanity"
+],
+[
+"Jason Terry",
+"Terry"
+],
+[
+"Jamal Crawford",
+"Crawford"
+],
+[
+"Buddy Hield",
+"Hield"
+],
+[
+"Kyle Lowry",
+"Lowry"
+],
+[
+"CJ McCollum",
+"McCollum"
+],
+[
+"Paul Pierce",
+"Pierce"
+],
+[
+"Eric Gordon",
+"Gordon"
+],
+[
+"Tim Hardaway Jr.",
+"Tim Hardaway",
+"Hardaway"
+]
+],
+"eraText": "Name a player with 2,000 or more career NBA three-pointers who played in the {era}",
+"eras": {
+"Stephen Curry": [
+"00s",
+"10s",
+"20s"
+],
+"James Harden": [
+"00s",
+"10s",
+"20s"
+],
+"Ray Allen": [
+"90s",
+"00s",
+"10s"
+],
+"Klay Thompson": [
+"10s",
+"20s"
+],
+"Damian Lillard": [
+"10s",
+"20s"
+],
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"Reggie Miller": [
+"80s",
+"90s",
+"00s"
+],
+"Paul George": [
+"10s",
+"20s"
+],
+"Kyle Korver": [
+"00s",
+"10s"
+],
+"Kevin Durant": [
+"00s",
+"10s",
+"20s"
+],
+"Vince Carter": [
+"90s",
+"00s",
+"10s"
+],
+"Jason Terry": [
+"90s",
+"00s",
+"10s"
+],
+"Jamal Crawford": [
+"00s",
+"10s"
+],
+"Buddy Hield": [
+"10s",
+"20s"
+],
+"Kyle Lowry": [
+"00s",
+"10s",
+"20s"
+],
+"CJ McCollum": [
+"10s",
+"20s"
+],
+"Paul Pierce": [
+"90s",
+"00s",
+"10s"
+],
+"Eric Gordon": [
+"00s",
+"10s",
+"20s"
+],
+"Tim Hardaway Jr.": [
+"10s",
+"20s"
+]
+}
+},
+{
+"id": "nba-a-steals-1800",
+"tags": [
+"stats",
+"players"
+],
+"text": "Name a player with 1,800 or more career NBA regular-season steals (as of November 2026)",
+"answers": [
+[
+"John Stockton",
+"Stockton"
+],
+[
+"Chris Paul",
+"Paul",
+"CP3"
+],
+[
+"Jason Kidd",
+"Kidd",
+"J Kidd"
+],
+[
+"Michael Jordan",
+"Jordan",
+"MJ",
+"Mike Jordan"
+],
+[
+"Gary Payton",
+"Payton"
+],
+[
+"LeBron James",
+"James",
+"LeBron",
+"King James"
+],
+[
+"Maurice Cheeks",
+"Cheeks"
+],
+[
+"Scottie Pippen",
+"Pippen"
+],
+[
+"Clyde Drexler",
+"Drexler"
+],
+[
+"Hakeem Olajuwon",
+"Olajuwon",
+"Hakeem",
+"Akeem Olajuwon",
+"The Dream"
+],
+[
+"Alvin Robertson",
+"Robertson"
+],
+[
+"Karl Malone",
+"Malone",
+"The Mailman"
+],
+[
+"Mookie Blaylock",
+"Blaylock"
+],
+[
+"Russell Westbrook",
+"Westbrook",
+"Russ"
+],
+[
+"Allen Iverson",
+"Iverson",
+"AI"
+],
+[
+"Derek Harper",
+"Harper"
+],
+[
+"Kobe Bryant",
+"Bryant",
+"Kobe",
+"Black Mamba"
+],
+[
+"Isiah Thomas",
+"Thomas"
+],
+[
+"Kevin Garnett",
+"Garnett",
+"KG"
+],
+[
+"James Harden",
+"Harden",
+"The Beard"
+]
+],
+"eraText": "Name a player with 1,800 or more career NBA steals who played in the {era}",
+"eras": {
+"John Stockton": [
+"80s",
+"90s",
+"00s"
+],
+"Chris Paul": [
+"00s",
+"10s",
+"20s"
+],
+"Jason Kidd": [
+"90s",
+"00s",
+"10s"
+],
+"Michael Jordan": [
+"80s",
+"90s",
+"00s"
+],
+"Gary Payton": [
+"90s",
+"00s"
+],
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"Maurice Cheeks": [
+"70s",
+"80s",
+"90s"
+],
+"Scottie Pippen": [
+"80s",
+"90s",
+"00s"
+],
+"Clyde Drexler": [
+"80s",
+"90s"
+],
+"Hakeem Olajuwon": [
+"80s",
+"90s",
+"00s"
+],
+"Alvin Robertson": [
+"80s",
+"90s"
+],
+"Karl Malone": [
+"80s",
+"90s",
+"00s"
+],
+"Mookie Blaylock": [
+"80s",
+"90s",
+"00s"
+],
+"Russell Westbrook": [
+"00s",
+"10s",
+"20s"
+],
+"Allen Iverson": [
+"90s",
+"00s"
+],
+"Derek Harper": [
+"80s",
+"90s"
+],
+"Kobe Bryant": [
+"90s",
+"00s",
+"10s"
+],
+"Isiah Thomas": [
+"80s",
+"90s"
+],
+"Kevin Garnett": [
+"90s",
+"00s",
+"10s"
+],
+"James Harden": [
+"00s",
+"10s",
+"20s"
+]
+},
+"deep": true
+},
+{
+"id": "nba-a-blocks-1500",
+"tags": [
+"stats",
+"players"
+],
+"text": "Name a player with 1,500 or more career NBA regular-season blocks (as of November 2026)",
+"answers": [
+[
+"Hakeem Olajuwon",
+"Olajuwon",
+"Hakeem",
+"Akeem Olajuwon",
+"The Dream"
+],
+[
+"Dikembe Mutombo",
+"Mutombo"
+],
+[
+"Kareem Abdul-Jabbar",
+"Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor"
+],
+[
+"Mark Eaton",
+"Eaton"
+],
+[
+"Tim Duncan",
+"Duncan",
+"Timmy"
+],
+[
+"David Robinson",
+"Robinson"
+],
+[
+"Patrick Ewing",
+"Ewing"
+],
+[
+"Shaquille O'Neal",
+"Shaq",
+"O'Neal",
+"Shaquille"
+],
+[
+"Tree Rollins",
+"Rollins"
+],
+[
+"Robert Parish",
+"Parish"
+],
+[
+"Alonzo Mourning",
+"Mourning"
+],
+[
+"Marcus Camby",
+"Camby"
+],
+[
+"Dwight Howard",
+"Howard"
+],
+[
+"Brook Lopez",
+"Lopez"
+],
+[
+"Ben Wallace",
+"Wallace"
+],
+[
+"Shawn Bradley",
+"Bradley"
+],
+[
+"Manute Bol",
+"Bol"
+],
+[
+"George T. Johnson",
+"Johnson"
+],
+[
+"Kevin Garnett",
+"Garnett",
+"KG"
+],
+[
+"Larry Nance",
+"Nance"
+],
+[
+"Theo Ratliff",
+"Ratliff"
+],
+[
+"Pau Gasol",
+"Gasol"
+],
+[
+"Anthony Davis",
+"Davis",
+"AD"
+],
+[
+"Rudy Gobert",
+"Gobert"
+],
+[
+"Elton Brand",
+"Brand"
+],
+"Jermaine O'Neal",
+[
+"Elvin Hayes",
+"Hayes"
+],
+[
+"Serge Ibaka",
+"Ibaka"
+],
+[
+"Artis Gilmore",
+"Gilmore"
+],
+[
+"Moses Malone",
+"Malone"
+],
+[
+"Josh Smith",
+"Smith"
+],
+[
+"Kevin McHale",
+"McHale"
+],
+[
+"Vlade Divac",
+"Divac"
+],
+[
+"Herb Williams",
+"Williams"
+],
+[
+"Elden Campbell",
+"Campbell"
+],
+[
+"Benoit Benjamin",
+"Benjamin"
+],
+[
+"DeAndre Jordan",
+"Jordan"
+],
+[
+"Myles Turner",
+"Turner"
+],
+[
+"Samuel Dalembert",
+"Dalembert"
+],
+[
+"Wayne Cooper",
+"Cooper"
+],
+[
+"Caldwell Jones",
+"Jones"
+]
+],
+"eraText": "Name a player with 1,500 or more career NBA blocks who played in the {era}",
+"eras": {
+"Hakeem Olajuwon": [
+"80s",
+"90s",
+"00s"
+],
+"Dikembe Mutombo": [
+"90s",
+"00s"
+],
+"Kareem Abdul-Jabbar": [
+"60s",
+"70s",
+"80s"
+],
+"Mark Eaton": [
+"80s",
+"90s"
+],
+"Tim Duncan": [
+"90s",
+"00s",
+"10s"
+],
+"David Robinson": [
+"80s",
+"90s",
+"00s"
+],
+"Patrick Ewing": [
+"80s",
+"90s",
+"00s"
+],
+"Shaquille O'Neal": [
+"90s",
+"00s",
+"10s"
+],
+"Tree Rollins": [
+"70s",
+"80s",
+"90s"
+],
+"Robert Parish": [
+"70s",
+"80s",
+"90s"
+],
+"Alonzo Mourning": [
+"90s",
+"00s"
+],
+"Marcus Camby": [
+"90s",
+"00s",
+"10s"
+],
+"Dwight Howard": [
+"00s",
+"10s",
+"20s"
+],
+"Brook Lopez": [
+"00s",
+"10s",
+"20s"
+],
+"Ben Wallace": [
+"90s",
+"00s",
+"10s"
+],
+"Shawn Bradley": [
+"90s",
+"00s"
+],
+"Manute Bol": [
+"80s",
+"90s"
+],
+"George T. Johnson": [
+"70s",
+"80s"
+],
+"Kevin Garnett": [
+"90s",
+"00s",
+"10s"
+],
+"Larry Nance": [
+"80s",
+"90s"
+],
+"Theo Ratliff": [
+"90s",
+"00s",
+"10s"
+],
+"Pau Gasol": [
+"00s",
+"10s"
+],
+"Anthony Davis": [
+"10s",
+"20s"
+],
+"Rudy Gobert": [
+"10s",
+"20s"
+],
+"Elton Brand": [
+"90s",
+"00s",
+"10s"
+],
+"Jermaine O'Neal": [
+"90s",
+"00s",
+"10s"
+],
+"Elvin Hayes": [
+"60s",
+"70s",
+"80s"
+],
+"Serge Ibaka": [
+"00s",
+"10s",
+"20s"
+],
+"Artis Gilmore": [
+"70s",
+"80s"
+],
+"Moses Malone": [
+"70s",
+"80s",
+"90s"
+],
+"Josh Smith": [
+"00s",
+"10s"
+],
+"Kevin McHale": [
+"80s",
+"90s"
+],
+"Vlade Divac": [
+"80s",
+"90s",
+"00s"
+],
+"Herb Williams": [
+"80s",
+"90s"
+],
+"Elden Campbell": [
+"90s",
+"00s"
+],
+"Benoit Benjamin": [
+"80s",
+"90s"
+],
+"DeAndre Jordan": [
+"00s",
+"10s",
+"20s"
+],
+"Myles Turner": [
+"10s",
+"20s"
+],
+"Samuel Dalembert": [
+"00s",
+"10s"
+],
+"Wayne Cooper": [
+"70s",
+"80s",
+"90s"
+],
+"Caldwell Jones": [
+"70s",
+"80s"
+]
+},
+"deep": true
+},
+{
+"id": "nba-a-60-point-games",
+"tags": [
+"stats",
+"players"
+],
+"text": "Name a player who has scored 60 or more points in an NBA regular-season game (to November 2026)",
+"answers": [
+[
+"Wilt Chamberlain",
+"Chamberlain",
+"Wilt",
+"Wilt the Stilt"
+],
+[
+"Kobe Bryant",
+"Bryant",
+"Kobe",
+"Black Mamba"
+],
+[
+"Michael Jordan",
+"Jordan",
+"MJ",
+"Mike Jordan"
+],
+[
+"LeBron James",
+"James",
+"LeBron",
+"King James"
+],
+[
+"Stephen Curry",
+"Curry",
+"Steph Curry",
+"Steph"
+],
+[
+"Luka Dončić",
+"Dončić",
+"Luka"
+],
+[
+"Damian Lillard",
+"Lillard",
+"Dame",
+"Dame Lillard"
+],
+[
+"Devin Booker",
+"Booker"
+],
+[
+"James Harden",
+"Harden",
+"The Beard"
+],
+[
+"Klay Thompson",
+"Klay",
+"Thompson"
+],
+[
+"Joel Embiid",
+"Embiid"
+],
+[
+"Giannis Antetokounmpo",
+"Antetokounmpo",
+"Giannis",
+"Greek Freak"
+],
+[
+"Donovan Mitchell",
+"Mitchell",
+"Spida"
+],
+[
+"Shaquille O'Neal",
+"O'Neal",
+"Shaq",
+"Shaquille"
+],
+[
+"Bam Adebayo",
+"Adebayo",
+"Bam"
+],
+[
+"Karl-Anthony Towns",
+"Towns",
+"KAT",
+"Karl Anthony Towns"
+],
+[
+"Kyrie Irving",
+"Irving",
+"Kyrie"
+],
+[
+"Jayson Tatum",
+"Tatum"
+],
+[
+"Carmelo Anthony",
+"Anthony",
+"Melo",
+"Carmelo"
+],
+[
+"Allen Iverson",
+"Iverson",
+"AI"
+],
+[
+"Nikola Jokić",
+"Jokić",
+"Joker"
+],
+[
+"Jalen Brunson",
+"Brunson"
+],
+"David Thompson",
+[
+"Elgin Baylor",
+"Baylor"
+],
+[
+"David Robinson",
+"Robinson"
+],
+[
+"Pete Maravich",
+"Maravich",
+"Pistol Pete"
+],
+[
+"Rick Barry",
+"Barry"
+],
+[
+"Joe Fulks",
+"Fulks"
+],
+[
+"Jerry West",
+"West",
+"The Logo"
+],
+[
+"George Gervin",
+"Gervin"
+],
+[
+"Tracy McGrady",
+"McGrady",
+"T-Mac",
+"TMac"
+],
+[
+"George Mikan",
+"Mikan"
+],
+[
+"Karl Malone",
+"Malone",
+"The Mailman"
+],
+[
+"Bernard King",
+"King"
+],
+[
+"Larry Bird",
+"Bird"
+],
+[
+"Tom Chambers",
+"Chambers"
+],
+[
+"Gilbert Arenas",
+"Arenas"
+],
+[
+"Kemba Walker",
+"Walker"
+],
+[
+"Bradley Beal",
+"Beal"
+],
+[
+"De'Aaron Fox",
+"Fox"
+]
+],
+"eraText": "Name a player who scored 60 or more points in an NBA regular-season game in the {era}",
+"eras": {
+"Wilt Chamberlain": [
+"60s"
+],
+"Kobe Bryant": [
+"00s",
+"10s"
+],
+"Michael Jordan": [
+"80s",
+"90s"
+],
+"LeBron James": [
+"10s"
+],
+"Stephen Curry": [
+"20s"
+],
+"Luka Dončić": [
+"20s"
+],
+"Damian Lillard": [
+"10s",
+"20s"
+],
+"Devin Booker": [
+"10s",
+"20s"
+],
+"James Harden": [
+"10s"
+],
+"Klay Thompson": [
+"10s"
+],
+"Joel Embiid": [
+"20s"
+],
+"Giannis Antetokounmpo": [
+"20s"
+],
+"Donovan Mitchell": [
+"20s"
+],
+"Shaquille O'Neal": [
+"00s"
+],
+"Bam Adebayo": [
+"20s"
+],
+"Karl-Anthony Towns": [
+"20s"
+],
+"Kyrie Irving": [
+"20s"
+],
+"Jayson Tatum": [
+"20s"
+],
+"Carmelo Anthony": [
+"10s"
+],
+"Allen Iverson": [
+"00s"
+],
+"Nikola Jokić": [
+"20s"
+],
+"Jalen Brunson": [
+"20s"
+],
+"David Thompson": [
+"70s"
+],
+"Elgin Baylor": [
+"60s"
+],
+"David Robinson": [
+"90s"
+],
+"Pete Maravich": [
+"70s"
+],
+"Rick Barry": [
+"70s"
+],
+"Jerry West": [
+"60s"
+],
+"George Gervin": [
+"70s"
+],
+"Tracy McGrady": [
+"00s"
+],
+"Karl Malone": [
+"90s"
+],
+"Bernard King": [
+"80s"
+],
+"Larry Bird": [
+"80s"
+],
+"Tom Chambers": [
+"90s"
+],
+"Gilbert Arenas": [
+"00s"
+],
+"Kemba Walker": [
+"10s"
+],
+"Bradley Beal": [
+"20s"
+],
+"De'Aaron Fox": [
+"20s"
+]
+}
+},
+{
+"id": "nba-a-triple-doubles-21",
+"tags": [
+"stats",
+"players"
+],
+"text": "Name a player with 21 or more career NBA regular-season triple-doubles (as of November 2026)",
+"answers": [
+[
+"Russell Westbrook",
+"Westbrook",
+"Russ"
+],
+[
+"Nikola Jokić",
+"Jokić",
+"Joker"
+],
+[
+"LeBron James",
+"James",
+"LeBron",
+"King James"
+],
+[
+"Magic Johnson",
+"Johnson",
+"Magic",
+"Earvin Johnson"
+],
+[
+"Oscar Robertson",
+"Robertson",
+"Big O",
+"The Big O"
+],
+[
+"Jason Kidd",
+"Kidd",
+"J Kidd"
+],
+[
+"Giannis Antetokounmpo",
+"Antetokounmpo",
+"Giannis",
+"Greek Freak"
+],
+[
+"Larry Bird",
+"Bird"
+],
+[
+"Draymond Green",
+"Green",
+"Draymond"
+],
+[
+"Ben Simmons",
+"Simmons"
+],
+[
+"Michael Jordan",
+"Jordan",
+"MJ",
+"Mike Jordan"
+],
+[
+"Domantas Sabonis",
+"Sabonis"
+],
+[
+"Kobe Bryant",
+"Bryant",
+"Kobe",
+"Black Mamba"
+],
+[
+"Josh Giddey",
+"Giddey"
+],
+[
+"Kyle Lowry",
+"Lowry"
+],
+[
+"Rajon Rondo",
+"Rondo"
+],
+[
+"Wilt Chamberlain",
+"Chamberlain",
+"Wilt",
+"Wilt the Stilt"
+],
+[
+"Clyde Drexler",
+"Drexler"
+],
+[
+"Grant Hill",
+"Hill"
+],
+[
+"Kareem Abdul-Jabbar",
+"Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor"
+],
+[
+"Chris Webber",
+"Webber"
+],
+[
+"Fat Lever",
+"Lever"
+],
+[
+"Walt Frazier",
+"Frazier"
+],
+[
+"Elgin Baylor",
+"Baylor"
+],
+[
+"John Havlicek",
+"Havlicek"
+],
+[
+"Bob Cousy",
+"Cousy"
+],
+[
+"Micheal Ray Richardson",
+"Richardson",
+"Michael Ray Richardson",
+"Sugar Ray Richardson"
+]
+],
+"eraText": "Name a player with 21 or more career NBA triple-doubles who played in the {era}",
+"eras": {
+"Russell Westbrook": [
+"00s",
+"10s",
+"20s"
+],
+"Nikola Jokić": [
+"10s",
+"20s"
+],
+"LeBron James": [
+"00s",
+"10s",
+"20s"
+],
+"Magic Johnson": [
+"70s",
+"80s",
+"90s"
+],
+"Oscar Robertson": [
+"60s",
+"70s"
+],
+"Jason Kidd": [
+"90s",
+"00s",
+"10s"
+],
+"Giannis Antetokounmpo": [
+"10s",
+"20s"
+],
+"Larry Bird": [
+"70s",
+"80s",
+"90s"
+],
+"Draymond Green": [
+"10s",
+"20s"
+],
+"Ben Simmons": [
+"10s",
+"20s"
+],
+"Michael Jordan": [
+"80s",
+"90s",
+"00s"
+],
+"Domantas Sabonis": [
+"10s",
+"20s"
+],
+"Kobe Bryant": [
+"90s",
+"00s",
+"10s"
+],
+"Josh Giddey": [
+"20s"
+],
+"Kyle Lowry": [
+"00s",
+"10s",
+"20s"
+],
+"Rajon Rondo": [
+"00s",
+"10s",
+"20s"
+],
+"Wilt Chamberlain": [
+"60s",
+"70s"
+],
+"Clyde Drexler": [
+"80s",
+"90s"
+],
+"Grant Hill": [
+"90s",
+"00s",
+"10s"
+],
+"Kareem Abdul-Jabbar": [
+"60s",
+"70s",
+"80s"
+],
+"Chris Webber": [
+"90s",
+"00s"
+],
+"Fat Lever": [
+"80s",
+"90s"
+],
+"Walt Frazier": [
+"60s",
+"70s"
+],
+"Elgin Baylor": [
+"60s",
+"70s"
+],
+"John Havlicek": [
+"60s",
+"70s"
+],
+"Bob Cousy": [
+"60s"
+],
+"Micheal Ray Richardson": [
+"70s",
+"80s"
+]
+},
+"deep": true
+},
+{
+"id": "nba-a-first-overall-picks",
+"tags": [
+"draft"
+],
+"text": "Name a player who was picked first overall in the NBA draft (BAA/NBA drafts, 1947 to 2026)",
+"answers": [
+[
+"LeBron James",
+"James",
+"LeBron",
+"King James"
+],
+[
+"Shaquille O'Neal",
+"O'Neal",
+"Shaq",
+"Shaquille"
+],
+[
+"Magic Johnson",
+"Magic",
+"Earvin Johnson"
+],
+[
+"Victor Wembanyama",
+"Wembanyama",
+"Wemby"
+],
+[
+"Tim Duncan",
+"Duncan",
+"Timmy"
+],
+[
+"Allen Iverson",
+"Iverson",
+"AI"
+],
+[
+"Kareem Abdul-Jabbar",
+"Abdul-Jabbar",
+"Kareem",
+"Lew Alcindor",
+"Alcindor"
+],
+[
+"Zion Williamson",
+"Williamson",
+"Zion"
+],
+[
+"Patrick Ewing",
+"Ewing"
+],
+[
+"Hakeem Olajuwon",
+"Olajuwon",
+"Hakeem",
+"Akeem Olajuwon",
+"The Dream"
+],
+"David Robinson",
+[
+"Cooper Flagg",
+"Flagg"
+],
+[
+"Anthony Davis",
+"Davis",
+"AD"
+],
+[
+"Kyrie Irving",
+"Irving",
+"Kyrie"
+],
+[
+"Derrick Rose",
+"Rose"
+],
+[
+"Dwight Howard",
+"Howard"
+],
+[
+"Yao Ming",
+"Ming",
+"Yao"
+],
+[
+"Karl-Anthony Towns",
+"Towns",
+"KAT",
+"Karl Anthony Towns"
+],
+[
+"Anthony Edwards",
+"Edwards",
+"Ant Edwards",
+"Ant-Man"
+],
+[
+"Paolo Banchero",
+"Banchero"
+],
+[
+"Blake Griffin",
+"Griffin"
+],
+[
+"John Wall",
+"Wall"
+],
+[
+"Cade Cunningham",
+"Cunningham"
+],
+[
+"Ben Simmons",
+"Simmons"
+],
+[
+"Andrew Wiggins",
+"Wiggins"
+],
+[
+"Oscar Robertson",
+"Robertson",
+"Big O",
+"The Big O"
+],
+[
+"Elgin Baylor",
+"Baylor"
+],
+[
+"Bill Walton",
+"Walton"
+],
+[
+"Chris Webber",
+"Webber"
+],
+"Larry Johnson",
+[
+"James Worthy",
+"Worthy"
+],
+[
+"Elvin Hayes",
+"Hayes"
+],
+[
+"Bob Lanier",
+"Lanier"
+],
+[
+"Kwame Brown",
+"Brown"
+],
+[
+"Greg Oden",
+"Oden"
+],
+[
+"Markelle Fultz",
+"Fultz"
+],
+[
+"Deandre Ayton",
+"Ayton"
+],
+[
+"Anthony Bennett",
+"Bennett"
+],
+[
+"Zaccharie Risacher",
+"Risacher",
+"Zaccharie",
+"Zach Risacher"
+],
+[
+"AJ Dybantsa",
+"Dybantsa",
+"A.J. Dybantsa",
+"AJ"
+],
+[
+"Andrea Bargnani",
+"Bargnani"
+],
+[
+"Andrew Bogut",
+"Bogut"
+],
+"Kenyon Martin",
+[
+"Elton Brand",
+"Brand"
+],
+[
+"Michael Olowokandi",
+"Olowokandi"
+],
+[
+"Joe Smith",
+"Smith"
+],
+"Glenn Robinson",
+[
+"Derrick Coleman",
+"Coleman"
+],
+[
+"Pervis Ellison",
+"Ellison"
+],
+[
+"Danny Manning",
+"Manning"
+],
+[
+"Brad Daugherty",
+"Daugherty"
+],
+[
+"Ralph Sampson",
+"Sampson"
+],
+[
+"Mark Aguirre",
+"Aguirre"
+],
+[
+"Joe Barry Carroll",
+"Carroll"
+],
+"Mychal Thompson",
+[
+"Kent Benson",
+"Benson"
+],
+[
+"John Lucas",
+"Lucas"
+],
+"David Thompson",
+[
+"Doug Collins",
+"Collins"
+],
+"LaRue Martin",
+[
+"Austin Carr",
+"Carr"
+],
+[
+"Jimmy Walker",
+"Walker"
+],
+[
+"Cazzie Russell",
+"Russell"
+],
+[
+"Fred Hetzel",
+"Hetzel"
+],
+[
+"Jim Barnes",
+"Barnes"
+],
+[
+"Art Heyman",
+"Heyman"
+],
+[
+"Bill McGill",
+"McGill"
+],
+[
+"Walt Bellamy",
+"Bellamy"
+],
+[
+"Bob Boozer",
+"Boozer"
+],
+[
+"Rod Hundley",
+"Hundley"
+],
+[
+"Sihugo Green",
+"Green"
+],
+[
+"Dick Ricketts",
+"Ricketts"
+],
+[
+"Frank Selvy",
+"Selvy"
+],
+[
+"Ray Felix",
+"Felix"
+],
+[
+"Mark Workman",
+"Workman"
+],
+[
+"Gene Melchiorre",
+"Melchiorre"
+],
+[
+"Charlie Share",
+"Share"
+],
+[
+"Howie Shannon",
+"Shannon"
+],
+[
+"Andy Tonkovich",
+"Tonkovich"
+],
+[
+"Clifton McNeely",
+"McNeely"
+]
+],
+"eraText": "Name a player who was picked first overall in the NBA draft in the {era}",
+"eras": {
+"LeBron James": [
+"00s"
+],
+"Shaquille O'Neal": [
+"90s"
+],
+"Magic Johnson": [
+"70s"
+],
+"Victor Wembanyama": [
+"20s"
+],
+"Tim Duncan": [
+"90s"
+],
+"Allen Iverson": [
+"90s"
+],
+"Kareem Abdul-Jabbar": [
+"60s"
+],
+"Zion Williamson": [
+"10s"
+],
+"Patrick Ewing": [
+"80s"
+],
+"Hakeem Olajuwon": [
+"80s"
+],
+"David Robinson": [
+"80s"
+],
+"Cooper Flagg": [
+"20s"
+],
+"Anthony Davis": [
+"10s"
+],
+"Kyrie Irving": [
+"10s"
+],
+"Derrick Rose": [
+"00s"
+],
+"Dwight Howard": [
+"00s"
+],
+"Yao Ming": [
+"00s"
+],
+"Karl-Anthony Towns": [
+"10s"
+],
+"Anthony Edwards": [
+"20s"
+],
+"Paolo Banchero": [
+"20s"
+],
+"Blake Griffin": [
+"00s"
+],
+"John Wall": [
+"10s"
+],
+"Cade Cunningham": [
+"20s"
+],
+"Ben Simmons": [
+"10s"
+],
+"Andrew Wiggins": [
+"10s"
+],
+"Oscar Robertson": [
+"60s"
+],
+"Bill Walton": [
+"70s"
+],
+"Chris Webber": [
+"90s"
+],
+"Larry Johnson": [
+"90s"
+],
+"James Worthy": [
+"80s"
+],
+"Elvin Hayes": [
+"60s"
+],
+"Bob Lanier": [
+"70s"
+],
+"Kwame Brown": [
+"00s"
+],
+"Greg Oden": [
+"00s"
+],
+"Markelle Fultz": [
+"10s"
+],
+"Deandre Ayton": [
+"10s"
+],
+"Anthony Bennett": [
+"10s"
+],
+"Zaccharie Risacher": [
+"20s"
+],
+"AJ Dybantsa": [
+"20s"
+],
+"Andrea Bargnani": [
+"00s"
+],
+"Andrew Bogut": [
+"00s"
+],
+"Kenyon Martin": [
+"00s"
+],
+"Elton Brand": [
+"90s"
+],
+"Michael Olowokandi": [
+"90s"
+],
+"Joe Smith": [
+"90s"
+],
+"Glenn Robinson": [
+"90s"
+],
+"Derrick Coleman": [
+"90s"
+],
+"Pervis Ellison": [
+"80s"
+],
+"Danny Manning": [
+"80s"
+],
+"Brad Daugherty": [
+"80s"
+],
+"Ralph Sampson": [
+"80s"
+],
+"Mark Aguirre": [
+"80s"
+],
+"Joe Barry Carroll": [
+"80s"
+],
+"Mychal Thompson": [
+"70s"
+],
+"Kent Benson": [
+"70s"
+],
+"John Lucas": [
+"70s"
+],
+"David Thompson": [
+"70s"
+],
+"Doug Collins": [
+"70s"
+],
+"LaRue Martin": [
+"70s"
+],
+"Austin Carr": [
+"70s"
+],
+"Jimmy Walker": [
+"60s"
+],
+"Cazzie Russell": [
+"60s"
+],
+"Fred Hetzel": [
+"60s"
+],
+"Jim Barnes": [
+"60s"
+],
+"Art Heyman": [
+"60s"
+],
+"Bill McGill": [
+"60s"
+],
+"Walt Bellamy": [
+"60s"
+]
+}
+},
+{
+"id": "nba-a-high-school-draftees",
+"tags": [
+"draft",
+"players"
+],
+"text": "Name a player who was drafted into the NBA straight out of high school",
+"answers": [
+[
+"LeBron James",
+"James",
+"LeBron",
+"King James"
+],
+[
+"Kobe Bryant",
+"Bryant",
+"Kobe",
+"Black Mamba"
+],
+[
+"Kevin Garnett",
+"Garnett",
+"KG"
+],
+[
+"Dwight Howard",
+"Howard"
+],
+[
+"Tracy McGrady",
+"McGrady"
+],
+[
+"Amar'e Stoudemire",
+"Stoudemire",
+"Amare Stoudemire",
+"STAT"
+],
+[
+"Jermaine O'Neal",
+"O'Neal"
+],
+[
+"Tyson Chandler",
+"Chandler"
+],
+[
+"Kwame Brown",
+"Brown"
+],
+[
+"Rashard Lewis",
+"Lewis"
+],
+"Josh Smith",
+[
+"JR Smith",
+"J.R. Smith",
+"J R Smith"
+],
+[
+"Monta Ellis",
+"Ellis"
+],
+[
+"Andrew Bynum",
+"Bynum"
+],
+[
+"Al Jefferson",
+"Jefferson"
+],
+[
+"Shaun Livingston",
+"Livingston"
+],
+[
+"Kendrick Perkins",
+"Perkins"
+],
+"Darius Miles",
+[
+"Eddy Curry",
+"Curry"
+],
+[
+"Al Harrington",
+"Harrington"
+],
+[
+"Lou Williams",
+"Williams",
+"Louis Williams",
+"Sweet Lou"
+],
+[
+"Gerald Green",
+"Green"
+],
+[
+"Amir Johnson",
+"Johnson"
+],
+[
+"Andray Blatche",
+"Blatche"
+],
+[
+"Sebastian Telfair",
+"Telfair"
+],
+[
+"Darryl Dawkins",
+"Dawkins"
+],
+[
+"Bill Willoughby",
+"Willoughby"
+],
+[
+"DeShawn Stevenson",
+"Stevenson"
+],
+[
+"Jonathan Bender",
+"Bender"
+],
+[
+"Travis Outlaw",
+"Outlaw"
+],
+"CJ Miles",
+[
+"Martell Webster",
+"Webster"
+],
+[
+"Dorell Wright",
+"Wright"
+],
+[
+"Robert Swift",
+"Swift"
+],
+[
+"DeSagana Diop",
+"Diop"
+],
+[
+"Ricky Sánchez",
+"Sánchez"
+],
+[
+"Korleone Young",
+"Young"
+],
+"Leon Smith",
+[
+"Ndudi Ebi",
+"Ebi"
+],
+[
+"Ousmane Cisse",
+"Cisse"
+],
+[
+"James Lang",
+"Lang"
+]
+]
+},
+{
+"id": "nba-a-france",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a French player who has played in the NBA",
+"answers": [
+[
+"Tony Parker",
+"Parker"
+],
+[
+"Victor Wembanyama",
+"Wembanyama",
+"Wemby"
+],
+[
+"Rudy Gobert",
+"Gobert"
+],
+[
+"Nicolas Batum",
+"Batum"
+],
+[
+"Evan Fournier",
+"Fournier"
+],
+[
+"Boris Diaw",
+"Diaw"
+],
+[
+"Frank Ntilikina",
+"Ntilikina"
+],
+[
+"Ian Mahinmi",
+"Mahinmi"
+],
+[
+"Bilal Coulibaly",
+"Coulibaly"
+],
+[
+"Zaccharie Risacher",
+"Risacher"
+],
+"Alex Sarr",
+[
+"Adama Bal",
+"Bal"
+],
+[
+"Joan Beringer",
+"Beringer"
+],
+[
+"Sidy Cissoko",
+"Cissoko"
+],
+[
+"Pacôme Dadiet",
+"Dadiet"
+],
+[
+"Moussa Diabaté",
+"Diabaté"
+],
+"Mohamed Diawara",
+[
+"Ousmane Dieng",
+"Dieng"
+],
+[
+"Noa Essengue",
+"Essengue"
+],
+[
+"Noah Penda",
+"Penda"
+],
+[
+"Maxime Raynaud",
+"Raynaud"
+],
+[
+"Rayan Rupert",
+"Rupert"
+],
+[
+"Tidjane Salaün",
+"Salaün"
+],
+"Nolan Traoré",
+[
+"Guerschon Yabusele",
+"Yabusele"
+],
+"Armel Traoré",
+[
+"Malcolm Cazalon",
+"Cazalon"
+],
+[
+"Théo Maledon",
+"Maledon"
+],
+"Olivier Sarr",
+[
+"Joël Ayayi",
+"Ayayi"
+],
+[
+"Petr Cornelie",
+"Cornelie"
+],
+[
+"Sekou Doumbouya",
+"Doumbouya"
+],
+[
+"Jaylen Hoard",
+"Hoard"
+],
+[
+"Timothé Luwawu-Cabarrot",
+"Luwawu-Cabarrot"
+],
+[
+"Yves Pons",
+"Pons"
+],
+[
+"Killian Tillie",
+"Tillie"
+],
+[
+"Adam Mokoka",
+"Mokoka"
+],
+[
+"Vincent Poirier",
+"Poirier"
+],
+[
+"Axel Toupane",
+"Toupane"
+],
+[
+"William Howard",
+"Howard"
+],
+[
+"Élie Okobo",
+"Okobo"
+],
+[
+"Alexis Ajinça",
+"Ajinça"
+],
+[
+"Joffrey Lauvergne",
+"Lauvergne"
+],
+[
+"Kevin Séraphin",
+"Séraphin"
+],
+[
+"Damien Inglis",
+"Inglis"
+],
+[
+"Ronny Turiaf",
+"Turiaf"
+],
+[
+"Nando De Colo",
+"Colo"
+],
+[
+"Rodrigue Beaubois",
+"Beaubois"
+],
+[
+"Mickaël Gelabale",
+"Gelabale"
+],
+[
+"Johan Petro",
+"Petro"
+],
+[
+"Mickaël Piétrus",
+"Piétrus"
+],
+[
+"Pape Sy",
+"Sy"
+],
+"Yakhouba Diawara",
+[
+"Jérôme Moïso",
+"Moïso"
+],
+[
+"Tariq Abdul-Wahad",
+"Abdul-Wahad"
+],
+[
+"Antoine Rigaudeau",
+"Rigaudeau"
+]
+],
+"eraText": "Name a French player who played in the NBA in the {era}",
+"eras": {
+"Tony Parker": [
+"00s",
+"10s"
+],
+"Victor Wembanyama": [
+"20s"
+],
+"Rudy Gobert": [
+"10s",
+"20s"
+],
+"Nicolas Batum": [
+"00s",
+"10s",
+"20s"
+],
+"Evan Fournier": [
+"10s",
+"20s"
+],
+"Boris Diaw": [
+"00s",
+"10s"
+],
+"Frank Ntilikina": [
+"10s",
+"20s"
+],
+"Ian Mahinmi": [
+"00s",
+"10s"
+],
+"Bilal Coulibaly": [
+"20s"
+],
+"Zaccharie Risacher": [
+"20s"
+],
+"Alex Sarr": [
+"20s"
+],
+"Adama Bal": [
+"20s"
+],
+"Joan Beringer": [
+"20s"
+],
+"Sidy Cissoko": [
+"20s"
+],
+"Pacôme Dadiet": [
+"20s"
+],
+"Moussa Diabaté": [
+"20s"
+],
+"Mohamed Diawara": [
+"20s"
+],
+"Ousmane Dieng": [
+"20s"
+],
+"Noa Essengue": [
+"20s"
+],
+"Noah Penda": [
+"20s"
+],
+"Maxime Raynaud": [
+"20s"
+],
+"Rayan Rupert": [
+"20s"
+],
+"Tidjane Salaün": [
+"20s"
+],
+"Nolan Traoré": [
+"20s"
+],
+"Guerschon Yabusele": [
+"10s",
+"20s"
+],
+"Armel Traoré": [
+"20s"
+],
+"Malcolm Cazalon": [
+"20s"
+],
+"Théo Maledon": [
+"20s"
+],
+"Olivier Sarr": [
+"20s"
+],
+"Joël Ayayi": [
+"20s"
+],
+"Petr Cornelie": [
+"20s"
+],
+"Sekou Doumbouya": [
+"10s",
+"20s"
+],
+"Jaylen Hoard": [
+"10s",
+"20s"
+],
+"Timothé Luwawu-Cabarrot": [
+"10s",
+"20s"
+],
+"Yves Pons": [
+"20s"
+],
+"Killian Tillie": [
+"20s"
+],
+"Adam Mokoka": [
+"10s",
+"20s"
+],
+"Vincent Poirier": [
+"10s",
+"20s"
+],
+"Axel Toupane": [
+"10s",
+"20s"
+],
+"William Howard": [
+"10s"
+],
+"Élie Okobo": [
+"10s"
+],
+"Alexis Ajinça": [
+"00s",
+"10s"
+],
+"Joffrey Lauvergne": [
+"10s"
+],
+"Kevin Séraphin": [
+"10s"
+],
+"Damien Inglis": [
+"10s"
+],
+"Ronny Turiaf": [
+"00s",
+"10s"
+],
+"Nando De Colo": [
+"10s"
+],
+"Rodrigue Beaubois": [
+"00s",
+"10s"
+],
+"Mickaël Gelabale": [
+"00s",
+"10s"
+],
+"Johan Petro": [
+"00s",
+"10s"
+],
+"Mickaël Piétrus": [
+"00s",
+"10s"
+],
+"Pape Sy": [
+"10s"
+],
+"Yakhouba Diawara": [
+"00s"
+],
+"Jérôme Moïso": [
+"00s"
+],
+"Tariq Abdul-Wahad": [
+"90s",
+"00s"
+],
+"Antoine Rigaudeau": [
+"00s"
+]
+}
+},
+{
+"id": "nba-a-canada",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a Canadian player who has played in the NBA",
+"answers": [
+[
+"Steve Nash",
+"Nash"
+],
+[
+"Shai Gilgeous-Alexander",
+"Gilgeous-Alexander"
+],
+[
+"Andrew Wiggins",
+"Wiggins"
+],
+[
+"Jamal Murray",
+"Murray"
+],
+[
+"RJ Barrett",
+"Barrett"
+],
+[
+"Tristan Thompson",
+"Thompson"
+],
+[
+"Anthony Bennett",
+"Bennett"
+],
+[
+"Dillon Brooks",
+"Brooks"
+],
+[
+"Luguentz Dort",
+"Dort"
+],
+[
+"Kelly Olynyk",
+"Olynyk"
+],
+"Cory Joseph",
+"Andrew Nembhard",
+[
+"Nickeil Alexander-Walker",
+"Alexander-Walker"
+],
+[
+"Dalano Banton",
+"Banton"
+],
+[
+"Chris Boucher",
+"Boucher"
+],
+[
+"Brandon Clarke",
+"Clarke"
+],
+[
+"Zach Edey",
+"Edey"
+],
+[
+"Kyshawn George",
+"George"
+],
+[
+"Caleb Houstan",
+"Houstan"
+],
+[
+"AJ Lawson",
+"Lawson"
+],
+[
+"Bennedict Mathurin",
+"Mathurin"
+],
+"Emanuel Miller",
+"Leonard Miller",
+"Ryan Nembhard",
+[
+"Dwight Powell",
+"Powell"
+],
+[
+"Olivier-Maxence Prosper",
+"Prosper"
+],
+[
+"Will Riley",
+"Riley"
+],
+[
+"Jackson Rowe",
+"Rowe"
+],
+[
+"Shaedon Sharpe",
+"Sharpe"
+],
+[
+"Jahmyl Telfort",
+"Telfort"
+],
+[
+"Oshae Brissett",
+"Brissett"
+],
+[
+"Trey Lyles",
+"Lyles"
+],
+[
+"Eugene Omoruyi",
+"Omoruyi"
+],
+[
+"Joshua Primo",
+"Primo"
+],
+[
+"Lindell Wigginton",
+"Wigginton"
+],
+[
+"Khem Birch",
+"Birch"
+],
+[
+"Mfiondu Kabengele",
+"Kabengele"
+],
+[
+"Mychal Mulder",
+"Mulder"
+],
+[
+"Kevin Pangos",
+"Pangos"
+],
+[
+"Nik Stauskas",
+"Stauskas"
+],
+[
+"Nate Darling",
+"Darling"
+],
+[
+"Karim Mané",
+"Mané"
+],
+[
+"Kyle Alexander",
+"Alexander"
+],
+[
+"Tyler Ennis",
+"Ennis"
+],
+[
+"Xavier Rathan-Mayes",
+"Rathan-Mayes"
+],
+[
+"Joel Anthony",
+"Anthony"
+],
+[
+"Andrew Nicholson",
+"Nicholson"
+],
+[
+"Sim Bhullar",
+"Bhullar"
+],
+[
+"Samuel Dalembert",
+"Dalembert"
+],
+"Kris Joseph",
+[
+"Jamaal Magloire",
+"Magloire"
+],
+[
+"Rick Fox",
+"Fox"
+],
+[
+"Todd MacCulloch",
+"MacCulloch"
+],
+[
+"Bill Wennington",
+"Wennington"
+],
+[
+"Mike Smrek",
+"Smrek"
+],
+[
+"Stewart Granger",
+"Granger"
+],
+[
+"Ron Crevier",
+"Crevier"
+],
+[
+"Leo Rautins",
+"Rautins"
+],
+[
+"Jim Zoet",
+"Zoet"
+],
+[
+"Lars Hansen",
+"Hansen"
+],
+[
+"Bob Houbregs",
+"Houbregs"
+],
+[
+"Ernie Vandeweghe",
+"Vandeweghe"
+],
+[
+"Norm Baker",
+"Baker"
+],
+[
+"Hank Biasatti",
+"Biasatti"
+],
+[
+"Gino Sovran",
+"Sovran"
+]
+],
+"eraText": "Name a Canadian player who played in the NBA in the {era}",
+"eras": {
+"Steve Nash": [
+"90s",
+"00s",
+"10s"
+],
+"Shai Gilgeous-Alexander": [
+"10s",
+"20s"
+],
+"Andrew Wiggins": [
+"10s",
+"20s"
+],
+"Jamal Murray": [
+"10s",
+"20s"
+],
+"RJ Barrett": [
+"10s",
+"20s"
+],
+"Tristan Thompson": [
+"10s",
+"20s"
+],
+"Anthony Bennett": [
+"10s"
+],
+"Dillon Brooks": [
+"10s",
+"20s"
+],
+"Luguentz Dort": [
+"10s",
+"20s"
+],
+"Kelly Olynyk": [
+"10s",
+"20s"
+],
+"Cory Joseph": [
+"10s",
+"20s"
+],
+"Andrew Nembhard": [
+"20s"
+],
+"Nickeil Alexander-Walker": [
+"10s",
+"20s"
+],
+"Dalano Banton": [
+"20s"
+],
+"Chris Boucher": [
+"10s",
+"20s"
+],
+"Brandon Clarke": [
+"10s",
+"20s"
+],
+"Zach Edey": [
+"20s"
+],
+"Kyshawn George": [
+"20s"
+],
+"Caleb Houstan": [
+"20s"
+],
+"AJ Lawson": [
+"20s"
+],
+"Bennedict Mathurin": [
+"20s"
+],
+"Emanuel Miller": [
+"20s"
+],
+"Leonard Miller": [
+"20s"
+],
+"Ryan Nembhard": [
+"20s"
+],
+"Dwight Powell": [
+"10s",
+"20s"
+],
+"Olivier-Maxence Prosper": [
+"20s"
+],
+"Will Riley": [
+"20s"
+],
+"Jackson Rowe": [
+"20s"
+],
+"Shaedon Sharpe": [
+"20s"
+],
+"Jahmyl Telfort": [
+"20s"
+],
+"Oshae Brissett": [
+"10s",
+"20s"
+],
+"Trey Lyles": [
+"10s",
+"20s"
+],
+"Eugene Omoruyi": [
+"20s"
+],
+"Joshua Primo": [
+"20s"
+],
+"Lindell Wigginton": [
+"20s"
+],
+"Khem Birch": [
+"10s",
+"20s"
+],
+"Mfiondu Kabengele": [
+"10s",
+"20s"
+],
+"Mychal Mulder": [
+"10s",
+"20s"
+],
+"Kevin Pangos": [
+"20s"
+],
+"Nik Stauskas": [
+"10s",
+"20s"
+],
+"Nate Darling": [
+"20s"
+],
+"Karim Mané": [
+"20s"
+],
+"Kyle Alexander": [
+"10s"
+],
+"Tyler Ennis": [
+"10s"
+],
+"Xavier Rathan-Mayes": [
+"10s"
+],
+"Joel Anthony": [
+"00s",
+"10s"
+],
+"Andrew Nicholson": [
+"10s"
+],
+"Sim Bhullar": [
+"10s"
+],
+"Samuel Dalembert": [
+"00s",
+"10s"
+],
+"Kris Joseph": [
+"10s"
+],
+"Jamaal Magloire": [
+"00s",
+"10s"
+],
+"Rick Fox": [
+"90s",
+"00s"
+],
+"Todd MacCulloch": [
+"90s",
+"00s"
+],
+"Bill Wennington": [
+"80s",
+"90s"
+],
+"Mike Smrek": [
+"80s",
+"90s"
+],
+"Stewart Granger": [
+"80s"
+],
+"Ron Crevier": [
+"80s"
+],
+"Leo Rautins": [
+"80s"
+],
+"Jim Zoet": [
+"80s"
+],
+"Lars Hansen": [
+"70s"
+]
+}
+},
+{
+"id": "nba-a-australia",
+"tags": [
+"global",
+"players"
+],
+"text": "Name an Australian player who has played in the NBA",
+"answers": [
+[
+"Patty Mills",
+"Mills"
+],
+[
+"Ben Simmons",
+"Simmons"
+],
+[
+"Andrew Bogut",
+"Bogut"
+],
+[
+"Joe Ingles",
+"Ingles"
+],
+[
+"Matthew Dellavedova",
+"Dellavedova"
+],
+[
+"Luc Longley",
+"Longley"
+],
+[
+"Josh Giddey",
+"Giddey"
+],
+[
+"Dante Exum",
+"Exum"
+],
+[
+"Dyson Daniels",
+"Daniels"
+],
+[
+"Johnny Furphy",
+"Furphy"
+],
+[
+"Josh Green",
+"Green"
+],
+[
+"Jock Landale",
+"Landale"
+],
+[
+"Lachlan Olbrich",
+"Olbrich"
+],
+[
+"Tyrese Proctor",
+"Proctor"
+],
+[
+"Duop Reath",
+"Reath"
+],
+[
+"Luke Travers",
+"Travers"
+],
+[
+"Rocco Zikarsky",
+"Zikarsky"
+],
+[
+"Alex Ducas",
+"Ducas"
+],
+[
+"Jack McVeigh",
+"McVeigh"
+],
+[
+"Jack White",
+"White"
+],
+[
+"Xavier Cooks",
+"Cooks"
+],
+[
+"Aron Baynes",
+"Baynes"
+],
+[
+"Will Magnay",
+"Magnay"
+],
+[
+"Jonah Bolden",
+"Bolden"
+],
+[
+"Ryan Broekhoff",
+"Broekhoff"
+],
+[
+"Mitch Creek",
+"Creek"
+],
+[
+"Isaac Humphries",
+"Humphries"
+],
+[
+"Cameron Bairstow",
+"Bairstow"
+],
+[
+"David Andersen",
+"Andersen"
+],
+[
+"Nathan Jawai",
+"Jawai"
+],
+[
+"Luke Schenscher",
+"Schenscher"
+],
+[
+"Shane Heal",
+"Heal"
+],
+[
+"Chris Anstey",
+"Anstey"
+],
+[
+"Andrew Gaze",
+"Gaze"
+],
+[
+"Mark Bradtke",
+"Bradtke"
+]
+],
+"eraText": "Name an Australian player who played in the NBA in the {era}",
+"eras": {
+"Patty Mills": [
+"00s",
+"10s",
+"20s"
+],
+"Ben Simmons": [
+"10s",
+"20s"
+],
+"Andrew Bogut": [
+"00s",
+"10s"
+],
+"Joe Ingles": [
+"10s",
+"20s"
+],
+"Matthew Dellavedova": [
+"10s",
+"20s"
+],
+"Luc Longley": [
+"90s",
+"00s"
+],
+"Josh Giddey": [
+"20s"
+],
+"Dante Exum": [
+"10s",
+"20s"
+],
+"Dyson Daniels": [
+"20s"
+],
+"Johnny Furphy": [
+"20s"
+],
+"Josh Green": [
+"20s"
+],
+"Jock Landale": [
+"20s"
+],
+"Lachlan Olbrich": [
+"20s"
+],
+"Tyrese Proctor": [
+"20s"
+],
+"Duop Reath": [
+"20s"
+],
+"Luke Travers": [
+"20s"
+],
+"Rocco Zikarsky": [
+"20s"
+],
+"Alex Ducas": [
+"20s"
+],
+"Jack McVeigh": [
+"20s"
+],
+"Jack White": [
+"20s"
+],
+"Xavier Cooks": [
+"20s"
+],
+"Aron Baynes": [
+"10s",
+"20s"
+],
+"Will Magnay": [
+"20s"
+],
+"Jonah Bolden": [
+"10s"
+],
+"Ryan Broekhoff": [
+"10s"
+],
+"Mitch Creek": [
+"10s"
+],
+"Isaac Humphries": [
+"10s"
+],
+"Cameron Bairstow": [
+"10s"
+],
+"David Andersen": [
+"00s",
+"10s"
+],
+"Nathan Jawai": [
+"00s"
+],
+"Luke Schenscher": [
+"00s"
+],
+"Shane Heal": [
+"90s",
+"00s"
+],
+"Chris Anstey": [
+"90s"
+],
+"Andrew Gaze": [
+"90s"
+],
+"Mark Bradtke": [
+"90s"
+]
+}
+},
+{
+"id": "nba-a-serbia",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a Serbian player who has played in the NBA",
+"answers": [
+[
+"Nikola Jokić",
+"Jokić",
+"Joker"
+],
+[
+"Vlade Divac",
+"Divac"
+],
+[
+"Peja Stojaković",
+"Stojaković"
+],
+[
+"Boban Marjanović",
+"Marjanović"
+],
+[
+"Darko Miličić",
+"Miličić"
+],
+[
+"Nikola Jović",
+"Jović"
+],
+[
+"Miloš Teodosić",
+"Teodosić"
+],
+[
+"Nemanja Bjelica",
+"Bjelica"
+],
+[
+"Bogdan Bogdanović",
+"Bogdanović"
+],
+[
+"Radisav Ćurčić",
+"Ćurčić"
+],
+[
+"Rastko Cvetković",
+"Cvetković"
+],
+[
+"Sasha Danilović",
+"Danilović"
+],
+[
+"Aleksandar Djordjevic",
+"Djordjevic"
+],
+[
+"Marko Gudurić",
+"Gudurić"
+],
+[
+"Mile Ilić",
+"Ilić"
+],
+[
+"Marko Jarić",
+"Jarić"
+],
+[
+"Nenad Krstić",
+"Krstić"
+],
+[
+"Ognjen Kuzmić",
+"Kuzmić"
+],
+[
+"Vasilije Micić",
+"Micić"
+],
+[
+"Nemanja Nedović",
+"Nedović"
+],
+[
+"Žarko Paspalj",
+"Paspalj"
+],
+[
+"Sasha Pavlović",
+"Pavlović"
+],
+[
+"Kosta Perović",
+"Perović"
+],
+[
+"Filip Petrušev",
+"Petrušev"
+],
+[
+"Aleksej Pokuševski",
+"Pokuševski"
+],
+[
+"Vladimir Radmanović",
+"Radmanović"
+],
+[
+"Miroslav Raduljica",
+"Raduljica"
+],
+[
+"Igor Rakočević",
+"Rakočević"
+],
+[
+"Željko Rebrača",
+"Rebrača"
+],
+[
+"Alen Smailagić",
+"Smailagić"
+],
+[
+"Dragan Tarlać",
+"Tarlać"
+],
+[
+"Nikola Topić",
+"Topić"
+],
+[
+"Tristan Vukčević",
+"Vukčević"
+],
+[
+"Miloš Babić",
+"Babić"
+]
+],
+"eraText": "Name a Serbian player who played in the NBA in the {era}",
+"eras": {
+"Nikola Jokić": [
+"10s",
+"20s"
+],
+"Vlade Divac": [
+"80s",
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Peja Stojaković": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Boban Marjanović": [
+"10s",
+"20s"
+],
+"Darko Miličić": [
+"00s",
+"10s",
+"20s"
+],
+"Nikola Jović": [
+"20s"
+],
+"Miloš Teodosić": [
+"10s",
+"20s"
+],
+"Nemanja Bjelica": [
+"10s",
+"20s"
+],
+"Bogdan Bogdanović": [
+"10s",
+"20s"
+],
+"Radisav Ćurčić": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Rastko Cvetković": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Sasha Danilović": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Aleksandar Djordjevic": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Marko Gudurić": [
+"10s",
+"20s"
+],
+"Mile Ilić": [
+"00s",
+"10s",
+"20s"
+],
+"Marko Jarić": [
+"00s",
+"10s",
+"20s"
+],
+"Nenad Krstić": [
+"00s",
+"10s",
+"20s"
+],
+"Ognjen Kuzmić": [
+"10s",
+"20s"
+],
+"Vasilije Micić": [
+"20s"
+],
+"Nemanja Nedović": [
+"10s",
+"20s"
+],
+"Žarko Paspalj": [
+"80s",
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Sasha Pavlović": [
+"00s",
+"10s",
+"20s"
+],
+"Kosta Perović": [
+"00s",
+"10s",
+"20s"
+],
+"Filip Petrušev": [
+"20s"
+],
+"Aleksej Pokuševski": [
+"20s"
+],
+"Vladimir Radmanović": [
+"00s",
+"10s",
+"20s"
+],
+"Miroslav Raduljica": [
+"10s",
+"20s"
+],
+"Igor Rakočević": [
+"00s",
+"10s",
+"20s"
+],
+"Željko Rebrača": [
+"00s",
+"10s",
+"20s"
+],
+"Alen Smailagić": [
+"10s",
+"20s"
+],
+"Dragan Tarlać": [
+"00s",
+"10s",
+"20s"
+],
+"Nikola Topić": [
+"20s"
+],
+"Tristan Vukčević": [
+"20s"
+],
+"Miloš Babić": [
+"90s"
+]
+}
+},
+{
+"id": "nba-a-spain",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a Spanish player who has played in the NBA",
+"answers": [
+[
+"Pau Gasol",
+"Gasol"
+],
+"Marc Gasol",
+[
+"Ricky Rubio",
+"Rubio"
+],
+[
+"José Calderón",
+"Calderón"
+],
+[
+"Serge Ibaka",
+"Ibaka"
+],
+[
+"Santi Aldama",
+"Aldama"
+],
+"Willy Hernangómez",
+"Juancho Hernangómez",
+[
+"Rudy Fernández",
+"Fernández"
+],
+[
+"Nikola Mirotić",
+"Mirotić"
+],
+[
+"Hugo González",
+"González"
+],
+[
+"Sergio de Larrea",
+"Larrea"
+],
+[
+"Aday Mara",
+"Mara"
+],
+[
+"Baba Miller",
+"Miller"
+],
+[
+"Usman Garuba",
+"Garuba"
+],
+[
+"Álex Abrines",
+"Abrines"
+],
+[
+"Sergio Rodríguez",
+"Rodríguez"
+],
+[
+"Victor Claver",
+"Claver"
+],
+[
+"Jorge Garbajosa",
+"Garbajosa"
+],
+[
+"Juan Carlos Navarro",
+"Navarro"
+],
+[
+"Raül López",
+"López"
+],
+[
+"Fernando Martín",
+"Martín"
+]
+],
+"eraText": "Name a Spanish player who played in the NBA in the {era}",
+"eras": {
+"Pau Gasol": [
+"00s",
+"10s"
+],
+"Marc Gasol": [
+"00s",
+"10s",
+"20s"
+],
+"Ricky Rubio": [
+"10s",
+"20s"
+],
+"José Calderón": [
+"00s",
+"10s"
+],
+"Serge Ibaka": [
+"00s",
+"10s",
+"20s"
+],
+"Santi Aldama": [
+"20s"
+],
+"Willy Hernangómez": [
+"10s",
+"20s"
+],
+"Juancho Hernangómez": [
+"10s",
+"20s"
+],
+"Rudy Fernández": [
+"00s",
+"10s"
+],
+"Nikola Mirotić": [
+"10s",
+"20s"
+],
+"Hugo González": [
+"20s"
+],
+"Sergio de Larrea": [
+"20s"
+],
+"Aday Mara": [
+"20s"
+],
+"Baba Miller": [
+"20s"
+],
+"Usman Garuba": [
+"20s"
+],
+"Álex Abrines": [
+"10s"
+],
+"Sergio Rodríguez": [
+"00s",
+"10s"
+],
+"Victor Claver": [
+"10s"
+],
+"Jorge Garbajosa": [
+"00s"
+],
+"Juan Carlos Navarro": [
+"00s"
+],
+"Raül López": [
+"00s"
+],
+"Fernando Martín": [
+"80s"
+]
+}
+},
+{
+"id": "nba-a-germany",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a German player who has played in the NBA",
+"answers": [
+[
+"Dirk Nowitzki",
+"Nowitzki",
+"Dirk"
+],
+[
+"Dennis Schröder",
+"Schröder"
+],
+"Franz Wagner",
+"Moritz Wagner",
+[
+"Detlef Schrempf",
+"Schrempf"
+],
+[
+"Maxi Kleber",
+"Kleber"
+],
+[
+"Daniel Theis",
+"Theis"
+],
+[
+"Isaac Bonga",
+"Bonga"
+],
+[
+"Christian Anderson Jr.",
+"Christian Anderson",
+"Anderson"
+],
+[
+"Tristan da Silva",
+"Silva"
+],
+[
+"Ariel Hukporti",
+"Hukporti"
+],
+[
+"Paul Zipser",
+"Zipser"
+],
+[
+"Tibor Pleiß",
+"Pleiß"
+],
+[
+"Elias Harris",
+"Harris"
+],
+[
+"Tim Ohlbrecht",
+"Ohlbrecht"
+],
+[
+"Shawn Bradley",
+"Bradley"
+],
+[
+"Uwe Blab",
+"Blab"
+],
+[
+"Chris Welp",
+"Welp"
+],
+[
+"Charlie Hoefer",
+"Hoefer"
+],
+[
+"Frido Frey",
+"Frey"
+]
+],
+"eraText": "Name a German player who played in the NBA in the {era}",
+"eras": {
+"Dirk Nowitzki": [
+"90s",
+"00s",
+"10s"
+],
+"Dennis Schröder": [
+"10s",
+"20s"
+],
+"Franz Wagner": [
+"20s"
+],
+"Moritz Wagner": [
+"10s",
+"20s"
+],
+"Detlef Schrempf": [
+"80s",
+"90s",
+"00s"
+],
+"Maxi Kleber": [
+"10s",
+"20s"
+],
+"Daniel Theis": [
+"10s",
+"20s"
+],
+"Isaac Bonga": [
+"10s",
+"20s"
+],
+"Christian Anderson Jr.": [
+"20s"
+],
+"Tristan da Silva": [
+"20s"
+],
+"Ariel Hukporti": [
+"20s"
+],
+"Paul Zipser": [
+"10s"
+],
+"Tibor Pleiß": [
+"10s"
+],
+"Elias Harris": [
+"10s"
+],
+"Tim Ohlbrecht": [
+"10s"
+],
+"Shawn Bradley": [
+"90s",
+"00s"
+],
+"Uwe Blab": [
+"80s"
+],
+"Chris Welp": [
+"80s"
+]
+}
+},
+{
+"id": "nba-a-greece",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a Greek player who has played in the NBA",
+"answers": [
+[
+"Giannis Antetokounmpo",
+"Giannis",
+"Greek Freak",
+"Antetokounmpo"
+],
+"Thanasis Antetokounmpo",
+"Kostas Antetokounmpo",
+[
+"Kostas Papanikolaou",
+"Papanikolaou"
+],
+[
+"Georgios Papagiannis",
+"Papagiannis"
+],
+"Alex Antetokounmpo",
+[
+"Jake Tsakalidis",
+"Tsakalidis"
+],
+[
+"Georgios Kalaitzakis",
+"Kalaitzakis"
+],
+[
+"Naz Mitrou-Long",
+"Mitrou-Long"
+],
+[
+"Andreas Glyniadakis",
+"Glyniadakis"
+],
+[
+"Vassilis Spanoulis",
+"Spanoulis"
+],
+[
+"Efthimios Rentzias",
+"Rentzias"
+],
+[
+"Antonis Fotsis",
+"Fotsis"
+]
+],
+"eraText": "Name a Greek player who played in the NBA in the {era}",
+"eras": {
+"Giannis Antetokounmpo": [
+"10s",
+"20s"
+],
+"Thanasis Antetokounmpo": [
+"10s",
+"20s"
+],
+"Kostas Antetokounmpo": [
+"10s",
+"20s"
+],
+"Kostas Papanikolaou": [
+"10s"
+],
+"Georgios Papagiannis": [
+"10s"
+],
+"Alex Antetokounmpo": [
+"20s"
+],
+"Jake Tsakalidis": [
+"00s",
+"10s",
+"20s"
+],
+"Georgios Kalaitzakis": [
+"20s"
+],
+"Naz Mitrou-Long": [
+"10s"
+],
+"Andreas Glyniadakis": [
+"00s"
+],
+"Vassilis Spanoulis": [
+"00s"
+],
+"Efthimios Rentzias": [
+"00s"
+],
+"Antonis Fotsis": [
+"00s"
+]
+}
+},
+{
+"id": "nba-a-nigeria",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a Nigerian player who has played in the NBA",
+"answers": [
+[
+"Precious Achiuwa",
+"Achiuwa"
+],
+[
+"Josh Okogie",
+"Okogie"
+],
+[
+"Michael Olowokandi",
+"Olowokandi"
+],
+[
+"Festus Ezeli",
+"Ezeli"
+],
+"Udoka Azubuike",
+[
+"Charles Bassey",
+"Bassey"
+],
+[
+"Chima Moneke",
+"Moneke"
+],
+[
+"Solomon Alabi",
+"Alabi"
+],
+"Kelenna Azubuike",
+[
+"Obinna Ekezie",
+"Ekezie"
+],
+[
+"Olumide Oyedeji",
+"Oyedeji"
+],
+[
+"Peter Aluma",
+"Aluma"
+],
+[
+"Yinka Dare",
+"Dare"
+],
+[
+"Julius Nwosu",
+"Nwosu"
+]
+],
+"eraText": "Name a Nigerian player who played in the NBA in the {era}",
+"eras": {
+"Precious Achiuwa": [
+"20s"
+],
+"Josh Okogie": [
+"10s",
+"20s"
+],
+"Michael Olowokandi": [
+"90s",
+"00s"
+],
+"Festus Ezeli": [
+"10s"
+],
+"Udoka Azubuike": [
+"20s"
+],
+"Charles Bassey": [
+"20s"
+],
+"Chima Moneke": [
+"20s"
+],
+"Solomon Alabi": [
+"10s"
+],
+"Kelenna Azubuike": [
+"00s",
+"10s"
+],
+"Obinna Ekezie": [
+"90s",
+"00s"
+],
+"Olumide Oyedeji": [
+"00s"
+],
+"Peter Aluma": [
+"90s"
+],
+"Yinka Dare": [
+"90s"
+],
+"Julius Nwosu": [
+"90s"
+]
+}
+},
+{
+"id": "nba-a-croatia",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a Croatian player who has played in the NBA",
+"answers": [
+[
+"Toni Kukoč",
+"Kukoč"
+],
+[
+"Dražen Petrović",
+"Petrović"
+],
+[
+"Ivica Zubac",
+"Zubac"
+],
+[
+"Bojan Bogdanović",
+"Bogdanović"
+],
+[
+"Dario Šarić",
+"Šarić"
+],
+[
+"Mario Hezonja",
+"Hezonja"
+],
+[
+"Dino Rađa",
+"Rađa",
+"Dino Radja",
+"Radja"
+],
+[
+"Dalibor Bagarić",
+"Bagarić"
+],
+[
+"Gordan Giriček",
+"Giriček"
+],
+[
+"Mario Kasun",
+"Kasun"
+],
+[
+"Karlo Matković",
+"Matković"
+],
+[
+"Zoran Planinić",
+"Planinić"
+],
+[
+"Damjan Rudež",
+"Rudež"
+],
+[
+"Bruno Šundov",
+"Šundov"
+],
+[
+"Žan Tabak",
+"Tabak"
+],
+[
+"Roko Ukić",
+"Ukić"
+],
+[
+"Stojko Vranković",
+"Vranković"
+],
+[
+"Luka Šamanić",
+"Šamanić"
+],
+[
+"Dragan Bender",
+"Bender"
+],
+[
+"Ante Žižić",
+"Žižić"
+],
+[
+"Duje Dukan",
+"Dukan"
+],
+[
+"Damir Markota",
+"Markota"
+]
+],
+"eraText": "Name a Croatian player who played in the NBA in the {era}",
+"eras": {
+"Toni Kukoč": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Dražen Petrović": [
+"80s",
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Ivica Zubac": [
+"10s",
+"20s"
+],
+"Bojan Bogdanović": [
+"10s",
+"20s"
+],
+"Dario Šarić": [
+"10s",
+"20s"
+],
+"Mario Hezonja": [
+"10s"
+],
+"Dino Rađa": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Dalibor Bagarić": [
+"00s",
+"10s",
+"20s"
+],
+"Gordan Giriček": [
+"00s",
+"10s",
+"20s"
+],
+"Mario Kasun": [
+"00s",
+"10s",
+"20s"
+],
+"Karlo Matković": [
+"20s"
+],
+"Zoran Planinić": [
+"00s",
+"10s",
+"20s"
+],
+"Damjan Rudež": [
+"10s",
+"20s"
+],
+"Bruno Šundov": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Žan Tabak": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Roko Ukić": [
+"00s",
+"10s",
+"20s"
+],
+"Stojko Vranković": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Luka Šamanić": [
+"10s",
+"20s"
+],
+"Dragan Bender": [
+"10s"
+],
+"Ante Žižić": [
+"10s"
+],
+"Duje Dukan": [
+"10s"
+],
+"Damir Markota": [
+"00s"
+]
+}
+},
+{
+"id": "nba-a-lithuania",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a Lithuanian player who has played in the NBA",
+"answers": [
+[
+"Jonas Valančiūnas",
+"Valančiūnas"
+],
+[
+"Arvydas Sabonis",
+"Sabonis"
+],
+[
+"Zydrunas Ilgauskas",
+"Ilgauskas"
+],
+[
+"Šarūnas Marčiulionis",
+"Marčiulionis"
+],
+[
+"Linas Kleiza",
+"Kleiza"
+],
+[
+"Donatas Motiejūnas",
+"Motiejūnas"
+],
+[
+"Martynas Andriuškevičius",
+"Andriuškevičius"
+],
+[
+"Kasparas Jakučionis",
+"Jakučionis"
+],
+[
+"Šarūnas Jasikevičius",
+"Jasikevičius"
+],
+[
+"Mindaugas Kuzminskas",
+"Kuzminskas"
+],
+[
+"Arvydas Macijauskas",
+"Macijauskas"
+],
+[
+"Darius Songaila",
+"Songaila"
+],
+[
+"Ignas Brazdeikis",
+"Brazdeikis"
+],
+[
+"Arnoldas Kulboka",
+"Kulboka"
+],
+[
+"Deividas Sirvydis",
+"Sirvydis"
+]
+],
+"eraText": "Name a Lithuanian player who played in the NBA in the {era}",
+"eras": {
+"Jonas Valančiūnas": [
+"10s",
+"20s"
+],
+"Arvydas Sabonis": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Zydrunas Ilgauskas": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Šarūnas Marčiulionis": [
+"80s",
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Linas Kleiza": [
+"00s",
+"10s",
+"20s"
+],
+"Donatas Motiejūnas": [
+"10s"
+],
+"Martynas Andriuškevičius": [
+"00s",
+"10s",
+"20s"
+],
+"Kasparas Jakučionis": [
+"20s"
+],
+"Šarūnas Jasikevičius": [
+"00s",
+"10s",
+"20s"
+],
+"Mindaugas Kuzminskas": [
+"10s",
+"20s"
+],
+"Arvydas Macijauskas": [
+"00s",
+"10s",
+"20s"
+],
+"Darius Songaila": [
+"00s",
+"10s",
+"20s"
+],
+"Ignas Brazdeikis": [
+"10s",
+"20s"
+],
+"Arnoldas Kulboka": [
+"20s"
+],
+"Deividas Sirvydis": [
+"20s"
+]
+}
+},
+{
+"id": "nba-a-brazil",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a Brazilian player who has played in the NBA",
+"answers": [
+[
+"Anderson Varejão",
+"Varejão"
+],
+[
+"Leandro Barbosa",
+"Barbosa"
+],
+[
+"Tiago Splitter",
+"Splitter"
+],
+"Nenê",
+[
+"Raul Neto",
+"Neto"
+],
+[
+"Bruno Caboclo",
+"Caboclo"
+],
+[
+"Lucas Nogueira",
+"Nogueira"
+],
+[
+"Gui Santos",
+"Santos"
+],
+[
+"Mãozinha Pereira",
+"Pereira"
+],
+[
+"Didi Louzada",
+"Louzada"
+],
+[
+"Cristiano Felício",
+"Felício"
+],
+[
+"Marcelo Huertas",
+"Huertas"
+],
+[
+"Vítor Faverani",
+"Faverani"
+],
+[
+"Fab Melo",
+"Melo"
+],
+[
+"Marquinhos Vieira",
+"Vieira"
+],
+[
+"Rafael Araújo",
+"Araújo"
+],
+[
+"Alex Garcia",
+"Garcia"
+],
+[
+"João Vianna",
+"Vianna"
+],
+[
+"Rolando Ferreira",
+"Ferreira"
+]
+],
+"eraText": "Name a Brazilian player who played in the NBA in the {era}",
+"eras": {
+"Anderson Varejão": [
+"00s",
+"10s",
+"20s"
+],
+"Leandro Barbosa": [
+"00s",
+"10s"
+],
+"Tiago Splitter": [
+"10s"
+],
+"Nenê": [
+"00s",
+"10s"
+],
+"Raul Neto": [
+"10s",
+"20s"
+],
+"Bruno Caboclo": [
+"10s",
+"20s"
+],
+"Lucas Nogueira": [
+"10s"
+],
+"Gui Santos": [
+"20s"
+],
+"Mãozinha Pereira": [
+"20s"
+],
+"Didi Louzada": [
+"20s"
+],
+"Cristiano Felício": [
+"10s",
+"20s"
+],
+"Marcelo Huertas": [
+"10s"
+],
+"Vítor Faverani": [
+"10s"
+],
+"Fab Melo": [
+"10s"
+],
+"Marquinhos Vieira": [
+"00s"
+],
+"Rafael Araújo": [
+"00s"
+],
+"Alex Garcia": [
+"00s"
+],
+"João Vianna": [
+"90s"
+],
+"Rolando Ferreira": [
+"80s"
+]
+},
+"deep": true
+},
+{
+"id": "nba-a-turkey",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a Turkish player who has played in the NBA",
+"answers": [
+[
+"Alperen Şengün",
+"Şengün"
+],
+[
+"Hedo Türkoğlu",
+"Türkoğlu"
+],
+[
+"Cedi Osman",
+"Osman"
+],
+[
+"Mehmet Okur",
+"Okur"
+],
+[
+"Ersan İlyasova",
+"İlyasova"
+],
+[
+"Enes Freedom",
+"Freedom",
+"Enes Kanter",
+"Kanter",
+"Enes Kanter Freedom"
+],
+[
+"Adem Bona",
+"Bona"
+],
+[
+"Mirsad Türkcan",
+"Türkcan"
+],
+[
+"Ömer Yurtseven",
+"Yurtseven"
+],
+[
+"Onuralp Bitim",
+"Bitim"
+],
+[
+"Furkan Korkmaz",
+"Korkmaz"
+],
+[
+"Ömer Aşık",
+"Aşık"
+],
+[
+"Furkan Aldemir",
+"Aldemir"
+],
+[
+"Semih Erden",
+"Erden"
+],
+[
+"Ibo Kutluay",
+"Kutluay"
+]
+],
+"eraText": "Name a Turkish player who played in the NBA in the {era}",
+"eras": {
+"Alperen Şengün": [
+"20s"
+],
+"Hedo Türkoğlu": [
+"00s",
+"10s"
+],
+"Cedi Osman": [
+"10s",
+"20s"
+],
+"Mehmet Okur": [
+"00s",
+"10s"
+],
+"Ersan İlyasova": [
+"00s",
+"10s",
+"20s"
+],
+"Enes Freedom": [
+"10s",
+"20s"
+],
+"Adem Bona": [
+"20s"
+],
+"Mirsad Türkcan": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Ömer Yurtseven": [
+"20s"
+],
+"Onuralp Bitim": [
+"20s"
+],
+"Furkan Korkmaz": [
+"10s",
+"20s"
+],
+"Ömer Aşık": [
+"10s"
+],
+"Furkan Aldemir": [
+"10s"
+],
+"Semih Erden": [
+"10s"
+],
+"Ibo Kutluay": [
+"00s"
+]
+},
+"deep": true
+},
+{
+"id": "nba-a-senegal",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a Senegalese player who has played in the NBA",
+"answers": [
+[
+"Gorgui Dieng",
+"Dieng"
+],
+[
+"DeSagana Diop",
+"Diop"
+],
+[
+"Tacko Fall",
+"Fall"
+],
+[
+"Mouhamed Gueye",
+"Gueye"
+],
+[
+"Ibou Badji",
+"Badji"
+],
+[
+"Maurice Ndour",
+"Ndour"
+],
+"Hamady N'Diaye",
+[
+"Cheikh Samb",
+"Samb"
+],
+[
+"Mouhamed Sene",
+"Sene"
+],
+[
+"Pape Sow",
+"Sow"
+],
+[
+"Boniface N'Dong",
+"N'Dong"
+],
+"Mamadou N'Diaye",
+"Makhtar N'Diaye"
+],
+"eraText": "Name a Senegalese player who played in the NBA in the {era}",
+"eras": {
+"Gorgui Dieng": [
+"10s",
+"20s"
+],
+"DeSagana Diop": [
+"00s",
+"10s"
+],
+"Tacko Fall": [
+"10s",
+"20s"
+],
+"Mouhamed Gueye": [
+"20s"
+],
+"Ibou Badji": [
+"20s"
+],
+"Maurice Ndour": [
+"10s"
+],
+"Hamady N'Diaye": [
+"10s"
+],
+"Cheikh Samb": [
+"00s"
+],
+"Mouhamed Sene": [
+"00s"
+],
+"Pape Sow": [
+"00s"
+],
+"Boniface N'Dong": [
+"00s"
+],
+"Mamadou N'Diaye": [
+"00s"
+],
+"Makhtar N'Diaye": [
+"90s"
+]
+},
+"deep": true
+},
+{
+"id": "nba-a-hof-born-abroad",
+"tags": [
+"global",
+"players"
+],
+"text": "Name a Basketball Hall of Fame player who was born outside the 50 US states (as of the 2025 induction class)",
+"answers": [
+[
+"Dirk Nowitzki",
+"Nowitzki",
+"Dirk"
+],
+[
+"Hakeem Olajuwon",
+"Olajuwon",
+"Hakeem",
+"Akeem Olajuwon",
+"The Dream"
+],
+[
+"Tim Duncan",
+"Duncan",
+"Timmy"
+],
+[
+"Patrick Ewing",
+"Ewing"
+],
+[
+"Steve Nash",
+"Nash"
+],
+[
+"Pau Gasol",
+"Gasol"
+],
+[
+"Tony Parker",
+"Parker"
+],
+[
+"Manu Ginóbili",
+"Ginóbili",
+"Manu"
+],
+[
+"Yao Ming",
+"Ming",
+"Yao"
+],
+[
+"Dikembe Mutombo",
+"Mutombo"
+],
+[
+"Dominique Wilkins",
+"Wilkins",
+"Nique"
+],
+[
+"Toni Kukoč",
+"Kukoč"
+],
+[
+"Dražen Petrović",
+"Petrović"
+],
+[
+"Arvydas Sabonis",
+"Sabonis"
+],
+[
+"Vlade Divac",
+"Divac"
+],
+[
+"Dino Rađa",
+"Rađa",
+"Dino Radja",
+"Radja"
+],
+[
+"Šarūnas Marčiulionis",
+"Marčiulionis"
+],
+[
+"Bob Houbregs",
+"Houbregs"
+]
+],
+"eraText": "Name a Basketball Hall of Fame player born outside the 50 US states who played in the NBA in the {era}",
+"eras": {
+"Dirk Nowitzki": [
+"90s",
+"00s",
+"10s"
+],
+"Hakeem Olajuwon": [
+"80s",
+"90s",
+"00s"
+],
+"Tim Duncan": [
+"90s",
+"00s",
+"10s"
+],
+"Patrick Ewing": [
+"80s",
+"90s",
+"00s"
+],
+"Steve Nash": [
+"90s",
+"00s",
+"10s"
+],
+"Pau Gasol": [
+"00s",
+"10s"
+],
+"Tony Parker": [
+"00s",
+"10s"
+],
+"Manu Ginóbili": [
+"00s",
+"10s"
+],
+"Yao Ming": [
+"00s",
+"10s"
+],
+"Dikembe Mutombo": [
+"90s",
+"00s"
+],
+"Dominique Wilkins": [
+"80s",
+"90s"
+],
+"Toni Kukoč": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Dražen Petrović": [
+"80s",
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Arvydas Sabonis": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Vlade Divac": [
+"80s",
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Dino Rađa": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Šarūnas Marčiulionis": [
+"80s",
+"90s",
+"00s",
+"10s",
+"20s"
+]
+},
+"deep": true
+}
+]
+}
