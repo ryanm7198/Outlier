@@ -1,0 +1,4749 @@
+{
+"cat": "football",
+"prompts": [
+{
+"id": "fth-laliga-champions",
+"tags": [
+"europe"
+],
+"text": "Name a club that has won La Liga",
+"answers": [
+"Real Madrid",
+[
+"Barcelona",
+"barca"
+],
+[
+"Atlético Madrid",
+"atletico",
+"atleti"
+],
+"Valencia",
+"Sevilla",
+[
+"Athletic Bilbao",
+"Bilbao",
+"athletic club",
+"athletic"
+],
+[
+"Real Sociedad",
+"Sociedad"
+],
+[
+"Real Betis",
+"Betis"
+],
+[
+"Deportivo La Coruña",
+"La Coruña",
+"Coruña",
+"deportivo",
+"depor"
+]
+],
+"eraText": "Name a club that won La Liga in the {era} (by the season they started)",
+"eras": {
+"Real Madrid": [
+"60s",
+"70s",
+"80s",
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Barcelona": [
+"70s",
+"80s",
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Atlético Madrid": [
+"60s",
+"70s",
+"90s",
+"10s",
+"20s"
+],
+"Valencia": [
+"70s",
+"00s"
+],
+"Athletic Bilbao": [
+"80s"
+],
+"Real Sociedad": [
+"80s"
+],
+"Deportivo La Coruña": [
+"90s"
+]
+}
+},
+{
+"id": "fth-eredivisie-champions",
+"tags": [
+"europe"
+],
+"text": "Name a club that has won the Dutch Eredivisie (since 1956-57)",
+"answers": [
+"Ajax",
+[
+"PSV Eindhoven",
+"Eindhoven",
+"psv"
+],
+"Feyenoord",
+[
+"AZ Alkmaar",
+"Alkmaar",
+"az"
+],
+[
+"FC Twente",
+"Twente"
+],
+[
+"Sparta Rotterdam",
+"Rotterdam",
+"sparta"
+],
+[
+"DWS",
+"dws amsterdam"
+],
+[
+"DOS",
+"dos utrecht"
+]
+],
+"eraText": "Name a club that won the Eredivisie in the {era} (by the season they started)",
+"eras": {
+"Ajax": [
+"60s",
+"70s",
+"80s",
+"90s",
+"10s",
+"20s"
+],
+"PSV Eindhoven": [
+"60s",
+"70s",
+"80s",
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Feyenoord": [
+"60s",
+"70s",
+"80s",
+"90s",
+"10s",
+"20s"
+],
+"AZ Alkmaar": [
+"80s",
+"00s"
+],
+"FC Twente": [
+"00s"
+],
+"DWS": [
+"60s"
+]
+}
+},
+{
+"id": "fth-primeira-top-scorers",
+"tags": [
+"europe"
+],
+"text": "Name a Primeira Liga top scorer since 1934-35",
+"answers": [
+[
+"Viktor Gyökeres",
+"Gyökeres"
+],
+[
+"Darwin Núñez",
+"Núñez"
+],
+"Eusébio",
+"Hulk",
+[
+"Mário Jardel",
+"Jardel"
+],
+"Liédson",
+[
+"Benni McCarthy",
+"McCarthy"
+],
+[
+"Mehdi Taremi",
+"Taremi"
+],
+[
+"Jackson Martínez",
+"Martínez"
+],
+[
+"Óscar Cardozo",
+"Cardozo"
+],
+[
+"Luis Suárez",
+"Suárez"
+],
+[
+"Pedro Gonçalves",
+"Gonçalves"
+],
+[
+"Carlos Vinícius",
+"Vinícius"
+],
+[
+"Haris Seferovic",
+"Seferovic"
+],
+"Jonas",
+[
+"Bas Dost",
+"Dost"
+],
+"Lima",
+"Nenê (Brazilian)",
+[
+"Lisandro López",
+"López"
+],
+[
+"Albert Meyong",
+"Meyong"
+],
+[
+"Fary Faye",
+"Faye"
+],
+[
+"Simão Sabrosa",
+"Sabrosa",
+"simao"
+],
+"Pena",
+[
+"Domingos Paciência",
+"Paciência"
+],
+[
+"Hassan Nader",
+"Nader"
+],
+[
+"Rashidi Yekini",
+"Yekini"
+],
+[
+"Jorge Cadete",
+"Cadete"
+],
+[
+"Ricky Owubokiri",
+"Owubokiri",
+"ricky"
+],
+"Rui Águas",
+[
+"Mats Magnusson",
+"Magnusson"
+],
+[
+"Vata",
+"vata matanu garcia",
+"matanu garcia"
+],
+[
+"Paulinho Cascavel",
+"Cascavel"
+],
+[
+"Manuel Fernandes",
+"Fernandes"
+],
+[
+"Fernando Gomes",
+"Gomes"
+],
+[
+"Jacques Pereira",
+"Pereira"
+],
+"Nené",
+[
+"Rui Jordão",
+"Jordão"
+],
+[
+"Héctor Yazalde",
+"Yazalde"
+],
+[
+"Artur Jorge",
+"Jorge"
+],
+[
+"Manuel António",
+"António"
+],
+[
+"Ernesto Figueiredo",
+"Figueiredo"
+],
+[
+"José Torres",
+"Torres",
+"jose augusto torres",
+"jose augusto"
+],
+[
+"Veríssimo",
+"azumir verissimo"
+],
+"José Águas",
+[
+"Edmur Ribeiro",
+"Ribeiro"
+],
+[
+"Arsénio Duarte",
+"Duarte"
+],
+"Matateu",
+[
+"João Martins",
+"Martins"
+],
+[
+"Manuel Vasques",
+"Vasques"
+],
+[
+"Julinho",
+"julio correia da silva"
+],
+[
+"Fernando Peyroteo",
+"Peyroteo"
+],
+[
+"António Araújo",
+"Araújo"
+],
+[
+"Francisco Rodrigues",
+"Rodrigues"
+],
+[
+"Correia Dias",
+"Dias"
+],
+[
+"Slavko Kodrnja",
+"Kodrnja"
+],
+"Costuras",
+[
+"Manuel Soeiro",
+"Soeiro"
+],
+[
+"Pinga",
+"artur de sousa"
+]
+],
+"eraText": "Name a Primeira Liga top scorer in a season starting in the {era}",
+"eras": {
+"Viktor Gyökeres": [
+"20s"
+],
+"Darwin Núñez": [
+"20s"
+],
+"Eusébio": [
+"60s",
+"70s"
+],
+"Hulk": [
+"10s"
+],
+"Mário Jardel": [
+"90s",
+"00s"
+],
+"Liédson": [
+"00s"
+],
+"Benni McCarthy": [
+"00s"
+],
+"Mehdi Taremi": [
+"20s"
+],
+"Jackson Martínez": [
+"10s"
+],
+"Óscar Cardozo": [
+"00s",
+"10s"
+],
+"Luis Suárez": [
+"20s"
+],
+"Pedro Gonçalves": [
+"20s"
+],
+"Carlos Vinícius": [
+"10s"
+],
+"Haris Seferovic": [
+"10s"
+],
+"Jonas": [
+"10s"
+],
+"Bas Dost": [
+"10s"
+],
+"Lima": [
+"10s"
+],
+"Nenê (Brazilian)": [
+"00s"
+],
+"Lisandro López": [
+"00s"
+],
+"Albert Meyong": [
+"00s"
+],
+"Fary Faye": [
+"00s"
+],
+"Simão Sabrosa": [
+"00s"
+],
+"Pena": [
+"00s"
+],
+"Domingos Paciência": [
+"90s"
+],
+"Hassan Nader": [
+"90s"
+],
+"Rashidi Yekini": [
+"90s"
+],
+"Jorge Cadete": [
+"90s"
+],
+"Ricky Owubokiri": [
+"90s"
+],
+"Rui Águas": [
+"90s"
+],
+"Mats Magnusson": [
+"80s"
+],
+"Vata": [
+"80s"
+],
+"Paulinho Cascavel": [
+"80s"
+],
+"Manuel Fernandes": [
+"80s"
+],
+"Fernando Gomes": [
+"70s",
+"80s"
+],
+"Jacques Pereira": [
+"80s"
+],
+"Nené": [
+"80s"
+],
+"Rui Jordão": [
+"70s"
+],
+"Héctor Yazalde": [
+"70s"
+],
+"Artur Jorge": [
+"70s"
+],
+"Manuel António": [
+"60s"
+],
+"Ernesto Figueiredo": [
+"60s"
+],
+"José Torres": [
+"60s"
+],
+"Veríssimo": [
+"60s"
+],
+"José Águas": [
+"60s"
+]
+},
+"deep": true
+},
+{
+"id": "fth-serie-a-capocannoniere",
+"tags": [
+"europe"
+],
+"text": "Name a Serie A top scorer (capocannoniere) since 1929-30",
+"answers": [
+[
+"Cristiano Ronaldo",
+"Ronaldo",
+"cr7",
+"cristiano"
+],
+[
+"Zlatan Ibrahimović",
+"Ibrahimović",
+"zlatan",
+"ibra"
+],
+[
+"Diego Maradona",
+"Maradona"
+],
+[
+"Michel Platini",
+"Platini"
+],
+[
+"Marco van Basten",
+"van Basten",
+"Basten"
+],
+[
+"Gabriel Batistuta",
+"Batistuta"
+],
+[
+"Andriy Shevchenko",
+"Shevchenko"
+],
+[
+"Edinson Cavani",
+"Cavani"
+],
+[
+"Lautaro Martínez",
+"Martínez"
+],
+[
+"Ciro Immobile",
+"Immobile"
+],
+[
+"Francesco Totti",
+"Totti"
+],
+[
+"Alessandro Del Piero",
+"Del Piero",
+"pinturicchio"
+],
+[
+"Paolo Rossi",
+"Rossi"
+],
+[
+"Filippo Inzaghi",
+"Inzaghi"
+],
+[
+"Christian Vieri",
+"Vieri"
+],
+[
+"Victor Osimhen",
+"Osimhen"
+],
+[
+"Gonzalo Higuaín",
+"Higuaín"
+],
+[
+"Hernán Crespo",
+"Crespo"
+],
+[
+"David Trezeguet",
+"Trezeguet"
+],
+[
+"Luca Toni",
+"Toni"
+],
+[
+"Edin Džeko",
+"Džeko"
+],
+[
+"Gianluca Vialli",
+"Vialli"
+],
+[
+"Gigi Riva",
+"Riva",
+"luigi riva"
+],
+[
+"Mateo Retegui",
+"Retegui"
+],
+[
+"Fabio Quagliarella",
+"Quagliarella"
+],
+[
+"Mauro Icardi",
+"Icardi"
+],
+[
+"Antonio Di Natale",
+"Di Natale",
+"Natale"
+],
+[
+"Cristiano Lucarelli",
+"Lucarelli"
+],
+[
+"Dario Hübner",
+"Hübner"
+],
+[
+"Márcio Amoroso",
+"Amoroso"
+],
+[
+"Oliver Bierhoff",
+"Bierhoff"
+],
+[
+"Giuseppe Signori",
+"Signori"
+],
+[
+"Igor Protti",
+"Protti"
+],
+[
+"Aldo Serena",
+"Serena"
+],
+[
+"Pietro Paolo Virdis",
+"Virdis"
+],
+[
+"Roberto Pruzzo",
+"Pruzzo"
+],
+[
+"Roberto Bettega",
+"Bettega"
+],
+[
+"Bruno Giordano",
+"Giordano"
+],
+[
+"Francesco Graziani",
+"Graziani"
+],
+[
+"Paolino Pulici",
+"Pulici"
+],
+[
+"Giorgio Chinaglia",
+"Chinaglia"
+],
+[
+"Giuseppe Savoldi",
+"Savoldi"
+],
+[
+"Gianni Rivera",
+"Rivera"
+],
+[
+"Roberto Boninsegna",
+"Boninsegna"
+],
+[
+"Pierino Prati",
+"Prati"
+],
+[
+"Luís Vinício",
+"Vinício"
+],
+"Sandro Mazzola",
+[
+"Alberto Orlando",
+"Orlando"
+],
+[
+"Harald Nielsen",
+"Nielsen"
+],
+[
+"Pedro Manfredini",
+"Manfredini"
+],
+[
+"José Altafini",
+"Altafini"
+],
+[
+"Aurelio Milani",
+"Milani"
+],
+[
+"Sergio Brighenti",
+"Brighenti"
+],
+[
+"Omar Sívori",
+"Sívori"
+],
+[
+"Antonio Valentín Angelillo",
+"Angelillo"
+],
+[
+"John Charles",
+"Charles"
+],
+[
+"Dino da Costa",
+"da Costa"
+],
+[
+"Gino Pivatelli",
+"Pivatelli"
+],
+[
+"Gunnar Nordahl",
+"Nordahl"
+],
+[
+"John Hansen",
+"Hansen"
+],
+[
+"István Nyers",
+"Nyers"
+],
+[
+"Giampiero Boniperti",
+"Boniperti"
+],
+"Valentino Mazzola",
+[
+"Guglielmo Gabetto",
+"Gabetto"
+],
+[
+"Silvio Piola",
+"Piola"
+],
+[
+"Aldo Boffi",
+"Boffi"
+],
+[
+"Ettore Puricelli",
+"Puricelli"
+],
+[
+"Giuseppe Meazza",
+"Meazza"
+],
+[
+"Enrique Guaita",
+"Guaita"
+],
+[
+"Felice Borel",
+"Borel"
+],
+[
+"Angelo Schiavio",
+"Schiavio"
+],
+[
+"Pedro Petrone",
+"Petrone"
+],
+[
+"Rodolfo Volk",
+"Volk"
+]
+],
+"eraText": "Name a Serie A top scorer in a season starting in the {era}",
+"eras": {
+"Cristiano Ronaldo": [
+"20s"
+],
+"Zlatan Ibrahimović": [
+"00s",
+"10s"
+],
+"Diego Maradona": [
+"80s"
+],
+"Michel Platini": [
+"80s"
+],
+"Marco van Basten": [
+"80s",
+"90s"
+],
+"Gabriel Batistuta": [
+"90s"
+],
+"Andriy Shevchenko": [
+"90s",
+"00s"
+],
+"Edinson Cavani": [
+"10s"
+],
+"Lautaro Martínez": [
+"20s"
+],
+"Ciro Immobile": [
+"10s",
+"20s"
+],
+"Francesco Totti": [
+"00s"
+],
+"Alessandro Del Piero": [
+"00s"
+],
+"Paolo Rossi": [
+"70s"
+],
+"Filippo Inzaghi": [
+"90s"
+],
+"Christian Vieri": [
+"00s"
+],
+"Victor Osimhen": [
+"20s"
+],
+"Gonzalo Higuaín": [
+"10s"
+],
+"Hernán Crespo": [
+"00s"
+],
+"David Trezeguet": [
+"00s"
+],
+"Luca Toni": [
+"00s",
+"10s"
+],
+"Edin Džeko": [
+"10s"
+],
+"Gianluca Vialli": [
+"90s"
+],
+"Gigi Riva": [
+"60s"
+],
+"Mateo Retegui": [
+"20s"
+],
+"Fabio Quagliarella": [
+"10s"
+],
+"Mauro Icardi": [
+"10s"
+],
+"Antonio Di Natale": [
+"00s",
+"10s"
+],
+"Cristiano Lucarelli": [
+"00s"
+],
+"Dario Hübner": [
+"00s"
+],
+"Márcio Amoroso": [
+"90s"
+],
+"Oliver Bierhoff": [
+"90s"
+],
+"Giuseppe Signori": [
+"90s"
+],
+"Igor Protti": [
+"90s"
+],
+"Aldo Serena": [
+"80s"
+],
+"Pietro Paolo Virdis": [
+"80s"
+],
+"Roberto Pruzzo": [
+"80s"
+],
+"Roberto Bettega": [
+"70s"
+],
+"Bruno Giordano": [
+"70s"
+],
+"Francesco Graziani": [
+"70s"
+],
+"Paolino Pulici": [
+"70s"
+],
+"Giorgio Chinaglia": [
+"70s"
+],
+"Giuseppe Savoldi": [
+"70s"
+],
+"Gianni Rivera": [
+"70s"
+],
+"Roberto Boninsegna": [
+"70s"
+],
+"Pierino Prati": [
+"60s"
+],
+"Luís Vinício": [
+"60s"
+],
+"Sandro Mazzola": [
+"60s"
+],
+"Alberto Orlando": [
+"60s"
+],
+"Harald Nielsen": [
+"60s"
+],
+"Pedro Manfredini": [
+"60s"
+],
+"José Altafini": [
+"60s"
+],
+"Aurelio Milani": [
+"60s"
+],
+"Sergio Brighenti": [
+"60s"
+]
+},
+"deep": true
+},
+{
+"id": "fth-bundesliga-100-goals",
+"tags": [
+"europe"
+],
+"text": "Name a player who has scored 100 or more Bundesliga goals",
+"answers": [
+[
+"Harry Kane",
+"Kane"
+],
+[
+"Robert Lewandowski",
+"Lewandowski",
+"lewy"
+],
+[
+"Gerd Müller",
+"der bomber"
+],
+[
+"Miroslav Klose",
+"Klose"
+],
+[
+"Jürgen Klinsmann",
+"Klinsmann",
+"klinsi"
+],
+"Thomas Müller",
+[
+"Marco Reus",
+"Reus"
+],
+[
+"Lothar Matthäus",
+"Matthäus",
+"lothar matthaeus",
+"matthaeus"
+],
+[
+"Karl-Heinz Rummenigge",
+"Rummenigge"
+],
+[
+"Rudi Völler",
+"Völler"
+],
+[
+"Uwe Seeler",
+"Seeler"
+],
+[
+"Mario Gómez",
+"Gómez"
+],
+[
+"Claudio Pizarro",
+"Pizarro"
+],
+[
+"Giovane Élber",
+"Élber"
+],
+"Aílton",
+[
+"Timo Werner",
+"Werner"
+],
+[
+"Serge Gnabry",
+"Gnabry"
+],
+[
+"Andrej Kramarić",
+"Kramarić"
+],
+[
+"Vedad Ibišević",
+"Ibišević"
+],
+[
+"Stefan Kießling",
+"Kießling"
+],
+[
+"Kevin Kurányi",
+"Kurányi"
+],
+[
+"Fredi Bobic",
+"Bobic"
+],
+[
+"Martin Max",
+"Max"
+],
+[
+"Andreas Möller",
+"Möller"
+],
+[
+"Ulf Kirsten",
+"Kirsten"
+],
+[
+"Marco Bode",
+"Bode"
+],
+[
+"Bruno Labbadia",
+"Labbadia"
+],
+[
+"Stefan Kuntz",
+"Kuntz"
+],
+[
+"Stéphane Chapuisat",
+"Chapuisat"
+],
+[
+"Michael Zorc",
+"Zorc"
+],
+[
+"Roland Wohlfarth",
+"Wohlfarth"
+],
+[
+"Thomas von Heesen",
+"von Heesen",
+"Heesen"
+],
+[
+"Fritz Walter",
+"Walter"
+],
+[
+"Frank Mill",
+"Mill"
+],
+"Klaus Allofs",
+[
+"Pierre Littbarski",
+"Littbarski"
+],
+[
+"Uwe Rahn",
+"Rahn"
+],
+"Thomas Allofs",
+[
+"Christian Schreier",
+"Schreier"
+],
+[
+"Karl Allgöwer",
+"Allgöwer"
+],
+[
+"Manfred Burgsmüller",
+"Burgsmüller"
+],
+[
+"Klaus Fischer",
+"Fischer"
+],
+[
+"Dieter Hoeneß",
+"Hoeneß"
+],
+"Dieter Müller",
+[
+"Reiner Geye",
+"Geye"
+],
+[
+"Horst Hrubesch",
+"Hrubesch"
+],
+[
+"Ronnie Worm",
+"Worm"
+],
+[
+"Bernd Nickel",
+"Nickel"
+],
+[
+"Bernd Hölzenbein",
+"Hölzenbein"
+],
+[
+"Georg Volkert",
+"Volkert"
+],
+[
+"Jürgen Grabowski",
+"Grabowski"
+],
+[
+"Klaus Toppmöller",
+"Toppmöller"
+],
+[
+"Jupp Heynckes",
+"Heynckes"
+],
+[
+"Hannes Löhr",
+"Löhr"
+],
+[
+"Herbert Laumen",
+"Laumen"
+],
+[
+"Bernd Rupp",
+"Rupp"
+],
+[
+"Lothar Emmerich",
+"Emmerich"
+]
+],
+"eraText": "Name a player with 100 or more career Bundesliga goals who played in the Bundesliga in the {era}",
+"eras": {
+"Harry Kane": [
+"20s"
+],
+"Robert Lewandowski": [
+"10s",
+"20s"
+],
+"Gerd Müller": [
+"60s",
+"70s"
+],
+"Miroslav Klose": [
+"00s",
+"10s"
+],
+"Jürgen Klinsmann": [
+"80s",
+"90s"
+],
+"Thomas Müller": [
+"00s",
+"10s",
+"20s"
+],
+"Marco Reus": [
+"00s",
+"10s",
+"20s"
+],
+"Lothar Matthäus": [
+"70s",
+"80s",
+"90s",
+"00s"
+],
+"Karl-Heinz Rummenigge": [
+"70s",
+"80s"
+],
+"Rudi Völler": [
+"80s",
+"90s"
+],
+"Uwe Seeler": [
+"60s",
+"70s"
+],
+"Mario Gómez": [
+"00s",
+"10s"
+],
+"Claudio Pizarro": [
+"90s",
+"00s",
+"10s",
+"20s"
+],
+"Giovane Élber": [
+"90s",
+"00s"
+],
+"Aílton": [
+"90s",
+"00s"
+],
+"Timo Werner": [
+"10s",
+"20s"
+],
+"Serge Gnabry": [
+"10s",
+"20s"
+],
+"Andrej Kramarić": [
+"10s",
+"20s"
+],
+"Vedad Ibišević": [
+"00s",
+"10s",
+"20s"
+],
+"Stefan Kießling": [
+"00s",
+"10s"
+],
+"Kevin Kurányi": [
+"00s",
+"10s"
+],
+"Fredi Bobic": [
+"90s",
+"00s"
+],
+"Martin Max": [
+"80s",
+"90s",
+"00s"
+],
+"Andreas Möller": [
+"80s",
+"90s",
+"00s"
+],
+"Ulf Kirsten": [
+"90s",
+"00s"
+],
+"Marco Bode": [
+"80s",
+"90s",
+"00s"
+],
+"Bruno Labbadia": [
+"80s",
+"90s",
+"00s"
+],
+"Stefan Kuntz": [
+"80s",
+"90s"
+],
+"Stéphane Chapuisat": [
+"90s"
+],
+"Michael Zorc": [
+"80s",
+"90s"
+],
+"Roland Wohlfarth": [
+"80s",
+"90s"
+],
+"Thomas von Heesen": [
+"80s",
+"90s"
+],
+"Fritz Walter": [
+"80s",
+"90s"
+],
+"Frank Mill": [
+"70s",
+"80s",
+"90s"
+],
+"Klaus Allofs": [
+"70s",
+"80s",
+"90s"
+],
+"Pierre Littbarski": [
+"70s",
+"80s",
+"90s"
+],
+"Uwe Rahn": [
+"80s",
+"90s"
+],
+"Thomas Allofs": [
+"70s",
+"80s",
+"90s"
+],
+"Christian Schreier": [
+"80s",
+"90s"
+],
+"Karl Allgöwer": [
+"80s",
+"90s"
+],
+"Manfred Burgsmüller": [
+"60s",
+"70s",
+"80s",
+"90s"
+],
+"Klaus Fischer": [
+"60s",
+"70s",
+"80s"
+],
+"Dieter Hoeneß": [
+"70s",
+"80s"
+],
+"Dieter Müller": [
+"70s",
+"80s"
+],
+"Reiner Geye": [
+"70s",
+"80s"
+],
+"Horst Hrubesch": [
+"70s",
+"80s"
+],
+"Ronnie Worm": [
+"70s",
+"80s"
+],
+"Bernd Nickel": [
+"60s",
+"70s",
+"80s"
+],
+"Bernd Hölzenbein": [
+"60s",
+"70s",
+"80s"
+],
+"Georg Volkert": [
+"60s",
+"70s",
+"80s"
+],
+"Jürgen Grabowski": [
+"60s",
+"70s",
+"80s"
+],
+"Klaus Toppmöller": [
+"70s"
+],
+"Jupp Heynckes": [
+"60s",
+"70s"
+],
+"Hannes Löhr": [
+"60s",
+"70s"
+],
+"Herbert Laumen": [
+"60s",
+"70s"
+],
+"Bernd Rupp": [
+"60s",
+"70s"
+],
+"Lothar Emmerich": [
+"60s"
+]
+},
+"deep": true
+},
+{
+"id": "fth-ligue-1-100-goals",
+"tags": [
+"europe"
+],
+"text": "Name a player who has scored 100 or more goals in the French top flight (Ligue 1)",
+"answers": [
+[
+"Kylian Mbappé",
+"Mbappé"
+],
+[
+"Zlatan Ibrahimović",
+"Ibrahimović",
+"zlatan",
+"ibra"
+],
+[
+"Edinson Cavani",
+"Cavani"
+],
+[
+"Jean-Pierre Papin",
+"Papin",
+"jpp"
+],
+[
+"Michel Platini",
+"Platini"
+],
+[
+"Alexandre Lacazette",
+"Lacazette"
+],
+[
+"Dimitri Payet",
+"Payet"
+],
+"Pauleta",
+[
+"Just Fontaine",
+"Fontaine"
+],
+[
+"Bafétimbi Gomis",
+"Gomis"
+],
+[
+"Florian Thauvin",
+"Thauvin"
+],
+[
+"André-Pierre Gignac",
+"Gignac"
+],
+[
+"Wissam Ben Yedder",
+"Ben Yedder",
+"Yedder"
+],
+[
+"Delio Onnis",
+"Onnis"
+],
+[
+"Bernard Lacombe",
+"Lacombe"
+],
+[
+"Alain Giresse",
+"Giresse"
+],
+[
+"Dominique Rocheteau",
+"Rocheteau"
+],
+[
+"Kevin Gameiro",
+"Gameiro"
+],
+[
+"Sonny Anderson",
+"Anderson"
+],
+[
+"Carlos Bianchi",
+"Bianchi"
+],
+[
+"Josip Skoblar",
+"Skoblar"
+],
+[
+"Jimmy Briand",
+"Briand"
+],
+[
+"Mamadou Niang",
+"Niang"
+],
+[
+"Lilian Laslandes",
+"Laslandes"
+],
+[
+"Alain Caveglia",
+"Caveglia"
+],
+[
+"Philippe Vercruysse",
+"Vercruysse"
+],
+[
+"Daniel Xuereb",
+"Xuereb"
+],
+[
+"François Brisson",
+"Brisson"
+],
+[
+"Yannick Stopyra",
+"Stopyra"
+],
+[
+"Bernard Zénier",
+"Zénier"
+],
+[
+"Bernard Genghini",
+"Genghini"
+],
+[
+"Abdelkrim Merry",
+"Merry"
+],
+[
+"Albert Emon",
+"Emon"
+],
+[
+"Gérard Soler",
+"Soler"
+],
+[
+"Vahid Halilhodžić",
+"Halilhodžić"
+],
+[
+"Éric Pécout",
+"Pécout"
+],
+[
+"Albert Gemmrich",
+"Gemmrich"
+],
+[
+"Mustapha Dahleb",
+"Dahleb"
+],
+[
+"Serge Chiesa",
+"Chiesa"
+],
+[
+"Robert Pintenat",
+"Pintenat"
+],
+[
+"Jacky Vergnes",
+"Vergnes"
+],
+[
+"Claude Papi",
+"Papi"
+],
+"Patrick Revelli",
+[
+"François M'Pelé",
+"M'Pelé"
+],
+[
+"François Félix",
+"Félix"
+],
+[
+"Marc Berdoll",
+"Berdoll"
+],
+"Hervé Revelli",
+[
+"Didier Couécou",
+"Couécou"
+],
+[
+"Georges Lech",
+"Lech"
+],
+[
+"Fleury Di Nallo",
+"Di Nallo"
+],
+[
+"Joseph Yegba Maya",
+"Maya"
+],
+[
+"Nestor Combin",
+"Combin"
+],
+[
+"Charly Loubet",
+"Loubet"
+],
+[
+"Bernard Blanchet",
+"Blanchet"
+],
+[
+"Salif Keïta",
+"Keïta"
+],
+[
+"Philippe Gondet",
+"Gondet"
+],
+[
+"André Guy",
+"Guy"
+],
+[
+"Rachid Mekhloufi",
+"Mekhloufi"
+],
+[
+"Dominique Rustichelli",
+"Rustichelli"
+],
+[
+"Hector De Bourgoing",
+"De Bourgoing",
+"Bourgoing"
+],
+[
+"Maryan Wisniewski",
+"Wisniewski"
+],
+[
+"Lucien Cossou",
+"Cossou"
+],
+[
+"Michel Stievenard",
+"Stievenard"
+],
+[
+"Yvon Douis",
+"Douis"
+],
+[
+"Roger Piantoni",
+"Piantoni"
+],
+[
+"Stéphane Bruey",
+"Bruey"
+],
+[
+"Joseph Ujlaki",
+"Ujlaki"
+],
+[
+"Hassan Akesbi",
+"Akesbi"
+],
+[
+"Jacques Foix",
+"Foix"
+],
+[
+"Jean Vincent",
+"Vincent"
+],
+[
+"Ernest Schultz",
+"Schultz"
+],
+[
+"Henri Skiba",
+"Skiba"
+],
+[
+"Léon Deladerrière",
+"Deladerrière"
+],
+[
+"Bernard Rahis",
+"Rahis"
+],
+[
+"Victor Nurenberg",
+"Nurenberg"
+],
+[
+"Thadée Cisowski",
+"Cisowski"
+],
+[
+"André Strappe",
+"Strappe"
+],
+[
+"Gunnar Andersson",
+"Andersson"
+],
+[
+"Pierre Flamion",
+"Flamion"
+],
+[
+"René Gardien",
+"Gardien"
+],
+[
+"Roger Courtois",
+"Courtois"
+],
+[
+"Édouard Kargu",
+"Kargu"
+],
+[
+"Jean Baratte",
+"Baratte"
+],
+[
+"Jean Grumellon",
+"Grumellon"
+],
+[
+"Henri Baillot",
+"Baillot"
+],
+[
+"Pierre Sinibaldi",
+"Sinibaldi"
+],
+[
+"André Simonyi",
+"Simonyi"
+],
+[
+"Désiré Koranyi",
+"Koranyi"
+],
+[
+"Henri Hiltl",
+"Hiltl"
+],
+[
+"Oskar Rohr",
+"Rohr"
+]
+],
+"eraText": "Name a player with 100 or more career French top-flight goals who played in it in the {era}",
+"eras": {
+"Kylian Mbappé": [
+"10s",
+"20s"
+],
+"Zlatan Ibrahimović": [
+"10s"
+],
+"Edinson Cavani": [
+"10s",
+"20s"
+],
+"Jean-Pierre Papin": [
+"80s",
+"90s"
+],
+"Michel Platini": [
+"70s",
+"80s"
+],
+"Alexandre Lacazette": [
+"10s",
+"20s"
+],
+"Dimitri Payet": [
+"00s",
+"10s",
+"20s"
+],
+"Pauleta": [
+"00s"
+],
+"Just Fontaine": [
+"60s"
+],
+"Bafétimbi Gomis": [
+"00s",
+"10s"
+],
+"Florian Thauvin": [
+"10s",
+"20s"
+],
+"André-Pierre Gignac": [
+"00s",
+"10s"
+],
+"Wissam Ben Yedder": [
+"10s",
+"20s"
+],
+"Delio Onnis": [
+"70s",
+"80s"
+],
+"Bernard Lacombe": [
+"60s",
+"70s",
+"80s"
+],
+"Alain Giresse": [
+"70s",
+"80s"
+],
+"Dominique Rocheteau": [
+"70s",
+"80s"
+],
+"Kevin Gameiro": [
+"00s",
+"10s",
+"20s"
+],
+"Sonny Anderson": [
+"90s",
+"00s"
+],
+"Carlos Bianchi": [
+"70s",
+"80s"
+],
+"Josip Skoblar": [
+"60s",
+"70s"
+],
+"Jimmy Briand": [
+"00s",
+"10s",
+"20s"
+],
+"Mamadou Niang": [
+"00s",
+"10s"
+],
+"Lilian Laslandes": [
+"90s",
+"00s"
+],
+"Alain Caveglia": [
+"90s",
+"00s"
+],
+"Philippe Vercruysse": [
+"80s",
+"90s"
+],
+"Daniel Xuereb": [
+"70s",
+"80s",
+"90s"
+],
+"François Brisson": [
+"70s",
+"80s",
+"90s"
+],
+"Yannick Stopyra": [
+"70s",
+"80s",
+"90s"
+],
+"Bernard Zénier": [
+"70s",
+"80s",
+"90s"
+],
+"Bernard Genghini": [
+"70s",
+"80s"
+],
+"Abdelkrim Merry": [
+"70s",
+"80s"
+],
+"Albert Emon": [
+"70s",
+"80s"
+],
+"Gérard Soler": [
+"70s",
+"80s"
+],
+"Vahid Halilhodžić": [
+"80s"
+],
+"Éric Pécout": [
+"70s",
+"80s"
+],
+"Albert Gemmrich": [
+"70s",
+"80s"
+],
+"Mustapha Dahleb": [
+"60s",
+"70s",
+"80s"
+],
+"Serge Chiesa": [
+"60s",
+"70s",
+"80s"
+],
+"Robert Pintenat": [
+"60s",
+"70s",
+"80s"
+],
+"Jacky Vergnes": [
+"60s",
+"70s",
+"80s"
+],
+"Claude Papi": [
+"60s",
+"70s",
+"80s"
+],
+"Patrick Revelli": [
+"60s",
+"70s",
+"80s"
+],
+"François M'Pelé": [
+"60s",
+"70s",
+"80s"
+],
+"François Félix": [
+"60s",
+"70s",
+"80s"
+],
+"Marc Berdoll": [
+"70s",
+"80s"
+],
+"Hervé Revelli": [
+"60s",
+"70s"
+],
+"Didier Couécou": [
+"60s",
+"70s"
+],
+"Georges Lech": [
+"60s",
+"70s"
+],
+"Fleury Di Nallo": [
+"60s",
+"70s"
+],
+"Joseph Yegba Maya": [
+"60s",
+"70s"
+],
+"Nestor Combin": [
+"60s",
+"70s"
+],
+"Charly Loubet": [
+"60s",
+"70s"
+],
+"Bernard Blanchet": [
+"60s",
+"70s"
+],
+"Salif Keïta": [
+"60s",
+"70s"
+],
+"Philippe Gondet": [
+"60s",
+"70s"
+],
+"André Guy": [
+"60s",
+"70s"
+],
+"Rachid Mekhloufi": [
+"60s",
+"70s"
+],
+"Dominique Rustichelli": [
+"60s",
+"70s"
+],
+"Hector De Bourgoing": [
+"60s"
+],
+"Maryan Wisniewski": [
+"60s"
+],
+"Lucien Cossou": [
+"60s"
+],
+"Michel Stievenard": [
+"60s"
+],
+"Yvon Douis": [
+"60s"
+],
+"Roger Piantoni": [
+"60s"
+],
+"Stéphane Bruey": [
+"60s"
+],
+"Joseph Ujlaki": [
+"60s"
+],
+"Hassan Akesbi": [
+"60s"
+],
+"Jacques Foix": [
+"60s"
+],
+"Jean Vincent": [
+"60s"
+],
+"Ernest Schultz": [
+"60s"
+],
+"Henri Skiba": [
+"60s"
+],
+"Léon Deladerrière": [
+"60s"
+],
+"Bernard Rahis": [
+"60s"
+],
+"Victor Nurenberg": [
+"60s"
+],
+"Thadée Cisowski": [
+"60s"
+],
+"André Strappe": [
+"60s"
+],
+"Gunnar Andersson": [
+"60s"
+],
+"Pierre Flamion": [
+"60s"
+]
+},
+"deep": true
+},
+{
+"id": "fth-ballon-dor-serie-a",
+"tags": [
+"europe"
+],
+"text": "Name a Ballon d'Or winner who won it while playing for a Serie A club",
+"answers": [
+"Kaká",
+[
+"Andriy Shevchenko",
+"Shevchenko"
+],
+[
+"Zinedine Zidane",
+"Zidane",
+"zizou"
+],
+[
+"Ronaldo Nazário",
+"Nazário",
+"r9",
+"el fenomeno",
+"ronaldo"
+],
+[
+"Roberto Baggio",
+"Baggio",
+"robbie baggio"
+],
+[
+"Marco van Basten",
+"van Basten",
+"Basten"
+],
+[
+"Ruud Gullit",
+"Gullit"
+],
+[
+"Michel Platini",
+"Platini"
+],
+[
+"Paolo Rossi",
+"Rossi"
+],
+[
+"Lothar Matthäus",
+"Matthäus",
+"lothar matthaeus",
+"matthaeus"
+],
+[
+"George Weah",
+"Weah"
+],
+[
+"Pavel Nedvěd",
+"Nedvěd"
+],
+[
+"Gianni Rivera",
+"Rivera"
+],
+[
+"Omar Sívori",
+"Sívori"
+]
+],
+"eraText": "Name a player who won the Ballon d'Or in the {era} while playing for a Serie A club",
+"eras": {
+"Omar Sívori": [
+"60s"
+],
+"Gianni Rivera": [
+"60s"
+],
+"Paolo Rossi": [
+"80s"
+],
+"Michel Platini": [
+"80s"
+],
+"Ruud Gullit": [
+"80s"
+],
+"Marco van Basten": [
+"80s",
+"90s"
+],
+"Lothar Matthäus": [
+"90s"
+],
+"Roberto Baggio": [
+"90s"
+],
+"George Weah": [
+"90s"
+],
+"Ronaldo Nazário": [
+"90s"
+],
+"Zinedine Zidane": [
+"90s"
+],
+"Pavel Nedvěd": [
+"00s"
+],
+"Andriy Shevchenko": [
+"00s"
+],
+"Kaká": [
+"00s"
+]
+}
+},
+{
+"id": "fth-ligue-1-top-scorers",
+"tags": [
+"europe"
+],
+"text": "Name a top scorer in the French top flight (Ligue 1) in a season since 1932-33",
+"answers": [
+[
+"Kylian Mbappé",
+"Mbappé"
+],
+[
+"Zlatan Ibrahimović",
+"Ibrahimović",
+"zlatan",
+"ibra"
+],
+[
+"Edinson Cavani",
+"Cavani"
+],
+[
+"Jean-Pierre Papin",
+"Papin",
+"jpp"
+],
+[
+"Karim Benzema",
+"Benzema"
+],
+[
+"Olivier Giroud",
+"Giroud"
+],
+[
+"Alexandre Lacazette",
+"Lacazette"
+],
+"Pauleta",
+[
+"Just Fontaine",
+"Fontaine"
+],
+[
+"Djibril Cissé",
+"Cissé"
+],
+[
+"Wissam Ben Yedder",
+"Ben Yedder",
+"Yedder"
+],
+[
+"Ousmane Dembélé",
+"Dembélé"
+],
+[
+"Mason Greenwood",
+"Greenwood"
+],
+[
+"Sylvain Wiltord",
+"Wiltord"
+],
+[
+"André-Pierre Gignac",
+"Gignac"
+],
+[
+"Sonny Anderson",
+"Anderson"
+],
+[
+"Carlos Bianchi",
+"Bianchi"
+],
+[
+"Delio Onnis",
+"Onnis"
+],
+[
+"Esteban Lepaul",
+"Lepaul"
+],
+"Nenê",
+[
+"Moussa Sow",
+"Sow"
+],
+[
+"Mamadou Niang",
+"Niang"
+],
+[
+"Alexander Frei",
+"Frei"
+],
+[
+"Shabani Nonda",
+"Nonda"
+],
+[
+"Stéphane Guivarc'h",
+"Guivarc'h"
+],
+[
+"Patrice Loko",
+"Loko"
+],
+[
+"Roger Boli",
+"Boli"
+],
+[
+"Youri Djorkaeff",
+"Djorkaeff"
+],
+[
+"Nicolas Ouédec",
+"Ouédec"
+],
+[
+"Alen Bokšić",
+"Bokšić"
+],
+[
+"Bernard Zénier",
+"Zénier"
+],
+[
+"Jules Bocandé",
+"Bocandé"
+],
+[
+"Vahid Halilhodžić",
+"Halilhodžić"
+],
+[
+"Patrice Garande",
+"Garande"
+],
+[
+"Erwin Kostedde",
+"Kostedde"
+],
+[
+"Josip Skoblar",
+"Skoblar"
+],
+[
+"Hervé Revelli",
+"Revelli"
+],
+[
+"André Guy",
+"Guy"
+],
+[
+"Étienne Sansonetti",
+"Sansonetti"
+],
+[
+"Philippe Gondet",
+"Gondet"
+],
+[
+"Jacques Simon",
+"Simon"
+],
+[
+"Ahmed Oudjani",
+"Oudjani"
+],
+[
+"Serge Masnaghetti",
+"Masnaghetti"
+],
+[
+"Sékou Touré",
+"Touré"
+],
+[
+"Roger Piantoni",
+"Piantoni"
+],
+[
+"Thadée Cisowski",
+"Cisowski"
+],
+[
+"René Bliard",
+"Bliard"
+],
+[
+"Édouard Kargu",
+"Kargu"
+],
+[
+"Gunnar Andersson",
+"Andersson"
+],
+[
+"Jean Courteaux",
+"Courteaux"
+],
+[
+"Jean Grumellon",
+"Grumellon"
+],
+[
+"Jean Baratte",
+"Baratte"
+],
+[
+"Josef Humpál",
+"Humpál"
+],
+[
+"Pierre Sinibaldi",
+"Sinibaldi"
+],
+[
+"René Bihel",
+"Bihel"
+],
+[
+"Roger Courtois",
+"Courtois"
+],
+[
+"Désiré Koranyi",
+"Koranyi"
+],
+[
+"Jean Nicolas",
+"Nicolas"
+],
+[
+"Oskar Rohr",
+"Rohr"
+],
+[
+"André Abegglen",
+"Abegglen"
+],
+[
+"István Lukács",
+"Lukács"
+],
+[
+"Walter Kaiser",
+"Kaiser"
+],
+[
+"Robert Mercier",
+"Mercier"
+]
+],
+"eraText": "Name a French top-flight top scorer in a season starting in the {era}",
+"eras": {
+"Kylian Mbappé": [
+"10s",
+"20s"
+],
+"Zlatan Ibrahimović": [
+"10s"
+],
+"Edinson Cavani": [
+"10s"
+],
+"Jean-Pierre Papin": [
+"80s",
+"90s"
+],
+"Karim Benzema": [
+"00s"
+],
+"Olivier Giroud": [
+"10s"
+],
+"Alexandre Lacazette": [
+"10s"
+],
+"Pauleta": [
+"00s"
+],
+"Djibril Cissé": [
+"00s"
+],
+"Wissam Ben Yedder": [
+"10s"
+],
+"Ousmane Dembélé": [
+"20s"
+],
+"Mason Greenwood": [
+"20s"
+],
+"Sylvain Wiltord": [
+"90s"
+],
+"André-Pierre Gignac": [
+"00s"
+],
+"Sonny Anderson": [
+"90s",
+"00s"
+],
+"Carlos Bianchi": [
+"70s"
+],
+"Delio Onnis": [
+"70s",
+"80s"
+],
+"Esteban Lepaul": [
+"20s"
+],
+"Nenê": [
+"10s"
+],
+"Moussa Sow": [
+"10s"
+],
+"Mamadou Niang": [
+"00s"
+],
+"Alexander Frei": [
+"00s"
+],
+"Shabani Nonda": [
+"00s"
+],
+"Stéphane Guivarc'h": [
+"90s"
+],
+"Patrice Loko": [
+"90s"
+],
+"Roger Boli": [
+"90s"
+],
+"Youri Djorkaeff": [
+"90s"
+],
+"Nicolas Ouédec": [
+"90s"
+],
+"Alen Bokšić": [
+"90s"
+],
+"Bernard Zénier": [
+"80s"
+],
+"Jules Bocandé": [
+"80s"
+],
+"Vahid Halilhodžić": [
+"80s"
+],
+"Patrice Garande": [
+"80s"
+],
+"Erwin Kostedde": [
+"70s"
+],
+"Josip Skoblar": [
+"70s"
+],
+"Hervé Revelli": [
+"60s"
+],
+"André Guy": [
+"60s"
+],
+"Étienne Sansonetti": [
+"60s"
+],
+"Philippe Gondet": [
+"60s"
+],
+"Jacques Simon": [
+"60s"
+],
+"Ahmed Oudjani": [
+"60s"
+],
+"Serge Masnaghetti": [
+"60s"
+],
+"Sékou Touré": [
+"60s"
+],
+"Roger Piantoni": [
+"60s"
+]
+},
+"deep": true
+},
+{
+"id": "fth-forest-1979-final",
+"tags": [
+"70s",
+"ucl"
+],
+"text": "Name a Nottingham Forest player who played in the 1979 European Cup final against Malmo",
+"answers": [
+[
+"Peter Shilton",
+"Shilton"
+],
+[
+"Viv Anderson",
+"Anderson"
+],
+[
+"Larry Lloyd",
+"Lloyd"
+],
+[
+"Kenny Burns",
+"Burns"
+],
+[
+"Frank Clark",
+"Clark"
+],
+[
+"Trevor Francis",
+"Francis"
+],
+[
+"John McGovern",
+"McGovern"
+],
+[
+"Ian Bowyer",
+"Bowyer"
+],
+[
+"John Robertson",
+"Robertson"
+],
+[
+"Garry Birtles",
+"Birtles"
+],
+[
+"Tony Woodcock",
+"Woodcock"
+]
+]
+},
+{
+"id": "fth-villa-1982-final",
+"tags": [
+"80s",
+"ucl"
+],
+"text": "Name an Aston Villa player who played in the 1982 European Cup final against Bayern Munich",
+"answers": [
+[
+"Jimmy Rimmer",
+"Rimmer"
+],
+[
+"Kenny Swain",
+"Swain"
+],
+[
+"Ken McNaught",
+"McNaught"
+],
+[
+"Allan Evans",
+"Evans"
+],
+[
+"Gary Williams",
+"Williams"
+],
+[
+"Dennis Mortimer",
+"Mortimer"
+],
+[
+"Gordon Cowans",
+"Cowans"
+],
+[
+"Des Bremner",
+"Bremner"
+],
+[
+"Gary Shaw",
+"Shaw"
+],
+[
+"Peter Withe",
+"Withe"
+],
+[
+"Tony Morley",
+"Morley"
+],
+[
+"Nigel Spink",
+"Spink"
+]
+]
+},
+{
+"id": "fth-liverpool-1984-final",
+"tags": [
+"80s",
+"ucl"
+],
+"text": "Name a Liverpool player who played in the 1984 European Cup final against Roma",
+"answers": [
+[
+"Bruce Grobbelaar",
+"Grobbelaar"
+],
+[
+"Phil Neal",
+"Neal"
+],
+[
+"Mark Lawrenson",
+"Lawrenson"
+],
+[
+"Alan Hansen",
+"Hansen"
+],
+[
+"Alan Kennedy",
+"Kennedy"
+],
+[
+"Sammy Lee",
+"Lee"
+],
+[
+"Craig Johnston",
+"Johnston"
+],
+[
+"Graeme Souness",
+"Souness"
+],
+[
+"Ronnie Whelan",
+"Whelan"
+],
+[
+"Kenny Dalglish",
+"Dalglish"
+],
+[
+"Ian Rush",
+"Rush"
+],
+[
+"Michael Robinson",
+"Robinson"
+],
+[
+"Steve Nicol",
+"Nicol"
+]
+]
+},
+{
+"id": "fth-west-ham-1965-cwc-final",
+"tags": [
+"60s",
+"ucl"
+],
+"text": "Name a West Ham player in the 1965 European Cup Winners' Cup final against 1860 Munich",
+"answers": [
+[
+"Jim Standen",
+"Standen"
+],
+[
+"Joe Kirkup",
+"Kirkup"
+],
+[
+"Jack Burkett",
+"Burkett"
+],
+[
+"Martin Peters",
+"Peters"
+],
+[
+"Ken Brown",
+"Brown"
+],
+[
+"Bobby Moore",
+"Moore"
+],
+[
+"Alan Sealey",
+"Sealey"
+],
+[
+"Ronnie Boyce",
+"Boyce"
+],
+[
+"Geoff Hurst",
+"Hurst"
+],
+[
+"Brian Dear",
+"Dear"
+],
+[
+"John Sissons",
+"Sissons"
+]
+]
+},
+{
+"id": "fth-man-city-1970-cwc-final",
+"tags": [
+"70s",
+"ucl"
+],
+"text": "Name a Man City player who played in the 1970 European Cup Winners' Cup final against Gornik Zabrze",
+"answers": [
+[
+"Joe Corrigan",
+"Corrigan"
+],
+[
+"Tony Book",
+"Book"
+],
+[
+"Tommy Booth",
+"Booth"
+],
+[
+"George Heslop",
+"Heslop"
+],
+[
+"Glyn Pardoe",
+"Pardoe"
+],
+[
+"Mike Doyle",
+"Doyle"
+],
+[
+"Alan Oakes",
+"Oakes"
+],
+[
+"Tony Towers",
+"Towers"
+],
+[
+"Colin Bell",
+"Bell"
+],
+[
+"Francis Lee",
+"Lee"
+],
+[
+"Neil Young",
+"Young"
+],
+[
+"Ian Bowyer",
+"Bowyer"
+]
+],
+"deep": true
+},
+{
+"id": "fth-england-euro-1968",
+"tags": [
+"60s",
+"euros"
+],
+"text": "Name a player in England's Euro 1968 squad",
+"answers": [
+[
+"Gordon Banks",
+"Banks"
+],
+[
+"Keith Newton",
+"Newton"
+],
+[
+"Ray Wilson",
+"Wilson"
+],
+[
+"Alan Mullery",
+"Mullery"
+],
+[
+"Brian Labone",
+"Labone"
+],
+[
+"Bobby Moore",
+"Moore"
+],
+[
+"Alan Ball",
+"Ball"
+],
+[
+"Roger Hunt",
+"Hunt"
+],
+"Bobby Charlton",
+[
+"Geoff Hurst",
+"Hurst"
+],
+[
+"Martin Peters",
+"Peters"
+],
+[
+"Alex Stepney",
+"Stepney"
+],
+[
+"Gordon West",
+"West"
+],
+[
+"Cyril Knowles",
+"Knowles"
+],
+"Jack Charlton",
+[
+"Tommy Wright",
+"Wright"
+],
+[
+"Nobby Stiles",
+"Stiles"
+],
+[
+"Mike Summerbee",
+"Summerbee"
+],
+[
+"Norman Hunter",
+"Hunter"
+],
+[
+"Colin Bell",
+"Bell"
+],
+[
+"Jimmy Greaves",
+"Greaves"
+],
+[
+"Peter Thompson",
+"Thompson"
+]
+]
+},
+{
+"id": "fth-england-euro-1980",
+"tags": [
+"80s",
+"euros"
+],
+"text": "Name a player in England's Euro 1980 squad",
+"answers": [
+[
+"Ray Clemence",
+"Clemence"
+],
+[
+"Phil Neal",
+"Neal"
+],
+[
+"Kenny Sansom",
+"Sansom"
+],
+[
+"Phil Thompson",
+"Thompson"
+],
+[
+"Dave Watson",
+"Watson"
+],
+[
+"Ray Wilkins",
+"Wilkins"
+],
+[
+"Kevin Keegan",
+"Keegan"
+],
+[
+"Steve Coppell",
+"Coppell"
+],
+[
+"David Johnson",
+"Johnson"
+],
+[
+"Trevor Brooking",
+"Brooking"
+],
+[
+"Tony Woodcock",
+"Woodcock"
+],
+[
+"Viv Anderson",
+"Anderson"
+],
+[
+"Peter Shilton",
+"Shilton"
+],
+[
+"Trevor Cherry",
+"Cherry"
+],
+[
+"Emlyn Hughes",
+"Hughes"
+],
+[
+"Mick Mills",
+"Mills"
+],
+[
+"Terry McDermott",
+"McDermott"
+],
+[
+"Ray Kennedy",
+"Kennedy"
+],
+[
+"Glenn Hoddle",
+"Hoddle"
+],
+[
+"Paul Mariner",
+"Mariner"
+],
+[
+"Garry Birtles",
+"Birtles"
+],
+[
+"Joe Corrigan",
+"Corrigan"
+]
+]
+},
+{
+"id": "fth-ucl-winning-goalkeepers",
+"tags": [
+"ucl"
+],
+"text": "Name a goalkeeper who has played in a winning European Cup or Champions League final",
+"answers": [
+[
+"Alisson",
+"alisson becker"
+],
+[
+"Thibaut Courtois",
+"Courtois"
+],
+[
+"Manuel Neuer",
+"Neuer"
+],
+[
+"Iker Casillas",
+"Casillas"
+],
+[
+"Peter Schmeichel",
+"Schmeichel"
+],
+[
+"Edwin van der Sar",
+"van der Sar"
+],
+"Ederson",
+[
+"Keylor Navas",
+"Navas"
+],
+[
+"Víctor Valdés",
+"Valdés"
+],
+[
+"Oliver Kahn",
+"Kahn"
+],
+[
+"Petr Čech",
+"Čech"
+],
+[
+"Jerzy Dudek",
+"Dudek"
+],
+"Dida",
+[
+"Édouard Mendy",
+"Mendy"
+],
+[
+"Gianluigi Donnarumma",
+"Donnarumma"
+],
+[
+"Marc-André ter Stegen",
+"ter Stegen",
+"Stegen"
+],
+[
+"Bruce Grobbelaar",
+"Grobbelaar"
+],
+[
+"Ray Clemence",
+"Clemence"
+],
+[
+"Peter Shilton",
+"Shilton"
+],
+[
+"Alex Stepney",
+"Stepney"
+],
+"Júlio César",
+[
+"Andoni Zubizarreta",
+"Zubizarreta"
+],
+[
+"Fabien Barthez",
+"Barthez"
+],
+[
+"Angelo Peruzzi",
+"Peruzzi"
+],
+[
+"Matvey Safonov",
+"Safonov"
+],
+[
+"Stefan Klos",
+"Klos"
+],
+[
+"Bodo Illgner",
+"Illgner"
+],
+[
+"Sepp Maier",
+"Maier"
+],
+[
+"Jimmy Rimmer",
+"Rimmer"
+],
+[
+"Nigel Spink",
+"Spink"
+],
+[
+"Juan Alonso",
+"Alonso"
+],
+[
+"Rogelio Domínguez",
+"Domínguez"
+],
+[
+"Costa Pereira",
+"Pereira"
+],
+[
+"Giorgio Ghezzi",
+"Ghezzi"
+],
+[
+"Giuliano Sarti",
+"Sarti"
+],
+[
+"José Araquistáin",
+"Araquistáin"
+],
+[
+"Ronnie Simpson",
+"Simpson"
+],
+[
+"Fabio Cudicini",
+"Cudicini"
+],
+[
+"Eddy Pieters Graafland",
+"Graafland"
+],
+[
+"Heinz Stuy",
+"Stuy"
+],
+[
+"Uli Stein",
+"Stein"
+],
+[
+"Stefano Tacconi",
+"Tacconi"
+],
+[
+"Józef Młynarczyk",
+"Młynarczyk"
+],
+[
+"Hans van Breukelen",
+"van Breukelen",
+"Breukelen"
+],
+[
+"Giovanni Galli",
+"Galli"
+],
+[
+"Stevan Stojanović",
+"Stojanović"
+],
+[
+"Sebastiano Rossi",
+"Rossi"
+],
+[
+"Vítor Baía",
+"Baía"
+],
+[
+"César Sánchez",
+"Sánchez"
+],
+[
+"Helmuth Duckadam",
+"Duckadam",
+"helmut duckadam"
+]
+],
+"eraText": "Name a goalkeeper who played in a winning European Cup or Champions League final in the {era}",
+"eras": {
+"Rogelio Domínguez": [
+"60s"
+],
+"Costa Pereira": [
+"60s"
+],
+"Giorgio Ghezzi": [
+"60s"
+],
+"Giuliano Sarti": [
+"60s"
+],
+"José Araquistáin": [
+"60s"
+],
+"Ronnie Simpson": [
+"60s"
+],
+"Alex Stepney": [
+"60s"
+],
+"Fabio Cudicini": [
+"60s"
+],
+"Eddy Pieters Graafland": [
+"70s"
+],
+"Heinz Stuy": [
+"70s"
+],
+"Sepp Maier": [
+"70s"
+],
+"Ray Clemence": [
+"70s",
+"80s"
+],
+"Peter Shilton": [
+"70s",
+"80s"
+],
+"Jimmy Rimmer": [
+"80s"
+],
+"Uli Stein": [
+"80s"
+],
+"Bruce Grobbelaar": [
+"80s"
+],
+"Stefano Tacconi": [
+"80s"
+],
+"Józef Młynarczyk": [
+"80s"
+],
+"Hans van Breukelen": [
+"80s"
+],
+"Giovanni Galli": [
+"80s",
+"90s"
+],
+"Stevan Stojanović": [
+"90s"
+],
+"Andoni Zubizarreta": [
+"90s"
+],
+"Fabien Barthez": [
+"90s"
+],
+"Sebastiano Rossi": [
+"90s"
+],
+"Edwin van der Sar": [
+"90s",
+"00s"
+],
+"Angelo Peruzzi": [
+"90s"
+],
+"Stefan Klos": [
+"90s"
+],
+"Bodo Illgner": [
+"90s"
+],
+"Peter Schmeichel": [
+"90s"
+],
+"Iker Casillas": [
+"00s",
+"10s"
+],
+"Oliver Kahn": [
+"00s"
+],
+"Dida": [
+"00s"
+],
+"Vítor Baía": [
+"00s"
+],
+"Jerzy Dudek": [
+"00s"
+],
+"Víctor Valdés": [
+"00s",
+"10s"
+],
+"Júlio César": [
+"10s"
+],
+"Petr Čech": [
+"10s"
+],
+"Manuel Neuer": [
+"10s",
+"20s"
+],
+"Marc-André ter Stegen": [
+"10s"
+],
+"Keylor Navas": [
+"10s"
+],
+"Alisson": [
+"10s"
+],
+"Édouard Mendy": [
+"20s"
+],
+"Thibaut Courtois": [
+"20s"
+],
+"Ederson": [
+"20s"
+],
+"Gianluigi Donnarumma": [
+"20s"
+],
+"Matvey Safonov": [
+"20s"
+],
+"Nigel Spink": [
+"80s"
+],
+"César Sánchez": [
+"00s"
+],
+"Helmuth Duckadam": [
+"80s"
+]
+}
+},
+{
+"id": "fth-english-european-cup-finalists",
+"tags": [
+"ucl"
+],
+"text": "Name an English club that has played in a European Cup or Champions League final",
+"answers": [
+"Liverpool",
+"Manchester United",
+"Chelsea",
+[
+"Manchester City",
+"City"
+],
+"Arsenal",
+[
+"Tottenham Hotspur",
+"Hotspur",
+"tottenham",
+"spurs"
+],
+[
+"Nottingham Forest",
+"Forest"
+],
+[
+"Aston Villa",
+"Villa"
+],
+[
+"Leeds United",
+"leeds"
+]
+],
+"eraText": "Name an English club that played in a European Cup or Champions League final in the {era}",
+"eras": {
+"Liverpool": [
+"70s",
+"80s",
+"00s",
+"10s",
+"20s"
+],
+"Manchester United": [
+"60s",
+"90s",
+"00s",
+"10s"
+],
+"Chelsea": [
+"00s",
+"10s",
+"20s"
+],
+"Manchester City": [
+"20s"
+],
+"Nottingham Forest": [
+"70s",
+"80s"
+],
+"Aston Villa": [
+"80s"
+],
+"Arsenal": [
+"00s",
+"20s"
+],
+"Tottenham Hotspur": [
+"10s"
+],
+"Leeds United": [
+"70s"
+]
+}
+},
+{
+"id": "fth-english-club-final-managers",
+"tags": [
+"ucl"
+],
+"text": "Name a manager who has taken an English club to a European Cup or Champions League final",
+"answers": [
+[
+"Alex Ferguson",
+"Ferguson",
+"sir alex ferguson",
+"fergie"
+],
+[
+"Pep Guardiola",
+"Guardiola",
+"pep"
+],
+[
+"Jürgen Klopp",
+"Klopp"
+],
+[
+"Arsène Wenger",
+"Wenger"
+],
+[
+"Rafael Benítez",
+"Benítez",
+"rafa benitez",
+"rafa"
+],
+[
+"Mikel Arteta",
+"Arteta"
+],
+[
+"Thomas Tuchel",
+"Tuchel"
+],
+[
+"Mauricio Pochettino",
+"Pochettino"
+],
+[
+"Roberto Di Matteo",
+"Di Matteo",
+"Matteo",
+"robbie di matteo"
+],
+[
+"Avram Grant",
+"Grant"
+],
+[
+"Bob Paisley",
+"Paisley"
+],
+[
+"Brian Clough",
+"Clough",
+"cloughie"
+],
+[
+"Joe Fagan",
+"Fagan"
+],
+[
+"Matt Busby",
+"Busby",
+"sir matt busby"
+],
+[
+"Tony Barton",
+"Barton"
+],
+[
+"Jimmy Armfield",
+"Armfield"
+]
+],
+"eraText": "Name a manager who took an English club to a European Cup or Champions League final in the {era}",
+"eras": {
+"Alex Ferguson": [
+"90s",
+"00s",
+"10s"
+],
+"Pep Guardiola": [
+"20s"
+],
+"Jürgen Klopp": [
+"10s",
+"20s"
+],
+"Arsène Wenger": [
+"00s"
+],
+"Rafael Benítez": [
+"00s"
+],
+"Mikel Arteta": [
+"20s"
+],
+"Thomas Tuchel": [
+"20s"
+],
+"Mauricio Pochettino": [
+"10s"
+],
+"Roberto Di Matteo": [
+"10s"
+],
+"Avram Grant": [
+"00s"
+],
+"Bob Paisley": [
+"70s",
+"80s"
+],
+"Brian Clough": [
+"70s",
+"80s"
+],
+"Joe Fagan": [
+"80s"
+],
+"Matt Busby": [
+"60s"
+],
+"Tony Barton": [
+"80s"
+],
+"Jimmy Armfield": [
+"70s"
+]
+}
+},
+{
+"id": "fth-ucl-hat-tricks",
+"tags": [
+"ucl"
+],
+"text": "Name a player who has scored a Champions League hat-trick",
+"answers": [
+[
+"Cristiano Ronaldo",
+"cr7",
+"cristiano"
+],
+[
+"Lionel Messi",
+"Messi",
+"leo messi"
+],
+[
+"Robert Lewandowski",
+"Lewandowski",
+"lewy"
+],
+[
+"Kylian Mbappé",
+"Mbappé"
+],
+[
+"Karim Benzema",
+"Benzema"
+],
+[
+"Erling Haaland",
+"Haaland"
+],
+[
+"Mohamed Salah",
+"Salah",
+"mo salah"
+],
+[
+"Wayne Rooney",
+"Rooney"
+],
+[
+"Harry Kane",
+"Kane"
+],
+[
+"Neymar",
+"neymar jr",
+"neymar junior"
+],
+[
+"Thierry Henry",
+"Henry"
+],
+[
+"Didier Drogba",
+"Drogba"
+],
+[
+"Michael Owen",
+"Owen"
+],
+[
+"Sergio Agüero",
+"Agüero",
+"kun aguero",
+"kun"
+],
+[
+"Ronaldo Nazário",
+"Nazário",
+"r9",
+"el fenomeno"
+],
+"Ronaldinho",
+"Kaká",
+[
+"Zlatan Ibrahimović",
+"Ibrahimović",
+"zlatan",
+"ibra"
+],
+[
+"Ruud van Nistelrooy",
+"van Nistelrooy",
+"Nistelrooy"
+],
+[
+"Andriy Shevchenko",
+"Shevchenko"
+],
+[
+"Raúl",
+"raul gonzalez"
+],
+[
+"Alan Shearer",
+"Shearer"
+],
+[
+"Andy Cole",
+"Cole"
+],
+[
+"Marcus Rashford",
+"Rashford"
+],
+[
+"Raheem Sterling",
+"Sterling"
+],
+[
+"Diogo Jota",
+"Jota"
+],
+[
+"Sadio Mané",
+"Mané"
+],
+[
+"Gareth Bale",
+"Bale"
+],
+[
+"Robin van Persie",
+"van Persie",
+"Persie"
+],
+[
+"Danny Welbeck",
+"Welbeck"
+],
+[
+"Phil Foden",
+"Foden"
+],
+[
+"Vinícius Júnior",
+"vinicius",
+"vini jr",
+"vini"
+],
+"Raphinha",
+[
+"Ousmane Dembélé",
+"Dembélé"
+],
+[
+"Victor Osimhen",
+"Osimhen"
+],
+[
+"Mario Gómez",
+"Gómez"
+],
+"Filippo Inzaghi",
+[
+"Olivier Giroud",
+"Giroud"
+],
+[
+"Gabriel Jesus",
+"Jesus"
+],
+"Luiz Adriano",
+[
+"Roberto Soldado",
+"Soldado"
+],
+[
+"Samuel Eto'o",
+"Eto'o"
+],
+[
+"Roy Makaay",
+"Makaay"
+],
+"Marco Simone",
+[
+"Anthony Gordon",
+"Gordon"
+],
+[
+"Alexander Sørloth",
+"Sørloth"
+],
+[
+"Federico Valverde",
+"Valverde"
+],
+[
+"Ermedin Demirović",
+"Demirović"
+],
+[
+"Ferran Torres",
+"Torres"
+],
+[
+"Nicolò Tresoldi",
+"Tresoldi"
+],
+[
+"Bradley Barcola",
+"Barcola"
+],
+[
+"Anastasios Douvikas",
+"Douvikas"
+],
+[
+"Vangelis Pavlidis",
+"Pavlidis"
+],
+[
+"Lautaro Martínez",
+"Martínez"
+],
+[
+"Morgan Rogers",
+"Rogers"
+],
+[
+"Serhou Guirassy",
+"Guirassy"
+],
+"Fermín López",
+"Vitinha",
+[
+"Karim Adeyemi",
+"Adeyemi"
+],
+[
+"Viktor Gyökeres",
+"Gyökeres"
+],
+[
+"Luis Díaz",
+"Díaz"
+],
+"Evanilson",
+[
+"João Mário",
+"Mário"
+],
+[
+"Christopher Nkunku",
+"Nkunku"
+],
+[
+"Sébastien Haller",
+"Haller"
+],
+[
+"Josip Iličić",
+"Iličić"
+],
+[
+"Alassane Pléa",
+"Pléa"
+],
+[
+"İrfan Can Kahveci",
+"Kahveci"
+],
+[
+"Lucas Moura",
+"Moura"
+],
+[
+"Mislav Oršić",
+"Oršić"
+],
+[
+"Serge Gnabry",
+"Gnabry"
+],
+"Rodrygo",
+[
+"Arkadiusz Milik",
+"Milik"
+],
+[
+"Paulo Dybala",
+"Dybala"
+],
+[
+"Edin Džeko",
+"Džeko"
+],
+[
+"Pierre-Emerick Aubameyang",
+"Aubameyang",
+"auba"
+],
+[
+"Wissam Ben Yedder",
+"Ben Yedder",
+"Yedder"
+],
+[
+"Layvin Kurzawa",
+"Kurzawa"
+],
+[
+"Philippe Coutinho",
+"Coutinho"
+],
+[
+"Mesut Özil",
+"Özil"
+],
+[
+"Lucas Pérez",
+"Pérez"
+],
+[
+"Arda Turan",
+"Turan"
+],
+[
+"Yacine Brahimi",
+"Brahimi"
+],
+[
+"Mario Mandžukić",
+"Mandžukić"
+],
+[
+"Kostas Mitroglou",
+"Mitroglou"
+],
+[
+"Álvaro Negredo",
+"Negredo"
+],
+[
+"Arturo Vidal",
+"Vidal"
+],
+[
+"Claudio Pizarro",
+"Pizarro"
+],
+[
+"Burak Yılmaz",
+"Yılmaz"
+],
+[
+"Rui Pedro",
+"Pedro"
+],
+[
+"Bafétimbi Gomis",
+"Gomis"
+],
+[
+"Nicklas Bendtner",
+"Bendtner"
+],
+[
+"Ivica Olić",
+"Olić"
+],
+[
+"André-Pierre Gignac",
+"Gignac"
+],
+"Grafite",
+[
+"Joseba Llorente",
+"Llorente"
+],
+"Jádson",
+[
+"Yossi Benayoun",
+"Benayoun"
+],
+[
+"Fernando Morientes",
+"Morientes"
+],
+[
+"Sylvain Wiltord",
+"Wiltord"
+],
+"Adriano",
+[
+"Vincenzo Iaquinta",
+"Iaquinta"
+],
+[
+"Levan Kobiashvili",
+"Kobiashvili"
+],
+"Yakubu",
+[
+"Ivan Klasnić",
+"Klasnić"
+],
+[
+"Sergei Semak",
+"Semak"
+],
+[
+"Tuncay Şanlı",
+"Şanlı"
+],
+[
+"Dado Pršo",
+"Pršo"
+],
+[
+"Predrag Đorđević",
+"Đorđević"
+],
+[
+"Walter Pandiani",
+"Pandiani"
+],
+"Simone Inzaghi",
+"Gerard López",
+[
+"Frode Johnsen",
+"Johnsen"
+],
+"Rivaldo",
+"Claudio López",
+[
+"Andrei Tikhonov",
+"Tikhonov"
+],
+[
+"Alessandro Del Piero",
+"Del Piero",
+"pinturicchio"
+],
+[
+"Sigurd Rushfeldt",
+"Rushfeldt"
+],
+[
+"Uwe Rösler",
+"Rösler"
+],
+[
+"Faustino Asprilla",
+"Asprilla"
+],
+[
+"Jari Litmanen",
+"Litmanen"
+],
+[
+"Mike Newell",
+"Newell"
+],
+[
+"Franck Sauzée",
+"Sauzée"
+],
+[
+"Bernd Hobsch",
+"Hobsch"
+],
+[
+"Luc Nilis",
+"Nilis"
+],
+[
+"Juul Ellerman",
+"Ellerman"
+],
+"Romário",
+[
+"Marco van Basten",
+"van Basten",
+"Basten"
+]
+],
+"eraText": "Name a player who scored a Champions League hat-trick in the {era}",
+"eras": {
+"Juul Ellerman": [
+"90s"
+],
+"Romário": [
+"90s"
+],
+"Marco van Basten": [
+"90s"
+],
+"Franck Sauzée": [
+"90s"
+],
+"Bernd Hobsch": [
+"90s"
+],
+"Luc Nilis": [
+"90s"
+],
+"Jari Litmanen": [
+"90s"
+],
+"Raúl": [
+"90s"
+],
+"Mike Newell": [
+"90s"
+],
+"Marco Simone": [
+"90s",
+"00s"
+],
+"Faustino Asprilla": [
+"90s"
+],
+"Andriy Shevchenko": [
+"90s",
+"00s"
+],
+"Andy Cole": [
+"90s",
+"00s"
+],
+"Filippo Inzaghi": [
+"90s",
+"00s"
+],
+"Alessandro Del Piero": [
+"90s"
+],
+"Sigurd Rushfeldt": [
+"90s"
+],
+"Ruud van Nistelrooy": [
+"90s",
+"00s"
+],
+"Uwe Rösler": [
+"90s"
+],
+"Andrei Tikhonov": [
+"90s"
+],
+"Simone Inzaghi": [
+"00s"
+],
+"Gerard López": [
+"00s"
+],
+"Frode Johnsen": [
+"00s"
+],
+"Rivaldo": [
+"00s"
+],
+"Claudio López": [
+"00s"
+],
+"Walter Pandiani": [
+"00s"
+],
+"Predrag Đorđević": [
+"00s"
+],
+"Roy Makaay": [
+"00s"
+],
+"Yakubu": [
+"00s"
+],
+"Michael Owen": [
+"00s"
+],
+"Thierry Henry": [
+"00s"
+],
+"Alan Shearer": [
+"00s"
+],
+"Ronaldo Nazário": [
+"00s"
+],
+"Didier Drogba": [
+"00s"
+],
+"Dado Pršo": [
+"00s"
+],
+"Wayne Rooney": [
+"00s"
+],
+"Ivan Klasnić": [
+"00s"
+],
+"Sergei Semak": [
+"00s"
+],
+"Tuncay Şanlı": [
+"00s"
+],
+"Sylvain Wiltord": [
+"00s"
+],
+"Adriano": [
+"00s"
+],
+"Vincenzo Iaquinta": [
+"00s"
+],
+"Ronaldinho": [
+"00s"
+],
+"Samuel Eto'o": [
+"00s",
+"10s"
+],
+"Levan Kobiashvili": [
+"00s"
+],
+"Fernando Morientes": [
+"00s"
+],
+"Kaká": [
+"00s"
+],
+"Yossi Benayoun": [
+"00s"
+],
+"Joseba Llorente": [
+"00s"
+],
+"Jádson": [
+"00s"
+],
+"Grafite": [
+"00s"
+],
+"Nicklas Bendtner": [
+"10s"
+],
+"Lionel Messi": [
+"10s"
+],
+"Ivica Olić": [
+"10s"
+],
+"Gareth Bale": [
+"10s"
+],
+"André-Pierre Gignac": [
+"10s"
+],
+"Mario Gómez": [
+"10s"
+],
+"Karim Benzema": [
+"10s",
+"20s"
+],
+"Roberto Soldado": [
+"10s"
+],
+"Bafétimbi Gomis": [
+"10s"
+],
+"Cristiano Ronaldo": [
+"10s"
+],
+"Claudio Pizarro": [
+"10s"
+],
+"Burak Yılmaz": [
+"10s"
+],
+"Rui Pedro": [
+"10s"
+],
+"Luiz Adriano": [
+"10s"
+],
+"Robert Lewandowski": [
+"10s",
+"20s"
+],
+"Kostas Mitroglou": [
+"10s"
+],
+"Zlatan Ibrahimović": [
+"10s"
+],
+"Álvaro Negredo": [
+"10s"
+],
+"Arturo Vidal": [
+"10s"
+],
+"Neymar": [
+"10s",
+"20s"
+],
+"Robin van Persie": [
+"10s"
+],
+"Yacine Brahimi": [
+"10s"
+],
+"Danny Welbeck": [
+"10s"
+],
+"Sergio Agüero": [
+"10s"
+],
+"Mario Mandžukić": [
+"10s"
+],
+"Olivier Giroud": [
+"10s",
+"20s"
+],
+"Mesut Özil": [
+"10s"
+],
+"Lucas Pérez": [
+"10s"
+],
+"Arda Turan": [
+"10s"
+],
+"Pierre-Emerick Aubameyang": [
+"10s"
+],
+"Harry Kane": [
+"10s",
+"20s"
+],
+"Wissam Ben Yedder": [
+"10s"
+],
+"Layvin Kurzawa": [
+"10s"
+],
+"Philippe Coutinho": [
+"10s"
+],
+"Sadio Mané": [
+"10s"
+],
+"Paulo Dybala": [
+"10s"
+],
+"Edin Džeko": [
+"10s"
+],
+"Gabriel Jesus": [
+"10s"
+],
+"Lucas Moura": [
+"10s"
+],
+"Erling Haaland": [
+"10s",
+"20s"
+],
+"Mislav Oršić": [
+"10s"
+],
+"Serge Gnabry": [
+"10s"
+],
+"Raheem Sterling": [
+"10s"
+],
+"Kylian Mbappé": [
+"10s",
+"20s"
+],
+"Rodrygo": [
+"10s"
+],
+"Arkadiusz Milik": [
+"10s"
+],
+"Josip Iličić": [
+"20s"
+],
+"Marcus Rashford": [
+"20s"
+],
+"Alassane Pléa": [
+"20s"
+],
+"Diogo Jota": [
+"20s"
+],
+"İrfan Can Kahveci": [
+"20s"
+],
+"Christopher Nkunku": [
+"20s"
+],
+"Sébastien Haller": [
+"20s"
+],
+"Mohamed Salah": [
+"20s"
+],
+"Evanilson": [
+"20s"
+],
+"João Mário": [
+"20s"
+],
+"Karim Adeyemi": [
+"20s"
+],
+"Vinícius Júnior": [
+"20s"
+],
+"Raphinha": [
+"20s"
+],
+"Viktor Gyökeres": [
+"20s"
+],
+"Luis Díaz": [
+"20s"
+],
+"Vangelis Pavlidis": [
+"20s"
+],
+"Ousmane Dembélé": [
+"20s"
+],
+"Lautaro Martínez": [
+"20s"
+],
+"Morgan Rogers": [
+"20s"
+],
+"Serhou Guirassy": [
+"20s"
+],
+"Fermín López": [
+"20s"
+],
+"Victor Osimhen": [
+"20s"
+],
+"Vitinha": [
+"20s"
+],
+"Anthony Gordon": [
+"20s"
+],
+"Alexander Sørloth": [
+"20s"
+],
+"Federico Valverde": [
+"20s"
+],
+"Ermedin Demirović": [
+"20s"
+],
+"Ferran Torres": [
+"20s"
+],
+"Nicolò Tresoldi": [
+"20s"
+],
+"Bradley Barcola": [
+"20s"
+],
+"Phil Foden": [
+"20s"
+],
+"Anastasios Douvikas": [
+"20s"
+]
+},
+"deep": true
+},
+{
+"id": "fth-ucl-four-goals",
+"tags": [
+"ucl"
+],
+"text": "Name a player who has scored four or more goals in a single Champions League match",
+"answers": [
+[
+"Lionel Messi",
+"Messi",
+"leo messi"
+],
+[
+"Robert Lewandowski",
+"Lewandowski",
+"lewy"
+],
+[
+"Erling Haaland",
+"Haaland"
+],
+[
+"Cristiano Ronaldo",
+"Ronaldo",
+"cr7",
+"cristiano"
+],
+[
+"Anthony Gordon",
+"Gordon"
+],
+[
+"Kylian Mbappé",
+"Mbappé"
+],
+[
+"Harry Kane",
+"Kane"
+],
+[
+"Sébastien Haller",
+"Haller"
+],
+[
+"Josip Iličić",
+"Iličić"
+],
+[
+"Olivier Giroud",
+"Giroud"
+],
+[
+"Serge Gnabry",
+"Gnabry"
+],
+[
+"Luiz Adriano",
+"Adriano"
+],
+[
+"Zlatan Ibrahimović",
+"Ibrahimović",
+"zlatan",
+"ibra"
+],
+[
+"Mario Gómez",
+"Gómez"
+],
+[
+"Bafétimbi Gomis",
+"Gomis"
+],
+[
+"Andriy Shevchenko",
+"Shevchenko"
+],
+[
+"Ruud van Nistelrooy",
+"van Nistelrooy",
+"Nistelrooy"
+],
+[
+"Dado Pršo",
+"Pršo"
+],
+[
+"Simone Inzaghi",
+"Inzaghi"
+],
+[
+"Marco van Basten",
+"van Basten",
+"Basten"
+]
+],
+"eraText": "Name a player who scored four or more goals in a single Champions League match in the {era}",
+"eras": {
+"Marco van Basten": [
+"90s"
+],
+"Simone Inzaghi": [
+"00s"
+],
+"Dado Pršo": [
+"00s"
+],
+"Ruud van Nistelrooy": [
+"00s"
+],
+"Andriy Shevchenko": [
+"00s"
+],
+"Lionel Messi": [
+"10s"
+],
+"Bafétimbi Gomis": [
+"10s"
+],
+"Mario Gómez": [
+"10s"
+],
+"Robert Lewandowski": [
+"10s"
+],
+"Zlatan Ibrahimović": [
+"10s"
+],
+"Luiz Adriano": [
+"10s"
+],
+"Cristiano Ronaldo": [
+"10s"
+],
+"Serge Gnabry": [
+"10s"
+],
+"Josip Iličić": [
+"20s"
+],
+"Olivier Giroud": [
+"20s"
+],
+"Sébastien Haller": [
+"20s"
+],
+"Erling Haaland": [
+"20s"
+],
+"Harry Kane": [
+"20s"
+],
+"Kylian Mbappé": [
+"20s"
+],
+"Anthony Gordon": [
+"20s"
+]
+}
+}
+]
+}
