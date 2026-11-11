@@ -702,8 +702,6 @@ def awards_for(room):
          lambda v: f"Matched another player {v} time{'s' if v != 1 else ''}")
     best("Double trouble", "zap", {n: max([r["points"] // 2 for r in rows if r["n"] == n and r["doubled"]] or [0]) for n in names},
          lambda v: f"Their double down earned an extra {v}", floor=20)
-    best("Wild card", "shuffle", {n: sum(1 for r in rows if r["n"] == n and not r["valid"] and r["answer"]) for n in names},
-         lambda v: f"{v} answers that weren't on the list", floor=2)
     return out[:7]
 
 
