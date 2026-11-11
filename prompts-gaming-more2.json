@@ -1,0 +1,2816 @@
+{
+ "cat": "gaming",
+ "prompts": [
+  {
+   "id": "xg2-switch-10m",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a Nintendo Switch game that has sold more than 10 million copies (as of September 2026)",
+   "answers": [
+    [
+     "Mario Kart 8 Deluxe",
+     "Mario Kart 8",
+     "MK8",
+     "MK8D",
+     "Mario Kart"
+    ],
+    [
+     "Animal Crossing: New Horizons",
+     "Animal Crossing",
+     "New Horizons",
+     "ACNH"
+    ],
+    [
+     "Super Smash Bros. Ultimate",
+     "Smash Ultimate",
+     "Smash Bros",
+     "Super Smash Bros",
+     "Smash"
+    ],
+    [
+     "The Legend of Zelda: Breath of the Wild",
+     "Breath of the Wild",
+     "BOTW",
+     "Zelda Breath of the Wild"
+    ],
+    [
+     "Super Mario Odyssey",
+     "Mario Odyssey",
+     "Odyssey"
+    ],
+    [
+     "Pokémon Scarlet and Violet",
+     "Pokemon Scarlet",
+     "Pokemon Violet",
+     "Scarlet and Violet",
+     "Scarlet",
+     "Violet"
+    ],
+    [
+     "Pokémon Sword and Shield",
+     "Pokemon Sword",
+     "Pokemon Shield",
+     "Sword and Shield",
+     "Sword",
+     "Shield"
+    ],
+    [
+     "The Legend of Zelda: Tears of the Kingdom",
+     "Tears of the Kingdom",
+     "TOTK",
+     "Zelda Tears of the Kingdom"
+    ],
+    [
+     "Super Mario Party",
+     "Super Mario Party Switch"
+    ],
+    [
+     "New Super Mario Bros. U Deluxe",
+     "New Super Mario Bros U",
+     "NSMBU Deluxe",
+     "New Super Mario Bros"
+    ],
+    [
+     "Nintendo Switch Sports",
+     "Switch Sports"
+    ],
+    [
+     "Super Mario Bros. Wonder",
+     "Mario Wonder",
+     "Wonder"
+    ],
+    [
+     "Ring Fit Adventure",
+     "Ring Fit"
+    ],
+    [
+     "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!",
+     "Lets Go Pikachu",
+     "Lets Go Eevee",
+     "Pokemon Lets Go"
+    ],
+    [
+     "Pokémon Brilliant Diamond and Shining Pearl",
+     "Brilliant Diamond",
+     "Shining Pearl",
+     "Pokemon Brilliant Diamond"
+    ],
+    [
+     "Pokémon Legends: Arceus",
+     "Legends Arceus",
+     "Pokemon Arceus",
+     "Pokemon Legends Arceus"
+    ],
+    [
+     "Luigi's Mansion 3",
+     "Luigis Mansion 3"
+    ],
+    [
+     "Mario Party Superstars",
+     "Superstars"
+    ],
+    "Splatoon 2",
+    [
+     "Super Mario 3D World + Bowser's Fury",
+     "Super Mario 3D World",
+     "3D World",
+     "Bowsers Fury"
+    ],
+    "Splatoon 3",
+    [
+     "Super Mario Party Jamboree",
+     "Jamboree",
+     "Mario Party Jamboree"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-mario-kart-games",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a Mario Kart game (including arcade and mobile spin-offs)",
+   "answers": [
+    [
+     "Mario Kart 8 Deluxe",
+     "MK8D",
+     "Mario Kart 8 Deluxe Switch"
+    ],
+    [
+     "Mario Kart Wii",
+     "MK Wii"
+    ],
+    [
+     "Mario Kart 8",
+     "Mario Kart 8 Wii U"
+    ],
+    [
+     "Mario Kart 7",
+     "MK7",
+     "Mario Kart 3DS"
+    ],
+    [
+     "Mario Kart DS",
+     "MKDS"
+    ],
+    [
+     "Mario Kart 64",
+     "MK64",
+     "Mario Kart N64"
+    ],
+    [
+     "Super Mario Kart",
+     "SMK",
+     "Mario Kart SNES",
+     "Mario Kart Super Nintendo"
+    ],
+    [
+     "Mario Kart: Double Dash!!",
+     "Double Dash",
+     "Mario Kart Double Dash",
+     "Mario Kart GameCube"
+    ],
+    [
+     "Mario Kart: Super Circuit",
+     "Super Circuit",
+     "Mario Kart Super Circuit",
+     "Mario Kart GBA"
+    ],
+    [
+     "Mario Kart World",
+     "MK World",
+     "Mario Kart Switch 2"
+    ],
+    [
+     "Mario Kart Tour",
+     "Mario Kart mobile"
+    ],
+    [
+     "Mario Kart Live: Home Circuit",
+     "Home Circuit",
+     "Mario Kart Live"
+    ],
+    [
+     "Mario Kart Arcade GP",
+     "Arcade GP"
+    ],
+    [
+     "Mario Kart Arcade GP 2",
+     "Arcade GP 2"
+    ],
+    [
+     "Mario Kart Arcade GP DX",
+     "Arcade GP DX"
+    ],
+    [
+     "Mario Kart Arcade GP VR",
+     "Arcade GP VR"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-nintendo-hardware",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a Nintendo games console or handheld (including slimmer or revised models)",
+   "answers": [
+    [
+     "Nintendo Switch",
+     "Switch"
+    ],
+    "Wii",
+    [
+     "Nintendo DS",
+     "DS",
+     "NDS"
+    ],
+    [
+     "Game Boy",
+     "Gameboy",
+     "GB",
+     "Game Boy original"
+    ],
+    [
+     "Nintendo 64",
+     "N64"
+    ],
+    [
+     "Super Nintendo",
+     "SNES",
+     "Super NES",
+     "Super Nintendo Entertainment System",
+     "Super Famicom"
+    ],
+    [
+     "NES",
+     "Nintendo Entertainment System",
+     "Famicom",
+     "Family Computer"
+    ],
+    [
+     "GameCube",
+     "Game Cube",
+     "GCN"
+    ],
+    [
+     "Game Boy Advance",
+     "GBA"
+    ],
+    [
+     "Nintendo 3DS",
+     "3DS"
+    ],
+    "Wii U",
+    [
+     "Nintendo Switch 2",
+     "Switch 2"
+    ],
+    [
+     "Game Boy Color",
+     "GBC",
+     "Gameboy Color"
+    ],
+    [
+     "Nintendo Switch Lite",
+     "Switch Lite"
+    ],
+    [
+     "Nintendo Switch OLED",
+     "Switch OLED",
+     "OLED Model",
+     "Nintendo Switch OLED Model"
+    ],
+    [
+     "Game Boy Advance SP",
+     "GBA SP",
+     "Game Boy SP"
+    ],
+    [
+     "Nintendo DS Lite",
+     "DS Lite"
+    ],
+    [
+     "Nintendo DSi",
+     "DSi"
+    ],
+    [
+     "Nintendo DSi XL",
+     "DSi XL"
+    ],
+    [
+     "Nintendo 3DS XL",
+     "3DS XL"
+    ],
+    [
+     "Nintendo 2DS",
+     "2DS"
+    ],
+    [
+     "New Nintendo 3DS",
+     "New 3DS",
+     "New Nintendo 3DS XL",
+     "New 3DS XL",
+     "New Nintendo 2DS XL",
+     "New 2DS XL"
+    ],
+    [
+     "Game & Watch",
+     "Game and Watch",
+     "Game&Watch"
+    ],
+    "Virtual Boy",
+    [
+     "Game Boy Pocket",
+     "Gameboy Pocket"
+    ],
+    [
+     "Game Boy Light",
+     "Gameboy Light"
+    ],
+    [
+     "Game Boy Micro",
+     "Gameboy Micro"
+    ],
+    "Wii Mini",
+    [
+     "Pokémon Mini",
+     "Pokemon Mini"
+    ],
+    [
+     "Color TV-Game",
+     "Color TV Game"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-wii-u-million-sellers",
+   "tags": [
+    "nintendo"
+   ],
+   "text": "Name a Wii U game that has sold or shipped at least 1 million copies",
+   "answers": [
+    [
+     "Mario Kart 8",
+     "MK8",
+     "Mario Kart 8 Wii U",
+     "Mario Kart"
+    ],
+    [
+     "Super Mario 3D World",
+     "3D World"
+    ],
+    [
+     "New Super Mario Bros. U",
+     "New Super Mario Bros U",
+     "NSMBU",
+     "New Super Mario Bros"
+    ],
+    [
+     "Super Smash Bros. for Wii U",
+     "Smash Wii U",
+     "Smash Bros Wii U",
+     "Super Smash Bros",
+     "Smash Bros",
+     "Smash"
+    ],
+    "Nintendo Land",
+    "Splatoon",
+    [
+     "Super Mario Maker",
+     "Mario Maker"
+    ],
+    [
+     "New Super Luigi U",
+     "Super Luigi U",
+     "Luigi U"
+    ],
+    [
+     "The Legend of Zelda: The Wind Waker HD",
+     "Wind Waker HD",
+     "Wind Waker",
+     "Zelda Wind Waker HD"
+    ],
+    "Mario Party 10",
+    [
+     "Donkey Kong Country: Tropical Freeze",
+     "Tropical Freeze",
+     "DKC Tropical Freeze",
+     "Donkey Kong Country Tropical Freeze"
+    ],
+    "Wii Party U",
+    [
+     "The Legend of Zelda: Breath of the Wild",
+     "Breath of the Wild",
+     "BOTW",
+     "Zelda Breath of the Wild"
+    ],
+    [
+     "Yoshi's Woolly World",
+     "Yoshis Woolly World",
+     "Woolly World"
+    ],
+    [
+     "Captain Toad: Treasure Tracker",
+     "Captain Toad",
+     "Treasure Tracker"
+    ],
+    "Pikmin 3",
+    [
+     "The Legend of Zelda: Twilight Princess HD",
+     "Twilight Princess HD",
+     "Twilight Princess",
+     "Zelda Twilight Princess HD"
+    ],
+    [
+     "LEGO City Undercover",
+     "Lego City"
+    ],
+    "Hyrule Warriors",
+    [
+     "Pokkén Tournament",
+     "Pokken Tournament",
+     "Pokken"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-regions",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Pokémon region (core games or spin-offs)",
+   "answers": [
+    "Kanto",
+    "Johto",
+    "Hoenn",
+    "Sinnoh",
+    "Unova",
+    "Kalos",
+    "Alola",
+    "Galar",
+    "Paldea",
+    "Hisui",
+    "Orre",
+    "Fiore",
+    "Almia",
+    "Oblivia",
+    "Ransei",
+    "Lental",
+    "Ferrum",
+    "Pasio",
+    [
+     "Aeos Island",
+     "Aeos"
+    ],
+    "Holon"
+   ]
+  },
+  {
+   "id": "xg2-villain-teams",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name an evil team or criminal organisation from the Pokémon games",
+   "answers": [
+    [
+     "Team Rocket",
+     "Rocket"
+    ],
+    [
+     "Team Magma",
+     "Magma"
+    ],
+    [
+     "Team Aqua",
+     "Aqua"
+    ],
+    [
+     "Team Galactic",
+     "Galactic"
+    ],
+    [
+     "Team Plasma",
+     "Plasma"
+    ],
+    [
+     "Team Flare",
+     "Flare"
+    ],
+    [
+     "Team Skull",
+     "Skull"
+    ],
+    [
+     "Team Rainbow Rocket",
+     "Rainbow Rocket"
+    ],
+    [
+     "Team Yell",
+     "Yell"
+    ],
+    [
+     "Team Star",
+     "Star"
+    ],
+    [
+     "Cipher",
+     "Team Cipher"
+    ],
+    [
+     "Team Snagem",
+     "Snagem"
+    ],
+    [
+     "Team Great Rocket",
+     "Great Rocket",
+     "Team GR"
+    ],
+    [
+     "Aether Foundation",
+     "Aether"
+    ],
+    "Macro Cosmos"
+   ]
+  },
+  {
+   "id": "xg2-professors",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Pokémon Professor",
+   "answers": [
+    [
+     "Professor Oak",
+     "Oak",
+     "Samuel Oak"
+    ],
+    [
+     "Professor Elm",
+     "Elm"
+    ],
+    [
+     "Professor Birch",
+     "Birch"
+    ],
+    [
+     "Professor Rowan",
+     "Rowan"
+    ],
+    [
+     "Professor Juniper",
+     "Juniper"
+    ],
+    [
+     "Professor Sycamore",
+     "Sycamore"
+    ],
+    [
+     "Professor Kukui",
+     "Kukui"
+    ],
+    [
+     "Professor Magnolia",
+     "Magnolia"
+    ],
+    [
+     "Professor Sada",
+     "Sada"
+    ],
+    [
+     "Professor Turo",
+     "Turo"
+    ],
+    [
+     "Professor Burnet",
+     "Burnet"
+    ],
+    [
+     "Professor Laventon",
+     "Laventon"
+    ],
+    [
+     "Professor Willow",
+     "Willow"
+    ],
+    [
+     "Professor Ivy",
+     "Ivy"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-gym-leaders-hoenn-sinnoh-unova",
+   "tags": [
+    "pokemon"
+   ],
+   "text": "Name a Gym Leader from Hoenn, Sinnoh or Unova",
+   "answers": [
+    "Roxanne",
+    "Brawly",
+    "Wattson",
+    "Flannery",
+    "Norman",
+    "Winona",
+    [
+     "Tate and Liza",
+     "Tate",
+     "Liza",
+     "Tate & Liza"
+    ],
+    "Wallace",
+    "Juan",
+    "Roark",
+    "Gardenia",
+    "Maylene",
+    [
+     "Crasher Wake",
+     "Wake"
+    ],
+    "Fantina",
+    "Byron",
+    "Candice",
+    "Volkner",
+    "Cilan",
+    "Chili",
+    "Cress",
+    "Lenora",
+    "Burgh",
+    "Elesa",
+    "Clay",
+    "Skyla",
+    "Brycen",
+    "Drayden",
+    "Iris",
+    "Cheren",
+    "Roxie",
+    "Marlon"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-cod-2019-onwards",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a Call of Duty game released from 2019 onwards (as of November 2026)",
+   "answers": [
+    [
+     "Call of Duty: Modern Warfare (2019)",
+     "Modern Warfare 2019",
+     "MW 2019",
+     "MW19",
+     "Modern Warfare reboot"
+    ],
+    [
+     "Call of Duty: Warzone",
+     "Warzone",
+     "Warzone 1"
+    ],
+    [
+     "Call of Duty: Black Ops Cold War",
+     "Black Ops Cold War",
+     "Cold War",
+     "BOCW"
+    ],
+    [
+     "Call of Duty: Vanguard",
+     "Vanguard"
+    ],
+    [
+     "Call of Duty: Modern Warfare II (2022)",
+     "Modern Warfare II",
+     "Modern Warfare 2 2022",
+     "MW2 2022",
+     "MWII"
+    ],
+    [
+     "Call of Duty: Modern Warfare III (2023)",
+     "Modern Warfare III",
+     "Modern Warfare 3 2023",
+     "MW3 2023",
+     "MWIII"
+    ],
+    [
+     "Call of Duty: Black Ops 6",
+     "Black Ops 6",
+     "BO6"
+    ],
+    [
+     "Call of Duty: Black Ops 7",
+     "Black Ops 7",
+     "BO7"
+    ],
+    [
+     "Call of Duty: Modern Warfare 4",
+     "Modern Warfare 4",
+     "MW4"
+    ],
+    [
+     "Call of Duty: Mobile",
+     "CoD Mobile",
+     "Call of Duty Mobile"
+    ],
+    [
+     "Call of Duty: Warzone 2.0",
+     "Warzone 2",
+     "Warzone 2.0"
+    ],
+    [
+     "Call of Duty: Warzone Mobile",
+     "Warzone Mobile"
+    ],
+    [
+     "Call of Duty: Modern Warfare 2 Campaign Remastered",
+     "Modern Warfare 2 Campaign Remastered",
+     "MW2 Campaign Remastered"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-modern-warfare-reboot-characters",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a character in the rebooted Modern Warfare games (2019 and 2022)",
+   "answers": [
+    [
+     "Captain Price",
+     "Price",
+     "John Price"
+    ],
+    [
+     "Soap",
+     "John MacTavish",
+     "MacTavish",
+     "Soap MacTavish"
+    ],
+    [
+     "Ghost",
+     "Simon Riley",
+     "Riley",
+     "Simon Ghost Riley"
+    ],
+    [
+     "Gaz",
+     "Kyle Garrick",
+     "Garrick"
+    ],
+    [
+     "Kate Laswell",
+     "Laswell"
+    ],
+    [
+     "Farah Karim",
+     "Farah"
+    ],
+    [
+     "Alex Keller",
+     "Alex",
+     "Keller"
+    ],
+    [
+     "Hadir Karim",
+     "Hadir"
+    ],
+    "Nikolai",
+    [
+     "General Barkov",
+     "Barkov",
+     "Roman Barkov"
+    ],
+    [
+     "Omar Sulaman",
+     "The Wolf",
+     "Sulaman",
+     "Wolf"
+    ],
+    [
+     "Jamal Rahar",
+     "The Butcher",
+     "Rahar",
+     "Butcher"
+    ],
+    [
+     "General Lyons",
+     "Lyons"
+    ],
+    [
+     "Colonel Norris",
+     "Norris"
+    ],
+    [
+     "Marcus Griggs",
+     "Griggs"
+    ],
+    [
+     "Yegor Novak",
+     "Novak"
+    ],
+    [
+     "Kamarov",
+     "Sergeant Kamarov"
+    ],
+    [
+     "Victor Zakhaev",
+     "Zakhaev"
+    ],
+    "Mara",
+    "Nikto",
+    [
+     "Lerch",
+     "Marcus Ortega"
+    ],
+    [
+     "Roze",
+     "Rozlin Helms",
+     "Helms"
+    ],
+    [
+     "Khaled Al-Asad",
+     "Al-Asad",
+     "Al Asad"
+    ],
+    [
+     "Alejandro Vargas",
+     "Vargas"
+    ],
+    [
+     "Rodolfo Parra",
+     "Parra"
+    ],
+    [
+     "Phillip Graves",
+     "Graves"
+    ],
+    [
+     "Herschel Shepherd",
+     "General Shepherd",
+     "Shepherd"
+    ],
+    [
+     "Hassan Zyani",
+     "Zyani"
+    ],
+    [
+     "Valeria Garza",
+     "Garza",
+     "El Sin Nombre"
+    ],
+    [
+     "Ronin",
+     "Daniel Shinoda",
+     "Shinoda"
+    ],
+    [
+     "Vladimir Makarov",
+     "Makarov"
+    ],
+    [
+     "Andrei Nolan",
+     "Nolan"
+    ],
+    [
+     "Ivan Alexeev",
+     "Alexeev"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-black-ops-6-characters",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a character in Call of Duty: Black Ops 6",
+   "answers": [
+    [
+     "Russell Adler",
+     "Adler"
+    ],
+    [
+     "Frank Woods",
+     "Woods"
+    ],
+    [
+     "Troy Marshall",
+     "Marshall"
+    ],
+    [
+     "William Case Calderon",
+     "Case",
+     "Calderon",
+     "William Calderon"
+    ],
+    [
+     "Jane Harrow",
+     "Harrow"
+    ],
+    [
+     "Saeed Alawi",
+     "Alawi"
+    ],
+    [
+     "Daniel Livingstone",
+     "Livingstone"
+    ],
+    [
+     "Felix Neumann",
+     "Neumann"
+    ],
+    [
+     "Sevati Dumas",
+     "Sev",
+     "Dumas",
+     "Sev Dumas"
+    ],
+    [
+     "Helen Park",
+     "Park"
+    ],
+    [
+     "Matvey Gusev",
+     "Gusev"
+    ],
+    [
+     "Lawrence Sims",
+     "Sims"
+    ],
+    [
+     "Bill Clinton",
+     "Clinton"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-cod-spinoffs-2004-2014",
+   "tags": [
+    "cod"
+   ],
+   "text": "Name a Call of Duty spin-off, handheld or mobile game released between 2004 and 2014",
+   "answers": [
+    [
+     "Call of Duty: Finest Hour",
+     "Finest Hour"
+    ],
+    [
+     "Call of Duty 2: Big Red One",
+     "Big Red One"
+    ],
+    [
+     "Call of Duty: Roads to Victory",
+     "Roads to Victory"
+    ],
+    [
+     "Call of Duty: World at War – Final Fronts",
+     "Final Fronts"
+    ],
+    [
+     "Call of Duty: Modern Warfare: Mobilized",
+     "Mobilized"
+    ],
+    [
+     "Call of Duty: Modern Warfare Reflex",
+     "Reflex",
+     "Modern Warfare Reflex"
+    ],
+    [
+     "Call of Duty Zombies",
+     "Zombies"
+    ],
+    [
+     "Call of Duty: Black Ops Zombies",
+     "Black Ops Zombies"
+    ],
+    [
+     "Call of Duty: Black Ops: Declassified",
+     "Black Ops Declassified",
+     "Declassified"
+    ],
+    [
+     "Call of Duty: Black Ops Mobile",
+     "Black Ops Mobile"
+    ],
+    [
+     "Call of Duty: Strike Team",
+     "Strike Team"
+    ],
+    [
+     "Call of Duty: Heroes",
+     "Heroes",
+     "CoD Heroes"
+    ],
+    [
+     "Call of Duty: Modern Warfare 3 – Defiance",
+     "Defiance",
+     "Modern Warfare 3 Defiance"
+    ],
+    [
+     "Call of Duty Online",
+     "CoD Online"
+    ],
+    [
+     "Call of Duty Classic",
+     "Classic"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-warcraft-film-characters",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a character in the 2016 Warcraft film",
+   "answers": [
+    [
+     "Anduin Lothar",
+     "Lothar"
+    ],
+    "Garona",
+    "Medivh",
+    [
+     "Llane Wrynn",
+     "Llane",
+     "King Llane"
+    ],
+    "Durotan",
+    "Khadgar",
+    [
+     "Orgrim Doomhammer",
+     "Orgrim",
+     "Doomhammer"
+    ],
+    [
+     "Gul'dan",
+     "Guldan"
+    ],
+    [
+     "Taria",
+     "Queen Taria"
+    ],
+    "Draka",
+    "Moroes",
+    "Callan",
+    "Karos",
+    "Blackhand",
+    [
+     "Grommash Hellscream",
+     "Grommash",
+     "Hellscream"
+    ],
+    "Alodi",
+    [
+     "Go'el",
+     "Goel",
+     "Thrall",
+     "Baby Thrall"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-warcraft-orc-clans",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name an orc clan in Warcraft",
+   "answers": [
+    [
+     "Frostwolf",
+     "Frostwolf clan"
+    ],
+    [
+     "Warsong",
+     "Warsong clan"
+    ],
+    [
+     "Blackrock",
+     "Blackrock clan"
+    ],
+    [
+     "Bleeding Hollow",
+     "Bleeding Hollow clan"
+    ],
+    [
+     "Shadowmoon",
+     "Shadowmoon clan"
+    ],
+    [
+     "Thunderlord",
+     "Thunderlord clan"
+    ],
+    [
+     "Shattered Hand",
+     "Shattered Hand clan"
+    ],
+    [
+     "Burning Blade",
+     "Burning Blade clan"
+    ],
+    [
+     "Dragonmaw",
+     "Dragonmaw clan"
+    ],
+    [
+     "Bonechewer",
+     "Bonechewer clan"
+    ],
+    [
+     "Laughing Skull",
+     "Laughing Skull clan"
+    ],
+    [
+     "Stormreaver",
+     "Stormreaver clan"
+    ],
+    [
+     "Redwalker",
+     "Redwalker clan",
+     "Red Walker"
+    ],
+    [
+     "Black Tooth Grin",
+     "Black Tooth Grin clan"
+    ],
+    [
+     "Bladewind",
+     "Bladewind clan"
+    ],
+    [
+     "Dark Scar",
+     "Dark Scar clan"
+    ],
+    [
+     "Kil'sorrow",
+     "Kilsorrow",
+     "Kil'sorrow clan"
+    ],
+    [
+     "Rageroar",
+     "Rageroar clan"
+    ],
+    [
+     "Scoured",
+     "Scoured clan"
+    ],
+    [
+     "Searing Blade",
+     "Searing Blade clan"
+    ],
+    [
+     "Lightning's Blade",
+     "Lightnings Blade",
+     "Lightning's Blade clan"
+    ],
+    [
+     "Necrolyte",
+     "Necrolyte clan"
+    ],
+    [
+     "Whiteclaw",
+     "Whiteclaw clan"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-warcraft-3-campaign-characters",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a named character who appears in the Warcraft III campaigns",
+   "answers": [
+    [
+     "Arthas",
+     "Arthas Menethil"
+    ],
+    [
+     "Jaina Proudmoore",
+     "Jaina"
+    ],
+    [
+     "Uther the Lightbringer",
+     "Uther"
+    ],
+    [
+     "Muradin Bronzebeard",
+     "Muradin"
+    ],
+    "Thrall",
+    [
+     "Grom Hellscream",
+     "Grom"
+    ],
+    [
+     "Cairne Bloodhoof",
+     "Cairne"
+    ],
+    "Rexxar",
+    [
+     "Illidan Stormrage",
+     "Illidan"
+    ],
+    [
+     "Tyrande Whisperwind",
+     "Tyrande"
+    ],
+    [
+     "Malfurion Stormrage",
+     "Malfurion"
+    ],
+    [
+     "Maiev Shadowsong",
+     "Maiev"
+    ],
+    [
+     "Kel'Thuzad",
+     "Kelthuzad"
+    ],
+    [
+     "Sylvanas Windrunner",
+     "Sylvanas"
+    ],
+    "Tichondrius",
+    [
+     "Mal'Ganis",
+     "Malganis"
+    ],
+    "Archimonde",
+    [
+     "Kil'jaeden",
+     "Kiljaeden"
+    ],
+    "Mannoroth",
+    "Magtheridon",
+    [
+     "Kael'thas Sunstrider",
+     "Kaelthas",
+     "Kael"
+    ],
+    [
+     "Lady Vashj",
+     "Vashj"
+    ],
+    "Akama",
+    [
+     "Gul'dan",
+     "Guldan"
+    ],
+    "Antonidas",
+    [
+     "Admiral Proudmoore",
+     "Daelin Proudmoore"
+    ],
+    [
+     "Lord Garithos",
+     "Garithos"
+    ],
+    "Varimathras",
+    "Balnazzar",
+    [
+     "Anub'arak",
+     "Anubarak"
+    ],
+    "Cenarius",
+    [
+     "Chen Stormstout",
+     "Chen"
+    ],
+    [
+     "Rend Blackhand",
+     "Rend"
+    ],
+    "Rokhan",
+    [
+     "Baine Bloodhoof",
+     "Baine"
+    ],
+    [
+     "Drek'Thar",
+     "Drekthar"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-hots-battlegrounds",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a standard Heroes of the Storm battleground",
+   "answers": [
+    "Cursed Hollow",
+    "Dragon Shire",
+    [
+     "Blackheart's Bay",
+     "Blackhearts Bay"
+    ],
+    "Sky Temple",
+    "Towers of Doom",
+    "Garden of Terror",
+    "Haunted Mines",
+    "Infernal Shrines",
+    "Tomb of the Spider Queen",
+    "Battlefield of Eternity",
+    "Braxis Holdout",
+    "Alterac Pass",
+    [
+     "Hanamura Temple",
+     "Hanamura"
+    ],
+    [
+     "Volskaya Foundry",
+     "Volskaya"
+    ],
+    "Warhead Junction",
+    "Lost Cavern"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-re2-remake-locations",
+   "tags": [
+    "resi"
+   ],
+   "text": "Name a location or room in the Resident Evil 2 remake (2019)",
+   "answers": [
+    [
+     "Raccoon Police Station",
+     "RPD",
+     "Police Station",
+     "Raccoon Police Department"
+    ],
+    "Main Hall",
+    [
+     "S.T.A.R.S. Office",
+     "STARS Office"
+    ],
+    [
+     "Chief's Office",
+     "Chiefs Office",
+     "Irons' Office"
+    ],
+    "Interrogation Room",
+    [
+     "Jail",
+     "Cells"
+    ],
+    "Press Room",
+    "Library",
+    "Art Room",
+    "Clock Tower",
+    "Roof",
+    "Armory",
+    "Morgue",
+    "Firing Range",
+    "Kennel",
+    "Cafeteria",
+    "Parking Garage",
+    [
+     "Orphanage",
+     "Raccoon City Orphanage"
+    ],
+    [
+     "Sewers",
+     "Sewer",
+     "Raccoon sewerage system"
+    ],
+    [
+     "NEST",
+     "Umbrella Laboratory",
+     "Laboratory",
+     "Underground Facility",
+     "Underground Laboratory"
+    ],
+    "Gun Shop",
+    [
+     "Gas Station",
+     "Mizoil Gas Station"
+    ],
+    [
+     "Raccoon City Streets",
+     "City Streets",
+     "Streets"
+    ],
+    "Route 419",
+    "Greenhouse",
+    "Incinerator",
+    [
+     "Bioreactors Room",
+     "Bioreactor Room"
+    ],
+    "Cable Car Platform",
+    "Safety Deposit Room",
+    "Records Room",
+    "Shower Room",
+    "Nap Room",
+    "Break Room",
+    "Server Room",
+    "Main Shaft",
+    "Generator Room",
+    "Boiler Room",
+    "Pump Room",
+    [
+     "Darkroom",
+     "Dark-room"
+    ],
+    "Operations Room",
+    "Lobby",
+    "Reception",
+    "Basketball Court",
+    "Treatment Pool Room",
+    "Biotesting Lab",
+    "Drug Testing Lab",
+    "Control Room",
+    "Lounge"
+   ]
+  },
+  {
+   "id": "xg2-re4-remake-locations",
+   "tags": [
+    "resi"
+   ],
+   "text": "Name a location in the Resident Evil 4 remake (2023)",
+   "answers": [
+    [
+     "Village",
+     "Pueblo"
+    ],
+    "Village Square",
+    [
+     "Village Chief's Manor",
+     "Chief's Manor",
+     "Manor",
+     "Village Chiefs Manor"
+    ],
+    "Farm",
+    [
+     "Church",
+     "Village Church"
+    ],
+    "Lake",
+    "Lakeside Settlement",
+    [
+     "Boat House",
+     "Boathouse"
+    ],
+    "Dock",
+    "Wharf",
+    "Quarry",
+    "Mines",
+    [
+     "Hunter's Lodge",
+     "Hunters Lodge"
+    ],
+    [
+     "Castle",
+     "Salazar's Castle",
+     "Salazar Castle",
+     "Castle Salazar"
+    ],
+    "Castle Gate",
+    [
+     "Castle Battlements",
+     "Battlements"
+    ],
+    "Grand Hall",
+    "Dining Hall",
+    "Throne Room",
+    "Audience Chamber",
+    "Ballroom",
+    "Library",
+    "Gallery",
+    "Wine Cellar",
+    [
+     "Dungeons",
+     "Dungeon"
+    ],
+    "Treasury",
+    "Treasure Room",
+    "Clock Tower",
+    "Mausoleum",
+    "Stronghold",
+    "Fortified Tower",
+    "Guard Tower",
+    "Forest Altar",
+    "Mural Cave",
+    "Sanctuary",
+    "Hall of Tribulation",
+    "Path of Penitence",
+    "Waste Disposal",
+    "Blast Furnace",
+    "Freezer",
+    [
+     "Underground Laboratory",
+     "Laboratory",
+     "The Amber Laboratory",
+     "Amber Laboratory"
+    ],
+    "Incubation Lab",
+    "Slaughterhouse",
+    "Abandoned Factory",
+    "Cargo Depot",
+    "Loading Docks",
+    "Water Hall",
+    "Cliffside Ruins",
+    "Valley",
+    "Campsite",
+    "Courtyard",
+    "Villa",
+    [
+     "Luis's Laboratory",
+     "Luis's Lab"
+    ],
+    "Stopover",
+    "Checkpoint",
+    "Gregorio's Waterway",
+    "Underground Railcar",
+    "Armory",
+    "Bulwark Gate",
+    [
+     "Behavioural Testing",
+     "Behavioral Testing"
+    ],
+    "Fish Farm",
+    "Ancient Chantry",
+    "Large Cave Shrine",
+    "Small Cave Shrine"
+   ]
+  },
+  {
+   "id": "xg2-re4-remake-weapons",
+   "tags": [
+    "resi"
+   ],
+   "text": "Name a weapon in the Resident Evil 4 remake (2023)",
+   "answers": [
+    "Red9",
+    "Blacktail",
+    "Punisher",
+    [
+     "Handcannon",
+     "Hand Cannon"
+    ],
+    [
+     "Killer7",
+     "Killer 7"
+    ],
+    "Matilda",
+    "Sentinel Nine",
+    [
+     "W-870",
+     "W870"
+    ],
+    "Riot Gun",
+    "Striker",
+    "Chicago Sweeper",
+    [
+     "SR M1903",
+     "M1903"
+    ],
+    "Stingray",
+    [
+     "CQBR Assault Rifle",
+     "CQBR"
+    ],
+    "LE5",
+    "TMP",
+    "Bolt Thrower",
+    "Blast Crossbow",
+    "Rocket Launcher",
+    "Hand Grenade",
+    "Flash Grenade",
+    "Heavy Grenade",
+    [
+     "SG-09 R",
+     "SG09 R",
+     "SG-09"
+    ],
+    "Combat Knife",
+    "Kitchen Knife",
+    "Fighting Knife",
+    "Boot Knife",
+    "Primal Knife",
+    "Tactical Knife",
+    "Elite Knife",
+    "Broken Knife",
+    "Skull Shaker",
+    "Broken Butterfly",
+    [
+     "EJF-338 Compound Bow",
+     "Compound Bow",
+     "EJF-338"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-re3-remake-weapons",
+   "tags": [
+    "resi"
+   ],
+   "text": "Name a weapon in the Resident Evil 3 remake (2020)",
+   "answers": [
+    [
+     "G19 Handgun",
+     "G19"
+    ],
+    [
+     "G18 Handgun",
+     "G18"
+    ],
+    "Samurai Edge",
+    [
+     "M3 Shotgun",
+     "M3"
+    ],
+    [
+     "CQBR Assault Rifle",
+     "CQBR"
+    ],
+    [
+     "MGL Grenade Launcher",
+     "MGL"
+    ],
+    [
+     ".44 AE Lightning Hawk",
+     "Lightning Hawk",
+     "44 AE Lightning Hawk"
+    ],
+    [
+     "RAI-DEN",
+     "Raiden"
+    ],
+    [
+     "HOT DOGGER",
+     "Hot Dogger"
+    ],
+    "Survival Knife",
+    "Combat Knife",
+    "Hand Grenade",
+    "Flash Grenade",
+    "Rocket Launcher",
+    [
+     "MUP Handgun",
+     "MUP"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-nether-mobs",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a mob that spawns in the Nether in Minecraft, or is closely associated with it",
+   "answers": [
+    "Piglin",
+    "Ghast",
+    "Blaze",
+    [
+     "Zombified Piglin",
+     "Zombie Pigman",
+     "Zombie Piglin",
+     "Zombified Pigman",
+     "Pigman"
+    ],
+    "Magma Cube",
+    "Wither Skeleton",
+    "Hoglin",
+    "Strider",
+    "Skeleton",
+    "Enderman",
+    "Piglin Brute",
+    "Zoglin",
+    "Wither",
+    "Happy Ghast"
+   ]
+  },
+  {
+   "id": "xg2-weapons",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a weapon in Minecraft (as listed on the Minecraft Wiki, 2026)",
+   "answers": [
+    [
+     "Sword",
+     "Wooden Sword",
+     "Stone Sword",
+     "Iron Sword",
+     "Golden Sword",
+     "Diamond Sword",
+     "Netherite Sword",
+     "Copper Sword"
+    ],
+    "Bow",
+    [
+     "Axe",
+     "Wooden Axe",
+     "Stone Axe",
+     "Iron Axe",
+     "Golden Axe",
+     "Diamond Axe",
+     "Netherite Axe",
+     "Copper Axe"
+    ],
+    "Crossbow",
+    "Trident",
+    "TNT",
+    "Mace",
+    "Snowball",
+    "Egg",
+    "Fire Charge",
+    "Splash Potion",
+    "Lingering Potion",
+    "Wind Charge",
+    "End Crystal",
+    [
+     "Flint and Steel",
+     "Flint & Steel"
+    ],
+    [
+     "Lava Bucket",
+     "Lava"
+    ],
+    "Anvil",
+    [
+     "Pointed Dripstone",
+     "Dripstone"
+    ],
+    [
+     "Cobweb",
+     "Web"
+    ],
+    "Spear"
+   ]
+  },
+  {
+   "id": "xg2-crops",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a crop or farmable plant in Minecraft",
+   "answers": [
+    "Wheat",
+    [
+     "Carrots",
+     "Carrot"
+    ],
+    [
+     "Potatoes",
+     "Potato"
+    ],
+    [
+     "Beetroot",
+     "Beetroots"
+    ],
+    [
+     "Melon",
+     "Melons"
+    ],
+    [
+     "Pumpkin",
+     "Pumpkins"
+    ],
+    [
+     "Sugar Cane",
+     "Sugarcane"
+    ],
+    [
+     "Cocoa Beans",
+     "Cocoa"
+    ],
+    "Nether Wart",
+    [
+     "Sweet Berries",
+     "Sweet Berry Bush"
+    ],
+    "Cactus",
+    "Bamboo",
+    "Kelp",
+    [
+     "Mushrooms",
+     "Mushroom",
+     "Red Mushroom",
+     "Brown Mushroom"
+    ],
+    "Torchflower",
+    [
+     "Pitcher Plant",
+     "Pitcher Crop"
+    ],
+    [
+     "Sea Pickle",
+     "Sea Pickles"
+    ],
+    "Glow Berries",
+    "Crimson Fungus",
+    "Warped Fungus",
+    [
+     "Chorus Fruit",
+     "Chorus Flower",
+     "Chorus Plant"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-paintings",
+   "tags": [
+    "minecraft"
+   ],
+   "text": "Name a painting in Minecraft",
+   "answers": [
+    [
+     "Kebab",
+     "Kebab med tre pepperoni"
+    ],
+    [
+     "Aztec",
+     "de_aztec"
+    ],
+    [
+     "Alban",
+     "Albanian"
+    ],
+    [
+     "Aztec 2",
+     "Aztec2"
+    ],
+    [
+     "Bomb",
+     "Target Successfully Bombed"
+    ],
+    [
+     "Plant",
+     "Paradistrad"
+    ],
+    "Wasteland",
+    [
+     "Pool",
+     "The Pool"
+    ],
+    [
+     "Courbet",
+     "Bonjour Monsieur Courbet"
+    ],
+    [
+     "Sea",
+     "Seaside"
+    ],
+    [
+     "Sunset",
+     "Sunset Dense"
+    ],
+    "Creebet",
+    "Wanderer",
+    "Graham",
+    "Fighters",
+    "Match",
+    "Bust",
+    [
+     "Stage",
+     "The Stage Is Set"
+    ],
+    [
+     "Void",
+     "The Void"
+    ],
+    "Skull and Roses",
+    "Pointer",
+    "Pigscene",
+    "Burning Skull",
+    [
+     "Donkey Kong",
+     "Kong"
+    ],
+    [
+     "Skeleton",
+     "Mortal Coil"
+    ],
+    "Wither",
+    "Fern",
+    "Backyard",
+    "Baroque",
+    "Bouquet",
+    "Cavebird",
+    "Changing",
+    "Cotan",
+    "Dennis",
+    "Earth",
+    "Endboss",
+    "Finding",
+    "Fire",
+    "Humble",
+    "Lowmist",
+    "Meditative",
+    "Orb",
+    "Owlemons",
+    "Passage",
+    "Pond",
+    "Prairie Ride",
+    "Sunflowers",
+    "Tides",
+    "Unpacked",
+    "Water",
+    "Wind"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-fortnite-modes",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a Fortnite game mode or spin-off experience (including ones since removed)",
+   "answers": [
+    "Battle Royale",
+    "Save the World",
+    "Zero Build",
+    "Creative",
+    "Reload",
+    [
+     "LEGO Fortnite",
+     "Lego"
+    ],
+    [
+     "Odyssey",
+     "LEGO Odyssey"
+    ],
+    "Brick Life",
+    [
+     "Expeditions",
+     "LEGO Expeditions"
+    ],
+    "Rocket Racing",
+    [
+     "Fortnite Festival",
+     "Festival"
+    ],
+    "Ballistic",
+    "Ranked",
+    [
+     "Blitz Royale",
+     "Blitz"
+    ],
+    [
+     "UEFN",
+     "Unreal Editor for Fortnite"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-destiny-raids",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a raid from Destiny or Destiny 2",
+   "answers": [
+    "Vault of Glass",
+    [
+     "Crota's End",
+     "Crotas End"
+    ],
+    [
+     "King's Fall",
+     "Kings Fall"
+    ],
+    "Wrath of the Machine",
+    "Leviathan",
+    "Eater of Worlds",
+    "Spire of Stars",
+    "Last Wish",
+    "Scourge of the Past",
+    "Crown of Sorrow",
+    "Garden of Salvation",
+    "Deep Stone Crypt",
+    "Vow of the Disciple",
+    "Root of Nightmares",
+    [
+     "Salvation's Edge",
+     "Salvations Edge"
+    ],
+    [
+     "The Desert Perpetual",
+     "Desert Perpetual"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-destiny-2-seasons",
+   "tags": [
+    "online"
+   ],
+   "text": "Name a Destiny 2 season or episode (Year 2 to Year 8)",
+   "answers": [
+    [
+     "Season of the Forge",
+     "Forge"
+    ],
+    [
+     "Season of the Drifter",
+     "Drifter"
+    ],
+    [
+     "Season of Opulence",
+     "Opulence"
+    ],
+    [
+     "Season of the Undying",
+     "Undying"
+    ],
+    [
+     "Season of Dawn",
+     "Dawn"
+    ],
+    [
+     "Season of the Worthy",
+     "Worthy"
+    ],
+    [
+     "Season of Arrivals",
+     "Arrivals"
+    ],
+    [
+     "Season of the Hunt",
+     "Hunt"
+    ],
+    [
+     "Season of the Chosen",
+     "Chosen"
+    ],
+    [
+     "Season of the Splicer",
+     "Splicer"
+    ],
+    [
+     "Season of the Lost",
+     "Lost"
+    ],
+    [
+     "Season of the Risen",
+     "Risen"
+    ],
+    [
+     "Season of the Haunted",
+     "Haunted"
+    ],
+    [
+     "Season of Plunder",
+     "Plunder"
+    ],
+    [
+     "Season of the Seraph",
+     "Seraph"
+    ],
+    [
+     "Season of Defiance",
+     "Defiance"
+    ],
+    [
+     "Season of the Deep",
+     "Deep"
+    ],
+    [
+     "Season of the Witch",
+     "Witch"
+    ],
+    [
+     "Season of the Wish",
+     "Wish"
+    ],
+    [
+     "Episode: Echoes",
+     "Echoes"
+    ],
+    [
+     "Episode: Revenant",
+     "Revenant"
+    ],
+    [
+     "Episode: Heresy",
+     "Heresy"
+    ],
+    [
+     "Season: Reclamation",
+     "Reclamation"
+    ],
+    [
+     "Season: Lawless",
+     "Lawless"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-skyrim-factions",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a faction or guild in Skyrim (including DLC)",
+   "answers": [
+    [
+     "Companions",
+     "The Companions",
+     "Companions Guild"
+    ],
+    "Thieves Guild",
+    "Dark Brotherhood",
+    [
+     "College of Winterhold",
+     "Winterhold College",
+     "The College"
+    ],
+    [
+     "Stormcloaks",
+     "Stormcloak"
+    ],
+    [
+     "Imperial Legion",
+     "Imperials",
+     "Legion"
+    ],
+    "Dawnguard",
+    [
+     "Volkihar Vampire Clan",
+     "Volkihar",
+     "Volkihar Clan"
+    ],
+    "Bards College",
+    "Forsworn",
+    "Greybeards",
+    [
+     "Blades",
+     "The Blades"
+    ],
+    "Thalmor",
+    "Penitus Oculatus",
+    "Silver Hand",
+    [
+     "Vigil of Stendarr",
+     "Vigil"
+    ],
+    [
+     "Psijic Order",
+     "Psijics"
+    ],
+    "Skaal",
+    "Morag Tong",
+    "Summerset Shadows",
+    "Blackblood Marauders",
+    "Blood Horkers",
+    "Blackwater Brigands",
+    "Nightingales",
+    "Tribunal Temple",
+    "Synod",
+    "Crimson Dirks",
+    "Thirsk",
+    [
+     "The Circle",
+     "Circle"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-skyrim-named-dragons",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a named dragon in Skyrim (including DLC)",
+   "answers": [
+    "Alduin",
+    "Paarthurnax",
+    "Odahviing",
+    "Mirmulnir",
+    "Durnehviir",
+    "Sahloknir",
+    "Nahagliiv",
+    "Viinturuth",
+    "Vuljotnaak",
+    "Vulthuryol",
+    "Krosulhah",
+    "Kruziikrel",
+    "Relonikiv",
+    "Sahrotaar",
+    "Naaslaarum",
+    "Voslaarum"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-skyrim-dragon-priests",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a named Dragon Priest in Skyrim (including DLC)",
+   "answers": [
+    "Hevnoraak",
+    "Krosis",
+    "Morokei",
+    "Nahkriin",
+    [
+     "Otar the Mad",
+     "Otar"
+    ],
+    "Rahgot",
+    "Vokun",
+    "Volsung",
+    "Ahzidal",
+    "Dukaan",
+    "Miraak",
+    [
+     "Vahlok the Jailor",
+     "Vahlok"
+    ],
+    "Zahkriisos"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xg2-persona-5-characters",
+   "tags": [
+    "rpg"
+   ],
+   "text": "Name a character in Persona 5 (including Persona 5 Royal)",
+   "answers": [
+    [
+     "Joker",
+     "Ren Amamiya",
+     "Akira Kurusu",
+     "Protagonist"
+    ],
+    [
+     "Ryuji Sakamoto",
+     "Ryuji",
+     "Skull"
+    ],
+    [
+     "Ann Takamaki",
+     "Ann",
+     "Panther"
+    ],
+    [
+     "Morgana",
+     "Mona"
+    ],
+    [
+     "Yusuke Kitagawa",
+     "Yusuke",
+     "Fox"
+    ],
+    [
+     "Makoto Niijima",
+     "Makoto",
+     "Queen"
+    ],
+    [
+     "Futaba Sakura",
+     "Futaba",
+     "Oracle"
+    ],
+    [
+     "Haru Okumura",
+     "Haru",
+     "Noir"
+    ],
+    [
+     "Goro Akechi",
+     "Akechi",
+     "Crow"
+    ],
+    [
+     "Sojiro Sakura",
+     "Sojiro"
+    ],
+    [
+     "Sae Niijima",
+     "Sae"
+    ],
+    "Igor",
+    "Caroline",
+    "Justine",
+    [
+     "Suguru Kamoshida",
+     "Kamoshida"
+    ],
+    [
+     "Ichiryusai Madarame",
+     "Madarame"
+    ],
+    [
+     "Junya Kaneshiro",
+     "Kaneshiro"
+    ],
+    "Kunikazu Okumura",
+    [
+     "Masayoshi Shido",
+     "Shido"
+    ],
+    "Yaldabaoth",
+    [
+     "Shiho Suzui",
+     "Shiho"
+    ],
+    [
+     "Takuto Maruki",
+     "Maruki"
+    ],
+    [
+     "Kasumi Yoshizawa",
+     "Kasumi",
+     "Sumire",
+     "Sumire Yoshizawa",
+     "Violet"
+    ],
+    [
+     "Hifumi Togo",
+     "Hifumi"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-best-sellers-50m",
+   "tags": [
+    "othergames"
+   ],
+   "text": "Name a video game that has sold 50 million copies or more (as of 2026)",
+   "answers": [
+    "Minecraft",
+    "Tetris",
+    [
+     "Grand Theft Auto V",
+     "GTA V",
+     "GTA 5",
+     "Grand Theft Auto 5"
+    ],
+    [
+     "Red Dead Redemption 2",
+     "RDR2"
+    ],
+    "Wii Sports",
+    [
+     "Mario Kart 8 Deluxe",
+     "Mario Kart 8",
+     "MK8"
+    ],
+    [
+     "PUBG: Battlegrounds",
+     "PUBG",
+     "Playerunknown's Battlegrounds",
+     "Battlegrounds"
+    ],
+    "Terraria",
+    [
+     "The Elder Scrolls V: Skyrim",
+     "Skyrim",
+     "Elder Scrolls Skyrim"
+    ],
+    [
+     "The Witcher 3: Wild Hunt",
+     "Witcher 3",
+     "The Witcher 3",
+     "Wild Hunt"
+    ],
+    [
+     "Super Mario Bros.",
+     "Super Mario Bros",
+     "Mario Bros"
+    ],
+    [
+     "Human: Fall Flat",
+     "Human Fall Flat"
+    ],
+    [
+     "Animal Crossing: New Horizons",
+     "Animal Crossing",
+     "New Horizons"
+    ],
+    [
+     "The Sims",
+     "Sims"
+    ],
+    "Stardew Valley",
+    "Overwatch"
+   ]
+  },
+  {
+   "id": "xg2-sonic-characters",
+   "tags": [
+    "othergames"
+   ],
+   "text": "Name a character from the Sonic the Hedgehog franchise",
+   "answers": [
+    [
+     "Sonic",
+     "Sonic the Hedgehog"
+    ],
+    [
+     "Tails",
+     "Miles Prower",
+     "Miles Tails Prower"
+    ],
+    [
+     "Knuckles",
+     "Knuckles the Echidna"
+    ],
+    [
+     "Dr. Eggman",
+     "Eggman",
+     "Doctor Eggman",
+     "Robotnik",
+     "Dr Robotnik",
+     "Doctor Robotnik",
+     "Ivo Robotnik"
+    ],
+    [
+     "Amy Rose",
+     "Amy"
+    ],
+    [
+     "Shadow",
+     "Shadow the Hedgehog"
+    ],
+    [
+     "Rouge",
+     "Rouge the Bat"
+    ],
+    [
+     "Cream",
+     "Cream the Rabbit"
+    ],
+    "Cheese",
+    [
+     "Big the Cat",
+     "Big"
+    ],
+    [
+     "Silver",
+     "Silver the Hedgehog"
+    ],
+    [
+     "Blaze",
+     "Blaze the Cat"
+    ],
+    "Metal Sonic",
+    [
+     "Espio",
+     "Espio the Chameleon"
+    ],
+    [
+     "Vector",
+     "Vector the Crocodile"
+    ],
+    [
+     "Charmy",
+     "Charmy Bee"
+    ],
+    [
+     "Mighty",
+     "Mighty the Armadillo"
+    ],
+    [
+     "Ray",
+     "Ray the Flying Squirrel"
+    ],
+    [
+     "Fang",
+     "Fang the Sniper",
+     "Nack",
+     "Nack the Weasel"
+    ],
+    [
+     "Omega",
+     "E-123 Omega"
+    ],
+    [
+     "Gamma",
+     "E-102 Gamma"
+    ],
+    "Chaos",
+    "Omochao",
+    "Chao",
+    [
+     "Gerald Robotnik",
+     "Professor Gerald"
+    ],
+    [
+     "Maria",
+     "Maria Robotnik"
+    ],
+    "Eggman Nega",
+    "Black Doom",
+    [
+     "Jet",
+     "Jet the Hawk"
+    ],
+    [
+     "Wave",
+     "Wave the Swallow"
+    ],
+    [
+     "Storm",
+     "Storm the Albatross"
+    ],
+    "Orbot",
+    "Cubot",
+    "Sage",
+    [
+     "Sally Acorn",
+     "Sally"
+    ],
+    [
+     "Honey the Cat",
+     "Honey"
+    ],
+    [
+     "Chris Thorndyke",
+     "Chris"
+    ],
+    [
+     "Sticks",
+     "Sticks the Badger"
+    ],
+    [
+     "Tangle",
+     "Tangle the Lemur"
+    ],
+    [
+     "Whisper",
+     "Whisper the Wolf"
+    ],
+    "Zavok",
+    "Zazz",
+    "Zeena",
+    "Zomom",
+    "Zor",
+    [
+     "Master Zik",
+     "Zik"
+    ],
+    "Infinite",
+    "Tikal"
+   ]
+  },
+  {
+   "id": "xg2-mortal-kombat-games",
+   "tags": [
+    "othergames"
+   ],
+   "text": "Name a Mortal Kombat video game (including spin-offs and re-releases)",
+   "answers": [
+    [
+     "Mortal Kombat X",
+     "MKX",
+     "Mortal Kombat 10"
+    ],
+    [
+     "Mortal Kombat 11",
+     "MK11"
+    ],
+    [
+     "Mortal Kombat 1 (2023)",
+     "Mortal Kombat 1",
+     "MK1",
+     "Mortal Kombat 2023"
+    ],
+    [
+     "Mortal Kombat (2011)",
+     "Mortal Kombat 9",
+     "MK9",
+     "Mortal Kombat 2011",
+     "Mortal Kombat Komplete Edition"
+    ],
+    [
+     "Mortal Kombat (1992)",
+     "Mortal Kombat",
+     "Mortal Kombat 1992",
+     "Original Mortal Kombat"
+    ],
+    [
+     "Mortal Kombat II",
+     "Mortal Kombat 2",
+     "MK2"
+    ],
+    [
+     "Mortal Kombat 3",
+     "MK3"
+    ],
+    [
+     "Ultimate Mortal Kombat 3",
+     "UMK3"
+    ],
+    [
+     "Mortal Kombat Trilogy",
+     "MK Trilogy"
+    ],
+    [
+     "Mortal Kombat Mythologies: Sub-Zero",
+     "Mythologies",
+     "Mortal Kombat Mythologies",
+     "Sub-Zero Mythologies"
+    ],
+    [
+     "Mortal Kombat 4",
+     "MK4"
+    ],
+    [
+     "Mortal Kombat Gold",
+     "MK Gold"
+    ],
+    [
+     "Mortal Kombat: Special Forces",
+     "Special Forces"
+    ],
+    "Mortal Kombat Advance",
+    [
+     "Mortal Kombat: Deadly Alliance",
+     "Deadly Alliance"
+    ],
+    [
+     "Mortal Kombat: Tournament Edition",
+     "Tournament Edition"
+    ],
+    [
+     "Mortal Kombat: Deception",
+     "Deception"
+    ],
+    [
+     "Mortal Kombat: Shaolin Monks",
+     "Shaolin Monks"
+    ],
+    [
+     "Mortal Kombat: Armageddon",
+     "Armageddon"
+    ],
+    [
+     "Mortal Kombat: Unchained",
+     "Unchained"
+    ],
+    [
+     "Ultimate Mortal Kombat",
+     "Ultimate Mortal Kombat DS"
+    ],
+    [
+     "Mortal Kombat vs. DC Universe",
+     "MK vs DC",
+     "Mortal Kombat vs DC",
+     "DC Universe"
+    ],
+    [
+     "Mortal Kombat Arcade Kollection",
+     "Arcade Kollection"
+    ],
+    [
+     "Mortal Kombat Mobile",
+     "MK Mobile"
+    ],
+    [
+     "Mortal Kombat: Onslaught",
+     "Onslaught"
+    ],
+    [
+     "Mortal Kombat: Legacy Kollection",
+     "Legacy Kollection"
+    ]
+   ]
+  },
+  {
+   "id": "xg2-rdr2-characters",
+   "tags": [
+    "othergames"
+   ],
+   "text": "Name a character in Red Dead Redemption 2",
+   "answers": [
+    [
+     "Arthur Morgan",
+     "Arthur"
+    ],
+    [
+     "Dutch van der Linde",
+     "Dutch",
+     "Dutch Van der Linde"
+    ],
+    [
+     "John Marston",
+     "John"
+    ],
+    [
+     "Hosea Matthews",
+     "Hosea"
+    ],
+    [
+     "Micah Bell",
+     "Micah"
+    ],
+    [
+     "Abigail Roberts",
+     "Abigail",
+     "Abigail Marston"
+    ],
+    [
+     "Sadie Adler",
+     "Sadie"
+    ],
+    [
+     "Charles Smith",
+     "Charles"
+    ],
+    [
+     "Bill Williamson",
+     "Bill"
+    ],
+    [
+     "Javier Escuella",
+     "Javier"
+    ],
+    [
+     "Sean MacGuire",
+     "Sean"
+    ],
+    "Uncle",
+    [
+     "Jack Marston",
+     "Jack"
+    ],
+    [
+     "Leviticus Cornwall",
+     "Cornwall"
+    ],
+    [
+     "Andrew Milton",
+     "Milton"
+    ],
+    [
+     "Edgar Ross",
+     "Ross"
+    ],
+    [
+     "Colm O'Driscoll",
+     "Colm"
+    ],
+    [
+     "Angelo Bronte",
+     "Bronte"
+    ],
+    [
+     "Alberto Fussar",
+     "Colonel Fussar",
+     "Fussar"
+    ],
+    "Rains Fall",
+    "Eagle Flies",
+    [
+     "Henry Favours",
+     "Colonel Favours",
+     "Favours"
+    ],
+    [
+     "Lenny Summers",
+     "Lenny"
+    ],
+    [
+     "Molly O'Shea",
+     "Molly"
+    ],
+    [
+     "Mary-Beth Gaskill",
+     "Mary-Beth",
+     "Mary Beth"
+    ],
+    [
+     "Tilly Jackson",
+     "Tilly"
+    ],
+    [
+     "Karen Jones",
+     "Karen"
+    ],
+    [
+     "Susan Grimshaw",
+     "Susan"
+    ],
+    [
+     "Pearson",
+     "Mr Pearson"
+    ],
+    [
+     "Strauss",
+     "Leopold Strauss"
+    ],
+    [
+     "Kieran Duffy",
+     "Kieran"
+    ],
+    [
+     "Reverend Swanson",
+     "Swanson"
+    ],
+    [
+     "Josiah Trelawny",
+     "Trelawny"
+    ]
+   ]
+  }
+ ]
+}
