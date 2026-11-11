@@ -376,11 +376,40 @@ def sub_choices(cat, tags):
     return lead, set(tags or []) & (lead | set(children_of(cat)))
 
 
+def parse_mix(tags):
+    """A mix of categories travels as cat "mix" with one tag per pick: "football:pl.10s", "sport:darts.cue", "food:"."""
+    known = {c["id"] for c in CATS}
+    out = []
+    for item in tags or []:
+        c, _, rest = str(item).partition(":")
+        if c in known:
+            out.append((c, [t for t in rest.split(".") if t]))
+    return out
+
+
+def mix_plan(tags, ids):
+    """Buckets and weights for a mix: every pick gets an equal share, split within it the usual way."""
+    ids = set(ids)
+    groups, weights = [], []
+    for c, t in parse_mix(tags):
+        mine = [i for i in pool(c, t) if i in ids]
+        if not mine:
+            continue
+        g = buckets(c, t, mine)
+        w = bucket_weights(c, g, t)
+        total = sum(w) or 1
+        groups += g
+        weights += [x / total for x in w]
+    return groups, weights
+
+
 def pool(cat, tags, deep=None):
     """Prompt ids in a category that pass every filter group. Questions marked "deep" (specialist
     ones, like one club's squad in one season) only come up once the player has picked a filter.
     A parent category (Sport) includes its sub-categories (Football). Ticking sports narrows it to those;
     Football's own filters (Era, Competition) then apply to the football questions only."""
+    if cat == "mix":
+        return sorted({i for c, t in parse_mix(tags) for i in pool(c, t, deep)})
     tags = set(tags or [])
     kids = children_of(cat)
     lead, subs = sub_choices(cat, tags) if kids else (set(), set())
@@ -413,6 +442,8 @@ def buckets(cat, tags, ids):
     with the most chosen tags decides the split."""
     if cat == "all":   # Everything: share prompts out between the categories
         return [b for b in ([i for i in ids if PROMPTS[i]["cat"] == c["id"]] for c in CATS) if b]
+    if cat == "mix":
+        return mix_plan(tags, ids)[0]
     tags = set(tags or [])
     if children_of(cat):   # Sport: Football, Darts, Tennis... each get a share
         lead, subs = sub_choices(cat, tags)
@@ -434,6 +465,8 @@ def buckets(cat, tags, ids):
 def bucket_weights(cat, groups, tags=()):
     """Chosen filters share prompts equally. In Everything, and in all of Sport, a share grows with the
     square root of its size, so small ones turn up often enough without repeating themselves."""
+    if cat == "mix":
+        return mix_plan(tags, sorted(set().union(*groups)) if groups else [])[1]
     spread = cat == "all" or (children_of(cat) and not sub_choices(cat, tags)[1])
     return [math.sqrt(len(b)) if spread else 1.0 for b in groups]
 
@@ -480,6 +513,8 @@ def categories():
 
 
 def describe(cat, tags):
+    if cat == "mix":
+        return " + ".join(describe(c, t) for c, t in parse_mix(tags)) or "Everything"
     for c in CATS:
         if c["id"] == cat:
             tags = tags or []

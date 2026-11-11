@@ -171,7 +171,6 @@ input.code { text-transform: uppercase; letter-spacing: .3em; text-align: center
 .tile-ic { grid-row: 1 / 3; width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; background: var(--card-2); color: var(--muted); }
 .tile-l { font-weight: 700; font-size: .88rem; line-height: 1.2; overflow-wrap: anywhere; }
 .tile-n { font-size: .74rem; color: var(--muted); font-variant-numeric: tabular-nums; }
-.tile-n::after { content: ' prompts'; }
 .tile.on { border-color: var(--you); background: var(--you-soft); }
 .tile.on .tile-ic { background: var(--you); color: var(--you-ink); }
 .narrow { display: grid; gap: 14px; padding: 16px; border-radius: var(--radius); background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow); }
@@ -363,3 +362,38 @@ details summary { cursor: pointer; color: var(--muted); padding: 8px 0; font-siz
 .recentbtn .ic { color: var(--you); }
 .recentbtn span { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .recentbtn:active { transform: scale(.985); }
+
+/* your mix */
+.mix { display: grid; gap: 10px; padding: 14px 16px; border-radius: var(--radius); background: var(--card); border: 1px solid var(--line); }
+.mixchip { display: inline-flex; align-items: center; gap: 4px; padding: 5px 6px 5px 12px; border-radius: 99px; background: var(--you-soft);
+  color: var(--text); font-size: .85rem; font-weight: 600; border: 1px solid color-mix(in srgb, var(--you) 40%, transparent); }
+.mixchip button { width: 24px; height: 24px; display: grid; place-items: center; border-radius: 50%; color: var(--muted); }
+.mixchip button .ic { width: 14px; height: 14px; stroke-width: 2.4; }
+.tile.on .tile-ic .ic { stroke-width: 2.6; }
+
+/* pop-up sheets */
+body.sheet-open { overflow: hidden; }
+.sheet-bg { position: fixed; inset: 0; z-index: 50; background: rgba(5, 6, 18, .55); backdrop-filter: blur(3px);
+  display: flex; align-items: flex-end; justify-content: center; opacity: 0; transition: opacity .2s; }
+.sheet-bg.in { opacity: 1; }
+.sheet { width: 100%; max-width: 520px; max-height: 88dvh; display: flex; flex-direction: column; background: var(--bg);
+  border: 1px solid var(--line-2); border-bottom: 0; border-radius: 22px 22px 0 0; box-shadow: 0 -20px 50px -20px rgba(0, 0, 0, .6);
+  transform: translateY(24px); transition: transform .22s cubic-bezier(.2, .8, .2, 1); }
+.sheet-bg.in .sheet { transform: none; }
+.sheet-h { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 16px 8px; }
+.sheet-h h2 { font-size: 1.2rem; }
+.sheet-b { overflow: auto; display: grid; gap: 16px; padding: 8px 16px 0; }
+.sheet-f { position: sticky; bottom: 0; display: flex; gap: 8px; padding: 12px 0 calc(16px + env(safe-area-inset-bottom));
+  background: linear-gradient(to bottom, transparent, var(--bg) 12px); }
+.sheet-f .btn { flex: 1; }
+.sheet-f .btn:not(.primary) { flex: 0 0 auto; width: auto; padding: 0 18px; }
+.selall { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 14px; background: var(--card); border: 1px solid var(--line-2); text-align: left; }
+.selall b { display: block; }
+.selall small { display: block; color: var(--muted); font-size: .82rem; }
+.selall .box { width: 24px; height: 24px; border-radius: 7px; border: 2px solid var(--line-2); display: grid; place-items: center; flex: none; }
+.selall.on .box { background: var(--you); border-color: var(--you); color: var(--you-ink); }
+.selall .box .ic { width: 16px; height: 16px; stroke-width: 3; }
+.chip .more { display: inline-flex; align-items: center; gap: 2px; margin-left: 2px; font-size: .72rem; opacity: .75; }
+.chip .more .ic { width: 14px; height: 14px; margin: 0 -4px 0 0; }
+@media (prefers-reduced-motion: reduce) { .sheet-bg, .sheet { transition: none; } }
+h4 small { text-transform: none; letter-spacing: 0; font-weight: 600; color: var(--you); margin-left: 4px; }
