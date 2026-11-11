@@ -1,0 +1,131 @@
+{
+ "cat": "nba",
+ "prompts": [
+  {
+   "id": "nba-j-aba-teams",
+   "tags": [
+    "teams"
+   ],
+   "text": "Name a team that played in the ABA (1967 to 1976), under any of its names",
+   "answers": [
+    [
+     "Denver Nuggets",
+     "Nuggets"
+    ],
+    [
+     "Indiana Pacers",
+     "Pacers"
+    ],
+    [
+     "San Antonio Spurs",
+     "Spurs"
+    ],
+    [
+     "New York Nets",
+     "Nets",
+     "New Jersey Nets",
+     "Brooklyn Nets"
+    ],
+    [
+     "Kentucky Colonels",
+     "Colonels"
+    ],
+    [
+     "Virginia Squires",
+     "Squires"
+    ],
+    [
+     "Utah Stars"
+    ],
+    [
+     "Los Angeles Stars",
+     "LA Stars"
+    ],
+    [
+     "Spirits of St. Louis",
+     "Spirits of St Louis",
+     "Spirits",
+     "St. Louis Spirits"
+    ],
+    [
+     "Carolina Cougars",
+     "Cougars"
+    ],
+    [
+     "Denver Rockets"
+    ],
+    [
+     "Dallas Chaparrals",
+     "Texas Chaparrals",
+     "Chaparrals"
+    ],
+    [
+     "Miami Floridians",
+     "Floridians",
+     "The Floridians"
+    ],
+    [
+     "Memphis Sounds",
+     "Sounds"
+    ],
+    [
+     "Memphis Tams",
+     "Tams"
+    ],
+    [
+     "Memphis Pros",
+     "Pros"
+    ],
+    [
+     "Pittsburgh Condors",
+     "Condors"
+    ],
+    [
+     "Pittsburgh Pipers"
+    ],
+    [
+     "Minnesota Pipers"
+    ],
+    [
+     "Minnesota Muskies",
+     "Muskies"
+    ],
+    [
+     "Anaheim Amigos",
+     "Amigos"
+    ],
+    [
+     "Houston Mavericks"
+    ],
+    [
+     "New Orleans Buccaneers",
+     "Buccaneers",
+     "Bucs"
+    ],
+    [
+     "Oakland Oaks",
+     "Oaks"
+    ],
+    [
+     "Washington Caps",
+     "Capitols",
+     "Caps"
+    ],
+    [
+     "San Diego Conquistadors",
+     "Conquistadors",
+     "Q's"
+    ],
+    [
+     "San Diego Sails",
+     "Sails"
+    ],
+    [
+     "New Jersey Americans",
+     "New York Americans",
+     "Americans"
+    ]
+   ]
+  }
+ ]
+}
