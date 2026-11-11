@@ -212,10 +212,13 @@ def open_db():
     DB.execute("CREATE TABLE IF NOT EXISTS suggestions (prompt_id TEXT, key TEXT, raw TEXT, count INTEGER, "
                "PRIMARY KEY (prompt_id, key))")
     for p in PROMPTS.values():
-        # Strictly decreasing seeds, so the last answer listed (last two on long lists) starts as the Outlier.
+        # A long-tailed start in list order. The last answer listed (last two on long lists) starts below
+        # everything else, so it is the Outlier; neighbours deep in a long list may tie, which only
+        # means they share a rarity tier. (This used to force every seed apart, which flattened long lists.)
         seeds = [seed_count(rank) for rank in range(len(p["names"]))]
-        for i in range(len(seeds) - 2, -1, -1):
-            seeds[i] = max(seeds[i], seeds[i + 1] + 1)
+        for k in range(1, (2 if len(seeds) >= OUTLIER_PAIR else 1) + 1):
+            if len(seeds) > k:
+                seeds[-k] = k
         for name, seed in zip(p["names"], seeds):
             DB.execute("INSERT OR IGNORE INTO answers VALUES (?, ?, ?)", (p["id"], name, seed))
     DB.commit()
@@ -234,16 +237,31 @@ def outliers_for(counts):
     return sorted(counts, key=lambda n: (counts[n], n))[:2 if len(counts) >= OUTLIER_PAIR else 1]
 
 
-def points_for(counts, name, stats=None):
-    """Only an Outlier scores 100. Everything else runs from 10 (most common) up to 99.
-    stats = (outliers, hi, lo) can be passed in when scoring a whole board at once."""
-    top, hi, lo = stats or (outliers_for(counts), max(counts.values()), min(counts.values()))
-    if name in top:
-        return 100
-    c = counts[name]
-    if hi == lo:
-        return 55
-    return min(99, round(10 + 89 * (math.log(hi) - math.log(c)) / (math.log(hi) - math.log(lo))))
+TIERS = ["", "Common", "Uncommon", "Rare", "Ball knowledge", "Outlier"]
+TIER_POINTS = [0, 10, 25, 50, 75, 100]
+# Where each tier ends, by rank in the crowd: (share of the list, but at most this many answers).
+TIER_CUTS = [(.15, 10), (.35, 30), (.60, 100)]
+
+
+def tiers_for(counts):
+    """Every answer's rarity tier (1 Common .. 4 Ball knowledge, 5 Outlier), from its rank in the crowd.
+    Answers said equally often share a tier, so ties never split."""
+    top = set(outliers_for(counts))
+    rows = sorted(counts, key=lambda n: -counts[n])
+    n = len(rows)
+    cuts = [min(math.ceil(f * n), cap) for f, cap in TIER_CUTS]
+    out, rank = {}, 0
+    for i, name in enumerate(rows):
+        if i and counts[name] != counts[rows[i - 1]]:
+            rank = i
+        out[name] = 5 if name in top else 1 + sum(rank >= c for c in cuts)
+    return out
+
+
+def points_for(counts, name, tiers=None):
+    """Each tier is worth a fixed score: Common 10, Uncommon 25, Rare 50, Ball knowledge 75, Outlier 100.
+    tiers (from tiers_for) can be passed in when scoring a whole board at once."""
+    return TIER_POINTS[(tiers or tiers_for(counts))[name]]
 
 
 def share_for(counts, name):
@@ -254,12 +272,12 @@ BOARD_MAX = 150   # long lists send the commonest answers plus the player's own 
 
 
 def board_for(counts, keep=()):
-    rows, top = sorted(counts, key=lambda n: -counts[n]), outliers_for(counts)
-    stats, total = (top, max(counts.values()), min(counts.values())), sum(counts.values())
+    rows, tiers = sorted(counts, key=lambda n: -counts[n]), tiers_for(counts)
+    total = sum(counts.values())
     if len(rows) > BOARD_MAX:
-        rows = rows[:BOARD_MAX] + [n for n in rows[BOARD_MAX:] if n in top or n in keep]
-    return [{"name": n, "share": round(100 * counts[n] / total, 1), "points": points_for(counts, n, stats),
-             "outlier": n in top} for n in rows]
+        rows = rows[:BOARD_MAX] + [n for n in rows[BOARD_MAX:] if tiers[n] == 5 or n in keep]
+    return [{"name": n, "share": round(100 * counts[n] / total, 1), "points": TIER_POINTS[tiers[n]],
+             "tier": tiers[n], "outlier": tiers[n] == 5} for n in rows]
 
 
 def record(pid, name, raw):
@@ -278,10 +296,10 @@ def judge(pid, raw, counts=None):
     raw = str(raw or "").strip()[:60]
     counts = counts or counts_for(pid)
     name = match(pid, raw)
-    out = {"given": raw, "valid": bool(name), "points": 0, "share": 0, "canonical": None, "outlier": False}
+    out = {"given": raw, "valid": bool(name), "points": 0, "share": 0, "canonical": None, "outlier": False, "tier": 0}
     if name:
-        out.update(canonical=name, points=points_for(counts, name), share=share_for(counts, name),
-                   outlier=name in outliers_for(counts))
+        t = tiers_for(counts)[name]
+        out.update(canonical=name, points=TIER_POINTS[t], share=share_for(counts, name), tier=t, outlier=t == 5)
     return out
 
 

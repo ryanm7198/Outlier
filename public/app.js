@@ -75,7 +75,9 @@ async function shareText(text) {
 
 // ------------------------------------------------------------ scoring visuals
 
-const TIERS = ['', 'With the crowd', 'Common', 'Uncommon', 'Rare', 'Outlier!'];
+// Every answer sits in a rarity tier with a fixed score: Common 10, Uncommon 25, Rare 50, Ball knowledge 75, Outlier 100.
+const TIERS = ['', 'Common', 'Uncommon', 'Rare', 'Ball knowledge', 'Outlier!'];
+const TIER_NAMES = ['', 'Common', 'Uncommon', 'Rare', 'Ball knowledge', 'Outlier'];
 const SQUARES = ['⬛', '🟫', '🟧', '🟨', '🟩', '🟪'];
 const tier = pts => pts >= 100 ? 5 : pts >= 75 ? 4 : pts >= 50 ? 3 : pts >= 25 ? 2 : pts > 0 ? 1 : 0;
 
@@ -165,9 +167,11 @@ function outlierHTML(list, mine) {
 
 function boardHTML(board, mine, total) {
   const more = total && total > board.length;
-  return `<details><summary>${more ? `See the top answers (${total} in all)` : `See every answer (${board.length})`}</summary><ol class="rows board">${board.map(b => `
-    <li class="${b.name === mine ? 'me' : ''}"><span class="main"><b>${esc(b.name)}</b></span>
-    ${b.outlier ? '<span class="tag">Outlier</span>' : ''}<span class="share">${b.share}%</span><span class="num">${b.points}</span></li>`).join('')}</ol></details>`;
+  const t = b => b.tier || tier(b.points);
+  // Grouped by tier, rarest last; each tier shows what it is worth.
+  return `<details><summary>${more ? `See the top answers (${total} in all)` : `See every answer (${board.length})`}</summary><ol class="rows board">${board.map((b, i) => `
+    ${i && t(board[i - 1]) === t(b) ? '' : `<li class="tierhead t${t(b)}"><span class="main">${TIER_NAMES[t(b)]}</span><span class="num">${b.points}</span></li>`}
+    <li class="${b.name === mine ? 'me' : ''}"><span class="main"><b>${esc(b.name)}</b></span><span class="share">${b.share}%</span></li>`).join('')}</ol></details>`;
 }
 
 function questionHTML(text) {
@@ -340,8 +344,9 @@ function home() {
     </div>
     ${streak.n > 1 ? `<p class="muted center">Daily streak: ${streak.n} days</p>` : ''}
     <details class="card"><summary>How it works</summary>
-      <p class="muted">You get a prompt and 30 seconds. Any correct answer scores, but rarer answers score more:
-      from 10 for the one everyone says up to 99, and each question has one Outlier (two on very long lists) worth the full 100. Your points are paces away from the crowd.
+      <p class="muted">You get a prompt and 30 seconds. Any correct answer scores, and rarer answers score more.
+      Every answer sits in a rarity tier: <b>Common</b> 10, <b>Uncommon</b> 25, <b>Rare</b> 50, <b>Ball knowledge</b> 75,
+      and the rarest of all, the <b>Outlier</b> (two on very long lists), is worth 100. Your points are paces away from the crowd.
       Every answer played shifts how common it is, so the rarest answer today might not be tomorrow.
       In party games, players who give the same answer share half the points.</p>
     </details>`);
@@ -744,7 +749,7 @@ function partyReveal(s, host) {
     ${mine ? resultHTML(mine) : ''}
     <div class="after${mine ? ' wait' : ''}">
     <ul class="rows card">${r.results.map(x => `<li class="${x.n === s.you ? 'me' : ''}">
-      <span class="main"><b>${esc(x.name)}</b><small>${x.valid ? `${esc(x.canonical)} · ${x.share}% said it`
+      <span class="main"><b>${esc(x.name)}</b><small>${x.valid ? `${esc(x.canonical)} · ${x.tier && x.tier < 5 ? TIER_NAMES[x.tier] + ' · ' : ''}${x.share}% said it`
         : x.given ? `<span class="strike">${esc(x.given)}</span> · not on the list` : 'No answer'}</small></span>
       ${x.outlier ? '<span class="tag">Outlier</span>' : ''}${x.shared ? '<span class="tag">Shared ½</span>' : ''}${x.doubled ? '<span class="tag dbl">×2</span>' : ''}<span class="num">+${x.points}</span></li>`).join('')}</ul>
     ${crowdChart(r)}

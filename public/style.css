@@ -203,3 +203,8 @@ details summary { cursor: pointer; color: var(--muted); padding: 8px 0; font-siz
 .bars .bs { font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .bars .who { font-size: .7rem; font-weight: 700; padding: 1px 7px; border-radius: 99px; background: var(--you); color: var(--you-ink); }
 h3 small { text-transform: none; letter-spacing: 0; font-weight: 500; }
+
+/* answer board grouped by rarity tier */
+.board li.tierhead { padding: 10px 0 2px; border: 0; font-size: .72rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.board li.tierhead .num { color: var(--muted); font-size: .72rem; }
+.board li.tierhead.t4, .board li.tierhead.t5 { color: var(--you); }
