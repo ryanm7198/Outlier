@@ -1,0 +1,6776 @@
+{
+ "cat": "music",
+ "prompts": [
+  {
+   "id": "xu6-hendrix-songs",
+   "tags": [
+    "60s"
+   ],
+   "text": "Name a song by Jimi Hendrix (with or without the Experience)",
+   "answers": [
+    "Purple Haze",
+    "Hey Joe",
+    "All Along the Watchtower",
+    [
+     "Voodoo Child (Slight Return)",
+     "Voodoo Child",
+     "Voodoo Chile (Slight Return)"
+    ],
+    "The Wind Cries Mary",
+    "Foxy Lady",
+    "Little Wing",
+    "Fire",
+    "Crosstown Traffic",
+    "Castles Made of Sand",
+    "Manic Depression",
+    "Are You Experienced?",
+    "Third Stone from the Sun",
+    "Stone Free",
+    [
+     "If 6 Was 9",
+     "If Six Was Nine"
+    ],
+    "Burning of the Midnight Lamp",
+    "Bold as Love",
+    "Spanish Castle Magic",
+    "Gypsy Eyes",
+    "Little Miss Lover",
+    "Wait Until Tomorrow",
+    "Up from the Skies",
+    "EXP",
+    "Ain't No Telling",
+    "Love or Confusion",
+    "May This Be Love",
+    "Highway Chile",
+    "Red House",
+    "I Don't Live Today",
+    "Can You See Me",
+    "Remember",
+    "51st Anniversary",
+    "Long Hot Summer Night",
+    "House Burning Down",
+    [
+     "Come On (Part I)",
+     "Come On"
+    ],
+    "Still Raining, Still Dreaming",
+    [
+     "1983... (A Merman I Should Turn to Be)",
+     "1983",
+     "Merman"
+    ],
+    "Voodoo Chile",
+    "Rainy Day, Dream Away",
+    "Machine Gun",
+    "Angel",
+    "Dolly Dagger",
+    "Message to Love",
+    "Izabella",
+    [
+     "Ezy Ryder",
+     "Easy Rider"
+    ],
+    [
+     "Hey Baby (New Rising Sun)",
+     "Hey Baby"
+    ],
+    "Drifting",
+    "Night Bird Flying",
+    "Straight Ahead",
+    "Belly Button Window",
+    "Earth Blues",
+    "Who Knows",
+    "Power of Soul"
+   ]
+  },
+  {
+   "id": "xu6-doors-songs",
+   "tags": [
+    "60s"
+   ],
+   "text": "Name a song by The Doors",
+   "answers": [
+    "Light My Fire",
+    "Riders on the Storm",
+    [
+     "Break On Through (To the Other Side)",
+     "Break On Through"
+    ],
+    "Hello, I Love You",
+    "People Are Strange",
+    "Touch Me",
+    "L.A. Woman",
+    "Love Me Two Times",
+    "Roadhouse Blues",
+    "The End",
+    "Love Her Madly",
+    "Waiting for the Sun",
+    "Strange Days",
+    "Soul Kitchen",
+    [
+     "Alabama Song (Whisky Bar)",
+     "Alabama Song",
+     "Whisky Bar"
+    ],
+    "Five to One",
+    "The Crystal Ship",
+    "Peace Frog",
+    "When the Music's Over",
+    "Moonlight Drive",
+    "Spanish Caravan",
+    "Wishful Sinful",
+    "Tell All the People",
+    "Not to Touch the Earth",
+    "Back Door Man",
+    "Take It as It Comes",
+    [
+     "Twentieth Century Fox",
+     "20th Century Fox"
+    ],
+    "Love Street",
+    "Unhappy Girl",
+    "Queen of the Highway",
+    "Been Down So Long",
+    "Hyacinth House",
+    "Texas Radio and the Big Beat",
+    "Cars Hiss by My Window",
+    "The Soft Parade",
+    "Runnin' Blue",
+    "Shaman's Blues",
+    "Do It",
+    "You Make Me Real",
+    "Indian Summer",
+    "Yes, the River Knows",
+    "The Spy",
+    "Maggie M'Gill",
+    "Ship of Fools",
+    "Land Ho!",
+    "Summer's Almost Gone",
+    "Wild Child",
+    "Universal Mind",
+    "Blue Sunday",
+    "My Eyes Have Seen You",
+    "End of the Night",
+    "I Looked at You",
+    "The Changeling",
+    "L'America",
+    "Crawling King Snake",
+    "Orange County Suite",
+    "The Celebration of the Lizard",
+    "Horse Latitudes",
+    "I Can't See Your Face in My Mind",
+    "Who Scared You",
+    "Wintertime Love"
+   ]
+  },
+  {
+   "id": "xu6-kinks-songs",
+   "tags": [
+    "60s"
+   ],
+   "text": "Name a song by The Kinks",
+   "answers": [
+    "You Really Got Me",
+    "Lola",
+    "Waterloo Sunset",
+    "Sunny Afternoon",
+    "All Day and All of the Night",
+    "Tired of Waiting for You",
+    "Dedicated Follower of Fashion",
+    "Dead End Street",
+    "Autumn Almanac",
+    "Days",
+    "Apeman",
+    "Come Dancing",
+    "Celluloid Heroes",
+    "Victoria",
+    "Picture Book",
+    [
+     "The Village Green Preservation Society",
+     "Village Green"
+    ],
+    "Death of a Clown",
+    "Susannah's Still Alive",
+    "Better Things",
+    "Destroyer",
+    "Sleepwalker",
+    "Misfits",
+    "Father Christmas",
+    "A Well Respected Man",
+    "Where Have All the Good Times Gone",
+    "Set Me Free",
+    "See My Friends",
+    [
+     "Till the End of the Day",
+     "'Til the End of the Day"
+    ],
+    "Do You Remember Walter",
+    "Johnny Thunder",
+    "Starstruck",
+    "Shangri-La",
+    "Wicked Annabella",
+    "Big Sky",
+    "Animal Farm",
+    "The Last of the Steam-Powered Trains",
+    "Phenomenal Cat",
+    "Monica",
+    "Lazy Old Sun",
+    "Fancy",
+    "Mr. Pleasant",
+    "This Time Tomorrow",
+    [
+     "20th Century Man",
+     "Twentieth Century Man"
+    ],
+    "Alcohol",
+    "Supersonic Rocket Ship",
+    "Sitting in the Midday Sun",
+    "I'm Not Like Everybody Else",
+    "Wonderboy",
+    "Plastic Man",
+    "Everybody's Gonna Be Happy",
+    "Stop Your Sobbing",
+    "David Watts",
+    "Two Sisters",
+    "Harry Rag",
+    "Rosie Won't You Please Come Home",
+    "Dandy",
+    "Mindless Child of Motherhood"
+   ]
+  },
+  {
+   "id": "xu6-beach-boys-top10",
+   "tags": [
+    "60s"
+   ],
+   "text": "Name a Beach Boys single",
+   "answers": [
+    "Good Vibrations",
+    "I Get Around",
+    "Sloop John B",
+    "God Only Knows",
+    "Barbara Ann",
+    "Do It Again",
+    "Then I Kissed Her",
+    "Break Away",
+    "Heroes and Villains",
+    "Cottonfields",
+    "Lady Lynda",
+    "Wouldn't It Be Nice",
+    "Rock and Roll Music",
+    "California Girls",
+    "Help Me, Rhonda",
+    "Darlin'",
+    "Friends",
+    "Getcha Back",
+    "Kokomo",
+    "Wild Honey",
+    "Fun, Fun, Fun",
+    "Surfin' U.S.A.",
+    "Little Deuce Coupe",
+    "Dance, Dance, Dance",
+    [
+     "When I Grow Up (To Be a Man)",
+     "When I Grow Up"
+    ],
+    "Be True to Your School",
+    "Caroline, No",
+    "Do You Wanna Dance?",
+    "Sail On, Sailor"
+   ]
+  },
+  {
+   "id": "xu6-girl-groups-60s",
+   "tags": [
+    "60s"
+   ],
+   "text": "Name a girl group from the 1960s (or around then)",
+   "answers": [
+    "The Supremes",
+    "The Ronettes",
+    "The Shirelles",
+    "The Crystals",
+    "The Shangri-Las",
+    "The Marvelettes",
+    [
+     "Martha and the Vandellas",
+     "Martha Reeves and the Vandellas",
+     "Vandellas"
+    ],
+    "The Chiffons",
+    "The Dixie Cups",
+    "The Exciters",
+    "The Cookies",
+    "The Angels",
+    "The Vernons Girls",
+    "The Three Degrees",
+    "The Toys",
+    "The Jaynetts",
+    "The Velvelettes",
+    "The Sweet Inspirations",
+    "The Paris Sisters",
+    "The Ikettes",
+    "The Blossoms",
+    "The Sheridan Sisters",
+    [
+     "Reparata and the Delrons",
+     "Reparata"
+    ],
+    "The Chantels",
+    "The Dixie Belles",
+    "The Secrets",
+    "The Breakaways",
+    "The Caravelles"
+   ]
+  },
+  {
+   "id": "xu6-british-invasion-bands",
+   "tags": [
+    "60s"
+   ],
+   "text": "Name a British Invasion act (a British group or duo that broke in America in the 1960s)",
+   "answers": [
+    "The Beatles",
+    "The Kinks",
+    "The Who",
+    "The Animals",
+    "The Hollies",
+    "The Yardbirds",
+    "The Dave Clark Five",
+    "Herman's Hermits",
+    "Gerry and the Pacemakers",
+    "The Searchers",
+    "The Zombies",
+    "Manfred Mann",
+    "The Troggs",
+    "Freddie and the Dreamers",
+    "The Moody Blues",
+    "Small Faces",
+    "The Spencer Davis Group",
+    [
+     "Billy J. Kramer and the Dakotas",
+     "Billy J. Kramer"
+    ],
+    "Peter and Gordon",
+    "Chad & Jeremy",
+    "The Swinging Blue Jeans",
+    "The Fortunes",
+    "The Tremeloes",
+    "The Honeycombs",
+    "Them",
+    "The Pretty Things",
+    "The Nashville Teens",
+    "The Merseybeats",
+    "The Mindbenders",
+    "The Applejacks",
+    "Unit 4 + 2",
+    "The Rockin' Berries",
+    "Cream",
+    "The Move",
+    "Traffic",
+    "The Fourmost"
+   ]
+  },
+  {
+   "id": "xu6-dylan-songs",
+   "tags": [
+    "60s"
+   ],
+   "text": "Name a song by Bob Dylan",
+   "answers": [
+    [
+     "Blowin' in the Wind",
+     "Blowing in the Wind"
+    ],
+    "Like a Rolling Stone",
+    "The Times They Are a-Changin'",
+    "Mr. Tambourine Man",
+    "Subterranean Homesick Blues",
+    [
+     "Knockin' on Heaven's Door",
+     "Knocking on Heaven's Door"
+    ],
+    "All Along the Watchtower",
+    "Tangled Up in Blue",
+    "Just Like a Woman",
+    "Lay Lady Lay",
+    [
+     "Rainy Day Women #12 & 35",
+     "Rainy Day Women",
+     "Everybody Must Get Stoned"
+    ],
+    [
+     "Positively 4th Street",
+     "Positively Fourth Street"
+    ],
+    [
+     "Don't Think Twice, It's All Right",
+     "Don't Think Twice"
+    ],
+    "Masters of War",
+    [
+     "A Hard Rain's a-Gonna Fall",
+     "A Hard Rain's Gonna Fall",
+     "Hard Rain"
+    ],
+    "It Ain't Me Babe",
+    "Forever Young",
+    "Visions of Johanna",
+    "Desolation Row",
+    "Highway 61 Revisited",
+    "Maggie's Farm",
+    "Ballad of a Thin Man",
+    "It's All Over Now, Baby Blue",
+    "Girl from the North Country",
+    "Jokerman",
+    "Make You Feel My Love",
+    "Things Have Changed",
+    "Not Dark Yet",
+    "Shelter from the Storm",
+    "Simple Twist of Fate",
+    "Idiot Wind",
+    "Mississippi",
+    "Sweetheart Like You",
+    "Gotta Serve Somebody",
+    "Murder Most Foul",
+    "Hurricane",
+    "I Want You",
+    "Stuck Inside of Mobile with the Memphis Blues Again",
+    "One More Cup of Coffee",
+    "Mozambique",
+    "Isis",
+    "If Not for You",
+    "I Shall Be Released",
+    "You Ain't Goin' Nowhere",
+    "Tombstone Blues",
+    "Just Like Tom Thumb's Blues",
+    "Chimes of Freedom",
+    "My Back Pages",
+    "Oh, Sister",
+    "Political World",
+    "Most of the Time",
+    "Everything Is Broken",
+    "Love Sick",
+    "Thunder on the Mountain",
+    "Duquesne Whistle",
+    "Song to Woody",
+    "Talkin' New York",
+    "Corrina, Corrina",
+    "Bob Dylan's Dream",
+    "Boots of Spanish Leather",
+    "Only a Pawn in Their Game",
+    "The Lonesome Death of Hattie Carroll",
+    "With God on Our Side",
+    "When the Ship Comes In",
+    "She Belongs to Me",
+    "Gates of Eden",
+    [
+     "Love Minus Zero/No Limit",
+     "Love Minus Zero"
+    ],
+    "Lay Down Your Weary Tune",
+    "Absolutely Sweet Marie",
+    "Obviously 5 Believers",
+    "Pledging My Time",
+    "Leopard-Skin Pill-Box Hat",
+    "Temporary Like Achilles"
+   ]
+  },
+  {
+   "id": "xu6-temptations-singles",
+   "tags": [
+    "60s"
+   ],
+   "text": "Name a single by The Temptations",
+   "answers": [
+    "My Girl",
+    "Ain't Too Proud to Beg",
+    [
+     "Papa Was a Rollin' Stone",
+     "Papa Was a Rolling Stone"
+    ],
+    [
+     "Just My Imagination (Running Away with Me)",
+     "Just My Imagination"
+    ],
+    "I Can't Get Next to You",
+    "Get Ready",
+    "Beauty Is Only Skin Deep",
+    "The Way You Do the Things You Do",
+    "Cloud Nine",
+    [
+     "Ball of Confusion (That's What the World Is Today)",
+     "Ball of Confusion"
+    ],
+    "Psychedelic Shack",
+    "Since I Lost My Baby",
+    "I Wish It Would Rain",
+    "Treat Her Like a Lady",
+    "Standing on the Top",
+    [
+     "(I Know) I'm Losing You",
+     "I'm Losing You"
+    ],
+    "You're My Everything",
+    "Don't Look Back",
+    "All I Need",
+    "Masterpiece",
+    "I'm Gonna Make You Love Me",
+    [
+     "Hey Girl (I Like Your Style)",
+     "Hey Girl"
+    ],
+    [
+     "Superstar (Remember How You Got Where You Are)",
+     "Superstar"
+    ],
+    "Shakey Ground",
+    "Law of the Land",
+    "Take a Look Around",
+    "Run Away Child, Running Wild",
+    "It's Growing",
+    "My Baby",
+    "Girl (Why You Wanna Make Me Blue)",
+    [
+     "(Loneliness Made Me Realize) It's You That I Need",
+     "It's You That I Need"
+    ],
+    "Please Return Your Love to Me",
+    "I Could Never Love Another (After Loving You)",
+    "Power",
+    "Plastic Man"
+   ]
+  },
+  {
+   "id": "xu6-ballets",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a ballet",
+   "answers": [
+    "Swan Lake",
+    "The Nutcracker",
+    "Sleeping Beauty",
+    "Giselle",
+    "Romeo and Juliet",
+    "Coppélia",
+    "The Rite of Spring",
+    "The Firebird",
+    [
+     "Petrushka",
+     "Petrouchka"
+    ],
+    "Cinderella",
+    "La Sylphide",
+    "Don Quixote",
+    "Spartacus",
+    "La Bayadère",
+    [
+     "Le Corsaire",
+     "Corsaire"
+    ],
+    "Raymonda",
+    "Manon",
+    "Mayerling",
+    "Onegin",
+    "Les Sylphides",
+    "The Dream",
+    "Appalachian Spring",
+    "Billy the Kid",
+    "Rodeo",
+    "Apollo",
+    "Agon",
+    [
+     "Daphnis and Chloé",
+     "Daphnis et Chloe"
+    ],
+    "Pulcinella",
+    "Jeux",
+    "Parade",
+    "Sylvia",
+    [
+     "Alice's Adventures in Wonderland",
+     "Alice in Wonderland"
+    ],
+    "La Fille Mal Gardée",
+    "Les Noces",
+    "The Red Shoes",
+    "Anastasia",
+    "Peter and the Wolf",
+    "A Midsummer Night's Dream",
+    "Ondine",
+    "Elite Syncopations",
+    "Façade",
+    "Checkmate",
+    "The Dying Swan",
+    "Bolero",
+    "The Three-Cornered Hat",
+    "Les Biches",
+    "Serenade",
+    "Jewels",
+    "Symphony in C",
+    "Carmen",
+    "The Little Mermaid",
+    "Notre-Dame de Paris",
+    "Marguerite and Armand",
+    "The Taming of the Shrew",
+    "Lady of the Camellias",
+    "The Sleeping Princess",
+    "Les Patineurs",
+    "La Valse",
+    "Apollon musagète",
+    "Orpheus",
+    "Petite Mort",
+    "Flower Festival in Genzano",
+    "The Snow Maiden",
+    "Paquita",
+    [
+     "Le Spectre de la rose",
+     "Spectre de la rose"
+    ],
+    "Scheherazade",
+    "Le Sacre du printemps",
+    [
+     "L'Après-midi d'un faune",
+     "Afternoon of a Faun"
+    ],
+    "Gayane",
+    "The Bronze Horseman",
+    "The Golden Age",
+    "The Bolt",
+    "Bright Stream",
+    "The Stone Flower"
+   ]
+  },
+  {
+   "id": "xu6-operas-generic",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name an opera",
+   "answers": [
+    "Carmen",
+    "La traviata",
+    "Tosca",
+    [
+     "Madama Butterfly",
+     "Madame Butterfly"
+    ],
+    "La bohème",
+    "Aida",
+    "Rigoletto",
+    [
+     "The Magic Flute",
+     "Die Zauberflöte"
+    ],
+    "Don Giovanni",
+    [
+     "The Marriage of Figaro",
+     "Le nozze di Figaro",
+     "Figaro"
+    ],
+    "Fidelio",
+    [
+     "The Barber of Seville",
+     "Il barbiere di Siviglia"
+    ],
+    "Turandot",
+    "Nabucco",
+    "Il trovatore",
+    "Otello",
+    "Falstaff",
+    "Così fan tutte",
+    "Norma",
+    "Lucia di Lammermoor",
+    "Pagliacci",
+    "Cavalleria rusticana",
+    [
+     "Tristan und Isolde",
+     "Tristan and Isolde"
+    ],
+    "Parsifal",
+    "Lohengrin",
+    "Tannhäuser",
+    [
+     "Der Rosenkavalier",
+     "The Rose Knight",
+     "Rosenkavalier"
+    ],
+    "Salome",
+    "Elektra",
+    "Peter Grimes",
+    "Billy Budd",
+    "Dido and Aeneas",
+    [
+     "Orfeo",
+     "L'Orfeo",
+     "Orpheus and Eurydice"
+    ],
+    [
+     "Eugene Onegin",
+     "Eugen Onegin"
+    ],
+    "Boris Godunov",
+    "The Bartered Bride",
+    "Porgy and Bess",
+    [
+     "Hansel and Gretel",
+     "Hänsel und Gretel"
+    ],
+    "Faust",
+    [
+     "Les Troyens",
+     "The Trojans"
+    ],
+    "Manon",
+    "Werther",
+    [
+     "Samson and Delilah",
+     "Samson et Dalila"
+    ],
+    [
+     "The Tales of Hoffmann",
+     "Les contes d'Hoffmann"
+    ],
+    [
+     "The Pearl Fishers",
+     "Les pêcheurs de perles"
+    ],
+    [
+     "L'elisir d'amore",
+     "The Elixir of Love"
+    ],
+    "Don Pasquale",
+    "Wozzeck",
+    "Lulu",
+    "Jenůfa",
+    "Rusalka",
+    [
+     "Katya Kabanova",
+     "Káťa Kabanová"
+    ],
+    "The Cunning Little Vixen",
+    "Nixon in China",
+    "Einstein on the Beach",
+    "Akhnaten",
+    "The Rake's Progress",
+    "Gianni Schicchi",
+    "Manon Lescaut",
+    "La Gioconda",
+    "La Cenerentola",
+    [
+     "William Tell",
+     "Guillaume Tell"
+    ],
+    [
+     "The Flying Dutchman",
+     "Der fliegende Holländer"
+    ],
+    [
+     "Das Rheingold",
+     "Rheingold"
+    ],
+    [
+     "Die Walküre",
+     "The Valkyrie"
+    ],
+    "Siegfried",
+    [
+     "Götterdämmerung",
+     "Twilight of the Gods"
+    ],
+    [
+     "Die Meistersinger von Nürnberg",
+     "The Mastersingers of Nuremberg",
+     "Die Meistersinger"
+    ],
+    "Idomeneo",
+    [
+     "La clemenza di Tito",
+     "The Clemency of Titus"
+    ],
+    [
+     "Don Carlos",
+     "Don Carlo"
+    ],
+    "Macbeth",
+    [
+     "La forza del destino",
+     "The Force of Destiny"
+    ],
+    [
+     "Un ballo in maschera",
+     "A Masked Ball"
+    ],
+    "Simon Boccanegra",
+    "Les Huguenots",
+    "Lakmé",
+    "Thaïs",
+    [
+     "Pelléas et Mélisande",
+     "Pelleas and Melisande"
+    ],
+    "The Queen of Spades",
+    "Prince Igor",
+    "Khovanshchina",
+    "The Golden Cockerel",
+    [
+     "Ariadne auf Naxos",
+     "Ariadne on Naxos"
+    ],
+    "Arabella",
+    "Capriccio",
+    [
+     "Die Frau ohne Schatten",
+     "The Woman Without a Shadow"
+    ],
+    "Intermezzo",
+    "The Turn of the Screw",
+    "A Midsummer Night's Dream",
+    "Gloriana",
+    "The Makropulos Affair",
+    "From the House of the Dead",
+    "Bluebeard's Castle",
+    "Mathis der Maler",
+    "Satyagraha",
+    "Doctor Atomic",
+    "Orlando",
+    "La Rondine",
+    "Il tabarro",
+    "Suor Angelica",
+    "Il trittico",
+    [
+     "La fanciulla del West",
+     "The Girl of the Golden West"
+    ],
+    "Andrea Chénier",
+    "Adriana Lecouvreur",
+    "Mefistofele",
+    "I puritani",
+    "La sonnambula",
+    "Anna Bolena",
+    [
+     "La fille du régiment",
+     "The Daughter of the Regiment"
+    ],
+    "Il turco in Italia",
+    [
+     "L'italiana in Algeri",
+     "The Italian Girl in Algiers"
+    ],
+    "Semiramide",
+    "Orfeo ed Euridice",
+    "Alcina",
+    [
+     "Giulio Cesare",
+     "Julius Caesar"
+    ],
+    "Rinaldo",
+    [
+     "Xerxes",
+     "Serse"
+    ],
+    "Rodelinda",
+    "Semele",
+    "Ariodante",
+    "Hippolyte et Aricie",
+    "Castor et Pollux",
+    "Les Indes galantes",
+    "The Beggar's Opera",
+    [
+     "The Threepenny Opera",
+     "Die Dreigroschenoper"
+    ],
+    [
+     "Rise and Fall of the City of Mahagonny",
+     "Mahagonny"
+    ],
+    "Candide",
+    "Street Scene",
+    "Sweeney Todd",
+    "The Medium",
+    "Amahl and the Night Visitors",
+    "Susannah",
+    "Dead Man Walking",
+    "Little Women",
+    "Powder Her Face",
+    "Anna Nicole",
+    "The Perfect American",
+    "The Handmaid's Tale",
+    "Written on Skin",
+    "Brokeback Mountain"
+   ]
+  },
+  {
+   "id": "xu6-bach-works",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a work by Johann Sebastian Bach",
+   "answers": [
+    [
+     "Brandenburg Concertos",
+     "Brandenburg Concerto",
+     "Brandenburg"
+    ],
+    [
+     "Mass in B minor",
+     "B minor Mass"
+    ],
+    [
+     "St Matthew Passion",
+     "Saint Matthew Passion",
+     "Matthew Passion"
+    ],
+    [
+     "Toccata and Fugue in D minor",
+     "Toccata and Fugue"
+    ],
+    [
+     "Air on the G String",
+     "Air on a G String",
+     "Air"
+    ],
+    [
+     "Jesu, Joy of Man's Desiring",
+     "Jesu Joy"
+    ],
+    "Goldberg Variations",
+    "The Well-Tempered Clavier",
+    "The Art of Fugue",
+    [
+     "Cello Suites",
+     "Cello Suite"
+    ],
+    [
+     "Orchestral Suites",
+     "Orchestral Suite"
+    ],
+    "Coffee Cantata",
+    "Christmas Oratorio",
+    "Magnificat",
+    "The Musical Offering",
+    "Chaconne",
+    [
+     "Partitas",
+     "Partita"
+    ],
+    "Italian Concerto",
+    [
+     "Passacaglia and Fugue in C minor",
+     "Passacaglia and Fugue"
+    ],
+    "Sheep May Safely Graze",
+    [
+     "Wachet auf",
+     "Sleepers Wake"
+    ],
+    [
+     "St John Passion",
+     "Saint John Passion",
+     "John Passion"
+    ],
+    [
+     "Little Fugue",
+     "Fugue in G minor"
+    ],
+    [
+     "Two-Part Inventions",
+     "Inventions",
+     "Two and Three Part Inventions"
+    ],
+    [
+     "Anna Magdalena Notebook",
+     "Notebook for Anna Magdalena Bach"
+    ],
+    [
+     "Double Violin Concerto",
+     "Concerto for Two Violins"
+    ],
+    "Violin Concerto in A minor",
+    "Violin Concerto in E major",
+    [
+     "Sonatas and Partitas for Solo Violin",
+     "Sonatas and Partitas"
+    ],
+    "English Suites",
+    "French Suites",
+    [
+     "Orgelbüchlein",
+     "Little Organ Book"
+    ],
+    "Peasant Cantata",
+    "Easter Oratorio",
+    "Ascension Oratorio",
+    "Concerto for Oboe and Violin",
+    "Fantasia and Fugue in G minor",
+    "Badinerie",
+    "Ich habe genug",
+    "Komm, süsser Tod",
+    "Erbarme dich",
+    "Bist du bei mir",
+    "Mass in A major",
+    "Cantata 147",
+    "Cantata 140",
+    [
+     "Cantata 80",
+     "A Mighty Fortress Is Our God",
+     "Ein feste Burg"
+    ],
+    "Clavier-Übung",
+    "Canonic Variations",
+    "Schübler Chorales",
+    "Concerto for Four Harpsichords",
+    "Triple Concerto",
+    "Lutheran Masses",
+    "Sinfonias",
+    "Aria with Diverse Variations",
+    "Capriccio on the Departure of His Beloved Brother"
+   ]
+  },
+  {
+   "id": "xu6-mozart-nonopera",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a piece of music by Mozart (other than an opera)",
+   "answers": [
+    [
+     "Eine kleine Nachtmusik",
+     "A Little Night Music"
+    ],
+    [
+     "Requiem",
+     "Requiem Mass in D minor"
+    ],
+    "Clarinet Concerto",
+    [
+     "Jupiter Symphony",
+     "Symphony No. 41",
+     "Jupiter"
+    ],
+    [
+     "Symphony No. 40",
+     "Symphony in G minor"
+    ],
+    [
+     "Rondo alla Turca",
+     "Turkish March",
+     "Turkish Rondo"
+    ],
+    "Ave verum corpus",
+    [
+     "Great Mass in C minor",
+     "Mass in C minor"
+    ],
+    "Coronation Mass",
+    [
+     "Haffner Symphony",
+     "Haffner"
+    ],
+    [
+     "Prague Symphony",
+     "Symphony No. 38"
+    ],
+    [
+     "Linz Symphony",
+     "Symphony No. 36"
+    ],
+    [
+     "Posthorn Serenade",
+     "Posthorn"
+    ],
+    [
+     "Gran Partita",
+     "Serenade No. 10"
+    ],
+    [
+     "A Musical Joke",
+     "Ein musikalischer Spass"
+    ],
+    "Sinfonia Concertante",
+    "Laudate Dominum",
+    "Exsultate, jubilate",
+    [
+     "Piano Sonata No. 16",
+     "Sonata facile",
+     "Piano Sonata K545"
+    ],
+    [
+     "Piano Concerto No. 21",
+     "Elvira Madigan"
+    ],
+    [
+     "Ah vous dirai-je, Maman",
+     "Twinkle Twinkle Little Star variations",
+     "Twelve Variations on Ah vous dirai-je, Maman"
+    ],
+    [
+     "Flute and Harp Concerto",
+     "Concerto for Flute and Harp"
+    ],
+    [
+     "Horn Concertos",
+     "Horn Concerto"
+    ],
+    [
+     "Dissonance Quartet",
+     "String Quartet No. 19"
+    ],
+    "Piano Concerto No. 20",
+    "Piano Concerto No. 23",
+    "Piano Concerto No. 24",
+    "Piano Concerto No. 27",
+    "Symphony No. 25",
+    "Symphony No. 29",
+    "Violin Concerto No. 3",
+    [
+     "Violin Concerto No. 5",
+     "Turkish Violin Concerto"
+    ],
+    "Clarinet Quintet",
+    "Divertimento in E-flat",
+    "Fantasia in D minor",
+    "Adagio and Fugue in C minor",
+    "Masonic Funeral Music",
+    "Vesperae solennes de confessore",
+    "Serenata notturna",
+    "Hunt Quartet",
+    "Kegelstatt Trio",
+    "Oboe Concerto",
+    "Bassoon Concerto",
+    "Piano Quartet",
+    "Fantasia in C minor",
+    "Adagio for Glass Harmonica"
+   ]
+  },
+  {
+   "id": "xu6-conductors",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a classical conductor",
+   "answers": [
+    "Simon Rattle",
+    [
+     "Herbert von Karajan",
+     "Karajan"
+    ],
+    [
+     "Leonard Bernstein",
+     "Bernstein"
+    ],
+    [
+     "Arturo Toscanini",
+     "Toscanini"
+    ],
+    [
+     "Bernard Haitink",
+     "Haitink"
+    ],
+    [
+     "Georg Solti",
+     "Solti"
+    ],
+    [
+     "Daniel Barenboim",
+     "Barenboim"
+    ],
+    [
+     "Gustavo Dudamel",
+     "Dudamel"
+    ],
+    "Colin Davis",
+    "Andrew Davis",
+    "Mark Elder",
+    [
+     "Antonio Pappano",
+     "Pappano"
+    ],
+    [
+     "Thomas Beecham",
+     "Beecham"
+    ],
+    "Henry Wood",
+    [
+     "Malcolm Sargent",
+     "Sargent"
+    ],
+    [
+     "John Barbirolli",
+     "Barbirolli"
+    ],
+    [
+     "Adrian Boult",
+     "Boult"
+    ],
+    [
+     "Claudio Abbado",
+     "Abbado"
+    ],
+    [
+     "Riccardo Muti",
+     "Muti"
+    ],
+    [
+     "Valery Gergiev",
+     "Gergiev"
+    ],
+    [
+     "Zubin Mehta",
+     "Mehta"
+    ],
+    [
+     "Seiji Ozawa",
+     "Ozawa"
+    ],
+    [
+     "Kirill Petrenko",
+     "Petrenko"
+    ],
+    [
+     "Esa-Pekka Salonen",
+     "Salonen"
+    ],
+    [
+     "Marin Alsop",
+     "Alsop"
+    ],
+    [
+     "Karl Böhm",
+     "Bohm"
+    ],
+    [
+     "Wilhelm Furtwängler",
+     "Furtwangler"
+    ],
+    [
+     "André Previn",
+     "Previn"
+    ],
+    [
+     "Neville Marriner",
+     "Marriner"
+    ],
+    [
+     "Charles Mackerras",
+     "Mackerras"
+    ],
+    [
+     "Roger Norrington",
+     "Norrington"
+    ],
+    [
+     "John Eliot Gardiner",
+     "Gardiner"
+    ],
+    [
+     "Trevor Pinnock",
+     "Pinnock"
+    ],
+    [
+     "Christopher Hogwood",
+     "Hogwood"
+    ],
+    "Jane Glover",
+    "Edward Gardner",
+    [
+     "Sakari Oramo",
+     "Oramo"
+    ],
+    "Mirga Gražinytė-Tyla",
+    "Yannick Nézet-Séguin",
+    [
+     "Andris Nelsons",
+     "Nelsons"
+    ],
+    "Vasily Petrenko",
+    "Paavo Järvi",
+    "Neeme Järvi",
+    [
+     "Lorin Maazel",
+     "Maazel"
+    ],
+    [
+     "James Levine",
+     "Levine"
+    ],
+    [
+     "Eugene Ormandy",
+     "Ormandy"
+    ],
+    [
+     "Leopold Stokowski",
+     "Stokowski"
+    ],
+    [
+     "George Szell",
+     "Szell"
+    ],
+    [
+     "Fritz Reiner",
+     "Reiner"
+    ],
+    [
+     "Otto Klemperer",
+     "Klemperer"
+    ],
+    "Bruno Walter",
+    [
+     "Carlos Kleiber",
+     "Kleiber"
+    ],
+    "Erich Kleiber",
+    [
+     "Sergiu Celibidache",
+     "Celibidache"
+    ],
+    [
+     "Rafael Kubelík",
+     "Kubelik"
+    ],
+    [
+     "Carlo Maria Giulini",
+     "Giulini"
+    ],
+    [
+     "Christoph von Dohnányi",
+     "Dohnanyi"
+    ],
+    [
+     "Kurt Masur",
+     "Masur"
+    ],
+    [
+     "Evgeny Mravinsky",
+     "Mravinsky"
+    ],
+    [
+     "Mariss Jansons",
+     "Jansons"
+    ],
+    [
+     "Semyon Bychkov",
+     "Bychkov"
+    ],
+    [
+     "Vladimir Jurowski",
+     "Jurowski"
+    ],
+    "Michael Tilson Thomas",
+    "Gennady Rozhdestvensky",
+    [
+     "Nikolaus Harnoncourt",
+     "Harnoncourt"
+    ],
+    "Ton Koopman",
+    "William Christie",
+    "Marc Minkowski",
+    "Paul McCreesh",
+    "Mark Wigglesworth",
+    "Alexander Gibson",
+    "Nicholas Collon",
+    "Alpesh Chauhan",
+    "Kazuki Yamada",
+    "Domingo Hindoyan",
+    "Ryan Bancroft",
+    "Karina Canellakis",
+    "Susanna Mälkki",
+    "Xian Zhang",
+    "Elim Chan",
+    "Joana Carneiro",
+    "Alice Farnham",
+    "Hans Richter",
+    "Arthur Nikisch",
+    [
+     "Pierre Boulez",
+     "Boulez"
+    ],
+    [
+     "Pierre Monteux",
+     "Monteux"
+    ],
+    "Ernest Ansermet",
+    [
+     "Leonard Slatkin",
+     "Slatkin"
+    ],
+    "Edo de Waart",
+    [
+     "Riccardo Chailly",
+     "Chailly"
+    ],
+    [
+     "Giuseppe Sinopoli",
+     "Sinopoli"
+    ],
+    "Myung-whun Chung",
+    "Yuri Temirkanov",
+    [
+     "Charles Dutoit",
+     "Dutoit"
+    ]
+   ]
+  },
+  {
+   "id": "xu6-opera-singers",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name an opera singer",
+   "answers": [
+    [
+     "Luciano Pavarotti",
+     "Pavarotti"
+    ],
+    [
+     "Plácido Domingo",
+     "Domingo"
+    ],
+    [
+     "José Carreras",
+     "Carreras"
+    ],
+    [
+     "Maria Callas",
+     "Callas"
+    ],
+    [
+     "Kiri Te Kanawa",
+     "Te Kanawa"
+    ],
+    [
+     "Renée Fleming",
+     "Fleming"
+    ],
+    [
+     "Bryn Terfel",
+     "Terfel"
+    ],
+    [
+     "Joan Sutherland",
+     "Sutherland"
+    ],
+    [
+     "Jonas Kaufmann",
+     "Kaufmann"
+    ],
+    [
+     "Enrico Caruso",
+     "Caruso"
+    ],
+    [
+     "Cecilia Bartoli",
+     "Bartoli"
+    ],
+    [
+     "Montserrat Caballé",
+     "Caballe"
+    ],
+    [
+     "Anna Netrebko",
+     "Netrebko"
+    ],
+    "Leontyne Price",
+    "Jessye Norman",
+    "Janet Baker",
+    "Lesley Garrett",
+    "Katherine Jenkins",
+    "Alfie Boe",
+    "Russell Watson",
+    [
+     "Rolando Villazón",
+     "Villazon"
+    ],
+    [
+     "Roberto Alagna",
+     "Alagna"
+    ],
+    [
+     "Angela Gheorghiu",
+     "Gheorghiu"
+    ],
+    [
+     "Elisabeth Schwarzkopf",
+     "Schwarzkopf"
+    ],
+    [
+     "Kathleen Ferrier",
+     "Ferrier"
+    ],
+    "Jenny Lind",
+    [
+     "Nellie Melba",
+     "Melba"
+    ],
+    "Beverly Sills",
+    "Fritz Wunderlich",
+    [
+     "Dietrich Fischer-Dieskau",
+     "Fischer-Dieskau"
+    ],
+    [
+     "Andrea Bocelli",
+     "Bocelli"
+    ],
+    [
+     "Joyce DiDonato",
+     "DiDonato"
+    ],
+    "Danielle de Niese",
+    "Sarah Connolly",
+    "Gerald Finley",
+    [
+     "Ian Bostridge",
+     "Bostridge"
+    ],
+    "Willard White",
+    "Thomas Allen",
+    "John Tomlinson",
+    [
+     "Dame Felicity Lott",
+     "Felicity Lott"
+    ],
+    "Amanda Roocroft",
+    "Susan Bullock",
+    "Lise Davidsen",
+    "Sondra Radvanovsky",
+    "Diana Damrau",
+    "Natalie Dessay",
+    "Anna Moffo",
+    "Birgit Nilsson",
+    "Kirsten Flagstad",
+    "Lauritz Melchior",
+    "Jussi Björling",
+    "Mario Lanza",
+    "Giuseppe Di Stefano",
+    "Beniamino Gigli",
+    "Tito Gobbi",
+    "Ruggero Raimondi",
+    "Samuel Ramey",
+    "Rene Pape",
+    [
+     "Juan Diego Flórez",
+     "Florez"
+    ],
+    "Javier Camarena",
+    "Pretty Yende",
+    "Golda Schultz",
+    "Nadine Sierra",
+    "Pene Pati",
+    "Lawrence Brownlee",
+    "Dame Joan Hammond",
+    "Isobel Baillie",
+    "Gwyneth Jones",
+    "Margaret Price",
+    "Heather Harper",
+    "Anne Evans",
+    [
+     "Dame Eva Turner",
+     "Eva Turner"
+    ],
+    "Maria Malibran",
+    "Adelina Patti",
+    "Emma Albani",
+    "Clara Butt",
+    "Peter Pears",
+    "Owen Brannigan",
+    "Robert Tear",
+    "Philip Langridge",
+    "Anthony Rolfe Johnson",
+    "Jose van Dam",
+    "Hermann Prey",
+    "Thomas Hampson",
+    "Sherrill Milnes",
+    "Leo Nucci",
+    "Franco Corelli",
+    "Mario del Monaco",
+    "Carlo Bergonzi",
+    "Giuseppe Taddei"
+   ]
+  },
+  {
+   "id": "xu6-female-composers",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a female composer",
+   "answers": [
+    "Clara Schumann",
+    [
+     "Fanny Mendelssohn",
+     "Fanny Hensel"
+    ],
+    "Hildegard of Bingen",
+    "Ethel Smyth",
+    "Nadia Boulanger",
+    "Amy Beach",
+    "Lili Boulanger",
+    [
+     "Cécile Chaminade",
+     "Chaminade"
+    ],
+    "Florence Price",
+    "Rebecca Clarke",
+    "Imogen Holst",
+    "Elizabeth Maconchy",
+    [
+     "Kaija Saariaho",
+     "Saariaho"
+    ],
+    [
+     "Sofia Gubaidulina",
+     "Gubaidulina"
+    ],
+    "Judith Weir",
+    "Errollyn Wallen",
+    "Missy Mazzoli",
+    "Caroline Shaw",
+    "Rebecca Saunders",
+    "Thea Musgrave",
+    "Elisabeth Lutyens",
+    "Germaine Tailleferre",
+    "Louise Farrenc",
+    "Alma Mahler",
+    "Barbara Strozzi",
+    "Francesca Caccini",
+    "Élisabeth Jacquet de La Guerre",
+    "Joan Tower",
+    "Jennifer Higdon",
+    "Gabriela Lena Frank",
+    "Anna Clyne",
+    "Julia Wolfe",
+    "Hannah Kendall",
+    "Roxanna Panufnik",
+    "Unsuk Chin",
+    "Ruth Gipps",
+    [
+     "Grażyna Bacewicz",
+     "Bacewicz"
+    ],
+    "Lera Auerbach",
+    "Anna Meredith",
+    "Maria Teresa Agnesi",
+    "Liza Lehmann",
+    "Maude Valérie White",
+    "Dorothy Howell",
+    "Phyllis Tate",
+    "Madeleine Dring",
+    "Grace Williams",
+    "Elizabeth Poston",
+    "Ruth Crawford Seeger",
+    "Margaret Bonds",
+    "Undine Smith Moore",
+    "Julia Perry",
+    "Ellen Taaffe Zwilich",
+    "Meredith Monk",
+    "Pauline Oliveros",
+    "Laurie Anderson",
+    "Eliane Radigue",
+    "Maddalena Casulana",
+    "Isabella Leonarda",
+    "Tarquinia Molza",
+    "Mel Bonis",
+    "Augusta Holmès",
+    "Pauline Viardot",
+    "Johanna Kinkel",
+    "Josephine Lang",
+    "Emilie Mayer",
+    "Maria Szymanowska",
+    "Dora Pejačević",
+    "Vítězslava Kaprálová",
+    "Ethel Leginska",
+    "Mabel Daniels",
+    "Margaret Ruthven Lang",
+    "Clara Kathleen Rogers",
+    "Mana-Zucca",
+    [
+     "Galina Ustvolskaya",
+     "Ustvolskaya"
+    ],
+    "Elena Kats-Chernin",
+    "Peggy Glanville-Hicks",
+    "Liza Lim",
+    "Olga Neuwirth",
+    "Chaya Czernowin",
+    "Isabel Mundry",
+    "Sally Beamish",
+    "Cheryl Frances-Hoad",
+    "Charlotte Bray",
+    "Freya Waley-Cohen"
+   ]
+  },
+  {
+   "id": "xu6-musical-forms",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a form or genre of classical music (like symphony or sonata)",
+   "answers": [
+    "Symphony",
+    "Sonata",
+    "Concerto",
+    "Overture",
+    "Suite",
+    "Fugue",
+    "Opera",
+    "Aria",
+    "Oratorio",
+    "Cantata",
+    "Mass",
+    "Requiem",
+    "Waltz",
+    "Minuet",
+    "Scherzo",
+    "Rondo",
+    "Prelude",
+    [
+     "Étude",
+     "Study"
+    ],
+    "Nocturne",
+    "Mazurka",
+    "Polonaise",
+    "Ballade",
+    "Rhapsody",
+    "Serenade",
+    "Toccata",
+    "Partita",
+    "Canon",
+    [
+     "Variations",
+     "Theme and Variations"
+    ],
+    "Impromptu",
+    "Bagatelle",
+    [
+     "Lied",
+     "Art song"
+    ],
+    "Madrigal",
+    "Motet",
+    "Anthem",
+    "Chorale",
+    "Passacaglia",
+    "Chaconne",
+    "Divertimento",
+    "Capriccio",
+    "Intermezzo",
+    "Barcarolle",
+    "Berceuse",
+    [
+     "Fantasia",
+     "Fantasy"
+    ],
+    "Gavotte",
+    "Gigue",
+    "Sarabande",
+    "Allemande",
+    "Courante",
+    "Bourrée",
+    "March",
+    [
+     "Tone poem",
+     "Symphonic poem"
+    ],
+    "Concerto grosso",
+    "String quartet",
+    "Piano trio",
+    "Quintet",
+    "Sonatina",
+    "Recitative",
+    "Ballet",
+    "Operetta",
+    "Elegy",
+    "Lullaby",
+    "Pavane",
+    "Galliard",
+    "Gymnopédie",
+    "Humoresque",
+    "Romance",
+    "Song cycle",
+    "Chanson",
+    [
+     "Plainchant",
+     "Plainsong",
+     "Gregorian chant"
+    ],
+    "Concertino",
+    "Sinfonietta",
+    "Pastorale",
+    "Fanfare",
+    "Invention",
+    "Ricercar",
+    "Sinfonia",
+    "Hymn",
+    "Carol",
+    "Psalm",
+    "Magnificat",
+    "Te Deum",
+    "Stabat Mater",
+    "Passion"
+   ]
+  },
+  {
+   "id": "xu6-requiem-composers",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a composer who wrote a Requiem",
+   "answers": [
+    [
+     "Mozart",
+     "Wolfgang Amadeus Mozart"
+    ],
+    [
+     "Verdi",
+     "Giuseppe Verdi"
+    ],
+    [
+     "Fauré",
+     "Gabriel Fauré"
+    ],
+    [
+     "Brahms",
+     "Johannes Brahms"
+    ],
+    [
+     "Britten",
+     "Benjamin Britten"
+    ],
+    [
+     "Berlioz",
+     "Hector Berlioz"
+    ],
+    [
+     "Dvořák",
+     "Antonín Dvořák"
+    ],
+    [
+     "Duruflé",
+     "Maurice Duruflé"
+    ],
+    [
+     "Andrew Lloyd Webber",
+     "Lloyd Webber"
+    ],
+    [
+     "John Rutter",
+     "Rutter"
+    ],
+    [
+     "Cherubini",
+     "Luigi Cherubini"
+    ],
+    [
+     "Saint-Saëns",
+     "Camille Saint-Saëns"
+    ],
+    [
+     "Schumann",
+     "Robert Schumann"
+    ],
+    [
+     "Liszt",
+     "Franz Liszt"
+    ],
+    [
+     "Penderecki",
+     "Krzysztof Penderecki"
+    ],
+    [
+     "Ligeti",
+     "György Ligeti"
+    ],
+    [
+     "Delius",
+     "Frederick Delius"
+    ],
+    [
+     "Donizetti",
+     "Gaetano Donizetti"
+    ],
+    [
+     "Gounod",
+     "Charles Gounod"
+    ],
+    [
+     "Franz von Suppé",
+     "Suppé"
+    ],
+    "Michael Haydn",
+    [
+     "Gossec",
+     "François-Joseph Gossec"
+    ],
+    [
+     "Howells",
+     "Herbert Howells"
+    ],
+    [
+     "Bruckner",
+     "Anton Bruckner"
+    ],
+    [
+     "Stravinsky",
+     "Igor Stravinsky"
+    ],
+    [
+     "Karl Jenkins",
+     "Jenkins"
+    ],
+    [
+     "Alfred Schnittke",
+     "Schnittke"
+    ],
+    "Zelenka",
+    "Biber",
+    [
+     "Victoria",
+     "Tomás Luis de Victoria"
+    ],
+    "Ockeghem",
+    [
+     "Lassus",
+     "Orlande de Lassus"
+    ],
+    "Palestrina",
+    [
+     "Salieri",
+     "Antonio Salieri"
+    ],
+    "Jean Gilles",
+    "Rheinberger",
+    "Reger",
+    [
+     "Stanford",
+     "Charles Villiers Stanford"
+    ],
+    "Dame Ethel Smyth",
+    "Hans Werner Henze"
+   ]
+  },
+  {
+   "id": "xu6-beethoven-titled",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a piece by Beethoven that has a title or nickname (such as Für Elise)",
+   "answers": [
+    "Für Elise",
+    [
+     "Moonlight Sonata",
+     "Moonlight"
+    ],
+    "Ode to Joy",
+    [
+     "Pathétique",
+     "Pathétique Sonata"
+    ],
+    [
+     "Appassionata",
+     "Appassionata Sonata"
+    ],
+    [
+     "Waldstein",
+     "Waldstein Sonata"
+    ],
+    [
+     "Eroica",
+     "Eroica Symphony",
+     "Symphony No. 3"
+    ],
+    [
+     "Emperor Concerto",
+     "Emperor",
+     "Piano Concerto No. 5"
+    ],
+    [
+     "Pastoral Symphony",
+     "Pastoral",
+     "Symphony No. 6"
+    ],
+    [
+     "Egmont Overture",
+     "Egmont"
+    ],
+    "Missa Solemnis",
+    [
+     "Archduke Trio",
+     "Archduke"
+    ],
+    [
+     "Kreutzer Sonata",
+     "Kreutzer"
+    ],
+    [
+     "Hammerklavier",
+     "Hammerklavier Sonata"
+    ],
+    [
+     "Tempest",
+     "Tempest Sonata"
+    ],
+    [
+     "Spring Sonata",
+     "Spring"
+    ],
+    [
+     "Grosse Fuge",
+     "Great Fugue"
+    ],
+    [
+     "Coriolan Overture",
+     "Coriolan"
+    ],
+    [
+     "Leonore Overture",
+     "Leonore"
+    ],
+    [
+     "Wellington's Victory",
+     "Battle Symphony"
+    ],
+    "Choral Fantasy",
+    "Rage Over a Lost Penny",
+    [
+     "Ghost Trio",
+     "Ghost"
+    ],
+    "Fidelio",
+    [
+     "Choral Symphony",
+     "Choral",
+     "Symphony No. 9",
+     "Ninth Symphony"
+    ],
+    [
+     "Les Adieux",
+     "Les Adieux Sonata",
+     "Farewell Sonata"
+    ],
+    [
+     "Razumovsky Quartets",
+     "Razumovsky"
+    ],
+    [
+     "Harp Quartet",
+     "Harp"
+    ],
+    "Triple Concerto",
+    "Creatures of Prometheus",
+    "Ruins of Athens",
+    "King Stephen",
+    "Consecration of the House",
+    "Name Day Overture",
+    "Turkish March",
+    "Christ on the Mount of Olives",
+    [
+     "Fate Symphony",
+     "Symphony No. 5"
+    ],
+    [
+     "Serioso Quartet",
+     "Serioso"
+    ],
+    [
+     "Diabelli Variations",
+     "Diabelli"
+    ],
+    "Eroica Variations",
+    "Elegischer Gesang"
+   ]
+  },
+  {
+   "id": "xu6-american-composers",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name an American composer of classical or concert music",
+   "answers": [
+    [
+     "Aaron Copland",
+     "Copland"
+    ],
+    [
+     "Leonard Bernstein",
+     "Bernstein"
+    ],
+    [
+     "George Gershwin",
+     "Gershwin"
+    ],
+    [
+     "Samuel Barber",
+     "Barber"
+    ],
+    [
+     "Charles Ives",
+     "Ives"
+    ],
+    [
+     "Philip Glass",
+     "Glass"
+    ],
+    [
+     "Steve Reich",
+     "Reich"
+    ],
+    "John Adams",
+    [
+     "John Cage",
+     "Cage"
+    ],
+    [
+     "Scott Joplin",
+     "Joplin"
+    ],
+    [
+     "John Philip Sousa",
+     "Sousa"
+    ],
+    "Elliott Carter",
+    [
+     "Charles Tomlinson Griffes",
+     "Griffes"
+    ],
+    [
+     "Edward MacDowell",
+     "MacDowell"
+    ],
+    [
+     "Louis Moreau Gottschalk",
+     "Gottschalk"
+    ],
+    "Florence Price",
+    "Amy Beach",
+    [
+     "Howard Hanson",
+     "Hanson"
+    ],
+    [
+     "Walter Piston",
+     "Piston"
+    ],
+    "Roy Harris",
+    "William Schuman",
+    "Gian Carlo Menotti",
+    [
+     "John Corigliano",
+     "Corigliano"
+    ],
+    "Jennifer Higdon",
+    "Ellen Taaffe Zwilich",
+    [
+     "Ned Rorem",
+     "Rorem"
+    ],
+    "Joan Tower",
+    [
+     "Terry Riley",
+     "Riley"
+    ],
+    [
+     "Morton Feldman",
+     "Feldman"
+    ],
+    [
+     "Milton Babbitt",
+     "Babbitt"
+    ],
+    [
+     "Ruth Crawford Seeger",
+     "Ruth Crawford"
+    ],
+    [
+     "Henry Cowell",
+     "Cowell"
+    ],
+    [
+     "Edgard Varèse",
+     "Varese"
+    ],
+    [
+     "Virgil Thomson",
+     "Thomson"
+    ],
+    [
+     "George Antheil",
+     "Antheil"
+    ],
+    [
+     "Alan Hovhaness",
+     "Hovhaness"
+    ],
+    [
+     "George Crumb",
+     "Crumb"
+    ],
+    "Michael Torke",
+    "Nico Muhly",
+    "Aaron Jay Kernis",
+    "Christopher Rouse",
+    "Lowell Liebermann",
+    "Samuel Adler",
+    "William Grant Still",
+    "Marc Blitzstein",
+    "Lou Harrison",
+    "Harry Partch",
+    "Conlon Nancarrow",
+    "Meredith Monk",
+    "Caroline Shaw",
+    "Missy Mazzoli",
+    "Julia Wolfe",
+    "David Lang",
+    "Michael Gordon",
+    "Mason Bates",
+    "Kevin Puts",
+    "Andrew Norman",
+    "Gabriela Lena Frank",
+    "Jessie Montgomery",
+    "Carlisle Floyd",
+    "Douglas Moore",
+    "Randall Thompson",
+    "Daniel Pinkham",
+    "David Diamond",
+    "Peter Schickele",
+    "Richard Danielpour",
+    "Lukas Foss",
+    "Roger Sessions",
+    "Charles Wuorinen",
+    "John Luther Adams",
+    "Frederic Rzewski",
+    "Pauline Oliveros"
+   ]
+  },
+  {
+   "id": "xu6-garth-brooks-singles",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a Garth Brooks single",
+   "answers": [
+    "Friends in Low Places",
+    "The Dance",
+    "The Thunder Rolls",
+    "If Tomorrow Never Comes",
+    "Standing Outside the Fire",
+    [
+     "Callin' Baton Rouge",
+     "Calling Baton Rouge"
+    ],
+    [
+     "Much Too Young (To Feel This Damn Old)",
+     "Much Too Young"
+    ],
+    "Shameless",
+    [
+     "Ain't Goin' Down (Til the Sun Comes Up)",
+     "Ain't Goin' Down",
+     "Aint Going Down"
+    ],
+    "Unanswered Prayers",
+    "Rodeo",
+    [
+     "Two of a Kind, Workin' on a Full House",
+     "Two of a Kind"
+    ],
+    "The River",
+    "We Shall Be Free",
+    "Papa Loved Mama",
+    "What She's Doing Now",
+    "To Make You Feel My Love",
+    "Two Piña Coladas",
+    "She's Every Woman",
+    "That Summer",
+    "Longneck Bottle",
+    "The Beaches of Cheyenne",
+    "Learning to Live Again",
+    "The Red Strokes",
+    "American Honky-Tonk Bar Association",
+    "More Than a Memory",
+    "Good Ride Cowboy",
+    "Wrapped Up in You",
+    [
+     "Tearin' It Up (and Burnin' It Down)",
+     "Tearin' It Up"
+    ],
+    "It's Midnight Cinderella",
+    "Not Counting You",
+    "Ask Me How I Know",
+    "Belleau Wood",
+    "Baby, Let's Lay Down and Dance",
+    "Do What You Gotta Do",
+    "Dive Bar",
+    "Shallow",
+    "All Day Long",
+    "Somewhere Other Than the Night",
+    "One Night a Day",
+    "The Fever",
+    "The Change",
+    "That Ol' Wind",
+    "She's Gonna Make It",
+    "You Move Me",
+    "It's Your Song",
+    "Lost in You",
+    "It Don't Matter to the Sun",
+    "Right Now",
+    "That's the Way I Remember It",
+    "When You Come Back to Me Again",
+    "Wild Horses",
+    "Squeeze Me In",
+    "Thicker Than Blood",
+    "Why Ain't I Running",
+    "Love Will Always Win",
+    "That Girl Is a Cowboy",
+    "Workin' for a Livin'",
+    "Midnight Sun",
+    "The Call"
+   ]
+  },
+  {
+   "id": "xu6-glen-campbell-singles",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a Glen Campbell single",
+   "answers": [
+    "Rhinestone Cowboy",
+    "Wichita Lineman",
+    "Galveston",
+    "By the Time I Get to Phoenix",
+    "Gentle on My Mind",
+    "Southern Nights",
+    "Dreams of the Everyday Housewife",
+    "Try a Little Kindness",
+    "Honey Come Back",
+    [
+     "Country Boy (You Got Your Feet in L.A.)",
+     "Country Boy"
+    ],
+    "Where's the Playground Susie",
+    [
+     "Houston (I'm Comin' to See You)",
+     "Houston"
+    ],
+    "It's Only Make Believe",
+    [
+     "Dream Baby (How Long Must I Dream)",
+     "Dream Baby"
+    ],
+    [
+     "Don't Pull Your Love/Then You Can Tell Me Goodbye",
+     "Don't Pull Your Love"
+    ],
+    "True Grit",
+    "Sunflower",
+    "Universal Soldier",
+    "Let It Be Me",
+    "All I Have to Do Is Dream",
+    "Oh Happy Day",
+    "I'm Not Gonna Miss You",
+    "Ghost on the Canvas",
+    "Arkansas",
+    "Bonaparte's Retreat",
+    "Hey Little One",
+    "Can You Fool",
+    "Everything a Man Could Ever Need",
+    "William Tell Overture",
+    "Dreams for Sale",
+    "I Wonder",
+    "Winkie Doll",
+    "Valley of Death",
+    "Turn Around, Look at Me",
+    "Buzz Saw",
+    "The Miracle of Love",
+    "Too Late to Worry, Too Blue to Cry",
+    "Long Black Limousine",
+    "Kentucky Means Paradise",
+    "Prima Donna",
+    "Dark As a Dungeon",
+    "Same Old Places",
+    "Through the Eyes of a Child",
+    "Summer, Winter, Spring and Fall",
+    "Tomorrow Never Comes",
+    "Guess I'm Dumb",
+    "Private John Q",
+    "Can't You See I'm Trying",
+    "Burning Bridges",
+    "I Gotta Have My Baby Back"
+   ]
+  },
+  {
+   "id": "xu6-country-duos-groups",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a country music duo or group",
+   "answers": [
+    "Alabama",
+    "The Judds",
+    "Brooks & Dunn",
+    "Rascal Flatts",
+    [
+     "Lady A",
+     "Lady Antebellum"
+    ],
+    "Florida Georgia Line",
+    [
+     "The Chicks",
+     "Dixie Chicks"
+    ],
+    "Little Big Town",
+    "Sugarland",
+    [
+     "Dan + Shay",
+     "Dan and Shay"
+    ],
+    "Old Dominion",
+    "Zac Brown Band",
+    "The Oak Ridge Boys",
+    "The Statler Brothers",
+    "Montgomery Gentry",
+    "Big & Rich",
+    "The Band Perry",
+    "Restless Heart",
+    "Lonestar",
+    "Shenandoah",
+    "Sawyer Brown",
+    "Exile",
+    "The Kentucky Headhunters",
+    [
+     "Alison Krauss & Union Station",
+     "Union Station"
+    ],
+    "Flatt & Scruggs",
+    "The Everly Brothers",
+    "Pistol Annies",
+    "Diamond Rio",
+    "Gloriana",
+    "Midland",
+    "Maddie & Tae",
+    "Brothers Osborne",
+    "Thompson Square",
+    "Love and Theft",
+    "Eli Young Band",
+    "Emerson Drive",
+    "Parmalee",
+    "The Mavericks",
+    "Little Texas",
+    "Confederate Railroad",
+    "Blackhawk",
+    "Pirates of the Mississippi",
+    "The Wilkinsons",
+    "The Desert Rose Band",
+    "Highway 101",
+    "The Forester Sisters",
+    "The Whites",
+    "The Carter Family",
+    "The Louvin Brothers",
+    "Sons of the Pioneers",
+    "Riders in the Sky",
+    "Foster & Lloyd",
+    "Sweethearts of the Rodeo",
+    "Southern Pacific"
+   ]
+  },
+  {
+   "id": "xu6-taylor-swift-albums",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a studio album by Taylor Swift (original or re-recorded version)",
+   "answers": [
+    [
+     "Taylor Swift",
+     "Debut"
+    ],
+    "Fearless",
+    "Speak Now",
+    "Red",
+    "1989",
+    "Reputation",
+    "Lover",
+    "Folklore",
+    "Evermore",
+    "Midnights",
+    [
+     "The Tortured Poets Department",
+     "TTPD"
+    ],
+    "The Life of a Showgirl"
+   ]
+  },
+  {
+   "id": "xu6-luke-combs-singles",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a Luke Combs single",
+   "answers": [
+    "Hurricane",
+    "When It Rains It Pours",
+    "Beautiful Crazy",
+    "Beer Never Broke My Heart",
+    "She Got the Best of Me",
+    "Forever After All",
+    "Fast Car",
+    "Where the Wild Things Are",
+    "Even Though I'm Leaving",
+    "Better Together",
+    "Cold as You",
+    "One Number Away",
+    "Lovin' on You",
+    "Does to Me",
+    "Refrigerator Door",
+    "Doin' This",
+    "Houston, We Got a Problem",
+    "Ain't No Love in Oklahoma",
+    "Love You Anyway",
+    "Out There",
+    "1, 2 Many",
+    "The Kind of Love We Make",
+    "Joe",
+    "Tomorrow Me",
+    "Back in the Saddle",
+    "Days Like These",
+    "Growin' Up and Gettin' Old",
+    "I Got Away with You",
+    "Moon Over Mexico",
+    "Outrunnin' Your Memory",
+    "Must've Never Met You",
+    "Dive",
+    "Going, Going, Gone",
+    "Sleepless in a Hotel Room",
+    "Be By You",
+    "Rethink Some Things",
+    "Brand New Man",
+    "Cold Beer Calling My Name",
+    "Different 'Round Here",
+    "Life Goes On",
+    "Guy for That",
+    "Backup Plan",
+    "Finders Keepers",
+    "Six Feet Apart",
+    "5 Leaf Clover",
+    "The Man He Sees in Me",
+    "Ordinary",
+    "My Kinda Saturday Night",
+    "15 Minutes",
+    "Giving Her Away",
+    "I Ain't No Cowboy"
+   ]
+  },
+  {
+   "id": "xu6-o-brother-songs",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a song from the 'O Brother, Where Art Thou?' soundtrack (2000)",
+   "answers": [
+    [
+     "I Am a Man of Constant Sorrow",
+     "Man of Constant Sorrow",
+     "Constant Sorrow"
+    ],
+    "Big Rock Candy Mountain",
+    "You Are My Sunshine",
+    "Down to the River to Pray",
+    "In the Highways",
+    "I'll Fly Away",
+    "Keep on the Sunny Side",
+    "Didn't Leave Nobody but the Baby",
+    "Po' Lazarus",
+    "Hard Time Killing Floor Blues",
+    "Angel Band",
+    "Lonesome Valley",
+    "Indian War Whoop",
+    "O Death",
+    "In the Jailhouse Now",
+    [
+     "Scarlet Ribbons (For Her Hair)",
+     "Scarlet Ribbons"
+    ],
+    [
+     "Go to Sleep Little Baby",
+     "Go to Sleep"
+    ]
+   ]
+  },
+  {
+   "id": "xu6-carrie-underwood-singles",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a Carrie Underwood single",
+   "answers": [
+    "Jesus, Take the Wheel",
+    "Before He Cheats",
+    "Cowboy Casanova",
+    "Last Name",
+    "Blown Away",
+    "Good Girl",
+    "Something in the Water",
+    "Church Bells",
+    "See You Again",
+    "Smoke Break",
+    "Southbound",
+    "Heartbeat",
+    "Cry Pretty",
+    "Ghost Story",
+    "Love Wins",
+    "Drinking Alone",
+    "Little Toy Guns",
+    "Wasted",
+    "Don't Forget to Remember Me",
+    "All-American Girl",
+    "Temporary Home",
+    "So Small",
+    "Just a Dream",
+    "Undo It",
+    "Two Black Cadillacs",
+    "Dirty Laundry",
+    "Mama's Song",
+    "Remind Me",
+    "Look at Me",
+    "Out of That Truck",
+    "Denim & Rhinestones",
+    "Hate My Heart",
+    "Inside Your Heaven",
+    "Some Hearts",
+    "I'll Stand by You",
+    "Praying for Time",
+    "Just Stand Up!",
+    "I Told You So",
+    "Home Sweet Home",
+    "There's a Place for Us",
+    "Somethin' Bad",
+    "The Champion",
+    "Hallelujah",
+    "If I Didn't Love You",
+    "I'm Gonna Love You",
+    "Can't Stop Lovin' You",
+    "Forever Country",
+    "The Fighter",
+    "Tears of Gold",
+    "I Wanna Remember",
+    "Leave a Light On (Talk Away the Dark)",
+    "Change",
+    "Keep Us Safe",
+    "Renegade Runaway",
+    "What I Never Knew I Always Wanted",
+    "End Up with You",
+    "Let There Be Peace",
+    "Softly and Tenderly",
+    "Great Is Thy Faithfulness",
+    "Nothing but the Blood of Jesus"
+   ]
+  },
+  {
+   "id": "xu6-male-country-singers",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a male country singer",
+   "answers": [
+    "Johnny Cash",
+    "Garth Brooks",
+    "Willie Nelson",
+    "Kenny Rogers",
+    "George Strait",
+    "Luke Combs",
+    "Morgan Wallen",
+    "Blake Shelton",
+    "Keith Urban",
+    "Tim McGraw",
+    "Brad Paisley",
+    "Alan Jackson",
+    "Merle Haggard",
+    "Waylon Jennings",
+    "Kris Kristofferson",
+    "Hank Williams",
+    "Randy Travis",
+    "Toby Keith",
+    "Kenny Chesney",
+    "Jason Aldean",
+    "Luke Bryan",
+    "Chris Stapleton",
+    "Eric Church",
+    "Dierks Bentley",
+    "Thomas Rhett",
+    "Sam Hunt",
+    "Dwight Yoakam",
+    "Vince Gill",
+    "Clint Black",
+    "Travis Tritt",
+    "Billy Ray Cyrus",
+    "Conway Twitty",
+    "George Jones",
+    "Charley Pride",
+    "Glen Campbell",
+    "John Denver",
+    "Don Williams",
+    "Jim Reeves",
+    "Gene Autry",
+    "Roy Rogers",
+    "Buck Owens",
+    "Marty Robbins",
+    "Ray Price",
+    "Jimmie Rodgers",
+    "Eddy Arnold",
+    "Ernest Tubb",
+    "Lefty Frizzell",
+    "Hank Snow",
+    "Charlie Daniels",
+    "Trace Adkins",
+    "Darius Rucker",
+    "Jon Pardi",
+    "Cody Johnson",
+    "Zach Bryan",
+    "Tyler Childers",
+    "Riley Green",
+    "Hank Williams Jr.",
+    "Tracy Byrd",
+    "Tracy Lawrence",
+    "Lee Greenwood",
+    "Ronnie Milsap",
+    "Mickey Gilley",
+    "Merle Travis",
+    "Johnny Paycheck",
+    "Jerry Reed",
+    "Mac Davis",
+    "Kix Brooks",
+    "Ronnie Dunn",
+    "Joe Diffie",
+    "Aaron Tippin",
+    "Collin Raye",
+    "Mark Chesnutt",
+    "Josh Turner",
+    "Easton Corbin",
+    "Craig Morgan",
+    "Rodney Atkins",
+    "Chase Rice",
+    "Jordan Davis",
+    "Kane Brown",
+    "Dustin Lynch",
+    "Cole Swindell",
+    "Brett Eldredge",
+    "Chris Young",
+    "Walker Hayes",
+    "Parker McCollum",
+    "Jelly Roll",
+    "Shaboozey"
+   ]
+  },
+  {
+   "id": "xu6-keith-urban-singles",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a Keith Urban single",
+   "answers": [
+    "Somebody Like You",
+    "Days Go By",
+    "Better Life",
+    "Who Wouldn't Wanna Be Me",
+    "You'll Think of Me",
+    "Making Memories of Us",
+    "Stupid Boy",
+    "Once in a Lifetime",
+    "Raining on Sunday",
+    "Where the Blacktop Ends",
+    "Tonight I Wanna Cry",
+    "But for the Grace of God",
+    "Sweet Thing",
+    "Kiss a Girl",
+    "Long Hot Summer",
+    "You Look Good in My Shirt",
+    "Put You in a Song",
+    "Without You",
+    "Somewhere in My Car",
+    "Cop Car",
+    "Blue Ain't Your Color",
+    "The Fighter",
+    "Female",
+    "Wasted Time",
+    "Parallel Line",
+    "We Were",
+    "Coming Home",
+    "Go Home W U",
+    "Never Comin' Down",
+    "Brown Eyes Baby",
+    "I Told You So",
+    "Break on Me",
+    "John Cougar, John Deere, John 3:16",
+    "Burden",
+    "Wild Hearts",
+    "One Too Many",
+    "Heart Like a Hometown",
+    "God Whispered Your Name",
+    "I Never Work on a Sunday",
+    "Only You",
+    "Got It Bad",
+    "It's a Love Thing",
+    "Your Everything",
+    "You're My Better Half",
+    "These Are the Days",
+    "Everybody",
+    "Used to the Pain",
+    "Only You Can Love Me This Way",
+    "'Til Summer Comes Around",
+    "I'm In",
+    "You Gonna Fly",
+    "For You",
+    "Little Bit of Everything",
+    "Shame",
+    "We Were Us",
+    "Raise 'Em Up",
+    "Polaroid",
+    "Superman",
+    "Change Your Mind",
+    "Out the Cage"
+   ]
+  },
+  {
+   "id": "xu6-tim-mcgraw-singles",
+   "tags": [
+    "country"
+   ],
+   "text": "Name a Tim McGraw single",
+   "answers": [
+    "Live Like You Were Dying",
+    "Don't Take the Girl",
+    "Please Remember Me",
+    "Humble and Kind",
+    "Real Good Man",
+    "Just to See You Smile",
+    "Something Like That",
+    "I Like It, I Love It",
+    "Indian Outlaw",
+    "Where the Green Grass Grows",
+    "My Next Thirty Years",
+    "Grown Men Don't Cry",
+    "It's Your Love",
+    "Back When",
+    "Truck Yeah",
+    "Felt Good on My Lips",
+    "Highway Don't Care",
+    "Meanwhile Back at Mama's",
+    "Shotgun Rider",
+    "One of Those Nights",
+    [
+     "Last Dollar (Fly Away)",
+     "Last Dollar"
+    ],
+    "She's My Kind of Rain",
+    "Over and Over",
+    "Angry All the Time",
+    "Drugs or Jesus",
+    "Red Ragtop",
+    "Down on the Farm",
+    "Refried Dreams",
+    "Let It Go",
+    "If You're Reading This",
+    "Unbroken",
+    "Tiny Dancer",
+    "For a Little While"
+   ]
+  },
+  {
+   "id": "xu6-donna-summer-songs",
+   "tags": [
+    "dance"
+   ],
+   "text": "Name a Donna Summer single",
+   "answers": [
+    "I Feel Love",
+    "Hot Stuff",
+    "Love to Love You Baby",
+    "Bad Girls",
+    "Last Dance",
+    "MacArthur Park",
+    "On the Radio",
+    "She Works Hard for the Money",
+    "Dim All the Lights",
+    [
+     "No More Tears (Enough Is Enough)",
+     "Enough Is Enough",
+     "No More Tears"
+    ],
+    "State of Independence",
+    "Heaven Knows",
+    "I Love You",
+    "Love's Unkind",
+    [
+     "Love Is in Control (Finger on the Trigger)",
+     "Love Is in Control"
+    ],
+    "Unconditional Love",
+    "This Time I Know It's for Real",
+    "I Don't Wanna Get Hurt",
+    "Cold Love",
+    "Our Love",
+    "Walk Away",
+    "The Wanderer",
+    "Stamp Your Feet",
+    "Rumour Has It",
+    "Spring Affair",
+    "Winter Melody",
+    "Could It Be Magic",
+    "Try Me, I Know We Can Make It",
+    "I Remember Yesterday",
+    "Sunset People",
+    "Love Is the Healer",
+    [
+     "Melody of Love (Wanna Be Loved)",
+     "Melody of Love"
+    ],
+    "Breakaway",
+    "Dinner with Gershwin",
+    "All Systems Go",
+    "I'm a Fire"
+   ]
+  },
+  {
+   "id": "xu6-chic-songs",
+   "tags": [
+    "dance"
+   ],
+   "text": "Name a song by Chic (with or without Nile Rodgers)",
+   "answers": [
+    [
+     "Le Freak",
+     "Freak Out"
+    ],
+    "Good Times",
+    "I Want Your Love",
+    "Everybody Dance",
+    [
+     "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah)",
+     "Dance Dance Dance",
+     "Yowsah Yowsah Yowsah"
+    ],
+    "My Forbidden Lover",
+    "Chic Cheer",
+    "Soup for One",
+    "Real People",
+    "My Feet Keep Dancing",
+    "Hangin'",
+    "Rebels Are We",
+    "Jack Le Freak",
+    "Stage Fright"
+   ]
+  },
+  {
+   "id": "xu6-disco-acts",
+   "tags": [
+    "dance"
+   ],
+   "text": "Name a disco act",
+   "answers": [
+    "Donna Summer",
+    "Chic",
+    "Gloria Gaynor",
+    "Bee Gees",
+    "Sister Sledge",
+    "Earth, Wind & Fire",
+    "KC and the Sunshine Band",
+    "Village People",
+    "Boney M.",
+    "ABBA",
+    "Kool & the Gang",
+    "Diana Ross",
+    "Thelma Houston",
+    "Anita Ward",
+    "Amii Stewart",
+    "Candi Staton",
+    "Sylvester",
+    "Tavares",
+    "The Trammps",
+    "Heatwave",
+    "Odyssey",
+    "Lipps Inc.",
+    "Evelyn \"Champagne\" King",
+    "Cheryl Lynn",
+    "Gwen McCrae",
+    "Yvonne Elliman",
+    "Barry White",
+    [
+     "Love Unlimited Orchestra",
+     "Love Unlimited"
+    ],
+    "Hot Chocolate",
+    "Silver Convention",
+    "Ottawan",
+    "Gibson Brothers",
+    "Rose Royce",
+    "Instant Funk",
+    "The Ritchie Family",
+    "Patrick Hernandez",
+    "Grace Jones",
+    "Peaches & Herb",
+    [
+     "Andrea True Connection",
+     "Andrea True"
+    ],
+    "Vicki Sue Robinson",
+    "Carl Douglas",
+    "Michael Zager Band",
+    "A Taste of Honey",
+    "The Three Degrees",
+    "The Jacksons",
+    "The Weather Girls",
+    "Dan Hartman",
+    "Alicia Bridges",
+    [
+     "Sheila B. Devotion",
+     "Sheila and B. Devotion"
+    ],
+    "Linda Clifford",
+    "The Hues Corporation",
+    "Van McCoy",
+    "McFadden & Whitehead",
+    "Harold Melvin & the Blue Notes"
+   ]
+  },
+  {
+   "id": "xu6-clean-bandit-singles",
+   "tags": [
+    "dance"
+   ],
+   "text": "Name a Clean Bandit single",
+   "answers": [
+    "Rather Be",
+    "Rockabye",
+    "Symphony",
+    "Solo",
+    "Mozart's House",
+    "Dust Clears",
+    "A+E",
+    "Extraordinary",
+    "Real Love",
+    "Come Over",
+    "I Miss You",
+    "Tears",
+    "Mama",
+    "Baby",
+    "Stronger",
+    "Drive",
+    "Tick Tock",
+    "Higher",
+    "In Your Eyes",
+    "Nightingale",
+    "Disconnect",
+    "How Will I Know",
+    "Everything but You",
+    "Sad Girls",
+    "Don't Leave Me Lonely",
+    "Mar Azul",
+    "Cry Baby",
+    "2s n 3s",
+    "Tell Me Where U Go",
+    "Believe",
+    "I Don’t Wanna Hurt You",
+    "Company",
+    "La Dolce Vita",
+    "Intentions",
+    "Lost",
+    "Arriba",
+    "Open to More",
+    "Stop Crying Your Heart Out",
+    "My Own Beat"
+   ]
+  },
+  {
+   "id": "xu6-disclosure-singles",
+   "tags": [
+    "dance"
+   ],
+   "text": "Name a Disclosure single",
+   "answers": [
+    "Latch",
+    "White Noise",
+    "You & Me",
+    "F for You",
+    "Help Me Lose My Mind",
+    "Omen",
+    "Magnets",
+    "Holding On",
+    "Ecstasy",
+    "Jaded",
+    "Ultimatum",
+    "Tondo",
+    "Moonlight",
+    [
+     "Douha (Mali Mali)",
+     "Douha"
+    ],
+    "Birthday",
+    "Lavender",
+    "Waterfall",
+    "Where Angels Fear to Tread",
+    "When a Fire Starts to Burn",
+    "Boiling",
+    "Expressing What Matters",
+    "Energy",
+    "Voices",
+    "My High",
+    "Together",
+    "She's Gone, Dance On",
+    "Willing & Able",
+    "Hourglass",
+    "Tenderly",
+    "Talk",
+    "Nocturnal",
+    "Offline Dexterity / Street Light Chronicle",
+    "The Mechanism",
+    "Moog for Love",
+    "Love Can Be So Hard",
+    "Funky Sensation",
+    "Where You Come From",
+    "Know Your Worth",
+    "Watch Your Step",
+    "In My Arms",
+    "Happening",
+    "Seduction",
+    "You've Got to Let Go If You Want to Be Free",
+    "in2minds",
+    "Arachnids"
+   ]
+  },
+  {
+   "id": "xu6-kraftwerk-songs",
+   "tags": [
+    "dance"
+   ],
+   "text": "Name a song by Kraftwerk",
+   "answers": [
+    [
+     "The Model",
+     "Das Model"
+    ],
+    "Autobahn",
+    "Radioactivity",
+    "Trans-Europe Express",
+    "Computer Love",
+    [
+     "The Robots",
+     "Die Roboter"
+    ],
+    "Tour de France",
+    "Numbers",
+    "Showroom Dummies",
+    "Neon Lights",
+    "Pocket Calculator",
+    "Music Non Stop",
+    "Boing Boom Tschak",
+    "Metropolis",
+    "Spacelab",
+    "Airwaves",
+    "Antenna",
+    "Ohm Sweet Ohm",
+    "Franz Schubert",
+    "Europe Endless",
+    "Sex Object",
+    "The Telephone Call",
+    "It's More Fun to Compute",
+    "Endless Endless",
+    "Mitternacht",
+    "Morgenspaziergang",
+    "Ananas Symphonie",
+    "Tanzmusik",
+    "The Voice of Energy",
+    "Uranium",
+    "News",
+    "Intermission",
+    "Geiger Counter",
+    "Tour de France Etape 1",
+    "Vitamin",
+    "Aero Dynamik",
+    "Planet of Visions",
+    "Expo 2000"
+   ]
+  },
+  {
+   "id": "xu6-groove-armada-songs",
+   "tags": [
+    "dance"
+   ],
+   "text": "Name a Groove Armada single",
+   "answers": [
+    "At the River",
+    "Superstylin'",
+    "I See You Baby",
+    "Easy",
+    "Purple Haze",
+    [
+     "Song 4 Mutya (Out of Control)",
+     "Song 4 Mutya"
+    ],
+    "Get Down",
+    "If Everybody Looked the Same",
+    "My Friend",
+    "Paper Romance",
+    "I Won't Kneel",
+    "Captain Sensual",
+    "M2 Many",
+    "Innocence Is Lost",
+    "Final Shakedown",
+    "But I Feel Good",
+    "Love Sweet Sound",
+    "Feel the Same",
+    "Look Me in the Eye Sister/Just for Tonight",
+    "History",
+    "Pull Up",
+    "Alright",
+    "Get Out on the Dancefloor",
+    "Lover 4 Now"
+   ]
+  },
+  {
+   "id": "xu6-jax-jones-singles",
+   "tags": [
+    "dance"
+   ],
+   "text": "Name a Jax Jones single (lead or featured)",
+   "answers": [
+    "You Don't Know Me",
+    "Instruction",
+    "Breathe",
+    "Ring Ring",
+    "This Is Real",
+    "Play",
+    "Harder",
+    "One Touch",
+    "I Got U",
+    "Where Did You Go?",
+    "Tequila",
+    "House Work",
+    "Never Be Lonely",
+    "Go Deep",
+    "Yeah Yeah Yeah",
+    "All Day and Night",
+    "Jacques",
+    "I Miss U",
+    "Feels",
+    "Crystallise",
+    "Out Out",
+    "Phases",
+    "Good Luck",
+    "Lonely Heart",
+    "Whistle",
+    "Me and My Guitar",
+    "Need You Now",
+    "Won't Forget You",
+    "Forever",
+    "Tonight (D.I.Y.A)",
+    "Love the Way You Lie",
+    "Bad Boys",
+    "Back In My Bed",
+    "Stereo",
+    "Sidewinder",
+    "Pulling Me Back",
+    "Last Day of Summer"
+   ]
+  },
+  {
+   "id": "xu6-sigala-singles",
+   "tags": [
+    "dance"
+   ],
+   "text": "Name a Sigala single (lead or featured)",
+   "answers": [
+    "Easy Love",
+    "Sweet Lovin'",
+    "Say You Do",
+    "Give Me Your Love",
+    "Came Here for Love",
+    "Just Got Paid",
+    "Wish You Well",
+    "Melody",
+    "Lullaby",
+    "We Don't Care",
+    "Heaven on My Mind",
+    "Feels This Good",
+    "Radio",
+    "Stay the Night",
+    "You for Me",
+    "Ain't Giving Up",
+    "Only One",
+    "Show You Love",
+    "Feels Like Home",
+    "We Got Love",
+    "Lasting Lover",
+    "Runaway",
+    "Living Without You",
+    "All by Myself",
+    "Rely on Me",
+    "You Make Me Feel (Mighty Real)",
+    "Feel It Deep Inside",
+    "It's a Feeling",
+    "Like Sunshine",
+    "With You",
+    "Riptide",
+    "Hello",
+    "AM to PM",
+    "We Used to Dance Here",
+    "Don't Need No Money"
+   ]
+  },
+  {
+   "id": "xu6-swedish-house-mafia-songs",
+   "tags": [
+    "dance"
+   ],
+   "text": "Name a Swedish House Mafia single",
+   "answers": [
+    "Don't You Worry Child",
+    "One",
+    "Save the World",
+    "Miami 2 Ibiza",
+    "Antidote",
+    "Greyhound",
+    "Leave the World Behind",
+    "Moth to a Flame",
+    "It Gets Better",
+    "Heaven Takes You Home",
+    "Redlight",
+    "Lioness",
+    "Underneath It All",
+    "Calling On",
+    "Time"
+   ]
+  },
+  {
+   "id": "xu6-biggie-singles",
+   "tags": [
+    "hiphop"
+   ],
+   "text": "Name a single by The Notorious B.I.G. (lead or featured)",
+   "answers": [
+    "Juicy",
+    "Big Poppa",
+    "Hypnotize",
+    "Mo Money Mo Problems",
+    "One More Chance",
+    "Warning",
+    "Sky's the Limit",
+    "Notorious Thugs",
+    "Going Back to Cali",
+    "Kick in the Door",
+    "Ten Crack Commandments",
+    "Suicidal Thoughts",
+    "Nasty Boy",
+    "Dead Wrong",
+    "Victory",
+    "Who Shot Ya?",
+    "Party and Bullshit",
+    "Get Money",
+    "Brooklyn's Finest",
+    "Hold Ya Head",
+    "Nasty Girl",
+    "Spit Your Game",
+    "Notorious B.I.G."
+   ]
+  },
+  {
+   "id": "xu6-nicki-minaj-songs",
+   "tags": [
+    "hiphop"
+   ],
+   "text": "Name a Nicki Minaj single (lead or featured)",
+   "answers": [
+    "Super Bass",
+    "Starships",
+    "Anaconda",
+    "Pound the Alarm",
+    "Moment 4 Life",
+    "Roman's Revenge",
+    "Your Love",
+    "Right Thru Me",
+    "Va Va Voom",
+    "Pills n Potions",
+    "Truffle Butter",
+    "Only",
+    "Bang Bang",
+    "Chun-Li",
+    "Barbie Dreams",
+    "Barbie Tingz",
+    "Megatron",
+    "Good Form",
+    "Super Freaky Girl",
+    "Red Ruby da Sleeze",
+    "FTCU",
+    "Trollz",
+    "Tusa",
+    "Beez in the Trap",
+    "Did It On'em",
+    "Fly",
+    "Check It Out",
+    "Massive Attack",
+    "Monster",
+    "Boss Ass Bitch",
+    "Itty Bitty Piggy",
+    "Girls Fall Like Dominoes",
+    "Regret in Your Tears",
+    "Swish Swish",
+    "Side to Side",
+    "Feeling Myself",
+    "Lookin Ass",
+    "Hard White",
+    "The Night Is Still Young",
+    "Pink Friday Girls",
+    "Bed",
+    "Do We Have a Problem?",
+    "Get Low",
+    "Anybody",
+    "Seeing Green",
+    "Black Barbies",
+    "Bitch I'm Madonna",
+    "Marilyn Monroe",
+    "Chun Swae",
+    "Bussin"
+   ]
+  },
+  {
+   "id": "xu6-dre-songs",
+   "tags": [
+    "hiphop"
+   ],
+   "text": "Name a song by Dr. Dre (lead or featured)",
+   "answers": [
+    "Still D.R.E.",
+    [
+     "Nuthin' but a 'G' Thang",
+     "Nothin but a G Thang"
+    ],
+    "The Next Episode",
+    "Forgot About Dre",
+    "Let Me Ride",
+    "California Love",
+    "Keep Their Heads Ringin'",
+    "Been There, Done That",
+    [
+     "Fuck wit Dre Day (And Everybody's Celebratin')",
+     "Dre Day",
+     "Fuck wit Dre Day"
+    ],
+    "Deep Cover",
+    "What's the Difference",
+    "Bad Intentions",
+    "Kush",
+    "I Need a Doctor",
+    "Crack a Bottle",
+    "Xxplosive",
+    "The Watcher",
+    "Bang Bang",
+    "Lil Ghetto Boy",
+    "Zoom",
+    "Natural Born Killaz",
+    "Hello",
+    "Talk About It"
+   ]
+  },
+  {
+   "id": "xu6-cardi-b-singles",
+   "tags": [
+    "hiphop"
+   ],
+   "text": "Name a Cardi B single (lead or featured)",
+   "answers": [
+    "Bodak Yellow",
+    "I Like It",
+    "Be Careful",
+    "Money",
+    "Bartier Cardi",
+    "Please Me",
+    "WAP",
+    "Up",
+    "Hot Shit",
+    "Taki Taki",
+    "Press",
+    [
+     "Enough (Miami)",
+     "Enough"
+    ],
+    "Bongos",
+    "Tomorrow 2",
+    "Outside",
+    [
+     "Like What (Freestyle)",
+     "Like What"
+    ],
+    "Drip",
+    "No Limit",
+    "Thru Your Phone",
+    "Ring",
+    [
+     "Finesse (Remix)",
+     "Finesse"
+    ],
+    "Dinero",
+    "Backin' It Up",
+    "Clout",
+    "Motorsport",
+    "Writing on the Wall",
+    "Girls Like You",
+    "Wish Wish",
+    "Point Me 2",
+    "Bickenhead",
+    "Rumors",
+    "Money Bag",
+    "Imaginary Playerz",
+    "Safe",
+    "Magnet",
+    "Shake It"
+   ]
+  },
+  {
+   "id": "xu6-missy-elliott-singles",
+   "tags": [
+    "hiphop"
+   ],
+   "text": "Name a single by Missy Elliott (lead or featured)",
+   "answers": [
+    "Get Ur Freak On",
+    "Work It",
+    "Lose Control",
+    [
+     "The Rain (Supa Dupa Fly)",
+     "The Rain"
+    ],
+    "Hot Boyz",
+    "One Minute Man",
+    "Gossip Folks",
+    "She's a Bitch",
+    "Sock It 2 Me",
+    "All n My Grill",
+    "Beep Me 911",
+    "I'm Really Hot",
+    "Pass That Dutch",
+    "Teary Eyed",
+    "We Run This",
+    "Ching-a-Ling",
+    "I'm Better",
+    [
+     "WTF (Where They From)",
+     "WTF"
+    ],
+    "Throw It Back",
+    "Why I Still Love You",
+    "Take Away",
+    "Dripdemeanor",
+    "Cool Off",
+    "Mr DJ",
+    "Hit Em wit da Hee",
+    "Funky Fresh Dressed",
+    "Wake Up",
+    "Burnin' Up",
+    "4 My People",
+    "Back in the Day",
+    "Shake Your Pom Pom"
+   ]
+  },
+  {
+   "id": "xu6-beastie-boys-songs",
+   "tags": [
+    "hiphop"
+   ],
+   "text": "Name a song by the Beastie Boys",
+   "answers": [
+    [
+     "(You Gotta) Fight for Your Right (To Party!)",
+     "Fight for Your Right",
+     "Fight for Your Right to Party"
+    ],
+    "Sabotage",
+    "Intergalactic",
+    [
+     "No Sleep till Brooklyn",
+     "No Sleep 'til Brooklyn"
+    ],
+    "Brass Monkey",
+    "Hey Ladies",
+    "Body Movin'",
+    "Sure Shot",
+    "So What'cha Want",
+    [
+     "Ch-Check It Out",
+     "Check It Out"
+    ],
+    "Girls",
+    "Root Down",
+    "Pass the Mic",
+    "Shake Your Rump",
+    "Hold It Now, Hit It",
+    "She's Crafty",
+    "Paul Revere",
+    "Shadrach",
+    "Looking Down the Barrel of a Gun",
+    "An Open Letter to NYC",
+    "Make Some Noise",
+    "Triple Trouble",
+    "Gratitude",
+    "Get It Together",
+    "Three MC's and One DJ",
+    "Slow and Low",
+    "Rhymin & Stealin",
+    "The New Style",
+    "Remote Control",
+    "Jimmy James"
+   ]
+  },
+  {
+   "id": "xu6-travis-scott-songs",
+   "tags": [
+    "hiphop"
+   ],
+   "text": "Name a song by Travis Scott (lead or featured)",
+   "answers": [
+    "Sicko Mode",
+    "Goosebumps",
+    "Antidote",
+    "Highest in the Room",
+    "Butterfly Effect",
+    "Franchise",
+    "Stargazing",
+    "Pick Up the Phone",
+    "Fein",
+    "Mamacita",
+    "3500",
+    "Skyfall",
+    "Oh My Dis Side",
+    "Sirens",
+    "Meltdown",
+    "Hyaena",
+    "I Know?",
+    "Telekinesis",
+    "My Eyes",
+    "Escape Plan",
+    "Wake Up",
+    "Coordinate",
+    "Maria I'm Drunk",
+    "Piss on Your Grave",
+    "Way Back",
+    "Beibs in the Trap",
+    "Through the Late Night",
+    "Upper Echelon",
+    "Mafia",
+    "Out West",
+    "Modern Jam",
+    "Dumbo",
+    "Can't Say",
+    "Lose",
+    "Nightcrawler",
+    "Mile High",
+    "Topia Twins",
+    [
+     "Delresto (Echoes)",
+     "Delresto"
+    ],
+    "The Scotts",
+    "K-POP",
+    "Carousel",
+    "Parasail",
+    "Thank God",
+    "Hold That Heat",
+    "Quintana Pt. 2",
+    "Quintana",
+    "Impossible"
+   ]
+  },
+  {
+   "id": "xu6-hiphop-producers",
+   "tags": [
+    "hiphop"
+   ],
+   "text": "Name a hip-hop producer",
+   "answers": [
+    [
+     "Dr. Dre",
+     "Dre"
+    ],
+    "Timbaland",
+    [
+     "Pharrell Williams",
+     "Pharrell",
+     "The Neptunes"
+    ],
+    [
+     "Kanye West",
+     "Kanye"
+    ],
+    "Metro Boomin",
+    [
+     "J Dilla",
+     "Jay Dee"
+    ],
+    "Pete Rock",
+    [
+     "DJ Premier",
+     "Premier"
+    ],
+    "RZA",
+    "Swizz Beatz",
+    "Just Blaze",
+    "Mike Will Made It",
+    "Zaytoven",
+    "Rick Rubin",
+    "Madlib",
+    "9th Wonder",
+    "No I.D.",
+    "Hit-Boy",
+    "Mustard",
+    "Danger Mouse",
+    "Scott Storch",
+    "Jermaine Dupri",
+    [
+     "Puff Daddy",
+     "Diddy",
+     "Sean Combs"
+    ],
+    "Marley Marl",
+    "Large Professor",
+    "The Alchemist",
+    "Havoc",
+    "Mannie Fresh",
+    "DJ Paul",
+    "Lex Luger",
+    "Boi-1da",
+    [
+     "Noah \"40\" Shebib",
+     "40",
+     "Noah Shebib"
+    ],
+    "Southside",
+    "Murda Beatz",
+    "Easy Mo Bee",
+    "Erick Sermon",
+    "DJ Khaled",
+    "Tay Keith",
+    "Drumma Boy",
+    "Organized Noize",
+    "Eric B.",
+    "Prince Paul",
+    [
+     "DJ Jazzy Jeff",
+     "Jazzy Jeff"
+    ],
+    "Q-Tip",
+    "Sounwave",
+    "Mike Dean",
+    "London on da Track",
+    "Dj Toomp",
+    "Lil Jon",
+    "Polow da Don",
+    "Bangladesh"
+   ]
+  },
+  {
+   "id": "xu6-hiphop-labels",
+   "tags": [
+    "hiphop"
+   ],
+   "text": "Name a hip-hop record label",
+   "answers": [
+    "Def Jam",
+    [
+     "Bad Boy",
+     "Bad Boy Records"
+    ],
+    [
+     "Roc-A-Fella",
+     "Roc-A-Fella Records"
+    ],
+    [
+     "Death Row",
+     "Death Row Records"
+    ],
+    [
+     "Aftermath",
+     "Aftermath Entertainment"
+    ],
+    [
+     "Ruthless Records",
+     "Ruthless"
+    ],
+    [
+     "Cash Money",
+     "Cash Money Records"
+    ],
+    [
+     "Young Money",
+     "Young Money Entertainment"
+    ],
+    [
+     "No Limit",
+     "No Limit Records"
+    ],
+    [
+     "Rap-A-Lot",
+     "Rap-A-Lot Records"
+    ],
+    [
+     "Top Dawg Entertainment",
+     "TDE",
+     "Top Dawg"
+    ],
+    "G.O.O.D. Music",
+    [
+     "OVO Sound",
+     "OVO"
+    ],
+    [
+     "Shady Records",
+     "Shady"
+    ],
+    "Roc Nation",
+    [
+     "Sugar Hill Records",
+     "Sugar Hill"
+    ],
+    [
+     "Tommy Boy",
+     "Tommy Boy Records"
+    ],
+    [
+     "Stones Throw",
+     "Stones Throw Records"
+    ],
+    [
+     "Rawkus Records",
+     "Rawkus"
+    ],
+    [
+     "Rhymesayers",
+     "Rhymesayers Entertainment"
+    ],
+    [
+     "Quality Control",
+     "Quality Control Music"
+    ],
+    [
+     "300 Entertainment",
+     "300"
+    ],
+    [
+     "Dreamville",
+     "Dreamville Records"
+    ],
+    [
+     "Maybach Music Group",
+     "Maybach Music"
+    ],
+    "Grand Hustle",
+    [
+     "Profile Records",
+     "Profile"
+    ],
+    [
+     "Loud Records",
+     "Loud"
+    ],
+    [
+     "So So Def",
+     "So So Def Recordings"
+    ],
+    [
+     "Murder Inc",
+     "Murder Inc. Records"
+    ],
+    [
+     "Jive Records",
+     "Jive"
+    ],
+    [
+     "Priority Records",
+     "Priority"
+    ],
+    [
+     "Cactus Jack",
+     "Cactus Jack Records"
+    ],
+    "Cold Chillin'",
+    "Boy Better Know",
+    [
+     "Duck Down",
+     "Duck Down Records"
+    ]
+   ]
+  },
+  {
+   "id": "xu6-snow-patrol-singles",
+   "tags": [
+    "indie"
+   ],
+   "text": "Name a Snow Patrol single",
+   "answers": [
+    "Chasing Cars",
+    "Run",
+    "Open Your Eyes",
+    "Chocolate",
+    "Spitting Games",
+    "Signal Fire",
+    "Shut Your Eyes",
+    "You're All I Have",
+    "Just Say Yes",
+    "Called Out in the Dark",
+    "Take Back the City",
+    "How to Be Dead",
+    "Set the Fire to the Third Bar",
+    "Crack the Shutters",
+    "Hands Open",
+    "This Isn't Everything You Are",
+    "Don't Give In",
+    "Life on Earth",
+    "Empress",
+    "The Lightning Strike",
+    "An Olive Grove Facing the Sea",
+    "Heal Me",
+    "Soon",
+    "I'll Never Let Go",
+    "Crazy in Love",
+    "New York",
+    "Little Hide",
+    "One Hundred Things You Should Have Done in Bed",
+    "Starfighter Pilot",
+    "Ask Me How I Am",
+    "One Night Is Not Enough",
+    "If There's a Rocket Tie Me to It",
+    "The Planets Bend Between Us",
+    "In the End",
+    "Lifening",
+    "What If This Is All the Love You Ever Get?",
+    "Time Won't Go Slowly",
+    "Reaching Out to You",
+    "The Beginning",
+    "This Is the Sound of Your Voice",
+    "All",
+    "But I'll Keep Trying",
+    "This Is the Silence",
+    "These Alarms"
+   ]
+  },
+  {
+   "id": "xu6-strokes-songs",
+   "tags": [
+    "indie"
+   ],
+   "text": "Name a song by The Strokes",
+   "answers": [
+    "Last Nite",
+    "Someday",
+    "Reptilia",
+    "12:51",
+    "Hard to Explain",
+    "Juicebox",
+    "You Only Live Once",
+    "Under Cover of Darkness",
+    "Machu Picchu",
+    "Taken for a Fool",
+    "The Adults Are Talking",
+    "Bad Decisions",
+    "Ode to the Mets",
+    "Heart in a Cage",
+    "Barely Legal",
+    "Soma",
+    "Take It or Leave It",
+    "New York City Cops",
+    "Is This It",
+    "Trying Your Luck",
+    "Alone, Together",
+    "The Modern Age",
+    "Between Love and Hate",
+    "Automatic Stop",
+    "What Ever Happened?",
+    "Red Light",
+    "Meet Me in the Bathroom",
+    "Under Control",
+    "The End Has No End",
+    "I Can't Win",
+    "Vision of Division",
+    "Ize of the World",
+    "Killing Lies",
+    "On the Other Side",
+    "Razorblade",
+    "Selfless",
+    "Eternal Summer",
+    "Brooklyn Bridge to Chorus",
+    "Oblivius",
+    "Welcome to Japan",
+    "Gratisfaction",
+    "Call Me Back",
+    "Games",
+    "Threat of Joy",
+    "Slow Animals",
+    "One Way Trigger",
+    "Drag Queen",
+    "Not the Same Anymore",
+    "Why Are Sundays So Depressing",
+    "Fear of Sleep",
+    "Ask Me Anything",
+    "At the Door",
+    "Going Shopping",
+    "Life Is Simple in the Moonlight"
+   ]
+  },
+  {
+   "id": "xu6-franz-ferdinand-singles",
+   "tags": [
+    "indie"
+   ],
+   "text": "Name a Franz Ferdinand single",
+   "answers": [
+    "Take Me Out",
+    "The Dark of the Matinée",
+    "Michael",
+    "Do You Want To",
+    "This Fire",
+    "Walk Away",
+    "Eleanor Put Your Boots On",
+    "Ulysses",
+    "No You Girls",
+    "Right Action",
+    "Love Illumination",
+    "Always Ascending",
+    "Feel the Love Go",
+    "Evil Eye",
+    "Audacious",
+    "Curious",
+    "Hooked",
+    "Night or Day",
+    "Lazy Boy",
+    "Billy Goodbye",
+    "Jacqueline",
+    "Darts of Pleasure",
+    "Tell Her Tonight",
+    "What She Came For",
+    "Can't Stop Feeling",
+    "Stand on the Horizon",
+    "Lucid Dreams",
+    "Fresh Strawberries",
+    "Glimpse of Love",
+    "The Fallen",
+    "Bullet",
+    "Love and Destroy",
+    "This Fffire",
+    "Live Alone",
+    "Get Up and Use Me",
+    "I'm Your Villain",
+    "Outsiders",
+    "This Boy",
+    "Fade Together",
+    "Swallow, Smile",
+    "Die on the Floor",
+    "Liefde En Puin",
+    "The Eyes of Mars"
+   ]
+  },
+  {
+   "id": "xu6-biffy-clyro-singles",
+   "tags": [
+    "indie"
+   ],
+   "text": "Name a Biffy Clyro single",
+   "answers": [
+    [
+     "Many of Horror",
+     "Many of Horror (When We Collide)"
+    ],
+    "Mountains",
+    "Bubbles",
+    "Black Chandelier",
+    "Re-arrange",
+    "The Captain",
+    "Living Is a Problem Because Everything Dies",
+    "Saturday Superhouse",
+    "Folding Stars",
+    "Who's Got a Match?",
+    "Glitter and Trauma",
+    "That Golden Rule",
+    "Machines",
+    "Biblical",
+    "Different People",
+    "Wolves of Winter",
+    "Howl",
+    "Animal Style",
+    "Space",
+    "Instant History",
+    "Victory Over the Sun",
+    "Tiny Indoor Fireworks",
+    "A Hunger in Your Haunt",
+    "Opposite",
+    "Flammable",
+    "Stingin' Belle",
+    "Justboy",
+    "Questions and Answers",
+    "God & Satan",
+    "Sounds Like Balloons",
+    "Cop Syrup",
+    "Eradicate the Doubt",
+    "Iname",
+    "27",
+    "57",
+    "The Ideal Height",
+    "There's No Such Thing as a Jaggy Snake",
+    "My Recovery Injection",
+    "Only One Word Comes to Mind",
+    "Semi-Mental",
+    "Friends and Enemies",
+    "Modern Love",
+    "Balance, Not Symmetry",
+    "The Modern Leper",
+    "End Of",
+    "Errors in the History of God",
+    "A Little Love",
+    "Hunting Season",
+    "True Believer"
+   ]
+  },
+  {
+   "id": "xu6-travis-singles",
+   "tags": [
+    "indie"
+   ],
+   "text": "Name a Travis single",
+   "answers": [
+    "Why Does It Always Rain on Me?",
+    "Sing",
+    "Side",
+    "Flowers in the Window",
+    "Re-Offender",
+    "All I Want to Do Is Rock",
+    "Coming Around",
+    "Closer",
+    "Selfish Jean",
+    "J. Smith",
+    "Something Anything",
+    "My Eyes",
+    "Where You Stand",
+    "Everything at Once",
+    "Bus",
+    "A Ghost",
+    "Another Guy",
+    "Walking in the Sun"
+   ]
+  },
+  {
+   "id": "xu6-elbow-singles",
+   "tags": [
+    "indie"
+   ],
+   "text": "Name an Elbow single",
+   "answers": [
+    "One Day Like This",
+    "Grounds for Divorce",
+    "Open Arms",
+    "Newborn",
+    "Mirrorball",
+    "Magnificent (She Says)",
+    "Fallen Angel",
+    "Golden Slumbers",
+    "Scattered Black and Whites",
+    "The Night Will Always Win",
+    "Lover's Leap",
+    "Red",
+    "Powder Blue",
+    "Ribcage",
+    "Fugitive Motel",
+    "Not a Job",
+    "Grace Under Pressure",
+    "Forget Myself",
+    "Leaders of the Free World",
+    "The Bones of You",
+    "Running to Stand Still",
+    "Neat Little Rows",
+    "Lippy Kids",
+    "Dear Friends",
+    "McGreggor",
+    "First Steps",
+    "New York Morning",
+    "Fly Boy Blue/Lunette",
+    "Charge",
+    "My Sad Captains",
+    "Real Life (Angel)",
+    "What Time Do You Call This?",
+    "Lost Worker Bee",
+    "All Disco",
+    "Gentle Storm",
+    "August & September",
+    "Kindling (Fickle Flame)",
+    "Dexter & Sinister",
+    "Empires",
+    "White Noise White Heat",
+    "My Trouble",
+    "The Seldom Seen Kid",
+    "Six Words",
+    "Flying Dream 1",
+    "What Am I Without You",
+    "Balu",
+    "Good Blood Mexico City",
+    "Things I've Been Telling Myself for Years",
+    "Sober",
+    "Dis-Graceland 463-465 Bury New Road"
+   ]
+  },
+  {
+   "id": "xu6-libertines-songs",
+   "tags": [
+    "indie"
+   ],
+   "text": "Name a song by The Libertines",
+   "answers": [
+    "Can't Stand Me Now",
+    "Don't Look Back into the Sun",
+    "What a Waster",
+    "Up the Bracket",
+    "Time for Heroes",
+    "What Became of the Likely Lads",
+    "Music When the Lights Go Out",
+    "Boys in the Band",
+    "I Get Along",
+    "Death on the Stairs",
+    "Vertigo",
+    "Tell the King",
+    "The Good Old Days",
+    "Horror Show",
+    "Radio America",
+    "Begging",
+    "The Boy Looked at Johnny",
+    "Narcissist",
+    "Road to Ruin",
+    "The Ha Ha Wall",
+    "Gunga Din",
+    "Heart of the Matter",
+    "Run Run Run",
+    "Barbarians",
+    "Anthem for Doomed Youth",
+    "Night of the Hunter",
+    "You're My Waterloo",
+    "Belly of the Beast",
+    "Glasgow Coma Scale Blues",
+    "Merry Old England",
+    "Fame and Fortune",
+    "Mayday",
+    "France",
+    "Arbeit Macht Frei",
+    "Last Post on the Bugle",
+    "Campaign of Hate",
+    "Bucket Shop",
+    "Iceman",
+    "Cyclops"
+   ]
+  },
+  {
+   "id": "xu6-kooks-singles",
+   "tags": [
+    "indie"
+   ],
+   "text": "Name a Kooks single",
+   "answers": [
+    "Naive",
+    "She Moves in Her Own Way",
+    "Ooh La",
+    "Eddie's Gun",
+    "You Don't Love Me",
+    "Sofa Song",
+    "Always Where I Need to Be",
+    "Shine On",
+    [
+     "Junk of the Heart (Happy)",
+     "Junk of the Heart"
+    ],
+    "Sway",
+    "Is It Me",
+    "Bad Habit",
+    "Down",
+    "Around Town",
+    "Seaside",
+    "Beautiful World",
+    "Forgive & Forget",
+    "Be Who You Are",
+    "Chicken Bone",
+    "No Pressure",
+    "Four Leaf Clover",
+    "Rosie",
+    "Do You Wanna",
+    "Sunny Baby",
+    "Connection",
+    "Kids",
+    "How'd You Like That",
+    "See Me Now",
+    "Creatures of Habit",
+    "Broken Vow",
+    "All the Time",
+    "Fractured and Dazed",
+    "Got Your Number",
+    "Hey Love",
+    "Cold Heart",
+    "Never Know",
+    "If They Could Only Know"
+   ]
+  },
+  {
+   "id": "xu6-vaccines-songs",
+   "tags": [
+    "indie"
+   ],
+   "text": "Name a song by The Vaccines",
+   "answers": [
+    "If You Wanna",
+    "Post Break-Up Sex",
+    "Wetsuit",
+    "Norgaard",
+    "Teenage Icon",
+    "I Always Knew",
+    "Dream Lover",
+    "Handsome",
+    "Nightclub",
+    "All in White",
+    [
+     "Wreckin' Bar (Ra Ra Ra)",
+     "Wreckin' Bar"
+    ],
+    "Wolf Pack",
+    "Melody Calling",
+    "Blow It Up",
+    "Lonely World",
+    "I Can't Quit",
+    "El Paso",
+    "Your Love Is My Favourite Band",
+    "Headphones Baby",
+    "Bad Mood",
+    "Minimal Affection",
+    "Weirdo",
+    "Heartbreak Kid",
+    "Family Friend",
+    "Ghost Town",
+    "Give Me a Sign",
+    "Radio Bikini",
+    "Love to Walk Away"
+   ]
+  },
+  {
+   "id": "xu6-judas-priest-songs",
+   "tags": [
+    "metal"
+   ],
+   "text": "Name a song by Judas Priest",
+   "answers": [
+    "Breaking the Law",
+    "Living After Midnight",
+    [
+     "You've Got Another Thing Comin'",
+     "You've Got Another Thing Coming"
+    ],
+    "Painkiller",
+    "Electric Eye",
+    "Hell Bent for Leather",
+    "Turbo Lover",
+    "Victim of Changes",
+    [
+     "The Green Manalishi (With the Two-Pronged Crown)",
+     "The Green Manalishi"
+    ],
+    "Metal Gods",
+    "Heading Out to the Highway",
+    "Exciter",
+    "Beyond the Realms of Death",
+    "Diamonds and Rust",
+    "Freewheel Burning",
+    "Locked In",
+    "Love Bites",
+    "Grinder",
+    "Tyrant",
+    "Dissident Aggressor",
+    "Night Crawler",
+    "Some Heads Are Gonna Roll",
+    "United",
+    "Take On the World",
+    "Better by You, Better than Me",
+    "Evening Star",
+    "Delivering the Goods",
+    "Jawbreaker",
+    "Lightning Strike",
+    "Panic Attack",
+    "Parental Guidance",
+    "Johnny B. Goode",
+    "Reckless",
+    "Hot Rockin'",
+    "Don't Go",
+    "Genocide",
+    "Starbreaker",
+    "Invader",
+    "Before the Dawn",
+    "War"
+   ]
+  },
+  {
+   "id": "xu6-rammstein-songs",
+   "tags": [
+    "metal"
+   ],
+   "text": "Name a song by Rammstein",
+   "answers": [
+    "Du Hast",
+    "Sonne",
+    "Engel",
+    "Ich Will",
+    "Mein Herz brennt",
+    "Feuer frei!",
+    "Amerika",
+    "Links 2-3-4",
+    "Mutter",
+    "Ohne dich",
+    "Benzin",
+    "Du riechst so gut",
+    "Keine Lust",
+    "Pussy",
+    "Haifisch",
+    "Deutschland",
+    "Radio",
+    "Ausländer",
+    "Zeit",
+    "Mein Teil",
+    "Stripped",
+    "Sehnsucht",
+    "Seemann",
+    "Rosenrot",
+    "Te quiero puta!",
+    "Mein Land",
+    "Was ich liebe",
+    "Zick Zack",
+    "Angst",
+    "Puppe",
+    "Tattoo",
+    "Dicke Titten",
+    "Weit weg",
+    "Adieu",
+    "Diamant",
+    "Armee der Tristen",
+    "Sex",
+    "Asche zu Asche",
+    "Ich tu dir weh",
+    "Waidmanns Heil",
+    "Das Modell",
+    "Giftig"
+   ]
+  },
+  {
+   "id": "xu6-kiss-songs",
+   "tags": [
+    "metal"
+   ],
+   "text": "Name a song by Kiss",
+   "answers": [
+    [
+     "Rock and Roll All Nite",
+     "Rock and Roll All Night"
+    ],
+    "Detroit Rock City",
+    "I Was Made for Lovin' You",
+    "Beth",
+    "Shout It Out Loud",
+    "Love Gun",
+    [
+     "Calling Dr. Love",
+     "Calling Doctor Love"
+    ],
+    "Deuce",
+    "Strutter",
+    "Heaven's on Fire",
+    "Lick It Up",
+    [
+     "God Gave Rock 'n' Roll to You II",
+     "God Gave Rock and Roll to You"
+    ],
+    "Christine Sixteen",
+    "Hard Luck Woman",
+    "Crazy Crazy Nights",
+    "Forever",
+    "Psycho Circus",
+    "Tears Are Falling",
+    "Reason to Live",
+    "Nothin' to Lose",
+    [
+     "Let Me Go, Rock 'n' Roll",
+     "Let Me Go Rock and Roll"
+    ],
+    "Unholy",
+    "I Love It Loud",
+    "Domino",
+    "Uh! All Night",
+    "Sure Know Something",
+    "I Want You",
+    "Flaming Youth",
+    "Shandi",
+    "Rise to It",
+    "Hide Your Heart",
+    "Turn On the Night",
+    "Modern Day Delilah",
+    "Say Yeah",
+    "Let's Put the X in Sex",
+    "Dirty Livin'",
+    "I",
+    "Radioactive"
+   ]
+  },
+  {
+   "id": "xu6-deep-purple-songs",
+   "tags": [
+    "metal"
+   ],
+   "text": "Name a song by Deep Purple",
+   "answers": [
+    "Smoke on the Water",
+    "Highway Star",
+    "Child in Time",
+    "Black Night",
+    "Burn",
+    "Hush",
+    "Perfect Strangers",
+    "Strange Kind of Woman",
+    "Lazy",
+    "Fireball",
+    "Speed King",
+    "Woman from Tokyo",
+    "Stormbringer",
+    "Knocking at Your Back Door",
+    "Never Before",
+    "Might Just Take Your Life",
+    "Anyone's Daughter",
+    "Gettin' Tighter",
+    "You Keep On Moving",
+    "Lady Double Dealer",
+    "The Battle Rages On",
+    "Anya",
+    "Bad Attitude",
+    "Hallelujah",
+    "Out of Hand",
+    "Kentucky Woman",
+    "Fire in the Basement",
+    "Throw My Bones",
+    "Nothing at All"
+   ]
+  },
+  {
+   "id": "xu6-whitesnake-songs",
+   "tags": [
+    "metal"
+   ],
+   "text": "Name a song by Whitesnake",
+   "answers": [
+    "Here I Go Again",
+    "Is This Love",
+    "Still of the Night",
+    "Fool for Your Loving",
+    "Love Ain't No Stranger",
+    "Ain't No Love in the Heart of the City",
+    "Give Me All Your Love",
+    [
+     "Slow an' Easy",
+     "Slow and Easy"
+    ],
+    "Now You're Gone",
+    "Guilty of Love",
+    "Don't Break My Heart Again",
+    [
+     "Ready an' Willing",
+     "Ready and Willing"
+    ],
+    "Judgement Day",
+    "Standing in the Shadow",
+    "Burn",
+    "Would I Lie to You?",
+    "You're Gonna Break My Heart Again",
+    "Love Will Set You Free",
+    "Steal Your Heart Away",
+    "The Deeper the Love",
+    "Sweet Talker",
+    "Shut Up & Kiss Me",
+    "All or Nothing",
+    "Whipping Boy Blues"
+   ]
+  },
+  {
+   "id": "xu6-van-halen-songs",
+   "tags": [
+    "metal"
+   ],
+   "text": "Name a song by Van Halen",
+   "answers": [
+    "Jump",
+    "Panama",
+    [
+     "Ain't Talkin' 'bout Love",
+     "Ain't Talkin' About Love"
+    ],
+    [
+     "Runnin' with the Devil",
+     "Running with the Devil"
+    ],
+    "Hot for Teacher",
+    "Why Can't This Be Love",
+    "Dreams",
+    "When It's Love",
+    "Right Now",
+    "Dance the Night Away",
+    "Unchained",
+    "Beautiful Girls",
+    "And the Cradle Will Rock...",
+    "Poundcake",
+    "Top of the World",
+    "Can't Stop Lovin' You",
+    "Black and Blue",
+    "I'll Wait",
+    "Finish What Ya Started",
+    "You Really Got Me",
+    "Love Walks In",
+    [
+     "Jamie's Cryin'",
+     "Jamie's Crying"
+    ],
+    "Mean Street",
+    "Somebody Get Me a Doctor",
+    "Little Guitars",
+    "Hear About It Later",
+    [
+     "(Oh) Pretty Woman",
+     "Pretty Woman"
+    ],
+    "Summer Nights",
+    "Best of Both Worlds",
+    "Humans Being",
+    "Not Enough",
+    "Feels So Good",
+    "So This Is Love?",
+    "On Fire",
+    "Secrets",
+    "Bottoms Up!",
+    "Push Comes to Shove",
+    "Man on a Mission",
+    "Tattoo",
+    "Cabo Wabo",
+    "Runaround",
+    "Don't Tell Me (What Love Can Do)",
+    "Without You",
+    "The Seventh Seal",
+    "Fire in the Hole",
+    "Mine All Mine"
+   ]
+  },
+  {
+   "id": "xu6-alice-cooper-songs",
+   "tags": [
+    "metal"
+   ],
+   "text": "Name a song by Alice Cooper",
+   "answers": [
+    "School's Out",
+    "Poison",
+    "I'm Eighteen",
+    [
+     "No More Mr. Nice Guy",
+     "No More Mister Nice Guy"
+    ],
+    "Elected",
+    "Billion Dollar Babies",
+    "Welcome to My Nightmare",
+    "Only Women Bleed",
+    "Hey Stoopid",
+    "Feed My Frankenstein",
+    "Under My Wheels",
+    "Be My Lover",
+    "Teenage Frankenstein",
+    "Department of Youth",
+    [
+     "Clones (We're All)",
+     "Clones"
+    ],
+    "You and Me",
+    "Lost in America",
+    [
+     "He's Back (The Man Behind the Mask)",
+     "He's Back"
+    ],
+    "Bed of Nails",
+    "Trash",
+    "Hello Hooray",
+    "Muscle of Love",
+    "Is It My Body",
+    "Desperado",
+    "Caught in a Dream",
+    "Halo of Flies",
+    "Generation Landslide",
+    "Cold Ethyl",
+    "I Never Cry",
+    "From the Inside",
+    "Go to Hell",
+    "I Love the Dead",
+    "Brutal Planet",
+    "I'm Your Gun",
+    "Bad Place Alone",
+    "House of Fire",
+    "Freedom",
+    "Love's a Loaded Gun",
+    "It's Hot Tonight",
+    "Tag, You're It",
+    [
+     "Teenage Lament '74",
+     "Teenage Lament"
+    ],
+    [
+     "Public Animal #9",
+     "Public Animal Number 9"
+    ]
+   ]
+  },
+  {
+   "id": "xu6-megadeth-songs",
+   "tags": [
+    "metal"
+   ],
+   "text": "Name a song by Megadeth",
+   "answers": [
+    "Symphony of Destruction",
+    "Peace Sells",
+    [
+     "Holy Wars... The Punishment Due",
+     "Holy Wars"
+    ],
+    "Hangar 18",
+    "Sweating Bullets",
+    "Trust",
+    "A Tout le Monde",
+    "Wake Up Dead",
+    "In My Darkest Hour",
+    "Dread and the Fugitive Mind",
+    "Reckoning Day",
+    "Skin o' My Teeth",
+    "Foreclosure of a Dream",
+    "Angry Again",
+    "Train of Consequences",
+    "99 Ways to Die",
+    "Hook in Mouth",
+    "Dystopia",
+    "Anarchy in the U.K.",
+    "Mary Jane",
+    "Liar",
+    "Crush 'Em",
+    "Almost Honest",
+    "The Threat Is Real",
+    "Sudden Death",
+    "Moto Psycho",
+    "Back in the Day",
+    "Public Enemy No. 1",
+    "Kingmaker",
+    "Soldier On!",
+    "Lying in State",
+    "Never Dead",
+    "Let There Be Shred",
+    "Fatal Illusion"
+   ]
+  },
+  {
+   "id": "xu6-nordic-metal-bands",
+   "tags": [
+    "metal"
+   ],
+   "text": "Name a metal band from the Nordic countries (Sweden, Norway, Finland, Denmark or Iceland)",
+   "answers": [
+    "Opeth",
+    "Amon Amarth",
+    "Sabaton",
+    "In Flames",
+    "Dark Tranquillity",
+    "At the Gates",
+    "Entombed",
+    "Bathory",
+    "HammerFall",
+    "Meshuggah",
+    "Arch Enemy",
+    "Soilwork",
+    "Katatonia",
+    "Ghost",
+    "Mayhem",
+    "Emperor",
+    "Darkthrone",
+    "Burzum",
+    "Immortal",
+    "Dimmu Borgir",
+    "Satyricon",
+    "Enslaved",
+    "Gorgoroth",
+    "Nightwish",
+    "Children of Bodom",
+    "Sonata Arctica",
+    "Stratovarius",
+    "Amorphis",
+    "Lordi",
+    "HIM",
+    "Apocalyptica",
+    "Korpiklaani",
+    "Turisas",
+    "Finntroll",
+    "Swallow the Sun",
+    "Insomnium",
+    "Candlemass",
+    "Europe",
+    "Mercyful Fate",
+    "King Diamond",
+    "Volbeat",
+    "Evergrey",
+    "Avatar",
+    "Kvelertak",
+    "Turbonegro",
+    "Therion",
+    "Dismember",
+    "Hypocrisy",
+    "Unleashed",
+    "Marduk",
+    "Dissection",
+    "Wardruna",
+    "Myrkur",
+    "Bloodbath",
+    "Tribulation",
+    "Pain of Salvation"
+   ]
+  },
+  {
+   "id": "xu6-metal-subgenres",
+   "tags": [
+    "metal"
+   ],
+   "text": "Name a subgenre of heavy metal",
+   "answers": [
+    [
+     "Thrash metal",
+     "Thrash"
+    ],
+    "Death metal",
+    "Black metal",
+    [
+     "Doom metal",
+     "Doom"
+    ],
+    "Power metal",
+    "Speed metal",
+    [
+     "Progressive metal",
+     "Prog metal"
+    ],
+    [
+     "Glam metal",
+     "Hair metal"
+    ],
+    "Nu metal",
+    "Groove metal",
+    [
+     "Sludge metal",
+     "Sludge"
+    ],
+    [
+     "Stoner metal",
+     "Stoner rock",
+     "Stoner"
+    ],
+    "Metalcore",
+    "Deathcore",
+    "Folk metal",
+    "Symphonic metal",
+    "Industrial metal",
+    "Gothic metal",
+    "Grindcore",
+    "Post-metal",
+    "Djent",
+    [
+     "NWOBHM",
+     "New Wave of British Heavy Metal"
+    ],
+    "Alternative metal",
+    "Funk metal",
+    [
+     "Crossover thrash",
+     "Crossover"
+    ],
+    [
+     "Drone metal",
+     "Drone"
+    ],
+    "Viking metal",
+    "Pagan metal",
+    "Melodic death metal",
+    [
+     "Technical death metal",
+     "Tech death"
+    ],
+    "Mathcore",
+    "Avant-garde metal",
+    "Neoclassical metal",
+    "Christian metal",
+    "Rap metal",
+    "Blackened death metal",
+    "Funeral doom",
+    "Symphonic black metal",
+    "Traditional heavy metal",
+    "Brutal death metal"
+   ]
+  },
+  {
+   "id": "xu6-my-fair-lady-songs",
+   "tags": [
+    "musicals"
+   ],
+   "text": "Name a song from 'My Fair Lady'",
+   "answers": [
+    "Wouldn't It Be Loverly",
+    "With a Little Bit of Luck",
+    "I'm an Ordinary Man",
+    "Just You Wait",
+    "The Rain in Spain",
+    "I Could Have Danced All Night",
+    "On the Street Where You Live",
+    "Get Me to the Church on Time",
+    "A Hymn to Him",
+    "Without You",
+    "I've Grown Accustomed to Her Face",
+    "Why Can't the English?",
+    "You Did It",
+    "Show Me",
+    "Embassy Waltz",
+    "Poor Professor Higgins",
+    "Servants' Chorus",
+    "The Flower Market",
+    "Eliza's Entrance"
+   ]
+  },
+  {
+   "id": "xu6-singin-rain-songs",
+   "tags": [
+    "musicals"
+   ],
+   "text": "Name a song from 'Singin' in the Rain' (the 1952 film)",
+   "answers": [
+    [
+     "Singin' in the Rain",
+     "Singing in the Rain"
+    ],
+    "Good Morning",
+    "Make 'Em Laugh",
+    "Moses Supposes",
+    "Would You?",
+    "All I Do Is Dream of You",
+    "You Were Meant for Me",
+    "You Are My Lucky Star",
+    "Beautiful Girl",
+    "Fit as a Fiddle",
+    "Broadway Melody",
+    "Gotta Dance",
+    "Broadway Rhythm",
+    "Should I?",
+    "Temptation",
+    "I've Got a Feelin' You're Foolin'",
+    "The Dancing Cavalier"
+   ]
+  },
+  {
+   "id": "xu6-wizard-of-oz-songs",
+   "tags": [
+    "musicals"
+   ],
+   "text": "Name a song from the 1939 film 'The Wizard of Oz'",
+   "answers": [
+    [
+     "Over the Rainbow",
+     "Somewhere Over the Rainbow"
+    ],
+    "Follow the Yellow Brick Road",
+    [
+     "We're Off to See the Wizard",
+     "Off to See the Wizard"
+    ],
+    [
+     "If I Only Had a Brain",
+     "If I Only Had a Brain/Heart/Nerve"
+    ],
+    "If I Only Had a Heart",
+    "If I Only Had the Nerve",
+    "Ding-Dong! The Witch Is Dead",
+    "The Merry Old Land of Oz",
+    "It Really Was No Miracle",
+    "If I Were King of the Forest",
+    "The Lullaby League",
+    "Optimistic Voices",
+    "March of the Winkies"
+   ]
+  },
+  {
+   "id": "xu6-hairspray-songs",
+   "tags": [
+    "musicals"
+   ],
+   "text": "Name a song from the musical 'Hairspray' (stage show or 2007 film)",
+   "answers": [
+    "Good Morning Baltimore",
+    [
+     "Welcome to the 60's",
+     "Welcome to the Sixties"
+    ],
+    "You Can't Stop the Beat",
+    "Without Love",
+    "I Can Hear the Bells",
+    "Run and Tell That",
+    "Big, Blonde and Beautiful",
+    "Mama, I'm a Big Girl Now",
+    "The Nicest Kids in Town",
+    "Miss Baltimore Crabs",
+    "Ladies' Choice",
+    "The Legend of Corny Collins",
+    "Timeless to Me",
+    "It Takes Two",
+    "I Know Where I've Been",
+    "Cooties",
+    "The New Girl in Town",
+    [
+     "Come So Far (Got So Far to Go)",
+     "Come So Far"
+    ],
+    "Hairspray",
+    "Blah Blah Blah"
+   ]
+  },
+  {
+   "id": "xu6-king-and-i-songs",
+   "tags": [
+    "musicals"
+   ],
+   "text": "Name a song from 'The King and I'",
+   "answers": [
+    "I Whistle a Happy Tune",
+    "Hello, Young Lovers",
+    "Getting to Know You",
+    "Shall We Dance?",
+    "Something Wonderful",
+    "A Puzzlement",
+    "March of the Siamese Children",
+    "We Kiss in a Shadow",
+    "I Have Dreamed",
+    "My Lord and Master",
+    "Western People Funny",
+    "Shall I Tell You What I Think of You?",
+    "The Small House of Uncle Thomas",
+    "Song of the King",
+    "Buddha"
+   ]
+  },
+  {
+   "id": "xu6-guys-and-dolls-songs",
+   "tags": [
+    "musicals"
+   ],
+   "text": "Name a song from 'Guys and Dolls'",
+   "answers": [
+    "Luck Be a Lady",
+    "Guys and Dolls",
+    "Sit Down, You're Rockin' the Boat",
+    "A Bushel and a Peck",
+    "I've Never Been in Love Before",
+    "If I Were a Bell",
+    "Adelaide's Lament",
+    "Fugue for Tinhorns",
+    "The Oldest Established",
+    "Take Back Your Mink",
+    "More I Cannot Wish You",
+    "Marry the Man Today",
+    "My Time of Day",
+    "Sue Me",
+    "I'll Know",
+    "Havana",
+    "The Crapshooters' Ballet",
+    "Runyonland",
+    "Follow the Fold",
+    "Pet Me, Poppa",
+    "A Woman in Love"
+   ]
+  },
+  {
+   "id": "xu6-stage-musicals",
+   "tags": [
+    "musicals"
+   ],
+   "text": "Name a stage musical",
+   "answers": [
+    "Wicked",
+    "Hamilton",
+    [
+     "Les Misérables",
+     "Les Mis"
+    ],
+    "The Phantom of the Opera",
+    "Cats",
+    "Chicago",
+    "Mamma Mia!",
+    "The Lion King",
+    "Grease",
+    "Oliver!",
+    [
+     "Matilda",
+     "Matilda the Musical"
+    ],
+    [
+     "Billy Elliot",
+     "Billy Elliot the Musical"
+    ],
+    "Hairspray",
+    "Rent",
+    "Evita",
+    [
+     "Joseph and the Amazing Technicolor Dreamcoat",
+     "Joseph"
+    ],
+    "Jesus Christ Superstar",
+    "Starlight Express",
+    "Cabaret",
+    "West Side Story",
+    "Oklahoma!",
+    "Carousel",
+    "South Pacific",
+    "Guys and Dolls",
+    "Kinky Boots",
+    "The Book of Mormon",
+    "Six",
+    "Hadestown",
+    "Dear Evan Hansen",
+    "Waitress",
+    "Come From Away",
+    "Jersey Boys",
+    "We Will Rock You",
+    "Blood Brothers",
+    "Miss Saigon",
+    "Aladdin",
+    "Frozen",
+    "Mary Poppins",
+    "Sweeney Todd",
+    "Into the Woods",
+    "A Chorus Line",
+    "Annie",
+    "Dreamgirls",
+    "Funny Girl",
+    "Hello, Dolly!",
+    "Fiddler on the Roof",
+    "The Producers",
+    [
+     "Spamalot",
+     "Monty Python's Spamalot"
+    ],
+    "Avenue Q",
+    "Legally Blonde",
+    "Heathers",
+    "Everybody's Talking About Jamie",
+    "& Juliet",
+    "Back to the Future",
+    "Mean Girls",
+    "Beetlejuice",
+    "Shrek",
+    "The Wiz",
+    "Bugsy Malone",
+    "Half a Sixpence",
+    "Me and My Girl",
+    "Salad Days",
+    "Calamity Jane",
+    "Singin' in the Rain",
+    "42nd Street",
+    "Kiss Me, Kate",
+    "Anything Goes",
+    "Gypsy",
+    "Pippin",
+    "Sunset Boulevard",
+    "Aspects of Love",
+    "Whistle Down the Wind",
+    "School of Rock",
+    "The Bodyguard",
+    "Tina",
+    "Ghost",
+    "Priscilla Queen of the Desert",
+    "Sister Act",
+    "Charlie and the Chocolate Factory",
+    "Chitty Chitty Bang Bang",
+    "Mrs Doubtfire",
+    "Pretty Woman",
+    "Moulin Rouge!",
+    "Little Shop of Horrors",
+    "The Rocky Horror Show",
+    "Spring Awakening",
+    "Next to Normal",
+    "Company",
+    "Follies",
+    "A Little Night Music",
+    "Sunday in the Park with George",
+    "Assassins",
+    "Merrily We Roll Along",
+    "My Fair Lady",
+    "The Sound of Music",
+    "The King and I",
+    "Show Boat",
+    "Porgy and Bess",
+    "Kismet",
+    "Camelot",
+    "Brigadoon",
+    "Gigi",
+    "Hair",
+    "Godspell",
+    "Tommy",
+    "Footloose",
+    "Fame",
+    "Flashdance",
+    "Dirty Dancing",
+    [
+     "Disney's Beauty and the Beast",
+     "Beauty and the Beast"
+    ],
+    "Newsies",
+    "Anastasia",
+    "Tootsie"
+   ]
+  },
+  {
+   "id": "xu6-film-score-composers",
+   "tags": [
+    "musicals"
+   ],
+   "text": "Name a film score composer",
+   "answers": [
+    "John Williams",
+    "Hans Zimmer",
+    "Ennio Morricone",
+    "John Barry",
+    "Howard Shore",
+    "James Horner",
+    "Danny Elfman",
+    "Alan Silvestri",
+    "Michael Giacchino",
+    "Bernard Herrmann",
+    "Jerry Goldsmith",
+    "Elmer Bernstein",
+    "Max Steiner",
+    "Henry Mancini",
+    "Vangelis",
+    "Alexandre Desplat",
+    "Thomas Newman",
+    "Rachel Portman",
+    "Patrick Doyle",
+    "Randy Newman",
+    "Alan Menken",
+    "Maurice Jarre",
+    "Nino Rota",
+    "Ludwig Göransson",
+    "Hildur Guðnadóttir",
+    "Trent Reznor",
+    "Howard Blake",
+    "Carter Burwell",
+    "Michael Nyman",
+    "George Fenton",
+    "Craig Armstrong",
+    "David Arnold",
+    "Harry Gregson-Williams",
+    "John Powell",
+    "Brian Tyler",
+    "Michael Kamen",
+    "Dario Marianelli",
+    "Clint Mansell",
+    "Jonny Greenwood",
+    "Ramin Djawadi",
+    "Lalo Schifrin",
+    "Basil Poledouris",
+    "Bill Conti",
+    "Dimitri Tiomkin",
+    "Miklós Rózsa",
+    [
+     "Erich Korngold",
+     "Erich Wolfgang Korngold"
+    ],
+    "Franz Waxman",
+    "Alfred Newman",
+    "Georges Delerue",
+    "Michel Legrand",
+    "Philip Glass",
+    "Joe Hisaishi",
+    "Ryuichi Sakamoto",
+    "Gustavo Santaolalla",
+    "Mychael Danna",
+    "Harold Faltermeyer",
+    "Giorgio Moroder",
+    "Ron Goodwin",
+    "Stanley Myers",
+    "Richard Rodney Bennett",
+    "Steve Jablonsky",
+    [
+     "Junkie XL",
+     "Tom Holkenborg"
+    ],
+    "Mark Mothersbaugh",
+    "Alexander Courage",
+    "Marvin Hamlisch",
+    "Lorne Balfe",
+    "Daniel Pemberton",
+    "Rupert Gregson-Williams",
+    "Steven Price",
+    "Benjamin Wallfisch",
+    "Nicholas Britell",
+    "Justin Hurwitz",
+    "Kris Bowers",
+    "Abel Korzeniowski",
+    "Cliff Martinez",
+    "John Debney",
+    "Christopher Young",
+    "Mark Isham",
+    "Jerry Fielding",
+    "Laurence Rosenthal",
+    "Don Davis",
+    "Rolfe Kent",
+    "Marco Beltrami",
+    "Gabriel Yared",
+    "Anne Dudley"
+   ]
+  },
+  {
+   "id": "xu6-gershwin-songs",
+   "tags": [
+    "musicals"
+   ],
+   "text": "Name a song by George Gershwin (music by Gershwin, any lyricist)",
+   "answers": [
+    "Rhapsody in Blue",
+    "An American in Paris",
+    "Summertime",
+    "I Got Rhythm",
+    "Fascinating Rhythm",
+    "Embraceable You",
+    "'S Wonderful",
+    "Someone to Watch Over Me",
+    "Swanee",
+    "The Man I Love",
+    "But Not for Me",
+    "Strike Up the Band",
+    "Funny Face",
+    "Let's Call the Whole Thing Off",
+    "They Can't Take That Away from Me",
+    "Nice Work If You Can Get It",
+    "A Foggy Day",
+    "Shall We Dance",
+    "Love Walked In",
+    [
+     "Our Love Is Here to Stay",
+     "Love Is Here to Stay"
+    ],
+    "How Long Has This Been Going On?",
+    [
+     "I Got Plenty o' Nuttin'",
+     "I've Got Plenty o' Nuttin'"
+    ],
+    "It Ain't Necessarily So",
+    "Bess, You Is My Woman Now",
+    "I Loves You, Porgy",
+    [
+     "Oh, Lady Be Good!",
+     "Lady Be Good"
+    ],
+    "Oh, Kay!",
+    "Somebody Loves Me",
+    "Do It Again",
+    "Liza",
+    "Clap Yo' Hands",
+    "Maybe",
+    "Of Thee I Sing",
+    "Who Cares?",
+    "Slap That Bass",
+    "Things Are Looking Up",
+    "I'll Build a Stairway to Paradise",
+    "The Half of It, Dearie, Blues",
+    "Bidin' My Time",
+    "Cuban Overture",
+    "Second Rhapsody",
+    [
+     "Piano Concerto in F",
+     "Concerto in F"
+    ]
+   ]
+  },
+  {
+   "id": "xu6-ramones-songs",
+   "tags": [
+    "punk"
+   ],
+   "text": "Name a song by the Ramones",
+   "answers": [
+    "Blitzkrieg Bop",
+    "I Wanna Be Sedated",
+    "Sheena Is a Punk Rocker",
+    "Rockaway Beach",
+    "Pet Sematary",
+    "Teenage Lobotomy",
+    [
+     "Rock 'n' Roll High School",
+     "Rock and Roll High School"
+    ],
+    [
+     "Do You Remember Rock 'n' Roll Radio?",
+     "Do You Remember Rock and Roll Radio"
+    ],
+    "Baby, I Love You",
+    "I Wanna Be Your Boyfriend",
+    "Havana Affair",
+    "Chinese Rock",
+    "Psycho Therapy",
+    "The KKK Took My Baby Away",
+    "Poison Heart",
+    "Swallow My Pride",
+    "Carbona Not Glue",
+    "I Don't Care",
+    "Needles and Pins",
+    "Bonzo Goes to Bitburg",
+    "Merry Christmas (I Don't Want to Fight Tonight)",
+    "Substitute",
+    "I Believe in Miracles",
+    "Something to Believe In",
+    "She's the One",
+    "I Just Want to Have Something to Do"
+   ]
+  },
+  {
+   "id": "xu6-siouxsie-singles",
+   "tags": [
+    "punk"
+   ],
+   "text": "Name a Siouxsie and the Banshees single",
+   "answers": [
+    "Hong Kong Garden",
+    "Happy House",
+    "Spellbound",
+    "Dear Prudence",
+    "Christine",
+    "Israel",
+    "Arabian Knights",
+    "Cities in Dust",
+    "Peek-a-Boo",
+    "Kiss Them for Me",
+    [
+     "Staircase (Mystery)",
+     "Staircase"
+    ],
+    "Playground Twist",
+    "Fireworks",
+    "Red Light",
+    "Dazzle",
+    "Slowdive",
+    "Face to Face",
+    "Stargazer",
+    "Overground",
+    "Mittageisen",
+    "Candyman",
+    "The Killing Jar",
+    "This Wheel's on Fire",
+    "Swimming Horses",
+    "Melt!",
+    "Fear (of the Unknown)",
+    "O Baby",
+    "The Passenger",
+    "Song from the Edge of the World"
+   ]
+  },
+  {
+   "id": "xu6-undertones-singles",
+   "tags": [
+    "punk"
+   ],
+   "text": "Name an Undertones single",
+   "answers": [
+    "Teenage Kicks",
+    "My Perfect Cousin",
+    "Jimmy Jimmy",
+    "Here Comes the Summer",
+    "Get Over You",
+    [
+     "You've Got My Number (Why Don't You Use It!)",
+     "You've Got My Number"
+    ],
+    "Wednesday Week",
+    "It's Going to Happen!",
+    "Julie Ocean",
+    "Beautiful Friend",
+    "The Love Parade",
+    "Chain of Love",
+    "Thrill Me",
+    "When Saturday Comes"
+   ]
+  },
+  {
+   "id": "xu6-mcr-songs",
+   "tags": [
+    "punk"
+   ],
+   "text": "Name a song by My Chemical Romance",
+   "answers": [
+    "Welcome to the Black Parade",
+    "Helena",
+    [
+     "I'm Not Okay (I Promise)",
+     "I'm Not Okay"
+    ],
+    "Teenagers",
+    "Famous Last Words",
+    "The Ghost of You",
+    [
+     "Na Na Na (Na Na Na Na Na Na Na Na Na)",
+     "Na Na Na"
+    ],
+    "Sing",
+    "Thank You for the Venom",
+    "Cancer",
+    "Disenchanted",
+    "Mama",
+    "Dead!",
+    [
+     "Planetary (GO!)",
+     "Planetary"
+    ],
+    "Bulletproof Heart",
+    "The Kids from Yesterday",
+    "Vampires Will Never Hurt You",
+    "I Don't Love You",
+    "House of Wolves",
+    "To the End",
+    "You Know What They Do to Guys Like Us in Prison",
+    "Honey, This Mirror Isn't Big Enough for the Two of Us",
+    "Blood",
+    "This Is How I Disappear",
+    "The Sharpest Lives",
+    "Fake Your Death",
+    "Boy Division",
+    "Kill All Your Friends",
+    "Surrender the Night",
+    "The End.",
+    "Burn Bright",
+    "All I Want for Christmas Is You",
+    "Headfirst for Halos",
+    "The Foundations of Decay"
+   ]
+  },
+  {
+   "id": "xu6-paramore-songs",
+   "tags": [
+    "punk"
+   ],
+   "text": "Name a song by Paramore",
+   "answers": [
+    "Misery Business",
+    "Still into You",
+    "Ain't It Fun",
+    "The Only Exception",
+    "Decode",
+    "Crushcrushcrush",
+    "That's What You Get",
+    "Brick by Boring Brick",
+    "Hard Times",
+    "Rose-Colored Boy",
+    "Told You So",
+    "Fake Happy",
+    "Careful",
+    "Playing God",
+    "Monster",
+    "Ignorance",
+    "Pressure",
+    "Emergency",
+    "Hallelujah",
+    "All We Know",
+    "Grow Up",
+    "Last Hope",
+    "Anklebiters",
+    "Daydreaming",
+    "Caught in the Middle",
+    "Forgiveness",
+    "Hate to See Your Heart Break",
+    "Pool",
+    "This Is Why",
+    "The News",
+    "C'est Comme Ça",
+    "Running Out of Time",
+    "You First",
+    "Figure 8",
+    "Liar",
+    "Big Man, Little Dignity",
+    "Thick Skull",
+    "Crave",
+    "Turn It Off",
+    "Looking Up",
+    "Where the Lines Overlap",
+    "Misguided Ghosts",
+    "Native Tongue",
+    "Tell Me It's Okay",
+    "Escape Route"
+   ]
+  },
+  {
+   "id": "xu6-panic-disco-songs",
+   "tags": [
+    "punk"
+   ],
+   "text": "Name a song by Panic! at the Disco",
+   "answers": [
+    "I Write Sins Not Tragedies",
+    "High Hopes",
+    [
+     "Say Amen (Saturday Night)",
+     "Say Amen"
+    ],
+    "Victorious",
+    "Hallelujah",
+    "Nine in the Afternoon",
+    "Death of a Bachelor",
+    "Emperor's New Clothes",
+    "This Is Gospel",
+    "Miss Jackson",
+    "Girls/Girls/Boys",
+    "Don't Threaten Me with a Good Time",
+    "Into the Unknown",
+    "LA Devotee",
+    "House of Memories",
+    "Build God, Then We'll Talk",
+    "But It's Better If You Do",
+    "Time to Dance",
+    "Camisado",
+    "The Ballad of Mona Lisa",
+    [
+     "Ready to Go (Get Me Out of My Mind)",
+     "Ready to Go"
+    ],
+    [
+     "That Green Gentleman (Things Have Changed)",
+     "That Green Gentleman"
+    ],
+    "Northern Downpour",
+    [
+     "Crazy = Genius",
+     "Crazy Equals Genius"
+    ],
+    "Roaring 20s",
+    "Casual Affair",
+    "Collar Full",
+    "Let's Kill Tonight",
+    "Hey Look Ma, I Made It",
+    "Golden Days",
+    "Vegas Lights",
+    "Bohemian Rhapsody",
+    "Viva Las Vengeance",
+    "Local God",
+    "Middle of a Breakup",
+    "Sugar Soaker",
+    "Mad as Rabbits",
+    "The Only Difference Between Martyrdom and Suicide Is Press Coverage",
+    "There's a Good Reason These Tables Are Numbered Honey, You Just Haven't Thought of It Yet",
+    "Lying Is the Most Fun a Girl Can Have Without Taking Her Clothes Off"
+   ]
+  },
+  {
+   "id": "xu6-post-punk-bands",
+   "tags": [
+    "punk"
+   ],
+   "text": "Name a post-punk band",
+   "answers": [
+    "Joy Division",
+    "The Fall",
+    "Gang of Four",
+    "Siouxsie and the Banshees",
+    [
+     "Public Image Ltd",
+     "PiL",
+     "Public Image Limited"
+    ],
+    "Wire",
+    "Magazine",
+    "The Slits",
+    "Bauhaus",
+    "Echo & the Bunnymen",
+    "Talking Heads",
+    "Television",
+    "Pere Ubu",
+    "Killing Joke",
+    "Young Marble Giants",
+    "Delta 5",
+    "The Raincoats",
+    "Au Pairs",
+    "Section 25",
+    "Josef K",
+    "Orange Juice",
+    "Cabaret Voltaire",
+    "The Associates",
+    "A Certain Ratio",
+    "The Durutti Column",
+    "Swell Maps",
+    "The Teardrop Explodes",
+    "The Psychedelic Furs",
+    "Interpol",
+    "IDLES",
+    "Fontaines D.C.",
+    "Shame",
+    "Dry Cleaning",
+    "Black Midi",
+    "Squid",
+    "New Order",
+    "The Cure",
+    "The Chameleons",
+    "The Sound",
+    "Simple Minds",
+    "The Pop Group",
+    "Essential Logic",
+    "The Passage",
+    "Virgin Prunes",
+    "Modern English",
+    "This Heat",
+    "Bush Tetras",
+    "ESG",
+    "Liquid Liquid",
+    "DNA",
+    "Mission of Burma",
+    "Pylon",
+    "Protomartyr",
+    "Preoccupations",
+    "Viet Cong",
+    "Savages",
+    "Parquet Courts",
+    "Warmduscher",
+    "Yard Act",
+    "English Teacher",
+    "Black Country, New Road",
+    "Sleaford Mods",
+    "The Murder Capital",
+    "Girl Band",
+    "Fat White Family",
+    "Crack Cloud",
+    "Bodega",
+    "Goat Girl",
+    "Sorry"
+   ]
+  },
+  {
+   "id": "xu6-billy-idol-songs",
+   "tags": [
+    "punk"
+   ],
+   "text": "Name a song by Billy Idol",
+   "answers": [
+    "White Wedding",
+    "Rebel Yell",
+    "Eyes Without a Face",
+    "Dancing with Myself",
+    "Mony Mony",
+    "Flesh for Fantasy",
+    "Cradle of Love",
+    "To Be a Lover",
+    "Hot in the City",
+    "Sweet Sixteen",
+    "Don't Need a Gun",
+    "Catch My Fall",
+    "Shock to the System",
+    "Prodigal Blues",
+    "Kiss Me Deadly",
+    "L.A. Woman",
+    "Wasteland",
+    "Bitter Taste",
+    "Heroin",
+    "Speed",
+    "Scream",
+    "Running from the Ghost",
+    "Cherie",
+    "Save Me Now",
+    "Still Dancing",
+    "New Future Weapon",
+    "Can't Break Me Down"
+   ]
+  },
+  {
+   "id": "xu6-simple-plan-songs",
+   "tags": [
+    "punk"
+   ],
+   "text": "Name a song by Simple Plan",
+   "answers": [
+    "I'm Just a Kid",
+    "Welcome to My Life",
+    "Perfect",
+    "Addicted",
+    "Shut Up!",
+    "Untitled",
+    "Jump",
+    "Crazy",
+    "When I'm Gone",
+    "Your Love Is a Lie",
+    "Summer Paradise",
+    "Astronaut",
+    "Can't Keep My Hands Off You",
+    "Loser of the Year",
+    "I'd Do Anything",
+    "Save You",
+    "Generation",
+    "Boom!",
+    "Opinion Overload",
+    "This Song Saved My Life",
+    "Iconic",
+    "Ruin My Life",
+    "Where I Belong",
+    "Me Against the World",
+    "Jet Lag",
+    "The Rest of Us",
+    "Don't Wanna Think About You",
+    "Perfect World"
+   ]
+  },
+  {
+   "id": "xu6-joan-jett-songs",
+   "tags": [
+    "punk"
+   ],
+   "text": "Name a song by Joan Jett (with or without the Blackhearts)",
+   "answers": [
+    [
+     "I Love Rock 'n' Roll",
+     "I Love Rock and Roll"
+    ],
+    "Bad Reputation",
+    "Cherry Bomb",
+    "Crimson and Clover",
+    "I Hate Myself for Loving You",
+    [
+     "Do You Wanna Touch Me (Oh Yeah)",
+     "Do You Wanna Touch Me"
+    ],
+    "Light of Day",
+    "Little Liar",
+    "Fake Friends",
+    "Everyday People",
+    "Dirty Deeds",
+    "Roadrunner",
+    "Fetish",
+    "Make Believe",
+    "Have You Ever Seen the Rain?",
+    "Androgynous",
+    "Eye to Eye",
+    "The French Song",
+    "Let's Do It",
+    "Love Hurts",
+    "Backlash",
+    "Any Weather",
+    "I Need Someone",
+    "You Don't Know What You've Got"
+   ]
+  },
+  {
+   "id": "xu6-south-pacific-songs",
+   "tags": [
+    "musicals"
+   ],
+   "text": "Name a song from 'South Pacific'",
+   "answers": [
+    "Some Enchanted Evening",
+    "Bali Ha'i",
+    [
+     "I'm Gonna Wash That Man Right Outa My Hair",
+     "Wash That Man Right Outa My Hair",
+     "I'm Gonna Wash That Man"
+    ],
+    [
+     "There Is Nothin' Like a Dame",
+     "There Is Nothing Like a Dame"
+    ],
+    "Happy Talk",
+    "Younger Than Springtime",
+    [
+     "A Wonderful Guy",
+     "I'm in Love with a Wonderful Guy"
+    ],
+    "Honey Bun",
+    "A Cockeyed Optimist",
+    "This Nearly Was Mine",
+    "Dites-Moi",
+    [
+     "You've Got to Be Carefully Taught",
+     "Carefully Taught"
+    ],
+    "Twin Soliloquies",
+    [
+     "Bloody Mary",
+     "Bloody Mary Is the Girl I Love"
+    ]
+   ]
+  },
+  {
+   "id": "xu6-british-reggae-acts",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a British reggae act",
+   "answers": [
+    "UB40",
+    "Aswad",
+    "Steel Pulse",
+    "Musical Youth",
+    "Maxi Priest",
+    "Eddy Grant",
+    "Janet Kay",
+    "Matumbi",
+    "Black Slate",
+    "Misty in Roots",
+    "Tippa Irie",
+    "Smiley Culture",
+    "Pato Banton",
+    "Dennis Bovell",
+    "Linton Kwesi Johnson",
+    "Louisa Mark",
+    "Carroll Thompson",
+    "Sylvia Tella",
+    "Bitty McLean",
+    "Ali Campbell",
+    "Apache Indian",
+    "Cimarons",
+    "Mad Professor",
+    "Sandra Cross",
+    "Tenor Fly",
+    "General Levy",
+    "Papa Levi",
+    "Macka B",
+    "Saxon Sound System",
+    "Fatman Hi-Fi"
+   ]
+  },
+  {
+   "id": "xu6-eddy-grant-singles",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name an Eddy Grant single (solo or with The Equals)",
+   "answers": [
+    "Electric Avenue",
+    "I Don't Wanna Dance",
+    "Do You Feel My Love",
+    "Romancing the Stone",
+    "Gimme Hope Jo'anna",
+    "War Party",
+    "Walking on Sunshine",
+    "Baby Come Back",
+    "Time Warp",
+    "Hello Africa",
+    "Boys in the Street",
+    "Harmless Piece of Fun",
+    "Say I Love You",
+    "Another Revolutionary",
+    "Can't Get Enough of You",
+    "Put a Hold on It",
+    "Till I Can't Take Love No More",
+    "My Turn to Love You",
+    "Living on the Front Line",
+    "Grandma",
+    "I Love You, Yes I Love You",
+    "Time to Let Go",
+    "Dance Party",
+    "Restless World"
+   ]
+  },
+  {
+   "id": "xu6-toots-songs",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a song by Toots and the Maytals",
+   "answers": [
+    "Pressure Drop",
+    [
+     "54-46 That's My Number",
+     "54-46 Was My Number",
+     "54-46"
+    ],
+    "Monkey Man",
+    "Funky Kingston",
+    "Sweet and Dandy",
+    "Reggae Got Soul",
+    "Time Tough",
+    "Bam Bam",
+    "Broadway Jungle",
+    "Never Grow Old",
+    "Do the Reggae",
+    "Sit Right Down",
+    "Louie Louie",
+    "Beautiful Woman",
+    "Famine",
+    "True Love Is Hard to Find",
+    "Just Like That",
+    "Take Me Home, Country Roads",
+    "Scare Him",
+    "Six and Seven Books of Moses",
+    "Premature",
+    "Pomp and Pride",
+    "Fever",
+    "Struggle",
+    "Hallelujah",
+    "Spiritual Healing",
+    "Careless Ethiopians",
+    "Chatty Chatty",
+    "Don't Trouble Trouble",
+    "Pass the Pipe"
+   ]
+  },
+  {
+   "id": "xu6-jimmy-cliff-songs",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a song by Jimmy Cliff",
+   "answers": [
+    "Many Rivers to Cross",
+    "The Harder They Come",
+    "You Can Get It If You Really Want",
+    "Wonderful World, Beautiful People",
+    "Vietnam",
+    "Reggae Night",
+    "Hakuna Matata",
+    "I Can See Clearly Now",
+    "Sitting in Limbo",
+    "Wild World",
+    "Struggling Man",
+    "Johnny Too Bad",
+    "Sunshine in the Music",
+    "Hard Road to Travel",
+    "Bongo Man",
+    "Trapped",
+    "Treat the Youths Right",
+    "Breakout",
+    "I Am the Living",
+    "Rebirth",
+    "Another Cycle",
+    "Miss Jamaica",
+    "Dear Mother",
+    "Give and Take",
+    "Pride and Passion",
+    "Roots Radical",
+    "Sufferin' in the Land",
+    "Peace Officer",
+    "Reggae Street"
+   ]
+  },
+  {
+   "id": "xu6-desmond-dekker-songs",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a song by Desmond Dekker (with or without the Aces)",
+   "answers": [
+    "Israelites",
+    "You Can Get It If You Really Want",
+    "It Mek",
+    [
+     "007 (Shanty Town)",
+     "007",
+     "Shanty Town"
+    ],
+    "Please Don't Bend",
+    "Sing a Little Song",
+    "Beautiful and Dangerous",
+    "Unity",
+    "Hey Grandma",
+    "Pretty Africa",
+    "Problems",
+    "Mother Pepper",
+    "Sabotage",
+    "Rude Boy Train",
+    "Labour for Learning",
+    "Music Like Dirt (Intensified '68)",
+    "The Song We Used to Sing",
+    "Hot City",
+    "Roots Rock",
+    "Wise Man",
+    "Get Up Edina",
+    "Pickney Gal"
+   ]
+  },
+  {
+   "id": "xu6-caribbean-music-styles",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a style or genre of Caribbean music",
+   "answers": [
+    "Reggae",
+    "Calypso",
+    "Soca",
+    "Ska",
+    "Rocksteady",
+    "Dub",
+    "Dancehall",
+    "Mento",
+    "Zouk",
+    [
+     "Kompa",
+     "Compas"
+    ],
+    "Merengue",
+    "Bachata",
+    "Salsa",
+    "Rumba",
+    [
+     "Son cubano",
+     "Son"
+    ],
+    "Bomba",
+    "Plena",
+    "Reggaeton",
+    [
+     "Steelpan",
+     "Steel band"
+    ],
+    "Chutney",
+    "Junkanoo",
+    "Parang",
+    [
+     "Cadence-lypso",
+     "Cadence"
+    ],
+    "Lovers rock",
+    "Ragga",
+    "Roots reggae",
+    "Mambo",
+    "Cha-cha-cha",
+    "Bolero",
+    "Timba",
+    "Rapso",
+    "Kaiso",
+    "Bouyon",
+    "Gwo ka",
+    "Biguine",
+    "Quadrille",
+    "Dembow",
+    "Rara",
+    "Twoubadou",
+    "Bashment",
+    "Reggae fusion",
+    "Kaseko"
+   ]
+  },
+  {
+   "id": "xu6-no-doubt-songs",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a song by No Doubt",
+   "answers": [
+    "Don't Speak",
+    "Just a Girl",
+    "Spiderwebs",
+    "Hey Baby",
+    "Hella Good",
+    "It's My Life",
+    "Underneath It All",
+    "Sunday Morning",
+    "Simple Kind of Life",
+    "Ex-Girlfriend",
+    "Bathwater",
+    "Excuse Me Mr.",
+    "Trapped in a Box",
+    "Sixteen",
+    "Happy Now?",
+    "Different People",
+    "Running",
+    "Tragic Kingdom",
+    "Don't Let Me Down",
+    "Start the Fire",
+    "Settle Down",
+    "Push and Shove",
+    "Looking Hot",
+    "Easy",
+    "Waiting Room",
+    "Rock Steady",
+    "Oi to the World",
+    "Stand and Deliver",
+    "Total Hate '95",
+    "Sparkle",
+    "Hey You",
+    "Squeal",
+    "Making Out"
+   ]
+  },
+  {
+   "id": "xu6-maxi-priest-singles",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a Maxi Priest single",
+   "answers": [
+    "Close to You",
+    "Wild World",
+    "Some Guys Have All the Luck",
+    "How Can We Ease the Pain",
+    "That Girl",
+    "Just Wanna Know",
+    "Housecall",
+    "Best of Me",
+    "Strollin' On",
+    "Set the Night to Music",
+    "Peace Throughout the World",
+    "Groovin' in the Midnight",
+    "Should I?",
+    "Human Work of Art",
+    "Crazy Love",
+    "Intimate Connection",
+    "Let Me Know",
+    "One More Chance"
+   ]
+  },
+  {
+   "id": "xu6-specials-singles",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a UK single by The Specials (including The Special AKA)",
+   "answers": [
+    "Ghost Town",
+    "Too Much Too Young",
+    "Gangsters",
+    "Rat Race",
+    "Do Nothing",
+    "Stereotype",
+    [
+     "Free Nelson Mandela",
+     "Nelson Mandela"
+    ],
+    "What I Like Most About You Is Your Girlfriend",
+    "War Crimes",
+    "Racist Friend",
+    "Bright Lights",
+    [
+     "Enjoy Yourself (It's Later Than You Think)",
+     "Enjoy Yourself"
+    ],
+    "Hey Little Rich Girl",
+    "Blank Expression",
+    "Friday Night, Saturday Morning",
+    "Nite Klub",
+    "Concrete Jungle",
+    "International Jet Set",
+    "Why?",
+    "Vote for Me",
+    "Maggie's Farm",
+    "Monkey Man",
+    "Too Hot",
+    "Rude Boys Outa Jail",
+    "Do the Dog",
+    "Stupid Marriage",
+    "Little Bitch",
+    "Doesn't Make It Alright",
+    "Man at C&A",
+    "Pearls Cafe",
+    "Freedom Highway",
+    "B.L.M.",
+    "Vote Them Out",
+    "10 Commandments",
+    "Embarrassed by You",
+    "Hypocrite",
+    "Lunatics Have Taken Over the Asylum"
+   ]
+  },
+  {
+   "id": "xu6-professor-green-singles",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a Professor Green single (lead or featured)",
+   "answers": [
+    "Jungle",
+    "Just Be Good to Green",
+    "Monster",
+    "Read All About It",
+    "I Need You Tonight",
+    "Remedy",
+    "Lullaby",
+    "Hard Night Out",
+    "Photographs",
+    "Never Be a Right Time",
+    "At Your Inconvenience",
+    "Avalon",
+    "Little Secrets",
+    "Active",
+    "Unruly",
+    "Mercedes Riddim",
+    "Count on You",
+    "Got It All",
+    "Round and Round",
+    "Dance Like a Tory",
+    "Pop Shxt",
+    "Do Ya",
+    "Nothing Before It's Time",
+    "Nervous",
+    "Happy",
+    "45",
+    "On My Way",
+    "Another Life",
+    "Need U Now",
+    "Game Over",
+    "In the Air",
+    "Top of the World",
+    "Stylechanger",
+    "Dreamers",
+    "Fire Blaze",
+    "D.P.M.O.",
+    "Are You Getting Enough?",
+    "Not Your Man",
+    "I Need Church",
+    "Back on the Market",
+    "One Eye on the Door"
+   ]
+  },
+  {
+   "id": "xu6-tinchy-stryder-singles",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a Tinchy Stryder single (lead or featured)",
+   "answers": [
+    "Number 1",
+    "Take Me Back",
+    "Never Leave You",
+    "Second Chance",
+    "Breakaway",
+    "Spaceship",
+    "Game Over",
+    "Off the Record",
+    "You're Not Alone",
+    "Let It Rain",
+    "Stryderman",
+    "Something About Your Smile",
+    "Mainstream Money",
+    "In My System",
+    "Bright Lights",
+    "Help Me",
+    "Misunderstood",
+    "ESG",
+    "Imperfection",
+    "Made It",
+    "Bros Dem",
+    "Promise",
+    "Got It",
+    "Till the Morning",
+    "Air Mile Gang",
+    "Where's Your Love",
+    "Give It All U Got",
+    "Bring It",
+    "Lights On",
+    "I Got Soul",
+    "Teardrop",
+    "To Me, To You (Bruv)",
+    "Gangsta?"
+   ]
+  },
+  {
+   "id": "xu6-little-simz-singles",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a Little Simz single (lead or featured)",
+   "answers": [
+    "Venom",
+    "Woman",
+    "Gorilla",
+    "Introvert",
+    "Point and Kill",
+    "Selfish",
+    "I Love You I Hate You",
+    "Rollin Stone",
+    "Offence",
+    "Boss",
+    "101 FM",
+    "Backseat",
+    "Free",
+    "Time Capsule",
+    "Dead Body, Pts. 2 & 3",
+    "Pink Youth",
+    "Flowers (Live at Metropolis Studios, London, 2019)",
+    "Satellite Business 2.0",
+    "Hello, Hi",
+    "Flood",
+    "Cuckoo",
+    "Bad Dreams",
+    "The Nest",
+    "So Human",
+    "Back to My Love",
+    "Far Cry",
+    "The Book",
+    "Garage Palace",
+    "Proud of Me",
+    "Favourites",
+    "You From London",
+    "Domodachi",
+    "We Pray"
+   ]
+  },
+  {
+   "id": "xu6-female-uk-rappers",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a female UK rapper",
+   "answers": [
+    "Little Simz",
+    "Stefflon Don",
+    "Lady Leshurr",
+    "Ms Dynamite",
+    "Lioness",
+    "Lady Sovereign",
+    "Shystie",
+    "Ms Banks",
+    "Ivorian Doll",
+    "Flohio",
+    "Paigey Cakey",
+    "Nadia Rose",
+    "Speech Debelle",
+    "Bree Runway",
+    "Enny",
+    "Awate",
+    "Ray BLK"
+   ]
+  },
+  {
+   "id": "xu6-chipmunk-singles",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a single by Chipmunk (Chip)",
+   "answers": [
+    "Oopsy Daisy",
+    "Champion",
+    "Diamond Rings",
+    "Look for Me",
+    "Until You Were Gone",
+    "Beast",
+    "Chip Diddy Chip",
+    "Who Are You?",
+    "Flying High",
+    "In the Air",
+    "Take Off",
+    "I'm Fine",
+    "School of Grime",
+    "Feeling Myself",
+    "My Bruddaz",
+    "Hear Dis",
+    "Reaching",
+    "Can't Run Out of Bars",
+    "Gets Like That",
+    "Honestly",
+    "Snap Snap",
+    "Marijuana",
+    "Darth Vader",
+    "My Girl",
+    "CRB Check",
+    "Wondering",
+    "Emotional",
+    "How It Is",
+    "Your Story",
+    "Yard",
+    "Waze",
+    "0420",
+    "Killer MC",
+    "Flowers",
+    "Ignite",
+    "Lumidee",
+    "Skengman Mode",
+    "Defeat You",
+    "Tiny Dancer (Hold Me Closer)",
+    "I Got Soul",
+    "In Your Shoes",
+    "She Likes To",
+    "Number One Enemy",
+    "Game Over",
+    "Pow 2011"
+   ]
+  },
+  {
+   "id": "xu6-wretch-32-singles",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a Wretch 32 single (lead or featured)",
+   "answers": [
+    "Traktor",
+    "Unorthodox",
+    "Don't Go",
+    "Hush Little Baby",
+    "Forgiveness",
+    "Blackout",
+    "Alright with Me",
+    "Doing OK",
+    "6 Words",
+    "Antwi",
+    "Liberation",
+    "All a Dream",
+    "I.O.U",
+    "Open Conversation & Mark Duggan",
+    "Whistle",
+    "Tell Me",
+    "His & Hers (Perspectives)",
+    "CYSAW",
+    "Mummy's Boy",
+    "Spin Around",
+    "10/10",
+    "Take Care of Me",
+    "Fire in the Booth",
+    "Dancefloor",
+    "Hangover",
+    "Teardrop",
+    "Go In, Go Hard",
+    "Off with Their Heads",
+    "Flatline",
+    "People",
+    "Stop",
+    "Doubt",
+    "iPray",
+    "Punctuation",
+    "Be Cool",
+    "Me and You",
+    "Ina Di Ghetto",
+    "Superhero",
+    "Let's Go!",
+    "Breathe (Sha La La)",
+    "Blur",
+    "Pop?"
+   ]
+  },
+  {
+   "id": "xu6-lethal-bizzle-singles",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a single by Lethal Bizzle (lead or featured)",
+   "answers": [
+    [
+     "Pow! (Forward)",
+     "Pow",
+     "Forward"
+    ],
+    "Rari Workout",
+    "Fire",
+    "Dude",
+    "Go Hard",
+    "Police on My Back",
+    "Pow 2011",
+    "Fester Skank",
+    "Uh Oh (I'm Back)",
+    "What We Do",
+    "Mind Your Head",
+    "Mr.",
+    "Bizzle Bizzle",
+    "Going Out Tonight",
+    "Go Go Go!",
+    "Mind Spinning",
+    "Look Up to the Sky",
+    "Leave It Yeah",
+    "Not a Saint",
+    "They Got It Wrong",
+    "Party Right",
+    "The Drop",
+    "Playground",
+    "Going to the Gym",
+    "Box",
+    "Wobble",
+    "Round Here",
+    "I Win",
+    "Hold You",
+    "Staring at the Rude Bois"
+   ]
+  },
+  {
+   "id": "xu6-n-dubz-singles",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name an N-Dubz single",
+   "answers": [
+    "Papa Can You Hear Me?",
+    "Number 1",
+    "Strong Again",
+    "Wouldn't You",
+    "Say It's Over",
+    "I Need You",
+    "Playing with Fire",
+    "Girls",
+    "Morning Star",
+    "Best Behaviour",
+    "Ouch",
+    "Love for My Slum",
+    "You Better Not Waste My Time",
+    "I Swear",
+    "Feva Las Vegas",
+    "We Dance On",
+    "Charmer",
+    "February",
+    "Habibti",
+    "The Ick",
+    "I Got Soul",
+    "Lose My Life",
+    "So Alive",
+    "Stuttering"
+   ]
+  },
+  {
+   "id": "xu6-krept-konan-songs",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a Krept and Konan single (lead or featured)",
+   "answers": [
+    "Don't Waste My Time",
+    "Ask Flipz",
+    "The Long Way Home",
+    "Dreams",
+    "Freak of the Week",
+    "Wo Wo Wo",
+    "For Me",
+    "Crepes and Cones (Ya Dun Know)",
+    "Pour Me Another One",
+    "Last Letter to Cadet",
+    "Ban Drill",
+    "I Spy",
+    "G Love",
+    "Olé (We Are England)",
+    "Dat Way",
+    "Kilimanjaro",
+    "Sweet Thing",
+    "Liar Liar",
+    "Chop My Money",
+    "AirForce",
+    "Right Now",
+    "Self-Obsessed",
+    "Pisces"
+   ]
+  },
+  {
+   "id": "xu6-sean-paul-singles",
+   "tags": [
+    "reggae"
+   ],
+   "text": "Name a Sean Paul single (lead or featured)",
+   "answers": [
+    "Get Busy",
+    "Gimme the Light",
+    "Like Glue",
+    "We Be Burnin'",
+    "Temperature",
+    "Baby Boy",
+    "Break It Off",
+    "Ever Blazin'",
+    "Never Gonna Be the Same",
+    "Give It Up to Me",
+    "Press It Up",
+    "Hold My Hand",
+    "So Fine",
+    "She Doesn't Mind",
+    "Got 2 Luv U",
+    "Turn It Up",
+    "Other Side of Love",
+    "Rockabye",
+    "No Lie",
+    "Mad Love",
+    "Cheap Thrills",
+    "Body",
+    "Calling on Me",
+    "Naked Truth",
+    "Tek Weh Yuh Heart",
+    "How Deep Is Your Love",
+    "Dream Girl",
+    "Deport Them",
+    "Haffi Get De Gal Ya (Hot Gal Today)",
+    "I'm Still in Love with You",
+    "(When You Gonna) Give It Up to Me",
+    "Watch Dem Roll",
+    "Hold On",
+    "Touch the Sky",
+    "Entertainment 2.0",
+    "Want Dem All",
+    "Hey Baby",
+    "One Wine",
+    "Paradise",
+    "Crick Neck",
+    "She Call Me",
+    "Tip Pon It",
+    "Feels Like Home",
+    "Hey DJ",
+    "Shot & Wine",
+    "Boasty",
+    "Contra La Pared",
+    "Genna Level",
+    "Fuego",
+    "When It Comes to You",
+    "Buss a Bubble",
+    "Love Mi Ladies",
+    "Lento",
+    "Back It Up Deh",
+    "Bad Inna Bed",
+    "Make the Ting Tense",
+    "Scorcha",
+    "Chronicles",
+    "Lion Heart",
+    "Guns of Navarone"
+   ]
+  },
+  {
+   "id": "xu6-bugzy-malone-songs",
+   "tags": [
+    "ukrap"
+   ],
+   "text": "Name a Bugzy Malone single (lead or featured)",
+   "answers": [
+    "M.E.N.",
+    "Run",
+    "Drama",
+    "Bruce Wayne",
+    "Memory Lane",
+    "Warning",
+    "Relegation Riddim",
+    "Mad",
+    "Zombie Riddim",
+    "WasteMan",
+    "Bronson",
+    "Beauty and the Beast",
+    "Aggy Wid It",
+    "Through the Night",
+    "And What",
+    "Clash of the Titans",
+    "Done His Dance",
+    "M.E.N II",
+    "Kilos",
+    "The North's Face",
+    "December",
+    "Cause a Commotion",
+    "Boxes of Bush",
+    "M.E.N III",
+    "Doe'd Up",
+    "Don't Cry",
+    "Cold Nights in the 61",
+    "Notorious",
+    "Welcome to the Hood",
+    "Salvador",
+    "Skeletons",
+    "Ride Out",
+    "War Mode",
+    "Energy",
+    "Out of Nowhere",
+    "All of Me (Do for Love)",
+    "Easy",
+    "One Direction",
+    "Mrs Lonely",
+    "Lean",
+    "JDZ Spitfire II",
+    "Ghetto Wisdom",
+    "Ladies",
+    "Old Friends",
+    "Beauty & the Beast II"
+   ]
+  }
+ ]
+}

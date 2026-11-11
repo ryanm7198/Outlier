@@ -1,0 +1,2394 @@
+{
+ "cat": "words",
+ "prompts": [
+  {
+   "id": "xw3-narnia-characters",
+   "tags": [
+    "books"
+   ],
+   "text": "Name a character from C. S. Lewis's Chronicles of Narnia",
+   "answers": [
+    "Aslan",
+    [
+     "Lucy Pevensie",
+     "Lucy"
+    ],
+    [
+     "Edmund Pevensie",
+     "Edmund"
+    ],
+    [
+     "Susan Pevensie",
+     "Susan"
+    ],
+    [
+     "Peter Pevensie",
+     "Peter"
+    ],
+    [
+     "Mr Tumnus",
+     "Tumnus"
+    ],
+    [
+     "The White Witch",
+     "Jadis"
+    ],
+    [
+     "Prince Caspian",
+     "Caspian"
+    ],
+    "Reepicheep",
+    "Puddleglum",
+    [
+     "Eustace Scrubb",
+     "Eustace"
+    ],
+    [
+     "Jill Pole",
+     "Jill"
+    ],
+    [
+     "Digory Kirke",
+     "Digory"
+    ],
+    [
+     "Polly Plummer",
+     "Polly"
+    ],
+    "Shasta",
+    "Aravis",
+    "Bree",
+    "Hwin",
+    [
+     "King Tirian",
+     "Tirian"
+    ],
+    "Mr Beaver",
+    "Mrs Beaver",
+    "Maugrim",
+    "Father Christmas",
+    "Trumpkin",
+    [
+     "Prince Rilian",
+     "Rilian"
+    ],
+    [
+     "Lady of the Green Kirtle",
+     "Green Lady"
+    ],
+    "Emeth",
+    "Tash",
+    "Rabadash",
+    "Trufflehunter",
+    "Nikabrik",
+    "Miraz",
+    "Drinian",
+    "Ramandu",
+    "Coriakin",
+    "Glimfeather",
+    "Fledge",
+    "Uncle Andrew",
+    "Strawberry",
+    "Shift",
+    "Puzzle",
+    "Jewel",
+    "Lasaraleen",
+    "Corin",
+    "Cor"
+   ]
+  },
+  {
+   "id": "xw3-sherlock-holmes-characters",
+   "tags": [
+    "books"
+   ],
+   "text": "Name a character from the Sherlock Holmes stories",
+   "answers": [
+    [
+     "Sherlock Holmes",
+     "Holmes"
+    ],
+    [
+     "Dr Watson",
+     "John Watson",
+     "Watson"
+    ],
+    [
+     "Professor Moriarty",
+     "Moriarty",
+     "James Moriarty"
+    ],
+    "Mrs Hudson",
+    [
+     "Inspector Lestrade",
+     "Lestrade",
+     "G. Lestrade"
+    ],
+    [
+     "Mycroft Holmes",
+     "Mycroft"
+    ],
+    [
+     "Irene Adler",
+     "Adler"
+    ],
+    [
+     "Colonel Sebastian Moran",
+     "Sebastian Moran",
+     "Moran"
+    ],
+    [
+     "Inspector Gregson",
+     "Gregson",
+     "Tobias Gregson"
+    ],
+    "Stamford",
+    [
+     "Baskerville",
+     "Sir Henry Baskerville",
+     "Henry Baskerville"
+    ],
+    [
+     "Stapleton",
+     "Jack Stapleton"
+    ],
+    [
+     "Dr Mortimer",
+     "James Mortimer",
+     "Mortimer"
+    ],
+    [
+     "Mary Morstan",
+     "Morstan"
+    ],
+    "Jonathan Small",
+    "Tonga",
+    [
+     "Inspector Athelney Jones",
+     "Athelney Jones"
+    ],
+    "Wiggins",
+    [
+     "Charles Augustus Milverton",
+     "Milverton"
+    ],
+    "Violet Hunter",
+    "Jabez Wilson",
+    "John Clay",
+    "Culverton Smith",
+    [
+     "Grimesby Roylott",
+     "Dr Roylott",
+     "Roylott"
+    ],
+    "Stanley Hopkins",
+    "Bradstreet",
+    "Langdale Pike",
+    "Shinwell Johnson",
+    "Billy",
+    "Toby",
+    "Eugenia Ronder",
+    "Neville St Clair",
+    "Hugh Boone",
+    [
+     "Colonel Lysander Stark",
+     "Lysander Stark"
+    ],
+    "Hosmer Angel",
+    "Mary Sutherland",
+    "Helen Stoner",
+    "Jefferson Hope",
+    "Enoch Drebber",
+    "Joseph Stangerson",
+    "Alexander Holder",
+    "Victor Hatherley",
+    "John Openshaw",
+    "Henry Baker",
+    "Peterson",
+    "James Ryder",
+    "Silas Brown",
+    "John Straker"
+   ]
+  },
+  {
+   "id": "xw3-poets",
+   "tags": [
+    "books"
+   ],
+   "text": "Name a poet",
+   "answers": [
+    [
+     "William Shakespeare",
+     "Shakespeare"
+    ],
+    [
+     "William Wordsworth",
+     "Wordsworth"
+    ],
+    [
+     "Samuel Taylor Coleridge",
+     "Coleridge"
+    ],
+    [
+     "John Keats",
+     "Keats"
+    ],
+    [
+     "Percy Bysshe Shelley",
+     "Shelley"
+    ],
+    [
+     "Lord Byron",
+     "Byron"
+    ],
+    [
+     "William Blake",
+     "Blake"
+    ],
+    [
+     "Alfred Lord Tennyson",
+     "Tennyson",
+     "Alfred Tennyson"
+    ],
+    [
+     "Robert Browning",
+     "Browning"
+    ],
+    "Elizabeth Barrett Browning",
+    [
+     "Philip Larkin",
+     "Larkin"
+    ],
+    "Ted Hughes",
+    [
+     "Seamus Heaney",
+     "Heaney"
+    ],
+    [
+     "John Betjeman",
+     "Betjeman"
+    ],
+    [
+     "Wilfred Owen",
+     "Owen"
+    ],
+    [
+     "Siegfried Sassoon",
+     "Sassoon"
+    ],
+    [
+     "Rupert Brooke",
+     "Brooke"
+    ],
+    [
+     "W. H. Auden",
+     "Auden"
+    ],
+    [
+     "T. S. Eliot",
+     "Eliot"
+    ],
+    [
+     "Thomas Hardy",
+     "Hardy"
+    ],
+    [
+     "John Donne",
+     "Donne"
+    ],
+    [
+     "John Milton",
+     "Milton"
+    ],
+    [
+     "Geoffrey Chaucer",
+     "Chaucer"
+    ],
+    [
+     "Alexander Pope",
+     "Pope"
+    ],
+    [
+     "John Dryden",
+     "Dryden"
+    ],
+    [
+     "Andrew Marvell",
+     "Marvell"
+    ],
+    "George Herbert",
+    [
+     "Christina Rossetti",
+     "Rossetti"
+    ],
+    [
+     "Gerard Manley Hopkins",
+     "Hopkins"
+    ],
+    [
+     "Rudyard Kipling",
+     "Kipling"
+    ],
+    [
+     "A. E. Housman",
+     "AE Housman",
+     "Housman"
+    ],
+    [
+     "John Masefield",
+     "Masefield"
+    ],
+    [
+     "Simon Armitage",
+     "Armitage"
+    ],
+    [
+     "Carol Ann Duffy",
+     "Duffy"
+    ],
+    [
+     "Benjamin Zephaniah",
+     "Zephaniah"
+    ],
+    [
+     "Wendy Cope",
+     "Cope"
+    ],
+    [
+     "Roger McGough",
+     "McGough"
+    ],
+    [
+     "Brian Patten",
+     "Patten"
+    ],
+    [
+     "John Clare",
+     "Clare"
+    ],
+    "Dylan Thomas",
+    [
+     "Robert Burns",
+     "Burns"
+    ],
+    [
+     "Walt Whitman",
+     "Whitman"
+    ],
+    [
+     "Emily Dickinson",
+     "Dickinson"
+    ],
+    [
+     "Robert Frost",
+     "Frost"
+    ],
+    [
+     "Sylvia Plath",
+     "Plath"
+    ],
+    [
+     "Maya Angelou",
+     "Angelou"
+    ],
+    [
+     "Edgar Allan Poe",
+     "Poe"
+    ],
+    "Langston Hughes",
+    [
+     "Pablo Neruda",
+     "Neruda"
+    ],
+    "Rumi",
+    "Homer",
+    "Virgil",
+    [
+     "Dante Alighieri",
+     "Dante"
+    ],
+    "Ovid",
+    "Sappho",
+    "Horace",
+    "Lewis Carroll",
+    [
+     "Edward Lear",
+     "Lear"
+    ],
+    [
+     "Hilaire Belloc",
+     "Belloc"
+    ],
+    [
+     "Spike Milligan",
+     "Milligan"
+    ],
+    "Michael Rosen",
+    "Allan Ahlberg",
+    [
+     "Henry Wadsworth Longfellow",
+     "Longfellow"
+    ],
+    [
+     "Ralph Waldo Emerson",
+     "Emerson"
+    ],
+    [
+     "Ezra Pound",
+     "Pound"
+    ],
+    [
+     "W. B. Yeats",
+     "Yeats"
+    ],
+    "Oscar Wilde",
+    "Edwin Morgan",
+    [
+     "Hugh MacDiarmid",
+     "MacDiarmid"
+    ],
+    [
+     "Norman MacCaig",
+     "MacCaig"
+    ],
+    "Liz Lochhead",
+    "Don Paterson",
+    [
+     "Andrew Motion",
+     "Motion"
+    ],
+    [
+     "Cecil Day-Lewis",
+     "Day-Lewis"
+    ],
+    [
+     "Louis MacNeice",
+     "MacNeice"
+    ],
+    "Stevie Smith",
+    "Elizabeth Bishop",
+    "Adrian Mitchell",
+    [
+     "Lemn Sissay",
+     "Sissay"
+    ],
+    "Daljit Nagra",
+    "Imtiaz Dharker",
+    "Jackie Kay",
+    "Kae Tempest",
+    "Rupi Kaur",
+    [
+     "Amanda Gorman",
+     "Gorman"
+    ],
+    "Joseph Brodsky",
+    [
+     "Anna Akhmatova",
+     "Akhmatova"
+    ],
+    [
+     "Alexander Pushkin",
+     "Pushkin"
+    ],
+    [
+     "Rainer Maria Rilke",
+     "Rilke"
+    ],
+    [
+     "Johann Wolfgang von Goethe",
+     "Goethe"
+    ],
+    [
+     "Charles Baudelaire",
+     "Baudelaire"
+    ],
+    [
+     "Arthur Rimbaud",
+     "Rimbaud"
+    ],
+    [
+     "Paul Verlaine",
+     "Verlaine"
+    ],
+    [
+     "Federico García Lorca",
+     "Lorca"
+    ],
+    "Octavio Paz",
+    [
+     "Matsuo Basho",
+     "Bashō"
+    ],
+    [
+     "Rabindranath Tagore",
+     "Tagore"
+    ],
+    [
+     "Khalil Gibran",
+     "Kahlil Gibran",
+     "Gibran"
+    ],
+    "Hafez",
+    [
+     "Omar Khayyam",
+     "Khayyam"
+    ]
+   ]
+  },
+  {
+   "id": "xw3-playwrights",
+   "tags": [
+    "books"
+   ],
+   "text": "Name a playwright",
+   "answers": [
+    [
+     "William Shakespeare",
+     "Shakespeare"
+    ],
+    [
+     "Harold Pinter",
+     "Pinter"
+    ],
+    [
+     "Tom Stoppard",
+     "Stoppard"
+    ],
+    [
+     "Samuel Beckett",
+     "Beckett"
+    ],
+    [
+     "Oscar Wilde",
+     "Wilde"
+    ],
+    [
+     "George Bernard Shaw",
+     "Bernard Shaw",
+     "Shaw"
+    ],
+    [
+     "Arthur Miller",
+     "Miller"
+    ],
+    [
+     "Henrik Ibsen",
+     "Ibsen"
+    ],
+    [
+     "Anton Chekhov",
+     "Chekhov"
+    ],
+    "Tennessee Williams",
+    [
+     "Christopher Marlowe",
+     "Marlowe"
+    ],
+    [
+     "Ben Jonson",
+     "Jonson"
+    ],
+    [
+     "William Congreve",
+     "Congreve"
+    ],
+    [
+     "Richard Brinsley Sheridan",
+     "Sheridan"
+    ],
+    [
+     "Noël Coward",
+     "Coward"
+    ],
+    [
+     "Terence Rattigan",
+     "Rattigan"
+    ],
+    [
+     "John Osborne",
+     "Osborne"
+    ],
+    [
+     "Alan Bennett",
+     "Bennett"
+    ],
+    [
+     "Alan Ayckbourn",
+     "Ayckbourn"
+    ],
+    [
+     "Caryl Churchill",
+     "Churchill"
+    ],
+    [
+     "Joe Orton",
+     "Orton"
+    ],
+    [
+     "J. B. Priestley",
+     "Priestley"
+    ],
+    [
+     "J. M. Synge",
+     "Synge"
+    ],
+    [
+     "Seán O'Casey",
+     "O'Casey"
+    ],
+    [
+     "Brian Friel",
+     "Friel"
+    ],
+    [
+     "Martin McDonagh",
+     "McDonagh"
+    ],
+    "Sarah Kane",
+    [
+     "David Hare",
+     "Hare"
+    ],
+    [
+     "Michael Frayn",
+     "Frayn"
+    ],
+    "Willy Russell",
+    [
+     "Bertolt Brecht",
+     "Brecht"
+    ],
+    "Molière",
+    "Sophocles",
+    "Euripides",
+    "Aeschylus",
+    "Aristophanes",
+    [
+     "Jean-Paul Sartre",
+     "Sartre"
+    ],
+    [
+     "Eugene O'Neill",
+     "O'Neill"
+    ],
+    [
+     "Edward Albee",
+     "Albee"
+    ],
+    [
+     "David Mamet",
+     "Mamet"
+    ],
+    [
+     "Sam Shepard",
+     "Shepard"
+    ],
+    "August Wilson",
+    [
+     "Lorraine Hansberry",
+     "Hansberry"
+    ],
+    "Thornton Wilder",
+    "Neil Simon",
+    "Lin-Manuel Miranda",
+    [
+     "Jez Butterworth",
+     "Butterworth"
+    ],
+    "Simon Stephens",
+    "Lucy Prebble",
+    "James Graham",
+    "Alan Bleasdale",
+    "John Godber",
+    [
+     "Peter Shaffer",
+     "Shaffer"
+    ],
+    "Robert Bolt",
+    [
+     "Arnold Wesker",
+     "Wesker"
+    ],
+    "Edward Bond",
+    "David Edgar",
+    "Howard Brenton",
+    "Mike Leigh",
+    "Dennis Potter",
+    "Timberlake Wertenbaker",
+    "Lucy Kirkwood",
+    "Alice Birch",
+    "Jim Cartwright",
+    "Nina Raine",
+    "Tanika Gupta",
+    "Bola Agbaje",
+    "debbie tucker green",
+    "Roy Williams",
+    "Kwame Kwei-Armah",
+    "Jack Thorne",
+    [
+     "Patrick Marber",
+     "Marber"
+    ],
+    "Mark Ravenhill",
+    "Conor McPherson",
+    "Enda Walsh",
+    "Tom Murphy",
+    [
+     "Eugène Ionesco",
+     "Ionesco"
+    ],
+    [
+     "Luigi Pirandello",
+     "Pirandello"
+    ],
+    [
+     "Federico García Lorca",
+     "Lorca"
+    ],
+    [
+     "August Strindberg",
+     "Strindberg"
+    ],
+    [
+     "Thomas Middleton",
+     "Middleton"
+    ],
+    [
+     "John Webster",
+     "Webster"
+    ],
+    "John Ford",
+    [
+     "Thomas Kyd",
+     "Kyd"
+    ],
+    [
+     "Aphra Behn",
+     "Behn"
+    ]
+   ]
+  },
+  {
+   "id": "xw3-lord-of-the-flies-characters",
+   "tags": [
+    "books"
+   ],
+   "text": "Name a character from William Golding's 'Lord of the Flies'",
+   "answers": [
+    "Ralph",
+    "Piggy",
+    [
+     "Jack Merridew",
+     "Jack"
+    ],
+    "Simon",
+    "Roger",
+    "Sam",
+    "Eric",
+    [
+     "Samneric",
+     "Sam and Eric"
+    ],
+    [
+     "Percival Wemys Madison",
+     "Percival"
+    ],
+    "Maurice",
+    "Robert",
+    "Bill",
+    "Henry",
+    "Johnny",
+    "Phil",
+    "Harold",
+    "The Beast",
+    "The Lord of the Flies",
+    "The Parachutist"
+   ]
+  },
+  {
+   "id": "xw3-mockingbird-characters",
+   "tags": [
+    "books"
+   ],
+   "text": "Name a character from Harper Lee's 'To Kill a Mockingbird'",
+   "answers": [
+    [
+     "Scout Finch",
+     "Scout",
+     "Jean Louise Finch"
+    ],
+    [
+     "Jem Finch",
+     "Jem"
+    ],
+    [
+     "Atticus Finch",
+     "Atticus"
+    ],
+    [
+     "Boo Radley",
+     "Arthur Radley",
+     "Boo"
+    ],
+    [
+     "Dill Harris",
+     "Dill"
+    ],
+    "Calpurnia",
+    "Tom Robinson",
+    "Bob Ewell",
+    [
+     "Mayella Ewell",
+     "Mayella"
+    ],
+    [
+     "Miss Maudie Atkinson",
+     "Miss Maudie",
+     "Maudie"
+    ],
+    [
+     "Aunt Alexandra",
+     "Alexandra"
+    ],
+    [
+     "Heck Tate",
+     "Sheriff Tate"
+    ],
+    "Mrs Dubose",
+    "Judge Taylor",
+    "Link Deas",
+    "Walter Cunningham",
+    "Dolphus Raymond",
+    "Reverend Sykes",
+    [
+     "Mr Underwood",
+     "Braxton Underwood"
+    ],
+    [
+     "Miss Caroline Fisher",
+     "Miss Caroline"
+    ],
+    [
+     "Uncle Jack",
+     "Jack Finch"
+    ],
+    "Nathan Radley",
+    [
+     "Mr Gilmer",
+     "Horace Gilmer"
+    ],
+    [
+     "Miss Stephanie Crawford",
+     "Stephanie Crawford"
+    ],
+    "Burris Ewell",
+    "Mr Avery",
+    "Zeebo",
+    "Helen Robinson",
+    "Mrs Merriweather",
+    "Uncle Jimmy",
+    "Francis Hancock"
+   ]
+  },
+  {
+   "id": "xw3-great-gatsby-characters",
+   "tags": [
+    "books"
+   ],
+   "text": "Name a character from F. Scott Fitzgerald's 'The Great Gatsby'",
+   "answers": [
+    [
+     "Jay Gatsby",
+     "Gatsby",
+     "James Gatz"
+    ],
+    [
+     "Nick Carraway",
+     "Nick"
+    ],
+    [
+     "Daisy Buchanan",
+     "Daisy"
+    ],
+    [
+     "Tom Buchanan",
+     "Tom"
+    ],
+    [
+     "Jordan Baker",
+     "Jordan"
+    ],
+    [
+     "Myrtle Wilson",
+     "Myrtle"
+    ],
+    "George Wilson",
+    [
+     "Meyer Wolfsheim",
+     "Wolfsheim",
+     "Wolfshiem"
+    ],
+    "Owl Eyes",
+    "Klipspringer",
+    "Dan Cody",
+    "Michaelis",
+    "Catherine",
+    "Pammy",
+    [
+     "Mr McKee",
+     "McKee"
+    ],
+    "Lucille McKee",
+    [
+     "Henry C. Gatz",
+     "Henry Gatz"
+    ],
+    "Walter Chase",
+    "Mr Sloane",
+    "Mrs Sloane",
+    "Ella Kaye",
+    "Benny McClenahan"
+   ]
+  },
+  {
+   "id": "xw3-jane-eyre-characters",
+   "tags": [
+    "books"
+   ],
+   "text": "Name a character from Charlotte Brontë's 'Jane Eyre'",
+   "answers": [
+    [
+     "Jane Eyre",
+     "Jane"
+    ],
+    [
+     "Mr Rochester",
+     "Edward Rochester",
+     "Rochester"
+    ],
+    [
+     "Bertha Mason",
+     "Bertha",
+     "Mrs Rochester"
+    ],
+    [
+     "St John Rivers",
+     "St John"
+    ],
+    [
+     "Mrs Fairfax",
+     "Alice Fairfax"
+    ],
+    [
+     "Adèle Varens",
+     "Adèle"
+    ],
+    "Helen Burns",
+    [
+     "Mr Brocklehurst",
+     "Brocklehurst"
+    ],
+    "Blanche Ingram",
+    [
+     "Mrs Reed",
+     "Sarah Reed"
+    ],
+    [
+     "Bessie",
+     "Bessie Lee"
+    ],
+    "Grace Poole",
+    "Diana Rivers",
+    "Mary Rivers",
+    [
+     "Miss Temple",
+     "Maria Temple"
+    ],
+    "John Reed",
+    "Richard Mason",
+    "Rosamond Oliver",
+    [
+     "Miss Abbot",
+     "Abbot"
+    ],
+    "Eliza Reed",
+    "Georgiana Reed",
+    [
+     "Mr Eyre",
+     "John Eyre"
+    ],
+    "Pilot",
+    "Mr Lloyd",
+    [
+     "Miss Scatcherd",
+     "Scatcherd"
+    ],
+    "Sophie",
+    "Leah",
+    "Lady Ingram",
+    "Colonel Dent",
+    "Mr Briggs",
+    "Hannah",
+    "Mesrour",
+    "Miss Miller",
+    "Mr Oliver"
+   ]
+  },
+  {
+   "id": "xw3-wuthering-heights-characters",
+   "tags": [
+    "books"
+   ],
+   "text": "Name a character from Emily Brontë's 'Wuthering Heights'",
+   "answers": [
+    "Heathcliff",
+    [
+     "Catherine Earnshaw",
+     "Cathy Earnshaw",
+     "Catherine",
+     "Cathy"
+    ],
+    "Edgar Linton",
+    [
+     "Isabella Linton",
+     "Isabella"
+    ],
+    [
+     "Hindley Earnshaw",
+     "Hindley"
+    ],
+    [
+     "Hareton Earnshaw",
+     "Hareton"
+    ],
+    [
+     "Nelly Dean",
+     "Ellen Dean",
+     "Nelly"
+    ],
+    [
+     "Lockwood",
+     "Mr Lockwood"
+    ],
+    [
+     "Cathy Linton",
+     "Catherine Linton",
+     "Young Cathy"
+    ],
+    [
+     "Linton Heathcliff",
+     "Linton"
+    ],
+    "Joseph",
+    [
+     "Frances Earnshaw",
+     "Frances"
+    ],
+    "Zillah",
+    [
+     "Mr Earnshaw",
+     "Old Earnshaw"
+    ],
+    "Mrs Earnshaw",
+    "Mr Linton",
+    "Mrs Linton",
+    [
+     "Dr Kenneth",
+     "Kenneth"
+    ],
+    "Mr Green"
+   ]
+  },
+  {
+   "id": "xw3-beano-characters",
+   "tags": [
+    "kids"
+   ],
+   "text": "Name a character from the Beano",
+   "answers": [
+    [
+     "Dennis the Menace",
+     "Dennis"
+    ],
+    "Gnasher",
+    [
+     "Minnie the Minx",
+     "Minnie"
+    ],
+    [
+     "Roger the Dodger",
+     "Roger"
+    ],
+    "Plug",
+    "Smiffy",
+    "Danny",
+    "Wilfrid",
+    "Spotty",
+    "Fatty",
+    "Toots",
+    "Sidney",
+    "'Erbert",
+    [
+     "Cuthbert Cringeworthy",
+     "Cuthbert"
+    ],
+    "Billy Whizz",
+    "Calamity James",
+    [
+     "Ivy the Terrible",
+     "Ivy"
+    ],
+    "Lord Snooty",
+    "Little Plum",
+    [
+     "Biffo the Bear",
+     "Biffo"
+    ],
+    "The Numskulls",
+    [
+     "Walter the Softy",
+     "Walter"
+    ],
+    "Les Pretend",
+    "Pansy Potter",
+    "Ball Boy",
+    "Rasher",
+    "Bananaman",
+    "Gnipper",
+    "Teacher",
+    "Joe King",
+    "Bash Street Kids",
+    "Pie Face",
+    "Tin Lizzie",
+    "General Jumbo",
+    "Ratz",
+    "Olive",
+    "Sweeney Toddler",
+    "Jonah",
+    "Tricky Dicky",
+    "Baby Face Finlayson",
+    "Billy the Cat"
+   ]
+  },
+  {
+   "id": "xw3-alice-wonderland-characters",
+   "tags": [
+    "kids"
+   ],
+   "text": "Name a character from Lewis Carroll's 'Alice' books (Wonderland or Through the Looking-Glass)",
+   "answers": [
+    "Alice",
+    "The White Rabbit",
+    [
+     "The Mad Hatter",
+     "Hatter"
+    ],
+    "The March Hare",
+    "The Cheshire Cat",
+    "The Queen of Hearts",
+    "The King of Hearts",
+    [
+     "The Caterpillar",
+     "Absolem"
+    ],
+    "The Dormouse",
+    "The Dodo",
+    "The Duchess",
+    "The Mock Turtle",
+    [
+     "The Gryphon",
+     "Griffin"
+    ],
+    "The Knave of Hearts",
+    [
+     "Bill the Lizard",
+     "Bill"
+    ],
+    "Tweedledum",
+    "Tweedledee",
+    "Humpty Dumpty",
+    [
+     "The Jabberwock",
+     "Jabberwocky"
+    ],
+    "The Red Queen",
+    "The White Queen",
+    "The White Knight",
+    "The Red King",
+    "The Walrus",
+    "The Carpenter",
+    [
+     "The Lion and the Unicorn",
+     "Lion",
+     "Unicorn"
+    ],
+    "Dinah",
+    "The Lory",
+    "The Eaglet",
+    "Pat",
+    "Mary Ann",
+    "The Pigeon",
+    "Bandersnatch",
+    "The Jubjub Bird",
+    "Haigha",
+    "Hatta",
+    "The Frog Footman",
+    "The Fish Footman",
+    "The Cook"
+   ]
+  },
+  {
+   "id": "xw3-peter-pan-characters",
+   "tags": [
+    "kids"
+   ],
+   "text": "Name a character from J. M. Barrie's 'Peter Pan'",
+   "answers": [
+    [
+     "Peter Pan",
+     "Peter"
+    ],
+    [
+     "Wendy Darling",
+     "Wendy"
+    ],
+    [
+     "John Darling",
+     "John"
+    ],
+    [
+     "Michael Darling",
+     "Michael"
+    ],
+    [
+     "Tinker Bell",
+     "Tink"
+    ],
+    [
+     "Captain Hook",
+     "Hook",
+     "James Hook"
+    ],
+    [
+     "Mr Smee",
+     "Smee"
+    ],
+    "Tiger Lily",
+    "Nana",
+    [
+     "Mr Darling",
+     "George Darling"
+    ],
+    [
+     "Mrs Darling",
+     "Mary Darling"
+    ],
+    "Tootles",
+    "Nibs",
+    "Slightly",
+    "Curly",
+    "The Twins",
+    "Starkey",
+    "Cecco",
+    "Noodler",
+    "Mullins",
+    [
+     "Bill Jukes",
+     "Jukes"
+    ],
+    "Cookson",
+    "Great Big Little Panther",
+    [
+     "The Crocodile",
+     "Tick-Tock"
+    ],
+    "Liza",
+    "The Lost Boys",
+    "Skylights",
+    "Alf Mason",
+    "Black Murphy",
+    "Alsatian Foggerty",
+    "Jane",
+    "Jas Hook"
+   ]
+  },
+  {
+   "id": "xw3-wombles",
+   "tags": [
+    "kids"
+   ],
+   "text": "Name a Womble",
+   "answers": [
+    [
+     "Great Uncle Bulgaria",
+     "Bulgaria"
+    ],
+    "Tobermory",
+    "Orinoco",
+    "Bungo",
+    "Tomsk",
+    "Wellington",
+    [
+     "Madame Cholet",
+     "Cholet"
+    ],
+    "Alderney",
+    [
+     "Miss Adelaide",
+     "Adelaide"
+    ],
+    "Cairngorm",
+    "Shansi",
+    "Stepney",
+    "Sidney",
+    [
+     "Obidiah Womble",
+     "Obidiah"
+    ],
+    "Botany"
+   ]
+  },
+  {
+   "id": "xw3-cbeebies-shows",
+   "tags": [
+    "kids"
+   ],
+   "text": "Name a CBeebies show (past or present)",
+   "answers": [
+    "Bluey",
+    "Hey Duggee",
+    "Teletubbies",
+    "In the Night Garden",
+    "Tweenies",
+    "Balamory",
+    "Something Special",
+    "Postman Pat",
+    "Octonauts",
+    "Numberblocks",
+    "Alphablocks",
+    "Go Jetters",
+    [
+     "Andy's Dinosaur Adventures",
+     "Andy's Adventures"
+    ],
+    "Bing",
+    "Sarah & Duck",
+    "Topsy and Tim",
+    "Waybuloo",
+    "Fimbles",
+    "Tikkabilla",
+    "Bob the Builder",
+    "Rastamouse",
+    "Peter Rabbit",
+    "Zingzillas",
+    "Justin's House",
+    "Swashbuckle",
+    "Tree Fu Tom",
+    "Mr Bloom's Nursery",
+    "Gigglebiz",
+    "Show Me Show Me",
+    "Chuggington",
+    "Charlie and Lola",
+    "The Clangers",
+    "Mister Maker",
+    "Pingu",
+    "Space Pirates",
+    "Nina and the Neurons",
+    "Katie Morag",
+    "Boj",
+    "Bitz & Bob",
+    "Biggleton",
+    "Grandpa in My Pocket",
+    "Fireman Sam",
+    "Little Charley Bear",
+    "Raa Raa the Noisy Lion",
+    "Me Too!",
+    "Baby Jake",
+    "Everything's Rosie",
+    "Come Outside",
+    "Tots TV"
+   ]
+  },
+  {
+   "id": "xw3-childrens-authors",
+   "tags": [
+    "kids"
+   ],
+   "text": "Name a children's author",
+   "answers": [
+    "Roald Dahl",
+    "Enid Blyton",
+    [
+     "J. K. Rowling",
+     "Rowling"
+    ],
+    "Julia Donaldson",
+    "David Walliams",
+    "Jacqueline Wilson",
+    "Michael Morpurgo",
+    [
+     "Dr. Seuss",
+     "Theodor Geisel",
+     "Seuss"
+    ],
+    "Beatrix Potter",
+    [
+     "A. A. Milne",
+     "AA Milne",
+     "Milne"
+    ],
+    "Lewis Carroll",
+    "C. S. Lewis",
+    [
+     "J. M. Barrie",
+     "Barrie"
+    ],
+    "Michael Bond",
+    "Eric Carle",
+    "Judith Kerr",
+    "Raymond Briggs",
+    "Roger Hargreaves",
+    "Mick Inkpen",
+    "Shirley Hughes",
+    "Allan Ahlberg",
+    "Janet Ahlberg",
+    "Michael Rosen",
+    "Lemony Snicket",
+    "Philip Pullman",
+    "Anthony Horowitz",
+    "Jeff Kinney",
+    "Rick Riordan",
+    "Eoin Colfer",
+    "Cressida Cowell",
+    "Francesca Simon",
+    "Lauren Child",
+    "Nick Butterworth",
+    "Jill Murphy",
+    "Mo Willems",
+    "Maurice Sendak",
+    "E. B. White",
+    "L. Frank Baum",
+    "Louisa May Alcott",
+    "Kenneth Grahame",
+    "Hugh Lofting",
+    "Dick King-Smith",
+    "Terry Pratchett",
+    "Neil Gaiman",
+    "Axel Scheffler",
+    "Quentin Blake",
+    "Jill Tomlinson",
+    "Martin Waddell",
+    "Nick Sharratt",
+    "Oliver Jeffers",
+    "Jon Klassen",
+    "Rob Biddulph",
+    "Tom Fletcher",
+    "Liz Pichon",
+    "Dav Pilkey",
+    "Cornelia Funke",
+    "Michelle Magorian",
+    "Anne Fine",
+    "Malorie Blackman",
+    "Jamila Gavin",
+    "Helen Cresswell",
+    "Joan Aiken",
+    "Nina Bawden",
+    [
+     "Edith Nesbit",
+     "E. Nesbit"
+    ],
+    "Arthur Ransome",
+    "Noel Streatfeild",
+    "Frances Hodgson Burnett",
+    "Johanna Spyri",
+    "Astrid Lindgren",
+    "Tove Jansson",
+    "Hergé",
+    "René Goscinny",
+    "Charles Perrault",
+    "Hans Christian Andersen",
+    [
+     "Brothers Grimm",
+     "Grimm"
+    ],
+    "Eleanor Updale",
+    "Katherine Rundell",
+    "Frank Cottrell-Boyce",
+    [
+     "Onjali Q. Raúf",
+     "Onjali Rauf"
+    ],
+    "Ross Welford",
+    "Charlie Higson",
+    "Robert Muchamore",
+    "Darren Shan",
+    "Derek Landy",
+    "Patrick Ness"
+   ]
+  },
+  {
+   "id": "xw3-morpurgo-books",
+   "tags": [
+    "kids"
+   ],
+   "text": "Name a book by Michael Morpurgo",
+   "answers": [
+    "War Horse",
+    "Private Peaceful",
+    "Kensuke's Kingdom",
+    "Why the Whales Came",
+    "The Butterfly Lion",
+    "Born to Run",
+    "Shadow",
+    "Running Wild",
+    "Farm Boy",
+    "Cool!",
+    "Friend or Foe",
+    "Mr Nobody's Eyes",
+    "The Wreck of the Zanzibar",
+    "Out of the Ashes",
+    "Alone on a Wide Wide Sea",
+    "Little Foxes",
+    "An Elephant in the Garden",
+    "Listen to the Moon",
+    "The Amazing Story of Adolphus Tips",
+    "Billy the Kid",
+    [
+     "Kaspar: Prince of Cats",
+     "Kaspar"
+    ],
+    "The Sleeping Sword",
+    "Waiting for Anya",
+    "The Last Wolf",
+    "Sparrow",
+    "Flamingo Boy",
+    "The Pied Piper of Hamelin",
+    "Pinocchio",
+    "Beowulf",
+    "Sir Gawain and the Green Knight",
+    "Robin of Sherwood",
+    "Arthur: High King of Britain",
+    "Twist of Gold",
+    "The Mozart Question",
+    "Homecoming"
+   ]
+  },
+  {
+   "id": "xw3-noddy-characters",
+   "tags": [
+    "kids"
+   ],
+   "text": "Name a character from Enid Blyton's Noddy stories",
+   "answers": [
+    "Noddy",
+    "Big Ears",
+    [
+     "Mr Plod",
+     "PC Plod"
+    ],
+    "Tessie Bear",
+    "Bumpy Dog",
+    "Martha Monkey",
+    "Sly",
+    "Gobbo",
+    [
+     "Mr Wobbly Man",
+     "Wobbly Man"
+    ],
+    "Dinah Doll",
+    "Mr Sparks",
+    "Clockwork Mouse",
+    [
+     "Master Tubby Bear",
+     "Tubby Bear"
+    ],
+    "Mr Jumbo",
+    "Mrs Tubby Bear",
+    "Miss Pink Cat",
+    "Mr Tubby Bear",
+    "Mr Straw",
+    "Bert Monkey",
+    "Sammy Sailor",
+    "Mrs Skittle",
+    "The Skittles",
+    "Mr Golly",
+    "Mr Milko",
+    "Mr Cuddles"
+   ]
+  },
+  {
+   "id": "xw3-matilda-characters",
+   "tags": [
+    "kids"
+   ],
+   "text": "Name a character from Roald Dahl's 'Matilda' (the book)",
+   "answers": [
+    [
+     "Matilda Wormwood",
+     "Matilda"
+    ],
+    [
+     "Miss Trunchbull",
+     "Agatha Trunchbull",
+     "Trunchbull"
+    ],
+    [
+     "Miss Honey",
+     "Jennifer Honey"
+    ],
+    [
+     "Bruce Bogtrotter",
+     "Bruce"
+    ],
+    "Lavender",
+    [
+     "Mr Wormwood",
+     "Harry Wormwood"
+    ],
+    [
+     "Mrs Wormwood",
+     "Zinnia Wormwood"
+    ],
+    [
+     "Michael Wormwood",
+     "Michael"
+    ],
+    [
+     "Amanda Thripp",
+     "Amanda"
+    ],
+    [
+     "Nigel Hicks",
+     "Nigel"
+    ],
+    "Hortensia",
+    "Eric Ink",
+    "Wilfred",
+    "Rupert",
+    "Mrs Phelps"
+   ]
+  },
+  {
+   "id": "xw3-seuss-characters",
+   "tags": [
+    "kids"
+   ],
+   "text": "Name a character from a Dr. Seuss book",
+   "answers": [
+    "The Cat in the Hat",
+    "The Grinch",
+    "Horton",
+    "The Lorax",
+    "Sam-I-Am",
+    "Thing One",
+    "Thing Two",
+    [
+     "Yertle the Turtle",
+     "Yertle"
+    ],
+    "Cindy Lou Who",
+    "Max",
+    "The Whos",
+    "The Sneetches",
+    "Bartholomew Cubbins",
+    "Gertrude McFuzz",
+    "Mayzie",
+    "Zax",
+    "Fox in Socks",
+    [
+     "Mr Knox",
+     "Knox"
+    ],
+    "Marvin K. Mooney",
+    "Mr Brown",
+    "Sally",
+    "Conrad Cornelius o'Donald o'Dell",
+    "Duck",
+    "Oliver Boliver Butt",
+    "The Once-ler",
+    "Mayor of Whoville",
+    "Gerald McBoing-Boing",
+    "Sylvester McMonkey McBean"
+   ]
+  },
+  {
+   "id": "xw3-wallace-gromit-characters",
+   "tags": [
+    "kids"
+   ],
+   "text": "Name a character from Wallace & Gromit",
+   "answers": [
+    "Wallace",
+    "Gromit",
+    "Feathers McGraw",
+    [
+     "Wendolene Ramsbottom",
+     "Wendolene"
+    ],
+    "Preston",
+    "Shaun",
+    [
+     "Lady Tottington",
+     "Lady Campanula Tottington"
+    ],
+    [
+     "Victor Quartermaine",
+     "Victor"
+    ],
+    "Hutch",
+    [
+     "Piella Bakewell",
+     "Piella"
+    ],
+    "Fluffles",
+    "Norbot",
+    "Sheep",
+    "Philip",
+    "Nigel",
+    "Shirley",
+    "Timmy",
+    "Bitzer",
+    "Farmer",
+    "Fido"
+   ]
+  },
+  {
+   "id": "xw3-german-loanwords",
+   "tags": [
+    "language"
+   ],
+   "text": "Name an English word that comes from German",
+   "answers": [
+    "Kindergarten",
+    "Angst",
+    "Rucksack",
+    "Doppelgänger",
+    "Schadenfreude",
+    "Zeitgeist",
+    "Wanderlust",
+    "Blitz",
+    "Poltergeist",
+    [
+     "Delicatessen",
+     "Deli"
+    ],
+    "Hamster",
+    "Noodle",
+    "Pretzel",
+    "Kitsch",
+    "Spiel",
+    "Ersatz",
+    "Leitmotif",
+    "Gesundheit",
+    "Hinterland",
+    "Abseil",
+    "Dachshund",
+    "Lager",
+    "Waltz",
+    "Zeppelin",
+    "Diesel",
+    "Spritzer",
+    "Strudel",
+    "Sauerkraut",
+    "Bratwurst",
+    "Muesli",
+    "Quartz",
+    "Nickel",
+    "Cobalt",
+    "Wunderkind",
+    "Verboten",
+    "Flak",
+    "Panzer",
+    "Kaput",
+    "Schnapps",
+    "Kohlrabi",
+    "Rottweiler",
+    "Gestalt",
+    "Poodle",
+    "Schnitzel",
+    "Frankfurter",
+    "Hamburger",
+    "Pumpernickel",
+    "Glockenspiel",
+    "Lederhosen",
+    "Edelweiss",
+    "Wiener",
+    "Dirndl",
+    "Autobahn",
+    "Blitzkrieg",
+    "Gesamtkunstwerk",
+    "Weltschmerz",
+    "Realpolitik",
+    "Ostpolitik",
+    "Lebensraum",
+    "Reich",
+    "Fuhrer",
+    "Stein",
+    "Sturm und Drang",
+    "Wurst",
+    "Katzenjammer",
+    "Hausfrau",
+    "Bildungsroman",
+    "Fräulein",
+    "Gneiss",
+    "Feldspar"
+   ]
+  },
+  {
+   "id": "xw3-italian-loanwords",
+   "tags": [
+    "language"
+   ],
+   "text": "Name an English word that comes from Italian",
+   "answers": [
+    "Pizza",
+    "Pasta",
+    "Piano",
+    "Opera",
+    "Balcony",
+    "Umbrella",
+    "Volcano",
+    "Graffiti",
+    "Studio",
+    "Solo",
+    "Fiasco",
+    "Paparazzi",
+    "Ghetto",
+    "Casino",
+    "Bravo",
+    "Diva",
+    "Gusto",
+    "Extravaganza",
+    "Bandit",
+    "Broccoli",
+    [
+     "Lasagne",
+     "Lasagna"
+    ],
+    "Confetti",
+    "Regatta",
+    "Stanza",
+    "Malaria",
+    "Influenza",
+    "Quarantine",
+    "Manifesto",
+    "Propaganda",
+    "Replica",
+    "Vendetta",
+    "Zucchini",
+    "Espresso",
+    "Latte",
+    "Cappuccino",
+    "Mozzarella",
+    "Salami",
+    "Pepperoni",
+    "Tempo",
+    "Soprano",
+    "Finale",
+    "Inferno",
+    "Motto",
+    "Lava",
+    "Artichoke",
+    "Risotto",
+    "Bruschetta",
+    "Gondola",
+    "Carnival",
+    "Cartoon",
+    "Cello",
+    "Violin",
+    "Scenario",
+    "Trampoline",
+    "Mafia",
+    "Ballot",
+    "Bankrupt",
+    "Bank",
+    "Cameo",
+    "Canteen",
+    "Gala",
+    "Lottery",
+    "Maestro",
+    "Marzipan",
+    "Mascara",
+    "Novel",
+    "Pergola",
+    "Pistol",
+    "Portico",
+    "Prima donna",
+    "Ravioli",
+    "Spaghetti",
+    "Sonnet",
+    "Stiletto",
+    "Tarantula",
+    "Terracotta",
+    "Torso",
+    "Virtuoso"
+   ]
+  },
+  {
+   "id": "xw3-chinese-loanwords",
+   "tags": [
+    "language"
+   ],
+   "text": "Name an English word that comes from Chinese",
+   "answers": [
+    "Tea",
+    "Kung fu",
+    "Wok",
+    "Tofu",
+    "Ketchup",
+    "Typhoon",
+    "Ginseng",
+    "Kowtow",
+    "Tycoon",
+    "Chop suey",
+    "Feng shui",
+    [
+     "Lychee",
+     "Litchi"
+    ],
+    "Silk",
+    "Chow mein",
+    "Dim sum",
+    "Gung ho",
+    "Kumquat",
+    "Loquat",
+    "Pekoe",
+    "Oolong",
+    "Chopsticks",
+    [
+     "Yin and yang",
+     "Yin",
+     "Yang"
+    ],
+    "Tai chi",
+    "Mahjong",
+    "Shih tzu",
+    "Pekingese",
+    "Tao",
+    "Cheongsam",
+    "Chow",
+    "Hoisin",
+    "Bok choy",
+    "Wonton",
+    "Taikonaut",
+    "Sampan",
+    "Yamen",
+    "Fan-tan",
+    "Pak choi",
+    "Lo mein",
+    "Kaolin",
+    "Long time no see",
+    "Brainwashing",
+    "Lose face",
+    "Paper tiger",
+    "Running dog",
+    "Hong",
+    "Souchong",
+    "Congou",
+    "Bohea",
+    "Jiaozi",
+    "Char siu",
+    "Yuan",
+    "Qi",
+    "Cumshaw",
+    "Chin-chin"
+   ]
+  },
+  {
+   "id": "xw3-native-american-loanwords",
+   "tags": [
+    "language"
+   ],
+   "text": "Name an English word that comes from a Native American language",
+   "answers": [
+    "Moose",
+    "Canoe",
+    "Raccoon",
+    "Skunk",
+    "Tomato",
+    "Chocolate",
+    "Avocado",
+    [
+     "Chilli",
+     "Chili"
+    ],
+    "Tobacco",
+    "Hurricane",
+    "Barbecue",
+    "Potato",
+    "Squash",
+    "Toboggan",
+    "Tomahawk",
+    "Wigwam",
+    "Moccasin",
+    "Totem",
+    "Powwow",
+    "Caribou",
+    "Chipmunk",
+    "Coyote",
+    "Maize",
+    "Hammock",
+    [
+     "Tepee",
+     "Tipi",
+     "Teepee"
+    ],
+    [
+     "Opossum",
+     "Possum"
+    ],
+    "Pecan",
+    "Hickory",
+    "Persimmon",
+    "Caucus",
+    "Papoose",
+    "Sachem",
+    "Wapiti",
+    "Woodchuck",
+    "Terrapin",
+    "Succotash",
+    "Quahog",
+    "Hominy",
+    "Mugwump",
+    "Sequoia",
+    "Cashew",
+    "Cocoa",
+    "Guacamole",
+    "Peyote",
+    "Mesquite",
+    "Condor",
+    "Llama",
+    "Puma",
+    "Jaguar",
+    "Quinine",
+    "Quinoa",
+    "Poncho",
+    "Alpaca",
+    "Coca",
+    "Guano",
+    "Chinchilla",
+    "Tapioca",
+    "Piranha",
+    "Jerky",
+    "Iguana",
+    "Hogan",
+    "Tamale"
+   ]
+  },
+  {
+   "id": "xw3-persian-loanwords",
+   "tags": [
+    "language"
+   ],
+   "text": "Name an English word that comes from Persian",
+   "answers": [
+    "Bazaar",
+    "Caravan",
+    "Paradise",
+    [
+     "Pyjamas",
+     "Pajamas"
+    ],
+    "Khaki",
+    "Shawl",
+    "Check",
+    "Checkmate",
+    "Lilac",
+    "Jasmine",
+    "Spinach",
+    "Tulip",
+    "Kiosk",
+    "Turban",
+    "Divan",
+    "Julep",
+    "Chess",
+    "Pistachio",
+    "Magic",
+    "Mogul",
+    "Pagoda",
+    "Scarlet",
+    "Taffeta",
+    "Tiara",
+    "Azure",
+    "Cummerbund",
+    "Dervish",
+    "Naan",
+    "Rook",
+    "Sherbet",
+    "Sorbet",
+    "Cushy",
+    "Chador",
+    "Kebab",
+    "Sepoy",
+    "Seersucker",
+    "Purdah",
+    "Tandoor",
+    "Pashmina",
+    "Taj",
+    "Shah",
+    [
+     "Caftan",
+     "Kaftan"
+    ],
+    "Baksheesh",
+    "Jackal"
+   ]
+  },
+  {
+   "id": "xw3-portuguese-loanwords",
+   "tags": [
+    "language"
+   ],
+   "text": "Name an English word that comes from Portuguese",
+   "answers": [
+    "Marmalade",
+    "Albino",
+    "Cobra",
+    "Banana",
+    "Molasses",
+    "Buffalo",
+    "Fetish",
+    "Flamingo",
+    "Piranha",
+    "Caste",
+    "Veranda",
+    "Tank",
+    "Zebra",
+    "Cashew",
+    "Mandarin",
+    "Monsoon",
+    "Tapioca",
+    "Emu",
+    "Junk",
+    "Palaver",
+    "Commando",
+    "Cuspidor",
+    "Mosquito",
+    "Pagoda",
+    "Samba",
+    "Bossa nova",
+    "Caravel",
+    "Mango",
+    "Coconut",
+    "Cassava",
+    "Yam",
+    "Fado",
+    "Tapir",
+    "Jaguar",
+    "Macaw",
+    "Dodo",
+    "Dengue",
+    "Joss",
+    "Typhoon",
+    "Auto-da-fé",
+    "Lingo",
+    "Pomfret",
+    "Piri-piri",
+    "Caipirinha",
+    "Carioca",
+    "Favela",
+    "Capoeira",
+    "Cachaça"
+   ]
+  },
+  {
+   "id": "xw3-russian-loanwords",
+   "tags": [
+    "language"
+   ],
+   "text": "Name an English word that comes from Russian",
+   "answers": [
+    "Vodka",
+    [
+     "Tsar",
+     "Czar"
+    ],
+    "Samovar",
+    "Babushka",
+    "Borscht",
+    "Troika",
+    "Sputnik",
+    "Gulag",
+    "Intelligentsia",
+    "Mammoth",
+    "Taiga",
+    "Steppe",
+    "Tundra",
+    "Cosmonaut",
+    "Perestroika",
+    "Glasnost",
+    "Balalaika",
+    "Pogrom",
+    "Kefir",
+    "Bolshevik",
+    "Soviet",
+    "Apparatchik",
+    "Sable",
+    "Beluga",
+    "Blini",
+    "Kalashnikov",
+    "Kremlin",
+    "Matryoshka",
+    [
+     "Ruble",
+     "Rouble"
+    ],
+    "Sambo",
+    [
+     "Stroganoff",
+     "Beef Stroganoff"
+    ],
+    [
+     "Tovarich",
+     "Comrade"
+    ],
+    "Duma",
+    "Kasha",
+    "Knout",
+    [
+     "Kopeck",
+     "Kopek"
+    ],
+    "Politburo",
+    "Sastruga",
+    "Shaman",
+    "Siberia",
+    "Ukase",
+    "Zek",
+    "Agitprop",
+    "Dacha",
+    "Kulak",
+    "Mir",
+    "Nyet",
+    [
+     "Molotov cocktail",
+     "Molotov"
+    ],
+    "Pelmeni",
+    "Pirozhki",
+    "Samizdat",
+    "Sovkhoz",
+    "Zakuska"
+   ]
+  },
+  {
+   "id": "xw3-constructed-languages",
+   "tags": [
+    "language"
+   ],
+   "text": "Name a constructed language (invented language)",
+   "answers": [
+    "Esperanto",
+    "Klingon",
+    "Quenya",
+    "Sindarin",
+    "Elvish",
+    "Dothraki",
+    [
+     "Valyrian",
+     "High Valyrian"
+    ],
+    "Na'vi",
+    "Volapük",
+    "Interlingua",
+    "Ido",
+    "Lojban",
+    "Toki Pona",
+    "Newspeak",
+    "Parseltongue",
+    "Láadan",
+    "Minionese",
+    "Simlish",
+    "Gallifreyan",
+    "Nadsat",
+    "Lapine",
+    [
+     "Dwarvish",
+     "Khuzdul"
+    ],
+    "Black Speech",
+    "Adûnaic",
+    "Atlantean",
+    "Huttese",
+    [
+     "Shyriiwook",
+     "Wookiee"
+    ],
+    [
+     "Mando'a",
+     "Mandalorian"
+    ],
+    "Occidental",
+    "Novial",
+    "Loglan",
+    "Solresol",
+    "Lingua Franca Nova",
+    "Ithkuil",
+    "Kēlen",
+    "Brithenig",
+    "Talossan",
+    "Entish",
+    "Orcish",
+    "Vulcan",
+    "Romulan",
+    "Goa'uld",
+    "Trigedasleng",
+    [
+     "Dovahzul",
+     "Dragon Language"
+    ],
+    "Elder Speech"
+   ]
+  },
+  {
+   "id": "xw3-money-slang",
+   "tags": [
+    "language"
+   ],
+   "text": "Name a British slang word for money or an amount of money",
+   "answers": [
+    "Quid",
+    "Fiver",
+    "Tenner",
+    "Nicker",
+    "Bob",
+    "Pony",
+    "Monkey",
+    "Grand",
+    "Score",
+    "Ton",
+    "Wonga",
+    "Dosh",
+    "Wedge",
+    "Readies",
+    "Brass",
+    "Lolly",
+    "Bread",
+    "Dough",
+    "Moolah",
+    "Smackers",
+    "Spondulicks",
+    "Sovs",
+    "Tanner",
+    "Bar",
+    "Bag of sand",
+    "Lady Godiva",
+    "Ayrton Senna",
+    "Cockle",
+    "Carpet",
+    "Bullseye",
+    "Bean",
+    "Rhino",
+    "Darwin",
+    "Half a bar",
+    "Sov",
+    "Guinea",
+    "Bender",
+    "Joey",
+    "Loot",
+    "Folding stuff",
+    "Wad"
+   ]
+  }
+ ]
+}
