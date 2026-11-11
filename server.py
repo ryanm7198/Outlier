@@ -127,6 +127,7 @@ def load_prompts():
         if not any(c["id"] == data["cat"] for c in CATS):
             CATS.append({
                 "id": data["cat"], "label": data["label"], "order": data.get("order", 99),
+                "parent": data.get("parent"),   # e.g. Football sits inside Sport
                 "filters": [{"label": g["label"], "tags": [{"id": t[0], "label": t[1]} for t in g["tags"]]}
                             for g in data.get("filters", [])],
             })
@@ -315,14 +316,28 @@ def filter_groups(cat):
     return []
 
 
+def parent_of(cat):
+    return next((c["parent"] for c in CATS if c["id"] == cat), None)
+
+
+def children_of(cat):
+    return [c["id"] for c in CATS if c["parent"] == cat]
+
+
+def in_cat(pcat, cat):
+    """A prompt counts for its own category, for its parent (Football questions are Sport too) and for Everything."""
+    return cat in ("all", pcat) or parent_of(pcat) == cat
+
+
 def pool(cat, tags, deep=None):
     """Prompt ids in a category that pass every filter group. Questions marked "deep" (specialist
-    ones, like one club's squad in one season) only come up once the player has picked a filter."""
+    ones, like one club's squad in one season) only come up once the player has picked a filter.
+    A parent category (Sport) includes its sub-categories (Football) until a filter of its own is picked."""
     tags = set(tags or [])
     groups = filter_groups(cat)
     out = []
     for p in PROMPTS.values():
-        if cat not in ("all", p["cat"]) or (p["deep"] and not (tags if deep is None else deep)):
+        if not in_cat(p["cat"], cat) or (p["deep"] and not (tags if deep is None else deep)):
             continue
         if p["era_only"] and p["era_only"] not in tags:   # decade versions need their decade picked
             continue
@@ -339,6 +354,15 @@ def buckets(cat, tags, ids):
     if cat == "all":   # Everything: share prompts out between the categories
         return [b for b in ([i for i in ids if PROMPTS[i]["cat"] == c["id"]] for c in CATS) if b]
     tags = set(tags or [])
+    if children_of(cat) and not tags:   # all of Sport: Football, Darts, Tennis... each get a share
+        def key(i):
+            p = PROMPTS[i]
+            if p["cat"] != cat:
+                return p["cat"]
+            own = filter_groups(cat)
+            return next((t for t in p["tags"] if own and t in own[0]), "")
+        keys = sorted({key(i) for i in ids})
+        return [[i for i in ids if key(i) == k] for k in keys]
     best = max((g & tags for g in filter_groups(cat)), key=len, default=set())
     if len(best) < 2:
         return [list(ids)]
@@ -349,7 +373,8 @@ def buckets(cat, tags, ids):
 def bucket_weights(cat, groups):
     """Chosen filters share prompts equally. In Everything, a category's share grows with the square
     root of its size, so small categories turn up often enough without repeating themselves."""
-    return [math.sqrt(len(b)) if cat == "all" else 1.0 for b in groups]
+    spread = cat == "all" or (children_of(cat) and len(groups) > 1)
+    return [math.sqrt(len(b)) if spread else 1.0 for b in groups]
 
 
 def pick_balanced(cat, tags, ids, seen, n):
@@ -382,9 +407,9 @@ def categories():
     out = [{"id": "all", "label": "Everything", "count": len(pool("all", [])), "filters": []}]
     for c in CATS:
         ids = pool(c["id"], [])
-        out.append({"id": c["id"], "label": c["label"], "count": len(ids),
+        out.append({"id": c["id"], "label": c["label"], "count": len(ids), "parent": c["parent"],
                     "tagsets": [p["tags"] + (["~deep"] if p["deep"] else []) + ([f'~only:{p["era_only"]}'] if p["era_only"] else [])
-                                for p in PROMPTS.values() if p["cat"] == c["id"]], "filters": [
+                                for p in PROMPTS.values() if in_cat(p["cat"], c["id"])], "filters": [
             {"label": g["label"], "tags": [
                 {"id": t["id"], "label": t["label"],
                  "count": len(pool(c["id"], [t["id"]]))} for t in g["tags"]]}

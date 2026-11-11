@@ -264,21 +264,37 @@ function pickLabel(p) {
 }
 
 function mountPicker(el, onChange) {
+  const chip = (on, data, label, off) =>
+    `<button class="chip${on ? ' on' : ''}" ${data} ${off ? 'disabled' : ''}>${esc(label)}</button>`;
+  const group = (title, chips) => `<div class="group"><h3>${esc(title)}</h3><div class="chips">${chips}</div></div>`;
   const draw = () => {
     const c = catOf(pick.cat);
+    const top = catOf(c.parent || c.id);                 // Sport, when Football is picked
+    const kids = CATS.filter(x => x.parent === top.id);  // sub-categories with filters of their own
+    // A parent's first filter group (Darts, Tennis...) sits in one row with its sub-categories (Football).
+    const [lead, ...rest] = kids.length ? top.filters : [null, ...c.filters];
+    const own = c.id === top.id ? rest : c.filters;
     el.innerHTML = `<div class="picker">
-      <div class="group"><h3>Category</h3><div class="chips">${CATS.map(x =>
-        `<button class="chip${x.id === c.id ? ' on' : ''}" data-cat="${x.id}">${esc(x.label)}</button>`).join('')}</div></div>
-      ${c.filters.map(g => `<div class="group"><h3>${esc(g.label)}</h3><div class="chips">${g.tags.map(t =>
-        `<button class="chip${pick.tags.includes(t.id) ? ' on' : ''}" data-tag="${t.id}" ${t.count ? '' : 'disabled'}>${esc(t.label)}</button>`).join('')}</div></div>`).join('')}
-      <p class="muted">${poolCount(pick)} prompts match${c.filters.length && !pick.tags.length ? ' · tap a filter to narrow it down' : ''}</p>
+      ${group('Category', CATS.filter(x => !x.parent).map(x => chip(x.id === top.id, `data-cat="${x.id}"`, x.label)).join(''))}
+      ${kids.length ? group(top.label, [
+        chip(c.id === top.id && !pick.tags.some(t => lead.tags.some(x => x.id === t)), `data-cat="${top.id}"`, `All ${top.label.toLowerCase()}`),
+        ...kids.map(k => chip(c.id === k.id, `data-cat="${k.id}"`, k.label)),
+        ...lead.tags.map(t => chip(c.id === top.id && pick.tags.includes(t.id), `data-sub="${t.id}"`, t.label, !t.count)),
+      ].join('')) : ''}
+      ${own.map(g => group(g.label, g.tags.map(t => chip(pick.tags.includes(t.id), `data-tag="${t.id}"`, t.label, !t.count)).join(''))).join('')}
+      <p class="muted">${poolCount(pick)} prompts match${(own.length || kids.length) && !pick.tags.length ? ' · tap a filter to narrow it down' : ''}</p>
     </div>`;
   };
   el.onclick = e => {
     const b = e.target.closest('.chip');
     if (!b) return;
+    const toggle = t => pick.tags.includes(t) ? pick.tags.filter(x => x !== t) : [...pick.tags, t];
     if (b.dataset.cat) pick = { cat: b.dataset.cat, tags: [] };
-    else pick.tags = pick.tags.includes(b.dataset.tag) ? pick.tags.filter(t => t !== b.dataset.tag) : [...pick.tags, b.dataset.tag];
+    else if (b.dataset.sub) {   // a sport inside Sport: several can be mixed
+      const top = catOf(pick.cat).parent || pick.cat;
+      pick = pick.cat === top ? { cat: top, tags: toggle(b.dataset.sub) } : { cat: top, tags: [b.dataset.sub] };
+    }
+    else pick.tags = toggle(b.dataset.tag);
     store.set('outlier.pick', pick);
     draw();
     onChange && onChange();
