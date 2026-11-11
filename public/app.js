@@ -388,7 +388,7 @@ function home() {
       ${crowdHTML(3)}
     </div>
     <div class="modes">
-      ${mode('solo', 'user', 'Play solo', 'Daily five, or seven prompts to challenge a friend', true)}
+      ${mode('solo', 'user', 'Play solo', 'Daily five, or a quick game to challenge a friend', true)}
       ${mode('party', 'users', 'Party game', 'Everyone plays together on their own phone')}
     </div>
     ${streak.n > 1 ? `<div class="streak">${ic('flame')}<span><b>${streak.n}-day</b> daily streak</span></div>` : ''}
@@ -426,7 +426,7 @@ function soloMenu() {
     const c = catOf(pick.cat), saved = store.get('outlier.daily.' + c.id);
     const today = new Date().toLocaleDateString('en-CA');
     const done = saved && saved.date === today && saved.done;
-    $('#free').innerHTML = `${ic('play')}<span><b>Play 7 prompts</b><small>${esc(pickLabel(pick))} · challenge a friend after</small></span>`;
+    $('#free').innerHTML = `${ic('play')}<span><b>Quick game</b><small>7 prompts · ${esc(pickLabel(pick))} · challenge a friend after</small></span>`;
     $('#daily').innerHTML = `${ic('calendar')}<span><b>Daily five · ${esc(c.label)}</b><small>${done ? `Played today: ${saved.total} paces. Tap to view.` : 'Same five prompts for everyone today'}</small></span>`;
     $('#free').disabled = !poolCount(pick);
   };
@@ -524,7 +524,7 @@ function dailySummary(run) {
       <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}</span></li>`).join('')}</ul>
     <div class="stack">
       <button class="btn primary" id="share">Share result</button>
-      <button class="btn" id="free">Play a seven-prompt game</button>
+      <button class="btn" id="free">Play a quick game</button>
     </div>
     <p class="muted center">New prompts tomorrow.</p>`);
   $('#back').onclick = soloMenu;
@@ -639,7 +639,7 @@ function challengeIntro(seed, from, pts) {
   show(`<div class="hero">
       <div class="logo">Outl<b>i</b>er</div>
       <p>${rival ? `<b>${esc(rival.name)}</b> scored <b>${total}</b> paces on 7 prompts.<br>Can you get further from the crowd?`
-        : 'Someone sent you a seven-prompt game.'}</p>
+        : 'Someone sent you a quick game to play.'}</p>
       ${crowdHTML(3)}
     </div>
     <div class="stack">
