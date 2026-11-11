@@ -112,9 +112,7 @@ async function shareText(text, url) {
 
 // ------------------------------------------------------------ scoring visuals
 
-// Every answer sits in a rarity tier with a fixed score: Common 10, Uncommon 25, Rare 50, Ball knowledge 75, Outlier 100.
-const TIERS = ['', 'Common', 'Uncommon', 'Rare', 'Ball knowledge', 'Outlier!'];
-const TIER_NAMES = ['', 'Common', 'Uncommon', 'Rare', 'Ball knowledge', 'Outlier'];
+const TIERS = ['', 'With the crowd', 'Common', 'Uncommon', 'Rare', 'Outlier!'];
 const SQUARES = ['⬛', '🟫', '🟧', '🟨', '🟩', '🟪'];
 const tier = pts => pts >= 100 ? 5 : pts >= 75 ? 4 : pts >= 50 ? 3 : pts >= 25 ? 2 : pts > 0 ? 1 : 0;
 
@@ -171,10 +169,10 @@ function buildUp(res) {
   const finish = () => {
     skipBuild = null;
     if (!pts.isConnected) return;
-    const t = res.tier || (res.outlier ? 5 : Math.min(4, tier(res.points)));
+    const t = res.outlier ? 5 : Math.min(4, tier(res.points));
     paint(res.points, lit);
     box.className = `result t${t} done`;
-    if (res.valid) tierEl.innerHTML = `<span class="tierbadge t${t}"><i></i>${TIER_NAMES[t]}${t === 5 ? '!' : ''}</span>`;
+    if (res.valid) tierEl.innerHTML = `<span class="tierbadge t${t}"><i></i>${TIERS[t]}</span>`;
     else tierEl.textContent = res.given ? 'Not on the list' : 'No answer';
     // A buzz for the good ones: short for Rare and Ball knowledge, a double for an Outlier.
     try { if (res.valid && t >= 3 && navigator.vibrate) navigator.vibrate(t === 5 ? [70, 50, 140] : 35); } catch { /* not supported */ }
@@ -207,11 +205,9 @@ function outlierHTML(list, mine) {
 
 function boardHTML(board, mine, total) {
   const more = total && total > board.length;
-  const t = b => b.tier || tier(b.points);
-  // Grouped by tier, rarest last; each tier shows what it is worth.
-  return `<details><summary>${more ? `See the top answers (${total} in all)` : `See every answer (${board.length})`}</summary><ol class="rows board">${board.map((b, i) => `
-    ${i && t(board[i - 1]) === t(b) ? '' : `<li class="tierhead t${t(b)}"><span class="main">${TIER_NAMES[t(b)]}</span><span class="num">${b.points}</span></li>`}
-    <li class="${b.name === mine ? 'me' : ''}"><span class="main"><b>${esc(b.name)}</b></span><span class="share">${b.share}%</span></li>`).join('')}</ol></details>`;
+  return `<details><summary>${more ? `See the top answers (${total} in all)` : `See every answer (${board.length})`}</summary><ol class="rows board">${board.map(b => `
+    <li class="${b.name === mine ? 'me' : ''}"><span class="main"><b>${esc(b.name)}</b></span>
+    ${b.outlier ? '<span class="tag">Outlier</span>' : ''}<span class="share">${b.share}%</span><span class="num">${b.points}</span></li>`).join('')}</ol></details>`;
 }
 
 function questionHTML(text) {
@@ -561,10 +557,9 @@ function home() {
       <h3>How it works</h3>
       <ol class="steps">
         <li><b>1</b><span>Get a prompt, like <i>Name a Pixar film</i>, and 30 seconds to answer.</span></li>
-        <li><b>2</b><span>Any correct answer scores. The fewer people who say it, the more it is worth.</span></li>
-        <li><b>3</b><span>Hit the <b>Outlier</b>, the rarest answer on the list, for the full 100.</span></li>
+        <li><b>2</b><span>Any correct answer scores, from 10 for the one everyone says up to 99 for the rarest. The fewer people who say it, the more it is worth.</span></li>
+        <li><b>3</b><span>Find the <b>Outlier</b>, the single rarest answer on the list (two on very long lists), for the full 100.</span></li>
       </ol>
-      <div class="tiers">${[1, 2, 3, 4, 5].map(t => `<span class="tierpill t${t}"><i></i>${TIER_NAMES[t]}<b>${[0, 10, 25, 50, 75, 100][t]}</b></span>`).join('')}</div>
       <p class="fine">Every answer played shifts how common it is. In party games, players who give the same answer share half the points.</p>
     </section>`);
   $('#solo').onclick = soloMenu;
@@ -750,18 +745,23 @@ function gameQuestion(run) {
   $('#quit').onclick = soloMenu;
 }
 
-// A challenge link: /c/<name>/<seed><one rarity-tier digit per prompt>, e.g. /c/Ryan/QRdC4e8K...Lu1235402
+// A challenge link: /c/<name>/<seed><two base-36 characters of points per prompt>
 function challengeLink(run, name) {
   const who = encodeURIComponent(name.replace(/\s+/g, '_'));
-  return `${location.origin}/c/${who}/${run.game.seed}${run.results.map(r => tier(r.points)).join('')}`;
+  return `${location.origin}/c/${who}/${run.game.seed}${run.results.map(r => Math.min(100, r.points).toString(36).padStart(2, '0')).join('')}`;
 }
 
 function readChallenge(path) {
   const [, , who = '', token = ''] = path.split('/');
-  const k = Math.floor(token.length / 5);
+  const name = decodeURIComponent(who).replace(/_/g, ' ');
+  if (token.length && token.length % 6 === 0) {   // seed (4 characters a prompt) then points (2 a prompt)
+    const k = token.length / 6, pts = token.slice(4 * k);
+    return { seed: token.slice(0, 4 * k), from: name, pts: pts.match(/../g).map(x => Math.min(100, parseInt(x, 36) || 0)).join('.') };
+  }
+  const k = Math.floor(token.length / 5);   // older links: one rarity-tier digit a prompt
   if (!k) return null;
   const pts = [...token.slice(4 * k)].map(d => [0, 10, 25, 50, 75, 100][+d] || 0).join('.');
-  return { seed: token.slice(0, 4 * k), from: decodeURIComponent(who).replace(/_/g, ' '), pts };
+  return { seed: token.slice(0, 4 * k), from: name, pts };
 }
 
 function gameSummary(run) {
@@ -1008,7 +1008,7 @@ function partyReveal(s, host) {
     ${mine ? resultHTML(mine) : ''}
     <div class="after${mine ? ' wait' : ''}">
     <ul class="rows card">${r.results.map(x => `<li class="${x.n === s.you ? 'me' : ''}">
-      <span class="main"><b>${esc(x.name)}</b><small>${x.valid ? `${esc(x.canonical)} · ${x.tier && x.tier < 5 ? TIER_NAMES[x.tier] + ' · ' : ''}${x.share}% said it`
+      <span class="main"><b>${esc(x.name)}</b><small>${x.valid ? `${esc(x.canonical)} · ${x.share}% said it`
         : x.given ? `<span class="strike">${esc(x.given)}</span> · not on the list` : 'No answer'}</small></span>
       ${x.outlier ? '<span class="tag">Outlier</span>' : ''}${x.shared ? '<span class="tag">Shared ½</span>' : ''}${x.doubled ? '<span class="tag dbl">×2</span>' : ''}<span class="num">+${x.points}</span></li>`).join('')}</ul>
     ${crowdChart(r)}

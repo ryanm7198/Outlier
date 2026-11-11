@@ -109,15 +109,6 @@ h4 { font-size: .74rem; letter-spacing: .07em; text-transform: uppercase; color:
 .steps { display: grid; gap: 10px; }
 .steps li { display: flex; gap: 12px; align-items: flex-start; font-size: .93rem; }
 .steps li > b { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; flex: none; font-size: .78rem; background: var(--you-soft); color: var(--you); }
-.tiers { display: flex; flex-wrap: wrap; gap: 6px; }
-.tierpill { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; border-radius: 99px; background: var(--card-2); font-size: .8rem; font-weight: 600; }
-.tierpill i { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
-.tierpill b { color: var(--muted); font-weight: 700; }
-.tierpill.t1 i { color: var(--t1); }
-.tierpill.t2 i { color: var(--t2); }
-.tierpill.t3 i { color: var(--t3); }
-.tierpill.t4 i { color: var(--t4); }
-.tierpill.t5 i { color: var(--t5); }
 
 /* Buttons and inputs */
 button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; touch-action: manipulation; }
@@ -335,10 +326,6 @@ details summary { cursor: pointer; color: var(--muted); padding: 8px 0; font-siz
 .bars .bs { font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .bars .who { font-size: .7rem; font-weight: 700; padding: 1px 7px; border-radius: 99px; background: var(--you); color: var(--you-ink); }
 
-/* answer board grouped by rarity tier */
-.board li.tierhead { padding: 10px 0 2px; border: 0; font-size: .72rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
-.board li.tierhead .num { color: var(--muted); font-size: .72rem; }
-.board li.tierhead.t4, .board li.tierhead.t5 { color: var(--you); }
 
 /* result tier badge, coloured like the How it works legend */
 .tierbadge { display: inline-flex; align-items: center; gap: 7px; padding: 5px 12px; border-radius: 99px; font-size: .82rem; letter-spacing: .08em;
