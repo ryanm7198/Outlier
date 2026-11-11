@@ -1,0 +1,4963 @@
+{
+ "cat": "science",
+ "prompts": [
+  {
+   "id": "xn4-body-enzymes",
+   "tags": [
+    "body"
+   ],
+   "text": "Name an enzyme (a biological catalyst, like amylase)",
+   "answers": [
+    [
+     "Amylase",
+     "Salivary amylase"
+    ],
+    [
+     "Lipase",
+     "Pancreatic lipase"
+    ],
+    "Pepsin",
+    "Trypsin",
+    "Lactase",
+    "Protease",
+    "Catalase",
+    "DNA polymerase",
+    "Helicase",
+    [
+     "Ligase",
+     "DNA ligase"
+    ],
+    "Maltase",
+    "Sucrase",
+    [
+     "Renin",
+     "Rennin"
+    ],
+    "Lysozyme",
+    [
+     "ATP synthase",
+     "ATPase"
+    ],
+    "Kinase",
+    "RNA polymerase",
+    "Carbonic anhydrase",
+    "Rubisco",
+    "Cellulase",
+    "Pectinase",
+    "Urease",
+    "Reverse transcriptase",
+    "Telomerase",
+    "Chymotrypsin",
+    "Thrombin",
+    "Peptidase",
+    "Nuclease",
+    "Enterokinase",
+    "Lactate dehydrogenase",
+    "Cytochrome oxidase",
+    "Peroxidase",
+    "Hexokinase",
+    "Phosphatase",
+    "Topoisomerase",
+    [
+     "Restriction enzyme",
+     "Restriction endonuclease"
+    ],
+    "Taq polymerase",
+    "Papain",
+    "Bromelain",
+    "Invertase",
+    "Chymosin",
+    "Zymase",
+    "Pepsinogen",
+    "Elastase",
+    "Nitrogenase",
+    "Luciferase",
+    "Glucose oxidase",
+    "Aldolase",
+    "Isomerase",
+    "Primase"
+   ]
+  },
+  {
+   "id": "xn4-body-eye-conditions",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a condition or disease that affects the eyes",
+   "answers": [
+    [
+     "Cataract",
+     "Cataracts"
+    ],
+    "Glaucoma",
+    [
+     "Myopia",
+     "Short-sightedness",
+     "Nearsightedness"
+    ],
+    [
+     "Hyperopia",
+     "Long-sightedness",
+     "Farsightedness",
+     "Hypermetropia"
+    ],
+    "Astigmatism",
+    [
+     "Conjunctivitis",
+     "Pink eye"
+    ],
+    [
+     "Macular degeneration",
+     "AMD",
+     "Age-related macular degeneration"
+    ],
+    [
+     "Colour blindness",
+     "Color blindness"
+    ],
+    [
+     "Retinal detachment",
+     "Detached retina"
+    ],
+    [
+     "Stye",
+     "Sty"
+    ],
+    [
+     "Squint",
+     "Strabismus"
+    ],
+    "Presbyopia",
+    "Uveitis",
+    [
+     "Amblyopia",
+     "Lazy eye"
+    ],
+    "Dry eye",
+    "Floaters",
+    "Diabetic retinopathy",
+    "Keratoconus",
+    "Blepharitis",
+    "Retinitis pigmentosa",
+    "Nystagmus",
+    [
+     "Night blindness",
+     "Nyctalopia"
+    ],
+    "Chalazion",
+    [
+     "Ptosis",
+     "Drooping eyelid"
+    ],
+    "Optic neuritis",
+    "Trachoma",
+    "Pterygium",
+    "Scleritis",
+    "Keratitis",
+    "Retinoblastoma",
+    [
+     "Macular oedema",
+     "Macular edema"
+    ],
+    "Corneal abrasion",
+    "Corneal ulcer",
+    "Ocular hypertension",
+    "Cytomegalovirus retinitis",
+    "Retinopathy of prematurity",
+    "Thyroid eye disease",
+    "Ectropion",
+    "Entropion",
+    "Anisocoria"
+   ]
+  },
+  {
+   "id": "xn4-body-mental-health",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a mental health condition or disorder",
+   "answers": [
+    "Depression",
+    [
+     "Anxiety",
+     "Generalised anxiety disorder",
+     "GAD"
+    ],
+    [
+     "OCD",
+     "Obsessive-compulsive disorder"
+    ],
+    [
+     "PTSD",
+     "Post-traumatic stress disorder"
+    ],
+    [
+     "Bipolar disorder",
+     "Bipolar",
+     "Manic depression"
+    ],
+    "Schizophrenia",
+    [
+     "ADHD",
+     "Attention deficit hyperactivity disorder"
+    ],
+    [
+     "Autism",
+     "Autism spectrum disorder",
+     "ASD"
+    ],
+    [
+     "Anorexia",
+     "Anorexia nervosa"
+    ],
+    [
+     "Bulimia",
+     "Bulimia nervosa"
+    ],
+    "Binge eating disorder",
+    [
+     "Panic disorder",
+     "Panic attacks"
+    ],
+    "Phobia",
+    [
+     "Borderline personality disorder",
+     "BPD"
+    ],
+    "Psychosis",
+    [
+     "Social anxiety",
+     "Social phobia"
+    ],
+    "Agoraphobia",
+    "Dementia",
+    [
+     "Tourette's",
+     "Tourette syndrome"
+    ],
+    [
+     "Hypochondria",
+     "Health anxiety",
+     "Hypochondriasis"
+    ],
+    [
+     "Seasonal affective disorder",
+     "SAD"
+    ],
+    [
+     "Postnatal depression",
+     "Postpartum depression"
+    ],
+    "Insomnia",
+    [
+     "Body dysmorphia",
+     "Body dysmorphic disorder",
+     "BDD"
+    ],
+    [
+     "Narcissistic personality disorder",
+     "NPD"
+    ],
+    [
+     "Dissociative identity disorder",
+     "Multiple personality disorder"
+    ],
+    "Kleptomania",
+    "Trichotillomania",
+    "Paranoia",
+    "Delusional disorder",
+    "Cyclothymia",
+    "Dysthymia",
+    "Selective mutism",
+    "Separation anxiety",
+    [
+     "Munchausen syndrome",
+     "Munchausen's"
+    ],
+    [
+     "Antisocial personality disorder",
+     "Psychopathy"
+    ],
+    "Conduct disorder",
+    [
+     "Oppositional defiant disorder",
+     "ODD"
+    ],
+    "Pyromania",
+    [
+     "Hoarding disorder",
+     "Hoarding"
+    ],
+    "Anxiety disorder",
+    "Schizoaffective disorder",
+    "Avoidant personality disorder",
+    "Orthorexia",
+    "Pica"
+   ]
+  },
+  {
+   "id": "xn4-body-skin-conditions",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a skin condition or skin disease",
+   "answers": [
+    "Acne",
+    [
+     "Eczema",
+     "Atopic dermatitis"
+    ],
+    "Psoriasis",
+    "Rosacea",
+    "Dermatitis",
+    "Shingles",
+    "Impetigo",
+    "Ringworm",
+    [
+     "Warts",
+     "Wart"
+    ],
+    "Verruca",
+    [
+     "Hives",
+     "Urticaria",
+     "Nettle rash"
+    ],
+    "Vitiligo",
+    "Cellulitis",
+    [
+     "Athlete's foot",
+     "Tinea pedis"
+    ],
+    "Scabies",
+    [
+     "Cold sore",
+     "Cold sores",
+     "Herpes simplex"
+    ],
+    "Melanoma",
+    [
+     "Boils",
+     "Boil"
+    ],
+    "Sunburn",
+    [
+     "Cyst",
+     "Cysts"
+    ],
+    "Chickenpox",
+    "Measles",
+    "Lupus",
+    "Alopecia",
+    "Cradle cap",
+    "Seborrhoeic dermatitis",
+    "Scleroderma",
+    "Folliculitis",
+    "Dandruff",
+    "Blisters",
+    "Chilblains",
+    [
+     "Prickly heat",
+     "Heat rash"
+    ],
+    [
+     "Keloid scars",
+     "Keloid"
+    ],
+    "Moles",
+    "Skin tags",
+    "Milia",
+    "Albinism",
+    [
+     "Melasma",
+     "Hyperpigmentation"
+    ],
+    "Basal cell carcinoma",
+    "Squamous cell carcinoma",
+    "Pityriasis rosea",
+    "Lichen planus",
+    "Molluscum contagiosum",
+    "Pemphigus",
+    "Hidradenitis suppurativa",
+    "Psoriatic arthritis",
+    "Actinic keratosis",
+    "Contact dermatitis",
+    "Nappy rash",
+    "Rash",
+    "Erythema",
+    "Carbuncle",
+    "Abscess",
+    [
+     "Pressure sore",
+     "Bedsore"
+    ]
+   ]
+  },
+  {
+   "id": "xn4-body-nhs-vaccines",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a disease that people in the UK are routinely offered a vaccine against (NHS schedule, 2026)",
+   "answers": [
+    "Diphtheria",
+    "Tetanus",
+    [
+     "Whooping cough",
+     "Pertussis"
+    ],
+    [
+     "Polio",
+     "Poliomyelitis"
+    ],
+    [
+     "Hib",
+     "Haemophilus influenzae type b"
+    ],
+    "Hepatitis B",
+    "Rotavirus",
+    [
+     "Meningitis",
+     "Meningococcal disease",
+     "MenB",
+     "MenACWY"
+    ],
+    [
+     "Pneumococcal disease",
+     "Pneumonia",
+     "Pneumococcus"
+    ],
+    "Measles",
+    "Mumps",
+    [
+     "Rubella",
+     "German measles"
+    ],
+    [
+     "Chickenpox",
+     "Varicella"
+    ],
+    [
+     "HPV",
+     "Human papillomavirus",
+     "Cervical cancer"
+    ],
+    [
+     "Flu",
+     "Influenza"
+    ],
+    [
+     "Shingles",
+     "Herpes zoster"
+    ],
+    [
+     "RSV",
+     "Respiratory syncytial virus"
+    ],
+    [
+     "COVID-19",
+     "Covid",
+     "Coronavirus"
+    ],
+    [
+     "Tuberculosis",
+     "TB"
+    ]
+   ]
+  },
+  {
+   "id": "xn4-body-pairs",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a part of the human body that you normally have two of",
+   "answers": [
+    [
+     "Eyes",
+     "Eye"
+    ],
+    [
+     "Ears",
+     "Ear"
+    ],
+    [
+     "Lungs",
+     "Lung"
+    ],
+    [
+     "Kidneys",
+     "Kidney"
+    ],
+    [
+     "Arms",
+     "Arm"
+    ],
+    [
+     "Legs",
+     "Leg"
+    ],
+    [
+     "Hands",
+     "Hand"
+    ],
+    [
+     "Feet",
+     "Foot"
+    ],
+    "Ovaries",
+    [
+     "Testicles",
+     "Testes",
+     "Balls"
+    ],
+    [
+     "Eyebrows",
+     "Eyebrow"
+    ],
+    "Cheeks",
+    "Nostrils",
+    "Shoulders",
+    "Knees",
+    "Elbows",
+    "Hips",
+    "Wrists",
+    "Ankles",
+    "Thumbs",
+    "Breasts",
+    "Adrenal glands",
+    "Heels",
+    "Calves",
+    "Thighs",
+    "Buttocks",
+    "Eyelids",
+    [
+     "Collarbones",
+     "Clavicles"
+    ],
+    [
+     "Shoulder blades",
+     "Scapulae"
+    ],
+    "Palms",
+    "Biceps",
+    "Triceps",
+    "Hamstrings",
+    [
+     "Quadriceps",
+     "Quads"
+    ],
+    "Earlobes",
+    [
+     "Cerebral hemispheres",
+     "Hemispheres"
+    ],
+    "Atria",
+    "Ventricles",
+    "Fallopian tubes",
+    "Parotid glands",
+    "Tonsils",
+    "Eyeballs",
+    "Pupils",
+    "Irises",
+    "Retinas",
+    "Optic nerves",
+    "Carotid arteries",
+    "Jugular veins",
+    "Forearms",
+    "Upper arms",
+    [
+     "Armpits",
+     "Underarms"
+    ],
+    "Temples",
+    "Nipples",
+    "Shins"
+   ]
+  },
+  {
+   "id": "xn4-body-antibiotics",
+   "tags": [
+    "body"
+   ],
+   "text": "Name an antibiotic",
+   "answers": [
+    "Penicillin",
+    "Amoxicillin",
+    "Erythromycin",
+    "Tetracycline",
+    "Doxycycline",
+    "Ciprofloxacin",
+    "Flucloxacillin",
+    "Clarithromycin",
+    "Azithromycin",
+    "Metronidazole",
+    "Trimethoprim",
+    "Vancomycin",
+    "Streptomycin",
+    [
+     "Cefalexin",
+     "Cephalexin"
+    ],
+    "Gentamicin",
+    [
+     "Co-amoxiclav",
+     "Augmentin"
+    ],
+    "Nitrofurantoin",
+    "Clindamycin",
+    "Rifampicin",
+    "Isoniazid",
+    "Methicillin",
+    "Ampicillin",
+    "Cefuroxime",
+    "Ceftriaxone",
+    "Chloramphenicol",
+    "Levofloxacin",
+    "Linezolid",
+    "Meropenem",
+    "Neomycin",
+    "Fusidic acid",
+    [
+     "Phenoxymethylpenicillin",
+     "Penicillin V"
+    ],
+    "Pivmecillinam",
+    "Lymecycline",
+    "Minocycline",
+    "Colistin",
+    "Daptomycin",
+    [
+     "Co-trimoxazole",
+     "Septrin",
+     "Sulfamethoxazole"
+    ],
+    "Teicoplanin",
+    [
+     "Mupirocin",
+     "Bactroban"
+    ],
+    "Tobramycin",
+    "Amikacin",
+    "Ertapenem",
+    [
+     "Piperacillin",
+     "Tazocin"
+    ],
+    "Cefotaxime",
+    "Kanamycin",
+    "Bacitracin",
+    "Aztreonam",
+    "Tigecycline",
+    "Cefixime",
+    "Cefaclor",
+    "Ofloxacin",
+    "Norfloxacin",
+    "Moxifloxacin",
+    "Bedaquiline"
+   ]
+  },
+  {
+   "id": "xn4-body-cell-parts",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a part of a cell (animal, plant or bacterial)",
+   "answers": [
+    "Nucleus",
+    [
+     "Mitochondria",
+     "Mitochondrion"
+    ],
+    [
+     "Ribosome",
+     "Ribosomes"
+    ],
+    [
+     "Cell membrane",
+     "Plasma membrane"
+    ],
+    "Cytoplasm",
+    [
+     "Golgi apparatus",
+     "Golgi body",
+     "Golgi"
+    ],
+    [
+     "Endoplasmic reticulum",
+     "ER"
+    ],
+    "Lysosome",
+    "Vacuole",
+    "Chloroplast",
+    "Cell wall",
+    "Centriole",
+    "Peroxisome",
+    "Nucleolus",
+    "Cytoskeleton",
+    "Vesicle",
+    [
+     "Chromosome",
+     "Chromosomes"
+    ],
+    "DNA",
+    "Flagellum",
+    [
+     "Cilia",
+     "Cilium"
+    ],
+    "Plasmid",
+    [
+     "Nuclear envelope",
+     "Nuclear membrane"
+    ],
+    "Chromatin",
+    "Centrosome",
+    [
+     "Microtubules",
+     "Microtubule"
+    ],
+    "Cytosol",
+    [
+     "Rough endoplasmic reticulum",
+     "Rough ER"
+    ],
+    [
+     "Smooth endoplasmic reticulum",
+     "Smooth ER"
+    ],
+    "Nuclear pore",
+    "Capsule",
+    [
+     "Pili",
+     "Pilus"
+    ],
+    "Thylakoid",
+    "Stroma",
+    "Cristae",
+    "Microfilament",
+    "RNA",
+    "Plasmodesmata",
+    "Amyloplast",
+    "Chromoplast",
+    [
+     "Phospholipid bilayer",
+     "Lipid bilayer"
+    ],
+    "Tonoplast",
+    "Nucleoid",
+    "Cell sap",
+    "Glycocalyx",
+    "Granum"
+   ]
+  },
+  {
+   "id": "xn4-body-bacteria",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a bacterium (a genus or species of bacteria, such as E. coli)",
+   "answers": [
+    [
+     "E. coli",
+     "Escherichia coli"
+    ],
+    "Salmonella",
+    [
+     "Staphylococcus aureus",
+     "Staphylococcus",
+     "Staph aureus",
+     "Staph"
+    ],
+    [
+     "Streptococcus",
+     "Strep"
+    ],
+    "Listeria",
+    "Campylobacter",
+    [
+     "Clostridium difficile",
+     "C. diff"
+    ],
+    [
+     "Clostridium botulinum",
+     "Botulinum"
+    ],
+    "Clostridium tetani",
+    [
+     "Helicobacter pylori",
+     "H. pylori"
+    ],
+    "Legionella",
+    "Lactobacillus",
+    "Bifidobacterium",
+    "MRSA",
+    [
+     "Mycobacterium tuberculosis",
+     "Mycobacterium"
+    ],
+    [
+     "Vibrio cholerae",
+     "Vibrio"
+    ],
+    [
+     "Bacillus anthracis",
+     "Anthrax bacterium"
+    ],
+    [
+     "Yersinia pestis",
+     "Yersinia"
+    ],
+    [
+     "Treponema pallidum",
+     "Treponema"
+    ],
+    [
+     "Chlamydia trachomatis",
+     "Chlamydia"
+    ],
+    [
+     "Neisseria gonorrhoeae",
+     "Gonococcus"
+    ],
+    [
+     "Neisseria meningitidis",
+     "Meningococcus"
+    ],
+    [
+     "Pseudomonas aeruginosa",
+     "Pseudomonas"
+    ],
+    [
+     "Borrelia burgdorferi",
+     "Borrelia"
+    ],
+    [
+     "Bordetella pertussis",
+     "Bordetella"
+    ],
+    "Shigella",
+    [
+     "Streptococcus pneumoniae",
+     "Pneumococcus"
+    ],
+    "Haemophilus influenzae",
+    [
+     "Corynebacterium diphtheriae",
+     "Corynebacterium"
+    ],
+    "Klebsiella",
+    "Proteus",
+    "Acinetobacter",
+    "Enterococcus",
+    "Clostridium perfringens",
+    "Rickettsia",
+    "Coxiella",
+    "Brucella",
+    "Francisella",
+    "Leptospira",
+    "Mycoplasma",
+    "Wolbachia",
+    "Rhizobium",
+    "Cyanobacteria",
+    "Streptomyces",
+    "Acetobacter",
+    "Bacillus subtilis",
+    "Thermus aquaticus",
+    "Deinococcus radiodurans",
+    "Mycobacterium leprae",
+    "Lactococcus",
+    "Serratia",
+    "Enterobacter",
+    "Vibrio parahaemolyticus"
+   ]
+  },
+  {
+   "id": "xn4-body-genetic-conditions",
+   "tags": [
+    "body"
+   ],
+   "text": "Name a genetic or inherited condition",
+   "answers": [
+    [
+     "Cystic fibrosis",
+     "CF"
+    ],
+    [
+     "Haemophilia",
+     "Hemophilia"
+    ],
+    [
+     "Sickle cell disease",
+     "Sickle cell anaemia",
+     "Sickle cell"
+    ],
+    [
+     "Huntington's disease",
+     "Huntington's"
+    ],
+    [
+     "Down's syndrome",
+     "Down syndrome"
+    ],
+    [
+     "Colour blindness",
+     "Color blindness"
+    ],
+    [
+     "Tay-Sachs disease",
+     "Tay-Sachs"
+    ],
+    "Turner syndrome",
+    "Klinefelter syndrome",
+    [
+     "Muscular dystrophy",
+     "Duchenne muscular dystrophy",
+     "Duchenne"
+    ],
+    "Marfan syndrome",
+    [
+     "Phenylketonuria",
+     "PKU"
+    ],
+    [
+     "Thalassaemia",
+     "Thalassemia"
+    ],
+    "Albinism",
+    [
+     "Fragile X syndrome",
+     "Fragile X"
+    ],
+    "Prader-Willi syndrome",
+    [
+     "Edwards' syndrome",
+     "Trisomy 18"
+    ],
+    [
+     "Patau syndrome",
+     "Patau's syndrome",
+     "Trisomy 13"
+    ],
+    "Angelman syndrome",
+    "Williams syndrome",
+    "Polycystic kidney disease",
+    "Neurofibromatosis",
+    [
+     "Spinal muscular atrophy",
+     "SMA"
+    ],
+    [
+     "Haemochromatosis",
+     "Hemochromatosis"
+    ],
+    "Familial hypercholesterolaemia",
+    "Cri-du-chat syndrome",
+    "Ehlers-Danlos syndrome",
+    "Achondroplasia",
+    "Rett syndrome",
+    "Gaucher disease",
+    "Wilson's disease",
+    "Polydactyly",
+    "Lynch syndrome",
+    [
+     "Osteogenesis imperfecta",
+     "Brittle bone disease"
+    ],
+    "DiGeorge syndrome",
+    "Tuberous sclerosis",
+    "Noonan syndrome",
+    "Kallmann syndrome",
+    "Alpha-1 antitrypsin deficiency",
+    "Triple X syndrome",
+    "Sturge-Weber syndrome",
+    "Hereditary spherocytosis",
+    "Glycogen storage disease"
+   ]
+  },
+  {
+   "id": "xn4-maths-factors-120",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a factor of 120 (a whole number that divides exactly into 120, answer in digits)",
+   "answers": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "8",
+    "10",
+    "12",
+    "15",
+    "20",
+    "24",
+    "30",
+    "40",
+    "60",
+    "120"
+   ]
+  },
+  {
+   "id": "xn4-maths-multiples-8",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a multiple of 8 below 100 (answer in digits)",
+   "answers": [
+    "8",
+    "16",
+    "24",
+    "32",
+    "40",
+    "48",
+    "56",
+    "64",
+    "72",
+    "80",
+    "88",
+    "96"
+   ]
+  },
+  {
+   "id": "xn4-maths-multiples-13",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a multiple of 13 below 200 (answer in digits)",
+   "answers": [
+    "13",
+    "26",
+    "39",
+    "52",
+    "65",
+    "78",
+    "91",
+    "104",
+    "117",
+    "130",
+    "143",
+    "156",
+    "169",
+    "182",
+    "195"
+   ]
+  },
+  {
+   "id": "xn4-maths-theorems",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a famous mathematical theorem, conjecture, paradox or problem",
+   "answers": [
+    [
+     "Pythagoras' theorem",
+     "Pythagorean theorem",
+     "Pythagoras"
+    ],
+    [
+     "Fermat's Last Theorem",
+     "Fermat's theorem",
+     "Fermat"
+    ],
+    [
+     "Riemann hypothesis",
+     "Riemann"
+    ],
+    [
+     "Goldbach's conjecture",
+     "Goldbach"
+    ],
+    [
+     "Collatz conjecture",
+     "Collatz",
+     "3n+1 problem"
+    ],
+    [
+     "Four colour theorem",
+     "Four color theorem"
+    ],
+    [
+     "P versus NP",
+     "P vs NP",
+     "P=NP"
+    ],
+    "Poincaré conjecture",
+    "Twin prime conjecture",
+    "Fundamental theorem of algebra",
+    "Euler's identity",
+    "Binomial theorem",
+    [
+     "Bayes' theorem",
+     "Bayes"
+    ],
+    "Central limit theorem",
+    [
+     "Gödel's incompleteness theorems",
+     "Incompleteness theorem"
+    ],
+    "Fermat's little theorem",
+    "Chinese remainder theorem",
+    "Fundamental theorem of calculus",
+    [
+     "Law of cosines",
+     "Cosine rule"
+    ],
+    [
+     "Thales' theorem",
+     "Thales"
+    ],
+    "Prime number theorem",
+    "Hodge conjecture",
+    [
+     "Navier-Stokes existence and smoothness",
+     "Navier-Stokes"
+    ],
+    "Yang-Mills",
+    [
+     "Birch and Swinnerton-Dyer conjecture",
+     "Birch and Swinnerton-Dyer"
+    ],
+    "Kepler conjecture",
+    "Basel problem",
+    [
+     "Seven Bridges of Königsberg",
+     "Konigsberg bridges",
+     "Königsberg bridge problem"
+    ],
+    "Monty Hall problem",
+    [
+     "Birthday paradox",
+     "Birthday problem"
+    ],
+    "Banach-Tarski paradox",
+    "Pigeonhole principle",
+    "Hairy ball theorem",
+    "Brouwer fixed-point theorem",
+    "Ramsey's theorem",
+    [
+     "Cantor's theorem",
+     "Cantor's diagonal argument"
+    ],
+    [
+     "Euclid's theorem",
+     "Infinitude of primes"
+    ],
+    "Lagrange's theorem",
+    "Pick's theorem",
+    "Noether's theorem",
+    [
+     "Zeno's paradoxes",
+     "Zeno's paradox",
+     "Zeno"
+    ],
+    "Halting problem",
+    "Squaring the circle",
+    [
+     "Travelling salesman problem",
+     "Travelling salesman"
+    ],
+    "Russell's paradox",
+    [
+     "Law of sines",
+     "Sine rule's formula"
+    ]
+   ]
+  },
+  {
+   "id": "xn4-maths-functions",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a mathematical function (like sine)",
+   "answers": [
+    [
+     "Sine",
+     "Sin"
+    ],
+    [
+     "Cosine",
+     "Cos"
+    ],
+    [
+     "Tangent",
+     "Tan"
+    ],
+    [
+     "Logarithm",
+     "Log"
+    ],
+    "Exponential",
+    [
+     "Square root",
+     "Sqrt"
+    ],
+    "Factorial",
+    [
+     "Absolute value",
+     "Modulus"
+    ],
+    "Floor",
+    "Ceiling",
+    [
+     "Secant",
+     "Sec"
+    ],
+    [
+     "Cosecant",
+     "Cosec",
+     "Csc"
+    ],
+    [
+     "Cotangent",
+     "Cot"
+    ],
+    [
+     "Hyperbolic sine",
+     "Sinh"
+    ],
+    [
+     "Hyperbolic cosine",
+     "Cosh"
+    ],
+    [
+     "Hyperbolic tangent",
+     "Tanh"
+    ],
+    [
+     "Arcsine",
+     "Arcsin",
+     "Inverse sine"
+    ],
+    [
+     "Arccosine",
+     "Arccos",
+     "Inverse cosine"
+    ],
+    [
+     "Arctangent",
+     "Arctan",
+     "Inverse tangent"
+    ],
+    [
+     "Step function",
+     "Heaviside function"
+    ],
+    "Sigmoid",
+    [
+     "Gamma function",
+     "Gamma"
+    ],
+    [
+     "Zeta function",
+     "Riemann zeta function"
+    ],
+    "Quadratic",
+    "Linear",
+    "Cubic",
+    "Polynomial",
+    [
+     "Natural logarithm",
+     "ln"
+    ],
+    "Identity function",
+    "Constant function",
+    [
+     "Sign function",
+     "Signum"
+    ],
+    [
+     "Dirac delta function",
+     "Delta function"
+    ],
+    [
+     "Error function",
+     "erf"
+    ],
+    "Bessel function",
+    [
+     "Euler's totient function",
+     "Totient"
+    ],
+    "Logistic function",
+    "Reciprocal",
+    "Cube root",
+    "Power function",
+    "Rational function",
+    "Sawtooth wave",
+    "Square wave"
+   ]
+  },
+  {
+   "id": "xn4-maths-leap-years",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a leap year between 1900 and 2100 (answer in digits)",
+   "answers": [
+    "1904",
+    "1908",
+    "1912",
+    "1916",
+    "1920",
+    "1924",
+    "1928",
+    "1932",
+    "1936",
+    "1940",
+    "1944",
+    "1948",
+    "1952",
+    "1956",
+    "1960",
+    "1964",
+    "1968",
+    "1972",
+    "1976",
+    "1980",
+    "1984",
+    "1988",
+    "1992",
+    "1996",
+    "2000",
+    "2004",
+    "2008",
+    "2012",
+    "2016",
+    "2020",
+    "2024",
+    "2028",
+    "2032",
+    "2036",
+    "2040",
+    "2044",
+    "2048",
+    "2052",
+    "2056",
+    "2060",
+    "2064",
+    "2068",
+    "2072",
+    "2076",
+    "2080",
+    "2084",
+    "2088",
+    "2092",
+    "2096"
+   ]
+  },
+  {
+   "id": "xn4-maths-roulette",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a number on a European roulette wheel (answer in digits)",
+   "answers": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36"
+   ]
+  },
+  {
+   "id": "xn4-maths-dartboard",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a number on a standard dartboard (1 to 20, or the bull as 25 or 50, answer in digits)",
+   "answers": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "25",
+    "50"
+   ]
+  },
+  {
+   "id": "xn4-maths-palindromes",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name a palindromic number between 10 and 200 (it reads the same backwards, answer in digits)",
+   "answers": [
+    "11",
+    "22",
+    "33",
+    "44",
+    "55",
+    "66",
+    "77",
+    "88",
+    "99",
+    "101",
+    "111",
+    "121",
+    "131",
+    "141",
+    "151",
+    "161",
+    "171",
+    "181",
+    "191"
+   ]
+  },
+  {
+   "id": "xn4-maths-school-tools",
+   "tags": [
+    "maths"
+   ],
+   "text": "Name something used in maths for measuring, drawing or calculating",
+   "answers": [
+    "Ruler",
+    "Protractor",
+    [
+     "Compass",
+     "Pair of compasses",
+     "Compasses"
+    ],
+    "Set square",
+    "Calculator",
+    "Pencil",
+    [
+     "Rubber",
+     "Eraser"
+    ],
+    "Sharpener",
+    "Abacus",
+    "Slide rule",
+    "Graph paper",
+    "Dividers",
+    [
+     "Geometry set",
+     "Maths set"
+    ],
+    "T-square",
+    "French curve",
+    "Stencil",
+    "Tape measure",
+    "Trundle wheel",
+    [
+     "Callipers",
+     "Calipers"
+    ],
+    "Micrometer",
+    "Spirit level",
+    "Plumb line",
+    "Theodolite",
+    "Napier's bones",
+    "Cuisenaire rods",
+    [
+     "Metre stick",
+     "Metre rule"
+    ],
+    "Stopwatch",
+    [
+     "Weighing scales",
+     "Scales"
+    ],
+    "Measuring jug",
+    "Pen",
+    "Clinometer",
+    "Planimeter",
+    "Sextant"
+   ]
+  },
+  {
+   "id": "xn4-nature-garden-birds",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a bird commonly seen in UK gardens",
+   "answers": [
+    [
+     "House sparrow",
+     "Sparrow"
+    ],
+    "Starling",
+    "Blue tit",
+    "Blackbird",
+    "Woodpigeon",
+    "Robin",
+    "Goldfinch",
+    "Great tit",
+    "Magpie",
+    "Long-tailed tit",
+    "Collared dove",
+    [
+     "Dunnock",
+     "Hedge sparrow"
+    ],
+    "Wren",
+    "Chaffinch",
+    "Coal tit",
+    "Greenfinch",
+    "Jackdaw",
+    [
+     "Carrion crow",
+     "Crow"
+    ],
+    [
+     "Song thrush",
+     "Thrush"
+    ],
+    "Nuthatch",
+    [
+     "Great spotted woodpecker",
+     "Woodpecker"
+    ],
+    "Bullfinch",
+    "Siskin",
+    "Sparrowhawk",
+    "Jay",
+    "Blackcap",
+    "Goldcrest",
+    "Mistle thrush",
+    [
+     "Pied wagtail",
+     "Wagtail"
+    ],
+    "Green woodpecker",
+    "Fieldfare",
+    "Redwing",
+    "Tawny owl",
+    "Treecreeper",
+    [
+     "Feral pigeon",
+     "Pigeon"
+    ],
+    [
+     "Herring gull",
+     "Seagull"
+    ],
+    "Rook",
+    "Brambling",
+    [
+     "Lesser redpoll",
+     "Redpoll"
+    ],
+    "Chiffchaff",
+    "Marsh tit",
+    "Willow tit",
+    "Great black-backed gull",
+    [
+     "Ring-necked parakeet",
+     "Parakeet"
+    ],
+    "Reed bunting",
+    "Yellowhammer",
+    "Swallow",
+    "House martin",
+    "Swift",
+    "Mallard",
+    "Linnet",
+    "Waxwing",
+    "Tree sparrow"
+   ]
+  },
+  {
+   "id": "xn4-nature-wild-flowers",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a wild flower found in Britain",
+   "answers": [
+    "Bluebell",
+    "Primrose",
+    "Daisy",
+    "Buttercup",
+    "Dandelion",
+    "Foxglove",
+    [
+     "Poppy",
+     "Common poppy"
+    ],
+    "Cowslip",
+    "Harebell",
+    "Cornflower",
+    "Snowdrop",
+    [
+     "Wood anemone",
+     "Anemone"
+    ],
+    "Ox-eye daisy",
+    "Red campion",
+    "Meadowsweet",
+    [
+     "Lords-and-ladies",
+     "Cuckoo pint"
+    ],
+    "Cow parsley",
+    [
+     "Lesser celandine",
+     "Celandine"
+    ],
+    "Speedwell",
+    "Forget-me-not",
+    "Yarrow",
+    "Thistle",
+    [
+     "Heather",
+     "Ling"
+    ],
+    [
+     "Gorse",
+     "Furze"
+    ],
+    [
+     "Orchid",
+     "Bee orchid",
+     "Early purple orchid"
+    ],
+    [
+     "Violet",
+     "Dog violet"
+    ],
+    [
+     "Clover",
+     "Red clover"
+    ],
+    "Stitchwort",
+    "Ragwort",
+    "Bindweed",
+    "Honeysuckle",
+    [
+     "Bramble",
+     "Blackberry"
+    ],
+    "Teasel",
+    [
+     "Lady's smock",
+     "Cuckooflower"
+    ],
+    "Ragged robin",
+    "Vetch",
+    "Herb Robert",
+    [
+     "Scabious",
+     "Field scabious"
+    ],
+    [
+     "Rosebay willowherb",
+     "Fireweed"
+    ],
+    [
+     "Marsh marigold",
+     "Kingcup"
+    ],
+    [
+     "Wild garlic",
+     "Ramsons"
+    ],
+    [
+     "Sea thrift",
+     "Thrift"
+    ],
+    "Sea campion",
+    "Dog rose",
+    "Cranesbill",
+    "Bird's-foot trefoil",
+    "Self-heal",
+    [
+     "Knapweed",
+     "Common knapweed"
+    ],
+    [
+     "Wild carrot",
+     "Queen Anne's lace"
+    ],
+    "Comfrey",
+    [
+     "Stinging nettle",
+     "Nettle"
+    ],
+    "Dock",
+    "Plantain",
+    "Chicory",
+    "Mallow",
+    "Tormentil",
+    [
+     "Scarlet pimpernel",
+     "Pimpernel"
+    ],
+    "Bugle",
+    "Betony",
+    "Mullein",
+    "Viper's bugloss",
+    "Toadflax",
+    "Hogweed",
+    "Hemp-agrimony",
+    "Sorrel",
+    "Tansy",
+    "Woundwort",
+    "Lungwort",
+    "Pasqueflower",
+    [
+     "Snake's-head fritillary",
+     "Fritillary"
+    ],
+    "Lady's bedstraw",
+    "Butterbur",
+    "Coltsfoot",
+    [
+     "White water-lily",
+     "Water-lily"
+    ],
+    [
+     "Yellow flag iris",
+     "Yellow iris",
+     "Flag iris"
+    ],
+    "Sundew",
+    "Saxifrage",
+    "Wood sorrel",
+    [
+     "Red valerian",
+     "Valerian"
+    ],
+    "Evening primrose",
+    "Himalayan balsam",
+    "Wild thyme",
+    "Greater stitchwort"
+   ]
+  },
+  {
+   "id": "xn4-nature-seabirds",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a seabird recorded in Great Britain",
+   "answers": [
+    "Gannet",
+    [
+     "Puffin",
+     "Atlantic puffin"
+    ],
+    "Fulmar",
+    "Kittiwake",
+    "Herring gull",
+    "Black-headed gull",
+    "Cormorant",
+    "Shag",
+    "Guillemot",
+    "Razorbill",
+    "Manx shearwater",
+    "Storm petrel",
+    "Leach's petrel",
+    "Arctic tern",
+    "Common tern",
+    "Sandwich tern",
+    "Little tern",
+    "Roseate tern",
+    [
+     "Great skua",
+     "Bonxie"
+    ],
+    "Arctic skua",
+    "Common gull",
+    "Great black-backed gull",
+    "Lesser black-backed gull",
+    "Mediterranean gull",
+    "Glaucous gull",
+    "Iceland gull",
+    [
+     "Black guillemot",
+     "Tystie"
+    ],
+    "Little auk",
+    "Sooty shearwater",
+    "Balearic shearwater",
+    "Great shearwater",
+    "Cory's shearwater",
+    "Pomarine skua",
+    "Long-tailed skua",
+    "Little gull",
+    "Sabine's gull",
+    "Black tern",
+    "Ring-billed gull",
+    "Yellow-legged gull",
+    "Caspian gull",
+    "Bonaparte's gull",
+    "Kumlien's gull",
+    "Ivory gull",
+    "Ross's gull",
+    "Gull-billed tern",
+    "Caspian tern",
+    "Whiskered tern",
+    "White-winged black tern",
+    [
+     "Albatross",
+     "Black-browed albatross"
+    ],
+    "Wilson's petrel",
+    "Madeiran petrel",
+    "Fea's petrel"
+   ]
+  },
+  {
+   "id": "xn4-nature-beetles",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a type of beetle",
+   "answers": [
+    "Stag beetle",
+    [
+     "Ladybird",
+     "Ladybug"
+    ],
+    "Dung beetle",
+    "Ground beetle",
+    [
+     "Scarab beetle",
+     "Scarab"
+    ],
+    "Weevil",
+    [
+     "Cockchafer",
+     "Maybug"
+    ],
+    "Firefly",
+    "Glow-worm",
+    [
+     "Longhorn beetle",
+     "Longhorn"
+    ],
+    "Rhinoceros beetle",
+    [
+     "Colorado beetle",
+     "Colorado potato beetle"
+    ],
+    "Goliath beetle",
+    "Devil's coach-horse",
+    "Click beetle",
+    "Bombardier beetle",
+    "Tiger beetle",
+    [
+     "Diving beetle",
+     "Great diving beetle"
+    ],
+    "Whirligig beetle",
+    [
+     "Burying beetle",
+     "Sexton beetle"
+    ],
+    "Rove beetle",
+    "Deathwatch beetle",
+    [
+     "Woodworm",
+     "Furniture beetle"
+    ],
+    "Hercules beetle",
+    "Jewel beetle",
+    "Leaf beetle",
+    "Blister beetle",
+    "Oil beetle",
+    "Carpet beetle",
+    "Flea beetle",
+    "Bark beetle",
+    "Elm bark beetle",
+    "Violet ground beetle",
+    "Soldier beetle",
+    "Cardinal beetle",
+    "Rosemary beetle",
+    "Lily beetle",
+    "Asparagus beetle",
+    [
+     "Harlequin ladybird",
+     "Harlequin"
+    ],
+    [
+     "Seven-spot ladybird",
+     "7-spot ladybird"
+    ],
+    "Minotaur beetle",
+    "Water beetle",
+    "Ambrosia beetle",
+    "Japanese beetle",
+    [
+     "Cucumber beetle beetle",
+     "Darkling beetle"
+    ],
+    "Titan beetle",
+    "Atlas beetle",
+    "Reed beetle",
+    "Chafer",
+    "Tortoise beetle",
+    "Spider beetle",
+    "Pill beetle",
+    "Wasp beetle",
+    "Bloody-nosed beetle",
+    "Dor beetle",
+    "Hornet beetle"
+   ]
+  },
+  {
+   "id": "xn4-nature-spiders",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a type of spider",
+   "answers": [
+    "House spider",
+    [
+     "Garden spider",
+     "Garden orb weaver",
+     "Cross spider"
+    ],
+    "Tarantula",
+    "Black widow",
+    [
+     "Funnel-web spider",
+     "Funnel-web"
+    ],
+    [
+     "Huntsman spider",
+     "Huntsman"
+    ],
+    "Wolf spider",
+    "Jumping spider",
+    "Orb-weaver",
+    "Money spider",
+    [
+     "False widow",
+     "Noble false widow"
+    ],
+    "Redback",
+    [
+     "Brown recluse",
+     "Recluse"
+    ],
+    "Trapdoor spider",
+    "Crab spider",
+    [
+     "Goliath birdeater",
+     "Bird-eating spider",
+     "Goliath bird-eating spider"
+    ],
+    "Fishing spider",
+    "Raft spider",
+    "Zebra spider",
+    [
+     "Cellar spider",
+     "Daddy-long-legs spider",
+     "Daddy longlegs"
+    ],
+    "Lace-web spider",
+    "Water spider",
+    "Wasp spider",
+    [
+     "Brazilian wandering spider",
+     "Banana spider"
+    ],
+    "Sydney funnel-web",
+    "White-tailed spider",
+    [
+     "Sac spider",
+     "Yellow sac spider"
+    ],
+    "Cardinal spider",
+    "Giant house spider",
+    "Mouse spider",
+    "Peacock spider",
+    "Bolas spider",
+    "Spitting spider",
+    "Pirate spider",
+    "Cave spider",
+    "Woodlouse spider",
+    "Ladybird spider",
+    "Hobo spider",
+    "Black house spider",
+    "Brown widow",
+    "Pumpkin spider",
+    [
+     "Spiny orb-weaver",
+     "Spiny-backed orb-weaver"
+    ],
+    "Golden orb-weaver",
+    "Nursery web spider",
+    [
+     "Diving bell spider",
+     "Diving bell"
+    ],
+    "Camel spider"
+   ]
+  },
+  {
+   "id": "xn4-nature-snakes",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a type of snake",
+   "answers": [
+    "Cobra",
+    "Python",
+    "Viper",
+    "Adder",
+    "Anaconda",
+    [
+     "Boa constrictor",
+     "Boa"
+    ],
+    "Rattlesnake",
+    [
+     "Mamba",
+     "Black mamba"
+    ],
+    "King cobra",
+    "Grass snake",
+    "Smooth snake",
+    "Corn snake",
+    "Garter snake",
+    "Copperhead",
+    [
+     "Cottonmouth",
+     "Water moccasin"
+    ],
+    "Taipan",
+    "Krait",
+    "Sidewinder",
+    "Coral snake",
+    "Boomslang",
+    "Bushmaster",
+    "Sea snake",
+    "Tiger snake",
+    "Rat snake",
+    "Milk snake",
+    "King snake",
+    "Green tree python",
+    "Reticulated python",
+    "Burmese python",
+    [
+     "Ball python",
+     "Royal python"
+    ],
+    "Carpet python",
+    "Rock python",
+    "Puff adder",
+    "Gaboon viper",
+    "Fer-de-lance",
+    "Eastern brown snake",
+    "Inland taipan",
+    "Death adder",
+    "Asp",
+    "Whip snake",
+    "Hognose snake",
+    "Vine snake",
+    "Indigo snake",
+    "Gopher snake",
+    "Bull snake",
+    [
+     "Black racer",
+     "Racer"
+    ],
+    "Coachwhip",
+    "Mamushi",
+    "Habu",
+    "Saw-scaled viper",
+    "Russell's vipering snake",
+    "Water snake",
+    "Egyptian cobra",
+    "Spitting cobra",
+    [
+     "Western diamondback",
+     "Diamondback"
+    ],
+    "Emerald tree boa",
+    "Rainbow boa",
+    "Sand boa",
+    "Blind snake",
+    "Brown snake",
+    "Aesculapian snake",
+    "Montpellier snake"
+   ]
+  },
+  {
+   "id": "xn4-nature-rodents",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a rodent",
+   "answers": [
+    "Mouse",
+    "Rat",
+    "Squirrel",
+    "Beaver",
+    "Hamster",
+    [
+     "Guinea pig",
+     "Cavy"
+    ],
+    "Capybara",
+    "Porcupine",
+    "Chinchilla",
+    "Gerbil",
+    "Vole",
+    "Dormouse",
+    "Lemming",
+    "Chipmunk",
+    "Marmot",
+    "Prairie dog",
+    [
+     "Gopher",
+     "Pocket gopher"
+    ],
+    "Agouti",
+    [
+     "Coypu",
+     "Nutria"
+    ],
+    "Naked mole-rat",
+    "Muskrat",
+    "Jerboa",
+    "Degu",
+    [
+     "Groundhog",
+     "Woodchuck"
+    ],
+    "Water vole",
+    "Harvest mouse",
+    "Brown rat",
+    "Black rat",
+    "House mouse",
+    "Wood mouse",
+    "Bank vole",
+    "Field vole",
+    "Red squirrel",
+    [
+     "Grey squirrel",
+     "Gray squirreling squirrel"
+    ],
+    "Ground squirrel",
+    "Gundi",
+    "Paca",
+    "Pacarana",
+    "Mara",
+    "Viscacha",
+    "Springhare",
+    "Cane rat",
+    "Tuco-tuco",
+    "Kangaroo rat",
+    "Hutia",
+    "Spiny mouse",
+    "Mole-rat",
+    "Jird",
+    "Hopping mouse",
+    "Cotton rat",
+    "Deer mouse",
+    "Pocket mouse",
+    "Rock cavy",
+    "Dassie rat"
+   ]
+  },
+  {
+   "id": "xn4-nature-antelopes",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a type of antelope",
+   "answers": [
+    "Impala",
+    "Springbok",
+    [
+     "Gazelle",
+     "Thomson's gazelle",
+     "Grant's gazelle"
+    ],
+    "Eland",
+    [
+     "Kudu",
+     "Greater kudu",
+     "Lesser kudu"
+    ],
+    [
+     "Wildebeest",
+     "Gnu"
+    ],
+    [
+     "Oryx",
+     "Gemsbok"
+    ],
+    "Hartebeest",
+    "Topi",
+    "Waterbuck",
+    "Nyala",
+    "Bongo",
+    "Dik-dik",
+    "Duiker",
+    [
+     "Sable antelope",
+     "Sable"
+    ],
+    [
+     "Roan antelope",
+     "Roan"
+    ],
+    "Reedbuck",
+    "Klipspringer",
+    "Steenbok",
+    "Bushbuck",
+    "Gerenuk",
+    "Addax",
+    "Saiga",
+    "Blackbuck",
+    [
+     "Nilgai",
+     "Blue bull"
+    ],
+    "Sitatunga",
+    "Lechwe",
+    "Puku",
+    "Oribi",
+    "Suni",
+    "Grysbok",
+    [
+     "Kob",
+     "Uganda kob"
+    ],
+    [
+     "Chiru",
+     "Tibetan antelope"
+    ],
+    [
+     "Four-horned antelope",
+     "Chousingha"
+    ],
+    "Beisa",
+    "Royal antelope",
+    "Bontebok",
+    "Blesbok",
+    "Tsessebe",
+    "Mountain reedbuck",
+    [
+     "Rhebok",
+     "Grey rhebok"
+    ],
+    "Dibatag",
+    "Hirola",
+    "Mhorr gazelle",
+    "Goitered gazelle",
+    "Dorcas gazelle",
+    "Dama gazelle",
+    "Slender-horned gazelle",
+    "Bohor reedbuck",
+    "Zebra duiker",
+    "Blue duiker"
+   ]
+  },
+  {
+   "id": "xn4-nature-parrots",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a type of parrot or parakeet",
+   "answers": [
+    "Macaw",
+    "Cockatoo",
+    [
+     "Budgerigar",
+     "Budgie"
+    ],
+    "Lorikeet",
+    [
+     "African grey",
+     "African grey parrot",
+     "Grey parrot"
+    ],
+    "Cockatiel",
+    "Lovebird",
+    "Kea",
+    "Kākāpō",
+    "Conure",
+    [
+     "Amazon parrot",
+     "Amazon"
+    ],
+    [
+     "Eclectus parrot",
+     "Eclectus"
+    ],
+    "Parakeet",
+    "Rosella",
+    [
+     "Ring-necked parakeet",
+     "Rose-ringed parakeet"
+    ],
+    "Galah",
+    [
+     "Quaker parrot",
+     "Monk parakeet",
+     "Quaker"
+    ],
+    "Scarlet macaw",
+    "Blue-and-yellow macaw",
+    "Hyacinth macaw",
+    "Sulphur-crested cockatoo",
+    "Rainbow lorikeet",
+    "Senegal parrot",
+    "Pionus",
+    "Caique",
+    "Kākā",
+    "Hanging parrot",
+    "Fig parrot",
+    "Lory",
+    "Carolina parakeet",
+    "Night parrot",
+    "Ground parrot",
+    "Palm cockatoo",
+    "Black cockatoo",
+    "Pygmy parrot",
+    "Vasa parrot",
+    "Red-tailed black cockatoo",
+    [
+     "Pink cockatoo",
+     "Major Mitchell's cockatoo"
+    ],
+    "Alexandrine parakeet",
+    "Plum-headed parakeet",
+    "Sun conure",
+    "Green-cheeked conure",
+    "Mealy amazon",
+    "Yellow-naped amazon",
+    "Blue-fronted amazon",
+    "Meyer's parrot",
+    "Burrowing parrot",
+    "Swift parrot"
+   ]
+  },
+  {
+   "id": "xn4-nature-aquarium-fish",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a fish commonly kept in home aquariums",
+   "answers": [
+    "Goldfish",
+    "Guppy",
+    [
+     "Neon tetra",
+     "Tetra",
+     "Neon"
+    ],
+    "Angelfish",
+    [
+     "Betta",
+     "Siamese fighting fish",
+     "Fighting fish"
+    ],
+    [
+     "Clownfish",
+     "Nemo fish"
+    ],
+    "Koi",
+    "Molly",
+    "Platy",
+    "Cichlid",
+    "Discus",
+    "Oscar",
+    [
+     "Zebra danio",
+     "Danio"
+    ],
+    [
+     "Tiger barb",
+     "Barb"
+    ],
+    [
+     "Pleco",
+     "Plecostomus"
+    ],
+    [
+     "Catfish",
+     "Corydoras"
+    ],
+    "Swordtail",
+    "Rasbora",
+    [
+     "Clown loach",
+     "Loach"
+    ],
+    "Killifish",
+    "Firemouth",
+    "Gourami",
+    "Rummy-nose tetra",
+    "Cardinal tetra",
+    "Black molly",
+    "Paradise fish",
+    "Rainbowfish",
+    "Siamese algae eater",
+    [
+     "Blue tang",
+     "Regal tang",
+     "Tang"
+    ],
+    "Seahorse",
+    "Damselfish",
+    [
+     "Mandarin fish",
+     "Mandarin dragonet"
+    ],
+    "Lionfish",
+    "Wrasse",
+    [
+     "Pufferfish",
+     "Puffer"
+    ],
+    "Archerfish",
+    "Silver dollar",
+    "Bristlenose",
+    "Kuhli loach",
+    "Harlequin rasbora",
+    "Glass catfish",
+    [
+     "Bala shark",
+     "Silver shark"
+    ],
+    "Red-tailed black shark",
+    "Oranda",
+    "Fantail",
+    "Shubunkin",
+    "Comet",
+    "Cherry barb",
+    "Bumblebee goby",
+    "Dwarf gourami",
+    "Pearl gourami",
+    "Blue gourami",
+    "Ram cichlid",
+    "Convict cichlid",
+    "Jack Dempsey",
+    "Flowerhorn",
+    "Hatchetfish",
+    "Hillstream loach",
+    "Upside-down catfish"
+   ]
+  },
+  {
+   "id": "xn4-sci-minerals",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a mineral",
+   "answers": [
+    "Quartz",
+    [
+     "Feldspar",
+     "Orthoclase"
+    ],
+    "Mica",
+    "Calcite",
+    "Gypsum",
+    [
+     "Halite",
+     "Rock salt"
+    ],
+    "Talc",
+    [
+     "Pyrite",
+     "Fool's gold"
+    ],
+    "Fluorite",
+    "Apatite",
+    "Corundum",
+    "Diamond",
+    [
+     "Hematite",
+     "Haematite"
+    ],
+    "Magnetite",
+    "Galena",
+    "Bauxite",
+    [
+     "Barite",
+     "Baryte"
+    ],
+    "Olivine",
+    "Garnet",
+    "Graphite",
+    "Malachite",
+    [
+     "Sulphur",
+     "Sulfur"
+    ],
+    "Cinnabar",
+    "Dolomite",
+    "Azurite",
+    [
+     "Kaolinite",
+     "Kaolin"
+    ],
+    "Topaz",
+    "Beryl",
+    "Tourmaline",
+    "Zircon",
+    "Chalcopyrite",
+    "Sphalerite",
+    "Cassiterite",
+    "Rutile",
+    "Serpentine",
+    "Hornblende",
+    "Augite",
+    "Biotite",
+    "Muscovite",
+    "Plagioclase",
+    "Opal",
+    "Jade",
+    "Amethyst",
+    "Cuprite",
+    "Limonite",
+    "Siderite",
+    "Wolframite",
+    [
+     "Uraninite",
+     "Pitchblende"
+    ],
+    "Borax",
+    "Zeolite",
+    "Spinel",
+    "Chromite",
+    "Pentlandite",
+    "Stibnite",
+    "Realgar",
+    "Orpiment",
+    "Vermiculite",
+    [
+     "Asbestos",
+     "Chrysotile"
+    ],
+    "Anhydrite",
+    "Aragonite",
+    "Kyanite",
+    "Staurolite",
+    "Sillimanite",
+    "Andalusite",
+    "Chalcedony",
+    "Agate",
+    "Jasper",
+    "Flint",
+    "Emerald",
+    "Ruby",
+    "Sapphire",
+    "Turquoise",
+    [
+     "Lapis lazuli",
+     "Lazurite"
+    ],
+    "Moonstone",
+    "Rhodochrosite",
+    "Epidote",
+    "Kunzite"
+   ]
+  },
+  {
+   "id": "xn4-sci-physicists",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a famous physicist",
+   "answers": [
+    [
+     "Albert Einstein",
+     "Einstein"
+    ],
+    [
+     "Isaac Newton",
+     "Newton"
+    ],
+    [
+     "Stephen Hawking",
+     "Hawking"
+    ],
+    [
+     "Richard Feynman",
+     "Feynman"
+    ],
+    [
+     "Niels Bohr",
+     "Bohr"
+    ],
+    [
+     "Max Planck",
+     "Planck"
+    ],
+    [
+     "Marie Curie",
+     "Curie"
+    ],
+    [
+     "Michael Faraday",
+     "Faraday"
+    ],
+    [
+     "James Clerk Maxwell",
+     "Maxwell"
+    ],
+    [
+     "Erwin Schrödinger",
+     "Schrodinger"
+    ],
+    [
+     "Werner Heisenberg",
+     "Heisenberg"
+    ],
+    [
+     "Paul Dirac",
+     "Dirac"
+    ],
+    [
+     "Ernest Rutherford",
+     "Rutherford"
+    ],
+    [
+     "Enrico Fermi",
+     "Fermi"
+    ],
+    [
+     "J. Robert Oppenheimer",
+     "Robert Oppenheimer",
+     "Oppenheimer"
+    ],
+    [
+     "Galileo Galilei",
+     "Galileo"
+    ],
+    [
+     "Peter Higgs",
+     "Higgs"
+    ],
+    [
+     "Edwin Hubble",
+     "Hubble"
+    ],
+    [
+     "Lord Kelvin",
+     "William Thomson",
+     "Kelvin"
+    ],
+    [
+     "Nikola Tesla",
+     "Tesla"
+    ],
+    [
+     "J. J. Thomson",
+     "Thomson"
+    ],
+    [
+     "Max Born",
+     "Born"
+    ],
+    [
+     "Wolfgang Pauli",
+     "Pauli"
+    ],
+    "Brian Cox",
+    [
+     "James Chadwick",
+     "Chadwick"
+    ],
+    [
+     "Lise Meitner",
+     "Meitner"
+    ],
+    [
+     "Roger Penrose",
+     "Penrose"
+    ],
+    [
+     "Murray Gell-Mann",
+     "Gell-Mann"
+    ],
+    [
+     "Ludwig Boltzmann",
+     "Boltzmann"
+    ],
+    [
+     "Christiaan Huygens",
+     "Huygens"
+    ],
+    [
+     "Robert Hooke",
+     "Hooke"
+    ],
+    [
+     "Robert Boyle",
+     "Boyle"
+    ],
+    [
+     "Blaise Pascal",
+     "Pascal"
+    ],
+    [
+     "Alessandro Volta",
+     "Volta"
+    ],
+    [
+     "André-Marie Ampère",
+     "Ampere"
+    ],
+    [
+     "Georg Ohm",
+     "Ohm"
+    ],
+    [
+     "Heinrich Hertz",
+     "Hertz"
+    ],
+    [
+     "James Joule",
+     "Joule"
+    ],
+    [
+     "Hans Christian Ørsted",
+     "Oersted",
+     "Ørsted"
+    ],
+    [
+     "Ernst Mach",
+     "Mach"
+    ],
+    [
+     "Lev Landau",
+     "Landau"
+    ],
+    [
+     "Satyendra Nath Bose",
+     "Bose"
+    ],
+    [
+     "Chien-Shiung Wu",
+     "Wu"
+    ],
+    [
+     "Subrahmanyan Chandrasekhar",
+     "Chandrasekhar"
+    ],
+    [
+     "Kip Thorne",
+     "Thorne"
+    ],
+    [
+     "Jocelyn Bell Burnell",
+     "Bell Burnell"
+    ],
+    [
+     "Jim Al-Khalili",
+     "Al-Khalili"
+    ],
+    [
+     "Michio Kaku",
+     "Kaku"
+    ],
+    [
+     "Neil deGrasse Tyson",
+     "Tyson"
+    ],
+    [
+     "Edward Witten",
+     "Witten"
+    ],
+    [
+     "Hendrik Lorentz",
+     "Lorentz"
+    ],
+    [
+     "Johannes Kepler",
+     "Kepler"
+    ],
+    "Archimedes",
+    [
+     "Carl Friedrich Gauss",
+     "Gauss"
+    ],
+    [
+     "Charles Coulomb",
+     "Coulomb"
+    ],
+    "Joseph Henry",
+    [
+     "Gustav Kirchhoff",
+     "Kirchhoff"
+    ],
+    [
+     "Josiah Willard Gibbs",
+     "Gibbs"
+    ],
+    [
+     "Louis de Broglie",
+     "de Broglie"
+    ],
+    [
+     "Arthur Eddington",
+     "Eddington"
+    ],
+    [
+     "Fred Hoyle",
+     "Hoyle"
+    ],
+    [
+     "Lawrence Bragg",
+     "Bragg"
+    ],
+    [
+     "Abdus Salam",
+     "Salam"
+    ],
+    [
+     "Steven Weinberg",
+     "Weinberg"
+    ],
+    [
+     "Sheldon Glashow",
+     "Glashow"
+    ],
+    [
+     "John Bardeen",
+     "Bardeen"
+    ],
+    [
+     "Julian Schwinger",
+     "Schwinger"
+    ]
+   ]
+  },
+  {
+   "id": "xn4-sci-chemists",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a famous chemist",
+   "answers": [
+    [
+     "Dmitri Mendeleev",
+     "Mendeleev",
+     "Mendeleyev"
+    ],
+    [
+     "Antoine Lavoisier",
+     "Lavoisier"
+    ],
+    [
+     "John Dalton",
+     "Dalton"
+    ],
+    [
+     "Robert Boyle",
+     "Boyle"
+    ],
+    [
+     "Joseph Priestley",
+     "Priestley"
+    ],
+    [
+     "Humphry Davy",
+     "Davy"
+    ],
+    [
+     "Marie Curie",
+     "Curie"
+    ],
+    [
+     "Linus Pauling",
+     "Pauling"
+    ],
+    [
+     "Alfred Nobel",
+     "Nobel"
+    ],
+    [
+     "Fritz Haber",
+     "Haber"
+    ],
+    [
+     "Michael Faraday",
+     "Faraday"
+    ],
+    [
+     "Jöns Jacob Berzelius",
+     "Berzelius"
+    ],
+    [
+     "Robert Bunsen",
+     "Bunsen"
+    ],
+    [
+     "Amedeo Avogadro",
+     "Avogadro"
+    ],
+    [
+     "Henry Cavendish",
+     "Cavendish"
+    ],
+    [
+     "Dorothy Hodgkin",
+     "Hodgkin"
+    ],
+    [
+     "Rosalind Franklin",
+     "Franklin"
+    ],
+    [
+     "William Henry Perkin",
+     "Perkin"
+    ],
+    [
+     "Louis Pasteur",
+     "Pasteur"
+    ],
+    [
+     "Frederick Sanger",
+     "Sanger"
+    ],
+    [
+     "Carl Wilhelm Scheele",
+     "Scheele"
+    ],
+    [
+     "Joseph Black",
+     "Black"
+    ],
+    [
+     "Svante Arrhenius",
+     "Arrhenius"
+    ],
+    [
+     "Friedrich Wöhler",
+     "Wöhler"
+    ],
+    [
+     "Justus von Liebig",
+     "Liebig"
+    ],
+    [
+     "August Kekulé",
+     "Kekulé"
+    ],
+    [
+     "Gilbert N. Lewis",
+     "G. N. Lewis",
+     "Gilbert Lewis"
+    ],
+    [
+     "Ahmed Zewail",
+     "Zewail"
+    ],
+    [
+     "Harold Kroto",
+     "Kroto"
+    ],
+    [
+     "Otto Hahn",
+     "Hahn"
+    ],
+    [
+     "Glenn Seaborg",
+     "Seaborg"
+    ],
+    [
+     "Stanislao Cannizzaro",
+     "Cannizzaro"
+    ],
+    [
+     "William Ramsay",
+     "Ramsay"
+    ],
+    [
+     "Hennig Brand",
+     "Brand"
+    ],
+    [
+     "Jabir ibn Hayyan",
+     "Geber",
+     "Jabir"
+    ],
+    [
+     "Henri Moissan",
+     "Moissan"
+    ],
+    "Percy Julian",
+    [
+     "Stephanie Kwolek",
+     "Kwolek"
+    ],
+    [
+     "Roald Hoffmann",
+     "Hoffmann"
+    ],
+    [
+     "John Pople",
+     "Pople"
+    ],
+    "Frances Arnold",
+    [
+     "Jennifer Doudna",
+     "Doudna"
+    ],
+    [
+     "Emmanuelle Charpentier",
+     "Charpentier"
+    ],
+    [
+     "Carolyn Bertozzi",
+     "Bertozzi"
+    ],
+    [
+     "Paul Crutzen",
+     "Crutzen"
+    ],
+    [
+     "Mario Molina",
+     "Molina"
+    ],
+    [
+     "Sherwood Rowland",
+     "Rowland"
+    ],
+    [
+     "Wallace Carothers",
+     "Carothers"
+    ],
+    [
+     "Leo Baekeland",
+     "Baekeland"
+    ],
+    "Alexander Borodin",
+    [
+     "Ernest Solvay",
+     "Solvay"
+    ],
+    [
+     "Joseph Gay-Lussac",
+     "Gay-Lussac"
+    ],
+    "Jacques Charles",
+    [
+     "Marie-Anne Lavoisier",
+     "Madame Lavoisier"
+    ],
+    "Archer Martin",
+    "Richard Synge",
+    "Derek Barton",
+    "John Cornforth",
+    "Alexander Todd",
+    "Cyril Hinshelwood",
+    "Norman Haworth",
+    "Walter Haworth",
+    "Sir Harry Kroto"
+   ]
+  },
+  {
+   "id": "xn4-sci-biologists",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a famous biologist or naturalist",
+   "answers": [
+    [
+     "Charles Darwin",
+     "Darwin"
+    ],
+    [
+     "Gregor Mendel",
+     "Mendel"
+    ],
+    [
+     "David Attenborough",
+     "Attenborough"
+    ],
+    [
+     "Richard Dawkins",
+     "Dawkins"
+    ],
+    [
+     "Carl Linnaeus",
+     "Linnaeus",
+     "Carolus Linnaeus"
+    ],
+    [
+     "Alfred Russel Wallace",
+     "Wallace"
+    ],
+    [
+     "Louis Pasteur",
+     "Pasteur"
+    ],
+    [
+     "Francis Crick",
+     "Crick"
+    ],
+    [
+     "James Watson",
+     "Watson"
+    ],
+    [
+     "Rosalind Franklin",
+     "Franklin"
+    ],
+    [
+     "Jean-Baptiste Lamarck",
+     "Lamarck"
+    ],
+    [
+     "Thomas Huxley",
+     "T. H. Huxley",
+     "Huxley"
+    ],
+    [
+     "Alexander Fleming",
+     "Fleming"
+    ],
+    [
+     "Edward Jenner",
+     "Jenner"
+    ],
+    [
+     "Joseph Lister",
+     "Lister"
+    ],
+    [
+     "William Harvey",
+     "Harvey"
+    ],
+    [
+     "Robert Hooke",
+     "Hooke"
+    ],
+    [
+     "Antonie van Leeuwenhoek",
+     "Leeuwenhoek",
+     "Van Leeuwenhoek"
+    ],
+    [
+     "Rachel Carson",
+     "Carson"
+    ],
+    [
+     "Jane Goodall",
+     "Goodall"
+    ],
+    [
+     "Dian Fossey",
+     "Fossey"
+    ],
+    [
+     "Ernst Haeckel",
+     "Haeckel"
+    ],
+    [
+     "Alexander von Humboldt",
+     "Humboldt"
+    ],
+    [
+     "Joseph Banks",
+     "Banks"
+    ],
+    [
+     "Joseph Dalton Hooker",
+     "Hooker"
+    ],
+    [
+     "Georges Cuvier",
+     "Cuvier"
+    ],
+    [
+     "Comte de Buffon",
+     "Georges-Louis Leclerc",
+     "Buffon"
+    ],
+    "Aristotle",
+    "Theophrastus",
+    "Gilbert White",
+    "John Ray",
+    [
+     "Konrad Lorenz",
+     "Lorenz"
+    ],
+    [
+     "Niko Tinbergen",
+     "Tinbergen"
+    ],
+    [
+     "Stephen Jay Gould",
+     "Gould"
+    ],
+    [
+     "E. O. Wilson",
+     "Edward O. Wilson",
+     "Wilson"
+    ],
+    [
+     "Lynn Margulis",
+     "Margulis"
+    ],
+    [
+     "Barbara McClintock",
+     "McClintock"
+    ],
+    [
+     "Mary Anning",
+     "Anning"
+    ],
+    "Thomas Hunt Morgan",
+    [
+     "J. B. S. Haldane",
+     "Haldane"
+    ],
+    [
+     "Ernst Mayr",
+     "Mayr"
+    ],
+    [
+     "Svante Pääbo",
+     "Paabo"
+    ],
+    [
+     "Craig Venter",
+     "Venter"
+    ],
+    [
+     "Chris Packham",
+     "Packham"
+    ],
+    [
+     "Steve Backshall",
+     "Backshall"
+    ],
+    [
+     "Gerald Durrell",
+     "Durrell"
+    ],
+    [
+     "Steve Irwin",
+     "Irwin"
+    ],
+    [
+     "Louis Leakey",
+     "Leakey"
+    ],
+    "Richard Leakey",
+    [
+     "Jacques Cousteau",
+     "Cousteau"
+    ],
+    [
+     "Sylvia Earle",
+     "Earle"
+    ],
+    [
+     "Robert Koch",
+     "Koch"
+    ],
+    "Ronald Ross",
+    "Patrick Manson",
+    [
+     "Henry Walter Bates",
+     "Bates"
+    ],
+    [
+     "William Bateson",
+     "Bateson"
+    ],
+    [
+     "Lazzaro Spallanzani",
+     "Spallanzani"
+    ],
+    [
+     "Matthias Schleiden",
+     "Schleiden"
+    ],
+    [
+     "Theodor Schwann",
+     "Schwann"
+    ],
+    [
+     "Rudolf Virchow",
+     "Virchow"
+    ],
+    [
+     "Marcello Malpighi",
+     "Malpighi"
+    ],
+    [
+     "Andreas Vesalius",
+     "Vesalius"
+    ]
+   ]
+  },
+  {
+   "id": "xn4-sci-laws",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a scientific law or principle named after a person (like Boyle's law)",
+   "answers": [
+    [
+     "Newton's laws of motion",
+     "Newton's laws",
+     "Newton's law",
+     "Newton's first law",
+     "Newton's second law",
+     "Newton's third law"
+    ],
+    "Boyle's law",
+    "Ohm's law",
+    "Hooke's law",
+    [
+     "Charles's law",
+     "Charles' law"
+    ],
+    [
+     "Faraday's law",
+     "Faraday's laws"
+    ],
+    "Snell's law",
+    [
+     "Kepler's laws",
+     "Kepler's law"
+    ],
+    "Coulomb's law",
+    "Archimedes' principle",
+    [
+     "Pascal's law",
+     "Pascal's principle"
+    ],
+    "Avogadro's law",
+    "Hubble's law",
+    "Graham's law",
+    "Gay-Lussac's law",
+    "Dalton's law",
+    "Henry's law",
+    "Raoult's law",
+    "Lenz's law",
+    [
+     "Kirchhoff's laws",
+     "Kirchhoff's law"
+    ],
+    "Bernoulli's principle",
+    "Planck's law",
+    "Stefan-Boltzmann law",
+    "Wien's law",
+    "Ampère's law",
+    "Gauss's law",
+    [
+     "Beer-Lambert law",
+     "Beer's law"
+    ],
+    "Fick's law",
+    [
+     "Mendel's laws",
+     "Mendel's law"
+    ],
+    [
+     "Hardy-Weinberg principle",
+     "Hardy-Weinberg"
+    ],
+    [
+     "Heisenberg's uncertainty principle",
+     "Uncertainty principle"
+    ],
+    [
+     "Pauli exclusion principle",
+     "Exclusion principle"
+    ],
+    [
+     "Le Chatelier's principle",
+     "Le Chatelier"
+    ],
+    "Hess's law",
+    "Joule's law",
+    "Stokes' law",
+    "Newton's law of cooling",
+    [
+     "Newton's law of universal gravitation",
+     "Law of universal gravitation",
+     "Newton's law of gravitation"
+    ],
+    "Moore's law",
+    "Biot-Savart law",
+    "Hund's rule",
+    "Poiseuille's law",
+    "Titius-Bode law",
+    "Torricelli's law",
+    "Bragg's law",
+    "Huygens' principle",
+    "Fermat's principle",
+    "Curie's law",
+    "Mach's principle",
+    "Landauer's principle",
+    "Dulong-Petit law"
+   ]
+  },
+  {
+   "id": "xn4-sci-polymers",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a plastic, synthetic fibre or polymer",
+   "answers": [
+    [
+     "Polythene",
+     "Polyethylene",
+     "Polyethene",
+     "PE"
+    ],
+    [
+     "PVC",
+     "Polyvinyl chloride"
+    ],
+    "Nylon",
+    [
+     "Polystyrene",
+     "Styrofoam"
+    ],
+    [
+     "Teflon",
+     "PTFE"
+    ],
+    "Polyester",
+    [
+     "Acrylic",
+     "Perspex",
+     "Plexiglas"
+    ],
+    "Bakelite",
+    "Kevlar",
+    [
+     "Lycra",
+     "Spandex",
+     "Elastane"
+    ],
+    [
+     "Rayon",
+     "Viscose"
+    ],
+    "Silicone",
+    [
+     "Polypropylene",
+     "PP"
+    ],
+    [
+     "PET",
+     "Polyethylene terephthalate"
+    ],
+    "Neoprene",
+    "Formica",
+    "Celluloid",
+    "Melamine",
+    "Vinyl",
+    [
+     "Polyurethane",
+     "PU"
+    ],
+    [
+     "Epoxy resin",
+     "Epoxy"
+    ],
+    "Polycarbonate",
+    "Cellophane",
+    "Acetate",
+    "Gore-Tex",
+    "ABS",
+    [
+     "Fibreglass",
+     "Fiberglass",
+     "Glass-reinforced plastic"
+    ],
+    [
+     "Polylactic acid",
+     "PLA"
+    ],
+    "Nomex",
+    "Mylar",
+    "Styrene",
+    "Polyamide",
+    "Orlon",
+    "Dacron",
+    "Terylene",
+    [
+     "Tencel",
+     "Lyocell"
+    ],
+    "Modal",
+    "Bioplastic",
+    "Latex",
+    "Aramid",
+    "Parylene",
+    "PEEK",
+    [
+     "Polyvinyl acetate",
+     "PVA"
+    ],
+    "Acrylonitrile",
+    "Polyisoprene",
+    "Cellulose acetate",
+    "Polyacrylamide",
+    "Polybutadiene",
+    "Tetra Pak"
+   ]
+  },
+  {
+   "id": "xn4-sci-gas-compounds",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a gas that is a compound (not a single element), such as carbon dioxide",
+   "answers": [
+    [
+     "Carbon dioxide",
+     "CO2"
+    ],
+    "Methane",
+    "Ammonia",
+    [
+     "Carbon monoxide",
+     "CO"
+    ],
+    [
+     "Nitrous oxide",
+     "Laughing gas"
+    ],
+    "Ozone",
+    "Propane",
+    "Butane",
+    [
+     "Sulphur dioxide",
+     "Sulfur dioxide"
+    ],
+    [
+     "Hydrogen sulphide",
+     "Hydrogen sulfide",
+     "Rotten egg gas"
+    ],
+    [
+     "Steam",
+     "Water vapour",
+     "Water vapor"
+    ],
+    [
+     "Ethene",
+     "Ethylene"
+    ],
+    [
+     "Ethyne",
+     "Acetylene"
+    ],
+    "Nitric oxide",
+    "Nitrogen dioxide",
+    "Hydrogen chloride",
+    "Phosgene",
+    [
+     "CFCs",
+     "Chlorofluorocarbons"
+    ],
+    "Ethane",
+    "Hydrogen cyanide",
+    "Chlorine dioxide",
+    "Formaldehyde",
+    "Hydrogen fluoride",
+    "Silane",
+    "Phosphine",
+    "Arsine",
+    "Diborane",
+    "Nitrogen trifluoride",
+    [
+     "Sulphur hexafluoride",
+     "Sulfur hexafluoride"
+    ],
+    "Dimethyl ether",
+    "Cyanogen",
+    "Carbonyl sulphide",
+    [
+     "Propene",
+     "Propylene"
+    ],
+    "Butene",
+    "Isobutane",
+    "Chloromethane",
+    "Vinyl chloride",
+    "Carbon tetrafluoride",
+    "Hydrogen bromide",
+    "Hydrogen iodide"
+   ]
+  },
+  {
+   "id": "xn4-sci-earth-layers",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a layer of the Earth or of its atmosphere",
+   "answers": [
+    "Troposphere",
+    "Stratosphere",
+    "Mesosphere",
+    "Thermosphere",
+    "Exosphere",
+    "Ionosphere",
+    [
+     "Ozone layer",
+     "Ozonosphere"
+    ],
+    [
+     "Crust",
+     "Earth's crust"
+    ],
+    "Mantle",
+    "Outer core",
+    "Inner core",
+    "Core",
+    "Lithosphere",
+    "Asthenosphere",
+    "Magnetosphere",
+    [
+     "Moho",
+     "Mohorovičić discontinuity"
+    ],
+    "Upper mantle",
+    "Lower mantle",
+    "Tropopause",
+    "Stratopause",
+    "Mesopause",
+    "Hydrosphere",
+    "Biosphere",
+    "Atmosphere",
+    "Kármán line",
+    "Gutenberg discontinuity",
+    "Plasmasphere",
+    "Cryosphere",
+    "Geosphere",
+    "Pedosphere",
+    "Homosphere",
+    "Heterosphere",
+    "Transition zone",
+    [
+     "D'' layer",
+     "D double prime"
+    ],
+    "Oceanic crust",
+    "Continental crust"
+   ]
+  },
+  {
+   "id": "xn4-sci-measuring-instruments",
+   "tags": [
+    "science"
+   ],
+   "text": "Name an instrument for measuring something in science or weather",
+   "answers": [
+    "Thermometer",
+    "Barometer",
+    [
+     "Spectrometer",
+     "Mass spectrometer"
+    ],
+    [
+     "Geiger counter",
+     "Geiger-Müller counter"
+    ],
+    [
+     "Seismograph",
+     "Seismometer"
+    ],
+    "Voltmeter",
+    "Ammeter",
+    "Oscilloscope",
+    "Hygrometer",
+    "Anemometer",
+    "Sextant",
+    "Spectroscope",
+    "Galvanometer",
+    "Centrifuge",
+    "Microscope",
+    "Telescope",
+    "Stethoscope",
+    "Barograph",
+    "Rain gauge",
+    [
+     "Weather vane",
+     "Wind vane"
+    ],
+    "Pyrometer",
+    "Hydrometer",
+    "Ohmmeter",
+    "Multimeter",
+    "Manometer",
+    "Altimeter",
+    "Speedometer",
+    "Odometer",
+    "Calorimeter",
+    "Spectrophotometer",
+    "Radiometer",
+    "Sphygmomanometer",
+    "Compass",
+    "Gyroscope",
+    [
+     "Light meter",
+     "Lux meter"
+    ],
+    [
+     "Force meter",
+     "Newton meter"
+    ],
+    "Stopwatch",
+    "Micrometer",
+    [
+     "Vernier calliper",
+     "Vernier caliper",
+     "Calliper"
+    ],
+    "Chronometer",
+    "Clinometer",
+    "Theodolite",
+    "Sonar",
+    "Radar",
+    "Cloud chamber",
+    "Bubble chamber",
+    "Magnetometer",
+    "Dosimeter",
+    "Tachometer",
+    "Photometer",
+    "Refractometer",
+    "Polarimeter",
+    "pH meter",
+    "Pedometer",
+    "Thermostat",
+    [
+     "Sundial sock",
+     "Windsock"
+    ],
+    "Ceilometer",
+    "Pyranometer",
+    "Sunshine recorder",
+    "Weather balloon",
+    "Radiosonde",
+    "Lysimeter",
+    "Tide gauge",
+    "Echo sounder"
+   ]
+  },
+  {
+   "id": "xn4-space-women-astronauts",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a woman who has flown in space",
+   "answers": [
+    [
+     "Valentina Tereshkova",
+     "Tereshkova"
+    ],
+    [
+     "Sally Ride",
+     "Ride"
+    ],
+    [
+     "Svetlana Savitskaya",
+     "Savitskaya"
+    ],
+    [
+     "Peggy Whitson",
+     "Whitson"
+    ],
+    [
+     "Christina Koch",
+     "Koch"
+    ],
+    [
+     "Jessica Meir",
+     "Meir"
+    ],
+    [
+     "Kathryn Sullivan",
+     "Sullivan"
+    ],
+    [
+     "Mae Jemison",
+     "Jemison"
+    ],
+    [
+     "Eileen Collins",
+     "Collins"
+    ],
+    [
+     "Helen Sharman",
+     "Sharman"
+    ],
+    [
+     "Samantha Cristoforetti",
+     "Cristoforetti"
+    ],
+    [
+     "Judith Resnik",
+     "Resnik"
+    ],
+    [
+     "Christa McAuliffe",
+     "McAuliffe"
+    ],
+    [
+     "Sunita Williams",
+     "Suni Williams",
+     "Williams"
+    ],
+    [
+     "Shannon Lucid",
+     "Lucid"
+    ],
+    [
+     "Anousheh Ansari",
+     "Ansari"
+    ],
+    "Liu Yang",
+    "Wang Yaping",
+    [
+     "Yi So-yeon",
+     "So-yeon Yi"
+    ],
+    [
+     "Roberta Bondar",
+     "Bondar"
+    ],
+    [
+     "Julie Payette",
+     "Payette"
+    ],
+    "Kathryn Thornton",
+    "Tamara Jernigan",
+    [
+     "Anna Fisher",
+     "Fisher"
+    ],
+    [
+     "Bonnie Dunbar",
+     "Dunbar"
+    ],
+    "Nicole Stott",
+    [
+     "Karen Nyberg",
+     "Nyberg"
+    ],
+    [
+     "Sandra Magnus",
+     "Magnus"
+    ],
+    [
+     "Tracy Caldwell Dyson",
+     "Caldwell Dyson"
+    ],
+    [
+     "Kate Rubins",
+     "Rubins"
+    ],
+    [
+     "Anne McClain",
+     "McClain"
+    ],
+    "Nicole Mann",
+    "Stephanie Wilson",
+    "Heidemarie Stefanyshyn-Piper",
+    "Wendy Lawrence",
+    [
+     "Ellen Ochoa",
+     "Ochoa"
+    ],
+    "Cady Coleman",
+    [
+     "Pamela Melroy",
+     "Melroy"
+    ],
+    [
+     "Yelena Kondakova",
+     "Kondakova"
+    ],
+    [
+     "Yelena Serova",
+     "Serova"
+    ],
+    [
+     "Anna Kikina",
+     "Kikina"
+    ],
+    [
+     "Claudie Haigneré",
+     "Haigneré"
+    ],
+    [
+     "Rayyanah Barnawi",
+     "Barnawi"
+    ],
+    [
+     "Sara Sabry",
+     "Sabry"
+    ],
+    [
+     "Naoko Yamazaki",
+     "Yamazaki"
+    ],
+    [
+     "Chiaki Mukai",
+     "Mukai"
+    ],
+    "Ellen Baker",
+    [
+     "Mary Cleave",
+     "Cleave"
+    ],
+    "Shannon Walker",
+    [
+     "Megan McArthur",
+     "McArthur"
+    ],
+    [
+     "Joan Higginbotham",
+     "Higginbotham"
+    ],
+    [
+     "Janet Kavandi",
+     "Kavandi"
+    ],
+    [
+     "Marsha Ivins",
+     "Ivins"
+    ],
+    [
+     "Linda Godwin",
+     "Godwin"
+    ],
+    [
+     "Susan Helms",
+     "Helms"
+    ],
+    [
+     "Kalpana Chawla",
+     "Chawla"
+    ],
+    [
+     "Laurel Clark",
+     "Clark"
+    ],
+    [
+     "Sirisha Bandla",
+     "Bandla"
+    ],
+    [
+     "Amanda Nguyen",
+     "Nguyen"
+    ],
+    [
+     "Jeanette Epps",
+     "Epps"
+    ],
+    [
+     "Zena Cardman",
+     "Cardman"
+    ],
+    [
+     "Loral O'Hara",
+     "O'Hara"
+    ],
+    [
+     "Jasmin Moghbeli",
+     "Moghbeli"
+    ],
+    [
+     "Kayla Barron",
+     "Barron"
+    ]
+   ]
+  },
+  {
+   "id": "xn4-space-countries-astronauts",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a country whose citizens have flown into orbit (to the end of 2025)",
+   "answers": [
+    [
+     "United States",
+     "USA",
+     "US",
+     "America"
+    ],
+    [
+     "Russia",
+     "Soviet Union",
+     "USSR"
+    ],
+    "China",
+    [
+     "United Kingdom",
+     "UK",
+     "Britain",
+     "Great Britain"
+    ],
+    "France",
+    [
+     "Germany",
+     "East Germany",
+     "West Germany"
+    ],
+    "Canada",
+    "Japan",
+    "Italy",
+    "India",
+    "Israel",
+    "Saudi Arabia",
+    [
+     "United Arab Emirates",
+     "UAE"
+    ],
+    "Poland",
+    "Hungary",
+    [
+     "Czechoslovakia",
+     "Czech Republic",
+     "Czechia"
+    ],
+    "Slovakia",
+    "Bulgaria",
+    "Romania",
+    "Mongolia",
+    "Vietnam",
+    "Cuba",
+    "Syria",
+    "Afghanistan",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "Belgium",
+    "Sweden",
+    "Switzerland",
+    "Spain",
+    "Austria",
+    "Denmark",
+    "Brazil",
+    "Mexico",
+    "South Africa",
+    "Malaysia",
+    "Kazakhstan",
+    "Ukraine",
+    "Australia",
+    "South Korea",
+    "Turkey",
+    "Belarus"
+   ]
+  },
+  {
+   "id": "xn4-space-lunar-maria",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a lunar sea (mare) on the Moon, in Latin or English",
+   "answers": [
+    [
+     "Mare Tranquillitatis",
+     "Sea of Tranquility",
+     "Sea of Tranquillity",
+     "Tranquility Base",
+     "Tranquillity"
+    ],
+    [
+     "Mare Imbrium",
+     "Sea of Showers",
+     "Imbrium"
+    ],
+    [
+     "Mare Serenitatis",
+     "Sea of Serenity",
+     "Serenitatis"
+    ],
+    [
+     "Mare Crisium",
+     "Sea of Crises",
+     "Crisium"
+    ],
+    [
+     "Mare Fecunditatis",
+     "Sea of Fertility",
+     "Fecunditatis"
+    ],
+    [
+     "Mare Nectaris",
+     "Sea of Nectar",
+     "Nectaris"
+    ],
+    [
+     "Mare Nubium",
+     "Sea of Clouds",
+     "Nubium"
+    ],
+    [
+     "Mare Cognitum",
+     "Sea of Knowledge",
+     "Cognitum"
+    ],
+    [
+     "Mare Humorum",
+     "Sea of Moisture",
+     "Humorum"
+    ],
+    [
+     "Mare Frigoris",
+     "Sea of Cold",
+     "Frigoris"
+    ],
+    [
+     "Mare Vaporum",
+     "Sea of Vapours",
+     "Vaporum"
+    ],
+    [
+     "Oceanus Procellarum",
+     "Ocean of Storms",
+     "Procellarum"
+    ],
+    [
+     "Mare Orientale",
+     "Eastern Sea",
+     "Orientale"
+    ],
+    [
+     "Mare Australe",
+     "Southern Sea",
+     "Australe"
+    ],
+    [
+     "Mare Marginis",
+     "Marginal Sea",
+     "Marginis"
+    ],
+    [
+     "Mare Smythii",
+     "Smyth's Sea",
+     "Smythii"
+    ],
+    [
+     "Mare Humboldtianum",
+     "Humboldt's Sea",
+     "Humboldtianum"
+    ],
+    [
+     "Mare Moscoviense",
+     "Sea of Moscow",
+     "Moscoviense"
+    ],
+    [
+     "Mare Ingenii",
+     "Sea of Ingenuity",
+     "Ingenii"
+    ],
+    [
+     "Mare Insularum",
+     "Sea of Islands",
+     "Insularum"
+    ],
+    [
+     "Mare Anguis",
+     "Serpent Sea",
+     "Anguis"
+    ],
+    [
+     "Mare Undarum",
+     "Sea of Waves",
+     "Undarum"
+    ],
+    [
+     "Mare Spumans",
+     "Foaming Sea",
+     "Spumans"
+    ]
+   ]
+  },
+  {
+   "id": "xn4-space-astronomy-terms",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a term used in astronomy",
+   "answers": [
+    "Eclipse",
+    "Solstice",
+    "Equinox",
+    "Light-year",
+    "Parsec",
+    "Supernova",
+    "Nebula",
+    "Comet",
+    "Orbit",
+    "Perihelion",
+    "Aphelion",
+    "Zenith",
+    "Nadir",
+    "Apogee",
+    "Perigee",
+    "Redshift",
+    "Quasar",
+    "Pulsar",
+    "Event horizon",
+    "Singularity",
+    "Big Bang",
+    "Dark matter",
+    "Dark energy",
+    "Black hole",
+    "White dwarf",
+    "Red giant",
+    "Asteroid belt",
+    "Kuiper belt",
+    "Oort cloud",
+    "Ecliptic",
+    "Azimuth",
+    "Syzygy",
+    "Transit",
+    "Occultation",
+    "Conjunction",
+    "Opposition",
+    "Albedo",
+    [
+     "Magnitude",
+     "Apparent magnitude"
+    ],
+    "Neutron star",
+    "Binary star",
+    "Galaxy",
+    "Constellation",
+    "Meteor",
+    "Meteorite",
+    "Meteoroid",
+    "Asteroid",
+    "Exoplanet",
+    "Gravity",
+    [
+     "Cosmic microwave background",
+     "CMB"
+    ],
+    [
+     "Gravitational wave",
+     "Gravitational waves"
+    ],
+    "Gamma-ray burst",
+    "Protostar",
+    [
+     "Accretion disc",
+     "Accretion disk"
+    ],
+    "Escape velocity",
+    "Tidal locking",
+    [
+     "Retrograde motion",
+     "Retrograde"
+    ],
+    "Lagrange point",
+    "Roche limit",
+    [
+     "Cosmic ray",
+     "Cosmic rays"
+    ],
+    "Heliosphere",
+    "Hubble constant",
+    "Doppler effect",
+    "Spectrum",
+    "Chandrasekhar limit",
+    "Libration",
+    "Precession",
+    "Right ascension",
+    "Declination",
+    "Celestial sphere",
+    "Terminator",
+    "Corona",
+    "Aurora",
+    "Lunar phase",
+    "Waxing",
+    "Waning",
+    "Gibbous",
+    "Crescent"
+   ]
+  },
+  {
+   "id": "xn4-space-rocket-parts",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a part of a rocket or spacecraft",
+   "answers": [
+    [
+     "Booster",
+     "Solid rocket booster"
+    ],
+    [
+     "Capsule",
+     "Crew capsule",
+     "Command module"
+    ],
+    [
+     "Fairing",
+     "Payload fairing"
+    ],
+    "Heat shield",
+    "Thruster",
+    [
+     "Nozzle",
+     "Engine nozzle",
+     "Exhaust nozzle"
+    ],
+    "Payload",
+    [
+     "Fuel tank",
+     "Propellant tank"
+    ],
+    [
+     "Second stage",
+     "Upper stage"
+    ],
+    "First stage",
+    [
+     "Escape tower",
+     "Launch escape system"
+    ],
+    [
+     "Solar panels",
+     "Solar array",
+     "Solar panel"
+    ],
+    "Airlock",
+    [
+     "Docking port",
+     "Docking mechanism"
+    ],
+    "Service module",
+    [
+     "Engine",
+     "Rocket engine"
+    ],
+    "Antenna",
+    [
+     "Reaction control system",
+     "RCS"
+    ],
+    "Combustion chamber",
+    "Turbopump",
+    "Interstage",
+    "Grid fins",
+    "Landing legs",
+    "Parachute",
+    [
+     "Guidance system",
+     "Flight computer"
+    ],
+    "Gimbal",
+    "Lunar module",
+    "Lander",
+    "Fins",
+    "Nose cone",
+    [
+     "Oxidiser tank",
+     "Oxidizer tank"
+    ],
+    "Adapter",
+    "Strap-on booster",
+    "Radiator",
+    "Cupola",
+    "Hatchow",
+    "Retro rocket",
+    "Ullage motor",
+    "Payload adapter",
+    "Thrust structure",
+    "Umbilical",
+    "Star tracker",
+    "Gyroscope",
+    "Reaction wheel",
+    "Heat exchanger"
+   ]
+  },
+  {
+   "id": "xn4-space-sun-features",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a layer or feature of the Sun",
+   "answers": [
+    "Core",
+    "Radiative zone",
+    "Convection zone",
+    "Photosphere",
+    "Chromosphere",
+    "Corona",
+    [
+     "Sunspot",
+     "Sunspots"
+    ],
+    [
+     "Solar flare",
+     "Flare"
+    ],
+    "Prominence",
+    "Solar wind",
+    [
+     "Coronal mass ejection",
+     "CME"
+    ],
+    [
+     "Granule",
+     "Granulation"
+    ],
+    "Tachocline",
+    "Faculae",
+    "Spicule",
+    "Filament",
+    "Coronal hole",
+    [
+     "Solar cycle",
+     "Sunspot cycle"
+    ],
+    "Plage",
+    "Helmet streamer",
+    "Solar storm",
+    "Magnetic field",
+    "Heliosphere",
+    "Limb",
+    "Supergranule",
+    "Solar maximum",
+    "Solar minimum"
+   ]
+  },
+  {
+   "id": "xn4-space-animals",
+   "tags": [
+    "space"
+   ],
+   "text": "Name an animal that has been sent into space",
+   "answers": [
+    [
+     "Dog",
+     "Laika",
+     "Belka",
+     "Strelka"
+    ],
+    [
+     "Monkey",
+     "Albert",
+     "Able",
+     "Baker",
+     "Miss Baker",
+     "Gordo"
+    ],
+    [
+     "Chimpanzee",
+     "Chimp",
+     "Ham",
+     "Enos"
+    ],
+    [
+     "Cat",
+     "Félicette"
+    ],
+    [
+     "Mouse",
+     "Mice"
+    ],
+    [
+     "Rat",
+     "Rats"
+    ],
+    "Tortoise",
+    [
+     "Fruit fly",
+     "Fruit flies"
+    ],
+    "Jellyfish",
+    [
+     "Spider",
+     "Spiders"
+    ],
+    [
+     "Frog",
+     "Frogs"
+    ],
+    "Newt",
+    [
+     "Fish",
+     "Medaka"
+    ],
+    "Guinea pig",
+    [
+     "Bee",
+     "Bees"
+    ],
+    [
+     "Roundworm",
+     "Nematode",
+     "Worm"
+    ],
+    [
+     "Tardigrade",
+     "Water bear"
+    ],
+    "Silkworm",
+    [
+     "Ant",
+     "Ants"
+    ],
+    "Quail",
+    [
+     "Cricket",
+     "Crickets"
+    ],
+    "Snail",
+    [
+     "Squid",
+     "Bobtail squid"
+    ],
+    "Shrimp",
+    "Sea urchin",
+    [
+     "Toadfish",
+     "Oyster toadfish"
+    ],
+    "Zebrafish",
+    [
+     "Gecko",
+     "Geckos"
+    ],
+    [
+     "Cockroach",
+     "Cockroaches"
+    ],
+    "Wasp",
+    "Butterfly",
+    "Salamander",
+    "Hornet",
+    "Brine shrimp"
+   ]
+  },
+  {
+   "id": "xn4-space-moon-missions",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a robotic mission to the Moon (launched by 2025)",
+   "answers": [
+    "Luna 2",
+    "Luna 9",
+    "Luna 16",
+    [
+     "Luna 17",
+     "Lunokhod 1"
+    ],
+    [
+     "Luna 21",
+     "Lunokhod 2"
+    ],
+    "Luna 24",
+    "Luna 25",
+    [
+     "Ranger 7",
+     "Ranger"
+    ],
+    [
+     "Surveyor 1",
+     "Surveyor"
+    ],
+    "Lunar Orbiter",
+    "Clementine",
+    "Lunar Prospector",
+    "LCROSS",
+    [
+     "Lunar Reconnaissance Orbiter",
+     "LRO"
+    ],
+    "GRAIL",
+    "LADEE",
+    "SMART-1",
+    [
+     "Kaguya",
+     "SELENE"
+    ],
+    "Chang'e 1",
+    "Chang'e 2",
+    [
+     "Chang'e 3",
+     "Yutu"
+    ],
+    [
+     "Chang'e 4",
+     "Yutu-2"
+    ],
+    "Chang'e 5",
+    "Chang'e 6",
+    "Queqiao",
+    "Chandrayaan-1",
+    "Chandrayaan-2",
+    [
+     "Chandrayaan-3",
+     "Vikram"
+    ],
+    [
+     "SLIM",
+     "Moon Sniper"
+    ],
+    "Hakuto-R",
+    "Beresheet",
+    [
+     "Danuri",
+     "KPLO"
+    ],
+    "Artemis I",
+    [
+     "Odysseus",
+     "IM-1",
+     "Intuitive Machines"
+    ],
+    [
+     "Peregrine",
+     "Peregrine Mission One"
+    ],
+    "Blue Ghost",
+    [
+     "Athena",
+     "IM-2"
+    ],
+    "Pioneer 4",
+    "Zond 5",
+    "Zond 6",
+    "Explorer 35",
+    "Luna 3",
+    "Luna 10",
+    "Luna 11",
+    "Luna 12",
+    "Luna 13",
+    "Luna 19",
+    "Luna 20",
+    "Luna 22",
+    "Ranger 9",
+    "Surveyor 3",
+    "Surveyor 5",
+    "Surveyor 7",
+    "Lunar Orbiter 1",
+    "Hiten",
+    "Capstone"
+   ]
+  },
+  {
+   "id": "xn4-space-venus-mercury-sun-missions",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a space mission sent to Venus, Mercury or the Sun",
+   "answers": [
+    "Mariner 2",
+    "Mariner 5",
+    "Mariner 10",
+    [
+     "Venera 7",
+     "Venera"
+    ],
+    "Magellan",
+    "Venus Express",
+    [
+     "Akatsuki",
+     "Venus Climate Orbiter"
+    ],
+    "Pioneer Venus",
+    [
+     "Vega 1",
+     "Vega 2",
+     "Vega"
+    ],
+    "MESSENGER",
+    "BepiColombo",
+    [
+     "Parker Solar Probe",
+     "Parker"
+    ],
+    "Solar Orbiter",
+    "SOHO",
+    "Ulysses",
+    "Helios",
+    [
+     "Solar Dynamics Observatory",
+     "SDO"
+    ],
+    "STEREO",
+    "Genesis",
+    "Hinode",
+    "Aditya-L1",
+    "Proba-3",
+    "Yohkoh",
+    "TRACE",
+    "Solar Maximum Mission",
+    "IRIS",
+    "Venera 9",
+    "Venera 13",
+    "Venera 4",
+    "Venera 15",
+    "Mariner 1",
+    "Pioneer 6",
+    "PUNCH",
+    "Solar Terrestrial Relations Observatory"
+   ]
+  },
+  {
+   "id": "xn4-space-cosmonauts",
+   "tags": [
+    "space"
+   ],
+   "text": "Name a Soviet or Russian cosmonaut",
+   "answers": [
+    [
+     "Yuri Gagarin",
+     "Gagarin"
+    ],
+    [
+     "Gherman Titov",
+     "German Titov",
+     "Titov"
+    ],
+    [
+     "Valentina Tereshkova",
+     "Tereshkova"
+    ],
+    [
+     "Alexei Leonov",
+     "Alexey Leonov",
+     "Leonov"
+    ],
+    [
+     "Vladimir Komarov",
+     "Komarov"
+    ],
+    [
+     "Andriyan Nikolayev",
+     "Nikolayev"
+    ],
+    [
+     "Pavel Popovich",
+     "Popovich"
+    ],
+    [
+     "Valery Bykovsky",
+     "Bykovsky"
+    ],
+    [
+     "Svetlana Savitskaya",
+     "Savitskaya"
+    ],
+    [
+     "Sergei Krikalev",
+     "Sergey Krikalev",
+     "Krikalev"
+    ],
+    [
+     "Valeri Polyakov",
+     "Valery Polyakov",
+     "Polyakov"
+    ],
+    [
+     "Georgy Dobrovolsky",
+     "Georgi Dobrovolski",
+     "Dobrovolsky"
+    ],
+    "Vladislav Volkov",
+    [
+     "Viktor Patsayev",
+     "Patsayev"
+    ],
+    [
+     "Georgy Grechko",
+     "Grechko"
+    ],
+    [
+     "Yuri Romanenko",
+     "Romanenko"
+    ],
+    [
+     "Leonid Kizim",
+     "Kizim"
+    ],
+    [
+     "Vladimir Solovyov",
+     "Solovyov"
+    ],
+    [
+     "Gennady Padalka",
+     "Padalka"
+    ],
+    [
+     "Oleg Kononenko",
+     "Kononenko"
+    ],
+    [
+     "Fyodor Yurchikhin",
+     "Yurchikhin"
+    ],
+    [
+     "Sergei Ryazansky",
+     "Ryazansky"
+    ],
+    [
+     "Oleg Artemyev",
+     "Artemyev"
+    ],
+    [
+     "Anton Shkaplerov",
+     "Shkaplerov"
+    ],
+    [
+     "Pyotr Klimuk",
+     "Klimuk"
+    ],
+    [
+     "Vitaly Sevastyanov",
+     "Sevastyanov"
+    ],
+    [
+     "Boris Yegorov",
+     "Yegorov"
+    ],
+    [
+     "Konstantin Feoktistov",
+     "Feoktistov"
+    ],
+    [
+     "Valery Ryumin",
+     "Ryumin"
+    ],
+    [
+     "Vladimir Dzhanibekov",
+     "Dzhanibekov"
+    ],
+    [
+     "Yelena Kondakova",
+     "Kondakova"
+    ],
+    [
+     "Yelena Serova",
+     "Serova"
+    ],
+    [
+     "Anna Kikina",
+     "Kikina"
+    ],
+    [
+     "Sergei Avdeyev",
+     "Avdeyev"
+    ],
+    [
+     "Musa Manarov",
+     "Manarov"
+    ],
+    [
+     "Gennady Strekalov",
+     "Strekalov"
+    ],
+    [
+     "Yuri Malenchenko",
+     "Malenchenko"
+    ],
+    [
+     "Oleg Novitsky",
+     "Novitskiy",
+     "Novitsky"
+    ],
+    [
+     "Pyotr Dubrov",
+     "Dubrov"
+    ],
+    "Nikolai Chub",
+    [
+     "Sergey Prokopyev",
+     "Prokopyev"
+    ],
+    [
+     "Dmitry Petelin",
+     "Petelin"
+    ],
+    [
+     "Andrei Fedyaev",
+     "Fedyaev"
+    ],
+    [
+     "Yuri Lonchakov",
+     "Lonchakov"
+    ],
+    [
+     "Mikhail Tyurin",
+     "Tyurin"
+    ],
+    [
+     "Mikhail Kornienko",
+     "Kornienko"
+    ],
+    [
+     "Gennady Manakov",
+     "Manakov"
+    ],
+    [
+     "Alexander Kaleri",
+     "Kaleri"
+    ],
+    [
+     "Alexander Serebrov",
+     "Serebrov"
+    ],
+    [
+     "Vasily Tsibliyev",
+     "Tsibliyev"
+    ],
+    [
+     "Alexander Viktorenko",
+     "Viktorenko"
+    ],
+    "Sergey Volkov",
+    "Alexander Volkov"
+   ]
+  }
+ ]
+}

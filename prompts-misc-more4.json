@@ -1,0 +1,4347 @@
+{
+ "cat": "misc",
+ "prompts": [
+  {
+   "id": "xm5-culture-pre-euro-currencies",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a former national currency that was replaced by the euro (as of 2026)",
+   "answers": [
+    [
+     "Deutsche Mark",
+     "Mark",
+     "German mark",
+     "DM"
+    ],
+    [
+     "French franc",
+     "Franc"
+    ],
+    [
+     "Italian lira",
+     "Lira"
+    ],
+    [
+     "Spanish peseta",
+     "Peseta"
+    ],
+    [
+     "Dutch guilder",
+     "Guilder"
+    ],
+    "Belgian franc",
+    [
+     "Irish punt",
+     "Punt",
+     "Irish pound"
+    ],
+    [
+     "Portuguese escudo",
+     "Escudo"
+    ],
+    [
+     "Greek drachma",
+     "Drachma"
+    ],
+    [
+     "Austrian schilling",
+     "Schilling"
+    ],
+    [
+     "Finnish markka",
+     "Markka"
+    ],
+    "Luxembourg franc",
+    [
+     "Slovenian tolar",
+     "Tolar"
+    ],
+    "Cypriot pound",
+    "Maltese lira",
+    [
+     "Slovak koruna",
+     "Koruna"
+    ],
+    [
+     "Estonian kroon",
+     "Kroon"
+    ],
+    [
+     "Latvian lats",
+     "Lats"
+    ],
+    [
+     "Lithuanian litas",
+     "Litas"
+    ],
+    [
+     "Croatian kuna",
+     "Kuna"
+    ],
+    [
+     "Bulgarian lev",
+     "Lev"
+    ]
+   ]
+  },
+  {
+   "id": "xm5-culture-british-honours",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a British honour, order or gallantry medal",
+   "answers": [
+    [
+     "Victoria Cross",
+     "VC"
+    ],
+    [
+     "George Cross",
+     "GC"
+    ],
+    [
+     "Order of the Garter",
+     "Garter"
+    ],
+    [
+     "Order of the Thistle",
+     "Thistle"
+    ],
+    [
+     "Order of the Bath",
+     "Bath"
+    ],
+    [
+     "OBE",
+     "Order of the British Empire"
+    ],
+    [
+     "MBE",
+     "Member of the Order of the British Empire"
+    ],
+    [
+     "CBE",
+     "Commander of the Order of the British Empire"
+    ],
+    "KBE",
+    "DBE",
+    [
+     "Knight Bachelor",
+     "Knighthood"
+    ],
+    [
+     "Order of Merit",
+     "OM"
+    ],
+    [
+     "Companion of Honour",
+     "CH"
+    ],
+    [
+     "Military Cross",
+     "MC"
+    ],
+    [
+     "Distinguished Service Order",
+     "DSO"
+    ],
+    [
+     "Distinguished Flying Cross",
+     "DFC"
+    ],
+    [
+     "Distinguished Conduct Medal",
+     "DCM"
+    ],
+    [
+     "Military Medal",
+     "MM"
+    ],
+    [
+     "Distinguished Service Cross",
+     "DSC"
+    ],
+    [
+     "George Medal",
+     "GM"
+    ],
+    [
+     "Conspicuous Gallantry Cross",
+     "CGC"
+    ],
+    [
+     "Royal Victorian Order",
+     "RVO"
+    ],
+    [
+     "Order of St Michael and St George",
+     "St Michael and St George"
+    ],
+    "Order of St Patrick",
+    [
+     "British Empire Medal",
+     "BEM"
+    ],
+    "Imperial Service Order",
+    [
+     "Queen's Police Medal",
+     "King's Police Medal"
+    ],
+    "Albert Medal",
+    [
+     "Distinguished Service Medal",
+     "DSM"
+    ],
+    [
+     "Air Force Cross",
+     "AFC"
+    ],
+    "Royal Red Cross",
+    "Elizabeth Cross",
+    "Polar Medal",
+    [
+     "Queen's Gallantry Medal",
+     "King's Gallantry Medal",
+     "QGM"
+    ],
+    "Order of the Star of India",
+    "Order of the Indian Empire",
+    "Royal Victorian Medal",
+    [
+     "Baronet",
+     "Baronetcy"
+    ]
+   ]
+  },
+  {
+   "id": "xm5-culture-uk-political-parties",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a UK political party, past or present",
+   "answers": [
+    [
+     "Conservative",
+     "Conservatives",
+     "Tory",
+     "Tories",
+     "Conservative Party"
+    ],
+    [
+     "Labour",
+     "Labour Party"
+    ],
+    [
+     "Liberal Democrats",
+     "Lib Dems",
+     "Lib Dem"
+    ],
+    [
+     "SNP",
+     "Scottish National Party"
+    ],
+    "Plaid Cymru",
+    [
+     "Green Party",
+     "Greens",
+     "Green"
+    ],
+    [
+     "Reform UK",
+     "Reform"
+    ],
+    [
+     "UKIP",
+     "UK Independence Party"
+    ],
+    "Brexit Party",
+    [
+     "DUP",
+     "Democratic Unionist Party"
+    ],
+    "Sinn Féin",
+    [
+     "SDLP",
+     "Social Democratic and Labour Party"
+    ],
+    [
+     "Ulster Unionist Party",
+     "UUP"
+    ],
+    [
+     "Alliance Party",
+     "Alliance"
+    ],
+    [
+     "SDP",
+     "Social Democratic Party"
+    ],
+    [
+     "Liberal Party",
+     "Liberals",
+     "Liberal"
+    ],
+    [
+     "Respect Party",
+     "Respect"
+    ],
+    [
+     "BNP",
+     "British National Party"
+    ],
+    [
+     "Official Monster Raving Loony Party",
+     "Monster Raving Loony Party",
+     "Loony Party"
+    ],
+    [
+     "TUSC",
+     "Trade Unionist and Socialist Coalition"
+    ],
+    "Change UK",
+    "Veritas",
+    "Referendum Party",
+    "Natural Law Party",
+    "Your Party",
+    "Women's Equality Party",
+    "English Democrats",
+    [
+     "Alba Party",
+     "Alba"
+    ],
+    [
+     "Communist Party of Great Britain",
+     "Communist Party"
+    ],
+    "National Front",
+    "Socialist Labour Party",
+    "Scottish Socialist Party",
+    "Socialist Workers Party",
+    "Common Wealth Party",
+    [
+     "Independent Labour Party",
+     "ILP"
+    ],
+    "Co-operative Party",
+    [
+     "Whig Party",
+     "Whigs"
+    ],
+    "Social Democratic Federation",
+    "Workers Revolutionary Party",
+    "Liberal Unionist Party",
+    "Restore Britain",
+    [
+     "Traditional Unionist Voice",
+     "TUV"
+    ],
+    "People Before Profit",
+    "Yorkshire Party",
+    "Mebyon Kernow",
+    "Scottish Greens",
+    "Heritage Party",
+    "Britain First",
+    "Liberal National Party"
+   ]
+  },
+  {
+   "id": "xm5-culture-uk-music-festivals",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a music festival held in the UK (past or present)",
+   "answers": [
+    [
+     "Glastonbury",
+     "Glastonbury Festival"
+    ],
+    [
+     "Reading Festival",
+     "Reading"
+    ],
+    [
+     "Leeds Festival",
+     "Leeds"
+    ],
+    [
+     "Download Festival",
+     "Download"
+    ],
+    [
+     "Isle of Wight Festival",
+     "Isle of Wight"
+    ],
+    [
+     "V Festival",
+     "V"
+    ],
+    "Latitude",
+    "Creamfields",
+    "Wireless",
+    "Bestival",
+    "Camp Bestival",
+    "Boomtown",
+    "Green Man",
+    "End of the Road",
+    "Parklife",
+    "TRNSMT",
+    "T in the Park",
+    "WOMAD",
+    "Cambridge Folk Festival",
+    "Standon Calling",
+    [
+     "Truck Festival",
+     "Truck"
+    ],
+    "Beat-Herder",
+    "Kendal Calling",
+    "Secret Garden Party",
+    "Lovebox",
+    "Field Day",
+    "Wilderness",
+    "Y Not",
+    "Bloodstock",
+    "Sonisphere",
+    "Knebworth",
+    "Rockness",
+    "Hop Farm",
+    [
+     "BST Hyde Park",
+     "British Summer Time",
+     "Hyde Park"
+    ],
+    "Tramlines",
+    "Boardmasters",
+    "Cornbury",
+    "Bluedot",
+    "Black Deer",
+    "Sound City",
+    "Live at Leeds",
+    "The Great Escape",
+    "Shambala",
+    "Rewind",
+    "Strawberry Fields",
+    "Mighty Hoopla",
+    [
+     "Cheltenham Jazz Festival",
+     "Cheltenham Jazz"
+    ],
+    [
+     "Cropredy",
+     "Fairport's Cropredy Convention"
+    ],
+    "Bearded Theory",
+    "Festival No. 6",
+    [
+     "Lytham Festival",
+     "Lytham"
+    ],
+    "Victorious",
+    "Wickerman",
+    "Loopallu",
+    "Belladrum",
+    "Doune the Rabbit Hole",
+    "Big Chill",
+    "Summer Sundae",
+    "Camden Crawl",
+    [
+     "Radio 1's Big Weekend",
+     "Big Weekend"
+    ],
+    "Hard Rock Hell",
+    "Sunrise Celebration",
+    [
+     "2000 Trees",
+     "Twothousand Trees"
+    ],
+    "ArcTanGent",
+    "Wickham",
+    "Larmer Tree"
+   ]
+  },
+  {
+   "id": "xm5-culture-famous-bridges",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a famous bridge anywhere in the world",
+   "answers": [
+    [
+     "Golden Gate Bridge",
+     "Golden Gate"
+    ],
+    [
+     "Brooklyn Bridge",
+     "Brooklyn"
+    ],
+    "Tower Bridge",
+    [
+     "Forth Bridge",
+     "Forth Rail Bridge"
+    ],
+    "Forth Road Bridge",
+    [
+     "Humber Bridge",
+     "Humber"
+    ],
+    [
+     "Severn Bridge",
+     "Severn"
+    ],
+    [
+     "Sydney Harbour Bridge",
+     "Sydney Harbour"
+    ],
+    [
+     "Millau Viaduct",
+     "Millau"
+    ],
+    [
+     "Rialto Bridge",
+     "Rialto"
+    ],
+    "Ponte Vecchio",
+    "Bridge of Sighs",
+    "Charles Bridge",
+    "Tyne Bridge",
+    [
+     "Clifton Suspension Bridge",
+     "Clifton"
+    ],
+    [
+     "Menai Bridge",
+     "Menai Suspension Bridge",
+     "Menai"
+    ],
+    "Britannia Bridge",
+    [
+     "Akashi Kaikyō Bridge",
+     "Akashi Kaikyo"
+    ],
+    [
+     "Øresund Bridge",
+     "Oresund Bridge",
+     "Oresund"
+    ],
+    "Millennium Bridge",
+    "Pont Neuf",
+    "Pont du Gard",
+    "London Bridge",
+    [
+     "Chain Bridge",
+     "Széchenyi Chain Bridge"
+    ],
+    [
+     "Stari Most",
+     "Mostar Bridge"
+    ],
+    "Bosphorus Bridge",
+    [
+     "Verrazzano-Narrows Bridge",
+     "Verrazzano"
+    ],
+    "George Washington Bridge",
+    [
+     "Oakland Bay Bridge",
+     "Bay Bridge",
+     "San Francisco-Oakland Bay Bridge"
+    ],
+    "Queensboro Bridge",
+    "Rainbow Bridge",
+    "Confederation Bridge",
+    [
+     "Great Belt Bridge",
+     "Great Belt"
+    ],
+    "Tay Bridge",
+    "Albert Bridge",
+    "Westminster Bridge",
+    "Waterloo Bridge",
+    "Blackfriars Bridge",
+    "Southwark Bridge",
+    "Vauxhall Bridge",
+    [
+     "Tacoma Narrows Bridge",
+     "Tacoma Narrows",
+     "Galloping Gertie"
+    ],
+    "Mackinac Bridge",
+    [
+     "Pont d'Avignon",
+     "Pont Saint-Bénézet",
+     "Avignon Bridge"
+    ],
+    "Ponte Sant'Angelo",
+    "Khaju Bridge",
+    "Howrah Bridge",
+    "Skye Bridge",
+    "Iron Bridge",
+    [
+     "Middlesbrough Transporter Bridge",
+     "Transporter Bridge"
+    ],
+    "Gateshead Millennium Bridge",
+    "Pulteney Bridge",
+    [
+     "Kapellbrücke",
+     "Chapel Bridge"
+    ],
+    "Bixby Creek Bridge",
+    "Royal Gorge Bridge",
+    [
+     "Pont Alexandre III",
+     "Alexandre III"
+    ],
+    "Ambassador Bridge",
+    [
+     "25 de Abril Bridge",
+     "Ponte 25 de Abril"
+    ],
+    "Vasco da Gama Bridge",
+    "Dom Luís I Bridge",
+    "Erasmus Bridge",
+    [
+     "Magere Brug",
+     "Skinny Bridge"
+    ],
+    "Pont des Arts",
+    "Helix Bridge",
+    "Sunshine Skyway",
+    "Chesapeake Bay Bridge",
+    "Peace Bridge",
+    "Sundial Bridge",
+    "Banpo Bridge",
+    "Zhaozhou Bridge",
+    "Danyang-Kunshan Grand Bridge",
+    "Hong Kong-Zhuhai-Macau Bridge",
+    "Lupu Bridge"
+   ]
+  },
+  {
+   "id": "xm5-culture-english-castles",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a castle in England",
+   "answers": [
+    [
+     "Windsor Castle",
+     "Windsor"
+    ],
+    [
+     "Warwick Castle",
+     "Warwick"
+    ],
+    "Dover Castle",
+    "Leeds Castle",
+    [
+     "Bamburgh Castle",
+     "Bamburgh"
+    ],
+    [
+     "Alnwick Castle",
+     "Alnwick"
+    ],
+    "Tower of London",
+    [
+     "Arundel Castle",
+     "Arundel"
+    ],
+    [
+     "Bodiam Castle",
+     "Bodiam"
+    ],
+    "Lindisfarne Castle",
+    [
+     "Corfe Castle",
+     "Corfe"
+    ],
+    [
+     "Tintagel Castle",
+     "Tintagel"
+    ],
+    "Durham Castle",
+    "Richmond Castle",
+    "Lincoln Castle",
+    [
+     "Kenilworth Castle",
+     "Kenilworth"
+    ],
+    [
+     "Framlingham Castle",
+     "Framlingham"
+    ],
+    "Rochester Castle",
+    [
+     "Hever Castle",
+     "Hever"
+    ],
+    [
+     "Carisbrooke Castle",
+     "Carisbrooke"
+    ],
+    [
+     "Pevensey Castle",
+     "Pevensey"
+    ],
+    "Colchester Castle",
+    "Conisbrough Castle",
+    [
+     "Skipton Castle",
+     "Skipton"
+    ],
+    [
+     "Berkeley Castle",
+     "Berkeley"
+    ],
+    [
+     "Ludlow Castle",
+     "Ludlow"
+    ],
+    [
+     "Pendennis Castle",
+     "Pendennis"
+    ],
+    "Raby Castle",
+    "Stokesay Castle",
+    "Scarborough Castle",
+    "Nottingham Castle",
+    "Norwich Castle",
+    [
+     "Newcastle Castle",
+     "Castle Keep"
+    ],
+    "Carlisle Castle",
+    "Lancaster Castle",
+    "Chester Castle",
+    "Clifford's Tower",
+    [
+     "Dunstanburgh Castle",
+     "Dunstanburgh"
+    ],
+    [
+     "Warkworth Castle",
+     "Warkworth"
+    ],
+    "Barnard Castle",
+    "Pontefract Castle",
+    [
+     "Sudeley Castle",
+     "Sudeley"
+    ],
+    "Sherborne Castle",
+    [
+     "Powderham Castle",
+     "Powderham"
+    ],
+    "Saltwood Castle",
+    "Hurst Castle",
+    "Walmer Castle",
+    "Deal Castle",
+    [
+     "Herstmonceux Castle",
+     "Herstmonceux"
+    ],
+    "Hedingham Castle",
+    [
+     "Orford Castle",
+     "Orford"
+    ],
+    "Oxford Castle",
+    "Wallingford Castle",
+    "Berkhamsted Castle",
+    [
+     "Launceston Castle",
+     "Launceston"
+    ],
+    "Restormel Castle",
+    "St Michael's Mount",
+    "Okehampton Castle",
+    [
+     "Portchester Castle",
+     "Portchester"
+    ],
+    "Highcliffe Castle",
+    "Lulworth Castle",
+    "Dartmouth Castle",
+    "Totnes Castle",
+    "Tamworth Castle",
+    "Tutbury Castle",
+    [
+     "Bolsover Castle",
+     "Bolsover"
+    ],
+    "Peveril Castle",
+    "Knaresborough Castle",
+    [
+     "Middleham Castle",
+     "Middleham"
+    ],
+    "Helmsley Castle",
+    "Pickering Castle",
+    "Kimbolton Castle",
+    "Rockingham Castle",
+    [
+     "Belvoir Castle",
+     "Belvoir"
+    ],
+    [
+     "Highclere Castle",
+     "Highclere"
+    ],
+    "Cooling Castle",
+    "Allington Castle",
+    "Lympne Castle",
+    "Rye Castle",
+    "Lewes Castle",
+    "Amberley Castle",
+    "Bramber Castle",
+    "Newark Castle",
+    "Castle Rising",
+    "Caister Castle",
+    "Beeston Castle",
+    "Halton Castle",
+    "Peckforton Castle",
+    "Bolton Castle",
+    "Brougham Castle",
+    "Appleby Castle",
+    "Naworth Castle",
+    "Muncaster Castle",
+    "Sizergh Castle",
+    "Kendal Castle",
+    "Hylton Castle",
+    "Lumley Castle",
+    "Brancepeth Castle",
+    "Prudhoe Castle",
+    "Norham Castle",
+    "Etal Castle",
+    "Chillingham Castle"
+   ]
+  },
+  {
+   "id": "xm5-culture-uk-zoos",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a zoo or safari park in the UK",
+   "answers": [
+    [
+     "London Zoo",
+     "ZSL London Zoo"
+    ],
+    [
+     "Chester Zoo",
+     "Chester"
+    ],
+    [
+     "Whipsnade",
+     "ZSL Whipsnade",
+     "Whipsnade Zoo"
+    ],
+    "Edinburgh Zoo",
+    [
+     "Longleat",
+     "Longleat Safari Park"
+    ],
+    [
+     "Paignton Zoo",
+     "Paignton"
+    ],
+    [
+     "Twycross Zoo",
+     "Twycross"
+    ],
+    "Colchester Zoo",
+    [
+     "Marwell Zoo",
+     "Marwell"
+    ],
+    "Bristol Zoo",
+    "Blackpool Zoo",
+    "Howletts",
+    [
+     "Port Lympne",
+     "Port Lympne Reserve"
+    ],
+    [
+     "Knowsley Safari Park",
+     "Knowsley Safari",
+     "Knowsley"
+    ],
+    [
+     "Woburn Safari Park",
+     "Woburn"
+    ],
+    "Dudley Zoo",
+    "Belfast Zoo",
+    "Drusillas",
+    "Yorkshire Wildlife Park",
+    "Cotswold Wildlife Park",
+    "Banham Zoo",
+    "Flamingo Land",
+    [
+     "Blair Drummond Safari Park",
+     "Blair Drummond"
+    ],
+    "Highland Wildlife Park",
+    "Welsh Mountain Zoo",
+    "Dartmoor Zoo",
+    "Newquay Zoo",
+    "Africa Alive",
+    [
+     "Shepreth Wildlife Park",
+     "Shepreth"
+    ],
+    "Paradise Park",
+    [
+     "Chessington World of Adventures",
+     "Chessington Zoo"
+    ],
+    [
+     "Wild Place Project",
+     "Wild Place"
+    ],
+    "Folly Farm",
+    "Exmoor Zoo",
+    "Monkey World",
+    "Hawk Conservancy",
+    [
+     "South Lakes Safari Zoo",
+     "South Lakes"
+    ],
+    "Linton Zoo",
+    [
+     "National Zoo Wales",
+     "Welsh Mountain"
+    ],
+    "Tropical World",
+    "Cumbria Zoo",
+    "Lakeland Wildlife Oasis",
+    "Hamerton Zoo",
+    "Thrigby Hall",
+    "Amazon World",
+    "Isle of Wight Zoo"
+   ]
+  },
+  {
+   "id": "xm5-culture-nonfood-retailers",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a UK high-street shop or chain selling something other than clothes or food, past or present",
+   "answers": [
+    [
+     "Woolworths",
+     "Woolies"
+    ],
+    "WHSmith",
+    "Boots",
+    "Argos",
+    "Currys",
+    "Halfords",
+    "B&M",
+    [
+     "Wilko",
+     "Wilkinson"
+    ],
+    "The Range",
+    "Poundland",
+    "Superdrug",
+    "Ryman",
+    "Game",
+    "HMV",
+    "Blockbuster",
+    "Our Price",
+    "Virgin Megastore",
+    "Toys R Us",
+    "Mothercare",
+    "Early Learning Centre",
+    "Clinton Cards",
+    "Card Factory",
+    "Paperchase",
+    "Robert Dyas",
+    "Dunelm",
+    "Habitat",
+    "Homebase",
+    "B&Q",
+    "Wickes",
+    "Screwfix",
+    "Toolstation",
+    "Carphone Warehouse",
+    "Dixons",
+    "Comet",
+    "Maplin",
+    "Rumbelows",
+    "Index",
+    "Poundstretcher",
+    [
+     "Holland & Barrett",
+     "Holland and Barrett"
+    ],
+    "Specsavers",
+    "Vision Express",
+    "Timpson",
+    "Ann Summers",
+    "Waterstones",
+    "Borders",
+    "Blackwell's",
+    "Foyles",
+    "Athena",
+    "Past Times",
+    "Staples",
+    "Pets at Home",
+    "IKEA",
+    "Lakeland",
+    "Hobbycraft",
+    "The Entertainer",
+    "Smyths",
+    "Games Workshop",
+    "CeX",
+    "Cash Converters",
+    "Ladbrokes",
+    "William Hill",
+    "Lush",
+    "The Body Shop",
+    "Oliver Bonas",
+    "Allders",
+    "Courts",
+    "Furniture Village",
+    "DFS",
+    "ScS",
+    "Harveys",
+    "Bensons for Beds",
+    "Dreams",
+    "Topps Tiles",
+    "Carpetright",
+    "Magnet",
+    "Wren Kitchens",
+    "Fopp",
+    "Zavvi",
+    "Tower Records",
+    "Jessops",
+    "Snappy Snaps",
+    "Phones 4u",
+    "The Link"
+   ]
+  },
+  {
+   "id": "xm5-culture-british-comics",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a British comic or children's weekly paper (past or present)",
+   "answers": [
+    [
+     "The Beano",
+     "Beano"
+    ],
+    [
+     "The Dandy",
+     "Dandy"
+    ],
+    "Eagle",
+    "2000 AD",
+    "Beezer",
+    "Topper",
+    "Buster",
+    "Whizzer and Chips",
+    "Whoopee",
+    "Cor!!",
+    "Victor",
+    "Hotspur",
+    "Wizard",
+    "Rover",
+    "Valiant",
+    "Lion",
+    "Tiger",
+    "Roy of the Rovers",
+    "Bunty",
+    "Judy",
+    "Mandy",
+    "Jackie",
+    "Twinkle",
+    "Jack and Jill",
+    "Look-in",
+    "TV Comic",
+    "Viz",
+    "Oink!",
+    "Battle",
+    "Warlord",
+    "Commando",
+    "Misty",
+    "Tammy",
+    "Sparky",
+    "Nutty",
+    "Krazy",
+    "Jinty",
+    "Starlord",
+    "Tornado",
+    "Hoot",
+    "Cheeky",
+    "Shiver and Shake",
+    "Monster Fun",
+    "Scream!",
+    "Smash!",
+    "Wham!",
+    "Pow!",
+    "Fantastic",
+    "Terrific",
+    "Girl",
+    "Swift",
+    "Robin",
+    "Girls' Crystal",
+    "School Friend",
+    "Sandie",
+    "Debbie",
+    "Diana",
+    "Spellbound",
+    "Playhour",
+    "Rainbow",
+    "Tiger Tim's Weekly",
+    "Radio Fun",
+    "Film Fun",
+    "Knockout",
+    "Comic Cuts",
+    "Chips",
+    "Adventure",
+    "Skipper",
+    "Champion",
+    "Triumph",
+    "Dreadnought",
+    "Bullet",
+    "Action"
+   ]
+  },
+  {
+   "id": "xm5-culture-uk-radio-stations",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a UK radio station, national or local, past or present",
+   "answers": [
+    [
+     "BBC Radio 1",
+     "Radio 1"
+    ],
+    [
+     "BBC Radio 2",
+     "Radio 2"
+    ],
+    [
+     "BBC Radio 3",
+     "Radio 3"
+    ],
+    [
+     "BBC Radio 4",
+     "Radio 4"
+    ],
+    [
+     "BBC Radio 5 Live",
+     "Five Live",
+     "5 Live",
+     "Radio 5 Live"
+    ],
+    [
+     "BBC Radio 6 Music",
+     "6 Music",
+     "Radio 6"
+    ],
+    "1Xtra",
+    [
+     "BBC Asian Network",
+     "Asian Network"
+    ],
+    "Radio 4 Extra",
+    [
+     "Capital",
+     "Capital FM",
+     "Capital London"
+    ],
+    [
+     "Heart",
+     "Heart FM"
+    ],
+    "Classic FM",
+    [
+     "Absolute Radio",
+     "Absolute"
+    ],
+    [
+     "Kiss",
+     "Kiss FM"
+    ],
+    [
+     "Magic",
+     "Magic FM"
+    ],
+    [
+     "Smooth",
+     "Smooth Radio"
+    ],
+    "LBC",
+    "talkSPORT",
+    [
+     "Virgin Radio",
+     "Virgin Radio UK"
+    ],
+    [
+     "XFM",
+     "Radio X"
+    ],
+    [
+     "Kerrang! Radio",
+     "Kerrang"
+    ],
+    "Jazz FM",
+    "Times Radio",
+    "Gold",
+    "Greatest Hits Radio",
+    "Hits Radio",
+    "Capital Xtra",
+    "Planet Rock",
+    "Scala Radio",
+    "Boom Radio",
+    "Radio Caroline",
+    "Radio Luxembourg",
+    "Atlantic 252",
+    "Century FM",
+    "Talk Radio",
+    [
+     "Radio Clyde",
+     "Clyde 1"
+    ],
+    "Radio Forth",
+    "Radio City",
+    "Piccadilly Radio",
+    "BRMB",
+    "Metro Radio",
+    "Radio Aire",
+    "Capital Gold",
+    "Choice FM",
+    "Galaxy",
+    "Mercury FM",
+    "Power FM",
+    "Sunrise Radio",
+    "Premier Christian Radio",
+    "Lincs FM",
+    "Downtown Radio",
+    "Cool FM",
+    "Radio Cymru",
+    "Radio Scotland",
+    "Radio Ulster",
+    "Radio Wales",
+    [
+     "BBC Radio London",
+     "Radio London"
+    ],
+    "Radio Merseyside",
+    "Radio Hallam",
+    "Beacon Radio",
+    "Pirate FM",
+    "Rinse FM",
+    "Kiss 100",
+    "Jack FM",
+    "Heart Dance",
+    "Rock FM",
+    "Nation Radio",
+    "Radio Orwell",
+    "Invicta FM",
+    "Radio Trent",
+    "Signal Radio",
+    "Swansea Sound",
+    "Red Dragon FM",
+    "Tay FM",
+    "Northsound",
+    "Moray Firth Radio",
+    "Original 106",
+    "Key 103",
+    "Radio Wave",
+    "Juice FM",
+    "Real Radio",
+    "Radio Jackie"
+   ]
+  },
+  {
+   "id": "xm5-culture-stately-homes",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a stately home or country house open to the public in England",
+   "answers": [
+    [
+     "Chatsworth",
+     "Chatsworth House"
+    ],
+    [
+     "Blenheim Palace",
+     "Blenheim"
+    ],
+    [
+     "Longleat",
+     "Longleat House"
+    ],
+    [
+     "Highclere Castle",
+     "Highclere"
+    ],
+    "Castle Howard",
+    [
+     "Hatfield House",
+     "Hatfield"
+    ],
+    [
+     "Woburn Abbey",
+     "Woburn"
+    ],
+    [
+     "Burghley House",
+     "Burghley"
+    ],
+    [
+     "Harewood House",
+     "Harewood"
+    ],
+    [
+     "Holkham Hall",
+     "Holkham"
+    ],
+    [
+     "Waddesdon Manor",
+     "Waddesdon"
+    ],
+    [
+     "Petworth House",
+     "Petworth"
+    ],
+    [
+     "Wilton House",
+     "Wilton"
+    ],
+    [
+     "Hardwick Hall",
+     "Hardwick"
+    ],
+    [
+     "Kedleston Hall",
+     "Kedleston"
+    ],
+    "Belvoir Castle",
+    "Cliveden",
+    "Stourhead",
+    [
+     "Lyme Park",
+     "Lyme Hall"
+    ],
+    [
+     "Osborne House",
+     "Osborne"
+    ],
+    [
+     "Audley End",
+     "Audley End House"
+    ],
+    "Kingston Lacy",
+    [
+     "Hampton Court Palace",
+     "Hampton Court"
+    ],
+    [
+     "Syon House",
+     "Syon Park"
+    ],
+    [
+     "Kenwood House",
+     "Kenwood"
+    ],
+    "Ham House",
+    "Chiswick House",
+    "Sudeley Castle",
+    [
+     "Bowood House",
+     "Bowood"
+    ],
+    [
+     "Stowe",
+     "Stowe House"
+    ],
+    "Haddon Hall",
+    [
+     "Blickling Hall",
+     "Blickling"
+    ],
+    [
+     "Houghton Hall",
+     "Houghton"
+    ],
+    [
+     "Wollaton Hall",
+     "Wollaton"
+    ],
+    "Newstead Abbey",
+    [
+     "Lacock Abbey",
+     "Lacock"
+    ],
+    [
+     "Montacute House",
+     "Montacute"
+    ],
+    "Knole",
+    "Ightham Mote",
+    [
+     "Penshurst Place",
+     "Penshurst"
+    ],
+    [
+     "Knebworth House",
+     "Knebworth"
+    ],
+    "Althorp",
+    "Arundel Castle",
+    [
+     "Goodwood House",
+     "Goodwood"
+    ],
+    [
+     "Parham House",
+     "Parham"
+    ],
+    "Uppark",
+    "Polesden Lacey",
+    "Clandon Park",
+    "Hughenden Manor",
+    "Claydon House",
+    "Chavenage",
+    [
+     "Ragley Hall",
+     "Ragley"
+    ],
+    [
+     "Charlecote Park",
+     "Charlecote"
+    ],
+    "Packwood House",
+    "Baddesley Clinton",
+    "Coughton Court",
+    "Sulgrave Manor",
+    "Burton Agnes",
+    "Beningbrough Hall",
+    [
+     "Nostell Priory",
+     "Nostell"
+    ],
+    "Temple Newsam",
+    "Brodsworth Hall",
+    "Wentworth Woodhouse",
+    "Bramham Park",
+    "Ripley Castle",
+    "Studley Royal",
+    "Fountains Hall",
+    "Wallington",
+    "Cragside",
+    "Seaton Delaval Hall",
+    "Belsay Hall",
+    "Lanhydrock",
+    "Trerice",
+    "Cotehele",
+    "Saltram",
+    "Castle Drogo",
+    "Dyrham Park",
+    "Tyntesfield",
+    "Badminton House",
+    "Ickworth",
+    "Kentwell Hall",
+    "Melford Hall",
+    [
+     "Sandringham House",
+     "Sandringham"
+    ],
+    "Felbrigg Hall",
+    "Oxburgh Hall",
+    "Anglesey Abbey",
+    [
+     "Wimpole Hall",
+     "Wimpole"
+    ],
+    "Madingley Hall",
+    "Elton Hall",
+    "Kelmarsh Hall",
+    "Boughton House",
+    "Rockingham",
+    "Deene Park",
+    "Calke Abbey",
+    "Sudbury Hall",
+    "Shugborough",
+    "Weston Park",
+    [
+     "Attingham Park",
+     "Attingham"
+    ],
+    [
+     "Tatton Park",
+     "Tatton"
+    ],
+    "Capesthorne Hall",
+    "Dunham Massey",
+    "Speke Hall",
+    "Rufford Old Hall",
+    "Gawthorpe Hall",
+    "Levens Hall",
+    "Holker Hall",
+    "Muncaster"
+   ]
+  },
+  {
+   "id": "xm5-pastimes-knots",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a type of knot or hitch",
+   "answers": [
+    [
+     "Reef knot",
+     "Square knot"
+    ],
+    "Bowline",
+    "Clove hitch",
+    "Sheepshank",
+    "Granny knot",
+    [
+     "Figure of eight",
+     "Figure-eight knot",
+     "Figure eight"
+    ],
+    "Half hitch",
+    "Sheet bend",
+    "Slip knot",
+    [
+     "Overhand knot",
+     "Overhand"
+    ],
+    "Noose",
+    "Hangman's knot",
+    "Timber hitch",
+    [
+     "Fisherman's knot",
+     "Fisherman's bend"
+    ],
+    "Trucker's hitch",
+    "Cleat hitch",
+    "Monkey's fist",
+    "Prusik",
+    "Alpine butterfly",
+    "Round turn and two half hitches",
+    "Rolling hitch",
+    "Carrick bend",
+    "Constrictor knot",
+    "Bowline on a bight",
+    [
+     "Cow hitch",
+     "Lark's head"
+    ],
+    "Anchor bend",
+    "Taut-line hitch",
+    "Surgeon's knot",
+    "Blood knot",
+    "Palomar knot",
+    "Clinch knot",
+    "Double fisherman's",
+    "Munter hitch",
+    "Girth hitch",
+    "Highwayman's hitch",
+    "Turk's head",
+    "Thief knot",
+    "Stevedore knot",
+    "Water knot",
+    "Zeppelin bend",
+    "Gordian knot",
+    "Double overhand",
+    "Becket bend",
+    "Packer's knot",
+    "Diamond knot",
+    "Lanyard knot",
+    "Cat's paw",
+    "Marlinspike hitch",
+    "Sailor's knot"
+   ]
+  },
+  {
+   "id": "xm5-pastimes-garden-tools",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a tool used in the garden",
+   "answers": [
+    "Spade",
+    [
+     "Garden fork",
+     "Fork"
+    ],
+    "Trowel",
+    "Rake",
+    "Hoe",
+    [
+     "Secateurs",
+     "Pruners"
+    ],
+    [
+     "Shears",
+     "Hedge shears"
+    ],
+    [
+     "Lawnmower",
+     "Mower"
+    ],
+    "Wheelbarrow",
+    [
+     "Dibber",
+     "Dibble"
+    ],
+    [
+     "Strimmer",
+     "Trimmer",
+     "Weed whacker"
+    ],
+    [
+     "Hose",
+     "Hosepipe"
+    ],
+    "Watering can",
+    "Loppers",
+    [
+     "Edging iron",
+     "Half-moon edger"
+    ],
+    "Pruning saw",
+    "Hedge trimmer",
+    "Leaf blower",
+    "Sprinkler",
+    "Cloche",
+    [
+     "Riddle",
+     "Sieve"
+    ],
+    "Bulb planter",
+    "Shovel",
+    [
+     "Pickaxe",
+     "Pick"
+    ],
+    [
+     "Besom",
+     "Broom"
+    ],
+    "Scythe",
+    "Sickle",
+    "Mattock",
+    [
+     "Cultivator",
+     "Rotavator",
+     "Rotovator"
+    ],
+    "Hand fork",
+    "Dutch hoe",
+    "Border fork",
+    [
+     "Kneeler",
+     "Kneeling pad"
+    ],
+    "Aerator",
+    "Scarifier",
+    [
+     "Lawn roller",
+     "Roller"
+    ],
+    "Spreader",
+    "Chainsaw",
+    [
+     "Mulcher",
+     "Shredder"
+    ],
+    [
+     "Gardening gloves",
+     "Gloves"
+    ],
+    "Billhook",
+    [
+     "Leaf rake",
+     "Lawn rake"
+    ],
+    "Grass shears",
+    "Edger",
+    "Pruner",
+    "Hand trowel",
+    "Pitchfork",
+    "Bow rake",
+    "Digging fork",
+    "Slasher",
+    "Sprayer"
+   ]
+  },
+  {
+   "id": "xm5-pastimes-diy-tools",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a DIY or hand tool you might find in a toolbox or shed",
+   "answers": [
+    "Hammer",
+    "Screwdriver",
+    "Spanner",
+    [
+     "Saw",
+     "Handsaw"
+    ],
+    [
+     "Drill",
+     "Power drill"
+    ],
+    "Chisel",
+    "Plane",
+    "Pliers",
+    "Wrench",
+    "Mallet",
+    "Spirit level",
+    "Tape measure",
+    "File",
+    "Rasp",
+    "Hacksaw",
+    "Jigsaw",
+    "Sander",
+    [
+     "Clamp",
+     "G-clamp"
+    ],
+    [
+     "Vice",
+     "Vise"
+    ],
+    [
+     "Awl",
+     "Bradawl"
+    ],
+    [
+     "Stanley knife",
+     "Craft knife",
+     "Utility knife"
+    ],
+    "Wire strippers",
+    "Socket set",
+    [
+     "Allen key",
+     "Hex key"
+    ],
+    "Crowbar",
+    "Pincers",
+    "Set square",
+    "Sledgehammer",
+    "Adze",
+    "Router",
+    "Stud finder",
+    "Nail gun",
+    "Staple gun",
+    "Glue gun",
+    "Scraper",
+    "Putty knife",
+    "Trowel",
+    "Plumb line",
+    "Mole grips",
+    [
+     "Stilsons",
+     "Pipe wrench"
+    ],
+    "Tenon saw",
+    "Coping saw",
+    "Circular saw",
+    "Angle grinder",
+    "Soldering iron",
+    "Multimeter",
+    "Torque wrench",
+    "Ratchet",
+    "Punch",
+    "Centre punch",
+    "Hole saw",
+    "Mitre saw",
+    "Heat gun",
+    "Pry bar",
+    "Claw hammer",
+    "Lump hammer",
+    "Cold chisel",
+    "Combination square",
+    "Marking gauge",
+    "Spokeshave",
+    "Bolt cutters",
+    "Tin snips",
+    "Rivet gun",
+    "Grease gun",
+    "Caulking gun",
+    "Pipe cutter"
+   ]
+  },
+  {
+   "id": "xm5-pastimes-garden-flowers",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a flower grown in British gardens",
+   "answers": [
+    "Rose",
+    "Tulip",
+    "Daffodil",
+    "Sunflower",
+    "Lavender",
+    [
+     "Geranium",
+     "Pelargonium"
+    ],
+    "Pansy",
+    "Marigold",
+    "Hydrangea",
+    "Fuchsia",
+    "Dahlia",
+    "Begonia",
+    "Petunia",
+    "Crocus",
+    "Hyacinth",
+    "Lily",
+    "Peony",
+    "Clematis",
+    "Wisteria",
+    "Delphinium",
+    "Lupin",
+    "Iris",
+    "Aster",
+    "Chrysanthemum",
+    "Sweet pea",
+    "Cosmos",
+    "Nasturtium",
+    [
+     "Snapdragon",
+     "Antirrhinum"
+    ],
+    "Honeysuckle",
+    "Rhododendron",
+    "Camellia",
+    "Magnolia",
+    "Azalea",
+    [
+     "Buddleia",
+     "Buddleja"
+    ],
+    "Hollyhock",
+    [
+     "Aquilegia",
+     "Columbine"
+    ],
+    [
+     "Allium",
+     "Alliums"
+    ],
+    [
+     "Gladiolus",
+     "Gladioli"
+    ],
+    "Foxglove",
+    [
+     "Primula",
+     "Primrose"
+    ],
+    "Viola",
+    "Lobelia",
+    "Alyssum",
+    [
+     "Busy Lizzie",
+     "Impatiens"
+    ],
+    "Verbena",
+    "Zinnia",
+    "Phlox",
+    "Salvia",
+    "Anemone",
+    [
+     "Hellebore",
+     "Christmas rose"
+    ],
+    "Cyclamen",
+    "Narcissus",
+    "Snowdrop",
+    "Bluebell",
+    "Forget-me-not",
+    [
+     "Gypsophila",
+     "Baby's breath"
+    ],
+    [
+     "Carnation",
+     "Pink"
+    ],
+    "Freesia",
+    "Poppy",
+    "Sedum",
+    "Echinacea",
+    "Penstemon",
+    "Hosta",
+    "Lilac",
+    "Jasmine",
+    "Bergenia",
+    "Heather",
+    "Daisy",
+    "Agapanthus",
+    "Pieris",
+    "Geum",
+    "Astilbe",
+    "Stock",
+    "Wallflower",
+    "Sweet William",
+    "Cornflower",
+    [
+     "Love-in-a-mist",
+     "Nigella"
+    ],
+    "Evening primrose"
+   ]
+  },
+  {
+   "id": "xm5-pastimes-bingo-calls",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a traditional British bingo call (like 'Legs Eleven')",
+   "answers": [
+    "Kelly's Eye",
+    "One Little Duck",
+    "Cup of Tea",
+    "Knock at the Door",
+    "Man Alive",
+    "Tom Mix",
+    [
+     "Lucky Seven",
+     "Lucky"
+    ],
+    "Garden Gate",
+    "Doctor's Orders",
+    [
+     "Downing Street",
+     "Dahnin Street"
+    ],
+    [
+     "Legs Eleven",
+     "Legs 11"
+    ],
+    "One Dozen",
+    "Unlucky for Some",
+    "Valentine's Day",
+    "Young and Keen",
+    [
+     "Sweet Sixteen",
+     "Never Been Kissed",
+     "Sweet 16"
+    ],
+    "Dancing Queen",
+    "Coming of Age",
+    "Goodbye Teens",
+    [
+     "Key of the Door",
+     "Key to the Door"
+    ],
+    [
+     "Two Little Ducks",
+     "Ducks on the Pond"
+    ],
+    "Duck and Dive",
+    "Half a Crown",
+    "Duck and a Crutch",
+    "Dirty Gertie",
+    "Buckle My Shoe",
+    "Dirty Knee",
+    "Christmas Cake",
+    [
+     "Life Begins at Forty",
+     "Naughty Forty"
+    ],
+    "Halfway There",
+    [
+     "Droopy Drawers",
+     "All the Fours"
+    ],
+    [
+     "Bullseye",
+     "It's a Bullseye"
+    ],
+    "Tweak of the Thumb",
+    "Danny La Rue",
+    [
+     "Heinz Varieties",
+     "Heinz 57"
+    ],
+    "Half a Century",
+    "Brighton Line",
+    "Grandma's Getting Frisky",
+    "Baker's Bun",
+    "Tickety-Boo",
+    "Clickety Click",
+    "Stairway to Heaven",
+    "Made in Heaven",
+    "Bang on the Drum",
+    "Queen Bee",
+    "Candy Store",
+    [
+     "Trombones",
+     "Seventy-Six Trombones"
+    ],
+    "Sunset Strip",
+    "Gandhi's Breakfast",
+    "Staying Alive",
+    "Torquay in Devon",
+    [
+     "Two Fat Ladies",
+     "Fat Ladies"
+    ],
+    [
+     "Nearly There",
+     "Almost There"
+    ],
+    "Shotts Bus",
+    "Winnie the Pooh",
+    "Time for Tea",
+    "Straight on Through",
+    "Between the Sticks",
+    "Clean the Floor",
+    "Snakes Alive",
+    "Three Score and Ten",
+    "Rise and Shine",
+    "Get Up and Run",
+    "Jump and Jive",
+    "Ask for More",
+    "Time for Fun",
+    "Down on Your Knees"
+   ]
+  },
+  {
+   "id": "xm5-pastimes-fairground",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a fairground ride or sideshow",
+   "answers": [
+    [
+     "Dodgems",
+     "Bumper cars"
+    ],
+    [
+     "Carousel",
+     "Merry-go-round",
+     "Roundabout"
+    ],
+    [
+     "Waltzer",
+     "Waltzers"
+    ],
+    "Ghost train",
+    [
+     "Big wheel",
+     "Ferris wheel"
+    ],
+    "Helter skelter",
+    "Coconut shy",
+    "Hook a duck",
+    "Tombola",
+    "Rollercoaster",
+    "Log flume",
+    [
+     "Chair-o-planes",
+     "Swing ride"
+    ],
+    "Teacups",
+    "Tagada",
+    "Twister",
+    "Miami",
+    "Meteorite",
+    "Octopus",
+    "Cakewalk",
+    [
+     "Hall of mirrors",
+     "House of mirrors"
+    ],
+    "Hoopla",
+    [
+     "High striker",
+     "Test your strength",
+     "Strongman"
+    ],
+    "Ring toss",
+    "Whack-a-mole",
+    "Speedway",
+    "Cyclone",
+    "Scrambler",
+    [
+     "Pirate ship",
+     "Swinging ship"
+    ],
+    [
+     "Drop tower",
+     "Free fall"
+    ],
+    "Haunted house",
+    "Funhouse",
+    "Rotor",
+    "Gallopers",
+    "Wall of death",
+    "Duck pond",
+    [
+     "Penny falls",
+     "Penny arcade"
+    ],
+    [
+     "Shooting gallery",
+     "Rifle range"
+    ],
+    "Bouncy castle",
+    "Wild mouse",
+    "Crazy mouse",
+    "Water chute",
+    "Orbiter",
+    "Paratrooper",
+    "Break Dance",
+    "Round Up",
+    "Zipper",
+    "Tilt-A-Whirl",
+    "Gravitron",
+    "Mad Mouse",
+    "Dive bomber",
+    "Rodeo bull",
+    "Darts stall",
+    "Goldfish stall",
+    "Lucky dip",
+    "Fortune teller",
+    "Bumper boats",
+    "Caterpillar",
+    "Tunnel of love"
+   ]
+  },
+  {
+   "id": "xm5-pastimes-boats-ships",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a type of boat or ship",
+   "answers": [
+    "Yacht",
+    "Dinghy",
+    "Catamaran",
+    "Ketch",
+    "Sloop",
+    "Schooner",
+    "Yawl",
+    "Cutter",
+    "Brig",
+    "Galleon",
+    "Barque",
+    "Clipper",
+    "Junk",
+    "Dhow",
+    "Trawler",
+    [
+     "Tug",
+     "Tugboat"
+    ],
+    "Ferry",
+    "Canoe",
+    "Kayak",
+    "Punt",
+    "Gondola",
+    "Lifeboat",
+    "Narrowboat",
+    "Longboat",
+    [
+     "Rowing boat",
+     "Rowboat"
+    ],
+    "Speedboat",
+    "Motorboat",
+    [
+     "Steamship",
+     "Steamer"
+    ],
+    [
+     "Liner",
+     "Ocean liner"
+    ],
+    "Cruise ship",
+    "Tanker",
+    "Container ship",
+    "Cargo ship",
+    "Battleship",
+    "Destroyer",
+    "Frigate",
+    "Cruiser",
+    "Submarine",
+    "Aircraft carrier",
+    "Corvette",
+    "Minesweeper",
+    "Barge",
+    "Houseboat",
+    "Raft",
+    "Coracle",
+    "Trimaran",
+    "Hovercraft",
+    "Hydrofoil",
+    "Jet ski",
+    "Pedalo",
+    "Skiff",
+    "Lugger",
+    "Wherry",
+    "Smack",
+    "Whaler",
+    "Carrack",
+    "Caravel",
+    "Trireme",
+    [
+     "Longship",
+     "Viking ship"
+    ],
+    "Paddle steamer",
+    "Windjammer",
+    "Sampan",
+    "Felucca",
+    "Outrigger",
+    "Pontoon",
+    "Dredger",
+    "Icebreaker",
+    "Man-of-war",
+    "Ironclad",
+    "Dreadnought",
+    "Gunboat",
+    "Packet ship",
+    "Tender",
+    "Pilot boat",
+    "Fishing boat",
+    "Rib",
+    "Inflatable"
+   ]
+  },
+  {
+   "id": "xm5-pastimes-bicycle-types",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a type of bicycle",
+   "answers": [
+    "BMX",
+    [
+     "Road bike",
+     "Racing bike",
+     "Road racer"
+    ],
+    [
+     "Mountain bike",
+     "MTB"
+    ],
+    "Tandem",
+    "Penny-farthing",
+    "Recumbent",
+    [
+     "Folding bike",
+     "Folding"
+    ],
+    "Hybrid",
+    [
+     "Gravel bike",
+     "Gravel"
+    ],
+    [
+     "Tricycle",
+     "Trike"
+    ],
+    "Unicycle",
+    [
+     "E-bike",
+     "Electric bike"
+    ],
+    [
+     "Fixie",
+     "Fixed-gear"
+    ],
+    "Touring bike",
+    "Cargo bike",
+    "Chopper",
+    "Brompton",
+    "Track bike",
+    "Cruiser",
+    "Beach cruiser",
+    "Balance bike",
+    [
+     "Dutch bike",
+     "Omafiets"
+    ],
+    "Boneshaker",
+    "Velocipede",
+    [
+     "Hobby horse",
+     "Draisine"
+    ],
+    [
+     "Time trial bike",
+     "TT bike"
+    ],
+    "Fat bike",
+    [
+     "Cyclocross bike",
+     "Cyclo-cross"
+    ],
+    "Tourer",
+    [
+     "Commuter bike",
+     "Commuter"
+    ],
+    [
+     "Boris bike",
+     "Santander Cycles"
+    ],
+    "Quadricycle",
+    [
+     "Pedicab",
+     "Rickshaw"
+    ],
+    "Downhill bike",
+    "Enduro bike",
+    "Trials bike",
+    "Dirt jumper",
+    "Hand cycle",
+    "Pashley"
+   ]
+  },
+  {
+   "id": "xm5-pastimes-camera-brands",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a camera brand, past or present",
+   "answers": [
+    "Canon",
+    "Nikon",
+    "Sony",
+    [
+     "Fujifilm",
+     "Fuji"
+    ],
+    "Olympus",
+    "Pentax",
+    "Leica",
+    [
+     "Panasonic",
+     "Lumix"
+    ],
+    "Kodak",
+    "Polaroid",
+    "GoPro",
+    "Hasselblad",
+    "Minolta",
+    "Ricoh",
+    "Sigma",
+    "Zenit",
+    "Praktica",
+    "Yashica",
+    "Contax",
+    "Instax",
+    "Samsung",
+    "Casio",
+    "Agfa",
+    "Ilford",
+    "Mamiya",
+    "Bronica",
+    [
+     "Rollei",
+     "Rolleiflex"
+    ],
+    "Voigtländer",
+    "Kyocera",
+    "Konica",
+    "Vivitar",
+    [
+     "Lomography",
+     "Lomo"
+    ],
+    "Hanimex",
+    "Halina",
+    "Ensign",
+    "Exakta",
+    "Insta360",
+    "DJI",
+    "Phase One",
+    "Blackmagic",
+    "Arri",
+    "Zeiss Ikon",
+    "Argus",
+    "Bell & Howell",
+    "Cosina",
+    "Fujica",
+    "Chinon",
+    "Petri",
+    "Nikonos",
+    "Lytro",
+    [
+     "Kodak Brownie",
+     "Brownie"
+    ],
+    "Holga",
+    "Diana",
+    "Seagull",
+    "Graflex",
+    "Speed Graphic",
+    "Pentacon",
+    "Canonet",
+    "Konica Minolta",
+    [
+     "Kodak Instamatic",
+     "Instamatic"
+    ]
+   ]
+  },
+  {
+   "id": "xm5-pastimes-pub-names",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a common British pub name",
+   "answers": [
+    "Red Lion",
+    "Royal Oak",
+    "White Hart",
+    [
+     "Plough",
+     "The Plough"
+    ],
+    [
+     "Crown",
+     "The Crown"
+    ],
+    "Queen's Head",
+    "King's Head",
+    [
+     "Rose and Crown",
+     "Rose & Crown"
+    ],
+    "Wheatsheaf",
+    [
+     "George",
+     "The George"
+    ],
+    [
+     "Ship",
+     "The Ship"
+    ],
+    [
+     "Bell",
+     "The Bell"
+    ],
+    [
+     "Swan",
+     "The Swan"
+    ],
+    "Black Horse",
+    "White Horse",
+    "Fox and Hounds",
+    [
+     "Railway",
+     "Railway Tavern"
+    ],
+    "Coach and Horses",
+    "Cross Keys",
+    "Three Horseshoes",
+    [
+     "Star",
+     "The Star"
+    ],
+    "Greyhound",
+    [
+     "Angel",
+     "The Angel"
+    ],
+    [
+     "Bull",
+     "The Bull"
+    ],
+    "Green Man",
+    "Nag's Head",
+    "Marquis of Granby",
+    "Duke of Wellington",
+    "Prince of Wales",
+    "Albion",
+    "Victoria",
+    "King's Arms",
+    "Queen's Arms",
+    "Lamb",
+    "Eagle",
+    "Anchor",
+    "Cricketers",
+    "Barley Mow",
+    "Dog and Duck",
+    "Feathers",
+    "Packhorse",
+    [
+     "Waggon and Horses",
+     "Wagon and Horses"
+    ],
+    "Seven Stars",
+    "New Inn",
+    "White Swan",
+    "Black Bull",
+    "Blue Bell",
+    "Rising Sun",
+    "Royal George",
+    "Crown and Anchor",
+    "Horse and Groom",
+    "Fountain",
+    "Chequers",
+    "Hare and Hounds",
+    "Bricklayers Arms",
+    "Unicorn",
+    "Globe",
+    "Wellington",
+    [
+     "Nelson",
+     "Lord Nelson"
+    ],
+    "Black Swan",
+    "Red Cow",
+    "White Lion",
+    "Golden Lion",
+    "Royal Standard",
+    "Jolly Sailor",
+    "Bear",
+    "Boot",
+    "Castle",
+    "White Bear",
+    "Black Lion",
+    "Prince Albert",
+    "Prince Arthur",
+    "Spread Eagle",
+    "Three Tuns",
+    "Three Crowns",
+    "Three Compasses",
+    "Rose and Thistle",
+    "Mason's Arms",
+    "Carpenters Arms",
+    "Plough and Harrow",
+    "Pig and Whistle",
+    "Hand and Flower",
+    "Harp",
+    "Elephant and Castle",
+    "Old Bell",
+    "Old Swan",
+    "Dolphin",
+    "Brewers Arms",
+    "Butchers Arms",
+    "Volunteer",
+    "Sun",
+    "Half Moon",
+    "Rose",
+    "Thistle",
+    "Beehive",
+    "Windmill",
+    "Hope and Anchor"
+   ]
+  },
+  {
+   "id": "xm5-style-sleeve-styles",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a style of sleeve",
+   "answers": [
+    [
+     "Cap sleeve",
+     "Cap"
+    ],
+    "Raglan",
+    [
+     "Bell sleeve",
+     "Bell"
+    ],
+    [
+     "Puff sleeve",
+     "Puff"
+    ],
+    [
+     "Bishop sleeve",
+     "Bishop"
+    ],
+    "Dolman",
+    "Batwing",
+    [
+     "Kimono sleeve",
+     "Kimono"
+    ],
+    [
+     "Three-quarter sleeve",
+     "Three quarter",
+     "3/4 sleeve"
+    ],
+    "Bracelet sleeve",
+    [
+     "Leg-of-mutton",
+     "Gigot"
+    ],
+    [
+     "Flutter sleeve",
+     "Flutter"
+    ],
+    "Cold shoulder",
+    [
+     "Lantern sleeve",
+     "Lantern"
+    ],
+    [
+     "Balloon sleeve",
+     "Balloon"
+    ],
+    [
+     "Cuffed sleeve",
+     "Cuffed"
+    ],
+    [
+     "Set-in sleeve",
+     "Set-in"
+    ],
+    "Butterfly sleeve",
+    [
+     "Long sleeve",
+     "Long"
+    ],
+    [
+     "Short sleeve",
+     "Short"
+    ],
+    "Flared sleeve",
+    "Petal sleeve",
+    [
+     "Poet sleeve",
+     "Poet"
+    ],
+    [
+     "Juliet sleeve",
+     "Juliet"
+    ],
+    [
+     "Cape sleeve",
+     "Cape"
+    ],
+    "Angel sleeve",
+    "Tulip sleeve",
+    "Peasant sleeve",
+    "Slashed sleeve",
+    "Ruffle sleeve",
+    "Tie sleeve",
+    "Drop shoulder",
+    [
+     "Roll-up sleeve",
+     "Roll-up"
+    ],
+    "Mutton sleeve",
+    "Pagoda sleeve",
+    "Gathered sleeve",
+    "Split sleeve",
+    "Elbow-length"
+   ]
+  },
+  {
+   "id": "xm5-style-hair-accessories",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a type of hair accessory",
+   "answers": [
+    [
+     "Scrunchie",
+     "Scrunchy"
+    ],
+    [
+     "Hairband",
+     "Headband"
+    ],
+    [
+     "Hair clip",
+     "Clip"
+    ],
+    [
+     "Bobby pin",
+     "Kirby grip",
+     "Hair grip"
+    ],
+    "Barrette",
+    [
+     "Hair tie",
+     "Hair bobble",
+     "Bobble"
+    ],
+    "Tiara",
+    [
+     "Claw clip",
+     "Claw"
+    ],
+    [
+     "Hair slide",
+     "Slide"
+    ],
+    [
+     "Comb",
+     "Hair comb"
+    ],
+    "Alice band",
+    "Snood",
+    "Fascinator",
+    [
+     "Ribbon",
+     "Hair ribbon"
+    ],
+    "Bandana",
+    "Turban",
+    "Hair net",
+    "Hairpin",
+    "Banana clip",
+    [
+     "Bun ring",
+     "Hair donut"
+    ],
+    "Hair stick",
+    [
+     "Hair bow",
+     "Bow"
+    ],
+    "Headscarf",
+    "Flower crown",
+    "Hair jewel",
+    "Crocodile clip",
+    [
+     "Beads",
+     "Hair beads"
+    ],
+    [
+     "Hair elastic",
+     "Elastic"
+    ]
+   ]
+  },
+  {
+   "id": "xm5-style-jewellery-types",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a type of jewellery",
+   "answers": [
+    "Ring",
+    "Necklace",
+    "Bracelet",
+    [
+     "Earrings",
+     "Earring"
+    ],
+    "Brooch",
+    "Pendant",
+    "Locket",
+    "Choker",
+    "Chain",
+    "Bangle",
+    "Anklet",
+    [
+     "Cufflinks",
+     "Cufflink"
+    ],
+    "Tiepin",
+    "Tiara",
+    [
+     "Charm bracelet",
+     "Charm"
+    ],
+    "Signet ring",
+    "Engagement ring",
+    [
+     "Wedding ring",
+     "Wedding band"
+    ],
+    "Eternity ring",
+    "Cocktail ring",
+    [
+     "Stud earrings",
+     "Studs"
+    ],
+    [
+     "Hoop earrings",
+     "Hoops"
+    ],
+    [
+     "Drop earrings",
+     "Droppers"
+    ],
+    "Chandelier earrings",
+    "Clip-on earrings",
+    [
+     "Nose ring",
+     "Nose stud"
+    ],
+    [
+     "Belly bar",
+     "Belly button ring"
+    ],
+    "Toe ring",
+    [
+     "Pearls",
+     "String of pearls",
+     "Pearl necklace"
+    ],
+    [
+     "Torque",
+     "Torc"
+    ],
+    "Lariat",
+    "Cuff",
+    "Tennis bracelet",
+    "Rivière",
+    "Bib necklace",
+    "Medallion",
+    "Friendship bracelet",
+    "Hatpin",
+    "Diadem",
+    "Armlet",
+    "Tie clip",
+    "Lapel pin",
+    "Sautoir",
+    [
+     "Huggie earrings",
+     "Huggies"
+    ],
+    "Midi ring",
+    "Pinky ring",
+    [
+     "Claddagh ring",
+     "Claddagh"
+    ],
+    "Ear cuff",
+    "Body chain"
+   ]
+  },
+  {
+   "id": "xm5-style-gemstones",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a gemstone",
+   "answers": [
+    "Diamond",
+    "Ruby",
+    "Emerald",
+    "Sapphire",
+    "Amethyst",
+    "Topaz",
+    "Opal",
+    "Garnet",
+    "Pearl",
+    "Aquamarine",
+    "Peridot",
+    "Turquoise",
+    "Citrine",
+    "Tanzanite",
+    "Jade",
+    "Onyx",
+    "Moonstone",
+    "Tourmaline",
+    "Zircon",
+    [
+     "Lapis lazuli",
+     "Lapis"
+    ],
+    "Agate",
+    "Jasper",
+    "Alexandrite",
+    "Amber",
+    "Coral",
+    "Jet",
+    "Beryl",
+    "Spinel",
+    "Morganite",
+    "Bloodstone",
+    "Obsidian",
+    "Malachite",
+    "Rose quartz",
+    "Tiger's eye",
+    "Sodalite",
+    "Fluorite",
+    "Kunzite",
+    "Iolite",
+    "Carnelian",
+    "Chrysoprase",
+    "Chalcedony",
+    "Labradorite",
+    "Rhodonite",
+    "Sunstone",
+    [
+     "Hematite",
+     "Haematite"
+    ],
+    "Smoky quartz",
+    "Cubic zirconia",
+    "Moissanite",
+    "Charoite",
+    "Larimar",
+    "Ametrine",
+    "Heliodor",
+    "Tsavorite",
+    "Demantoid",
+    "Rhodolite",
+    "Apatite",
+    "Kyanite",
+    "Aventurine",
+    "Lepidolite",
+    "Howlite",
+    "Amazonite",
+    "Unakite",
+    "Diopside",
+    "Sphene",
+    "Rubellite",
+    "Padparadscha",
+    "Bixbite",
+    "Prehnite",
+    "Andalusite",
+    "Sugilite"
+   ]
+  },
+  {
+   "id": "xm5-style-beard-styles",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a style of beard or moustache",
+   "answers": [
+    [
+     "Handlebar moustache",
+     "Handlebar"
+    ],
+    "Goatee",
+    "Van Dyke",
+    [
+     "Stubble",
+     "Designer stubble"
+    ],
+    "Mutton chops",
+    "Soul patch",
+    "Chinstrap",
+    "Fu Manchu",
+    [
+     "Walrus moustache",
+     "Walrus"
+    ],
+    [
+     "Pencil moustache",
+     "Pencil"
+    ],
+    [
+     "Toothbrush moustache",
+     "Toothbrush"
+    ],
+    [
+     "Horseshoe moustache",
+     "Horseshoe"
+    ],
+    "Imperial",
+    [
+     "Dali moustache",
+     "Dali"
+    ],
+    "Circle beard",
+    "Full beard",
+    "Sideburns",
+    [
+     "Anchor beard",
+     "Anchor"
+    ],
+    "Balbo",
+    "Garibaldi",
+    "Ducktail",
+    [
+     "Chin curtain",
+     "Chin strap beard"
+    ],
+    "Zappa",
+    "Lampshade",
+    "Whiskers",
+    "Five o'clock shadow",
+    "Bandholz",
+    "Hulihee",
+    "Verdi",
+    "Friendly mutton chops",
+    [
+     "Chevron moustache",
+     "Chevron"
+    ],
+    [
+     "English moustache",
+     "English"
+    ],
+    "Shenandoah",
+    "Spade beard",
+    "Brush moustache",
+    [
+     "Dundrearies",
+     "Dundreary whiskers"
+    ],
+    "Burnsides",
+    "French fork",
+    "Hollywoodian",
+    "Dutch beard"
+   ]
+  },
+  {
+   "id": "xm5-style-american-designers",
+   "tags": [
+    "style"
+   ],
+   "text": "Name an American fashion designer",
+   "answers": [
+    "Ralph Lauren",
+    "Calvin Klein",
+    "Tommy Hilfiger",
+    "Donna Karan",
+    "Michael Kors",
+    "Marc Jacobs",
+    "Tom Ford",
+    "Vera Wang",
+    "Oscar de la Renta",
+    [
+     "Diane von Furstenberg",
+     "DVF"
+    ],
+    "Tory Burch",
+    "Kate Spade",
+    "Anna Sui",
+    "Betsey Johnson",
+    "Carolina Herrera",
+    "Halston",
+    "Bill Blass",
+    "Alexander Wang",
+    "Zac Posen",
+    "Thom Browne",
+    "Virgil Abloh",
+    "Jason Wu",
+    "Rick Owens",
+    "Vivienne Tam",
+    "Norma Kamali",
+    "Isaac Mizrahi",
+    "Anne Klein",
+    "Geoffrey Beene",
+    "Perry Ellis",
+    "John Varvatos",
+    "Proenza Schouler",
+    "Jeremy Scott",
+    "Rodarte",
+    "Prabal Gurung",
+    "Christian Siriano",
+    "Narciso Rodriguez",
+    "Derek Lam",
+    "Todd Snyder",
+    "Eileen Fisher",
+    "Mary McFadden",
+    "Claire McCardell",
+    "Charles James",
+    "Willi Smith",
+    "Patrick Kelly",
+    "Stephen Burrows",
+    "Ann Lowe",
+    "Pauline Trigère",
+    "Adrian",
+    "Edith Head",
+    "Bob Mackie",
+    "Mara Hoffman",
+    "Lisa Perry",
+    "Rebecca Minkoff"
+   ]
+  },
+  {
+   "id": "xm5-style-italian-designers",
+   "tags": [
+    "style"
+   ],
+   "text": "Name an Italian fashion designer or fashion house",
+   "answers": [
+    [
+     "Giorgio Armani",
+     "Armani"
+    ],
+    [
+     "Gianni Versace",
+     "Versace"
+    ],
+    [
+     "Miuccia Prada",
+     "Prada"
+    ],
+    [
+     "Guccio Gucci",
+     "Gucci"
+    ],
+    [
+     "Valentino Garavani",
+     "Valentino"
+    ],
+    [
+     "Domenico Dolce",
+     "Dolce"
+    ],
+    [
+     "Stefano Gabbana",
+     "Gabbana"
+    ],
+    [
+     "Ottavio Missoni",
+     "Missoni"
+    ],
+    [
+     "Salvatore Ferragamo",
+     "Ferragamo"
+    ],
+    "Fendi",
+    [
+     "Franco Moschino",
+     "Moschino"
+    ],
+    [
+     "Roberto Cavalli",
+     "Cavalli"
+    ],
+    [
+     "Emilio Pucci",
+     "Pucci"
+    ],
+    [
+     "Ermenegildo Zegna",
+     "Zegna"
+    ],
+    [
+     "Brunello Cucinelli",
+     "Cucinelli"
+    ],
+    "Max Mara",
+    "Etro",
+    "Krizia",
+    [
+     "Elio Fiorucci",
+     "Fiorucci"
+    ],
+    [
+     "Gianfranco Ferré",
+     "Ferré"
+    ],
+    [
+     "Nino Cerruti",
+     "Cerruti"
+    ],
+    [
+     "Elsa Schiaparelli",
+     "Schiaparelli"
+    ],
+    "Alessandro Michele",
+    "Maria Grazia Chiuri",
+    [
+     "Donatella Versace",
+     "Donatella"
+    ],
+    "Giambattista Valli",
+    "Pierpaolo Piccioli",
+    [
+     "Laura Biagiotti",
+     "Biagiotti"
+    ],
+    "Luisa Spagnoli",
+    "Renato Balestra",
+    "Mila Schön",
+    "Roberta di Camerino",
+    "Walter Albini",
+    "Romeo Gigli",
+    "Alberta Ferretti",
+    "Luisa Beccaria",
+    "Massimo Osti",
+    "Tod's",
+    "Diego Della Valle",
+    "Giorgio Brioni",
+    "Brioni",
+    "Bottega Veneta",
+    "Trussardi",
+    "Renzo Rosso",
+    "Antonio Marras",
+    "Stella Jean"
+   ]
+  },
+  {
+   "id": "xm5-style-french-designers",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a Paris fashion designer or fashion house",
+   "answers": [
+    [
+     "Coco Chanel",
+     "Chanel"
+    ],
+    [
+     "Christian Dior",
+     "Dior"
+    ],
+    [
+     "Yves Saint Laurent",
+     "YSL",
+     "Saint Laurent"
+    ],
+    [
+     "Hubert de Givenchy",
+     "Givenchy"
+    ],
+    [
+     "Jeanne Lanvin",
+     "Lanvin"
+    ],
+    [
+     "Pierre Balmain",
+     "Balmain"
+    ],
+    [
+     "Pierre Cardin",
+     "Cardin"
+    ],
+    [
+     "André Courrèges",
+     "Courrèges"
+    ],
+    [
+     "Jean Paul Gaultier",
+     "Gaultier"
+    ],
+    [
+     "Hermès",
+     "Thierry Hermès"
+    ],
+    [
+     "Christian Lacroix",
+     "Lacroix"
+    ],
+    "Chloé",
+    "Cacharel",
+    [
+     "Thierry Mugler",
+     "Mugler"
+    ],
+    [
+     "Azzedine Alaïa",
+     "Alaïa"
+    ],
+    [
+     "Sonia Rykiel",
+     "Rykiel"
+    ],
+    "Isabel Marant",
+    "Agnès b.",
+    [
+     "Jean Patou",
+     "Patou"
+    ],
+    [
+     "Madeleine Vionnet",
+     "Vionnet"
+    ],
+    [
+     "Paul Poiret",
+     "Poiret"
+    ],
+    [
+     "Louis Vuitton",
+     "Vuitton"
+    ],
+    [
+     "Louis Féraud",
+     "Féraud"
+    ],
+    [
+     "Guy Laroche",
+     "Laroche"
+    ],
+    [
+     "Emanuel Ungaro",
+     "Ungaro"
+    ],
+    [
+     "Nina Ricci",
+     "Ricci"
+    ],
+    [
+     "Christian Louboutin",
+     "Louboutin"
+    ],
+    "Jacquemus",
+    "Marine Serre",
+    "Kenzo",
+    "Lacoste",
+    "René Lacoste",
+    [
+     "Hedi Slimane",
+     "Slimane"
+    ],
+    [
+     "Nicolas Ghesquière",
+     "Ghesquiere"
+    ],
+    [
+     "Olivier Rousteing",
+     "Rousteing"
+    ],
+    "Balenciaga",
+    [
+     "Jacques Fath",
+     "Fath"
+    ],
+    [
+     "Madame Grès",
+     "Grès"
+    ],
+    [
+     "Jeanne Paquin",
+     "Paquin"
+    ],
+    [
+     "Charles Frederick Worth",
+     "Worth"
+    ],
+    [
+     "Jacques Doucet",
+     "Doucet"
+    ],
+    [
+     "Maison Margiela",
+     "Martin Margiela",
+     "Margiela"
+    ],
+    "Celine",
+    "Carven",
+    [
+     "Paco Rabanne",
+     "Rabanne"
+    ],
+    [
+     "Jean-Louis Scherrer",
+     "Scherrer"
+    ],
+    [
+     "Daniel Hechter",
+     "Hechter"
+    ],
+    "Rochas"
+   ]
+  },
+  {
+   "id": "xm5-style-luggage-brands",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a luggage or suitcase brand",
+   "answers": [
+    "Samsonite",
+    "Tumi",
+    "Rimowa",
+    "Antler",
+    "Delsey",
+    "American Tourister",
+    "Louis Vuitton",
+    "Globe-Trotter",
+    [
+     "Briggs & Riley",
+     "Briggs and Riley"
+    ],
+    "Away",
+    "Carlton",
+    "Travelpro",
+    "Eastpak",
+    "Cabin Zero",
+    "Heys",
+    "Victorinox",
+    "It Luggage",
+    "Hartmann",
+    "Revelation",
+    "Skyflite",
+    "Constellation",
+    "Bric's",
+    "Eagle Creek",
+    "Swiss Gear",
+    "Stratic",
+    "Roncato",
+    "Horizn Studios",
+    "July",
+    "Monos",
+    "Calpak",
+    "Béis",
+    "Paravel",
+    "Aerolite",
+    "Rock Luggage",
+    "Princess Traveller",
+    [
+     "Zero Halliburton",
+     "Halliburton"
+    ],
+    "Goyard",
+    "Moynat"
+   ]
+  },
+  {
+   "id": "xm5-style-online-fashion-retailers",
+   "tags": [
+    "style"
+   ],
+   "text": "Name an online fashion retailer or fashion resale marketplace",
+   "answers": [
+    "ASOS",
+    "Boohoo",
+    [
+     "PrettyLittleThing",
+     "PLT"
+    ],
+    "Missguided",
+    "Very",
+    "Next",
+    "Zalando",
+    "SHEIN",
+    "Net-a-Porter",
+    "Farfetch",
+    [
+     "MatchesFashion",
+     "Matches"
+    ],
+    "Mr Porter",
+    "Vinted",
+    "Depop",
+    "Nasty Gal",
+    "Fashion Nova",
+    "Revolve",
+    "ASOS Marketplace",
+    "Yoox",
+    "Mytheresa",
+    "SSENSE",
+    "Lyst",
+    "In The Style",
+    "Quiz",
+    "Misspap",
+    "Oh Polly",
+    "Lounge Underwear",
+    "Pour Moi",
+    "Simply Be",
+    "JD Williams",
+    "Studio",
+    "Freemans",
+    "Grattan",
+    "Littlewoods",
+    "Next Directory",
+    "Kays",
+    "Collagerie",
+    "Bonprix",
+    "Showpo",
+    "Princess Polly",
+    "Rent the Runway",
+    [
+     "Vestiaire Collective",
+     "Vestiaire"
+    ],
+    "The RealReal",
+    "ThredUp",
+    "Poshmark",
+    "Grailed",
+    "Tradesy",
+    "StockX",
+    "GOAT",
+    [
+     "END.",
+     "End Clothing"
+    ]
+   ]
+  },
+  {
+   "id": "xm5-tech-data-storage",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a type of data storage device or format",
+   "answers": [
+    [
+     "Hard disk drive",
+     "Hard drive",
+     "HDD",
+     "Hard disk"
+    ],
+    [
+     "Solid-state drive",
+     "SSD"
+    ],
+    "RAM",
+    "ROM",
+    [
+     "Floppy disk",
+     "Floppy"
+    ],
+    [
+     "CD",
+     "Compact disc",
+     "CD-ROM"
+    ],
+    "DVD",
+    "Blu-ray",
+    [
+     "USB stick",
+     "USB flash drive",
+     "Flash drive",
+     "Memory stick",
+     "Pen drive"
+    ],
+    [
+     "SD card",
+     "Memory card"
+    ],
+    [
+     "Cloud storage",
+     "Cloud"
+    ],
+    [
+     "Magnetic tape",
+     "Tape"
+    ],
+    "Punch card",
+    [
+     "Zip disk",
+     "Zip drive"
+    ],
+    "Cache",
+    "MiniDisc",
+    "Cassette",
+    "Jaz drive",
+    "LaserDisc",
+    [
+     "CompactFlash",
+     "CF card"
+    ],
+    "microSD",
+    "Paper tape",
+    "Drum memory",
+    "Core memory",
+    "Magnetic drum",
+    "Bubble memory",
+    "Optical disc",
+    [
+     "Hybrid drive",
+     "SSHD"
+    ],
+    "NVMe",
+    "eMMC",
+    [
+     "Flash memory",
+     "Flash"
+    ],
+    "Thumb drive",
+    [
+     "External hard drive",
+     "External drive"
+    ],
+    "Tape drive",
+    "Reel-to-reel",
+    "Diskette",
+    "Microfiche"
+   ]
+  },
+  {
+   "id": "xm5-tech-ports-cables",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a type of computer port, cable or connector",
+   "answers": [
+    "USB",
+    "HDMI",
+    "Ethernet",
+    "VGA",
+    "DVI",
+    "DisplayPort",
+    "Thunderbolt",
+    "Lightning",
+    "USB-C",
+    "Micro-USB",
+    "Mini-USB",
+    "FireWire",
+    "SCART",
+    [
+     "Headphone jack",
+     "3.5mm jack",
+     "Aux"
+    ],
+    "Coaxial",
+    [
+     "Optical",
+     "TOSLINK"
+    ],
+    [
+     "RCA",
+     "Phono"
+    ],
+    [
+     "Serial port",
+     "Serial"
+    ],
+    [
+     "Parallel port",
+     "Parallel"
+    ],
+    "PS/2",
+    "RJ45",
+    "XLR",
+    "MagSafe",
+    "SATA",
+    "S-Video",
+    "Jack plug",
+    "Mini DisplayPort",
+    "Lightning cable",
+    "HDMI cable",
+    "Cat5",
+    "Cat6",
+    "USB-A",
+    "USB-B",
+    "eSATA",
+    "DIN",
+    "MIDI",
+    "Molex",
+    [
+     "PCIe",
+     "PCI Express"
+    ],
+    "Gameport",
+    "BNC",
+    "F connector",
+    "IEEE 1394",
+    "Micro HDMI",
+    "Mini HDMI",
+    "Barrel connector",
+    "DC jack"
+   ]
+  },
+  {
+   "id": "xm5-tech-operating-systems",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name an operating system",
+   "answers": [
+    [
+     "Windows",
+     "Microsoft Windows"
+    ],
+    "macOS",
+    "Linux",
+    "Android",
+    "iOS",
+    "Chrome OS",
+    "Ubuntu",
+    "Unix",
+    [
+     "MS-DOS",
+     "DOS"
+    ],
+    [
+     "BSD",
+     "FreeBSD"
+    ],
+    "Symbian",
+    "BlackBerry OS",
+    "Windows Phone",
+    "webOS",
+    "Tizen",
+    "HarmonyOS",
+    "iPadOS",
+    "watchOS",
+    "tvOS",
+    "Solaris",
+    "AmigaOS",
+    "BeOS",
+    "OS/2",
+    "CP/M",
+    "RISC OS",
+    "Fire OS",
+    "Haiku",
+    "Debian",
+    "Fedora",
+    "Red Hat",
+    [
+     "Mint",
+     "Linux Mint"
+    ],
+    "Windows Mobile",
+    "Palm OS",
+    "VMS",
+    "Plan 9",
+    "Minix",
+    "Multics",
+    "Kaios",
+    [
+     "Raspberry Pi OS",
+     "Raspbian"
+    ],
+    "z/OS",
+    "AIX",
+    "HP-UX",
+    "Zorin",
+    "Arch Linux",
+    "Kali Linux",
+    "Pop!_OS",
+    "Elementary OS",
+    "OpenBSD",
+    "NetBSD",
+    "Darwin",
+    "NeXTSTEP",
+    "Atari TOS",
+    "GEM",
+    "Contiki",
+    "TempleOS",
+    "ReactOS",
+    "FreeDOS",
+    "ChromiumOS",
+    "GrapheneOS",
+    "LineageOS",
+    "Sailfish OS",
+    "Ubuntu Touch",
+    "SteamOS",
+    "visionOS",
+    "Fuchsia"
+   ]
+  },
+  {
+   "id": "xm5-tech-pc-components",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a component inside a desktop computer",
+   "answers": [
+    [
+     "CPU",
+     "Processor",
+     "Central processing unit"
+    ],
+    [
+     "GPU",
+     "Graphics card",
+     "Graphics processing unit",
+     "Video card"
+    ],
+    [
+     "Motherboard",
+     "Mainboard"
+    ],
+    [
+     "RAM",
+     "Memory"
+    ],
+    [
+     "Hard drive",
+     "Hard disk",
+     "HDD"
+    ],
+    [
+     "SSD",
+     "Solid-state drive"
+    ],
+    [
+     "Power supply",
+     "PSU",
+     "Power supply unit"
+    ],
+    [
+     "Fan",
+     "Case fan"
+    ],
+    "Heat sink",
+    "Sound card",
+    [
+     "Network card",
+     "Network adapter",
+     "NIC"
+    ],
+    [
+     "Optical drive",
+     "DVD drive",
+     "Disc drive"
+    ],
+    [
+     "BIOS chip",
+     "BIOS",
+     "CMOS battery"
+    ],
+    [
+     "Case",
+     "Chassis",
+     "Tower"
+    ],
+    [
+     "Cooler",
+     "CPU cooler"
+    ],
+    "Chipset",
+    [
+     "Water cooler",
+     "Liquid cooler"
+    ],
+    "Thermal paste",
+    "SATA cable",
+    "Expansion card",
+    [
+     "PCIe slot",
+     "PCI slot"
+    ],
+    [
+     "RAM slot",
+     "DIMM"
+    ],
+    "CPU socket",
+    "Bus",
+    "Capacitor",
+    "Heat pipe",
+    "Floppy drive",
+    [
+     "Wi-Fi card",
+     "Wireless card"
+    ],
+    "Capture card",
+    "TPM",
+    "USB header",
+    [
+     "M.2 slot",
+     "M.2"
+    ],
+    "NVMe drive",
+    "Fan controller",
+    "Radiator",
+    "Riser card",
+    "RAID controller",
+    "Modem",
+    "Card reader"
+   ]
+  },
+  {
+   "id": "xm5-tech-peripherals",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a computer peripheral or accessory",
+   "answers": [
+    "Mouse",
+    "Keyboard",
+    [
+     "Monitor",
+     "Screen"
+    ],
+    "Printer",
+    "Scanner",
+    "Webcam",
+    "Microphone",
+    "Speakers",
+    "Headphones",
+    "Joystick",
+    "Trackball",
+    [
+     "Trackpad",
+     "Touchpad"
+    ],
+    [
+     "Graphics tablet",
+     "Drawing tablet"
+    ],
+    "Projector",
+    "USB hub",
+    "Docking station",
+    [
+     "Game controller",
+     "Gamepad",
+     "Controller"
+    ],
+    "Stylus",
+    "Barcode scanner",
+    "Card reader",
+    "KVM switch",
+    "Headset",
+    "Router",
+    "Modem",
+    "External hard drive",
+    "USB stick",
+    [
+     "Mouse mat",
+     "Mousepad"
+    ],
+    "Wrist rest",
+    "Laptop stand",
+    "Webcam cover",
+    "Plotter",
+    "Steering wheel",
+    "Pedals",
+    "VR headset",
+    "Dongle",
+    "Wi-Fi adapter",
+    "Bluetooth adapter",
+    [
+     "Numeric keypad",
+     "Numpad"
+    ],
+    "Digital pen",
+    [
+     "Laser pointer",
+     "Presenter"
+    ],
+    "Document camera",
+    "3D printer",
+    "Label printer",
+    "Sound bar",
+    "Subwoofer",
+    "Capture card"
+   ]
+  },
+  {
+   "id": "xm5-tech-battery-types",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a type of battery or battery size",
+   "answers": [
+    "AA",
+    "AAA",
+    "C",
+    "D",
+    [
+     "9V",
+     "PP3"
+    ],
+    [
+     "Button cell",
+     "Coin cell"
+    ],
+    [
+     "Lithium-ion",
+     "Li-ion"
+    ],
+    [
+     "Lead-acid",
+     "Car battery"
+    ],
+    "Alkaline",
+    [
+     "NiCd",
+     "Nickel-cadmium"
+    ],
+    [
+     "NiMH",
+     "Nickel metal hydride"
+    ],
+    "CR2032",
+    "AAAA",
+    [
+     "Lithium polymer",
+     "LiPo"
+    ],
+    "Zinc-carbon",
+    "Solid-state",
+    "18650",
+    "LR44",
+    "21700",
+    "CR2025",
+    "CR2016",
+    "CR123A",
+    [
+     "Lithium iron phosphate",
+     "LiFePO4"
+    ],
+    "Sodium-ion",
+    "Silver oxide",
+    "Zinc-air",
+    "Mercury battery",
+    "Flow battery",
+    "Vanadium redox",
+    [
+     "Leclanché cell",
+     "Leclanche"
+    ],
+    "Daniell cell",
+    [
+     "Voltaic pile",
+     "Voltaic cell"
+    ],
+    "Nickel-iron",
+    "Edison battery",
+    [
+     "N cell",
+     "N"
+    ],
+    "A23",
+    "23A",
+    "LR41",
+    "LR1130",
+    "SR626"
+   ]
+  },
+  {
+   "id": "xm5-tech-email-providers",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name an email provider or webmail service (past or present)",
+   "answers": [
+    [
+     "Gmail",
+     "Google Mail"
+    ],
+    [
+     "Outlook",
+     "Outlook.com"
+    ],
+    "Hotmail",
+    [
+     "Yahoo Mail",
+     "Yahoo"
+    ],
+    [
+     "iCloud Mail",
+     "iCloud",
+     "Me.com",
+     "MobileMe"
+    ],
+    [
+     "AOL Mail",
+     "AOL"
+    ],
+    [
+     "Proton Mail",
+     "Proton"
+    ],
+    [
+     "Zoho Mail",
+     "Zoho"
+    ],
+    [
+     "Tutanota",
+     "Tuta"
+    ],
+    "GMX",
+    "Mail.com",
+    [
+     "BT Internet",
+     "BT Mail"
+    ],
+    [
+     "Sky Mail",
+     "Sky"
+    ],
+    "TalkTalk",
+    "Fastmail",
+    [
+     "HEY",
+     "Hey.com"
+    ],
+    "Mailfence",
+    "Mail.ru",
+    [
+     "QQ Mail",
+     "QQ"
+    ],
+    [
+     "Yandex Mail",
+     "Yandex"
+    ],
+    [
+     "Live Mail",
+     "Windows Live Mail"
+    ],
+    "MSN",
+    "Lycos",
+    "Excite",
+    "Netscape Mail",
+    "CompuServe",
+    "Freeserve",
+    "Tiscali",
+    "Demon",
+    "Pipex",
+    "Plusnet",
+    "Rocketmail",
+    [
+     "163.com",
+     "NetEase"
+    ],
+    "Rediffmail",
+    "Runbox",
+    "Posteo",
+    "Mailbox.org",
+    "StartMail",
+    "Hushmail",
+    "Lavabit"
+   ]
+  },
+  {
+   "id": "xm5-tech-uk-broadband-providers",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a UK broadband provider, past or present",
+   "answers": [
+    [
+     "BT",
+     "British Telecom",
+     "BT Broadband"
+    ],
+    [
+     "Sky",
+     "Sky Broadband"
+    ],
+    [
+     "Virgin Media",
+     "Virgin"
+    ],
+    "TalkTalk",
+    "Plusnet",
+    "EE",
+    "Vodafone",
+    "Hyperoptic",
+    "Community Fibre",
+    [
+     "Zen",
+     "Zen Internet"
+    ],
+    [
+     "Three",
+     "3"
+    ],
+    [
+     "NOW Broadband",
+     "NOW"
+    ],
+    [
+     "Utility Warehouse",
+     "UW"
+    ],
+    "Gigaclear",
+    "Tiscali",
+    "AOL",
+    "Freeserve",
+    [
+     "Demon Internet",
+     "Demon"
+    ],
+    "Pipex",
+    "Telewest",
+    "NTL",
+    "Cable & Wireless",
+    "Orange",
+    "Origin Broadband",
+    "CityFibre",
+    [
+     "Shell Energy Broadband",
+     "Shell Energy"
+    ],
+    "Direct Save Telecom",
+    [
+     "Post Office Broadband",
+     "Post Office"
+    ],
+    "O2",
+    "Madasafish",
+    "Wanadoo",
+    "Bulldog",
+    "Easynet",
+    "Be",
+    "Be Unlimited",
+    [
+     "John Lewis Broadband",
+     "John Lewis"
+    ],
+    "Cuckoo",
+    "Giganet",
+    "Trooli",
+    "Netomnia",
+    "YouFibre",
+    "Brsk",
+    "Lightspeed",
+    "Zzoomm",
+    "Toob",
+    "G.Network",
+    "Truespeed",
+    "Airband",
+    "Fibrus",
+    [
+     "AAISP",
+     "Andrews & Arnold"
+    ],
+    "Aquiss",
+    "BE There",
+    "Clara.net",
+    "Force9",
+    "Wightfibre",
+    "ClearBroadband",
+    "Freedom Fibre",
+    [
+     "B4RN",
+     "Broadband for the Rural North"
+    ],
+    "KCOM",
+    "Kingston Communications"
+   ]
+  },
+  {
+   "id": "xm5-tech-payment-apps",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a payment app or digital wallet",
+   "answers": [
+    "PayPal",
+    "Apple Pay",
+    [
+     "Google Pay",
+     "Google Wallet",
+     "Android Pay"
+    ],
+    "Venmo",
+    "Cash App",
+    "Klarna",
+    "Revolut",
+    "Monzo",
+    "Starling",
+    [
+     "Wise",
+     "TransferWise"
+    ],
+    "Zelle",
+    [
+     "Samsung Pay",
+     "Samsung Wallet"
+    ],
+    "Alipay",
+    "WeChat Pay",
+    "Paytm",
+    [
+     "Clearpay",
+     "Afterpay"
+    ],
+    "Curve",
+    "Amazon Pay",
+    "Skrill",
+    "Neteller",
+    "Payoneer",
+    "Paysafecard",
+    "Apple Cash",
+    "PhonePe",
+    [
+     "Google Pay India",
+     "GPay"
+    ],
+    "Paym",
+    [
+     "Barclays Pingit",
+     "Pingit"
+    ],
+    "Zapp",
+    "Dwolla",
+    "Bitpay",
+    [
+     "Zip",
+     "Quadpay"
+    ],
+    "Laybuy",
+    "Zilch",
+    "Bizum",
+    "Swish",
+    "MobilePay",
+    "Vipps",
+    "iDEAL",
+    "Twint",
+    "Blik",
+    "Satispay",
+    "Mercado Pago",
+    "M-Pesa",
+    "GCash",
+    "GrabPay",
+    "Touch 'n Go",
+    "TrueMoney",
+    "Kakao Pay",
+    "LINE Pay",
+    "Rakuten Pay",
+    "PayPay",
+    "UPI"
+   ]
+  },
+  {
+   "id": "xm5-tech-online-marketplaces",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name an online marketplace or shopping site",
+   "answers": [
+    "Amazon",
+    "eBay",
+    "Etsy",
+    "AliExpress",
+    "Alibaba",
+    "Gumtree",
+    "Vinted",
+    "Depop",
+    [
+     "Facebook Marketplace",
+     "Marketplace"
+    ],
+    "Shpock",
+    "Temu",
+    "Shein",
+    "Wish",
+    "Rakuten",
+    "Walmart",
+    "Zalando",
+    "Mercari",
+    "Craigslist",
+    "OLX",
+    "Preloved",
+    "Wallapop",
+    "Poshmark",
+    [
+     "Not On The High Street",
+     "NOTHS"
+    ],
+    "Fruugo",
+    "Trade Me",
+    "Kijiji",
+    "Allegro",
+    [
+     "Bol.com",
+     "Bol"
+    ],
+    "Cdiscount",
+    "Flipkart",
+    "Myntra",
+    "Snapdeal",
+    "Jumia",
+    "Takealot",
+    "Lazada",
+    "Shopee",
+    "Tokopedia",
+    "Coupang",
+    "Gmarket",
+    "Taobao",
+    "Tmall",
+    [
+     "JD.com",
+     "JD"
+    ],
+    "Pinduoduo",
+    "Mercado Libre",
+    "Newegg",
+    "Overstock",
+    "Wayfair",
+    "Stockx",
+    "GOAT",
+    "Bonanza"
+   ]
+  }
+ ]
+}

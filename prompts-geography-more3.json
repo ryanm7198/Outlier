@@ -1,0 +1,3918 @@
+{
+ "cat": "geography",
+ "prompts": [
+  {
+   "id": "xg5-africa-central-southern",
+   "tags": [
+    "countries",
+    "africa"
+   ],
+   "text": "Name a country in Central or Southern Africa (UN regions)",
+   "answers": [
+    "Angola",
+    "Cameroon",
+    [
+     "Central African Republic",
+     "CAR"
+    ],
+    "Chad",
+    "Republic of the Congo",
+    "DR Congo",
+    "Equatorial Guinea",
+    "Gabon",
+    [
+     "São Tomé and Príncipe",
+     "Sao Tome"
+    ],
+    "Botswana",
+    "Eswatini",
+    "Lesotho",
+    "Namibia",
+    "South Africa"
+   ]
+  },
+  {
+   "id": "xg5-africa-british-rule",
+   "tags": [
+    "countries",
+    "africa"
+   ],
+   "text": "Name an African country that was once ruled by Britain (colony, protectorate or mandate)",
+   "answers": [
+    "Nigeria",
+    [
+     "Ghana",
+     "Gold Coast"
+    ],
+    "Kenya",
+    "Uganda",
+    [
+     "Tanzania",
+     "Tanganyika"
+    ],
+    [
+     "Zambia",
+     "Northern Rhodesia"
+    ],
+    [
+     "Zimbabwe",
+     "Rhodesia",
+     "Southern Rhodesia"
+    ],
+    [
+     "Malawi",
+     "Nyasaland"
+    ],
+    [
+     "Botswana",
+     "Bechuanaland"
+    ],
+    [
+     "Lesotho",
+     "Basutoland"
+    ],
+    [
+     "Eswatini",
+     "Swaziland"
+    ],
+    "South Africa",
+    "Sierra Leone",
+    [
+     "Gambia",
+     "The Gambia"
+    ],
+    "Egypt",
+    "Sudan",
+    "South Sudan",
+    [
+     "Somalia",
+     "Somaliland"
+    ],
+    "Mauritius",
+    "Seychelles",
+    "Cameroon"
+   ]
+  },
+  {
+   "id": "xg5-africa-other-colonial",
+   "tags": [
+    "countries",
+    "africa"
+   ],
+   "text": "Name an African country once ruled by Portugal, Spain, Belgium, Italy or Germany (colony, protectorate or mandate)",
+   "answers": [
+    "Angola",
+    "Mozambique",
+    "Guinea-Bissau",
+    [
+     "Cape Verde",
+     "Cabo Verde"
+    ],
+    [
+     "São Tomé and Príncipe",
+     "Sao Tome"
+    ],
+    "Equatorial Guinea",
+    "Western Sahara",
+    "Morocco",
+    "DR Congo",
+    "Rwanda",
+    "Burundi",
+    "Libya",
+    "Eritrea",
+    "Somalia",
+    "Ethiopia",
+    [
+     "Namibia",
+     "South West Africa"
+    ],
+    [
+     "Tanzania",
+     "Tanganyika"
+    ],
+    "Cameroon",
+    "Togo"
+   ]
+  },
+  {
+   "id": "xg5-africa-cities-nigeria",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name a city in Nigeria",
+   "answers": [
+    "Lagos",
+    "Abuja",
+    "Kano",
+    "Ibadan",
+    "Port Harcourt",
+    [
+     "Benin City",
+     "Benin"
+    ],
+    "Kaduna",
+    "Enugu",
+    "Maiduguri",
+    "Zaria",
+    "Jos",
+    "Ilorin",
+    "Abeokuta",
+    "Owerri",
+    "Calabar",
+    "Warri",
+    "Aba",
+    "Onitsha",
+    "Sokoto",
+    "Katsina",
+    "Akure",
+    "Osogbo",
+    "Uyo",
+    "Yola",
+    "Makurdi",
+    "Bauchi",
+    "Ogbomosho",
+    "Lokoja",
+    "Minna",
+    "Gombe",
+    "Asaba",
+    "Umuahia",
+    "Awka",
+    "Abakaliki",
+    "Ado-Ekiti",
+    "Lafia",
+    "Jalingo",
+    "Dutse",
+    "Damaturu",
+    "Birnin Kebbi",
+    "Gusau",
+    "Oyo",
+    "Ikeja",
+    [
+     "Ile-Ife",
+     "Ife"
+    ],
+    "Ikorodu",
+    "Sagamu",
+    "Nsukka"
+   ]
+  },
+  {
+   "id": "xg5-africa-cities-algeria-libya",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name a city or town in Algeria or Libya",
+   "answers": [
+    "Algiers",
+    "Oran",
+    "Constantine",
+    "Annaba",
+    "Blida",
+    "Batna",
+    "Sétif",
+    "Tlemcen",
+    "Béjaïa",
+    "Biskra",
+    "Ghardaïa",
+    "Tamanrasset",
+    "Skikda",
+    "Tizi Ouzou",
+    "Ouargla",
+    "Djelfa",
+    "Mostaganem",
+    "Sidi Bel Abbès",
+    "Béchar",
+    "Tripoli",
+    "Benghazi",
+    [
+     "Misrata",
+     "Misurata"
+    ],
+    "Tobruk",
+    [
+     "Sirte",
+     "Sirt"
+    ],
+    [
+     "Sabha",
+     "Sebha"
+    ],
+    "Zawiya",
+    [
+     "Derna",
+     "Darnah"
+    ],
+    "Ghadames",
+    [
+     "Al Bayda",
+     "Bayda"
+    ],
+    "Zliten",
+    "Ajdabiya",
+    "Khoms",
+    "Zuwara",
+    "Murzuk",
+    "Ghat"
+   ]
+  },
+  {
+   "id": "xg5-africa-cities-westafrica",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name a city or town in Ghana, Senegal or Ivory Coast",
+   "answers": [
+    "Accra",
+    "Kumasi",
+    "Tamale",
+    "Takoradi",
+    "Cape Coast",
+    "Tema",
+    "Sekondi",
+    "Ho",
+    "Koforidua",
+    "Sunyani",
+    "Bolgatanga",
+    "Wa",
+    "Techiman",
+    "Obuasi",
+    "Winneba",
+    "Elmina",
+    "Dakar",
+    "Thiès",
+    [
+     "Saint-Louis",
+     "St Louis"
+    ],
+    "Touba",
+    "Kaolack",
+    "Ziguinchor",
+    "Mbour",
+    "Rufisque",
+    "Diourbel",
+    "Louga",
+    "Tambacounda",
+    "Kolda",
+    "Abidjan",
+    "Yamoussoukro",
+    "Bouaké",
+    "Daloa",
+    "San-Pédro",
+    "Korhogo",
+    "Man",
+    "Gagnoa",
+    "Abengourou",
+    "Grand-Bassam"
+   ]
+  },
+  {
+   "id": "xg5-africa-cities-southeast",
+   "tags": [
+    "capitals",
+    "africa"
+   ],
+   "text": "Name a city or town in Zimbabwe, Zambia, Malawi or Mozambique",
+   "answers": [
+    "Harare",
+    "Bulawayo",
+    "Mutare",
+    "Gweru",
+    "Masvingo",
+    "Kwekwe",
+    "Kariba",
+    "Hwange",
+    "Chitungwiza",
+    "Victoria Falls",
+    "Lusaka",
+    "Kitwe",
+    "Ndola",
+    "Livingstone",
+    "Kabwe",
+    "Chipata",
+    "Kasama",
+    "Mongu",
+    "Solwezi",
+    "Lilongwe",
+    "Blantyre",
+    "Mzuzu",
+    "Zomba",
+    "Karonga",
+    "Maputo",
+    "Beira",
+    "Nampula",
+    "Matola",
+    "Quelimane",
+    "Pemba",
+    "Tete",
+    "Chimoio",
+    "Inhambane",
+    "Xai-Xai",
+    "Lichinga",
+    "Nacala"
+   ]
+  },
+  {
+   "id": "xg5-africa-lakes",
+   "tags": [
+    "physical",
+    "africa"
+   ],
+   "text": "Name a lake in Africa",
+   "answers": [
+    [
+     "Lake Victoria",
+     "Victoria"
+    ],
+    [
+     "Lake Tanganyika",
+     "Tanganyika"
+    ],
+    [
+     "Lake Malawi",
+     "Malawi",
+     "Lake Nyasa",
+     "Nyasa"
+    ],
+    [
+     "Lake Chad",
+     "Chad"
+    ],
+    [
+     "Lake Turkana",
+     "Turkana",
+     "Lake Rudolf",
+     "Rudolf"
+    ],
+    [
+     "Lake Albert",
+     "Albert"
+    ],
+    [
+     "Lake Edward",
+     "Edward"
+    ],
+    [
+     "Lake Kivu",
+     "Kivu"
+    ],
+    [
+     "Lake Kariba",
+     "Kariba"
+    ],
+    [
+     "Lake Volta",
+     "Volta"
+    ],
+    [
+     "Lake Nasser",
+     "Nasser"
+    ],
+    [
+     "Lake Naivasha",
+     "Naivasha"
+    ],
+    [
+     "Lake Tana",
+     "Tana"
+    ],
+    [
+     "Lake Mweru",
+     "Mweru"
+    ],
+    [
+     "Lake Bangweulu",
+     "Bangweulu"
+    ],
+    [
+     "Lake Kyoga",
+     "Kyoga"
+    ],
+    [
+     "Lake Rukwa",
+     "Rukwa"
+    ],
+    [
+     "Lake Natron",
+     "Natron"
+    ],
+    [
+     "Lake Nakuru",
+     "Nakuru"
+    ],
+    [
+     "Lake Baringo",
+     "Baringo"
+    ],
+    [
+     "Lake Bogoria",
+     "Bogoria"
+    ],
+    [
+     "Lake Assal",
+     "Assal"
+    ],
+    [
+     "Lake Abbe",
+     "Abbe"
+    ],
+    [
+     "Lake Langano",
+     "Langano"
+    ],
+    [
+     "Lake Ziway",
+     "Ziway"
+    ],
+    [
+     "Lake Retba",
+     "Retba",
+     "Pink Lake"
+    ],
+    "Cahora Bassa",
+    [
+     "Lake Ngami",
+     "Ngami"
+    ],
+    [
+     "Lake Eyasi",
+     "Eyasi"
+    ],
+    [
+     "Lake Manyara",
+     "Manyara"
+    ],
+    [
+     "Lake Chilwa",
+     "Chilwa"
+    ],
+    [
+     "Lake Mai-Ndombe",
+     "Mai-Ndombe"
+    ],
+    [
+     "Lake Bunyonyi",
+     "Bunyonyi"
+    ]
+   ]
+  },
+  {
+   "id": "xg5-africa-mountains",
+   "tags": [
+    "physical",
+    "africa"
+   ],
+   "text": "Name a mountain or mountain range in Africa",
+   "answers": [
+    [
+     "Kilimanjaro",
+     "Mount Kilimanjaro"
+    ],
+    [
+     "Mount Kenya",
+     "Kenya"
+    ],
+    [
+     "Atlas Mountains",
+     "Atlas"
+    ],
+    "High Atlas",
+    [
+     "Toubkal",
+     "Mount Toubkal"
+    ],
+    "Drakensberg",
+    [
+     "Rwenzori",
+     "Ruwenzori",
+     "Mountains of the Moon"
+    ],
+    "Ethiopian Highlands",
+    [
+     "Simien Mountains",
+     "Simien",
+     "Semien"
+    ],
+    "Table Mountain",
+    [
+     "Mount Meru",
+     "Meru"
+    ],
+    [
+     "Mount Elgon",
+     "Elgon"
+    ],
+    [
+     "Ahaggar",
+     "Hoggar"
+    ],
+    "Tibesti",
+    "Mount Cameroon",
+    [
+     "Virunga Mountains",
+     "Virungas",
+     "Virunga"
+    ],
+    [
+     "Nyiragongo",
+     "Mount Nyiragongo"
+    ],
+    "Ras Dashen",
+    [
+     "Mount Stanley",
+     "Margherita Peak"
+    ],
+    [
+     "Mount Mulanje",
+     "Mulanje"
+    ],
+    [
+     "Aberdare Range",
+     "Aberdares"
+    ],
+    [
+     "Mount Nimba",
+     "Nimba"
+    ],
+    "Ol Doinyo Lengai",
+    "Karisimbi",
+    "Cederberg",
+    "Brandberg",
+    "Anti-Atlas",
+    [
+     "Rif Mountains",
+     "Rif"
+    ]
+   ]
+  },
+  {
+   "id": "xg5-africa-islands",
+   "tags": [
+    "physical",
+    "africa"
+   ],
+   "text": "Name an island or island group off the coast of Africa",
+   "answers": [
+    "Madagascar",
+    "Zanzibar",
+    "Mauritius",
+    "Seychelles",
+    "Réunion",
+    "Mayotte",
+    "Comoros",
+    [
+     "Cape Verde",
+     "Cabo Verde"
+    ],
+    "São Tomé",
+    "Príncipe",
+    "Bioko",
+    "Annobón",
+    [
+     "Canary Islands",
+     "Canaries"
+    ],
+    "Tenerife",
+    "Gran Canaria",
+    "Lanzarote",
+    "Fuerteventura",
+    "La Palma",
+    "Pemba",
+    "Mafia",
+    "Lamu",
+    "Robben Island",
+    "Gorée",
+    "Djerba",
+    [
+     "Saint Helena",
+     "St Helena"
+    ],
+    [
+     "Ascension",
+     "Ascension Island"
+    ],
+    "Tristan da Cunha",
+    "Bazaruto",
+    "Mahé",
+    "Praslin",
+    "La Digue",
+    [
+     "Grand Comore",
+     "Ngazidja"
+    ],
+    "Anjouan",
+    "Mohéli",
+    "Rodrigues",
+    "Nosy Be",
+    [
+     "Sainte-Marie",
+     "Nosy Boraha"
+    ],
+    "Kerkennah",
+    [
+     "Ilha de Moçambique",
+     "Mozambique Island"
+    ]
+   ]
+  },
+  {
+   "id": "xg5-americas-cities-andes",
+   "tags": [
+    "capitals",
+    "americas"
+   ],
+   "text": "Name a city in Argentina, Chile or Peru",
+   "answers": [
+    "Buenos Aires",
+    "Córdoba",
+    "Rosario",
+    "Mendoza",
+    "Mar del Plata",
+    "La Plata",
+    "Salta",
+    [
+     "Tucumán",
+     "San Miguel de Tucumán"
+    ],
+    "Ushuaia",
+    [
+     "Bariloche",
+     "San Carlos de Bariloche"
+    ],
+    "Santa Fe",
+    "Neuquén",
+    "Posadas",
+    "Bahía Blanca",
+    "Corrientes",
+    "Resistencia",
+    [
+     "Jujuy",
+     "San Salvador de Jujuy"
+    ],
+    "El Calafate",
+    "Puerto Madryn",
+    "Santiago del Estero",
+    "Santiago",
+    "Valparaíso",
+    "Viña del Mar",
+    "Concepción",
+    "Antofagasta",
+    "Punta Arenas",
+    "Temuco",
+    "Iquique",
+    "La Serena",
+    "Puerto Montt",
+    "Arica",
+    "Valdivia",
+    "Rancagua",
+    "Calama",
+    "San Pedro de Atacama",
+    "Osorno",
+    "Lima",
+    [
+     "Cusco",
+     "Cuzco"
+    ],
+    "Arequipa",
+    "Trujillo",
+    "Iquitos",
+    "Puno",
+    "Chiclayo",
+    "Piura",
+    "Huancayo",
+    "Cajamarca",
+    "Ayacucho",
+    "Tacna",
+    "Huaraz",
+    "Pucallpa",
+    "Callao",
+    "Nazca"
+   ]
+  },
+  {
+   "id": "xg5-americas-cities-canada",
+   "tags": [
+    "capitals",
+    "americas"
+   ],
+   "text": "Name a city or town in Canada",
+   "answers": [
+    "Toronto",
+    "Montreal",
+    "Vancouver",
+    "Calgary",
+    "Edmonton",
+    "Ottawa",
+    "Winnipeg",
+    [
+     "Quebec City",
+     "Québec"
+    ],
+    "Hamilton",
+    "Halifax",
+    "Victoria",
+    "Saskatoon",
+    "Regina",
+    [
+     "St John's",
+     "Saint John's"
+    ],
+    "Kitchener",
+    "London",
+    "Windsor",
+    "Mississauga",
+    "Brampton",
+    "Surrey",
+    "Laval",
+    "Gatineau",
+    "Oshawa",
+    "Fredericton",
+    "Charlottetown",
+    "Whitehorse",
+    "Yellowknife",
+    "Iqaluit",
+    "Niagara Falls",
+    "Kelowna",
+    "Banff",
+    "Moncton",
+    "Sudbury",
+    "Thunder Bay",
+    "Kingston",
+    "Barrie",
+    "Burnaby",
+    "Markham",
+    "Vaughan",
+    "Richmond Hill",
+    "Lethbridge",
+    "Red Deer",
+    "Kamloops",
+    "Nanaimo",
+    [
+     "Saint John",
+     "St John"
+    ],
+    "Sherbrooke",
+    "Trois-Rivières",
+    "Waterloo",
+    "Guelph",
+    "Brantford",
+    "Peterborough",
+    "Whistler",
+    "Jasper",
+    "Churchill",
+    "Dawson City",
+    "Medicine Hat",
+    "Prince George",
+    "Saguenay"
+   ]
+  },
+  {
+   "id": "xg5-americas-cities-caribbean",
+   "tags": [
+    "capitals",
+    "americas"
+   ],
+   "text": "Name a city, town or resort in the Caribbean",
+   "answers": [
+    "Havana",
+    "Kingston",
+    "Montego Bay",
+    "Nassau",
+    "Bridgetown",
+    "Port of Spain",
+    "San Juan",
+    "Santo Domingo",
+    "Punta Cana",
+    "Negril",
+    "Ocho Rios",
+    "Varadero",
+    "Santiago de Cuba",
+    "Port-au-Prince",
+    "Willemstad",
+    "Oranjestad",
+    "Castries",
+    "Basseterre",
+    "Roseau",
+    "Kingstown",
+    [
+     "St George's",
+     "Saint George's"
+    ],
+    "Philipsburg",
+    "Fort-de-France",
+    "Pointe-à-Pitre",
+    "George Town",
+    "Cap-Haïtien",
+    "Puerto Plata",
+    "Ponce",
+    "Freeport",
+    "Charlotte Amalie",
+    "Marigot",
+    "Road Town",
+    "Scarborough",
+    "Spanish Town",
+    "Mandeville",
+    "Port Antonio",
+    "Matanzas",
+    "Camagüey",
+    "Holguín",
+    "Cienfuegos",
+    "Santiago de los Caballeros",
+    "La Romana",
+    "Gustavia",
+    "Cayo Coco",
+    "Cayo Largo"
+   ]
+  },
+  {
+   "id": "xg5-americas-cities-california",
+   "tags": [
+    "capitals",
+    "americas"
+   ],
+   "text": "Name a city or town in California",
+   "answers": [
+    [
+     "Los Angeles",
+     "LA"
+    ],
+    [
+     "San Francisco",
+     "SF",
+     "Frisco"
+    ],
+    "San Diego",
+    "San Jose",
+    "Sacramento",
+    "Oakland",
+    "Fresno",
+    "Long Beach",
+    "Santa Barbara",
+    "Anaheim",
+    "Bakersfield",
+    "Palm Springs",
+    "Santa Monica",
+    "Pasadena",
+    "Berkeley",
+    "Malibu",
+    "Monterey",
+    "Napa",
+    "Santa Cruz",
+    "Burbank",
+    "Hollywood",
+    "Irvine",
+    "Riverside",
+    "Stockton",
+    "San Bernardino",
+    "Carmel",
+    "Santa Ana",
+    "Beverly Hills",
+    "Compton",
+    "Glendale",
+    "Modesto",
+    "Oxnard",
+    "Palo Alto",
+    "Cupertino",
+    "Santa Clara",
+    "Sunnyvale",
+    "Mountain View",
+    "Redding",
+    "Eureka",
+    "Santa Rosa",
+    "San Luis Obispo",
+    "Santa Clarita",
+    "Huntington Beach",
+    "Newport Beach",
+    "Laguna Beach",
+    "Redondo Beach",
+    "Inglewood",
+    "Fremont",
+    "Hayward",
+    "Salinas",
+    "Visalia",
+    "Chico",
+    "Sausalito",
+    [
+     "South Lake Tahoe",
+     "Lake Tahoe"
+    ],
+    "Venice",
+    "Temecula",
+    "Pomona"
+   ]
+  },
+  {
+   "id": "xg5-americas-cities-florida",
+   "tags": [
+    "capitals",
+    "americas"
+   ],
+   "text": "Name a city or town in Florida",
+   "answers": [
+    "Miami",
+    "Orlando",
+    "Tampa",
+    "Jacksonville",
+    "Tallahassee",
+    [
+     "St Petersburg",
+     "Saint Petersburg"
+    ],
+    "Fort Lauderdale",
+    "Key West",
+    "Daytona Beach",
+    "Pensacola",
+    "Naples",
+    "Sarasota",
+    "Gainesville",
+    "Palm Beach",
+    "Boca Raton",
+    "Clearwater",
+    "Cape Canaveral",
+    "Fort Myers",
+    "Kissimmee",
+    "Hialeah",
+    "Miami Beach",
+    [
+     "St Augustine",
+     "Saint Augustine"
+    ],
+    "Panama City",
+    "Destin",
+    "Cocoa Beach",
+    "West Palm Beach",
+    "Hollywood",
+    "Coral Gables",
+    "Pompano Beach",
+    "Boynton Beach",
+    "Delray Beach",
+    "Ocala",
+    "Lakeland",
+    "Melbourne",
+    "Key Largo",
+    "Marathon",
+    "Homestead",
+    "Port St Lucie",
+    "Vero Beach",
+    "Jupiter",
+    "Sanibel",
+    "Bradenton",
+    "Winter Park",
+    "Celebration",
+    "Fernandina Beach",
+    "Apalachicola"
+   ]
+  },
+  {
+   "id": "xg5-americas-cities-texas",
+   "tags": [
+    "capitals",
+    "americas"
+   ],
+   "text": "Name a city or town in Texas",
+   "answers": [
+    "Houston",
+    "Dallas",
+    "San Antonio",
+    "Austin",
+    "Fort Worth",
+    "El Paso",
+    "Arlington",
+    "Corpus Christi",
+    "Plano",
+    "Lubbock",
+    "Laredo",
+    "Amarillo",
+    "Galveston",
+    "Waco",
+    "Irving",
+    "Garland",
+    "Brownsville",
+    "McAllen",
+    "Midland",
+    "Odessa",
+    "Abilene",
+    "Beaumont",
+    "Tyler",
+    "Denton",
+    "Round Rock",
+    "Killeen",
+    "Frisco",
+    "Pasadena",
+    "Mesquite",
+    "Grand Prairie",
+    "Wichita Falls",
+    "San Angelo",
+    "Texarkana",
+    "Port Arthur",
+    "Longview",
+    "College Station",
+    "Fredericksburg",
+    "Marfa",
+    "Huntsville",
+    "Nacogdoches",
+    "Sugar Land",
+    "The Woodlands",
+    "Katy",
+    "Lufkin",
+    "Victoria",
+    "Paris"
+   ]
+  },
+  {
+   "id": "xg5-americas-mountains",
+   "tags": [
+    "physical",
+    "americas"
+   ],
+   "text": "Name a mountain or volcano in the Americas",
+   "answers": [
+    [
+     "Denali",
+     "Mount McKinley",
+     "McKinley"
+    ],
+    "Aconcagua",
+    [
+     "Mount Whitney",
+     "Whitney"
+    ],
+    [
+     "Mount Rainier",
+     "Rainier"
+    ],
+    [
+     "Mount St Helens",
+     "St Helens",
+     "Mount Saint Helens"
+    ],
+    [
+     "Popocatépetl",
+     "Popo"
+    ],
+    [
+     "Pico de Orizaba",
+     "Orizaba",
+     "Citlaltépetl"
+    ],
+    "Chimborazo",
+    "Cotopaxi",
+    "Huascarán",
+    [
+     "Mount Logan",
+     "Logan"
+    ],
+    [
+     "Mount Elbert",
+     "Elbert"
+    ],
+    [
+     "Mount Shasta",
+     "Shasta"
+    ],
+    [
+     "Mount Hood",
+     "Hood"
+    ],
+    "Mount Washington",
+    "Mount Mitchell",
+    "Ojos del Salado",
+    "Illimani",
+    [
+     "Fitz Roy",
+     "Monte Fitz Roy"
+    ],
+    "Cerro Torre",
+    "Mauna Kea",
+    "Mauna Loa",
+    "Kilauea",
+    "Pikes Peak",
+    "Mount Rushmore",
+    [
+     "Mount Katahdin",
+     "Katahdin"
+    ],
+    [
+     "Grand Teton",
+     "Teton"
+    ],
+    "Half Dome",
+    "El Capitan",
+    "Mount Baker",
+    "Lassen Peak",
+    [
+     "Mount Saint Elias",
+     "Mount St Elias"
+    ],
+    "Mount Robson",
+    "Nevado del Ruiz",
+    [
+     "El Misti",
+     "Misti"
+    ],
+    "Sajama",
+    "Tupungato",
+    "Mount Foraker",
+    "Mount Pelée",
+    "La Soufrière",
+    "Villarrica",
+    "Paricutín",
+    "Mount Marcy",
+    "Mount Adams"
+   ]
+  },
+  {
+   "id": "xg5-americas-rivers-southamerica",
+   "tags": [
+    "physical",
+    "americas"
+   ],
+   "text": "Name a river in South America",
+   "answers": [
+    "Amazon",
+    "Orinoco",
+    "Paraná",
+    "Paraguay",
+    "Uruguay",
+    "São Francisco",
+    "Madeira",
+    [
+     "Rio Negro",
+     "Negro"
+    ],
+    "Tocantins",
+    "Xingu",
+    "Magdalena",
+    [
+     "Río de la Plata",
+     "River Plate",
+     "Plate"
+    ],
+    "Purus",
+    [
+     "Putumayo",
+     "Içá"
+    ],
+    "Araguaia",
+    "Tapajós",
+    "Ucayali",
+    "Marañón",
+    "Napo",
+    "Essequibo",
+    [
+     "Japurá",
+     "Caquetá"
+    ],
+    "Juruá",
+    "Colorado",
+    "Bío-Bío",
+    [
+     "Iguazu",
+     "Iguaçu",
+     "Iguassu"
+    ],
+    "Pilcomayo",
+    "Cauca",
+    "Apurímac",
+    "Salado",
+    "Chubut",
+    "Limay",
+    "Caroní",
+    "Meta",
+    "Guaviare",
+    [
+     "Rio Branco",
+     "Branco"
+    ],
+    "Jari",
+    "Mamoré",
+    "Beni",
+    "Tietê",
+    "Doce",
+    "Santa Cruz",
+    "Demerara",
+    "Berbice",
+    [
+     "Courantyne",
+     "Corantijn"
+    ],
+    "Mapocho",
+    "Maipo"
+   ]
+  },
+  {
+   "id": "xg5-americas-lakes",
+   "tags": [
+    "physical",
+    "americas"
+   ],
+   "text": "Name a lake in the Americas (not counting the Great Lakes)",
+   "answers": [
+    "Titicaca",
+    "Maracaibo",
+    [
+     "Nicaragua",
+     "Cocibolca"
+    ],
+    "Great Bear",
+    "Great Slave",
+    "Winnipeg",
+    "Athabasca",
+    "Okeechobee",
+    [
+     "Tahoe",
+     "Lake Tahoe"
+    ],
+    "Champlain",
+    "Great Salt Lake",
+    "Crater Lake",
+    "Lake of the Woods",
+    "Atitlán",
+    "Chapala",
+    [
+     "Managua",
+     "Xolotlán"
+    ],
+    [
+     "Mono Lake",
+     "Mono"
+    ],
+    [
+     "Powell",
+     "Lake Powell"
+    ],
+    [
+     "Mead",
+     "Lake Mead"
+    ],
+    "Pontchartrain",
+    [
+     "Louise",
+     "Lake Louise"
+    ],
+    "Nahuel Huapi",
+    [
+     "Argentino",
+     "Lago Argentino"
+    ],
+    [
+     "General Carrera",
+     "Buenos Aires Lake"
+    ],
+    "Poopó",
+    "Okanagan",
+    "Reindeer",
+    "Winnipegosis",
+    "Manitoba",
+    [
+     "Placid",
+     "Lake Placid"
+    ],
+    [
+     "Havasu",
+     "Lake Havasu"
+    ],
+    "Flathead",
+    "Yellowstone Lake",
+    "Itasca",
+    "Texoma",
+    "Pend Oreille",
+    "Seneca",
+    "Cayuga",
+    [
+     "Moraine Lake",
+     "Moraine"
+    ],
+    [
+     "Llanquihue",
+     "Lago Llanquihue"
+    ],
+    "Izabal",
+    "Gatún",
+    "Pátzcuaro",
+    "Lake George",
+    "Nipigon",
+    "Nipissing",
+    "Simcoe",
+    "Mistassini",
+    "Chelan"
+   ]
+  },
+  {
+   "id": "xg5-americas-us-south",
+   "tags": [
+    "regions",
+    "americas"
+   ],
+   "text": "Name one of the 16 US states in the Census Bureau's South region, or Washington DC",
+   "answers": [
+    "Delaware",
+    "Maryland",
+    "Virginia",
+    "West Virginia",
+    "North Carolina",
+    "South Carolina",
+    "Georgia",
+    "Florida",
+    "Kentucky",
+    "Tennessee",
+    "Alabama",
+    "Mississippi",
+    "Arkansas",
+    "Louisiana",
+    "Oklahoma",
+    "Texas",
+    [
+     "District of Columbia",
+     "Washington DC",
+     "DC"
+    ]
+   ]
+  },
+  {
+   "id": "xg5-asia-cities-india",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city or tourist destination in India",
+   "answers": [
+    [
+     "Mumbai",
+     "Bombay"
+    ],
+    [
+     "Delhi",
+     "New Delhi",
+     "Old Delhi"
+    ],
+    [
+     "Kolkata",
+     "Calcutta"
+    ],
+    [
+     "Chennai",
+     "Madras"
+    ],
+    [
+     "Bengaluru",
+     "Bangalore"
+    ],
+    "Hyderabad",
+    [
+     "Pune",
+     "Poona"
+    ],
+    "Ahmedabad",
+    "Jaipur",
+    "Surat",
+    "Lucknow",
+    "Kanpur",
+    "Nagpur",
+    [
+     "Varanasi",
+     "Benares",
+     "Banaras"
+    ],
+    "Agra",
+    "Goa",
+    "Amritsar",
+    [
+     "Kochi",
+     "Cochin"
+    ],
+    "Darjeeling",
+    [
+     "Shimla",
+     "Simla"
+    ],
+    "Rishikesh",
+    [
+     "Mysore",
+     "Mysuru"
+    ],
+    "Pushkar",
+    "Jodhpur",
+    "Jaisalmer",
+    "Udaipur",
+    [
+     "Pondicherry",
+     "Puducherry"
+    ],
+    "Munnar",
+    "Manali",
+    "Leh",
+    "Srinagar",
+    "Chandigarh",
+    "Bhopal",
+    "Indore",
+    "Patna",
+    [
+     "Ooty",
+     "Udhagamandalam"
+    ],
+    "Haridwar",
+    "Hampi",
+    "Khajuraho",
+    [
+     "Alleppey",
+     "Alappuzha"
+    ],
+    [
+     "Thiruvananthapuram",
+     "Trivandrum"
+    ],
+    "Kodaikanal",
+    "Mahabalipuram",
+    "Gangtok",
+    "Dharamshala",
+    "Bodh Gaya",
+    "Ajmer",
+    "Bikaner",
+    "Fatehpur Sikri",
+    "Mount Abu",
+    [
+     "Allahabad",
+     "Prayagraj"
+    ],
+    "Coimbatore",
+    "Madurai",
+    "Vijayawada",
+    [
+     "Visakhapatnam",
+     "Vizag"
+    ],
+    [
+     "Kozhikode",
+     "Calicut"
+    ],
+    "Mangalore",
+    "Guwahati",
+    "Shillong",
+    "Jammu",
+    "Ludhiana"
+   ]
+  },
+  {
+   "id": "xg5-asia-cities-thailand",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city, town or resort in Thailand",
+   "answers": [
+    "Bangkok",
+    "Phuket",
+    "Chiang Mai",
+    "Pattaya",
+    "Krabi",
+    "Hua Hin",
+    [
+     "Koh Samui",
+     "Ko Samui",
+     "Samui"
+    ],
+    "Ayutthaya",
+    "Chiang Rai",
+    "Khon Kaen",
+    "Udon Thani",
+    "Hat Yai",
+    [
+     "Nakhon Ratchasima",
+     "Korat"
+    ],
+    "Sukhothai",
+    "Kanchanaburi",
+    "Surat Thani",
+    "Pai",
+    [
+     "Koh Phangan",
+     "Ko Pha Ngan"
+    ],
+    [
+     "Koh Tao",
+     "Ko Tao"
+    ],
+    "Nonthaburi",
+    [
+     "Koh Phi Phi",
+     "Phi Phi"
+    ],
+    "Koh Lanta",
+    "Lopburi",
+    "Nakhon Si Thammarat",
+    "Rayong",
+    "Trat",
+    "Koh Chang",
+    "Nakhon Pathom",
+    "Phitsanulok",
+    "Ubon Ratchathani",
+    "Songkhla",
+    "Chonburi",
+    "Mae Hong Son",
+    "Ranong",
+    "Phang Nga",
+    "Cha-am",
+    "Nakhon Sawan",
+    "Lampang",
+    "Nan",
+    "Phetchaburi",
+    "Kamphaeng Phet"
+   ]
+  },
+  {
+   "id": "xg5-asia-cities-philippines",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city, town or resort in the Philippines",
+   "answers": [
+    "Manila",
+    "Quezon City",
+    [
+     "Cebu City",
+     "Cebu"
+    ],
+    [
+     "Davao City",
+     "Davao"
+    ],
+    "Makati",
+    "Boracay",
+    "Baguio",
+    "Cagayan de Oro",
+    [
+     "Zamboanga City",
+     "Zamboanga"
+    ],
+    [
+     "Iloilo City",
+     "Iloilo"
+    ],
+    "Bacolod",
+    "Puerto Princesa",
+    [
+     "Angeles City",
+     "Angeles"
+    ],
+    "Taguig",
+    "Pasig",
+    "Caloocan",
+    "Tagaytay",
+    "Vigan",
+    "El Nido",
+    "Legazpi",
+    "Tacloban",
+    "General Santos",
+    "Dumaguete",
+    "Olongapo",
+    "Subic",
+    "Antipolo",
+    "Batangas",
+    "Naga",
+    "Laoag",
+    "Tarlac",
+    "Cotabato",
+    "Marikina",
+    "Parañaque",
+    "Las Piñas",
+    "Mandaluyong",
+    "Pasay",
+    "Siargao",
+    "Coron",
+    "Tagbilaran",
+    "Lapu-Lapu",
+    "Mandaue",
+    "Butuan",
+    "Cabanatuan"
+   ]
+  },
+  {
+   "id": "xg5-asia-cities-korea",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city in South Korea or North Korea",
+   "answers": [
+    "Seoul",
+    [
+     "Busan",
+     "Pusan"
+    ],
+    [
+     "Incheon",
+     "Inchon"
+    ],
+    [
+     "Daegu",
+     "Taegu"
+    ],
+    [
+     "Daejeon",
+     "Taejon"
+    ],
+    [
+     "Gwangju",
+     "Kwangju"
+    ],
+    "Ulsan",
+    "Suwon",
+    [
+     "Jeju",
+     "Jeju City"
+    ],
+    "Pyongyang",
+    "Kaesong",
+    "Wonsan",
+    "Hamhung",
+    "Chongjin",
+    "Nampo",
+    "Sinuiju",
+    "Gyeongju",
+    "Pohang",
+    "Changwon",
+    "Jeonju",
+    "Goyang",
+    "Seongnam",
+    "Yongin",
+    "Cheongju",
+    "Gangneung",
+    "Chuncheon",
+    "Andong",
+    "Mokpo",
+    "Yeosu",
+    "Sokcho",
+    "Hyesan",
+    "Sariwon",
+    "Haeju",
+    "Kimchaek"
+   ]
+  },
+  {
+   "id": "xg5-asia-cities-levant",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city or town in Israel, Palestine, Jordan, Lebanon or Syria",
+   "answers": [
+    "Jerusalem",
+    "Tel Aviv",
+    "Haifa",
+    "Bethlehem",
+    [
+     "Gaza",
+     "Gaza City"
+    ],
+    "Ramallah",
+    "Nazareth",
+    "Eilat",
+    "Jericho",
+    "Hebron",
+    "Amman",
+    "Petra",
+    "Aqaba",
+    "Beirut",
+    "Tripoli",
+    [
+     "Sidon",
+     "Saida"
+    ],
+    [
+     "Tyre",
+     "Sour"
+    ],
+    [
+     "Byblos",
+     "Jbeil"
+    ],
+    "Damascus",
+    "Aleppo",
+    "Homs",
+    "Hama",
+    "Latakia",
+    "Palmyra",
+    "Nablus",
+    [
+     "Be'er Sheva",
+     "Beersheba"
+    ],
+    [
+     "Jaffa",
+     "Yafo"
+    ],
+    [
+     "Acre",
+     "Akko"
+    ],
+    "Tiberias",
+    "Irbid",
+    "Zarqa",
+    "Raqqa",
+    "Madaba",
+    "Jerash",
+    "Deir ez-Zor",
+    "Idlib",
+    "Tartus",
+    "Netanya",
+    "Ashdod",
+    "Ashkelon",
+    "Rishon LeZion",
+    "Rafah",
+    "Khan Yunis",
+    "Baalbek",
+    "Zahle",
+    "Jenin",
+    "Tulkarm",
+    "Qalqilya",
+    [
+     "As-Salt",
+     "Salt"
+    ],
+    [
+     "Kerak",
+     "Karak"
+    ]
+   ]
+  },
+  {
+   "id": "xg5-asia-cities-iraq-afghanistan",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city in Iraq or Afghanistan",
+   "answers": [
+    "Baghdad",
+    "Basra",
+    "Mosul",
+    [
+     "Erbil",
+     "Arbil"
+    ],
+    "Kirkuk",
+    "Najaf",
+    "Karbala",
+    "Fallujah",
+    "Ramadi",
+    "Tikrit",
+    [
+     "Sulaymaniyah",
+     "Sulaimaniyah"
+    ],
+    "Nasiriyah",
+    "Samarra",
+    "Kabul",
+    "Kandahar",
+    "Herat",
+    [
+     "Mazar-i-Sharif",
+     "Mazar e Sharif"
+    ],
+    "Jalalabad",
+    "Kunduz",
+    "Bamiyan",
+    "Lashkar Gah",
+    "Ghazni",
+    [
+     "Duhok",
+     "Dohuk"
+    ],
+    "Hillah",
+    "Kufa",
+    "Amarah",
+    "Kut",
+    "Baqubah",
+    "Halabja",
+    "Khost",
+    "Gardez",
+    "Taloqan",
+    "Zaranj",
+    "Faizabad",
+    "Charikar"
+   ]
+  },
+  {
+   "id": "xg5-asia-cities-malaysia-indonesia",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city, town or resort in Malaysia or Indonesia",
+   "answers": [
+    "Jakarta",
+    "Surabaya",
+    "Bandung",
+    "Medan",
+    "Semarang",
+    "Makassar",
+    "Palembang",
+    [
+     "Yogyakarta",
+     "Jogja",
+     "Jogjakarta"
+    ],
+    "Denpasar",
+    "Ubud",
+    "Kuta",
+    "Seminyak",
+    "Malang",
+    "Batam",
+    "Balikpapan",
+    "Pontianak",
+    "Manado",
+    "Padang",
+    "Banjarmasin",
+    "Bogor",
+    "Depok",
+    "Bekasi",
+    "Tangerang",
+    [
+     "Surakarta",
+     "Solo"
+    ],
+    "Pekanbaru",
+    "Jayapura",
+    "Mataram",
+    "Labuan Bajo",
+    [
+     "Kuala Lumpur",
+     "KL"
+    ],
+    [
+     "George Town",
+     "Penang"
+    ],
+    "Johor Bahru",
+    [
+     "Malacca",
+     "Melaka"
+    ],
+    "Ipoh",
+    "Kota Kinabalu",
+    "Kuching",
+    "Langkawi",
+    "Putrajaya",
+    "Shah Alam",
+    "Petaling Jaya",
+    "Klang",
+    "Kuantan",
+    "Alor Setar",
+    "Kota Bharu",
+    "Miri",
+    "Sandakan",
+    "Seremban",
+    "Cameron Highlands",
+    "Kuala Terengganu",
+    "Sibu",
+    "Taiping",
+    "Genting Highlands",
+    "Bali",
+    "Lombok"
+   ]
+  },
+  {
+   "id": "xg5-asia-cities-pak-bangla-nepal",
+   "tags": [
+    "capitals",
+    "asia"
+   ],
+   "text": "Name a city or town in Pakistan, Bangladesh or Nepal",
+   "answers": [
+    "Karachi",
+    "Lahore",
+    "Islamabad",
+    "Rawalpindi",
+    "Faisalabad",
+    "Multan",
+    "Peshawar",
+    "Quetta",
+    "Hyderabad",
+    "Gujranwala",
+    "Sialkot",
+    "Abbottabad",
+    "Gwadar",
+    "Murree",
+    "Sukkur",
+    "Bahawalpur",
+    "Sargodha",
+    "Mardan",
+    [
+     "Dhaka",
+     "Dacca"
+    ],
+    [
+     "Chittagong",
+     "Chattogram"
+    ],
+    "Khulna",
+    "Rajshahi",
+    "Sylhet",
+    [
+     "Comilla",
+     "Cumilla"
+    ],
+    "Rangpur",
+    [
+     "Barisal",
+     "Barishal"
+    ],
+    "Mymensingh",
+    "Cox's Bazar",
+    "Narayanganj",
+    "Gazipur",
+    [
+     "Jessore",
+     "Jashore"
+    ],
+    [
+     "Bogra",
+     "Bogura"
+    ],
+    "Kathmandu",
+    "Pokhara",
+    [
+     "Lalitpur",
+     "Patan"
+    ],
+    "Biratnagar",
+    "Bhaktapur",
+    "Janakpur",
+    "Lumbini",
+    "Birgunj",
+    "Nepalgunj",
+    "Dharan",
+    "Bharatpur"
+   ]
+  },
+  {
+   "id": "xg5-asia-lakes",
+   "tags": [
+    "physical",
+    "asia"
+   ],
+   "text": "Name a lake or inland sea in Asia",
+   "answers": [
+    [
+     "Caspian Sea",
+     "Caspian"
+    ],
+    [
+     "Baikal",
+     "Lake Baikal"
+    ],
+    "Dead Sea",
+    [
+     "Aral Sea",
+     "Aral"
+    ],
+    [
+     "Sea of Galilee",
+     "Lake Tiberias",
+     "Kinneret"
+    ],
+    [
+     "Lake Balkhash",
+     "Balkhash"
+    ],
+    "Issyk-Kul",
+    "Tonle Sap",
+    [
+     "Lake Toba",
+     "Toba"
+    ],
+    [
+     "Dal Lake",
+     "Dal"
+    ],
+    [
+     "Qinghai Lake",
+     "Qinghai",
+     "Koko Nor"
+    ],
+    [
+     "Poyang Lake",
+     "Poyang"
+    ],
+    [
+     "Dongting Lake",
+     "Dongting"
+    ],
+    [
+     "Lake Van",
+     "Van"
+    ],
+    [
+     "Lake Urmia",
+     "Urmia"
+    ],
+    [
+     "Lake Sevan",
+     "Sevan"
+    ],
+    [
+     "Lake Biwa",
+     "Biwa"
+    ],
+    [
+     "Taihu",
+     "Lake Tai"
+    ],
+    [
+     "Pangong Lake",
+     "Pangong Tso",
+     "Pangong"
+    ],
+    [
+     "Inle Lake",
+     "Inle"
+    ],
+    [
+     "Khövsgöl",
+     "Hovsgol",
+     "Lake Khovsgol"
+    ],
+    [
+     "Lake Hulun",
+     "Hulun"
+    ],
+    [
+     "Lake Manasarovar",
+     "Manasarovar"
+    ],
+    [
+     "Wular Lake",
+     "Wular"
+    ],
+    [
+     "Chilika Lake",
+     "Chilika",
+     "Chilka"
+    ],
+    [
+     "West Lake",
+     "Xi Hu"
+    ],
+    [
+     "Lake Tengiz",
+     "Tengiz"
+    ],
+    [
+     "Lake Kasumigaura",
+     "Kasumigaura"
+    ],
+    [
+     "Lake Towada",
+     "Towada"
+    ],
+    [
+     "Lake Ashi",
+     "Ashi"
+    ],
+    "Tso Moriri",
+    "Songkhla Lake",
+    [
+     "Lake Tianchi",
+     "Heaven Lake"
+    ],
+    "Lop Nur"
+   ]
+  },
+  {
+   "id": "xg5-asia-volcanoes",
+   "tags": [
+    "physical",
+    "asia"
+   ],
+   "text": "Name a volcano in Asia or Oceania",
+   "answers": [
+    [
+     "Mount Fuji",
+     "Fuji"
+    ],
+    [
+     "Krakatoa",
+     "Krakatau"
+    ],
+    [
+     "Merapi",
+     "Mount Merapi"
+    ],
+    "Tambora",
+    [
+     "Pinatubo",
+     "Mount Pinatubo"
+    ],
+    [
+     "Mayon",
+     "Mount Mayon"
+    ],
+    "Taal",
+    [
+     "Bromo",
+     "Mount Bromo"
+    ],
+    "Sakurajima",
+    [
+     "Aso",
+     "Mount Aso"
+    ],
+    "Ontake",
+    "Unzen",
+    [
+     "Agung",
+     "Mount Agung"
+    ],
+    "Rinjani",
+    "Semeru",
+    "Toba",
+    [
+     "Ararat",
+     "Mount Ararat"
+    ],
+    [
+     "Klyuchevskaya Sopka",
+     "Klyuchevskoy",
+     "Klyuchevskaya"
+    ],
+    [
+     "Damavand",
+     "Mount Damavand"
+    ],
+    "Sinabung",
+    [
+     "Paektu",
+     "Baekdu",
+     "Changbai",
+     "Mount Paektu"
+    ],
+    "Tongariro",
+    [
+     "Ruapehu",
+     "Mount Ruapehu"
+    ],
+    "Ngauruhoe",
+    [
+     "White Island",
+     "Whakaari"
+    ],
+    [
+     "Taranaki",
+     "Mount Egmont"
+    ],
+    [
+     "Rabaul",
+     "Tavurvur"
+    ],
+    "Yasur",
+    "Rangitoto",
+    "Kelud",
+    "Galunggung",
+    "Papandayan",
+    "Lokon",
+    "Kerinci",
+    [
+     "Mount Apo",
+     "Apo"
+    ],
+    "Bulusan",
+    "Kanlaon",
+    "Asama",
+    "Usu",
+    "Tarumae",
+    "Shinmoedake",
+    "Kirishima",
+    "Bagana",
+    "Ulawun",
+    "Manam",
+    [
+     "Mount Lamington",
+     "Lamington"
+    ]
+   ]
+  },
+  {
+   "id": "xg5-europe-cities-portugal-greece",
+   "tags": [
+    "capitals",
+    "europe"
+   ],
+   "text": "Name a city, town or resort in Portugal or Greece",
+   "answers": [
+    "Lisbon",
+    [
+     "Porto",
+     "Oporto"
+    ],
+    "Faro",
+    "Albufeira",
+    "Lagos",
+    "Funchal",
+    "Sintra",
+    "Coimbra",
+    "Braga",
+    "Vilamoura",
+    "Cascais",
+    "Évora",
+    "Fátima",
+    "Aveiro",
+    "Guimarães",
+    "Tavira",
+    "Portimão",
+    "Setúbal",
+    "Nazaré",
+    "Óbidos",
+    "Athens",
+    [
+     "Thessaloniki",
+     "Salonika"
+    ],
+    "Patras",
+    [
+     "Heraklion",
+     "Iraklion"
+    ],
+    [
+     "Rhodes",
+     "Rhodes Town"
+    ],
+    [
+     "Corfu Town",
+     "Corfu"
+    ],
+    "Kos",
+    "Mykonos",
+    [
+     "Santorini",
+     "Fira",
+     "Thira"
+    ],
+    [
+     "Chania",
+     "Hania"
+    ],
+    "Larissa",
+    "Volos",
+    "Sparta",
+    "Delphi",
+    "Olympia",
+    "Ioannina",
+    "Kalamata",
+    "Nafplio",
+    [
+     "Zante",
+     "Zakynthos"
+    ],
+    "Hersonissos",
+    "Malia",
+    "Rethymno",
+    "Piraeus",
+    "Meteora",
+    "Kavala",
+    "Lindos",
+    "Faliraki",
+    "Laganas",
+    "Kefalonia",
+    "Lefkada",
+    "Skiathos",
+    "Paphos"
+   ]
+  },
+  {
+   "id": "xg5-europe-cities-benelux-swiss",
+   "tags": [
+    "capitals",
+    "europe"
+   ],
+   "text": "Name a city or town in Belgium, the Netherlands or Switzerland",
+   "answers": [
+    "Brussels",
+    "Antwerp",
+    "Ghent",
+    "Bruges",
+    "Liège",
+    "Charleroi",
+    [
+     "Leuven",
+     "Louvain"
+    ],
+    "Namur",
+    "Ostend",
+    "Mechelen",
+    "Amsterdam",
+    "Rotterdam",
+    [
+     "The Hague",
+     "Den Haag"
+    ],
+    "Utrecht",
+    "Eindhoven",
+    "Groningen",
+    "Maastricht",
+    "Haarlem",
+    "Leiden",
+    "Delft",
+    "Arnhem",
+    "Nijmegen",
+    "Breda",
+    "Zurich",
+    [
+     "Geneva",
+     "Genève"
+    ],
+    [
+     "Basel",
+     "Basle"
+    ],
+    [
+     "Bern",
+     "Berne"
+    ],
+    "Lausanne",
+    [
+     "Lucerne",
+     "Luzern"
+    ],
+    "Lugano",
+    [
+     "St Gallen",
+     "Saint Gallen"
+    ],
+    "Zermatt",
+    "Interlaken",
+    "Davos",
+    [
+     "St Moritz",
+     "Saint Moritz"
+    ],
+    [
+     "Ypres",
+     "Ieper"
+    ],
+    "Spa",
+    "Tilburg",
+    "Almere",
+    "Zaandam",
+    "Gouda",
+    "Edam",
+    "Alkmaar",
+    "Dordrecht",
+    "Apeldoorn",
+    "Zwolle",
+    "Montreux",
+    "Neuchâtel",
+    "Fribourg",
+    "Locarno",
+    "Grindelwald",
+    "Verbier",
+    "Klosters",
+    "Winterthur"
+   ]
+  },
+  {
+   "id": "xg5-europe-cities-central",
+   "tags": [
+    "capitals",
+    "europe"
+   ],
+   "text": "Name a city or town in Austria, Czechia, Poland or Hungary",
+   "answers": [
+    [
+     "Vienna",
+     "Wien"
+    ],
+    "Salzburg",
+    "Innsbruck",
+    "Graz",
+    "Linz",
+    "Klagenfurt",
+    [
+     "Prague",
+     "Praha"
+    ],
+    "Brno",
+    "Ostrava",
+    [
+     "Plzeň",
+     "Pilsen"
+    ],
+    "Český Krumlov",
+    [
+     "Karlovy Vary",
+     "Carlsbad"
+    ],
+    [
+     "Warsaw",
+     "Warszawa"
+    ],
+    [
+     "Kraków",
+     "Cracow"
+    ],
+    [
+     "Łódź",
+     "Lodz"
+    ],
+    [
+     "Wrocław",
+     "Wroclaw",
+     "Breslau"
+    ],
+    "Poznań",
+    [
+     "Gdańsk",
+     "Danzig"
+    ],
+    [
+     "Szczecin",
+     "Stettin"
+    ],
+    "Lublin",
+    "Katowice",
+    "Zakopane",
+    "Budapest",
+    "Debrecen",
+    "Szeged",
+    "Pécs",
+    "Győr",
+    "Eger",
+    "Villach",
+    "Bregenz",
+    "Kitzbühel",
+    "Hallstatt",
+    "Olomouc",
+    "Liberec",
+    "Kutná Hora",
+    "Toruń",
+    "Bydgoszcz",
+    [
+     "Białystok",
+     "Bialystok"
+    ],
+    "Częstochowa",
+    [
+     "Oświęcim",
+     "Auschwitz"
+    ],
+    "Miskolc",
+    "Székesfehérvár",
+    "Sopron"
+   ]
+  },
+  {
+   "id": "xg5-europe-cities-balkans",
+   "tags": [
+    "capitals",
+    "europe"
+   ],
+   "text": "Name a city or town in the Balkans or Romania (Croatia, Slovenia, Bosnia, Serbia, Montenegro, Albania, North Macedonia, Kosovo, Bulgaria or Romania)",
+   "answers": [
+    "Zagreb",
+    "Split",
+    "Dubrovnik",
+    "Rijeka",
+    "Zadar",
+    "Pula",
+    "Osijek",
+    "Šibenik",
+    "Ljubljana",
+    "Maribor",
+    "Bled",
+    [
+     "Bucharest",
+     "București"
+    ],
+    [
+     "Cluj-Napoca",
+     "Cluj"
+    ],
+    "Timișoara",
+    "Brașov",
+    "Iași",
+    "Constanța",
+    "Sibiu",
+    "Sofia",
+    "Plovdiv",
+    "Varna",
+    "Burgas",
+    [
+     "Sunny Beach",
+     "Slanchev Bryag"
+    ],
+    [
+     "Belgrade",
+     "Beograd"
+    ],
+    "Novi Sad",
+    "Niš",
+    "Sarajevo",
+    "Mostar",
+    "Banja Luka",
+    "Kotor",
+    "Podgorica",
+    "Budva",
+    "Tirana",
+    "Skopje",
+    [
+     "Pristina",
+     "Prishtina"
+    ],
+    "Ohrid",
+    "Durrës",
+    "Saranda",
+    "Veliko Tarnovo",
+    "Sinaia",
+    "Bitola",
+    "Tuzla",
+    "Herceg Novi",
+    "Sighișoara",
+    "Oradea",
+    "Craiova",
+    "Galați",
+    "Ploiești",
+    "Koper",
+    "Portorož",
+    "Poreč",
+    "Rovinj",
+    "Makarska",
+    "Trogir",
+    "Hvar Town"
+   ]
+  },
+  {
+   "id": "xg5-europe-cities-east",
+   "tags": [
+    "capitals",
+    "europe"
+   ],
+   "text": "Name a city in Ukraine, Belarus, Estonia, Latvia or Lithuania",
+   "answers": [
+    [
+     "Kyiv",
+     "Kiev"
+    ],
+    [
+     "Kharkiv",
+     "Kharkov"
+    ],
+    [
+     "Odesa",
+     "Odessa"
+    ],
+    [
+     "Lviv",
+     "Lvov",
+     "Lemberg"
+    ],
+    [
+     "Dnipro",
+     "Dnepropetrovsk"
+    ],
+    "Donetsk",
+    [
+     "Zaporizhzhia",
+     "Zaporozhye"
+    ],
+    "Mariupol",
+    "Kherson",
+    [
+     "Mykolaiv",
+     "Nikolaev"
+    ],
+    "Sevastopol",
+    "Yalta",
+    "Chernobyl",
+    "Pripyat",
+    "Chernihiv",
+    "Poltava",
+    "Sumy",
+    "Luhansk",
+    "Vinnytsia",
+    "Uzhhorod",
+    "Ternopil",
+    "Minsk",
+    "Brest",
+    [
+     "Grodno",
+     "Hrodna"
+    ],
+    [
+     "Gomel",
+     "Homel"
+    ],
+    "Vitebsk",
+    "Mogilev",
+    "Riga",
+    "Tallinn",
+    "Tartu",
+    "Vilnius",
+    "Kaunas",
+    [
+     "Klaipėda",
+     "Memel"
+    ],
+    "Daugavpils",
+    "Jūrmala",
+    "Narva",
+    "Liepāja",
+    "Šiauliai",
+    "Panevėžys",
+    "Pärnu",
+    "Ventspils",
+    "Jelgava",
+    "Simferopol",
+    "Kramatorsk",
+    "Kryvyi Rih",
+    "Bakhmut",
+    "Lutsk",
+    "Rivne",
+    "Ivano-Frankivsk",
+    "Chernivtsi"
+   ]
+  },
+  {
+   "id": "xg5-europe-cities-spain-resorts",
+   "tags": [
+    "capitals",
+    "europe"
+   ],
+   "text": "Name a city, town or resort in mainland Spain or the Balearic Islands",
+   "answers": [
+    "Madrid",
+    "Barcelona",
+    "Valencia",
+    [
+     "Seville",
+     "Sevilla"
+    ],
+    "Málaga",
+    "Benidorm",
+    "Marbella",
+    "Alicante",
+    "Bilbao",
+    "Granada",
+    "Salou",
+    "Torremolinos",
+    "Magaluf",
+    [
+     "Ibiza Town",
+     "Ibiza",
+     "Eivissa"
+    ],
+    [
+     "Palma",
+     "Palma de Mallorca"
+    ],
+    [
+     "San Sebastián",
+     "Donostia"
+    ],
+    "Santander",
+    "Zaragoza",
+    "Córdoba",
+    "Toledo",
+    "Salamanca",
+    "Murcia",
+    "Cádiz",
+    "Lloret de Mar",
+    "Sitges",
+    "Fuengirola",
+    "Benalmádena",
+    "Nerja",
+    "Estepona",
+    "Torrevieja",
+    [
+     "Calpe",
+     "Calp"
+    ],
+    "Dénia",
+    "Jávea",
+    "Altea",
+    "Roses",
+    "Tossa de Mar",
+    "Platja d'Aro",
+    "Cambrils",
+    [
+     "Sant Antoni",
+     "San Antonio"
+    ],
+    "Santa Eulalia",
+    "Mahón",
+    "Ciutadella",
+    "Pamplona",
+    "Burgos",
+    "León",
+    "Segovia",
+    "Ávila",
+    "Girona",
+    "Tarragona",
+    "Almería",
+    "Gibraltar",
+    "Ronda",
+    "Jerez",
+    "Vigo",
+    [
+     "A Coruña",
+     "La Coruña",
+     "Corunna"
+    ],
+    "Santiago de Compostela",
+    "Oviedo",
+    "Gijón",
+    "Vitoria",
+    "Logroño",
+    "Cuenca",
+    "Mojácar",
+    "Playa de Palma",
+    "Alcúdia",
+    [
+     "Pollensa",
+     "Pollença"
+    ],
+    "Sóller"
+   ]
+  },
+  {
+   "id": "xg5-europe-lakes",
+   "tags": [
+    "physical",
+    "europe"
+   ],
+   "text": "Name a lake in Europe (UK and Ireland not counted)",
+   "answers": [
+    [
+     "Lake Geneva",
+     "Geneva",
+     "Lac Léman",
+     "Léman"
+    ],
+    [
+     "Lake Constance",
+     "Constance",
+     "Bodensee"
+    ],
+    [
+     "Lake Como",
+     "Como"
+    ],
+    [
+     "Lake Garda",
+     "Garda"
+    ],
+    [
+     "Lake Maggiore",
+     "Maggiore"
+    ],
+    [
+     "Lake Lucerne",
+     "Lucerne",
+     "Vierwaldstättersee",
+     "Balaton"
+    ],
+    [
+     "Lake Ladoga",
+     "Ladoga"
+    ],
+    [
+     "Lake Onega",
+     "Onega"
+    ],
+    [
+     "Vänern",
+     "Lake Vänern",
+     "Vaenern"
+    ],
+    [
+     "Vättern",
+     "Lake Vättern"
+    ],
+    [
+     "Mälaren",
+     "Lake Mälaren"
+    ],
+    [
+     "Lake Peipus",
+     "Peipus"
+    ],
+    [
+     "Lake Ohrid",
+     "Ohrid"
+    ],
+    [
+     "Lake Prespa",
+     "Prespa"
+    ],
+    [
+     "Lake Bled",
+     "Bled"
+    ],
+    [
+     "Lake Zurich",
+     "Zurich"
+    ],
+    [
+     "Lake Neuchâtel",
+     "Neuchatel"
+    ],
+    [
+     "Lake Lugano",
+     "Lugano"
+    ],
+    [
+     "Lake Annecy",
+     "Annecy"
+    ],
+    [
+     "Lac du Bourget",
+     "Lake Bourget"
+    ],
+    [
+     "Lake Saimaa",
+     "Saimaa"
+    ],
+    [
+     "Lake Inari",
+     "Inari"
+    ],
+    [
+     "Lake Neusiedl",
+     "Neusiedl"
+    ],
+    [
+     "Lake Orta",
+     "Orta"
+    ],
+    [
+     "Lake Iseo",
+     "Iseo"
+    ],
+    [
+     "Lake Thun",
+     "Thun"
+    ],
+    [
+     "Lake Brienz",
+     "Brienz"
+    ],
+    [
+     "Lake Skadar",
+     "Skadar",
+     "Scutari"
+    ],
+    [
+     "Lake Bolsena",
+     "Bolsena"
+    ],
+    [
+     "Lake Trasimeno",
+     "Trasimeno"
+    ],
+    [
+     "Mjøsa",
+     "Mjosa"
+    ],
+    [
+     "Lake Siljan",
+     "Siljan"
+    ],
+    "Päijänne",
+    [
+     "Lake Hallstatt",
+     "Hallstätter See"
+    ],
+    "Wörthersee",
+    "Attersee",
+    "Chiemsee",
+    [
+     "Starnberger See",
+     "Lake Starnberg"
+    ],
+    "Müritz",
+    [
+     "Lake Plitvice",
+     "Plitvice Lakes"
+    ],
+    [
+     "Lake Vrana",
+     "Vransko"
+    ],
+    [
+     "Lake Kerkini",
+     "Kerkini"
+    ],
+    "Lake Plastira"
+   ]
+  },
+  {
+   "id": "xg5-europe-islands",
+   "tags": [
+    "physical",
+    "europe"
+   ],
+   "text": "Name a European island or island group (not counting the UK and Ireland)",
+   "answers": [
+    "Sicily",
+    "Sardinia",
+    "Corsica",
+    "Crete",
+    "Cyprus",
+    "Malta",
+    "Gozo",
+    "Iceland",
+    [
+     "Majorca",
+     "Mallorca"
+    ],
+    [
+     "Menorca",
+     "Minorca"
+    ],
+    "Ibiza",
+    "Formentera",
+    "Rhodes",
+    "Corfu",
+    "Capri",
+    "Elba",
+    "Gotland",
+    "Öland",
+    "Bornholm",
+    [
+     "Zealand",
+     "Sjælland"
+    ],
+    "Funen",
+    [
+     "Åland Islands",
+     "Aland"
+    ],
+    [
+     "Santorini",
+     "Thira"
+    ],
+    "Mykonos",
+    [
+     "Lesbos",
+     "Lesvos"
+    ],
+    "Samos",
+    "Hvar",
+    "Brač",
+    "Texel",
+    "Sylt",
+    "Rügen",
+    "Ischia",
+    "Lampedusa",
+    "Kos",
+    [
+     "Zakynthos",
+     "Zante"
+    ],
+    [
+     "Kefalonia",
+     "Cephalonia"
+    ],
+    [
+     "Lefkada",
+     "Lefkas"
+    ],
+    "Naxos",
+    "Paros",
+    "Milos",
+    "Skiathos",
+    "Skopelos",
+    "Chios",
+    [
+     "Evia",
+     "Euboea"
+    ],
+    "Ithaca",
+    "Lofoten",
+    [
+     "Svalbard",
+     "Spitsbergen"
+    ],
+    [
+     "Faroe Islands",
+     "Faroes"
+    ],
+    "Madeira",
+    "Azores",
+    "Krk",
+    "Korčula",
+    "Vis",
+    "Mljet",
+    "Pag",
+    "Murano",
+    "Burano",
+    "Lido",
+    "Giglio",
+    "Stromboli",
+    "Lipari",
+    "Vulcano",
+    "Procida",
+    "Pantelleria",
+    "Samothrace",
+    [
+     "Thasos",
+     "Thassos"
+    ],
+    "Hydra",
+    "Aegina",
+    "Spetses",
+    "Patmos",
+    "Symi",
+    "Karpathos",
+    [
+     "Heligoland",
+     "Helgoland"
+    ],
+    "Föhr",
+    "Usedom",
+    "Fehmarn",
+    "Saaremaa",
+    "Hiiumaa",
+    "Comino",
+    "Vestmannaeyjar"
+   ]
+  },
+  {
+   "id": "xg5-europe-ski-resorts",
+   "tags": [
+    "capitals",
+    "europe"
+   ],
+   "text": "Name a ski resort in Europe",
+   "answers": [
+    "Chamonix",
+    "Val d'Isère",
+    "Courchevel",
+    "Méribel",
+    "Zermatt",
+    [
+     "St Moritz",
+     "Saint Moritz"
+    ],
+    "Verbier",
+    "Kitzbühel",
+    [
+     "St Anton",
+     "Sankt Anton"
+    ],
+    "Lech",
+    "Ischgl",
+    [
+     "Cortina d'Ampezzo",
+     "Cortina"
+    ],
+    "Val Thorens",
+    "Les Arcs",
+    "La Plagne",
+    "Tignes",
+    "Davos",
+    "Klosters",
+    "Innsbruck",
+    "Sölden",
+    "Mayrhofen",
+    [
+     "Saalbach",
+     "Saalbach-Hinterglemm"
+    ],
+    "Soldeu",
+    "Bansko",
+    "Livigno",
+    "Sestriere",
+    "Courmayeur",
+    "Megève",
+    [
+     "Les Deux Alpes",
+     "Les 2 Alpes"
+    ],
+    "Alpe d'Huez",
+    "Morzine",
+    "Avoriaz",
+    "Flaine",
+    "Serre Chevalier",
+    "Obergurgl",
+    "Åre",
+    "Sierra Nevada",
+    "Pas de la Casa",
+    "Borovets",
+    "Poiana Brașov",
+    "Jasná",
+    "Laax",
+    "Wengen",
+    "Grindelwald",
+    "Adelboden",
+    "Andermatt",
+    "Saas-Fee",
+    "Crans-Montana",
+    "Ellmau",
+    "Söll",
+    "Zell am See",
+    "Obertauern",
+    [
+     "Selva",
+     "Val Gardena"
+    ],
+    "Alta Badia",
+    "Madonna di Campiglio",
+    "La Clusaz",
+    "Les Gets",
+    "Chatel",
+    "Kranjska Gora",
+    "Lillehammer",
+    "Trysil",
+    "Levi",
+    "Ruka",
+    "Bad Gastein",
+    "Kaprun",
+    "Hintertux",
+    "Sauze d'Oulx",
+    "Bardonecchia",
+    [
+     "Cervinia",
+     "Breuil-Cervinia"
+    ],
+    "Folgaria",
+    "Flachau",
+    "Wagrain",
+    "Schladming",
+    "Lofer",
+    "Kühtai"
+   ]
+  },
+  {
+   "id": "xg5-ukie-kent",
+   "tags": [
+    "capitals",
+    "ukie"
+   ],
+   "text": "Name a town or city in Kent",
+   "answers": [
+    "Canterbury",
+    "Dover",
+    "Margate",
+    "Ramsgate",
+    "Maidstone",
+    "Folkestone",
+    "Tonbridge",
+    [
+     "Tunbridge Wells",
+     "Royal Tunbridge Wells"
+    ],
+    "Sevenoaks",
+    "Ashford",
+    "Gravesend",
+    "Dartford",
+    "Chatham",
+    "Rochester",
+    "Gillingham",
+    "Faversham",
+    "Whitstable",
+    "Herne Bay",
+    "Deal",
+    "Sandwich",
+    "Broadstairs",
+    "Sittingbourne",
+    "Swanley",
+    "Hythe",
+    "Tenterden",
+    "Cranbrook",
+    "Westerham",
+    "Edenbridge",
+    "Sheerness",
+    "Hawkhurst",
+    "Lydd",
+    "New Romney",
+    "Dymchurch",
+    "Birchington",
+    "Snodland",
+    "Northfleet",
+    "Swanscombe",
+    "Aylesford",
+    "Paddock Wood",
+    "Cliftonville",
+    "Minster",
+    "Walmer",
+    "Strood",
+    "Rainham",
+    "Lenham",
+    "Wye",
+    "Headcorn",
+    "Staplehurst",
+    "Marden",
+    "Larkfield",
+    "West Malling",
+    "Borough Green",
+    "Kingsdown"
+   ]
+  },
+  {
+   "id": "xg5-ukie-yorkshire",
+   "tags": [
+    "capitals",
+    "ukie"
+   ],
+   "text": "Name a town or city in Yorkshire",
+   "answers": [
+    "Leeds",
+    "Sheffield",
+    "Bradford",
+    [
+     "Hull",
+     "Kingston upon Hull"
+    ],
+    "York",
+    "Wakefield",
+    "Doncaster",
+    "Rotherham",
+    "Barnsley",
+    "Huddersfield",
+    "Halifax",
+    "Harrogate",
+    "Scarborough",
+    "Whitby",
+    "Ripon",
+    "Skipton",
+    "Beverley",
+    "Bridlington",
+    "Selby",
+    "Richmond",
+    "Pontefract",
+    "Keighley",
+    "Dewsbury",
+    "Batley",
+    "Knaresborough",
+    "Thirsk",
+    "Malton",
+    "Northallerton",
+    "Filey",
+    "Hawes",
+    "Goole",
+    "Wetherby",
+    "Otley",
+    "Ilkley",
+    "Pudsey",
+    "Morley",
+    "Brighouse",
+    "Todmorden",
+    "Hebden Bridge",
+    "Holmfirth",
+    "Penistone",
+    "Stocksbridge",
+    "Settle",
+    "Leyburn",
+    "Helmsley",
+    "Pickering",
+    "Tadcaster",
+    "Easingwold",
+    "Castleford",
+    "Normanton",
+    "Hornsea",
+    "Withernsea",
+    "Driffield",
+    "Pocklington",
+    "Market Weighton",
+    "Bingley",
+    "Shipley",
+    "Guiseley",
+    "Mexborough",
+    "Thorne",
+    "Cleckheaton",
+    "Elland",
+    "Sowerby Bridge",
+    "Haworth",
+    "Hedon"
+   ]
+  },
+  {
+   "id": "xg5-ukie-greater-manchester",
+   "tags": [
+    "capitals",
+    "ukie"
+   ],
+   "text": "Name a town or city in Greater Manchester",
+   "answers": [
+    "Manchester",
+    "Salford",
+    "Bolton",
+    "Bury",
+    "Oldham",
+    "Rochdale",
+    "Stockport",
+    "Wigan",
+    "Altrincham",
+    "Sale",
+    "Stretford",
+    "Ashton-under-Lyne",
+    "Leigh",
+    "Hyde",
+    "Eccles",
+    "Middleton",
+    "Heywood",
+    "Droylsden",
+    "Urmston",
+    "Swinton",
+    "Radcliffe",
+    "Prestwich",
+    "Failsworth",
+    "Denton",
+    "Marple",
+    "Cheadle",
+    "Bredbury",
+    "Atherton",
+    "Ramsbottom",
+    "Tottington",
+    "Mossley",
+    "Stalybridge",
+    "Chadderton",
+    "Royton",
+    "Shaw",
+    "Littleborough",
+    "Westhoughton",
+    "Horwich",
+    "Farnworth",
+    "Kearsley",
+    "Whitefield",
+    "Partington",
+    "Irlam",
+    "Wythenshawe",
+    "Didsbury",
+    "Bramhall",
+    "Hazel Grove",
+    "Romiley",
+    "Lees",
+    "Uppermill",
+    "Delph",
+    "Milnrow",
+    "Newhey",
+    "Golborne",
+    "Tyldesley",
+    "Astley",
+    "Standish",
+    "Ince-in-Makerfield",
+    "Hindley",
+    "Ashton-in-Makerfield",
+    "Chorlton",
+    "Timperley",
+    "Hale",
+    "Bowdon",
+    "Sale Moor"
+   ]
+  },
+  {
+   "id": "xg5-ukie-devon",
+   "tags": [
+    "capitals",
+    "ukie"
+   ],
+   "text": "Name a town or city in Devon",
+   "answers": [
+    "Exeter",
+    "Plymouth",
+    "Torquay",
+    "Paignton",
+    "Brixham",
+    "Barnstaple",
+    "Exmouth",
+    "Newton Abbot",
+    "Tiverton",
+    "Sidmouth",
+    "Dartmouth",
+    "Ilfracombe",
+    "Okehampton",
+    "Totnes",
+    "Bideford",
+    "Teignmouth",
+    "Tavistock",
+    "Honiton",
+    "Crediton",
+    "Kingsbridge",
+    "Dawlish",
+    "Seaton",
+    "Salcombe",
+    "Lynton",
+    "Lynmouth",
+    "Budleigh Salterton",
+    "Axminster",
+    "Holsworthy",
+    "Ivybridge",
+    "Ottery St Mary",
+    "Cullompton",
+    "Braunton",
+    "Woolacombe",
+    "South Molton",
+    [
+     "Great Torrington",
+     "Torrington"
+    ],
+    "Buckfastleigh",
+    "Ashburton",
+    "Bovey Tracey",
+    "Chagford",
+    "Moretonhampstead",
+    "Princetown",
+    "Appledore",
+    "Instow",
+    "Westward Ho!",
+    "Combe Martin",
+    "Clovelly",
+    "Beer",
+    "Colyton",
+    "Lympstone",
+    "Topsham",
+    "Starcross",
+    "Kingsteignton",
+    "Modbury",
+    "Yelverton"
+   ]
+  },
+  {
+   "id": "xg5-ukie-sussex",
+   "tags": [
+    "capitals",
+    "ukie"
+   ],
+   "text": "Name a town or city in Sussex",
+   "answers": [
+    "Brighton",
+    "Hove",
+    "Worthing",
+    "Eastbourne",
+    "Hastings",
+    "Chichester",
+    "Crawley",
+    "Horsham",
+    "Bognor Regis",
+    "Littlehampton",
+    "Lewes",
+    [
+     "Bexhill",
+     "Bexhill-on-Sea"
+    ],
+    "Rye",
+    "Seaford",
+    "Newhaven",
+    "Burgess Hill",
+    "Haywards Heath",
+    "East Grinstead",
+    "Arundel",
+    "Battle",
+    "Uckfield",
+    "Peacehaven",
+    [
+     "Shoreham",
+     "Shoreham-by-Sea"
+    ],
+    "Hailsham",
+    "Midhurst",
+    "Petworth",
+    "Steyning",
+    "Pulborough",
+    "Storrington",
+    "Hurstpierpoint",
+    "Lancing",
+    "Southwick",
+    "Rottingdean",
+    "Telscombe",
+    "Polegate",
+    "Heathfield",
+    "Crowborough",
+    "Wadhurst",
+    "Robertsbridge",
+    "Winchelsea",
+    "Camber",
+    "Pevensey",
+    "Selsey",
+    "Pagham",
+    "Rustington",
+    "Angmering",
+    "Henfield",
+    "Cuckfield",
+    "Lindfield",
+    "Billingshurst",
+    "Southwater",
+    "Ditchling",
+    "Alfriston",
+    "Mayfield",
+    "Forest Row"
+   ]
+  },
+  {
+   "id": "xg5-ukie-essex",
+   "tags": [
+    "capitals",
+    "ukie"
+   ],
+   "text": "Name a town or city in Essex",
+   "answers": [
+    "Chelmsford",
+    "Colchester",
+    [
+     "Southend-on-Sea",
+     "Southend"
+    ],
+    "Basildon",
+    "Harlow",
+    "Brentwood",
+    [
+     "Clacton-on-Sea",
+     "Clacton"
+    ],
+    "Braintree",
+    "Witham",
+    "Maldon",
+    "Epping",
+    "Saffron Walden",
+    "Billericay",
+    "Grays",
+    "Canvey Island",
+    "Harwich",
+    [
+     "Frinton-on-Sea",
+     "Frinton"
+    ],
+    "Loughton",
+    "Chigwell",
+    "Wickford",
+    "Rayleigh",
+    "Rochford",
+    "Burnham-on-Crouch",
+    "Halstead",
+    [
+     "Great Dunmow",
+     "Dunmow"
+    ],
+    "Waltham Abbey",
+    "Tilbury",
+    [
+     "Walton-on-the-Naze",
+     "Walton"
+    ],
+    "Brightlingsea",
+    [
+     "Chipping Ongar",
+     "Ongar"
+    ],
+    "Coggeshall",
+    "South Woodham Ferrers",
+    "Leigh-on-Sea",
+    "Hadleigh",
+    "Benfleet",
+    "Stanford-le-Hope",
+    "Wivenhoe",
+    "Manningtree",
+    "Buckhurst Hill",
+    "Thaxted",
+    "Dedham",
+    [
+     "Mersea Island",
+     "West Mersea"
+    ],
+    "Shoeburyness",
+    "Jaywick",
+    "Holland-on-Sea",
+    "Heybridge",
+    [
+     "Stansted Mountfitchet",
+     "Stansted"
+    ],
+    "Corringham"
+   ]
+  },
+  {
+   "id": "xg5-ukie-east-anglia",
+   "tags": [
+    "capitals",
+    "ukie"
+   ],
+   "text": "Name a town or city in Norfolk, Suffolk or Cambridgeshire",
+   "answers": [
+    "Norwich",
+    "Ipswich",
+    "Cambridge",
+    "Peterborough",
+    "King's Lynn",
+    [
+     "Great Yarmouth",
+     "Yarmouth"
+    ],
+    "Lowestoft",
+    "Bury St Edmunds",
+    "Thetford",
+    "Cromer",
+    "Sheringham",
+    "Southwold",
+    "Aldeburgh",
+    "Felixstowe",
+    "Sudbury",
+    "Newmarket",
+    "Diss",
+    "Wymondham",
+    "Dereham",
+    "Hunstanton",
+    "Wells-next-the-Sea",
+    "Swaffham",
+    "Holt",
+    "Beccles",
+    "Bungay",
+    "Stowmarket",
+    "Woodbridge",
+    "Ely",
+    "Wisbech",
+    "Huntingdon",
+    "St Ives",
+    "St Neots",
+    "March",
+    "Whittlesey",
+    "Soham",
+    "Haverhill",
+    "Brandon",
+    "Mildenhall",
+    "Halesworth",
+    "Saxmundham",
+    "Framlingham",
+    "Lavenham",
+    "Hadleigh",
+    "Needham Market",
+    "Walsingham",
+    "North Walsham",
+    "Aylsham",
+    "Fakenham",
+    "Downham Market",
+    "Attleborough",
+    "Watton",
+    "Hemsby",
+    [
+     "Caister-on-Sea",
+     "Caister"
+    ],
+    "Gorleston",
+    "Sandringham",
+    "Royston",
+    "Chatteris",
+    "Ramsey",
+    "Littleport",
+    "Burwell",
+    "Godmanchester"
+   ]
+  },
+  {
+   "id": "xg5-ukie-northern-ireland",
+   "tags": [
+    "capitals",
+    "ukie"
+   ],
+   "text": "Name a town or city in Northern Ireland",
+   "answers": [
+    "Belfast",
+    [
+     "Derry",
+     "Londonderry"
+    ],
+    "Lisburn",
+    "Armagh",
+    "Newry",
+    "Bangor",
+    "Antrim",
+    "Ballymena",
+    "Coleraine",
+    "Omagh",
+    "Enniskillen",
+    "Portrush",
+    "Larne",
+    "Carrickfergus",
+    "Newtownards",
+    "Craigavon",
+    "Lurgan",
+    "Portadown",
+    "Dungannon",
+    "Strabane",
+    "Cookstown",
+    "Magherafelt",
+    "Downpatrick",
+    "Banbridge",
+    "Limavady",
+    "Newcastle",
+    "Holywood",
+    "Ballycastle",
+    "Portstewart",
+    "Ballyclare",
+    "Comber",
+    "Donaghadee",
+    "Warrenpoint",
+    "Kilkeel",
+    "Randalstown",
+    "Crumlin",
+    "Castlederg",
+    "Fivemiletown",
+    "Dromore",
+    "Hillsborough",
+    "Moira",
+    "Ballynahinch",
+    "Saintfield",
+    "Carryduff",
+    "Dundonald",
+    "Castlewellan",
+    "Rathfriland",
+    "Maghera",
+    "Draperstown",
+    "Dungiven",
+    "Ballymoney",
+    "Bushmills",
+    "Cushendall",
+    "Glenarm",
+    "Whitehead",
+    "Islandmagee"
+   ]
+  },
+  {
+   "id": "xg5-ukie-hills",
+   "tags": [
+    "physical",
+    "ukie"
+   ],
+   "text": "Name a well-known mountain or hill in the UK",
+   "answers": [
+    "Ben Nevis",
+    [
+     "Snowdon",
+     "Yr Wyddfa"
+    ],
+    "Scafell Pike",
+    "Helvellyn",
+    "Ben Macdui",
+    "Cairn Gorm",
+    "Skiddaw",
+    "Pen y Fan",
+    [
+     "The Cheviot",
+     "Cheviot"
+    ],
+    "Kinder Scout",
+    "Ingleborough",
+    "Whernside",
+    "Pen-y-ghent",
+    [
+     "Cadair Idris",
+     "Cader Idris"
+    ],
+    "Slieve Donard",
+    "Ben Lomond",
+    "Glyder Fawr",
+    "Tryfan",
+    "Great Gable",
+    "Ben More",
+    "Buachaille Etive Mòr",
+    "Suilven",
+    "Schiehallion",
+    "Cross Fell",
+    "Mam Tor",
+    "High Willhays",
+    "Brown Willy",
+    "Dunkery Beacon",
+    "Leith Hill",
+    "Box Hill",
+    [
+     "Malvern Hills",
+     "Worcestershire Beacon"
+    ],
+    "Arthur's Seat",
+    "Goat Fell",
+    "Lochnagar",
+    "Bidean nam Bian",
+    [
+     "Blencathra",
+     "Saddleback"
+    ],
+    [
+     "Old Man of Coniston",
+     "Coniston Old Man"
+    ],
+    "Roseberry Topping",
+    [
+     "Pendle Hill",
+     "Pendle"
+    ],
+    "Glastonbury Tor",
+    "Cleeve Hill",
+    "Slieve Gullion",
+    "Divis",
+    "Cave Hill",
+    "Bowfell",
+    "Crinkle Crags",
+    "Scafell",
+    "Pillar",
+    "Haystacks",
+    "Catbells",
+    "Ben Hope",
+    "An Teallach",
+    "Liathach",
+    "Sgurr Alasdair",
+    [
+     "The Cobbler",
+     "Ben Arthur"
+    ],
+    "Merrick",
+    "Ben Ledi",
+    "Sugar Loaf",
+    "Skirrid",
+    [
+     "The Wrekin",
+     "Wrekin"
+    ],
+    "Long Mynd",
+    "Mow Cop",
+    "Shining Tor",
+    "Win Hill",
+    "Lose Hill",
+    "Stanage Edge",
+    [
+     "The Roaches",
+     "Roaches"
+    ]
+   ]
+  },
+  {
+   "id": "xg5-ukie-new-cities",
+   "tags": [
+    "capitals",
+    "ukie"
+   ],
+   "text": "Name a place granted city status in the UK between 2000 and 2022 (mainland UK)",
+   "answers": [
+    [
+     "Brighton and Hove",
+     "Brighton"
+    ],
+    "Wolverhampton",
+    "Inverness",
+    "Preston",
+    "Stirling",
+    "Newport",
+    "Lisburn",
+    "Newry",
+    "Chelmsford",
+    "Perth",
+    [
+     "St Asaph",
+     "Saint Asaph"
+    ],
+    "Milton Keynes",
+    "Colchester",
+    "Doncaster",
+    "Dunfermline",
+    "Bangor",
+    "Wrexham",
+    [
+     "Southend-on-Sea",
+     "Southend"
+    ]
+   ]
+  }
+ ]
+}

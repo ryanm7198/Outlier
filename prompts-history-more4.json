@@ -1,0 +1,3043 @@
+{
+ "cat": "history",
+ "prompts": [
+  {
+   "id": "xh4-mesopotamian-rulers",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a ruler of ancient Mesopotamia (Sumer, Akkad, Babylon or Assyria)",
+   "answers": [
+    "Hammurabi",
+    [
+     "Sargon of Akkad",
+     "Sargon the Great",
+     "Sargon"
+    ],
+    [
+     "Nebuchadnezzar II",
+     "Nebuchadnezzar",
+     "Nebuchadrezzar"
+    ],
+    [
+     "Ashurbanipal",
+     "Assurbanipal"
+    ],
+    "Sennacherib",
+    "Gilgamesh",
+    "Nabonidus",
+    "Belshazzar",
+    [
+     "Tiglath-Pileser III",
+     "Tiglath-Pileser"
+    ],
+    [
+     "Shalmaneser III",
+     "Shalmaneser"
+    ],
+    "Esarhaddon",
+    "Ur-Nammu",
+    "Naram-Sin",
+    "Sargon II",
+    [
+     "Ashurnasirpal II",
+     "Ashurnasirpal"
+    ],
+    "Nabopolassar",
+    [
+     "Shamshi-Adad I",
+     "Shamshi-Adad"
+    ],
+    "Lugalzagesi",
+    "Eannatum",
+    "Shulgi",
+    [
+     "Merodach-Baladan",
+     "Marduk-apla-iddina II"
+    ],
+    "Gudea",
+    "Tukulti-Ninurta I",
+    "Ashur-uballit I",
+    "Samsu-iluna",
+    "Zimri-Lim",
+    "Enmerkar",
+    "Etana",
+    "Lugalbanda",
+    "Ur-Zababa",
+    "Sin-shar-ishkun"
+   ]
+  },
+  {
+   "id": "xh4-indian-dynasties",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an Indian empire or dynasty from before 1500",
+   "answers": [
+    [
+     "Maurya",
+     "Mauryan Empire"
+    ],
+    [
+     "Gupta",
+     "Gupta Empire"
+    ],
+    [
+     "Chola",
+     "Cholas"
+    ],
+    [
+     "Kushan",
+     "Kushan Empire"
+    ],
+    "Satavahana",
+    "Pallava",
+    "Chalukya",
+    [
+     "Pala",
+     "Pala Empire"
+    ],
+    "Rashtrakuta",
+    [
+     "Vijayanagara",
+     "Vijayanagar"
+    ],
+    "Nanda",
+    [
+     "Shunga",
+     "Sunga"
+    ],
+    "Kanva",
+    "Vakataka",
+    "Pandya",
+    "Chera",
+    [
+     "Harappan",
+     "Indus Valley Civilisation"
+    ],
+    "Magadha",
+    "Delhi Sultanate",
+    [
+     "Khalji",
+     "Khilji",
+     "Khalji dynasty"
+    ],
+    [
+     "Tughlaq",
+     "Tughluq"
+    ],
+    "Lodi",
+    "Sayyid",
+    [
+     "Mamluk",
+     "Slave dynasty"
+    ],
+    "Ghaznavid",
+    "Ghurid",
+    "Hoysala",
+    "Kakatiya",
+    [
+     "Western Ganga",
+     "Ganga"
+    ],
+    "Kadamba",
+    "Eastern Ganga",
+    [
+     "Gurjara-Pratihara",
+     "Pratihara"
+    ],
+    "Paramara",
+    [
+     "Solanki",
+     "Chaulukya"
+    ],
+    "Sena",
+    [
+     "Pushyabhuti",
+     "Vardhana"
+    ],
+    [
+     "Hephthalite",
+     "White Huns"
+    ],
+    "Indo-Greek",
+    [
+     "Indo-Scythian",
+     "Saka"
+    ],
+    "Yadava"
+   ]
+  },
+  {
+   "id": "xh4-greco-roman-weapons",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a weapon, piece of armour or siege engine used by ancient Greek or Roman armies",
+   "answers": [
+    "Gladius",
+    "Pilum",
+    "Scutum",
+    [
+     "Hoplon",
+     "Aspis"
+    ],
+    "Dory",
+    "Xiphos",
+    "Galea",
+    [
+     "Lorica segmentata",
+     "Lorica"
+    ],
+    "Pugio",
+    "Caligae",
+    "Spatha",
+    "Sarissa",
+    "Ballista",
+    "Onager",
+    [
+     "Scorpion",
+     "Scorpio"
+    ],
+    "Catapult",
+    [
+     "Battering ram",
+     "Ram"
+    ],
+    [
+     "Greaves",
+     "Knemides"
+    ],
+    [
+     "Cuirass",
+     "Breastplate"
+    ],
+    [
+     "Sling",
+     "Funda"
+    ],
+    "Javelin",
+    [
+     "Lorica hamata",
+     "Chainmail"
+    ],
+    "Cassis",
+    "Parma",
+    "Kopis",
+    "Xyston",
+    [
+     "Siege tower",
+     "Helepolis"
+    ],
+    "Gastraphetes",
+    "Bow",
+    "Arrow",
+    "Spear",
+    "Shield",
+    "Helmet",
+    "Dagger",
+    "Sword",
+    "Plumbata",
+    "Corinthian helmet",
+    "Linothorax",
+    "Tribulus",
+    "Lancea",
+    "Hasta",
+    "Pelta",
+    "Corvus"
+   ]
+  },
+  {
+   "id": "xh4-greco-roman-architecture",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an architectural feature or building type from ancient Greece or Rome",
+   "answers": [
+    "Doric",
+    "Ionic",
+    "Corinthian",
+    "Tuscan",
+    "Composite",
+    "Column",
+    "Capital",
+    "Frieze",
+    "Architrave",
+    "Pediment",
+    "Entablature",
+    "Cornice",
+    "Portico",
+    "Colonnade",
+    "Stylobate",
+    "Metope",
+    "Triglyph",
+    "Caryatid",
+    "Acanthus",
+    "Volute",
+    "Plinth",
+    "Pilaster",
+    "Atrium",
+    "Peristyle",
+    [
+     "Amphitheatre",
+     "Amphitheater"
+    ],
+    "Forum",
+    "Basilica",
+    "Aqueduct",
+    [
+     "Thermae",
+     "Baths",
+     "Roman baths"
+    ],
+    [
+     "Hippodrome",
+     "Circus"
+    ],
+    "Odeon",
+    "Stoa",
+    "Agora",
+    "Acropolis",
+    [
+     "Propylaea",
+     "Propylaeum"
+    ],
+    [
+     "Cella",
+     "Naos"
+    ],
+    "Tholos",
+    [
+     "Triumphal arch",
+     "Arch"
+    ],
+    [
+     "Theatre",
+     "Theater"
+    ],
+    "Temple",
+    "Villa",
+    "Insula",
+    "Domus",
+    "Mausoleum",
+    "Nymphaeum",
+    "Hypocaust",
+    "Stadium",
+    "Gymnasium",
+    "Palaestra",
+    "Arena",
+    "Cavea",
+    "Dome",
+    "Vault",
+    "Apse",
+    "Pantheon"
+   ]
+  },
+  {
+   "id": "xh4-greco-roman-festivals",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient Greek or Roman festival or athletic games",
+   "answers": [
+    [
+     "Olympic Games",
+     "Olympics"
+    ],
+    [
+     "Pythian Games",
+     "Pythia"
+    ],
+    "Isthmian Games",
+    "Nemean Games",
+    [
+     "Panathenaea",
+     "Panathenaia",
+     "Panathenaic Games"
+    ],
+    "Saturnalia",
+    "Lupercalia",
+    "Floralia",
+    "Bacchanalia",
+    "Vestalia",
+    "Parilia",
+    "Compitalia",
+    "Consualia",
+    [
+     "Eleusinian Mysteries",
+     "Eleusinia"
+    ],
+    [
+     "Dionysia",
+     "Great Dionysia",
+     "City Dionysia"
+    ],
+    "Thesmophoria",
+    "Anthesteria",
+    [
+     "Ludi Romani",
+     "Roman Games"
+    ],
+    "Lemuria",
+    "Matronalia",
+    "Quirinalia",
+    "Liberalia",
+    "Cerealia",
+    "Megalesia",
+    "Ludi Apollinares",
+    "Ludi Plebeii",
+    "Fornacalia",
+    "Terminalia",
+    "Feralia",
+    "Robigalia",
+    "Hilaria",
+    "Opalia",
+    "Brumalia",
+    "Carneia",
+    "Hyacinthia",
+    "Thargelia",
+    "Adonia",
+    "Gymnopaedia",
+    "Heraia",
+    "Daedala",
+    [
+     "Ludi Saeculares",
+     "Secular Games"
+    ],
+    "Lenaia",
+    "Rural Dionysia",
+    "Brauronia",
+    "Haloa",
+    "Skira",
+    "Panionia",
+    "Actian Games",
+    "Capitoline Games",
+    "Neptunalia",
+    "Vulcanalia",
+    "Fordicidia",
+    "Meditrinalia",
+    "Ambarvalia",
+    "Veneralia"
+   ]
+  },
+  {
+   "id": "xh4-ancient-chinese-thinkers",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient Chinese philosopher or strategist (before AD 200)",
+   "answers": [
+    [
+     "Confucius",
+     "Kongzi",
+     "Kong Fuzi"
+    ],
+    [
+     "Laozi",
+     "Lao Tzu"
+    ],
+    [
+     "Sun Tzu",
+     "Sunzi"
+    ],
+    [
+     "Mencius",
+     "Mengzi"
+    ],
+    [
+     "Zhuangzi",
+     "Chuang Tzu"
+    ],
+    [
+     "Mozi",
+     "Mo Tzu"
+    ],
+    [
+     "Han Feizi",
+     "Han Fei"
+    ],
+    "Xunzi",
+    "Shang Yang",
+    "Dong Zhongshu",
+    "Wang Chong",
+    "Liezi",
+    "Guan Zhong",
+    "Zisi",
+    "Sun Bin",
+    "Wu Qi",
+    "Zou Yan",
+    "Gongsun Long",
+    "Hui Shi",
+    "Yang Zhu",
+    "Zhang Liang",
+    "Han Xin",
+    "Li Si",
+    "Lu Buwei",
+    "Shen Buhai",
+    "Shen Dao",
+    [
+     "Zengzi",
+     "Zeng Shen"
+    ],
+    "Yan Hui"
+   ]
+  },
+  {
+   "id": "xh4-americas-ancient-sites",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient city or archaeological site of Mesoamerica, North America or the Andes",
+   "answers": [
+    "Tikal",
+    "Chichen Itza",
+    "Teotihuacan",
+    "Machu Picchu",
+    "Palenque",
+    "Copán",
+    "Uxmal",
+    "Tulum",
+    "Tenochtitlan",
+    "Monte Albán",
+    [
+     "Cusco",
+     "Cuzco"
+    ],
+    "Chan Chan",
+    [
+     "Nazca",
+     "Nasca"
+    ],
+    [
+     "Tiwanaku",
+     "Tiahuanaco"
+    ],
+    "Caral",
+    "Cahokia",
+    "Mesa Verde",
+    "Sacsayhuamán",
+    "Ollantaytambo",
+    "Calakmul",
+    "Tula",
+    "El Mirador",
+    "Pachacamac",
+    "Kuelap",
+    "Mitla",
+    "Cholula",
+    "Cobá",
+    "Bonampak",
+    "Ek Balam",
+    "Xochicalco",
+    "Cuicuilco",
+    "Pisac",
+    [
+     "Chavín de Huántar",
+     "Chavin"
+    ],
+    "Sipán",
+    "Paracas",
+    [
+     "Pueblo Bonito",
+     "Chaco Canyon"
+    ],
+    "La Venta",
+    "San Lorenzo",
+    "Altun Ha",
+    "Caracol",
+    "Quiriguá",
+    "Dzibilchaltún",
+    "Serpent Mound",
+    "Moundville",
+    "Poverty Point",
+    "Casas Grandes",
+    "Hovenweep",
+    "Taos Pueblo",
+    "Choquequirao",
+    "Vilcabamba",
+    "Huánuco Pampa"
+   ]
+  },
+  {
+   "id": "xh4-ancient-languages",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name an ancient language or writing system (before about AD 600)",
+   "answers": [
+    "Latin",
+    [
+     "Ancient Greek",
+     "Greek"
+    ],
+    "Sanskrit",
+    [
+     "Biblical Hebrew",
+     "Hebrew"
+    ],
+    "Aramaic",
+    "Akkadian",
+    "Sumerian",
+    [
+     "Ancient Egyptian",
+     "Egyptian"
+    ],
+    [
+     "Hieroglyphs",
+     "Hieroglyphics"
+    ],
+    "Linear A",
+    "Linear B",
+    "Cuneiform",
+    "Phoenician",
+    "Etruscan",
+    "Coptic",
+    "Hittite",
+    "Old Persian",
+    "Avestan",
+    "Pali",
+    "Gothic",
+    "Demotic",
+    "Hieratic",
+    "Ugaritic",
+    "Syriac",
+    [
+     "Old Chinese",
+     "Classical Chinese"
+    ],
+    "Oracle bone script",
+    [
+     "Maya script",
+     "Mayan glyphs"
+    ],
+    "Oscan",
+    "Umbrian",
+    "Elamite",
+    "Hurrian",
+    "Tocharian",
+    "Ge'ez",
+    "Meroitic",
+    "Proto-Indo-European",
+    "Brahmi",
+    "Kharosthi",
+    "Ogham",
+    [
+     "Runes",
+     "Runic"
+    ],
+    "Sabaean",
+    "Lydian",
+    "Phrygian",
+    "Luwian",
+    "Punic",
+    "Gaulish",
+    "Celtiberian",
+    "Messapic",
+    "Faliscan",
+    "Thracian",
+    "Old Church Slavonic",
+    "Parthian",
+    "Middle Persian",
+    "Pahlavi"
+   ]
+  },
+  {
+   "id": "xh4-greco-roman-sculptures",
+   "tags": [
+    "ancient"
+   ],
+   "text": "Name a famous sculpture, statue or artefact from ancient Greece or Rome",
+   "answers": [
+    [
+     "Venus de Milo",
+     "Aphrodite of Milos"
+    ],
+    [
+     "Discobolus",
+     "Discus Thrower"
+    ],
+    [
+     "Laocoön",
+     "Laocoon and His Sons"
+    ],
+    [
+     "Winged Victory of Samothrace",
+     "Nike of Samothrace"
+    ],
+    "Apollo Belvedere",
+    "Augustus of Prima Porta",
+    [
+     "Capitoline Wolf",
+     "She-Wolf"
+    ],
+    "Colossus of Rhodes",
+    [
+     "Statue of Zeus at Olympia",
+     "Zeus at Olympia"
+    ],
+    "Athena Parthenos",
+    [
+     "Riace Bronzes",
+     "Riace Warriors"
+    ],
+    "Farnese Hercules",
+    [
+     "Dying Gaul",
+     "Capitoline Gaul"
+    ],
+    "Barberini Faun",
+    [
+     "Venus de' Medici",
+     "Medici Venus"
+    ],
+    [
+     "Parthenon Marbles",
+     "Elgin Marbles"
+    ],
+    [
+     "Doryphoros",
+     "Spear Bearer"
+    ],
+    [
+     "Aphrodite of Knidos",
+     "Cnidian Aphrodite"
+    ],
+    "Pergamon Altar",
+    "Portland Vase",
+    "Antikythera Mechanism",
+    "Charioteer of Delphi",
+    "Belvedere Torso",
+    "Capitoline Venus",
+    "Trajan's Column",
+    "Ara Pacis",
+    "Farnese Bull",
+    "Hermes of Praxiteles",
+    "Artemision Bronze",
+    "Kritios Boy",
+    "Peplos Kore",
+    "Lion of Amphipolis",
+    "Marcus Aurelius equestrian statue",
+    [
+     "Boy with Thorn",
+     "Spinario"
+    ],
+    "Warren Cup",
+    "Lycurgus Cup"
+   ]
+  },
+  {
+   "id": "xh4-wwii-aircraft",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a Second World War military aircraft (any country)",
+   "answers": [
+    [
+     "Spitfire",
+     "Supermarine Spitfire"
+    ],
+    [
+     "Hurricane",
+     "Hawker Hurricane"
+    ],
+    [
+     "Lancaster",
+     "Avro Lancaster"
+    ],
+    [
+     "Mosquito",
+     "de Havilland Mosquito"
+    ],
+    [
+     "Wellington",
+     "Vickers Wellington"
+    ],
+    [
+     "Halifax",
+     "Handley Page Halifax"
+    ],
+    [
+     "Stirling",
+     "Short Stirling"
+    ],
+    [
+     "Typhoon",
+     "Hawker Typhoon"
+    ],
+    [
+     "Tempest",
+     "Hawker Tempest"
+    ],
+    [
+     "Gladiator",
+     "Gloster Gladiator"
+    ],
+    [
+     "Defiant",
+     "Boulton Paul Defiant"
+    ],
+    [
+     "Blenheim",
+     "Bristol Blenheim"
+    ],
+    [
+     "Beaufighter",
+     "Bristol Beaufighter"
+    ],
+    [
+     "Swordfish",
+     "Fairey Swordfish"
+    ],
+    [
+     "Meteor",
+     "Gloster Meteor"
+    ],
+    [
+     "Messerschmitt Bf 109",
+     "Bf 109",
+     "Me 109",
+     "Messerschmitt 109"
+    ],
+    [
+     "Messerschmitt Bf 110",
+     "Bf 110",
+     "Me 110"
+    ],
+    [
+     "Messerschmitt Me 262",
+     "Me 262"
+    ],
+    [
+     "Stuka",
+     "Junkers Ju 87",
+     "Ju 87"
+    ],
+    [
+     "Heinkel He 111",
+     "He 111",
+     "Heinkel"
+    ],
+    [
+     "Dornier Do 17",
+     "Do 17",
+     "Flying Pencil"
+    ],
+    [
+     "Focke-Wulf Fw 190",
+     "Fw 190",
+     "Focke-Wulf 190"
+    ],
+    [
+     "Junkers Ju 88",
+     "Ju 88"
+    ],
+    [
+     "B-17 Flying Fortress",
+     "B-17",
+     "Flying Fortress"
+    ],
+    [
+     "B-24 Liberator",
+     "B-24",
+     "Liberator"
+    ],
+    [
+     "B-29 Superfortress",
+     "B-29",
+     "Superfortress"
+    ],
+    [
+     "P-51 Mustang",
+     "P-51",
+     "Mustang"
+    ],
+    [
+     "P-47 Thunderbolt",
+     "P-47",
+     "Thunderbolt"
+    ],
+    [
+     "P-38 Lightning",
+     "P-38",
+     "Lightning"
+    ],
+    [
+     "F4U Corsair",
+     "Corsair"
+    ],
+    [
+     "F6F Hellcat",
+     "Hellcat"
+    ],
+    [
+     "F4F Wildcat",
+     "Wildcat"
+    ],
+    [
+     "Catalina",
+     "PBY Catalina"
+    ],
+    [
+     "C-47 Dakota",
+     "Dakota",
+     "C-47"
+    ],
+    [
+     "Mitsubishi A6M Zero",
+     "Zero",
+     "A6M",
+     "Zeke"
+    ],
+    [
+     "Yakovlev Yak-3",
+     "Yak-3",
+     "Yak"
+    ],
+    [
+     "Ilyushin Il-2 Sturmovik",
+     "Il-2",
+     "Sturmovik"
+    ],
+    [
+     "Westland Lysander",
+     "Lysander"
+    ],
+    [
+     "Short Sunderland",
+     "Sunderland"
+    ],
+    [
+     "Bristol Beaufort",
+     "Beaufort"
+    ],
+    "Fairey Battle",
+    [
+     "Armstrong Whitworth Whitley",
+     "Whitley"
+    ],
+    [
+     "Handley Page Hampden",
+     "Hampden"
+    ],
+    "Avro Manchester",
+    [
+     "Douglas Boston",
+     "Boston"
+    ],
+    [
+     "Fairey Fulmar",
+     "Fulmar"
+    ],
+    [
+     "Fairey Firefly",
+     "Firefly"
+    ],
+    [
+     "Supermarine Seafire",
+     "Seafire"
+    ],
+    [
+     "Lockheed Hudson",
+     "Hudson"
+    ],
+    [
+     "Curtiss P-40 Warhawk",
+     "P-40",
+     "Kittyhawk",
+     "Tomahawk"
+    ],
+    [
+     "Bell P-39 Airacobra",
+     "P-39",
+     "Airacobra"
+    ],
+    [
+     "B-25 Mitchell",
+     "B-25"
+    ],
+    [
+     "B-26 Marauder",
+     "B-26"
+    ],
+    [
+     "Grumman Avenger",
+     "TBF Avenger",
+     "Avenger"
+    ],
+    [
+     "Douglas Dauntless",
+     "SBD Dauntless",
+     "Dauntless"
+    ],
+    [
+     "Focke-Wulf Fw 200 Condor",
+     "Fw 200",
+     "Condor"
+    ],
+    [
+     "Nakajima Ki-43 Hayabusa",
+     "Ki-43",
+     "Oscar"
+    ],
+    [
+     "Macchi C.202 Folgore",
+     "Folgore"
+    ],
+    [
+     "Savoia-Marchetti SM.79 Sparviero",
+     "SM.79",
+     "Sparviero"
+    ],
+    [
+     "Messerschmitt Me 163 Komet",
+     "Me 163",
+     "Komet"
+    ],
+    [
+     "Arado Ar 234",
+     "Ar 234"
+    ],
+    [
+     "Heinkel He 177",
+     "He 177"
+    ],
+    [
+     "Henschel Hs 129",
+     "Hs 129"
+    ],
+    [
+     "Petlyakov Pe-2",
+     "Pe-2"
+    ],
+    [
+     "Lavochkin La-5",
+     "La-5"
+    ],
+    [
+     "Polikarpov I-16",
+     "I-16"
+    ],
+    [
+     "Mikoyan-Gurevich MiG-3",
+     "MiG-3"
+    ],
+    [
+     "Kawasaki Ki-61 Hien",
+     "Ki-61",
+     "Tony"
+    ],
+    [
+     "Nakajima B5N Kate",
+     "B5N",
+     "Kate"
+    ],
+    [
+     "Aichi D3A Val",
+     "D3A",
+     "Val"
+    ],
+    [
+     "Mitsubishi G4M Betty",
+     "G4M",
+     "Betty"
+    ]
+   ]
+  },
+  {
+   "id": "xh4-wwii-tanks",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a Second World War tank or armoured vehicle (any country)",
+   "answers": [
+    [
+     "Tiger",
+     "Tiger I",
+     "Tiger 1"
+    ],
+    [
+     "King Tiger",
+     "Tiger II",
+     "Royal Tiger",
+     "Königstiger"
+    ],
+    [
+     "Panther",
+     "Panzer V",
+     "Panzer 5"
+    ],
+    [
+     "Panzer IV",
+     "Panzer 4"
+    ],
+    [
+     "Panzer III",
+     "Panzer 3"
+    ],
+    [
+     "Panzer II",
+     "Panzer 2"
+    ],
+    [
+     "Panzer I",
+     "Panzer 1"
+    ],
+    [
+     "Sherman",
+     "M4 Sherman"
+    ],
+    "Churchill",
+    "Cromwell",
+    "Comet",
+    "Challenger",
+    "Crusader",
+    "Matilda",
+    "Valentine",
+    "Covenanter",
+    "Centaur",
+    "Tetrarch",
+    [
+     "Stuart",
+     "M3 Stuart",
+     "Honey"
+    ],
+    [
+     "Lee",
+     "Grant",
+     "M3 Lee",
+     "M3 Grant"
+    ],
+    [
+     "Chaffee",
+     "M24 Chaffee"
+    ],
+    [
+     "Pershing",
+     "M26 Pershing"
+    ],
+    [
+     "Hellcat",
+     "M18 Hellcat"
+    ],
+    [
+     "Wolverine",
+     "M10"
+    ],
+    "T-34",
+    [
+     "KV-1",
+     "Kliment Voroshilov"
+    ],
+    [
+     "IS-2",
+     "Joseph Stalin"
+    ],
+    "T-26",
+    "BT-7",
+    "Jagdpanther",
+    "Jagdpanzer",
+    [
+     "Elefant",
+     "Ferdinand"
+    ],
+    "Maus",
+    "Hetzer",
+    [
+     "StuG III",
+     "StuG",
+     "Sturmgeschütz"
+    ],
+    "Marder",
+    "Nashorn",
+    "Hummel",
+    "Wespe",
+    "Sturmtiger",
+    [
+     "Bren Carrier",
+     "Universal Carrier"
+    ],
+    [
+     "Jeep",
+     "Willys Jeep"
+    ],
+    "Kübelwagen",
+    [
+     "Half-track",
+     "Sd.Kfz. 251",
+     "M3 Half-track"
+    ],
+    "Humber armoured car",
+    [
+     "Daimler Dingo",
+     "Dingo"
+    ],
+    "Staghound",
+    "Sexton",
+    "Bishop",
+    [
+     "Sherman Firefly",
+     "Firefly"
+    ],
+    [
+     "Churchill Crocodile",
+     "Crocodile"
+    ],
+    [
+     "Type 97 Chi-Ha",
+     "Chi-Ha"
+    ],
+    [
+     "Type 95 Ha-Go",
+     "Ha-Go"
+    ],
+    "Panzer 38(t)",
+    "Char B1",
+    [
+     "Somua S35",
+     "Somua"
+    ],
+    "Semovente",
+    [
+     "Carro Armato M13/40",
+     "M13/40"
+    ],
+    [
+     "Sherman Crab",
+     "Crab"
+    ],
+    [
+     "Valentine Archer",
+     "Archer"
+    ],
+    "Achilles",
+    "Black Prince",
+    "Tortoise",
+    "Lorraine 37L",
+    "Hotchkiss H35",
+    "SU-76",
+    "SU-85",
+    "SU-100",
+    "ISU-152",
+    "Su-152",
+    "T-70",
+    "T-60",
+    "M5 Stuart",
+    [
+     "M8 Greyhound",
+     "Greyhound"
+    ],
+    "Marmon-Herrington"
+   ]
+  },
+  {
+   "id": "xh4-revolutions",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a famous revolution, rebellion or uprising",
+   "answers": [
+    [
+     "French Revolution",
+     "French"
+    ],
+    [
+     "Russian Revolution",
+     "Russian",
+     "Bolshevik Revolution",
+     "October Revolution"
+    ],
+    [
+     "American Revolution",
+     "American War of Independence"
+    ],
+    "Industrial Revolution",
+    "Glorious Revolution",
+    "Cuban Revolution",
+    [
+     "Iranian Revolution",
+     "Islamic Revolution"
+    ],
+    "Haitian Revolution",
+    "Velvet Revolution",
+    "Orange Revolution",
+    "Rose Revolution",
+    "Carnation Revolution",
+    "Arab Spring",
+    [
+     "Hungarian Uprising",
+     "Hungarian Revolution"
+    ],
+    [
+     "Easter Rising",
+     "Easter Rebellion"
+    ],
+    [
+     "Peasants' Revolt",
+     "Wat Tyler's Rebellion"
+    ],
+    "Boxer Rebellion",
+    [
+     "Indian Rebellion of 1857",
+     "Indian Mutiny",
+     "Sepoy Mutiny"
+    ],
+    [
+     "Spartacus revolt",
+     "Third Servile War",
+     "Spartacus Uprising"
+    ],
+    "Mexican Revolution",
+    [
+     "Xinhai Revolution",
+     "Chinese Revolution"
+    ],
+    "Cultural Revolution",
+    "Singing Revolution",
+    "February Revolution",
+    "Taiping Rebellion",
+    "Monmouth Rebellion",
+    [
+     "Jacobite Rising",
+     "Jacobite Rebellion"
+    ],
+    [
+     "Irish Rebellion of 1798",
+     "1798 Rebellion"
+    ],
+    "Pilgrimage of Grace",
+    "Prague Spring",
+    "Warsaw Uprising",
+    "Paris Commune",
+    "July Revolution",
+    [
+     "Revolutions of 1848",
+     "1848 Revolutions"
+    ],
+    "German Revolution",
+    "Irish War of Independence",
+    "Bar Kokhba revolt",
+    [
+     "Jack Cade's Rebellion",
+     "Cade's Rebellion"
+    ],
+    "Kett's Rebellion",
+    [
+     "Glyndŵr Rising",
+     "Welsh Revolt"
+    ],
+    "Gordon Riots",
+    "Rebecca Riots",
+    [
+     "Eureka Rebellion",
+     "Eureka Stockade"
+    ],
+    "Sandinista Revolution",
+    "Egyptian Revolution",
+    [
+     "Tunisian Revolution",
+     "Jasmine Revolution"
+    ],
+    "Saffron Revolution",
+    "Tulip Revolution",
+    [
+     "Euromaidan",
+     "Maidan Revolution",
+     "Revolution of Dignity"
+    ],
+    [
+     "Great Mutiny at the Nore",
+     "Nore Mutiny"
+    ],
+    "Kronstadt Rebellion",
+    "Spartacist Uprising",
+    "Boer Rebellion",
+    "Rising of the North",
+    "Wars of Religion"
+   ]
+  },
+  {
+   "id": "xh4-cold-war-events",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a Cold War event, crisis or conflict",
+   "answers": [
+    "Cuban Missile Crisis",
+    "Berlin Wall",
+    [
+     "Berlin Blockade",
+     "Berlin Airlift"
+    ],
+    "Korean War",
+    "Vietnam War",
+    "Bay of Pigs",
+    "Suez Crisis",
+    "Prague Spring",
+    [
+     "Hungarian Uprising",
+     "Hungarian Revolution"
+    ],
+    "Space Race",
+    "Sputnik",
+    "Marshall Plan",
+    "Truman Doctrine",
+    "Iron Curtain",
+    [
+     "Soviet-Afghan War",
+     "Soviet invasion of Afghanistan"
+    ],
+    [
+     "Able Archer 83",
+     "Able Archer"
+    ],
+    [
+     "U-2 incident",
+     "U-2 crisis"
+    ],
+    "Glasnost",
+    "Perestroika",
+    "Reykjavik Summit",
+    "Solidarity",
+    "Fall of the Berlin Wall",
+    [
+     "Dissolution of the Soviet Union",
+     "Collapse of the USSR"
+    ],
+    "Checkpoint Charlie",
+    "Warsaw Pact",
+    "NATO",
+    "Détente",
+    [
+     "SALT",
+     "Strategic Arms Limitation Talks"
+    ],
+    [
+     "Strategic Defense Initiative",
+     "SDI",
+     "Star Wars"
+    ],
+    "Apollo-Soyuz",
+    "Angolan Civil War",
+    "Chinese Civil War",
+    "Greek Civil War",
+    [
+     "McCarthyism",
+     "Red Scare"
+    ],
+    "Domino theory",
+    "Iran-Contra",
+    "Kitchen Debate",
+    [
+     "Gulf of Tonkin incident",
+     "Gulf of Tonkin"
+    ],
+    "Tet Offensive",
+    "Sino-Soviet split",
+    "Velvet Revolution",
+    [
+     "Yalta Conference",
+     "Yalta"
+    ],
+    [
+     "Potsdam Conference",
+     "Potsdam"
+    ],
+    "Cominform",
+    "Brezhnev Doctrine",
+    [
+     "Fulton Speech",
+     "Iron Curtain speech"
+    ],
+    "Cuban Revolution",
+    "Hotline"
+   ]
+  },
+  {
+   "id": "xh4-nazi-occupied",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a country or territory occupied by Nazi Germany during the Second World War",
+   "answers": [
+    "Poland",
+    [
+     "Czechoslovakia",
+     "Czech Republic",
+     "Czechia",
+     "Bohemia and Moravia"
+    ],
+    "Denmark",
+    "Norway",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "Belgium",
+    "Luxembourg",
+    "France",
+    [
+     "Yugoslavia",
+     "Serbia"
+    ],
+    "Slovenia",
+    "Greece",
+    "Albania",
+    "Hungary",
+    "Italy",
+    "Lithuania",
+    "Latvia",
+    "Estonia",
+    "Ukraine",
+    [
+     "Belarus",
+     "Byelorussia"
+    ],
+    [
+     "Russia",
+     "Soviet Union",
+     "USSR"
+    ],
+    [
+     "Channel Islands",
+     "Jersey",
+     "Guernsey"
+    ],
+    "Monaco"
+   ]
+  },
+  {
+   "id": "xh4-acw-generals",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a general of the American Civil War (Union or Confederate)",
+   "answers": [
+    [
+     "Ulysses S. Grant",
+     "Grant",
+     "US Grant"
+    ],
+    [
+     "Robert E. Lee",
+     "Lee"
+    ],
+    [
+     "William Tecumseh Sherman",
+     "Sherman"
+    ],
+    [
+     "Stonewall Jackson",
+     "Thomas Jackson",
+     "Jackson"
+    ],
+    [
+     "Philip Sheridan",
+     "Sheridan"
+    ],
+    [
+     "George McClellan",
+     "McClellan"
+    ],
+    [
+     "George Meade",
+     "Meade"
+    ],
+    [
+     "Ambrose Burnside",
+     "Burnside"
+    ],
+    [
+     "Joseph Hooker",
+     "Hooker"
+    ],
+    [
+     "James Longstreet",
+     "Longstreet"
+    ],
+    [
+     "J.E.B. Stuart",
+     "Stuart"
+    ],
+    [
+     "George Armstrong Custer",
+     "Custer"
+    ],
+    [
+     "Nathan Bedford Forrest",
+     "Forrest"
+    ],
+    [
+     "George Pickett",
+     "Pickett"
+    ],
+    [
+     "P.G.T. Beauregard",
+     "Beauregard"
+    ],
+    [
+     "Braxton Bragg",
+     "Bragg"
+    ],
+    [
+     "John Bell Hood",
+     "Hood"
+    ],
+    [
+     "Joseph E. Johnston",
+     "Joe Johnston",
+     "Johnston"
+    ],
+    [
+     "Albert Sidney Johnston",
+     "Sidney Johnston"
+    ],
+    [
+     "Jubal Early",
+     "Early"
+    ],
+    [
+     "Winfield Scott Hancock",
+     "Hancock"
+    ],
+    [
+     "George Thomas",
+     "Thomas",
+     "Rock of Chickamauga"
+    ],
+    [
+     "Don Carlos Buell",
+     "Buell"
+    ],
+    [
+     "Henry Halleck",
+     "Halleck"
+    ],
+    [
+     "William Rosecrans",
+     "Rosecrans"
+    ],
+    [
+     "John Pope",
+     "Pope"
+    ],
+    [
+     "Richard Ewell",
+     "Ewell"
+    ],
+    [
+     "A.P. Hill",
+     "Ambrose Powell Hill"
+    ],
+    [
+     "Daniel Sickles",
+     "Sickles"
+    ],
+    [
+     "Nathaniel Banks",
+     "Banks"
+    ],
+    [
+     "Benjamin Butler",
+     "Butler"
+    ],
+    [
+     "Irvin McDowell",
+     "McDowell"
+    ],
+    [
+     "John Sedgwick",
+     "Sedgwick"
+    ],
+    [
+     "Joshua Chamberlain",
+     "Chamberlain"
+    ],
+    "Lew Wallace",
+    "Oliver O. Howard",
+    "Gouverneur Warren",
+    "Fitz John Porter",
+    [
+     "Earl Van Dorn",
+     "Van Dorn"
+    ],
+    [
+     "Leonidas Polk",
+     "Polk"
+    ],
+    [
+     "Wade Hampton",
+     "Hampton"
+    ],
+    "John Hunt Morgan",
+    [
+     "Edmund Kirby Smith",
+     "Kirby Smith"
+    ],
+    [
+     "William Hardee",
+     "Hardee"
+    ],
+    [
+     "Patrick Cleburne",
+     "Cleburne"
+    ],
+    [
+     "John C. Frémont",
+     "John Fremont",
+     "Frémont"
+    ],
+    [
+     "Franz Sigel",
+     "Sigel"
+    ],
+    [
+     "Henry Heth",
+     "Heth"
+    ],
+    "Stephen Hurlbut",
+    [
+     "John Reynolds",
+     "Reynolds"
+    ],
+    "Israel Richardson"
+   ]
+  },
+  {
+   "id": "xh4-suffrage-campaigners",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a suffragette, suffragist or women's rights campaigner of Britain or the United States (19th and 20th centuries)",
+   "answers": [
+    [
+     "Emmeline Pankhurst",
+     "Pankhurst"
+    ],
+    "Christabel Pankhurst",
+    "Sylvia Pankhurst",
+    [
+     "Emily Wilding Davison",
+     "Emily Davison",
+     "Davison"
+    ],
+    [
+     "Millicent Fawcett",
+     "Fawcett"
+    ],
+    [
+     "Emmeline Pethick-Lawrence",
+     "Pethick-Lawrence"
+    ],
+    "Annie Kenney",
+    "Flora Drummond",
+    "Constance Lytton",
+    "Elizabeth Garrett Anderson",
+    "Mary Wollstonecraft",
+    [
+     "Susan B. Anthony",
+     "Susan Anthony",
+     "Anthony"
+    ],
+    [
+     "Elizabeth Cady Stanton",
+     "Stanton"
+    ],
+    "Sojourner Truth",
+    "Lucretia Mott",
+    "Dora Montefiore",
+    "Hannah Mitchell",
+    "Charlotte Despard",
+    "Teresa Billington-Greig",
+    "Sophia Duleep Singh",
+    "Edith Garrud",
+    "Kitty Marion",
+    "Lilian Lenton",
+    "Ethel Smyth",
+    "Marion Wallace Dunlop",
+    "Eleanor Rathbone",
+    "Lydia Becker",
+    "Alice Paul",
+    "Lucy Burns",
+    "Carrie Chapman Catt",
+    "Lucy Stone",
+    [
+     "Ida B. Wells",
+     "Ida Wells"
+    ],
+    "Mary Church Terrell",
+    "Constance Markievicz",
+    [
+     "Margaret Haig Thomas",
+     "Lady Rhondda"
+    ],
+    "Evelina Haverfield",
+    "Mary Richardson",
+    "Mary Leigh",
+    "Mary Gawthorpe",
+    "Rosa May Billinghurst",
+    "Helen Crawfurd",
+    "Edith New",
+    "Jessie Kenney",
+    "Frances Willard",
+    "Matilda Joslyn Gage",
+    "Harriot Stanton Blatch",
+    "Inez Milholland",
+    "Emma Goldman",
+    "Margaret Sanger",
+    "Jane Addams",
+    "Josephine Butler",
+    "Barbara Bodichon",
+    "Emily Davies"
+   ]
+  },
+  {
+   "id": "xh4-industrial-revolution-people",
+   "tags": [
+    "events"
+   ],
+   "text": "Name an engineer, inventor or industrialist of the British Industrial Revolution (about 1700 to 1850)",
+   "answers": [
+    [
+     "James Watt",
+     "Watt"
+    ],
+    [
+     "Richard Arkwright",
+     "Arkwright"
+    ],
+    [
+     "George Stephenson",
+     "Stephenson"
+    ],
+    "Robert Stephenson",
+    [
+     "Isambard Kingdom Brunel",
+     "Brunel",
+     "IK Brunel"
+    ],
+    "Marc Brunel",
+    [
+     "Thomas Telford",
+     "Telford"
+    ],
+    [
+     "James Hargreaves",
+     "Hargreaves"
+    ],
+    [
+     "Samuel Crompton",
+     "Crompton"
+    ],
+    [
+     "Thomas Newcomen",
+     "Newcomen"
+    ],
+    [
+     "Richard Trevithick",
+     "Trevithick"
+    ],
+    [
+     "Matthew Boulton",
+     "Boulton"
+    ],
+    [
+     "Josiah Wedgwood",
+     "Wedgwood"
+    ],
+    [
+     "Abraham Darby",
+     "Darby"
+    ],
+    [
+     "Edmund Cartwright",
+     "Cartwright"
+    ],
+    [
+     "John Kay",
+     "Kay"
+    ],
+    [
+     "Joseph Whitworth",
+     "Whitworth"
+    ],
+    [
+     "Henry Bessemer",
+     "Bessemer"
+    ],
+    [
+     "Henry Maudslay",
+     "Maudslay"
+    ],
+    [
+     "James Nasmyth",
+     "Nasmyth"
+    ],
+    [
+     "James Brindley",
+     "Brindley"
+    ],
+    [
+     "Humphry Davy",
+     "Davy"
+    ],
+    [
+     "William Murdoch",
+     "Murdoch"
+    ],
+    [
+     "Joseph Bramah",
+     "Bramah"
+    ],
+    [
+     "Henry Cort",
+     "Cort"
+    ],
+    [
+     "John Wilkinson",
+     "Wilkinson"
+    ],
+    [
+     "John Smeaton",
+     "Smeaton"
+    ],
+    [
+     "John Rennie",
+     "Rennie"
+    ],
+    [
+     "Joseph Paxton",
+     "Paxton"
+    ],
+    [
+     "Robert Owen",
+     "Owen"
+    ],
+    [
+     "Titus Salt",
+     "Salt"
+    ],
+    [
+     "Thomas Savery",
+     "Savery"
+    ],
+    [
+     "Jethro Tull",
+     "Tull"
+    ],
+    [
+     "John Loudon McAdam",
+     "McAdam"
+    ],
+    [
+     "William Hedley",
+     "Hedley"
+    ],
+    [
+     "Timothy Hackworth",
+     "Hackworth"
+    ],
+    [
+     "Michael Faraday",
+     "Faraday"
+    ],
+    [
+     "Charles Babbage",
+     "Babbage"
+    ],
+    [
+     "Jedediah Strutt",
+     "Strutt"
+    ],
+    "Samuel Greg",
+    "Peter Ewart",
+    "Lewis Paul",
+    "John Roebuck",
+    "Benjamin Huntsman",
+    "Samuel Slater",
+    "William Fairbairn",
+    [
+     "Daniel Gooch",
+     "Gooch"
+    ],
+    "Joseph Locke",
+    "John Fowler"
+   ]
+  },
+  {
+   "id": "xh4-protestant-reformers",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a Protestant Reformer or forerunner of the Reformation (about 1380 to 1600)",
+   "answers": [
+    [
+     "Martin Luther",
+     "Luther"
+    ],
+    [
+     "John Calvin",
+     "Calvin"
+    ],
+    [
+     "Huldrych Zwingli",
+     "Ulrich Zwingli",
+     "Zwingli"
+    ],
+    [
+     "John Knox",
+     "Knox"
+    ],
+    [
+     "Thomas Cranmer",
+     "Cranmer"
+    ],
+    [
+     "William Tyndale",
+     "Tyndale"
+    ],
+    [
+     "John Wycliffe",
+     "Wycliffe",
+     "Wyclif"
+    ],
+    [
+     "Jan Hus",
+     "John Hus",
+     "Hus"
+    ],
+    [
+     "Philip Melanchthon",
+     "Melanchthon"
+    ],
+    [
+     "Martin Bucer",
+     "Bucer"
+    ],
+    [
+     "Heinrich Bullinger",
+     "Bullinger"
+    ],
+    [
+     "Theodore Beza",
+     "Beza"
+    ],
+    [
+     "William Farel",
+     "Farel"
+    ],
+    [
+     "Hugh Latimer",
+     "Latimer"
+    ],
+    [
+     "Nicholas Ridley",
+     "Ridley"
+    ],
+    [
+     "Miles Coverdale",
+     "Coverdale"
+    ],
+    "Menno Simons",
+    [
+     "Thomas Müntzer",
+     "Müntzer"
+    ],
+    [
+     "Johannes Bugenhagen",
+     "Bugenhagen"
+    ],
+    [
+     "Johannes Oecolampadius",
+     "Oecolampadius"
+    ],
+    [
+     "Andreas Karlstadt",
+     "Karlstadt"
+    ],
+    [
+     "Balthasar Hubmaier",
+     "Hubmaier"
+    ],
+    "John Frith",
+    "Matthew Parker",
+    "John Rogers",
+    [
+     "Johannes Brenz",
+     "Brenz"
+    ],
+    [
+     "Georg Spalatin",
+     "Spalatin"
+    ],
+    [
+     "Wolfgang Capito",
+     "Capito"
+    ],
+    [
+     "Peter Martyr Vermigli",
+     "Vermigli"
+    ],
+    "Lefèvre d'Étaples",
+    "Jakob Hutter",
+    [
+     "Conrad Grebel",
+     "Grebel"
+    ],
+    [
+     "Felix Manz",
+     "Manz"
+    ],
+    [
+     "George Wishart",
+     "Wishart"
+    ],
+    "Patrick Hamilton",
+    "Hans Denck",
+    [
+     "John a Lasco",
+     "Jan Laski"
+    ]
+   ]
+  },
+  {
+   "id": "xh4-ramayana-mahabharata",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a character from the Ramayana or the Mahabharata",
+   "answers": [
+    "Rama",
+    "Sita",
+    "Hanuman",
+    "Ravana",
+    [
+     "Lakshmana",
+     "Lakshman"
+    ],
+    "Bharata",
+    "Arjuna",
+    "Krishna",
+    "Bhima",
+    [
+     "Yudhishthira",
+     "Yudhisthira"
+    ],
+    "Nakula",
+    "Sahadeva",
+    "Draupadi",
+    "Karna",
+    "Duryodhana",
+    "Bhishma",
+    "Drona",
+    "Kunti",
+    "Gandhari",
+    "Shakuni",
+    "Dhritarashtra",
+    "Vyasa",
+    "Abhimanyu",
+    "Ashwatthama",
+    "Kumbhakarna",
+    "Vibhishana",
+    [
+     "Indrajit",
+     "Meghnad"
+    ],
+    "Dasharatha",
+    "Kaikeyi",
+    "Kaushalya",
+    "Sugriva",
+    "Vali",
+    "Jatayu",
+    "Shurpanakha",
+    "Sumitra",
+    "Shatrughna",
+    "Mandodari",
+    "Ahalya",
+    "Vishwamitra",
+    "Jambavan",
+    "Pandu",
+    "Madri",
+    "Subhadra",
+    "Ghatotkacha",
+    "Eklavya",
+    "Kripa",
+    "Vidura",
+    "Sanjaya",
+    "Balarama",
+    "Shikhandi",
+    "Jayadratha",
+    "Dushasana",
+    "Parikshit",
+    "Uttara",
+    "Hidimbi",
+    "Angada",
+    "Maricha",
+    "Valmiki",
+    "Janaka",
+    "Shabari"
+   ]
+  },
+  {
+   "id": "xh4-japanese-kami",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a Japanese god or goddess (kami)",
+   "answers": [
+    "Amaterasu",
+    "Susanoo",
+    "Tsukuyomi",
+    "Izanagi",
+    "Izanami",
+    "Inari",
+    "Hachiman",
+    "Raijin",
+    "Fujin",
+    "Ebisu",
+    [
+     "Benzaiten",
+     "Benten"
+    ],
+    [
+     "Daikokuten",
+     "Daikoku"
+    ],
+    [
+     "Bishamonten",
+     "Bishamon"
+    ],
+    "Jurojin",
+    "Fukurokuju",
+    "Hotei",
+    "Ninigi",
+    "Okuninushi",
+    [
+     "Konohanasakuya-hime",
+     "Konohanasakuya"
+    ],
+    "Kagutsuchi",
+    [
+     "Ame-no-Uzume",
+     "Uzume"
+    ],
+    "Sarutahiko",
+    "Tenjin",
+    "Ryujin",
+    "Takemikazuchi",
+    "Omoikane",
+    "Ōyamatsumi",
+    "Toyotama-hime",
+    "Hoori",
+    "Ame-no-Minakanushi",
+    "Takamimusubi",
+    "Kamimusubi",
+    "Suijin",
+    "Kojin",
+    "Ōmononushi",
+    "Ukemochi",
+    "Ōgetsu-hime",
+    "Wakahiru-me",
+    "Ame-no-Tajikarao",
+    "Futsunushi",
+    "Sukunabikona",
+    "Yamato Takeru",
+    "Toyouke"
+   ]
+  },
+  {
+   "id": "xh4-aztec-maya-inca-gods",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name an Aztec, Maya or Inca god or goddess",
+   "answers": [
+    "Quetzalcoatl",
+    "Huitzilopochtli",
+    "Tezcatlipoca",
+    "Tlaloc",
+    "Xipe Totec",
+    "Coatlicue",
+    "Mictlantecuhtli",
+    "Xochiquetzal",
+    "Chalchiuhtlicue",
+    "Tonatiuh",
+    "Xolotl",
+    "Centeotl",
+    "Huehueteotl",
+    "Itzamna",
+    "Kukulkan",
+    [
+     "Chaac",
+     "Chac"
+    ],
+    "Ah Puch",
+    "Ixchel",
+    "Hunahpu",
+    "Hun Hunahpu",
+    "Xbalanque",
+    "Inti",
+    [
+     "Viracocha",
+     "Wiracocha"
+    ],
+    "Pachamama",
+    [
+     "Mama Quilla",
+     "Mama Killa"
+    ],
+    "Supay",
+    "Illapa",
+    "Pachacamac",
+    "Mama Cocha",
+    "Mayahuel",
+    "Tlazolteotl",
+    "Xiuhtecuhtli",
+    "Cipactli",
+    "Coyolxauhqui",
+    "Ometeotl",
+    "Mictecacihuatl",
+    "Patecatl",
+    "Ehecatl",
+    "Yum Kaax",
+    "Kinich Ahau",
+    "Camazotz",
+    [
+     "Hurakan",
+     "Huracan"
+    ],
+    "Tepeu",
+    "Gucumatz",
+    "Urcuchillay",
+    "Ekeko",
+    "Pariacaca",
+    "Mama Ocllo",
+    "Manco Capac"
+   ]
+  },
+  {
+   "id": "xh4-mesopotamian-gods",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a god or goddess from Mesopotamian mythology (Sumerian, Babylonian or Assyrian)",
+   "answers": [
+    "Marduk",
+    "Ishtar",
+    "Enlil",
+    "Enki",
+    [
+     "Anu",
+     "An"
+    ],
+    "Inanna",
+    "Shamash",
+    [
+     "Sin",
+     "Nanna",
+     "Suen"
+    ],
+    "Tiamat",
+    "Ereshkigal",
+    "Ea",
+    [
+     "Ashur",
+     "Assur"
+    ],
+    "Nabu",
+    "Nergal",
+    [
+     "Dumuzi",
+     "Tammuz"
+    ],
+    [
+     "Ninhursag",
+     "Ninhursaga"
+    ],
+    "Utu",
+    [
+     "Adad",
+     "Hadad",
+     "Ishkur"
+    ],
+    "Kingu",
+    "Apsu",
+    "Ninurta",
+    "Nanshe",
+    "Dagan",
+    "Gula",
+    "Ningal",
+    "Ninlil",
+    "Ninsun",
+    "Lamashtu",
+    "Pazuzu",
+    "Nisaba",
+    "Ninkasi",
+    "Namtar",
+    "Zababa",
+    "Ninazu",
+    "Bel",
+    "Mami",
+    "Ninmah",
+    "Geshtinanna",
+    "Kishar",
+    "Anshar",
+    "Lahmu",
+    "Lahamu",
+    "Abzu",
+    [
+     "Girra",
+     "Gibil"
+    ],
+    "Nusku",
+    "Shala",
+    "Ninmug",
+    "Bau"
+   ]
+  },
+  {
+   "id": "xh4-odyssey-iliad-characters",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a character in Homer's Iliad or Odyssey (human, god or monster)",
+   "answers": [
+    "Achilles",
+    "Hector",
+    [
+     "Odysseus",
+     "Ulysses"
+    ],
+    "Agamemnon",
+    "Menelaus",
+    "Helen",
+    "Paris",
+    "Priam",
+    "Hecuba",
+    "Patroclus",
+    "Ajax",
+    "Nestor",
+    "Diomedes",
+    "Penelope",
+    "Telemachus",
+    "Circe",
+    "Calypso",
+    "Polyphemus",
+    "Nausicaa",
+    "Cassandra",
+    "Briseis",
+    "Andromache",
+    "Aeneas",
+    "Sarpedon",
+    "Laertes",
+    "Eumaeus",
+    "Antinous",
+    "Scylla",
+    "Charybdis",
+    "Tiresias",
+    "Alcinous",
+    "Aeolus",
+    "Eurycleia",
+    "Sirens",
+    "Athena",
+    "Zeus",
+    "Poseidon",
+    "Hermes",
+    "Apollo",
+    "Hera",
+    "Aphrodite",
+    "Ares",
+    "Thetis",
+    "Argos",
+    "Eurylochus",
+    "Phoenix",
+    "Thersites",
+    "Chryseis",
+    "Chryses",
+    "Astyanax",
+    "Glaucus",
+    "Idomeneus",
+    "Teucer",
+    "Machaon",
+    "Mentor",
+    "Eurymachus",
+    "Melanthius",
+    "Arete",
+    "Demodocus",
+    "Elpenor",
+    "Helios",
+    "Hephaestus",
+    "Artemis",
+    "Leto",
+    "Dolon",
+    "Pandarus",
+    "Euphorbus",
+    "Deiphobus",
+    "Polydamas",
+    "Lotus-eaters",
+    "Laestrygonians",
+    [
+     "Cyclops",
+     "Cyclopes"
+    ],
+    [
+     "Ino",
+     "Leucothea"
+    ],
+    "Nireus",
+    "Rhesus",
+    "Memnon"
+   ]
+  },
+  {
+   "id": "xh4-parables-of-jesus",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a parable told by Jesus in the Gospels",
+   "answers": [
+    [
+     "The Good Samaritan",
+     "Good Samaritan"
+    ],
+    [
+     "The Prodigal Son",
+     "Prodigal Son",
+     "Lost Son"
+    ],
+    [
+     "The Sower",
+     "Sower",
+     "Parable of the Sower"
+    ],
+    [
+     "The Lost Sheep",
+     "Lost Sheep"
+    ],
+    [
+     "The Lost Coin",
+     "Lost Coin"
+    ],
+    [
+     "The Mustard Seed",
+     "Mustard Seed"
+    ],
+    [
+     "The Talents",
+     "Talents",
+     "Parable of the Talents"
+    ],
+    [
+     "The Ten Virgins",
+     "Ten Virgins",
+     "Wise and Foolish Virgins"
+    ],
+    [
+     "The Wise and Foolish Builders",
+     "Wise and Foolish Builders",
+     "House on the Rock"
+    ],
+    [
+     "The Pearl of Great Price",
+     "Pearl of Great Price",
+     "Pearl"
+    ],
+    [
+     "The Hidden Treasure",
+     "Hidden Treasure",
+     "Treasure in the Field"
+    ],
+    [
+     "The Unforgiving Servant",
+     "Unmerciful Servant",
+     "Unforgiving Servant"
+    ],
+    [
+     "The Workers in the Vineyard",
+     "Workers in the Vineyard",
+     "Labourers in the Vineyard"
+    ],
+    [
+     "The Rich Fool",
+     "Rich Fool"
+    ],
+    [
+     "The Rich Man and Lazarus",
+     "Rich Man and Lazarus",
+     "Dives and Lazarus"
+    ],
+    [
+     "The Pharisee and the Tax Collector",
+     "Pharisee and the Publican",
+     "Pharisee and the Tax Collector"
+    ],
+    [
+     "The Wedding Feast",
+     "Wedding Banquet",
+     "Great Banquet",
+     "Great Feast"
+    ],
+    [
+     "The Wheat and the Tares",
+     "Wheat and Tares",
+     "Weeds"
+    ],
+    [
+     "The Leaven",
+     "Yeast",
+     "Leaven"
+    ],
+    [
+     "The Persistent Widow",
+     "Unjust Judge",
+     "Persistent Widow"
+    ],
+    [
+     "The Barren Fig Tree",
+     "Barren Fig Tree",
+     "Fig Tree"
+    ],
+    [
+     "The Two Sons",
+     "Two Sons"
+    ],
+    [
+     "The Wicked Tenants",
+     "Wicked Tenants",
+     "Tenants of the Vineyard"
+    ],
+    [
+     "The Shrewd Manager",
+     "Unjust Steward",
+     "Dishonest Steward"
+    ],
+    [
+     "The Friend at Midnight",
+     "Friend at Midnight"
+    ],
+    [
+     "The Net",
+     "Dragnet",
+     "Net"
+    ],
+    [
+     "The Lamp under a Bushel",
+     "Lamp under a Bushel",
+     "Lamp on a Stand"
+    ],
+    [
+     "The Sheep and the Goats",
+     "Sheep and Goats"
+    ],
+    "The Budding Fig Tree",
+    [
+     "The Growing Seed",
+     "Seed Growing Secretly"
+    ],
+    [
+     "The Faithful Servant",
+     "Faithful Servant"
+    ],
+    [
+     "The Two Debtors",
+     "Two Debtors"
+    ],
+    [
+     "The Pounds",
+     "Minas"
+    ],
+    [
+     "The Master and Servant",
+     "Unworthy Servants"
+    ],
+    [
+     "The Cost of Discipleship",
+     "Tower Builder"
+    ]
+   ]
+  },
+  {
+   "id": "xh4-miracles-of-jesus",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a miracle performed by Jesus in the Gospels",
+   "answers": [
+    [
+     "Water into Wine",
+     "Wedding at Cana",
+     "Turning Water into Wine"
+    ],
+    [
+     "Feeding the Five Thousand",
+     "Loaves and Fishes",
+     "Five Thousand"
+    ],
+    "Walking on Water",
+    [
+     "Raising of Lazarus",
+     "Lazarus"
+    ],
+    [
+     "Calming the Storm",
+     "Calming of the Storm",
+     "Stilling the Storm"
+    ],
+    [
+     "Healing the Blind Man",
+     "Blind Man",
+     "Healing Bartimaeus",
+     "Bartimaeus"
+    ],
+    [
+     "Healing a Leper",
+     "Healing the Leper",
+     "Leper"
+    ],
+    [
+     "Healing the Paralytic",
+     "Paralytic",
+     "Healing the Paralysed Man"
+    ],
+    [
+     "Jairus's Daughter",
+     "Raising Jairus's Daughter",
+     "Jairus"
+    ],
+    [
+     "Miraculous Catch of Fish",
+     "Great Catch of Fish",
+     "Draught of Fishes"
+    ],
+    "Transfiguration",
+    [
+     "Cursing the Fig Tree",
+     "Withering of the Fig Tree"
+    ],
+    [
+     "Healing Peter's Mother-in-Law",
+     "Peter's Mother-in-Law"
+    ],
+    [
+     "Widow of Nain's Son",
+     "Raising the Widow's Son"
+    ],
+    [
+     "Healing the Centurion's Servant",
+     "Centurion's Servant"
+    ],
+    [
+     "Syrophoenician Woman",
+     "Canaanite Woman"
+    ],
+    [
+     "Feeding the Four Thousand",
+     "Four Thousand"
+    ],
+    [
+     "Healing the Ten Lepers",
+     "Ten Lepers"
+    ],
+    [
+     "Woman with the Issue of Blood",
+     "Haemorrhaging Woman"
+    ],
+    [
+     "Healing the Man with a Withered Hand",
+     "Withered Hand"
+    ],
+    [
+     "Gerasene Demoniac",
+     "Legion",
+     "Gadarene Swine"
+    ],
+    [
+     "Healing the Deaf Mute",
+     "Deaf Mute"
+    ],
+    [
+     "Healing at the Pool of Bethesda",
+     "Pool of Bethesda"
+    ],
+    "Healing the Man Born Blind",
+    [
+     "Coin in the Fish's Mouth",
+     "Temple Tax"
+    ],
+    [
+     "Healing Malchus' Ear",
+     "Malchus' Ear"
+    ],
+    [
+     "Healing the Official's Son",
+     "Nobleman's Son"
+    ],
+    "Healing of Blind Bartimaeus",
+    "Healing the Demon-possessed Boy",
+    [
+     "Healing of the Crippled Woman",
+     "Bent Woman"
+    ],
+    [
+     "Healing the Man with Dropsy",
+     "Dropsy"
+    ]
+   ]
+  },
+  {
+   "id": "xh4-mythical-places",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a legendary or mythical place, land or realm from myth, folklore or legend",
+   "answers": [
+    "Atlantis",
+    "El Dorado",
+    "Shangri-La",
+    "Camelot",
+    "Avalon",
+    [
+     "Eden",
+     "Garden of Eden"
+    ],
+    "Valhalla",
+    [
+     "Mount Olympus",
+     "Olympus"
+    ],
+    [
+     "Elysium",
+     "Elysian Fields"
+    ],
+    [
+     "Hades",
+     "Underworld"
+    ],
+    "Asgard",
+    "Utopia",
+    "Lyonesse",
+    "Xanadu",
+    "Lemuria",
+    "Hyperborea",
+    "Tír na nÓg",
+    [
+     "Cockaigne",
+     "Land of Cockaigne"
+    ],
+    "Thule",
+    [
+     "Ys",
+     "Ker-Ys"
+    ],
+    "Agartha",
+    "Zion",
+    "Nirvana",
+    "Arcadia",
+    "Tartarus",
+    "Midgard",
+    "Hel",
+    "Jotunheim",
+    "Niflheim",
+    "Mu",
+    "Kitezh",
+    [
+     "Cibola",
+     "Seven Cities of Gold"
+    ],
+    "Hy-Brasil",
+    "Antillia",
+    "Shambhala",
+    "Mount Meru",
+    "Paradise",
+    "Heaven",
+    "Purgatory",
+    "Limbo",
+    [
+     "Gehenna",
+     "Sheol"
+    ],
+    "Vanaheim",
+    "Alfheim",
+    "Muspelheim",
+    "Svartalfheim",
+    "Helheim",
+    "Yggdrasil",
+    [
+     "Annwn",
+     "Annwfn"
+    ],
+    [
+     "Cantre'r Gwaelod",
+     "Cantref Gwaelod"
+    ],
+    "Prester John's kingdom",
+    "Quivira",
+    "Troy"
+   ]
+  },
+  {
+   "id": "xh4-genesis-people",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a person mentioned by name in the Book of Genesis",
+   "answers": [
+    "Adam",
+    "Eve",
+    "Cain",
+    "Abel",
+    "Seth",
+    "Noah",
+    "Shem",
+    "Ham",
+    "Japheth",
+    [
+     "Abraham",
+     "Abram"
+    ],
+    [
+     "Sarah",
+     "Sarai"
+    ],
+    "Hagar",
+    "Ishmael",
+    "Isaac",
+    [
+     "Rebecca",
+     "Rebekah"
+    ],
+    "Esau",
+    [
+     "Jacob",
+     "Israel"
+    ],
+    "Leah",
+    "Rachel",
+    "Laban",
+    "Lot",
+    "Melchizedek",
+    "Joseph",
+    "Judah",
+    "Reuben",
+    "Benjamin",
+    "Simeon",
+    "Levi",
+    "Dan",
+    "Naphtali",
+    "Gad",
+    "Asher",
+    "Issachar",
+    "Zebulun",
+    "Dinah",
+    "Tamar",
+    "Potiphar",
+    "Enoch",
+    "Methuselah",
+    "Lamech",
+    "Nimrod",
+    "Terah",
+    "Nahor",
+    "Bethuel",
+    "Keturah",
+    "Bilhah",
+    "Zilpah",
+    "Ephraim",
+    "Manasseh",
+    "Asenath",
+    "Onan",
+    "Er",
+    "Shelah",
+    "Perez",
+    "Zerah",
+    "Abimelech",
+    "Hamor",
+    "Shechem",
+    "Ephron",
+    "Eliezer",
+    "Eber",
+    "Canaan",
+    "Cush",
+    "Mizraim",
+    "Haran",
+    "Milcah",
+    "Mahalalel",
+    "Jared",
+    "Kenan",
+    "Enosh",
+    "Arphaxad",
+    "Peleg",
+    "Zipporah",
+    "Adah",
+    "Zillah",
+    "Jubal",
+    "Tubal-cain",
+    "Jabal"
+   ]
+  },
+  {
+   "id": "xh4-japanese-yokai",
+   "tags": [
+    "myth"
+   ],
+   "text": "Name a creature from Japanese folklore (yōkai, spirits or monsters)",
+   "answers": [
+    "Kappa",
+    "Tengu",
+    "Oni",
+    "Kitsune",
+    "Tanuki",
+    "Yūrei",
+    "Nue",
+    [
+     "Yuki-onna",
+     "Snow Woman"
+    ],
+    "Rokurokubi",
+    "Kirin",
+    "Baku",
+    "Jorōgumo",
+    "Tsukumogami",
+    [
+     "Noppera-bō",
+     "Faceless Ghost"
+    ],
+    "Gashadokuro",
+    "Nekomata",
+    "Bakeneko",
+    "Yamata no Orochi",
+    "Kodama",
+    "Umibōzu",
+    "Nurarihyon",
+    "Ittan-momen",
+    [
+     "Karakasa-obake",
+     "Kasa-obake"
+    ],
+    [
+     "Kuchisake-onna",
+     "Slit-Mouthed Woman"
+    ],
+    "Hitotsume-kozō",
+    "Zashiki-warashi",
+    "Nukekubi",
+    "Onryō",
+    "Shachihoko",
+    "Raijū",
+    "Hannya",
+    "Ushi-oni",
+    "Ningyo",
+    "Mujina",
+    "Kamaitachi",
+    "Wanyūdō",
+    "Futakuchi-onna",
+    "Betobeto-san",
+    "Akaname",
+    "Shuten-dōji",
+    "Tamamo-no-Mae",
+    "Hone-onna",
+    "Aobozu",
+    "Inugami",
+    "Kawauso",
+    "Gyuki"
+   ]
+  }
+ ]
+}
