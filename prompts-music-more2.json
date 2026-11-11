@@ -1,0 +1,1750 @@
+{
+ "cat": "music",
+ "prompts": [
+  {
+   "id": "xu2-fleetwood-mac-studio-albums",
+   "tags": [
+    "rock",
+    "60s",
+    "70s",
+    "80s",
+    "90s",
+    "00s"
+   ],
+   "text": "Name a Fleetwood Mac studio album",
+   "answers": [
+    "Rumours",
+    "Tusk",
+    "Fleetwood Mac",
+    "Tango in the Night",
+    "Mirage",
+    "Say You Will",
+    "Then Play On",
+    "Future Games",
+    "Bare Trees",
+    "Kiln House",
+    "Penguin",
+    "Mystery to Me",
+    "Heroes Are Hard to Find",
+    "Behind the Mask",
+    "Time",
+    [
+     "Mr. Wonderful",
+     "Mr Wonderful"
+    ],
+    [
+     "Fleetwood Mac in Chicago",
+     "Blues Jam in Chicago",
+     "In Chicago"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu2-springsteen-studio-albums",
+   "tags": [
+    "rock",
+    "70s",
+    "80s",
+    "90s",
+    "00s",
+    "10s",
+    "20s"
+   ],
+   "text": "Name a Bruce Springsteen studio album (to 2022)",
+   "answers": [
+    [
+     "Born in the U.S.A.",
+     "Born in the USA"
+    ],
+    "Born to Run",
+    "Nebraska",
+    "The River",
+    "Darkness on the Edge of Town",
+    "Tunnel of Love",
+    "The Rising",
+    "Human Touch",
+    "Lucky Town",
+    "Magic",
+    "Wrecking Ball",
+    "High Hopes",
+    "Working on a Dream",
+    "Western Stars",
+    "Letter to You",
+    "Devils & Dust",
+    [
+     "The Ghost of Tom Joad",
+     "Tom Joad"
+    ],
+    [
+     "Greetings from Asbury Park, N.J.",
+     "Greetings from Asbury Park",
+     "Asbury Park"
+    ],
+    [
+     "The Wild, the Innocent & the E Street Shuffle",
+     "The Wild the Innocent and the E Street Shuffle",
+     "Wild Innocent E Street Shuffle"
+    ],
+    [
+     "We Shall Overcome: The Seeger Sessions",
+     "The Seeger Sessions",
+     "Seeger Sessions"
+    ],
+    "Only the Strong Survive"
+   ]
+  },
+  {
+   "id": "xu2-genesis-studio-albums",
+   "tags": [
+    "rock",
+    "70s",
+    "80s",
+    "90s"
+   ],
+   "text": "Name a Genesis studio album",
+   "answers": [
+    "Invisible Touch",
+    "We Can't Dance",
+    [
+     "Selling England by the Pound",
+     "Selling England"
+    ],
+    "Duke",
+    "Abacab",
+    "Genesis",
+    [
+     "The Lamb Lies Down on Broadway",
+     "The Lamb"
+    ],
+    [
+     "A Trick of the Tail",
+     "Trick of the Tail"
+    ],
+    "Foxtrot",
+    [
+     "Wind & Wuthering",
+     "Wind and Wuthering"
+    ],
+    [
+     "...And Then There Were Three...",
+     "And Then There Were Three"
+    ],
+    "Nursery Cryme",
+    "Trespass",
+    "Calling All Stations",
+    "From Genesis to Revelation"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu2-live-8-london-hyde-park",
+   "tags": [
+    "rock",
+    "00s"
+   ],
+   "text": "Name an act or guest who performed at Live 8 in Hyde Park, London (2 July 2005)",
+   "answers": [
+    "U2",
+    "Paul McCartney",
+    "Coldplay",
+    "Elton John",
+    "Pink Floyd",
+    "Madonna",
+    "Robbie Williams",
+    "The Who",
+    "Sting",
+    "Mariah Carey",
+    "The Killers",
+    "Snow Patrol",
+    "Keane",
+    "Travis",
+    "Stereophonics",
+    "R.E.M.",
+    "Dido",
+    "Annie Lennox",
+    "UB40",
+    "Snoop Dogg",
+    "Razorlight",
+    "Joss Stone",
+    "Scissor Sisters",
+    "Velvet Revolver",
+    "Ms. Dynamite",
+    "Bob Geldof",
+    "George Michael",
+    "Richard Ashcroft",
+    [
+     "Pete Doherty",
+     "Babyshambles"
+    ],
+    [
+     "Youssou N'Dour",
+     "Youssou Ndour"
+    ]
+   ]
+  },
+  {
+   "id": "xu2-band-aid-1984-singers",
+   "tags": [
+    "pop",
+    "80s"
+   ],
+   "text": "Name an act or artist who sang on the original 1984 Band Aid single 'Do They Know It's Christmas?'",
+   "answers": [
+    [
+     "Bono",
+     "U2",
+     "Adam Clayton"
+    ],
+    [
+     "George Michael",
+     "Wham!",
+     "Wham"
+    ],
+    [
+     "Boy George",
+     "Culture Club",
+     "Jon Moss"
+    ],
+    [
+     "Sting",
+     "The Police",
+     "Police"
+    ],
+    [
+     "Phil Collins",
+     "Genesis"
+    ],
+    [
+     "Duran Duran",
+     "Simon Le Bon",
+     "Nick Rhodes",
+     "John Taylor",
+     "Roger Taylor",
+     "Andy Taylor"
+    ],
+    [
+     "Spandau Ballet",
+     "Tony Hadley",
+     "Gary Kemp",
+     "Martin Kemp",
+     "Steve Norman",
+     "John Keeble"
+    ],
+    [
+     "Bob Geldof",
+     "The Boomtown Rats",
+     "Boomtown Rats",
+     "Johnny Fingers",
+     "Pete Briquette",
+     "Simon Crowe"
+    ],
+    [
+     "Midge Ure",
+     "Ultravox",
+     "Chris Cross"
+    ],
+    "Paul Young",
+    [
+     "Bananarama",
+     "Sara Dallin",
+     "Siobhan Fahey",
+     "Keren Woodward"
+    ],
+    [
+     "Status Quo",
+     "Francis Rossi",
+     "Rick Parfitt"
+    ],
+    [
+     "Kool & the Gang",
+     "Kool and the Gang",
+     "Robert Kool Bell",
+     "J.T. Taylor",
+     "Dennis Thomas"
+    ],
+    [
+     "Paul Weller",
+     "The Style Council",
+     "Style Council"
+    ],
+    [
+     "Heaven 17",
+     "Glenn Gregory",
+     "Martyn Ware"
+    ],
+    "Jody Watley",
+    "Marilyn"
+   ]
+  },
+  {
+   "id": "xu2-genesis-phil-collins-uk-top-40-singles",
+   "tags": [
+    "rock",
+    "pop",
+    "70s",
+    "80s",
+    "90s",
+    "00s"
+   ],
+   "text": "Name a Genesis single or a Phil Collins solo single (lead or duet) that reached the UK top 40",
+   "answers": [
+    "In the Air Tonight",
+    "Another Day in Paradise",
+    "You Can't Hurry Love",
+    [
+     "Against All Odds (Take a Look at Me Now)",
+     "Against All Odds"
+    ],
+    "Easy Lover",
+    "Sussudio",
+    "One More Night",
+    "A Groovy Kind of Love",
+    "Two Hearts",
+    "Separate Lives",
+    "I Missed Again",
+    "Take Me Home",
+    "Something Happened on the Way to Heaven",
+    "I Wish It Would Rain Down",
+    "Both Sides of the Story",
+    "Everyday",
+    "Dance into the Light",
+    [
+     "You'll Be in My Heart",
+     "Youll Be in My Heart"
+    ],
+    [
+     "True Colors",
+     "True Colours"
+    ],
+    "If Leaving Me Is Easy",
+    "That's Just the Way It Is",
+    "Hang in Long Enough",
+    "It's in Your Eyes",
+    "Can't Stop Loving You",
+    "Invisible Touch",
+    "I Can't Dance",
+    "Land of Confusion",
+    "Mama",
+    "No Son of Mine",
+    "That's All",
+    "Follow You Follow Me",
+    "Turn It On Again",
+    "Abacab",
+    "Throwing It All Away",
+    "In Too Deep",
+    [
+     "Tonight, Tonight, Tonight",
+     "Tonight Tonight Tonight"
+    ],
+    "Hold On My Heart",
+    "Jesus He Knows Me",
+    "Keep It Dark",
+    [
+     "I Know What I Like (In Your Wardrobe)",
+     "I Know What I Like"
+    ],
+    "Congo",
+    "Tell Me Why"
+   ]
+  },
+  {
+   "id": "xu2-kate-bush-uk-top-40-singles",
+   "tags": [
+    "pop",
+    "70s",
+    "80s",
+    "90s",
+    "00s"
+   ],
+   "text": "Name a Kate Bush single that reached the UK top 40",
+   "answers": [
+    "Wuthering Heights",
+    [
+     "Running Up That Hill",
+     "Running Up That Hill (A Deal with God)",
+     "A Deal with God"
+    ],
+    "Babooshka",
+    "Cloudbusting",
+    "Don't Give Up",
+    "Wow",
+    "Breathing",
+    "Army Dreamers",
+    "Sat in Your Lap",
+    [
+     "The Man with the Child in His Eyes",
+     "Man with the Child in His Eyes"
+    ],
+    "Hounds of Love",
+    [
+     "The Sensual World",
+     "Sensual World"
+    ],
+    "This Woman's Work",
+    "Experiment IV",
+    [
+     "The Big Sky",
+     "Big Sky"
+    ],
+    "Rocket Man",
+    [
+     "Rubberband Girl",
+     "Rubber Band Girl"
+    ],
+    "King of the Mountain",
+    "December Will Be Magic Again",
+    "Moments of Pleasure",
+    [
+     "The Red Shoes",
+     "Red Shoes"
+    ],
+    "And So Is Love",
+    "The Man I Love",
+    "Love and Anger"
+   ]
+  },
+  {
+   "id": "xu2-grammy-best-new-artist-2000-2026",
+   "tags": [
+    "pop",
+    "rnb",
+    "00s",
+    "10s",
+    "20s"
+   ],
+   "text": "Name a winner of the Grammy for Best New Artist at the 2000 to 2026 ceremonies",
+   "answers": [
+    "Billie Eilish",
+    "Dua Lipa",
+    "Adele",
+    "Amy Winehouse",
+    "Sam Smith",
+    "Olivia Rodrigo",
+    "Chappell Roan",
+    "Christina Aguilera",
+    "Alicia Keys",
+    "Norah Jones",
+    "Maroon 5",
+    "John Legend",
+    "Carrie Underwood",
+    "Megan Thee Stallion",
+    "Meghan Trainor",
+    "Chance the Rapper",
+    "Alessia Cara",
+    [
+     "Macklemore & Ryan Lewis",
+     "Macklemore",
+     "Macklemore and Ryan Lewis"
+    ],
+    "Bon Iver",
+    [
+     "Fun.",
+     "fun",
+     "Fun"
+    ],
+    "Evanescence",
+    "Zac Brown Band",
+    "Esperanza Spalding",
+    "Shelby Lynne",
+    "Samara Joy",
+    [
+     "Victoria Monét",
+     "Victoria Monet"
+    ],
+    "Olivia Dean"
+   ]
+  },
+  {
+   "id": "xu2-harry-styles-uk-top-40-singles",
+   "tags": [
+    "pop",
+    "10s",
+    "20s"
+   ],
+   "text": "Name a Harry Styles solo single that has reached the UK top 40 (to 2026)",
+   "answers": [
+    "As It Was",
+    "Watermelon Sugar",
+    "Sign of the Times",
+    "Adore You",
+    "Late Night Talking",
+    "Lights Up",
+    "Music for a Sushi Restaurant",
+    "Satellite",
+    "Falling",
+    "Golden",
+    "Aperture",
+    "American Girls",
+    "Coming Up Roses"
+   ]
+  },
+  {
+   "id": "xu2-eurythmics-uk-top-40-singles",
+   "tags": [
+    "pop",
+    "80s",
+    "90s",
+    "00s"
+   ],
+   "text": "Name a Eurythmics single that reached the UK top 40",
+   "answers": [
+    [
+     "Sweet Dreams (Are Made of This)",
+     "Sweet Dreams"
+    ],
+    [
+     "There Must Be an Angel (Playing with My Heart)",
+     "There Must Be an Angel"
+    ],
+    "Here Comes the Rain Again",
+    [
+     "Would I Lie to You?",
+     "Would I Lie to You"
+    ],
+    [
+     "Sisters Are Doin' It for Themselves",
+     "Sisters Are Doing It for Themselves"
+    ],
+    "Love Is a Stranger",
+    [
+     "Who's That Girl?",
+     "Whos That Girl"
+    ],
+    "Thorn in My Side",
+    "Right by Your Side",
+    [
+     "Sexcrime (Nineteen Eighty-Four)",
+     "Sexcrime",
+     "Sexcrime 1984"
+    ],
+    "Missionary Man",
+    [
+     "It's Alright (Baby's Coming Back)",
+     "Its Alright"
+    ],
+    "When Tomorrow Comes",
+    [
+     "The Miracle of Love",
+     "Miracle of Love"
+    ],
+    [
+     "Beethoven (I Love to Listen To)",
+     "Beethoven"
+    ],
+    "I Need a Man",
+    "You Have Placed a Chill in My Heart",
+    "Revival",
+    "Don't Ask Me Why",
+    [
+     "The King and Queen of America",
+     "King and Queen of America"
+    ],
+    "Angel",
+    "I Saved the World Today",
+    [
+     "17 Again",
+     "Seventeen Again"
+    ],
+    [
+     "I've Got a Life",
+     "Ive Got a Life"
+    ]
+   ]
+  },
+  {
+   "id": "xu2-grammy-best-rap-album-winners",
+   "tags": [
+    "hiphop",
+    "90s",
+    "00s",
+    "10s",
+    "20s"
+   ],
+   "text": "Name an act that has won the Grammy for Best Rap Album (1996 to the 2026 ceremony)",
+   "answers": [
+    "Eminem",
+    [
+     "Kanye West",
+     "Ye"
+    ],
+    "Kendrick Lamar",
+    [
+     "Jay-Z",
+     "Jay Z"
+    ],
+    [
+     "Outkast",
+     "OutKast"
+    ],
+    "Drake",
+    "Nas",
+    "Lil Wayne",
+    "Ludacris",
+    "Cardi B",
+    [
+     "Tyler, the Creator",
+     "Tyler the Creator"
+    ],
+    "Chance the Rapper",
+    [
+     "Macklemore & Ryan Lewis",
+     "Macklemore",
+     "Macklemore and Ryan Lewis"
+    ],
+    [
+     "Fugees",
+     "The Fugees"
+    ],
+    [
+     "Puff Daddy",
+     "Diddy",
+     "Sean Combs",
+     "P Diddy",
+     "Puff Daddy and the Family"
+    ],
+    "Naughty by Nature",
+    "Killer Mike",
+    "Doechii"
+   ]
+  },
+  {
+   "id": "xu2-skepta-ignorance-is-bliss-tracks",
+   "tags": [
+    "ukrap",
+    "hiphop",
+    "10s"
+   ],
+   "text": "Name a track on Skepta's 'Ignorance Is Bliss' (2019)",
+   "answers": [
+    "Bullet from a Gun",
+    "Greaze Mode",
+    "Redrum",
+    "No Sleep",
+    [
+     "What Do You Mean?",
+     "What Do You Mean"
+    ],
+    "Going Through It",
+    "Same Old Story",
+    "Love Me Not",
+    "Animal Instinct",
+    "Glow in the Dark",
+    "You Wish",
+    "Gangsta",
+    "Pure Water"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu2-j-hus-big-conspiracy-tracks",
+   "tags": [
+    "ukrap",
+    "hiphop",
+    "20s"
+   ],
+   "text": "Name a track on J Hus's 'Big Conspiracy' (2023)",
+   "answers": [
+    "Big Conspiracy",
+    "Helicopter",
+    "Fight for Your Right",
+    "Triumph",
+    "Play Play",
+    "Cucumber",
+    "Repeat",
+    "Fortune Teller",
+    "Reckless",
+    "No Denying",
+    "Must Be",
+    "One and Only",
+    [
+     "Love, Peace and Prosperity",
+     "Love Peace and Prosperity"
+    ],
+    "Deeper Than Rap"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu2-basement-jaxx-uk-top-40-singles",
+   "tags": [
+    "dance",
+    "90s",
+    "00s"
+   ],
+   "text": "Name a Basement Jaxx single that reached the UK top 40",
+   "answers": [
+    [
+     "Where's Your Head At?",
+     "Wheres Your Head At",
+     "Where's Your Head At"
+    ],
+    "Red Alert",
+    "Romeo",
+    "Good Luck",
+    [
+     "Rendez-Vu",
+     "Rendezvu",
+     "Rendez Vu"
+    ],
+    "Oh My Gosh",
+    [
+     "Jump n' Shout",
+     "Jump n Shout",
+     "Jump and Shout"
+    ],
+    "Bingo Bango",
+    "Raindrops",
+    "Do Your Thing",
+    [
+     "Jus 1 Kiss",
+     "Just One Kiss"
+    ],
+    "Plug It In",
+    "Lucky Star",
+    "Get Me Off",
+    [
+     "U Don't Know Me",
+     "You Don't Know Me"
+    ],
+    "Hush Boy",
+    "Fly Life"
+   ]
+  },
+  {
+   "id": "xu2-rudimental-uk-top-40-singles",
+   "tags": [
+    "dance",
+    "10s",
+    "20s"
+   ],
+   "text": "Name a Rudimental single that reached the UK top 40",
+   "answers": [
+    "Feel the Love",
+    "Waiting All Night",
+    "These Days",
+    "Bloodstream",
+    "Sun Comes Up",
+    "Lay It All on Me",
+    "Not Giving In",
+    "Right Here",
+    "Free",
+    "Never Let You Go",
+    "Dancing Is Healing",
+    "Come Over",
+    "Regardless",
+    [
+     "Green & Gold",
+     "Green and Gold"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu2-manic-street-preachers-uk-top-40-singles",
+   "tags": [
+    "indie",
+    "rock",
+    "90s",
+    "00s",
+    "10s"
+   ],
+   "text": "Name a Manic Street Preachers single that reached the UK top 40",
+   "answers": [
+    "A Design for Life",
+    [
+     "If You Tolerate This Your Children Will Be Next",
+     "If You Tolerate This"
+    ],
+    "Motorcycle Emptiness",
+    "Everything Must Go",
+    "Australia",
+    "You Stole the Sun from My Heart",
+    "Tsunami",
+    [
+     "The Masses Against the Classes",
+     "Masses Against the Classes"
+    ],
+    "Kevin Carter",
+    [
+     "Theme from M.A.S.H. (Suicide Is Painless)",
+     "Suicide Is Painless",
+     "Theme from MASH"
+    ],
+    [
+     "The Everlasting",
+     "Everlasting"
+    ],
+    [
+     "Your Love Alone Is Not Enough",
+     "Your Love Alone"
+    ],
+    [
+     "The Love of Richard Nixon",
+     "Love of Richard Nixon"
+    ],
+    "Empty Souls",
+    "There by the Grace of God",
+    "So Why So Sad",
+    "Found That Soul",
+    "Ocean Spray",
+    "Let Robeson Sing",
+    [
+     "Autumnsong",
+     "Autumn Song"
+    ],
+    "Indian Summer",
+    "You Love Us",
+    [
+     "Slash 'n' Burn",
+     "Slash n Burn"
+    ],
+    "Little Baby Nothing",
+    "From Despair to Where",
+    [
+     "La Tristesse Durera (Scream to a Sigh)",
+     "La Tristesse Durera"
+    ],
+    "Roses in the Hospital",
+    [
+     "Faster",
+     "P.C.P.",
+     "Faster / P.C.P."
+    ],
+    "Revol",
+    "She Is Suffering",
+    [
+     "Love's Sweet Exile",
+     "Repeat"
+    ],
+    "Stay Beautiful",
+    [
+     "(It's Not War) Just the End of Love",
+     "Just the End of Love",
+     "Its Not War"
+    ]
+   ]
+  },
+  {
+   "id": "xu2-stereophonics-uk-top-40-singles",
+   "tags": [
+    "indie",
+    "rock",
+    "90s",
+    "00s",
+    "10s"
+   ],
+   "text": "Name a Stereophonics single that reached the UK top 40",
+   "answers": [
+    "Dakota",
+    "Have a Nice Day",
+    "Maybe Tomorrow",
+    "Handbags and Gladrags",
+    [
+     "Mr. Writer",
+     "Mr Writer"
+    ],
+    [
+     "The Bartender and the Thief",
+     "Bartender and the Thief"
+    ],
+    "Just Looking",
+    "Local Boy in the Photograph",
+    "Madame Helga",
+    "Moviestar",
+    "Pick a Part That's New",
+    "I Wouldn't Believe Your Radio",
+    "Hurry Up and Wait",
+    "Traffic",
+    [
+     "A Thousand Trees",
+     "Thousand Trees"
+    ],
+    [
+     "More Life in a Tramp's Vest",
+     "More Life in a Tramps Vest"
+    ],
+    "Step on My Old Size Nines",
+    "Vegas Two Times",
+    "Since I Told You It's Over",
+    "Superman",
+    "Devil",
+    "Rewind",
+    "It Means Nothing",
+    "My Friends",
+    "Indian Summer",
+    [
+     "Mama Told Me Not to Come",
+     "Mama Told Me (Not to Come)"
+    ]
+   ]
+  },
+  {
+   "id": "xu2-def-leppard-uk-top-40-singles",
+   "tags": [
+    "metal",
+    "rock",
+    "80s",
+    "90s",
+    "00s"
+   ],
+   "text": "Name a Def Leppard single that reached the UK top 40",
+   "answers": [
+    "Pour Some Sugar on Me",
+    "Animal",
+    [
+     "Let's Get Rocked",
+     "Lets Get Rocked"
+    ],
+    "Hysteria",
+    "Love Bites",
+    "Armageddon It",
+    [
+     "When Love & Hate Collide",
+     "When Love and Hate Collide"
+    ],
+    "Make Love Like a Man",
+    "Rocket",
+    "Heaven Is",
+    "Have You Ever Needed Someone So Bad",
+    "Action",
+    "Slang",
+    "Work It Out",
+    "Now",
+    "Tonight",
+    "Two Steps Behind",
+    "All I Want Is Everything",
+    [
+     "Long, Long Way to Go",
+     "Long Long Way to Go"
+    ]
+   ]
+  },
+  {
+   "id": "xu2-megadeth-studio-albums",
+   "tags": [
+    "metal",
+    "80s",
+    "90s",
+    "00s",
+    "10s",
+    "20s"
+   ],
+   "text": "Name a Megadeth studio album",
+   "answers": [
+    "Rust in Peace",
+    [
+     "Peace Sells... but Who's Buying?",
+     "Peace Sells",
+     "Peace Sells But Whos Buying"
+    ],
+    "Countdown to Extinction",
+    "Youthanasia",
+    "Dystopia",
+    [
+     "Killing Is My Business... and Business Is Good!",
+     "Killing Is My Business"
+    ],
+    [
+     "So Far, So Good... So What!",
+     "So Far So Good So What",
+     "So Far So Good"
+    ],
+    "Cryptic Writings",
+    "Risk",
+    [
+     "The World Needs a Hero",
+     "World Needs a Hero"
+    ],
+    [
+     "The System Has Failed",
+     "System Has Failed"
+    ],
+    "United Abominations",
+    "Endgame",
+    [
+     "Th1rt3en",
+     "Thirteen",
+     "TH1RT3EN"
+    ],
+    "Super Collider",
+    [
+     "The Sick, the Dying... and the Dead!",
+     "The Sick the Dying and the Dead",
+     "Sick the Dying and the Dead"
+    ],
+    "Megadeth"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu2-clash-uk-top-40-singles",
+   "tags": [
+    "punk",
+    "rock",
+    "70s",
+    "80s",
+    "90s"
+   ],
+   "text": "Name a Clash single that reached the UK top 40",
+   "answers": [
+    [
+     "Should I Stay or Should I Go",
+     "Should I Stay or Should I Go?"
+    ],
+    "London Calling",
+    "Rock the Casbah",
+    "I Fought the Law",
+    "Tommy Gun",
+    "White Riot",
+    "Bankrobber",
+    "This Is England",
+    [
+     "(White Man) In Hammersmith Palais",
+     "White Man in Hammersmith Palais",
+     "In Hammersmith Palais"
+    ],
+    "Complete Control",
+    "Clash City Rockers",
+    "English Civil War",
+    [
+     "The Magnificent Seven",
+     "Magnificent Seven"
+    ],
+    [
+     "The Call Up",
+     "Call Up"
+    ]
+   ]
+  },
+  {
+   "id": "xu2-stranglers-uk-top-40-singles",
+   "tags": [
+    "punk",
+    "rock",
+    "70s",
+    "80s",
+    "90s",
+    "00s"
+   ],
+   "text": "Name a Stranglers single that reached the UK top 40",
+   "answers": [
+    "Golden Brown",
+    "No More Heroes",
+    "Peaches",
+    "Always the Sun",
+    "Skin Deep",
+    "96 Tears",
+    "Strange Little Girl",
+    "Duchess",
+    [
+     "5 Minutes",
+     "Five Minutes"
+    ],
+    "All Day and All of the Night",
+    "Walk On By",
+    [
+     "Nice 'n' Sleazy",
+     "Nice n Sleazy",
+     "Nice and Sleazy"
+    ],
+    "European Female",
+    "Something Better Change",
+    [
+     "Nuclear Device (The Wizard of Aus)",
+     "Nuclear Device"
+    ],
+    "Bear Cage",
+    [
+     "Who Wants the World?",
+     "Who Wants the World"
+    ],
+    "Midnight Summer Dream",
+    "No Mercy",
+    "Nice in Nice",
+    [
+     "Grip",
+     "(Get a) Grip (on Yourself)",
+     "Get a Grip on Yourself"
+    ],
+    "Big Thing Coming"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu2-cma-entertainer-of-the-year-winners",
+   "tags": [
+    "country",
+    "60s",
+    "70s",
+    "80s",
+    "90s",
+    "00s",
+    "10s",
+    "20s"
+   ],
+   "text": "Name a winner of the CMA Entertainer of the Year award (1967 to 2025 ceremonies)",
+   "answers": [
+    "Garth Brooks",
+    "George Strait",
+    "Kenny Chesney",
+    "Taylor Swift",
+    "Dolly Parton",
+    "Willie Nelson",
+    "Johnny Cash",
+    "Shania Twain",
+    [
+     "Dixie Chicks",
+     "The Chicks",
+     "Chicks"
+    ],
+    "Luke Combs",
+    "Morgan Wallen",
+    "Lainey Wilson",
+    "Keith Urban",
+    "Blake Shelton",
+    "Luke Bryan",
+    "Eric Church",
+    "Brad Paisley",
+    "Tim McGraw",
+    "Alan Jackson",
+    "Vince Gill",
+    [
+     "Brooks & Dunn",
+     "Brooks and Dunn"
+    ],
+    [
+     "Reba McEntire",
+     "Reba"
+    ],
+    [
+     "Hank Williams Jr.",
+     "Hank Williams Jr",
+     "Hank Williams Junior"
+    ],
+    "Alabama",
+    "Barbara Mandrell",
+    "Ronnie Milsap",
+    "Loretta Lynn",
+    "Merle Haggard",
+    "Glen Campbell",
+    "John Denver",
+    "Charley Pride",
+    "Ricky Skaggs",
+    "Roy Clark",
+    "Charlie Rich",
+    "Mel Tillis",
+    "Eddy Arnold"
+   ]
+  },
+  {
+   "id": "xu2-grammy-best-reggae-album-winners",
+   "tags": [
+    "reggae",
+    "80s",
+    "90s",
+    "00s",
+    "10s",
+    "20s"
+   ],
+   "text": "Name an act that has won the Grammy for Best Reggae Album (1985 to the 2026 ceremony)",
+   "answers": [
+    [
+     "Ziggy Marley",
+     "Ziggy Marley and the Melody Makers",
+     "Melody Makers"
+    ],
+    "Shaggy",
+    "Sean Paul",
+    [
+     "Damian Marley",
+     "Damian Jr. Gong Marley",
+     "Jr. Gong"
+    ],
+    "Stephen Marley",
+    "Jimmy Cliff",
+    [
+     "Toots and the Maytals",
+     "Toots & the Maytals",
+     "Toots Hibbert"
+    ],
+    "Burning Spear",
+    "Bunny Wailer",
+    "Shabba Ranks",
+    "Beenie Man",
+    "Buju Banton",
+    "Sting",
+    [
+     "Sly and Robbie",
+     "Sly & Robbie"
+    ],
+    "Peter Tosh",
+    "Black Uhuru",
+    "Steel Pulse",
+    "Inner Circle",
+    [
+     "Lee Scratch Perry",
+     "Lee Perry",
+     "Scratch Perry"
+    ],
+    "Morgan Heritage",
+    "Koffee",
+    [
+     "SOJA",
+     "Soldiers of Jah Army"
+    ],
+    "Kabaka Pyramid",
+    [
+     "Julian Marley",
+     "Julian Marley and Antaeus"
+    ],
+    "Keznamdi"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu2-madness-absolutely-tracks",
+   "tags": [
+    "reggae",
+    "pop",
+    "80s"
+   ],
+   "text": "Name a track on Madness's 1980 album 'Absolutely'",
+   "answers": [
+    "Baggy Trousers",
+    "Embarrassment",
+    [
+     "E.R.N.I.E.",
+     "ERNIE"
+    ],
+    "Close Escape",
+    "Not Home Today",
+    "On the Beat Pete",
+    "Solid Gone",
+    "Take It or Leave It",
+    "Shadow of Fear",
+    "Disappear",
+    "Overdone",
+    "In the Rain",
+    "You Said",
+    [
+     "The Return of the Los Palmas 7",
+     "Return of the Los Palmas Seven",
+     "Los Palmas 7",
+     "Return of the Los Palmas 7"
+    ]
+   ]
+  },
+  {
+   "id": "xu2-spandau-ballet-uk-top-40-singles",
+   "tags": [
+    "pop",
+    "80s"
+   ],
+   "text": "Name a Spandau Ballet single that reached the UK top 40",
+   "answers": [
+    "True",
+    "Gold",
+    "Only When You Leave",
+    [
+     "Chant No. 1 (I Don't Need This Pressure On)",
+     "Chant No 1",
+     "Chant Number 1"
+    ],
+    "Through the Barricades",
+    "To Cut a Long Story Short",
+    "Lifeline",
+    [
+     "I'll Fly for You",
+     "Ill Fly for You"
+    ],
+    "Communication",
+    [
+     "The Freeze",
+     "Freeze"
+    ],
+    "Instinction",
+    [
+     "Muscle Bound",
+     "Muscle Bound / Glow",
+     "Glow"
+    ],
+    "Highly Strung",
+    "Fight for Ourselves",
+    "Round and Round",
+    "Paint Me Down",
+    [
+     "How Many Lies?",
+     "How Many Lies"
+    ]
+   ]
+  },
+  {
+   "id": "xu2-german-born-composer",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a classical composer born in Germany",
+   "answers": [
+    [
+     "Beethoven",
+     "Ludwig van Beethoven"
+    ],
+    [
+     "Bach",
+     "Johann Sebastian Bach",
+     "J.S. Bach"
+    ],
+    [
+     "Brahms",
+     "Johannes Brahms"
+    ],
+    [
+     "Handel",
+     "George Frideric Handel",
+     "Händel"
+    ],
+    [
+     "Wagner",
+     "Richard Wagner"
+    ],
+    [
+     "Mendelssohn",
+     "Felix Mendelssohn"
+    ],
+    [
+     "Schumann",
+     "Robert Schumann"
+    ],
+    [
+     "Richard Strauss",
+     "R. Strauss"
+    ],
+    [
+     "Telemann",
+     "Georg Philipp Telemann"
+    ],
+    [
+     "Pachelbel",
+     "Johann Pachelbel"
+    ],
+    [
+     "Weber",
+     "Carl Maria von Weber"
+    ],
+    [
+     "Carl Orff",
+     "Orff"
+    ],
+    [
+     "Paul Hindemith",
+     "Hindemith"
+    ],
+    [
+     "Kurt Weill",
+     "Weill"
+    ],
+    [
+     "Humperdinck",
+     "Engelbert Humperdinck"
+    ],
+    [
+     "Max Bruch",
+     "Bruch"
+    ],
+    [
+     "Gluck",
+     "Christoph Willibald Gluck"
+    ],
+    [
+     "Meyerbeer",
+     "Giacomo Meyerbeer"
+    ],
+    [
+     "Heinrich Schütz",
+     "Schutz",
+     "Schütz"
+    ],
+    [
+     "Karlheinz Stockhausen",
+     "Stockhausen"
+    ],
+    [
+     "Hans Werner Henze",
+     "Henze"
+    ],
+    [
+     "Max Reger",
+     "Reger"
+    ],
+    [
+     "Louis Spohr",
+     "Spohr"
+    ],
+    "Clara Schumann",
+    [
+     "Fanny Mendelssohn",
+     "Fanny Hensel"
+    ],
+    [
+     "Michael Praetorius",
+     "Praetorius"
+    ],
+    [
+     "Johann Joachim Quantz",
+     "Quantz"
+    ],
+    [
+     "Lortzing",
+     "Albert Lortzing"
+    ],
+    [
+     "Wolfgang Rihm",
+     "Rihm"
+    ]
+   ]
+  },
+  {
+   "id": "xu2-italian-born-composer",
+   "tags": [
+    "classical"
+   ],
+   "text": "Name a classical composer born in Italy",
+   "answers": [
+    [
+     "Vivaldi",
+     "Antonio Vivaldi"
+    ],
+    [
+     "Verdi",
+     "Giuseppe Verdi"
+    ],
+    [
+     "Puccini",
+     "Giacomo Puccini"
+    ],
+    [
+     "Rossini",
+     "Gioachino Rossini"
+    ],
+    [
+     "Monteverdi",
+     "Claudio Monteverdi"
+    ],
+    [
+     "Paganini",
+     "Niccolò Paganini",
+     "Niccolo Paganini"
+    ],
+    [
+     "Donizetti",
+     "Gaetano Donizetti"
+    ],
+    [
+     "Bellini",
+     "Vincenzo Bellini"
+    ],
+    [
+     "Scarlatti",
+     "Domenico Scarlatti",
+     "Alessandro Scarlatti"
+    ],
+    [
+     "Corelli",
+     "Arcangelo Corelli"
+    ],
+    [
+     "Albinoni",
+     "Tomaso Albinoni"
+    ],
+    [
+     "Boccherini",
+     "Luigi Boccherini"
+    ],
+    [
+     "Respighi",
+     "Ottorino Respighi"
+    ],
+    [
+     "Mascagni",
+     "Pietro Mascagni"
+    ],
+    [
+     "Leoncavallo",
+     "Ruggero Leoncavallo"
+    ],
+    [
+     "Palestrina",
+     "Giovanni Pierluigi da Palestrina"
+    ],
+    [
+     "Tartini",
+     "Giuseppe Tartini"
+    ],
+    [
+     "Pergolesi",
+     "Giovanni Battista Pergolesi"
+    ],
+    [
+     "Cimarosa",
+     "Domenico Cimarosa"
+    ],
+    [
+     "Frescobaldi",
+     "Girolamo Frescobaldi"
+    ],
+    [
+     "Gabrieli",
+     "Giovanni Gabrieli",
+     "Andrea Gabrieli"
+    ],
+    [
+     "Gesualdo",
+     "Carlo Gesualdo"
+    ],
+    [
+     "Allegri",
+     "Gregorio Allegri"
+    ],
+    [
+     "Cherubini",
+     "Luigi Cherubini"
+    ],
+    [
+     "Clementi",
+     "Muzio Clementi"
+    ],
+    [
+     "Salieri",
+     "Antonio Salieri"
+    ],
+    [
+     "Busoni",
+     "Ferruccio Busoni"
+    ],
+    [
+     "Giordano",
+     "Umberto Giordano"
+    ],
+    [
+     "Ponchielli",
+     "Amilcare Ponchielli"
+    ],
+    [
+     "Boito",
+     "Arrigo Boito"
+    ],
+    [
+     "Spontini",
+     "Gaspare Spontini"
+    ],
+    [
+     "Paisiello",
+     "Giovanni Paisiello"
+    ],
+    [
+     "Luciano Berio",
+     "Berio"
+    ],
+    [
+     "Luigi Nono",
+     "Nono"
+    ],
+    [
+     "Nino Rota",
+     "Rota"
+    ],
+    [
+     "Ludovico Einaudi",
+     "Einaudi"
+    ],
+    [
+     "Ennio Morricone",
+     "Morricone"
+    ],
+    [
+     "Cilea",
+     "Francesco Cilea"
+    ],
+    [
+     "Dallapiccola",
+     "Luigi Dallapiccola"
+    ],
+    [
+     "Geminiani",
+     "Francesco Geminiani"
+    ],
+    [
+     "Locatelli",
+     "Pietro Antonio Locatelli"
+    ],
+    [
+     "Cavalli",
+     "Francesco Cavalli"
+    ],
+    [
+     "Giulio Caccini",
+     "Caccini"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xu2-annie-musical-songs",
+   "tags": [
+    "musicals",
+    "70s"
+   ],
+   "text": "Name a song from the stage musical 'Annie' (1977)",
+   "answers": [
+    "Tomorrow",
+    [
+     "It's the Hard Knock Life",
+     "Hard Knock Life",
+     "It's a Hard Knock Life"
+    ],
+    "Maybe",
+    "Easy Street",
+    "Little Girls",
+    [
+     "N.Y.C.",
+     "NYC",
+     "New York City"
+    ],
+    [
+     "You're Never Fully Dressed Without a Smile",
+     "Never Fully Dressed Without a Smile"
+    ],
+    [
+     "I Think I'm Gonna Like It Here",
+     "I Think Im Gonna Like It Here"
+    ],
+    [
+     "We'd Like to Thank You, Herbert Hoover",
+     "We'd Like to Thank You Herbert Hoover",
+     "Herbert Hoover"
+    ],
+    [
+     "I Don't Need Anything But You",
+     "I Dont Need Anything But You"
+    ],
+    [
+     "A New Deal for Christmas",
+     "New Deal for Christmas"
+    ],
+    [
+     "You Won't Be an Orphan for Long",
+     "You Wont Be an Orphan for Long"
+    ],
+    "Something Was Missing",
+    "Annie"
+   ]
+  },
+  {
+   "id": "xu2-fiddler-on-the-roof-songs",
+   "tags": [
+    "musicals",
+    "60s"
+   ],
+   "text": "Name a song from the musical 'Fiddler on the Roof'",
+   "answers": [
+    [
+     "If I Were a Rich Man",
+     "If I Were a Rich Man"
+    ],
+    "Tradition",
+    [
+     "Sunrise, Sunset",
+     "Sunrise Sunset"
+    ],
+    [
+     "Matchmaker, Matchmaker",
+     "Matchmaker Matchmaker"
+    ],
+    [
+     "To Life",
+     "L'Chaim",
+     "Lchaim"
+    ],
+    [
+     "Do You Love Me?",
+     "Do You Love Me"
+    ],
+    "Anatevka",
+    "Miracle of Miracles",
+    "Sabbath Prayer",
+    "Now I Have Everything",
+    [
+     "Far from the Home I Love",
+     "Far From the Home I Love"
+    ],
+    [
+     "Chavaleh",
+     "Chavaleh (Little Bird)"
+    ],
+    [
+     "The Rumor",
+     "The Rumor / I Just Heard",
+     "I Just Heard"
+    ],
+    [
+     "Tevye's Dream",
+     "Tevyes Dream"
+    ]
+   ]
+  },
+  {
+   "id": "xu2-oklahoma-musical-songs",
+   "tags": [
+    "musicals"
+   ],
+   "text": "Name a song from the musical 'Oklahoma!'",
+   "answers": [
+    [
+     "Oh, What a Beautiful Mornin'",
+     "Oh What a Beautiful Morning",
+     "Beautiful Mornin'",
+     "Oh What a Beautiful Mornin"
+    ],
+    [
+     "Oklahoma",
+     "Oklahoma!"
+    ],
+    [
+     "People Will Say We're in Love",
+     "People Will Say Were in Love"
+    ],
+    [
+     "The Surrey with the Fringe on Top",
+     "Surrey with the Fringe on Top"
+    ],
+    "Kansas City",
+    [
+     "I Cain't Say No",
+     "I Can't Say No"
+    ],
+    "Many a New Day",
+    [
+     "The Farmer and the Cowman",
+     "Farmer and the Cowman"
+    ],
+    "Out of My Dreams",
+    "Lonely Room",
+    [
+     "Pore Jud Is Daid",
+     "Poor Jud Is Dead"
+    ],
+    [
+     "All Er Nuthin'",
+     "All er Nothin'",
+     "All or Nothing"
+    ],
+    [
+     "It's a Scandal! It's an Outrage!",
+     "Its a Scandal Its an Outrage",
+     "It's a Scandal"
+    ]
+   ]
+  }
+ ]
+}
