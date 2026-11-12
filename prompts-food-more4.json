@@ -56,7 +56,6 @@
     ],
     [
      "Waitrose No.1",
-     "Waitrose No 1",
      "No.1"
     ],
     [
@@ -108,10 +107,7 @@
      "Tesco Plant Chef",
      "Plant Chef"
     ],
-    [
-     "Iceland Luxury",
-     "Iceland Slimming World"
-    ],
+    "Iceland Luxury",
     "Little Ones",
     [
      "M&S Count on Us",
@@ -128,6 +124,10 @@
     [
      "Waitrose LoveLife",
      "LoveLife"
+    ],
+    [
+     "Iceland Slimming World",
+     "Slimming World"
     ]
    ]
   },
@@ -297,10 +297,7 @@
     "Vivera",
     "Cauldron",
     "Meatless Farm",
-    [
-     "Fry's",
-     "Frys"
-    ],
+    "Fry's",
     "Moving Mountains",
     "VBites",
     [
@@ -1042,7 +1039,19 @@
     "Syria",
     "Vietnam",
     "Australia",
-    "New Zealand"
+    "New Zealand",
+    "Egypt",
+    "Paraguay",
+    "Jordan",
+    "Thailand",
+    "Madagascar",
+    "Turkmenistan",
+    "Uzbekistan",
+    "Kyrgyzstan",
+    "Tajikistan",
+    "Mongolia",
+    "Mauritius",
+    "Panama"
    ]
   },
   {
@@ -1053,29 +1062,20 @@
    "text": "Name a wine brand sold in UK supermarkets",
    "answers": [
     "Blossom Hill",
-    [
-     "Jacob's Creek",
-     "Jacobs Creek"
-    ],
+    "Jacob's Creek",
     "Hardys",
     [
      "Gallo",
      "E&J Gallo"
     ],
-    [
-     "Yellow Tail",
-     "[yellow tail]"
-    ],
+    "Yellow Tail",
     "Echo Falls",
     "Barefoot",
     "Oyster Bay",
     "Casillero del Diablo",
     "Isla Negra",
     "Campo Viejo",
-    [
-     "Lindeman's",
-     "Lindemans"
-    ],
+    "Lindeman's",
     "Wolf Blass",
     "Villa Maria",
     "Cloudy Bay",
@@ -1086,7 +1086,10 @@
     "Black Tower",
     "Piat d'Or",
     "Hugel",
-    "Brancott Estate",
+    [
+     "Brancott Estate",
+     "Montana"
+    ],
     "Sacred Hill",
     "Banrock Station",
     "Apothic",
@@ -1095,10 +1098,7 @@
     "Penfolds",
     "Concha y Toro",
     "Santa Rita",
-    [
-     "Marqués de Cáceres",
-     "Marques de Caceres"
-    ],
+    "Marqués de Cáceres",
     "Faustino",
     "Louis Latour",
     "Baron de Lestac",
@@ -1111,7 +1111,14 @@
     "Mud House",
     "Cono Sur",
     "Trivento",
-    "Stowells"
+    "Stowells",
+    "Freixenet",
+    "Dark Horse",
+    "Whispering Angel",
+    "Torres",
+    "Errázuriz",
+    "Mionetto",
+    "Babich"
    ]
   },
   {
@@ -1296,10 +1303,7 @@
     "Shochu",
     "Awamori",
     "Oolong",
-    [
-     "Hojicha",
-     "Hōjicha"
-    ],
+    "Hojicha",
     "Genmaicha",
     "Sencha",
     "Gyokuro",
@@ -1325,7 +1329,6 @@
     "Amazake",
     [
      "Chu-hi",
-     "Chuhai",
      "Chuhai"
     ],
     "Choya",
@@ -1593,10 +1596,7 @@
    "answers": [
     "Red",
     "White",
-    [
-     "Rosé",
-     "Rose"
-    ],
+    "Rosé",
     "Sparkling",
     "Orange",
     "Fortified",
@@ -1625,7 +1625,35 @@
     "Medium Dry",
     "Medium Sweet",
     "Blush",
-    "Mulled Wine"
+    [
+     "Still",
+     "Still Wine"
+    ],
+    [
+     "Organic",
+     "Organic Wine"
+    ],
+    "Biodynamic",
+    [
+     "Semi-Sparkling",
+     "Frizzante",
+     "Petillant"
+    ],
+    [
+     "Low Alcohol",
+     "Alcohol-Free",
+     "Non-Alcoholic"
+    ],
+    [
+     "Noble Rot",
+     "Botrytised",
+     "Botrytis"
+    ],
+    "Tawny",
+    [
+     "Vegan",
+     "Vegan Wine"
+    ]
    ]
   }
  ]

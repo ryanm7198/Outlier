@@ -11,10 +11,7 @@
     "Champagne",
     "Prosecco",
     "Cava",
-    [
-     "Crémant",
-     "Cremant"
-    ],
+    "Crémant",
     "Franciacorta",
     [
      "Asti",
@@ -24,8 +21,7 @@
     "Sekt",
     [
      "Cap Classique",
-     "Méthode Cap Classique",
-     "Methode Cap Classique"
+     "Méthode Cap Classique"
     ],
     [
      "English Sparkling Wine",
@@ -34,8 +30,7 @@
     "Moscato d'Asti",
     [
      "Pétillant Naturel",
-     "Pet-Nat",
-     "Pet Nat"
+     "Pet-Nat"
     ],
     [
      "Blanquette de Limoux",
@@ -50,19 +45,27 @@
     "Sparkling Shiraz",
     "Frizzante",
     "Clairette de Die",
-    [
-     "Sparkling Rosé",
-     "Sparkling Rose"
-    ],
-    [
-     "Crémant de Loire",
-     "Cremant de Loire"
-    ],
+    "Sparkling Rosé",
+    "Crémant de Loire",
     [
      "Saumur Mousseux",
      "Saumur"
     ],
-    "Vouvray Mousseux"
+    "Vouvray Mousseux",
+    "Crémant d'Alsace",
+    "Crémant de Bourgogne",
+    "Alta Langa",
+    [
+     "Prosecco Superiore",
+     "Conegliano Valdobbiadene"
+    ],
+    [
+     "Oltrepò Pavese Metodo Classico",
+     "Oltrepo Pavese"
+    ],
+    "Crémant de Limoux",
+    "Blanc de Blancs",
+    "Blanc de Noirs"
    ]
   },
   {
@@ -709,33 +712,21 @@
     "Hovis",
     "Kingsmill",
     "Allinson",
-    [
-     "Mother's Pride",
-     "Mothers Pride"
-    ],
+    "Mother's Pride",
     "Sunblest",
     "Roberts",
-    [
-     "Vogel's",
-     "Vogels"
-    ],
+    "Vogel's",
     "Genius",
     [
-     "Jacksons of Piccadilly",
+     "Jacksons of Yorkshire",
      "Jacksons"
     ],
     "Burgen",
     "Nimble",
-    [
-     "Brace's",
-     "Braces"
-    ],
+    "Brace's",
     "Soreen",
     "Rudi's",
-    [
-     "The Village Bakery",
-     "Village Bakery"
-    ],
+    "The Village Bakery",
     "Wonderloaf",
     "Fletchers"
    ]
@@ -794,10 +785,7 @@
    ],
    "text": "Name a yoghurt or dessert brand sold in the UK",
    "answers": [
-    [
-     "Müller",
-     "Muller"
-    ],
+    "Müller",
     "Yeo Valley",
     "Activia",
     "Danone",
@@ -810,10 +798,7 @@
     "Ski",
     "Fage",
     "Chobani",
-    [
-     "Rachel's",
-     "Rachels"
-    ],
+    "Rachel's",
     "Alpro",
     [
      "Arla Skyr",
@@ -821,29 +806,16 @@
     ],
     "Ambrosia",
     "Angel Delight",
-    [
-     "Müllerlight",
-     "Mullerlight"
-    ],
+    "Müllerlight",
     [
      "Müller Corner",
-     "Muller Corner",
      "Corner"
     ],
     "Shape",
-    [
-     "Gü",
-     "Gu"
-    ],
+    "Gü",
     "Danio",
-    [
-     "Bird's",
-     "Birds"
-    ],
-    [
-     "Mullerice",
-     "Müllerice"
-    ],
+    "Bird's",
+    "Mullerice",
     "Yoplait"
    ]
   },
@@ -909,42 +881,25 @@
      "Daddies",
      "Daddies Sauce"
     ],
-    [
-     "Lea & Perrins",
-     "Lea and Perrins"
-    ],
-    [
-     "Colman's",
-     "Colmans"
-    ],
-    [
-     "Hellmann's",
-     "Hellmanns"
-    ],
+    "Lea & Perrins",
+    "Colman's",
+    "Hellmann's",
     "Branston",
     "Encona",
     "Tabasco",
-    [
-     "Nando's",
-     "Nandos"
-    ],
+    "Nando's",
     "Kikkoman",
     "Maggi",
     [
      "Frank's RedHot",
-     "Franks RedHot",
      "Frank's"
     ],
     [
      "Henderson's Relish",
-     "Hendersons Relish",
      "Hendersons"
     ],
     "Reggae Reggae",
-    [
-     "Sarson's",
-     "Sarsons"
-    ],
+    "Sarson's",
     "Chef",
     [
      "OK Sauce",
@@ -962,24 +917,15 @@
    "text": "Name a cooking sauce, gravy or stock brand sold in the UK",
    "answers": [
     "Dolmio",
-    [
-     "Ragu",
-     "Ragù"
-    ],
+    "Ragu",
     "Loyd Grossman",
     [
      "Uncle Ben's",
-     "Uncle Bens"
+     "Ben's Original"
     ],
     "Old El Paso",
-    [
-     "Patak's",
-     "Pataks"
-    ],
-    [
-     "Sharwood's",
-     "Sharwoods"
-    ],
+    "Patak's",
+    "Sharwood's",
     "Blue Dragon",
     "Amoy",
     "Homepride",
@@ -989,15 +935,9 @@
     "Oxo",
     "Knorr",
     "Schwartz",
-    [
-     "Colman's",
-     "Colmans"
-    ],
+    "Colman's",
     "Sacla'",
-    [
-     "Newman's Own",
-     "Newmans Own"
-    ],
+    "Newman's Own",
     "Maggi",
     "Bovril",
     "Kallo"
@@ -1089,10 +1029,7 @@
    ],
    "text": "Name a coffee brand sold in the UK",
    "answers": [
-    [
-     "Nescafé",
-     "Nescafe"
-    ],
+    "Nescafé",
     "Kenco",
     "Douwe Egberts",
     "Lavazza",
@@ -1111,10 +1048,7 @@
      "Nescafé Dolce Gusto"
     ],
     "Percol",
-    [
-     "Cafédirect",
-     "Cafedirect"
-    ],
+    "Cafédirect",
     "Jacobs",
     "Segafredo",
     [
@@ -1131,19 +1065,33 @@
      "Camp"
     ],
     "Mellow Birds",
-    [
-     "Bewley's",
-     "Bewleys"
-    ],
+    "Bewley's",
     "Monsoon Estates",
     "Alta Rica",
     "Kimbo",
-    [
-     "Caffè Nero",
-     "Caffe Nero"
-    ],
+    "Caffè Nero",
     "Tchibo",
-    "Gevalia"
+    "Gevalia",
+    [
+     "Coffee-mate",
+     "Coffeemate"
+    ],
+    [
+     "L'OR",
+     "L OR"
+    ],
+    [
+     "Pact",
+     "Pact Coffee"
+    ],
+    [
+     "Rave Coffee",
+     "Rave"
+    ],
+    [
+     "Aldi Barissimo",
+     "Barissimo"
+    ]
    ]
   },
   {
@@ -1153,19 +1101,12 @@
    ],
    "text": "Name a butter, spread or jam brand sold in the UK",
    "answers": [
-    [
-     "Hartley's",
-     "Hartleys"
-    ],
-    [
-     "Robertson's",
-     "Robertsons"
-    ],
+    "Hartley's",
+    "Robertson's",
     "Bonne Maman",
     "Tiptree",
     [
      "Wilkin & Sons",
-     "Wilkin and Sons",
      "Wilkins"
     ],
     "Marmite",
@@ -1178,7 +1119,6 @@
     "Clover",
     [
      "I Can't Believe It's Not Butter!",
-     "I Cant Believe Its Not Butter",
      "ICBINB"
     ],
     "Kerrygold",
@@ -1188,36 +1128,21 @@
     "Benecol",
     "Vitalite",
     "Pure",
-    [
-     "Sun-Pat",
-     "Sun Pat"
-    ],
+    "Sun-Pat",
     "Skippy",
     "Meridian",
     "Whole Earth",
-    [
-     "Pip & Nut",
-     "Pip and Nut"
-    ],
+    "Pip & Nut",
     [
      "Biscoff",
      "Lotus Biscoff"
     ],
-    [
-     "Lyle's",
-     "Lyles"
-    ],
+    "Lyle's",
     "Rowse",
-    [
-     "Frank Cooper's",
-     "Frank Coopers"
-    ],
+    "Frank Cooper's",
     "Chivers",
     "Gales",
-    [
-     "Smucker's",
-     "Smuckers"
-    ]
+    "Smucker's"
    ]
   },
   {
@@ -1232,10 +1157,7 @@
     "Napolina",
     "Buitoni",
     "Dolmio",
-    [
-     "Ragu",
-     "Ragù"
-    ],
+    "Ragu",
     "Loyd Grossman",
     "Sacla'",
     "Bertolli",
@@ -1243,7 +1165,7 @@
     "Homepride",
     [
      "Uncle Ben's",
-     "Uncle Bens"
+     "Ben's Original"
     ],
     "Divella",
     "Garofalo",
@@ -1256,10 +1178,7 @@
     "Mutti",
     "Pasta Reale",
     "Merchant Gourmet",
-    [
-     "Newman's Own",
-     "Newmans Own"
-    ],
+    "Newman's Own",
     "Chicken Tonight",
     "Filippo Berio",
     "Cirio",
@@ -1280,22 +1199,13 @@
     "Batchelors",
     "Napolina",
     "Branston",
-    [
-     "Crosse & Blackwell",
-     "Crosse and Blackwell"
-    ],
-    [
-     "Campbell's",
-     "Campbells"
-    ],
+    "Crosse & Blackwell",
+    "Campbell's",
     "Fray Bentos",
     "Spam",
     "Ambrosia",
     "Carnation",
-    [
-     "Libby's",
-     "Libbys"
-    ],
+    "Libby's",
     "Del Monte",
     "Dole",
     "Hormel",
