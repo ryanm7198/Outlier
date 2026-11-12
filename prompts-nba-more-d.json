@@ -6,7 +6,7 @@
 "tags": [
 "draft"
 ],
-"text": "Name a player drafted into the NBA or BAA from the University of Kentucky (drafts up to 2025)",
+"text": "Name a player drafted into the NBA or BAA from the University of Kentucky (drafts up to 2026)",
 "answers": [
 [
 "Anthony Davis",
@@ -93,7 +93,11 @@
 "Shaedon Sharpe",
 "Sharpe"
 ],
+[
 "TyTy Washington Jr.",
+"TyTy Washington",
+"Washington"
+],
 [
 "Isaiah Jackson",
 "Jackson"
@@ -533,7 +537,15 @@
 "Koby Brea",
 "Brea"
 ],
-"Amari Williams"
+"Amari Williams",
+[
+"Jayden Quaintance",
+"Quaintance"
+],
+[
+"Otega Oweh",
+"Oweh"
+]
 ],
 "eraText": "Name a player from Kentucky who was drafted into the NBA in the {era}",
 "eras": {
@@ -865,6 +877,12 @@
 "20s"
 ],
 "Amari Williams": [
+"20s"
+],
+"Jayden Quaintance": [
+"20s"
+],
+"Otega Oweh": [
 "20s"
 ]
 }
@@ -1302,7 +1320,11 @@
 "Dick Gruber",
 "Gruber"
 ],
-"Charles Scott"
+"Charles Scott",
+[
+"Henri Veesaar",
+"Veesaar"
+]
 ],
 "eraText": "Name a player from North Carolina who was drafted into the NBA in the {era}",
 "eras": {
@@ -1617,6 +1639,9 @@
 ],
 "Lee Shaffer": [
 "60s"
+],
+"Henri Veesaar": [
+"20s"
 ]
 }
 },
@@ -1625,7 +1650,7 @@
 "tags": [
 "draft"
 ],
-"text": "Name a player drafted into the NBA or BAA from the University of Arizona (as listed on Wikipedia, drafts up to 2022)",
+"text": "Name a player drafted into the NBA or BAA from the University of Arizona (drafts up to 2026)",
 "answers": [
 [
 "Steve Kerr",
@@ -1876,6 +1901,26 @@
 [
 "Lincoln Richmond",
 "Richmond"
+],
+[
+"Pelle Larsson",
+"Larsson"
+],
+[
+"Carter Bryant",
+"Bryant"
+],
+[
+"Brayden Burries",
+"Burries"
+],
+[
+"Koa Peat",
+"Peat"
+],
+[
+"Jaden Bradley",
+"Bradley"
 ]
 ],
 "eraText": "Name a player from Arizona who was drafted into the NBA in the {era}",
@@ -2068,6 +2113,21 @@
 ],
 "Mike Foster": [
 "70s"
+],
+"Pelle Larsson": [
+"20s"
+],
+"Carter Bryant": [
+"20s"
+],
+"Brayden Burries": [
+"20s"
+],
+"Koa Peat": [
+"20s"
+],
+"Jaden Bradley": [
+"20s"
 ]
 },
 "deep": true
@@ -2077,7 +2137,7 @@
 "tags": [
 "draft"
 ],
-"text": "Name a player drafted into the NBA or BAA from Indiana University (as listed on Wikipedia, drafts up to 2024)",
+"text": "Name a player drafted into the NBA or BAA from Indiana University (drafts up to 2026)",
 "answers": [
 "Isiah Thomas",
 [
@@ -2590,7 +2650,11 @@
 "McGary"
 ],
 "Moritz Wagner",
+[
 "Morez Johnson Jr.",
+"Morez Johnson",
+"Morez"
+],
 [
 "Yaxel Lendeborg",
 "Lendeborg"
