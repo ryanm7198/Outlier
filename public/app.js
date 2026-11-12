@@ -13,9 +13,11 @@ const store = {
 };
 
 async function api(path, body) {
+  const session = store.get('outlier.session', '');
+  const headers = session ? { 'X-Session': session } : {};
   const res = await fetch(path, body
-    ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }
-    : undefined);
+    ? { method: 'POST', headers: { ...headers, 'Content-Type': 'application/json' }, body: JSON.stringify(body) }
+    : { headers });
   const data = await res.json().catch(() => ({}));
   if (!res.ok) throw Object.assign(new Error(data.error || 'Something went wrong'), { status: res.status });
   return data;
@@ -74,6 +76,7 @@ const ICON = {
   crosshair: '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>',
   zap: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
   check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
+  shield: '<path d="M12 3l7.5 3v5.5c0 4.6-3.1 8-7.5 9.5-4.4-1.5-7.5-4.9-7.5-9.5V6z"/><path d="M9 12l2.2 2.2L15.5 10"/>',
 };
 const ic = (name, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICON[name] || ''}</svg>`;
 const PCOL = ['#ff6b6b', '#ff9f43', '#feca57', '#7bd88f', '#2ed3b7', '#4cc9f0', '#5b8cff', '#9b7bff', '#d77bff', '#ff7bd0', '#b8c4d6', '#c9a27a'];
@@ -566,6 +569,7 @@ function home() {
       ${mode('solo', 'user', 'Play solo', 'Daily seven, or a quick game to challenge a friend', true)}
       ${mode('party', 'users', 'Party game', 'Everyone plays together on their own phone')}
     </div>
+    ${accountLine()}
     ${streak.n > 1 ? `<div class="streak">${ic('flame')}<span><b>${streak.n}-day</b> daily streak</span></div>` : ''}
     <section class="card how">
       <h3>How it works</h3>
@@ -578,6 +582,65 @@ function home() {
     </section>`);
   $('#solo').onclick = soloMenu;
   $('#party').onclick = () => partyMenu();
+  accountWire();
+}
+
+// ------------------------------------------------------------ account
+
+let me = null, signinOn = false;   // me = { email } when signed in; signinOn = the server can email sign-in links
+
+async function loadMe() {
+  try { const r = await api('/api/me'); me = r.user; signinOn = !!r.signin; } catch { me = null; }
+  if (!me && store.get('outlier.session', '')) store.del('outlier.session');
+}
+
+function accountLine() {
+  if (!me && !signinOn) return '';   // hidden until the server has email sending set up
+  return me
+    ? `<p class="acct muted center">Signed in as <b>${esc(me.email)}</b> · <button class="link" id="signout">Sign out</button></p>`
+    : `<p class="acct muted center"><button class="link" id="signin">Sign in</button> to keep your history</p>`;
+}
+
+function accountWire() {
+  if ($('#signin')) $('#signin').onclick = () => signInScreen();
+  if ($('#signout')) $('#signout').onclick = async () => {
+    try { await api('/api/auth/logout', {}); } catch { /* the session is dropped here either way */ }
+    store.del('outlier.session'); me = null; toast('Signed out'); home();
+  };
+}
+
+function signInScreen(sent = null) {
+  stopTimer();
+  show(`${topbar('Sign in')}
+    ${sent ? `<div class="card center stack"><h2>Check your email</h2>
+        <p class="muted">We sent a sign-in link to <b>${esc(sent.email)}</b>. Tap it on this device and you are in. The link works once and expires in 15 minutes.</p>
+        ${sent.devLink ? `<a class="btn primary" href="${esc(sent.devLink)}">Open the sign-in link (test mode)</a>` : ''}</div>
+      <button class="btn" id="again">Use a different email</button>`
+      : `<section class="field"><label for="email">Your email</label>
+        <input type="email" id="email" placeholder="you@example.com" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false"></section>
+      <button class="btn primary" id="send">Email me a sign-in link</button>
+      <p class="fine">${ic('shield')}<span>No password. Signing in just keeps your play history and unlocks account features. We only use your email to sign you in.</span></p>`}`);
+  $('#back').onclick = home;
+  if (sent) { $('#again').onclick = () => signInScreen(); return; }
+  const go = async () => {
+    const email = $('#email').value.trim();
+    if (!email) return toast('Type your email first');
+    $('#send').disabled = true;
+    try { signInScreen({ ...(await api('/api/auth/request', { email })), email }); }
+    catch (e) { toast(e.message); $('#send').disabled = false; }
+  };
+  $('#send').onclick = go;
+  $('#email').onkeydown = e => { if (e.key === 'Enter') go(); };
+}
+
+async function finishLogin(token) {
+  history.replaceState(null, '', location.pathname);
+  try {
+    const r = await api('/api/auth/verify', { token });
+    store.set('outlier.session', r.session);
+    await loadMe();
+    toast('Signed in');
+  } catch (e) { toast(e.message); }
 }
 
 // ------------------------------------------------------------ solo
@@ -1190,6 +1253,8 @@ function partyFinal(s, host) {
   try { CATS = await api('/api/categories'); } catch { app.innerHTML = '<p class="center muted">Could not reach the game server.</p>'; return; }
   pick = upgradePick(pick);   // older saved picks ({ cat, tags }) become the new mix shape
   const params = new URLSearchParams(location.search);
+  if (params.get('login')) await finishLogin(params.get('login'));
+  await loadMe();
   const invite = params.get('room');
   const challenge = location.pathname.startsWith('/c/') && readChallenge(location.pathname);
   if (challenge) {

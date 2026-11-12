@@ -523,3 +523,6 @@ h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
 .crowd[data-t="4"] i.on { transform: scale(1.25); box-shadow: 0 0 8px color-mix(in srgb, var(--t4) 70%, transparent); }
 .crowd[data-t="5"] i.on { transform: scale(1.9); box-shadow: 0 0 16px color-mix(in srgb, var(--t5) 80%, transparent); z-index: 1; position: relative; }
 @media (prefers-reduced-motion: reduce) { .crowd i { transition: none; } }
+
+.acct { font-size: .85rem; }
+.acct .link { padding: 0; color: var(--you); font-size: inherit; font-weight: 700; }

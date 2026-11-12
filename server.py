@@ -7,6 +7,7 @@ Approve:  python server.py approve <prompt-id> <answer text>
 """
 import datetime
 import glob
+import hashlib
 import json
 import math
 import os
@@ -20,6 +21,8 @@ import threading
 import time
 import traceback
 import unicodedata
+import urllib.error
+import urllib.request
 import zlib
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
@@ -29,6 +32,10 @@ PUBLIC = os.path.join(ROOT, "public")
 # Where the crowd's answer counts live. On a host with a persistent disk, set OUTLIER_DB to a file on that disk.
 DB_PATH = os.environ.get("OUTLIER_DB") or os.path.join(ROOT, "data", "outlier.db")
 PORT = int(os.environ.get("PORT", "8321"))
+DEV = os.environ.get("OUTLIER_DEV") == "1"                  # local testing: sign-in links are printed and returned, not emailed
+MAIL_KEY = os.environ.get("RESEND_API_KEY", "")              # Resend (resend.com) key for sending sign-in emails
+MAIL_FROM = os.environ.get("OUTLIER_MAIL_FROM", "Outlier <hello@outliertrivia.app>")
+SITE_URL = os.environ.get("OUTLIER_SITE_URL", "https://outliertrivia.app").rstrip("/")
 
 DAILY_N = 7            # prompts in a daily game
 GAME_N = 7             # prompts in a free-play game
@@ -261,6 +268,11 @@ def open_db():
                "PRIMARY KEY (prompt_id, key))")
     DB.execute("CREATE TABLE IF NOT EXISTS scores (seed TEXT, cid TEXT, name TEXT, total INTEGER, pts TEXT, "
                "ts INTEGER, PRIMARY KEY (seed, cid))")
+    DB.execute("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, email TEXT UNIQUE, created INTEGER)")
+    DB.execute("CREATE TABLE IF NOT EXISTS logins (hash TEXT PRIMARY KEY, email TEXT, created INTEGER, expires INTEGER, used INTEGER DEFAULT 0)")
+    DB.execute("CREATE TABLE IF NOT EXISTS sessions (hash TEXT PRIMARY KEY, user_id INTEGER, expires INTEGER)")
+    DB.execute("CREATE TABLE IF NOT EXISTS user_plays (user_id INTEGER, ts INTEGER, prompt_id TEXT, answer TEXT, points INTEGER, share REAL)")
+    DB.execute("CREATE INDEX IF NOT EXISTS user_plays_user ON user_plays (user_id, ts)")
     for p in PROMPTS.values():
         # A long-tailed start in list order. The last answer listed (last two on long lists) starts below
         # everything else, so it is the Outlier; neighbours deep in a long list may tie, which only
@@ -348,6 +360,93 @@ def judge(pid, raw, counts=None):
         out.update(canonical=name, points=points_for(counts, name), share=share_for(counts, name),
                    outlier=name in outliers_for(counts))
     return out
+
+
+# ---------------------------------------------------------------- accounts
+# Sign in with an emailed one-use link (no passwords). A session token lives in the browser; only its hash is stored.
+
+CURRENT = {"token": "", "host": ""}   # the request being served; set under LOCK in run_api
+LOGIN_TTL, SESSION_TTL = 15 * 60, 90 * 86400
+EMAIL_RE = re.compile(r"^[^@\s]{1,64}@[^@\s]{1,120}\.[^@\s]{2,24}$")
+
+
+def sha(text):
+    return hashlib.sha256(text.encode()).hexdigest()
+
+
+def current_user():
+    tok = CURRENT["token"]
+    if not tok:
+        return None
+    row = DB.execute("SELECT u.id, u.email FROM sessions s JOIN users u ON u.id = s.user_id "
+                     "WHERE s.hash = ? AND s.expires > ?", (sha(tok), int(time.time()))).fetchone()
+    return {"id": row[0], "email": row[1]} if row else None
+
+
+def send_login_email(email, link):
+    body = {"from": MAIL_FROM, "to": [email], "subject": "Your Outlier sign-in link",
+            "text": f"Tap to sign in to Outlier (the link works once and expires in 15 minutes):\n\n{link}\n\n"
+                    "If you did not ask for this, you can ignore this email."}
+    req = urllib.request.Request("https://api.resend.com/emails", json.dumps(body).encode(), method="POST",
+                                 headers={"Authorization": f"Bearer {MAIL_KEY}", "Content-Type": "application/json"})
+    try:
+        urllib.request.urlopen(req, timeout=10).read()
+    except (urllib.error.URLError, OSError):
+        raise ApiError(502, "Could not send the email. Try again in a moment.")
+
+
+def request_login(body):
+    email = str(body.get("email") or "").strip().lower()[:160]
+    if not EMAIL_RE.match(email):
+        raise ApiError(400, "That does not look like an email address")
+    if not (MAIL_KEY or DEV):
+        raise ApiError(503, "Email sign-in is not switched on yet")
+    now = int(time.time())
+    DB.execute("DELETE FROM logins WHERE expires < ?", (now - 86400,))
+    if DB.execute("SELECT COUNT(*) FROM logins WHERE email = ? AND created > ?", (email, now - 3600)).fetchone()[0] >= 5:
+        raise ApiError(429, "Too many sign-in emails for that address. Try again in an hour.")
+    if DB.execute("SELECT COUNT(*) FROM logins WHERE created > ?", (now - 3600,)).fetchone()[0] >= 300:
+        raise ApiError(429, "Lots of people are signing in. Try again shortly.")
+    token = secrets.token_urlsafe(32)
+    DB.execute("INSERT INTO logins (hash, email, created, expires) VALUES (?, ?, ?, ?)", (sha(token), email, now, now + LOGIN_TTL))
+    DB.commit()
+    base = f"http://{CURRENT['host']}" if DEV and CURRENT["host"] else SITE_URL
+    link = f"{base}/?login={token}"
+    if MAIL_KEY:
+        send_login_email(email, link)
+        return {"ok": True}
+    print(f"  Sign-in link for {email}: {link}")
+    return {"ok": True, "devLink": link}
+
+
+def verify_login(body):
+    token = str(body.get("token") or "")
+    now = int(time.time())
+    row = DB.execute("SELECT email FROM logins WHERE hash = ? AND used = 0 AND expires > ?", (sha(token), now)).fetchone()
+    if not row:
+        raise ApiError(400, "That sign-in link has expired or was already used. Ask for a new one.")
+    DB.execute("UPDATE logins SET used = 1 WHERE hash = ?", (sha(token),))
+    DB.execute("INSERT OR IGNORE INTO users (email, created) VALUES (?, ?)", (row[0], now))
+    uid = DB.execute("SELECT id FROM users WHERE email = ?", (row[0],)).fetchone()[0]
+    session = secrets.token_urlsafe(32)
+    DB.execute("INSERT INTO sessions VALUES (?, ?, ?)", (sha(session), uid, now + SESSION_TTL))
+    DB.execute("DELETE FROM sessions WHERE expires < ?", (now,))
+    DB.commit()
+    return {"session": session, "email": row[0]}
+
+
+def logout():
+    if CURRENT["token"]:
+        DB.execute("DELETE FROM sessions WHERE hash = ?", (sha(CURRENT["token"]),))
+        DB.commit()
+    return {"ok": True}
+
+
+def log_play(pid, out):
+    user = current_user()
+    if user and out["given"]:
+        DB.execute("INSERT INTO user_plays VALUES (?, ?, ?, ?, ?, ?)",
+                   (user["id"], int(time.time()), pid, out["canonical"] or out["given"], out["points"], out["share"]))
 
 
 # ---------------------------------------------------------------- categories
@@ -912,6 +1011,9 @@ def api_get(path, q):
         out = public_prompt(pick_balanced(q.get("cat", "all"), tags, ids, seen, 1)[0])
         out.update(roundMs=ROUND_S * 1000, poolSize=len(ids))
         return out
+    if path == "/api/me":
+        user = current_user()
+        return {"user": {"email": user["email"]} if user else None, "signin": bool(MAIL_KEY or DEV)}
     if path == "/api/board":
         return board_out(q.get("seed"), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32])
     if path == "/api/room/state":
@@ -923,6 +1025,12 @@ def api_get(path, q):
 def api_post(path, body):
     if path == "/api/score":
         return post_score(body)
+    if path == "/api/auth/request":
+        return request_login(body)
+    if path == "/api/auth/verify":
+        return verify_login(body)
+    if path == "/api/auth/logout":
+        return logout()
     if path == "/api/answer":
         pid = body.get("promptId")
         if pid not in PROMPTS:
@@ -934,6 +1042,8 @@ def api_post(path, body):
         out["prompt"] = PROMPTS[pid]["text"]
         if out["given"]:
             record(pid, out["canonical"], out["given"])
+            log_play(pid, out)
+            DB.commit()
         return out
     if path == "/api/check":
         # Lets the page ask "Did you mean ...?" before a near-miss spelling is locked in.
@@ -1045,6 +1155,8 @@ class Handler(BaseHTTPRequestHandler):
     def run_api(self, fn, *args):
         try:
             with LOCK:
+                CURRENT["token"] = (self.headers.get("X-Session") or "")[:80]
+                CURRENT["host"] = (self.headers.get("Host") or "")[:80]
                 out = fn(*args)
             self.send_json(out)
         except ApiError as e:
