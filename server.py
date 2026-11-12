@@ -35,6 +35,9 @@ PORT = int(os.environ.get("PORT", "8321"))
 DEV = os.environ.get("OUTLIER_DEV") == "1"                  # local testing: sign-in links are printed and returned, not emailed
 MAIL_KEY = os.environ.get("RESEND_API_KEY", "")              # Resend (resend.com) key for sending sign-in emails
 MAIL_FROM = os.environ.get("OUTLIER_MAIL_FROM", "Outlier <hello@outliertrivia.app>")
+PAYWALL = os.environ.get("OUTLIER_PAYWALL") == "1"            # off: everyone has everything (nothing is limited)
+PLUS_EMAILS = {e.strip().lower() for e in os.environ.get("OUTLIER_PLUS_EMAILS", "").split(",") if e.strip()}   # always full access
+FREE_ROOM, PLUS_ROOM = 4, 12                                  # players in a party room
 SITE_URL = os.environ.get("OUTLIER_SITE_URL", "https://outliertrivia.app").rstrip("/")
 
 DAILY_N = 7            # prompts in a daily game
@@ -272,6 +275,7 @@ def open_db():
     DB.execute("CREATE TABLE IF NOT EXISTS logins (hash TEXT PRIMARY KEY, email TEXT, created INTEGER, expires INTEGER, used INTEGER DEFAULT 0)")
     DB.execute("CREATE TABLE IF NOT EXISTS sessions (hash TEXT PRIMARY KEY, user_id INTEGER, expires INTEGER)")
     DB.execute("CREATE TABLE IF NOT EXISTS user_plays (user_id INTEGER, ts INTEGER, prompt_id TEXT, answer TEXT, points INTEGER, share REAL)")
+    DB.execute("CREATE TABLE IF NOT EXISTS daily_claims (user_id INTEGER, day TEXT, cat TEXT, PRIMARY KEY (user_id, day))")
     DB.execute("CREATE INDEX IF NOT EXISTS user_plays_user ON user_plays (user_id, ts)")
     for p in PROMPTS.values():
         # A long-tailed start in list order. The last answer listed (last two on long lists) starts below
@@ -381,6 +385,36 @@ def current_user():
     row = DB.execute("SELECT u.id, u.email FROM sessions s JOIN users u ON u.id = s.user_id "
                      "WHERE s.hash = ? AND s.expires > ?", (sha(tok), int(time.time()))).fetchone()
     return {"id": row[0], "email": row[1]} if row else None
+
+
+def is_plus(user=None):
+    """Full access: everyone while the paywall is off, otherwise the owner list (paid subscribers join this later)."""
+    user = user or current_user()
+    return (not PAYWALL) or bool(user and user["email"] in PLUS_EMAILS)
+
+
+def need_plus():
+    if not is_plus():
+        raise ApiError(402, "That is part of Outlier Plus")
+
+
+def check_daily(cat):
+    """Free players: Everything daily without an account, plus one other top-level category per day with a free account."""
+    user = current_user()
+    if is_plus(user) or cat == "all":
+        return
+    c = next((c for c in CATS if c["id"] == cat), None)
+    if c is None or c["parent"]:
+        raise ApiError(402, "Picking a specific sub-category is part of Outlier Plus")
+    if not user:
+        raise ApiError(401, "Sign in (it is free) to play a daily in this category")
+    day = datetime.date.today().isoformat()
+    row = DB.execute("SELECT cat FROM daily_claims WHERE user_id = ? AND day = ?", (user["id"], day)).fetchone()
+    if row and row[0] != cat:
+        raise ApiError(402, "You have used your free category daily today. More dailies are part of Outlier Plus.")
+    if not row:
+        DB.execute("INSERT INTO daily_claims VALUES (?, ?, ?)", (user["id"], day, cat))
+        DB.commit()
 
 
 def send_login_email(email, link):
@@ -811,7 +845,7 @@ def clean_name(name):
 
 
 def add_player(room, name):
-    if len(room["players"]) >= 12:
+    if len(room["players"]) >= room.get("cap", PLUS_ROOM):
         raise ApiError(400, "That room is full")
     name, taken = clean_name(name), {p["name"].lower() for p in room["players"].values()}
     base, i = name, 2
@@ -837,6 +871,7 @@ def create_room(name):
     room = {"code": code, "players": {}, "seq": 0, "host": None, "phase": "lobby", "round": 0, "rounds": 5,
             "cat": "all", "tags": [], "used": [], "prompt": None, "deadline": 0, "reveal": None, "touched": now,
             "secs": ROUND_S, "history": [], "asks": []}
+    room["cap"] = PLUS_ROOM if is_plus() else FREE_ROOM   # set by the host's plan
     token = add_player(room, name)
     room["host"] = token
     ROOMS[code] = room
@@ -1001,13 +1036,16 @@ def api_get(path, q):
     if path == "/api/categories":
         return categories()
     if path == "/api/daily":
+        check_daily(q.get("cat", "all"))
         return daily(q.get("cat", "all"))
     if path == "/api/game":
         if q.get("seed"):
             return seeded_game(q["seed"])
+        need_plus()
         tags = [t for t in q.get("tags", "").split(",") if t]
         return new_game(q.get("cat", "all"), tags, q.get("exclude", "").split(","))
     if path == "/api/random":
+        need_plus()
         tags = [t for t in q.get("tags", "").split(",") if t]
         ids = pool(q.get("cat", "all"), tags)
         if not ids:
@@ -1018,7 +1056,12 @@ def api_get(path, q):
         return out
     if path == "/api/me":
         user = current_user()
-        return {"user": {"email": user["email"]} if user else None, "signin": bool(MAIL_KEY or DEV)}
+        claim = None
+        if user:
+            row = DB.execute("SELECT cat FROM daily_claims WHERE user_id = ? AND day = ?", (user["id"], datetime.date.today().isoformat())).fetchone()
+            claim = row[0] if row else None
+        return {"user": {"email": user["email"]} if user else None, "signin": bool(MAIL_KEY or DEV),
+                "plus": is_plus(user), "paywall": PAYWALL, "claim": claim}
     if path == "/api/board":
         return board_out(q.get("seed"), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32])
     if path == "/api/room/state":

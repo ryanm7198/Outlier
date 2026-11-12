@@ -69,6 +69,7 @@ const ICON = {
   left: '<path d="M15 18l-6-6 6-6"/>',
   right: '<path d="M9 6l6 6-6 6"/>',
   x: '<path d="M6 6l12 12M18 6 6 18"/>',
+  lock: '<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>',
   share: '<circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 13.2 7.6 4.6M15.8 6.2 8.2 10.8"/>',
   flame: '<path d="M12 21.5c3.9 0 6.5-2.7 6.5-6.3 0-3.7-2.6-5.6-3.6-9.7-1.8 1.4-2.8 3.4-2.9 5.4-1-.9-1.8-2.2-2-3.9-2.1 2.1-3.5 4.9-3.5 8.2 0 3.6 2.6 6.3 5.5 6.3z"/>',
   link: '<path d="M10 14a4 4 0 0 0 5.7 0l3.1-3.1a4 4 0 0 0-5.7-5.7l-1.2 1.2"/><path d="M14 10a4 4 0 0 0-5.7 0l-3.1 3.1a4 4 0 0 0 5.7 5.7l1.2-1.2"/>',
@@ -587,10 +588,10 @@ function home() {
 
 // ------------------------------------------------------------ account
 
-let me = null, signinOn = false;   // me = { email } when signed in; signinOn = the server can email sign-in links
+let me = null, signinOn = false, plan = { plus: true, paywall: false, claim: null };   // me = { email } when signed in; signinOn = the server can email sign-in links
 
 async function loadMe() {
-  try { const r = await api('/api/me'); me = r.user; signinOn = !!r.signin; } catch { me = null; }
+  try { const r = await api('/api/me'); me = r.user; signinOn = !!r.signin; plan = { plus: r.plus !== false, paywall: !!r.paywall, claim: r.claim || null }; } catch { me = null; }
   if (!me && store.get('outlier.session', '')) store.del('outlier.session');
 }
 
@@ -645,16 +646,76 @@ async function finishLogin(token) {
 
 // ------------------------------------------------------------ solo
 
+const limited = () => plan.paywall && !plan.plus;   // free plan, with the paywall switched on
+
+function wireSeed() {
+  $('#seedGo').onclick = () => {
+    const raw = $('#seedIn').value.trim();
+    let seed = raw, from = '', pts = '';
+    try {
+      const u = new URL(raw), c = u.pathname.startsWith('/c/') && readChallenge(u.pathname);
+      if (c) ({ seed, from, pts } = c);
+      else { seed = u.searchParams.get('play') || ''; from = u.searchParams.get('from') || ''; pts = u.searchParams.get('pts') || ''; }
+    } catch { /* a bare seed */ }
+    if (!seed) return toast('Paste a seed or challenge link');
+    from ? challengeIntro(seed, from, pts) : startGame({ seed });
+  };
+}
+
+const SEEDBOX = () => `<details class="seedbox"><summary>${ic('link')}<span>Got a challenge link or seed from a friend?</span>${ic('right', 'chev')}</summary>
+      <div class="row"><input type="text" id="seedIn" placeholder="Paste the link or seed" autocomplete="off"><button class="btn" id="seedGo">Play</button></div>
+    </details>`;
+
+// The free plan: Everything daily (no account), one other category daily (free account). Quick games and sub-categories are Plus.
+function freeSolo() {
+  stopTimer();
+  const today = new Date().toLocaleDateString('en-CA');
+  const state = id => { const s = store.get('outlier.daily.' + id); return s && s.date === today && s.done ? `Played today: ${s.total} paces` : ''; };
+  const tiles = CATS.filter(x => !x.parent && x.id !== 'all').map(x => {
+    const mine = plan.claim === x.id, shut = !!(plan.claim && !mine);
+    const sub = state(x.id) || (mine ? 'Your free pick today' : shut ? 'Plus' : !me ? 'Free account' : 'Daily seven');
+    return `<button class="tile${mine ? ' on' : ''}${shut ? ' shut' : ''}" data-cat="${x.id}"><span class="tile-ic">${ic(shut ? 'lock' : CAT_ICON[x.id] || 'sparkles')}</span><span class="tile-l">${esc(x.label)}</span><span class="tile-n">${esc(sub)}</span></button>`;
+  }).join('');
+  show(`${topbar('Play solo')}
+    <button class="mode primary" id="dailyAll"><span class="mode-ic">${ic('calendar')}</span><span class="mode-t"><b>Daily seven · Everything</b><small>${state('all') || 'Same seven prompts for everyone today'}</small></span>${ic('right', 'chev')}</button>
+    <section class="sec"><h2 class="sec-h">Your other daily</h2>
+      <p class="fine">${ic('calendar')}<span>${me ? 'Choose one more category to play today.' : 'Sign in (it is free) to play one more category each day.'}</span></p>
+      <div class="tiles">${tiles}</div></section>
+    <button class="mode" id="quick"><span class="mode-ic">${ic('lock')}</span><span class="mode-t"><b>Quick game</b><small>Pick any category or mix. Outlier Plus</small></span>${ic('right', 'chev')}</button>
+    ${SEEDBOX()}`);
+  $('#back').onclick = home;
+  $('#dailyAll').onclick = () => startDaily('all');
+  $('#quick').onclick = () => upsellScreen('Quick games and choosing your own categories are part of Outlier Plus');
+  app.querySelector('.tiles').onclick = e => { const b = e.target.closest('[data-cat]'); if (b) startDaily(b.dataset.cat); };
+  wireSeed();
+}
+
+function upsellScreen(msg) {
+  stopTimer();
+  const li = (icon, t, d) => `<li><span class="award-ic">${ic(icon)}</span><span class="award-t"><b>${t}</b><small>${d}</small></span></li>`;
+  show(`${topbar('Outlier Plus')}
+    <div class="card center stack"><h2>${esc(msg || 'More of Outlier')}</h2>
+      <p class="muted">Outlier Plus is coming soon. Free play stays free: the Daily Everything every day, one more category each day, and every friend's challenge link.</p></div>
+    <section class="card"><h3>With Plus</h3><ul class="awards">
+      ${li('play', 'Quick games', 'Any category, sub-category or mix, any time')}
+      ${li('calendar', 'Every daily', 'Any category every day, not just one')}
+      ${li('users', 'Bigger party rooms', 'Host up to 12 players instead of 4')}
+    </ul></section>
+    ${me ? '' : '<button class="btn primary" id="signin">Sign in</button>'}
+    <button class="btn" id="ok">Back</button>`);
+  $('#back').onclick = $('#ok').onclick = () => limited() ? freeSolo() : home();
+  if ($('#signin')) $('#signin').onclick = () => signInScreen();
+}
+
 function soloMenu() {
   stopTimer();
+  if (limited()) return freeSolo();
   const recent = store.get('outlier.recent', []).map(upgradePick);
   show(`${topbar('Play solo')}
     ${recent.length ? `<section class="sec"><h2 class="sec-h">Jump back in</h2><div class="recent">${recent.map((r, i) =>
       `<button class="recentbtn" data-i="${i}">${ic(CAT_ICON[selsOf(r).length === 1 ? (catOf(selsOf(r)[0][0]).parent || selsOf(r)[0][0]) : 'all'] || 'sparkles')}<span>${esc(pickLabel(r))}</span></button>`).join('')}</div></section>` : ''}
     <section class="sec"><div id="picker"></div></section>
-    <details class="seedbox"><summary>${ic('link')}<span>Got a challenge link or seed from a friend?</span>${ic('right', 'chev')}</summary>
-      <div class="row"><input type="text" id="seedIn" placeholder="Paste the link or seed" autocomplete="off"><button class="btn" id="seedGo">Play</button></div>
-    </details>
+    ${SEEDBOX()}
     <div class="cta">
       <button class="btn primary big" id="free"></button>
       <button class="btn big" id="daily"></button>
@@ -678,22 +739,18 @@ function soloMenu() {
     store.set('outlier.pick', pick);
     startGame();
   });
-  $('#seedGo').onclick = () => {
-    const raw = $('#seedIn').value.trim();
-    let seed = raw, from = '', pts = '';
-    try {
-      const u = new URL(raw), c = u.pathname.startsWith('/c/') && readChallenge(u.pathname);
-      if (c) ({ seed, from, pts } = c);
-      else { seed = u.searchParams.get('play') || ''; from = u.searchParams.get('from') || ''; pts = u.searchParams.get('pts') || ''; }
-    } catch { /* a bare seed */ }
-    if (!seed) return toast('Paste a seed or challenge link');
-    from ? challengeIntro(seed, from, pts) : startGame({ seed });
-  };
+  wireSeed();
 }
 
-async function startDaily() {
+async function startDaily(cat = dailyCat(pick)) {
   let day;
-  try { day = await api('/api/daily?cat=' + encodeURIComponent(dailyCat(pick))); } catch (e) { return toast(e.message); }
+  try { day = await api('/api/daily?cat=' + encodeURIComponent(cat)); }
+  catch (e) {
+    if (e.status === 401) { toast(e.message); return signInScreen(); }
+    if (e.status === 402) return upsellScreen(e.message);
+    return toast(e.message);
+  }
+  if (me && limited() && cat !== 'all') plan.claim = cat;
   const key = 'outlier.daily.' + day.cat;
   let saved = store.get(key);
   if (!saved || saved.date !== day.date) saved = { date: day.date, number: day.number, label: day.label, results: [], done: false };
@@ -956,6 +1013,7 @@ function partyMenu(code = '') {
     <section class="card choice${code ? '' : ' lead'}">
       <div class="choice-h"><span class="mode-ic">${ic('crown')}</span><div><b>Host a game</b><small>Get a room code, pick the category, start when everyone's in</small></div></div>
       <button class="btn${code ? '' : ' primary'}" id="create">Create a room</button>
+      ${limited() ? `<p class="fine">${ic('users')}<span>Free rooms hold 4 players. Outlier Plus hosts up to 12.</span></p>` : ''}
     </section>
     <section class="card choice${code ? ' lead' : ''}">
       <div class="choice-h"><span class="mode-ic">${ic('users')}</span><div><b>Join a game</b><small>Enter the 4-letter code from the host's screen</small></div></div>

@@ -526,3 +526,4 @@ h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
 
 .acct { font-size: .85rem; }
 .acct .link { padding: 0; color: var(--you); font-size: inherit; font-weight: 700; }
+.tile.shut { opacity: .55; }
