@@ -618,9 +618,11 @@ function signInScreen(sent = null) {
         <p class="muted">We sent a sign-in link to <b>${esc(sent.email)}</b>. Tap it on this device and you are in. The link works once and expires in 15 minutes.</p>
         ${sent.devLink ? `<a class="btn primary" href="${esc(sent.devLink)}">Open the sign-in link (test mode)</a>` : ''}</div>
       <button class="btn" id="again">Use a different email</button>`
-      : `<section class="field"><label for="email">Your email</label>
+      : `<div class="card stack signin"><div class="center"><span class="mode-ic">${ic('user')}</span><h2>Sign in to Outlier</h2>
+        <p class="muted">Keep your play history and unlock account features.</p></div>
+        <section class="field"><label for="email">Your email</label>
         <input type="email" id="email" placeholder="you@example.com" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false"></section>
-      <button class="btn primary" id="send">Email me a sign-in link</button>
+      <button class="btn primary" id="send">Email me a sign-in link</button></div>
       <p class="fine">${ic('shield')}<span>No password. Signing in just keeps your play history and unlocks account features. We only use your email to sign you in.</span></p>`}`);
   $('#back').onclick = home;
   if (sent) { $('#again').onclick = () => signInScreen(); return; }

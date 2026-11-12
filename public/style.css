@@ -131,14 +131,14 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 .btn:active:not(:disabled) { transform: scale(.985); }
 .link { color: var(--muted); padding: 8px 4px; font-size: .95rem; }
 .stack { display: flex; flex-direction: column; gap: 10px; }
-input[type=text] {
+input[type=text], input[type=email] {
   width: 100%; min-height: 52px; padding: 12px 16px; border-radius: 14px;
   border: 1.5px solid var(--line-2); background: var(--card); color: var(--text);
   font: inherit; font-size: 1.05rem; /* 16px+ stops iOS zooming on focus */
   transition: border-color .15s, box-shadow .15s;
 }
-input[type=text]::placeholder { color: var(--muted); opacity: .75; }
-input[type=text]:focus { outline: none; border-color: var(--you); box-shadow: 0 0 0 4px var(--you-soft); }
+input[type=text]::placeholder, input[type=email]::placeholder { color: var(--muted); opacity: .75; }
+input[type=text]:focus, input[type=email]:focus { outline: none; border-color: var(--you); box-shadow: 0 0 0 4px var(--you-soft); }
 input.code { text-transform: uppercase; letter-spacing: .3em; text-align: center; font-weight: 800; }
 :focus-visible { outline: 2px solid var(--you); outline-offset: 2px; }
 
@@ -527,3 +527,6 @@ h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
 .acct { font-size: .85rem; }
 .acct .link { padding: 0; color: var(--you); font-size: inherit; font-weight: 700; }
 .tile.shut { opacity: .55; }
+.signin { padding: 24px 20px; gap: 16px; }
+.signin .mode-ic { margin: 0 auto 10px; }
+.signin h2 { margin: 0 0 4px; }
