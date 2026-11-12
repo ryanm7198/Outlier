@@ -376,7 +376,7 @@ def judge(pid, raw, counts=None):
 # ---------------------------------------------------------------- accounts
 # Sign in with an emailed one-use link (no passwords). A session token lives in the browser; only its hash is stored.
 
-CURRENT = {"token": "", "host": ""}   # the request being served; set under LOCK in run_api
+CURRENT = {"token": "", "host": "", "cookie": None, "has_cookie": False}   # the request being served; set under LOCK in run_api
 LOGIN_TTL, SESSION_TTL = 15 * 60, 90 * 86400
 EMAIL_RE = re.compile(r"^[^@\s]{1,64}@[^@\s]{1,120}\.[^@\s]{2,24}$")
 
@@ -385,13 +385,29 @@ def sha(text):
     return hashlib.sha256(text.encode()).hexdigest()
 
 
+def session_cookie(token, max_age):
+    """The sign-in cookie: HttpOnly so scripts cannot read it, and kept for the full session length (Safari clears
+    local storage after about a week of not visiting, but keeps cookies like this)."""
+    secure = "; Secure" if (not DEV and SITE_URL.startswith("https")) else ""
+    return f"outlier_session={token}; Path=/; Max-Age={max_age}; HttpOnly; SameSite=Lax{secure}"
+
+
 def current_user():
     tok = CURRENT["token"]
     if not tok:
         return None
-    row = DB.execute("SELECT u.id, u.email FROM sessions s JOIN users u ON u.id = s.user_id "
-                     "WHERE s.hash = ? AND s.expires > ?", (sha(tok), int(time.time()))).fetchone()
-    return {"id": row[0], "email": row[1]} if row else None
+    now = int(time.time())
+    row = DB.execute("SELECT u.id, u.email, s.expires FROM sessions s JOIN users u ON u.id = s.user_id "
+                     "WHERE s.hash = ? AND s.expires > ?", (sha(tok), now)).fetchone()
+    if not row:
+        return None
+    if row[2] < now + SESSION_TTL - 86400:   # used again: the 90 days start over (at most once a day)
+        DB.execute("UPDATE sessions SET expires = ? WHERE hash = ?", (now + SESSION_TTL, sha(tok)))
+        DB.commit()
+        CURRENT["cookie"] = session_cookie(tok, SESSION_TTL)
+    elif not CURRENT["has_cookie"]:          # a session that so far lives only in local storage gets its cookie too
+        CURRENT["cookie"] = session_cookie(tok, SESSION_TTL)
+    return {"id": row[0], "email": row[1]}
 
 
 def is_plus(user=None):
@@ -567,6 +583,7 @@ def verify_login(body):
     DB.execute("INSERT INTO sessions VALUES (?, ?, ?)", (sha(session), uid, now + SESSION_TTL))
     DB.execute("DELETE FROM sessions WHERE expires < ?", (now,))
     DB.commit()
+    CURRENT["cookie"] = session_cookie(session, SESSION_TTL)
     return {"session": session, "email": row[0]}
 
 
@@ -574,6 +591,7 @@ def logout():
     if CURRENT["token"]:
         DB.execute("DELETE FROM sessions WHERE hash = ?", (sha(CURRENT["token"]),))
         DB.commit()
+    CURRENT["cookie"] = session_cookie("", 0)
     return {"ok": True}
 
 
@@ -1291,24 +1309,30 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self, *args):
         pass
 
-    def send_body(self, status, ctype, body):
+    def send_body(self, status, ctype, body, cookie=None):
         self.send_response(status)
+        if cookie:
+            self.send_header("Set-Cookie", cookie)
         self.send_header("Content-Type", ctype)
         self.send_header("Content-Length", str(len(body)))
         self.send_header("Cache-Control", "no-store")
         self.end_headers()
         self.wfile.write(body)
 
-    def send_json(self, obj, status=200):
-        self.send_body(status, "application/json", json.dumps(obj).encode())
+    def send_json(self, obj, status=200, cookie=None):
+        self.send_body(status, "application/json", json.dumps(obj).encode(), cookie)
 
     def run_api(self, fn, *args):
         try:
             with LOCK:
-                CURRENT["token"] = (self.headers.get("X-Session") or "")[:80]
+                jar = {k.strip(): v for k, _, v in (p.partition("=") for p in (self.headers.get("Cookie") or "").split(";"))}
+                CURRENT["has_cookie"] = bool(jar.get("outlier_session"))
+                CURRENT["cookie"] = None
+                CURRENT["token"] = ((self.headers.get("X-Session") or "") or jar.get("outlier_session", ""))[:80]
                 CURRENT["host"] = (self.headers.get("Host") or "")[:80]
                 out = fn(*args)
-            self.send_json(out)
+                cookie = CURRENT["cookie"]
+            self.send_json(out, cookie=cookie)
         except ApiError as e:
             self.send_json({"error": e.msg}, e.status)
         except (BrokenPipeError, ConnectionError):

@@ -591,9 +591,12 @@ function home() {
 
 let me = null, signinOn = false, plan = { plus: true, paywall: false, claim: null, payments: false, price: '', subscribed: false };   // me = { email } when signed in; signinOn = the server can email sign-in links
 
-async function loadMe() {
+async function loadMe(again = true) {
   try { const r = await api('/api/me'); me = r.user; signinOn = !!r.signin; plan = { plus: r.plus !== false, paywall: !!r.paywall, claim: r.claim || null, payments: !!r.payments, price: r.price || '', subscribed: !!r.subscribed }; } catch { me = null; }
-  if (!me && store.get('outlier.session', '')) store.del('outlier.session');
+  if (!me && store.get('outlier.session', '')) {   // a stale saved token: drop it and let the sign-in cookie (if any) speak
+    store.del('outlier.session');
+    if (again) return loadMe(false);
+  }
 }
 
 function accountLine() {
