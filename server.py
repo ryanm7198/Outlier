@@ -388,10 +388,15 @@ def send_login_email(email, link):
             "text": f"Tap to sign in to Outlier (the link works once and expires in 15 minutes):\n\n{link}\n\n"
                     "If you did not ask for this, you can ignore this email."}
     req = urllib.request.Request("https://api.resend.com/emails", json.dumps(body).encode(), method="POST",
-                                 headers={"Authorization": f"Bearer {MAIL_KEY}", "Content-Type": "application/json"})
+                                 headers={"Authorization": f"Bearer {MAIL_KEY}", "Content-Type": "application/json",
+                                          "User-Agent": "outlier-trivia/1.0"})
     try:
         urllib.request.urlopen(req, timeout=10).read()
-    except (urllib.error.URLError, OSError):
+    except urllib.error.HTTPError as e:
+        print("  Resend rejected the email:", e.code, e.read()[:300].decode("utf-8", "replace"), flush=True)
+        raise ApiError(502, "Could not send the email. Try again in a moment.")
+    except (urllib.error.URLError, OSError) as e:
+        print("  Resend unreachable:", e, flush=True)
         raise ApiError(502, "Could not send the email. Try again in a moment.")
 
 
