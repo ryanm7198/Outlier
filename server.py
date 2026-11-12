@@ -324,16 +324,29 @@ def outliers_for(counts):
 OUTLIER_POINTS = 150   # the rarest answer is worth a big step up from the 99 below it
 
 
-def points_for(counts, name, stats=None):
-    """Only an Outlier scores 150 (OUTLIER_POINTS). Everything else runs from 10 (most common) up to 99.
-    stats = (outliers, hi, lo) can be passed in when scoring a whole board at once."""
-    top, hi, lo = stats or (outliers_for(counts), max(counts.values()), min(counts.values()))
-    if name in top:
-        return OUTLIER_POINTS
-    c = counts[name]
-    if hi == lo:
-        return 55
-    return min(99, round(10 + 89 * (math.log(hi) - math.log(c)) / (math.log(hi) - math.log(lo))))
+def score_map(counts, top=None):
+    """Points for every answer. Only an Outlier scores 150 (OUTLIER_POINTS). Everything else is spread from 10
+    (the commonest) to 99 (the rarest non-Outlier), half by how rare it is on a log scale and half by its place in
+    the ranking, so neighbouring answers sit close together and one very rare answer can't stretch the scale."""
+    top = top if top is not None else outliers_for(counts)
+    rest = sorted((n for n in counts if n not in top), key=lambda n: -counts[n])
+    out = {n: OUTLIER_POINTS for n in top}
+    if not rest:
+        return out
+    hi, lo = counts[rest[0]], counts[rest[-1]]
+    first = {}
+    for i, n in enumerate(rest):
+        first.setdefault(counts[n], i)          # tied answers share the same place
+    span = max(1, len(rest) - 1)
+    for n in rest:
+        rank = first[counts[n]] / span
+        logp = (math.log(hi) - math.log(counts[n])) / (math.log(hi) - math.log(lo)) if hi > lo else rank
+        out[n] = min(99, round(10 + 89 * (0.5 * rank + 0.5 * logp)))
+    return out
+
+
+def points_for(counts, name):
+    return score_map(counts)[name]
 
 
 def share_for(counts, name):
@@ -345,10 +358,10 @@ BOARD_MAX = 150   # long lists send the commonest answers plus the player's own 
 
 def board_for(counts, keep=()):
     rows, top = sorted(counts, key=lambda n: -counts[n]), outliers_for(counts)
-    stats, total = (top, max(counts.values()), min(counts.values())), sum(counts.values())
+    pts, total = score_map(counts, top), sum(counts.values())
     if len(rows) > BOARD_MAX:
         rows = rows[:BOARD_MAX] + [n for n in rows[BOARD_MAX:] if n in top or n in keep]
-    return [{"name": n, "share": round(100 * counts[n] / total, 1), "points": points_for(counts, n, stats),
+    return [{"name": n, "share": round(100 * counts[n] / total, 1), "points": pts[n],
              "outlier": n in top} for n in rows]
 
 
