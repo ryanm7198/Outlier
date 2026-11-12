@@ -253,6 +253,10 @@ def open_db():
     DB = sqlite3.connect(DB_PATH, check_same_thread=False)
     DB.execute("CREATE TABLE IF NOT EXISTS answers (prompt_id TEXT, name TEXT, count INTEGER, "
                "PRIMARY KEY (prompt_id, name))")
+    try:   # real plays are kept apart from the starting crowd, so the starting crowd can fade as people play
+        DB.execute("ALTER TABLE answers ADD COLUMN plays INTEGER NOT NULL DEFAULT 0")
+    except sqlite3.OperationalError:
+        pass
     DB.execute("CREATE TABLE IF NOT EXISTS suggestions (prompt_id TEXT, key TEXT, raw TEXT, count INTEGER, "
                "PRIMARY KEY (prompt_id, key))")
     DB.execute("CREATE TABLE IF NOT EXISTS scores (seed TEXT, cid TEXT, name TEXT, total INTEGER, pts TEXT, "
@@ -266,7 +270,7 @@ def open_db():
             if len(seeds) > k:
                 seeds[-k] = k
         for name, seed in zip(p["names"], seeds):
-            DB.execute("INSERT OR IGNORE INTO answers VALUES (?, ?, ?)", (p["id"], name, seed))
+            DB.execute("INSERT OR IGNORE INTO answers (prompt_id, name, count) VALUES (?, ?, ?)", (p["id"], name, seed))
     DB.commit()
     # Answers approved later live only in the database; make them matchable too.
     for pid, name in DB.execute("SELECT prompt_id, name FROM answers"):
@@ -274,8 +278,17 @@ def open_db():
             add_key(pid, norm(name), name)
 
 
+PRIOR_PLAYS = 300   # the starting crowd weighs as much as this many real plays on a prompt
+PLAY_FLOOR = 0.1    # every answer counts as at least a tenth of a play, so rare ones can't collapse to zero
+
+
 def counts_for(pid):
-    return dict(DB.execute("SELECT name, count FROM answers WHERE prompt_id = ?", (pid,)))
+    """The crowd for one prompt: a fixed-size starting crowd (the list order) plus every real play.
+    With few players each play moves things visibly; the more people play, the more the real crowd takes over
+    and the starting crowd fades, so the numbers stay balanced however busy the prompt is."""
+    rows = DB.execute("SELECT name, count - plays, plays FROM answers WHERE prompt_id = ?", (pid,)).fetchall()
+    prior_total = sum(max(0, p) for _, p, _ in rows) or 1
+    return {n: PRIOR_PLAYS * max(0, p) / prior_total + plays + PLAY_FLOOR for n, p, plays in rows}
 
 
 def outliers_for(counts):
@@ -317,7 +330,7 @@ def board_for(counts, keep=()):
 def record(pid, name, raw):
     """Every entry nudges the crowd: valid answers get more common, unknown ones queue for review."""
     if name:
-        DB.execute("UPDATE answers SET count = count + 1 WHERE prompt_id = ? AND name = ?", (pid, name))
+        DB.execute("UPDATE answers SET count = count + 1, plays = plays + 1 WHERE prompt_id = ? AND name = ?", (pid, name))
     else:
         key = norm(raw)
         if key:
@@ -1106,7 +1119,7 @@ def cli(args):
     elif args[0] == "approve" and len(args) >= 3 and args[1] in PROMPTS:
         name = " ".join(args[2:])
         seen = DB.execute("SELECT count FROM suggestions WHERE prompt_id = ? AND key = ?", (args[1], norm(name))).fetchone()
-        DB.execute("INSERT OR IGNORE INTO answers VALUES (?, ?, ?)", (args[1], name, max(3, seen[0] if seen else 0)))
+        DB.execute("INSERT OR IGNORE INTO answers (prompt_id, name, count) VALUES (?, ?, ?)", (args[1], name, max(3, seen[0] if seen else 0)))
         DB.execute("DELETE FROM suggestions WHERE prompt_id = ? AND key = ?", (args[1], norm(name)))
         DB.commit()
         print(f"Added '{name}' to {args[1]}. Restart the server to pick it up.")
