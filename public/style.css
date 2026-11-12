@@ -466,3 +466,47 @@ h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
 /* challenge leaderboard */
 .lb .rank { width: 1.4em; color: var(--muted); }
 .lb li.me .main b { color: var(--you); }
+
+/* ---- desktop layout: phones keep the single 480px column; wide screens get room to breathe ---- */
+@media (min-width: 1000px) {
+  body { font-size: 17px; }
+  #app { max-width: 760px; padding: 44px 40px 56px; gap: 22px; }
+  .logo { font-size: 3.6rem; }
+  h2 { font-size: 1.75rem; }
+
+  /* home: logo and crowd on the left, the choices on the right */
+  #app:has(> .hero) { max-width: 1060px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 72px; row-gap: 18px; align-content: center; align-items: start; }
+  #app:has(> .hero) > .hero { grid-column: 1; grid-row: 1 / span 2; align-self: center; padding: 0; }
+  #app:has(> .hero) > .hero .logo { font-size: 5.2rem; }
+  #app:has(> .hero) > .hero p { font-size: 1.15rem; margin-top: 12px; }
+  #app:has(> .hero) > .hero .crowd { max-width: 340px; margin-top: 34px; }
+  #app:has(> .hero) > .modes { grid-column: 2; grid-row: 1; align-self: end; }
+  #app:has(> .hero) > .how { grid-column: 2; grid-row: 2; align-self: start; }
+  .mode { padding: 20px; }
+
+  /* results: your score on the left, the answers and leaderboards on the right */
+  #app:has(> .total) { max-width: 1060px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 40px; row-gap: 18px; align-items: start; }
+  #app:has(> .total) > .bar { grid-column: 1 / -1; }
+  #app:has(> .total) > .total, #app:has(> .total) > .squares, #app:has(> .total) > .verdict,
+  #app:has(> .total) > .card, #app:has(> .total) > .stack { grid-column: 1; }
+  #app:has(> .total) > .sidecol { grid-column: 2; grid-row: 2 / 9; }
+  #app:has(> .total) { grid-template-rows: auto repeat(6, min-content) 1fr; }
+  .total { font-size: 4.2rem; }
+
+  /* solo menu: pick on the left, the play buttons always in view on the right */
+  #app:has(> .cta) { max-width: 1060px; display: grid; grid-template-columns: minmax(0, 1fr) 340px; column-gap: 40px; row-gap: 18px; align-items: start; }
+  #app:has(> .cta) > .top { grid-column: 1 / -1; }
+  #app:has(> .cta) > section, #app:has(> .cta) > details { grid-column: 1; }
+  #app:has(> .cta) > .cta { grid-column: 2; grid-row: 2 / span 4; position: sticky; top: 28px; padding: 20px; border-radius: 20px;
+    background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow); }
+  #app:has(> .cta) .tiles { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+
+  /* a question: narrow and centred so the eye stays in one place */
+  #app:has(> .question) { max-width: 720px; }
+  .question h2 { font-size: 2.1rem; }
+}
+
+.sidecol { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+#lb:empty { display: none; }

@@ -689,9 +689,9 @@ function dailySummary(run) {
     <div class="squares">${squares}</div>
     <div class="card">${trailHTML([{ name: 'You', from: 0, to: saved.total, me: true }], max)}
       <p class="zone">You ended up: ${zoneName(saved.total, max)}</p></div>
-    <ul class="rows card">${saved.results.map(r => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : `<span class="strike">${esc(r.given || 'No answer')}</span>`}</b>
+    <div class="sidecol"><ul class="rows card">${saved.results.map(r => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : `<span class="strike">${esc(r.given || 'No answer')}</span>`}</b>
       <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}</span></li>`).join('')}</ul>
-    <div id="lb"></div>
+    <div id="lb"></div></div>
     <div class="card seed">
       <label for="who">Your name on today's leaderboard</label>
       <input type="text" id="who" maxlength="16" placeholder="Your name" value="${esc(store.get('outlier.name', ''))}" autocomplete="off">
@@ -827,9 +827,9 @@ function gameSummary(run) {
     <div class="squares">${squares}</div>
     <div class="card">${trailHTML(lanes, max)}
       <p class="zone">You ended up: ${zoneName(total, max)}</p></div>
-    <ul class="rows card">${results.map((r, i) => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : `<span class="strike">${esc(r.given || 'No answer')}</span>`}</b>
+    <div class="sidecol"><ul class="rows card">${results.map((r, i) => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : `<span class="strike">${esc(r.given || 'No answer')}</span>`}</b>
       <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}${rival ? `<small>${esc(rival.name)} +${rival.points[i] || 0}</small>` : ''}</span></li>`).join('')}</ul>
-    <div id="lb"></div>
+    <div id="lb"></div></div>
     <div class="card seed">
       <label for="who">Challenge a friend on these 7 prompts</label>
       <input type="text" id="who" maxlength="16" placeholder="Your name" value="${esc(store.get('outlier.name', ''))}" autocomplete="off">
