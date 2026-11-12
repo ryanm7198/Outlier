@@ -691,11 +691,26 @@ function dailySummary(run) {
       <p class="zone">You ended up: ${zoneName(saved.total, max)}</p></div>
     <ul class="rows card">${saved.results.map(r => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : `<span class="strike">${esc(r.given || 'No answer')}</span>`}</b>
       <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}</span></li>`).join('')}</ul>
+    <div id="lb"></div>
+    <div class="card seed">
+      <label for="who">Your name on today's leaderboard</label>
+      <input type="text" id="who" maxlength="16" placeholder="Your name" value="${esc(store.get('outlier.name', ''))}" autocomplete="off">
+      <button class="btn" id="setname">Save name</button>
+    </div>
     <div class="stack">
       <button class="btn primary" id="share">Share result</button>
       <button class="btn" id="free">Play a quick game</button>
     </div>
     <p class="muted center">New prompts tomorrow.</p>`);
+  const draw = b => { if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(b, 'Today'); };
+  postDaily(run, store.get('outlier.name', '') || 'Player').then(draw);
+  $('#setname').onclick = async () => {
+    const name = $('#who').value.trim().slice(0, 16);
+    if (!name) return toast('Type a name first');
+    store.set('outlier.name', name);
+    draw(await postDaily(run, name));
+    toast('Saved');
+  };
   $('#back').onclick = soloMenu;
   $('#free').onclick = () => startGame();
   $('#share').onclick = () => shareText(`Outlier · ${label} #${saved.number}\n${saved.total}/${max * 1.5} paces from the crowd\n${squares}`);
@@ -760,11 +775,17 @@ function playerId() {
   return id;
 }
 
-function leaderboardHTML(b) {
+function leaderboardHTML(b, title = '') {
   if (!b || !b.count) return '';
-  return `<section class="card"><h3>Leaderboard <small>${b.count} ${b.count === 1 ? 'player' : 'players'}</small></h3>
+  return `<section class="card"><h3>${title ? title + ' ' : ''}leaderboard <small>${b.count} ${b.count === 1 ? 'player' : 'players'}</small></h3>
     <ol class="rows lb">${b.top.map((r, i) => `<li class="${r.me ? 'me' : ''}"><span class="num rank">${r.rank || i + 1}</span>
       <span class="main"><b>${esc(r.name)}</b>${r.me ? '<small>You</small>' : ''}</span><span class="num">${r.total}</span></li>`).join('')}</ol></section>`;
+}
+
+async function postDaily(run, name) {
+  try {
+    return await api('/api/score', { seed: run.day.seed, cid: playerId(), name, points: run.saved.results.map(r => r.points) });
+  } catch { return null; }
 }
 
 async function postScore(run, name) {

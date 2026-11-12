@@ -602,9 +602,11 @@ def daily(cat):
     n = min(DAILY_N, len(ids))
     cycle, idx = divmod(today.toordinal(), max(1, len(ids) // n))
     ids = balanced_order(cat, [], ids, random.Random(f"outlier-{cat}-{cycle}"))
+    todays = ids[idx * n:(idx + 1) * n]
     return {"date": today.isoformat(), "number": (today - LAUNCH).days + 1, "cat": cat,
             "label": describe(cat, []), "roundMs": ROUND_S * 1000,
-            "prompts": [public_prompt(i) for i in ids[idx * n:(idx + 1) * n]]}
+            "seed": "".join(code_for(i) for i in todays),   # the day's leaderboard is keyed by this
+            "prompts": [public_prompt(i) for i in todays]}
 
 
 def new_game(cat, tags, seen):
