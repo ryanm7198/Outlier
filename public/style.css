@@ -532,3 +532,5 @@ h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
 .signin h2 { margin: 0 0 4px; }
 .legal { justify-content: center; }
 .legal a { color: var(--muted); }
+
+input.code { text-align: center; font-size: 1.6rem; letter-spacing: .4em; font-weight: 700; }

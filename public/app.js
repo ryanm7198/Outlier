@@ -619,17 +619,39 @@ function signInScreen(sent = null) {
   stopTimer();
   show(`${topbar('Sign in')}
     ${sent ? `<div class="card center stack"><h2>Check your email</h2>
-        <p class="muted">We sent a sign-in link to <b>${esc(sent.email)}</b>. Tap it on this device and you are in. The link works once and expires in 15 minutes.</p>
-        ${sent.devLink ? `<a class="btn primary" href="${esc(sent.devLink)}">Open the sign-in link (test mode)</a>` : ''}</div>
+        <p class="muted">We sent a 6-digit code to <b>${esc(sent.email)}</b>. Type it here to sign in on this browser. It expires in 15 minutes.</p>
+        <input type="text" id="code" class="code" placeholder="123456" inputmode="numeric" autocomplete="one-time-code" maxlength="7" aria-label="Sign-in code">
+        <button class="btn primary" id="codego">Sign in</button>
+        <p class="fine center">The email also has a link. If it opens in your mail app instead of this browser, use the code instead.</p>
+        ${sent.devLink ? `<a class="btn" href="${esc(sent.devLink)}">Open the sign-in link (test mode: code ${esc(sent.devCode || '')})</a>` : ''}</div>
       <button class="btn" id="again">Use a different email</button>`
       : `<div class="card stack signin"><div class="center"><span class="mode-ic">${ic('user')}</span><h2>Sign in to Outlier</h2>
         <p class="muted">Keep your play history and unlock account features.</p></div>
         <section class="field"><label for="email">Your email</label>
         <input type="email" id="email" placeholder="you@example.com" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false"></section>
-      <button class="btn primary" id="send">Email me a sign-in link</button></div>
+      <button class="btn primary" id="send">Email me a sign-in code</button></div>
       <p class="fine">${ic('shield')}<span>No password. Signing in just keeps your play history and unlocks account features. We only use your email to sign you in.</span></p>`}`);
   $('#back').onclick = home;
-  if (sent) { $('#again').onclick = () => signInScreen(); return; }
+  if (sent) {
+    $('#again').onclick = () => signInScreen();
+    const check = async () => {
+      const code = $('#code').value.replace(/\D/g, '');
+      if (code.length !== 6) return toast('Type the 6-digit code from the email');
+      $('#codego').disabled = true;
+      try {
+        const r = await api('/api/auth/code', { email: sent.email, code });
+        store.set('outlier.session', r.session);
+        await loadMe();
+        toast('Signed in');
+        home();
+      } catch (e) { toast(e.message); $('#codego').disabled = false; }
+    };
+    $('#codego').onclick = check;
+    $('#code').oninput = () => { if ($('#code').value.replace(/\D/g, '').length === 6) check(); };
+    $('#code').onkeydown = e => { if (e.key === 'Enter') check(); };
+    $('#code').focus();
+    return;
+  }
   const go = async () => {
     const email = $('#email').value.trim();
     if (!email) return toast('Type your email first');

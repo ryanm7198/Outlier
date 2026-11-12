@@ -280,6 +280,11 @@ def open_db():
     DB.execute("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, email TEXT UNIQUE, created INTEGER)")
     DB.execute("CREATE TABLE IF NOT EXISTS logins (hash TEXT PRIMARY KEY, email TEXT, created INTEGER, expires INTEGER, used INTEGER DEFAULT 0)")
     DB.execute("CREATE TABLE IF NOT EXISTS sessions (hash TEXT PRIMARY KEY, user_id INTEGER, expires INTEGER)")
+    for col in ("code TEXT", "tries INTEGER DEFAULT 0"):   # the 6-digit code sent alongside each sign-in link
+        try:
+            DB.execute("ALTER TABLE logins ADD COLUMN " + col)
+        except sqlite3.OperationalError:
+            pass
     DB.execute("CREATE TABLE IF NOT EXISTS user_plays (user_id INTEGER, ts INTEGER, prompt_id TEXT, answer TEXT, points INTEGER, share REAL)")
     DB.execute("CREATE TABLE IF NOT EXISTS daily_claims (user_id INTEGER, day TEXT, cat TEXT, PRIMARY KEY (user_id, day))")
     DB.execute("CREATE TABLE IF NOT EXISTS subs (user_id INTEGER PRIMARY KEY, customer TEXT, sub_id TEXT, status TEXT, updated INTEGER)")
@@ -391,7 +396,7 @@ def judge(pid, raw, counts=None):
 # ---------------------------------------------------------------- accounts
 # Sign in with an emailed one-use link (no passwords). A session token lives in the browser; only its hash is stored.
 
-CURRENT = {"token": "", "host": "", "cookie": None, "has_cookie": False}   # the request being served; set under LOCK in run_api
+CURRENT = {"token": "", "alt": "", "host": "", "cookie": None, "has_cookie": False}   # the request being served; set under LOCK in run_api
 LOGIN_TTL, SESSION_TTL = 15 * 60, 90 * 86400
 EMAIL_RE = re.compile(r"^[^@\s]{1,64}@[^@\s]{1,120}\.[^@\s]{2,24}$")
 
@@ -408,19 +413,21 @@ def session_cookie(token, max_age):
 
 
 def current_user():
-    tok = CURRENT["token"]
-    if not tok:
-        return None
-    now = int(time.time())
-    row = DB.execute("SELECT u.id, u.email, s.expires FROM sessions s JOIN users u ON u.id = s.user_id "
-                     "WHERE s.hash = ? AND s.expires > ?", (sha(tok), now)).fetchone()
+    now, row = int(time.time()), None
+    for tok in dict.fromkeys(t for t in (CURRENT["token"], CURRENT["alt"]) if t):   # the saved token first, then the cookie
+        row = DB.execute("SELECT u.id, u.email, s.expires FROM sessions s JOIN users u ON u.id = s.user_id "
+                         "WHERE s.hash = ? AND s.expires > ?", (sha(tok), now)).fetchone()
+        if row:
+            CURRENT["token"] = tok
+            break
     if not row:
         return None
+    tok = CURRENT["token"]
     if row[2] < now + SESSION_TTL - 86400:   # used again: the 90 days start over (at most once a day)
         DB.execute("UPDATE sessions SET expires = ? WHERE hash = ?", (now + SESSION_TTL, sha(tok)))
         DB.commit()
         CURRENT["cookie"] = session_cookie(tok, SESSION_TTL)
-    elif not CURRENT["has_cookie"]:          # a session that so far lives only in local storage gets its cookie too
+    elif not CURRENT["has_cookie"] or CURRENT["alt"] != tok:   # no cookie yet (or a stale one): give this session its cookie
         CURRENT["cookie"] = session_cookie(tok, SESSION_TTL)
     return {"id": row[0], "email": row[1]}
 
@@ -544,10 +551,11 @@ def check_daily(cat):
         DB.commit()
 
 
-def send_login_email(email, link):
-    body = {"from": MAIL_FROM, "to": [email], "subject": "Your Outlier sign-in link",
-            "text": f"Tap to sign in to Outlier (the link works once and expires in 15 minutes):\n\n{link}\n\n"
-                    "If you did not ask for this, you can ignore this email."}
+def send_login_email(email, link, code):
+    body = {"from": MAIL_FROM, "to": [email], "subject": f"Your Outlier sign-in code: {code}",
+            "text": f"Your Outlier sign-in code is {code}\n\nType it into Outlier where you asked for it. "
+                    f"Or tap this link to sign in (it opens in your phone's default browser or your mail app's own one):\n\n{link}\n\n"
+                    "The code and link work once and expire in 15 minutes. If you did not ask for this, you can ignore this email."}
     req = urllib.request.Request("https://api.resend.com/emails", json.dumps(body).encode(), method="POST",
                                  headers={"Authorization": f"Bearer {MAIL_KEY}", "Content-Type": "application/json",
                                           "User-Agent": "outlier-trivia/1.0"})
@@ -573,16 +581,17 @@ def request_login(body):
         raise ApiError(429, "Too many sign-in emails for that address. Try again in an hour.")
     if DB.execute("SELECT COUNT(*) FROM logins WHERE created > ?", (now - 3600,)).fetchone()[0] >= 300:
         raise ApiError(429, "Lots of people are signing in. Try again shortly.")
-    token = secrets.token_urlsafe(32)
-    DB.execute("INSERT INTO logins (hash, email, created, expires) VALUES (?, ?, ?, ?)", (sha(token), email, now, now + LOGIN_TTL))
+    token, code = secrets.token_urlsafe(32), f"{secrets.randbelow(10 ** 6):06d}"
+    DB.execute("INSERT INTO logins (hash, email, created, expires, code) VALUES (?, ?, ?, ?, ?)",
+               (sha(token), email, now, now + LOGIN_TTL, sha(email + ":" + code)))
     DB.commit()
     base = f"http://{CURRENT['host']}" if DEV and CURRENT["host"] else SITE_URL
     link = f"{base}/?login={token}"
     if MAIL_KEY:
-        send_login_email(email, link)
+        send_login_email(email, link, code)
         return {"ok": True}
-    print(f"  Sign-in link for {email}: {link}")
-    return {"ok": True, "devLink": link}
+    print(f"  Sign-in link for {email}: {link}  code {code}")
+    return {"ok": True, "devLink": link, "devCode": code}
 
 
 def verify_login(body):
@@ -592,14 +601,37 @@ def verify_login(body):
     if not row:
         raise ApiError(400, "That sign-in link has expired or was already used. Ask for a new one.")
     DB.execute("UPDATE logins SET used = 1 WHERE hash = ?", (sha(token),))
-    DB.execute("INSERT OR IGNORE INTO users (email, created) VALUES (?, ?)", (row[0], now))
-    uid = DB.execute("SELECT id FROM users WHERE email = ?", (row[0],)).fetchone()[0]
+    return start_session(row[0])
+
+
+def verify_code(body):
+    """The 6-digit code from the email, typed into the browser that asked for it (the link may open somewhere else,
+    such as a mail app's own browser). Five wrong guesses use up that email's code."""
+    email = str(body.get("email") or "").strip().lower()[:160]
+    code = re.sub(r"\D", "", str(body.get("code") or ""))[:6]
+    now = int(time.time())
+    row = DB.execute("SELECT hash, code FROM logins WHERE email = ? AND used = 0 AND expires > ? AND tries < 5 AND code IS NOT NULL "
+                     "ORDER BY created DESC LIMIT 1", (email, now)).fetchone()
+    if not row:
+        raise ApiError(400, "That code has expired. Ask for a new email.")
+    if len(code) != 6 or not hmac.compare_digest(row[1], sha(email + ":" + code)):
+        DB.execute("UPDATE logins SET tries = tries + 1 WHERE hash = ?", (row[0],))
+        DB.commit()
+        raise ApiError(400, "That code is not right. Check the latest email and try again.")
+    DB.execute("UPDATE logins SET used = 1 WHERE hash = ?", (row[0],))
+    return start_session(email)
+
+
+def start_session(email):
+    now = int(time.time())
+    DB.execute("INSERT OR IGNORE INTO users (email, created) VALUES (?, ?)", (email, now))
+    uid = DB.execute("SELECT id FROM users WHERE email = ?", (email,)).fetchone()[0]
     session = secrets.token_urlsafe(32)
     DB.execute("INSERT INTO sessions VALUES (?, ?, ?)", (sha(session), uid, now + SESSION_TTL))
     DB.execute("DELETE FROM sessions WHERE expires < ?", (now,))
     DB.commit()
     CURRENT["cookie"] = session_cookie(session, SESSION_TTL)
-    return {"session": session, "email": row[0]}
+    return {"session": session, "email": email}
 
 
 def logout():
@@ -640,6 +672,8 @@ def stats():
         "leaderboardScores": one("SELECT COUNT(*) FROM scores"),
         "since": min(list(players) + list(answers) + [day(0)]),
         "paywall": PAYWALL,
+        "db": DB_PATH, "dbPersistent": DB_PATH.startswith("/var/data"),
+        "firstAccount": datetime.datetime.fromtimestamp(one("SELECT MIN(created) FROM users")).strftime("%d %b %Y %H:%M") if one("SELECT MIN(created) FROM users") else None,
     }
 
 
@@ -1245,6 +1279,8 @@ def api_post(path, body):
         return open_portal()
     if path == "/api/auth/request":
         return request_login(body)
+    if path == "/api/auth/code":
+        return verify_code(body)
     if path == "/api/auth/verify":
         return verify_login(body)
     if path == "/api/auth/logout":
@@ -1380,6 +1416,7 @@ class Handler(BaseHTTPRequestHandler):
                 CURRENT["has_cookie"] = bool(jar.get("outlier_session"))
                 CURRENT["cookie"] = None
                 CURRENT["token"] = ((self.headers.get("X-Session") or "") or jar.get("outlier_session", ""))[:80]
+                CURRENT["alt"] = jar.get("outlier_session", "")[:80]
                 CURRENT["host"] = (self.headers.get("Host") or "")[:80]
                 out = fn(*args)
                 cookie = CURRENT["cookie"]
