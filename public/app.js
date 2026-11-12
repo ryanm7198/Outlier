@@ -753,6 +753,26 @@ function gameQuestion(run) {
   $('#quit').onclick = soloMenu;
 }
 
+// ---- challenge leaderboard: everyone who plays the same seven prompts is ranked together
+function playerId() {
+  let id = store.get('outlier.cid', '');
+  if (!id) { id = Array.from(crypto.getRandomValues(new Uint8Array(12)), b => (b % 36).toString(36)).join(''); store.set('outlier.cid', id); }
+  return id;
+}
+
+function leaderboardHTML(b) {
+  if (!b || !b.count) return '';
+  return `<section class="card"><h3>Leaderboard <small>${b.count} ${b.count === 1 ? 'player' : 'players'}</small></h3>
+    <ol class="rows lb">${b.top.map((r, i) => `<li class="${r.me ? 'me' : ''}"><span class="num rank">${r.rank || i + 1}</span>
+      <span class="main"><b>${esc(r.name)}</b>${r.me ? '<small>You</small>' : ''}</span><span class="num">${r.total}</span></li>`).join('')}</ol></section>`;
+}
+
+async function postScore(run, name) {
+  try {
+    return await api('/api/score', { seed: run.game.seed, cid: playerId(), name, points: run.results.map(r => r.points) });
+  } catch { return null; }   // the leaderboard is a bonus; never block the game on it
+}
+
 // A challenge link: /c/<name>/<seed><two base-36 characters of points per prompt>
 function challengeLink(run, name) {
   const who = encodeURIComponent(name.replace(/\s+/g, '_'));
@@ -788,6 +808,7 @@ function gameSummary(run) {
       <p class="zone">You ended up: ${zoneName(total, max)}</p></div>
     <ul class="rows card">${results.map((r, i) => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : `<span class="strike">${esc(r.given || 'No answer')}</span>`}</b>
       <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}${rival ? `<small>${esc(rival.name)} +${rival.points[i] || 0}</small>` : ''}</span></li>`).join('')}</ul>
+    <div id="lb"></div>
     <div class="card seed">
       <label for="who">Challenge a friend on these 7 prompts</label>
       <input type="text" id="who" maxlength="16" placeholder="Your name" value="${esc(store.get('outlier.name', ''))}" autocomplete="off">
@@ -797,9 +818,14 @@ function gameSummary(run) {
     <div class="stack"><button class="btn" id="again">New game</button></div>`);
   $('#back').onclick = soloMenu;
   $('#again').onclick = () => startGame();
-  $('#share').onclick = () => {
+  if (!run.posted) {   // post once; later renders (and name changes) just update the same row
+    run.posted = true;
+    postScore(run, store.get('outlier.name', '') || 'Player').then(b => { run.board = b; if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(b); });
+  } else if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(run.board);
+  $('#share').onclick = async () => {
     const name = $('#who').value.trim().slice(0, 16) || 'A friend';
     store.set('outlier.name', name);
+    postScore(run, name).then(b => { run.board = b; if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(b); });
     shareText(`I scored ${total} on Outlier ${squares}\nCan you beat me?`, challengeLink(run, name));
   };
 }
@@ -822,6 +848,10 @@ function challengeIntro(seed, from, pts) {
     </div>`);
   $('#go').onclick = () => startGame({ seed, rival });
   $('#home').onclick = home;
+  api(`/api/board?seed=${encodeURIComponent(seed)}&cid=${playerId()}`).then(b => {
+    if (!b.count || !$('#go')) return;
+    $('.hero').insertAdjacentHTML('afterend', leaderboardHTML({ ...b, top: b.top.slice(0, 5) }));
+  }).catch(() => {});
 }
 
 // ------------------------------------------------------------ party

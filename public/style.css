@@ -462,3 +462,7 @@ h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
 .tile.wide .tile-ic { width: 44px; height: 44px; border-radius: 12px; }
 .tile.wide .tile-l { font-size: 1.05rem; }
 .picker > .sec-h { margin-top: 6px; }
+
+/* challenge leaderboard */
+.lb .rank { width: 1.4em; color: var(--muted); }
+.lb li.me .main b { color: var(--you); }

@@ -255,6 +255,8 @@ def open_db():
                "PRIMARY KEY (prompt_id, name))")
     DB.execute("CREATE TABLE IF NOT EXISTS suggestions (prompt_id TEXT, key TEXT, raw TEXT, count INTEGER, "
                "PRIMARY KEY (prompt_id, key))")
+    DB.execute("CREATE TABLE IF NOT EXISTS scores (seed TEXT, cid TEXT, name TEXT, total INTEGER, pts TEXT, "
+               "ts INTEGER, PRIMARY KEY (seed, cid))")
     for p in PROMPTS.values():
         # A long-tailed start in list order. The last answer listed (last two on long lists) starts below
         # everything else, so it is the Outlier; neighbours deep in a long list may tie, which only
@@ -621,6 +623,55 @@ def seeded_game(seed):
     return game_out([CODES[p] for p in parts], "Challenge")
 
 
+def clean_seed(seed):
+    seed = re.sub(r"[^0-9A-Za-z]", "", str(seed or ""))
+    parts = [seed[i:i + 4] for i in range(0, len(seed), 4)]
+    if not parts or len(parts) > 20 or any(len(p) != 4 or p not in CODES for p in parts):
+        raise ApiError(404, "That seed doesn't match any game")
+    return seed
+
+
+BOARD_MAX = 300   # scores kept per challenge seed
+
+
+def post_score(body):
+    """A finished seeded game: one row per (seed, player id). Names can be changed; a better score replaces a worse one."""
+    seed = clean_seed(body.get("seed"))
+    cid = re.sub(r"[^0-9A-Za-z]", "", str(body.get("cid") or ""))[:32]
+    pts = body.get("points")
+    if len(cid) < 8 or not isinstance(pts, list) or len(pts) != len(seed) // 4:
+        raise ApiError(400, "Bad score")
+    try:
+        pts = [max(0, min(150, int(x))) for x in pts]
+    except (TypeError, ValueError):
+        raise ApiError(400, "Bad score")
+    name = " ".join(str(body.get("name") or "").split())[:16] or "Player"
+    total = sum(pts)
+    row = DB.execute("SELECT total FROM scores WHERE seed = ? AND cid = ?", (seed, cid)).fetchone()
+    if row is None:
+        if DB.execute("SELECT COUNT(*) FROM scores WHERE seed = ?", (seed,)).fetchone()[0] >= BOARD_MAX:
+            return board_out(seed, cid)
+        DB.execute("INSERT INTO scores VALUES (?, ?, ?, ?, ?, ?)",
+                   (seed, cid, name, total, ".".join(map(str, pts)), int(time.time())))
+    elif total > row[0]:
+        DB.execute("UPDATE scores SET name = ?, total = ?, pts = ?, ts = ? WHERE seed = ? AND cid = ?",
+                   (name, total, ".".join(map(str, pts)), int(time.time()), seed, cid))
+    else:
+        DB.execute("UPDATE scores SET name = ? WHERE seed = ? AND cid = ?", (name, seed, cid))
+    DB.commit()
+    return board_out(seed, cid)
+
+
+def board_out(seed, cid=""):
+    seed = clean_seed(seed)
+    rows = DB.execute("SELECT cid, name, total FROM scores WHERE seed = ? ORDER BY total DESC, ts ASC", (seed,)).fetchall()
+    top = [{"name": n, "total": t, "me": c == cid} for c, n, t in rows[:10]]
+    mine = next((i for i, r in enumerate(rows) if r[0] == cid), None)
+    if mine is not None and mine >= 10:
+        top.append({"name": rows[mine][1], "total": rows[mine][2], "me": True, "rank": mine + 1})
+    return {"seed": seed, "count": len(rows), "top": top}
+
+
 def game_out(ids, label):
     return {"seed": "".join(code_for(i) for i in ids), "label": label, "roundMs": ROUND_S * 1000,
             "prompts": [public_prompt(i) for i in ids]}
@@ -846,6 +897,8 @@ def api_get(path, q):
         out = public_prompt(pick_balanced(q.get("cat", "all"), tags, ids, seen, 1)[0])
         out.update(roundMs=ROUND_S * 1000, poolSize=len(ids))
         return out
+    if path == "/api/board":
+        return board_out(q.get("seed"), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32])
     if path == "/api/room/state":
         room = get_room(q.get("code"), q.get("pid"))
         return room_state(room, q.get("pid"))
@@ -853,6 +906,8 @@ def api_get(path, q):
 
 
 def api_post(path, body):
+    if path == "/api/score":
+        return post_score(body)
     if path == "/api/answer":
         pid = body.get("promptId")
         if pid not in PROMPTS:
