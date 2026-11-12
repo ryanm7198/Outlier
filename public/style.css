@@ -530,3 +530,5 @@ h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
 .signin { padding: 24px 20px; gap: 16px; }
 .signin .mode-ic { margin: 0 auto 10px; }
 .signin h2 { margin: 0 0 4px; }
+.legal { justify-content: center; }
+.legal a { color: var(--muted); }

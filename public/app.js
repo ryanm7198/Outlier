@@ -580,7 +580,8 @@ function home() {
         <li><b>3</b><span>Find the <b>Outlier</b>, the single rarest answer on the list (two on very long lists), for a big 150.</span></li>
       </ol>
       <p class="fine">Every answer played shifts how common it is. In party games, players who give the same answer share half the points.</p>
-    </section>`);
+    </section>
+    ${LEGAL}`);
   $('#solo').onclick = soloMenu;
   $('#party').onclick = () => partyMenu();
   accountWire();
@@ -649,6 +650,7 @@ async function finishLogin(token) {
 
 // ------------------------------------------------------------ solo
 
+const LEGAL = `<p class="fine legal"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>`;
 const limited = () => plan.paywall && !plan.plus;   // free plan, with the paywall switched on
 
 function wireSeed() {
@@ -710,7 +712,8 @@ function upsellScreen(msg) {
     </ul></section>
     ${!plan.payments ? '' : me ? `<button class="btn primary" id="subscribe">Get Outlier Plus</button>` : ''}
     ${me ? '' : '<button class="btn primary" id="signin">Sign in' + (plan.payments ? ' to subscribe' : '') + '</button>'}
-    <button class="btn" id="ok">Back</button>`);
+    <button class="btn" id="ok">Back</button>
+    ${LEGAL}`);
   if ($('#subscribe')) $('#subscribe').onclick = () => { $('#subscribe').disabled = true; payRedirect('/api/checkout'); };
   $('#back').onclick = $('#ok').onclick = () => limited() ? freeSolo() : home();
   if ($('#signin')) $('#signin').onclick = () => signInScreen();
