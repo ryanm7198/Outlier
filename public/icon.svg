@@ -1,9 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="112" fill="#14152b"/>
-  <g fill="#5b5e8c">
-    <circle cx="120" cy="300" r="26"/><circle cx="190" cy="300" r="26"/><circle cx="260" cy="300" r="26"/>
-    <circle cx="120" cy="370" r="26"/><circle cx="190" cy="370" r="26"/><circle cx="260" cy="370" r="26"/>
-    <circle cx="120" cy="230" r="26"/><circle cx="190" cy="230" r="26"/><circle cx="260" cy="230" r="26"/>
-  </g>
-  <circle cx="386" cy="134" r="40" fill="#ff7a59"/>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f2a63"/><stop offset="1" stop-color="#1f1b48"/></linearGradient></defs>
+  <rect width="512" height="512" rx="112" fill="url(#g)"/>
+  <circle cx="108" cy="108" r="23" fill="#55529f"/>
+  <circle cx="182" cy="108" r="23" fill="#55529f"/>
+  <circle cx="256" cy="108" r="23" fill="#55529f"/>
+  <circle cx="330" cy="108" r="23" fill="#55529f"/>
+  <circle cx="404" cy="108" r="23" fill="#55529f"/>
+  <circle cx="108" cy="182" r="23" fill="#55529f"/>
+  <circle cx="182" cy="182" r="23" fill="#55529f"/>
+  <circle cx="256" cy="182" r="23" fill="#55529f"/>
+  <circle cx="330" cy="182" r="23" fill="#ff7a59"/>
+  <circle cx="404" cy="182" r="23" fill="#55529f"/>
+  <circle cx="108" cy="256" r="23" fill="#55529f"/>
+  <circle cx="182" cy="256" r="23" fill="#55529f"/>
+  <circle cx="256" cy="256" r="23" fill="#55529f"/>
+  <circle cx="330" cy="256" r="23" fill="#55529f"/>
+  <circle cx="404" cy="256" r="23" fill="#55529f"/>
+  <circle cx="108" cy="330" r="23" fill="#55529f"/>
+  <circle cx="182" cy="330" r="23" fill="#55529f"/>
+  <circle cx="256" cy="330" r="23" fill="#55529f"/>
+  <circle cx="330" cy="330" r="23" fill="#55529f"/>
+  <circle cx="404" cy="330" r="23" fill="#55529f"/>
+  <circle cx="108" cy="404" r="23" fill="#55529f"/>
+  <circle cx="182" cy="404" r="23" fill="#55529f"/>
+  <circle cx="256" cy="404" r="23" fill="#55529f"/>
+  <circle cx="330" cy="404" r="23" fill="#55529f"/>
+  <circle cx="404" cy="404" r="23" fill="#55529f"/>
 </svg>
