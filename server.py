@@ -8,6 +8,7 @@ Approve:  python server.py approve <prompt-id> <answer text>
 import datetime
 import glob
 import hashlib
+import hmac
 import json
 import math
 import os
@@ -22,6 +23,7 @@ import time
 import traceback
 import unicodedata
 import urllib.error
+import urllib.parse
 import urllib.request
 import zlib
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -37,6 +39,10 @@ MAIL_KEY = os.environ.get("RESEND_API_KEY", "")              # Resend (resend.co
 MAIL_FROM = os.environ.get("OUTLIER_MAIL_FROM", "Outlier <hello@outliertrivia.app>")
 PAYWALL = os.environ.get("OUTLIER_PAYWALL") == "1"            # off: everyone has everything (nothing is limited)
 PLUS_EMAILS = {e.strip().lower() for e in os.environ.get("OUTLIER_PLUS_EMAILS", "").split(",") if e.strip()}   # always full access
+STRIPE_KEY = os.environ.get("STRIPE_SECRET_KEY", "")          # Stripe secret key (sk_test_... while testing)
+STRIPE_PRICE = os.environ.get("STRIPE_PRICE_ID", "")           # the monthly Outlier Plus price (price_...)
+STRIPE_HOOK = os.environ.get("STRIPE_WEBHOOK_SECRET", "")      # signing secret of the webhook endpoint (whsec_...)
+PRICE_LABEL = os.environ.get("OUTLIER_PRICE_LABEL", "\u00a32.99 a month")
 FREE_ROOM, PLUS_ROOM = 4, 12                                  # players in a party room
 SITE_URL = os.environ.get("OUTLIER_SITE_URL", "https://outliertrivia.app").rstrip("/")
 
@@ -276,6 +282,7 @@ def open_db():
     DB.execute("CREATE TABLE IF NOT EXISTS sessions (hash TEXT PRIMARY KEY, user_id INTEGER, expires INTEGER)")
     DB.execute("CREATE TABLE IF NOT EXISTS user_plays (user_id INTEGER, ts INTEGER, prompt_id TEXT, answer TEXT, points INTEGER, share REAL)")
     DB.execute("CREATE TABLE IF NOT EXISTS daily_claims (user_id INTEGER, day TEXT, cat TEXT, PRIMARY KEY (user_id, day))")
+    DB.execute("CREATE TABLE IF NOT EXISTS subs (user_id INTEGER PRIMARY KEY, customer TEXT, sub_id TEXT, status TEXT, updated INTEGER)")
     DB.execute("CREATE INDEX IF NOT EXISTS user_plays_user ON user_plays (user_id, ts)")
     for p in PROMPTS.values():
         # A long-tailed start in list order. The last answer listed (last two on long lists) starts below
@@ -390,7 +397,96 @@ def current_user():
 def is_plus(user=None):
     """Full access: everyone while the paywall is off, otherwise the owner list (paid subscribers join this later)."""
     user = user or current_user()
-    return (not PAYWALL) or bool(user and user["email"] in PLUS_EMAILS)
+    if not PAYWALL:
+        return True
+    return bool(user and (user["email"] in PLUS_EMAILS or sub_status(user["id"]) in LIVE_SUB))
+
+
+LIVE_SUB = ("active", "trialing", "past_due")   # past_due keeps access while Stripe retries the card
+
+
+def sub_status(uid):
+    row = DB.execute("SELECT status FROM subs WHERE user_id = ?", (uid,)).fetchone()
+    return row[0] if row else None
+
+
+# ---- Stripe (plain REST calls, no SDK): checkout to subscribe, portal to manage or cancel, webhook to learn the outcome
+
+def stripe_call(path, data):
+    if not STRIPE_KEY:
+        raise ApiError(503, "Payments are not switched on yet")
+    req = urllib.request.Request("https://api.stripe.com/v1/" + path, urllib.parse.urlencode(data).encode(), method="POST",
+                                 headers={"Authorization": "Bearer " + STRIPE_KEY, "User-Agent": "outlier-trivia/1.0"})
+    try:
+        return json.loads(urllib.request.urlopen(req, timeout=15).read())
+    except urllib.error.HTTPError as e:
+        print("  Stripe rejected the request:", e.code, e.read()[:400].decode("utf-8", "replace"), flush=True)
+    except (urllib.error.URLError, OSError) as e:
+        print("  Stripe unreachable:", e, flush=True)
+    raise ApiError(502, "Could not reach the payment service. Try again in a moment.")
+
+
+def site_base():
+    return f"http://{CURRENT['host']}" if DEV and CURRENT["host"] else SITE_URL
+
+
+def start_checkout():
+    user = current_user()
+    if not user:
+        raise ApiError(401, "Sign in first so your subscription is tied to your account")
+    if not STRIPE_PRICE:
+        raise ApiError(503, "Payments are not switched on yet")
+    if is_plus(user) and PAYWALL:
+        raise ApiError(400, "You already have Outlier Plus")
+    row = DB.execute("SELECT customer FROM subs WHERE user_id = ?", (user["id"],)).fetchone()
+    data = {"mode": "subscription", "line_items[0][price]": STRIPE_PRICE, "line_items[0][quantity]": "1",
+            "success_url": site_base() + "/?plus=1", "cancel_url": site_base() + "/",
+            "client_reference_id": str(user["id"]), "subscription_data[metadata][user_id]": str(user["id"]),
+            "allow_promotion_codes": "true"}
+    if row and row[0]:
+        data["customer"] = row[0]
+    else:
+        data["customer_email"] = user["email"]
+    return {"url": stripe_call("checkout/sessions", data)["url"]}
+
+
+def open_portal():
+    user = current_user()
+    row = user and DB.execute("SELECT customer FROM subs WHERE user_id = ?", (user["id"],)).fetchone()
+    if not row or not row[0]:
+        raise ApiError(404, "No subscription found for this account")
+    return {"url": stripe_call("billing_portal/sessions", {"customer": row[0], "return_url": site_base() + "/"})["url"]}
+
+
+def stripe_event(raw, header):
+    """Verify Stripe's signature (HMAC-SHA256 over 'timestamp.body'), then record what the event says about a subscription."""
+    if not STRIPE_HOOK:
+        raise ApiError(503, "Webhook is not configured")
+    parts = [p.split("=", 1) for p in header.split(",") if "=" in p]
+    stamp = next((v for k, v in parts if k == "t"), "")
+    good = hmac.new(STRIPE_HOOK.encode(), stamp.encode() + b"." + raw, hashlib.sha256).hexdigest()
+    if not stamp.isdigit() or abs(time.time() - int(stamp)) > 600 or not any(hmac.compare_digest(good, v) for k, v in parts if k == "v1"):
+        raise ApiError(400, "Bad signature")
+    ev = json.loads(raw)
+    obj = ev.get("data", {}).get("object", {})
+    now = int(time.time())
+    if ev.get("type") == "checkout.session.completed" and obj.get("mode") == "subscription":
+        uid = int(obj.get("client_reference_id") or 0)
+        if uid:
+            DB.execute("INSERT INTO subs (user_id, customer, sub_id, status, updated) VALUES (?, ?, ?, 'active', ?) "
+                       "ON CONFLICT(user_id) DO UPDATE SET customer = excluded.customer, sub_id = excluded.sub_id, status = 'active', updated = excluded.updated",
+                       (uid, obj.get("customer"), obj.get("subscription"), now))
+    elif ev.get("type") in ("customer.subscription.created", "customer.subscription.updated", "customer.subscription.deleted"):
+        status = "canceled" if ev["type"].endswith("deleted") else obj.get("status")
+        uid = int((obj.get("metadata") or {}).get("user_id") or 0)
+        row = DB.execute("SELECT user_id FROM subs WHERE customer = ?", (obj.get("customer"),)).fetchone()
+        uid = row[0] if row else uid
+        if uid:
+            DB.execute("INSERT INTO subs (user_id, customer, sub_id, status, updated) VALUES (?, ?, ?, ?, ?) "
+                       "ON CONFLICT(user_id) DO UPDATE SET customer = excluded.customer, sub_id = excluded.sub_id, status = excluded.status, updated = excluded.updated",
+                       (uid, obj.get("customer"), obj.get("id"), status, now))
+    DB.commit()
+    return {"ok": True}
 
 
 def need_plus():
@@ -1061,7 +1157,9 @@ def api_get(path, q):
             row = DB.execute("SELECT cat FROM daily_claims WHERE user_id = ? AND day = ?", (user["id"], datetime.date.today().isoformat())).fetchone()
             claim = row[0] if row else None
         return {"user": {"email": user["email"]} if user else None, "signin": bool(MAIL_KEY or DEV),
-                "plus": is_plus(user), "paywall": PAYWALL, "claim": claim}
+                "plus": is_plus(user), "paywall": PAYWALL, "claim": claim,
+                "payments": bool(STRIPE_KEY and STRIPE_PRICE), "price": PRICE_LABEL,
+                "subscribed": bool(user and sub_status(user["id"]) in LIVE_SUB)}
     if path == "/api/board":
         return board_out(q.get("seed"), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32])
     if path == "/api/room/state":
@@ -1073,6 +1171,10 @@ def api_get(path, q):
 def api_post(path, body):
     if path == "/api/score":
         return post_score(body)
+    if path == "/api/checkout":
+        return start_checkout()
+    if path == "/api/portal":
+        return open_portal()
     if path == "/api/auth/request":
         return request_login(body)
     if path == "/api/auth/verify":
@@ -1234,6 +1336,9 @@ class Handler(BaseHTTPRequestHandler):
             pass
 
     def do_POST(self):
+        if urlparse(self.path).path == "/stripe/webhook":
+            raw = self.rfile.read(min(int(self.headers.get("Content-Length") or 0), 1_000_000))
+            return self.run_api(stripe_event, raw, self.headers.get("Stripe-Signature") or "")
         try:
             length = int(self.headers.get("Content-Length") or 0)
             body = json.loads(self.rfile.read(min(length, 8192)) or b"{}")

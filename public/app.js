@@ -588,22 +588,23 @@ function home() {
 
 // ------------------------------------------------------------ account
 
-let me = null, signinOn = false, plan = { plus: true, paywall: false, claim: null };   // me = { email } when signed in; signinOn = the server can email sign-in links
+let me = null, signinOn = false, plan = { plus: true, paywall: false, claim: null, payments: false, price: '', subscribed: false };   // me = { email } when signed in; signinOn = the server can email sign-in links
 
 async function loadMe() {
-  try { const r = await api('/api/me'); me = r.user; signinOn = !!r.signin; plan = { plus: r.plus !== false, paywall: !!r.paywall, claim: r.claim || null }; } catch { me = null; }
+  try { const r = await api('/api/me'); me = r.user; signinOn = !!r.signin; plan = { plus: r.plus !== false, paywall: !!r.paywall, claim: r.claim || null, payments: !!r.payments, price: r.price || '', subscribed: !!r.subscribed }; } catch { me = null; }
   if (!me && store.get('outlier.session', '')) store.del('outlier.session');
 }
 
 function accountLine() {
   if (!me && !signinOn) return '';   // hidden until the server has email sending set up
   return me
-    ? `<p class="acct muted center">Signed in as <b>${esc(me.email)}</b> · <button class="link" id="signout">Sign out</button></p>`
+    ? `<p class="acct muted center">Signed in as <b>${esc(me.email)}</b>${plan.paywall && plan.plus ? ' · <b>Plus</b>' : ''}${plan.subscribed ? ' · <button class="link" id="manage">Manage</button>' : ''} · <button class="link" id="signout">Sign out</button></p>`
     : `<p class="acct muted center"><button class="link" id="signin">Sign in</button> to keep your history</p>`;
 }
 
 function accountWire() {
   if ($('#signin')) $('#signin').onclick = () => signInScreen();
+  if ($('#manage')) $('#manage').onclick = () => payRedirect('/api/portal');
   if ($('#signout')) $('#signout').onclick = async () => {
     try { await api('/api/auth/logout', {}); } catch { /* the session is dropped here either way */ }
     store.del('outlier.session'); me = null; toast('Signed out'); home();
@@ -690,19 +691,25 @@ function freeSolo() {
   wireSeed();
 }
 
+async function payRedirect(path) {
+  try { location.href = (await api(path, {})).url; } catch (e) { toast(e.message); }
+}
+
 function upsellScreen(msg) {
   stopTimer();
   const li = (icon, t, d) => `<li><span class="award-ic">${ic(icon)}</span><span class="award-t"><b>${t}</b><small>${d}</small></span></li>`;
   show(`${topbar('Outlier Plus')}
     <div class="card center stack"><h2>${esc(msg || 'More of Outlier')}</h2>
-      <p class="muted">Outlier Plus is coming soon. Free play stays free: the Daily Everything every day, one more category each day, and every friend's challenge link.</p></div>
+      <p class="muted">${plan.payments ? `Outlier Plus is ${esc(plan.price)}. Cancel any time.` : 'Outlier Plus is coming soon.'} Free play stays free: the Daily Everything every day, one more category each day, and every friend's challenge link.</p></div>
     <section class="card"><h3>With Plus</h3><ul class="awards">
       ${li('play', 'Quick games', 'Any category, sub-category or mix, any time')}
       ${li('calendar', 'Every daily', 'Any category every day, not just one')}
       ${li('users', 'Bigger party rooms', 'Host up to 12 players instead of 4')}
     </ul></section>
-    ${me ? '' : '<button class="btn primary" id="signin">Sign in</button>'}
+    ${!plan.payments ? '' : me ? `<button class="btn primary" id="subscribe">Get Outlier Plus</button>` : ''}
+    ${me ? '' : '<button class="btn primary" id="signin">Sign in' + (plan.payments ? ' to subscribe' : '') + '</button>'}
     <button class="btn" id="ok">Back</button>`);
+  if ($('#subscribe')) $('#subscribe').onclick = () => { $('#subscribe').disabled = true; payRedirect('/api/checkout'); };
   $('#back').onclick = $('#ok').onclick = () => limited() ? freeSolo() : home();
   if ($('#signin')) $('#signin').onclick = () => signInScreen();
 }
@@ -1313,6 +1320,11 @@ function partyFinal(s, host) {
   const params = new URLSearchParams(location.search);
   if (params.get('login')) await finishLogin(params.get('login'));
   await loadMe();
+  if (params.get('plus')) {
+    history.replaceState(null, '', location.pathname);
+    for (let i = 0; i < 8 && !plan.subscribed; i++) { await new Promise(r => setTimeout(r, 1500)); await loadMe(); }
+    toast(plan.subscribed ? 'Welcome to Outlier Plus!' : 'Payment received. Plus will switch on in a moment.');
+  }
   const invite = params.get('room');
   const challenge = location.pathname.startsWith('/c/') && readChallenge(location.pathname);
   if (challenge) {
