@@ -6,7 +6,7 @@
 "tags": [
 "draft"
 ],
-"text": "Name a player drafted into the NBA or BAA from the University of Kentucky (as listed on Wikipedia, drafts up to 2023)",
+"text": "Name a player drafted into the NBA or BAA from the University of Kentucky (drafts up to 2025)",
 "answers": [
 [
 "Anthony Davis",
@@ -516,7 +516,24 @@
 [
 "Jack Tingle",
 "Tingle"
-]
+],
+[
+"Reed Sheppard",
+"Sheppard"
+],
+[
+"Rob Dillingham",
+"Dillingham"
+],
+[
+"Antonio Reeves",
+"Reeves"
+],
+[
+"Koby Brea",
+"Brea"
+],
+"Amari Williams"
 ],
 "eraText": "Name a player from Kentucky who was drafted into the NBA in the {era}",
 "eras": {
@@ -834,6 +851,21 @@
 ],
 "Don Mills": [
 "60s"
+],
+"Reed Sheppard": [
+"20s"
+],
+"Rob Dillingham": [
+"20s"
+],
+"Antonio Reeves": [
+"20s"
+],
+"Koby Brea": [
+"20s"
+],
+"Amari Williams": [
+"20s"
 ]
 }
 },
