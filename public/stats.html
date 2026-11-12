@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#14152b">
+  <title>Outlier stats</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <style>
+    :root { --bg: #0e0f22; --card: #181a35; --text: #f4f3fb; --muted: #9b9dc6; --you: #ff7a59; --line: rgba(255,255,255,.1); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 24px 16px 60px; }
+    a { color: var(--you); }
+    h1 { font-size: 1.6rem; margin: 8px 0 2px; }
+    h2 { font-size: 1rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin: 28px 0 10px; }
+    .muted { color: var(--muted); font-size: .88rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+    .card b { display: block; font-size: 1.8rem; line-height: 1.1; }
+    .card span { color: var(--muted); font-size: .85rem; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--line); }
+    th:first-child, td:first-child { text-align: left; }
+    th { color: var(--muted); font-weight: 600; font-size: .85rem; }
+    .bar { height: 8px; background: var(--you); border-radius: 4px; min-width: 2px; }
+  </style>
+</head>
+<body>
+<main>
+  <a href="/">&lsaquo; Outlier</a>
+  <h1>Outlier stats</h1>
+  <p class="muted" id="sub">Loading&hellip;</p>
+  <div id="out"></div>
+</main>
+<script>
+(async () => {
+  const sub = document.getElementById('sub'), out = document.getElementById('out');
+  const session = (() => { try { return JSON.parse(localStorage.getItem('outlier.session') || '""'); } catch { return ''; } })();
+  let r;
+  try { r = await fetch('/api/stats', { headers: session ? { 'X-Session': session } : {}, credentials: 'same-origin' }); } catch { sub.textContent = 'Could not reach the server.'; return; }
+  if (!r.ok) { sub.innerHTML = 'Nothing to show. Sign in on <a href="/">the game</a> with the owner email, then come back to this page.'; return; }
+  const d = await r.json();
+  const n = x => Number(x).toLocaleString('en-GB');
+  const card = (v, l) => `<div class="card"><b>${n(v)}</b><span>${l}</span></div>`;
+  const max = Math.max(1, ...d.days.map(x => x.players));
+  sub.textContent = `Counting since ${d.since}. Players are anonymous browser IDs from solo and daily games, so one person on two devices counts twice. Paywall is ${d.paywall ? 'ON' : 'off'}.`;
+  out.innerHTML = `
+    <h2>Players (solo and daily)</h2>
+    <div class="grid">${card(d.players.today, 'today')}${card(d.players.week, 'last 7 days')}${card(d.players.month, 'last 30 days')}${card(d.players.all, 'all time')}</div>
+    <h2>Answers played</h2>
+    <div class="grid">${card(d.answers.today, 'today')}${card(d.answers.all, 'all time')}${card(d.leaderboardScores, 'leaderboard scores')}</div>
+    <h2>Accounts</h2>
+    <div class="grid">${card(d.accounts.total, 'signed up')}${card(d.accounts.week, 'new in 7 days')}${card(d.accounts.subscribers, 'Plus subscribers')}${card(d.accounts.canceled, 'ended subscriptions')}</div>
+    <h2>Last 14 days</h2>
+    <table><tr><th>Day</th><th>Players</th><th>Answers</th><th style="width:30%"></th></tr>
+      ${d.days.map(x => `<tr><td>${x.day}</td><td>${n(x.players)}</td><td>${n(x.answers)}</td><td><div class="bar" style="width:${Math.round(100 * x.players / max)}%"></div></td></tr>`).join('')}
+    </table>`;
+})();
+</script>
+</body>
+</html>

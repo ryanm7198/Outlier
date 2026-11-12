@@ -283,6 +283,8 @@ def open_db():
     DB.execute("CREATE TABLE IF NOT EXISTS user_plays (user_id INTEGER, ts INTEGER, prompt_id TEXT, answer TEXT, points INTEGER, share REAL)")
     DB.execute("CREATE TABLE IF NOT EXISTS daily_claims (user_id INTEGER, day TEXT, cat TEXT, PRIMARY KEY (user_id, day))")
     DB.execute("CREATE TABLE IF NOT EXISTS subs (user_id INTEGER PRIMARY KEY, customer TEXT, sub_id TEXT, status TEXT, updated INTEGER)")
+    DB.execute("CREATE TABLE IF NOT EXISTS daily_answers (day TEXT PRIMARY KEY, n INTEGER)")
+    DB.execute("CREATE TABLE IF NOT EXISTS daily_seen (day TEXT, cid TEXT, PRIMARY KEY (day, cid))")
     DB.execute("CREATE INDEX IF NOT EXISTS user_plays_user ON user_plays (user_id, ts)")
     for p in PROMPTS.values():
         # A long-tailed start in list order. The last answer listed (last two on long lists) starts below
@@ -593,6 +595,39 @@ def logout():
         DB.commit()
     CURRENT["cookie"] = session_cookie("", 0)
     return {"ok": True}
+
+
+def note_play(cid):
+    """Tallies for the owner's stats page: answers per day, and which anonymous player ids were active that day."""
+    day = datetime.date.today().isoformat()
+    DB.execute("INSERT INTO daily_answers (day, n) VALUES (?, 1) ON CONFLICT(day) DO UPDATE SET n = n + 1", (day,))
+    if cid:
+        DB.execute("INSERT OR IGNORE INTO daily_seen (day, cid) VALUES (?, ?)", (day, cid))
+
+
+def stats():
+    user = current_user()
+    if not user or user["email"] not in PLUS_EMAILS:
+        raise ApiError(404, "Not found")
+    today = datetime.date.today()
+    day = lambda n: (today - datetime.timedelta(days=n)).isoformat()
+    one = lambda q, *a: DB.execute(q, a).fetchone()[0] or 0
+    players = dict(DB.execute("SELECT day, COUNT(*) FROM daily_seen GROUP BY day").fetchall())
+    answers = dict(DB.execute("SELECT day, n FROM daily_answers").fetchall())
+    now = int(time.time())
+    return {
+        "days": [{"day": day(i), "players": players.get(day(i), 0), "answers": answers.get(day(i), 0)} for i in range(14)],
+        "players": {"today": players.get(day(0), 0), "week": one("SELECT COUNT(DISTINCT cid) FROM daily_seen WHERE day >= ?", day(6)),
+                    "month": one("SELECT COUNT(DISTINCT cid) FROM daily_seen WHERE day >= ?", day(29)),
+                    "all": one("SELECT COUNT(DISTINCT cid) FROM daily_seen")},
+        "answers": {"today": answers.get(day(0), 0), "all": one("SELECT SUM(n) FROM daily_answers")},
+        "accounts": {"total": one("SELECT COUNT(*) FROM users"), "week": one("SELECT COUNT(*) FROM users WHERE created > ?", now - 7 * 86400),
+                     "subscribers": one("SELECT COUNT(*) FROM subs WHERE status IN ('active', 'trialing', 'past_due')"),
+                     "canceled": one("SELECT COUNT(*) FROM subs WHERE status NOT IN ('active', 'trialing', 'past_due')")},
+        "leaderboardScores": one("SELECT COUNT(*) FROM scores"),
+        "since": min(list(players) + list(answers) + [day(0)]),
+        "paywall": PAYWALL,
+    }
 
 
 def log_play(pid, out):
@@ -1178,6 +1213,8 @@ def api_get(path, q):
                 "plus": is_plus(user), "paywall": PAYWALL, "claim": claim,
                 "payments": bool(STRIPE_KEY and STRIPE_PRICE), "price": PRICE_LABEL,
                 "subscribed": bool(user and sub_status(user["id"]) in LIVE_SUB)}
+    if path == "/api/stats":
+        return stats()
     if path == "/api/board":
         return board_out(q.get("seed"), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32])
     if path == "/api/room/state":
@@ -1210,6 +1247,7 @@ def api_post(path, body):
         out["prompt"] = PROMPTS[pid]["text"]
         if out["given"]:
             record(pid, out["canonical"], out["given"])
+            note_play(re.sub(r"[^0-9A-Za-z]", "", str(body.get("cid") or ""))[:32])
             log_play(pid, out)
             DB.commit()
         return out
@@ -1343,6 +1381,13 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         url = urlparse(self.path)
+        host = (self.headers.get("Host") or "").split(":")[0].lower()
+        if not DEV and SITE_URL.startswith("https") and host.endswith(".onrender.com") and not url.path.startswith("/api/"):
+            self.send_response(301)   # the old Render address: send everyone to the real domain
+            self.send_header("Location", SITE_URL + self.path)
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+            return
         if url.path.startswith("/api/"):
             q = {k: v[0] for k, v in parse_qs(url.query).items()}
             return self.run_api(api_get, url.path, q)

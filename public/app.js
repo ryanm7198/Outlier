@@ -779,7 +779,7 @@ function ask(prompt, roundMs, header, onResult) {
   show(header + questionHTML(prompt.text));
   const onTimeout = wireAnswer(prompt.id, async text => {
     stopTimer();
-    onResult(await api('/api/answer', { promptId: prompt.id, answer: text }));
+    onResult(await api('/api/answer', { promptId: prompt.id, answer: text, cid: playerId() }));
   });
   runTimer(roundMs, roundMs, onTimeout);
   $('#input').focus();
