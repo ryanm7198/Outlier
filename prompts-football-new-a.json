@@ -1,0 +1,3101 @@
+{
+ "cat": "football",
+ "prompts": [
+  {
+   "id": "fna-champ-top-scorers",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a player who finished as the top scorer (or joint top scorer) in the EFL Championship in a season from 2004-05 to 2025-26",
+   "answers": [
+    [
+     "Nathan Ellington",
+     "Ellington"
+    ],
+    [
+     "Marlon King",
+     "King"
+    ],
+    [
+     "Jamie Cureton",
+     "Cureton"
+    ],
+    [
+     "Sylvan Ebanks-Blake",
+     "Ebanks Blake"
+    ],
+    [
+     "Peter Whittingham",
+     "Whittingham"
+    ],
+    [
+     "Nicky Maynard",
+     "Maynard"
+    ],
+    [
+     "Danny Graham",
+     "Graham"
+    ],
+    [
+     "Rickie Lambert",
+     "Lambert"
+    ],
+    [
+     "Glenn Murray",
+     "Murray"
+    ],
+    [
+     "Ross McCormack",
+     "McCormack"
+    ],
+    [
+     "Daryl Murphy",
+     "Murphy"
+    ],
+    [
+     "Andre Gray",
+     "Gray"
+    ],
+    [
+     "Chris Wood",
+     "Wood"
+    ],
+    [
+     "Matej Vydra",
+     "Matěj Vydra",
+     "Vydra"
+    ],
+    [
+     "Teemu Pukki",
+     "Pukki"
+    ],
+    [
+     "Aleksandar Mitrovic",
+     "Aleksandar Mitrović",
+     "Mitro",
+     "Mitrovic"
+    ],
+    [
+     "Ivan Toney",
+     "Toney"
+    ],
+    [
+     "Chuba Akpom",
+     "Akpom"
+    ],
+    [
+     "Sammie Szmodics",
+     "Szmodics"
+    ],
+    [
+     "Joel Piroe",
+     "Joël Piroe",
+     "Piroe"
+    ],
+    [
+     "Zan Vipotnik",
+     "Žan Vipotnik",
+     "Vipotnik"
+    ]
+   ],
+   "eraText": "Name a player who finished as the top scorer (or joint top scorer) in the EFL Championship in a season that began in the {era}",
+   "eras": {
+    "Nathan Ellington": [
+     "00s"
+    ],
+    "Marlon King": [
+     "00s"
+    ],
+    "Jamie Cureton": [
+     "00s"
+    ],
+    "Sylvan Ebanks-Blake": [
+     "00s"
+    ],
+    "Peter Whittingham": [
+     "00s"
+    ],
+    "Nicky Maynard": [
+     "00s"
+    ],
+    "Danny Graham": [
+     "10s"
+    ],
+    "Rickie Lambert": [
+     "10s"
+    ],
+    "Glenn Murray": [
+     "10s"
+    ],
+    "Ross McCormack": [
+     "10s"
+    ],
+    "Daryl Murphy": [
+     "10s"
+    ],
+    "Andre Gray": [
+     "10s"
+    ],
+    "Chris Wood": [
+     "10s"
+    ],
+    "Matej Vydra": [
+     "10s"
+    ],
+    "Teemu Pukki": [
+     "10s"
+    ],
+    "Aleksandar Mitrovic": [
+     "10s",
+     "20s"
+    ],
+    "Ivan Toney": [
+     "20s"
+    ],
+    "Chuba Akpom": [
+     "20s"
+    ],
+    "Sammie Szmodics": [
+     "20s"
+    ],
+    "Joel Piroe": [
+     "20s"
+    ],
+    "Zan Vipotnik": [
+     "20s"
+    ]
+   }
+  },
+  {
+   "id": "fna-facup-winners-1872-1939",
+   "tags": [
+    "cups"
+   ],
+   "text": "Name a club that won the FA Cup in a final played between 1872 and 1939",
+   "answers": [
+    [
+     "Wanderers",
+     "Wanderers FC",
+     "Wanderers F.C."
+    ],
+    [
+     "Oxford University",
+     "Oxford University AFC"
+    ],
+    "Royal Engineers",
+    "Old Etonians",
+    "Clapham Rovers",
+    "Old Carthusians",
+    "Blackburn Olympic",
+    "Blackburn Rovers",
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Preston North End",
+     "Preston",
+     "PNE"
+    ],
+    [
+     "Notts County",
+     "Notts"
+    ],
+    [
+     "Sheffield Wednesday",
+     "Wednesday",
+     "The Wednesday"
+    ],
+    [
+     "Nottingham Forest",
+     "Forest",
+     "Notts Forest"
+    ],
+    [
+     "Sheffield United",
+     "Blades"
+    ],
+    "Bury",
+    [
+     "Tottenham Hotspur",
+     "Spurs",
+     "Tottenham"
+    ],
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    "Everton",
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    [
+     "Manchester United",
+     "Man United",
+     "Man Utd",
+     "Man U"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle"
+    ],
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    "Barnsley",
+    "Burnley",
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    "Arsenal",
+    "Sunderland",
+    [
+     "Portsmouth",
+     "Pompey"
+    ]
+   ]
+  },
+  {
+   "id": "fna-facup-winners-1946-1979",
+   "tags": [
+    "cups",
+    "60s",
+    "70s"
+   ],
+   "text": "Name a club that won the FA Cup in a final played between 1946 and 1979",
+   "answers": [
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    [
+     "Manchester United",
+     "Man United",
+     "Man Utd",
+     "Man U"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle"
+    ],
+    "Blackpool",
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Nottingham Forest",
+     "Forest",
+     "Notts Forest"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Spurs",
+     "Tottenham"
+    ],
+    "Everton",
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    "Chelsea",
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    "Sunderland",
+    "Liverpool",
+    "Southampton",
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    "Arsenal",
+    [
+     "Aston Villa",
+     "Villa"
+    ]
+   ]
+  },
+  {
+   "id": "fna-england-hat-tricks",
+   "tags": [
+    "worldcup",
+    "euros"
+   ],
+   "text": "Name a man who has scored a hat-trick (three or more goals) in an official England men's international (as of 12 November 2026)",
+   "answers": [
+    [
+     "Howard Vaughton",
+     "Vaughton"
+    ],
+    [
+     "Arthur Alfred Brown",
+     "Arthur Brown",
+     "Brown"
+    ],
+    [
+     "Clement Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Henry Cursham",
+     "Cursham"
+    ],
+    [
+     "Benjamin Spilsbury",
+     "Spilsbury"
+    ],
+    [
+     "Tinsley Lindley",
+     "Lindley"
+    ],
+    [
+     "Fred Dewhurst",
+     "Dewhurst"
+    ],
+    [
+     "Albert Allen",
+     "Allen"
+    ],
+    [
+     "John Yates",
+     "Yates"
+    ],
+    [
+     "Fred Geary",
+     "Geary"
+    ],
+    [
+     "Walter Gilliat",
+     "Gilliat"
+    ],
+    [
+     "Fred Spiksley",
+     "Frederick Spiksley",
+     "Spiksley"
+    ],
+    [
+     "John Veitch",
+     "Veitch"
+    ],
+    [
+     "Steve Bloomer",
+     "Bloomer"
+    ],
+    [
+     "Fred Wheldon",
+     "Wheldon"
+    ],
+    [
+     "Gilbert Smith",
+     "Smith"
+    ],
+    [
+     "Jimmy Settle",
+     "Settle"
+    ],
+    [
+     "Vivian Woodward",
+     "Woodward"
+    ],
+    [
+     "Frank Bradshaw",
+     "Bradshaw"
+    ],
+    [
+     "George Hilsdon",
+     "Hilsdon"
+    ],
+    [
+     "Harold Fleming",
+     "Fleming"
+    ],
+    [
+     "Frank Osborne",
+     "Osborne"
+    ],
+    [
+     "Dixie Dean",
+     "Dean"
+    ],
+    [
+     "George Camsell",
+     "Camsell"
+    ],
+    [
+     "Ted Drake",
+     "Drake"
+    ],
+    [
+     "Freddie Steele",
+     "Steele"
+    ],
+    [
+     "George Mills",
+     "Mills"
+    ],
+    [
+     "Stanley Matthews",
+     "Stan Matthews",
+     "Matthews"
+    ],
+    [
+     "Willie Hall",
+     "William Hall",
+     "Hall"
+    ],
+    [
+     "Wilf Mannion",
+     "Mannion"
+    ],
+    [
+     "Tommy Lawton",
+     "Lawton"
+    ],
+    [
+     "Stan Mortensen",
+     "Mortensen"
+    ],
+    [
+     "Jackie Milburn",
+     "Jackie Milburn",
+     "Wor Jackie",
+     "Milburn"
+    ],
+    [
+     "Jack Rowley",
+     "Rowley"
+    ],
+    [
+     "Tom Finney",
+     "Finney"
+    ],
+    [
+     "Roy Bentley",
+     "Bentley"
+    ],
+    [
+     "Dennis Wilshaw",
+     "Wilshaw"
+    ],
+    [
+     "Tommy Taylor",
+     "Taylor"
+    ],
+    [
+     "Johnny Haynes",
+     "Jimmy Haynes",
+     "Haynes"
+    ],
+    [
+     "Bobby Charlton",
+     "Charlton"
+    ],
+    [
+     "Jimmy Greaves",
+     "Greaves"
+    ],
+    [
+     "Terry Paine",
+     "Paine"
+    ],
+    [
+     "Johnny Byrne",
+     "Byrne"
+    ],
+    [
+     "Roger Hunt",
+     "Hunt"
+    ],
+    [
+     "Fred Pickering",
+     "Pickering"
+    ],
+    [
+     "Geoff Hurst",
+     "Hurst"
+    ],
+    [
+     "Malcolm Macdonald",
+     "Macdonald"
+    ],
+    [
+     "Luther Blissett",
+     "Blissett"
+    ],
+    [
+     "Bryan Robson",
+     "Robson"
+    ],
+    [
+     "Gary Lineker",
+     "Lineker"
+    ],
+    [
+     "David Platt",
+     "Platt"
+    ],
+    [
+     "Ian Wright",
+     "Wright"
+    ],
+    [
+     "Paul Scholes",
+     "Scholes"
+    ],
+    [
+     "Alan Shearer",
+     "Shearer"
+    ],
+    [
+     "Michael Owen",
+     "Owen"
+    ],
+    [
+     "Peter Crouch",
+     "Crouch"
+    ],
+    [
+     "Theo Walcott",
+     "Walcott"
+    ],
+    [
+     "Jermain Defoe",
+     "Defoe"
+    ],
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Bukayo Saka",
+     "Saka"
+    ]
+   ],
+   "eraText": "Name a man who scored a hat-trick in an official England men's international in the {era}",
+   "eras": {
+    "Bobby Charlton": [
+     "60s"
+    ],
+    "Jimmy Greaves": [
+     "60s"
+    ],
+    "Terry Paine": [
+     "60s"
+    ],
+    "Johnny Byrne": [
+     "60s"
+    ],
+    "Roger Hunt": [
+     "60s"
+    ],
+    "Fred Pickering": [
+     "60s"
+    ],
+    "Geoff Hurst": [
+     "60s"
+    ],
+    "Malcolm Macdonald": [
+     "70s"
+    ],
+    "Luther Blissett": [
+     "80s"
+    ],
+    "Bryan Robson": [
+     "80s"
+    ],
+    "Gary Lineker": [
+     "80s",
+     "90s"
+    ],
+    "David Platt": [
+     "90s"
+    ],
+    "Ian Wright": [
+     "90s"
+    ],
+    "Paul Scholes": [
+     "90s"
+    ],
+    "Alan Shearer": [
+     "90s"
+    ],
+    "Michael Owen": [
+     "00s"
+    ],
+    "Peter Crouch": [
+     "00s"
+    ],
+    "Theo Walcott": [
+     "00s"
+    ],
+    "Jermain Defoe": [
+     "10s"
+    ],
+    "Harry Kane": [
+     "10s",
+     "20s"
+    ],
+    "Raheem Sterling": [
+     "10s"
+    ],
+    "Bukayo Saka": [
+     "20s"
+    ]
+   }
+  },
+  {
+   "id": "fna-lionesses-100-caps",
+   "tags": [
+    "euros",
+    "worldcup",
+    "90s",
+    "00s",
+    "10s",
+    "20s"
+   ],
+   "text": "Name a player with 100 or more caps for the England women's team (as of 13 October 2026)",
+   "answers": [
+    [
+     "Gillian Coultard",
+     "Gill Coultard",
+     "Coultard"
+    ],
+    [
+     "Kelly Smith",
+     "Smith"
+    ],
+    [
+     "Rachel Yankey",
+     "Yankey"
+    ],
+    [
+     "Casey Stoney",
+     "Stoney"
+    ],
+    [
+     "Fara Williams",
+     "Williams"
+    ],
+    [
+     "Rachel Unitt",
+     "Unitt"
+    ],
+    [
+     "Eniola Aluko",
+     "Aluko"
+    ],
+    "Alex Scott",
+    [
+     "Karen Carney",
+     "Carney"
+    ],
+    "Jill Scott",
+    [
+     "Steph Houghton",
+     "Houghton"
+    ],
+    [
+     "Ellen White",
+     "White"
+    ],
+    [
+     "Lucy Bronze",
+     "Bronze"
+    ],
+    [
+     "Alex Greenwood",
+     "Greenwood"
+    ],
+    [
+     "Keira Walsh",
+     "Walsh"
+    ]
+   ]
+  },
+  {
+   "id": "fna-lionesses-20-goals",
+   "tags": [
+    "euros",
+    "worldcup",
+    "70s",
+    "80s",
+    "90s",
+    "00s",
+    "10s",
+    "20s"
+   ],
+   "text": "Name a player with 20 or more goals for the England women's team (as of 13 October 2026)",
+   "answers": [
+    [
+     "Linda Curl",
+     "Curl"
+    ],
+    [
+     "Kerry Davis",
+     "Davis"
+    ],
+    [
+     "Marieanne Spacey",
+     "Marieanne Ward",
+     "Spacey"
+    ],
+    [
+     "Karen Walker",
+     "Walker"
+    ],
+    [
+     "Kelly Smith",
+     "Smith"
+    ],
+    [
+     "Fara Williams",
+     "Williams"
+    ],
+    [
+     "Eniola Aluko",
+     "Aluko"
+    ],
+    [
+     "Karen Carney",
+     "Carney"
+    ],
+    [
+     "Jill Scott",
+     "Scott"
+    ],
+    [
+     "Ellen White",
+     "White"
+    ],
+    [
+     "Toni Duggan",
+     "Duggan"
+    ],
+    [
+     "Lucy Bronze",
+     "Bronze"
+    ],
+    [
+     "Beth Mead",
+     "Mead"
+    ],
+    [
+     "Georgia Stanway",
+     "Stanway"
+    ],
+    [
+     "Lauren Hemp",
+     "Hemp"
+    ],
+    [
+     "Alessia Russo",
+     "Russo"
+    ],
+    [
+     "Ella Toone",
+     "Toone"
+    ]
+   ]
+  },
+  {
+   "id": "fna-wsl-top-scorers",
+   "tags": [
+    "10s",
+    "20s"
+   ],
+   "text": "Name a player who has finished as top scorer (or joint top scorer) in a Women's Super League season from 2011 to 2025-26 (the 2017 Spring Series counts)",
+   "answers": [
+    [
+     "Rachel Williams",
+     "Williams"
+    ],
+    [
+     "Kim Little",
+     "Little"
+    ],
+    [
+     "Natasha Dowie",
+     "Dowie"
+    ],
+    [
+     "Karen Carney",
+     "Carney"
+    ],
+    [
+     "Beth Mead",
+     "Mead"
+    ],
+    [
+     "Eniola Aluko",
+     "Aluko"
+    ],
+    [
+     "Ellen White",
+     "White"
+    ],
+    [
+     "Vivianne Miedema",
+     "Viv Miedema",
+     "Miedema"
+    ],
+    [
+     "Sam Kerr",
+     "Samantha Kerr",
+     "Kerr"
+    ],
+    [
+     "Rachel Daly",
+     "Daly"
+    ],
+    [
+     "Khadija Shaw",
+     "Bunny Shaw",
+     "Khadija 'Bunny' Shaw",
+     "Shaw"
+    ],
+    [
+     "Alessia Russo",
+     "Russo"
+    ],
+    [
+     "Fran Kirby",
+     "Kirby"
+    ]
+   ]
+  },
+  {
+   "id": "fna-wsl-clubs-ever",
+   "tags": [
+    "10s",
+    "20s"
+   ],
+   "text": "Name a club that has played in the Women's Super League in any season from 2011 to 2026-27 (including clubs promoted for 2026-27)",
+   "answers": [
+    "Arsenal",
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham"
+    ],
+    [
+     "Brighton and Hove Albion",
+     "Brighton",
+     "Brighton & Hove Albion"
+    ],
+    [
+     "Bristol City",
+     "Bristol Academy"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    "Chelsea",
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    [
+     "Doncaster Rovers Belles",
+     "Doncaster Belles",
+     "Doncaster Rovers Belles",
+     "Doncaster"
+    ],
+    "Everton",
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    "Liverpool",
+    [
+     "London City Lionesses",
+     "London City"
+    ],
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Manchester United",
+     "Man United",
+     "Man Utd"
+    ],
+    [
+     "Notts County",
+     "Lincoln Ladies",
+     "Lincoln"
+    ],
+    "Reading",
+    "Sunderland",
+    [
+     "Tottenham Hotspur",
+     "Spurs",
+     "Tottenham"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Yeovil Town",
+     "Yeovil"
+    ]
+   ]
+  },
+  {
+   "id": "fna-womens-fa-cup-winners",
+   "tags": [
+    "cups",
+    "70s",
+    "80s",
+    "90s",
+    "00s",
+    "10s",
+    "20s"
+   ],
+   "text": "Name a club that has won the Women's FA Cup (final 1971 to 2026; clubs that later changed name or merged count, e.g. Croydon/Charlton and Leasowe Pacific/Everton)",
+   "answers": [
+    [
+     "Southampton",
+     "Southampton Women's",
+     "Southampton WFC"
+    ],
+    [
+     "Fodens",
+     "Fodens Ladies"
+    ],
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "St Helens",
+     "St Helens Ladies"
+    ],
+    [
+     "Lowestoft Ladies",
+     "Lowestoft"
+    ],
+    [
+     "Doncaster Belles",
+     "Doncaster Rovers Belles",
+     "Doncaster"
+    ],
+    [
+     "Howbury Grange",
+     "Howbury"
+    ],
+    "Friends of Fulham",
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    [
+     "Everton",
+     "Leasowe Pacific"
+    ],
+    [
+     "Millwall Lionesses",
+     "Millwall"
+    ],
+    "Arsenal",
+    [
+     "Charlton Athletic",
+     "Charlton",
+     "Croydon"
+    ],
+    "Fulham",
+    [
+     "Birmingham City",
+     "Birmingham"
+    ],
+    "Chelsea",
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Manchester United",
+     "Man United",
+     "Man Utd"
+    ]
+   ]
+  },
+  {
+   "id": "fna-lionesses-euro-2005",
+   "tags": [
+    "euros",
+    "00s"
+   ],
+   "text": "Name a player in England's squad for Women's Euro 2005",
+   "answers": [
+    [
+     "Jo Fletcher",
+     "Fletcher"
+    ],
+    [
+     "Alex Scott",
+     "Scott"
+    ],
+    [
+     "Rachel Unitt",
+     "Unitt"
+    ],
+    [
+     "Katie Chapman",
+     "Chapman"
+    ],
+    [
+     "Faye White",
+     "White"
+    ],
+    [
+     "Mary Phillip",
+     "Phillip"
+    ],
+    [
+     "Jody Handley",
+     "Handley"
+    ],
+    [
+     "Fara Williams",
+     "Williams"
+    ],
+    [
+     "Amanda Barr",
+     "Barr"
+    ],
+    [
+     "Emily Westwood",
+     "Westwood"
+    ],
+    [
+     "Rachel Yankey",
+     "Yankey"
+    ],
+    [
+     "Kelly Smith",
+     "Smith"
+    ],
+    [
+     "Rachel Brown",
+     "Brown"
+    ],
+    [
+     "Karen Carney",
+     "Carney"
+    ],
+    [
+     "Casey Stoney",
+     "Stoney"
+    ],
+    [
+     "Vicky Exley",
+     "Exley"
+    ],
+    [
+     "Anita Asante",
+     "Asante"
+    ],
+    [
+     "Eniola Aluko",
+     "Aluko"
+    ],
+    [
+     "Lindsay Johnson",
+     "Johnson"
+    ],
+    [
+     "Leanne Hall",
+     "Hall"
+    ]
+   ]
+  },
+  {
+   "id": "fna-lionesses-euro-2009",
+   "tags": [
+    "euros",
+    "00s"
+   ],
+   "text": "Name a player in England's squad for Women's Euro 2009",
+   "answers": [
+    [
+     "Rachel Brown",
+     "Brown"
+    ],
+    "Alex Scott",
+    [
+     "Casey Stoney",
+     "Stoney"
+    ],
+    [
+     "Fara Williams",
+     "Williams"
+    ],
+    [
+     "Lindsay Johnson",
+     "Johnson"
+    ],
+    [
+     "Anita Asante",
+     "Asante"
+    ],
+    [
+     "Karen Carney",
+     "Carney"
+    ],
+    [
+     "Katie Chapman",
+     "Chapman"
+    ],
+    [
+     "Eniola Aluko",
+     "Aluko"
+    ],
+    "Kelly Smith",
+    "Sue Smith",
+    "Jill Scott",
+    [
+     "Siobhan Chamberlain",
+     "Chamberlain"
+    ],
+    [
+     "Faye White",
+     "White"
+    ],
+    [
+     "Rachel Unitt",
+     "Unitt"
+    ],
+    [
+     "Jody Handley",
+     "Handley"
+    ],
+    [
+     "Lianne Sanderson",
+     "Sanderson"
+    ],
+    [
+     "Emily Westwood",
+     "Westwood"
+    ],
+    [
+     "Laura Bassett",
+     "Bassett"
+    ],
+    [
+     "Danielle Buet",
+     "Buet"
+    ],
+    [
+     "Jessica Clarke",
+     "Clarke"
+    ],
+    [
+     "Karen Bardsley",
+     "Bardsley"
+    ]
+   ]
+  },
+  {
+   "id": "fna-lionesses-euro-2013",
+   "tags": [
+    "euros",
+    "10s"
+   ],
+   "text": "Name a player in England's squad for Women's Euro 2013",
+   "answers": [
+    [
+     "Karen Bardsley",
+     "Bardsley"
+    ],
+    "Alex Scott",
+    [
+     "Steph Houghton",
+     "Houghton"
+    ],
+    "Jill Scott",
+    [
+     "Sophie Bradley",
+     "Bradley"
+    ],
+    [
+     "Casey Stoney",
+     "Stoney"
+    ],
+    [
+     "Eniola Aluko",
+     "Aluko"
+    ],
+    [
+     "Anita Asante",
+     "Asante"
+    ],
+    [
+     "Ellen White",
+     "White"
+    ],
+    [
+     "Fara Williams",
+     "Williams"
+    ],
+    [
+     "Rachel Yankey",
+     "Yankey"
+    ],
+    [
+     "Jessica Clarke",
+     "Clarke"
+    ],
+    [
+     "Rachel Brown",
+     "Brown"
+    ],
+    [
+     "Karen Carney",
+     "Carney"
+    ],
+    [
+     "Laura Bassett",
+     "Bassett"
+    ],
+    [
+     "Jordan Nobbs",
+     "Nobbs"
+    ],
+    [
+     "Toni Duggan",
+     "Duggan"
+    ],
+    [
+     "Dunia Susi",
+     "Susi"
+    ],
+    [
+     "Gemma Bonner",
+     "Bonner"
+    ],
+    [
+     "Jade Moore",
+     "Moore"
+    ],
+    [
+     "Lucy Bronze",
+     "Bronze"
+    ],
+    [
+     "Kelly Smith",
+     "Smith"
+    ],
+    [
+     "Siobhan Chamberlain",
+     "Chamberlain"
+    ]
+   ]
+  },
+  {
+   "id": "fna-lionesses-wwc-2007",
+   "tags": [
+    "worldcup",
+    "00s"
+   ],
+   "text": "Name a player in England's squad for the 2007 Women's World Cup",
+   "answers": [
+    [
+     "Rachel Brown",
+     "Brown"
+    ],
+    "Alex Scott",
+    [
+     "Casey Stoney",
+     "Stoney"
+    ],
+    [
+     "Katie Chapman",
+     "Chapman"
+    ],
+    [
+     "Faye White",
+     "White"
+    ],
+    [
+     "Mary Phillip",
+     "Phillip"
+    ],
+    [
+     "Karen Carney",
+     "Carney"
+    ],
+    [
+     "Fara Williams",
+     "Williams"
+    ],
+    [
+     "Eniola Aluko",
+     "Aluko"
+    ],
+    "Kelly Smith",
+    [
+     "Rachel Yankey",
+     "Yankey"
+    ],
+    [
+     "Anita Asante",
+     "Asante"
+    ],
+    [
+     "Siobhan Chamberlain",
+     "Chamberlain"
+    ],
+    [
+     "Rachel Unitt",
+     "Unitt"
+    ],
+    "Sue Smith",
+    "Jill Scott",
+    [
+     "Jody Handley",
+     "Handley"
+    ],
+    [
+     "Lianne Sanderson",
+     "Sanderson"
+    ],
+    [
+     "Vicky Exley",
+     "Exley"
+    ],
+    [
+     "Lindsay Johnson",
+     "Johnson"
+    ],
+    [
+     "Carly Telford",
+     "Telford"
+    ]
+   ]
+  },
+  {
+   "id": "fna-lionesses-wwc-2011",
+   "tags": [
+    "worldcup",
+    "10s"
+   ],
+   "text": "Name a player in England's squad for the 2011 Women's World Cup",
+   "answers": [
+    [
+     "Karen Bardsley",
+     "Bardsley"
+    ],
+    "Alex Scott",
+    [
+     "Rachel Unitt",
+     "Unitt"
+    ],
+    "Jill Scott",
+    "Faye White",
+    [
+     "Casey Stoney",
+     "Stoney"
+    ],
+    [
+     "Jessica Clarke",
+     "Clarke"
+    ],
+    [
+     "Fara Williams",
+     "Williams"
+    ],
+    "Ellen White",
+    [
+     "Kelly Smith",
+     "Smith"
+    ],
+    [
+     "Rachel Yankey",
+     "Yankey"
+    ],
+    [
+     "Karen Carney",
+     "Carney"
+    ],
+    [
+     "Rachel Brown",
+     "Brown"
+    ],
+    [
+     "Eniola Aluko",
+     "Aluko"
+    ],
+    [
+     "Sophie Bradley",
+     "Bradley"
+    ],
+    [
+     "Steph Houghton",
+     "Houghton"
+    ],
+    [
+     "Laura Bassett",
+     "Bassett"
+    ],
+    [
+     "Anita Asante",
+     "Asante"
+    ],
+    [
+     "Dunia Susi",
+     "Susi"
+    ],
+    [
+     "Claire Rafferty",
+     "Rafferty"
+    ],
+    [
+     "Siobhan Chamberlain",
+     "Chamberlain"
+    ]
+   ]
+  },
+  {
+   "id": "fna-everton-50-goals",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored 50 or more goals for Everton in all competitions (as of November 2026, per Wikipedia's list of Everton players)",
+   "answers": [
+    [
+     "Alf Milward",
+     "Milward"
+    ],
+    "Edgar Chadwick",
+    [
+     "Alex Latta",
+     "Latta"
+    ],
+    [
+     "Fred Geary",
+     "Geary"
+    ],
+    [
+     "Jack Bell",
+     "Bell"
+    ],
+    [
+     "Jack Taylor",
+     "Taylor"
+    ],
+    [
+     "Jimmy Settle",
+     "Settle"
+    ],
+    "Jack Sharp",
+    "Sandy Young",
+    [
+     "Bert Freeman",
+     "Freeman"
+    ],
+    "Bobby Parker",
+    "Wilf Chadwick",
+    [
+     "Bobby Irvine",
+     "Irvine"
+    ],
+    [
+     "Dixie Dean",
+     "Dean"
+    ],
+    [
+     "Tommy White",
+     "White"
+    ],
+    [
+     "Jimmy Stein",
+     "Stein"
+    ],
+    [
+     "Tommy Johnson",
+     "Johnson"
+    ],
+    [
+     "Jimmy Cunliffe",
+     "Cunliffe"
+    ],
+    [
+     "Alex Stevenson",
+     "Stevenson"
+    ],
+    [
+     "Tommy Lawton",
+     "Lawton"
+    ],
+    [
+     "Wally Fielding",
+     "Fielding"
+    ],
+    [
+     "Eddie Wainwright",
+     "Wainwright"
+    ],
+    [
+     "Tommy Eglington",
+     "Eglington"
+    ],
+    [
+     "John Willie Parker",
+     "JW Parker"
+    ],
+    [
+     "Dave Hickson",
+     "Hickson"
+    ],
+    [
+     "Jimmy Harris",
+     "Harris"
+    ],
+    [
+     "Derek Temple",
+     "Temple"
+    ],
+    [
+     "Roy Vernon",
+     "Vernon"
+    ],
+    [
+     "Alex Young",
+     "Golden Vision"
+    ],
+    [
+     "Johnny Morrissey",
+     "Morrissey"
+    ],
+    [
+     "Fred Pickering",
+     "Pickering"
+    ],
+    [
+     "Jimmy Husband",
+     "Husband"
+    ],
+    [
+     "Alan Ball",
+     "Ball"
+    ],
+    [
+     "Joe Royle",
+     "Royle"
+    ],
+    [
+     "Mick Lyons",
+     "Lyons"
+    ],
+    [
+     "Bob Latchford",
+     "Latchford"
+    ],
+    [
+     "Andy King",
+     "King"
+    ],
+    "Graeme Sharp",
+    [
+     "Adrian Heath",
+     "Heath"
+    ],
+    [
+     "Kevin Sheedy",
+     "Sheedy"
+    ],
+    [
+     "Trevor Steven",
+     "Steven"
+    ],
+    [
+     "Tony Cottee",
+     "Cottee"
+    ],
+    [
+     "Duncan Ferguson",
+     "Ferguson"
+    ],
+    [
+     "Kevin Campbell",
+     "Campbell"
+    ],
+    [
+     "Leon Osman",
+     "Osman"
+    ],
+    [
+     "Tim Cahill",
+     "Cahill"
+    ],
+    [
+     "Romelu Lukaku",
+     "Lukaku"
+    ],
+    [
+     "Dominic Calvert-Lewin",
+     "Calvert-Lewin"
+    ],
+    "Richarlison"
+   ],
+   "eraText": "Name a player who scored 50 or more goals for Everton and played for the club in the {era}",
+   "eras": {
+    "Derek Temple": [
+     "60s"
+    ],
+    "Roy Vernon": [
+     "60s"
+    ],
+    "Alex Young": [
+     "60s"
+    ],
+    "Johnny Morrissey": [
+     "60s",
+     "70s"
+    ],
+    "Fred Pickering": [
+     "60s"
+    ],
+    "Jimmy Husband": [
+     "60s",
+     "70s"
+    ],
+    "Alan Ball": [
+     "60s",
+     "70s"
+    ],
+    "Joe Royle": [
+     "60s",
+     "70s"
+    ],
+    "Mick Lyons": [
+     "70s",
+     "80s"
+    ],
+    "Bob Latchford": [
+     "70s"
+    ],
+    "Andy King": [
+     "70s",
+     "80s"
+    ],
+    "Graeme Sharp": [
+     "80s",
+     "90s"
+    ],
+    "Adrian Heath": [
+     "80s"
+    ],
+    "Kevin Sheedy": [
+     "80s",
+     "90s"
+    ],
+    "Trevor Steven": [
+     "80s"
+    ],
+    "Tony Cottee": [
+     "80s",
+     "90s"
+    ],
+    "Duncan Ferguson": [
+     "90s",
+     "00s"
+    ],
+    "Kevin Campbell": [
+     "90s",
+     "00s"
+    ],
+    "Leon Osman": [
+     "00s",
+     "10s"
+    ],
+    "Tim Cahill": [
+     "00s",
+     "10s"
+    ],
+    "Romelu Lukaku": [
+     "10s"
+    ],
+    "Dominic Calvert-Lewin": [
+     "10s",
+     "20s"
+    ],
+    "Richarlison": [
+     "10s",
+     "20s"
+    ]
+   }
+  },
+  {
+   "id": "fna-london-top-flight-clubs",
+   "tags": [
+    "pl",
+    "60s",
+    "70s",
+    "80s",
+    "90s",
+    "00s",
+    "10s",
+    "20s"
+   ],
+   "text": "Name a club based in Greater London that has played in the top flight of English football (1888-89 to 2025-26)",
+   "answers": [
+    "Arsenal",
+    "Brentford",
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    "Chelsea",
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    "Fulham",
+    [
+     "Leyton Orient",
+     "Orient",
+     "Clapton Orient"
+    ],
+    "Millwall",
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Spurs",
+     "Tottenham"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Wimbledon",
+     "Wimbledon FC"
+    ]
+   ]
+  },
+  {
+   "id": "fna-british-transfer-records",
+   "tags": [
+    "pl",
+    "efl"
+   ],
+   "text": "Name a player whose transfer set a new British transfer-fee record at the time (June 1961 to September 2025)",
+   "answers": [
+    [
+     "Gerry Hitchens",
+     "Gerald Hitchens",
+     "Hitchens"
+    ],
+    [
+     "Jimmy Greaves",
+     "Greaves"
+    ],
+    [
+     "Denis Law",
+     "Law"
+    ],
+    [
+     "Martin Chivers",
+     "Chivers"
+    ],
+    [
+     "Allan Clarke",
+     "Clarke"
+    ],
+    [
+     "Martin Peters",
+     "Peters"
+    ],
+    [
+     "Alan Ball",
+     "Ball"
+    ],
+    [
+     "David Nish",
+     "Nish"
+    ],
+    [
+     "Alan Hudson",
+     "Hudson"
+    ],
+    [
+     "Bob Latchford",
+     "Latchford"
+    ],
+    [
+     "Kevin Keegan",
+     "Keegan"
+    ],
+    [
+     "David Mills",
+     "Mills"
+    ],
+    [
+     "Trevor Francis",
+     "Francis"
+    ],
+    [
+     "Steve Daley",
+     "Daley"
+    ],
+    [
+     "Andy Gray",
+     "Gray"
+    ],
+    [
+     "Bryan Robson",
+     "Robbo",
+     "Robson"
+    ],
+    [
+     "Ray Wilkins",
+     "Raymond Wilkins",
+     "Wilkins"
+    ],
+    [
+     "Mark Hughes",
+     "Hughes"
+    ],
+    [
+     "Ian Rush",
+     "Rush"
+    ],
+    [
+     "Chris Waddle",
+     "Christopher Waddle",
+     "Waddle"
+    ],
+    [
+     "David Platt",
+     "Platt"
+    ],
+    [
+     "Trevor Steven",
+     "Steven"
+    ],
+    [
+     "Paul Gascoigne",
+     "Gascoigne"
+    ],
+    [
+     "Andy Cole",
+     "Andrew Cole",
+     "Cole"
+    ],
+    [
+     "Dennis Bergkamp",
+     "Bergkamp"
+    ],
+    [
+     "Stan Collymore",
+     "Collymore"
+    ],
+    [
+     "Alan Shearer",
+     "Shearer"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Juan Sebastian Veron",
+     "Juan Sebastián Verón",
+     "Veron"
+    ],
+    [
+     "Rio Ferdinand",
+     "Ferdinand"
+    ],
+    [
+     "Andriy Shevchenko",
+     "Shevchenko"
+    ],
+    [
+     "Robinho",
+     "Robson de Souza"
+    ],
+    [
+     "Cristiano Ronaldo",
+     "Ronaldo",
+     "CR7"
+    ],
+    [
+     "Gareth Bale",
+     "Bale"
+    ],
+    [
+     "Paul Pogba",
+     "Pogba"
+    ],
+    [
+     "Philippe Coutinho",
+     "Coutinho"
+    ],
+    [
+     "Enzo Fernandez",
+     "Enzo Fernández",
+     "Fernandez"
+    ],
+    [
+     "Alexander Isak",
+     "Alex Isak",
+     "Isak"
+    ]
+   ],
+   "eraText": "Name a player whose transfer set a new British transfer-fee record in the {era}",
+   "eras": {
+    "Gerry Hitchens": [
+     "60s"
+    ],
+    "Jimmy Greaves": [
+     "60s"
+    ],
+    "Denis Law": [
+     "60s"
+    ],
+    "Martin Chivers": [
+     "60s"
+    ],
+    "Allan Clarke": [
+     "60s"
+    ],
+    "Martin Peters": [
+     "70s"
+    ],
+    "Alan Ball": [
+     "70s"
+    ],
+    "David Nish": [
+     "70s"
+    ],
+    "Alan Hudson": [
+     "70s"
+    ],
+    "Bob Latchford": [
+     "70s"
+    ],
+    "Kevin Keegan": [
+     "70s"
+    ],
+    "David Mills": [
+     "70s"
+    ],
+    "Trevor Francis": [
+     "70s"
+    ],
+    "Steve Daley": [
+     "70s"
+    ],
+    "Andy Gray": [
+     "70s"
+    ],
+    "Bryan Robson": [
+     "80s"
+    ],
+    "Ray Wilkins": [
+     "80s"
+    ],
+    "Mark Hughes": [
+     "80s"
+    ],
+    "Ian Rush": [
+     "80s"
+    ],
+    "Chris Waddle": [
+     "80s"
+    ],
+    "David Platt": [
+     "90s"
+    ],
+    "Trevor Steven": [
+     "90s"
+    ],
+    "Paul Gascoigne": [
+     "90s"
+    ],
+    "Andy Cole": [
+     "90s"
+    ],
+    "Dennis Bergkamp": [
+     "90s"
+    ],
+    "Stan Collymore": [
+     "90s"
+    ],
+    "Alan Shearer": [
+     "90s"
+    ],
+    "Nicolas Anelka": [
+     "90s"
+    ],
+    "Juan Sebastian Veron": [
+     "00s"
+    ],
+    "Rio Ferdinand": [
+     "00s"
+    ],
+    "Andriy Shevchenko": [
+     "00s"
+    ],
+    "Robinho": [
+     "00s"
+    ],
+    "Cristiano Ronaldo": [
+     "00s"
+    ],
+    "Gareth Bale": [
+     "10s"
+    ],
+    "Paul Pogba": [
+     "10s"
+    ],
+    "Philippe Coutinho": [
+     "10s"
+    ],
+    "Enzo Fernandez": [
+     "20s"
+    ],
+    "Alexander Isak": [
+     "20s"
+    ]
+   }
+  },
+  {
+   "id": "fna-topflight-topscorers-1888-1939",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who was the top scorer (or joint top scorer) in the English top flight in a season from 1888-89 to 1938-39",
+   "answers": [
+    [
+     "John Goodall",
+     "Goodall"
+    ],
+    [
+     "Jimmy Ross",
+     "Ross"
+    ],
+    [
+     "Jack Southworth",
+     "Southworth"
+    ],
+    [
+     "John Campbell",
+     "Campbell"
+    ],
+    [
+     "Steve Bloomer",
+     "Stephen Bloomer",
+     "Bloomer"
+    ],
+    [
+     "Fred Wheldon",
+     "Wheldon"
+    ],
+    [
+     "Billy Garraty",
+     "Garraty"
+    ],
+    [
+     "Jimmy Settle",
+     "Settle"
+    ],
+    [
+     "Sam Raybould",
+     "Raybould"
+    ],
+    [
+     "Arthur Brown",
+     "Brown"
+    ],
+    [
+     "Albert Shepherd",
+     "Shepherd"
+    ],
+    [
+     "Sandy Young",
+     "Alex Young",
+     "Young"
+    ],
+    [
+     "Enoch West",
+     "West"
+    ],
+    [
+     "Bert Freeman",
+     "Freeman"
+    ],
+    [
+     "Jack Parkinson",
+     "Parkinson"
+    ],
+    [
+     "Harry Hampton",
+     "Hampton"
+    ],
+    [
+     "George Holley",
+     "Holley"
+    ],
+    [
+     "David McLean",
+     "McLean"
+    ],
+    [
+     "George Elliott",
+     "Elliott"
+    ],
+    [
+     "Bobby Parker",
+     "Parker"
+    ],
+    [
+     "Fred Morris",
+     "Morris"
+    ],
+    [
+     "Joe Smith",
+     "Joseph Smith",
+     "Smith"
+    ],
+    [
+     "Andrew Wilson",
+     "Andy Wilson",
+     "Wilson"
+    ],
+    [
+     "Charlie Buchan",
+     "Buchan"
+    ],
+    [
+     "Wilf Chadwick",
+     "Chadwick"
+    ],
+    [
+     "Frank Roberts",
+     "Roberts"
+    ],
+    [
+     "Ted Harper",
+     "Harper"
+    ],
+    [
+     "Jimmy Trotter",
+     "Trotter"
+    ],
+    [
+     "Dixie Dean",
+     "William Dean",
+     "Bill Dean",
+     "Dean"
+    ],
+    [
+     "Dave Halliday",
+     "Halliday"
+    ],
+    [
+     "Vic Watson",
+     "Watson"
+    ],
+    [
+     "Tom Waring",
+     "Waring"
+    ],
+    [
+     "Jack Bowers",
+     "Bowers"
+    ],
+    [
+     "Ted Drake",
+     "Drake"
+    ],
+    [
+     "W. G. Richardson",
+     "Ginger Richardson",
+     "Bill Richardson",
+     "WG Richardson",
+     "Richardson"
+    ],
+    [
+     "Freddie Steele",
+     "Steele"
+    ],
+    [
+     "Tommy Lawton",
+     "Lawton"
+    ]
+   ]
+  },
+  {
+   "id": "fna-topflight-topscorers-1946-1960",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who was the top scorer (or joint top scorer) in the English top flight in a season from 1946-47 to 1959-60",
+   "answers": [
+    [
+     "Dennis Westcott",
+     "Westcott"
+    ],
+    [
+     "Ronnie Rooke",
+     "Ron Rooke",
+     "Rooke"
+    ],
+    [
+     "Willie Moir",
+     "Moir"
+    ],
+    [
+     "Dickie Davis",
+     "Dick Davis",
+     "Richard Davis",
+     "Davis"
+    ],
+    [
+     "Stan Mortensen",
+     "Mortensen"
+    ],
+    [
+     "George Robledo",
+     "Robledo"
+    ],
+    [
+     "Charlie Wayman",
+     "Charles Wayman",
+     "Wayman"
+    ],
+    [
+     "Jimmy Glazzard",
+     "Glazzard"
+    ],
+    [
+     "Ronnie Allen",
+     "Allen"
+    ],
+    [
+     "Nat Lofthouse",
+     "Lofthouse"
+    ],
+    [
+     "John Charles",
+     "Gentle Giant",
+     "Il Buon Gigante",
+     "Charles"
+    ],
+    [
+     "Bobby Smith",
+     "Smith"
+    ],
+    [
+     "Jimmy Greaves",
+     "Greaves"
+    ],
+    [
+     "Dennis Viollet",
+     "Viollet"
+    ]
+   ]
+  },
+  {
+   "id": "fna-topflight-topscorers-multiple",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has been the top scorer (or joint top scorer) in the English top flight in more than one season (1888-89 to 2025-26)",
+   "answers": [
+    [
+     "Jack Southworth",
+     "Southworth"
+    ],
+    [
+     "John Campbell",
+     "Campbell"
+    ],
+    [
+     "Steve Bloomer",
+     "Stephen Bloomer",
+     "Bloomer"
+    ],
+    [
+     "Albert Shepherd",
+     "Shepherd"
+    ],
+    [
+     "David McLean",
+     "McLean"
+    ],
+    [
+     "Dixie Dean",
+     "William Dean",
+     "Bill Dean",
+     "Dean"
+    ],
+    [
+     "Jack Bowers",
+     "Bowers"
+    ],
+    [
+     "Tommy Lawton",
+     "Lawton"
+    ],
+    [
+     "Jimmy Greaves",
+     "Greaves"
+    ],
+    [
+     "Ron Davies",
+     "Davies"
+    ],
+    [
+     "Malcolm Macdonald",
+     "Macdonald"
+    ],
+    [
+     "Gary Lineker",
+     "Lineker"
+    ],
+    [
+     "Alan Smith",
+     "Smith"
+    ],
+    [
+     "Alan Shearer",
+     "Shearer"
+    ],
+    [
+     "Michael Owen",
+     "Owen"
+    ],
+    [
+     "Jimmy Floyd Hasselbaink",
+     "Hasselbaink",
+     "Jimmy Hasselbaink"
+    ],
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "Didier Drogba",
+     "Drogba"
+    ],
+    [
+     "Robin van Persie",
+     "van Persie"
+    ],
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Mohamed Salah",
+     "Salah"
+    ],
+    [
+     "Erling Haaland",
+     "Haaland"
+    ]
+   ],
+   "eraText": "Name a player who has been the English top flight's top scorer (or joint top scorer) in more than one season, including one that began in the {era}",
+   "eras": {
+    "Jimmy Greaves": [
+     "60s"
+    ],
+    "Ron Davies": [
+     "60s"
+    ],
+    "Malcolm Macdonald": [
+     "70s"
+    ],
+    "Gary Lineker": [
+     "80s"
+    ],
+    "Alan Smith": [
+     "80s",
+     "90s"
+    ],
+    "Alan Shearer": [
+     "90s"
+    ],
+    "Michael Owen": [
+     "90s"
+    ],
+    "Jimmy Floyd Hasselbaink": [
+     "90s",
+     "00s"
+    ],
+    "Thierry Henry": [
+     "00s"
+    ],
+    "Didier Drogba": [
+     "00s"
+    ],
+    "Robin van Persie": [
+     "10s"
+    ],
+    "Harry Kane": [
+     "10s",
+     "20s"
+    ],
+    "Mohamed Salah": [
+     "10s",
+     "20s"
+    ],
+    "Erling Haaland": [
+     "20s"
+    ]
+   }
+  },
+  {
+   "id": "fna-topflight-200-goals",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored 200 or more goals in the English top flight (1888-89 to the end of 2025-26)",
+   "answers": [
+    [
+     "Jimmy Greaves",
+     "Greaves"
+    ],
+    [
+     "Steve Bloomer",
+     "Bloomer"
+    ],
+    [
+     "Dixie Dean",
+     "Dean"
+    ],
+    [
+     "Gordon Hodgson",
+     "Hodgson"
+    ],
+    [
+     "Alan Shearer",
+     "Shearer"
+    ],
+    [
+     "Charlie Buchan",
+     "Buchan"
+    ],
+    [
+     "David Jack",
+     "Jack"
+    ],
+    [
+     "Nat Lofthouse",
+     "Lofthouse"
+    ],
+    [
+     "Joe Bradford",
+     "Bradford"
+    ],
+    [
+     "Hughie Gallacher",
+     "Gallacher"
+    ],
+    [
+     "Joe Smith",
+     "Smith"
+    ],
+    [
+     "George Brown",
+     "Brown"
+    ],
+    [
+     "George Camsell",
+     "Camsell"
+    ],
+    [
+     "Ian Rush",
+     "Rush"
+    ],
+    [
+     "David Herd",
+     "Herd"
+    ],
+    [
+     "Harry Hampton",
+     "Hampton"
+    ],
+    [
+     "Billy Walker",
+     "Walker"
+    ],
+    [
+     "Tony Cottee",
+     "Cottee"
+    ],
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Dave Halliday",
+     "Halliday"
+    ],
+    [
+     "Geoff Hurst",
+     "Hurst"
+    ],
+    [
+     "Ronnie Allen",
+     "Allen"
+    ],
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Bobby Gurney",
+     "Gurney"
+    ],
+    [
+     "Arthur Chandler",
+     "Chandler"
+    ],
+    [
+     "Vic Watson",
+     "Watson"
+    ],
+    [
+     "Harry Johnson",
+     "Johnson"
+    ],
+    [
+     "Denis Law",
+     "Law"
+    ]
+   ],
+   "eraText": "Name a player who scored 200 or more goals in the English top flight and played in it during the {era}",
+   "eras": {
+    "Jimmy Greaves": [
+     "60s",
+     "70s"
+    ],
+    "Alan Shearer": [
+     "80s",
+     "90s",
+     "00s"
+    ],
+    "Ian Rush": [
+     "80s",
+     "90s"
+    ],
+    "David Herd": [
+     "60s"
+    ],
+    "Tony Cottee": [
+     "80s",
+     "90s",
+     "00s"
+    ],
+    "Harry Kane": [
+     "10s",
+     "20s"
+    ],
+    "Geoff Hurst": [
+     "60s",
+     "70s"
+    ],
+    "Ronnie Allen": [
+     "60s"
+    ],
+    "Wayne Rooney": [
+     "00s",
+     "10s"
+    ],
+    "Denis Law": [
+     "60s",
+     "70s"
+    ]
+   }
+  },
+  {
+   "id": "fna-topflight-club-record-scorers",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who is an English club's all-time leading goalscorer in the top flight, for clubs where that record is 50 or more goals (as of November 2026, per Wikipedia)",
+   "answers": [
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "Harry Hampton",
+     "Hampton"
+    ],
+    [
+     "Joe Bradford",
+     "Bradford"
+    ],
+    [
+     "Ted Harper",
+     "Harper"
+    ],
+    [
+     "Stan Mortensen",
+     "Mortensen"
+    ],
+    [
+     "Nat Lofthouse",
+     "Lofthouse"
+    ],
+    [
+     "Frank O'Rourke",
+     "O'Rourke"
+    ],
+    [
+     "Dave McCulloch",
+     "McCulloch"
+    ],
+    [
+     "George Beel",
+     "Beel"
+    ],
+    [
+     "Billy Hibbert",
+     "Hibbert"
+    ],
+    [
+     "Len Davies",
+     "Davies"
+    ],
+    [
+     "Charles Vaughan",
+     "Vaughan"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Dion Dublin",
+     "Dublin"
+    ],
+    [
+     "Wilfried Zaha",
+     "Zaha"
+    ],
+    [
+     "Steve Bloomer",
+     "Bloomer"
+    ],
+    [
+     "Dixie Dean",
+     "Dean"
+    ],
+    [
+     "Graham Leggat",
+     "Leggat"
+    ],
+    [
+     "Pat Glover",
+     "Glover"
+    ],
+    [
+     "George Brown",
+     "Brown"
+    ],
+    [
+     "John Wark",
+     "Wark"
+    ],
+    [
+     "Peter Lorimer",
+     "Lorimer"
+    ],
+    [
+     "Arthur Chandler",
+     "Chandler"
+    ],
+    [
+     "Gordon Hodgson",
+     "Hodgson"
+    ],
+    [
+     "Gordon Turner",
+     "Turner"
+    ],
+    [
+     "Sergio Agüero",
+     "Sergio Aguero",
+     "Kun Aguero",
+     "Aguero"
+    ],
+    [
+     "Bobby Charlton",
+     "Bobby Charlton",
+     "Charlton"
+    ],
+    [
+     "George Camsell",
+     "Camsell"
+    ],
+    [
+     "Jackie Milburn",
+     "Wor Jackie",
+     "Milburn"
+    ],
+    [
+     "Grenville Morris",
+     "Morris"
+    ],
+    [
+     "Peter Harris",
+     "Harris"
+    ],
+    [
+     "Tom Finney",
+     "Sir Tom Finney",
+     "Preston Plumber",
+     "Finney"
+    ],
+    [
+     "Les Ferdinand",
+     "Les Ferdinand",
+     "Ferdinand"
+    ],
+    [
+     "Harry Johnson",
+     "Johnson"
+    ],
+    [
+     "Andrew Wilson",
+     "Wilson"
+    ],
+    [
+     "Matt Le Tissier",
+     "Le Tissier",
+     "Matthew Le Tissier",
+     "Le God"
+    ],
+    [
+     "Freddie Steele",
+     "Steele"
+    ],
+    [
+     "Charlie Buchan",
+     "Buchan"
+    ],
+    [
+     "Jimmy Greaves",
+     "Greaves"
+    ],
+    [
+     "Luther Blissett",
+     "Blissett"
+    ],
+    [
+     "Ronnie Allen",
+     "Allen"
+    ],
+    [
+     "Vic Watson",
+     "Watson"
+    ],
+    [
+     "John Fashanu",
+     "Fash",
+     "Fashanu"
+    ],
+    [
+     "Johnny Hancocks",
+     "Hancocks"
+    ]
+   ],
+   "eraText": "Name a player who is an English club's all-time leading top-flight goalscorer (record of 50+ goals) and played for that club in the {era}",
+   "eras": {
+    "Thierry Henry": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Frank Lampard": [
+     "00s",
+     "10s"
+    ],
+    "Dion Dublin": [
+     "90s"
+    ],
+    "Wilfried Zaha": [
+     "10s",
+     "20s"
+    ],
+    "Graham Leggat": [
+     "60s"
+    ],
+    "John Wark": [
+     "70s",
+     "80s"
+    ],
+    "Peter Lorimer": [
+     "60s",
+     "70s"
+    ],
+    "Gordon Turner": [
+     "60s"
+    ],
+    "Sergio Agüero": [
+     "10s",
+     "20s"
+    ],
+    "Bobby Charlton": [
+     "60s",
+     "70s"
+    ],
+    "Les Ferdinand": [
+     "80s",
+     "90s"
+    ],
+    "Matt Le Tissier": [
+     "80s",
+     "90s",
+     "00s"
+    ],
+    "Jimmy Greaves": [
+     "60s"
+    ],
+    "Luther Blissett": [
+     "70s",
+     "80s"
+    ],
+    "Ronnie Allen": [
+     "60s"
+    ],
+    "John Fashanu": [
+     "80s",
+     "90s"
+    ]
+   }
+  },
+  {
+   "id": "fna-champions-1888-1939",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club that won the English top-flight title between 1888-89 and 1938-39",
+   "answers": [
+    [
+     "Preston North End",
+     "Preston",
+     "PNE"
+    ],
+    "Everton",
+    "Sunderland",
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "Sheffield United",
+     "Blades"
+    ],
+    "Liverpool",
+    [
+     "Sheffield Wednesday",
+     "Wednesday",
+     "The Wednesday"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle"
+    ],
+    [
+     "Manchester United",
+     "Man United",
+     "Man Utd",
+     "Man U"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    "Burnley",
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    "Arsenal",
+    [
+     "Manchester City",
+     "Man City"
+    ]
+   ]
+  },
+  {
+   "id": "fna-champions-1946-1992",
+   "tags": [
+    "pl",
+    "60s",
+    "70s",
+    "80s",
+    "90s"
+   ],
+   "text": "Name a club that won the English top-flight title between 1946-47 and 1991-92",
+   "answers": [
+    "Liverpool",
+    "Arsenal",
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Spurs",
+     "Tottenham"
+    ],
+    [
+     "Manchester United",
+     "Man United",
+     "Man Utd",
+     "Man U"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    "Chelsea",
+    "Burnley",
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    "Everton",
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Nottingham Forest",
+     "Forest",
+     "Notts Forest"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ]
+   ]
+  },
+  {
+   "id": "fna-topflight-topscorer-nationalities",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a country that has had a player finish as the English top flight's top scorer (or joint top scorer) in a season, 1888-89 to 2025-26",
+   "answers": [
+    [
+     "England",
+     "Eng"
+    ],
+    "Scotland",
+    "France",
+    [
+     "Netherlands",
+     "Holland",
+     "The Netherlands"
+    ],
+    "Egypt",
+    "Wales",
+    "Norway",
+    "Argentina",
+    [
+     "Ivory Coast",
+     "Cote d'Ivoire",
+     "Côte d'Ivoire"
+    ],
+    [
+     "Northern Ireland",
+     "N Ireland",
+     "N. Ireland"
+    ],
+    [
+     "Republic of Ireland",
+     "Ireland",
+     "Eire",
+     "ROI"
+    ],
+    "Bulgaria",
+    "Chile",
+    "Gabon",
+    "Portugal",
+    "Senegal",
+    [
+     "South Korea",
+     "Korea",
+     "Korea Republic",
+     "Republic of Korea"
+    ],
+    [
+     "Trinidad and Tobago",
+     "Trinidad",
+     "Trinidad & Tobago"
+    ],
+    "Uruguay"
+   ]
+  }
+ ]
+}

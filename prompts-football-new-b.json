@@ -1,0 +1,2168 @@
+{
+ "cat": "football",
+ "prompts": [
+  {
+   "id": "fnb-copa-america-nations",
+   "tags": [
+    "worldcup"
+   ],
+   "text": "Name a country that has played at the Copa América (including its earlier South American Championship editions), up to the 2024 tournament",
+   "answers": [
+    "Argentina",
+    "Bolivia",
+    "Brazil",
+    "Chile",
+    "Colombia",
+    "Ecuador",
+    "Paraguay",
+    "Peru",
+    "Uruguay",
+    "Venezuela",
+    "Mexico",
+    "Canada",
+    "Costa Rica",
+    "Haiti",
+    "Honduras",
+    "Jamaica",
+    "Panama",
+    [
+     "United States",
+     "USA",
+     "US",
+     "United States of America"
+    ],
+    "Japan",
+    "Qatar"
+   ]
+  },
+  {
+   "id": "fnb-afcon-nations",
+   "tags": [
+    "worldcup"
+   ],
+   "text": "Name a country that has played at an Africa Cup of Nations finals tournament, up to and including the 2025 edition",
+   "answers": [
+    "Egypt",
+    "Nigeria",
+    "Ghana",
+    [
+     "Ivory Coast",
+     "Cote d'Ivoire",
+     "Côte d'Ivoire"
+    ],
+    "Cameroon",
+    "Morocco",
+    "Senegal",
+    "Algeria",
+    "Tunisia",
+    "Zambia",
+    [
+     "DR Congo",
+     "Zaire",
+     "DRC",
+     "Democratic Republic of Congo",
+     "Congo DR"
+    ],
+    "Mali",
+    "South Africa",
+    "Guinea",
+    [
+     "Burkina Faso",
+     "Upper Volta"
+    ],
+    "Angola",
+    "Gabon",
+    "Sudan",
+    [
+     "Equatorial Guinea",
+     "Eq Guinea"
+    ],
+    [
+     "Congo",
+     "Republic of Congo",
+     "Congo-Brazzaville",
+     "Congo Brazzaville"
+    ],
+    "Ethiopia",
+    [
+     "Cape Verde",
+     "Cabo Verde",
+     "Cape Verde Islands"
+    ],
+    "Togo",
+    "Uganda",
+    "Libya",
+    "Zimbabwe",
+    [
+     "Gambia",
+     "The Gambia"
+    ],
+    "Kenya",
+    "Madagascar",
+    "Malawi",
+    "Benin",
+    "Mozambique",
+    "Sierra Leone",
+    "Namibia",
+    "Liberia",
+    "Comoros",
+    "Mauritania",
+    "Tanzania",
+    "Rwanda",
+    [
+     "Guinea-Bissau",
+     "Guinea Bissau"
+    ],
+    "Niger",
+    "Burundi",
+    "Mauritius",
+    "Botswana"
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-club-world-cup-2025",
+   "tags": [
+    "worldcup",
+    "20s"
+   ],
+   "text": "Name a club that played in the 2025 FIFA Club World Cup in the United States",
+   "answers": [
+    "Palmeiras",
+    "Porto",
+    "Al Ahly",
+    [
+     "Inter Miami",
+     "Miami"
+    ],
+    [
+     "Paris Saint-Germain",
+     "PSG",
+     "Paris SG"
+    ],
+    [
+     "Atlético Madrid",
+     "Atletico Madrid",
+     "Atletico",
+     "Atleti"
+    ],
+    "Botafogo",
+    [
+     "Seattle Sounders",
+     "Sounders"
+    ],
+    [
+     "Bayern Munich",
+     "Bayern"
+    ],
+    [
+     "Auckland City",
+     "Auckland"
+    ],
+    "Boca Juniors",
+    [
+     "Benfica",
+     "SL Benfica"
+    ],
+    "Flamengo",
+    [
+     "Espérance de Tunis",
+     "Esperance de Tunis",
+     "Esperance Sportive de Tunis",
+     "Esperance Tunis",
+     "Esperance"
+    ],
+    "Chelsea",
+    [
+     "Los Angeles FC",
+     "LAFC",
+     "Los Angeles"
+    ],
+    "River Plate",
+    [
+     "Urawa Red Diamonds",
+     "Urawa Reds",
+     "Urawa"
+    ],
+    [
+     "Monterrey",
+     "CF Monterrey",
+     "Rayados"
+    ],
+    [
+     "Inter Milan",
+     "Internazionale"
+    ],
+    "Fluminense",
+    [
+     "Borussia Dortmund",
+     "Dortmund",
+     "BVB"
+    ],
+    [
+     "Ulsan HD",
+     "Ulsan",
+     "Ulsan Hyundai"
+    ],
+    [
+     "Mamelodi Sundowns",
+     "Sundowns"
+    ],
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Wydad AC",
+     "Wydad",
+     "Wydad Casablanca"
+    ],
+    "Al Ain",
+    [
+     "Juventus",
+     "Juve"
+    ],
+    "Real Madrid",
+    [
+     "Al Hilal",
+     "Al-Hilal"
+    ],
+    [
+     "Pachuca",
+     "CF Pachuca"
+    ],
+    [
+     "Red Bull Salzburg",
+     "Salzburg",
+     "RB Salzburg"
+    ]
+   ]
+  },
+  {
+   "id": "fnb-ucl-2025-26-league-phase",
+   "tags": [
+    "ucl",
+    "20s"
+   ],
+   "text": "Name a club that played in the 2025-26 Champions League league phase",
+   "answers": [
+    "Ajax",
+    "Arsenal",
+    "Atalanta",
+    [
+     "Athletic Bilbao",
+     "Athletic Club",
+     "Athletic"
+    ],
+    [
+     "Atlético Madrid",
+     "Atletico Madrid",
+     "Atletico",
+     "Atleti"
+    ],
+    [
+     "Barcelona",
+     "Barca",
+     "FC Barcelona"
+    ],
+    [
+     "Bayer Leverkusen",
+     "Leverkusen"
+    ],
+    [
+     "Bayern Munich",
+     "Bayern"
+    ],
+    [
+     "Benfica",
+     "SL Benfica"
+    ],
+    [
+     "Bodø/Glimt",
+     "Bodo Glimt",
+     "Glimt",
+     "Bodo/Glimt",
+     "Bodo"
+    ],
+    [
+     "Borussia Dortmund",
+     "Dortmund",
+     "BVB"
+    ],
+    "Chelsea",
+    [
+     "Club Brugge",
+     "Brugge"
+    ],
+    [
+     "Copenhagen",
+     "FC Copenhagen",
+     "FCK"
+    ],
+    [
+     "Eintracht Frankfurt",
+     "Frankfurt"
+    ],
+    "Galatasaray",
+    [
+     "Inter Milan",
+     "Internazionale"
+    ],
+    [
+     "Juventus",
+     "Juve"
+    ],
+    [
+     "Kairat",
+     "Kairat Almaty"
+    ],
+    "Liverpool",
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Marseille",
+     "Olympique de Marseille",
+     "OM"
+    ],
+    [
+     "Monaco",
+     "AS Monaco"
+    ],
+    [
+     "Napoli",
+     "SSC Napoli"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle",
+     "Newcastle Utd"
+    ],
+    "Olympiacos",
+    "Pafos",
+    [
+     "Paris Saint-Germain",
+     "PSG",
+     "Paris SG"
+    ],
+    [
+     "PSV Eindhoven",
+     "PSV",
+     "Eindhoven"
+    ],
+    [
+     "Qarabağ",
+     "Qarabag"
+    ],
+    "Real Madrid",
+    [
+     "Slavia Prague",
+     "Slavia Praha",
+     "Slavia"
+    ],
+    [
+     "Sporting CP",
+     "Sporting",
+     "Sporting Lisbon"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    [
+     "Union Saint-Gilloise",
+     "Union SG",
+     "Union Saint Gilloise",
+     "Royale Union Saint-Gilloise"
+    ],
+    "Villarreal"
+   ]
+  },
+  {
+   "id": "fnb-uel-2025-26-league-phase",
+   "tags": [
+    "europe",
+    "20s"
+   ],
+   "text": "Name a club that played in the 2025-26 Europa League league phase",
+   "answers": [
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    "Basel",
+    "Bologna",
+    "Braga",
+    "Brann",
+    [
+     "Celta Vigo",
+     "Celta"
+    ],
+    "Celtic",
+    [
+     "Dinamo Zagreb",
+     "GNK Dinamo Zagreb"
+    ],
+    [
+     "FCSB",
+     "Steaua Bucharest"
+    ],
+    [
+     "Fenerbahçe",
+     "Fenerbahce"
+    ],
+    [
+     "Ferencváros",
+     "Ferencvaros",
+     "Fradi"
+    ],
+    "Feyenoord",
+    "Genk",
+    "Go Ahead Eagles",
+    "Lille",
+    [
+     "Ludogorets Razgrad",
+     "Ludogorets"
+    ],
+    [
+     "Lyon",
+     "Olympique Lyonnais",
+     "OL"
+    ],
+    [
+     "Maccabi Tel Aviv",
+     "Maccabi"
+    ],
+    [
+     "Malmö FF",
+     "Malmo",
+     "Malmo FF",
+     "Malmö"
+    ],
+    "Midtjylland",
+    "Nice",
+    [
+     "Nottingham Forest",
+     "Forest",
+     "Notts Forest"
+    ],
+    "Panathinaikos",
+    "PAOK",
+    [
+     "Porto",
+     "FC Porto"
+    ],
+    "Rangers",
+    [
+     "Real Betis",
+     "Betis"
+    ],
+    [
+     "Red Bull Salzburg",
+     "Salzburg",
+     "RB Salzburg"
+    ],
+    [
+     "Red Star Belgrade",
+     "Crvena Zvezda",
+     "Red Star"
+    ],
+    [
+     "Roma",
+     "AS Roma"
+    ],
+    [
+     "SC Freiburg",
+     "Freiburg"
+    ],
+    [
+     "Sturm Graz",
+     "Sturm"
+    ],
+    [
+     "Utrecht",
+     "FC Utrecht"
+    ],
+    [
+     "VfB Stuttgart",
+     "Stuttgart"
+    ],
+    [
+     "Viktoria Plzeň",
+     "Viktoria Plzen",
+     "Plzen",
+     "Plzeň"
+    ],
+    [
+     "Young Boys",
+     "BSC Young Boys"
+    ]
+   ]
+  },
+  {
+   "id": "fnb-uecl-2025-26-league-phase",
+   "tags": [
+    "europe",
+    "20s"
+   ],
+   "text": "Name a club that played in the 2025-26 Conference League league phase",
+   "answers": [
+    "Aberdeen",
+    [
+     "AEK Athens",
+     "AEK"
+    ],
+    [
+     "AEK Larnaca",
+     "Larnaca"
+    ],
+    [
+     "BK Häcken",
+     "BK Hacken",
+     "Hacken",
+     "Häcken"
+    ],
+    [
+     "Breiðablik",
+     "Breidablik"
+    ],
+    "Celje",
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    "Drita",
+    [
+     "Dynamo Kyiv",
+     "Dynamo Kiev",
+     "Dinamo Kyiv"
+    ],
+    "Fiorentina",
+    [
+     "Hamrun Spartans",
+     "Hamrun"
+    ],
+    [
+     "Jagiellonia Białystok",
+     "Jagiellonia",
+     "Jagiellonia Bialystok"
+    ],
+    "KuPS",
+    [
+     "Lausanne-Sport",
+     "Lausanne"
+    ],
+    [
+     "Lech Poznań",
+     "Lech Poznan",
+     "Lech"
+    ],
+    [
+     "Legia Warsaw",
+     "Legia",
+     "Legia Warszawa"
+    ],
+    [
+     "Lincoln Red Imps",
+     "Lincoln"
+    ],
+    [
+     "Mainz 05",
+     "Mainz"
+    ],
+    "Noah",
+    [
+     "Omonia",
+     "Omonia Nicosia"
+    ],
+    [
+     "Raków Częstochowa",
+     "Rakow",
+     "Rakow Czestochowa",
+     "Raków"
+    ],
+    [
+     "Rapid Wien",
+     "Rapid Vienna",
+     "Rapid"
+    ],
+    [
+     "Rayo Vallecano",
+     "Rayo"
+    ],
+    "Rijeka",
+    "Samsunspor",
+    [
+     "Shakhtar Donetsk",
+     "Shakhtar"
+    ],
+    [
+     "Shamrock Rovers",
+     "Shamrock"
+    ],
+    "Shelbourne",
+    [
+     "Shkëndija",
+     "Shkendija"
+    ],
+    [
+     "Sigma Olomouc",
+     "Sigma"
+    ],
+    [
+     "Slovan Bratislava",
+     "Slovan"
+    ],
+    [
+     "Sparta Prague",
+     "Sparta Praha",
+     "Sparta"
+    ],
+    [
+     "Strasbourg",
+     "RC Strasbourg"
+    ],
+    [
+     "Universitatea Craiova",
+     "Craiova",
+     "U Craiova"
+    ],
+    [
+     "Zrinjski Mostar",
+     "Zrinjski"
+    ],
+    [
+     "AZ Alkmaar",
+     "AZ"
+    ]
+   ]
+  },
+  {
+   "id": "fnb-wc-2026-host-cities",
+   "tags": [
+    "worldcup",
+    "20s"
+   ],
+   "text": "Name a host city (as listed by FIFA) of the 2026 World Cup",
+   "answers": [
+    [
+     "Los Angeles",
+     "LA",
+     "Inglewood"
+    ],
+    [
+     "San Francisco Bay Area",
+     "San Francisco",
+     "Bay Area",
+     "Santa Clara",
+     "San Francisco Bay"
+    ],
+    "Seattle",
+    "Vancouver",
+    [
+     "Dallas",
+     "Arlington",
+     "Dallas-Fort Worth",
+     "Dallas Fort Worth"
+    ],
+    "Guadalajara",
+    "Houston",
+    "Kansas City",
+    [
+     "Mexico City",
+     "Ciudad de Mexico"
+    ],
+    "Monterrey",
+    "Atlanta",
+    [
+     "Boston",
+     "Foxborough",
+     "Foxboro"
+    ],
+    [
+     "Miami",
+     "Miami Gardens"
+    ],
+    [
+     "New York/New Jersey",
+     "New York",
+     "New Jersey",
+     "NY/NJ",
+     "New York New Jersey",
+     "East Rutherford",
+     "NYNJ"
+    ],
+    "Philadelphia",
+    "Toronto"
+   ]
+  },
+  {
+   "id": "fnb-wc-2002-host-cities",
+   "tags": [
+    "worldcup",
+    "00s"
+   ],
+   "text": "Name a host city of the 2002 World Cup in South Korea and Japan",
+   "answers": [
+    "Seoul",
+    "Busan",
+    "Daegu",
+    "Incheon",
+    "Daejeon",
+    "Gwangju",
+    "Ulsan",
+    "Suwon",
+    "Jeonju",
+    [
+     "Seogwipo",
+     "Jeju",
+     "Jeju Island"
+    ],
+    "Yokohama",
+    "Saitama",
+    "Shizuoka",
+    [
+     "Ibaraki",
+     "Kashima"
+    ],
+    "Niigata",
+    [
+     "Oita",
+     "Ōita"
+    ],
+    "Osaka",
+    "Kobe",
+    [
+     "Miyagi",
+     "Rifu",
+     "Sendai"
+    ],
+    "Sapporo"
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-wc-1990-host-cities",
+   "tags": [
+    "worldcup",
+    "90s"
+   ],
+   "text": "Name a host city of the 1990 World Cup in Italy",
+   "answers": [
+    [
+     "Rome",
+     "Roma"
+    ],
+    [
+     "Milan",
+     "Milano"
+    ],
+    [
+     "Turin",
+     "Torino"
+    ],
+    [
+     "Naples",
+     "Napoli"
+    ],
+    "Bologna",
+    [
+     "Florence",
+     "Firenze"
+    ],
+    "Bari",
+    [
+     "Genoa",
+     "Genova"
+    ],
+    "Palermo",
+    "Cagliari",
+    "Udine",
+    "Verona"
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-scottish-clubs-in-europe",
+   "tags": [
+    "scotland",
+    "europe"
+   ],
+   "text": "Name a Scottish club that has played in a European competition (UEFA or Fairs Cup, up to the end of 2023-24, as listed on Wikipedia)",
+   "answers": [
+    "Aberdeen",
+    [
+     "Airdrieonians",
+     "Airdrie"
+    ],
+    "Celtic",
+    "Dundee",
+    [
+     "Dundee United",
+     "Dundee Utd"
+    ],
+    [
+     "Dunfermline Athletic",
+     "Dunfermline"
+    ],
+    "Falkirk",
+    [
+     "Greenock Morton",
+     "Morton"
+    ],
+    "Gretna",
+    [
+     "Heart of Midlothian",
+     "Hearts"
+    ],
+    [
+     "Hibernian",
+     "Hibs"
+    ],
+    [
+     "Inverness Caledonian Thistle",
+     "Inverness",
+     "Inverness CT",
+     "ICT"
+    ],
+    "Kilmarnock",
+    "Livingston",
+    "Motherwell",
+    [
+     "Partick Thistle",
+     "Partick"
+    ],
+    "Queen of the South",
+    [
+     "Raith Rovers",
+     "Raith"
+    ],
+    "Rangers",
+    "St Johnstone",
+    [
+     "St Mirren",
+     "Saint Mirren"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-scottish-challenge-cup-winners",
+   "tags": [
+    "scotland",
+    "cups"
+   ],
+   "text": "Name a club that has won the Scottish Challenge Cup (up to the 2026 final; the original Airdrieonians and the current club count as one)",
+   "answers": [
+    [
+     "Raith Rovers",
+     "Raith"
+    ],
+    "Falkirk",
+    [
+     "Inverness Caledonian Thistle",
+     "Inverness",
+     "Inverness CT",
+     "ICT"
+    ],
+    [
+     "Hamilton Academical",
+     "Hamilton",
+     "Accies"
+    ],
+    "Ross County",
+    [
+     "Airdrieonians",
+     "Airdrie"
+    ],
+    "Queen of the South",
+    "Dundee",
+    "Livingston",
+    [
+     "St Mirren",
+     "Saint Mirren"
+    ],
+    [
+     "Alloa Athletic",
+     "Alloa"
+    ],
+    [
+     "Dundee United",
+     "Dundee Utd"
+    ],
+    "Rangers",
+    "St Johnstone",
+    "Stranraer",
+    "Stenhousemuir"
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-copa-del-rey-winners",
+   "tags": [
+    "cups",
+    "europe"
+   ],
+   "text": "Name a club that has won the Copa del Rey (Spanish Cup) up to the 2025-26 final, as on the RFEF's official list (defunct clubs included)",
+   "answers": [
+    "Barcelona",
+    [
+     "Athletic Bilbao",
+     "Athletic Club",
+     "Athletic"
+    ],
+    "Real Madrid",
+    [
+     "Atlético Madrid",
+     "Atletico Madrid",
+     "Atletico",
+     "Atleti"
+    ],
+    "Valencia",
+    [
+     "Real Zaragoza",
+     "Zaragoza"
+    ],
+    "Sevilla",
+    [
+     "Espanyol",
+     "RCD Espanyol",
+     "Español"
+    ],
+    "Real Sociedad",
+    [
+     "Real Betis",
+     "Betis"
+    ],
+    [
+     "Real Unión",
+     "Real Union"
+    ],
+    [
+     "Deportivo La Coruña",
+     "Deportivo",
+     "Depor",
+     "La Coruna",
+     "Deportivo de La Coruna"
+    ],
+    [
+     "Arenas Club de Getxo",
+     "Arenas Club",
+     "Arenas",
+     "Arenas Getxo",
+     "Arenas de Getxo"
+    ],
+    [
+     "Mallorca",
+     "RCD Mallorca"
+    ],
+    [
+     "Club Ciclista de San Sebastián",
+     "Club Ciclista",
+     "Club Ciclista San Sebastian"
+    ],
+    [
+     "Racing de Irún",
+     "Racing Club de Irún",
+     "Racing Irun",
+     "Racing de Irun",
+     "Racing Club de Irun"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-pl-dutch-german-french-managers",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Dutch, German or French manager who has managed a Premier League club (permanent or caretaker, up to the end of the 2025-26 season, nationality as in Wikipedia's list)",
+   "answers": [
+    [
+     "Arsène Wenger",
+     "Wenger",
+     "Arsene Wenger"
+    ],
+    [
+     "Gérard Houllier",
+     "Houllier",
+     "Gerard Houllier"
+    ],
+    [
+     "Rémi Garde",
+     "Garde",
+     "Remi Garde"
+    ],
+    [
+     "Patrick Vieira",
+     "Vieira"
+    ],
+    [
+     "Jean Tigana",
+     "Tigana"
+    ],
+    [
+     "Claude Puel",
+     "Puel"
+    ],
+    [
+     "Alain Perrin",
+     "Perrin"
+    ],
+    [
+     "Jacques Santini",
+     "Santini"
+    ],
+    [
+     "Régis Le Bris",
+     "Le Bris",
+     "Regis Le Bris"
+    ],
+    [
+     "Fabian Hürzeler",
+     "Hurzeler",
+     "Fabian Hurzeler",
+     "Hürzeler"
+    ],
+    [
+     "Thomas Tuchel",
+     "Tuchel"
+    ],
+    [
+     "Felix Magath",
+     "Magath"
+    ],
+    [
+     "Jan Siewert",
+     "Siewert"
+    ],
+    [
+     "Daniel Farke",
+     "Farke"
+    ],
+    [
+     "Jürgen Klopp",
+     "Klopp",
+     "Jurgen Klopp"
+    ],
+    [
+     "Ralf Rangnick",
+     "Rangnick"
+    ],
+    [
+     "Ruud Gullit",
+     "Gullit"
+    ],
+    [
+     "Guus Hiddink",
+     "Hiddink"
+    ],
+    [
+     "Frank de Boer",
+     "De Boer",
+     "Frank De Boer"
+    ],
+    [
+     "Ronald Koeman",
+     "Koeman"
+    ],
+    [
+     "Martin Jol",
+     "Jol"
+    ],
+    [
+     "René Meulensteen",
+     "Meulensteen",
+     "Rene Meulensteen"
+    ],
+    [
+     "Ruud van Nistelrooy",
+     "Van Nistelrooy",
+     "Nistelrooy"
+    ],
+    [
+     "Arne Slot",
+     "Slot"
+    ],
+    [
+     "Louis van Gaal",
+     "Van Gaal",
+     "Gaal"
+    ],
+    [
+     "Erik ten Hag",
+     "Ten Hag",
+     "Erik Ten Hag"
+    ],
+    [
+     "Dick Advocaat",
+     "Advocaat"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-intl-goals-50-uefa",
+   "tags": [
+    "euros"
+   ],
+   "text": "Name a European (UEFA) men's player who has scored 50 or more international goals (as of November 2026, per Wikipedia's list based on FIFA, RSSSF and IFFHS figures)",
+   "answers": [
+    [
+     "Cristiano Ronaldo",
+     "Ronaldo",
+     "CR7"
+    ],
+    [
+     "Romelu Lukaku",
+     "Lukaku"
+    ],
+    [
+     "Robert Lewandowski",
+     "Lewandowski"
+    ],
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Ferenc Puskás",
+     "Puskas",
+     "Ferenc Puskas"
+    ],
+    [
+     "Vivian Woodward",
+     "Woodward"
+    ],
+    [
+     "Sándor Kocsis",
+     "Kocsis",
+     "Sandor Kocsis"
+    ],
+    [
+     "Edin Džeko",
+     "Dzeko",
+     "Edin Dzeko"
+    ],
+    [
+     "Miroslav Klose",
+     "Klose"
+    ],
+    [
+     "Gerd Müller",
+     "Gerd Muller",
+     "Muller",
+     "Gerd Mueller"
+    ],
+    [
+     "Robbie Keane",
+     "Keane"
+    ],
+    [
+     "Kylian Mbappé",
+     "Mbappe",
+     "Kylian Mbappe"
+    ],
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Aleksandar Mitrović",
+     "Mitrovic",
+     "Aleksandar Mitrovic"
+    ],
+    [
+     "Zlatan Ibrahimović",
+     "Ibrahimovic",
+     "Zlatan",
+     "Zlatan Ibrahimovic"
+    ],
+    [
+     "Imre Schlosser",
+     "Schlosser"
+    ],
+    [
+     "David Villa",
+     "Villa"
+    ],
+    [
+     "Olivier Giroud",
+     "Giroud"
+    ],
+    [
+     "Jan Koller",
+     "Koller"
+    ],
+    [
+     "Joachim Streich",
+     "Streich"
+    ],
+    [
+     "Memphis Depay",
+     "Depay",
+     "Memphis"
+    ],
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Poul Nielsen",
+     "Nielsen"
+    ],
+    [
+     "Jon Dahl Tomasson",
+     "Tomasson"
+    ],
+    [
+     "Lajos Tichy",
+     "Tichy"
+    ],
+    [
+     "Hakan Şükür",
+     "Hakan Sukur",
+     "Sukur"
+    ],
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "Robin van Persie",
+     "Van Persie",
+     "RVP"
+    ]
+   ]
+  },
+  {
+   "id": "fnb-caps-140-uefa",
+   "tags": [
+    "euros"
+   ],
+   "text": "Name a European (UEFA) men's player with 140 or more international caps (as of October 2026, per FIFA figures on Wikipedia)",
+   "answers": [
+    [
+     "Cristiano Ronaldo",
+     "Ronaldo",
+     "CR7"
+    ],
+    [
+     "Luka Modrić",
+     "Modric",
+     "Luka Modric"
+    ],
+    [
+     "Sergio Ramos",
+     "Ramos"
+    ],
+    [
+     "Gianluigi Buffon",
+     "Buffon",
+     "Gigi Buffon"
+    ],
+    [
+     "Robert Lewandowski",
+     "Lewandowski"
+    ],
+    [
+     "Iker Casillas",
+     "Casillas"
+    ],
+    [
+     "Vitālijs Astafjevs",
+     "Astafjevs",
+     "Vitalijs Astafjevs"
+    ],
+    [
+     "Ivan Perišić",
+     "Perisic",
+     "Ivan Perisic"
+    ],
+    [
+     "Konstantin Vassiljev",
+     "Vassiljev"
+    ],
+    [
+     "Jan Vertonghen",
+     "Vertonghen"
+    ],
+    [
+     "Martin Reim",
+     "Reim"
+    ],
+    [
+     "Edin Džeko",
+     "Dzeko",
+     "Edin Dzeko"
+    ],
+    [
+     "Granit Xhaka",
+     "Xhaka"
+    ],
+    [
+     "Christian Eriksen",
+     "Eriksen"
+    ],
+    [
+     "Lothar Matthäus",
+     "Matthaus",
+     "Lothar Matthaus"
+    ],
+    [
+     "Ricardo Rodriguez",
+     "Rodriguez",
+     "Ricardo Rodríguez"
+    ],
+    [
+     "Robbie Keane",
+     "Keane"
+    ],
+    [
+     "João Moutinho",
+     "Moutinho",
+     "Joao Moutinho"
+    ],
+    [
+     "Anders Svensson",
+     "Svensson"
+    ],
+    [
+     "Hugo Lloris",
+     "Lloris"
+    ],
+    [
+     "Anatoliy Tymoshchuk",
+     "Tymoshchuk",
+     "Timoshchuk",
+     "Anatoliy Timoshchuk"
+    ],
+    [
+     "Sergio Busquets",
+     "Busquets"
+    ],
+    [
+     "Thomas Ravelli",
+     "Ravelli"
+    ],
+    [
+     "Marko Kristal",
+     "Kristal"
+    ],
+    [
+     "Michael Mifsud",
+     "Mifsud"
+    ],
+    [
+     "Lilian Thuram",
+     "Thuram"
+    ],
+    "Pepe",
+    [
+     "Axel Witsel",
+     "Witsel"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-ballon-dor-winner-clubs",
+   "tags": [
+    "europe"
+   ],
+   "text": "Name a club that a men's Ballon d'Or winner was playing for when he won the award (1956 to 2025)",
+   "answers": [
+    "Real Madrid",
+    [
+     "Barcelona",
+     "Barca"
+    ],
+    [
+     "Juventus",
+     "Juve"
+    ],
+    [
+     "AC Milan",
+     "Milan"
+    ],
+    [
+     "Bayern Munich",
+     "Bayern"
+    ],
+    [
+     "Manchester United",
+     "Man Utd",
+     "Man United"
+    ],
+    [
+     "Dynamo Kyiv",
+     "Dynamo Kiev",
+     "Dinamo Kyiv"
+    ],
+    [
+     "Inter Milan",
+     "Internazionale"
+    ],
+    [
+     "Paris Saint-Germain",
+     "PSG",
+     "Paris SG"
+    ],
+    [
+     "Hamburg",
+     "Hamburger SV",
+     "HSV"
+    ],
+    "Ajax",
+    "Benfica",
+    "Blackpool",
+    [
+     "Borussia Dortmund",
+     "Dortmund",
+     "BVB"
+    ],
+    [
+     "Borussia Mönchengladbach",
+     "Gladbach",
+     "Monchengladbach",
+     "Borussia Monchengladbach"
+    ],
+    [
+     "Dukla Prague",
+     "Dukla Praha",
+     "Dukla"
+    ],
+    [
+     "Dynamo Moscow",
+     "Dinamo Moscow"
+    ],
+    [
+     "Ferencváros",
+     "Ferencvaros",
+     "Fradi"
+    ],
+    [
+     "Inter Miami",
+     "Miami"
+    ],
+    "Liverpool",
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Marseille",
+     "Olympique de Marseille",
+     "OM"
+    ]
+   ]
+  },
+  {
+   "id": "fnb-ballon-dor-winner-countries",
+   "tags": [
+    "europe"
+   ],
+   "text": "Name a country that a men's Ballon d'Or winner represented (1956 to 2025, countries as listed on Wikipedia, with Czechoslovakia and Czech Republic separate)",
+   "answers": [
+    "France",
+    "Argentina",
+    [
+     "Germany",
+     "West Germany"
+    ],
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "Portugal",
+    "England",
+    "Italy",
+    "Brazil",
+    "Spain",
+    [
+     "Soviet Union",
+     "USSR"
+    ],
+    "Bulgaria",
+    "Croatia",
+    [
+     "Czech Republic",
+     "Czechia"
+    ],
+    "Czechoslovakia",
+    "Denmark",
+    "Hungary",
+    "Liberia",
+    "Northern Ireland",
+    "Scotland",
+    "Ukraine"
+   ]
+  },
+  {
+   "id": "fnb-serie-a-stadiums-2025-26",
+   "tags": [
+    "europe",
+    "20s"
+   ],
+   "text": "Name a stadium used by a Serie A club in 2025-26 (clubs sharing a ground count once)",
+   "answers": [
+    [
+     "Stadio di Bergamo",
+     "Gewiss Stadium",
+     "Atleti Azzurri d'Italia",
+     "Bergamo Stadium"
+    ],
+    [
+     "Stadio Renato Dall'Ara",
+     "Dall'Ara",
+     "Renato Dall'Ara",
+     "Dall Ara"
+    ],
+    [
+     "Unipol Domus",
+     "Sardegna Arena"
+    ],
+    [
+     "Stadio Giuseppe Sinigaglia",
+     "Sinigaglia"
+    ],
+    [
+     "Stadio Giovanni Zini",
+     "Zini",
+     "Giovanni Zini"
+    ],
+    [
+     "Stadio Artemio Franchi",
+     "Artemio Franchi",
+     "Franchi"
+    ],
+    [
+     "Stadio Luigi Ferraris",
+     "Luigi Ferraris",
+     "Ferraris",
+     "Marassi"
+    ],
+    [
+     "Stadio Marcantonio Bentegodi",
+     "Bentegodi",
+     "Marcantonio Bentegodi"
+    ],
+    [
+     "San Siro",
+     "Giuseppe Meazza",
+     "Stadio Giuseppe Meazza",
+     "Meazza"
+    ],
+    [
+     "Allianz Stadium",
+     "Juventus Stadium",
+     "Allianz Stadium Turin"
+    ],
+    "Stadio Olimpico",
+    [
+     "Stadio Via del Mare",
+     "Via del Mare",
+     "Stadio Ettore Giardiniero"
+    ],
+    [
+     "Stadio Diego Armando Maradona",
+     "Maradona",
+     "Stadio Maradona",
+     "San Paolo",
+     "Stadio San Paolo"
+    ],
+    [
+     "Stadio Ennio Tardini",
+     "Tardini",
+     "Ennio Tardini"
+    ],
+    [
+     "Cetilar Arena",
+     "Arena Garibaldi",
+     "Stadio Romeo Anconetani",
+     "Anconetani"
+    ],
+    [
+     "Mapei Stadium",
+     "Mapei",
+     "Città del Tricolore",
+     "Citta del Tricolore"
+    ],
+    [
+     "Stadio Olimpico Grande Torino",
+     "Olimpico Grande Torino",
+     "Grande Torino",
+     "Stadio Grande Torino"
+    ],
+    [
+     "Bluenergy Stadium",
+     "Stadio Friuli",
+     "Friuli",
+     "Dacia Arena"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-bundesliga-stadiums-2025-26",
+   "tags": [
+    "europe",
+    "20s"
+   ],
+   "text": "Name a stadium used by a Bundesliga club in 2025-26",
+   "answers": [
+    [
+     "WWK Arena",
+     "Augsburg Arena"
+    ],
+    [
+     "Stadion An der Alten Försterei",
+     "Alte Försterei",
+     "An der Alten Forsterei",
+     "Stadion An der Alten Forsterei"
+    ],
+    "Weserstadion",
+    [
+     "Signal Iduna Park",
+     "Westfalenstadion"
+    ],
+    [
+     "Deutsche Bank Park",
+     "Waldstadion",
+     "Commerzbank-Arena",
+     "Commerzbank Arena"
+    ],
+    [
+     "Europa-Park Stadion",
+     "Europa Park Stadion"
+    ],
+    [
+     "Volksparkstadion",
+     "Volksparkstadion Hamburg"
+    ],
+    [
+     "Voith-Arena",
+     "Voith Arena"
+    ],
+    [
+     "PreZero Arena",
+     "Rhein-Neckar-Arena",
+     "Rhein Neckar Arena",
+     "PreZero"
+    ],
+    [
+     "RheinEnergieStadion",
+     "RheinEnergie Stadion",
+     "Müngersdorfer Stadion",
+     "Mungersdorfer Stadion"
+    ],
+    [
+     "Red Bull Arena",
+     "Red Bull Arena Leipzig"
+    ],
+    [
+     "BayArena",
+     "Bay Arena"
+    ],
+    [
+     "MEWA Arena",
+     "Mewa Arena",
+     "Opel Arena"
+    ],
+    [
+     "Borussia-Park",
+     "Borussia Park"
+    ],
+    "Allianz Arena",
+    [
+     "Millerntor-Stadion",
+     "Millerntor",
+     "Millerntor Stadion"
+    ],
+    [
+     "MHPArena",
+     "MHP Arena",
+     "Neckarstadion",
+     "Mercedes-Benz Arena"
+    ],
+    [
+     "Volkswagen Arena",
+     "VW Arena"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-scotland-world-cup-opponents",
+   "tags": [
+    "scotland",
+    "worldcup"
+   ],
+   "text": "Name a nation Scotland have played at a men's World Cup finals (up to the 2026 tournament)",
+   "answers": [
+    "Austria",
+    "Brazil",
+    "Costa Rica",
+    "Denmark",
+    "France",
+    "Haiti",
+    "Iran",
+    "Morocco",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "New Zealand",
+    "Norway",
+    "Paraguay",
+    "Peru",
+    [
+     "Soviet Union",
+     "USSR"
+    ],
+    "Sweden",
+    "Uruguay",
+    [
+     "West Germany",
+     "Germany"
+    ],
+    "Yugoslavia",
+    [
+     "Zaire",
+     "DR Congo",
+     "DRC",
+     "Congo"
+    ]
+   ]
+  },
+  {
+   "id": "fnb-olympic-men-medal-teams",
+   "tags": [
+    "worldcup"
+   ],
+   "text": "Name a country or team that has won a medal in the men's Olympic football tournament (up to Paris 2024; Germany (including West Germany), East Germany and the 1964 United Team of Germany count separately)",
+   "answers": [
+    "Hungary",
+    [
+     "Great Britain",
+     "GB",
+     "Britain",
+     "United Kingdom",
+     "Team GB"
+    ],
+    "Brazil",
+    "Spain",
+    "Argentina",
+    [
+     "Soviet Union",
+     "USSR"
+    ],
+    "Uruguay",
+    "Yugoslavia",
+    "Poland",
+    "France",
+    "East Germany",
+    "Nigeria",
+    "Czechoslovakia",
+    "Italy",
+    "Sweden",
+    "Belgium",
+    "Mexico",
+    "Canada",
+    "Cameroon",
+    "Denmark",
+    [
+     "United States",
+     "USA",
+     "US",
+     "United States of America"
+    ],
+    "Bulgaria",
+    [
+     "Germany",
+     "West Germany",
+     "FR Germany"
+    ],
+    "Switzerland",
+    "Austria",
+    "Paraguay",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "Japan",
+    "Norway",
+    [
+     "United Team of Germany",
+     "Unified Team of Germany",
+     "Unified Germany"
+    ],
+    "Ghana",
+    "Chile",
+    [
+     "South Korea",
+     "Korea Republic",
+     "Korea"
+    ],
+    "Morocco"
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-nations-league-2026-27-league-a",
+   "tags": [
+    "euros",
+    "20s"
+   ],
+   "text": "Name a team in League A of the 2026-27 UEFA Nations League",
+   "answers": [
+    "Portugal",
+    "Spain",
+    "France",
+    "Germany",
+    "Italy",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "Denmark",
+    "Croatia",
+    "Serbia",
+    "Belgium",
+    "England",
+    "Norway",
+    "Wales",
+    [
+     "Czech Republic",
+     "Czechia"
+    ],
+    "Greece",
+    [
+     "Turkey",
+     "Türkiye",
+     "Turkiye"
+    ]
+   ]
+  },
+  {
+   "id": "fnb-wc-2026-round-of-16",
+   "tags": [
+    "worldcup",
+    "20s"
+   ],
+   "text": "Name a team that reached the round of 16 at the 2026 World Cup",
+   "answers": [
+    "Canada",
+    "Morocco",
+    "Paraguay",
+    "France",
+    "Brazil",
+    "Norway",
+    "Mexico",
+    "England",
+    "Portugal",
+    "Spain",
+    [
+     "United States",
+     "USA",
+     "US",
+     "United States of America"
+    ],
+    "Belgium",
+    "Argentina",
+    "Egypt",
+    "Switzerland",
+    "Colombia"
+   ]
+  },
+  {
+   "id": "fnb-asian-cup-nations",
+   "tags": [
+    "worldcup"
+   ],
+   "text": "Name a country that has played at an AFC Asian Cup finals tournament, up to and including the 2023 edition (former states such as South Vietnam and South Yemen included)",
+   "answers": [
+    [
+     "South Korea",
+     "Korea Republic",
+     "Korea"
+    ],
+    "Hong Kong",
+    "Israel",
+    [
+     "South Vietnam",
+     "Vietnam"
+    ],
+    [
+     "Taiwan",
+     "Chinese Taipei",
+     "Republic of China"
+    ],
+    "India",
+    "Iran",
+    [
+     "Myanmar",
+     "Burma"
+    ],
+    "Iraq",
+    [
+     "Cambodia",
+     "Khmer Republic"
+    ],
+    "Kuwait",
+    "Thailand",
+    [
+     "China",
+     "China PR",
+     "PR China"
+    ],
+    "Malaysia",
+    "South Yemen",
+    "Bangladesh",
+    [
+     "North Korea",
+     "Korea DPR"
+    ],
+    "Qatar",
+    "Syria",
+    [
+     "United Arab Emirates",
+     "UAE"
+    ],
+    "Saudi Arabia",
+    "Singapore",
+    "Bahrain",
+    "Japan",
+    "Indonesia",
+    "Uzbekistan",
+    "Lebanon",
+    "Jordan",
+    "Oman",
+    "Turkmenistan",
+    "Australia",
+    "Palestine",
+    "Kyrgyzstan",
+    "Philippines",
+    "Yemen",
+    "Tajikistan"
+   ],
+   "deep": true
+  },
+  {
+   "id": "fnb-bundesliga-top-scorers",
+   "tags": [
+    "europe"
+   ],
+   "text": "Name a Bundesliga top scorer of a season (shared awards included) from 1963-64 to 2025-26",
+   "answers": [
+    [
+     "Uwe Seeler",
+     "Seeler"
+    ],
+    [
+     "Rudolf Brunnenmeier",
+     "Brunnenmeier",
+     "Rudi Brunnenmeier"
+    ],
+    [
+     "Lothar Emmerich",
+     "Emmerich"
+    ],
+    [
+     "Gerd Müller",
+     "Gerd Muller",
+     "Gerd Mueller"
+    ],
+    [
+     "Hannes Löhr",
+     "Lohr",
+     "Hannes Lohr",
+     "Loehr"
+    ],
+    [
+     "Lothar Kobluhn",
+     "Kobluhn"
+    ],
+    [
+     "Jupp Heynckes",
+     "Heynckes"
+    ],
+    [
+     "Klaus Fischer",
+     "Fischer"
+    ],
+    [
+     "Dieter Müller",
+     "Dieter Muller",
+     "Dieter Mueller"
+    ],
+    "Klaus Allofs",
+    [
+     "Horst Hrubesch",
+     "Hrubesch"
+    ],
+    [
+     "Karl-Heinz Rummenigge",
+     "Rummenigge",
+     "Karl Heinz Rummenigge"
+    ],
+    [
+     "Rudi Völler",
+     "Voller",
+     "Rudi Voller",
+     "Völler"
+    ],
+    [
+     "Uwe Rahn",
+     "Rahn"
+    ],
+    [
+     "Roland Wohlfarth",
+     "Wohlfarth"
+    ],
+    [
+     "Stefan Kuntz",
+     "Kuntz"
+    ],
+    [
+     "Jürgen Klinsmann",
+     "Klinsmann",
+     "Jurgen Klinsmann"
+    ],
+    "Thomas Allofs",
+    [
+     "Jørn Andersen",
+     "Jorn Andersen",
+     "Andersen"
+    ],
+    [
+     "Fritz Walter",
+     "Walter"
+    ],
+    [
+     "Mario Basler",
+     "Basler"
+    ],
+    [
+     "Ulf Kirsten",
+     "Kirsten"
+    ],
+    [
+     "Tony Yeboah",
+     "Yeboah",
+     "Anthony Yeboah"
+    ],
+    [
+     "Martin Max",
+     "Max"
+    ],
+    [
+     "Heiko Herrlich",
+     "Herrlich"
+    ],
+    [
+     "Fredi Bobic",
+     "Bobic"
+    ],
+    [
+     "Michael Preetz",
+     "Preetz"
+    ],
+    [
+     "Sergej Barbarez",
+     "Barbarez"
+    ],
+    [
+     "Ebbe Sand",
+     "Sand"
+    ],
+    [
+     "Márcio Amoroso",
+     "Amoroso",
+     "Marcio Amoroso"
+    ],
+    [
+     "Thomas Christiansen",
+     "Christiansen"
+    ],
+    [
+     "Giovane Élber",
+     "Elber",
+     "Giovane Elber"
+    ],
+    [
+     "Aílton",
+     "Ailton"
+    ],
+    [
+     "Marek Mintál",
+     "Mintal",
+     "Marek Mintal"
+    ],
+    [
+     "Miroslav Klose",
+     "Klose"
+    ],
+    [
+     "Theofanis Gekas",
+     "Gekas"
+    ],
+    [
+     "Luca Toni",
+     "Toni"
+    ],
+    "Grafite",
+    [
+     "Edin Džeko",
+     "Dzeko",
+     "Edin Dzeko"
+    ],
+    [
+     "Mario Gómez",
+     "Gomez",
+     "Mario Gomez"
+    ],
+    [
+     "Klaas-Jan Huntelaar",
+     "Huntelaar",
+     "Klaas Jan Huntelaar"
+    ],
+    [
+     "Stefan Kießling",
+     "Kiessling",
+     "Stefan Kiessling"
+    ],
+    [
+     "Alexander Meier",
+     "Meier"
+    ],
+    [
+     "Pierre-Emerick Aubameyang",
+     "Aubameyang",
+     "Pierre Emerick Aubameyang"
+    ],
+    [
+     "Robert Lewandowski",
+     "Lewandowski"
+    ],
+    [
+     "Niclas Füllkrug",
+     "Fullkrug",
+     "Niclas Fullkrug",
+     "Füllkrug"
+    ],
+    [
+     "Christopher Nkunku",
+     "Nkunku"
+    ],
+    [
+     "Harry Kane",
+     "Kane"
+    ]
+   ],
+   "deep": true
+  }
+ ]
+}

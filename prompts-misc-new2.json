@@ -1,0 +1,1774 @@
+{
+ "cat": "misc",
+ "prompts": [
+  {
+   "id": "mcn2-woodworking-joints",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a type of woodworking joint",
+   "answers": [
+    [
+     "Butt joint",
+     "Butt"
+    ],
+    [
+     "Lap joint",
+     "Lap"
+    ],
+    [
+     "Cross lap joint",
+     "Cross lap",
+     "Cross-lap"
+    ],
+    [
+     "Bridle joint",
+     "Bridle",
+     "Open mortise and tenon"
+    ],
+    [
+     "Mortise and tenon",
+     "Mortice and tenon",
+     "Mortise and tenon joint"
+    ],
+    [
+     "Floating tenon joint",
+     "Loose tenon",
+     "Floating tenon",
+     "Loose tenon joint"
+    ],
+    [
+     "Dowel joint",
+     "Dowel"
+    ],
+    [
+     "Cross dowel joint",
+     "Cross dowel"
+    ],
+    [
+     "Mitre joint",
+     "Miter joint",
+     "Mitre",
+     "Miter"
+    ],
+    [
+     "Box joint",
+     "Finger joint",
+     "Box"
+    ],
+    [
+     "Dovetail joint",
+     "Dovetail"
+    ],
+    [
+     "Dado joint",
+     "Dado",
+     "Housing joint",
+     "Trench joint"
+    ],
+    [
+     "Groove joint",
+     "Groove"
+    ],
+    [
+     "Tongue and groove",
+     "Tongue and groove joint",
+     "T&G"
+    ],
+    [
+     "Birdsmouth joint",
+     "Birdsmouth",
+     "Bird's mouth"
+    ],
+    [
+     "Splice joint",
+     "Splice"
+    ],
+    [
+     "Scarf joint",
+     "Scarf"
+    ],
+    [
+     "Knapp joint",
+     "Knapp",
+     "Scallop and dowel"
+    ],
+    [
+     "Pocket-hole joint",
+     "Pocket hole",
+     "Pocket-hole joinery"
+    ],
+    [
+     "Biscuit joint",
+     "Biscuit"
+    ],
+    "Stitch and glue"
+   ]
+  },
+  {
+   "id": "mcn2-native-trees",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a tree species native to Great Britain (as listed by Wikipedia; not counting Ireland-only species)",
+   "answers": [
+    [
+     "Yew",
+     "European yew",
+     "English yew"
+    ],
+    [
+     "Scots pine",
+     "Scotch pine"
+    ],
+    "Aspen",
+    "Black poplar",
+    "Bay willow",
+    [
+     "Grey willow",
+     "Gray willow"
+    ],
+    [
+     "Goat willow",
+     "Pussy willow",
+     "Sallow"
+    ],
+    "Silver birch",
+    "Downy birch",
+    [
+     "Alder",
+     "Common alder"
+    ],
+    [
+     "Hornbeam",
+     "European hornbeam"
+    ],
+    [
+     "Hazel",
+     "Common hazel"
+    ],
+    [
+     "Beech",
+     "European beech",
+     "Common beech"
+    ],
+    [
+     "Pedunculate oak",
+     "English oak",
+     "Common oak"
+    ],
+    [
+     "Sessile oak",
+     "Durmast oak"
+    ],
+    "Wych elm",
+    "Field elm",
+    [
+     "Hawthorn",
+     "Common hawthorn"
+    ],
+    "Midland hawthorn",
+    [
+     "Rowan",
+     "Mountain ash"
+    ],
+    [
+     "Whitebeam",
+     "Common whitebeam"
+    ],
+    "Wild service tree",
+    "Service tree",
+    "Crab apple",
+    [
+     "Wild cherry",
+     "Gean"
+    ],
+    "Bird cherry",
+    "Box",
+    [
+     "Holly",
+     "European holly"
+    ],
+    "Field maple",
+    "Small-leaved lime",
+    "Large-leaved lime",
+    [
+     "Ash",
+     "Common ash"
+    ]
+   ]
+  },
+  {
+   "id": "mcn2-http-status-codes",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a standard HTTP response status code, by its name or its number (codes registered up to 2025)",
+   "answers": [
+    [
+     "Continue",
+     "100",
+     "100 Continue"
+    ],
+    [
+     "Switching Protocols",
+     "101",
+     "101 Switching Protocols"
+    ],
+    [
+     "Processing ([[WebDAV]]; RFC 2518)",
+     "102",
+     "102 Processing ([[WebDAV]]; RFC 2518)"
+    ],
+    [
+     "Early Hints",
+     "103",
+     "103 Early Hints"
+    ],
+    [
+     "OK",
+     "200",
+     "200 OK",
+     "Okay"
+    ],
+    [
+     "Created",
+     "201",
+     "201 Created"
+    ],
+    [
+     "Accepted",
+     "202",
+     "202 Accepted"
+    ],
+    [
+     "Non-Authoritative Information",
+     "203",
+     "203 Non-Authoritative Information"
+    ],
+    [
+     "No Content",
+     "204",
+     "204 No Content"
+    ],
+    [
+     "Reset Content",
+     "205",
+     "205 Reset Content"
+    ],
+    [
+     "Partial Content",
+     "206",
+     "206 Partial Content"
+    ],
+    [
+     "Multi-Status",
+     "207",
+     "207 Multi-Status"
+    ],
+    [
+     "Already Reported",
+     "208",
+     "208 Already Reported"
+    ],
+    [
+     "IM Used",
+     "226",
+     "226 IM Used"
+    ],
+    [
+     "Multiple Choices",
+     "300",
+     "300 Multiple Choices"
+    ],
+    [
+     "Moved Permanently",
+     "301",
+     "301 Moved Permanently"
+    ],
+    [
+     "Found",
+     "302",
+     "302 Found",
+     "Moved Temporarily"
+    ],
+    [
+     "See Other",
+     "303",
+     "303 See Other"
+    ],
+    [
+     "Not Modified",
+     "304",
+     "304 Not Modified"
+    ],
+    [
+     "Use Proxy",
+     "305",
+     "305 Use Proxy"
+    ],
+    [
+     "Temporary Redirect",
+     "307",
+     "307 Temporary Redirect"
+    ],
+    [
+     "Permanent Redirect",
+     "308",
+     "308 Permanent Redirect"
+    ],
+    [
+     "Bad Request",
+     "400",
+     "400 Bad Request"
+    ],
+    [
+     "Unauthorized",
+     "401",
+     "401 Unauthorized"
+    ],
+    [
+     "Payment Required",
+     "402",
+     "402 Payment Required"
+    ],
+    [
+     "Forbidden",
+     "403",
+     "403 Forbidden"
+    ],
+    [
+     "Not Found",
+     "404",
+     "404 Not Found",
+     "Page Not Found",
+     "File Not Found"
+    ],
+    [
+     "Method Not Allowed",
+     "405",
+     "405 Method Not Allowed"
+    ],
+    [
+     "Not Acceptable",
+     "406",
+     "406 Not Acceptable"
+    ],
+    [
+     "Proxy Authentication Required",
+     "407",
+     "407 Proxy Authentication Required"
+    ],
+    [
+     "Request Timeout",
+     "408",
+     "408 Request Timeout"
+    ],
+    [
+     "Conflict",
+     "409",
+     "409 Conflict"
+    ],
+    [
+     "Gone",
+     "410",
+     "410 Gone"
+    ],
+    [
+     "Length Required",
+     "411",
+     "411 Length Required"
+    ],
+    [
+     "Precondition Failed",
+     "412",
+     "412 Precondition Failed"
+    ],
+    [
+     "Content Too Large",
+     "413",
+     "413 Content Too Large",
+     "Payload Too Large",
+     "Request Entity Too Large"
+    ],
+    [
+     "URI Too Long",
+     "414",
+     "414 URI Too Long"
+    ],
+    [
+     "Unsupported Media Type",
+     "415",
+     "415 Unsupported Media Type"
+    ],
+    [
+     "Range Not Satisfiable",
+     "416",
+     "416 Range Not Satisfiable",
+     "Requested Range Not Satisfiable"
+    ],
+    [
+     "Expectation Failed",
+     "417",
+     "417 Expectation Failed"
+    ],
+    [
+     "I'm a teapot",
+     "418",
+     "418 I'm a teapot",
+     "Teapot",
+     "Im a teapot"
+    ],
+    [
+     "Misdirected Request",
+     "421",
+     "421 Misdirected Request"
+    ],
+    [
+     "Unprocessable Content",
+     "422",
+     "422 Unprocessable Content",
+     "Unprocessable Entity"
+    ],
+    [
+     "Locked",
+     "423",
+     "423 Locked"
+    ],
+    [
+     "Failed Dependency",
+     "424",
+     "424 Failed Dependency"
+    ],
+    [
+     "Too Early",
+     "425",
+     "425 Too Early"
+    ],
+    [
+     "Upgrade Required",
+     "426",
+     "426 Upgrade Required"
+    ],
+    [
+     "Precondition Required",
+     "428",
+     "428 Precondition Required"
+    ],
+    [
+     "Too Many Requests",
+     "429",
+     "429 Too Many Requests"
+    ],
+    [
+     "Request Header Fields Too Large",
+     "431",
+     "431 Request Header Fields Too Large"
+    ],
+    [
+     "Unavailable For Legal Reasons",
+     "451",
+     "451 Unavailable For Legal Reasons"
+    ],
+    [
+     "Internal Server Error",
+     "500",
+     "500 Internal Server Error",
+     "Server Error"
+    ],
+    [
+     "Not Implemented",
+     "501",
+     "501 Not Implemented"
+    ],
+    [
+     "Bad Gateway",
+     "502",
+     "502 Bad Gateway"
+    ],
+    [
+     "Service Unavailable",
+     "503",
+     "503 Service Unavailable",
+     "Server Unavailable"
+    ],
+    [
+     "Gateway Timeout",
+     "504",
+     "504 Gateway Timeout"
+    ],
+    [
+     "HTTP Version Not Supported",
+     "505",
+     "505 HTTP Version Not Supported"
+    ],
+    [
+     "Variant Also Negotiates",
+     "506",
+     "506 Variant Also Negotiates"
+    ],
+    [
+     "Insufficient Storage",
+     "507",
+     "507 Insufficient Storage"
+    ],
+    [
+     "Loop Detected",
+     "508",
+     "508 Loop Detected"
+    ],
+    [
+     "Not Extended",
+     "510",
+     "510 Not Extended"
+    ],
+    [
+     "Network Authentication Required",
+     "511",
+     "511 Network Authentication Required"
+    ]
+   ]
+  },
+  {
+   "id": "mcn2-html-basic-colours",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name one of the 16 basic colour names defined in HTML 4.01 (also valid in CSS)",
+   "answers": [
+    "White",
+    "Silver",
+    [
+     "Gray",
+     "Grey"
+    ],
+    "Black",
+    "Red",
+    "Maroon",
+    "Yellow",
+    "Olive",
+    "Lime",
+    "Green",
+    [
+     "Aqua",
+     "Cyan"
+    ],
+    "Teal",
+    "Blue",
+    "Navy",
+    [
+     "Fuchsia",
+     "Magenta"
+    ],
+    "Purple"
+   ]
+  },
+  {
+   "id": "mcn2-jaguar-models",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a Jaguar car model (past or present, up to 2025)",
+   "answers": [
+    [
+     "SS 100",
+     "Jaguar SS 100"
+    ],
+    [
+     "Mark V",
+     "Mk V",
+     "Mark 5",
+     "Jaguar Mark V"
+    ],
+    [
+     "Mark VII",
+     "Mk VII",
+     "Mark 7",
+     "Jaguar Mark VII"
+    ],
+    [
+     "Mark VIII",
+     "Mk VIII",
+     "Mark 8",
+     "Jaguar Mark VIII"
+    ],
+    [
+     "Mark IX",
+     "Mk IX",
+     "Mark 9",
+     "Jaguar Mark IX"
+    ],
+    [
+     "Mark X",
+     "Mk X",
+     "Mark 10",
+     "Jaguar Mark X"
+    ],
+    [
+     "420G",
+     "Jaguar 420G"
+    ],
+    [
+     "Mark 1",
+     "Mk 1",
+     "Mark I",
+     "Jaguar Mark 1"
+    ],
+    [
+     "Mark 2",
+     "Mk 2",
+     "Mark II",
+     "Jaguar Mark 2"
+    ],
+    [
+     "S-Type",
+     "S Type",
+     "Jaguar S-Type"
+    ],
+    [
+     "420",
+     "Jaguar 420"
+    ],
+    [
+     "240",
+     "Jaguar 240"
+    ],
+    [
+     "340",
+     "Jaguar 340"
+    ],
+    [
+     "XK120",
+     "XK 120",
+     "Jaguar XK120"
+    ],
+    [
+     "XK140",
+     "XK 140",
+     "Jaguar XK140"
+    ],
+    [
+     "XK150",
+     "XK 150",
+     "Jaguar XK150"
+    ],
+    [
+     "C-Type",
+     "Jaguar C-Type"
+    ],
+    [
+     "D-Type",
+     "Jaguar D-Type"
+    ],
+    [
+     "E-Type",
+     "XKE",
+     "Jaguar E-Type"
+    ],
+    [
+     "XJ",
+     "XJ6",
+     "XJ8",
+     "XJ12",
+     "Jaguar XJ"
+    ],
+    [
+     "XJ-S",
+     "XJS",
+     "Jaguar XJ-S"
+    ],
+    [
+     "XJ220",
+     "Jaguar XJ220"
+    ],
+    [
+     "XK8",
+     "XKR",
+     "Jaguar XK8"
+    ],
+    [
+     "XK",
+     "Jaguar XK"
+    ],
+    [
+     "X-Type",
+     "X Type",
+     "Jaguar X-Type"
+    ],
+    [
+     "XF",
+     "Jaguar XF"
+    ],
+    [
+     "XE",
+     "Jaguar XE"
+    ],
+    [
+     "F-Type",
+     "F Type",
+     "Jaguar F-Type"
+    ],
+    [
+     "F-Pace",
+     "F Pace",
+     "Jaguar F-Pace"
+    ],
+    [
+     "E-Pace",
+     "E Pace",
+     "Jaguar E-Pace"
+    ],
+    [
+     "I-Pace",
+     "I Pace",
+     "Jaguar I-Pace"
+    ]
+   ]
+  },
+  {
+   "id": "mcn2-porsche-models",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a Porsche car model (a production road car or road-going sports car, up to 2025)",
+   "answers": [
+    [
+     "356",
+     "Porsche 356"
+    ],
+    [
+     "550",
+     "Porsche 550"
+    ],
+    [
+     "718",
+     "Porsche 718"
+    ],
+    [
+     "904",
+     "Porsche 904"
+    ],
+    [
+     "906",
+     "Porsche 906"
+    ],
+    [
+     "911",
+     "Porsche 911"
+    ],
+    [
+     "912",
+     "Porsche 912"
+    ],
+    [
+     "914",
+     "Porsche 914"
+    ],
+    [
+     "930",
+     "911 Turbo",
+     "Porsche 930"
+    ],
+    [
+     "924",
+     "Porsche 924"
+    ],
+    [
+     "928",
+     "Porsche 928"
+    ],
+    [
+     "944",
+     "Porsche 944"
+    ],
+    [
+     "959",
+     "Porsche 959"
+    ],
+    [
+     "968",
+     "Porsche 968"
+    ],
+    [
+     "Boxster",
+     "Porsche Boxster"
+    ],
+    [
+     "911 GT1",
+     "911 GT1 Strassenversion",
+     "Porsche 911 GT1"
+    ],
+    [
+     "Cayenne",
+     "Porsche Cayenne"
+    ],
+    [
+     "Carrera GT",
+     "Porsche Carrera GT"
+    ],
+    [
+     "Cayman",
+     "Porsche Cayman"
+    ],
+    [
+     "Panamera",
+     "Porsche Panamera"
+    ],
+    [
+     "918 Spyder",
+     "918",
+     "Porsche 918 Spyder"
+    ],
+    [
+     "Macan",
+     "Porsche Macan"
+    ],
+    [
+     "Taycan",
+     "Porsche Taycan"
+    ]
+   ]
+  },
+  {
+   "id": "mcn2-ferrari-models",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a Ferrari road car model or model family (past or present, up to 2025)",
+   "answers": [
+    [
+     "Inter",
+     "166 Inter",
+     "Ferrari Inter"
+    ],
+    [
+     "America",
+     "Superamerica",
+     "Ferrari America"
+    ],
+    [
+     "250",
+     "250 GT",
+     "250 GTO",
+     "Ferrari 250"
+    ],
+    [
+     "275",
+     "275 GTB",
+     "Ferrari 275"
+    ],
+    [
+     "330",
+     "Ferrari 330"
+    ],
+    [
+     "365",
+     "365 GTB/4",
+     "Ferrari 365"
+    ],
+    [
+     "Daytona",
+     "Ferrari Daytona"
+    ],
+    [
+     "Berlinetta Boxer",
+     "512 BB",
+     "365 GT4 BB",
+     "Ferrari Berlinetta Boxer"
+    ],
+    [
+     "Testarossa",
+     "Ferrari Testarossa"
+    ],
+    [
+     "512 TR",
+     "Ferrari 512 TR"
+    ],
+    [
+     "F512 M",
+     "Ferrari F512 M"
+    ],
+    [
+     "288 GTO",
+     "Ferrari 288 GTO"
+    ],
+    [
+     "F40",
+     "Ferrari F40"
+    ],
+    [
+     "F50",
+     "Ferrari F50"
+    ],
+    [
+     "Enzo",
+     "Ferrari Enzo"
+    ],
+    [
+     "LaFerrari",
+     "Ferrari LaFerrari"
+    ],
+    [
+     "F80",
+     "Ferrari F80"
+    ],
+    [
+     "348",
+     "Ferrari 348"
+    ],
+    [
+     "355",
+     "F355",
+     "Ferrari 355"
+    ],
+    [
+     "360",
+     "360 Modena",
+     "Ferrari 360"
+    ],
+    [
+     "F430",
+     "430",
+     "Ferrari F430"
+    ],
+    [
+     "458",
+     "458 Italia",
+     "Ferrari 458"
+    ],
+    [
+     "488",
+     "488 GTB",
+     "Ferrari 488"
+    ],
+    [
+     "F8 Tributo",
+     "F8",
+     "Ferrari F8 Tributo"
+    ],
+    [
+     "296",
+     "296 GTB",
+     "Ferrari 296"
+    ],
+    [
+     "SF90 Stradale",
+     "SF90",
+     "Ferrari SF90 Stradale"
+    ],
+    [
+     "849 Testarossa",
+     "Ferrari 849 Testarossa"
+    ],
+    [
+     "Monza SP1",
+     "Monza SP2",
+     "Ferrari Monza SP1"
+    ],
+    [
+     "Daytona SP3",
+     "Ferrari Daytona SP3"
+    ],
+    [
+     "308",
+     "308 GTB",
+     "Ferrari 308"
+    ],
+    [
+     "328",
+     "Ferrari 328"
+    ],
+    [
+     "Mondial",
+     "Ferrari Mondial"
+    ],
+    [
+     "Dino",
+     "Dino 246",
+     "Dino 206",
+     "Ferrari Dino"
+    ],
+    [
+     "400",
+     "400i",
+     "412",
+     "Ferrari 400"
+    ],
+    [
+     "456",
+     "456 GT",
+     "Ferrari 456"
+    ],
+    [
+     "550 Maranello",
+     "550",
+     "Ferrari 550 Maranello"
+    ],
+    [
+     "575M Maranello",
+     "575M",
+     "575",
+     "Ferrari 575M Maranello"
+    ],
+    [
+     "599",
+     "599 GTB Fiorano",
+     "Ferrari 599"
+    ],
+    [
+     "612 Scaglietti",
+     "612",
+     "Ferrari 612 Scaglietti"
+    ],
+    [
+     "California",
+     "Ferrari California"
+    ],
+    [
+     "F12berlinetta",
+     "F12",
+     "F12 Berlinetta",
+     "Ferrari F12berlinetta"
+    ],
+    [
+     "812 Superfast",
+     "812",
+     "Ferrari 812 Superfast"
+    ],
+    [
+     "12Cilindri",
+     "Ferrari 12Cilindri"
+    ],
+    [
+     "FF",
+     "Ferrari FF"
+    ],
+    [
+     "GTC4Lusso",
+     "GTC4 Lusso",
+     "Ferrari GTC4Lusso"
+    ],
+    [
+     "Portofino",
+     "Ferrari Portofino"
+    ],
+    [
+     "Roma",
+     "Ferrari Roma"
+    ],
+    [
+     "Purosangue",
+     "Ferrari Purosangue"
+    ]
+   ]
+  },
+  {
+   "id": "mcn2-nobel-literature",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a winner of the Nobel Prize in Literature (1901 to 2026)",
+   "answers": [
+    [
+     "Sully Prudhomme",
+     "Prudhomme"
+    ],
+    [
+     "Theodor Mommsen",
+     "Mommsen"
+    ],
+    [
+     "Bjørnstjerne Bjørnson",
+     "Bjørnson"
+    ],
+    [
+     "José Echegaray",
+     "Echegaray"
+    ],
+    [
+     "Frédéric Mistral"
+    ],
+    [
+     "Henryk Sienkiewicz",
+     "Sienkiewicz"
+    ],
+    [
+     "Giosuè Carducci",
+     "Carducci"
+    ],
+    [
+     "Rudyard Kipling",
+     "Kipling"
+    ],
+    [
+     "Rudolf Christoph Eucken",
+     "Eucken",
+     "Rudolf Eucken"
+    ],
+    [
+     "Selma Lagerlöf",
+     "Lagerlöf"
+    ],
+    [
+     "Paul Heyse",
+     "Heyse"
+    ],
+    [
+     "Maurice Maeterlinck",
+     "Maeterlinck"
+    ],
+    [
+     "Gerhart Hauptmann",
+     "Hauptmann"
+    ],
+    [
+     "Rabindranath Tagore",
+     "Tagore"
+    ],
+    [
+     "Romain Rolland",
+     "Rolland"
+    ],
+    [
+     "Verner von Heidenstam",
+     "Heidenstam",
+     "von Heidenstam"
+    ],
+    [
+     "Karl Adolph Gjellerup",
+     "Gjellerup"
+    ],
+    [
+     "Henrik Pontoppidan",
+     "Pontoppidan"
+    ],
+    [
+     "Carl Spitteler",
+     "Spitteler"
+    ],
+    [
+     "Knut Hamsun",
+     "Hamsun"
+    ],
+    [
+     "Anatole France",
+     "France"
+    ],
+    [
+     "Jacinto Benavente",
+     "Benavente"
+    ],
+    [
+     "W. B. Yeats",
+     "Yeats",
+     "WB Yeats"
+    ],
+    [
+     "Władysław Reymont",
+     "Reymont"
+    ],
+    [
+     "George Bernard Shaw",
+     "Bernard Shaw",
+     "Shaw",
+     "GB Shaw"
+    ],
+    [
+     "Grazia Deledda",
+     "Deledda"
+    ],
+    [
+     "Henri Bergson",
+     "Bergson"
+    ],
+    [
+     "Sigrid Undset",
+     "Undset"
+    ],
+    [
+     "Thomas Mann",
+     "Mann"
+    ],
+    [
+     "Sinclair Lewis",
+     "Lewis"
+    ],
+    [
+     "Erik Axel Karlfeldt",
+     "Karlfeldt"
+    ],
+    [
+     "John Galsworthy",
+     "Galsworthy"
+    ],
+    [
+     "Ivan Bunin",
+     "Bunin"
+    ],
+    [
+     "Luigi Pirandello",
+     "Pirandello"
+    ],
+    [
+     "Eugene O'Neill",
+     "O'Neill",
+     "ONeill"
+    ],
+    [
+     "Roger Martin du Gard",
+     "Martin du Gard"
+    ],
+    [
+     "Pearl S. Buck",
+     "Pearl Buck",
+     "Buck"
+    ],
+    [
+     "Frans Eemil Sillanpää",
+     "Sillanpää"
+    ],
+    [
+     "Johannes Vilhelm Jensen",
+     "Johannes V. Jensen",
+     "Jensen"
+    ],
+    [
+     "Gabriela Mistral"
+    ],
+    [
+     "Hermann Hesse",
+     "Hesse"
+    ],
+    [
+     "André Gide",
+     "Gide"
+    ],
+    [
+     "T. S. Eliot",
+     "Eliot",
+     "TS Eliot"
+    ],
+    [
+     "William Faulkner",
+     "Faulkner"
+    ],
+    [
+     "Bertrand Russell",
+     "Russell"
+    ],
+    [
+     "Pär Lagerkvist",
+     "Lagerkvist"
+    ],
+    [
+     "François Mauriac",
+     "Mauriac"
+    ],
+    [
+     "Winston Churchill",
+     "Churchill"
+    ],
+    [
+     "Ernest Hemingway",
+     "Hemingway"
+    ],
+    [
+     "Halldór Laxness",
+     "Laxness"
+    ],
+    [
+     "Juan Ramón Jiménez",
+     "Jimenez",
+     "Juan Ramon Jimenez"
+    ],
+    [
+     "Albert Camus",
+     "Camus"
+    ],
+    [
+     "Boris Pasternak",
+     "Pasternak"
+    ],
+    [
+     "Salvatore Quasimodo",
+     "Quasimodo"
+    ],
+    [
+     "Saint-John Perse",
+     "Perse",
+     "St John Perse"
+    ],
+    [
+     "Ivo Andrić",
+     "Andrić"
+    ],
+    [
+     "John Steinbeck",
+     "Steinbeck"
+    ],
+    [
+     "Giorgos Seferis",
+     "Seferis"
+    ],
+    [
+     "Jean-Paul Sartre",
+     "Sartre"
+    ],
+    [
+     "Mikhail Sholokhov",
+     "Sholokhov"
+    ],
+    [
+     "Shmuel Yosef Agnon",
+     "Agnon",
+     "S. Y. Agnon"
+    ],
+    [
+     "Nelly Sachs",
+     "Sachs"
+    ],
+    [
+     "Miguel Ángel Asturias",
+     "Asturias"
+    ],
+    [
+     "Yasunari Kawabata",
+     "Kawabata"
+    ],
+    [
+     "Samuel Beckett",
+     "Beckett"
+    ],
+    [
+     "Aleksandr Solzhenitsyn",
+     "Solzhenitsyn"
+    ],
+    [
+     "Pablo Neruda",
+     "Neruda"
+    ],
+    [
+     "Heinrich Böll",
+     "Böll"
+    ],
+    [
+     "Patrick White",
+     "White"
+    ],
+    [
+     "Eyvind Johnson",
+     "Johnson"
+    ],
+    [
+     "Harry Martinson",
+     "Martinson"
+    ],
+    [
+     "Eugenio Montale",
+     "Montale"
+    ],
+    [
+     "Saul Bellow",
+     "Bellow"
+    ],
+    [
+     "Vicente Aleixandre",
+     "Aleixandre"
+    ],
+    [
+     "Isaac Bashevis Singer",
+     "Singer",
+     "Isaac Singer"
+    ],
+    [
+     "Odysseas Elytis",
+     "Elytis"
+    ],
+    [
+     "Czesław Miłosz",
+     "Miłosz"
+    ],
+    [
+     "Elias Canetti",
+     "Canetti"
+    ],
+    [
+     "Gabriel García Márquez",
+     "Garcia Marquez",
+     "Marquez"
+    ],
+    [
+     "William Golding",
+     "Golding"
+    ],
+    [
+     "Jaroslav Seifert",
+     "Seifert"
+    ],
+    [
+     "Claude Simon",
+     "Simon"
+    ],
+    [
+     "Wole Soyinka",
+     "Soyinka"
+    ],
+    [
+     "Joseph Brodsky",
+     "Brodsky"
+    ],
+    [
+     "Naguib Mahfouz",
+     "Mahfouz"
+    ],
+    [
+     "Camilo José Cela",
+     "Cela"
+    ],
+    [
+     "Octavio Paz",
+     "Paz"
+    ],
+    [
+     "Nadine Gordimer",
+     "Gordimer"
+    ],
+    [
+     "Derek Walcott",
+     "Walcott"
+    ],
+    [
+     "Toni Morrison",
+     "Morrison"
+    ],
+    [
+     "Kenzaburō Ōe",
+     "Ōe"
+    ],
+    [
+     "Seamus Heaney",
+     "Heaney"
+    ],
+    [
+     "Wisława Szymborska",
+     "Szymborska"
+    ],
+    [
+     "Dario Fo",
+     "Fo"
+    ],
+    [
+     "José Saramago",
+     "Saramago"
+    ],
+    [
+     "Günter Grass",
+     "Grass"
+    ],
+    [
+     "Gao Xingjian",
+     "Gao"
+    ],
+    [
+     "V. S. Naipaul",
+     "Naipaul",
+     "VS Naipaul"
+    ],
+    [
+     "Imre Kertész",
+     "Kertész"
+    ],
+    [
+     "J. M. Coetzee",
+     "Coetzee",
+     "JM Coetzee"
+    ],
+    [
+     "Elfriede Jelinek",
+     "Jelinek"
+    ],
+    [
+     "Harold Pinter",
+     "Pinter"
+    ],
+    [
+     "Orhan Pamuk",
+     "Pamuk"
+    ],
+    [
+     "Doris Lessing",
+     "Lessing"
+    ],
+    [
+     "J. M. G. Le Clézio",
+     "Le Clezio",
+     "Clezio",
+     "JMG Le Clezio",
+     "JMG Le Clézio"
+    ],
+    [
+     "Herta Müller",
+     "Müller"
+    ],
+    [
+     "Mario Vargas Llosa",
+     "Vargas Llosa",
+     "Llosa"
+    ],
+    [
+     "Tomas Tranströmer",
+     "Tranströmer"
+    ],
+    [
+     "Mo Yan"
+    ],
+    [
+     "Alice Munro",
+     "Munro"
+    ],
+    [
+     "Patrick Modiano",
+     "Modiano"
+    ],
+    [
+     "Svetlana Alexievich",
+     "Alexievich"
+    ],
+    [
+     "Bob Dylan",
+     "Dylan"
+    ],
+    [
+     "Kazuo Ishiguro",
+     "Ishiguro"
+    ],
+    [
+     "Olga Tokarczuk",
+     "Tokarczuk"
+    ],
+    [
+     "Peter Handke",
+     "Handke"
+    ],
+    [
+     "Louise Glück",
+     "Glück"
+    ],
+    [
+     "Abdulrazak Gurnah",
+     "Gurnah"
+    ],
+    [
+     "Annie Ernaux",
+     "Ernaux"
+    ],
+    [
+     "Jon Fosse",
+     "Fosse"
+    ],
+    [
+     "Han Kang"
+    ],
+    [
+     "László Krasznahorkai",
+     "Krasznahorkai"
+    ],
+    [
+     "Anne Carson",
+     "Carson"
+    ]
+   ]
+  },
+  {
+   "id": "mcn2-cofe-cathedrals",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a Church of England cathedral in England (its city or full name is fine; the 42 diocesan cathedrals as of 2025, not including the Isle of Man or Gibraltar)",
+   "answers": [
+    [
+     "Birmingham Cathedral",
+     "St Philip's Cathedral",
+     "Birmingham"
+    ],
+    [
+     "Bristol Cathedral",
+     "Bristol"
+    ],
+    [
+     "Canterbury Cathedral",
+     "Canterbury"
+    ],
+    [
+     "Chelmsford Cathedral",
+     "Chelmsford"
+    ],
+    [
+     "Chichester Cathedral",
+     "Chichester"
+    ],
+    [
+     "Coventry Cathedral",
+     "Coventry",
+     "St Michael's Cathedral"
+    ],
+    [
+     "Derby Cathedral",
+     "Derby"
+    ],
+    [
+     "Ely Cathedral",
+     "Ely"
+    ],
+    [
+     "Exeter Cathedral",
+     "Exeter"
+    ],
+    [
+     "Gloucester Cathedral",
+     "Gloucester"
+    ],
+    [
+     "Guildford Cathedral",
+     "Guildford"
+    ],
+    [
+     "Hereford Cathedral",
+     "Hereford"
+    ],
+    [
+     "Leicester Cathedral",
+     "Leicester"
+    ],
+    [
+     "Lichfield Cathedral",
+     "Lichfield"
+    ],
+    [
+     "Lincoln Cathedral",
+     "Lincoln"
+    ],
+    [
+     "Norwich Cathedral",
+     "Norwich"
+    ],
+    [
+     "Christ Church Cathedral",
+     "Oxford Cathedral",
+     "Oxford",
+     "Christ Church Oxford"
+    ],
+    [
+     "Peterborough Cathedral",
+     "Peterborough"
+    ],
+    [
+     "Portsmouth Cathedral",
+     "Portsmouth"
+    ],
+    [
+     "Rochester Cathedral",
+     "Rochester"
+    ],
+    [
+     "St Albans Cathedral",
+     "St Albans",
+     "Saint Albans"
+    ],
+    [
+     "St Edmundsbury Cathedral",
+     "Bury St Edmunds",
+     "Bury St Edmunds Cathedral",
+     "St Edmundsbury"
+    ],
+    [
+     "St Paul's Cathedral",
+     "St Pauls Cathedral",
+     "St Pauls",
+     "St Paul's",
+     "Saint Paul's"
+    ],
+    [
+     "Salisbury Cathedral",
+     "Salisbury"
+    ],
+    [
+     "Southwark Cathedral",
+     "Southwark"
+    ],
+    [
+     "Truro Cathedral",
+     "Truro"
+    ],
+    [
+     "Wells Cathedral",
+     "Wells"
+    ],
+    [
+     "Winchester Cathedral",
+     "Winchester"
+    ],
+    [
+     "Worcester Cathedral",
+     "Worcester"
+    ],
+    [
+     "Blackburn Cathedral",
+     "Blackburn"
+    ],
+    [
+     "Bradford Cathedral",
+     "Bradford"
+    ],
+    [
+     "Carlisle Cathedral",
+     "Carlisle"
+    ],
+    [
+     "Chester Cathedral",
+     "Chester"
+    ],
+    [
+     "Durham Cathedral",
+     "Durham"
+    ],
+    [
+     "Liverpool Cathedral",
+     "Liverpool",
+     "Liverpool Anglican Cathedral"
+    ],
+    [
+     "Manchester Cathedral",
+     "Manchester"
+    ],
+    [
+     "Newcastle Cathedral",
+     "Newcastle",
+     "St Nicholas' Cathedral"
+    ],
+    [
+     "Ripon Cathedral",
+     "Ripon"
+    ],
+    [
+     "Sheffield Cathedral",
+     "Sheffield"
+    ],
+    [
+     "Southwell Minster",
+     "Southwell",
+     "Southwell Cathedral"
+    ],
+    [
+     "Wakefield Cathedral",
+     "Wakefield"
+    ],
+    [
+     "York Minster",
+     "York",
+     "York Cathedral"
+    ]
+   ]
+  }
+ ]
+}

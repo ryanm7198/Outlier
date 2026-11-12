@@ -1,0 +1,863 @@
+{
+ "cat": "misc",
+ "prompts": [
+  {
+   "id": "mcn-pantone-coty",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a Pantone Colour of the Year (2000 to 2026)",
+   "answers": [
+    "Cerulean",
+    "Fuchsia Rose",
+    "True Red",
+    "Aqua Sky",
+    "Tigerlily",
+    "Blue Turquoise",
+    "Sand Dollar",
+    [
+     "Chili Pepper",
+     "Chilli Pepper"
+    ],
+    "Blue Iris",
+    "Mimosa",
+    "Turquoise",
+    "Honeysuckle",
+    "Tangerine Tango",
+    "Emerald",
+    "Radiant Orchid",
+    "Marsala",
+    "Rose Quartz",
+    "Serenity",
+    "Greenery",
+    "Ultra Violet",
+    "Living Coral",
+    "Classic Blue",
+    [
+     "Ultimate Gray",
+     "Ultimate Grey"
+    ],
+    [
+     "Illuminating",
+     "Illuminating Yellow"
+    ],
+    "Very Peri",
+    "Viva Magenta",
+    "Peach Fuzz",
+    "Mocha Mousse",
+    "Cloud Dancer"
+   ]
+  },
+  {
+   "id": "mcn-pritzker-laureates",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a winner of the Pritzker Architecture Prize (1979 to 2026)",
+   "answers": [
+    [
+     "Philip Johnson",
+     "Johnson"
+    ],
+    [
+     "Luis Barragán",
+     "Luis Barragan",
+     "Barragan"
+    ],
+    [
+     "James Stirling",
+     "Stirling"
+    ],
+    [
+     "Kevin Roche",
+     "Roche"
+    ],
+    [
+     "I. M. Pei",
+     "IM Pei",
+     "Pei"
+    ],
+    [
+     "Richard Meier",
+     "Meier"
+    ],
+    [
+     "Hans Hollein",
+     "Hollein"
+    ],
+    [
+     "Gottfried Böhm",
+     "Gottfried Bohm",
+     "Bohm"
+    ],
+    [
+     "Kenzō Tange",
+     "Kenzo Tange",
+     "Tange"
+    ],
+    [
+     "Gordon Bunshaft",
+     "Bunshaft"
+    ],
+    [
+     "Oscar Niemeyer",
+     "Niemeyer"
+    ],
+    [
+     "Frank Gehry",
+     "Gehry"
+    ],
+    [
+     "Aldo Rossi",
+     "Rossi"
+    ],
+    [
+     "Robert Venturi",
+     "Venturi"
+    ],
+    [
+     "Álvaro Siza Vieira",
+     "Alvaro Siza",
+     "Siza"
+    ],
+    [
+     "Fumihiko Maki",
+     "Maki"
+    ],
+    [
+     "Christian de Portzamparc",
+     "Portzamparc"
+    ],
+    [
+     "Tadao Ando",
+     "Ando"
+    ],
+    [
+     "Rafael Moneo",
+     "Moneo"
+    ],
+    [
+     "Sverre Fehn",
+     "Fehn"
+    ],
+    [
+     "Renzo Piano",
+     "Piano"
+    ],
+    [
+     "Norman Foster",
+     "Foster"
+    ],
+    [
+     "Rem Koolhaas",
+     "Koolhaas"
+    ],
+    [
+     "Jacques Herzog",
+     "Herzog"
+    ],
+    [
+     "Pierre de Meuron",
+     "de Meuron"
+    ],
+    [
+     "Glenn Murcutt",
+     "Murcutt"
+    ],
+    [
+     "Jørn Utzon",
+     "Jorn Utzon",
+     "Utzon"
+    ],
+    [
+     "Zaha Hadid",
+     "Hadid"
+    ],
+    [
+     "Thom Mayne",
+     "Mayne"
+    ],
+    [
+     "Paulo Mendes da Rocha",
+     "Mendes da Rocha"
+    ],
+    [
+     "Richard Rogers",
+     "Rogers"
+    ],
+    [
+     "Jean Nouvel",
+     "Nouvel"
+    ],
+    [
+     "Peter Zumthor",
+     "Zumthor"
+    ],
+    [
+     "Kazuyo Sejima",
+     "Sejima"
+    ],
+    [
+     "Ryue Nishizawa",
+     "Nishizawa"
+    ],
+    [
+     "Eduardo Souto de Moura",
+     "Souto de Moura"
+    ],
+    "Wang Shu",
+    [
+     "Toyo Ito",
+     "Ito"
+    ],
+    [
+     "Shigeru Ban",
+     "Ban"
+    ],
+    [
+     "Frei Otto",
+     "Otto"
+    ],
+    [
+     "Alejandro Aravena",
+     "Aravena"
+    ],
+    [
+     "Rafael Aranda",
+     "Aranda"
+    ],
+    [
+     "Carme Pigem",
+     "Pigem"
+    ],
+    [
+     "Ramon Vilalta",
+     "Vilalta"
+    ],
+    [
+     "B. V. Doshi",
+     "Balkrishna Doshi",
+     "Doshi"
+    ],
+    [
+     "Arata Isozaki",
+     "Isozaki"
+    ],
+    [
+     "Yvonne Farrell",
+     "Farrell"
+    ],
+    [
+     "Shelley McNamara",
+     "McNamara"
+    ],
+    [
+     "Anne Lacaton",
+     "Lacaton"
+    ],
+    [
+     "Jean-Philippe Vassal",
+     "Vassal"
+    ],
+    [
+     "Francis Kéré",
+     "Diébédo Francis Kéré",
+     "Francis Kere",
+     "Kere"
+    ],
+    [
+     "David Chipperfield",
+     "Chipperfield"
+    ],
+    [
+     "Riken Yamamoto",
+     "Yamamoto"
+    ],
+    "Liu Jiakun",
+    [
+     "Smiljan Radić",
+     "Smiljan Radic Clarke",
+     "Radic"
+    ]
+   ]
+  },
+  {
+   "id": "mcn-vauxhall-models",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a Vauxhall car model sold in the UK between 1948 and 2025 (not vans or concept cars)",
+   "answers": [
+    [
+     "Wyvern",
+     "Vauxhall Wyvern"
+    ],
+    [
+     "Velox",
+     "Vauxhall Velox"
+    ],
+    [
+     "Cresta",
+     "Vauxhall Cresta"
+    ],
+    [
+     "Victor",
+     "Vauxhall Victor"
+    ],
+    [
+     "Viva",
+     "Vauxhall Viva"
+    ],
+    [
+     "Viscount",
+     "Vauxhall Viscount"
+    ],
+    [
+     "Ventora",
+     "Vauxhall Ventora"
+    ],
+    [
+     "VX4/90",
+     "VX 4 90",
+     "Vauxhall VX4/90"
+    ],
+    [
+     "Firenza",
+     "Vauxhall Firenza"
+    ],
+    [
+     "Magnum",
+     "Vauxhall Magnum"
+    ],
+    [
+     "Chevette",
+     "Vauxhall Chevette"
+    ],
+    [
+     "Cavalier",
+     "Vauxhall Cavalier"
+    ],
+    [
+     "Carlton",
+     "Vauxhall Carlton"
+    ],
+    [
+     "Royale",
+     "Vauxhall Royale"
+    ],
+    [
+     "Viceroy",
+     "Vauxhall Viceroy"
+    ],
+    [
+     "Senator",
+     "Vauxhall Senator"
+    ],
+    [
+     "Nova",
+     "Vauxhall Nova"
+    ],
+    [
+     "Belmont",
+     "Vauxhall Belmont"
+    ],
+    [
+     "Astra",
+     "Vauxhall Astra"
+    ],
+    [
+     "Calibra",
+     "Vauxhall Calibra"
+    ],
+    [
+     "Corsa",
+     "Vauxhall Corsa"
+    ],
+    [
+     "Frontera",
+     "Vauxhall Frontera"
+    ],
+    [
+     "Monterey",
+     "Vauxhall Monterey"
+    ],
+    [
+     "Omega",
+     "Vauxhall Omega"
+    ],
+    [
+     "Vectra",
+     "Vauxhall Vectra"
+    ],
+    [
+     "Tigra",
+     "Vauxhall Tigra"
+    ],
+    [
+     "Sintra",
+     "Vauxhall Sintra"
+    ],
+    [
+     "Zafira",
+     "Vauxhall Zafira"
+    ],
+    [
+     "Agila",
+     "Vauxhall Agila"
+    ],
+    [
+     "Meriva",
+     "Vauxhall Meriva"
+    ],
+    [
+     "Signum",
+     "Vauxhall Signum"
+    ],
+    [
+     "Monaro",
+     "Vauxhall Monaro"
+    ],
+    [
+     "VXR8",
+     "Vauxhall VXR8"
+    ],
+    [
+     "VX220",
+     "Vauxhall VX220"
+    ],
+    [
+     "Insignia",
+     "Vauxhall Insignia"
+    ],
+    [
+     "Antara",
+     "Vauxhall Antara"
+    ],
+    [
+     "Mokka",
+     "Vauxhall Mokka"
+    ],
+    [
+     "Adam",
+     "Vauxhall Adam"
+    ],
+    [
+     "Ampera",
+     "Vauxhall Ampera"
+    ],
+    [
+     "Crossland X",
+     "Crossland",
+     "Vauxhall Crossland X"
+    ],
+    [
+     "Grandland X",
+     "Grandland",
+     "Vauxhall Grandland X"
+    ]
+   ]
+  },
+  {
+   "id": "mcn-rolls-royce-models",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a Rolls-Royce car model (past or present, up to 2025)",
+   "answers": [
+    [
+     "Silver Ghost",
+     "Rolls-Royce Silver Ghost"
+    ],
+    [
+     "Twenty",
+     "Rolls-Royce Twenty"
+    ],
+    [
+     "Phantom",
+     "Phantom II",
+     "Phantom III",
+     "Phantom IV",
+     "Phantom V",
+     "Phantom VI",
+     "Phantom VII",
+     "Phantom VIII",
+     "Rolls-Royce Phantom"
+    ],
+    [
+     "Wraith",
+     "Rolls-Royce Wraith"
+    ],
+    [
+     "Silver Wraith",
+     "Rolls-Royce Silver Wraith"
+    ],
+    [
+     "Silver Dawn",
+     "Rolls-Royce Silver Dawn"
+    ],
+    [
+     "Silver Cloud",
+     "Rolls-Royce Silver Cloud"
+    ],
+    [
+     "Silver Shadow",
+     "Rolls-Royce Silver Shadow"
+    ],
+    [
+     "Corniche",
+     "Rolls-Royce Corniche"
+    ],
+    [
+     "Silver Spirit",
+     "Rolls-Royce Silver Spirit"
+    ],
+    [
+     "Silver Spur",
+     "Rolls-Royce Silver Spur"
+    ],
+    [
+     "Camargue",
+     "Rolls-Royce Camargue"
+    ],
+    [
+     "Silver Seraph",
+     "Rolls-Royce Silver Seraph"
+    ],
+    [
+     "Ghost",
+     "Rolls-Royce Ghost"
+    ],
+    [
+     "Dawn",
+     "Rolls-Royce Dawn"
+    ],
+    [
+     "Cullinan",
+     "Rolls-Royce Cullinan"
+    ],
+    [
+     "Spectre",
+     "Rolls-Royce Spectre"
+    ],
+    [
+     "Sweptail",
+     "Rolls-Royce Sweptail"
+    ],
+    [
+     "Boat Tail",
+     "Rolls-Royce Boat Tail"
+    ],
+    [
+     "Droptail",
+     "Rolls-Royce Droptail"
+    ]
+   ]
+  },
+  {
+   "id": "mcn-turner-winners",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a winner of the Turner Prize (1984 to 2025)",
+   "answers": [
+    [
+     "Malcolm Morley",
+     "Morley"
+    ],
+    [
+     "Richard Deacon",
+     "Deacon"
+    ],
+    [
+     "Tony Cragg",
+     "Cragg"
+    ],
+    "Richard Long",
+    [
+     "Anish Kapoor",
+     "Kapoor"
+    ],
+    [
+     "Grenville Davey",
+     "Davey"
+    ],
+    [
+     "Rachel Whiteread",
+     "Whiteread"
+    ],
+    [
+     "Antony Gormley",
+     "Gormley"
+    ],
+    [
+     "Damien Hirst",
+     "Hirst"
+    ],
+    "Douglas Gordon",
+    [
+     "Gillian Wearing",
+     "Wearing"
+    ],
+    [
+     "Chris Ofili",
+     "Ofili"
+    ],
+    [
+     "Steve McQueen",
+     "McQueen"
+    ],
+    [
+     "Wolfgang Tillmans",
+     "Tillmans"
+    ],
+    [
+     "Martin Creed",
+     "Creed"
+    ],
+    [
+     "Keith Tyson",
+     "Tyson"
+    ],
+    [
+     "Grayson Perry",
+     "Perry"
+    ],
+    [
+     "Jeremy Deller",
+     "Deller"
+    ],
+    [
+     "Simon Starling",
+     "Starling"
+    ],
+    [
+     "Tomma Abts",
+     "Abts"
+    ],
+    [
+     "Mark Wallinger",
+     "Wallinger"
+    ],
+    [
+     "Mark Leckey",
+     "Leckey"
+    ],
+    "Richard Wright",
+    [
+     "Susan Philipsz",
+     "Philipsz"
+    ],
+    [
+     "Martin Boyce",
+     "Boyce"
+    ],
+    "Elizabeth Price",
+    [
+     "Laure Prouvost",
+     "Prouvost"
+    ],
+    "Duncan Campbell",
+    "Assemble",
+    [
+     "Helen Marten",
+     "Marten"
+    ],
+    [
+     "Lubaina Himid",
+     "Himid"
+    ],
+    [
+     "Charlotte Prodger",
+     "Prodger"
+    ],
+    [
+     "Helen Cammock",
+     "Cammock"
+    ],
+    [
+     "Oscar Murillo",
+     "Murillo"
+    ],
+    [
+     "Tai Shani",
+     "Shani"
+    ],
+    [
+     "Lawrence Abu Hamdan",
+     "Abu Hamdan"
+    ],
+    "Array Collective",
+    "Veronica Ryan",
+    [
+     "Jesse Darling",
+     "Darling"
+    ],
+    [
+     "Jasleen Kaur",
+     "Kaur"
+    ],
+    [
+     "Nnena Kalu",
+     "Kalu"
+    ]
+   ]
+  },
+  {
+   "id": "mcn-bible-books",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a book of the Bible (the 66 books of the Protestant canon)",
+   "answers": [
+    "Genesis",
+    "Exodus",
+    "Leviticus",
+    "Numbers",
+    "Deuteronomy",
+    "Joshua",
+    "Judges",
+    "Ruth",
+    [
+     "1 Samuel",
+     "First Samuel",
+     "I Samuel"
+    ],
+    [
+     "2 Samuel",
+     "Second Samuel",
+     "II Samuel"
+    ],
+    [
+     "1 Kings",
+     "First Kings",
+     "I Kings"
+    ],
+    [
+     "2 Kings",
+     "Second Kings",
+     "II Kings"
+    ],
+    [
+     "1 Chronicles",
+     "First Chronicles",
+     "I Chronicles"
+    ],
+    [
+     "2 Chronicles",
+     "Second Chronicles",
+     "II Chronicles"
+    ],
+    "Ezra",
+    "Nehemiah",
+    "Esther",
+    "Job",
+    [
+     "Psalms",
+     "Psalm"
+    ],
+    "Proverbs",
+    "Ecclesiastes",
+    [
+     "Song of Solomon",
+     "Song of Songs",
+     "Canticles"
+    ],
+    "Isaiah",
+    "Jeremiah",
+    "Lamentations",
+    "Ezekiel",
+    "Daniel",
+    "Hosea",
+    "Joel",
+    "Amos",
+    "Obadiah",
+    "Jonah",
+    "Micah",
+    "Nahum",
+    "Habakkuk",
+    "Zephaniah",
+    "Haggai",
+    "Zechariah",
+    "Malachi",
+    "Matthew",
+    "Mark",
+    "Luke",
+    "John",
+    [
+     "Acts",
+     "Acts of the Apostles"
+    ],
+    "Romans",
+    [
+     "1 Corinthians",
+     "First Corinthians",
+     "I Corinthians"
+    ],
+    [
+     "2 Corinthians",
+     "Second Corinthians",
+     "II Corinthians"
+    ],
+    "Galatians",
+    "Ephesians",
+    "Philippians",
+    "Colossians",
+    [
+     "1 Thessalonians",
+     "First Thessalonians",
+     "I Thessalonians"
+    ],
+    [
+     "2 Thessalonians",
+     "Second Thessalonians",
+     "II Thessalonians"
+    ],
+    [
+     "1 Timothy",
+     "First Timothy",
+     "I Timothy"
+    ],
+    [
+     "2 Timothy",
+     "Second Timothy",
+     "II Timothy"
+    ],
+    "Titus",
+    "Philemon",
+    "Hebrews",
+    "James",
+    [
+     "1 Peter",
+     "First Peter",
+     "I Peter"
+    ],
+    [
+     "2 Peter",
+     "Second Peter",
+     "II Peter"
+    ],
+    [
+     "1 John",
+     "First John",
+     "I John"
+    ],
+    [
+     "2 John",
+     "Second John",
+     "II John"
+    ],
+    [
+     "3 John",
+     "Third John",
+     "III John"
+    ],
+    "Jude",
+    [
+     "Revelation",
+     "Revelations",
+     "Book of Revelation"
+    ]
+   ]
+  }
+ ]
+}
