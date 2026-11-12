@@ -1,0 +1,2516 @@
+{
+"cat": "football",
+"prompts": [
+{
+"id": "xr3-fb-euro-2020-scorers",
+"tags": [
+"euros",
+"20s"
+],
+"text": "Name a goalscorer at Euro 2020 (own goals do not count)",
+"answers": [
+[
+"Patrik Schick",
+"Schick"
+],
+[
+"Cristiano Ronaldo",
+"Ronaldo",
+"CR7"
+],
+[
+"Romelu Lukaku",
+"Lukaku"
+],
+[
+"Harry Kane",
+"Kane"
+],
+[
+"Karim Benzema",
+"Benzema"
+],
+[
+"Emil Forsberg",
+"Forsberg"
+],
+[
+"Kasper Dolberg",
+"Dolberg"
+],
+[
+"Raheem Sterling",
+"Sterling"
+],
+[
+"Georginio Wijnaldum",
+"Wijnaldum"
+],
+[
+"Robert Lewandowski",
+"Lewandowski"
+],
+[
+"Álvaro Morata",
+"Morata"
+],
+[
+"Haris Seferovic",
+"Seferovic"
+],
+[
+"Xherdan Shaqiri",
+"Shaqiri"
+],
+[
+"Thorgan Hazard",
+"Hazard"
+],
+[
+"Ivan Perišić",
+"Perišić"
+],
+[
+"Mikkel Damsgaard",
+"Damsgaard"
+],
+[
+"Joakim Mæhle",
+"Mæhle"
+],
+[
+"Yussuf Poulsen",
+"Poulsen"
+],
+[
+"Kai Havertz",
+"Havertz"
+],
+[
+"Federico Chiesa",
+"Chiesa"
+],
+[
+"Ciro Immobile",
+"Immobile"
+],
+[
+"Lorenzo Insigne",
+"Insigne"
+],
+[
+"Manuel Locatelli",
+"Locatelli"
+],
+[
+"Matteo Pessina",
+"Pessina"
+],
+[
+"Memphis Depay",
+"Depay"
+],
+[
+"Denzel Dumfries",
+"Dumfries"
+],
+[
+"Pablo Sarabia",
+"Sarabia"
+],
+[
+"Ferran Torres",
+"Torres"
+],
+[
+"Roman Yaremchuk",
+"Yaremchuk"
+],
+[
+"Andriy Yarmolenko",
+"Yarmolenko"
+],
+[
+"Marko Arnautović",
+"Arnautović"
+],
+[
+"Christoph Baumgartner",
+"Baumgartner"
+],
+[
+"Michael Gregoritsch",
+"Gregoritsch"
+],
+[
+"Saša Kalajdžić",
+"Kalajdžić"
+],
+[
+"Stefan Lainer",
+"Lainer"
+],
+[
+"Kevin De Bruyne",
+"Bruyne",
+"De Bruyne",
+"KDB"
+],
+[
+"Thomas Meunier",
+"Meunier"
+],
+[
+"Luka Modrić",
+"Modrić"
+],
+[
+"Mislav Oršić",
+"Oršić"
+],
+[
+"Mario Pašalić",
+"Pašalić"
+],
+[
+"Nikola Vlašić",
+"Vlašić"
+],
+[
+"Tomáš Holeš",
+"Holeš"
+],
+[
+"Martin Braithwaite",
+"Braithwaite"
+],
+[
+"Andreas Christensen",
+"Christensen"
+],
+[
+"Thomas Delaney",
+"Delaney"
+],
+[
+"Jordan Henderson",
+"Henderson"
+],
+[
+"Harry Maguire",
+"Maguire"
+],
+[
+"Luke Shaw",
+"Shaw"
+],
+[
+"Joel Pohjanpalo",
+"Pohjanpalo"
+],
+[
+"Antoine Griezmann",
+"Griezmann"
+],
+[
+"Paul Pogba",
+"Pogba"
+],
+[
+"Leon Goretzka",
+"Goretzka"
+],
+[
+"Robin Gosens",
+"Gosens"
+],
+[
+"Attila Fiola",
+"Fiola"
+],
+[
+"András Schäfer",
+"Schäfer"
+],
+[
+"Ádám Szalai",
+"Szalai"
+],
+[
+"Nicolò Barella",
+"Barella"
+],
+[
+"Leonardo Bonucci",
+"Bonucci"
+],
+[
+"Wout Weghorst",
+"Weghorst"
+],
+[
+"Ezgjan Alioski",
+"Alioski"
+],
+[
+"Goran Pandev",
+"Pandev"
+],
+[
+"Karol Linetty",
+"Linetty"
+],
+[
+"Raphaël Guerreiro",
+"Guerreiro"
+],
+[
+"Diogo Jota",
+"Jota"
+],
+[
+"Artem Dzyuba",
+"Dzyuba"
+],
+[
+"Aleksei Miranchuk",
+"Miranchuk"
+],
+[
+"Callum McGregor",
+"McGregor"
+],
+[
+"Milan Škriniar",
+"Škriniar"
+],
+[
+"César Azpilicueta",
+"Azpilicueta"
+],
+[
+"Aymeric Laporte",
+"Laporte"
+],
+[
+"Mikel Oyarzabal",
+"Oyarzabal"
+],
+[
+"Viktor Claesson",
+"Claesson"
+],
+[
+"Breel Embolo",
+"Embolo"
+],
+[
+"Mario Gavranović",
+"Gavranović"
+],
+[
+"İrfan Kahveci",
+"Kahveci"
+],
+[
+"Artem Dovbyk",
+"Dovbyk"
+],
+[
+"Oleksandr Zinchenko",
+"Zinchenko"
+],
+[
+"Kieffer Moore",
+"Moore"
+],
+[
+"Aaron Ramsey",
+"Ramsey"
+],
+[
+"Connor Roberts",
+"Roberts"
+]
+]
+},
+{
+"id": "xr3-fb-euro-2024-scorers",
+"tags": [
+"euros",
+"20s"
+],
+"text": "Name a goalscorer at Euro 2024 (own goals do not count)",
+"answers": [
+[
+"Harry Kane",
+"Kane"
+],
+[
+"Georges Mikautadze",
+"Mikautadze"
+],
+[
+"Jamal Musiala",
+"Musiala"
+],
+[
+"Cody Gakpo",
+"Gakpo"
+],
+[
+"Ivan Schranz",
+"Schranz"
+],
+[
+"Dani Olmo",
+"Olmo"
+],
+[
+"Jude Bellingham",
+"Bellingham"
+],
+[
+"Niclas Füllkrug",
+"Füllkrug",
+"Fullkrug"
+],
+[
+"Kai Havertz",
+"Havertz"
+],
+[
+"Florian Wirtz",
+"Wirtz"
+],
+[
+"Donyell Malen",
+"Malen"
+],
+[
+"Răzvan Marin",
+"Marin"
+],
+[
+"Fabián Ruiz",
+"Ruiz"
+],
+[
+"Nico Williams",
+"Williams"
+],
+[
+"Breel Embolo",
+"Embolo"
+],
+[
+"Merih Demiral",
+"Demiral"
+],
+[
+"Nedim Bajrami",
+"Bajrami"
+],
+[
+"Klaus Gjasula",
+"Gjasula"
+],
+[
+"Qazim Laçi",
+"Laçi"
+],
+[
+"Marko Arnautović",
+"Arnautović"
+],
+[
+"Christoph Baumgartner",
+"Baumgartner"
+],
+[
+"Michael Gregoritsch",
+"Gregoritsch"
+],
+[
+"Marcel Sabitzer",
+"Sabitzer"
+],
+[
+"Romano Schmid",
+"Schmid"
+],
+[
+"Gernot Trauner",
+"Trauner"
+],
+[
+"Kevin De Bruyne",
+"Bruyne",
+"De Bruyne",
+"KDB"
+],
+[
+"Youri Tielemans",
+"Tielemans"
+],
+[
+"Andrej Kramarić",
+"Kramarić"
+],
+[
+"Luka Modrić",
+"Modrić"
+],
+[
+"Lukáš Provod",
+"Provod"
+],
+[
+"Patrik Schick",
+"Schick"
+],
+[
+"Tomáš Souček",
+"Souček"
+],
+[
+"Christian Eriksen",
+"Eriksen"
+],
+[
+"Morten Hjulmand",
+"Hjulmand"
+],
+[
+"Cole Palmer",
+"Palmer"
+],
+[
+"Bukayo Saka",
+"Saka"
+],
+[
+"Ollie Watkins",
+"Watkins"
+],
+[
+"Randal Kolo Muani",
+"Muani"
+],
+[
+"Kylian Mbappé",
+"Mbappé",
+"Mbappe"
+],
+[
+"Khvicha Kvaratskhelia",
+"Kvaratskhelia"
+],
+[
+"Emre Can",
+"Can"
+],
+[
+"İlkay Gündoğan",
+"Gündoğan"
+],
+[
+"Kevin Csoboth",
+"Csoboth"
+],
+[
+"Barnabás Varga",
+"Varga"
+],
+[
+"Nicolò Barella",
+"Barella"
+],
+[
+"Alessandro Bastoni",
+"Bastoni"
+],
+[
+"Mattia Zaccagni",
+"Zaccagni"
+],
+[
+"Memphis Depay",
+"Depay"
+],
+[
+"Xavi Simons",
+"Simons"
+],
+[
+"Stefan de Vrij",
+"Vrij",
+"de Vrij"
+],
+[
+"Wout Weghorst",
+"Weghorst"
+],
+[
+"Adam Buksa",
+"Buksa"
+],
+[
+"Robert Lewandowski",
+"Lewandowski"
+],
+[
+"Krzysztof Piątek",
+"Piątek"
+],
+[
+"Francisco Conceição",
+"Conceição"
+],
+[
+"Bruno Fernandes",
+"Fernandes"
+],
+[
+"Bernardo Silva",
+"Silva"
+],
+[
+"Denis Drăguș",
+"Drăguș"
+],
+[
+"Nicolae Stanciu",
+"Stanciu"
+],
+[
+"Scott McTominay",
+"McTominay"
+],
+[
+"Luka Jović",
+"Jović"
+],
+[
+"Ondrej Duda",
+"Duda"
+],
+[
+"Erik Janža",
+"Janža"
+],
+[
+"Žan Karničnik",
+"Karničnik"
+],
+[
+"Dani Carvajal",
+"Carvajal"
+],
+[
+"Mikel Merino",
+"Merino"
+],
+[
+"Álvaro Morata",
+"Morata"
+],
+[
+"Mikel Oyarzabal",
+"Oyarzabal"
+],
+"Rodri",
+[
+"Ferran Torres",
+"Torres"
+],
+[
+"Lamine Yamal",
+"Yamal"
+],
+[
+"Michel Aebischer",
+"Aebischer"
+],
+[
+"Kwadwo Duah",
+"Duah"
+],
+[
+"Remo Freuler",
+"Freuler"
+],
+[
+"Dan Ndoye",
+"Ndoye"
+],
+[
+"Xherdan Shaqiri",
+"Shaqiri"
+],
+[
+"Rubén Vargas",
+"Vargas"
+],
+[
+"Samet Akaydin",
+"Akaydin"
+],
+[
+"Kerem Aktürkoğlu",
+"Aktürkoğlu"
+],
+[
+"Hakan Çalhanoğlu",
+"Çalhanoğlu"
+],
+[
+"Arda Güler",
+"Güler"
+],
+[
+"Mert Müldür",
+"Müldür"
+],
+[
+"Cenk Tosun",
+"Tosun"
+],
+[
+"Mykola Shaparenko",
+"Shaparenko"
+],
+[
+"Roman Yaremchuk",
+"Yaremchuk"
+]
+],
+"deep": true
+},
+{
+"id": "xr3-fb-wc-2022-scorers",
+"tags": [
+"worldcup",
+"20s"
+],
+"text": "Name a goalscorer at the 2022 World Cup (own goals and shoot-out penalties do not count)",
+"answers": [
+[
+"Kylian Mbappé",
+"Mbappé",
+"Mbappe"
+],
+[
+"Lionel Messi",
+"Messi"
+],
+[
+"Julián Álvarez",
+"Álvarez",
+"Alvarez"
+],
+[
+"Olivier Giroud",
+"Giroud"
+],
+"Richarlison",
+[
+"Enner Valencia",
+"Valencia"
+],
+[
+"Marcus Rashford",
+"Rashford"
+],
+[
+"Bukayo Saka",
+"Saka"
+],
+[
+"Cody Gakpo",
+"Gakpo"
+],
+[
+"Gonçalo Ramos",
+"Ramos"
+],
+[
+"Álvaro Morata",
+"Morata"
+],
+"Neymar",
+[
+"Vincent Aboubakar",
+"Aboubakar"
+],
+[
+"Andrej Kramarić",
+"Kramarić"
+],
+[
+"Harry Kane",
+"Kane"
+],
+[
+"Niclas Füllkrug",
+"Füllkrug",
+"Fullkrug"
+],
+[
+"Kai Havertz",
+"Havertz"
+],
+[
+"Mohammed Kudus",
+"Kudus"
+],
+[
+"Mehdi Taremi",
+"Taremi"
+],
+[
+"Ritsu Dōan",
+"Dōan",
+"Doan"
+],
+[
+"Youssef En-Nesyri",
+"En-Nesyri"
+],
+[
+"Wout Weghorst",
+"Weghorst"
+],
+[
+"Robert Lewandowski",
+"Lewandowski"
+],
+[
+"Bruno Fernandes",
+"Fernandes"
+],
+[
+"Rafael Leão",
+"Leão"
+],
+[
+"Salem Al-Dawsari",
+"Al-Dawsari"
+],
+[
+"Aleksandar Mitrović",
+"Mitrović"
+],
+[
+"Cho Gue-sung",
+"Gue-sung"
+],
+[
+"Ferran Torres",
+"Torres"
+],
+[
+"Breel Embolo",
+"Embolo"
+],
+[
+"Giorgian de Arrascaeta",
+"Arrascaeta",
+"de Arrascaeta"
+],
+[
+"Ángel Di María",
+"María",
+"Di María",
+"Di Maria"
+],
+[
+"Enzo Fernández",
+"Fernández"
+],
+[
+"Alexis Mac Allister",
+"Allister",
+"Mac Allister",
+"MacAllister"
+],
+[
+"Nahuel Molina",
+"Molina"
+],
+[
+"Mitchell Duke",
+"Duke"
+],
+[
+"Craig Goodwin",
+"Goodwin"
+],
+[
+"Mathew Leckie",
+"Leckie"
+],
+[
+"Michy Batshuayi",
+"Batshuayi"
+],
+"Casemiro",
+[
+"Lucas Paquetá",
+"Paquetá"
+],
+[
+"Vinícius Júnior",
+"Júnior",
+"Vinicius",
+"Vini Jr"
+],
+[
+"Jean-Charles Castelletto",
+"Castelletto"
+],
+[
+"Eric Maxim Choupo-Moting",
+"Choupo-Moting"
+],
+[
+"Alphonso Davies",
+"Davies"
+],
+[
+"Keysher Fuller",
+"Fuller"
+],
+[
+"Yeltsin Tejeda",
+"Tejeda"
+],
+[
+"Juan Pablo Vargas",
+"Vargas"
+],
+[
+"Joško Gvardiol",
+"Gvardiol"
+],
+[
+"Marko Livaja",
+"Livaja"
+],
+[
+"Lovro Majer",
+"Majer"
+],
+[
+"Mislav Oršić",
+"Oršić"
+],
+[
+"Ivan Perišić",
+"Perišić"
+],
+[
+"Bruno Petković",
+"Petković"
+],
+[
+"Andreas Christensen",
+"Christensen"
+],
+[
+"Moisés Caicedo",
+"Caicedo"
+],
+[
+"Jude Bellingham",
+"Bellingham"
+],
+[
+"Phil Foden",
+"Foden"
+],
+[
+"Jack Grealish",
+"Grealish"
+],
+[
+"Jordan Henderson",
+"Henderson"
+],
+[
+"Raheem Sterling",
+"Sterling"
+],
+[
+"Théo Hernandez",
+"Hernandez"
+],
+[
+"Randal Kolo Muani",
+"Muani"
+],
+[
+"Adrien Rabiot",
+"Rabiot"
+],
+[
+"Aurélien Tchouaméni",
+"Tchouaméni"
+],
+[
+"Serge Gnabry",
+"Gnabry"
+],
+[
+"İlkay Gündoğan",
+"Gündoğan"
+],
+[
+"André Ayew",
+"Ayew"
+],
+[
+"Osman Bukari",
+"Bukari"
+],
+[
+"Mohammed Salisu",
+"Salisu"
+],
+[
+"Rouzbeh Cheshmi",
+"Cheshmi"
+],
+[
+"Ramin Rezaeian",
+"Rezaeian"
+],
+[
+"Takuma Asano",
+"Asano"
+],
+[
+"Daizen Maeda",
+"Maeda"
+],
+[
+"Ao Tanaka",
+"Tanaka"
+],
+[
+"Luis Chávez",
+"Chávez"
+],
+[
+"Henry Martín",
+"Martín"
+],
+[
+"Zakaria Aboukhlal",
+"Aboukhlal"
+],
+[
+"Achraf Dari",
+"Dari"
+],
+[
+"Romain Saïss",
+"Saïss"
+],
+[
+"Hakim Ziyech",
+"Ziyech"
+],
+[
+"Daley Blind",
+"Blind"
+],
+[
+"Memphis Depay",
+"Depay"
+],
+[
+"Denzel Dumfries",
+"Dumfries"
+],
+[
+"Frenkie de Jong",
+"Jong",
+"de Jong"
+],
+[
+"Davy Klaassen",
+"Klaassen"
+],
+[
+"Piotr Zieliński",
+"Zieliński"
+],
+[
+"João Félix",
+"Félix"
+],
+[
+"Raphaël Guerreiro",
+"Guerreiro"
+],
+[
+"Ricardo Horta",
+"Horta"
+],
+"Pepe",
+[
+"Cristiano Ronaldo",
+"Ronaldo",
+"CR7"
+],
+[
+"Mohammed Muntari",
+"Muntari"
+],
+[
+"Saleh Al-Shehri",
+"Al-Shehri"
+],
+[
+"Boulaye Dia",
+"Dia"
+],
+[
+"Famara Diédhiou",
+"Diédhiou"
+],
+[
+"Bamba Dieng",
+"Dieng"
+],
+[
+"Kalidou Koulibaly",
+"Koulibaly"
+],
+[
+"Ismaïla Sarr",
+"Sarr"
+],
+[
+"Sergej Milinković-Savić",
+"Milinković-Savić"
+],
+[
+"Strahinja Pavlović",
+"Pavlović"
+],
+[
+"Dušan Vlahović",
+"Vlahović"
+],
+[
+"Hwang Hee-chan",
+"Hee-chan"
+],
+[
+"Kim Young-gwon",
+"Young-gwon"
+],
+[
+"Paik Seung-ho",
+"Seung-ho"
+],
+[
+"Marco Asensio",
+"Asensio"
+],
+"Gavi",
+[
+"Dani Olmo",
+"Olmo"
+],
+[
+"Carlos Soler",
+"Soler"
+],
+[
+"Manuel Akanji",
+"Akanji"
+],
+[
+"Remo Freuler",
+"Freuler"
+],
+[
+"Xherdan Shaqiri",
+"Shaqiri"
+],
+[
+"Wahbi Khazri",
+"Khazri"
+],
+[
+"Christian Pulisic",
+"Pulisic"
+],
+[
+"Timothy Weah",
+"Weah"
+],
+[
+"Haji Wright",
+"Wright"
+],
+[
+"Gareth Bale",
+"Bale"
+]
+]
+},
+{
+"id": "xr3-fb-womens-wc-2023-teams",
+"tags": [
+"worldcup",
+"20s"
+],
+"text": "Name a team that played at the 2023 Women's World Cup",
+"answers": [
+"England",
+"Spain",
+[
+"USA",
+"United States",
+"United States of America",
+"US",
+"America",
+"USWNT"
+],
+"Australia",
+"Sweden",
+"France",
+"Germany",
+"Netherlands",
+"Brazil",
+"Canada",
+"Japan",
+"Italy",
+"Norway",
+"Denmark",
+"Switzerland",
+"South Korea",
+[
+"China",
+"China PR"
+],
+"Nigeria",
+"Colombia",
+"Argentina",
+"Ireland",
+"Jamaica",
+"Morocco",
+"South Africa",
+"New Zealand",
+"Portugal",
+"Zambia",
+"Costa Rica",
+"Haiti",
+"Panama",
+"Philippines",
+"Vietnam"
+]
+},
+{
+"id": "xr3-fb-womens-euro-2025-teams",
+"tags": [
+"euros",
+"20s"
+],
+"text": "Name a team that played at Women's Euro 2025",
+"answers": [
+"England",
+"Spain",
+"Germany",
+"France",
+"Italy",
+"Sweden",
+"Netherlands",
+"Norway",
+"Switzerland",
+"Denmark",
+"Poland",
+"Iceland",
+"Finland",
+"Belgium",
+"Portugal",
+"Wales"
+]
+},
+{
+"id": "xr3-fb-wsl-2025-26-clubs",
+"tags": [
+"20s"
+],
+"text": "Name a club in the 2025-26 Women's Super League",
+"answers": [
+[
+"Arsenal",
+"The Gunners",
+"Gunners"
+],
+"Chelsea",
+[
+"Manchester City",
+"Man City",
+"City",
+"MCFC"
+],
+[
+"Manchester United",
+"Man Utd",
+"Man United",
+"Manchester Utd",
+"United",
+"MUFC"
+],
+"Liverpool",
+[
+"Tottenham Hotspur",
+"Tottenham",
+"Spurs"
+],
+"Everton",
+[
+"Aston Villa",
+"Villa"
+],
+[
+"West Ham United",
+"West Ham",
+"Hammers"
+],
+[
+"Brighton & Hove Albion",
+"Brighton",
+"Brighton and Hove Albion",
+"Brighton Hove Albion"
+],
+[
+"Leicester City",
+"Leicester"
+],
+[
+"London City Lionesses",
+"London City"
+]
+]
+},
+{
+"id": "xr3-fb-pl-hat-tricks-2020-21-to-2025-26",
+"tags": [
+"pl",
+"20s"
+],
+"text": "Name a player who scored a Premier League hat-trick from 2020-21 to 2025-26",
+"answers": [
+[
+"Mohamed Salah",
+"Salah"
+],
+[
+"Dominic Calvert-Lewin",
+"Calvert-Lewin",
+"DCL"
+],
+[
+"Son Heung-min",
+"Heung-min",
+"Son",
+"Sonny",
+"Heung-min Son"
+],
+[
+"Jamie Vardy",
+"Vardy"
+],
+[
+"Ollie Watkins",
+"Watkins"
+],
+[
+"Patrick Bamford",
+"Bamford"
+],
+[
+"Riyad Mahrez",
+"Mahrez"
+],
+[
+"Pierre-Emerick Aubameyang",
+"Aubameyang",
+"Auba"
+],
+[
+"Kelechi Iheanacho",
+"Iheanacho"
+],
+[
+"Chris Wood",
+"Wood"
+],
+[
+"Gareth Bale",
+"Bale"
+],
+[
+"Ferran Torres",
+"Torres"
+],
+[
+"Bruno Fernandes",
+"Fernandes"
+],
+[
+"Roberto Firmino",
+"Firmino"
+],
+[
+"Mason Mount",
+"Mount"
+],
+[
+"Joshua King",
+"King"
+],
+[
+"Jack Harrison",
+"Harrison"
+],
+[
+"Raheem Sterling",
+"Sterling"
+],
+[
+"Ivan Toney",
+"Toney"
+],
+[
+"Cristiano Ronaldo",
+"Ronaldo",
+"CR7"
+],
+[
+"Gabriel Jesus",
+"Jesus"
+],
+[
+"Kevin De Bruyne",
+"Bruyne",
+"De Bruyne",
+"KDB"
+],
+[
+"Erling Haaland",
+"Haaland"
+],
+[
+"Leandro Trossard",
+"Trossard"
+],
+[
+"Phil Foden",
+"Foden"
+],
+[
+"Evan Ferguson",
+"Ferguson"
+],
+[
+"Eddie Nketiah",
+"Nketiah"
+],
+[
+"Nicolas Jackson",
+"Jackson"
+],
+[
+"Dominic Solanke",
+"Solanke"
+],
+[
+"Elijah Adebayo",
+"Adebayo"
+],
+[
+"Matheus Cunha",
+"Cunha"
+],
+[
+"Jarrod Bowen",
+"Bowen"
+],
+[
+"Cole Palmer",
+"Palmer"
+],
+[
+"Jean-Philippe Mateta",
+"Mateta"
+],
+[
+"Noni Madueke",
+"Madueke"
+],
+[
+"Kevin Schade",
+"Schade"
+],
+[
+"Justin Kluivert",
+"Kluivert"
+],
+[
+"Alexander Isak",
+"Isak"
+],
+[
+"Amad Diallo",
+"Diallo"
+],
+[
+"Dango Ouattara",
+"Ouattara"
+],
+[
+"Omar Marmoush",
+"Marmoush"
+],
+[
+"Eberechi Eze",
+"Eze"
+],
+[
+"Igor Thiago",
+"Thiago"
+],
+[
+"João Pedro",
+"Pedro"
+],
+[
+"Morgan Gibbs-White",
+"Gibbs-White"
+]
+],
+"deep": true
+},
+{
+"id": "xr3-fb-pl-assist-leaders-2010-2026",
+"tags": [
+"pl",
+"10s",
+"20s"
+],
+"text": "Name a player who finished top of the Premier League assists table (or joint top) in a season from 2010-11 to 2025-26",
+"answers": [
+[
+"Kevin De Bruyne",
+"Bruyne",
+"De Bruyne",
+"KDB"
+],
+[
+"Mohamed Salah",
+"Salah"
+],
+[
+"Cesc Fàbregas",
+"Fàbregas"
+],
+[
+"Harry Kane",
+"Kane"
+],
+[
+"Mesut Özil",
+"Özil"
+],
+[
+"Eden Hazard",
+"Hazard"
+],
+[
+"Ollie Watkins",
+"Watkins"
+],
+[
+"Bruno Fernandes",
+"Fernandes"
+],
+[
+"Luis Suárez",
+"Suárez"
+],
+[
+"Steven Gerrard",
+"Gerrard"
+],
+[
+"Juan Mata",
+"Mata"
+],
+[
+"David Silva",
+"Silva"
+],
+"Nani"
+]
+},
+{
+"id": "xr3-fb-league-cup-semi-finalists-2020s",
+"tags": [
+"cups",
+"20s"
+],
+"text": "Name a club that reached the League Cup semi-finals from 2020-21 to 2025-26",
+"answers": [
+[
+"Tottenham Hotspur",
+"Tottenham",
+"Spurs"
+],
+[
+"Manchester City",
+"Man City",
+"City",
+"MCFC"
+],
+[
+"Manchester United",
+"Man Utd",
+"Man United",
+"Manchester Utd",
+"United",
+"MUFC"
+],
+"Chelsea",
+[
+"Arsenal",
+"The Gunners",
+"Gunners"
+],
+"Liverpool",
+[
+"Newcastle United",
+"Newcastle",
+"Newcastle Utd"
+],
+[
+"Nottingham Forest",
+"Forest",
+"Notts Forest"
+],
+"Southampton",
+"Fulham",
+[
+"Middlesbrough",
+"Boro"
+],
+"Brentford"
+]
+},
+{
+"id": "xr3-fb-ucl-quarter-finalists-2020s",
+"tags": [
+"ucl",
+"20s"
+],
+"text": "Name a club that reached the Champions League quarter-finals from 2020-21 to 2025-26",
+"answers": [
+[
+"Manchester City",
+"Man City",
+"City",
+"MCFC"
+],
+[
+"Real Madrid",
+"Madrid"
+],
+[
+"Bayern Munich",
+"Bayern",
+"Bayern München",
+"Bayern Munchen"
+],
+[
+"Paris Saint-Germain",
+"PSG",
+"Paris SG",
+"Paris",
+"Paris St Germain"
+],
+"Liverpool",
+"Chelsea",
+[
+"Barcelona",
+"Barca",
+"FC Barcelona"
+],
+[
+"Atlético Madrid",
+"Atletico Madrid",
+"Atletico",
+"Atleti"
+],
+[
+"Arsenal",
+"The Gunners",
+"Gunners"
+],
+[
+"Borussia Dortmund",
+"Dortmund",
+"BVB"
+],
+[
+"Inter Milan",
+"Inter",
+"Internazionale",
+"Inter Milano"
+],
+[
+"Benfica",
+"SL Benfica"
+],
+[
+"AC Milan",
+"Milan",
+"ACM"
+],
+[
+"Napoli",
+"SSC Napoli"
+],
+[
+"Porto",
+"FC Porto"
+],
+"Villarreal",
+[
+"Aston Villa",
+"Villa"
+],
+[
+"Sporting CP",
+"Sporting",
+"Sporting Lisbon"
+]
+]
+},
+{
+"id": "xr3-fb-uel-uecl-finalists-2020-2026",
+"tags": [
+"ucl",
+"20s"
+],
+"text": "Name a club that played in a Europa League or Conference League final from 2020 to 2026 (winner or runner-up)",
+"answers": [
+[
+"Manchester United",
+"Man Utd",
+"Man United",
+"Manchester Utd",
+"United",
+"MUFC"
+],
+[
+"Tottenham Hotspur",
+"Tottenham",
+"Spurs"
+],
+"Chelsea",
+[
+"Roma",
+"AS Roma"
+],
+"Sevilla",
+[
+"Aston Villa",
+"Villa"
+],
+[
+"Inter Milan",
+"Inter",
+"Internazionale",
+"Inter Milano"
+],
+"Villarreal",
+[
+"Eintracht Frankfurt",
+"Frankfurt"
+],
+"Rangers",
+"Atalanta",
+[
+"Bayer Leverkusen",
+"Leverkusen",
+"Bayer 04 Leverkusen"
+],
+[
+"SC Freiburg",
+"Freiburg"
+],
+[
+"West Ham United",
+"West Ham",
+"Hammers"
+],
+[
+"Fiorentina",
+"ACF Fiorentina"
+],
+"Feyenoord",
+"Olympiacos",
+[
+"Real Betis",
+"Betis"
+],
+[
+"Crystal Palace",
+"Palace"
+],
+[
+"Rayo Vallecano",
+"Rayo"
+]
+]
+},
+{
+"id": "xr3-fb-eredivisie-primeira-belgium-champions-2010s-20s",
+"tags": [
+"europe",
+"10s",
+"20s"
+],
+"text": "Name a club that won the Eredivisie, the Primeira Liga or the Belgian top-flight title from 2010-11 to 2025-26",
+"answers": [
+"Ajax",
+[
+"PSV Eindhoven",
+"PSV"
+],
+"Feyenoord",
+[
+"Porto",
+"FC Porto"
+],
+"Benfica",
+[
+"Sporting CP",
+"Sporting",
+"Sporting Lisbon"
+],
+[
+"Club Brugge",
+"Brugge",
+"Bruges"
+],
+[
+"Anderlecht",
+"RSC Anderlecht"
+],
+[
+"Genk",
+"KRC Genk"
+],
+[
+"Gent",
+"KAA Gent"
+],
+[
+"Royal Antwerp",
+"Antwerp"
+],
+[
+"Union Saint-Gilloise",
+"Union SG",
+"Union",
+"Royale Union Saint-Gilloise"
+]
+],
+"deep": true
+},
+{
+"id": "xr3-fb-pl-clubs-2025-26",
+"tags": [
+"pl",
+"20s"
+],
+"text": "Name a club that played in the 2025-26 Premier League",
+"answers": [
+[
+"Arsenal",
+"The Gunners",
+"Gunners"
+],
+[
+"Manchester City",
+"Man City",
+"City",
+"MCFC"
+],
+[
+"Manchester United",
+"Man Utd",
+"Man United",
+"Manchester Utd",
+"United",
+"MUFC"
+],
+[
+"Aston Villa",
+"Villa"
+],
+"Liverpool",
+[
+"Bournemouth",
+"AFC Bournemouth"
+],
+"Sunderland",
+[
+"Brighton & Hove Albion",
+"Brighton",
+"Brighton and Hove Albion",
+"Brighton Hove Albion"
+],
+"Brentford",
+"Chelsea",
+"Fulham",
+[
+"Newcastle United",
+"Newcastle",
+"Newcastle Utd"
+],
+"Everton",
+[
+"Leeds United",
+"Leeds"
+],
+[
+"Crystal Palace",
+"Palace"
+],
+[
+"Nottingham Forest",
+"Forest",
+"Notts Forest"
+],
+[
+"Tottenham Hotspur",
+"Tottenham",
+"Spurs"
+],
+[
+"West Ham United",
+"West Ham",
+"Hammers"
+],
+"Burnley",
+[
+"Wolverhampton Wanderers",
+"Wolves",
+"Wolverhampton"
+]
+]
+},
+{
+"id": "xr3-fb-wc-2018-last-16",
+"tags": [
+"worldcup",
+"10s"
+],
+"text": "Name a team that reached the last 16 at the 2018 World Cup",
+"answers": [
+"France",
+"Argentina",
+"Uruguay",
+"Portugal",
+"Spain",
+"Russia",
+"Croatia",
+"Denmark",
+"Brazil",
+"Mexico",
+"Belgium",
+"Japan",
+"Sweden",
+"Switzerland",
+"Colombia",
+"England"
+]
+},
+{
+"id": "xr3-fb-england-scorers-2020-2025",
+"tags": [
+"20s"
+],
+"text": "Name a player who scored for England between 2020 and 2025",
+"answers": [
+[
+"Raheem Sterling",
+"Sterling"
+],
+[
+"Dominic Calvert-Lewin",
+"Calvert-Lewin",
+"DCL"
+],
+[
+"Conor Coady",
+"Coady"
+],
+[
+"Danny Ings",
+"Ings"
+],
+[
+"Marcus Rashford",
+"Rashford"
+],
+[
+"Mason Mount",
+"Mount"
+],
+[
+"Harry Maguire",
+"Maguire"
+],
+[
+"Jadon Sancho",
+"Sancho"
+],
+[
+"Declan Rice",
+"Rice"
+],
+[
+"Phil Foden",
+"Foden"
+],
+[
+"James Ward-Prowse",
+"Ward-Prowse"
+],
+[
+"Ollie Watkins",
+"Watkins"
+],
+[
+"Harry Kane",
+"Kane"
+],
+[
+"Bukayo Saka",
+"Saka"
+],
+[
+"Jordan Henderson",
+"Henderson"
+],
+[
+"Luke Shaw",
+"Shaw"
+],
+[
+"Jesse Lingard",
+"Lingard"
+],
+[
+"Ben Chilwell",
+"Chilwell"
+],
+[
+"Tammy Abraham",
+"Abraham"
+],
+[
+"Jack Grealish",
+"Grealish"
+],
+[
+"John Stones",
+"Stones"
+],
+[
+"Emile Smith Rowe",
+"Rowe",
+"Smith Rowe"
+],
+[
+"Tyrone Mings",
+"Mings"
+],
+[
+"Jude Bellingham",
+"Bellingham"
+],
+[
+"Trent Alexander-Arnold",
+"Alexander-Arnold",
+"TAA",
+"Trent"
+],
+[
+"Callum Wilson",
+"Wilson"
+],
+[
+"Kalvin Phillips",
+"Phillips"
+],
+[
+"Kyle Walker",
+"Walker"
+],
+[
+"Ivan Toney",
+"Toney"
+],
+[
+"Cole Palmer",
+"Palmer"
+],
+[
+"Curtis Jones",
+"Jones"
+],
+[
+"Anthony Gordon",
+"Gordon"
+],
+[
+"Conor Gallagher",
+"Gallagher"
+],
+[
+"Jarrod Bowen",
+"Bowen"
+],
+[
+"Taylor Harwood-Bellis",
+"Harwood-Bellis"
+],
+[
+"Myles Lewis-Skelly",
+"Lewis-Skelly"
+],
+[
+"Reece James",
+"James"
+],
+[
+"Eberechi Eze",
+"Eze"
+],
+[
+"Noni Madueke",
+"Madueke"
+],
+[
+"Ezri Konsa",
+"Konsa"
+],
+[
+"Marc Guéhi",
+"Guéhi"
+],
+[
+"Morgan Rogers",
+"Rogers"
+]
+]
+},
+{
+"id": "xr3-fb-spurs-managers-since-2010",
+"tags": [
+"pl",
+"10s",
+"20s"
+],
+"text": "Name a manager who took charge of Tottenham from 2010 to 2026 (interims included, as listed on Wikipedia)",
+"answers": [
+[
+"Mauricio Pochettino",
+"Pochettino"
+],
+[
+"José Mourinho",
+"Mourinho"
+],
+[
+"Antonio Conte",
+"Conte"
+],
+[
+"Ange Postecoglou",
+"Postecoglou"
+],
+[
+"André Villas-Boas",
+"Villas-Boas"
+],
+[
+"Tim Sherwood",
+"Sherwood"
+],
+[
+"Nuno Espírito Santo",
+"Santo"
+],
+[
+"Thomas Frank",
+"Frank"
+],
+[
+"Roberto De Zerbi",
+"Zerbi",
+"De Zerbi"
+],
+[
+"Igor Tudor",
+"Tudor"
+],
+[
+"Ryan Mason",
+"Mason"
+],
+[
+"Cristian Stellini",
+"Stellini"
+]
+]
+},
+{
+"id": "xr3-fb-everton-managers-since-2010",
+"tags": [
+"pl",
+"10s",
+"20s"
+],
+"text": "Name a manager who took charge of Everton in the Premier League from 2010 to 2026 (interims included, as listed on Wikipedia)",
+"answers": [
+[
+"Roberto Martínez",
+"Martínez"
+],
+[
+"Carlo Ancelotti",
+"Ancelotti"
+],
+[
+"Sam Allardyce",
+"Allardyce"
+],
+[
+"Ronald Koeman",
+"Koeman"
+],
+[
+"Marco Silva",
+"Silva"
+],
+[
+"Rafael Benítez",
+"Benítez"
+],
+[
+"Frank Lampard",
+"Lampard"
+],
+[
+"Sean Dyche",
+"Dyche"
+],
+[
+"David Moyes",
+"Moyes"
+],
+[
+"Duncan Ferguson",
+"Ferguson"
+],
+[
+"David Unsworth",
+"Unsworth"
+],
+[
+"Leighton Baines",
+"Baines"
+]
+]
+},
+{
+"id": "xr3-fb-villa-managers-since-2010",
+"tags": [
+"pl",
+"10s",
+"20s"
+],
+"text": "Name a manager who took charge of Aston Villa in the Premier League from 2010 to 2026 (interims included, as listed on Wikipedia)",
+"answers": [
+[
+"Unai Emery",
+"Emery"
+],
+[
+"Steven Gerrard",
+"Gerrard"
+],
+[
+"Gérard Houllier",
+"Houllier"
+],
+[
+"Alex McLeish",
+"McLeish"
+],
+[
+"Paul Lambert",
+"Lambert"
+],
+[
+"Tim Sherwood",
+"Sherwood"
+],
+[
+"Rémi Garde",
+"Garde"
+],
+[
+"Dean Smith",
+"Smith"
+],
+[
+"Kevin MacDonald",
+"MacDonald"
+],
+[
+"Gary McAllister",
+"McAllister"
+],
+[
+"Scott Marshall",
+"Marshall"
+],
+[
+"Eric Black",
+"Black"
+],
+[
+"Aaron Danks",
+"Danks"
+]
+],
+"deep": true
+},
+{
+"id": "xr3-fb-southampton-managers-since-2010",
+"tags": [
+"pl",
+"10s",
+"20s"
+],
+"text": "Name a manager who took charge of Southampton in the Premier League from 2010 to 2026 (interims included, as listed on Wikipedia)",
+"answers": [
+[
+"Mauricio Pochettino",
+"Pochettino"
+],
+[
+"Ronald Koeman",
+"Koeman"
+],
+[
+"Ralph Hasenhüttl",
+"Hasenhüttl"
+],
+[
+"Nathan Jones",
+"Jones"
+],
+[
+"Russell Martin",
+"Martin"
+],
+[
+"Mark Hughes",
+"Hughes"
+],
+[
+"Claude Puel",
+"Puel"
+],
+[
+"Ivan Jurić",
+"Jurić"
+],
+[
+"Nigel Adkins",
+"Adkins"
+],
+[
+"Mauricio Pellegrino",
+"Pellegrino"
+],
+[
+"Kelvin Davis",
+"Davis"
+],
+[
+"Rubén Sellés",
+"Sellés"
+],
+[
+"Simon Rusk",
+"Rusk"
+]
+],
+"deep": true
+},
+{
+"id": "xr3-fb-pl-managers-2025-26",
+"tags": [
+"pl",
+"20s"
+],
+"text": "Name a manager who was in charge of a Premier League club at some point in the 2025-26 season (interims included, as listed on Wikipedia)",
+"answers": [
+[
+"Mikel Arteta",
+"Arteta"
+],
+[
+"Pep Guardiola",
+"Guardiola",
+"Pep"
+],
+[
+"Arne Slot",
+"Slot"
+],
+[
+"Unai Emery",
+"Emery"
+],
+[
+"Eddie Howe",
+"Howe"
+],
+[
+"Ruben Amorim",
+"Amorim"
+],
+[
+"Michael Carrick",
+"Carrick"
+],
+[
+"Thomas Frank",
+"Frank"
+],
+[
+"Roberto De Zerbi",
+"Zerbi",
+"De Zerbi"
+],
+[
+"Igor Tudor",
+"Tudor"
+],
+[
+"Enzo Maresca",
+"Maresca"
+],
+[
+"Liam Rosenior",
+"Rosenior"
+],
+[
+"Marco Silva",
+"Silva"
+],
+[
+"Oliver Glasner",
+"Glasner"
+],
+[
+"Andoni Iraola",
+"Iraola"
+],
+[
+"Fabian Hürzeler",
+"Hürzeler",
+"Hurzeler"
+],
+[
+"Daniel Farke",
+"Farke"
+],
+[
+"Nuno Espírito Santo",
+"Santo",
+"Nuno"
+],
+[
+"Sean Dyche",
+"Dyche"
+],
+[
+"Ange Postecoglou",
+"Postecoglou"
+],
+[
+"Vítor Pereira",
+"Pereira"
+],
+[
+"Graham Potter",
+"Potter"
+],
+[
+"Rob Edwards",
+"Edwards"
+],
+[
+"Scott Parker",
+"Parker"
+],
+[
+"Régis Le Bris",
+"Bris",
+"Le Bris"
+],
+[
+"Keith Andrews",
+"Andrews"
+],
+[
+"David Moyes",
+"Moyes"
+],
+[
+"Darren Fletcher",
+"Fletcher"
+],
+[
+"Calum McFarlane",
+"McFarlane"
+],
+[
+"Mike Jackson",
+"Jackson"
+],
+[
+"James Collins",
+"Collins"
+]
+]
+}
+]
+}
