@@ -1,0 +1,889 @@
+{
+ "cat": "misc",
+ "prompts": [
+  {
+   "id": "mcn3-winter-olympic-disciplines",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a sport or discipline contested at the 2026 Milano Cortina Winter Olympics (the 16 disciplines)",
+   "answers": [
+    [
+     "Alpine skiing",
+     "Alpine",
+     "Downhill skiing"
+    ],
+    "Biathlon",
+    [
+     "Bobsleigh",
+     "Bobsled"
+    ],
+    [
+     "Cross-country skiing",
+     "Cross country skiing",
+     "Cross country"
+    ],
+    "Curling",
+    "Figure skating",
+    [
+     "Freestyle skiing",
+     "Freestyle"
+    ],
+    "Ice hockey",
+    "Luge",
+    "Nordic combined",
+    [
+     "Short-track speed skating",
+     "Short track speed skating",
+     "Short track"
+    ],
+    "Skeleton",
+    "Ski jumping",
+    [
+     "Ski mountaineering",
+     "Skimo"
+    ],
+    [
+     "Snowboarding",
+     "Snowboard"
+    ],
+    "Speed skating"
+   ]
+  },
+  {
+   "id": "mcn3-html-elements",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a current (non-obsolete) HTML element, by its tag name without the angle brackets (as defined in the HTML Living Standard in 2025)",
+   "answers": [
+    [
+     "html",
+     "<html>",
+     "html tag"
+    ],
+    [
+     "head",
+     "<head>",
+     "head tag"
+    ],
+    [
+     "title",
+     "<title>",
+     "title tag"
+    ],
+    [
+     "base",
+     "<base>",
+     "base tag"
+    ],
+    [
+     "link",
+     "<link>",
+     "link tag"
+    ],
+    [
+     "meta",
+     "<meta>",
+     "meta tag"
+    ],
+    [
+     "style",
+     "<style>",
+     "style tag"
+    ],
+    [
+     "body",
+     "<body>",
+     "body tag"
+    ],
+    [
+     "article",
+     "<article>",
+     "article tag"
+    ],
+    [
+     "section",
+     "<section>",
+     "section tag"
+    ],
+    [
+     "nav",
+     "<nav>",
+     "nav tag"
+    ],
+    [
+     "aside",
+     "<aside>",
+     "aside tag"
+    ],
+    [
+     "h1",
+     "<h1>",
+     "h1 tag"
+    ],
+    [
+     "h2",
+     "<h2>",
+     "h2 tag"
+    ],
+    [
+     "h3",
+     "<h3>",
+     "h3 tag"
+    ],
+    [
+     "h4",
+     "<h4>",
+     "h4 tag"
+    ],
+    [
+     "h5",
+     "<h5>",
+     "h5 tag"
+    ],
+    [
+     "h6",
+     "<h6>",
+     "h6 tag"
+    ],
+    [
+     "hgroup",
+     "<hgroup>",
+     "hgroup tag"
+    ],
+    [
+     "header",
+     "<header>",
+     "header tag"
+    ],
+    [
+     "footer",
+     "<footer>",
+     "footer tag"
+    ],
+    [
+     "address",
+     "<address>",
+     "address tag"
+    ],
+    [
+     "p",
+     "<p>",
+     "p tag"
+    ],
+    [
+     "hr",
+     "<hr>",
+     "hr tag"
+    ],
+    [
+     "pre",
+     "<pre>",
+     "pre tag"
+    ],
+    [
+     "blockquote",
+     "<blockquote>",
+     "blockquote tag"
+    ],
+    [
+     "ol",
+     "<ol>",
+     "ol tag"
+    ],
+    [
+     "ul",
+     "<ul>",
+     "ul tag"
+    ],
+    [
+     "menu",
+     "<menu>",
+     "menu tag"
+    ],
+    [
+     "li",
+     "<li>",
+     "li tag"
+    ],
+    [
+     "dl",
+     "<dl>",
+     "dl tag"
+    ],
+    [
+     "dt",
+     "<dt>",
+     "dt tag"
+    ],
+    [
+     "dd",
+     "<dd>",
+     "dd tag"
+    ],
+    [
+     "figure",
+     "<figure>",
+     "figure tag"
+    ],
+    [
+     "figcaption",
+     "<figcaption>",
+     "figcaption tag"
+    ],
+    [
+     "main",
+     "<main>",
+     "main tag"
+    ],
+    [
+     "search",
+     "<search>",
+     "search tag"
+    ],
+    [
+     "div",
+     "<div>",
+     "div tag"
+    ],
+    [
+     "a",
+     "<a>",
+     "a tag"
+    ],
+    [
+     "em",
+     "<em>",
+     "em tag"
+    ],
+    [
+     "strong",
+     "<strong>",
+     "strong tag"
+    ],
+    [
+     "small",
+     "<small>",
+     "small tag"
+    ],
+    [
+     "s",
+     "<s>",
+     "s tag"
+    ],
+    [
+     "cite",
+     "<cite>",
+     "cite tag"
+    ],
+    [
+     "q",
+     "<q>",
+     "q tag"
+    ],
+    [
+     "dfn",
+     "<dfn>",
+     "dfn tag"
+    ],
+    [
+     "abbr",
+     "<abbr>",
+     "abbr tag"
+    ],
+    [
+     "ruby",
+     "<ruby>",
+     "ruby tag"
+    ],
+    [
+     "rt",
+     "<rt>",
+     "rt tag"
+    ],
+    [
+     "rp",
+     "<rp>",
+     "rp tag"
+    ],
+    [
+     "data",
+     "<data>",
+     "data tag"
+    ],
+    [
+     "time",
+     "<time>",
+     "time tag"
+    ],
+    [
+     "code",
+     "<code>",
+     "code tag"
+    ],
+    [
+     "var",
+     "<var>",
+     "var tag"
+    ],
+    [
+     "samp",
+     "<samp>",
+     "samp tag"
+    ],
+    [
+     "kbd",
+     "<kbd>",
+     "kbd tag"
+    ],
+    [
+     "sub",
+     "<sub>",
+     "sub tag"
+    ],
+    [
+     "sup",
+     "<sup>",
+     "sup tag"
+    ],
+    [
+     "i",
+     "<i>",
+     "i tag"
+    ],
+    [
+     "b",
+     "<b>",
+     "b tag"
+    ],
+    [
+     "u",
+     "<u>",
+     "u tag"
+    ],
+    [
+     "mark",
+     "<mark>",
+     "mark tag"
+    ],
+    [
+     "bdi",
+     "<bdi>",
+     "bdi tag"
+    ],
+    [
+     "bdo",
+     "<bdo>",
+     "bdo tag"
+    ],
+    [
+     "span",
+     "<span>",
+     "span tag"
+    ],
+    [
+     "br",
+     "<br>",
+     "br tag"
+    ],
+    [
+     "wbr",
+     "<wbr>",
+     "wbr tag"
+    ],
+    [
+     "ins",
+     "<ins>",
+     "ins tag"
+    ],
+    [
+     "del",
+     "<del>",
+     "del tag"
+    ],
+    [
+     "picture",
+     "<picture>",
+     "picture tag"
+    ],
+    [
+     "source",
+     "<source>",
+     "source tag"
+    ],
+    [
+     "img",
+     "<img>",
+     "img tag"
+    ],
+    [
+     "iframe",
+     "<iframe>",
+     "iframe tag"
+    ],
+    [
+     "embed",
+     "<embed>",
+     "embed tag"
+    ],
+    [
+     "object",
+     "<object>",
+     "object tag"
+    ],
+    [
+     "video",
+     "<video>",
+     "video tag"
+    ],
+    [
+     "audio",
+     "<audio>",
+     "audio tag"
+    ],
+    [
+     "track",
+     "<track>",
+     "track tag"
+    ],
+    [
+     "map",
+     "<map>",
+     "map tag"
+    ],
+    [
+     "area",
+     "<area>",
+     "area tag"
+    ],
+    [
+     "table",
+     "<table>",
+     "table tag"
+    ],
+    [
+     "caption",
+     "<caption>",
+     "caption tag"
+    ],
+    [
+     "colgroup",
+     "<colgroup>",
+     "colgroup tag"
+    ],
+    [
+     "col",
+     "<col>",
+     "col tag"
+    ],
+    [
+     "tbody",
+     "<tbody>",
+     "tbody tag"
+    ],
+    [
+     "thead",
+     "<thead>",
+     "thead tag"
+    ],
+    [
+     "tfoot",
+     "<tfoot>",
+     "tfoot tag"
+    ],
+    [
+     "tr",
+     "<tr>",
+     "tr tag"
+    ],
+    [
+     "td",
+     "<td>",
+     "td tag"
+    ],
+    [
+     "th",
+     "<th>",
+     "th tag"
+    ],
+    [
+     "form",
+     "<form>",
+     "form tag"
+    ],
+    [
+     "label",
+     "<label>",
+     "label tag"
+    ],
+    [
+     "input",
+     "<input>",
+     "input tag"
+    ],
+    [
+     "button",
+     "<button>",
+     "button tag"
+    ],
+    [
+     "select",
+     "<select>",
+     "select tag"
+    ],
+    [
+     "datalist",
+     "<datalist>",
+     "datalist tag"
+    ],
+    [
+     "optgroup",
+     "<optgroup>",
+     "optgroup tag"
+    ],
+    [
+     "option",
+     "<option>",
+     "option tag"
+    ],
+    [
+     "textarea",
+     "<textarea>",
+     "textarea tag"
+    ],
+    [
+     "output",
+     "<output>",
+     "output tag"
+    ],
+    [
+     "progress",
+     "<progress>",
+     "progress tag"
+    ],
+    [
+     "meter",
+     "<meter>",
+     "meter tag"
+    ],
+    [
+     "fieldset",
+     "<fieldset>",
+     "fieldset tag"
+    ],
+    [
+     "legend",
+     "<legend>",
+     "legend tag"
+    ],
+    [
+     "details",
+     "<details>",
+     "details tag"
+    ],
+    [
+     "summary",
+     "<summary>",
+     "summary tag"
+    ],
+    [
+     "dialog",
+     "<dialog>",
+     "dialog tag"
+    ],
+    [
+     "script",
+     "<script>",
+     "script tag"
+    ],
+    [
+     "noscript",
+     "<noscript>",
+     "noscript tag"
+    ],
+    [
+     "template",
+     "<template>",
+     "template tag"
+    ],
+    [
+     "slot",
+     "<slot>",
+     "slot tag"
+    ],
+    [
+     "canvas",
+     "<canvas>",
+     "canvas tag"
+    ]
+   ]
+  },
+  {
+   "id": "mcn3-lotus-models",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a Lotus car model (past or present, up to 2025)",
+   "answers": [
+    [
+     "Seven",
+     "Lotus Seven",
+     "Lotus Seven"
+    ],
+    [
+     "Eleven",
+     "Lotus Eleven",
+     "Lotus Eleven"
+    ],
+    [
+     "Elite",
+     "Lotus Elite"
+    ],
+    [
+     "Elan",
+     "Lotus Elan"
+    ],
+    [
+     "Europa",
+     "Lotus Europa"
+    ],
+    [
+     "Cortina",
+     "Lotus Cortina",
+     "Lotus Cortina"
+    ],
+    [
+     "Eclat",
+     "Lotus Eclat"
+    ],
+    [
+     "Esprit",
+     "Lotus Esprit"
+    ],
+    [
+     "Excel",
+     "Lotus Excel"
+    ],
+    [
+     "Elise",
+     "Lotus Elise"
+    ],
+    [
+     "Exige",
+     "Lotus Exige"
+    ],
+    [
+     "Evora",
+     "Lotus Evora"
+    ],
+    [
+     "340R",
+     "Lotus 340R"
+    ],
+    [
+     "2-Eleven",
+     "2 Eleven",
+     "Lotus 2-Eleven"
+    ],
+    [
+     "3-Eleven",
+     "3 Eleven",
+     "Lotus 3-Eleven"
+    ],
+    [
+     "Evija",
+     "Lotus Evija"
+    ],
+    [
+     "Emira",
+     "Lotus Emira"
+    ],
+    [
+     "Eletre",
+     "Lotus Eletre"
+    ],
+    [
+     "Emeya",
+     "Lotus Emeya"
+    ]
+   ]
+  },
+  {
+   "id": "mcn3-bentley-models",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a Bentley car model (past or present, up to 2025)",
+   "answers": [
+    [
+     "3 Litre",
+     "3 Liter",
+     "Bentley 3 Litre"
+    ],
+    [
+     "3½ Litre",
+     "3.5 Litre",
+     "3 1/2 Litre",
+     "Bentley 3½ Litre"
+    ],
+    [
+     "4 Litre",
+     "Bentley 4 Litre"
+    ],
+    [
+     "4½ Litre",
+     "4.5 Litre",
+     "4 1/2 Litre",
+     "Bentley 4½ Litre"
+    ],
+    [
+     "8 Litre",
+     "8 Liter",
+     "Bentley 8 Litre"
+    ],
+    [
+     "Speed Six",
+     "Bentley Speed Six"
+    ],
+    [
+     "Mark V",
+     "Bentley Mark V"
+    ],
+    [
+     "Mark VI",
+     "Bentley Mark VI"
+    ],
+    [
+     "R Type",
+     "R-Type",
+     "Bentley R Type"
+    ],
+    [
+     "S1",
+     "Bentley S1"
+    ],
+    [
+     "S2",
+     "Bentley S2"
+    ],
+    [
+     "S3",
+     "Bentley S3"
+    ],
+    [
+     "T-Series",
+     "T Series",
+     "T1",
+     "Bentley T-Series"
+    ],
+    [
+     "Continental",
+     "Bentley Continental"
+    ],
+    [
+     "Corniche",
+     "Bentley Corniche"
+    ],
+    [
+     "Mulsanne",
+     "Bentley Mulsanne"
+    ],
+    [
+     "Eight",
+     "Bentley Eight"
+    ],
+    [
+     "Turbo R",
+     "Bentley Turbo R"
+    ],
+    [
+     "Brooklands",
+     "Bentley Brooklands"
+    ],
+    [
+     "Azure",
+     "Bentley Azure"
+    ],
+    [
+     "Arnage",
+     "Bentley Arnage"
+    ],
+    [
+     "Continental GT",
+     "Bentley Continental GT"
+    ],
+    [
+     "Flying Spur",
+     "Continental Flying Spur",
+     "Bentley Flying Spur"
+    ],
+    [
+     "Bentayga",
+     "Bentley Bentayga"
+    ],
+    [
+     "State Limousine",
+     "Bentley State Limousine"
+    ]
+   ]
+  },
+  {
+   "id": "mcn3-hebrew-months",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a month of the Hebrew calendar",
+   "answers": [
+    [
+     "Nisan",
+     "Nissan"
+    ],
+    [
+     "Iyar",
+     "Iyyar"
+    ],
+    "Sivan",
+    [
+     "Tammuz",
+     "Tamuz"
+    ],
+    [
+     "Av",
+     "Ab"
+    ],
+    "Elul",
+    [
+     "Tishrei",
+     "Tishri"
+    ],
+    [
+     "Cheshvan",
+     "Marcheshvan",
+     "Heshvan"
+    ],
+    "Kislev",
+    [
+     "Tevet",
+     "Tebeth"
+    ],
+    [
+     "Shevat",
+     "Shebat"
+    ],
+    "Adar",
+    [
+     "Adar I",
+     "Adar Aleph",
+     "Adar Rishon"
+    ],
+    [
+     "Adar II",
+     "Adar Bet",
+     "Adar Sheni",
+     "Veadar"
+    ]
+   ]
+  }
+ ]
+}
