@@ -1,0 +1,789 @@
+{
+ "cat": "gaming",
+ "prompts": [
+  {
+   "id": "xw1-tbc-dungeons",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a five-player dungeon added in World of Warcraft: The Burning Crusade",
+   "answers": [
+    [
+     "Hellfire Ramparts",
+     "Ramparts",
+     "Ramps"
+    ],
+    [
+     "The Blood Furnace",
+     "Blood Furnace"
+    ],
+    [
+     "The Slave Pens",
+     "Slave Pens"
+    ],
+    [
+     "The Underbog",
+     "Underbog"
+    ],
+    [
+     "Mana-Tombs",
+     "Mana Tombs"
+    ],
+    "Auchenai Crypts",
+    [
+     "Old Hillsbrad Foothills",
+     "Escape from Durnholde Keep",
+     "Durnholde Keep",
+     "Old Hillsbrad",
+     "Durnholde"
+    ],
+    "Sethekk Halls",
+    [
+     "Shadow Labyrinth",
+     "Shadow Labs",
+     "Slabs"
+    ],
+    [
+     "The Shattered Halls",
+     "Shattered Halls"
+    ],
+    [
+     "The Botanica",
+     "Botanica"
+    ],
+    [
+     "The Mechanar",
+     "Mechanar"
+    ],
+    [
+     "The Steamvault",
+     "Steamvault"
+    ],
+    [
+     "Magisters' Terrace",
+     "Magister's Terrace",
+     "Magisters Terrace"
+    ],
+    [
+     "The Black Morass",
+     "Black Morass",
+     "Opening of the Dark Portal"
+    ],
+    [
+     "The Arcatraz",
+     "Arcatraz"
+    ]
+   ]
+  },
+  {
+   "id": "xw1-wrath-dungeons",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a five-player dungeon added in World of Warcraft: Wrath of the Lich King",
+   "answers": [
+    "Utgarde Keep",
+    [
+     "The Nexus",
+     "Nexus"
+    ],
+    "Azjol-Nerub",
+    [
+     "Ahn'kahet: The Old Kingdom",
+     "Ahnkahet",
+     "Old Kingdom"
+    ],
+    [
+     "Drak'Tharon Keep",
+     "Draktharon Keep"
+    ],
+    [
+     "The Violet Hold",
+     "Violet Hold"
+    ],
+    "Gundrak",
+    "Halls of Stone",
+    "Halls of Lightning",
+    [
+     "The Oculus",
+     "Oculus"
+    ],
+    "Utgarde Pinnacle",
+    [
+     "The Culling of Stratholme",
+     "Culling of Stratholme",
+     "Culling"
+    ],
+    "Trial of the Champion",
+    "Halls of Reflection",
+    "Pit of Saron",
+    [
+     "The Forge of Souls",
+     "Forge of Souls"
+    ]
+   ]
+  },
+  {
+   "id": "xw1-cata-dungeons",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a five-player dungeon in World of Warcraft: Cataclysm (patch 4.3)",
+   "answers": [
+    "Throne of the Tides",
+    "Blackrock Caverns",
+    [
+     "The Stonecore",
+     "Stonecore"
+    ],
+    [
+     "The Vortex Pinnacle",
+     "Vortex Pinnacle"
+    ],
+    "Grim Batol",
+    "Halls of Origination",
+    "Lost City of the Tol'vir",
+    [
+     "The Deadmines",
+     "Deadmines"
+    ],
+    "Shadowfang Keep",
+    "Zul'Aman",
+    "Zul'Gurub",
+    "End Time",
+    "Well of Eternity",
+    "Hour of Twilight"
+   ]
+  },
+  {
+   "id": "xw1-classic-reputations",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a reputation faction you could earn in the original World of Warcraft (before The Burning Crusade)",
+   "answers": [
+    "Stormwind",
+    "Orgrimmar",
+    "Ironforge",
+    "Undercity",
+    "Darnassus",
+    "Thunder Bluff",
+    [
+     "Gnomeregan Exiles",
+     "Gnomeregan"
+    ],
+    [
+     "Darkspear Trolls",
+     "Darkspear"
+    ],
+    "Argent Dawn",
+    [
+     "Bloodsail Buccaneers",
+     "Bloodsail"
+    ],
+    "Brood of Nozdormu",
+    "Cenarion Circle",
+    [
+     "Gelkis Clan Centaur",
+     "Gelkis"
+    ],
+    [
+     "Magram Clan Centaur",
+     "Magram"
+    ],
+    [
+     "Hydraxian Waterlords",
+     "Hydraxians"
+    ],
+    "Ravenholdt",
+    "Syndicate",
+    "Thorium Brotherhood",
+    [
+     "Timbermaw Hold",
+     "Timbermaw"
+    ],
+    [
+     "Wintersaber Trainers",
+     "Wintersaber"
+    ],
+    "Zandalar Tribe",
+    [
+     "Frostwolf Clan",
+     "Frostwolf"
+    ],
+    [
+     "Stormpike Guard",
+     "Stormpike"
+    ],
+    [
+     "Warsong Outriders",
+     "Warsong"
+    ],
+    [
+     "Silverwing Sentinels",
+     "Silverwing"
+    ],
+    [
+     "The League of Arathor",
+     "League of Arathor"
+    ],
+    [
+     "The Defilers",
+     "Defilers"
+    ],
+    "Steamwheedle Cartel",
+    "Booty Bay",
+    "Everlook",
+    "Gadgetzan",
+    "Ratchet"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xw1-tbc-reputations",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a reputation faction introduced in The Burning Crusade (not counting racial capital city factions)",
+   "answers": [
+    "Honor Hold",
+    "Thrallmar",
+    [
+     "Cenarion Expedition",
+     "Cenarion"
+    ],
+    [
+     "The Consortium",
+     "Consortium"
+    ],
+    "Keepers of Time",
+    "Kurenai",
+    [
+     "The Mag'har",
+     "Mag'har",
+     "Maghar"
+    ],
+    "Netherwing",
+    "Ogri'la",
+    [
+     "The Scale of the Sands",
+     "Scale of the Sands"
+    ],
+    "Sporeggar",
+    "Tranquillien",
+    [
+     "The Violet Eye",
+     "Violet Eye"
+    ],
+    "Ashtongue Deathsworn",
+    [
+     "The Aldor",
+     "Aldor"
+    ],
+    "Lower City",
+    [
+     "The Scryers",
+     "Scryers"
+    ],
+    [
+     "The Sha'tar",
+     "Sha'tar",
+     "Shatar"
+    ],
+    [
+     "Sha'tari Skyguard",
+     "Skyguard"
+    ],
+    "Shattered Sun Offensive"
+   ]
+  },
+  {
+   "id": "xw1-wrath-reputations",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a reputation faction introduced in Wrath of the Lich King",
+   "answers": [
+    "Argent Crusade",
+    [
+     "Ashen Verdict",
+     "The Ashen Verdict"
+    ],
+    [
+     "The Kalu'ak",
+     "Kalu'ak",
+     "Kaluak"
+    ],
+    "Kirin Tor",
+    [
+     "Knights of the Ebon Blade",
+     "Ebon Blade"
+    ],
+    [
+     "The Sons of Hodir",
+     "Sons of Hodir"
+    ],
+    [
+     "The Wyrmrest Accord",
+     "Wyrmrest Accord"
+    ],
+    "Horde Expedition",
+    "Alliance Vanguard",
+    [
+     "The Hand of Vengeance",
+     "Hand of Vengeance"
+    ],
+    [
+     "The Sunreavers",
+     "Sunreavers"
+    ],
+    [
+     "The Taunka",
+     "Taunka"
+    ],
+    "Warsong Offensive",
+    "Explorers' League",
+    [
+     "The Frostborn",
+     "Frostborn"
+    ],
+    [
+     "The Silver Covenant",
+     "Silver Covenant"
+    ],
+    "Valiance Expedition",
+    "Frenzyheart Tribe",
+    [
+     "The Oracles",
+     "Oracles"
+    ]
+   ]
+  },
+  {
+   "id": "xw1-patch-titles",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a titled content patch of World of Warcraft from the original game through Cataclysm (2004-2011)",
+   "answers": [
+    "Mysteries of Maraudon",
+    [
+     "Ruins of the Dire Maul",
+     "Ruins of Dire Maul"
+    ],
+    [
+     "The Call to War",
+     "Call to War"
+    ],
+    "Battlegrounds",
+    "Assault on Blackwing Lair",
+    "Rise of the Blood God",
+    "Dragons of Nightmare",
+    [
+     "The Gates of Ahn'Qiraj",
+     "Gates of Ahn'Qiraj"
+    ],
+    "Storms of Azeroth",
+    "Shadow of the Necropolis",
+    "Drums of War",
+    "Before the Storm",
+    "Black Temple",
+    [
+     "Voice Chat",
+     "Voice Chat!"
+    ],
+    [
+     "The Gods of Zul'Aman",
+     "Gods of Zul'Aman"
+    ],
+    "Fury of the Sunwell",
+    "Echoes of Doom",
+    "Secrets of Ulduar",
+    "Call of the Crusade",
+    "Fall of the Lich King",
+    "Rise of the Zandalari",
+    "Rage of the Firelands",
+    "Hour of Twilight"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xw1-mage-teleports",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a destination of a mage's Teleport spell in Wrath of the Lich King (patch 3.3.5)",
+   "answers": [
+    [
+     "Stormwind",
+     "Stormwind City"
+    ],
+    "Ironforge",
+    "Darnassus",
+    [
+     "Exodar",
+     "The Exodar"
+    ],
+    "Orgrimmar",
+    "Undercity",
+    "Thunder Bluff",
+    [
+     "Silvermoon",
+     "Silvermoon City"
+    ],
+    [
+     "Shattrath",
+     "Shattrath City"
+    ],
+    [
+     "Theramore",
+     "Theramore Isle"
+    ],
+    "Stonard",
+    [
+     "Dalaran",
+     "Dalaran Northrend"
+    ]
+   ]
+  },
+  {
+   "id": "xw1-vanilla-pet-families",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a hunter pet family available in the original World of Warcraft (2004)",
+   "answers": [
+    "Bat",
+    "Bear",
+    [
+     "Bird of Prey",
+     "Owl",
+     "Birds of Prey"
+    ],
+    "Boar",
+    [
+     "Carrion Bird",
+     "Vulture"
+    ],
+    "Cat",
+    "Crab",
+    [
+     "Crocolisk",
+     "Crocodile"
+    ],
+    "Gorilla",
+    "Hyena",
+    "Raptor",
+    [
+     "Scorpid",
+     "Scorpion"
+    ],
+    "Serpent",
+    "Spider",
+    "Tallstrider",
+    "Turtle",
+    "Wind Serpent",
+    "Wolf"
+   ]
+  },
+  {
+   "id": "xw1-deadmines-bosses",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a boss in the Deadmines (original or Cataclysm version)",
+   "answers": [
+    "Rhahk'Zor",
+    [
+     "Sneed",
+     "Sneed's Shredder",
+     "Sneeds Shredder"
+    ],
+    "Gilnid",
+    [
+     "Mr. Smite",
+     "Mister Smite",
+     "Smite"
+    ],
+    "Captain Greenskin",
+    [
+     "Edwin VanCleef",
+     "VanCleef",
+     "Van Cleef",
+     "Edwin"
+    ],
+    [
+     "Cookie",
+     "Captain Cookie"
+    ],
+    "Glubtok",
+    "Helix Gearbreaker",
+    [
+     "Foe Reaper 5000",
+     "Foe Reaper"
+    ],
+    "Admiral Ripsnarl",
+    [
+     "Vanessa VanCleef",
+     "Vanessa"
+    ]
+   ]
+  },
+  {
+   "id": "xw1-scarlet-monastery-bosses",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a boss in the Scarlet Monastery (original or Mists of Pandaria version)",
+   "answers": [
+    [
+     "Interrogator Vishas",
+     "James Vishas",
+     "Vishas"
+    ],
+    [
+     "Bloodmage Thalnos",
+     "Thalnos",
+     "Thalnos the Soulrender"
+    ],
+    "Azshir the Sleepless",
+    "Fallen Champion",
+    "Ironspine",
+    "Houndmaster Loksey",
+    "Arcanist Doan",
+    [
+     "Herod",
+     "The Scarlet Champion"
+    ],
+    "High Inquisitor Fairbanks",
+    [
+     "Scarlet Commander Mograine",
+     "Mograine",
+     "Commander Mograine",
+     "Renault Mograine"
+    ],
+    [
+     "High Inquisitor Whitemane",
+     "Whitemane",
+     "Sally Whitemane"
+    ],
+    [
+     "Brother Korloff",
+     "Korloff"
+    ],
+    [
+     "Commander Durand",
+     "Durand"
+    ]
+   ]
+  },
+  {
+   "id": "xw1-stratholme-bosses",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a boss in the original Stratholme dungeon",
+   "answers": [
+    "Skul",
+    "The Unforgiven",
+    "Hearthsinger Forresten",
+    "Postmaster Malown",
+    "Timmy the Cruel",
+    "Malor the Zealous",
+    "Cannon Master Willey",
+    "Archivist Galford",
+    [
+     "Balnazzar",
+     "Grand Crusader Dathrohan",
+     "Dathrohan"
+    ],
+    "Baroness Anastari",
+    "Stonespine",
+    "Nerub'enkan",
+    "Maleki the Pallid",
+    "Magistrate Barthilas",
+    "Ramstein the Gorger",
+    [
+     "Baron Rivendare",
+     "Rivendare",
+     "Aurius Rivendare"
+    ]
+   ]
+  },
+  {
+   "id": "xw1-brd-bosses",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a boss in Blackrock Depths (including the Ring of Law and the Seven)",
+   "answers": [
+    "High Interrogator Gerstahn",
+    "Houndmaster Grebmar",
+    "Lord Roccor",
+    "Anub'shiah",
+    "Eviscerator",
+    "Gorosh the Dervish",
+    "Grizzle",
+    "Hedrum the Creeper",
+    "Ok'thor the Breaker",
+    "Theldren",
+    "Lefty",
+    "Rotfang",
+    "Snokh Blackspine",
+    "Malgen Longspear",
+    "Korv",
+    "Rezznik",
+    "Va'jashni",
+    "Volida",
+    "Pyromancer Loregrain",
+    "Warder Stilgiss",
+    "Verek",
+    "Fineous Darkvire",
+    "Lord Incendius",
+    "Bael'Gar",
+    "General Angerforge",
+    "Golem Lord Argelmach",
+    "Hurley Blackbreath",
+    [
+     "Phalanx",
+     "Phalanx the golem"
+    ],
+    "Plugger Spazzring",
+    "Ribbly Screwspigot",
+    "Ambassador Flamelash",
+    "Panzor the Invincible",
+    "Magmus",
+    "Watchman Doomgrip",
+    [
+     "Princess Moira Bronzebeard",
+     "Moira Bronzebeard",
+     "Princess Moira",
+     "High Priestess of Thaurissan"
+    ],
+    [
+     "Emperor Dagran Thaurissan",
+     "Emperor Thaurissan",
+     "Dagran Thaurissan",
+     "Thaurissan"
+    ],
+    "Coren Direbrew",
+    [
+     "Anger'rel",
+     "Angerrel"
+    ],
+    [
+     "Doom'rel",
+     "Doomrel"
+    ],
+    [
+     "Dope'rel",
+     "Doperel"
+    ],
+    [
+     "Gloom'rel",
+     "Gloomrel"
+    ],
+    [
+     "Hate'rel",
+     "Haterel"
+    ],
+    [
+     "Seeth'rel",
+     "Seethrel"
+    ],
+    [
+     "Vile'rel",
+     "Vilerel"
+    ],
+    "Dark Keeper Bethek",
+    "Dark Keeper Ofgut",
+    "Dark Keeper Pelver",
+    "Dark Keeper Uggel",
+    "Dark Keeper Vorfalk",
+    "Dark Keeper Zimrel"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xw1-dire-maul-bosses",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a boss in Dire Maul",
+   "answers": [
+    "Pusillin",
+    "Lethtendris",
+    "Pimgib",
+    "Hydrospawn",
+    "Zevrim Thornhoof",
+    [
+     "Alzzin the Wildshaper",
+     "Alzzin"
+    ],
+    "Tendris Warpwood",
+    "Tsu'zee",
+    "Magister Kalendris",
+    "Illyanna Ravenoak",
+    "Ferra",
+    [
+     "Immol'thar",
+     "Immolthar"
+    ],
+    "Prince Tortheldrin",
+    "Guard Mol'dar",
+    "Stomper Kreeg",
+    "Guard Fengus",
+    "Guard Slip'kik",
+    "Captain Kromcrush",
+    [
+     "Cho'Rush the Observer",
+     "Cho'Rush"
+    ],
+    [
+     "King Gordok",
+     "Gordok"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xw1-tww-delves",
+   "tags": [
+    "warcraft"
+   ],
+   "text": "Name a Delve introduced in World of Warcraft: The War Within (as of Midnight, 2026)",
+   "answers": [
+    "Archival Assault",
+    [
+     "The Dread Pit",
+     "Dread Pit"
+    ],
+    "Earthcrawl Mines",
+    "Excavation Site 9",
+    "Fungal Folly",
+    "Kriegval's Rest",
+    "Mycomancer Cavern",
+    "Nightfall Sanctum",
+    "Sidestreet Sluice",
+    [
+     "The Sinkhole",
+     "Sinkhole"
+    ],
+    "Skittering Breach",
+    [
+     "The Spiral Weave",
+     "Spiral Weave"
+    ],
+    "Tak-Rethan Abyss",
+    [
+     "The Underkeep",
+     "Underkeep"
+    ],
+    [
+     "The Waterworks",
+     "Waterworks"
+    ]
+   ]
+  }
+ ]
+}

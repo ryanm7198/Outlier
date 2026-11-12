@@ -1,0 +1,2200 @@
+{
+ "cat": "film",
+ "prompts": [
+  {
+   "id": "xm4-ealing-comedies",
+   "tags": [
+    "films"
+   ],
+   "text": "Name an Ealing comedy film (1947 to 1958)",
+   "answers": [
+    "Hue and Cry",
+    "Another Shore",
+    "Passport to Pimlico",
+    [
+     "Whisky Galore!",
+     "Whisky Galore",
+     "Tight Little Island"
+    ],
+    "Kind Hearts and Coronets",
+    "A Run for Your Money",
+    [
+     "The Magnet",
+     "Magnet"
+    ],
+    [
+     "The Lavender Hill Mob",
+     "Lavender Hill Mob"
+    ],
+    [
+     "The Man in the White Suit",
+     "Man in the White Suit"
+    ],
+    "His Excellency",
+    [
+     "The Titfield Thunderbolt",
+     "Titfield Thunderbolt"
+    ],
+    "Meet Mr. Lucifer",
+    [
+     "The Love Lottery",
+     "Love Lottery"
+    ],
+    [
+     "The Maggie",
+     "Maggie"
+    ],
+    "Touch and Go",
+    [
+     "The Ladykillers",
+     "Ladykillers"
+    ],
+    "Who Done It?",
+    "Barnacle Bill",
+    "Davy"
+   ]
+  },
+  {
+   "id": "xm4-hammer-horror",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a Hammer Films horror film (1955 to 1974)",
+   "answers": [
+    [
+     "The Quatermass Xperiment",
+     "Quatermass Xperiment"
+    ],
+    "X the Unknown",
+    [
+     "The Curse of Frankenstein",
+     "Curse of Frankenstein"
+    ],
+    [
+     "Dracula",
+     "Horror of Dracula"
+    ],
+    [
+     "The Abominable Snowman",
+     "Abominable Snowman"
+    ],
+    "Quatermass 2",
+    [
+     "The Revenge of Frankenstein",
+     "Revenge of Frankenstein"
+    ],
+    [
+     "The Mummy",
+     "Mummy"
+    ],
+    [
+     "The Hound of the Baskervilles",
+     "Hound of the Baskervilles"
+    ],
+    [
+     "The Man Who Could Cheat Death",
+     "Man Who Could Cheat Death"
+    ],
+    [
+     "The Brides of Dracula",
+     "Brides of Dracula"
+    ],
+    [
+     "The Two Faces of Dr. Jekyll",
+     "Two Faces of Dr. Jekyll"
+    ],
+    [
+     "The Curse of the Werewolf",
+     "Curse of the Werewolf"
+    ],
+    "Kiss of the Vampire",
+    [
+     "The Phantom of the Opera",
+     "Phantom of the Opera"
+    ],
+    [
+     "The Evil of Frankenstein",
+     "Evil of Frankenstein"
+    ],
+    [
+     "The Gorgon",
+     "Gorgon"
+    ],
+    [
+     "The Curse of the Mummy's Tomb",
+     "Curse of the Mummy's Tomb"
+    ],
+    [
+     "Dracula: Prince of Darkness",
+     "Prince of Darkness"
+    ],
+    "Rasputin, the Mad Monk",
+    [
+     "The Plague of the Zombies",
+     "Plague of the Zombies"
+    ],
+    [
+     "The Reptile",
+     "Reptile"
+    ],
+    [
+     "The Witches",
+     "Witches"
+    ],
+    "Quatermass and the Pit",
+    "Frankenstein Created Woman",
+    [
+     "The Devil Rides Out",
+     "Devil Rides Out"
+    ],
+    [
+     "The Mummy's Shroud",
+     "Mummy's Shroud"
+    ],
+    "Dracula Has Risen from the Grave",
+    "Frankenstein Must Be Destroyed",
+    "Taste the Blood of Dracula",
+    "Scars of Dracula",
+    [
+     "The Vampire Lovers",
+     "Vampire Lovers"
+    ],
+    [
+     "The Horror of Frankenstein",
+     "Horror of Frankenstein"
+    ],
+    "Countess Dracula",
+    "Hands of the Ripper",
+    "Dr. Jekyll and Sister Hyde",
+    "Lust for a Vampire",
+    "Twins of Evil",
+    "Blood from the Mummy's Tomb",
+    "Vampire Circus",
+    "Dracula A.D. 1972",
+    [
+     "The Satanic Rites of Dracula",
+     "Satanic Rites of Dracula"
+    ],
+    [
+     "Captain Kronos: Vampire Hunter",
+     "Captain Kronos"
+    ],
+    [
+     "The Legend of the 7 Golden Vampires",
+     "Legend of the 7 Golden Vampires"
+    ],
+    "Frankenstein and the Monster from Hell"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm4-branagh-directed",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Kenneth Branagh (1989 to 2023)",
+   "answers": [
+    "Henry V",
+    "Dead Again",
+    "Peter's Friends",
+    "Much Ado About Nothing",
+    [
+     "Mary Shelley's Frankenstein",
+     "Frankenstein"
+    ],
+    "In the Bleak Midwinter",
+    "Hamlet",
+    "Love's Labour's Lost",
+    "As You Like It",
+    [
+     "The Magic Flute",
+     "Magic Flute"
+    ],
+    "Sleuth",
+    "Thor",
+    [
+     "Jack Ryan: Shadow Recruit",
+     "Jack Ryan"
+    ],
+    "Cinderella",
+    "Murder on the Orient Express",
+    "All Is True",
+    "Artemis Fowl",
+    "Belfast",
+    "Death on the Nile",
+    "A Haunting in Venice"
+   ]
+  },
+  {
+   "id": "xm4-loach-leigh",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a feature film directed by Ken Loach or Mike Leigh (to 2024)",
+   "answers": [
+    "Poor Cow",
+    "Kes",
+    "Family Life",
+    "Black Jack",
+    "Looks and Smiles",
+    "Fatherland",
+    "Hidden Agenda",
+    "Riff-Raff",
+    "Raining Stones",
+    "Ladybird, Ladybird",
+    "Land and Freedom",
+    "Carla's Song",
+    "My Name Is Joe",
+    "Bread and Roses",
+    [
+     "The Navigators",
+     "Navigators"
+    ],
+    "Sweet Sixteen",
+    "Ae Fond Kiss...",
+    [
+     "The Wind That Shakes the Barley",
+     "Wind That Shakes the Barley"
+    ],
+    "It's a Free World...",
+    "Looking for Eric",
+    "Route Irish",
+    [
+     "The Angels' Share",
+     "Angels' Share"
+    ],
+    "Jimmy's Hall",
+    "I, Daniel Blake",
+    "Sorry We Missed You",
+    [
+     "The Old Oak",
+     "Old Oak"
+    ],
+    "Bleak Moments",
+    "Meantime",
+    "High Hopes",
+    "Life Is Sweet",
+    "Naked",
+    "Secrets & Lies",
+    "Career Girls",
+    "Topsy-Turvy",
+    "All or Nothing",
+    "Vera Drake",
+    "Happy-Go-Lucky",
+    "Another Year",
+    "Mr. Turner",
+    "Peterloo",
+    "Hard Truths"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm4-lean-attenborough",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by David Lean or Richard Attenborough",
+   "answers": [
+    "In Which We Serve",
+    "This Happy Breed",
+    "Blithe Spirit",
+    "Brief Encounter",
+    "Great Expectations",
+    "Oliver Twist",
+    [
+     "The Passionate Friends",
+     "Passionate Friends"
+    ],
+    "Madeleine",
+    [
+     "The Sound Barrier",
+     "Sound Barrier"
+    ],
+    "Hobson's Choice",
+    "Summertime",
+    [
+     "The Bridge on the River Kwai",
+     "Bridge on the River Kwai"
+    ],
+    "Lawrence of Arabia",
+    "Doctor Zhivago",
+    "Ryan's Daughter",
+    "A Passage to India",
+    "Oh! What a Lovely War",
+    "Young Winston",
+    "A Bridge Too Far",
+    "Magic",
+    "Gandhi",
+    "A Chorus Line",
+    "Cry Freedom",
+    "Chaplin",
+    "Shadowlands",
+    "In Love and War",
+    "Grey Owl",
+    "Closing the Ring"
+   ]
+  },
+  {
+   "id": "xm4-powell-pressburger",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film made by Michael Powell and Emeric Pressburger together (1939 to 1972)",
+   "answers": [
+    [
+     "The Spy in Black",
+     "Spy in Black"
+    ],
+    "Contraband",
+    "49th Parallel",
+    "One of Our Aircraft Is Missing",
+    [
+     "The Life and Death of Colonel Blimp",
+     "Life and Death of Colonel Blimp"
+    ],
+    [
+     "The Volunteer",
+     "Volunteer"
+    ],
+    "A Canterbury Tale",
+    "I Know Where I'm Going!",
+    "A Matter of Life and Death",
+    "Black Narcissus",
+    [
+     "The Red Shoes",
+     "Red Shoes"
+    ],
+    [
+     "The Small Back Room",
+     "Small Back Room"
+    ],
+    "Gone to Earth",
+    [
+     "The Elusive Pimpernel",
+     "Elusive Pimpernel"
+    ],
+    [
+     "The Tales of Hoffmann",
+     "Tales of Hoffmann"
+    ],
+    "Oh... Rosalinda!!",
+    [
+     "The Battle of the River Plate",
+     "Battle of the River Plate"
+    ],
+    "Ill Met by Moonlight",
+    "They're a Weird Mob",
+    [
+     "The Boy Who Turned Yellow",
+     "Boy Who Turned Yellow"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm4-hitchcock-british",
+   "tags": [
+    "films"
+   ],
+   "text": "Name an Alfred Hitchcock film from his British period (1925 to 1939)",
+   "answers": [
+    [
+     "The Pleasure Garden",
+     "Pleasure Garden"
+    ],
+    [
+     "The Mountain Eagle",
+     "Mountain Eagle"
+    ],
+    [
+     "The Lodger",
+     "Lodger"
+    ],
+    "Downhill",
+    "Easy Virtue",
+    [
+     "The Ring",
+     "Ring"
+    ],
+    [
+     "The Farmer's Wife",
+     "Farmer's Wife"
+    ],
+    "Champagne",
+    [
+     "The Manxman",
+     "Manxman"
+    ],
+    "Blackmail",
+    "Juno and the Paycock",
+    "Murder!",
+    [
+     "The Skin Game",
+     "Skin Game"
+    ],
+    "Mary",
+    "Rich and Strange",
+    "Number Seventeen",
+    "Waltzes from Vienna",
+    [
+     "The Man Who Knew Too Much",
+     "Man Who Knew Too Much"
+    ],
+    [
+     "The 39 Steps",
+     "39 Steps"
+    ],
+    "Secret Agent",
+    "Sabotage",
+    "Young and Innocent",
+    [
+     "The Lady Vanishes",
+     "Lady Vanishes"
+    ],
+    "Jamaica Inn"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm4-frears-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Stephen Frears (1971 to 2022)",
+   "answers": [
+    "Gumshoe",
+    [
+     "The Hit",
+     "Hit"
+    ],
+    "My Beautiful Laundrette",
+    "Prick Up Your Ears",
+    "Sammy and Rosie Get Laid",
+    "Dangerous Liaisons",
+    [
+     "The Grifters",
+     "Grifters"
+    ],
+    "Hero",
+    [
+     "The Snapper",
+     "Snapper"
+    ],
+    "Mary Reilly",
+    [
+     "The Van",
+     "Van"
+    ],
+    [
+     "The Hi-Lo Country",
+     "Hi-Lo Country"
+    ],
+    "High Fidelity",
+    "Liam",
+    "Dirty Pretty Things",
+    "Mrs Henderson Presents",
+    [
+     "The Queen",
+     "Queen"
+    ],
+    "Chéri",
+    "Tamara Drewe",
+    "Lay the Favorite",
+    "Philomena",
+    [
+     "The Program",
+     "Program"
+    ],
+    "Florence Foster Jenkins",
+    "Victoria & Abdul",
+    [
+     "The Lost King",
+     "Lost King"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm4-working-title-1994-2019",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film produced by Working Title Films (1994 to 2019 releases)",
+   "answers": [
+    [
+     "Four Weddings and a Funeral",
+     "Four Weddings"
+    ],
+    "Romeo Is Bleeding",
+    [
+     "The Hudsucker Proxy",
+     "Hudsucker Proxy"
+    ],
+    "Panther",
+    "French Kiss",
+    "Moonlight and Valentino",
+    "Dead Man Walking",
+    "Fargo",
+    "Land and Freedom",
+    "Loch Ness",
+    [
+     "The Eighth Day",
+     "Eighth Day"
+    ],
+    [
+     "The Matchmaker",
+     "Matchmaker"
+    ],
+    "Bean",
+    [
+     "The Borrowers",
+     "Borrowers"
+    ],
+    [
+     "The Big Lebowski",
+     "Big Lebowski"
+    ],
+    "Elizabeth",
+    [
+     "The Hi-Lo Country",
+     "Hi-Lo Country"
+    ],
+    "Notting Hill",
+    "Plunkett & Macleane",
+    "High Fidelity",
+    "Billy Elliot",
+    "O Brother, Where Art Thou?",
+    [
+     "Bridget Jones's Diary",
+     "Bridget Jones Diary"
+    ],
+    [
+     "The Man Who Cried",
+     "Man Who Cried"
+    ],
+    "Captain Corelli's Mandolin",
+    [
+     "The Man Who Wasn't There",
+     "Man Who Wasn't There"
+    ],
+    "Long Time Dead",
+    "40 Days and 40 Nights",
+    "About a Boy",
+    "Ali G Indahouse",
+    [
+     "The Guru",
+     "Guru"
+    ],
+    [
+     "The Shape of Things",
+     "Shape of Things"
+    ],
+    "Johnny English",
+    "Love Actually",
+    "Thirteen",
+    "Ned Kelly",
+    "Thunderbirds",
+    "Wimbledon",
+    "Shaun of the Dead",
+    [
+     "Bridget Jones: The Edge of Reason",
+     "Bridget Jones The Edge of Reason",
+     "Edge of Reason"
+    ],
+    "Inside I'm Dancing",
+    "Mickybo and Me",
+    [
+     "The Interpreter",
+     "Interpreter"
+    ],
+    [
+     "Pride & Prejudice",
+     "Pride and Prejudice"
+    ],
+    "Nanny McPhee",
+    "United 93",
+    "Catch a Fire",
+    "Smokin' Aces",
+    "Hot Fuzz",
+    [
+     "Mr. Bean's Holiday",
+     "Mr Beans Holiday"
+    ],
+    [
+     "Elizabeth: The Golden Age",
+     "The Golden Age"
+    ],
+    "Atonement",
+    "Definitely, Maybe",
+    "Burn After Reading",
+    [
+     "Frost/Nixon",
+     "Frost Nixon"
+    ],
+    "State of Play",
+    [
+     "The Soloist",
+     "Soloist"
+    ],
+    "A Serious Man",
+    [
+     "Pirate Radio",
+     "The Boat That Rocked",
+     "Boat That Rocked"
+    ],
+    "Green Zone",
+    "Senna",
+    [
+     "Nanny McPhee and the Big Bang",
+     "Nanny McPhee Returns"
+    ],
+    "Paul",
+    "Johnny English Reborn",
+    "Tinker Tailor Soldier Spy",
+    "Contraband",
+    "Big Miracle",
+    "Anna Karenina",
+    "Les Misérables",
+    [
+     "The World's End",
+     "World's End"
+    ],
+    "Closed Circuit",
+    "Rush",
+    "About Time",
+    [
+     "The Two Faces of January",
+     "Two Faces of January"
+    ],
+    "Trash",
+    [
+     "The Theory of Everything",
+     "Theory of Everything"
+    ],
+    "We Are Your Friends",
+    "Everest",
+    [
+     "The Program",
+     "Program"
+    ],
+    "Legend",
+    [
+     "The Danish Girl",
+     "Danish Girl"
+    ],
+    [
+     "Hail, Caesar!",
+     "Hail Caesar"
+    ],
+    [
+     "The Brothers Grimsby",
+     "Brothers Grimsby",
+     "Grimsby"
+    ],
+    "Bridget Jones's Baby",
+    "Baby Driver",
+    "Victoria & Abdul",
+    [
+     "The Snowman",
+     "Snowman"
+    ],
+    "Darkest Hour",
+    [
+     "7 Days in Entebbe",
+     "Entebbe"
+    ],
+    "Johnny English Strikes Again",
+    "Mary Queen of Scots",
+    [
+     "The Kid Who Would Be King",
+     "Kid Who Would Be King"
+    ],
+    "Yesterday",
+    "Cats"
+   ]
+  },
+  {
+   "id": "xm4-bafta-outstanding-british-film",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the BAFTA for Best (Outstanding) British Film (1947 to 2025)",
+   "answers": [
+    "Odd Man Out",
+    [
+     "The Fallen Idol",
+     "Fallen Idol"
+    ],
+    [
+     "The Third Man",
+     "Third Man"
+    ],
+    [
+     "The Blue Lamp",
+     "Blue Lamp"
+    ],
+    [
+     "The Lavender Hill Mob",
+     "Lavender Hill Mob"
+    ],
+    [
+     "The Sound Barrier",
+     "Sound Barrier"
+    ],
+    "Genevieve",
+    "Hobson's Choice",
+    "Richard III",
+    "Reach for the Sky",
+    [
+     "The Bridge on the River Kwai",
+     "Bridge on the River Kwai"
+    ],
+    "Room at the Top",
+    "Sapphire",
+    "Saturday Night and Sunday Morning",
+    "A Taste of Honey",
+    "Lawrence of Arabia",
+    "Tom Jones",
+    [
+     "Dr. Strangelove",
+     "Dr Strangelove",
+     "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+    ],
+    [
+     "The Ipcress File",
+     "Ipcress File"
+    ],
+    [
+     "The Spy Who Came in from the Cold",
+     "Spy Who Came in from the Cold"
+    ],
+    "A Man for All Seasons",
+    [
+     "The Crying Game",
+     "Crying Game"
+    ],
+    "Shadowlands",
+    "Shallow Grave",
+    [
+     "The Madness of King George",
+     "Madness of King George",
+     "Madness of George III"
+    ],
+    "Secrets & Lies",
+    "Nil by Mouth",
+    "Elizabeth",
+    "East Is East",
+    "Billy Elliot",
+    "Gosford Park",
+    [
+     "The Warrior",
+     "Warrior"
+    ],
+    "Touching the Void",
+    "My Summer of Love",
+    [
+     "Wallace & Gromit: The Curse of the Were-Rabbit",
+     "Curse of the Were-Rabbit",
+     "Wallace and Gromit"
+    ],
+    [
+     "The Last King of Scotland",
+     "Last King of Scotland"
+    ],
+    "This Is England",
+    "Man on Wire",
+    "Fish Tank",
+    [
+     "The King's Speech",
+     "King's Speech"
+    ],
+    "Tinker Tailor Soldier Spy",
+    "Skyfall",
+    "Gravity",
+    [
+     "The Theory of Everything",
+     "Theory of Everything"
+    ],
+    "Brooklyn",
+    "I, Daniel Blake",
+    [
+     "Three Billboards Outside Ebbing, Missouri",
+     "Three Billboards"
+    ],
+    [
+     "The Favourite",
+     "Favourite"
+    ],
+    "1917",
+    "Promising Young Woman",
+    "Belfast",
+    [
+     "The Banshees of Inisherin",
+     "Banshees of Inisherin"
+    ],
+    [
+     "The Zone of Interest",
+     "Zone of Interest"
+    ],
+    "Conclave",
+    "Hamnet"
+   ]
+  },
+  {
+   "id": "xm4-john-williams-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a feature film scored by John Williams (1971 to 2023)",
+   "answers": [
+    "Fiddler on the Roof",
+    [
+     "The Cowboys",
+     "Cowboys"
+    ],
+    [
+     "The Poseidon Adventure",
+     "Poseidon Adventure"
+    ],
+    "Pete 'n' Tillie",
+    "Images",
+    [
+     "The Long Goodbye",
+     "Long Goodbye"
+    ],
+    "Tom Sawyer",
+    [
+     "The Man Who Loved Cat Dancing",
+     "Man Who Loved Cat Dancing"
+    ],
+    [
+     "The Paper Chase",
+     "Paper Chase"
+    ],
+    "Cinderella Liberty",
+    "Conrack",
+    [
+     "The Sugarland Express",
+     "Sugarland Express"
+    ],
+    "Earthquake",
+    [
+     "The Towering Inferno",
+     "Towering Inferno"
+    ],
+    [
+     "The Eiger Sanction",
+     "Eiger Sanction"
+    ],
+    "Jaws",
+    "Family Plot",
+    [
+     "The Missouri Breaks",
+     "Missouri Breaks"
+    ],
+    "Midway",
+    "Black Sunday",
+    [
+     "Star Wars",
+     "A New Hope",
+     "Star Wars Episode IV"
+    ],
+    [
+     "Close Encounters of the Third Kind",
+     "Close Encounters"
+    ],
+    [
+     "The Fury",
+     "Fury"
+    ],
+    [
+     "Jaws 2",
+     "Jaws II"
+    ],
+    [
+     "Superman",
+     "Superman: The Movie",
+     "Superman The Movie"
+    ],
+    "Dracula",
+    "1941",
+    [
+     "The Empire Strikes Back",
+     "Empire Strikes Back"
+    ],
+    [
+     "Raiders of the Lost Ark",
+     "Raiders",
+     "Indiana Jones and the Raiders of the Lost Ark"
+    ],
+    "Heartbeeps",
+    [
+     "E.T. the Extra-Terrestrial",
+     "ET",
+     "E.T.",
+     "ET the Extra-Terrestrial"
+    ],
+    "Yes, Giorgio",
+    "Monsignor",
+    "Return of the Jedi",
+    [
+     "Indiana Jones and the Temple of Doom",
+     "Temple of Doom"
+    ],
+    [
+     "The River",
+     "River"
+    ],
+    "SpaceCamp",
+    [
+     "The Witches of Eastwick",
+     "Witches of Eastwick"
+    ],
+    "Empire of the Sun",
+    [
+     "Superman IV: The Quest for Peace",
+     "Superman IV",
+     "Superman 4"
+    ],
+    [
+     "The Accidental Tourist",
+     "Accidental Tourist"
+    ],
+    [
+     "Indiana Jones and the Last Crusade",
+     "Last Crusade"
+    ],
+    "Born on the Fourth of July",
+    "Always",
+    "Stanley & Iris",
+    "Presumed Innocent",
+    "Home Alone",
+    "Hook",
+    "JFK",
+    "Far and Away",
+    [
+     "Home Alone 2: Lost in New York",
+     "Home Alone 2"
+    ],
+    "Jurassic Park",
+    "Schindler's List",
+    "Sabrina",
+    "Nixon",
+    "Sleepers",
+    "Rosewood",
+    [
+     "The Lost World: Jurassic Park",
+     "The Lost World",
+     "Jurassic Park 2",
+     "Lost World: Jurassic Park"
+    ],
+    "Seven Years in Tibet",
+    "Amistad",
+    "Saving Private Ryan",
+    "Stepmom",
+    [
+     "Star Wars: Episode I – The Phantom Menace",
+     "The Phantom Menace",
+     "Phantom Menace",
+     "Episode I"
+    ],
+    "Angela's Ashes",
+    [
+     "The Patriot",
+     "Patriot"
+    ],
+    [
+     "A.I. Artificial Intelligence",
+     "AI",
+     "A.I.",
+     "AI Artificial Intelligence"
+    ],
+    [
+     "Harry Potter and the Philosopher's Stone",
+     "Philosopher's Stone",
+     "Harry Potter and the Sorcerer's Stone",
+     "Sorcerer's Stone",
+     "Harry Potter 1"
+    ],
+    [
+     "Star Wars: Episode II – Attack of the Clones",
+     "Attack of the Clones",
+     "Episode II"
+    ],
+    "Minority Report",
+    [
+     "Harry Potter and the Chamber of Secrets",
+     "Chamber of Secrets",
+     "Harry Potter 2"
+    ],
+    "Catch Me If You Can",
+    [
+     "Harry Potter and the Prisoner of Azkaban",
+     "Prisoner of Azkaban",
+     "Harry Potter 3"
+    ],
+    [
+     "The Terminal",
+     "Terminal"
+    ],
+    [
+     "Star Wars: Episode III – Revenge of the Sith",
+     "Revenge of the Sith",
+     "Episode III"
+    ],
+    [
+     "War of the Worlds",
+     "The War of the Worlds"
+    ],
+    "Memoirs of a Geisha",
+    "Munich",
+    [
+     "Indiana Jones and the Kingdom of the Crystal Skull",
+     "Kingdom of the Crystal Skull",
+     "Crystal Skull"
+    ],
+    [
+     "The Adventures of Tintin",
+     "Adventures of Tintin"
+    ],
+    "War Horse",
+    "Lincoln",
+    [
+     "The Book Thief",
+     "Book Thief"
+    ],
+    [
+     "Star Wars: The Force Awakens",
+     "The Force Awakens",
+     "Force Awakens"
+    ],
+    [
+     "The BFG",
+     "BFG"
+    ],
+    [
+     "Star Wars: The Last Jedi",
+     "The Last Jedi",
+     "Last Jedi"
+    ],
+    [
+     "The Post",
+     "Post"
+    ],
+    [
+     "Solo: A Star Wars Story",
+     "Solo"
+    ],
+    [
+     "Star Wars: The Rise of Skywalker",
+     "The Rise of Skywalker",
+     "Rise of Skywalker"
+    ],
+    [
+     "The Fabelmans",
+     "Fabelmans"
+    ],
+    [
+     "Indiana Jones and the Dial of Destiny",
+     "Dial of Destiny"
+    ]
+   ]
+  },
+  {
+   "id": "xm4-hans-zimmer-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film scored (or co-scored) by Hans Zimmer (1988 to 2025)",
+   "answers": [
+    "Rain Man",
+    "Black Rain",
+    "Driving Miss Daisy",
+    "Days of Thunder",
+    "Green Card",
+    "Backdraft",
+    [
+     "Thelma & Louise",
+     "Thelma and Louise"
+    ],
+    "A League of Their Own",
+    "Cool Runnings",
+    "True Romance",
+    [
+     "The Lion King",
+     "Lion King"
+    ],
+    "Crimson Tide",
+    "Broken Arrow",
+    "Muppet Treasure Island",
+    [
+     "The Rock",
+     "Rock"
+    ],
+    [
+     "The Preacher's Wife",
+     "Preacher's Wife"
+    ],
+    "As Good as It Gets",
+    [
+     "The Peacemaker",
+     "Peacemaker"
+    ],
+    [
+     "The Prince of Egypt",
+     "Prince of Egypt"
+    ],
+    [
+     "The Thin Red Line",
+     "Thin Red Line"
+    ],
+    [
+     "Mission: Impossible 2",
+     "Mission Impossible 2",
+     "M:I-2",
+     "MI2"
+    ],
+    [
+     "The Road to El Dorado",
+     "Road to El Dorado"
+    ],
+    "Gladiator",
+    "Hannibal",
+    "Pearl Harbor",
+    "Black Hawk Down",
+    [
+     "Spirit: Stallion of the Cimarron",
+     "Spirit"
+    ],
+    [
+     "The Ring",
+     "Ring"
+    ],
+    [
+     "The Last Samurai",
+     "Last Samurai"
+    ],
+    "Something's Gotta Give",
+    "Matchstick Men",
+    "Spanglish",
+    "King Arthur",
+    "Thunderbirds",
+    "Shark Tale",
+    "Madagascar",
+    "Batman Begins",
+    [
+     "The Da Vinci Code",
+     "Da Vinci Code"
+    ],
+    [
+     "The Holiday",
+     "Holiday"
+    ],
+    [
+     "Pirates of the Caribbean: Dead Man's Chest",
+     "Dead Man's Chest"
+    ],
+    [
+     "Pirates of the Caribbean: At World's End",
+     "At World's End"
+    ],
+    [
+     "The Simpsons Movie",
+     "Simpsons Movie"
+    ],
+    "Kung Fu Panda",
+    [
+     "The Dark Knight",
+     "Dark Knight"
+    ],
+    [
+     "Madagascar: Escape 2 Africa",
+     "Escape 2 Africa"
+    ],
+    [
+     "Frost/Nixon",
+     "Frost Nixon"
+    ],
+    [
+     "Angels & Demons",
+     "Angels and Demons"
+    ],
+    "Sherlock Holmes",
+    "Inception",
+    "Megamind",
+    "Rango",
+    [
+     "Pirates of the Caribbean: On Stranger Tides",
+     "On Stranger Tides"
+    ],
+    "Kung Fu Panda 2",
+    [
+     "Sherlock Holmes: A Game of Shadows",
+     "A Game of Shadows"
+    ],
+    [
+     "Madagascar 3: Europe's Most Wanted",
+     "Madagascar 3",
+     "Europe's Most Wanted"
+    ],
+    [
+     "The Dark Knight Rises",
+     "Dark Knight Rises"
+    ],
+    "Rush",
+    "Man of Steel",
+    [
+     "The Lone Ranger",
+     "Lone Ranger"
+    ],
+    "12 Years a Slave",
+    [
+     "The Amazing Spider-Man 2",
+     "Amazing Spider-Man 2",
+     "Amazing Spiderman 2"
+    ],
+    "Interstellar",
+    "Chappie",
+    "Kung Fu Panda 3",
+    [
+     "Batman v Superman: Dawn of Justice",
+     "Batman v Superman",
+     "Batman vs Superman",
+     "Dawn of Justice"
+    ],
+    "Inferno",
+    "Hidden Figures",
+    [
+     "The Boss Baby",
+     "Boss Baby"
+    ],
+    [
+     "Pirates of the Caribbean: Dead Men Tell No Tales",
+     "Dead Men Tell No Tales",
+     "Salazar's Revenge"
+    ],
+    "Dunkirk",
+    [
+     "Blade Runner 2049",
+     "Blade Runner 2"
+    ],
+    "Widows",
+    "Dark Phoenix",
+    [
+     "Wonder Woman 1984",
+     "WW84"
+    ],
+    [
+     "The Boss Baby: Family Business",
+     "Family Business",
+     "Boss Baby: Family Business"
+    ],
+    "Dune",
+    "No Time to Die",
+    [
+     "Top Gun: Maverick",
+     "Maverick"
+    ],
+    [
+     "The Creator",
+     "Creator"
+    ],
+    [
+     "Dune: Part Two",
+     "Dune 2",
+     "Part Two"
+    ],
+    "Kung Fu Panda 4",
+    [
+     "Mufasa: The Lion King",
+     "Mufasa"
+    ],
+    [
+     "F1",
+     "F1: The Movie",
+     "F1 The Movie"
+    ],
+    "The Nature of the Beast",
+    "The Fruit Machine",
+    "A World Apart",
+    "Taffin",
+    "Paperhouse",
+    "Burning Secret",
+    [
+     "Twister",
+     "Twister 1989"
+    ],
+    "Diamond Skulls",
+    "Chicago Joe and the Showgirl",
+    "Bird on a Wire",
+    "Fools of Fortune",
+    "Pacific Heights",
+    "Regarding Henry",
+    "Where Sleeping Dogs Lie",
+    "K2",
+    "Radio Flyer",
+    "The Power of One",
+    "Toys",
+    "Point of No Return",
+    "Younger and Younger",
+    "Calendar Girl",
+    "The House of the Spirits",
+    "I'll Do Anything",
+    "Renaissance Man",
+    "Drop Zone",
+    "Beyond Rangoon",
+    "Nine Months",
+    "Something to Talk About",
+    "Two Deaths",
+    "The Whole Wide World",
+    "The Fan",
+    [
+     "Smilla's Sense of Snow",
+     "Smilla"
+    ],
+    "The Last Days",
+    "Chill Factor",
+    "An Everlasting Piece",
+    "Riding in Cars with Boys",
+    "Invincible",
+    "The Pledge",
+    "The Country Bears",
+    "Tears of the Sun",
+    "Laura's Star",
+    "The Weather Man",
+    [
+     "The Little Polar Bear 2: The Mysterious Island",
+     "The Little Polar Bear 2",
+     "Little Polar Bear 2"
+    ],
+    "Road to Fame",
+    "The Burning Plain",
+    "It's Complicated",
+    "How Do You Know",
+    "Henri 4",
+    "The Dilemma",
+    "Jealous of the Birds",
+    "Mr. Morgan's Last Love",
+    "Brave Miss World",
+    "Son of God",
+    "Winter's Tale",
+    "The Little Prince",
+    "Freeheld",
+    "Woman in Gold",
+    "The Last Face",
+    "Rebuilding Paradise",
+    [
+     "The SpongeBob Movie: Sponge on the Run",
+     "Sponge on the Run",
+     "SpongeBob Sponge on the Run"
+    ],
+    "Hillbilly Elegy",
+    "The Survivor",
+    "Army of Thieves",
+    "The Unforgivable",
+    [
+     "The Son",
+     "The Son 2022"
+    ],
+    [
+     "Are You There God? It's Me, Margaret.",
+     "Are You There God",
+     "Are You There God Its Me Margaret"
+    ],
+    [
+     "Eden",
+     "Eden 2024"
+    ],
+    "Blitz",
+    "Ella McCay"
+   ]
+  },
+  {
+   "id": "xm4-oscar-best-original-score-1999-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Oscar for Best Original Score (films from 1999 to 2025)",
+   "answers": [
+    [
+     "The Red Violin",
+     "Red Violin"
+    ],
+    [
+     "Crouching Tiger, Hidden Dragon",
+     "Crouching Tiger"
+    ],
+    [
+     "The Lord of the Rings: The Fellowship of the Ring",
+     "Fellowship of the Ring",
+     "Lord of the Rings Fellowship",
+     "Lord of the Rings: The Fellowship of the Ring"
+    ],
+    "Frida",
+    [
+     "The Lord of the Rings: The Return of the King",
+     "Return of the King",
+     "Lord of the Rings Return of the King",
+     "Lord of the Rings: The Return of the King"
+    ],
+    "Finding Neverland",
+    "Brokeback Mountain",
+    "Babel",
+    "Atonement",
+    "Slumdog Millionaire",
+    "Up",
+    [
+     "The Social Network",
+     "Social Network"
+    ],
+    [
+     "The Artist",
+     "Artist"
+    ],
+    "Life of Pi",
+    "Gravity",
+    [
+     "The Grand Budapest Hotel",
+     "Grand Budapest Hotel"
+    ],
+    [
+     "The Hateful Eight",
+     "Hateful Eight"
+    ],
+    "La La Land",
+    [
+     "The Shape of Water",
+     "Shape of Water"
+    ],
+    "Black Panther",
+    "Joker",
+    "Soul",
+    "Dune",
+    "All Quiet on the Western Front",
+    "Oppenheimer",
+    [
+     "The Brutalist",
+     "Brutalist"
+    ],
+    "Sinners"
+   ]
+  },
+  {
+   "id": "xm4-video-game-films-1993-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film based on a video game (English-language cinema releases, 1993 to 2025)",
+   "answers": [
+    [
+     "Super Mario Bros.",
+     "Super Mario Bros",
+     "Super Mario Brothers"
+    ],
+    "Double Dragon",
+    "Street Fighter",
+    [
+     "Mortal Kombat",
+     "Mortal Kombat 2021"
+    ],
+    [
+     "Mortal Kombat: Annihilation",
+     "Mortal Kombat Annihilation"
+    ],
+    "Wing Commander",
+    [
+     "Lara Croft: Tomb Raider",
+     "Lara Croft Tomb Raider"
+    ],
+    "Resident Evil",
+    [
+     "Lara Croft: Tomb Raider – The Cradle of Life",
+     "The Cradle of Life",
+     "Cradle of Life",
+     "Tomb Raider 2"
+    ],
+    "House of the Dead",
+    [
+     "Resident Evil: Apocalypse",
+     "Apocalypse"
+    ],
+    "Alone in the Dark",
+    "Doom",
+    "BloodRayne",
+    "Silent Hill",
+    [
+     "DOA: Dead or Alive",
+     "Dead or Alive",
+     "DOA"
+    ],
+    [
+     "Resident Evil: Extinction",
+     "Extinction"
+    ],
+    "Postal",
+    "Hitman",
+    [
+     "In the Name of the King: A Dungeon Siege Tale",
+     "In the Name of the King",
+     "Dungeon Siege"
+    ],
+    "Far Cry",
+    "Max Payne",
+    [
+     "Street Fighter: The Legend of Chun-Li",
+     "Legend of Chun-Li",
+     "Chun-Li"
+    ],
+    "Tekken",
+    [
+     "Prince of Persia: The Sands of Time",
+     "Prince of Persia",
+     "Sands of Time"
+    ],
+    [
+     "Resident Evil: Afterlife",
+     "Afterlife"
+    ],
+    [
+     "Resident Evil: Retribution",
+     "Retribution"
+    ],
+    [
+     "Silent Hill: Revelation",
+     "Silent Hill Revelation",
+     "Revelation"
+    ],
+    "Need for Speed",
+    [
+     "Hitman: Agent 47",
+     "Agent 47"
+    ],
+    "Warcraft",
+    [
+     "Assassin's Creed",
+     "Assassins Creed"
+    ],
+    [
+     "Resident Evil: The Final Chapter",
+     "The Final Chapter",
+     "Final Chapter"
+    ],
+    [
+     "Tomb Raider",
+     "Tomb Raider 2018"
+    ],
+    "Rampage",
+    [
+     "Pokémon Detective Pikachu",
+     "Detective Pikachu",
+     "Pokemon Detective Pikachu"
+    ],
+    [
+     "Sonic the Hedgehog",
+     "Sonic",
+     "Sonic 1"
+    ],
+    "Monster Hunter",
+    [
+     "Resident Evil: Welcome to Raccoon City",
+     "Welcome to Raccoon City",
+     "Raccoon City"
+    ],
+    "Uncharted",
+    [
+     "Sonic the Hedgehog 2",
+     "Sonic 2"
+    ],
+    "Borderlands",
+    [
+     "Sonic the Hedgehog 3",
+     "Sonic 3"
+    ],
+    [
+     "A Minecraft Movie",
+     "Minecraft",
+     "The Minecraft Movie",
+     "Minecraft Movie"
+    ],
+    "Until Dawn",
+    [
+     "Five Nights at Freddy's",
+     "FNAF",
+     "Five Nights at Freddys"
+    ],
+    [
+     "Five Nights at Freddy's 2",
+     "FNAF 2",
+     "Five Nights at Freddys 2"
+    ],
+    [
+     "Final Fantasy: The Spirits Within",
+     "The Spirits Within",
+     "Spirits Within",
+     "Final Fantasy"
+    ],
+    [
+     "Resident Evil: Degeneration",
+     "Degeneration"
+    ],
+    [
+     "Resident Evil: Damnation",
+     "Damnation"
+    ],
+    [
+     "Resident Evil: Vendetta",
+     "Vendetta"
+    ],
+    [
+     "Resident Evil: Death Island",
+     "Death Island"
+    ],
+    [
+     "Ratchet & Clank",
+     "Ratchet and Clank"
+    ],
+    [
+     "The Angry Birds Movie",
+     "Angry Birds Movie",
+     "Angry Birds"
+    ],
+    [
+     "The Angry Birds Movie 2",
+     "Angry Birds Movie 2",
+     "Angry Birds 2"
+    ],
+    [
+     "The Super Mario Bros. Movie",
+     "Super Mario Bros. Movie",
+     "Super Mario Bros Movie",
+     "Super Mario Movie",
+     "Mario Movie",
+     "The Super Mario Brothers Movie"
+    ]
+   ]
+  },
+  {
+   "id": "xm4-uk-number-one-1994",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that was number one at the UK weekend box office during 1994",
+   "answers": [
+    "Aladdin",
+    "Tombstone",
+    [
+     "Mrs. Doubtfire",
+     "Mrs Doubtfire"
+    ],
+    "Philadelphia",
+    "Schindler's List",
+    [
+     "Beethoven's 2nd",
+     "Beethoven 2",
+     "Beethoven's Second"
+    ],
+    [
+     "Ace Ventura: Pet Detective",
+     "Ace Ventura"
+    ],
+    "Four Weddings and a Funeral",
+    "Maverick",
+    [
+     "The Flintstones",
+     "Flintstones"
+    ],
+    "True Lies",
+    [
+     "The Mask",
+     "Mask"
+    ],
+    "Clear and Present Danger",
+    "Speed",
+    "Forrest Gump",
+    [
+     "The Lion King",
+     "Lion King"
+    ],
+    [
+     "Mary Shelley's Frankenstein",
+     "Frankenstein"
+    ],
+    [
+     "Highlander III: The Sorcerer",
+     "Highlander 3",
+     "Highlander III"
+    ],
+    "Miracle on 34th Street"
+   ]
+  },
+  {
+   "id": "xm4-uk-number-one-1999",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that was number one at the UK weekend box office during 1999",
+   "answers": [
+    [
+     "Star Trek: Insurrection",
+     "Star Trek"
+    ],
+    "Meet Joe Black",
+    "Practical Magic",
+    "Shakespeare in Love",
+    "A Bug's Life",
+    "Patch Adams",
+    "Waking Ned",
+    [
+     "The Rugrats Movie",
+     "Rugrats Movie"
+    ],
+    [
+     "The Faculty",
+     "Faculty"
+    ],
+    [
+     "8MM",
+     "Eight MM"
+    ],
+    [
+     "The Waterboy",
+     "Waterboy"
+    ],
+    "I Still Know What You Did Last Summer",
+    "Forces of Nature",
+    "She's All That",
+    "Notting Hill",
+    [
+     "The Matrix",
+     "Matrix"
+    ],
+    [
+     "The Mummy",
+     "Mummy"
+    ],
+    [
+     "Star Wars: Episode I – The Phantom Menace",
+     "The Phantom Menace",
+     "Phantom Menace",
+     "Episode I"
+    ],
+    [
+     "Austin Powers: The Spy Who Shagged Me",
+     "The Spy Who Shagged Me",
+     "Austin Powers 2"
+    ],
+    "Wild Wild West",
+    [
+     "South Park: Bigger, Longer & Uncut",
+     "South Park"
+    ],
+    "Eyes Wide Shut",
+    [
+     "The Haunting",
+     "Haunting"
+    ],
+    "Big Daddy",
+    "American Pie",
+    "Deep Blue Sea",
+    "Tarzan",
+    [
+     "The Blair Witch Project",
+     "Blair Witch Project"
+    ],
+    [
+     "The Sixth Sense",
+     "Sixth Sense"
+    ],
+    [
+     "The World Is Not Enough",
+     "World Is Not Enough"
+    ]
+   ]
+  },
+  {
+   "id": "xm4-uk-number-one-2004",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that was number one at the UK weekend box office during 2004",
+   "answers": [
+    [
+     "The Lord of the Rings: The Return of the King",
+     "The Lord of the Rings",
+     "Lord of the Rings: The Return of the King"
+    ],
+    "Scary Movie 3",
+    "School of Rock",
+    "Cheaper by the Dozen",
+    [
+     "The Haunted Mansion",
+     "Haunted Mansion"
+    ],
+    "Along Came Polly",
+    "Mona Lisa Smile",
+    "Starsky & Hutch",
+    [
+     "The Passion of the Christ",
+     "Passion of the Christ"
+    ],
+    [
+     "Scooby-Doo 2: Monsters Unleashed",
+     "Scooby-Doo 2",
+     "Scooby Doo 2"
+    ],
+    [
+     "Kill Bill: Volume 2",
+     "Kill Bill 2",
+     "Kill Bill Vol 2"
+    ],
+    "Van Helsing",
+    "Troy",
+    [
+     "The Day After Tomorrow",
+     "Day After Tomorrow"
+    ],
+    [
+     "Harry Potter and the Prisoner of Azkaban",
+     "Prisoner of Azkaban",
+     "Harry Potter 3"
+    ],
+    "Shrek 2",
+    "Spider-Man 2",
+    "King Arthur",
+    "I, Robot",
+    [
+     "The Bourne Supremacy",
+     "Bourne Supremacy"
+    ],
+    [
+     "The Village",
+     "Village"
+    ],
+    [
+     "Dodgeball: A True Underdog Story",
+     "Dodgeball"
+    ],
+    [
+     "The Terminal",
+     "Terminal"
+    ],
+    "Open Water",
+    "Collateral",
+    "Wimbledon",
+    "Bride and Prejudice",
+    "Shark Tale",
+    [
+     "The Grudge",
+     "Grudge"
+    ],
+    [
+     "Bridget Jones: The Edge of Reason",
+     "Edge of Reason",
+     "Bridget Jones 2"
+    ],
+    [
+     "The Incredibles",
+     "Incredibles"
+    ],
+    "Blade: Trinity",
+    "Lemony Snicket's A Series of Unfortunate Events",
+    [
+     "The Polar Express",
+     "Polar Express"
+    ]
+   ]
+  },
+  {
+   "id": "xm4-uk-number-one-2009",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that was number one at the UK weekend box office during 2009",
+   "answers": [
+    "Yes Man",
+    "Role Models",
+    "Slumdog Millionaire",
+    [
+     "The Curious Case of Benjamin Button",
+     "Curious Case of Benjamin Button"
+    ],
+    "Bolt",
+    "Watchmen",
+    [
+     "Marley & Me",
+     "Marley and Me"
+    ],
+    "Knowing",
+    "Monsters vs. Aliens",
+    [
+     "Fast & Furious",
+     "Fast and Furious",
+     "Fast & Furious 4"
+    ],
+    "State of Play",
+    [
+     "X-Men Origins: Wolverine",
+     "Wolverine",
+     "X-Men Origins"
+    ],
+    "Star Trek",
+    "Angels & Demons",
+    [
+     "Night at the Museum: Battle of the Smithsonian",
+     "Battle of the Smithsonian",
+     "Night at the Museum 2"
+    ],
+    "Terminator Salvation",
+    [
+     "The Hangover",
+     "Hangover"
+    ],
+    [
+     "Transformers: Revenge of the Fallen",
+     "Revenge of the Fallen",
+     "Transformers 2"
+    ],
+    [
+     "Ice Age: Dawn of the Dinosaurs",
+     "Dawn of the Dinosaurs",
+     "Ice Age 3"
+    ],
+    [
+     "Brüno",
+     "Bruno"
+    ],
+    [
+     "Harry Potter and the Half-Blood Prince",
+     "Half-Blood Prince",
+     "Harry Potter 6"
+    ],
+    [
+     "The Ugly Truth",
+     "Ugly Truth"
+    ],
+    [
+     "The Time Traveller's Wife",
+     "Time Traveller's Wife"
+    ],
+    "Inglourious Basterds",
+    [
+     "The Final Destination",
+     "Final Destination"
+    ],
+    "District 9",
+    "Cloudy with a Chance of Meatballs",
+    "Fame",
+    "Up",
+    [
+     "Michael Jackson's This Is It",
+     "This Is It"
+    ],
+    "A Christmas Carol",
+    "2012",
+    [
+     "The Twilight Saga: New Moon",
+     "New Moon",
+     "Twilight New Moon",
+     "Twilight Saga: New Moon"
+    ],
+    "Paranormal Activity",
+    "Avatar",
+    [
+     "Alvin and the Chipmunks: The Squeakquel",
+     "The Squeakquel",
+     "Squeakquel",
+     "Alvin and the Chipmunks 2"
+    ]
+   ]
+  },
+  {
+   "id": "xm4-uk-number-one-2014",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that was number one at the UK weekend box office during 2014",
+   "answers": [
+    "American Hustle",
+    "12 Years a Slave",
+    [
+     "The Wolf of Wall Street",
+     "Wolf of Wall Street"
+    ],
+    [
+     "Mr. Peabody & Sherman",
+     "Mr Peabody and Sherman",
+     "Mr. Peabody and Sherman",
+     "Mr Peabody & Sherman"
+    ],
+    [
+     "The Lego Movie",
+     "Lego Movie"
+    ],
+    [
+     "300: Rise of an Empire",
+     "300 Rise of an Empire",
+     "300"
+    ],
+    "Need for Speed",
+    [
+     "The Grand Budapest Hotel",
+     "Grand Budapest Hotel"
+    ],
+    [
+     "Captain America: The Winter Soldier",
+     "The Winter Soldier",
+     "Winter Soldier"
+    ],
+    "Rio 2",
+    [
+     "The Amazing Spider-Man 2",
+     "Amazing Spider-Man 2"
+    ],
+    [
+     "Bad Neighbours",
+     "Neighbors",
+     "Neighbours"
+    ],
+    "Godzilla",
+    [
+     "X-Men: Days of Future Past",
+     "Days of Future Past"
+    ],
+    "Maleficent",
+    "22 Jump Street",
+    [
+     "The Fault in Our Stars",
+     "Fault in Our Stars"
+    ],
+    [
+     "Mrs. Brown's Boys D'Movie",
+     "Mrs Brown's Boys D'Movie",
+     "Mrs Browns Boys",
+     "D'Movie"
+    ],
+    [
+     "Transformers: Age of Extinction",
+     "Transformers"
+    ],
+    "Dawn of the Planet of the Apes",
+    "Guardians of the Galaxy",
+    [
+     "The Inbetweeners 2",
+     "Inbetweeners 2"
+    ],
+    "Lucy",
+    "Sex Tape",
+    [
+     "The Boxtrolls",
+     "Boxtrolls"
+    ],
+    [
+     "Billy Elliot the Musical Live",
+     "Billy Elliot the Musical",
+     "Billy Elliot Live"
+    ],
+    "Gone Girl",
+    [
+     "Teenage Mutant Ninja Turtles",
+     "TMNT"
+    ],
+    "Fury",
+    "Interstellar",
+    [
+     "The Hunger Games: Mockingjay – Part 1",
+     "Mockingjay Part 1",
+     "Mockingjay",
+     "The Hunger Games Mockingjay",
+     "Hunger Games: Mockingjay – Part 1"
+    ],
+    "Paddington",
+    [
+     "The Hobbit: The Battle of the Five Armies",
+     "Battle of the Five Armies",
+     "The Hobbit 3",
+     "Hobbit: The Battle of the Five Armies"
+    ]
+   ]
+  },
+  {
+   "id": "xm4-uk-number-one-2019",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that was number one at the UK weekend box office during 2019",
+   "answers": [
+    "Mary Poppins Returns",
+    [
+     "Stan & Ollie",
+     "Stan and Ollie"
+    ],
+    "Glass",
+    [
+     "How to Train Your Dragon: The Hidden World",
+     "The Hidden World",
+     "How to Train Your Dragon 3"
+    ],
+    [
+     "The Lego Movie 2: The Second Part",
+     "Lego Movie 2",
+     "The Lego Movie 2",
+     "Lego Movie 2: The Second Part"
+    ],
+    "Fighting with My Family",
+    "Captain Marvel",
+    "Dumbo",
+    "Shazam!",
+    [
+     "Avengers: Endgame",
+     "Endgame"
+    ],
+    [
+     "Detective Pikachu",
+     "Pokemon Detective Pikachu",
+     "Pokémon Detective Pikachu"
+    ],
+    [
+     "John Wick: Chapter 3 – Parabellum",
+     "John Wick 3",
+     "John Wick Chapter 3",
+     "Parabellum"
+    ],
+    "Aladdin",
+    "Toy Story 4",
+    [
+     "Spider-Man: Far From Home",
+     "Far From Home"
+    ],
+    [
+     "The Lion King",
+     "Lion King"
+    ],
+    [
+     "Hobbs & Shaw",
+     "Hobbs and Shaw",
+     "Fast & Furious Presents: Hobbs & Shaw"
+    ],
+    "Once Upon a Time in Hollywood",
+    "Angel Has Fallen",
+    [
+     "It Chapter Two",
+     "It 2"
+    ],
+    "Downton Abbey",
+    "Joker",
+    "Last Christmas",
+    "Frozen 2",
+    [
+     "Jumanji: The Next Level",
+     "The Next Level",
+     "Jumanji 3"
+    ],
+    [
+     "Star Wars: The Rise of Skywalker",
+     "The Rise of Skywalker",
+     "Rise of Skywalker"
+    ]
+   ]
+  }
+ ]
+}

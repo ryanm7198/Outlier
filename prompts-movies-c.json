@@ -1,0 +1,1512 @@
+{
+ "cat": "film",
+ "prompts": [
+  {
+   "id": "xm3-oscar-8-plus-wins",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won 8 or more Academy Awards",
+   "answers": [
+    "Titanic",
+    "Ben-Hur",
+    [
+     "The Lord of the Rings: The Return of the King",
+     "Return of the King",
+     "Lord of the Rings Return of the King",
+     "LOTR Return of the King",
+     "Lord of the Rings 3",
+     "Lord of the Rings: The Return of the King"
+    ],
+    "Gone with the Wind",
+    "West Side Story",
+    "Gandhi",
+    "Amadeus",
+    "Cabaret",
+    "Slumdog Millionaire",
+    "My Fair Lady",
+    [
+     "The English Patient",
+     "English Patient"
+    ],
+    "Gigi",
+    [
+     "The Last Emperor",
+     "Last Emperor"
+    ],
+    "On the Waterfront",
+    "From Here to Eternity"
+   ]
+  },
+  {
+   "id": "xm3-oscar-best-song-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a song that won the Oscar for Best Original Song (films from 2000 to 2025)",
+   "answers": [
+    "Let It Go",
+    "Shallow",
+    "Skyfall",
+    "Lose Yourself",
+    "Into the West",
+    "Naatu Naatu",
+    [
+     "What Was I Made For?",
+     "What Was I Made For"
+    ],
+    "Jai Ho",
+    "No Time to Die",
+    "City of Stars",
+    "Remember Me",
+    "Falling Slowly",
+    "Golden",
+    [
+     "Writing's on the Wall",
+     "Writings on the Wall"
+    ],
+    "If I Didn't Have You",
+    "We Belong Together",
+    "Man or Muppet",
+    "Glory",
+    [
+     "(I'm Gonna) Love Me Again",
+     "Love Me Again",
+     "Im Gonna Love Me Again"
+    ],
+    "Fight for You",
+    "Things Have Changed",
+    [
+     "The Weary Kind",
+     "Weary Kind",
+     "Weary Kind"
+    ],
+    "I Need to Wake Up",
+    [
+     "It's Hard Out Here for a Pimp",
+     "Hard Out Here for a Pimp",
+     "Its Hard Out Here"
+    ],
+    [
+     "Al otro lado del rio",
+     "Other Side of the River",
+     "Al otro lado del río"
+    ],
+    "El Mal"
+   ]
+  },
+  {
+   "id": "xm3-razzie-worst-picture",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Razzie for Worst Picture (1980 to 2025 awards)",
+   "answers": [
+    "Cats",
+    "Catwoman",
+    "Gigli",
+    "Showgirls",
+    "Battlefield Earth",
+    "Freddy Got Fingered",
+    "Wild Wild West",
+    "Hudson Hawk",
+    "Howard the Duck",
+    "Cocktail",
+    [
+     "The Emoji Movie",
+     "Emoji Movie",
+     "Emoji Movie"
+    ],
+    "Jack and Jill",
+    [
+     "Holmes & Watson",
+     "Holmes and Watson"
+    ],
+    "Madame Web",
+    [
+     "Fifty Shades of Grey",
+     "50 Shades of Grey"
+    ],
+    [
+     "The Last Airbender",
+     "Last Airbender",
+     "Last Airbender"
+    ],
+    [
+     "Transformers: Revenge of the Fallen",
+     "Revenge of the Fallen",
+     "Transformers 2"
+    ],
+    [
+     "The Love Guru",
+     "Love Guru",
+     "Love Guru"
+    ],
+    [
+     "Fantastic Four",
+     "Fant4stic",
+     "Fantastic 4"
+    ],
+    [
+     "Movie 43",
+     "Movie Forty Three"
+    ],
+    "Swept Away",
+    "Striptease",
+    [
+     "The Postman",
+     "Postman",
+     "Postman"
+    ],
+    "Bolero",
+    "Mommie Dearest",
+    "Inchon",
+    [
+     "Can't Stop the Music",
+     "Cant Stop the Music"
+    ],
+    [
+     "Rambo: First Blood Part II",
+     "Rambo First Blood Part 2",
+     "Rambo 2",
+     "First Blood Part II"
+    ],
+    [
+     "Star Trek V: The Final Frontier",
+     "Star Trek V",
+     "Star Trek 5",
+     "The Final Frontier"
+    ],
+    "Basic Instinct 2",
+    "Indecent Proposal",
+    [
+     "Color of Night",
+     "Colour of Night"
+    ],
+    [
+     "The Twilight Saga: Breaking Dawn - Part 2",
+     "Breaking Dawn Part 2",
+     "Twilight Breaking Dawn Part 2",
+     "Breaking Dawn 2",
+     "Twilight Saga: Breaking Dawn - Part 2"
+    ],
+    "Blonde",
+    "War of the Worlds",
+    [
+     "Winnie-the-Pooh: Blood and Honey",
+     "Blood and Honey",
+     "Winnie the Pooh Blood and Honey"
+    ],
+    [
+     "Diana the Musical",
+     "Diana: The Musical"
+    ],
+    [
+     "The Lonely Lady",
+     "Lonely Lady",
+     "Lonely Lady"
+    ],
+    "Under the Cherry Moon",
+    [
+     "Leonard Part 6",
+     "Leonard Part Six"
+    ],
+    "Dirty Love",
+    "I Know Who Killed Me",
+    "Saving Christmas",
+    [
+     "Hillary's America: The Secret History of the Democratic Party",
+     "Hillarys America"
+    ],
+    "Absolute Proof",
+    [
+     "An Alan Smithee Film: Burn Hollywood Burn",
+     "Burn Hollywood Burn",
+     "Alan Smithee Film"
+    ],
+    "Shining Through",
+    [
+     "Ghosts Can't Do It",
+     "Ghosts Cant Do It"
+    ],
+    [
+     "The Adventures of Ford Fairlane",
+     "Ford Fairlane",
+     "Adventures of Ford Fairlane"
+    ]
+   ]
+  },
+  {
+   "id": "xm3-grossed-over-1-4-billion",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film released up to 2025 that has grossed over $1.4 billion worldwide (figures as of late 2026)",
+   "answers": [
+    [
+     "Avengers: Endgame",
+     "Endgame",
+     "Avengers Endgame"
+    ],
+    "Avatar",
+    "Titanic",
+    [
+     "Avatar: The Way of Water",
+     "The Way of Water",
+     "Way of Water",
+     "Avatar 2"
+    ],
+    [
+     "Star Wars: The Force Awakens",
+     "The Force Awakens",
+     "Force Awakens",
+     "Star Wars Episode VII",
+     "Star Wars 7"
+    ],
+    [
+     "Avengers: Infinity War",
+     "Infinity War",
+     "Avengers Infinity War"
+    ],
+    [
+     "Spider-Man: No Way Home",
+     "No Way Home",
+     "Spiderman No Way Home"
+    ],
+    "Jurassic World",
+    [
+     "The Lion King",
+     "Lion King",
+     "Lion King 2019",
+     "Lion King"
+    ],
+    [
+     "The Avengers",
+     "Avengers",
+     "Avengers Assemble",
+     "Marvel's The Avengers",
+     "Avengers"
+    ],
+    [
+     "Ne Zha 2",
+     "Ne Zha",
+     "Nezha 2"
+    ],
+    "Inside Out 2",
+    [
+     "Zootopia 2",
+     "Zootropolis 2"
+    ],
+    [
+     "Furious 7",
+     "Fast & Furious 7",
+     "Fast and Furious 7",
+     "Fast 7"
+    ],
+    [
+     "Top Gun: Maverick",
+     "Maverick",
+     "Top Gun Maverick"
+    ],
+    [
+     "Frozen 2",
+     "Frozen II",
+     "Frozen Two"
+    ],
+    "Barbie",
+    [
+     "Avengers: Age of Ultron",
+     "Age of Ultron",
+     "Avengers Age of Ultron"
+    ],
+    [
+     "Avatar: Fire and Ash",
+     "Fire and Ash",
+     "Avatar 3"
+    ]
+   ]
+  },
+  {
+   "id": "xm3-bp-nominee-won-all-but-picture",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that was nominated for Best Picture and won every other Oscar it was nominated for",
+   "answers": [
+    "Jaws",
+    "Traffic",
+    "Bohemian Rhapsody",
+    [
+     "The Adventures of Robin Hood",
+     "Robin Hood",
+     "Adventures of Robin Hood"
+    ],
+    "Miracle on 34th Street",
+    [
+     "The Treasure of the Sierra Madre",
+     "Treasure of the Sierra Madre",
+     "Treasure of the Sierra Madre"
+    ],
+    "Selma",
+    [
+     "The Blind Side",
+     "Blind Side",
+     "Blind Side"
+    ],
+    "Women Talking",
+    "King Solomon's Mines",
+    "Three Coins in the Fountain",
+    [
+     "A Letter to Three Wives",
+     "Letter to Three Wives"
+    ],
+    [
+     "The Story of Louis Pasteur",
+     "Story of Louis Pasteur",
+     "Louis Pasteur",
+     "Story of Louis Pasteur"
+    ],
+    "Bad Girl",
+    [
+     "The Private Life of Henry VIII",
+     "Private Life of Henry VIII",
+     "Henry VIII",
+     "Private Life of Henry VIII"
+    ],
+    "Naughty Marietta"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm3-stephen-king-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film based on a Stephen King story or novel (up to 2025)",
+   "answers": [
+    [
+     "The Shining",
+     "Shining",
+     "Shining"
+    ],
+    "Carrie",
+    [
+     "It",
+     "It Chapter One",
+     "It 2017"
+    ],
+    [
+     "It Chapter Two",
+     "It 2"
+    ],
+    "Misery",
+    [
+     "The Shawshank Redemption",
+     "Shawshank Redemption",
+     "Shawshank",
+     "Shawshank Redemption"
+    ],
+    [
+     "The Green Mile",
+     "Green Mile",
+     "Green Mile"
+    ],
+    "Stand by Me",
+    [
+     "Pet Sematary",
+     "Pet Cemetery"
+    ],
+    "Cujo",
+    "Christine",
+    [
+     "The Mist",
+     "Mist",
+     "Mist"
+    ],
+    "Doctor Sleep",
+    "Firestarter",
+    [
+     "The Dead Zone",
+     "Dead Zone",
+     "Dead Zone"
+    ],
+    "Children of the Corn",
+    [
+     "Salem's Lot",
+     "Salems Lot"
+    ],
+    [
+     "Gerald's Game",
+     "Geralds Game"
+    ],
+    "Secret Window",
+    "1408",
+    [
+     "The Running Man",
+     "Running Man",
+     "Running Man"
+    ],
+    "Creepshow",
+    "Silver Bullet",
+    "Dreamcatcher",
+    "Dolores Claiborne",
+    "Needful Things",
+    "Thinner",
+    "Apt Pupil",
+    [
+     "The Dark Tower",
+     "Dark Tower",
+     "Dark Tower"
+    ],
+    "Cell",
+    "Hearts in Atlantis",
+    [
+     "Cat's Eye",
+     "Cats Eye"
+    ],
+    "Maximum Overdrive",
+    "Creepshow 2",
+    [
+     "The Dark Half",
+     "Dark Half",
+     "Dark Half"
+    ],
+    "Graveyard Shift",
+    [
+     "The Mangler",
+     "Mangler",
+     "Mangler"
+    ],
+    [
+     "The Long Walk",
+     "Long Walk",
+     "Long Walk"
+    ],
+    [
+     "The Monkey",
+     "Monkey",
+     "Monkey"
+    ],
+    [
+     "The Life of Chuck",
+     "Life of Chuck",
+     "Life of Chuck"
+    ],
+    [
+     "The Boogeyman",
+     "Boogeyman",
+     "Boogeyman"
+    ],
+    "In the Tall Grass",
+    "1922",
+    [
+     "Mr Harrigan's Phone",
+     "Mr. Harrigan's Phone",
+     "Harrigan's Phone"
+    ],
+    [
+     "Tales from the Darkside: The Movie",
+     "Tales from the Darkside"
+    ],
+    [
+     "The Night Flier",
+     "Night Flier",
+     "Night Flier"
+    ],
+    "Riding the Bullet",
+    [
+     "Dolan's Cadillac",
+     "Dolans Cadillac"
+    ],
+    [
+     "A Good Marriage",
+     "Good Marriage"
+    ],
+    "Mercy",
+    "Sometimes They Come Back"
+   ]
+  },
+  {
+   "id": "xm3-roald-dahl-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film based on a Roald Dahl book or story, or on his characters (up to 2025)",
+   "answers": [
+    "Charlie and the Chocolate Factory",
+    [
+     "Willy Wonka & the Chocolate Factory",
+     "Willy Wonka and the Chocolate Factory",
+     "Willy Wonka",
+     "Willy Wonka 1971"
+    ],
+    [
+     "Matilda",
+     "Matilda 1996"
+    ],
+    [
+     "The Witches",
+     "Witches",
+     "Witches"
+    ],
+    "James and the Giant Peach",
+    [
+     "Fantastic Mr Fox",
+     "Fantastic Mr. Fox"
+    ],
+    [
+     "The BFG",
+     "BFG",
+     "Big Friendly Giant",
+     "BFG"
+    ],
+    [
+     "Matilda the Musical",
+     "Roald Dahl's Matilda the Musical"
+    ],
+    "Wonka",
+    [
+     "Danny the Champion of the World",
+     "Danny, the Champion of the World"
+    ],
+    "Esio Trot",
+    [
+     "The Wonderful Story of Henry Sugar",
+     "Henry Sugar",
+     "Wonderful Story of Henry Sugar"
+    ],
+    [
+     "The Twits",
+     "Twits"
+    ],
+    [
+     "The Swan",
+     "Swan"
+    ],
+    [
+     "The Rat Catcher",
+     "Rat Catcher",
+     "Rat Catcher"
+    ],
+    "Poison",
+    [
+     "Revolting Rhymes",
+     "Roald Dahl's Revolting Rhymes"
+    ],
+    [
+     "36 Hours",
+     "Thirty-Six Hours",
+     "36 Hours 1964"
+    ],
+    [
+     "Breaking Point",
+     "Breaking Point 1989"
+    ]
+   ]
+  },
+  {
+   "id": "xm3-oscar-visual-effects-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Oscar for Best Visual Effects (films from 2000 to 2025)",
+   "answers": [
+    "Avatar",
+    "Inception",
+    "Gravity",
+    "Interstellar",
+    "Dune",
+    [
+     "Dune: Part Two",
+     "Dune Part Two",
+     "Dune 2"
+    ],
+    [
+     "Avatar: The Way of Water",
+     "The Way of Water"
+    ],
+    [
+     "Avatar: Fire and Ash",
+     "Fire and Ash"
+    ],
+    "Life of Pi",
+    "Hugo",
+    "Gladiator",
+    [
+     "Spider-Man 2",
+     "Spiderman 2"
+    ],
+    "King Kong",
+    [
+     "Pirates of the Caribbean: Dead Man's Chest",
+     "Dead Man's Chest",
+     "Pirates of the Caribbean 2"
+    ],
+    [
+     "The Lord of the Rings: The Fellowship of the Ring",
+     "Fellowship of the Ring",
+     "Lord of the Rings Fellowship",
+     "Lord of the Rings: The Fellowship of the Ring"
+    ],
+    [
+     "The Lord of the Rings: The Two Towers",
+     "Two Towers",
+     "Lord of the Rings Two Towers",
+     "Lord of the Rings: The Two Towers"
+    ],
+    [
+     "The Lord of the Rings: The Return of the King",
+     "Return of the King",
+     "Lord of the Rings Return of the King",
+     "Lord of the Rings: The Return of the King"
+    ],
+    [
+     "The Golden Compass",
+     "Golden Compass",
+     "Golden Compass"
+    ],
+    [
+     "The Curious Case of Benjamin Button",
+     "Benjamin Button",
+     "Curious Case of Benjamin Button",
+     "Curious Case of Benjamin Button"
+    ],
+    "Ex Machina",
+    [
+     "The Jungle Book",
+     "Jungle Book",
+     "Jungle Book"
+    ],
+    "Blade Runner 2049",
+    "First Man",
+    "1917",
+    "Tenet",
+    "Godzilla Minus One"
+   ]
+  },
+  {
+   "id": "xm3-oscar-intl-feature-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Oscar for Best International Feature (formerly Foreign Language Film), for films from 2000 to 2025",
+   "answers": [
+    "Parasite",
+    "Roma",
+    "All Quiet on the Western Front",
+    [
+     "Crouching Tiger, Hidden Dragon",
+     "Crouching Tiger Hidden Dragon"
+    ],
+    [
+     "The Zone of Interest",
+     "Zone of Interest",
+     "Zone of Interest"
+    ],
+    "Another Round",
+    "Drive My Car",
+    [
+     "The Lives of Others",
+     "Lives of Others",
+     "Lives of Others"
+    ],
+    "Amour",
+    [
+     "The Great Beauty",
+     "Great Beauty",
+     "Great Beauty"
+    ],
+    "Ida",
+    "Son of Saul",
+    [
+     "A Separation",
+     "Separation"
+    ],
+    [
+     "The Salesman",
+     "Salesman",
+     "Salesman"
+    ],
+    [
+     "A Fantastic Woman",
+     "Fantastic Woman"
+    ],
+    [
+     "I'm Still Here",
+     "Im Still Here"
+    ],
+    "Sentimental Value",
+    "Departures",
+    [
+     "The Counterfeiters",
+     "Counterfeiters",
+     "Counterfeiters"
+    ],
+    "Tsotsi",
+    [
+     "The Sea Inside",
+     "Sea Inside",
+     "Sea Inside"
+    ],
+    [
+     "The Barbarian Invasions",
+     "Barbarian Invasions",
+     "Barbarian Invasions"
+    ],
+    "Nowhere in Africa",
+    [
+     "No Man's Land",
+     "No Mans Land"
+    ],
+    [
+     "The Secret in Their Eyes",
+     "Secret in Their Eyes",
+     "Secret in Their Eyes"
+    ],
+    "In a Better World"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm3-oscar-documentary-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Oscar for Best Documentary Feature (films from 2000 to 2025)",
+   "answers": [
+    "An Inconvenient Truth",
+    "Bowling for Columbine",
+    "March of the Penguins",
+    "Man on Wire",
+    "Free Solo",
+    "Amy",
+    "Citizenfour",
+    "Navalny",
+    "No Other Land",
+    "Icarus",
+    "American Factory",
+    "My Octopus Teacher",
+    [
+     "Summer of Soul",
+     "Summer of Soul (...Or, When the Revolution Could Not Be Televised)"
+    ],
+    [
+     "20 Days in Mariupol",
+     "Twenty Days in Mariupol"
+    ],
+    [
+     "Mr. Nobody Against Putin",
+     "Mr Nobody Against Putin"
+    ],
+    [
+     "The Cove",
+     "Cove"
+    ],
+    "Inside Job",
+    "Undefeated",
+    "Searching for Sugar Man",
+    [
+     "20 Feet from Stardom",
+     "Twenty Feet from Stardom"
+    ],
+    [
+     "O.J.: Made in America",
+     "OJ Made in America",
+     "OJ: Made in America"
+    ],
+    [
+     "The Fog of War",
+     "Fog of War",
+     "Fog of War"
+    ],
+    "Born into Brothels",
+    "Taxi to the Dark Side",
+    "Murder on a Sunday Morning",
+    [
+     "Into the Arms of Strangers",
+     "Into the Arms of Strangers: Stories of the Kindertransport"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm3-oscar-hosts-1990-2026",
+   "tags": [
+    "films"
+   ],
+   "text": "Name someone who has hosted or co-hosted the Oscars ceremony (1990 to 2026)",
+   "answers": [
+    [
+     "Billy Crystal",
+     "Crystal"
+    ],
+    [
+     "Jimmy Kimmel",
+     "Kimmel"
+    ],
+    [
+     "Whoopi Goldberg",
+     "Whoopi"
+    ],
+    "Steve Martin",
+    [
+     "Ellen DeGeneres",
+     "Ellen",
+     "Ellen Degeneres"
+    ],
+    "Chris Rock",
+    [
+     "Conan O'Brien",
+     "Conan",
+     "Conan OBrien"
+    ],
+    "Jon Stewart",
+    "Hugh Jackman",
+    [
+     "Seth MacFarlane",
+     "Seth Macfarlane"
+    ],
+    "Neil Patrick Harris",
+    [
+     "David Letterman",
+     "Letterman"
+    ],
+    "Alec Baldwin",
+    "Anne Hathaway",
+    "James Franco",
+    "Regina Hall",
+    "Amy Schumer",
+    "Wanda Sykes"
+   ]
+  },
+  {
+   "id": "xm3-oscar-original-screenplay-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Oscar for Best Original Screenplay (films from 2000 to 2025)",
+   "answers": [
+    "Parasite",
+    "Get Out",
+    [
+     "Everything Everywhere All at Once",
+     "Everything Everywhere"
+    ],
+    "Anora",
+    "Sinners",
+    "Django Unchained",
+    [
+     "Birdman",
+     "Birdman or (The Unexpected Virtue of Ignorance)"
+    ],
+    "Her",
+    "Spotlight",
+    "Manchester by the Sea",
+    "Green Book",
+    "Promising Young Woman",
+    "Belfast",
+    "Anatomy of a Fall",
+    "Almost Famous",
+    "Gosford Park",
+    "Talk to Her",
+    "Lost in Translation",
+    [
+     "Eternal Sunshine of the Spotless Mind",
+     "Eternal Sunshine"
+    ],
+    "Crash",
+    "Little Miss Sunshine",
+    "Juno",
+    "Milk",
+    [
+     "The Hurt Locker",
+     "Hurt Locker",
+     "Hurt Locker"
+    ],
+    [
+     "The King's Speech",
+     "King's Speech",
+     "Kings Speech",
+     "King's Speech"
+    ],
+    "Midnight in Paris"
+   ]
+  },
+  {
+   "id": "xm3-oscar-adapted-screenplay-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Oscar for Best Adapted Screenplay (films from 2000 to 2025)",
+   "answers": [
+    "Traffic",
+    [
+     "A Beautiful Mind",
+     "Beautiful Mind"
+    ],
+    [
+     "The Pianist",
+     "Pianist",
+     "Pianist"
+    ],
+    [
+     "The Lord of the Rings: The Return of the King",
+     "Return of the King",
+     "Lord of the Rings Return of the King",
+     "Lord of the Rings: The Return of the King"
+    ],
+    "Sideways",
+    "Brokeback Mountain",
+    [
+     "The Departed",
+     "Departed",
+     "Departed"
+    ],
+    "No Country for Old Men",
+    "Slumdog Millionaire",
+    "Precious",
+    [
+     "The Social Network",
+     "Social Network",
+     "Social Network"
+    ],
+    [
+     "The Descendants",
+     "Descendants",
+     "Descendants"
+    ],
+    "Argo",
+    [
+     "12 Years a Slave",
+     "Twelve Years a Slave"
+    ],
+    [
+     "The Imitation Game",
+     "Imitation Game",
+     "Imitation Game"
+    ],
+    [
+     "The Big Short",
+     "Big Short",
+     "Big Short"
+    ],
+    "Moonlight",
+    "Call Me by Your Name",
+    [
+     "BlacKkKlansman",
+     "Blackkklansman",
+     "Black Klansman"
+    ],
+    "Jojo Rabbit",
+    [
+     "The Father",
+     "Father",
+     "Father"
+    ],
+    "CODA",
+    "Women Talking",
+    "American Fiction",
+    "Conclave",
+    "One Battle After Another"
+   ]
+  },
+  {
+   "id": "xm3-golden-globe-drama-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Golden Globe for Best Motion Picture - Drama (films from 2000 to 2025)",
+   "answers": [
+    "Gladiator",
+    [
+     "A Beautiful Mind",
+     "Beautiful Mind"
+    ],
+    [
+     "The Hours",
+     "Hours",
+     "Hours"
+    ],
+    [
+     "The Lord of the Rings: The Return of the King",
+     "Return of the King",
+     "Lord of the Rings Return of the King",
+     "Lord of the Rings: The Return of the King"
+    ],
+    [
+     "The Aviator",
+     "Aviator",
+     "Aviator"
+    ],
+    "Brokeback Mountain",
+    "Babel",
+    "Atonement",
+    "Slumdog Millionaire",
+    "Avatar",
+    [
+     "The Social Network",
+     "Social Network",
+     "Social Network"
+    ],
+    [
+     "The Descendants",
+     "Descendants",
+     "Descendants"
+    ],
+    "Argo",
+    [
+     "12 Years a Slave",
+     "Twelve Years a Slave"
+    ],
+    "Boyhood",
+    [
+     "The Revenant",
+     "Revenant",
+     "Revenant"
+    ],
+    "Moonlight",
+    [
+     "Three Billboards Outside Ebbing, Missouri",
+     "Three Billboards"
+    ],
+    "Bohemian Rhapsody",
+    "1917",
+    "Nomadland",
+    [
+     "The Power of the Dog",
+     "Power of the Dog",
+     "Power of the Dog"
+    ],
+    [
+     "The Fabelmans",
+     "Fabelmans",
+     "Fabelmans"
+    ],
+    "Oppenheimer",
+    [
+     "The Brutalist",
+     "Brutalist",
+     "Brutalist"
+    ],
+    "Hamnet"
+   ]
+  },
+  {
+   "id": "xm3-bafta-british-film-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the BAFTA for Outstanding British Film (films from 2000 to 2025)",
+   "answers": [
+    [
+     "The King's Speech",
+     "King's Speech",
+     "Kings Speech",
+     "King's Speech"
+    ],
+    "Skyfall",
+    "1917",
+    "Billy Elliot",
+    "Gosford Park",
+    "Brooklyn",
+    [
+     "The Theory of Everything",
+     "Theory of Everything",
+     "Theory of Everything"
+    ],
+    "Gravity",
+    [
+     "I, Daniel Blake",
+     "I Daniel Blake"
+    ],
+    [
+     "Three Billboards Outside Ebbing, Missouri",
+     "Three Billboards"
+    ],
+    [
+     "The Favourite",
+     "Favourite",
+     "Favourite"
+    ],
+    "Promising Young Woman",
+    "Belfast",
+    [
+     "The Banshees of Inisherin",
+     "Banshees of Inisherin",
+     "Banshees of Inisherin"
+    ],
+    [
+     "The Zone of Interest",
+     "Zone of Interest",
+     "Zone of Interest"
+    ],
+    "Conclave",
+    "Hamnet",
+    "Tinker Tailor Soldier Spy",
+    [
+     "The Last King of Scotland",
+     "Last King of Scotland",
+     "Last King of Scotland"
+    ],
+    "This Is England",
+    "Man on Wire",
+    "Fish Tank",
+    [
+     "Wallace & Gromit: The Curse of the Were-Rabbit",
+     "Curse of the Were-Rabbit",
+     "Wallace and Gromit The Curse of the Were-Rabbit"
+    ],
+    "My Summer of Love",
+    "Touching the Void",
+    [
+     "The Warrior",
+     "Warrior",
+     "Warrior"
+    ]
+   ]
+  },
+  {
+   "id": "xm3-oscar-cinematography-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Oscar for Best Cinematography (films from 2000 to 2025)",
+   "answers": [
+    "Avatar",
+    "Inception",
+    "Gravity",
+    [
+     "The Revenant",
+     "Revenant",
+     "Revenant"
+    ],
+    "Birdman",
+    "La La Land",
+    "Blade Runner 2049",
+    "Roma",
+    "1917",
+    "Mank",
+    "Dune",
+    "All Quiet on the Western Front",
+    "Oppenheimer",
+    [
+     "The Brutalist",
+     "Brutalist",
+     "Brutalist"
+    ],
+    "Sinners",
+    [
+     "Crouching Tiger, Hidden Dragon",
+     "Crouching Tiger Hidden Dragon"
+    ],
+    [
+     "The Lord of the Rings: The Fellowship of the Ring",
+     "Fellowship of the Ring",
+     "Lord of the Rings Fellowship",
+     "Lord of the Rings: The Fellowship of the Ring"
+    ],
+    "Road to Perdition",
+    [
+     "Master and Commander: The Far Side of the World",
+     "Master and Commander"
+    ],
+    [
+     "The Aviator",
+     "Aviator",
+     "Aviator"
+    ],
+    "Memoirs of a Geisha",
+    [
+     "Pan's Labyrinth",
+     "Pans Labyrinth"
+    ],
+    "There Will Be Blood",
+    "Slumdog Millionaire",
+    "Hugo",
+    "Life of Pi"
+   ]
+  },
+  {
+   "id": "xm3-oscar-original-score-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Oscar for Best Original Score (films from 2000 to 2025)",
+   "answers": [
+    "Oppenheimer",
+    "Joker",
+    "La La Land",
+    "Black Panther",
+    "Up",
+    [
+     "The Social Network",
+     "Social Network",
+     "Social Network"
+    ],
+    "Slumdog Millionaire",
+    "Dune",
+    "Soul",
+    "Gravity",
+    [
+     "The Grand Budapest Hotel",
+     "Grand Budapest Hotel",
+     "Grand Budapest Hotel"
+    ],
+    [
+     "The Shape of Water",
+     "Shape of Water",
+     "Shape of Water"
+    ],
+    "Sinners",
+    [
+     "The Brutalist",
+     "Brutalist",
+     "Brutalist"
+    ],
+    "All Quiet on the Western Front",
+    "Brokeback Mountain",
+    "Babel",
+    "Atonement",
+    [
+     "The Artist",
+     "Artist",
+     "Artist"
+    ],
+    "Life of Pi",
+    [
+     "The Hateful Eight",
+     "Hateful Eight",
+     "Hateful Eight"
+    ],
+    [
+     "Crouching Tiger, Hidden Dragon",
+     "Crouching Tiger Hidden Dragon"
+    ],
+    [
+     "The Lord of the Rings: The Fellowship of the Ring",
+     "Fellowship of the Ring",
+     "Lord of the Rings Fellowship",
+     "Lord of the Rings: The Fellowship of the Ring"
+    ],
+    [
+     "The Lord of the Rings: The Return of the King",
+     "Return of the King",
+     "Lord of the Rings Return of the King",
+     "Lord of the Rings: The Return of the King"
+    ],
+    "Frida",
+    "Finding Neverland"
+   ]
+  },
+  {
+   "id": "xm3-oscar-editing-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Oscar for Best Film Editing (films from 2000 to 2025)",
+   "answers": [
+    "Oppenheimer",
+    [
+     "Everything Everywhere All at Once",
+     "Everything Everywhere"
+    ],
+    "Dune",
+    "Bohemian Rhapsody",
+    [
+     "Mad Max: Fury Road",
+     "Fury Road"
+    ],
+    "Whiplash",
+    "Gravity",
+    "Argo",
+    [
+     "The Social Network",
+     "Social Network",
+     "Social Network"
+    ],
+    [
+     "The Hurt Locker",
+     "Hurt Locker",
+     "Hurt Locker"
+    ],
+    "Slumdog Millionaire",
+    [
+     "The Departed",
+     "Departed",
+     "Departed"
+    ],
+    [
+     "The Aviator",
+     "Aviator",
+     "Aviator"
+    ],
+    "Chicago",
+    "Traffic",
+    "Black Hawk Down",
+    "Crash",
+    [
+     "The Bourne Ultimatum",
+     "Bourne Ultimatum",
+     "Bourne Ultimatum"
+    ],
+    [
+     "The Girl with the Dragon Tattoo",
+     "Girl with the Dragon Tattoo",
+     "Girl with the Dragon Tattoo"
+    ],
+    "Hacksaw Ridge",
+    "Dunkirk",
+    [
+     "Ford v Ferrari",
+     "Le Mans 66"
+    ],
+    "Sound of Metal",
+    "Anora",
+    "One Battle After Another",
+    [
+     "The Lord of the Rings: The Return of the King",
+     "Return of the King",
+     "Lord of the Rings Return of the King",
+     "Lord of the Rings: The Return of the King"
+    ]
+   ]
+  },
+  {
+   "id": "xm3-venice-golden-lion-2000-2025",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Golden Lion at the Venice Film Festival (2000 to 2025)",
+   "answers": [
+    "Joker",
+    "Poor Things",
+    "Nomadland",
+    [
+     "The Shape of Water",
+     "Shape of Water",
+     "Shape of Water"
+    ],
+    "Roma",
+    "Brokeback Mountain",
+    [
+     "The Wrestler",
+     "Wrestler",
+     "Wrestler"
+    ],
+    "Vera Drake",
+    "Somewhere",
+    "Monsoon Wedding",
+    [
+     "The Magdalene Sisters",
+     "Magdalene Sisters",
+     "Magdalene Sisters"
+    ],
+    [
+     "The Return",
+     "Return",
+     "Return"
+    ],
+    [
+     "The Room Next Door",
+     "Room Next Door",
+     "Room Next Door"
+    ],
+    "All the Beauty and the Bloodshed",
+    "Father Mother Sister Brother",
+    "Happening",
+    [
+     "The Circle",
+     "Circle",
+     "Circle"
+    ],
+    "Still Life",
+    [
+     "Lust, Caution",
+     "Lust Caution"
+    ],
+    "Lebanon",
+    "Faust",
+    "Pieta",
+    "Sacro GRA",
+    [
+     "A Pigeon Sat on a Branch Reflecting on Existence",
+     "A Pigeon Sat on a Branch",
+     "Pigeon Sat on a Branch"
+    ],
+    "From Afar",
+    [
+     "The Woman Who Left",
+     "Woman Who Left",
+     "Woman Who Left"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm3-berlin-golden-bear-2000-2026",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film that won the Golden Bear at the Berlin Film Festival (2000 to 2026)",
+   "answers": [
+    "Spirited Away",
+    "Bloody Sunday",
+    "Magnolia",
+    "Intimacy",
+    "In This World",
+    [
+     "Head-On",
+     "Head On"
+    ],
+    [
+     "U-Carmen eKhayelitsha",
+     "U-Carmen"
+    ],
+    "Grbavica",
+    [
+     "Tuya's Marriage",
+     "Tuyas Marriage"
+    ],
+    "Elite Squad",
+    [
+     "The Milk of Sorrow",
+     "Milk of Sorrow",
+     "Milk of Sorrow"
+    ],
+    "Honey",
+    [
+     "A Separation",
+     "Separation"
+    ],
+    "Caesar Must Die",
+    [
+     "Child's Pose",
+     "Childs Pose"
+    ],
+    [
+     "Black Coal, Thin Ice",
+     "Black Coal Thin Ice"
+    ],
+    "Taxi",
+    "Fire at Sea",
+    "On Body and Soul",
+    "Touch Me Not",
+    "Synonyms",
+    "There Is No Evil",
+    "Bad Luck Banging or Loony Porn",
+    [
+     "Alcarras",
+     "Alcarràs"
+    ],
+    "On the Adamant",
+    "Dahomey",
+    [
+     "Dreams (Sex Love)",
+     "Dreams"
+    ],
+    "Yellow Letters"
+   ],
+   "deep": true
+  }
+ ]
+}

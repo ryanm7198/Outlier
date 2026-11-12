@@ -1,0 +1,1507 @@
+{
+ "cat": "film",
+ "prompts": [
+  {
+   "id": "xm2-peter-jackson-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Peter Jackson (1987 to 2025)",
+   "answers": [
+    [
+     "The Fellowship of the Ring",
+     "Lord of the Rings The Fellowship of the Ring",
+     "Fellowship",
+     "LOTR Fellowship",
+     "Fellowship of the Ring"
+    ],
+    [
+     "The Two Towers",
+     "Lord of the Rings The Two Towers",
+     "Two Towers",
+     "LOTR Two Towers"
+    ],
+    [
+     "The Return of the King",
+     "Lord of the Rings The Return of the King",
+     "Return of the King",
+     "LOTR Return of the King"
+    ],
+    [
+     "King Kong",
+     "King Kong 2005"
+    ],
+    [
+     "The Hobbit: An Unexpected Journey",
+     "The Hobbit",
+     "Hobbit",
+     "An Unexpected Journey",
+     "Unexpected Journey"
+    ],
+    [
+     "The Hobbit: The Desolation of Smaug",
+     "The Desolation of Smaug",
+     "Desolation of Smaug"
+    ],
+    [
+     "The Hobbit: The Battle of the Five Armies",
+     "The Battle of the Five Armies",
+     "Battle of the Five Armies"
+    ],
+    [
+     "The Lovely Bones",
+     "Lovely Bones"
+    ],
+    "Heavenly Creatures",
+    [
+     "Braindead",
+     "Dead Alive"
+    ],
+    "Bad Taste",
+    [
+     "Meet the Feebles",
+     "Feebles"
+    ],
+    [
+     "The Frighteners",
+     "Frighteners"
+    ],
+    "Forgotten Silver",
+    "They Shall Not Grow Old"
+   ]
+  },
+  {
+   "id": "xm2-villeneuve-gerwig-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Denis Villeneuve or Greta Gerwig (up to 2025)",
+   "answers": [
+    [
+     "Dune",
+     "Dune Part One",
+     "Dune 2021"
+    ],
+    [
+     "Dune: Part Two",
+     "Dune Part Two",
+     "Dune 2"
+    ],
+    "Blade Runner 2049",
+    "Arrival",
+    "Sicario",
+    "Prisoners",
+    "Enemy",
+    "Incendies",
+    "Polytechnique",
+    [
+     "Maelström",
+     "Maelstrom"
+    ],
+    [
+     "August 32nd on Earth",
+     "August 32 on Earth"
+    ],
+    "Barbie",
+    "Lady Bird",
+    [
+     "Little Women",
+     "Little Women 2019"
+    ],
+    "Nights and Weekends"
+   ]
+  },
+  {
+   "id": "xm2-wright-vaughn-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Edgar Wright or Matthew Vaughn (up to 2025)",
+   "answers": [
+    [
+     "Shaun of the Dead",
+     "Shaun"
+    ],
+    "Hot Fuzz",
+    "Baby Driver",
+    [
+     "Scott Pilgrim vs. the World",
+     "Scott Pilgrim"
+    ],
+    [
+     "The World's End",
+     "World's End"
+    ],
+    "Last Night in Soho",
+    [
+     "The Sparks Brothers",
+     "Sparks Brothers"
+    ],
+    [
+     "The Running Man",
+     "Running Man",
+     "The Running Man 2025"
+    ],
+    [
+     "A Fistful of Fingers",
+     "Fistful of Fingers"
+    ],
+    [
+     "Kingsman: The Secret Service",
+     "The Secret Service",
+     "Secret Service",
+     "Kingsman 1"
+    ],
+    [
+     "Kingsman: The Golden Circle",
+     "The Golden Circle",
+     "Golden Circle",
+     "Kingsman 2"
+    ],
+    [
+     "The King's Man",
+     "King's Man",
+     "Kingsman The King's Man"
+    ],
+    [
+     "Kick-Ass",
+     "Kick Ass"
+    ],
+    "Layer Cake",
+    "Stardust",
+    [
+     "X-Men: First Class",
+     "First Class",
+     "X-Men First Class"
+    ],
+    "Argylle"
+   ]
+  },
+  {
+   "id": "xm2-zemeckis-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Robert Zemeckis (1978 to 2025)",
+   "answers": [
+    [
+     "Back to the Future",
+     "BTTF"
+    ],
+    [
+     "Back to the Future Part II",
+     "Back to the Future 2",
+     "Back to the Future Part 2"
+    ],
+    [
+     "Back to the Future Part III",
+     "Back to the Future 3",
+     "Back to the Future Part 3"
+    ],
+    "Forrest Gump",
+    [
+     "Who Framed Roger Rabbit",
+     "Roger Rabbit"
+    ],
+    "Cast Away",
+    "Romancing the Stone",
+    "Contact",
+    [
+     "The Polar Express",
+     "Polar Express"
+    ],
+    "Death Becomes Her",
+    "What Lies Beneath",
+    "Flight",
+    "Beowulf",
+    [
+     "A Christmas Carol",
+     "Christmas Carol"
+    ],
+    [
+     "The Walk",
+     "Walk"
+    ],
+    "Allied",
+    [
+     "Welcome to Marwen",
+     "Marwen"
+    ],
+    [
+     "The Witches",
+     "Witches"
+    ],
+    "Pinocchio",
+    "Here",
+    "Used Cars",
+    "I Wanna Hold Your Hand"
+   ]
+  },
+  {
+   "id": "xm2-ron-howard-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Ron Howard (1977 to 2025, not documentaries)",
+   "answers": [
+    "Apollo 13",
+    [
+     "A Beautiful Mind",
+     "Beautiful Mind"
+    ],
+    [
+     "The Da Vinci Code",
+     "Da Vinci Code",
+     "DaVinci Code"
+    ],
+    [
+     "Angels & Demons",
+     "Angels and Demons"
+    ],
+    "Inferno",
+    "Rush",
+    "Splash",
+    "Cocoon",
+    "Willow",
+    "Backdraft",
+    "Parenthood",
+    "Far and Away",
+    "Ransom",
+    [
+     "How the Grinch Stole Christmas",
+     "The Grinch",
+     "Grinch",
+     "Dr Seuss' How the Grinch Stole Christmas"
+    ],
+    "Cinderella Man",
+    [
+     "Frost/Nixon",
+     "Frost Nixon"
+    ],
+    [
+     "Solo: A Star Wars Story",
+     "Solo",
+     "Solo A Star Wars Story"
+    ],
+    [
+     "In the Heart of the Sea",
+     "Heart of the Sea"
+    ],
+    "Hillbilly Elegy",
+    [
+     "Thirteen Lives",
+     "13 Lives"
+    ],
+    "Eden",
+    "Night Shift",
+    "Gung Ho",
+    [
+     "The Paper",
+     "Paper"
+    ],
+    [
+     "EDtv",
+     "Ed TV"
+    ],
+    [
+     "The Missing",
+     "Missing"
+    ],
+    [
+     "The Dilemma",
+     "Dilemma"
+    ],
+    "Grand Theft Auto"
+   ]
+  },
+  {
+   "id": "xm2-pirates-matrix-shrek-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film from the Pirates of the Caribbean, Matrix or Shrek series (up to 2025)",
+   "answers": [
+    [
+     "Pirates of the Caribbean: The Curse of the Black Pearl",
+     "The Curse of the Black Pearl",
+     "Curse of the Black Pearl",
+     "Black Pearl",
+     "Pirates of the Caribbean",
+     "Pirates of the Caribbean 1"
+    ],
+    [
+     "Pirates of the Caribbean: Dead Man's Chest",
+     "Dead Man's Chest",
+     "Pirates of the Caribbean 2"
+    ],
+    [
+     "Pirates of the Caribbean: At World's End",
+     "At World's End",
+     "Pirates of the Caribbean 3"
+    ],
+    [
+     "Pirates of the Caribbean: On Stranger Tides",
+     "On Stranger Tides",
+     "Pirates of the Caribbean 4"
+    ],
+    [
+     "Pirates of the Caribbean: Dead Men Tell No Tales",
+     "Dead Men Tell No Tales",
+     "Salazar's Revenge",
+     "Pirates of the Caribbean 5"
+    ],
+    [
+     "The Matrix",
+     "Matrix",
+     "The Matrix 1999"
+    ],
+    [
+     "The Matrix Reloaded",
+     "Matrix Reloaded",
+     "Reloaded",
+     "The Matrix 2"
+    ],
+    [
+     "The Matrix Revolutions",
+     "Matrix Revolutions",
+     "Revolutions",
+     "The Matrix 3"
+    ],
+    [
+     "The Matrix Resurrections",
+     "Matrix Resurrections",
+     "Resurrections",
+     "The Matrix 4"
+    ],
+    "Shrek",
+    [
+     "Shrek 2",
+     "Shrek2"
+    ],
+    [
+     "Shrek the Third",
+     "Shrek 3"
+    ],
+    [
+     "Shrek Forever After",
+     "Shrek 4",
+     "Shrek the Final Chapter"
+    ],
+    "Puss in Boots",
+    [
+     "Puss in Boots: The Last Wish",
+     "The Last Wish",
+     "Last Wish",
+     "Puss in Boots 2"
+    ]
+   ]
+  },
+  {
+   "id": "xm2-slasher-franchises-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a Halloween, A Nightmare on Elm Street or Friday the 13th film (up to 2025)",
+   "answers": [
+    [
+     "Halloween",
+     "Halloween 1978",
+     "Halloween 2018",
+     "Halloween 2007"
+    ],
+    [
+     "Halloween II",
+     "Halloween 2"
+    ],
+    [
+     "Halloween III: Season of the Witch",
+     "Halloween 3",
+     "Season of the Witch"
+    ],
+    [
+     "Halloween 4: The Return of Michael Myers",
+     "Halloween 4",
+     "The Return of Michael Myers"
+    ],
+    [
+     "Halloween 5: The Revenge of Michael Myers",
+     "Halloween 5",
+     "The Revenge of Michael Myers"
+    ],
+    [
+     "Halloween: The Curse of Michael Myers",
+     "Halloween 6",
+     "The Curse of Michael Myers"
+    ],
+    [
+     "Halloween H20: 20 Years Later",
+     "Halloween H20",
+     "H20",
+     "20 Years Later",
+     "Halloween 7"
+    ],
+    [
+     "Halloween: Resurrection",
+     "Halloween Resurrection",
+     "Halloween 8"
+    ],
+    "Halloween Kills",
+    "Halloween Ends",
+    [
+     "A Nightmare on Elm Street",
+     "Nightmare on Elm Street",
+     "Elm Street"
+    ],
+    [
+     "A Nightmare on Elm Street 2: Freddy's Revenge",
+     "Freddy's Revenge",
+     "Nightmare on Elm Street 2"
+    ],
+    [
+     "A Nightmare on Elm Street 3: Dream Warriors",
+     "Dream Warriors",
+     "Nightmare on Elm Street 3"
+    ],
+    [
+     "A Nightmare on Elm Street 4: The Dream Master",
+     "The Dream Master",
+     "Dream Master",
+     "Nightmare on Elm Street 4"
+    ],
+    [
+     "A Nightmare on Elm Street 5: The Dream Child",
+     "The Dream Child",
+     "Dream Child",
+     "Nightmare on Elm Street 5"
+    ],
+    [
+     "Freddy's Dead: The Final Nightmare",
+     "Freddy's Dead",
+     "The Final Nightmare",
+     "Nightmare on Elm Street 6"
+    ],
+    [
+     "Wes Craven's New Nightmare",
+     "New Nightmare"
+    ],
+    [
+     "Freddy vs. Jason",
+     "Freddy vs Jason",
+     "Freddy versus Jason"
+    ],
+    [
+     "Friday the 13th",
+     "Friday the Thirteenth"
+    ],
+    [
+     "Friday the 13th Part 2",
+     "Friday the 13th Part II",
+     "Part 2"
+    ],
+    [
+     "Friday the 13th Part III",
+     "Friday the 13th Part 3",
+     "Friday the 13th 3D"
+    ],
+    [
+     "Friday the 13th: The Final Chapter",
+     "The Final Chapter",
+     "Final Chapter",
+     "Friday the 13th Part IV",
+     "Friday the 13th Part 4"
+    ],
+    [
+     "Friday the 13th: A New Beginning",
+     "A New Beginning",
+     "New Beginning",
+     "Friday the 13th Part V",
+     "Friday the 13th Part 5"
+    ],
+    [
+     "Friday the 13th Part VI: Jason Lives",
+     "Jason Lives",
+     "Friday the 13th Part 6"
+    ],
+    [
+     "Friday the 13th Part VII: The New Blood",
+     "The New Blood",
+     "New Blood",
+     "Friday the 13th Part 7"
+    ],
+    [
+     "Friday the 13th Part VIII: Jason Takes Manhattan",
+     "Jason Takes Manhattan",
+     "Friday the 13th Part 8"
+    ],
+    [
+     "Jason Goes to Hell: The Final Friday",
+     "Jason Goes to Hell",
+     "The Final Friday",
+     "Final Friday"
+    ],
+    "Jason X"
+   ]
+  },
+  {
+   "id": "xm2-saw-conjuring-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a Saw film or a film in The Conjuring Universe (up to 2025)",
+   "answers": [
+    [
+     "Saw",
+     "Saw 1"
+    ],
+    [
+     "Saw II",
+     "Saw 2"
+    ],
+    [
+     "Saw III",
+     "Saw 3"
+    ],
+    [
+     "Saw IV",
+     "Saw 4"
+    ],
+    [
+     "Saw V",
+     "Saw 5"
+    ],
+    [
+     "Saw VI",
+     "Saw 6"
+    ],
+    [
+     "Saw 3D",
+     "Saw 7",
+     "Saw: The Final Chapter",
+     "Saw 3D The Final Chapter"
+    ],
+    [
+     "Jigsaw",
+     "Saw: Legacy"
+    ],
+    [
+     "Spiral: From the Book of Saw",
+     "Spiral",
+     "Spiral From the Book of Saw"
+    ],
+    [
+     "Saw X",
+     "Saw 10"
+    ],
+    [
+     "The Conjuring",
+     "Conjuring"
+    ],
+    [
+     "The Conjuring 2",
+     "Conjuring 2"
+    ],
+    [
+     "The Conjuring: The Devil Made Me Do It",
+     "The Devil Made Me Do It",
+     "Conjuring 3",
+     "The Conjuring 3"
+    ],
+    [
+     "The Conjuring: Last Rites",
+     "Last Rites",
+     "Conjuring Last Rites",
+     "Conjuring 4"
+    ],
+    "Annabelle",
+    [
+     "Annabelle: Creation",
+     "Annabelle Creation"
+    ],
+    "Annabelle Comes Home",
+    [
+     "The Nun",
+     "Nun"
+    ],
+    [
+     "The Nun II",
+     "The Nun 2",
+     "Nun 2"
+    ],
+    [
+     "The Curse of La Llorona",
+     "Curse of La Llorona",
+     "La Llorona"
+    ],
+    [
+     "Wolves at the Door",
+     "Wolves at the Door 2016"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm2-bttf-home-alone-panther-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a Back to the Future, Home Alone or Pink Panther film (including TV films, up to 2025)",
+   "answers": [
+    [
+     "Back to the Future",
+     "BTTF"
+    ],
+    [
+     "Back to the Future Part II",
+     "Back to the Future 2",
+     "Back to the Future Part 2"
+    ],
+    [
+     "Back to the Future Part III",
+     "Back to the Future 3",
+     "Back to the Future Part 3"
+    ],
+    "Home Alone",
+    [
+     "Home Alone 2: Lost in New York",
+     "Home Alone 2",
+     "Lost in New York"
+    ],
+    "Home Alone 3",
+    [
+     "Home Alone 4: Taking Back the House",
+     "Home Alone 4",
+     "Taking Back the House"
+    ],
+    [
+     "Home Alone: The Holiday Heist",
+     "The Holiday Heist",
+     "Holiday Heist",
+     "Home Alone 5"
+    ],
+    "Home Sweet Home Alone",
+    [
+     "The Pink Panther",
+     "Pink Panther"
+    ],
+    [
+     "A Shot in the Dark",
+     "Shot in the Dark"
+    ],
+    "Inspector Clouseau",
+    [
+     "The Return of the Pink Panther",
+     "Return of the Pink Panther"
+    ],
+    [
+     "The Pink Panther Strikes Again",
+     "Pink Panther Strikes Again"
+    ],
+    "Revenge of the Pink Panther",
+    "Trail of the Pink Panther",
+    "Curse of the Pink Panther",
+    "Son of the Pink Panther",
+    [
+     "The Pink Panther 2",
+     "Pink Panther 2"
+    ],
+    [
+     "The Pink Panther (2006)",
+     "Pink Panther 2006",
+     "Pink Panther (2006)",
+     "Pink Panther remake"
+    ]
+   ]
+  },
+  {
+   "id": "xm2-comedy-series-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film from the Police Academy, Austin Powers, Hangover or Meet the Parents series (up to 2025)",
+   "answers": [
+    "Police Academy",
+    [
+     "Police Academy 2: Their First Assignment",
+     "Police Academy 2",
+     "Their First Assignment"
+    ],
+    [
+     "Police Academy 3: Back in Training",
+     "Police Academy 3",
+     "Back in Training"
+    ],
+    [
+     "Police Academy 4: Citizens on Patrol",
+     "Police Academy 4",
+     "Citizens on Patrol"
+    ],
+    [
+     "Police Academy 5: Assignment Miami Beach",
+     "Police Academy 5",
+     "Assignment Miami Beach"
+    ],
+    [
+     "Police Academy 6: City Under Siege",
+     "Police Academy 6",
+     "City Under Siege"
+    ],
+    [
+     "Police Academy: Mission to Moscow",
+     "Police Academy 7",
+     "Mission to Moscow"
+    ],
+    [
+     "Austin Powers: International Man of Mystery",
+     "International Man of Mystery",
+     "Austin Powers",
+     "Austin Powers 1"
+    ],
+    [
+     "Austin Powers: The Spy Who Shagged Me",
+     "The Spy Who Shagged Me",
+     "Spy Who Shagged Me",
+     "Austin Powers 2"
+    ],
+    [
+     "Austin Powers in Goldmember",
+     "Goldmember",
+     "Austin Powers 3"
+    ],
+    [
+     "The Hangover",
+     "Hangover"
+    ],
+    [
+     "The Hangover Part II",
+     "Hangover Part II",
+     "Hangover 2",
+     "The Hangover 2"
+    ],
+    [
+     "The Hangover Part III",
+     "Hangover Part III",
+     "Hangover 3",
+     "The Hangover 3"
+    ],
+    "Meet the Parents",
+    "Meet the Fockers",
+    "Little Fockers"
+   ]
+  },
+  {
+   "id": "xm2-action-series-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film from the John Wick, Taken, Jack Reacher, Equalizer or Expendables series (up to 2025)",
+   "answers": [
+    [
+     "John Wick",
+     "John Wick 1"
+    ],
+    [
+     "John Wick: Chapter 2",
+     "John Wick 2",
+     "Chapter 2"
+    ],
+    [
+     "John Wick: Chapter 3 - Parabellum",
+     "John Wick 3",
+     "Parabellum",
+     "John Wick Chapter 3"
+    ],
+    [
+     "John Wick: Chapter 4",
+     "John Wick 4",
+     "Chapter 4"
+    ],
+    [
+     "Ballerina",
+     "From the World of John Wick: Ballerina",
+     "John Wick Ballerina"
+    ],
+    [
+     "Taken",
+     "Taken 1"
+    ],
+    "Taken 2",
+    "Taken 3",
+    [
+     "Jack Reacher",
+     "Jack Reacher 1"
+    ],
+    [
+     "Jack Reacher: Never Go Back",
+     "Never Go Back",
+     "Jack Reacher 2"
+    ],
+    [
+     "The Equalizer",
+     "Equalizer"
+    ],
+    [
+     "The Equalizer 2",
+     "Equalizer 2"
+    ],
+    [
+     "The Equalizer 3",
+     "Equalizer 3"
+    ],
+    [
+     "The Expendables",
+     "Expendables",
+     "Expendables 1"
+    ],
+    [
+     "The Expendables 2",
+     "Expendables 2"
+    ],
+    [
+     "The Expendables 3",
+     "Expendables 3"
+    ],
+    [
+     "Expend4bles",
+     "Expendables 4",
+     "The Expendables 4"
+    ]
+   ]
+  },
+  {
+   "id": "xm2-batman-superman-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a live-action cinema film with Batman or Superman as the lead (up to 2025)",
+   "answers": [
+    "Batman Returns",
+    "Batman Forever",
+    [
+     "Batman & Robin",
+     "Batman and Robin"
+    ],
+    "Batman Begins",
+    [
+     "The Dark Knight",
+     "Dark Knight"
+    ],
+    [
+     "The Dark Knight Rises",
+     "Dark Knight Rises"
+    ],
+    [
+     "Batman v Superman: Dawn of Justice",
+     "Batman v Superman",
+     "Batman vs Superman",
+     "Dawn of Justice"
+    ],
+    [
+     "Superman II",
+     "Superman 2"
+    ],
+    [
+     "Superman III",
+     "Superman 3"
+    ],
+    [
+     "Superman IV: The Quest for Peace",
+     "Superman IV",
+     "Superman 4",
+     "The Quest for Peace"
+    ],
+    "Superman Returns",
+    "Man of Steel",
+    [
+     "Superman and the Mole Men",
+     "Mole Men"
+    ],
+    [
+     "Batman",
+     "Batman 1989",
+     "Batman (1989)",
+     "Tim Burton Batman"
+    ],
+    [
+     "Batman: The Movie",
+     "Batman 1966",
+     "Batman (1966)"
+    ],
+    [
+     "The Batman (2022)",
+     "Batman 2022",
+     "Matt Reeves Batman",
+     "Robert Pattinson Batman"
+    ],
+    [
+     "Superman",
+     "Superman 1978",
+     "Superman (1978)",
+     "Superman The Movie",
+     "Superman: The Movie"
+    ],
+    [
+     "Superman (2025)",
+     "James Gunn Superman"
+    ]
+   ]
+  },
+  {
+   "id": "xm2-coppola-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Francis Ford Coppola (1963 to 2024)",
+   "answers": [
+    [
+     "The Godfather",
+     "Godfather"
+    ],
+    [
+     "The Godfather Part II",
+     "Godfather Part II",
+     "Godfather 2",
+     "The Godfather 2",
+     "Godfather Part 2"
+    ],
+    [
+     "The Godfather Part III",
+     "Godfather Part III",
+     "Godfather 3",
+     "The Godfather 3",
+     "The Godfather Coda",
+     "Godfather Part 3"
+    ],
+    [
+     "Apocalypse Now",
+     "Apocalypse Now Redux",
+     "Apocalypse Now Final Cut"
+    ],
+    [
+     "The Conversation",
+     "Conversation"
+    ],
+    [
+     "Bram Stoker's Dracula",
+     "Dracula",
+     "Coppola's Dracula"
+    ],
+    [
+     "The Outsiders",
+     "Outsiders"
+    ],
+    "Rumble Fish",
+    [
+     "Peggy Sue Got Married",
+     "Peggy Sue"
+    ],
+    [
+     "The Cotton Club",
+     "Cotton Club"
+    ],
+    [
+     "Tucker: The Man and His Dream",
+     "Tucker"
+    ],
+    "Gardens of Stone",
+    "One from the Heart",
+    [
+     "The Rainmaker",
+     "Rainmaker",
+     "John Grisham's The Rainmaker"
+    ],
+    "Jack",
+    "Megalopolis",
+    "Youth Without Youth",
+    "Tetro",
+    "Twixt",
+    [
+     "The Rain People",
+     "Rain People"
+    ],
+    "Finian's Rainbow",
+    "You're a Big Boy Now",
+    "Dementia 13",
+    "New York Stories"
+   ]
+  },
+  {
+   "id": "xm2-eastwood-director-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Clint Eastwood (1971 to 2024)",
+   "answers": [
+    "Unforgiven",
+    "Million Dollar Baby",
+    "Gran Torino",
+    "Mystic River",
+    "American Sniper",
+    [
+     "The Outlaw Josey Wales",
+     "Josey Wales",
+     "Outlaw Josey Wales"
+    ],
+    "Letters from Iwo Jima",
+    "Flags of Our Fathers",
+    "Invictus",
+    "Sully",
+    [
+     "The Mule",
+     "Mule"
+    ],
+    "Changeling",
+    "Pale Rider",
+    "High Plains Drifter",
+    "Play Misty for Me",
+    [
+     "The Bridges of Madison County",
+     "Bridges of Madison County"
+    ],
+    [
+     "A Perfect World",
+     "Perfect World"
+    ],
+    "Space Cowboys",
+    "Bird",
+    "Heartbreak Ridge",
+    "Hereafter",
+    [
+     "J. Edgar",
+     "J Edgar"
+    ],
+    "Jersey Boys",
+    "Richard Jewell",
+    "Cry Macho",
+    [
+     "Juror #2",
+     "Juror 2",
+     "Juror Number 2",
+     "Juror No. 2"
+    ],
+    [
+     "The 15:17 to Paris",
+     "15:17 to Paris",
+     "1517 to Paris"
+    ],
+    "Absolute Power",
+    "Midnight in the Garden of Good and Evil",
+    "True Crime",
+    "Blood Work",
+    [
+     "The Rookie",
+     "Rookie"
+    ],
+    "White Hunter Black Heart",
+    "Honkytonk Man",
+    "Sudden Impact",
+    "Firefox",
+    "Bronco Billy",
+    [
+     "The Gauntlet",
+     "Gauntlet"
+    ],
+    [
+     "The Eiger Sanction",
+     "Eiger Sanction"
+    ],
+    "Breezy"
+   ]
+  },
+  {
+   "id": "xm2-spike-lee-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Spike Lee (1983 to 2025)",
+   "answers": [
+    "Do the Right Thing",
+    "Malcolm X",
+    [
+     "BlacKkKlansman",
+     "Black Klansman"
+    ],
+    "Inside Man",
+    [
+     "Da 5 Bloods",
+     "Da Five Bloods"
+    ],
+    "She's Gotta Have It",
+    "Jungle Fever",
+    [
+     "Mo' Better Blues",
+     "Mo Better Blues"
+    ],
+    "School Daze",
+    "Crooklyn",
+    "Clockers",
+    "He Got Game",
+    "Summer of Sam",
+    [
+     "25th Hour",
+     "Twenty Fifth Hour"
+    ],
+    "Bamboozled",
+    [
+     "Oldboy",
+     "Oldboy 2013"
+    ],
+    [
+     "Chi-Raq",
+     "Chiraq"
+    ],
+    [
+     "Highest 2 Lowest",
+     "Highest to Lowest"
+    ],
+    "Girl 6",
+    "Get on the Bus",
+    "She Hate Me",
+    [
+     "Miracle at St. Anna",
+     "Miracle at Saint Anna"
+    ],
+    "Red Hook Summer",
+    "Da Sweet Blood of Jesus",
+    [
+     "4 Little Girls",
+     "Four Little Girls"
+    ],
+    [
+     "The Original Kings of Comedy",
+     "Original Kings of Comedy",
+     "Kings of Comedy"
+    ],
+    "Passing Strange",
+    [
+     "American Utopia",
+     "David Byrne's American Utopia"
+    ],
+    [
+     "Joe's Bed-Stuy Barbershop: We Cut Heads",
+     "Joe's Bed-Stuy Barbershop",
+     "Bed-Stuy Barbershop"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm2-oliver-stone-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Oliver Stone (1974 to 2025)",
+   "answers": [
+    "Platoon",
+    "Wall Street",
+    "JFK",
+    [
+     "Born on the Fourth of July",
+     "Born on 4th of July",
+     "Born on the 4th of July"
+    ],
+    "Natural Born Killers",
+    "Nixon",
+    [
+     "The Doors",
+     "Doors"
+    ],
+    "Alexander",
+    "Snowden",
+    [
+     "W.",
+     "W"
+    ],
+    "World Trade Center",
+    [
+     "Wall Street: Money Never Sleeps",
+     "Money Never Sleeps",
+     "Wall Street 2"
+    ],
+    "Any Given Sunday",
+    "Salvador",
+    "Talk Radio",
+    [
+     "Heaven & Earth",
+     "Heaven and Earth"
+    ],
+    [
+     "U Turn",
+     "U-Turn"
+    ],
+    "Savages",
+    "Seizure",
+    [
+     "The Hand",
+     "Hand"
+    ],
+    "Comandante",
+    "Looking for Fidel",
+    "Persona Non Grata",
+    "South of the Border",
+    "Mi Amigo Hugo",
+    [
+     "JFK Revisited: Through the Looking Glass",
+     "JFK Revisited"
+    ],
+    "Nuclear Now",
+    "Lula"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm2-bigelow-peele-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by Kathryn Bigelow or Jordan Peele (up to 2025)",
+   "answers": [
+    "Get Out",
+    "Us",
+    "Nope",
+    [
+     "The Hurt Locker",
+     "Hurt Locker"
+    ],
+    "Zero Dark Thirty",
+    "Point Break",
+    "Detroit",
+    "Strange Days",
+    [
+     "K-19: The Widowmaker",
+     "K-19",
+     "K19",
+     "The Widowmaker"
+    ],
+    "Near Dark",
+    "Blue Steel",
+    [
+     "A House of Dynamite",
+     "House of Dynamite"
+    ],
+    [
+     "The Weight of Water",
+     "Weight of Water"
+    ],
+    [
+     "The Loveless",
+     "Loveless"
+    ]
+   ]
+  },
+  {
+   "id": "xm2-lynch-pta-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film directed by David Lynch or Paul Thomas Anderson (up to 2025)",
+   "answers": [
+    [
+     "Mulholland Drive",
+     "Mulholland Dr"
+    ],
+    "Blue Velvet",
+    [
+     "The Elephant Man",
+     "Elephant Man"
+    ],
+    "Eraserhead",
+    [
+     "Dune",
+     "Dune 1984"
+    ],
+    "Wild at Heart",
+    "Lost Highway",
+    [
+     "The Straight Story",
+     "Straight Story"
+    ],
+    "Inland Empire",
+    [
+     "Twin Peaks: Fire Walk with Me",
+     "Fire Walk with Me"
+    ],
+    "There Will Be Blood",
+    "Boogie Nights",
+    "Magnolia",
+    [
+     "Punch-Drunk Love",
+     "Punch Drunk Love"
+    ],
+    [
+     "The Master",
+     "Master"
+    ],
+    "Phantom Thread",
+    "Licorice Pizza",
+    "Inherent Vice",
+    [
+     "Hard Eight",
+     "Sydney"
+    ],
+    [
+     "One Battle After Another",
+     "One Battle After Another 2025"
+    ],
+    "Junun"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm2-loach-leigh-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a cinema film directed by Ken Loach or Mike Leigh (up to 2025)",
+   "answers": [
+    [
+     "I, Daniel Blake",
+     "I Daniel Blake"
+    ],
+    "Kes",
+    "Sorry We Missed You",
+    [
+     "The Wind That Shakes the Barley",
+     "Wind That Shakes the Barley"
+    ],
+    [
+     "Secrets & Lies",
+     "Secrets and Lies"
+    ],
+    "Vera Drake",
+    [
+     "Happy-Go-Lucky",
+     "Happy Go Lucky"
+    ],
+    "Another Year",
+    [
+     "Mr. Turner",
+     "Mr Turner",
+     "Turner"
+    ],
+    "Naked",
+    "Life Is Sweet",
+    [
+     "Topsy-Turvy",
+     "Topsy Turvy"
+    ],
+    "Peterloo",
+    "Hard Truths",
+    "High Hopes",
+    "Career Girls",
+    "All or Nothing",
+    "Bleak Moments",
+    "Meantime",
+    [
+     "The Angels' Share",
+     "Angels' Share",
+     "Angels Share"
+    ],
+    "Looking for Eric",
+    "Raining Stones",
+    [
+     "Riff-Raff",
+     "Riff Raff"
+    ],
+    "Land and Freedom",
+    "My Name Is Joe",
+    "Sweet Sixteen",
+    [
+     "Ladybird, Ladybird",
+     "Ladybird Ladybird"
+    ],
+    "Carla's Song",
+    "Bread and Roses",
+    [
+     "The Navigators",
+     "Navigators"
+    ],
+    [
+     "Ae Fond Kiss...",
+     "Ae Fond Kiss"
+    ],
+    [
+     "It's a Free World...",
+     "It's a Free World",
+     "Its a Free World"
+    ],
+    "Route Irish",
+    "Jimmy's Hall",
+    [
+     "The Old Oak",
+     "Old Oak"
+    ],
+    "Poor Cow",
+    "Family Life",
+    "Black Jack",
+    "Looks and Smiles",
+    "Fatherland",
+    "Hidden Agenda",
+    "Tickets",
+    [
+     "The Spirit of '45",
+     "Spirit of 45"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xm2-british-comedy-franchise-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a film from the Bridget Jones, Paddington, Johnny English or Mr Bean series (up to 2025)",
+   "answers": [
+    [
+     "Bridget Jones's Diary",
+     "Bridget Jones Diary",
+     "Bridget Jones",
+     "Bridget Jones 1"
+    ],
+    [
+     "Bridget Jones: The Edge of Reason",
+     "The Edge of Reason",
+     "Edge of Reason",
+     "Bridget Jones 2"
+    ],
+    [
+     "Bridget Jones's Baby",
+     "Bridget Jones Baby",
+     "Bridget Jones 3"
+    ],
+    [
+     "Bridget Jones: Mad About the Boy",
+     "Mad About the Boy",
+     "Bridget Jones 4"
+    ],
+    "Paddington",
+    "Paddington 2",
+    [
+     "Paddington in Peru",
+     "Paddington 3"
+    ],
+    "Johnny English",
+    [
+     "Johnny English Reborn",
+     "Reborn",
+     "Johnny English 2"
+    ],
+    [
+     "Johnny English Strikes Again",
+     "Strikes Again",
+     "Johnny English 3"
+    ],
+    [
+     "Bean",
+     "Bean: The Ultimate Disaster Movie",
+     "Mr Bean The Ultimate Disaster Movie",
+     "Bean the Movie"
+    ],
+    [
+     "Mr. Bean's Holiday",
+     "Mr Bean's Holiday",
+     "Mr Bean Holiday"
+    ]
+   ]
+  }
+ ]
+}
