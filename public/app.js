@@ -166,16 +166,22 @@ let skipBuild = null, raceSkip = null;
 function buildUp(res) {
   const lit = res.valid ? Math.max(1, Math.round(res.share)) : 0;
   const pts = $('#pts'), tierEl = $('#tier'), box = $('#result');
-  const dots = [...app.querySelectorAll('.crowd i')];
-  const paint = (score, crowd) => {
+  const dots = [...app.querySelectorAll('.crowd i')], crowdEl = dots.length ? dots[0].parentElement : null;
+  const capEl = $('#caption');
+  let lastT = -1;
+  const paint = (score, crowd, final) => {
     pts.textContent = '+' + score;
     dots.forEach(d => d.classList.toggle('on', +d.dataset.rank < crowd));
+    // The people still lit take the colour of the rarity you have reached, and the crowd thins as you climb.
+    const t = res.valid ? (final && res.outlier ? 5 : Math.min(4, Math.max(1, tier(score)))) : 0;
+    if (crowdEl && t !== lastT) { lastT = t; crowdEl.dataset.t = t; }
+    if (res.valid && !final && capEl) capEl.innerHTML = `<b>${crowd} in 100</b> people said ${esc(res.canonical)}`;
   };
   const finish = () => {
     skipBuild = null;
     if (!pts.isConnected) return;
     const t = res.outlier ? 5 : Math.min(4, tier(res.points));
-    paint(res.points, lit);
+    paint(res.points, lit, true);
     box.className = `result t${t} done`;
     if (res.valid) tierEl.innerHTML = `<span class="tierbadge t${t}"><i></i>${TIERS[t]}</span>`;
     else tierEl.textContent = res.given ? 'Not on the list' : 'No answer';

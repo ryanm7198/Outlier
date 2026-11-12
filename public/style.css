@@ -510,3 +510,16 @@ h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
 
 .sidecol { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
 #lb:empty { display: none; }
+
+/* the lit crowd takes the colour of the rarity reached; the higher the tier, the more the rest recede */
+.crowd i { transition: background .25s, opacity .4s, transform .4s, box-shadow .4s; }
+.crowd[data-t="1"] i.on { background: var(--t1); }
+.crowd[data-t="2"] i.on { background: var(--t2); }
+.crowd[data-t="3"] i.on { background: var(--t3); }
+.crowd[data-t="4"] i.on { background: var(--t4); }
+.crowd[data-t="5"] i.on { background: var(--t5); }
+.crowd[data-t="3"] i:not(.on) { opacity: .8; }
+.crowd[data-t="4"] i:not(.on), .crowd[data-t="5"] i:not(.on) { opacity: .5; }
+.crowd[data-t="4"] i.on { transform: scale(1.25); box-shadow: 0 0 8px color-mix(in srgb, var(--t4) 70%, transparent); }
+.crowd[data-t="5"] i.on { transform: scale(1.9); box-shadow: 0 0 16px color-mix(in srgb, var(--t5) 80%, transparent); z-index: 1; position: relative; }
+@media (prefers-reduced-motion: reduce) { .crowd i { transition: none; } }
