@@ -1,0 +1,3343 @@
+{
+ "cat": "sport",
+ "prompts": [
+  {
+   "id": "spnd-royal-rumble-winners",
+   "tags": [
+    "combat"
+   ],
+   "text": "Name a wrestler who has won the Royal Rumble match at the WWE Royal Rumble event (men's or women's, 1988 to 2026; the one-off 2018 Greatest Royal Rumble in Saudi Arabia does not count)",
+   "answers": [
+    [
+     "Jim Duggan",
+     "Hacksaw Jim Duggan",
+     "Hacksaw",
+     "Duggan"
+    ],
+    [
+     "Big John Studd",
+     "Studd"
+    ],
+    [
+     "Hulk Hogan",
+     "Hogan",
+     "Hollywood Hogan"
+    ],
+    [
+     "Ric Flair",
+     "Nature Boy"
+    ],
+    "Yokozuna",
+    [
+     "Lex Luger",
+     "Luger"
+    ],
+    [
+     "Bret Hart",
+     "Hitman",
+     "Bret The Hitman Hart",
+     "Hart"
+    ],
+    [
+     "Shawn Michaels",
+     "HBK",
+     "Michaels",
+     "Heartbreak Kid"
+    ],
+    [
+     "Steve Austin",
+     "Stone Cold",
+     "Stone Cold Steve Austin",
+     "Austin"
+    ],
+    [
+     "Vince McMahon",
+     "McMahon",
+     "Mr McMahon"
+    ],
+    [
+     "The Rock",
+     "Rock",
+     "Dwayne Johnson",
+     "Rocky Maivia"
+    ],
+    [
+     "Triple H",
+     "HHH",
+     "Hunter Hearst Helmsley",
+     "Paul Levesque"
+    ],
+    [
+     "Brock Lesnar",
+     "Lesnar"
+    ],
+    [
+     "Chris Benoit",
+     "Benoit"
+    ],
+    [
+     "Batista",
+     "Dave Bautista",
+     "Bautista"
+    ],
+    [
+     "Rey Mysterio",
+     "Mysterio",
+     "Rey Mysterio Jr"
+    ],
+    [
+     "The Undertaker",
+     "Undertaker",
+     "Taker"
+    ],
+    [
+     "John Cena",
+     "Cena"
+    ],
+    [
+     "Randy Orton",
+     "Orton"
+    ],
+    "Edge",
+    [
+     "Alberto Del Rio",
+     "Del Rio"
+    ],
+    "Sheamus",
+    [
+     "Roman Reigns",
+     "Reigns"
+    ],
+    [
+     "Shinsuke Nakamura",
+     "Nakamura"
+    ],
+    [
+     "Seth Rollins",
+     "Rollins"
+    ],
+    [
+     "Drew McIntyre",
+     "McIntyre"
+    ],
+    [
+     "Cody Rhodes",
+     "Rhodes"
+    ],
+    [
+     "Jey Uso",
+     "Uso"
+    ],
+    "Asuka",
+    [
+     "Becky Lynch",
+     "Lynch"
+    ],
+    [
+     "Charlotte Flair",
+     "Charlotte"
+    ],
+    [
+     "Bianca Belair",
+     "Belair"
+    ],
+    [
+     "Ronda Rousey",
+     "Rousey"
+    ],
+    [
+     "Rhea Ripley",
+     "Ripley"
+    ],
+    "Bayley",
+    [
+     "Liv Morgan",
+     "Morgan"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-wwe-champions",
+   "tags": [
+    "combat"
+   ],
+   "text": "Name a wrestler who has held the WWE Championship, the title first held by Buddy Rogers in 1963 (as of September 2026)",
+   "answers": [
+    [
+     "Bruno Sammartino",
+     "Sammartino"
+    ],
+    [
+     "Hulk Hogan",
+     "Hogan"
+    ],
+    [
+     "Bob Backlund",
+     "Backlund"
+    ],
+    [
+     "John Cena",
+     "Cena"
+    ],
+    [
+     "Pedro Morales",
+     "Morales"
+    ],
+    [
+     "Roman Reigns",
+     "Reigns"
+    ],
+    [
+     "Brock Lesnar",
+     "Lesnar"
+    ],
+    [
+     "Randy Orton",
+     "Orton"
+    ],
+    [
+     "Bret Hart",
+     "Hart"
+    ],
+    [
+     "Cody Rhodes",
+     "Rhodes"
+    ],
+    [
+     "Triple H",
+     "HHH",
+     "Hunter Hearst Helmsley"
+    ],
+    [
+     "Steve Austin",
+     "Stone Cold",
+     "Stone Cold Steve Austin",
+     "Austin"
+    ],
+    [
+     "CM Punk",
+     "Punk",
+     "Phil Brooks"
+    ],
+    [
+     "Randy Savage",
+     "Macho Man",
+     "Macho Man Randy Savage",
+     "Savage"
+    ],
+    [
+     "AJ Styles",
+     "Styles"
+    ],
+    [
+     "Shawn Michaels",
+     "HBK",
+     "Michaels"
+    ],
+    [
+     "The Rock",
+     "Rock",
+     "Dwayne Johnson"
+    ],
+    [
+     "Drew McIntyre",
+     "McIntyre"
+    ],
+    [
+     "Diesel",
+     "Kevin Nash",
+     "Nash"
+    ],
+    [
+     "Kurt Angle",
+     "Angle"
+    ],
+    [
+     "Superstar Billy Graham",
+     "Billy Graham",
+     "Graham"
+    ],
+    [
+     "Ultimate Warrior",
+     "Warrior"
+    ],
+    "Yokozuna",
+    [
+     "John Bradshaw Layfield",
+     "JBL",
+     "Bradshaw",
+     "John Layfield",
+     "Layfield"
+    ],
+    [
+     "The Undertaker",
+     "Undertaker"
+    ],
+    [
+     "Seth Rollins",
+     "Rollins"
+    ],
+    [
+     "Bobby Lashley",
+     "Lashley"
+    ],
+    [
+     "Daniel Bryan",
+     "Bryan"
+    ],
+    "Sheamus",
+    [
+     "Kofi Kingston",
+     "Kingston"
+    ],
+    [
+     "Jinder Mahal",
+     "Mahal"
+    ],
+    [
+     "The Miz",
+     "Miz"
+    ],
+    "Edge",
+    [
+     "Eddie Guerrero",
+     "Guerrero"
+    ],
+    [
+     "Ric Flair",
+     "Flair"
+    ],
+    "Big E",
+    [
+     "Chris Jericho",
+     "Jericho"
+    ],
+    [
+     "Sycho Sid",
+     "Sid Vicious",
+     "Sid Justice",
+     "Sid Eudy",
+     "Sid"
+    ],
+    [
+     "Alberto Del Rio",
+     "Del Rio"
+    ],
+    [
+     "Dean Ambrose",
+     "Jon Moxley",
+     "Moxley",
+     "Ambrose"
+    ],
+    "Big Show",
+    [
+     "Sami Zayn",
+     "Zayn"
+    ],
+    [
+     "Sgt. Slaughter",
+     "Slaughter"
+    ],
+    [
+     "Bray Wyatt",
+     "Wyatt"
+    ],
+    [
+     "Mankind",
+     "Mick Foley",
+     "Cactus Jack",
+     "Dude Love",
+     "Foley"
+    ],
+    [
+     "Buddy Rogers",
+     "Nature Boy Buddy Rogers",
+     "Rogers"
+    ],
+    [
+     "Jeff Hardy",
+     "Hardy"
+    ],
+    [
+     "Batista",
+     "Dave Bautista"
+    ],
+    [
+     "The Iron Sheik",
+     "Sheik"
+    ],
+    [
+     "Rob Van Dam",
+     "Van Dam"
+    ],
+    [
+     "Ivan Koloff",
+     "Koloff"
+    ],
+    [
+     "Stan Stasiak",
+     "Stasiak"
+    ],
+    [
+     "Vince McMahon",
+     "McMahon"
+    ],
+    "Kane",
+    [
+     "Andre the Giant",
+     "Andre"
+    ],
+    [
+     "Rey Mysterio",
+     "Mysterio"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-olympic-taekwondo-gold",
+   "tags": [
+    "combat"
+   ],
+   "text": "Name an athlete who has won an Olympic gold medal in taekwondo (2000 to 2024)",
+   "answers": [
+    [
+     "Michail Mouroutsos",
+     "Mouroutsos"
+    ],
+    "Chu Mu-yen",
+    [
+     "Guillermo Pérez",
+     "Pérez"
+    ],
+    [
+     "Joel González",
+     "González"
+    ],
+    "Zhao Shuai",
+    [
+     "Vito Dell'Aquila",
+     "Dell'Aquila"
+    ],
+    "Park Tae-joon",
+    [
+     "Steven López",
+     "López"
+    ],
+    [
+     "Hadi Saei",
+     "Saei"
+    ],
+    "Son Tae-jin",
+    [
+     "Servet Tazegül",
+     "Tazegül"
+    ],
+    [
+     "Ahmad Abughaush",
+     "Abughaush"
+    ],
+    [
+     "Ulugbek Rashitov",
+     "Rashitov"
+    ],
+    [
+     "Ángel Matos",
+     "Matos"
+    ],
+    [
+     "Sebastián Crismanich",
+     "Crismanich"
+    ],
+    [
+     "Cheick Sallah Cissé",
+     "Cissé"
+    ],
+    [
+     "Maksim Khramtsov",
+     "Khramtsov"
+    ],
+    [
+     "Firas Katoussi",
+     "Katoussi"
+    ],
+    "Kim Kyong-hun",
+    "Moon Dae-sung",
+    "Cha Dong-min",
+    [
+     "Carlo Molfetta",
+     "Molfetta"
+    ],
+    [
+     "Radik Isayev",
+     "Isayev"
+    ],
+    [
+     "Vladislav Larin",
+     "Larin"
+    ],
+    [
+     "Arian Salimi",
+     "Salimi"
+    ],
+    [
+     "Lauren Burns",
+     "Burns"
+    ],
+    "Chen Shih-hsin",
+    "Wu Jingyu",
+    "Kim So-hui",
+    [
+     "Panipak Wongpattanakit",
+     "Wongpattanakit"
+    ],
+    "Jung Jae-eun",
+    "Jang Ji-won",
+    "Lim Su-jeong",
+    [
+     "Jade Jones",
+     "Jones"
+    ],
+    [
+     "Anastasija Zolotic",
+     "Zolotic"
+    ],
+    "Kim Yu-jin",
+    "Lee Sun-hee",
+    "Luo Wei",
+    "Hwang Kyung-seon",
+    "Oh Hye-ri",
+    [
+     "Matea Jelić",
+     "Jelić"
+    ],
+    [
+     "Viviana Márton",
+     "Márton"
+    ],
+    "Chen Zhong",
+    [
+     "María del Rosario Espinoza",
+     "Maria Espinoza",
+     "Espinoza"
+    ],
+    [
+     "Milica Mandić",
+     "Mandić"
+    ],
+    "Zheng Shuyin",
+    [
+     "Althéa Laurin",
+     "Laurin"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-ring-fighter-of-the-year",
+   "tags": [
+    "combat"
+   ],
+   "text": "Name a boxer who has been named The Ring magazine Fighter of the Year (1928 to 2025)",
+   "answers": [
+    [
+     "Gene Tunney",
+     "Tunney"
+    ],
+    [
+     "Tommy Loughran",
+     "Loughran"
+    ],
+    [
+     "Max Schmeling",
+     "Schmeling"
+    ],
+    [
+     "Jack Sharkey",
+     "Sharkey"
+    ],
+    [
+     "Tony Canzoneri",
+     "Canzoneri"
+    ],
+    [
+     "Barney Ross",
+     "Ross"
+    ],
+    [
+     "Joe Louis",
+     "Louis"
+    ],
+    [
+     "Henry Armstrong",
+     "Armstrong"
+    ],
+    [
+     "Billy Conn",
+     "Conn"
+    ],
+    [
+     "Sugar Ray Robinson",
+     "Robinson",
+     "Ray Robinson"
+    ],
+    [
+     "Fred Apostoli",
+     "Apostoli"
+    ],
+    [
+     "Beau Jack",
+     "Jack"
+    ],
+    [
+     "Willie Pep",
+     "Pep"
+    ],
+    [
+     "Tony Zale",
+     "Zale"
+    ],
+    [
+     "Gus Lesnevich",
+     "Lesnevich"
+    ],
+    [
+     "Ike Williams",
+     "Williams"
+    ],
+    [
+     "Ezzard Charles",
+     "Charles"
+    ],
+    [
+     "Rocky Marciano",
+     "Marciano"
+    ],
+    [
+     "Bobo Olson",
+     "Olson"
+    ],
+    [
+     "Floyd Patterson",
+     "Patterson"
+    ],
+    [
+     "Carmen Basilio",
+     "Basilio"
+    ],
+    [
+     "Ingemar Johansson",
+     "Johansson"
+    ],
+    [
+     "Joe Brown",
+     "Brown"
+    ],
+    [
+     "Dick Tiger",
+     "Tiger"
+    ],
+    [
+     "Muhammad Ali",
+     "Cassius Clay",
+     "Ali"
+    ],
+    [
+     "Emile Griffith",
+     "Griffith"
+    ],
+    [
+     "Joe Frazier",
+     "Frazier"
+    ],
+    [
+     "Nino Benvenuti",
+     "Benvenuti"
+    ],
+    [
+     "José Nápoles",
+     "Nápoles"
+    ],
+    [
+     "Carlos Monzón",
+     "Monzon"
+    ],
+    [
+     "George Foreman",
+     "Foreman"
+    ],
+    [
+     "Carlos Zarate",
+     "Zarate"
+    ],
+    [
+     "Sugar Ray Leonard",
+     "Leonard",
+     "Ray Leonard"
+    ],
+    [
+     "Thomas Hearns",
+     "Hearns"
+    ],
+    [
+     "Salvador Sánchez",
+     "Sánchez"
+    ],
+    [
+     "Larry Holmes",
+     "Holmes"
+    ],
+    [
+     "Marvin Hagler",
+     "Hagler"
+    ],
+    [
+     "Donald Curry",
+     "Curry"
+    ],
+    [
+     "Mike Tyson",
+     "Tyson"
+    ],
+    [
+     "Evander Holyfield",
+     "Holyfield"
+    ],
+    [
+     "Pernell Whitaker",
+     "Whitaker"
+    ],
+    [
+     "Julio César Chávez",
+     "Chavez"
+    ],
+    [
+     "James Toney",
+     "Toney"
+    ],
+    [
+     "Riddick Bowe",
+     "Bowe"
+    ],
+    [
+     "Michael Carbajal",
+     "Carbajal"
+    ],
+    [
+     "Roy Jones Jr.",
+     "Roy Jones",
+     "Roy Jones Junior"
+    ],
+    [
+     "Oscar De La Hoya",
+     "De La Hoya",
+     "Golden Boy"
+    ],
+    [
+     "Floyd Mayweather Jr.",
+     "Floyd Mayweather",
+     "Mayweather"
+    ],
+    [
+     "Paulie Ayala",
+     "Ayala"
+    ],
+    [
+     "Félix Trinidad",
+     "Tito Trinidad",
+     "Trinidad"
+    ],
+    [
+     "Bernard Hopkins",
+     "Hopkins"
+    ],
+    [
+     "Vernon Forrest",
+     "Forrest"
+    ],
+    [
+     "Glen Johnson",
+     "Johnson"
+    ],
+    [
+     "Ricky Hatton",
+     "Hatton"
+    ],
+    [
+     "Manny Pacquiao",
+     "Pacquiao",
+     "Pacman"
+    ],
+    [
+     "Sergio Martínez",
+     "Martínez"
+    ],
+    [
+     "Andre Ward",
+     "Ward"
+    ],
+    [
+     "Juan Manuel Márquez",
+     "Márquez"
+    ],
+    [
+     "Adonis Stevenson",
+     "Stevenson"
+    ],
+    [
+     "Sergey Kovalev",
+     "Kovalev"
+    ],
+    [
+     "Tyson Fury",
+     "Fury",
+     "Gypsy King"
+    ],
+    [
+     "Carl Frampton",
+     "Frampton"
+    ],
+    [
+     "Vasiliy Lomachenko",
+     "Lomachenko"
+    ],
+    [
+     "Oleksandr Usyk",
+     "Usyk"
+    ],
+    [
+     "Canelo Álvarez",
+     "Canelo",
+     "Alvarez",
+     "Saul Alvarez"
+    ],
+    [
+     "Teófimo López",
+     "López"
+    ],
+    [
+     "Dmitry Bivol",
+     "Bivol"
+    ],
+    [
+     "Naoya Inoue",
+     "Inoue"
+    ],
+    [
+     "Terence Crawford",
+     "Crawford"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-gb-olympic-boxing-gold",
+   "tags": [
+    "combat"
+   ],
+   "text": "Name a boxer who has won an Olympic boxing gold medal for Great Britain (1908 to 2024)",
+   "answers": [
+    [
+     "Richard Gunn",
+     "Gunn"
+    ],
+    [
+     "Frederick Grace",
+     "Grace"
+    ],
+    [
+     "John Douglas",
+     "Johnny Douglas",
+     "Douglas"
+    ],
+    [
+     "Albert Oldman",
+     "Oldman"
+    ],
+    [
+     "Henry Thomas",
+     "Thomas"
+    ],
+    [
+     "Harry Mallin",
+     "Mallin"
+    ],
+    [
+     "Ronald Rawson",
+     "Ronnie Rawson",
+     "Rawson"
+    ],
+    [
+     "Harry Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Terry Spinks",
+     "Terence Spinks",
+     "Spinks"
+    ],
+    [
+     "Dick McTaggart",
+     "McTaggart"
+    ],
+    [
+     "Chris Finnegan",
+     "Finnegan"
+    ],
+    [
+     "Audley Harrison",
+     "Harrison"
+    ],
+    [
+     "James DeGale",
+     "DeGale"
+    ],
+    [
+     "Anthony Joshua",
+     "Joshua"
+    ],
+    [
+     "Luke Campbell",
+     "Campbell"
+    ],
+    [
+     "Nicola Adams",
+     "Adams"
+    ],
+    [
+     "Galal Yafai",
+     "Yafai"
+    ],
+    [
+     "Lauren Price",
+     "Price"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-womens-olympic-boxing-gold",
+   "tags": [
+    "combat"
+   ],
+   "text": "Name a woman who has won an Olympic boxing gold medal (2012 to 2024)",
+   "answers": [
+    [
+     "Nicola Adams",
+     "Adams"
+    ],
+    [
+     "Katie Taylor",
+     "Taylor"
+    ],
+    [
+     "Claressa Shields",
+     "Shields"
+    ],
+    [
+     "Estelle Mossely",
+     "Mossely"
+    ],
+    [
+     "Stoyka Krasteva",
+     "Krasteva"
+    ],
+    [
+     "Sena Irie",
+     "Irie"
+    ],
+    [
+     "Kellie Harrington",
+     "Harrington"
+    ],
+    [
+     "Busenaz Sürmeneli",
+     "Sürmeneli"
+    ],
+    [
+     "Lauren Price",
+     "Price"
+    ],
+    "Wu Yu",
+    "Chang Yuan",
+    "Lin Yu-ting",
+    [
+     "Imane Khelif",
+     "Khelif"
+    ],
+    "Li Qian"
+   ]
+  },
+  {
+   "id": "spnd-olympic-judo-gold",
+   "tags": [
+    "combat"
+   ],
+   "text": "Name a judoka who has won an individual Olympic gold medal in judo (2000 to 2024)",
+   "answers": [
+    [
+     "Tadahiro Nomura",
+     "Nomura"
+    ],
+    "Choi Min-Ho",
+    [
+     "Arsen Galstyan",
+     "Galstyan"
+    ],
+    [
+     "Beslan Mudranov",
+     "Mudranov"
+    ],
+    [
+     "Naohisa Takato",
+     "Takato"
+    ],
+    [
+     "Yeldos Smetov",
+     "Smetov"
+    ],
+    [
+     "Hüseyin Özkan",
+     "Özkan"
+    ],
+    [
+     "Masato Uchishiba",
+     "Uchishiba"
+    ],
+    [
+     "Lasha Shavdatuashvili",
+     "Shavdatuashvili"
+    ],
+    [
+     "Fabio Basile",
+     "Basile"
+    ],
+    "Hifumi Abe",
+    [
+     "Giuseppe Maddaloni",
+     "Maddaloni"
+    ],
+    "Lee Won-hee",
+    [
+     "Elnur Mammadli",
+     "Mammadli"
+    ],
+    [
+     "Mansur Isaev",
+     "Isaev"
+    ],
+    [
+     "Shohei Ono",
+     "Ono"
+    ],
+    [
+     "Hidayat Heydarov",
+     "Heydarov"
+    ],
+    [
+     "Makoto Takimoto",
+     "Takimoto"
+    ],
+    [
+     "Ilias Iliadis",
+     "Iliadis"
+    ],
+    [
+     "Ole Bischof",
+     "Bischof"
+    ],
+    "Kim Jae-bum",
+    [
+     "Khasan Khalmurzaev",
+     "Khalmurzaev"
+    ],
+    [
+     "Takanori Nagase",
+     "Nagase"
+    ],
+    [
+     "Mark Huizinga",
+     "Huizinga"
+    ],
+    [
+     "Zurab Zviadauri",
+     "Zviadauri"
+    ],
+    [
+     "Irakli Tsirekidze",
+     "Tsirekidze"
+    ],
+    "Song Dae-nam",
+    [
+     "Mashu Baker",
+     "Baker"
+    ],
+    [
+     "Lasha Bekauri",
+     "Bekauri"
+    ],
+    [
+     "Kōsei Inoue",
+     "Inoue"
+    ],
+    [
+     "Ihar Makarau",
+     "Makarau"
+    ],
+    [
+     "Naidangiin Tüvshinbayar",
+     "Tuvshinbayar"
+    ],
+    [
+     "Tagir Khaybulaev",
+     "Khaybulaev"
+    ],
+    [
+     "Lukáš Krpálek",
+     "Krpálek"
+    ],
+    [
+     "Aaron Wolf",
+     "Wolf"
+    ],
+    [
+     "Zelym Kotsoiev",
+     "Kotsoiev"
+    ],
+    [
+     "David Douillet",
+     "Douillet"
+    ],
+    [
+     "Keiji Suzuki",
+     "Suzuki"
+    ],
+    [
+     "Satoshi Ishii",
+     "Ishii"
+    ],
+    [
+     "Teddy Riner",
+     "Riner"
+    ],
+    [
+     "Ryoko Tani",
+     "Ryoko Tamura",
+     "Tamura",
+     "Tani"
+    ],
+    [
+     "Alina Dumitru",
+     "Dumitru"
+    ],
+    [
+     "Sarah Menezes",
+     "Menezes"
+    ],
+    [
+     "Paula Pareto",
+     "Pareto"
+    ],
+    [
+     "Distria Krasniqi",
+     "Krasniqi"
+    ],
+    [
+     "Natsumi Tsunoda",
+     "Tsunoda"
+    ],
+    [
+     "Legna Verdecia",
+     "Verdecia"
+    ],
+    "Xian Dongmei",
+    "An Kum-ae",
+    [
+     "Majlinda Kelmendi",
+     "Kelmendi"
+    ],
+    "Uta Abe",
+    [
+     "Diyora Keldiyorova",
+     "Keldiyorova"
+    ],
+    [
+     "Isabel Fernández",
+     "Fernández"
+    ],
+    [
+     "Yvonne Bönisch",
+     "Bönisch"
+    ],
+    [
+     "Giulia Quintavalle",
+     "Quintavalle"
+    ],
+    [
+     "Kaori Matsumoto",
+     "Matsumoto"
+    ],
+    [
+     "Rafaela Silva",
+     "Silva"
+    ],
+    [
+     "Nora Gjakova",
+     "Gjakova"
+    ],
+    [
+     "Christa Deguchi",
+     "Deguchi"
+    ],
+    [
+     "Séverine Vandenhende",
+     "Vandenhende"
+    ],
+    [
+     "Ayumi Tanimoto",
+     "Tanimoto"
+    ],
+    [
+     "Urška Žolnir",
+     "Žolnir"
+    ],
+    [
+     "Tina Trstenjak",
+     "Trstenjak"
+    ],
+    [
+     "Clarisse Agbegnenou",
+     "Agbegnenou"
+    ],
+    [
+     "Andreja Leški",
+     "Leški"
+    ],
+    [
+     "Sibelis Veranes",
+     "Veranes"
+    ],
+    [
+     "Masae Ueno",
+     "Ueno"
+    ],
+    [
+     "Lucie Décosse",
+     "Décosse"
+    ],
+    [
+     "Haruka Tachimoto",
+     "Tachimoto"
+    ],
+    [
+     "Chizuru Arai",
+     "Arai"
+    ],
+    [
+     "Barbara Matić",
+     "Matić"
+    ],
+    "Tang Lin",
+    [
+     "Noriko Anno",
+     "Anno"
+    ],
+    "Yang Xiuli",
+    [
+     "Kayla Harrison",
+     "Harrison"
+    ],
+    [
+     "Shori Hamada",
+     "Hamada"
+    ],
+    [
+     "Alice Bellandi",
+     "Bellandi"
+    ],
+    "Yuan Hua",
+    [
+     "Maki Tsukada",
+     "Tsukada"
+    ],
+    "Tong Wen",
+    [
+     "Idalys Ortiz",
+     "Ortiz"
+    ],
+    [
+     "Émilie Andéol",
+     "Andéol"
+    ],
+    [
+     "Akira Sone",
+     "Sone"
+    ],
+    [
+     "Beatriz Souza",
+     "Souza"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-ufc-lighter-champions",
+   "tags": [
+    "ufc"
+   ],
+   "text": "Name a fighter who has been undisputed UFC men's champion at flyweight, bantamweight, featherweight or lightweight (as of October 2026)",
+   "answers": [
+    [
+     "Demetrious Johnson",
+     "Mighty Mouse",
+     "Johnson"
+    ],
+    [
+     "Henry Cejudo",
+     "Cejudo",
+     "Triple C"
+    ],
+    [
+     "Deiveson Figueiredo",
+     "Figueiredo",
+     "Deiveson",
+     "Daico"
+    ],
+    [
+     "Brandon Moreno",
+     "Moreno",
+     "The Assassin Baby"
+    ],
+    [
+     "Alexandre Pantoja",
+     "Pantoja",
+     "The Cannibal"
+    ],
+    "Joshua Van",
+    [
+     "Dominick Cruz",
+     "Cruz"
+    ],
+    [
+     "Renan Barão",
+     "Barao"
+    ],
+    [
+     "T.J. Dillashaw",
+     "Dillashaw"
+    ],
+    [
+     "Cody Garbrandt",
+     "Garbrandt",
+     "No Love"
+    ],
+    [
+     "Petr Yan",
+     "Yan"
+    ],
+    [
+     "Aljamain Sterling",
+     "Sterling",
+     "Funk Master"
+    ],
+    [
+     "Sean O'Malley",
+     "O'Malley",
+     "Suga"
+    ],
+    [
+     "Merab Dvalishvili",
+     "Dvalishvili",
+     "Merab"
+    ],
+    [
+     "José Aldo",
+     "Aldo"
+    ],
+    [
+     "Conor McGregor",
+     "Notorious",
+     "McGregor"
+    ],
+    [
+     "Max Holloway",
+     "Holloway",
+     "Blessed"
+    ],
+    [
+     "Alexander Volkanovski",
+     "Volkanovski",
+     "Volk"
+    ],
+    [
+     "Ilia Topuria",
+     "Topuria",
+     "El Matador"
+    ],
+    [
+     "Jens Pulver",
+     "Pulver",
+     "Lil Evil"
+    ],
+    [
+     "Sean Sherk",
+     "Sherk"
+    ],
+    [
+     "B.J. Penn",
+     "Penn"
+    ],
+    [
+     "Frankie Edgar",
+     "Edgar",
+     "The Answer"
+    ],
+    [
+     "Benson Henderson",
+     "Henderson"
+    ],
+    [
+     "Anthony Pettis",
+     "Pettis",
+     "Showtime"
+    ],
+    [
+     "Rafael dos Anjos",
+     "dos Anjos",
+     "RDA"
+    ],
+    [
+     "Eddie Alvarez",
+     "Alvarez",
+     "The Underground King"
+    ],
+    [
+     "Khabib Nurmagomedov",
+     "Khabib",
+     "Nurmagomedov"
+    ],
+    [
+     "Charles Oliveira",
+     "Oliveira",
+     "Do Bronx"
+    ],
+    [
+     "Islam Makhachev",
+     "Makhachev"
+    ],
+    [
+     "Justin Gaethje",
+     "Gaethje",
+     "The Highlight"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-ufc-womens-champions",
+   "tags": [
+    "ufc"
+   ],
+   "text": "Name a woman who has been a UFC champion in any weight class, including the former women's featherweight title (undisputed title reigns, as of October 2026)",
+   "answers": [
+    [
+     "Ronda Rousey",
+     "Rousey"
+    ],
+    [
+     "Holly Holm",
+     "Holm"
+    ],
+    [
+     "Miesha Tate",
+     "Tate",
+     "Cupcake"
+    ],
+    [
+     "Amanda Nunes",
+     "Nunes",
+     "Lioness"
+    ],
+    [
+     "Julianna Peña",
+     "Pena"
+    ],
+    [
+     "Raquel Pennington",
+     "Pennington"
+    ],
+    [
+     "Kayla Harrison",
+     "Harrison"
+    ],
+    [
+     "Nicco Montaño",
+     "Montano"
+    ],
+    [
+     "Valentina Shevchenko",
+     "Shevchenko",
+     "Bullet"
+    ],
+    [
+     "Alexa Grasso",
+     "Grasso"
+    ],
+    [
+     "Natália Silva",
+     "Silva"
+    ],
+    [
+     "Carla Esparza",
+     "Esparza"
+    ],
+    [
+     "Joanna Jędrzejczyk",
+     "Jedrzejczyk",
+     "Joanna"
+    ],
+    [
+     "Rose Namajunas",
+     "Namajunas",
+     "Thug Rose"
+    ],
+    [
+     "Jéssica Andrade",
+     "Andrade"
+    ],
+    [
+     "Zhang Weili",
+     "Weili Zhang",
+     "Weili"
+    ],
+    [
+     "Mackenzie Dern",
+     "Dern"
+    ],
+    [
+     "Germaine de Randamie",
+     "de Randamie"
+    ],
+    [
+     "Cris Cyborg",
+     "Cyborg",
+     "Cristiane Justino"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-ufc-interim-champions",
+   "tags": [
+    "ufc"
+   ],
+   "text": "Name a fighter who has held a UFC interim championship (as of October 2026)",
+   "answers": [
+    [
+     "Andrei Arlovski",
+     "Arlovski",
+     "Pitbull"
+    ],
+    [
+     "Antônio Rodrigo Nogueira",
+     "Rodrigo Nogueira",
+     "Minotauro",
+     "Big Nog",
+     "Nogueira"
+    ],
+    [
+     "Frank Mir",
+     "Mir"
+    ],
+    [
+     "Shane Carwin",
+     "Carwin"
+    ],
+    [
+     "Fabrício Werdum",
+     "Werdum"
+    ],
+    [
+     "Ciryl Gane",
+     "Gane",
+     "Bon Gamin"
+    ],
+    [
+     "Tom Aspinall",
+     "Aspinall"
+    ],
+    [
+     "Randy Couture",
+     "Couture",
+     "The Natural"
+    ],
+    [
+     "Jon Jones",
+     "Bones",
+     "Jonny Jones",
+     "Jones"
+    ],
+    [
+     "Robert Whittaker",
+     "Whittaker",
+     "The Reaper"
+    ],
+    [
+     "Israel Adesanya",
+     "Adesanya",
+     "Stylebender"
+    ],
+    [
+     "Georges St-Pierre",
+     "GSP",
+     "St-Pierre"
+    ],
+    [
+     "Carlos Condit",
+     "Condit",
+     "Natural Born Killer"
+    ],
+    [
+     "Colby Covington",
+     "Covington",
+     "Chaos"
+    ],
+    [
+     "Tony Ferguson",
+     "Ferguson",
+     "El Cucuy"
+    ],
+    [
+     "Dustin Poirier",
+     "Poirier",
+     "Diamond"
+    ],
+    [
+     "Justin Gaethje",
+     "Gaethje",
+     "The Highlight"
+    ],
+    [
+     "Conor McGregor",
+     "Notorious",
+     "McGregor"
+    ],
+    [
+     "José Aldo",
+     "Aldo"
+    ],
+    [
+     "Max Holloway",
+     "Holloway",
+     "Blessed"
+    ],
+    [
+     "Yair Rodríguez",
+     "Rodriguez",
+     "El Pantera"
+    ],
+    [
+     "Renan Barão",
+     "Barao"
+    ],
+    [
+     "Petr Yan",
+     "Yan"
+    ],
+    [
+     "Brandon Moreno",
+     "Moreno",
+     "The Assassin Baby"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-ufc-hall-of-fame-fighters",
+   "tags": [
+    "ufc"
+   ],
+   "text": "Name a fighter who has been inducted into the UFC Hall of Fame (Pioneer or Modern wing, as of October 2026)",
+   "answers": [
+    [
+     "Royce Gracie",
+     "Gracie"
+    ],
+    [
+     "Ken Shamrock",
+     "Shamrock"
+    ],
+    [
+     "Dan Severn",
+     "Severn"
+    ],
+    [
+     "Randy Couture",
+     "Couture",
+     "The Natural"
+    ],
+    [
+     "Mark Coleman",
+     "Coleman",
+     "The Hammer"
+    ],
+    [
+     "Chuck Liddell",
+     "Liddell",
+     "Iceman"
+    ],
+    [
+     "Matt Hughes",
+     "Hughes"
+    ],
+    [
+     "Tito Ortiz",
+     "Ortiz"
+    ],
+    [
+     "Pat Miletich",
+     "Miletich"
+    ],
+    [
+     "Bas Rutten",
+     "Rutten"
+    ],
+    [
+     "Antônio Rodrigo Nogueira",
+     "Rodrigo Nogueira",
+     "Minotauro",
+     "Big Nog",
+     "Nogueira"
+    ],
+    [
+     "Don Frye",
+     "Frye"
+    ],
+    [
+     "Maurice Smith",
+     "Mo Smith",
+     "Smith"
+    ],
+    [
+     "Kazushi Sakuraba",
+     "Sakuraba"
+    ],
+    [
+     "Matt Serra",
+     "Serra"
+    ],
+    [
+     "Rich Franklin",
+     "Franklin"
+    ],
+    [
+     "Kevin Randleman",
+     "Randleman"
+    ],
+    [
+     "Jens Pulver",
+     "Pulver",
+     "Lil Evil"
+    ],
+    [
+     "Anderson Silva",
+     "Spider"
+    ],
+    [
+     "Wanderlei Silva",
+     "Axe Murderer",
+     "Wanderlei"
+    ],
+    [
+     "Vitor Belfort",
+     "Belfort",
+     "The Phenom"
+    ],
+    [
+     "Mark Kerr",
+     "Kerr"
+    ],
+    [
+     "Forrest Griffin",
+     "Griffin"
+    ],
+    [
+     "B.J. Penn",
+     "Penn"
+    ],
+    [
+     "Urijah Faber",
+     "Faber"
+    ],
+    [
+     "Ronda Rousey",
+     "Rousey"
+    ],
+    [
+     "Rashad Evans",
+     "Evans"
+    ],
+    [
+     "Michael Bisping",
+     "Bisping"
+    ],
+    [
+     "Georges St-Pierre",
+     "GSP",
+     "St-Pierre"
+    ],
+    [
+     "Daniel Cormier",
+     "Cormier",
+     "DC"
+    ],
+    [
+     "Khabib Nurmagomedov",
+     "Khabib",
+     "Nurmagomedov"
+    ],
+    [
+     "Donald Cerrone",
+     "Cowboy Cerrone",
+     "Cowboy",
+     "Cerrone"
+    ],
+    [
+     "José Aldo",
+     "Aldo"
+    ],
+    [
+     "Maurício Rua",
+     "Shogun",
+     "Shogun Rua",
+     "Rua"
+    ],
+    [
+     "Joanna Jędrzejczyk",
+     "Jedrzejczyk",
+     "Joanna"
+    ],
+    [
+     "Frankie Edgar",
+     "Edgar",
+     "The Answer"
+    ],
+    [
+     "Robbie Lawler",
+     "Lawler"
+    ],
+    [
+     "Amanda Nunes",
+     "Nunes",
+     "Lioness"
+    ],
+    [
+     "Dominick Cruz",
+     "Cruz"
+    ],
+    [
+     "Demetrious Johnson",
+     "Mighty Mouse",
+     "Johnson"
+    ],
+    [
+     "Chris Weidman",
+     "Weidman"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-ufc-tournament-winners",
+   "tags": [
+    "ufc"
+   ],
+   "text": "Name a fighter who has won a UFC tournament (from UFC 1 in 1993 to the flyweight tournament of 2012; winners of The Ultimate Fighter are not included)",
+   "answers": [
+    [
+     "Royce Gracie",
+     "Gracie"
+    ],
+    [
+     "Steve Jennum",
+     "Jennum"
+    ],
+    [
+     "Dan Severn",
+     "Severn"
+    ],
+    [
+     "Oleg Taktarov",
+     "Taktarov"
+    ],
+    [
+     "Marco Ruas",
+     "Ruas"
+    ],
+    [
+     "Don Frye",
+     "Frye"
+    ],
+    [
+     "Mark Coleman",
+     "Coleman",
+     "The Hammer"
+    ],
+    [
+     "Vitor Belfort",
+     "Belfort",
+     "The Phenom"
+    ],
+    [
+     "Jerry Bohlander",
+     "Bohlander"
+    ],
+    [
+     "Randy Couture",
+     "Couture",
+     "The Natural"
+    ],
+    [
+     "Guy Mezger",
+     "Mezger"
+    ],
+    [
+     "Mark Kerr",
+     "Kerr"
+    ],
+    [
+     "Kevin Jackson",
+     "Jackson"
+    ],
+    [
+     "Kazushi Sakuraba",
+     "Sakuraba"
+    ],
+    [
+     "Pat Miletich",
+     "Miletich"
+    ],
+    [
+     "Dan Henderson",
+     "Henderson",
+     "Hendo"
+    ],
+    [
+     "Kenichi Yamamoto",
+     "Yamamoto",
+     "Kid Yamamoto"
+    ],
+    [
+     "Demetrious Johnson",
+     "Mighty Mouse",
+     "Johnson"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-ufc-brazilian-champions",
+   "tags": [
+    "ufc"
+   ],
+   "text": "Name a Brazilian fighter who has held a UFC title, undisputed or interim (as of October 2026)",
+   "answers": [
+    [
+     "Alex Pereira",
+     "Pereira",
+     "Poatan"
+    ],
+    [
+     "Alexandre Pantoja",
+     "Pantoja",
+     "The Cannibal"
+    ],
+    [
+     "Amanda Nunes",
+     "Nunes",
+     "Lioness"
+    ],
+    [
+     "Anderson Silva",
+     "Spider"
+    ],
+    [
+     "Antônio Rodrigo Nogueira",
+     "Rodrigo Nogueira",
+     "Minotauro",
+     "Big Nog",
+     "Nogueira"
+    ],
+    [
+     "Charles Oliveira",
+     "Oliveira",
+     "Do Bronx"
+    ],
+    [
+     "Cris Cyborg",
+     "Cyborg",
+     "Cristiane Justino"
+    ],
+    [
+     "Deiveson Figueiredo",
+     "Figueiredo",
+     "Deiveson",
+     "Daico"
+    ],
+    [
+     "Fabrício Werdum",
+     "Werdum"
+    ],
+    [
+     "Glover Teixeira",
+     "Teixeira"
+    ],
+    [
+     "José Aldo",
+     "Aldo"
+    ],
+    [
+     "Junior dos Santos",
+     "Cigano",
+     "dos Santos",
+     "JDS"
+    ],
+    [
+     "Jéssica Andrade",
+     "Andrade"
+    ],
+    [
+     "Lyoto Machida",
+     "Machida",
+     "The Dragon"
+    ],
+    [
+     "Mackenzie Dern",
+     "Dern"
+    ],
+    [
+     "Maurício Rua",
+     "Shogun",
+     "Shogun Rua",
+     "Rua"
+    ],
+    [
+     "Murilo Bustamante",
+     "Bustamante"
+    ],
+    "Natália Silva",
+    [
+     "Rafael dos Anjos",
+     "dos Anjos",
+     "RDA"
+    ],
+    [
+     "Renan Barão",
+     "Barao"
+    ],
+    [
+     "Vitor Belfort",
+     "Belfort",
+     "The Phenom"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-pot-black-winners",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who has won the BBC's Pot Black snooker tournament (the main competition, 1969 to 2007; not the junior or seniors events)",
+   "answers": [
+    [
+     "Ray Reardon",
+     "Reardon",
+     "Dracula"
+    ],
+    [
+     "John Spencer",
+     "Spencer"
+    ],
+    [
+     "Eddie Charlton",
+     "Charlton"
+    ],
+    [
+     "Graham Miles",
+     "Miles"
+    ],
+    [
+     "Perrie Mans",
+     "Mans"
+    ],
+    [
+     "Doug Mountjoy",
+     "Mountjoy"
+    ],
+    [
+     "Cliff Thorburn",
+     "Thorburn",
+     "Grinder"
+    ],
+    [
+     "Steve Davis",
+     "Davis"
+    ],
+    [
+     "Terry Griffiths",
+     "Griffiths"
+    ],
+    [
+     "Jimmy White",
+     "White",
+     "Whirlwind"
+    ],
+    [
+     "Neal Foulds",
+     "Foulds"
+    ],
+    [
+     "Matthew Stevens",
+     "Stevens"
+    ],
+    [
+     "Mark Williams",
+     "Williams"
+    ],
+    [
+     "Ken Doherty",
+     "Doherty"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-world-seniors-champions",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who has won the World Seniors Snooker Championship (1991 to 2026)",
+   "answers": [
+    [
+     "Cliff Wilson",
+     "Wilson"
+    ],
+    [
+     "Jimmy White",
+     "White",
+     "Whirlwind"
+    ],
+    [
+     "Darren Morgan",
+     "Morgan"
+    ],
+    [
+     "Nigel Bond",
+     "Bond"
+    ],
+    "Steve Davis",
+    [
+     "Mark Williams",
+     "Williams"
+    ],
+    "Mark Davis",
+    [
+     "Peter Lines",
+     "Lines"
+    ],
+    [
+     "Aaron Canavan",
+     "Canavan"
+    ],
+    [
+     "David Lilley",
+     "Lilley"
+    ],
+    "Lee Walker",
+    [
+     "Igor Figueiredo",
+     "Figueiredo"
+    ],
+    [
+     "Alfie Burden",
+     "Burden"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "O'Sullivan",
+     "Ronnie",
+     "Rocket"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-world-open-grand-prix-winners",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who has won the snooker World Open, including its earlier names the Professional Players Tournament, Grand Prix and LG Cup (1982 to 2026)",
+   "answers": [
+    [
+     "Ray Reardon",
+     "Reardon",
+     "Dracula"
+    ],
+    [
+     "Tony Knowles",
+     "Knowles"
+    ],
+    [
+     "Dennis Taylor",
+     "Taylor"
+    ],
+    [
+     "Steve Davis",
+     "Davis"
+    ],
+    [
+     "Jimmy White",
+     "White",
+     "Whirlwind"
+    ],
+    [
+     "Stephen Hendry",
+     "Hendry"
+    ],
+    [
+     "Peter Ebdon",
+     "Ebdon"
+    ],
+    [
+     "John Higgins",
+     "Higgins"
+    ],
+    [
+     "Mark Williams",
+     "Williams"
+    ],
+    [
+     "Dominic Dale",
+     "Dale"
+    ],
+    [
+     "Stephen Lee",
+     "Lee"
+    ],
+    [
+     "Chris Small",
+     "Small"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "O'Sullivan",
+     "Ronnie",
+     "Rocket"
+    ],
+    [
+     "Neil Robertson",
+     "Robertson"
+    ],
+    [
+     "Marco Fu",
+     "Fu"
+    ],
+    [
+     "Mark Allen",
+     "Allen"
+    ],
+    [
+     "Shaun Murphy",
+     "Murphy"
+    ],
+    [
+     "Ali Carter",
+     "Carter"
+    ],
+    [
+     "Ding Junhui",
+     "Ding"
+    ],
+    [
+     "Judd Trump",
+     "Trump"
+    ],
+    [
+     "Thepchaiya Un-Nooh",
+     "Un-Nooh"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-world-pool-masters-winners",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who has won the World Pool Masters (1993 to 2024)",
+   "answers": [
+    [
+     "Werner Duregger",
+     "Duregger"
+    ],
+    [
+     "Ralf Souquet",
+     "Souquet"
+    ],
+    [
+     "Daryl Peach",
+     "Peach"
+    ],
+    [
+     "Earl Strickland",
+     "Strickland",
+     "Pearl Harbor"
+    ],
+    [
+     "Francisco Bustamante",
+     "Bustamante"
+    ],
+    [
+     "Alex Lely",
+     "Lely"
+    ],
+    [
+     "Tony Drago",
+     "Drago"
+    ],
+    [
+     "Thomas Engert",
+     "Engert"
+    ],
+    [
+     "Raj Hundal",
+     "Hundal"
+    ],
+    [
+     "Alex Pagulayan",
+     "Pagulayan"
+    ],
+    [
+     "Darren Appleton",
+     "Appleton"
+    ],
+    [
+     "Dennis Orcollo",
+     "Orcollo"
+    ],
+    [
+     "Karol Skowerski",
+     "Skowerski"
+    ],
+    [
+     "Niels Feijen",
+     "Feijen"
+    ],
+    [
+     "Shane Van Boening",
+     "Van Boening",
+     "SVB"
+    ],
+    [
+     "David Alcaide",
+     "Alcaide"
+    ],
+    [
+     "Alexander Kazakis",
+     "Kazakis"
+    ],
+    [
+     "Joshua Filler",
+     "Filler"
+    ],
+    "Ko Pin-yi",
+    [
+     "Fedor Gorst",
+     "Gorst"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-us-open-pool-winners",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who has won the U.S. Open Pool Championship (nine-ball, 1976 to 2026)",
+   "answers": [
+    [
+     "Mike Sigel",
+     "Sigel",
+     "Captain Hook"
+    ],
+    [
+     "Allen Hopkins",
+     "Hopkins"
+    ],
+    [
+     "Louie Roberts",
+     "Roberts"
+    ],
+    [
+     "Steve Mizerak",
+     "Mizerak"
+    ],
+    [
+     "David Howard",
+     "Howard"
+    ],
+    [
+     "Earl Strickland",
+     "Strickland",
+     "Pearl Harbor"
+    ],
+    [
+     "Jimmy Reid",
+     "Reid"
+    ],
+    [
+     "Mike Lebrón",
+     "Lebrón"
+    ],
+    [
+     "Nick Varner",
+     "Varner"
+    ],
+    [
+     "Buddy Hall",
+     "Hall"
+    ],
+    [
+     "Tommy Kennedy",
+     "Kennedy"
+    ],
+    [
+     "Efren Reyes",
+     "Reyes",
+     "The Magician"
+    ],
+    [
+     "Reed Pierce",
+     "Pierce"
+    ],
+    [
+     "Rodney Morris",
+     "Morris"
+    ],
+    [
+     "Johnny Archer",
+     "Archer"
+    ],
+    [
+     "Corey Deuel",
+     "Deuel"
+    ],
+    [
+     "Ralf Souquet",
+     "Souquet"
+    ],
+    [
+     "Jeremy Jones",
+     "Jones"
+    ],
+    [
+     "Gabe Owen",
+     "Owen"
+    ],
+    [
+     "Alex Pagulayan",
+     "Pagulayan"
+    ],
+    [
+     "John Schmidt",
+     "Schmidt"
+    ],
+    [
+     "Shane Van Boening",
+     "Van Boening",
+     "SVB"
+    ],
+    [
+     "Mika Immonen",
+     "Immonen"
+    ],
+    [
+     "Darren Appleton",
+     "Appleton"
+    ],
+    [
+     "Kevin Cheng",
+     "Cheng"
+    ],
+    [
+     "Jayson Shaw",
+     "Shaw"
+    ],
+    [
+     "Joshua Filler",
+     "Filler"
+    ],
+    [
+     "Carlo Biado",
+     "Biado"
+    ],
+    [
+     "Francisco Sánchez Ruiz",
+     "Sanchez Ruiz",
+     "Ruiz"
+    ],
+    "Ko Ping-chung",
+    [
+     "Fedor Gorst",
+     "Gorst"
+    ],
+    [
+     "Aloysius Yapp",
+     "Yapp"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-mosconi-cup-europe-players",
+   "tags": [
+    "cue"
+   ],
+   "text": "Name a player who has played for Team Europe in the Mosconi Cup (1994 to 2025)",
+   "answers": [
+    [
+     "Ralf Souquet",
+     "Souquet"
+    ],
+    [
+     "Mika Immonen",
+     "Immonen"
+    ],
+    [
+     "Niels Feijen",
+     "Feijen"
+    ],
+    [
+     "Steve Davis",
+     "Davis"
+    ],
+    [
+     "Jayson Shaw",
+     "Shaw"
+    ],
+    [
+     "Oliver Ortmann",
+     "Ortmann"
+    ],
+    [
+     "Darren Appleton",
+     "Appleton"
+    ],
+    [
+     "Nick van den Berg",
+     "van den Berg"
+    ],
+    [
+     "Albin Ouschan",
+     "Ouschan"
+    ],
+    [
+     "David Alcaide",
+     "Alcaide"
+    ],
+    [
+     "Joshua Filler",
+     "Filler"
+    ],
+    [
+     "Marcus Chamat",
+     "Chamat"
+    ],
+    [
+     "Eklent Kaçi",
+     "Kaçi"
+    ],
+    [
+     "Karl Boyes",
+     "Boyes"
+    ],
+    [
+     "Steve Knight",
+     "Knight"
+    ],
+    [
+     "Thomas Engert",
+     "Engert"
+    ],
+    [
+     "Francisco Sánchez Ruiz",
+     "Sanchez Ruiz",
+     "Ruiz"
+    ],
+    [
+     "Mark Gray",
+     "Gray"
+    ],
+    [
+     "Thorsten Hohmann",
+     "Hohmann"
+    ],
+    [
+     "Alex Lely",
+     "Lely"
+    ],
+    [
+     "Tony Drago",
+     "Drago"
+    ],
+    [
+     "Nikos Ekonomopoulos",
+     "Ekonomopoulos"
+    ],
+    [
+     "Chris Melling",
+     "Melling"
+    ],
+    [
+     "Ronnie O'Sullivan",
+     "O'Sullivan",
+     "Ronnie"
+    ],
+    [
+     "Daryl Peach",
+     "Peach"
+    ],
+    [
+     "Tom Storm",
+     "Storm"
+    ],
+    [
+     "Jimmy White",
+     "White"
+    ],
+    [
+     "Alexander Kazakis",
+     "Kazakis"
+    ],
+    [
+     "Pijus Labutis",
+     "Labutis"
+    ],
+    [
+     "Moritz Neuhausen",
+     "Neuhausen"
+    ],
+    [
+     "Mickey Krause",
+     "Krause"
+    ],
+    [
+     "Fedor Gorst",
+     "Gorst"
+    ],
+    [
+     "Tommy Donlon",
+     "Donlon"
+    ],
+    [
+     "Vincent Facquet",
+     "Facquet"
+    ],
+    [
+     "Allison Fisher",
+     "Fisher"
+    ],
+    [
+     "Alex Higgins",
+     "Higgins",
+     "Hurricane"
+    ],
+    [
+     "Raj Hundal",
+     "Hundal"
+    ],
+    "Lee Kendall",
+    [
+     "Imran Majid",
+     "Majid"
+    ],
+    [
+     "Fabio Petroni",
+     "Petroni"
+    ],
+    [
+     "Andy Richardson",
+     "Richardson"
+    ],
+    [
+     "Franziska Stark",
+     "Stark"
+    ],
+    [
+     "Konstantin Stepanov",
+     "Stepanov"
+    ],
+    "Lee Tucker"
+   ]
+  },
+  {
+   "id": "spnd-world-masters-winners",
+   "tags": [
+    "darts"
+   ],
+   "text": "Name a player who has won the men's Winmau World Masters in darts (1974 to 2019)",
+   "answers": [
+    [
+     "Cliff Inglis",
+     "Inglis"
+    ],
+    [
+     "Alan Evans",
+     "Evans"
+    ],
+    [
+     "John Lowe",
+     "Old Stoneface",
+     "Lowe"
+    ],
+    [
+     "Eric Bristow",
+     "Crafty Cockney",
+     "Bristow"
+    ],
+    [
+     "Ronnie Davis",
+     "Davis"
+    ],
+    [
+     "Dave Whitcombe",
+     "Whitcombe"
+    ],
+    [
+     "Bob Anderson",
+     "The Limestone Cowboy",
+     "Anderson"
+    ],
+    [
+     "Peter Evison",
+     "Evison"
+    ],
+    [
+     "Phil Taylor",
+     "The Power",
+     "Taylor"
+    ],
+    [
+     "Rod Harrington",
+     "Harrington"
+    ],
+    [
+     "Dennis Priestley",
+     "The Menace",
+     "Priestley"
+    ],
+    [
+     "Steve Beaton",
+     "The Bronzed Adonis",
+     "Beaton"
+    ],
+    [
+     "Richie Burnett",
+     "The Prince of Wales",
+     "Burnett"
+    ],
+    [
+     "Erik Clarys",
+     "Clarys"
+    ],
+    [
+     "Colin Monk",
+     "Monk"
+    ],
+    [
+     "Graham Hunt",
+     "Hunt"
+    ],
+    [
+     "Les Wallace",
+     "Wallace"
+    ],
+    [
+     "Andy Fordham",
+     "The Viking",
+     "Fordham"
+    ],
+    [
+     "Michael van Gerwen",
+     "MVG",
+     "van Gerwen"
+    ],
+    [
+     "Robert Thornton",
+     "Thornton"
+    ],
+    [
+     "Martin Adams",
+     "Wolfie",
+     "Adams"
+    ],
+    [
+     "Scott Waites",
+     "Scotty 2 Hotty",
+     "Waites"
+    ],
+    [
+     "Stephen Bunting",
+     "The Bullet",
+     "Bunting"
+    ],
+    [
+     "Martin Phillips",
+     "Phillips"
+    ],
+    [
+     "Glen Durrant",
+     "Duzza",
+     "Durrant"
+    ],
+    [
+     "Krzysztof Ratajski",
+     "Ratajski",
+     "The Polish Eagle"
+    ],
+    [
+     "Adam Smith-Neale",
+     "Smith-Neale"
+    ],
+    [
+     "John O'Shea",
+     "O'Shea"
+    ],
+    [
+     "John Walton",
+     "Walton"
+    ],
+    [
+     "Raymond van Barneveld",
+     "Barney",
+     "van Barneveld"
+    ],
+    [
+     "Mark Dudbridge",
+     "Dudbridge"
+    ],
+    [
+     "Tony West",
+     "West"
+    ],
+    [
+     "Mervyn King",
+     "The King",
+     "King"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-bdo-worlds-finalists",
+   "tags": [
+    "darts"
+   ],
+   "text": "Name a player who reached the final of the men's BDO World Darts Championship at Lakeside (1978 to 2020)",
+   "answers": [
+    [
+     "Eric Bristow",
+     "Crafty Cockney",
+     "Bristow"
+    ],
+    [
+     "Raymond van Barneveld",
+     "Barney",
+     "van Barneveld"
+    ],
+    [
+     "John Lowe",
+     "Old Stoneface",
+     "Lowe"
+    ],
+    [
+     "Martin Adams",
+     "Wolfie",
+     "Adams"
+    ],
+    [
+     "Glen Durrant",
+     "Duzza",
+     "Durrant"
+    ],
+    [
+     "Scott Waites",
+     "Scotty 2 Hotty",
+     "Waites"
+    ],
+    [
+     "Ted Hankey",
+     "The Count",
+     "Hankey"
+    ],
+    [
+     "Phil Taylor",
+     "The Power",
+     "Taylor"
+    ],
+    [
+     "Jocky Wilson",
+     "Wilson"
+    ],
+    [
+     "Richie Burnett",
+     "The Prince of Wales",
+     "Burnett"
+    ],
+    [
+     "Leighton Rees",
+     "Rees"
+    ],
+    [
+     "Wayne Warren",
+     "Warren"
+    ],
+    [
+     "Stephen Bunting",
+     "The Bullet",
+     "Bunting"
+    ],
+    [
+     "Scott Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Christian Kist",
+     "Kist"
+    ],
+    [
+     "Mark Webster",
+     "Webster"
+    ],
+    [
+     "Keith Deller",
+     "Deller"
+    ],
+    [
+     "Jelle Klaasen",
+     "Klaasen"
+    ],
+    [
+     "Andy Fordham",
+     "The Viking",
+     "Fordham"
+    ],
+    [
+     "Tony David",
+     "David"
+    ],
+    [
+     "John Walton",
+     "Walton"
+    ],
+    [
+     "Les Wallace",
+     "Wallace"
+    ],
+    [
+     "Steve Beaton",
+     "The Bronzed Adonis",
+     "Beaton"
+    ],
+    [
+     "John Part",
+     "Darth Maple",
+     "Part"
+    ],
+    [
+     "Dennis Priestley",
+     "The Menace",
+     "Priestley"
+    ],
+    [
+     "Bob Anderson",
+     "The Limestone Cowboy",
+     "Anderson"
+    ],
+    [
+     "Tony O'Shea",
+     "O'Shea"
+    ],
+    [
+     "Ronnie Baxter",
+     "The Rocket",
+     "Baxter"
+    ],
+    [
+     "Mervyn King",
+     "The King",
+     "King"
+    ],
+    [
+     "Dave Whitcombe",
+     "Whitcombe"
+    ],
+    [
+     "Bobby George",
+     "George"
+    ],
+    [
+     "Alan Norris",
+     "Norris"
+    ],
+    [
+     "Dave Chisnall",
+     "Chisnall",
+     "Chizzy"
+    ],
+    [
+     "Dean Winstanley",
+     "Winstanley"
+    ],
+    [
+     "Simon Whitlock",
+     "The Wizard",
+     "Whitlock"
+    ],
+    [
+     "Phill Nixon",
+     "Nixon"
+    ],
+    [
+     "Marshall James",
+     "James"
+    ],
+    [
+     "Mike Gregory",
+     "Gregory"
+    ],
+    [
+     "Alan Warriner-Little",
+     "Alan Warriner",
+     "Warriner-Little",
+     "Warriner"
+    ],
+    [
+     "Jeff Smith",
+     "Smith"
+    ],
+    [
+     "Danny Noppert",
+     "Noppert"
+    ],
+    [
+     "Mark McGeeney",
+     "McGeeney"
+    ],
+    [
+     "Jim Williams",
+     "Williams"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-pdc-youth-champions",
+   "tags": [
+    "darts"
+   ],
+   "text": "Name a player who has won the PDC World Youth Championship (2011 to 2025)",
+   "answers": [
+    [
+     "Arron Monk",
+     "Monk"
+    ],
+    [
+     "James Hubbard",
+     "Hubbard"
+    ],
+    [
+     "Michael Smith",
+     "Bully Boy",
+     "Smith"
+    ],
+    [
+     "Keegan Brown",
+     "Brown"
+    ],
+    [
+     "Max Hopp",
+     "Hopp"
+    ],
+    [
+     "Corey Cadby",
+     "Cadby"
+    ],
+    [
+     "Dimitri van den Bergh",
+     "van den Bergh"
+    ],
+    [
+     "Luke Humphries",
+     "Cool Hand Luke",
+     "Humphries"
+    ],
+    [
+     "Bradley Brooks",
+     "Brooks"
+    ],
+    [
+     "Ted Evetts",
+     "Evetts"
+    ],
+    [
+     "Josh Rock",
+     "Rocky",
+     "Rock"
+    ],
+    [
+     "Luke Littler",
+     "The Nuke",
+     "Littler"
+    ],
+    [
+     "Gian van Veen",
+     "van Veen"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-pdc-worlds-nine-darters",
+   "tags": [
+    "darts"
+   ],
+   "text": "Name a player who has hit a nine-dart finish at the PDC World Darts Championship (2009 to 2026)",
+   "answers": [
+    [
+     "Raymond van Barneveld",
+     "Barney",
+     "van Barneveld"
+    ],
+    [
+     "Adrian Lewis",
+     "Jackpot",
+     "Lewis"
+    ],
+    [
+     "Dean Winstanley",
+     "Winstanley"
+    ],
+    [
+     "Michael van Gerwen",
+     "MVG",
+     "van Gerwen"
+    ],
+    [
+     "Terry Jenkins",
+     "The Bull",
+     "Jenkins"
+    ],
+    [
+     "Kyle Anderson",
+     "The Original"
+    ],
+    [
+     "Gary Anderson",
+     "The Flying Scotsman"
+    ],
+    [
+     "James Wade",
+     "The Machine",
+     "Wade"
+    ],
+    [
+     "William Borland",
+     "Borland"
+    ],
+    [
+     "Darius Labanauskas",
+     "Labanauskas"
+    ],
+    [
+     "Gerwyn Price",
+     "The Iceman",
+     "Price"
+    ],
+    [
+     "Michael Smith",
+     "Bully Boy",
+     "Smith"
+    ],
+    [
+     "Christian Kist",
+     "Kist"
+    ],
+    [
+     "Damon Heta",
+     "Heta",
+     "The Heat"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-premier-league-nine-darters",
+   "tags": [
+    "darts"
+   ],
+   "text": "Name a player who has hit a nine-dart finish in Premier League Darts (2006 to 2026)",
+   "answers": [
+    [
+     "Raymond van Barneveld",
+     "Barney",
+     "van Barneveld"
+    ],
+    [
+     "Phil Taylor",
+     "The Power",
+     "Taylor"
+    ],
+    [
+     "Simon Whitlock",
+     "The Wizard",
+     "Whitlock"
+    ],
+    [
+     "Adrian Lewis",
+     "Jackpot",
+     "Lewis"
+    ],
+    [
+     "Michael Smith",
+     "Bully Boy",
+     "Smith"
+    ],
+    [
+     "Peter Wright",
+     "Snakebite",
+     "Wright"
+    ],
+    [
+     "Jonny Clayton",
+     "The Ferret",
+     "Clayton"
+    ],
+    [
+     "Jose de Sousa",
+     "de Sousa"
+    ],
+    [
+     "Gerwyn Price",
+     "The Iceman",
+     "Price"
+    ],
+    [
+     "Luke Littler",
+     "The Nuke",
+     "Littler"
+    ],
+    [
+     "Luke Humphries",
+     "Cool Hand Luke",
+     "Humphries"
+    ],
+    [
+     "Rob Cross",
+     "Voltage",
+     "Cross"
+    ],
+    [
+     "Josh Rock",
+     "Rocky",
+     "Rock"
+    ]
+   ]
+  },
+  {
+   "id": "spnd-womens-world-masters-winners",
+   "tags": [
+    "darts"
+   ],
+   "text": "Name a woman who has won the women's Winmau World Masters in darts (1982 to 2019)",
+   "answers": [
+    [
+     "Ann Marie Davies",
+     "Davies"
+    ],
+    [
+     "Sonja Ralphs",
+     "Ralphs"
+    ],
+    [
+     "Kathy Wones",
+     "Wones"
+    ],
+    [
+     "Lilian Barnett",
+     "Barnett"
+    ],
+    [
+     "Ann Thomas",
+     "Thomas"
+    ],
+    [
+     "Mandy Solomons",
+     "Solomons"
+    ],
+    [
+     "Rhian Speed",
+     "Speed"
+    ],
+    [
+     "Sandy Reitan",
+     "Reitan"
+    ],
+    [
+     "Leeanne Maddock",
+     "Maddock"
+    ],
+    [
+     "Deta Hedman",
+     "Hedman"
+    ],
+    [
+     "Sharon Colclough",
+     "Colclough"
+    ],
+    [
+     "Sharon Douglas",
+     "Douglas"
+    ],
+    [
+     "Karen Lawman",
+     "Lawman"
+    ],
+    [
+     "Francis Hoenselaar",
+     "Hoenselaar",
+     "Franny"
+    ],
+    [
+     "Trina Gulliver",
+     "Gulliver",
+     "Golden Girl"
+    ],
+    [
+     "Anne Kirk",
+     "Kirk"
+    ],
+    [
+     "Karin Krappen",
+     "Krappen"
+    ],
+    [
+     "Linda Ithurralde",
+     "Ithurralde"
+    ],
+    [
+     "Julie Gore",
+     "Gore"
+    ],
+    [
+     "Lisa Ashton",
+     "Ashton",
+     "The Lancashire Rose"
+    ],
+    [
+     "Anastasia Dobromyslova",
+     "Dobromyslova"
+    ],
+    [
+     "Aileen de Graaf",
+     "de Graaf"
+    ],
+    [
+     "Lorraine Winstanley",
+     "Winstanley"
+    ]
+   ]
+  }
+ ]
+}

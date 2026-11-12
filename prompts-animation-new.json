@@ -1,0 +1,2405 @@
+{
+ "cat": "film",
+ "prompts": [
+  {
+   "id": "ann-oscar-animated-nominees",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a film nominated for the Oscar for Best Animated Feature (films from 2001 to 2025, winners included)",
+   "answers": [
+    "Shrek",
+    [
+     "Jimmy Neutron: Boy Genius",
+     "Jimmy Neutron"
+    ],
+    "Monsters, Inc.",
+    "Spirited Away",
+    "Ice Age",
+    "Lilo & Stitch",
+    [
+     "Spirit: Stallion of the Cimarron",
+     "Spirit"
+    ],
+    "Treasure Planet",
+    "Finding Nemo",
+    "Brother Bear",
+    "The Triplets of Belleville",
+    "The Incredibles",
+    "Shark Tale",
+    "Shrek 2",
+    [
+     "Wallace & Gromit: The Curse of the Were-Rabbit",
+     "Curse of the Were-Rabbit"
+    ],
+    "Corpse Bride",
+    "Howl's Moving Castle",
+    "Happy Feet",
+    "Cars",
+    "Monster House",
+    "Ratatouille",
+    "Persepolis",
+    "Surf's Up",
+    "WALL-E",
+    "Bolt",
+    "Kung Fu Panda",
+    "Up",
+    "Coraline",
+    "Fantastic Mr. Fox",
+    "The Princess and the Frog",
+    "The Secret of Kells",
+    "Toy Story 3",
+    "How to Train Your Dragon",
+    "The Illusionist",
+    "Rango",
+    "A Cat in Paris",
+    "Chico and Rita",
+    "Kung Fu Panda 2",
+    "Puss in Boots",
+    "Brave",
+    "Frankenweenie",
+    "ParaNorman",
+    [
+     "The Pirates! In an Adventure with Scientists!",
+     "The Pirates!",
+     "Pirates! Band of Misfits"
+    ],
+    "Wreck-It Ralph",
+    "Frozen",
+    "The Croods",
+    "Despicable Me 2",
+    "Ernest & Celestine",
+    "The Wind Rises",
+    "Big Hero 6",
+    "The Boxtrolls",
+    "How to Train Your Dragon 2",
+    "Song of the Sea",
+    [
+     "The Tale of the Princess Kaguya",
+     "Princess Kaguya"
+    ],
+    "Inside Out",
+    "Anomalisa",
+    "Boy and the World",
+    "Shaun the Sheep Movie",
+    "When Marnie Was There",
+    "Zootopia",
+    [
+     "Kubo and the Two Strings",
+     "Kubo"
+    ],
+    "Moana",
+    [
+     "My Life as a Courgette",
+     "My Life as a Zucchini"
+    ],
+    "The Red Turtle",
+    "Coco",
+    "The Boss Baby",
+    "The Breadwinner",
+    "Ferdinand",
+    "Loving Vincent",
+    [
+     "Spider-Man: Into the Spider-Verse",
+     "Into the Spider-Verse"
+    ],
+    "Incredibles 2",
+    "Isle of Dogs",
+    "Mirai",
+    [
+     "Ralph Breaks the Internet",
+     "Wreck-It Ralph 2"
+    ],
+    "Toy Story 4",
+    [
+     "How to Train Your Dragon: The Hidden World",
+     "The Hidden World"
+    ],
+    "I Lost My Body",
+    "Klaus",
+    "Missing Link",
+    "Soul",
+    "Onward",
+    "Over the Moon",
+    [
+     "A Shaun the Sheep Movie: Farmageddon",
+     "Farmageddon",
+     "Shaun the Sheep Movie: Farmageddon"
+    ],
+    "Wolfwalkers",
+    "Encanto",
+    "Flee",
+    "Luca",
+    [
+     "The Mitchells vs. the Machines",
+     "Mitchells vs the Machines"
+    ],
+    [
+     "Raya and the Last Dragon",
+     "Raya"
+    ],
+    [
+     "Guillermo del Toro's Pinocchio",
+     "Pinocchio",
+     "del Toro's Pinocchio"
+    ],
+    [
+     "Marcel the Shell with Shoes On",
+     "Marcel the Shell"
+    ],
+    [
+     "Puss in Boots: The Last Wish",
+     "The Last Wish"
+    ],
+    "The Sea Beast",
+    "Turning Red",
+    "The Boy and the Heron",
+    "Elemental",
+    "Nimona",
+    "Robot Dreams",
+    [
+     "Spider-Man: Across the Spider-Verse",
+     "Across the Spider-Verse"
+    ],
+    "Flow",
+    "Inside Out 2",
+    "Memoir of a Snail",
+    [
+     "Wallace & Gromit: Vengeance Most Fowl",
+     "Vengeance Most Fowl"
+    ],
+    "The Wild Robot",
+    [
+     "KPop Demon Hunters",
+     "K-Pop Demon Hunters"
+    ],
+    "Arco",
+    "Elio",
+    [
+     "Little Amélie or the Character of Rain",
+     "Little Amelie"
+    ],
+    "Zootopia 2"
+   ]
+  },
+  {
+   "id": "ann-kung-fu-panda-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from the Kung Fu Panda films",
+   "answers": [
+    "Po",
+    [
+     "Master Shifu",
+     "Shifu"
+    ],
+    [
+     "Tigress",
+     "Master Tigress"
+    ],
+    [
+     "Monkey",
+     "Master Monkey"
+    ],
+    [
+     "Mantis",
+     "Master Mantis"
+    ],
+    [
+     "Crane",
+     "Master Crane"
+    ],
+    [
+     "Viper",
+     "Master Viper"
+    ],
+    [
+     "Oogway",
+     "Master Oogway"
+    ],
+    [
+     "Mr. Ping",
+     "Ping"
+    ],
+    "Tai Lung",
+    [
+     "Lord Shen",
+     "Shen"
+    ],
+    "Kai",
+    "Li Shan",
+    "Zhen",
+    [
+     "The Chameleon",
+     "Chameleon"
+    ],
+    [
+     "Master Thundering Rhino",
+     "Thundering Rhino"
+    ],
+    [
+     "Master Croc",
+     "Croc"
+    ],
+    [
+     "Master Storming Ox",
+     "Storming Ox"
+    ],
+    "Mei Mei",
+    [
+     "The Soothsayer",
+     "Soothsayer"
+    ],
+    [
+     "Boss Wolf",
+     "Wolf Boss"
+    ]
+   ]
+  },
+  {
+   "id": "ann-httyd-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from the animated How to Train Your Dragon films",
+   "answers": [
+    "Hiccup",
+    "Toothless",
+    "Astrid",
+    [
+     "Stoick the Vast",
+     "Stoick"
+    ],
+    "Gobber",
+    "Snotlout",
+    "Fishlegs",
+    "Ruffnut",
+    "Tuffnut",
+    "Valka",
+    [
+     "Drago Bludvist",
+     "Drago"
+    ],
+    "Eret",
+    "Grimmel",
+    "Cloudjumper",
+    "Stormfly",
+    "Meatlug",
+    "Hookfang",
+    [
+     "Barf and Belch",
+     "Barf",
+     "Belch"
+    ],
+    "Light Fury",
+    "Red Death"
+   ]
+  },
+  {
+   "id": "ann-madagascar-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from the Madagascar films",
+   "answers": [
+    "Alex",
+    "Marty",
+    "Melman",
+    "Gloria",
+    [
+     "King Julien",
+     "Julien"
+    ],
+    "Maurice",
+    "Mort",
+    "Skipper",
+    "Kowalski",
+    "Rico",
+    "Private",
+    "Mason",
+    "Phil",
+    "Moto Moto",
+    "Makunga",
+    "Zuba",
+    "Florrie",
+    "Vitaly",
+    "Gia",
+    "Stefano",
+    [
+     "Captain Chantel DuBois",
+     "Chantel DuBois",
+     "DuBois"
+    ],
+    "Nana",
+    "Sonya"
+   ]
+  },
+  {
+   "id": "ann-adventure-time-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Adventure Time",
+   "answers": [
+    [
+     "Finn the Human",
+     "Finn"
+    ],
+    [
+     "Jake the Dog",
+     "Jake"
+    ],
+    [
+     "Princess Bubblegum",
+     "Bubblegum"
+    ],
+    "Marceline",
+    "Ice King",
+    [
+     "BMO",
+     "Beemo"
+    ],
+    [
+     "Lumpy Space Princess",
+     "LSP"
+    ],
+    [
+     "Lemongrab",
+     "Earl of Lemongrab"
+    ],
+    "Flame Princess",
+    "Gunter",
+    "Tree Trunks",
+    "Lady Rainicorn",
+    "Peppermint Butler",
+    "Cinnamon Bun",
+    "Hunson Abadeer",
+    "Magic Man",
+    "Betty",
+    [
+     "The Lich",
+     "Lich"
+    ],
+    "Fionna",
+    "Cake",
+    "Prismo",
+    "Neptr",
+    "Shelby",
+    "Susan Strong",
+    "Billy",
+    "Starchy",
+    "Jermaine",
+    "Joshua",
+    "Ricardio"
+   ]
+  },
+  {
+   "id": "ann-gravity-falls-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Gravity Falls",
+   "answers": [
+    [
+     "Dipper Pines",
+     "Dipper"
+    ],
+    [
+     "Mabel Pines",
+     "Mabel"
+    ],
+    [
+     "Grunkle Stan",
+     "Stan Pines",
+     "Stanley Pines",
+     "Stan"
+    ],
+    [
+     "Stanford Pines",
+     "Ford",
+     "Grunkle Ford"
+    ],
+    "Soos",
+    [
+     "Wendy Corduroy",
+     "Wendy"
+    ],
+    [
+     "Bill Cipher",
+     "Bill"
+    ],
+    "Waddles",
+    [
+     "Gideon Gleeful",
+     "Gideon"
+    ],
+    [
+     "Pacifica Northwest",
+     "Pacifica"
+    ],
+    [
+     "Candy Chiu",
+     "Candy"
+    ],
+    "Grenda",
+    [
+     "Robbie Valentino",
+     "Robbie"
+    ],
+    [
+     "Old Man McGucket",
+     "McGucket",
+     "Fiddleford McGucket"
+    ],
+    [
+     "Sheriff Blubs",
+     "Blubs"
+    ],
+    [
+     "Deputy Durland",
+     "Durland"
+    ],
+    "Lazy Susan",
+    "Toby Determined",
+    "Manly Dan",
+    "Tambry",
+    [
+     "Blendin Blandin",
+     "Blendin"
+    ],
+    "Gompers",
+    "Preston Northwest",
+    "Time Baby"
+   ]
+  },
+  {
+   "id": "ann-avatar-last-airbender-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Avatar: The Last Airbender (the animated series)",
+   "answers": [
+    "Aang",
+    "Katara",
+    "Sokka",
+    [
+     "Toph Beifong",
+     "Toph"
+    ],
+    "Zuko",
+    [
+     "Iroh",
+     "Uncle Iroh"
+    ],
+    "Azula",
+    "Appa",
+    "Momo",
+    "Suki",
+    [
+     "Ozai",
+     "Fire Lord Ozai"
+    ],
+    "Mai",
+    "Ty Lee",
+    [
+     "Avatar Roku",
+     "Roku"
+    ],
+    [
+     "Admiral Zhao",
+     "Zhao"
+    ],
+    "Jet",
+    [
+     "Bumi",
+     "King Bumi"
+    ],
+    "Hakoda",
+    [
+     "Pakku",
+     "Master Pakku"
+    ],
+    [
+     "Princess Yue",
+     "Yue"
+    ],
+    [
+     "Avatar Kyoshi",
+     "Kyoshi"
+    ],
+    "Combustion Man",
+    "Long Feng",
+    "Joo Dee",
+    "Teo",
+    "Haru",
+    "Hama",
+    "Ursa",
+    [
+     "Gran Gran",
+     "Kanna"
+    ],
+    [
+     "Gyatso",
+     "Monk Gyatso"
+    ],
+    [
+     "The Mechanist",
+     "Mechanist"
+    ],
+    [
+     "Piandao",
+     "Master Piandao"
+    ],
+    [
+     "Azulon",
+     "Fire Lord Azulon"
+    ],
+    "Smellerbee",
+    "Longshot",
+    [
+     "The Duke",
+     "Duke"
+    ],
+    "Bato",
+    "Hei Bai",
+    "Wan Shi Tong",
+    "Koh",
+    "Yangchen",
+    "Kuruk",
+    "Jeong Jeong"
+   ]
+  },
+  {
+   "id": "ann-bobs-burgers-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Bob's Burgers",
+   "answers": [
+    [
+     "Bob Belcher",
+     "Bob"
+    ],
+    [
+     "Linda Belcher",
+     "Linda"
+    ],
+    [
+     "Tina Belcher",
+     "Tina"
+    ],
+    [
+     "Gene Belcher",
+     "Gene"
+    ],
+    [
+     "Louise Belcher",
+     "Louise"
+    ],
+    "Teddy",
+    "Mort",
+    [
+     "Jimmy Pesto",
+     "Jimmy Pesto Sr"
+    ],
+    [
+     "Jimmy Pesto Jr.",
+     "Jimmy Jr"
+    ],
+    "Zeke",
+    [
+     "Calvin Fischoeder",
+     "Mr. Fischoeder",
+     "Fischoeder"
+    ],
+    [
+     "Felix Fischoeder",
+     "Felix"
+    ],
+    "Gayle",
+    [
+     "Regular-Sized Rudy",
+     "Rudy"
+    ],
+    "Hugo",
+    "Ron",
+    [
+     "Tammy Larsen",
+     "Tammy"
+    ],
+    [
+     "Mr. Frond",
+     "Frond"
+    ],
+    "Marshmallow",
+    "Millie",
+    "Darryl",
+    "Andy",
+    "Ollie",
+    "Courtney",
+    "Mickey",
+    "Critter",
+    "Nat Kinkle",
+    "Trev",
+    "Jocelyn"
+   ]
+  },
+  {
+   "id": "ann-shonen-jump-anime",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name an anime TV series based on a manga serialised in Weekly Shonen Jump (up to 2025)",
+   "answers": [
+    [
+     "Dragon Ball",
+     "Dragon Ball Z",
+     "Dragon Ball Super"
+    ],
+    [
+     "Naruto",
+     "Naruto Shippuden"
+    ],
+    "One Piece",
+    "Bleach",
+    [
+     "My Hero Academia",
+     "Boku no Hero Academia"
+    ],
+    [
+     "Demon Slayer",
+     "Kimetsu no Yaiba"
+    ],
+    "Jujutsu Kaisen",
+    [
+     "Hunter x Hunter",
+     "Hunter Hunter"
+    ],
+    "Death Note",
+    [
+     "Fist of the North Star",
+     "Hokuto no Ken"
+    ],
+    "Slam Dunk",
+    [
+     "Yu-Gi-Oh!",
+     "Yu-Gi-Oh",
+     "Yugioh"
+    ],
+    "Gintama",
+    [
+     "Haikyu!!",
+     "Haikyu",
+     "Haikyuu"
+    ],
+    "Black Clover",
+    [
+     "Dr. Stone",
+     "Dr Stone"
+    ],
+    "Chainsaw Man",
+    [
+     "Kuroko's Basketball",
+     "Kuroko no Basket"
+    ],
+    [
+     "Saint Seiya",
+     "Knights of the Zodiac"
+    ],
+    [
+     "Rurouni Kenshin",
+     "Samurai X"
+    ],
+    "Yu Yu Hakusho",
+    [
+     "The Prince of Tennis",
+     "Prince of Tennis"
+    ],
+    "Sakamoto Days",
+    "Toriko",
+    [
+     "Bobobo-bo Bo-bobo",
+     "Bobobo"
+    ],
+    "Hikaru no Go",
+    "Cat's Eye",
+    "City Hunter",
+    "Captain Tsubasa",
+    "Assassination Classroom",
+    [
+     "Food Wars!",
+     "Food Wars",
+     "Shokugeki no Soma"
+    ],
+    [
+     "The Promised Neverland",
+     "Promised Neverland"
+    ],
+    "Mashle",
+    [
+     "Dr. Slump",
+     "Dr Slump"
+    ],
+    "Bakuman",
+    "Eyeshield 21",
+    [
+     "Katekyo Hitman Reborn!",
+     "Reborn",
+     "Hitman Reborn"
+    ],
+    "Nisekoi",
+    "Sket Dance",
+    "Beelzebub",
+    [
+     "Dragon Quest: The Adventure of Dai",
+     "Dragon Quest Dai"
+    ]
+   ]
+  },
+  {
+   "id": "ann-uk-childrens-animated-series",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a UK-made children's animated TV series (including stop-motion and CGI)",
+   "answers": [
+    "Bob the Builder",
+    "Postman Pat",
+    "Fireman Sam",
+    [
+     "Thomas & Friends",
+     "Thomas the Tank Engine"
+    ],
+    "Peppa Pig",
+    "Bing",
+    "Hey Duggee",
+    [
+     "Ben & Holly's Little Kingdom",
+     "Ben and Holly"
+    ],
+    "Octonauts",
+    [
+     "The Clangers",
+     "Clangers"
+    ],
+    "Bagpuss",
+    [
+     "The Wombles",
+     "Wombles"
+    ],
+    "Mr Benn",
+    "Roobarb",
+    "Ivor the Engine",
+    "Noggin the Nog",
+    "Shaun the Sheep",
+    "Timmy Time",
+    "Charlie and Lola",
+    "Rastamouse",
+    [
+     "Sarah & Duck",
+     "Sarah and Duck"
+    ],
+    "Go Jetters",
+    "Danger Mouse",
+    [
+     "Count Duckula",
+     "Duckula"
+    ],
+    "SuperTed",
+    "Captain Pugwash",
+    "Camberwick Green",
+    "Trumpton",
+    "Chigley",
+    "Paddington",
+    "Henry's Cat",
+    "Jamie and the Magic Torch",
+    "Chorlton and the Wheelies",
+    "Willo the Wisp",
+    [
+     "The Wind in the Willows",
+     "Wind in the Willows"
+    ],
+    "Kipper",
+    "Little Princess",
+    "Pigeon Street",
+    "Maisy",
+    "Fifi and the Flowertots",
+    [
+     "Roary the Racing Car",
+     "Roary"
+    ],
+    "Tractor Tom",
+    [
+     "Bitz & Bob",
+     "Bitz and Bob"
+    ],
+    "Numberblocks",
+    "Alphablocks",
+    "Horrid Henry",
+    [
+     "The Raggy Dolls",
+     "Raggy Dolls"
+    ]
+   ]
+  },
+  {
+   "id": "ann-stop-motion-features",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a stop-motion animated feature film (up to 2025)",
+   "answers": [
+    "Coraline",
+    "ParaNorman",
+    [
+     "Kubo and the Two Strings",
+     "Kubo"
+    ],
+    [
+     "The Boxtrolls",
+     "Boxtrolls"
+    ],
+    "Isle of Dogs",
+    [
+     "Fantastic Mr. Fox",
+     "Fantastic Mr Fox"
+    ],
+    [
+     "Corpse Bride",
+     "Tim Burton's Corpse Bride"
+    ],
+    [
+     "The Nightmare Before Christmas",
+     "Nightmare Before Christmas"
+    ],
+    "James and the Giant Peach",
+    "Chicken Run",
+    [
+     "Wallace & Gromit: The Curse of the Were-Rabbit",
+     "Curse of the Were-Rabbit",
+     "Were-Rabbit"
+    ],
+    [
+     "Wallace & Gromit: Vengeance Most Fowl",
+     "Vengeance Most Fowl"
+    ],
+    "Shaun the Sheep Movie",
+    "Early Man",
+    [
+     "The Pirates! In an Adventure with Scientists!",
+     "The Pirates!",
+     "Pirates! Band of Misfits",
+     "Pirates Band of Misfits"
+    ],
+    "Anomalisa",
+    "Missing Link",
+    "Guillermo del Toro's Pinocchio",
+    "Wendell & Wild",
+    "Mary and Max",
+    "Frankenweenie",
+    [
+     "A Shaun the Sheep Movie: Farmageddon",
+     "Shaun the Sheep Farmageddon",
+     "Farmageddon"
+    ],
+    [
+     "Chicken Run: Dawn of the Nugget",
+     "Dawn of the Nugget"
+    ],
+    "Memoir of a Snail"
+   ]
+  },
+  {
+   "id": "ann-disney-dtv-sequels",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a direct-to-video sequel or prequel to a Disney animated feature film, released between 1994 and 2008",
+   "answers": [
+    [
+     "The Return of Jafar",
+     "Return of Jafar"
+    ],
+    "Aladdin and the King of Thieves",
+    [
+     "The Lion King II: Simba's Pride",
+     "Simba's Pride",
+     "Lion King 2"
+    ],
+    [
+     "The Lion King 1½",
+     "The Lion King 1 1/2",
+     "Lion King 1.5"
+    ],
+    [
+     "The Little Mermaid II: Return to the Sea",
+     "Return to the Sea",
+     "Little Mermaid 2"
+    ],
+    [
+     "The Little Mermaid: Ariel's Beginning",
+     "Ariel's Beginning"
+    ],
+    [
+     "Beauty and the Beast: The Enchanted Christmas",
+     "The Enchanted Christmas"
+    ],
+    "Belle's Magical World",
+    [
+     "Cinderella II: Dreams Come True",
+     "Dreams Come True"
+    ],
+    [
+     "Cinderella III: A Twist in Time",
+     "A Twist in Time"
+    ],
+    [
+     "Pocahontas II: Journey to a New World",
+     "Journey to a New World"
+    ],
+    [
+     "The Hunchback of Notre Dame II",
+     "Hunchback 2"
+    ],
+    [
+     "Mulan II",
+     "Mulan 2"
+    ],
+    [
+     "Tarzan II",
+     "Tarzan 2"
+    ],
+    [
+     "Tarzan & Jane",
+     "Tarzan and Jane"
+    ],
+    [
+     "Lady and the Tramp II: Scamp's Adventure",
+     "Scamp's Adventure",
+     "Lady and the Tramp 2"
+    ],
+    [
+     "101 Dalmatians II: Patch's London Adventure",
+     "Patch's London Adventure"
+    ],
+    [
+     "Bambi II",
+     "Bambi 2"
+    ],
+    [
+     "Lilo & Stitch 2: Stitch Has a Glitch",
+     "Stitch Has a Glitch"
+    ],
+    [
+     "Stitch! The Movie",
+     "Stitch The Movie"
+    ],
+    [
+     "The Fox and the Hound 2",
+     "Fox and the Hound 2"
+    ],
+    [
+     "Atlantis: Milo's Return",
+     "Milo's Return"
+    ],
+    "Brother Bear 2",
+    "Kronk's New Groove"
+   ]
+  },
+  {
+   "id": "ann-mel-blanc-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a cartoon character voiced by Mel Blanc",
+   "answers": [
+    "Bugs Bunny",
+    "Daffy Duck",
+    "Porky Pig",
+    "Sylvester",
+    "Tweety",
+    "Foghorn Leghorn",
+    [
+     "Pepé Le Pew",
+     "Pepe Le Pew"
+    ],
+    [
+     "Marvin the Martian",
+     "Marvin Martian"
+    ],
+    "Speedy Gonzales",
+    "Yosemite Sam",
+    "Henery Hawk",
+    "Barney Rubble",
+    "Dino",
+    [
+     "Cosmo Spacely",
+     "Mr. Spacely"
+    ],
+    "Captain Caveman",
+    "Heathcliff",
+    [
+     "Tasmanian Devil",
+     "Taz"
+    ],
+    "Sylvester Jr."
+   ]
+  },
+  {
+   "id": "ann-coco-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Pixar's Coco (2017)",
+   "answers": [
+    [
+     "Miguel Rivera",
+     "Miguel"
+    ],
+    [
+     "Héctor",
+     "Hector"
+    ],
+    [
+     "Ernesto de la Cruz",
+     "De la Cruz"
+    ],
+    [
+     "Mamá Imelda",
+     "Imelda",
+     "Mama Imelda"
+    ],
+    [
+     "Mamá Coco",
+     "Coco",
+     "Mama Coco"
+    ],
+    [
+     "Abuelita",
+     "Elena Rivera"
+    ],
+    "Dante",
+    "Pepita",
+    [
+     "Papá Julio",
+     "Julio",
+     "Papa Julio"
+    ],
+    [
+     "Tío Óscar",
+     "Oscar",
+     "Tio Oscar"
+    ],
+    [
+     "Tío Felipe",
+     "Felipe",
+     "Tio Felipe"
+    ],
+    [
+     "Tía Rosita",
+     "Rosita",
+     "Tia Rosita"
+    ],
+    [
+     "Tía Victoria",
+     "Victoria",
+     "Tia Victoria"
+    ],
+    [
+     "Chicharrón",
+     "Chicharron"
+    ],
+    "Frida Kahlo"
+   ]
+  },
+  {
+   "id": "ann-zootopia-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Disney's Zootopia (2016)",
+   "answers": [
+    [
+     "Judy Hopps",
+     "Judy"
+    ],
+    [
+     "Nick Wilde",
+     "Nick"
+    ],
+    [
+     "Chief Bogo",
+     "Bogo"
+    ],
+    [
+     "Clawhauser",
+     "Benjamin Clawhauser"
+    ],
+    [
+     "Flash",
+     "Flash Slothmore"
+    ],
+    [
+     "Dawn Bellwether",
+     "Bellwether"
+    ],
+    "Mr. Big",
+    "Fru Fru",
+    "Gazelle",
+    "Finnick",
+    [
+     "Mayor Lionheart",
+     "Lionheart"
+    ],
+    "Yax",
+    [
+     "Gideon Grey",
+     "Gideon"
+    ],
+    [
+     "Duke Weaselton",
+     "Weaselton"
+    ],
+    [
+     "Stu Hopps",
+     "Stu"
+    ],
+    [
+     "Bonnie Hopps",
+     "Bonnie"
+    ],
+    [
+     "Emmitt Otterton",
+     "Mr. Otterton",
+     "Otterton"
+    ],
+    "Mrs. Otterton",
+    "Manchas",
+    "Nangi",
+    "Priscilla",
+    [
+     "Bucky Oryx-Antlerson",
+     "Bucky"
+    ],
+    [
+     "Pronk Oryx-Antlerson",
+     "Pronk"
+    ]
+   ]
+  },
+  {
+   "id": "ann-beauty-beast-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Disney's Beauty and the Beast (1991)",
+   "answers": [
+    "Belle",
+    [
+     "The Beast",
+     "Beast",
+     "Prince Adam",
+     "Adam"
+    ],
+    "Gaston",
+    [
+     "LeFou",
+     "Le Fou"
+    ],
+    [
+     "Lumière",
+     "Lumiere"
+    ],
+    "Cogsworth",
+    [
+     "Mrs. Potts",
+     "Mrs Potts"
+    ],
+    "Chip",
+    "Maurice",
+    "Babette",
+    "Fifi",
+    [
+     "Madame de la Grande Bouche",
+     "Wardrobe"
+    ],
+    "Philippe",
+    [
+     "Monsieur D'Arque",
+     "D'Arque"
+    ],
+    [
+     "Footstool",
+     "Sultan"
+    ],
+    "Featherduster",
+    [
+     "Chef Bouche",
+     "Stove"
+    ],
+    [
+     "The Enchantress",
+     "Enchantress"
+    ]
+   ]
+  },
+  {
+   "id": "ann-little-mermaid-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Disney's The Little Mermaid (1989)",
+   "answers": [
+    "Ariel",
+    [
+     "Prince Eric",
+     "Eric"
+    ],
+    "Ursula",
+    "Sebastian",
+    "Flounder",
+    "Scuttle",
+    [
+     "King Triton",
+     "Triton"
+    ],
+    "Flotsam",
+    "Jetsam",
+    "Grimsby",
+    "Max",
+    [
+     "Chef Louis",
+     "Louis"
+    ],
+    "Carlotta",
+    "Attina",
+    "Alana",
+    "Adella",
+    "Aquata",
+    "Arista",
+    "Andrina",
+    "Vanessa"
+   ]
+  },
+  {
+   "id": "ann-mulan-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Disney's Mulan (1998)",
+   "answers": [
+    [
+     "Mulan",
+     "Fa Mulan"
+    ],
+    "Mushu",
+    [
+     "Li Shang",
+     "Captain Li Shang",
+     "Shang"
+    ],
+    [
+     "Cri-Kee",
+     "Cri Kee"
+    ],
+    "Khan",
+    "Shan Yu",
+    [
+     "Chi-Fu",
+     "Chi Fu"
+    ],
+    "Yao",
+    "Ling",
+    [
+     "Chien-Po",
+     "Chien Po"
+    ],
+    "Fa Zhou",
+    "Fa Li",
+    [
+     "Grandmother Fa",
+     "Grandma Fa"
+    ],
+    [
+     "The Emperor",
+     "Emperor of China"
+    ],
+    "Hayabusa",
+    "General Li",
+    "Little Brother",
+    [
+     "The Matchmaker",
+     "Matchmaker"
+    ]
+   ]
+  },
+  {
+   "id": "ann-ice-age-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from the Ice Age films",
+   "answers": [
+    "Manny",
+    "Sid",
+    "Diego",
+    "Scrat",
+    "Ellie",
+    "Crash",
+    "Eddie",
+    "Buck",
+    "Peaches",
+    "Shira",
+    "Louis",
+    [
+     "Granny",
+     "Sid's Granny"
+    ],
+    [
+     "Captain Gutt",
+     "Gutt"
+    ],
+    "Gavin",
+    "Flynn",
+    "Squint",
+    "Raz",
+    "Julian",
+    "Brooke",
+    "Scratte",
+    "Shangri Llama",
+    "Soto",
+    "Fast Tony"
+   ]
+  },
+  {
+   "id": "ann-jungle-book-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Disney's The Jungle Book (1967)",
+   "answers": [
+    "Mowgli",
+    "Baloo",
+    "Bagheera",
+    "Shere Khan",
+    "Kaa",
+    [
+     "King Louie",
+     "Louie"
+    ],
+    [
+     "Colonel Hathi",
+     "Hathi"
+    ],
+    [
+     "Hathi Jr.",
+     "Junior"
+    ],
+    "Winifred",
+    "Akela",
+    "Buzzie",
+    "Flaps",
+    "Ziggy",
+    "Dizzy"
+   ]
+  },
+  {
+   "id": "ann-dragon-ball-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Dragon Ball (any series)",
+   "answers": [
+    [
+     "Goku",
+     "Son Goku",
+     "Kakarot"
+    ],
+    "Vegeta",
+    [
+     "Gohan",
+     "Son Gohan"
+    ],
+    "Piccolo",
+    [
+     "Krillin",
+     "Kuririn"
+    ],
+    "Bulma",
+    [
+     "Frieza",
+     "Freeza"
+    ],
+    "Cell",
+    [
+     "Majin Buu",
+     "Buu"
+    ],
+    "Trunks",
+    "Goten",
+    "Yamcha",
+    [
+     "Tien",
+     "Tien Shinhan",
+     "Tenshinhan"
+    ],
+    "Chiaotzu",
+    [
+     "Master Roshi",
+     "Roshi",
+     "Kame Sennin"
+    ],
+    [
+     "Chi-Chi",
+     "Chichi"
+    ],
+    "Android 17",
+    "Android 18",
+    "Android 16",
+    "Android 19",
+    "Raditz",
+    "Nappa",
+    "Beerus",
+    "Whis",
+    "Videl",
+    [
+     "Mr. Satan",
+     "Hercule",
+     "Hercule Satan"
+    ],
+    "Oolong",
+    "Puar",
+    "Launch",
+    "Shenron",
+    "Dende",
+    "Kami",
+    "King Kai",
+    "Broly",
+    "Jiren",
+    "Zamasu",
+    "Gotenks",
+    "Vegito",
+    "Gogeta",
+    "Bardock",
+    "King Cold",
+    "Cooler",
+    [
+     "Dr. Gero",
+     "Dr Gero"
+    ],
+    "Pan",
+    "Uub",
+    [
+     "Ox-King",
+     "Ox King"
+    ],
+    [
+     "Korin",
+     "Karin"
+    ],
+    "Yajirobe",
+    [
+     "Supreme Kai",
+     "Shin"
+    ],
+    "Babidi",
+    "Dabura",
+    "Hit",
+    "Goku Black",
+    "Cabba",
+    "Kale",
+    "Caulifla",
+    "Toppo",
+    "Zarbon",
+    "Dodoria",
+    [
+     "Captain Ginyu",
+     "Ginyu"
+    ],
+    "Recoome",
+    "Pilaf",
+    "King Piccolo",
+    "General Blue",
+    [
+     "Mr. Popo",
+     "Mr Popo"
+    ]
+   ]
+  },
+  {
+   "id": "ann-naruto-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Naruto (including Naruto Shippuden and Boruto)",
+   "answers": [
+    [
+     "Naruto Uzumaki",
+     "Naruto"
+    ],
+    [
+     "Sasuke Uchiha",
+     "Sasuke"
+    ],
+    [
+     "Sakura Haruno",
+     "Sakura"
+    ],
+    [
+     "Kakashi Hatake",
+     "Kakashi"
+    ],
+    [
+     "Hinata Hyuga",
+     "Hinata"
+    ],
+    [
+     "Shikamaru Nara",
+     "Shikamaru"
+    ],
+    [
+     "Itachi Uchiha",
+     "Itachi"
+    ],
+    "Gaara",
+    "Jiraiya",
+    "Tsunade",
+    "Orochimaru",
+    [
+     "Rock Lee",
+     "Lee"
+    ],
+    [
+     "Neji Hyuga",
+     "Neji"
+    ],
+    [
+     "Kiba Inuzuka",
+     "Kiba"
+    ],
+    [
+     "Shino Aburame",
+     "Shino"
+    ],
+    [
+     "Choji Akimichi",
+     "Choji"
+    ],
+    [
+     "Ino Yamanaka",
+     "Ino"
+    ],
+    "Tenten",
+    [
+     "Minato Namikaze",
+     "Minato"
+    ],
+    [
+     "Kushina Uzumaki",
+     "Kushina"
+    ],
+    [
+     "Madara Uchiha",
+     "Madara"
+    ],
+    [
+     "Obito Uchiha",
+     "Obito",
+     "Tobi"
+    ],
+    [
+     "Nagato",
+     "Pain"
+    ],
+    "Konan",
+    [
+     "Kisame Hoshigaki",
+     "Kisame"
+    ],
+    "Deidara",
+    "Sasori",
+    "Hidan",
+    "Kakuzu",
+    "Zetsu",
+    [
+     "Might Guy",
+     "Guy",
+     "Gai"
+    ],
+    [
+     "Iruka Umino",
+     "Iruka"
+    ],
+    [
+     "Asuma Sarutobi",
+     "Asuma"
+    ],
+    [
+     "Kurenai Yuhi",
+     "Kurenai"
+    ],
+    "Temari",
+    "Kankuro",
+    [
+     "Killer Bee",
+     "Killer B"
+    ],
+    [
+     "Hashirama Senju",
+     "Hashirama"
+    ],
+    [
+     "Tobirama Senju",
+     "Tobirama"
+    ],
+    [
+     "Hiruzen Sarutobi",
+     "Hiruzen"
+    ],
+    [
+     "Danzo Shimura",
+     "Danzo"
+    ],
+    [
+     "Kabuto Yakushi",
+     "Kabuto"
+    ],
+    [
+     "Boruto Uzumaki",
+     "Boruto"
+    ],
+    [
+     "Sarada Uchiha",
+     "Sarada"
+    ],
+    "Mitsuki",
+    [
+     "Kaguya Otsutsuki",
+     "Kaguya"
+    ],
+    "Konohamaru",
+    "Haku",
+    "Zabuza",
+    [
+     "Kurama",
+     "Nine-Tails"
+    ],
+    "Jugo",
+    "Suigetsu"
+   ]
+  },
+  {
+   "id": "ann-phineas-ferb-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Phineas and Ferb",
+   "answers": [
+    [
+     "Phineas Flynn",
+     "Phineas"
+    ],
+    [
+     "Ferb Fletcher",
+     "Ferb"
+    ],
+    [
+     "Candace Flynn",
+     "Candace"
+    ],
+    [
+     "Perry the Platypus",
+     "Perry",
+     "Agent P"
+    ],
+    [
+     "Dr. Heinz Doofenshmirtz",
+     "Doofenshmirtz",
+     "Dr Doof",
+     "Heinz Doofenshmirtz"
+    ],
+    [
+     "Isabella Garcia-Shapiro",
+     "Isabella"
+    ],
+    [
+     "Buford Van Stomm",
+     "Buford"
+    ],
+    [
+     "Baljeet Tjinder",
+     "Baljeet"
+    ],
+    [
+     "Major Monogram",
+     "Francis Monogram"
+    ],
+    "Carl",
+    [
+     "Linda Flynn-Fletcher",
+     "Linda"
+    ],
+    [
+     "Lawrence Fletcher",
+     "Lawrence"
+    ],
+    [
+     "Vanessa Doofenshmirtz",
+     "Vanessa"
+    ],
+    [
+     "Stacy Hirano",
+     "Stacy"
+    ],
+    [
+     "Jeremy Johnson",
+     "Jeremy"
+    ],
+    "Norm",
+    [
+     "Irving Du Bois",
+     "Irving"
+    ],
+    [
+     "Django Brown",
+     "Django"
+    ],
+    [
+     "Pinky the Chihuahua",
+     "Pinky"
+    ],
+    [
+     "Suzy Johnson",
+     "Suzy"
+    ],
+    "Coltrane",
+    "Albert",
+    [
+     "Charlene Doofenshmirtz",
+     "Charlene"
+    ],
+    [
+     "Roger Doofenshmirtz",
+     "Roger"
+    ],
+    "Mitch",
+    [
+     "Ginger Hirano",
+     "Ginger"
+    ],
+    [
+     "Adyson Sweetwater",
+     "Adyson"
+    ],
+    "Gretchen",
+    "Milly",
+    "Meap"
+   ]
+  },
+  {
+   "id": "ann-steven-universe-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Steven Universe",
+   "answers": [
+    [
+     "Steven Universe",
+     "Steven"
+    ],
+    "Garnet",
+    "Amethyst",
+    "Pearl",
+    [
+     "Greg Universe",
+     "Greg"
+    ],
+    [
+     "Connie Maheswaran",
+     "Connie"
+    ],
+    [
+     "Lapis Lazuli",
+     "Lapis"
+    ],
+    "Peridot",
+    "Jasper",
+    [
+     "Lars Barriga",
+     "Lars"
+    ],
+    [
+     "Sadie Miller",
+     "Sadie"
+    ],
+    "Sour Cream",
+    "Onion",
+    [
+     "Mr. Smiley",
+     "Mr Smiley"
+    ],
+    "Yellow Diamond",
+    "Blue Diamond",
+    "White Diamond",
+    "Pink Diamond",
+    [
+     "Rose Quartz",
+     "Rose"
+    ],
+    "Bismuth",
+    "Opal",
+    "Sugilite",
+    "Stevonnie",
+    "Rhodonite",
+    [
+     "Peedee Fryman",
+     "Peedee"
+    ],
+    [
+     "Mayor Dewey",
+     "Dewey"
+    ],
+    [
+     "Ronaldo Fryman",
+     "Ronaldo"
+    ],
+    "Kevin",
+    "Spinel",
+    "Sardonyx",
+    "Ruby",
+    "Sapphire",
+    [
+     "Priyanka Maheswaran",
+     "Priyanka"
+    ],
+    "Jamie",
+    [
+     "Buck Dewey",
+     "Buck"
+    ],
+    "Lion",
+    "Centipeedle",
+    "Smoky Quartz",
+    "Malachite",
+    "Padparadscha",
+    "Fluorite",
+    [
+     "Holly Blue Agate",
+     "Holly Blue"
+    ]
+   ]
+  },
+  {
+   "id": "ann-powerpuff-girls-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from the original Powerpuff Girls (1998 to 2005)",
+   "answers": [
+    "Blossom",
+    "Bubbles",
+    "Buttercup",
+    [
+     "Professor Utonium",
+     "Professor",
+     "Utonium"
+    ],
+    [
+     "Mojo Jojo",
+     "Mojo"
+    ],
+    [
+     "HIM",
+     "Him"
+    ],
+    [
+     "Fuzzy Lumpkins",
+     "Fuzzy"
+    ],
+    [
+     "Princess Morbucks",
+     "Princess"
+    ],
+    [
+     "The Mayor",
+     "Mayor of Townsville",
+     "Mayor"
+    ],
+    [
+     "Ms. Bellum",
+     "Miss Bellum",
+     "Sara Bellum"
+    ],
+    [
+     "Ms. Keane",
+     "Miss Keane"
+    ],
+    "Sedusa",
+    "Ace",
+    "Snake",
+    "Grubber",
+    "Big Billy",
+    [
+     "Lil' Arturo",
+     "Little Arturo"
+    ],
+    "Brick",
+    "Boomer",
+    "Butch",
+    [
+     "The Narrator",
+     "Narrator"
+    ],
+    "Talking Dog",
+    "Bunny",
+    "Femme Fatale",
+    "Major Man",
+    "Robin Snyder"
+   ]
+  },
+  {
+   "id": "ann-lilo-stitch-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Disney's Lilo & Stitch (2002), its sequels or its TV series",
+   "answers": [
+    [
+     "Lilo Pelekai",
+     "Lilo"
+    ],
+    [
+     "Stitch",
+     "Experiment 626"
+    ],
+    [
+     "Nani Pelekai",
+     "Nani"
+    ],
+    [
+     "David Kawena",
+     "David"
+    ],
+    [
+     "Jumba Jookiba",
+     "Jumba"
+    ],
+    "Pleakley",
+    [
+     "Cobra Bubbles",
+     "Bubbles"
+    ],
+    [
+     "Captain Gantu",
+     "Gantu"
+    ],
+    [
+     "The Grand Councilwoman",
+     "Grand Councilwoman"
+    ],
+    [
+     "Mertle Edmonds",
+     "Mertle"
+    ],
+    [
+     "Mrs. Hasagawa",
+     "Hasagawa"
+    ],
+    [
+     "Pudge the Fish",
+     "Pudge"
+    ],
+    [
+     "Angel",
+     "Experiment 624"
+    ],
+    [
+     "Reuben",
+     "Experiment 625"
+    ],
+    [
+     "Dr. Jacques von Hämsterviel",
+     "Hamsterviel",
+     "Hämsterviel"
+    ],
+    [
+     "Sparky",
+     "Experiment 221"
+    ]
+   ]
+  },
+  {
+   "id": "ann-us-adult-animated-series",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name an American animated TV series aimed at adults (up to 2025)",
+   "answers": [
+    [
+     "The Simpsons",
+     "Simpsons"
+    ],
+    "Family Guy",
+    [
+     "American Dad!",
+     "American Dad"
+    ],
+    "Futurama",
+    "King of the Hill",
+    "Bob's Burgers",
+    "South Park",
+    [
+     "Beavis and Butt-Head",
+     "Beavis and Butthead"
+    ],
+    "Archer",
+    "Rick and Morty",
+    [
+     "BoJack Horseman",
+     "Bojack"
+    ],
+    "Big Mouth",
+    [
+     "The Cleveland Show",
+     "Cleveland Show"
+    ],
+    [
+     "Harvey Birdman: Attorney at Law",
+     "Harvey Birdman"
+    ],
+    [
+     "Aqua Teen Hunger Force",
+     "Aqua Teen"
+    ],
+    [
+     "The Venture Bros.",
+     "Venture Bros",
+     "Venture Brothers"
+    ],
+    "Metalocalypse",
+    "Robot Chicken",
+    "Duckman",
+    [
+     "Dr. Katz, Professional Therapist",
+     "Dr. Katz",
+     "Dr Katz"
+    ],
+    "Mission Hill",
+    [
+     "The Critic",
+     "Critic"
+    ],
+    "Home Movies",
+    "Solar Opposites",
+    "F Is for Family",
+    "Disenchantment",
+    "Hazbin Hotel",
+    "Invincible",
+    "Harley Quinn",
+    "Central Park",
+    "Undone",
+    [
+     "Tuca & Bertie",
+     "Tuca and Bertie"
+    ],
+    "Primal",
+    "Castlevania",
+    [
+     "Star Trek: Lower Decks",
+     "Lower Decks"
+    ],
+    "Squidbillies",
+    "Sealab 2021",
+    "Frisky Dingo",
+    "Drawn Together",
+    "Ugly Americans",
+    "Paradise PD",
+    "Final Space",
+    "Smiling Friends",
+    [
+     "The Boondocks",
+     "Boondocks"
+    ],
+    "Celebrity Deathmatch",
+    "Aeon Flux",
+    "Clone High",
+    "Moral Orel",
+    "Brickleberry",
+    [
+     "Mr. Pickles",
+     "Mr Pickles"
+    ]
+   ]
+  },
+  {
+   "id": "ann-1980s-childrens-animated-series",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a children's animated TV series that premiered in the 1980s (1980 to 1989, any country)",
+   "answers": [
+    [
+     "He-Man and the Masters of the Universe",
+     "He-Man"
+    ],
+    [
+     "She-Ra: Princess of Power",
+     "She-Ra"
+    ],
+    [
+     "ThunderCats",
+     "Thundercats"
+    ],
+    [
+     "The Care Bears",
+     "Care Bears"
+    ],
+    [
+     "The Transformers",
+     "Transformers"
+    ],
+    [
+     "G.I. Joe: A Real American Hero",
+     "GI Joe"
+    ],
+    [
+     "My Little Pony",
+     "My Little Pony 'n Friends"
+    ],
+    [
+     "The Smurfs",
+     "Smurfs"
+    ],
+    [
+     "Teenage Mutant Ninja Turtles",
+     "Ninja Turtles"
+    ],
+    [
+     "DuckTales",
+     "Duck Tales"
+    ],
+    [
+     "Chip 'n Dale Rescue Rangers",
+     "Rescue Rangers"
+    ],
+    [
+     "Adventures of the Gummi Bears",
+     "Gummi Bears"
+    ],
+    "Inspector Gadget",
+    [
+     "M.A.S.K.",
+     "MASK"
+    ],
+    "Jem",
+    "Visionaries",
+    [
+     "SilverHawks",
+     "Silverhawks"
+    ],
+    "Centurions",
+    [
+     "Dungeons & Dragons",
+     "Dungeons and Dragons"
+    ],
+    "Rainbow Brite",
+    "Muppet Babies",
+    "Alvin and the Chipmunks",
+    "Pound Puppies",
+    [
+     "The Snorks",
+     "Snorks"
+    ],
+    "Garfield and Friends",
+    [
+     "The Real Ghostbusters",
+     "Real Ghostbusters"
+    ],
+    "Danger Mouse",
+    [
+     "Count Duckula",
+     "Duckula"
+    ],
+    "Defenders of the Earth",
+    [
+     "BraveStarr",
+     "Bravestarr"
+    ],
+    [
+     "Voltron: Defender of the Universe",
+     "Voltron"
+    ],
+    "Jayce and the Wheeled Warriors",
+    [
+     "The Raccoons",
+     "Raccoons"
+    ],
+    [
+     "The Wuzzles",
+     "Wuzzles"
+    ],
+    "The Get Along Gang",
+    "Popples",
+    "Ulysses 31",
+    [
+     "The Mysterious Cities of Gold",
+     "Mysterious Cities of Gold"
+    ],
+    [
+     "Dogtanian and the Three Muskehounds",
+     "Dogtanian"
+    ],
+    "Willo the Wisp",
+    "Bananaman",
+    "SuperTed",
+    [
+     "Challenge of the GoBots",
+     "GoBots"
+    ],
+    "Robotech",
+    [
+     "Dr. Slump",
+     "Dr Slump"
+    ],
+    [
+     "A Pup Named Scooby-Doo",
+     "Pup Named Scooby-Doo"
+    ]
+   ]
+  },
+  {
+   "id": "ann-spider-verse-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from the Spider-Verse films (Into or Across the Spider-Verse)",
+   "answers": [
+    [
+     "Miles Morales",
+     "Miles"
+    ],
+    [
+     "Peter B. Parker",
+     "Peter B"
+    ],
+    [
+     "Gwen Stacy",
+     "Spider-Gwen",
+     "Ghost-Spider"
+    ],
+    [
+     "Spider-Man Noir",
+     "Noir"
+    ],
+    [
+     "Peni Parker",
+     "Peni"
+    ],
+    [
+     "Spider-Ham",
+     "Peter Porker"
+    ],
+    [
+     "Kingpin",
+     "Wilson Fisk"
+    ],
+    [
+     "Prowler",
+     "Aaron Davis"
+    ],
+    [
+     "Doctor Octopus",
+     "Doc Ock",
+     "Olivia Octavius"
+    ],
+    "Aunt May",
+    "Jefferson Davis",
+    "Rio Morales",
+    "Scorpion",
+    "Tombstone",
+    "Green Goblin",
+    [
+     "Mary Jane Watson",
+     "Mary Jane"
+    ],
+    "Ganke",
+    [
+     "Miguel O'Hara",
+     "Spider-Man 2099"
+    ],
+    [
+     "Spot",
+     "Johnathan Ohnn"
+    ],
+    [
+     "Jessica Drew",
+     "Spider-Woman"
+    ],
+    [
+     "Hobie Brown",
+     "Spider-Punk",
+     "Hobie"
+    ],
+    [
+     "Pavitr Prabhakar",
+     "Spider-Man India",
+     "Pavitr"
+    ],
+    "Vulture",
+    "Rhino",
+    "Lyla",
+    "Margo Kess",
+    "Mayday Parker",
+    [
+     "George Stacy",
+     "Captain Stacy"
+    ]
+   ]
+  },
+  {
+   "id": "ann-cinderella-1950-characters",
+   "tags": [
+    "animation"
+   ],
+   "text": "Name a character from Disney's Cinderella (1950)",
+   "answers": [
+    "Cinderella",
+    [
+     "Prince Charming",
+     "The Prince"
+    ],
+    [
+     "Lady Tremaine",
+     "The Stepmother",
+     "Stepmother"
+    ],
+    "Anastasia",
+    "Drizella",
+    [
+     "The Fairy Godmother",
+     "Fairy Godmother"
+    ],
+    "Jaq",
+    [
+     "Gus",
+     "Gus-Gus"
+    ],
+    "Lucifer",
+    "Bruno",
+    "Major",
+    [
+     "The Grand Duke",
+     "Grand Duke",
+     "Duke"
+    ],
+    [
+     "The King",
+     "King"
+    ],
+    "Suzy",
+    "Perla"
+   ]
+  }
+ ]
+}

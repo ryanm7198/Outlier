@@ -1,0 +1,1834 @@
+{
+ "cat": "film",
+ "prompts": [
+  {
+   "id": "chn-peep-show",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from Peep Show",
+   "answers": [
+    [
+     "Mark Corrigan",
+     "Mark",
+     "Corrigan"
+    ],
+    [
+     "Jeremy Usbourne",
+     "Jeremy",
+     "Jez",
+     "Usbourne",
+     "Usborne",
+     "Jeremy Usborne"
+    ],
+    [
+     "Super Hans",
+     "Hans"
+    ],
+    [
+     "Alan Johnson",
+     "Johnson",
+     "Alan"
+    ],
+    [
+     "Sophie Chapman",
+     "Sophie"
+    ],
+    [
+     "Jeff Heaney",
+     "Jeff"
+    ],
+    "Dobby",
+    [
+     "Big Suze",
+     "Suze",
+     "Suzanne"
+    ],
+    [
+     "April Danecroft",
+     "April"
+    ],
+    [
+     "Gerard Matthew",
+     "Gerard"
+    ],
+    [
+     "Gail Huggins",
+     "Gail"
+    ],
+    [
+     "Ian Chapman",
+     "Ian"
+    ],
+    "Zahra",
+    "Elena",
+    "Nancy",
+    "Toni",
+    [
+     "Sarah Corrigan",
+     "Sarah"
+    ],
+    "Megan",
+    [
+     "Big Mad Andy",
+     "Mad Andy"
+    ],
+    [
+     "Angus Maynard",
+     "Angus"
+    ]
+   ]
+  },
+  {
+   "id": "chn-doctor-who-actors",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name an actor who has played the Doctor in the Doctor Who TV series (1963 to 2025, including the War Doctor and the Fugitive Doctor)",
+   "answers": [
+    [
+     "William Hartnell",
+     "Hartnell"
+    ],
+    [
+     "Patrick Troughton",
+     "Troughton"
+    ],
+    [
+     "Jon Pertwee",
+     "Pertwee"
+    ],
+    "Tom Baker",
+    [
+     "Peter Davison",
+     "Davison"
+    ],
+    "Colin Baker",
+    [
+     "Sylvester McCoy",
+     "McCoy"
+    ],
+    [
+     "Paul McGann",
+     "McGann"
+    ],
+    [
+     "Christopher Eccleston",
+     "Eccleston"
+    ],
+    [
+     "David Tennant",
+     "Tennant"
+    ],
+    "Matt Smith",
+    [
+     "Peter Capaldi",
+     "Capaldi"
+    ],
+    [
+     "Jodie Whittaker",
+     "Whittaker"
+    ],
+    [
+     "Ncuti Gatwa",
+     "Gatwa"
+    ],
+    [
+     "John Hurt",
+     "Hurt"
+    ],
+    "Jo Martin",
+    "David Bradley",
+    [
+     "Richard Hurndall",
+     "Hurndall"
+    ]
+   ]
+  },
+  {
+   "id": "chn-robert-downey-jr",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character Robert Downey Jr. has played in a film (up to 2025)",
+   "answers": [
+    [
+     "Tony Stark",
+     "Iron Man"
+    ],
+    "Sherlock Holmes",
+    [
+     "Charlie Chaplin",
+     "Chaplin"
+    ],
+    "Kirk Lazarus",
+    "Harry Lockhart",
+    "Paul Avery",
+    [
+     "John Dolittle",
+     "Dr Dolittle",
+     "Doctor Dolittle",
+     "Dolittle"
+    ],
+    "Julian Wells",
+    "Hank Palmer",
+    [
+     "Lewis Strauss",
+     "Strauss"
+    ],
+    "Wayne Gale",
+    [
+     "Terry Crabtree",
+     "Crabtree"
+    ],
+    "Derek Lutz",
+    "Jeremy Hawke",
+    [
+     "Robert Merivel",
+     "Merivel"
+    ],
+    "Pete Graham",
+    "Billy Covington"
+   ]
+  },
+  {
+   "id": "chn-johnny-depp",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character Johnny Depp has played in a film (up to 2025)",
+   "answers": [
+    [
+     "Jack Sparrow",
+     "Captain Jack Sparrow"
+    ],
+    [
+     "Edward Scissorhands",
+     "Edward"
+    ],
+    [
+     "Willy Wonka",
+     "Wonka"
+    ],
+    "Sweeney Todd",
+    [
+     "Mad Hatter",
+     "Hatter",
+     "Tarrant Hightopp"
+    ],
+    "Ichabod Crane",
+    "Gilbert Grape",
+    [
+     "Donnie Brasco",
+     "Joe Pistone"
+    ],
+    "Ed Wood",
+    "Raoul Duke",
+    "Tonto",
+    [
+     "John Dillinger",
+     "Dillinger"
+    ],
+    [
+     "Gellert Grindelwald",
+     "Grindelwald"
+    ],
+    [
+     "Barnabas Collins",
+     "Barnabas"
+    ],
+    [
+     "Wade Walker",
+     "Cry-Baby",
+     "Cry Baby"
+    ],
+    [
+     "Whitey Bulger",
+     "James Bulger"
+    ],
+    [
+     "J. M. Barrie",
+     "JM Barrie",
+     "James Barrie",
+     "Barrie"
+    ],
+    "George Jung",
+    "Mort Rainey",
+    "Dean Corso",
+    [
+     "Charlie Mortdecai",
+     "Mortdecai"
+    ],
+    "Frank Tupelo",
+    "Paul Kemp",
+    "William Blake",
+    "Axel Blackmar",
+    "Will Caster",
+    "Rango"
+   ]
+  },
+  {
+   "id": "chn-tom-hanks",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character Tom Hanks has played in a film (up to 2025)",
+   "answers": [
+    [
+     "Forrest Gump",
+     "Forrest"
+    ],
+    [
+     "Woody",
+     "Sheriff Woody"
+    ],
+    [
+     "John H. Miller",
+     "Captain Miller",
+     "John Miller"
+    ],
+    [
+     "Robert Langdon",
+     "Langdon"
+    ],
+    [
+     "Chuck Noland",
+     "Noland"
+    ],
+    "Sam Baldwin",
+    "Josh Baskin",
+    [
+     "Jim Lovell",
+     "Lovell"
+    ],
+    [
+     "Richard Phillips",
+     "Captain Phillips"
+    ],
+    "Walt Disney",
+    [
+     "Fred Rogers",
+     "Mister Rogers",
+     "Mr Rogers"
+    ],
+    "Andrew Beckett",
+    "Paul Edgecomb",
+    "Michael Sullivan",
+    "Viktor Navorski",
+    [
+     "Carl Hanratty",
+     "Hanratty"
+    ],
+    "Joe Fox",
+    "Jimmy Dugan",
+    [
+     "Colonel Tom Parker",
+     "Tom Parker"
+    ],
+    "Geppetto",
+    [
+     "Otto Anderson",
+     "Otto"
+    ],
+    "Joe Banks"
+   ]
+  },
+  {
+   "id": "chn-harrison-ford",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character Harrison Ford has played in a film (up to 2025)",
+   "answers": [
+    [
+     "Han Solo",
+     "Han"
+    ],
+    [
+     "Indiana Jones",
+     "Indy"
+    ],
+    [
+     "Rick Deckard",
+     "Deckard"
+    ],
+    "Jack Ryan",
+    [
+     "Richard Kimble",
+     "Dr Richard Kimble"
+    ],
+    [
+     "James Marshall",
+     "President James Marshall"
+    ],
+    "John Book",
+    "Allie Fox",
+    "Bob Falfa",
+    [
+     "Thaddeus Ross",
+     "Thunderbolt Ross",
+     "General Ross"
+    ],
+    "Branch Rickey",
+    [
+     "Hyrum Graff",
+     "Colonel Graff"
+    ],
+    "John Thornton",
+    "Rusty Sabich",
+    "Henry Turner",
+    "Jack Trainer",
+    "Quinn Harris"
+   ]
+  },
+  {
+   "id": "chn-hugh-jackman",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character Hugh Jackman has played in a film (up to 2025)",
+   "answers": [
+    [
+     "Wolverine",
+     "Logan",
+     "James Howlett"
+    ],
+    [
+     "Jean Valjean",
+     "Valjean"
+    ],
+    [
+     "P. T. Barnum",
+     "PT Barnum",
+     "Barnum"
+    ],
+    [
+     "Robert Angier",
+     "Angier"
+    ],
+    [
+     "Gabriel Van Helsing",
+     "Van Helsing"
+    ],
+    "Stanley Jobson",
+    [
+     "Leopold Mountbatten",
+     "Leopold"
+    ],
+    "Charlie Kenton",
+    "Blackbeard",
+    "Keller Dover",
+    "Frank Tassone",
+    "Bronson Peary",
+    "Nick Bannister",
+    "Gary Hart",
+    [
+     "Lionel Frost",
+     "Sir Lionel Frost"
+    ],
+    [
+     "Easter Bunny",
+     "Bunnymund",
+     "E. Aster Bunnymund"
+    ],
+    "Memphis",
+    [
+     "Roddy St. James",
+     "Roddy"
+    ],
+    [
+     "The Drover",
+     "Drover"
+    ],
+    "Peter Strauss"
+   ]
+  },
+  {
+   "id": "chn-monsters-inc",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from Monsters, Inc. or Monsters University",
+   "answers": [
+    [
+     "Mike Wazowski",
+     "Mike",
+     "Wazowski"
+    ],
+    [
+     "James P. Sullivan",
+     "Sulley",
+     "Sullivan",
+     "James Sullivan"
+    ],
+    "Boo",
+    [
+     "Randall Boggs",
+     "Randall"
+    ],
+    "Roz",
+    [
+     "Celia Mae",
+     "Celia"
+    ],
+    [
+     "Henry J. Waternoose",
+     "Waternoose",
+     "Mr Waternoose"
+    ],
+    "Fungus",
+    "Needleman",
+    "Smitty",
+    [
+     "Dean Hardscrabble",
+     "Hardscrabble"
+    ],
+    "Art",
+    [
+     "Squishy",
+     "Scott Squibbles"
+    ],
+    [
+     "Don Carlton",
+     "Don"
+    ],
+    [
+     "Terri Perry",
+     "Terri"
+    ],
+    [
+     "Terry Perry",
+     "Terry"
+    ],
+    [
+     "Johnny Worthington",
+     "Johnny"
+    ],
+    [
+     "Abominable Snowman",
+     "Yeti",
+     "Snowman"
+    ]
+   ]
+  },
+  {
+   "id": "chn-cars",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Pixar films Cars, Cars 2 or Cars 3",
+   "answers": [
+    [
+     "Lightning McQueen",
+     "McQueen",
+     "Lightning"
+    ],
+    [
+     "Mater",
+     "Tow Mater"
+    ],
+    [
+     "Sally Carrera",
+     "Sally"
+    ],
+    [
+     "Doc Hudson",
+     "Doc"
+    ],
+    "Luigi",
+    "Guido",
+    "Ramone",
+    "Flo",
+    "Fillmore",
+    "Sarge",
+    "Sheriff",
+    "Lizzie",
+    "Red",
+    "Mack",
+    [
+     "Chick Hicks",
+     "Chick"
+    ],
+    [
+     "Strip Weathers",
+     "The King",
+     "King"
+    ],
+    [
+     "Finn McMissile",
+     "Finn"
+    ],
+    [
+     "Holley Shiftwell",
+     "Holley"
+    ],
+    [
+     "Francesco Bernoulli",
+     "Francesco"
+    ],
+    [
+     "Professor Z",
+     "Professor Zundapp"
+    ],
+    [
+     "Cruz Ramirez",
+     "Cruz"
+    ],
+    "Jackson Storm",
+    "Smokey",
+    "Miss Fritter",
+    "Sterling",
+    "Tex Dinoco",
+    [
+     "Darrell Cartrip",
+     "Darrell"
+    ]
+   ]
+  },
+  {
+   "id": "chn-inside-out",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Pixar films Inside Out or Inside Out 2",
+   "answers": [
+    "Joy",
+    "Sadness",
+    "Anger",
+    "Fear",
+    "Disgust",
+    [
+     "Riley Andersen",
+     "Riley"
+    ],
+    "Bing Bong",
+    "Anxiety",
+    "Envy",
+    "Ennui",
+    "Embarrassment",
+    "Nostalgia",
+    [
+     "Jangles the Clown",
+     "Jangles"
+    ],
+    "Lance Slashblade",
+    "Pouchy",
+    "Bloofy",
+    [
+     "Val Ortiz",
+     "Val"
+    ],
+    "Grace",
+    "Bree"
+   ]
+  },
+  {
+   "id": "chn-wallace-gromit",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Wallace & Gromit films",
+   "answers": [
+    "Wallace",
+    "Gromit",
+    [
+     "Feathers McGraw",
+     "Feathers"
+    ],
+    "Preston",
+    [
+     "Wendolene Ramsbottom",
+     "Wendolene"
+    ],
+    "Shaun",
+    "Fluffles",
+    [
+     "Piella Bakewell",
+     "Piella"
+    ],
+    [
+     "Victor Quartermaine",
+     "Victor"
+    ],
+    [
+     "Lady Tottington",
+     "Tottington",
+     "Lady Campanula Tottington"
+    ],
+    "Hutch",
+    [
+     "Reverend Hedges",
+     "Hedges",
+     "Clement Hedges"
+    ],
+    [
+     "PC Mackintosh",
+     "Mackintosh"
+    ],
+    "Norbot"
+   ]
+  },
+  {
+   "id": "chn-guardians-galaxy",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Guardians of the Galaxy films (2014 to 2023)",
+   "answers": [
+    [
+     "Peter Quill",
+     "Star-Lord",
+     "Star Lord",
+     "Quill"
+    ],
+    "Gamora",
+    "Drax",
+    [
+     "Rocket",
+     "Rocket Raccoon"
+    ],
+    "Groot",
+    "Nebula",
+    "Mantis",
+    "Yondu",
+    "Ronan",
+    "Ego",
+    [
+     "Adam Warlock",
+     "Warlock"
+    ],
+    "Kraglin",
+    "Cosmo",
+    "Ayesha",
+    "High Evolutionary",
+    [
+     "Collector",
+     "Taneleer Tivan"
+    ],
+    "Thanos",
+    "Korath",
+    "Taserface",
+    [
+     "Stakar Ogord",
+     "Stakar"
+    ],
+    [
+     "Nova Prime",
+     "Irani Rael"
+    ],
+    "Howard the Duck",
+    "Rhomann Dey"
+   ]
+  },
+  {
+   "id": "chn-film-robots",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a robot, android or artificial intelligence from a film (up to 2025)",
+   "answers": [
+    [
+     "R2-D2",
+     "R2D2"
+    ],
+    [
+     "C-3PO",
+     "C3PO"
+    ],
+    [
+     "BB-8",
+     "BB8"
+    ],
+    [
+     "WALL-E",
+     "Wall E"
+    ],
+    "EVE",
+    [
+     "Terminator",
+     "T-800",
+     "T800"
+    ],
+    [
+     "T-1000",
+     "T1000"
+    ],
+    [
+     "Robby the Robot",
+     "Robby"
+    ],
+    [
+     "HAL 9000",
+     "HAL"
+    ],
+    [
+     "Johnny 5",
+     "Johnny Five"
+    ],
+    "Optimus Prime",
+    "Bumblebee",
+    "Megatron",
+    "Baymax",
+    [
+     "The Iron Giant",
+     "Iron Giant"
+    ],
+    "Ava",
+    "David",
+    "Roy Batty",
+    "Sonny",
+    "Bishop",
+    "Ash",
+    "Gort",
+    "Maria",
+    "Chappie",
+    "Ultron",
+    "Vision",
+    [
+     "K-2SO",
+     "K2SO"
+    ],
+    "TARS",
+    "CASE",
+    "Gerty",
+    [
+     "Andrew Martin",
+     "Bicentennial Man"
+    ],
+    "Samantha"
+   ]
+  },
+  {
+   "id": "chn-brooklyn-nine-nine",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from Brooklyn Nine-Nine",
+   "answers": [
+    [
+     "Jake Peralta",
+     "Jake",
+     "Peralta"
+    ],
+    [
+     "Amy Santiago",
+     "Amy",
+     "Santiago"
+    ],
+    [
+     "Rosa Diaz",
+     "Rosa",
+     "Diaz"
+    ],
+    [
+     "Terry Jeffords",
+     "Terry",
+     "Jeffords"
+    ],
+    [
+     "Charles Boyle",
+     "Charles",
+     "Boyle"
+    ],
+    [
+     "Raymond Holt",
+     "Captain Holt",
+     "Holt"
+    ],
+    [
+     "Gina Linetti",
+     "Gina",
+     "Linetti"
+    ],
+    [
+     "Michael Hitchcock",
+     "Hitchcock"
+    ],
+    [
+     "Norm Scully",
+     "Scully"
+    ],
+    [
+     "Kevin Cozner",
+     "Kevin"
+    ],
+    "Cheddar",
+    [
+     "Doug Judy",
+     "Pontiac Bandit",
+     "Judy"
+    ],
+    [
+     "Madeline Wuntch",
+     "Wuntch"
+    ],
+    [
+     "Adrian Pimento",
+     "Pimento"
+    ],
+    [
+     "Keith Pembroke",
+     "Vulture"
+    ],
+    [
+     "Sophia Perez",
+     "Sophia"
+    ],
+    [
+     "Nikolaj Boyle",
+     "Nikolaj"
+    ],
+    [
+     "Genevieve Boyle",
+     "Genevieve"
+    ]
+   ]
+  },
+  {
+   "id": "chn-parks-and-recreation",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from Parks and Recreation",
+   "answers": [
+    [
+     "Leslie Knope",
+     "Leslie",
+     "Knope"
+    ],
+    [
+     "Ron Swanson",
+     "Ron",
+     "Swanson"
+    ],
+    [
+     "April Ludgate",
+     "April",
+     "Ludgate"
+    ],
+    [
+     "Andy Dwyer",
+     "Andy",
+     "Dwyer"
+    ],
+    [
+     "Tom Haverford",
+     "Tom",
+     "Haverford"
+    ],
+    [
+     "Ann Perkins",
+     "Ann",
+     "Perkins"
+    ],
+    [
+     "Ben Wyatt",
+     "Ben",
+     "Wyatt"
+    ],
+    [
+     "Chris Traeger",
+     "Chris",
+     "Traeger"
+    ],
+    [
+     "Donna Meagle",
+     "Donna",
+     "Meagle"
+    ],
+    [
+     "Jerry Gergich",
+     "Jerry",
+     "Garry",
+     "Larry",
+     "Terry",
+     "Gergich"
+    ],
+    [
+     "Mark Brendanawicz",
+     "Mark",
+     "Brendanawicz"
+    ],
+    [
+     "Jean-Ralphio Saperstein",
+     "Jean-Ralphio",
+     "Jean Ralphio"
+    ],
+    [
+     "Mona-Lisa Saperstein",
+     "Mona-Lisa",
+     "Mona Lisa"
+    ],
+    [
+     "Tammy Swanson",
+     "Tammy"
+    ],
+    [
+     "Craig Middlebrooks",
+     "Craig"
+    ],
+    [
+     "Perd Hapley",
+     "Perd"
+    ],
+    [
+     "Joan Callamezzo",
+     "Joan"
+    ],
+    [
+     "Li'l Sebastian",
+     "Lil Sebastian"
+    ],
+    [
+     "Jeremy Jamm",
+     "Councilman Jamm"
+    ],
+    "Bobby Newport",
+    "Duke Silver",
+    [
+     "Lindsay Carlisle Shay",
+     "Lindsay"
+    ]
+   ]
+  },
+  {
+   "id": "chn-how-i-met-your-mother",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from How I Met Your Mother",
+   "answers": [
+    [
+     "Ted Mosby",
+     "Ted",
+     "Mosby"
+    ],
+    [
+     "Marshall Eriksen",
+     "Marshall",
+     "Eriksen"
+    ],
+    [
+     "Lily Aldrin",
+     "Lily",
+     "Aldrin"
+    ],
+    [
+     "Barney Stinson",
+     "Barney",
+     "Stinson"
+    ],
+    [
+     "Robin Scherbatsky",
+     "Robin",
+     "Scherbatsky"
+    ],
+    [
+     "Tracy McConnell",
+     "Tracy",
+     "The Mother"
+    ],
+    "Ranjit",
+    "Carl",
+    [
+     "Wendy the Waitress",
+     "Wendy"
+    ],
+    "Victoria",
+    [
+     "Stella Zinman",
+     "Stella"
+    ],
+    [
+     "Zoey Pierson",
+     "Zoey"
+    ],
+    [
+     "Quinn Garvey",
+     "Quinn"
+    ],
+    "Patrice",
+    [
+     "Sandy Rivers",
+     "Sandy"
+    ],
+    [
+     "Don Frank",
+     "Don"
+    ],
+    "Nora",
+    [
+     "James Stinson",
+     "James"
+    ],
+    [
+     "Loretta Stinson",
+     "Loretta"
+    ],
+    [
+     "Judy Eriksen",
+     "Judy"
+    ],
+    [
+     "Marvin Eriksen",
+     "Marvin"
+    ],
+    "Brad",
+    "Mickey"
+   ]
+  },
+  {
+   "id": "chn-big-bang-theory",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from The Big Bang Theory",
+   "answers": [
+    [
+     "Sheldon Cooper",
+     "Sheldon",
+     "Cooper"
+    ],
+    [
+     "Leonard Hofstadter",
+     "Leonard",
+     "Hofstadter"
+    ],
+    "Penny",
+    [
+     "Howard Wolowitz",
+     "Howard",
+     "Wolowitz"
+    ],
+    [
+     "Raj Koothrappali",
+     "Raj",
+     "Koothrappali"
+    ],
+    [
+     "Amy Farrah Fowler",
+     "Amy",
+     "Fowler"
+    ],
+    [
+     "Bernadette Rostenkowski",
+     "Bernadette",
+     "Rostenkowski"
+    ],
+    [
+     "Stuart Bloom",
+     "Stuart"
+    ],
+    [
+     "Leslie Winkle",
+     "Leslie"
+    ],
+    [
+     "Barry Kripke",
+     "Kripke"
+    ],
+    "Wil Wheaton",
+    "Mary Cooper",
+    [
+     "Beverly Hofstadter",
+     "Beverly"
+    ],
+    [
+     "Priya Koothrappali",
+     "Priya"
+    ],
+    [
+     "Zack Johnson",
+     "Zack"
+    ],
+    [
+     "Emily Sweeney",
+     "Emily"
+    ],
+    [
+     "Bert Kibbler",
+     "Bert"
+    ],
+    "Denise",
+    [
+     "Missy Cooper",
+     "Missy"
+    ],
+    [
+     "Debbie Wolowitz",
+     "Debbie"
+    ],
+    "Lucy",
+    [
+     "Alex Jensen",
+     "Alex"
+    ]
+   ]
+  },
+  {
+   "id": "chn-fast-furious",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Fast & Furious films (up to Fast X)",
+   "answers": [
+    [
+     "Dominic Toretto",
+     "Dom",
+     "Toretto"
+    ],
+    [
+     "Brian O'Conner",
+     "Brian",
+     "O'Conner"
+    ],
+    [
+     "Letty Ortiz",
+     "Letty"
+    ],
+    [
+     "Mia Toretto",
+     "Mia"
+    ],
+    [
+     "Roman Pearce",
+     "Roman",
+     "Rome"
+    ],
+    [
+     "Tej Parker",
+     "Tej"
+    ],
+    [
+     "Han Lue",
+     "Han Seoul-Oh",
+     "Han"
+    ],
+    [
+     "Gisele Yashar",
+     "Gisele"
+    ],
+    [
+     "Luke Hobbs",
+     "Hobbs"
+    ],
+    [
+     "Deckard Shaw",
+     "Deckard"
+    ],
+    [
+     "Owen Shaw",
+     "Owen"
+    ],
+    "Cipher",
+    "Ramsey",
+    [
+     "Mr Nobody",
+     "Mister Nobody"
+    ],
+    [
+     "Jakob Toretto",
+     "Jakob"
+    ],
+    [
+     "Dante Reyes",
+     "Dante"
+    ],
+    [
+     "Hattie Shaw",
+     "Hattie"
+    ],
+    [
+     "Sean Boswell",
+     "Sean"
+    ],
+    "Vince",
+    "Jesse",
+    [
+     "Johnny Tran",
+     "Tran"
+    ],
+    [
+     "Elena Neves",
+     "Elena"
+    ],
+    "Twinkie"
+   ]
+  },
+  {
+   "id": "chn-hunger-games",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from The Hunger Games films (2012 to 2023)",
+   "answers": [
+    [
+     "Katniss Everdeen",
+     "Katniss"
+    ],
+    [
+     "Peeta Mellark",
+     "Peeta"
+    ],
+    [
+     "Gale Hawthorne",
+     "Gale"
+    ],
+    [
+     "Haymitch Abernathy",
+     "Haymitch"
+    ],
+    [
+     "Effie Trinket",
+     "Effie"
+    ],
+    [
+     "President Snow",
+     "Snow",
+     "Coriolanus Snow"
+    ],
+    [
+     "Primrose Everdeen",
+     "Prim",
+     "Primrose"
+    ],
+    "Rue",
+    "Cinna",
+    [
+     "Finnick Odair",
+     "Finnick"
+    ],
+    [
+     "Johanna Mason",
+     "Johanna"
+    ],
+    "Beetee",
+    "Wiress",
+    "Mags",
+    [
+     "Caesar Flickerman",
+     "Caesar"
+    ],
+    "Cato",
+    "Clove",
+    "Glimmer",
+    "Marvel",
+    [
+     "Alma Coin",
+     "President Coin",
+     "Coin"
+    ],
+    [
+     "Plutarch Heavensbee",
+     "Plutarch"
+    ],
+    [
+     "Seneca Crane",
+     "Seneca"
+    ],
+    [
+     "Claudius Templesmith",
+     "Claudius"
+    ],
+    "Foxface",
+    "Thresh",
+    [
+     "Lucy Gray Baird",
+     "Lucy Gray"
+    ],
+    [
+     "Sejanus Plinth",
+     "Sejanus"
+    ],
+    "Tigris",
+    [
+     "Lucky Flickerman",
+     "Lucky"
+    ],
+    [
+     "Volumnia Gaul",
+     "Dr Gaul",
+     "Doctor Gaul"
+    ],
+    [
+     "Casca Highbottom",
+     "Highbottom"
+    ],
+    "Boggs",
+    "Cressida",
+    "Pollux",
+    "Messalla"
+   ]
+  },
+  {
+   "id": "chn-despicable-me",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Despicable Me and Minions films",
+   "answers": [
+    [
+     "Gru",
+     "Felonius Gru"
+    ],
+    "Kevin",
+    "Stuart",
+    "Bob",
+    "Dave",
+    "Jerry",
+    "Carl",
+    "Phil",
+    "Tim",
+    "Mel",
+    "Agnes",
+    "Edith",
+    "Margo",
+    [
+     "Dr Nefario",
+     "Doctor Nefario",
+     "Nefario"
+    ],
+    "Vector",
+    [
+     "Lucy Wilde",
+     "Lucy"
+    ],
+    [
+     "Scarlet Overkill",
+     "Scarlett Overkill",
+     "Scarlet"
+    ],
+    [
+     "Balthazar Bratt",
+     "Bratt"
+    ],
+    "Dru",
+    "El Macho",
+    [
+     "Silas Ramsbottom",
+     "Ramsbottom"
+    ],
+    [
+     "Mr Perkins",
+     "Perkins"
+    ],
+    [
+     "Marlena Gru",
+     "Marlena"
+    ],
+    [
+     "Maxime Le Mal",
+     "Maxime"
+    ],
+    "Valentina",
+    [
+     "Herb Overkill",
+     "Herb"
+    ],
+    "Wild Knuckles"
+   ]
+  },
+  {
+   "id": "chn-lion-king",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from The Lion King films (1994 to 2024)",
+   "answers": [
+    "Simba",
+    "Mufasa",
+    [
+     "Scar",
+     "Taka"
+    ],
+    "Nala",
+    "Timon",
+    "Pumbaa",
+    "Rafiki",
+    "Zazu",
+    "Sarabi",
+    "Shenzi",
+    "Banzai",
+    "Ed",
+    "Kiara",
+    "Kovu",
+    "Zira",
+    "Nuka",
+    "Vitani",
+    "Sarafina",
+    "Kiros",
+    "Eshe"
+   ]
+  },
+  {
+   "id": "chn-jurassic-park",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Jurassic Park and Jurassic World films (1993 to 2025)",
+   "answers": [
+    [
+     "Alan Grant",
+     "Grant"
+    ],
+    [
+     "Ellie Sattler",
+     "Sattler"
+    ],
+    [
+     "Ian Malcolm",
+     "Malcolm"
+    ],
+    [
+     "John Hammond",
+     "Hammond"
+    ],
+    [
+     "Dennis Nedry",
+     "Nedry"
+    ],
+    [
+     "Ray Arnold",
+     "Arnold"
+    ],
+    [
+     "Robert Muldoon",
+     "Muldoon"
+    ],
+    [
+     "Lex Murphy",
+     "Lex"
+    ],
+    [
+     "Tim Murphy",
+     "Tim"
+    ],
+    [
+     "Owen Grady",
+     "Owen"
+    ],
+    [
+     "Claire Dearing",
+     "Claire"
+    ],
+    "Blue",
+    [
+     "Zora Bennett",
+     "Zora"
+    ],
+    [
+     "Henry Wu",
+     "Wu"
+    ],
+    [
+     "Simon Masrani",
+     "Masrani"
+    ],
+    [
+     "Gray Mitchell",
+     "Gray"
+    ],
+    [
+     "Zach Mitchell",
+     "Zach"
+    ],
+    [
+     "Maisie Lockwood",
+     "Maisie"
+    ],
+    [
+     "Franklin Webb",
+     "Franklin"
+    ],
+    [
+     "Zia Rodriguez",
+     "Zia"
+    ],
+    [
+     "Kayla Watts",
+     "Kayla"
+    ],
+    [
+     "Lewis Dodgson",
+     "Dodgson"
+    ],
+    "Eddie Carr",
+    "Nick Van Owen",
+    "Sarah Harding",
+    "Paul Kirby",
+    "Billy Brennan",
+    [
+     "Vic Hoskins",
+     "Hoskins"
+    ],
+    "Barry",
+    [
+     "Donald Gennaro",
+     "Gennaro"
+    ],
+    "Lowery"
+   ]
+  },
+  {
+   "id": "chn-alien-films",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Alien films (not the Predator crossovers)",
+   "answers": [
+    [
+     "Ellen Ripley",
+     "Ripley"
+    ],
+    "Dallas",
+    "Kane",
+    "Ash",
+    "Lambert",
+    "Parker",
+    "Brett",
+    [
+     "Jonesy",
+     "Jones"
+    ],
+    "Newt",
+    "Hicks",
+    "Hudson",
+    "Vasquez",
+    "Burke",
+    "Bishop",
+    "Gorman",
+    "Apone",
+    "Dillon",
+    "Clemens",
+    "Call",
+    "Johner",
+    "Christie",
+    "Vriess",
+    [
+     "Elizabeth Shaw",
+     "Shaw"
+    ],
+    [
+     "Meredith Vickers",
+     "Vickers"
+    ],
+    [
+     "Peter Weyland",
+     "Weyland"
+    ],
+    "David",
+    "Walter",
+    "Daniels",
+    "Oram",
+    [
+     "Rain Carradine",
+     "Rain"
+    ],
+    "Andy"
+   ]
+  },
+  {
+   "id": "chn-indiana-jones",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Indiana Jones films",
+   "answers": [
+    [
+     "Indiana Jones",
+     "Indy"
+    ],
+    [
+     "Marion Ravenwood",
+     "Marion"
+    ],
+    "Sallah",
+    [
+     "Marcus Brody",
+     "Brody"
+    ],
+    [
+     "Rene Belloq",
+     "Belloq"
+    ],
+    "Short Round",
+    [
+     "Willie Scott",
+     "Willie"
+    ],
+    "Mola Ram",
+    [
+     "Henry Jones Sr.",
+     "Henry Jones",
+     "Professor Henry Jones"
+    ],
+    [
+     "Elsa Schneider",
+     "Elsa"
+    ],
+    [
+     "Walter Donovan",
+     "Donovan"
+    ],
+    [
+     "Mutt Williams",
+     "Mutt"
+    ],
+    [
+     "Irina Spalko",
+     "Spalko"
+    ],
+    "Mac",
+    [
+     "Harold Oxley",
+     "Oxley"
+    ],
+    [
+     "Helena Shaw",
+     "Helena"
+    ],
+    [
+     "Jurgen Voller",
+     "Voller"
+    ],
+    "Basil Shaw",
+    "Toht",
+    "Satipo",
+    "Lao Che",
+    "Chattar Lal",
+    "Kazim",
+    "Vogel",
+    "Teddy"
+   ]
+  },
+  {
+   "id": "chn-back-to-the-future",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character from the Back to the Future films",
+   "answers": [
+    [
+     "Marty McFly",
+     "Marty"
+    ],
+    [
+     "Doc Brown",
+     "Emmett Brown",
+     "Doc"
+    ],
+    [
+     "Biff Tannen",
+     "Biff"
+    ],
+    [
+     "Lorraine Baines",
+     "Lorraine"
+    ],
+    [
+     "George McFly",
+     "George"
+    ],
+    [
+     "Jennifer Parker",
+     "Jennifer"
+    ],
+    "Einstein",
+    "Strickland",
+    [
+     "Griff Tannen",
+     "Griff"
+    ],
+    [
+     "Buford Tannen",
+     "Mad Dog Tannen",
+     "Buford"
+    ],
+    [
+     "Clara Clayton",
+     "Clara"
+    ],
+    [
+     "Goldie Wilson",
+     "Goldie"
+    ],
+    [
+     "Dave McFly",
+     "Dave"
+    ],
+    [
+     "Linda McFly",
+     "Linda"
+    ],
+    "Needles",
+    [
+     "Marvin Berry",
+     "Marvin"
+    ],
+    [
+     "Seamus McFly",
+     "Seamus"
+    ],
+    [
+     "Sam Baines",
+     "Sam"
+    ],
+    "Verne",
+    "Jules",
+    [
+     "Maggie McFly",
+     "Maggie"
+    ]
+   ]
+  },
+  {
+   "id": "chn-leonardo-dicaprio",
+   "tags": [
+    "characters"
+   ],
+   "text": "Name a character Leonardo DiCaprio has played in a film (up to 2025)",
+   "answers": [
+    "Jack Dawson",
+    "Jordan Belfort",
+    [
+     "Dom Cobb",
+     "Cobb"
+    ],
+    [
+     "Jay Gatsby",
+     "Gatsby"
+    ],
+    "Hugh Glass",
+    [
+     "Romeo",
+     "Romeo Montague"
+    ],
+    [
+     "Frank Abagnale Jr.",
+     "Frank Abagnale"
+    ],
+    [
+     "Billy Costigan",
+     "Costigan"
+    ],
+    [
+     "Calvin Candie",
+     "Candie"
+    ],
+    "Rick Dalton",
+    "Howard Hughes",
+    [
+     "J. Edgar Hoover",
+     "Hoover"
+    ],
+    "Amsterdam Vallon",
+    "Arnie Grape",
+    "Teddy Daniels",
+    "Danny Archer",
+    "Bob Ferguson",
+    "Randall Mindy",
+    "Ernest Burkhart"
+   ]
+  }
+ ]
+}

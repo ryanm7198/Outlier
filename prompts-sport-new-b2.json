@@ -1,0 +1,465 @@
+{
+ "cat": "sport",
+ "prompts": [
+  {
+   "id": "spnb2-olympic-high-jump-men",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a man who has won the Olympic high jump title (1896 to 2024; Gianmarco Tamberi and Mutaz Essa Barshim shared gold in 2020)",
+   "answers": [
+    [
+     "Ellery Harding Clark",
+     "Ellery Clark",
+     "Clark"
+    ],
+    [
+     "Irving Baxter",
+     "Baxter"
+    ],
+    [
+     "Samuel Jones",
+     "Jones"
+    ],
+    [
+     "Harry Porter",
+     "Porter"
+    ],
+    [
+     "Alma Richards",
+     "Richards"
+    ],
+    [
+     "Richmond Landon",
+     "Landon"
+    ],
+    [
+     "Harold Osborn",
+     "Osborn"
+    ],
+    [
+     "Bob King",
+     "King"
+    ],
+    [
+     "Duncan McNaughton",
+     "McNaughton"
+    ],
+    [
+     "Cornelius Johnson",
+     "Johnson"
+    ],
+    [
+     "John Winter",
+     "Winter"
+    ],
+    [
+     "Walt Davis",
+     "Davis"
+    ],
+    [
+     "Charles Dumas",
+     "Dumas"
+    ],
+    [
+     "Robert Shavlakadze",
+     "Shavlakadze"
+    ],
+    [
+     "Valeriy Brumel",
+     "Brumel"
+    ],
+    [
+     "Dick Fosbury",
+     "Richard Fosbury",
+     "Fosbury"
+    ],
+    [
+     "Jüri Tarmak",
+     "Juri Tarmak",
+     "Tarmak"
+    ],
+    [
+     "Jacek Wszoła",
+     "Wszoła"
+    ],
+    [
+     "Gerd Wessig",
+     "Wessig"
+    ],
+    [
+     "Dietmar Mögenburg",
+     "Mögenburg"
+    ],
+    [
+     "Hennadiy Avdyeyenko",
+     "Gennadiy Avdeyenko",
+     "Avdyeyenko"
+    ],
+    [
+     "Javier Sotomayor",
+     "Sotomayor"
+    ],
+    [
+     "Charles Austin",
+     "Austin"
+    ],
+    [
+     "Sergey Klyugin",
+     "Sergei Klyugin",
+     "Klyugin"
+    ],
+    [
+     "Stefan Holm",
+     "Holm"
+    ],
+    [
+     "Andrey Silnov",
+     "Silnov"
+    ],
+    [
+     "Erik Kynard",
+     "Kynard"
+    ],
+    [
+     "Derek Drouin",
+     "Drouin"
+    ],
+    [
+     "Gianmarco Tamberi",
+     "Gimbo Tamberi",
+     "Tamberi"
+    ],
+    [
+     "Hamish Kerr",
+     "Kerr"
+    ],
+    [
+     "Mutaz Essa Barshim",
+     "Mutaz Barshim",
+     "Barshim"
+    ]
+   ]
+  },
+  {
+   "id": "spnb2-olympic-pole-vault-men",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a man who has won the Olympic pole vault title (1896 to 2024)",
+   "answers": [
+    [
+     "William Hoyt",
+     "Hoyt"
+    ],
+    [
+     "Irving Baxter",
+     "Baxter"
+    ],
+    [
+     "Charles Dvorak",
+     "Dvorak"
+    ],
+    [
+     "Edward Cook",
+     "Cook"
+    ],
+    [
+     "Harry Babcock",
+     "Babcock"
+    ],
+    [
+     "Frank Foss",
+     "Foss"
+    ],
+    [
+     "Lee Barnes",
+     "Barnes"
+    ],
+    [
+     "Sabin Carr",
+     "Carr"
+    ],
+    [
+     "Bill Miller",
+     "Miller"
+    ],
+    [
+     "Earle Meadows",
+     "Meadows"
+    ],
+    [
+     "Guinn Smith",
+     "Smith"
+    ],
+    [
+     "Bob Richards",
+     "Richards"
+    ],
+    [
+     "Don Bragg",
+     "Bragg"
+    ],
+    [
+     "Fred Hansen",
+     "Hansen"
+    ],
+    [
+     "Bob Seagren",
+     "Seagren"
+    ],
+    [
+     "Wolfgang Nordwig",
+     "Nordwig"
+    ],
+    [
+     "Tadeusz Ślusarski",
+     "Tadeusz Slusarski",
+     "Ślusarski"
+    ],
+    [
+     "Władysław Kozakiewicz",
+     "Wladyslaw Kozakiewicz",
+     "Kozakiewicz"
+    ],
+    [
+     "Pierre Quinon",
+     "Quinon"
+    ],
+    [
+     "Sergey Bubka",
+     "Sergei Bubka",
+     "Serhiy Bubka",
+     "Bubka"
+    ],
+    [
+     "Maksim Tarasov",
+     "Tarasov"
+    ],
+    [
+     "Jean Galfione",
+     "Galfione"
+    ],
+    [
+     "Nick Hysong",
+     "Hysong"
+    ],
+    [
+     "Timothy Mack",
+     "Tim Mack",
+     "Mack"
+    ],
+    [
+     "Steve Hooker",
+     "Hooker"
+    ],
+    [
+     "Renaud Lavillenie",
+     "Lavillenie"
+    ],
+    [
+     "Thiago Braz",
+     "Braz"
+    ],
+    [
+     "Armand Duplantis",
+     "Mondo Duplantis",
+     "Mondo",
+     "Duplantis"
+    ]
+   ]
+  },
+  {
+   "id": "spnb2-olympic-high-jump-women",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a woman who has won the Olympic high jump title (1928 to 2024)",
+   "answers": [
+    [
+     "Ethel Catherwood",
+     "Catherwood"
+    ],
+    [
+     "Jean Shiley",
+     "Shiley"
+    ],
+    [
+     "Ibolya Csák",
+     "Csák"
+    ],
+    [
+     "Alice Coachman",
+     "Coachman"
+    ],
+    [
+     "Esther Brand",
+     "Brand"
+    ],
+    [
+     "Mildred McDaniel",
+     "McDaniel"
+    ],
+    [
+     "Iolanda Balaș",
+     "Iolanda Balas",
+     "Balaș"
+    ],
+    [
+     "Miloslava Rezková",
+     "Rezková"
+    ],
+    [
+     "Ulrike Meyfarth",
+     "Meyfarth"
+    ],
+    [
+     "Rosemarie Ackermann",
+     "Ackermann"
+    ],
+    [
+     "Sara Simeoni",
+     "Simeoni"
+    ],
+    [
+     "Louise Ritter",
+     "Ritter"
+    ],
+    [
+     "Heike Henkel",
+     "Henkel"
+    ],
+    [
+     "Stefka Kostadinova",
+     "Kostadinova"
+    ],
+    [
+     "Yelena Yelesina",
+     "Elena Yelesina",
+     "Yelesina"
+    ],
+    [
+     "Yelena Slesarenko",
+     "Elena Slesarenko",
+     "Slesarenko"
+    ],
+    [
+     "Tia Hellebaut",
+     "Hellebaut"
+    ],
+    [
+     "Anna Chicherova",
+     "Anna Chicherova",
+     "Chicherova"
+    ],
+    [
+     "Ruth Beitia",
+     "Beitia"
+    ],
+    [
+     "Mariya Lasitskene",
+     "Maria Lasitskene",
+     "Mariya Kuchina",
+     "Lasitskene"
+    ],
+    [
+     "Yaroslava Mahuchikh",
+     "Yaroslava Mahuchikh",
+     "Mahuchikh"
+    ]
+   ]
+  },
+  {
+   "id": "spnb2-olympic-long-jump-women",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a woman who has won the Olympic long jump title (1948 to 2024)",
+   "answers": [
+    [
+     "Olga Gyarmati",
+     "Gyarmati"
+    ],
+    [
+     "Yvette Williams",
+     "Williams"
+    ],
+    [
+     "Elżbieta Krzesińska",
+     "Krzesińska"
+    ],
+    [
+     "Vera Krepkina",
+     "Krepkina"
+    ],
+    [
+     "Mary Rand",
+     "Rand"
+    ],
+    [
+     "Viorica Viscopoleanu",
+     "Viorica Viscopoleanu",
+     "Viscopoleanu"
+    ],
+    [
+     "Heide Rosendahl",
+     "Heide Ecker-Rosendahl",
+     "Rosendahl"
+    ],
+    [
+     "Angela Voigt",
+     "Voigt"
+    ],
+    [
+     "Tatyana Kolpakova",
+     "Kolpakova"
+    ],
+    [
+     "Anișoara Cușmir-Stanciu",
+     "Anisoara Cusmir-Stanciu",
+     "Anisoara Stanciu",
+     "Cușmir-Stanciu"
+    ],
+    [
+     "Jackie Joyner-Kersee",
+     "Jacqueline Joyner-Kersee",
+     "Joyner-Kersee"
+    ],
+    [
+     "Heike Drechsler",
+     "Drechsler"
+    ],
+    [
+     "Chioma Ajunwa",
+     "Ajunwa"
+    ],
+    [
+     "Tatyana Lebedeva",
+     "Lebedeva"
+    ],
+    [
+     "Maurren Maggi",
+     "Maggi"
+    ],
+    [
+     "Brittney Reese",
+     "Reese"
+    ],
+    [
+     "Tianna Bartoletta",
+     "Tianna Madison",
+     "Bartoletta"
+    ],
+    [
+     "Malaika Mihambo",
+     "Mihambo"
+    ],
+    [
+     "Tara Davis-Woodhall",
+     "Tara Davis",
+     "Davis-Woodhall"
+    ]
+   ]
+  }
+ ]
+}

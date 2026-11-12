@@ -1,0 +1,2765 @@
+{
+ "cat": "sport",
+ "prompts": [
+  {
+   "id": "spnb-atp-no1-all-time",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a man who has been ranked world number one in the ATP singles rankings (since 1973; as of November 2026)",
+   "answers": [
+    [
+     "Ilie Nastase",
+     "Nastase",
+     "Nasty"
+    ],
+    [
+     "John Newcombe",
+     "Newcombe"
+    ],
+    [
+     "Jimmy Connors",
+     "Connors"
+    ],
+    [
+     "Björn Borg",
+     "Bjorn Borg",
+     "Borg"
+    ],
+    [
+     "John McEnroe",
+     "McEnroe"
+    ],
+    [
+     "Ivan Lendl",
+     "Lendl"
+    ],
+    [
+     "Mats Wilander",
+     "Wilander"
+    ],
+    [
+     "Stefan Edberg",
+     "Edberg"
+    ],
+    [
+     "Boris Becker",
+     "Becker"
+    ],
+    [
+     "Jim Courier",
+     "Courier"
+    ],
+    [
+     "Pete Sampras",
+     "Sampras"
+    ],
+    [
+     "Andre Agassi",
+     "Agassi"
+    ],
+    [
+     "Thomas Muster",
+     "Muster"
+    ],
+    [
+     "Marcelo Rios",
+     "Rios"
+    ],
+    [
+     "Carlos Moya",
+     "Moya"
+    ],
+    [
+     "Yevgeny Kafelnikov",
+     "Kafelnikov"
+    ],
+    [
+     "Patrick Rafter",
+     "Pat Rafter",
+     "Rafter"
+    ],
+    [
+     "Gustavo Kuerten",
+     "Kuerten"
+    ],
+    [
+     "Marat Safin",
+     "Safin"
+    ],
+    [
+     "Lleyton Hewitt",
+     "Hewitt"
+    ],
+    [
+     "Juan Carlos Ferrero",
+     "Ferrero"
+    ],
+    [
+     "Andy Roddick",
+     "Roddick"
+    ],
+    [
+     "Roger Federer",
+     "Federer"
+    ],
+    [
+     "Rafael Nadal",
+     "Nadal"
+    ],
+    [
+     "Novak Djokovic",
+     "Djokovic"
+    ],
+    [
+     "Andy Murray",
+     "Murray"
+    ],
+    [
+     "Daniil Medvedev",
+     "Medvedev"
+    ],
+    [
+     "Carlos Alcaraz",
+     "Alcaraz"
+    ],
+    [
+     "Jannik Sinner",
+     "Sinner"
+    ],
+    [
+     "Alexander Zverev",
+     "Zverev"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-wta-no1-all-time",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a woman who has been ranked world number one in the WTA singles rankings (since 1975; as of November 2026)",
+   "answers": [
+    [
+     "Chris Evert",
+     "Evert"
+    ],
+    [
+     "Evonne Goolagong",
+     "Evonne Goolagong Cawley",
+     "Goolagong"
+    ],
+    [
+     "Martina Navratilova",
+     "Navratilova"
+    ],
+    [
+     "Tracy Austin",
+     "Austin"
+    ],
+    [
+     "Steffi Graf",
+     "Graf"
+    ],
+    [
+     "Monica Seles",
+     "Seles"
+    ],
+    [
+     "Arantxa Sánchez Vicario",
+     "Arantxa Sanchez",
+     "Sanchez Vicario",
+     "Vicario"
+    ],
+    [
+     "Martina Hingis",
+     "Hingis"
+    ],
+    [
+     "Lindsay Davenport",
+     "Davenport"
+    ],
+    [
+     "Jennifer Capriati",
+     "Capriati"
+    ],
+    "Venus Williams",
+    "Serena Williams",
+    [
+     "Kim Clijsters",
+     "Clijsters"
+    ],
+    [
+     "Justine Henin",
+     "Henin"
+    ],
+    [
+     "Amélie Mauresmo",
+     "Amelie Mauresmo",
+     "Mauresmo"
+    ],
+    [
+     "Maria Sharapova",
+     "Sharapova"
+    ],
+    [
+     "Ana Ivanovic",
+     "Ivanovic"
+    ],
+    [
+     "Jelena Janković",
+     "Janković"
+    ],
+    [
+     "Dinara Safina",
+     "Safina"
+    ],
+    [
+     "Caroline Wozniacki",
+     "Wozniacki"
+    ],
+    [
+     "Victoria Azarenka",
+     "Azarenka"
+    ],
+    [
+     "Angelique Kerber",
+     "Kerber"
+    ],
+    [
+     "Karolína Plíšková",
+     "Plíšková"
+    ],
+    [
+     "Garbiñe Muguruza",
+     "Muguruza"
+    ],
+    [
+     "Simona Halep",
+     "Halep"
+    ],
+    [
+     "Naomi Osaka",
+     "Osaka"
+    ],
+    [
+     "Ashleigh Barty",
+     "Barty"
+    ],
+    [
+     "Iga Świątek",
+     "Świątek"
+    ],
+    [
+     "Aryna Sabalenka",
+     "Sabalenka"
+    ],
+    [
+     "Elena Rybakina",
+     "Rybakina"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-davis-cup-finalists",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a country that has reached a Davis Cup final, as winner or runner-up (1900 to 2025)",
+   "answers": [
+    [
+     "United States",
+     "USA",
+     "America",
+     "United States of America",
+     "US"
+    ],
+    [
+     "Australia",
+     "Australasia"
+    ],
+    "France",
+    [
+     "Great Britain",
+     "Britain",
+     "United Kingdom",
+     "UK",
+     "British Isles",
+     "England"
+    ],
+    "Sweden",
+    "Spain",
+    "Italy",
+    [
+     "Russia",
+     "Russian Tennis Federation",
+     "RTF"
+    ],
+    [
+     "Germany",
+     "West Germany"
+    ],
+    [
+     "Czech Republic",
+     "Czechia",
+     "Czechoslovakia"
+    ],
+    "Croatia",
+    "Argentina",
+    "Serbia",
+    "Switzerland",
+    "Canada",
+    "South Africa",
+    "Romania",
+    "India",
+    "Belgium",
+    "Japan",
+    "Mexico",
+    "Chile",
+    "Slovakia",
+    [
+     "Netherlands",
+     "Holland"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-bjk-cup-winners",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a country that has won the Billie Jean King Cup, formerly the Fed Cup (1963 to 2026)",
+   "answers": [
+    [
+     "United States",
+     "USA",
+     "America",
+     "United States of America",
+     "US"
+    ],
+    "Australia",
+    "Italy",
+    "Spain",
+    [
+     "Czech Republic",
+     "Czechia",
+     "Czechoslovakia"
+    ],
+    "Russia",
+    "France",
+    "South Africa",
+    [
+     "Germany",
+     "West Germany"
+    ],
+    "Belgium",
+    "Slovakia",
+    "Switzerland",
+    "Canada"
+   ]
+  },
+  {
+   "id": "spnb-olympic-tennis-medal-countries",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a country whose tennis players have won an Olympic medal of any colour, in any event (1988 to 2024)",
+   "answers": [
+    [
+     "United States",
+     "USA",
+     "America",
+     "United States of America",
+     "US"
+    ],
+    [
+     "Russia",
+     "ROC",
+     "Russian Olympic Committee"
+    ],
+    "Switzerland",
+    "Spain",
+    [
+     "Germany",
+     "West Germany",
+     "FRG"
+    ],
+    [
+     "Czech Republic",
+     "Czechia",
+     "Czechoslovakia"
+    ],
+    [
+     "Great Britain",
+     "Britain",
+     "United Kingdom",
+     "UK",
+     "Team GB",
+     "GB"
+    ],
+    "Chile",
+    "China",
+    "Australia",
+    "Croatia",
+    "Belarus",
+    "Belgium",
+    "Canada",
+    "Italy",
+    "Serbia",
+    "Puerto Rico",
+    "Argentina",
+    "France",
+    "Sweden",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "Romania",
+    "South Africa",
+    "Brazil",
+    "Bulgaria",
+    "India",
+    "Japan",
+    "New Zealand",
+    "Poland",
+    "Ukraine"
+   ]
+  },
+  {
+   "id": "spnb-olympic-tennis-gold-any-event",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a tennis player who has won an Olympic gold medal in any event, singles, doubles or mixed doubles (1988 to 2024)",
+   "answers": [
+    [
+     "Miloslav Mečíř",
+     "Mečíř"
+    ],
+    [
+     "Steffi Graf",
+     "Graf"
+    ],
+    [
+     "Ken Flach",
+     "Flach"
+    ],
+    [
+     "Robert Seguso",
+     "Seguso"
+    ],
+    [
+     "Pam Shriver",
+     "Shriver"
+    ],
+    [
+     "Zina Garrison",
+     "Garrison"
+    ],
+    [
+     "Marc Rosset",
+     "Rosset"
+    ],
+    [
+     "Jennifer Capriati",
+     "Capriati"
+    ],
+    [
+     "Boris Becker",
+     "Becker"
+    ],
+    [
+     "Michael Stich",
+     "Stich"
+    ],
+    "Gigi Fernández",
+    "Mary Joe Fernández",
+    [
+     "Andre Agassi",
+     "Agassi"
+    ],
+    [
+     "Lindsay Davenport",
+     "Davenport"
+    ],
+    [
+     "Todd Woodbridge",
+     "Woodbridge"
+    ],
+    [
+     "Mark Woodforde",
+     "Woodforde"
+    ],
+    [
+     "Yevgeny Kafelnikov",
+     "Kafelnikov"
+    ],
+    "Venus Williams",
+    "Serena Williams",
+    [
+     "Sébastien Lareau",
+     "Lareau"
+    ],
+    [
+     "Daniel Nestor",
+     "Nestor"
+    ],
+    [
+     "Nicolás Massú",
+     "Massú"
+    ],
+    [
+     "Fernando González",
+     "González"
+    ],
+    [
+     "Justine Henin",
+     "Henin"
+    ],
+    [
+     "Li Ting",
+     "Li"
+    ],
+    [
+     "Sun Tiantian",
+     "Sun"
+    ],
+    [
+     "Rafael Nadal",
+     "Nadal"
+    ],
+    [
+     "Elena Dementieva",
+     "Dementieva"
+    ],
+    [
+     "Roger Federer",
+     "Federer"
+    ],
+    [
+     "Stan Wawrinka",
+     "Stanislas Wawrinka",
+     "Wawrinka"
+    ],
+    [
+     "Andy Murray",
+     "Murray"
+    ],
+    "Bob Bryan",
+    "Mike Bryan",
+    [
+     "Victoria Azarenka",
+     "Azarenka"
+    ],
+    [
+     "Max Mirnyi",
+     "Mirnyi"
+    ],
+    [
+     "Monica Puig",
+     "Puig"
+    ],
+    [
+     "Marc López",
+     "López"
+    ],
+    [
+     "Ekaterina Makarova",
+     "Makarova"
+    ],
+    [
+     "Elena Vesnina",
+     "Vesnina"
+    ],
+    [
+     "Bethanie Mattek-Sands",
+     "Mattek-Sands"
+    ],
+    [
+     "Jack Sock",
+     "Sock"
+    ],
+    [
+     "Alexander Zverev",
+     "Zverev"
+    ],
+    [
+     "Belinda Bencic",
+     "Bencic"
+    ],
+    [
+     "Nikola Mektić",
+     "Mektić"
+    ],
+    [
+     "Mate Pavić",
+     "Pavić"
+    ],
+    [
+     "Barbora Krejčíková",
+     "Krejčíková"
+    ],
+    [
+     "Kateřina Siniaková",
+     "Katerina Siniakova",
+     "Siniakova"
+    ],
+    [
+     "Anastasia Pavlyuchenkova",
+     "Pavlyuchenkova"
+    ],
+    [
+     "Andrey Rublev",
+     "Rublev"
+    ],
+    [
+     "Novak Djokovic",
+     "Djokovic"
+    ],
+    [
+     "Zheng Qinwen",
+     "Qinwen Zheng",
+     "Zheng"
+    ],
+    [
+     "Matthew Ebden",
+     "Ebden"
+    ],
+    [
+     "John Peers",
+     "Peers"
+    ],
+    [
+     "Sara Errani",
+     "Errani"
+    ],
+    [
+     "Jasmine Paolini",
+     "Paolini"
+    ],
+    [
+     "Tomáš Macháč",
+     "Macháč"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-wimbledon-men-runner-up-never-won-1877-1967",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a man who lost a Wimbledon men's singles final between 1877 and 1967 and never won the title",
+   "answers": [
+    [
+     "William Marshall",
+     "Marshall"
+    ],
+    [
+     "Vere St. Leger Goold",
+     "Vere Goold",
+     "Goold"
+    ],
+    [
+     "Wilberforce Eaves",
+     "Eaves"
+    ],
+    [
+     "Sydney Howard Smith",
+     "Sydney Smith",
+     "Smith"
+    ],
+    [
+     "Frank Riseley",
+     "Riseley"
+    ],
+    [
+     "Herbert Roper Barrett",
+     "Roper Barrett",
+     "Barrett"
+    ],
+    [
+     "Josiah Ritchie",
+     "Major Ritchie",
+     "Ritchie"
+    ],
+    [
+     "Maurice McLoughlin",
+     "McLoughlin"
+    ],
+    [
+     "Brian Norton",
+     "Norton"
+    ],
+    [
+     "Randolph Lycett",
+     "Lycett"
+    ],
+    [
+     "Francis Hunter",
+     "Frank Hunter",
+     "Hunter"
+    ],
+    [
+     "Howard Kinsey",
+     "Kinsey"
+    ],
+    [
+     "Wilmer Allison",
+     "Allison"
+    ],
+    [
+     "Frank Shields",
+     "Shields"
+    ],
+    [
+     "Bunny Austin",
+     "Henry Austin",
+     "Austin"
+    ],
+    [
+     "Gottfried von Cramm",
+     "Baron von Cramm",
+     "Von Cramm",
+     "Cramm"
+    ],
+    [
+     "Elwood Cooke",
+     "Cooke"
+    ],
+    "Geoff Brown",
+    "Tom Brown",
+    [
+     "John Bromwich",
+     "Bromwich"
+    ],
+    [
+     "Ken McGregor",
+     "McGregor"
+    ],
+    [
+     "Kurt Nielsen",
+     "Nielsen"
+    ],
+    [
+     "Ken Rosewall",
+     "Rosewall"
+    ],
+    [
+     "Martin Mulligan",
+     "Mulligan"
+    ],
+    [
+     "Fred Stolle",
+     "Stolle"
+    ],
+    [
+     "Dennis Ralston",
+     "Ralston"
+    ],
+    [
+     "Wilhelm Bungert",
+     "Bungert"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-wimbledon-women-runner-up-never-won-1884-1967",
+   "tags": [
+    "tennis"
+   ],
+   "text": "Name a woman who lost a Wimbledon ladies' singles final between 1884 and 1967 and never won the title",
+   "answers": [
+    [
+     "Lilian Watson",
+     "Watson"
+    ],
+    [
+     "May Jacks",
+     "Jacks"
+    ],
+    [
+     "Edith Austin",
+     "Austin"
+    ],
+    [
+     "Helen Jackson",
+     "Jackson"
+    ],
+    [
+     "Alice Pickering",
+     "Pickering"
+    ],
+    [
+     "Louisa Martin",
+     "Martin"
+    ],
+    [
+     "Agnes Morton",
+     "Morton"
+    ],
+    [
+     "Winifred McNair",
+     "McNair"
+    ],
+    [
+     "Elizabeth Ryan",
+     "Ryan"
+    ],
+    [
+     "Molla Mallory",
+     "Mallory"
+    ],
+    [
+     "Joan Fry",
+     "Fry"
+    ],
+    [
+     "Lilí Álvarez",
+     "Lili Alvarez",
+     "Álvarez"
+    ],
+    [
+     "Hilde Krahwinkel Sperling",
+     "Hilde Sperling",
+     "Hilde Krahwinkel",
+     "Sperling",
+     "Krahwinkel"
+    ],
+    [
+     "Jadwiga Jędrzejowska",
+     "Jadwiga Jedrzejowska",
+     "Jedrzejowska"
+    ],
+    [
+     "Kay Stammers",
+     "Stammers"
+    ],
+    [
+     "Beverly Baker Fleitz",
+     "Beverly Fleitz",
+     "Beverly Baker",
+     "Fleitz"
+    ],
+    [
+     "Angela Buxton",
+     "Buxton"
+    ],
+    [
+     "Darlene Hard",
+     "Hard"
+    ],
+    [
+     "Sandra Reynolds",
+     "Reynolds"
+    ],
+    [
+     "Christine Truman",
+     "Truman"
+    ],
+    [
+     "Věra Suková",
+     "Vera Sukova",
+     "Sukova"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-circuits-all-time",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a circuit that has hosted a Formula 1 World Championship race (1950 to 2026, as of the 2026 Mexico City Grand Prix)",
+   "answers": [
+    [
+     "Adelaide Street Circuit",
+     "Adelaide"
+    ],
+    [
+     "Ain-Diab Circuit",
+     "Ain-Diab",
+     "Ain Diab",
+     "Casablanca"
+    ],
+    [
+     "Aintree",
+     "Aintree Motor Racing Circuit"
+    ],
+    [
+     "Albert Park",
+     "Albert Park Circuit",
+     "Melbourne"
+    ],
+    [
+     "Algarve International Circuit",
+     "Portimao",
+     "Algarve",
+     "Autodromo Internacional do Algarve"
+    ],
+    [
+     "Estoril",
+     "Autodromo do Estoril"
+    ],
+    [
+     "Autodromo Hermanos Rodriguez",
+     "Hermanos Rodriguez",
+     "Mexico City",
+     "Magdalena Mixhuca"
+    ],
+    [
+     "Jacarepagua",
+     "Autodromo Internacional Nelson Piquet",
+     "Nelson Piquet Circuit",
+     "Rio de Janeiro"
+    ],
+    [
+     "Mugello",
+     "Autodromo Internazionale del Mugello",
+     "Mugello Circuit"
+    ],
+    [
+     "Imola",
+     "Autodromo Enzo e Dino Ferrari",
+     "Autodromo Internazionale Enzo e Dino Ferrari",
+     "Enzo and Dino Ferrari"
+    ],
+    [
+     "Interlagos",
+     "Autodromo Jose Carlos Pace",
+     "Sao Paulo",
+     "Jose Carlos Pace"
+    ],
+    [
+     "Monza",
+     "Autodromo Nazionale di Monza",
+     "Autodromo Nazionale Monza"
+    ],
+    [
+     "Buenos Aires",
+     "Autodromo Oscar y Juan Galvez",
+     "Oscar Galvez"
+    ],
+    "AVUS",
+    [
+     "Bahrain International Circuit",
+     "Sakhir",
+     "Bahrain"
+    ],
+    [
+     "Baku City Circuit",
+     "Baku"
+    ],
+    "Brands Hatch",
+    [
+     "Buddh International Circuit",
+     "Buddh",
+     "Greater Noida"
+    ],
+    [
+     "Bugatti Circuit",
+     "Le Mans",
+     "Circuit Bugatti"
+    ],
+    [
+     "Caesars Palace",
+     "Caesars Palace Grand Prix Circuit",
+     "Caesars Palace Grand Prix"
+    ],
+    [
+     "Bremgarten",
+     "Circuit Bremgarten",
+     "Bern"
+    ],
+    [
+     "Circuit de Barcelona-Catalunya",
+     "Barcelona-Catalunya",
+     "Catalunya",
+     "Barcelona Catalunya",
+     "Montmelo",
+     "Circuit de Catalunya"
+    ],
+    [
+     "Charade",
+     "Circuit de Charade",
+     "Clermont-Ferrand"
+    ],
+    [
+     "Monaco",
+     "Circuit de Monaco",
+     "Monte Carlo"
+    ],
+    [
+     "Magny-Cours",
+     "Circuit de Nevers Magny-Cours",
+     "Nevers Magny-Cours"
+    ],
+    [
+     "Pedralbes",
+     "Circuit de Pedralbes"
+    ],
+    [
+     "Reims-Gueux",
+     "Circuit de Reims-Gueux",
+     "Reims",
+     "Gueux"
+    ],
+    [
+     "Spa-Francorchamps",
+     "Circuit de Spa-Francorchamps",
+     "Spa"
+    ],
+    [
+     "Dijon-Prenois",
+     "Circuit Dijon-Prenois",
+     "Dijon"
+    ],
+    [
+     "Circuit Gilles Villeneuve",
+     "Gilles Villeneuve",
+     "Montreal",
+     "Ile Notre-Dame"
+    ],
+    [
+     "Mont-Tremblant",
+     "Circuit Mont-Tremblant",
+     "Mont Tremblant"
+    ],
+    [
+     "Circuit of the Americas",
+     "COTA",
+     "Austin"
+    ],
+    [
+     "Paul Ricard",
+     "Circuit Paul Ricard",
+     "Le Castellet"
+    ],
+    [
+     "Zandvoort",
+     "Circuit Zandvoort",
+     "Circuit Park Zandvoort"
+    ],
+    [
+     "Zolder",
+     "Circuit Zolder"
+    ],
+    [
+     "Boavista",
+     "Circuito da Boavista",
+     "Porto",
+     "Oporto"
+    ],
+    [
+     "Monsanto",
+     "Circuito de Monsanto",
+     "Lisbon"
+    ],
+    [
+     "Jerez",
+     "Circuito de Jerez",
+     "Circuito Permanente de Jerez"
+    ],
+    [
+     "Jarama",
+     "Circuito del Jarama",
+     "Circuito Permanente del Jarama"
+    ],
+    [
+     "Dallas Fair Park",
+     "Fair Park",
+     "Dallas"
+    ],
+    [
+     "Detroit Street Circuit",
+     "Detroit"
+    ],
+    [
+     "Donington Park",
+     "Donington"
+    ],
+    [
+     "Fuji Speedway",
+     "Fuji"
+    ],
+    [
+     "Hockenheimring",
+     "Hockenheim"
+    ],
+    [
+     "Hungaroring",
+     "Mogyorod"
+    ],
+    [
+     "Indianapolis Motor Speedway",
+     "Indianapolis",
+     "Indy",
+     "Brickyard"
+    ],
+    [
+     "Istanbul Park",
+     "Intercity Istanbul Park",
+     "Istanbul"
+    ],
+    [
+     "Jeddah Corniche Circuit",
+     "Jeddah",
+     "Jeddah Street Circuit"
+    ],
+    [
+     "Korea International Circuit",
+     "Yeongam",
+     "Korean International Circuit"
+    ],
+    [
+     "Kyalami",
+     "Kyalami Grand Prix Circuit"
+    ],
+    [
+     "Las Vegas Strip Circuit",
+     "Las Vegas",
+     "Las Vegas Strip"
+    ],
+    [
+     "Long Beach",
+     "Long Beach Street Circuit"
+    ],
+    [
+     "Lusail International Circuit",
+     "Lusail",
+     "Losail"
+    ],
+    [
+     "Madring",
+     "Madrid",
+     "IFEMA Madrid"
+    ],
+    [
+     "Marina Bay",
+     "Marina Bay Street Circuit",
+     "Singapore"
+    ],
+    [
+     "Miami International Autodrome",
+     "Miami",
+     "Miami Gardens"
+    ],
+    [
+     "Montjuïc",
+     "Montjuic",
+     "Montjuic Circuit"
+    ],
+    [
+     "Mosport",
+     "Mosport Park",
+     "Canadian Tire Motorsport Park"
+    ],
+    [
+     "Nivelles",
+     "Nivelles-Baulers"
+    ],
+    [
+     "Nürburgring",
+     "Nurburgring",
+     "Nordschleife",
+     "Nurburg"
+    ],
+    [
+     "Pescara",
+     "Pescara Circuit"
+    ],
+    [
+     "Phoenix Street Circuit",
+     "Phoenix"
+    ],
+    [
+     "Prince George Circuit",
+     "Prince George",
+     "East London"
+    ],
+    [
+     "Red Bull Ring",
+     "A1-Ring",
+     "A1 Ring",
+     "Osterreichring",
+     "Spielberg"
+    ],
+    [
+     "Riverside",
+     "Riverside International Raceway"
+    ],
+    [
+     "Rouen-Les-Essarts",
+     "Rouen",
+     "Les Essarts"
+    ],
+    [
+     "Anderstorp",
+     "Scandinavian Raceway",
+     "Anderstorp Raceway"
+    ],
+    [
+     "Sebring",
+     "Sebring International Raceway",
+     "Sebring Raceway"
+    ],
+    [
+     "Sepang",
+     "Sepang International Circuit"
+    ],
+    [
+     "Shanghai International Circuit",
+     "Shanghai"
+    ],
+    [
+     "Silverstone",
+     "Silverstone Circuit"
+    ],
+    [
+     "Sochi Autodrom",
+     "Sochi",
+     "Sirius Autodrom"
+    ],
+    [
+     "Suzuka",
+     "Suzuka Circuit",
+     "Suzuka International Racing Course"
+    ],
+    [
+     "Aida",
+     "TI Circuit Aida",
+     "TI Aida",
+     "Okayama International Circuit"
+    ],
+    [
+     "Valencia Street Circuit",
+     "Valencia"
+    ],
+    [
+     "Watkins Glen",
+     "Watkins Glen International"
+    ],
+    [
+     "Yas Marina Circuit",
+     "Yas Marina",
+     "Abu Dhabi"
+    ],
+    [
+     "Zeltweg",
+     "Zeltweg Airfield"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-f1-pole-sitters",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has taken a pole position in a Formula 1 World Championship race (Indianapolis 500 rounds of 1950 to 1960 count; as of the 2026 São Paulo Grand Prix)",
+   "answers": [
+    [
+     "Lewis Hamilton",
+     "Hamilton"
+    ],
+    "Michael Schumacher",
+    [
+     "Ayrton Senna",
+     "Senna"
+    ],
+    [
+     "Sebastian Vettel",
+     "Vettel"
+    ],
+    [
+     "Max Verstappen",
+     "Verstappen"
+    ],
+    [
+     "Jim Clark",
+     "Clark"
+    ],
+    [
+     "Alain Prost",
+     "Prost"
+    ],
+    [
+     "Nigel Mansell",
+     "Mansell"
+    ],
+    "Nico Rosberg",
+    [
+     "Juan Manuel Fangio",
+     "Fangio",
+     "El Chueco"
+    ],
+    [
+     "Charles Leclerc",
+     "Leclerc"
+    ],
+    [
+     "Mika Häkkinen",
+     "Häkkinen"
+    ],
+    [
+     "Niki Lauda",
+     "Lauda"
+    ],
+    [
+     "Nelson Piquet",
+     "Piquet"
+    ],
+    [
+     "Fernando Alonso",
+     "Alonso"
+    ],
+    "Damon Hill",
+    [
+     "Valtteri Bottas",
+     "Bottas"
+    ],
+    [
+     "Lando Norris",
+     "Norris"
+    ],
+    [
+     "Mario Andretti",
+     "Andretti"
+    ],
+    [
+     "René Arnoux",
+     "Arnoux"
+    ],
+    [
+     "Kimi Räikkönen",
+     "Räikkönen"
+    ],
+    [
+     "Jackie Stewart",
+     "Sir Jackie Stewart",
+     "Stewart"
+    ],
+    [
+     "Stirling Moss",
+     "Moss"
+    ],
+    [
+     "Felipe Massa",
+     "Massa"
+    ],
+    [
+     "Alberto Ascari",
+     "Ascari"
+    ],
+    [
+     "James Hunt",
+     "Hunt"
+    ],
+    [
+     "Ronnie Peterson",
+     "Peterson"
+    ],
+    [
+     "Rubens Barrichello",
+     "Barrichello"
+    ],
+    "Graham Hill",
+    [
+     "Jack Brabham",
+     "Brabham"
+    ],
+    [
+     "Jacky Ickx",
+     "Ickx"
+    ],
+    "Jacques Villeneuve",
+    [
+     "Juan Pablo Montoya",
+     "Montoya"
+    ],
+    [
+     "Mark Webber",
+     "Webber"
+    ],
+    [
+     "Gerhard Berger",
+     "Berger"
+    ],
+    [
+     "David Coulthard",
+     "Coulthard"
+    ],
+    [
+     "George Russell",
+     "Russell"
+    ],
+    [
+     "Jochen Rindt",
+     "Rindt"
+    ],
+    [
+     "John Surtees",
+     "Surtees"
+    ],
+    [
+     "Riccardo Patrese",
+     "Patrese"
+    ],
+    [
+     "Jenson Button",
+     "Button"
+    ],
+    [
+     "Jacques Laffite",
+     "Laffite"
+    ],
+    [
+     "Kimi Antonelli",
+     "Andrea Kimi Antonelli",
+     "Antonelli"
+    ],
+    "Phil Hill",
+    [
+     "Emerson Fittipaldi",
+     "Fittipaldi"
+    ],
+    [
+     "Jean-Pierre Jabouille",
+     "Jabouille"
+    ],
+    [
+     "Alan Jones",
+     "Jones"
+    ],
+    [
+     "Carlos Reutemann",
+     "Reutemann"
+    ],
+    "Ralf Schumacher",
+    [
+     "Carlos Sainz Jr.",
+     "Carlos Sainz",
+     "Sainz"
+    ],
+    [
+     "Oscar Piastri",
+     "Piastri"
+    ],
+    [
+     "Nino Farina",
+     "Giuseppe Farina",
+     "Farina"
+    ],
+    [
+     "Chris Amon",
+     "Amon"
+    ],
+    [
+     "Clay Regazzoni",
+     "Regazzoni"
+    ],
+    [
+     "Patrick Tambay",
+     "Tambay"
+    ],
+    "Keke Rosberg",
+    [
+     "Mike Hawthorn",
+     "Hawthorn"
+    ],
+    [
+     "Didier Pironi",
+     "Pironi"
+    ],
+    [
+     "Jarno Trulli",
+     "Trulli"
+    ],
+    [
+     "Giancarlo Fisichella",
+     "Fisichella"
+    ],
+    [
+     "José Froilán González",
+     "González"
+    ],
+    [
+     "Tony Brooks",
+     "Brooks"
+    ],
+    [
+     "Dan Gurney",
+     "Gurney"
+    ],
+    [
+     "Jean-Pierre Jarier",
+     "Jarier"
+    ],
+    [
+     "Jody Scheckter",
+     "Scheckter"
+    ],
+    [
+     "Elio de Angelis",
+     "de Angelis"
+    ],
+    [
+     "Teo Fabi",
+     "Fabi"
+    ],
+    [
+     "Daniel Ricciardo",
+     "Ricciardo"
+    ],
+    [
+     "Sergio Pérez",
+     "Checo",
+     "Checo Perez",
+     "Pérez"
+    ],
+    [
+     "Stuart Lewis-Evans",
+     "Lewis-Evans"
+    ],
+    [
+     "Jo Siffert",
+     "Siffert"
+    ],
+    [
+     "John Watson",
+     "Watson"
+    ],
+    "Gilles Villeneuve",
+    [
+     "Michele Alboreto",
+     "Alboreto"
+    ],
+    [
+     "Jean Alesi",
+     "Alesi"
+    ],
+    [
+     "Heinz-Harald Frentzen",
+     "Frentzen"
+    ],
+    [
+     "Walt Faulkner",
+     "Faulkner"
+    ],
+    [
+     "Duke Nalon",
+     "Nalon"
+    ],
+    [
+     "Fred Agabashian",
+     "Agabashian"
+    ],
+    [
+     "Bill Vukovich",
+     "Vukovich"
+    ],
+    [
+     "Jack McGrath",
+     "McGrath"
+    ],
+    [
+     "Jerry Hoyt",
+     "Hoyt"
+    ],
+    [
+     "Eugenio Castellotti",
+     "Castellotti"
+    ],
+    [
+     "Pat Flaherty",
+     "Flaherty"
+    ],
+    [
+     "Pat O'Connor",
+     "O'Connor"
+    ],
+    [
+     "Dick Rathmann",
+     "Rathmann"
+    ],
+    [
+     "Johnny Thomson",
+     "Thomson"
+    ],
+    [
+     "Jo Bonnier",
+     "Joakim Bonnier",
+     "Bonnier"
+    ],
+    [
+     "Eddie Sachs",
+     "Sachs"
+    ],
+    [
+     "Wolfgang von Trips",
+     "von Trips"
+    ],
+    [
+     "Lorenzo Bandini",
+     "Bandini"
+    ],
+    [
+     "Mike Parkes",
+     "Parkes"
+    ],
+    [
+     "Peter Revson",
+     "Revson"
+    ],
+    [
+     "Denny Hulme",
+     "Hulme"
+    ],
+    [
+     "Patrick Depailler",
+     "Depailler"
+    ],
+    [
+     "José Carlos Pace",
+     "Pace"
+    ],
+    [
+     "Vittorio Brambilla",
+     "Brambilla"
+    ],
+    [
+     "Tom Pryce",
+     "Pryce"
+    ],
+    [
+     "Bruno Giacomelli",
+     "Giacomelli"
+    ],
+    [
+     "Andrea de Cesaris",
+     "de Cesaris"
+    ],
+    [
+     "Thierry Boutsen",
+     "Boutsen"
+    ],
+    [
+     "Nick Heidfeld",
+     "Heidfeld"
+    ],
+    [
+     "Robert Kubica",
+     "Kubica"
+    ],
+    [
+     "Heikki Kovalainen",
+     "Kovalainen"
+    ],
+    [
+     "Nico Hülkenberg",
+     "Hülkenberg"
+    ],
+    [
+     "Pastor Maldonado",
+     "Maldonado"
+    ],
+    [
+     "Lance Stroll",
+     "Stroll"
+    ],
+    [
+     "Kevin Magnussen",
+     "Magnussen"
+    ],
+    [
+     "Pierre Gasly",
+     "Gasly"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-f1-pole-countries",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a country whose drivers have taken a Formula 1 World Championship pole position (Indianapolis 500 rounds of 1950 to 1960 count; as of the 2026 São Paulo Grand Prix)",
+   "answers": [
+    [
+     "Great Britain",
+     "United Kingdom",
+     "UK",
+     "Britain",
+     "England"
+    ],
+    "Germany",
+    "Brazil",
+    "France",
+    "Finland",
+    "Italy",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "Austria",
+    "Australia",
+    [
+     "United States",
+     "USA",
+     "America",
+     "United States of America",
+     "US"
+    ],
+    "Argentina",
+    "Spain",
+    "Monaco",
+    "Canada",
+    "Sweden",
+    "Belgium",
+    "Colombia",
+    "Switzerland",
+    "New Zealand",
+    "South Africa",
+    "Mexico",
+    "Poland",
+    "Venezuela",
+    "Denmark"
+   ]
+  },
+  {
+   "id": "spnb-f1-wins-2-to-4",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won between 2 and 4 Formula 1 Grands Prix inclusive (Indianapolis 500 rounds of 1950 to 1960 count; as of the 2026 São Paulo Grand Prix)",
+   "answers": [
+    [
+     "Dan Gurney",
+     "Gurney"
+    ],
+    [
+     "Bruce McLaren",
+     "McLaren"
+    ],
+    [
+     "Eddie Irvine",
+     "Irvine"
+    ],
+    [
+     "Carlos Sainz Jr.",
+     "Carlos Sainz",
+     "Sainz"
+    ],
+    [
+     "Mike Hawthorn",
+     "Hawthorn"
+    ],
+    [
+     "Peter Collins",
+     "Collins"
+    ],
+    [
+     "Phil Hill",
+     "Hill"
+    ],
+    [
+     "Didier Pironi",
+     "Pironi"
+    ],
+    [
+     "Thierry Boutsen",
+     "Boutsen"
+    ],
+    [
+     "Heinz-Harald Frentzen",
+     "HH Frentzen",
+     "Frentzen"
+    ],
+    [
+     "Johnny Herbert",
+     "Herbert"
+    ],
+    [
+     "Giancarlo Fisichella",
+     "Fisichella"
+    ],
+    [
+     "Bill Vukovich",
+     "William Vukovich",
+     "Vukovich"
+    ],
+    [
+     "José Froilán González",
+     "Jose Froilan Gonzalez",
+     "Froilan Gonzalez",
+     "Gonzalez"
+    ],
+    [
+     "Maurice Trintignant",
+     "Trintignant"
+    ],
+    [
+     "Wolfgang von Trips",
+     "von Trips"
+    ],
+    [
+     "Pedro Rodríguez",
+     "Rodríguez"
+    ],
+    [
+     "Jo Siffert",
+     "Siffert"
+    ],
+    [
+     "Peter Revson",
+     "Revson"
+    ],
+    [
+     "Patrick Depailler",
+     "Depailler"
+    ],
+    [
+     "Jean-Pierre Jabouille",
+     "Jabouille"
+    ],
+    [
+     "Patrick Tambay",
+     "Tambay"
+    ],
+    [
+     "Elio de Angelis",
+     "de Angelis"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-f1-wins-11-to-25",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won between 11 and 25 Formula 1 Grands Prix inclusive (as of the 2026 São Paulo Grand Prix)",
+   "answers": [
+    [
+     "Jim Clark",
+     "Clark"
+    ],
+    [
+     "Niki Lauda",
+     "Lauda"
+    ],
+    [
+     "Juan Manuel Fangio",
+     "Fangio",
+     "El Chueco"
+    ],
+    [
+     "Nelson Piquet",
+     "Piquet"
+    ],
+    [
+     "Nico Rosberg",
+     "Rosberg"
+    ],
+    "Damon Hill",
+    [
+     "Kimi Räikkönen",
+     "Iceman",
+     "Räikkönen"
+    ],
+    [
+     "Mika Häkkinen",
+     "Häkkinen"
+    ],
+    [
+     "Stirling Moss",
+     "Moss"
+    ],
+    [
+     "Jenson Button",
+     "Button"
+    ],
+    "Graham Hill",
+    [
+     "Jack Brabham",
+     "Brabham"
+    ],
+    [
+     "Emerson Fittipaldi",
+     "Fittipaldi"
+    ],
+    [
+     "Lando Norris",
+     "Norris"
+    ],
+    [
+     "Alberto Ascari",
+     "Ascari"
+    ],
+    [
+     "David Coulthard",
+     "Coulthard"
+    ],
+    [
+     "Mario Andretti",
+     "Andretti"
+    ],
+    [
+     "Carlos Reutemann",
+     "Reutemann"
+    ],
+    [
+     "Alan Jones",
+     "Jones"
+    ],
+    [
+     "Jacques Villeneuve",
+     "Villeneuve"
+    ],
+    [
+     "Felipe Massa",
+     "Massa"
+    ],
+    [
+     "Rubens Barrichello",
+     "Barrichello"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-f1-german-gp-winners",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won the German Grand Prix as a Formula 1 World Championship race (1951 to 2019)",
+   "answers": [
+    [
+     "Alberto Ascari",
+     "Ascari"
+    ],
+    [
+     "Giuseppe Farina",
+     "Farina"
+    ],
+    [
+     "Juan Manuel Fangio",
+     "Fangio",
+     "El Chueco"
+    ],
+    [
+     "Tony Brooks",
+     "Brooks"
+    ],
+    [
+     "Stirling Moss",
+     "Moss"
+    ],
+    "Graham Hill",
+    [
+     "John Surtees",
+     "Surtees"
+    ],
+    [
+     "Jim Clark",
+     "Clark"
+    ],
+    [
+     "Jack Brabham",
+     "Brabham"
+    ],
+    [
+     "Denny Hulme",
+     "Hulme"
+    ],
+    [
+     "Jackie Stewart",
+     "Sir Jackie Stewart",
+     "Stewart"
+    ],
+    [
+     "Jacky Ickx",
+     "Ickx"
+    ],
+    [
+     "Jochen Rindt",
+     "Rindt"
+    ],
+    [
+     "Clay Regazzoni",
+     "Regazzoni"
+    ],
+    [
+     "Carlos Reutemann",
+     "Reutemann"
+    ],
+    [
+     "James Hunt",
+     "Hunt"
+    ],
+    [
+     "Niki Lauda",
+     "Lauda"
+    ],
+    [
+     "Mario Andretti",
+     "Andretti"
+    ],
+    [
+     "Alan Jones",
+     "Jones"
+    ],
+    [
+     "Jacques Laffite",
+     "Laffite"
+    ],
+    [
+     "Nelson Piquet",
+     "Piquet"
+    ],
+    [
+     "Patrick Tambay",
+     "Tambay"
+    ],
+    [
+     "René Arnoux",
+     "Arnoux"
+    ],
+    [
+     "Alain Prost",
+     "Prost"
+    ],
+    [
+     "Michele Alboreto",
+     "Alboreto"
+    ],
+    [
+     "Ayrton Senna",
+     "Senna"
+    ],
+    [
+     "Nigel Mansell",
+     "Mansell"
+    ],
+    [
+     "Gerhard Berger",
+     "Berger"
+    ],
+    "Michael Schumacher",
+    "Damon Hill",
+    [
+     "Mika Häkkinen",
+     "Häkkinen"
+    ],
+    [
+     "Eddie Irvine",
+     "Irvine"
+    ],
+    [
+     "Rubens Barrichello",
+     "Barrichello"
+    ],
+    "Ralf Schumacher",
+    [
+     "Juan Pablo Montoya",
+     "Montoya"
+    ],
+    [
+     "Fernando Alonso",
+     "Alonso"
+    ],
+    [
+     "Lewis Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Mark Webber",
+     "Webber"
+    ],
+    [
+     "Sebastian Vettel",
+     "Vettel"
+    ],
+    [
+     "Nico Rosberg",
+     "Rosberg"
+    ],
+    [
+     "Max Verstappen",
+     "Verstappen"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-f1-dutch-gp-winners",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won the Dutch Grand Prix as a Formula 1 World Championship race (1952 to 2026)",
+   "answers": [
+    [
+     "Alberto Ascari",
+     "Ascari"
+    ],
+    [
+     "Juan Manuel Fangio",
+     "Fangio",
+     "El Chueco"
+    ],
+    [
+     "Stirling Moss",
+     "Moss"
+    ],
+    [
+     "Jo Bonnier",
+     "Joakim Bonnier",
+     "Bonnier"
+    ],
+    [
+     "Jack Brabham",
+     "Brabham"
+    ],
+    [
+     "Wolfgang von Trips",
+     "von Trips"
+    ],
+    [
+     "Graham Hill",
+     "Hill"
+    ],
+    [
+     "Jim Clark",
+     "Clark"
+    ],
+    [
+     "Jackie Stewart",
+     "Sir Jackie Stewart",
+     "Stewart"
+    ],
+    [
+     "Jochen Rindt",
+     "Rindt"
+    ],
+    [
+     "Jacky Ickx",
+     "Ickx"
+    ],
+    [
+     "Niki Lauda",
+     "Lauda"
+    ],
+    [
+     "James Hunt",
+     "Hunt"
+    ],
+    [
+     "Mario Andretti",
+     "Andretti"
+    ],
+    [
+     "Alan Jones",
+     "Jones"
+    ],
+    [
+     "Nelson Piquet",
+     "Piquet"
+    ],
+    [
+     "Alain Prost",
+     "Prost"
+    ],
+    [
+     "Didier Pironi",
+     "Pironi"
+    ],
+    [
+     "René Arnoux",
+     "Arnoux"
+    ],
+    [
+     "Max Verstappen",
+     "Verstappen"
+    ],
+    [
+     "Lando Norris",
+     "Norris"
+    ],
+    [
+     "Oscar Piastri",
+     "Piastri"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-f1-mexican-gp-winners",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won the Mexican Grand Prix (including its Mexico City Grand Prix name) as a Formula 1 World Championship race (1963 to 2026)",
+   "answers": [
+    [
+     "Jim Clark",
+     "Clark"
+    ],
+    [
+     "Dan Gurney",
+     "Gurney"
+    ],
+    [
+     "Richie Ginther",
+     "Ginther"
+    ],
+    [
+     "John Surtees",
+     "Surtees"
+    ],
+    [
+     "Graham Hill",
+     "Hill"
+    ],
+    [
+     "Denny Hulme",
+     "Hulme"
+    ],
+    [
+     "Jacky Ickx",
+     "Ickx"
+    ],
+    [
+     "Gerhard Berger",
+     "Berger"
+    ],
+    [
+     "Nigel Mansell",
+     "Mansell"
+    ],
+    [
+     "Ayrton Senna",
+     "Senna"
+    ],
+    [
+     "Riccardo Patrese",
+     "Patrese"
+    ],
+    [
+     "Nico Rosberg",
+     "Rosberg"
+    ],
+    [
+     "Lewis Hamilton",
+     "Hamilton"
+    ],
+    [
+     "Max Verstappen",
+     "Verstappen"
+    ],
+    [
+     "Carlos Sainz Jr.",
+     "Carlos Sainz",
+     "Sainz"
+    ],
+    [
+     "Lando Norris",
+     "Norris"
+    ],
+    [
+     "Alain Prost",
+     "Prost"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-f1-san-marino-gp-winners",
+   "tags": [
+    "f1"
+   ],
+   "text": "Name a driver who has won the San Marino Grand Prix as a Formula 1 World Championship race (1981 to 2006)",
+   "answers": [
+    [
+     "Nelson Piquet",
+     "Piquet"
+    ],
+    [
+     "Elio de Angelis",
+     "de Angelis"
+    ],
+    [
+     "Nigel Mansell",
+     "Mansell"
+    ],
+    [
+     "Ayrton Senna",
+     "Senna"
+    ],
+    [
+     "Riccardo Patrese",
+     "Patrese"
+    ],
+    "Michael Schumacher",
+    [
+     "Damon Hill",
+     "Hill"
+    ],
+    [
+     "Heinz-Harald Frentzen",
+     "HH Frentzen",
+     "Frentzen"
+    ],
+    [
+     "David Coulthard",
+     "Coulthard"
+    ],
+    "Ralf Schumacher",
+    [
+     "Fernando Alonso",
+     "Alonso"
+    ],
+    [
+     "Didier Pironi",
+     "Pironi"
+    ],
+    [
+     "Patrick Tambay",
+     "Tambay"
+    ],
+    [
+     "Alain Prost",
+     "Prost"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-london-2012-sports",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a sport or discipline contested at the London 2012 Olympic Games",
+   "answers": [
+    "Aquatics",
+    "Diving",
+    [
+     "Marathon swimming",
+     "Open water swimming",
+     "Marathon swim"
+    ],
+    "Swimming",
+    [
+     "Synchronised swimming",
+     "Synchronized swimming",
+     "Artistic swimming"
+    ],
+    "Water polo",
+    "Archery",
+    "Athletics",
+    "Badminton",
+    "Basketball",
+    "Boxing",
+    "Canoeing",
+    [
+     "Canoe sprint",
+     "Sprint canoeing"
+    ],
+    [
+     "Canoe slalom",
+     "Slalom canoeing"
+    ],
+    "Cycling",
+    "BMX",
+    [
+     "Mountain biking",
+     "Mountain bike"
+    ],
+    [
+     "Road cycling",
+     "Cycling road"
+    ],
+    [
+     "Track cycling",
+     "Cycling track"
+    ],
+    "Equestrian",
+    "Dressage",
+    "Eventing",
+    [
+     "Show jumping",
+     "Jumping",
+     "Equestrian jumping"
+    ],
+    "Fencing",
+    [
+     "Hockey",
+     "Field hockey"
+    ],
+    [
+     "Football",
+     "Soccer"
+    ],
+    "Gymnastics",
+    [
+     "Artistic gymnastics",
+     "Gymnastics artistic"
+    ],
+    [
+     "Rhythmic gymnastics",
+     "Rhythmic"
+    ],
+    [
+     "Trampolining",
+     "Trampoline",
+     "Trampoline gymnastics"
+    ],
+    "Handball",
+    "Judo",
+    "Modern pentathlon",
+    "Rowing",
+    "Sailing",
+    "Shooting",
+    "Table tennis",
+    "Taekwondo",
+    "Tennis",
+    "Triathlon",
+    "Volleyball",
+    "Beach volleyball",
+    "Weightlifting",
+    "Wrestling",
+    [
+     "Freestyle wrestling",
+     "Freestyle"
+    ],
+    [
+     "Greco-Roman wrestling",
+     "Greco-Roman",
+     "Greco Roman"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-gb-winter-flag-bearers",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a person who has carried the Great Britain flag at a Winter Olympics opening or closing ceremony (1932 to 2026)",
+   "answers": [
+    [
+     "Mollie Phillips",
+     "Phillips"
+    ],
+    [
+     "Frederick McEvoy",
+     "Freddie McEvoy",
+     "McEvoy"
+    ],
+    [
+     "Henry Graham Sharp",
+     "Graham Sharp",
+     "Sharp"
+    ],
+    [
+     "John Nicks",
+     "Nicks"
+    ],
+    [
+     "Stuart Parkinson",
+     "Parkinson"
+    ],
+    [
+     "John Moore",
+     "Moore"
+    ],
+    [
+     "Keith Schellenberg",
+     "Schellenberg"
+    ],
+    [
+     "Robin Dixon",
+     "Lord Glentoran",
+     "Baron Glentoran"
+    ],
+    [
+     "Mike Freeman",
+     "Freeman"
+    ],
+    [
+     "John Curry",
+     "Curry"
+    ],
+    [
+     "Jeremy Palmer-Tomkinson",
+     "Palmer-Tomkinson",
+     "Jeremy Palmer Tomkinson"
+    ],
+    [
+     "Christopher Dean",
+     "Chris Dean",
+     "Dean"
+    ],
+    [
+     "Gomer Lloyd",
+     "Lloyd"
+    ],
+    [
+     "Nick Phipps",
+     "Phipps"
+    ],
+    [
+     "Wilf O'Reilly",
+     "O'Reilly"
+    ],
+    [
+     "Mark Tout",
+     "Tout"
+    ],
+    "Mike Dixon",
+    [
+     "Nicky Gooch",
+     "Gooch"
+    ],
+    [
+     "Sean Olsson",
+     "Olsson"
+    ],
+    [
+     "Rhona Martin",
+     "Martin"
+    ],
+    [
+     "Shelley Rudman",
+     "Rudman"
+    ],
+    [
+     "Amy Williams",
+     "Williams"
+    ],
+    [
+     "Jon Eley",
+     "Eley"
+    ],
+    [
+     "Lizzy Yarnold",
+     "Yarnold"
+    ],
+    [
+     "Billy Morgan",
+     "Morgan"
+    ],
+    [
+     "Eve Muirhead",
+     "Muirhead"
+    ],
+    [
+     "Dave Ryding",
+     "Ryding"
+    ],
+    [
+     "Bruce Mouat",
+     "Mouat"
+    ],
+    [
+     "Lilah Fear",
+     "Fear"
+    ],
+    [
+     "Brad Hall",
+     "Hall"
+    ],
+    [
+     "Matt Weston",
+     "Weston"
+    ],
+    [
+     "Charlotte Banks",
+     "Banks"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-gb-athletics-individual-golds",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a British athlete who has won an individual Olympic athletics gold medal (1948 to 2024; relays excluded)",
+   "answers": [
+    [
+     "Allan Wells",
+     "Wells"
+    ],
+    [
+     "Linford Christie",
+     "Christie"
+    ],
+    [
+     "Steve Ovett",
+     "Ovett"
+    ],
+    [
+     "Sebastian Coe",
+     "Seb Coe",
+     "Lord Coe",
+     "Coe"
+    ],
+    [
+     "Mo Farah",
+     "Mohamed Farah",
+     "Farah"
+    ],
+    [
+     "David Hemery",
+     "Hemery"
+    ],
+    [
+     "Chris Brasher",
+     "Brasher"
+    ],
+    [
+     "Lynn Davies",
+     "Davies"
+    ],
+    [
+     "Greg Rutherford",
+     "Rutherford"
+    ],
+    [
+     "Jonathan Edwards",
+     "Edwards"
+    ],
+    "Daley Thompson",
+    [
+     "Ken Matthews",
+     "Matthews"
+    ],
+    "Don Thompson",
+    [
+     "Christine Ohuruogu",
+     "Ohuruogu"
+    ],
+    [
+     "Ann Packer",
+     "Packer"
+    ],
+    [
+     "Kelly Holmes",
+     "Holmes"
+    ],
+    [
+     "Keely Hodgkinson",
+     "Hodgkinson"
+    ],
+    [
+     "Sally Gunnell",
+     "Gunnell"
+    ],
+    [
+     "Mary Rand",
+     "Rand"
+    ],
+    [
+     "Tessa Sanderson",
+     "Sanderson"
+    ],
+    [
+     "Denise Lewis",
+     "Lewis"
+    ],
+    [
+     "Jessica Ennis-Hill",
+     "Jessica Ennis",
+     "Jess Ennis",
+     "Jess Ennis-Hill",
+     "Ennis-Hill"
+    ],
+    [
+     "Mary Peters",
+     "Peters"
+    ]
+   ]
+  },
+  {
+   "id": "spnb-olympic-javelin-women-champions",
+   "tags": [
+    "olympics"
+   ],
+   "text": "Name a woman who has won the Olympic javelin throw title (1932 to 2024)",
+   "answers": [
+    [
+     "Babe Didrikson",
+     "Babe Zaharias",
+     "Mildred Didrikson",
+     "Mildred Zaharias",
+     "Didrikson"
+    ],
+    [
+     "Tilly Fleischer",
+     "Fleischer"
+    ],
+    [
+     "Herma Bauma",
+     "Bauma"
+    ],
+    [
+     "Dana Zátopková",
+     "Dana Zatopkova",
+     "Zatopkova"
+    ],
+    [
+     "Inese Jaunzeme",
+     "Jaunzeme"
+    ],
+    [
+     "Elvīra Ozoliņa",
+     "Ozoliņa"
+    ],
+    [
+     "Mihaela Peneș",
+     "Peneș"
+    ],
+    [
+     "Angéla Németh",
+     "Németh"
+    ],
+    [
+     "Ruth Fuchs",
+     "Fuchs"
+    ],
+    [
+     "María Caridad Colón",
+     "Colón"
+    ],
+    [
+     "Tessa Sanderson",
+     "Sanderson"
+    ],
+    [
+     "Petra Felke",
+     "Felke"
+    ],
+    [
+     "Silke Renk",
+     "Renk"
+    ],
+    [
+     "Heli Rantanen",
+     "Rantanen"
+    ],
+    [
+     "Trine Hattestad",
+     "Hattestad"
+    ],
+    [
+     "Osleidys Menéndez",
+     "Menéndez"
+    ],
+    [
+     "Barbora Špotáková",
+     "Barbora Spotakova",
+     "Spotakova"
+    ],
+    [
+     "Sara Kolak",
+     "Kolak"
+    ],
+    [
+     "Liu Shiying",
+     "Shiying"
+    ],
+    [
+     "Haruka Kitaguchi",
+     "Kitaguchi"
+    ]
+   ]
+  }
+ ]
+}

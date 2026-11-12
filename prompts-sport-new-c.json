@@ -1,0 +1,2937 @@
+{
+ "cat": "sport",
+ "prompts": [
+  {
+   "id": "spnc-us-mlb-perfect-games",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a pitcher who has thrown a perfect game in Major League Baseball (1880 to 2026)",
+   "answers": [
+    [
+     "Lee Richmond",
+     "Richmond",
+     "J. Lee Richmond"
+    ],
+    [
+     "John Montgomery Ward",
+     "Ward",
+     "John Ward",
+     "Monte Ward"
+    ],
+    [
+     "Cy Young",
+     "Young"
+    ],
+    [
+     "Addie Joss",
+     "Joss"
+    ],
+    [
+     "Charlie Robertson",
+     "Robertson"
+    ],
+    [
+     "Don Larsen",
+     "Larsen"
+    ],
+    [
+     "Jim Bunning",
+     "Bunning"
+    ],
+    [
+     "Sandy Koufax",
+     "Koufax"
+    ],
+    [
+     "Catfish Hunter",
+     "Hunter",
+     "Jim Hunter"
+    ],
+    [
+     "Len Barker",
+     "Barker"
+    ],
+    [
+     "Mike Witt",
+     "Witt"
+    ],
+    [
+     "Tom Browning",
+     "Browning"
+    ],
+    [
+     "Dennis Martínez",
+     "Martínez"
+    ],
+    [
+     "Kenny Rogers",
+     "Rogers"
+    ],
+    [
+     "David Wells",
+     "Wells",
+     "Boomer Wells"
+    ],
+    [
+     "David Cone",
+     "Cone"
+    ],
+    [
+     "Randy Johnson",
+     "Johnson"
+    ],
+    [
+     "Mark Buehrle",
+     "Buehrle"
+    ],
+    [
+     "Dallas Braden",
+     "Braden"
+    ],
+    [
+     "Roy Halladay",
+     "Halladay"
+    ],
+    [
+     "Philip Humber",
+     "Humber"
+    ],
+    [
+     "Matt Cain",
+     "Cain"
+    ],
+    [
+     "Félix Hernández",
+     "Hernández",
+     "King Felix"
+    ],
+    [
+     "Domingo Germán",
+     "Germán"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-mlb-3000-strikeouts",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a pitcher with 3,000 or more career strikeouts in Major League Baseball (as of November 2026)",
+   "answers": [
+    [
+     "Nolan Ryan",
+     "Ryan"
+    ],
+    [
+     "Randy Johnson",
+     "Big Unit"
+    ],
+    [
+     "Roger Clemens",
+     "Clemens"
+    ],
+    [
+     "Steve Carlton",
+     "Carlton"
+    ],
+    [
+     "Bert Blyleven",
+     "Blyleven"
+    ],
+    [
+     "Tom Seaver",
+     "Seaver"
+    ],
+    [
+     "Don Sutton",
+     "Sutton"
+    ],
+    [
+     "Justin Verlander",
+     "Verlander"
+    ],
+    [
+     "Max Scherzer",
+     "Scherzer"
+    ],
+    [
+     "Gaylord Perry",
+     "Perry"
+    ],
+    [
+     "Walter Johnson",
+     "Big Train"
+    ],
+    [
+     "Greg Maddux",
+     "Maddux"
+    ],
+    [
+     "Phil Niekro",
+     "Niekro"
+    ],
+    [
+     "Ferguson Jenkins",
+     "Jenkins",
+     "Fergie Jenkins"
+    ],
+    [
+     "Pedro Martínez",
+     "Martínez"
+    ],
+    [
+     "Bob Gibson",
+     "Gibson"
+    ],
+    [
+     "Curt Schilling",
+     "Schilling"
+    ],
+    [
+     "CC Sabathia",
+     "Sabathia"
+    ],
+    [
+     "John Smoltz",
+     "Smoltz"
+    ],
+    [
+     "Clayton Kershaw",
+     "Kershaw"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-nhl-first-overall-2000-2025",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a player who was picked first overall in the NHL Entry Draft between 2000 and 2025",
+   "answers": [
+    [
+     "Rick DiPietro",
+     "DiPietro",
+     "Di Pietro"
+    ],
+    [
+     "Ilya Kovalchuk",
+     "Kovalchuk"
+    ],
+    [
+     "Rick Nash",
+     "Nash"
+    ],
+    [
+     "Marc-André Fleury",
+     "Fleury"
+    ],
+    [
+     "Alex Ovechkin",
+     "Ovechkin",
+     "Alexander Ovechkin"
+    ],
+    [
+     "Sidney Crosby",
+     "Crosby"
+    ],
+    [
+     "Erik Johnson",
+     "Johnson"
+    ],
+    [
+     "Patrick Kane",
+     "Kane"
+    ],
+    [
+     "Steven Stamkos",
+     "Stamkos"
+    ],
+    [
+     "John Tavares",
+     "Tavares"
+    ],
+    [
+     "Taylor Hall",
+     "Hall"
+    ],
+    [
+     "Ryan Nugent-Hopkins",
+     "Nugent-Hopkins",
+     "RNH"
+    ],
+    [
+     "Nail Yakupov",
+     "Yakupov"
+    ],
+    [
+     "Nathan MacKinnon",
+     "MacKinnon"
+    ],
+    [
+     "Aaron Ekblad",
+     "Ekblad"
+    ],
+    [
+     "Connor McDavid",
+     "McDavid"
+    ],
+    [
+     "Auston Matthews",
+     "Matthews"
+    ],
+    [
+     "Nico Hischier",
+     "Hischier"
+    ],
+    [
+     "Rasmus Dahlin",
+     "Dahlin"
+    ],
+    [
+     "Jack Hughes",
+     "Hughes"
+    ],
+    [
+     "Alexis Lafrenière",
+     "Lafrenière"
+    ],
+    [
+     "Owen Power",
+     "Power"
+    ],
+    [
+     "Juraj Slafkovský",
+     "Slafkovský"
+    ],
+    [
+     "Connor Bedard",
+     "Bedard"
+    ],
+    [
+     "Macklin Celebrini",
+     "Celebrini"
+    ],
+    [
+     "Matthew Schaefer",
+     "Schaefer"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-ncaa-basketball-champion-schools",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a college that has won the NCAA Division I men's basketball championship (1939 to 2026)",
+   "answers": [
+    "UCLA",
+    "Kentucky",
+    [
+     "North Carolina",
+     "UNC",
+     "Carolina",
+     "Tar Heels"
+    ],
+    [
+     "UConn",
+     "Connecticut",
+     "Huskies"
+    ],
+    "Duke",
+    "Indiana",
+    "Kansas",
+    "Florida",
+    "Villanova",
+    "Louisville",
+    "Cincinnati",
+    "Michigan",
+    [
+     "Michigan State",
+     "MSU"
+    ],
+    [
+     "NC State",
+     "North Carolina State",
+     "N.C. State"
+    ],
+    [
+     "Oklahoma State",
+     "Oklahoma A&M"
+    ],
+    [
+     "San Francisco",
+     "USF"
+    ],
+    "Oregon",
+    "Ohio State",
+    "Utah",
+    "Wisconsin",
+    "Stanford",
+    "Wyoming",
+    "Holy Cross",
+    [
+     "CCNY",
+     "City College of New York",
+     "City College"
+    ],
+    "La Salle",
+    "Marquette",
+    [
+     "California",
+     "Cal",
+     "UC Berkeley"
+    ],
+    [
+     "Texas Western",
+     "UTEP"
+    ],
+    [
+     "Loyola Chicago",
+     "Loyola-Chicago",
+     "Loyola University Chicago"
+    ],
+    "Georgetown",
+    "Arkansas",
+    "Arizona",
+    "Syracuse",
+    "Maryland",
+    "Baylor",
+    [
+     "Virginia",
+     "UVA"
+    ],
+    [
+     "UNLV",
+     "Nevada Las Vegas"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-mls-cup-winning-clubs",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a club that has won the MLS Cup (1996 to 2025)",
+   "answers": [
+    [
+     "LA Galaxy",
+     "Galaxy",
+     "Los Angeles Galaxy"
+    ],
+    [
+     "D.C. United",
+     "DC United"
+    ],
+    [
+     "Columbus Crew",
+     "Columbus",
+     "Crew"
+    ],
+    [
+     "Houston Dynamo",
+     "Houston",
+     "Dynamo"
+    ],
+    [
+     "Seattle Sounders",
+     "Seattle",
+     "Sounders"
+    ],
+    [
+     "Sporting Kansas City",
+     "Sporting KC",
+     "Kansas City",
+     "Kansas City Wizards"
+    ],
+    [
+     "San Jose Earthquakes",
+     "San Jose",
+     "Earthquakes"
+    ],
+    [
+     "Chicago Fire",
+     "Chicago"
+    ],
+    [
+     "Portland Timbers",
+     "Portland",
+     "Timbers"
+    ],
+    [
+     "Toronto FC",
+     "Toronto"
+    ],
+    [
+     "Colorado Rapids",
+     "Colorado",
+     "Rapids"
+    ],
+    [
+     "Real Salt Lake",
+     "RSL",
+     "Salt Lake"
+    ],
+    [
+     "LAFC",
+     "Los Angeles FC"
+    ],
+    [
+     "Atlanta United",
+     "Atlanta"
+    ],
+    [
+     "New York City FC",
+     "NYCFC",
+     "New York City"
+    ],
+    [
+     "Inter Miami",
+     "Inter Miami CF",
+     "Miami"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-nfl-sacks-over-110",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a player with more than 110 official career sacks in the NFL (sacks officially recorded since 1982, as of November 2026)",
+   "answers": [
+    [
+     "Bruce Smith",
+     "Smith"
+    ],
+    [
+     "Reggie White",
+     "White"
+    ],
+    [
+     "Kevin Greene",
+     "Greene"
+    ],
+    [
+     "Julius Peppers",
+     "Peppers"
+    ],
+    [
+     "Chris Doleman",
+     "Doleman"
+    ],
+    [
+     "Michael Strahan",
+     "Strahan"
+    ],
+    [
+     "Von Miller",
+     "Miller"
+    ],
+    "Jason Taylor",
+    [
+     "Terrell Suggs",
+     "Suggs"
+    ],
+    [
+     "DeMarcus Ware",
+     "Ware"
+    ],
+    [
+     "Richard Dent",
+     "Dent"
+    ],
+    [
+     "John Randle",
+     "Randle"
+    ],
+    [
+     "Jared Allen",
+     "Allen"
+    ],
+    [
+     "John Abraham",
+     "Abraham"
+    ],
+    [
+     "Leslie O'Neal",
+     "O'Neal"
+    ],
+    [
+     "Lawrence Taylor",
+     "LT"
+    ],
+    [
+     "Cameron Jordan",
+     "Jordan"
+    ],
+    [
+     "Myles Garrett",
+     "Garrett"
+    ],
+    [
+     "Rickey Jackson",
+     "Jackson"
+    ],
+    [
+     "Derrick Thomas",
+     "Thomas"
+    ],
+    [
+     "Dwight Freeney",
+     "Freeney"
+    ],
+    [
+     "Robert Mathis",
+     "Mathis"
+    ],
+    [
+     "T. J. Watt",
+     "TJ Watt"
+    ],
+    [
+     "Simeon Rice",
+     "Rice"
+    ],
+    [
+     "Clyde Simmons",
+     "Simmons"
+    ],
+    [
+     "Danielle Hunter",
+     "Hunter"
+    ],
+    [
+     "Calais Campbell",
+     "Campbell"
+    ],
+    [
+     "Khalil Mack",
+     "Mack"
+    ],
+    [
+     "J. J. Watt",
+     "JJ Watt"
+    ],
+    "Sean Jones",
+    [
+     "Justin Houston",
+     "Houston"
+    ],
+    "Chandler Jones",
+    [
+     "Aaron Donald",
+     "Donald"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-mlb-cy-young-2000-2025",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a pitcher who has won the Cy Young Award (American or National League) between 2000 and 2025",
+   "answers": [
+    [
+     "Pedro Martínez",
+     "Martínez"
+    ],
+    [
+     "Roger Clemens",
+     "Clemens"
+    ],
+    [
+     "Barry Zito",
+     "Zito"
+    ],
+    [
+     "Roy Halladay",
+     "Halladay"
+    ],
+    [
+     "Johan Santana",
+     "Santana"
+    ],
+    [
+     "Bartolo Colón",
+     "Colón"
+    ],
+    [
+     "CC Sabathia",
+     "Sabathia"
+    ],
+    [
+     "Cliff Lee",
+     "Lee"
+    ],
+    [
+     "Zack Greinke",
+     "Greinke"
+    ],
+    [
+     "Félix Hernández",
+     "Hernández",
+     "King Felix"
+    ],
+    [
+     "Justin Verlander",
+     "Verlander"
+    ],
+    [
+     "David Price",
+     "Price"
+    ],
+    [
+     "Max Scherzer",
+     "Scherzer"
+    ],
+    [
+     "Corey Kluber",
+     "Kluber"
+    ],
+    [
+     "Dallas Keuchel",
+     "Keuchel"
+    ],
+    [
+     "Rick Porcello",
+     "Porcello"
+    ],
+    [
+     "Blake Snell",
+     "Snell"
+    ],
+    [
+     "Shane Bieber",
+     "Bieber"
+    ],
+    [
+     "Robbie Ray",
+     "Ray"
+    ],
+    [
+     "Gerrit Cole",
+     "Cole"
+    ],
+    [
+     "Tarik Skubal",
+     "Skubal"
+    ],
+    [
+     "Randy Johnson",
+     "Johnson",
+     "Big Unit"
+    ],
+    [
+     "Éric Gagné",
+     "Gagné"
+    ],
+    [
+     "Chris Carpenter",
+     "Carpenter"
+    ],
+    [
+     "Brandon Webb",
+     "Webb"
+    ],
+    [
+     "Jake Peavy",
+     "Peavy"
+    ],
+    [
+     "Tim Lincecum",
+     "Lincecum"
+    ],
+    [
+     "Clayton Kershaw",
+     "Kershaw"
+    ],
+    [
+     "R. A. Dickey",
+     "Dickey",
+     "RA Dickey"
+    ],
+    [
+     "Jake Arrieta",
+     "Arrieta"
+    ],
+    [
+     "Jacob deGrom",
+     "deGrom",
+     "Jacob de Grom"
+    ],
+    [
+     "Trevor Bauer",
+     "Bauer"
+    ],
+    [
+     "Corbin Burnes",
+     "Burnes"
+    ],
+    [
+     "Sandy Alcántara",
+     "Alcántara"
+    ],
+    [
+     "Chris Sale",
+     "Sale"
+    ],
+    [
+     "Paul Skenes",
+     "Skenes"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-nhl-norris-winners",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a defenceman who has won the Norris Trophy (1953-54 to 2025-26)",
+   "answers": [
+    [
+     "Red Kelly",
+     "Kelly"
+    ],
+    [
+     "Doug Harvey",
+     "Harvey"
+    ],
+    [
+     "Tom Johnson",
+     "Johnson"
+    ],
+    [
+     "Pierre Pilote",
+     "Pilote"
+    ],
+    [
+     "Jacques Laperriere",
+     "Laperriere"
+    ],
+    [
+     "Harry Howell",
+     "Howell"
+    ],
+    [
+     "Bobby Orr",
+     "Orr"
+    ],
+    [
+     "Denis Potvin",
+     "Potvin"
+    ],
+    [
+     "Larry Robinson",
+     "Robinson"
+    ],
+    [
+     "Randy Carlyle",
+     "Carlyle"
+    ],
+    [
+     "Doug Wilson",
+     "Wilson"
+    ],
+    [
+     "Rod Langway",
+     "Langway"
+    ],
+    [
+     "Paul Coffey",
+     "Coffey"
+    ],
+    [
+     "Ray Bourque",
+     "Bourque"
+    ],
+    [
+     "Chris Chelios",
+     "Chelios"
+    ],
+    [
+     "Brian Leetch",
+     "Leetch"
+    ],
+    [
+     "Rob Blake",
+     "Blake"
+    ],
+    [
+     "Al MacInnis",
+     "MacInnis"
+    ],
+    [
+     "Chris Pronger",
+     "Pronger"
+    ],
+    [
+     "Nicklas Lidstrom",
+     "Lidstrom"
+    ],
+    [
+     "Scott Niedermayer",
+     "Niedermayer"
+    ],
+    [
+     "Zdeno Chara",
+     "Chara"
+    ],
+    [
+     "Duncan Keith",
+     "Keith"
+    ],
+    [
+     "Erik Karlsson",
+     "Karlsson"
+    ],
+    [
+     "P. K. Subban",
+     "Subban",
+     "PK Subban"
+    ],
+    [
+     "Drew Doughty",
+     "Doughty"
+    ],
+    [
+     "Brent Burns",
+     "Burns"
+    ],
+    [
+     "Victor Hedman",
+     "Hedman"
+    ],
+    [
+     "Mark Giordano",
+     "Giordano"
+    ],
+    [
+     "Roman Josi",
+     "Josi"
+    ],
+    [
+     "Adam Fox",
+     "Fox"
+    ],
+    [
+     "Cale Makar",
+     "Makar"
+    ],
+    [
+     "Quinn Hughes",
+     "Hughes"
+    ],
+    [
+     "Zach Werenski",
+     "Werenski"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-mlb-world-series-mvps",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a player who has been named World Series MVP (1955 to 2025, co-winners included)",
+   "answers": [
+    [
+     "Johnny Podres",
+     "Podres"
+    ],
+    [
+     "Don Larsen",
+     "Larsen"
+    ],
+    [
+     "Lew Burdette",
+     "Burdette"
+    ],
+    [
+     "Bob Turley",
+     "Turley"
+    ],
+    [
+     "Larry Sherry",
+     "Sherry"
+    ],
+    [
+     "Bobby Richardson",
+     "Richardson"
+    ],
+    [
+     "Whitey Ford",
+     "Ford"
+    ],
+    [
+     "Ralph Terry",
+     "Terry"
+    ],
+    [
+     "Sandy Koufax",
+     "Koufax"
+    ],
+    [
+     "Bob Gibson",
+     "Gibson"
+    ],
+    "Frank Robinson",
+    [
+     "Mickey Lolich",
+     "Lolich"
+    ],
+    [
+     "Donn Clendenon",
+     "Clendenon"
+    ],
+    "Brooks Robinson",
+    [
+     "Roberto Clemente",
+     "Clemente"
+    ],
+    [
+     "Gene Tenace",
+     "Tenace"
+    ],
+    [
+     "Reggie Jackson",
+     "Jackson"
+    ],
+    [
+     "Rollie Fingers",
+     "Fingers"
+    ],
+    [
+     "Pete Rose",
+     "Rose"
+    ],
+    [
+     "Johnny Bench",
+     "Bench"
+    ],
+    [
+     "Bucky Dent",
+     "Dent"
+    ],
+    [
+     "Willie Stargell",
+     "Stargell"
+    ],
+    [
+     "Mike Schmidt",
+     "Schmidt"
+    ],
+    [
+     "Rick Dempsey",
+     "Dempsey"
+    ],
+    [
+     "Alan Trammell",
+     "Trammell"
+    ],
+    [
+     "Bret Saberhagen",
+     "Saberhagen"
+    ],
+    [
+     "Ray Knight",
+     "Knight"
+    ],
+    [
+     "Frank Viola",
+     "Viola"
+    ],
+    [
+     "Orel Hershiser",
+     "Hershiser"
+    ],
+    [
+     "Dave Stewart",
+     "Stewart"
+    ],
+    [
+     "José Rijo",
+     "Rijo"
+    ],
+    [
+     "Jack Morris",
+     "Morris"
+    ],
+    [
+     "Pat Borders",
+     "Borders"
+    ],
+    [
+     "Paul Molitor",
+     "Molitor"
+    ],
+    [
+     "Tom Glavine",
+     "Glavine"
+    ],
+    [
+     "John Wetteland",
+     "Wetteland"
+    ],
+    [
+     "Liván Hernández",
+     "Hernández"
+    ],
+    [
+     "Scott Brosius",
+     "Brosius"
+    ],
+    [
+     "Mariano Rivera",
+     "Rivera"
+    ],
+    [
+     "Derek Jeter",
+     "Jeter"
+    ],
+    [
+     "Troy Glaus",
+     "Glaus"
+    ],
+    [
+     "Josh Beckett",
+     "Beckett"
+    ],
+    [
+     "Manny Ramirez",
+     "Ramirez"
+    ],
+    [
+     "Jermaine Dye",
+     "Dye"
+    ],
+    [
+     "David Eckstein",
+     "Eckstein"
+    ],
+    [
+     "Mike Lowell",
+     "Lowell"
+    ],
+    [
+     "Cole Hamels",
+     "Hamels"
+    ],
+    [
+     "Hideki Matsui",
+     "Matsui"
+    ],
+    [
+     "Edgar Rentería",
+     "Rentería"
+    ],
+    [
+     "David Freese",
+     "Freese"
+    ],
+    [
+     "Pablo Sandoval",
+     "Sandoval"
+    ],
+    [
+     "David Ortiz",
+     "Ortiz"
+    ],
+    [
+     "Madison Bumgarner",
+     "Bumgarner"
+    ],
+    [
+     "Salvador Pérez",
+     "Pérez"
+    ],
+    [
+     "Ben Zobrist",
+     "Zobrist"
+    ],
+    [
+     "George Springer",
+     "Springer"
+    ],
+    [
+     "Steve Pearce",
+     "Pearce"
+    ],
+    [
+     "Stephen Strasburg",
+     "Strasburg"
+    ],
+    [
+     "Corey Seager",
+     "Seager"
+    ],
+    [
+     "Jorge Soler",
+     "Soler"
+    ],
+    [
+     "Jeremy Peña",
+     "Peña"
+    ],
+    [
+     "Freddie Freeman",
+     "Freeman"
+    ],
+    [
+     "Yoshinobu Yamamoto",
+     "Yamamoto"
+    ],
+    [
+     "Pedro Guerrero",
+     "Guerrero"
+    ],
+    [
+     "Ron Cey",
+     "Cey"
+    ],
+    [
+     "Steve Yeager",
+     "Yeager"
+    ],
+    [
+     "Darrell Porter",
+     "Porter"
+    ],
+    [
+     "Randy Johnson",
+     "Johnson"
+    ],
+    [
+     "Curt Schilling",
+     "Schilling"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-nfl-defensive-poy",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a player who has won the AP NFL Defensive Player of the Year award (1971 to 2025)",
+   "answers": [
+    [
+     "Alan Page",
+     "Page"
+    ],
+    [
+     "Joe Greene",
+     "Greene"
+    ],
+    [
+     "Dick Anderson",
+     "Anderson"
+    ],
+    [
+     "Mel Blount",
+     "Blount"
+    ],
+    [
+     "Jack Lambert",
+     "Lambert"
+    ],
+    [
+     "Harvey Martin",
+     "Martin"
+    ],
+    [
+     "Randy Gradishar",
+     "Gradishar"
+    ],
+    [
+     "Lee Roy Selmon",
+     "Selmon"
+    ],
+    [
+     "Lester Hayes",
+     "Hayes"
+    ],
+    [
+     "Lawrence Taylor",
+     "LT"
+    ],
+    [
+     "Doug Betters",
+     "Betters"
+    ],
+    [
+     "Kenny Easley",
+     "Easley"
+    ],
+    [
+     "Mike Singletary",
+     "Singletary"
+    ],
+    [
+     "Reggie White",
+     "White"
+    ],
+    [
+     "Keith Millard",
+     "Millard"
+    ],
+    [
+     "Bruce Smith",
+     "Smith"
+    ],
+    [
+     "Pat Swilling",
+     "Swilling"
+    ],
+    [
+     "Cortez Kennedy",
+     "Kennedy"
+    ],
+    "Rod Woodson",
+    "Deion Sanders",
+    [
+     "Bryce Paup",
+     "Paup"
+    ],
+    [
+     "Dana Stubblefield",
+     "Stubblefield"
+    ],
+    [
+     "Warren Sapp",
+     "Sapp"
+    ],
+    [
+     "Ray Lewis",
+     "Lewis"
+    ],
+    [
+     "Michael Strahan",
+     "Strahan"
+    ],
+    [
+     "Derrick Brooks",
+     "Brooks"
+    ],
+    [
+     "Ed Reed",
+     "Reed"
+    ],
+    [
+     "Brian Urlacher",
+     "Urlacher"
+    ],
+    "Jason Taylor",
+    "Bob Sanders",
+    [
+     "James Harrison",
+     "Harrison"
+    ],
+    "Charles Woodson",
+    [
+     "Troy Polamalu",
+     "Polamalu"
+    ],
+    [
+     "Terrell Suggs",
+     "Suggs"
+    ],
+    [
+     "J. J. Watt",
+     "JJ Watt"
+    ],
+    [
+     "Luke Kuechly",
+     "Kuechly"
+    ],
+    [
+     "Khalil Mack",
+     "Mack"
+    ],
+    [
+     "Aaron Donald",
+     "Donald"
+    ],
+    [
+     "Stephon Gilmore",
+     "Gilmore"
+    ],
+    [
+     "T. J. Watt",
+     "TJ Watt"
+    ],
+    [
+     "Nick Bosa",
+     "Bosa"
+    ],
+    [
+     "Myles Garrett",
+     "Garrett"
+    ],
+    [
+     "Patrick Surtain II",
+     "Surtain",
+     "Patrick Surtain",
+     "Pat Surtain"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-nhl-calder-winners-1990-2026",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a player who has won the Calder Memorial Trophy as the NHL's rookie of the year (1989-90 to 2025-26)",
+   "answers": [
+    [
+     "Sergei Makarov",
+     "Makarov"
+    ],
+    [
+     "Ed Belfour",
+     "Belfour"
+    ],
+    [
+     "Pavel Bure",
+     "Bure"
+    ],
+    [
+     "Teemu Selanne",
+     "Selanne"
+    ],
+    [
+     "Martin Brodeur",
+     "Brodeur"
+    ],
+    [
+     "Peter Forsberg",
+     "Forsberg"
+    ],
+    [
+     "Daniel Alfredsson",
+     "Alfredsson"
+    ],
+    [
+     "Bryan Berard",
+     "Berard"
+    ],
+    [
+     "Sergei Samsonov",
+     "Samsonov"
+    ],
+    [
+     "Chris Drury",
+     "Drury"
+    ],
+    [
+     "Scott Gomez",
+     "Gomez"
+    ],
+    [
+     "Evgeni Nabokov",
+     "Nabokov"
+    ],
+    [
+     "Dany Heatley",
+     "Heatley"
+    ],
+    [
+     "Barret Jackman",
+     "Jackman"
+    ],
+    [
+     "Andrew Raycroft",
+     "Raycroft"
+    ],
+    [
+     "Alexander Ovechkin",
+     "Ovechkin"
+    ],
+    [
+     "Evgeni Malkin",
+     "Malkin"
+    ],
+    [
+     "Patrick Kane",
+     "Kane"
+    ],
+    [
+     "Steve Mason",
+     "Mason"
+    ],
+    [
+     "Tyler Myers",
+     "Myers"
+    ],
+    [
+     "Jeff Skinner",
+     "Skinner"
+    ],
+    [
+     "Gabriel Landeskog",
+     "Landeskog"
+    ],
+    [
+     "Jonathan Huberdeau",
+     "Huberdeau"
+    ],
+    [
+     "Nathan MacKinnon",
+     "MacKinnon"
+    ],
+    [
+     "Aaron Ekblad",
+     "Ekblad"
+    ],
+    [
+     "Artemi Panarin",
+     "Panarin"
+    ],
+    [
+     "Auston Matthews",
+     "Matthews"
+    ],
+    [
+     "Mathew Barzal",
+     "Barzal"
+    ],
+    [
+     "Elias Pettersson",
+     "Pettersson"
+    ],
+    [
+     "Cale Makar",
+     "Makar"
+    ],
+    [
+     "Kirill Kaprizov",
+     "Kaprizov"
+    ],
+    [
+     "Moritz Seider",
+     "Seider"
+    ],
+    [
+     "Matty Beniers",
+     "Beniers"
+    ],
+    [
+     "Connor Bedard",
+     "Bedard"
+    ],
+    [
+     "Lane Hutson",
+     "Hutson"
+    ],
+    [
+     "Matthew Schaefer",
+     "Schaefer"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-mlb-rookie-of-year-2000-2025",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a player who has won the Major League Baseball Rookie of the Year award (American or National League) between 2000 and 2025",
+   "answers": [
+    [
+     "Kazuhiro Sasaki",
+     "Sasaki"
+    ],
+    [
+     "Ichiro Suzuki",
+     "Suzuki",
+     "Ichiro"
+    ],
+    [
+     "Eric Hinske",
+     "Hinske"
+    ],
+    [
+     "Ángel Berroa",
+     "Berroa"
+    ],
+    [
+     "Bobby Crosby",
+     "Crosby"
+    ],
+    [
+     "Huston Street",
+     "Street"
+    ],
+    [
+     "Dustin Pedroia",
+     "Pedroia"
+    ],
+    [
+     "Evan Longoria",
+     "Longoria"
+    ],
+    [
+     "Andrew Bailey",
+     "Bailey"
+    ],
+    [
+     "Neftalí Feliz",
+     "Feliz"
+    ],
+    [
+     "Jeremy Hellickson",
+     "Hellickson"
+    ],
+    [
+     "Mike Trout",
+     "Trout"
+    ],
+    [
+     "Wil Myers",
+     "Myers"
+    ],
+    [
+     "José Abreu",
+     "Abreu"
+    ],
+    [
+     "Carlos Correa",
+     "Correa"
+    ],
+    [
+     "Michael Fulmer",
+     "Fulmer"
+    ],
+    [
+     "Aaron Judge",
+     "Judge"
+    ],
+    [
+     "Shohei Ohtani",
+     "Ohtani"
+    ],
+    [
+     "Yordan Alvarez",
+     "Alvarez"
+    ],
+    [
+     "Kyle Lewis",
+     "Lewis"
+    ],
+    [
+     "Randy Arozarena",
+     "Arozarena"
+    ],
+    [
+     "Julio Rodríguez",
+     "Rodríguez"
+    ],
+    [
+     "Gunnar Henderson",
+     "Henderson"
+    ],
+    [
+     "Luis Gil",
+     "Gil"
+    ],
+    [
+     "Nick Kurtz",
+     "Kurtz"
+    ],
+    [
+     "Rafael Furcal",
+     "Furcal"
+    ],
+    [
+     "Albert Pujols",
+     "Pujols"
+    ],
+    [
+     "Jason Jennings",
+     "Jennings"
+    ],
+    [
+     "Dontrelle Willis",
+     "Willis"
+    ],
+    [
+     "Jason Bay",
+     "Bay"
+    ],
+    [
+     "Ryan Howard",
+     "Howard"
+    ],
+    [
+     "Hanley Ramírez",
+     "Ramírez"
+    ],
+    [
+     "Ryan Braun",
+     "Braun"
+    ],
+    [
+     "Geovany Soto",
+     "Soto"
+    ],
+    [
+     "Chris Coghlan",
+     "Coghlan"
+    ],
+    [
+     "Buster Posey",
+     "Posey"
+    ],
+    [
+     "Craig Kimbrel",
+     "Kimbrel"
+    ],
+    [
+     "Bryce Harper",
+     "Harper"
+    ],
+    [
+     "José Fernández",
+     "Fernández"
+    ],
+    [
+     "Jacob deGrom",
+     "deGrom"
+    ],
+    [
+     "Kris Bryant",
+     "Bryant"
+    ],
+    [
+     "Corey Seager",
+     "Seager"
+    ],
+    [
+     "Cody Bellinger",
+     "Bellinger"
+    ],
+    [
+     "Ronald Acuña Jr.",
+     "Acuña",
+     "Ronald Acuna"
+    ],
+    [
+     "Pete Alonso",
+     "Alonso"
+    ],
+    [
+     "Devin Williams",
+     "Williams"
+    ],
+    [
+     "Jonathan India",
+     "India"
+    ],
+    [
+     "Michael Harris II",
+     "Harris",
+     "Michael Harris"
+    ],
+    [
+     "Corbin Carroll",
+     "Carroll"
+    ],
+    [
+     "Paul Skenes",
+     "Skenes"
+    ],
+    [
+     "Drake Baldwin",
+     "Baldwin"
+    ],
+    [
+     "Justin Verlander",
+     "Verlander"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-us-heisman-winning-schools",
+   "tags": [
+    "us"
+   ],
+   "text": "Name a college whose player has won the Heisman Trophy (1935 to 2025 seasons)",
+   "answers": [
+    [
+     "USC",
+     "Southern California",
+     "Southern Cal"
+    ],
+    "Notre Dame",
+    "Ohio State",
+    "Oklahoma",
+    "Alabama",
+    [
+     "Army",
+     "Army West Point"
+    ],
+    "Auburn",
+    "Florida",
+    [
+     "Florida State",
+     "FSU"
+    ],
+    [
+     "LSU",
+     "Louisiana State"
+    ],
+    "Michigan",
+    "Nebraska",
+    "Colorado",
+    "Georgia",
+    [
+     "Miami",
+     "Miami (FL)",
+     "University of Miami",
+     "Miami Hurricanes"
+    ],
+    "Navy",
+    "Texas",
+    [
+     "Texas A&M",
+     "Texas AM",
+     "A&M"
+    ],
+    "Wisconsin",
+    "Yale",
+    "Baylor",
+    [
+     "BYU",
+     "Brigham Young"
+    ],
+    "Boston College",
+    [
+     "Chicago",
+     "University of Chicago"
+    ],
+    "Houston",
+    "Indiana",
+    "Iowa",
+    "Louisville",
+    "Minnesota",
+    "Oklahoma State",
+    "Oregon",
+    "Oregon State",
+    "Penn State",
+    [
+     "Pittsburgh",
+     "Pitt"
+    ],
+    "Princeton",
+    "South Carolina",
+    [
+     "SMU",
+     "Southern Methodist"
+    ],
+    "Stanford",
+    "Syracuse",
+    [
+     "TCU",
+     "Texas Christian"
+    ],
+    "UCLA"
+   ]
+  },
+  {
+   "id": "spnc-oly-marathon",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a man who has won the Olympic marathon (1896 to 2024)",
+   "answers": [
+    [
+     "Spyridon Louis",
+     "Louis",
+     "Spyros Louis"
+    ],
+    [
+     "Michel Théato",
+     "Théato"
+    ],
+    [
+     "Thomas Hicks",
+     "Hicks"
+    ],
+    [
+     "Johnny Hayes",
+     "Hayes"
+    ],
+    [
+     "Ken McArthur",
+     "McArthur"
+    ],
+    [
+     "Hannes Kolehmainen",
+     "Kolehmainen"
+    ],
+    [
+     "Albin Stenroos",
+     "Stenroos"
+    ],
+    [
+     "Boughera El Ouafi",
+     "Ouafi",
+     "El Ouafi"
+    ],
+    [
+     "Juan Carlos Zabala",
+     "Zabala"
+    ],
+    [
+     "Sohn Kee-chung",
+     "Sohn",
+     "Kitei Son"
+    ],
+    [
+     "Delfo Cabrera",
+     "Cabrera"
+    ],
+    [
+     "Emil Zátopek",
+     "Zátopek"
+    ],
+    [
+     "Alain Mimoun",
+     "Mimoun"
+    ],
+    [
+     "Abebe Bikila",
+     "Bikila"
+    ],
+    [
+     "Mamo Wolde",
+     "Wolde"
+    ],
+    [
+     "Frank Shorter",
+     "Shorter"
+    ],
+    [
+     "Waldemar Cierpinski",
+     "Cierpinski"
+    ],
+    [
+     "Carlos Lopes",
+     "Lopes"
+    ],
+    [
+     "Gelindo Bordin",
+     "Bordin"
+    ],
+    [
+     "Hwang Young-cho",
+     "Hwang"
+    ],
+    [
+     "Josia Thugwane",
+     "Thugwane"
+    ],
+    [
+     "Gezahegne Abera",
+     "Abera"
+    ],
+    [
+     "Stefano Baldini",
+     "Baldini"
+    ],
+    [
+     "Samuel Wanjiru",
+     "Wanjiru"
+    ],
+    [
+     "Stephen Kiprotich",
+     "Kiprotich"
+    ],
+    [
+     "Eliud Kipchoge",
+     "Kipchoge"
+    ],
+    [
+     "Tamirat Tola",
+     "Tola"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-oly-5000m",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a man who has won the Olympic 5000m title (1912 to 2024)",
+   "answers": [
+    [
+     "Hannes Kolehmainen",
+     "Kolehmainen"
+    ],
+    [
+     "Joseph Guillemot",
+     "Guillemot"
+    ],
+    [
+     "Paavo Nurmi",
+     "Nurmi"
+    ],
+    [
+     "Ville Ritola",
+     "Ritola"
+    ],
+    [
+     "Lauri Lehtinen",
+     "Lehtinen"
+    ],
+    [
+     "Gunnar Höckert",
+     "Höckert"
+    ],
+    [
+     "Gaston Reiff",
+     "Reiff"
+    ],
+    [
+     "Emil Zátopek",
+     "Zátopek"
+    ],
+    [
+     "Vladimir Kuts",
+     "Kuts"
+    ],
+    [
+     "Murray Halberg",
+     "Halberg"
+    ],
+    [
+     "Bob Schul",
+     "Schul"
+    ],
+    [
+     "Mohammed Gammoudi",
+     "Gammoudi"
+    ],
+    [
+     "Lasse Virén",
+     "Virén"
+    ],
+    [
+     "Miruts Yifter",
+     "Yifter"
+    ],
+    [
+     "Saïd Aouita",
+     "Aouita"
+    ],
+    [
+     "John Ngugi",
+     "Ngugi"
+    ],
+    [
+     "Dieter Baumann",
+     "Baumann"
+    ],
+    [
+     "Vénuste Niyongabo",
+     "Niyongabo"
+    ],
+    [
+     "Million Wolde",
+     "Wolde"
+    ],
+    [
+     "Hicham El Guerrouj",
+     "Guerrouj",
+     "El Guerrouj"
+    ],
+    [
+     "Kenenisa Bekele",
+     "Bekele"
+    ],
+    [
+     "Mo Farah",
+     "Farah",
+     "Mohamed Farah"
+    ],
+    [
+     "Joshua Cheptegei",
+     "Cheptegei"
+    ],
+    [
+     "Jakob Ingebrigtsen",
+     "Ingebrigtsen"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-oly-10000m",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a man who has won the Olympic 10,000m title (1912 to 2024)",
+   "answers": [
+    [
+     "Hannes Kolehmainen",
+     "Kolehmainen"
+    ],
+    [
+     "Paavo Nurmi",
+     "Nurmi"
+    ],
+    [
+     "Ville Ritola",
+     "Ritola"
+    ],
+    [
+     "Janusz Kusociński",
+     "Kusociński"
+    ],
+    [
+     "Ilmari Salminen",
+     "Salminen"
+    ],
+    [
+     "Emil Zátopek",
+     "Zátopek"
+    ],
+    [
+     "Vladimir Kuts",
+     "Kuts"
+    ],
+    [
+     "Pyotr Bolotnikov",
+     "Bolotnikov"
+    ],
+    [
+     "Billy Mills",
+     "Mills"
+    ],
+    [
+     "Naftali Temu",
+     "Temu"
+    ],
+    [
+     "Lasse Virén",
+     "Virén"
+    ],
+    [
+     "Miruts Yifter",
+     "Yifter"
+    ],
+    [
+     "Alberto Cova",
+     "Cova"
+    ],
+    [
+     "Brahim Boutayeb",
+     "Boutayeb"
+    ],
+    [
+     "Khalid Skah",
+     "Skah"
+    ],
+    [
+     "Haile Gebrselassie",
+     "Gebrselassie"
+    ],
+    [
+     "Kenenisa Bekele",
+     "Bekele"
+    ],
+    [
+     "Mo Farah",
+     "Farah",
+     "Mohamed Farah"
+    ],
+    [
+     "Selemon Barega",
+     "Barega"
+    ],
+    [
+     "Joshua Cheptegei",
+     "Cheptegei"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-oly-long-jump",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a man who has won the Olympic long jump title (1896 to 2024)",
+   "answers": [
+    [
+     "Ellery Clark",
+     "Clark",
+     "Ellery Harding Clark"
+    ],
+    [
+     "Alvin Kraenzlein",
+     "Kraenzlein"
+    ],
+    [
+     "Myer Prinstein",
+     "Prinstein"
+    ],
+    [
+     "Frank Irons",
+     "Irons"
+    ],
+    [
+     "Albert Gutterson",
+     "Gutterson"
+    ],
+    [
+     "William Petersson",
+     "Petersson"
+    ],
+    [
+     "DeHart Hubbard",
+     "Hubbard"
+    ],
+    [
+     "Ed Hamm",
+     "Hamm"
+    ],
+    [
+     "Ed Gordon",
+     "Gordon"
+    ],
+    [
+     "Jesse Owens",
+     "Owens"
+    ],
+    [
+     "Willie Steele",
+     "Steele"
+    ],
+    [
+     "Jerome Biffle",
+     "Biffle"
+    ],
+    [
+     "Gregory Bell",
+     "Bell"
+    ],
+    [
+     "Ralph Boston",
+     "Boston"
+    ],
+    [
+     "Lynn Davies",
+     "Davies"
+    ],
+    [
+     "Bob Beamon",
+     "Beamon"
+    ],
+    [
+     "Randy Williams",
+     "Williams"
+    ],
+    [
+     "Arnie Robinson",
+     "Robinson"
+    ],
+    [
+     "Lutz Dombrowski",
+     "Dombrowski"
+    ],
+    [
+     "Carl Lewis",
+     "Lewis"
+    ],
+    [
+     "Iván Pedroso",
+     "Pedroso"
+    ],
+    [
+     "Dwight Phillips",
+     "Phillips"
+    ],
+    [
+     "Irving Saladino",
+     "Saladino"
+    ],
+    [
+     "Greg Rutherford",
+     "Rutherford"
+    ],
+    [
+     "Jeff Henderson",
+     "Henderson"
+    ],
+    [
+     "Miltiadis Tentoglou",
+     "Tentoglou"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-oly-decathlon",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a man who has won the Olympic decathlon (1912 to 2024, as currently recognised)",
+   "answers": [
+    [
+     "Jim Thorpe",
+     "Thorpe"
+    ],
+    [
+     "Helge Løvland",
+     "Løvland"
+    ],
+    [
+     "Harold Osborn",
+     "Osborn"
+    ],
+    [
+     "Paavo Yrjölä",
+     "Yrjölä"
+    ],
+    [
+     "Jim Bausch",
+     "Bausch"
+    ],
+    [
+     "Glenn Morris",
+     "Morris"
+    ],
+    [
+     "Bob Mathias",
+     "Mathias"
+    ],
+    [
+     "Milt Campbell",
+     "Campbell"
+    ],
+    [
+     "Rafer Johnson",
+     "Johnson"
+    ],
+    [
+     "Willi Holdorf",
+     "Holdorf"
+    ],
+    [
+     "Bill Toomey",
+     "Toomey"
+    ],
+    [
+     "Mykola Avilov",
+     "Avilov"
+    ],
+    [
+     "Guido Kratschmer",
+     "Kratschmer"
+    ],
+    [
+     "Daley Thompson",
+     "Thompson"
+    ],
+    [
+     "Christian Schenk",
+     "Schenk"
+    ],
+    [
+     "Robert Změlík",
+     "Změlík"
+    ],
+    [
+     "Dan O'Brien",
+     "O'Brien"
+    ],
+    [
+     "Erki Nool",
+     "Nool"
+    ],
+    [
+     "Roman Šebrle",
+     "Šebrle"
+    ],
+    [
+     "Bryan Clay",
+     "Clay"
+    ],
+    [
+     "Ashton Eaton",
+     "Eaton"
+    ],
+    [
+     "Damian Warner",
+     "Warner"
+    ],
+    [
+     "Markus Rooth",
+     "Rooth"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-oly-triple-jump",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a man who has won the Olympic triple jump title (1896 to 2024)",
+   "answers": [
+    [
+     "James Brendan Connolly",
+     "Connolly"
+    ],
+    [
+     "Myer Prinstein",
+     "Prinstein"
+    ],
+    [
+     "Tim Ahearne",
+     "Ahearne"
+    ],
+    [
+     "Gustaf Lindblom",
+     "Lindblom"
+    ],
+    [
+     "Vilho Tuulos",
+     "Tuulos"
+    ],
+    [
+     "Nick Winter",
+     "Winter"
+    ],
+    [
+     "Mikio Oda",
+     "Oda"
+    ],
+    [
+     "Chūhei Nambu",
+     "Nambu"
+    ],
+    [
+     "Naoto Tajima",
+     "Tajima"
+    ],
+    [
+     "Arne Åhman",
+     "Åhman"
+    ],
+    [
+     "Adhemar da Silva",
+     "Silva",
+     "da Silva"
+    ],
+    [
+     "Józef Szmidt",
+     "Szmidt"
+    ],
+    [
+     "Viktor Saneyev",
+     "Saneyev"
+    ],
+    [
+     "Jaak Uudmäe",
+     "Uudmäe"
+    ],
+    [
+     "Al Joyner",
+     "Joyner"
+    ],
+    [
+     "Khristo Markov",
+     "Markov"
+    ],
+    [
+     "Mike Conley",
+     "Conley"
+    ],
+    [
+     "Kenny Harrison",
+     "Harrison"
+    ],
+    [
+     "Jonathan Edwards",
+     "Edwards"
+    ],
+    [
+     "Christian Olsson",
+     "Olsson"
+    ],
+    [
+     "Nelson Évora",
+     "Évora"
+    ],
+    [
+     "Christian Taylor",
+     "Taylor"
+    ],
+    [
+     "Pedro Pichardo",
+     "Pichardo"
+    ],
+    [
+     "Jordan Díaz",
+     "Díaz"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-oly-steeplechase",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a man who has won the Olympic 3000m steeplechase (1920 to 2024)",
+   "answers": [
+    [
+     "Percy Hodge",
+     "Hodge"
+    ],
+    [
+     "Ville Ritola",
+     "Ritola"
+    ],
+    [
+     "Toivo Loukola",
+     "Loukola"
+    ],
+    [
+     "Volmari Iso-Hollo",
+     "Iso-Hollo"
+    ],
+    [
+     "Tore Sjöstrand",
+     "Sjöstrand"
+    ],
+    [
+     "Horace Ashenfelter",
+     "Ashenfelter"
+    ],
+    [
+     "Chris Brasher",
+     "Brasher"
+    ],
+    [
+     "Zdzisław Krzyszkowiak",
+     "Krzyszkowiak"
+    ],
+    [
+     "Gaston Roelants",
+     "Roelants"
+    ],
+    [
+     "Amos Biwott",
+     "Biwott"
+    ],
+    [
+     "Kipchoge Keino",
+     "Keino"
+    ],
+    [
+     "Anders Gärderud",
+     "Gärderud"
+    ],
+    [
+     "Bronisław Malinowski",
+     "Malinowski"
+    ],
+    [
+     "Julius Korir",
+     "Korir"
+    ],
+    [
+     "Julius Kariuki",
+     "Kariuki"
+    ],
+    [
+     "Matthew Birir",
+     "Birir"
+    ],
+    [
+     "Joseph Keter",
+     "Keter"
+    ],
+    [
+     "Reuben Kosgei",
+     "Kosgei"
+    ],
+    [
+     "Ezekiel Kemboi",
+     "Kemboi"
+    ],
+    "Brimin Kipruto",
+    "Conseslus Kipruto",
+    [
+     "Soufiane El Bakkali",
+     "Bakkali",
+     "El Bakkali"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-oly-400m-hurdles",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a man who has won the Olympic 400m hurdles title (1900 to 2024)",
+   "answers": [
+    [
+     "Walter Tewksbury",
+     "Tewksbury"
+    ],
+    [
+     "Harry Hillman",
+     "Hillman"
+    ],
+    [
+     "Charles Bacon",
+     "Bacon"
+    ],
+    [
+     "Frank Loomis",
+     "Loomis"
+    ],
+    "Morgan Taylor",
+    [
+     "David Burghley",
+     "Burghley"
+    ],
+    [
+     "Bob Tisdall",
+     "Tisdall"
+    ],
+    [
+     "Glenn Hardin",
+     "Hardin"
+    ],
+    [
+     "Roy Cochran",
+     "Cochran"
+    ],
+    [
+     "Charles Moore",
+     "Moore"
+    ],
+    [
+     "Glenn Davis",
+     "Davis"
+    ],
+    [
+     "Rex Cawley",
+     "Cawley"
+    ],
+    [
+     "David Hemery",
+     "Hemery"
+    ],
+    [
+     "John Akii-Bua",
+     "Akii-Bua"
+    ],
+    [
+     "Edwin Moses",
+     "Moses"
+    ],
+    [
+     "Volker Beck",
+     "Beck"
+    ],
+    [
+     "André Phillips",
+     "Phillips"
+    ],
+    [
+     "Kevin Young",
+     "Young"
+    ],
+    [
+     "Derrick Adkins",
+     "Adkins"
+    ],
+    "Angelo Taylor",
+    [
+     "Félix Sánchez",
+     "Sánchez"
+    ],
+    [
+     "Kerron Clement",
+     "Clement"
+    ],
+    [
+     "Karsten Warholm",
+     "Warholm"
+    ],
+    [
+     "Rai Benjamin",
+     "Benjamin"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-oly-discus",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a man who has won the Olympic discus throw title (1896 to 2024)",
+   "answers": [
+    [
+     "Robert Garrett",
+     "Garrett"
+    ],
+    [
+     "Rudolf Bauer",
+     "Bauer"
+    ],
+    [
+     "Martin Sheridan",
+     "Sheridan"
+    ],
+    [
+     "Armas Taipale",
+     "Taipale"
+    ],
+    [
+     "Elmer Niklander",
+     "Niklander"
+    ],
+    [
+     "Bud Houser",
+     "Houser"
+    ],
+    [
+     "John Anderson",
+     "Anderson"
+    ],
+    [
+     "Ken Carpenter",
+     "Carpenter"
+    ],
+    [
+     "Adolfo Consolini",
+     "Consolini"
+    ],
+    [
+     "Sim Iness",
+     "Iness"
+    ],
+    [
+     "Al Oerter",
+     "Oerter"
+    ],
+    [
+     "Ludvík Daněk",
+     "Daněk"
+    ],
+    [
+     "Mac Wilkins",
+     "Wilkins"
+    ],
+    [
+     "Viktor Rashchupkin",
+     "Rashchupkin"
+    ],
+    [
+     "Rolf Danneberg",
+     "Danneberg"
+    ],
+    [
+     "Jürgen Schult",
+     "Schult"
+    ],
+    [
+     "Romas Ubartas",
+     "Ubartas"
+    ],
+    [
+     "Lars Riedel",
+     "Riedel"
+    ],
+    [
+     "Virgilijus Alekna",
+     "Alekna"
+    ],
+    [
+     "Gerd Kanter",
+     "Kanter"
+    ],
+    "Robert Harting",
+    "Christoph Harting",
+    [
+     "Daniel Ståhl",
+     "Ståhl"
+    ],
+    [
+     "Roje Stona",
+     "Stona"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-cyc-milan-san-remo-2000-2026",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a rider who has won the Milan-San Remo cycling race between 2000 and 2026",
+   "answers": [
+    [
+     "Erik Zabel",
+     "Zabel"
+    ],
+    [
+     "Mario Cipollini",
+     "Cipollini"
+    ],
+    [
+     "Paolo Bettini",
+     "Bettini"
+    ],
+    [
+     "Óscar Freire",
+     "Freire"
+    ],
+    [
+     "Alessandro Petacchi",
+     "Petacchi"
+    ],
+    [
+     "Filippo Pozzato",
+     "Pozzato"
+    ],
+    [
+     "Fabian Cancellara",
+     "Cancellara"
+    ],
+    [
+     "Mark Cavendish",
+     "Cavendish"
+    ],
+    [
+     "Matthew Goss",
+     "Goss"
+    ],
+    [
+     "Simon Gerrans",
+     "Gerrans"
+    ],
+    [
+     "Gerald Ciolek",
+     "Ciolek"
+    ],
+    [
+     "Alexander Kristoff",
+     "Kristoff"
+    ],
+    [
+     "John Degenkolb",
+     "Degenkolb"
+    ],
+    [
+     "Arnaud Démare",
+     "Démare"
+    ],
+    [
+     "Michał Kwiatkowski",
+     "Kwiatkowski"
+    ],
+    [
+     "Vincenzo Nibali",
+     "Nibali"
+    ],
+    [
+     "Julian Alaphilippe",
+     "Alaphilippe"
+    ],
+    [
+     "Wout van Aert",
+     "van Aert"
+    ],
+    [
+     "Jasper Stuyven",
+     "Stuyven"
+    ],
+    [
+     "Matej Mohorič",
+     "Mohorič"
+    ],
+    [
+     "Mathieu van der Poel",
+     "van der Poel"
+    ],
+    [
+     "Jasper Philipsen",
+     "Philipsen"
+    ],
+    [
+     "Tadej Pogačar",
+     "Pogačar"
+    ]
+   ]
+  },
+  {
+   "id": "spnc-hr-kentucky-derby-2000-2025",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a horse that has won the Kentucky Derby between 2000 and 2025 (official winners)",
+   "answers": [
+    "Fusaichi Pegasus",
+    "Monarchos",
+    "War Emblem",
+    "Funny Cide",
+    "Smarty Jones",
+    "Giacomo",
+    "Barbaro",
+    "Street Sense",
+    "Big Brown",
+    "Mine That Bird",
+    "Super Saver",
+    "Animal Kingdom",
+    "I'll Have Another",
+    "Orb",
+    "California Chrome",
+    "American Pharoah",
+    "Nyquist",
+    "Always Dreaming",
+    "Justify",
+    "Country House",
+    "Authentic",
+    "Mandaloun",
+    "Rich Strike",
+    "Mage",
+    "Mystik Dan",
+    "Sovereignty"
+   ]
+  },
+  {
+   "id": "spnc-hr-belmont-stakes-2000-2025",
+   "tags": [
+    "othersport"
+   ],
+   "text": "Name a horse that has won the Belmont Stakes between 2000 and 2025",
+   "answers": [
+    "Commendable",
+    "Point Given",
+    "Sarava",
+    "Empire Maker",
+    "Birdstone",
+    "Afleet Alex",
+    "Jazil",
+    "Rags to Riches",
+    "Da'Tara",
+    "Summer Bird",
+    "Drosselmeyer",
+    "Ruler on Ice",
+    "Union Rags",
+    "Palace Malice",
+    "Tonalist",
+    "American Pharoah",
+    "Creator",
+    "Tapwrit",
+    "Justify",
+    "Sir Winston",
+    "Tiz the Law",
+    "Essential Quality",
+    "Mo Donegal",
+    "Arcangelo",
+    "Dornoch",
+    "Sovereignty"
+   ]
+  }
+ ]
+}

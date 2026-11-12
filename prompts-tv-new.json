@@ -1,0 +1,2913 @@
+{
+ "cat": "film",
+ "prompts": [
+  {
+   "id": "tvn-friends-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Friends",
+   "answers": [
+    [
+     "Rachel Green",
+     "rachel"
+    ],
+    [
+     "Ross Geller",
+     "ross"
+    ],
+    [
+     "Monica Geller",
+     "monica"
+    ],
+    [
+     "Chandler Bing",
+     "chandler"
+    ],
+    [
+     "Joey Tribbiani",
+     "joey"
+    ],
+    [
+     "Phoebe Buffay",
+     "phoebe"
+    ],
+    "Gunther",
+    [
+     "Janice Litman-Goralnik",
+     "janice"
+    ],
+    [
+     "Mike Hannigan",
+     "mike"
+    ],
+    [
+     "Richard Burke",
+     "richard"
+    ],
+    [
+     "Carol Willick",
+     "carol"
+    ],
+    [
+     "Susan Bunch",
+     "susan"
+    ],
+    [
+     "Emily Waltham",
+     "emily"
+    ],
+    [
+     "Ursula Buffay",
+     "ursula"
+    ],
+    [
+     "Frank Buffay Jr.",
+     "frank jr",
+     "frank"
+    ],
+    [
+     "Ben Geller",
+     "ben"
+    ],
+    [
+     "Emma Geller-Green",
+     "emma"
+    ],
+    [
+     "Estelle Leonard",
+     "estelle"
+    ],
+    [
+     "Mr Heckles",
+     "heckles"
+    ],
+    [
+     "Charlie Wheeler",
+     "charlie"
+    ],
+    "Paolo",
+    [
+     "Tag Jones",
+     "tag"
+    ],
+    "Mona",
+    "Kathy",
+    "Julie",
+    [
+     "Jack Geller",
+     "jack"
+    ],
+    [
+     "Judy Geller",
+     "judy"
+    ],
+    [
+     "Dr Drake Ramoray",
+     "drake ramoray"
+    ],
+    [
+     "Pete Becker",
+     "pete"
+    ],
+    "David",
+    "Gary",
+    [
+     "Eddie Menuek",
+     "eddie"
+    ],
+    [
+     "Joshua Burgin",
+     "joshua"
+    ],
+    [
+     "Janine Lecroix",
+     "janine"
+    ],
+    [
+     "Mr Treeger",
+     "treeger"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-us-office-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in the US version of The Office",
+   "answers": [
+    [
+     "Michael Scott",
+     "michael"
+    ],
+    [
+     "Dwight Schrute",
+     "dwight"
+    ],
+    [
+     "Jim Halpert",
+     "jim"
+    ],
+    [
+     "Pam Beesly",
+     "pam"
+    ],
+    [
+     "Ryan Howard",
+     "ryan"
+    ],
+    [
+     "Andy Bernard",
+     "andy"
+    ],
+    [
+     "Angela Martin",
+     "angela"
+    ],
+    [
+     "Kevin Malone",
+     "kevin"
+    ],
+    [
+     "Oscar Martinez",
+     "oscar"
+    ],
+    [
+     "Stanley Hudson",
+     "stanley"
+    ],
+    [
+     "Phyllis Vance",
+     "phyllis"
+    ],
+    [
+     "Meredith Palmer",
+     "meredith"
+    ],
+    [
+     "Creed Bratton",
+     "creed"
+    ],
+    [
+     "Kelly Kapoor",
+     "kelly"
+    ],
+    [
+     "Toby Flenderson",
+     "toby"
+    ],
+    [
+     "Darryl Philbin",
+     "darryl"
+    ],
+    [
+     "Erin Hannon",
+     "erin"
+    ],
+    [
+     "Gabe Lewis",
+     "gabe"
+    ],
+    [
+     "Jan Levinson",
+     "jan"
+    ],
+    [
+     "Holly Flax",
+     "holly"
+    ],
+    [
+     "Robert California",
+     "robert"
+    ],
+    [
+     "David Wallace",
+     "david"
+    ],
+    [
+     "Roy Anderson",
+     "roy"
+    ],
+    [
+     "Karen Filippelli",
+     "karen"
+    ],
+    [
+     "Nellie Bertram",
+     "nellie"
+    ],
+    [
+     "Todd Packer",
+     "packer",
+     "todd"
+    ],
+    [
+     "Mose Schrute",
+     "mose"
+    ],
+    [
+     "Bob Vance",
+     "bob"
+    ],
+    [
+     "Charles Miner",
+     "charles"
+    ],
+    [
+     "Jo Bennett",
+     "jo"
+    ],
+    [
+     "Deangelo Vickers",
+     "deangelo"
+    ],
+    [
+     "Cathy Simms",
+     "cathy"
+    ],
+    [
+     "Clark Green",
+     "clark"
+    ],
+    [
+     "Pete Miller",
+     "pete"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-breaking-bad-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Breaking Bad",
+   "answers": [
+    [
+     "Walter White",
+     "walt",
+     "heisenberg"
+    ],
+    [
+     "Jesse Pinkman",
+     "jesse"
+    ],
+    [
+     "Skyler White",
+     "skyler"
+    ],
+    [
+     "Hank Schrader",
+     "hank"
+    ],
+    [
+     "Marie Schrader",
+     "marie"
+    ],
+    [
+     "Walter White Jr.",
+     "flynn",
+     "walt jr"
+    ],
+    [
+     "Saul Goodman",
+     "saul",
+     "jimmy mcgill"
+    ],
+    [
+     "Gus Fring",
+     "gus",
+     "gustavo fring"
+    ],
+    [
+     "Mike Ehrmantraut",
+     "mike"
+    ],
+    [
+     "Tuco Salamanca",
+     "tuco"
+    ],
+    [
+     "Hector Salamanca",
+     "hector"
+    ],
+    [
+     "Todd Alquist",
+     "todd"
+    ],
+    [
+     "Lydia Rodarte-Quayle",
+     "lydia"
+    ],
+    [
+     "Jane Margolis",
+     "jane"
+    ],
+    [
+     "Badger",
+     "brandon mayhew"
+    ],
+    "Skinny Pete",
+    "Combo",
+    [
+     "Gale Boetticher",
+     "gale"
+    ],
+    [
+     "Jack Welker",
+     "jack"
+    ],
+    [
+     "Huell Babineaux",
+     "huell"
+    ],
+    "Kuby",
+    [
+     "Krazy-8",
+     "domingo molina"
+    ],
+    [
+     "Steve Gomez",
+     "gomez",
+     "gomie"
+    ],
+    [
+     "Andrea Cantillo",
+     "andrea"
+    ],
+    [
+     "Brock Cantillo",
+     "brock"
+    ],
+    [
+     "Ted Beneke",
+     "ted"
+    ],
+    "Tortuga",
+    [
+     "Leonel Salamanca",
+     "leonel"
+    ],
+    [
+     "Marco Salamanca",
+     "marco"
+    ],
+    "Wendy",
+    "Spooge",
+    [
+     "Elliott Schwartz",
+     "elliott"
+    ],
+    [
+     "Gretchen Schwartz",
+     "gretchen"
+    ],
+    "Declan",
+    [
+     "Bogdan Wolynetz",
+     "bogdan"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-got-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Game of Thrones (TV series)",
+   "answers": [
+    [
+     "Jon Snow",
+     "jon"
+    ],
+    [
+     "Daenerys Targaryen",
+     "daenerys",
+     "dany"
+    ],
+    [
+     "Tyrion Lannister",
+     "tyrion"
+    ],
+    [
+     "Cersei Lannister",
+     "cersei"
+    ],
+    [
+     "Jaime Lannister",
+     "jaime"
+    ],
+    [
+     "Arya Stark",
+     "arya"
+    ],
+    [
+     "Sansa Stark",
+     "sansa"
+    ],
+    [
+     "Bran Stark",
+     "bran"
+    ],
+    [
+     "Eddard Stark",
+     "ned stark",
+     "ned",
+     "eddard"
+    ],
+    [
+     "Catelyn Stark",
+     "catelyn"
+    ],
+    [
+     "Robb Stark",
+     "robb"
+    ],
+    [
+     "Rickon Stark",
+     "rickon"
+    ],
+    [
+     "Joffrey Baratheon",
+     "joffrey"
+    ],
+    [
+     "Tommen Baratheon",
+     "tommen"
+    ],
+    [
+     "Myrcella Baratheon",
+     "myrcella"
+    ],
+    [
+     "Robert Baratheon",
+     "robert"
+    ],
+    [
+     "Stannis Baratheon",
+     "stannis"
+    ],
+    [
+     "Renly Baratheon",
+     "renly"
+    ],
+    [
+     "Tywin Lannister",
+     "tywin"
+    ],
+    [
+     "Petyr Baelish",
+     "littlefinger",
+     "petyr"
+    ],
+    [
+     "Lord Varys",
+     "varys"
+    ],
+    [
+     "Brienne of Tarth",
+     "brienne"
+    ],
+    [
+     "Samwell Tarly",
+     "sam",
+     "samwell"
+    ],
+    [
+     "Davos Seaworth",
+     "davos"
+    ],
+    "Melisandre",
+    [
+     "Theon Greyjoy",
+     "theon"
+    ],
+    [
+     "Yara Greyjoy",
+     "yara",
+     "asha greyjoy"
+    ],
+    [
+     "Euron Greyjoy",
+     "euron"
+    ],
+    [
+     "Balon Greyjoy",
+     "balon"
+    ],
+    [
+     "Khal Drogo",
+     "drogo"
+    ],
+    [
+     "Jorah Mormont",
+     "jorah"
+    ],
+    "Missandei",
+    "Grey Worm",
+    [
+     "Daario Naharis",
+     "daario"
+    ],
+    "Bronn",
+    [
+     "Sandor Clegane",
+     "the hound",
+     "sandor"
+    ],
+    [
+     "Gregor Clegane",
+     "the mountain",
+     "gregor"
+    ],
+    "Ygritte",
+    [
+     "Tormund Giantsbane",
+     "tormund"
+    ],
+    "Gilly",
+    "Hodor",
+    [
+     "Podrick Payne",
+     "podrick",
+     "pod"
+    ],
+    [
+     "Margaery Tyrell",
+     "margaery"
+    ],
+    [
+     "Olenna Tyrell",
+     "olenna"
+    ],
+    [
+     "Oberyn Martell",
+     "oberyn"
+    ],
+    [
+     "Ramsay Bolton",
+     "ramsay"
+    ],
+    [
+     "Roose Bolton",
+     "roose"
+    ],
+    [
+     "Jeor Mormont",
+     "jeor"
+    ],
+    "Gendry",
+    "Shae",
+    [
+     "Ellaria Sand",
+     "ellaria"
+    ],
+    "The Night King",
+    "High Sparrow",
+    "Qyburn",
+    [
+     "Jaqen H'ghar",
+     "jaqen"
+    ],
+    [
+     "Beric Dondarrion",
+     "beric"
+    ],
+    [
+     "Thoros of Myr",
+     "thoros"
+    ],
+    [
+     "Lysa Arryn",
+     "lysa"
+    ],
+    [
+     "Walder Frey",
+     "walder"
+    ],
+    "Osha",
+    [
+     "Talisa Stark",
+     "talisa"
+    ],
+    [
+     "Barristan Selmy",
+     "barristan"
+    ],
+    [
+     "Alliser Thorne",
+     "thorne"
+    ],
+    [
+     "Lyanna Mormont",
+     "lyanna"
+    ],
+    [
+     "Edmure Tully",
+     "edmure"
+    ],
+    [
+     "Meera Reed",
+     "meera"
+    ],
+    [
+     "Jojen Reed",
+     "jojen"
+    ],
+    [
+     "Dolorous Edd",
+     "edd"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-peaky-blinders-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Peaky Blinders",
+   "answers": [
+    [
+     "Tommy Shelby",
+     "thomas shelby",
+     "tommy"
+    ],
+    [
+     "Arthur Shelby",
+     "arthur"
+    ],
+    [
+     "John Shelby",
+     "john"
+    ],
+    [
+     "Polly Gray",
+     "aunt polly",
+     "polly",
+     "elizabeth gray"
+    ],
+    [
+     "Ada Shelby",
+     "ada",
+     "ada thorne"
+    ],
+    [
+     "Michael Gray",
+     "michael"
+    ],
+    [
+     "Finn Shelby",
+     "finn"
+    ],
+    [
+     "Grace Burgess",
+     "grace"
+    ],
+    [
+     "Alfie Solomons",
+     "alfie"
+    ],
+    [
+     "Chester Campbell",
+     "inspector campbell",
+     "campbell"
+    ],
+    [
+     "Lizzie Stark",
+     "lizzie"
+    ],
+    [
+     "Linda Shelby",
+     "linda"
+    ],
+    [
+     "Charlie Strong",
+     "charlie"
+    ],
+    [
+     "Jeremiah Jesus",
+     "jeremiah"
+    ],
+    "Johnny Dogs",
+    "Curly",
+    [
+     "Isiah Jesus",
+     "isiah"
+    ],
+    "Aberama Gold",
+    [
+     "Luca Changretta",
+     "changretta"
+    ],
+    "Billy Kimber",
+    [
+     "Oswald Mosley",
+     "mosley"
+    ],
+    "May Carleton",
+    [
+     "Gina Gray",
+     "gina"
+    ],
+    "Jessie Eden",
+    [
+     "Bonnie Gold",
+     "bonnie"
+    ],
+    [
+     "Darby Sabini",
+     "sabini"
+    ],
+    [
+     "Esme Shelby",
+     "esme"
+    ],
+    [
+     "Ruby Shelby",
+     "ruby"
+    ],
+    [
+     "Duke Shelby",
+     "duke"
+    ],
+    "Hayden Stagg",
+    "Jack Nelson",
+    [
+     "Tatiana Petrovna",
+     "tatiana"
+    ],
+    [
+     "Winston Churchill",
+     "churchill"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-stranger-things-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Stranger Things",
+   "answers": [
+    [
+     "Eleven",
+     "el",
+     "jane hopper"
+    ],
+    [
+     "Mike Wheeler",
+     "mike"
+    ],
+    [
+     "Dustin Henderson",
+     "dustin"
+    ],
+    [
+     "Lucas Sinclair",
+     "lucas"
+    ],
+    [
+     "Will Byers",
+     "will"
+    ],
+    [
+     "Max Mayfield",
+     "max"
+    ],
+    [
+     "Steve Harrington",
+     "steve"
+    ],
+    [
+     "Nancy Wheeler",
+     "nancy"
+    ],
+    [
+     "Jonathan Byers",
+     "jonathan"
+    ],
+    [
+     "Joyce Byers",
+     "joyce"
+    ],
+    [
+     "Jim Hopper",
+     "hopper"
+    ],
+    [
+     "Billy Hargrove",
+     "billy"
+    ],
+    [
+     "Robin Buckley",
+     "robin"
+    ],
+    [
+     "Erica Sinclair",
+     "erica"
+    ],
+    [
+     "Eddie Munson",
+     "eddie"
+    ],
+    [
+     "Murray Bauman",
+     "murray"
+    ],
+    [
+     "Vecna",
+     "henry creel"
+    ],
+    [
+     "Dr Martin Brenner",
+     "brenner",
+     "papa"
+    ],
+    [
+     "Barb Holland",
+     "barb"
+    ],
+    [
+     "Karen Wheeler",
+     "karen"
+    ],
+    "Argyle",
+    [
+     "Suzie Bingham",
+     "suzie"
+    ],
+    [
+     "Bob Newby",
+     "bob"
+    ],
+    [
+     "Dmitri Antonov",
+     "enzo",
+     "dmitri"
+    ],
+    [
+     "Kali Prasad",
+     "kali",
+     "eight"
+    ],
+    [
+     "Sam Owens",
+     "dr owens",
+     "owens"
+    ],
+    [
+     "Ted Wheeler",
+     "ted"
+    ],
+    [
+     "Jason Carver",
+     "jason"
+    ],
+    [
+     "Chrissy Cunningham",
+     "chrissy"
+    ],
+    [
+     "Scott Clarke",
+     "mr clarke",
+     "clarke"
+    ],
+    [
+     "Yuri Ismaylov",
+     "yuri"
+    ],
+    "Demogorgon",
+    "Mind Flayer",
+    "Alexei",
+    [
+     "Heather Holloway",
+     "heather"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-succession-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Succession",
+   "answers": [
+    [
+     "Logan Roy",
+     "logan"
+    ],
+    [
+     "Kendall Roy",
+     "kendall"
+    ],
+    [
+     "Roman Roy",
+     "roman"
+    ],
+    [
+     "Shiv Roy",
+     "shiv",
+     "siobhan roy",
+     "siobhan"
+    ],
+    [
+     "Connor Roy",
+     "connor"
+    ],
+    [
+     "Tom Wambsgans",
+     "tom"
+    ],
+    [
+     "Greg Hirsch",
+     "cousin greg",
+     "greg"
+    ],
+    [
+     "Gerri Kellman",
+     "gerri"
+    ],
+    [
+     "Marcia Roy",
+     "marcia"
+    ],
+    [
+     "Stewy Hosseini",
+     "stewy"
+    ],
+    [
+     "Frank Vernon",
+     "frank"
+    ],
+    [
+     "Karl Muller",
+     "karl"
+    ],
+    [
+     "Karolina Novotney",
+     "karolina"
+    ],
+    [
+     "Hugo Baker",
+     "hugo"
+    ],
+    [
+     "Lukas Matsson",
+     "matsson",
+     "lukas"
+    ],
+    [
+     "Willa Ferreyra",
+     "willa"
+    ],
+    [
+     "Rava Roy",
+     "rava"
+    ],
+    [
+     "Naomi Pierce",
+     "naomi"
+    ],
+    [
+     "Ewan Roy",
+     "ewan"
+    ],
+    [
+     "Colin Stiles",
+     "colin"
+    ],
+    [
+     "Kerry Castellabate",
+     "kerry"
+    ],
+    [
+     "Lawrence Yee",
+     "lawrence"
+    ],
+    "Nan Pierce",
+    [
+     "Sandy Furness",
+     "sandy"
+    ],
+    [
+     "Jess Jordan",
+     "jess"
+    ],
+    "Tabitha",
+    [
+     "Rhea Jarrell",
+     "rhea"
+    ],
+    [
+     "Caroline Collingwood",
+     "caroline"
+    ],
+    "Mencken"
+   ]
+  },
+  {
+   "id": "tvn-line-of-duty-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Line of Duty",
+   "answers": [
+    [
+     "Ted Hastings",
+     "ted",
+     "hastings"
+    ],
+    [
+     "Steve Arnott",
+     "steve",
+     "arnott"
+    ],
+    [
+     "Kate Fleming",
+     "kate",
+     "fleming"
+    ],
+    [
+     "Tony Gates",
+     "gates"
+    ],
+    [
+     "Lindsay Denton",
+     "denton",
+     "lindsay"
+    ],
+    [
+     "Roz Huntley",
+     "roz",
+     "huntley"
+    ],
+    [
+     "John Corbett",
+     "corbett"
+    ],
+    [
+     "Dot Cottan",
+     "matthew cottan",
+     "cottan",
+     "dot"
+    ],
+    [
+     "Jo Davidson",
+     "davidson"
+    ],
+    [
+     "Ian Buckells",
+     "buckells"
+    ],
+    [
+     "Gill Biggeloe",
+     "biggeloe"
+    ],
+    [
+     "Ryan Pilkington",
+     "pilkington"
+    ],
+    [
+     "Patricia Carmichael",
+     "carmichael"
+    ],
+    [
+     "Tommy Hunter",
+     "hunter"
+    ],
+    [
+     "Danny Waldron",
+     "waldron"
+    ],
+    [
+     "Jackie Laverty",
+     "laverty"
+    ],
+    [
+     "Maneet Bindra",
+     "bindra"
+    ],
+    [
+     "Gail Vella",
+     "vella"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-doctor-who-monsters",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a monster, alien race or villain from Doctor Who",
+   "answers": [
+    [
+     "Daleks",
+     "dalek"
+    ],
+    [
+     "Cybermen",
+     "cyberman"
+    ],
+    [
+     "Sontarans",
+     "sontaran"
+    ],
+    [
+     "Weeping Angels",
+     "weeping angel"
+    ],
+    [
+     "Silurians",
+     "silurian"
+    ],
+    [
+     "Ice Warriors",
+     "ice warrior"
+    ],
+    [
+     "Zygons",
+     "zygon"
+    ],
+    [
+     "Autons",
+     "auton"
+    ],
+    "Ood",
+    "Slitheen",
+    "Judoon",
+    "The Master",
+    "Davros",
+    [
+     "Sea Devils",
+     "sea devil"
+    ],
+    "Yeti",
+    "The Silence",
+    "Macra",
+    "Racnoss",
+    [
+     "Krillitanes",
+     "krillitane"
+    ],
+    "The Rani",
+    "Zarbi",
+    [
+     "Rutans",
+     "rutan"
+    ],
+    [
+     "Axons",
+     "axon"
+    ],
+    "Sycorax",
+    "Adipose",
+    "Vashta Nerada",
+    "Toclafane",
+    [
+     "Carrionites",
+     "carrionite"
+    ],
+    "The Great Intelligence",
+    "The Black Guardian",
+    "The Valeyard",
+    [
+     "Terileptils",
+     "terileptil"
+    ],
+    [
+     "Draconians",
+     "draconian"
+    ],
+    [
+     "Ogrons",
+     "ogron"
+    ],
+    [
+     "Nestene Consciousness",
+     "nestene"
+    ],
+    [
+     "Cybermats",
+     "cybermat"
+    ],
+    "Voord",
+    "Mara",
+    "Sutekh",
+    "Fendahl",
+    [
+     "Krynoids",
+     "krynoid"
+    ],
+    [
+     "Vervoids",
+     "vervoid"
+    ],
+    [
+     "Mechonoids",
+     "mechonoid"
+    ],
+    "Omega",
+    [
+     "Haemovores",
+     "haemovore"
+    ],
+    "Gelth",
+    "Boneless",
+    "Skovox Blitzer"
+   ]
+  },
+  {
+   "id": "tvn-british-tv-detectives",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a fictional detective (professional or amateur) from a British TV drama",
+   "answers": [
+    [
+     "Inspector Morse",
+     "morse"
+    ],
+    [
+     "Inspector Lewis",
+     "lewis",
+     "robbie lewis"
+    ],
+    [
+     "Jack Frost",
+     "frost",
+     "dci frost"
+    ],
+    [
+     "Jim Taggart",
+     "taggart"
+    ],
+    [
+     "Hercule Poirot",
+     "poirot"
+    ],
+    [
+     "Miss Marple",
+     "marple",
+     "jane marple"
+    ],
+    [
+     "Sherlock Holmes",
+     "sherlock",
+     "holmes"
+    ],
+    [
+     "Brother Cadfael",
+     "cadfael"
+    ],
+    [
+     "Tom Barnaby",
+     "barnaby"
+    ],
+    [
+     "Vera Stanhope",
+     "vera"
+    ],
+    [
+     "Jane Tennison",
+     "tennison"
+    ],
+    [
+     "Fitz",
+     "edward fitzgerald",
+     "fitzgerald"
+    ],
+    [
+     "Jim Bergerac",
+     "bergerac"
+    ],
+    [
+     "Andy Dalziel",
+     "dalziel"
+    ],
+    [
+     "Peter Pascoe",
+     "pascoe"
+    ],
+    [
+     "Christopher Foyle",
+     "foyle"
+    ],
+    [
+     "John Rebus",
+     "rebus"
+    ],
+    [
+     "John Luther",
+     "luther"
+    ],
+    [
+     "Thomas Lynley",
+     "lynley"
+    ],
+    [
+     "Jonathan Creek",
+     "creek"
+    ],
+    [
+     "Father Brown",
+     "brown"
+    ],
+    [
+     "Eddie Shoestring",
+     "shoestring"
+    ],
+    [
+     "Tom Wycliffe",
+     "wycliffe"
+    ],
+    [
+     "Hamish Macbeth",
+     "macbeth"
+    ],
+    [
+     "Jack Regan",
+     "regan"
+    ],
+    [
+     "George Gently",
+     "gently"
+    ],
+    [
+     "Jimmy Perez",
+     "perez"
+    ],
+    [
+     "Alan Banks",
+     "banks"
+    ],
+    [
+     "Cormoran Strike",
+     "strike"
+    ],
+    [
+     "Jackson Brodie",
+     "brodie"
+    ],
+    [
+     "Adam Dalgliesh",
+     "dalgliesh"
+    ],
+    [
+     "Sidney Chambers",
+     "chambers"
+    ],
+    [
+     "Alec Hardy",
+     "hardy"
+    ],
+    [
+     "Gene Hunt",
+     "hunt"
+    ],
+    [
+     "Sam Tyler",
+     "tyler"
+    ],
+    [
+     "Lord Peter Wimsey",
+     "wimsey"
+    ],
+    [
+     "Hetty Wainthropp",
+     "wainthropp"
+    ],
+    "Van der Valk",
+    [
+     "Albert Campion",
+     "campion"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-hbo-series",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name an HBO original series (up to 2025)",
+   "answers": [
+    "The Sopranos",
+    "The Wire",
+    "Sex and the City",
+    "Six Feet Under",
+    "Deadwood",
+    "Game of Thrones",
+    [
+     "Curb Your Enthusiasm",
+     "curb"
+    ],
+    "Entourage",
+    "True Blood",
+    "Boardwalk Empire",
+    "Band of Brothers",
+    "The Pacific",
+    "Westworld",
+    "Veep",
+    "Girls",
+    "Silicon Valley",
+    "Succession",
+    "Big Little Lies",
+    "Euphoria",
+    "Barry",
+    "Chernobyl",
+    "Watchmen",
+    "The Leftovers",
+    "True Detective",
+    "Oz",
+    "Rome",
+    "Big Love",
+    "Treme",
+    "The White Lotus",
+    "The Last of Us",
+    "House of the Dragon",
+    "Hacks",
+    "Industry",
+    "Lovecraft Country",
+    "Perry Mason",
+    "Mare of Easttown",
+    "The Penguin",
+    "Flight of the Conchords",
+    [
+     "Last Week Tonight with John Oliver",
+     "last week tonight"
+    ],
+    [
+     "Real Time with Bill Maher",
+     "real time"
+    ],
+    "Insecure",
+    "Ballers",
+    "Eastbound & Down",
+    "Bored to Death",
+    "Lucky Louie",
+    "The Larry Sanders Show",
+    "Tales from the Crypt",
+    "Carnivale",
+    "In Treatment",
+    "John Adams",
+    "Generation Kill",
+    "Tell Me You Love Me",
+    "Mildred Pierce",
+    "Sharp Objects",
+    "The Gilded Age",
+    "The Righteous Gemstones",
+    "The Regime",
+    "Winning Time",
+    "The Newsroom",
+    "Enlightened",
+    "Looking",
+    "Togetherness",
+    "Divorce",
+    "Room 104",
+    "Vice Principals",
+    "The Deuce",
+    "The Night Of",
+    "Hung"
+   ]
+  },
+  {
+   "id": "tvn-channel-4-shows",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a British TV show commissioned by Channel 4 (past or present)",
+   "answers": [
+    "Peep Show",
+    "Gogglebox",
+    "Black Books",
+    "Father Ted",
+    "The IT Crowd",
+    "Derry Girls",
+    "Hollyoaks",
+    "Brookside",
+    "Countdown",
+    "Time Team",
+    "Big Brother",
+    "Come Dine with Me",
+    "Naked Attraction",
+    [
+     "The Great British Bake Off",
+     "bake off",
+     "gbbo"
+    ],
+    "Shameless",
+    "Green Wing",
+    "Drop the Dead Donkey",
+    "Fresh Meat",
+    "Utopia",
+    "Humans",
+    "Top Boy",
+    "It's a Sin",
+    "The Big Breakfast",
+    [
+     "Da Ali G Show",
+     "ali g"
+    ],
+    "The Last Leg",
+    "8 Out of 10 Cats",
+    "Grand Designs",
+    "Location, Location, Location",
+    "Four in a Bed",
+    "First Dates",
+    [
+     "Married at First Sight UK",
+     "married at first sight"
+    ],
+    "Supernanny",
+    "Wife Swap",
+    "Embarrassing Bodies",
+    "Jamie's School Dinners",
+    "Brass Eye",
+    "The Tube",
+    "The Word",
+    "Channel 4 News",
+    "Sunday Brunch",
+    "Scrapheap Challenge",
+    "Faking It",
+    "A Place in the Sun",
+    "Ramsay's Kitchen Nightmares",
+    "Hunted",
+    "Celebrity Hunted",
+    "The Circle",
+    "Taskmaster",
+    [
+     "Alan Carr: Chatty Man",
+     "chatty man"
+    ],
+    "Friday Night Dinner",
+    "Whose Line Is It Anyway?",
+    "Teachers",
+    "No Angels",
+    "Nathan Barley",
+    "Dispatches",
+    "Unreported World",
+    "Queer as Folk",
+    "The Crystal Maze"
+   ]
+  },
+  {
+   "id": "tvn-british-quiz-game-shows",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a British TV quiz or game show",
+   "answers": [
+    "Mastermind",
+    "Pointless",
+    "The Chase",
+    "Eggheads",
+    "Tipping Point",
+    [
+     "Who Wants to Be a Millionaire?",
+     "millionaire"
+    ],
+    "The Weakest Link",
+    "Blockbusters",
+    "Catchphrase",
+    "Countdown",
+    "University Challenge",
+    "Only Connect",
+    "A Question of Sport",
+    "Fifteen to One",
+    "Going for Gold",
+    "Bullseye",
+    "Family Fortunes",
+    "Blankety Blank",
+    "Bob's Full House",
+    "Wheel of Fortune",
+    "The Crystal Maze",
+    "Total Wipeout",
+    "Deal or No Deal",
+    "The Cube",
+    "Take Me Out",
+    "Strike It Lucky",
+    "Name That Tune",
+    "Call My Bluff",
+    "Telly Addicts",
+    "Winner Takes All",
+    "Play Your Cards Right",
+    "The Price Is Right",
+    "Sale of the Century",
+    "Supermarket Sweep",
+    "Runaround",
+    "The Krypton Factor",
+    "Every Second Counts",
+    "Treasure Hunt",
+    "Impossible",
+    "Richard Osman's House of Games",
+    "Tenable",
+    "In It to Win It",
+    "Lingo",
+    "Pop Quiz",
+    "Golden Balls",
+    "Wipeout",
+    "Distraction",
+    "Beat the Chasers"
+   ]
+  },
+  {
+   "id": "tvn-british-childrens-tv",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a British children's TV show that is not a cartoon (past or present)",
+   "answers": [
+    "Teletubbies",
+    "Rainbow",
+    "Play School",
+    "Play Away",
+    "Rosie and Jim",
+    "Tweenies",
+    "Balamory",
+    "In the Night Garden",
+    "Byker Grove",
+    "Grange Hill",
+    "Newsround",
+    "Rentaghost",
+    "Why Don't You...?",
+    "Art Attack",
+    "Take Hart",
+    "Hartbeat",
+    "The Story of Tracy Beaker",
+    "The Basil Brush Show",
+    "Swap Shop",
+    "Going Live!",
+    "Live & Kicking",
+    "SM:TV Live",
+    "Dick and Dom in da Bungalow",
+    "Chucklevision",
+    "Knightmare",
+    "Fun House",
+    "Raven",
+    "Wacaday",
+    "Run the Risk",
+    "Finders Keepers",
+    "Press Gang",
+    "Maid Marian and Her Merry Men",
+    "Worzel Gummidge",
+    "Metal Mickey",
+    "The Worst Witch",
+    "Horrible Histories",
+    "The Sooty Show",
+    "Crackerjack",
+    "Record Breakers",
+    "Jackanory",
+    "Screen Test",
+    "Blue Peter",
+    "Magpie",
+    "Tiswas",
+    "The Tomorrow People",
+    "Bodger & Badger",
+    "Come Outside",
+    "Fimbles",
+    "The Demon Headmaster",
+    "Dani's House",
+    "Young Dracula",
+    "Something Special",
+    "Justin's House",
+    "Gigglebiz",
+    "The Dumping Ground",
+    "M.I. High"
+   ]
+  },
+  {
+   "id": "tvn-sci-fi-tv-series",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a live-action sci-fi TV series (past or present)",
+   "answers": [
+    "The X-Files",
+    "Battlestar Galactica",
+    "Firefly",
+    "Babylon 5",
+    "Stargate SG-1",
+    "Lost",
+    "Fringe",
+    "Doctor Who",
+    "Red Dwarf",
+    "Blake's 7",
+    "Quantum Leap",
+    "Farscape",
+    "The Expanse",
+    "Westworld",
+    "Stranger Things",
+    "Black Mirror",
+    "Heroes",
+    "Eureka",
+    "Torchwood",
+    "Sapphire & Steel",
+    "Space: 1999",
+    "The Twilight Zone",
+    "The Outer Limits",
+    "Buck Rogers in the 25th Century",
+    "Knight Rider",
+    "V",
+    "Alien Nation",
+    "Sliders",
+    "Andromeda",
+    "Dollhouse",
+    "Orphan Black",
+    "Humans",
+    "Person of Interest",
+    "Continuum",
+    "The 100",
+    "Dark",
+    "Severance",
+    "Foundation",
+    "Raised by Wolves",
+    "Altered Carbon",
+    "The Mandalorian",
+    "Star Trek",
+    "Stargate Atlantis",
+    "Stargate Universe",
+    "Terra Nova",
+    "Dark Matter",
+    "Defiance",
+    "Falling Skies",
+    "Warehouse 13",
+    "Pluribus",
+    "Silo",
+    "Fallout",
+    "Andor",
+    "Life on Mars",
+    "Primeval",
+    "Survivors",
+    "Quatermass",
+    "The Prisoner",
+    "Lexx",
+    "Earth: Final Conflict",
+    "seaQuest DSV",
+    "Space: Above and Beyond",
+    "The Orville",
+    "Travelers",
+    "Lost in Space",
+    "Land of the Giants",
+    "The Time Tunnel",
+    "Dark Angel",
+    "Revolution",
+    "Almost Human",
+    "3 Body Problem"
+   ]
+  },
+  {
+   "id": "tvn-reality-tv-shows",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a reality TV show broadcast in the UK or US (up to 2025)",
+   "answers": [
+    "Big Brother",
+    "Love Island",
+    [
+     "I'm a Celebrity...Get Me Out of Here!",
+     "i'm a celebrity",
+     "im a celebrity"
+    ],
+    "The Only Way Is Essex",
+    "Geordie Shore",
+    "Made in Chelsea",
+    "Gogglebox",
+    "Survivor",
+    "The Bachelor",
+    "The Bachelorette",
+    "Keeping Up with the Kardashians",
+    "The Osbournes",
+    "Jersey Shore",
+    "The Real Housewives of Beverly Hills",
+    "The Hills",
+    "Love Is Blind",
+    "Too Hot to Handle",
+    "Selling Sunset",
+    "Below Deck",
+    "Queer Eye",
+    "Dance Moms",
+    "Married at First Sight",
+    "Come Dine with Me",
+    "Wife Swap",
+    "The Apprentice",
+    "Dragons' Den",
+    "The Traitors",
+    "Race Across the World",
+    "Naked Attraction",
+    "First Dates",
+    "The Great British Bake Off",
+    "Temptation Island",
+    "Ex on the Beach",
+    "Celebrity Big Brother",
+    "The Real World",
+    "Fear Factor",
+    "The Amazing Race",
+    "Project Runway",
+    "Top Chef",
+    "America's Next Top Model",
+    "Pawn Stars",
+    "Duck Dynasty",
+    "Storage Wars",
+    "Deadliest Catch",
+    "Ice Road Truckers",
+    "Cops",
+    "Teen Mom",
+    "16 and Pregnant",
+    "Take Me Out",
+    "Four in a Bed",
+    "Love Island USA",
+    "The Circle",
+    "Squid Game: The Challenge",
+    "Alone",
+    "The Challenge",
+    "Bad Girls Club",
+    "The Real Housewives of Cheshire",
+    "Ibiza Weekender",
+    "Shipwrecked",
+    "Celebs Go Dating",
+    "Dinner Date"
+   ]
+  },
+  {
+   "id": "tvn-itv-drama-series",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name an ITV drama series (past or present)",
+   "answers": [
+    "Downton Abbey",
+    "Broadchurch",
+    "Doc Martin",
+    "Cold Feet",
+    "Victoria",
+    "Mr Selfridge",
+    "Grantchester",
+    "Endeavour",
+    "Vera",
+    "Unforgotten",
+    "Liar",
+    "Midsomer Murders",
+    "Poirot",
+    "Foyle's War",
+    "Lewis",
+    "Inspector Morse",
+    "A Touch of Frost",
+    "Heartbeat",
+    "The Bill",
+    "Cracker",
+    "Prime Suspect",
+    "Taggart",
+    "Wycliffe",
+    "Soldier Soldier",
+    "Auf Wiedersehen, Pet",
+    "Minder",
+    "The Sweeney",
+    "The Professionals",
+    "Upstairs, Downstairs",
+    "Brideshead Revisited",
+    "The Jewel in the Crown",
+    "Bad Girls",
+    "Footballers' Wives",
+    "Wire in the Blood",
+    "The Royal",
+    "Where the Heart Is",
+    "London's Burning",
+    "Mr Bates vs The Post Office",
+    "Marple",
+    "Whitechapel",
+    "Innocent",
+    "The Durrells",
+    "Home Fires",
+    "Jekyll and Hyde",
+    "Primeval",
+    "Dempsey and Makepeace",
+    "Rosemary & Thyme",
+    "Kavanagh QC",
+    "Beecham House",
+    "The Singapore Grip",
+    "The Bay",
+    "Trigger Point"
+   ]
+  },
+  {
+   "id": "tvn-apple-tv-plus-series",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name an Apple TV+ original series (up to 2025)",
+   "answers": [
+    "Ted Lasso",
+    "Severance",
+    "The Morning Show",
+    "Slow Horses",
+    "Foundation",
+    "For All Mankind",
+    "See",
+    "Servant",
+    "Pachinko",
+    "Silo",
+    "Shrinking",
+    "Black Bird",
+    "Bad Sisters",
+    "Dickinson",
+    "Defending Jacob",
+    "Truth Be Told",
+    "Mythic Quest",
+    "Physical",
+    "Hijack",
+    "Presumed Innocent",
+    "Loot",
+    "Platonic",
+    "Lessons in Chemistry",
+    "Masters of the Air",
+    "Constellation",
+    "Disclaimer",
+    [
+     "Monarch: Legacy of Monsters",
+     "monarch"
+    ],
+    "The Studio",
+    "Invasion",
+    "Pluribus",
+    "Prehistoric Planet",
+    "Palm Royale",
+    "Little America",
+    "Trying",
+    "Tehran",
+    "Acapulco",
+    "Extrapolations",
+    "The Afterparty",
+    "WeCrashed",
+    "The Last Thing He Told Me",
+    "Time Bandits",
+    "Hello Tomorrow!",
+    "Land of Women",
+    "Smoke",
+    "Surface",
+    "Dear Edward",
+    "Sugar",
+    "The Problem with Jon Stewart",
+    "Roar",
+    "Home Before Dark",
+    "Central Park",
+    "Lisey's Story",
+    "The Essex Serpent",
+    "The Buccaneers",
+    "Prime Target",
+    "Dope Thief",
+    "Mr. Corman"
+   ]
+  },
+  {
+   "id": "tvn-amazon-prime-video-originals",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name an Amazon Prime Video original series (up to 2025)",
+   "answers": [
+    "The Boys",
+    [
+     "The Marvelous Mrs. Maisel",
+     "mrs maisel"
+    ],
+    "Fallout",
+    "Reacher",
+    [
+     "Jack Ryan",
+     "tom clancy's jack ryan"
+    ],
+    "The Wheel of Time",
+    [
+     "The Lord of the Rings: The Rings of Power",
+     "rings of power"
+    ],
+    "Mr. & Mrs. Smith",
+    "Citadel",
+    "Hunters",
+    "Good Omens",
+    "Transparent",
+    "Bosch",
+    "Goliath",
+    "Mozart in the Jungle",
+    "The Man in the High Castle",
+    "Carnival Row",
+    "Upload",
+    "Making the Cut",
+    "The Terminal List",
+    "Outer Range",
+    "Daisy Jones & the Six",
+    "Gen V",
+    "Clarkson's Farm",
+    "The Grand Tour",
+    "Hanna",
+    "Sneaky Pete",
+    "Patriot",
+    "Homecoming",
+    "Paper Girls",
+    "Tales from the Loop",
+    "Modern Love",
+    "Panic",
+    "Jury Duty",
+    "The Summer I Turned Pretty",
+    "Shelter",
+    "Hand of God",
+    "Red Oaks",
+    "Z: The Beginning of Everything",
+    "I'm a Virgo",
+    "Cross",
+    "Countdown",
+    "The Peripheral",
+    "Dead Ringers",
+    "Mammals",
+    "The Devil's Hour",
+    "Wilderness",
+    "Blade Runner 2099"
+   ]
+  },
+  {
+   "id": "tvn-us-talk-shows",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a US TV talk show or late-night show (up to 2025)",
+   "answers": [
+    "The Tonight Show",
+    "Late Night with David Letterman",
+    [
+     "Late Show with David Letterman",
+     "letterman"
+    ],
+    "The Daily Show",
+    "Late Night with Conan O'Brien",
+    "Saturday Night Live",
+    "The Ellen DeGeneres Show",
+    [
+     "The Oprah Winfrey Show",
+     "oprah"
+    ],
+    "Jimmy Kimmel Live!",
+    [
+     "Last Week Tonight with John Oliver",
+     "last week tonight"
+    ],
+    "The Colbert Report",
+    "The Late Late Show with James Corden",
+    [
+     "The Jerry Springer Show",
+     "jerry springer"
+    ],
+    "Maury",
+    "Dr. Phil",
+    "The View",
+    "Real Time with Bill Maher",
+    "The Arsenio Hall Show",
+    "The Late Show with Stephen Colbert",
+    "Late Night with Seth Meyers",
+    "The Late Late Show with Craig Ferguson",
+    "The Rosie O'Donnell Show",
+    "Ricki Lake",
+    "Sally Jessy Raphael",
+    "Geraldo",
+    "The Phil Donahue Show",
+    "The Dick Cavett Show",
+    "The Merv Griffin Show",
+    "The Mike Douglas Show",
+    "The Joan Rivers Show",
+    "The Tyra Banks Show",
+    "The Wendy Williams Show",
+    "The Kelly Clarkson Show",
+    "Live with Kelly and Mark",
+    "The Talk",
+    "Watch What Happens Live with Andy Cohen",
+    "Conan",
+    "Chelsea Lately",
+    "Lopez Tonight",
+    "Politically Incorrect",
+    "The Nightly Show with Larry Wilmore",
+    "Last Call with Carson Daly",
+    "The Dr. Oz Show",
+    "Later with Bob Costas",
+    "Gutfeld!"
+   ]
+  },
+  {
+   "id": "tvn-dc-live-action-tv",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a live-action DC Comics TV series (up to 2026)",
+   "answers": [
+    "Arrow",
+    "The Flash",
+    "Supergirl",
+    [
+     "Legends of Tomorrow",
+     "dc's legends of tomorrow"
+    ],
+    "Batwoman",
+    "Black Lightning",
+    "Smallville",
+    "Gotham",
+    "Titans",
+    "Doom Patrol",
+    "Stargirl",
+    "Pennyworth",
+    [
+     "Lois & Clark: The New Adventures of Superman",
+     "lois and clark"
+    ],
+    "Superman & Lois",
+    "Peacemaker",
+    "Constantine",
+    "Lucifer",
+    "Swamp Thing",
+    "Krypton",
+    "Birds of Prey",
+    "Watchmen",
+    "The Penguin",
+    "Gotham Knights",
+    [
+     "Wonder Woman",
+     "wonder woman 1975"
+    ],
+    [
+     "Batman",
+     "batman 1966"
+    ],
+    "Adventures of Superman",
+    "Human Target",
+    "Powerless",
+    "The Sandman"
+   ]
+  },
+  {
+   "id": "tvn-hospital-shows",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a TV drama or comedy set largely in a hospital",
+   "answers": [
+    "Casualty",
+    "Holby City",
+    "ER",
+    "Grey's Anatomy",
+    "House",
+    "Scrubs",
+    [
+     "M*A*S*H",
+     "mash"
+    ],
+    "St. Elsewhere",
+    "Chicago Med",
+    "The Good Doctor",
+    "Green Wing",
+    "The Resident",
+    "New Amsterdam",
+    "Chicago Hope",
+    "The Pitt",
+    "Getting On",
+    "Cardiac Arrest",
+    "Bodies",
+    "Trapper John, M.D.",
+    "Dr. Kildare",
+    "Nurse Jackie",
+    "Hawthorne",
+    "Code Black",
+    "The Night Shift",
+    "The Knick",
+    "Mercy",
+    "Monday Mornings",
+    "The Royal",
+    "Angels",
+    "Children's Hospital",
+    "This Is Going to Hurt",
+    "Emergency Ward 10"
+   ]
+  },
+  {
+   "id": "tvn-school-set-shows",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a TV show set largely in a school, college or university",
+   "answers": [
+    "Grange Hill",
+    "Waterloo Road",
+    "Teachers",
+    "Bad Education",
+    "The Inbetweeners",
+    "Glee",
+    "Saved by the Bell",
+    "Boy Meets World",
+    "Freaks and Geeks",
+    "Abbott Elementary",
+    "Sex Education",
+    "Heartstopper",
+    "Please Sir!",
+    "Fresh Meat",
+    "Boston Public",
+    "Community",
+    "Degrassi: The Next Generation",
+    "Riverdale",
+    "Never Have I Ever",
+    "Euphoria",
+    "Skins",
+    "Educating Essex",
+    "Educating Yorkshire",
+    "My So-Called Life",
+    "Beverly Hills, 90210",
+    "Welcome Back, Kotter",
+    "Fame",
+    "Head of the Class",
+    "Chalk",
+    "Big School",
+    "Whack-O!",
+    "Ackley Bridge",
+    "Greek",
+    "Mind Your Language"
+   ]
+  },
+  {
+   "id": "tvn-nordic-tv-series",
+   "tags": [
+    "tv"
+   ],
+   "text": "Name a Nordic TV series (from Denmark, Sweden, Norway, Finland or Iceland)",
+   "answers": [
+    [
+     "The Killing",
+     "forbrydelsen"
+    ],
+    [
+     "The Bridge",
+     "bron",
+     "broen"
+    ],
+    "Borgen",
+    "Wallander",
+    "Trapped",
+    "Beck",
+    "Modus",
+    "Jordskott",
+    "Deadwind",
+    "Bordertown",
+    [
+     "Occupied",
+     "okkupert"
+    ],
+    "Arne Dahl",
+    "The Legacy",
+    [
+     "Follow the Money",
+     "bedrag"
+    ],
+    "Midnight Sun",
+    "Ragnarok",
+    "Lilyhammer",
+    "Wisting",
+    "Real Humans",
+    "Rebecka Martinsson",
+    "Young Royals",
+    "Exit",
+    "1864",
+    "Dicte",
+    "The Rain",
+    "Quicksand",
+    "Norsemen",
+    [
+     "The Kingdom",
+     "riget"
+    ],
+    "Maria Wern",
+    "Springflod",
+    [
+     "The Eagle",
+     "ornen"
+    ],
+    "Bonusfamiljen",
+    "Beforeigners",
+    "Nobel",
+    "Those Who Kill"
+   ]
+  },
+  {
+   "id": "tvn-blackadder-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Blackadder",
+   "answers": [
+    [
+     "Edmund Blackadder",
+     "blackadder",
+     "edmund"
+    ],
+    "Baldrick",
+    [
+     "Lord Percy Percy",
+     "percy",
+     "lord percy"
+    ],
+    [
+     "General Melchett",
+     "melchett",
+     "lord melchett"
+    ],
+    [
+     "Queenie",
+     "queen elizabeth i",
+     "queen elizabeth"
+    ],
+    "Nursie",
+    [
+     "Prince George",
+     "prince regent",
+     "george the prince regent"
+    ],
+    [
+     "Lord Flashheart",
+     "flashheart"
+    ],
+    [
+     "Captain Darling",
+     "darling"
+    ],
+    [
+     "Mrs Miggins",
+     "miggins"
+    ],
+    "Bob",
+    "Kate",
+    [
+     "King Richard IV",
+     "richard iv"
+    ],
+    [
+     "Harry, Prince of Wales",
+     "prince harry",
+     "harry"
+    ],
+    "The Wise Woman",
+    [
+     "Dr Samuel Johnson",
+     "dr johnson",
+     "samuel johnson"
+    ],
+    [
+     "William Pitt the Younger",
+     "pitt",
+     "pitt the younger"
+    ],
+    "Bishop of Bath and Wells",
+    "Mad Gerald",
+    [
+     "Sir Walter Raleigh",
+     "raleigh"
+    ],
+    [
+     "Duke of Wellington",
+     "wellington"
+    ],
+    [
+     "Lieutenant George",
+     "george"
+    ],
+    [
+     "Field Marshal Haig",
+     "haig"
+    ],
+    [
+     "Baron von Richthofen",
+     "von richthofen",
+     "red baron"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-red-dwarf-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Red Dwarf",
+   "answers": [
+    [
+     "Dave Lister",
+     "lister"
+    ],
+    [
+     "Arnold Rimmer",
+     "rimmer"
+    ],
+    "Cat",
+    "Kryten",
+    "Holly",
+    [
+     "Kristine Kochanski",
+     "kochanski"
+    ],
+    [
+     "Ace Rimmer",
+     "ace"
+    ],
+    [
+     "Duane Dibbley",
+     "dibbley"
+    ],
+    [
+     "Talkie Toaster",
+     "toaster"
+    ],
+    [
+     "Captain Hollister",
+     "hollister"
+    ],
+    [
+     "Olaf Petersen",
+     "petersen"
+    ],
+    "Queeg",
+    "Legion",
+    [
+     "Hudzen 10",
+     "hudzen"
+    ],
+    [
+     "Mr Flibble",
+     "flibble"
+    ],
+    "Cassandra",
+    [
+     "Skutters",
+     "skutter"
+    ],
+    "Inquisitor",
+    [
+     "Howard Rimmer",
+     "howard"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-gavin-and-stacey-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Gavin & Stacey",
+   "answers": [
+    [
+     "Gavin Shipman",
+     "gavin"
+    ],
+    [
+     "Stacey West",
+     "stacey"
+    ],
+    [
+     "Neil Smith",
+     "smithy",
+     "neil"
+    ],
+    [
+     "Vanessa Jenkins",
+     "nessa"
+    ],
+    [
+     "Bryn West",
+     "uncle bryn",
+     "bryn"
+    ],
+    [
+     "Pam Shipman",
+     "pam"
+    ],
+    [
+     "Mick Shipman",
+     "mick"
+    ],
+    [
+     "Gwen West",
+     "gwen"
+    ],
+    [
+     "Dawn Sutcliffe",
+     "dawn"
+    ],
+    [
+     "Pete Sutcliffe",
+     "pete"
+    ],
+    [
+     "Jason West",
+     "jason"
+    ],
+    "Doris",
+    [
+     "Dave Coaches",
+     "dave"
+    ],
+    "Cath",
+    "Rudi",
+    [
+     "Seth Gibbons",
+     "seth"
+    ],
+    "Gethin",
+    [
+     "Neil the Baby",
+     "baby neil",
+     "neil jr"
+    ],
+    "Julia"
+   ]
+  },
+  {
+   "id": "tvn-downton-abbey-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Downton Abbey",
+   "answers": [
+    [
+     "Robert Crawley",
+     "lord grantham",
+     "robert"
+    ],
+    [
+     "Cora Crawley",
+     "lady grantham",
+     "cora"
+    ],
+    [
+     "Lady Mary Crawley",
+     "mary"
+    ],
+    [
+     "Lady Edith Crawley",
+     "edith"
+    ],
+    [
+     "Lady Sybil Crawley",
+     "sybil"
+    ],
+    [
+     "Violet Crawley",
+     "dowager countess",
+     "violet"
+    ],
+    [
+     "Matthew Crawley",
+     "matthew"
+    ],
+    [
+     "Isobel Crawley",
+     "isobel"
+    ],
+    [
+     "Mr Carson",
+     "carson",
+     "charles carson"
+    ],
+    [
+     "Mrs Hughes",
+     "hughes",
+     "elsie hughes"
+    ],
+    [
+     "John Bates",
+     "mr bates",
+     "bates"
+    ],
+    [
+     "Anna Bates",
+     "anna"
+    ],
+    [
+     "Thomas Barrow",
+     "barrow",
+     "thomas"
+    ],
+    [
+     "Daisy Mason",
+     "daisy"
+    ],
+    [
+     "Mrs Patmore",
+     "patmore",
+     "beryl patmore"
+    ],
+    [
+     "Sarah O'Brien",
+     "o'brien",
+     "obrien"
+    ],
+    [
+     "William Mason",
+     "william"
+    ],
+    [
+     "Joseph Molesley",
+     "molesley"
+    ],
+    [
+     "Tom Branson",
+     "branson"
+    ],
+    [
+     "Lady Rose",
+     "rose",
+     "rose macclare"
+    ],
+    [
+     "Alfred Nugent",
+     "alfred"
+    ],
+    [
+     "Ivy Stuart",
+     "ivy"
+    ],
+    [
+     "Gwen Dawson",
+     "gwen"
+    ],
+    [
+     "Jimmy Kent",
+     "jimmy"
+    ],
+    [
+     "Henry Talbot",
+     "talbot"
+    ],
+    [
+     "Bertie Pelham",
+     "bertie"
+    ],
+    "Marigold",
+    "Spratt",
+    "Denker",
+    [
+     "Phyllis Baxter",
+     "baxter"
+    ],
+    [
+     "Andy Parker",
+     "andy"
+    ],
+    [
+     "Dr Clarkson",
+     "clarkson"
+    ],
+    [
+     "Michael Gregson",
+     "gregson"
+    ],
+    [
+     "Richard Carlisle",
+     "carlisle"
+    ],
+    [
+     "Charles Blake",
+     "blake"
+    ],
+    [
+     "Tony Gillingham",
+     "gillingham"
+    ],
+    [
+     "Lord Merton",
+     "merton"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-fawlty-towers-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Fawlty Towers",
+   "answers": [
+    [
+     "Basil Fawlty",
+     "basil"
+    ],
+    [
+     "Sybil Fawlty",
+     "sybil"
+    ],
+    "Manuel",
+    [
+     "Polly Sherman",
+     "polly"
+    ],
+    [
+     "Major Gowen",
+     "major",
+     "gowen"
+    ],
+    [
+     "Miss Tibbs",
+     "tibbs"
+    ],
+    [
+     "Miss Gatsby",
+     "gatsby"
+    ],
+    [
+     "Terry the Chef",
+     "terry"
+    ],
+    [
+     "Lord Melbury",
+     "melbury"
+    ],
+    [
+     "Mrs Richards",
+     "richards"
+    ],
+    [
+     "Mr Hamilton",
+     "hamilton"
+    ],
+    [
+     "Mr O'Reilly",
+     "o'reilly",
+     "oreilly"
+    ],
+    [
+     "Mr Johnson",
+     "johnson"
+    ],
+    [
+     "Mr Leeman",
+     "leeman"
+    ],
+    "Kurt",
+    "Audrey",
+    [
+     "Dr Abbott",
+     "abbott"
+    ],
+    [
+     "Mr Hutchinson",
+     "hutchinson"
+    ],
+    [
+     "Mrs Peignoir",
+     "peignoir"
+    ]
+   ]
+  },
+  {
+   "id": "tvn-parks-and-recreation-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character in Parks and Recreation",
+   "answers": [
+    [
+     "Leslie Knope",
+     "leslie"
+    ],
+    [
+     "Ron Swanson",
+     "ron"
+    ],
+    [
+     "Tom Haverford",
+     "tom"
+    ],
+    [
+     "April Ludgate",
+     "april"
+    ],
+    [
+     "Andy Dwyer",
+     "andy"
+    ],
+    [
+     "Ann Perkins",
+     "ann"
+    ],
+    [
+     "Ben Wyatt",
+     "ben"
+    ],
+    [
+     "Chris Traeger",
+     "chris"
+    ],
+    [
+     "Donna Meagle",
+     "donna"
+    ],
+    [
+     "Jerry Gergich",
+     "jerry",
+     "garry",
+     "larry",
+     "terry"
+    ],
+    [
+     "Mark Brendanawicz",
+     "mark"
+    ],
+    [
+     "Jean-Ralphio Saperstein",
+     "jean-ralphio"
+    ],
+    [
+     "Tammy Swanson",
+     "tammy"
+    ],
+    [
+     "Craig Middlebrooks",
+     "craig"
+    ],
+    [
+     "Perd Hapley",
+     "perd"
+    ],
+    [
+     "Jeremy Jamm",
+     "jamm"
+    ],
+    [
+     "Joan Callamezzo",
+     "joan"
+    ],
+    [
+     "Li'l Sebastian",
+     "lil sebastian"
+    ],
+    [
+     "Bobby Newport",
+     "bobby"
+    ],
+    [
+     "Mona-Lisa Saperstein",
+     "mona-lisa"
+    ],
+    "Duke Silver",
+    "Orin",
+    [
+     "Ethel Beavers",
+     "ethel"
+    ]
+   ]
+  }
+ ]
+}

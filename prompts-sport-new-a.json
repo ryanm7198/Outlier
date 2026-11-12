@@ -1,0 +1,4553 @@
+{
+ "cat": "sport",
+ "prompts": [
+  {
+   "id": "spna-cricket-ipl-orange-cap",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a batter who has won the IPL Orange Cap as the leading run-scorer of a season (2008 to 2025)",
+   "answers": [
+    [
+     "Shaun Marsh",
+     "Marsh"
+    ],
+    [
+     "Matthew Hayden",
+     "Hayden"
+    ],
+    [
+     "Sachin Tendulkar",
+     "Tendulkar"
+    ],
+    [
+     "Chris Gayle",
+     "Gayle"
+    ],
+    [
+     "Michael Hussey",
+     "Mike Hussey",
+     "Hussey"
+    ],
+    [
+     "Robin Uthappa",
+     "Uthappa"
+    ],
+    [
+     "David Warner",
+     "Warner"
+    ],
+    [
+     "Virat Kohli",
+     "Kohli"
+    ],
+    [
+     "Kane Williamson",
+     "Williamson"
+    ],
+    [
+     "KL Rahul",
+     "Lokesh Rahul",
+     "Rahul",
+     "Rahul"
+    ],
+    [
+     "Ruturaj Gaikwad",
+     "Gaikwad"
+    ],
+    [
+     "Jos Buttler",
+     "Buttler"
+    ],
+    [
+     "Shubman Gill",
+     "Gill"
+    ],
+    [
+     "Sai Sudharsan",
+     "Sudharsan"
+    ]
+   ]
+  },
+  {
+   "id": "spna-cricket-ipl-purple-cap",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a bowler who has won the IPL Purple Cap as the leading wicket-taker of a season (2008 to 2025)",
+   "answers": [
+    [
+     "Sohail Tanvir",
+     "Tanvir"
+    ],
+    [
+     "R. P. Singh",
+     "RP Singh",
+     "Rudra Pratap Singh"
+    ],
+    [
+     "Pragyan Ojha",
+     "Ojha"
+    ],
+    [
+     "Lasith Malinga",
+     "Malinga"
+    ],
+    [
+     "Morne Morkel",
+     "Morkel"
+    ],
+    [
+     "Dwayne Bravo",
+     "DJ Bravo",
+     "Bravo"
+    ],
+    [
+     "Mohit Sharma",
+     "Sharma"
+    ],
+    [
+     "Bhuvneshwar Kumar",
+     "Bhuvi",
+     "Bhuvneshwar"
+    ],
+    [
+     "Andrew Tye",
+     "Tye"
+    ],
+    [
+     "Imran Tahir",
+     "Tahir"
+    ],
+    [
+     "Kagiso Rabada",
+     "Rabada"
+    ],
+    [
+     "Harshal Patel",
+     "Patel"
+    ],
+    [
+     "Yuzvendra Chahal",
+     "Chahal"
+    ],
+    [
+     "Mohammed Shami",
+     "Shami"
+    ],
+    [
+     "Prasidh Krishna",
+     "Krishna"
+    ]
+   ]
+  },
+  {
+   "id": "spna-cricket-wisden-leading-cricketer",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a cricketer who was named Wisden's Leading Cricketer in the World (men's award, for the years 2003 to 2025)",
+   "answers": [
+    [
+     "Ricky Ponting",
+     "Ponting"
+    ],
+    [
+     "Shane Warne",
+     "Warne"
+    ],
+    [
+     "Andrew Flintoff",
+     "Freddie Flintoff",
+     "Flintoff"
+    ],
+    [
+     "Muttiah Muralitharan",
+     "Murali",
+     "Muralitharan"
+    ],
+    [
+     "Jacques Kallis",
+     "Kallis"
+    ],
+    [
+     "Virender Sehwag",
+     "Sehwag"
+    ],
+    [
+     "Sachin Tendulkar",
+     "Tendulkar"
+    ],
+    [
+     "Kumar Sangakkara",
+     "Sangakkara"
+    ],
+    [
+     "Michael Clarke",
+     "Clarke"
+    ],
+    [
+     "Dale Steyn",
+     "Steyn"
+    ],
+    [
+     "Kane Williamson",
+     "Williamson"
+    ],
+    [
+     "Virat Kohli",
+     "Kohli"
+    ],
+    [
+     "Ben Stokes",
+     "Stokes"
+    ],
+    [
+     "Joe Root",
+     "Root"
+    ],
+    [
+     "Pat Cummins",
+     "Cummins"
+    ],
+    [
+     "Jasprit Bumrah",
+     "Bumrah"
+    ],
+    [
+     "Mitchell Starc",
+     "Starc"
+    ]
+   ]
+  },
+  {
+   "id": "spna-cricket-odi-hat-trick-bowlers",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a bowler who has taken a hat-trick in a men's One Day International (as of November 2026)",
+   "answers": [
+    "Jalal-ud-Din",
+    [
+     "Bruce Reid",
+     "Reid"
+    ],
+    [
+     "Chetan Sharma",
+     "Sharma"
+    ],
+    [
+     "Kapil Dev",
+     "Kapil",
+     "Dev"
+    ],
+    [
+     "Aaqib Javed",
+     "Javed"
+    ],
+    [
+     "Danny Morrison",
+     "Morrison"
+    ],
+    [
+     "Wasim Akram",
+     "Akram"
+    ],
+    [
+     "Waqar Younis",
+     "Younis"
+    ],
+    [
+     "Saqlain Mushtaq",
+     "Mushtaq"
+    ],
+    [
+     "Eddo Brandes",
+     "Brandes"
+    ],
+    [
+     "Chaminda Vaas",
+     "Vaas"
+    ],
+    [
+     "Anthony Stuart",
+     "Stuart"
+    ],
+    [
+     "Mohammad Sami",
+     "Sami"
+    ],
+    [
+     "Brett Lee",
+     "Lee"
+    ],
+    [
+     "Lasith Malinga",
+     "Malinga"
+    ],
+    [
+     "James Anderson",
+     "Jimmy Anderson",
+     "Anderson"
+    ],
+    [
+     "Steve Harmison",
+     "Harmison"
+    ],
+    [
+     "Charl Langeveldt",
+     "Langeveldt"
+    ],
+    "Shahadat Hossain",
+    [
+     "Jerome Taylor",
+     "Taylor"
+    ],
+    [
+     "Shane Bond",
+     "Bond"
+    ],
+    [
+     "Andrew Flintoff",
+     "Freddie Flintoff",
+     "Flintoff"
+    ],
+    [
+     "Farveez Maharoof",
+     "Maharoof"
+    ],
+    [
+     "Abdur Razzak",
+     "Razzak"
+    ],
+    [
+     "Kemar Roach",
+     "Roach"
+    ],
+    [
+     "Dan Christian",
+     "Daniel Christian",
+     "Christian"
+    ],
+    [
+     "Thisara Perera",
+     "Perera"
+    ],
+    [
+     "Clint McKay",
+     "McKay"
+    ],
+    "Rubel Hossain",
+    [
+     "Prosper Utseya",
+     "Utseya"
+    ],
+    "Taijul Islam",
+    [
+     "Steven Finn",
+     "Steve Finn",
+     "Finn"
+    ],
+    [
+     "JP Duminy",
+     "Jean-Paul Duminy",
+     "Duminy"
+    ],
+    [
+     "Kagiso Rabada",
+     "Rabada"
+    ],
+    [
+     "James Faulkner",
+     "Faulkner"
+    ],
+    "Taskin Ahmed",
+    [
+     "Wanindu Hasaranga",
+     "Hasaranga"
+    ],
+    [
+     "Shehan Madushanka",
+     "Shehan"
+    ],
+    [
+     "Imran Tahir",
+     "Tahir"
+    ],
+    [
+     "Trent Boult",
+     "Boult"
+    ],
+    [
+     "Mohammed Shami",
+     "Shami"
+    ],
+    [
+     "Wessly Madhevere",
+     "Madhevere"
+    ],
+    [
+     "Maheesh Theekshana",
+     "Theekshana"
+    ],
+    [
+     "Dilshan Madushanka",
+     "Dilshan"
+    ],
+    [
+     "Kuldeep Yadav",
+     "Yadav"
+    ]
+   ]
+  },
+  {
+   "id": "spna-cricket-test-debut-centurions",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a cricketer who scored a century on his Test debut (1877 to October 2026)",
+   "answers": [
+    [
+     "Charles Bannerman",
+     "Bannerman"
+    ],
+    [
+     "W. G. Grace",
+     "WG Grace",
+     "Grace",
+     "William Gilbert Grace",
+     "Grace"
+    ],
+    [
+     "Harry Graham",
+     "Graham"
+    ],
+    [
+     "K. S. Ranjitsinhji",
+     "Ranji",
+     "Ranjitsinhji",
+     "KS Ranjitsinhji",
+     "Ranjitsinhji"
+    ],
+    [
+     "Pelham Warner",
+     "Warner"
+    ],
+    [
+     "Reggie Duff",
+     "Duff"
+    ],
+    [
+     "R. E. Foster",
+     "RE Foster",
+     "Reggie Foster",
+     "Foster",
+     "Foster"
+    ],
+    [
+     "George Gunn",
+     "Gunn"
+    ],
+    [
+     "Roger Hartigan",
+     "Hartigan"
+    ],
+    [
+     "Herbie Collins",
+     "Collins"
+    ],
+    [
+     "Bill Ponsford",
+     "Ponsford"
+    ],
+    [
+     "Archie Jackson",
+     "Jackson"
+    ],
+    [
+     "George Headley",
+     "Headley"
+    ],
+    [
+     "Jackie Mills",
+     "Mills"
+    ],
+    [
+     "Iftikhar Ali Khan Pataudi",
+     "Nawab of Pataudi",
+     "Pataudi",
+     "Nawab of Pataudi Senior",
+     "Pataudi"
+    ],
+    [
+     "Bryan Valentine",
+     "Valentine"
+    ],
+    "Lala Amarnath",
+    [
+     "Paul Gibb",
+     "Gibb"
+    ],
+    [
+     "Billy Griffith",
+     "Griffith"
+    ],
+    [
+     "Andy Ganteaume",
+     "Ganteaume"
+    ],
+    [
+     "Jim Burke",
+     "Burke"
+    ],
+    [
+     "Peter May",
+     "May"
+    ],
+    [
+     "Deepak Shodhan",
+     "Shodhan"
+    ],
+    [
+     "Bruce Pairaudeau",
+     "Pairaudeau"
+    ],
+    [
+     "Collie Smith",
+     "O'Neil Smith"
+    ],
+    [
+     "A. G. Kripal Singh",
+     "Kripal Singh",
+     "AG Kripal Singh"
+    ],
+    [
+     "Conrad Hunte",
+     "Hunte"
+    ],
+    [
+     "Arthur Milton",
+     "Milton"
+    ],
+    [
+     "Abbas Ali Baig",
+     "Baig",
+     "Baig"
+    ],
+    [
+     "Hanumant Singh",
+     "Hanumant"
+    ],
+    [
+     "Khalid Ibadulla",
+     "Ibadulla",
+     "Ibadulla"
+    ],
+    [
+     "Bruce Taylor",
+     "Taylor"
+    ],
+    [
+     "Doug Walters",
+     "Walters"
+    ],
+    [
+     "John Hampshire",
+     "Hampshire"
+    ],
+    [
+     "Gundappa Viswanath",
+     "Viswanath"
+    ],
+    [
+     "Greg Chappell",
+     "Chappell"
+    ],
+    [
+     "Lawrence Rowe",
+     "Rowe"
+    ],
+    [
+     "Alvin Kallicharran",
+     "Kallicharran"
+    ],
+    [
+     "Rodney Redmond",
+     "Redmond"
+    ],
+    [
+     "Frank Hayes",
+     "Hayes"
+    ],
+    [
+     "Gordon Greenidge",
+     "Greenidge"
+    ],
+    [
+     "Leonard Baichan",
+     "Baichan"
+    ],
+    [
+     "Gary Cosier",
+     "Cosier"
+    ],
+    "Surinder Amarnath",
+    [
+     "Javed Miandad",
+     "Miandad",
+     "Miandad"
+    ],
+    [
+     "Basil Williams",
+     "Williams"
+    ],
+    [
+     "Dirk Wellham",
+     "Wellham"
+    ],
+    [
+     "Saleem Malik",
+     "Malik",
+     "Malik"
+    ],
+    [
+     "Kepler Wessels",
+     "Wessels"
+    ],
+    [
+     "Wayne Phillips",
+     "Phillips"
+    ],
+    [
+     "Mohammad Azharuddin",
+     "Mohammed Azharuddin",
+     "Azharuddin",
+     "Azhar",
+     "Azharuddin"
+    ],
+    [
+     "Brendon Kuruppu",
+     "Kuruppu"
+    ],
+    [
+     "Mark Greatbatch",
+     "Greatbatch"
+    ],
+    [
+     "Mark Waugh",
+     "Waugh"
+    ],
+    [
+     "Andrew Hudson",
+     "Hudson"
+    ],
+    [
+     "Romesh Kaluwitharana",
+     "Kaluwitharana"
+    ],
+    [
+     "Dave Houghton",
+     "Houghton"
+    ],
+    [
+     "Pravin Amre",
+     "Amre"
+    ],
+    [
+     "Graham Thorpe",
+     "Thorpe"
+    ],
+    [
+     "Greg Blewett",
+     "Blewett"
+    ],
+    [
+     "Sourav Ganguly",
+     "Ganguly"
+    ],
+    [
+     "Mohammad Wasim",
+     "Wasim"
+    ],
+    [
+     "Ali Naqvi",
+     "Naqvi",
+     "Naqvi"
+    ],
+    [
+     "Azhar Mahmood",
+     "Mahmood",
+     "Mahmood"
+    ],
+    [
+     "Mathew Sinclair",
+     "Sinclair"
+    ],
+    [
+     "Younus Khan",
+     "Younis Khan",
+     "Younus",
+     "Younis"
+    ],
+    [
+     "Aminul Islam",
+     "Aminul"
+    ],
+    [
+     "Hamilton Masakadza",
+     "Masakadza"
+    ],
+    [
+     "Thilan Samaraweera",
+     "Samaraweera"
+    ],
+    [
+     "Taufeeq Umar",
+     "Umar",
+     "Umar"
+    ],
+    [
+     "Mohammad Ashraful",
+     "Ashraful",
+     "Ashraful"
+    ],
+    [
+     "Virender Sehwag",
+     "Sehwag"
+    ],
+    [
+     "Lou Vincent",
+     "Vincent"
+    ],
+    [
+     "Scott Styris",
+     "Styris"
+    ],
+    [
+     "Jacques Rudolph",
+     "Rudolph"
+    ],
+    [
+     "Yasir Hameed",
+     "Hameed",
+     "Hameed"
+    ],
+    "Dwayne Smith",
+    [
+     "Andrew Strauss",
+     "Strauss"
+    ],
+    [
+     "Michael Clarke",
+     "Clarke"
+    ],
+    "Alastair Cook",
+    [
+     "Matt Prior",
+     "Prior"
+    ],
+    [
+     "Marcus North",
+     "North"
+    ],
+    "Fawad Alam",
+    [
+     "Jonathan Trott",
+     "Trott"
+    ],
+    [
+     "Umar Akmal",
+     "Akmal",
+     "Akmal"
+    ],
+    [
+     "Adrian Barath",
+     "Barath"
+    ],
+    [
+     "Alviro Petersen",
+     "Petersen"
+    ],
+    [
+     "Suresh Raina",
+     "Raina"
+    ],
+    [
+     "Kane Williamson",
+     "Williamson"
+    ],
+    [
+     "Kirk Edwards",
+     "Edwards"
+    ],
+    [
+     "Shaun Marsh",
+     "Marsh"
+    ],
+    "Abul Hasan",
+    [
+     "Faf du Plessis",
+     "du Plessis",
+     "Francois du Plessis",
+     "du Plessis"
+    ],
+    [
+     "Hamish Rutherford",
+     "Rutherford"
+    ],
+    [
+     "Shikhar Dhawan",
+     "Dhawan"
+    ],
+    [
+     "Rohit Sharma",
+     "Sharma"
+    ],
+    [
+     "Jimmy Neesham",
+     "James Neesham",
+     "Neesham",
+     "Neesham"
+    ],
+    [
+     "Stiaan van Zyl",
+     "van Zyl"
+    ],
+    [
+     "Adam Voges",
+     "Voges"
+    ],
+    "Stephen Cook",
+    [
+     "Keaton Jennings",
+     "Jennings"
+    ],
+    [
+     "Tom Blundell",
+     "Blundell"
+    ],
+    [
+     "Kevin O'Brien",
+     "O'Brien"
+    ],
+    [
+     "Prithvi Shaw",
+     "Shaw"
+    ],
+    [
+     "Ben Foakes",
+     "Foakes"
+    ],
+    [
+     "Abid Ali",
+     "Abid"
+    ],
+    [
+     "Kyle Mayers",
+     "Mayers"
+    ],
+    [
+     "Pathum Nissanka",
+     "Nissanka"
+    ],
+    [
+     "Devon Conway",
+     "Conway"
+    ],
+    [
+     "Shreyas Iyer",
+     "Iyer"
+    ],
+    [
+     "Zakir Hasan",
+     "Zakir"
+    ],
+    [
+     "Lorcan Tucker",
+     "Tucker"
+    ],
+    [
+     "Yashasvi Jaiswal",
+     "Jaiswal"
+    ],
+    [
+     "Kamran Ghulam",
+     "Ghulam",
+     "Ghulam"
+    ],
+    [
+     "Ismat Alam",
+     "Ismat"
+    ],
+    [
+     "Josh Inglis",
+     "Inglis"
+    ],
+    [
+     "Lhuan-dre Pretorius",
+     "Pretorius"
+    ],
+    [
+     "Azan Awais",
+     "Awais"
+    ]
+   ]
+  },
+  {
+   "id": "spna-cricket-30-intl-centuries",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a men's cricketer who has scored 30 or more international centuries across Tests, ODIs and T20Is (as of November 2026)",
+   "answers": [
+    [
+     "Sachin Tendulkar",
+     "Tendulkar"
+    ],
+    [
+     "Virat Kohli",
+     "Kohli"
+    ],
+    [
+     "Ricky Ponting",
+     "Ponting"
+    ],
+    [
+     "Kumar Sangakkara",
+     "Sangakkara"
+    ],
+    [
+     "Jacques Kallis",
+     "Kallis"
+    ],
+    [
+     "Joe Root",
+     "Root"
+    ],
+    [
+     "Hashim Amla",
+     "Amla"
+    ],
+    [
+     "Mahela Jayawardene",
+     "Jayawardene"
+    ],
+    [
+     "Brian Lara",
+     "Lara"
+    ],
+    [
+     "Rohit Sharma",
+     "Sharma"
+    ],
+    [
+     "David Warner",
+     "Warner"
+    ],
+    "Steve Smith",
+    [
+     "Rahul Dravid",
+     "Dravid"
+    ],
+    [
+     "Kane Williamson",
+     "Williamson"
+    ],
+    [
+     "AB de Villiers",
+     "de Villiers",
+     "de Villiers"
+    ],
+    [
+     "Chris Gayle",
+     "Gayle"
+    ],
+    [
+     "Sanath Jayasuriya",
+     "Jayasuriya"
+    ],
+    [
+     "Shivnarine Chanderpaul",
+     "Shiv Chanderpaul",
+     "Chanderpaul",
+     "Chanderpaul"
+    ],
+    [
+     "Younis Khan",
+     "Younus Khan",
+     "Younis",
+     "Younus"
+    ],
+    [
+     "Matthew Hayden",
+     "Hayden"
+    ],
+    [
+     "Ross Taylor",
+     "Taylor"
+    ],
+    [
+     "Tillakaratne Dilshan",
+     "Dilshan",
+     "Dilshan"
+    ],
+    [
+     "Mohammad Yousuf",
+     "Yousuf Youhana",
+     "Mohammad Youhana",
+     "Yousuf",
+     "Yousuf"
+    ],
+    [
+     "Alastair Cook",
+     "Cook"
+    ],
+    [
+     "Sourav Ganguly",
+     "Ganguly"
+    ],
+    [
+     "Virender Sehwag",
+     "Sehwag"
+    ],
+    "Mark Waugh",
+    "Graeme Smith",
+    [
+     "Michael Clarke",
+     "Clarke"
+    ],
+    [
+     "Sunil Gavaskar",
+     "Gavaskar"
+    ],
+    [
+     "Herschelle Gibbs",
+     "Gibbs"
+    ],
+    [
+     "Desmond Haynes",
+     "Des Haynes",
+     "Haynes"
+    ],
+    [
+     "Inzamam-ul-Haq",
+     "Inzamam"
+    ],
+    [
+     "Viv Richards",
+     "Vivian Richards",
+     "Richards"
+    ],
+    "Steve Waugh",
+    [
+     "Gary Kirsten",
+     "Kirsten"
+    ],
+    [
+     "Adam Gilchrist",
+     "Gilchrist"
+    ],
+    [
+     "Babar Azam",
+     "Babar",
+     "Azam"
+    ],
+    [
+     "Kevin Pietersen",
+     "Pietersen"
+    ],
+    [
+     "Saeed Anwar",
+     "Anwar"
+    ],
+    [
+     "Quinton de Kock",
+     "de Kock",
+     "de Kock"
+    ],
+    [
+     "Javed Miandad",
+     "Miandad",
+     "Miandad"
+    ],
+    [
+     "Aravinda de Silva",
+     "de Silva",
+     "de Silva"
+    ],
+    [
+     "Allan Border",
+     "Border"
+    ],
+    [
+     "Gordon Greenidge",
+     "Greenidge"
+    ]
+   ]
+  },
+  {
+   "id": "spna-cricket-icc-hall-of-fame",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name an inductee of the ICC Cricket Hall of Fame (inductions 2009 to 2026)",
+   "answers": [
+    [
+     "Zaheer Abbas",
+     "Abbas"
+    ],
+    [
+     "Wasim Akram",
+     "Akram"
+    ],
+    [
+     "Hashim Amla",
+     "Amla"
+    ],
+    [
+     "Curtly Ambrose",
+     "Ambrose"
+    ],
+    [
+     "Enid Bakewell",
+     "Bakewell"
+    ],
+    [
+     "Sydney Barnes",
+     "Barnes"
+    ],
+    [
+     "Ken Barrington",
+     "Barrington"
+    ],
+    [
+     "Bishan Bedi",
+     "Bishan Singh Bedi",
+     "Bedi",
+     "Bedi"
+    ],
+    [
+     "Alec Bedser",
+     "Bedser"
+    ],
+    [
+     "Richie Benaud",
+     "Benaud"
+    ],
+    [
+     "Allan Border",
+     "Border"
+    ],
+    [
+     "Ian Botham",
+     "Botham",
+     "Botham"
+    ],
+    [
+     "Geoffrey Boycott",
+     "Geoff Boycott",
+     "Boycott",
+     "Boycott"
+    ],
+    [
+     "Don Bradman",
+     "Donald Bradman",
+     "Bradman",
+     "Bradman"
+    ],
+    [
+     "Jan Brittin",
+     "Brittin"
+    ],
+    "Greg Chappell",
+    "Ian Chappell",
+    [
+     "Anjum Chopra",
+     "Chopra"
+    ],
+    [
+     "Belinda Clark",
+     "Clark"
+    ],
+    [
+     "Shivnarine Chanderpaul",
+     "Shiv Chanderpaul",
+     "Chanderpaul",
+     "Chanderpaul"
+    ],
+    [
+     "Denis Compton",
+     "Compton"
+    ],
+    [
+     "Learie Constantine",
+     "Constantine"
+    ],
+    [
+     "Alastair Cook",
+     "Cook"
+    ],
+    [
+     "Colin Cowdrey",
+     "Cowdrey"
+    ],
+    [
+     "Martin Crowe",
+     "Crowe"
+    ],
+    [
+     "Alan Davidson",
+     "Davidson"
+    ],
+    [
+     "Neetu David",
+     "David"
+    ],
+    [
+     "Aravinda de Silva",
+     "de Silva",
+     "de Silva"
+    ],
+    [
+     "Kapil Dev",
+     "Kapil",
+     "Dev"
+    ],
+    [
+     "Ted Dexter",
+     "Dexter"
+    ],
+    [
+     "MS Dhoni",
+     "Mahendra Singh Dhoni",
+     "Dhoni",
+     "Dhoni"
+    ],
+    [
+     "Allan Donald",
+     "Donald"
+    ],
+    [
+     "Rahul Dravid",
+     "Dravid"
+    ],
+    [
+     "Diana Edulji",
+     "Edulji"
+    ],
+    [
+     "Charlotte Edwards",
+     "Edwards"
+    ],
+    [
+     "Aubrey Faulkner",
+     "Faulkner"
+    ],
+    [
+     "Cathryn Fitzpatrick",
+     "Fitzpatrick"
+    ],
+    [
+     "Andy Flower",
+     "Flower"
+    ],
+    [
+     "Joel Garner",
+     "Garner"
+    ],
+    [
+     "Sunil Gavaskar",
+     "Gavaskar"
+    ],
+    [
+     "Sourav Ganguly",
+     "Ganguly"
+    ],
+    [
+     "Lance Gibbs",
+     "Gibbs"
+    ],
+    [
+     "Adam Gilchrist",
+     "Gilchrist"
+    ],
+    [
+     "Graham Gooch",
+     "Gooch"
+    ],
+    [
+     "David Gower",
+     "Gower"
+    ],
+    [
+     "W. G. Grace",
+     "WG Grace",
+     "Grace",
+     "Grace"
+    ],
+    [
+     "Tom Graveney",
+     "Graveney"
+    ],
+    [
+     "Gordon Greenidge",
+     "Greenidge"
+    ],
+    [
+     "Clarrie Grimmett",
+     "Grimmett"
+    ],
+    [
+     "Richard Hadlee",
+     "Hadlee"
+    ],
+    [
+     "Wes Hall",
+     "Hall"
+    ],
+    [
+     "Wally Hammond",
+     "Hammond"
+    ],
+    [
+     "Neil Harvey",
+     "Harvey"
+    ],
+    [
+     "Matthew Hayden",
+     "Hayden"
+    ],
+    [
+     "Desmond Haynes",
+     "Haynes"
+    ],
+    [
+     "George Headley",
+     "Headley"
+    ],
+    [
+     "Rachael Heyhoe Flint",
+     "Heyhoe Flint",
+     "Heyhoe-Flint",
+     "Flint"
+    ],
+    [
+     "Jack Hobbs",
+     "Hobbs"
+    ],
+    [
+     "Debbie Hockley",
+     "Hockley"
+    ],
+    [
+     "Michael Holding",
+     "Holding"
+    ],
+    [
+     "Len Hutton",
+     "Hutton"
+    ],
+    [
+     "Mahela Jayawardene",
+     "Jayawardene"
+    ],
+    [
+     "Jacques Kallis",
+     "Kallis"
+    ],
+    [
+     "Rohan Kanhai",
+     "Kanhai"
+    ],
+    [
+     "Imran Khan",
+     "Imran"
+    ],
+    [
+     "Alan Knott",
+     "Knotty",
+     "Knott"
+    ],
+    [
+     "Anil Kumble",
+     "Kumble",
+     "Kumble"
+    ],
+    [
+     "Jim Laker",
+     "Laker"
+    ],
+    [
+     "Brian Lara",
+     "Lara"
+    ],
+    [
+     "Harold Larwood",
+     "Larwood"
+    ],
+    [
+     "Dennis Lillee",
+     "Lillee"
+    ],
+    [
+     "Ray Lindwall",
+     "Lindwall"
+    ],
+    [
+     "Clive Lloyd",
+     "Lloyd"
+    ],
+    [
+     "George Lohmann",
+     "Lohmann"
+    ],
+    [
+     "Vinoo Mankad",
+     "Mankad"
+    ],
+    [
+     "Rod Marsh",
+     "Marsh"
+    ],
+    [
+     "Malcolm Marshall",
+     "Marshall"
+    ],
+    [
+     "Peter May",
+     "May"
+    ],
+    [
+     "Stan McCabe",
+     "McCabe"
+    ],
+    [
+     "Glenn McGrath",
+     "McGrath"
+    ],
+    [
+     "Javed Miandad",
+     "Miandad"
+    ],
+    [
+     "Keith Miller",
+     "Miller"
+    ],
+    [
+     "Sana Mir",
+     "Mir"
+    ],
+    [
+     "Hanif Mohammad",
+     "Hanif",
+     "Mohammad"
+    ],
+    [
+     "Arthur Morris",
+     "Morris"
+    ],
+    [
+     "Muttiah Muralitharan",
+     "Murali",
+     "Muralitharan",
+     "Muralitharan"
+    ],
+    [
+     "Monty Noble",
+     "Noble"
+    ],
+    [
+     "Bill O'Reilly",
+     "O'Reilly"
+    ],
+    [
+     "Kevin Pietersen",
+     "Pietersen"
+    ],
+    "Graeme Pollock",
+    "Shaun Pollock",
+    [
+     "Ricky Ponting",
+     "Ponting"
+    ],
+    [
+     "Abdul Qadir",
+     "Qadir"
+    ],
+    [
+     "Wilfred Rhodes",
+     "Rhodes"
+    ],
+    "Barry Richards",
+    [
+     "Viv Richards",
+     "Vivian Richards"
+    ],
+    [
+     "Andy Roberts",
+     "Roberts"
+    ],
+    [
+     "Karen Rolton",
+     "Rolton"
+    ],
+    [
+     "Kumar Sangakkara",
+     "Sangakkara"
+    ],
+    [
+     "Virender Sehwag",
+     "Sehwag"
+    ],
+    [
+     "Bob Simpson",
+     "Simpson"
+    ],
+    [
+     "Graeme Smith",
+     "Smith"
+    ],
+    [
+     "Garfield Sobers",
+     "Gary Sobers",
+     "Sobers",
+     "Sobers"
+    ],
+    [
+     "Fred Spofforth",
+     "Spofforth"
+    ],
+    [
+     "Brian Statham",
+     "Statham"
+    ],
+    [
+     "Lisa Sthalekar",
+     "Sthalekar"
+    ],
+    [
+     "Herbert Sutcliffe",
+     "Sutcliffe"
+    ],
+    "Claire Taylor",
+    "Sarah Taylor",
+    [
+     "Sachin Tendulkar",
+     "Tendulkar"
+    ],
+    [
+     "Fred Trueman",
+     "Trueman"
+    ],
+    [
+     "Victor Trumper",
+     "Trumper"
+    ],
+    [
+     "Derek Underwood",
+     "Underwood"
+    ],
+    [
+     "Daniel Vettori",
+     "Vettori"
+    ],
+    [
+     "AB de Villiers",
+     "de Villiers",
+     "de Villiers"
+    ],
+    [
+     "Clyde Walcott",
+     "Walcott"
+    ],
+    [
+     "Courtney Walsh",
+     "Walsh"
+    ],
+    [
+     "Shane Warne",
+     "Warne"
+    ],
+    [
+     "Steve Waugh",
+     "Waugh"
+    ],
+    [
+     "Everton Weekes",
+     "Weekes"
+    ],
+    [
+     "Bob Willis",
+     "Willis"
+    ],
+    [
+     "Betty Wilson",
+     "Wilson"
+    ],
+    [
+     "Frank Woolley",
+     "Woolley"
+    ],
+    [
+     "Frank Worrell",
+     "Worrell"
+    ],
+    [
+     "Waqar Younis",
+     "Younis"
+    ]
+   ]
+  },
+  {
+   "id": "spna-cricket-ipl-centurions",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name a batter who has scored a century in the Indian Premier League (2008 to 2025)",
+   "answers": [
+    [
+     "AB de Villiers",
+     "de Villiers",
+     "de Villiers"
+    ],
+    "Abhishek Sharma",
+    [
+     "Adam Gilchrist",
+     "Gilchrist"
+    ],
+    [
+     "Ajinkya Rahane",
+     "Rahane"
+    ],
+    [
+     "Ambati Rayudu",
+     "Rayudu"
+    ],
+    [
+     "Andrew Symonds",
+     "Symonds"
+    ],
+    [
+     "Ben Stokes",
+     "Stokes"
+    ],
+    [
+     "Brendon McCullum",
+     "McCullum"
+    ],
+    [
+     "Cameron Green",
+     "Green"
+    ],
+    [
+     "Chris Gayle",
+     "Gayle"
+    ],
+    [
+     "David Miller",
+     "Miller"
+    ],
+    [
+     "David Warner",
+     "Warner"
+    ],
+    [
+     "Devdutt Padikkal",
+     "Padikkal"
+    ],
+    [
+     "Harry Brook",
+     "Brook"
+    ],
+    [
+     "Hashim Amla",
+     "Amla"
+    ],
+    [
+     "Heinrich Klaasen",
+     "Klaasen"
+    ],
+    [
+     "Ishan Kishan",
+     "Kishan"
+    ],
+    [
+     "Jos Buttler",
+     "Buttler"
+    ],
+    [
+     "KL Rahul",
+     "Lokesh Rahul",
+     "Rahul",
+     "Rahul"
+    ],
+    [
+     "Kevin Pietersen",
+     "Pietersen"
+    ],
+    [
+     "Lendl Simmons",
+     "Simmons"
+    ],
+    [
+     "Mahela Jayawardene",
+     "Jayawardene"
+    ],
+    [
+     "Manish Pandey",
+     "Pandey"
+    ],
+    [
+     "Mayank Agarwal",
+     "Agarwal"
+    ],
+    [
+     "Michael Hussey",
+     "Mike Hussey",
+     "Hussey",
+     "Hussey"
+    ],
+    "Mitchell Marsh",
+    [
+     "Murali Vijay",
+     "Vijay",
+     "Vijay"
+    ],
+    [
+     "Paul Valthaty",
+     "Valthaty"
+    ],
+    [
+     "Prabhsimran Singh",
+     "Prabhsimran"
+    ],
+    [
+     "Priyansh Arya",
+     "Arya"
+    ],
+    [
+     "Quinton de Kock",
+     "de Kock",
+     "de Kock"
+    ],
+    [
+     "Rajat Patidar",
+     "Patidar"
+    ],
+    [
+     "Rishabh Pant",
+     "Pant"
+    ],
+    "Rohit Sharma",
+    [
+     "Ruturaj Gaikwad",
+     "Gaikwad"
+    ],
+    [
+     "Sachin Tendulkar",
+     "Tendulkar"
+    ],
+    [
+     "Sanath Jayasuriya",
+     "Jayasuriya"
+    ],
+    [
+     "Sanju Samson",
+     "Samson"
+    ],
+    [
+     "Shane Watson",
+     "Watson"
+    ],
+    "Shaun Marsh",
+    [
+     "Shikhar Dhawan",
+     "Dhawan"
+    ],
+    [
+     "Shubman Gill",
+     "Gill"
+    ],
+    [
+     "Steve Smith",
+     "Steven Smith",
+     "Smith"
+    ],
+    [
+     "Sunil Narine",
+     "Narine",
+     "Narine"
+    ],
+    [
+     "Suresh Raina",
+     "Raina"
+    ],
+    [
+     "Suryakumar Yadav",
+     "SKY",
+     "Suryakumar",
+     "Yadav"
+    ],
+    [
+     "Travis Head",
+     "Head"
+    ],
+    [
+     "Vaibhav Sooryavanshi",
+     "Sooryavanshi"
+    ],
+    [
+     "Venkatesh Iyer",
+     "Iyer"
+    ],
+    [
+     "Virat Kohli",
+     "Kohli"
+    ],
+    [
+     "Virender Sehwag",
+     "Sehwag"
+    ],
+    [
+     "Wriddhiman Saha",
+     "Saha"
+    ],
+    [
+     "Yashasvi Jaiswal",
+     "Jaiswal"
+    ],
+    [
+     "Yusuf Pathan",
+     "Pathan"
+    ],
+    [
+     "Marcus Stoinis",
+     "Stoinis"
+    ],
+    [
+     "Sai Sudharsan",
+     "Sudharsan"
+    ]
+   ]
+  },
+  {
+   "id": "spna-cricket-county-home-grounds",
+   "tags": [
+    "cricket"
+   ],
+   "text": "Name the main home ground of a first-class county cricket club in the English County Championship (2026 season)",
+   "answers": [
+    [
+     "Edgbaston",
+     "Edgbaston Cricket Ground"
+    ],
+    "Trent Bridge",
+    [
+     "Headingley",
+     "Headingley Stadium"
+    ],
+    [
+     "Old Trafford",
+     "Emirates Old Trafford"
+    ],
+    [
+     "Lord's",
+     "Lord's Cricket Ground"
+    ],
+    [
+     "The Oval",
+     "Kia Oval",
+     "Kennington Oval"
+    ],
+    [
+     "Riverside",
+     "Seat Unique Riverside",
+     "Riverside Ground",
+     "Chester-le-Street"
+    ],
+    [
+     "Rose Bowl",
+     "Utilita Bowl",
+     "Ageas Bowl",
+     "Hampshire Bowl",
+     "Southampton"
+    ],
+    [
+     "Sophia Gardens",
+     "Cardiff"
+    ],
+    [
+     "County Ground, Taunton",
+     "Taunton",
+     "Cooper Associates County Ground"
+    ],
+    [
+     "Bristol County Ground",
+     "Bristol",
+     "Seat Unique Stadium"
+    ],
+    [
+     "Chelmsford",
+     "Chelmsford County Ground",
+     "Cloud County Ground"
+    ],
+    [
+     "Hove",
+     "Hove County Ground",
+     "1st Central County Ground",
+     "Sussex County Ground"
+    ],
+    [
+     "St Lawrence Ground",
+     "Canterbury",
+     "Spitfire Ground"
+    ],
+    [
+     "County Ground, Northampton",
+     "Northampton",
+     "Wantage Road"
+    ],
+    [
+     "New Road",
+     "Worcester",
+     "County Ground, New Road"
+    ],
+    [
+     "County Ground, Derby",
+     "Derby",
+     "Incora County Ground"
+    ],
+    [
+     "Grace Road",
+     "Leicester",
+     "Uptonsteel County Ground"
+    ]
+   ]
+  },
+  {
+   "id": "spna-rugby-110-test-caps",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a male rugby union player with 110 or more Test caps (including British & Irish Lions caps, as of November 2026)",
+   "answers": [
+    [
+     "Alun Wyn Jones",
+     "AWJ",
+     "Alun Wyn"
+    ],
+    [
+     "James Slipper",
+     "Slipper"
+    ],
+    [
+     "Sam Whitelock",
+     "Whitelock"
+    ],
+    [
+     "Beauden Barrett",
+     "Barrett"
+    ],
+    [
+     "Richie McCaw",
+     "Richard McCaw",
+     "McCaw",
+     "McCaw"
+    ],
+    [
+     "Eben Etzebeth",
+     "Etzebeth"
+    ],
+    [
+     "Sergio Parisse",
+     "Parisse"
+    ],
+    [
+     "Brian O'Driscoll",
+     "BOD",
+     "O'Driscoll",
+     "O'Driscoll"
+    ],
+    [
+     "George Gregan",
+     "Gregan"
+    ],
+    [
+     "Cian Healy",
+     "Healy"
+    ],
+    [
+     "Gethin Jenkins",
+     "Jenkins"
+    ],
+    [
+     "Conor Murray",
+     "Murray"
+    ],
+    [
+     "Keven Mealamu",
+     "Mealamu"
+    ],
+    [
+     "Ronan O'Gara",
+     "O'Gara",
+     "O'Gara"
+    ],
+    [
+     "Stephen Moore",
+     "Moore"
+    ],
+    [
+     "Florin Vlaicu",
+     "Vlaicu"
+    ],
+    [
+     "Ben Youngs",
+     "Youngs"
+    ],
+    [
+     "Pablo Matera",
+     "Matera"
+    ],
+    [
+     "Victor Matfield",
+     "Matfield",
+     "Matfield"
+    ],
+    [
+     "Kieran Read",
+     "Read",
+     "Read"
+    ],
+    [
+     "Michael Hooper",
+     "Hooper"
+    ],
+    "Aaron Smith",
+    [
+     "Rory Best",
+     "Best"
+    ],
+    [
+     "Bryan Habana",
+     "Habana"
+    ],
+    [
+     "George North",
+     "North"
+    ],
+    [
+     "Johnny Sexton",
+     "Jonathan Sexton",
+     "Sexton",
+     "Sexton"
+    ],
+    [
+     "Davit Kacharava",
+     "Kacharava"
+    ],
+    [
+     "Alexander Todua",
+     "Todua"
+    ],
+    [
+     "Adam Ashley-Cooper",
+     "Ashley-Cooper"
+    ],
+    [
+     "Dan Cole",
+     "Cole"
+    ],
+    [
+     "Julian Montoya",
+     "Montoya"
+    ],
+    [
+     "Owen Farrell",
+     "Farrell"
+    ],
+    [
+     "Yuri Kushnarev",
+     "Kushnarev"
+    ],
+    [
+     "Martin Castrogiovanni",
+     "Castrogiovanni"
+    ],
+    [
+     "Jason Leonard",
+     "Leonard"
+    ],
+    [
+     "Alessandro Zanni",
+     "Zanni"
+    ],
+    [
+     "Fabien Pelous",
+     "Pelous"
+    ],
+    [
+     "Tony Woodcock",
+     "Woodcock"
+    ],
+    [
+     "Jamie George",
+     "George"
+    ],
+    [
+     "Tendai Mtawarira",
+     "Beast Mtawarira",
+     "Mtawarira",
+     "The Beast",
+     "Mtawarira"
+    ],
+    [
+     "Nathan Sharpe",
+     "Sharpe"
+    ],
+    [
+     "Dan Biggar",
+     "Biggar"
+    ],
+    [
+     "Merab Kvirikashvili",
+     "Kvirikashvili"
+    ],
+    [
+     "Paul O'Connell",
+     "O'Connell",
+     "O'Connell"
+    ],
+    [
+     "Peter O'Mahony",
+     "O'Mahony",
+     "O'Mahony"
+    ],
+    [
+     "Codie Taylor",
+     "Taylor"
+    ],
+    [
+     "Taulupe Faletau",
+     "Faletau"
+    ],
+    [
+     "Marco Bortolami",
+     "Bortolami"
+    ],
+    [
+     "Dan Carter",
+     "Daniel Carter",
+     "Carter",
+     "Carter"
+    ],
+    [
+     "Maro Itoje",
+     "Itoje"
+    ],
+    [
+     "Ardie Savea",
+     "Savea"
+    ],
+    [
+     "Ross Ford",
+     "Ford"
+    ],
+    [
+     "Philippe Sella",
+     "Sella"
+    ],
+    [
+     "John Smit",
+     "Smit"
+    ],
+    "George Smith",
+    [
+     "Agustin Creevy",
+     "Creevy",
+     "Creevy"
+    ],
+    [
+     "Will Genia",
+     "Genia"
+    ],
+    "Stephen Jones",
+    [
+     "Sekope Kepu",
+     "Kepu"
+    ],
+    [
+     "Courtney Lawes",
+     "Lawes"
+    ]
+   ]
+  },
+  {
+   "id": "spna-rugby-30-test-tries",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a male rugby union player who has scored 30 or more tries in Test matches (as of November 2026)",
+   "answers": [
+    [
+     "Daisuke Ohata",
+     "Ohata"
+    ],
+    [
+     "Bryan Habana",
+     "Habana"
+    ],
+    [
+     "David Campese",
+     "Campese"
+    ],
+    [
+     "Shane Williams",
+     "Williams"
+    ],
+    [
+     "Will Jordan",
+     "Jordan"
+    ],
+    [
+     "Hirotoki Onozawa",
+     "Onozawa"
+    ],
+    [
+     "Akaki Tabutsadze",
+     "Tabutsadze"
+    ],
+    [
+     "Rory Underwood",
+     "Underwood"
+    ],
+    [
+     "Beauden Barrett",
+     "Barrett"
+    ],
+    [
+     "Doug Howlett",
+     "Howlett"
+    ],
+    [
+     "George North",
+     "North"
+    ],
+    [
+     "Brian O'Driscoll",
+     "BOD",
+     "O'Driscoll",
+     "O'Driscoll"
+    ],
+    "Julian Savea",
+    [
+     "Christian Cullen",
+     "Cullen"
+    ],
+    [
+     "Joe Rokocoko",
+     "Rokocoko"
+    ],
+    [
+     "Jeff Wilson",
+     "Wilson"
+    ],
+    [
+     "Rodrigo Marta",
+     "Marta"
+    ],
+    [
+     "Damian Penaud",
+     "Penaud"
+    ],
+    [
+     "Gareth Thomas",
+     "Thomas"
+    ],
+    [
+     "Chris Latham",
+     "Latham"
+    ],
+    [
+     "Rieko Ioane",
+     "Ioane"
+    ],
+    [
+     "Ben Smith",
+     "Smith"
+    ],
+    [
+     "Adam Ashley-Cooper",
+     "Ashley-Cooper"
+    ],
+    [
+     "Darcy Graham",
+     "Graham"
+    ],
+    [
+     "DTH van der Merwe",
+     "D. T. H. van der Merwe",
+     "DTH"
+    ],
+    [
+     "Joost van der Westhuizen",
+     "van der Westhuizen",
+     "van der Westhuizen"
+    ],
+    [
+     "Serge Blanco",
+     "Blanco"
+    ],
+    [
+     "Jonah Lomu",
+     "Lomu"
+    ],
+    [
+     "Israel Folau",
+     "Folau"
+    ],
+    [
+     "Tana Umaga",
+     "Umaga"
+    ],
+    [
+     "Jonny May",
+     "May"
+    ],
+    [
+     "Keith Earls",
+     "Earls"
+    ],
+    [
+     "Duhan van der Merwe",
+     "Duhan"
+    ],
+    [
+     "John Kirwan",
+     "Kirwan"
+    ],
+    "Ardie Savea",
+    [
+     "Vincent Clerc",
+     "Clerc"
+    ],
+    [
+     "Drew Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Ieuan Evans",
+     "Evans"
+    ],
+    [
+     "Mils Muliaina",
+     "Muliaina"
+    ],
+    [
+     "Makazole Mapimpi",
+     "Mapimpi"
+    ],
+    [
+     "Sitiveni Sivivatu",
+     "Sivivatu"
+    ],
+    [
+     "Diego Ormaechea",
+     "Ormaechea"
+    ],
+    [
+     "Cătălin Fercu",
+     "Fercu"
+    ],
+    [
+     "Takashi Kikutani",
+     "Kikutani"
+    ],
+    [
+     "Philippe Saint-André",
+     "Saint-André"
+    ],
+    [
+     "Jaque Fourie",
+     "Fourie"
+    ],
+    [
+     "César Sempere",
+     "Sempere"
+    ],
+    [
+     "Ben Cohen",
+     "Cohen"
+    ],
+    [
+     "Will Greenwood",
+     "Greenwood"
+    ],
+    [
+     "Jeremy Guscott",
+     "Guscott"
+    ],
+    [
+     "Ma'a Nonu",
+     "Nonu",
+     "Nonu"
+    ],
+    [
+     "Jason Robinson",
+     "Robinson"
+    ],
+    [
+     "Lote Tuqiri",
+     "Tuqiri"
+    ],
+    [
+     "Tommy Bowe",
+     "Bowe"
+    ],
+    [
+     "Tim Horan",
+     "Horan"
+    ],
+    [
+     "Joe Roff",
+     "Roff"
+    ],
+    [
+     "Matt Giteau",
+     "Giteau"
+    ],
+    [
+     "Philippe Sella",
+     "Sella"
+    ]
+   ]
+  },
+  {
+   "id": "spna-rugby-lance-todd-trophy",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a winner of the Lance Todd Trophy (man of the match in the rugby league Challenge Cup final, 1946 to 2026)",
+   "answers": [
+    [
+     "Billy Stott",
+     "Stott"
+    ],
+    [
+     "Willie Davies",
+     "Davies"
+    ],
+    [
+     "Frank Whitcombe",
+     "Whitcombe"
+    ],
+    [
+     "Ernest Ward",
+     "Ward"
+    ],
+    [
+     "Gerry Helme",
+     "Helme"
+    ],
+    [
+     "Cec Mountford",
+     "Mountford"
+    ],
+    [
+     "Billy Ivison",
+     "Ivison"
+    ],
+    [
+     "Peter Ramsden",
+     "Ramsden"
+    ],
+    [
+     "Jack Grundy",
+     "Grundy"
+    ],
+    [
+     "Alan Prescott",
+     "Prescott"
+    ],
+    [
+     "Jeff Stevenson",
+     "Stevenson"
+    ],
+    [
+     "Rees Thomas",
+     "Thomas"
+    ],
+    [
+     "Brian McTigue",
+     "McTigue"
+    ],
+    [
+     "Tommy Harris",
+     "Harris"
+    ],
+    [
+     "Dick Huddart",
+     "Huddart"
+    ],
+    "Neil Fox",
+    [
+     "Harold Poynton",
+     "Poynton"
+    ],
+    [
+     "Frank Collier",
+     "Collier"
+    ],
+    [
+     "Ray Ashby",
+     "Ashby"
+    ],
+    [
+     "Brian Gabbitas",
+     "Gabbitas"
+    ],
+    [
+     "Len Killeen",
+     "Killeen"
+    ],
+    [
+     "Carl Dooler",
+     "Dooler"
+    ],
+    "Don Fox",
+    [
+     "Mal Reilly",
+     "Reilly"
+    ],
+    [
+     "Bill Kirkbride",
+     "Kirkbride"
+    ],
+    [
+     "Alex Murphy",
+     "Murphy"
+    ],
+    [
+     "Kel Coslett",
+     "Coslett"
+    ],
+    [
+     "Steve Nash",
+     "Nash"
+    ],
+    [
+     "Derek Whitehead",
+     "Whitehead"
+    ],
+    [
+     "Ray Dutton",
+     "Dutton"
+    ],
+    [
+     "Geoff Pimblett",
+     "Pimblett"
+    ],
+    [
+     "Steve Pitchford",
+     "Pitchford"
+    ],
+    [
+     "George Nicholls",
+     "Nicholls"
+    ],
+    [
+     "David Topliss",
+     "Topliss"
+    ],
+    [
+     "Brian Lockwood",
+     "Lockwood"
+    ],
+    [
+     "Mick Burke",
+     "Burke"
+    ],
+    [
+     "Eddie Cunningham",
+     "Cunningham"
+    ],
+    [
+     "David Hobbs",
+     "Hobbs"
+    ],
+    [
+     "Joe Lydon",
+     "Lydon"
+    ],
+    [
+     "Brett Kenny",
+     "Kenny"
+    ],
+    [
+     "Bob Beardmore",
+     "Beardmore"
+    ],
+    [
+     "Graham Eadie",
+     "Eadie"
+    ],
+    [
+     "Andy Gregory",
+     "Gregory"
+    ],
+    [
+     "Ellery Hanley",
+     "Hanley"
+    ],
+    [
+     "Denis Betts",
+     "Betts"
+    ],
+    [
+     "Martin Offiah",
+     "Offiah"
+    ],
+    [
+     "Dean Bell",
+     "Bell"
+    ],
+    [
+     "Jason Robinson",
+     "Robinson"
+    ],
+    "Robbie Paul",
+    [
+     "Tommy Martyn",
+     "Martyn"
+    ],
+    [
+     "Mark Aston",
+     "Aston"
+    ],
+    [
+     "Leroy Rivett",
+     "Rivett"
+    ],
+    "Henry Paul",
+    [
+     "Sean Long",
+     "Long"
+    ],
+    [
+     "Kris Radlinski",
+     "Radlinski"
+    ],
+    [
+     "Gary Connolly",
+     "Connolly"
+    ],
+    [
+     "Kevin Sinfield",
+     "Sinfield"
+    ],
+    [
+     "Paul Wellens",
+     "Wellens"
+    ],
+    [
+     "Leon Pryce",
+     "Pryce"
+    ],
+    [
+     "Michael Monaghan",
+     "Monaghan"
+    ],
+    [
+     "Lee Briers",
+     "Briers"
+    ],
+    [
+     "Jeff Lima",
+     "Lima"
+    ],
+    [
+     "Brett Hodgson",
+     "Hodgson"
+    ],
+    [
+     "Matty Smith",
+     "Smith"
+    ],
+    [
+     "Ryan Hall",
+     "Hall"
+    ],
+    [
+     "Tom Briscoe",
+     "Briscoe"
+    ],
+    [
+     "Marc Sneyd",
+     "Sneyd"
+    ],
+    [
+     "Tony Gigot",
+     "Gigot"
+    ],
+    [
+     "Daryl Clark",
+     "Clark"
+    ],
+    [
+     "Richie Myler",
+     "Myler"
+    ],
+    [
+     "Niall Evalds",
+     "Evalds"
+    ],
+    [
+     "Chris McQueen",
+     "McQueen"
+    ],
+    [
+     "Lachlan Lam",
+     "Lam"
+    ],
+    [
+     "Bevan French",
+     "French"
+    ],
+    [
+     "Jack Farrimond",
+     "Farrimond"
+    ]
+   ]
+  },
+  {
+   "id": "spna-rugby-dally-m-medal",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a winner of the Dally M Medal, the NRL's player of the year award (1980 to 2025; not awarded in 2003)",
+   "answers": [
+    [
+     "Robert Laurie",
+     "Laurie"
+    ],
+    [
+     "Steve Rogers",
+     "Rogers"
+    ],
+    [
+     "Ray Price",
+     "Price"
+    ],
+    [
+     "Terry Lamb",
+     "Lamb"
+    ],
+    [
+     "Michael Potter",
+     "Potter"
+    ],
+    [
+     "Greg Alexander",
+     "Alexander"
+    ],
+    [
+     "Peter Sterling",
+     "Sterling"
+    ],
+    [
+     "Gavin Miller",
+     "Miller"
+    ],
+    [
+     "Cliff Lyons",
+     "Lyons"
+    ],
+    [
+     "Gary Freeman",
+     "Freeman"
+    ],
+    [
+     "Ricky Stuart",
+     "Stuart"
+    ],
+    [
+     "Laurie Daley",
+     "Daley",
+     "Daley"
+    ],
+    [
+     "Allan Langer",
+     "Langer"
+    ],
+    [
+     "Andrew Johns",
+     "Joey Johns",
+     "Joey",
+     "Johns",
+     "Johns"
+    ],
+    [
+     "Trent Barrett",
+     "Barrett"
+    ],
+    [
+     "Preston Campbell",
+     "Campbell"
+    ],
+    [
+     "Danny Buderus",
+     "Buderus"
+    ],
+    [
+     "Johnathan Thurston",
+     "Jonathan Thurston",
+     "JT",
+     "Thurston",
+     "Thurston"
+    ],
+    [
+     "Cameron Smith",
+     "Smith",
+     "Smith"
+    ],
+    [
+     "Matt Orford",
+     "Orford"
+    ],
+    [
+     "Jarryd Hayne",
+     "Hayne",
+     "Hayne"
+    ],
+    [
+     "Todd Carney",
+     "Carney"
+    ],
+    [
+     "Billy Slater",
+     "Slater"
+    ],
+    [
+     "Ben Barba",
+     "Barba"
+    ],
+    [
+     "Cooper Cronk",
+     "Cronk"
+    ],
+    [
+     "Jason Taumalolo",
+     "Taumalolo"
+    ],
+    [
+     "Roger Tuivasa-Sheck",
+     "RTS",
+     "Tuivasa-Sheck",
+     "Tuivasa-Sheck"
+    ],
+    [
+     "James Tedesco",
+     "Tedesco"
+    ],
+    [
+     "Jack Wighton",
+     "Wighton"
+    ],
+    [
+     "Tom Trbojevic",
+     "Trbojevic"
+    ],
+    [
+     "Nicho Hynes",
+     "Hynes"
+    ],
+    [
+     "Kalyn Ponga",
+     "Ponga"
+    ],
+    [
+     "Jahrome Hughes",
+     "Hughes"
+    ]
+   ]
+  },
+  {
+   "id": "spna-rugby-harry-sunderland-trophy",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a winner of the Harry Sunderland Trophy (man of the match in the top rugby league final, Championship Final, Premiership Final or Super League Grand Final, 1965 to 2023)",
+   "answers": [
+    [
+     "Terry Fogerty",
+     "Fogerty"
+    ],
+    [
+     "Albert Halsall",
+     "Halsall"
+    ],
+    [
+     "Ray Owen",
+     "Owen"
+    ],
+    [
+     "Gary Cooper",
+     "Cooper"
+    ],
+    [
+     "Bev Risman",
+     "Risman"
+    ],
+    "Frank Myler",
+    [
+     "Bill Ashurst",
+     "Ashurst"
+    ],
+    [
+     "Terry Clawson",
+     "Clawson"
+    ],
+    [
+     "Mike Stephenson",
+     "Stephenson"
+    ],
+    [
+     "Barry Philbin",
+     "Philbin"
+    ],
+    [
+     "Mel Mason",
+     "Mason"
+    ],
+    [
+     "George Nicholls",
+     "Nicholls"
+    ],
+    [
+     "Geoff Pimblett",
+     "Pimblett"
+    ],
+    [
+     "Bob Haigh",
+     "Haigh"
+    ],
+    [
+     "Kevin Dick",
+     "Dick"
+    ],
+    [
+     "Mal Aspey",
+     "Aspey"
+    ],
+    [
+     "Len Casey",
+     "Casey"
+    ],
+    [
+     "Mick Burke",
+     "Burke"
+    ],
+    "Tony Myler",
+    [
+     "John Dorahy",
+     "Dorahy"
+    ],
+    [
+     "Harry Pinner",
+     "Pinner"
+    ],
+    [
+     "Les Boyd",
+     "Boyd"
+    ],
+    [
+     "Joe Lydon",
+     "Lydon"
+    ],
+    [
+     "David Hulme",
+     "Hulme"
+    ],
+    [
+     "Alan Tait",
+     "Tait"
+    ],
+    [
+     "Greg Mackey",
+     "Mackey"
+    ],
+    [
+     "Andy Platt",
+     "Platt"
+    ],
+    [
+     "Chris Joynt",
+     "Joynt"
+    ],
+    [
+     "Sam Panapa",
+     "Panapa"
+    ],
+    [
+     "Kris Radlinski",
+     "Radlinski"
+    ],
+    [
+     "Andy Farrell",
+     "Andrew Farrell"
+    ],
+    [
+     "Jason Robinson",
+     "Robinson"
+    ],
+    [
+     "Henry Paul",
+     "Paul"
+    ],
+    [
+     "Michael Withers",
+     "Withers"
+    ],
+    [
+     "Paul Deacon",
+     "Deacon"
+    ],
+    [
+     "Stuart Reardon",
+     "Reardon"
+    ],
+    [
+     "Matt Diskin",
+     "Diskin"
+    ],
+    [
+     "Leon Pryce",
+     "Pryce"
+    ],
+    [
+     "Paul Wellens",
+     "Wellens"
+    ],
+    [
+     "Rob Burrow",
+     "Burrow"
+    ],
+    [
+     "Lee Smith",
+     "Smith"
+    ],
+    [
+     "Kevin Sinfield",
+     "Sinfield"
+    ],
+    [
+     "Thomas Leuluai",
+     "Leuluai"
+    ],
+    [
+     "Blake Green",
+     "Green"
+    ],
+    [
+     "James Roby",
+     "Roby"
+    ],
+    [
+     "Danny McGuire",
+     "McGuire"
+    ],
+    "Liam Farrell",
+    [
+     "Stefan Ratchford",
+     "Ratchford"
+    ],
+    [
+     "Luke Thompson",
+     "Thompson"
+    ],
+    [
+     "Kevin Naiqama",
+     "Naiqama"
+    ],
+    [
+     "Jonny Lomax",
+     "Lomax"
+    ],
+    [
+     "Jake Wardle",
+     "Wardle"
+    ]
+   ]
+  },
+  {
+   "id": "spna-rugby-premiership-player-of-season",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a winner of the Premiership Rugby Player of the Season award (1997-98 to 2025-26)",
+   "answers": [
+    [
+     "Pat Lam",
+     "Lam"
+    ],
+    [
+     "Martin Johnson",
+     "Johnson"
+    ],
+    [
+     "Austin Healey",
+     "Healey"
+    ],
+    [
+     "Pat Howard",
+     "Howard"
+    ],
+    [
+     "Jason Robinson",
+     "Robinson"
+    ],
+    [
+     "Jake Boer",
+     "Boer"
+    ],
+    [
+     "Simon Shaw",
+     "Shaw"
+    ],
+    [
+     "Martin Corry",
+     "Corry"
+    ],
+    [
+     "Mike Catt",
+     "Catt"
+    ],
+    [
+     "Martin Castrogiovanni",
+     "Castrogiovanni",
+     "Castrogiovanni"
+    ],
+    [
+     "James Simpson-Daniel",
+     "Simpson-Daniel",
+     "Simmo",
+     "Simpson-Daniel"
+    ],
+    [
+     "Chris Robshaw",
+     "Robshaw"
+    ],
+    [
+     "Chris Ashton",
+     "Ashton"
+    ],
+    [
+     "Tom Wood",
+     "Wood"
+    ],
+    [
+     "Tom Youngs",
+     "Youngs"
+    ],
+    [
+     "Mike Brown",
+     "Brown"
+    ],
+    [
+     "George Ford",
+     "Ford"
+    ],
+    [
+     "Alex Goode",
+     "Goode"
+    ],
+    [
+     "Jimmy Gopperth",
+     "James Gopperth",
+     "Gopperth",
+     "Gopperth"
+    ],
+    [
+     "Vereniki Goneva",
+     "Goneva",
+     "Vereniki",
+     "Goneva"
+    ],
+    [
+     "Danny Cipriani",
+     "Cipriani",
+     "Cipriani"
+    ],
+    "Jack Willis",
+    [
+     "Sam Simmonds",
+     "Simmonds"
+    ],
+    [
+     "Ben Earl",
+     "Earl"
+    ],
+    [
+     "Ollie Lawrence",
+     "Lawrence"
+    ],
+    [
+     "Henry Slade",
+     "Slade"
+    ],
+    [
+     "Tomos Williams",
+     "Williams"
+    ],
+    "Tom Willis"
+   ]
+  },
+  {
+   "id": "spna-rugby-clive-churchill-medal",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a winner of the Clive Churchill Medal, awarded to the player of the match in the Australian rugby league grand final (1986 to 2025)",
+   "answers": [
+    [
+     "Peter Sterling",
+     "Sterling"
+    ],
+    [
+     "Cliff Lyons",
+     "Lyons"
+    ],
+    [
+     "Paul Dunn",
+     "Dunn"
+    ],
+    [
+     "Bradley Clyde",
+     "Clyde"
+    ],
+    [
+     "Ricky Stuart",
+     "Stuart"
+    ],
+    [
+     "Allan Langer",
+     "Langer"
+    ],
+    [
+     "Brad Mackay",
+     "Mackay"
+    ],
+    [
+     "David Furner",
+     "Furner"
+    ],
+    [
+     "Jim Dymock",
+     "Dymock"
+    ],
+    [
+     "Geoff Toovey",
+     "Toovey"
+    ],
+    [
+     "Robbie O'Davis",
+     "O'Davis"
+    ],
+    [
+     "Gorden Tallis",
+     "Gordon Tallis",
+     "Tallis",
+     "Tallis"
+    ],
+    [
+     "Brett Kimmorley",
+     "Kimmorley"
+    ],
+    [
+     "Darren Lockyer",
+     "Lockyer"
+    ],
+    [
+     "Andrew Johns",
+     "Joey Johns",
+     "Joey",
+     "Johns",
+     "Johns"
+    ],
+    [
+     "Craig Fitzgibbon",
+     "Fitzgibbon"
+    ],
+    [
+     "Luke Priddis",
+     "Priddis"
+    ],
+    [
+     "Willie Mason",
+     "Mason"
+    ],
+    [
+     "Scott Prince",
+     "Prince"
+    ],
+    [
+     "Shaun Berrigan",
+     "Berrigan"
+    ],
+    [
+     "Greg Inglis",
+     "GI",
+     "Inglis",
+     "Inglis"
+    ],
+    [
+     "Brent Kite",
+     "Kite"
+    ],
+    [
+     "Billy Slater",
+     "Slater"
+    ],
+    [
+     "Darius Boyd",
+     "Boyd"
+    ],
+    [
+     "Glenn Stewart",
+     "Stewart"
+    ],
+    [
+     "Cooper Cronk",
+     "Cronk"
+    ],
+    [
+     "Daly Cherry-Evans",
+     "DCE",
+     "Cherry-Evans",
+     "Cherry-Evans"
+    ],
+    [
+     "Sam Burgess",
+     "Burgess"
+    ],
+    [
+     "Johnathan Thurston",
+     "Jonathan Thurston",
+     "JT",
+     "Thurston",
+     "Thurston"
+    ],
+    [
+     "Luke Lewis",
+     "Lewis"
+    ],
+    [
+     "Luke Keary",
+     "Keary"
+    ],
+    [
+     "Jack Wighton",
+     "Wighton"
+    ],
+    [
+     "Ryan Papenhuyzen",
+     "Papenhuyzen"
+    ],
+    [
+     "Nathan Cleary",
+     "Cleary"
+    ],
+    [
+     "Dylan Edwards",
+     "Edwards"
+    ],
+    [
+     "Liam Martin",
+     "Martin"
+    ],
+    [
+     "Reece Walsh",
+     "Walsh"
+    ]
+   ]
+  },
+  {
+   "id": "spna-rugby-top-14-clubs",
+   "tags": [
+    "rugby"
+   ],
+   "text": "Name a club in the French Top 14 (2025-26 season)",
+   "answers": [
+    [
+     "Bayonne",
+     "Aviron Bayonnais"
+    ],
+    [
+     "Bordeaux Bègles",
+     "Union Bordeaux Bègles",
+     "UBB",
+     "Bordeaux"
+    ],
+    [
+     "Castres",
+     "Castres Olympique"
+    ],
+    [
+     "Clermont",
+     "ASM Clermont Auvergne",
+     "ASM",
+     "Clermont Auvergne"
+    ],
+    [
+     "La Rochelle",
+     "Stade Rochelais"
+    ],
+    [
+     "Lyon",
+     "Lyon OU",
+     "LOU"
+    ],
+    [
+     "Montauban",
+     "US Montauban"
+    ],
+    [
+     "Montpellier",
+     "Montpellier Hérault Rugby"
+    ],
+    [
+     "Pau",
+     "Section Paloise"
+    ],
+    [
+     "Perpignan",
+     "USAP",
+     "USA Perpignan"
+    ],
+    [
+     "Racing 92",
+     "Racing"
+    ],
+    [
+     "Stade Français",
+     "Paris"
+    ],
+    [
+     "Toulon",
+     "RC Toulon",
+     "RCT"
+    ],
+    [
+     "Toulouse",
+     "Stade Toulousain"
+    ]
+   ]
+  },
+  {
+   "id": "spna-golf-ryder-2021-players",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who played in the 2021 Ryder Cup at Whistling Straits (either team)",
+   "answers": [
+    [
+     "Collin Morikawa",
+     "Morikawa"
+    ],
+    [
+     "Dustin Johnson",
+     "Johnson"
+    ],
+    [
+     "Bryson DeChambeau",
+     "DeChambeau",
+     "DeChambeau"
+    ],
+    [
+     "Brooks Koepka",
+     "Koepka"
+    ],
+    [
+     "Justin Thomas",
+     "Thomas"
+    ],
+    [
+     "Patrick Cantlay",
+     "Cantlay"
+    ],
+    [
+     "Tony Finau",
+     "Finau"
+    ],
+    [
+     "Xander Schauffele",
+     "Schauffele",
+     "Schauffele"
+    ],
+    [
+     "Jordan Spieth",
+     "Spieth"
+    ],
+    [
+     "Harris English",
+     "English"
+    ],
+    [
+     "Daniel Berger",
+     "Berger"
+    ],
+    [
+     "Scottie Scheffler",
+     "Scheffler"
+    ],
+    [
+     "Jon Rahm",
+     "Rahm"
+    ],
+    [
+     "Tommy Fleetwood",
+     "Fleetwood"
+    ],
+    [
+     "Tyrrell Hatton",
+     "Hatton"
+    ],
+    [
+     "Bernd Wiesberger",
+     "Wiesberger"
+    ],
+    [
+     "Rory McIlroy",
+     "McIlroy",
+     "McIlroy"
+    ],
+    [
+     "Viktor Hovland",
+     "Hovland"
+    ],
+    [
+     "Paul Casey",
+     "Casey"
+    ],
+    [
+     "Matt Fitzpatrick",
+     "Fitzpatrick"
+    ],
+    [
+     "Lee Westwood",
+     "Westwood"
+    ],
+    [
+     "Shane Lowry",
+     "Lowry"
+    ],
+    [
+     "Sergio García",
+     "Garcia",
+     "García"
+    ],
+    [
+     "Ian Poulter",
+     "Poulter"
+    ]
+   ]
+  },
+  {
+   "id": "spna-golf-ryder-2016-players",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who played in the 2016 Ryder Cup at Hazeltine (either team)",
+   "answers": [
+    "Dustin Johnson",
+    [
+     "Jordan Spieth",
+     "Spieth"
+    ],
+    [
+     "Phil Mickelson",
+     "Mickelson"
+    ],
+    [
+     "Patrick Reed",
+     "Reed"
+    ],
+    [
+     "Jimmy Walker",
+     "Walker"
+    ],
+    [
+     "Brooks Koepka",
+     "Koepka"
+    ],
+    [
+     "Brandt Snedeker",
+     "Snedeker"
+    ],
+    "Zach Johnson",
+    [
+     "J. B. Holmes",
+     "JB Holmes",
+     "Holmes",
+     "Holmes"
+    ],
+    [
+     "Rickie Fowler",
+     "Fowler"
+    ],
+    [
+     "Matt Kuchar",
+     "Kuchar"
+    ],
+    [
+     "Ryan Moore",
+     "Moore"
+    ],
+    [
+     "Rory McIlroy",
+     "McIlroy",
+     "McIlroy"
+    ],
+    [
+     "Danny Willett",
+     "Willett"
+    ],
+    [
+     "Henrik Stenson",
+     "Stenson"
+    ],
+    [
+     "Chris Wood",
+     "Wood"
+    ],
+    [
+     "Sergio García",
+     "Garcia",
+     "García"
+    ],
+    [
+     "Rafa Cabrera-Bello",
+     "Rafael Cabrera-Bello",
+     "Cabrera-Bello",
+     "Cabrera Bello",
+     "Cabrera-Bello"
+    ],
+    [
+     "Justin Rose",
+     "Rose"
+    ],
+    [
+     "Andy Sullivan",
+     "Sullivan"
+    ],
+    [
+     "Matt Fitzpatrick",
+     "Fitzpatrick"
+    ],
+    [
+     "Lee Westwood",
+     "Westwood"
+    ],
+    [
+     "Martin Kaymer",
+     "Kaymer"
+    ],
+    [
+     "Thomas Pieters",
+     "Pieters"
+    ]
+   ]
+  },
+  {
+   "id": "spna-golf-ryder-2008-players",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who played in the 2008 Ryder Cup at Valhalla (either team)",
+   "answers": [
+    [
+     "Phil Mickelson",
+     "Mickelson"
+    ],
+    [
+     "Stewart Cink",
+     "Cink"
+    ],
+    [
+     "Kenny Perry",
+     "Perry"
+    ],
+    [
+     "Jim Furyk",
+     "Furyk"
+    ],
+    [
+     "Anthony Kim",
+     "Kim"
+    ],
+    [
+     "Justin Leonard",
+     "Leonard"
+    ],
+    [
+     "Ben Curtis",
+     "Curtis"
+    ],
+    [
+     "Boo Weekley",
+     "Weekley"
+    ],
+    [
+     "Steve Stricker",
+     "Stricker"
+    ],
+    [
+     "Hunter Mahan",
+     "Mahan"
+    ],
+    [
+     "J. B. Holmes",
+     "JB Holmes",
+     "Holmes",
+     "Holmes"
+    ],
+    [
+     "Chad Campbell",
+     "Campbell"
+    ],
+    [
+     "Pádraig Harrington",
+     "Harrington",
+     "Harrington"
+    ],
+    [
+     "Sergio García",
+     "Garcia",
+     "García"
+    ],
+    [
+     "Lee Westwood",
+     "Westwood"
+    ],
+    [
+     "Henrik Stenson",
+     "Stenson"
+    ],
+    [
+     "Robert Karlsson",
+     "Karlsson"
+    ],
+    [
+     "Miguel Ángel Jiménez",
+     "Jimenez",
+     "Jiménez"
+    ],
+    [
+     "Graeme McDowell",
+     "McDowell"
+    ],
+    [
+     "Justin Rose",
+     "Rose"
+    ],
+    [
+     "Søren Hansen",
+     "Soren Hansen",
+     "Hansen",
+     "Hansen"
+    ],
+    [
+     "Oliver Wilson",
+     "Wilson"
+    ],
+    [
+     "Ian Poulter",
+     "Poulter"
+    ],
+    [
+     "Paul Casey",
+     "Casey"
+    ]
+   ]
+  },
+  {
+   "id": "spna-golf-fedex-cup-champions",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who has won the FedEx Cup, the PGA Tour's season-long title (2007 to 2025)",
+   "answers": [
+    [
+     "Tiger Woods",
+     "Woods"
+    ],
+    "Vijay Singh",
+    [
+     "Jim Furyk",
+     "Furyk"
+    ],
+    [
+     "Bill Haas",
+     "Haas"
+    ],
+    [
+     "Brandt Snedeker",
+     "Snedeker"
+    ],
+    [
+     "Henrik Stenson",
+     "Stenson"
+    ],
+    [
+     "Billy Horschel",
+     "Horschel"
+    ],
+    [
+     "Jordan Spieth",
+     "Spieth"
+    ],
+    [
+     "Rory McIlroy",
+     "McIlroy"
+    ],
+    [
+     "Justin Rose",
+     "Rose"
+    ],
+    [
+     "Justin Thomas",
+     "Thomas"
+    ],
+    [
+     "Dustin Johnson",
+     "Johnson"
+    ],
+    [
+     "Patrick Cantlay",
+     "Cantlay"
+    ],
+    [
+     "Viktor Hovland",
+     "Hovland"
+    ],
+    [
+     "Scottie Scheffler",
+     "Scheffler"
+    ],
+    [
+     "Tommy Fleetwood",
+     "Fleetwood"
+    ]
+   ]
+  },
+  {
+   "id": "spna-golf-order-of-merit-race-to-dubai",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a golfer who has won the European Tour Order of Merit or Race to Dubai (Harry Vardon Trophy, 1972 to 2025)",
+   "answers": [
+    [
+     "Rory McIlroy",
+     "McIlroy"
+    ],
+    [
+     "Collin Morikawa",
+     "Morikawa"
+    ],
+    [
+     "Lee Westwood",
+     "Westwood"
+    ],
+    [
+     "Jon Rahm",
+     "Rahm"
+    ],
+    [
+     "Francesco Molinari",
+     "Molinari"
+    ],
+    [
+     "Tommy Fleetwood",
+     "Fleetwood"
+    ],
+    [
+     "Henrik Stenson",
+     "Stenson"
+    ],
+    [
+     "Luke Donald",
+     "Donald"
+    ],
+    [
+     "Martin Kaymer",
+     "Kaymer"
+    ],
+    [
+     "Robert Karlsson",
+     "Karlsson"
+    ],
+    [
+     "Justin Rose",
+     "Rose"
+    ],
+    [
+     "Pádraig Harrington",
+     "Harrington",
+     "Harrington"
+    ],
+    [
+     "Colin Montgomerie",
+     "Monty",
+     "Montgomerie"
+    ],
+    [
+     "Ernie Els",
+     "Els"
+    ],
+    [
+     "Retief Goosen",
+     "Goosen"
+    ],
+    [
+     "Nick Faldo",
+     "Faldo"
+    ],
+    [
+     "Seve Ballesteros",
+     "Severiano Ballesteros",
+     "Seve",
+     "Ballesteros"
+    ],
+    [
+     "Ian Woosnam",
+     "Woosnam"
+    ],
+    [
+     "Ronan Rafferty",
+     "Rafferty"
+    ],
+    [
+     "Sandy Lyle",
+     "Lyle"
+    ],
+    [
+     "Bernhard Langer",
+     "Langer"
+    ],
+    [
+     "Greg Norman",
+     "Norman"
+    ],
+    [
+     "Dale Hayes",
+     "Hayes"
+    ],
+    [
+     "Peter Oosterhuis",
+     "Oosterhuis"
+    ]
+   ]
+  },
+  {
+   "id": "spna-golf-us-womens-open-winners",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a woman who has won the US Women's Open (1946 to 2025)",
+   "answers": [
+    [
+     "Maja Stark",
+     "Stark"
+    ],
+    [
+     "Yuka Saso",
+     "Saso"
+    ],
+    [
+     "Allisen Corpuz",
+     "Corpuz"
+    ],
+    [
+     "Minjee Lee",
+     "Lee"
+    ],
+    [
+     "Kim A-lim",
+     "A Lim Kim"
+    ],
+    [
+     "Lee Jeong-eun",
+     "Lee Jeongeun",
+     "Jeongeun Lee",
+     "Jeongeun Lee6",
+     "Jeong-eun Lee"
+    ],
+    [
+     "Ariya Jutanugarn",
+     "Jutanugarn"
+    ],
+    [
+     "Park Sung-hyun",
+     "Sung Hyun Park",
+     "Sung-hyun Park"
+    ],
+    [
+     "Brittany Lang",
+     "Lang"
+    ],
+    [
+     "Chun In-gee",
+     "In Gee Chun",
+     "In-gee Chun",
+     "Chun"
+    ],
+    [
+     "Michelle Wie",
+     "Michelle Wie West",
+     "Wie",
+     "Wie"
+    ],
+    [
+     "Inbee Park",
+     "Park"
+    ],
+    [
+     "Na Yeon Choi",
+     "Choi"
+    ],
+    [
+     "Ryu So-yeon",
+     "So Yeon Ryu",
+     "So-yeon Ryu",
+     "Ryu"
+    ],
+    [
+     "Ji Eun-hee",
+     "Eun-Hee Ji",
+     "Eun Hee Ji",
+     "Ji"
+    ],
+    [
+     "Paula Creamer",
+     "Creamer"
+    ],
+    [
+     "Cristie Kerr",
+     "Kerr"
+    ],
+    [
+     "Annika Sörenstam",
+     "Sorenstam",
+     "Sörenstam"
+    ],
+    [
+     "Birdie Kim",
+     "Kim"
+    ],
+    [
+     "Meg Mallon",
+     "Mallon"
+    ],
+    [
+     "Hilary Lunke",
+     "Lunke"
+    ],
+    [
+     "Juli Inkster",
+     "Inkster"
+    ],
+    [
+     "Karrie Webb",
+     "Webb"
+    ],
+    [
+     "Pak Se-ri",
+     "Se Ri Pak",
+     "Se-ri Pak",
+     "Pak"
+    ],
+    [
+     "Alison Nicholas",
+     "Nicholas"
+    ],
+    [
+     "Patty Sheehan",
+     "Sheehan"
+    ],
+    [
+     "Lauri Merten",
+     "Merten"
+    ],
+    [
+     "Betsy King",
+     "King"
+    ],
+    [
+     "Liselotte Neumann",
+     "Neumann"
+    ],
+    [
+     "Laura Davies",
+     "Davies"
+    ],
+    [
+     "Jane Geddes",
+     "Geddes"
+    ],
+    [
+     "Kathy Baker",
+     "Baker"
+    ],
+    [
+     "Hollis Stacy",
+     "Stacy"
+    ],
+    [
+     "Jan Stephenson",
+     "Stephenson"
+    ],
+    [
+     "Janet Alex",
+     "Alex"
+    ],
+    [
+     "Pat Bradley",
+     "Bradley"
+    ],
+    [
+     "Amy Alcott",
+     "Alcott"
+    ],
+    [
+     "Jerilyn Britz",
+     "Britz"
+    ],
+    [
+     "JoAnne Carner",
+     "Carner"
+    ],
+    [
+     "Sandra Palmer",
+     "Palmer"
+    ],
+    [
+     "Sandra Haynie",
+     "Haynie"
+    ],
+    [
+     "Susie Berning",
+     "Berning"
+    ],
+    [
+     "Donna Caponi",
+     "Caponi"
+    ],
+    [
+     "Catherine Lacoste",
+     "Lacoste"
+    ],
+    [
+     "Sandra Spuzich",
+     "Spuzich"
+    ],
+    [
+     "Carol Mann",
+     "Mann"
+    ],
+    [
+     "Mickey Wright",
+     "Wright"
+    ],
+    [
+     "Mary Mills",
+     "Mills"
+    ],
+    [
+     "Murle Lindstrom",
+     "Lindstrom"
+    ],
+    [
+     "Betsy Rawls",
+     "Rawls"
+    ],
+    [
+     "Kathy Cornelius",
+     "Cornelius"
+    ],
+    [
+     "Fay Crocker",
+     "Crocker"
+    ],
+    [
+     "Babe Zaharias",
+     "Babe Didrikson Zaharias",
+     "Mildred Zaharias",
+     "Zaharias"
+    ],
+    [
+     "Louise Suggs",
+     "Suggs"
+    ],
+    [
+     "Betty Jameson",
+     "Jameson"
+    ],
+    [
+     "Patty Berg",
+     "Berg"
+    ]
+   ]
+  },
+  {
+   "id": "spna-golf-chevron-championship-winners",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a woman who has won the Chevron Championship (formerly the Nabisco Dinah Shore, Kraft Nabisco Championship and ANA Inspiration) as an LPGA major (1983 to 2025)",
+   "answers": [
+    [
+     "Mao Saigo",
+     "Saigo"
+    ],
+    [
+     "Nelly Korda",
+     "Korda"
+    ],
+    "Lilia Vu",
+    [
+     "Jennifer Kupcho",
+     "Kupcho"
+    ],
+    [
+     "Patty Tavatanakit",
+     "Tavatanakit"
+    ],
+    [
+     "Mirim Lee",
+     "Lee"
+    ],
+    [
+     "Ko Jin-young",
+     "Jin Young Ko",
+     "Jin-young Ko",
+     "Ko"
+    ],
+    [
+     "Pernilla Lindberg",
+     "Lindberg"
+    ],
+    [
+     "Ryu So-yeon",
+     "So Yeon Ryu",
+     "So-yeon Ryu",
+     "Ryu"
+    ],
+    "Lydia Ko",
+    [
+     "Brittany Lincicome",
+     "Lincicome"
+    ],
+    [
+     "Lexi Thompson",
+     "Thompson"
+    ],
+    "Inbee Park",
+    [
+     "Sun-Young Yoo",
+     "Yoo"
+    ],
+    [
+     "Stacy Lewis",
+     "Lewis"
+    ],
+    [
+     "Yani Tseng",
+     "Tseng"
+    ],
+    [
+     "Lorena Ochoa",
+     "Ochoa"
+    ],
+    [
+     "Morgan Pressel",
+     "Pressel"
+    ],
+    [
+     "Karrie Webb",
+     "Webb"
+    ],
+    [
+     "Annika Sörenstam",
+     "Sorenstam",
+     "Sörenstam"
+    ],
+    "Grace Park",
+    [
+     "Patricia Meunier-Lebouc",
+     "Meunier-Lebouc",
+     "Meunier-Lebouc"
+    ],
+    [
+     "Dottie Pepper",
+     "Dottie Mochrie",
+     "Mochrie",
+     "Pepper"
+    ],
+    [
+     "Pat Hurst",
+     "Hurst"
+    ],
+    [
+     "Betsy King",
+     "King"
+    ],
+    [
+     "Patty Sheehan",
+     "Sheehan"
+    ],
+    [
+     "Nanci Bowen",
+     "Bowen"
+    ],
+    [
+     "Donna Andrews",
+     "Andrews"
+    ],
+    [
+     "Helen Alfredsson",
+     "Alfredsson"
+    ],
+    [
+     "Amy Alcott",
+     "Alcott"
+    ],
+    [
+     "Juli Inkster",
+     "Inkster"
+    ],
+    [
+     "Pat Bradley",
+     "Bradley"
+    ],
+    [
+     "Alice Miller",
+     "Miller"
+    ]
+   ]
+  },
+  {
+   "id": "spna-golf-womens-pga-championship-winners",
+   "tags": [
+    "golf"
+   ],
+   "text": "Name a woman who has won the Women's PGA Championship (formerly the LPGA Championship, 1955 to 2025)",
+   "answers": [
+    [
+     "Minjee Lee",
+     "Lee"
+    ],
+    [
+     "Amy Yang",
+     "Yang"
+    ],
+    [
+     "Yin Ruoning",
+     "Yin"
+    ],
+    [
+     "Chun In-gee",
+     "In Gee Chun",
+     "In-gee Chun",
+     "Chun"
+    ],
+    [
+     "Nelly Korda",
+     "Korda"
+    ],
+    [
+     "Kim Sei-young",
+     "Sei Young Kim",
+     "Sei-young Kim",
+     "Kim"
+    ],
+    [
+     "Hannah Green",
+     "Green"
+    ],
+    [
+     "Park Sung-hyun",
+     "Sung Hyun Park",
+     "Sung-hyun Park"
+    ],
+    [
+     "Danielle Kang",
+     "Kang"
+    ],
+    [
+     "Brooke Henderson",
+     "Henderson"
+    ],
+    [
+     "Inbee Park",
+     "Park"
+    ],
+    [
+     "Shanshan Feng",
+     "Feng"
+    ],
+    [
+     "Yani Tseng",
+     "Tseng"
+    ],
+    [
+     "Cristie Kerr",
+     "Kerr"
+    ],
+    [
+     "Anna Nordqvist",
+     "Nordqvist"
+    ],
+    [
+     "Suzann Pettersen",
+     "Pettersen"
+    ],
+    [
+     "Pak Se-ri",
+     "Se Ri Pak",
+     "Se-ri Pak",
+     "Pak"
+    ],
+    [
+     "Annika Sörenstam",
+     "Sorenstam",
+     "Sörenstam"
+    ],
+    [
+     "Karrie Webb",
+     "Webb"
+    ],
+    [
+     "Juli Inkster",
+     "Inkster"
+    ],
+    [
+     "Christa Johnson",
+     "Johnson"
+    ],
+    [
+     "Laura Davies",
+     "Davies"
+    ],
+    [
+     "Kelly Robbins",
+     "Robbins"
+    ],
+    [
+     "Patty Sheehan",
+     "Sheehan"
+    ],
+    [
+     "Betsy King",
+     "King"
+    ],
+    [
+     "Meg Mallon",
+     "Mallon"
+    ],
+    [
+     "Beth Daniel",
+     "Daniel"
+    ],
+    [
+     "Nancy Lopez",
+     "Lopez"
+    ],
+    [
+     "Sherri Turner",
+     "Turner"
+    ],
+    [
+     "Jane Geddes",
+     "Geddes"
+    ],
+    [
+     "Pat Bradley",
+     "Bradley"
+    ],
+    [
+     "Jan Stephenson",
+     "Stephenson"
+    ],
+    [
+     "Donna Caponi",
+     "Caponi"
+    ],
+    [
+     "Sally Little",
+     "Little"
+    ],
+    [
+     "Chako Higuchi",
+     "Higuchi"
+    ],
+    [
+     "Betty Burfeindt",
+     "Burfeindt"
+    ],
+    [
+     "Kathy Whitworth",
+     "Whitworth"
+    ],
+    [
+     "Sandra Haynie",
+     "Haynie"
+    ],
+    [
+     "Mary Mills",
+     "Mills"
+    ],
+    [
+     "Kathy Ahern",
+     "Ahern"
+    ],
+    [
+     "Shirley Englehorn",
+     "Englehorn"
+    ],
+    [
+     "Betsy Rawls",
+     "Rawls"
+    ],
+    [
+     "Sandra Post",
+     "Post"
+    ],
+    [
+     "Gloria Ehret",
+     "Ehret"
+    ],
+    [
+     "Mickey Wright",
+     "Wright"
+    ],
+    [
+     "Judy Kimball",
+     "Kimball"
+    ],
+    [
+     "Louise Suggs",
+     "Suggs"
+    ],
+    [
+     "Marlene Hagge",
+     "Hagge"
+    ],
+    [
+     "Beverly Hanson",
+     "Hanson"
+    ]
+   ]
+  }
+ ]
+}
