@@ -552,3 +552,21 @@ details.answers .board .num { min-width: 2.4em; text-align: right; }
 .skipped { color: var(--muted); font-weight: 600; }
 .gamecode { font-size: .78rem; color: var(--muted); opacity: .8; text-align: center; }
 .gamecode code { font-size: .78rem; user-select: all; word-break: break-all; }
+
+/* daily streak */
+.streak.card { justify-content: flex-start; gap: 12px; padding: 12px 16px; text-align: left; }
+.streak.card .ic { width: 26px; height: 26px; flex: none; }
+.streak.card span { display: grid; }
+.streak.card small { color: var(--muted); font-size: .82rem; }
+.streak.card.due { border-color: color-mix(in srgb, var(--you) 45%, transparent); }
+.streakline { display: flex; align-items: center; justify-content: center; gap: 6px; color: var(--muted); font-size: .9rem; margin: 0; }
+.streakline .ic { color: var(--you); width: 18px; height: 18px; }
+.streakline b { color: var(--text); }
+
+/* thumbs up / down after a round */
+.vote { display: flex; align-items: center; justify-content: center; gap: 10px; color: var(--muted); font-size: .9rem; }
+.vote button { width: 44px; height: 40px; border-radius: 12px; border: 1px solid var(--line-2); background: var(--card); color: var(--muted); display: grid; place-items: center; cursor: pointer; transition: transform .12s, color .15s, border-color .15s, background .15s; }
+.vote button:active { transform: scale(.92); }
+.vote button.down .ic { transform: rotate(180deg); }
+.vote button.on { color: var(--you); border-color: var(--you); background: var(--you-soft); }
+.vote button.down.on { color: var(--muted); border-color: var(--line-2); background: var(--card-2); }

@@ -50,6 +50,7 @@ function show(html) {
 
 // A small line-icon set, drawn with currentColor so icons follow the text colour.
 const ICON = {
+  thumb: '<path d="M7 10v11H4a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1z"/><path d="M7 10l4-7a2.5 2.5 0 0 1 3 3l-1 4h5.5a2 2 0 0 1 2 2.4l-1.5 7A2 2 0 0 1 17 21H7"/>',
   user: '<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/>',
   users: '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.9 2.9-6 6.5-6s6.5 2.1 6.5 6"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8"/><path d="M18 14.3c2.2.7 3.5 2.6 3.5 5.7"/>',
   trophy: '<path d="M8 21h8M12 17v4"/><path d="M7 4h10v6a5 5 0 0 1-10 0z"/><path d="M17 6h3v1a3 3 0 0 1-3 3M7 6H4v1a3 3 0 0 0 3 3"/>',
@@ -212,6 +213,30 @@ function buildUp(res) {
   requestAnimationFrame(frame);
 }
 app.addEventListener('click', () => { if (skipBuild) skipBuild(); if (raceSkip) raceSkip(); });   // tap to skip the build-up
+
+// ---- thumbs up / down on a prompt after playing it, so we can see which questions people enjoy
+function voteHTML(promptId) {
+  if (!promptId) return '';
+  const v = (store.get('outlier.votes', {}) || {})[promptId.split('--')[0]] || 0;
+  return `<div class="vote" data-pid="${esc(promptId)}"><span>Good question?</span>
+    <button type="button" data-vote="1" class="${v === 1 ? 'on' : ''}" aria-label="Thumbs up" aria-pressed="${v === 1}">${ic('thumb')}</button>
+    <button type="button" data-vote="-1" class="down${v === -1 ? ' on' : ''}" aria-label="Thumbs down" aria-pressed="${v === -1}">${ic('thumb')}</button></div>`;
+}
+
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-vote]');
+  if (!b) return;
+  const box = b.closest('.vote'), pid = box.dataset.pid.split('--')[0];
+  const votes = store.get('outlier.votes', {}) || {};
+  const vote = votes[pid] === +b.dataset.vote ? 0 : +b.dataset.vote;   // tapping your current choice takes it back
+  if (vote) votes[pid] = vote; else delete votes[pid];
+  const keys = Object.keys(votes);
+  if (keys.length > 600) keys.slice(0, keys.length - 600).forEach(k => delete votes[k]);   // keep local storage small
+  store.set('outlier.votes', votes);
+  box.querySelectorAll('[data-vote]').forEach(x => { const on = +x.dataset.vote === vote; x.classList.toggle('on', on); x.setAttribute('aria-pressed', on); });
+  if (vote) toast(vote > 0 ? 'Thanks! Glad you liked it' : "Thanks, we'll take a look");
+  api('/api/vote', { promptId: pid, cid: playerId(), vote }).catch(() => {});
+});
 
 function outlierHTML(list, mine) {
   if (list.some(o => o.name === mine)) return '<p class="muted center">You found the Outlier.</p>';
@@ -558,7 +583,6 @@ function mountPicker(el, onChange, heading = 'Choose a category') {
 
 function home() {
   stopTimer();
-  const streak = store.get('outlier.streak', { n: 0 });
   const mode = (id, icon, title, sub, primary) => `<button class="mode${primary ? ' primary' : ''}" id="${id}">
     <span class="mode-ic">${ic(icon)}</span><span class="mode-t"><b>${title}</b><small>${sub}</small></span>${ic('right', 'chev')}</button>`;
   show(`<div class="hero">
@@ -571,7 +595,7 @@ function home() {
       ${mode('party', 'users', 'Party game', 'Everyone plays together on their own phone')}
     </div>
     ${accountLine()}
-    ${streak.n > 1 ? `<div class="streak">${ic('flame')}<span><b>${streak.n}-day</b> daily streak</span></div>` : ''}
+    ${streakHTML()}
     <section class="card how">
       <h3>How it works</h3>
       <ol class="steps">
@@ -592,7 +616,7 @@ function home() {
 let me = null, signinOn = false, plan = { plus: true, paywall: false, claim: null, payments: false, price: '', subscribed: false };   // me = { email } when signed in; signinOn = the server can email sign-in links
 
 async function loadMe(again = true) {
-  try { const r = await api('/api/me'); me = r.user; signinOn = !!r.signin; plan = { plus: r.plus !== false, paywall: !!r.paywall, claim: r.claim || null, payments: !!r.payments, price: r.price || '', subscribed: !!r.subscribed }; } catch { me = null; }
+  try { const r = await api('/api/me'); me = r.user; signinOn = !!r.signin; plan = { plus: r.plus !== false, paywall: !!r.paywall, claim: r.claim || null, payments: !!r.payments, price: r.price || '', subscribed: !!r.subscribed }; serverToday = r.today || ''; if (me) { if (r.streak) adoptStreak(r.streak); else if (streakNow().n) api('/api/streak', { carry: store.get('outlier.streak', {}) }).then(adoptStreak).catch(() => {}); } } catch { me = null; }
   if (!me && store.get('outlier.session', '')) {   // a stale saved token: drop it and let the sign-in cookie (if any) speak
     store.del('outlier.session');
     if (again) return loadMe(false);
@@ -827,6 +851,7 @@ function dailyQuestion(run) {
           <p class="zone">${zoneName(saved.total, max)}<span class="muted">${saved.total} paces from the crowd</span></p></div>
         ${outlierHTML(res.board.filter(b => b.outlier), res.canonical)}
         ${boardHTML(res.board, res.canonical, res.boardTotal)}
+        ${voteHTML(res.promptId)}
         <button class="btn primary" id="next">${saved.done ? 'See your day' : 'Next prompt'}</button>
       </div>`);
     buildUp(res);
@@ -835,12 +860,40 @@ function dailyQuestion(run) {
   $('#quit').onclick = soloMenu;
 }
 
+const dayBefore = date => { const d = new Date(date + 'T00:00:00Z'); d.setUTCDate(d.getUTCDate() - 1); return d.toISOString().slice(0, 10); };
+let serverToday = '';
+const todayStr = () => serverToday || new Date().toISOString().slice(0, 10);
+
+// The streak counts days in a row with at least one daily finished. It is "alive" if the last one was today or yesterday.
+function streakNow() {
+  const s = store.get('outlier.streak', { n: 0, last: '', best: 0 }) || {};
+  const today = todayStr(), alive = s.last === today || s.last === dayBefore(today);
+  return { n: alive ? (s.n || 0) : 0, best: Math.max(s.best || 0, s.n || 0), doneToday: s.last === today, last: s.last || '' };
+}
+
 function bumpStreak(date) {
-  const s = store.get('outlier.streak', { n: 0, last: '' });
-  if (s.last === date) return;
-  const d = new Date(date + 'T00:00:00Z');
-  d.setUTCDate(d.getUTCDate() - 1);
-  store.set('outlier.streak', { n: s.last === d.toISOString().slice(0, 10) ? s.n + 1 : 1, last: date });
+  const s = store.get('outlier.streak', { n: 0, last: '', best: 0 }) || {};
+  if (s.last !== date) {
+    const n = s.last === dayBefore(date) ? (s.n || 0) + 1 : 1;
+    store.set('outlier.streak', { n, last: date, best: Math.max(s.best || 0, s.n || 0, n) });
+  }
+  if (me) api('/api/streak', { played: true, carry: store.get('outlier.streak', {}) }).then(adoptStreak).catch(() => {});
+}
+
+// A signed-in player's streak lives on their account, so it follows them between devices.
+function adoptStreak(srv) {
+  if (!srv || !srv.last) return;
+  const s = store.get('outlier.streak', { n: 0, last: '', best: 0 }) || {};
+  if (srv.last > (s.last || '') || (srv.last === s.last && srv.n >= (s.n || 0))) store.set('outlier.streak', { n: srv.n, last: srv.last, best: Math.max(srv.best || 0, s.best || 0) });
+}
+
+function streakHTML() {
+  const s = streakNow();
+  if (!s.n && !s.best) return '';
+  const head = s.n ? `<b>${s.n}-day streak</b>` : '<b>No streak right now</b>';
+  const sub = s.n ? (s.doneToday ? 'Today is done. Come back tomorrow to keep it going.' : 'Play a daily today to keep it going.')
+    : 'Play a daily today to start a new one.';
+  return `<div class="streak card${s.n && !s.doneToday ? ' due' : ''}">${ic('flame')}<span>${head}<small>${sub}${s.best > 1 ? ` · Best: ${s.best} days` : ''}</small></span></div>`;
 }
 
 function dailySummary(run) {
@@ -850,6 +903,7 @@ function dailySummary(run) {
   show(`<header class="bar"><button class="link" id="back">‹ Back</button><span>${esc(label)} #${saved.number}</span><span></span></header>
     <div class="total">${saved.total}<small> / ${max * 1.5} paces</small></div>
     <div class="squares">${squares}</div>
+    ${streakNow().n ? `<p class="streakline">${ic('flame')}<b>${streakNow().n}-day streak</b>${streakNow().n > 1 ? ' · keep it going tomorrow' : ' · come back tomorrow to build it'}</p>` : ''}
     <div class="card">${trailHTML([{ name: 'You', from: 0, to: saved.total, me: true }], max)}
       <p class="zone">You ended up: ${zoneName(saved.total, max)}</p></div>
     <div class="sidecol"><ul class="rows card">${saved.results.map(r => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : (r.given ? `<span class="strike">${esc(r.given)}</span>` : '<span class="skipped">Skipped</span>')}</b>
@@ -923,6 +977,7 @@ function gameQuestion(run) {
         <div class="card">${trailHTML(lanes, max)}</div>
         ${outlierHTML(res.board.filter(b => b.outlier), res.canonical)}
         ${boardHTML(res.board, res.canonical, res.boardTotal)}
+        ${voteHTML(res.promptId)}
         <button class="btn primary" id="next">${done ? 'See your score' : 'Next prompt'}</button>
       </div>`);
     buildUp(res);
@@ -1248,6 +1303,7 @@ function partyReveal(s, host) {
     }), (s.rounds + 1) * 100)}</div>
     ${outlierHTML(r.outliers, mine && mine.canonical)}
     <p class="muted center">Most common: <b>${esc(r.commonest.name)}</b></p>
+    ${voteHTML(r.promptId)}
     ${host ? `<button class="btn primary" id="next">${last ? 'Final standings' : 'Next round'}</button>`
       : `<p class="muted center">Waiting for the host to continue.</p>`}
     </div>`);

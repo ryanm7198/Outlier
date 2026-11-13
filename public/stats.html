@@ -50,6 +50,10 @@
   const n = x => Number(x).toLocaleString('en-GB');
   const card = (v, l) => `<div class="card"><b>${n(v)}</b><span>${l}</span></div>`;
   const max = Math.max(1, ...d.days.map(x => x.players));
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const rate = (title, rows) => !rows || !rows.length ? `<p class="muted">${title}: not enough votes yet (each question needs 3).</p>`
+    : `<p class="muted" style="margin:14px 0 4px">${title}</p><table><tr><th>Question</th><th>👍</th><th>👎</th><th>Score</th></tr>
+      ${rows.map(r => `<tr><td>${esc(r.text)}<br><span class="muted">${esc(r.id)}</span></td><td>${r.up}</td><td>${r.down}</td><td>${r.score}%</td></tr>`).join('')}</table>`;
   sub.textContent = `Counting since ${d.since}. Players are anonymous browser IDs from solo and daily games, so one person on two devices counts twice. Paywall is ${d.paywall ? 'ON' : 'off'}.`;
   if (!d.dbPersistent) sub.innerHTML += ` <b style="color:var(--you)">Warning: the database is at ${d.db}, which is not on the persistent disk, so every deploy wipes accounts, sign-ins and stats.</b>`;
   else sub.textContent += ` Database: ${d.db}. First account: ${d.firstAccount || 'none'}.`;
@@ -60,6 +64,9 @@
     <div class="grid">${card(d.answers.today, 'today')}${card(d.answers.all, 'all time')}${card(d.leaderboardScores, 'leaderboard scores')}</div>
     <h2>Accounts</h2>
     <div class="grid">${card(d.accounts.total, 'signed up')}${card(d.accounts.week, 'new in 7 days')}${card(d.accounts.subscribers, 'Plus subscribers')}${card(d.accounts.canceled, 'ended subscriptions')}</div>
+    <h2>Question ratings <span style="text-transform:none;letter-spacing:0">(${n(d.votes || 0)} votes, ${n((d.ratings || {}).rated || 0)} questions with 3+)</span></h2>
+    ${rate('Most liked', (d.ratings || {}).best)}
+    ${rate('Least liked', (d.ratings || {}).worst)}
     <h2>Last 14 days</h2>
     <table><tr><th>Day</th><th>Players</th><th>Answers</th><th style="width:30%"></th></tr>
       ${d.days.map(x => `<tr><td>${x.day}</td><td>${n(x.players)}</td><td>${n(x.answers)}</td><td><div class="bar" style="width:${Math.round(100 * x.players / max)}%"></div></td></tr>`).join('')}

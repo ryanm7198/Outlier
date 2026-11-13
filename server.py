@@ -290,6 +290,8 @@ def open_db():
     DB.execute("CREATE TABLE IF NOT EXISTS subs (user_id INTEGER PRIMARY KEY, customer TEXT, sub_id TEXT, status TEXT, updated INTEGER)")
     DB.execute("CREATE TABLE IF NOT EXISTS daily_answers (day TEXT PRIMARY KEY, n INTEGER)")
     DB.execute("CREATE TABLE IF NOT EXISTS daily_seen (day TEXT, cid TEXT, PRIMARY KEY (day, cid))")
+    DB.execute("CREATE TABLE IF NOT EXISTS votes (prompt_id TEXT, cid TEXT, vote INTEGER, ts INTEGER, PRIMARY KEY (prompt_id, cid))")
+    DB.execute("CREATE TABLE IF NOT EXISTS streaks (user_id INTEGER PRIMARY KEY, n INTEGER, best INTEGER, last TEXT)")
     DB.execute("CREATE INDEX IF NOT EXISTS user_plays_user ON user_plays (user_id, ts)")
     for p in PROMPTS.values():
         # A long-tailed start in list order. The last answer listed (last two on long lists) starts below
@@ -650,6 +652,18 @@ def note_play(cid):
         DB.execute("INSERT OR IGNORE INTO daily_seen (day, cid) VALUES (?, ?)", (day, cid))
 
 
+def ratings(min_votes=3, n=15):
+    """Prompt ratings from thumbs up/down: the best and worst liked, with a small prior so one vote can't top the table."""
+    rows = DB.execute("SELECT prompt_id, SUM(vote = 1), SUM(vote = -1) FROM votes GROUP BY prompt_id HAVING COUNT(*) >= ?", (min_votes,)).fetchall()
+    scored = [{"id": p, "text": PROMPTS[p]["text"] if p in PROMPTS else p, "up": u, "down": d,
+               "score": round(100 * (u + 1) / (u + d + 2))} for p, u, d in rows]
+    best = sorted(scored, key=lambda r: (-r["score"], -(r["up"] + r["down"])))
+    best = [r for r in best if r["score"] >= 50][:n]
+    worst = sorted(scored, key=lambda r: (r["score"], -(r["up"] + r["down"])))
+    worst = [r for r in worst if r["score"] < 50][:n]
+    return {"best": best, "worst": worst, "rated": len(scored)}
+
+
 def stats():
     user = current_user()
     if not user or user["email"] not in PLUS_EMAILS:
@@ -670,6 +684,8 @@ def stats():
                      "subscribers": one("SELECT COUNT(*) FROM subs WHERE status IN ('active', 'trialing', 'past_due')"),
                      "canceled": one("SELECT COUNT(*) FROM subs WHERE status NOT IN ('active', 'trialing', 'past_due')")},
         "leaderboardScores": one("SELECT COUNT(*) FROM scores"),
+        "votes": one("SELECT COUNT(*) FROM votes"),
+        "ratings": ratings(),
         "since": min(list(players) + list(answers) + [day(0)]),
         "paywall": PAYWALL,
         "db": DB_PATH, "dbPersistent": DB_PATH.startswith("/var/data"),
@@ -1011,6 +1027,56 @@ def post_score(body):
     return board_out(seed, cid)
 
 
+def cast_vote(body):
+    """Thumbs up (1) or down (-1) on a prompt after playing it; 0 takes the vote back. One vote per player id."""
+    pid = str(body.get("promptId") or "").split("--")[0]   # era versions count towards the main prompt
+    cid = re.sub(r"[^0-9A-Za-z]", "", str(body.get("cid") or ""))[:32]
+    if pid not in PROMPTS or len(cid) < 8:
+        raise ApiError(400, "Bad vote")
+    try:
+        vote = max(-1, min(1, int(body.get("vote"))))
+    except (TypeError, ValueError):
+        raise ApiError(400, "Bad vote")
+    if vote:
+        DB.execute("INSERT INTO votes VALUES (?, ?, ?, ?) ON CONFLICT(prompt_id, cid) DO UPDATE SET vote = excluded.vote, ts = excluded.ts",
+                   (pid, cid, vote, int(time.time())))
+    else:
+        DB.execute("DELETE FROM votes WHERE prompt_id = ? AND cid = ?", (pid, cid))
+    DB.commit()
+    return {"ok": True}
+
+
+def streak_for(uid):
+    row = DB.execute("SELECT n, best, last FROM streaks WHERE user_id = ?", (uid,)).fetchone()
+    return {"n": row[0], "best": row[1], "last": row[2]} if row else None
+
+
+def bump_streak(body):
+    """A daily finished by a signed-in player: today extends a streak that last moved yesterday, otherwise it starts again.
+    A streak built before signing in is carried over once, if the account has none yet."""
+    user = current_user()
+    if not user:
+        raise ApiError(401, "Sign in to keep your streak on your account")
+    today = datetime.date.today()
+    have = streak_for(user["id"])
+    carry = body.get("carry") or {}
+    if not have and isinstance(carry, dict) and str(carry.get("last") or "") in (today.isoformat(), (today - datetime.timedelta(days=1)).isoformat()):
+        try:
+            have = {"n": max(0, min(10000, int(carry.get("n") or 0))), "best": max(0, min(10000, int(carry.get("best") or 0))), "last": carry["last"]}
+        except (TypeError, ValueError):
+            have = None
+    n, best, last = (have["n"], have["best"], have["last"]) if have else (0, 0, "")
+    if body.get("played"):
+        if last != today.isoformat():
+            n = n + 1 if last == (today - datetime.timedelta(days=1)).isoformat() else 1
+            last = today.isoformat()
+    best = max(best, n)
+    DB.execute("INSERT INTO streaks VALUES (?, ?, ?, ?) ON CONFLICT(user_id) DO UPDATE SET n = excluded.n, best = excluded.best, last = excluded.last",
+               (user["id"], n, best, last))
+    DB.commit()
+    return {"n": n, "best": best, "last": last}
+
+
 def board_out(seed, cid=""):
     seed = clean_seed(seed)
     rows = DB.execute("SELECT cid, name, total FROM scores WHERE seed = ? ORDER BY total DESC, ts ASC", (seed,)).fetchall()
@@ -1150,7 +1216,7 @@ def resolve(room):
     said = {r["canonical"] for r in results if r["valid"]}
     crowd = [b for i, b in enumerate(board) if i < 8 or b["name"] in said]
     room["reveal"] = {"prompt": PROMPTS[pid]["text"], "results": results, "crowd": crowd, "answers": len(counts),
-                      "outliers": [b for b in board if b["outlier"]], "commonest": board[0]}
+                      "outliers": [b for b in board if b["outlier"]], "commonest": board[0], "promptId": pid}
     room["phase"] = "reveal"
 
 
@@ -1259,7 +1325,8 @@ def api_get(path, q):
         return {"user": {"email": user["email"]} if user else None, "signin": bool(MAIL_KEY or DEV),
                 "plus": is_plus(user), "paywall": PAYWALL, "claim": claim,
                 "payments": bool(STRIPE_KEY and STRIPE_PRICE), "price": PRICE_LABEL,
-                "subscribed": bool(user and sub_status(user["id"]) in LIVE_SUB)}
+                "subscribed": bool(user and sub_status(user["id"]) in LIVE_SUB),
+                "streak": streak_for(user["id"]) if user else None, "today": datetime.date.today().isoformat()}
     if path == "/api/stats":
         return stats()
     if path == "/api/board":
@@ -1271,6 +1338,10 @@ def api_get(path, q):
 
 
 def api_post(path, body):
+    if path == "/api/vote":
+        return cast_vote(body)
+    if path == "/api/streak":
+        return bump_streak(body)
     if path == "/api/score":
         return post_score(body)
     if path == "/api/checkout":
@@ -1294,6 +1365,7 @@ def api_post(path, body):
         out["board"] = board_for(counts, keep=(out["canonical"],))
         out["boardTotal"] = len(counts)
         out["prompt"] = PROMPTS[pid]["text"]
+        out["promptId"] = pid
         if out["given"]:
             record(pid, out["canonical"], out["given"])
             note_play(re.sub(r"[^0-9A-Za-z]", "", str(body.get("cid") or ""))[:32])
