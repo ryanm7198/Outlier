@@ -1714,7 +1714,6 @@
     "Jericho",
     "Hebron",
     "Amman",
-    "Petra",
     "Aqaba",
     "Beirut",
     "Tripoli",
@@ -1910,9 +1909,7 @@
     "Kuala Terengganu",
     "Sibu",
     "Taiping",
-    "Genting Highlands",
-    "Bali",
-    "Lombok"
+    "Genting Highlands"
    ]
   },
   {
@@ -2318,8 +2315,7 @@
     "Laganas",
     "Kefalonia",
     "Lefkada",
-    "Skiathos",
-    "Paphos"
+    "Skiathos"
    ]
   },
   {
@@ -2751,7 +2747,6 @@
     "Girona",
     "Tarragona",
     "Almería",
-    "Gibraltar",
     "Ronda",
     "Jerez",
     "Vigo",
@@ -2810,8 +2805,7 @@
     [
      "Lake Lucerne",
      "Lucerne",
-     "Vierwaldstättersee",
-     "Balaton"
+     "Vierwaldstättersee"
     ],
     [
      "Lake Ladoga",
@@ -2911,10 +2905,7 @@
      "Lake Trasimeno",
      "Trasimeno"
     ],
-    [
-     "Mjøsa",
-     "Mjosa"
-    ],
+    "Mjøsa",
     [
      "Lake Siljan",
      "Siljan"
@@ -2944,7 +2935,11 @@
      "Lake Kerkini",
      "Kerkini"
     ],
-    "Lake Plastira"
+    "Lake Plastira",
+    [
+     "Lake Balaton",
+     "Balaton"
+    ]
    ]
   },
   {
@@ -3693,7 +3688,6 @@
     ],
     "Gorleston",
     "Sandringham",
-    "Royston",
     "Chatteris",
     "Ramsey",
     "Littleport",
@@ -3883,7 +3877,7 @@
     "capitals",
     "ukie"
    ],
-   "text": "Name a place granted city status in the UK between 2000 and 2022 (mainland UK)",
+   "text": "Name a place granted city status in the UK between 2000 and 2022 (not counting the Isle of Man or the Falklands)",
    "answers": [
     [
      "Brighton and Hove",

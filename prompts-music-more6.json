@@ -311,7 +311,6 @@
     "The Paris Sisters",
     "The Ikettes",
     "The Blossoms",
-    "The Sheridan Sisters",
     [
      "Reparata and the Delrons",
      "Reparata"
@@ -360,13 +359,10 @@
     "Them",
     "The Pretty Things",
     "The Nashville Teens",
-    "The Merseybeats",
     "The Mindbenders",
-    "The Applejacks",
     "Unit 4 + 2",
     "The Rockin' Berries",
     "Cream",
-    "The Move",
     "Traffic",
     "The Fourmost"
    ]
@@ -1946,7 +1942,6 @@
      "Stanford",
      "Charles Villiers Stanford"
     ],
-    "Dame Ethel Smyth",
     "Hans Werner Henze"
    ]
   },
@@ -2579,22 +2574,18 @@
     "In the Highways",
     "I'll Fly Away",
     "Keep on the Sunny Side",
-    "Didn't Leave Nobody but the Baby",
+    [
+     "Didn't Leave Nobody but the Baby",
+     "Go to Sleep Little Baby",
+     "Go to Sleep"
+    ],
     "Po' Lazarus",
     "Hard Time Killing Floor Blues",
     "Angel Band",
     "Lonesome Valley",
     "Indian War Whoop",
     "O Death",
-    "In the Jailhouse Now",
-    [
-     "Scarlet Ribbons (For Her Hair)",
-     "Scarlet Ribbons"
-    ],
-    [
-     "Go to Sleep Little Baby",
-     "Go to Sleep"
-    ]
+    "In the Jailhouse Now"
    ]
   },
   {
@@ -4829,7 +4820,6 @@
     "Unleashed",
     "Marduk",
     "Dissection",
-    "Wardruna",
     "Myrkur",
     "Bloodbath",
     "Tribulation",
@@ -5025,7 +5015,6 @@
     "The Nicest Kids in Town",
     "Miss Baltimore Crabs",
     "Ladies' Choice",
-    "The Legend of Corny Collins",
     "Timeless to Me",
     "It Takes Two",
     "I Know Where I've Been",
@@ -5035,8 +5024,7 @@
      "Come So Far (Got So Far to Go)",
      "Come So Far"
     ],
-    "Hairspray",
-    "Blah Blah Blah"
+    "Hairspray"
    ]
   },
   {
@@ -5340,8 +5328,6 @@
    ],
    "text": "Name a song by George Gershwin (music by Gershwin, any lyricist)",
    "answers": [
-    "Rhapsody in Blue",
-    "An American in Paris",
     "Summertime",
     "I Got Rhythm",
     "Fascinating Rhythm",
@@ -5375,7 +5361,6 @@
      "Oh, Lady Be Good!",
      "Lady Be Good"
     ],
-    "Oh, Kay!",
     "Somebody Loves Me",
     "Do It Again",
     "Liza",
@@ -5387,13 +5372,7 @@
     "Things Are Looking Up",
     "I'll Build a Stairway to Paradise",
     "The Half of It, Dearie, Blues",
-    "Bidin' My Time",
-    "Cuban Overture",
-    "Second Rhapsody",
-    [
-     "Piano Concerto in F",
-     "Concerto in F"
-    ]
+    "Bidin' My Time"
    ]
   },
   {
@@ -6100,7 +6079,10 @@
    "text": "Name a style or genre of Caribbean music",
    "answers": [
     "Reggae",
-    "Calypso",
+    [
+     "Calypso",
+     "Kaiso"
+    ],
     "Soca",
     "Ska",
     "Rocksteady",
@@ -6142,7 +6124,6 @@
     "Bolero",
     "Timba",
     "Rapso",
-    "Kaiso",
     "Bouyon",
     "Gwo ka",
     "Biguine",
@@ -6219,7 +6200,6 @@
     "Should I?",
     "Human Work of Art",
     "Crazy Love",
-    "Intimate Connection",
     "Let Me Know",
     "One More Chance"
    ]
@@ -6245,14 +6225,7 @@
     "War Crimes",
     "Racist Friend",
     "Bright Lights",
-    [
-     "Enjoy Yourself (It's Later Than You Think)",
-     "Enjoy Yourself"
-    ],
-    "Hey Little Rich Girl",
-    "Blank Expression",
     "Friday Night, Saturday Morning",
-    "Nite Klub",
     "Concrete Jungle",
     "International Jet Set",
     "Why?",
@@ -6260,20 +6233,11 @@
     "Maggie's Farm",
     "Monkey Man",
     "Too Hot",
-    "Rude Boys Outa Jail",
-    "Do the Dog",
-    "Stupid Marriage",
-    "Little Bitch",
-    "Doesn't Make It Alright",
-    "Man at C&A",
-    "Pearls Cafe",
     "Freedom Highway",
     "B.L.M.",
     "Vote Them Out",
     "10 Commandments",
-    "Embarrassed by You",
-    "Hypocrite",
-    "Lunatics Have Taken Over the Asylum"
+    "Hypocrite"
    ]
   },
   {
@@ -6432,7 +6396,6 @@
     "Speech Debelle",
     "Bree Runway",
     "Enny",
-    "Awate",
     "Ray BLK"
    ]
   },

@@ -1,4363 +1,4358 @@
 {
-"cat": "misc",
-"prompts": [
-{
-"id": "xp-lego-themes",
-"tags": [
-"pastimes"
-],
-"text": "Name a LEGO theme or product line (past or present)",
-"answers": [
-"City",
-[
-"Star Wars",
-"starwars"
-],
-"Technic",
-"Ninjago",
-"Friends",
-"Duplo",
-"Creator",
-"Harry Potter",
-"Architecture",
-"Minecraft",
-[
-"Super Heroes",
-"marvel",
-"dc",
-"marvel super heroes",
-"dc super heroes"
-],
-"Speed Champions",
-[
-"Space",
-"lego space"
-],
-"Castle",
-"Pirates",
-"Bionicle",
-"Classic",
-"Ideas",
-"Art",
-"Icons",
-"Disney",
-[
-"Jurassic World",
-"jurassic park"
-],
-"Hidden Side",
-"Mindstorms",
-"Racers",
-"Hero Factory",
-[
-"Legends of Chima",
-"chima"
-],
-"Elves",
-[
-"DREAMZzz",
-"dreamz"
-],
-"Monkie Kid",
-[
-"Minifigures",
-"collectible minifigures"
-],
-"BrickHeadz",
-"DOTS",
-"Fabuland",
-"Belville",
-"Adventurers",
-"Agents",
-"Alpha Team",
-"Atlantis",
-"Rock Raiders",
-[
-"Exo-Force",
-"exo force"
-],
-"Galidor",
-"Mixels",
-"Nexo Knights",
-"Vikings",
-"Wild West",
-"Power Miners",
-"Monster Fighters",
-[
-"Super Mario",
-"mario"
-],
-[
-"Sonic the Hedgehog",
-"sonic"
-],
-[
-"Botanicals",
-"botanical collection"
-],
-"Dimensions",
-"Education",
-"Town",
-"Trains",
-"Boost",
-"Vidiyo",
-"Unikitty",
-"Dino",
-"Dune",
-[
-"The Lord of the Rings",
-"lord of the rings"
-],
-"Indiana Jones",
-"Ghostbusters",
-"Overwatch",
-[
-"Scooby-Doo",
-"scooby doo"
-],
-[
-"The Simpsons",
-"simpsons"
-],
-"Stranger Things",
-"Pirates of the Caribbean",
-"Studios",
-"Aquazone",
-"Znap",
-"Quatro",
-"Homemaker",
-"Jack Stone",
-"Life of George",
-"Pharaoh's Quest",
-"Spybotics",
-"Ultra Agents",
-"Aqua Raiders",
-[
-"Teenage Mutant Ninja Turtles",
-"tmnt"
-],
-"Cars",
-"Ben 10",
-"Speed Racer",
-[
-"The Powerpuff Girls",
-"powerpuff girls"
-]
-]
-},
-{
-"id": "xp-uk-game-shows",
-"tags": [
-"pastimes"
-],
-"text": "Name a British TV game show or quiz show (past or present)",
-"answers": [
-[
-"The Chase",
-"chase"
-],
-[
-"Who Wants to Be a Millionaire?",
-"who wants to be a millionaire",
-"millionaire"
-],
-"Pointless",
-"Countdown",
-"Deal or No Deal",
-"Family Fortunes",
-[
-"The Generation Game",
-"generation game"
-],
-"Blankety Blank",
-"Catchphrase",
-"Bullseye",
-"Mastermind",
-"University Challenge",
-"Blockbusters",
-[
-"Fifteen to One",
-"15 to 1"
-],
-[
-"The Crystal Maze",
-"crystal maze"
-],
-"Gladiators",
-"Supermarket Sweep",
-[
-"The Price Is Right",
-"price is right"
-],
-"Strike It Lucky",
-"Wheel of Fortune",
-"Play Your Cards Right",
-"Bob's Full House",
-[
-"The Weakest Link",
-"weakest link"
-],
-"Tipping Point",
-"The Wall",
-"Only Connect",
-"Eggheads",
-[
-"Richard Osman's House of Games",
-"house of games"
-],
-"Impossible",
-"Golden Balls",
-"Total Wipeout",
-"Fort Boyard",
-"Knightmare",
-[
-"It's a Knockout",
-"its a knockout"
-],
-"Going for Gold",
-"Ask the Family",
-[
-"A Question of Sport",
-"question of sport"
-],
-[
-"Have I Got News for You",
-"hignfy"
-],
-[
-"Would I Lie to You?",
-"would i lie to you",
-"wilty"
-],
-"QI",
-"Mock the Week",
-[
-"Never Mind the Buzzcocks",
-"buzzcocks"
-],
-"8 Out of 10 Cats",
-"Taskmaster",
-[
-"The 1% Club",
-"1% club"
-],
-"Beat the Chasers",
-"Lingo",
-"Name That Tune",
-"Telly Addicts",
-"Call My Bluff",
-[
-"Mr and Mrs",
-"mr & mrs"
-],
-"Take Me Out",
-"Blind Date",
-"The Cube",
-"Raven",
-"Treasure Hunt",
-"Interceptor",
-[
-"The Krypton Factor",
-"krypton factor"
-],
-"Every Second Counts",
-"Sale of the Century",
-"Winner Takes All",
-[
-"3-2-1",
-"321"
-],
-"Big Break",
-"Bamboozle",
-[
-"Whose Line Is It Anyway?",
-"whose line is it anyway"
-],
-"Through the Keyhole",
-[
-"They Think It's All Over",
-"they think its all over"
-],
-"Shooting Stars",
-"Tenable",
-[
-"Fun House",
-"funhouse"
-],
-[
-"The Million Pound Drop",
-"million pound drop"
-],
-"Bruce's Price Is Right",
-"Cash Cab"
-]
-},
-{
-"id": "xp-playground-games",
-"tags": [
-"pastimes"
-],
-"text": "Name a traditional playground game",
-"answers": [
-[
-"Tag",
-"tig",
-"tiggy",
-"it",
-"chase",
-"tiggy touchwood"
-],
-"Hopscotch",
-[
-"British Bulldog",
-"bulldog",
-"british bulldogs",
-"bulldogs"
-],
-[
-"Hide and Seek",
-"hide & seek"
-],
-[
-"Skipping",
-"skipping rope",
-"jump rope",
-"double dutch"
-],
-[
-"Leapfrog",
-"leap frog"
-],
-"Conkers",
-"Marbles",
-"Simon Says",
-[
-"What's the Time, Mr Wolf?",
-"whats the time mr wolf",
-"what's the time mr wolf"
-],
-[
-"Grandmother's Footsteps",
-"grandma's footsteps",
-"grandmas footsteps",
-"grandmothers footsteps"
-],
-"Stuck in the Mud",
-"Kiss Chase",
-"Red Rover",
-[
-"Duck, Duck, Goose",
-"duck duck goose"
-],
-"Oranges and Lemons",
-[
-"Ring a Ring o' Roses",
-"ring a ring of roses",
-"ring around the rosie"
-],
-"Musical Statues",
-"Piggy in the Middle",
-"Hot Potato",
-[
-"Blind Man's Buff",
-"blind mans buff",
-"blind man's bluff"
-],
-[
-"Cat's Cradle",
-"cats cradle"
-],
-[
-"Jacks",
-"fivestones",
-"five stones"
-],
-[
-"Elastics",
-"french skipping",
-"chinese skipping",
-"chinese jump rope"
-],
-[
-"Kerbie",
-"curby",
-"kerby"
-],
-"Sardines",
-"Tug of War",
-[
-"Heads Down, Thumbs Up",
-"heads down thumbs up"
-],
-"Cops and Robbers",
-"Kick the Can",
-"Wink Murder",
-[
-"Mother, May I?",
-"mother may i"
-],
-"Fox and Hounds",
-"Dodgeball",
-"Rounders",
-[
-"Clapping games",
-"hand clapping games",
-"pat-a-cake",
-"pat a cake",
-"miss mary mack"
-],
-"Hangman",
-[
-"Noughts and Crosses",
-"tic tac toe"
-]
-]
-},
-{
-"id": "xp-pub-games",
-"tags": [
-"pastimes"
-],
-"text": "Name a traditional British pub game",
-"answers": [
-"Darts",
-"Pool",
-"Snooker",
-[
-"Dominoes",
-"dominos"
-],
-[
-"Cribbage",
-"crib"
-],
-[
-"Skittles",
-"table skittles",
-"bar skittles"
-],
-"Bar Billiards",
-[
-"Shove Ha'penny",
-"shove halfpenny",
-"shove ha penny"
-],
-[
-"Table Football",
-"foosball"
-],
-[
-"Fruit Machine",
-"fruit machines",
-"one-armed bandit"
-],
-"Pub Quiz",
-"Aunt Sally",
-"Quoits",
-[
-"Ringing the Bull",
-"ring the bull"
-],
-"Toad in the Hole",
-"Shut the Box",
-[
-"Devil Amongst the Tailors",
-"devil among the tailors"
-],
-[
-"Nine Men's Morris",
-"nine mens morris"
-],
-"Bat and Trap",
-"Beer Pong",
-[
-"Draughts",
-"checkers"
-],
-"Chess",
-"Backgammon",
-"Jenga",
-[
-"Connect 4",
-"connect four"
-],
-"Spoof",
-"Pinball"
-]
-},
-{
-"id": "xp-chess-terms",
-"tags": [
-"pastimes"
-],
-"text": "Name a chess term",
-"answers": [
-"Check",
-[
-"Checkmate",
-"mate"
-],
-"Stalemate",
-[
-"Castling",
-"castle"
-],
-"En Passant",
-[
-"Promotion",
-"queening",
-"underpromotion"
-],
-"Fork",
-"Pin",
-"Skewer",
-"Gambit",
-"Zugzwang",
-"Fianchetto",
-[
-"Discovered Attack",
-"discovery"
-],
-"Discovered Check",
-[
-"Zwischenzug",
-"intermezzo"
-],
-[
-"J'adoube",
-"jadoube"
-],
-"Blunder",
-"Tempo",
-"Opposition",
-"Perpetual Check",
-"Rank",
-"File",
-[
-"Back Rank Mate",
-"back rank"
-],
-[
-"Fool's Mate",
-"fools mate"
-],
-[
-"Scholar's Mate",
-"scholars mate"
-],
-[
-"Sacrifice",
-"sac"
-],
-"Endgame",
-"Middlegame",
-"Opening",
-"Blitz",
-"Bullet",
-"Rapid",
-"Passed Pawn",
-"Isolated Pawn",
-[
-"Doubled Pawns",
-"doubled pawn"
-],
-"Outpost",
-"Exchange",
-"Draw",
-[
-"Resign",
-"resignation"
-],
-"Smothered Mate",
-"Battery",
-"Deflection",
-"Decoy",
-"Overload",
-"Windmill",
-"Prophylaxis",
-"Fortress",
-"Time Control",
-"Stonewall"
-],
-"deep": true
-},
-{
-"id": "xp-poker-hands",
-"tags": [
-"pastimes"
-],
-"text": "Name a poker hand ranking or a stage of a Texas hold'em hand",
-"answers": [
-"Royal Flush",
-"Straight Flush",
-[
-"Four of a Kind",
-"4 of a kind",
-"quads"
-],
-[
-"Full House",
-"boat"
-],
-"Flush",
-"Straight",
-[
-"Three of a Kind",
-"3 of a kind",
-"trips",
-"set"
-],
-[
-"Two Pair",
-"2 pair",
-"two pairs"
-],
-[
-"Pair",
-"one pair",
-"a pair"
-],
-"High Card",
-[
-"Pre-flop",
-"preflop",
-"hole cards",
-"the deal"
-],
-"Flop",
-[
-"Turn",
-"fourth street"
-],
-[
-"River",
-"fifth street"
-],
-"Showdown"
-]
-},
-{
-"id": "xp-poker-variants",
-"tags": [
-"pastimes"
-],
-"text": "Name a variety (variant) of poker",
-"answers": [
-[
-"Texas Hold'em",
-"texas holdem",
-"holdem",
-"hold em"
-],
-[
-"Omaha",
-"pot limit omaha",
-"plo"
-],
-[
-"Seven-card Stud",
-"7 card stud",
-"seven card stud",
-"stud"
-],
-[
-"Five-card Draw",
-"5 card draw",
-"five card draw",
-"draw poker",
-"draw"
-],
-[
-"Five-card Stud",
-"5 card stud"
-],
-"Razz",
-"Badugi",
-"Pineapple",
-"Crazy Pineapple",
-"Chinese Poker",
-[
-"Open-face Chinese",
-"ofc",
-"open face chinese poker"
-],
-[
-"Three Card Poker",
-"3 card poker"
-],
-"Caribbean Stud",
-"Let It Ride",
-"Lowball",
-[
-"2-7 Triple Draw",
-"deuce to seven triple draw",
-"triple draw"
-],
-[
-"Omaha Hi-Lo",
-"omaha eight or better",
-"omaha 8"
-],
-[
-"Short Deck",
-"six plus hold'em",
-"6+ hold'em"
-],
-"Video Poker",
-"Courchevel",
-"Mississippi Stud",
-[
-"Big O",
-"five card omaha"
-]
-],
-"deep": true
-},
-{
-"id": "xp-mahjong-tiles",
-"tags": [
-"pastimes"
-],
-"text": "Name a type of tile in a standard mahjong set",
-"answers": [
-[
-"Bamboo",
-"bams",
-"sticks",
-"bamboos"
-],
-[
-"Dots",
-"circles",
-"coins",
-"pins",
-"dot"
-],
-[
-"Characters",
-"craks",
-"wan",
-"character"
-],
-[
-"East Wind",
-"east"
-],
-[
-"South Wind",
-"south"
-],
-[
-"West Wind",
-"west"
-],
-[
-"North Wind",
-"north"
-],
-[
-"Red Dragon",
-"chun"
-],
-[
-"Green Dragon",
-"hatsu",
-"fa"
-],
-[
-"White Dragon",
-"haku",
-"soap",
-"white"
-],
-[
-"Flower",
-"flowers"
-],
-[
-"Season",
-"seasons"
-],
-[
-"Wind",
-"winds"
-],
-[
-"Dragon",
-"dragons"
-]
-],
-"deep": true
-},
-{
-"id": "xp-lawn-games",
-"tags": [
-"pastimes"
-],
-"text": "Name a lawn or garden game",
-"answers": [
-"Croquet",
-[
-"Boules",
-"petanque",
-"pétanque"
-],
-[
-"Bowls",
-"lawn bowls"
-],
-"Quoits",
-"Aunt Sally",
-"Swingball",
-"Kubb",
-"Badminton",
-"French Cricket",
-"Rounders",
-"Cricket",
-"Frisbee",
-[
-"Cornhole",
-"bean bag toss"
-],
-"Giant Jenga",
-"Horseshoes",
-"Hoopla",
-"Tug of War",
-[
-"Egg and Spoon Race",
-"egg and spoon"
-],
-"Sack Race",
-[
-"Three-legged Race",
-"three legged race"
-],
-"Hide and Seek",
-"Skittles",
-"Finska",
-[
-"Mölkky",
-"molkky"
-],
-[
-"Lawn Darts",
-"jarts"
-],
-"Hopscotch",
-"Stoolball"
-]
-},
-{
-"id": "xp-puzzle-types",
-"tags": [
-"pastimes"
-],
-"text": "Name a type of puzzle or brain-teaser",
-"answers": [
-[
-"Crossword",
-"crosswords"
-],
-"Sudoku",
-[
-"Wordsearch",
-"word search"
-],
-[
-"Jigsaw",
-"jigsaw puzzle"
-],
-[
-"Rubik's Cube",
-"rubiks cube"
-],
-"Kakuro",
-"Codeword",
-[
-"Nonogram",
-"picross"
-],
-"Maze",
-"Cryptic Crossword",
-[
-"Logic Puzzle",
-"logic grid"
-],
-"Spot the Difference",
-"Futoshiki",
-"Killer Sudoku",
-"Wordle",
-"Connections",
-"Hangman",
-"Tangram",
-[
-"Sliding Puzzle",
-"sliding tile puzzle",
-"15 puzzle"
-],
-"Rebus",
-"Anagram",
-"Riddle",
-"Acrostic",
-"Cryptogram",
-"Word Ladder",
-"Tower of Hanoi",
-[
-"Fill-in",
-"fillword"
-],
-"Hitori",
-"Kenken",
-"Slitherlink"
-]
-},
-{
-"id": "xp-modern-board-games",
-"tags": [
-"pastimes"
-],
-"text": "Name a board or card game first published in 1990 or later",
-"answers": [
-[
-"Catan",
-"settlers of catan",
-"the settlers of catan"
-],
-"Ticket to Ride",
-"Carcassonne",
-"Pandemic",
-"Dominion",
-"Codenames",
-"Azul",
-"Wingspan",
-[
-"7 Wonders",
-"seven wonders"
-],
-"Splendor",
-"Dixit",
-"Agricola",
-"Terraforming Mars",
-"Gloomhaven",
-"Scythe",
-[
-"Betrayal at House on the Hill",
-"betrayal"
-],
-"Cranium",
-[
-"Dobble",
-"spot it"
-],
-"Exploding Kittens",
-"Cards Against Humanity",
-"Love Letter",
-"King of Tokyo",
-"Small World",
-"Takenoko",
-"Kingdomino",
-[
-"Sushi Go",
-"sushi go!"
-],
-"Hive",
-"Blokus",
-"Qwirkle",
-"Bananagrams",
-"Jungle Speed",
-"Munchkin",
-"Root",
-"Everdell",
-"Cascadia",
-"Forbidden Island",
-"Forbidden Desert",
-"Coup",
-[
-"The Resistance",
-"resistance"
-],
-"Just One",
-"Patchwork",
-"Jaipur",
-"Lords of Waterdeep",
-"Puerto Rico",
-[
-"Magic: The Gathering",
-"magic the gathering",
-"mtg"
-],
-"Arkham Horror",
-"Star Realms"
-]
-},
-{
-"id": "xp-apple-apps",
-"tags": [
-"tech"
-],
-"text": "Name an app that comes built in to an iPhone or Mac (as of 2025)",
-"answers": [
-"Safari",
-"Mail",
-[
-"Messages",
-"imessage"
-],
-"FaceTime",
-[
-"Maps",
-"apple maps"
-],
-"Photos",
-"Notes",
-"Reminders",
-"Calendar",
-[
-"Music",
-"apple music"
-],
-"Podcasts",
-[
-"TV",
-"apple tv"
-],
-[
-"Books",
-"apple books"
-],
-"Stocks",
-"Weather",
-"Clock",
-"Calculator",
-"Camera",
-"Wallet",
-"Health",
-"Home",
-"Shortcuts",
-"Files",
-"Contacts",
-"Voice Memos",
-"Measure",
-"Compass",
-"Translate",
-[
-"Find My",
-"find my iphone"
-],
-"Freeform",
-"Journal",
-"Fitness",
-"App Store",
-[
-"Settings",
-"system settings",
-"system preferences"
-],
-"Phone",
-[
-"News",
-"apple news"
-],
-"Tips",
-"Magnifier",
-"Passwords",
-"Preview",
-"TextEdit",
-"Terminal",
-"Stickies",
-"Chess",
-"Dictionary",
-"Photo Booth",
-"Time Machine",
-"Finder",
-"Siri",
-"Activity Monitor",
-"Disk Utility",
-[
-"QuickTime Player",
-"quicktime"
-],
-"Font Book",
-"Automator",
-"Keychain Access",
-"Image Capture",
-"Screenshot",
-"Console",
-[
-"Watch",
-"apple watch app"
-]
-]
-},
-{
-"id": "xp-file-extensions",
-"tags": [
-"tech"
-],
-"text": "Name a common computer file extension (the letters after the dot)",
-"answers": [
-"PDF",
-"DOCX",
-"DOC",
-[
-"JPG",
-"jpeg"
-],
-"PNG",
-"GIF",
-"MP3",
-"MP4",
-"EXE",
-"ZIP",
-"TXT",
-"XLSX",
-"XLS",
-"PPTX",
-"PPT",
-"CSV",
-"HTML",
-"HTM",
-"WAV",
-"MOV",
-"AVI",
-"RAR",
-"ISO",
-"DMG",
-"APK",
-"SVG",
-"JSON",
-"XML",
-"PY",
-"JS",
-"CSS",
-"BAT",
-"DLL",
-"MKV",
-"FLAC",
-"BMP",
-[
-"TIFF",
-"tif"
-],
-"WEBP",
-"HEIC",
-"RTF",
-"ODT",
-"7Z",
-"TAR",
-"GZ",
-"PHP",
-"SQL",
-"MD",
-"LOG",
-"INI",
-"SYS",
-"TMP",
-"PSD",
-"AI",
-"EPS",
-[
-"MID",
-"midi"
-],
-"AAC",
-"M4A",
-"OGG",
-"WMV",
-"FLV",
-"WEBM",
-"PKG",
-"MSI",
-"JAR",
-"JAVA",
-"CPP",
-"SWF",
-"EPUB",
-"MOBI",
-"TORRENT",
-"VCF",
-"ICS",
-"DAT",
-"BAK",
-"INDD",
-"DOCM",
-"ODS",
-"ODP",
-"PAGES",
-"NUMBERS",
-"KEY",
-"WMA",
-"3GP",
-[
-"RAW",
-"cr2"
-]
-]
-},
-{
-"id": "xp-malware",
-"tags": [
-"tech"
-],
-"text": "Name a famous computer virus, worm or piece of malware",
-"answers": [
-[
-"ILOVEYOU",
-"love bug",
-"love letter",
-"iloveyou virus"
-],
-"Melissa",
-[
-"WannaCry",
-"wannacrypt",
-"wanna cry"
-],
-"Stuxnet",
-[
-"Mydoom",
-"my doom"
-],
-"Code Red",
-[
-"Conficker",
-"downadup"
-],
-"Creeper",
-[
-"Morris Worm",
-"morris"
-],
-"Michelangelo",
-[
-"CIH",
-"chernobyl"
-],
-"Anna Kournikova",
-"CryptoLocker",
-[
-"Petya",
-"notpetya"
-],
-"Sasser",
-[
-"Blaster",
-"lovesan"
-],
-[
-"SQL Slammer",
-"slammer",
-"sapphire"
-],
-[
-"Zeus",
-"zbot"
-],
-[
-"Storm Worm",
-"storm"
-],
-"Nimda",
-"Mirai",
-"Klez",
-"Sobig",
-"Emotet",
-"Bagle",
-"Netsky",
-"Brain",
-[
-"Cabir",
-"caribe"
-],
-"Elk Cloner",
-[
-"Rabbit",
-"wabbit"
-],
-"Duqu",
-[
-"Flame",
-"skywiper"
-],
-"Pegasus",
-"LockBit",
-"Locky",
-"Dridex",
-"TrickBot",
-"Ryuk",
-"Shamoon",
-[
-"REvil",
-"sodinokibi"
-],
-[
-"BadRabbit",
-"bad rabbit"
-],
-"DarkSide",
-"Sality",
-[
-"Welchia",
-"nachi"
-],
-"Sober"
-]
-},
-{
-"id": "xp-ai-chatbots",
-"tags": [
-"tech"
-],
-"text": "Name an AI chatbot or digital assistant (as of 2025)",
-"answers": [
-[
-"ChatGPT",
-"chat gpt",
-"gpt",
-"openai"
-],
-[
-"Gemini",
-"google gemini"
-],
-[
-"Claude",
-"anthropic"
-],
-[
-"Copilot",
-"microsoft copilot"
-],
-"Siri",
-"Alexa",
-[
-"Google Assistant",
-"ok google",
-"hey google"
-],
-"Grok",
-"Perplexity",
-[
-"Llama",
-"meta llama"
-],
-[
-"DeepSeek",
-"deep seek"
-],
-"Meta AI",
-[
-"Bard",
-"google bard"
-],
-[
-"Bing Chat",
-"bing"
-],
-"Cortana",
-[
-"Le Chat",
-"mistral"
-],
-[
-"Character.AI",
-"character ai"
-],
-[
-"Pi",
-"inflection pi"
-],
-[
-"Ernie",
-"ernie bot",
-"wenxin"
-],
-"Qwen",
-"Kimi",
-"Replika",
-"Poe",
-"Jasper",
-"ELIZA",
-"Cleverbot",
-"Tay",
-"Bixby",
-[
-"My AI",
-"snapchat my ai"
-],
-"Alice",
-"Watson",
-"Clippy"
-]
-},
-{
-"id": "xp-streaming-services",
-"tags": [
-"tech"
-],
-"text": "Name a video or music streaming service available in the UK (past or present)",
-"answers": [
-"Netflix",
-[
-"Amazon Prime Video",
-"prime video",
-"amazon prime",
-"prime"
-],
-[
-"Disney+",
-"disney plus"
-],
-"Spotify",
-[
-"Apple TV+",
-"apple tv",
-"apple tv plus"
-],
-[
-"BBC iPlayer",
-"iplayer"
-],
-[
-"ITVX",
-"itv hub",
-"itv player",
-"itv"
-],
-[
-"All 4",
-"channel 4",
-"all4"
-],
-[
-"My5",
-"channel 5",
-"five"
-],
-[
-"NOW",
-"now tv",
-"sky now"
-],
-[
-"Paramount+",
-"paramount plus"
-],
-[
-"Discovery+",
-"discovery plus"
-],
-"BritBox",
-"YouTube",
-"YouTube Music",
-"Apple Music",
-"Amazon Music",
-"Deezer",
-"Tidal",
-"Crunchyroll",
-"Mubi",
-"Shudder",
-"Hayu",
-"Plex",
-"Twitch",
-"Pluto TV",
-"Tubi",
-"Freely",
-"STV Player",
-"Sky Go",
-"Lovefilm",
-"Blinkbox",
-"Rakuten TV",
-"BBC Sounds",
-"Napster",
-"SoundCloud",
-"Qobuz",
-"BFI Player",
-[
-"Curzon Home Cinema",
-"curzon"
-],
-"Now Music",
-"Sky Q",
-"Virgin TV Go",
-"Vimeo",
-"Dailymotion"
-]
-},
-{
-"id": "xp-smart-home",
-"tags": [
-"tech"
-],
-"text": "Name a smart-home brand or platform",
-"answers": [
-[
-"Amazon Echo",
-"echo",
-"alexa",
-"amazon alexa"
-],
-[
-"Google Nest",
-"nest",
-"google home",
-"google"
-],
-"Ring",
-"Hive",
-[
-"Philips Hue",
-"hue",
-"philips"
-],
-"Sonos",
-"Tado",
-"Arlo",
-"Wyze",
-[
-"Kasa",
-"tp-link",
-"tp link"
-],
-"Tapo",
-"Eufy",
-"Yale",
-"LIFX",
-[
-"IKEA Tradfri",
-"tradfri",
-"ikea"
-],
-[
-"SmartThings",
-"samsung smartthings"
-],
-"Netatmo",
-"Shelly",
-"Aqara",
-"Meross",
-"Nanoleaf",
-"Wemo",
-"Blink",
-"Ecobee",
-"Lutron",
-"Somfy",
-[
-"HomeKit",
-"apple homekit",
-"apple home"
-],
-"Honeywell",
-"Sensibo",
-"Heatmiser",
-"Drayton",
-"Salus",
-[
-"Roomba",
-"irobot"
-],
-"Dyson",
-"Withings",
-"Chamberlain",
-"Abode",
-"SimpliSafe",
-"Vivint",
-"Schlage",
-"August"
-]
-},
-{
-"id": "xp-video-calls",
-"tags": [
-"tech"
-],
-"text": "Name an app or service used for video calls (past or present)",
-"answers": [
-"Zoom",
-"Skype",
-[
-"Microsoft Teams",
-"teams"
-],
-"FaceTime",
-[
-"Google Meet",
-"meet"
-],
-"WhatsApp",
-[
-"Webex",
-"cisco webex"
-],
-[
-"Messenger",
-"facebook messenger"
-],
-"Discord",
-"Slack",
-"Jitsi",
-"GoToMeeting",
-"Houseparty",
-"Snapchat",
-"Viber",
-[
-"Google Duo",
-"duo"
-],
-[
-"Google Hangouts",
-"hangouts"
-],
-"BlueJeans",
-"Signal",
-"Telegram",
-"Instagram",
-"Google Chat",
-"Whereby",
-"Tango",
-"Lifesize",
-[
-"Join.me",
-"join me"
-],
-"ICQ",
-"Zoho Meeting",
-[
-"Amazon Chime",
-"chime"
-],
-"Tencent Meeting",
-"WeChat",
-"Line",
-"Kik"
-]
-},
-{
-"id": "xp-computer-makers",
-"tags": [
-"tech"
-],
-"text": "Name a computer manufacturer, past or present",
-"answers": [
-"Dell",
-[
-"HP",
-"hewlett packard",
-"hewlett-packard"
-],
-"Apple",
-"Lenovo",
-"Acer",
-"Asus",
-[
-"Microsoft",
-"surface"
-],
-"Samsung",
-"Toshiba",
-[
-"Sony",
-"vaio"
-],
-"Fujitsu",
-"Packard Bell",
-"Compaq",
-"Gateway",
-"Alienware",
-"Razer",
-"MSI",
-"Gigabyte",
-"LG",
-"Huawei",
-"Medion",
-"Evesham",
-"Sinclair",
-"Acorn",
-"Amstrad",
-"Commodore",
-"Atari",
-"Tandy",
-"Dragon",
-"Oric",
-"Elonex",
-"Tiny",
-[
-"Advent",
-"dixons advent"
-],
-"Viglen",
-"IBM",
-"Olivetti",
-"Apricot",
-[
-"Research Machines",
-"rm"
-],
-[
-"Sun Microsystems",
-"sun"
-],
-[
-"Silicon Graphics",
-"sgi"
-],
-"NEC",
-"Panasonic",
-"Xiaomi",
-"System76",
-"Framework",
-"PC Specialist",
-"Hitachi",
-"Zenith",
-[
-"Digital Equipment Corporation",
-"dec"
-],
-"Cray",
-"Osborne",
-"Texas Instruments",
-"Honor"
-]
-},
-{
-"id": "xp-eighties-home-computers",
-"tags": [
-"tech"
-],
-"text": "Name a home computer sold in the UK in the 1980s",
-"answers": [
-[
-"ZX Spectrum",
-"spectrum",
-"sinclair spectrum"
-],
-[
-"Commodore 64",
-"c64"
-],
-[
-"BBC Micro",
-"bbc"
-],
-[
-"Amstrad CPC",
-"cpc"
-],
-"ZX81",
-"ZX80",
-[
-"Acorn Electron",
-"electron"
-],
-[
-"Dragon 32",
-"dragon"
-],
-[
-"Oric-1",
-"oric"
-],
-[
-"Atari 800XL",
-"atari 800",
-"atari 8-bit"
-],
-"Atari ST",
-[
-"Amiga",
-"commodore amiga",
-"amiga 500"
-],
-[
-"VIC-20",
-"vic20"
-],
-"MSX",
-"Apple II",
-[
-"Macintosh",
-"mac"
-],
-[
-"Commodore 16",
-"c16"
-],
-[
-"Commodore Plus/4",
-"plus 4"
-],
-[
-"Sam Coupe",
-"sam coupé"
-],
-"Jupiter Ace",
-[
-"Memotech MTX",
-"memotech"
-],
-[
-"Tatung Einstein",
-"einstein"
-],
-[
-"Camputers Lynx",
-"lynx"
-],
-"TRS-80",
-"IBM PC",
-[
-"Amstrad PCW",
-"pcw"
-],
-[
-"Acorn Archimedes",
-"archimedes"
-],
-[
-"Sinclair QL",
-"ql"
-],
-[
-"TI-99/4A",
-"ti99"
-],
-[
-"Enterprise 64",
-"enterprise"
-],
-[
-"Acorn Atom",
-"atom"
-],
-[
-"Commodore 128",
-"c128"
-],
-"Amstrad PC1512",
-"Apricot",
-"Sord M5",
-"Spectravideo",
-"Tandy Color Computer"
-]
-},
-{
-"id": "xp-unix-commands",
-"tags": [
-"tech"
-],
-"text": "Name a Linux or Unix terminal command",
-"answers": [
-"ls",
-"cd",
-"pwd",
-"cp",
-"mv",
-"rm",
-"mkdir",
-"rmdir",
-"cat",
-"grep",
-"sudo",
-"chmod",
-"chown",
-"ping",
-"man",
-"touch",
-"echo",
-"find",
-"head",
-"tail",
-"sort",
-"kill",
-"ps",
-"top",
-"df",
-"du",
-"tar",
-"ssh",
-"curl",
-"wget",
-"nano",
-"vim",
-"less",
-"awk",
-"sed",
-"which",
-"whoami",
-"clear",
-"history",
-"diff",
-"wc",
-"ln",
-"apt",
-"ifconfig",
-"scp",
-"uname",
-"date",
-"cal",
-"exit",
-"passwd",
-"uniq",
-"cut",
-"tee",
-"xargs",
-"mount",
-"reboot",
-"shutdown"
-],
-"deep": true
-},
-{
-"id": "xp-chip-companies",
-"tags": [
-"tech"
-],
-"text": "Name a company that designs or makes computer processors or chips",
-"answers": [
-"Intel",
-"AMD",
-"Nvidia",
-"Qualcomm",
-"Apple",
-"Samsung",
-"ARM",
-"MediaTek",
-"TSMC",
-"IBM",
-"Motorola",
-"Broadcom",
-"Texas Instruments",
-"Micron",
-[
-"SK Hynix",
-"hynix"
-],
-"Cyrix",
-"Zilog",
-"MOS Technology",
-"GlobalFoundries",
-"Marvell",
-"NXP",
-"Infineon",
-[
-"STMicroelectronics",
-"st micro"
-],
-"Fairchild",
-[
-"HiSilicon",
-"huawei"
-],
-"Google",
-"National Semiconductor",
-"Acorn",
-"Via",
-"Analog Devices",
-"Renesas",
-"Toshiba",
-"Sun Microsystems",
-"Transmeta",
-"Ampere",
-"Graphcore",
-[
-"Imagination Technologies",
-"imagination"
-],
-"Cerebras"
-],
-"deep": true
-},
-{
-"id": "xp-cryptocurrencies",
-"tags": [
-"tech"
-],
-"text": "Name a cryptocurrency or crypto token",
-"answers": [
-[
-"Bitcoin",
-"btc"
-],
-[
-"Ethereum",
-"ether",
-"eth"
-],
-[
-"Dogecoin",
-"doge"
-],
-[
-"Litecoin",
-"ltc"
-],
-[
-"XRP",
-"ripple"
-],
-[
-"Solana",
-"sol"
-],
-[
-"Cardano",
-"ada"
-],
-[
-"Tether",
-"usdt"
-],
-[
-"BNB",
-"binance coin"
-],
-[
-"Polkadot",
-"dot"
-],
-[
-"Monero",
-"xmr"
-],
-[
-"Shiba Inu",
-"shib"
-],
-[
-"USD Coin",
-"usdc"
-],
-[
-"TRON",
-"trx"
-],
-[
-"Avalanche",
-"avax"
-],
-[
-"Chainlink",
-"link"
-],
-[
-"Stellar",
-"xlm"
-],
-[
-"Bitcoin Cash",
-"bch"
-],
-[
-"Toncoin",
-"ton"
-],
-[
-"Polygon",
-"matic"
-],
-"Zcash",
-"Dash",
-"Ethereum Classic",
-[
-"Cosmos",
-"atom"
-],
-"Uniswap",
-"Pepe",
-"Dai",
-"Algorand",
-"Tezos",
-"Filecoin",
-"Aave"
-]
-},
-{
-"id": "xp-perfume-brands",
-"tags": [
-"style"
-],
-"text": "Name a perfume or fragrance brand",
-"answers": [
-"Chanel",
-[
-"Dior",
-"christian dior"
-],
-[
-"Yves Saint Laurent",
-"ysl",
-"saint laurent"
-],
-"Guerlain",
-[
-"Jo Malone",
-"jo malone london"
-],
-"Creed",
-"Tom Ford",
-[
-"Calvin Klein",
-"ck"
-],
-[
-"Hugo Boss",
-"boss"
-],
-[
-"Giorgio Armani",
-"armani"
-],
-[
-"Paco Rabanne",
-"rabanne"
-],
-[
-"Jean Paul Gaultier",
-"gaultier",
-"jpg"
-],
-[
-"Lancôme",
-"lancome"
-],
-[
-"Estée Lauder",
-"estee lauder"
-],
-"Burberry",
-"Versace",
-[
-"Dolce & Gabbana",
-"dolce and gabbana",
-"d&g",
-"dolce gabbana"
-],
-"Givenchy",
-[
-"Hermès",
-"hermes"
-],
-[
-"Penhaligon's",
-"penhaligons"
-],
-"Floris",
-"Diptyque",
-"Le Labo",
-"Byredo",
-[
-"Maison Margiela",
-"margiela"
-],
-"Marc Jacobs",
-[
-"Mugler",
-"thierry mugler"
-],
-"Davidoff",
-"Issey Miyake",
-"Clinique",
-"Gucci",
-"Prada",
-[
-"Bulgari",
-"bvlgari"
-],
-"Cartier",
-"Ralph Lauren",
-"Elizabeth Arden",
-"Jimmy Choo",
-[
-"Viktor & Rolf",
-"viktor and rolf"
-],
-"Nina Ricci",
-"Carolina Herrera",
-"Narciso Rodriguez",
-"Lalique",
-"Acqua di Parma",
-"Molton Brown",
-"Moschino",
-"Kenzo",
-"Azzaro",
-"Montblanc",
-[
-"Chloé",
-"chloe"
-],
-"Lacoste",
-"Lynx"
-]
-},
-{
-"id": "xp-sunglasses-brands",
-"tags": [
-"style"
-],
-"text": "Name a brand of sunglasses",
-"answers": [
-[
-"Ray-Ban",
-"rayban",
-"ray ban"
-],
-"Oakley",
-"Persol",
-"Maui Jim",
-"Police",
-"Carrera",
-"Prada",
-"Gucci",
-"Tom Ford",
-"Oliver Peoples",
-"Costa",
-[
-"Bollé",
-"bolle"
-],
-"Dior",
-"Cartier",
-"Versace",
-"Fendi",
-[
-"Vogue Eyewear",
-"vogue"
-],
-[
-"Armani",
-"emporio armani",
-"giorgio armani"
-],
-[
-"Dolce & Gabbana",
-"dolce and gabbana",
-"d&g"
-],
-"Ralph Lauren",
-"Michael Kors",
-[
-"Cutler and Gross",
-"cutler & gross"
-],
-"Moscot",
-"Warby Parker",
-"Mykita",
-"Arnette",
-"Serengeti",
-[
-"Smith",
-"smith optics"
-],
-"Spy",
-"Gargoyles",
-"Lindberg",
-"Burberry",
-"Chanel",
-[
-"Saint Laurent",
-"ysl"
-],
-"Celine",
-"Balenciaga",
-"Silhouette",
-"Julbo",
-"Revo",
-"Randolph",
-"Quay",
-"Le Specs",
-"Garrett Leight",
-"Linda Farrow",
-"Lacoste",
-"Hawkers",
-"Polaroid",
-[
-"Ic! Berlin",
-"ic berlin"
-]
-]
-},
-{
-"id": "xp-handbag-brands",
-"tags": [
-"style"
-],
-"text": "Name a handbag brand",
-"answers": [
-[
-"Louis Vuitton",
-"vuitton"
-],
-"Gucci",
-"Prada",
-"Chanel",
-[
-"Hermès",
-"hermes"
-],
-"Fendi",
-"Mulberry",
-"Coach",
-"Michael Kors",
-"Kate Spade",
-"Radley",
-"Longchamp",
-"Balenciaga",
-"Burberry",
-"Dior",
-"Celine",
-"Bottega Veneta",
-"Loewe",
-"Kipling",
-"Lulu Guinness",
-"Cath Kidston",
-"Furla",
-"Tory Burch",
-"Marc Jacobs",
-"Jimmy Choo",
-"Anya Hindmarch",
-"Strathberry",
-[
-"Cambridge Satchel Company",
-"cambridge satchel"
-],
-"Fossil",
-"Tumi",
-[
-"Saint Laurent",
-"ysl"
-],
-"Valentino",
-"Miu Miu",
-"Givenchy",
-[
-"Tod's",
-"tods"
-],
-[
-"Ferragamo",
-"salvatore ferragamo"
-],
-"MCM",
-"Goyard",
-"Delvaux",
-[
-"Aspinal of London",
-"aspinal"
-],
-"Ted Baker",
-"Guess",
-[
-"Chloé",
-"chloe"
-],
-"Fiorelli",
-[
-"Osprey London",
-"osprey"
-],
-"Mansur Gavriel",
-"Telfar",
-"Bally",
-"Lancel"
-]
-},
-{
-"id": "xp-jewellery-brands",
-"tags": [
-"style"
-],
-"text": "Name a jewellery brand",
-"answers": [
-"Pandora",
-[
-"Tiffany & Co.",
-"tiffany",
-"tiffany and co"
-],
-"Cartier",
-"Swarovski",
-[
-"Bulgari",
-"bvlgari"
-],
-[
-"Van Cleef & Arpels",
-"van cleef"
-],
-"Harry Winston",
-"Graff",
-"Boodles",
-[
-"Mappin & Webb",
-"mappin and webb"
-],
-"Goldsmiths",
-"Ernest Jones",
-[
-"H. Samuel",
-"h samuel",
-"samuels"
-],
-"Beaverbrooks",
-"Monica Vinader",
-"Links of London",
-"Thomas Sabo",
-"Chopard",
-"David Yurman",
-"Pomellato",
-"Boucheron",
-"Piaget",
-"Garrard",
-"Asprey",
-"Theo Fennell",
-"Astley Clarke",
-"Missoma",
-[
-"Claire's",
-"claires"
-],
-"Accessorize",
-"Trollbeads",
-[
-"Fabergé",
-"faberge"
-],
-"Mikimoto",
-"Buccellati",
-"Lola Rose",
-"Olivia Burton",
-"Daisy London",
-"Orelia",
-"Kit Heath",
-"Clogau",
-[
-"Joma Jewellery",
-"joma"
-],
-"Argento",
-"Tous",
-"Dinny Hall",
-"Annoushka"
-]
-},
-{
-"id": "xp-tattoo-styles",
-"tags": [
-"style"
-],
-"text": "Name a tattoo style",
-"answers": [
-[
-"Traditional",
-"american traditional",
-"old school"
-],
-[
-"Neo-traditional",
-"neo traditional"
-],
-[
-"Japanese",
-"irezumi"
-],
-[
-"Realism",
-"realistic"
-],
-"Blackwork",
-[
-"Dotwork",
-"stippling"
-],
-[
-"Watercolour",
-"watercolor"
-],
-"Tribal",
-"Geometric",
-[
-"Minimalist",
-"fine line",
-"fineline"
-],
-"Portrait",
-"Biomechanical",
-"Trash Polka",
-"New School",
-"Illustrative",
-[
-"Lettering",
-"script"
-],
-"Chicano",
-"Celtic",
-[
-"Maori",
-"ta moko",
-"moko"
-],
-[
-"Sketch",
-"sketch style"
-],
-"Surrealism",
-"Polynesian",
-"Ornamental",
-[
-"Black and Grey",
-"black & grey",
-"black and gray"
-],
-"Cartoon",
-"Pointillism",
-"Mandala",
-"Floral",
-"Abstract",
-[
-"Cover-up",
-"cover up"
-],
-"Sailor Jerry",
-"Anime",
-[
-"Linework",
-"line work"
-]
-],
-"deep": true
-},
-{
-"id": "xp-nail-shapes",
-"tags": [
-"style"
-],
-"text": "Name a nail shape",
-"answers": [
-"Square",
-"Round",
-"Oval",
-"Almond",
-[
-"Stiletto",
-"pointed",
-"pointy"
-],
-[
-"Coffin",
-"ballerina"
-],
-"Squoval",
-"Lipstick",
-"Edge",
-[
-"Mountain Peak",
-"mountain"
-],
-"Flare",
-[
-"Duck",
-"duck feet"
-]
-],
-"deep": true
-},
-{
-"id": "xp-tie-styles",
-"tags": [
-"style"
-],
-"text": "Name a style of tie or formal neckwear",
-"answers": [
-[
-"Necktie",
-"tie",
-"long tie",
-"four-in-hand"
-],
-[
-"Bow Tie",
-"bowtie",
-"dickie bow",
-"dicky bow",
-"bow"
-],
-"Cravat",
-[
-"Ascot",
-"ascot tie"
-],
-[
-"Bolo Tie",
-"bolo",
-"bootlace tie",
-"string tie",
-"western tie"
-],
-[
-"Kipper Tie",
-"kipper"
-],
-[
-"Skinny Tie",
-"skinny"
-],
-[
-"Clip-on Tie",
-"clip on",
-"clip-on"
-],
-[
-"Knit Tie",
-"knitted tie"
-],
-[
-"Regimental Tie",
-"regimental"
-],
-[
-"Club Tie",
-"club"
-],
-[
-"School Tie",
-"old school tie",
-"school"
-],
-"Stock",
-"Jabot",
-"Neckerchief"
-]
-},
-{
-"id": "xp-british-designers",
-"tags": [
-"style"
-],
-"text": "Name a British fashion designer",
-"answers": [
-[
-"Vivienne Westwood",
-"westwood"
-],
-[
-"Alexander McQueen",
-"mcqueen"
-],
-"Stella McCartney",
-"Paul Smith",
-[
-"Mary Quant",
-"quant"
-],
-"Victoria Beckham",
-"Matthew Williamson",
-[
-"Jasper Conran",
-"conran"
-],
-"Zandra Rhodes",
-[
-"John Galliano",
-"galliano"
-],
-[
-"Hardy Amies",
-"amies"
-],
-[
-"Norman Hartnell",
-"hartnell"
-],
-"Ossie Clark",
-"Betty Jackson",
-"Margaret Howell",
-[
-"Jonathan Anderson",
-"jw anderson"
-],
-"Christopher Kane",
-"Molly Goddard",
-[
-"Grace Wales Bonner",
-"wales bonner"
-],
-"Richard Quinn",
-"Jenny Packham",
-"Julien Macdonald",
-"Bruce Oldfield",
-[
-"Katharine Hamnett",
-"hamnett"
-],
-"Giles Deacon",
-[
-"Phoebe Philo",
-"philo"
-],
-[
-"Hussein Chalayan",
-"chalayan"
-],
-"Gareth Pugh",
-"Sarah Burton",
-[
-"Christopher Bailey",
-"bailey"
-],
-"Jean Muir",
-"Bella Freud",
-[
-"Barbara Hulanicki",
-"biba"
-],
-"Laura Ashley",
-[
-"Thomas Burberry",
-"burberry"
-],
-"Anya Hindmarch",
-"Tommy Nutter",
-"Ozwald Boateng",
-[
-"Alice Temperley",
-"temperley"
-],
-"Henry Holland",
-"Lulu Guinness",
-"Holly Fulton",
-"Nicholas Kirkwood",
-[
-"Charles Frederick Worth",
-"worth"
-],
-[
-"Lucile",
-"lady duff gordon"
-],
-"Jimmy Choo",
-"Mulberry"
-],
-"deep": true
-},
-{
-"id": "xp-skincare-brands",
-"tags": [
-"style"
-],
-"text": "Name a skincare or beauty-care brand sold in the UK",
-"answers": [
-"Nivea",
-"Dove",
-"Olay",
-"Simple",
-"Garnier",
-[
-"L'Oréal",
-"loreal",
-"l'oreal"
-],
-"Neutrogena",
-"Clinique",
-"Lush",
-[
-"The Body Shop",
-"body shop"
-],
-[
-"La Roche-Posay",
-"la roche posay"
-],
-"CeraVe",
-[
-"The Ordinary",
-"ordinary"
-],
-"Elemis",
-"Liz Earle",
-[
-"No7",
-"no 7",
-"boots no7"
-],
-[
-"Soap & Glory",
-"soap and glory"
-],
-"Aveeno",
-"Vaseline",
-[
-"Pond's",
-"ponds"
-],
-"Clarins",
-[
-"Estée Lauder",
-"estee lauder"
-],
-"Aesop",
-[
-"Kiehl's",
-"kiehls"
-],
-"Origins",
-"Glossier",
-"Cetaphil",
-"Eucerin",
-[
-"Avène",
-"avene"
-],
-"Bioderma",
-[
-"La Mer",
-"creme de la mer"
-],
-"Medik8",
-[
-"Paula's Choice",
-"paulas choice"
-],
-"Pixi",
-[
-"Decléor",
-"decleor"
-],
-"Nuxe",
-"Weleda",
-"Rodial",
-[
-"Sanctuary Spa",
-"sanctuary"
-],
-"Sudocrem",
-[
-"Johnson's",
-"johnsons"
-],
-"E45",
-"Palmer's",
-[
-"Bio-Oil",
-"bio oil"
-],
-"Dermalogica",
-"Drunk Elephant",
-"Sunday Riley",
-"Murad",
-[
-"Lancôme",
-"lancome"
-],
-"Dior",
-[
-"Ren",
-"ren clean skincare"
-],
-[
-"Neal's Yard Remedies",
-"neals yard"
-],
-[
-"Nip+Fab",
-"nip and fab"
-]
-]
-},
-{
-"id": "xp-lingerie-brands",
-"tags": [
-"style"
-],
-"text": "Name a lingerie or underwear brand",
-"answers": [
-[
-"Marks & Spencer",
-"marks and spencer",
-"m&s"
-],
-"Calvin Klein",
-"Ann Summers",
-[
-"Victoria's Secret",
-"victorias secret"
-],
-"Agent Provocateur",
-"Gossard",
-"Triumph",
-"Playtex",
-"Wonderbra",
-"Bluebella",
-"Boux Avenue",
-"Panache",
-"Freya",
-"Curvy Kate",
-"Sloggi",
-"Jockey",
-"Hanro",
-"La Perla",
-"Bravissimo",
-"Spanx",
-"Intimissimi",
-[
-"Hunkemöller",
-"hunkemoller"
-],
-"Savage X Fenty",
-"Skims",
-"Maidenform",
-"Berlei",
-"Warners",
-"Lovable",
-"Charnos",
-"Pretty Polly",
-"Sock Shop",
-"Bonds",
-"Emporio Armani",
-"Lise Charmel",
-"Fantasie",
-"Elomi",
-"Chantelle",
-"Aubade",
-"Simone Perele",
-"Wacoal",
-"Lepel",
-[
-"Rigby & Peller",
-"rigby and peller"
-]
-]
-},
-{
-"id": "xp-jeans-brands",
-"tags": [
-"style"
-],
-"text": "Name a brand of jeans",
-"answers": [
-[
-"Levi's",
-"levis",
-"levi"
-],
-"Wrangler",
-"Lee",
-"Diesel",
-"Replay",
-[
-"G-Star RAW",
-"g-star",
-"gstar"
-],
-[
-"Pepe Jeans",
-"pepe"
-],
-[
-"Jack & Jones",
-"jack and jones"
-],
-"True Religion",
-"Guess",
-"Hudson",
-"Nudie",
-"Gap",
-"Calvin Klein",
-[
-"Armani Jeans",
-"armani"
-],
-"Evisu",
-"Edwin",
-"Lois",
-"Big Star",
-"Mustang",
-"Salsa",
-"Fiorucci",
-"Chipie",
-"Lee Cooper",
-"Falmer",
-"Gloria Vanderbilt",
-[
-"Joe's Jeans",
-"joes"
-],
-[
-"7 For All Mankind",
-"seven for all mankind"
-],
-"AG",
-"Citizens of Humanity",
-"Paige",
-[
-"Rag & Bone",
-"rag and bone"
-],
-"Frame",
-"Mavi",
-"Hollister",
-[
-"Abercrombie & Fitch",
-"abercrombie"
-],
-"Tommy Hilfiger",
-"Ralph Lauren",
-"Superdry",
-"Miss Sixty",
-"Energie",
-"Killah",
-"Bench"
-]
-},
-{
-"id": "xp-glasses-shapes",
-"tags": [
-"style"
-],
-"text": "Name a style or shape of glasses frame",
-"answers": [
-[
-"Aviator",
-"aviators"
-],
-[
-"Wayfarer",
-"wayfarers"
-],
-"Round",
-[
-"Cat-eye",
-"cat eye",
-"cateye"
-],
-[
-"Browline",
-"clubmaster",
-"clubmasters"
-],
-"Oversized",
-[
-"Rectangle",
-"rectangular"
-],
-"Square",
-"Shield",
-[
-"Wraparound",
-"wrap"
-],
-"Butterfly",
-"Geometric",
-[
-"Hexagonal",
-"hexagon"
-],
-"Pilot",
-"Navigator",
-"Sport",
-[
-"Half-rim",
-"half rim",
-"semi-rimless"
-],
-"Rimless",
-"Oval",
-[
-"Panto",
-"pantos"
-],
-[
-"Heart-shaped",
-"heart shaped"
-],
-"Pillow",
-[
-"Octagonal",
-"octagon"
-],
-"Keyhole",
-"P3"
-]
-},
-{
-"id": "xp-welsh-castles",
-"tags": [
-"culture"
-],
-"text": "Name a castle in Wales",
-"answers": [
-[
-"Cardiff",
-"Cardiff castle"
-],
-[
-"Caernarfon",
-"caernarvon",
-"Caernarfon castle"
-],
-[
-"Conwy",
-"conway",
-"Conwy castle"
-],
-[
-"Harlech",
-"Harlech castle"
-],
-[
-"Beaumaris",
-"Beaumaris castle"
-],
-[
-"Caerphilly",
-"Caerphilly castle"
-],
-[
-"Pembroke",
-"Pembroke castle"
-],
-[
-"Chepstow",
-"Chepstow castle"
-],
-[
-"Raglan",
-"Raglan castle"
-],
-[
-"Powis",
-"Powis castle"
-],
-[
-"Carreg Cennen",
-"Carreg Cennen castle"
-],
-[
-"Kidwelly",
-"Kidwelly castle"
-],
-[
-"Criccieth",
-"Criccieth castle"
-],
-[
-"Rhuddlan",
-"Rhuddlan castle"
-],
-[
-"Flint",
-"Flint castle"
-],
-[
-"Denbigh",
-"Denbigh castle"
-],
-[
-"Dolbadarn",
-"Dolbadarn castle"
-],
-[
-"Dolwyddelan",
-"Dolwyddelan castle"
-],
-[
-"Castell Coch",
-"Castell Coch castle"
-],
-[
-"Penrhyn",
-"Penrhyn castle"
-],
-[
-"Gwydir",
-"Gwydir castle"
-],
-[
-"Manorbier",
-"Manorbier castle"
-],
-[
-"Carew",
-"Carew castle"
-],
-[
-"Laugharne",
-"Laugharne castle"
-],
-[
-"Oystermouth",
-"Oystermouth castle"
-],
-[
-"Skenfrith",
-"Skenfrith castle"
-],
-[
-"Grosmont",
-"Grosmont castle"
-],
-[
-"White Castle",
-"White Castle castle"
-],
-[
-"Montgomery",
-"Montgomery castle"
-],
-[
-"Chirk",
-"Chirk castle"
-],
-[
-"Ogmore",
-"Ogmore castle"
-],
-[
-"Dinefwr",
-"Dinefwr castle"
-],
-[
-"Llansteffan",
-"Llansteffan castle"
-],
-[
-"Cilgerran",
-"Cilgerran castle"
-],
-[
-"Picton",
-"Picton castle"
-],
-[
-"Tretower",
-"Tretower castle"
-],
-[
-"Brecon",
-"Brecon castle"
-],
-[
-"Ewloe",
-"Ewloe castle"
-],
-[
-"Swansea",
-"Swansea castle"
-],
-[
-"Newport",
-"Newport castle"
-],
-[
-"St Donat's",
-"st donats",
-"st donat",
-"St Donat's castle"
-],
-[
-"Ruthin",
-"Ruthin castle"
-],
-[
-"Aberystwyth",
-"Aberystwyth castle"
-],
-[
-"Abergavenny",
-"Abergavenny castle"
-],
-[
-"Usk",
-"Usk castle"
-],
-[
-"Dryslwyn",
-"Dryslwyn castle"
-],
-[
-"Coity",
-"Coity castle"
-],
-[
-"Hawarden",
-"Hawarden castle"
-],
-[
-"Bronllys",
-"Bronllys castle"
-],
-[
-"Weobley",
-"Weobley castle"
-],
-[
-"Penhow",
-"Penhow castle"
-],
-[
-"Candleston",
-"Candleston castle"
-]
-]
-},
-{
-"id": "xp-scottish-castles",
-"tags": [
-"culture"
-],
-"text": "Name a castle in Scotland",
-"answers": [
-[
-"Edinburgh",
-"Edinburgh castle"
-],
-[
-"Stirling",
-"Stirling castle"
-],
-[
-"Urquhart",
-"Urquhart castle"
-],
-[
-"Eilean Donan",
-"Eilean Donan castle"
-],
-[
-"Balmoral",
-"Balmoral castle"
-],
-[
-"Glamis",
-"Glamis castle"
-],
-[
-"Cawdor",
-"Cawdor castle"
-],
-[
-"Inveraray",
-"Inveraray castle"
-],
-[
-"Dunnottar",
-"Dunnottar castle"
-],
-[
-"Culzean",
-"Culzean castle"
-],
-[
-"Craigievar",
-"Craigievar castle"
-],
-[
-"Blair",
-"Blair castle"
-],
-[
-"Caerlaverock",
-"Caerlaverock castle"
-],
-[
-"Dunrobin",
-"Dunrobin castle"
-],
-[
-"Fyvie",
-"Fyvie castle"
-],
-[
-"Kilchurn",
-"Kilchurn castle"
-],
-[
-"Doune",
-"Doune castle"
-],
-[
-"Tantallon",
-"Tantallon castle"
-],
-[
-"Dunvegan",
-"Dunvegan castle"
-],
-[
-"Crathes",
-"Crathes castle"
-],
-[
-"Brodick",
-"Brodick castle"
-],
-[
-"Craigmillar",
-"Craigmillar castle"
-],
-[
-"Threave",
-"Threave castle"
-],
-[
-"Duart",
-"Duart castle"
-],
-[
-"Campbell",
-"castle campbell",
-"Campbell castle"
-],
-[
-"Dunstaffnage",
-"Dunstaffnage castle"
-],
-[
-"Bothwell",
-"Bothwell castle"
-],
-[
-"Kisimul",
-"Kisimul castle"
-],
-[
-"Fraser",
-"castle fraser",
-"Fraser castle"
-],
-[
-"Floors",
-"Floors castle"
-],
-[
-"Huntly",
-"Huntly castle"
-],
-[
-"Slains",
-"Slains castle"
-],
-[
-"Skibo",
-"Skibo castle"
-],
-[
-"Ballindalloch",
-"Ballindalloch castle"
-],
-[
-"Drum",
-"Drum castle"
-],
-[
-"Kildrummy",
-"Kildrummy castle"
-],
-[
-"Mingary",
-"Mingary castle"
-],
-[
-"Rothesay",
-"Rothesay castle"
-],
-[
-"Dumbarton",
-"Dumbarton castle"
-],
-[
-"Dirleton",
-"Dirleton castle"
-],
-[
-"Hermitage",
-"Hermitage castle"
-],
-[
-"Lochleven",
-"Lochleven castle"
-],
-[
-"Tioram",
-"Tioram castle"
-],
-[
-"Braemar",
-"Braemar castle"
-],
-[
-"Brodie",
-"Brodie castle"
-],
-[
-"Stalker",
-"castle stalker",
-"Stalker castle"
-]
-]
-},
-{
-"id": "xp-wedding-roles",
-"tags": [
-"culture"
-],
-"text": "Name a person with a traditional role at a wedding",
-"answers": [
-"Bride",
-[
-"Groom",
-"bridegroom"
-],
-"Best Man",
-"Bridesmaid",
-[
-"Maid of Honour",
-"maid of honor",
-"chief bridesmaid"
-],
-"Usher",
-[
-"Groomsman",
-"groomsmen"
-],
-"Flower Girl",
-[
-"Page Boy",
-"pageboy"
-],
-[
-"Father of the Bride",
-"bride's father"
-],
-[
-"Mother of the Bride",
-"bride's mother"
-],
-"Registrar",
-[
-"Vicar",
-"priest",
-"minister",
-"celebrant",
-"officiant"
-],
-"Witness",
-"Ring Bearer",
-[
-"Toastmaster",
-"master of ceremonies",
-"mc"
-],
-"Photographer",
-[
-"Matron of Honour",
-"matron of honor"
-],
-"Best Woman",
-[
-"Father of the Groom",
-"groom's father"
-],
-[
-"Mother of the Groom",
-"groom's mother"
-],
-"Wedding Planner",
-"Videographer",
-"Organist",
-"DJ",
-"Florist",
-"Wedding Singer"
-]
-},
-{
-"id": "xp-uk-tv-channels",
-"tags": [
-"culture"
-],
-"text": "Name a UK TV channel (as of 2025)",
-"answers": [
-[
-"BBC One",
-"bbc 1",
-"bbc1"
-],
-[
-"BBC Two",
-"bbc 2",
-"bbc2"
-],
-[
-"ITV1",
-"itv",
-"itv 1"
-],
-"Channel 4",
-[
-"Channel 5",
-"five"
-],
-"ITV2",
-"ITV3",
-"ITV4",
-"ITVBe",
-[
-"BBC Three",
-"bbc 3",
-"bbc3"
-],
-[
-"BBC Four",
-"bbc 4",
-"bbc4"
-],
-"E4",
-[
-"More4",
-"more 4"
-],
-[
-"Film4",
-"film 4"
-],
-"Dave",
-"Gold",
-"Yesterday",
-"Drama",
-"W",
-"Really",
-"Quest",
-"Sky One",
-"Sky Atlantic",
-"Sky Showcase",
-"Sky Witness",
-"Sky Arts",
-"Sky News",
-"BBC News",
-"GB News",
-"Challenge",
-"Comedy Central",
-"CBBC",
-"CBeebies",
-"S4C",
-[
-"BBC Alba",
-"alba"
-],
-"STV",
-"BBC Parliament",
-"Pick",
-"Alibi",
-"MTV",
-[
-"Nickelodeon",
-"nick"
-],
-"Cartoon Network",
-"Disney Channel",
-"Sky Sports",
-"TNT Sports",
-"Eurosport",
-"Premier Sports",
-"Discovery",
-"History",
-[
-"National Geographic",
-"nat geo"
-],
-"Good Food",
-"Paramount Network",
-"Sky Max",
-"E!",
-[
-"5Star",
-"5 star",
-"five star"
-],
-[
-"5USA",
-"5 usa",
-"five usa"
-],
-"Horror Channel",
-"Great!",
-[
-"Talking Pictures TV",
-"talking pictures"
-],
-"Sky Crime",
-"Sky Comedy",
-"Sky Documentaries",
-"Sky Nature",
-"Sky History",
-"Sky Mix",
-"Sky Cinema",
-"Blaze",
-"Sony Movies",
-"Food Network",
-"BBC Scotland"
-]
-},
-{
-"id": "xp-radio1-breakfast",
-"tags": [
-"culture"
-],
-"text": "Name a presenter of the Radio 1 Breakfast Show (1967 to 2025)",
-"answers": [
-[
-"Tony Blackburn",
-"blackburn"
-],
-[
-"Noel Edmonds",
-"edmonds"
-],
-[
-"Dave Lee Travis",
-"dlt",
-"travis"
-],
-[
-"Mike Read",
-"read"
-],
-[
-"Mike Smith",
-"smith"
-],
-[
-"Simon Mayo",
-"mayo"
-],
-[
-"Mark Goodier",
-"goodier"
-],
-[
-"Steve Wright",
-"wright"
-],
-[
-"Chris Evans",
-"evans"
-],
-[
-"Mark Radcliffe",
-"radcliffe"
-],
-[
-"Marc Riley",
-"riley"
-],
-[
-"Zoe Ball",
-"ball"
-],
-[
-"Kevin Greening",
-"greening"
-],
-[
-"Sara Cox",
-"cox"
-],
-[
-"Chris Moyles",
-"moyles"
-],
-[
-"Nick Grimshaw",
-"grimmy",
-"grimshaw"
-],
-[
-"Greg James",
-"james"
-]
-],
-"deep": true
-},
-{
-"id": "xp-pantomimes",
-"tags": [
-"culture"
-],
-"text": "Name a traditional British pantomime",
-"answers": [
-"Cinderella",
-"Aladdin",
-[
-"Snow White and the Seven Dwarfs",
-"snow white"
-],
-"Peter Pan",
-"Jack and the Beanstalk",
-"Dick Whittington",
-"Mother Goose",
-"Sleeping Beauty",
-"Puss in Boots",
-"Babes in the Wood",
-"Robin Hood",
-[
-"Goldilocks and the Three Bears",
-"goldilocks"
-],
-"Beauty and the Beast",
-"Robinson Crusoe",
-[
-"Sinbad the Sailor",
-"sinbad"
-],
-"Humpty Dumpty",
-"Treasure Island",
-[
-"Little Red Riding Hood",
-"red riding hood"
-],
-"Pinocchio",
-[
-"The Wizard of Oz",
-"wizard of oz"
-],
-[
-"Ali Baba and the Forty Thieves",
-"ali baba"
-],
-[
-"The Snow Queen",
-"snow queen"
-],
-"Rapunzel",
-"Hansel and Gretel",
-"Jack and Jill",
-"Old King Cole",
-[
-"The Wind in the Willows",
-"wind in the willows"
-],
-[
-"Alice in Wonderland",
-"alice"
-],
-[
-"The Little Mermaid",
-"little mermaid"
-],
-"Rumpelstiltskin",
-[
-"The Pied Piper",
-"pied piper"
-]
-]
-},
-{
-"id": "xp-christmas-carols",
-"tags": [
-"culture"
-],
-"text": "Name a Christmas carol",
-"answers": [
-"Silent Night",
-[
-"O Come All Ye Faithful",
-"adeste fideles"
-],
-[
-"Hark! The Herald Angels Sing",
-"hark the herald angels sing",
-"hark the herald"
-],
-"Away in a Manger",
-[
-"Once in Royal David's City",
-"once in royal davids city"
-],
-"Little Donkey",
-"Good King Wenceslas",
-[
-"The Holly and the Ivy",
-"holly and the ivy"
-],
-"Joy to the World",
-"O Little Town of Bethlehem",
-[
-"In the Bleak Midwinter",
-"bleak midwinter"
-],
-"We Three Kings",
-[
-"Ding Dong Merrily on High",
-"ding dong merrily"
-],
-"God Rest Ye Merry Gentlemen",
-[
-"The First Noel",
-"first nowell",
-"the first nowell"
-],
-[
-"While Shepherds Watched Their Flocks",
-"while shepherds watched"
-],
-"Deck the Halls",
-"O Holy Night",
-"Coventry Carol",
-"I Saw Three Ships",
-"Carol of the Bells",
-"Gaudete",
-"Zither Carol",
-[
-"Past Three O'Clock",
-"past three oclock"
-],
-"Angels from the Realms of Glory",
-[
-"See Amid the Winter's Snow",
-"see amid the winters snow"
-],
-"Unto Us a Boy Is Born",
-[
-"Mary's Boy Child",
-"marys boy child"
-],
-"Sussex Carol",
-"Sans Day Carol",
-[
-"Here We Come a-Wassailing",
-"wassail song",
-"here we come a wassailing"
-],
-[
-"O Christmas Tree",
-"o tannenbaum"
-],
-"We Wish You a Merry Christmas",
-"Jingle Bells",
-[
-"Infant Holy, Infant Lowly",
-"infant holy"
-],
-"It Came Upon the Midnight Clear",
-[
-"The Cherry Tree Carol",
-"cherry tree carol"
-],
-"Tomorrow Shall Be My Dancing Day",
-[
-"O Come, O Come, Emmanuel",
-"o come o come emmanuel"
-]
-]
-},
-{
-"id": "xp-hindu-festivals",
-"tags": [
-"culture"
-],
-"text": "Name a Hindu festival",
-"answers": [
-[
-"Diwali",
-"deepavali",
-"divali"
-],
-"Holi",
-[
-"Navaratri",
-"navratri"
-],
-[
-"Dussehra",
-"vijayadashami",
-"dasara"
-],
-[
-"Raksha Bandhan",
-"rakhi"
-],
-"Janmashtami",
-[
-"Ganesh Chaturthi",
-"ganeshotsav"
-],
-[
-"Maha Shivaratri",
-"shivaratri"
-],
-"Durga Puja",
-"Pongal",
-"Onam",
-"Ram Navami",
-"Karva Chauth",
-[
-"Makar Sankranti",
-"sankranti"
-],
-"Ugadi",
-"Hanuman Jayanti",
-"Lohri",
-"Teej",
-[
-"Chhath",
-"chhath puja"
-],
-"Kumbh Mela",
-"Guru Purnima",
-"Bhai Dooj",
-"Dhanteras",
-"Rath Yatra",
-[
-"Vasant Panchami",
-"basant panchami"
-],
-"Gudi Padwa",
-[
-"Vaisakhi",
-"baisakhi"
-],
-"Thaipusam",
-"Mahalaya",
-"Vishu",
-"Bihu",
-"Akshaya Tritiya",
-"Kali Puja",
-"Lakshmi Puja",
-"Saraswati Puja",
-"Govardhan Puja"
-]
-},
-{
-"id": "xp-strictly-dances",
-"tags": [
-"culture"
-],
-"text": "Name a dance style performed on Strictly Come Dancing (2004 to 2025)",
-"answers": [
-[
-"Cha-cha-cha",
-"cha cha cha",
-"cha cha"
-],
-"Waltz",
-"Foxtrot",
-"Quickstep",
-"Tango",
-"Viennese Waltz",
-"Rumba",
-[
-"Paso Doble",
-"paso"
-],
-"Jive",
-"Samba",
-"American Smooth",
-"Salsa",
-"Charleston",
-"Argentine Tango",
-[
-"Couple's Choice",
-"couples choice"
-],
-[
-"Street/Commercial",
-"street commercial",
-"street",
-"commercial"
-],
-[
-"Showdance",
-"show dance"
-]
-]
-},
-{
-"id": "xp-royal-residences",
-"tags": [
-"culture"
-],
-"text": "Name a royal palace or residence in the UK, past or present",
-"answers": [
-"Buckingham Palace",
-[
-"Windsor Castle",
-"windsor"
-],
-[
-"Balmoral",
-"balmoral castle"
-],
-[
-"Sandringham",
-"sandringham house"
-],
-[
-"Palace of Holyroodhouse",
-"holyroodhouse",
-"holyrood"
-],
-"Clarence House",
-"Kensington Palace",
-[
-"Highgrove",
-"highgrove house"
-],
-[
-"Hillsborough Castle",
-"hillsborough"
-],
-"Gatcombe Park",
-"Birkhall",
-[
-"St James's Palace",
-"st jamess palace",
-"st james palace"
-],
-[
-"Hampton Court Palace",
-"hampton court"
-],
-"Anmer Hall",
-"Adelaide Cottage",
-[
-"Frogmore Cottage",
-"frogmore house",
-"frogmore"
-],
-"Royal Lodge",
-"Bagshot Park",
-"Kew Palace",
-[
-"Royal Pavilion",
-"brighton pavilion"
-],
-[
-"Osborne House",
-"osborne"
-],
-"Castle of Mey",
-"Llwynywermod",
-"Tower of London",
-"Craigowan Lodge",
-"Whitehall Palace",
-"Nonsuch Palace",
-"Eltham Palace",
-"Richmond Palace",
-[
-"Greenwich Palace",
-"placentia"
-],
-"Linlithgow Palace",
-"Falkland Palace"
-]
-},
-{
-"id": "xp-british-folk-customs",
-"tags": [
-"culture"
-],
-"text": "Name a traditional British custom, festival or ceremony",
-"answers": [
-[
-"Morris Dancing",
-"morris"
-],
-[
-"Maypole Dancing",
-"maypole"
-],
-"Cheese Rolling",
-[
-"Bonfire Night",
-"guy fawkes night"
-],
-[
-"Pancake Race",
-"pancake day race"
-],
-"Burning of the Clocks",
-"Up Helly Aa",
-[
-"Obby Oss",
-"padstow obby oss"
-],
-"Well Dressing",
-[
-"Mummers Play",
-"mummers' play"
-],
-[
-"Wassailing",
-"wassail"
-],
-"Beating the Bounds",
-[
-"Shrovetide Football",
-"royal shrovetide football"
-],
-"Hogmanay",
-"Burns Night",
-"Haxey Hood",
-"Bog Snorkelling",
-"Egg Rolling",
-[
-"World Conker Championships",
-"conker championships"
-],
-[
-"Ottery Tar Barrels",
-"tar barrels"
-],
-[
-"Furry Dance",
-"helston furry dance",
-"flora day"
-],
-"Swan Upping",
-"Trooping the Colour",
-"Eisteddfod",
-"Mari Lwyd",
-[
-"Straw Bear Festival",
-"straw bear"
-],
-"Jack in the Green",
-"Burry Man",
-"Pace Egging",
-"Dunmow Flitch",
-"Ceremony of the Keys",
-"Beltane",
-"Lewes Bonfire",
-[
-"Horn Dance",
-"abbots bromley horn dance"
-],
-[
-"Man v Horse",
-"man versus horse"
-],
-"Changing of the Guard",
-"State Opening of Parliament",
-[
-"Edinburgh Tattoo",
-"military tattoo"
-],
-"Notting Hill Carnival",
-"Highland Games"
-],
-"deep": true
-},
-{
-"id": "xp-london-museums",
-"tags": [
-"culture"
-],
-"text": "Name a museum or art gallery in London",
-"answers": [
-"British Museum",
-"Natural History Museum",
-"Science Museum",
-[
-"V&A",
-"victoria and albert museum",
-"victoria & albert museum",
-"victoria and albert"
-],
-"Tate Modern",
-"Tate Britain",
-"National Gallery",
-"National Portrait Gallery",
-[
-"Imperial War Museum",
-"iwm"
-],
-"Museum of London",
-[
-"Horniman Museum",
-"horniman"
-],
-"Wallace Collection",
-"Design Museum",
-[
-"Saatchi Gallery",
-"saatchi"
-],
-[
-"Serpentine Gallery",
-"serpentine"
-],
-[
-"Courtauld Gallery",
-"courtauld"
-],
-[
-"Royal Academy",
-"royal academy of arts"
-],
-[
-"Hayward Gallery",
-"hayward"
-],
-[
-"Sir John Soane's Museum",
-"soane's museum",
-"sir john soanes museum",
-"soane museum"
-],
-"Foundling Museum",
-"Wellcome Collection",
-"Cutty Sark",
-"National Maritime Museum",
-[
-"Madame Tussauds",
-"madame tussaud's"
-],
-[
-"Churchill War Rooms",
-"cabinet war rooms"
-],
-[
-"Museum of the Home",
-"geffrye museum"
-],
-"London Transport Museum",
-"Florence Nightingale Museum",
-"Bank of England Museum",
-"Whitechapel Gallery",
-"Barbican Art Gallery",
-"Postal Museum",
-"Jewish Museum",
-"Freud Museum",
-"Dr Johnson's House",
-[
-"Handel & Hendrix in London",
-"handel hendrix"
-],
-"RAF Museum",
-"Royal Observatory",
-"Dulwich Picture Gallery",
-"Leighton House",
-"HMS Belfast",
-"Sherlock Holmes Museum",
-"Museum of Brands",
-"Garden Museum",
-"Fan Museum",
-"Petrie Museum",
-"Grant Museum of Zoology",
-"Hunterian Museum",
-"Museum of Docklands",
-"Photographers' Gallery",
-"Somerset House",
-[
-"ICA",
-"institute of contemporary arts"
-],
-[
-"Cartoon Museum",
-"the cartoon museum"
-],
-"Fashion and Textile Museum",
-"Kenwood House"
-]
-}
-]
+ "cat": "misc",
+ "prompts": [
+  {
+   "id": "xp-lego-themes",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a LEGO theme or product line (past or present)",
+   "answers": [
+    "City",
+    [
+     "Star Wars",
+     "starwars"
+    ],
+    "Technic",
+    "Ninjago",
+    "Friends",
+    "Duplo",
+    "Creator",
+    "Harry Potter",
+    "Architecture",
+    "Minecraft",
+    [
+     "Super Heroes",
+     "marvel",
+     "dc",
+     "marvel super heroes",
+     "dc super heroes"
+    ],
+    "Speed Champions",
+    [
+     "Space",
+     "lego space"
+    ],
+    "Castle",
+    "Pirates",
+    "Bionicle",
+    "Classic",
+    "Ideas",
+    "Art",
+    "Icons",
+    "Disney",
+    [
+     "Jurassic World",
+     "jurassic park"
+    ],
+    "Hidden Side",
+    "Mindstorms",
+    "Racers",
+    "Hero Factory",
+    [
+     "Legends of Chima",
+     "chima"
+    ],
+    "Elves",
+    [
+     "DREAMZzz",
+     "dreamz"
+    ],
+    "Monkie Kid",
+    [
+     "Minifigures",
+     "collectible minifigures"
+    ],
+    "BrickHeadz",
+    "DOTS",
+    "Fabuland",
+    "Belville",
+    "Adventurers",
+    "Agents",
+    "Alpha Team",
+    "Atlantis",
+    "Rock Raiders",
+    [
+     "Exo-Force",
+     "exo force"
+    ],
+    "Galidor",
+    "Mixels",
+    "Nexo Knights",
+    "Vikings",
+    "Wild West",
+    "Power Miners",
+    "Monster Fighters",
+    [
+     "Super Mario",
+     "mario"
+    ],
+    [
+     "Sonic the Hedgehog",
+     "sonic"
+    ],
+    [
+     "Botanicals",
+     "botanical collection"
+    ],
+    "Dimensions",
+    "Education",
+    "Town",
+    "Trains",
+    "Boost",
+    "Vidiyo",
+    "Unikitty",
+    "Dino",
+    "Dune",
+    [
+     "The Lord of the Rings",
+     "lord of the rings"
+    ],
+    "Indiana Jones",
+    "Ghostbusters",
+    "Overwatch",
+    [
+     "Scooby-Doo",
+     "scooby doo"
+    ],
+    [
+     "The Simpsons",
+     "simpsons"
+    ],
+    "Stranger Things",
+    "Pirates of the Caribbean",
+    "Studios",
+    "Aquazone",
+    "Znap",
+    "Quatro",
+    "Homemaker",
+    "Jack Stone",
+    "Life of George",
+    "Pharaoh's Quest",
+    "Spybotics",
+    "Ultra Agents",
+    "Aqua Raiders",
+    [
+     "Teenage Mutant Ninja Turtles",
+     "tmnt"
+    ],
+    "Cars",
+    "Ben 10",
+    "Speed Racer",
+    [
+     "The Powerpuff Girls",
+     "powerpuff girls"
+    ]
+   ]
+  },
+  {
+   "id": "xp-uk-game-shows",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a British TV game show or quiz show (past or present)",
+   "answers": [
+    [
+     "The Chase",
+     "chase"
+    ],
+    [
+     "Who Wants to Be a Millionaire?",
+     "who wants to be a millionaire",
+     "millionaire"
+    ],
+    "Pointless",
+    "Countdown",
+    "Deal or No Deal",
+    "Family Fortunes",
+    [
+     "The Generation Game",
+     "generation game"
+    ],
+    "Blankety Blank",
+    "Catchphrase",
+    "Bullseye",
+    "Mastermind",
+    "University Challenge",
+    "Blockbusters",
+    [
+     "Fifteen to One",
+     "15 to 1"
+    ],
+    [
+     "The Crystal Maze",
+     "crystal maze"
+    ],
+    "Gladiators",
+    "Supermarket Sweep",
+    [
+     "The Price Is Right",
+     "price is right"
+    ],
+    "Strike It Lucky",
+    "Wheel of Fortune",
+    "Play Your Cards Right",
+    "Bob's Full House",
+    [
+     "The Weakest Link",
+     "weakest link"
+    ],
+    "Tipping Point",
+    "The Wall",
+    "Only Connect",
+    "Eggheads",
+    [
+     "Richard Osman's House of Games",
+     "house of games"
+    ],
+    "Impossible",
+    "Golden Balls",
+    "Total Wipeout",
+    "Fort Boyard",
+    "Knightmare",
+    [
+     "It's a Knockout",
+     "its a knockout"
+    ],
+    "Going for Gold",
+    "Ask the Family",
+    [
+     "A Question of Sport",
+     "question of sport"
+    ],
+    [
+     "Have I Got News for You",
+     "hignfy"
+    ],
+    [
+     "Would I Lie to You?",
+     "would i lie to you",
+     "wilty"
+    ],
+    "QI",
+    "Mock the Week",
+    [
+     "Never Mind the Buzzcocks",
+     "buzzcocks"
+    ],
+    "8 Out of 10 Cats",
+    "Taskmaster",
+    [
+     "The 1% Club",
+     "1% club"
+    ],
+    "Beat the Chasers",
+    "Lingo",
+    "Name That Tune",
+    "Telly Addicts",
+    "Call My Bluff",
+    [
+     "Mr and Mrs",
+     "mr & mrs"
+    ],
+    "Take Me Out",
+    "Blind Date",
+    "The Cube",
+    "Raven",
+    "Treasure Hunt",
+    "Interceptor",
+    [
+     "The Krypton Factor",
+     "krypton factor"
+    ],
+    "Every Second Counts",
+    "Sale of the Century",
+    "Winner Takes All",
+    [
+     "3-2-1",
+     "321"
+    ],
+    "Big Break",
+    "Bamboozle",
+    [
+     "Whose Line Is It Anyway?",
+     "whose line is it anyway"
+    ],
+    "Through the Keyhole",
+    [
+     "They Think It's All Over",
+     "they think its all over"
+    ],
+    "Shooting Stars",
+    "Tenable",
+    [
+     "Fun House",
+     "funhouse"
+    ],
+    [
+     "The Million Pound Drop",
+     "million pound drop"
+    ],
+    "Bruce's Price Is Right",
+    "Cash Cab"
+   ]
+  },
+  {
+   "id": "xp-playground-games",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a traditional playground game",
+   "answers": [
+    [
+     "Tag",
+     "tig",
+     "tiggy",
+     "it",
+     "chase",
+     "tiggy touchwood"
+    ],
+    "Hopscotch",
+    [
+     "British Bulldog",
+     "bulldog",
+     "british bulldogs",
+     "bulldogs"
+    ],
+    [
+     "Hide and Seek",
+     "hide & seek"
+    ],
+    [
+     "Skipping",
+     "skipping rope",
+     "jump rope",
+     "double dutch"
+    ],
+    [
+     "Leapfrog",
+     "leap frog"
+    ],
+    "Conkers",
+    "Marbles",
+    "Simon Says",
+    [
+     "What's the Time, Mr Wolf?",
+     "whats the time mr wolf",
+     "what's the time mr wolf"
+    ],
+    [
+     "Grandmother's Footsteps",
+     "grandma's footsteps",
+     "grandmas footsteps",
+     "grandmothers footsteps"
+    ],
+    "Stuck in the Mud",
+    "Kiss Chase",
+    "Red Rover",
+    [
+     "Duck, Duck, Goose",
+     "duck duck goose"
+    ],
+    "Oranges and Lemons",
+    [
+     "Ring a Ring o' Roses",
+     "ring a ring of roses",
+     "ring around the rosie"
+    ],
+    "Musical Statues",
+    "Piggy in the Middle",
+    "Hot Potato",
+    [
+     "Blind Man's Buff",
+     "blind mans buff",
+     "blind man's bluff"
+    ],
+    [
+     "Cat's Cradle",
+     "cats cradle"
+    ],
+    [
+     "Jacks",
+     "fivestones",
+     "five stones"
+    ],
+    [
+     "Elastics",
+     "french skipping",
+     "chinese skipping",
+     "chinese jump rope"
+    ],
+    [
+     "Kerbie",
+     "curby",
+     "kerby"
+    ],
+    "Sardines",
+    "Tug of War",
+    [
+     "Heads Down, Thumbs Up",
+     "heads down thumbs up"
+    ],
+    "Cops and Robbers",
+    "Kick the Can",
+    "Wink Murder",
+    [
+     "Mother, May I?",
+     "mother may i"
+    ],
+    "Fox and Hounds",
+    "Dodgeball",
+    "Rounders",
+    [
+     "Clapping games",
+     "hand clapping games",
+     "pat-a-cake",
+     "pat a cake",
+     "miss mary mack"
+    ],
+    "Hangman",
+    [
+     "Noughts and Crosses",
+     "tic tac toe"
+    ]
+   ]
+  },
+  {
+   "id": "xp-pub-games",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a traditional British pub game",
+   "answers": [
+    "Darts",
+    "Pool",
+    "Snooker",
+    [
+     "Dominoes",
+     "dominos"
+    ],
+    [
+     "Cribbage",
+     "crib"
+    ],
+    [
+     "Skittles",
+     "table skittles",
+     "bar skittles"
+    ],
+    "Bar Billiards",
+    [
+     "Shove Ha'penny",
+     "shove halfpenny",
+     "shove ha penny"
+    ],
+    [
+     "Table Football",
+     "foosball"
+    ],
+    [
+     "Fruit Machine",
+     "fruit machines",
+     "one-armed bandit"
+    ],
+    "Pub Quiz",
+    "Aunt Sally",
+    "Quoits",
+    [
+     "Ringing the Bull",
+     "ring the bull"
+    ],
+    "Toad in the Hole",
+    "Shut the Box",
+    [
+     "Devil Amongst the Tailors",
+     "devil among the tailors"
+    ],
+    [
+     "Nine Men's Morris",
+     "nine mens morris"
+    ],
+    "Bat and Trap",
+    "Beer Pong",
+    [
+     "Draughts",
+     "checkers"
+    ],
+    "Chess",
+    "Backgammon",
+    "Jenga",
+    [
+     "Connect 4",
+     "connect four"
+    ],
+    "Spoof",
+    "Pinball"
+   ]
+  },
+  {
+   "id": "xp-chess-terms",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a chess term",
+   "answers": [
+    "Check",
+    [
+     "Checkmate",
+     "mate"
+    ],
+    "Stalemate",
+    [
+     "Castling",
+     "castle"
+    ],
+    "En Passant",
+    [
+     "Promotion",
+     "queening",
+     "underpromotion"
+    ],
+    "Fork",
+    "Pin",
+    "Skewer",
+    "Gambit",
+    "Zugzwang",
+    "Fianchetto",
+    [
+     "Discovered Attack",
+     "discovery"
+    ],
+    "Discovered Check",
+    [
+     "Zwischenzug",
+     "intermezzo"
+    ],
+    [
+     "J'adoube",
+     "jadoube"
+    ],
+    "Blunder",
+    "Tempo",
+    "Opposition",
+    "Perpetual Check",
+    "Rank",
+    "File",
+    [
+     "Back Rank Mate",
+     "back rank"
+    ],
+    [
+     "Fool's Mate",
+     "fools mate"
+    ],
+    [
+     "Scholar's Mate",
+     "scholars mate"
+    ],
+    [
+     "Sacrifice",
+     "sac"
+    ],
+    "Endgame",
+    "Middlegame",
+    "Opening",
+    "Blitz",
+    "Bullet",
+    "Rapid",
+    "Passed Pawn",
+    "Isolated Pawn",
+    [
+     "Doubled Pawns",
+     "doubled pawn"
+    ],
+    "Outpost",
+    "Exchange",
+    "Draw",
+    [
+     "Resign",
+     "resignation"
+    ],
+    "Smothered Mate",
+    "Battery",
+    "Deflection",
+    "Decoy",
+    "Overload",
+    "Windmill",
+    "Prophylaxis",
+    "Fortress",
+    "Time Control",
+    "Stonewall"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xp-poker-hands",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a poker hand ranking or a stage of a Texas hold'em hand",
+   "answers": [
+    "Royal Flush",
+    "Straight Flush",
+    [
+     "Four of a Kind",
+     "4 of a kind",
+     "quads"
+    ],
+    [
+     "Full House",
+     "boat"
+    ],
+    "Flush",
+    "Straight",
+    [
+     "Three of a Kind",
+     "3 of a kind",
+     "trips",
+     "set"
+    ],
+    [
+     "Two Pair",
+     "2 pair",
+     "two pairs"
+    ],
+    [
+     "Pair",
+     "one pair",
+     "a pair"
+    ],
+    "High Card",
+    [
+     "Pre-flop",
+     "preflop",
+     "hole cards",
+     "the deal"
+    ],
+    "Flop",
+    [
+     "Turn",
+     "fourth street"
+    ],
+    [
+     "River",
+     "fifth street"
+    ],
+    "Showdown"
+   ]
+  },
+  {
+   "id": "xp-poker-variants",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a variety (variant) of poker",
+   "answers": [
+    [
+     "Texas Hold'em",
+     "texas holdem",
+     "holdem",
+     "hold em"
+    ],
+    [
+     "Omaha",
+     "pot limit omaha",
+     "plo"
+    ],
+    [
+     "Seven-card Stud",
+     "7 card stud",
+     "seven card stud",
+     "stud"
+    ],
+    [
+     "Five-card Draw",
+     "5 card draw",
+     "five card draw",
+     "draw poker",
+     "draw"
+    ],
+    [
+     "Five-card Stud",
+     "5 card stud"
+    ],
+    "Razz",
+    "Badugi",
+    "Pineapple",
+    "Crazy Pineapple",
+    "Chinese Poker",
+    [
+     "Open-face Chinese",
+     "ofc",
+     "open face chinese poker"
+    ],
+    [
+     "Three Card Poker",
+     "3 card poker"
+    ],
+    "Caribbean Stud",
+    "Let It Ride",
+    "Lowball",
+    [
+     "2-7 Triple Draw",
+     "deuce to seven triple draw",
+     "triple draw"
+    ],
+    [
+     "Omaha Hi-Lo",
+     "omaha eight or better",
+     "omaha 8"
+    ],
+    [
+     "Short Deck",
+     "six plus hold'em",
+     "6+ hold'em"
+    ],
+    "Video Poker",
+    "Courchevel",
+    "Mississippi Stud",
+    [
+     "Big O",
+     "five card omaha"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xp-mahjong-tiles",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a type of tile in a standard mahjong set",
+   "answers": [
+    [
+     "Bamboo",
+     "bams",
+     "sticks",
+     "bamboos"
+    ],
+    [
+     "Dots",
+     "circles",
+     "coins",
+     "pins",
+     "dot"
+    ],
+    [
+     "Characters",
+     "craks",
+     "wan",
+     "character"
+    ],
+    [
+     "East Wind",
+     "east"
+    ],
+    [
+     "South Wind",
+     "south"
+    ],
+    [
+     "West Wind",
+     "west"
+    ],
+    [
+     "North Wind",
+     "north"
+    ],
+    [
+     "Red Dragon",
+     "chun"
+    ],
+    [
+     "Green Dragon",
+     "hatsu",
+     "fa"
+    ],
+    [
+     "White Dragon",
+     "haku",
+     "soap",
+     "white"
+    ],
+    [
+     "Flower",
+     "flowers"
+    ],
+    [
+     "Season",
+     "seasons"
+    ],
+    [
+     "Wind",
+     "winds"
+    ],
+    [
+     "Dragon",
+     "dragons"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xp-lawn-games",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a lawn or garden game",
+   "answers": [
+    "Croquet",
+    [
+     "Boules",
+     "petanque",
+     "pétanque"
+    ],
+    [
+     "Bowls",
+     "lawn bowls"
+    ],
+    "Quoits",
+    "Aunt Sally",
+    "Swingball",
+    "Kubb",
+    "Badminton",
+    "French Cricket",
+    "Rounders",
+    "Cricket",
+    "Frisbee",
+    [
+     "Cornhole",
+     "bean bag toss"
+    ],
+    "Giant Jenga",
+    "Horseshoes",
+    "Hoopla",
+    "Tug of War",
+    [
+     "Egg and Spoon Race",
+     "egg and spoon"
+    ],
+    "Sack Race",
+    [
+     "Three-legged Race",
+     "three legged race"
+    ],
+    "Hide and Seek",
+    "Skittles",
+    "Finska",
+    [
+     "Mölkky",
+     "molkky"
+    ],
+    [
+     "Lawn Darts",
+     "jarts"
+    ],
+    "Hopscotch",
+    "Stoolball"
+   ]
+  },
+  {
+   "id": "xp-puzzle-types",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a type of puzzle or brain-teaser",
+   "answers": [
+    [
+     "Crossword",
+     "crosswords"
+    ],
+    "Sudoku",
+    [
+     "Wordsearch",
+     "word search"
+    ],
+    [
+     "Jigsaw",
+     "jigsaw puzzle"
+    ],
+    [
+     "Rubik's Cube",
+     "rubiks cube"
+    ],
+    "Kakuro",
+    "Codeword",
+    [
+     "Nonogram",
+     "picross"
+    ],
+    "Maze",
+    "Cryptic Crossword",
+    [
+     "Logic Puzzle",
+     "logic grid"
+    ],
+    "Spot the Difference",
+    "Futoshiki",
+    "Killer Sudoku",
+    "Wordle",
+    "Connections",
+    "Hangman",
+    "Tangram",
+    [
+     "Sliding Puzzle",
+     "sliding tile puzzle",
+     "15 puzzle"
+    ],
+    "Rebus",
+    "Anagram",
+    "Riddle",
+    "Acrostic",
+    "Cryptogram",
+    "Word Ladder",
+    "Tower of Hanoi",
+    [
+     "Fill-in",
+     "fillword"
+    ],
+    "Hitori",
+    "Kenken",
+    "Slitherlink"
+   ]
+  },
+  {
+   "id": "xp-modern-board-games",
+   "tags": [
+    "pastimes"
+   ],
+   "text": "Name a board or card game first published in 1990 or later",
+   "answers": [
+    [
+     "Catan",
+     "settlers of catan",
+     "the settlers of catan"
+    ],
+    "Ticket to Ride",
+    "Carcassonne",
+    "Pandemic",
+    "Dominion",
+    "Codenames",
+    "Azul",
+    "Wingspan",
+    [
+     "7 Wonders",
+     "seven wonders"
+    ],
+    "Splendor",
+    "Dixit",
+    "Agricola",
+    "Terraforming Mars",
+    "Gloomhaven",
+    "Scythe",
+    [
+     "Betrayal at House on the Hill",
+     "betrayal"
+    ],
+    "Cranium",
+    [
+     "Dobble",
+     "spot it"
+    ],
+    "Exploding Kittens",
+    "Cards Against Humanity",
+    "Love Letter",
+    "King of Tokyo",
+    "Small World",
+    "Takenoko",
+    "Kingdomino",
+    [
+     "Sushi Go",
+     "sushi go!"
+    ],
+    "Hive",
+    "Blokus",
+    "Qwirkle",
+    "Bananagrams",
+    "Jungle Speed",
+    "Munchkin",
+    "Root",
+    "Everdell",
+    "Cascadia",
+    "Forbidden Island",
+    "Forbidden Desert",
+    "Coup",
+    [
+     "The Resistance",
+     "resistance"
+    ],
+    "Just One",
+    "Patchwork",
+    "Jaipur",
+    "Lords of Waterdeep",
+    "Puerto Rico",
+    [
+     "Magic: The Gathering",
+     "magic the gathering",
+     "mtg"
+    ],
+    "Arkham Horror",
+    "Star Realms"
+   ]
+  },
+  {
+   "id": "xp-apple-apps",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name an app that comes built in to an iPhone or Mac (as of 2025)",
+   "answers": [
+    "Safari",
+    "Mail",
+    [
+     "Messages",
+     "imessage"
+    ],
+    "FaceTime",
+    [
+     "Maps",
+     "apple maps"
+    ],
+    "Photos",
+    "Notes",
+    "Reminders",
+    "Calendar",
+    [
+     "Music",
+     "apple music"
+    ],
+    "Podcasts",
+    [
+     "TV",
+     "apple tv"
+    ],
+    [
+     "Books",
+     "apple books"
+    ],
+    "Stocks",
+    "Weather",
+    "Clock",
+    "Calculator",
+    "Camera",
+    "Wallet",
+    "Health",
+    "Home",
+    "Shortcuts",
+    "Files",
+    "Contacts",
+    "Voice Memos",
+    "Measure",
+    "Compass",
+    "Translate",
+    [
+     "Find My",
+     "find my iphone"
+    ],
+    "Freeform",
+    "Journal",
+    "Fitness",
+    "App Store",
+    [
+     "Settings",
+     "system settings",
+     "system preferences"
+    ],
+    "Phone",
+    [
+     "News",
+     "apple news"
+    ],
+    "Tips",
+    "Magnifier",
+    "Passwords",
+    "Preview",
+    "TextEdit",
+    "Terminal",
+    "Stickies",
+    "Chess",
+    "Dictionary",
+    "Photo Booth",
+    "Time Machine",
+    "Finder",
+    "Siri",
+    "Activity Monitor",
+    "Disk Utility",
+    [
+     "QuickTime Player",
+     "quicktime"
+    ],
+    "Font Book",
+    "Automator",
+    "Keychain Access",
+    "Image Capture",
+    "Screenshot",
+    "Console",
+    [
+     "Watch",
+     "apple watch app"
+    ]
+   ]
+  },
+  {
+   "id": "xp-file-extensions",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a common computer file extension (the letters after the dot)",
+   "answers": [
+    "PDF",
+    "DOCX",
+    "DOC",
+    [
+     "JPG",
+     "jpeg"
+    ],
+    "PNG",
+    "GIF",
+    "MP3",
+    "MP4",
+    "EXE",
+    "ZIP",
+    "TXT",
+    "XLSX",
+    "XLS",
+    "PPTX",
+    "PPT",
+    "CSV",
+    "HTML",
+    "HTM",
+    "WAV",
+    "MOV",
+    "AVI",
+    "RAR",
+    "ISO",
+    "DMG",
+    "APK",
+    "SVG",
+    "JSON",
+    "XML",
+    "PY",
+    "JS",
+    "CSS",
+    "BAT",
+    "DLL",
+    "MKV",
+    "FLAC",
+    "BMP",
+    [
+     "TIFF",
+     "tif"
+    ],
+    "WEBP",
+    "HEIC",
+    "RTF",
+    "ODT",
+    "7Z",
+    "TAR",
+    "GZ",
+    "PHP",
+    "SQL",
+    "MD",
+    "LOG",
+    "INI",
+    "SYS",
+    "TMP",
+    "PSD",
+    "AI",
+    "EPS",
+    [
+     "MID",
+     "midi"
+    ],
+    "AAC",
+    "M4A",
+    "OGG",
+    "WMV",
+    "FLV",
+    "WEBM",
+    "PKG",
+    "MSI",
+    "JAR",
+    "JAVA",
+    "CPP",
+    "SWF",
+    "EPUB",
+    "MOBI",
+    "TORRENT",
+    "VCF",
+    "ICS",
+    "DAT",
+    "BAK",
+    "INDD",
+    "DOCM",
+    "ODS",
+    "ODP",
+    "PAGES",
+    "NUMBERS",
+    "KEY",
+    "WMA",
+    "3GP",
+    [
+     "RAW",
+     "cr2"
+    ]
+   ]
+  },
+  {
+   "id": "xp-malware",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a famous computer virus, worm or piece of malware",
+   "answers": [
+    [
+     "ILOVEYOU",
+     "love bug",
+     "love letter",
+     "iloveyou virus"
+    ],
+    "Melissa",
+    [
+     "WannaCry",
+     "wannacrypt",
+     "wanna cry"
+    ],
+    "Stuxnet",
+    [
+     "Mydoom",
+     "my doom"
+    ],
+    "Code Red",
+    [
+     "Conficker",
+     "downadup"
+    ],
+    "Creeper",
+    [
+     "Morris Worm",
+     "morris"
+    ],
+    "Michelangelo",
+    [
+     "CIH",
+     "chernobyl"
+    ],
+    "Anna Kournikova",
+    "CryptoLocker",
+    [
+     "Petya",
+     "notpetya"
+    ],
+    "Sasser",
+    [
+     "Blaster",
+     "lovesan"
+    ],
+    [
+     "SQL Slammer",
+     "slammer",
+     "sapphire"
+    ],
+    [
+     "Zeus",
+     "zbot"
+    ],
+    [
+     "Storm Worm",
+     "storm"
+    ],
+    "Nimda",
+    "Mirai",
+    "Klez",
+    "Sobig",
+    "Emotet",
+    "Bagle",
+    "Netsky",
+    "Brain",
+    [
+     "Cabir",
+     "caribe"
+    ],
+    "Elk Cloner",
+    [
+     "Rabbit",
+     "wabbit"
+    ],
+    "Duqu",
+    [
+     "Flame",
+     "skywiper"
+    ],
+    "Pegasus",
+    "LockBit",
+    "Locky",
+    "Dridex",
+    "TrickBot",
+    "Ryuk",
+    "Shamoon",
+    [
+     "REvil",
+     "sodinokibi"
+    ],
+    [
+     "BadRabbit",
+     "bad rabbit"
+    ],
+    "DarkSide",
+    "Sality",
+    [
+     "Welchia",
+     "nachi"
+    ],
+    "Sober"
+   ]
+  },
+  {
+   "id": "xp-ai-chatbots",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name an AI chatbot or digital assistant (as of 2025)",
+   "answers": [
+    [
+     "ChatGPT",
+     "chat gpt",
+     "gpt",
+     "openai"
+    ],
+    [
+     "Gemini",
+     "google gemini"
+    ],
+    [
+     "Claude",
+     "anthropic"
+    ],
+    [
+     "Copilot",
+     "microsoft copilot"
+    ],
+    "Siri",
+    "Alexa",
+    [
+     "Google Assistant",
+     "ok google",
+     "hey google"
+    ],
+    "Grok",
+    "Perplexity",
+    [
+     "Llama",
+     "meta llama"
+    ],
+    [
+     "DeepSeek",
+     "deep seek"
+    ],
+    "Meta AI",
+    [
+     "Bard",
+     "google bard"
+    ],
+    [
+     "Bing Chat",
+     "bing"
+    ],
+    "Cortana",
+    [
+     "Le Chat",
+     "mistral"
+    ],
+    [
+     "Character.AI",
+     "character ai"
+    ],
+    [
+     "Pi",
+     "inflection pi"
+    ],
+    [
+     "Ernie",
+     "ernie bot",
+     "wenxin"
+    ],
+    "Qwen",
+    "Kimi",
+    "Replika",
+    "Poe",
+    "Jasper",
+    "ELIZA",
+    "Cleverbot",
+    "Tay",
+    "Bixby",
+    [
+     "My AI",
+     "snapchat my ai"
+    ],
+    "Alice",
+    "Watson",
+    "Clippy"
+   ]
+  },
+  {
+   "id": "xp-streaming-services",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a video or music streaming service available in the UK (past or present)",
+   "answers": [
+    "Netflix",
+    [
+     "Amazon Prime Video",
+     "prime video",
+     "amazon prime",
+     "prime"
+    ],
+    [
+     "Disney+",
+     "disney plus"
+    ],
+    "Spotify",
+    [
+     "Apple TV+",
+     "apple tv",
+     "apple tv plus"
+    ],
+    [
+     "BBC iPlayer",
+     "iplayer"
+    ],
+    [
+     "ITVX",
+     "itv hub",
+     "itv player",
+     "itv"
+    ],
+    [
+     "All 4",
+     "channel 4",
+     "all4"
+    ],
+    [
+     "My5",
+     "channel 5",
+     "five"
+    ],
+    [
+     "NOW",
+     "now tv",
+     "sky now"
+    ],
+    [
+     "Paramount+",
+     "paramount plus"
+    ],
+    [
+     "Discovery+",
+     "discovery plus"
+    ],
+    "BritBox",
+    "YouTube",
+    "YouTube Music",
+    "Apple Music",
+    "Amazon Music",
+    "Deezer",
+    "Tidal",
+    "Crunchyroll",
+    "Mubi",
+    "Shudder",
+    "Hayu",
+    "Plex",
+    "Twitch",
+    "Pluto TV",
+    "Tubi",
+    "Freely",
+    "STV Player",
+    "Sky Go",
+    "Lovefilm",
+    "Blinkbox",
+    "Rakuten TV",
+    "BBC Sounds",
+    "Napster",
+    "SoundCloud",
+    "Qobuz",
+    "BFI Player",
+    [
+     "Curzon Home Cinema",
+     "curzon"
+    ],
+    "Now Music",
+    "Sky Q",
+    "Virgin TV Go",
+    "Vimeo",
+    "Dailymotion"
+   ]
+  },
+  {
+   "id": "xp-smart-home",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a smart-home brand or platform",
+   "answers": [
+    [
+     "Amazon Echo",
+     "echo",
+     "alexa",
+     "amazon alexa"
+    ],
+    [
+     "Google Nest",
+     "nest",
+     "google home",
+     "google"
+    ],
+    "Ring",
+    "Hive",
+    [
+     "Philips Hue",
+     "hue",
+     "philips"
+    ],
+    "Sonos",
+    "Tado",
+    "Arlo",
+    "Wyze",
+    [
+     "Kasa",
+     "tp-link",
+     "tp link"
+    ],
+    "Tapo",
+    "Eufy",
+    "Yale",
+    "LIFX",
+    [
+     "IKEA Tradfri",
+     "tradfri",
+     "ikea"
+    ],
+    [
+     "SmartThings",
+     "samsung smartthings"
+    ],
+    "Netatmo",
+    "Shelly",
+    "Aqara",
+    "Meross",
+    "Nanoleaf",
+    "Wemo",
+    "Blink",
+    "Ecobee",
+    "Lutron",
+    "Somfy",
+    [
+     "HomeKit",
+     "apple homekit",
+     "apple home"
+    ],
+    "Honeywell",
+    "Sensibo",
+    "Heatmiser",
+    "Drayton",
+    "Salus",
+    [
+     "Roomba",
+     "irobot"
+    ],
+    "Dyson",
+    "Withings",
+    "Chamberlain",
+    "Abode",
+    "SimpliSafe",
+    "Vivint",
+    "Schlage",
+    "August"
+   ]
+  },
+  {
+   "id": "xp-video-calls",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name an app or service used for video calls (past or present)",
+   "answers": [
+    "Zoom",
+    "Skype",
+    [
+     "Microsoft Teams",
+     "teams"
+    ],
+    "FaceTime",
+    [
+     "Google Meet",
+     "meet"
+    ],
+    "WhatsApp",
+    [
+     "Webex",
+     "cisco webex"
+    ],
+    [
+     "Messenger",
+     "facebook messenger"
+    ],
+    "Discord",
+    "Slack",
+    "Jitsi",
+    "GoToMeeting",
+    "Houseparty",
+    "Snapchat",
+    "Viber",
+    [
+     "Google Duo",
+     "duo"
+    ],
+    [
+     "Google Hangouts",
+     "hangouts"
+    ],
+    "BlueJeans",
+    "Signal",
+    "Telegram",
+    "Instagram",
+    "Google Chat",
+    "Whereby",
+    "Tango",
+    "Lifesize",
+    [
+     "Join.me",
+     "join me"
+    ],
+    "ICQ",
+    "Zoho Meeting",
+    [
+     "Amazon Chime",
+     "chime"
+    ],
+    "Tencent Meeting",
+    "WeChat",
+    "Line",
+    "Kik"
+   ]
+  },
+  {
+   "id": "xp-computer-makers",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a computer manufacturer, past or present",
+   "answers": [
+    "Dell",
+    [
+     "HP",
+     "hewlett packard",
+     "hewlett-packard"
+    ],
+    "Apple",
+    "Lenovo",
+    "Acer",
+    "Asus",
+    [
+     "Microsoft",
+     "surface"
+    ],
+    "Samsung",
+    "Toshiba",
+    [
+     "Sony",
+     "vaio"
+    ],
+    "Fujitsu",
+    "Packard Bell",
+    "Compaq",
+    "Gateway",
+    "Alienware",
+    "Razer",
+    "MSI",
+    "Gigabyte",
+    "LG",
+    "Huawei",
+    "Medion",
+    "Evesham",
+    "Sinclair",
+    "Acorn",
+    "Amstrad",
+    "Commodore",
+    "Atari",
+    "Tandy",
+    "Dragon",
+    "Oric",
+    "Elonex",
+    "Tiny",
+    [
+     "Advent",
+     "dixons advent"
+    ],
+    "Viglen",
+    "IBM",
+    "Olivetti",
+    "Apricot",
+    [
+     "Research Machines",
+     "rm"
+    ],
+    [
+     "Sun Microsystems",
+     "sun"
+    ],
+    [
+     "Silicon Graphics",
+     "sgi"
+    ],
+    "NEC",
+    "Panasonic",
+    "Xiaomi",
+    "System76",
+    "Framework",
+    "PC Specialist",
+    "Hitachi",
+    "Zenith",
+    [
+     "Digital Equipment Corporation",
+     "dec"
+    ],
+    "Cray",
+    "Osborne",
+    "Texas Instruments",
+    "Honor"
+   ]
+  },
+  {
+   "id": "xp-eighties-home-computers",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a home computer sold in the UK in the 1980s",
+   "answers": [
+    [
+     "ZX Spectrum",
+     "spectrum",
+     "sinclair spectrum"
+    ],
+    [
+     "Commodore 64",
+     "c64"
+    ],
+    [
+     "BBC Micro",
+     "bbc"
+    ],
+    [
+     "Amstrad CPC",
+     "cpc"
+    ],
+    "ZX81",
+    "ZX80",
+    [
+     "Acorn Electron",
+     "electron"
+    ],
+    [
+     "Dragon 32",
+     "dragon"
+    ],
+    [
+     "Oric-1",
+     "oric"
+    ],
+    [
+     "Atari 800XL",
+     "atari 800",
+     "atari 8-bit"
+    ],
+    "Atari ST",
+    [
+     "Amiga",
+     "commodore amiga",
+     "amiga 500"
+    ],
+    [
+     "VIC-20",
+     "vic20"
+    ],
+    "MSX",
+    "Apple II",
+    [
+     "Macintosh",
+     "mac"
+    ],
+    [
+     "Commodore 16",
+     "c16"
+    ],
+    [
+     "Commodore Plus/4",
+     "plus 4"
+    ],
+    [
+     "Sam Coupe",
+     "sam coupé"
+    ],
+    "Jupiter Ace",
+    [
+     "Memotech MTX",
+     "memotech"
+    ],
+    [
+     "Tatung Einstein",
+     "einstein"
+    ],
+    [
+     "Camputers Lynx",
+     "lynx"
+    ],
+    "TRS-80",
+    "IBM PC",
+    [
+     "Amstrad PCW",
+     "pcw"
+    ],
+    [
+     "Acorn Archimedes",
+     "archimedes"
+    ],
+    [
+     "Sinclair QL",
+     "ql"
+    ],
+    [
+     "TI-99/4A",
+     "ti99"
+    ],
+    [
+     "Enterprise 64",
+     "enterprise"
+    ],
+    [
+     "Acorn Atom",
+     "atom"
+    ],
+    [
+     "Commodore 128",
+     "c128"
+    ],
+    "Amstrad PC1512",
+    "Apricot",
+    "Sord M5",
+    "Spectravideo",
+    "Tandy Color Computer"
+   ]
+  },
+  {
+   "id": "xp-unix-commands",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a Linux or Unix terminal command",
+   "answers": [
+    "ls",
+    "cd",
+    "pwd",
+    "cp",
+    "mv",
+    "rm",
+    "mkdir",
+    "rmdir",
+    "cat",
+    "grep",
+    "sudo",
+    "chmod",
+    "chown",
+    "ping",
+    "man",
+    "touch",
+    "echo",
+    "find",
+    "head",
+    "tail",
+    "sort",
+    "kill",
+    "ps",
+    "top",
+    "df",
+    "du",
+    "tar",
+    "ssh",
+    "curl",
+    "wget",
+    "nano",
+    "vim",
+    "less",
+    "awk",
+    "sed",
+    "which",
+    "whoami",
+    "clear",
+    "history",
+    "diff",
+    "wc",
+    "ln",
+    "apt",
+    "ifconfig",
+    "scp",
+    "uname",
+    "date",
+    "cal",
+    "exit",
+    "passwd",
+    "uniq",
+    "cut",
+    "tee",
+    "xargs",
+    "mount",
+    "reboot",
+    "shutdown"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xp-chip-companies",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a company that designs or makes computer processors or chips",
+   "answers": [
+    "Intel",
+    "AMD",
+    "Nvidia",
+    "Qualcomm",
+    "Apple",
+    "Samsung",
+    "ARM",
+    "MediaTek",
+    "TSMC",
+    "IBM",
+    "Motorola",
+    "Broadcom",
+    "Texas Instruments",
+    "Micron",
+    [
+     "SK Hynix",
+     "hynix"
+    ],
+    "Cyrix",
+    "Zilog",
+    "MOS Technology",
+    "GlobalFoundries",
+    "Marvell",
+    "NXP",
+    "Infineon",
+    [
+     "STMicroelectronics",
+     "st micro"
+    ],
+    "Fairchild",
+    [
+     "HiSilicon",
+     "huawei"
+    ],
+    "Google",
+    "National Semiconductor",
+    "Acorn",
+    "Via",
+    "Analog Devices",
+    "Renesas",
+    "Toshiba",
+    "Sun Microsystems",
+    "Transmeta",
+    "Ampere",
+    "Graphcore",
+    [
+     "Imagination Technologies",
+     "imagination"
+    ],
+    "Cerebras"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xp-cryptocurrencies",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a cryptocurrency or crypto token",
+   "answers": [
+    [
+     "Bitcoin",
+     "btc"
+    ],
+    [
+     "Ethereum",
+     "ether",
+     "eth"
+    ],
+    [
+     "Dogecoin",
+     "doge"
+    ],
+    [
+     "Litecoin",
+     "ltc"
+    ],
+    [
+     "XRP",
+     "ripple"
+    ],
+    [
+     "Solana",
+     "sol"
+    ],
+    [
+     "Cardano",
+     "ada"
+    ],
+    [
+     "Tether",
+     "usdt"
+    ],
+    [
+     "BNB",
+     "binance coin"
+    ],
+    [
+     "Polkadot",
+     "dot"
+    ],
+    [
+     "Monero",
+     "xmr"
+    ],
+    [
+     "Shiba Inu",
+     "shib"
+    ],
+    [
+     "USD Coin",
+     "usdc"
+    ],
+    [
+     "TRON",
+     "trx"
+    ],
+    [
+     "Avalanche",
+     "avax"
+    ],
+    [
+     "Chainlink",
+     "link"
+    ],
+    [
+     "Stellar",
+     "xlm"
+    ],
+    [
+     "Bitcoin Cash",
+     "bch"
+    ],
+    [
+     "Toncoin",
+     "ton"
+    ],
+    [
+     "Polygon",
+     "matic"
+    ],
+    "Zcash",
+    "Dash",
+    "Ethereum Classic",
+    [
+     "Cosmos",
+     "atom"
+    ],
+    "Uniswap",
+    "Pepe",
+    "Dai",
+    "Algorand",
+    "Tezos",
+    "Filecoin",
+    "Aave"
+   ]
+  },
+  {
+   "id": "xp-perfume-brands",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a perfume or fragrance brand",
+   "answers": [
+    "Chanel",
+    [
+     "Dior",
+     "christian dior"
+    ],
+    [
+     "Yves Saint Laurent",
+     "ysl",
+     "saint laurent"
+    ],
+    "Guerlain",
+    [
+     "Jo Malone",
+     "jo malone london"
+    ],
+    "Creed",
+    "Tom Ford",
+    [
+     "Calvin Klein",
+     "ck"
+    ],
+    [
+     "Hugo Boss",
+     "boss"
+    ],
+    [
+     "Giorgio Armani",
+     "armani"
+    ],
+    [
+     "Paco Rabanne",
+     "rabanne"
+    ],
+    [
+     "Jean Paul Gaultier",
+     "gaultier",
+     "jpg"
+    ],
+    [
+     "Lancôme",
+     "lancome"
+    ],
+    [
+     "Estée Lauder",
+     "estee lauder"
+    ],
+    "Burberry",
+    "Versace",
+    [
+     "Dolce & Gabbana",
+     "dolce and gabbana",
+     "d&g",
+     "dolce gabbana"
+    ],
+    "Givenchy",
+    [
+     "Hermès",
+     "hermes"
+    ],
+    [
+     "Penhaligon's",
+     "penhaligons"
+    ],
+    "Floris",
+    "Diptyque",
+    "Le Labo",
+    "Byredo",
+    [
+     "Maison Margiela",
+     "margiela"
+    ],
+    "Marc Jacobs",
+    [
+     "Mugler",
+     "thierry mugler"
+    ],
+    "Davidoff",
+    "Issey Miyake",
+    "Clinique",
+    "Gucci",
+    "Prada",
+    [
+     "Bulgari",
+     "bvlgari"
+    ],
+    "Cartier",
+    "Ralph Lauren",
+    "Elizabeth Arden",
+    "Jimmy Choo",
+    [
+     "Viktor & Rolf",
+     "viktor and rolf"
+    ],
+    "Nina Ricci",
+    "Carolina Herrera",
+    "Narciso Rodriguez",
+    "Lalique",
+    "Acqua di Parma",
+    "Molton Brown",
+    "Moschino",
+    "Kenzo",
+    "Azzaro",
+    "Montblanc",
+    [
+     "Chloé",
+     "chloe"
+    ],
+    "Lacoste",
+    "Lynx"
+   ]
+  },
+  {
+   "id": "xp-sunglasses-brands",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a brand of sunglasses",
+   "answers": [
+    [
+     "Ray-Ban",
+     "rayban",
+     "ray ban"
+    ],
+    "Oakley",
+    "Persol",
+    "Maui Jim",
+    "Police",
+    "Carrera",
+    "Prada",
+    "Gucci",
+    "Tom Ford",
+    "Oliver Peoples",
+    "Costa",
+    [
+     "Bollé",
+     "bolle"
+    ],
+    "Dior",
+    "Cartier",
+    "Versace",
+    "Fendi",
+    [
+     "Vogue Eyewear",
+     "vogue"
+    ],
+    [
+     "Armani",
+     "emporio armani",
+     "giorgio armani"
+    ],
+    [
+     "Dolce & Gabbana",
+     "dolce and gabbana",
+     "d&g"
+    ],
+    "Ralph Lauren",
+    "Michael Kors",
+    [
+     "Cutler and Gross",
+     "cutler & gross"
+    ],
+    "Moscot",
+    "Warby Parker",
+    "Mykita",
+    "Arnette",
+    "Serengeti",
+    [
+     "Smith",
+     "smith optics"
+    ],
+    "Spy",
+    "Gargoyles",
+    "Lindberg",
+    "Burberry",
+    "Chanel",
+    [
+     "Saint Laurent",
+     "ysl"
+    ],
+    "Celine",
+    "Balenciaga",
+    "Silhouette",
+    "Julbo",
+    "Revo",
+    "Randolph",
+    "Quay",
+    "Le Specs",
+    "Garrett Leight",
+    "Linda Farrow",
+    "Lacoste",
+    "Hawkers",
+    "Polaroid",
+    [
+     "Ic! Berlin",
+     "ic berlin"
+    ]
+   ]
+  },
+  {
+   "id": "xp-handbag-brands",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a handbag brand",
+   "answers": [
+    [
+     "Louis Vuitton",
+     "vuitton"
+    ],
+    "Gucci",
+    "Prada",
+    "Chanel",
+    [
+     "Hermès",
+     "hermes"
+    ],
+    "Fendi",
+    "Mulberry",
+    "Coach",
+    "Michael Kors",
+    "Kate Spade",
+    "Radley",
+    "Longchamp",
+    "Balenciaga",
+    "Burberry",
+    "Dior",
+    "Celine",
+    "Bottega Veneta",
+    "Loewe",
+    "Kipling",
+    "Lulu Guinness",
+    "Cath Kidston",
+    "Furla",
+    "Tory Burch",
+    "Marc Jacobs",
+    "Jimmy Choo",
+    "Anya Hindmarch",
+    "Strathberry",
+    [
+     "Cambridge Satchel Company",
+     "cambridge satchel"
+    ],
+    "Fossil",
+    "Tumi",
+    [
+     "Saint Laurent",
+     "ysl"
+    ],
+    "Valentino",
+    "Miu Miu",
+    "Givenchy",
+    [
+     "Tod's",
+     "tods"
+    ],
+    [
+     "Ferragamo",
+     "salvatore ferragamo"
+    ],
+    "MCM",
+    "Goyard",
+    "Delvaux",
+    [
+     "Aspinal of London",
+     "aspinal"
+    ],
+    "Ted Baker",
+    "Guess",
+    [
+     "Chloé",
+     "chloe"
+    ],
+    "Fiorelli",
+    [
+     "Osprey London",
+     "osprey"
+    ],
+    "Mansur Gavriel",
+    "Telfar",
+    "Bally",
+    "Lancel"
+   ]
+  },
+  {
+   "id": "xp-jewellery-brands",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a jewellery brand",
+   "answers": [
+    "Pandora",
+    [
+     "Tiffany & Co.",
+     "tiffany",
+     "tiffany and co"
+    ],
+    "Cartier",
+    "Swarovski",
+    [
+     "Bulgari",
+     "bvlgari"
+    ],
+    [
+     "Van Cleef & Arpels",
+     "van cleef"
+    ],
+    "Harry Winston",
+    "Graff",
+    "Boodles",
+    [
+     "Mappin & Webb",
+     "mappin and webb"
+    ],
+    "Goldsmiths",
+    "Ernest Jones",
+    [
+     "H. Samuel",
+     "h samuel",
+     "samuels"
+    ],
+    "Beaverbrooks",
+    "Monica Vinader",
+    "Links of London",
+    "Thomas Sabo",
+    "Chopard",
+    "David Yurman",
+    "Pomellato",
+    "Boucheron",
+    "Piaget",
+    "Garrard",
+    "Asprey",
+    "Theo Fennell",
+    "Astley Clarke",
+    "Missoma",
+    [
+     "Claire's",
+     "claires"
+    ],
+    "Accessorize",
+    "Trollbeads",
+    [
+     "Fabergé",
+     "faberge"
+    ],
+    "Mikimoto",
+    "Buccellati",
+    "Lola Rose",
+    "Olivia Burton",
+    "Daisy London",
+    "Orelia",
+    "Kit Heath",
+    "Clogau",
+    [
+     "Joma Jewellery",
+     "joma"
+    ],
+    "Argento",
+    "Tous",
+    "Dinny Hall",
+    "Annoushka"
+   ]
+  },
+  {
+   "id": "xp-tattoo-styles",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a tattoo style",
+   "answers": [
+    [
+     "Traditional",
+     "american traditional",
+     "old school"
+    ],
+    [
+     "Neo-traditional",
+     "neo traditional"
+    ],
+    [
+     "Japanese",
+     "irezumi"
+    ],
+    [
+     "Realism",
+     "realistic"
+    ],
+    "Blackwork",
+    [
+     "Dotwork",
+     "stippling"
+    ],
+    [
+     "Watercolour",
+     "watercolor"
+    ],
+    "Tribal",
+    "Geometric",
+    [
+     "Minimalist",
+     "fine line",
+     "fineline"
+    ],
+    "Portrait",
+    "Biomechanical",
+    "Trash Polka",
+    "New School",
+    "Illustrative",
+    [
+     "Lettering",
+     "script"
+    ],
+    "Chicano",
+    "Celtic",
+    [
+     "Maori",
+     "ta moko",
+     "moko"
+    ],
+    [
+     "Sketch",
+     "sketch style"
+    ],
+    "Surrealism",
+    "Polynesian",
+    "Ornamental",
+    [
+     "Black and Grey",
+     "black & grey",
+     "black and gray"
+    ],
+    "Cartoon",
+    "Pointillism",
+    "Mandala",
+    "Floral",
+    "Abstract",
+    [
+     "Cover-up",
+     "cover up"
+    ],
+    "Sailor Jerry",
+    "Anime",
+    [
+     "Linework",
+     "line work"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xp-nail-shapes",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a nail shape",
+   "answers": [
+    "Square",
+    "Round",
+    "Oval",
+    "Almond",
+    [
+     "Stiletto",
+     "pointed",
+     "pointy"
+    ],
+    [
+     "Coffin",
+     "ballerina"
+    ],
+    "Squoval",
+    "Lipstick",
+    "Edge",
+    [
+     "Mountain Peak",
+     "mountain"
+    ],
+    "Flare",
+    [
+     "Duck",
+     "duck feet"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xp-tie-styles",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a style of tie or formal neckwear",
+   "answers": [
+    [
+     "Necktie",
+     "tie",
+     "long tie",
+     "four-in-hand"
+    ],
+    [
+     "Bow Tie",
+     "bowtie",
+     "dickie bow",
+     "dicky bow",
+     "bow"
+    ],
+    "Cravat",
+    [
+     "Ascot",
+     "ascot tie"
+    ],
+    [
+     "Bolo Tie",
+     "bolo",
+     "bootlace tie",
+     "string tie",
+     "western tie"
+    ],
+    [
+     "Kipper Tie",
+     "kipper"
+    ],
+    [
+     "Skinny Tie",
+     "skinny"
+    ],
+    [
+     "Clip-on Tie",
+     "clip on",
+     "clip-on"
+    ],
+    [
+     "Knit Tie",
+     "knitted tie"
+    ],
+    [
+     "Regimental Tie",
+     "regimental"
+    ],
+    [
+     "Club Tie",
+     "club"
+    ],
+    [
+     "School Tie",
+     "old school tie",
+     "school"
+    ],
+    "Stock",
+    "Jabot",
+    "Neckerchief"
+   ]
+  },
+  {
+   "id": "xp-british-designers",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a British fashion designer",
+   "answers": [
+    [
+     "Vivienne Westwood",
+     "westwood"
+    ],
+    [
+     "Alexander McQueen",
+     "mcqueen"
+    ],
+    "Stella McCartney",
+    "Paul Smith",
+    [
+     "Mary Quant",
+     "quant"
+    ],
+    "Victoria Beckham",
+    "Matthew Williamson",
+    [
+     "Jasper Conran",
+     "conran"
+    ],
+    "Zandra Rhodes",
+    [
+     "John Galliano",
+     "galliano"
+    ],
+    [
+     "Hardy Amies",
+     "amies"
+    ],
+    [
+     "Norman Hartnell",
+     "hartnell"
+    ],
+    "Ossie Clark",
+    "Betty Jackson",
+    "Margaret Howell",
+    [
+     "Jonathan Anderson",
+     "jw anderson"
+    ],
+    "Christopher Kane",
+    "Molly Goddard",
+    [
+     "Grace Wales Bonner",
+     "wales bonner"
+    ],
+    "Richard Quinn",
+    "Jenny Packham",
+    "Julien Macdonald",
+    "Bruce Oldfield",
+    [
+     "Katharine Hamnett",
+     "hamnett"
+    ],
+    "Giles Deacon",
+    [
+     "Phoebe Philo",
+     "philo"
+    ],
+    [
+     "Hussein Chalayan",
+     "chalayan"
+    ],
+    "Gareth Pugh",
+    "Sarah Burton",
+    [
+     "Christopher Bailey",
+     "bailey"
+    ],
+    "Jean Muir",
+    "Bella Freud",
+    [
+     "Barbara Hulanicki",
+     "biba"
+    ],
+    "Laura Ashley",
+    [
+     "Thomas Burberry",
+     "burberry"
+    ],
+    "Anya Hindmarch",
+    "Tommy Nutter",
+    "Ozwald Boateng",
+    [
+     "Alice Temperley",
+     "temperley"
+    ],
+    "Henry Holland",
+    "Lulu Guinness",
+    "Holly Fulton",
+    "Nicholas Kirkwood",
+    [
+     "Charles Frederick Worth",
+     "worth"
+    ],
+    [
+     "Lucile",
+     "lady duff gordon"
+    ],
+    "Jimmy Choo"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xp-skincare-brands",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a skincare or beauty-care brand sold in the UK",
+   "answers": [
+    "Nivea",
+    "Dove",
+    "Olay",
+    "Simple",
+    "Garnier",
+    [
+     "L'Oréal",
+     "loreal",
+     "l'oreal"
+    ],
+    "Neutrogena",
+    "Clinique",
+    "Lush",
+    [
+     "The Body Shop",
+     "body shop"
+    ],
+    [
+     "La Roche-Posay",
+     "la roche posay"
+    ],
+    "CeraVe",
+    [
+     "The Ordinary",
+     "ordinary"
+    ],
+    "Elemis",
+    "Liz Earle",
+    [
+     "No7",
+     "no 7",
+     "boots no7"
+    ],
+    [
+     "Soap & Glory",
+     "soap and glory"
+    ],
+    "Aveeno",
+    "Vaseline",
+    [
+     "Pond's",
+     "ponds"
+    ],
+    "Clarins",
+    [
+     "Estée Lauder",
+     "estee lauder"
+    ],
+    "Aesop",
+    [
+     "Kiehl's",
+     "kiehls"
+    ],
+    "Origins",
+    "Glossier",
+    "Cetaphil",
+    "Eucerin",
+    [
+     "Avène",
+     "avene"
+    ],
+    "Bioderma",
+    [
+     "La Mer",
+     "creme de la mer"
+    ],
+    "Medik8",
+    [
+     "Paula's Choice",
+     "paulas choice"
+    ],
+    "Pixi",
+    [
+     "Decléor",
+     "decleor"
+    ],
+    "Nuxe",
+    "Weleda",
+    "Rodial",
+    [
+     "Sanctuary Spa",
+     "sanctuary"
+    ],
+    "Sudocrem",
+    [
+     "Johnson's",
+     "johnsons"
+    ],
+    "E45",
+    "Palmer's",
+    [
+     "Bio-Oil",
+     "bio oil"
+    ],
+    "Dermalogica",
+    "Drunk Elephant",
+    "Sunday Riley",
+    "Murad",
+    [
+     "Lancôme",
+     "lancome"
+    ],
+    "Dior",
+    [
+     "Ren",
+     "ren clean skincare"
+    ],
+    [
+     "Neal's Yard Remedies",
+     "neals yard"
+    ],
+    [
+     "Nip+Fab",
+     "nip and fab"
+    ]
+   ]
+  },
+  {
+   "id": "xp-lingerie-brands",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a lingerie or underwear brand",
+   "answers": [
+    [
+     "Marks & Spencer",
+     "marks and spencer",
+     "m&s"
+    ],
+    "Calvin Klein",
+    "Ann Summers",
+    [
+     "Victoria's Secret",
+     "victorias secret"
+    ],
+    "Agent Provocateur",
+    "Gossard",
+    "Triumph",
+    "Playtex",
+    "Wonderbra",
+    "Bluebella",
+    "Boux Avenue",
+    "Panache",
+    "Freya",
+    "Curvy Kate",
+    "Sloggi",
+    "Jockey",
+    "Hanro",
+    "La Perla",
+    "Bravissimo",
+    "Spanx",
+    "Intimissimi",
+    [
+     "Hunkemöller",
+     "hunkemoller"
+    ],
+    "Savage X Fenty",
+    "Skims",
+    "Maidenform",
+    "Berlei",
+    "Warners",
+    "Lovable",
+    "Charnos",
+    "Pretty Polly",
+    "Sock Shop",
+    "Bonds",
+    "Emporio Armani",
+    "Lise Charmel",
+    "Fantasie",
+    "Elomi",
+    "Chantelle",
+    "Aubade",
+    "Simone Perele",
+    "Wacoal",
+    "Lepel",
+    [
+     "Rigby & Peller",
+     "rigby and peller"
+    ]
+   ]
+  },
+  {
+   "id": "xp-jeans-brands",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a brand of jeans",
+   "answers": [
+    [
+     "Levi's",
+     "levis",
+     "levi"
+    ],
+    "Wrangler",
+    "Lee",
+    "Diesel",
+    "Replay",
+    [
+     "G-Star RAW",
+     "g-star",
+     "gstar"
+    ],
+    [
+     "Pepe Jeans",
+     "pepe"
+    ],
+    [
+     "Jack & Jones",
+     "jack and jones"
+    ],
+    "True Religion",
+    "Guess",
+    "Hudson",
+    "Nudie",
+    "Gap",
+    "Calvin Klein",
+    [
+     "Armani Jeans",
+     "armani"
+    ],
+    "Evisu",
+    "Edwin",
+    "Lois",
+    "Big Star",
+    "Mustang",
+    "Salsa",
+    "Fiorucci",
+    "Chipie",
+    "Lee Cooper",
+    "Falmer",
+    "Gloria Vanderbilt",
+    [
+     "Joe's Jeans",
+     "joes"
+    ],
+    [
+     "7 For All Mankind",
+     "seven for all mankind"
+    ],
+    "AG",
+    "Citizens of Humanity",
+    "Paige",
+    [
+     "Rag & Bone",
+     "rag and bone"
+    ],
+    "Frame",
+    "Mavi",
+    "Hollister",
+    [
+     "Abercrombie & Fitch",
+     "abercrombie"
+    ],
+    "Tommy Hilfiger",
+    "Ralph Lauren",
+    "Superdry",
+    "Miss Sixty",
+    "Energie",
+    "Killah",
+    "Bench"
+   ]
+  },
+  {
+   "id": "xp-glasses-shapes",
+   "tags": [
+    "style"
+   ],
+   "text": "Name a style or shape of glasses frame",
+   "answers": [
+    [
+     "Aviator",
+     "aviators"
+    ],
+    [
+     "Wayfarer",
+     "wayfarers"
+    ],
+    "Round",
+    [
+     "Cat-eye",
+     "cat eye",
+     "cateye"
+    ],
+    [
+     "Browline",
+     "clubmaster",
+     "clubmasters"
+    ],
+    "Oversized",
+    [
+     "Rectangle",
+     "rectangular"
+    ],
+    "Square",
+    "Shield",
+    [
+     "Wraparound",
+     "wrap"
+    ],
+    "Butterfly",
+    "Geometric",
+    [
+     "Hexagonal",
+     "hexagon"
+    ],
+    "Pilot",
+    "Navigator",
+    "Sport",
+    [
+     "Half-rim",
+     "half rim",
+     "semi-rimless"
+    ],
+    "Rimless",
+    "Oval",
+    [
+     "Panto",
+     "pantos"
+    ],
+    [
+     "Heart-shaped",
+     "heart shaped"
+    ],
+    "Pillow",
+    [
+     "Octagonal",
+     "octagon"
+    ],
+    "Keyhole",
+    "P3"
+   ]
+  },
+  {
+   "id": "xp-welsh-castles",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a castle in Wales",
+   "answers": [
+    [
+     "Cardiff",
+     "Cardiff castle"
+    ],
+    [
+     "Caernarfon",
+     "caernarvon",
+     "Caernarfon castle"
+    ],
+    [
+     "Conwy",
+     "conway",
+     "Conwy castle"
+    ],
+    [
+     "Harlech",
+     "Harlech castle"
+    ],
+    [
+     "Beaumaris",
+     "Beaumaris castle"
+    ],
+    [
+     "Caerphilly",
+     "Caerphilly castle"
+    ],
+    [
+     "Pembroke",
+     "Pembroke castle"
+    ],
+    [
+     "Chepstow",
+     "Chepstow castle"
+    ],
+    [
+     "Raglan",
+     "Raglan castle"
+    ],
+    [
+     "Powis",
+     "Powis castle"
+    ],
+    [
+     "Carreg Cennen",
+     "Carreg Cennen castle"
+    ],
+    [
+     "Kidwelly",
+     "Kidwelly castle"
+    ],
+    [
+     "Criccieth",
+     "Criccieth castle"
+    ],
+    [
+     "Rhuddlan",
+     "Rhuddlan castle"
+    ],
+    [
+     "Flint",
+     "Flint castle"
+    ],
+    [
+     "Denbigh",
+     "Denbigh castle"
+    ],
+    [
+     "Dolbadarn",
+     "Dolbadarn castle"
+    ],
+    [
+     "Dolwyddelan",
+     "Dolwyddelan castle"
+    ],
+    [
+     "Castell Coch",
+     "Castell Coch castle"
+    ],
+    [
+     "Penrhyn",
+     "Penrhyn castle"
+    ],
+    [
+     "Gwydir",
+     "Gwydir castle"
+    ],
+    [
+     "Manorbier",
+     "Manorbier castle"
+    ],
+    [
+     "Carew",
+     "Carew castle"
+    ],
+    [
+     "Laugharne",
+     "Laugharne castle"
+    ],
+    [
+     "Oystermouth",
+     "Oystermouth castle"
+    ],
+    [
+     "Skenfrith",
+     "Skenfrith castle"
+    ],
+    [
+     "Grosmont",
+     "Grosmont castle"
+    ],
+    [
+     "White Castle",
+     "White Castle castle"
+    ],
+    [
+     "Montgomery",
+     "Montgomery castle"
+    ],
+    [
+     "Chirk",
+     "Chirk castle"
+    ],
+    [
+     "Ogmore",
+     "Ogmore castle"
+    ],
+    [
+     "Dinefwr",
+     "Dinefwr castle"
+    ],
+    [
+     "Llansteffan",
+     "Llansteffan castle"
+    ],
+    [
+     "Cilgerran",
+     "Cilgerran castle"
+    ],
+    [
+     "Picton",
+     "Picton castle"
+    ],
+    [
+     "Tretower",
+     "Tretower castle"
+    ],
+    [
+     "Brecon",
+     "Brecon castle"
+    ],
+    [
+     "Ewloe",
+     "Ewloe castle"
+    ],
+    [
+     "Swansea",
+     "Swansea castle"
+    ],
+    [
+     "Newport",
+     "Newport castle"
+    ],
+    [
+     "St Donat's",
+     "st donats",
+     "st donat",
+     "St Donat's castle"
+    ],
+    [
+     "Ruthin",
+     "Ruthin castle"
+    ],
+    [
+     "Aberystwyth",
+     "Aberystwyth castle"
+    ],
+    [
+     "Abergavenny",
+     "Abergavenny castle"
+    ],
+    [
+     "Usk",
+     "Usk castle"
+    ],
+    [
+     "Dryslwyn",
+     "Dryslwyn castle"
+    ],
+    [
+     "Coity",
+     "Coity castle"
+    ],
+    [
+     "Hawarden",
+     "Hawarden castle"
+    ],
+    [
+     "Bronllys",
+     "Bronllys castle"
+    ],
+    [
+     "Weobley",
+     "Weobley castle"
+    ],
+    [
+     "Penhow",
+     "Penhow castle"
+    ],
+    [
+     "Candleston",
+     "Candleston castle"
+    ]
+   ]
+  },
+  {
+   "id": "xp-scottish-castles",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a castle in Scotland",
+   "answers": [
+    [
+     "Edinburgh",
+     "Edinburgh castle"
+    ],
+    [
+     "Stirling",
+     "Stirling castle"
+    ],
+    [
+     "Urquhart",
+     "Urquhart castle"
+    ],
+    [
+     "Eilean Donan",
+     "Eilean Donan castle"
+    ],
+    [
+     "Balmoral",
+     "Balmoral castle"
+    ],
+    [
+     "Glamis",
+     "Glamis castle"
+    ],
+    [
+     "Cawdor",
+     "Cawdor castle"
+    ],
+    [
+     "Inveraray",
+     "Inveraray castle"
+    ],
+    [
+     "Dunnottar",
+     "Dunnottar castle"
+    ],
+    [
+     "Culzean",
+     "Culzean castle"
+    ],
+    [
+     "Craigievar",
+     "Craigievar castle"
+    ],
+    [
+     "Blair",
+     "Blair castle"
+    ],
+    [
+     "Caerlaverock",
+     "Caerlaverock castle"
+    ],
+    [
+     "Dunrobin",
+     "Dunrobin castle"
+    ],
+    [
+     "Fyvie",
+     "Fyvie castle"
+    ],
+    [
+     "Kilchurn",
+     "Kilchurn castle"
+    ],
+    [
+     "Doune",
+     "Doune castle"
+    ],
+    [
+     "Tantallon",
+     "Tantallon castle"
+    ],
+    [
+     "Dunvegan",
+     "Dunvegan castle"
+    ],
+    [
+     "Crathes",
+     "Crathes castle"
+    ],
+    [
+     "Brodick",
+     "Brodick castle"
+    ],
+    [
+     "Craigmillar",
+     "Craigmillar castle"
+    ],
+    [
+     "Threave",
+     "Threave castle"
+    ],
+    [
+     "Duart",
+     "Duart castle"
+    ],
+    [
+     "Campbell",
+     "castle campbell",
+     "Campbell castle"
+    ],
+    [
+     "Dunstaffnage",
+     "Dunstaffnage castle"
+    ],
+    [
+     "Bothwell",
+     "Bothwell castle"
+    ],
+    [
+     "Kisimul",
+     "Kisimul castle"
+    ],
+    [
+     "Fraser",
+     "castle fraser",
+     "Fraser castle"
+    ],
+    [
+     "Floors",
+     "Floors castle"
+    ],
+    [
+     "Huntly",
+     "Huntly castle"
+    ],
+    [
+     "Slains",
+     "Slains castle"
+    ],
+    [
+     "Skibo",
+     "Skibo castle"
+    ],
+    [
+     "Ballindalloch",
+     "Ballindalloch castle"
+    ],
+    [
+     "Drum",
+     "Drum castle"
+    ],
+    [
+     "Kildrummy",
+     "Kildrummy castle"
+    ],
+    [
+     "Mingary",
+     "Mingary castle"
+    ],
+    [
+     "Rothesay",
+     "Rothesay castle"
+    ],
+    [
+     "Dumbarton",
+     "Dumbarton castle"
+    ],
+    [
+     "Dirleton",
+     "Dirleton castle"
+    ],
+    [
+     "Hermitage",
+     "Hermitage castle"
+    ],
+    [
+     "Lochleven",
+     "Lochleven castle"
+    ],
+    [
+     "Tioram",
+     "Tioram castle"
+    ],
+    [
+     "Braemar",
+     "Braemar castle"
+    ],
+    [
+     "Brodie",
+     "Brodie castle"
+    ],
+    [
+     "Stalker",
+     "castle stalker",
+     "Stalker castle"
+    ]
+   ]
+  },
+  {
+   "id": "xp-wedding-roles",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a person with a traditional role at a wedding",
+   "answers": [
+    "Bride",
+    [
+     "Groom",
+     "bridegroom"
+    ],
+    "Best Man",
+    "Bridesmaid",
+    [
+     "Maid of Honour",
+     "maid of honor",
+     "chief bridesmaid"
+    ],
+    "Usher",
+    [
+     "Groomsman",
+     "groomsmen"
+    ],
+    "Flower Girl",
+    [
+     "Page Boy",
+     "pageboy"
+    ],
+    [
+     "Father of the Bride",
+     "bride's father"
+    ],
+    [
+     "Mother of the Bride",
+     "bride's mother"
+    ],
+    "Registrar",
+    [
+     "Vicar",
+     "priest",
+     "minister",
+     "celebrant",
+     "officiant"
+    ],
+    "Witness",
+    "Ring Bearer",
+    [
+     "Toastmaster",
+     "master of ceremonies",
+     "mc"
+    ],
+    "Photographer",
+    [
+     "Matron of Honour",
+     "matron of honor"
+    ],
+    "Best Woman",
+    [
+     "Father of the Groom",
+     "groom's father"
+    ],
+    [
+     "Mother of the Groom",
+     "groom's mother"
+    ],
+    "Wedding Planner",
+    "Videographer",
+    "Organist",
+    "DJ",
+    "Florist",
+    "Wedding Singer"
+   ]
+  },
+  {
+   "id": "xp-uk-tv-channels",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a UK TV channel (as of 2025)",
+   "answers": [
+    [
+     "BBC One",
+     "bbc 1",
+     "bbc1"
+    ],
+    [
+     "BBC Two",
+     "bbc 2",
+     "bbc2"
+    ],
+    [
+     "ITV1",
+     "itv",
+     "itv 1"
+    ],
+    "Channel 4",
+    [
+     "Channel 5",
+     "five"
+    ],
+    "ITV2",
+    "ITV3",
+    "ITV4",
+    "ITVBe",
+    [
+     "BBC Three",
+     "bbc 3",
+     "bbc3"
+    ],
+    [
+     "BBC Four",
+     "bbc 4",
+     "bbc4"
+    ],
+    "E4",
+    [
+     "More4",
+     "more 4"
+    ],
+    [
+     "Film4",
+     "film 4"
+    ],
+    "Dave",
+    "Gold",
+    "Yesterday",
+    "Drama",
+    "W",
+    "Really",
+    "Quest",
+    "Sky Atlantic",
+    "Sky Showcase",
+    "Sky Witness",
+    "Sky Arts",
+    "Sky News",
+    "BBC News",
+    "GB News",
+    "Challenge",
+    "Comedy Central",
+    "CBBC",
+    "CBeebies",
+    "S4C",
+    [
+     "BBC Alba",
+     "alba"
+    ],
+    "STV",
+    "BBC Parliament",
+    "Pick",
+    "Alibi",
+    "MTV",
+    [
+     "Nickelodeon",
+     "nick"
+    ],
+    "Cartoon Network",
+    "Disney Channel",
+    "Sky Sports",
+    "TNT Sports",
+    "Eurosport",
+    "Premier Sports",
+    "Discovery",
+    [
+     "National Geographic",
+     "nat geo"
+    ],
+    "Good Food",
+    "Sky Max",
+    [
+     "5Star",
+     "5 star",
+     "five star"
+    ],
+    [
+     "5USA",
+     "5 usa",
+     "five usa"
+    ],
+    "Horror Channel",
+    "Great!",
+    [
+     "Talking Pictures TV",
+     "talking pictures"
+    ],
+    "Sky Crime",
+    "Sky Comedy",
+    "Sky Documentaries",
+    "Sky Nature",
+    "Sky History",
+    "Sky Mix",
+    "Sky Cinema",
+    "Blaze",
+    "Sony Movies",
+    "Food Network",
+    "BBC Scotland"
+   ]
+  },
+  {
+   "id": "xp-radio1-breakfast",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a presenter of the Radio 1 Breakfast Show (1967 to 2025)",
+   "answers": [
+    [
+     "Tony Blackburn",
+     "blackburn"
+    ],
+    [
+     "Noel Edmonds",
+     "edmonds"
+    ],
+    [
+     "Dave Lee Travis",
+     "dlt",
+     "travis"
+    ],
+    [
+     "Mike Read",
+     "read"
+    ],
+    [
+     "Mike Smith",
+     "smith"
+    ],
+    [
+     "Simon Mayo",
+     "mayo"
+    ],
+    [
+     "Mark Goodier",
+     "goodier"
+    ],
+    [
+     "Steve Wright",
+     "wright"
+    ],
+    [
+     "Chris Evans",
+     "evans"
+    ],
+    [
+     "Mark Radcliffe",
+     "radcliffe"
+    ],
+    [
+     "Marc Riley",
+     "riley"
+    ],
+    [
+     "Zoe Ball",
+     "ball"
+    ],
+    [
+     "Kevin Greening",
+     "greening"
+    ],
+    [
+     "Sara Cox",
+     "cox"
+    ],
+    [
+     "Chris Moyles",
+     "moyles"
+    ],
+    [
+     "Nick Grimshaw",
+     "grimmy",
+     "grimshaw"
+    ],
+    [
+     "Greg James",
+     "james"
+    ]
+   ],
+   "deep": true
+  },
+  {
+   "id": "xp-pantomimes",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a traditional British pantomime",
+   "answers": [
+    "Cinderella",
+    "Aladdin",
+    [
+     "Snow White and the Seven Dwarfs",
+     "snow white"
+    ],
+    "Peter Pan",
+    "Jack and the Beanstalk",
+    "Dick Whittington",
+    "Mother Goose",
+    "Sleeping Beauty",
+    "Puss in Boots",
+    "Babes in the Wood",
+    "Robin Hood",
+    [
+     "Goldilocks and the Three Bears",
+     "goldilocks"
+    ],
+    "Beauty and the Beast",
+    "Robinson Crusoe",
+    [
+     "Sinbad the Sailor",
+     "sinbad"
+    ],
+    "Humpty Dumpty",
+    "Treasure Island",
+    [
+     "Little Red Riding Hood",
+     "red riding hood"
+    ],
+    "Pinocchio",
+    [
+     "The Wizard of Oz",
+     "wizard of oz"
+    ],
+    [
+     "Ali Baba and the Forty Thieves",
+     "ali baba"
+    ],
+    [
+     "The Snow Queen",
+     "snow queen"
+    ],
+    "Rapunzel",
+    "Hansel and Gretel",
+    "Jack and Jill",
+    "Old King Cole",
+    [
+     "The Wind in the Willows",
+     "wind in the willows"
+    ],
+    [
+     "Alice in Wonderland",
+     "alice"
+    ],
+    [
+     "The Little Mermaid",
+     "little mermaid"
+    ],
+    "Rumpelstiltskin",
+    [
+     "The Pied Piper",
+     "pied piper"
+    ]
+   ]
+  },
+  {
+   "id": "xp-christmas-carols",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a Christmas carol",
+   "answers": [
+    "Silent Night",
+    [
+     "O Come All Ye Faithful",
+     "adeste fideles"
+    ],
+    [
+     "Hark! The Herald Angels Sing",
+     "hark the herald angels sing",
+     "hark the herald"
+    ],
+    "Away in a Manger",
+    [
+     "Once in Royal David's City",
+     "once in royal davids city"
+    ],
+    "Little Donkey",
+    "Good King Wenceslas",
+    [
+     "The Holly and the Ivy",
+     "holly and the ivy"
+    ],
+    "Joy to the World",
+    "O Little Town of Bethlehem",
+    [
+     "In the Bleak Midwinter",
+     "bleak midwinter"
+    ],
+    "We Three Kings",
+    [
+     "Ding Dong Merrily on High",
+     "ding dong merrily"
+    ],
+    "God Rest Ye Merry Gentlemen",
+    [
+     "The First Noel",
+     "first nowell",
+     "the first nowell"
+    ],
+    [
+     "While Shepherds Watched Their Flocks",
+     "while shepherds watched"
+    ],
+    "Deck the Halls",
+    "O Holy Night",
+    "Coventry Carol",
+    "I Saw Three Ships",
+    "Carol of the Bells",
+    "Gaudete",
+    "Zither Carol",
+    [
+     "Past Three O'Clock",
+     "past three oclock"
+    ],
+    "Angels from the Realms of Glory",
+    [
+     "See Amid the Winter's Snow",
+     "see amid the winters snow"
+    ],
+    "Unto Us a Boy Is Born",
+    [
+     "Mary's Boy Child",
+     "marys boy child"
+    ],
+    "Sussex Carol",
+    "Sans Day Carol",
+    [
+     "Here We Come a-Wassailing",
+     "wassail song",
+     "here we come a wassailing"
+    ],
+    [
+     "O Christmas Tree",
+     "o tannenbaum"
+    ],
+    "We Wish You a Merry Christmas",
+    "Jingle Bells",
+    [
+     "Infant Holy, Infant Lowly",
+     "infant holy"
+    ],
+    "It Came Upon the Midnight Clear",
+    [
+     "The Cherry Tree Carol",
+     "cherry tree carol"
+    ],
+    "Tomorrow Shall Be My Dancing Day",
+    [
+     "O Come, O Come, Emmanuel",
+     "o come o come emmanuel"
+    ]
+   ]
+  },
+  {
+   "id": "xp-hindu-festivals",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a Hindu festival",
+   "answers": [
+    [
+     "Diwali",
+     "deepavali",
+     "divali"
+    ],
+    "Holi",
+    [
+     "Navaratri",
+     "navratri"
+    ],
+    [
+     "Dussehra",
+     "vijayadashami",
+     "dasara"
+    ],
+    [
+     "Raksha Bandhan",
+     "rakhi"
+    ],
+    "Janmashtami",
+    [
+     "Ganesh Chaturthi",
+     "ganeshotsav"
+    ],
+    [
+     "Maha Shivaratri",
+     "shivaratri"
+    ],
+    "Durga Puja",
+    "Pongal",
+    "Onam",
+    "Ram Navami",
+    "Karva Chauth",
+    [
+     "Makar Sankranti",
+     "sankranti"
+    ],
+    "Ugadi",
+    "Hanuman Jayanti",
+    "Lohri",
+    "Teej",
+    [
+     "Chhath",
+     "chhath puja"
+    ],
+    "Kumbh Mela",
+    "Guru Purnima",
+    "Bhai Dooj",
+    "Dhanteras",
+    "Rath Yatra",
+    [
+     "Vasant Panchami",
+     "basant panchami"
+    ],
+    "Gudi Padwa",
+    [
+     "Vaisakhi",
+     "baisakhi"
+    ],
+    "Thaipusam",
+    "Mahalaya",
+    "Vishu",
+    "Bihu",
+    "Akshaya Tritiya",
+    "Kali Puja",
+    "Lakshmi Puja",
+    "Saraswati Puja",
+    "Govardhan Puja"
+   ]
+  },
+  {
+   "id": "xp-strictly-dances",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a dance style performed on Strictly Come Dancing (2004 to 2025)",
+   "answers": [
+    [
+     "Cha-cha-cha",
+     "cha cha cha",
+     "cha cha"
+    ],
+    "Waltz",
+    "Foxtrot",
+    "Quickstep",
+    "Tango",
+    "Viennese Waltz",
+    "Rumba",
+    [
+     "Paso Doble",
+     "paso"
+    ],
+    "Jive",
+    "Samba",
+    "American Smooth",
+    "Salsa",
+    "Charleston",
+    "Argentine Tango",
+    [
+     "Couple's Choice",
+     "couples choice"
+    ],
+    [
+     "Street/Commercial",
+     "street commercial",
+     "street",
+     "commercial"
+    ],
+    [
+     "Showdance",
+     "show dance"
+    ]
+   ]
+  },
+  {
+   "id": "xp-royal-residences",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a royal palace or residence in the UK, past or present",
+   "answers": [
+    "Buckingham Palace",
+    [
+     "Windsor Castle",
+     "windsor"
+    ],
+    [
+     "Balmoral",
+     "balmoral castle"
+    ],
+    [
+     "Sandringham",
+     "sandringham house"
+    ],
+    [
+     "Palace of Holyroodhouse",
+     "holyroodhouse",
+     "holyrood"
+    ],
+    "Clarence House",
+    "Kensington Palace",
+    [
+     "Highgrove",
+     "highgrove house"
+    ],
+    [
+     "Hillsborough Castle",
+     "hillsborough"
+    ],
+    "Gatcombe Park",
+    "Birkhall",
+    [
+     "St James's Palace",
+     "st jamess palace",
+     "st james palace"
+    ],
+    [
+     "Hampton Court Palace",
+     "hampton court"
+    ],
+    "Anmer Hall",
+    "Adelaide Cottage",
+    [
+     "Frogmore Cottage",
+     "frogmore house",
+     "frogmore"
+    ],
+    "Royal Lodge",
+    "Bagshot Park",
+    "Kew Palace",
+    [
+     "Royal Pavilion",
+     "brighton pavilion"
+    ],
+    [
+     "Osborne House",
+     "osborne"
+    ],
+    "Castle of Mey",
+    "Llwynywermod",
+    "Tower of London",
+    "Craigowan Lodge",
+    "Whitehall Palace",
+    "Nonsuch Palace",
+    "Eltham Palace",
+    "Richmond Palace",
+    [
+     "Greenwich Palace",
+     "placentia"
+    ],
+    "Linlithgow Palace",
+    "Falkland Palace"
+   ]
+  },
+  {
+   "id": "xp-british-folk-customs",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a traditional British custom, festival or ceremony",
+   "answers": [
+    [
+     "Morris Dancing",
+     "morris"
+    ],
+    [
+     "Maypole Dancing",
+     "maypole"
+    ],
+    "Cheese Rolling",
+    [
+     "Bonfire Night",
+     "guy fawkes night"
+    ],
+    [
+     "Pancake Race",
+     "pancake day race"
+    ],
+    "Burning of the Clocks",
+    "Up Helly Aa",
+    [
+     "Obby Oss",
+     "padstow obby oss"
+    ],
+    "Well Dressing",
+    [
+     "Mummers Play",
+     "mummers' play"
+    ],
+    [
+     "Wassailing",
+     "wassail"
+    ],
+    "Beating the Bounds",
+    [
+     "Shrovetide Football",
+     "royal shrovetide football"
+    ],
+    "Hogmanay",
+    "Burns Night",
+    "Haxey Hood",
+    "Bog Snorkelling",
+    "Egg Rolling",
+    [
+     "World Conker Championships",
+     "conker championships"
+    ],
+    [
+     "Ottery Tar Barrels",
+     "tar barrels"
+    ],
+    [
+     "Furry Dance",
+     "helston furry dance",
+     "flora day"
+    ],
+    "Swan Upping",
+    "Trooping the Colour",
+    "Eisteddfod",
+    "Mari Lwyd",
+    [
+     "Straw Bear Festival",
+     "straw bear"
+    ],
+    "Jack in the Green",
+    "Burry Man",
+    "Pace Egging",
+    "Dunmow Flitch",
+    "Ceremony of the Keys",
+    "Beltane",
+    "Lewes Bonfire",
+    [
+     "Horn Dance",
+     "abbots bromley horn dance"
+    ],
+    [
+     "Man v Horse",
+     "man versus horse"
+    ],
+    "Changing of the Guard",
+    "State Opening of Parliament",
+    [
+     "Edinburgh Tattoo",
+     "military tattoo"
+    ],
+    "Notting Hill Carnival",
+    "Highland Games"
+   ],
+   "deep": true
+  },
+  {
+   "id": "xp-london-museums",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a museum or art gallery in London",
+   "answers": [
+    "British Museum",
+    "Natural History Museum",
+    "Science Museum",
+    [
+     "V&A",
+     "victoria and albert museum",
+     "victoria & albert museum",
+     "victoria and albert"
+    ],
+    "Tate Modern",
+    "Tate Britain",
+    "National Gallery",
+    "National Portrait Gallery",
+    [
+     "Imperial War Museum",
+     "iwm"
+    ],
+    "Museum of London",
+    [
+     "Horniman Museum",
+     "horniman"
+    ],
+    "Wallace Collection",
+    "Design Museum",
+    [
+     "Saatchi Gallery",
+     "saatchi"
+    ],
+    [
+     "Serpentine Gallery",
+     "serpentine"
+    ],
+    [
+     "Courtauld Gallery",
+     "courtauld"
+    ],
+    [
+     "Royal Academy",
+     "royal academy of arts"
+    ],
+    [
+     "Hayward Gallery",
+     "hayward"
+    ],
+    [
+     "Sir John Soane's Museum",
+     "soane's museum",
+     "sir john soanes museum",
+     "soane museum"
+    ],
+    "Foundling Museum",
+    "Wellcome Collection",
+    "Cutty Sark",
+    "National Maritime Museum",
+    [
+     "Madame Tussauds",
+     "madame tussaud's"
+    ],
+    [
+     "Churchill War Rooms",
+     "cabinet war rooms"
+    ],
+    [
+     "Museum of the Home",
+     "geffrye museum"
+    ],
+    "London Transport Museum",
+    "Florence Nightingale Museum",
+    "Bank of England Museum",
+    "Whitechapel Gallery",
+    "Barbican Art Gallery",
+    "Postal Museum",
+    "Jewish Museum",
+    "Freud Museum",
+    "Dr Johnson's House",
+    [
+     "Handel & Hendrix in London",
+     "handel hendrix"
+    ],
+    "RAF Museum",
+    "Royal Observatory",
+    "Dulwich Picture Gallery",
+    "Leighton House",
+    "HMS Belfast",
+    "Sherlock Holmes Museum",
+    "Museum of Brands",
+    "Garden Museum",
+    "Fan Museum",
+    "Petrie Museum",
+    "Grant Museum of Zoology",
+    "Hunterian Museum",
+    "Museum of Docklands",
+    "Photographers' Gallery",
+    "Somerset House",
+    [
+     "ICA",
+     "institute of contemporary arts"
+    ],
+    [
+     "Cartoon Museum",
+     "the cartoon museum"
+    ],
+    "Fashion and Textile Museum",
+    "Kenwood House"
+   ]
+  }
+ ]
 }

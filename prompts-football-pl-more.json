@@ -1,7480 +1,7462 @@
 {
-"cat": "football",
-"prompts": [
-{
-"id": "fpl-golden-glove",
-"tags": [
-"pl"
-],
-"text": "Name a Premier League Golden Glove winner",
-"eraText": "Name a goalkeeper who won the Premier League Golden Glove for a season that began in the {era}",
-"answers": [
-[
-"Petr Čech",
-"Cech",
-"Čech"
-],
-[
-"Alisson",
-"Alisson Becker"
-],
-[
-"Ederson",
-"Ederson Moraes"
-],
-[
-"David de Gea",
-"De Gea",
-"Gea",
-"de Gea"
-],
-[
-"Joe Hart",
-"Hart"
-],
-[
-"Pepe Reina",
-"Jose Reina",
-"Reina"
-],
-[
-"Thibaut Courtois",
-"Courtois"
-],
-[
-"David Raya",
-"Raya"
-],
-[
-"Edwin van der Sar",
-"Van der Sar",
-"Sar",
-"van der Sar"
-],
-[
-"Wojciech Szczęsny",
-"Szczesny",
-"Chesney",
-"Szczęsny"
-],
-[
-"Matz Sels",
-"Mats Sels",
-"Sels"
-]
-],
-"eras": {
-"Petr Čech": [
-"00s",
-"10s"
-],
-"Alisson": [
-"10s",
-"20s"
-],
-"Ederson": [
-"10s",
-"20s"
-],
-"David de Gea": [
-"10s",
-"20s"
-],
-"Joe Hart": [
-"10s"
-],
-"Pepe Reina": [
-"00s"
-],
-"Thibaut Courtois": [
-"10s"
-],
-"David Raya": [
-"20s"
-],
-"Edwin van der Sar": [
-"00s"
-],
-"Wojciech Szczęsny": [
-"10s"
-],
-"Matz Sels": [
-"20s"
-]
-}
-},
-{
-"id": "fpl-top-assist-season",
-"tags": [
-"pl"
-],
-"text": "Name a player who has been the Premier League's top assist provider in a season",
-"eraText": "Name a player who was the Premier League's top assist provider in a season that began in the {era}",
-"answers": [
-[
-"Kevin De Bruyne",
-"KDB",
-"De Bruyne",
-"Bruyne"
-],
-[
-"Mohamed Salah",
-"Salah"
-],
-[
-"Harry Kane",
-"Kane"
-],
-[
-"Steven Gerrard",
-"Gerrard"
-],
-[
-"Frank Lampard",
-"Lampard"
-],
-[
-"Wayne Rooney",
-"Rooney"
-],
-[
-"David Beckham",
-"Becks",
-"Beckham"
-],
-[
-"Cesc Fabregas",
-"Fabregas"
-],
-[
-"Thierry Henry",
-"Henry"
-],
-[
-"Eden Hazard",
-"Hazard"
-],
-[
-"Bruno Fernandes",
-"Bruno",
-"Fernandes"
-],
-[
-"Mesut Ozil",
-"Ozil"
-],
-[
-"Eric Cantona",
-"Cantona"
-],
-[
-"Dennis Bergkamp",
-"Bergkamp"
-],
-[
-"Didier Drogba",
-"Drogba"
-],
-[
-"Luis Suarez",
-"Suarez"
-],
-[
-"Robin van Persie",
-"Persie",
-"van Persie"
-],
-[
-"David Silva",
-"Silva"
-],
-[
-"Ollie Watkins",
-"Oliver Watkins",
-"Watkins"
-],
-[
-"Juan Mata",
-"Mata"
-],
-[
-"Andy Cole",
-"Cole"
-],
-[
-"Robert Pires",
-"Pires"
-],
-[
-"Steve McManaman",
-"McManaman"
-],
-"Nani",
-[
-"Matt Le Tissier",
-"Tissier",
-"Le Tissier"
-],
-[
-"Jimmy Floyd Hasselbaink",
-"Jimmy Hasselbaink",
-"Hasselbaink"
-],
-[
-"Nolberto Solano",
-"Solano"
-],
-[
-"Muzzy Izzet",
-"Mustafa Izzet",
-"Izzet"
-]
-],
-"eras": {
-"Kevin De Bruyne": [
-"10s",
-"20s"
-],
-"Mohamed Salah": [
-"20s"
-],
-"Harry Kane": [
-"20s"
-],
-"Steven Gerrard": [
-"10s"
-],
-"Frank Lampard": [
-"00s"
-],
-"Wayne Rooney": [
-"00s"
-],
-"David Beckham": [
-"90s",
-"00s"
-],
-"Cesc Fabregas": [
-"00s",
-"10s"
-],
-"Thierry Henry": [
-"00s"
-],
-"Eden Hazard": [
-"10s"
-],
-"Bruno Fernandes": [
-"20s"
-],
-"Mesut Ozil": [
-"10s"
-],
-"Eric Cantona": [
-"90s"
-],
-"Dennis Bergkamp": [
-"90s"
-],
-"Didier Drogba": [
-"00s"
-],
-"Luis Suarez": [
-"10s"
-],
-"Robin van Persie": [
-"00s"
-],
-"David Silva": [
-"10s"
-],
-"Ollie Watkins": [
-"20s"
-],
-"Juan Mata": [
-"10s"
-],
-"Andy Cole": [
-"90s"
-],
-"Robert Pires": [
-"00s"
-],
-"Steve McManaman": [
-"90s"
-],
-"Nani": [
-"10s"
-],
-"Matt Le Tissier": [
-"90s"
-],
-"Jimmy Floyd Hasselbaink": [
-"90s"
-],
-"Nolberto Solano": [
-"90s"
-],
-"Muzzy Izzet": [
-"00s"
-]
-}
-},
-{
-"id": "fpl-four-goals-match",
-"tags": [
-"pl"
-],
-"text": "Name a player who has scored four or more goals in a Premier League match",
-"eraText": "Name a player who scored four or more goals in a Premier League match in the {era}",
-"answers": [
-[
-"Alan Shearer",
-"Shearer"
-],
-[
-"Harry Kane",
-"Kane"
-],
-[
-"Wayne Rooney",
-"Rooney"
-],
-[
-"Mohamed Salah",
-"Salah"
-],
-[
-"Andy Cole",
-"Cole"
-],
-[
-"Sergio Agüero",
-"Kun Aguero",
-"Aguero",
-"Agüero"
-],
-[
-"Frank Lampard",
-"Lampard"
-],
-[
-"Thierry Henry",
-"Henry"
-],
-[
-"Robbie Fowler",
-"Fowler"
-],
-[
-"Jermain Defoe",
-"Defoe"
-],
-[
-"Michael Owen",
-"Owen"
-],
-[
-"Jimmy Floyd Hasselbaink",
-"Jimmy Hasselbaink",
-"Hasselbaink"
-],
-[
-"Son Heung-min",
-"Sonny",
-"min"
-],
-[
-"Robbie Keane",
-"Keane"
-],
-[
-"Romelu Lukaku",
-"Lukaku"
-],
-[
-"Erling Haaland",
-"Haaland"
-],
-"Yakubu",
-[
-"Dimitar Berbatov",
-"Berbatov"
-],
-[
-"Mark Viduka",
-"Viduka"
-],
-[
-"Ole Gunnar Solskjær",
-"Solskjaer",
-"Ole",
-"Solskjær"
-],
-[
-"Louis Saha",
-"Saha"
-],
-[
-"Gabriel Jesus",
-"Jesus"
-],
-[
-"Kevin De Bruyne",
-"Bruyne",
-"De Bruyne"
-],
-[
-"Luis Suárez",
-"Suárez"
-],
-[
-"Michail Antonio",
-"Antonio"
-],
-[
-"Efan Ekoku",
-"Ekoku"
-],
-[
-"Edin Džeko",
-"Dzeko",
-"Džeko"
-],
-[
-"Cole Palmer",
-"Palmer"
-],
-[
-"Jürgen Klinsmann",
-"Klinsmann"
-],
-[
-"Georginio Wijnaldum",
-"Wijnaldum"
-],
-[
-"Andrei Arshavin",
-"Andrey Arshavin",
-"Arshavin"
-],
-[
-"Gianluca Vialli",
-"Vialli"
-]
-],
-"eras": {
-"Alan Shearer": [
-"90s"
-],
-"Harry Kane": [
-"10s"
-],
-"Wayne Rooney": [
-"10s"
-],
-"Mohamed Salah": [
-"10s"
-],
-"Andy Cole": [
-"90s"
-],
-"Sergio Agüero": [
-"10s"
-],
-"Frank Lampard": [
-"00s",
-"10s"
-],
-"Thierry Henry": [
-"00s"
-],
-"Robbie Fowler": [
-"90s"
-],
-"Jermain Defoe": [
-"00s"
-],
-"Michael Owen": [
-"90s",
-"00s"
-],
-"Jimmy Floyd Hasselbaink": [
-"00s"
-],
-"Son Heung-min": [
-"20s"
-],
-"Robbie Keane": [
-"00s"
-],
-"Romelu Lukaku": [
-"10s"
-],
-"Erling Haaland": [
-"20s"
-],
-"Yakubu": [
-"00s",
-"10s"
-],
-"Dimitar Berbatov": [
-"00s",
-"10s"
-],
-"Mark Viduka": [
-"00s"
-],
-"Ole Gunnar Solskjær": [
-"90s"
-],
-"Louis Saha": [
-"10s"
-],
-"Gabriel Jesus": [
-"20s"
-],
-"Kevin De Bruyne": [
-"20s"
-],
-"Luis Suárez": [
-"10s"
-],
-"Michail Antonio": [
-"20s"
-],
-"Efan Ekoku": [
-"90s"
-],
-"Edin Džeko": [
-"10s"
-],
-"Cole Palmer": [
-"20s"
-],
-"Jürgen Klinsmann": [
-"90s"
-],
-"Georginio Wijnaldum": [
-"10s"
-],
-"Andrei Arshavin": [
-"00s"
-],
-"Gianluca Vialli": [
-"90s"
-]
-}
-},
-{
-"id": "fpl-title-managers",
-"tags": [
-"pl"
-],
-"text": "Name a manager who has won the Premier League title",
-"eraText": "Name a manager who won the Premier League title in a season that began in the {era}",
-"answers": [
-[
-"Alex Ferguson",
-"Sir Alex Ferguson",
-"Fergie",
-"Ferguson"
-],
-[
-"Pep Guardiola",
-"Pep",
-"Guardiola"
-],
-[
-"Jürgen Klopp",
-"Klopp"
-],
-[
-"José Mourinho",
-"Mourinho"
-],
-[
-"Arsène Wenger",
-"Wenger"
-],
-[
-"Claudio Ranieri",
-"Ranieri"
-],
-[
-"Mikel Arteta",
-"Arteta"
-],
-[
-"Arne Slot",
-"Slot"
-],
-[
-"Antonio Conte",
-"Conte"
-],
-[
-"Carlo Ancelotti",
-"Ancelotti"
-],
-[
-"Roberto Mancini",
-"Mancini"
-],
-[
-"Manuel Pellegrini",
-"Pellegrini"
-],
-[
-"Kenny Dalglish",
-"Dalglish"
-]
-],
-"eras": {
-"Alex Ferguson": [
-"90s",
-"00s",
-"10s"
-],
-"Pep Guardiola": [
-"10s",
-"20s"
-],
-"Jürgen Klopp": [
-"10s"
-],
-"José Mourinho": [
-"00s",
-"10s"
-],
-"Arsène Wenger": [
-"90s",
-"00s"
-],
-"Claudio Ranieri": [
-"10s"
-],
-"Mikel Arteta": [
-"20s"
-],
-"Arne Slot": [
-"20s"
-],
-"Antonio Conte": [
-"10s"
-],
-"Carlo Ancelotti": [
-"00s"
-],
-"Roberto Mancini": [
-"10s"
-],
-"Manuel Pellegrini": [
-"10s"
-],
-"Kenny Dalglish": [
-"90s"
-]
-}
-},
-{
-"id": "fpl-finished-bottom",
-"tags": [
-"pl"
-],
-"text": "Name a club that has finished bottom of the Premier League (1992-93 to 2025-26)",
-"eraText": "Name a club that finished bottom of the Premier League in a season that began in the {era}",
-"answers": [
-[
-"Derby County",
-"Derby"
-],
-"Sunderland",
-[
-"Southampton",
-"Saints"
-],
-[
-"Wolverhampton Wanderers",
-"Wolves",
-"Wolverhampton"
-],
-[
-"Norwich City",
-"Norwich"
-],
-[
-"Sheffield United",
-"Sheff Utd",
-"Sheffield Utd",
-"Blades"
-],
-[
-"West Bromwich Albion",
-"West Brom",
-"WBA"
-],
-[
-"Leicester City",
-"Leicester"
-],
-[
-"Aston Villa",
-"Villa"
-],
-[
-"Queens Park Rangers",
-"QPR"
-],
-[
-"Huddersfield Town",
-"Huddersfield"
-],
-[
-"Cardiff City",
-"Cardiff"
-],
-[
-"Portsmouth",
-"Pompey"
-],
-[
-"West Ham United",
-"West Ham"
-],
-"Watford",
-[
-"Bradford City",
-"Bradford"
-],
-[
-"Ipswich Town",
-"Ipswich"
-],
-[
-"Nottingham Forest",
-"Forest",
-"Notts Forest"
-],
-[
-"Swindon Town",
-"Swindon"
-],
-[
-"Bolton Wanderers",
-"Bolton"
-],
-[
-"Crystal Palace",
-"Palace"
-]
-],
-"eras": {
-"Derby County": [
-"00s"
-],
-"Sunderland": [
-"00s",
-"10s"
-],
-"Southampton": [
-"00s",
-"20s"
-],
-"Wolverhampton Wanderers": [
-"00s",
-"10s",
-"20s"
-],
-"Norwich City": [
-"10s",
-"20s"
-],
-"Sheffield United": [
-"20s"
-],
-"West Bromwich Albion": [
-"00s",
-"10s"
-],
-"Leicester City": [
-"00s"
-],
-"Aston Villa": [
-"10s"
-],
-"Queens Park Rangers": [
-"10s"
-],
-"Huddersfield Town": [
-"10s"
-],
-"Cardiff City": [
-"10s"
-],
-"Portsmouth": [
-"00s"
-],
-"West Ham United": [
-"10s"
-],
-"Watford": [
-"90s",
-"00s"
-],
-"Bradford City": [
-"00s"
-],
-"Ipswich Town": [
-"90s"
-],
-"Nottingham Forest": [
-"90s"
-],
-"Swindon Town": [
-"90s"
-],
-"Bolton Wanderers": [
-"90s"
-],
-"Crystal Palace": [
-"90s"
-]
-}
-},
-{
-"id": "fpl-promoted-play-offs",
-"tags": [
-"pl"
-],
-"text": "Name a club that has won promotion to the Premier League through the Championship play-offs (1992 to 2026)",
-"deep": true,
-"eraText": "Name a club that won promotion to the Premier League through the play-offs in the {era}",
-"answers": [
-[
-"West Ham United",
-"West Ham"
-],
-[
-"Crystal Palace",
-"Palace"
-],
-[
-"Aston Villa",
-"Villa"
-],
-[
-"Leicester City",
-"Leicester"
-],
-"Fulham",
-[
-"Hull City",
-"Hull"
-],
-[
-"Nottingham Forest",
-"Forest",
-"Notts Forest"
-],
-[
-"Southampton",
-"Saints"
-],
-"Sunderland",
-"Brentford",
-[
-"Norwich City",
-"Norwich"
-],
-[
-"Swansea City",
-"Swansea"
-],
-"Burnley",
-[
-"Wolverhampton Wanderers",
-"Wolves",
-"Wolverhampton"
-],
-[
-"Blackburn Rovers",
-"Blackburn",
-"Rovers"
-],
-"Watford",
-[
-"Derby County",
-"Derby"
-],
-[
-"Bolton Wanderers",
-"Bolton"
-],
-[
-"Queens Park Rangers",
-"QPR"
-],
-[
-"Huddersfield Town",
-"Huddersfield"
-],
-[
-"Luton Town",
-"Luton"
-],
-[
-"Ipswich Town",
-"Ipswich"
-],
-[
-"Birmingham City",
-"Birmingham",
-"Brum"
-],
-"Blackpool",
-[
-"Charlton Athletic",
-"Charlton"
-],
-[
-"Swindon Town",
-"Swindon"
-]
-],
-"eras": {
-"West Ham United": [
-"00s",
-"10s"
-],
-"Crystal Palace": [
-"90s",
-"00s",
-"10s"
-],
-"Aston Villa": [
-"10s"
-],
-"Leicester City": [
-"90s"
-],
-"Fulham": [
-"10s",
-"20s"
-],
-"Hull City": [
-"00s",
-"10s",
-"20s"
-],
-"Nottingham Forest": [
-"20s"
-],
-"Southampton": [
-"20s"
-],
-"Sunderland": [
-"20s"
-],
-"Brentford": [
-"20s"
-],
-"Norwich City": [
-"10s"
-],
-"Swansea City": [
-"10s"
-],
-"Burnley": [
-"00s"
-],
-"Wolverhampton Wanderers": [
-"00s"
-],
-"Blackburn Rovers": [
-"90s"
-],
-"Watford": [
-"90s",
-"00s"
-],
-"Derby County": [
-"00s"
-],
-"Bolton Wanderers": [
-"90s",
-"00s"
-],
-"Queens Park Rangers": [
-"10s"
-],
-"Huddersfield Town": [
-"10s"
-],
-"Luton Town": [
-"20s"
-],
-"Ipswich Town": [
-"00s"
-],
-"Birmingham City": [
-"00s"
-],
-"Blackpool": [
-"10s"
-],
-"Charlton Athletic": [
-"90s"
-],
-"Swindon Town": [
-"90s"
-]
-}
-},
-{
-"id": "fpl-top-four-finish",
-"tags": [
-"pl"
-],
-"text": "Name a club that has finished in the top four of the Premier League (1992-93 to 2025-26)",
-"eraText": "Name a club that finished in the Premier League's top four in a season that began in the {era}",
-"answers": [
-[
-"Manchester United",
-"Man Utd",
-"Man United",
-"Manchester Utd",
-"United"
-],
-"Arsenal",
-"Chelsea",
-"Liverpool",
-[
-"Manchester City",
-"Man City",
-"City"
-],
-[
-"Tottenham Hotspur",
-"Tottenham",
-"Spurs"
-],
-[
-"Newcastle United",
-"Newcastle",
-"Newcastle Utd"
-],
-[
-"Leicester City",
-"Leicester"
-],
-[
-"Aston Villa",
-"Villa"
-],
-"Everton",
-[
-"Leeds United",
-"Leeds"
-],
-[
-"Blackburn Rovers",
-"Blackburn",
-"Rovers"
-],
-[
-"Nottingham Forest",
-"Forest",
-"Notts Forest"
-],
-[
-"Norwich City",
-"Norwich"
-]
-],
-"eras": {
-"Manchester United": [
-"90s",
-"00s",
-"10s",
-"20s"
-],
-"Arsenal": [
-"90s",
-"00s",
-"10s",
-"20s"
-],
-"Chelsea": [
-"90s",
-"00s",
-"10s",
-"20s"
-],
-"Liverpool": [
-"90s",
-"00s",
-"10s",
-"20s"
-],
-"Manchester City": [
-"10s",
-"20s"
-],
-"Tottenham Hotspur": [
-"00s",
-"10s",
-"20s"
-],
-"Newcastle United": [
-"90s",
-"00s",
-"20s"
-],
-"Leicester City": [
-"10s"
-],
-"Aston Villa": [
-"90s",
-"20s"
-],
-"Everton": [
-"00s"
-],
-"Leeds United": [
-"90s",
-"00s"
-],
-"Blackburn Rovers": [
-"90s"
-],
-"Nottingham Forest": [
-"90s"
-],
-"Norwich City": [
-"90s"
-]
-}
-},
-{
-"id": "fpl-clubs-2026-27",
-"tags": [
-"pl"
-],
-"text": "Name a club in the 2026-27 Premier League",
-"answers": [
-"Arsenal",
-[
-"Manchester City",
-"Man City",
-"City"
-],
-"Liverpool",
-[
-"Manchester United",
-"Man Utd",
-"Man United",
-"Manchester Utd",
-"United"
-],
-"Chelsea",
-[
-"Tottenham Hotspur",
-"Tottenham",
-"Spurs"
-],
-[
-"Newcastle United",
-"Newcastle",
-"Newcastle Utd"
-],
-[
-"Aston Villa",
-"Villa"
-],
-"Everton",
-[
-"Brighton & Hove Albion",
-"Brighton"
-],
-"Fulham",
-[
-"Crystal Palace",
-"Palace"
-],
-"Brentford",
-[
-"Nottingham Forest",
-"Forest",
-"Notts Forest"
-],
-[
-"Leeds United",
-"Leeds"
-],
-[
-"Bournemouth",
-"AFC Bournemouth"
-],
-"Sunderland",
-[
-"Ipswich Town",
-"Ipswich"
-],
-[
-"Coventry City",
-"Coventry"
-],
-[
-"Hull City",
-"Hull"
-]
-]
-},
-{
-"id": "fpl-five-red-cards",
-"tags": [
-"pl"
-],
-"text": "Name a player who has received five or more Premier League red cards",
-"deep": true,
-"eraText": "Name a player with five or more career Premier League red cards who was sent off in a season that began in the {era}",
-"answers": [
-[
-"Andy Cole",
-"Andrew Cole",
-"Cole"
-],
-[
-"Steven Gerrard",
-"Gerrard"
-],
-[
-"Gareth Barry",
-"Barry"
-],
-[
-"Mark Noble",
-"Noble"
-],
-[
-"John Terry",
-"Terry"
-],
-[
-"Dion Dublin",
-"Dublin"
-],
-[
-"Nicky Butt",
-"Butt"
-],
-[
-"Roy Keane",
-"Keane"
-],
-[
-"Richard Dunne",
-"Dunne"
-],
-[
-"Jonjo Shelvey",
-"Shelvey"
-],
-[
-"Lewis Dunk",
-"Dunk"
-],
-[
-"Scott Parker",
-"Parker"
-],
-[
-"George Boateng",
-"Boateng"
-],
-[
-"Duncan Ferguson",
-"Ferguson"
-],
-[
-"Alan Smith",
-"Smith"
-],
-[
-"Patrick Vieira",
-"Vieira"
-],
-[
-"Ugo Ehiogu",
-"Ehiogu"
-],
-[
-"Luís Boa Morte",
-"Morte"
-],
-[
-"Paul Konchesky",
-"Konchesky"
-],
-[
-"Dennis Wise",
-"Wise"
-],
-[
-"Jason Wilcox",
-"Wilcox"
-],
-[
-"Laurent Koscielny",
-"Koscielny"
-],
-[
-"Joey Barton",
-"Barton"
-],
-[
-"Ryan Shawcross",
-"Shawcross"
-],
-[
-"Martin Keown",
-"Keown"
-],
-[
-"Wes Brown",
-"Brown"
-],
-[
-"Frank Sinclair",
-"Sinclair"
-],
-[
-"Carlton Palmer",
-"Palmer"
-],
-[
-"Lee Cattermole",
-"Cattermole"
-],
-[
-"David Batty",
-"Batty"
-],
-[
-"Tom Huddlestone",
-"Huddlestone"
-],
-[
-"John Hartson",
-"Hartson"
-],
-[
-"Steve Lomas",
-"Lomas"
-],
-[
-"Tugay Kerimoglu",
-"Kerimoglu"
-],
-[
-"Francis Benali",
-"Benali"
-],
-[
-"Nemanja Vidic",
-"Vidic"
-],
-[
-"Franck Queudrue",
-"Queudrue"
-],
-[
-"Younes Kaboul",
-"Kaboul"
-],
-[
-"Vinnie Jones",
-"Jones"
-],
-[
-"Frank Leboeuf",
-"Leboeuf"
-],
-[
-"Nikolaos Dabizas",
-"Dabizas"
-]
-],
-"eras": {
-"Andy Cole": [
-"90s",
-"00s"
-],
-"Steven Gerrard": [
-"90s",
-"00s",
-"10s"
-],
-"Gareth Barry": [
-"00s",
-"10s"
-],
-"Mark Noble": [
-"00s",
-"10s"
-],
-"John Terry": [
-"00s",
-"10s"
-],
-"Dion Dublin": [
-"90s",
-"00s"
-],
-"Nicky Butt": [
-"90s",
-"00s"
-],
-"Roy Keane": [
-"90s",
-"00s"
-],
-"Richard Dunne": [
-"90s",
-"00s"
-],
-"Jonjo Shelvey": [
-"10s",
-"20s"
-],
-"Lewis Dunk": [
-"10s",
-"20s"
-],
-"Scott Parker": [
-"00s",
-"10s"
-],
-"George Boateng": [
-"90s",
-"00s"
-],
-"Duncan Ferguson": [
-"90s",
-"00s"
-],
-"Alan Smith": [
-"90s",
-"00s"
-],
-"Patrick Vieira": [
-"90s",
-"00s"
-],
-"Ugo Ehiogu": [
-"90s",
-"00s"
-],
-"Luís Boa Morte": [
-"90s",
-"00s"
-],
-"Paul Konchesky": [
-"00s",
-"10s"
-],
-"Dennis Wise": [
-"90s",
-"00s"
-],
-"Jason Wilcox": [
-"90s"
-],
-"Laurent Koscielny": [
-"10s"
-],
-"Joey Barton": [
-"00s",
-"10s"
-],
-"Ryan Shawcross": [
-"00s",
-"10s"
-],
-"Martin Keown": [
-"90s",
-"00s"
-],
-"Wes Brown": [
-"00s",
-"10s"
-],
-"Frank Sinclair": [
-"90s"
-],
-"Carlton Palmer": [
-"90s",
-"00s"
-],
-"Lee Cattermole": [
-"00s",
-"10s"
-],
-"David Batty": [
-"90s",
-"00s"
-],
-"Tom Huddlestone": [
-"10s"
-],
-"John Hartson": [
-"90s"
-],
-"Steve Lomas": [
-"90s",
-"00s"
-],
-"Tugay Kerimoglu": [
-"00s"
-],
-"Francis Benali": [
-"90s"
-],
-"Nemanja Vidic": [
-"00s",
-"10s"
-],
-"Franck Queudrue": [
-"00s"
-],
-"Younes Kaboul": [
-"00s",
-"10s"
-],
-"Vinnie Jones": [
-"90s"
-],
-"Frank Leboeuf": [
-"90s"
-],
-"Nikolaos Dabizas": [
-"90s",
-"00s"
-]
-}
-},
-{
-"id": "fpl-gk-50-clean-sheets",
-"tags": [
-"pl"
-],
-"text": "Name a goalkeeper with 50 or more Premier League clean sheets",
-"deep": true,
-"eraText": "Name a goalkeeper with 50 or more career Premier League clean sheets who played in the Premier League in a season that began in the {era}",
-"answers": [
-[
-"David James",
-"James"
-],
-[
-"Petr Cech",
-"Cech"
-],
-[
-"David de Gea",
-"Gea",
-"de Gea"
-],
-[
-"Mark Schwarzer",
-"Schwarzer"
-],
-[
-"Ben Foster",
-"Foster"
-],
-[
-"Lukasz Fabianski",
-"Fabianski"
-],
-[
-"Jordan Pickford",
-"Pickford"
-],
-[
-"Brad Friedel",
-"Friedel"
-],
-[
-"Shay Given",
-"Given"
-],
-[
-"Hugo Lloris",
-"Lloris"
-],
-[
-"Jussi Jääskeläinen",
-"Jääskeläinen"
-],
-[
-"Joe Hart",
-"Hart"
-],
-[
-"Tim Howard",
-"Howard"
-],
-[
-"Paul Robinson",
-"Robinson"
-],
-[
-"Pepe Reina",
-"Reina"
-],
-[
-"Nigel Martyn",
-"Martyn"
-],
-[
-"Thomas Sørensen",
-"Sørensen"
-],
-"Kasper Schmeichel",
-"Ederson",
-[
-"David Seaman",
-"Seaman"
-],
-[
-"Alisson",
-"Alisson Becker"
-],
-[
-"Bernd Leno",
-"Leno"
-],
-[
-"Asmir Begovic",
-"Begovic"
-],
-"Peter Schmeichel",
-[
-"Edwin van der Sar",
-"Van der Sar",
-"Sar",
-"van der Sar"
-],
-[
-"Ian Walker",
-"Walker"
-],
-[
-"Nick Pope",
-"Pope"
-],
-[
-"Emiliano Martinez",
-"Dibu Martinez",
-"Martinez"
-],
-[
-"Tim Flowers",
-"Flowers"
-],
-[
-"Tim Krul",
-"Krul"
-],
-[
-"Robert Green",
-"Green"
-],
-[
-"Neil Sullivan",
-"Sullivan"
-],
-[
-"Martin Dúbravka",
-"Dúbravka"
-],
-[
-"Simon Mignolet",
-"Mignolet"
-],
-[
-"David Raya",
-"Raya"
-],
-[
-"Shaka Hislop",
-"Hislop"
-],
-[
-"Paul Jones",
-"Jones"
-],
-[
-"Neville Southall",
-"Southall"
-],
-[
-"Mark Bosnich",
-"Bosnich"
-],
-[
-"Mark Crossley",
-"Crossley"
-],
-[
-"Kasey Keller",
-"Keller"
-],
-[
-"Dean Kiely",
-"Kiely"
-],
-[
-"Heurelho Gomes",
-"Gomes"
-],
-[
-"Steve Ogrizovic",
-"Ogrizovic"
-],
-[
-"Carlo Cudicini",
-"Cudicini"
-],
-[
-"Jens Lehmann",
-"Lehmann"
-],
-[
-"John Lukic",
-"Lukic"
-]
-],
-"eras": {
-"David James": [
-"90s",
-"00s"
-],
-"Petr Cech": [
-"00s",
-"10s"
-],
-"David de Gea": [
-"10s",
-"20s"
-],
-"Mark Schwarzer": [
-"90s",
-"00s",
-"10s"
-],
-"Ben Foster": [
-"00s",
-"10s",
-"20s"
-],
-"Lukasz Fabianski": [
-"00s",
-"10s",
-"20s"
-],
-"Jordan Pickford": [
-"10s",
-"20s"
-],
-"Brad Friedel": [
-"90s",
-"00s",
-"10s"
-],
-"Shay Given": [
-"90s",
-"00s",
-"10s"
-],
-"Hugo Lloris": [
-"10s",
-"20s"
-],
-"Jussi Jääskeläinen": [
-"00s",
-"10s"
-],
-"Joe Hart": [
-"00s",
-"10s"
-],
-"Tim Howard": [
-"00s",
-"10s"
-],
-"Paul Robinson": [
-"90s",
-"00s",
-"10s"
-],
-"Pepe Reina": [
-"00s",
-"10s"
-],
-"Nigel Martyn": [
-"90s",
-"00s"
-],
-"Thomas Sørensen": [
-"90s",
-"00s",
-"10s"
-],
-"Kasper Schmeichel": [
-"00s",
-"10s",
-"20s"
-],
-"Ederson": [
-"10s",
-"20s"
-],
-"David Seaman": [
-"90s",
-"00s"
-],
-"Alisson": [
-"10s",
-"20s"
-],
-"Bernd Leno": [
-"10s",
-"20s"
-],
-"Asmir Begovic": [
-"00s",
-"10s",
-"20s"
-],
-"Peter Schmeichel": [
-"90s",
-"00s"
-],
-"Edwin van der Sar": [
-"00s",
-"10s"
-],
-"Ian Walker": [
-"90s",
-"00s"
-],
-"Nick Pope": [
-"10s",
-"20s"
-],
-"Emiliano Martinez": [
-"10s",
-"20s"
-],
-"Tim Flowers": [
-"90s",
-"00s"
-],
-"Tim Krul": [
-"10s",
-"20s"
-],
-"Robert Green": [
-"00s",
-"10s"
-],
-"Neil Sullivan": [
-"90s",
-"00s"
-],
-"Martin Dúbravka": [
-"10s",
-"20s"
-],
-"Simon Mignolet": [
-"10s"
-],
-"David Raya": [
-"20s"
-],
-"Shaka Hislop": [
-"90s",
-"00s"
-],
-"Paul Jones": [
-"90s",
-"00s"
-],
-"Neville Southall": [
-"90s"
-],
-"Mark Bosnich": [
-"90s",
-"00s"
-],
-"Mark Crossley": [
-"90s",
-"00s"
-],
-"Kasey Keller": [
-"90s",
-"00s"
-],
-"Dean Kiely": [
-"00s"
-],
-"Heurelho Gomes": [
-"00s",
-"10s"
-],
-"Steve Ogrizovic": [
-"90s"
-],
-"Carlo Cudicini": [
-"90s",
-"00s",
-"10s"
-],
-"Jens Lehmann": [
-"00s",
-"10s"
-],
-"John Lukic": [
-"90s",
-"00s"
-]
-}
-},
-{
-"id": "fpl-assists-50",
-"tags": [
-"pl"
-],
-"text": "Name a player with 50 or more Premier League assists",
-"eraText": "Name a player with 50 or more career Premier League assists who played in the Premier League in a season that began in the {era}",
-"answers": [
-[
-"James Milner",
-"Milner"
-],
-[
-"Frank Lampard",
-"Lampard"
-],
-[
-"Alan Shearer",
-"Shearer"
-],
-[
-"Ryan Giggs",
-"Giggs"
-],
-[
-"Mohamed Salah",
-"Salah"
-],
-[
-"Wayne Rooney",
-"Rooney"
-],
-[
-"Peter Crouch",
-"Crouch"
-],
-[
-"Raheem Sterling",
-"Sterling"
-],
-[
-"Andy Cole",
-"Andrew Cole",
-"Cole"
-],
-[
-"Steven Gerrard",
-"Gerrard"
-],
-[
-"Ashley Young",
-"Young"
-],
-[
-"Gareth Barry",
-"Barry"
-],
-[
-"Son Heung-min",
-"Sonny",
-"min"
-],
-[
-"Emile Heskey",
-"Heskey"
-],
-[
-"Teddy Sheringham",
-"Sheringham"
-],
-[
-"Paul Scholes",
-"Scholes"
-],
-[
-"Theo Walcott",
-"Walcott"
-],
-[
-"Jordan Henderson",
-"Henderson"
-],
-[
-"Cesc Fàbregas",
-"Fàbregas"
-],
-[
-"Kevin De Bruyne",
-"Bruyne",
-"De Bruyne"
-],
-[
-"Thierry Henry",
-"Henry"
-],
-[
-"Kevin Davies",
-"Davies"
-],
-[
-"Aaron Lennon",
-"Lennon"
-],
-[
-"Leighton Baines",
-"Baines"
-],
-[
-"Dwight Yorke",
-"Yorke"
-],
-"David Silva",
-[
-"Riyad Mahrez",
-"Mahrez"
-],
-[
-"Gylfi Sigurdsson",
-"Sigurdsson"
-],
-[
-"Christian Eriksen",
-"Eriksen"
-],
-[
-"Robin van Persie",
-"Persie",
-"van Persie"
-],
-[
-"Jimmy Floyd Hasselbaink",
-"Jimmy Hasselbaink",
-"Hasselbaink"
-],
-[
-"Roberto Firmino",
-"Firmino"
-],
-[
-"Eden Hazard",
-"Hazard"
-],
-[
-"Dennis Bergkamp",
-"Bergkamp"
-],
-[
-"Bruno Fernandes",
-"Fernandes"
-],
-[
-"Danny Murphy",
-"Murphy"
-],
-"Bernardo Silva",
-[
-"Damien Duff",
-"Duff"
-],
-[
-"Juan Mata",
-"Mata"
-],
-[
-"Stewart Downing",
-"Downing"
-],
-[
-"Andy Robertson",
-"Robertson"
-],
-[
-"Matt Le Tissier",
-"Matthew Le Tissier",
-"Le God",
-"Tissier",
-"Le Tissier"
-],
-[
-"Didier Drogba",
-"Drogba"
-],
-[
-"Bukayo Saka",
-"Saka"
-],
-[
-"Nick Barmby",
-"Barmby"
-],
-[
-"Pascal Groß",
-"Groß"
-],
-[
-"Steed Malbranque",
-"Malbranque"
-],
-[
-"David Beckham",
-"Beckham"
-],
-[
-"Nolberto Solano",
-"Solano"
-],
-[
-"Darren Anderton",
-"Anderton"
-],
-[
-"Trent Alexander-Arnold",
-"Arnold"
-],
-[
-"Steve McManaman",
-"McManaman"
-],
-[
-"Mesut Özil",
-"Özil"
-],
-[
-"Eric Cantona",
-"Cantona"
-]
-],
-"eras": {
-"James Milner": [
-"00s",
-"10s",
-"20s"
-],
-"Frank Lampard": [
-"90s",
-"00s",
-"10s"
-],
-"Alan Shearer": [
-"90s",
-"00s"
-],
-"Ryan Giggs": [
-"90s",
-"00s",
-"10s"
-],
-"Mohamed Salah": [
-"10s",
-"20s"
-],
-"Wayne Rooney": [
-"00s",
-"10s"
-],
-"Peter Crouch": [
-"00s",
-"10s"
-],
-"Raheem Sterling": [
-"10s",
-"20s"
-],
-"Andy Cole": [
-"90s",
-"00s"
-],
-"Steven Gerrard": [
-"90s",
-"00s",
-"10s"
-],
-"Ashley Young": [
-"00s",
-"10s",
-"20s"
-],
-"Gareth Barry": [
-"90s",
-"00s",
-"10s"
-],
-"Son Heung-min": [
-"10s",
-"20s"
-],
-"Emile Heskey": [
-"90s",
-"00s",
-"10s"
-],
-"Teddy Sheringham": [
-"90s",
-"00s"
-],
-"Paul Scholes": [
-"90s",
-"00s",
-"10s"
-],
-"Theo Walcott": [
-"00s",
-"10s",
-"20s"
-],
-"Jordan Henderson": [
-"00s",
-"10s",
-"20s"
-],
-"Cesc Fàbregas": [
-"00s",
-"10s"
-],
-"Kevin De Bruyne": [
-"10s",
-"20s"
-],
-"Thierry Henry": [
-"90s",
-"00s",
-"10s"
-],
-"Kevin Davies": [
-"90s",
-"00s",
-"10s"
-],
-"Aaron Lennon": [
-"00s",
-"10s",
-"20s"
-],
-"Leighton Baines": [
-"00s",
-"10s"
-],
-"Dwight Yorke": [
-"90s",
-"00s"
-],
-"David Silva": [
-"10s"
-],
-"Riyad Mahrez": [
-"10s",
-"20s"
-],
-"Gylfi Sigurdsson": [
-"10s",
-"20s"
-],
-"Christian Eriksen": [
-"10s",
-"20s"
-],
-"Robin van Persie": [
-"00s",
-"10s"
-],
-"Jimmy Floyd Hasselbaink": [
-"90s",
-"00s"
-],
-"Roberto Firmino": [
-"10s",
-"20s"
-],
-"Eden Hazard": [
-"10s"
-],
-"Dennis Bergkamp": [
-"90s",
-"00s"
-],
-"Bruno Fernandes": [
-"10s",
-"20s"
-],
-"Danny Murphy": [
-"90s",
-"00s",
-"10s"
-],
-"Bernardo Silva": [
-"10s",
-"20s"
-],
-"Damien Duff": [
-"90s",
-"00s",
-"10s"
-],
-"Juan Mata": [
-"10s",
-"20s"
-],
-"Stewart Downing": [
-"00s",
-"10s"
-],
-"Andy Robertson": [
-"10s",
-"20s"
-],
-"Matt Le Tissier": [
-"90s",
-"00s"
-],
-"Didier Drogba": [
-"00s",
-"10s"
-],
-"Bukayo Saka": [
-"10s",
-"20s"
-],
-"Nick Barmby": [
-"90s",
-"00s"
-],
-"Pascal Groß": [
-"10s",
-"20s"
-],
-"Steed Malbranque": [
-"00s",
-"10s"
-],
-"David Beckham": [
-"90s",
-"00s"
-],
-"Nolberto Solano": [
-"90s",
-"00s"
-],
-"Darren Anderton": [
-"90s",
-"00s"
-],
-"Trent Alexander-Arnold": [
-"10s",
-"20s"
-],
-"Steve McManaman": [
-"90s",
-"00s"
-],
-"Mesut Özil": [
-"10s"
-],
-"Eric Cantona": [
-"90s"
-]
-}
-},
-{
-"id": "fpl-goals-10-2025-26",
-"tags": [
-"pl"
-],
-"text": "Name a player who scored 10 or more Premier League goals in 2025-26",
-"answers": [
-[
-"Erling Haaland",
-"Haaland"
-],
-[
-"Igor Thiago",
-"Thiago"
-],
-[
-"Antoine Semenyo",
-"Semenyo"
-],
-[
-"Ollie Watkins",
-"Watkins"
-],
-[
-"João Pedro",
-"Pedro"
-],
-[
-"Morgan Gibbs-White",
-"White"
-],
-[
-"Dominic Calvert-Lewin",
-"Lewin"
-],
-[
-"Viktor Gyökeres",
-"Gyökeres"
-],
-[
-"Junior Kroupi",
-"Kroupi"
-],
-[
-"Danny Welbeck",
-"Welbeck"
-],
-[
-"Jean-Philippe Mateta",
-"Mateta"
-],
-[
-"Bryan Mbeumo",
-"Mbeumo"
-],
-[
-"Zian Flemming",
-"Flemming"
-],
-[
-"Benjamin Sesko",
-"Sesko"
-],
-"Richarlison",
-[
-"Hugo Ekitiké",
-"Ekitiké"
-],
-[
-"Morgan Rogers",
-"Rogers"
-],
-[
-"Cole Palmer",
-"Palmer"
-],
-[
-"Enzo Fernández",
-"Fernández"
-],
-[
-"Matheus Cunha",
-"Cunha"
-],
-[
-"Harry Wilson",
-"Wilson"
-]
-]
-},
-{
-"id": "fpl-arsenal-chelsea",
-"tags": [
-"pl"
-],
-"text": "Name a player who has played in the Premier League for both Arsenal and Chelsea",
-"eraText": "Name a player who played in the Premier League for both Arsenal and Chelsea, with an appearance for one of them in a season that began in the {era}",
-"answers": [
-[
-"Raheem Sterling",
-"Sterling"
-],
-[
-"Cesc Fàbregas",
-"Fàbregas"
-],
-[
-"Nicolas Anelka",
-"Anelka"
-],
-"Willian",
-[
-"Olivier Giroud",
-"Giroud"
-],
-[
-"Petr Cech",
-"Cech"
-],
-[
-"Ashley Cole",
-"Cole"
-],
-[
-"William Gallas",
-"Gallas"
-],
-[
-"Pierre-Emerick Aubameyang",
-"Auba",
-"Aubameyang"
-],
-[
-"Kai Havertz",
-"Havertz"
-],
-[
-"David Luiz",
-"Luiz"
-],
-"Jorginho",
-[
-"Yossi Benayoun",
-"Benayoun"
-],
-[
-"Emmanuel Petit",
-"Petit"
-],
-[
-"Kepa Arrizabalaga",
-"Kepa",
-"Arrizabalaga"
-],
-[
-"Noni Madueke",
-"Madueke"
-],
-[
-"Lassana Diarra",
-"Diarra"
-]
-],
-"eras": {
-"Raheem Sterling": [
-"20s"
-],
-"Cesc Fàbregas": [
-"00s",
-"10s"
-],
-"Nicolas Anelka": [
-"90s",
-"00s",
-"10s"
-],
-"Willian": [
-"10s",
-"20s"
-],
-"Olivier Giroud": [
-"10s",
-"20s"
-],
-"Petr Cech": [
-"00s",
-"10s"
-],
-"Ashley Cole": [
-"90s",
-"00s",
-"10s"
-],
-"William Gallas": [
-"00s"
-],
-"Pierre-Emerick Aubameyang": [
-"10s",
-"20s"
-],
-"Kai Havertz": [
-"20s"
-],
-"David Luiz": [
-"10s",
-"20s"
-],
-"Jorginho": [
-"10s",
-"20s"
-],
-"Yossi Benayoun": [
-"10s"
-],
-"Emmanuel Petit": [
-"90s",
-"00s"
-],
-"Kepa Arrizabalaga": [
-"10s",
-"20s"
-],
-"Noni Madueke": [
-"20s"
-],
-"Lassana Diarra": [
-"00s"
-]
-}
-},
-{
-"id": "fpl-chelsea-man-city",
-"tags": [
-"pl"
-],
-"text": "Name a player who has played in the Premier League for both Chelsea and Man City",
-"eraText": "Name a player who played in the Premier League for both Chelsea and Man City, with an appearance for one of them in a season that began in the {era}",
-"answers": [
-[
-"Frank Lampard",
-"Lampard"
-],
-[
-"Raheem Sterling",
-"Sterling"
-],
-[
-"Kevin De Bruyne",
-"Bruyne",
-"De Bruyne"
-],
-[
-"Nicolas Anelka",
-"Anelka"
-],
-[
-"Daniel Sturridge",
-"Sturridge"
-],
-[
-"Shaun Wright-Phillips",
-"Phillips"
-],
-[
-"Nathan Aké",
-"Aké"
-],
-[
-"Wayne Bridge",
-"Bridge"
-],
-[
-"Mateo Kovacic",
-"Kovacic"
-],
-[
-"Cole Palmer",
-"Palmer"
-],
-[
-"Enzo Fernández",
-"Fernández"
-],
-[
-"Terry Phelan",
-"Phelan"
-],
-[
-"Tal Ben Haim",
-"Haim",
-"Ben Haim"
-],
-[
-"Scott Sinclair",
-"Sinclair"
-],
-[
-"Liam Delap",
-"Delap"
-],
-[
-"David Rocastle",
-"Rocastle"
-],
-[
-"Danny Granville",
-"Granville"
-],
-[
-"Laurent Charvet",
-"Charvet"
-],
-[
-"Willy Caballero",
-"Caballero"
-],
-[
-"George Weah",
-"Weah"
-]
-],
-"eras": {
-"Frank Lampard": [
-"00s",
-"10s"
-],
-"Raheem Sterling": [
-"10s",
-"20s"
-],
-"Kevin De Bruyne": [
-"10s",
-"20s"
-],
-"Nicolas Anelka": [
-"00s",
-"10s"
-],
-"Daniel Sturridge": [
-"00s",
-"10s"
-],
-"Shaun Wright-Phillips": [
-"00s",
-"10s"
-],
-"Nathan Aké": [
-"10s",
-"20s"
-],
-"Wayne Bridge": [
-"00s",
-"10s"
-],
-"Mateo Kovacic": [
-"10s",
-"20s"
-],
-"Cole Palmer": [
-"20s"
-],
-"Enzo Fernández": [
-"20s"
-],
-"Terry Phelan": [
-"90s"
-],
-"Tal Ben Haim": [
-"00s"
-],
-"Scott Sinclair": [
-"00s",
-"10s"
-],
-"Liam Delap": [
-"20s"
-],
-"David Rocastle": [
-"90s"
-],
-"Danny Granville": [
-"90s",
-"00s"
-],
-"Laurent Charvet": [
-"90s",
-"00s"
-],
-"Willy Caballero": [
-"10s",
-"20s"
-],
-"George Weah": [
-"90s",
-"00s"
-]
-}
-},
-{
-"id": "fpl-liverpool-man-city",
-"tags": [
-"pl"
-],
-"text": "Name a player who has played in the Premier League for both Liverpool and Man City",
-"eraText": "Name a player who played in the Premier League for both Liverpool and Man City, with an appearance for one of them in a season that began in the {era}",
-"answers": [
-[
-"James Milner",
-"Milner"
-],
-[
-"Raheem Sterling",
-"Sterling"
-],
-[
-"Robbie Fowler",
-"Fowler"
-],
-[
-"Nicolas Anelka",
-"Anelka"
-],
-[
-"David James",
-"James"
-],
-[
-"Daniel Sturridge",
-"Sturridge"
-],
-[
-"Craig Bellamy",
-"Bellamy"
-],
-[
-"Steve McManaman",
-"McManaman"
-],
-[
-"Kolo Touré",
-"Touré"
-],
-[
-"Dietmar Hamann",
-"Hamann"
-],
-[
-"Scott Carson",
-"Carson"
-],
-[
-"Nigel Clough",
-"Clough"
-],
-[
-"Mario Balotelli",
-"Balotelli"
-],
-[
-"Mark Kennedy",
-"Kennedy"
-],
-[
-"Albert Riera",
-"Riera"
-]
-],
-"eras": {
-"James Milner": [
-"10s",
-"20s"
-],
-"Raheem Sterling": [
-"10s",
-"20s"
-],
-"Robbie Fowler": [
-"90s",
-"00s"
-],
-"Nicolas Anelka": [
-"00s"
-],
-"David James": [
-"90s",
-"00s"
-],
-"Daniel Sturridge": [
-"00s",
-"10s"
-],
-"Craig Bellamy": [
-"00s",
-"10s"
-],
-"Steve McManaman": [
-"90s",
-"00s"
-],
-"Kolo Touré": [
-"00s",
-"10s"
-],
-"Dietmar Hamann": [
-"90s",
-"00s"
-],
-"Scott Carson": [
-"00s",
-"20s"
-],
-"Nigel Clough": [
-"90s"
-],
-"Mario Balotelli": [
-"10s"
-],
-"Mark Kennedy": [
-"90s",
-"00s"
-],
-"Albert Riera": [
-"00s"
-]
-}
-},
-{
-"id": "fpl-liverpool-spurs",
-"tags": [
-"pl"
-],
-"text": "Name a player who has played in the Premier League for both Liverpool and Spurs",
-"deep": true,
-"eraText": "Name a player who played in the Premier League for both Liverpool and Spurs, with an appearance for one of them in a season that began in the {era}",
-"answers": [
-[
-"Peter Crouch",
-"Crouch"
-],
-[
-"Robbie Keane",
-"Keane"
-],
-[
-"Danny Murphy",
-"Murphy"
-],
-[
-"Andy Robertson",
-"Robertson"
-],
-[
-"Nick Barmby",
-"Barmby"
-],
-[
-"Brad Friedel",
-"Friedel"
-],
-[
-"Paul Konchesky",
-"Konchesky"
-],
-[
-"Jamie Redknapp",
-"Redknapp"
-],
-[
-"Dominic Solanke",
-"Solanke"
-],
-[
-"Oyvind Leonhardsen",
-"Leonhardsen"
-],
-[
-"Neil Ruddock",
-"Ruddock"
-],
-[
-"John Scales",
-"Scales"
-],
-[
-"Ronny Rosenthal",
-"Rosenthal"
-],
-[
-"Steven Caulker",
-"Caulker"
-],
-[
-"Christian Ziege",
-"Ziege"
-]
-],
-"eras": {
-"Peter Crouch": [
-"00s",
-"10s"
-],
-"Robbie Keane": [
-"00s",
-"10s"
-],
-"Danny Murphy": [
-"90s",
-"00s"
-],
-"Andy Robertson": [
-"10s",
-"20s"
-],
-"Nick Barmby": [
-"90s",
-"00s"
-],
-"Brad Friedel": [
-"90s",
-"10s"
-],
-"Paul Konchesky": [
-"00s",
-"10s"
-],
-"Jamie Redknapp": [
-"90s",
-"00s"
-],
-"Dominic Solanke": [
-"10s",
-"20s"
-],
-"Oyvind Leonhardsen": [
-"90s",
-"00s"
-],
-"Neil Ruddock": [
-"90s"
-],
-"John Scales": [
-"90s"
-],
-"Ronny Rosenthal": [
-"90s"
-],
-"Steven Caulker": [
-"10s"
-],
-"Christian Ziege": [
-"00s"
-]
-}
-},
-{
-"id": "fpl-dutch",
-"tags": [
-"pl"
-],
-"text": "Name a Dutch player who has played in the Premier League",
-"eraText": "Name a Dutch player who played in the Premier League in a season that began in the {era}",
-"answers": [
-[
-"Robin van Persie",
-"Persie",
-"van Persie"
-],
-[
-"Jimmy Floyd Hasselbaink",
-"Jimmy Hasselbaink",
-"Hasselbaink"
-],
-[
-"Dennis Bergkamp",
-"Bergkamp"
-],
-[
-"Virgil van Dijk",
-"Dijk",
-"van Dijk"
-],
-[
-"George Boateng",
-"Boateng"
-],
-[
-"Nathan Aké",
-"Aké"
-],
-[
-"Georginio Wijnaldum",
-"Wijnaldum"
-],
-[
-"Ruud van Nistelrooy",
-"Ruud",
-"Van Nistelrooy",
-"Nistelrooy",
-"van Nistelrooy"
-],
-[
-"Patrick van Aanholt",
-"Aanholt",
-"van Aanholt"
-],
-[
-"Dirk Kuyt",
-"Kuyt"
-],
-[
-"Edwin van der Sar",
-"Van der Sar",
-"Sar",
-"van der Sar"
-],
-[
-"Mario Melchiot",
-"Melchiot"
-],
-[
-"Erik Pieters",
-"Pieters"
-],
-[
-"Tim Krul",
-"Krul"
-],
-[
-"Cody Gakpo",
-"Gakpo"
-],
-[
-"Boudewijn Zenden",
-"Zenden"
-],
-[
-"Joël Veltman",
-"Veltman"
-],
-[
-"Ken Monkou",
-"Monkou"
-],
-[
-"Daryl Janmaat",
-"Janmaat"
-],
-[
-"Ryan Babel",
-"Babel"
-],
-"Justin Kluivert",
-[
-"Marc Overmars",
-"Overmars"
-],
-[
-"Pascal Struijk",
-"Struijk"
-],
-[
-"Jan Paul van Hecke",
-"Hecke",
-"van Hecke"
-],
-[
-"Kenny Tete",
-"Tete"
-],
-[
-"Leroy Fer",
-"Fer"
-],
-[
-"Arjan de Zeeuw",
-"Zeeuw",
-"de Zeeuw"
-],
-[
-"Ryan Gravenberch",
-"Gravenberch"
-],
-[
-"Davy Pröpper",
-"Pröpper"
-],
-[
-"Bryan Roy",
-"Roy"
-],
-[
-"John Heitinga",
-"Heitinga"
-],
-[
-"Collins John",
-"John"
-],
-[
-"Crysencio Summerville",
-"Summerville"
-],
-[
-"Anwar El Ghazi",
-"Ghazi",
-"El Ghazi"
-],
-[
-"Bart Verbruggen",
-"Verbruggen"
-],
-[
-"Michel Vorm",
-"Vorm"
-],
-[
-"Sven Botman",
-"Botman"
-],
-[
-"Micky van de Ven",
-"Ven",
-"van de Ven"
-],
-[
-"Ed de Goey",
-"Goey",
-"de Goey"
-],
-[
-"Rafael van der Vaart",
-"Vaart",
-"van der Vaart"
-],
-[
-"Hans Segers",
-"Segers"
-],
-[
-"Arjen Robben",
-"Robben"
-],
-"Nigel de Jong",
-[
-"Jaïro Riedewald",
-"Riedewald"
-],
-"Jurriën Timber",
-[
-"Ian Maatsen",
-"Maatsen"
-],
-[
-"Daley Blind",
-"Blind"
-],
-[
-"Steven Bergwijn",
-"Bergwijn"
-],
-[
-"Jonathan de Guzmán",
-"Guzmán",
-"de Guzmán"
-],
-[
-"Mark Flekken",
-"Flekken"
-],
-[
-"Joshua Zirkzee",
-"Zirkzee"
-],
-[
-"Michel Vonk",
-"Vonk"
-],
-[
-"Wim Jonk",
-"Jonk"
-],
-[
-"Robert Molenaar",
-"Molenaar"
-],
-[
-"Wilfred Bouma",
-"Bouma"
-],
-[
-"Sepp van den Berg",
-"Berg",
-"van den Berg"
-],
-[
-"André Ooijer",
-"Ooijer"
-],
-[
-"Ron Vlaar",
-"Vlaar"
-],
-[
-"Mats Wieffer",
-"Wieffer"
-],
-"Jaap Stam",
-[
-"Sander Westerveld",
-"Westerveld"
-],
-[
-"Zian Flemming",
-"Flemming"
-],
-[
-"Brian Brobbey",
-"Brobbey"
-],
-[
-"Gustavo Hamer",
-"Hamer"
-],
-[
-"Martijn Reuser",
-"Reuser"
-],
-[
-"Timothy Fosu-Mensah",
-"Mensah"
-],
-"Ronnie Stam",
-[
-"Donny van de Beek",
-"Beek",
-"van de Beek"
-],
-[
-"Denny Landzaat",
-"Landzaat"
-],
-[
-"Donyell Malen",
-"Malen"
-],
-[
-"Terence Kongolo",
-"Kongolo"
-],
-[
-"Ruud Gullit",
-"Gullit"
-],
-[
-"Matthijs de Ligt",
-"Ligt",
-"de Ligt"
-],
-[
-"Paul Bosvelt",
-"Bosvelt"
-],
-[
-"Robin Roefs",
-"Roefs"
-],
-[
-"Wout Weghorst",
-"Weghorst"
-],
-[
-"Ibrahim Afellay",
-"Afellay"
-],
-[
-"Maarten Stekelenburg",
-"Stekelenburg"
-],
-[
-"Rajiv van La Parra",
-"Parra",
-"van La Parra"
-],
-[
-"Bruno Martins Indi",
-"Indi"
-],
-[
-"Regi Blinker",
-"Blinker"
-],
-[
-"Jordi Cruyff",
-"Cruyff"
-],
-[
-"Wesley Hoedt",
-"Hoedt"
-],
-[
-"Arnaut Danjuma",
-"Danjuma"
-],
-[
-"Kiki Musampa",
-"Musampa"
-],
-[
-"Fabian Wilnis",
-"Wilnis"
-],
-[
-"Pierre van Hooijdonk",
-"Hooijdonk",
-"van Hooijdonk"
-],
-[
-"Tijjani Reijnders",
-"Reijnders"
-],
-"Lamare Bogarde",
-[
-"Vincent Janssen",
-"Janssen"
-],
-[
-"Giovanni van Bronckhorst",
-"Bronckhorst",
-"van Bronckhorst"
-],
-[
-"Glenn Helder",
-"Helder"
-],
-[
-"Xavi Simons",
-"Simons"
-],
-[
-"Marvin Emnes",
-"Emnes"
-],
-[
-"Edgar Davids",
-"Davids"
-],
-[
-"Gerard Wiekens",
-"Wiekens"
-],
-[
-"Jeroen Boere",
-"Boere"
-],
-[
-"Jordy Clasie",
-"Clasie"
-],
-[
-"Raimond van der Gouw",
-"Gouw",
-"van der Gouw"
-],
-[
-"Willem Korsten",
-"Korsten"
-],
-[
-"Marten de Roon",
-"Roon",
-"de Roon"
-],
-[
-"Gerald Sibon",
-"Sibon"
-],
-[
-"Jorrel Hato",
-"Hato"
-],
-[
-"Memphis Depay",
-"Depay"
-],
-[
-"Fabian de Freitas",
-"Freitas",
-"de Freitas"
-],
-"Patrick Kluivert",
-[
-"Jan Vennegoor of Hesselink",
-"Hesselink"
-],
-[
-"Ki-Jana Hoever",
-"Hoever"
-],
-[
-"Mike van der Hoorn",
-"Hoorn",
-"van der Hoorn"
-],
-[
-"Tyrell Malacia",
-"Malacia"
-],
-[
-"Luciano Narsingh",
-"Narsingh"
-],
-[
-"Gianni Zuiverloon",
-"Zuiverloon"
-],
-[
-"Lutsharel Geertruida",
-"Geertruida"
-],
-[
-"Luc Nijholt",
-"Nijholt"
-],
-[
-"Jeremie Frimpong",
-"Frimpong"
-],
-[
-"Quilindschy Hartman",
-"Hartman"
-],
-[
-"Royston Drenthe",
-"Drenthe"
-],
-[
-"Robin van der Laan",
-"Laan",
-"van der Laan"
-],
-[
-"Jeremain Lens",
-"Lens"
-],
-"Jetro Willems",
-[
-"Ulrich van Gobbel",
-"Gobbel",
-"van Gobbel"
-],
-[
-"Daniël de Ridder",
-"Ridder",
-"de Ridder"
-],
-[
-"Dwight Tiendalli",
-"Tiendalli"
-],
-"Ron Willems",
-[
-"Jos Hooiveld",
-"Hooiveld"
-],
-[
-"Ricky van Wolfswinkel",
-"Wolfswinkel",
-"van Wolfswinkel"
-],
-[
-"Orlando Trustfull",
-"Trustfull"
-],
-[
-"Clyde Wijnhard",
-"Wijnhard"
-],
-"Siem de Jong",
-[
-"Erik Meijer",
-"Meijer"
-],
-[
-"Michael Reiziger",
-"Reiziger"
-],
-[
-"Andy van der Meyde",
-"Meyde",
-"van der Meyde"
-],
-[
-"Nordin Wooter",
-"Wooter"
-],
-[
-"Eljero Elia",
-"Elia"
-],
-[
-"Marco van Ginkel",
-"Ginkel",
-"van Ginkel"
-],
-[
-"Richard Sneekes",
-"Sneekes"
-],
-[
-"Alexander Büttner",
-"Büttner"
-],
-[
-"Urby Emanuelson",
-"Emanuelson"
-],
-[
-"Jan Kromkamp",
-"Kromkamp"
-],
-[
-"Khalid Boulahrouz",
-"Boulahrouz"
-],
-"Luuk de Jong",
-[
-"Stefan Postma",
-"Postma"
-],
-[
-"Marvin Zeegelaar",
-"Zeegelaar"
-],
-[
-"Milan van Ewijk",
-"Ewijk",
-"van Ewijk"
-],
-[
-"Steven Berghuis",
-"Berghuis"
-],
-[
-"Marco Bizot",
-"Bizot"
-],
-[
-"Sieb Dijkstra",
-"Dijkstra"
-],
-[
-"Sean Steur",
-"Steur"
-],
-"Winston Bogarde",
-[
-"Alfons Groenendijk",
-"Groenendijk"
-],
-[
-"Bobby Petta",
-"Petta"
-],
-"Quinten Timber",
-[
-"Davy Klaassen",
-"Klaassen"
-],
-[
-"Marco Boogers",
-"Boogers"
-],
-[
-"Jeffrey Bruma",
-"Bruma"
-],
-[
-"Sherjill MacDonald",
-"MacDonald"
-],
-[
-"Azor Matusiwa",
-"Matusiwa"
-],
-[
-"Kjell Scherpen",
-"Scherpen"
-],
-[
-"Harald Wapenaar",
-"Wapenaar"
-],
-[
-"Dorus de Vries",
-"Vries",
-"de Vries"
-],
-[
-"Chris David",
-"David"
-],
-[
-"John Karelse",
-"Karelse"
-],
-[
-"Jenson Seelt",
-"Seelt"
-],
-[
-"Antoni Milambo",
-"Milambo"
-],
-[
-"Nabil Abidallah",
-"Abidallah"
-],
-[
-"Laurens ten Heuvel",
-"Heuvel",
-"ten Heuvel"
-],
-[
-"Maceo Rigters",
-"Rigters"
-],
-[
-"Jaydon Banel",
-"Banel"
-],
-[
-"Emmanuel Emegha",
-"Emegha"
-],
-[
-"Orpheo Keizerweerd",
-"Keizerweerd"
-],
-[
-"Riga Mustapha",
-"Mustapha"
-],
-[
-"Karim Rekik",
-"Rekik"
-],
-[
-"Richard Witschge",
-"Witschge"
-]
-],
-"eras": {
-"Robin van Persie": [
-"00s",
-"10s"
-],
-"Jimmy Floyd Hasselbaink": [
-"90s",
-"00s"
-],
-"Dennis Bergkamp": [
-"90s",
-"00s"
-],
-"Virgil van Dijk": [
-"10s",
-"20s"
-],
-"George Boateng": [
-"90s",
-"00s"
-],
-"Nathan Aké": [
-"10s",
-"20s"
-],
-"Georginio Wijnaldum": [
-"10s",
-"20s"
-],
-"Ruud van Nistelrooy": [
-"00s"
-],
-"Patrick van Aanholt": [
-"00s",
-"10s",
-"20s"
-],
-"Dirk Kuyt": [
-"00s",
-"10s"
-],
-"Edwin van der Sar": [
-"00s",
-"10s"
-],
-"Mario Melchiot": [
-"90s",
-"00s"
-],
-"Erik Pieters": [
-"10s",
-"20s"
-],
-"Tim Krul": [
-"10s",
-"20s"
-],
-"Cody Gakpo": [
-"20s"
-],
-"Boudewijn Zenden": [
-"00s",
-"10s"
-],
-"Joël Veltman": [
-"20s"
-],
-"Ken Monkou": [
-"90s"
-],
-"Daryl Janmaat": [
-"10s"
-],
-"Ryan Babel": [
-"00s",
-"10s"
-],
-"Justin Kluivert": [
-"20s"
-],
-"Marc Overmars": [
-"90s"
-],
-"Pascal Struijk": [
-"20s"
-],
-"Jan Paul van Hecke": [
-"20s"
-],
-"Kenny Tete": [
-"20s"
-],
-"Leroy Fer": [
-"10s"
-],
-"Arjan de Zeeuw": [
-"90s",
-"00s"
-],
-"Ryan Gravenberch": [
-"20s"
-],
-"Davy Pröpper": [
-"10s",
-"20s"
-],
-"Bryan Roy": [
-"90s"
-],
-"John Heitinga": [
-"00s",
-"10s"
-],
-"Collins John": [
-"00s"
-],
-"Crysencio Summerville": [
-"20s"
-],
-"Anwar El Ghazi": [
-"10s",
-"20s"
-],
-"Bart Verbruggen": [
-"20s"
-],
-"Michel Vorm": [
-"10s"
-],
-"Sven Botman": [
-"20s"
-],
-"Micky van de Ven": [
-"20s"
-],
-"Ed de Goey": [
-"90s",
-"00s"
-],
-"Rafael van der Vaart": [
-"10s"
-],
-"Hans Segers": [
-"90s"
-],
-"Arjen Robben": [
-"00s"
-],
-"Nigel de Jong": [
-"00s",
-"10s"
-],
-"Jaïro Riedewald": [
-"10s",
-"20s"
-],
-"Jurriën Timber": [
-"20s"
-],
-"Ian Maatsen": [
-"20s"
-],
-"Daley Blind": [
-"10s"
-],
-"Steven Bergwijn": [
-"10s",
-"20s"
-],
-"Jonathan de Guzmán": [
-"10s"
-],
-"Mark Flekken": [
-"20s"
-],
-"Joshua Zirkzee": [
-"20s"
-],
-"Michel Vonk": [
-"90s"
-],
-"Wim Jonk": [
-"90s"
-],
-"Robert Molenaar": [
-"90s",
-"00s"
-],
-"Wilfred Bouma": [
-"00s"
-],
-"Sepp van den Berg": [
-"20s"
-],
-"André Ooijer": [
-"00s"
-],
-"Ron Vlaar": [
-"10s"
-],
-"Mats Wieffer": [
-"20s"
-],
-"Jaap Stam": [
-"90s",
-"00s"
-],
-"Sander Westerveld": [
-"90s",
-"00s"
-],
-"Zian Flemming": [
-"20s"
-],
-"Brian Brobbey": [
-"20s"
-],
-"Gustavo Hamer": [
-"20s"
-],
-"Martijn Reuser": [
-"00s"
-],
-"Timothy Fosu-Mensah": [
-"10s",
-"20s"
-],
-"Ronnie Stam": [
-"10s"
-],
-"Donny van de Beek": [
-"20s"
-],
-"Denny Landzaat": [
-"00s"
-],
-"Donyell Malen": [
-"20s"
-],
-"Terence Kongolo": [
-"10s",
-"20s"
-],
-"Ruud Gullit": [
-"90s"
-],
-"Matthijs de Ligt": [
-"20s"
-],
-"Paul Bosvelt": [
-"00s"
-],
-"Robin Roefs": [
-"20s"
-],
-"Wout Weghorst": [
-"20s"
-],
-"Ibrahim Afellay": [
-"10s"
-],
-"Maarten Stekelenburg": [
-"10s"
-],
-"Rajiv van La Parra": [
-"10s"
-],
-"Bruno Martins Indi": [
-"10s"
-],
-"Regi Blinker": [
-"90s"
-],
-"Jordi Cruyff": [
-"90s"
-],
-"Wesley Hoedt": [
-"10s"
-],
-"Arnaut Danjuma": [
-"10s",
-"20s"
-],
-"Kiki Musampa": [
-"00s"
-],
-"Fabian Wilnis": [
-"00s"
-],
-"Pierre van Hooijdonk": [
-"90s"
-],
-"Tijjani Reijnders": [
-"20s"
-],
-"Lamare Bogarde": [
-"20s"
-],
-"Vincent Janssen": [
-"10s"
-],
-"Giovanni van Bronckhorst": [
-"00s"
-],
-"Glenn Helder": [
-"90s"
-],
-"Xavi Simons": [
-"20s"
-],
-"Marvin Emnes": [
-"00s",
-"10s"
-],
-"Edgar Davids": [
-"00s"
-],
-"Gerard Wiekens": [
-"00s"
-],
-"Jeroen Boere": [
-"90s"
-],
-"Jordy Clasie": [
-"10s"
-],
-"Raimond van der Gouw": [
-"90s",
-"00s"
-],
-"Willem Korsten": [
-"90s",
-"00s"
-],
-"Marten de Roon": [
-"10s"
-],
-"Gerald Sibon": [
-"90s"
-],
-"Jorrel Hato": [
-"20s"
-],
-"Memphis Depay": [
-"10s"
-],
-"Fabian de Freitas": [
-"90s"
-],
-"Patrick Kluivert": [
-"00s"
-],
-"Jan Vennegoor of Hesselink": [
-"00s"
-],
-"Ki-Jana Hoever": [
-"20s"
-],
-"Mike van der Hoorn": [
-"10s"
-],
-"Tyrell Malacia": [
-"20s"
-],
-"Luciano Narsingh": [
-"10s"
-],
-"Gianni Zuiverloon": [
-"00s",
-"10s"
-],
-"Lutsharel Geertruida": [
-"20s"
-],
-"Luc Nijholt": [
-"90s"
-],
-"Jeremie Frimpong": [
-"20s"
-],
-"Quilindschy Hartman": [
-"20s"
-],
-"Royston Drenthe": [
-"10s"
-],
-"Robin van der Laan": [
-"90s"
-],
-"Jeremain Lens": [
-"10s"
-],
-"Jetro Willems": [
-"10s"
-],
-"Ulrich van Gobbel": [
-"90s"
-],
-"Daniël de Ridder": [
-"00s"
-],
-"Dwight Tiendalli": [
-"10s"
-],
-"Ron Willems": [
-"90s"
-],
-"Jos Hooiveld": [
-"10s"
-],
-"Ricky van Wolfswinkel": [
-"10s"
-],
-"Orlando Trustfull": [
-"90s"
-],
-"Clyde Wijnhard": [
-"90s"
-],
-"Siem de Jong": [
-"10s"
-],
-"Erik Meijer": [
-"90s",
-"00s"
-],
-"Michael Reiziger": [
-"00s"
-],
-"Andy van der Meyde": [
-"00s"
-],
-"Nordin Wooter": [
-"90s"
-],
-"Eljero Elia": [
-"10s"
-],
-"Marco van Ginkel": [
-"10s"
-],
-"Richard Sneekes": [
-"90s"
-],
-"Alexander Büttner": [
-"10s"
-],
-"Urby Emanuelson": [
-"10s"
-],
-"Jan Kromkamp": [
-"00s"
-],
-"Khalid Boulahrouz": [
-"00s"
-],
-"Luuk de Jong": [
-"10s"
-],
-"Stefan Postma": [
-"00s"
-],
-"Marvin Zeegelaar": [
-"10s"
-],
-"Milan van Ewijk": [
-"20s"
-],
-"Steven Berghuis": [
-"10s"
-],
-"Marco Bizot": [
-"20s"
-],
-"Sieb Dijkstra": [
-"90s"
-],
-"Sean Steur": [
-"20s"
-],
-"Winston Bogarde": [
-"00s"
-],
-"Alfons Groenendijk": [
-"90s"
-],
-"Bobby Petta": [
-"00s"
-],
-"Quinten Timber": [
-"20s"
-],
-"Davy Klaassen": [
-"10s"
-],
-"Marco Boogers": [
-"90s"
-],
-"Jeffrey Bruma": [
-"00s",
-"10s"
-],
-"Sherjill MacDonald": [
-"00s"
-],
-"Azor Matusiwa": [
-"20s"
-],
-"Kjell Scherpen": [
-"20s"
-],
-"Harald Wapenaar": [
-"00s"
-],
-"Dorus de Vries": [
-"10s"
-],
-"Chris David": [
-"10s"
-],
-"John Karelse": [
-"90s"
-],
-"Jenson Seelt": [
-"20s"
-],
-"Antoni Milambo": [
-"20s"
-],
-"Nabil Abidallah": [
-"00s"
-],
-"Laurens ten Heuvel": [
-"90s"
-],
-"Maceo Rigters": [
-"00s"
-],
-"Jaydon Banel": [
-"20s"
-],
-"Emmanuel Emegha": [
-"20s"
-],
-"Orpheo Keizerweerd": [
-"90s"
-],
-"Riga Mustapha": [
-"00s"
-],
-"Karim Rekik": [
-"10s"
-],
-"Richard Witschge": [
-"90s"
-]
-}
-},
-{
-"id": "fpl-spanish",
-"tags": [
-"pl"
-],
-"text": "Name a Spanish player who has played in the Premier League",
-"eraText": "Name a Spanish player who played in the Premier League in a season that began in the {era}",
-"answers": [
-[
-"Cesc Fàbregas",
-"Fàbregas"
-],
-[
-"David Silva",
-"Silva"
-],
-[
-"Juan Mata",
-"Mata"
-],
-[
-"David de Gea",
-"Gea",
-"de Gea"
-],
-[
-"César Azpilicueta",
-"Azpilicueta"
-],
-"Ayoze Pérez",
-[
-"Mikel Arteta",
-"Arteta"
-],
-"Fernando Torres",
-[
-"Adama Traoré",
-"Traoré"
-],
-[
-"Pepe Reina",
-"Reina"
-],
-"Rodri",
-[
-"Oriol Romeu",
-"Romeu"
-],
-"Marcos Alonso",
-[
-"Diego Costa",
-"Costa"
-],
-[
-"Héctor Bellerín",
-"Bellerín"
-],
-[
-"Nacho Monreal",
-"Monreal"
-],
-"Pedro",
-[
-"Pablo Fornals",
-"Fornals"
-],
-[
-"Gerard Deulofeu",
-"Deulofeu"
-],
-[
-"David Raya",
-"Raya"
-],
-[
-"Marc Cucurella",
-"Cucurella"
-],
-"Robert Sánchez",
-[
-"Ander Herrera",
-"Herrera"
-],
-[
-"Santi Cazorla",
-"Cazorla"
-],
-[
-"Iván Campo",
-"Campo"
-],
-"Rodrigo",
-[
-"Pedro Porro",
-"Porro"
-],
-"Xabi Alonso",
-[
-"Vicente Guaita",
-"Guaita"
-],
-[
-"Àngel Rangel",
-"Rangel"
-],
-[
-"Kepa Arrizabalaga",
-"Kepa",
-"Arrizabalaga"
-],
-[
-"José Enrique",
-"Enrique"
-],
-[
-"Aymeric Laporte",
-"Laporte"
-],
-"Adrián",
-[
-"Javier Manquillo",
-"Manquillo"
-],
-"Jordi Gómez",
-"Jonny",
-[
-"Jesús Navas",
-"Navas"
-],
-[
-"Kiko Femenía",
-"Femenía"
-],
-[
-"Mikel Merino",
-"Merino"
-],
-[
-"Carlos Cuéllar",
-"Cuéllar"
-],
-"Fernando Llorente",
-"Alberto Moreno",
-"Luis García",
-"Pablo Hernández",
-[
-"José Antonio Reyes",
-"Reyes"
-],
-[
-"Sergio Reguilón",
-"Reguilón"
-],
-"Sandro",
-[
-"Manuel Almunia",
-"Almunia"
-],
-[
-"Pablo Sarabia",
-"Sarabia"
-],
-"Joselu",
-[
-"Álvaro Negredo",
-"Negredo"
-],
-"Pau Torres",
-[
-"Álvaro Morata",
-"Morata"
-],
-[
-"Hugo Bueno",
-"Bueno"
-],
-[
-"Javier Garrido",
-"Garrido"
-],
-[
-"Thiago Alcântara",
-"Alcântara"
-],
-"Michu",
-"Bojan",
-[
-"Albert Ferrer",
-"Ferrer"
-],
-"Álex Moreno",
-[
-"Gaizka Mendieta",
-"Mendieta"
-],
-[
-"Álvaro Arbeloa",
-"Arbeloa"
-],
-"Diego Llorente",
-[
-"Joel Robles",
-"Robles"
-],
-[
-"Roberto Soldado",
-"Soldado"
-],
-[
-"Albert Riera",
-"Riera"
-],
-[
-"Míchel Salgado",
-"Salgado"
-],
-[
-"Martín Zubimendi",
-"Zubimendi"
-],
-[
-"Dani Ceballos",
-"Ceballos"
-],
-[
-"Martín Montoya",
-"Montoya"
-],
-[
-"Yeremy Pino",
-"Pino"
-],
-[
-"Nico González",
-"González"
-],
-[
-"Fernando Morientes",
-"Morientes"
-],
-"Ferran Torres",
-[
-"Chico Flores",
-"Flores"
-],
-[
-"Marc Muniesa",
-"Muniesa"
-],
-[
-"Víctor Camarasa",
-"Camarasa"
-],
-[
-"Sergi Canós",
-"Canós"
-],
-"Javi García",
-"Diego Rico",
-"Bruno",
-[
-"Dean Huijsen",
-"Huijsen"
-],
-[
-"Marc Roca",
-"Roca"
-],
-"Lucas Pérez",
-[
-"Carlos Soler",
-"Soler"
-],
-[
-"Vicente Iborra",
-"Iborra"
-],
-[
-"Álex Jiménez",
-"Jiménez"
-],
-"Sergio Rico",
-"Carles Gil",
-"Bryan Gil",
-[
-"Borja Valero",
-"Valero"
-],
-[
-"Jorge Cuenca",
-"Cuenca"
-],
-[
-"Asier del Horno",
-"Horno",
-"del Horno"
-],
-[
-"Fernando Hierro",
-"Hierro"
-],
-[
-"Víctor Valdés",
-"Valdés"
-],
-[
-"Daniel Ayala",
-"Ayala"
-],
-[
-"Eliezer Mayenda",
-"Mayenda"
-],
-"Nolito",
-[
-"Ansu Fati",
-"Fati"
-],
-[
-"Borja Bastón",
-"Bastón"
-],
-[
-"Cristhian Mosquera",
-"Mosquera"
-],
-[
-"Esteban Granero",
-"Granero"
-],
-[
-"José Manuel Jurado",
-"Jurado"
-],
-[
-"Rubén Rochina",
-"Rochina"
-],
-[
-"Antonio Barragán",
-"Barragán"
-],
-"Sergio Gómez",
-[
-"Marco Asensio",
-"Asensio"
-],
-[
-"Enrique de Lucas",
-"Lucas",
-"de Lucas"
-],
-"Nayim",
-"Eric García",
-[
-"Albert Luque",
-"Luque"
-],
-[
-"José Cañas",
-"Cañas"
-],
-"Josemi",
-[
-"Alejandro Pozuelo",
-"Pozuelo"
-],
-[
-"Iván Ramis",
-"Ramis"
-],
-[
-"Diego Tristán",
-"Tristán"
-],
-[
-"Pablo Marí",
-"Marí"
-],
-[
-"Antonio Luna",
-"Luna"
-],
-[
-"Stefan Bajcetic",
-"Bajcetic"
-],
-[
-"Marc Guiu",
-"Guiu"
-],
-[
-"Antonio Núñez",
-"Núñez"
-],
-"Andrés García",
-[
-"Albert Crusat",
-"Crusat"
-],
-[
-"Víctor Muñoz",
-"Muñoz"
-],
-"Jesé",
-[
-"Iago Aspas",
-"Aspas"
-],
-[
-"Álvaro Fernández",
-"Fernández"
-],
-"Gonzalo García",
-"Mario Suárez",
-"Suso",
-"Jota",
-[
-"Pablo Couñago",
-"Couñago"
-],
-[
-"Gerard Piqué",
-"Piqué"
-],
-[
-"Álvaro Vázquez",
-"Vázquez"
-],
-[
-"Chema Andrés",
-"Andrés"
-],
-"Fer López",
-[
-"César Palacios",
-"Palacios"
-],
-[
-"Pablo Ibáñez",
-"Ibáñez"
-],
-"Juanmi",
-"Yordi",
-[
-"Pep Chavarría",
-"Chavarría"
-],
-[
-"Roque Mesa",
-"Mesa"
-],
-"Xisco",
-[
-"Luis Alberto",
-"Alberto"
-],
-"Míchel",
-[
-"Fran Mérida",
-"Mérida"
-],
-"Javi Moreno",
-"Angeliño",
-"Mikel Alonso",
-[
-"José Campaña",
-"Campaña"
-],
-[
-"Juan Larios",
-"Larios"
-],
-[
-"Ignasi Miquel",
-"Miquel"
-],
-[
-"Daniel Pacheco",
-"Pacheco"
-],
-[
-"Raúl Bravo",
-"Bravo"
-],
-[
-"Óscar Mingueza",
-"Mingueza"
-],
-[
-"Andrea Orlandi",
-"Orlandi"
-],
-"Denis Suárez",
-"Aleix García",
-"Luis Hernández",
-[
-"Kiko Casilla",
-"Casilla"
-],
-[
-"Mateo Joseph",
-"Joseph"
-],
-[
-"Román Golobart",
-"Golobart"
-],
-[
-"José Ángel Pozo",
-"Pozo"
-],
-"Fabri",
-[
-"Marc Navarro",
-"Navarro"
-],
-[
-"Jesús Vallejo",
-"Vallejo"
-],
-[
-"Javier de Pedro",
-"de Pedro"
-],
-[
-"Jesús Gámez",
-"Gámez"
-],
-"Adrián López",
-[
-"Borja Oubiña",
-"Oubiña"
-],
-[
-"Manuel Ángel",
-"Ángel"
-],
-"Juanlu Sánchez",
-[
-"Eduard Campabadal",
-"Campabadal"
-],
-"César",
-[
-"Pedro Chirivella",
-"Chirivella"
-],
-[
-"José Ángel Crespo",
-"Crespo"
-],
-[
-"Iago Falque",
-"Falque"
-],
-"Manu García",
-"Marcelino",
-"Ricardo",
-[
-"Kepa Blanco",
-"Blanco"
-],
-"Cala",
-"Roberto",
-"Salva",
-"Saúl"
-],
-"eras": {
-"Cesc Fàbregas": [
-"00s",
-"10s"
-],
-"David Silva": [
-"10s"
-],
-"Juan Mata": [
-"10s",
-"20s"
-],
-"David de Gea": [
-"10s",
-"20s"
-],
-"César Azpilicueta": [
-"10s",
-"20s"
-],
-"Ayoze Pérez": [
-"10s",
-"20s"
-],
-"Mikel Arteta": [
-"00s",
-"10s"
-],
-"Fernando Torres": [
-"00s",
-"10s"
-],
-"Adama Traoré": [
-"10s",
-"20s"
-],
-"Pepe Reina": [
-"00s",
-"10s"
-],
-"Rodri": [
-"10s",
-"20s"
-],
-"Oriol Romeu": [
-"10s",
-"20s"
-],
-"Marcos Alonso": [
-"10s",
-"20s"
-],
-"Diego Costa": [
-"10s",
-"20s"
-],
-"Héctor Bellerín": [
-"10s",
-"20s"
-],
-"Nacho Monreal": [
-"10s"
-],
-"Pedro": [
-"10s"
-],
-"Pablo Fornals": [
-"10s",
-"20s"
-],
-"Gerard Deulofeu": [
-"10s"
-],
-"David Raya": [
-"20s"
-],
-"Marc Cucurella": [
-"20s"
-],
-"Robert Sánchez": [
-"20s"
-],
-"Ander Herrera": [
-"10s"
-],
-"Santi Cazorla": [
-"10s"
-],
-"Iván Campo": [
-"00s"
-],
-"Rodrigo": [
-"10s",
-"20s"
-],
-"Pedro Porro": [
-"20s"
-],
-"Xabi Alonso": [
-"00s"
-],
-"Vicente Guaita": [
-"10s",
-"20s"
-],
-"Àngel Rangel": [
-"10s"
-],
-"Kepa Arrizabalaga": [
-"10s",
-"20s"
-],
-"José Enrique": [
-"00s",
-"10s"
-],
-"Aymeric Laporte": [
-"10s",
-"20s"
-],
-"Adrián": [
-"10s",
-"20s"
-],
-"Javier Manquillo": [
-"10s",
-"20s"
-],
-"Jordi Gómez": [
-"00s",
-"10s"
-],
-"Jonny": [
-"10s",
-"20s"
-],
-"Jesús Navas": [
-"10s"
-],
-"Kiko Femenía": [
-"10s",
-"20s"
-],
-"Mikel Merino": [
-"10s",
-"20s"
-],
-"Carlos Cuéllar": [
-"00s",
-"10s"
-],
-"Fernando Llorente": [
-"10s"
-],
-"Alberto Moreno": [
-"10s"
-],
-"Luis García": [
-"00s"
-],
-"Pablo Hernández": [
-"10s",
-"20s"
-],
-"José Antonio Reyes": [
-"00s"
-],
-"Sergio Reguilón": [
-"20s"
-],
-"Sandro": [
-"10s"
-],
-"Manuel Almunia": [
-"00s",
-"10s"
-],
-"Pablo Sarabia": [
-"20s"
-],
-"Joselu": [
-"10s"
-],
-"Álvaro Negredo": [
-"10s"
-],
-"Pau Torres": [
-"20s"
-],
-"Álvaro Morata": [
-"10s"
-],
-"Hugo Bueno": [
-"20s"
-],
-"Javier Garrido": [
-"00s",
-"10s"
-],
-"Thiago Alcântara": [
-"20s"
-],
-"Michu": [
-"10s"
-],
-"Bojan": [
-"10s"
-],
-"Albert Ferrer": [
-"90s",
-"00s"
-],
-"Álex Moreno": [
-"20s"
-],
-"Gaizka Mendieta": [
-"00s"
-],
-"Álvaro Arbeloa": [
-"00s",
-"10s"
-],
-"Diego Llorente": [
-"20s"
-],
-"Joel Robles": [
-"10s",
-"20s"
-],
-"Roberto Soldado": [
-"10s"
-],
-"Albert Riera": [
-"00s"
-],
-"Míchel Salgado": [
-"00s",
-"10s"
-],
-"Martín Zubimendi": [
-"20s"
-],
-"Dani Ceballos": [
-"10s",
-"20s"
-],
-"Martín Montoya": [
-"10s"
-],
-"Yeremy Pino": [
-"20s"
-],
-"Nico González": [
-"20s"
-],
-"Fernando Morientes": [
-"00s"
-],
-"Ferran Torres": [
-"20s"
-],
-"Chico Flores": [
-"10s"
-],
-"Marc Muniesa": [
-"10s"
-],
-"Víctor Camarasa": [
-"10s"
-],
-"Sergi Canós": [
-"10s",
-"20s"
-],
-"Javi García": [
-"10s"
-],
-"Diego Rico": [
-"10s"
-],
-"Bruno": [
-"10s"
-],
-"Dean Huijsen": [
-"20s"
-],
-"Marc Roca": [
-"20s"
-],
-"Lucas Pérez": [
-"10s"
-],
-"Carlos Soler": [
-"20s"
-],
-"Vicente Iborra": [
-"10s"
-],
-"Álex Jiménez": [
-"20s"
-],
-"Sergio Rico": [
-"10s"
-],
-"Carles Gil": [
-"10s"
-],
-"Bryan Gil": [
-"20s"
-],
-"Borja Valero": [
-"00s"
-],
-"Jorge Cuenca": [
-"20s"
-],
-"Asier del Horno": [
-"00s"
-],
-"Fernando Hierro": [
-"00s"
-],
-"Víctor Valdés": [
-"10s"
-],
-"Daniel Ayala": [
-"00s",
-"10s"
-],
-"Eliezer Mayenda": [
-"20s"
-],
-"Nolito": [
-"10s"
-],
-"Ansu Fati": [
-"20s"
-],
-"Borja Bastón": [
-"10s"
-],
-"Cristhian Mosquera": [
-"20s"
-],
-"Esteban Granero": [
-"10s"
-],
-"José Manuel Jurado": [
-"10s"
-],
-"Rubén Rochina": [
-"10s"
-],
-"Antonio Barragán": [
-"10s"
-],
-"Sergio Gómez": [
-"20s"
-],
-"Marco Asensio": [
-"20s"
-],
-"Enrique de Lucas": [
-"00s"
-],
-"Nayim": [
-"90s"
-],
-"Eric García": [
-"10s",
-"20s"
-],
-"Albert Luque": [
-"00s"
-],
-"José Cañas": [
-"10s"
-],
-"Josemi": [
-"00s"
-],
-"Alejandro Pozuelo": [
-"10s"
-],
-"Iván Ramis": [
-"10s"
-],
-"Diego Tristán": [
-"00s"
-],
-"Pablo Marí": [
-"10s",
-"20s"
-],
-"Antonio Luna": [
-"10s"
-],
-"Stefan Bajcetic": [
-"20s"
-],
-"Marc Guiu": [
-"20s"
-],
-"Antonio Núñez": [
-"00s"
-],
-"Andrés García": [
-"20s"
-],
-"Albert Crusat": [
-"10s"
-],
-"Víctor Muñoz": [
-"20s"
-],
-"Jesé": [
-"10s"
-],
-"Iago Aspas": [
-"10s"
-],
-"Álvaro Fernández": [
-"20s"
-],
-"Gonzalo García": [
-"20s"
-],
-"Mario Suárez": [
-"10s"
-],
-"Suso": [
-"10s"
-],
-"Jota": [
-"10s"
-],
-"Pablo Couñago": [
-"00s"
-],
-"Gerard Piqué": [
-"00s"
-],
-"Álvaro Vázquez": [
-"10s"
-],
-"Chema Andrés": [
-"20s"
-],
-"Fer López": [
-"20s"
-],
-"César Palacios": [
-"20s"
-],
-"Pablo Ibáñez": [
-"10s"
-],
-"Juanmi": [
-"10s"
-],
-"Yordi": [
-"00s"
-],
-"Pep Chavarría": [
-"20s"
-],
-"Roque Mesa": [
-"10s"
-],
-"Xisco": [
-"00s",
-"10s"
-],
-"Luis Alberto": [
-"10s"
-],
-"Míchel": [
-"00s"
-],
-"Fran Mérida": [
-"00s"
-],
-"Javi Moreno": [
-"00s"
-],
-"Angeliño": [
-"10s"
-],
-"Mikel Alonso": [
-"00s"
-],
-"José Campaña": [
-"10s"
-],
-"Juan Larios": [
-"20s"
-],
-"Ignasi Miquel": [
-"10s"
-],
-"Daniel Pacheco": [
-"00s",
-"10s"
-],
-"Raúl Bravo": [
-"00s"
-],
-"Óscar Mingueza": [
-"20s"
-],
-"Andrea Orlandi": [
-"10s"
-],
-"Denis Suárez": [
-"10s"
-],
-"Aleix García": [
-"10s"
-],
-"Luis Hernández": [
-"10s"
-],
-"Kiko Casilla": [
-"20s"
-],
-"Mateo Joseph": [
-"20s"
-],
-"Román Golobart": [
-"10s"
-],
-"José Ángel Pozo": [
-"10s"
-],
-"Fabri": [
-"10s"
-],
-"Marc Navarro": [
-"10s"
-],
-"Jesús Vallejo": [
-"10s"
-],
-"Javier de Pedro": [
-"00s"
-],
-"Jesús Gámez": [
-"10s"
-],
-"Adrián López": [
-"10s"
-],
-"Borja Oubiña": [
-"00s"
-],
-"Manuel Ángel": [
-"20s"
-],
-"Juanlu Sánchez": [
-"20s"
-],
-"Eduard Campabadal": [
-"10s"
-],
-"César": [
-"00s"
-],
-"Pedro Chirivella": [
-"10s"
-],
-"José Ángel Crespo": [
-"10s"
-],
-"Iago Falque": [
-"10s"
-],
-"Manu García": [
-"10s"
-],
-"Marcelino": [
-"90s",
-"00s"
-],
-"Ricardo": [
-"00s"
-],
-"Kepa Blanco": [
-"00s"
-],
-"Cala": [
-"10s"
-],
-"Roberto": [
-"10s"
-],
-"Salva": [
-"00s"
-],
-"Saúl": [
-"20s"
-]
-}
-},
-{
-"id": "fpl-german",
-"tags": [
-"pl"
-],
-"text": "Name a German player who has played in the Premier League",
-"eraText": "Name a German player who played in the Premier League in a season that began in the {era}",
-"answers": [
-[
-"Pascal Groß",
-"Groß"
-],
-[
-"İlkay Gündoğan",
-"Gündoğan"
-],
-[
-"Robert Huth",
-"Huth"
-],
-[
-"Mesut Özil",
-"Özil"
-],
-[
-"Kai Havertz",
-"Havertz"
-],
-[
-"Bernd Leno",
-"Leno"
-],
-[
-"Dietmar Hamann",
-"Hamann"
-],
-[
-"Vitaly Janelt",
-"Janelt"
-],
-[
-"Kevin Schade",
-"Schade"
-],
-[
-"Leroy Sané",
-"Sané"
-],
-[
-"Antonio Rüdiger",
-"Rüdiger"
-],
-[
-"Per Mertesacker",
-"Mertesacker"
-],
-[
-"Uwe Rösler",
-"Rösler"
-],
-[
-"Timo Werner",
-"Werner"
-],
-[
-"Thomas Hitzlsperger",
-"Hitzlsperger"
-],
-[
-"Jens Lehmann",
-"Lehmann"
-],
-[
-"Shkodran Mustafi",
-"Mustafi"
-],
-[
-"Michael Ballack",
-"Ballack"
-],
-[
-"Emre Can",
-"Can"
-],
-[
-"Christian Ziege",
-"Ziege"
-],
-[
-"Moritz Volz",
-"Volz"
-],
-[
-"André Schürrle",
-"Schürrle"
-],
-[
-"Jürgen Klinsmann",
-"Klinsmann"
-],
-[
-"Steffen Freund",
-"Freund"
-],
-[
-"Lukas Podolski",
-"Podolski"
-],
-[
-"Christopher Schindler",
-"Schindler"
-],
-[
-"Robin Koch",
-"Koch"
-],
-[
-"Markus Babbel",
-"Babbel"
-],
-[
-"Karl-Heinz Riedle",
-"Riedle"
-],
-[
-"Florian Wirtz",
-"Wirtz"
-],
-[
-"Sascha Riether",
-"Riether"
-],
-[
-"Lukas Nmecha",
-"Nmecha"
-],
-[
-"Stefan Schnoor",
-"Schnoor"
-],
-[
-"Chris Löwe",
-"Löwe"
-],
-[
-"Nick Woltemade",
-"Woltemade"
-],
-[
-"Anton Stach",
-"Stach"
-],
-[
-"Malick Thiaw",
-"Thiaw"
-],
-[
-"Max Meyer",
-"Meyer"
-],
-[
-"Brajan Gruda",
-"Gruda"
-],
-[
-"Lewis Holtby",
-"Holtby"
-],
-[
-"Philipp Wollscheid",
-"Wollscheid"
-],
-[
-"Niclas Füllkrug",
-"Füllkrug"
-],
-[
-"Michael Tarnat",
-"Tarnat"
-],
-[
-"Thilo Kehrer",
-"Kehrer"
-],
-[
-"Collin Quaner",
-"Quaner"
-],
-[
-"Deniz Undav",
-"Undav"
-],
-[
-"Lukas Rupp",
-"Rupp"
-],
-[
-"Loris Karius",
-"Karius"
-],
-[
-"Stefan Ortega",
-"Ortega"
-],
-[
-"Armel Bella-Kotchap",
-"Kotchap"
-],
-[
-"Eike Immel",
-"Immel"
-],
-[
-"Erik Durm",
-"Durm"
-],
-[
-"Merlin Röhl",
-"Röhl"
-],
-[
-"Gerhard Tremmel",
-"Tremmel"
-],
-[
-"Marco Stiepermann",
-"Stiepermann"
-],
-[
-"Christoph Zimmermann",
-"Zimmermann"
-],
-[
-"Maurizio Gaudino",
-"Gaudino"
-],
-[
-"Fredi Bobic",
-"Bobic"
-],
-[
-"Jan Kirchhoff",
-"Kirchhoff"
-],
-[
-"Jordan Beyer",
-"Beyer"
-],
-[
-"Bastian Schweinsteiger",
-"Schweinsteiger"
-],
-[
-"Tom Trybull",
-"Trybull"
-],
-[
-"Sergio Peter",
-"Peter"
-],
-[
-"Stefan Beinlich",
-"Beinlich"
-],
-[
-"Jérôme Boateng",
-"Boateng"
-],
-[
-"Luca Netz",
-"Netz"
-],
-[
-"Serge Gnabry",
-"Gnabry"
-],
-[
-"Mahmoud Dahoud",
-"Dahoud"
-],
-[
-"Dennis Srbeny",
-"Srbeny"
-],
-[
-"Michael Frontzeck",
-"Frontzeck"
-],
-[
-"Moritz Leitner",
-"Leitner"
-],
-[
-"Stefan Malz",
-"Malz"
-],
-[
-"Savio Nsereko",
-"Nsereko"
-],
-[
-"Lars Leese",
-"Leese"
-],
-[
-"Marko Marin",
-"Marin"
-],
-[
-"Ron-Robert Zieler",
-"Zieler"
-],
-[
-"Steffen Karl",
-"Karl"
-],
-[
-"Leon Goretzka",
-"Goretzka"
-],
-[
-"Matthias Breitkreutz",
-"Breitkreutz"
-],
-[
-"Alberto Méndez",
-"Méndez"
-],
-[
-"Lennard Sowah",
-"Sowah"
-],
-[
-"Max Weiß",
-"Weiß"
-],
-[
-"Sean Dundee",
-"Dundee"
-],
-[
-"Eric da Silva Moreira",
-"Moreira"
-],
-[
-"Michael Hefele",
-"Hefele"
-],
-[
-"Thomas Helmer",
-"Helmer"
-],
-[
-"Nick Proschwitz",
-"Proschwitz"
-],
-[
-"Stefan Wessels",
-"Wessels"
-],
-[
-"Ralf Fährmann",
-"Fährmann"
-],
-[
-"Reda Khadra",
-"Khadra"
-],
-[
-"Uwe Hünemeier",
-"Hünemeier"
-]
-],
-"eras": {
-"Pascal Groß": [
-"10s",
-"20s"
-],
-"İlkay Gündoğan": [
-"10s",
-"20s"
-],
-"Robert Huth": [
-"00s",
-"10s"
-],
-"Mesut Özil": [
-"10s"
-],
-"Kai Havertz": [
-"20s"
-],
-"Bernd Leno": [
-"10s",
-"20s"
-],
-"Dietmar Hamann": [
-"90s",
-"00s"
-],
-"Vitaly Janelt": [
-"20s"
-],
-"Kevin Schade": [
-"20s"
-],
-"Leroy Sané": [
-"10s"
-],
-"Antonio Rüdiger": [
-"10s",
-"20s"
-],
-"Per Mertesacker": [
-"10s"
-],
-"Uwe Rösler": [
-"90s",
-"00s"
-],
-"Timo Werner": [
-"20s"
-],
-"Thomas Hitzlsperger": [
-"00s",
-"10s"
-],
-"Jens Lehmann": [
-"00s",
-"10s"
-],
-"Shkodran Mustafi": [
-"10s",
-"20s"
-],
-"Michael Ballack": [
-"00s"
-],
-"Emre Can": [
-"10s"
-],
-"Christian Ziege": [
-"90s",
-"00s"
-],
-"Moritz Volz": [
-"00s"
-],
-"André Schürrle": [
-"10s"
-],
-"Jürgen Klinsmann": [
-"90s"
-],
-"Steffen Freund": [
-"90s",
-"00s"
-],
-"Lukas Podolski": [
-"10s"
-],
-"Christopher Schindler": [
-"10s"
-],
-"Robin Koch": [
-"20s"
-],
-"Markus Babbel": [
-"00s"
-],
-"Karl-Heinz Riedle": [
-"90s"
-],
-"Florian Wirtz": [
-"20s"
-],
-"Sascha Riether": [
-"10s"
-],
-"Lukas Nmecha": [
-"10s",
-"20s"
-],
-"Stefan Schnoor": [
-"90s",
-"00s"
-],
-"Chris Löwe": [
-"10s"
-],
-"Nick Woltemade": [
-"20s"
-],
-"Anton Stach": [
-"20s"
-],
-"Malick Thiaw": [
-"20s"
-],
-"Max Meyer": [
-"10s"
-],
-"Brajan Gruda": [
-"20s"
-],
-"Lewis Holtby": [
-"10s"
-],
-"Philipp Wollscheid": [
-"10s"
-],
-"Niclas Füllkrug": [
-"20s"
-],
-"Michael Tarnat": [
-"00s"
-],
-"Thilo Kehrer": [
-"20s"
-],
-"Collin Quaner": [
-"10s"
-],
-"Deniz Undav": [
-"20s"
-],
-"Lukas Rupp": [
-"10s",
-"20s"
-],
-"Loris Karius": [
-"10s",
-"20s"
-],
-"Stefan Ortega": [
-"20s"
-],
-"Armel Bella-Kotchap": [
-"20s"
-],
-"Eike Immel": [
-"90s"
-],
-"Erik Durm": [
-"10s"
-],
-"Merlin Röhl": [
-"20s"
-],
-"Gerhard Tremmel": [
-"10s"
-],
-"Marco Stiepermann": [
-"10s"
-],
-"Christoph Zimmermann": [
-"10s",
-"20s"
-],
-"Maurizio Gaudino": [
-"90s"
-],
-"Fredi Bobic": [
-"00s"
-],
-"Jan Kirchhoff": [
-"10s"
-],
-"Jordan Beyer": [
-"20s"
-],
-"Bastian Schweinsteiger": [
-"10s"
-],
-"Tom Trybull": [
-"10s"
-],
-"Sergio Peter": [
-"00s"
-],
-"Stefan Beinlich": [
-"90s"
-],
-"Jérôme Boateng": [
-"10s"
-],
-"Luca Netz": [
-"20s"
-],
-"Serge Gnabry": [
-"10s"
-],
-"Mahmoud Dahoud": [
-"20s"
-],
-"Dennis Srbeny": [
-"10s"
-],
-"Michael Frontzeck": [
-"90s"
-],
-"Moritz Leitner": [
-"10s"
-],
-"Stefan Malz": [
-"90s",
-"00s"
-],
-"Savio Nsereko": [
-"00s"
-],
-"Lars Leese": [
-"90s"
-],
-"Marko Marin": [
-"10s"
-],
-"Ron-Robert Zieler": [
-"10s"
-],
-"Steffen Karl": [
-"90s"
-],
-"Leon Goretzka": [
-"20s"
-],
-"Matthias Breitkreutz": [
-"90s"
-],
-"Alberto Méndez": [
-"90s"
-],
-"Lennard Sowah": [
-"00s"
-],
-"Max Weiß": [
-"20s"
-],
-"Sean Dundee": [
-"90s"
-],
-"Eric da Silva Moreira": [
-"20s"
-],
-"Michael Hefele": [
-"10s"
-],
-"Thomas Helmer": [
-"90s"
-],
-"Nick Proschwitz": [
-"10s"
-],
-"Stefan Wessels": [
-"00s"
-],
-"Ralf Fährmann": [
-"10s"
-],
-"Reda Khadra": [
-"20s"
-],
-"Uwe Hünemeier": [
-"10s"
-]
-}
-},
-{
-"id": "fpl-italian",
-"tags": [
-"pl"
-],
-"text": "Name an Italian player who has played in the Premier League",
-"deep": true,
-"eraText": "Name an Italian player who played in the Premier League in a season that began in the {era}",
-"answers": [
-[
-"Gianfranco Zola",
-"Zola"
-],
-[
-"Paolo Di Canio",
-"Canio",
-"Di Canio"
-],
-"Jorginho",
-[
-"Benito Carbone",
-"Carbone"
-],
-[
-"Angelo Ogbonna",
-"Ogbonna"
-],
-"Emerson",
-[
-"Carlo Cudicini",
-"Cudicini"
-],
-[
-"Roberto Di Matteo",
-"Matteo",
-"Di Matteo"
-],
-[
-"Alessandro Pistone",
-"Pistone"
-],
-[
-"Fabio Borini",
-"Borini"
-],
-[
-"Sandro Tonali",
-"Tonali"
-],
-[
-"Massimo Maccarone",
-"Maccarone"
-],
-[
-"Graziano Pellè",
-"Pellè"
-],
-[
-"Gianluca Festa",
-"Festa"
-],
-[
-"Fabrizio Ravanelli",
-"Ravanelli"
-],
-[
-"Stefano Eranio",
-"Eranio"
-],
-[
-"Guglielmo Vicario",
-"Vicario"
-],
-[
-"Mario Balotelli",
-"Balotelli"
-],
-[
-"Gianluca Vialli",
-"Vialli"
-],
-[
-"Destiny Udogie",
-"Udogie"
-],
-[
-"Francesco Baiano",
-"Baiano"
-],
-[
-"Manolo Gabbiadini",
-"Gabbiadini"
-],
-[
-"Davide Santon",
-"Santon"
-],
-[
-"Vito Mannone",
-"Mannone"
-],
-[
-"Riccardo Calafiori",
-"Calafiori"
-],
-[
-"Michael Kayode",
-"Kayode"
-],
-[
-"Matteo Darmian",
-"Darmian"
-],
-[
-"Stefano Okaka",
-"Okaka"
-],
-[
-"Samuele Dalla Bona",
-"Bona"
-],
-[
-"Wilfried Gnonto",
-"Gnonto"
-],
-[
-"Gianluigi Donnarumma",
-"Donnarumma"
-],
-[
-"Alessandro Diamanti",
-"Diamanti"
-],
-[
-"Federico Chiesa",
-"Chiesa"
-],
-[
-"Moise Kean",
-"Kean"
-],
-[
-"Emanuele Giaccherini",
-"Giaccherini"
-],
-[
-"David Di Michele",
-"Michele",
-"Di Michele"
-],
-[
-"Corrado Grabbi",
-"Grabbi"
-],
-[
-"Attilio Lombardo",
-"Lombardo"
-],
-[
-"Davide Zappacosta",
-"Zappacosta"
-],
-[
-"Nicolò Zaniolo",
-"Zaniolo"
-],
-[
-"Ezequiel Schelotto",
-"Schelotto"
-],
-[
-"Federico Macheda",
-"Macheda"
-],
-[
-"Bernardo Corradi",
-"Corradi"
-],
-[
-"Nicola Berti",
-"Berti"
-],
-[
-"Andrea Dossena",
-"Dossena"
-],
-[
-"Marco Materazzi",
-"Materazzi"
-],
-[
-"Rolando Bianchi",
-"Bianchi"
-],
-[
-"Gianluca Scamacca",
-"Scamacca"
-],
-[
-"Caleb Okoli",
-"Okoli"
-],
-[
-"Alberto Aquilani",
-"Aquilani"
-],
-[
-"Lorenzo Amoruso",
-"Amoruso"
-],
-[
-"Matteo Sereni",
-"Sereni"
-],
-[
-"Patrick Cutrone",
-"Cutrone"
-],
-[
-"Nicolò Savona",
-"Savona"
-],
-[
-"Luca Koleosho",
-"Koleosho"
-],
-[
-"Andrea Ranocchia",
-"Ranocchia"
-],
-[
-"Dani Osvaldo",
-"Osvaldo"
-],
-[
-"Giuseppe Rossi",
-"Rossi"
-],
-[
-"Gabriele Ambrosetti",
-"Ambrosetti"
-],
-[
-"Vincenzo Montella",
-"Montella"
-],
-[
-"Alberto Paloschi",
-"Paloschi"
-],
-[
-"Cesare Casadei",
-"Casadei"
-],
-[
-"Andrea Silenzi",
-"Silenzi"
-],
-[
-"Pierluigi Casiraghi",
-"Casiraghi"
-],
-[
-"Dario Marcolin",
-"Marcolin"
-],
-[
-"Michele Padovano",
-"Padovano"
-],
-[
-"Dino Baggio",
-"Baggio"
-],
-[
-"Antonio Nocerino",
-"Nocerino"
-],
-[
-"Marco Ambrosio",
-"Ambrosio"
-],
-[
-"Matteo Ferrari",
-"Ferrari"
-],
-[
-"Christian Panucci",
-"Panucci"
-],
-[
-"Francesco Sanetti",
-"Sanetti"
-],
-[
-"Simone Zaza",
-"Zaza"
-],
-[
-"Lorenzo Lucca",
-"Lucca"
-],
-[
-"Diego Coppola",
-"Coppola"
-],
-[
-"Marco Palestra",
-"Palestra"
-],
-[
-"Paolo Tramezzani",
-"Tramezzani"
-],
-[
-"Matteo Ruggeri",
-"Ruggeri"
-],
-[
-"Nicola Ventola",
-"Ventola"
-],
-[
-"Roberto Mancini",
-"Mancini"
-],
-[
-"Massimo Taibi",
-"Taibi"
-],
-[
-"Honest Ahanor",
-"Ahanor"
-],
-[
-"Patrizio Billio",
-"Billio"
-],
-[
-"Stefano Gioacchini",
-"Gioacchini"
-],
-[
-"Gabriel Paletta",
-"Paletta"
-],
-[
-"Rodrigo Possebon",
-"Possebon"
-],
-[
-"Ivano Bonetti",
-"Bonetti"
-],
-[
-"Marco Borriello",
-"Borriello"
-],
-[
-"Daniele Daino",
-"Daino"
-],
-[
-"Antonio Barreca",
-"Barreca"
-],
-[
-"Marco Branca",
-"Branca"
-],
-[
-"Arturo Lupoli",
-"Lupoli"
-],
-[
-"Daniele Padelli",
-"Padelli"
-],
-[
-"Marcello Trotta",
-"Trotta"
-]
-],
-"eras": {
-"Gianfranco Zola": [
-"90s",
-"00s"
-],
-"Paolo Di Canio": [
-"90s",
-"00s"
-],
-"Jorginho": [
-"10s",
-"20s"
-],
-"Benito Carbone": [
-"90s",
-"00s"
-],
-"Angelo Ogbonna": [
-"10s",
-"20s"
-],
-"Emerson": [
-"10s",
-"20s"
-],
-"Carlo Cudicini": [
-"90s",
-"00s",
-"10s"
-],
-"Roberto Di Matteo": [
-"90s",
-"00s"
-],
-"Alessandro Pistone": [
-"90s",
-"00s"
-],
-"Fabio Borini": [
-"00s",
-"10s"
-],
-"Sandro Tonali": [
-"20s"
-],
-"Massimo Maccarone": [
-"00s"
-],
-"Graziano Pellè": [
-"10s"
-],
-"Gianluca Festa": [
-"90s",
-"00s"
-],
-"Fabrizio Ravanelli": [
-"90s",
-"00s"
-],
-"Stefano Eranio": [
-"90s",
-"00s"
-],
-"Guglielmo Vicario": [
-"20s"
-],
-"Mario Balotelli": [
-"10s"
-],
-"Gianluca Vialli": [
-"90s"
-],
-"Destiny Udogie": [
-"20s"
-],
-"Francesco Baiano": [
-"90s"
-],
-"Manolo Gabbiadini": [
-"10s"
-],
-"Davide Santon": [
-"10s"
-],
-"Vito Mannone": [
-"00s",
-"10s"
-],
-"Riccardo Calafiori": [
-"20s"
-],
-"Michael Kayode": [
-"20s"
-],
-"Matteo Darmian": [
-"10s"
-],
-"Stefano Okaka": [
-"00s",
-"10s"
-],
-"Samuele Dalla Bona": [
-"90s",
-"00s"
-],
-"Wilfried Gnonto": [
-"20s"
-],
-"Gianluigi Donnarumma": [
-"20s"
-],
-"Alessandro Diamanti": [
-"00s",
-"10s"
-],
-"Federico Chiesa": [
-"20s"
-],
-"Moise Kean": [
-"10s",
-"20s"
-],
-"Emanuele Giaccherini": [
-"10s"
-],
-"David Di Michele": [
-"00s"
-],
-"Corrado Grabbi": [
-"00s"
-],
-"Attilio Lombardo": [
-"90s"
-],
-"Davide Zappacosta": [
-"10s"
-],
-"Nicolò Zaniolo": [
-"20s"
-],
-"Ezequiel Schelotto": [
-"10s"
-],
-"Federico Macheda": [
-"00s",
-"10s"
-],
-"Bernardo Corradi": [
-"00s"
-],
-"Nicola Berti": [
-"90s"
-],
-"Andrea Dossena": [
-"00s",
-"10s"
-],
-"Marco Materazzi": [
-"90s"
-],
-"Rolando Bianchi": [
-"00s"
-],
-"Gianluca Scamacca": [
-"20s"
-],
-"Caleb Okoli": [
-"20s"
-],
-"Alberto Aquilani": [
-"00s"
-],
-"Lorenzo Amoruso": [
-"00s"
-],
-"Matteo Sereni": [
-"00s"
-],
-"Patrick Cutrone": [
-"10s",
-"20s"
-],
-"Nicolò Savona": [
-"20s"
-],
-"Luca Koleosho": [
-"20s"
-],
-"Andrea Ranocchia": [
-"10s"
-],
-"Dani Osvaldo": [
-"10s"
-],
-"Giuseppe Rossi": [
-"00s"
-],
-"Gabriele Ambrosetti": [
-"90s"
-],
-"Vincenzo Montella": [
-"00s"
-],
-"Alberto Paloschi": [
-"10s"
-],
-"Cesare Casadei": [
-"20s"
-],
-"Andrea Silenzi": [
-"90s"
-],
-"Pierluigi Casiraghi": [
-"90s"
-],
-"Dario Marcolin": [
-"90s"
-],
-"Michele Padovano": [
-"90s"
-],
-"Dino Baggio": [
-"00s"
-],
-"Antonio Nocerino": [
-"10s"
-],
-"Marco Ambrosio": [
-"00s"
-],
-"Matteo Ferrari": [
-"00s"
-],
-"Christian Panucci": [
-"00s"
-],
-"Francesco Sanetti": [
-"90s"
-],
-"Simone Zaza": [
-"10s"
-],
-"Lorenzo Lucca": [
-"20s"
-],
-"Diego Coppola": [
-"20s"
-],
-"Marco Palestra": [
-"20s"
-],
-"Paolo Tramezzani": [
-"90s"
-],
-"Matteo Ruggeri": [
-"20s"
-],
-"Nicola Ventola": [
-"00s"
-],
-"Roberto Mancini": [
-"00s"
-],
-"Massimo Taibi": [
-"90s"
-],
-"Honest Ahanor": [
-"20s"
-],
-"Patrizio Billio": [
-"90s"
-],
-"Stefano Gioacchini": [
-"90s"
-],
-"Gabriel Paletta": [
-"00s"
-],
-"Rodrigo Possebon": [
-"00s"
-],
-"Ivano Bonetti": [
-"90s"
-],
-"Marco Borriello": [
-"10s"
-],
-"Daniele Daino": [
-"00s"
-],
-"Antonio Barreca": [
-"10s"
-],
-"Marco Branca": [
-"90s"
-],
-"Arturo Lupoli": [
-"00s"
-],
-"Daniele Padelli": [
-"00s"
-],
-"Marcello Trotta": [
-"10s"
-]
-}
-},
-{
-"id": "fpl-argentine",
-"tags": [
-"pl"
-],
-"text": "Name an Argentine player who has played in the Premier League",
-"deep": true,
-"eraText": "Name an Argentine player who played in the Premier League in a season that began in the {era}",
-"answers": [
-[
-"Sergio Aguero",
-"Kun Aguero",
-"Aguero"
-],
-[
-"Pablo Zabaleta",
-"Zabaleta"
-],
-[
-"Carlos Tevez",
-"Tevez"
-],
-[
-"Alexis Mac Allister",
-"Allister",
-"Mac Allister"
-],
-[
-"Manuel Lanzini",
-"Lanzini"
-],
-[
-"Emiliano Martinez",
-"Dibu Martinez"
-],
-[
-"Erik Lamela",
-"Lamela"
-],
-[
-"Emiliano Buendía",
-"Buendía"
-],
-"Federico Fernández",
-"Enzo Fernández",
-[
-"Fabricio Coloccini",
-"Coloccini"
-],
-[
-"Alejandro Garnacho",
-"Garnacho"
-],
-[
-"Nicolás Otamendi",
-"Otamendi"
-],
-[
-"Julio Arca",
-"Arca"
-],
-"Cristian Romero",
-[
-"Jonás Gutiérrez",
-"Gutiérrez"
-],
-[
-"Roberto Pereyra",
-"Pereyra"
-],
-[
-"Marcos Senesi",
-"Senesi"
-],
-[
-"Claudio Yacob",
-"Yacob"
-],
-[
-"Franco Di Santo",
-"Santo",
-"Di Santo"
-],
-"Julián Álvarez",
-[
-"Mauricio Taricco",
-"Taricco"
-],
-[
-"Leonardo Ulloa",
-"Ulloa"
-],
-[
-"Nicolás Domínguez",
-"Domínguez"
-],
-[
-"Facundo Buonanotte",
-"Buonanotte"
-],
-[
-"Julián Speroni",
-"Speroni"
-],
-"Lisandro Martínez",
-[
-"Giovani Lo Celso",
-"Celso"
-],
-[
-"Javier Mascherano",
-"Mascherano"
-],
-[
-"Horacio Carbonari",
-"Carbonari"
-],
-[
-"Marcos Rojo",
-"Rojo"
-],
-[
-"Charly Alcaraz",
-"Alcaraz"
-],
-"Maxi Rodríguez",
-[
-"Hernán Crespo",
-"Crespo"
-],
-[
-"Martín Demichelis",
-"Demichelis"
-],
-[
-"Juan Sebastián Verón",
-"Verón"
-],
-[
-"Ramiro Funes Mori",
-"Mori"
-],
-[
-"Mauro Zárate",
-"Zárate"
-],
-[
-"Paulo Gazzaniga",
-"Gazzaniga"
-],
-[
-"Gabriel Heinze",
-"Heinze"
-],
-[
-"Carlos Marinelli",
-"Marinelli"
-],
-[
-"Emiliano Insúa",
-"Insúa"
-],
-"Willy Caballero",
-[
-"Nelson Vivas",
-"Vivas"
-],
-[
-"Ángel Di María",
-"María",
-"Di María"
-],
-[
-"Mauro Formica",
-"Formica"
-],
-[
-"Santiago Vergini",
-"Vergini"
-],
-[
-"Esteban Cambiasso",
-"Cambiasso"
-],
-[
-"Facundo Sava",
-"Sava"
-],
-[
-"Alejandro Faurlín",
-"Faurlín"
-],
-"Guido Rodríguez",
-[
-"Luciano Vietto",
-"Vietto"
-],
-[
-"Gonzalo Higuaín",
-"Higuaín"
-],
-[
-"Sixto Peralta",
-"Peralta"
-],
-[
-"Christian Bassedas",
-"Bassedas"
-],
-[
-"Luciano Zavagno",
-"Zavagno"
-],
-[
-"Daniel Cordone",
-"Cordone"
-],
-[
-"Denis Stracqualursi",
-"Stracqualursi"
-],
-[
-"Juan Foyth",
-"Foyth"
-],
-[
-"Emanuel Villa",
-"Villa"
-],
-[
-"Federico Fazio",
-"Fazio"
-],
-[
-"Gonzalo Montiel",
-"Montiel"
-],
-[
-"Jonathan Calleri",
-"Calleri"
-],
-[
-"Andrés D'Alessandro",
-"D'Alessandro"
-],
-[
-"Mauro Boselli",
-"Boselli"
-],
-[
-"Luciano Becchio",
-"Becchio"
-],
-[
-"Valentín Barco",
-"Barco"
-],
-"Ricky Álvarez",
-[
-"Lionel Scaloni",
-"Scaloni"
-],
-[
-"Alejo Véliz",
-"Véliz"
-],
-[
-"Mauricio Pellegrino",
-"Pellegrino"
-],
-[
-"Exequiel Palacios",
-"Palacios"
-],
-[
-"Julio Soler",
-"Soler"
-],
-[
-"Esteban Fuertes",
-"Fuertes"
-],
-[
-"Juan Cobián",
-"Cobián"
-],
-[
-"Juan Carlos Menseguez",
-"Menseguez"
-],
-"Sergio Romero",
-[
-"Ignacio Pussetto",
-"Pussetto"
-],
-[
-"Walter Benítez",
-"Benítez"
-],
-[
-"Guido Carrillo",
-"Carrillo"
-],
-[
-"Ignacio Scocco",
-"Scocco"
-],
-[
-"Sebastián Blanco",
-"Blanco"
-],
-[
-"Marcos Angeleri",
-"Angeleri"
-],
-[
-"Martín Herrera",
-"Herrera"
-],
-[
-"Claudio Echeverri",
-"Echeverri"
-],
-[
-"Máximo Perrone",
-"Perrone"
-],
-[
-"Federico Bessone",
-"Bessone"
-],
-"Fabián Caballero",
-[
-"Taty Castellanos",
-"Castellanos"
-]
-],
-"eras": {
-"Sergio Aguero": [
-"10s",
-"20s"
-],
-"Pablo Zabaleta": [
-"00s",
-"10s"
-],
-"Carlos Tevez": [
-"00s",
-"10s"
-],
-"Alexis Mac Allister": [
-"10s",
-"20s"
-],
-"Manuel Lanzini": [
-"10s",
-"20s"
-],
-"Emiliano Martinez": [
-"10s",
-"20s"
-],
-"Erik Lamela": [
-"10s",
-"20s"
-],
-"Emiliano Buendía": [
-"10s",
-"20s"
-],
-"Federico Fernández": [
-"10s",
-"20s"
-],
-"Enzo Fernández": [
-"20s"
-],
-"Fabricio Coloccini": [
-"00s",
-"10s"
-],
-"Alejandro Garnacho": [
-"20s"
-],
-"Nicolás Otamendi": [
-"10s"
-],
-"Julio Arca": [
-"00s"
-],
-"Cristian Romero": [
-"20s"
-],
-"Jonás Gutiérrez": [
-"00s",
-"10s"
-],
-"Roberto Pereyra": [
-"10s"
-],
-"Marcos Senesi": [
-"20s"
-],
-"Claudio Yacob": [
-"10s"
-],
-"Franco Di Santo": [
-"00s",
-"10s"
-],
-"Julián Álvarez": [
-"20s"
-],
-"Mauricio Taricco": [
-"90s",
-"00s"
-],
-"Leonardo Ulloa": [
-"10s"
-],
-"Nicolás Domínguez": [
-"20s"
-],
-"Facundo Buonanotte": [
-"20s"
-],
-"Julián Speroni": [
-"00s",
-"10s"
-],
-"Lisandro Martínez": [
-"20s"
-],
-"Giovani Lo Celso": [
-"10s",
-"20s"
-],
-"Javier Mascherano": [
-"00s",
-"10s"
-],
-"Horacio Carbonari": [
-"90s",
-"00s"
-],
-"Marcos Rojo": [
-"10s"
-],
-"Charly Alcaraz": [
-"20s"
-],
-"Maxi Rodríguez": [
-"00s",
-"10s"
-],
-"Hernán Crespo": [
-"00s"
-],
-"Martín Demichelis": [
-"10s"
-],
-"Juan Sebastián Verón": [
-"00s"
-],
-"Ramiro Funes Mori": [
-"10s"
-],
-"Mauro Zárate": [
-"00s",
-"10s"
-],
-"Paulo Gazzaniga": [
-"10s"
-],
-"Gabriel Heinze": [
-"00s"
-],
-"Carlos Marinelli": [
-"90s",
-"00s"
-],
-"Emiliano Insúa": [
-"00s"
-],
-"Willy Caballero": [
-"10s",
-"20s"
-],
-"Nelson Vivas": [
-"90s",
-"00s"
-],
-"Ángel Di María": [
-"10s"
-],
-"Mauro Formica": [
-"10s"
-],
-"Santiago Vergini": [
-"10s"
-],
-"Esteban Cambiasso": [
-"10s"
-],
-"Facundo Sava": [
-"00s"
-],
-"Alejandro Faurlín": [
-"10s"
-],
-"Guido Rodríguez": [
-"20s"
-],
-"Luciano Vietto": [
-"10s"
-],
-"Gonzalo Higuaín": [
-"10s"
-],
-"Sixto Peralta": [
-"00s"
-],
-"Christian Bassedas": [
-"00s"
-],
-"Luciano Zavagno": [
-"00s"
-],
-"Daniel Cordone": [
-"00s"
-],
-"Denis Stracqualursi": [
-"10s"
-],
-"Juan Foyth": [
-"10s"
-],
-"Emanuel Villa": [
-"00s"
-],
-"Federico Fazio": [
-"10s"
-],
-"Gonzalo Montiel": [
-"20s"
-],
-"Jonathan Calleri": [
-"10s"
-],
-"Andrés D'Alessandro": [
-"00s"
-],
-"Mauro Boselli": [
-"10s"
-],
-"Luciano Becchio": [
-"10s"
-],
-"Valentín Barco": [
-"20s"
-],
-"Ricky Álvarez": [
-"10s"
-],
-"Lionel Scaloni": [
-"00s"
-],
-"Alejo Véliz": [
-"20s"
-],
-"Mauricio Pellegrino": [
-"00s"
-],
-"Exequiel Palacios": [
-"20s"
-],
-"Julio Soler": [
-"20s"
-],
-"Esteban Fuertes": [
-"90s"
-],
-"Juan Cobián": [
-"90s"
-],
-"Juan Carlos Menseguez": [
-"00s"
-],
-"Sergio Romero": [
-"10s"
-],
-"Ignacio Pussetto": [
-"10s"
-],
-"Walter Benítez": [
-"20s"
-],
-"Guido Carrillo": [
-"10s"
-],
-"Ignacio Scocco": [
-"10s"
-],
-"Sebastián Blanco": [
-"10s"
-],
-"Marcos Angeleri": [
-"10s"
-],
-"Martín Herrera": [
-"00s"
-],
-"Claudio Echeverri": [
-"20s"
-],
-"Máximo Perrone": [
-"20s"
-],
-"Federico Bessone": [
-"10s"
-],
-"Fabián Caballero": [
-"90s"
-],
-"Taty Castellanos": [
-"20s"
-]
-}
-}
-]
+ "cat": "football",
+ "prompts": [
+  {
+   "id": "fpl-golden-glove",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Premier League Golden Glove winner",
+   "eraText": "Name a goalkeeper who won the Premier League Golden Glove for a season that began in the {era}",
+   "answers": [
+    [
+     "Petr Čech",
+     "Cech",
+     "Čech"
+    ],
+    [
+     "Alisson",
+     "Alisson Becker"
+    ],
+    [
+     "Ederson",
+     "Ederson Moraes"
+    ],
+    [
+     "David de Gea",
+     "De Gea",
+     "Gea",
+     "de Gea"
+    ],
+    [
+     "Joe Hart",
+     "Hart"
+    ],
+    [
+     "Pepe Reina",
+     "Jose Reina",
+     "Reina"
+    ],
+    [
+     "Thibaut Courtois",
+     "Courtois"
+    ],
+    [
+     "David Raya",
+     "Raya"
+    ],
+    [
+     "Edwin van der Sar",
+     "Van der Sar",
+     "Sar",
+     "van der Sar"
+    ],
+    [
+     "Wojciech Szczęsny",
+     "Szczesny",
+     "Chesney",
+     "Szczęsny"
+    ],
+    [
+     "Matz Sels",
+     "Mats Sels",
+     "Sels"
+    ]
+   ],
+   "eras": {
+    "Petr Čech": [
+     "00s",
+     "10s"
+    ],
+    "Alisson": [
+     "10s",
+     "20s"
+    ],
+    "Ederson": [
+     "10s",
+     "20s"
+    ],
+    "David de Gea": [
+     "10s",
+     "20s"
+    ],
+    "Joe Hart": [
+     "10s"
+    ],
+    "Pepe Reina": [
+     "00s"
+    ],
+    "Thibaut Courtois": [
+     "10s"
+    ],
+    "David Raya": [
+     "20s"
+    ],
+    "Edwin van der Sar": [
+     "00s"
+    ],
+    "Wojciech Szczęsny": [
+     "10s"
+    ],
+    "Matz Sels": [
+     "20s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-top-assist-season",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has been the Premier League's top assist provider in a season",
+   "eraText": "Name a player who was the Premier League's top assist provider in a season that began in the {era}",
+   "answers": [
+    [
+     "Kevin De Bruyne",
+     "KDB",
+     "De Bruyne",
+     "Bruyne"
+    ],
+    [
+     "Mohamed Salah",
+     "Salah"
+    ],
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Steven Gerrard",
+     "Gerrard"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "David Beckham",
+     "Becks",
+     "Beckham"
+    ],
+    [
+     "Cesc Fabregas",
+     "Fabregas"
+    ],
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "Eden Hazard",
+     "Hazard"
+    ],
+    [
+     "Bruno Fernandes",
+     "Bruno",
+     "Fernandes"
+    ],
+    [
+     "Mesut Ozil",
+     "Ozil"
+    ],
+    [
+     "Eric Cantona",
+     "Cantona"
+    ],
+    [
+     "Dennis Bergkamp",
+     "Bergkamp"
+    ],
+    [
+     "Didier Drogba",
+     "Drogba"
+    ],
+    [
+     "Luis Suarez",
+     "Suarez"
+    ],
+    [
+     "Robin van Persie",
+     "Persie",
+     "van Persie"
+    ],
+    [
+     "David Silva",
+     "Silva"
+    ],
+    [
+     "Ollie Watkins",
+     "Oliver Watkins",
+     "Watkins"
+    ],
+    [
+     "Juan Mata",
+     "Mata"
+    ],
+    [
+     "Andy Cole",
+     "Cole"
+    ],
+    [
+     "Robert Pires",
+     "Pires"
+    ],
+    [
+     "Steve McManaman",
+     "McManaman"
+    ],
+    "Nani",
+    [
+     "Matt Le Tissier",
+     "Tissier",
+     "Le Tissier"
+    ],
+    [
+     "Jimmy Floyd Hasselbaink",
+     "Jimmy Hasselbaink",
+     "Hasselbaink"
+    ],
+    [
+     "Nolberto Solano",
+     "Solano"
+    ],
+    [
+     "Muzzy Izzet",
+     "Mustafa Izzet",
+     "Izzet"
+    ]
+   ],
+   "eras": {
+    "Kevin De Bruyne": [
+     "10s",
+     "20s"
+    ],
+    "Mohamed Salah": [
+     "20s"
+    ],
+    "Harry Kane": [
+     "20s"
+    ],
+    "Steven Gerrard": [
+     "10s"
+    ],
+    "Frank Lampard": [
+     "00s"
+    ],
+    "Wayne Rooney": [
+     "00s"
+    ],
+    "David Beckham": [
+     "90s",
+     "00s"
+    ],
+    "Cesc Fabregas": [
+     "00s",
+     "10s"
+    ],
+    "Thierry Henry": [
+     "00s"
+    ],
+    "Eden Hazard": [
+     "10s"
+    ],
+    "Bruno Fernandes": [
+     "20s"
+    ],
+    "Mesut Ozil": [
+     "10s"
+    ],
+    "Eric Cantona": [
+     "90s"
+    ],
+    "Dennis Bergkamp": [
+     "90s"
+    ],
+    "Didier Drogba": [
+     "00s"
+    ],
+    "Luis Suarez": [
+     "10s"
+    ],
+    "Robin van Persie": [
+     "00s"
+    ],
+    "David Silva": [
+     "10s"
+    ],
+    "Ollie Watkins": [
+     "20s"
+    ],
+    "Juan Mata": [
+     "10s"
+    ],
+    "Andy Cole": [
+     "90s"
+    ],
+    "Robert Pires": [
+     "00s"
+    ],
+    "Steve McManaman": [
+     "90s"
+    ],
+    "Nani": [
+     "10s"
+    ],
+    "Matt Le Tissier": [
+     "90s"
+    ],
+    "Jimmy Floyd Hasselbaink": [
+     "90s"
+    ],
+    "Nolberto Solano": [
+     "90s"
+    ],
+    "Muzzy Izzet": [
+     "00s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-four-goals-match",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored four or more goals in a Premier League match",
+   "eraText": "Name a player who scored four or more goals in a Premier League match in the {era}",
+   "answers": [
+    [
+     "Alan Shearer",
+     "Shearer"
+    ],
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Mohamed Salah",
+     "Salah"
+    ],
+    [
+     "Andy Cole",
+     "Cole"
+    ],
+    [
+     "Sergio Agüero",
+     "Kun Aguero",
+     "Aguero"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "Robbie Fowler",
+     "Fowler"
+    ],
+    [
+     "Jermain Defoe",
+     "Defoe"
+    ],
+    [
+     "Michael Owen",
+     "Owen"
+    ],
+    [
+     "Jimmy Floyd Hasselbaink",
+     "Jimmy Hasselbaink",
+     "Hasselbaink"
+    ],
+    [
+     "Son Heung-min",
+     "Sonny",
+     "min"
+    ],
+    [
+     "Robbie Keane",
+     "Keane"
+    ],
+    [
+     "Romelu Lukaku",
+     "Lukaku"
+    ],
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    "Yakubu",
+    [
+     "Dimitar Berbatov",
+     "Berbatov"
+    ],
+    [
+     "Mark Viduka",
+     "Viduka"
+    ],
+    [
+     "Ole Gunnar Solskjær",
+     "Solskjaer",
+     "Ole"
+    ],
+    [
+     "Gabriel Jesus",
+     "Jesus"
+    ],
+    [
+     "Kevin De Bruyne",
+     "Bruyne",
+     "De Bruyne"
+    ],
+    [
+     "Luis Suárez",
+     "Suárez"
+    ],
+    [
+     "Michail Antonio",
+     "Antonio"
+    ],
+    [
+     "Efan Ekoku",
+     "Ekoku"
+    ],
+    [
+     "Edin Džeko",
+     "Dzeko"
+    ],
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Jürgen Klinsmann",
+     "Klinsmann"
+    ],
+    [
+     "Georginio Wijnaldum",
+     "Wijnaldum"
+    ],
+    [
+     "Andrei Arshavin",
+     "Andrey Arshavin",
+     "Arshavin"
+    ],
+    [
+     "Gianluca Vialli",
+     "Vialli"
+    ]
+   ],
+   "eras": {
+    "Alan Shearer": [
+     "90s"
+    ],
+    "Harry Kane": [
+     "10s"
+    ],
+    "Wayne Rooney": [
+     "10s"
+    ],
+    "Mohamed Salah": [
+     "10s"
+    ],
+    "Andy Cole": [
+     "90s"
+    ],
+    "Sergio Agüero": [
+     "10s"
+    ],
+    "Frank Lampard": [
+     "00s",
+     "10s"
+    ],
+    "Thierry Henry": [
+     "00s"
+    ],
+    "Robbie Fowler": [
+     "90s"
+    ],
+    "Jermain Defoe": [
+     "00s"
+    ],
+    "Michael Owen": [
+     "90s",
+     "00s"
+    ],
+    "Jimmy Floyd Hasselbaink": [
+     "00s"
+    ],
+    "Son Heung-min": [
+     "20s"
+    ],
+    "Robbie Keane": [
+     "00s"
+    ],
+    "Romelu Lukaku": [
+     "10s"
+    ],
+    "Erling Haaland": [
+     "20s"
+    ],
+    "Yakubu": [
+     "00s",
+     "10s"
+    ],
+    "Dimitar Berbatov": [
+     "00s",
+     "10s"
+    ],
+    "Mark Viduka": [
+     "00s"
+    ],
+    "Ole Gunnar Solskjær": [
+     "90s"
+    ],
+    "Gabriel Jesus": [
+     "20s"
+    ],
+    "Kevin De Bruyne": [
+     "20s"
+    ],
+    "Luis Suárez": [
+     "10s"
+    ],
+    "Michail Antonio": [
+     "20s"
+    ],
+    "Efan Ekoku": [
+     "90s"
+    ],
+    "Edin Džeko": [
+     "10s"
+    ],
+    "Cole Palmer": [
+     "20s"
+    ],
+    "Jürgen Klinsmann": [
+     "90s"
+    ],
+    "Georginio Wijnaldum": [
+     "10s"
+    ],
+    "Andrei Arshavin": [
+     "00s"
+    ],
+    "Gianluca Vialli": [
+     "90s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-title-managers",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a manager who has won the Premier League title",
+   "eraText": "Name a manager who won the Premier League title in a season that began in the {era}",
+   "answers": [
+    [
+     "Alex Ferguson",
+     "Sir Alex Ferguson",
+     "Fergie",
+     "Ferguson"
+    ],
+    [
+     "Pep Guardiola",
+     "Pep",
+     "Guardiola"
+    ],
+    [
+     "Jürgen Klopp",
+     "Klopp"
+    ],
+    [
+     "José Mourinho",
+     "Mourinho"
+    ],
+    [
+     "Arsène Wenger",
+     "Wenger"
+    ],
+    [
+     "Claudio Ranieri",
+     "Ranieri"
+    ],
+    [
+     "Mikel Arteta",
+     "Arteta"
+    ],
+    [
+     "Arne Slot",
+     "Slot"
+    ],
+    [
+     "Antonio Conte",
+     "Conte"
+    ],
+    [
+     "Carlo Ancelotti",
+     "Ancelotti"
+    ],
+    [
+     "Roberto Mancini",
+     "Mancini"
+    ],
+    [
+     "Manuel Pellegrini",
+     "Pellegrini"
+    ],
+    [
+     "Kenny Dalglish",
+     "Dalglish"
+    ]
+   ],
+   "eras": {
+    "Alex Ferguson": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Pep Guardiola": [
+     "10s",
+     "20s"
+    ],
+    "Jürgen Klopp": [
+     "10s"
+    ],
+    "José Mourinho": [
+     "00s",
+     "10s"
+    ],
+    "Arsène Wenger": [
+     "90s",
+     "00s"
+    ],
+    "Claudio Ranieri": [
+     "10s"
+    ],
+    "Mikel Arteta": [
+     "20s"
+    ],
+    "Arne Slot": [
+     "20s"
+    ],
+    "Antonio Conte": [
+     "10s"
+    ],
+    "Carlo Ancelotti": [
+     "00s"
+    ],
+    "Roberto Mancini": [
+     "10s"
+    ],
+    "Manuel Pellegrini": [
+     "10s"
+    ],
+    "Kenny Dalglish": [
+     "90s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-finished-bottom",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club that has finished bottom of the Premier League (1992-93 to 2025-26)",
+   "eraText": "Name a club that finished bottom of the Premier League in a season that began in the {era}",
+   "answers": [
+    [
+     "Derby County",
+     "Derby"
+    ],
+    "Sunderland",
+    [
+     "Southampton",
+     "Saints"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves",
+     "Wolverhampton"
+    ],
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    [
+     "Sheffield United",
+     "Sheff Utd",
+     "Sheffield Utd",
+     "Blades"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    "Watford",
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Nottingham Forest",
+     "Forest",
+     "Notts Forest"
+    ],
+    [
+     "Swindon Town",
+     "Swindon"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ]
+   ],
+   "eras": {
+    "Derby County": [
+     "00s"
+    ],
+    "Sunderland": [
+     "00s",
+     "10s"
+    ],
+    "Southampton": [
+     "00s",
+     "20s"
+    ],
+    "Wolverhampton Wanderers": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Norwich City": [
+     "10s",
+     "20s"
+    ],
+    "Sheffield United": [
+     "20s"
+    ],
+    "West Bromwich Albion": [
+     "00s",
+     "10s"
+    ],
+    "Leicester City": [
+     "00s"
+    ],
+    "Aston Villa": [
+     "10s"
+    ],
+    "Queens Park Rangers": [
+     "10s"
+    ],
+    "Huddersfield Town": [
+     "10s"
+    ],
+    "Cardiff City": [
+     "10s"
+    ],
+    "Portsmouth": [
+     "00s"
+    ],
+    "West Ham United": [
+     "10s"
+    ],
+    "Watford": [
+     "90s",
+     "00s"
+    ],
+    "Bradford City": [
+     "00s"
+    ],
+    "Ipswich Town": [
+     "90s"
+    ],
+    "Nottingham Forest": [
+     "90s"
+    ],
+    "Swindon Town": [
+     "90s"
+    ],
+    "Bolton Wanderers": [
+     "90s"
+    ],
+    "Crystal Palace": [
+     "90s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-promoted-play-offs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club that has won promotion to the Premier League through the Championship play-offs (1992 to 2026)",
+   "deep": true,
+   "eraText": "Name a club that won promotion to the Premier League through the play-offs in the {era}",
+   "answers": [
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    "Fulham",
+    [
+     "Hull City",
+     "Hull"
+    ],
+    [
+     "Nottingham Forest",
+     "Forest",
+     "Notts Forest"
+    ],
+    [
+     "Southampton",
+     "Saints"
+    ],
+    "Sunderland",
+    "Brentford",
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    [
+     "Swansea City",
+     "Swansea"
+    ],
+    "Burnley",
+    [
+     "Wolverhampton Wanderers",
+     "Wolves",
+     "Wolverhampton"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn",
+     "Rovers"
+    ],
+    "Watford",
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    [
+     "Luton Town",
+     "Luton"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham",
+     "Brum"
+    ],
+    "Blackpool",
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    [
+     "Swindon Town",
+     "Swindon"
+    ]
+   ],
+   "eras": {
+    "West Ham United": [
+     "00s",
+     "10s"
+    ],
+    "Crystal Palace": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Aston Villa": [
+     "10s"
+    ],
+    "Leicester City": [
+     "90s"
+    ],
+    "Fulham": [
+     "10s",
+     "20s"
+    ],
+    "Hull City": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Nottingham Forest": [
+     "20s"
+    ],
+    "Southampton": [
+     "20s"
+    ],
+    "Sunderland": [
+     "20s"
+    ],
+    "Brentford": [
+     "20s"
+    ],
+    "Norwich City": [
+     "10s"
+    ],
+    "Swansea City": [
+     "10s"
+    ],
+    "Burnley": [
+     "00s"
+    ],
+    "Wolverhampton Wanderers": [
+     "00s"
+    ],
+    "Blackburn Rovers": [
+     "90s"
+    ],
+    "Watford": [
+     "90s",
+     "00s"
+    ],
+    "Derby County": [
+     "00s"
+    ],
+    "Bolton Wanderers": [
+     "90s",
+     "00s"
+    ],
+    "Queens Park Rangers": [
+     "10s"
+    ],
+    "Huddersfield Town": [
+     "10s"
+    ],
+    "Luton Town": [
+     "20s"
+    ],
+    "Ipswich Town": [
+     "00s"
+    ],
+    "Birmingham City": [
+     "00s"
+    ],
+    "Blackpool": [
+     "10s"
+    ],
+    "Charlton Athletic": [
+     "90s"
+    ],
+    "Swindon Town": [
+     "90s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-top-four-finish",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club that has finished in the top four of the Premier League (1992-93 to 2025-26)",
+   "eraText": "Name a club that finished in the Premier League's top four in a season that began in the {era}",
+   "answers": [
+    [
+     "Manchester United",
+     "Man Utd",
+     "Man United",
+     "Manchester Utd",
+     "United"
+    ],
+    "Arsenal",
+    "Chelsea",
+    "Liverpool",
+    [
+     "Manchester City",
+     "Man City",
+     "City"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle",
+     "Newcastle Utd"
+    ],
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    "Everton",
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn",
+     "Rovers"
+    ],
+    [
+     "Nottingham Forest",
+     "Forest",
+     "Notts Forest"
+    ],
+    [
+     "Norwich City",
+     "Norwich"
+    ]
+   ],
+   "eras": {
+    "Manchester United": [
+     "90s",
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Arsenal": [
+     "90s",
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Chelsea": [
+     "90s",
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Liverpool": [
+     "90s",
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Manchester City": [
+     "10s",
+     "20s"
+    ],
+    "Tottenham Hotspur": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Newcastle United": [
+     "90s",
+     "00s",
+     "20s"
+    ],
+    "Leicester City": [
+     "10s"
+    ],
+    "Aston Villa": [
+     "90s",
+     "20s"
+    ],
+    "Everton": [
+     "00s"
+    ],
+    "Leeds United": [
+     "90s",
+     "00s"
+    ],
+    "Blackburn Rovers": [
+     "90s"
+    ],
+    "Nottingham Forest": [
+     "90s"
+    ],
+    "Norwich City": [
+     "90s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-clubs-2026-27",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club in the 2026-27 Premier League",
+   "answers": [
+    "Arsenal",
+    [
+     "Manchester City",
+     "Man City",
+     "City"
+    ],
+    "Liverpool",
+    [
+     "Manchester United",
+     "Man Utd",
+     "Man United",
+     "Manchester Utd",
+     "United"
+    ],
+    "Chelsea",
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle",
+     "Newcastle Utd"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    "Everton",
+    [
+     "Brighton & Hove Albion",
+     "Brighton"
+    ],
+    "Fulham",
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    "Brentford",
+    [
+     "Nottingham Forest",
+     "Forest",
+     "Notts Forest"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Bournemouth",
+     "AFC Bournemouth"
+    ],
+    "Sunderland",
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Hull City",
+     "Hull"
+    ]
+   ]
+  },
+  {
+   "id": "fpl-five-red-cards",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has received five or more Premier League red cards",
+   "deep": true,
+   "eraText": "Name a player with five or more career Premier League red cards who was sent off in a season that began in the {era}",
+   "answers": [
+    [
+     "Andy Cole",
+     "Andrew Cole",
+     "Cole"
+    ],
+    [
+     "Steven Gerrard",
+     "Gerrard"
+    ],
+    [
+     "Gareth Barry",
+     "Barry"
+    ],
+    [
+     "Mark Noble",
+     "Noble"
+    ],
+    [
+     "John Terry",
+     "Terry"
+    ],
+    [
+     "Dion Dublin",
+     "Dublin"
+    ],
+    [
+     "Nicky Butt",
+     "Butt"
+    ],
+    [
+     "Roy Keane",
+     "Keane"
+    ],
+    [
+     "Richard Dunne",
+     "Dunne"
+    ],
+    [
+     "Jonjo Shelvey",
+     "Shelvey"
+    ],
+    [
+     "Lewis Dunk",
+     "Dunk"
+    ],
+    [
+     "Scott Parker",
+     "Parker"
+    ],
+    [
+     "George Boateng",
+     "Boateng"
+    ],
+    [
+     "Duncan Ferguson",
+     "Ferguson"
+    ],
+    [
+     "Alan Smith",
+     "Smith"
+    ],
+    [
+     "Patrick Vieira",
+     "Vieira"
+    ],
+    [
+     "Ugo Ehiogu",
+     "Ehiogu"
+    ],
+    [
+     "Luís Boa Morte",
+     "Morte"
+    ],
+    [
+     "Paul Konchesky",
+     "Konchesky"
+    ],
+    [
+     "Dennis Wise",
+     "Wise"
+    ],
+    [
+     "Jason Wilcox",
+     "Wilcox"
+    ],
+    [
+     "Laurent Koscielny",
+     "Koscielny"
+    ],
+    [
+     "Joey Barton",
+     "Barton"
+    ],
+    [
+     "Ryan Shawcross",
+     "Shawcross"
+    ],
+    [
+     "Martin Keown",
+     "Keown"
+    ],
+    [
+     "Wes Brown",
+     "Brown"
+    ],
+    [
+     "Frank Sinclair",
+     "Sinclair"
+    ],
+    [
+     "Carlton Palmer",
+     "Palmer"
+    ],
+    [
+     "Lee Cattermole",
+     "Cattermole"
+    ],
+    [
+     "David Batty",
+     "Batty"
+    ],
+    [
+     "Tom Huddlestone",
+     "Huddlestone"
+    ],
+    [
+     "John Hartson",
+     "Hartson"
+    ],
+    [
+     "Steve Lomas",
+     "Lomas"
+    ],
+    [
+     "Tugay Kerimoglu",
+     "Kerimoglu"
+    ],
+    [
+     "Francis Benali",
+     "Benali"
+    ],
+    [
+     "Nemanja Vidic",
+     "Vidic"
+    ],
+    [
+     "Franck Queudrue",
+     "Queudrue"
+    ],
+    [
+     "Younes Kaboul",
+     "Kaboul"
+    ],
+    [
+     "Vinnie Jones",
+     "Jones"
+    ],
+    [
+     "Frank Leboeuf",
+     "Leboeuf"
+    ],
+    [
+     "Nikolaos Dabizas",
+     "Dabizas"
+    ]
+   ],
+   "eras": {
+    "Andy Cole": [
+     "90s",
+     "00s"
+    ],
+    "Steven Gerrard": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Gareth Barry": [
+     "00s",
+     "10s"
+    ],
+    "Mark Noble": [
+     "00s",
+     "10s"
+    ],
+    "John Terry": [
+     "00s",
+     "10s"
+    ],
+    "Dion Dublin": [
+     "90s",
+     "00s"
+    ],
+    "Nicky Butt": [
+     "90s",
+     "00s"
+    ],
+    "Roy Keane": [
+     "90s",
+     "00s"
+    ],
+    "Richard Dunne": [
+     "90s",
+     "00s"
+    ],
+    "Jonjo Shelvey": [
+     "10s",
+     "20s"
+    ],
+    "Lewis Dunk": [
+     "10s",
+     "20s"
+    ],
+    "Scott Parker": [
+     "00s",
+     "10s"
+    ],
+    "George Boateng": [
+     "90s",
+     "00s"
+    ],
+    "Duncan Ferguson": [
+     "90s",
+     "00s"
+    ],
+    "Alan Smith": [
+     "90s",
+     "00s"
+    ],
+    "Patrick Vieira": [
+     "90s",
+     "00s"
+    ],
+    "Ugo Ehiogu": [
+     "90s",
+     "00s"
+    ],
+    "Luís Boa Morte": [
+     "90s",
+     "00s"
+    ],
+    "Paul Konchesky": [
+     "00s",
+     "10s"
+    ],
+    "Dennis Wise": [
+     "90s",
+     "00s"
+    ],
+    "Jason Wilcox": [
+     "90s"
+    ],
+    "Laurent Koscielny": [
+     "10s"
+    ],
+    "Joey Barton": [
+     "00s",
+     "10s"
+    ],
+    "Ryan Shawcross": [
+     "00s",
+     "10s"
+    ],
+    "Martin Keown": [
+     "90s",
+     "00s"
+    ],
+    "Wes Brown": [
+     "00s",
+     "10s"
+    ],
+    "Frank Sinclair": [
+     "90s"
+    ],
+    "Carlton Palmer": [
+     "90s",
+     "00s"
+    ],
+    "Lee Cattermole": [
+     "00s",
+     "10s"
+    ],
+    "David Batty": [
+     "90s",
+     "00s"
+    ],
+    "Tom Huddlestone": [
+     "10s"
+    ],
+    "John Hartson": [
+     "90s"
+    ],
+    "Steve Lomas": [
+     "90s",
+     "00s"
+    ],
+    "Tugay Kerimoglu": [
+     "00s"
+    ],
+    "Francis Benali": [
+     "90s"
+    ],
+    "Nemanja Vidic": [
+     "00s",
+     "10s"
+    ],
+    "Franck Queudrue": [
+     "00s"
+    ],
+    "Younes Kaboul": [
+     "00s",
+     "10s"
+    ],
+    "Vinnie Jones": [
+     "90s"
+    ],
+    "Frank Leboeuf": [
+     "90s"
+    ],
+    "Nikolaos Dabizas": [
+     "90s",
+     "00s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-gk-50-clean-sheets",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a goalkeeper with 50 or more Premier League clean sheets",
+   "deep": true,
+   "eraText": "Name a goalkeeper with 50 or more career Premier League clean sheets who played in the Premier League in a season that began in the {era}",
+   "answers": [
+    [
+     "David James",
+     "James"
+    ],
+    [
+     "Petr Cech",
+     "Cech"
+    ],
+    [
+     "David de Gea",
+     "Gea",
+     "de Gea"
+    ],
+    [
+     "Mark Schwarzer",
+     "Schwarzer"
+    ],
+    [
+     "Ben Foster",
+     "Foster"
+    ],
+    [
+     "Lukasz Fabianski",
+     "Fabianski"
+    ],
+    [
+     "Jordan Pickford",
+     "Pickford"
+    ],
+    [
+     "Brad Friedel",
+     "Friedel"
+    ],
+    [
+     "Shay Given",
+     "Given"
+    ],
+    [
+     "Hugo Lloris",
+     "Lloris"
+    ],
+    [
+     "Jussi Jääskeläinen",
+     "Jääskeläinen"
+    ],
+    [
+     "Joe Hart",
+     "Hart"
+    ],
+    [
+     "Tim Howard",
+     "Howard"
+    ],
+    [
+     "Paul Robinson",
+     "Robinson"
+    ],
+    [
+     "Pepe Reina",
+     "Reina"
+    ],
+    [
+     "Nigel Martyn",
+     "Martyn"
+    ],
+    [
+     "Thomas Sørensen",
+     "Sørensen"
+    ],
+    "Kasper Schmeichel",
+    "Ederson",
+    [
+     "David Seaman",
+     "Seaman"
+    ],
+    [
+     "Alisson",
+     "Alisson Becker"
+    ],
+    [
+     "Bernd Leno",
+     "Leno"
+    ],
+    [
+     "Asmir Begovic",
+     "Begovic"
+    ],
+    "Peter Schmeichel",
+    [
+     "Edwin van der Sar",
+     "Van der Sar",
+     "Sar",
+     "van der Sar"
+    ],
+    [
+     "Ian Walker",
+     "Walker"
+    ],
+    [
+     "Nick Pope",
+     "Pope"
+    ],
+    [
+     "Emiliano Martinez",
+     "Dibu Martinez",
+     "Martinez"
+    ],
+    [
+     "Tim Flowers",
+     "Flowers"
+    ],
+    [
+     "Tim Krul",
+     "Krul"
+    ],
+    [
+     "Robert Green",
+     "Green"
+    ],
+    [
+     "Neil Sullivan",
+     "Sullivan"
+    ],
+    [
+     "Martin Dúbravka",
+     "Dúbravka"
+    ],
+    [
+     "Simon Mignolet",
+     "Mignolet"
+    ],
+    [
+     "David Raya",
+     "Raya"
+    ],
+    [
+     "Shaka Hislop",
+     "Hislop"
+    ],
+    [
+     "Paul Jones",
+     "Jones"
+    ],
+    [
+     "Neville Southall",
+     "Southall"
+    ],
+    [
+     "Mark Bosnich",
+     "Bosnich"
+    ],
+    [
+     "Mark Crossley",
+     "Crossley"
+    ],
+    [
+     "Kasey Keller",
+     "Keller"
+    ],
+    [
+     "Dean Kiely",
+     "Kiely"
+    ],
+    [
+     "Heurelho Gomes",
+     "Gomes"
+    ],
+    [
+     "Steve Ogrizovic",
+     "Ogrizovic"
+    ],
+    [
+     "Carlo Cudicini",
+     "Cudicini"
+    ],
+    [
+     "Jens Lehmann",
+     "Lehmann"
+    ],
+    [
+     "John Lukic",
+     "Lukic"
+    ]
+   ],
+   "eras": {
+    "David James": [
+     "90s",
+     "00s"
+    ],
+    "Petr Cech": [
+     "00s",
+     "10s"
+    ],
+    "David de Gea": [
+     "10s",
+     "20s"
+    ],
+    "Mark Schwarzer": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Ben Foster": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Lukasz Fabianski": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Jordan Pickford": [
+     "10s",
+     "20s"
+    ],
+    "Brad Friedel": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Shay Given": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Hugo Lloris": [
+     "10s",
+     "20s"
+    ],
+    "Jussi Jääskeläinen": [
+     "00s",
+     "10s"
+    ],
+    "Joe Hart": [
+     "00s",
+     "10s"
+    ],
+    "Tim Howard": [
+     "00s",
+     "10s"
+    ],
+    "Paul Robinson": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Pepe Reina": [
+     "00s",
+     "10s"
+    ],
+    "Nigel Martyn": [
+     "90s",
+     "00s"
+    ],
+    "Thomas Sørensen": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Kasper Schmeichel": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Ederson": [
+     "10s",
+     "20s"
+    ],
+    "David Seaman": [
+     "90s",
+     "00s"
+    ],
+    "Alisson": [
+     "10s",
+     "20s"
+    ],
+    "Bernd Leno": [
+     "10s",
+     "20s"
+    ],
+    "Asmir Begovic": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Peter Schmeichel": [
+     "90s",
+     "00s"
+    ],
+    "Edwin van der Sar": [
+     "00s",
+     "10s"
+    ],
+    "Ian Walker": [
+     "90s",
+     "00s"
+    ],
+    "Nick Pope": [
+     "10s",
+     "20s"
+    ],
+    "Emiliano Martinez": [
+     "10s",
+     "20s"
+    ],
+    "Tim Flowers": [
+     "90s",
+     "00s"
+    ],
+    "Tim Krul": [
+     "10s",
+     "20s"
+    ],
+    "Robert Green": [
+     "00s",
+     "10s"
+    ],
+    "Neil Sullivan": [
+     "90s",
+     "00s"
+    ],
+    "Martin Dúbravka": [
+     "10s",
+     "20s"
+    ],
+    "Simon Mignolet": [
+     "10s"
+    ],
+    "David Raya": [
+     "20s"
+    ],
+    "Shaka Hislop": [
+     "90s",
+     "00s"
+    ],
+    "Paul Jones": [
+     "90s",
+     "00s"
+    ],
+    "Neville Southall": [
+     "90s"
+    ],
+    "Mark Bosnich": [
+     "90s",
+     "00s"
+    ],
+    "Mark Crossley": [
+     "90s",
+     "00s"
+    ],
+    "Kasey Keller": [
+     "90s",
+     "00s"
+    ],
+    "Dean Kiely": [
+     "00s"
+    ],
+    "Heurelho Gomes": [
+     "00s",
+     "10s"
+    ],
+    "Steve Ogrizovic": [
+     "90s"
+    ],
+    "Carlo Cudicini": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Jens Lehmann": [
+     "00s",
+     "10s"
+    ],
+    "John Lukic": [
+     "90s",
+     "00s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-assists-50",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player with 50 or more Premier League assists",
+   "eraText": "Name a player with 50 or more career Premier League assists who played in the Premier League in a season that began in the {era}",
+   "answers": [
+    [
+     "James Milner",
+     "Milner"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Alan Shearer",
+     "Shearer"
+    ],
+    [
+     "Ryan Giggs",
+     "Giggs"
+    ],
+    [
+     "Mohamed Salah",
+     "Salah"
+    ],
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Peter Crouch",
+     "Crouch"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Andy Cole",
+     "Andrew Cole",
+     "Cole"
+    ],
+    [
+     "Steven Gerrard",
+     "Gerrard"
+    ],
+    [
+     "Ashley Young",
+     "Young"
+    ],
+    [
+     "Gareth Barry",
+     "Barry"
+    ],
+    [
+     "Son Heung-min",
+     "Sonny",
+     "min"
+    ],
+    [
+     "Emile Heskey",
+     "Heskey"
+    ],
+    [
+     "Teddy Sheringham",
+     "Sheringham"
+    ],
+    [
+     "Paul Scholes",
+     "Scholes"
+    ],
+    [
+     "Theo Walcott",
+     "Walcott"
+    ],
+    [
+     "Jordan Henderson",
+     "Henderson"
+    ],
+    [
+     "Cesc Fàbregas",
+     "Fàbregas"
+    ],
+    [
+     "Kevin De Bruyne",
+     "Bruyne",
+     "De Bruyne"
+    ],
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "Kevin Davies",
+     "Davies"
+    ],
+    [
+     "Aaron Lennon",
+     "Lennon"
+    ],
+    [
+     "Leighton Baines",
+     "Baines"
+    ],
+    [
+     "Dwight Yorke",
+     "Yorke"
+    ],
+    "David Silva",
+    [
+     "Riyad Mahrez",
+     "Mahrez"
+    ],
+    [
+     "Gylfi Sigurdsson",
+     "Sigurdsson"
+    ],
+    [
+     "Christian Eriksen",
+     "Eriksen"
+    ],
+    [
+     "Robin van Persie",
+     "Persie",
+     "van Persie"
+    ],
+    [
+     "Jimmy Floyd Hasselbaink",
+     "Jimmy Hasselbaink",
+     "Hasselbaink"
+    ],
+    [
+     "Roberto Firmino",
+     "Firmino"
+    ],
+    [
+     "Eden Hazard",
+     "Hazard"
+    ],
+    [
+     "Dennis Bergkamp",
+     "Bergkamp"
+    ],
+    [
+     "Bruno Fernandes",
+     "Fernandes"
+    ],
+    [
+     "Danny Murphy",
+     "Murphy"
+    ],
+    "Bernardo Silva",
+    [
+     "Damien Duff",
+     "Duff"
+    ],
+    [
+     "Juan Mata",
+     "Mata"
+    ],
+    [
+     "Stewart Downing",
+     "Downing"
+    ],
+    [
+     "Andy Robertson",
+     "Robertson"
+    ],
+    [
+     "Matt Le Tissier",
+     "Matthew Le Tissier",
+     "Le God",
+     "Tissier",
+     "Le Tissier"
+    ],
+    [
+     "Didier Drogba",
+     "Drogba"
+    ],
+    [
+     "Bukayo Saka",
+     "Saka"
+    ],
+    [
+     "Nick Barmby",
+     "Barmby"
+    ],
+    [
+     "Pascal Groß",
+     "Groß"
+    ],
+    [
+     "Steed Malbranque",
+     "Malbranque"
+    ],
+    [
+     "David Beckham",
+     "Beckham"
+    ],
+    [
+     "Nolberto Solano",
+     "Solano"
+    ],
+    [
+     "Darren Anderton",
+     "Anderton"
+    ],
+    [
+     "Trent Alexander-Arnold",
+     "Arnold"
+    ],
+    [
+     "Steve McManaman",
+     "McManaman"
+    ],
+    [
+     "Mesut Özil",
+     "Özil"
+    ],
+    [
+     "Eric Cantona",
+     "Cantona"
+    ]
+   ],
+   "eras": {
+    "James Milner": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Frank Lampard": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Alan Shearer": [
+     "90s",
+     "00s"
+    ],
+    "Ryan Giggs": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Mohamed Salah": [
+     "10s",
+     "20s"
+    ],
+    "Wayne Rooney": [
+     "00s",
+     "10s"
+    ],
+    "Peter Crouch": [
+     "00s",
+     "10s"
+    ],
+    "Raheem Sterling": [
+     "10s",
+     "20s"
+    ],
+    "Andy Cole": [
+     "90s",
+     "00s"
+    ],
+    "Steven Gerrard": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Ashley Young": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Gareth Barry": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Son Heung-min": [
+     "10s",
+     "20s"
+    ],
+    "Emile Heskey": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Teddy Sheringham": [
+     "90s",
+     "00s"
+    ],
+    "Paul Scholes": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Theo Walcott": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Jordan Henderson": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Cesc Fàbregas": [
+     "00s",
+     "10s"
+    ],
+    "Kevin De Bruyne": [
+     "10s",
+     "20s"
+    ],
+    "Thierry Henry": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Kevin Davies": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Aaron Lennon": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Leighton Baines": [
+     "00s",
+     "10s"
+    ],
+    "Dwight Yorke": [
+     "90s",
+     "00s"
+    ],
+    "David Silva": [
+     "10s"
+    ],
+    "Riyad Mahrez": [
+     "10s",
+     "20s"
+    ],
+    "Gylfi Sigurdsson": [
+     "10s",
+     "20s"
+    ],
+    "Christian Eriksen": [
+     "10s",
+     "20s"
+    ],
+    "Robin van Persie": [
+     "00s",
+     "10s"
+    ],
+    "Jimmy Floyd Hasselbaink": [
+     "90s",
+     "00s"
+    ],
+    "Roberto Firmino": [
+     "10s",
+     "20s"
+    ],
+    "Eden Hazard": [
+     "10s"
+    ],
+    "Dennis Bergkamp": [
+     "90s",
+     "00s"
+    ],
+    "Bruno Fernandes": [
+     "10s",
+     "20s"
+    ],
+    "Danny Murphy": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Bernardo Silva": [
+     "10s",
+     "20s"
+    ],
+    "Damien Duff": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Juan Mata": [
+     "10s",
+     "20s"
+    ],
+    "Stewart Downing": [
+     "00s",
+     "10s"
+    ],
+    "Andy Robertson": [
+     "10s",
+     "20s"
+    ],
+    "Matt Le Tissier": [
+     "90s",
+     "00s"
+    ],
+    "Didier Drogba": [
+     "00s",
+     "10s"
+    ],
+    "Bukayo Saka": [
+     "10s",
+     "20s"
+    ],
+    "Nick Barmby": [
+     "90s",
+     "00s"
+    ],
+    "Pascal Groß": [
+     "10s",
+     "20s"
+    ],
+    "Steed Malbranque": [
+     "00s",
+     "10s"
+    ],
+    "David Beckham": [
+     "90s",
+     "00s"
+    ],
+    "Nolberto Solano": [
+     "90s",
+     "00s"
+    ],
+    "Darren Anderton": [
+     "90s",
+     "00s"
+    ],
+    "Trent Alexander-Arnold": [
+     "10s",
+     "20s"
+    ],
+    "Steve McManaman": [
+     "90s",
+     "00s"
+    ],
+    "Mesut Özil": [
+     "10s"
+    ],
+    "Eric Cantona": [
+     "90s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-goals-10-2025-26",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who scored 10 or more Premier League goals in 2025-26",
+   "answers": [
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Igor Thiago",
+     "Thiago"
+    ],
+    [
+     "Antoine Semenyo",
+     "Semenyo"
+    ],
+    [
+     "Ollie Watkins",
+     "Watkins"
+    ],
+    [
+     "João Pedro",
+     "Pedro"
+    ],
+    [
+     "Morgan Gibbs-White",
+     "White"
+    ],
+    [
+     "Dominic Calvert-Lewin",
+     "Lewin"
+    ],
+    [
+     "Viktor Gyökeres",
+     "Gyökeres"
+    ],
+    [
+     "Junior Kroupi",
+     "Kroupi"
+    ],
+    [
+     "Danny Welbeck",
+     "Welbeck"
+    ],
+    [
+     "Jean-Philippe Mateta",
+     "Mateta"
+    ],
+    [
+     "Bryan Mbeumo",
+     "Mbeumo"
+    ],
+    [
+     "Zian Flemming",
+     "Flemming"
+    ],
+    [
+     "Benjamin Sesko",
+     "Sesko"
+    ],
+    "Richarlison",
+    [
+     "Hugo Ekitiké",
+     "Ekitiké"
+    ],
+    [
+     "Morgan Rogers",
+     "Rogers"
+    ],
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Enzo Fernández",
+     "Fernández"
+    ],
+    [
+     "Matheus Cunha",
+     "Cunha"
+    ],
+    [
+     "Harry Wilson",
+     "Wilson"
+    ]
+   ]
+  },
+  {
+   "id": "fpl-arsenal-chelsea",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has played in the Premier League for both Arsenal and Chelsea",
+   "eraText": "Name a player who played in the Premier League for both Arsenal and Chelsea, with an appearance for one of them in a season that began in the {era}",
+   "answers": [
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Cesc Fàbregas",
+     "Fàbregas"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    "Willian",
+    [
+     "Olivier Giroud",
+     "Giroud"
+    ],
+    [
+     "Petr Cech",
+     "Cech"
+    ],
+    [
+     "Ashley Cole",
+     "Cole"
+    ],
+    [
+     "William Gallas",
+     "Gallas"
+    ],
+    [
+     "Pierre-Emerick Aubameyang",
+     "Auba",
+     "Aubameyang"
+    ],
+    [
+     "Kai Havertz",
+     "Havertz"
+    ],
+    [
+     "David Luiz",
+     "Luiz"
+    ],
+    "Jorginho",
+    [
+     "Yossi Benayoun",
+     "Benayoun"
+    ],
+    [
+     "Emmanuel Petit",
+     "Petit"
+    ],
+    [
+     "Kepa Arrizabalaga",
+     "Kepa",
+     "Arrizabalaga"
+    ],
+    [
+     "Noni Madueke",
+     "Madueke"
+    ],
+    [
+     "Lassana Diarra",
+     "Diarra"
+    ]
+   ],
+   "eras": {
+    "Raheem Sterling": [
+     "20s"
+    ],
+    "Cesc Fàbregas": [
+     "00s",
+     "10s"
+    ],
+    "Nicolas Anelka": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Willian": [
+     "10s",
+     "20s"
+    ],
+    "Olivier Giroud": [
+     "10s",
+     "20s"
+    ],
+    "Petr Cech": [
+     "00s",
+     "10s"
+    ],
+    "Ashley Cole": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "William Gallas": [
+     "00s"
+    ],
+    "Pierre-Emerick Aubameyang": [
+     "10s",
+     "20s"
+    ],
+    "Kai Havertz": [
+     "20s"
+    ],
+    "David Luiz": [
+     "10s",
+     "20s"
+    ],
+    "Jorginho": [
+     "10s",
+     "20s"
+    ],
+    "Yossi Benayoun": [
+     "10s"
+    ],
+    "Emmanuel Petit": [
+     "90s",
+     "00s"
+    ],
+    "Kepa Arrizabalaga": [
+     "10s",
+     "20s"
+    ],
+    "Noni Madueke": [
+     "20s"
+    ],
+    "Lassana Diarra": [
+     "00s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-chelsea-man-city",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has played in the Premier League for both Chelsea and Man City",
+   "eraText": "Name a player who played in the Premier League for both Chelsea and Man City, with an appearance for one of them in a season that began in the {era}",
+   "answers": [
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Kevin De Bruyne",
+     "Bruyne",
+     "De Bruyne"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Daniel Sturridge",
+     "Sturridge"
+    ],
+    [
+     "Shaun Wright-Phillips",
+     "Phillips"
+    ],
+    [
+     "Nathan Aké",
+     "Aké"
+    ],
+    [
+     "Wayne Bridge",
+     "Bridge"
+    ],
+    [
+     "Mateo Kovacic",
+     "Kovacic"
+    ],
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Enzo Fernández",
+     "Fernández"
+    ],
+    [
+     "Terry Phelan",
+     "Phelan"
+    ],
+    [
+     "Tal Ben Haim",
+     "Haim",
+     "Ben Haim"
+    ],
+    [
+     "Scott Sinclair",
+     "Sinclair"
+    ],
+    [
+     "Liam Delap",
+     "Delap"
+    ],
+    [
+     "David Rocastle",
+     "Rocastle"
+    ],
+    [
+     "Danny Granville",
+     "Granville"
+    ],
+    [
+     "Laurent Charvet",
+     "Charvet"
+    ],
+    [
+     "Willy Caballero",
+     "Caballero"
+    ],
+    [
+     "George Weah",
+     "Weah"
+    ]
+   ],
+   "eras": {
+    "Frank Lampard": [
+     "00s",
+     "10s"
+    ],
+    "Raheem Sterling": [
+     "10s",
+     "20s"
+    ],
+    "Kevin De Bruyne": [
+     "10s",
+     "20s"
+    ],
+    "Nicolas Anelka": [
+     "00s",
+     "10s"
+    ],
+    "Daniel Sturridge": [
+     "00s",
+     "10s"
+    ],
+    "Shaun Wright-Phillips": [
+     "00s",
+     "10s"
+    ],
+    "Nathan Aké": [
+     "10s",
+     "20s"
+    ],
+    "Wayne Bridge": [
+     "00s",
+     "10s"
+    ],
+    "Mateo Kovacic": [
+     "10s",
+     "20s"
+    ],
+    "Cole Palmer": [
+     "20s"
+    ],
+    "Enzo Fernández": [
+     "20s"
+    ],
+    "Terry Phelan": [
+     "90s"
+    ],
+    "Tal Ben Haim": [
+     "00s"
+    ],
+    "Scott Sinclair": [
+     "00s",
+     "10s"
+    ],
+    "Liam Delap": [
+     "20s"
+    ],
+    "David Rocastle": [
+     "90s"
+    ],
+    "Danny Granville": [
+     "90s",
+     "00s"
+    ],
+    "Laurent Charvet": [
+     "90s",
+     "00s"
+    ],
+    "Willy Caballero": [
+     "10s",
+     "20s"
+    ],
+    "George Weah": [
+     "90s",
+     "00s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-liverpool-man-city",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has played in the Premier League for both Liverpool and Man City",
+   "eraText": "Name a player who played in the Premier League for both Liverpool and Man City, with an appearance for one of them in a season that began in the {era}",
+   "answers": [
+    [
+     "James Milner",
+     "Milner"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Robbie Fowler",
+     "Fowler"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "David James",
+     "James"
+    ],
+    [
+     "Daniel Sturridge",
+     "Sturridge"
+    ],
+    [
+     "Craig Bellamy",
+     "Bellamy"
+    ],
+    [
+     "Steve McManaman",
+     "McManaman"
+    ],
+    [
+     "Kolo Touré",
+     "Touré"
+    ],
+    [
+     "Dietmar Hamann",
+     "Hamann"
+    ],
+    [
+     "Scott Carson",
+     "Carson"
+    ],
+    [
+     "Nigel Clough",
+     "Clough"
+    ],
+    [
+     "Mario Balotelli",
+     "Balotelli"
+    ],
+    [
+     "Mark Kennedy",
+     "Kennedy"
+    ],
+    [
+     "Albert Riera",
+     "Riera"
+    ]
+   ],
+   "eras": {
+    "James Milner": [
+     "10s",
+     "20s"
+    ],
+    "Raheem Sterling": [
+     "10s",
+     "20s"
+    ],
+    "Robbie Fowler": [
+     "90s",
+     "00s"
+    ],
+    "Nicolas Anelka": [
+     "00s"
+    ],
+    "David James": [
+     "90s",
+     "00s"
+    ],
+    "Daniel Sturridge": [
+     "00s",
+     "10s"
+    ],
+    "Craig Bellamy": [
+     "00s",
+     "10s"
+    ],
+    "Steve McManaman": [
+     "90s",
+     "00s"
+    ],
+    "Kolo Touré": [
+     "00s",
+     "10s"
+    ],
+    "Dietmar Hamann": [
+     "90s",
+     "00s"
+    ],
+    "Scott Carson": [
+     "00s",
+     "20s"
+    ],
+    "Nigel Clough": [
+     "90s"
+    ],
+    "Mario Balotelli": [
+     "10s"
+    ],
+    "Mark Kennedy": [
+     "90s",
+     "00s"
+    ],
+    "Albert Riera": [
+     "00s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-liverpool-spurs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has played in the Premier League for both Liverpool and Spurs",
+   "deep": true,
+   "eraText": "Name a player who played in the Premier League for both Liverpool and Spurs, with an appearance for one of them in a season that began in the {era}",
+   "answers": [
+    [
+     "Peter Crouch",
+     "Crouch"
+    ],
+    [
+     "Robbie Keane",
+     "Keane"
+    ],
+    [
+     "Danny Murphy",
+     "Murphy"
+    ],
+    [
+     "Nick Barmby",
+     "Barmby"
+    ],
+    [
+     "Brad Friedel",
+     "Friedel"
+    ],
+    [
+     "Paul Konchesky",
+     "Konchesky"
+    ],
+    [
+     "Jamie Redknapp",
+     "Redknapp"
+    ],
+    [
+     "Dominic Solanke",
+     "Solanke"
+    ],
+    [
+     "Oyvind Leonhardsen",
+     "Leonhardsen"
+    ],
+    [
+     "Neil Ruddock",
+     "Ruddock"
+    ],
+    [
+     "John Scales",
+     "Scales"
+    ],
+    [
+     "Ronny Rosenthal",
+     "Rosenthal"
+    ],
+    [
+     "Steven Caulker",
+     "Caulker"
+    ],
+    [
+     "Christian Ziege",
+     "Ziege"
+    ]
+   ],
+   "eras": {
+    "Peter Crouch": [
+     "00s",
+     "10s"
+    ],
+    "Robbie Keane": [
+     "00s",
+     "10s"
+    ],
+    "Danny Murphy": [
+     "90s",
+     "00s"
+    ],
+    "Nick Barmby": [
+     "90s",
+     "00s"
+    ],
+    "Brad Friedel": [
+     "90s",
+     "10s"
+    ],
+    "Paul Konchesky": [
+     "00s",
+     "10s"
+    ],
+    "Jamie Redknapp": [
+     "90s",
+     "00s"
+    ],
+    "Dominic Solanke": [
+     "10s",
+     "20s"
+    ],
+    "Oyvind Leonhardsen": [
+     "90s",
+     "00s"
+    ],
+    "Neil Ruddock": [
+     "90s"
+    ],
+    "John Scales": [
+     "90s"
+    ],
+    "Ronny Rosenthal": [
+     "90s"
+    ],
+    "Steven Caulker": [
+     "10s"
+    ],
+    "Christian Ziege": [
+     "00s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-dutch",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Dutch player who has played in the Premier League",
+   "eraText": "Name a Dutch player who played in the Premier League in a season that began in the {era}",
+   "answers": [
+    [
+     "Robin van Persie",
+     "Persie",
+     "van Persie"
+    ],
+    [
+     "Jimmy Floyd Hasselbaink",
+     "Jimmy Hasselbaink",
+     "Hasselbaink"
+    ],
+    [
+     "Dennis Bergkamp",
+     "Bergkamp"
+    ],
+    [
+     "Virgil van Dijk",
+     "Dijk",
+     "van Dijk"
+    ],
+    [
+     "George Boateng",
+     "Boateng"
+    ],
+    [
+     "Nathan Aké",
+     "Aké"
+    ],
+    [
+     "Georginio Wijnaldum",
+     "Wijnaldum"
+    ],
+    [
+     "Ruud van Nistelrooy",
+     "Ruud",
+     "Van Nistelrooy",
+     "Nistelrooy",
+     "van Nistelrooy"
+    ],
+    [
+     "Patrick van Aanholt",
+     "Aanholt",
+     "van Aanholt"
+    ],
+    [
+     "Dirk Kuyt",
+     "Kuyt"
+    ],
+    [
+     "Edwin van der Sar",
+     "Van der Sar",
+     "Sar",
+     "van der Sar"
+    ],
+    [
+     "Mario Melchiot",
+     "Melchiot"
+    ],
+    [
+     "Erik Pieters",
+     "Pieters"
+    ],
+    [
+     "Tim Krul",
+     "Krul"
+    ],
+    [
+     "Cody Gakpo",
+     "Gakpo"
+    ],
+    [
+     "Boudewijn Zenden",
+     "Zenden"
+    ],
+    [
+     "Joël Veltman",
+     "Veltman"
+    ],
+    [
+     "Ken Monkou",
+     "Monkou"
+    ],
+    [
+     "Daryl Janmaat",
+     "Janmaat"
+    ],
+    [
+     "Ryan Babel",
+     "Babel"
+    ],
+    "Justin Kluivert",
+    [
+     "Marc Overmars",
+     "Overmars"
+    ],
+    [
+     "Pascal Struijk",
+     "Struijk"
+    ],
+    [
+     "Jan Paul van Hecke",
+     "Hecke",
+     "van Hecke"
+    ],
+    [
+     "Kenny Tete",
+     "Tete"
+    ],
+    [
+     "Leroy Fer",
+     "Fer"
+    ],
+    [
+     "Arjan de Zeeuw",
+     "Zeeuw",
+     "de Zeeuw"
+    ],
+    [
+     "Ryan Gravenberch",
+     "Gravenberch"
+    ],
+    [
+     "Davy Pröpper",
+     "Pröpper"
+    ],
+    [
+     "Bryan Roy",
+     "Roy"
+    ],
+    [
+     "John Heitinga",
+     "Heitinga"
+    ],
+    [
+     "Collins John",
+     "John"
+    ],
+    [
+     "Crysencio Summerville",
+     "Summerville"
+    ],
+    [
+     "Anwar El Ghazi",
+     "Ghazi",
+     "El Ghazi"
+    ],
+    [
+     "Bart Verbruggen",
+     "Verbruggen"
+    ],
+    [
+     "Michel Vorm",
+     "Vorm"
+    ],
+    [
+     "Sven Botman",
+     "Botman"
+    ],
+    [
+     "Micky van de Ven",
+     "Ven",
+     "van de Ven"
+    ],
+    [
+     "Ed de Goey",
+     "Goey",
+     "de Goey"
+    ],
+    [
+     "Rafael van der Vaart",
+     "Vaart",
+     "van der Vaart"
+    ],
+    [
+     "Hans Segers",
+     "Segers"
+    ],
+    [
+     "Arjen Robben",
+     "Robben"
+    ],
+    "Nigel de Jong",
+    [
+     "Jaïro Riedewald",
+     "Riedewald"
+    ],
+    "Jurriën Timber",
+    [
+     "Ian Maatsen",
+     "Maatsen"
+    ],
+    [
+     "Daley Blind",
+     "Blind"
+    ],
+    [
+     "Steven Bergwijn",
+     "Bergwijn"
+    ],
+    [
+     "Jonathan de Guzmán",
+     "Guzmán",
+     "de Guzmán"
+    ],
+    [
+     "Mark Flekken",
+     "Flekken"
+    ],
+    [
+     "Joshua Zirkzee",
+     "Zirkzee"
+    ],
+    [
+     "Michel Vonk",
+     "Vonk"
+    ],
+    [
+     "Wim Jonk",
+     "Jonk"
+    ],
+    [
+     "Robert Molenaar",
+     "Molenaar"
+    ],
+    [
+     "Wilfred Bouma",
+     "Bouma"
+    ],
+    [
+     "Sepp van den Berg",
+     "Berg",
+     "van den Berg"
+    ],
+    [
+     "André Ooijer",
+     "Ooijer"
+    ],
+    [
+     "Ron Vlaar",
+     "Vlaar"
+    ],
+    [
+     "Mats Wieffer",
+     "Wieffer"
+    ],
+    "Jaap Stam",
+    [
+     "Sander Westerveld",
+     "Westerveld"
+    ],
+    [
+     "Zian Flemming",
+     "Flemming"
+    ],
+    [
+     "Brian Brobbey",
+     "Brobbey"
+    ],
+    [
+     "Gustavo Hamer",
+     "Hamer"
+    ],
+    [
+     "Martijn Reuser",
+     "Reuser"
+    ],
+    [
+     "Timothy Fosu-Mensah",
+     "Mensah"
+    ],
+    "Ronnie Stam",
+    [
+     "Donny van de Beek",
+     "Beek",
+     "van de Beek"
+    ],
+    [
+     "Denny Landzaat",
+     "Landzaat"
+    ],
+    [
+     "Donyell Malen",
+     "Malen"
+    ],
+    [
+     "Terence Kongolo",
+     "Kongolo"
+    ],
+    [
+     "Ruud Gullit",
+     "Gullit"
+    ],
+    [
+     "Matthijs de Ligt",
+     "Ligt",
+     "de Ligt"
+    ],
+    [
+     "Paul Bosvelt",
+     "Bosvelt"
+    ],
+    [
+     "Robin Roefs",
+     "Roefs"
+    ],
+    [
+     "Wout Weghorst",
+     "Weghorst"
+    ],
+    [
+     "Ibrahim Afellay",
+     "Afellay"
+    ],
+    [
+     "Maarten Stekelenburg",
+     "Stekelenburg"
+    ],
+    [
+     "Rajiv van La Parra",
+     "Parra",
+     "van La Parra"
+    ],
+    [
+     "Bruno Martins Indi",
+     "Indi"
+    ],
+    [
+     "Regi Blinker",
+     "Blinker"
+    ],
+    [
+     "Jordi Cruyff",
+     "Cruyff"
+    ],
+    [
+     "Wesley Hoedt",
+     "Hoedt"
+    ],
+    [
+     "Arnaut Danjuma",
+     "Danjuma"
+    ],
+    [
+     "Kiki Musampa",
+     "Musampa"
+    ],
+    [
+     "Fabian Wilnis",
+     "Wilnis"
+    ],
+    [
+     "Pierre van Hooijdonk",
+     "Hooijdonk",
+     "van Hooijdonk"
+    ],
+    [
+     "Tijjani Reijnders",
+     "Reijnders"
+    ],
+    "Lamare Bogarde",
+    [
+     "Vincent Janssen",
+     "Janssen"
+    ],
+    [
+     "Giovanni van Bronckhorst",
+     "Bronckhorst",
+     "van Bronckhorst"
+    ],
+    [
+     "Glenn Helder",
+     "Helder"
+    ],
+    [
+     "Xavi Simons",
+     "Simons"
+    ],
+    [
+     "Marvin Emnes",
+     "Emnes"
+    ],
+    [
+     "Edgar Davids",
+     "Davids"
+    ],
+    [
+     "Gerard Wiekens",
+     "Wiekens"
+    ],
+    [
+     "Jeroen Boere",
+     "Boere"
+    ],
+    [
+     "Jordy Clasie",
+     "Clasie"
+    ],
+    [
+     "Raimond van der Gouw",
+     "Gouw",
+     "van der Gouw"
+    ],
+    [
+     "Willem Korsten",
+     "Korsten"
+    ],
+    [
+     "Marten de Roon",
+     "Roon",
+     "de Roon"
+    ],
+    [
+     "Gerald Sibon",
+     "Sibon"
+    ],
+    [
+     "Jorrel Hato",
+     "Hato"
+    ],
+    [
+     "Memphis Depay",
+     "Depay"
+    ],
+    [
+     "Fabian de Freitas",
+     "Freitas",
+     "de Freitas"
+    ],
+    "Patrick Kluivert",
+    [
+     "Jan Vennegoor of Hesselink",
+     "Hesselink"
+    ],
+    [
+     "Ki-Jana Hoever",
+     "Hoever"
+    ],
+    [
+     "Mike van der Hoorn",
+     "Hoorn",
+     "van der Hoorn"
+    ],
+    [
+     "Tyrell Malacia",
+     "Malacia"
+    ],
+    [
+     "Luciano Narsingh",
+     "Narsingh"
+    ],
+    [
+     "Gianni Zuiverloon",
+     "Zuiverloon"
+    ],
+    [
+     "Lutsharel Geertruida",
+     "Geertruida"
+    ],
+    [
+     "Luc Nijholt",
+     "Nijholt"
+    ],
+    [
+     "Jeremie Frimpong",
+     "Frimpong"
+    ],
+    [
+     "Quilindschy Hartman",
+     "Hartman"
+    ],
+    [
+     "Royston Drenthe",
+     "Drenthe"
+    ],
+    [
+     "Robin van der Laan",
+     "Laan",
+     "van der Laan"
+    ],
+    [
+     "Jeremain Lens",
+     "Lens"
+    ],
+    "Jetro Willems",
+    [
+     "Ulrich van Gobbel",
+     "Gobbel",
+     "van Gobbel"
+    ],
+    [
+     "Daniël de Ridder",
+     "Ridder",
+     "de Ridder"
+    ],
+    [
+     "Dwight Tiendalli",
+     "Tiendalli"
+    ],
+    "Ron Willems",
+    [
+     "Jos Hooiveld",
+     "Hooiveld"
+    ],
+    [
+     "Ricky van Wolfswinkel",
+     "Wolfswinkel",
+     "van Wolfswinkel"
+    ],
+    [
+     "Orlando Trustfull",
+     "Trustfull"
+    ],
+    [
+     "Clyde Wijnhard",
+     "Wijnhard"
+    ],
+    "Siem de Jong",
+    [
+     "Erik Meijer",
+     "Meijer"
+    ],
+    [
+     "Michael Reiziger",
+     "Reiziger"
+    ],
+    [
+     "Andy van der Meyde",
+     "Meyde",
+     "van der Meyde"
+    ],
+    [
+     "Nordin Wooter",
+     "Wooter"
+    ],
+    [
+     "Eljero Elia",
+     "Elia"
+    ],
+    [
+     "Marco van Ginkel",
+     "Ginkel",
+     "van Ginkel"
+    ],
+    [
+     "Richard Sneekes",
+     "Sneekes"
+    ],
+    [
+     "Alexander Büttner",
+     "Büttner"
+    ],
+    [
+     "Urby Emanuelson",
+     "Emanuelson"
+    ],
+    [
+     "Jan Kromkamp",
+     "Kromkamp"
+    ],
+    [
+     "Khalid Boulahrouz",
+     "Boulahrouz"
+    ],
+    "Luuk de Jong",
+    [
+     "Stefan Postma",
+     "Postma"
+    ],
+    [
+     "Marvin Zeegelaar",
+     "Zeegelaar"
+    ],
+    [
+     "Milan van Ewijk",
+     "Ewijk",
+     "van Ewijk"
+    ],
+    [
+     "Steven Berghuis",
+     "Berghuis"
+    ],
+    [
+     "Marco Bizot",
+     "Bizot"
+    ],
+    [
+     "Sieb Dijkstra",
+     "Dijkstra"
+    ],
+    [
+     "Sean Steur",
+     "Steur"
+    ],
+    "Winston Bogarde",
+    [
+     "Alfons Groenendijk",
+     "Groenendijk"
+    ],
+    [
+     "Bobby Petta",
+     "Petta"
+    ],
+    "Quinten Timber",
+    [
+     "Davy Klaassen",
+     "Klaassen"
+    ],
+    [
+     "Marco Boogers",
+     "Boogers"
+    ],
+    [
+     "Jeffrey Bruma",
+     "Bruma"
+    ],
+    [
+     "Sherjill MacDonald",
+     "MacDonald"
+    ],
+    [
+     "Azor Matusiwa",
+     "Matusiwa"
+    ],
+    [
+     "Kjell Scherpen",
+     "Scherpen"
+    ],
+    [
+     "Harald Wapenaar",
+     "Wapenaar"
+    ],
+    [
+     "Dorus de Vries",
+     "Vries",
+     "de Vries"
+    ],
+    [
+     "Chris David",
+     "David"
+    ],
+    [
+     "John Karelse",
+     "Karelse"
+    ],
+    [
+     "Jenson Seelt",
+     "Seelt"
+    ],
+    [
+     "Antoni Milambo",
+     "Milambo"
+    ],
+    [
+     "Nabil Abidallah",
+     "Abidallah"
+    ],
+    [
+     "Laurens ten Heuvel",
+     "Heuvel",
+     "ten Heuvel"
+    ],
+    [
+     "Maceo Rigters",
+     "Rigters"
+    ],
+    [
+     "Jaydon Banel",
+     "Banel"
+    ],
+    [
+     "Emmanuel Emegha",
+     "Emegha"
+    ],
+    [
+     "Orpheo Keizerweerd",
+     "Keizerweerd"
+    ],
+    [
+     "Riga Mustapha",
+     "Mustapha"
+    ],
+    [
+     "Karim Rekik",
+     "Rekik"
+    ],
+    [
+     "Richard Witschge",
+     "Witschge"
+    ]
+   ],
+   "eras": {
+    "Robin van Persie": [
+     "00s",
+     "10s"
+    ],
+    "Jimmy Floyd Hasselbaink": [
+     "90s",
+     "00s"
+    ],
+    "Dennis Bergkamp": [
+     "90s",
+     "00s"
+    ],
+    "Virgil van Dijk": [
+     "10s",
+     "20s"
+    ],
+    "George Boateng": [
+     "90s",
+     "00s"
+    ],
+    "Nathan Aké": [
+     "10s",
+     "20s"
+    ],
+    "Georginio Wijnaldum": [
+     "10s",
+     "20s"
+    ],
+    "Ruud van Nistelrooy": [
+     "00s"
+    ],
+    "Patrick van Aanholt": [
+     "00s",
+     "10s",
+     "20s"
+    ],
+    "Dirk Kuyt": [
+     "00s",
+     "10s"
+    ],
+    "Edwin van der Sar": [
+     "00s",
+     "10s"
+    ],
+    "Mario Melchiot": [
+     "90s",
+     "00s"
+    ],
+    "Erik Pieters": [
+     "10s",
+     "20s"
+    ],
+    "Tim Krul": [
+     "10s",
+     "20s"
+    ],
+    "Cody Gakpo": [
+     "20s"
+    ],
+    "Boudewijn Zenden": [
+     "00s",
+     "10s"
+    ],
+    "Joël Veltman": [
+     "20s"
+    ],
+    "Ken Monkou": [
+     "90s"
+    ],
+    "Daryl Janmaat": [
+     "10s"
+    ],
+    "Ryan Babel": [
+     "00s",
+     "10s"
+    ],
+    "Justin Kluivert": [
+     "20s"
+    ],
+    "Marc Overmars": [
+     "90s"
+    ],
+    "Pascal Struijk": [
+     "20s"
+    ],
+    "Jan Paul van Hecke": [
+     "20s"
+    ],
+    "Kenny Tete": [
+     "20s"
+    ],
+    "Leroy Fer": [
+     "10s"
+    ],
+    "Arjan de Zeeuw": [
+     "90s",
+     "00s"
+    ],
+    "Ryan Gravenberch": [
+     "20s"
+    ],
+    "Davy Pröpper": [
+     "10s",
+     "20s"
+    ],
+    "Bryan Roy": [
+     "90s"
+    ],
+    "John Heitinga": [
+     "00s",
+     "10s"
+    ],
+    "Collins John": [
+     "00s"
+    ],
+    "Crysencio Summerville": [
+     "20s"
+    ],
+    "Anwar El Ghazi": [
+     "10s",
+     "20s"
+    ],
+    "Bart Verbruggen": [
+     "20s"
+    ],
+    "Michel Vorm": [
+     "10s"
+    ],
+    "Sven Botman": [
+     "20s"
+    ],
+    "Micky van de Ven": [
+     "20s"
+    ],
+    "Ed de Goey": [
+     "90s",
+     "00s"
+    ],
+    "Rafael van der Vaart": [
+     "10s"
+    ],
+    "Hans Segers": [
+     "90s"
+    ],
+    "Arjen Robben": [
+     "00s"
+    ],
+    "Nigel de Jong": [
+     "00s",
+     "10s"
+    ],
+    "Jaïro Riedewald": [
+     "10s",
+     "20s"
+    ],
+    "Jurriën Timber": [
+     "20s"
+    ],
+    "Ian Maatsen": [
+     "20s"
+    ],
+    "Daley Blind": [
+     "10s"
+    ],
+    "Steven Bergwijn": [
+     "10s",
+     "20s"
+    ],
+    "Jonathan de Guzmán": [
+     "10s"
+    ],
+    "Mark Flekken": [
+     "20s"
+    ],
+    "Joshua Zirkzee": [
+     "20s"
+    ],
+    "Michel Vonk": [
+     "90s"
+    ],
+    "Wim Jonk": [
+     "90s"
+    ],
+    "Robert Molenaar": [
+     "90s",
+     "00s"
+    ],
+    "Wilfred Bouma": [
+     "00s"
+    ],
+    "Sepp van den Berg": [
+     "20s"
+    ],
+    "André Ooijer": [
+     "00s"
+    ],
+    "Ron Vlaar": [
+     "10s"
+    ],
+    "Mats Wieffer": [
+     "20s"
+    ],
+    "Jaap Stam": [
+     "90s",
+     "00s"
+    ],
+    "Sander Westerveld": [
+     "90s",
+     "00s"
+    ],
+    "Zian Flemming": [
+     "20s"
+    ],
+    "Brian Brobbey": [
+     "20s"
+    ],
+    "Gustavo Hamer": [
+     "20s"
+    ],
+    "Martijn Reuser": [
+     "00s"
+    ],
+    "Timothy Fosu-Mensah": [
+     "10s",
+     "20s"
+    ],
+    "Ronnie Stam": [
+     "10s"
+    ],
+    "Donny van de Beek": [
+     "20s"
+    ],
+    "Denny Landzaat": [
+     "00s"
+    ],
+    "Donyell Malen": [
+     "20s"
+    ],
+    "Terence Kongolo": [
+     "10s",
+     "20s"
+    ],
+    "Ruud Gullit": [
+     "90s"
+    ],
+    "Matthijs de Ligt": [
+     "20s"
+    ],
+    "Paul Bosvelt": [
+     "00s"
+    ],
+    "Robin Roefs": [
+     "20s"
+    ],
+    "Wout Weghorst": [
+     "20s"
+    ],
+    "Ibrahim Afellay": [
+     "10s"
+    ],
+    "Maarten Stekelenburg": [
+     "10s"
+    ],
+    "Rajiv van La Parra": [
+     "10s"
+    ],
+    "Bruno Martins Indi": [
+     "10s"
+    ],
+    "Regi Blinker": [
+     "90s"
+    ],
+    "Jordi Cruyff": [
+     "90s"
+    ],
+    "Wesley Hoedt": [
+     "10s"
+    ],
+    "Arnaut Danjuma": [
+     "10s",
+     "20s"
+    ],
+    "Kiki Musampa": [
+     "00s"
+    ],
+    "Fabian Wilnis": [
+     "00s"
+    ],
+    "Pierre van Hooijdonk": [
+     "90s"
+    ],
+    "Tijjani Reijnders": [
+     "20s"
+    ],
+    "Lamare Bogarde": [
+     "20s"
+    ],
+    "Vincent Janssen": [
+     "10s"
+    ],
+    "Giovanni van Bronckhorst": [
+     "00s"
+    ],
+    "Glenn Helder": [
+     "90s"
+    ],
+    "Xavi Simons": [
+     "20s"
+    ],
+    "Marvin Emnes": [
+     "00s",
+     "10s"
+    ],
+    "Edgar Davids": [
+     "00s"
+    ],
+    "Gerard Wiekens": [
+     "00s"
+    ],
+    "Jeroen Boere": [
+     "90s"
+    ],
+    "Jordy Clasie": [
+     "10s"
+    ],
+    "Raimond van der Gouw": [
+     "90s",
+     "00s"
+    ],
+    "Willem Korsten": [
+     "90s",
+     "00s"
+    ],
+    "Marten de Roon": [
+     "10s"
+    ],
+    "Gerald Sibon": [
+     "90s"
+    ],
+    "Jorrel Hato": [
+     "20s"
+    ],
+    "Memphis Depay": [
+     "10s"
+    ],
+    "Fabian de Freitas": [
+     "90s"
+    ],
+    "Patrick Kluivert": [
+     "00s"
+    ],
+    "Jan Vennegoor of Hesselink": [
+     "00s"
+    ],
+    "Ki-Jana Hoever": [
+     "20s"
+    ],
+    "Mike van der Hoorn": [
+     "10s"
+    ],
+    "Tyrell Malacia": [
+     "20s"
+    ],
+    "Luciano Narsingh": [
+     "10s"
+    ],
+    "Gianni Zuiverloon": [
+     "00s",
+     "10s"
+    ],
+    "Lutsharel Geertruida": [
+     "20s"
+    ],
+    "Luc Nijholt": [
+     "90s"
+    ],
+    "Jeremie Frimpong": [
+     "20s"
+    ],
+    "Quilindschy Hartman": [
+     "20s"
+    ],
+    "Royston Drenthe": [
+     "10s"
+    ],
+    "Robin van der Laan": [
+     "90s"
+    ],
+    "Jeremain Lens": [
+     "10s"
+    ],
+    "Jetro Willems": [
+     "10s"
+    ],
+    "Ulrich van Gobbel": [
+     "90s"
+    ],
+    "Daniël de Ridder": [
+     "00s"
+    ],
+    "Dwight Tiendalli": [
+     "10s"
+    ],
+    "Ron Willems": [
+     "90s"
+    ],
+    "Jos Hooiveld": [
+     "10s"
+    ],
+    "Ricky van Wolfswinkel": [
+     "10s"
+    ],
+    "Orlando Trustfull": [
+     "90s"
+    ],
+    "Clyde Wijnhard": [
+     "90s"
+    ],
+    "Siem de Jong": [
+     "10s"
+    ],
+    "Erik Meijer": [
+     "90s",
+     "00s"
+    ],
+    "Michael Reiziger": [
+     "00s"
+    ],
+    "Andy van der Meyde": [
+     "00s"
+    ],
+    "Nordin Wooter": [
+     "90s"
+    ],
+    "Eljero Elia": [
+     "10s"
+    ],
+    "Marco van Ginkel": [
+     "10s"
+    ],
+    "Richard Sneekes": [
+     "90s"
+    ],
+    "Alexander Büttner": [
+     "10s"
+    ],
+    "Urby Emanuelson": [
+     "10s"
+    ],
+    "Jan Kromkamp": [
+     "00s"
+    ],
+    "Khalid Boulahrouz": [
+     "00s"
+    ],
+    "Luuk de Jong": [
+     "10s"
+    ],
+    "Stefan Postma": [
+     "00s"
+    ],
+    "Marvin Zeegelaar": [
+     "10s"
+    ],
+    "Milan van Ewijk": [
+     "20s"
+    ],
+    "Steven Berghuis": [
+     "10s"
+    ],
+    "Marco Bizot": [
+     "20s"
+    ],
+    "Sieb Dijkstra": [
+     "90s"
+    ],
+    "Sean Steur": [
+     "20s"
+    ],
+    "Winston Bogarde": [
+     "00s"
+    ],
+    "Alfons Groenendijk": [
+     "90s"
+    ],
+    "Bobby Petta": [
+     "00s"
+    ],
+    "Quinten Timber": [
+     "20s"
+    ],
+    "Davy Klaassen": [
+     "10s"
+    ],
+    "Marco Boogers": [
+     "90s"
+    ],
+    "Jeffrey Bruma": [
+     "00s",
+     "10s"
+    ],
+    "Sherjill MacDonald": [
+     "00s"
+    ],
+    "Azor Matusiwa": [
+     "20s"
+    ],
+    "Kjell Scherpen": [
+     "20s"
+    ],
+    "Harald Wapenaar": [
+     "00s"
+    ],
+    "Dorus de Vries": [
+     "10s"
+    ],
+    "Chris David": [
+     "10s"
+    ],
+    "John Karelse": [
+     "90s"
+    ],
+    "Jenson Seelt": [
+     "20s"
+    ],
+    "Antoni Milambo": [
+     "20s"
+    ],
+    "Nabil Abidallah": [
+     "00s"
+    ],
+    "Laurens ten Heuvel": [
+     "90s"
+    ],
+    "Maceo Rigters": [
+     "00s"
+    ],
+    "Jaydon Banel": [
+     "20s"
+    ],
+    "Emmanuel Emegha": [
+     "20s"
+    ],
+    "Orpheo Keizerweerd": [
+     "90s"
+    ],
+    "Riga Mustapha": [
+     "00s"
+    ],
+    "Karim Rekik": [
+     "10s"
+    ],
+    "Richard Witschge": [
+     "90s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-spanish",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Spanish player who has played in the Premier League",
+   "eraText": "Name a Spanish player who played in the Premier League in a season that began in the {era}",
+   "answers": [
+    [
+     "Cesc Fàbregas",
+     "Fàbregas"
+    ],
+    [
+     "David Silva",
+     "Silva"
+    ],
+    [
+     "Juan Mata",
+     "Mata"
+    ],
+    [
+     "David de Gea",
+     "Gea",
+     "de Gea"
+    ],
+    [
+     "César Azpilicueta",
+     "Azpilicueta"
+    ],
+    "Ayoze Pérez",
+    [
+     "Mikel Arteta",
+     "Arteta"
+    ],
+    "Fernando Torres",
+    [
+     "Adama Traoré",
+     "Traoré"
+    ],
+    [
+     "Pepe Reina",
+     "Reina"
+    ],
+    "Rodri",
+    [
+     "Oriol Romeu",
+     "Romeu"
+    ],
+    "Marcos Alonso",
+    [
+     "Diego Costa",
+     "Costa"
+    ],
+    [
+     "Héctor Bellerín",
+     "Bellerín"
+    ],
+    [
+     "Nacho Monreal",
+     "Monreal"
+    ],
+    "Pedro",
+    [
+     "Pablo Fornals",
+     "Fornals"
+    ],
+    [
+     "Gerard Deulofeu",
+     "Deulofeu"
+    ],
+    [
+     "David Raya",
+     "Raya"
+    ],
+    [
+     "Marc Cucurella",
+     "Cucurella"
+    ],
+    "Robert Sánchez",
+    [
+     "Ander Herrera",
+     "Herrera"
+    ],
+    [
+     "Santi Cazorla",
+     "Cazorla"
+    ],
+    [
+     "Iván Campo",
+     "Campo"
+    ],
+    "Rodrigo",
+    [
+     "Pedro Porro",
+     "Porro"
+    ],
+    "Xabi Alonso",
+    [
+     "Vicente Guaita",
+     "Guaita"
+    ],
+    [
+     "Àngel Rangel",
+     "Rangel"
+    ],
+    [
+     "Kepa Arrizabalaga",
+     "Kepa",
+     "Arrizabalaga"
+    ],
+    [
+     "José Enrique",
+     "Enrique"
+    ],
+    [
+     "Aymeric Laporte",
+     "Laporte"
+    ],
+    "Adrián",
+    [
+     "Javier Manquillo",
+     "Manquillo"
+    ],
+    "Jordi Gómez",
+    "Jonny",
+    [
+     "Jesús Navas",
+     "Navas"
+    ],
+    [
+     "Kiko Femenía",
+     "Femenía"
+    ],
+    [
+     "Mikel Merino",
+     "Merino"
+    ],
+    [
+     "Carlos Cuéllar",
+     "Cuéllar"
+    ],
+    "Fernando Llorente",
+    "Alberto Moreno",
+    "Luis García",
+    "Pablo Hernández",
+    [
+     "José Antonio Reyes",
+     "Reyes"
+    ],
+    [
+     "Sergio Reguilón",
+     "Reguilón"
+    ],
+    "Sandro",
+    [
+     "Manuel Almunia",
+     "Almunia"
+    ],
+    [
+     "Pablo Sarabia",
+     "Sarabia"
+    ],
+    "Joselu",
+    [
+     "Álvaro Negredo",
+     "Negredo"
+    ],
+    "Pau Torres",
+    [
+     "Álvaro Morata",
+     "Morata"
+    ],
+    [
+     "Hugo Bueno",
+     "Bueno"
+    ],
+    [
+     "Javier Garrido",
+     "Garrido"
+    ],
+    [
+     "Thiago Alcântara",
+     "Alcântara"
+    ],
+    "Michu",
+    "Bojan",
+    [
+     "Albert Ferrer",
+     "Ferrer"
+    ],
+    "Álex Moreno",
+    [
+     "Gaizka Mendieta",
+     "Mendieta"
+    ],
+    [
+     "Álvaro Arbeloa",
+     "Arbeloa"
+    ],
+    "Diego Llorente",
+    [
+     "Joel Robles",
+     "Robles"
+    ],
+    [
+     "Roberto Soldado",
+     "Soldado"
+    ],
+    [
+     "Albert Riera",
+     "Riera"
+    ],
+    [
+     "Míchel Salgado",
+     "Salgado"
+    ],
+    [
+     "Martín Zubimendi",
+     "Zubimendi"
+    ],
+    [
+     "Dani Ceballos",
+     "Ceballos"
+    ],
+    [
+     "Martín Montoya",
+     "Montoya"
+    ],
+    [
+     "Yeremy Pino",
+     "Pino"
+    ],
+    [
+     "Nico González",
+     "González"
+    ],
+    [
+     "Fernando Morientes",
+     "Morientes"
+    ],
+    "Ferran Torres",
+    [
+     "Chico Flores",
+     "Flores"
+    ],
+    [
+     "Marc Muniesa",
+     "Muniesa"
+    ],
+    [
+     "Víctor Camarasa",
+     "Camarasa"
+    ],
+    [
+     "Sergi Canós",
+     "Canós"
+    ],
+    "Javi García",
+    "Diego Rico",
+    "Bruno",
+    [
+     "Dean Huijsen",
+     "Huijsen"
+    ],
+    [
+     "Marc Roca",
+     "Roca"
+    ],
+    "Lucas Pérez",
+    [
+     "Carlos Soler",
+     "Soler"
+    ],
+    [
+     "Vicente Iborra",
+     "Iborra"
+    ],
+    [
+     "Álex Jiménez",
+     "Jiménez"
+    ],
+    "Sergio Rico",
+    "Carles Gil",
+    "Bryan Gil",
+    [
+     "Borja Valero",
+     "Valero"
+    ],
+    [
+     "Jorge Cuenca",
+     "Cuenca"
+    ],
+    [
+     "Asier del Horno",
+     "Horno",
+     "del Horno"
+    ],
+    [
+     "Fernando Hierro",
+     "Hierro"
+    ],
+    [
+     "Víctor Valdés",
+     "Valdés"
+    ],
+    [
+     "Daniel Ayala",
+     "Ayala"
+    ],
+    [
+     "Eliezer Mayenda",
+     "Mayenda"
+    ],
+    "Nolito",
+    [
+     "Ansu Fati",
+     "Fati"
+    ],
+    [
+     "Borja Bastón",
+     "Bastón"
+    ],
+    [
+     "Cristhian Mosquera",
+     "Mosquera"
+    ],
+    [
+     "Esteban Granero",
+     "Granero"
+    ],
+    [
+     "José Manuel Jurado",
+     "Jurado"
+    ],
+    [
+     "Rubén Rochina",
+     "Rochina"
+    ],
+    [
+     "Antonio Barragán",
+     "Barragán"
+    ],
+    "Sergio Gómez",
+    [
+     "Marco Asensio",
+     "Asensio"
+    ],
+    [
+     "Enrique de Lucas",
+     "Lucas",
+     "de Lucas"
+    ],
+    "Nayim",
+    "Eric García",
+    [
+     "Albert Luque",
+     "Luque"
+    ],
+    [
+     "José Cañas",
+     "Cañas"
+    ],
+    "Josemi",
+    [
+     "Alejandro Pozuelo",
+     "Pozuelo"
+    ],
+    [
+     "Iván Ramis",
+     "Ramis"
+    ],
+    [
+     "Diego Tristán",
+     "Tristán"
+    ],
+    [
+     "Pablo Marí",
+     "Marí"
+    ],
+    [
+     "Antonio Luna",
+     "Luna"
+    ],
+    [
+     "Stefan Bajcetic",
+     "Bajcetic"
+    ],
+    [
+     "Marc Guiu",
+     "Guiu"
+    ],
+    [
+     "Antonio Núñez",
+     "Núñez"
+    ],
+    "Andrés García",
+    [
+     "Albert Crusat",
+     "Crusat"
+    ],
+    [
+     "Víctor Muñoz",
+     "Muñoz"
+    ],
+    "Jesé",
+    [
+     "Iago Aspas",
+     "Aspas"
+    ],
+    [
+     "Álvaro Fernández",
+     "Fernández"
+    ],
+    "Gonzalo García",
+    "Mario Suárez",
+    "Suso",
+    "Jota",
+    [
+     "Pablo Couñago",
+     "Couñago"
+    ],
+    [
+     "Gerard Piqué",
+     "Piqué"
+    ],
+    [
+     "Álvaro Vázquez",
+     "Vázquez"
+    ],
+    [
+     "Chema Andrés",
+     "Andrés"
+    ],
+    "Fer López",
+    [
+     "César Palacios",
+     "Palacios"
+    ],
+    [
+     "Pablo Ibáñez",
+     "Ibáñez"
+    ],
+    "Juanmi",
+    "Yordi",
+    [
+     "Pep Chavarría",
+     "Chavarría"
+    ],
+    [
+     "Roque Mesa",
+     "Mesa"
+    ],
+    "Xisco",
+    [
+     "Luis Alberto",
+     "Alberto"
+    ],
+    "Míchel",
+    [
+     "Fran Mérida",
+     "Mérida"
+    ],
+    "Javi Moreno",
+    "Angeliño",
+    "Mikel Alonso",
+    [
+     "José Campaña",
+     "Campaña"
+    ],
+    [
+     "Juan Larios",
+     "Larios"
+    ],
+    [
+     "Ignasi Miquel",
+     "Miquel"
+    ],
+    [
+     "Daniel Pacheco",
+     "Pacheco"
+    ],
+    [
+     "Raúl Bravo",
+     "Bravo"
+    ],
+    [
+     "Óscar Mingueza",
+     "Mingueza"
+    ],
+    [
+     "Andrea Orlandi",
+     "Orlandi"
+    ],
+    "Denis Suárez",
+    "Aleix García",
+    "Luis Hernández",
+    [
+     "Kiko Casilla",
+     "Casilla"
+    ],
+    [
+     "Mateo Joseph",
+     "Joseph"
+    ],
+    [
+     "Román Golobart",
+     "Golobart"
+    ],
+    [
+     "José Ángel Pozo",
+     "Pozo"
+    ],
+    "Fabri",
+    [
+     "Marc Navarro",
+     "Navarro"
+    ],
+    [
+     "Jesús Vallejo",
+     "Vallejo"
+    ],
+    [
+     "Javier de Pedro",
+     "de Pedro"
+    ],
+    [
+     "Jesús Gámez",
+     "Gámez"
+    ],
+    "Adrián López",
+    [
+     "Borja Oubiña",
+     "Oubiña"
+    ],
+    [
+     "Manuel Ángel",
+     "Ángel"
+    ],
+    "Juanlu Sánchez",
+    [
+     "Eduard Campabadal",
+     "Campabadal"
+    ],
+    "César",
+    [
+     "Pedro Chirivella",
+     "Chirivella"
+    ],
+    [
+     "José Ángel Crespo",
+     "Crespo"
+    ],
+    [
+     "Iago Falque",
+     "Falque"
+    ],
+    "Manu García",
+    "Marcelino",
+    "Ricardo",
+    [
+     "Kepa Blanco",
+     "Blanco"
+    ],
+    "Cala",
+    "Roberto",
+    "Salva",
+    "Saúl"
+   ],
+   "eras": {
+    "Cesc Fàbregas": [
+     "00s",
+     "10s"
+    ],
+    "David Silva": [
+     "10s"
+    ],
+    "Juan Mata": [
+     "10s",
+     "20s"
+    ],
+    "David de Gea": [
+     "10s",
+     "20s"
+    ],
+    "César Azpilicueta": [
+     "10s",
+     "20s"
+    ],
+    "Ayoze Pérez": [
+     "10s",
+     "20s"
+    ],
+    "Mikel Arteta": [
+     "00s",
+     "10s"
+    ],
+    "Fernando Torres": [
+     "00s",
+     "10s"
+    ],
+    "Adama Traoré": [
+     "10s",
+     "20s"
+    ],
+    "Pepe Reina": [
+     "00s",
+     "10s"
+    ],
+    "Rodri": [
+     "10s",
+     "20s"
+    ],
+    "Oriol Romeu": [
+     "10s",
+     "20s"
+    ],
+    "Marcos Alonso": [
+     "10s",
+     "20s"
+    ],
+    "Diego Costa": [
+     "10s",
+     "20s"
+    ],
+    "Héctor Bellerín": [
+     "10s",
+     "20s"
+    ],
+    "Nacho Monreal": [
+     "10s"
+    ],
+    "Pedro": [
+     "10s"
+    ],
+    "Pablo Fornals": [
+     "10s",
+     "20s"
+    ],
+    "Gerard Deulofeu": [
+     "10s"
+    ],
+    "David Raya": [
+     "20s"
+    ],
+    "Marc Cucurella": [
+     "20s"
+    ],
+    "Robert Sánchez": [
+     "20s"
+    ],
+    "Ander Herrera": [
+     "10s"
+    ],
+    "Santi Cazorla": [
+     "10s"
+    ],
+    "Iván Campo": [
+     "00s"
+    ],
+    "Rodrigo": [
+     "10s",
+     "20s"
+    ],
+    "Pedro Porro": [
+     "20s"
+    ],
+    "Xabi Alonso": [
+     "00s"
+    ],
+    "Vicente Guaita": [
+     "10s",
+     "20s"
+    ],
+    "Àngel Rangel": [
+     "10s"
+    ],
+    "Kepa Arrizabalaga": [
+     "10s",
+     "20s"
+    ],
+    "José Enrique": [
+     "00s",
+     "10s"
+    ],
+    "Aymeric Laporte": [
+     "10s",
+     "20s"
+    ],
+    "Adrián": [
+     "10s",
+     "20s"
+    ],
+    "Javier Manquillo": [
+     "10s",
+     "20s"
+    ],
+    "Jordi Gómez": [
+     "00s",
+     "10s"
+    ],
+    "Jonny": [
+     "10s",
+     "20s"
+    ],
+    "Jesús Navas": [
+     "10s"
+    ],
+    "Kiko Femenía": [
+     "10s",
+     "20s"
+    ],
+    "Mikel Merino": [
+     "10s",
+     "20s"
+    ],
+    "Carlos Cuéllar": [
+     "00s",
+     "10s"
+    ],
+    "Fernando Llorente": [
+     "10s"
+    ],
+    "Alberto Moreno": [
+     "10s"
+    ],
+    "Luis García": [
+     "00s"
+    ],
+    "Pablo Hernández": [
+     "10s",
+     "20s"
+    ],
+    "José Antonio Reyes": [
+     "00s"
+    ],
+    "Sergio Reguilón": [
+     "20s"
+    ],
+    "Sandro": [
+     "10s"
+    ],
+    "Manuel Almunia": [
+     "00s",
+     "10s"
+    ],
+    "Pablo Sarabia": [
+     "20s"
+    ],
+    "Joselu": [
+     "10s"
+    ],
+    "Álvaro Negredo": [
+     "10s"
+    ],
+    "Pau Torres": [
+     "20s"
+    ],
+    "Álvaro Morata": [
+     "10s"
+    ],
+    "Hugo Bueno": [
+     "20s"
+    ],
+    "Javier Garrido": [
+     "00s",
+     "10s"
+    ],
+    "Thiago Alcântara": [
+     "20s"
+    ],
+    "Michu": [
+     "10s"
+    ],
+    "Bojan": [
+     "10s"
+    ],
+    "Albert Ferrer": [
+     "90s",
+     "00s"
+    ],
+    "Álex Moreno": [
+     "20s"
+    ],
+    "Gaizka Mendieta": [
+     "00s"
+    ],
+    "Álvaro Arbeloa": [
+     "00s",
+     "10s"
+    ],
+    "Diego Llorente": [
+     "20s"
+    ],
+    "Joel Robles": [
+     "10s",
+     "20s"
+    ],
+    "Roberto Soldado": [
+     "10s"
+    ],
+    "Albert Riera": [
+     "00s"
+    ],
+    "Míchel Salgado": [
+     "00s",
+     "10s"
+    ],
+    "Martín Zubimendi": [
+     "20s"
+    ],
+    "Dani Ceballos": [
+     "10s",
+     "20s"
+    ],
+    "Martín Montoya": [
+     "10s"
+    ],
+    "Yeremy Pino": [
+     "20s"
+    ],
+    "Nico González": [
+     "20s"
+    ],
+    "Fernando Morientes": [
+     "00s"
+    ],
+    "Ferran Torres": [
+     "20s"
+    ],
+    "Chico Flores": [
+     "10s"
+    ],
+    "Marc Muniesa": [
+     "10s"
+    ],
+    "Víctor Camarasa": [
+     "10s"
+    ],
+    "Sergi Canós": [
+     "10s",
+     "20s"
+    ],
+    "Javi García": [
+     "10s"
+    ],
+    "Diego Rico": [
+     "10s"
+    ],
+    "Bruno": [
+     "10s"
+    ],
+    "Dean Huijsen": [
+     "20s"
+    ],
+    "Marc Roca": [
+     "20s"
+    ],
+    "Lucas Pérez": [
+     "10s"
+    ],
+    "Carlos Soler": [
+     "20s"
+    ],
+    "Vicente Iborra": [
+     "10s"
+    ],
+    "Álex Jiménez": [
+     "20s"
+    ],
+    "Sergio Rico": [
+     "10s"
+    ],
+    "Carles Gil": [
+     "10s"
+    ],
+    "Bryan Gil": [
+     "20s"
+    ],
+    "Borja Valero": [
+     "00s"
+    ],
+    "Jorge Cuenca": [
+     "20s"
+    ],
+    "Asier del Horno": [
+     "00s"
+    ],
+    "Fernando Hierro": [
+     "00s"
+    ],
+    "Víctor Valdés": [
+     "10s"
+    ],
+    "Daniel Ayala": [
+     "00s",
+     "10s"
+    ],
+    "Eliezer Mayenda": [
+     "20s"
+    ],
+    "Nolito": [
+     "10s"
+    ],
+    "Ansu Fati": [
+     "20s"
+    ],
+    "Borja Bastón": [
+     "10s"
+    ],
+    "Cristhian Mosquera": [
+     "20s"
+    ],
+    "Esteban Granero": [
+     "10s"
+    ],
+    "José Manuel Jurado": [
+     "10s"
+    ],
+    "Rubén Rochina": [
+     "10s"
+    ],
+    "Antonio Barragán": [
+     "10s"
+    ],
+    "Sergio Gómez": [
+     "20s"
+    ],
+    "Marco Asensio": [
+     "20s"
+    ],
+    "Enrique de Lucas": [
+     "00s"
+    ],
+    "Nayim": [
+     "90s"
+    ],
+    "Eric García": [
+     "10s",
+     "20s"
+    ],
+    "Albert Luque": [
+     "00s"
+    ],
+    "José Cañas": [
+     "10s"
+    ],
+    "Josemi": [
+     "00s"
+    ],
+    "Alejandro Pozuelo": [
+     "10s"
+    ],
+    "Iván Ramis": [
+     "10s"
+    ],
+    "Diego Tristán": [
+     "00s"
+    ],
+    "Pablo Marí": [
+     "10s",
+     "20s"
+    ],
+    "Antonio Luna": [
+     "10s"
+    ],
+    "Stefan Bajcetic": [
+     "20s"
+    ],
+    "Marc Guiu": [
+     "20s"
+    ],
+    "Antonio Núñez": [
+     "00s"
+    ],
+    "Andrés García": [
+     "20s"
+    ],
+    "Albert Crusat": [
+     "10s"
+    ],
+    "Víctor Muñoz": [
+     "20s"
+    ],
+    "Jesé": [
+     "10s"
+    ],
+    "Iago Aspas": [
+     "10s"
+    ],
+    "Álvaro Fernández": [
+     "20s"
+    ],
+    "Gonzalo García": [
+     "20s"
+    ],
+    "Mario Suárez": [
+     "10s"
+    ],
+    "Suso": [
+     "10s"
+    ],
+    "Jota": [
+     "10s"
+    ],
+    "Pablo Couñago": [
+     "00s"
+    ],
+    "Gerard Piqué": [
+     "00s"
+    ],
+    "Álvaro Vázquez": [
+     "10s"
+    ],
+    "Chema Andrés": [
+     "20s"
+    ],
+    "Fer López": [
+     "20s"
+    ],
+    "César Palacios": [
+     "20s"
+    ],
+    "Pablo Ibáñez": [
+     "10s"
+    ],
+    "Juanmi": [
+     "10s"
+    ],
+    "Yordi": [
+     "00s"
+    ],
+    "Pep Chavarría": [
+     "20s"
+    ],
+    "Roque Mesa": [
+     "10s"
+    ],
+    "Xisco": [
+     "00s",
+     "10s"
+    ],
+    "Luis Alberto": [
+     "10s"
+    ],
+    "Míchel": [
+     "00s"
+    ],
+    "Fran Mérida": [
+     "00s"
+    ],
+    "Javi Moreno": [
+     "00s"
+    ],
+    "Angeliño": [
+     "10s"
+    ],
+    "Mikel Alonso": [
+     "00s"
+    ],
+    "José Campaña": [
+     "10s"
+    ],
+    "Juan Larios": [
+     "20s"
+    ],
+    "Ignasi Miquel": [
+     "10s"
+    ],
+    "Daniel Pacheco": [
+     "00s",
+     "10s"
+    ],
+    "Raúl Bravo": [
+     "00s"
+    ],
+    "Óscar Mingueza": [
+     "20s"
+    ],
+    "Andrea Orlandi": [
+     "10s"
+    ],
+    "Denis Suárez": [
+     "10s"
+    ],
+    "Aleix García": [
+     "10s"
+    ],
+    "Luis Hernández": [
+     "10s"
+    ],
+    "Kiko Casilla": [
+     "20s"
+    ],
+    "Mateo Joseph": [
+     "20s"
+    ],
+    "Román Golobart": [
+     "10s"
+    ],
+    "José Ángel Pozo": [
+     "10s"
+    ],
+    "Fabri": [
+     "10s"
+    ],
+    "Marc Navarro": [
+     "10s"
+    ],
+    "Jesús Vallejo": [
+     "10s"
+    ],
+    "Javier de Pedro": [
+     "00s"
+    ],
+    "Jesús Gámez": [
+     "10s"
+    ],
+    "Adrián López": [
+     "10s"
+    ],
+    "Borja Oubiña": [
+     "00s"
+    ],
+    "Manuel Ángel": [
+     "20s"
+    ],
+    "Juanlu Sánchez": [
+     "20s"
+    ],
+    "Eduard Campabadal": [
+     "10s"
+    ],
+    "César": [
+     "00s"
+    ],
+    "Pedro Chirivella": [
+     "10s"
+    ],
+    "José Ángel Crespo": [
+     "10s"
+    ],
+    "Iago Falque": [
+     "10s"
+    ],
+    "Manu García": [
+     "10s"
+    ],
+    "Marcelino": [
+     "90s",
+     "00s"
+    ],
+    "Ricardo": [
+     "00s"
+    ],
+    "Kepa Blanco": [
+     "00s"
+    ],
+    "Cala": [
+     "10s"
+    ],
+    "Roberto": [
+     "10s"
+    ],
+    "Salva": [
+     "00s"
+    ],
+    "Saúl": [
+     "20s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-german",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a German player who has played in the Premier League",
+   "eraText": "Name a German player who played in the Premier League in a season that began in the {era}",
+   "answers": [
+    [
+     "Pascal Groß",
+     "Groß"
+    ],
+    [
+     "İlkay Gündoğan",
+     "Gündoğan"
+    ],
+    [
+     "Robert Huth",
+     "Huth"
+    ],
+    [
+     "Mesut Özil",
+     "Özil"
+    ],
+    [
+     "Kai Havertz",
+     "Havertz"
+    ],
+    [
+     "Bernd Leno",
+     "Leno"
+    ],
+    [
+     "Dietmar Hamann",
+     "Hamann"
+    ],
+    [
+     "Vitaly Janelt",
+     "Janelt"
+    ],
+    [
+     "Kevin Schade",
+     "Schade"
+    ],
+    [
+     "Leroy Sané",
+     "Sané"
+    ],
+    [
+     "Antonio Rüdiger",
+     "Rüdiger"
+    ],
+    [
+     "Per Mertesacker",
+     "Mertesacker"
+    ],
+    [
+     "Uwe Rösler",
+     "Rösler"
+    ],
+    [
+     "Timo Werner",
+     "Werner"
+    ],
+    [
+     "Thomas Hitzlsperger",
+     "Hitzlsperger"
+    ],
+    [
+     "Jens Lehmann",
+     "Lehmann"
+    ],
+    [
+     "Shkodran Mustafi",
+     "Mustafi"
+    ],
+    [
+     "Michael Ballack",
+     "Ballack"
+    ],
+    [
+     "Emre Can",
+     "Can"
+    ],
+    [
+     "Christian Ziege",
+     "Ziege"
+    ],
+    [
+     "Moritz Volz",
+     "Volz"
+    ],
+    [
+     "André Schürrle",
+     "Schürrle"
+    ],
+    [
+     "Jürgen Klinsmann",
+     "Klinsmann"
+    ],
+    [
+     "Steffen Freund",
+     "Freund"
+    ],
+    [
+     "Lukas Podolski",
+     "Podolski"
+    ],
+    [
+     "Christopher Schindler",
+     "Schindler"
+    ],
+    [
+     "Robin Koch",
+     "Koch"
+    ],
+    [
+     "Markus Babbel",
+     "Babbel"
+    ],
+    [
+     "Karl-Heinz Riedle",
+     "Riedle"
+    ],
+    [
+     "Florian Wirtz",
+     "Wirtz"
+    ],
+    [
+     "Sascha Riether",
+     "Riether"
+    ],
+    [
+     "Lukas Nmecha",
+     "Nmecha"
+    ],
+    [
+     "Stefan Schnoor",
+     "Schnoor"
+    ],
+    [
+     "Chris Löwe",
+     "Löwe"
+    ],
+    [
+     "Nick Woltemade",
+     "Woltemade"
+    ],
+    [
+     "Anton Stach",
+     "Stach"
+    ],
+    [
+     "Malick Thiaw",
+     "Thiaw"
+    ],
+    [
+     "Max Meyer",
+     "Meyer"
+    ],
+    [
+     "Brajan Gruda",
+     "Gruda"
+    ],
+    [
+     "Lewis Holtby",
+     "Holtby"
+    ],
+    [
+     "Philipp Wollscheid",
+     "Wollscheid"
+    ],
+    [
+     "Niclas Füllkrug",
+     "Füllkrug"
+    ],
+    [
+     "Michael Tarnat",
+     "Tarnat"
+    ],
+    [
+     "Thilo Kehrer",
+     "Kehrer"
+    ],
+    [
+     "Collin Quaner",
+     "Quaner"
+    ],
+    [
+     "Deniz Undav",
+     "Undav"
+    ],
+    [
+     "Lukas Rupp",
+     "Rupp"
+    ],
+    [
+     "Loris Karius",
+     "Karius"
+    ],
+    [
+     "Stefan Ortega",
+     "Ortega"
+    ],
+    [
+     "Armel Bella-Kotchap",
+     "Kotchap"
+    ],
+    [
+     "Eike Immel",
+     "Immel"
+    ],
+    [
+     "Erik Durm",
+     "Durm"
+    ],
+    [
+     "Merlin Röhl",
+     "Röhl"
+    ],
+    [
+     "Gerhard Tremmel",
+     "Tremmel"
+    ],
+    [
+     "Marco Stiepermann",
+     "Stiepermann"
+    ],
+    [
+     "Christoph Zimmermann",
+     "Zimmermann"
+    ],
+    [
+     "Maurizio Gaudino",
+     "Gaudino"
+    ],
+    [
+     "Fredi Bobic",
+     "Bobic"
+    ],
+    [
+     "Jan Kirchhoff",
+     "Kirchhoff"
+    ],
+    [
+     "Jordan Beyer",
+     "Beyer"
+    ],
+    [
+     "Bastian Schweinsteiger",
+     "Schweinsteiger"
+    ],
+    [
+     "Tom Trybull",
+     "Trybull"
+    ],
+    [
+     "Sergio Peter",
+     "Peter"
+    ],
+    [
+     "Stefan Beinlich",
+     "Beinlich"
+    ],
+    [
+     "Jérôme Boateng",
+     "Boateng"
+    ],
+    [
+     "Luca Netz",
+     "Netz"
+    ],
+    [
+     "Serge Gnabry",
+     "Gnabry"
+    ],
+    [
+     "Mahmoud Dahoud",
+     "Dahoud"
+    ],
+    [
+     "Dennis Srbeny",
+     "Srbeny"
+    ],
+    [
+     "Michael Frontzeck",
+     "Frontzeck"
+    ],
+    [
+     "Moritz Leitner",
+     "Leitner"
+    ],
+    [
+     "Stefan Malz",
+     "Malz"
+    ],
+    [
+     "Savio Nsereko",
+     "Nsereko"
+    ],
+    [
+     "Lars Leese",
+     "Leese"
+    ],
+    [
+     "Marko Marin",
+     "Marin"
+    ],
+    [
+     "Ron-Robert Zieler",
+     "Zieler"
+    ],
+    [
+     "Steffen Karl",
+     "Karl"
+    ],
+    [
+     "Leon Goretzka",
+     "Goretzka"
+    ],
+    [
+     "Matthias Breitkreutz",
+     "Breitkreutz"
+    ],
+    [
+     "Alberto Méndez",
+     "Méndez"
+    ],
+    [
+     "Lennard Sowah",
+     "Sowah"
+    ],
+    [
+     "Max Weiß",
+     "Weiß"
+    ],
+    [
+     "Sean Dundee",
+     "Dundee"
+    ],
+    [
+     "Eric da Silva Moreira",
+     "Moreira"
+    ],
+    [
+     "Michael Hefele",
+     "Hefele"
+    ],
+    [
+     "Thomas Helmer",
+     "Helmer"
+    ],
+    [
+     "Nick Proschwitz",
+     "Proschwitz"
+    ],
+    [
+     "Stefan Wessels",
+     "Wessels"
+    ],
+    [
+     "Ralf Fährmann",
+     "Fährmann"
+    ],
+    [
+     "Reda Khadra",
+     "Khadra"
+    ],
+    [
+     "Uwe Hünemeier",
+     "Hünemeier"
+    ]
+   ],
+   "eras": {
+    "Pascal Groß": [
+     "10s",
+     "20s"
+    ],
+    "İlkay Gündoğan": [
+     "10s",
+     "20s"
+    ],
+    "Robert Huth": [
+     "00s",
+     "10s"
+    ],
+    "Mesut Özil": [
+     "10s"
+    ],
+    "Kai Havertz": [
+     "20s"
+    ],
+    "Bernd Leno": [
+     "10s",
+     "20s"
+    ],
+    "Dietmar Hamann": [
+     "90s",
+     "00s"
+    ],
+    "Vitaly Janelt": [
+     "20s"
+    ],
+    "Kevin Schade": [
+     "20s"
+    ],
+    "Leroy Sané": [
+     "10s"
+    ],
+    "Antonio Rüdiger": [
+     "10s",
+     "20s"
+    ],
+    "Per Mertesacker": [
+     "10s"
+    ],
+    "Uwe Rösler": [
+     "90s",
+     "00s"
+    ],
+    "Timo Werner": [
+     "20s"
+    ],
+    "Thomas Hitzlsperger": [
+     "00s",
+     "10s"
+    ],
+    "Jens Lehmann": [
+     "00s",
+     "10s"
+    ],
+    "Shkodran Mustafi": [
+     "10s",
+     "20s"
+    ],
+    "Michael Ballack": [
+     "00s"
+    ],
+    "Emre Can": [
+     "10s"
+    ],
+    "Christian Ziege": [
+     "90s",
+     "00s"
+    ],
+    "Moritz Volz": [
+     "00s"
+    ],
+    "André Schürrle": [
+     "10s"
+    ],
+    "Jürgen Klinsmann": [
+     "90s"
+    ],
+    "Steffen Freund": [
+     "90s",
+     "00s"
+    ],
+    "Lukas Podolski": [
+     "10s"
+    ],
+    "Christopher Schindler": [
+     "10s"
+    ],
+    "Robin Koch": [
+     "20s"
+    ],
+    "Markus Babbel": [
+     "00s"
+    ],
+    "Karl-Heinz Riedle": [
+     "90s"
+    ],
+    "Florian Wirtz": [
+     "20s"
+    ],
+    "Sascha Riether": [
+     "10s"
+    ],
+    "Lukas Nmecha": [
+     "10s",
+     "20s"
+    ],
+    "Stefan Schnoor": [
+     "90s",
+     "00s"
+    ],
+    "Chris Löwe": [
+     "10s"
+    ],
+    "Nick Woltemade": [
+     "20s"
+    ],
+    "Anton Stach": [
+     "20s"
+    ],
+    "Malick Thiaw": [
+     "20s"
+    ],
+    "Max Meyer": [
+     "10s"
+    ],
+    "Brajan Gruda": [
+     "20s"
+    ],
+    "Lewis Holtby": [
+     "10s"
+    ],
+    "Philipp Wollscheid": [
+     "10s"
+    ],
+    "Niclas Füllkrug": [
+     "20s"
+    ],
+    "Michael Tarnat": [
+     "00s"
+    ],
+    "Thilo Kehrer": [
+     "20s"
+    ],
+    "Collin Quaner": [
+     "10s"
+    ],
+    "Deniz Undav": [
+     "20s"
+    ],
+    "Lukas Rupp": [
+     "10s",
+     "20s"
+    ],
+    "Loris Karius": [
+     "10s",
+     "20s"
+    ],
+    "Stefan Ortega": [
+     "20s"
+    ],
+    "Armel Bella-Kotchap": [
+     "20s"
+    ],
+    "Eike Immel": [
+     "90s"
+    ],
+    "Erik Durm": [
+     "10s"
+    ],
+    "Merlin Röhl": [
+     "20s"
+    ],
+    "Gerhard Tremmel": [
+     "10s"
+    ],
+    "Marco Stiepermann": [
+     "10s"
+    ],
+    "Christoph Zimmermann": [
+     "10s",
+     "20s"
+    ],
+    "Maurizio Gaudino": [
+     "90s"
+    ],
+    "Fredi Bobic": [
+     "00s"
+    ],
+    "Jan Kirchhoff": [
+     "10s"
+    ],
+    "Jordan Beyer": [
+     "20s"
+    ],
+    "Bastian Schweinsteiger": [
+     "10s"
+    ],
+    "Tom Trybull": [
+     "10s"
+    ],
+    "Sergio Peter": [
+     "00s"
+    ],
+    "Stefan Beinlich": [
+     "90s"
+    ],
+    "Jérôme Boateng": [
+     "10s"
+    ],
+    "Luca Netz": [
+     "20s"
+    ],
+    "Serge Gnabry": [
+     "10s"
+    ],
+    "Mahmoud Dahoud": [
+     "20s"
+    ],
+    "Dennis Srbeny": [
+     "10s"
+    ],
+    "Michael Frontzeck": [
+     "90s"
+    ],
+    "Moritz Leitner": [
+     "10s"
+    ],
+    "Stefan Malz": [
+     "90s",
+     "00s"
+    ],
+    "Savio Nsereko": [
+     "00s"
+    ],
+    "Lars Leese": [
+     "90s"
+    ],
+    "Marko Marin": [
+     "10s"
+    ],
+    "Ron-Robert Zieler": [
+     "10s"
+    ],
+    "Steffen Karl": [
+     "90s"
+    ],
+    "Leon Goretzka": [
+     "20s"
+    ],
+    "Matthias Breitkreutz": [
+     "90s"
+    ],
+    "Alberto Méndez": [
+     "90s"
+    ],
+    "Lennard Sowah": [
+     "00s"
+    ],
+    "Max Weiß": [
+     "20s"
+    ],
+    "Sean Dundee": [
+     "90s"
+    ],
+    "Eric da Silva Moreira": [
+     "20s"
+    ],
+    "Michael Hefele": [
+     "10s"
+    ],
+    "Thomas Helmer": [
+     "90s"
+    ],
+    "Nick Proschwitz": [
+     "10s"
+    ],
+    "Stefan Wessels": [
+     "00s"
+    ],
+    "Ralf Fährmann": [
+     "10s"
+    ],
+    "Reda Khadra": [
+     "20s"
+    ],
+    "Uwe Hünemeier": [
+     "10s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-italian",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name an Italian player who has played in the Premier League",
+   "deep": true,
+   "eraText": "Name an Italian player who played in the Premier League in a season that began in the {era}",
+   "answers": [
+    [
+     "Gianfranco Zola",
+     "Zola"
+    ],
+    [
+     "Paolo Di Canio",
+     "Canio",
+     "Di Canio"
+    ],
+    "Jorginho",
+    [
+     "Benito Carbone",
+     "Carbone"
+    ],
+    [
+     "Angelo Ogbonna",
+     "Ogbonna"
+    ],
+    "Emerson",
+    [
+     "Carlo Cudicini",
+     "Cudicini"
+    ],
+    [
+     "Roberto Di Matteo",
+     "Matteo",
+     "Di Matteo"
+    ],
+    [
+     "Alessandro Pistone",
+     "Pistone"
+    ],
+    [
+     "Fabio Borini",
+     "Borini"
+    ],
+    [
+     "Sandro Tonali",
+     "Tonali"
+    ],
+    [
+     "Massimo Maccarone",
+     "Maccarone"
+    ],
+    [
+     "Graziano Pellè",
+     "Pellè"
+    ],
+    [
+     "Gianluca Festa",
+     "Festa"
+    ],
+    [
+     "Fabrizio Ravanelli",
+     "Ravanelli"
+    ],
+    [
+     "Stefano Eranio",
+     "Eranio"
+    ],
+    [
+     "Guglielmo Vicario",
+     "Vicario"
+    ],
+    [
+     "Mario Balotelli",
+     "Balotelli"
+    ],
+    [
+     "Gianluca Vialli",
+     "Vialli"
+    ],
+    [
+     "Destiny Udogie",
+     "Udogie"
+    ],
+    [
+     "Francesco Baiano",
+     "Baiano"
+    ],
+    [
+     "Manolo Gabbiadini",
+     "Gabbiadini"
+    ],
+    [
+     "Davide Santon",
+     "Santon"
+    ],
+    [
+     "Vito Mannone",
+     "Mannone"
+    ],
+    [
+     "Riccardo Calafiori",
+     "Calafiori"
+    ],
+    [
+     "Michael Kayode",
+     "Kayode"
+    ],
+    [
+     "Matteo Darmian",
+     "Darmian"
+    ],
+    [
+     "Stefano Okaka",
+     "Okaka"
+    ],
+    [
+     "Samuele Dalla Bona",
+     "Bona"
+    ],
+    [
+     "Wilfried Gnonto",
+     "Gnonto"
+    ],
+    [
+     "Gianluigi Donnarumma",
+     "Donnarumma"
+    ],
+    [
+     "Alessandro Diamanti",
+     "Diamanti"
+    ],
+    [
+     "Federico Chiesa",
+     "Chiesa"
+    ],
+    [
+     "Moise Kean",
+     "Kean"
+    ],
+    [
+     "Emanuele Giaccherini",
+     "Giaccherini"
+    ],
+    [
+     "David Di Michele",
+     "Michele",
+     "Di Michele"
+    ],
+    [
+     "Corrado Grabbi",
+     "Grabbi"
+    ],
+    [
+     "Attilio Lombardo",
+     "Lombardo"
+    ],
+    [
+     "Davide Zappacosta",
+     "Zappacosta"
+    ],
+    [
+     "Nicolò Zaniolo",
+     "Zaniolo"
+    ],
+    [
+     "Ezequiel Schelotto",
+     "Schelotto"
+    ],
+    [
+     "Federico Macheda",
+     "Macheda"
+    ],
+    [
+     "Bernardo Corradi",
+     "Corradi"
+    ],
+    [
+     "Nicola Berti",
+     "Berti"
+    ],
+    [
+     "Andrea Dossena",
+     "Dossena"
+    ],
+    [
+     "Marco Materazzi",
+     "Materazzi"
+    ],
+    [
+     "Rolando Bianchi",
+     "Bianchi"
+    ],
+    [
+     "Gianluca Scamacca",
+     "Scamacca"
+    ],
+    [
+     "Caleb Okoli",
+     "Okoli"
+    ],
+    [
+     "Alberto Aquilani",
+     "Aquilani"
+    ],
+    [
+     "Lorenzo Amoruso",
+     "Amoruso"
+    ],
+    [
+     "Matteo Sereni",
+     "Sereni"
+    ],
+    [
+     "Patrick Cutrone",
+     "Cutrone"
+    ],
+    [
+     "Nicolò Savona",
+     "Savona"
+    ],
+    [
+     "Luca Koleosho",
+     "Koleosho"
+    ],
+    [
+     "Andrea Ranocchia",
+     "Ranocchia"
+    ],
+    [
+     "Dani Osvaldo",
+     "Osvaldo"
+    ],
+    [
+     "Giuseppe Rossi",
+     "Rossi"
+    ],
+    [
+     "Gabriele Ambrosetti",
+     "Ambrosetti"
+    ],
+    [
+     "Vincenzo Montella",
+     "Montella"
+    ],
+    [
+     "Alberto Paloschi",
+     "Paloschi"
+    ],
+    [
+     "Cesare Casadei",
+     "Casadei"
+    ],
+    [
+     "Andrea Silenzi",
+     "Silenzi"
+    ],
+    [
+     "Pierluigi Casiraghi",
+     "Casiraghi"
+    ],
+    [
+     "Dario Marcolin",
+     "Marcolin"
+    ],
+    [
+     "Michele Padovano",
+     "Padovano"
+    ],
+    [
+     "Dino Baggio",
+     "Baggio"
+    ],
+    [
+     "Antonio Nocerino",
+     "Nocerino"
+    ],
+    [
+     "Marco Ambrosio",
+     "Ambrosio"
+    ],
+    [
+     "Matteo Ferrari",
+     "Ferrari"
+    ],
+    [
+     "Christian Panucci",
+     "Panucci"
+    ],
+    [
+     "Francesco Sanetti",
+     "Sanetti"
+    ],
+    [
+     "Simone Zaza",
+     "Zaza"
+    ],
+    [
+     "Lorenzo Lucca",
+     "Lucca"
+    ],
+    [
+     "Diego Coppola",
+     "Coppola"
+    ],
+    [
+     "Marco Palestra",
+     "Palestra"
+    ],
+    [
+     "Paolo Tramezzani",
+     "Tramezzani"
+    ],
+    [
+     "Matteo Ruggeri",
+     "Ruggeri"
+    ],
+    [
+     "Nicola Ventola",
+     "Ventola"
+    ],
+    [
+     "Roberto Mancini",
+     "Mancini"
+    ],
+    [
+     "Massimo Taibi",
+     "Taibi"
+    ],
+    [
+     "Honest Ahanor",
+     "Ahanor"
+    ],
+    [
+     "Patrizio Billio",
+     "Billio"
+    ],
+    [
+     "Stefano Gioacchini",
+     "Gioacchini"
+    ],
+    [
+     "Gabriel Paletta",
+     "Paletta"
+    ],
+    [
+     "Rodrigo Possebon",
+     "Possebon"
+    ],
+    [
+     "Ivano Bonetti",
+     "Bonetti"
+    ],
+    [
+     "Marco Borriello",
+     "Borriello"
+    ],
+    [
+     "Daniele Daino",
+     "Daino"
+    ],
+    [
+     "Antonio Barreca",
+     "Barreca"
+    ],
+    [
+     "Marco Branca",
+     "Branca"
+    ],
+    [
+     "Arturo Lupoli",
+     "Lupoli"
+    ],
+    [
+     "Daniele Padelli",
+     "Padelli"
+    ],
+    [
+     "Marcello Trotta",
+     "Trotta"
+    ]
+   ],
+   "eras": {
+    "Gianfranco Zola": [
+     "90s",
+     "00s"
+    ],
+    "Paolo Di Canio": [
+     "90s",
+     "00s"
+    ],
+    "Jorginho": [
+     "10s",
+     "20s"
+    ],
+    "Benito Carbone": [
+     "90s",
+     "00s"
+    ],
+    "Angelo Ogbonna": [
+     "10s",
+     "20s"
+    ],
+    "Emerson": [
+     "10s",
+     "20s"
+    ],
+    "Carlo Cudicini": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Roberto Di Matteo": [
+     "90s",
+     "00s"
+    ],
+    "Alessandro Pistone": [
+     "90s",
+     "00s"
+    ],
+    "Fabio Borini": [
+     "00s",
+     "10s"
+    ],
+    "Sandro Tonali": [
+     "20s"
+    ],
+    "Massimo Maccarone": [
+     "00s"
+    ],
+    "Graziano Pellè": [
+     "10s"
+    ],
+    "Gianluca Festa": [
+     "90s",
+     "00s"
+    ],
+    "Fabrizio Ravanelli": [
+     "90s",
+     "00s"
+    ],
+    "Stefano Eranio": [
+     "90s",
+     "00s"
+    ],
+    "Guglielmo Vicario": [
+     "20s"
+    ],
+    "Mario Balotelli": [
+     "10s"
+    ],
+    "Gianluca Vialli": [
+     "90s"
+    ],
+    "Destiny Udogie": [
+     "20s"
+    ],
+    "Francesco Baiano": [
+     "90s"
+    ],
+    "Manolo Gabbiadini": [
+     "10s"
+    ],
+    "Davide Santon": [
+     "10s"
+    ],
+    "Vito Mannone": [
+     "00s",
+     "10s"
+    ],
+    "Riccardo Calafiori": [
+     "20s"
+    ],
+    "Michael Kayode": [
+     "20s"
+    ],
+    "Matteo Darmian": [
+     "10s"
+    ],
+    "Stefano Okaka": [
+     "00s",
+     "10s"
+    ],
+    "Samuele Dalla Bona": [
+     "90s",
+     "00s"
+    ],
+    "Wilfried Gnonto": [
+     "20s"
+    ],
+    "Gianluigi Donnarumma": [
+     "20s"
+    ],
+    "Alessandro Diamanti": [
+     "00s",
+     "10s"
+    ],
+    "Federico Chiesa": [
+     "20s"
+    ],
+    "Moise Kean": [
+     "10s",
+     "20s"
+    ],
+    "Emanuele Giaccherini": [
+     "10s"
+    ],
+    "David Di Michele": [
+     "00s"
+    ],
+    "Corrado Grabbi": [
+     "00s"
+    ],
+    "Attilio Lombardo": [
+     "90s"
+    ],
+    "Davide Zappacosta": [
+     "10s"
+    ],
+    "Nicolò Zaniolo": [
+     "20s"
+    ],
+    "Ezequiel Schelotto": [
+     "10s"
+    ],
+    "Federico Macheda": [
+     "00s",
+     "10s"
+    ],
+    "Bernardo Corradi": [
+     "00s"
+    ],
+    "Nicola Berti": [
+     "90s"
+    ],
+    "Andrea Dossena": [
+     "00s",
+     "10s"
+    ],
+    "Marco Materazzi": [
+     "90s"
+    ],
+    "Rolando Bianchi": [
+     "00s"
+    ],
+    "Gianluca Scamacca": [
+     "20s"
+    ],
+    "Caleb Okoli": [
+     "20s"
+    ],
+    "Alberto Aquilani": [
+     "00s"
+    ],
+    "Lorenzo Amoruso": [
+     "00s"
+    ],
+    "Matteo Sereni": [
+     "00s"
+    ],
+    "Patrick Cutrone": [
+     "10s",
+     "20s"
+    ],
+    "Nicolò Savona": [
+     "20s"
+    ],
+    "Luca Koleosho": [
+     "20s"
+    ],
+    "Andrea Ranocchia": [
+     "10s"
+    ],
+    "Dani Osvaldo": [
+     "10s"
+    ],
+    "Giuseppe Rossi": [
+     "00s"
+    ],
+    "Gabriele Ambrosetti": [
+     "90s"
+    ],
+    "Vincenzo Montella": [
+     "00s"
+    ],
+    "Alberto Paloschi": [
+     "10s"
+    ],
+    "Cesare Casadei": [
+     "20s"
+    ],
+    "Andrea Silenzi": [
+     "90s"
+    ],
+    "Pierluigi Casiraghi": [
+     "90s"
+    ],
+    "Dario Marcolin": [
+     "90s"
+    ],
+    "Michele Padovano": [
+     "90s"
+    ],
+    "Dino Baggio": [
+     "00s"
+    ],
+    "Antonio Nocerino": [
+     "10s"
+    ],
+    "Marco Ambrosio": [
+     "00s"
+    ],
+    "Matteo Ferrari": [
+     "00s"
+    ],
+    "Christian Panucci": [
+     "00s"
+    ],
+    "Francesco Sanetti": [
+     "90s"
+    ],
+    "Simone Zaza": [
+     "10s"
+    ],
+    "Lorenzo Lucca": [
+     "20s"
+    ],
+    "Diego Coppola": [
+     "20s"
+    ],
+    "Marco Palestra": [
+     "20s"
+    ],
+    "Paolo Tramezzani": [
+     "90s"
+    ],
+    "Matteo Ruggeri": [
+     "20s"
+    ],
+    "Nicola Ventola": [
+     "00s"
+    ],
+    "Roberto Mancini": [
+     "00s"
+    ],
+    "Massimo Taibi": [
+     "90s"
+    ],
+    "Honest Ahanor": [
+     "20s"
+    ],
+    "Patrizio Billio": [
+     "90s"
+    ],
+    "Stefano Gioacchini": [
+     "90s"
+    ],
+    "Gabriel Paletta": [
+     "00s"
+    ],
+    "Rodrigo Possebon": [
+     "00s"
+    ],
+    "Ivano Bonetti": [
+     "90s"
+    ],
+    "Marco Borriello": [
+     "10s"
+    ],
+    "Daniele Daino": [
+     "00s"
+    ],
+    "Antonio Barreca": [
+     "10s"
+    ],
+    "Marco Branca": [
+     "90s"
+    ],
+    "Arturo Lupoli": [
+     "00s"
+    ],
+    "Daniele Padelli": [
+     "00s"
+    ],
+    "Marcello Trotta": [
+     "10s"
+    ]
+   }
+  },
+  {
+   "id": "fpl-argentine",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name an Argentine player who has played in the Premier League",
+   "deep": true,
+   "eraText": "Name an Argentine player who played in the Premier League in a season that began in the {era}",
+   "answers": [
+    [
+     "Sergio Aguero",
+     "Kun Aguero",
+     "Aguero"
+    ],
+    [
+     "Pablo Zabaleta",
+     "Zabaleta"
+    ],
+    [
+     "Carlos Tevez",
+     "Tevez"
+    ],
+    [
+     "Alexis Mac Allister",
+     "Allister",
+     "Mac Allister"
+    ],
+    [
+     "Manuel Lanzini",
+     "Lanzini"
+    ],
+    [
+     "Emiliano Martinez",
+     "Dibu Martinez"
+    ],
+    [
+     "Erik Lamela",
+     "Lamela"
+    ],
+    [
+     "Emiliano Buendía",
+     "Buendía"
+    ],
+    "Federico Fernández",
+    "Enzo Fernández",
+    [
+     "Fabricio Coloccini",
+     "Coloccini"
+    ],
+    [
+     "Alejandro Garnacho",
+     "Garnacho"
+    ],
+    [
+     "Nicolás Otamendi",
+     "Otamendi"
+    ],
+    [
+     "Julio Arca",
+     "Arca"
+    ],
+    "Cristian Romero",
+    [
+     "Jonás Gutiérrez",
+     "Gutiérrez"
+    ],
+    [
+     "Roberto Pereyra",
+     "Pereyra"
+    ],
+    [
+     "Marcos Senesi",
+     "Senesi"
+    ],
+    [
+     "Claudio Yacob",
+     "Yacob"
+    ],
+    [
+     "Franco Di Santo",
+     "Santo",
+     "Di Santo"
+    ],
+    "Julián Álvarez",
+    [
+     "Mauricio Taricco",
+     "Taricco"
+    ],
+    [
+     "Leonardo Ulloa",
+     "Ulloa"
+    ],
+    [
+     "Nicolás Domínguez",
+     "Domínguez"
+    ],
+    [
+     "Facundo Buonanotte",
+     "Buonanotte"
+    ],
+    [
+     "Julián Speroni",
+     "Speroni"
+    ],
+    "Lisandro Martínez",
+    [
+     "Giovani Lo Celso",
+     "Celso"
+    ],
+    [
+     "Javier Mascherano",
+     "Mascherano"
+    ],
+    [
+     "Horacio Carbonari",
+     "Carbonari"
+    ],
+    [
+     "Marcos Rojo",
+     "Rojo"
+    ],
+    [
+     "Charly Alcaraz",
+     "Alcaraz"
+    ],
+    "Maxi Rodríguez",
+    [
+     "Hernán Crespo",
+     "Crespo"
+    ],
+    [
+     "Martín Demichelis",
+     "Demichelis"
+    ],
+    [
+     "Juan Sebastián Verón",
+     "Verón"
+    ],
+    [
+     "Ramiro Funes Mori",
+     "Mori"
+    ],
+    [
+     "Mauro Zárate",
+     "Zárate"
+    ],
+    [
+     "Paulo Gazzaniga",
+     "Gazzaniga"
+    ],
+    [
+     "Gabriel Heinze",
+     "Heinze"
+    ],
+    [
+     "Carlos Marinelli",
+     "Marinelli"
+    ],
+    [
+     "Emiliano Insúa",
+     "Insúa"
+    ],
+    "Willy Caballero",
+    [
+     "Nelson Vivas",
+     "Vivas"
+    ],
+    [
+     "Ángel Di María",
+     "María",
+     "Di María"
+    ],
+    [
+     "Mauro Formica",
+     "Formica"
+    ],
+    [
+     "Santiago Vergini",
+     "Vergini"
+    ],
+    [
+     "Esteban Cambiasso",
+     "Cambiasso"
+    ],
+    [
+     "Facundo Sava",
+     "Sava"
+    ],
+    [
+     "Alejandro Faurlín",
+     "Faurlín"
+    ],
+    "Guido Rodríguez",
+    [
+     "Luciano Vietto",
+     "Vietto"
+    ],
+    [
+     "Gonzalo Higuaín",
+     "Higuaín"
+    ],
+    [
+     "Sixto Peralta",
+     "Peralta"
+    ],
+    [
+     "Christian Bassedas",
+     "Bassedas"
+    ],
+    [
+     "Luciano Zavagno",
+     "Zavagno"
+    ],
+    [
+     "Daniel Cordone",
+     "Cordone"
+    ],
+    [
+     "Denis Stracqualursi",
+     "Stracqualursi"
+    ],
+    [
+     "Juan Foyth",
+     "Foyth"
+    ],
+    [
+     "Emanuel Villa",
+     "Villa"
+    ],
+    [
+     "Federico Fazio",
+     "Fazio"
+    ],
+    [
+     "Gonzalo Montiel",
+     "Montiel"
+    ],
+    [
+     "Jonathan Calleri",
+     "Calleri"
+    ],
+    [
+     "Andrés D'Alessandro",
+     "D'Alessandro"
+    ],
+    [
+     "Mauro Boselli",
+     "Boselli"
+    ],
+    [
+     "Luciano Becchio",
+     "Becchio"
+    ],
+    [
+     "Valentín Barco",
+     "Barco"
+    ],
+    "Ricky Álvarez",
+    [
+     "Lionel Scaloni",
+     "Scaloni"
+    ],
+    [
+     "Alejo Véliz",
+     "Véliz"
+    ],
+    [
+     "Mauricio Pellegrino",
+     "Pellegrino"
+    ],
+    [
+     "Exequiel Palacios",
+     "Palacios"
+    ],
+    [
+     "Julio Soler",
+     "Soler"
+    ],
+    [
+     "Esteban Fuertes",
+     "Fuertes"
+    ],
+    [
+     "Juan Cobián",
+     "Cobián"
+    ],
+    [
+     "Juan Carlos Menseguez",
+     "Menseguez"
+    ],
+    "Sergio Romero",
+    [
+     "Ignacio Pussetto",
+     "Pussetto"
+    ],
+    [
+     "Walter Benítez",
+     "Benítez"
+    ],
+    [
+     "Guido Carrillo",
+     "Carrillo"
+    ],
+    [
+     "Ignacio Scocco",
+     "Scocco"
+    ],
+    [
+     "Sebastián Blanco",
+     "Blanco"
+    ],
+    [
+     "Marcos Angeleri",
+     "Angeleri"
+    ],
+    [
+     "Martín Herrera",
+     "Herrera"
+    ],
+    [
+     "Claudio Echeverri",
+     "Echeverri"
+    ],
+    [
+     "Máximo Perrone",
+     "Perrone"
+    ],
+    [
+     "Federico Bessone",
+     "Bessone"
+    ],
+    "Fabián Caballero",
+    [
+     "Taty Castellanos",
+     "Castellanos"
+    ]
+   ],
+   "eras": {
+    "Sergio Aguero": [
+     "10s",
+     "20s"
+    ],
+    "Pablo Zabaleta": [
+     "00s",
+     "10s"
+    ],
+    "Carlos Tevez": [
+     "00s",
+     "10s"
+    ],
+    "Alexis Mac Allister": [
+     "10s",
+     "20s"
+    ],
+    "Manuel Lanzini": [
+     "10s",
+     "20s"
+    ],
+    "Emiliano Martinez": [
+     "10s",
+     "20s"
+    ],
+    "Erik Lamela": [
+     "10s",
+     "20s"
+    ],
+    "Emiliano Buendía": [
+     "10s",
+     "20s"
+    ],
+    "Federico Fernández": [
+     "10s",
+     "20s"
+    ],
+    "Enzo Fernández": [
+     "20s"
+    ],
+    "Fabricio Coloccini": [
+     "00s",
+     "10s"
+    ],
+    "Alejandro Garnacho": [
+     "20s"
+    ],
+    "Nicolás Otamendi": [
+     "10s"
+    ],
+    "Julio Arca": [
+     "00s"
+    ],
+    "Cristian Romero": [
+     "20s"
+    ],
+    "Jonás Gutiérrez": [
+     "00s",
+     "10s"
+    ],
+    "Roberto Pereyra": [
+     "10s"
+    ],
+    "Marcos Senesi": [
+     "20s"
+    ],
+    "Claudio Yacob": [
+     "10s"
+    ],
+    "Franco Di Santo": [
+     "00s",
+     "10s"
+    ],
+    "Julián Álvarez": [
+     "20s"
+    ],
+    "Mauricio Taricco": [
+     "90s",
+     "00s"
+    ],
+    "Leonardo Ulloa": [
+     "10s"
+    ],
+    "Nicolás Domínguez": [
+     "20s"
+    ],
+    "Facundo Buonanotte": [
+     "20s"
+    ],
+    "Julián Speroni": [
+     "00s",
+     "10s"
+    ],
+    "Lisandro Martínez": [
+     "20s"
+    ],
+    "Giovani Lo Celso": [
+     "10s",
+     "20s"
+    ],
+    "Javier Mascherano": [
+     "00s",
+     "10s"
+    ],
+    "Horacio Carbonari": [
+     "90s",
+     "00s"
+    ],
+    "Marcos Rojo": [
+     "10s"
+    ],
+    "Charly Alcaraz": [
+     "20s"
+    ],
+    "Maxi Rodríguez": [
+     "00s",
+     "10s"
+    ],
+    "Hernán Crespo": [
+     "00s"
+    ],
+    "Martín Demichelis": [
+     "10s"
+    ],
+    "Juan Sebastián Verón": [
+     "00s"
+    ],
+    "Ramiro Funes Mori": [
+     "10s"
+    ],
+    "Mauro Zárate": [
+     "00s",
+     "10s"
+    ],
+    "Paulo Gazzaniga": [
+     "10s"
+    ],
+    "Gabriel Heinze": [
+     "00s"
+    ],
+    "Carlos Marinelli": [
+     "90s",
+     "00s"
+    ],
+    "Emiliano Insúa": [
+     "00s"
+    ],
+    "Willy Caballero": [
+     "10s",
+     "20s"
+    ],
+    "Nelson Vivas": [
+     "90s",
+     "00s"
+    ],
+    "Ángel Di María": [
+     "10s"
+    ],
+    "Mauro Formica": [
+     "10s"
+    ],
+    "Santiago Vergini": [
+     "10s"
+    ],
+    "Esteban Cambiasso": [
+     "10s"
+    ],
+    "Facundo Sava": [
+     "00s"
+    ],
+    "Alejandro Faurlín": [
+     "10s"
+    ],
+    "Guido Rodríguez": [
+     "20s"
+    ],
+    "Luciano Vietto": [
+     "10s"
+    ],
+    "Gonzalo Higuaín": [
+     "10s"
+    ],
+    "Sixto Peralta": [
+     "00s"
+    ],
+    "Christian Bassedas": [
+     "00s"
+    ],
+    "Luciano Zavagno": [
+     "00s"
+    ],
+    "Daniel Cordone": [
+     "00s"
+    ],
+    "Denis Stracqualursi": [
+     "10s"
+    ],
+    "Juan Foyth": [
+     "10s"
+    ],
+    "Emanuel Villa": [
+     "00s"
+    ],
+    "Federico Fazio": [
+     "10s"
+    ],
+    "Gonzalo Montiel": [
+     "20s"
+    ],
+    "Jonathan Calleri": [
+     "10s"
+    ],
+    "Andrés D'Alessandro": [
+     "00s"
+    ],
+    "Mauro Boselli": [
+     "10s"
+    ],
+    "Luciano Becchio": [
+     "10s"
+    ],
+    "Valentín Barco": [
+     "20s"
+    ],
+    "Ricky Álvarez": [
+     "10s"
+    ],
+    "Lionel Scaloni": [
+     "00s"
+    ],
+    "Alejo Véliz": [
+     "20s"
+    ],
+    "Mauricio Pellegrino": [
+     "00s"
+    ],
+    "Exequiel Palacios": [
+     "20s"
+    ],
+    "Julio Soler": [
+     "20s"
+    ],
+    "Esteban Fuertes": [
+     "90s"
+    ],
+    "Juan Cobián": [
+     "90s"
+    ],
+    "Juan Carlos Menseguez": [
+     "00s"
+    ],
+    "Sergio Romero": [
+     "10s"
+    ],
+    "Ignacio Pussetto": [
+     "10s"
+    ],
+    "Walter Benítez": [
+     "20s"
+    ],
+    "Guido Carrillo": [
+     "10s"
+    ],
+    "Ignacio Scocco": [
+     "10s"
+    ],
+    "Sebastián Blanco": [
+     "10s"
+    ],
+    "Marcos Angeleri": [
+     "10s"
+    ],
+    "Martín Herrera": [
+     "00s"
+    ],
+    "Claudio Echeverri": [
+     "20s"
+    ],
+    "Máximo Perrone": [
+     "20s"
+    ],
+    "Federico Bessone": [
+     "10s"
+    ],
+    "Fabián Caballero": [
+     "90s"
+    ],
+    "Taty Castellanos": [
+     "20s"
+    ]
+   }
+  }
+ ]
 }

@@ -1,4863 +1,4828 @@
 {
-"cat": "nba",
-"prompts": [
-{
-"id": "nba-d-college-kentucky",
-"tags": [
-"draft"
-],
-"text": "Name a player drafted into the NBA or BAA from the University of Kentucky (drafts up to 2026)",
-"answers": [
-[
-"Anthony Davis",
-"Davis"
-],
-[
-"John Wall",
-"Wall"
-],
-[
-"DeMarcus Cousins",
-"Cousins"
-],
-[
-"Karl-Anthony Towns",
-"Towns"
-],
-[
-"Devin Booker",
-"Booker"
-],
-[
-"De'Aaron Fox",
-"Fox"
-],
-[
-"Shai Gilgeous-Alexander",
-"Gilgeous-Alexander"
-],
-[
-"Tyrese Maxey",
-"Maxey"
-],
-[
-"Rajon Rondo",
-"Rondo"
-],
-[
-"Bam Adebayo",
-"Adebayo"
-],
-[
-"Tyler Herro",
-"Herro"
-],
-[
-"Jamal Murray",
-"Murray"
-],
-[
-"Julius Randle",
-"Randle"
-],
-[
-"Pat Riley",
-"Riley"
-],
-[
-"Eric Bledsoe",
-"Bledsoe"
-],
-"Antoine Walker",
-[
-"Jamal Mashburn",
-"Mashburn"
-],
-[
-"Tayshaun Prince",
-"Prince"
-],
-[
-"Cason Wallace",
-"Wallace"
-],
-[
-"Dan Issel",
-"Issel"
-],
-[
-"Chris Livingston",
-"Livingston"
-],
-[
-"Shaedon Sharpe",
-"Sharpe"
-],
-[
-"TyTy Washington Jr.",
-"TyTy Washington",
-"Washington"
-],
-[
-"Isaiah Jackson",
-"Jackson"
-],
-[
-"Brandon Boston Jr.",
-"Boston",
-"B.J. Boston, Jr."
-],
-[
-"Terrence Clarke",
-"Clarke"
-],
-[
-"Immanuel Quickley",
-"Quickley"
-],
-[
-"Nick Richards",
-"Richards"
-],
-"P. J. Washington",
-"Keldon Johnson",
-[
-"Kevin Knox II",
-"Knox"
-],
-[
-"Jarred Vanderbilt",
-"Vanderbilt"
-],
-[
-"Hamidou Diallo",
-"Diallo"
-],
-[
-"Malik Monk",
-"Monk"
-],
-[
-"Skal Labissière",
-"Labissière"
-],
-[
-"Tyler Ulis",
-"Ulis"
-],
-[
-"Willie Cauley-Stein",
-"Cauley-Stein"
-],
-[
-"Trey Lyles",
-"Lyles"
-],
-[
-"Andrew Harrison",
-"Harrison"
-],
-"Dakari Johnson",
-[
-"James Young",
-"Young"
-],
-[
-"Nerlens Noel",
-"Noel"
-],
-[
-"Archie Goodwin",
-"Goodwin"
-],
-[
-"Michael Kidd-Gilchrist",
-"Kidd-Gilchrist"
-],
-"Terrence Jones",
-[
-"Marquis Teague",
-"Teague"
-],
-[
-"Doron Lamb",
-"Lamb"
-],
-[
-"Darius Miller",
-"Miller"
-],
-[
-"Enes Kanter",
-"Kanter"
-],
-[
-"Brandon Knight",
-"Knight"
-],
-[
-"Josh Harrellson",
-"Harrellson"
-],
-[
-"DeAndre Liggins",
-"Liggins"
-],
-[
-"Patrick Patterson",
-"Patterson"
-],
-[
-"Daniel Orton",
-"Orton"
-],
-[
-"Jodie Meeks",
-"Meeks"
-],
-[
-"Joe Crawford",
-"Crawford"
-],
-[
-"Keith Bogans",
-"Bogans"
-],
-[
-"Jamaal Magloire",
-"Magloire"
-],
-[
-"Scott Padgett",
-"Padgett"
-],
-[
-"Nazr Mohammed",
-"Mohammed"
-],
-[
-"Ron Mercer",
-"Mercer"
-],
-[
-"Derek Anderson",
-"Anderson"
-],
-[
-"Tony Delk",
-"Delk"
-],
-[
-"Walter McCarty",
-"McCarty"
-],
-[
-"Mark Pope",
-"Pope"
-],
-[
-"Rodney Dent",
-"Dent"
-],
-[
-"Rex Chapman",
-"Chapman"
-],
-[
-"Rob Lock",
-"Lock"
-],
-[
-"Ed Davender",
-"Davender"
-],
-[
-"Winston Bennett",
-"Bennett"
-],
-[
-"James Blackmon Sr.",
-"Blackmon"
-],
-"Kenny Walker",
-[
-"Roger Harden",
-"Harden"
-],
-[
-"Sam Bowie",
-"Bowie"
-],
-[
-"Melvin Turpin",
-"Turpin"
-],
-[
-"Dickie Beal",
-"Beal"
-],
-[
-"Jim Master",
-"Master"
-],
-[
-"Tom Heitz",
-"Heitz"
-],
-[
-"Dirk Minniefield",
-"Minniefield"
-],
-[
-"Derrick Hord",
-"Hord"
-],
-[
-"Charles Hurt",
-"Hurt"
-],
-[
-"Chuck Verderber",
-"Verderber"
-],
-[
-"Fred Cowan",
-"Cowan"
-],
-[
-"LaVon Williams",
-"Williams"
-],
-[
-"Jay Shidler",
-"Shidler"
-],
-[
-"Kyle Macy",
-"Macy"
-],
-[
-"Truman Claytor",
-"Claytor"
-],
-[
-"Rick Robey",
-"Robey"
-],
-[
-"Jack Givens",
-"Givens"
-],
-[
-"James Lee",
-"Lee"
-],
-[
-"Mike Phillips",
-"Phillips"
-],
-"Larry Johnson",
-[
-"Kevin Grevey",
-"Grevey"
-],
-[
-"Jimmy Dan Conner",
-"Conner"
-],
-[
-"Bob Guyette",
-"Guyette"
-],
-[
-"Mike Flynn",
-"Flynn"
-],
-[
-"Larry Steele",
-"Steele"
-],
-[
-"Mike Casey",
-"Casey"
-],
-[
-"Phil Argento",
-"Argento"
-],
-[
-"Thad Jaracz",
-"Jaracz"
-],
-[
-"Cliff Berger",
-"Berger"
-],
-[
-"Louie Dampier",
-"Dampier"
-],
-[
-"Tommy Kron",
-"Kron"
-],
-[
-"Cotton Nash",
-"Nash"
-],
-[
-"Larry Pursiful",
-"Pursiful"
-],
-[
-"Bill Lickert",
-"Lickert"
-],
-[
-"Roger Newman",
-"Newman"
-],
-[
-"Ned Jennings",
-"Jennings"
-],
-[
-"Sid Cohen",
-"Cohen"
-],
-[
-"Bennie Kauffman",
-"Kauffman"
-],
-[
-"Don Mills",
-"Mills"
-],
-[
-"Johnny Cox",
-"Cox"
-],
-[
-"Vernon Hatton",
-"Hatton"
-],
-[
-"Gerry Calvert",
-"Calvert"
-],
-[
-"Jerry Bird",
-"Bird"
-],
-[
-"Bob Burrow",
-"Burrow"
-],
-[
-"Phil Grawemeyer",
-"Grawemeyer"
-],
-[
-"William Evans",
-"Evans"
-],
-[
-"Frank Ramsey",
-"Ramsey"
-],
-[
-"Cliff Hagan",
-"Hagan"
-],
-[
-"Lou Tsioropoulos",
-"Tsioropoulos"
-],
-[
-"Richard Prater",
-"Prater"
-],
-[
-"Bobby Watson",
-"Watson"
-],
-[
-"Skippy Whitaker",
-"Whitaker"
-],
-[
-"Dale Barnstable",
-"Barnstable"
-],
-[
-"Jim Line",
-"Line"
-],
-[
-"Alex Groza",
-"Groza"
-],
-"Wallace Jones",
-[
-"Ralph Beard",
-"Beard"
-],
-[
-"Cliff Barker",
-"Barker"
-],
-[
-"Joe Holland",
-"Holland"
-],
-[
-"Jack Parkinson",
-"Parkinson"
-],
-[
-"Ken Rollins",
-"Rollins"
-],
-[
-"Jack Tingle",
-"Tingle"
-],
-[
-"Reed Sheppard",
-"Sheppard"
-],
-[
-"Rob Dillingham",
-"Dillingham"
-],
-[
-"Antonio Reeves",
-"Reeves"
-],
-[
-"Koby Brea",
-"Brea"
-],
-"Amari Williams",
-[
-"Jayden Quaintance",
-"Quaintance"
-],
-[
-"Otega Oweh",
-"Oweh"
-]
-],
-"eraText": "Name a player from Kentucky who was drafted into the NBA in the {era}",
-"eras": {
-"Anthony Davis": [
-"10s"
-],
-"John Wall": [
-"10s"
-],
-"DeMarcus Cousins": [
-"10s"
-],
-"Karl-Anthony Towns": [
-"10s"
-],
-"Devin Booker": [
-"10s"
-],
-"De'Aaron Fox": [
-"10s"
-],
-"Shai Gilgeous-Alexander": [
-"10s"
-],
-"Tyrese Maxey": [
-"20s"
-],
-"Bam Adebayo": [
-"10s"
-],
-"Tyler Herro": [
-"10s"
-],
-"Jamal Murray": [
-"10s"
-],
-"Julius Randle": [
-"10s"
-],
-"Pat Riley": [
-"60s"
-],
-"Eric Bledsoe": [
-"10s"
-],
-"Antoine Walker": [
-"90s"
-],
-"Jamal Mashburn": [
-"90s"
-],
-"Cason Wallace": [
-"20s"
-],
-"Dan Issel": [
-"70s"
-],
-"Chris Livingston": [
-"20s"
-],
-"Shaedon Sharpe": [
-"20s"
-],
-"TyTy Washington Jr.": [
-"20s"
-],
-"Isaiah Jackson": [
-"20s"
-],
-"Brandon Boston Jr.": [
-"20s"
-],
-"Terrence Clarke": [
-"20s"
-],
-"Immanuel Quickley": [
-"20s"
-],
-"Nick Richards": [
-"20s"
-],
-"P. J. Washington": [
-"10s"
-],
-"Keldon Johnson": [
-"10s"
-],
-"Kevin Knox II": [
-"10s"
-],
-"Jarred Vanderbilt": [
-"10s"
-],
-"Hamidou Diallo": [
-"10s"
-],
-"Malik Monk": [
-"10s"
-],
-"Skal Labissière": [
-"10s"
-],
-"Tyler Ulis": [
-"10s"
-],
-"Willie Cauley-Stein": [
-"10s"
-],
-"Trey Lyles": [
-"10s"
-],
-"Andrew Harrison": [
-"10s"
-],
-"Dakari Johnson": [
-"10s"
-],
-"James Young": [
-"10s"
-],
-"Nerlens Noel": [
-"10s"
-],
-"Archie Goodwin": [
-"10s"
-],
-"Michael Kidd-Gilchrist": [
-"10s"
-],
-"Terrence Jones": [
-"10s"
-],
-"Marquis Teague": [
-"10s"
-],
-"Doron Lamb": [
-"10s"
-],
-"Darius Miller": [
-"10s"
-],
-"Enes Kanter": [
-"10s"
-],
-"Brandon Knight": [
-"10s"
-],
-"Josh Harrellson": [
-"10s"
-],
-"DeAndre Liggins": [
-"10s"
-],
-"Patrick Patterson": [
-"10s"
-],
-"Daniel Orton": [
-"10s"
-],
-"Scott Padgett": [
-"90s"
-],
-"Nazr Mohammed": [
-"90s"
-],
-"Ron Mercer": [
-"90s"
-],
-"Derek Anderson": [
-"90s"
-],
-"Tony Delk": [
-"90s"
-],
-"Walter McCarty": [
-"90s"
-],
-"Mark Pope": [
-"90s"
-],
-"Rodney Dent": [
-"90s"
-],
-"Rex Chapman": [
-"80s"
-],
-"Rob Lock": [
-"80s"
-],
-"Ed Davender": [
-"80s"
-],
-"Winston Bennett": [
-"80s"
-],
-"James Blackmon Sr.": [
-"80s"
-],
-"Kenny Walker": [
-"80s"
-],
-"Roger Harden": [
-"80s"
-],
-"Sam Bowie": [
-"80s"
-],
-"Melvin Turpin": [
-"80s"
-],
-"Dickie Beal": [
-"80s"
-],
-"Jim Master": [
-"80s"
-],
-"Tom Heitz": [
-"80s"
-],
-"Dirk Minniefield": [
-"80s"
-],
-"Derrick Hord": [
-"80s"
-],
-"Charles Hurt": [
-"80s"
-],
-"Chuck Verderber": [
-"80s"
-],
-"Fred Cowan": [
-"80s"
-],
-"LaVon Williams": [
-"80s"
-],
-"Jay Shidler": [
-"80s"
-],
-"Kyle Macy": [
-"70s"
-],
-"Truman Claytor": [
-"70s"
-],
-"Rick Robey": [
-"70s"
-],
-"Jack Givens": [
-"70s"
-],
-"James Lee": [
-"70s"
-],
-"Mike Phillips": [
-"70s"
-],
-"Larry Johnson": [
-"70s"
-],
-"Kevin Grevey": [
-"70s"
-],
-"Jimmy Dan Conner": [
-"70s"
-],
-"Bob Guyette": [
-"70s"
-],
-"Mike Flynn": [
-"70s"
-],
-"Larry Steele": [
-"70s"
-],
-"Mike Casey": [
-"70s"
-],
-"Phil Argento": [
-"60s"
-],
-"Thad Jaracz": [
-"60s"
-],
-"Cliff Berger": [
-"60s"
-],
-"Louie Dampier": [
-"60s"
-],
-"Tommy Kron": [
-"60s"
-],
-"Cotton Nash": [
-"60s"
-],
-"Larry Pursiful": [
-"60s"
-],
-"Bill Lickert": [
-"60s"
-],
-"Roger Newman": [
-"60s"
-],
-"Ned Jennings": [
-"60s"
-],
-"Sid Cohen": [
-"60s"
-],
-"Bennie Kauffman": [
-"60s"
-],
-"Don Mills": [
-"60s"
-],
-"Reed Sheppard": [
-"20s"
-],
-"Rob Dillingham": [
-"20s"
-],
-"Antonio Reeves": [
-"20s"
-],
-"Koby Brea": [
-"20s"
-],
-"Amari Williams": [
-"20s"
-],
-"Jayden Quaintance": [
-"20s"
-],
-"Otega Oweh": [
-"20s"
-]
-}
-},
-{
-"id": "nba-d-college-unc",
-"tags": [
-"draft"
-],
-"text": "Name a player drafted into the NBA or BAA from the University of North Carolina (UNC) (as listed on Wikipedia, drafts up to 2026)",
-"answers": [
-[
-"Michael Jordan",
-"Jordan"
-],
-[
-"Vince Carter",
-"Carter"
-],
-[
-"James Worthy",
-"Worthy"
-],
-[
-"Rasheed Wallace",
-"Wallace"
-],
-[
-"Antawn Jamison",
-"Jamison"
-],
-[
-"Jerry Stackhouse",
-"Stackhouse"
-],
-[
-"Harrison Barnes",
-"Barnes"
-],
-[
-"Ty Lawson",
-"Lawson"
-],
-[
-"Danny Green",
-"Green"
-],
-"Marvin Williams",
-[
-"Bob McAdoo",
-"McAdoo"
-],
-[
-"Billy Cunningham",
-"Cunningham"
-],
-[
-"Brad Daugherty",
-"Daugherty"
-],
-[
-"Sam Perkins",
-"Perkins"
-],
-[
-"Tyler Hansbrough",
-"Hansbrough"
-],
-[
-"Raymond Felton",
-"Felton"
-],
-[
-"Brandan Wright",
-"Wright"
-],
-[
-"Kenny Smith",
-"Smith"
-],
-"Walter Davis",
-[
-"Phil Ford",
-"Ford"
-],
-[
-"Doug Moe",
-"Moe"
-],
-[
-"Larry Brown",
-"Brown"
-],
-[
-"Cole Anthony",
-"Anthony"
-],
-[
-"Coby White",
-"White"
-],
-"Brice Johnson",
-[
-"Caleb Wilson",
-"Wilson"
-],
-[
-"Drake Powell",
-"Powell"
-],
-[
-"Harrison Ingram",
-"Ingram"
-],
-[
-"Day'Ron Sharpe",
-"Sharpe"
-],
-"Cameron Johnson",
-[
-"Nassir Little",
-"Little"
-],
-[
-"Justin Jackson",
-"Jackson"
-],
-"Tony Bradley",
-[
-"Marcus Paige",
-"Paige"
-],
-[
-"J. P. Tokoto",
-"Tokoto"
-],
-[
-"P. J. Hairston",
-"Hairston"
-],
-[
-"Reggie Bullock",
-"Bullock"
-],
-[
-"Kendall Marshall",
-"Marshall"
-],
-[
-"John Henson",
-"Henson"
-],
-[
-"Tyler Zeller",
-"Zeller"
-],
-"Ed Davis",
-[
-"Wayne Ellington",
-"Ellington"
-],
-[
-"Reyshawn Terry",
-"Terry"
-],
-[
-"David Noel",
-"Noel"
-],
-[
-"Sean May",
-"May"
-],
-[
-"Rashad McCants",
-"McCants"
-],
-[
-"Brendan Haywood",
-"Haywood"
-],
-[
-"Joseph Forte",
-"Forte"
-],
-"Shammond Williams",
-[
-"Serge Zwikker",
-"Zwikker"
-],
-[
-"Jeff McInnis",
-"McInnis"
-],
-[
-"Eric Montross",
-"Montross"
-],
-[
-"George Lynch",
-"Lynch"
-],
-"Hubert Davis",
-[
-"Rick Fox",
-"Fox"
-],
-[
-"Pete Chilcutt",
-"Chilcutt"
-],
-"J.R. Reid",
-"Joe Wolf",
-[
-"Dave Popson",
-"Popson"
-],
-[
-"Curtis Hunter",
-"Hunter"
-],
-[
-"Warren Martin",
-"Martin"
-],
-[
-"Steve Hale",
-"Hale"
-],
-[
-"Buzz Peterson",
-"Peterson"
-],
-[
-"Matt Doherty",
-"Doherty"
-],
-[
-"Cecil Exum",
-"Exum"
-],
-[
-"Jimmy Braddock",
-"Braddock"
-],
-[
-"Jimmy Black",
-"Black"
-],
-[
-"Chris Brust",
-"Brust"
-],
-[
-"Jeb Barlow",
-"Barlow"
-],
-[
-"Al Wood",
-"Wood"
-],
-[
-"Pete Budko",
-"Budko"
-],
-[
-"Mike Pepper",
-"Pepper"
-],
-[
-"Mike O'Koren",
-"O'Koren"
-],
-[
-"John Virgil",
-"Virgil"
-],
-[
-"Rich Yonakor",
-"Yonakor"
-],
-"Jeff Wolf",
-[
-"Dave Colescott",
-"Colescott"
-],
-"Dudley Bradley",
-[
-"Geff Crompton",
-"Crompton"
-],
-[
-"Tom Zaliagris",
-"Zaliagris"
-],
-[
-"Tommy LaGarde",
-"LaGarde"
-],
-[
-"John Kuester",
-"Kuester"
-],
-[
-"Bruce Buckley",
-"Buckley"
-],
-[
-"Mitch Kupchak",
-"Kupchak"
-],
-[
-"Donald Washington",
-"Washington"
-],
-[
-"Ed Stahl",
-"Stahl"
-],
-[
-"Bobby Jones",
-"Jones"
-],
-[
-"Darrell Elston",
-"Elston"
-],
-[
-"John O'Donnell",
-"O'Donnell"
-],
-[
-"George Karl",
-"Karl"
-],
-"Donn Johnson",
-[
-"Dennis Wuycik",
-"Wuycik"
-],
-[
-"Bill Chamberlain",
-"Chamberlain"
-],
-[
-"Steve Previs",
-"Previs"
-],
-[
-"Lee Dedmon",
-"Dedmon"
-],
-"Charlie Scott",
-[
-"Bill Bunting",
-"Bunting"
-],
-[
-"Dick Grubar",
-"Grubar"
-],
-[
-"Rusty Clark",
-"Clark"
-],
-[
-"Larry Miller",
-"Miller"
-],
-[
-"Bob Lewis",
-"Lewis"
-],
-[
-"Mark Mirken",
-"Mirken"
-],
-[
-"Bob Bennett",
-"Bennett"
-],
-[
-"Jim Hudock",
-"Hudock"
-],
-[
-"Ken McComb",
-"McComb"
-],
-[
-"Donnie Walsh",
-"Walsh"
-],
-[
-"York Larese",
-"Larese"
-],
-[
-"Dick Kepley",
-"Kepley"
-],
-[
-"Lee Shaffer",
-"Shaffer"
-],
-[
-"Pete Brennan",
-"Brennan"
-],
-[
-"Joe Quigg",
-"Quigg"
-],
-[
-"Tommy Kearns",
-"Kearns"
-],
-[
-"Lennie Rosenbluth",
-"Rosenbluth"
-],
-[
-"Norman Kohler",
-"Kohler"
-],
-[
-"Bob Paxton",
-"Paxton"
-],
-[
-"Hook Dillon",
-"Dillon"
-],
-[
-"Dick Gruber",
-"Gruber"
-],
-"Charles Scott",
-[
-"Henri Veesaar",
-"Veesaar"
-]
-],
-"eraText": "Name a player from North Carolina who was drafted into the NBA in the {era}",
-"eras": {
-"Michael Jordan": [
-"80s"
-],
-"Vince Carter": [
-"90s"
-],
-"James Worthy": [
-"80s"
-],
-"Rasheed Wallace": [
-"90s"
-],
-"Antawn Jamison": [
-"90s"
-],
-"Jerry Stackhouse": [
-"90s"
-],
-"Harrison Barnes": [
-"10s"
-],
-"Ty Lawson": [
-"00s"
-],
-"Danny Green": [
-"00s"
-],
-"Marvin Williams": [
-"00s"
-],
-"Bob McAdoo": [
-"70s"
-],
-"Billy Cunningham": [
-"60s"
-],
-"Brad Daugherty": [
-"80s"
-],
-"Sam Perkins": [
-"80s"
-],
-"Tyler Hansbrough": [
-"00s"
-],
-"Raymond Felton": [
-"00s"
-],
-"Brandan Wright": [
-"00s"
-],
-"Kenny Smith": [
-"80s"
-],
-"Walter Davis": [
-"70s"
-],
-"Phil Ford": [
-"70s"
-],
-"Doug Moe": [
-"60s"
-],
-"Larry Brown": [
-"60s"
-],
-"Coby White": [
-"10s"
-],
-"Brice Johnson": [
-"10s"
-],
-"Cameron Johnson": [
-"10s"
-],
-"Nassir Little": [
-"10s"
-],
-"Justin Jackson": [
-"10s"
-],
-"Tony Bradley": [
-"10s"
-],
-"Marcus Paige": [
-"10s"
-],
-"J. P. Tokoto": [
-"10s"
-],
-"P. J. Hairston": [
-"10s"
-],
-"Reggie Bullock": [
-"10s"
-],
-"Kendall Marshall": [
-"10s"
-],
-"John Henson": [
-"10s"
-],
-"Tyler Zeller": [
-"10s"
-],
-"Ed Davis": [
-"10s"
-],
-"Wayne Ellington": [
-"00s"
-],
-"Reyshawn Terry": [
-"00s"
-],
-"David Noel": [
-"00s"
-],
-"Sean May": [
-"00s"
-],
-"Rashad McCants": [
-"00s"
-],
-"Brendan Haywood": [
-"00s"
-],
-"Joseph Forte": [
-"00s"
-],
-"Shammond Williams": [
-"90s"
-],
-"Serge Zwikker": [
-"90s"
-],
-"Jeff McInnis": [
-"90s"
-],
-"Eric Montross": [
-"90s"
-],
-"George Lynch": [
-"90s"
-],
-"Hubert Davis": [
-"90s"
-],
-"Rick Fox": [
-"90s"
-],
-"Pete Chilcutt": [
-"90s"
-],
-"J.R. Reid": [
-"80s"
-],
-"Joe Wolf": [
-"80s"
-],
-"Dave Popson": [
-"80s"
-],
-"Curtis Hunter": [
-"80s"
-],
-"Warren Martin": [
-"80s"
-],
-"Steve Hale": [
-"80s"
-],
-"Buzz Peterson": [
-"80s"
-],
-"Matt Doherty": [
-"80s"
-],
-"Cecil Exum": [
-"80s"
-],
-"Jimmy Braddock": [
-"80s"
-],
-"Jimmy Black": [
-"80s"
-],
-"Chris Brust": [
-"80s"
-],
-"Jeb Barlow": [
-"80s"
-],
-"Al Wood": [
-"80s"
-],
-"Pete Budko": [
-"80s"
-],
-"Mike Pepper": [
-"80s"
-],
-"Mike O'Koren": [
-"80s"
-],
-"John Virgil": [
-"80s"
-],
-"Rich Yonakor": [
-"80s"
-],
-"Jeff Wolf": [
-"80s"
-],
-"Dave Colescott": [
-"80s"
-],
-"Dudley Bradley": [
-"70s"
-],
-"Geff Crompton": [
-"70s"
-],
-"Tom Zaliagris": [
-"70s"
-],
-"Tommy LaGarde": [
-"70s"
-],
-"John Kuester": [
-"70s"
-],
-"Bruce Buckley": [
-"70s"
-],
-"Mitch Kupchak": [
-"70s"
-],
-"Donald Washington": [
-"70s"
-],
-"Ed Stahl": [
-"70s"
-],
-"Bobby Jones": [
-"70s"
-],
-"Darrell Elston": [
-"70s"
-],
-"John O'Donnell": [
-"70s"
-],
-"George Karl": [
-"70s"
-],
-"Donn Johnson": [
-"70s"
-],
-"Dennis Wuycik": [
-"70s"
-],
-"Bill Chamberlain": [
-"70s"
-],
-"Steve Previs": [
-"70s"
-],
-"Lee Dedmon": [
-"70s"
-],
-"Charlie Scott": [
-"70s"
-],
-"Bill Bunting": [
-"60s"
-],
-"Dick Grubar": [
-"60s"
-],
-"Rusty Clark": [
-"60s"
-],
-"Larry Miller": [
-"60s"
-],
-"Bob Lewis": [
-"60s"
-],
-"Mark Mirken": [
-"60s"
-],
-"Bob Bennett": [
-"60s"
-],
-"Jim Hudock": [
-"60s"
-],
-"Ken McComb": [
-"60s"
-],
-"Donnie Walsh": [
-"60s"
-],
-"York Larese": [
-"60s"
-],
-"Dick Kepley": [
-"60s"
-],
-"Lee Shaffer": [
-"60s"
-],
-"Henri Veesaar": [
-"20s"
-]
-}
-},
-{
-"id": "nba-d-college-arizona",
-"tags": [
-"draft"
-],
-"text": "Name a player drafted into the NBA or BAA from the University of Arizona (drafts up to 2026)",
-"answers": [
-[
-"Steve Kerr",
-"Kerr"
-],
-[
-"Andre Iguodala",
-"Iguodala"
-],
-[
-"Gilbert Arenas",
-"Arenas"
-],
-[
-"Mike Bibby",
-"Bibby"
-],
-"Damon Stoudamire",
-[
-"Aaron Gordon",
-"Gordon"
-],
-[
-"Deandre Ayton",
-"Ayton"
-],
-[
-"Lauri Markkanen",
-"Markkanen"
-],
-[
-"Richard Jefferson",
-"Jefferson"
-],
-"Jason Terry",
-"Sean Elliott",
-[
-"Luke Walton",
-"Walton"
-],
-[
-"Jerryd Bayless",
-"Bayless"
-],
-[
-"Channing Frye",
-"Frye"
-],
-[
-"Zeke Nnaji",
-"Nnaji"
-],
-[
-"Bennedict Mathurin",
-"Mathurin"
-],
-[
-"Chase Budinger",
-"Budinger"
-],
-"Salim Stoudamire",
-[
-"Nico Mannion",
-"Mannion"
-],
-"Dalen Terry",
-[
-"Christian Koloko",
-"Koloko"
-],
-[
-"Josh Green",
-"Green"
-],
-[
-"Kadeem Allen",
-"Allen"
-],
-"Stanley Johnson",
-[
-"Rondae Hollis-Jefferson",
-"Hollis-Jefferson"
-],
-"Nick Johnson",
-"Solomon Hill",
-[
-"Grant Jerrett",
-"Jerrett"
-],
-"Derrick Williams",
-"Jordan Hill",
-"Marcus Williams",
-[
-"Hassan Adams",
-"Adams"
-],
-[
-"Michael Wright",
-"Wright"
-],
-[
-"Loren Woods",
-"Woods"
-],
-[
-"A.J. Bramlett",
-"Bramlett"
-],
-[
-"Michael Dickerson",
-"Dickerson"
-],
-[
-"Miles Simon",
-"Simon"
-],
-[
-"Joseph Blair",
-"Blair"
-],
-"Ben Davis",
-[
-"Reggie Geary",
-"Geary"
-],
-[
-"Khalid Reeves",
-"Reeves"
-],
-[
-"Chris Mills",
-"Mills"
-],
-[
-"Ed Stokes",
-"Stokes"
-],
-[
-"Sean Rooks",
-"Rooks"
-],
-[
-"Bison Dele",
-"Dele",
-"Brian Williams"
-],
-[
-"Jud Buechler",
-"Buechler"
-],
-[
-"Anthony Cook",
-"Cook"
-],
-[
-"Tom Tolbert",
-"Tolbert"
-],
-"Pete Williams",
-"Eddie Smith",
-[
-"Leon Wood",
-"Wood"
-],
-"Frank Smith",
-"Ron Davis",
-[
-"Robbie Dosty",
-"Dosty"
-],
-[
-"Joe Nehls",
-"Nehls"
-],
-[
-"Larry Demic",
-"Demic"
-],
-[
-"Phil Taylor",
-"Taylor"
-],
-"Bob Elliott",
-[
-"Herman Harris",
-"Harris"
-],
-[
-"Jerome Gladney",
-"Gladney"
-],
-[
-"Al Fleming",
-"Fleming"
-],
-[
-"James Rappis",
-"Rappis"
-],
-[
-"Eric Money",
-"Money"
-],
-[
-"Coniel Norman",
-"Norman"
-],
-[
-"Bruce Anderson",
-"Anderson"
-],
-[
-"Eddie Myers",
-"Myers"
-],
-[
-"Bill Warner",
-"Warner"
-],
-[
-"Tom Lee",
-"Lee"
-],
-[
-"Mike Foster",
-"Foster"
-],
-"Bill Davis",
-[
-"Warren Rustand",
-"Rustand"
-],
-[
-"Ernie McCray",
-"McCray"
-],
-"Roger Johnson",
-"Leo Johnson",
-[
-"Leon Blevins",
-"Blevins"
-],
-[
-"Mo Udall",
-"Udall",
-"Morris Udall"
-],
-[
-"Lincoln Richmond",
-"Richmond"
-],
-[
-"Pelle Larsson",
-"Larsson"
-],
-[
-"Carter Bryant",
-"Bryant"
-],
-[
-"Brayden Burries",
-"Burries"
-],
-[
-"Koa Peat",
-"Peat"
-],
-[
-"Jaden Bradley",
-"Bradley"
-]
-],
-"eraText": "Name a player from Arizona who was drafted into the NBA in the {era}",
-"eras": {
-"Steve Kerr": [
-"80s"
-],
-"Andre Iguodala": [
-"00s"
-],
-"Gilbert Arenas": [
-"00s"
-],
-"Mike Bibby": [
-"90s"
-],
-"Damon Stoudamire": [
-"90s"
-],
-"Aaron Gordon": [
-"10s"
-],
-"Deandre Ayton": [
-"10s"
-],
-"Lauri Markkanen": [
-"10s"
-],
-"Richard Jefferson": [
-"00s"
-],
-"Jason Terry": [
-"90s"
-],
-"Sean Elliott": [
-"80s"
-],
-"Luke Walton": [
-"00s"
-],
-"Jerryd Bayless": [
-"00s"
-],
-"Channing Frye": [
-"00s"
-],
-"Chase Budinger": [
-"00s"
-],
-"Salim Stoudamire": [
-"00s"
-],
-"Kadeem Allen": [
-"10s"
-],
-"Stanley Johnson": [
-"10s"
-],
-"Rondae Hollis-Jefferson": [
-"10s"
-],
-"Nick Johnson": [
-"10s"
-],
-"Solomon Hill": [
-"10s"
-],
-"Grant Jerrett": [
-"10s"
-],
-"Derrick Williams": [
-"10s"
-],
-"Jordan Hill": [
-"00s"
-],
-"Marcus Williams": [
-"00s"
-],
-"Hassan Adams": [
-"00s"
-],
-"Michael Wright": [
-"00s"
-],
-"Loren Woods": [
-"00s"
-],
-"A.J. Bramlett": [
-"90s"
-],
-"Michael Dickerson": [
-"90s"
-],
-"Miles Simon": [
-"90s"
-],
-"Joseph Blair": [
-"90s"
-],
-"Ben Davis": [
-"90s"
-],
-"Reggie Geary": [
-"90s"
-],
-"Khalid Reeves": [
-"90s"
-],
-"Chris Mills": [
-"90s"
-],
-"Ed Stokes": [
-"90s"
-],
-"Sean Rooks": [
-"90s"
-],
-"Bison Dele": [
-"90s"
-],
-"Jud Buechler": [
-"90s"
-],
-"Anthony Cook": [
-"80s"
-],
-"Tom Tolbert": [
-"80s"
-],
-"Pete Williams": [
-"80s"
-],
-"Eddie Smith": [
-"80s"
-],
-"Leon Wood": [
-"80s"
-],
-"Frank Smith": [
-"80s"
-],
-"Ron Davis": [
-"80s"
-],
-"Robbie Dosty": [
-"80s"
-],
-"Joe Nehls": [
-"80s"
-],
-"Larry Demic": [
-"70s"
-],
-"Phil Taylor": [
-"70s"
-],
-"Bob Elliott": [
-"70s"
-],
-"Herman Harris": [
-"70s"
-],
-"Jerome Gladney": [
-"70s"
-],
-"Al Fleming": [
-"70s"
-],
-"James Rappis": [
-"70s"
-],
-"Eric Money": [
-"70s"
-],
-"Coniel Norman": [
-"70s"
-],
-"Bruce Anderson": [
-"70s"
-],
-"Eddie Myers": [
-"70s"
-],
-"Bill Warner": [
-"70s"
-],
-"Tom Lee": [
-"70s"
-],
-"Mike Foster": [
-"70s"
-],
-"Pelle Larsson": [
-"20s"
-],
-"Carter Bryant": [
-"20s"
-],
-"Brayden Burries": [
-"20s"
-],
-"Koa Peat": [
-"20s"
-],
-"Jaden Bradley": [
-"20s"
-]
-},
-"deep": true
-},
-{
-"id": "nba-d-college-indiana",
-"tags": [
-"draft"
-],
-"text": "Name a player drafted into the NBA or BAA from Indiana University (drafts up to 2026)",
-"answers": [
-"Isiah Thomas",
-[
-"Victor Oladipo",
-"Oladipo"
-],
-[
-"OG Anunoby",
-"Anunoby"
-],
-[
-"Eric Gordon",
-"Gordon"
-],
-[
-"Cody Zeller",
-"Zeller"
-],
-[
-"Walt Bellamy",
-"Bellamy"
-],
-[
-"George McGinnis",
-"McGinnis"
-],
-[
-"Quinn Buckner",
-"Buckner"
-],
-[
-"Calbert Cheaney",
-"Cheaney"
-],
-[
-"Jared Jeffries",
-"Jeffries"
-],
-[
-"Kent Benson",
-"Benson"
-],
-[
-"Scott May",
-"May"
-],
-[
-"Mike Woodson",
-"Woodson"
-],
-[
-"Randy Wittman",
-"Wittman"
-],
-[
-"Thomas Bryant",
-"Bryant"
-],
-[
-"Noah Vonleh",
-"Vonleh"
-],
-[
-"Romeo Langford",
-"Langford"
-],
-[
-"Trayce Jackson-Davis",
-"Jackson-Davis"
-],
-[
-"Steve Alford",
-"Alford"
-],
-[
-"Kel'el Ware",
-"Ware"
-],
-[
-"Jalen Hood-Schifino",
-"Hood-Schifino"
-],
-[
-"D. J. White",
-"White"
-],
-"Bracey Wright",
-[
-"Kirk Haston",
-"Haston"
-],
-[
-"A. J. Guyton",
-"Guyton"
-],
-[
-"Andrae Patterson",
-"Patterson"
-],
-[
-"Brian Evans",
-"Evans"
-],
-[
-"Alan Henderson",
-"Henderson"
-],
-[
-"Damon Bailey",
-"Bailey"
-],
-[
-"Greg Graham",
-"Graham"
-],
-[
-"Jay Edwards",
-"Edwards"
-],
-[
-"Keith Smart",
-"Smart"
-],
-"Dean Garrett",
-"Daryl Thomas",
-[
-"Uwe Blab",
-"Blab"
-],
-[
-"Tony Brown",
-"Brown"
-],
-[
-"Steve Bouchie",
-"Bouchie"
-],
-[
-"Ted Kitchel",
-"Kitchel"
-],
-"Jim Thomas",
-[
-"Landon Turner",
-"Turner"
-],
-[
-"Steve Risley",
-"Risley"
-],
-[
-"Glen Grunwald",
-"Grunwald"
-],
-[
-"Ray Tolbert",
-"Tolbert"
-],
-[
-"Butch Carter",
-"Carter"
-],
-[
-"Wayne Radford",
-"Radford"
-],
-[
-"Tom Abernethy",
-"Abernethy"
-],
-[
-"Bobby Wilkerson",
-"Wilkerson"
-],
-[
-"John Laskowski",
-"Laskowski"
-],
-[
-"Steve Green",
-"Green"
-],
-[
-"John Ritter",
-"Ritter"
-],
-[
-"Steve Downing",
-"Downing"
-],
-"Joby Wright",
-[
-"Jim Harris",
-"Harris"
-],
-[
-"Lee McCollough",
-"McCollough"
-],
-[
-"Ken Johnson",
-"Johnson"
-],
-[
-"Joe Cooke",
-"Cooke"
-],
-[
-"Bill DeHeer",
-"DeHeer"
-],
-[
-"Butch Joyner",
-"Joyner"
-],
-[
-"Erv Inniger",
-"Inniger"
-],
-[
-"Jon McGlocklin",
-"McGlocklin"
-],
-"Tom Van Arsdale",
-"Dick Van Arsdale",
-[
-"Jimmy Rayl",
-"Rayl"
-],
-[
-"Tom Bolyard",
-"Bolyard"
-],
-[
-"Ron Horn",
-"Horn"
-],
-[
-"Bob Wilkinson",
-"Wilkinson"
-],
-[
-"Frank Radovich",
-"Radovich"
-],
-[
-"Archie Dees",
-"Dees"
-],
-[
-"Dick Neal",
-"Neal"
-],
-[
-"Wally Choice",
-"Choice"
-],
-[
-"Don Schlundt",
-"Schlundt"
-],
-[
-"Charlie Kraak",
-"Kraak"
-],
-[
-"Lou Scott",
-"Scott"
-],
-[
-"Dick Farley",
-"Farley"
-],
-[
-"Bobby Leonard",
-"Leonard"
-],
-[
-"Sam Miranda",
-"Miranda"
-],
-"Bill Garrett",
-[
-"Bill Tosheff",
-"Tosheff"
-],
-[
-"Jerry Stuteville",
-"Stuteville"
-],
-[
-"Lou Watson",
-"Watson"
-]
-],
-"eraText": "Name a player from Indiana who was drafted into the NBA in the {era}",
-"eras": {
-"Isiah Thomas": [
-"80s"
-],
-"Walt Bellamy": [
-"60s"
-],
-"George McGinnis": [
-"70s"
-],
-"Quinn Buckner": [
-"70s"
-],
-"Kent Benson": [
-"70s"
-],
-"Scott May": [
-"70s"
-],
-"Mike Woodson": [
-"80s"
-],
-"Randy Wittman": [
-"80s"
-],
-"Steve Alford": [
-"80s"
-],
-"Jay Edwards": [
-"80s"
-],
-"Keith Smart": [
-"80s"
-],
-"Dean Garrett": [
-"80s"
-],
-"Daryl Thomas": [
-"80s"
-],
-"Uwe Blab": [
-"80s"
-],
-"Tony Brown": [
-"80s"
-],
-"Steve Bouchie": [
-"80s"
-],
-"Ted Kitchel": [
-"80s"
-],
-"Jim Thomas": [
-"80s"
-],
-"Landon Turner": [
-"80s"
-],
-"Steve Risley": [
-"80s"
-],
-"Glen Grunwald": [
-"80s"
-],
-"Ray Tolbert": [
-"80s"
-],
-"Butch Carter": [
-"80s"
-],
-"Wayne Radford": [
-"70s"
-],
-"Tom Abernethy": [
-"70s"
-],
-"Bobby Wilkerson": [
-"70s"
-],
-"John Laskowski": [
-"70s"
-],
-"Steve Green": [
-"70s"
-],
-"John Ritter": [
-"70s"
-],
-"Steve Downing": [
-"70s"
-],
-"Joby Wright": [
-"70s"
-],
-"Jim Harris": [
-"70s"
-],
-"Lee McCollough": [
-"70s"
-],
-"Ken Johnson": [
-"70s"
-],
-"Joe Cooke": [
-"70s"
-],
-"Bill DeHeer": [
-"60s"
-],
-"Butch Joyner": [
-"60s"
-],
-"Erv Inniger": [
-"60s"
-],
-"Jon McGlocklin": [
-"60s"
-],
-"Tom Van Arsdale": [
-"60s"
-],
-"Dick Van Arsdale": [
-"60s"
-],
-"Jimmy Rayl": [
-"60s"
-],
-"Tom Bolyard": [
-"60s"
-],
-"Ron Horn": [
-"60s"
-],
-"Bob Wilkinson": [
-"60s"
-],
-"Frank Radovich": [
-"60s"
-]
-},
-"deep": true
-},
-{
-"id": "nba-d-college-michigan",
-"tags": [
-"draft"
-],
-"text": "Name a player drafted into the NBA or BAA from the University of Michigan (as listed on Wikipedia, drafts up to 2026)",
-"answers": [
-[
-"Chris Webber",
-"Webber"
-],
-[
-"Glen Rice",
-"Rice"
-],
-"Juwan Howard",
-[
-"Jalen Rose",
-"Rose"
-],
-[
-"Jordan Poole",
-"Poole"
-],
-"Franz Wagner",
-[
-"Trey Burke",
-"Burke"
-],
-[
-"Tim Hardaway Jr.",
-"Hardaway"
-],
-[
-"Jamal Crawford",
-"Crawford"
-],
-[
-"Rudy Tomjanovich",
-"Tomjanovich"
-],
-"Cazzie Russell",
-[
-"Caris LeVert",
-"LeVert"
-],
-[
-"Nik Stauskas",
-"Stauskas"
-],
-"Glenn Robinson III",
-[
-"Roy Tarpley",
-"Tarpley"
-],
-"Rumeal Robinson",
-[
-"Loy Vaught",
-"Vaught"
-],
-[
-"Robert Traylor",
-"Traylor"
-],
-[
-"Phil Hubbard",
-"Hubbard"
-],
-"Campy Russell",
-[
-"Mitch McGary",
-"McGary"
-],
-[
-"Moritz Wagner",
-"Moe Wagner"
-],
-[
-"Morez Johnson Jr.",
-"Morez Johnson",
-"Morez"
-],
-[
-"Yaxel Lendeborg",
-"Lendeborg"
-],
-[
-"Aday Mara",
-"Mara"
-],
-[
-"Danny Wolf",
-"Wolf"
-],
-"Jett Howard",
-[
-"Kobe Bufkin",
-"Bufkin"
-],
-[
-"Caleb Houstan",
-"Houstan"
-],
-[
-"Moussa Diabaté",
-"Diabaté"
-],
-[
-"Isaiah Livers",
-"Livers"
-],
-[
-"Ignas Brazdeikis",
-"Brazdeikis"
-],
-[
-"D. J. Wilson",
-"Wilson"
-],
-[
-"Darius Morris",
-"Morris"
-],
-"Bernard Robinson",
-[
-"Louis Bullock",
-"Bullock"
-],
-[
-"Maceo Baston",
-"Baston"
-],
-[
-"Maurice Taylor",
-"Taylor"
-],
-[
-"Jimmy King",
-"King"
-],
-[
-"Eric Riley",
-"Riley"
-],
-[
-"Terry Mills",
-"Mills"
-],
-[
-"Sean Higgins",
-"Higgins"
-],
-[
-"Gary Grant",
-"Grant"
-],
-[
-"Antoine Joubert",
-"Joubert"
-],
-[
-"Richard Rellford",
-"Rellford"
-],
-[
-"Butch Wade",
-"Wade"
-],
-[
-"Robert Henderson",
-"Henderson"
-],
-[
-"Tim McCormick",
-"McCormick"
-],
-[
-"Eric Turner",
-"Turner"
-],
-[
-"Dan Pelekoudas",
-"Pelekoudas"
-],
-[
-"Ike Person",
-"Person"
-],
-[
-"Thad Gardner",
-"Gardner"
-],
-[
-"Mike McGee",
-"McGee"
-],
-"John Johnson",
-[
-"Paul Heuerman",
-"Heuerman"
-],
-[
-"Dave Baxter",
-"Baxter"
-],
-[
-"Joel Thompson",
-"Thompson"
-],
-[
-"Rickey Green",
-"Green"
-],
-[
-"Steve Grote",
-"Grote"
-],
-"John Robinson",
-[
-"Wayman Britt",
-"Britt"
-],
-[
-"C. J. Kupec",
-"Kupec"
-],
-[
-"Ken Brady",
-"Brady"
-],
-[
-"Henry Wilmore",
-"Wilmore"
-],
-"Ernie Johnson",
-[
-"Wayne Grabiec",
-"Grabiec"
-],
-[
-"Dan Fife",
-"Fife"
-],
-[
-"Dennis Stewart",
-"Stewart"
-],
-[
-"Craig Dill",
-"Dill"
-],
-[
-"Ollie Darden",
-"Darden"
-],
-[
-"Bill Buntin",
-"Buntin"
-],
-[
-"George Pomey",
-"Pomey"
-],
-[
-"John Tidwell",
-"Tidwell"
-],
-[
-"George Lee",
-"Lee"
-],
-[
-"M. C. Burton Jr.",
-"Burton"
-],
-[
-"Pete Tillotson",
-"Tillotson"
-],
-[
-"Ron Kramer",
-"Kramer"
-],
-[
-"George Ferguson",
-"Ferguson"
-],
-[
-"Leo VanderKuy",
-"VanderKuy"
-],
-[
-"Mack Supronowicz",
-"Supronowicz"
-],
-[
-"Bob Harrison",
-"Harrison"
-]
-],
-"eraText": "Name a player from Michigan who was drafted into the NBA in the {era}",
-"eras": {
-"Chris Webber": [
-"90s"
-],
-"Glen Rice": [
-"80s"
-],
-"Juwan Howard": [
-"90s"
-],
-"Jalen Rose": [
-"90s"
-],
-"Jordan Poole": [
-"10s"
-],
-"Franz Wagner": [
-"20s"
-],
-"Trey Burke": [
-"10s"
-],
-"Tim Hardaway Jr.": [
-"10s"
-],
-"Rudy Tomjanovich": [
-"70s"
-],
-"Caris LeVert": [
-"10s"
-],
-"Nik Stauskas": [
-"10s"
-],
-"Glenn Robinson III": [
-"10s"
-],
-"Roy Tarpley": [
-"80s"
-],
-"Rumeal Robinson": [
-"90s"
-],
-"Loy Vaught": [
-"90s"
-],
-"Robert Traylor": [
-"90s"
-],
-"Phil Hubbard": [
-"70s"
-],
-"Campy Russell": [
-"70s"
-],
-"Mitch McGary": [
-"10s"
-],
-"Moritz Wagner": [
-"10s"
-],
-"Morez Johnson Jr.": [
-"20s"
-],
-"Yaxel Lendeborg": [
-"20s"
-],
-"Aday Mara": [
-"20s"
-],
-"Danny Wolf": [
-"20s"
-],
-"Jett Howard": [
-"20s"
-],
-"Kobe Bufkin": [
-"20s"
-],
-"Caleb Houstan": [
-"20s"
-],
-"Moussa Diabaté": [
-"20s"
-],
-"Isaiah Livers": [
-"20s"
-],
-"Ignas Brazdeikis": [
-"10s"
-],
-"D. J. Wilson": [
-"10s"
-],
-"Darius Morris": [
-"10s"
-],
-"Louis Bullock": [
-"90s"
-],
-"Maceo Baston": [
-"90s"
-],
-"Maurice Taylor": [
-"90s"
-],
-"Jimmy King": [
-"90s"
-],
-"Eric Riley": [
-"90s"
-],
-"Terry Mills": [
-"90s"
-],
-"Sean Higgins": [
-"90s"
-],
-"Gary Grant": [
-"80s"
-],
-"Antoine Joubert": [
-"80s"
-],
-"Richard Rellford": [
-"80s"
-],
-"Butch Wade": [
-"80s"
-],
-"Robert Henderson": [
-"80s"
-],
-"Tim McCormick": [
-"80s"
-],
-"Eric Turner": [
-"80s"
-],
-"Dan Pelekoudas": [
-"80s"
-],
-"Ike Person": [
-"80s"
-],
-"Thad Gardner": [
-"80s"
-],
-"Mike McGee": [
-"80s"
-],
-"John Johnson": [
-"80s"
-],
-"Paul Heuerman": [
-"80s"
-],
-"Dave Baxter": [
-"70s"
-],
-"Joel Thompson": [
-"70s"
-],
-"Rickey Green": [
-"70s"
-],
-"Steve Grote": [
-"70s"
-],
-"John Robinson": [
-"70s"
-],
-"Wayman Britt": [
-"70s"
-],
-"C. J. Kupec": [
-"70s"
-],
-"Ken Brady": [
-"70s"
-],
-"Henry Wilmore": [
-"70s"
-],
-"Ernie Johnson": [
-"70s"
-],
-"Wayne Grabiec": [
-"70s"
-],
-"Dan Fife": [
-"70s"
-]
-},
-"deep": true
-},
-{
-"id": "nba-d-50-greatest",
-"tags": [
-"players"
-],
-"text": "Name a player named one of the 50 Greatest Players in NBA History (the 1996 list)",
-"answers": [
-[
-"Michael Jordan",
-"MJ",
-"Jordan"
-],
-[
-"Magic Johnson",
-"Earvin Johnson",
-"Johnson"
-],
-[
-"Larry Bird",
-"Larry Legend",
-"Bird"
-],
-[
-"Kareem Abdul-Jabbar",
-"Lew Alcindor",
-"Kareem",
-"Abdul-Jabbar"
-],
-[
-"Shaquille O'Neal",
-"Shaq",
-"O'Neal"
-],
-[
-"Charles Barkley",
-"Sir Charles",
-"Barkley"
-],
-[
-"Julius Erving",
-"Dr J",
-"Doctor J",
-"Erving"
-],
-[
-"Wilt Chamberlain",
-"Wilt the Stilt",
-"Chamberlain"
-],
-[
-"Bill Russell",
-"Russell"
-],
-[
-"Hakeem Olajuwon",
-"The Dream",
-"Akeem Olajuwon",
-"Olajuwon"
-],
-[
-"Karl Malone",
-"The Mailman"
-],
-[
-"John Stockton",
-"Stockton"
-],
-[
-"Scottie Pippen",
-"Pippen"
-],
-[
-"Patrick Ewing",
-"Ewing"
-],
-[
-"David Robinson",
-"The Admiral",
-"Robinson"
-],
-[
-"Isiah Thomas",
-"Isaiah Thomas",
-"Zeke",
-"Thomas"
-],
-[
-"Jerry West",
-"The Logo",
-"West"
-],
-[
-"Oscar Robertson",
-"Big O",
-"Robertson"
-],
-[
-"Clyde Drexler",
-"Clyde the Glide",
-"Drexler"
-],
-[
-"Bob Cousy",
-"Cousy"
-],
-"Moses Malone",
-[
-"Kevin McHale",
-"McHale"
-],
-[
-"Robert Parish",
-"Parish"
-],
-[
-"James Worthy",
-"Big Game James",
-"Worthy"
-],
-[
-"George Gervin",
-"The Iceman",
-"Gervin"
-],
-[
-"Walt Frazier",
-"Frazier"
-],
-[
-"Pete Maravich",
-"Pistol Pete",
-"Maravich"
-],
-[
-"Elgin Baylor",
-"Baylor"
-],
-[
-"Bill Walton",
-"Walton"
-],
-[
-"Dave Cowens",
-"Cowens"
-],
-[
-"John Havlicek",
-"Hondo",
-"Havlicek"
-],
-[
-"Rick Barry",
-"Barry"
-],
-[
-"Earl Monroe",
-"Earl the Pearl",
-"Monroe"
-],
-[
-"Nate Archibald",
-"Tiny Archibald",
-"Archibald"
-],
-[
-"Paul Arizin",
-"Arizin"
-],
-[
-"Dave Bing",
-"Bing"
-],
-[
-"Billy Cunningham",
-"Kangaroo Kid",
-"Cunningham"
-],
-[
-"Dave DeBusschere",
-"DeBusschere"
-],
-[
-"Hal Greer",
-"Greer"
-],
-[
-"Elvin Hayes",
-"The Big E",
-"Hayes"
-],
-[
-"Sam Jones",
-"Jones"
-],
-[
-"Jerry Lucas",
-"Lucas"
-],
-[
-"George Mikan",
-"Mikan"
-],
-[
-"Bob Pettit",
-"Pettit"
-],
-[
-"Willis Reed",
-"Reed"
-],
-[
-"Dolph Schayes",
-"Adolph Schayes",
-"Schayes"
-],
-[
-"Bill Sharman",
-"Sharman"
-],
-[
-"Nate Thurmond",
-"Thurmond"
-],
-[
-"Wes Unseld",
-"Unseld"
-],
-[
-"Lenny Wilkens",
-"Wilkens"
-]
-],
-"eraText": "Name one of the NBA's 50 Greatest Players (1996 list) who played an NBA season in the {era}",
-"eras": {
-"Michael Jordan": [
-"80s",
-"90s"
-],
-"Magic Johnson": [
-"70s",
-"80s",
-"90s"
-],
-"Larry Bird": [
-"70s",
-"80s",
-"90s"
-],
-"Kareem Abdul-Jabbar": [
-"60s",
-"70s",
-"80s"
-],
-"Shaquille O'Neal": [
-"90s"
-],
-"Charles Barkley": [
-"80s",
-"90s"
-],
-"Julius Erving": [
-"70s",
-"80s"
-],
-"Wilt Chamberlain": [
-"60s",
-"70s"
-],
-"Bill Russell": [
-"60s"
-],
-"Hakeem Olajuwon": [
-"80s",
-"90s"
-],
-"Karl Malone": [
-"80s",
-"90s"
-],
-"John Stockton": [
-"80s",
-"90s"
-],
-"Scottie Pippen": [
-"80s",
-"90s"
-],
-"Patrick Ewing": [
-"80s",
-"90s"
-],
-"David Robinson": [
-"80s",
-"90s"
-],
-"Isiah Thomas": [
-"80s",
-"90s"
-],
-"Jerry West": [
-"60s",
-"70s"
-],
-"Oscar Robertson": [
-"60s",
-"70s"
-],
-"Clyde Drexler": [
-"80s",
-"90s"
-],
-"Bob Cousy": [
-"60s"
-],
-"Moses Malone": [
-"70s",
-"80s",
-"90s"
-],
-"Kevin McHale": [
-"80s",
-"90s"
-],
-"Robert Parish": [
-"70s",
-"80s",
-"90s"
-],
-"James Worthy": [
-"80s",
-"90s"
-],
-"George Gervin": [
-"70s",
-"80s"
-],
-"Walt Frazier": [
-"60s",
-"70s"
-],
-"Pete Maravich": [
-"70s"
-],
-"Elgin Baylor": [
-"60s",
-"70s"
-],
-"Bill Walton": [
-"70s",
-"80s"
-],
-"Dave Cowens": [
-"70s",
-"80s"
-],
-"John Havlicek": [
-"60s",
-"70s"
-],
-"Rick Barry": [
-"60s",
-"70s"
-],
-"Earl Monroe": [
-"60s",
-"70s"
-],
-"Nate Archibald": [
-"70s",
-"80s"
-],
-"Paul Arizin": [
-"60s"
-],
-"Dave Bing": [
-"60s",
-"70s"
-],
-"Billy Cunningham": [
-"60s",
-"70s"
-],
-"Dave DeBusschere": [
-"60s",
-"70s"
-],
-"Hal Greer": [
-"60s",
-"70s"
-],
-"Elvin Hayes": [
-"60s",
-"70s",
-"80s"
-],
-"Sam Jones": [
-"60s"
-],
-"Jerry Lucas": [
-"60s",
-"70s"
-],
-"Bob Pettit": [
-"60s"
-],
-"Willis Reed": [
-"60s",
-"70s"
-],
-"Dolph Schayes": [
-"60s"
-],
-"Bill Sharman": [
-"60s"
-],
-"Nate Thurmond": [
-"60s",
-"70s"
-],
-"Wes Unseld": [
-"60s",
-"70s",
-"80s"
-],
-"Lenny Wilkens": [
-"60s",
-"70s"
-]
-}
-},
-{
-"id": "nba-d-dream-team-1992",
-"tags": [
-"players"
-],
-"text": "Name a player on the 1992 US Olympic basketball 'Dream Team'",
-"answers": [
-[
-"Michael Jordan",
-"MJ",
-"Jordan"
-],
-[
-"Magic Johnson",
-"Earvin Johnson",
-"Johnson"
-],
-[
-"Larry Bird",
-"Larry Legend",
-"Bird"
-],
-[
-"Charles Barkley",
-"Sir Charles",
-"Barkley"
-],
-[
-"Karl Malone",
-"The Mailman",
-"Malone"
-],
-[
-"John Stockton",
-"Stockton"
-],
-[
-"Scottie Pippen",
-"Pippen"
-],
-[
-"David Robinson",
-"The Admiral",
-"Robinson"
-],
-[
-"Patrick Ewing",
-"Ewing"
-],
-[
-"Chris Mullin",
-"Mullin"
-],
-[
-"Clyde Drexler",
-"Clyde the Glide",
-"Drexler"
-],
-[
-"Christian Laettner",
-"Laettner"
-]
-]
-},
-{
-"id": "nba-d-bulls-1995-96",
-"tags": [
-"teams"
-],
-"text": "Name a player on the Chicago Bulls' 1995-96 roster (the 72-10 season)",
-"answers": [
-[
-"Michael Jordan",
-"MJ",
-"Jordan"
-],
-[
-"Scottie Pippen",
-"Pippen"
-],
-[
-"Dennis Rodman",
-"The Worm",
-"Rodman"
-],
-[
-"Toni Kukoč",
-"Toni Kukoc",
-"Kukoč"
-],
-[
-"Steve Kerr",
-"Kerr"
-],
-[
-"Ron Harper",
-"Harper"
-],
-[
-"Luc Longley",
-"Longley"
-],
-[
-"Bill Wennington",
-"Wennington"
-],
-[
-"Jud Buechler",
-"Judd Buechler",
-"Buechler"
-],
-[
-"Randy Brown",
-"Brown"
-],
-[
-"John Salley",
-"Salley"
-],
-[
-"Jason Caffey",
-"Caffey"
-],
-[
-"Dickey Simpkins",
-"Simpkins"
-],
-[
-"James Edwards",
-"Jimmy Edwards",
-"Edwards"
-],
-[
-"Jack Haley",
-"Haley"
-]
-]
-},
-{
-"id": "nba-d-finals-roster-2026",
-"tags": [
-"finals"
-],
-"text": "Name a player on the roster of a team in the 2026 NBA Finals (Knicks or Spurs)",
-"answers": [
-[
-"Jalen Brunson",
-"Brunson"
-],
-[
-"Victor Wembanyama",
-"Wembanyama"
-],
-[
-"Karl-Anthony Towns",
-"Towns"
-],
-[
-"Mikal Bridges",
-"Bridges"
-],
-[
-"OG Anunoby",
-"Anunoby"
-],
-[
-"Josh Hart",
-"Hart"
-],
-[
-"De'Aaron Fox",
-"Fox"
-],
-[
-"Stephon Castle",
-"Castle"
-],
-[
-"Jordan Clarkson",
-"Clarkson"
-],
-[
-"Mitchell Robinson",
-"Robinson"
-],
-[
-"Devin Vassell",
-"Vassell"
-],
-[
-"Dylan Harper",
-"Harper"
-],
-[
-"Jose Alvarado",
-"Alvarado"
-],
-[
-"Pacôme Dadiet",
-"Dadiet"
-],
-[
-"Mohamed Diawara",
-"Diawara"
-],
-[
-"Ariel Hukporti",
-"Hukporti"
-],
-[
-"Trey Jemison",
-"Jemison"
-],
-[
-"Dillon Jones",
-"Jones"
-],
-[
-"Tyler Kolek",
-"Kolek"
-],
-[
-"Miles McBride",
-"McBride"
-],
-[
-"Kevin McCullar Jr.",
-"McCullar"
-],
-[
-"Landry Shamet",
-"Shamet"
-],
-[
-"Jeremy Sochan",
-"Sochan"
-],
-[
-"Harrison Barnes",
-"Barnes"
-],
-[
-"Bismack Biyombo",
-"Biyombo"
-],
-[
-"Carter Bryant",
-"Bryant"
-],
-[
-"Julian Champagnie",
-"Champagnie"
-],
-[
-"Harrison Ingram",
-"Ingram"
-],
-[
-"Keldon Johnson",
-"Johnson"
-],
-[
-"David Jones García",
-"García"
-],
-[
-"Luke Kornet",
-"Kornet"
-],
-[
-"Jordan McLaughlin",
-"McLaughlin"
-],
-[
-"Emanuel Miller",
-"Miller"
-],
-[
-"Kelly Olynyk",
-"Olynyk"
-],
-[
-"Mason Plumlee",
-"Plumlee"
-],
-[
-"Lindy Waters III",
-"Waters"
-]
-]
-},
-{
-"id": "nba-d-finals-roster-2025",
-"tags": [
-"finals"
-],
-"text": "Name a player on the roster of a team in the 2025 NBA Finals (Pacers or Thunder)",
-"answers": [
-[
-"Shai Gilgeous-Alexander",
-"Gilgeous-Alexander"
-],
-[
-"Tyrese Haliburton",
-"Haliburton"
-],
-"Jalen Williams",
-[
-"Chet Holmgren",
-"Holmgren"
-],
-[
-"Pascal Siakam",
-"Siakam"
-],
-[
-"Myles Turner",
-"Turner"
-],
-[
-"Alex Caruso",
-"Caruso"
-],
-[
-"Isaiah Hartenstein",
-"Hartenstein"
-],
-[
-"Luguentz Dort",
-"Dort"
-],
-[
-"Aaron Nesmith",
-"Nesmith"
-],
-[
-"Andrew Nembhard",
-"Nembhard"
-],
-[
-"Isaiah Joe",
-"Joe"
-],
-[
-"Aaron Wiggins",
-"Wiggins"
-],
-[
-"Obi Toppin",
-"Toppin"
-],
-[
-"Bennedict Mathurin",
-"Mathurin"
-],
-[
-"T. J. McConnell",
-"McConnell"
-],
-[
-"Tony Bradley",
-"Bradley"
-],
-[
-"Thomas Bryant",
-"Bryant"
-],
-[
-"RayJ Dennis",
-"Dennis"
-],
-[
-"Enrique Freeman",
-"Freeman"
-],
-[
-"Johnny Furphy",
-"Furphy"
-],
-"Isaiah Jackson",
-"Quenton Jackson",
-[
-"James Johnson",
-"Johnson"
-],
-[
-"Ben Sheppard",
-"Sheppard"
-],
-[
-"Jarace Walker",
-"Walker"
-],
-[
-"Branden Carlson",
-"Carlson"
-],
-[
-"Ousmane Dieng",
-"Dieng"
-],
-[
-"Alex Ducas",
-"Ducas"
-],
-[
-"Adam Flagler",
-"Flagler"
-],
-[
-"Dillon Jones",
-"Jones"
-],
-[
-"Ajay Mitchell",
-"Mitchell"
-],
-[
-"Nikola Topić",
-"Topić"
-],
-[
-"Cason Wallace",
-"Wallace"
-],
-"Jaylin Williams",
-"Kenrich Williams"
-],
-"deep": true
-},
-{
-"id": "nba-d-four-titles",
-"tags": [
-"finals"
-],
-"text": "Name a player who has won four or more NBA championships (as a player, up to the 2026 Finals)",
-"answers": [
-[
-"LeBron James",
-"King James",
-"James"
-],
-[
-"Michael Jordan",
-"MJ",
-"Jordan"
-],
-[
-"Kobe Bryant",
-"Black Mamba",
-"Bryant"
-],
-[
-"Magic Johnson",
-"Earvin Johnson",
-"Johnson"
-],
-[
-"Stephen Curry",
-"Steph Curry",
-"Steph",
-"Curry"
-],
-[
-"Shaquille O'Neal",
-"Shaq",
-"O'Neal"
-],
-[
-"Tim Duncan",
-"Duncan"
-],
-[
-"Scottie Pippen",
-"Pippen"
-],
-[
-"Kareem Abdul-Jabbar",
-"Lew Alcindor",
-"Abdul-Jabbar"
-],
-[
-"Bill Russell",
-"Russell"
-],
-[
-"Draymond Green",
-"Green"
-],
-[
-"Klay Thompson",
-"Thompson"
-],
-[
-"Dennis Rodman",
-"Rodman"
-],
-[
-"Tony Parker",
-"Parker"
-],
-[
-"Manu Ginóbili",
-"Manu Ginobili",
-"Manu",
-"Ginóbili"
-],
-[
-"Steve Kerr",
-"Kerr"
-],
-[
-"Robert Horry",
-"Big Shot Bob",
-"Horry"
-],
-[
-"Derek Fisher",
-"Fisher"
-],
-[
-"Andre Iguodala",
-"Iguodala"
-],
-[
-"Bob Cousy",
-"Cousy"
-],
-[
-"John Havlicek",
-"Havlicek"
-],
-"Sam Jones",
-[
-"Robert Parish",
-"Parish"
-],
-[
-"Horace Grant",
-"Grant"
-],
-[
-"Ron Harper",
-"Harper"
-],
-[
-"John Salley",
-"Salley"
-],
-[
-"Tom Heinsohn",
-"Tommy Heinsohn",
-"Heinsohn"
-],
-[
-"K. C. Jones",
-"KC Jones"
-],
-[
-"Satch Sanders",
-"Sanders"
-],
-[
-"Jim Loscutoff",
-"Loscutoff"
-],
-[
-"Frank Ramsey",
-"Ramsey"
-],
-[
-"George Mikan",
-"Mikan"
-],
-[
-"Jim Pollard",
-"Pollard"
-],
-[
-"Slater Martin",
-"Martin"
-],
-[
-"Larry Siegfried",
-"Siegfried"
-],
-[
-"Don Nelson",
-"Nelson"
-],
-[
-"Michael Cooper",
-"Cooper"
-],
-[
-"Vern Mikkelsen",
-"Mikkelsen"
-],
-[
-"Frank Saul",
-"Saul",
-"Pep Saul",
-"Frank 'Pep' Saul"
-],
-[
-"Bill Sharman",
-"Sharman"
-],
-[
-"Gene Guarilia",
-"Guarilia"
-],
-[
-"Jamaal Wilkes",
-"Wilkes"
-],
-[
-"Kurt Rambis",
-"Rambis"
-],
-[
-"Will Perdue",
-"Perdue"
-]
-],
-"eraText": "Name a player with four or more NBA titles who won one of them in the {era}",
-"eras": {
-"LeBron James": [
-"10s"
-],
-"Michael Jordan": [
-"90s"
-],
-"Kobe Bryant": [
-"00s",
-"10s"
-],
-"Stephen Curry": [
-"10s"
-],
-"Shaquille O'Neal": [
-"00s"
-],
-"Tim Duncan": [
-"90s",
-"00s",
-"10s"
-],
-"Scottie Pippen": [
-"90s"
-],
-"Bill Russell": [
-"60s"
-],
-"Draymond Green": [
-"10s"
-],
-"Klay Thompson": [
-"10s"
-],
-"Dennis Rodman": [
-"90s"
-],
-"Tony Parker": [
-"00s",
-"10s"
-],
-"Manu Ginóbili": [
-"00s",
-"10s"
-],
-"Steve Kerr": [
-"90s",
-"00s"
-],
-"Robert Horry": [
-"90s",
-"00s"
-],
-"Derek Fisher": [
-"00s",
-"10s"
-],
-"Andre Iguodala": [
-"10s"
-],
-"Bob Cousy": [
-"60s"
-],
-"John Havlicek": [
-"60s"
-],
-"Sam Jones": [
-"60s"
-],
-"Robert Parish": [
-"90s"
-],
-"Horace Grant": [
-"90s",
-"00s"
-],
-"Ron Harper": [
-"90s",
-"00s"
-],
-"John Salley": [
-"90s",
-"00s"
-],
-"Tom Heinsohn": [
-"60s"
-],
-"K. C. Jones": [
-"60s"
-],
-"Satch Sanders": [
-"60s"
-],
-"Jim Loscutoff": [
-"60s"
-],
-"Frank Ramsey": [
-"60s"
-],
-"Larry Siegfried": [
-"60s"
-],
-"Don Nelson": [
-"60s"
-],
-"Bill Sharman": [
-"60s"
-],
-"Gene Guarilia": [
-"60s"
-],
-"Will Perdue": [
-"90s"
-]
-}
-},
-{
-"id": "nba-d-colleges-first-pick",
-"tags": [
-"draft"
-],
-"text": "Name a college that has produced the number one pick in the NBA draft (1947 to 2026, US colleges only)",
-"answers": [
-[
-"Duke",
-"Duke Blue Devils",
-"Duke University"
-],
-[
-"Kentucky",
-"University of Kentucky",
-"Kentucky Wildcats"
-],
-[
-"North Carolina",
-"UNC",
-"Tar Heels",
-"University of North Carolina"
-],
-[
-"Kansas",
-"University of Kansas",
-"KU"
-],
-[
-"UCLA",
-"University of California Los Angeles"
-],
-[
-"Michigan State",
-"MSU",
-"Michigan State University"
-],
-"Syracuse",
-"Georgetown",
-[
-"Indiana",
-"Indiana University",
-"Indiana Hoosiers"
-],
-[
-"Arizona",
-"University of Arizona"
-],
-[
-"Memphis",
-"Memphis State"
-],
-[
-"Ohio State",
-"Ohio State University"
-],
-[
-"LSU",
-"Louisiana State",
-"Louisiana State University"
-],
-[
-"Michigan",
-"University of Michigan"
-],
-"Louisville",
-[
-"Houston",
-"University of Houston"
-],
-[
-"Virginia",
-"University of Virginia"
-],
-"Notre Dame",
-"Oklahoma",
-[
-"Georgia",
-"University of Georgia"
-],
-[
-"Washington",
-"University of Washington"
-],
-[
-"BYU",
-"Brigham Young"
-],
-[
-"Maryland",
-"University of Maryland"
-],
-"Purdue",
-[
-"UNLV",
-"Nevada Las Vegas",
-"UN Las Vegas"
-],
-"Wake Forest",
-[
-"Cincinnati",
-"University of Cincinnati"
-],
-[
-"Utah",
-"University of Utah"
-],
-"Davidson",
-"Providence",
-[
-"NC State",
-"North Carolina State",
-"NC State Wolfpack"
-],
-"Minnesota",
-"DePaul",
-"Oklahoma State",
-[
-"Texas Western (UTEP)",
-"UTEP",
-"University of Texas at El Paso",
-"Texas Western"
-],
-"Texas Wesleyan",
-"Marshall",
-[
-"Kansas State",
-"K-State",
-"Kansas State University"
-],
-[
-"Bowling Green",
-"Bowling Green State"
-],
-"Bradley",
-[
-"West Virginia",
-"WVU",
-"West Virginia University"
-],
-"Furman",
-"Duquesne",
-[
-"Seattle",
-"Seattle University"
-],
-[
-"St. Bonaventure",
-"St Bonaventure",
-"Saint Bonaventure"
-],
-[
-"Loyola Chicago",
-"Loyola Chicago",
-"Loyola",
-"Loyola (Illinois)"
-],
-"Illinois State",
-[
-"Navy",
-"US Naval Academy",
-"Naval Academy"
-],
-[
-"Pacific",
-"University of the Pacific"
-],
-[
-"LIU Brooklyn",
-"LIU",
-"Long Island University",
-"Long Island",
-"LIU Brooklyn Blackbirds"
-]
-],
-"eraText": "Name a US college whose player went first overall in the NBA draft in the {era}",
-"eras": {
-"Duke": [
-"60s",
-"90s"
-],
-"UCLA": [
-"60s",
-"70s"
-],
-"Michigan State": [
-"70s"
-],
-"Syracuse": [
-"90s"
-],
-"Georgetown": [
-"90s"
-],
-"Indiana": [
-"60s",
-"70s"
-],
-"LSU": [
-"90s"
-],
-"Michigan": [
-"60s",
-"90s"
-],
-"Houston": [
-"60s"
-],
-"Notre Dame": [
-"70s"
-],
-"Maryland": [
-"70s",
-"90s"
-],
-"Purdue": [
-"90s"
-],
-"UNLV": [
-"90s"
-],
-"Wake Forest": [
-"90s"
-],
-"Cincinnati": [
-"60s"
-],
-"Utah": [
-"60s"
-],
-"Davidson": [
-"60s"
-],
-"Providence": [
-"60s"
-],
-"NC State": [
-"70s"
-],
-"Minnesota": [
-"70s"
-],
-"Texas Western (UTEP)": [
-"60s"
-],
-"St. Bonaventure": [
-"70s"
-],
-"Loyola Chicago": [
-"70s"
-],
-"Illinois State": [
-"70s"
-],
-"Pacific": [
-"90s"
-]
-}
-},
-{
-"id": "nba-d-olympic-medal-countries",
-"tags": [
-"global"
-],
-"text": "Name a country (or former country) that has won a medal in men's Olympic basketball (1936 to 2024, not 3x3)",
-"answers": [
-[
-"United States",
-"USA",
-"US",
-"America",
-"United States of America"
-],
-[
-"Soviet Union",
-"USSR",
-"CCCP",
-"Soviet"
-],
-"Yugoslavia",
-"Spain",
-"France",
-"Argentina",
-"Lithuania",
-"Italy",
-"Serbia",
-"Brazil",
-"Australia",
-"Canada",
-[
-"Russia",
-"Russian Federation",
-"ROC"
-],
-"Croatia",
-"Cuba",
-"Uruguay",
-"Mexico",
-[
-"Serbia and Montenegro",
-"FR Yugoslavia",
-"Federal Republic of Yugoslavia"
-]
-]
-},
-{
-"id": "nba-d-nicknames",
-"tags": [
-"players"
-],
-"text": "Name an NBA player by their famous nickname (the player's real name also counts)",
-"answers": [
-[
-"King James",
-"LeBron James",
-"LeBron",
-"James",
-"The King"
-],
-[
-"Black Mamba",
-"Kobe Bryant",
-"Kobe",
-"Bryant",
-"The Black Mamba",
-"Mamba"
-],
-[
-"Air Jordan",
-"Michael Jordan",
-"Jordan",
-"MJ",
-"His Airness",
-"Air"
-],
-[
-"Magic",
-"Magic Johnson",
-"Earvin Johnson"
-],
-[
-"Shaq",
-"Shaquille O'Neal",
-"Shaquille Oneal",
-"Diesel",
-"Shaq Diesel"
-],
-[
-"The Big Fundamental",
-"Tim Duncan",
-"Duncan",
-"Big Fundamental"
-],
-[
-"The Greek Freak",
-"Giannis Antetokounmpo",
-"Giannis",
-"Greek Freak",
-"Antetokounmpo"
-],
-[
-"The Beard",
-"James Harden",
-"Harden",
-"Beard"
-],
-[
-"The Mailman",
-"Karl Malone",
-"Malone",
-"Mailman"
-],
-[
-"The Dream",
-"Hakeem Olajuwon",
-"Olajuwon",
-"Hakeem",
-"Dream"
-],
-[
-"The Answer",
-"Allen Iverson",
-"Iverson",
-"Answer"
-],
-[
-"Dr J",
-"Julius Erving",
-"Erving",
-"Doctor J"
-],
-[
-"Sir Charles",
-"Charles Barkley",
-"Barkley",
-"Round Mound of Rebound"
-],
-[
-"The Admiral",
-"David Robinson",
-"Admiral"
-],
-[
-"Vinsanity",
-"Vince Carter",
-"Half Man Half Amazing"
-],
-[
-"The Joker",
-"Nikola Jokic",
-"Jokic",
-"Joker"
-],
-[
-"Larry Legend",
-"Larry Bird",
-"Bird",
-"Legend"
-],
-[
-"The Worm",
-"Dennis Rodman",
-"Rodman",
-"Worm"
-],
-[
-"Pistol Pete",
-"Pete Maravich",
-"Maravich",
-"Pistol"
-],
-[
-"Wilt the Stilt",
-"Wilt Chamberlain",
-"Chamberlain",
-"Wilt",
-"The Big Dipper",
-"Big Dipper"
-],
-[
-"The Truth",
-"Paul Pierce",
-"Pierce",
-"Truth"
-],
-[
-"The Big Ticket",
-"Kevin Garnett",
-"Garnett",
-"Big Ticket",
-"KG"
-],
-[
-"Dame Time",
-"Damian Lillard",
-"Lillard",
-"Dame",
-"Dame Dolla"
-],
-[
-"The Brow",
-"Anthony Davis",
-"Brow",
-"The Unibrow",
-"Unibrow"
-],
-[
-"Slim Reaper",
-"Kevin Durant",
-"Durant",
-"KD",
-"Easy Money Sniper"
-],
-[
-"The Claw",
-"Kawhi Leonard",
-"Kawhi",
-"Leonard",
-"The Klaw",
-"Klaw"
-],
-[
-"Uncle Drew",
-"Kyrie Irving",
-"Kyrie",
-"Irving"
-],
-[
-"Clyde the Glide",
-"Clyde Drexler",
-"Drexler",
-"Clyde"
-],
-[
-"The Iceman",
-"George Gervin",
-"Gervin",
-"Iceman"
-],
-[
-"Big O",
-"Oscar Robertson",
-"Robertson",
-"The Big O"
-],
-[
-"The Logo",
-"Jerry West",
-"West",
-"Logo",
-"Mr Clutch"
-],
-[
-"Skywalker",
-"David Thompson",
-"Thompson"
-],
-[
-"The Pearl",
-"Earl Monroe",
-"Monroe",
-"Earl the Pearl",
-"Pearl"
-],
-[
-"Penny",
-"Penny Hardaway",
-"Anfernee Hardaway",
-"Hardaway"
-],
-[
-"The Human Highlight Film",
-"Dominique Wilkins",
-"Wilkins",
-"Human Highlight Reel"
-],
-[
-"Chocolate Thunder",
-"Darryl Dawkins",
-"Dawkins"
-],
-[
-"The Matrix",
-"Shawn Marion",
-"Marion",
-"Matrix"
-],
-[
-"Baby-Faced Assassin",
-"Stephen Curry",
-"Steph Curry",
-"Curry",
-"Steph",
-"The Baby Faced Assassin",
-"Chef Curry"
-],
-[
-"The Process",
-"Joel Embiid",
-"Embiid",
-"Process"
-],
-[
-"Zeke",
-"Isiah Thomas",
-"Isaiah Thomas"
-],
-[
-"Ant-Man",
-"Anthony Edwards",
-"Ant Man",
-"Ant",
-"Edwards"
-],
-[
-"Wemby",
-"Victor Wembanyama",
-"Wembanyama",
-"Wembenyama"
-],
-[
-"The Stifle Tower",
-"Rudy Gobert",
-"Gobert",
-"Stifle Tower"
-],
-[
-"Playoff P",
-"Paul George",
-"George",
-"PG13",
-"PG"
-],
-[
-"Hondo",
-"John Havlicek",
-"Havlicek"
-],
-[
-"Mr Big Shot",
-"Chauncey Billups",
-"Billups",
-"Big Shot",
-"Mr Big Shot"
-],
-[
-"Big Shot Bob",
-"Robert Horry",
-"Horry",
-"Bob Horry"
-]
-]
-}
-]
+ "cat": "nba",
+ "prompts": [
+  {
+   "id": "nba-d-college-kentucky",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted into the NBA or BAA from the University of Kentucky (drafts up to 2026)",
+   "answers": [
+    [
+     "Anthony Davis",
+     "Davis"
+    ],
+    [
+     "John Wall",
+     "Wall"
+    ],
+    [
+     "DeMarcus Cousins",
+     "Cousins"
+    ],
+    [
+     "Karl-Anthony Towns",
+     "Towns"
+    ],
+    [
+     "Devin Booker",
+     "Booker"
+    ],
+    [
+     "De'Aaron Fox",
+     "Fox"
+    ],
+    [
+     "Shai Gilgeous-Alexander",
+     "Gilgeous-Alexander"
+    ],
+    [
+     "Tyrese Maxey",
+     "Maxey"
+    ],
+    [
+     "Rajon Rondo",
+     "Rondo"
+    ],
+    [
+     "Bam Adebayo",
+     "Adebayo"
+    ],
+    [
+     "Tyler Herro",
+     "Herro"
+    ],
+    [
+     "Jamal Murray",
+     "Murray"
+    ],
+    [
+     "Julius Randle",
+     "Randle"
+    ],
+    [
+     "Pat Riley",
+     "Riley"
+    ],
+    [
+     "Eric Bledsoe",
+     "Bledsoe"
+    ],
+    "Antoine Walker",
+    [
+     "Jamal Mashburn",
+     "Mashburn"
+    ],
+    [
+     "Tayshaun Prince",
+     "Prince"
+    ],
+    [
+     "Cason Wallace",
+     "Wallace"
+    ],
+    [
+     "Dan Issel",
+     "Issel"
+    ],
+    [
+     "Chris Livingston",
+     "Livingston"
+    ],
+    [
+     "Shaedon Sharpe",
+     "Sharpe"
+    ],
+    [
+     "TyTy Washington Jr.",
+     "TyTy Washington",
+     "Washington"
+    ],
+    [
+     "Isaiah Jackson",
+     "Jackson"
+    ],
+    [
+     "Brandon Boston Jr.",
+     "Boston",
+     "B.J. Boston, Jr."
+    ],
+    [
+     "Terrence Clarke",
+     "Clarke"
+    ],
+    [
+     "Immanuel Quickley",
+     "Quickley"
+    ],
+    [
+     "Nick Richards",
+     "Richards"
+    ],
+    "P. J. Washington",
+    "Keldon Johnson",
+    [
+     "Kevin Knox II",
+     "Knox"
+    ],
+    [
+     "Jarred Vanderbilt",
+     "Vanderbilt"
+    ],
+    [
+     "Hamidou Diallo",
+     "Diallo"
+    ],
+    [
+     "Malik Monk",
+     "Monk"
+    ],
+    [
+     "Skal Labissière",
+     "Labissière"
+    ],
+    [
+     "Tyler Ulis",
+     "Ulis"
+    ],
+    [
+     "Willie Cauley-Stein",
+     "Cauley-Stein"
+    ],
+    [
+     "Trey Lyles",
+     "Lyles"
+    ],
+    [
+     "Andrew Harrison",
+     "Harrison"
+    ],
+    "Dakari Johnson",
+    [
+     "James Young",
+     "Young"
+    ],
+    [
+     "Nerlens Noel",
+     "Noel"
+    ],
+    [
+     "Archie Goodwin",
+     "Goodwin"
+    ],
+    [
+     "Michael Kidd-Gilchrist",
+     "Kidd-Gilchrist"
+    ],
+    "Terrence Jones",
+    [
+     "Marquis Teague",
+     "Teague"
+    ],
+    [
+     "Doron Lamb",
+     "Lamb"
+    ],
+    [
+     "Darius Miller",
+     "Miller"
+    ],
+    [
+     "Enes Kanter",
+     "Kanter"
+    ],
+    [
+     "Brandon Knight",
+     "Knight"
+    ],
+    [
+     "Josh Harrellson",
+     "Harrellson"
+    ],
+    [
+     "DeAndre Liggins",
+     "Liggins"
+    ],
+    [
+     "Patrick Patterson",
+     "Patterson"
+    ],
+    [
+     "Daniel Orton",
+     "Orton"
+    ],
+    [
+     "Jodie Meeks",
+     "Meeks"
+    ],
+    [
+     "Joe Crawford",
+     "Crawford"
+    ],
+    [
+     "Keith Bogans",
+     "Bogans"
+    ],
+    [
+     "Jamaal Magloire",
+     "Magloire"
+    ],
+    [
+     "Scott Padgett",
+     "Padgett"
+    ],
+    [
+     "Nazr Mohammed",
+     "Mohammed"
+    ],
+    [
+     "Ron Mercer",
+     "Mercer"
+    ],
+    [
+     "Derek Anderson",
+     "Anderson"
+    ],
+    [
+     "Tony Delk",
+     "Delk"
+    ],
+    [
+     "Walter McCarty",
+     "McCarty"
+    ],
+    [
+     "Mark Pope",
+     "Pope"
+    ],
+    [
+     "Rodney Dent",
+     "Dent"
+    ],
+    [
+     "Rex Chapman",
+     "Chapman"
+    ],
+    [
+     "Rob Lock",
+     "Lock"
+    ],
+    [
+     "Ed Davender",
+     "Davender"
+    ],
+    [
+     "Winston Bennett",
+     "Bennett"
+    ],
+    [
+     "James Blackmon Sr.",
+     "Blackmon"
+    ],
+    "Kenny Walker",
+    [
+     "Roger Harden",
+     "Harden"
+    ],
+    [
+     "Sam Bowie",
+     "Bowie"
+    ],
+    [
+     "Melvin Turpin",
+     "Turpin"
+    ],
+    [
+     "Dickie Beal",
+     "Beal"
+    ],
+    [
+     "Jim Master",
+     "Master"
+    ],
+    [
+     "Tom Heitz",
+     "Heitz"
+    ],
+    [
+     "Dirk Minniefield",
+     "Minniefield"
+    ],
+    [
+     "Derrick Hord",
+     "Hord"
+    ],
+    [
+     "Charles Hurt",
+     "Hurt"
+    ],
+    [
+     "Chuck Verderber",
+     "Verderber"
+    ],
+    [
+     "Fred Cowan",
+     "Cowan"
+    ],
+    [
+     "LaVon Williams",
+     "Williams"
+    ],
+    [
+     "Jay Shidler",
+     "Shidler"
+    ],
+    [
+     "Kyle Macy",
+     "Macy"
+    ],
+    [
+     "Truman Claytor",
+     "Claytor"
+    ],
+    [
+     "Rick Robey",
+     "Robey"
+    ],
+    [
+     "Jack Givens",
+     "Givens"
+    ],
+    [
+     "James Lee",
+     "Lee"
+    ],
+    [
+     "Mike Phillips",
+     "Phillips"
+    ],
+    "Larry Johnson",
+    [
+     "Kevin Grevey",
+     "Grevey"
+    ],
+    [
+     "Jimmy Dan Conner",
+     "Conner"
+    ],
+    [
+     "Bob Guyette",
+     "Guyette"
+    ],
+    [
+     "Mike Flynn",
+     "Flynn"
+    ],
+    [
+     "Larry Steele",
+     "Steele"
+    ],
+    [
+     "Mike Casey",
+     "Casey"
+    ],
+    [
+     "Phil Argento",
+     "Argento"
+    ],
+    [
+     "Thad Jaracz",
+     "Jaracz"
+    ],
+    [
+     "Cliff Berger",
+     "Berger"
+    ],
+    [
+     "Louie Dampier",
+     "Dampier"
+    ],
+    [
+     "Tommy Kron",
+     "Kron"
+    ],
+    [
+     "Cotton Nash",
+     "Nash"
+    ],
+    [
+     "Larry Pursiful",
+     "Pursiful"
+    ],
+    [
+     "Bill Lickert",
+     "Lickert"
+    ],
+    [
+     "Roger Newman",
+     "Newman"
+    ],
+    [
+     "Ned Jennings",
+     "Jennings"
+    ],
+    [
+     "Sid Cohen",
+     "Cohen"
+    ],
+    [
+     "Bennie Kauffman",
+     "Kauffman"
+    ],
+    [
+     "Don Mills",
+     "Mills"
+    ],
+    [
+     "Johnny Cox",
+     "Cox"
+    ],
+    [
+     "Vernon Hatton",
+     "Hatton"
+    ],
+    [
+     "Gerry Calvert",
+     "Calvert"
+    ],
+    [
+     "Jerry Bird",
+     "Bird"
+    ],
+    [
+     "Bob Burrow",
+     "Burrow"
+    ],
+    [
+     "Phil Grawemeyer",
+     "Grawemeyer"
+    ],
+    [
+     "William Evans",
+     "Evans"
+    ],
+    [
+     "Frank Ramsey",
+     "Ramsey"
+    ],
+    [
+     "Cliff Hagan",
+     "Hagan"
+    ],
+    [
+     "Lou Tsioropoulos",
+     "Tsioropoulos"
+    ],
+    [
+     "Richard Prater",
+     "Prater"
+    ],
+    [
+     "Bobby Watson",
+     "Watson"
+    ],
+    [
+     "Skippy Whitaker",
+     "Whitaker"
+    ],
+    [
+     "Dale Barnstable",
+     "Barnstable"
+    ],
+    [
+     "Jim Line",
+     "Line"
+    ],
+    [
+     "Alex Groza",
+     "Groza"
+    ],
+    "Wallace Jones",
+    [
+     "Ralph Beard",
+     "Beard"
+    ],
+    [
+     "Cliff Barker",
+     "Barker"
+    ],
+    [
+     "Joe Holland",
+     "Holland"
+    ],
+    [
+     "Jack Parkinson",
+     "Parkinson"
+    ],
+    [
+     "Ken Rollins",
+     "Rollins"
+    ],
+    [
+     "Jack Tingle",
+     "Tingle"
+    ],
+    [
+     "Reed Sheppard",
+     "Sheppard"
+    ],
+    [
+     "Rob Dillingham",
+     "Dillingham"
+    ],
+    [
+     "Antonio Reeves",
+     "Reeves"
+    ],
+    [
+     "Koby Brea",
+     "Brea"
+    ],
+    "Amari Williams",
+    [
+     "Jayden Quaintance",
+     "Quaintance"
+    ],
+    [
+     "Otega Oweh",
+     "Oweh"
+    ]
+   ],
+   "eraText": "Name a player from Kentucky who was drafted into the NBA in the {era}",
+   "eras": {
+    "Anthony Davis": [
+     "10s"
+    ],
+    "John Wall": [
+     "10s"
+    ],
+    "DeMarcus Cousins": [
+     "10s"
+    ],
+    "Karl-Anthony Towns": [
+     "10s"
+    ],
+    "Devin Booker": [
+     "10s"
+    ],
+    "De'Aaron Fox": [
+     "10s"
+    ],
+    "Shai Gilgeous-Alexander": [
+     "10s"
+    ],
+    "Tyrese Maxey": [
+     "20s"
+    ],
+    "Bam Adebayo": [
+     "10s"
+    ],
+    "Tyler Herro": [
+     "10s"
+    ],
+    "Jamal Murray": [
+     "10s"
+    ],
+    "Julius Randle": [
+     "10s"
+    ],
+    "Pat Riley": [
+     "60s"
+    ],
+    "Eric Bledsoe": [
+     "10s"
+    ],
+    "Antoine Walker": [
+     "90s"
+    ],
+    "Jamal Mashburn": [
+     "90s"
+    ],
+    "Cason Wallace": [
+     "20s"
+    ],
+    "Dan Issel": [
+     "70s"
+    ],
+    "Chris Livingston": [
+     "20s"
+    ],
+    "Shaedon Sharpe": [
+     "20s"
+    ],
+    "TyTy Washington Jr.": [
+     "20s"
+    ],
+    "Isaiah Jackson": [
+     "20s"
+    ],
+    "Brandon Boston Jr.": [
+     "20s"
+    ],
+    "Terrence Clarke": [
+     "20s"
+    ],
+    "Immanuel Quickley": [
+     "20s"
+    ],
+    "Nick Richards": [
+     "20s"
+    ],
+    "P. J. Washington": [
+     "10s"
+    ],
+    "Keldon Johnson": [
+     "10s"
+    ],
+    "Kevin Knox II": [
+     "10s"
+    ],
+    "Jarred Vanderbilt": [
+     "10s"
+    ],
+    "Hamidou Diallo": [
+     "10s"
+    ],
+    "Malik Monk": [
+     "10s"
+    ],
+    "Skal Labissière": [
+     "10s"
+    ],
+    "Tyler Ulis": [
+     "10s"
+    ],
+    "Willie Cauley-Stein": [
+     "10s"
+    ],
+    "Trey Lyles": [
+     "10s"
+    ],
+    "Andrew Harrison": [
+     "10s"
+    ],
+    "Dakari Johnson": [
+     "10s"
+    ],
+    "James Young": [
+     "10s"
+    ],
+    "Nerlens Noel": [
+     "10s"
+    ],
+    "Archie Goodwin": [
+     "10s"
+    ],
+    "Michael Kidd-Gilchrist": [
+     "10s"
+    ],
+    "Terrence Jones": [
+     "10s"
+    ],
+    "Marquis Teague": [
+     "10s"
+    ],
+    "Doron Lamb": [
+     "10s"
+    ],
+    "Darius Miller": [
+     "10s"
+    ],
+    "Enes Kanter": [
+     "10s"
+    ],
+    "Brandon Knight": [
+     "10s"
+    ],
+    "Josh Harrellson": [
+     "10s"
+    ],
+    "DeAndre Liggins": [
+     "10s"
+    ],
+    "Patrick Patterson": [
+     "10s"
+    ],
+    "Daniel Orton": [
+     "10s"
+    ],
+    "Scott Padgett": [
+     "90s"
+    ],
+    "Nazr Mohammed": [
+     "90s"
+    ],
+    "Ron Mercer": [
+     "90s"
+    ],
+    "Derek Anderson": [
+     "90s"
+    ],
+    "Tony Delk": [
+     "90s"
+    ],
+    "Walter McCarty": [
+     "90s"
+    ],
+    "Mark Pope": [
+     "90s"
+    ],
+    "Rodney Dent": [
+     "90s"
+    ],
+    "Rex Chapman": [
+     "80s"
+    ],
+    "Rob Lock": [
+     "80s"
+    ],
+    "Ed Davender": [
+     "80s"
+    ],
+    "Winston Bennett": [
+     "80s"
+    ],
+    "James Blackmon Sr.": [
+     "80s"
+    ],
+    "Kenny Walker": [
+     "80s"
+    ],
+    "Roger Harden": [
+     "80s"
+    ],
+    "Sam Bowie": [
+     "80s"
+    ],
+    "Melvin Turpin": [
+     "80s"
+    ],
+    "Dickie Beal": [
+     "80s"
+    ],
+    "Jim Master": [
+     "80s"
+    ],
+    "Tom Heitz": [
+     "80s"
+    ],
+    "Dirk Minniefield": [
+     "80s"
+    ],
+    "Derrick Hord": [
+     "80s"
+    ],
+    "Charles Hurt": [
+     "80s"
+    ],
+    "Chuck Verderber": [
+     "80s"
+    ],
+    "Fred Cowan": [
+     "80s"
+    ],
+    "LaVon Williams": [
+     "80s"
+    ],
+    "Jay Shidler": [
+     "80s"
+    ],
+    "Kyle Macy": [
+     "70s"
+    ],
+    "Truman Claytor": [
+     "70s"
+    ],
+    "Rick Robey": [
+     "70s"
+    ],
+    "Jack Givens": [
+     "70s"
+    ],
+    "James Lee": [
+     "70s"
+    ],
+    "Mike Phillips": [
+     "70s"
+    ],
+    "Larry Johnson": [
+     "70s"
+    ],
+    "Kevin Grevey": [
+     "70s"
+    ],
+    "Jimmy Dan Conner": [
+     "70s"
+    ],
+    "Bob Guyette": [
+     "70s"
+    ],
+    "Mike Flynn": [
+     "70s"
+    ],
+    "Larry Steele": [
+     "70s"
+    ],
+    "Mike Casey": [
+     "70s"
+    ],
+    "Phil Argento": [
+     "60s"
+    ],
+    "Thad Jaracz": [
+     "60s"
+    ],
+    "Cliff Berger": [
+     "60s"
+    ],
+    "Louie Dampier": [
+     "60s"
+    ],
+    "Tommy Kron": [
+     "60s"
+    ],
+    "Cotton Nash": [
+     "60s"
+    ],
+    "Larry Pursiful": [
+     "60s"
+    ],
+    "Bill Lickert": [
+     "60s"
+    ],
+    "Roger Newman": [
+     "60s"
+    ],
+    "Ned Jennings": [
+     "60s"
+    ],
+    "Sid Cohen": [
+     "60s"
+    ],
+    "Bennie Kauffman": [
+     "60s"
+    ],
+    "Don Mills": [
+     "60s"
+    ],
+    "Reed Sheppard": [
+     "20s"
+    ],
+    "Rob Dillingham": [
+     "20s"
+    ],
+    "Antonio Reeves": [
+     "20s"
+    ],
+    "Koby Brea": [
+     "20s"
+    ],
+    "Amari Williams": [
+     "20s"
+    ],
+    "Jayden Quaintance": [
+     "20s"
+    ],
+    "Otega Oweh": [
+     "20s"
+    ]
+   }
+  },
+  {
+   "id": "nba-d-college-unc",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted into the NBA or BAA from the University of North Carolina (UNC) (as listed on Wikipedia, drafts up to 2026)",
+   "answers": [
+    [
+     "Michael Jordan",
+     "Jordan"
+    ],
+    [
+     "Vince Carter",
+     "Carter"
+    ],
+    [
+     "James Worthy",
+     "Worthy"
+    ],
+    [
+     "Rasheed Wallace",
+     "Wallace"
+    ],
+    [
+     "Antawn Jamison",
+     "Jamison"
+    ],
+    [
+     "Jerry Stackhouse",
+     "Stackhouse"
+    ],
+    [
+     "Harrison Barnes",
+     "Barnes"
+    ],
+    [
+     "Ty Lawson",
+     "Lawson"
+    ],
+    [
+     "Danny Green",
+     "Green"
+    ],
+    "Marvin Williams",
+    [
+     "Bob McAdoo",
+     "McAdoo"
+    ],
+    [
+     "Billy Cunningham",
+     "Cunningham"
+    ],
+    [
+     "Brad Daugherty",
+     "Daugherty"
+    ],
+    [
+     "Sam Perkins",
+     "Perkins"
+    ],
+    [
+     "Tyler Hansbrough",
+     "Hansbrough"
+    ],
+    [
+     "Raymond Felton",
+     "Felton"
+    ],
+    [
+     "Brandan Wright",
+     "Wright"
+    ],
+    [
+     "Kenny Smith",
+     "Smith"
+    ],
+    "Walter Davis",
+    [
+     "Phil Ford",
+     "Ford"
+    ],
+    [
+     "Doug Moe",
+     "Moe"
+    ],
+    [
+     "Larry Brown",
+     "Brown"
+    ],
+    [
+     "Cole Anthony",
+     "Anthony"
+    ],
+    [
+     "Coby White",
+     "White"
+    ],
+    "Brice Johnson",
+    [
+     "Caleb Wilson",
+     "Wilson"
+    ],
+    [
+     "Drake Powell",
+     "Powell"
+    ],
+    [
+     "Harrison Ingram",
+     "Ingram"
+    ],
+    [
+     "Day'Ron Sharpe",
+     "Sharpe"
+    ],
+    "Cameron Johnson",
+    [
+     "Nassir Little",
+     "Little"
+    ],
+    [
+     "Justin Jackson",
+     "Jackson"
+    ],
+    "Tony Bradley",
+    [
+     "Marcus Paige",
+     "Paige"
+    ],
+    [
+     "J. P. Tokoto",
+     "Tokoto"
+    ],
+    [
+     "P. J. Hairston",
+     "Hairston"
+    ],
+    [
+     "Reggie Bullock",
+     "Bullock"
+    ],
+    [
+     "Kendall Marshall",
+     "Marshall"
+    ],
+    [
+     "John Henson",
+     "Henson"
+    ],
+    [
+     "Tyler Zeller",
+     "Zeller"
+    ],
+    "Ed Davis",
+    [
+     "Wayne Ellington",
+     "Ellington"
+    ],
+    [
+     "Reyshawn Terry",
+     "Terry"
+    ],
+    [
+     "David Noel",
+     "Noel"
+    ],
+    [
+     "Sean May",
+     "May"
+    ],
+    [
+     "Rashad McCants",
+     "McCants"
+    ],
+    [
+     "Brendan Haywood",
+     "Haywood"
+    ],
+    [
+     "Joseph Forte",
+     "Forte"
+    ],
+    "Shammond Williams",
+    [
+     "Serge Zwikker",
+     "Zwikker"
+    ],
+    [
+     "Jeff McInnis",
+     "McInnis"
+    ],
+    [
+     "Eric Montross",
+     "Montross"
+    ],
+    [
+     "George Lynch",
+     "Lynch"
+    ],
+    "Hubert Davis",
+    [
+     "Rick Fox",
+     "Fox"
+    ],
+    [
+     "Pete Chilcutt",
+     "Chilcutt"
+    ],
+    "J.R. Reid",
+    "Joe Wolf",
+    [
+     "Dave Popson",
+     "Popson"
+    ],
+    [
+     "Curtis Hunter",
+     "Hunter"
+    ],
+    [
+     "Warren Martin",
+     "Martin"
+    ],
+    [
+     "Steve Hale",
+     "Hale"
+    ],
+    [
+     "Buzz Peterson",
+     "Peterson"
+    ],
+    [
+     "Matt Doherty",
+     "Doherty"
+    ],
+    [
+     "Cecil Exum",
+     "Exum"
+    ],
+    [
+     "Jimmy Braddock",
+     "Braddock"
+    ],
+    [
+     "Jimmy Black",
+     "Black"
+    ],
+    [
+     "Chris Brust",
+     "Brust"
+    ],
+    [
+     "Jeb Barlow",
+     "Barlow"
+    ],
+    [
+     "Al Wood",
+     "Wood"
+    ],
+    [
+     "Pete Budko",
+     "Budko"
+    ],
+    [
+     "Mike Pepper",
+     "Pepper"
+    ],
+    [
+     "Mike O'Koren",
+     "O'Koren"
+    ],
+    [
+     "John Virgil",
+     "Virgil"
+    ],
+    [
+     "Rich Yonakor",
+     "Yonakor"
+    ],
+    "Jeff Wolf",
+    [
+     "Dave Colescott",
+     "Colescott"
+    ],
+    "Dudley Bradley",
+    [
+     "Geff Crompton",
+     "Crompton"
+    ],
+    [
+     "Tom Zaliagris",
+     "Zaliagris"
+    ],
+    [
+     "Tommy LaGarde",
+     "LaGarde"
+    ],
+    [
+     "John Kuester",
+     "Kuester"
+    ],
+    [
+     "Bruce Buckley",
+     "Buckley"
+    ],
+    [
+     "Mitch Kupchak",
+     "Kupchak"
+    ],
+    [
+     "Donald Washington",
+     "Washington"
+    ],
+    [
+     "Ed Stahl",
+     "Stahl"
+    ],
+    [
+     "Bobby Jones",
+     "Jones"
+    ],
+    [
+     "Darrell Elston",
+     "Elston"
+    ],
+    [
+     "John O'Donnell",
+     "O'Donnell"
+    ],
+    [
+     "George Karl",
+     "Karl"
+    ],
+    "Donn Johnson",
+    [
+     "Dennis Wuycik",
+     "Wuycik"
+    ],
+    [
+     "Bill Chamberlain",
+     "Chamberlain"
+    ],
+    [
+     "Steve Previs",
+     "Previs"
+    ],
+    [
+     "Lee Dedmon",
+     "Dedmon"
+    ],
+    "Charlie Scott",
+    [
+     "Bill Bunting",
+     "Bunting"
+    ],
+    [
+     "Dick Grubar",
+     "Grubar"
+    ],
+    [
+     "Rusty Clark",
+     "Clark"
+    ],
+    [
+     "Larry Miller",
+     "Miller"
+    ],
+    [
+     "Bob Lewis",
+     "Lewis"
+    ],
+    [
+     "Mark Mirken",
+     "Mirken"
+    ],
+    [
+     "Bob Bennett",
+     "Bennett"
+    ],
+    [
+     "Jim Hudock",
+     "Hudock"
+    ],
+    [
+     "Ken McComb",
+     "McComb"
+    ],
+    [
+     "Donnie Walsh",
+     "Walsh"
+    ],
+    [
+     "York Larese",
+     "Larese"
+    ],
+    [
+     "Dick Kepley",
+     "Kepley"
+    ],
+    [
+     "Lee Shaffer",
+     "Shaffer"
+    ],
+    [
+     "Pete Brennan",
+     "Brennan"
+    ],
+    [
+     "Joe Quigg",
+     "Quigg"
+    ],
+    [
+     "Tommy Kearns",
+     "Kearns"
+    ],
+    [
+     "Lennie Rosenbluth",
+     "Rosenbluth"
+    ],
+    [
+     "Norman Kohler",
+     "Kohler"
+    ],
+    [
+     "Bob Paxton",
+     "Paxton"
+    ],
+    [
+     "Hook Dillon",
+     "Dillon"
+    ],
+    [
+     "Dick Gruber",
+     "Gruber"
+    ],
+    "Charles Scott",
+    [
+     "Henri Veesaar",
+     "Veesaar"
+    ]
+   ],
+   "eraText": "Name a player from North Carolina who was drafted into the NBA in the {era}",
+   "eras": {
+    "Michael Jordan": [
+     "80s"
+    ],
+    "Vince Carter": [
+     "90s"
+    ],
+    "James Worthy": [
+     "80s"
+    ],
+    "Rasheed Wallace": [
+     "90s"
+    ],
+    "Antawn Jamison": [
+     "90s"
+    ],
+    "Jerry Stackhouse": [
+     "90s"
+    ],
+    "Harrison Barnes": [
+     "10s"
+    ],
+    "Ty Lawson": [
+     "00s"
+    ],
+    "Danny Green": [
+     "00s"
+    ],
+    "Marvin Williams": [
+     "00s"
+    ],
+    "Bob McAdoo": [
+     "70s"
+    ],
+    "Billy Cunningham": [
+     "60s"
+    ],
+    "Brad Daugherty": [
+     "80s"
+    ],
+    "Sam Perkins": [
+     "80s"
+    ],
+    "Tyler Hansbrough": [
+     "00s"
+    ],
+    "Raymond Felton": [
+     "00s"
+    ],
+    "Brandan Wright": [
+     "00s"
+    ],
+    "Kenny Smith": [
+     "80s"
+    ],
+    "Walter Davis": [
+     "70s"
+    ],
+    "Phil Ford": [
+     "70s"
+    ],
+    "Doug Moe": [
+     "60s"
+    ],
+    "Larry Brown": [
+     "60s"
+    ],
+    "Coby White": [
+     "10s"
+    ],
+    "Brice Johnson": [
+     "10s"
+    ],
+    "Cameron Johnson": [
+     "10s"
+    ],
+    "Nassir Little": [
+     "10s"
+    ],
+    "Justin Jackson": [
+     "10s"
+    ],
+    "Tony Bradley": [
+     "10s"
+    ],
+    "Marcus Paige": [
+     "10s"
+    ],
+    "J. P. Tokoto": [
+     "10s"
+    ],
+    "P. J. Hairston": [
+     "10s"
+    ],
+    "Reggie Bullock": [
+     "10s"
+    ],
+    "Kendall Marshall": [
+     "10s"
+    ],
+    "John Henson": [
+     "10s"
+    ],
+    "Tyler Zeller": [
+     "10s"
+    ],
+    "Ed Davis": [
+     "10s"
+    ],
+    "Wayne Ellington": [
+     "00s"
+    ],
+    "Reyshawn Terry": [
+     "00s"
+    ],
+    "David Noel": [
+     "00s"
+    ],
+    "Sean May": [
+     "00s"
+    ],
+    "Rashad McCants": [
+     "00s"
+    ],
+    "Brendan Haywood": [
+     "00s"
+    ],
+    "Joseph Forte": [
+     "00s"
+    ],
+    "Shammond Williams": [
+     "90s"
+    ],
+    "Serge Zwikker": [
+     "90s"
+    ],
+    "Jeff McInnis": [
+     "90s"
+    ],
+    "Eric Montross": [
+     "90s"
+    ],
+    "George Lynch": [
+     "90s"
+    ],
+    "Hubert Davis": [
+     "90s"
+    ],
+    "Rick Fox": [
+     "90s"
+    ],
+    "Pete Chilcutt": [
+     "90s"
+    ],
+    "J.R. Reid": [
+     "80s"
+    ],
+    "Joe Wolf": [
+     "80s"
+    ],
+    "Dave Popson": [
+     "80s"
+    ],
+    "Curtis Hunter": [
+     "80s"
+    ],
+    "Warren Martin": [
+     "80s"
+    ],
+    "Steve Hale": [
+     "80s"
+    ],
+    "Buzz Peterson": [
+     "80s"
+    ],
+    "Matt Doherty": [
+     "80s"
+    ],
+    "Cecil Exum": [
+     "80s"
+    ],
+    "Jimmy Braddock": [
+     "80s"
+    ],
+    "Jimmy Black": [
+     "80s"
+    ],
+    "Chris Brust": [
+     "80s"
+    ],
+    "Jeb Barlow": [
+     "80s"
+    ],
+    "Al Wood": [
+     "80s"
+    ],
+    "Pete Budko": [
+     "80s"
+    ],
+    "Mike Pepper": [
+     "80s"
+    ],
+    "Mike O'Koren": [
+     "80s"
+    ],
+    "John Virgil": [
+     "80s"
+    ],
+    "Rich Yonakor": [
+     "80s"
+    ],
+    "Jeff Wolf": [
+     "80s"
+    ],
+    "Dave Colescott": [
+     "80s"
+    ],
+    "Dudley Bradley": [
+     "70s"
+    ],
+    "Geff Crompton": [
+     "70s"
+    ],
+    "Tom Zaliagris": [
+     "70s"
+    ],
+    "Tommy LaGarde": [
+     "70s"
+    ],
+    "John Kuester": [
+     "70s"
+    ],
+    "Bruce Buckley": [
+     "70s"
+    ],
+    "Mitch Kupchak": [
+     "70s"
+    ],
+    "Donald Washington": [
+     "70s"
+    ],
+    "Ed Stahl": [
+     "70s"
+    ],
+    "Bobby Jones": [
+     "70s"
+    ],
+    "Darrell Elston": [
+     "70s"
+    ],
+    "John O'Donnell": [
+     "70s"
+    ],
+    "George Karl": [
+     "70s"
+    ],
+    "Donn Johnson": [
+     "70s"
+    ],
+    "Dennis Wuycik": [
+     "70s"
+    ],
+    "Bill Chamberlain": [
+     "70s"
+    ],
+    "Steve Previs": [
+     "70s"
+    ],
+    "Lee Dedmon": [
+     "70s"
+    ],
+    "Charlie Scott": [
+     "70s"
+    ],
+    "Bill Bunting": [
+     "60s"
+    ],
+    "Dick Grubar": [
+     "60s"
+    ],
+    "Rusty Clark": [
+     "60s"
+    ],
+    "Larry Miller": [
+     "60s"
+    ],
+    "Bob Lewis": [
+     "60s"
+    ],
+    "Mark Mirken": [
+     "60s"
+    ],
+    "Bob Bennett": [
+     "60s"
+    ],
+    "Jim Hudock": [
+     "60s"
+    ],
+    "Ken McComb": [
+     "60s"
+    ],
+    "Donnie Walsh": [
+     "60s"
+    ],
+    "York Larese": [
+     "60s"
+    ],
+    "Dick Kepley": [
+     "60s"
+    ],
+    "Lee Shaffer": [
+     "60s"
+    ],
+    "Henri Veesaar": [
+     "20s"
+    ]
+   }
+  },
+  {
+   "id": "nba-d-college-arizona",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted into the NBA or BAA from the University of Arizona (drafts up to 2026)",
+   "answers": [
+    [
+     "Steve Kerr",
+     "Kerr"
+    ],
+    [
+     "Andre Iguodala",
+     "Iguodala"
+    ],
+    [
+     "Gilbert Arenas",
+     "Arenas"
+    ],
+    [
+     "Mike Bibby",
+     "Bibby"
+    ],
+    "Damon Stoudamire",
+    [
+     "Aaron Gordon",
+     "Gordon"
+    ],
+    [
+     "Deandre Ayton",
+     "Ayton"
+    ],
+    [
+     "Lauri Markkanen",
+     "Markkanen"
+    ],
+    [
+     "Richard Jefferson",
+     "Jefferson"
+    ],
+    "Jason Terry",
+    "Sean Elliott",
+    [
+     "Luke Walton",
+     "Walton"
+    ],
+    [
+     "Jerryd Bayless",
+     "Bayless"
+    ],
+    [
+     "Channing Frye",
+     "Frye"
+    ],
+    [
+     "Zeke Nnaji",
+     "Nnaji"
+    ],
+    [
+     "Bennedict Mathurin",
+     "Mathurin"
+    ],
+    [
+     "Chase Budinger",
+     "Budinger"
+    ],
+    "Salim Stoudamire",
+    [
+     "Nico Mannion",
+     "Mannion"
+    ],
+    "Dalen Terry",
+    [
+     "Christian Koloko",
+     "Koloko"
+    ],
+    [
+     "Josh Green",
+     "Green"
+    ],
+    [
+     "Kadeem Allen",
+     "Allen"
+    ],
+    "Stanley Johnson",
+    [
+     "Rondae Hollis-Jefferson",
+     "Hollis-Jefferson"
+    ],
+    "Nick Johnson",
+    "Solomon Hill",
+    [
+     "Grant Jerrett",
+     "Jerrett"
+    ],
+    "Derrick Williams",
+    "Jordan Hill",
+    "Marcus Williams",
+    [
+     "Hassan Adams",
+     "Adams"
+    ],
+    [
+     "Michael Wright",
+     "Wright"
+    ],
+    [
+     "Loren Woods",
+     "Woods"
+    ],
+    [
+     "A.J. Bramlett",
+     "Bramlett"
+    ],
+    [
+     "Michael Dickerson",
+     "Dickerson"
+    ],
+    [
+     "Miles Simon",
+     "Simon"
+    ],
+    [
+     "Joseph Blair",
+     "Blair"
+    ],
+    "Ben Davis",
+    [
+     "Reggie Geary",
+     "Geary"
+    ],
+    [
+     "Khalid Reeves",
+     "Reeves"
+    ],
+    [
+     "Chris Mills",
+     "Mills"
+    ],
+    [
+     "Ed Stokes",
+     "Stokes"
+    ],
+    [
+     "Sean Rooks",
+     "Rooks"
+    ],
+    [
+     "Bison Dele",
+     "Dele",
+     "Brian Williams"
+    ],
+    [
+     "Jud Buechler",
+     "Buechler"
+    ],
+    [
+     "Anthony Cook",
+     "Cook"
+    ],
+    [
+     "Tom Tolbert",
+     "Tolbert"
+    ],
+    "Pete Williams",
+    "Eddie Smith",
+    [
+     "Leon Wood",
+     "Wood"
+    ],
+    "Frank Smith",
+    "Ron Davis",
+    [
+     "Robbie Dosty",
+     "Dosty"
+    ],
+    [
+     "Joe Nehls",
+     "Nehls"
+    ],
+    [
+     "Larry Demic",
+     "Demic"
+    ],
+    [
+     "Phil Taylor",
+     "Taylor"
+    ],
+    "Bob Elliott",
+    [
+     "Herman Harris",
+     "Harris"
+    ],
+    [
+     "Jerome Gladney",
+     "Gladney"
+    ],
+    [
+     "Al Fleming",
+     "Fleming"
+    ],
+    [
+     "James Rappis",
+     "Rappis"
+    ],
+    [
+     "Eric Money",
+     "Money"
+    ],
+    [
+     "Coniel Norman",
+     "Norman"
+    ],
+    [
+     "Bruce Anderson",
+     "Anderson"
+    ],
+    [
+     "Eddie Myers",
+     "Myers"
+    ],
+    [
+     "Bill Warner",
+     "Warner"
+    ],
+    [
+     "Tom Lee",
+     "Lee"
+    ],
+    [
+     "Mike Foster",
+     "Foster"
+    ],
+    "Bill Davis",
+    [
+     "Warren Rustand",
+     "Rustand"
+    ],
+    [
+     "Ernie McCray",
+     "McCray"
+    ],
+    "Roger Johnson",
+    "Leo Johnson",
+    [
+     "Leon Blevins",
+     "Blevins"
+    ],
+    [
+     "Mo Udall",
+     "Udall",
+     "Morris Udall"
+    ],
+    [
+     "Lincoln Richmond",
+     "Richmond"
+    ],
+    [
+     "Pelle Larsson",
+     "Larsson"
+    ],
+    [
+     "Carter Bryant",
+     "Bryant"
+    ],
+    [
+     "Brayden Burries",
+     "Burries"
+    ],
+    [
+     "Koa Peat",
+     "Peat"
+    ],
+    [
+     "Jaden Bradley",
+     "Bradley"
+    ]
+   ],
+   "eraText": "Name a player from Arizona who was drafted into the NBA in the {era}",
+   "eras": {
+    "Steve Kerr": [
+     "80s"
+    ],
+    "Andre Iguodala": [
+     "00s"
+    ],
+    "Gilbert Arenas": [
+     "00s"
+    ],
+    "Mike Bibby": [
+     "90s"
+    ],
+    "Damon Stoudamire": [
+     "90s"
+    ],
+    "Aaron Gordon": [
+     "10s"
+    ],
+    "Deandre Ayton": [
+     "10s"
+    ],
+    "Lauri Markkanen": [
+     "10s"
+    ],
+    "Richard Jefferson": [
+     "00s"
+    ],
+    "Jason Terry": [
+     "90s"
+    ],
+    "Sean Elliott": [
+     "80s"
+    ],
+    "Luke Walton": [
+     "00s"
+    ],
+    "Jerryd Bayless": [
+     "00s"
+    ],
+    "Channing Frye": [
+     "00s"
+    ],
+    "Chase Budinger": [
+     "00s"
+    ],
+    "Salim Stoudamire": [
+     "00s"
+    ],
+    "Kadeem Allen": [
+     "10s"
+    ],
+    "Stanley Johnson": [
+     "10s"
+    ],
+    "Rondae Hollis-Jefferson": [
+     "10s"
+    ],
+    "Nick Johnson": [
+     "10s"
+    ],
+    "Solomon Hill": [
+     "10s"
+    ],
+    "Grant Jerrett": [
+     "10s"
+    ],
+    "Derrick Williams": [
+     "10s"
+    ],
+    "Jordan Hill": [
+     "00s"
+    ],
+    "Marcus Williams": [
+     "00s"
+    ],
+    "Hassan Adams": [
+     "00s"
+    ],
+    "Michael Wright": [
+     "00s"
+    ],
+    "Loren Woods": [
+     "00s"
+    ],
+    "A.J. Bramlett": [
+     "90s"
+    ],
+    "Michael Dickerson": [
+     "90s"
+    ],
+    "Miles Simon": [
+     "90s"
+    ],
+    "Joseph Blair": [
+     "90s"
+    ],
+    "Ben Davis": [
+     "90s"
+    ],
+    "Reggie Geary": [
+     "90s"
+    ],
+    "Khalid Reeves": [
+     "90s"
+    ],
+    "Chris Mills": [
+     "90s"
+    ],
+    "Ed Stokes": [
+     "90s"
+    ],
+    "Sean Rooks": [
+     "90s"
+    ],
+    "Bison Dele": [
+     "90s"
+    ],
+    "Jud Buechler": [
+     "90s"
+    ],
+    "Anthony Cook": [
+     "80s"
+    ],
+    "Tom Tolbert": [
+     "80s"
+    ],
+    "Pete Williams": [
+     "80s"
+    ],
+    "Eddie Smith": [
+     "80s"
+    ],
+    "Leon Wood": [
+     "80s"
+    ],
+    "Frank Smith": [
+     "80s"
+    ],
+    "Ron Davis": [
+     "80s"
+    ],
+    "Robbie Dosty": [
+     "80s"
+    ],
+    "Joe Nehls": [
+     "80s"
+    ],
+    "Larry Demic": [
+     "70s"
+    ],
+    "Phil Taylor": [
+     "70s"
+    ],
+    "Bob Elliott": [
+     "70s"
+    ],
+    "Herman Harris": [
+     "70s"
+    ],
+    "Jerome Gladney": [
+     "70s"
+    ],
+    "Al Fleming": [
+     "70s"
+    ],
+    "James Rappis": [
+     "70s"
+    ],
+    "Eric Money": [
+     "70s"
+    ],
+    "Coniel Norman": [
+     "70s"
+    ],
+    "Bruce Anderson": [
+     "70s"
+    ],
+    "Eddie Myers": [
+     "70s"
+    ],
+    "Bill Warner": [
+     "70s"
+    ],
+    "Tom Lee": [
+     "70s"
+    ],
+    "Mike Foster": [
+     "70s"
+    ],
+    "Pelle Larsson": [
+     "20s"
+    ],
+    "Carter Bryant": [
+     "20s"
+    ],
+    "Brayden Burries": [
+     "20s"
+    ],
+    "Koa Peat": [
+     "20s"
+    ],
+    "Jaden Bradley": [
+     "20s"
+    ]
+   },
+   "deep": true
+  },
+  {
+   "id": "nba-d-college-indiana",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted into the NBA or BAA from Indiana University (drafts up to 2026)",
+   "answers": [
+    "Isiah Thomas",
+    [
+     "Victor Oladipo",
+     "Oladipo"
+    ],
+    [
+     "OG Anunoby",
+     "Anunoby"
+    ],
+    [
+     "Eric Gordon",
+     "Gordon"
+    ],
+    [
+     "Cody Zeller",
+     "Zeller"
+    ],
+    [
+     "Walt Bellamy",
+     "Bellamy"
+    ],
+    [
+     "George McGinnis",
+     "McGinnis"
+    ],
+    [
+     "Quinn Buckner",
+     "Buckner"
+    ],
+    [
+     "Calbert Cheaney",
+     "Cheaney"
+    ],
+    [
+     "Jared Jeffries",
+     "Jeffries"
+    ],
+    [
+     "Kent Benson",
+     "Benson"
+    ],
+    [
+     "Scott May",
+     "May"
+    ],
+    [
+     "Mike Woodson",
+     "Woodson"
+    ],
+    [
+     "Randy Wittman",
+     "Wittman"
+    ],
+    [
+     "Thomas Bryant",
+     "Bryant"
+    ],
+    [
+     "Noah Vonleh",
+     "Vonleh"
+    ],
+    [
+     "Romeo Langford",
+     "Langford"
+    ],
+    [
+     "Trayce Jackson-Davis",
+     "Jackson-Davis"
+    ],
+    [
+     "Steve Alford",
+     "Alford"
+    ],
+    [
+     "Kel'el Ware",
+     "Ware"
+    ],
+    [
+     "Jalen Hood-Schifino",
+     "Hood-Schifino"
+    ],
+    [
+     "D. J. White",
+     "White"
+    ],
+    "Bracey Wright",
+    [
+     "Kirk Haston",
+     "Haston"
+    ],
+    [
+     "A. J. Guyton",
+     "Guyton"
+    ],
+    [
+     "Andrae Patterson",
+     "Patterson"
+    ],
+    [
+     "Brian Evans",
+     "Evans"
+    ],
+    [
+     "Alan Henderson",
+     "Henderson"
+    ],
+    [
+     "Damon Bailey",
+     "Bailey"
+    ],
+    [
+     "Greg Graham",
+     "Graham"
+    ],
+    [
+     "Jay Edwards",
+     "Edwards"
+    ],
+    [
+     "Keith Smart",
+     "Smart"
+    ],
+    "Dean Garrett",
+    "Daryl Thomas",
+    [
+     "Uwe Blab",
+     "Blab"
+    ],
+    [
+     "Tony Brown",
+     "Brown"
+    ],
+    [
+     "Steve Bouchie",
+     "Bouchie"
+    ],
+    [
+     "Ted Kitchel",
+     "Kitchel"
+    ],
+    "Jim Thomas",
+    [
+     "Landon Turner",
+     "Turner"
+    ],
+    [
+     "Steve Risley",
+     "Risley"
+    ],
+    [
+     "Glen Grunwald",
+     "Grunwald"
+    ],
+    [
+     "Ray Tolbert",
+     "Tolbert"
+    ],
+    [
+     "Butch Carter",
+     "Carter"
+    ],
+    [
+     "Wayne Radford",
+     "Radford"
+    ],
+    [
+     "Tom Abernethy",
+     "Abernethy"
+    ],
+    [
+     "Bobby Wilkerson",
+     "Wilkerson"
+    ],
+    [
+     "John Laskowski",
+     "Laskowski"
+    ],
+    [
+     "Steve Green",
+     "Green"
+    ],
+    [
+     "John Ritter",
+     "Ritter"
+    ],
+    [
+     "Steve Downing",
+     "Downing"
+    ],
+    "Joby Wright",
+    [
+     "Jim Harris",
+     "Harris"
+    ],
+    [
+     "Lee McCollough",
+     "McCollough"
+    ],
+    [
+     "Ken Johnson",
+     "Johnson"
+    ],
+    [
+     "Joe Cooke",
+     "Cooke"
+    ],
+    [
+     "Bill DeHeer",
+     "DeHeer"
+    ],
+    [
+     "Butch Joyner",
+     "Joyner"
+    ],
+    [
+     "Erv Inniger",
+     "Inniger"
+    ],
+    [
+     "Jon McGlocklin",
+     "McGlocklin"
+    ],
+    "Tom Van Arsdale",
+    "Dick Van Arsdale",
+    [
+     "Jimmy Rayl",
+     "Rayl"
+    ],
+    [
+     "Tom Bolyard",
+     "Bolyard"
+    ],
+    [
+     "Ron Horn",
+     "Horn"
+    ],
+    [
+     "Bob Wilkinson",
+     "Wilkinson"
+    ],
+    [
+     "Frank Radovich",
+     "Radovich"
+    ],
+    [
+     "Archie Dees",
+     "Dees"
+    ],
+    [
+     "Dick Neal",
+     "Neal"
+    ],
+    [
+     "Wally Choice",
+     "Choice"
+    ],
+    [
+     "Don Schlundt",
+     "Schlundt"
+    ],
+    [
+     "Charlie Kraak",
+     "Kraak"
+    ],
+    [
+     "Lou Scott",
+     "Scott"
+    ],
+    [
+     "Dick Farley",
+     "Farley"
+    ],
+    [
+     "Bobby Leonard",
+     "Leonard"
+    ],
+    [
+     "Sam Miranda",
+     "Miranda"
+    ],
+    "Bill Garrett",
+    [
+     "Bill Tosheff",
+     "Tosheff"
+    ],
+    [
+     "Jerry Stuteville",
+     "Stuteville"
+    ],
+    [
+     "Lou Watson",
+     "Watson"
+    ]
+   ],
+   "eraText": "Name a player from Indiana who was drafted into the NBA in the {era}",
+   "eras": {
+    "Isiah Thomas": [
+     "80s"
+    ],
+    "Walt Bellamy": [
+     "60s"
+    ],
+    "George McGinnis": [
+     "70s"
+    ],
+    "Quinn Buckner": [
+     "70s"
+    ],
+    "Kent Benson": [
+     "70s"
+    ],
+    "Scott May": [
+     "70s"
+    ],
+    "Mike Woodson": [
+     "80s"
+    ],
+    "Randy Wittman": [
+     "80s"
+    ],
+    "Steve Alford": [
+     "80s"
+    ],
+    "Jay Edwards": [
+     "80s"
+    ],
+    "Keith Smart": [
+     "80s"
+    ],
+    "Dean Garrett": [
+     "80s"
+    ],
+    "Daryl Thomas": [
+     "80s"
+    ],
+    "Uwe Blab": [
+     "80s"
+    ],
+    "Tony Brown": [
+     "80s"
+    ],
+    "Steve Bouchie": [
+     "80s"
+    ],
+    "Ted Kitchel": [
+     "80s"
+    ],
+    "Jim Thomas": [
+     "80s"
+    ],
+    "Landon Turner": [
+     "80s"
+    ],
+    "Steve Risley": [
+     "80s"
+    ],
+    "Glen Grunwald": [
+     "80s"
+    ],
+    "Ray Tolbert": [
+     "80s"
+    ],
+    "Butch Carter": [
+     "80s"
+    ],
+    "Wayne Radford": [
+     "70s"
+    ],
+    "Tom Abernethy": [
+     "70s"
+    ],
+    "Bobby Wilkerson": [
+     "70s"
+    ],
+    "John Laskowski": [
+     "70s"
+    ],
+    "Steve Green": [
+     "70s"
+    ],
+    "John Ritter": [
+     "70s"
+    ],
+    "Steve Downing": [
+     "70s"
+    ],
+    "Joby Wright": [
+     "70s"
+    ],
+    "Jim Harris": [
+     "70s"
+    ],
+    "Lee McCollough": [
+     "70s"
+    ],
+    "Ken Johnson": [
+     "70s"
+    ],
+    "Joe Cooke": [
+     "70s"
+    ],
+    "Bill DeHeer": [
+     "60s"
+    ],
+    "Butch Joyner": [
+     "60s"
+    ],
+    "Erv Inniger": [
+     "60s"
+    ],
+    "Jon McGlocklin": [
+     "60s"
+    ],
+    "Tom Van Arsdale": [
+     "60s"
+    ],
+    "Dick Van Arsdale": [
+     "60s"
+    ],
+    "Jimmy Rayl": [
+     "60s"
+    ],
+    "Tom Bolyard": [
+     "60s"
+    ],
+    "Ron Horn": [
+     "60s"
+    ],
+    "Bob Wilkinson": [
+     "60s"
+    ],
+    "Frank Radovich": [
+     "60s"
+    ]
+   },
+   "deep": true
+  },
+  {
+   "id": "nba-d-college-michigan",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a player drafted into the NBA or BAA from the University of Michigan (as listed on Wikipedia, drafts up to 2026)",
+   "answers": [
+    [
+     "Chris Webber",
+     "Webber"
+    ],
+    [
+     "Glen Rice",
+     "Rice"
+    ],
+    "Juwan Howard",
+    [
+     "Jalen Rose",
+     "Rose"
+    ],
+    [
+     "Jordan Poole",
+     "Poole"
+    ],
+    "Franz Wagner",
+    [
+     "Trey Burke",
+     "Burke"
+    ],
+    [
+     "Tim Hardaway Jr.",
+     "Hardaway"
+    ],
+    [
+     "Jamal Crawford",
+     "Crawford"
+    ],
+    [
+     "Rudy Tomjanovich",
+     "Tomjanovich"
+    ],
+    "Cazzie Russell",
+    [
+     "Caris LeVert",
+     "LeVert"
+    ],
+    [
+     "Nik Stauskas",
+     "Stauskas"
+    ],
+    "Glenn Robinson III",
+    [
+     "Roy Tarpley",
+     "Tarpley"
+    ],
+    "Rumeal Robinson",
+    [
+     "Loy Vaught",
+     "Vaught"
+    ],
+    [
+     "Robert Traylor",
+     "Traylor"
+    ],
+    [
+     "Phil Hubbard",
+     "Hubbard"
+    ],
+    "Campy Russell",
+    [
+     "Mitch McGary",
+     "McGary"
+    ],
+    [
+     "Moritz Wagner",
+     "Moe Wagner"
+    ],
+    [
+     "Morez Johnson Jr.",
+     "Morez Johnson",
+     "Morez"
+    ],
+    [
+     "Yaxel Lendeborg",
+     "Lendeborg"
+    ],
+    [
+     "Aday Mara",
+     "Mara"
+    ],
+    [
+     "Danny Wolf",
+     "Wolf"
+    ],
+    "Jett Howard",
+    [
+     "Kobe Bufkin",
+     "Bufkin"
+    ],
+    [
+     "Caleb Houstan",
+     "Houstan"
+    ],
+    [
+     "Moussa Diabaté",
+     "Diabaté"
+    ],
+    [
+     "Isaiah Livers",
+     "Livers"
+    ],
+    [
+     "Ignas Brazdeikis",
+     "Brazdeikis"
+    ],
+    [
+     "D. J. Wilson",
+     "Wilson"
+    ],
+    [
+     "Darius Morris",
+     "Morris"
+    ],
+    "Bernard Robinson",
+    [
+     "Louis Bullock",
+     "Bullock"
+    ],
+    [
+     "Maceo Baston",
+     "Baston"
+    ],
+    [
+     "Maurice Taylor",
+     "Taylor"
+    ],
+    [
+     "Jimmy King",
+     "King"
+    ],
+    [
+     "Eric Riley",
+     "Riley"
+    ],
+    [
+     "Terry Mills",
+     "Mills"
+    ],
+    [
+     "Sean Higgins",
+     "Higgins"
+    ],
+    [
+     "Gary Grant",
+     "Grant"
+    ],
+    [
+     "Antoine Joubert",
+     "Joubert"
+    ],
+    [
+     "Richard Rellford",
+     "Rellford"
+    ],
+    [
+     "Butch Wade",
+     "Wade"
+    ],
+    [
+     "Robert Henderson",
+     "Henderson"
+    ],
+    [
+     "Tim McCormick",
+     "McCormick"
+    ],
+    [
+     "Eric Turner",
+     "Turner"
+    ],
+    [
+     "Dan Pelekoudas",
+     "Pelekoudas"
+    ],
+    [
+     "Ike Person",
+     "Person"
+    ],
+    [
+     "Thad Gardner",
+     "Gardner"
+    ],
+    [
+     "Mike McGee",
+     "McGee"
+    ],
+    "John Johnson",
+    [
+     "Paul Heuerman",
+     "Heuerman"
+    ],
+    [
+     "Dave Baxter",
+     "Baxter"
+    ],
+    [
+     "Joel Thompson",
+     "Thompson"
+    ],
+    [
+     "Rickey Green",
+     "Green"
+    ],
+    [
+     "Steve Grote",
+     "Grote"
+    ],
+    "John Robinson",
+    [
+     "Wayman Britt",
+     "Britt"
+    ],
+    [
+     "C. J. Kupec",
+     "Kupec"
+    ],
+    [
+     "Ken Brady",
+     "Brady"
+    ],
+    [
+     "Henry Wilmore",
+     "Wilmore"
+    ],
+    "Ernie Johnson",
+    [
+     "Wayne Grabiec",
+     "Grabiec"
+    ],
+    [
+     "Dan Fife",
+     "Fife"
+    ],
+    [
+     "Dennis Stewart",
+     "Stewart"
+    ],
+    [
+     "Craig Dill",
+     "Dill"
+    ],
+    [
+     "Ollie Darden",
+     "Darden"
+    ],
+    [
+     "Bill Buntin",
+     "Buntin"
+    ],
+    [
+     "George Pomey",
+     "Pomey"
+    ],
+    [
+     "John Tidwell",
+     "Tidwell"
+    ],
+    [
+     "George Lee",
+     "Lee"
+    ],
+    [
+     "M. C. Burton Jr.",
+     "Burton"
+    ],
+    [
+     "Pete Tillotson",
+     "Tillotson"
+    ],
+    [
+     "Ron Kramer",
+     "Kramer"
+    ],
+    [
+     "George Ferguson",
+     "Ferguson"
+    ],
+    [
+     "Leo VanderKuy",
+     "VanderKuy"
+    ],
+    [
+     "Mack Supronowicz",
+     "Supronowicz"
+    ],
+    [
+     "Bob Harrison",
+     "Harrison"
+    ]
+   ],
+   "eraText": "Name a player from Michigan who was drafted into the NBA in the {era}",
+   "eras": {
+    "Chris Webber": [
+     "90s"
+    ],
+    "Glen Rice": [
+     "80s"
+    ],
+    "Juwan Howard": [
+     "90s"
+    ],
+    "Jalen Rose": [
+     "90s"
+    ],
+    "Jordan Poole": [
+     "10s"
+    ],
+    "Franz Wagner": [
+     "20s"
+    ],
+    "Trey Burke": [
+     "10s"
+    ],
+    "Tim Hardaway Jr.": [
+     "10s"
+    ],
+    "Rudy Tomjanovich": [
+     "70s"
+    ],
+    "Caris LeVert": [
+     "10s"
+    ],
+    "Nik Stauskas": [
+     "10s"
+    ],
+    "Glenn Robinson III": [
+     "10s"
+    ],
+    "Roy Tarpley": [
+     "80s"
+    ],
+    "Rumeal Robinson": [
+     "90s"
+    ],
+    "Loy Vaught": [
+     "90s"
+    ],
+    "Robert Traylor": [
+     "90s"
+    ],
+    "Phil Hubbard": [
+     "70s"
+    ],
+    "Campy Russell": [
+     "70s"
+    ],
+    "Mitch McGary": [
+     "10s"
+    ],
+    "Moritz Wagner": [
+     "10s"
+    ],
+    "Morez Johnson Jr.": [
+     "20s"
+    ],
+    "Yaxel Lendeborg": [
+     "20s"
+    ],
+    "Aday Mara": [
+     "20s"
+    ],
+    "Danny Wolf": [
+     "20s"
+    ],
+    "Jett Howard": [
+     "20s"
+    ],
+    "Kobe Bufkin": [
+     "20s"
+    ],
+    "Caleb Houstan": [
+     "20s"
+    ],
+    "Moussa Diabaté": [
+     "20s"
+    ],
+    "Isaiah Livers": [
+     "20s"
+    ],
+    "Ignas Brazdeikis": [
+     "10s"
+    ],
+    "D. J. Wilson": [
+     "10s"
+    ],
+    "Darius Morris": [
+     "10s"
+    ],
+    "Louis Bullock": [
+     "90s"
+    ],
+    "Maceo Baston": [
+     "90s"
+    ],
+    "Maurice Taylor": [
+     "90s"
+    ],
+    "Jimmy King": [
+     "90s"
+    ],
+    "Eric Riley": [
+     "90s"
+    ],
+    "Terry Mills": [
+     "90s"
+    ],
+    "Sean Higgins": [
+     "90s"
+    ],
+    "Gary Grant": [
+     "80s"
+    ],
+    "Antoine Joubert": [
+     "80s"
+    ],
+    "Richard Rellford": [
+     "80s"
+    ],
+    "Butch Wade": [
+     "80s"
+    ],
+    "Robert Henderson": [
+     "80s"
+    ],
+    "Tim McCormick": [
+     "80s"
+    ],
+    "Eric Turner": [
+     "80s"
+    ],
+    "Dan Pelekoudas": [
+     "80s"
+    ],
+    "Ike Person": [
+     "80s"
+    ],
+    "Thad Gardner": [
+     "80s"
+    ],
+    "Mike McGee": [
+     "80s"
+    ],
+    "John Johnson": [
+     "80s"
+    ],
+    "Paul Heuerman": [
+     "80s"
+    ],
+    "Dave Baxter": [
+     "70s"
+    ],
+    "Joel Thompson": [
+     "70s"
+    ],
+    "Rickey Green": [
+     "70s"
+    ],
+    "Steve Grote": [
+     "70s"
+    ],
+    "John Robinson": [
+     "70s"
+    ],
+    "Wayman Britt": [
+     "70s"
+    ],
+    "C. J. Kupec": [
+     "70s"
+    ],
+    "Ken Brady": [
+     "70s"
+    ],
+    "Henry Wilmore": [
+     "70s"
+    ],
+    "Ernie Johnson": [
+     "70s"
+    ],
+    "Wayne Grabiec": [
+     "70s"
+    ],
+    "Dan Fife": [
+     "70s"
+    ]
+   },
+   "deep": true
+  },
+  {
+   "id": "nba-d-50-greatest",
+   "tags": [
+    "players"
+   ],
+   "text": "Name a player named one of the 50 Greatest Players in NBA History (the 1996 list)",
+   "answers": [
+    [
+     "Michael Jordan",
+     "MJ",
+     "Jordan"
+    ],
+    [
+     "Magic Johnson",
+     "Earvin Johnson",
+     "Johnson"
+    ],
+    [
+     "Larry Bird",
+     "Larry Legend",
+     "Bird"
+    ],
+    [
+     "Kareem Abdul-Jabbar",
+     "Lew Alcindor",
+     "Kareem",
+     "Abdul-Jabbar"
+    ],
+    [
+     "Shaquille O'Neal",
+     "Shaq",
+     "O'Neal"
+    ],
+    [
+     "Charles Barkley",
+     "Sir Charles",
+     "Barkley"
+    ],
+    [
+     "Julius Erving",
+     "Dr J",
+     "Doctor J",
+     "Erving"
+    ],
+    [
+     "Wilt Chamberlain",
+     "Wilt the Stilt",
+     "Chamberlain"
+    ],
+    [
+     "Bill Russell",
+     "Russell"
+    ],
+    [
+     "Hakeem Olajuwon",
+     "The Dream",
+     "Akeem Olajuwon",
+     "Olajuwon"
+    ],
+    [
+     "Karl Malone",
+     "The Mailman"
+    ],
+    [
+     "John Stockton",
+     "Stockton"
+    ],
+    [
+     "Scottie Pippen",
+     "Pippen"
+    ],
+    [
+     "Patrick Ewing",
+     "Ewing"
+    ],
+    [
+     "David Robinson",
+     "The Admiral",
+     "Robinson"
+    ],
+    [
+     "Isiah Thomas",
+     "Isaiah Thomas",
+     "Zeke",
+     "Thomas"
+    ],
+    [
+     "Jerry West",
+     "The Logo",
+     "West"
+    ],
+    [
+     "Oscar Robertson",
+     "Big O",
+     "Robertson"
+    ],
+    [
+     "Clyde Drexler",
+     "Clyde the Glide",
+     "Drexler"
+    ],
+    [
+     "Bob Cousy",
+     "Cousy"
+    ],
+    "Moses Malone",
+    [
+     "Kevin McHale",
+     "McHale"
+    ],
+    [
+     "Robert Parish",
+     "Parish"
+    ],
+    [
+     "James Worthy",
+     "Big Game James",
+     "Worthy"
+    ],
+    [
+     "George Gervin",
+     "The Iceman",
+     "Gervin"
+    ],
+    [
+     "Walt Frazier",
+     "Frazier"
+    ],
+    [
+     "Pete Maravich",
+     "Pistol Pete",
+     "Maravich"
+    ],
+    [
+     "Elgin Baylor",
+     "Baylor"
+    ],
+    [
+     "Bill Walton",
+     "Walton"
+    ],
+    [
+     "Dave Cowens",
+     "Cowens"
+    ],
+    [
+     "John Havlicek",
+     "Hondo",
+     "Havlicek"
+    ],
+    [
+     "Rick Barry",
+     "Barry"
+    ],
+    [
+     "Earl Monroe",
+     "Earl the Pearl",
+     "Monroe"
+    ],
+    [
+     "Nate Archibald",
+     "Tiny Archibald",
+     "Archibald"
+    ],
+    [
+     "Paul Arizin",
+     "Arizin"
+    ],
+    [
+     "Dave Bing",
+     "Bing"
+    ],
+    [
+     "Billy Cunningham",
+     "Kangaroo Kid",
+     "Cunningham"
+    ],
+    [
+     "Dave DeBusschere",
+     "DeBusschere"
+    ],
+    [
+     "Hal Greer",
+     "Greer"
+    ],
+    [
+     "Elvin Hayes",
+     "The Big E",
+     "Hayes"
+    ],
+    [
+     "Sam Jones",
+     "Jones"
+    ],
+    [
+     "Jerry Lucas",
+     "Lucas"
+    ],
+    [
+     "George Mikan",
+     "Mikan"
+    ],
+    [
+     "Bob Pettit",
+     "Pettit"
+    ],
+    [
+     "Willis Reed",
+     "Reed"
+    ],
+    [
+     "Dolph Schayes",
+     "Adolph Schayes",
+     "Schayes"
+    ],
+    [
+     "Bill Sharman",
+     "Sharman"
+    ],
+    [
+     "Nate Thurmond",
+     "Thurmond"
+    ],
+    [
+     "Wes Unseld",
+     "Unseld"
+    ],
+    [
+     "Lenny Wilkens",
+     "Wilkens"
+    ]
+   ],
+   "eraText": "Name one of the NBA's 50 Greatest Players (1996 list) who played an NBA season in the {era}",
+   "eras": {
+    "Michael Jordan": [
+     "80s",
+     "90s"
+    ],
+    "Magic Johnson": [
+     "70s",
+     "80s",
+     "90s"
+    ],
+    "Larry Bird": [
+     "70s",
+     "80s",
+     "90s"
+    ],
+    "Kareem Abdul-Jabbar": [
+     "60s",
+     "70s",
+     "80s"
+    ],
+    "Shaquille O'Neal": [
+     "90s"
+    ],
+    "Charles Barkley": [
+     "80s",
+     "90s"
+    ],
+    "Julius Erving": [
+     "70s",
+     "80s"
+    ],
+    "Wilt Chamberlain": [
+     "60s",
+     "70s"
+    ],
+    "Bill Russell": [
+     "60s"
+    ],
+    "Hakeem Olajuwon": [
+     "80s",
+     "90s"
+    ],
+    "Karl Malone": [
+     "80s",
+     "90s"
+    ],
+    "John Stockton": [
+     "80s",
+     "90s"
+    ],
+    "Scottie Pippen": [
+     "80s",
+     "90s"
+    ],
+    "Patrick Ewing": [
+     "80s",
+     "90s"
+    ],
+    "David Robinson": [
+     "80s",
+     "90s"
+    ],
+    "Isiah Thomas": [
+     "80s",
+     "90s"
+    ],
+    "Jerry West": [
+     "60s",
+     "70s"
+    ],
+    "Oscar Robertson": [
+     "60s",
+     "70s"
+    ],
+    "Clyde Drexler": [
+     "80s",
+     "90s"
+    ],
+    "Bob Cousy": [
+     "60s"
+    ],
+    "Moses Malone": [
+     "70s",
+     "80s",
+     "90s"
+    ],
+    "Kevin McHale": [
+     "80s",
+     "90s"
+    ],
+    "Robert Parish": [
+     "70s",
+     "80s",
+     "90s"
+    ],
+    "James Worthy": [
+     "80s",
+     "90s"
+    ],
+    "George Gervin": [
+     "70s",
+     "80s"
+    ],
+    "Walt Frazier": [
+     "60s",
+     "70s"
+    ],
+    "Pete Maravich": [
+     "70s"
+    ],
+    "Elgin Baylor": [
+     "60s",
+     "70s"
+    ],
+    "Bill Walton": [
+     "70s",
+     "80s"
+    ],
+    "Dave Cowens": [
+     "70s",
+     "80s"
+    ],
+    "John Havlicek": [
+     "60s",
+     "70s"
+    ],
+    "Rick Barry": [
+     "60s",
+     "70s"
+    ],
+    "Earl Monroe": [
+     "60s",
+     "70s"
+    ],
+    "Nate Archibald": [
+     "70s",
+     "80s"
+    ],
+    "Paul Arizin": [
+     "60s"
+    ],
+    "Dave Bing": [
+     "60s",
+     "70s"
+    ],
+    "Billy Cunningham": [
+     "60s",
+     "70s"
+    ],
+    "Dave DeBusschere": [
+     "60s",
+     "70s"
+    ],
+    "Hal Greer": [
+     "60s",
+     "70s"
+    ],
+    "Elvin Hayes": [
+     "60s",
+     "70s",
+     "80s"
+    ],
+    "Sam Jones": [
+     "60s"
+    ],
+    "Jerry Lucas": [
+     "60s",
+     "70s"
+    ],
+    "Bob Pettit": [
+     "60s"
+    ],
+    "Willis Reed": [
+     "60s",
+     "70s"
+    ],
+    "Dolph Schayes": [
+     "60s"
+    ],
+    "Bill Sharman": [
+     "60s"
+    ],
+    "Nate Thurmond": [
+     "60s",
+     "70s"
+    ],
+    "Wes Unseld": [
+     "60s",
+     "70s",
+     "80s"
+    ],
+    "Lenny Wilkens": [
+     "60s",
+     "70s"
+    ]
+   }
+  },
+  {
+   "id": "nba-d-dream-team-1992",
+   "tags": [
+    "players"
+   ],
+   "text": "Name a player on the 1992 US Olympic basketball 'Dream Team'",
+   "answers": [
+    [
+     "Michael Jordan",
+     "MJ",
+     "Jordan"
+    ],
+    [
+     "Magic Johnson",
+     "Earvin Johnson",
+     "Johnson"
+    ],
+    [
+     "Larry Bird",
+     "Larry Legend",
+     "Bird"
+    ],
+    [
+     "Charles Barkley",
+     "Sir Charles",
+     "Barkley"
+    ],
+    [
+     "Karl Malone",
+     "The Mailman",
+     "Malone"
+    ],
+    [
+     "John Stockton",
+     "Stockton"
+    ],
+    [
+     "Scottie Pippen",
+     "Pippen"
+    ],
+    [
+     "David Robinson",
+     "The Admiral",
+     "Robinson"
+    ],
+    [
+     "Patrick Ewing",
+     "Ewing"
+    ],
+    [
+     "Chris Mullin",
+     "Mullin"
+    ],
+    [
+     "Clyde Drexler",
+     "Clyde the Glide",
+     "Drexler"
+    ],
+    [
+     "Christian Laettner",
+     "Laettner"
+    ]
+   ]
+  },
+  {
+   "id": "nba-d-bulls-1995-96",
+   "tags": [
+    "teams"
+   ],
+   "text": "Name a player on the Chicago Bulls' 1995-96 roster (the 72-10 season)",
+   "answers": [
+    [
+     "Michael Jordan",
+     "MJ",
+     "Jordan"
+    ],
+    [
+     "Scottie Pippen",
+     "Pippen"
+    ],
+    [
+     "Dennis Rodman",
+     "The Worm",
+     "Rodman"
+    ],
+    [
+     "Toni Kukoč",
+     "Toni Kukoc",
+     "Kukoč"
+    ],
+    [
+     "Steve Kerr",
+     "Kerr"
+    ],
+    [
+     "Ron Harper",
+     "Harper"
+    ],
+    [
+     "Luc Longley",
+     "Longley"
+    ],
+    [
+     "Bill Wennington",
+     "Wennington"
+    ],
+    [
+     "Jud Buechler",
+     "Judd Buechler",
+     "Buechler"
+    ],
+    [
+     "Randy Brown",
+     "Brown"
+    ],
+    [
+     "John Salley",
+     "Salley"
+    ],
+    [
+     "Jason Caffey",
+     "Caffey"
+    ],
+    [
+     "Dickey Simpkins",
+     "Simpkins"
+    ],
+    [
+     "James Edwards",
+     "Jimmy Edwards",
+     "Edwards"
+    ],
+    [
+     "Jack Haley",
+     "Haley"
+    ]
+   ]
+  },
+  {
+   "id": "nba-d-finals-roster-2026",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player on the roster of a team in the 2026 NBA Finals (Knicks or Spurs)",
+   "answers": [
+    [
+     "Jalen Brunson",
+     "Brunson"
+    ],
+    [
+     "Victor Wembanyama",
+     "Wembanyama"
+    ],
+    [
+     "Karl-Anthony Towns",
+     "Towns"
+    ],
+    [
+     "Mikal Bridges",
+     "Bridges"
+    ],
+    [
+     "OG Anunoby",
+     "Anunoby"
+    ],
+    [
+     "Josh Hart",
+     "Hart"
+    ],
+    [
+     "De'Aaron Fox",
+     "Fox"
+    ],
+    [
+     "Stephon Castle",
+     "Castle"
+    ],
+    [
+     "Jordan Clarkson",
+     "Clarkson"
+    ],
+    [
+     "Mitchell Robinson",
+     "Robinson"
+    ],
+    [
+     "Devin Vassell",
+     "Vassell"
+    ],
+    [
+     "Dylan Harper",
+     "Harper"
+    ],
+    [
+     "Jose Alvarado",
+     "Alvarado"
+    ],
+    [
+     "Pacôme Dadiet",
+     "Dadiet"
+    ],
+    [
+     "Mohamed Diawara",
+     "Diawara"
+    ],
+    [
+     "Ariel Hukporti",
+     "Hukporti"
+    ],
+    [
+     "Trey Jemison",
+     "Jemison"
+    ],
+    [
+     "Dillon Jones",
+     "Jones"
+    ],
+    [
+     "Tyler Kolek",
+     "Kolek"
+    ],
+    [
+     "Miles McBride",
+     "McBride"
+    ],
+    [
+     "Kevin McCullar Jr.",
+     "McCullar"
+    ],
+    [
+     "Landry Shamet",
+     "Shamet"
+    ],
+    [
+     "Jeremy Sochan",
+     "Sochan"
+    ],
+    [
+     "Harrison Barnes",
+     "Barnes"
+    ],
+    [
+     "Bismack Biyombo",
+     "Biyombo"
+    ],
+    [
+     "Carter Bryant",
+     "Bryant"
+    ],
+    [
+     "Julian Champagnie",
+     "Champagnie"
+    ],
+    [
+     "Harrison Ingram",
+     "Ingram"
+    ],
+    [
+     "Keldon Johnson",
+     "Johnson"
+    ],
+    [
+     "David Jones García",
+     "García"
+    ],
+    [
+     "Luke Kornet",
+     "Kornet"
+    ],
+    [
+     "Jordan McLaughlin",
+     "McLaughlin"
+    ],
+    [
+     "Emanuel Miller",
+     "Miller"
+    ],
+    [
+     "Kelly Olynyk",
+     "Olynyk"
+    ],
+    [
+     "Mason Plumlee",
+     "Plumlee"
+    ],
+    [
+     "Lindy Waters III",
+     "Waters"
+    ]
+   ]
+  },
+  {
+   "id": "nba-d-finals-roster-2025",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player on the roster of a team in the 2025 NBA Finals (Pacers or Thunder)",
+   "answers": [
+    [
+     "Shai Gilgeous-Alexander",
+     "Gilgeous-Alexander"
+    ],
+    [
+     "Tyrese Haliburton",
+     "Haliburton"
+    ],
+    "Jalen Williams",
+    [
+     "Chet Holmgren",
+     "Holmgren"
+    ],
+    [
+     "Pascal Siakam",
+     "Siakam"
+    ],
+    [
+     "Myles Turner",
+     "Turner"
+    ],
+    [
+     "Alex Caruso",
+     "Caruso"
+    ],
+    [
+     "Isaiah Hartenstein",
+     "Hartenstein"
+    ],
+    [
+     "Luguentz Dort",
+     "Dort"
+    ],
+    [
+     "Aaron Nesmith",
+     "Nesmith"
+    ],
+    [
+     "Andrew Nembhard",
+     "Nembhard"
+    ],
+    [
+     "Isaiah Joe",
+     "Joe"
+    ],
+    [
+     "Aaron Wiggins",
+     "Wiggins"
+    ],
+    [
+     "Obi Toppin",
+     "Toppin"
+    ],
+    [
+     "Bennedict Mathurin",
+     "Mathurin"
+    ],
+    [
+     "T. J. McConnell",
+     "McConnell"
+    ],
+    [
+     "Tony Bradley",
+     "Bradley"
+    ],
+    [
+     "Thomas Bryant",
+     "Bryant"
+    ],
+    [
+     "RayJ Dennis",
+     "Dennis"
+    ],
+    [
+     "Enrique Freeman",
+     "Freeman"
+    ],
+    [
+     "Johnny Furphy",
+     "Furphy"
+    ],
+    "Isaiah Jackson",
+    "Quenton Jackson",
+    [
+     "James Johnson",
+     "Johnson"
+    ],
+    [
+     "Ben Sheppard",
+     "Sheppard"
+    ],
+    [
+     "Jarace Walker",
+     "Walker"
+    ],
+    [
+     "Branden Carlson",
+     "Carlson"
+    ],
+    [
+     "Ousmane Dieng",
+     "Dieng"
+    ],
+    [
+     "Alex Ducas",
+     "Ducas"
+    ],
+    [
+     "Adam Flagler",
+     "Flagler"
+    ],
+    [
+     "Dillon Jones",
+     "Jones"
+    ],
+    [
+     "Ajay Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Nikola Topić",
+     "Topić"
+    ],
+    [
+     "Cason Wallace",
+     "Wallace"
+    ],
+    "Jaylin Williams",
+    "Kenrich Williams"
+   ],
+   "deep": true
+  },
+  {
+   "id": "nba-d-four-titles",
+   "tags": [
+    "finals"
+   ],
+   "text": "Name a player who has won four or more NBA championships (as a player, up to the 2026 Finals)",
+   "answers": [
+    [
+     "LeBron James",
+     "King James",
+     "James"
+    ],
+    [
+     "Michael Jordan",
+     "MJ",
+     "Jordan"
+    ],
+    [
+     "Kobe Bryant",
+     "Black Mamba",
+     "Bryant"
+    ],
+    [
+     "Magic Johnson",
+     "Earvin Johnson",
+     "Johnson"
+    ],
+    [
+     "Stephen Curry",
+     "Steph Curry",
+     "Steph",
+     "Curry"
+    ],
+    [
+     "Shaquille O'Neal",
+     "Shaq",
+     "O'Neal"
+    ],
+    [
+     "Tim Duncan",
+     "Duncan"
+    ],
+    [
+     "Scottie Pippen",
+     "Pippen"
+    ],
+    [
+     "Kareem Abdul-Jabbar",
+     "Lew Alcindor",
+     "Abdul-Jabbar"
+    ],
+    [
+     "Bill Russell",
+     "Russell"
+    ],
+    [
+     "Draymond Green",
+     "Green"
+    ],
+    [
+     "Klay Thompson",
+     "Thompson"
+    ],
+    [
+     "Dennis Rodman",
+     "Rodman"
+    ],
+    [
+     "Tony Parker",
+     "Parker"
+    ],
+    [
+     "Manu Ginóbili",
+     "Manu Ginobili",
+     "Manu",
+     "Ginóbili"
+    ],
+    [
+     "Steve Kerr",
+     "Kerr"
+    ],
+    [
+     "Robert Horry",
+     "Big Shot Bob",
+     "Horry"
+    ],
+    [
+     "Derek Fisher",
+     "Fisher"
+    ],
+    [
+     "Andre Iguodala",
+     "Iguodala"
+    ],
+    [
+     "Bob Cousy",
+     "Cousy"
+    ],
+    [
+     "John Havlicek",
+     "Havlicek"
+    ],
+    "Sam Jones",
+    [
+     "Robert Parish",
+     "Parish"
+    ],
+    [
+     "Horace Grant",
+     "Grant"
+    ],
+    [
+     "Ron Harper",
+     "Harper"
+    ],
+    [
+     "John Salley",
+     "Salley"
+    ],
+    [
+     "Tom Heinsohn",
+     "Tommy Heinsohn",
+     "Heinsohn"
+    ],
+    [
+     "K. C. Jones",
+     "KC Jones"
+    ],
+    [
+     "Satch Sanders",
+     "Sanders"
+    ],
+    [
+     "Jim Loscutoff",
+     "Loscutoff"
+    ],
+    [
+     "Frank Ramsey",
+     "Ramsey"
+    ],
+    [
+     "George Mikan",
+     "Mikan"
+    ],
+    [
+     "Jim Pollard",
+     "Pollard"
+    ],
+    [
+     "Slater Martin",
+     "Martin"
+    ],
+    [
+     "Larry Siegfried",
+     "Siegfried"
+    ],
+    [
+     "Don Nelson",
+     "Nelson"
+    ],
+    [
+     "Michael Cooper",
+     "Cooper"
+    ],
+    [
+     "Vern Mikkelsen",
+     "Mikkelsen"
+    ],
+    [
+     "Frank Saul",
+     "Saul",
+     "Pep Saul",
+     "Frank 'Pep' Saul"
+    ],
+    [
+     "Bill Sharman",
+     "Sharman"
+    ],
+    [
+     "Gene Guarilia",
+     "Guarilia"
+    ],
+    [
+     "Jamaal Wilkes",
+     "Wilkes"
+    ],
+    [
+     "Kurt Rambis",
+     "Rambis"
+    ],
+    [
+     "Will Perdue",
+     "Perdue"
+    ]
+   ],
+   "eraText": "Name a player with four or more NBA titles who won one of them in the {era}",
+   "eras": {
+    "LeBron James": [
+     "10s"
+    ],
+    "Michael Jordan": [
+     "90s"
+    ],
+    "Kobe Bryant": [
+     "00s",
+     "10s"
+    ],
+    "Stephen Curry": [
+     "10s"
+    ],
+    "Shaquille O'Neal": [
+     "00s"
+    ],
+    "Tim Duncan": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Scottie Pippen": [
+     "90s"
+    ],
+    "Bill Russell": [
+     "60s"
+    ],
+    "Draymond Green": [
+     "10s"
+    ],
+    "Klay Thompson": [
+     "10s"
+    ],
+    "Dennis Rodman": [
+     "90s"
+    ],
+    "Tony Parker": [
+     "00s",
+     "10s"
+    ],
+    "Manu Ginóbili": [
+     "00s",
+     "10s"
+    ],
+    "Steve Kerr": [
+     "90s",
+     "00s"
+    ],
+    "Robert Horry": [
+     "90s",
+     "00s"
+    ],
+    "Derek Fisher": [
+     "00s",
+     "10s"
+    ],
+    "Andre Iguodala": [
+     "10s"
+    ],
+    "Bob Cousy": [
+     "60s"
+    ],
+    "John Havlicek": [
+     "60s"
+    ],
+    "Sam Jones": [
+     "60s"
+    ],
+    "Robert Parish": [
+     "90s"
+    ],
+    "Horace Grant": [
+     "90s",
+     "00s"
+    ],
+    "Ron Harper": [
+     "90s",
+     "00s"
+    ],
+    "John Salley": [
+     "90s",
+     "00s"
+    ],
+    "Tom Heinsohn": [
+     "60s"
+    ],
+    "K. C. Jones": [
+     "60s"
+    ],
+    "Satch Sanders": [
+     "60s"
+    ],
+    "Jim Loscutoff": [
+     "60s"
+    ],
+    "Frank Ramsey": [
+     "60s"
+    ],
+    "Larry Siegfried": [
+     "60s"
+    ],
+    "Don Nelson": [
+     "60s"
+    ],
+    "Bill Sharman": [
+     "60s"
+    ],
+    "Gene Guarilia": [
+     "60s"
+    ],
+    "Will Perdue": [
+     "90s"
+    ]
+   }
+  },
+  {
+   "id": "nba-d-colleges-first-pick",
+   "tags": [
+    "draft"
+   ],
+   "text": "Name a college that has produced the number one pick in the NBA draft (1947 to 2026, US colleges only)",
+   "answers": [
+    [
+     "Duke",
+     "Duke Blue Devils",
+     "Duke University"
+    ],
+    [
+     "Kentucky",
+     "University of Kentucky",
+     "Kentucky Wildcats"
+    ],
+    [
+     "North Carolina",
+     "UNC",
+     "Tar Heels",
+     "University of North Carolina"
+    ],
+    [
+     "Kansas",
+     "University of Kansas",
+     "KU"
+    ],
+    [
+     "UCLA",
+     "University of California Los Angeles"
+    ],
+    [
+     "Michigan State",
+     "MSU",
+     "Michigan State University"
+    ],
+    "Syracuse",
+    "Georgetown",
+    [
+     "Indiana",
+     "Indiana University",
+     "Indiana Hoosiers"
+    ],
+    [
+     "Arizona",
+     "University of Arizona"
+    ],
+    [
+     "Memphis",
+     "Memphis State"
+    ],
+    [
+     "Ohio State",
+     "Ohio State University"
+    ],
+    [
+     "LSU",
+     "Louisiana State",
+     "Louisiana State University"
+    ],
+    [
+     "Michigan",
+     "University of Michigan"
+    ],
+    "Louisville",
+    [
+     "Houston",
+     "University of Houston"
+    ],
+    [
+     "Virginia",
+     "University of Virginia"
+    ],
+    "Notre Dame",
+    "Oklahoma",
+    [
+     "Georgia",
+     "University of Georgia"
+    ],
+    [
+     "Washington",
+     "University of Washington"
+    ],
+    [
+     "BYU",
+     "Brigham Young"
+    ],
+    [
+     "Maryland",
+     "University of Maryland"
+    ],
+    "Purdue",
+    [
+     "UNLV",
+     "Nevada Las Vegas",
+     "UN Las Vegas"
+    ],
+    "Wake Forest",
+    [
+     "Cincinnati",
+     "University of Cincinnati"
+    ],
+    [
+     "Utah",
+     "University of Utah"
+    ],
+    "Davidson",
+    "Providence",
+    [
+     "NC State",
+     "North Carolina State",
+     "NC State Wolfpack"
+    ],
+    "Minnesota",
+    "DePaul",
+    "Oklahoma State",
+    [
+     "Texas Western (UTEP)",
+     "UTEP",
+     "University of Texas at El Paso",
+     "Texas Western"
+    ],
+    "Texas Wesleyan",
+    "Marshall",
+    [
+     "Kansas State",
+     "K-State",
+     "Kansas State University"
+    ],
+    [
+     "Bowling Green",
+     "Bowling Green State"
+    ],
+    "Bradley",
+    [
+     "West Virginia",
+     "WVU",
+     "West Virginia University"
+    ],
+    "Furman",
+    "Duquesne",
+    [
+     "Seattle",
+     "Seattle University"
+    ],
+    [
+     "St. Bonaventure",
+     "Saint Bonaventure"
+    ],
+    [
+     "Loyola Chicago",
+     "Loyola",
+     "Loyola (Illinois)"
+    ],
+    "Illinois State",
+    [
+     "Navy",
+     "US Naval Academy",
+     "Naval Academy"
+    ],
+    [
+     "Pacific",
+     "University of the Pacific"
+    ],
+    [
+     "LIU Brooklyn",
+     "LIU",
+     "Long Island University",
+     "Long Island",
+     "LIU Brooklyn Blackbirds"
+    ]
+   ],
+   "eraText": "Name a US college whose player went first overall in the NBA draft in the {era}",
+   "eras": {
+    "Duke": [
+     "60s",
+     "90s"
+    ],
+    "UCLA": [
+     "60s",
+     "70s"
+    ],
+    "Michigan State": [
+     "70s"
+    ],
+    "Syracuse": [
+     "90s"
+    ],
+    "Georgetown": [
+     "90s"
+    ],
+    "Indiana": [
+     "60s",
+     "70s"
+    ],
+    "LSU": [
+     "90s"
+    ],
+    "Michigan": [
+     "60s",
+     "90s"
+    ],
+    "Houston": [
+     "60s"
+    ],
+    "Notre Dame": [
+     "70s"
+    ],
+    "Maryland": [
+     "70s",
+     "90s"
+    ],
+    "Purdue": [
+     "90s"
+    ],
+    "UNLV": [
+     "90s"
+    ],
+    "Wake Forest": [
+     "90s"
+    ],
+    "Cincinnati": [
+     "60s"
+    ],
+    "Utah": [
+     "60s"
+    ],
+    "Davidson": [
+     "60s"
+    ],
+    "Providence": [
+     "60s"
+    ],
+    "NC State": [
+     "70s"
+    ],
+    "Minnesota": [
+     "70s"
+    ],
+    "Texas Western (UTEP)": [
+     "60s"
+    ],
+    "St. Bonaventure": [
+     "70s"
+    ],
+    "Loyola Chicago": [
+     "70s"
+    ],
+    "Illinois State": [
+     "70s"
+    ],
+    "Pacific": [
+     "90s"
+    ]
+   }
+  },
+  {
+   "id": "nba-d-olympic-medal-countries",
+   "tags": [
+    "global"
+   ],
+   "text": "Name a country (or former country) that has won a medal in men's Olympic basketball (1936 to 2024, not 3x3)",
+   "answers": [
+    [
+     "United States",
+     "USA",
+     "US",
+     "America",
+     "United States of America"
+    ],
+    [
+     "Soviet Union",
+     "USSR",
+     "CCCP",
+     "Soviet"
+    ],
+    "Yugoslavia",
+    "Spain",
+    "France",
+    "Argentina",
+    "Lithuania",
+    "Italy",
+    "Serbia",
+    "Brazil",
+    "Australia",
+    "Canada",
+    [
+     "Russia",
+     "Russian Federation",
+     "ROC"
+    ],
+    "Croatia",
+    "Cuba",
+    "Uruguay",
+    "Mexico"
+   ]
+  },
+  {
+   "id": "nba-d-nicknames",
+   "tags": [
+    "players"
+   ],
+   "text": "Name an NBA player by their famous nickname (the player's real name also counts)",
+   "answers": [
+    [
+     "King James",
+     "LeBron James",
+     "LeBron",
+     "James",
+     "The King"
+    ],
+    [
+     "Black Mamba",
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant",
+     "Mamba"
+    ],
+    [
+     "Air Jordan",
+     "Michael Jordan",
+     "Jordan",
+     "MJ",
+     "His Airness",
+     "Air"
+    ],
+    [
+     "Magic",
+     "Magic Johnson",
+     "Earvin Johnson"
+    ],
+    [
+     "Shaq",
+     "Shaquille O'Neal",
+     "Diesel",
+     "Shaq Diesel"
+    ],
+    [
+     "The Big Fundamental",
+     "Tim Duncan",
+     "Duncan"
+    ],
+    [
+     "The Greek Freak",
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Antetokounmpo"
+    ],
+    [
+     "The Beard",
+     "James Harden",
+     "Harden"
+    ],
+    [
+     "The Mailman",
+     "Karl Malone",
+     "Malone"
+    ],
+    [
+     "The Dream",
+     "Hakeem Olajuwon",
+     "Olajuwon",
+     "Hakeem"
+    ],
+    [
+     "The Answer",
+     "Allen Iverson",
+     "Iverson"
+    ],
+    [
+     "Dr J",
+     "Julius Erving",
+     "Erving",
+     "Doctor J"
+    ],
+    [
+     "Sir Charles",
+     "Charles Barkley",
+     "Barkley",
+     "Round Mound of Rebound"
+    ],
+    [
+     "The Admiral",
+     "David Robinson"
+    ],
+    [
+     "Vinsanity",
+     "Vince Carter",
+     "Half Man Half Amazing"
+    ],
+    [
+     "The Joker",
+     "Nikola Jokic",
+     "Jokic"
+    ],
+    [
+     "Larry Legend",
+     "Larry Bird",
+     "Bird",
+     "Legend"
+    ],
+    [
+     "The Worm",
+     "Dennis Rodman",
+     "Rodman"
+    ],
+    [
+     "Pistol Pete",
+     "Pete Maravich",
+     "Maravich",
+     "Pistol"
+    ],
+    [
+     "Wilt the Stilt",
+     "Wilt Chamberlain",
+     "Chamberlain",
+     "Wilt",
+     "The Big Dipper"
+    ],
+    [
+     "The Truth",
+     "Paul Pierce",
+     "Pierce"
+    ],
+    [
+     "The Big Ticket",
+     "Kevin Garnett",
+     "Garnett",
+     "KG"
+    ],
+    [
+     "Dame Time",
+     "Damian Lillard",
+     "Lillard",
+     "Dame",
+     "Dame Dolla"
+    ],
+    [
+     "The Brow",
+     "Anthony Davis",
+     "The Unibrow"
+    ],
+    [
+     "Slim Reaper",
+     "Kevin Durant",
+     "Durant",
+     "KD",
+     "Easy Money Sniper"
+    ],
+    [
+     "The Claw",
+     "Kawhi Leonard",
+     "Kawhi",
+     "Leonard",
+     "The Klaw"
+    ],
+    [
+     "Uncle Drew",
+     "Kyrie Irving",
+     "Kyrie",
+     "Irving"
+    ],
+    [
+     "Clyde the Glide",
+     "Clyde Drexler",
+     "Drexler",
+     "Clyde"
+    ],
+    [
+     "The Iceman",
+     "George Gervin",
+     "Gervin"
+    ],
+    [
+     "Big O",
+     "Oscar Robertson",
+     "Robertson"
+    ],
+    [
+     "The Logo",
+     "Jerry West",
+     "West",
+     "Mr Clutch"
+    ],
+    [
+     "Skywalker",
+     "David Thompson",
+     "Thompson"
+    ],
+    [
+     "The Pearl",
+     "Earl Monroe",
+     "Monroe",
+     "Earl the Pearl"
+    ],
+    [
+     "Penny",
+     "Penny Hardaway",
+     "Anfernee Hardaway",
+     "Hardaway"
+    ],
+    [
+     "The Human Highlight Film",
+     "Dominique Wilkins",
+     "Wilkins",
+     "Human Highlight Reel"
+    ],
+    [
+     "Chocolate Thunder",
+     "Darryl Dawkins",
+     "Dawkins"
+    ],
+    [
+     "The Matrix",
+     "Shawn Marion",
+     "Marion"
+    ],
+    [
+     "Baby-Faced Assassin",
+     "Stephen Curry",
+     "Steph Curry",
+     "Curry",
+     "Steph",
+     "Chef Curry"
+    ],
+    [
+     "The Process",
+     "Joel Embiid",
+     "Embiid"
+    ],
+    [
+     "Zeke",
+     "Isiah Thomas"
+    ],
+    [
+     "Ant-Man",
+     "Anthony Edwards",
+     "Ant",
+     "Edwards"
+    ],
+    [
+     "Wemby",
+     "Victor Wembanyama",
+     "Wembanyama",
+     "Wembenyama"
+    ],
+    [
+     "The Stifle Tower",
+     "Rudy Gobert",
+     "Gobert"
+    ],
+    [
+     "Playoff P",
+     "Paul George",
+     "George",
+     "PG13",
+     "PG"
+    ],
+    [
+     "Hondo",
+     "John Havlicek",
+     "Havlicek"
+    ],
+    [
+     "Mr Big Shot",
+     "Chauncey Billups",
+     "Billups",
+     "Big Shot"
+    ],
+    [
+     "Big Shot Bob",
+     "Robert Horry",
+     "Horry",
+     "Bob Horry"
+    ]
+   ]
+  }
+ ]
 }

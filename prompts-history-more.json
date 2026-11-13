@@ -473,7 +473,6 @@
      "Arbelai"
     ],
     "Bustuarius",
-    "Cestus",
     "Crupellarius",
     "Laquearius",
     "Parmularius",
@@ -1256,10 +1255,7 @@
     "Fen Causeway",
     "Wade's Causeway",
     "Via Devana",
-    [
-     "Cade's Road",
-     "Cades Road"
-    ]
+    "Cade's Road"
    ]
   },
   {
@@ -1599,7 +1595,6 @@
     "Amphipolis",
     "Olynthus",
     [
-     "Marseille",
      "Massalia",
      "Massilia"
     ],
@@ -1963,8 +1958,7 @@
     [
      "Velites",
      "Veles"
-    ],
-    "Quaestor"
+    ]
    ],
    "deep": true
   },
@@ -2509,7 +2503,8 @@
     [
      "Battle of Monte Cassino",
      "Monte Cassino",
-     "Cassino"
+     "Cassino",
+     "Battle of Cassino"
     ],
     [
      "Battle of the Atlantic",
@@ -2880,7 +2875,6 @@
      "Battle of Sedan",
      "Sedan"
     ],
-    "Battle of Cassino",
     [
      "Battle of the Philippines",
      "Philippines",
@@ -3179,10 +3173,6 @@
      "Operation Longcloth"
     ],
     [
-     "Paperclip",
-     "Operation Paperclip"
-    ],
-    [
      "Colossus",
      "Operation Colossus"
     ],
@@ -3238,9 +3228,8 @@
      "Edgehill"
     ],
     [
-     "Siege of Worcester",
-     "Worcester",
      "Battle of Worcester",
+     "Worcester",
      "Siege of Worcester (1643)"
     ],
     [
@@ -4311,7 +4300,6 @@
      "Burma"
     ],
     "Nauru",
-    "Oman",
     "Qatar",
     [
      "Saint Lucia",
@@ -4402,39 +4390,22 @@
     "Hwicce",
     [
      "Magonsæte",
-     "Magonsaete",
      "Magonset"
     ],
-    [
-     "Haestingas",
-     "Hæstingas"
-    ],
+    "Haestingas",
     "Meonwara",
     "Middle Angles",
     [
      "Middle Saxons",
      "Middlesex"
     ],
-    [
-     "Pecsæte",
-     "Pecsaete"
-    ],
+    "Pecsæte",
     "Surrey",
-    [
-     "Tomsæte",
-     "Tomsaete"
-    ],
-    [
-     "Wreocensæte",
-     "Wreocensaete"
-    ],
+    "Tomsæte",
+    "Wreocensæte",
     [
      "Wihtwara",
      "Isle of Wight"
-    ],
-    [
-     "Iclingas",
-     "Kingdom of the Iclingas"
     ]
    ],
    "deep": true
@@ -4444,7 +4415,7 @@
    "tags": [
     "events"
    ],
-   "text": "Name someone who flew in space from 1961 to 1970 (including the first X-15 pilots above 100 km)",
+   "text": "Name someone who flew in space from 1961 to 1970 (X-15 pilots who passed 50 miles count)",
    "answers": [
     [
      "Yuri Gagarin",
@@ -5439,7 +5410,9 @@
     ],
     [
      "Battle of Seven Pines",
-     "Seven Pines"
+     "Seven Pines",
+     "Battle of Fair Oaks",
+     "Fair Oaks"
     ],
     [
      "Battle of Fort Donelson",
@@ -5581,10 +5554,6 @@
     [
      "Battle of Gaines' Mill",
      "Gaines' Mill"
-    ],
-    [
-     "Battle of Fair Oaks",
-     "Fair Oaks"
     ],
     [
      "Battle of Williamsburg",
@@ -5763,7 +5732,9 @@
     ],
     [
      "Battle of Rhode Island",
-     "Rhode Island"
+     "Rhode Island",
+     "Battle of Newport",
+     "Newport"
     ],
     [
      "Battle of Stony Point",
@@ -5797,10 +5768,6 @@
     [
      "Battle of White Plains",
      "White Plains"
-    ],
-    [
-     "Battle of Newport",
-     "Newport"
     ]
    ],
    "deep": true
@@ -6197,22 +6164,10 @@
     "Matthias",
     "Charles the Bald",
     "Arnulf",
-    [
-     "Wenceslaus",
-     "Wenceslas",
-     "Wenzel"
-    ],
-    [
-     "Albert",
-     "Albert II"
-    ],
     "Berengar",
-    "Rupert",
-    "Philip of Swabia",
     "Lambert",
     "Guy",
-    "Charles the Fat",
-    "Adolf of Nassau"
+    "Charles the Fat"
    ],
    "deep": true
   },
@@ -6386,6 +6341,10 @@
     [
      "Joseph Goebbels",
      "Goebbels"
+    ],
+    [
+     "Philipp Scheidemann",
+     "Scheidemann"
     ]
    ]
   },
@@ -6476,7 +6435,12 @@
      "Fouche",
      "J. J. Fouche"
     ],
-    "Jan de Klerk"
+    "Jan de Klerk",
+    "Tom Naudé",
+    [
+     "Chris Heunis",
+     "Heunis"
+    ]
    ]
   },
   {

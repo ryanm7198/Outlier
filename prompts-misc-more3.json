@@ -479,7 +479,8 @@
     [
      "Bumbag",
      "Fanny pack",
-     "Waist bag"
+     "Waist bag",
+     "Bum bag"
     ],
     [
      "Messenger bag",
@@ -559,10 +560,7 @@
     "Sack",
     "Purse",
     "Evening bag",
-    [
-     "Minaudière",
-     "Minaudiere"
-    ],
+    "Minaudière",
     "Dry bag",
     "Pannier",
     [
@@ -585,8 +583,7 @@
     "Bin bag",
     "Tool bag",
     "Overnight bag",
-    "Box bag",
-    "Bum bag"
+    "Box bag"
    ]
   },
   {
@@ -610,10 +607,14 @@
     "Paisley",
     "Tartan",
     "Plaid",
-    "Gingham",
+    [
+     "Gingham",
+     "Gingham check"
+    ],
     [
      "Houndstooth",
-     "Dogtooth"
+     "Dogtooth",
+     "Hounds"
     ],
     "Herringbone",
     [
@@ -639,10 +640,7 @@
      "Checks",
      "Checked"
     ],
-    [
-     "Tie-dye",
-     "Tie dye"
-    ],
+    "Tie-dye",
     [
      "Pinstripe",
      "Pinstripes"
@@ -700,7 +698,6 @@
     "Giraffe print",
     "Cheetah print",
     "Swirl",
-    "Hounds",
     "Bandana print",
     [
      "Aztec print",
@@ -711,8 +708,7 @@
      "Tribal"
     ],
     "Chinoiserie",
-    "Liberty print",
-    "Gingham check"
+    "Liberty print"
    ]
   },
   {
@@ -1172,14 +1168,8 @@
     "Tamagotchi",
     "Slinky",
     "Etch A Sketch",
-    [
-     "Rubik's Cube",
-     "Rubiks Cube"
-    ],
-    [
-     "Play-Doh",
-     "Play Doh"
-    ],
+    "Rubik's Cube",
+    "Play-Doh",
     "Spirograph",
     [
      "Yo-yo",
@@ -1217,14 +1207,14 @@
     "Matchbox",
     "Corgi",
     "Airfix",
-    "Sylvanian Families",
+    [
+     "Sylvanian Families",
+     "Sylvanian"
+    ],
     "Polly Pocket",
     "Tonka",
     "Duplo",
-    [
-     "K'Nex",
-     "Knex"
-    ],
+    "K'Nex",
     "Nerf",
     "Kinetic sand",
     "Lite-Brite",
@@ -1260,21 +1250,14 @@
      "Gogo's Crazy Bones",
      "Crazy Bones"
     ],
-    [
-     "Pokémon cards",
-     "Pokemon cards"
-    ],
+    "Pokémon cards",
     "Beyblade",
     "Loom bands",
-    "Sylvanian",
     "Hungry Hungry Hippos",
     "Teletubbies",
     "Cuddly toy",
     "Doll",
-    [
-     "Dolls house",
-     "Dolls' house"
-    ],
+    "Dolls house",
     "Toy soldiers",
     "Train set",
     "Remote control car"

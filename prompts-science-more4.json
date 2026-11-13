@@ -68,7 +68,6 @@
     "Invertase",
     "Chymosin",
     "Zymase",
-    "Pepsinogen",
     "Elastase",
     "Nitrogenase",
     "Luciferase",
@@ -379,7 +378,6 @@
     "Molluscum contagiosum",
     "Pemphigus",
     "Hidradenitis suppurativa",
-    "Psoriatic arthritis",
     "Actinic keratosis",
     "Contact dermatitis",
     "Nappy rash",
@@ -1828,7 +1826,6 @@
     "Yellow-legged gull",
     "Caspian gull",
     "Bonaparte's gull",
-    "Kumlien's gull",
     "Ivory gull",
     "Ross's gull",
     "Gull-billed tern",
@@ -1926,7 +1923,7 @@
     "Ambrosia beetle",
     "Japanese beetle",
     [
-     "Cucumber beetle beetle",
+     "Cucumber beetle",
      "Darkling beetle"
     ],
     "Titan beetle",
@@ -2029,8 +2026,7 @@
     [
      "Diving bell spider",
      "Diving bell"
-    ],
-    "Camel spider"
+    ]
    ]
   },
   {
@@ -2105,7 +2101,7 @@
     "Mamushi",
     "Habu",
     "Saw-scaled viper",
-    "Russell's vipering snake",
+    "Russell's viper",
     "Water snake",
     "Egyptian cobra",
     "Spitting cobra",
@@ -2516,7 +2512,6 @@
     ],
     "Magnetite",
     "Galena",
-    "Bauxite",
     [
      "Barite",
      "Baryte"
@@ -2583,15 +2578,10 @@
     "Chalcedony",
     "Agate",
     "Jasper",
-    "Flint",
     "Emerald",
     "Ruby",
     "Sapphire",
     "Turquoise",
-    [
-     "Lapis lazuli",
-     "Lazurite"
-    ],
     "Moonstone",
     "Rhodochrosite",
     "Epidote",
@@ -2992,7 +2982,8 @@
     ],
     [
      "Harold Kroto",
-     "Kroto"
+     "Kroto",
+     "Sir Harry Kroto"
     ],
     [
      "Otto Hahn",
@@ -3089,9 +3080,10 @@
     "John Cornforth",
     "Alexander Todd",
     "Cyril Hinshelwood",
-    "Norman Haworth",
-    "Walter Haworth",
-    "Sir Harry Kroto"
+    [
+     "Walter Haworth",
+     "Norman Haworth"
+    ]
    ]
   },
   {
@@ -3517,7 +3509,6 @@
     ],
     "Nomex",
     "Mylar",
-    "Styrene",
     "Polyamide",
     "Orlon",
     "Dacron",
@@ -3536,12 +3527,10 @@
      "Polyvinyl acetate",
      "PVA"
     ],
-    "Acrylonitrile",
     "Polyisoprene",
     "Cellulose acetate",
     "Polyacrylamide",
-    "Polybutadiene",
-    "Tetra Pak"
+    "Polybutadiene"
    ]
   },
   {
@@ -3714,7 +3703,6 @@
     "Sextant",
     "Spectroscope",
     "Galvanometer",
-    "Centrifuge",
     "Microscope",
     "Telescope",
     "Stethoscope",
@@ -3768,11 +3756,7 @@
     "Polarimeter",
     "pH meter",
     "Pedometer",
-    "Thermostat",
-    [
-     "Sundial sock",
-     "Windsock"
-    ],
+    "Windsock",
     "Ceilometer",
     "Pyranometer",
     "Sunshine recorder",
@@ -3780,7 +3764,8 @@
     "Radiosonde",
     "Lysimeter",
     "Tide gauge",
-    "Echo sounder"
+    "Echo sounder",
+    "Sundial"
    ]
   },
   {
@@ -4525,7 +4510,7 @@
     "Strap-on booster",
     "Radiator",
     "Cupola",
-    "Hatchow",
+    "Hatch",
     "Retro rocket",
     "Ullage motor",
     "Payload adapter",

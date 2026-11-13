@@ -686,20 +686,11 @@
     "Pua",
     "Pegasus",
     "Phil",
-    [
-     "Mrs. Potts",
-     "Mrs Potts"
-    ],
+    "Mrs. Potts",
     "Chip",
     "Kronk",
     "Bagheera",
-    "Kaa",
-    "Kala",
     "Terk",
-    [
-     "Tick-Tock the Crocodile",
-     "Tick Tock"
-    ],
     "Smee",
     "Nana",
     [
@@ -820,7 +811,11 @@
     "Needleman",
     "Smitty",
     "Art",
-    "Squishy",
+    [
+     "Squishy",
+     "Scott Squibbles",
+     "Scott"
+    ],
     [
      "Dean Hardscrabble",
      "Hardscrabble"
@@ -854,15 +849,13 @@
      "Sherri"
     ],
     [
-     "Scott Squibbles",
-     "Scott"
-    ],
-    [
      "Frank McCay",
      "Frank"
     ],
-    "Yeti",
-    "Abominable Snowman",
+    [
+     "Abominable Snowman",
+     "Yeti"
+    ],
     [
      "George Sanderson",
      "George"
@@ -1648,198 +1641,53 @@
    ],
    "text": "Name a Mr. Men or Little Miss character",
    "answers": [
-    [
-     "Mr. Tickle",
-     "Mr Tickle"
-    ],
-    [
-     "Mr. Happy",
-     "Mr Happy"
-    ],
-    [
-     "Mr. Bump",
-     "Mr Bump"
-    ],
-    [
-     "Mr. Greedy",
-     "Mr Greedy"
-    ],
-    [
-     "Mr. Strong",
-     "Mr Strong"
-    ],
-    [
-     "Mr. Nosey",
-     "Mr Nosey"
-    ],
-    [
-     "Mr. Messy",
-     "Mr Messy"
-    ],
-    [
-     "Mr. Silly",
-     "Mr Silly"
-    ],
-    [
-     "Mr. Uppity",
-     "Mr Uppity"
-    ],
-    [
-     "Mr. Small",
-     "Mr Small"
-    ],
-    [
-     "Mr. Daydream",
-     "Mr Daydream"
-    ],
-    [
-     "Mr. Forgetful",
-     "Mr Forgetful"
-    ],
-    [
-     "Mr. Jelly",
-     "Mr Jelly"
-    ],
-    [
-     "Mr. Noisy",
-     "Mr Noisy"
-    ],
-    [
-     "Mr. Lazy",
-     "Mr Lazy"
-    ],
-    [
-     "Mr. Funny",
-     "Mr Funny"
-    ],
-    [
-     "Mr. Mean",
-     "Mr Mean"
-    ],
-    [
-     "Mr. Chatterbox",
-     "Mr Chatterbox"
-    ],
-    [
-     "Mr. Fussy",
-     "Mr Fussy"
-    ],
-    [
-     "Mr. Bounce",
-     "Mr Bounce"
-    ],
-    [
-     "Mr. Muddle",
-     "Mr Muddle"
-    ],
-    [
-     "Mr. Dizzy",
-     "Mr Dizzy"
-    ],
-    [
-     "Mr. Impossible",
-     "Mr Impossible"
-    ],
-    [
-     "Mr. Perfect",
-     "Mr Perfect"
-    ],
-    [
-     "Mr. Cheerful",
-     "Mr Cheerful"
-    ],
-    [
-     "Mr. Cool",
-     "Mr Cool"
-    ],
-    [
-     "Mr. Rush",
-     "Mr Rush"
-    ],
-    [
-     "Mr. Grumpy",
-     "Mr Grumpy"
-    ],
-    [
-     "Mr. Clumsy",
-     "Mr Clumsy"
-    ],
-    [
-     "Mr. Quiet",
-     "Mr Quiet"
-    ],
-    [
-     "Mr. Brave",
-     "Mr Brave"
-    ],
-    [
-     "Mr. Snow",
-     "Mr Snow"
-    ],
-    [
-     "Mr. Wrong",
-     "Mr Wrong"
-    ],
-    [
-     "Mr. Skinny",
-     "Mr Skinny"
-    ],
-    [
-     "Mr. Worry",
-     "Mr Worry"
-    ],
-    [
-     "Mr. Nobody",
-     "Mr Nobody"
-    ],
-    [
-     "Mr. Slow",
-     "Mr Slow"
-    ],
-    [
-     "Mr. Topsy-Turvy",
-     "Mr Topsy-Turvy"
-    ],
-    [
-     "Mr. Tall",
-     "Mr Tall"
-    ],
-    [
-     "Mr. Persnickety",
-     "Mr Persnickety"
-    ],
-    [
-     "Mr. Adventure",
-     "Mr Adventure"
-    ],
-    [
-     "Mr. Marvellous",
-     "Mr Marvellous"
-    ],
-    [
-     "Mr. Birthday",
-     "Mr Birthday"
-    ],
-    [
-     "Mr. Christmas",
-     "Mr Christmas"
-    ],
-    [
-     "Mr. Calm",
-     "Mr Calm"
-    ],
-    [
-     "Mr. Nonsense",
-     "Mr Nonsense"
-    ],
-    [
-     "Mr. Busy",
-     "Mr Busy"
-    ],
-    [
-     "Mr. Stubborn",
-     "Mr Stubborn"
-    ],
+    "Mr. Tickle",
+    "Mr. Happy",
+    "Mr. Bump",
+    "Mr. Greedy",
+    "Mr. Strong",
+    "Mr. Nosey",
+    "Mr. Messy",
+    "Mr. Silly",
+    "Mr. Uppity",
+    "Mr. Small",
+    "Mr. Daydream",
+    "Mr. Forgetful",
+    "Mr. Jelly",
+    "Mr. Noisy",
+    "Mr. Lazy",
+    "Mr. Funny",
+    "Mr. Mean",
+    "Mr. Chatterbox",
+    "Mr. Fussy",
+    "Mr. Bounce",
+    "Mr. Muddle",
+    "Mr. Dizzy",
+    "Mr. Impossible",
+    "Mr. Perfect",
+    "Mr. Cheerful",
+    "Mr. Cool",
+    "Mr. Rush",
+    "Mr. Grumpy",
+    "Mr. Clumsy",
+    "Mr. Quiet",
+    "Mr. Brave",
+    "Mr. Snow",
+    "Mr. Wrong",
+    "Mr. Skinny",
+    "Mr. Worry",
+    "Mr. Nobody",
+    "Mr. Slow",
+    "Mr. Topsy-Turvy",
+    "Mr. Tall",
+    "Mr. Persnickety",
+    "Mr. Adventure",
+    "Mr. Marvellous",
+    "Mr. Birthday",
+    "Mr. Christmas",
+    "Mr. Calm",
+    "Mr. Nonsense",
+    "Mr. Busy",
     [
      "Little Miss Sunshine",
      "Miss Sunshine"
@@ -2221,7 +2069,6 @@
     ],
     [
      "Mr. Gilbert",
-     "Mr Gilbert",
      "Gilbert"
     ],
     [
@@ -2240,12 +2087,11 @@
      "Polly McKenzie",
      "Polly"
     ],
-    "Alan Cooper",
-    "Pamela Cooper",
     [
-     "Mr. Cooper",
-     "Mr Cooper"
+     "Alan Cooper",
+     "Mr. Cooper"
     ],
+    "Pamela Cooper",
     "Tara",
     "Lucy",
     "Jane"
@@ -2414,10 +2260,7 @@
     "Broadchurch",
     "Happy Valley",
     "Prime Suspect",
-    [
-     "A Touch of Frost",
-     "Touch of Frost"
-    ],
+    "A Touch of Frost",
     "Taggart",
     "Rebus",
     "Wire in the Blood",
@@ -2446,10 +2289,7 @@
     "The Bill",
     "Heartbeat",
     "Z-Cars",
-    [
-     "The Sweeney",
-     "Sweeney"
-    ],
+    "The Sweeney",
     "Juliet Bravo",
     "Van der Valk",
     "Bergerac",
@@ -2458,31 +2298,18 @@
     "Grantchester",
     "Father Brown",
     "Unforgotten",
-    [
-     "Scott & Bailey",
-     "Scott and Bailey"
-    ],
+    "Scott & Bailey",
     "DCI Banks",
     "Whitechapel",
     "Ripper Street",
     "Dixon of Dock Green",
-    [
-     "Softly, Softly",
-     "Softly Softly"
-    ],
-    [
-     "The Professionals",
-     "Professionals"
-    ],
+    "Softly, Softly",
+    "The Professionals",
     "Life on Mars",
     "Ashes to Ashes",
-    [
-     "Foyle's War",
-     "Foyles War"
-    ],
+    "Foyle's War",
     "Rosemary & Thyme",
     "Cadfael",
-    "Bad Girls",
     "Hamish Macbeth",
     "Strike",
     "Hinterland"
@@ -2499,20 +2326,14 @@
     "Seinfeld",
     "Cheers",
     "Frasier",
-    [
-     "The Big Bang Theory",
-     "Big Bang Theory"
-    ],
+    "The Big Bang Theory",
     "How I Met Your Mother",
     "Modern Family",
     [
      "Brooklyn Nine-Nine",
      "Brooklyn 99"
     ],
-    [
-     "Parks and Recreation",
-     "Parks & Recreation"
-    ],
+    "Parks and Recreation",
     [
      "The Office",
      "The Office US"
@@ -2526,18 +2347,11 @@
      "Curb"
     ],
     "Two and a Half Men",
-    [
-     "That '70s Show",
-     "That 70s Show"
-    ],
-    [
-     "Will & Grace",
-     "Will and Grace"
-    ],
+    "That '70s Show",
+    "Will & Grace",
     "Everybody Loves Raymond",
     [
      "The Fresh Prince of Bel-Air",
-     "Fresh Prince of Bel-Air",
      "Fresh Prince"
     ],
     "Happy Days",
@@ -2546,42 +2360,26 @@
      "MASH"
     ],
     "Roseanne",
-    [
-     "Married... with Children",
-     "Married with Children"
-    ],
+    "Married... with Children",
     "Family Ties",
-    [
-     "The Golden Girls",
-     "Golden Girls"
-    ],
+    "The Golden Girls",
     "Saved by the Bell",
     "Full House",
     "Home Improvement",
     "Malcolm in the Middle",
     "New Girl",
-    "Schitt's Creek",
     "Ted Lasso",
     "Abbott Elementary",
     "Superstore",
-    [
-     "The Good Place",
-     "Good Place"
-    ],
+    "The Good Place",
     "Veep",
     "The Simpsons",
     "Taxi",
     "Mork & Mindy",
-    [
-     "The Cosby Show",
-     "Cosby Show"
-    ],
+    "The Cosby Show",
     "Gilligan's Island",
     "I Love Lucy",
-    [
-     "The Brady Bunch",
-     "Brady Bunch"
-    ],
+    "The Brady Bunch",
     "Bewitched",
     "I Dream of Jeannie",
     "Mom",
@@ -2590,10 +2388,7 @@
     "Young Sheldon",
     "The Middle",
     "Everybody Hates Chris",
-    [
-     "King of Queens",
-     "The King of Queens"
-    ],
+    "King of Queens",
     "Spin City",
     "Mad About You",
     "Wings",
@@ -2760,19 +2555,13 @@
     "QI",
     "Mock the Week",
     "8 Out of 10 Cats",
-    [
-     "Would I Lie to You?",
-     "Would I Lie to You"
-    ],
+    "Would I Lie to You?",
     "A League of Their Own",
     "Never Mind the Buzzcocks",
     "They Think It's All Over",
     "Shooting Stars",
     "Celebrity Juice",
-    [
-     "A Question of Sport",
-     "Question of Sport"
-    ],
+    "A Question of Sport",
     "Room 101",
     "Insert Name Here",
     [
@@ -2781,15 +2570,8 @@
     ],
     "Unspun",
     "The Last Leg",
-    [
-     "Richard Osman's House of Games",
-     "House of Games"
-    ],
     "Duck Quacks Don't Echo",
-    [
-     "Whose Line Is It Anyway?",
-     "Whose Line Is It Anyway"
-    ],
+    "Whose Line Is It Anyway?",
     "Argumental",
     "8 Out of 10 Cats Does Countdown"
    ]

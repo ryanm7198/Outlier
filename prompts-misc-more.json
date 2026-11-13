@@ -732,10 +732,7 @@
     ],
     "Tenzi",
     "Bo Bing",
-    [
-     "Chō-han",
-     "cho han"
-    ],
+    "Chō-han",
     "Can't Stop",
     "Cosmic Wimpout",
     "Bar dice",
@@ -1133,7 +1130,6 @@
     [
      "Settlers of Catan",
      "catan",
-     "the settlers of catan",
      "die siedler von catan"
     ],
     [
@@ -1172,30 +1168,20 @@
      "Railway Rivals",
      "dampfross"
     ],
-    [
-     "Sherlock Holmes: Consulting Detective",
-     "sherlock holmes consulting detective"
-    ],
+    "Sherlock Holmes: Consulting Detective",
     [
      "Top Secret Spies",
-     "heimlich & co",
-     "heimlich and co"
+     "heimlich & co"
     ],
     "Auf Achse",
     "Barbarossa",
-    [
-     "Café International",
-     "cafe international"
-    ],
+    "Café International",
     [
      "Adel Verpflichtet",
      "hoity toity",
      "by hook or by crook"
     ],
-    [
-     "Drunter und Drüber",
-     "drunter und druber"
-    ],
+    "Drunter und Drüber",
     "Um Reifenbreite",
     [
      "Call My Bluff",
@@ -1226,8 +1212,10 @@
      "dorfromantik the board game"
     ],
     "Bomb Busters",
-    "JinxO",
-    "Dito!"
+    [
+     "JinxO",
+     "Dito!"
+    ]
    ],
    "deep": true
   },
@@ -2620,15 +2608,8 @@
      "Microsoft Mahjong",
      "mahjong"
     ],
-    [
-     "Hover!",
-     "hover"
-    ],
+    "Hover!",
     "Tinker",
-    [
-     "Microsoft Ultimate Word Games",
-     "ultimate word games"
-    ],
     [
      "Candy Crush Saga",
      "candy crush"
@@ -2783,97 +2764,30 @@
    "answers": [
     [
      ".com",
-     "com",
      "dot com"
     ],
-    [
-     ".org",
-     "org"
-    ],
-    [
-     ".net",
-     "net"
-    ],
-    [
-     ".edu",
-     "edu"
-    ],
-    [
-     ".gov",
-     "gov"
-    ],
-    [
-     ".mil",
-     "mil"
-    ],
-    [
-     ".int",
-     "int"
-    ],
-    [
-     ".arpa",
-     "arpa"
-    ],
-    [
-     ".info",
-     "info"
-    ],
-    [
-     ".biz",
-     "biz"
-    ],
-    [
-     ".name",
-     "name"
-    ],
-    [
-     ".pro",
-     "pro"
-    ],
-    [
-     ".aero",
-     "aero"
-    ],
-    [
-     ".coop",
-     "coop"
-    ],
-    [
-     ".museum",
-     "museum"
-    ],
-    [
-     ".jobs",
-     "jobs"
-    ],
-    [
-     ".mobi",
-     "mobi"
-    ],
-    [
-     ".travel",
-     "travel"
-    ],
-    [
-     ".tel",
-     "tel"
-    ],
-    [
-     ".asia",
-     "asia"
-    ],
-    [
-     ".cat",
-     "cat"
-    ],
-    [
-     ".post",
-     "post"
-    ],
-    [
-     ".xxx",
-     "xxx"
-    ]
+    ".org",
+    ".net",
+    ".edu",
+    ".gov",
+    ".mil",
+    ".int",
+    ".arpa",
+    ".info",
+    ".biz",
+    ".name",
+    ".pro",
+    ".aero",
+    ".coop",
+    ".museum",
+    ".jobs",
+    ".mobi",
+    ".travel",
+    ".tel",
+    ".asia",
+    ".cat",
+    ".post",
+    ".xxx"
    ],
    "deep": true
   },
@@ -6160,7 +6074,7 @@
    "tags": [
     "culture"
    ],
-   "text": "Name a UK high-street bank or building society, past or present",
+   "text": "Name a UK bank or building society, past or present",
    "answers": [
     "Barclays",
     "HSBC",
