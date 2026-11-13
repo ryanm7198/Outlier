@@ -6,6 +6,7 @@ Review:   python server.py suggestions
 Approve:  python server.py approve <prompt-id> <answer text>
 """
 import datetime
+import functools
 import glob
 import hashlib
 import hmac
@@ -57,6 +58,11 @@ GRACE_S = 2            # leeway for answers sent as the clock hits zero
 PICK_S = 10            # party: seconds to decide whether to double down
 TIMERS = (15, 20, 30, 45, 60)   # party: answer times the host can pick
 LAUNCH = datetime.date(2026, 11, 10)
+STREAM_FROM = datetime.date(2026, 11, 13)   # dailies from this day on use the endless mix below (earlier days keep their prompts)
+# How big a share each top-level category gets in an Everything game: mostly general knowledge, with a sprinkle of
+# the specialist ones. Sport covers football and the NBA too, so it is one share however many questions it has.
+TOP_SHARE = {"geography": 1.5, "history": 1.5, "science": 1.5, "words": 1.5, "misc": 1.5, "food": 1.3,
+             "film": 1.0, "music": 0.8, "gaming": 0.6, "sport": 0.6}
 LOCK = threading.RLock()
 
 MIME = {
@@ -872,7 +878,7 @@ def bucket_weights(cat, groups, tags=()):
         totals = {}
         for t, r in zip(tops, root):
             totals[t] = totals.get(t, 0) + r
-        return [r / totals[t] for t, r in zip(tops, root)]
+        return [TOP_SHARE.get(t, 1.0) * r / totals[t] for t, r in zip(tops, root)]
     spread = children_of(cat) and not sub_choices(cat, tags)[1]
     return [math.sqrt(len(b)) if spread else 1.0 for b in groups]
 
@@ -895,6 +901,64 @@ def balanced_order(cat, tags, ids, rng):
         out.append(queues[k].pop(0))
         taken[k] += 1
     return out
+
+
+def balanced_stream(cat, tags, ids, rng, length):
+    """Like balanced_order, but no group ever runs dry: a group that has used all its prompts starts its
+    (shuffled) list again. So day 400 of a cycle is as well mixed as day 1, instead of being whatever is left
+    of the biggest category."""
+    groups = buckets(cat, tags, ids)
+    weights = bucket_weights(cat, groups, tags)
+    queues = []
+    for b in groups:
+        b = list(b)
+        rng.shuffle(b)
+        queues.append(b)
+    taken = [0] * len(queues)
+    out = []
+    for _ in range(length):
+        k = min(range(len(queues)), key=lambda k: (taken[k] + rng.random()) / weights[k])
+        out.append(queues[k][taken[k] % len(queues[k])])
+        taken[k] += 1
+    return out
+
+
+def everything_stream(ids, rng, length):
+    """The Everything daily: whole top-level categories take turns by their TOP_SHARE, so the sprinkle of sport
+    or music is spread evenly (never three on one day), and inside each category its own sub-categories
+    (football, darts, tennis...) take turns as well."""
+    fams = sorted({top_of(i) for i in ids})
+    total = sum(TOP_SHARE.get(f, 1.0) for f in fams)
+    queues = {}
+    for f in fams:
+        mine = [i for i in ids if top_of(i) == f]
+        need = int(length * TOP_SHARE.get(f, 1.0) / total * 1.5) + 10
+        queues[f] = balanced_stream(f, [], mine, random.Random(f"{rng.random()}"), need)
+    taken = dict.fromkeys(fams, 0)
+    out = []
+    for _ in range(length):
+        f = min(fams, key=lambda f: (taken[f] + rng.random() * .5) / TOP_SHARE.get(f, 1.0))
+        q = queues[f]
+        out.append(q[taken[f] % len(q)])
+        taken[f] += 1
+    return out
+
+
+@functools.lru_cache(maxsize=64)
+def daily_ids(cat, day):
+    """Today's prompt ids for a category (worked out once per day and kept)."""
+    ids = pool(cat, [])
+    n = min(DAILY_N, len(ids))
+    cycle, idx = divmod(day.toordinal(), max(1, len(ids) // n))
+    rng = random.Random(f"outlier-{cat}-{cycle}")
+    if day < STREAM_FROM:
+        return tuple(balanced_order(cat, [], ids, rng)[idx * n:(idx + 1) * n])
+    stream = everything_stream(ids, rng, (idx + 1) * n) if cat == "all" else balanced_stream(cat, [], ids, rng, (idx + 1) * n)
+    todays = []
+    for i in stream[idx * n:] + [j for j in ids if j not in stream[idx * n:]]:   # a small category wrapping inside one day can't repeat a prompt
+        if i not in todays:
+            todays.append(i)
+    return tuple(todays[:n])
 
 
 def pick_balanced(cat, tags, ids, seen, n):
@@ -962,10 +1026,7 @@ def daily(cat):
     if not ids:
         raise ApiError(404, "No prompts in that category")
     today = datetime.date.today()
-    n = min(DAILY_N, len(ids))
-    cycle, idx = divmod(today.toordinal(), max(1, len(ids) // n))
-    ids = balanced_order(cat, [], ids, random.Random(f"outlier-{cat}-{cycle}"))
-    todays = ids[idx * n:(idx + 1) * n]
+    todays = daily_ids(cat, today)
     return {"date": today.isoformat(), "number": (today - LAUNCH).days + 1, "cat": cat,
             "label": describe(cat, []), "roundMs": ROUND_S * 1000,
             "seed": "".join(code_for(i) for i in todays),   # the day's leaderboard is keyed by this
