@@ -162,14 +162,23 @@ function resultHTML(res) {
     <div class="tier" id="tier">&nbsp;</div>
     <p>${line}</p>
   </div>
-  <div>${crowdHTML(res.valid ? 100 : 0)}<p class="caption" id="caption">&nbsp;</p></div>`;
+  <div class="thin">${crowdHTML(res.valid ? 100 : 0)}<p class="caption" id="caption">&nbsp;</p></div>`;
 }
 
 // Suspense: the score climbs continuously, slowing as it nears its final value, while the lit crowd
 // thins out to the people who gave the same answer. Everything marked .wait appears once it stops.
 let skipBuild = null, raceSkip = null;
+// How many of the 100 dots are still lit at a given score. 0 points: the whole crowd. 10 (the answer everyone
+// gives): 60 left. Each extra point thins it further, down to 3 at 99, and an Outlier (150) leaves just you.
+function crowdFor(score) {
+  if (score <= 0) return 100;
+  if (score < 10) return Math.round(100 - 4 * score);
+  if (score <= 99) return Math.round(3 + 57 * Math.pow((99 - score) / 89, 1.5));
+  return Math.max(1, Math.round(3 - 2 * Math.min(1, (score - 99) / 51)));
+}
+
 function buildUp(res) {
-  const lit = res.valid ? Math.max(1, Math.round(res.share)) : 0;
+  const lit = res.valid ? crowdFor(res.points) : 0;
   const pts = $('#pts'), tierEl = $('#tier'), box = $('#result');
   const dots = [...app.querySelectorAll('.crowd i')], crowdEl = dots.length ? dots[0].parentElement : null;
   const capEl = $('#caption');
@@ -180,7 +189,7 @@ function buildUp(res) {
     // The people still lit take the colour of the rarity you have reached, and the crowd thins as you climb.
     const t = res.valid ? (final && res.outlier ? 5 : Math.min(4, Math.max(1, tier(score)))) : 0;
     if (crowdEl && t !== lastT) { lastT = t; crowdEl.dataset.t = t; }
-    if (res.valid && !final && capEl) capEl.innerHTML = `<b>${crowd} in 100</b> people said ${esc(res.canonical)}`;
+    if (res.valid && !final && capEl) capEl.innerHTML = `<b>${100 - crowd}</b> of 100 left behind`;
   };
   const finish = () => {
     skipBuild = null;
@@ -193,8 +202,8 @@ function buildUp(res) {
     // A buzz for the good ones: short for Rare and Ball knowledge, a double for an Outlier.
     try { if (res.valid && t >= 3 && navigator.vibrate) navigator.vibrate(t === 5 ? [70, 50, 140] : 35); } catch { /* not supported */ }
     $('#caption').innerHTML = !res.valid ? 'No distance gained this round.'
-      : res.share < 1 ? `Fewer than <b>1 in 100</b> people said ${esc(res.canonical)}`
-        : `<b>${lit} in 100</b> people said ${esc(res.canonical)}`;
+      : res.share < 1 ? `Under <b>1%</b> of players said ${esc(res.canonical)}`
+        : `<b>${Math.round(res.share)}%</b> of players said ${esc(res.canonical)}`;
     app.querySelectorAll('.wait').forEach(el => el.classList.remove('wait'));
     walk();
   };
@@ -206,7 +215,7 @@ function buildUp(res) {
     if (stopped || !pts.isConnected) return;
     const t = Math.min(1, (now - start) / duration), eased = 1 - Math.pow(1 - t, 3);
     const score = Math.round(res.points * eased);
-    paint(score, Math.round(100 - (100 - lit) * eased));
+    paint(score, crowdFor(score));
     tierEl.textContent = TIERS[Math.min(4, tier(score))] || ' ';
     if (t < 1) requestAnimationFrame(frame); else finish();
   };
