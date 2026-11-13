@@ -7,10 +7,11 @@
   <meta name="theme-color" content="#14152b">
   <title>Outlier stats</title>
   <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap">
   <style>
     :root { --bg: #0e0f22; --card: #181a35; --text: #f4f3fb; --muted: #9b9dc6; --you: #ff7a59; --line: rgba(255,255,255,.1); }
     * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif; }
     main { max-width: 760px; margin: 0 auto; padding: 24px 16px 60px; }
     a { color: var(--you); }
     h1 { font-size: 1.6rem; margin: 8px 0 2px; }
@@ -25,6 +26,10 @@
     th:first-child, td:first-child { text-align: left; }
     th { color: var(--muted); font-weight: 600; font-size: .85rem; }
     .bar { height: 8px; background: var(--you); border-radius: 4px; min-width: 2px; }
+    @media (prefers-color-scheme: light) {
+      :root { --bg: #f4f2ec; --card: #ffffff; --text: #1b1c33; --muted: #63657f; --you: #e8542e; --line: rgba(27, 28, 51, .1); }
+      p, li { color: #34364f; }
+    }
   </style>
 </head>
 <body>

@@ -155,7 +155,7 @@ function trailHTML(lanes, max) {
 function resultHTML(res) {
   const line = res.valid ? `You said <b>${esc(res.canonical)}</b>`
     : res.given ? `<span class="strike">${esc(res.given)}</span> isn't on the list yet. We've noted it for review.`
-      : 'No answer given.';
+      : 'You skipped this one.';
   return `<div class="result" id="result">
     <div class="pts" id="pts">+0</div>
     <div class="tier" id="tier">&nbsp;</div>
@@ -188,7 +188,7 @@ function buildUp(res) {
     paint(res.points, lit, true);
     box.className = `result t${t} done`;
     if (res.valid) tierEl.innerHTML = `<span class="tierbadge t${t}"><i></i>${TIERS[t]}</span>`;
-    else tierEl.textContent = res.given ? 'Not on the list' : 'No answer';
+    else tierEl.textContent = res.given ? 'Not on the list' : 'Skipped';
     // A buzz for the good ones: short for Rare and Ball knowledge, a double for an Outlier.
     try { if (res.valid && t >= 3 && navigator.vibrate) navigator.vibrate(t === 5 ? [70, 50, 140] : 35); } catch { /* not supported */ }
     $('#caption').innerHTML = !res.valid ? 'No distance gained this round.'
@@ -220,9 +220,9 @@ function outlierHTML(list, mine) {
 
 function boardHTML(board, mine, total) {
   const more = total && total > board.length;
-  return `<details><summary>${more ? `See the top answers (${total} in all)` : `See every answer (${board.length})`}</summary><ol class="rows board">${board.map(b => `
+  return `<details class="answers"><summary>${more ? `See the top answers (${total} in all)` : `See every answer (${board.length})`}</summary><ol class="rows board">${board.map(b => `
     <li class="${b.name === mine ? 'me' : ''}"><span class="main"><b>${esc(b.name)}</b></span>
-    ${b.outlier ? '<span class="tag">Outlier</span>' : ''}<span class="share">${b.share}%</span><span class="num">${b.points}</span></li>`).join('')}</ol></details>`;
+    ${b.outlier ? '<span class="tag">Outlier</span>' : ''}<span class="share">${Number(b.share).toFixed(1)}%</span><span class="num">${b.points}</span></li>`).join('')}</ol></details>`;
 }
 
 function questionHTML(text) {
@@ -852,7 +852,7 @@ function dailySummary(run) {
     <div class="squares">${squares}</div>
     <div class="card">${trailHTML([{ name: 'You', from: 0, to: saved.total, me: true }], max)}
       <p class="zone">You ended up: ${zoneName(saved.total, max)}</p></div>
-    <div class="sidecol"><ul class="rows card">${saved.results.map(r => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : `<span class="strike">${esc(r.given || 'No answer')}</span>`}</b>
+    <div class="sidecol"><ul class="rows card">${saved.results.map(r => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : (r.given ? `<span class="strike">${esc(r.given)}</span>` : '<span class="skipped">Skipped</span>')}</b>
       <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}</span></li>`).join('')}</ul>
     <div id="lb"></div></div>
     <div class="card seed">
@@ -990,14 +990,14 @@ function gameSummary(run) {
     <div class="squares">${squares}</div>
     <div class="card">${trailHTML(lanes, max)}
       <p class="zone">You ended up: ${zoneName(total, max)}</p></div>
-    <div class="sidecol"><ul class="rows card">${results.map((r, i) => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : `<span class="strike">${esc(r.given || 'No answer')}</span>`}</b>
+    <div class="sidecol"><ul class="rows card">${results.map((r, i) => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : (r.given ? `<span class="strike">${esc(r.given)}</span>` : '<span class="skipped">Skipped</span>')}</b>
       <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}${rival ? `<small>${esc(rival.name)} +${rival.points[i] || 0}</small>` : ''}</span></li>`).join('')}</ul>
     <div id="lb"></div></div>
     <div class="card seed">
       <label for="who">Challenge a friend on these 7 prompts</label>
       <input type="text" id="who" maxlength="16" placeholder="Your name" value="${esc(store.get('outlier.name', ''))}" autocomplete="off">
       <button class="btn primary" id="share">Send challenge</button>
-      <p class="muted">Seed: <code>${esc(game.seed)}</code></p>
+      <p class="gamecode">Game code <code>${esc(game.seed)}</code></p>
     </div>
     <div class="stack"><button class="btn" id="again">New game</button></div>`);
   $('#back').onclick = soloMenu;
