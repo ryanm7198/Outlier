@@ -151,7 +151,10 @@ async function shareText(text, url) {
 
 const TIERS = ['', 'With the crowd', 'Common', 'Uncommon', 'Rare', 'Outlier!'];
 const SQUARES = ['⬛', '🟫', '🟧', '🟨', '🟩', '🟪'];
-const tier = pts => pts >= 100 ? 5 : pts >= 75 ? 4 : pts >= 50 ? 3 : pts >= 25 ? 2 : pts > 0 ? 1 : 0;
+// Rarity from points, topping out at Rare. Outlier (5) only ever comes from the answer itself being an Outlier,
+// never from a high score, so a doubled 60 (120 points) is still Rare.
+const tier = pts => pts >= 75 ? 4 : pts >= 50 ? 3 : pts >= 25 ? 2 : pts > 0 ? 1 : 0;
+const tierOf = r => r.outlier || (!r.doubled && r.points >= 150) ? 5 : tier(r.points);   // old saved results have no outlier flag
 
 const ZONES = [[0, 'In the crowd'], [.12, 'Side streets'], [.3, 'Back roads'], [.5, 'Open country'], [.7, 'The wilds'], [.9, 'Off the map']];
 const zoneName = (score, max) => ZONES.filter(z => score / max >= z[0]).pop()[1];
@@ -946,7 +949,7 @@ function streakHTML() {
 
 function dailySummary(run) {
   const { saved } = run, max = saved.results.length * 100;
-  const squares = saved.results.map(r => SQUARES[tier(r.points)]).join('');
+  const squares = saved.results.map(r => SQUARES[tierOf(r)]).join('');
   const label = saved.label || run.day.label;
   show(`<header class="bar"><button class="link" id="back">‹ Back</button><span>${esc(label)} #${saved.number}</span><span></span></header>
     <div class="total">${saved.total}<small> / ${max * 1.5} paces</small></div>
@@ -1083,7 +1086,7 @@ function readChallenge(path) {
 
 function gameSummary(run) {
   const { results, rival, game } = run, total = sum(results), max = results.length * 100;
-  const squares = results.map(r => SQUARES[tier(r.points)]).join('');
+  const squares = results.map(r => SQUARES[tierOf(r)]).join('');
   const theirs = rival ? rival.points.reduce((a, b) => a + b, 0) : 0;
   const verdict = !rival ? '' : total > theirs ? `You beat ${esc(rival.name)} by ${total - theirs}!`
     : total < theirs ? `${esc(rival.name)} wins by ${theirs - total}.` : `Dead heat with ${esc(rival.name)}!`;
