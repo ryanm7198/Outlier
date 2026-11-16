@@ -58,6 +58,14 @@ GRACE_S = 2            # leeway for answers sent as the clock hits zero
 PICK_S = 10            # party: seconds to decide whether to double down
 TIMERS = (15, 20, 30, 45, 60)   # party: answer times the host can pick
 LAUNCH = datetime.date(2026, 11, 10)
+EASY_FROM = datetime.date(2026, 11, 17)     # dailies from this day on only use questions most people can answer
+# How easy each question is (1 = specialist, 5 = almost anyone can name one), from daily_ease.json. Questions about a
+# single artist, show, game or film series only make the daily if they are mega-famous (5); others need 4 or more.
+# Category dailies (Sport, Music...) are allowed one notch harder, as the player chose that topic.
+EASE = {}
+ONE_THING = re.compile(r"\b(song|single|track|album|b-side) (by|on|from)\b|'s '|character (from|in)|characters? (from|in)|"
+                       r"episode|series of|season of|in (the )?[A-Z][\w' ]+ (series|franchise|films?)|\bfrom '", re.I)
+ONE_NAME = re.compile(r"^Name an? (?:[A-Z][\w.'&-]*\s)+(single|song|album|film|track|character)s?\b")   # "Name a Stevie Wonder single"
 STREAM_FROM = datetime.date(2026, 11, 13)   # dailies from this day on use the endless mix below (earlier days keep their prompts)
 # How big a share each top-level category gets in an Everything game: mostly general knowledge, with a sprinkle of
 # the specialist ones. Sport covers football and the NBA too, so it is one share however many questions it has.
@@ -129,6 +137,13 @@ def add_key(pid, key, name):
     if key:
         LOOKUP[pid].setdefault(key, name)
         LOOKUP[pid].setdefault(key.replace(" ", ""), name)
+
+
+def load_ease():
+    path = os.path.join(ROOT, "daily_ease.json")
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            EASE.update(json.load(f))
 
 
 def load_prompts():
@@ -944,10 +959,27 @@ def everything_stream(ids, rng, length):
     return out
 
 
+def daily_ok(pid, cat):
+    """Is this question easy enough for a daily? Unrated questions are left out once ratings exist."""
+    score = EASE.get(pid.split("--")[0], 0)
+    need = 5 if cat == "all" else 3   # Everything: only questions almost anyone can answer
+    if ONE_THING.search(PROMPTS[pid]["text"]) or ONE_NAME.search(PROMPTS[pid]["text"]):
+        need += 1   # one artist or one show: only the very famous ones
+    return score >= need
+
+
+def daily_pool(cat, day):
+    ids = pool(cat, [])
+    if day < EASY_FROM or not EASE:
+        return ids
+    easy = [i for i in ids if daily_ok(i, cat)]
+    return easy if len(easy) >= 5 * DAILY_N else ids   # a tiny category keeps everything rather than repeating a handful
+
+
 @functools.lru_cache(maxsize=64)
 def daily_ids(cat, day):
     """Today's prompt ids for a category (worked out once per day and kept)."""
-    ids = pool(cat, [])
+    ids = daily_pool(cat, day)
     n = min(DAILY_N, len(ids))
     cycle, idx = divmod(day.toordinal(), max(1, len(ids) // n))
     rng = random.Random(f"outlier-{cat}-{cycle}")
@@ -1646,6 +1678,7 @@ def cli(args):
 
 def main():
     load_prompts()
+    load_ease()
     open_db()
     if len(sys.argv) > 1:
         return cli(sys.argv[1:])
