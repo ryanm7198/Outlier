@@ -803,7 +803,7 @@ function upsellScreen(msg) {
     <section class="card"><h3>With Plus</h3><ul class="awards">
       ${li('play', 'Quick games', 'Any category, sub-category or mix, any time')}
       ${li('calendar', 'Every daily', 'Any category every day, not just one')}
-      ${li('users', 'Bigger party rooms', 'Host up to 12 players instead of 4')}
+      ${li('users', 'Bigger party rooms', 'Host up to 12 players instead of 4, and pick the categories')}
     </ul></section>
     ${!plan.payments ? '' : me ? `<button class="btn primary" id="subscribe">Get Outlier Plus</button>` : ''}
     ${me ? '' : '<button class="btn primary" id="signin">Sign in' + (plan.payments ? ' to subscribe' : '') + '</button>'}
@@ -1153,7 +1153,7 @@ function partyMenu(code = '') {
     <section class="field"><label for="name">Your name</label>
       <input type="text" id="name" maxlength="16" placeholder="What should everyone call you?" value="${esc(store.get('outlier.name', ''))}" autocomplete="nickname"></section>
     <section class="card choice${code ? '' : ' lead'}">
-      <div class="choice-h"><span class="mode-ic">${ic('crown')}</span><div><b>Host a game</b><small>Get a room code, pick the category, start when everyone's in</small></div></div>
+      <div class="choice-h"><span class="mode-ic">${ic('crown')}</span><div><b>Host a game</b><small>Get a room code${limited() ? '' : ', pick the category'}, start when everyone's in</small></div></div>
       <button class="btn${code ? '' : ' primary'}" id="create">Create a room</button>
       ${limited() ? `<p class="fine">${ic('users')}<span>Free rooms hold 4 players. Outlier Plus hosts up to 12.</span></p>` : ''}
     </section>
@@ -1261,7 +1261,10 @@ function partyLobby(s, host) {
     </section>
     <section class="card"><h3>Players <small>${s.players.length}</small></h3><ul class="rows players" id="players"></ul></section>
     <section class="card"><h3>Your colour</h3><div class="swatches" id="colors"></div></section>
-    ${host ? `<section class="sec"><div id="picker"></div></section>
+    ${host ? `<section class="sec">${limited() ? `<div class="picker">
+        <button class="tile wide on" disabled><span class="tile-ic">${ic('sparkles')}</span><span class="tile-l">Everything</span><span class="tile-n">A mix from every category</span></button>
+        <button class="mode" id="partyPlus"><span class="mode-ic">${ic('lock')}</span><span class="mode-t"><b>Choose categories</b><small>Pick any category or mix for your party. Outlier Plus</small></span></button>
+      </div>` : '<div id="picker"></div>'}</section>
       <section class="card settings">
         <div class="setting"><span>Rounds</span>${seg('rounds', [3, 5, 7, 10], party.rounds, '')}</div>
         <div class="setting"><span>Time to answer</span>${seg('secs', [15, 30, 45, 60], party.secs, 's')}</div>
@@ -1272,7 +1275,9 @@ function partyLobby(s, host) {
   $('#invite').onclick = () => shareText(`${location.origin}/?room=${s.code}`);
   $('#colors').onclick = e => { const b = e.target.closest('[data-c]'); if (b && !b.disabled) partyPost('/api/room/color', { color: +b.dataset.c }); };
   if (!host) return;
-  mountPicker($('#picker'), () => { $('#start').disabled = !poolCount(pick); });
+  if (limited()) {   // free hosts play Everything (the server enforces this too)
+    $('#partyPlus').onclick = () => toast('Choosing party categories is part of Outlier Plus');
+  } else mountPicker($('#picker'), () => { $('#start').disabled = !poolCount(pick); });
   const chips = (id, field) => $(id).onclick = e => {
     const b = e.target.closest('.chip');
     if (!b) return;
@@ -1281,11 +1286,11 @@ function partyLobby(s, host) {
   };
   chips('#rounds', 'rounds');
   chips('#secs', 'secs');
-  $('#start').disabled = !poolCount(pick);
+  $('#start').disabled = !limited() && !poolCount(pick);
   $('#start').onclick = startParty;
 }
 
-const startParty = () => partyPost('/api/room/start', { ...apiPick(pick), rounds: party.rounds, secs: party.secs });
+const startParty = () => partyPost('/api/room/start', { ...(limited() ? { cat: 'all', tags: [] } : apiPick(pick)), rounds: party.rounds, secs: party.secs });
 
 // Before each prompt: the category only, and a once-per-game chance to double the round.
 function partyPick(s) {

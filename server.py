@@ -1561,6 +1561,8 @@ def api_post(path, body):
         if room["phase"] not in ("lobby", "final"):
             raise ApiError(400, "Game already running")
         cat, tags = str(body.get("cat") or "all"), [str(t) for t in body.get("tags") or []][:20]
+        if (cat != "all" or tags) and not is_plus():   # free hosts play Everything; choosing categories is Plus
+            raise ApiError(402, "Choosing categories for a party is part of Outlier Plus. Free rooms play Everything.")
         size = len(pool(cat, tags))
         if not size:
             raise ApiError(400, "No prompts match those filters")
