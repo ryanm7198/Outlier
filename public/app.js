@@ -717,7 +717,16 @@ function signInScreen(sent = null) {
     const email = $('#email').value.trim();
     if (!email) return toast('Type your email first');
     $('#send').disabled = true;
-    try { signInScreen({ ...(await api('/api/auth/request', { email })), email }); }
+    try {
+      const r = await api('/api/auth/request', { email });
+      if (r.pass) {   // the secret pass code: straight in, with Plus
+        store.set('outlier.session', r.session);
+        await loadMe();
+        toast('Plus unlocked');
+        return home();
+      }
+      signInScreen({ ...r, email });
+    }
     catch (e) { toast(e.message); $('#send').disabled = false; }
   };
   $('#send').onclick = go;

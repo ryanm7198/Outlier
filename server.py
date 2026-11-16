@@ -39,6 +39,10 @@ DEV = os.environ.get("OUTLIER_DEV") == "1"                  # local testing: sig
 MAIL_KEY = os.environ.get("RESEND_API_KEY", "")              # Resend (resend.com) key for sending sign-in emails
 MAIL_FROM = os.environ.get("OUTLIER_MAIL_FROM", "Outlier <hello@outliertrivia.app>")
 PAYWALL = os.environ.get("OUTLIER_PAYWALL") == "1"            # off: everyone has everything (nothing is limited)
+# A secret pass code (set on the host, never in the code): typed into the sign-in email box, it signs that browser
+# into its own new Plus account straight away, no email needed. Unset it to switch every pass account back to free.
+PASS_CODE = os.environ.get("OUTLIER_PASS_CODE", "").strip().lower()
+PASS_PREFIX = "pass:"   # pass accounts have no email; their "email" column is pass:<random>
 PLUS_EMAILS = {e.strip().lower() for e in os.environ.get("OUTLIER_PLUS_EMAILS", "").split(",") if e.strip()}   # always full access
 STRIPE_KEY = os.environ.get("STRIPE_SECRET_KEY", "")          # Stripe secret key (sk_test_... while testing)
 STRIPE_PRICE = os.environ.get("STRIPE_PRICE_ID", "")           # the monthly Outlier Plus price (price_...)
@@ -460,7 +464,8 @@ def is_plus(user=None):
     user = user or current_user()
     if not PAYWALL:
         return True
-    return bool(user and (user["email"] in PLUS_EMAILS or sub_status(user["id"]) in LIVE_SUB))
+    return bool(user and (user["email"] in PLUS_EMAILS or (PASS_CODE and user["email"].startswith(PASS_PREFIX))
+                          or sub_status(user["id"]) in LIVE_SUB))
 
 
 LIVE_SUB = ("active", "trialing", "past_due")   # past_due keeps access while Stripe retries the card
@@ -594,6 +599,8 @@ def send_login_email(email, link, code):
 
 def request_login(body):
     email = str(body.get("email") or "").strip().lower()[:160]
+    if PASS_CODE and len(PASS_CODE) >= 6 and hmac.compare_digest(email.encode(), PASS_CODE.encode()):
+        return {**start_session(PASS_PREFIX + secrets.token_hex(8)), "email": "Plus pass", "pass": True}
     if not EMAIL_RE.match(email):
         raise ApiError(400, "That does not look like an email address")
     if not (MAIL_KEY or DEV):
@@ -1451,7 +1458,7 @@ def api_get(path, q):
         if user:
             row = DB.execute("SELECT cat FROM daily_claims WHERE user_id = ? AND day = ?", (user["id"], datetime.date.today().isoformat())).fetchone()
             claim = row[0] if row else None
-        return {"user": {"email": user["email"]} if user else None, "signin": bool(MAIL_KEY or DEV),
+        return {"user": {"email": "Plus pass" if user["email"].startswith(PASS_PREFIX) else user["email"]} if user else None, "signin": bool(MAIL_KEY or DEV),
                 "plus": is_plus(user), "paywall": PAYWALL, "claim": claim,
                 "payments": bool(STRIPE_KEY and STRIPE_PRICE), "price": PRICE_LABEL,
                 "subscribed": bool(user and sub_status(user["id"]) in LIVE_SUB),
