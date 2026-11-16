@@ -586,7 +586,7 @@ function mountPicker(el, onChange, heading = 'Choose a category') {
       <h2 class="sec-h">${esc(heading)}</h2>
       <div class="tiles">${CATS.filter(x => !x.parent && x.id !== 'all').map(x => tile(x)).join('')}</div>
       <div class="mix">
-        <div class="narrow-h"><h3>Your mix</h3><span class="count">${n} prompt${n === 1 ? '' : 's'}</span></div>
+        <div class="narrow-h"><h3>Your mix</h3><span class="mix-r">${sels.length ? `<button class="clearall" data-clear>${ic('x')}Clear all</button>` : ''}<span class="count">${n} prompt${n === 1 ? '' : 's'}</span></span></div>
         ${sels.length ? `<div class="chips">${sels.map(([cat, tags]) =>
           `<span class="mixchip">${esc(labelOne(cat, tags))}<button data-drop="${cat}" aria-label="Remove ${esc(catOf(cat).label)}">${ic('x')}</button></span>`).join('')}</div>
           <p class="fine">Tap more categories to add them to the mix.</p>`
@@ -597,6 +597,7 @@ function mountPicker(el, onChange, heading = 'Choose a category') {
   el.onclick = e => {
     const drop = e.target.closest('[data-drop]');
     if (drop) { delete pick.sels[drop.dataset.drop]; return save(); }
+    if (e.target.closest('[data-clear]')) { pick = { sels: {} }; return save(); }
     const b = e.target.closest('.tile');
     if (!b) return;
     const id = b.dataset.cat;

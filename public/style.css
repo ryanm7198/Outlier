@@ -599,3 +599,10 @@ details.answers .board .num { min-width: 2.4em; text-align: right; }
 .intro-bar i { display: block; height: 100%; background: var(--you); transform-origin: left; animation: fill 1.6s linear both; }
 @keyframes fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 @media (prefers-reduced-motion: reduce) { #app.enter > *, .intro-dots .crowd i, .intro-bar i { animation: none; } }
+
+/* "Your mix": clear every category in one tap */
+.mix-r { display: inline-flex; align-items: center; gap: 8px; }
+.clearall { display: inline-flex; align-items: center; gap: 4px; font-size: .78rem; font-weight: 700; color: var(--muted);
+  padding: 3px 10px 3px 7px; border-radius: 99px; border: 1px solid var(--line); background: transparent; cursor: pointer; }
+.clearall:hover { color: var(--text); border-color: var(--line-2); }
+.clearall .ic { width: 13px; height: 13px; stroke-width: 2.4; }
