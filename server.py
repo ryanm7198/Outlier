@@ -69,7 +69,7 @@ ONE_NAME = re.compile(r"^Name an? (?:[A-Z][\w.'&-]*\s)+(single|song|album|film|t
 STREAM_FROM = datetime.date(2026, 11, 13)   # dailies from this day on use the endless mix below (earlier days keep their prompts)
 # How big a share each top-level category gets in an Everything game: mostly general knowledge, with a sprinkle of
 # the specialist ones. Sport covers football and the NBA too, so it is one share however many questions it has.
-TOP_SHARE = {"geography": 1.5, "history": 1.5, "science": 1.5, "words": 1.5, "misc": 1.5, "food": 1.3,
+TOP_SHARE = {"geography": 1.5, "history": 0.9, "science": 1.5, "words": 1.5, "misc": 1.5, "food": 1.3,
              "film": 1.0, "music": 0.8, "gaming": 0.6, "sport": 0.6}
 LOCK = threading.RLock()
 
@@ -998,25 +998,61 @@ def pick_balanced(cat, tags, ids, seen, n):
     first and then the ones seen longest ago (seen is oldest first)."""
     groups = buckets(cat, tags, ids)
     weights = bucket_weights(cat, groups, tags)
+    # Decade versions ("...number 14 in the 1990s") are the same question as the main one: seeing one counts as
+    # seeing them all, and a game never has two of them.
+    last = {}
+    for pos, s in enumerate(seen):
+        last[s.split("--")[0]] = pos
     order = []
     for b in groups:
-        fresh = [i for i in b if i not in seen]
+        fresh = [i for i in b if i.split("--")[0] not in last]
         random.shuffle(fresh)
-        order.append(fresh + sorted((i for i in b if i in seen), key=seen.index))
+        order.append(fresh + sorted((i for i in b if i.split("--")[0] in last), key=lambda i: last[i.split("--")[0]]))
     taken = [0] * len(order)
-    picked = []
+    picked, bases, kinds, spare = [], set(), {}, []
+
+    def fits(i):
+        k = kind_of(i)
+        return i.split("--")[0] not in bases and not (k and kinds.get(k, 0) >= KIND_CAP)
+
     while len(picked) < n and any(order):
         # The filter furthest below its fair share goes next; the random nudge lets bigger ones win ties more often.
         live = [k for k in range(len(order)) if order[k]]
         k = min(live, key=lambda k: (taken[k] + random.random()) / weights[k])
         b = order[k]
-        while b and b[0] in picked:
-            b.pop(0)
+        while b and not fits(b[0]):
+            spare.append(b.pop(0))
         if b:
-            picked.append(b.pop(0))
+            i = b.pop(0)
+            picked.append(i)
+            bases.add(i.split("--")[0])
+            if kind_of(i):
+                kinds[kind_of(i)] = kinds.get(kind_of(i), 0) + 1
             taken[k] += 1
+    for i in spare:   # a narrow pick (only shirt numbers, say) still fills the game
+        if len(picked) >= n:
+            break
+        if i not in picked and i.split("--")[0] not in bases:
+            picked.append(i)
+            bases.add(i.split("--")[0])
     random.shuffle(picked)
     return picked
+
+
+# Question "kinds" that look alike from one round to the next (Name a Premier League number 14 / number 7 /
+# a Chelsea number 9...): a game gets at most one of each kind, so they come up as a sprinkle, not a run.
+KIND_CAP = 1
+KINDS = [("shirt", re.compile(r"\bnumber (\d+)\b(?! of)", re.I))]
+
+
+def kind_of(pid):
+    p = PROMPTS[pid]
+    if p["cat"] not in ("football", "nba", "sport"):
+        return None
+    for name, rx in KINDS:
+        if rx.search(p["text"]):
+            return name
+    return None
 
 
 def categories():
