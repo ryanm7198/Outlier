@@ -42,10 +42,37 @@ function walk() {
   }));
 }
 
+let lastScreen = '';
 function show(html) {
+  const sig = html.replace(/\d+/g, '').slice(0, 900);
+  const fresh = sig !== lastScreen;
+  lastScreen = sig;
   app.innerHTML = html;
-  window.scrollTo(0, 0);
+  if (fresh && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    app.classList.remove('enter');
+    void app.offsetWidth;   // restart the animation
+    app.classList.add('enter');
+  }
+  if (fresh) window.scrollTo(0, 0);
   walk();
+}
+
+// A short title card before a game starts ("Daily seven · Everything", "7 prompts · 30 seconds each"),
+// so jumping into the first question isn't so abrupt. Tap to skip; it is skipped when motion is reduced.
+function intro(title, sub, then) {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return then();
+  stopTimer();
+  show(`<section class="intro" id="intro">
+      <div class="intro-dots">${crowdHTML(3)}</div>
+      <p class="eyebrow">Get ready</p>
+      <h1>${esc(title)}</h1>
+      <p class="muted">${esc(sub)}</p>
+      <div class="intro-bar"><i></i></div>
+    </section>`);
+  let done = false;
+  const go = () => { if (done) return; done = true; then(); };
+  $('#intro').onclick = go;
+  setTimeout(go, 1600);
 }
 
 // A small line-icon set, drawn with currentColor so icons follow the text colour.
@@ -132,7 +159,7 @@ const zoneName = (score, max) => ZONES.filter(z => score / max >= z[0]).pop()[1]
 // 100 people; the lit ones gave the same answer as you. Each dot has a random rank so the crowd thins evenly.
 function crowdHTML(lit) {
   const ranks = [...Array(100).keys()].sort(() => Math.random() - .5);
-  return `<div class="crowd">${ranks.map(r => `<i data-rank="${r}"${r < lit ? ' class="on"' : ''}></i>`).join('')}</div>`;
+  return `<div class="crowd">${ranks.map(r => `<i data-rank="${r}" style="--d:${r * 8}"${r < lit ? ' class="on"' : ''}></i>`).join('')}</div>`;
 }
 
 // lanes: [{name, from, to, me}] - one marker per player walking away from the crowd.
@@ -802,7 +829,7 @@ function soloMenu() {
   mountPicker($('#picker'), refresh);
   refresh();
   $('#back').onclick = home;
-  $('#daily').onclick = startDaily;
+  $('#daily').onclick = () => startDaily();   // not startDaily directly: the click event would be taken as the category
   $('#free').onclick = () => startGame();
   app.querySelectorAll('.recentbtn').forEach(b => b.onclick = () => {
     pick = JSON.parse(JSON.stringify(recent[+b.dataset.i]));
@@ -825,7 +852,9 @@ async function startDaily(cat = dailyCat(pick)) {
   let saved = store.get(key);
   if (!saved || saved.date !== day.date) saved = { date: day.date, number: day.number, label: day.label, results: [], done: false };
   const run = { day, key, saved };
-  saved.done ? dailySummary(run) : dailyQuestion(run);
+  if (saved.done) return dailySummary(run);
+  if (saved.results.length) return dailyQuestion(run);
+  intro(`Daily seven · ${day.label}`, `#${day.number} · ${day.prompts.length} prompts · ${Math.round(day.roundMs / 1000)} seconds each`, () => dailyQuestion(run));
 }
 
 const sum = results => results.reduce((n, r) => n + r.points, 0);
@@ -964,7 +993,9 @@ async function startGame(opts = {}) {
   const ids = game.prompts.map(p => p.id);
   store.set('outlier.seen', [...seen.filter(id => !ids.includes(id)), ...ids].slice(-300));
   if (opts.rival) game.label = `${opts.rival.name}'s challenge`;
-  gameQuestion({ game, rival: opts.rival || null, results: [] });
+  const run = { game, rival: opts.rival || null, results: [] };
+  intro(opts.rival ? game.label : `Quick game · ${game.label}`,
+    `${game.prompts.length} prompts · ${Math.round(game.roundMs / 1000)} seconds each${opts.rival ? ` · beat ${opts.rival.name}` : ''}`, () => gameQuestion(run));
 }
 
 function gameQuestion(run) {

@@ -575,3 +575,27 @@ details.answers .board .num { min-width: 2.4em; text-align: right; }
 .thin .crowd i { transition: background .3s, opacity .45s, transform .45s, box-shadow .4s; }
 .thin .crowd i:not(.on) { transform: scale(.55); opacity: .35; }
 @media (prefers-reduced-motion: reduce) { .thin .crowd i { transition: none; } }
+
+/* screen changes: blocks rise in one after another */
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+#app.enter > * { animation: rise .42s cubic-bezier(.2, .8, .2, 1) both; }
+#app.enter > *:nth-child(2) { animation-delay: .05s; }
+#app.enter > *:nth-child(3) { animation-delay: .1s; }
+#app.enter > *:nth-child(4) { animation-delay: .15s; }
+#app.enter > *:nth-child(5) { animation-delay: .2s; }
+#app.enter > *:nth-child(6) { animation-delay: .24s; }
+#app.enter > *:nth-child(n+7) { animation-delay: .28s; }
+/* a new question: the prompt slides in from the side, like turning a card */
+@keyframes cardin { from { opacity: 0; transform: translateX(28px); } to { opacity: 1; transform: none; } }
+#app.enter > .question { animation: cardin .45s cubic-bezier(.2, .8, .2, 1) both .05s; }
+
+/* the title card before a game */
+.intro { min-height: 70dvh; display: grid; place-content: center; justify-items: center; gap: 10px; text-align: center; cursor: pointer; }
+.intro h1 { font-size: clamp(1.7rem, 7vw, 2.4rem); line-height: 1.15; letter-spacing: -.02em; margin: 0; }
+.intro-dots { width: min(240px, 70vw); margin-bottom: 12px; }
+.intro-dots .crowd i { animation: dotin .5s cubic-bezier(.2, .8, .2, 1) both; animation-delay: calc(var(--d, 0) * 1ms); }
+@keyframes dotin { from { opacity: 0; transform: scale(.2); } }
+.intro-bar { width: 140px; height: 4px; border-radius: 4px; background: var(--line-2); overflow: hidden; margin-top: 14px; }
+.intro-bar i { display: block; height: 100%; background: var(--you); transform-origin: left; animation: fill 1.6s linear both; }
+@keyframes fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) { #app.enter > *, .intro-dots .crowd i, .intro-bar i { animation: none; } }
