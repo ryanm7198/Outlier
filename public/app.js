@@ -1180,7 +1180,7 @@ function partyMenu(code = '') {
 
 function enterParty(code, pid) {
   store.set('outlier.party', { code, pid });
-  party = { code, pid, key: null, busy: false, rounds: 5, secs: 30 };
+  party = { code, pid, key: null, busy: false, rounds: 5, secs: 30, mode: 'classic', lives: 3, turn: 10 };
   party.poll = setInterval(pollParty, 1000);
   pollParty();
 }
@@ -1200,6 +1200,8 @@ async function pollParty() {
   try {
     const state = await api(`/api/room/state?code=${party.code}&pid=${party.pid}`);
     if (party) renderParty(state);
+    const every = state.phase === 'potato' ? 500 : 1000;
+    if (party && party.every !== every) { clearInterval(party.poll); party.poll = setInterval(pollParty, every); party.every = every; }
   } catch (e) {
     if (e.status === 404) return leaveParty('That room has closed');
   } finally { if (party) party.busy = false; }
@@ -1255,11 +1257,12 @@ function updateTicker(s) {
 function renderParty(s) {
   const host = s.you === s.host;
   const answered = s.phase === 'question' && s.yourAnswer != null;
-  const key = [s.phase, s.round, host, answered, s.phase === 'pick' && s.picked, s.phase === 'final' && (s.asks || []).join('.')].join('|');
+  const key = [s.phase, s.round, host, answered, s.phase === 'pick' && s.picked, s.phase === 'final' && (s.asks || []).join('.'),
+    s.phase === 'potato' && s.turnId].join('|');
   if (key !== party.key) {
     party.key = key;
     stopTimer();
-    ({ lobby: partyLobby, pick: partyPick, question: partyQuestion, reveal: partyReveal, final: partyFinal })[s.phase](s, host, answered);
+    ({ lobby: partyLobby, pick: partyPick, question: partyQuestion, reveal: partyReveal, final: partyFinal, potato: partyPotato })[s.phase](s, host, answered);
     const leave = $('#leave');
     if (leave) leave.onclick = () => leaveParty();
   }
@@ -1298,9 +1301,10 @@ function partyLobby(s, host) {
         <button class="mode" id="partyPlus"><span class="mode-ic">${ic('lock')}</span><span class="mode-t"><b>Choose categories</b><small>Pick any category or mix for your party. Outlier Plus</small></span></button>
       </div>` : '<div id="picker"></div>'}</section>
       <section class="card settings">
-        <div class="setting"><span>Rounds</span>${seg('rounds', [3, 5, 7, 10], party.rounds, '')}</div>
-        <div class="setting"><span>Time to answer</span>${seg('secs', [15, 30, 45, 60], party.secs, 's')}</div>
-        <p class="fine">${ic('zap')}<span>Play <b>Everything</b> to unlock double downs: before each round everyone sees the category and can double that round's score, once per game.</span></p>
+        <div class="setting"><span>Game mode</span><div class="seg" id="mode">
+          <button class="chip${party.mode === 'classic' ? ' on' : ''}" data-mode="classic" aria-pressed="${party.mode === 'classic'}">Classic</button>
+          <button class="chip${party.mode === 'potato' ? ' on' : ''}" data-mode="potato" aria-pressed="${party.mode === 'potato'}">Hot potato</button></div></div>
+        <div id="modeset">${modeSettings(seg)}</div>
       </section>
       <div class="cta"><button class="btn primary big" id="start">${ic('play')}<span><b>Start game</b><small>Everyone in the room plays along</small></span></button></div>`
       : `<div class="waiting card"><span class="dots"><i></i><i></i><i></i></span><p>Waiting for the host to pick a category and start</p></div>`}`);
@@ -1316,13 +1320,134 @@ function partyLobby(s, host) {
     party[field] = +b.dataset.n;
     $(id).querySelectorAll('.chip').forEach(c => c.classList.toggle('on', c === b));
   };
-  chips('#rounds', 'rounds');
-  chips('#secs', 'secs');
+  const wireMode = () => {
+    if ($('#rounds')) { chips('#rounds', 'rounds'); chips('#secs', 'secs'); }
+    else { chips('#lives', 'lives'); chips('#turn', 'turn'); }
+  };
+  $('#mode').onclick = e => {
+    const b = e.target.closest('[data-mode]');
+    if (!b) return;
+    party.mode = b.dataset.mode;
+    $('#mode').querySelectorAll('.chip').forEach(x => { x.classList.toggle('on', x === b); x.setAttribute('aria-pressed', x === b); });
+    $('#modeset').innerHTML = modeSettings(seg);
+    wireMode();
+  };
+  wireMode();
   $('#start').disabled = !limited() && !poolCount(pick);
   $('#start').onclick = startParty;
 }
 
-const startParty = () => partyPost('/api/room/start', { ...(limited() ? { cat: 'all', tags: [] } : apiPick(pick)), rounds: party.rounds, secs: party.secs });
+const startParty = () => partyPost('/api/room/start', { ...(limited() ? { cat: 'all', tags: [] } : apiPick(pick)), mode: party.mode,
+  rounds: party.rounds, secs: party.mode === 'potato' ? party.turn : party.secs, lives: party.lives });
+
+// The settings under the game mode: rounds and answer time for Classic; lives and turn time for Hot potato.
+function modeSettings(seg) {
+  if (party.mode === 'potato') return `
+    <div class="setting"><span>Lives</span>${seg('lives', [1, 3, 5], party.lives, '')}</div>
+    <div class="setting"><span>Time per turn</span>${seg('turn', [5, 10, 15], party.turn, 's')}</div>
+    <p class="fine">${ic('flame')}<span><b>Hot potato:</b> take turns naming an answer to the same prompt. Wrong answers and repeats don't count, so keep trying; if the clock runs out you lose a life and the next player gets a new prompt. Every ${250} points from your answers earns an extra life. Last one standing wins.</span></p>`;
+  return `
+    <div class="setting"><span>Rounds</span>${seg('rounds', [3, 5, 7, 10], party.rounds, '')}</div>
+    <div class="setting"><span>Time to answer</span>${seg('secs', [15, 30, 45, 60], party.secs, 's')}</div>
+    <p class="fine">${ic('zap')}<span>Play <b>Everything</b> to unlock double downs: before each round everyone sees the category and can double that round's score, once per game.</span></p>`;
+}
+
+// ---- Hot potato: one prompt, players take turns; a valid new answer passes it on, running out of time costs a life.
+const hearts = (n, out) => out ? '<span class="pt-out">Out</span>'
+  : `<span class="pt-hearts" aria-label="${n} ${n === 1 ? 'life' : 'lives'}">${'<i></i>'.repeat(Math.min(n, 6))}${n > 6 ? `<b>×${n}</b>` : ''}</span>`;
+
+function potatoTable(s) {
+  const byN = Object.fromEntries(s.players.map(p => [p.n, p]));
+  return `<ul class="pt-table">${s.order.map(n => byN[n]).filter(Boolean).map(p => {
+    const toward = Math.max(0, Math.min(1, (p.score - (p.bonusAt - s.bonus)) / s.bonus));
+    return `<li class="${p.n === s.current ? 'turn' : ''}${p.out ? ' gone' : ''}${p.n === s.you ? ' me' : ''}">
+      ${avatar(p.name, p.color)}<span class="pt-name"><b>${esc(p.name)}</b>${hearts(p.lives, p.out)}</span>
+      <span class="pt-pts" title="${p.bonusAt - p.score} points to an extra life"><span class="pt-ring" style="--k:${toward.toFixed(2)}"></span>${p.score}</span></li>`;
+  }).join('')}</ul>`;
+}
+
+function potatoLog(s) {
+  const rows = s.log.filter(l => l.round === s.round && !l.timeout);
+  if (!rows.length) return '<p class="muted center pt-empty">No answers yet. Get it started!</p>';
+  return `<ul class="pt-log">${rows.map(l => `<li${l.outlier ? ' class="out"' : ''}>
+    <b>${esc(l.answer)}</b><small>${esc(l.name)}</small><span class="pt-p">+${l.points}${l.bonus ? ' <span class="pt-life">+1 life</span>' : ''}</span></li>`).join('')}</ul>`;
+}
+
+function partyPotato(s) {
+  const me = s.players.find(p => p.n === s.you) || {};
+  const cur = s.players.find(p => p.n === s.current) || {};
+  const mine = s.current === s.you && !me.out;
+  const boom = s.boom && s.boom.turn === s.turnId
+    ? `<div class="pt-boom">${ic('flame')}<span><b>${esc(s.boom.name)}</b> ${s.boom.out ? 'ran out of time and is <b>out</b>!' : 'ran out of time and lost a life'}</span></div>` : '';
+  show(`${partyBar(s, `Hot potato · Prompt ${s.round}`)}
+    ${boom}
+    <p class="hint">${esc(s.hint)}</p>
+    <h2 class="pt-prompt">${esc(s.prompt)}</h2>
+    <div class="pt-turn${mine ? ' mine' : ''}" id="ptTurn">
+      <div class="bar"><div class="timer grow"><i id="tbar"></i></div><span class="secs" id="tsecs"></span></div>
+      ${mine ? `<form id="ptForm" class="stack" autocomplete="off">
+          <p class="pt-you">Your turn!</p>
+          <input type="text" id="input" maxlength="60" placeholder="Your answer" enterkeyhint="send" autocapitalize="off" autocorrect="off" spellcheck="false">
+          <p id="miss" class="miss" role="alert" hidden></p>
+          <button class="btn primary">Pass it on</button></form>`
+        : `<p class="pt-wait">${me.out ? 'You are out. Watch the others battle it out.' : ''}${avatar(cur.name, cur.color)}<span><b>${esc(cur.name || '')}</b>'s turn</span></p>`}
+    </div>
+    ${potatoTable(s)}
+    <section class="card"><h3>Said so far <small>${s.said}</small></h3>${potatoLog(s)}</section>`);
+  const startIn = s.startsInMs || 0;
+  const go = () => runTimer(s.remainingMs, s.roundMs, () => {});
+  if (startIn > 0) {
+    $('#tsecs').textContent = 'Ready';
+    if ($('#ptForm')) $('#ptForm button').disabled = true;
+    setTimeout(() => { if (party && party.key && $('#ptTurn')) { if ($('#ptForm')) $('#ptForm button').disabled = false; go(); } }, startIn);
+  } else go();
+  if (!mine) return;
+  try { if (navigator.vibrate) navigator.vibrate(30); } catch { /* not supported */ }
+  const input = $('#input'), miss = $('#miss'), form = $('#ptForm');
+  input.focus();
+  input.oninput = () => { miss.hidden = true; };
+  let busy = false;
+  form.onsubmit = async e => {
+    e.preventDefault();
+    const answer = input.value.trim();
+    if (!answer || busy) return;
+    busy = true;
+    try {
+      const r = await api('/api/room/potato', { code: party.code, pid: party.pid, answer });
+      if (r.miss) {
+        miss.textContent = r.miss; miss.hidden = false;
+        form.classList.remove('shake'); void form.offsetWidth; form.classList.add('shake');
+        input.select();
+      }
+      if (party) renderParty(r);
+    } catch (err) { toast(err.message); }
+    busy = false;
+  };
+}
+
+function potatoFinal(s, host) {
+  const byN = Object.fromEntries(s.players.map(p => [p.n, p]));
+  const order = s.standings.map(n => byN[n]).filter(Boolean), win = order[0];
+  const asked = (s.asks || []).map(n => (byN[n] || {}).name).filter(Boolean);
+  const iAsked = (s.asks || []).includes(s.you);
+  const answers = s.log.filter(l => !l.timeout);
+  const best = answers.reduce((a, l) => (!a || l.points > a.points ? l : a), null);
+  show(`${partyBar(s, 'Hot potato')}
+    <div class="center"><p class="muted">Last one standing</p><h2>${esc(win ? win.name : '')}</h2>
+      <p class="muted">${win ? `${win.lives} ${win.lives === 1 ? 'life' : 'lives'} left · ${win.score} points` : ''}</p></div>
+    <ol class="rows card players">${order.map((p, i) => `<li class="${p.n === s.you ? 'me' : ''}"><span class="num rank">${i + 1}</span>
+      ${avatar(p.name, p.color)}<span class="main"><b>${esc(p.name)}</b><small>${p.out ? 'Out' : 'Still standing'} · ${(k => `${k} answer${k === 1 ? '' : 's'}`)(answers.filter(l => l.n === p.n).length)}</small></span>
+      <span class="num">${p.score}</span></li>`).join('')}</ol>
+    ${best ? `<section class="card"><h3>Best answer</h3><p><b>${esc(best.answer)}</b> by ${esc(best.name)} · +${best.points}${best.outlier ? ' · Outlier!' : ''}</p></section>` : ''}
+    ${asked.length ? `<p class="muted center">${asked.map(esc).join(', ')} ${asked.length === 1 ? 'wants' : 'want'} a rematch</p>` : ''}
+    ${host ? `<div class="stack"><button class="btn primary" id="again">Rematch<small>Same players and settings, fresh prompts</small></button>
+      <button class="btn" id="lobby">Change settings</button></div>`
+      : `<button class="btn${iAsked ? '' : ' primary'}" id="ask" ${iAsked ? 'disabled' : ''}>${iAsked ? 'Rematch requested' : 'Ask for a rematch'}</button>
+         <p class="muted center">The host starts the next game.</p>`}`);
+  if (!host) { if ($('#ask')) $('#ask').onclick = () => partyPost('/api/room/ask'); return; }
+  $('#again').onclick = () => partyPost('/api/room/rematch');
+  $('#lobby').onclick = () => partyPost('/api/room/lobby');
+}
 
 // Before each prompt: the category only, and a once-per-game chance to double the round.
 function partyPick(s) {
@@ -1527,6 +1652,7 @@ function awardsHTML(s) {
 }
 
 function partyFinal(s, host) {
+  if (s.mode === 'potato') return potatoFinal(s, host);
   const order = lanes(s), max = (s.rounds + 1) * 100, top = order[0];
   const tied = order.filter(p => p.score === top.score).length > 1;
   const asked = (s.asks || []).map(n => (s.players.find(p => p.n === n) || {}).name).filter(Boolean);
