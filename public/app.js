@@ -1224,6 +1224,34 @@ function playersHTML(s) {
   </li>`).join('');
 }
 
+// The live ticker: one avatar per player across the top of the question. Each one pops into colour the moment that
+// player locks in, and the line below says who just did, so the room feels the pressure without seeing any answers.
+function tickerHTML(s) {
+  const live = s.players.filter(p => p.online || p.answered);
+  const done = live.filter(p => p.answered).length;
+  return `<div class="ticker" id="ticker" aria-live="polite">
+    <div class="tick-avs">${live.map(p => `<span class="tick-av${p.answered ? ' in' : ''}${p.n === s.you ? ' me' : ''}" data-n="${p.n}" title="${esc(p.name)}">${avatar(p.name, p.color)}</span>`).join('')}</div>
+    <p class="tick-line"><b>${done}</b> of ${live.length} locked in<span class="tick-news" id="tickNews"></span></p>
+  </div>`;
+}
+
+function updateTicker(s) {
+  const el = $('#ticker');
+  if (!el) return;
+  const was = party.locked || new Set();
+  const now = new Set(s.players.filter(p => p.answered).map(p => p.n));
+  const fresh = s.players.filter(p => now.has(p.n) && !was.has(p.n) && p.n !== s.you);
+  party.locked = now;
+  const news = $('#tickNews') ? $('#tickNews').textContent : '';
+  el.outerHTML = tickerHTML(s).replace('class="ticker"', 'class="ticker settled"');   // no entrance animation on refresh
+  const line = $('#tickNews');
+  if (fresh.length) {
+    line.textContent = ` · ${fresh.map(p => p.name).join(' & ')} just locked in`;
+    fresh.forEach(p => { const a = $(`.tick-av[data-n="${p.n}"]`); if (a) a.classList.add('pop'); });
+    try { if (navigator.vibrate) navigator.vibrate(15); } catch { /* not supported */ }
+  } else line.textContent = news;
+}
+
 function renderParty(s) {
   const host = s.you === s.host;
   const answered = s.phase === 'question' && s.yourAnswer != null;
@@ -1235,6 +1263,7 @@ function renderParty(s) {
     const leave = $('#leave');
     if (leave) leave.onclick = () => leaveParty();
   }
+  if (s.phase === 'question') updateTicker(s); else party.locked = null;
   const sw = $('#colors');
   if (sw) sw.innerHTML = colorsHTML(s);
   const list = $('#players');
@@ -1322,12 +1351,12 @@ function partyQuestion(s, host, answered) {
   if (answered) {
     show(`${partyBar(s, mid)}
       <div class="bar"><div class="timer grow"><i id="tbar"></i></div><span class="secs" id="tsecs"></span></div>
+      ${tickerHTML(s)}
       <h2>${esc(s.prompt)}</h2>
-      <div class="card center"><p class="muted">Locked in</p><h2>${esc(s.yourAnswer) || 'No answer'}</h2></div>
-      <div class="card"><h3>Players</h3><ul class="rows" id="players"></ul></div>`);
+      <div class="card center"><p class="muted">Locked in</p><h2>${esc(s.yourAnswer) || 'No answer'}</h2></div>`);
     return runTimer(s.remainingMs, s.roundMs, () => {});
   }
-  show(partyBar(s, mid) + `<p class="hint">${esc(s.hint)}${s.doubling ? ' · <b>Doubling ×2</b>' : ''}</p>` + questionHTML(s.prompt));
+  show(partyBar(s, mid) + tickerHTML(s) + `<p class="hint">${esc(s.hint)}${s.doubling ? ' · <b>Doubling ×2</b>' : ''}</p>` + questionHTML(s.prompt));
   const onTimeout = wireAnswer(s.promptId, text => partyPost('/api/room/answer', { answer: text }));
   runTimer(s.remainingMs, s.roundMs, onTimeout);
   $('#input').focus();
@@ -1346,7 +1375,72 @@ function crowdChart(r) {
     }).join('')}</ul></div>`;
 }
 
+// Before the scores: the room's answers are turned over one at a time, from the commonest to the rarest, with a pause
+// before the last one ("And the rarest answer…") and an OUTLIER! stamp if it is one. Tap to skip. Plays once a round.
+function revealGroups(s, r) {
+  const groups = [];
+  r.results.forEach(x => {
+    const key = x.valid ? 'v:' + x.canonical : x.given ? 'x:' + x.n : 'none';
+    let g = groups.find(g => g.key === key);
+    if (!g) groups.push(g = { key, x, who: [] });
+    g.who.push(x);
+  });
+  const rank = g => g.key === 'none' ? -2 : g.x.valid ? g.x.share : -1;   // blanks, then wrong answers, then commonest to rarest
+  return groups.sort((a, b) => (rank(a) < 0 || rank(b) < 0) ? rank(a) - rank(b) : rank(b) - rank(a));
+}
+
+function revealCard(s, g, last) {
+  const x = g.x, who = g.who.map(w => `<span class="rv-who">${avatar(w.name, colorOf(s, w.n))}${esc(w.name)}${w.doubled ? ' <b class="dblx">×2</b>' : ''}</span>`).join('');
+  const t = x.outlier ? 5 : x.valid ? Math.max(1, tier(x.points / (x.doubled ? 2 : 1) * (x.shared ? 2 : 1))) : 0;
+  return `<li class="rv-card t${t}${last ? ' finale' : ''}${x.valid ? '' : ' miss'}">
+    ${x.outlier ? '<span class="rv-stamp">Outlier!</span>' : ''}
+    <div class="rv-ans">${x.valid ? esc(x.canonical) : g.key === 'none' ? 'No answer' : `<span class="strike">${esc(x.given)}</span>`}</div>
+    <div class="rv-meta">${x.valid ? `${x.share < 1 ? 'Under 1%' : Math.round(x.share) + '%'} of players said it` : g.key === 'none' ? 'Ran out of time' : 'Not on the list'}${g.who.length > 1 && x.valid ? ' · shared, half points' : ''}</div>
+    <div class="rv-whos">${who}</div>
+  </li>`;
+}
+
+function dramaticReveal(s, then) {
+  const r = s.reveal;
+  if (party.revealed === s.round || matchMedia('(prefers-reduced-motion: reduce)').matches) return then();
+  party.revealed = s.round;
+  const groups = revealGroups(s, r);
+  show(`${partyBar(s, `Round ${s.round}/${s.rounds}`)}
+    <section class="rv" id="rv">
+      <p class="eyebrow center">The answers are in</p>
+      <h2 class="center">${esc(r.prompt)}</h2>
+      <ul class="rv-list" id="rvList"></ul>
+      <p class="rv-drum center" id="rvDrum" hidden>And the rarest answer…</p>
+      <p class="fine center">Tap to skip</p>
+    </section>`);
+  const list = $('#rvList'), drum = $('#rvDrum'), timers = [];
+  let done = false;
+  const finish = () => { if (done) return; done = true; timers.forEach(clearTimeout); if (party && party.key && party.revealed === s.round) then(); };
+  $('#rv').onclick = finish;
+  let at = 700;
+  groups.forEach((g, i) => {
+    const last = i === groups.length - 1 && groups.length > 1 && g.x.valid;
+    if (last) {
+      timers.push(setTimeout(() => { drum.hidden = false; }, at));
+      at += 1600;
+    }
+    timers.push(setTimeout(() => {
+      drum.hidden = true;
+      list.insertAdjacentHTML('beforeend', revealCard(s, g, last));
+      list.lastElementChild.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      try { if (last && navigator.vibrate) navigator.vibrate(g.x.outlier ? [70, 50, 140] : 40); } catch { /* not supported */ }
+    }, at));
+    at += last ? 2200 : 1300;
+  });
+  timers.push(setTimeout(finish, at + 600));
+}
+
 function partyReveal(s, host) {
+  if (party.revealed !== s.round) return dramaticReveal(s, () => partyRevealScores(s, host));
+  partyRevealScores(s, host);
+}
+
+function partyRevealScores(s, host) {
   const r = s.reveal, mine = r.results.find(x => x.n === s.you);
   const last = s.round >= s.rounds;
   show(`${partyBar(s, `Round ${s.round}/${s.rounds} · ${esc(s.label)}`)}
