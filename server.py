@@ -318,21 +318,58 @@ def open_db():
     DB.execute("CREATE TABLE IF NOT EXISTS votes (prompt_id TEXT, cid TEXT, vote INTEGER, ts INTEGER, PRIMARY KEY (prompt_id, cid))")
     DB.execute("CREATE TABLE IF NOT EXISTS streaks (user_id INTEGER PRIMARY KEY, n INTEGER, best INTEGER, last TEXT)")
     DB.execute("CREATE INDEX IF NOT EXISTS user_plays_user ON user_plays (user_id, ts)")
-    for p in PROMPTS.values():
-        # A long-tailed start in list order. The last answer listed (last two on long lists) starts below
-        # everything else, so it is the Outlier; neighbours deep in a long list may tie, which only
-        # means they share a score. (This used to force every seed apart, which flattened long lists.)
-        seeds = [seed_count(rank) for rank in range(len(p["names"]))]
-        for k in range(1, (2 if len(seeds) >= OUTLIER_PAIR else 1) + 1):
-            if len(seeds) > k:
-                seeds[-k] = k
-        for name, seed in zip(p["names"], seeds):
-            DB.execute("INSERT OR IGNORE INTO answers (prompt_id, name, count) VALUES (?, ?, ?)", (p["id"], name, seed))
-    DB.commit()
+    try:   # 1 = an answer approved by hand (python server.py approve), which lives only in the database
+        DB.execute("ALTER TABLE answers ADD COLUMN extra INTEGER NOT NULL DEFAULT 0")
+    except sqlite3.OperationalError:
+        pass
+    sync_answers()
     # Answers approved later live only in the database; make them matchable too.
     for pid, name in DB.execute("SELECT prompt_id, name FROM answers"):
         if pid in LOOKUP:
             add_key(pid, norm(name), name)
+
+
+def seeds_for(names):
+    """A long-tailed start in list order. The last answer listed (last two on long lists) starts below
+    everything else, so it is the Outlier; neighbours deep in a long list may tie, which only
+    means they share a score."""
+    seeds = [seed_count(rank) for rank in range(len(names))]
+    for k in range(1, (2 if len(seeds) >= OUTLIER_PAIR else 1) + 1):
+        if len(seeds) > k:
+            seeds[-k] = k
+    return seeds
+
+
+def sync_answers():
+    """Make the database's starting crowd follow the question files on every start, keeping real plays:
+    - each listed answer's starting count follows its current place in the list (so reordering a list works);
+    - an answer renamed in the files hands its plays to the new name (found through the new name's aliases);
+    - an answer since removed from the files is dropped, so it can't linger as an unreachable "Outlier".
+    Answers approved by hand (extra = 1) are kept as they are."""
+    changed = 0
+    for pid, p in PROMPTS.items():
+        want = dict(zip(p["names"], seeds_for(p["names"])))
+        rows = {n: (c, pl, ex) for n, c, pl, ex in
+                DB.execute("SELECT name, count, plays, extra FROM answers WHERE prompt_id = ?", (pid,))}
+        for name, seed in want.items():
+            if name not in rows:
+                DB.execute("INSERT INTO answers (prompt_id, name, count) VALUES (?, ?, ?)", (pid, name, seed))
+                changed += 1
+            elif rows[name][0] != seed + rows[name][1]:
+                DB.execute("UPDATE answers SET count = ? + plays WHERE prompt_id = ? AND name = ?", (seed, pid, name))
+                changed += 1
+        for name, (_, plays, extra) in rows.items():
+            if name in want or extra:
+                continue
+            new = LOOKUP[pid].get(norm(name))
+            if plays and new in want:
+                DB.execute("UPDATE answers SET plays = plays + ?, count = count + ? WHERE prompt_id = ? AND name = ?",
+                           (plays, plays, pid, new))
+            DB.execute("DELETE FROM answers WHERE prompt_id = ? AND name = ?", (pid, name))
+            changed += 1
+    DB.commit()
+    if changed:
+        print(f"  Answer lists synced with the question files ({changed} changes)", flush=True)
 
 
 PRIOR_PLAYS = 300   # the starting crowd weighs as much as this many real plays on a prompt
@@ -1713,7 +1750,7 @@ def cli(args):
     elif args[0] == "approve" and len(args) >= 3 and args[1] in PROMPTS:
         name = " ".join(args[2:])
         seen = DB.execute("SELECT count FROM suggestions WHERE prompt_id = ? AND key = ?", (args[1], norm(name))).fetchone()
-        DB.execute("INSERT OR IGNORE INTO answers (prompt_id, name, count) VALUES (?, ?, ?)", (args[1], name, max(3, seen[0] if seen else 0)))
+        DB.execute("INSERT OR IGNORE INTO answers (prompt_id, name, count, extra) VALUES (?, ?, ?, 1)", (args[1], name, max(3, seen[0] if seen else 0)))
         DB.execute("DELETE FROM suggestions WHERE prompt_id = ? AND key = ?", (args[1], norm(name)))
         DB.commit()
         print(f"Added '{name}' to {args[1]}. Restart the server to pick it up.")
