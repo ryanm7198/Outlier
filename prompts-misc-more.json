@@ -5332,7 +5332,7 @@
   {
    "id": "xm-car-brands",
    "tags": [
-    "culture"
+    "cars"
    ],
    "text": "Name a car manufacturer or car brand",
    "answers": [
@@ -5507,87 +5507,6 @@
     "Scion",
     "Eagle",
     "Vanden Plas"
-   ]
-  },
-  {
-   "id": "xm-coins-notes",
-   "tags": [
-    "culture"
-   ],
-   "text": "Name a denomination of current UK coin or Bank of England banknote",
-   "answers": [
-    [
-     "1p",
-     "one penny",
-     "penny",
-     "1 pence",
-     "one pence"
-    ],
-    [
-     "2p",
-     "two pence",
-     "2 pence",
-     "tuppence"
-    ],
-    [
-     "5p",
-     "five pence",
-     "5 pence"
-    ],
-    [
-     "10p",
-     "ten pence",
-     "10 pence"
-    ],
-    [
-     "20p",
-     "twenty pence",
-     "20 pence"
-    ],
-    [
-     "50p",
-     "fifty pence",
-     "50 pence"
-    ],
-    [
-     "£1",
-     "one pound",
-     "pound coin",
-     "1 pound",
-     "a pound"
-    ],
-    [
-     "£2",
-     "two pounds",
-     "two pound coin",
-     "2 pounds"
-    ],
-    [
-     "£5",
-     "five pounds",
-     "fiver",
-     "5 pounds",
-     "five pound note"
-    ],
-    [
-     "£10",
-     "ten pounds",
-     "tenner",
-     "10 pounds",
-     "ten pound note"
-    ],
-    [
-     "£20",
-     "twenty pounds",
-     "20 pounds",
-     "twenty pound note"
-    ],
-    [
-     "£50",
-     "fifty pounds",
-     "50 pounds",
-     "fifty pound note"
-    ]
    ]
   },
   {
@@ -6188,7 +6107,7 @@
   {
    "id": "xm-stellantis-brands",
    "tags": [
-    "culture"
+    "cars"
    ],
    "text": "Name a car brand owned by Stellantis (as of 2025)",
    "answers": [
