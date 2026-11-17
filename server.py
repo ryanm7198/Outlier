@@ -1421,7 +1421,7 @@ def awards_for(room):
     return out[:7]
 
 
-# ---------------------------------------------------------------- hot potato
+# ---------------------------------------------------------------- Fumble (party mode; "potato" in the code)
 # Players take turns naming an answer to one prompt. A valid answer nobody has given yet passes the turn on;
 # running out of time costs a life and brings a new prompt. Out of lives = out; the last player standing wins.
 # Every valid answer also earns its usual rarity points, and every POTATO_BONUS points earns an extra life.

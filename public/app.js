@@ -1303,7 +1303,7 @@ function partyLobby(s, host) {
       <section class="card settings">
         <div class="setting"><span>Game mode</span><div class="seg" id="mode">
           <button class="chip${party.mode === 'classic' ? ' on' : ''}" data-mode="classic" aria-pressed="${party.mode === 'classic'}">Classic</button>
-          <button class="chip${party.mode === 'potato' ? ' on' : ''}" data-mode="potato" aria-pressed="${party.mode === 'potato'}">Hot potato</button></div></div>
+          <button class="chip${party.mode === 'potato' ? ' on' : ''}" data-mode="potato" aria-pressed="${party.mode === 'potato'}">Fumble</button></div></div>
         <div id="modeset">${modeSettings(seg)}</div>
       </section>
       <div class="cta"><button class="btn primary big" id="start">${ic('play')}<span><b>Start game</b><small>Everyone in the room plays along</small></span></button></div>`
@@ -1340,19 +1340,19 @@ function partyLobby(s, host) {
 const startParty = () => partyPost('/api/room/start', { ...(limited() ? { cat: 'all', tags: [] } : apiPick(pick)), mode: party.mode,
   rounds: party.rounds, secs: party.mode === 'potato' ? party.turn : party.secs, lives: party.lives });
 
-// The settings under the game mode: rounds and answer time for Classic; lives and turn time for Hot potato.
+// The settings under the game mode: rounds and answer time for Classic; lives and turn time for Fumble.
 function modeSettings(seg) {
   if (party.mode === 'potato') return `
     <div class="setting"><span>Lives</span>${seg('lives', [1, 3, 5], party.lives, '')}</div>
     <div class="setting"><span>Time per turn</span>${seg('turn', [5, 10, 15], party.turn, 's')}</div>
-    <p class="fine">${ic('flame')}<span><b>Hot potato:</b> take turns naming an answer to the same prompt. Wrong answers and repeats don't count, so keep trying; if the clock runs out you lose a life and the next player gets a new prompt. Every ${250} points from your answers earns an extra life. Last one standing wins.</span></p>`;
+    <p class="fine">${ic('flame')}<span><b>Fumble:</b> take turns naming an answer to the same prompt. Wrong answers and repeats don't count, so keep trying; if the clock runs out you lose a life and the next player gets a new prompt. Every ${250} points from your answers earns an extra life. Last one standing wins.</span></p>`;
   return `
     <div class="setting"><span>Rounds</span>${seg('rounds', [3, 5, 7, 10], party.rounds, '')}</div>
     <div class="setting"><span>Time to answer</span>${seg('secs', [15, 30, 45, 60], party.secs, 's')}</div>
     <p class="fine">${ic('zap')}<span>Play <b>Everything</b> to unlock double downs: before each round everyone sees the category and can double that round's score, once per game.</span></p>`;
 }
 
-// ---- Hot potato: one prompt, players take turns; a valid new answer passes it on, running out of time costs a life.
+// ---- Fumble: one prompt, players take turns; a valid new answer passes it on, running out of time costs a life.
 const hearts = (n, out) => out ? '<span class="pt-out">Out</span>'
   : `<span class="pt-hearts" aria-label="${n} ${n === 1 ? 'life' : 'lives'}">${'<i></i>'.repeat(Math.min(n, 6))}${n > 6 ? `<b>×${n}</b>` : ''}</span>`;
 
@@ -1379,7 +1379,7 @@ function partyPotato(s) {
   const mine = s.current === s.you && !me.out;
   const boom = s.boom && s.boom.turn === s.turnId
     ? `<div class="pt-boom">${ic('flame')}<span><b>${esc(s.boom.name)}</b> ${s.boom.out ? 'ran out of time and is <b>out</b>!' : 'ran out of time and lost a life'}</span></div>` : '';
-  show(`${partyBar(s, `Hot potato · Prompt ${s.round}`)}
+  show(`${partyBar(s, `Fumble · Prompt ${s.round}`)}
     ${boom}
     <p class="hint">${esc(s.hint)}</p>
     <h2 class="pt-prompt">${esc(s.prompt)}</h2>
@@ -1432,7 +1432,7 @@ function potatoFinal(s, host) {
   const iAsked = (s.asks || []).includes(s.you);
   const answers = s.log.filter(l => !l.timeout);
   const best = answers.reduce((a, l) => (!a || l.points > a.points ? l : a), null);
-  show(`${partyBar(s, 'Hot potato')}
+  show(`${partyBar(s, 'Fumble')}
     <div class="center"><p class="muted">Last one standing</p><h2>${esc(win ? win.name : '')}</h2>
       <p class="muted">${win ? `${win.lives} ${win.lives === 1 ? 'life' : 'lives'} left · ${win.score} points` : ''}</p></div>
     <ol class="rows card players">${order.map((p, i) => `<li class="${p.n === s.you ? 'me' : ''}"><span class="num rank">${i + 1}</span>
