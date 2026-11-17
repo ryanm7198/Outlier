@@ -214,10 +214,10 @@
    ],
    "text": "Name a track on N-Dubz's 'Uncle B' (2008)",
    "answers": [
+    "Papa Can You Hear Me?",
     "Wouldn't You",
     "Strong Again",
     "Ouch",
-    "Papa Can You Hear Me?",
     "I Swear",
     "Don't Get Nine",
     "N-Dubz Vs NAA",
@@ -734,13 +734,13 @@
     "Do I Wanna Know?",
     "I Bet You Look Good on the Dancefloor",
     "R U Mine?",
-    "Fluorescent Adolescent",
     "Why'd You Only Call Me When You're High?",
+    "Fluorescent Adolescent",
     "Brianstorm",
-    "Crying Lightning",
     "Arabella",
-    "When the Sun Goes Down",
     "Snap Out of It",
+    "Crying Lightning",
+    "When the Sun Goes Down",
     "Cornerstone",
     "Leave Before the Lights Come On",
     [
@@ -1370,11 +1370,11 @@
    ],
    "text": "Name a track on Good Charlotte's 'The Young and the Hopeless' (2002)",
    "answers": [
+    "Girls & Boys",
     "Lifestyles of the Rich & Famous",
     "The Anthem",
-    "Girls & Boys",
-    "The Story of My Old Man",
     "Hold On",
+    "The Story of My Old Man",
     "A New Beginning",
     "Wondering",
     "My Bloody Valentine",
@@ -2190,8 +2190,7 @@
    ],
    "text": "Name a Shaggy studio album from 1993 to 2019",
    "answers": [
-    "Pure Pleasure",
-    "Original Doberman",
+    "Hot Shot",
     [
      "Boombastic",
      "Mr. Boombastic"
@@ -2200,10 +2199,11 @@
      "Midnite Lover",
      "Midnight Lover"
     ],
-    "Hot Shot",
+    "Pure Pleasure",
     "Lucky Day",
-    "Clothes Drop",
+    "Original Doberman",
     "Intoxication",
+    "Clothes Drop",
     "Summer in Kingston",
     "Rise",
     [
@@ -2221,12 +2221,12 @@
    ],
    "text": "Name an Eddy Grant studio album (as listed on Wikipedia)",
    "answers": [
-    "Message Man",
-    "Walking on Sunshine",
-    "Love in Exile",
-    "Can't Get Enough",
     "Killer on the Rampage",
     "Going for Broke",
+    "Walking on Sunshine",
+    "Can't Get Enough",
+    "Message Man",
+    "Love in Exile",
     "Born Tuff",
     "File Under Rock",
     "Barefoot Soldier",
@@ -2248,6 +2248,12 @@
    ],
    "text": "Name a Beenie Man album (as listed on Wikipedia's studio album table)",
    "answers": [
+    "Art and Life",
+    "Many Moods of Moses",
+    "The Doctor",
+    "Maestro",
+    "Back to Basics",
+    "Tropical Storm",
     [
      "The Invincible Beany Man - The 10 Year Old D.J. Wonder",
      "The Invincible Beenie Man",
@@ -2258,19 +2264,13 @@
     "Dis Unu Fi Hear",
     "Blessed",
     "Beenie Man Meets Mad Cobra",
-    "Maestro",
-    "Many Moods of Moses",
     [
      "Ruff 'N' Tuff",
      "Ruff and Tuff"
     ],
-    "The Doctor",
     "Y2K",
-    "Art and Life",
     "Youth Quake",
     "The Magnificent",
-    "Tropical Storm",
-    "Back to Basics",
     "Concept of Life",
     "Undisputed"
    ],
@@ -2718,17 +2718,18 @@
      "Church organ"
     ],
     "Harpsichord",
-    "Clavichord",
-    [
-     "Celesta",
-     "Celeste"
-    ],
     [
      "Synthesizer",
      "Synth",
      "Synthesiser"
     ],
     "Accordion",
+    "Electric piano",
+    "Clavichord",
+    [
+     "Celesta",
+     "Celeste"
+    ],
     "Harmonium",
     [
      "Virginal",
@@ -2736,7 +2737,6 @@
     ],
     "Spinet",
     "Fortepiano",
-    "Electric piano",
     "Melodica",
     "Mellotron",
     "Clavinet",

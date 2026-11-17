@@ -8,7 +8,6 @@
    ],
    "text": "Name a track on Bob Marley and the Wailers' 'Catch a Fire' or 'Burnin'' (original track listings)",
    "answers": [
-    "Stir It Up",
     [
      "I Shot the Sheriff",
      "Shot the Sheriff"
@@ -17,6 +16,7 @@
      "Get Up, Stand Up",
      "Get Up Stand Up"
     ],
+    "Stir It Up",
     "Concrete Jungle",
     "Slave Driver",
     "Kinky Reggae",
@@ -182,27 +182,27 @@
    ],
    "text": "Name a studio album by Toots and the Maytals (as listed on Wikipedia, to 2020)",
    "answers": [
+    "Funky Kingston",
+    "True Love",
+    "Reggae Got Soul",
+    "Monkey Man",
+    "Sweet and Dandy",
+    "Pass the Pipe",
     "Never Grow Old",
     [
      "The Sensational Maytals",
      "Sensational Maytals"
     ],
-    "Sweet and Dandy",
-    "Monkey Man",
     "Slatyam Stoot",
-    "Funky Kingston",
     "From the Roots",
     "Roots Reggae",
     "In the Dark",
-    "Reggae Got Soul",
     "Toots Presents the Maytals",
-    "Pass the Pipe",
     "Just Like That",
     "Knock Out!",
     "Toots in Memphis",
     "Recoup",
     "Ska Father",
-    "True Love",
     "Light Your Light",
     "Flip and Twist",
     "Got to Be Tough",
@@ -217,6 +217,38 @@
    ],
    "text": "Name a Johnny Cash studio or live album (as listed on Wikipedia, to 2025)",
    "answers": [
+    [
+     "At Folsom Prison",
+     "Folsom Prison",
+     "Johnny Cash at Folsom Prison"
+    ],
+    [
+     "At San Quentin",
+     "San Quentin"
+    ],
+    [
+     "American IV: The Man Comes Around",
+     "The Man Comes Around",
+     "Man Comes Around",
+     "American IV"
+    ],
+    [
+     "American Recordings",
+     "American I"
+    ],
+    [
+     "American II: Unchained",
+     "Unchained",
+     "American II"
+    ],
+    [
+     "American III: Solitary Man",
+     "Solitary Man",
+     "American III"
+    ],
+    "Man in Black",
+    "Orange Blossom Special",
+    "I Walk the Line",
     [
      "Johnny Cash with His Hot and Blue Guitar!",
      "Hot and Blue Guitar",
@@ -247,12 +279,10 @@
      "Christmas Spirit"
     ],
     "Keep on the Sunny Side",
-    "I Walk the Line",
     [
      "Bitter Tears: Ballads of the American Indian",
      "Bitter Tears"
     ],
-    "Orange Blossom Special",
     [
      "Johnny Cash Sings the Ballads of the True West",
      "Ballads of the True West"
@@ -272,7 +302,6 @@
      "Hello, I'm Johnny Cash",
      "Hello I'm Johnny Cash"
     ],
-    "Man in Black",
     [
      "A Thing Called Love",
      "Thing Called Love"
@@ -346,28 +375,8 @@
     ],
     "Country Christmas",
     [
-     "American Recordings",
-     "American I"
-    ],
-    [
      "The Road Goes On Forever",
      "Road Goes On Forever"
-    ],
-    [
-     "American II: Unchained",
-     "Unchained",
-     "American II"
-    ],
-    [
-     "American III: Solitary Man",
-     "Solitary Man",
-     "American III"
-    ],
-    [
-     "American IV: The Man Comes Around",
-     "The Man Comes Around",
-     "Man Comes Around",
-     "American IV"
     ],
     "My Mother's Hymn Book",
     [
@@ -382,14 +391,6 @@
     ],
     "Out Among the Stars",
     "Songwriter",
-    [
-     "At Folsom Prison",
-     "Folsom Prison"
-    ],
-    [
-     "At San Quentin",
-     "San Quentin"
-    ],
     [
      "The Johnny Cash Show",
      "Johnny Cash Show"
@@ -451,9 +452,24 @@
    ],
    "text": "Name a Dolly Parton studio album (as listed on Wikipedia, 1967 to 2023)",
    "answers": [
+    "Jolene",
+    "Coat of Many Colors",
+    "Here You Come Again",
+    [
+     "9 to 5 and Odd Jobs",
+     "9 to 5"
+    ],
     [
      "Hello, I'm Dolly",
      "Hello I'm Dolly"
+    ],
+    "Backwoods Barbie",
+    "Blue Smoke",
+    "Rockstar",
+    "Dolly",
+    [
+     "Burlap & Satin",
+     "Burlap and Satin"
     ],
     "Just Because I'm a Woman",
     [
@@ -470,39 +486,27 @@
      "Golden Streets of Glory"
     ],
     "Joshua",
-    "Coat of Many Colors",
     "Touch Your Woman",
     "My Favorite Songwriter, Porter Wagoner",
     "My Tennessee Mountain Home",
     "Bubbling Over",
-    "Jolene",
     "Love Is Like a Butterfly",
     [
      "The Bargain Store",
      "Bargain Store"
     ],
-    "Dolly",
     "All I Can Do",
     [
      "New Harvest...First Gathering",
      "New Harvest"
     ],
-    "Here You Come Again",
     "Heartbreaker",
     "Great Balls of Fire",
     [
      "Dolly, Dolly, Dolly",
      "Dolly Dolly Dolly"
     ],
-    [
-     "9 to 5 and Odd Jobs",
-     "9 to 5"
-    ],
     "Heartbreak Express",
-    [
-     "Burlap & Satin",
-     "Burlap and Satin"
-    ],
     [
      "The Great Pretender",
      "Great Pretender"
@@ -528,9 +532,7 @@
     ],
     "For God and Country",
     "Those Were the Days",
-    "Backwoods Barbie",
     "Better Day",
-    "Blue Smoke",
     [
      "Pure & Simple",
      "Pure and Simple"
@@ -543,8 +545,7 @@
     [
      "Run, Rose, Run",
      "Run Rose Run"
-    ],
-    "Rockstar"
+    ]
    ]
   },
   {
@@ -555,26 +556,9 @@
    "text": "Name a winner of the CMA Female Vocalist of the Year award (1967 to 2025 ceremonies)",
    "answers": [
     [
-     "Lainey Wilson",
-     "Lainey"
-    ],
-    [
-     "Carly Pearce",
-     "Carly"
-    ],
-    [
-     "Maren Morris",
-     "Maren"
-    ],
-    [
-     "Kacey Musgraves",
-     "Kacey",
-     "Musgraves"
-    ],
-    [
-     "Miranda Lambert",
-     "Miranda",
-     "Lambert"
+     "Dolly Parton",
+     "Dolly",
+     "Parton"
     ],
     [
      "Carrie Underwood",
@@ -587,8 +571,31 @@
      "Swift"
     ],
     [
-     "Gretchen Wilson",
-     "Gretchen"
+     "Reba McEntire",
+     "Reba",
+     "McEntire"
+    ],
+    [
+     "Miranda Lambert",
+     "Miranda",
+     "Lambert"
+    ],
+    [
+     "Faith Hill",
+     "Faith"
+    ],
+    [
+     "Kacey Musgraves",
+     "Kacey",
+     "Musgraves"
+    ],
+    [
+     "Lainey Wilson",
+     "Lainey"
+    ],
+    [
+     "Maren Morris",
+     "Maren"
     ],
     [
      "Martina McBride",
@@ -596,12 +603,16 @@
      "McBride"
     ],
     [
-     "Lee Ann Womack",
-     "Womack"
+     "Carly Pearce",
+     "Carly"
     ],
     [
-     "Faith Hill",
-     "Faith"
+     "Gretchen Wilson",
+     "Gretchen"
+    ],
+    [
+     "Lee Ann Womack",
+     "Womack"
     ],
     [
      "Trisha Yearwood",
@@ -638,11 +649,6 @@
      "Oslin"
     ],
     [
-     "Reba McEntire",
-     "Reba",
-     "McEntire"
-    ],
-    [
      "Janie Fricke",
      "Fricke"
     ],
@@ -657,11 +663,6 @@
     [
      "Crystal Gayle",
      "Gayle"
-    ],
-    [
-     "Dolly Parton",
-     "Dolly",
-     "Parton"
     ],
     [
      "Olivia Newton-John",
@@ -688,6 +689,54 @@
    "text": "Name a conductor of the Last Night of the Proms (1945 to 2026)",
    "answers": [
     [
+     "Malcolm Sargent",
+     "Sir Malcolm Sargent",
+     "Sargent"
+    ],
+    [
+     "Andrew Davis",
+     "Sir Andrew Davis"
+    ],
+    [
+     "Mark Elder",
+     "Sir Mark Elder",
+     "Elder"
+    ],
+    [
+     "Colin Davis",
+     "Sir Colin Davis"
+    ],
+    [
+     "Marin Alsop",
+     "Alsop"
+    ],
+    [
+     "Charles Mackerras",
+     "Sir Charles Mackerras",
+     "Mackerras"
+    ],
+    [
+     "Edward Gardner",
+     "Gardner"
+    ],
+    [
+     "Sakari Oramo",
+     "Oramo"
+    ],
+    [
+     "Roger Norrington",
+     "Sir Roger Norrington",
+     "Norrington"
+    ],
+    [
+     "Leonard Slatkin",
+     "Slatkin"
+    ],
+    [
+     "Jiří Bělohlávek",
+     "Belohlavek"
+    ],
+    [
      "Adrian Boult",
      "Sir Adrian Boult",
      "Boult"
@@ -699,15 +748,6 @@
     [
      "Constant Lambert",
      "Lambert"
-    ],
-    [
-     "Malcolm Sargent",
-     "Sir Malcolm Sargent",
-     "Sargent"
-    ],
-    [
-     "Colin Davis",
-     "Sir Colin Davis"
     ],
     [
      "Norman Del Mar",
@@ -723,26 +763,12 @@
      "Loughran"
     ],
     [
-     "Charles Mackerras",
-     "Sir Charles Mackerras",
-     "Mackerras"
-    ],
-    [
      "Vernon Handley",
      "Handley"
     ],
     [
      "Raymond Leppard",
      "Leppard"
-    ],
-    [
-     "Mark Elder",
-     "Sir Mark Elder",
-     "Elder"
-    ],
-    [
-     "Andrew Davis",
-     "Sir Andrew Davis"
     ],
     [
      "John Pritchard",
@@ -754,37 +780,12 @@
      "Wordsworth"
     ],
     [
-     "Leonard Slatkin",
-     "Slatkin"
-    ],
-    [
      "Paul Daniel",
      "Daniel"
     ],
     [
-     "Jiří Bělohlávek",
-     "Belohlavek"
-    ],
-    [
-     "Roger Norrington",
-     "Sir Roger Norrington",
-     "Norrington"
-    ],
-    [
      "David Robertson",
      "Robertson"
-    ],
-    [
-     "Edward Gardner",
-     "Gardner"
-    ],
-    [
-     "Marin Alsop",
-     "Alsop"
-    ],
-    [
-     "Sakari Oramo",
-     "Oramo"
     ],
     [
      "Dalia Stasevska",
@@ -855,14 +856,6 @@
      "Elgar"
     ],
     [
-     "Arthur Bliss",
-     "Bliss"
-    ],
-    [
-     "Arnold Bax",
-     "Bax"
-    ],
-    [
      "Peter Maxwell Davies",
      "Maxwell Davies"
     ],
@@ -870,22 +863,30 @@
      "Judith Weir",
      "Weir"
     ],
-    "Walford Davies",
-    [
-     "Malcolm Williamson",
-     "Williamson"
-    ],
     [
      "Errollyn Wallen",
      "Wallen"
     ],
     [
-     "Walter Parratt",
-     "Parratt"
+     "Arthur Bliss",
+     "Bliss"
+    ],
+    [
+     "Malcolm Williamson",
+     "Williamson"
     ],
     [
      "William Boyce",
      "Boyce"
+    ],
+    "Walford Davies",
+    [
+     "Arnold Bax",
+     "Bax"
+    ],
+    [
+     "Walter Parratt",
+     "Parratt"
     ],
     [
      "John Eccles",
@@ -945,17 +946,25 @@
    ],
    "text": "Name a Dizzee Rascal single (lead or featured, as listed on Wikipedia, excluding charity singles)",
    "answers": [
-    "I Luv U",
+    "Bonkers",
+    [
+     "Dance wiv Me",
+     "Dance with Me"
+    ],
+    "Holiday",
     [
      "Fix Up, Look Sharp",
      "Fix Up Look Sharp"
     ],
+    "I Luv U",
+    "Dirtee Disco",
+    "Dirtee Cash",
+    "Dream",
+    "Stand Up Tall",
     [
      "Jus' a Rascal",
      "Just a Rascal"
     ],
-    "Stand Up Tall",
-    "Dream",
     [
      "Off 2 Work",
      "Off to Work"
@@ -967,15 +976,7 @@
      "Pussy Ole"
     ],
     "Flex",
-    [
-     "Dance wiv Me",
-     "Dance with Me"
-    ],
-    "Bonkers",
-    "Holiday",
-    "Dirtee Cash",
     "You Got the Dirtee Love",
-    "Dirtee Disco",
     "Scream",
     [
      "Goin' Crazy",
@@ -1055,27 +1056,27 @@
    ],
    "text": "Name a J Hus single (lead or featured, as listed on Wikipedia)",
    "answers": [
+    "Did You See",
+    "Common Sense",
+    "Friendly",
     [
      "Lean & Bop",
      "Lean and Bop"
     ],
+    "Bouff Daddy",
+    "Spirit",
+    "Must Be",
+    "Repeat",
     [
      "Doin It",
      "Doin' It"
     ],
-    "Friendly",
-    "Clean It Up",
     "Playing Sports",
+    "Clean It Up",
     "Samantha",
-    "Did You See",
-    "Common Sense",
-    "Spirit",
-    "Bouff Daddy",
     "Dark Vader",
     "Daily Duppy",
-    "Must Be",
     "No Denying",
-    "Repeat",
     "Play Play",
     [
      "It's Crazy",
@@ -1102,11 +1103,14 @@
    "text": "Name a studio track on Dizzee Rascal's 'Tongue n' Cheek' (2009, standard or Dirtee Deluxe edition)",
    "answers": [
     "Bonkers",
-    "Road Rage",
     [
      "Dance wiv Me",
      "Dance with Me"
     ],
+    "Holiday",
+    "Dirtee Disco",
+    "Dirtee Cash",
+    "Road Rage",
     "Freaky Freaky",
     [
      "Can't Tek No More",
@@ -1116,18 +1120,15 @@
      "Chillin' wiv da Man Dem",
      "Chillin with the Man Dem"
     ],
-    "Dirtee Cash",
     [
      "Money, Money",
      "Money Money"
     ],
     "Leisure",
-    "Holiday",
     [
      "Bad Behaviour",
      "Bad Behavior"
     ],
-    "Dirtee Disco",
     [
      "Nuffin' Long",
      "Nothing Long"
@@ -1188,15 +1189,15 @@
    ],
    "text": "Name a track on Professor Green's 'Alive Till I'm Dead' (2011, standard edition)",
    "answers": [
-    "Kids That Love to Dance",
     "Just Be Good to Green",
-    "I Need You Tonight",
-    "City of Gold",
-    "Oh My God",
     "Jungle",
+    "Monster",
+    "I Need You Tonight",
+    "Kids That Love to Dance",
+    "Oh My God",
+    "City of Gold",
     "Do for You",
     "Falling Down",
-    "Monster",
     "Closing the Door",
     "Where Do We Go",
     "Goodnight"
@@ -1209,23 +1210,23 @@
    ],
    "text": "Name a track on Dizzee Rascal's 'Showtime' (2004)",
    "answers": [
-    "Showtime",
     "Stand Up Tall",
+    "Dream",
+    "Showtime",
+    "Hype Talk",
+    "Respect Me",
     "Everywhere",
     [
      "Graftin'",
      "Grafting"
     ],
     "Learn",
-    "Hype Talk",
     "Face",
-    "Respect Me",
     "Get By",
     [
      "Knock, Knock",
      "Knock Knock"
     ],
-    "Dream",
     "Girls",
     "Imagine",
     [

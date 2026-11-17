@@ -93,16 +93,38 @@
    "text": "Name a British honour, order or gallantry medal",
    "answers": [
     [
+     "MBE",
+     "Member of the Order of the British Empire"
+    ],
+    [
+     "OBE",
+     "Order of the British Empire"
+    ],
+    [
      "Victoria Cross",
      "VC"
+    ],
+    [
+     "CBE",
+     "Commander of the Order of the British Empire"
     ],
     [
      "George Cross",
      "GC"
     ],
     [
+     "Knight Bachelor",
+     "Knighthood"
+    ],
+    "KBE",
+    "DBE",
+    [
      "Order of the Garter",
      "Garter"
+    ],
+    [
+     "Military Cross",
+     "MC"
     ],
     [
      "Order of the Thistle",
@@ -113,34 +135,12 @@
      "Bath"
     ],
     [
-     "OBE",
-     "Order of the British Empire"
-    ],
-    [
-     "MBE",
-     "Member of the Order of the British Empire"
-    ],
-    [
-     "CBE",
-     "Commander of the Order of the British Empire"
-    ],
-    "KBE",
-    "DBE",
-    [
-     "Knight Bachelor",
-     "Knighthood"
-    ],
-    [
      "Order of Merit",
      "OM"
     ],
     [
      "Companion of Honour",
      "CH"
-    ],
-    [
-     "Military Cross",
-     "MC"
     ],
     [
      "Distinguished Service Order",
@@ -222,6 +222,10 @@
    "text": "Name a UK political party, past or present",
    "answers": [
     [
+     "Labour",
+     "Labour Party"
+    ],
+    [
      "Conservative",
      "Conservatives",
      "Tory",
@@ -229,19 +233,10 @@
      "Conservative Party"
     ],
     [
-     "Labour",
-     "Labour Party"
-    ],
-    [
      "Liberal Democrats",
      "Lib Dems",
      "Lib Dem"
     ],
-    [
-     "SNP",
-     "Scottish National Party"
-    ],
-    "Plaid Cymru",
     [
      "Green Party",
      "Greens",
@@ -252,15 +247,24 @@
      "Reform"
     ],
     [
+     "SNP",
+     "Scottish National Party"
+    ],
+    [
      "UKIP",
      "UK Independence Party"
     ],
+    "Plaid Cymru",
     "Brexit Party",
     [
      "DUP",
      "Democratic Unionist Party"
     ],
     "Sinn Féin",
+    [
+     "SDP",
+     "Social Democratic Party"
+    ],
     [
      "SDLP",
      "Social Democratic and Labour Party"
@@ -272,10 +276,6 @@
     [
      "Alliance Party",
      "Alliance"
-    ],
-    [
-     "SDP",
-     "Social Democratic Party"
     ],
     [
      "Liberal Party",
@@ -467,6 +467,7 @@
    ],
    "text": "Name a famous bridge anywhere in the world",
    "answers": [
+    "Tower Bridge",
     [
      "Golden Gate Bridge",
      "Golden Gate"
@@ -475,12 +476,24 @@
      "Brooklyn Bridge",
      "Brooklyn"
     ],
-    "Tower Bridge",
+    [
+     "Sydney Harbour Bridge",
+     "Sydney Harbour"
+    ],
     [
      "Forth Bridge",
      "Forth Rail Bridge"
     ],
-    "Forth Road Bridge",
+    "London Bridge",
+    [
+     "Clifton Suspension Bridge",
+     "Clifton"
+    ],
+    "Millennium Bridge",
+    [
+     "Rialto Bridge",
+     "Rialto"
+    ],
     [
      "Humber Bridge",
      "Humber"
@@ -489,26 +502,15 @@
      "Severn Bridge",
      "Severn"
     ],
-    [
-     "Sydney Harbour Bridge",
-     "Sydney Harbour"
-    ],
+    "Forth Road Bridge",
     [
      "Millau Viaduct",
      "Millau"
-    ],
-    [
-     "Rialto Bridge",
-     "Rialto"
     ],
     "Ponte Vecchio",
     "Bridge of Sighs",
     "Charles Bridge",
     "Tyne Bridge",
-    [
-     "Clifton Suspension Bridge",
-     "Clifton"
-    ],
     [
      "Menai Bridge",
      "Menai Suspension Bridge",
@@ -524,10 +526,8 @@
      "Oresund Bridge",
      "Oresund"
     ],
-    "Millennium Bridge",
     "Pont Neuf",
     "Pont du Gard",
-    "London Bridge",
     [
      "Chain Bridge",
      "Széchenyi Chain Bridge"
@@ -634,6 +634,7 @@
      "Warwick"
     ],
     "Dover Castle",
+    "Tower of London",
     "Leeds Castle",
     [
      "Bamburgh Castle",
@@ -643,27 +644,26 @@
      "Alnwick Castle",
      "Alnwick"
     ],
-    "Tower of London",
     [
      "Arundel Castle",
      "Arundel"
     ],
     [
-     "Bodiam Castle",
-     "Bodiam"
-    ],
-    "Lindisfarne Castle",
-    [
      "Corfe Castle",
      "Corfe"
+    ],
+    [
+     "Bodiam Castle",
+     "Bodiam"
     ],
     [
      "Tintagel Castle",
      "Tintagel"
     ],
+    "Lincoln Castle",
+    "Lindisfarne Castle",
     "Durham Castle",
     "Richmond Castle",
-    "Lincoln Castle",
     [
      "Kenilworth Castle",
      "Kenilworth"
@@ -827,23 +827,24 @@
    "text": "Name a zoo or safari park in the UK",
    "answers": [
     [
-     "London Zoo",
-     "ZSL London Zoo"
-    ],
-    [
      "Chester Zoo",
      "Chester"
     ],
     [
-     "Whipsnade",
-     "ZSL Whipsnade",
-     "Whipsnade Zoo"
+     "London Zoo",
+     "ZSL London Zoo"
     ],
     "Edinburgh Zoo",
     [
      "Longleat",
      "Longleat Safari Park"
     ],
+    [
+     "Whipsnade",
+     "ZSL Whipsnade",
+     "Whipsnade Zoo"
+    ],
+    "Blackpool Zoo",
     [
      "Paignton Zoo",
      "Paignton"
@@ -854,17 +855,6 @@
     ],
     "Colchester Zoo",
     [
-     "Marwell Zoo",
-     "Marwell"
-    ],
-    "Bristol Zoo",
-    "Blackpool Zoo",
-    "Howletts",
-    [
-     "Port Lympne",
-     "Port Lympne Reserve"
-    ],
-    [
      "Knowsley Safari Park",
      "Knowsley Safari",
      "Knowsley"
@@ -872,6 +862,16 @@
     [
      "Woburn Safari Park",
      "Woburn"
+    ],
+    [
+     "Marwell Zoo",
+     "Marwell"
+    ],
+    "Bristol Zoo",
+    "Howletts",
+    [
+     "Port Lympne",
+     "Port Lympne Reserve"
     ],
     "Dudley Zoo",
     "Belfast Zoo",
@@ -931,27 +931,27 @@
    ],
    "text": "Name a UK high-street shop or chain selling something other than clothes or food, past or present",
    "answers": [
+    "Boots",
+    "Argos",
+    "WHSmith",
+    "Currys",
     [
      "Woolworths",
      "Woolies"
     ],
-    "WHSmith",
-    "Boots",
-    "Argos",
-    "Currys",
-    "Halfords",
     "B&M",
     [
      "Wilko",
      "Wilkinson"
     ],
-    "The Range",
     "Poundland",
     "Superdrug",
-    "Ryman",
-    "Game",
+    "The Range",
     "HMV",
+    "Halfords",
+    "Game",
     "Blockbuster",
+    "Ryman",
     "Our Price",
     "Virgin Megastore",
     "Toys R Us",
@@ -1040,12 +1040,16 @@
      "The Dandy",
      "Dandy"
     ],
+    "Viz",
     "Eagle",
     "2000 AD",
+    "Whizzer and Chips",
     "Beezer",
     "Topper",
     "Buster",
-    "Whizzer and Chips",
+    "Bunty",
+    "Judy",
+    "Jackie",
     "Whoopee",
     "Cor!!",
     "Victor",
@@ -1056,15 +1060,11 @@
     "Lion",
     "Tiger",
     "Roy of the Rovers",
-    "Bunty",
-    "Judy",
     "Mandy",
-    "Jackie",
     "Twinkle",
     "Jack and Jill",
     "Look-in",
     "TV Comic",
-    "Viz",
     "Oink!",
     "Battle",
     "Warlord",
@@ -1121,26 +1121,50 @@
    "text": "Name a UK radio station, national or local, past or present",
    "answers": [
     [
-     "BBC Radio 1",
-     "Radio 1"
-    ],
-    [
      "BBC Radio 2",
      "Radio 2"
     ],
     [
-     "BBC Radio 3",
-     "Radio 3"
+     "BBC Radio 1",
+     "Radio 1"
     ],
     [
      "BBC Radio 4",
      "Radio 4"
     ],
     [
+     "Heart",
+     "Heart FM"
+    ],
+    [
+     "Capital",
+     "Capital FM",
+     "Capital London"
+    ],
+    "Classic FM",
+    [
+     "Absolute Radio",
+     "Absolute"
+    ],
+    [
      "BBC Radio 5 Live",
      "Five Live",
      "5 Live",
      "Radio 5 Live"
+    ],
+    [
+     "Kiss",
+     "Kiss FM"
+    ],
+    "LBC",
+    "talkSPORT",
+    [
+     "BBC Radio 3",
+     "Radio 3"
+    ],
+    [
+     "Magic",
+     "Magic FM"
     ],
     [
      "BBC Radio 6 Music",
@@ -1154,33 +1178,9 @@
     ],
     "Radio 4 Extra",
     [
-     "Capital",
-     "Capital FM",
-     "Capital London"
-    ],
-    [
-     "Heart",
-     "Heart FM"
-    ],
-    "Classic FM",
-    [
-     "Absolute Radio",
-     "Absolute"
-    ],
-    [
-     "Kiss",
-     "Kiss FM"
-    ],
-    [
-     "Magic",
-     "Magic FM"
-    ],
-    [
      "Smooth",
      "Smooth Radio"
     ],
-    "LBC",
-    "talkSPORT",
     [
      "Virgin Radio",
      "Virgin Radio UK"
@@ -1503,23 +1503,23 @@
      "Square knot"
     ],
     "Bowline",
-    "Clove hitch",
-    "Sheepshank",
     "Granny knot",
+    "Slip knot",
+    "Clove hitch",
     [
      "Figure of eight",
      "Figure-eight knot",
      "Figure eight"
     ],
     "Half hitch",
-    "Sheet bend",
-    "Slip knot",
+    "Hangman's knot",
+    "Noose",
+    "Sheepshank",
     [
      "Overhand knot",
      "Overhand"
     ],
-    "Noose",
-    "Hangman's knot",
+    "Sheet bend",
     "Timber hitch",
     [
      "Fisherman's knot",
@@ -1572,13 +1572,18 @@
    "text": "Name a tool used in the garden",
    "answers": [
     "Spade",
+    "Rake",
+    [
+     "Lawnmower",
+     "Mower"
+    ],
+    "Trowel",
     [
      "Garden fork",
      "Fork"
     ],
-    "Trowel",
-    "Rake",
     "Hoe",
+    "Wheelbarrow",
     [
      "Secateurs",
      "Pruners"
@@ -1587,14 +1592,10 @@
      "Shears",
      "Hedge shears"
     ],
+    "Watering can",
     [
-     "Lawnmower",
-     "Mower"
-    ],
-    "Wheelbarrow",
-    [
-     "Dibber",
-     "Dibble"
+     "Hose",
+     "Hosepipe"
     ],
     [
      "Strimmer",
@@ -1602,10 +1603,9 @@
      "Weed whacker"
     ],
     [
-     "Hose",
-     "Hosepipe"
+     "Dibber",
+     "Dibble"
     ],
-    "Watering can",
     "Loppers",
     [
      "Edging iron",
@@ -1907,11 +1907,38 @@
    ],
    "text": "Name a traditional British bingo call (like 'Legs Eleven')",
    "answers": [
+    [
+     "Legs Eleven",
+     "Legs 11"
+    ],
+    "Unlucky for Some",
     "Kelly's Eye",
+    [
+     "Two Little Ducks",
+     "Ducks on the Pond"
+    ],
     "One Little Duck",
+    [
+     "Two Fat Ladies",
+     "Fat Ladies"
+    ],
+    [
+     "Key of the Door",
+     "Key to the Door"
+    ],
+    "Clickety Click",
     "Cup of Tea",
     "Knock at the Door",
+    [
+     "Downing Street",
+     "Dahnin Street"
+    ],
     "Man Alive",
+    [
+     "Top of the Shop",
+     "top of the shop 90",
+     "90"
+    ],
     "Tom Mix",
     [
      "Lucky Seven",
@@ -1919,16 +1946,7 @@
     ],
     "Garden Gate",
     "Doctor's Orders",
-    [
-     "Downing Street",
-     "Dahnin Street"
-    ],
-    [
-     "Legs Eleven",
-     "Legs 11"
-    ],
     "One Dozen",
-    "Unlucky for Some",
     "Valentine's Day",
     "Young and Keen",
     [
@@ -1939,14 +1957,6 @@
     "Dancing Queen",
     "Coming of Age",
     "Goodbye Teens",
-    [
-     "Key of the Door",
-     "Key to the Door"
-    ],
-    [
-     "Two Little Ducks",
-     "Ducks on the Pond"
-    ],
     "Duck and Dive",
     "Half a Crown",
     "Duck and a Crutch",
@@ -1978,7 +1988,6 @@
     "Grandma's Getting Frisky",
     "Baker's Bun",
     "Tickety-Boo",
-    "Clickety Click",
     "Stairway to Heaven",
     "Made in Heaven",
     "Bang on the Drum",
@@ -1992,10 +2001,6 @@
     "Gandhi's Breakfast",
     "Staying Alive",
     "Torquay in Devon",
-    [
-     "Two Fat Ladies",
-     "Fat Ladies"
-    ],
     [
      "Nearly There",
      "Almost There"
@@ -2028,25 +2033,25 @@
      "Bumper cars"
     ],
     [
-     "Carousel",
-     "Merry-go-round",
-     "Roundabout"
-    ],
-    [
      "Waltzer",
      "Waltzers"
     ],
-    "Ghost train",
     [
      "Big wheel",
      "Ferris wheel"
     ],
+    [
+     "Carousel",
+     "Merry-go-round",
+     "Roundabout"
+    ],
+    "Ghost train",
     "Helter skelter",
     "Coconut shy",
-    "Hook a duck",
-    "Tombola",
     "Rollercoaster",
+    "Hook a duck",
     "Log flume",
+    "Tombola",
     [
      "Chair-o-planes",
      "Swing ride"
@@ -2127,36 +2132,37 @@
    "answers": [
     "Yacht",
     "Dinghy",
+    "Canoe",
+    "Kayak",
+    [
+     "Rowing boat",
+     "Rowboat"
+    ],
+    "Ferry",
+    "Speedboat",
+    [
+     "Tug",
+     "Tugboat"
+    ],
     "Catamaran",
+    "Trawler",
+    "Galleon",
+    "Submarine",
     "Ketch",
     "Sloop",
     "Schooner",
     "Yawl",
     "Cutter",
     "Brig",
-    "Galleon",
     "Barque",
     "Clipper",
     "Junk",
     "Dhow",
-    "Trawler",
-    [
-     "Tug",
-     "Tugboat"
-    ],
-    "Ferry",
-    "Canoe",
-    "Kayak",
     "Punt",
     "Gondola",
     "Lifeboat",
     "Narrowboat",
     "Longboat",
-    [
-     "Rowing boat",
-     "Rowboat"
-    ],
-    "Speedboat",
     "Motorboat",
     [
      "Steamship",
@@ -2174,7 +2180,6 @@
     "Destroyer",
     "Frigate",
     "Cruiser",
-    "Submarine",
     "Aircraft carrier",
     "Corvette",
     "Minesweeper",
@@ -2226,36 +2231,36 @@
    ],
    "text": "Name a type of bicycle",
    "answers": [
-    "BMX",
+    [
+     "Mountain bike",
+     "MTB"
+    ],
     [
      "Road bike",
      "Racing bike",
      "Road racer"
     ],
-    [
-     "Mountain bike",
-     "MTB"
-    ],
+    "BMX",
     "Tandem",
     "Penny-farthing",
-    "Recumbent",
     [
      "Folding bike",
      "Folding"
     ],
     "Hybrid",
     [
-     "Gravel bike",
-     "Gravel"
+     "E-bike",
+     "Electric bike"
     ],
     [
      "Tricycle",
      "Trike"
     ],
     "Unicycle",
+    "Recumbent",
     [
-     "E-bike",
-     "Electric bike"
+     "Gravel bike",
+     "Gravel"
     ],
     [
      "Fixie",
@@ -2319,21 +2324,21 @@
    "answers": [
     "Canon",
     "Nikon",
+    "Kodak",
     "Sony",
+    "Polaroid",
     [
      "Fujifilm",
      "Fuji"
     ],
     "Olympus",
     "Pentax",
-    "Leica",
+    "GoPro",
     [
      "Panasonic",
      "Lumix"
     ],
-    "Kodak",
-    "Polaroid",
-    "GoPro",
+    "Leica",
     "Hasselblad",
     "Minolta",
     "Ricoh",
@@ -2547,10 +2552,17 @@
    "text": "Name a style of sleeve",
    "answers": [
     [
+     "Long sleeve",
+     "Long"
+    ],
+    [
+     "Short sleeve",
+     "Short"
+    ],
+    [
      "Cap sleeve",
      "Cap"
     ],
-    "Raglan",
     [
      "Bell sleeve",
      "Bell"
@@ -2559,20 +2571,25 @@
      "Puff sleeve",
      "Puff"
     ],
+    "Raglan",
     [
-     "Bishop sleeve",
-     "Bishop"
+     "Three-quarter sleeve",
+     "Three quarter",
+     "3/4 sleeve"
     ],
-    "Dolman",
     "Batwing",
+    "Dolman",
+    [
+     "Balloon sleeve",
+     "Balloon"
+    ],
     [
      "Kimono sleeve",
      "Kimono"
     ],
     [
-     "Three-quarter sleeve",
-     "Three quarter",
-     "3/4 sleeve"
+     "Bishop sleeve",
+     "Bishop"
     ],
     "Bracelet sleeve",
     [
@@ -2589,10 +2606,6 @@
      "Lantern"
     ],
     [
-     "Balloon sleeve",
-     "Balloon"
-    ],
-    [
      "Cuffed sleeve",
      "Cuffed"
     ],
@@ -2601,14 +2614,6 @@
      "Set-in"
     ],
     "Butterfly sleeve",
-    [
-     "Long sleeve",
-     "Long"
-    ],
-    [
-     "Short sleeve",
-     "Short"
-    ],
     "Flared sleeve",
     "Petal sleeve",
     [
@@ -2653,45 +2658,45 @@
      "Scrunchy"
     ],
     [
+     "Hair clip",
+     "Clip"
+    ],
+    [
      "Hairband",
      "Headband"
     ],
     [
-     "Hair clip",
-     "Clip"
+     "Hair tie",
+     "Hair bobble",
+     "Bobble"
     ],
     [
      "Bobby pin",
      "Kirby grip",
      "Hair grip"
     ],
-    "Barrette",
-    [
-     "Hair tie",
-     "Hair bobble",
-     "Bobble"
-    ],
-    "Tiara",
+    "Alice band",
     [
      "Claw clip",
      "Claw"
     ],
     [
+     "Ribbon",
+     "Hair ribbon"
+    ],
+    [
      "Hair slide",
      "Slide"
     ],
+    "Barrette",
+    "Bandana",
     [
      "Comb",
      "Hair comb"
     ],
-    "Alice band",
+    "Tiara",
     "Snood",
     "Fascinator",
-    [
-     "Ribbon",
-     "Hair ribbon"
-    ],
-    "Bandana",
     "Turban",
     "Hair net",
     "Hairpin",
@@ -2909,32 +2914,32 @@
    ],
    "text": "Name a style of beard or moustache",
    "answers": [
-    [
-     "Handlebar moustache",
-     "Handlebar"
-    ],
     "Goatee",
-    "Van Dyke",
     [
      "Stubble",
      "Designer stubble"
     ],
+    [
+     "Handlebar moustache",
+     "Handlebar"
+    ],
+    "Van Dyke",
     "Mutton chops",
-    "Soul patch",
-    "Chinstrap",
-    "Fu Manchu",
-    [
-     "Walrus moustache",
-     "Walrus"
-    ],
-    [
-     "Pencil moustache",
-     "Pencil"
-    ],
     [
      "Toothbrush moustache",
      "Toothbrush"
     ],
+    "Soul patch",
+    [
+     "Walrus moustache",
+     "Walrus"
+    ],
+    "Fu Manchu",
+    [
+     "Pencil moustache",
+     "Pencil"
+    ],
+    "Chinstrap",
     [
      "Horseshoe moustache",
      "Horseshoe"
@@ -3076,10 +3081,6 @@
      "Gucci"
     ],
     [
-     "Valentino Garavani",
-     "Valentino"
-    ],
-    [
      "Domenico Dolce",
      "Dolce"
     ],
@@ -3088,21 +3089,25 @@
      "Gabbana"
     ],
     [
-     "Ottavio Missoni",
-     "Missoni"
+     "Valentino Garavani",
+     "Valentino"
+    ],
+    "Fendi",
+    [
+     "Roberto Cavalli",
+     "Cavalli"
     ],
     [
      "Salvatore Ferragamo",
      "Ferragamo"
     ],
-    "Fendi",
+    [
+     "Ottavio Missoni",
+     "Missoni"
+    ],
     [
      "Franco Moschino",
      "Moschino"
-    ],
-    [
-     "Roberto Cavalli",
-     "Cavalli"
     ],
     [
      "Emilio Pucci",
@@ -3188,26 +3193,6 @@
      "Saint Laurent"
     ],
     [
-     "Hubert de Givenchy",
-     "Givenchy"
-    ],
-    [
-     "Jeanne Lanvin",
-     "Lanvin"
-    ],
-    [
-     "Pierre Balmain",
-     "Balmain"
-    ],
-    [
-     "Pierre Cardin",
-     "Cardin"
-    ],
-    [
-     "André Courrèges",
-     "Courrèges"
-    ],
-    [
      "Jean Paul Gaultier",
      "Gaultier"
     ],
@@ -3216,10 +3201,30 @@
      "Thierry Hermès"
     ],
     [
+     "Hubert de Givenchy",
+     "Givenchy"
+    ],
+    [
+     "Pierre Cardin",
+     "Cardin"
+    ],
+    "Chloé",
+    [
      "Christian Lacroix",
      "Lacroix"
     ],
-    "Chloé",
+    [
+     "Pierre Balmain",
+     "Balmain"
+    ],
+    [
+     "Jeanne Lanvin",
+     "Lanvin"
+    ],
+    [
+     "André Courrèges",
+     "Courrèges"
+    ],
     "Cacharel",
     [
      "Thierry Mugler",
@@ -3339,22 +3344,22 @@
    "text": "Name a luggage or suitcase brand",
    "answers": [
     "Samsonite",
-    "Tumi",
-    "Rimowa",
     "Antler",
-    "Delsey",
     "American Tourister",
+    "Delsey",
+    "Rimowa",
+    "Tumi",
     "Louis Vuitton",
+    "Eastpak",
+    "Cabin Zero",
+    "Carlton",
     "Globe-Trotter",
     [
      "Briggs & Riley",
      "Briggs and Riley"
     ],
     "Away",
-    "Carlton",
     "Travelpro",
-    "Eastpak",
-    "Cabin Zero",
     "Heys",
     "Victorinox",
     "It Luggage",
@@ -3397,20 +3402,20 @@
      "PrettyLittleThing",
      "PLT"
     ],
-    "Missguided",
-    "Very",
-    "Next",
-    "Zalando",
     "SHEIN",
+    "Vinted",
+    "Next",
+    "Very",
+    "Depop",
+    "Zalando",
     "Net-a-Porter",
     "Farfetch",
+    "Missguided",
     [
      "MatchesFashion",
      "Matches"
     ],
     "Mr Porter",
-    "Vinted",
-    "Depop",
     "Nasty Gal",
     "Fashion Nova",
     "Revolve",
@@ -3463,6 +3468,13 @@
    "text": "Name a type of data storage device or format",
    "answers": [
     [
+     "USB stick",
+     "USB flash drive",
+     "Flash drive",
+     "Memory stick",
+     "Pen drive"
+    ],
+    [
      "Hard disk drive",
      "Hard drive",
      "HDD",
@@ -3472,43 +3484,36 @@
      "Solid-state drive",
      "SSD"
     ],
-    "RAM",
-    "ROM",
-    [
-     "Floppy disk",
-     "Floppy"
-    ],
     [
      "CD",
      "Compact disc",
      "CD-ROM"
     ],
     "DVD",
-    "Blu-ray",
-    [
-     "USB stick",
-     "USB flash drive",
-     "Flash drive",
-     "Memory stick",
-     "Pen drive"
-    ],
     [
      "SD card",
      "Memory card"
     ],
     [
+     "Floppy disk",
+     "Floppy"
+    ],
+    [
      "Cloud storage",
      "Cloud"
     ],
+    "Blu-ray",
     [
      "Magnetic tape",
      "Tape"
     ],
-    "Punch card",
+    "RAM",
     [
      "Zip disk",
      "Zip drive"
     ],
+    "ROM",
+    "Punch card",
     "Cache",
     "MiniDisc",
     "Cassette",
@@ -3906,34 +3911,34 @@
    "answers": [
     "AA",
     "AAA",
-    "C",
-    "D",
     [
      "9V",
      "PP3"
-    ],
-    [
-     "Button cell",
-     "Coin cell"
     ],
     [
      "Lithium-ion",
      "Li-ion"
     ],
     [
-     "Lead-acid",
-     "Car battery"
+     "Button cell",
+     "Coin cell"
     ],
+    "C",
+    "D",
     "Alkaline",
-    [
-     "NiCd",
-     "Nickel-cadmium"
-    ],
+    "CR2032",
     [
      "NiMH",
      "Nickel metal hydride"
     ],
-    "CR2032",
+    [
+     "Lead-acid",
+     "Car battery"
+    ],
+    [
+     "NiCd",
+     "Nickel-cadmium"
+    ],
     "AAAA",
     [
      "Lithium polymer",
@@ -4198,21 +4203,21 @@
      "Google Wallet",
      "Android Pay"
     ],
-    "Venmo",
-    "Cash App",
     "Klarna",
     "Revolut",
     "Monzo",
     "Starling",
     [
-     "Wise",
-     "TransferWise"
-    ],
-    "Zelle",
-    [
      "Samsung Pay",
      "Samsung Wallet"
     ],
+    [
+     "Wise",
+     "TransferWise"
+    ],
+    "Venmo",
+    "Cash App",
+    "Zelle",
     "Alipay",
     "WeChat Pay",
     "Paytm",
@@ -4277,18 +4282,18 @@
     "Amazon",
     "eBay",
     "Etsy",
-    "AliExpress",
-    "Alibaba",
-    "Gumtree",
     "Vinted",
-    "Depop",
+    "Gumtree",
     [
      "Facebook Marketplace",
      "Marketplace"
     ],
-    "Shpock",
     "Temu",
+    "AliExpress",
+    "Depop",
     "Shein",
+    "Shpock",
+    "Alibaba",
     "Wish",
     "Rakuten",
     "Walmart",

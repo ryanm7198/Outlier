@@ -9,41 +9,13 @@
    "text": "Name a type of woodworking joint",
    "answers": [
     [
-     "Butt joint",
-     "Butt"
-    ],
-    [
-     "Lap joint",
-     "Lap"
-    ],
-    [
-     "Cross lap joint",
-     "Cross lap",
-     "Cross-lap"
-    ],
-    [
-     "Bridle joint",
-     "Bridle",
-     "Open mortise and tenon"
+     "Dovetail joint",
+     "Dovetail"
     ],
     [
      "Mortise and tenon",
      "Mortice and tenon",
      "Mortise and tenon joint"
-    ],
-    [
-     "Floating tenon joint",
-     "Loose tenon",
-     "Floating tenon",
-     "Loose tenon joint"
-    ],
-    [
-     "Dowel joint",
-     "Dowel"
-    ],
-    [
-     "Cross dowel joint",
-     "Cross dowel"
     ],
     [
      "Mitre joint",
@@ -52,13 +24,26 @@
      "Miter"
     ],
     [
+     "Dowel joint",
+     "Dowel"
+    ],
+    [
+     "Butt joint",
+     "Butt"
+    ],
+    [
      "Box joint",
      "Finger joint",
      "Box"
     ],
     [
-     "Dovetail joint",
-     "Dovetail"
+     "Tongue and groove",
+     "Tongue and groove joint",
+     "T&G"
+    ],
+    [
+     "Lap joint",
+     "Lap"
     ],
     [
      "Dado joint",
@@ -67,18 +52,33 @@
      "Trench joint"
     ],
     [
-     "Groove joint",
-     "Groove"
-    ],
-    [
-     "Tongue and groove",
-     "Tongue and groove joint",
-     "T&G"
+     "Bridle joint",
+     "Bridle",
+     "Open mortise and tenon"
     ],
     [
      "Birdsmouth joint",
      "Birdsmouth",
      "Bird's mouth"
+    ],
+    [
+     "Cross lap joint",
+     "Cross lap",
+     "Cross-lap"
+    ],
+    [
+     "Floating tenon joint",
+     "Loose tenon",
+     "Floating tenon",
+     "Loose tenon joint"
+    ],
+    [
+     "Cross dowel joint",
+     "Cross dowel"
+    ],
+    [
+     "Groove joint",
+     "Groove"
     ],
     [
      "Splice joint",
@@ -112,14 +112,57 @@
    ],
    "text": "Name a tree species native to Great Britain (as listed by Wikipedia; not counting Ireland-only species)",
    "answers": [
+    "Silver birch",
+    [
+     "Pedunculate oak",
+     "English oak",
+     "Common oak"
+    ],
+    [
+     "Beech",
+     "European beech",
+     "Common beech"
+    ],
+    [
+     "Hazel",
+     "Common hazel"
+    ],
     [
      "Yew",
      "European yew",
      "English yew"
     ],
     [
+     "Holly",
+     "European holly"
+    ],
+    [
+     "Ash",
+     "Common ash"
+    ],
+    [
      "Scots pine",
      "Scotch pine"
+    ],
+    [
+     "Hawthorn",
+     "Common hawthorn"
+    ],
+    [
+     "Rowan",
+     "Mountain ash"
+    ],
+    [
+     "Alder",
+     "Common alder"
+    ],
+    [
+     "Hornbeam",
+     "European hornbeam"
+    ],
+    [
+     "Sessile oak",
+     "Durmast oak"
     ],
     "Aspen",
     "Black poplar",
@@ -133,45 +176,10 @@
      "Pussy willow",
      "Sallow"
     ],
-    "Silver birch",
     "Downy birch",
-    [
-     "Alder",
-     "Common alder"
-    ],
-    [
-     "Hornbeam",
-     "European hornbeam"
-    ],
-    [
-     "Hazel",
-     "Common hazel"
-    ],
-    [
-     "Beech",
-     "European beech",
-     "Common beech"
-    ],
-    [
-     "Pedunculate oak",
-     "English oak",
-     "Common oak"
-    ],
-    [
-     "Sessile oak",
-     "Durmast oak"
-    ],
     "Wych elm",
     "Field elm",
-    [
-     "Hawthorn",
-     "Common hawthorn"
-    ],
     "Midland hawthorn",
-    [
-     "Rowan",
-     "Mountain ash"
-    ],
     [
      "Whitebeam",
      "Common whitebeam"
@@ -185,17 +193,9 @@
     ],
     "Bird cherry",
     "Box",
-    [
-     "Holly",
-     "European holly"
-    ],
     "Field maple",
     "Small-leaved lime",
-    "Large-leaved lime",
-    [
-     "Ash",
-     "Common ash"
-    ]
+    "Large-leaved lime"
    ]
   },
   {
@@ -205,6 +205,72 @@
    ],
    "text": "Name a standard HTTP response status code, by its name or its number (codes registered up to 2025)",
    "answers": [
+    [
+     "Not Found",
+     "404",
+     "404 Not Found",
+     "Page Not Found",
+     "File Not Found"
+    ],
+    [
+     "OK",
+     "200",
+     "200 OK",
+     "Okay"
+    ],
+    [
+     "Internal Server Error",
+     "500",
+     "500 Internal Server Error",
+     "Server Error"
+    ],
+    [
+     "Forbidden",
+     "403",
+     "403 Forbidden"
+    ],
+    [
+     "Unauthorized",
+     "401",
+     "401 Unauthorized"
+    ],
+    [
+     "Bad Request",
+     "400",
+     "400 Bad Request"
+    ],
+    [
+     "Moved Permanently",
+     "301",
+     "301 Moved Permanently"
+    ],
+    [
+     "Created",
+     "201",
+     "201 Created"
+    ],
+    [
+     "Service Unavailable",
+     "503",
+     "503 Service Unavailable",
+     "Server Unavailable"
+    ],
+    [
+     "Found",
+     "302",
+     "302 Found",
+     "Moved Temporarily"
+    ],
+    [
+     "No Content",
+     "204",
+     "204 No Content"
+    ],
+    [
+     "Bad Gateway",
+     "502",
+     "502 Bad Gateway"
+    ],
     [
      "Continue",
      "100",
@@ -226,17 +292,6 @@
      "103 Early Hints"
     ],
     [
-     "OK",
-     "200",
-     "200 OK",
-     "Okay"
-    ],
-    [
-     "Created",
-     "201",
-     "201 Created"
-    ],
-    [
      "Accepted",
      "202",
      "202 Accepted"
@@ -245,11 +300,6 @@
      "Non-Authoritative Information",
      "203",
      "203 Non-Authoritative Information"
-    ],
-    [
-     "No Content",
-     "204",
-     "204 No Content"
     ],
     [
      "Reset Content",
@@ -282,17 +332,6 @@
      "300 Multiple Choices"
     ],
     [
-     "Moved Permanently",
-     "301",
-     "301 Moved Permanently"
-    ],
-    [
-     "Found",
-     "302",
-     "302 Found",
-     "Moved Temporarily"
-    ],
-    [
      "See Other",
      "303",
      "303 See Other"
@@ -318,31 +357,9 @@
      "308 Permanent Redirect"
     ],
     [
-     "Bad Request",
-     "400",
-     "400 Bad Request"
-    ],
-    [
-     "Unauthorized",
-     "401",
-     "401 Unauthorized"
-    ],
-    [
      "Payment Required",
      "402",
      "402 Payment Required"
-    ],
-    [
-     "Forbidden",
-     "403",
-     "403 Forbidden"
-    ],
-    [
-     "Not Found",
-     "404",
-     "404 Not Found",
-     "Page Not Found",
-     "File Not Found"
     ],
     [
      "Method Not Allowed",
@@ -470,26 +487,9 @@
      "451 Unavailable For Legal Reasons"
     ],
     [
-     "Internal Server Error",
-     "500",
-     "500 Internal Server Error",
-     "Server Error"
-    ],
-    [
      "Not Implemented",
      "501",
      "501 Not Implemented"
-    ],
-    [
-     "Bad Gateway",
-     "502",
-     "502 Bad Gateway"
-    ],
-    [
-     "Service Unavailable",
-     "503",
-     "503 Service Unavailable",
-     "Server Unavailable"
     ],
     [
      "Gateway Timeout",
@@ -535,31 +535,31 @@
    ],
    "text": "Name one of the 16 basic colour names defined in HTML 4.01 (also valid in CSS)",
    "answers": [
+    "Red",
+    "Blue",
+    "Green",
+    "Black",
     "White",
-    "Silver",
+    "Yellow",
+    "Purple",
     [
      "Gray",
      "Grey"
     ],
-    "Black",
-    "Red",
-    "Maroon",
-    "Yellow",
-    "Olive",
+    "Silver",
     "Lime",
-    "Green",
+    "Navy",
+    "Maroon",
+    "Olive",
     [
      "Aqua",
      "Cyan"
     ],
     "Teal",
-    "Blue",
-    "Navy",
     [
      "Fuchsia",
      "Magenta"
-    ],
-    "Purple"
+    ]
    ]
   },
   {
@@ -569,6 +569,71 @@
    ],
    "text": "Name a Jaguar car model (past or present, up to 2025)",
    "answers": [
+    [
+     "E-Type",
+     "XKE",
+     "Jaguar E-Type"
+    ],
+    [
+     "XJ",
+     "XJ6",
+     "XJ8",
+     "XJ12",
+     "Jaguar XJ"
+    ],
+    [
+     "XK",
+     "Jaguar XK"
+    ],
+    [
+     "F-Type",
+     "F Type",
+     "Jaguar F-Type"
+    ],
+    [
+     "XJ-S",
+     "XJS",
+     "Jaguar XJ-S"
+    ],
+    [
+     "XF",
+     "Jaguar XF"
+    ],
+    [
+     "XE",
+     "Jaguar XE"
+    ],
+    [
+     "F-Pace",
+     "F Pace",
+     "Jaguar F-Pace"
+    ],
+    [
+     "I-Pace",
+     "I Pace",
+     "Jaguar I-Pace"
+    ],
+    [
+     "S-Type",
+     "S Type",
+     "Jaguar S-Type"
+    ],
+    [
+     "X-Type",
+     "X Type",
+     "Jaguar X-Type"
+    ],
+    [
+     "Mark 2",
+     "Mk 2",
+     "Mark II",
+     "Jaguar Mark 2"
+    ],
+    [
+     "XK120",
+     "XK 120",
+     "Jaguar XK120"
+    ],
     [
      "SS 100",
      "Jaguar SS 100"
@@ -614,17 +679,6 @@
      "Jaguar Mark 1"
     ],
     [
-     "Mark 2",
-     "Mk 2",
-     "Mark II",
-     "Jaguar Mark 2"
-    ],
-    [
-     "S-Type",
-     "S Type",
-     "Jaguar S-Type"
-    ],
-    [
      "420",
      "Jaguar 420"
     ],
@@ -635,11 +689,6 @@
     [
      "340",
      "Jaguar 340"
-    ],
-    [
-     "XK120",
-     "XK 120",
-     "Jaguar XK120"
     ],
     [
      "XK140",
@@ -660,23 +709,6 @@
      "Jaguar D-Type"
     ],
     [
-     "E-Type",
-     "XKE",
-     "Jaguar E-Type"
-    ],
-    [
-     "XJ",
-     "XJ6",
-     "XJ8",
-     "XJ12",
-     "Jaguar XJ"
-    ],
-    [
-     "XJ-S",
-     "XJS",
-     "Jaguar XJ-S"
-    ],
-    [
      "XJ220",
      "Jaguar XJ220"
     ],
@@ -686,41 +718,9 @@
      "Jaguar XK8"
     ],
     [
-     "XK",
-     "Jaguar XK"
-    ],
-    [
-     "X-Type",
-     "X Type",
-     "Jaguar X-Type"
-    ],
-    [
-     "XF",
-     "Jaguar XF"
-    ],
-    [
-     "XE",
-     "Jaguar XE"
-    ],
-    [
-     "F-Type",
-     "F Type",
-     "Jaguar F-Type"
-    ],
-    [
-     "F-Pace",
-     "F Pace",
-     "Jaguar F-Pace"
-    ],
-    [
      "E-Pace",
      "E Pace",
      "Jaguar E-Pace"
-    ],
-    [
-     "I-Pace",
-     "I Pace",
-     "Jaguar I-Pace"
     ]
    ]
   },
@@ -732,16 +732,56 @@
    "text": "Name a Porsche car model (a production road car or road-going sports car, up to 2025)",
    "answers": [
     [
+     "911",
+     "Porsche 911"
+    ],
+    [
+     "Boxster",
+     "Porsche Boxster"
+    ],
+    [
+     "Cayman",
+     "Porsche Cayman"
+    ],
+    [
+     "Cayenne",
+     "Porsche Cayenne"
+    ],
+    [
+     "Macan",
+     "Porsche Macan"
+    ],
+    [
+     "Panamera",
+     "Porsche Panamera"
+    ],
+    [
+     "Taycan",
+     "Porsche Taycan"
+    ],
+    [
+     "944",
+     "Porsche 944"
+    ],
+    [
+     "924",
+     "Porsche 924"
+    ],
+    [
+     "928",
+     "Porsche 928"
+    ],
+    [
      "356",
      "Porsche 356"
     ],
     [
-     "550",
-     "Porsche 550"
-    ],
-    [
      "718",
      "Porsche 718"
+    ],
+    [
+     "550",
+     "Porsche 550"
     ],
     [
      "904",
@@ -750,10 +790,6 @@
     [
      "906",
      "Porsche 906"
-    ],
-    [
-     "911",
-     "Porsche 911"
     ],
     [
      "912",
@@ -769,18 +805,6 @@
      "Porsche 930"
     ],
     [
-     "924",
-     "Porsche 924"
-    ],
-    [
-     "928",
-     "Porsche 928"
-    ],
-    [
-     "944",
-     "Porsche 944"
-    ],
-    [
      "959",
      "Porsche 959"
     ],
@@ -789,42 +813,18 @@
      "Porsche 968"
     ],
     [
-     "Boxster",
-     "Porsche Boxster"
-    ],
-    [
      "911 GT1",
      "911 GT1 Strassenversion",
      "Porsche 911 GT1"
-    ],
-    [
-     "Cayenne",
-     "Porsche Cayenne"
     ],
     [
      "Carrera GT",
      "Porsche Carrera GT"
     ],
     [
-     "Cayman",
-     "Porsche Cayman"
-    ],
-    [
-     "Panamera",
-     "Porsche Panamera"
-    ],
-    [
      "918 Spyder",
      "918",
      "Porsche 918 Spyder"
-    ],
-    [
-     "Macan",
-     "Porsche Macan"
-    ],
-    [
-     "Taycan",
-     "Porsche Taycan"
     ]
    ]
   },
@@ -836,6 +836,68 @@
    "text": "Name a Ferrari road car model or model family (past or present, up to 2025)",
    "answers": [
     [
+     "F40",
+     "Ferrari F40"
+    ],
+    [
+     "Testarossa",
+     "Ferrari Testarossa"
+    ],
+    [
+     "Enzo",
+     "Ferrari Enzo"
+    ],
+    [
+     "Daytona",
+     "Ferrari Daytona"
+    ],
+    [
+     "488",
+     "488 GTB",
+     "Ferrari 488"
+    ],
+    [
+     "458",
+     "458 Italia",
+     "Ferrari 458"
+    ],
+    [
+     "LaFerrari",
+     "Ferrari LaFerrari"
+    ],
+    [
+     "F50",
+     "Ferrari F50"
+    ],
+    [
+     "250",
+     "250 GT",
+     "250 GTO",
+     "Ferrari 250"
+    ],
+    [
+     "California",
+     "Ferrari California"
+    ],
+    [
+     "Portofino",
+     "Ferrari Portofino"
+    ],
+    [
+     "Roma",
+     "Ferrari Roma"
+    ],
+    [
+     "296",
+     "296 GTB",
+     "Ferrari 296"
+    ],
+    [
+     "SF90 Stradale",
+     "SF90",
+     "Ferrari SF90 Stradale"
+    ],
+    [
      "Inter",
      "166 Inter",
      "Ferrari Inter"
@@ -844,12 +906,6 @@
      "America",
      "Superamerica",
      "Ferrari America"
-    ],
-    [
-     "250",
-     "250 GT",
-     "250 GTO",
-     "Ferrari 250"
     ],
     [
      "275",
@@ -866,18 +922,10 @@
      "Ferrari 365"
     ],
     [
-     "Daytona",
-     "Ferrari Daytona"
-    ],
-    [
      "Berlinetta Boxer",
      "512 BB",
      "365 GT4 BB",
      "Ferrari Berlinetta Boxer"
-    ],
-    [
-     "Testarossa",
-     "Ferrari Testarossa"
     ],
     [
      "512 TR",
@@ -890,22 +938,6 @@
     [
      "288 GTO",
      "Ferrari 288 GTO"
-    ],
-    [
-     "F40",
-     "Ferrari F40"
-    ],
-    [
-     "F50",
-     "Ferrari F50"
-    ],
-    [
-     "Enzo",
-     "Ferrari Enzo"
-    ],
-    [
-     "LaFerrari",
-     "Ferrari LaFerrari"
     ],
     [
      "F80",
@@ -931,29 +963,9 @@
      "Ferrari F430"
     ],
     [
-     "458",
-     "458 Italia",
-     "Ferrari 458"
-    ],
-    [
-     "488",
-     "488 GTB",
-     "Ferrari 488"
-    ],
-    [
      "F8 Tributo",
      "F8",
      "Ferrari F8 Tributo"
-    ],
-    [
-     "296",
-     "296 GTB",
-     "Ferrari 296"
-    ],
-    [
-     "SF90 Stradale",
-     "SF90",
-     "Ferrari SF90 Stradale"
     ],
     [
      "849 Testarossa",
@@ -1020,10 +1032,6 @@
      "Ferrari 612 Scaglietti"
     ],
     [
-     "California",
-     "Ferrari California"
-    ],
-    [
      "F12berlinetta",
      "F12",
      "F12 Berlinetta",
@@ -1048,14 +1056,6 @@
      "Ferrari GTC4Lusso"
     ],
     [
-     "Portofino",
-     "Ferrari Portofino"
-    ],
-    [
-     "Roma",
-     "Ferrari Roma"
-    ],
-    [
      "Purosangue",
      "Ferrari Purosangue"
     ]
@@ -1068,6 +1068,78 @@
    ],
    "text": "Name a winner of the Nobel Prize in Literature (1901 to 2026)",
    "answers": [
+    [
+     "Ernest Hemingway",
+     "Hemingway"
+    ],
+    [
+     "John Steinbeck",
+     "Steinbeck"
+    ],
+    [
+     "Rudyard Kipling",
+     "Kipling"
+    ],
+    [
+     "Winston Churchill",
+     "Churchill"
+    ],
+    [
+     "Bob Dylan",
+     "Dylan"
+    ],
+    [
+     "Kazuo Ishiguro",
+     "Ishiguro"
+    ],
+    [
+     "T. S. Eliot",
+     "Eliot",
+     "TS Eliot"
+    ],
+    [
+     "Samuel Beckett",
+     "Beckett"
+    ],
+    [
+     "Doris Lessing",
+     "Lessing"
+    ],
+    [
+     "Toni Morrison",
+     "Morrison"
+    ],
+    [
+     "Gabriel García Márquez",
+     "Garcia Marquez",
+     "Marquez"
+    ],
+    [
+     "Seamus Heaney",
+     "Heaney"
+    ],
+    [
+     "George Bernard Shaw",
+     "Bernard Shaw",
+     "Shaw",
+     "GB Shaw"
+    ],
+    [
+     "William Golding",
+     "Golding"
+    ],
+    [
+     "Harold Pinter",
+     "Pinter"
+    ],
+    [
+     "Albert Camus",
+     "Camus"
+    ],
+    [
+     "Jean-Paul Sartre",
+     "Sartre"
+    ],
     [
      "Sully Prudhomme",
      "Prudhomme"
@@ -1094,10 +1166,6 @@
     [
      "Giosuè Carducci",
      "Carducci"
-    ],
-    [
-     "Rudyard Kipling",
-     "Kipling"
     ],
     [
      "Rudolf Christoph Eucken",
@@ -1165,12 +1233,6 @@
     [
      "Władysław Reymont",
      "Reymont"
-    ],
-    [
-     "George Bernard Shaw",
-     "Bernard Shaw",
-     "Shaw",
-     "GB Shaw"
     ],
     [
      "Grazia Deledda",
@@ -1243,11 +1305,6 @@
      "Gide"
     ],
     [
-     "T. S. Eliot",
-     "Eliot",
-     "TS Eliot"
-    ],
-    [
      "William Faulkner",
      "Faulkner"
     ],
@@ -1264,14 +1321,6 @@
      "Mauriac"
     ],
     [
-     "Winston Churchill",
-     "Churchill"
-    ],
-    [
-     "Ernest Hemingway",
-     "Hemingway"
-    ],
-    [
      "Halldór Laxness",
      "Laxness"
     ],
@@ -1279,10 +1328,6 @@
      "Juan Ramón Jiménez",
      "Jimenez",
      "Juan Ramon Jimenez"
-    ],
-    [
-     "Albert Camus",
-     "Camus"
     ],
     [
      "Boris Pasternak",
@@ -1302,16 +1347,8 @@
      "Andrić"
     ],
     [
-     "John Steinbeck",
-     "Steinbeck"
-    ],
-    [
      "Giorgos Seferis",
      "Seferis"
-    ],
-    [
-     "Jean-Paul Sartre",
-     "Sartre"
     ],
     [
      "Mikhail Sholokhov",
@@ -1333,10 +1370,6 @@
     [
      "Yasunari Kawabata",
      "Kawabata"
-    ],
-    [
-     "Samuel Beckett",
-     "Beckett"
     ],
     [
      "Aleksandr Solzhenitsyn",
@@ -1392,15 +1425,6 @@
      "Canetti"
     ],
     [
-     "Gabriel García Márquez",
-     "Garcia Marquez",
-     "Marquez"
-    ],
-    [
-     "William Golding",
-     "Golding"
-    ],
-    [
      "Jaroslav Seifert",
      "Seifert"
     ],
@@ -1437,16 +1461,8 @@
      "Walcott"
     ],
     [
-     "Toni Morrison",
-     "Morrison"
-    ],
-    [
      "Kenzaburō Ōe",
      "Ōe"
-    ],
-    [
-     "Seamus Heaney",
-     "Heaney"
     ],
     [
      "Wisława Szymborska",
@@ -1487,16 +1503,8 @@
      "Jelinek"
     ],
     [
-     "Harold Pinter",
-     "Pinter"
-    ],
-    [
      "Orhan Pamuk",
      "Pamuk"
-    ],
-    [
-     "Doris Lessing",
-     "Lessing"
     ],
     [
      "J. M. G. Le Clézio",
@@ -1532,14 +1540,6 @@
     [
      "Svetlana Alexievich",
      "Alexievich"
-    ],
-    [
-     "Bob Dylan",
-     "Dylan"
-    ],
-    [
-     "Kazuo Ishiguro",
-     "Ishiguro"
     ],
     [
      "Olga Tokarczuk",
@@ -1586,34 +1586,36 @@
    "text": "Name a Church of England cathedral in England (its city or full name is fine; the 42 diocesan cathedrals as of 2025, not including the Isle of Man or Gibraltar)",
    "answers": [
     [
-     "Birmingham Cathedral",
-     "St Philip's Cathedral",
-     "Birmingham"
-    ],
-    [
-     "Bristol Cathedral",
-     "Bristol"
-    ],
-    [
      "Canterbury Cathedral",
      "Canterbury"
     ],
     [
-     "Chelmsford Cathedral",
-     "Chelmsford"
+     "St Paul's Cathedral",
+     "St Pauls Cathedral",
+     "St Pauls",
+     "St Paul's",
+     "Saint Paul's"
     ],
     [
-     "Chichester Cathedral",
-     "Chichester"
+     "York Minster",
+     "York",
+     "York Cathedral"
     ],
     [
-     "Coventry Cathedral",
-     "Coventry",
-     "St Michael's Cathedral"
+     "Salisbury Cathedral",
+     "Salisbury"
     ],
     [
-     "Derby Cathedral",
-     "Derby"
+     "Durham Cathedral",
+     "Durham"
+    ],
+    [
+     "Winchester Cathedral",
+     "Winchester"
+    ],
+    [
+     "Lincoln Cathedral",
+     "Lincoln"
     ],
     [
      "Ely Cathedral",
@@ -1626,6 +1628,45 @@
     [
      "Gloucester Cathedral",
      "Gloucester"
+    ],
+    [
+     "Wells Cathedral",
+     "Wells"
+    ],
+    [
+     "Coventry Cathedral",
+     "Coventry",
+     "St Michael's Cathedral"
+    ],
+    [
+     "Liverpool Cathedral",
+     "Liverpool",
+     "Liverpool Anglican Cathedral"
+    ],
+    [
+     "Norwich Cathedral",
+     "Norwich"
+    ],
+    [
+     "Birmingham Cathedral",
+     "St Philip's Cathedral",
+     "Birmingham"
+    ],
+    [
+     "Bristol Cathedral",
+     "Bristol"
+    ],
+    [
+     "Chelmsford Cathedral",
+     "Chelmsford"
+    ],
+    [
+     "Chichester Cathedral",
+     "Chichester"
+    ],
+    [
+     "Derby Cathedral",
+     "Derby"
     ],
     [
      "Guildford Cathedral",
@@ -1642,14 +1683,6 @@
     [
      "Lichfield Cathedral",
      "Lichfield"
-    ],
-    [
-     "Lincoln Cathedral",
-     "Lincoln"
-    ],
-    [
-     "Norwich Cathedral",
-     "Norwich"
     ],
     [
      "Christ Church Cathedral",
@@ -1681,31 +1714,12 @@
      "St Edmundsbury"
     ],
     [
-     "St Paul's Cathedral",
-     "St Pauls Cathedral",
-     "St Pauls",
-     "St Paul's",
-     "Saint Paul's"
-    ],
-    [
-     "Salisbury Cathedral",
-     "Salisbury"
-    ],
-    [
      "Southwark Cathedral",
      "Southwark"
     ],
     [
      "Truro Cathedral",
      "Truro"
-    ],
-    [
-     "Wells Cathedral",
-     "Wells"
-    ],
-    [
-     "Winchester Cathedral",
-     "Winchester"
     ],
     [
      "Worcester Cathedral",
@@ -1726,15 +1740,6 @@
     [
      "Chester Cathedral",
      "Chester"
-    ],
-    [
-     "Durham Cathedral",
-     "Durham"
-    ],
-    [
-     "Liverpool Cathedral",
-     "Liverpool",
-     "Liverpool Anglican Cathedral"
     ],
     [
      "Manchester Cathedral",
@@ -1761,11 +1766,6 @@
     [
      "Wakefield Cathedral",
      "Wakefield"
-    ],
-    [
-     "York Minster",
-     "York",
-     "York Cathedral"
     ]
    ]
   }

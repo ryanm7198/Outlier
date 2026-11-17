@@ -122,33 +122,16 @@
      "Salah"
     ],
     [
-     "Harry Kane",
-     "Kane"
-    ],
-    [
-     "Steven Gerrard",
-     "Gerrard"
-    ],
-    [
-     "Frank Lampard",
-     "Lampard"
-    ],
-    [
-     "Wayne Rooney",
-     "Rooney"
-    ],
-    [
-     "David Beckham",
-     "Becks",
-     "Beckham"
-    ],
-    [
      "Cesc Fabregas",
      "Fabregas"
     ],
     [
-     "Thierry Henry",
-     "Henry"
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Wayne Rooney",
+     "Rooney"
     ],
     [
      "Eden Hazard",
@@ -160,8 +143,25 @@
      "Fernandes"
     ],
     [
+     "Steven Gerrard",
+     "Gerrard"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "David Beckham",
+     "Becks",
+     "Beckham"
+    ],
+    [
      "Mesut Ozil",
      "Ozil"
+    ],
+    [
+     "Thierry Henry",
+     "Henry"
     ],
     [
      "Eric Cantona",
@@ -1231,13 +1231,20 @@
    "eraText": "Name a player with five or more career Premier League red cards who was sent off in a season that began in the {era}",
    "answers": [
     [
-     "Andy Cole",
-     "Andrew Cole",
-     "Cole"
-    ],
-    [
      "Steven Gerrard",
      "Gerrard"
+    ],
+    [
+     "Roy Keane",
+     "Keane"
+    ],
+    [
+     "Patrick Vieira",
+     "Vieira"
+    ],
+    [
+     "John Terry",
+     "Terry"
     ],
     [
      "Gareth Barry",
@@ -1248,20 +1255,33 @@
      "Noble"
     ],
     [
-     "John Terry",
-     "Terry"
-    ],
-    [
-     "Dion Dublin",
-     "Dublin"
-    ],
-    [
      "Nicky Butt",
      "Butt"
     ],
     [
-     "Roy Keane",
-     "Keane"
+     "Duncan Ferguson",
+     "Ferguson"
+    ],
+    [
+     "Joey Barton",
+     "Barton"
+    ],
+    [
+     "Martin Keown",
+     "Keown"
+    ],
+    [
+     "Andy Cole",
+     "Andrew Cole",
+     "Cole"
+    ],
+    [
+     "Dennis Wise",
+     "Wise"
+    ],
+    [
+     "Dion Dublin",
+     "Dublin"
     ],
     [
      "Richard Dunne",
@@ -1284,16 +1304,8 @@
      "Boateng"
     ],
     [
-     "Duncan Ferguson",
-     "Ferguson"
-    ],
-    [
      "Alan Smith",
      "Smith"
-    ],
-    [
-     "Patrick Vieira",
-     "Vieira"
     ],
     [
      "Ugo Ehiogu",
@@ -1308,10 +1320,6 @@
      "Konchesky"
     ],
     [
-     "Dennis Wise",
-     "Wise"
-    ],
-    [
      "Jason Wilcox",
      "Wilcox"
     ],
@@ -1320,16 +1328,8 @@
      "Koscielny"
     ],
     [
-     "Joey Barton",
-     "Barton"
-    ],
-    [
      "Ryan Shawcross",
      "Shawcross"
-    ],
-    [
-     "Martin Keown",
-     "Keown"
     ],
     [
      "Wes Brown",
@@ -1564,10 +1564,6 @@
    "eraText": "Name a goalkeeper with 50 or more career Premier League clean sheets who played in the Premier League in a season that began in the {era}",
    "answers": [
     [
-     "David James",
-     "James"
-    ],
-    [
      "Petr Cech",
      "Cech"
     ],
@@ -1576,6 +1572,43 @@
      "Gea",
      "de Gea"
     ],
+    [
+     "Joe Hart",
+     "Hart"
+    ],
+    [
+     "Jordan Pickford",
+     "Pickford"
+    ],
+    [
+     "Alisson",
+     "Alisson Becker"
+    ],
+    "Ederson",
+    [
+     "David Seaman",
+     "Seaman"
+    ],
+    "Peter Schmeichel",
+    [
+     "Edwin van der Sar",
+     "Van der Sar",
+     "Sar",
+     "van der Sar"
+    ],
+    [
+     "Hugo Lloris",
+     "Lloris"
+    ],
+    [
+     "Pepe Reina",
+     "Reina"
+    ],
+    [
+     "David James",
+     "James"
+    ],
+    "Kasper Schmeichel",
     [
      "Mark Schwarzer",
      "Schwarzer"
@@ -1589,10 +1622,6 @@
      "Fabianski"
     ],
     [
-     "Jordan Pickford",
-     "Pickford"
-    ],
-    [
      "Brad Friedel",
      "Friedel"
     ],
@@ -1601,16 +1630,8 @@
      "Given"
     ],
     [
-     "Hugo Lloris",
-     "Lloris"
-    ],
-    [
      "Jussi Jääskeläinen",
      "Jääskeläinen"
-    ],
-    [
-     "Joe Hart",
-     "Hart"
     ],
     [
      "Tim Howard",
@@ -1621,26 +1642,12 @@
      "Robinson"
     ],
     [
-     "Pepe Reina",
-     "Reina"
-    ],
-    [
      "Nigel Martyn",
      "Martyn"
     ],
     [
      "Thomas Sørensen",
      "Sørensen"
-    ],
-    "Kasper Schmeichel",
-    "Ederson",
-    [
-     "David Seaman",
-     "Seaman"
-    ],
-    [
-     "Alisson",
-     "Alisson Becker"
     ],
     [
      "Bernd Leno",
@@ -1649,13 +1656,6 @@
     [
      "Asmir Begovic",
      "Begovic"
-    ],
-    "Peter Schmeichel",
-    [
-     "Edwin van der Sar",
-     "Van der Sar",
-     "Sar",
-     "van der Sar"
     ],
     [
      "Ian Walker",
@@ -1952,45 +1952,67 @@
    "eraText": "Name a player with 50 or more career Premier League assists who played in the Premier League in a season that began in the {era}",
    "answers": [
     [
-     "James Milner",
-     "Milner"
-    ],
-    [
-     "Frank Lampard",
-     "Lampard"
-    ],
-    [
-     "Alan Shearer",
-     "Shearer"
-    ],
-    [
      "Ryan Giggs",
      "Giggs"
+    ],
+    [
+     "Kevin De Bruyne",
+     "Bruyne",
+     "De Bruyne"
     ],
     [
      "Mohamed Salah",
      "Salah"
     ],
     [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
      "Wayne Rooney",
      "Rooney"
     ],
     [
-     "Peter Crouch",
-     "Crouch"
+     "Steven Gerrard",
+     "Gerrard"
+    ],
+    [
+     "Cesc Fàbregas",
+     "Fàbregas"
+    ],
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "James Milner",
+     "Milner"
     ],
     [
      "Raheem Sterling",
      "Sterling"
     ],
     [
+     "Alan Shearer",
+     "Shearer"
+    ],
+    [
+     "Paul Scholes",
+     "Scholes"
+    ],
+    [
+     "Son Heung-min",
+     "Sonny",
+     "min"
+    ],
+    [
+     "Peter Crouch",
+     "Crouch"
+    ],
+    [
      "Andy Cole",
      "Andrew Cole",
      "Cole"
-    ],
-    [
-     "Steven Gerrard",
-     "Gerrard"
     ],
     [
      "Ashley Young",
@@ -2001,11 +2023,6 @@
      "Barry"
     ],
     [
-     "Son Heung-min",
-     "Sonny",
-     "min"
-    ],
-    [
      "Emile Heskey",
      "Heskey"
     ],
@@ -2014,29 +2031,12 @@
      "Sheringham"
     ],
     [
-     "Paul Scholes",
-     "Scholes"
-    ],
-    [
      "Theo Walcott",
      "Walcott"
     ],
     [
      "Jordan Henderson",
      "Henderson"
-    ],
-    [
-     "Cesc Fàbregas",
-     "Fàbregas"
-    ],
-    [
-     "Kevin De Bruyne",
-     "Bruyne",
-     "De Bruyne"
-    ],
-    [
-     "Thierry Henry",
-     "Henry"
     ],
     [
      "Kevin Davies",
@@ -2412,12 +2412,20 @@
      "Haaland"
     ],
     [
-     "Igor Thiago",
-     "Thiago"
-    ],
-    [
      "Antoine Semenyo",
      "Semenyo"
+    ],
+    [
+     "Viktor Gyökeres",
+     "Gyökeres"
+    ],
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Bryan Mbeumo",
+     "Mbeumo"
     ],
     [
      "Ollie Watkins",
@@ -2428,6 +2436,22 @@
      "Pedro"
     ],
     [
+     "Hugo Ekitiké",
+     "Ekitiké"
+    ],
+    [
+     "Benjamin Sesko",
+     "Sesko"
+    ],
+    [
+     "Matheus Cunha",
+     "Cunha"
+    ],
+    [
+     "Igor Thiago",
+     "Thiago"
+    ],
+    [
      "Morgan Gibbs-White",
      "White"
     ],
@@ -2436,9 +2460,14 @@
      "Lewin"
     ],
     [
-     "Viktor Gyökeres",
-     "Gyökeres"
+     "Morgan Rogers",
+     "Rogers"
     ],
+    [
+     "Enzo Fernández",
+     "Fernández"
+    ],
+    "Richarlison",
     [
      "Junior Kroupi",
      "Kroupi"
@@ -2452,37 +2481,8 @@
      "Mateta"
     ],
     [
-     "Bryan Mbeumo",
-     "Mbeumo"
-    ],
-    [
      "Zian Flemming",
      "Flemming"
-    ],
-    [
-     "Benjamin Sesko",
-     "Sesko"
-    ],
-    "Richarlison",
-    [
-     "Hugo Ekitiké",
-     "Ekitiké"
-    ],
-    [
-     "Morgan Rogers",
-     "Rogers"
-    ],
-    [
-     "Cole Palmer",
-     "Palmer"
-    ],
-    [
-     "Enzo Fernández",
-     "Fernández"
-    ],
-    [
-     "Matheus Cunha",
-     "Cunha"
     ],
     [
      "Harry Wilson",
@@ -2499,33 +2499,37 @@
    "eraText": "Name a player who played in the Premier League for both Arsenal and Chelsea, with an appearance for one of them in a season that began in the {era}",
    "answers": [
     [
-     "Raheem Sterling",
-     "Sterling"
+     "Ashley Cole",
+     "Cole"
     ],
     [
      "Cesc Fàbregas",
      "Fàbregas"
     ],
     [
-     "Nicolas Anelka",
-     "Anelka"
-    ],
-    "Willian",
-    [
-     "Olivier Giroud",
-     "Giroud"
-    ],
-    [
      "Petr Cech",
      "Cech"
     ],
     [
-     "Ashley Cole",
-     "Cole"
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Olivier Giroud",
+     "Giroud"
+    ],
+    "Willian",
+    [
+     "Raheem Sterling",
+     "Sterling"
     ],
     [
      "William Gallas",
      "Gallas"
+    ],
+    [
+     "Kai Havertz",
+     "Havertz"
     ],
     [
      "Pierre-Emerick Aubameyang",
@@ -2533,21 +2537,17 @@
      "Aubameyang"
     ],
     [
-     "Kai Havertz",
-     "Havertz"
-    ],
-    [
      "David Luiz",
      "Luiz"
     ],
     "Jorginho",
     [
-     "Yossi Benayoun",
-     "Benayoun"
-    ],
-    [
      "Emmanuel Petit",
      "Petit"
+    ],
+    [
+     "Yossi Benayoun",
+     "Benayoun"
     ],
     [
      "Kepa Arrizabalaga",
@@ -2807,40 +2807,44 @@
    "eraText": "Name a player who played in the Premier League for both Liverpool and Man City, with an appearance for one of them in a season that began in the {era}",
    "answers": [
     [
-     "James Milner",
-     "Milner"
-    ],
-    [
      "Raheem Sterling",
      "Sterling"
     ],
     [
-     "Robbie Fowler",
-     "Fowler"
-    ],
-    [
-     "Nicolas Anelka",
-     "Anelka"
-    ],
-    [
-     "David James",
-     "James"
-    ],
-    [
-     "Daniel Sturridge",
-     "Sturridge"
-    ],
-    [
-     "Craig Bellamy",
-     "Bellamy"
+     "James Milner",
+     "Milner"
     ],
     [
      "Steve McManaman",
      "McManaman"
     ],
     [
+     "Robbie Fowler",
+     "Fowler"
+    ],
+    [
+     "Mario Balotelli",
+     "Balotelli"
+    ],
+    [
+     "Daniel Sturridge",
+     "Sturridge"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Craig Bellamy",
+     "Bellamy"
+    ],
+    [
      "Kolo Touré",
      "Touré"
+    ],
+    [
+     "David James",
+     "James"
     ],
     [
      "Dietmar Hamann",
@@ -2853,10 +2857,6 @@
     [
      "Nigel Clough",
      "Clough"
-    ],
-    [
-     "Mario Balotelli",
-     "Balotelli"
     ],
     [
      "Mark Kennedy",
@@ -2944,6 +2944,14 @@
      "Keane"
     ],
     [
+     "Jamie Redknapp",
+     "Redknapp"
+    ],
+    [
+     "Dominic Solanke",
+     "Solanke"
+    ],
+    [
      "Danny Murphy",
      "Murphy"
     ],
@@ -2952,20 +2960,12 @@
      "Barmby"
     ],
     [
-     "Brad Friedel",
-     "Friedel"
-    ],
-    [
      "Paul Konchesky",
      "Konchesky"
     ],
     [
-     "Jamie Redknapp",
-     "Redknapp"
-    ],
-    [
-     "Dominic Solanke",
-     "Solanke"
+     "Brad Friedel",
+     "Friedel"
     ],
     [
      "Oyvind Leonhardsen",
@@ -3060,30 +3060,13 @@
      "van Persie"
     ],
     [
-     "Jimmy Floyd Hasselbaink",
-     "Jimmy Hasselbaink",
-     "Hasselbaink"
-    ],
-    [
-     "Dennis Bergkamp",
-     "Bergkamp"
-    ],
-    [
      "Virgil van Dijk",
      "Dijk",
      "van Dijk"
     ],
     [
-     "George Boateng",
-     "Boateng"
-    ],
-    [
-     "Nathan Aké",
-     "Aké"
-    ],
-    [
-     "Georginio Wijnaldum",
-     "Wijnaldum"
+     "Dennis Bergkamp",
+     "Bergkamp"
     ],
     [
      "Ruud van Nistelrooy",
@@ -3093,19 +3076,48 @@
      "van Nistelrooy"
     ],
     [
-     "Patrick van Aanholt",
-     "Aanholt",
-     "van Aanholt"
-    ],
-    [
      "Dirk Kuyt",
      "Kuyt"
+    ],
+    [
+     "Jimmy Floyd Hasselbaink",
+     "Jimmy Hasselbaink",
+     "Hasselbaink"
     ],
     [
      "Edwin van der Sar",
      "Van der Sar",
      "Sar",
      "van der Sar"
+    ],
+    [
+     "Georginio Wijnaldum",
+     "Wijnaldum"
+    ],
+    [
+     "Cody Gakpo",
+     "Gakpo"
+    ],
+    [
+     "Nathan Aké",
+     "Aké"
+    ],
+    [
+     "Ryan Babel",
+     "Babel"
+    ],
+    [
+     "Marc Overmars",
+     "Overmars"
+    ],
+    [
+     "George Boateng",
+     "Boateng"
+    ],
+    [
+     "Patrick van Aanholt",
+     "Aanholt",
+     "van Aanholt"
     ],
     [
      "Mario Melchiot",
@@ -3118,10 +3130,6 @@
     [
      "Tim Krul",
      "Krul"
-    ],
-    [
-     "Cody Gakpo",
-     "Gakpo"
     ],
     [
      "Boudewijn Zenden",
@@ -3139,15 +3147,7 @@
      "Daryl Janmaat",
      "Janmaat"
     ],
-    [
-     "Ryan Babel",
-     "Babel"
-    ],
     "Justin Kluivert",
-    [
-     "Marc Overmars",
-     "Overmars"
-    ],
     [
      "Pascal Struijk",
      "Struijk"
@@ -4317,6 +4317,7 @@
      "David Silva",
      "Silva"
     ],
+    "Fernando Torres",
     [
      "Juan Mata",
      "Mata"
@@ -4326,51 +4327,28 @@
      "Gea",
      "de Gea"
     ],
-    [
-     "César Azpilicueta",
-     "Azpilicueta"
-    ],
-    "Ayoze Pérez",
+    "Rodri",
     [
      "Mikel Arteta",
      "Arteta"
     ],
-    "Fernando Torres",
-    [
-     "Adama Traoré",
-     "Traoré"
-    ],
-    [
-     "Pepe Reina",
-     "Reina"
-    ],
-    "Rodri",
-    [
-     "Oriol Romeu",
-     "Romeu"
-    ],
-    "Marcos Alonso",
     [
      "Diego Costa",
      "Costa"
     ],
     [
-     "Héctor Bellerín",
-     "Bellerín"
+     "Pepe Reina",
+     "Reina"
     ],
     [
-     "Nacho Monreal",
-     "Monreal"
-    ],
-    "Pedro",
-    [
-     "Pablo Fornals",
-     "Fornals"
+     "César Azpilicueta",
+     "Azpilicueta"
     ],
     [
-     "Gerard Deulofeu",
-     "Deulofeu"
+     "Santi Cazorla",
+     "Cazorla"
     ],
+    "Marcos Alonso",
     [
      "David Raya",
      "Raya"
@@ -4379,14 +4357,37 @@
      "Marc Cucurella",
      "Cucurella"
     ],
+    "Pedro",
+    [
+     "Héctor Bellerín",
+     "Bellerín"
+    ],
+    "Xabi Alonso",
+    "Ayoze Pérez",
+    [
+     "Adama Traoré",
+     "Traoré"
+    ],
+    [
+     "Oriol Romeu",
+     "Romeu"
+    ],
+    [
+     "Nacho Monreal",
+     "Monreal"
+    ],
+    [
+     "Pablo Fornals",
+     "Fornals"
+    ],
+    [
+     "Gerard Deulofeu",
+     "Deulofeu"
+    ],
     "Robert Sánchez",
     [
      "Ander Herrera",
      "Herrera"
-    ],
-    [
-     "Santi Cazorla",
-     "Cazorla"
     ],
     [
      "Iván Campo",
@@ -4397,7 +4398,6 @@
      "Pedro Porro",
      "Porro"
     ],
-    "Xabi Alonso",
     [
      "Vicente Guaita",
      "Guaita"
@@ -5481,24 +5481,52 @@
    "eraText": "Name a German player who played in the Premier League in a season that began in the {era}",
    "answers": [
     [
-     "Pascal Groß",
-     "Groß"
+     "Mesut Özil",
+     "Özil"
     ],
     [
      "İlkay Gündoğan",
      "Gündoğan"
     ],
     [
-     "Robert Huth",
-     "Huth"
-    ],
-    [
-     "Mesut Özil",
-     "Özil"
+     "Jürgen Klinsmann",
+     "Klinsmann"
     ],
     [
      "Kai Havertz",
      "Havertz"
+    ],
+    [
+     "Antonio Rüdiger",
+     "Rüdiger"
+    ],
+    [
+     "Leroy Sané",
+     "Sané"
+    ],
+    [
+     "Per Mertesacker",
+     "Mertesacker"
+    ],
+    [
+     "Michael Ballack",
+     "Ballack"
+    ],
+    [
+     "Jens Lehmann",
+     "Lehmann"
+    ],
+    [
+     "Lukas Podolski",
+     "Podolski"
+    ],
+    [
+     "Timo Werner",
+     "Werner"
+    ],
+    [
+     "Robert Huth",
+     "Huth"
     ],
     [
      "Bernd Leno",
@@ -5509,6 +5537,14 @@
      "Hamann"
     ],
     [
+     "Emre Can",
+     "Can"
+    ],
+    [
+     "Pascal Groß",
+     "Groß"
+    ],
+    [
      "Vitaly Janelt",
      "Janelt"
     ],
@@ -5517,44 +5553,16 @@
      "Schade"
     ],
     [
-     "Leroy Sané",
-     "Sané"
-    ],
-    [
-     "Antonio Rüdiger",
-     "Rüdiger"
-    ],
-    [
-     "Per Mertesacker",
-     "Mertesacker"
-    ],
-    [
      "Uwe Rösler",
      "Rösler"
-    ],
-    [
-     "Timo Werner",
-     "Werner"
     ],
     [
      "Thomas Hitzlsperger",
      "Hitzlsperger"
     ],
     [
-     "Jens Lehmann",
-     "Lehmann"
-    ],
-    [
      "Shkodran Mustafi",
      "Mustafi"
-    ],
-    [
-     "Michael Ballack",
-     "Ballack"
-    ],
-    [
-     "Emre Can",
-     "Can"
     ],
     [
      "Christian Ziege",
@@ -5569,16 +5577,8 @@
      "Schürrle"
     ],
     [
-     "Jürgen Klinsmann",
-     "Klinsmann"
-    ],
-    [
      "Steffen Freund",
      "Freund"
-    ],
-    [
-     "Lukas Podolski",
-     "Podolski"
     ],
     [
      "Christopher Schindler",
@@ -6157,25 +6157,45 @@
      "Canio",
      "Di Canio"
     ],
+    [
+     "Gianluca Vialli",
+     "Vialli"
+    ],
+    [
+     "Mario Balotelli",
+     "Balotelli"
+    ],
+    [
+     "Fabrizio Ravanelli",
+     "Ravanelli"
+    ],
     "Jorginho",
+    [
+     "Roberto Di Matteo",
+     "Matteo",
+     "Di Matteo"
+    ],
+    [
+     "Sandro Tonali",
+     "Tonali"
+    ],
     [
      "Benito Carbone",
      "Carbone"
+    ],
+    [
+     "Carlo Cudicini",
+     "Cudicini"
+    ],
+    [
+     "Graziano Pellè",
+     "Pellè"
     ],
     [
      "Angelo Ogbonna",
      "Ogbonna"
     ],
     "Emerson",
-    [
-     "Carlo Cudicini",
-     "Cudicini"
-    ],
-    [
-     "Roberto Di Matteo",
-     "Matteo",
-     "Di Matteo"
-    ],
     [
      "Alessandro Pistone",
      "Pistone"
@@ -6185,24 +6205,12 @@
      "Borini"
     ],
     [
-     "Sandro Tonali",
-     "Tonali"
-    ],
-    [
      "Massimo Maccarone",
      "Maccarone"
     ],
     [
-     "Graziano Pellè",
-     "Pellè"
-    ],
-    [
      "Gianluca Festa",
      "Festa"
-    ],
-    [
-     "Fabrizio Ravanelli",
-     "Ravanelli"
     ],
     [
      "Stefano Eranio",
@@ -6211,14 +6219,6 @@
     [
      "Guglielmo Vicario",
      "Vicario"
-    ],
-    [
-     "Mario Balotelli",
-     "Balotelli"
-    ],
-    [
-     "Gianluca Vialli",
-     "Vialli"
     ],
     [
      "Destiny Udogie",
@@ -6844,10 +6844,6 @@
      "Aguero"
     ],
     [
-     "Pablo Zabaleta",
-     "Zabaleta"
-    ],
-    [
      "Carlos Tevez",
      "Tevez"
     ],
@@ -6857,27 +6853,15 @@
      "Mac Allister"
     ],
     [
-     "Manuel Lanzini",
-     "Lanzini"
-    ],
-    [
      "Emiliano Martinez",
      "Dibu Martinez"
     ],
     [
-     "Erik Lamela",
-     "Lamela"
+     "Pablo Zabaleta",
+     "Zabaleta"
     ],
-    [
-     "Emiliano Buendía",
-     "Buendía"
-    ],
-    "Federico Fernández",
+    "Cristian Romero",
     "Enzo Fernández",
-    [
-     "Fabricio Coloccini",
-     "Coloccini"
-    ],
     [
      "Alejandro Garnacho",
      "Garnacho"
@@ -6887,10 +6871,35 @@
      "Otamendi"
     ],
     [
+     "Erik Lamela",
+     "Lamela"
+    ],
+    "Julián Álvarez",
+    [
+     "Javier Mascherano",
+     "Mascherano"
+    ],
+    [
+     "Manuel Lanzini",
+     "Lanzini"
+    ],
+    [
+     "Gabriel Heinze",
+     "Heinze"
+    ],
+    [
+     "Emiliano Buendía",
+     "Buendía"
+    ],
+    "Federico Fernández",
+    [
+     "Fabricio Coloccini",
+     "Coloccini"
+    ],
+    [
      "Julio Arca",
      "Arca"
     ],
-    "Cristian Romero",
     [
      "Jonás Gutiérrez",
      "Gutiérrez"
@@ -6912,7 +6921,6 @@
      "Santo",
      "Di Santo"
     ],
-    "Julián Álvarez",
     [
      "Mauricio Taricco",
      "Taricco"
@@ -6937,10 +6945,6 @@
     [
      "Giovani Lo Celso",
      "Celso"
-    ],
-    [
-     "Javier Mascherano",
-     "Mascherano"
     ],
     [
      "Horacio Carbonari",
@@ -6978,10 +6982,6 @@
     [
      "Paulo Gazzaniga",
      "Gazzaniga"
-    ],
-    [
-     "Gabriel Heinze",
-     "Heinze"
     ],
     [
      "Carlos Marinelli",

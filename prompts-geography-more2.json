@@ -299,24 +299,24 @@
    ],
    "text": "Name a country in Eastern Africa (UN regions; Zambia, Zimbabwe, Malawi and Mozambique count)",
    "answers": [
+    "Kenya",
+    "Tanzania",
+    "Ethiopia",
+    "Uganda",
+    "Madagascar",
+    "Zimbabwe",
+    "Zambia",
+    "Mozambique",
+    "Somalia",
+    "Rwanda",
+    "Malawi",
+    "Mauritius",
+    "Seychelles",
     "Burundi",
     "Comoros",
     "Djibouti",
     "Eritrea",
-    "Ethiopia",
-    "Kenya",
-    "Madagascar",
-    "Malawi",
-    "Mauritius",
-    "Mozambique",
-    "Rwanda",
-    "Seychelles",
-    "Somalia",
-    "South Sudan",
-    "Tanzania",
-    "Uganda",
-    "Zambia",
-    "Zimbabwe"
+    "South Sudan"
    ]
   },
   {
@@ -327,16 +327,21 @@
    ],
    "text": "Name an African country that gained independence in 1960 (the 'Year of Africa')",
    "answers": [
-    "Cameroon",
-    "Togo",
-    "Madagascar",
+    "Nigeria",
+    "Senegal",
+    "Ivory Coast",
+    "Mali",
     [
      "DR Congo",
      "Zaire",
      "Belgian Congo",
      "Congo Kinshasa"
     ],
+    "Cameroon",
+    "Madagascar",
     "Somalia",
+    "Chad",
+    "Togo",
     [
      "Benin",
      "Dahomey"
@@ -346,8 +351,6 @@
      "Burkina Faso",
      "Upper Volta"
     ],
-    "Ivory Coast",
-    "Chad",
     "Central African Republic",
     [
      "Republic of the Congo",
@@ -356,9 +359,6 @@
      "Middle Congo"
     ],
     "Gabon",
-    "Senegal",
-    "Mali",
-    "Nigeria",
     "Mauritania"
    ]
   },
@@ -419,27 +419,27 @@
    ],
    "text": "Name the capital of a country in Western Africa (UN regions; official capitals plus the seats of government Cotonou and Abidjan)",
    "answers": [
-    "Porto-Novo",
-    "Cotonou",
-    "Ouagadougou",
-    "Praia",
-    "Yamoussoukro",
-    "Abidjan",
-    "Banjul",
     "Accra",
-    "Conakry",
-    "Bissau",
-    "Monrovia",
-    "Bamako",
-    "Nouakchott",
-    "Niamey",
-    "Abuja",
     "Dakar",
+    "Abuja",
     "Freetown",
+    "Monrovia",
+    "Abidjan",
+    "Bamako",
+    "Banjul",
     [
      "Lomé",
      "Lome"
-    ]
+    ],
+    "Conakry",
+    "Yamoussoukro",
+    "Niamey",
+    "Ouagadougou",
+    "Nouakchott",
+    "Porto-Novo",
+    "Cotonou",
+    "Praia",
+    "Bissau"
    ]
   },
   {
@@ -450,33 +450,33 @@
    ],
    "text": "Name the capital of a country in Eastern Africa (UN regions; official capitals as of 2025)",
    "answers": [
+    "Nairobi",
+    "Addis Ababa",
+    "Kampala",
+    "Harare",
+    "Lusaka",
+    "Maputo",
+    "Kigali",
+    "Dodoma",
+    "Lilongwe",
+    [
+     "Antananarivo",
+     "Tana"
+    ],
+    [
+     "Mogadishu",
+     "Mogadiscio"
+    ],
+    "Port Louis",
+    "Victoria",
+    "Juba",
     "Gitega",
     "Moroni",
     [
      "Djibouti",
      "Djibouti City"
     ],
-    "Asmara",
-    "Addis Ababa",
-    "Nairobi",
-    [
-     "Antananarivo",
-     "Tana"
-    ],
-    "Lilongwe",
-    "Port Louis",
-    "Maputo",
-    "Kigali",
-    "Victoria",
-    [
-     "Mogadishu",
-     "Mogadiscio"
-    ],
-    "Juba",
-    "Dodoma",
-    "Kampala",
-    "Lusaka",
-    "Harare"
+    "Asmara"
    ]
   },
   {
@@ -487,13 +487,22 @@
    ],
    "text": "Name the capital of a country in Northern, Central or Southern Africa (UN regions; all three South African capitals count)",
    "answers": [
-    "Algiers",
     "Cairo",
-    "Tripoli",
+    [
+     "Pretoria",
+     "Tshwane"
+    ],
+    "Cape Town",
+    "Algiers",
     "Rabat",
-    "Khartoum",
     "Tunis",
+    "Tripoli",
+    "Kinshasa",
+    "Khartoum",
     "Luanda",
+    "Windhoek",
+    "Gaborone",
+    "Brazzaville",
     [
      "Yaoundé",
      "Yaounde"
@@ -503,22 +512,13 @@
      "N'Djamena",
      "Ndjamena"
     ],
-    "Brazzaville",
-    "Kinshasa",
     "Malabo",
     "Libreville",
     [
      "São Tomé",
      "Sao Tome"
     ],
-    "Gaborone",
     "Maseru",
-    "Windhoek",
-    [
-     "Pretoria",
-     "Tshwane"
-    ],
-    "Cape Town",
     "Bloemfontein",
     "Mbabane",
     "Lobamba"
@@ -654,24 +654,24 @@
    ],
    "text": "Name one of South Africa's nine provinces, or one of its three capital cities",
    "answers": [
-    "Eastern Cape",
-    "Free State",
+    "Cape Town",
     "Gauteng",
+    "Western Cape",
     [
      "KwaZulu-Natal",
      "Kwazulu Natal",
      "Natal"
     ],
-    "Limpopo",
-    "Mpumalanga",
-    "North West",
-    "Northern Cape",
-    "Western Cape",
     [
      "Pretoria",
      "Tshwane"
     ],
-    "Cape Town",
+    "Eastern Cape",
+    "Free State",
+    "Limpopo",
+    "Mpumalanga",
+    "North West",
+    "Northern Cape",
     "Bloemfontein"
    ]
   },
@@ -948,26 +948,26 @@
     ],
     "Tokyo",
     "Seoul",
+    "Bangkok",
+    "Hanoi",
+    "Jakarta",
+    "Manila",
+    "Kuala Lumpur",
+    "Singapore",
+    "Taipei",
     "Pyongyang",
+    "Phnom Penh",
     [
      "Ulaanbaatar",
      "Ulan Bator"
     ],
-    "Taipei",
-    "Hanoi",
-    "Bangkok",
-    "Phnom Penh",
     "Vientiane",
     [
      "Naypyidaw",
      "Nay Pyi Taw",
      "Naypyitaw"
     ],
-    "Kuala Lumpur",
     "Putrajaya",
-    "Singapore",
-    "Jakarta",
-    "Manila",
     "Bandar Seri Begawan",
     "Dili"
    ]
@@ -1049,6 +1049,7 @@
      "Renminbi",
      "RMB"
     ],
+    "Rupee",
     [
      "Dollar",
      "Hong Kong dollar",
@@ -1057,28 +1058,14 @@
      "New Taiwan dollar",
      "Brunei dollar"
     ],
-    "Pataca",
     "Won",
-    [
-     "Tugrik",
-     "Tögrög",
-     "Togrog"
-    ],
-    "Rupee",
-    "Taka",
-    "Ngultrum",
-    "Rufiyaa",
-    "Afghani",
     "Baht",
-    "Dong",
-    "Riel",
-    "Kip",
-    "Kyat",
-    "Ringgit",
-    "Rupiah",
     [
-     "Peso",
-     "Philippine peso"
+     "Dinar",
+     "Iraqi dinar",
+     "Kuwaiti dinar",
+     "Jordanian dinar",
+     "Bahraini dinar"
     ],
     [
      "Rial",
@@ -1092,11 +1079,14 @@
      "Qatari riyal"
     ],
     [
-     "Dinar",
-     "Iraqi dinar",
-     "Kuwaiti dinar",
-     "Jordanian dinar",
-     "Bahraini dinar"
+     "Lira",
+     "Turkish lira"
+    ],
+    "Ringgit",
+    "Rupiah",
+    [
+     "Peso",
+     "Philippine peso"
     ],
     [
      "Dirham",
@@ -1107,10 +1097,20 @@
      "Israeli shekel",
      "New Shekel"
     ],
+    "Taka",
+    "Dong",
+    "Pataca",
     [
-     "Lira",
-     "Turkish lira"
+     "Tugrik",
+     "Tögrög",
+     "Togrog"
     ],
+    "Ngultrum",
+    "Rufiyaa",
+    "Afghani",
+    "Riel",
+    "Kip",
+    "Kyat",
     [
      "Pound",
      "Lebanese pound",
@@ -1685,20 +1685,17 @@
    "text": "Name a city, town or resort in Turkey",
    "answers": [
     "Istanbul",
+    "Antalya",
     "Ankara",
+    "Bodrum",
+    "Marmaris",
     [
      "Izmir",
      "İzmir"
     ],
-    "Antalya",
-    "Bursa",
-    "Adana",
-    "Gaziantep",
-    "Konya",
-    "Bodrum",
-    "Marmaris",
     "Fethiye",
     "Alanya",
+    "Dalaman",
     [
      "Kusadasi",
      "Kuşadası"
@@ -1706,12 +1703,15 @@
     "Side",
     "Kemer",
     "Belek",
-    "Dalaman",
     [
      "Göreme",
      "Goreme"
     ],
     "Pamukkale",
+    "Bursa",
+    "Adana",
+    "Gaziantep",
+    "Konya",
     "Trabzon",
     "Kayseri",
     "Samsun",
@@ -2017,6 +2017,9 @@
    ],
    "text": "Name a city in a Gulf state (Saudi Arabia, UAE, Qatar, Kuwait, Bahrain or Oman)",
    "answers": [
+    "Dubai",
+    "Abu Dhabi",
+    "Doha",
     "Riyadh",
     [
      "Jeddah",
@@ -2026,19 +2029,17 @@
      "Mecca",
      "Makkah"
     ],
+    "Muscat",
+    "Kuwait City",
     [
      "Medina",
      "Madinah"
     ],
+    "Manama",
+    "Sharjah",
     "Dammam",
     "Taif",
-    "Dubai",
-    "Abu Dhabi",
-    "Sharjah",
     "Al Ain",
-    "Doha",
-    "Kuwait City",
-    "Muscat",
     "Salalah",
     "Sohar",
     "Nizwa",
@@ -2048,7 +2049,6 @@
     ],
     "Tabuk",
     "Abha",
-    "Manama",
     "Ajman",
     "Ras Al Khaimah",
     "Fujairah",
@@ -2084,30 +2084,30 @@
    ],
    "text": "Name a European country that is not in the European Union (as of 2026)",
    "answers": [
-    "Albania",
-    "Andorra",
-    "Belarus",
-    "Bosnia and Herzegovina",
-    "Iceland",
-    "Kosovo",
-    "Liechtenstein",
-    "Moldova",
-    "Monaco",
-    "Montenegro",
-    "North Macedonia",
-    "Norway",
-    "Russia",
-    "San Marino",
-    "Serbia",
-    "Switzerland",
-    "Ukraine",
     "UK",
+    "Norway",
+    "Switzerland",
+    "Russia",
+    "Ukraine",
+    "Iceland",
+    "Turkey",
+    "Serbia",
+    "Albania",
+    "Belarus",
+    "Monaco",
+    "Liechtenstein",
     [
      "Vatican City",
      "Vatican",
      "Holy See"
     ],
-    "Turkey",
+    "San Marino",
+    "Andorra",
+    "Bosnia and Herzegovina",
+    "Kosovo",
+    "Moldova",
+    "Montenegro",
+    "North Macedonia",
     "Georgia",
     "Armenia",
     "Azerbaijan"
@@ -2121,19 +2121,19 @@
    ],
    "text": "Name a country that joined the European Union in 2004 or later",
    "answers": [
-    "Cyprus",
-    "Czech Republic",
-    "Estonia",
-    "Hungary",
-    "Latvia",
-    "Lithuania",
-    "Malta",
     "Poland",
-    "Slovakia",
-    "Slovenia",
-    "Bulgaria",
     "Romania",
-    "Croatia"
+    "Bulgaria",
+    "Croatia",
+    "Czech Republic",
+    "Hungary",
+    "Cyprus",
+    "Malta",
+    "Slovakia",
+    "Lithuania",
+    "Latvia",
+    "Estonia",
+    "Slovenia"
    ]
   },
   {
@@ -2148,17 +2148,17 @@
     "Austria",
     "France",
     "Switzerland",
+    "Germany",
     "Slovenia",
+    "Czech Republic",
+    "Hungary",
+    "Slovakia",
+    "Liechtenstein",
     "San Marino",
     [
      "Vatican City",
      "Vatican"
-    ],
-    "Germany",
-    "Czech Republic",
-    "Slovakia",
-    "Hungary",
-    "Liechtenstein"
+    ]
    ]
   },
   {
@@ -2172,15 +2172,15 @@
     "Poland",
     "Ukraine",
     "Belarus",
-    "Germany",
-    "Czech Republic",
-    "Slovakia",
-    "Lithuania",
     "Russia",
-    "Hungary",
+    "Germany",
+    "Lithuania",
+    "Slovakia",
+    "Czech Republic",
     "Romania",
-    "Moldova",
-    "Latvia"
+    "Hungary",
+    "Latvia",
+    "Moldova"
    ]
   },
   {
@@ -2531,33 +2531,33 @@
    "answers": [
     "Stockholm",
     [
+     "Copenhagen",
+     "Kobenhavn"
+    ],
+    "Oslo",
+    "Helsinki",
+    [
      "Gothenburg",
      "Göteborg"
     ],
+    "Bergen",
     [
      "Malmö",
      "Malmo"
     ],
-    "Uppsala",
-    "Oslo",
-    "Bergen",
+    [
+     "Aarhus",
+     "Århus"
+    ],
     "Trondheim",
     "Stavanger",
     [
      "Tromsø",
      "Tromso"
     ],
-    [
-     "Copenhagen",
-     "Kobenhavn"
-    ],
-    [
-     "Aarhus",
-     "Århus"
-    ],
     "Odense",
+    "Uppsala",
     "Aalborg",
-    "Helsinki",
     "Espoo",
     "Tampere",
     "Turku",

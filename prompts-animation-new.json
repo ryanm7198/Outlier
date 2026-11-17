@@ -9,23 +9,39 @@
    "text": "Name a film nominated for the Oscar for Best Animated Feature (films from 2001 to 2025, winners included)",
    "answers": [
     "Shrek",
+    "Finding Nemo",
+    "Toy Story 3",
+    "Frozen",
+    "Coco",
+    "Up",
+    "Inside Out",
+    "Monsters, Inc.",
+    "Spirited Away",
+    "Ratatouille",
+    "WALL-E",
+    "Moana",
+    "Encanto",
+    [
+     "Spider-Man: Into the Spider-Verse",
+     "Into the Spider-Verse"
+    ],
+    "Kung Fu Panda",
+    "Cars",
+    "The Incredibles",
+    "Toy Story 4",
+    "Ice Age",
     [
      "Jimmy Neutron: Boy Genius",
      "Jimmy Neutron"
     ],
-    "Monsters, Inc.",
-    "Spirited Away",
-    "Ice Age",
     "Lilo & Stitch",
     [
      "Spirit: Stallion of the Cimarron",
      "Spirit"
     ],
     "Treasure Planet",
-    "Finding Nemo",
     "Brother Bear",
     "The Triplets of Belleville",
-    "The Incredibles",
     "Shark Tale",
     "Shrek 2",
     [
@@ -35,20 +51,14 @@
     "Corpse Bride",
     "Howl's Moving Castle",
     "Happy Feet",
-    "Cars",
     "Monster House",
-    "Ratatouille",
     "Persepolis",
     "Surf's Up",
-    "WALL-E",
     "Bolt",
-    "Kung Fu Panda",
-    "Up",
     "Coraline",
     "Fantastic Mr. Fox",
     "The Princess and the Frog",
     "The Secret of Kells",
-    "Toy Story 3",
     "How to Train Your Dragon",
     "The Illusionist",
     "Rango",
@@ -65,7 +75,6 @@
      "Pirates! Band of Misfits"
     ],
     "Wreck-It Ralph",
-    "Frozen",
     "The Croods",
     "Despicable Me 2",
     "Ernest & Celestine",
@@ -78,31 +87,27 @@
      "The Tale of the Princess Kaguya",
      "Princess Kaguya"
     ],
-    "Inside Out",
     "Anomalisa",
     "Boy and the World",
     "Shaun the Sheep Movie",
     "When Marnie Was There",
-    "Zootopia",
+    [
+     "Zootopia",
+     "Zootropolis"
+    ],
     [
      "Kubo and the Two Strings",
      "Kubo"
     ],
-    "Moana",
     [
      "My Life as a Courgette",
      "My Life as a Zucchini"
     ],
     "The Red Turtle",
-    "Coco",
     "The Boss Baby",
     "The Breadwinner",
     "Ferdinand",
     "Loving Vincent",
-    [
-     "Spider-Man: Into the Spider-Verse",
-     "Into the Spider-Verse"
-    ],
     "Incredibles 2",
     "Isle of Dogs",
     "Mirai",
@@ -110,7 +115,6 @@
      "Ralph Breaks the Internet",
      "Wreck-It Ralph 2"
     ],
-    "Toy Story 4",
     [
      "How to Train Your Dragon: The Hidden World",
      "The Hidden World"
@@ -127,7 +131,6 @@
      "Shaun the Sheep Movie: Farmageddon"
     ],
     "Wolfwalkers",
-    "Encanto",
     "Flee",
     "Luca",
     [
@@ -764,21 +767,21 @@
    ],
    "text": "Name a UK-made children's animated TV series (including stop-motion and CGI)",
    "answers": [
+    "Peppa Pig",
     "Bob the Builder",
     "Postman Pat",
-    "Fireman Sam",
     [
      "Thomas & Friends",
      "Thomas the Tank Engine"
     ],
-    "Peppa Pig",
-    "Bing",
+    "Fireman Sam",
     "Hey Duggee",
+    "Bing",
+    "Shaun the Sheep",
     [
      "Ben & Holly's Little Kingdom",
      "Ben and Holly"
     ],
-    "Octonauts",
     [
      "The Clangers",
      "Clangers"
@@ -788,11 +791,12 @@
      "The Wombles",
      "Wombles"
     ],
+    "Danger Mouse",
+    "Octonauts",
     "Mr Benn",
     "Roobarb",
     "Ivor the Engine",
     "Noggin the Nog",
-    "Shaun the Sheep",
     "Timmy Time",
     "Charlie and Lola",
     "Rastamouse",
@@ -801,7 +805,6 @@
      "Sarah and Duck"
     ],
     "Go Jetters",
-    "Danger Mouse",
     [
      "Count Duckula",
      "Duckula"
@@ -851,29 +854,10 @@
    "text": "Name a stop-motion animated feature film (up to 2025)",
    "answers": [
     "Coraline",
-    "ParaNorman",
-    [
-     "Kubo and the Two Strings",
-     "Kubo"
-    ],
-    [
-     "The Boxtrolls",
-     "Boxtrolls"
-    ],
-    "Isle of Dogs",
-    [
-     "Fantastic Mr. Fox",
-     "Fantastic Mr Fox"
-    ],
-    [
-     "Corpse Bride",
-     "Tim Burton's Corpse Bride"
-    ],
     [
      "The Nightmare Before Christmas",
      "Nightmare Before Christmas"
     ],
-    "James and the Giant Peach",
     "Chicken Run",
     [
      "Wallace & Gromit: The Curse of the Were-Rabbit",
@@ -881,10 +865,29 @@
      "Were-Rabbit"
     ],
     [
+     "Corpse Bride",
+     "Tim Burton's Corpse Bride"
+    ],
+    [
+     "Fantastic Mr. Fox",
+     "Fantastic Mr Fox"
+    ],
+    "Isle of Dogs",
+    "Shaun the Sheep Movie",
+    "James and the Giant Peach",
+    [
+     "Kubo and the Two Strings",
+     "Kubo"
+    ],
+    "ParaNorman",
+    [
+     "The Boxtrolls",
+     "Boxtrolls"
+    ],
+    [
      "Wallace & Gromit: Vengeance Most Fowl",
      "Vengeance Most Fowl"
     ],
-    "Shaun the Sheep Movie",
     "Early Man",
     [
      "The Pirates! In an Adventure with Scientists!",
@@ -1129,6 +1132,11 @@
      "Nick"
     ],
     [
+     "Flash",
+     "Flash Slothmore"
+    ],
+    "Gazelle",
+    [
      "Chief Bogo",
      "Bogo"
     ],
@@ -1136,18 +1144,13 @@
      "Clawhauser",
      "Benjamin Clawhauser"
     ],
-    [
-     "Flash",
-     "Flash Slothmore"
-    ],
+    "Mr. Big",
+    "Finnick",
     [
      "Dawn Bellwether",
      "Bellwether"
     ],
-    "Mr. Big",
     "Fru Fru",
-    "Gazelle",
-    "Finnick",
     [
      "Mayor Lionheart",
      "Lionheart"
@@ -2033,20 +2036,20 @@
      "Simpsons"
     ],
     "Family Guy",
+    "South Park",
+    "Rick and Morty",
+    "Futurama",
     [
      "American Dad!",
      "American Dad"
     ],
-    "Futurama",
     "King of the Hill",
     "Bob's Burgers",
-    "South Park",
     [
      "Beavis and Butt-Head",
      "Beavis and Butthead"
     ],
     "Archer",
-    "Rick and Morty",
     [
      "BoJack Horseman",
      "Bojack"
@@ -2136,50 +2139,51 @@
      "He-Man"
     ],
     [
-     "She-Ra: Princess of Power",
-     "She-Ra"
-    ],
-    [
-     "ThunderCats",
-     "Thundercats"
-    ],
-    [
-     "The Care Bears",
-     "Care Bears"
+     "Teenage Mutant Ninja Turtles",
+     "Ninja Turtles"
     ],
     [
      "The Transformers",
      "Transformers"
     ],
     [
-     "G.I. Joe: A Real American Hero",
-     "GI Joe"
-    ],
-    [
-     "My Little Pony",
-     "My Little Pony 'n Friends"
+     "ThunderCats",
+     "Thundercats"
     ],
     [
      "The Smurfs",
      "Smurfs"
     ],
     [
-     "Teenage Mutant Ninja Turtles",
-     "Ninja Turtles"
-    ],
-    [
      "DuckTales",
      "Duck Tales"
+    ],
+    "Inspector Gadget",
+    [
+     "The Care Bears",
+     "Care Bears"
+    ],
+    [
+     "She-Ra: Princess of Power",
+     "She-Ra"
+    ],
+    [
+     "My Little Pony",
+     "My Little Pony 'n Friends"
     ],
     [
      "Chip 'n Dale Rescue Rangers",
      "Rescue Rangers"
     ],
     [
+     "G.I. Joe: A Real American Hero",
+     "GI Joe"
+    ],
+    "Danger Mouse",
+    [
      "Adventures of the Gummi Bears",
      "Gummi Bears"
     ],
-    "Inspector Gadget",
     [
      "M.A.S.K.",
      "MASK"
@@ -2208,7 +2212,6 @@
      "The Real Ghostbusters",
      "Real Ghostbusters"
     ],
-    "Danger Mouse",
     [
      "Count Duckula",
      "Duckula"

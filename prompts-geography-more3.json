@@ -9,26 +9,26 @@
    ],
    "text": "Name a country in Central or Southern Africa (UN regions)",
    "answers": [
+    "South Africa",
     "Angola",
     "Cameroon",
+    "Namibia",
+    "Botswana",
+    "DR Congo",
+    "Chad",
+    "Gabon",
+    "Lesotho",
+    "Eswatini",
+    "Republic of the Congo",
     [
      "Central African Republic",
      "CAR"
     ],
-    "Chad",
-    "Republic of the Congo",
-    "DR Congo",
     "Equatorial Guinea",
-    "Gabon",
     [
      "São Tomé and Príncipe",
      "Sao Tome"
-    ],
-    "Botswana",
-    "Eswatini",
-    "Lesotho",
-    "Namibia",
-    "South Africa"
+    ]
    ]
   },
   {
@@ -101,8 +101,27 @@
    ],
    "text": "Name an African country once ruled by Portugal, Spain, Belgium, Italy or Germany (colony, protectorate or mandate)",
    "answers": [
+    "DR Congo",
     "Angola",
     "Mozambique",
+    "Libya",
+    [
+     "Namibia",
+     "South West Africa"
+    ],
+    "Rwanda",
+    "Burundi",
+    "Eritrea",
+    "Somalia",
+    "Equatorial Guinea",
+    "Western Sahara",
+    "Morocco",
+    [
+     "Tanzania",
+     "Tanganyika"
+    ],
+    "Cameroon",
+    "Togo",
     "Guinea-Bissau",
     [
      "Cape Verde",
@@ -112,26 +131,7 @@
      "São Tomé and Príncipe",
      "Sao Tome"
     ],
-    "Equatorial Guinea",
-    "Western Sahara",
-    "Morocco",
-    "DR Congo",
-    "Rwanda",
-    "Burundi",
-    "Libya",
-    "Eritrea",
-    "Somalia",
-    "Ethiopia",
-    [
-     "Namibia",
-     "South West Africa"
-    ],
-    [
-     "Tanzania",
-     "Tanganyika"
-    ],
-    "Cameroon",
-    "Togo"
+    "Ethiopia"
    ]
   },
   {
@@ -317,7 +317,15 @@
    "text": "Name a city or town in Zimbabwe, Zambia, Malawi or Mozambique",
    "answers": [
     "Harare",
+    "Lusaka",
+    "Maputo",
+    "Lilongwe",
+    "Victoria Falls",
     "Bulawayo",
+    "Blantyre",
+    "Livingstone",
+    "Kitwe",
+    "Ndola",
     "Mutare",
     "Gweru",
     "Masvingo",
@@ -325,22 +333,14 @@
     "Kariba",
     "Hwange",
     "Chitungwiza",
-    "Victoria Falls",
-    "Lusaka",
-    "Kitwe",
-    "Ndola",
-    "Livingstone",
     "Kabwe",
     "Chipata",
     "Kasama",
     "Mongu",
     "Solwezi",
-    "Lilongwe",
-    "Blantyre",
     "Mzuzu",
     "Zomba",
     "Karonga",
-    "Maputo",
     "Beira",
     "Nampula",
     "Matola",
@@ -666,20 +666,28 @@
    "text": "Name a city in Argentina, Chile or Peru",
    "answers": [
     "Buenos Aires",
-    "Córdoba",
-    "Rosario",
-    "Mendoza",
-    "Mar del Plata",
-    "La Plata",
-    "Salta",
+    "Santiago",
+    "Lima",
     [
-     "Tucumán",
-     "San Miguel de Tucumán"
+     "Cusco",
+     "Cuzco"
     ],
+    "Mendoza",
+    "Córdoba",
+    "Valparaíso",
     "Ushuaia",
     [
      "Bariloche",
      "San Carlos de Bariloche"
+    ],
+    "Rosario",
+    "Arequipa",
+    "Salta",
+    "Mar del Plata",
+    "La Plata",
+    [
+     "Tucumán",
+     "San Miguel de Tucumán"
     ],
     "Santa Fe",
     "Neuquén",
@@ -694,8 +702,6 @@
     "El Calafate",
     "Puerto Madryn",
     "Santiago del Estero",
-    "Santiago",
-    "Valparaíso",
     "Viña del Mar",
     "Concepción",
     "Antofagasta",
@@ -710,12 +716,6 @@
     "Calama",
     "San Pedro de Atacama",
     "Osorno",
-    "Lima",
-    [
-     "Cusco",
-     "Cuzco"
-    ],
-    "Arequipa",
     "Trujillo",
     "Iquitos",
     "Puno",
@@ -1348,22 +1348,22 @@
    ],
    "text": "Name one of the 16 US states in the Census Bureau's South region, or Washington DC",
    "answers": [
-    "Delaware",
-    "Maryland",
-    "Virginia",
-    "West Virginia",
-    "North Carolina",
-    "South Carolina",
-    "Georgia",
+    "Texas",
     "Florida",
-    "Kentucky",
+    "Georgia",
+    "Virginia",
+    "North Carolina",
+    "Louisiana",
     "Tennessee",
     "Alabama",
+    "Kentucky",
+    "South Carolina",
     "Mississippi",
-    "Arkansas",
-    "Louisiana",
     "Oklahoma",
-    "Texas",
+    "Arkansas",
+    "Maryland",
+    "Delaware",
+    "West Virginia",
     [
      "District of Columbia",
      "Washington DC",
@@ -1380,49 +1380,49 @@
    "text": "Name a city or tourist destination in India",
    "answers": [
     [
-     "Mumbai",
-     "Bombay"
-    ],
-    [
      "Delhi",
      "New Delhi",
      "Old Delhi"
     ],
     [
+     "Mumbai",
+     "Bombay"
+    ],
+    "Goa",
+    "Agra",
+    "Jaipur",
+    [
      "Kolkata",
      "Calcutta"
-    ],
-    [
-     "Chennai",
-     "Madras"
     ],
     [
      "Bengaluru",
      "Bangalore"
     ],
-    "Hyderabad",
     [
-     "Pune",
-     "Poona"
+     "Chennai",
+     "Madras"
     ],
-    "Ahmedabad",
-    "Jaipur",
-    "Surat",
-    "Lucknow",
-    "Kanpur",
-    "Nagpur",
+    "Hyderabad",
     [
      "Varanasi",
      "Benares",
      "Banaras"
     ],
-    "Agra",
-    "Goa",
     "Amritsar",
     [
      "Kochi",
      "Cochin"
     ],
+    [
+     "Pune",
+     "Poona"
+    ],
+    "Ahmedabad",
+    "Surat",
+    "Lucknow",
+    "Kanpur",
+    "Nagpur",
     "Darjeeling",
     [
      "Shimla",
@@ -1843,21 +1843,36 @@
    ],
    "text": "Name a city, town or resort in Malaysia or Indonesia",
    "answers": [
+    [
+     "Kuala Lumpur",
+     "KL"
+    ],
     "Jakarta",
+    "Denpasar",
+    "Ubud",
+    "Kuta",
     "Surabaya",
     "Bandung",
-    "Medan",
-    "Semarang",
-    "Makassar",
-    "Palembang",
     [
      "Yogyakarta",
      "Jogja",
      "Jogjakarta"
     ],
-    "Denpasar",
-    "Ubud",
-    "Kuta",
+    [
+     "George Town",
+     "Penang"
+    ],
+    "Langkawi",
+    [
+     "Malacca",
+     "Melaka"
+    ],
+    "Johor Bahru",
+    "Kota Kinabalu",
+    "Medan",
+    "Semarang",
+    "Makassar",
+    "Palembang",
     "Seminyak",
     "Malang",
     "Batam",
@@ -1878,23 +1893,8 @@
     "Jayapura",
     "Mataram",
     "Labuan Bajo",
-    [
-     "Kuala Lumpur",
-     "KL"
-    ],
-    [
-     "George Town",
-     "Penang"
-    ],
-    "Johor Bahru",
-    [
-     "Malacca",
-     "Melaka"
-    ],
     "Ipoh",
-    "Kota Kinabalu",
     "Kuching",
-    "Langkawi",
     "Putrajaya",
     "Shah Alam",
     "Petaling Jaya",
@@ -2241,12 +2241,25 @@
    "text": "Name a city, town or resort in Portugal or Greece",
    "answers": [
     "Lisbon",
+    "Athens",
     [
      "Porto",
      "Oporto"
     ],
     "Faro",
     "Albufeira",
+    [
+     "Thessaloniki",
+     "Salonika"
+    ],
+    [
+     "Heraklion",
+     "Iraklion"
+    ],
+    [
+     "Rhodes",
+     "Rhodes Town"
+    ],
     "Lagos",
     "Funchal",
     "Sintra",
@@ -2263,20 +2276,7 @@
     "Setúbal",
     "Nazaré",
     "Óbidos",
-    "Athens",
-    [
-     "Thessaloniki",
-     "Salonika"
-    ],
     "Patras",
-    [
-     "Heraklion",
-     "Iraklion"
-    ],
-    [
-     "Rhodes",
-     "Rhodes Town"
-    ],
     [
      "Corfu Town",
      "Corfu"
@@ -2326,10 +2326,30 @@
    ],
    "text": "Name a city or town in Belgium, the Netherlands or Switzerland",
    "answers": [
+    "Amsterdam",
     "Brussels",
-    "Antwerp",
-    "Ghent",
+    "Zurich",
+    [
+     "Geneva",
+     "Genève"
+    ],
     "Bruges",
+    "Rotterdam",
+    "Antwerp",
+    [
+     "The Hague",
+     "Den Haag"
+    ],
+    "Ghent",
+    "Utrecht",
+    [
+     "Bern",
+     "Berne"
+    ],
+    [
+     "Lucerne",
+     "Luzern"
+    ],
     "Liège",
     "Charleroi",
     [
@@ -2339,13 +2359,6 @@
     "Namur",
     "Ostend",
     "Mechelen",
-    "Amsterdam",
-    "Rotterdam",
-    [
-     "The Hague",
-     "Den Haag"
-    ],
-    "Utrecht",
     "Eindhoven",
     "Groningen",
     "Maastricht",
@@ -2355,24 +2368,11 @@
     "Arnhem",
     "Nijmegen",
     "Breda",
-    "Zurich",
-    [
-     "Geneva",
-     "Genève"
-    ],
     [
      "Basel",
      "Basle"
     ],
-    [
-     "Bern",
-     "Berne"
-    ],
     "Lausanne",
-    [
-     "Lucerne",
-     "Luzern"
-    ],
     "Lugano",
     [
      "St Gallen",
@@ -2418,19 +2418,37 @@
    "text": "Name a city or town in Austria, Czechia, Poland or Hungary",
    "answers": [
     [
-     "Vienna",
-     "Wien"
-    ],
-    "Salzburg",
-    "Innsbruck",
-    "Graz",
-    "Linz",
-    "Klagenfurt",
-    [
      "Prague",
      "Praha"
     ],
+    [
+     "Vienna",
+     "Wien"
+    ],
+    "Budapest",
+    [
+     "Warsaw",
+     "Warszawa"
+    ],
+    [
+     "Kraków",
+     "Cracow"
+    ],
+    "Salzburg",
+    "Innsbruck",
+    [
+     "Gdańsk",
+     "Danzig"
+    ],
+    [
+     "Wrocław",
+     "Wroclaw",
+     "Breslau"
+    ],
+    "Graz",
     "Brno",
+    "Linz",
+    "Klagenfurt",
     "Ostrava",
     [
      "Plzeň",
@@ -2442,27 +2460,10 @@
      "Carlsbad"
     ],
     [
-     "Warsaw",
-     "Warszawa"
-    ],
-    [
-     "Kraków",
-     "Cracow"
-    ],
-    [
      "Łódź",
      "Lodz"
     ],
-    [
-     "Wrocław",
-     "Wroclaw",
-     "Breslau"
-    ],
     "Poznań",
-    [
-     "Gdańsk",
-     "Danzig"
-    ],
     [
      "Szczecin",
      "Stettin"
@@ -2470,7 +2471,6 @@
     "Lublin",
     "Katowice",
     "Zakopane",
-    "Budapest",
     "Debrecen",
     "Szeged",
     "Pécs",
@@ -2507,21 +2507,35 @@
    ],
    "text": "Name a city or town in the Balkans or Romania (Croatia, Slovenia, Bosnia, Serbia, Montenegro, Albania, North Macedonia, Kosovo, Bulgaria or Romania)",
    "answers": [
+    "Dubrovnik",
     "Zagreb",
     "Split",
-    "Dubrovnik",
-    "Rijeka",
-    "Zadar",
-    "Pula",
-    "Osijek",
-    "Šibenik",
-    "Ljubljana",
-    "Maribor",
-    "Bled",
+    "Sarajevo",
+    [
+     "Belgrade",
+     "Beograd"
+    ],
     [
      "Bucharest",
      "București"
     ],
+    "Sofia",
+    "Ljubljana",
+    "Zadar",
+    "Bled",
+    [
+     "Sunny Beach",
+     "Slanchev Bryag"
+    ],
+    "Varna",
+    "Tirana",
+    "Skopje",
+    "Pula",
+    "Plovdiv",
+    "Rijeka",
+    "Osijek",
+    "Šibenik",
+    "Maribor",
     [
      "Cluj-Napoca",
      "Cluj"
@@ -2531,28 +2545,14 @@
     "Iași",
     "Constanța",
     "Sibiu",
-    "Sofia",
-    "Plovdiv",
-    "Varna",
     "Burgas",
-    [
-     "Sunny Beach",
-     "Slanchev Bryag"
-    ],
-    [
-     "Belgrade",
-     "Beograd"
-    ],
     "Novi Sad",
     "Niš",
-    "Sarajevo",
     "Mostar",
     "Banja Luka",
     "Kotor",
     "Podgorica",
     "Budva",
-    "Tirana",
-    "Skopje",
     [
      "Pristina",
      "Prishtina"
@@ -2591,10 +2591,10 @@
      "Kyiv",
      "Kiev"
     ],
-    [
-     "Kharkiv",
-     "Kharkov"
-    ],
+    "Riga",
+    "Tallinn",
+    "Vilnius",
+    "Minsk",
     [
      "Odesa",
      "Odessa"
@@ -2605,24 +2605,28 @@
      "Lemberg"
     ],
     [
+     "Kharkiv",
+     "Kharkov"
+    ],
+    "Mariupol",
+    "Donetsk",
+    "Chernobyl",
+    "Pripyat",
+    "Kherson",
+    [
      "Dnipro",
      "Dnepropetrovsk"
     ],
-    "Donetsk",
     [
      "Zaporizhzhia",
      "Zaporozhye"
     ],
-    "Mariupol",
-    "Kherson",
     [
      "Mykolaiv",
      "Nikolaev"
     ],
     "Sevastopol",
     "Yalta",
-    "Chernobyl",
-    "Pripyat",
     "Chernihiv",
     "Poltava",
     "Sumy",
@@ -2630,7 +2634,6 @@
     "Vinnytsia",
     "Uzhhorod",
     "Ternopil",
-    "Minsk",
     "Brest",
     [
      "Grodno",
@@ -2642,10 +2645,7 @@
     ],
     "Vitebsk",
     "Mogilev",
-    "Riga",
-    "Tallinn",
     "Tartu",
-    "Vilnius",
     "Kaunas",
     [
      "Klaipėda",
@@ -3883,29 +3883,29 @@
      "Brighton and Hove",
      "Brighton"
     ],
-    "Wolverhampton",
-    "Inverness",
+    "Milton Keynes",
+    "Doncaster",
+    "Colchester",
+    [
+     "Southend-on-Sea",
+     "Southend"
+    ],
+    "Wrexham",
     "Preston",
+    "Wolverhampton",
     "Stirling",
+    "Inverness",
     "Newport",
+    "Chelmsford",
     "Lisburn",
     "Newry",
-    "Chelmsford",
     "Perth",
     [
      "St Asaph",
      "Saint Asaph"
     ],
-    "Milton Keynes",
-    "Colchester",
-    "Doncaster",
     "Dunfermline",
-    "Bangor",
-    "Wrexham",
-    [
-     "Southend-on-Sea",
-     "Southend"
-    ]
+    "Bangor"
    ]
   }
  ]

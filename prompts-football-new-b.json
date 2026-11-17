@@ -9,28 +9,28 @@
    "text": "Name a country that has played at the Copa América (including its earlier South American Championship editions), up to the 2024 tournament",
    "answers": [
     "Argentina",
-    "Bolivia",
     "Brazil",
+    "Uruguay",
     "Chile",
     "Colombia",
-    "Ecuador",
-    "Paraguay",
-    "Peru",
-    "Uruguay",
-    "Venezuela",
     "Mexico",
-    "Canada",
-    "Costa Rica",
-    "Haiti",
-    "Honduras",
-    "Jamaica",
-    "Panama",
     [
      "United States",
      "USA",
      "US",
      "United States of America"
     ],
+    "Paraguay",
+    "Peru",
+    "Ecuador",
+    "Bolivia",
+    "Venezuela",
+    "Canada",
+    "Costa Rica",
+    "Haiti",
+    "Honduras",
+    "Jamaica",
+    "Panama",
     "Japan",
     "Qatar"
    ]
@@ -128,17 +128,28 @@
    ],
    "text": "Name a club that played in the 2025 FIFA Club World Cup in the United States",
    "answers": [
-    "Palmeiras",
-    "Porto",
-    "Al Ahly",
-    [
-     "Inter Miami",
-     "Miami"
-    ],
+    "Chelsea",
     [
      "Paris Saint-Germain",
      "PSG",
      "Paris SG"
+    ],
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    "Real Madrid",
+    [
+     "Bayern Munich",
+     "Bayern"
+    ],
+    [
+     "Inter Milan",
+     "Internazionale"
+    ],
+    [
+     "Juventus",
+     "Juve"
     ],
     [
      "Atlético Madrid",
@@ -146,25 +157,34 @@
      "Atletico",
      "Atleti"
     ],
+    [
+     "Borussia Dortmund",
+     "Dortmund",
+     "BVB"
+    ],
+    [
+     "Benfica",
+     "SL Benfica"
+    ],
+    "Porto",
+    [
+     "Inter Miami",
+     "Miami"
+    ],
+    "Flamengo",
+    "Boca Juniors",
+    "River Plate",
+    "Palmeiras",
+    "Al Ahly",
     "Botafogo",
     [
      "Seattle Sounders",
      "Sounders"
     ],
     [
-     "Bayern Munich",
-     "Bayern"
-    ],
-    [
      "Auckland City",
      "Auckland"
     ],
-    "Boca Juniors",
-    [
-     "Benfica",
-     "SL Benfica"
-    ],
-    "Flamengo",
     [
      "Espérance de Tunis",
      "Esperance de Tunis",
@@ -172,13 +192,11 @@
      "Esperance Tunis",
      "Esperance"
     ],
-    "Chelsea",
     [
      "Los Angeles FC",
      "LAFC",
      "Los Angeles"
     ],
-    "River Plate",
     [
      "Urawa Red Diamonds",
      "Urawa Reds",
@@ -189,16 +207,7 @@
      "CF Monterrey",
      "Rayados"
     ],
-    [
-     "Inter Milan",
-     "Internazionale"
-    ],
     "Fluminense",
-    [
-     "Borussia Dortmund",
-     "Dortmund",
-     "BVB"
-    ],
     [
      "Ulsan HD",
      "Ulsan",
@@ -209,20 +218,11 @@
      "Sundowns"
     ],
     [
-     "Manchester City",
-     "Man City"
-    ],
-    [
      "Wydad AC",
      "Wydad",
      "Wydad Casablanca"
     ],
     "Al Ain",
-    [
-     "Juventus",
-     "Juve"
-    ],
-    "Real Madrid",
     [
      "Al Hilal",
      "Al-Hilal"
@@ -246,13 +246,45 @@
    ],
    "text": "Name a club that played in the 2025-26 Champions League league phase",
    "answers": [
-    "Ajax",
-    "Arsenal",
-    "Atalanta",
+    "Liverpool",
     [
-     "Athletic Bilbao",
-     "Athletic Club",
-     "Athletic"
+     "Manchester City",
+     "Man City"
+    ],
+    "Arsenal",
+    "Chelsea",
+    [
+     "Barcelona",
+     "Barca",
+     "FC Barcelona"
+    ],
+    "Real Madrid",
+    [
+     "Bayern Munich",
+     "Bayern"
+    ],
+    [
+     "Paris Saint-Germain",
+     "PSG",
+     "Paris SG"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle",
+     "Newcastle Utd"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    [
+     "Inter Milan",
+     "Internazionale"
+    ],
+    [
+     "Juventus",
+     "Juve"
     ],
     [
      "Atlético Madrid",
@@ -261,17 +293,20 @@
      "Atleti"
     ],
     [
-     "Barcelona",
-     "Barca",
-     "FC Barcelona"
+     "Borussia Dortmund",
+     "Dortmund",
+     "BVB"
+    ],
+    "Ajax",
+    "Atalanta",
+    [
+     "Athletic Bilbao",
+     "Athletic Club",
+     "Athletic"
     ],
     [
      "Bayer Leverkusen",
      "Leverkusen"
-    ],
-    [
-     "Bayern Munich",
-     "Bayern"
     ],
     [
      "Benfica",
@@ -284,12 +319,6 @@
      "Bodo/Glimt",
      "Bodo"
     ],
-    [
-     "Borussia Dortmund",
-     "Dortmund",
-     "BVB"
-    ],
-    "Chelsea",
     [
      "Club Brugge",
      "Brugge"
@@ -305,21 +334,8 @@
     ],
     "Galatasaray",
     [
-     "Inter Milan",
-     "Internazionale"
-    ],
-    [
-     "Juventus",
-     "Juve"
-    ],
-    [
      "Kairat",
      "Kairat Almaty"
-    ],
-    "Liverpool",
-    [
-     "Manchester City",
-     "Man City"
     ],
     [
      "Marseille",
@@ -334,18 +350,8 @@
      "Napoli",
      "SSC Napoli"
     ],
-    [
-     "Newcastle United",
-     "Newcastle",
-     "Newcastle Utd"
-    ],
     "Olympiacos",
     "Pafos",
-    [
-     "Paris Saint-Germain",
-     "PSG",
-     "Paris SG"
-    ],
     [
      "PSV Eindhoven",
      "PSV",
@@ -355,7 +361,6 @@
      "Qarabağ",
      "Qarabag"
     ],
-    "Real Madrid",
     [
      "Slavia Prague",
      "Slavia Praha",
@@ -365,11 +370,6 @@
      "Sporting CP",
      "Sporting",
      "Sporting Lisbon"
-    ],
-    [
-     "Tottenham Hotspur",
-     "Tottenham",
-     "Spurs"
     ],
     [
      "Union Saint-Gilloise",
@@ -392,15 +392,44 @@
      "Aston Villa",
      "Villa"
     ],
+    [
+     "Nottingham Forest",
+     "Forest",
+     "Notts Forest"
+    ],
+    "Celtic",
+    "Rangers",
+    [
+     "Porto",
+     "FC Porto"
+    ],
+    [
+     "Roma",
+     "AS Roma"
+    ],
+    [
+     "Lyon",
+     "Olympique Lyonnais",
+     "OL"
+    ],
+    "Feyenoord",
+    [
+     "Fenerbahçe",
+     "Fenerbahce"
+    ],
+    [
+     "Real Betis",
+     "Betis"
+    ],
+    "Braga",
+    "Panathinaikos",
     "Basel",
     "Bologna",
-    "Braga",
     "Brann",
     [
      "Celta Vigo",
      "Celta"
     ],
-    "Celtic",
     [
      "Dinamo Zagreb",
      "GNK Dinamo Zagreb"
@@ -410,26 +439,16 @@
      "Steaua Bucharest"
     ],
     [
-     "Fenerbahçe",
-     "Fenerbahce"
-    ],
-    [
      "Ferencváros",
      "Ferencvaros",
      "Fradi"
     ],
-    "Feyenoord",
     "Genk",
     "Go Ahead Eagles",
     "Lille",
     [
      "Ludogorets Razgrad",
      "Ludogorets"
-    ],
-    [
-     "Lyon",
-     "Olympique Lyonnais",
-     "OL"
     ],
     [
      "Maccabi Tel Aviv",
@@ -443,22 +462,7 @@
     ],
     "Midtjylland",
     "Nice",
-    [
-     "Nottingham Forest",
-     "Forest",
-     "Notts Forest"
-    ],
-    "Panathinaikos",
     "PAOK",
-    [
-     "Porto",
-     "FC Porto"
-    ],
-    "Rangers",
-    [
-     "Real Betis",
-     "Betis"
-    ],
     [
      "Red Bull Salzburg",
      "Salzburg",
@@ -468,10 +472,6 @@
      "Red Star Belgrade",
      "Crvena Zvezda",
      "Red Star"
-    ],
-    [
-     "Roma",
-     "AS Roma"
     ],
     [
      "SC Freiburg",
@@ -509,11 +509,48 @@
    ],
    "text": "Name a club that played in the 2025-26 Conference League league phase",
    "answers": [
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
     "Aberdeen",
+    "Fiorentina",
+    [
+     "Rayo Vallecano",
+     "Rayo"
+    ],
+    [
+     "Mainz 05",
+     "Mainz"
+    ],
     [
      "AEK Athens",
      "AEK"
     ],
+    [
+     "Dynamo Kyiv",
+     "Dynamo Kiev",
+     "Dinamo Kyiv"
+    ],
+    [
+     "Shakhtar Donetsk",
+     "Shakhtar"
+    ],
+    [
+     "Legia Warsaw",
+     "Legia",
+     "Legia Warszawa"
+    ],
+    [
+     "Rapid Wien",
+     "Rapid Vienna",
+     "Rapid"
+    ],
+    [
+     "Omonia",
+     "Omonia Nicosia"
+    ],
+    "Samsunspor",
     [
      "AEK Larnaca",
      "Larnaca"
@@ -529,17 +566,7 @@
      "Breidablik"
     ],
     "Celje",
-    [
-     "Crystal Palace",
-     "Palace"
-    ],
     "Drita",
-    [
-     "Dynamo Kyiv",
-     "Dynamo Kiev",
-     "Dinamo Kyiv"
-    ],
-    "Fiorentina",
     [
      "Hamrun Spartans",
      "Hamrun"
@@ -560,44 +587,17 @@
      "Lech"
     ],
     [
-     "Legia Warsaw",
-     "Legia",
-     "Legia Warszawa"
-    ],
-    [
      "Lincoln Red Imps",
      "Lincoln"
     ],
-    [
-     "Mainz 05",
-     "Mainz"
-    ],
     "Noah",
-    [
-     "Omonia",
-     "Omonia Nicosia"
-    ],
     [
      "Raków Częstochowa",
      "Rakow",
      "Rakow Czestochowa",
      "Raków"
     ],
-    [
-     "Rapid Wien",
-     "Rapid Vienna",
-     "Rapid"
-    ],
-    [
-     "Rayo Vallecano",
-     "Rayo"
-    ],
     "Rijeka",
-    "Samsunspor",
-    [
-     "Shakhtar Donetsk",
-     "Shakhtar"
-    ],
     [
      "Shamrock Rovers",
      "Shamrock"
@@ -648,44 +648,6 @@
    "text": "Name a host city (as listed by FIFA) of the 2026 World Cup",
    "answers": [
     [
-     "Los Angeles",
-     "LA",
-     "Inglewood"
-    ],
-    [
-     "San Francisco Bay Area",
-     "San Francisco",
-     "Bay Area",
-     "Santa Clara",
-     "San Francisco Bay"
-    ],
-    "Seattle",
-    "Vancouver",
-    [
-     "Dallas",
-     "Arlington",
-     "Dallas-Fort Worth",
-     "Dallas Fort Worth"
-    ],
-    "Guadalajara",
-    "Houston",
-    "Kansas City",
-    [
-     "Mexico City",
-     "Ciudad de Mexico"
-    ],
-    "Monterrey",
-    "Atlanta",
-    [
-     "Boston",
-     "Foxborough",
-     "Foxboro"
-    ],
-    [
-     "Miami",
-     "Miami Gardens"
-    ],
-    [
      "New York/New Jersey",
      "New York",
      "New Jersey",
@@ -694,8 +656,46 @@
      "East Rutherford",
      "NYNJ"
     ],
+    [
+     "Los Angeles",
+     "LA",
+     "Inglewood"
+    ],
+    [
+     "Mexico City",
+     "Ciudad de Mexico"
+    ],
+    [
+     "Miami",
+     "Miami Gardens"
+    ],
+    "Toronto",
+    [
+     "Dallas",
+     "Arlington",
+     "Dallas-Fort Worth",
+     "Dallas Fort Worth"
+    ],
+    "Atlanta",
+    [
+     "Boston",
+     "Foxborough",
+     "Foxboro"
+    ],
+    "Seattle",
+    "Houston",
+    "Vancouver",
+    [
+     "San Francisco Bay Area",
+     "San Francisco",
+     "Bay Area",
+     "Santa Clara",
+     "San Francisco Bay"
+    ],
     "Philadelphia",
-    "Toronto"
+    "Kansas City",
+    "Guadalajara",
+    "Monterrey"
    ]
   },
   {
@@ -707,39 +707,39 @@
    "text": "Name a host city of the 2002 World Cup in South Korea and Japan",
    "answers": [
     "Seoul",
+    "Yokohama",
     "Busan",
+    "Osaka",
+    "Saitama",
+    "Sapporo",
+    "Kobe",
     "Daegu",
     "Incheon",
+    "Suwon",
+    "Niigata",
+    [
+     "Oita",
+     "Ōita"
+    ],
     "Daejeon",
     "Gwangju",
     "Ulsan",
-    "Suwon",
     "Jeonju",
     [
      "Seogwipo",
      "Jeju",
      "Jeju Island"
     ],
-    "Yokohama",
-    "Saitama",
     "Shizuoka",
     [
      "Ibaraki",
      "Kashima"
     ],
-    "Niigata",
-    [
-     "Oita",
-     "Ōita"
-    ],
-    "Osaka",
-    "Kobe",
     [
      "Miyagi",
      "Rifu",
      "Sendai"
-    ],
-    "Sapporo"
+    ]
    ],
    "deep": true
   },
@@ -792,16 +792,33 @@
    ],
    "text": "Name a Scottish club that has played in a European competition (UEFA or Fairs Cup, up to the end of 2023-24, as listed on Wikipedia)",
    "answers": [
+    "Celtic",
+    "Rangers",
     "Aberdeen",
     [
-     "Airdrieonians",
-     "Airdrie"
+     "Heart of Midlothian",
+     "Hearts"
     ],
-    "Celtic",
-    "Dundee",
+    [
+     "Hibernian",
+     "Hibs"
+    ],
     [
      "Dundee United",
      "Dundee Utd"
+    ],
+    "Kilmarnock",
+    "Motherwell",
+    [
+     "St Mirren",
+     "Saint Mirren"
+    ],
+    "Dundee",
+    "St Johnstone",
+    "Livingston",
+    [
+     "Airdrieonians",
+     "Airdrie"
     ],
     [
      "Dunfermline Athletic",
@@ -814,22 +831,11 @@
     ],
     "Gretna",
     [
-     "Heart of Midlothian",
-     "Hearts"
-    ],
-    [
-     "Hibernian",
-     "Hibs"
-    ],
-    [
      "Inverness Caledonian Thistle",
      "Inverness",
      "Inverness CT",
      "ICT"
     ],
-    "Kilmarnock",
-    "Livingston",
-    "Motherwell",
     [
      "Partick Thistle",
      "Partick"
@@ -838,12 +844,6 @@
     [
      "Raith Rovers",
      "Raith"
-    ],
-    "Rangers",
-    "St Johnstone",
-    [
-     "St Mirren",
-     "Saint Mirren"
     ],
     "Third Lanark"
    ],
@@ -908,38 +908,38 @@
    ],
    "text": "Name a club that has won the Copa del Rey (Spanish Cup) up to the 2025-26 final, as on the RFEF's official list (defunct clubs included)",
    "answers": [
-    "Barcelona",
-    [
-     "Athletic Bilbao",
-     "Athletic Club",
-     "Athletic"
-    ],
     "Real Madrid",
+    "Barcelona",
     [
      "Atlético Madrid",
      "Atletico Madrid",
      "Atletico",
      "Atleti"
     ],
+    [
+     "Athletic Bilbao",
+     "Athletic Club",
+     "Athletic"
+    ],
     "Valencia",
+    "Sevilla",
+    [
+     "Real Betis",
+     "Betis"
+    ],
+    "Real Sociedad",
     [
      "Real Zaragoza",
      "Zaragoza"
     ],
-    "Sevilla",
     [
      "Espanyol",
      "RCD Espanyol",
      "Español"
     ],
-    "Real Sociedad",
     [
-     "Real Betis",
-     "Betis"
-    ],
-    [
-     "Real Unión",
-     "Real Union"
+     "Mallorca",
+     "RCD Mallorca"
     ],
     [
      "Deportivo La Coruña",
@@ -949,15 +949,15 @@
      "Deportivo de La Coruna"
     ],
     [
+     "Real Unión",
+     "Real Union"
+    ],
+    [
      "Arenas Club de Getxo",
      "Arenas Club",
      "Arenas",
      "Arenas Getxo",
      "Arenas de Getxo"
-    ],
-    [
-     "Mallorca",
-     "RCD Mallorca"
     ],
     [
      "Club Ciclista de San Sebastián",
@@ -987,18 +987,71 @@
      "Arsene Wenger"
     ],
     [
+     "Jürgen Klopp",
+     "Klopp",
+     "Jurgen Klopp"
+    ],
+    [
+     "Arne Slot",
+     "Slot"
+    ],
+    [
+     "Louis van Gaal",
+     "Van Gaal",
+     "Gaal"
+    ],
+    [
+     "Thomas Tuchel",
+     "Tuchel"
+    ],
+    [
      "Gérard Houllier",
      "Houllier",
      "Gerard Houllier"
     ],
     [
-     "Rémi Garde",
-     "Garde",
-     "Remi Garde"
+     "Erik ten Hag",
+     "Ten Hag",
+     "Erik Ten Hag"
+    ],
+    [
+     "Ronald Koeman",
+     "Koeman"
+    ],
+    [
+     "Ralf Rangnick",
+     "Rangnick"
+    ],
+    [
+     "Ruud Gullit",
+     "Gullit"
+    ],
+    [
+     "Guus Hiddink",
+     "Hiddink"
     ],
     [
      "Patrick Vieira",
      "Vieira"
+    ],
+    [
+     "Ruud van Nistelrooy",
+     "Van Nistelrooy",
+     "Nistelrooy"
+    ],
+    [
+     "Frank de Boer",
+     "De Boer",
+     "Frank De Boer"
+    ],
+    [
+     "Daniel Farke",
+     "Farke"
+    ],
+    [
+     "Rémi Garde",
+     "Garde",
+     "Remi Garde"
     ],
     [
      "Jean Tigana",
@@ -1028,46 +1081,12 @@
      "Hürzeler"
     ],
     [
-     "Thomas Tuchel",
-     "Tuchel"
-    ],
-    [
      "Felix Magath",
      "Magath"
     ],
     [
      "Jan Siewert",
      "Siewert"
-    ],
-    [
-     "Daniel Farke",
-     "Farke"
-    ],
-    [
-     "Jürgen Klopp",
-     "Klopp",
-     "Jurgen Klopp"
-    ],
-    [
-     "Ralf Rangnick",
-     "Rangnick"
-    ],
-    [
-     "Ruud Gullit",
-     "Gullit"
-    ],
-    [
-     "Guus Hiddink",
-     "Hiddink"
-    ],
-    [
-     "Frank de Boer",
-     "De Boer",
-     "Frank De Boer"
-    ],
-    [
-     "Ronald Koeman",
-     "Koeman"
     ],
     [
      "Martin Jol",
@@ -1077,25 +1096,6 @@
      "René Meulensteen",
      "Meulensteen",
      "Rene Meulensteen"
-    ],
-    [
-     "Ruud van Nistelrooy",
-     "Van Nistelrooy",
-     "Nistelrooy"
-    ],
-    [
-     "Arne Slot",
-     "Slot"
-    ],
-    [
-     "Louis van Gaal",
-     "Van Gaal",
-     "Gaal"
-    ],
-    [
-     "Erik ten Hag",
-     "Ten Hag",
-     "Erik Ten Hag"
     ],
     [
      "Dick Advocaat",
@@ -1117,21 +1117,62 @@
      "CR7"
     ],
     [
-     "Romelu Lukaku",
-     "Lukaku"
+     "Harry Kane",
+     "Kane"
     ],
     [
      "Robert Lewandowski",
      "Lewandowski"
     ],
     [
-     "Harry Kane",
-     "Kane"
+     "Kylian Mbappé",
+     "Mbappe",
+     "Kylian Mbappe"
+    ],
+    [
+     "Romelu Lukaku",
+     "Lukaku"
+    ],
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Zlatan Ibrahimović",
+     "Ibrahimovic",
+     "Zlatan",
+     "Zlatan Ibrahimovic"
+    ],
+    [
+     "Miroslav Klose",
+     "Klose"
     ],
     [
      "Ferenc Puskás",
      "Puskas",
      "Ferenc Puskas"
+    ],
+    [
+     "Gerd Müller",
+     "Gerd Muller",
+     "Muller",
+     "Gerd Mueller"
+    ],
+    [
+     "Robbie Keane",
+     "Keane"
+    ],
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Olivier Giroud",
+     "Giroud"
+    ],
+    [
+     "David Villa",
+     "Villa"
     ],
     [
      "Vivian Woodward",
@@ -1148,50 +1189,13 @@
      "Edin Dzeko"
     ],
     [
-     "Miroslav Klose",
-     "Klose"
-    ],
-    [
-     "Gerd Müller",
-     "Gerd Muller",
-     "Muller",
-     "Gerd Mueller"
-    ],
-    [
-     "Robbie Keane",
-     "Keane"
-    ],
-    [
-     "Kylian Mbappé",
-     "Mbappe",
-     "Kylian Mbappe"
-    ],
-    [
-     "Erling Haaland",
-     "Haaland"
-    ],
-    [
      "Aleksandar Mitrović",
      "Mitrovic",
      "Aleksandar Mitrovic"
     ],
     [
-     "Zlatan Ibrahimović",
-     "Ibrahimovic",
-     "Zlatan",
-     "Zlatan Ibrahimovic"
-    ],
-    [
      "Imre Schlosser",
      "Schlosser"
-    ],
-    [
-     "David Villa",
-     "Villa"
-    ],
-    [
-     "Olivier Giroud",
-     "Giroud"
     ],
     [
      "Jan Koller",
@@ -1205,10 +1209,6 @@
      "Memphis Depay",
      "Depay",
      "Memphis"
-    ],
-    [
-     "Wayne Rooney",
-     "Rooney"
     ],
     [
      "Poul Nielsen",
@@ -1467,8 +1467,10 @@
    ],
    "text": "Name a country that a men's Ballon d'Or winner represented (1956 to 2025, countries as listed on Wikipedia, with Czechoslovakia and Czech Republic separate)",
    "answers": [
-    "France",
     "Argentina",
+    "Portugal",
+    "Brazil",
+    "France",
     [
      "Germany",
      "West Germany"
@@ -1477,10 +1479,8 @@
      "Netherlands",
      "Holland"
     ],
-    "Portugal",
     "England",
     "Italy",
-    "Brazil",
     "Spain",
     [
      "Soviet Union",
@@ -1510,16 +1510,51 @@
    "text": "Name a stadium used by a Serie A club in 2025-26 (clubs sharing a ground count once)",
    "answers": [
     [
+     "San Siro",
+     "Giuseppe Meazza",
+     "Stadio Giuseppe Meazza",
+     "Meazza"
+    ],
+    "Stadio Olimpico",
+    [
+     "Allianz Stadium",
+     "Juventus Stadium",
+     "Allianz Stadium Turin"
+    ],
+    [
+     "Stadio Diego Armando Maradona",
+     "Maradona",
+     "Stadio Maradona",
+     "San Paolo",
+     "Stadio San Paolo"
+    ],
+    [
      "Stadio di Bergamo",
      "Gewiss Stadium",
      "Atleti Azzurri d'Italia",
      "Bergamo Stadium"
     ],
     [
+     "Stadio Artemio Franchi",
+     "Artemio Franchi",
+     "Franchi"
+    ],
+    [
+     "Stadio Luigi Ferraris",
+     "Luigi Ferraris",
+     "Ferraris",
+     "Marassi"
+    ],
+    [
      "Stadio Renato Dall'Ara",
      "Dall'Ara",
      "Renato Dall'Ara",
      "Dall Ara"
+    ],
+    [
+     "Stadio Marcantonio Bentegodi",
+     "Bentegodi",
+     "Marcantonio Bentegodi"
     ],
     [
      "Unipol Domus",
@@ -1535,44 +1570,9 @@
      "Giovanni Zini"
     ],
     [
-     "Stadio Artemio Franchi",
-     "Artemio Franchi",
-     "Franchi"
-    ],
-    [
-     "Stadio Luigi Ferraris",
-     "Luigi Ferraris",
-     "Ferraris",
-     "Marassi"
-    ],
-    [
-     "Stadio Marcantonio Bentegodi",
-     "Bentegodi",
-     "Marcantonio Bentegodi"
-    ],
-    [
-     "San Siro",
-     "Giuseppe Meazza",
-     "Stadio Giuseppe Meazza",
-     "Meazza"
-    ],
-    [
-     "Allianz Stadium",
-     "Juventus Stadium",
-     "Allianz Stadium Turin"
-    ],
-    "Stadio Olimpico",
-    [
      "Stadio Via del Mare",
      "Via del Mare",
      "Stadio Ettore Giardiniero"
-    ],
-    [
-     "Stadio Diego Armando Maradona",
-     "Maradona",
-     "Stadio Maradona",
-     "San Paolo",
-     "Stadio San Paolo"
     ],
     [
      "Stadio Ennio Tardini",
@@ -1614,6 +1614,43 @@
    ],
    "text": "Name a stadium used by a Bundesliga club in 2025-26",
    "answers": [
+    "Allianz Arena",
+    [
+     "Signal Iduna Park",
+     "Westfalenstadion"
+    ],
+    [
+     "BayArena",
+     "Bay Arena"
+    ],
+    [
+     "Red Bull Arena",
+     "Red Bull Arena Leipzig"
+    ],
+    "Weserstadion",
+    [
+     "Deutsche Bank Park",
+     "Waldstadion",
+     "Commerzbank-Arena",
+     "Commerzbank Arena"
+    ],
+    [
+     "Volksparkstadion",
+     "Volksparkstadion Hamburg"
+    ],
+    [
+     "Borussia-Park",
+     "Borussia Park"
+    ],
+    [
+     "Millerntor-Stadion",
+     "Millerntor",
+     "Millerntor Stadion"
+    ],
+    [
+     "Volkswagen Arena",
+     "VW Arena"
+    ],
     [
      "WWK Arena",
      "Augsburg Arena"
@@ -1624,24 +1661,9 @@
      "An der Alten Forsterei",
      "Stadion An der Alten Forsterei"
     ],
-    "Weserstadion",
-    [
-     "Signal Iduna Park",
-     "Westfalenstadion"
-    ],
-    [
-     "Deutsche Bank Park",
-     "Waldstadion",
-     "Commerzbank-Arena",
-     "Commerzbank Arena"
-    ],
     [
      "Europa-Park Stadion",
      "Europa Park Stadion"
-    ],
-    [
-     "Volksparkstadion",
-     "Volksparkstadion Hamburg"
     ],
     [
      "Voith-Arena",
@@ -1660,37 +1682,15 @@
      "Mungersdorfer Stadion"
     ],
     [
-     "Red Bull Arena",
-     "Red Bull Arena Leipzig"
-    ],
-    [
-     "BayArena",
-     "Bay Arena"
-    ],
-    [
      "MEWA Arena",
      "Mewa Arena",
      "Opel Arena"
-    ],
-    [
-     "Borussia-Park",
-     "Borussia Park"
-    ],
-    "Allianz Arena",
-    [
-     "Millerntor-Stadion",
-     "Millerntor",
-     "Millerntor Stadion"
     ],
     [
      "MHPArena",
      "MHP Arena",
      "Neckarstadion",
      "Mercedes-Benz Arena"
-    ],
-    [
-     "Volkswagen Arena",
-     "VW Arena"
     ]
    ],
    "deep": true
@@ -1703,32 +1703,32 @@
    ],
    "text": "Name a nation Scotland have played at a men's World Cup finals (up to the 2026 tournament)",
    "answers": [
-    "Austria",
     "Brazil",
-    "Costa Rica",
-    "Denmark",
-    "France",
-    "Haiti",
-    "Iran",
-    "Morocco",
     [
      "Netherlands",
      "Holland"
     ],
-    "New Zealand",
-    "Norway",
-    "Paraguay",
     "Peru",
-    [
-     "Soviet Union",
-     "USSR"
-    ],
-    "Sweden",
-    "Uruguay",
+    "Iran",
+    "Norway",
+    "Morocco",
+    "Haiti",
     [
      "West Germany",
      "Germany"
     ],
+    "Costa Rica",
+    "Sweden",
+    "Denmark",
+    "Uruguay",
+    [
+     "Soviet Union",
+     "USSR"
+    ],
+    "Austria",
+    "France",
+    "New Zealand",
+    "Paraguay",
     "Yugoslavia",
     [
      "Zaire",
@@ -1745,7 +1745,9 @@
    ],
    "text": "Name a country or team that has won a medal in the men's Olympic football tournament (up to Paris 2024; Germany (including West Germany), East Germany and the 1964 United Team of Germany count separately)",
    "answers": [
-    "Hungary",
+    "Brazil",
+    "Argentina",
+    "Spain",
     [
      "Great Britain",
      "GB",
@@ -1753,24 +1755,27 @@
      "United Kingdom",
      "Team GB"
     ],
-    "Brazil",
-    "Spain",
-    "Argentina",
+    "Hungary",
+    "Mexico",
+    "Uruguay",
+    "Nigeria",
+    "Italy",
+    "France",
+    [
+     "Germany",
+     "West Germany",
+     "FR Germany"
+    ],
+    "Sweden",
     [
      "Soviet Union",
      "USSR"
     ],
-    "Uruguay",
     "Yugoslavia",
     "Poland",
-    "France",
     "East Germany",
-    "Nigeria",
     "Czechoslovakia",
-    "Italy",
-    "Sweden",
     "Belgium",
-    "Mexico",
     "Canada",
     "Cameroon",
     "Denmark",
@@ -1781,11 +1786,6 @@
      "United States of America"
     ],
     "Bulgaria",
-    [
-     "Germany",
-     "West Germany",
-     "FR Germany"
-    ],
     "Switzerland",
     "Austria",
     "Paraguay",
@@ -1819,21 +1819,21 @@
    ],
    "text": "Name a team in League A of the 2026-27 UEFA Nations League",
    "answers": [
-    "Portugal",
-    "Spain",
+    "England",
     "France",
+    "Spain",
     "Germany",
+    "Portugal",
     "Italy",
     [
      "Netherlands",
      "Holland"
     ],
-    "Denmark",
-    "Croatia",
-    "Serbia",
     "Belgium",
-    "England",
+    "Croatia",
+    "Denmark",
     "Norway",
+    "Serbia",
     "Wales",
     [
      "Czech Republic",
@@ -1855,27 +1855,27 @@
    ],
    "text": "Name a team that reached the round of 16 at the 2026 World Cup",
    "answers": [
-    "Canada",
-    "Morocco",
-    "Paraguay",
+    "England",
     "France",
     "Brazil",
-    "Norway",
-    "Mexico",
-    "England",
-    "Portugal",
+    "Argentina",
     "Spain",
+    "Portugal",
     [
      "United States",
      "USA",
      "US",
      "United States of America"
     ],
+    "Mexico",
+    "Canada",
     "Belgium",
-    "Argentina",
-    "Egypt",
+    "Norway",
+    "Morocco",
     "Switzerland",
-    "Colombia"
+    "Colombia",
+    "Egypt",
+    "Paraguay"
    ]
   },
   {
@@ -1885,11 +1885,36 @@
    ],
    "text": "Name a country that has played at an AFC Asian Cup finals tournament, up to and including the 2023 edition (former states such as South Vietnam and South Yemen included)",
    "answers": [
+    "Japan",
     [
      "South Korea",
      "Korea Republic",
      "Korea"
     ],
+    "Iran",
+    "Saudi Arabia",
+    "Australia",
+    "Qatar",
+    "Iraq",
+    [
+     "China",
+     "China PR",
+     "PR China"
+    ],
+    "Uzbekistan",
+    [
+     "United Arab Emirates",
+     "UAE"
+    ],
+    "Thailand",
+    "India",
+    [
+     "North Korea",
+     "Korea DPR"
+    ],
+    "Kuwait",
+    "Syria",
+    "Indonesia",
     "Hong Kong",
     "Israel",
     [
@@ -1901,48 +1926,23 @@
      "Chinese Taipei",
      "Republic of China"
     ],
-    "India",
-    "Iran",
     [
      "Myanmar",
      "Burma"
     ],
-    "Iraq",
     [
      "Cambodia",
      "Khmer Republic"
     ],
-    "Kuwait",
-    "Thailand",
-    [
-     "China",
-     "China PR",
-     "PR China"
-    ],
     "Malaysia",
     "South Yemen",
     "Bangladesh",
-    [
-     "North Korea",
-     "Korea DPR"
-    ],
-    "Qatar",
-    "Syria",
-    [
-     "United Arab Emirates",
-     "UAE"
-    ],
-    "Saudi Arabia",
     "Singapore",
     "Bahrain",
-    "Japan",
-    "Indonesia",
-    "Uzbekistan",
     "Lebanon",
     "Jordan",
     "Oman",
     "Turkmenistan",
-    "Australia",
     "Palestine",
     "Kyrgyzstan",
     "Philippines",
@@ -1959,8 +1959,55 @@
    "text": "Name a Bundesliga top scorer of a season (shared awards included) from 1963-64 to 2025-26",
    "answers": [
     [
+     "Gerd Müller",
+     "Gerd Muller",
+     "Gerd Mueller"
+    ],
+    [
+     "Robert Lewandowski",
+     "Lewandowski"
+    ],
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Karl-Heinz Rummenigge",
+     "Rummenigge",
+     "Karl Heinz Rummenigge"
+    ],
+    [
+     "Jürgen Klinsmann",
+     "Klinsmann",
+     "Jurgen Klinsmann"
+    ],
+    [
+     "Rudi Völler",
+     "Voller",
+     "Rudi Voller",
+     "Völler"
+    ],
+    [
+     "Jupp Heynckes",
+     "Heynckes"
+    ],
+    [
      "Uwe Seeler",
      "Seeler"
+    ],
+    [
+     "Pierre-Emerick Aubameyang",
+     "Aubameyang",
+     "Pierre Emerick Aubameyang"
+    ],
+    [
+     "Mario Gómez",
+     "Gomez",
+     "Mario Gomez"
+    ],
+    [
+     "Klaus Fischer",
+     "Fischer"
     ],
     [
      "Rudolf Brunnenmeier",
@@ -1970,11 +2017,6 @@
     [
      "Lothar Emmerich",
      "Emmerich"
-    ],
-    [
-     "Gerd Müller",
-     "Gerd Muller",
-     "Gerd Mueller"
     ],
     [
      "Hannes Löhr",
@@ -1987,14 +2029,6 @@
      "Kobluhn"
     ],
     [
-     "Jupp Heynckes",
-     "Heynckes"
-    ],
-    [
-     "Klaus Fischer",
-     "Fischer"
-    ],
-    [
      "Dieter Müller",
      "Dieter Muller",
      "Dieter Mueller"
@@ -2003,17 +2037,6 @@
     [
      "Horst Hrubesch",
      "Hrubesch"
-    ],
-    [
-     "Karl-Heinz Rummenigge",
-     "Rummenigge",
-     "Karl Heinz Rummenigge"
-    ],
-    [
-     "Rudi Völler",
-     "Voller",
-     "Rudi Voller",
-     "Völler"
     ],
     [
      "Uwe Rahn",
@@ -2026,11 +2049,6 @@
     [
      "Stefan Kuntz",
      "Kuntz"
-    ],
-    [
-     "Jürgen Klinsmann",
-     "Klinsmann",
-     "Jurgen Klinsmann"
     ],
     "Thomas Allofs",
     [
@@ -2121,11 +2139,6 @@
      "Edin Dzeko"
     ],
     [
-     "Mario Gómez",
-     "Gomez",
-     "Mario Gomez"
-    ],
-    [
      "Klaas-Jan Huntelaar",
      "Huntelaar",
      "Klaas Jan Huntelaar"
@@ -2140,15 +2153,6 @@
      "Meier"
     ],
     [
-     "Pierre-Emerick Aubameyang",
-     "Aubameyang",
-     "Pierre Emerick Aubameyang"
-    ],
-    [
-     "Robert Lewandowski",
-     "Lewandowski"
-    ],
-    [
      "Niclas Füllkrug",
      "Fullkrug",
      "Niclas Fullkrug",
@@ -2157,10 +2161,6 @@
     [
      "Christopher Nkunku",
      "Nkunku"
-    ],
-    [
-     "Harry Kane",
-     "Kane"
     ]
    ],
    "deep": true

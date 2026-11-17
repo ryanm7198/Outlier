@@ -240,14 +240,23 @@
     "Creeper",
     "Zombie",
     "Skeleton",
+    [
+     "Ender dragon",
+     "Enderdragon"
+    ],
+    "Wither",
+    "Warden",
     "Blaze",
     "Ghast",
+    [
+     "Drowned",
+     "Drowneds"
+    ],
     "Witch",
     "Slime",
+    "Phantom",
     "Magma cube",
     "Silverfish",
-    "Phantom",
-    "Warden",
     "Wither skeleton",
     "Zombie villager",
     "Husk",
@@ -267,12 +276,7 @@
     "Breeze",
     "Bogged",
     "Creaking",
-    "Parched",
-    [
-     "Ender dragon",
-     "Enderdragon"
-    ],
-    "Wither"
+    "Parched"
    ]
   }
  ]

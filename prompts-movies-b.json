@@ -125,12 +125,40 @@
     "Hot Fuzz",
     "Baby Driver",
     [
+     "Kingsman: The Secret Service",
+     "The Secret Service",
+     "Secret Service",
+     "Kingsman 1"
+    ],
+    [
+     "Kick-Ass",
+     "Kick Ass"
+    ],
+    [
      "Scott Pilgrim vs. the World",
      "Scott Pilgrim"
     ],
     [
      "The World's End",
      "World's End"
+    ],
+    "Layer Cake",
+    "Stardust",
+    [
+     "Kingsman: The Golden Circle",
+     "The Golden Circle",
+     "Golden Circle",
+     "Kingsman 2"
+    ],
+    [
+     "X-Men: First Class",
+     "First Class",
+     "X-Men First Class"
+    ],
+    [
+     "The King's Man",
+     "King's Man",
+     "Kingsman The King's Man"
     ],
     "Last Night in Soho",
     [
@@ -145,34 +173,6 @@
     [
      "A Fistful of Fingers",
      "Fistful of Fingers"
-    ],
-    [
-     "Kingsman: The Secret Service",
-     "The Secret Service",
-     "Secret Service",
-     "Kingsman 1"
-    ],
-    [
-     "Kingsman: The Golden Circle",
-     "The Golden Circle",
-     "Golden Circle",
-     "Kingsman 2"
-    ],
-    [
-     "The King's Man",
-     "King's Man",
-     "Kingsman The King's Man"
-    ],
-    [
-     "Kick-Ass",
-     "Kick Ass"
-    ],
-    "Layer Cake",
-    "Stardust",
-    [
-     "X-Men: First Class",
-     "First Class",
-     "X-Men First Class"
     ],
     "Argylle"
    ]
@@ -255,33 +255,33 @@
      "DaVinci Code"
     ],
     [
-     "Angels & Demons",
-     "Angels and Demons"
-    ],
-    "Inferno",
-    "Rush",
-    "Splash",
-    "Cocoon",
-    "Willow",
-    "Backdraft",
-    "Parenthood",
-    "Far and Away",
-    "Ransom",
-    [
      "How the Grinch Stole Christmas",
      "The Grinch",
      "Grinch",
      "Dr Seuss' How the Grinch Stole Christmas"
     ],
-    "Cinderella Man",
+    "Splash",
     [
-     "Frost/Nixon",
-     "Frost Nixon"
+     "Angels & Demons",
+     "Angels and Demons"
     ],
     [
      "Solo: A Star Wars Story",
      "Solo",
      "Solo A Star Wars Story"
+    ],
+    "Rush",
+    "Willow",
+    "Cocoon",
+    "Backdraft",
+    "Cinderella Man",
+    "Inferno",
+    "Parenthood",
+    "Far and Away",
+    "Ransom",
+    [
+     "Frost/Nixon",
+     "Frost Nixon"
     ],
     [
      "In the Heart of the Sea",
@@ -410,8 +410,50 @@
      "Halloween 2007"
     ],
     [
+     "A Nightmare on Elm Street",
+     "Nightmare on Elm Street",
+     "Elm Street"
+    ],
+    [
+     "Friday the 13th",
+     "Friday the Thirteenth"
+    ],
+    [
+     "Freddy vs. Jason",
+     "Freddy vs Jason",
+     "Freddy versus Jason"
+    ],
+    [
      "Halloween II",
      "Halloween 2"
+    ],
+    [
+     "A Nightmare on Elm Street 3: Dream Warriors",
+     "Dream Warriors",
+     "Nightmare on Elm Street 3"
+    ],
+    "Halloween Kills",
+    "Halloween Ends",
+    [
+     "Friday the 13th Part 2",
+     "Friday the 13th Part II",
+     "Part 2"
+    ],
+    [
+     "Wes Craven's New Nightmare",
+     "New Nightmare"
+    ],
+    [
+     "Halloween H20: 20 Years Later",
+     "Halloween H20",
+     "H20",
+     "20 Years Later",
+     "Halloween 7"
+    ],
+    [
+     "Friday the 13th Part VI: Jason Lives",
+     "Jason Lives",
+     "Friday the 13th Part 6"
     ],
     [
      "Halloween III: Season of the Witch",
@@ -434,33 +476,14 @@
      "The Curse of Michael Myers"
     ],
     [
-     "Halloween H20: 20 Years Later",
-     "Halloween H20",
-     "H20",
-     "20 Years Later",
-     "Halloween 7"
-    ],
-    [
      "Halloween: Resurrection",
      "Halloween Resurrection",
      "Halloween 8"
-    ],
-    "Halloween Kills",
-    "Halloween Ends",
-    [
-     "A Nightmare on Elm Street",
-     "Nightmare on Elm Street",
-     "Elm Street"
     ],
     [
      "A Nightmare on Elm Street 2: Freddy's Revenge",
      "Freddy's Revenge",
      "Nightmare on Elm Street 2"
-    ],
-    [
-     "A Nightmare on Elm Street 3: Dream Warriors",
-     "Dream Warriors",
-     "Nightmare on Elm Street 3"
     ],
     [
      "A Nightmare on Elm Street 4: The Dream Master",
@@ -481,24 +504,6 @@
      "Nightmare on Elm Street 6"
     ],
     [
-     "Wes Craven's New Nightmare",
-     "New Nightmare"
-    ],
-    [
-     "Freddy vs. Jason",
-     "Freddy vs Jason",
-     "Freddy versus Jason"
-    ],
-    [
-     "Friday the 13th",
-     "Friday the Thirteenth"
-    ],
-    [
-     "Friday the 13th Part 2",
-     "Friday the 13th Part II",
-     "Part 2"
-    ],
-    [
      "Friday the 13th Part III",
      "Friday the 13th Part 3",
      "Friday the 13th 3D"
@@ -516,11 +521,6 @@
      "New Beginning",
      "Friday the 13th Part V",
      "Friday the 13th Part 5"
-    ],
-    [
-     "Friday the 13th Part VI: Jason Lives",
-     "Jason Lives",
-     "Friday the 13th Part 6"
     ],
     [
      "Friday the 13th Part VII: The New Blood",
@@ -553,13 +553,26 @@
      "Saw",
      "Saw 1"
     ],
+    "The Conjuring",
+    "Annabelle",
+    "The Conjuring 2",
     [
      "Saw II",
      "Saw 2"
     ],
+    "The Nun",
     [
      "Saw III",
      "Saw 3"
+    ],
+    [
+     "Saw X",
+     "Saw 10"
+    ],
+    "Annabelle: Creation",
+    [
+     "Jigsaw",
+     "Saw: Legacy"
     ],
     [
      "Saw IV",
@@ -580,19 +593,9 @@
      "Saw 3D The Final Chapter"
     ],
     [
-     "Jigsaw",
-     "Saw: Legacy"
-    ],
-    [
      "Spiral: From the Book of Saw",
      "Spiral"
     ],
-    [
-     "Saw X",
-     "Saw 10"
-    ],
-    "The Conjuring",
-    "The Conjuring 2",
     [
      "The Conjuring: The Devil Made Me Do It",
      "The Devil Made Me Do It",
@@ -603,10 +606,7 @@
      "Last Rites",
      "Conjuring 4"
     ],
-    "Annabelle",
-    "Annabelle: Creation",
     "Annabelle Comes Home",
-    "The Nun",
     [
      "The Nun II",
      "The Nun 2"
@@ -629,6 +629,12 @@
      "Back to the Future",
      "BTTF"
     ],
+    "Home Alone",
+    [
+     "Home Alone 2: Lost in New York",
+     "Home Alone 2",
+     "Lost in New York"
+    ],
     [
      "Back to the Future Part II",
      "Back to the Future 2",
@@ -639,11 +645,17 @@
      "Back to the Future 3",
      "Back to the Future Part 3"
     ],
-    "Home Alone",
     [
-     "Home Alone 2: Lost in New York",
-     "Home Alone 2",
-     "Lost in New York"
+     "The Pink Panther",
+     "Pink Panther"
+    ],
+    [
+     "The Return of the Pink Panther",
+     "Return of the Pink Panther"
+    ],
+    [
+     "A Shot in the Dark",
+     "Shot in the Dark"
     ],
     "Home Alone 3",
     [
@@ -658,19 +670,7 @@
      "Home Alone 5"
     ],
     "Home Sweet Home Alone",
-    [
-     "The Pink Panther",
-     "Pink Panther"
-    ],
-    [
-     "A Shot in the Dark",
-     "Shot in the Dark"
-    ],
     "Inspector Clouseau",
-    [
-     "The Return of the Pink Panther",
-     "Return of the Pink Panther"
-    ],
     [
      "The Pink Panther Strikes Again",
      "Pink Panther Strikes Again"
@@ -698,11 +698,47 @@
    ],
    "text": "Name a film from the Police Academy, Austin Powers, Hangover or Meet the Parents series (up to 2025)",
    "answers": [
+    [
+     "Austin Powers: International Man of Mystery",
+     "International Man of Mystery",
+     "Austin Powers",
+     "Austin Powers 1"
+    ],
+    [
+     "The Hangover",
+     "Hangover"
+    ],
+    "Meet the Parents",
+    [
+     "Austin Powers: The Spy Who Shagged Me",
+     "The Spy Who Shagged Me",
+     "Spy Who Shagged Me",
+     "Austin Powers 2"
+    ],
     "Police Academy",
+    "Meet the Fockers",
+    [
+     "Austin Powers in Goldmember",
+     "Goldmember",
+     "Austin Powers 3"
+    ],
+    [
+     "The Hangover Part II",
+     "Hangover Part II",
+     "Hangover 2",
+     "The Hangover 2"
+    ],
     [
      "Police Academy 2: Their First Assignment",
      "Police Academy 2",
      "Their First Assignment"
+    ],
+    "Little Fockers",
+    [
+     "The Hangover Part III",
+     "Hangover Part III",
+     "Hangover 3",
+     "The Hangover 3"
     ],
     [
      "Police Academy 3: Back in Training",
@@ -728,43 +764,7 @@
      "Police Academy: Mission to Moscow",
      "Police Academy 7",
      "Mission to Moscow"
-    ],
-    [
-     "Austin Powers: International Man of Mystery",
-     "International Man of Mystery",
-     "Austin Powers",
-     "Austin Powers 1"
-    ],
-    [
-     "Austin Powers: The Spy Who Shagged Me",
-     "The Spy Who Shagged Me",
-     "Spy Who Shagged Me",
-     "Austin Powers 2"
-    ],
-    [
-     "Austin Powers in Goldmember",
-     "Goldmember",
-     "Austin Powers 3"
-    ],
-    [
-     "The Hangover",
-     "Hangover"
-    ],
-    [
-     "The Hangover Part II",
-     "Hangover Part II",
-     "Hangover 2",
-     "The Hangover 2"
-    ],
-    [
-     "The Hangover Part III",
-     "Hangover Part III",
-     "Hangover 3",
-     "The Hangover 3"
-    ],
-    "Meet the Parents",
-    "Meet the Fockers",
-    "Little Fockers"
+    ]
    ]
   },
   {
@@ -853,20 +853,39 @@
    ],
    "text": "Name a live-action cinema film with Batman or Superman as the lead (up to 2025)",
    "answers": [
-    "Batman Returns",
-    "Batman Forever",
-    [
-     "Batman & Robin",
-     "Batman and Robin"
-    ],
-    "Batman Begins",
     [
      "The Dark Knight",
      "Dark Knight"
     ],
+    "Batman Begins",
+    [
+     "Superman",
+     "Superman 1978",
+     "Superman (1978)",
+     "Superman The Movie",
+     "Superman: The Movie"
+    ],
+    [
+     "Batman",
+     "Batman 1989",
+     "Batman (1989)",
+     "Tim Burton Batman"
+    ],
+    "Man of Steel",
     [
      "The Dark Knight Rises",
      "Dark Knight Rises"
+    ],
+    [
+     "The Batman (2022)",
+     "Batman 2022",
+     "Matt Reeves Batman",
+     "Robert Pattinson Batman"
+    ],
+    "Batman Returns",
+    [
+     "Superman (2025)",
+     "James Gunn Superman"
     ],
     [
      "Batman v Superman: Dawn of Justice",
@@ -878,6 +897,12 @@
      "Superman II",
      "Superman 2"
     ],
+    "Batman Forever",
+    [
+     "Batman & Robin",
+     "Batman and Robin"
+    ],
+    "Superman Returns",
     [
      "Superman III",
      "Superman 3"
@@ -888,39 +913,14 @@
      "Superman 4",
      "The Quest for Peace"
     ],
-    "Superman Returns",
-    "Man of Steel",
     [
      "Superman and the Mole Men",
      "Mole Men"
     ],
     [
-     "Batman",
-     "Batman 1989",
-     "Batman (1989)",
-     "Tim Burton Batman"
-    ],
-    [
      "Batman: The Movie",
      "Batman 1966",
      "Batman (1966)"
-    ],
-    [
-     "The Batman (2022)",
-     "Batman 2022",
-     "Matt Reeves Batman",
-     "Robert Pattinson Batman"
-    ],
-    [
-     "Superman",
-     "Superman 1978",
-     "Superman (1978)",
-     "Superman The Movie",
-     "Superman: The Movie"
-    ],
-    [
-     "Superman (2025)",
-     "James Gunn Superman"
     ]
    ]
   },

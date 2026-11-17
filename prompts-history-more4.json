@@ -344,21 +344,26 @@
      "Olympic Games",
      "Olympics"
     ],
-    [
-     "Pythian Games",
-     "Pythia"
-    ],
-    "Isthmian Games",
-    "Nemean Games",
+    "Saturnalia",
+    "Lupercalia",
     [
      "Panathenaea",
      "Panathenaia",
      "Panathenaic Games"
     ],
-    "Saturnalia",
-    "Lupercalia",
-    "Floralia",
+    [
+     "Pythian Games",
+     "Pythia"
+    ],
+    "Nemean Games",
+    "Isthmian Games",
     "Bacchanalia",
+    "Floralia",
+    [
+     "Dionysia",
+     "Great Dionysia",
+     "City Dionysia"
+    ],
     "Vestalia",
     "Parilia",
     "Compitalia",
@@ -366,11 +371,6 @@
     [
      "Eleusinian Mysteries",
      "Eleusinia"
-    ],
-    [
-     "Dionysia",
-     "Great Dionysia",
-     "City Dionysia"
     ],
     "Thesmophoria",
     "Anthesteria",
@@ -489,25 +489,25 @@
    ],
    "text": "Name an ancient city or archaeological site of Mesoamerica, North America or the Andes",
    "answers": [
-    "Tikal",
+    "Machu Picchu",
     "Chichen Itza",
     "Teotihuacan",
-    "Machu Picchu",
-    "Palenque",
-    "Copán",
-    "Uxmal",
-    "Tulum",
+    "Tikal",
     "Tenochtitlan",
-    "Monte Albán",
     [
      "Cusco",
      "Cuzco"
     ],
-    "Chan Chan",
+    "Tulum",
+    "Palenque",
+    "Uxmal",
     [
      "Nazca",
      "Nasca"
     ],
+    "Copán",
+    "Monte Albán",
+    "Chan Chan",
     [
      "Tiwanaku",
      "Tiahuanaco"
@@ -569,7 +569,16 @@
      "Ancient Greek",
      "Greek"
     ],
+    [
+     "Hieroglyphs",
+     "Hieroglyphics"
+    ],
+    [
+     "Ancient Egyptian",
+     "Egyptian"
+    ],
     "Sanskrit",
+    "Cuneiform",
     [
      "Biblical Hebrew",
      "Hebrew"
@@ -577,18 +586,9 @@
     "Aramaic",
     "Akkadian",
     "Sumerian",
-    [
-     "Ancient Egyptian",
-     "Egyptian"
-    ],
-    [
-     "Hieroglyphs",
-     "Hieroglyphics"
-    ],
-    "Linear A",
     "Linear B",
-    "Cuneiform",
     "Phoenician",
+    "Linear A",
     "Etruscan",
     "Coptic",
     "Hittite",
@@ -743,8 +743,29 @@
      "Avro Lancaster"
     ],
     [
+     "Messerschmitt Bf 109",
+     "Bf 109",
+     "Me 109",
+     "Messerschmitt 109"
+    ],
+    [
      "Mosquito",
      "de Havilland Mosquito"
+    ],
+    [
+     "Stuka",
+     "Junkers Ju 87",
+     "Ju 87"
+    ],
+    [
+     "B-17 Flying Fortress",
+     "B-17",
+     "Flying Fortress"
+    ],
+    [
+     "P-51 Mustang",
+     "P-51",
+     "Mustang"
     ],
     [
      "Wellington",
@@ -761,6 +782,10 @@
     [
      "Typhoon",
      "Hawker Typhoon"
+    ],
+    [
+     "Swordfish",
+     "Fairey Swordfish"
     ],
     [
      "Tempest",
@@ -783,18 +808,8 @@
      "Bristol Beaufighter"
     ],
     [
-     "Swordfish",
-     "Fairey Swordfish"
-    ],
-    [
      "Meteor",
      "Gloster Meteor"
-    ],
-    [
-     "Messerschmitt Bf 109",
-     "Bf 109",
-     "Me 109",
-     "Messerschmitt 109"
     ],
     [
      "Messerschmitt Bf 110",
@@ -804,11 +819,6 @@
     [
      "Messerschmitt Me 262",
      "Me 262"
-    ],
-    [
-     "Stuka",
-     "Junkers Ju 87",
-     "Ju 87"
     ],
     [
      "Heinkel He 111",
@@ -830,11 +840,6 @@
      "Ju 88"
     ],
     [
-     "B-17 Flying Fortress",
-     "B-17",
-     "Flying Fortress"
-    ],
-    [
      "B-24 Liberator",
      "B-24",
      "Liberator"
@@ -843,11 +848,6 @@
      "B-29 Superfortress",
      "B-29",
      "Superfortress"
-    ],
-    [
-     "P-51 Mustang",
-     "P-51",
-     "Mustang"
     ],
     [
      "P-47 Thunderbolt",
@@ -1054,20 +1054,29 @@
      "Tiger 1"
     ],
     [
-     "King Tiger",
-     "Tiger II",
-     "Royal Tiger",
-     "Königstiger"
+     "Sherman",
+     "M4 Sherman"
+    ],
+    [
+     "Panzer IV",
+     "Panzer 4"
     ],
     [
      "Panther",
      "Panzer V",
      "Panzer 5"
     ],
+    "T-34",
+    "Churchill",
     [
-     "Panzer IV",
-     "Panzer 4"
+     "King Tiger",
+     "Tiger II",
+     "Royal Tiger",
+     "Königstiger"
     ],
+    "Cromwell",
+    "Matilda",
+    "Valentine",
     [
      "Panzer III",
      "Panzer 3"
@@ -1080,17 +1089,9 @@
      "Panzer I",
      "Panzer 1"
     ],
-    [
-     "Sherman",
-     "M4 Sherman"
-    ],
-    "Churchill",
-    "Cromwell",
     "Comet",
     "Challenger",
     "Crusader",
-    "Matilda",
-    "Valentine",
     "Covenanter",
     "Centaur",
     "Tetrarch",
@@ -1122,7 +1123,6 @@
      "Wolverine",
      "M10"
     ],
-    "T-34",
     [
      "KV-1",
      "Kliment Voroshilov"
@@ -1452,30 +1452,30 @@
    "text": "Name a country or territory occupied by Nazi Germany during the Second World War",
    "answers": [
     "Poland",
+    "France",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "Belgium",
+    "Denmark",
+    "Norway",
     [
      "Czechoslovakia",
      "Czech Republic",
      "Czechia",
      "Bohemia and Moravia"
     ],
-    "Denmark",
-    "Norway",
-    [
-     "Netherlands",
-     "Holland"
-    ],
-    "Belgium",
+    "Greece",
     "Luxembourg",
-    "France",
     [
      "Yugoslavia",
      "Serbia"
     ],
+    "Italy",
     "Slovenia",
-    "Greece",
     "Albania",
     "Hungary",
-    "Italy",
     "Lithuania",
     "Latvia",
     "Estonia",
@@ -1790,28 +1790,31 @@
    "text": "Name an engineer, inventor or industrialist of the British Industrial Revolution (about 1700 to 1850)",
    "answers": [
     [
+     "Isambard Kingdom Brunel",
+     "Brunel",
+     "IK Brunel"
+    ],
+    [
      "James Watt",
      "Watt"
+    ],
+    [
+     "George Stephenson",
+     "Stephenson"
     ],
     [
      "Richard Arkwright",
      "Arkwright"
     ],
     [
-     "George Stephenson",
-     "Stephenson"
+     "Richard Trevithick",
+     "Trevithick"
     ],
-    "Robert Stephenson",
-    [
-     "Isambard Kingdom Brunel",
-     "Brunel",
-     "IK Brunel"
-    ],
-    "Marc Brunel",
     [
      "Thomas Telford",
      "Telford"
     ],
+    "Robert Stephenson",
     [
      "James Hargreaves",
      "Hargreaves"
@@ -1824,10 +1827,7 @@
      "Thomas Newcomen",
      "Newcomen"
     ],
-    [
-     "Richard Trevithick",
-     "Trevithick"
-    ],
+    "Marc Brunel",
     [
      "Matthew Boulton",
      "Boulton"
@@ -2783,9 +2783,9 @@
    "text": "Name a legendary or mythical place, land or realm from myth, folklore or legend",
    "answers": [
     "Atlantis",
+    "Camelot",
     "El Dorado",
     "Shangri-La",
-    "Camelot",
     "Avalon",
     [
      "Eden",

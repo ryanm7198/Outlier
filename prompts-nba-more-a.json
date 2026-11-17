@@ -290,18 +290,9 @@
    "text": "Name a player with 7,000 or more career NBA regular-season assists (as of November 2026)",
    "answers": [
     [
-     "John Stockton",
-     "Stockton"
-    ],
-    [
      "Chris Paul",
      "Paul",
      "CP3"
-    ],
-    [
-     "Jason Kidd",
-     "Kidd",
-     "J Kidd"
     ],
     [
      "LeBron James",
@@ -310,23 +301,33 @@
      "King James"
     ],
     [
-     "Russell Westbrook",
-     "Westbrook",
-     "Russ"
+     "John Stockton",
+     "Stockton"
     ],
     [
-     "Steve Nash",
-     "Nash"
-    ],
-    [
-     "Mark Jackson",
-     "Jackson"
+     "Jason Kidd",
+     "Kidd",
+     "J Kidd"
     ],
     [
      "Magic Johnson",
      "Johnson",
      "Magic",
      "Earvin Johnson"
+    ],
+    [
+     "Steve Nash",
+     "Nash"
+    ],
+    [
+     "Russell Westbrook",
+     "Westbrook",
+     "Russ"
+    ],
+    [
+     "James Harden",
+     "Harden",
+     "The Beard"
     ],
     [
      "Oscar Robertson",
@@ -343,9 +344,8 @@
      "Payton"
     ],
     [
-     "James Harden",
-     "Harden",
-     "The Beard"
+     "Mark Jackson",
+     "Jackson"
     ],
     [
      "Andre Miller",
@@ -514,23 +514,22 @@
      "Alcindor"
     ],
     [
-     "Elvin Hayes",
-     "Hayes"
-    ],
-    "Moses Malone",
-    [
      "Tim Duncan",
      "Duncan",
      "Timmy"
     ],
     [
-     "Karl Malone",
-     "The Mailman",
-     "Malone"
+     "Shaquille O'Neal",
+     "O'Neal",
+     "Shaq",
+     "Shaquille"
     ],
     [
-     "Robert Parish",
-     "Parish"
+     "Hakeem Olajuwon",
+     "Olajuwon",
+     "Hakeem",
+     "Akeem Olajuwon",
+     "The Dream"
     ],
     [
      "Kevin Garnett",
@@ -538,8 +537,33 @@
      "KG"
     ],
     [
+     "Karl Malone",
+     "The Mailman",
+     "Malone"
+    ],
+    [
+     "Charles Barkley",
+     "Barkley",
+     "Sir Charles"
+    ],
+    [
+     "LeBron James",
+     "James",
+     "LeBron",
+     "King James"
+    ],
+    [
      "Dwight Howard",
      "Howard"
+    ],
+    "Moses Malone",
+    [
+     "Elvin Hayes",
+     "Hayes"
+    ],
+    [
+     "Robert Parish",
+     "Parish"
     ],
     [
      "Nate Thurmond",
@@ -554,19 +578,6 @@
      "Unseld"
     ],
     [
-     "Hakeem Olajuwon",
-     "Olajuwon",
-     "Hakeem",
-     "Akeem Olajuwon",
-     "The Dream"
-    ],
-    [
-     "Shaquille O'Neal",
-     "O'Neal",
-     "Shaq",
-     "Shaquille"
-    ],
-    [
      "Buck Williams",
      "Williams"
     ],
@@ -579,11 +590,6 @@
      "Pettit"
     ],
     [
-     "Charles Barkley",
-     "Barkley",
-     "Sir Charles"
-    ],
-    [
      "Dikembe Mutombo",
      "Mutombo"
     ],
@@ -594,12 +600,6 @@
     [
      "Charles Oakley",
      "Oakley"
-    ],
-    [
-     "LeBron James",
-     "James",
-     "LeBron",
-     "King James"
     ]
    ],
    "eraText": "Name a player with 12,000 or more career NBA rebounds who played in the {era}",
@@ -907,6 +907,12 @@
    "text": "Name a player with 1,800 or more career NBA regular-season steals (as of November 2026)",
    "answers": [
     [
+     "Michael Jordan",
+     "Jordan",
+     "MJ",
+     "Mike Jordan"
+    ],
+    [
      "John Stockton",
      "Stockton"
     ],
@@ -921,32 +927,29 @@
      "J Kidd"
     ],
     [
-     "Michael Jordan",
-     "Jordan",
-     "MJ",
-     "Mike Jordan"
-    ],
-    [
-     "Gary Payton",
-     "Payton"
-    ],
-    [
      "LeBron James",
      "James",
      "LeBron",
      "King James"
     ],
     [
-     "Maurice Cheeks",
-     "Cheeks"
+     "Kobe Bryant",
+     "Bryant",
+     "Kobe",
+     "Black Mamba"
+    ],
+    [
+     "Allen Iverson",
+     "Iverson",
+     "AI"
     ],
     [
      "Scottie Pippen",
      "Pippen"
     ],
     [
-     "Clyde Drexler",
-     "Drexler"
+     "Gary Payton",
+     "Payton"
     ],
     [
      "Hakeem Olajuwon",
@@ -954,6 +957,14 @@
      "Hakeem",
      "Akeem Olajuwon",
      "The Dream"
+    ],
+    [
+     "Maurice Cheeks",
+     "Cheeks"
+    ],
+    [
+     "Clyde Drexler",
+     "Drexler"
     ],
     [
      "Alvin Robertson",
@@ -974,19 +985,8 @@
      "Russ"
     ],
     [
-     "Allen Iverson",
-     "Iverson",
-     "AI"
-    ],
-    [
      "Derek Harper",
      "Harper"
-    ],
-    [
-     "Kobe Bryant",
-     "Bryant",
-     "Kobe",
-     "Black Mamba"
     ],
     [
      "Isiah Thomas",
@@ -1111,17 +1111,6 @@
    "text": "Name a player with 1,500 or more career NBA regular-season blocks (as of November 2026)",
    "answers": [
     [
-     "Hakeem Olajuwon",
-     "Olajuwon",
-     "Hakeem",
-     "Akeem Olajuwon",
-     "The Dream"
-    ],
-    [
-     "Dikembe Mutombo",
-     "Mutombo"
-    ],
-    [
      "Kareem Abdul-Jabbar",
      "Abdul-Jabbar",
      "Kareem",
@@ -1129,8 +1118,17 @@
      "Alcindor"
     ],
     [
-     "Mark Eaton",
-     "Eaton"
+     "Hakeem Olajuwon",
+     "Olajuwon",
+     "Hakeem",
+     "Akeem Olajuwon",
+     "The Dream"
+    ],
+    [
+     "Shaquille O'Neal",
+     "Shaq",
+     "O'Neal",
+     "Shaquille"
     ],
     [
      "Tim Duncan",
@@ -1142,14 +1140,34 @@
      "Robinson"
     ],
     [
+     "Dikembe Mutombo",
+     "Mutombo"
+    ],
+    [
      "Patrick Ewing",
      "Ewing"
     ],
     [
-     "Shaquille O'Neal",
-     "Shaq",
-     "O'Neal",
-     "Shaquille"
+     "Alonzo Mourning",
+     "Mourning"
+    ],
+    [
+     "Kevin Garnett",
+     "Garnett",
+     "KG"
+    ],
+    [
+     "Dwight Howard",
+     "Howard"
+    ],
+    [
+     "Anthony Davis",
+     "Davis",
+     "AD"
+    ],
+    [
+     "Mark Eaton",
+     "Eaton"
     ],
     [
      "Tree Rollins",
@@ -1160,16 +1178,8 @@
      "Parish"
     ],
     [
-     "Alonzo Mourning",
-     "Mourning"
-    ],
-    [
      "Marcus Camby",
      "Camby"
-    ],
-    [
-     "Dwight Howard",
-     "Howard"
     ],
     [
      "Brook Lopez",
@@ -1192,11 +1202,6 @@
      "Johnson"
     ],
     [
-     "Kevin Garnett",
-     "Garnett",
-     "KG"
-    ],
-    [
      "Larry Nance",
      "Nance"
     ],
@@ -1207,11 +1212,6 @@
     [
      "Pau Gasol",
      "Gasol"
-    ],
-    [
-     "Anthony Davis",
-     "Davis",
-     "AD"
     ],
     [
      "Rudy Gobert",
@@ -1804,27 +1804,6 @@
    "text": "Name a player with 21 or more career NBA regular-season triple-doubles (as of November 2026)",
    "answers": [
     [
-     "Russell Westbrook",
-     "Westbrook",
-     "Russ"
-    ],
-    [
-     "Luka Dončić",
-     "Luka Doncic",
-     "Luka",
-     "Doncic",
-     "Dončić"
-    ],
-    [
-     "James Harden",
-     "Harden"
-    ],
-    [
-     "Nikola Jokić",
-     "Jokić",
-     "Joker"
-    ],
-    [
      "LeBron James",
      "James",
      "LeBron",
@@ -1837,10 +1816,25 @@
      "Earvin Johnson"
     ],
     [
-     "Oscar Robertson",
-     "Robertson",
-     "Big O",
-     "The Big O"
+     "Russell Westbrook",
+     "Westbrook",
+     "Russ"
+    ],
+    [
+     "Nikola Jokić",
+     "Jokić",
+     "Joker"
+    ],
+    [
+     "Luka Dončić",
+     "Luka Doncic",
+     "Luka",
+     "Doncic",
+     "Dončić"
+    ],
+    [
+     "James Harden",
+     "Harden"
     ],
     [
      "Jason Kidd",
@@ -1858,6 +1852,24 @@
      "Bird"
     ],
     [
+     "Michael Jordan",
+     "Jordan",
+     "MJ",
+     "Mike Jordan"
+    ],
+    [
+     "Kobe Bryant",
+     "Bryant",
+     "Kobe",
+     "Black Mamba"
+    ],
+    [
+     "Oscar Robertson",
+     "Robertson",
+     "Big O",
+     "The Big O"
+    ],
+    [
      "Draymond Green",
      "Green",
      "Draymond"
@@ -1867,20 +1879,8 @@
      "Simmons"
     ],
     [
-     "Michael Jordan",
-     "Jordan",
-     "MJ",
-     "Mike Jordan"
-    ],
-    [
      "Domantas Sabonis",
      "Sabonis"
-    ],
-    [
-     "Kobe Bryant",
-     "Bryant",
-     "Kobe",
-     "Black Mamba"
     ],
     [
      "Josh Giddey",
@@ -2803,13 +2803,13 @@
    "text": "Name a French player who has played in the NBA",
    "answers": [
     [
-     "Tony Parker",
-     "Parker"
-    ],
-    [
      "Victor Wembanyama",
      "Wembanyama",
      "Wemby"
+    ],
+    [
+     "Tony Parker",
+     "Parker"
     ],
     [
      "Rudy Gobert",
@@ -2820,12 +2820,16 @@
      "Batum"
     ],
     [
+     "Boris Diaw",
+     "Diaw"
+    ],
+    [
      "Evan Fournier",
      "Fournier"
     ],
     [
-     "Boris Diaw",
-     "Diaw"
+     "Joakim Noah",
+     "Noah"
     ],
     [
      "Frank Ntilikina",
@@ -3016,10 +3020,6 @@
     [
      "Killian Hayes",
      "Hayes"
-    ],
-    [
-     "Joakim Noah",
-     "Noah"
     ]
    ],
    "eraText": "Name a French player who played in the NBA in the {era}",
@@ -3698,12 +3698,12 @@
    "text": "Name an Australian player who has played in the NBA",
    "answers": [
     [
-     "Patty Mills",
-     "Mills"
-    ],
-    [
      "Ben Simmons",
      "Simmons"
+    ],
+    [
+     "Patty Mills",
+     "Mills"
     ],
     [
      "Andrew Bogut",
@@ -3714,16 +3714,16 @@
      "Ingles"
     ],
     [
+     "Josh Giddey",
+     "Giddey"
+    ],
+    [
      "Matthew Dellavedova",
      "Dellavedova"
     ],
     [
      "Luc Longley",
      "Longley"
-    ],
-    [
-     "Josh Giddey",
-     "Giddey"
     ],
     [
      "Dante Exum",

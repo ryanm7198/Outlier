@@ -9,6 +9,10 @@
    "text": "Name a player drafted in the 2024 NBA draft (selected, whether or not they ever played)",
    "answers": [
     [
+     "Bronny James",
+     "James"
+    ],
+    [
      "Zaccharie Risacher",
      "Risacher"
     ],
@@ -25,28 +29,24 @@
      "Castle"
     ],
     [
-     "Bronny James",
-     "James"
-    ],
-    [
      "Zach Edey",
      "Edey"
-    ],
-    [
-     "Dalton Knecht",
-     "Knecht"
-    ],
-    [
-     "Matas Buzelis",
-     "Buzelis"
     ],
     [
      "Donovan Clingan",
      "Clingan"
     ],
     [
+     "Dalton Knecht",
+     "Knecht"
+    ],
+    [
      "Rob Dillingham",
      "Dillingham"
+    ],
+    [
+     "Matas Buzelis",
+     "Buzelis"
     ],
     [
      "Jared McCain",
@@ -4191,9 +4191,10 @@
    "text": "Name a player who is the all-time leading scorer for an NBA franchise (as listed on Wikipedia, November 2026)",
    "answers": [
     [
-     "Kobe Bryant",
-     "Kobe",
-     "Bryant"
+     "LeBron James",
+     "LeBron",
+     "King James",
+     "James"
     ],
     [
      "Michael Jordan",
@@ -4202,25 +4203,9 @@
      "Jordan"
     ],
     [
-     "Karl Malone",
-     "The Mailman",
-     "Malone"
-    ],
-    [
-     "Dirk Nowitzki",
-     "Dirk",
-     "Nowitzki"
-    ],
-    [
-     "Tim Duncan",
-     "Timmy",
-     "Duncan"
-    ],
-    [
-     "LeBron James",
-     "LeBron",
-     "King James",
-     "James"
+     "Kobe Bryant",
+     "Kobe",
+     "Bryant"
     ],
     [
      "Stephen Curry",
@@ -4229,10 +4214,29 @@
      "Curry"
     ],
     [
+     "Tim Duncan",
+     "Timmy",
+     "Duncan"
+    ],
+    [
+     "Dirk Nowitzki",
+     "Dirk",
+     "Nowitzki"
+    ],
+    [
+     "Karl Malone",
+     "The Mailman",
+     "Malone"
+    ],
+    [
      "Dwyane Wade",
      "D-Wade",
      "Flash",
      "Wade"
+    ],
+    [
+     "Kevin Garnett",
+     "Garnett"
     ],
     [
      "Hakeem Olajuwon",
@@ -4246,18 +4250,14 @@
      "Ewing"
     ],
     [
-     "Kevin Garnett",
-     "Garnett"
-    ],
-    [
-     "Reggie Miller",
-     "Miller"
-    ],
-    [
      "Giannis Antetokounmpo",
      "Giannis",
      "Greek Freak",
      "Antetokounmpo"
+    ],
+    [
+     "Reggie Miller",
+     "Miller"
     ],
     [
      "Russell Westbrook",

@@ -1106,8 +1106,10 @@
      "Saints"
     ],
     [
-     "Blackburn Rovers",
-     "Blackburn"
+     "Sheffield United",
+     "Sheff Utd",
+     "Sheffield Utd",
+     "Sheff United"
     ],
     [
      "Middlesbrough",
@@ -1118,20 +1120,18 @@
      "Norwich"
     ],
     [
-     "Sheffield United",
-     "Sheff Utd",
-     "Sheffield Utd",
-     "Sheff United"
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Derby County",
+     "Derby"
     ],
     [
      "Sheffield Wednesday",
      "Sheff Wed",
      "Sheffield Wed",
      "Wednesday"
-    ],
-    [
-     "Derby County",
-     "Derby"
     ],
     [
      "Birmingham City",
@@ -1142,14 +1142,16 @@
      "Stoke City",
      "Stoke"
     ],
+    "Watford",
+    "Wrexham",
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
     [
      "West Bromwich Albion",
      "West Brom",
      "WBA"
-    ],
-    [
-     "Ipswich Town",
-     "Ipswich"
     ],
     [
      "Coventry City",
@@ -1163,7 +1165,6 @@
      "Hull City",
      "Hull"
     ],
-    "Watford",
     [
      "Portsmouth",
      "Pompey"
@@ -1177,7 +1178,6 @@
      "Queens Park Rangers",
      "QPR"
     ],
-    "Wrexham",
     [
      "Charlton Athletic",
      "Charlton"
@@ -1289,15 +1289,40 @@
    ],
    "text": "Name a club that played in League Two in 2025-26",
    "answers": [
-    [
-     "Bristol Rovers",
-     "Gas"
-    ],
     "Notts County",
+    [
+     "Salford City",
+     "Salford"
+    ],
     [
      "Milton Keynes Dons",
      "MK Dons"
     ],
+    [
+     "Swindon Town",
+     "Swindon"
+    ],
+    [
+     "Grimsby Town",
+     "Grimsby"
+    ],
+    [
+     "Bristol Rovers",
+     "Gas"
+    ],
+    [
+     "Crewe Alexandra",
+     "Crewe"
+    ],
+    [
+     "Tranmere Rovers",
+     "Tranmere"
+    ],
+    [
+     "Cheltenham Town",
+     "Cheltenham"
+    ],
+    "Walsall",
     [
      "Cambridge United",
      "Cambridge"
@@ -1309,10 +1334,6 @@
     ],
     "Barnet",
     "Barrow",
-    [
-     "Cheltenham Town",
-     "Cheltenham"
-    ],
     "Chesterfield",
     [
      "Colchester United",
@@ -1323,18 +1344,10 @@
      "Crawley"
     ],
     [
-     "Crewe Alexandra",
-     "Crewe"
-    ],
-    [
      "Fleetwood Town",
      "Fleetwood"
     ],
     "Gillingham",
-    [
-     "Grimsby Town",
-     "Grimsby"
-    ],
     [
      "Harrogate Town",
      "Harrogate"
@@ -1348,22 +1361,9 @@
      "Oldham"
     ],
     [
-     "Salford City",
-     "Salford"
-    ],
-    [
      "Shrewsbury Town",
      "Shrewsbury"
-    ],
-    [
-     "Swindon Town",
-     "Swindon"
-    ],
-    [
-     "Tranmere Rovers",
-     "Tranmere"
-    ],
-    "Walsall"
+    ]
    ]
   },
   {
@@ -2348,12 +2348,16 @@
    "text": "Name a player in Italy's 22-man squad for the 1970 World Cup",
    "answers": [
     [
+     "Gigi Riva",
+     "Riva"
+    ],
+    [
      "Gianni Rivera",
      "Rivera"
     ],
     [
-     "Gigi Riva",
-     "Riva"
+     "Dino Zoff",
+     "Zoff"
     ],
     [
      "Sandro Mazzola",
@@ -2362,10 +2366,6 @@
     [
      "Giacinto Facchetti",
      "Facchetti"
-    ],
-    [
-     "Dino Zoff",
-     "Zoff"
     ],
     [
      "Tarcisio Burgnich",
@@ -2835,12 +2835,24 @@
    "text": "Name a player in the matchday squad for the 1976 FA Cup final, Southampton v Man Utd",
    "answers": [
     [
-     "Lou Macari",
-     "Macari"
+     "Peter Osgood",
+     "Osgood"
+    ],
+    [
+     "Mick Channon",
+     "Channon"
     ],
     [
      "Alex Stepney",
      "Stepney"
+    ],
+    [
+     "Steve Coppell",
+     "Coppell"
+    ],
+    [
+     "Lou Macari",
+     "Macari"
     ],
     [
      "Martin Buchan",
@@ -2851,16 +2863,8 @@
      "Hill"
     ],
     [
-     "Steve Coppell",
-     "Coppell"
-    ],
-    [
-     "Peter Osgood",
-     "Osgood"
-    ],
-    [
-     "Mick Channon",
-     "Channon"
+     "Sammy McIlroy",
+     "McIlroy"
     ],
     [
      "Jim McCalliog",
@@ -2869,10 +2873,6 @@
     [
      "Bobby Stokes",
      "Stokes"
-    ],
-    [
-     "Sammy McIlroy",
-     "McIlroy"
     ],
     [
      "Stuart Pearson",

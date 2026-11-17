@@ -1663,9 +1663,10 @@
    ],
    "text": "Name a mob that spawns in the Nether in Minecraft, or is closely associated with it",
    "answers": [
-    "Piglin",
     "Ghast",
     "Blaze",
+    "Piglin",
+    "Enderman",
     [
      "Zombified Piglin",
      "Zombie Pigman",
@@ -1673,12 +1674,11 @@
      "Zombified Pigman",
      "Pigman"
     ],
-    "Magma Cube",
     "Wither Skeleton",
+    "Magma Cube",
     "Hoglin",
     "Strider",
     "Skeleton",
-    "Enderman",
     "Piglin Brute",
     "Zoglin",
     "Wither",
@@ -2559,28 +2559,6 @@
    "text": "Name a Mortal Kombat video game (including spin-offs and re-releases)",
    "answers": [
     [
-     "Mortal Kombat X",
-     "MKX",
-     "Mortal Kombat 10"
-    ],
-    [
-     "Mortal Kombat 11",
-     "MK11"
-    ],
-    [
-     "Mortal Kombat 1 (2023)",
-     "Mortal Kombat 1",
-     "MK1",
-     "Mortal Kombat 2023"
-    ],
-    [
-     "Mortal Kombat (2011)",
-     "Mortal Kombat 9",
-     "MK9",
-     "Mortal Kombat 2011",
-     "Mortal Kombat Komplete Edition"
-    ],
-    [
      "Mortal Kombat (1992)",
      "Mortal Kombat",
      "Mortal Kombat 1992",
@@ -2592,8 +2570,30 @@
      "MK2"
     ],
     [
+     "Mortal Kombat 11",
+     "MK11"
+    ],
+    [
+     "Mortal Kombat X",
+     "MKX",
+     "Mortal Kombat 10"
+    ],
+    [
+     "Mortal Kombat (2011)",
+     "Mortal Kombat 9",
+     "MK9",
+     "Mortal Kombat 2011",
+     "Mortal Kombat Komplete Edition"
+    ],
+    [
      "Mortal Kombat 3",
      "MK3"
+    ],
+    [
+     "Mortal Kombat 1 (2023)",
+     "Mortal Kombat 1",
+     "MK1",
+     "Mortal Kombat 2023"
     ],
     [
      "Ultimate Mortal Kombat 3",

@@ -454,21 +454,66 @@
      "brent"
     ],
     [
+     "Michael Scott",
+     "michael"
+    ],
+    [
      "Gareth Keenan",
      "gareth"
+    ],
+    [
+     "Dwight Schrute",
+     "dwight"
     ],
     [
      "Tim Canterbury",
      "tim"
     ],
     [
+     "Jim Halpert",
+     "jim"
+    ],
+    [
+     "Pam Beesly",
+     "pam",
+     "pam halpert"
+    ],
+    [
      "Dawn Tinsley",
      "dawn"
+    ],
+    [
+     "Andy Bernard",
+     "andy"
+    ],
+    [
+     "Angela Martin",
+     "angela"
+    ],
+    [
+     "Kevin Malone",
+     "kevin"
     ],
     [
      "Chris Finch",
      "finch",
      "finchy"
+    ],
+    [
+     "Creed Bratton",
+     "creed"
+    ],
+    [
+     "Stanley Hudson",
+     "stanley"
+    ],
+    [
+     "Oscar Martinez",
+     "oscar"
+    ],
+    [
+     "Ryan Howard",
+     "ryan"
     ],
     [
      "Keith Bishop",
@@ -490,47 +535,6 @@
     "Donna",
     "Trudy",
     [
-     "Michael Scott",
-     "michael"
-    ],
-    [
-     "Dwight Schrute",
-     "dwight"
-    ],
-    [
-     "Jim Halpert",
-     "jim"
-    ],
-    [
-     "Pam Beesly",
-     "pam",
-     "pam halpert"
-    ],
-    [
-     "Ryan Howard",
-     "ryan"
-    ],
-    [
-     "Andy Bernard",
-     "andy"
-    ],
-    [
-     "Angela Martin",
-     "angela"
-    ],
-    [
-     "Kevin Malone",
-     "kevin"
-    ],
-    [
-     "Oscar Martinez",
-     "oscar"
-    ],
-    [
-     "Stanley Hudson",
-     "stanley"
-    ],
-    [
      "Phyllis Vance",
      "phyllis",
      "phyllis lapin"
@@ -538,10 +542,6 @@
     [
      "Meredith Palmer",
      "meredith"
-    ],
-    [
-     "Creed Bratton",
-     "creed"
     ],
     [
      "Kelly Kapoor",
@@ -718,35 +718,35 @@
     "Nemo",
     "Marlin",
     "Dory",
+    "Crush",
+    "Squirt",
+    "Bruce",
     "Gill",
+    "Nigel",
+    "Hank",
+    "Destiny",
     "Bloat",
     "Peach",
+    [
+     "Mr Ray",
+     "mr. ray"
+    ],
+    "Darla",
+    "Jacques",
     "Gurgle",
     "Bubbles",
     [
      "Deb",
      "flo"
     ],
-    "Jacques",
-    "Bruce",
     "Anchor",
     "Chum",
-    "Crush",
-    "Squirt",
-    "Nigel",
-    [
-     "Mr Ray",
-     "mr. ray"
-    ],
-    "Darla",
     [
      "Dr Sherman",
      "philip sherman",
      "p. sherman"
     ],
     "Coral",
-    "Hank",
-    "Destiny",
     "Bailey",
     "Becky",
     "Fluke",
@@ -817,6 +817,12 @@
    "text": "Name a TV cartoon series made by Hanna-Barbera (1957 to 2001)",
    "answers": [
     [
+     "Scooby-Doo",
+     "scooby doo",
+     "scooby-doo where are you",
+     "scooby"
+    ],
+    [
      "The Flintstones",
      "flintstones"
     ],
@@ -825,38 +831,32 @@
      "jetsons"
     ],
     [
-     "Scooby-Doo",
-     "scooby doo",
-     "scooby-doo where are you",
-     "scooby"
-    ],
-    [
      "Yogi Bear",
      "the yogi bear show"
     ],
+    "Top Cat",
+    "Wacky Races",
     [
      "Huckleberry Hound",
      "the huckleberry hound show"
     ],
-    "Top Cat",
-    "Wacky Races",
-    "Hong Kong Phooey",
     [
      "Captain Caveman and the Teen Angels",
      "captain caveman"
     ],
-    "Magilla Gorilla",
+    "Hong Kong Phooey",
     [
-     "Quick Draw McGraw",
-     "the quick draw mcgraw show"
+     "The Smurfs",
+     "smurfs"
     ],
     [
      "Dastardly and Muttley in Their Flying Machines",
      "dastardly and muttley"
     ],
+    "Magilla Gorilla",
     [
-     "The Smurfs",
-     "smurfs"
+     "Quick Draw McGraw",
+     "the quick draw mcgraw show"
     ],
     [
      "Josie and the Pussycats",
@@ -1002,14 +1002,24 @@
    ],
    "text": "Name a Cartoon Network original animated series that premiered between 2004 and 2019",
    "answers": [
+    "Ben 10",
     "Adventure Time",
-    "Regular Show",
     [
      "The Amazing World of Gumball",
      "gumball"
     ],
+    "Regular Show",
     "Steven Universe",
-    "Ben 10",
+    [
+     "Foster's Home for Imaginary Friends",
+     "fosters home"
+    ],
+    "We Bare Bears",
+    "Chowder",
+    "Camp Lazlo",
+    "Over the Garden Wall",
+    "Uncle Grandpa",
+    "Clarence",
     [
      "Ben 10: Alien Force",
      "alien force"
@@ -1023,20 +1033,10 @@
      "omniverse"
     ],
     [
-     "Foster's Home for Imaginary Friends",
-     "fosters home"
-    ],
-    "Camp Lazlo",
-    "Chowder",
-    [
      "The Marvelous Misadventures of Flapjack",
      "flapjack"
     ],
     "Generator Rex",
-    "Uncle Grandpa",
-    "Clarence",
-    "We Bare Bears",
-    "Over the Garden Wall",
     "Mighty Magiswords",
     "Craig of the Creek",
     "Infinity Train",
@@ -1073,37 +1073,37 @@
    ],
    "text": "Name an animated TV series made by Disney Television Animation (1985 to 2025)",
    "answers": [
+    "Phineas and Ferb",
     "DuckTales",
+    "Gravity Falls",
+    "Kim Possible",
     [
      "Chip 'n Dale Rescue Rangers",
      "rescue rangers",
      "chip n dale rescue rangers"
     ],
-    "TaleSpin",
     "Darkwing Duck",
+    "TaleSpin",
+    "Recess",
     [
      "Adventures of the Gummi Bears",
      "gummi bears"
     ],
-    "Goof Troop",
-    "Bonkers",
+    "The Owl House",
     "Gargoyles",
+    "Goof Troop",
     "Aladdin",
     [
      "Timon & Pumbaa",
      "timon and pumbaa"
     ],
-    "Recess",
-    "Kim Possible",
-    "Phineas and Ferb",
-    "Gravity Falls",
+    "Amphibia",
+    "Big City Greens",
+    "Bonkers",
     [
      "Star vs. the Forces of Evil",
      "star vs the forces of evil"
     ],
-    "The Owl House",
-    "Amphibia",
-    "Big City Greens",
     "Fish Hooks",
     "Wander Over Yonder",
     [
@@ -1298,29 +1298,22 @@
      "korra"
     ],
     [
-     "Fanboy & Chum Chum",
-     "fanboy and chum chum"
+     "The Loud House",
+     "loud house"
     ],
-    [
-     "T.U.F.F. Puppy",
-     "tuff puppy"
-    ],
-    "Back at the Barnyard",
+    "Teenage Mutant Ninja Turtles",
     [
      "The Penguins of Madagascar",
      "penguins of madagascar"
     ],
     [
-     "Kung Fu Panda: Legends of Awesomeness",
-     "kung fu panda legends of awesomeness"
+     "Fanboy & Chum Chum",
+     "fanboy and chum chum"
     ],
-    "Harvey Beaks",
-    "Breadwinners",
-    "Welcome to the Wayne",
-    "Pig Goat Banana Cricket",
+    "Back at the Barnyard",
     [
-     "The Loud House",
-     "loud house"
+     "T.U.F.F. Puppy",
+     "tuff puppy"
     ],
     [
      "The Casagrandes",
@@ -1330,19 +1323,26 @@
      "Rise of the Teenage Mutant Ninja Turtles",
      "rise of the tmnt"
     ],
-    "Teenage Mutant Ninja Turtles",
-    "Middlemost Post",
-    "Sanjay and Craig",
-    "Monsters vs. Aliens",
-    "Bunsen Is a Beast",
+    [
+     "The Patrick Star Show",
+     "patrick star show"
+    ],
     [
      "Kamp Koral: SpongeBob's Under Years",
      "kamp koral"
     ],
     [
-     "The Patrick Star Show",
-     "patrick star show"
+     "Kung Fu Panda: Legends of Awesomeness",
+     "kung fu panda legends of awesomeness"
     ],
+    "Harvey Beaks",
+    "Breadwinners",
+    "Welcome to the Wayne",
+    "Pig Goat Banana Cricket",
+    "Middlemost Post",
+    "Sanjay and Craig",
+    "Monsters vs. Aliens",
+    "Bunsen Is a Beast",
     "Catscratch",
     "The X's",
     "Planet Sheen"

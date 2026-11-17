@@ -8,18 +8,18 @@
    ],
    "text": "Name a Bug-type Pokémon from the original 151 (including dual types)",
    "answers": [
-    "Caterpie",
-    "Metapod",
     "Butterfree",
-    "Weedle",
-    "Kakuna",
-    "Beedrill",
-    "Paras",
-    "Parasect",
-    "Venonat",
-    "Venomoth",
+    "Caterpie",
     "Scyther",
-    "Pinsir"
+    "Beedrill",
+    "Pinsir",
+    "Weedle",
+    "Paras",
+    "Venonat",
+    "Metapod",
+    "Kakuna",
+    "Parasect",
+    "Venomoth"
    ]
   },
   {
@@ -29,15 +29,14 @@
    ],
    "text": "Name a Psychic-type Pokémon from the original 151 (including dual types)",
    "answers": [
-    "Abra",
-    "Kadabra",
+    "Mewtwo",
     "Alakazam",
+    "Abra",
+    "Mew",
+    "Kadabra",
     "Slowpoke",
-    "Slowbro",
     "Drowzee",
     "Hypno",
-    "Exeggcute",
-    "Exeggutor",
     "Starmie",
     [
      "Mr. Mime",
@@ -45,8 +44,9 @@
      "Mime"
     ],
     "Jynx",
-    "Mewtwo",
-    "Mew"
+    "Exeggutor",
+    "Slowbro",
+    "Exeggcute"
    ]
   },
   {
@@ -56,31 +56,32 @@
    ],
    "text": "Name a Pokémon that could Mega Evolve in Pokémon X and Y or Omega Ruby and Alpha Sapphire (2013 to 2014)",
    "answers": [
-    "Venusaur",
     "Charizard",
+    "Mewtwo",
     "Blastoise",
-    "Alakazam",
+    "Venusaur",
+    "Lucario",
     "Gengar",
+    "Blaziken",
+    "Gardevoir",
+    "Garchomp",
+    "Gyarados",
+    "Alakazam",
+    "Rayquaza",
     "Kangaskhan",
     "Pinsir",
-    "Gyarados",
     "Aerodactyl",
-    "Mewtwo",
     "Ampharos",
     "Scizor",
     "Heracross",
     "Houndoom",
     "Tyranitar",
-    "Blaziken",
-    "Gardevoir",
     "Mawile",
     "Aggron",
     "Medicham",
     "Manectric",
     "Banette",
     "Absol",
-    "Garchomp",
-    "Lucario",
     "Abomasnow",
     "Beedrill",
     "Pidgeot",
@@ -97,7 +98,6 @@
     "Metagross",
     "Latias",
     "Latios",
-    "Rayquaza",
     "Lopunny",
     "Gallade",
     "Audino",
@@ -181,6 +181,62 @@
    ],
    "text": "Name a move from the original Pokémon Red and Blue (Generation I)",
    "answers": [
+    "Thunderbolt",
+    "Flamethrower",
+    "Surf",
+    "Tackle",
+    [
+     "Hyper Beam",
+     "hyperbeam"
+    ],
+    "Thunder",
+    "Ember",
+    [
+     "Water Gun",
+     "watergun"
+    ],
+    [
+     "Vine Whip",
+     "vinewhip"
+    ],
+    [
+     "Quick Attack",
+     "quickattack"
+    ],
+    "Scratch",
+    "Growl",
+    [
+     "Tail Whip",
+     "tailwhip"
+    ],
+    "Psychic",
+    "Earthquake",
+    "Fly",
+    "Cut",
+    "Strength",
+    "Splash",
+    [
+     "Hydro Pump",
+     "hydropump"
+    ],
+    [
+     "Body Slam",
+     "bodyslam"
+    ],
+    [
+     "Fire Blast",
+     "fireblast"
+    ],
+    [
+     "Ice Beam",
+     "icebeam"
+    ],
+    "Blizzard",
+    [
+     "Solar Beam",
+     "solarbeam"
+    ],
+    "Bite",
     "Pound",
     [
      "Karate Chop",
@@ -214,7 +270,6 @@
      "Thunder Punch",
      "Thunderpunch"
     ],
-    "Scratch",
     [
      "Vise Grip",
      "Vice Grip"
@@ -228,20 +283,14 @@
      "Swords Dance",
      "swordsdance"
     ],
-    "Cut",
     "Gust",
     [
      "Wing Attack",
      "wingattack"
     ],
     "Whirlwind",
-    "Fly",
     "Bind",
     "Slam",
-    [
-     "Vine Whip",
-     "vinewhip"
-    ],
     "Stomp",
     [
      "Double Kick",
@@ -276,11 +325,6 @@
      "Horn Drill",
      "horndrill"
     ],
-    "Tackle",
-    [
-     "Body Slam",
-     "bodyslam"
-    ],
     "Wrap",
     [
      "Take Down",
@@ -292,10 +336,6 @@
      "Double Edge"
     ],
     [
-     "Tail Whip",
-     "tailwhip"
-    ],
-    [
      "Poison Sting",
      "poisonsting"
     ],
@@ -305,8 +345,6 @@
      "pinmissile"
     ],
     "Leer",
-    "Bite",
-    "Growl",
     "Roar",
     "Sing",
     "Supersonic",
@@ -316,23 +354,7 @@
     ],
     "Disable",
     "Acid",
-    "Ember",
-    "Flamethrower",
     "Mist",
-    [
-     "Water Gun",
-     "watergun"
-    ],
-    [
-     "Hydro Pump",
-     "hydropump"
-    ],
-    "Surf",
-    [
-     "Ice Beam",
-     "icebeam"
-    ],
-    "Blizzard",
     "Psybeam",
     [
      "Bubble Beam",
@@ -341,10 +363,6 @@
     [
      "Aurora Beam",
      "aurorabeam"
-    ],
-    [
-     "Hyper Beam",
-     "hyperbeam"
     ],
     "Peck",
     [
@@ -361,7 +379,6 @@
      "Seismic Toss",
      "seismictoss"
     ],
-    "Strength",
     "Absorb",
     [
      "Mega Drain",
@@ -375,10 +392,6 @@
     [
      "Razor Leaf",
      "razorleaf"
-    ],
-    [
-     "Solar Beam",
-     "solarbeam"
     ],
     [
      "Poison Powder",
@@ -412,29 +425,21 @@
      "Thunder Shock",
      "thundershock"
     ],
-    "Thunderbolt",
     [
      "Thunder Wave",
      "thunderwave"
     ],
-    "Thunder",
     [
      "Rock Throw",
      "rockthrow"
     ],
-    "Earthquake",
     "Fissure",
     "Dig",
     "Toxic",
     "Confusion",
-    "Psychic",
     "Hypnosis",
     "Meditate",
     "Agility",
-    [
-     "Quick Attack",
-     "quickattack"
-    ],
     "Rage",
     "Teleport",
     [
@@ -496,10 +501,6 @@
      "Bone Club",
      "boneclub"
     ],
-    [
-     "Fire Blast",
-     "fireblast"
-    ],
     "Waterfall",
     "Clamp",
     "Swift",
@@ -554,7 +555,6 @@
     "Spore",
     "Flash",
     "Psywave",
-    "Splash",
     [
      "Acid Armor",
      "acidarmor"
@@ -633,17 +633,22 @@
    ],
    "text": "Name an item that makes a Pokémon evolve (such as an evolution stone)",
    "answers": [
-    "Sun Stone",
-    "Moon Stone",
     "Fire Stone",
-    "Thunder Stone",
     "Water Stone",
+    "Thunder Stone",
     "Leaf Stone",
+    "Moon Stone",
+    "Sun Stone",
     "Shiny Stone",
     "Dusk Stone",
     "Dawn Stone",
     "Ice Stone",
     "Dragon Scale",
+    [
+     "King's Rock",
+     "Kings Rock"
+    ],
+    "Metal Coat",
     [
      "Up-Grade",
      "Upgrade",
@@ -657,11 +662,6 @@
     "Prism Scale",
     "Whipped Dream",
     "Sachet",
-    [
-     "King's Rock",
-     "Kings Rock"
-    ],
-    "Metal Coat",
     "Deep Sea Tooth",
     "Deep Sea Scale",
     "Razor Claw",
@@ -690,12 +690,51 @@
    "text": "Name a Pokémon spin-off game (not a main-series Pokémon RPG)",
    "answers": [
     [
+     "Pokémon Go",
+     "Go"
+    ],
+    [
+     "Pokémon Snap",
+     "Snap"
+    ],
+    [
      "Pokémon Stadium",
      "Stadium"
     ],
     [
+     "Pokémon Unite",
+     "Unite"
+    ],
+    [
+     "Pokémon Mystery Dungeon",
+     "Mystery Dungeon"
+    ],
+    "Detective Pikachu",
+    [
+     "Pokémon Pinball",
+     "Pinball"
+    ],
+    "New Pokémon Snap",
+    [
      "Pokémon Colosseum",
      "Colosseum"
+    ],
+    [
+     "Pokkén Tournament",
+     "Pokken"
+    ],
+    [
+     "Pokémon Ranger",
+     "Ranger"
+    ],
+    [
+     "Pokémon Sleep",
+     "Sleep"
+    ],
+    [
+     "Pokémon Masters EX",
+     "Pokemon Masters",
+     "Masters EX"
     ],
     [
      "Pokémon XD: Gale of Darkness",
@@ -703,25 +742,8 @@
      "Gale of Darkness"
     ],
     [
-     "Pokémon Snap",
-     "Snap"
-    ],
-    "New Pokémon Snap",
-    [
-     "Pokémon Mystery Dungeon",
-     "Mystery Dungeon"
-    ],
-    [
-     "Pokémon Ranger",
-     "Ranger"
-    ],
-    [
      "Pokémon Rumble",
      "Rumble"
-    ],
-    [
-     "Pokémon Pinball",
-     "Pinball"
     ],
     [
      "Pokémon Puzzle League",
@@ -734,23 +756,6 @@
     [
      "PokéPark",
      "Pokepark Wii"
-    ],
-    [
-     "Pokkén Tournament",
-     "Pokken"
-    ],
-    [
-     "Pokémon Go",
-     "Go"
-    ],
-    [
-     "Pokémon Masters EX",
-     "Pokemon Masters",
-     "Masters EX"
-    ],
-    [
-     "Pokémon Unite",
-     "Unite"
     ],
     [
      "Pokémon Café Mix",
@@ -774,14 +779,9 @@
      "Duel"
     ],
     [
-     "Pokémon Sleep",
-     "Sleep"
-    ],
-    [
      "Pokémon Channel",
      "Channel"
     ],
-    "Detective Pikachu",
     "Hey You, Pikachu!",
     [
      "Pokémon Dash",
@@ -813,6 +813,33 @@
    ],
    "text": "Name a command you can type in Minecraft (such as /give or /tp)",
    "answers": [
+    "give",
+    [
+     "teleport",
+     "tp"
+    ],
+    "gamemode",
+    "kill",
+    "time",
+    "weather",
+    "summon",
+    "setblock",
+    "fill",
+    "clear",
+    "effect",
+    "enchant",
+    "difficulty",
+    "gamerule",
+    "execute",
+    "clone",
+    "say",
+    "op",
+    "seed",
+    "locate",
+    [
+     "experience",
+     "xp"
+    ],
     "advancement",
     "attribute",
     "ban",
@@ -822,34 +849,18 @@
     ],
     "banlist",
     "bossbar",
-    "clear",
-    "clone",
     "damage",
     "data",
     "datapack",
     "defaultgamemode",
     "deop",
-    "difficulty",
-    "effect",
-    "enchant",
-    "execute",
-    [
-     "experience",
-     "xp"
-    ],
-    "fill",
     "fillbiome",
     "forceload",
     "function",
-    "gamemode",
-    "gamerule",
-    "give",
     "help",
     "item",
     "kick",
-    "kill",
     "list",
-    "locate",
     "loot",
     "me",
     [
@@ -857,7 +868,6 @@
      "tell",
      "w"
     ],
-    "op",
     "pardon",
     "particle",
     "place",
@@ -868,31 +878,21 @@
     "reload",
     "return",
     "ride",
-    "say",
     "schedule",
     "scoreboard",
-    "seed",
-    "setblock",
     "setworldspawn",
     "spawnpoint",
     "spectate",
     "spreadplayers",
     "stop",
     "stopsound",
-    "summon",
     "tag",
     "team",
-    [
-     "teleport",
-     "tp"
-    ],
     "tellraw",
     "tick",
-    "time",
     "title",
     "transfer",
     "trigger",
-    "weather",
     "whitelist",
     "worldborder",
     "jfr",
@@ -931,19 +931,26 @@
      "Education"
     ],
     [
+     "Minecraft Dungeons",
+     "Dungeons"
+    ],
+    [
+     "Minecraft: Story Mode",
+     "Story Mode"
+    ],
+    [
+     "Minecraft Legends",
+     "Legends"
+    ],
+    [
      "Classic",
      "Minecraft Classic"
     ],
     [
-     "Pi Edition",
-     "Raspberry Pi Edition",
-     "Minecraft Pi"
+     "Minecraft Earth",
+     "Earth"
     ],
     "Windows 10 Edition",
-    [
-     "Legacy Console Edition",
-     "Console Edition"
-    ],
     [
      "Nintendo Switch Edition",
      "Switch Edition"
@@ -951,6 +958,15 @@
     [
      "PlayStation 4 Edition",
      "PS4 Edition"
+    ],
+    [
+     "Pi Edition",
+     "Raspberry Pi Edition",
+     "Minecraft Pi"
+    ],
+    [
+     "Legacy Console Edition",
+     "Console Edition"
     ],
     [
      "PlayStation 3 Edition",
@@ -969,29 +985,13 @@
     ],
     "China Edition",
     [
-     "Minecraft: Story Mode",
-     "Story Mode"
-    ],
-    [
      "Minecraft: Story Mode - Season Two",
      "Story Mode Season 2",
      "Story Mode Season Two"
     ],
     [
-     "Minecraft Earth",
-     "Earth"
-    ],
-    [
-     "Minecraft Dungeons",
-     "Dungeons"
-    ],
-    [
      "Minecraft Dungeons Arcade",
      "Dungeons Arcade"
-    ],
-    [
-     "Minecraft Legends",
-     "Legends"
     ],
     [
      "Minecraft Blast",
@@ -1013,16 +1013,16 @@
    "text": "Name something that can cause an explosion or blast in Minecraft (as of 2026)",
    "answers": [
     "Creeper",
-    "Charged Creeper",
     "TNT",
-    [
-     "TNT Minecart",
-     "Minecart with TNT"
-    ],
     [
      "Ghast",
      "Ghast Fireball",
      "Fireball"
+    ],
+    "Charged Creeper",
+    [
+     "TNT Minecart",
+     "Minecart with TNT"
     ],
     [
      "End Crystal",
@@ -1032,8 +1032,8 @@
      "Bed",
      "Beds"
     ],
-    "Respawn Anchor",
     "Wither",
+    "Respawn Anchor",
     "Wither Skull",
     [
      "Sulfur Cube",
@@ -1056,22 +1056,6 @@
     "Coal",
     "Charcoal",
     [
-     "Block of Coal",
-     "Coal Block"
-    ],
-    [
-     "Lava Bucket",
-     "Bucket of Lava",
-     "Lava"
-    ],
-    "Blaze Rod",
-    "Dried Kelp Block",
-    "Bamboo",
-    [
-     "Stick",
-     "Sticks"
-    ],
-    [
      "Wooden Planks",
      "Planks",
      "Wood Planks"
@@ -1081,6 +1065,22 @@
      "Log",
      "Wood"
     ],
+    [
+     "Lava Bucket",
+     "Bucket of Lava",
+     "Lava"
+    ],
+    [
+     "Stick",
+     "Sticks"
+    ],
+    [
+     "Block of Coal",
+     "Coal Block"
+    ],
+    "Blaze Rod",
+    "Dried Kelp Block",
+    "Bamboo",
     [
      "Sapling",
      "Saplings"
@@ -1149,30 +1149,30 @@
    "text": "Name an item that you can craft nine of into a single storage block in Minecraft (such as nine iron ingots)",
    "answers": [
     "Iron Ingot",
-    "Resin Clump",
     "Gold Ingot",
     "Diamond",
     "Emerald",
     "Coal",
     [
-     "Lapis Lazuli",
-     "Lapis"
-    ],
-    [
      "Redstone",
      "Redstone Dust"
     ],
+    [
+     "Lapis Lazuli",
+     "Lapis"
+    ],
     "Copper Ingot",
     "Netherite Ingot",
-    "Raw Iron",
-    "Raw Gold",
-    "Raw Copper",
     "Wheat",
     [
      "Slime Ball",
      "Slimeball"
     ],
     "Bone Meal",
+    "Resin Clump",
+    "Raw Iron",
+    "Raw Gold",
+    "Raw Copper",
     "Dried Kelp"
    ]
   },
@@ -1183,34 +1183,34 @@
    ],
    "text": "Name something you can craft using iron ingots in Minecraft",
    "answers": [
-    "Iron Block",
     [
      "Iron Pickaxe",
      "Pickaxe"
     ],
+    "Iron Sword",
+    "Iron Block",
+    "Iron Chestplate",
+    "Bucket",
+    "Shears",
     "Iron Axe",
+    "Iron Helmet",
+    "Iron Door",
+    "Anvil",
+    "Hopper",
+    "Minecart",
+    "Iron Bars",
+    "Compass",
     "Iron Shovel",
     "Iron Hoe",
-    "Iron Sword",
-    "Iron Helmet",
-    "Iron Chestplate",
     "Iron Leggings",
     "Iron Boots",
     "Iron Spear",
-    "Bucket",
-    "Shears",
-    "Compass",
-    "Hopper",
     "Cauldron",
-    "Minecart",
     "Rail",
     "Powered Rail",
     "Detector Rail",
     "Activator Rail",
-    "Anvil",
-    "Iron Door",
     "Iron Trapdoor",
-    "Iron Bars",
     "Chain",
     [
      "Flint and Steel",
@@ -1266,22 +1266,22 @@
    "text": "Name a mob you can tame, saddle or ride in Minecraft (as of 2026)",
    "answers": [
     "Horse",
-    "Zombie Horse",
-    "Skeleton Horse",
+    "Wolf",
+    "Pig",
+    "Cat",
     "Donkey",
-    "Mule",
     "Llama",
+    "Mule",
+    "Parrot",
+    "Strider",
+    "Camel",
+    "Skeleton Horse",
+    "Zombie Horse",
     "Trader Llama",
     "Nautilus",
     "Zombie Nautilus",
-    "Cat",
-    "Parrot",
-    "Wolf",
-    "Camel",
     "Camel Husk",
-    "Happy Ghast",
-    "Pig",
-    "Strider"
+    "Happy Ghast"
    ]
   },
   {
@@ -1291,21 +1291,22 @@
    ],
    "text": "Name a Minecraft advancement (Java Edition, as listed on the Minecraft Wiki in 2026)",
    "answers": [
+    "Diamonds!",
     "Stone Age",
+    "We Need to Go Deeper",
+    "The End?",
     "Getting an Upgrade",
     "Acquire Hardware",
     "Suit Up",
     "Hot Stuff",
     "Isn't It Iron Pick?",
-    "Not Today, Thank You",
-    "Ice Bucket Challenge",
-    "Diamonds!",
-    "We Need to Go Deeper",
     "Cover Me with Diamonds",
+    "Ice Bucket Challenge",
     "Enchanter",
+    "Monster Hunter",
+    "Not Today, Thank You",
     "Zombie Doctor",
     "Eye Spy",
-    "The End?",
     "Return to Sender",
     "Those Were the Days",
     "Hidden in the Depths",
@@ -1340,7 +1341,6 @@
     "Voluntary Exile",
     "Country Lode, Take Me Home",
     "Is It a Bird?",
-    "Monster Hunter",
     "The Power of Books",
     "What a Deal!",
     "Crafting a New Look",
@@ -1422,21 +1422,23 @@
    "text": "Name a block that gives off light in Minecraft",
    "answers": [
     "Torch",
-    "Soul Torch",
-    "Lantern",
-    "Soul Lantern",
     "Glowstone",
-    "Sea Lantern",
+    "Lantern",
     [
      "Jack o'Lantern",
      "Jack o Lantern",
      "Pumpkin Lantern"
     ],
-    "Shroomlight",
     "Redstone Lamp",
-    "Beacon",
-    "End Rod",
+    "Sea Lantern",
     "Campfire",
+    "Lava",
+    "Beacon",
+    "Soul Torch",
+    "End Rod",
+    "Shroomlight",
+    "Fire",
+    "Soul Lantern",
     "Soul Campfire",
     [
      "Ochre Froglight",
@@ -1444,8 +1446,6 @@
     ],
     "Verdant Froglight",
     "Pearlescent Froglight",
-    "Lava",
-    "Fire",
     "Candle",
     "Conduit",
     "Crying Obsidian",
@@ -1532,12 +1532,17 @@
      "Super Mario Bros",
      "Super Mario Brothers"
     ],
-    "Duck Hunt",
     [
      "Super Mario Bros. 3",
      "Super Mario Bros 3",
      "Mario 3"
     ],
+    [
+     "The Legend of Zelda",
+     "Legend of Zelda",
+     "Zelda"
+    ],
+    "Duck Hunt",
     "Tetris",
     [
      "Super Mario Bros. 2",
@@ -1545,15 +1550,21 @@
      "Mario 2"
     ],
     [
-     "The Legend of Zelda",
-     "Legend of Zelda",
-     "Zelda"
+     "Teenage Mutant Ninja Turtles",
+     "TMNT"
+    ],
+    [
+     "Punch-Out!!",
+     "Punch Out",
+     "Mike Tyson's Punch-Out!!",
+     "Mike Tysons Punch Out"
     ],
     [
      "Dr. Mario",
      "Dr Mario",
      "Doctor Mario"
     ],
+    "Excitebike",
     [
      "Zelda II: The Adventure of Link",
      "Zelda II",
@@ -1561,14 +1572,9 @@
      "The Adventure of Link",
      "Adventure of Link"
     ],
-    "Excitebike",
     [
      "Golf",
      "NES Golf"
-    ],
-    [
-     "Teenage Mutant Ninja Turtles",
-     "TMNT"
     ],
     [
      "Dragon Quest III",
@@ -1590,13 +1596,7 @@
      "Dragon Warrior IV",
      "Dragon Warrior 4"
     ],
-    "World Class Track Meet",
-    [
-     "Punch-Out!!",
-     "Punch Out",
-     "Mike Tyson's Punch-Out!!",
-     "Mike Tysons Punch Out"
-    ]
+    "World Class Track Meet"
    ]
   },
   {
@@ -1608,29 +1608,12 @@
    "answers": [
     "Super Mario World",
     [
-     "Super Mario All-Stars",
-     "Mario All-Stars",
-     "All-Stars"
-    ],
-    [
-     "Donkey Kong Country",
-     "DKC"
-    ],
-    [
      "Super Mario Kart",
      "Mario Kart"
     ],
     [
-     "Street Fighter II: The World Warrior",
-     "Street Fighter II",
-     "Street Fighter 2",
-     "Street Fighter II The World Warrior"
-    ],
-    [
-     "Donkey Kong Country 2: Diddy's Kong Quest",
-     "Donkey Kong Country 2",
-     "Diddy's Kong Quest",
-     "DKC2"
+     "Donkey Kong Country",
+     "DKC"
     ],
     [
      "The Legend of Zelda: A Link to the Past",
@@ -1639,10 +1622,36 @@
      "Zelda A Link to the Past"
     ],
     [
+     "Street Fighter II: The World Warrior",
+     "Street Fighter II",
+     "Street Fighter 2",
+     "Street Fighter II The World Warrior"
+    ],
+    [
+     "Super Mario All-Stars",
+     "Mario All-Stars",
+     "All-Stars"
+    ],
+    [
+     "Star Fox",
+     "Starfox"
+    ],
+    [
      "Super Mario World 2: Yoshi's Island",
      "Yoshi's Island",
      "Yoshis Island",
      "Super Mario World 2"
+    ],
+    [
+     "Final Fantasy VI",
+     "Final Fantasy 6",
+     "Final Fantasy III"
+    ],
+    [
+     "Donkey Kong Country 2: Diddy's Kong Quest",
+     "Donkey Kong Country 2",
+     "Diddy's Kong Quest",
+     "DKC2"
     ],
     [
      "Street Fighter II Turbo",
@@ -1650,19 +1659,10 @@
      "Street Fighter 2 Turbo"
     ],
     [
-     "Star Fox",
-     "Starfox"
-    ],
-    [
      "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
      "Donkey Kong Country 3",
      "Dixie Kong's Double Trouble",
      "DKC3"
-    ],
-    [
-     "Final Fantasy VI",
-     "Final Fantasy 6",
-     "Final Fantasy III"
     ],
     "Killer Instinct",
     [
@@ -1773,6 +1773,10 @@
      "X and Y"
     ],
     [
+     "Animal Crossing: New Leaf",
+     "New Leaf"
+    ],
+    [
      "Pokémon Sun and Moon",
      "Pokémon Sun",
      "Pokémon Moon",
@@ -1781,26 +1785,33 @@
      "Sun and Moon"
     ],
     [
+     "Super Smash Bros. for Nintendo 3DS",
+     "Super Smash Bros 3DS",
+     "Smash Bros 3DS"
+    ],
+    [
+     "The Legend of Zelda: Ocarina of Time 3D",
+     "Ocarina of Time 3D",
+     "Zelda Ocarina of Time 3D"
+    ],
+    [
+     "New Super Mario Bros. 2",
+     "New Super Mario Bros 2"
+    ],
+    "Super Mario 3D Land",
+    "Tomodachi Life",
+    [
+     "Nintendogs + Cats",
+     "Nintendogs and Cats",
+     "Nintendogs"
+    ],
+    [
      "Pokémon Omega Ruby and Alpha Sapphire",
      "Pokémon Omega Ruby",
      "Pokémon Alpha Sapphire",
      "Omega Ruby",
      "Alpha Sapphire",
      "Omega Ruby and Alpha Sapphire"
-    ],
-    [
-     "New Super Mario Bros. 2",
-     "New Super Mario Bros 2"
-    ],
-    [
-     "Animal Crossing: New Leaf",
-     "New Leaf"
-    ],
-    "Super Mario 3D Land",
-    [
-     "Super Smash Bros. for Nintendo 3DS",
-     "Super Smash Bros 3DS",
-     "Smash Bros 3DS"
     ],
     [
      "Pokémon Ultra Sun and Ultra Moon",
@@ -1814,22 +1825,11 @@
      "Yo-kai Watch 2",
      "Yokai Watch 2"
     ],
-    "Tomodachi Life",
     [
      "Luigi's Mansion: Dark Moon",
      "Luigi's Mansion 2",
      "Dark Moon",
      "Luigi's Mansion Dark Moon"
-    ],
-    [
-     "The Legend of Zelda: Ocarina of Time 3D",
-     "Ocarina of Time 3D",
-     "Zelda Ocarina of Time 3D"
-    ],
-    [
-     "Nintendogs + Cats",
-     "Nintendogs and Cats",
-     "Nintendogs"
     ],
     [
      "Monster Hunter Generations",
@@ -1854,13 +1854,23 @@
    ],
    "text": "Name a dungeon in The Legend of Zelda: Ocarina of Time (1998)",
    "answers": [
+    "Water Temple",
+    "Forest Temple",
     [
      "Inside the Deku Tree",
      "Deku Tree"
     ],
+    "Fire Temple",
+    "Shadow Temple",
+    "Spirit Temple",
     [
      "Dodongo's Cavern",
      "Dodongos Cavern"
+    ],
+    [
+     "Ganon's Castle",
+     "Ganons Castle",
+     "Ganon's Tower"
     ],
     [
      "Inside Jabu-Jabu's Belly",
@@ -1868,11 +1878,6 @@
      "Jabu Jabu",
      "Jabu-Jabu"
     ],
-    "Forest Temple",
-    "Fire Temple",
-    "Water Temple",
-    "Shadow Temple",
-    "Spirit Temple",
     "Ice Cavern",
     [
      "Bottom of the Well",
@@ -1881,11 +1886,6 @@
     [
      "Gerudo Training Ground",
      "Gerudo Training Grounds"
-    ],
-    [
-     "Ganon's Castle",
-     "Ganons Castle",
-     "Ganon's Tower"
     ]
    ]
   },
@@ -1911,22 +1911,22 @@
     "Tingle",
     "Impa",
     "Sheik",
-    "Fi",
-    "Ghirahim",
-    "Groose",
-    "Beedle",
     "Saria",
-    "Darunia",
+    "Malon",
     [
      "Ruto",
      "Princess Ruto"
     ],
-    "Malon",
+    "Darunia",
+    "Tetra",
+    "Fi",
+    "Ghirahim",
+    "Groose",
+    "Beedle",
     "Talon",
     "Zant",
     "Vaati",
     "Agahnim",
-    "Tetra",
     "King of Red Lions",
     [
      "Great Deku Tree",
@@ -1989,12 +1989,6 @@
    "text": "Name an item, weapon or piece of equipment from The Legend of Zelda games",
    "answers": [
     "Master Sword",
-    "Hylian Shield",
-    [
-     "Ocarina of Time",
-     "Ocarina"
-    ],
-    "Boomerang",
     "Hookshot",
     [
      "Bow",
@@ -2003,6 +1997,23 @@
     [
      "Bombs",
      "Bomb"
+    ],
+    "Boomerang",
+    "Hylian Shield",
+    "Triforce",
+    [
+     "Ocarina of Time",
+     "Ocarina"
+    ],
+    [
+     "Rupee",
+     "Rupees"
+    ],
+    "Heart Container",
+    [
+     "Bottle",
+     "Fairy Bottle",
+     "Empty Bottle"
     ],
     "Deku Nut",
     "Deku Stick",
@@ -2016,20 +2027,9 @@
     "Farore's Wind",
     "Nayru's Love",
     [
-     "Bottle",
-     "Fairy Bottle",
-     "Empty Bottle"
-    ],
-    [
-     "Rupee",
-     "Rupees"
-    ],
-    "Heart Container",
-    [
      "Piece of Heart",
      "Heart Piece"
     ],
-    "Triforce",
     "Power Bracelet",
     "Magic Mirror",
     "Cane of Somaria",
@@ -2122,16 +2122,24 @@
      "Luigi's Mansion",
      "Luigis Mansion"
     ],
+    "Mario Tennis",
+    "Mario Golf",
+    "Super Mario Maker",
     [
      "Dr. Mario",
      "Dr Mario"
     ],
-    "Mario Tennis",
-    "Mario Golf",
     [
      "Mario Strikers",
      "Super Mario Strikers"
     ],
+    [
+     "Mario + Rabbids Kingdom Battle",
+     "Mario Rabbids",
+     "Mario + Rabbids",
+     "Mario Plus Rabbids"
+    ],
+    "Super Mario Run",
     "Mario Paint",
     [
      "Mario's Picross",
@@ -2142,17 +2150,9 @@
      "Mario vs Donkey Kong",
      "Mario versus Donkey Kong"
     ],
-    "Super Mario Maker",
-    "Super Mario Run",
     [
      "Captain Toad: Treasure Tracker",
      "Captain Toad"
-    ],
-    [
-     "Mario + Rabbids Kingdom Battle",
-     "Mario Rabbids",
-     "Mario + Rabbids",
-     "Mario Plus Rabbids"
     ],
     [
      "Mario Is Missing!",
@@ -2312,18 +2312,20 @@
      "Metaknight"
     ],
     "Waddle Dee",
+    "Whispy Woods",
+    "Waddle Doo",
+    "Gooey",
+    "Marx",
+    "Kracko",
+    "Dark Matter",
     [
      "Bandana Waddle Dee",
      "Bandana Dee"
     ],
-    "Waddle Doo",
-    "Gooey",
     "Rick",
     "Kine",
     "Coo",
-    "Marx",
     "Magolor",
-    "Dark Matter",
     "Zero",
     [
      "Zero Two",
@@ -2335,8 +2337,6 @@
     "Taranza",
     "Morpho Knight",
     "Nightmare",
-    "Whispy Woods",
-    "Kracko",
     "Daroach",
     "Sir Kibble",
     "Gordo",
@@ -2375,6 +2375,10 @@
    "text": "Name a character from the Call of Duty Zombies storyline",
    "answers": [
     [
+     "Richtofen",
+     "Edward Richtofen"
+    ],
+    [
      "Dempsey",
      "Tank Dempsey"
     ],
@@ -2387,8 +2391,14 @@
      "Takeo Masaki"
     ],
     [
-     "Richtofen",
-     "Edward Richtofen"
+     "Samantha Maxis",
+     "Samantha",
+     "Sam"
+    ],
+    [
+     "Dr Maxis",
+     "Ludvig Maxis",
+     "Maxis"
     ],
     [
      "Misty",
@@ -2407,6 +2417,7 @@
      "Russman",
      "Sam Russman"
     ],
+    "Brutus",
     [
      "Sal DeLuca",
      "Sal"
@@ -2422,18 +2433,7 @@
     [
      "Albert Arnold",
      "Weasel"
-    ],
-    [
-     "Samantha Maxis",
-     "Samantha",
-     "Sam"
-    ],
-    [
-     "Dr Maxis",
-     "Ludvig Maxis",
-     "Maxis"
-    ],
-    "Brutus"
+    ]
    ]
   },
   {
@@ -2515,28 +2515,23 @@
    "text": "Name a weapon attachment in Call of Duty multiplayer",
    "answers": [
     [
+     "Silencer",
+     "Suppressor"
+    ],
+    [
      "Red Dot Sight",
      "Red Dot",
      "Reflex Sight",
      "Reflex"
     ],
     [
-     "ACOG",
-     "ACOG Scope"
-    ],
-    [
-     "Holographic Sight",
-     "Holo Sight",
-     "Holographic"
-    ],
-    [
-     "Silencer",
-     "Suppressor"
-    ],
-    [
      "Extended Mags",
      "Extended Magazine",
      "Extended Mag"
+    ],
+    [
+     "ACOG",
+     "ACOG Scope"
     ],
     [
      "Grip",
@@ -2545,8 +2540,22 @@
      "Fore Grip"
     ],
     [
+     "Holographic Sight",
+     "Holo Sight",
+     "Holographic"
+    ],
+    [
      "Laser Sight",
      "Laser"
+    ],
+    [
+     "Thermal Scope",
+     "Thermal Sight",
+     "Thermal"
+    ],
+    [
+     "Akimbo",
+     "Dual Wield"
     ],
     [
      "FMJ",
@@ -2560,21 +2569,12 @@
     ],
     "Heartbeat Sensor",
     [
-     "Thermal Scope",
-     "Thermal Sight",
-     "Thermal"
-    ],
-    [
      "Variable Zoom",
      "Variable Zoom Scope"
     ],
     [
      "Dual Mags",
      "Dual Magazine"
-    ],
-    [
-     "Akimbo",
-     "Dual Wield"
     ],
     [
      "Grenade Launcher",
@@ -2662,6 +2662,43 @@
    "text": "Name a gun in Call of Duty: World at War",
    "answers": [
     [
+     "Thompson",
+     "Thompson M1A1"
+    ],
+    "MP40",
+    [
+     "PPSh-41",
+     "PPSh"
+    ],
+    [
+     "M1 Garand",
+     "Garand"
+    ],
+    [
+     "Kar98k",
+     "Karabiner 98k",
+     "Kar 98"
+    ],
+    [
+     "STG-44",
+     "STG44"
+    ],
+    "MG42",
+    [
+     "BAR",
+     "Browning Automatic Rifle"
+    ],
+    [
+     "Springfield",
+     "M1903 Springfield"
+    ],
+    "Type 100",
+    "Bazooka",
+    [
+     "M2 Flamethrower",
+     "Flamethrower"
+    ],
+    [
      "Colt M1911",
      "M1911"
     ],
@@ -2679,21 +2716,8 @@
      "Nambu"
     ],
     [
-     "M1 Garand",
-     "Garand"
-    ],
-    [
      "M1A1 Carbine",
      "M1 Carbine"
-    ],
-    [
-     "Springfield",
-     "M1903 Springfield"
-    ],
-    [
-     "Kar98k",
-     "Karabiner 98k",
-     "Kar 98"
     ],
     "Mosin-Nagant",
     [
@@ -2706,20 +2730,6 @@
      "G43"
     ],
     [
-     "STG-44",
-     "STG44"
-    ],
-    [
-     "Thompson",
-     "Thompson M1A1"
-    ],
-    [
-     "PPSh-41",
-     "PPSh"
-    ],
-    "MP40",
-    "Type 100",
-    [
      "Browning M1919",
      "M1919"
     ],
@@ -2727,18 +2737,8 @@
      "DP-28",
      "DP28"
     ],
-    "MG42",
     "Type 99 LMG",
-    [
-     "BAR",
-     "Browning Automatic Rifle"
-    ],
     "FG42",
-    [
-     "M2 Flamethrower",
-     "Flamethrower"
-    ],
-    "Bazooka",
     [
      "Panzerschreck",
      "Panzerschrek"
@@ -2768,43 +2768,35 @@
    "text": "Name a gun in 2011's Modern Warfare 3",
    "answers": [
     [
-     "M16A4",
-     "M16"
-    ],
-    [
      "M4A1",
      "M4"
     ],
-    "FAD",
-    [
-     "ACR 6.8",
-     "ACR"
-    ],
-    "Type 95",
-    "G36C",
     [
      "AK-47",
      "AK47"
+    ],
+    "MP5",
+    [
+     "M16A4",
+     "M16"
     ],
     [
      "SCAR-L",
      "SCAR"
     ],
-    "CM901",
-    "MP5",
+    "P90",
+    [
+     "ACR 6.8",
+     "ACR"
+    ],
     [
      "UMP45",
      "UMP"
     ],
-    "PP90M1",
-    "P90",
     [
-     "PM-9",
-     "PM9"
+     "Barrett .50cal",
+     "Barrett"
     ],
-    "MP7",
-    "Vector",
-    "Striker",
     [
      "SPAS-12",
      "SPAS12"
@@ -2813,6 +2805,18 @@
      "AA-12",
      "AA12"
     ],
+    "FAD",
+    "Type 95",
+    "G36C",
+    "CM901",
+    "PP90M1",
+    [
+     "PM-9",
+     "PM9"
+    ],
+    "MP7",
+    "Vector",
+    "Striker",
     [
      "USAS-12",
      "USAS12"
@@ -2823,10 +2827,6 @@
     ],
     "M1014",
     "Model 1887",
-    [
-     "Barrett .50cal",
-     "Barrett"
-    ],
     "L118A",
     "MSR",
     "RSASS",
@@ -2875,26 +2875,31 @@
    ],
    "text": "Name a gun in Call of Duty: Black Ops II (2012)",
    "answers": [
+    "Peacekeeper",
     [
      "AN-94",
      "AN94"
     ],
-    "Peacekeeper",
+    "M8A1",
+    "Type 25",
+    [
+     "SCAR-H",
+     "SCAR"
+    ],
+    [
+     "DSR 50",
+     "DSR-50"
+    ],
+    "Ballista",
+    "Skorpion EVO",
+    "MTAR",
+    "SMR",
     "MSMC",
     [
      "Chicom CQB",
      "Chicom"
     ],
     "Vector K10",
-    "Skorpion EVO",
-    "SMR",
-    "MTAR",
-    "Type 25",
-    "M8A1",
-    [
-     "SCAR-H",
-     "SCAR"
-    ],
     [
      "FAL OSW",
      "FAL"
@@ -2912,11 +2917,6 @@
     ],
     "LSAT",
     "QBB LSW",
-    "Ballista",
-    [
-     "DSR 50",
-     "DSR-50"
-    ],
     [
      "SVU-AS",
      "SVU"
@@ -2999,28 +2999,28 @@
    ],
    "text": "Name a country where a Call of Duty campaign mission is set",
    "answers": [
+    "Russia",
     [
      "USA",
      "United States",
      "America"
     ],
+    "Afghanistan",
+    "Iraq",
+    "Germany",
     [
      "UK",
      "United Kingdom",
      "Britain",
      "England"
     ],
-    "Russia",
-    "Ukraine",
-    "Afghanistan",
-    "Iraq",
     "France",
-    "Germany",
-    "Poland",
-    "Cuba",
     "Vietnam",
-    "Laos",
+    "Cuba",
     "Japan",
+    "Ukraine",
+    "Poland",
+    "Laos",
     "Pakistan",
     "Yemen",
     "Angola",
@@ -3187,11 +3187,6 @@
      "WoW"
     ],
     [
-     "Final Fantasy XIV",
-     "FFXIV",
-     "Final Fantasy 14"
-    ],
-    [
      "RuneScape",
      "Runescape"
     ],
@@ -3199,33 +3194,42 @@
      "Old School RuneScape",
      "OSRS"
     ],
-    "Guild Wars",
+    [
+     "Final Fantasy XIV",
+     "FFXIV",
+     "Final Fantasy 14"
+    ],
     "Guild Wars 2",
     [
      "EVE Online",
      "Eve"
     ],
     [
-     "The Lord of the Rings Online",
-     "Lord of the Rings Online",
-     "LOTRO"
-    ],
-    [
      "The Elder Scrolls Online",
      "Elder Scrolls Online",
      "ESO"
     ],
+    "Guild Wars",
     [
-     "Black Desert Online",
-     "Black Desert"
+     "EverQuest",
+     "Everquest"
     ],
-    "Lost Ark",
-    "New World",
     [
      "Star Wars: The Old Republic",
      "Star Wars The Old Republic",
      "SWTOR"
     ],
+    [
+     "The Lord of the Rings Online",
+     "Lord of the Rings Online",
+     "LOTRO"
+    ],
+    "Lost Ark",
+    [
+     "Black Desert Online",
+     "Black Desert"
+    ],
+    "New World",
     "Albion Online",
     "Aion",
     "Lineage",
@@ -3236,10 +3240,6 @@
     [
      "Ragnarok Online",
      "Ragnarok"
-    ],
-    [
-     "EverQuest",
-     "Everquest"
     ],
     "Ultima Online",
     [
@@ -3342,17 +3342,28 @@
      "Blood Gulch",
      "Blood Gulch Creek"
     ],
+    "Lockout",
+    "Zanzibar",
+    "Midship",
+    "Sidewinder",
     [
      "Hang 'Em High",
      "Hang Em High"
     ],
+    "Ascension",
     "Chiller",
     "Damnation",
+    "Guardian",
+    [
+     "The Pit",
+     "Pit"
+    ],
+    "Valhalla",
+    "High Ground",
     "Prisoner",
     "Derelict",
     "Boarding Action",
     "Wizard",
-    "Sidewinder",
     "Rat Race",
     "Gephyrophobia",
     "Danger Canyon",
@@ -3364,10 +3375,6 @@
     "Carousel",
     "Longest",
     "Battle Creek",
-    "Lockout",
-    "Midship",
-    "Zanzibar",
-    "Ascension",
     "Coagulation",
     "Burial Mounds",
     "Colossus",
@@ -3388,17 +3395,10 @@
     "Ivory Tower",
     "Sanctuary",
     "Desolation",
-    "Guardian",
-    "Valhalla",
-    [
-     "The Pit",
-     "Pit"
-    ],
     "Narrows",
     "Epitaph",
     "Snowbound",
     "Sandtrap",
-    "High Ground",
     "Last Resort",
     [
      "Rat's Nest",
@@ -3611,25 +3611,25 @@
      "Battle Rifle",
      "BR55"
     ],
+    "Energy Sword",
+    "Needler",
+    [
+     "Sniper Rifle",
+     "SRS99"
+    ],
+    [
+     "Rocket Launcher",
+     "SPNKr"
+    ],
+    "Plasma Pistol",
     [
      "Magnum",
      "Pistol",
      "M6D"
     ],
-    [
-     "Sniper Rifle",
-     "SRS99"
-    ],
     "Shotgun",
-    [
-     "Rocket Launcher",
-     "SPNKr"
-    ],
-    "Needler",
-    "Plasma Pistol",
-    "Plasma Rifle",
-    "Energy Sword",
     "Gravity Hammer",
+    "Plasma Rifle",
     "Spartan Laser",
     "Brute Shot",
     [
@@ -3723,25 +3723,25 @@
    ],
    "text": "Name a game mode in Overwatch or Overwatch 2",
    "answers": [
+    "Quick Play",
+    "Competitive",
     "Escort",
-    "Hybrid",
     "Control",
+    "Hybrid",
+    "Arcade",
     "Push",
-    "Flashpoint",
-    "Clash",
     "Assault",
+    "Deathmatch",
     [
      "Capture the Flag",
      "CTF"
     ],
-    "Deathmatch",
     "Team Deathmatch",
+    "Custom Games",
+    "Flashpoint",
+    "Clash",
     "Elimination",
     "Mystery Heroes",
-    "Quick Play",
-    "Competitive",
-    "Arcade",
-    "Custom Games",
     [
      "Lúcioball",
      "Lucioball"
@@ -3866,26 +3866,28 @@
      "Sonic the Hedgehog",
      "Sonic"
     ],
+    "Football Manager",
+    "Total War",
     "Streets of Rage",
     "Golden Axe",
-    "Altered Beast",
-    "Shinobi",
-    "Virtua Fighter",
     [
      "Yakuza",
      "Like a Dragon"
     ],
-    "Phantasy Star",
+    "Persona",
+    "Crazy Taxi",
+    "Super Monkey Ball",
+    "Altered Beast",
+    "Virtua Fighter",
     [
      "Out Run",
      "OutRun"
     ],
     "Shenmue",
-    "Crazy Taxi",
+    "Shinobi",
+    "Phantasy Star",
     "Jet Set Radio",
     "Space Channel 5",
-    "Total War",
-    "Football Manager",
     "Alex Kidd",
     [
      "The House of the Dead",
@@ -3895,9 +3897,7 @@
      "NiGHTS",
      "Nights into Dreams"
     ],
-    "Super Monkey Ball",
     "Valkyria Chronicles",
-    "Persona",
     "Daytona USA",
     "Sega Rally",
     "Virtua Tennis",
@@ -4022,34 +4022,38 @@
    ],
    "text": "Name a racing video game series",
    "answers": [
-    "Gran Turismo",
-    "Forza Motorsport",
-    "Forza Horizon",
-    "Need for Speed",
     "Mario Kart",
-    "Burnout",
-    [
-     "Colin McRae Rally",
-     "DiRT Rally",
-     "Dirt"
-    ],
+    "Gran Turismo",
+    "Need for Speed",
+    "Forza Horizon",
+    "Forza Motorsport",
     [
      "F1",
      "Formula 1"
     ],
     [
+     "Colin McRae Rally",
+     "DiRT Rally",
+     "Dirt"
+    ],
+    "Burnout",
+    "Ridge Racer",
+    "Wipeout",
+    [
      "Project CARS",
      "Project Cars"
     ],
-    "Wipeout",
-    "Ridge Racer",
+    "Test Drive",
+    [
+     "Grid",
+     "GRID"
+    ],
     "Daytona USA",
     [
      "Out Run",
      "OutRun"
     ],
     "Sega Rally",
-    "Test Drive",
     "Midnight Club",
     "Driver",
     [
@@ -4057,10 +4061,6 @@
      "Trackmania"
     ],
     "Assetto Corsa",
-    [
-     "Grid",
-     "GRID"
-    ],
     "Crazy Taxi",
     "Split/Second",
     "The Crew",
@@ -4238,16 +4238,16 @@
    "text": "Name a member of S.T.A.R.S. in Resident Evil",
    "answers": [
     [
-     "Albert Wesker",
-     "Wesker"
-    ],
-    [
      "Chris Redfield",
      "Chris"
     ],
     [
      "Jill Valentine",
      "Jill"
+    ],
+    [
+     "Albert Wesker",
+     "Wesker"
     ],
     [
      "Barry Burton",
@@ -4307,6 +4307,11 @@
    "text": "Name a playable protagonist in a Resident Evil game",
    "answers": [
     [
+     "Leon S. Kennedy",
+     "Leon Kennedy",
+     "Leon"
+    ],
+    [
      "Chris Redfield",
      "Chris"
     ],
@@ -4315,13 +4320,12 @@
      "Jill"
     ],
     [
-     "Leon S. Kennedy",
-     "Leon Kennedy",
-     "Leon"
-    ],
-    [
      "Claire Redfield",
      "Claire"
+    ],
+    [
+     "Ethan Winters",
+     "Ethan"
     ],
     [
      "Ada Wong",
@@ -4358,10 +4362,6 @@
     [
      "Helena Harper",
      "Helena"
-    ],
-    [
-     "Ethan Winters",
-     "Ethan"
     ],
     [
      "Mia Winters",
@@ -4406,17 +4406,23 @@
      "Wesker"
     ],
     [
+     "Nemesis",
+     "Nemesis-T Type"
+    ],
+    [
+     "Mr. X",
+     "Tyrant",
+     "T-103"
+    ],
+    [
+     "Lady Dimitrescu",
+     "Alcina Dimitrescu",
+     "Dimitrescu"
+    ],
+    [
      "William Birkin",
      "Birkin",
      "Dr Birkin"
-    ],
-    [
-     "Alexia Ashford",
-     "Alexia"
-    ],
-    [
-     "Alfred Ashford",
-     "Alfred"
     ],
     [
      "Osmund Saddler",
@@ -4424,12 +4430,32 @@
      "Lord Saddler"
     ],
     [
-     "Ramon Salazar",
-     "Salazar"
-    ],
-    [
      "Jack Baker",
      "Jack"
+    ],
+    [
+     "Mother Miranda",
+     "Miranda"
+    ],
+    [
+     "Alexia Ashford",
+     "Alexia"
+    ],
+    [
+     "Jack Krauser",
+     "Krauser"
+    ],
+    [
+     "Karl Heisenberg",
+     "Heisenberg"
+    ],
+    [
+     "Alfred Ashford",
+     "Alfred"
+    ],
+    [
+     "Ramon Salazar",
+     "Salazar"
     ],
     [
      "Marguerite Baker",
@@ -4441,19 +4467,6 @@
     ],
     "Eveline",
     [
-     "Mother Miranda",
-     "Miranda"
-    ],
-    [
-     "Lady Dimitrescu",
-     "Alcina Dimitrescu",
-     "Dimitrescu"
-    ],
-    [
-     "Karl Heisenberg",
-     "Heisenberg"
-    ],
-    [
      "Salvatore Moreau",
      "Moreau"
     ],
@@ -4462,21 +4475,8 @@
      "Beneviento"
     ],
     [
-     "Jack Krauser",
-     "Krauser"
-    ],
-    [
      "Excella Gionne",
      "Excella"
-    ],
-    [
-     "Mr. X",
-     "Tyrant",
-     "T-103"
-    ],
-    [
-     "Nemesis",
-     "Nemesis-T Type"
     ],
     [
      "Sergei Vladimir",
@@ -4575,18 +4575,24 @@
    "text": "Name a location in Final Fantasy VII (1997)",
    "answers": [
     "Midgar",
-    "Nibelheim",
-    "Cosmo Canyon",
-    "Junon",
-    "Costa del Sol",
     [
      "Gold Saucer",
      "The Gold Saucer"
     ],
-    "Wutai",
+    "Nibelheim",
+    "Cosmo Canyon",
+    [
+     "Shinra Building",
+     "Shinra HQ"
+    ],
+    "Sector 7",
+    "Junon",
+    "Costa del Sol",
     "Kalm",
-    "Rocket Town",
+    "Wall Market",
     "Mideel",
+    "Rocket Town",
+    "Wutai",
     "Icicle Inn",
     [
      "Corel",
@@ -4598,12 +4604,6 @@
      "City of the Ancients"
     ],
     "North Crater",
-    [
-     "Shinra Building",
-     "Shinra HQ"
-    ],
-    "Sector 7",
-    "Wall Market",
     [
      "Sector 5 Church",
      "Aerith's Church"
@@ -4628,33 +4628,33 @@
    ],
    "text": "Name a location in Fallout 4",
    "answers": [
+    "Diamond City",
     [
      "Sanctuary Hills",
      "Sanctuary"
     ],
-    "Diamond City",
     "Goodneighbor",
-    "Bunker Hill",
-    "Concord",
-    "Lexington",
     "Vault 111",
-    "Vault 81",
+    "Concord",
+    "Boston Common",
     "Far Harbor",
     [
      "Nuka-World",
      "Nuka World"
-    ],
-    "Boston Common",
-    "Fort Hagen",
-    [
-     "The Glowing Sea",
-     "Glowing Sea"
     ],
     [
      "The Institute",
      "Institute"
     ],
     "Prydwen",
+    [
+     "The Glowing Sea",
+     "Glowing Sea"
+    ],
+    "Bunker Hill",
+    "Lexington",
+    "Vault 81",
+    "Fort Hagen",
     "Cambridge",
     "Salem",
     [
@@ -4680,21 +4680,21 @@
    ],
    "text": "Name a location in Fallout: New Vegas",
    "answers": [
-    "Goodsprings",
-    "Primm",
-    "Novac",
-    "Nipton",
-    "Freeside",
     [
      "The Strip",
      "New Vegas Strip"
     ],
+    "Goodsprings",
+    "Lucky 38",
     "Hoover Dam",
+    "Primm",
+    "Novac",
+    "Freeside",
+    "Nipton",
     "Camp McCarran",
     "Black Mountain",
     "Boulder City",
     "Jacobstown",
-    "Lucky 38",
     "Gomorrah",
     "The Tops",
     [
@@ -4727,6 +4727,7 @@
    "answers": [
     "Brotherhood of Steel",
     "Enclave",
+    "Vault-Tec",
     [
      "New California Republic",
      "NCR"
@@ -4735,17 +4736,17 @@
      "Caesar's Legion",
      "Legion"
     ],
+    "Raiders",
+    "Super Mutants",
     [
      "The Institute",
      "Institute"
     ],
+    "Minutemen",
     [
      "The Railroad",
      "Railroad"
     ],
-    "Minutemen",
-    "Raiders",
-    "Super Mutants",
     [
      "Followers of the Apocalypse",
      "Followers"
@@ -4755,7 +4756,6 @@
     "Kings",
     "Powder Gangers",
     "Fiends",
-    "Vault-Tec",
     "Gunners",
     "Atom Cats",
     "Responders",
@@ -4776,9 +4776,12 @@
    "text": "Name a creature or robot from the Fallout games",
    "answers": [
     "Deathclaw",
-    "Super Mutant",
     "Radroach",
-    "Mirelurk",
+    "Super Mutant",
+    [
+     "Mister Handy",
+     "Mr Handy"
+    ],
     [
      "Feral Ghoul",
      "Ghoul"
@@ -4787,20 +4790,17 @@
      "Mole Rat",
      "Molerat"
     ],
-    "Bloatfly",
     [
      "Radscorpion",
      "Rad Scorpion"
     ],
+    "Bloatfly",
+    "Mirelurk",
     "Yao Guai",
-    "Behemoth",
-    [
-     "Mister Handy",
-     "Mr Handy"
-    ],
     "Protectron",
-    "Sentry Bot",
     "Brahmin",
+    "Behemoth",
+    "Sentry Bot",
     "Centaur",
     "Gecko",
     "Cazador",
@@ -4836,34 +4836,34 @@
    ],
    "text": "Name a type of monster in The Witcher 3: Wild Hunt",
    "answers": [
+    "Drowner",
     [
      "Griffin",
      "Gryphon"
     ],
+    "Nekker",
     [
      "Leshen",
      "Leshy"
     ],
-    "Wyvern",
-    "Drowner",
     "Ghoul",
-    "Nekker",
-    [
-     "Noonwraith",
-     "Noon Wraith"
-    ],
-    "Basilisk",
-    "Cockatrice",
-    "Fiend",
-    "Bruxa",
-    "Katakan",
+    "Wyvern",
+    "Werewolf",
     [
      "Troll",
      "Rock Troll"
     ],
-    "Werewolf",
-    "Wraith",
     "Water Hag",
+    [
+     "Noonwraith",
+     "Noon Wraith"
+    ],
+    "Fiend",
+    "Basilisk",
+    "Cockatrice",
+    "Bruxa",
+    "Katakan",
+    "Wraith",
     "Foglet",
     "Harpy",
     "Siren",
@@ -4902,27 +4902,27 @@
     "Diablo",
     "Mephisto",
     "Baal",
-    "Andariel",
-    "Duriel",
-    "Azmodan",
-    "Belial",
-    "Lilith",
-    "Inarius",
-    "Tyrael",
     [
      "Deckard Cain",
      "Cain"
+    ],
+    "Tyrael",
+    "Lilith",
+    "Andariel",
+    "Duriel",
+    [
+     "The Butcher",
+     "Butcher"
     ],
     [
      "Leoric",
      "The Skeleton King",
      "Skeleton King"
     ],
-    [
-     "The Butcher",
-     "Butcher"
-    ],
     "Malthael",
+    "Azmodan",
+    "Belial",
+    "Inarius",
     [
      "Zoltun Kulle",
      "Kulle"
@@ -4997,17 +4997,8 @@
    "text": "Name a race or people in The Elder Scrolls",
    "answers": [
     "Nord",
-    "Imperial",
-    "Breton",
-    "Redguard",
-    [
-     "High Elf",
-     "Altmer"
-    ],
-    [
-     "Wood Elf",
-     "Bosmer"
-    ],
+    "Khajiit",
+    "Argonian",
     [
      "Dark Elf",
      "Dunmer"
@@ -5016,16 +5007,25 @@
      "Orc",
      "Orsimer"
     ],
-    "Khajiit",
-    "Argonian",
     [
-     "Falmer",
-     "Snow Elf"
+     "High Elf",
+     "Altmer"
     ],
+    [
+     "Wood Elf",
+     "Bosmer"
+    ],
+    "Imperial",
+    "Breton",
+    "Redguard",
     [
      "Dwemer",
      "Dwarf",
      "Dwarves"
+    ],
+    [
+     "Falmer",
+     "Snow Elf"
     ],
     [
      "Maormer",
@@ -5055,23 +5055,23 @@
    "text": "Name a province, island or continent in the Elder Scrolls universe",
    "answers": [
     "Skyrim",
-    "Cyrodiil",
+    "Tamriel",
     "Morrowind",
+    "Cyrodiil",
     "High Rock",
     "Hammerfell",
-    "Valenwood",
     "Elsweyr",
+    "Valenwood",
     "Black Marsh",
     [
      "Summerset Isle",
      "Summerset"
     ],
+    "Solstheim",
     "Akavir",
     "Atmora",
     "Yokuda",
-    "Pyandonea",
-    "Tamriel",
-    "Solstheim"
+    "Pyandonea"
    ]
   },
   {
@@ -5081,11 +5081,15 @@
    ],
    "text": "Name a character from Cyberpunk 2077",
    "answers": [
-    "V",
     [
      "Johnny Silverhand",
      "Johnny",
      "Silverhand"
+    ],
+    "V",
+    [
+     "Jackie Welles",
+     "Jackie"
     ],
     [
      "Judy Alvarez",
@@ -5096,28 +5100,24 @@
      "Panam"
     ],
     [
-     "Jackie Welles",
-     "Jackie"
-    ],
-    [
-     "River Ward",
-     "River"
-    ],
-    [
-     "Kerry Eurodyne",
-     "Kerry"
+     "Adam Smasher",
+     "Smasher"
     ],
     [
      "Rogue",
      "Rogue Amendiares"
     ],
     [
-     "Goro Takemura",
-     "Takemura"
+     "Kerry Eurodyne",
+     "Kerry"
     ],
     [
-     "Adam Smasher",
-     "Smasher"
+     "River Ward",
+     "River"
+    ],
+    [
+     "Goro Takemura",
+     "Takemura"
     ],
     [
      "Evelyn Parker",
@@ -5240,16 +5240,32 @@
    ],
    "text": "Name a unit from StarCraft, StarCraft: Brood War or StarCraft II",
    "answers": [
+    "Zergling",
+    "Zealot",
     "Marine",
+    "Hydralisk",
+    "Probe",
+    "Drone",
+    "Siege Tank",
+    "Battlecruiser",
+    "Ultralisk",
+    "Mutalisk",
+    "Carrier",
+    "Immortal",
+    [
+     "Dragoon",
+     "Dragoons"
+    ],
+    "Colossus",
+    "Ghost",
+    "Medic",
+    "SCV",
     "Marauder",
     "Reaper",
-    "Ghost",
     "Hellion",
     "Hellbat",
     "Firebat",
-    "Medic",
     "Vulture",
-    "Siege Tank",
     "Cyclone",
     "Widow Mine",
     "Thor",
@@ -5265,11 +5281,7 @@
     "Wraith",
     "Valkyrie",
     "Science Vessel",
-    "Battlecruiser",
-    "SCV",
     "MULE",
-    "Probe",
-    "Zealot",
     "Stalker",
     "Sentry",
     "Adept",
@@ -5277,8 +5289,6 @@
     "Dark Templar",
     "Archon",
     "Dark Archon",
-    "Immortal",
-    "Colossus",
     "Disruptor",
     "Reaver",
     "Observer",
@@ -5290,24 +5300,18 @@
     "Void Ray",
     "Oracle",
     "Tempest",
-    "Carrier",
     "Mothership",
     "Arbiter",
     "Corsair",
     "Scout",
-    "Drone",
-    "Zergling",
     "Baneling",
     "Roach",
     "Ravager",
-    "Hydralisk",
     "Lurker",
     "Infestor",
     "Swarm Host",
-    "Ultralisk",
     "Overlord",
     "Overseer",
-    "Mutalisk",
     "Corruptor",
     "Brood Lord",
     "Viper",
@@ -5326,32 +5330,37 @@
    "text": "Name a character from the StarCraft games",
    "answers": [
     [
-     "Jim Raynor",
-     "Raynor"
-    ],
-    [
      "Sarah Kerrigan",
      "Kerrigan",
      "Queen of Blades"
     ],
     [
+     "Jim Raynor",
+     "Raynor"
+    ],
+    "Zeratul",
+    [
      "Arcturus Mengsk",
      "Mengsk"
     ],
-    "Zeratul",
     "Artanis",
     "Tassadar",
     "Fenix",
-    "Aldaris",
-    [
-     "Matt Horner",
-     "Horner"
-    ],
     [
      "Tychus Findlay",
      "Tychus"
     ],
     "Abathur",
+    [
+     "Nova",
+     "Nova Terra"
+    ],
+    "Alarak",
+    [
+     "Matt Horner",
+     "Horner"
+    ],
+    "Aldaris",
     [
      "Alexei Stukov",
      "Stukov"
@@ -5364,13 +5373,8 @@
      "Valerian Mengsk",
      "Valerian"
     ],
-    [
-     "Nova",
-     "Nova Terra"
-    ],
     "Selendis",
     "Rohana",
-    "Alarak",
     "Dehaka",
     "Izsha",
     "Zagara",
@@ -5442,22 +5446,22 @@
      "Feast of Winter Veil",
      "Winter Veil"
     ],
+    "Darkmoon Faire",
+    "Love is in the Air",
     "Noblegarden",
     "Lunar Festival",
-    "Love is in the Air",
+    "Pilgrim's Bounty",
     [
      "Midsummer Fire Festival",
      "Midsummer"
     ],
-    "Harvest Festival",
-    "Pilgrim's Bounty",
     "Children's Week",
-    "Darkmoon Faire",
+    "Timewalking",
+    "Harvest Festival",
     "Pirates' Day",
     "Day of the Dead",
     "Fireworks Spectacular",
-    "Call of the Scarab",
-    "Timewalking"
+    "Call of the Scarab"
    ]
   },
   {
@@ -5554,26 +5558,6 @@
    "text": "Name a Titan, Old God or Titan-related being in Warcraft lore",
    "answers": [
     "Sargeras",
-    "Aggramar",
-    "Eonar",
-    "Khaz'goroth",
-    "Norgannon",
-    "Golganneth",
-    [
-     "Aman'Thul",
-     "Amanthul"
-    ],
-    "Argus",
-    "Pantheon",
-    "Loken",
-    "Thorim",
-    "Freya",
-    "Hodir",
-    "Mimiron",
-    "Tyr",
-    "Odyn",
-    "Ra-den",
-    "Algalon",
     [
      "C'Thun",
      "Cthun"
@@ -5586,11 +5570,31 @@
      "N'Zoth",
      "Nzoth"
     ],
+    "Azeroth",
+    [
+     "Aman'Thul",
+     "Amanthul"
+    ],
+    "Norgannon",
+    "Khaz'goroth",
+    "Eonar",
+    "Golganneth",
+    "Aggramar",
+    "Argus",
+    "Pantheon",
+    "Loken",
+    "Thorim",
+    "Freya",
+    "Hodir",
+    "Mimiron",
+    "Tyr",
+    "Odyn",
+    "Ra-den",
+    "Algalon",
     [
      "Y'Shaarj",
      "Yshaarj"
-    ],
-    "Azeroth"
+    ]
    ]
   },
   {
@@ -5602,28 +5606,12 @@
    "answers": [
     "Thrall",
     [
-     "Garrosh Hellscream",
-     "Garrosh"
-    ],
-    [
-     "Vol'jin",
-     "Voljin"
-    ],
-    [
      "Sylvanas Windrunner",
      "Sylvanas"
     ],
     [
-     "Baine Bloodhoof",
-     "Baine"
-    ],
-    [
-     "Lor'themar Theron",
-     "Lor'themar"
-    ],
-    [
-     "Gallywix",
-     "Trade Prince Gallywix"
+     "Garrosh Hellscream",
+     "Garrosh"
     ],
     [
      "Varian Wrynn",
@@ -5638,6 +5626,10 @@
      "Jaina"
     ],
     [
+     "Vol'jin",
+     "Voljin"
+    ],
+    [
      "Tyrande Whisperwind",
      "Tyrande"
     ],
@@ -5646,13 +5638,33 @@
      "Malfurion"
     ],
     [
+     "Baine Bloodhoof",
+     "Baine"
+    ],
+    [
+     "Magni Bronzebeard",
+     "Magni"
+    ],
+    [
      "Genn Greymane",
      "Greymane",
      "Genn"
     ],
     [
-     "Magni Bronzebeard",
-     "Magni"
+     "Orgrim Doomhammer",
+     "Doomhammer"
+    ],
+    [
+     "Gul'dan",
+     "Guldan"
+    ],
+    [
+     "Lor'themar Theron",
+     "Lor'themar"
+    ],
+    [
+     "Gallywix",
+     "Trade Prince Gallywix"
     ],
     [
      "Moira Thaurissan",
@@ -5666,10 +5678,6 @@
     [
      "Gelbin Mekkatorque",
      "Mekkatorque"
-    ],
-    [
-     "Orgrim Doomhammer",
-     "Doomhammer"
     ],
     [
      "Saurfang",
@@ -5688,10 +5696,6 @@
      "Llane"
     ],
     "Blackhand",
-    [
-     "Gul'dan",
-     "Guldan"
-    ],
     "Durotan",
     [
      "Grom Hellscream",

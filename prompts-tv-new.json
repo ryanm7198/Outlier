@@ -1275,22 +1275,13 @@
    "text": "Name a fictional detective (professional or amateur) from a British TV drama",
    "answers": [
     [
+     "Sherlock Holmes",
+     "sherlock",
+     "holmes"
+    ],
+    [
      "Inspector Morse",
      "morse"
-    ],
-    [
-     "Inspector Lewis",
-     "lewis",
-     "robbie lewis"
-    ],
-    [
-     "Jack Frost",
-     "frost",
-     "dci frost"
-    ],
-    [
-     "Jim Taggart",
-     "taggart"
     ],
     [
      "Hercule Poirot",
@@ -1302,42 +1293,46 @@
      "jane marple"
     ],
     [
-     "Sherlock Holmes",
-     "sherlock",
-     "holmes"
-    ],
-    [
-     "Brother Cadfael",
-     "cadfael"
+     "Jack Frost",
+     "frost",
+     "dci frost"
     ],
     [
      "Tom Barnaby",
      "barnaby"
     ],
     [
+     "Jim Taggart",
+     "taggart"
+    ],
+    [
      "Vera Stanhope",
      "vera"
+    ],
+    [
+     "Inspector Lewis",
+     "lewis",
+     "robbie lewis"
     ],
     [
      "Jane Tennison",
      "tennison"
     ],
     [
-     "Fitz",
-     "edward fitzgerald",
-     "fitzgerald"
+     "John Luther",
+     "luther"
+    ],
+    [
+     "Father Brown",
+     "brown"
     ],
     [
      "Jim Bergerac",
      "bergerac"
     ],
     [
-     "Andy Dalziel",
-     "dalziel"
-    ],
-    [
-     "Peter Pascoe",
-     "pascoe"
+     "Jonathan Creek",
+     "creek"
     ],
     [
      "Christopher Foyle",
@@ -1348,20 +1343,25 @@
      "rebus"
     ],
     [
-     "John Luther",
-     "luther"
+     "Brother Cadfael",
+     "cadfael"
+    ],
+    [
+     "Fitz",
+     "edward fitzgerald",
+     "fitzgerald"
+    ],
+    [
+     "Andy Dalziel",
+     "dalziel"
+    ],
+    [
+     "Peter Pascoe",
+     "pascoe"
     ],
     [
      "Thomas Lynley",
      "lynley"
-    ],
-    [
-     "Jonathan Creek",
-     "creek"
-    ],
-    [
-     "Father Brown",
-     "brown"
     ],
     [
      "Eddie Shoestring",
@@ -1441,33 +1441,33 @@
    ],
    "text": "Name an HBO original series (up to 2025)",
    "answers": [
+    "Game of Thrones",
     "The Sopranos",
     "The Wire",
+    "Succession",
     "Sex and the City",
-    "Six Feet Under",
-    "Deadwood",
-    "Game of Thrones",
+    "Band of Brothers",
+    "Chernobyl",
     [
      "Curb Your Enthusiasm",
      "curb"
     ],
-    "Entourage",
-    "True Blood",
-    "Boardwalk Empire",
-    "Band of Brothers",
-    "The Pacific",
     "Westworld",
+    "Euphoria",
+    "Big Little Lies",
+    "True Detective",
     "Veep",
     "Girls",
+    "True Blood",
+    "Entourage",
+    "Six Feet Under",
+    "Boardwalk Empire",
+    "Deadwood",
+    "The Pacific",
     "Silicon Valley",
-    "Succession",
-    "Big Little Lies",
-    "Euphoria",
     "Barry",
-    "Chernobyl",
     "Watchmen",
     "The Leftovers",
-    "True Detective",
     "Oz",
     "Rome",
     "Big Love",
@@ -1527,38 +1527,38 @@
    ],
    "text": "Name a British TV show commissioned by Channel 4 (past or present)",
    "answers": [
-    "Peep Show",
     "Gogglebox",
-    "Black Books",
+    "Peep Show",
+    "Big Brother",
+    "Derry Girls",
     "Father Ted",
     "The IT Crowd",
-    "Derry Girls",
-    "Hollyoaks",
-    "Brookside",
-    "Countdown",
-    "Time Team",
-    "Big Brother",
     "Come Dine with Me",
-    "Naked Attraction",
+    "Black Books",
+    "Countdown",
     [
      "The Great British Bake Off",
      "bake off",
      "gbbo"
     ],
+    "Hollyoaks",
+    "Brookside",
     "Shameless",
+    "Time Team",
+    "Naked Attraction",
+    "Top Boy",
+    "It's a Sin",
+    "The Last Leg",
+    [
+     "Da Ali G Show",
+     "ali g"
+    ],
     "Green Wing",
     "Drop the Dead Donkey",
     "Fresh Meat",
     "Utopia",
     "Humans",
-    "Top Boy",
-    "It's a Sin",
     "The Big Breakfast",
-    [
-     "Da Ali G Show",
-     "ali g"
-    ],
-    "The Last Leg",
     "8 Out of 10 Cats",
     "Grand Designs",
     "Location, Location, Location",
@@ -1607,32 +1607,32 @@
    ],
    "text": "Name a British TV quiz or game show",
    "answers": [
-    "Mastermind",
-    "Pointless",
     "The Chase",
-    "Eggheads",
-    "Tipping Point",
     [
      "Who Wants to Be a Millionaire?",
      "millionaire"
     ],
+    "Pointless",
+    "Mastermind",
     "The Weakest Link",
-    "Blockbusters",
-    "Catchphrase",
+    "Family Fortunes",
     "Countdown",
     "University Challenge",
-    "Only Connect",
+    "Deal or No Deal",
+    "Bullseye",
+    "Catchphrase",
+    "Tipping Point",
+    "Blockbusters",
+    "Eggheads",
     "A Question of Sport",
+    "The Crystal Maze",
+    "Only Connect",
     "Fifteen to One",
     "Going for Gold",
-    "Bullseye",
-    "Family Fortunes",
     "Blankety Blank",
     "Bob's Full House",
     "Wheel of Fortune",
-    "The Crystal Maze",
     "Total Wipeout",
-    "Deal or No Deal",
     "The Cube",
     "Take Me Out",
     "Strike It Lucky",
@@ -1668,30 +1668,30 @@
    "text": "Name a British children's TV show that is not a cartoon (past or present)",
    "answers": [
     "Teletubbies",
+    "Grange Hill",
     "Rainbow",
-    "Play School",
-    "Play Away",
-    "Rosie and Jim",
-    "Tweenies",
+    "The Story of Tracy Beaker",
+    "Byker Grove",
+    "Newsround",
     "Balamory",
     "In the Night Garden",
-    "Byker Grove",
-    "Grange Hill",
-    "Newsround",
-    "Rentaghost",
-    "Why Don't You...?",
     "Art Attack",
+    "Tweenies",
+    "Rentaghost",
+    "Play School",
+    "Dick and Dom in da Bungalow",
+    "Live & Kicking",
+    "Going Live!",
+    "Swap Shop",
+    "Knightmare",
+    "Chucklevision",
+    "Play Away",
+    "Rosie and Jim",
+    "Why Don't You...?",
     "Take Hart",
     "Hartbeat",
-    "The Story of Tracy Beaker",
     "The Basil Brush Show",
-    "Swap Shop",
-    "Going Live!",
-    "Live & Kicking",
     "SM:TV Live",
-    "Dick and Dom in da Bungalow",
-    "Chucklevision",
-    "Knightmare",
     "Fun House",
     "Raven",
     "Wacaday",
@@ -1732,31 +1732,31 @@
    ],
    "text": "Name a live-action sci-fi TV series (past or present)",
    "answers": [
-    "The X-Files",
-    "Battlestar Galactica",
-    "Firefly",
-    "Babylon 5",
-    "Stargate SG-1",
-    "Lost",
-    "Fringe",
     "Doctor Who",
-    "Red Dwarf",
-    "Blake's 7",
-    "Quantum Leap",
-    "Farscape",
-    "The Expanse",
-    "Westworld",
+    "The X-Files",
     "Stranger Things",
     "Black Mirror",
-    "Heroes",
-    "Eureka",
+    "Red Dwarf",
+    "Battlestar Galactica",
+    "Firefly",
+    "Lost",
+    "Westworld",
     "Torchwood",
-    "Sapphire & Steel",
-    "Space: 1999",
     "The Twilight Zone",
-    "The Outer Limits",
-    "Buck Rogers in the 25th Century",
     "Knight Rider",
+    "Quantum Leap",
+    "Stargate SG-1",
+    "Babylon 5",
+    "Blake's 7",
+    "The Expanse",
+    "Fringe",
+    "Heroes",
+    "Buck Rogers in the 25th Century",
+    "Sapphire & Steel",
+    "Farscape",
+    "Eureka",
+    "Space: 1999",
+    "The Outer Limits",
     "V",
     "Alien Nation",
     "Sliders",
@@ -1888,23 +1888,23 @@
    "answers": [
     "Downton Abbey",
     "Broadchurch",
+    "Midsomer Murders",
+    "Inspector Morse",
+    "Poirot",
+    "Vera",
     "Doc Martin",
     "Cold Feet",
-    "Victoria",
-    "Mr Selfridge",
-    "Grantchester",
     "Endeavour",
-    "Vera",
-    "Unforgotten",
-    "Liar",
-    "Midsomer Murders",
-    "Poirot",
     "Foyle's War",
     "Lewis",
-    "Inspector Morse",
     "A Touch of Frost",
     "Heartbeat",
     "The Bill",
+    "Victoria",
+    "Mr Selfridge",
+    "Unforgotten",
+    "Liar",
+    "Grantchester",
     "Cracker",
     "Prime Suspect",
     "Taggart",
@@ -2017,39 +2017,39 @@
    "text": "Name an Amazon Prime Video original series (up to 2025)",
    "answers": [
     "The Boys",
+    "Reacher",
+    "The Grand Tour",
+    "Clarkson's Farm",
+    "Fallout",
     [
      "The Marvelous Mrs. Maisel",
      "mrs maisel"
     ],
-    "Fallout",
-    "Reacher",
     [
      "Jack Ryan",
      "tom clancy's jack ryan"
     ],
-    "The Wheel of Time",
     [
      "The Lord of the Rings: The Rings of Power",
      "rings of power"
     ],
+    "Good Omens",
+    "The Man in the High Castle",
+    "Bosch",
     "Mr. & Mrs. Smith",
     "Citadel",
-    "Hunters",
-    "Good Omens",
-    "Transparent",
-    "Bosch",
-    "Goliath",
-    "Mozart in the Jungle",
-    "The Man in the High Castle",
     "Carnival Row",
     "Upload",
+    "The Wheel of Time",
+    "Hunters",
+    "Transparent",
+    "Goliath",
+    "Mozart in the Jungle",
     "Making the Cut",
     "The Terminal List",
     "Outer Range",
     "Daisy Jones & the Six",
     "Gen V",
-    "Clarkson's Farm",
-    "The Grand Tour",
     "Hanna",
     "Sneaky Pete",
     "Patriot",
@@ -2082,36 +2082,36 @@
    "text": "Name a US TV talk show or late-night show (up to 2025)",
    "answers": [
     "The Tonight Show",
-    "Late Night with David Letterman",
-    [
-     "Late Show with David Letterman",
-     "letterman"
-    ],
-    "The Daily Show",
-    "Late Night with Conan O'Brien",
-    "Saturday Night Live",
-    "The Ellen DeGeneres Show",
     [
      "The Oprah Winfrey Show",
      "oprah"
     ],
+    "The Ellen DeGeneres Show",
     "Jimmy Kimmel Live!",
+    "Saturday Night Live",
+    "The Daily Show",
+    "The Late Show with Stephen Colbert",
     [
-     "Last Week Tonight with John Oliver",
-     "last week tonight"
+     "Late Show with David Letterman",
+     "letterman"
     ],
-    "The Colbert Report",
-    "The Late Late Show with James Corden",
     [
      "The Jerry Springer Show",
      "jerry springer"
     ],
-    "Maury",
+    [
+     "Last Week Tonight with John Oliver",
+     "last week tonight"
+    ],
     "Dr. Phil",
+    "The Late Late Show with James Corden",
+    "Late Night with Conan O'Brien",
     "The View",
+    "Maury",
+    "The Colbert Report",
+    "Late Night with David Letterman",
     "Real Time with Bill Maher",
     "The Arsenio Hall Show",
-    "The Late Show with Stephen Colbert",
     "Late Night with Seth Meyers",
     "The Late Late Show with Craig Ferguson",
     "The Rosie O'Donnell Show",
@@ -2147,35 +2147,20 @@
    ],
    "text": "Name a live-action DC Comics TV series (up to 2026)",
    "answers": [
-    "Arrow",
+    "Smallville",
     "The Flash",
+    "Arrow",
+    "Gotham",
     "Supergirl",
+    "Lucifer",
+    "Titans",
+    "Doom Patrol",
     [
      "Legends of Tomorrow",
      "dc's legends of tomorrow"
     ],
-    "Batwoman",
-    "Black Lightning",
-    "Smallville",
-    "Gotham",
-    "Titans",
-    "Doom Patrol",
-    "Stargirl",
-    "Pennyworth",
-    [
-     "Lois & Clark: The New Adventures of Superman",
-     "lois and clark"
-    ],
-    "Superman & Lois",
     "Peacemaker",
-    "Constantine",
-    "Lucifer",
-    "Swamp Thing",
-    "Krypton",
-    "Birds of Prey",
-    "Watchmen",
-    "The Penguin",
-    "Gotham Knights",
+    "Superman & Lois",
     [
      "Wonder Woman",
      "wonder woman 1975"
@@ -2184,6 +2169,21 @@
      "Batman",
      "batman 1966"
     ],
+    "The Penguin",
+    "Stargirl",
+    "Batwoman",
+    "Black Lightning",
+    [
+     "Lois & Clark: The New Adventures of Superman",
+     "lois and clark"
+    ],
+    "Pennyworth",
+    "Constantine",
+    "Swamp Thing",
+    "Krypton",
+    "Birds of Prey",
+    "Watchmen",
+    "Gotham Knights",
     "Adventures of Superman",
     "Human Target",
     "Powerless",
@@ -2243,29 +2243,29 @@
    "answers": [
     "Grange Hill",
     "Waterloo Road",
-    "Teachers",
-    "Bad Education",
     "The Inbetweeners",
+    "Skins",
+    "Sex Education",
     "Glee",
+    "Bad Education",
+    "Teachers",
     "Saved by the Bell",
+    "Abbott Elementary",
+    "Heartstopper",
+    "Riverdale",
+    "Euphoria",
+    "Fresh Meat",
+    "Educating Yorkshire",
+    "Beverly Hills, 90210",
+    "Community",
     "Boy Meets World",
     "Freaks and Geeks",
-    "Abbott Elementary",
-    "Sex Education",
-    "Heartstopper",
     "Please Sir!",
-    "Fresh Meat",
     "Boston Public",
-    "Community",
     "Degrassi: The Next Generation",
-    "Riverdale",
     "Never Have I Ever",
-    "Euphoria",
-    "Skins",
     "Educating Essex",
-    "Educating Yorkshire",
     "My So-Called Life",
-    "Beverly Hills, 90210",
     "Welcome Back, Kotter",
     "Fame",
     "Head of the Class",
@@ -2582,26 +2582,8 @@
    "text": "Name a character in Downton Abbey",
    "answers": [
     [
-     "Robert Crawley",
-     "lord grantham",
-     "robert"
-    ],
-    [
-     "Cora Crawley",
-     "lady grantham",
-     "cora"
-    ],
-    [
      "Lady Mary Crawley",
      "mary"
-    ],
-    [
-     "Lady Edith Crawley",
-     "edith"
-    ],
-    [
-     "Lady Sybil Crawley",
-     "sybil"
     ],
     [
      "Violet Crawley",
@@ -2609,22 +2591,40 @@
      "violet"
     ],
     [
-     "Matthew Crawley",
-     "matthew"
-    ],
-    [
-     "Isobel Crawley",
-     "isobel"
-    ],
-    [
      "Mr Carson",
      "carson",
      "charles carson"
     ],
     [
+     "Robert Crawley",
+     "lord grantham",
+     "robert"
+    ],
+    [
+     "Lady Edith Crawley",
+     "edith"
+    ],
+    [
      "Mrs Hughes",
      "hughes",
      "elsie hughes"
+    ],
+    [
+     "Matthew Crawley",
+     "matthew"
+    ],
+    [
+     "Thomas Barrow",
+     "barrow",
+     "thomas"
+    ],
+    [
+     "Lady Sybil Crawley",
+     "sybil"
+    ],
+    [
+     "Tom Branson",
+     "branson"
     ],
     [
      "John Bates",
@@ -2636,9 +2636,9 @@
      "anna"
     ],
     [
-     "Thomas Barrow",
-     "barrow",
-     "thomas"
+     "Cora Crawley",
+     "lady grantham",
+     "cora"
     ],
     [
      "Daisy Mason",
@@ -2648,6 +2648,10 @@
      "Mrs Patmore",
      "patmore",
      "beryl patmore"
+    ],
+    [
+     "Isobel Crawley",
+     "isobel"
     ],
     [
      "Sarah O'Brien",
@@ -2661,10 +2665,6 @@
     [
      "Joseph Molesley",
      "molesley"
-    ],
-    [
-     "Tom Branson",
-     "branson"
     ],
     [
      "Lady Rose",

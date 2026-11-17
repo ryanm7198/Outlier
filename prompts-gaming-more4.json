@@ -8,34 +8,49 @@
    ],
    "text": "Name a creature or enemy type in Skyrim (including DLC)",
    "answers": [
-    "Ash Hopper",
-    "Ash Guardian",
-    "Ash Spawn",
-    "Bear",
-    "Bristleback",
-    "Chicken",
-    "Cow",
-    "Deer",
-    "Dog",
-    "Fox",
-    "Goat",
-    "Horker",
-    "Horse",
-    "Mammoth",
-    "Mudcrab",
+    "Dragon",
+    "Draugr",
     [
-     "Nix-Hound",
-     "Nix Hound"
+     "Frostbite Spider",
+     "Spider"
     ],
-    "Rabbit",
+    "Wolf",
+    "Bear",
+    "Troll",
+    "Giant",
+    "Mammoth",
+    "Skeever",
     [
      "Sabre Cat",
      "Sabrecat",
      "Saber Cat"
     ],
-    "Skeever",
+    "Mudcrab",
+    "Horker",
+    [
+     "Chaurus",
+     "Chaurus Reaper"
+    ],
+    "Falmer",
+    "Deer",
+    "Horse",
+    "Spriggan",
+    "Hagraven",
+    "Ash Hopper",
+    "Ash Guardian",
+    "Ash Spawn",
+    "Bristleback",
+    "Chicken",
+    "Cow",
+    "Dog",
+    "Fox",
+    "Goat",
+    [
+     "Nix-Hound",
+     "Nix Hound"
+    ],
+    "Rabbit",
     "Slaughterfish",
-    "Wolf",
     [
      "Flame Atronach",
      "Fire Atronach"
@@ -64,32 +79,17 @@
     ],
     "Dwarven Spider",
     "Burnt Spriggan",
-    [
-     "Chaurus",
-     "Chaurus Reaper"
-    ],
-    "Dragon",
-    "Falmer",
     "Fire Wyrm",
     "Frost Giant",
-    [
-     "Frostbite Spider",
-     "Spider"
-    ],
     "Gargoyle",
-    "Giant",
-    "Hagraven",
     "Ice Wraith",
     "Netch",
     "Riekling",
-    "Spriggan",
-    "Troll",
     "Werewolf",
     [
      "Wisp",
      "Will-o-the-wisp"
     ],
-    "Draugr",
     "Dragon Priest",
     "Ghost",
     "Skeleton",
@@ -104,15 +104,15 @@
    ],
    "text": "Name a summon (summoned monster) from the Final Fantasy series",
    "answers": [
+    "Bahamut",
     "Ifrit",
     "Shiva",
-    "Ramuh",
-    "Bahamut",
     "Odin",
+    "Ramuh",
     "Leviathan",
     "Titan",
-    "Carbuncle",
     "Phoenix",
+    "Carbuncle",
     "Alexander",
     [
      "Diabolos",
@@ -299,26 +299,26 @@
    ],
    "text": "Name a pre-made character class in The Elder Scrolls IV: Oblivion",
    "answers": [
+    "Mage",
+    "Warrior",
+    "Thief",
+    "Assassin",
+    "Archer",
+    "Barbarian",
+    "Knight",
+    "Battlemage",
+    "Nightblade",
+    "Spellsword",
+    "Bard",
+    "Healer",
+    "Monk",
     "Acrobat",
     "Agent",
-    "Archer",
-    "Assassin",
-    "Barbarian",
-    "Bard",
-    "Battlemage",
     "Crusader",
-    "Healer",
-    "Knight",
-    "Mage",
-    "Monk",
-    "Nightblade",
     "Pilgrim",
     "Rogue",
     "Scout",
     "Sorcerer",
-    "Spellsword",
-    "Thief",
-    "Warrior",
     [
      "Witchhunter",
      "Witch Hunter"
@@ -425,10 +425,30 @@
    ],
    "text": "Name a playable character in Final Fantasy IV, V, VI or XV",
    "answers": [
+    [
+     "Noctis",
+     "Noctis Lucis Caelum"
+    ],
     "Cecil",
+    "Terra",
+    "Locke",
     "Kain",
-    "Rosa",
     "Rydia",
+    "Rosa",
+    [
+     "Prompto",
+     "Prompto Argentum"
+    ],
+    "Ignis",
+    [
+     "Gladiolus",
+     "Gladio"
+    ],
+    "Cyan",
+    "Edgar",
+    "Sabin",
+    "Celes",
+    "Bartz",
     "Edge",
     "Tellah",
     "Palom",
@@ -436,17 +456,10 @@
     "Yang",
     "FuSoYa",
     "Edward",
-    "Bartz",
     "Lenna",
     "Faris",
     "Galuf",
     "Krile",
-    "Terra",
-    "Locke",
-    "Edgar",
-    "Sabin",
-    "Celes",
-    "Cyan",
     "Shadow",
     "Gau",
     "Setzer",
@@ -454,14 +467,7 @@
     "Relm",
     "Mog",
     "Umaro",
-    "Gogo",
-    "Noctis",
-    [
-     "Gladiolus",
-     "Gladio"
-    ],
-    "Ignis",
-    "Prompto"
+    "Gogo"
    ]
   },
   {
@@ -679,41 +685,41 @@
    ],
    "text": "Name a map in Rainbow Six Siege (as of 2025)",
    "answers": [
-    "Bank",
-    "Border",
-    "Chalet",
     "Clubhouse",
-    "Coastline",
-    "Consulate",
-    "Emerald Plains",
-    "Favela",
-    "Fortress",
-    [
-     "Hereford Base",
-     "Hereford"
-    ],
+    "Bank",
+    "Oregon",
     "House",
     [
      "Kafe Dostoyevsky",
      "Kafe"
     ],
+    "Chalet",
+    "Consulate",
+    "Skyscraper",
+    "Border",
+    "Coastline",
+    "Villa",
+    "Theme Park",
+    "Favela",
     "Kanal",
+    "Yacht",
+    [
+     "Hereford Base",
+     "Hereford"
+    ],
+    "Emerald Plains",
+    "Fortress",
     "Lair",
     [
      "Nighthaven Labs",
      "Nighthaven"
     ],
-    "Oregon",
     "Outback",
-    "Skyscraper",
     [
      "Stadium Bravo",
      "Stadium"
     ],
-    "Theme Park",
     "Tower",
-    "Villa",
-    "Yacht",
     [
      "Bartlett University",
      "Bartlett"
@@ -838,31 +844,31 @@
    ],
    "text": "Name a Normal-type Pokémon from the original 151",
    "answers": [
+    "Eevee",
+    "Snorlax",
+    "Jigglypuff",
+    "Meowth",
+    "Ditto",
     "Pidgey",
+    "Rattata",
+    "Chansey",
+    "Kangaskhan",
+    "Lickitung",
+    "Tauros",
+    "Porygon",
     "Pidgeotto",
     "Pidgeot",
-    "Rattata",
     "Raticate",
     "Spearow",
     "Fearow",
-    "Jigglypuff",
     "Wigglytuff",
-    "Meowth",
     "Persian",
     [
      "Farfetch'd",
      "Farfetchd"
     ],
     "Doduo",
-    "Dodrio",
-    "Lickitung",
-    "Chansey",
-    "Kangaskhan",
-    "Tauros",
-    "Ditto",
-    "Eevee",
-    "Porygon",
-    "Snorlax"
+    "Dodrio"
    ]
   },
   {
@@ -873,13 +879,20 @@
    "text": "Name a Poison-type Pokémon from the original 151",
    "answers": [
     "Bulbasaur",
-    "Ivysaur",
-    "Venusaur",
-    "Weedle",
-    "Kakuna",
-    "Beedrill",
     "Ekans",
     "Arbok",
+    "Zubat",
+    "Koffing",
+    "Weezing",
+    "Grimer",
+    "Muk",
+    "Gengar",
+    "Nidoking",
+    "Beedrill",
+    "Venusaur",
+    "Ivysaur",
+    "Weedle",
+    "Kakuna",
     [
      "Nidoran female",
      "female nidoran",
@@ -893,8 +906,6 @@
      "nidoran m"
     ],
     "Nidorino",
-    "Nidoking",
-    "Zubat",
     "Golbat",
     "Oddish",
     "Gloom",
@@ -906,13 +917,8 @@
     "Victreebel",
     "Tentacool",
     "Tentacruel",
-    "Grimer",
-    "Muk",
     "Gastly",
-    "Haunter",
-    "Gengar",
-    "Koffing",
-    "Weezing"
+    "Haunter"
    ]
   },
   {
@@ -922,20 +928,20 @@
    ],
    "text": "Name a Ground-type Pokémon from the original 151",
    "answers": [
-    "Sandshrew",
-    "Sandslash",
-    "Nidoqueen",
-    "Nidoking",
     "Diglett",
-    "Dugtrio",
     "Geodude",
-    "Graveler",
-    "Golem",
     "Onix",
     "Cubone",
+    "Sandshrew",
+    "Rhydon",
+    "Dugtrio",
+    "Golem",
     "Marowak",
     "Rhyhorn",
-    "Rhydon"
+    "Graveler",
+    "Sandslash",
+    "Nidoqueen",
+    "Nidoking"
    ]
   },
   {
@@ -946,27 +952,27 @@
    "text": "Name a Flying-type Pokémon from the original 151 (including dual types)",
    "answers": [
     "Charizard",
-    "Butterfree",
-    "Pidgey",
-    "Pidgeotto",
     "Pidgeot",
+    "Pidgey",
+    "Zubat",
+    "Gyarados",
+    "Dragonite",
+    "Articuno",
+    "Zapdos",
+    "Moltres",
+    "Aerodactyl",
+    "Butterfree",
+    "Golbat",
+    "Pidgeotto",
     "Spearow",
     "Fearow",
-    "Zubat",
-    "Golbat",
     [
      "Farfetch'd",
      "Farfetchd"
     ],
     "Doduo",
     "Dodrio",
-    "Scyther",
-    "Gyarados",
-    "Aerodactyl",
-    "Articuno",
-    "Zapdos",
-    "Moltres",
-    "Dragonite"
+    "Scyther"
    ]
   },
   {
@@ -1005,10 +1011,19 @@
    ],
    "text": "Name an original 151 Pokémon beginning with D, E or F",
    "answers": [
-    "Fearow",
-    "Ekans",
+    "Eevee",
+    "Dragonite",
+    "Ditto",
+    "Dratini",
     "Diglett",
+    "Flareon",
+    "Exeggutor",
+    "Electabuzz",
+    "Drowzee",
     "Dugtrio",
+    "Dragonair",
+    "Ekans",
+    "Fearow",
     [
      "Farfetch'd",
      "Farfetchd"
@@ -1016,17 +1031,8 @@
     "Doduo",
     "Dodrio",
     "Dewgong",
-    "Drowzee",
     "Electrode",
-    "Exeggcute",
-    "Exeggutor",
-    "Electabuzz",
-    "Ditto",
-    "Eevee",
-    "Flareon",
-    "Dratini",
-    "Dragonair",
-    "Dragonite"
+    "Exeggcute"
    ]
   },
   {
@@ -1036,33 +1042,33 @@
    ],
    "text": "Name an original 151 Pokémon beginning with G, H, I, J or K",
    "answers": [
+    "Gengar",
+    "Jigglypuff",
+    "Gyarados",
+    "Geodude",
+    "Growlithe",
+    "Golem",
+    "Gastly",
+    "Haunter",
+    "Jynx",
+    "Jolteon",
+    "Kadabra",
+    "Koffing",
+    "Kangaskhan",
+    "Krabby",
     "Ivysaur",
     "Kakuna",
-    "Jigglypuff",
     "Golbat",
     "Gloom",
     "Golduck",
-    "Growlithe",
-    "Kadabra",
-    "Geodude",
     "Graveler",
-    "Golem",
     "Grimer",
-    "Gastly",
-    "Haunter",
-    "Gengar",
     "Hypno",
-    "Krabby",
     "Kingler",
     "Hitmonlee",
     "Hitmonchan",
-    "Koffing",
-    "Kangaskhan",
     "Horsea",
     "Goldeen",
-    "Jynx",
-    "Gyarados",
-    "Jolteon",
     "Kabuto",
     "Kabutops"
    ]
@@ -1074,10 +1080,22 @@
    ],
    "text": "Name an original 151 Pokémon beginning with N, O or P",
    "answers": [
-    "Pidgey",
-    "Pidgeotto",
-    "Pidgeot",
     "Pikachu",
+    "Psyduck",
+    "Onix",
+    "Ninetales",
+    "Oddish",
+    "Pidgey",
+    "Nidoking",
+    "Ponyta",
+    "Pinsir",
+    "Porygon",
+    "Persian",
+    "Primeape",
+    "Omanyte",
+    "Poliwag",
+    "Pidgeot",
+    "Pidgeotto",
     [
      "Nidoran female",
      "female nidoran",
@@ -1091,22 +1109,10 @@
      "nidoran m"
     ],
     "Nidorino",
-    "Nidoking",
-    "Ninetales",
-    "Oddish",
     "Paras",
     "Parasect",
-    "Persian",
-    "Psyduck",
-    "Primeape",
-    "Poliwag",
     "Poliwhirl",
     "Poliwrath",
-    "Ponyta",
-    "Onix",
-    "Pinsir",
-    "Porygon",
-    "Omanyte",
     "Omastar"
    ]
   },
@@ -1118,25 +1124,25 @@
    "text": "Name an original 151 Pokémon beginning with R or S",
    "answers": [
     "Squirtle",
-    "Rattata",
-    "Raticate",
-    "Spearow",
+    "Snorlax",
     "Raichu",
-    "Sandshrew",
-    "Sandslash",
-    "Rapidash",
+    "Scyther",
+    "Starmie",
     "Slowpoke",
-    "Slowbro",
+    "Rattata",
+    "Sandshrew",
+    "Rhydon",
+    "Rapidash",
+    "Staryu",
     "Seel",
     "Shellder",
+    "Raticate",
+    "Spearow",
+    "Sandslash",
+    "Slowbro",
     "Rhyhorn",
-    "Rhydon",
     "Seadra",
-    "Seaking",
-    "Staryu",
-    "Starmie",
-    "Scyther",
-    "Snorlax"
+    "Seaking"
    ]
   },
   {
@@ -1147,24 +1153,24 @@
    "text": "Name an original 151 Pokémon beginning with T, V, W or Z",
    "answers": [
     "Venusaur",
-    "Wartortle",
-    "Weedle",
+    "Vaporeon",
+    "Zapdos",
     "Vulpix",
+    "Weezing",
+    "Tentacool",
+    "Voltorb",
     "Wigglytuff",
     "Zubat",
+    "Tauros",
+    "Wartortle",
+    "Weedle",
     "Vileplume",
     "Venonat",
     "Venomoth",
     "Weepinbell",
     "Victreebel",
-    "Tentacool",
     "Tentacruel",
-    "Voltorb",
-    "Weezing",
-    "Tangela",
-    "Tauros",
-    "Vaporeon",
-    "Zapdos"
+    "Tangela"
    ]
   },
   {
@@ -1174,32 +1180,32 @@
    ],
    "text": "Name a fully evolved starter Pokémon from Generation I to IX",
    "answers": [
-    "Venusaur",
     "Charizard",
     "Blastoise",
-    "Meganium",
+    "Venusaur",
+    "Greninja",
+    "Blaziken",
+    "Sceptile",
+    "Swampert",
     "Typhlosion",
+    "Infernape",
+    "Empoleon",
+    "Cinderace",
+    "Rillaboom",
+    "Meganium",
     [
      "Feraligatr",
      "Feraligator"
     ],
-    "Sceptile",
-    "Blaziken",
-    "Swampert",
     "Torterra",
-    "Infernape",
-    "Empoleon",
     "Serperior",
     "Emboar",
     "Samurott",
     "Chesnaught",
     "Delphox",
-    "Greninja",
     "Decidueye",
     "Incineroar",
     "Primarina",
-    "Rillaboom",
-    "Cinderace",
     "Inteleon",
     "Meowscarada",
     "Skeledirge",
@@ -1431,21 +1437,81 @@
    ],
    "text": "Name a hero in Dota 2 (as of 2026)",
    "answers": [
+    [
+     "Pudge",
+     "Butcher"
+    ],
+    [
+     "Invoker",
+     "Carl"
+    ],
+    [
+     "Crystal Maiden",
+     "Rylai"
+    ],
+    [
+     "Axe",
+     "Mogul Khan"
+    ],
+    [
+     "Juggernaut",
+     "Yurnero"
+    ],
+    [
+     "Anti-Mage",
+     "Antimage"
+    ],
+    [
+     "Sniper",
+     "Kardel Sharpeye"
+    ],
+    [
+     "Lina",
+     "Lina Inverse"
+    ],
+    [
+     "Phantom Assassin",
+     "Mortred"
+    ],
+    "Techies",
+    "Earthshaker",
+    "Lion",
+    "Sven",
+    [
+     "Windranger",
+     "Windrunner"
+    ],
+    [
+     "Drow Ranger",
+     "Drow",
+     "Traxex"
+    ],
+    "Slark",
+    "Tiny",
+    [
+     "Shadow Fiend",
+     "Nevermore"
+    ],
+    "Zeus",
+    "Riki",
+    "Mirana",
+    [
+     "Storm Spirit",
+     "Raijin"
+    ],
+    [
+     "Spirit Breaker",
+     "Barathrum"
+    ],
+    "Rubick",
+    "Tinker",
     "Abaddon",
     "Alchemist",
     [
      "Ancient Apparition",
      "Kaldr"
     ],
-    [
-     "Anti-Mage",
-     "Antimage"
-    ],
     "Arc Warden",
-    [
-     "Axe",
-     "Mogul Khan"
-    ],
     "Bane",
     "Batrider",
     "Beastmaster",
@@ -1466,10 +1532,6 @@
      "Clockwerk",
      "Clock"
     ],
-    [
-     "Crystal Maiden",
-     "Rylai"
-    ],
     "Dark Seer",
     "Dark Willow",
     "Dawnbreaker",
@@ -1481,13 +1543,7 @@
      "Dragon Knight",
      "Davion"
     ],
-    [
-     "Drow Ranger",
-     "Drow",
-     "Traxex"
-    ],
     "Earth Spirit",
-    "Earthshaker",
     [
      "Elder Titan",
      "Elder Titan"
@@ -1504,18 +1560,10 @@
     "Hoodwink",
     "Huskar",
     [
-     "Invoker",
-     "Carl"
-    ],
-    [
      "Io",
      "Wisp"
     ],
     "Jakiro",
-    [
-     "Juggernaut",
-     "Yurnero"
-    ],
     [
      "Keeper of the Light",
      "Ezalor",
@@ -1536,11 +1584,6 @@
      "Naix"
     ],
     [
-     "Lina",
-     "Lina Inverse"
-    ],
-    "Lion",
-    [
      "Lone Druid",
      "Sylla"
     ],
@@ -1551,7 +1594,6 @@
     "Mars",
     "Medusa",
     "Meepo",
-    "Mirana",
     [
      "Monkey King",
      "Sun Wukong"
@@ -1588,38 +1630,24 @@
     ],
     "Pangolier",
     [
-     "Phantom Assassin",
-     "Mortred"
-    ],
-    [
      "Phantom Lancer",
      "Azwraith"
     ],
     "Phoenix",
     "Primal Beast",
     "Puck",
-    [
-     "Pudge",
-     "Butcher"
-    ],
     "Pugna",
     [
      "Queen of Pain",
      "Akasha"
     ],
     "Razor",
-    "Riki",
     "Ringmaster",
-    "Rubick",
     [
      "Sand King",
      "Crixalis"
     ],
     "Shadow Demon",
-    [
-     "Shadow Fiend",
-     "Nevermore"
-    ],
     [
      "Shadow Shaman",
      "Rhasta"
@@ -1630,23 +1658,8 @@
      "Skywrath"
     ],
     "Slardar",
-    "Slark",
     "Snapfire",
-    [
-     "Sniper",
-     "Kardel Sharpeye"
-    ],
     "Spectre",
-    [
-     "Spirit Breaker",
-     "Barathrum"
-    ],
-    [
-     "Storm Spirit",
-     "Raijin"
-    ],
-    "Sven",
-    "Techies",
     [
      "Templar Assassin",
      "Lanaya"
@@ -1657,8 +1670,6 @@
      "Timbersaw",
      "Rizzrack"
     ],
-    "Tinker",
-    "Tiny",
     [
      "Treant Protector",
      "Treant"
@@ -1684,10 +1695,6 @@
     "Void Spirit",
     "Warlock",
     "Weaver",
-    [
-     "Windranger",
-     "Windrunner"
-    ],
     "Winter Wyvern",
     [
      "Witch Doctor",
@@ -1696,8 +1703,7 @@
     [
      "Wraith King",
      "Skeleton King"
-    ],
-    "Zeus"
+    ]
    ]
   },
   {
@@ -1707,49 +1713,62 @@
    ],
    "text": "Name a Roblox game (as listed on Wikipedia's list of Roblox games, 2026)",
    "answers": [
-    "99 Nights in the Forest",
     "Adopt Me!",
-    "Arsenal",
-    "Bee Swarm Simulator",
     [
      "Brookhaven RP",
      "Brookhaven"
     ],
-    "Dandy's World",
-    "Doors",
-    "Dress to Impress",
-    "Driving Empire",
-    "Epic Minigames",
-    "Flee the Facility",
-    "Frontlines",
-    "Grow a Garden",
-    "Hide and Seek Extreme",
     "Jailbreak",
-    "MeepCity",
-    [
-     "The Mimic",
-     "Mimic"
-    ],
+    "Doors",
+    "Piggy",
     [
      "Murder Mystery 2",
      "Murder Mystery"
     ],
+    "Arsenal",
+    "Bee Swarm Simulator",
     [
      "Natural Disaster Survival",
      "Natural Disasters"
     ],
+    "MeepCity",
     [
      "Pet Simulator",
      "Pet Simulator 99",
      "Pet Sim"
     ],
     "Phantom Forces",
-    "Piggy",
+    "Grow a Garden",
+    "Dress to Impress",
+    [
+     "Blox Fruits",
+     "Blox Fruit"
+    ],
+    "Tower of Hell",
+    "Royale High",
     "Rainbow Friends",
+    "Flee the Facility",
+    [
+     "Work at a Pizza Place",
+     "Pizza Place"
+    ],
+    [
+     "Welcome to Bloxburg",
+     "Bloxburg"
+    ],
+    "99 Nights in the Forest",
+    "Dandy's World",
+    "Driving Empire",
+    "Epic Minigames",
+    "Frontlines",
+    "Hide and Seek Extreme",
+    [
+     "The Mimic",
+     "Mimic"
+    ],
     "Restaurant Tycoon 2",
     "Rift Royale",
     "Rivals",
-    "Royale High",
     "Scuba Diving at Quill Lake",
     [
      "SharkBite",
@@ -1762,15 +1781,6 @@
      "Theme Park Tycoon 2",
      "Theme Park Tycoon"
     ],
-    "Tower of Hell",
-    [
-     "Welcome to Bloxburg",
-     "Bloxburg"
-    ],
-    [
-     "Work at a Pizza Place",
-     "Pizza Place"
-    ],
     "The Co-Worker Game",
     "Notoriety",
     "Sonic Speed Simulator",
@@ -1781,10 +1791,6 @@
     [
      "BedWars",
      "Bed Wars"
-    ],
-    [
-     "Blox Fruits",
-     "Blox Fruit"
     ],
     "Poppy Playtime Forever",
     [
@@ -2048,33 +2054,33 @@
    ],
    "text": "Name a team that played in the Overwatch League (2018 to 2023)",
    "answers": [
-    "Boston Uprising",
-    "Dallas Fuel",
-    "Florida Mayhem",
-    "Houston Outlaws",
     "London Spitfire",
     [
-     "Los Angeles Gladiators",
-     "LA Gladiators"
+     "San Francisco Shock",
+     "SF Shock"
     ],
+    "Dallas Fuel",
     [
-     "Los Angeles Valiant",
-     "LA Valiant"
+     "Seoul Dynasty",
+     "Seoul Infernal"
     ],
     [
      "New York Excelsior",
      "NY Excelsior"
     ],
-    "Philadelphia Fusion",
     [
-     "San Francisco Shock",
-     "SF Shock"
-    ],
-    [
-     "Seoul Dynasty",
-     "Seoul Infernal"
+     "Los Angeles Gladiators",
+     "LA Gladiators"
     ],
     "Shanghai Dragons",
+    "Philadelphia Fusion",
+    [
+     "Los Angeles Valiant",
+     "LA Valiant"
+    ],
+    "Boston Uprising",
+    "Houston Outlaws",
+    "Florida Mayhem",
     "Atlanta Reign",
     "Chengdu Hunters",
     "Guangzhou Charge",
@@ -2096,37 +2102,37 @@
    ],
    "text": "Name a passive mob in Minecraft (as listed on the Minecraft Wiki, 2026)",
    "answers": [
+    "Pig",
+    "Cow",
+    "Sheep",
+    "Chicken",
+    "Horse",
+    "Cat",
+    "Rabbit",
+    "Parrot",
+    "Donkey",
+    "Bat",
+    "Axolotl",
+    "Mooshroom",
+    "Squid",
+    "Ocelot",
+    "Frog",
+    "Camel",
     "Allay",
     "Armadillo",
-    "Axolotl",
-    "Bat",
-    "Camel",
-    "Camel Husk",
-    "Cat",
-    "Chicken",
     "Cod",
-    "Copper Golem",
-    "Cow",
-    "Donkey",
-    "Frog",
-    "Glow Squid",
-    "Happy Ghast",
-    "Horse",
-    "Mooshroom",
-    "Mule",
-    "Ocelot",
-    "Parrot",
-    "Pig",
-    "Rabbit",
     "Salmon",
-    "Sheep",
+    "Happy Ghast",
+    "Glow Squid",
+    "Mule",
+    "Camel Husk",
+    "Copper Golem",
     "Skeleton Horse",
     "Sniffer",
     [
      "Snow Golem",
      "Snow Man"
     ],
-    "Squid",
     "Strider",
     "Sulfur Cube",
     "Tadpole",
@@ -2144,32 +2150,32 @@
    ],
    "text": "Name an animal or mob you can breed in Minecraft (as of 2026)",
    "answers": [
-    "Armadillo",
-    "Axolotl",
-    "Bee",
-    "Camel",
-    "Cat",
-    "Chicken",
     "Cow",
+    "Pig",
+    "Sheep",
+    "Chicken",
+    "Horse",
+    "Cat",
+    "Wolf",
+    "Rabbit",
     "Donkey",
+    "Llama",
     "Fox",
+    "Panda",
+    "Bee",
+    "Turtle",
+    "Axolotl",
     "Frog",
     "Goat",
-    "Hoglin",
-    "Horse",
-    "Llama",
+    "Camel",
     "Mooshroom",
-    "Nautilus",
     "Ocelot",
-    "Panda",
-    "Pig",
-    "Rabbit",
-    "Sheep",
-    "Sniffer",
+    "Hoglin",
     "Strider",
+    "Sniffer",
+    "Armadillo",
+    "Nautilus",
     "Trader Llama",
-    "Turtle",
-    "Wolf",
     "Villager"
    ]
   },
@@ -2190,10 +2196,15 @@
     ],
     "Pufferfish",
     "Tropical Fish",
-    "Lily Pad",
-    "Bowl",
+    "Enchanted Book",
     "Fishing Rod",
+    "Name Tag",
+    "Saddle",
+    "Lily Pad",
     "Leather",
+    "Bow",
+    "Nautilus Shell",
+    "Bowl",
     "Leather Boots",
     "Rotten Flesh",
     "Stick",
@@ -2202,12 +2213,7 @@
     "Bone",
     "Ink Sac",
     "Tripwire Hook",
-    "Bamboo",
-    "Bow",
-    "Enchanted Book",
-    "Name Tag",
-    "Nautilus Shell",
-    "Saddle"
+    "Bamboo"
    ]
   },
   {
@@ -2217,22 +2223,22 @@
    ],
    "text": "Name an item that mobs drop in Minecraft",
    "answers": [
+    "Gunpowder",
     "Rotten Flesh",
     "Bone",
-    "Arrow",
     "String",
-    "Spider Eye",
-    "Gunpowder",
+    "Arrow",
     "Ender Pearl",
+    "Spider Eye",
     "Blaze Rod",
-    "Ghast Tear",
+    "Feather",
+    "Leather",
     [
      "Slimeball",
      "Slime Ball"
     ],
+    "Ghast Tear",
     "Magma Cream",
-    "Leather",
-    "Feather",
     [
      "Raw Chicken",
      "Chicken"
@@ -2297,43 +2303,43 @@
    ],
    "text": "Name a mineral, ingot or gem item in Minecraft",
    "answers": [
-    "Coal",
-    "Charcoal",
+    "Diamond",
     [
      "Iron Ingot",
      "Iron"
     ],
     [
-     "Copper Ingot",
-     "Copper"
-    ],
-    [
      "Gold Ingot",
      "Gold"
     ],
-    "Diamond",
     "Emerald",
-    [
-     "Lapis Lazuli",
-     "Lapis"
-    ],
+    "Coal",
     [
      "Redstone",
      "Redstone Dust"
     ],
     [
-     "Nether Quartz",
-     "Quartz"
+     "Lapis Lazuli",
+     "Lapis"
     ],
     [
      "Netherite Ingot",
      "Netherite"
     ],
-    "Netherite Scrap",
+    [
+     "Copper Ingot",
+     "Copper"
+    ],
+    "Charcoal",
+    [
+     "Nether Quartz",
+     "Quartz"
+    ],
     [
      "Amethyst Shard",
      "Amethyst"
     ],
+    "Netherite Scrap",
     "Raw Iron",
     "Raw Copper",
     "Raw Gold",
@@ -2406,42 +2412,9 @@
    "text": "Name a Call of Duty game set in the Second World War",
    "answers": [
     [
-     "Call of Duty",
-     "Call of Duty 1",
-     "Call of Duty 2003"
-    ],
-    [
-     "Call of Duty: United Offensive",
-     "United Offensive"
-    ],
-    [
-     "Call of Duty: Finest Hour",
-     "Finest Hour"
-    ],
-    [
-     "Call of Duty 2",
-     "Call of Duty II"
-    ],
-    [
-     "Call of Duty 2: Big Red One",
-     "Big Red One"
-    ],
-    [
-     "Call of Duty 3",
-     "Call of Duty III"
-    ],
-    [
-     "Call of Duty: Roads to Victory",
-     "Roads to Victory"
-    ],
-    [
      "Call of Duty: World at War",
      "World at War",
      "CoD WaW"
-    ],
-    [
-     "Call of Duty: World at War - Final Fronts",
-     "Final Fronts"
     ],
     [
      "Call of Duty: WWII",
@@ -2450,8 +2423,41 @@
      "WW2"
     ],
     [
+     "Call of Duty 2",
+     "Call of Duty II"
+    ],
+    [
+     "Call of Duty",
+     "Call of Duty 1",
+     "Call of Duty 2003"
+    ],
+    [
      "Call of Duty: Vanguard",
      "Vanguard"
+    ],
+    [
+     "Call of Duty 3",
+     "Call of Duty III"
+    ],
+    [
+     "Call of Duty: Finest Hour",
+     "Finest Hour"
+    ],
+    [
+     "Call of Duty: United Offensive",
+     "United Offensive"
+    ],
+    [
+     "Call of Duty 2: Big Red One",
+     "Big Red One"
+    ],
+    [
+     "Call of Duty: Roads to Victory",
+     "Roads to Victory"
+    ],
+    [
+     "Call of Duty: World at War - Final Fronts",
+     "Final Fronts"
     ]
    ]
   },

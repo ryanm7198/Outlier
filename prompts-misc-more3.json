@@ -230,11 +230,6 @@
      "T shirt"
     ],
     [
-     "Polo shirt",
-     "Polo"
-    ],
-    "Blouse",
-    [
      "Hoodie",
      "Hooded top"
     ],
@@ -243,6 +238,7 @@
      "Sweater",
      "Pullover"
     ],
+    "Blouse",
     [
      "Cardigan",
      "Cardie"
@@ -252,12 +248,16 @@
      "Singlet"
     ],
     [
+     "Polo shirt",
+     "Polo"
+    ],
+    "Sweatshirt",
+    "Crop top",
+    [
      "Tank top",
      "Tank"
     ],
-    "Crop top",
     "Tunic",
-    "Sweatshirt",
     [
      "Turtleneck",
      "Polo neck",
@@ -464,6 +464,11 @@
    "text": "Name a type of bag",
    "answers": [
     [
+     "Backpack",
+     "Rucksack"
+    ],
+    "Handbag",
+    [
      "Tote",
      "Tote bag"
     ],
@@ -471,10 +476,17 @@
      "Clutch",
      "Clutch bag"
     ],
+    "Shoulder bag",
     "Satchel",
     [
-     "Backpack",
-     "Rucksack"
+     "Messenger bag",
+     "Messenger"
+    ],
+    "Holdall",
+    [
+     "Duffel bag",
+     "Duffle bag",
+     "Duffel"
     ],
     [
      "Bumbag",
@@ -482,17 +494,7 @@
      "Waist bag",
      "Bum bag"
     ],
-    [
-     "Messenger bag",
-     "Messenger"
-    ],
-    [
-     "Duffel bag",
-     "Duffle bag",
-     "Duffel"
-    ],
-    "Holdall",
-    "Shoulder bag",
+    "Briefcase",
     "Bucket bag",
     [
      "Hobo bag",
@@ -503,7 +505,6 @@
      "Baguette"
     ],
     "Bowling bag",
-    "Briefcase",
     [
      "Carpet bag",
      "Carpetbag"
@@ -517,7 +518,6 @@
      "Cross-body bag",
      "Crossbody"
     ],
-    "Handbag",
     [
      "Shopper",
      "Shopper bag"
@@ -604,23 +604,16 @@
      "Spots",
      "Spotty"
     ],
-    "Paisley",
     "Tartan",
-    "Plaid",
-    [
-     "Gingham",
-     "Gingham check"
-    ],
-    [
-     "Houndstooth",
-     "Dogtooth",
-     "Hounds"
-    ],
-    "Herringbone",
     [
      "Floral",
      "Flowers",
      "Flower print"
+    ],
+    [
+     "Check",
+     "Checks",
+     "Checked"
     ],
     [
      "Camouflage",
@@ -630,17 +623,24 @@
      "Leopard print",
      "Leopard"
     ],
+    "Paisley",
+    [
+     "Gingham",
+     "Gingham check"
+    ],
+    "Plaid",
+    [
+     "Houndstooth",
+     "Dogtooth",
+     "Hounds"
+    ],
+    "Tie-dye",
+    "Herringbone",
     [
      "Argyle",
      "Argyll"
     ],
     "Chevron",
-    [
-     "Check",
-     "Checks",
-     "Checked"
-    ],
-    "Tie-dye",
     [
      "Pinstripe",
      "Pinstripes"
@@ -724,19 +724,18 @@
      "Clue"
     ],
     "Scrabble",
-    "Risk",
     "Chess",
-    [
-     "Draughts",
-     "Checkers"
-    ],
-    "Ludo",
     [
      "Snakes and Ladders",
      "Snakes & Ladders"
     ],
-    "Backgammon",
+    "Ludo",
+    "Risk",
     "Trivial Pursuit",
+    [
+     "Draughts",
+     "Checkers"
+    ],
     [
      "Battleships",
      "Battleship"
@@ -745,11 +744,12 @@
      "Connect Four",
      "Connect 4"
     ],
+    "Backgammon",
+    "Operation",
     [
      "Mouse Trap",
      "Mousetrap"
     ],
-    "Operation",
     [
      "Guess Who",
      "Guess Who?"
@@ -832,16 +832,16 @@
    "text": "Name a craft or making hobby",
    "answers": [
     "Knitting",
-    "Crochet",
+    "Painting",
     "Sewing",
-    "Embroidery",
+    "Crochet",
+    "Drawing",
     [
      "Cross-stitch",
      "Cross stitch"
     ],
+    "Embroidery",
     "Pottery",
-    "Painting",
-    "Drawing",
     [
      "Woodwork",
      "Woodworking",
@@ -962,20 +962,6 @@
      "Child"
     ],
     [
-     "Warrior I",
-     "Warrior 1",
-     "Warrior One"
-    ],
-    [
-     "Warrior II",
-     "Warrior 2",
-     "Warrior Two"
-    ],
-    [
-     "Warrior III",
-     "Warrior 3"
-    ],
-    [
      "Tree pose",
      "Tree",
      "Vrksasana"
@@ -984,6 +970,11 @@
      "Cobra",
      "Cobra pose",
      "Bhujangasana"
+    ],
+    [
+     "Warrior II",
+     "Warrior 2",
+     "Warrior Two"
     ],
     [
      "Lotus",
@@ -1005,14 +996,23 @@
      "Bridge pose"
     ],
     [
+     "Mountain",
+     "Mountain pose",
+     "Tadasana"
+    ],
+    [
+     "Warrior I",
+     "Warrior 1",
+     "Warrior One"
+    ],
+    [
      "Triangle",
      "Triangle pose",
      "Trikonasana"
     ],
     [
-     "Mountain",
-     "Mountain pose",
-     "Tadasana"
+     "Warrior III",
+     "Warrior 3"
     ],
     [
      "Plank",
@@ -1161,27 +1161,27 @@
    ],
    "text": "Name a toy or toy brand that many British children have played with",
    "answers": [
-    "Barbie",
     "Lego",
-    "Hot Wheels",
-    "Furby",
-    "Tamagotchi",
-    "Slinky",
-    "Etch A Sketch",
-    "Rubik's Cube",
+    "Barbie",
     "Play-Doh",
-    "Spirograph",
-    [
-     "Yo-yo",
-     "Yoyo"
-    ],
     [
      "Teddy bear",
      "Teddy"
     ],
     "Action Man",
-    "Sindy",
+    "Hot Wheels",
+    "Etch A Sketch",
+    "Rubik's Cube",
+    "Furby",
+    "Tamagotchi",
     "Hornby",
+    "Sindy",
+    "Slinky",
+    "Spirograph",
+    [
+     "Yo-yo",
+     "Yoyo"
+    ],
     "Meccano",
     "Scalextric",
     "Stretch Armstrong",

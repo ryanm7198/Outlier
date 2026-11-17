@@ -2450,45 +2450,52 @@
    ],
    "text": "Name a key on a standard PC keyboard that isn't a letter, number or punctuation mark",
    "answers": [
+    [
+     "Enter",
+     "return"
+    ],
     "Shift",
     [
-     "Ctrl",
-     "control"
+     "Space",
+     "space bar",
+     "spacebar"
     ],
-    "Alt",
-    [
-     "Alt Gr",
-     "altgr"
-    ],
+    "Backspace",
     "Tab",
     [
      "Caps Lock",
      "caps"
     ],
     [
-     "Enter",
-     "return"
+     "Ctrl",
+     "control"
     ],
-    "Backspace",
+    "Alt",
     [
-     "Space",
-     "space bar",
-     "spacebar"
+     "Delete",
+     "del"
     ],
     [
      "Esc",
      "escape"
     ],
     [
-     "Delete",
-     "del"
+     "Windows key",
+     "windows",
+     "win",
+     "start key",
+     "super"
+    ],
+    "Home",
+    "End",
+    [
+     "Alt Gr",
+     "altgr"
     ],
     [
      "Insert",
      "ins"
     ],
-    "Home",
-    "End",
     [
      "Page Up",
      "pgup"
@@ -2526,13 +2533,6 @@
      "pause break"
     ],
     "Num Lock",
-    [
-     "Windows key",
-     "windows",
-     "win",
-     "start key",
-     "super"
-    ],
     [
      "Menu key",
      "menu",
@@ -4170,28 +4170,10 @@
    ],
    "text": "Name a hairstyle",
    "answers": [
-    "Bob",
-    "Pixie cut",
-    "Mullet",
-    "Quiff",
-    "Pompadour",
-    "Crew cut",
-    "Buzz cut",
-    "Flat top",
-    [
-     "Mohican",
-     "mohawk"
-    ],
-    "Afro",
-    "Cornrows",
-    [
-     "Dreadlocks",
-     "dreads",
-     "locs"
-    ],
-    "Beehive",
-    "Bun",
     "Ponytail",
+    "Bob",
+    "Mullet",
+    "Bun",
     [
      "Pigtails",
      "bunches"
@@ -4202,6 +4184,24 @@
      "plaits",
      "braids"
     ],
+    "Afro",
+    [
+     "Mohican",
+     "mohawk"
+    ],
+    "Pixie cut",
+    "Quiff",
+    "Buzz cut",
+    "Crew cut",
+    [
+     "Dreadlocks",
+     "dreads",
+     "locs"
+    ],
+    "Cornrows",
+    "Beehive",
+    "Pompadour",
+    "Flat top",
     [
      "French plait",
      "french braid"
@@ -5517,6 +5517,11 @@
    "text": "Name a British or English coin from before decimalisation in 1971",
    "answers": [
     [
+     "Penny",
+     "1d",
+     "old penny"
+    ],
+    [
      "Shilling",
      "bob",
      "one shilling"
@@ -5525,6 +5530,7 @@
      "Sixpence",
      "tanner"
     ],
+    "Farthing",
     [
      "Half crown",
      "half a crown",
@@ -5532,22 +5538,16 @@
      "half a dollar"
     ],
     [
-     "Penny",
-     "1d",
-     "old penny"
+     "Halfpenny",
+     "ha'penny",
+     "hapenny"
     ],
-    "Farthing",
     [
      "Threepence",
      "thruppenny bit",
      "threepenny bit",
      "thrupenny bit",
      "3d"
-    ],
-    [
-     "Halfpenny",
-     "ha'penny",
-     "hapenny"
     ],
     [
      "Florin",
@@ -5559,9 +5559,9 @@
      "Crown",
      "five shillings"
     ],
+    "Guinea",
     "Sovereign",
     "Half sovereign",
-    "Guinea",
     "Half guinea",
     [
      "Groat",
@@ -5938,6 +5938,13 @@
     "Shell",
     "Esso",
     "Texaco",
+    "Tesco",
+    "Asda",
+    [
+     "Sainsbury's",
+     "sainsburys"
+    ],
+    "Morrisons",
     "Jet",
     "Gulf",
     [
@@ -5952,13 +5959,6 @@
     "Save",
     "Applegreen",
     "Harvest Energy",
-    "Asda",
-    "Tesco",
-    [
-     "Sainsbury's",
-     "sainsburys"
-    ],
-    "Morrisons",
     "Costco",
     "Burmah",
     [

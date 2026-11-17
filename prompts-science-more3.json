@@ -201,19 +201,33 @@
      "Saturn 5"
     ],
     "Falcon 9",
-    "Falcon Heavy",
-    "Ariane 5",
-    "Ariane 6",
-    "Ariane 4",
-    "Ariane",
+    "Starship",
     [
      "Soyuz",
      "Soyuz rocket"
     ],
+    "Falcon Heavy",
+    [
+     "SLS",
+     "Space Launch System"
+    ],
+    "Ariane 5",
     [
      "Atlas V",
      "Atlas"
     ],
+    [
+     "Long March",
+     "Chang Zheng"
+    ],
+    "Proton",
+    "Vostok",
+    "Black Arrow",
+    "New Shepard",
+    "Electron",
+    "Ariane 6",
+    "Ariane 4",
+    "Ariane",
     [
      "Delta IV",
      "Delta"
@@ -223,21 +237,7 @@
      "Titan II",
      "Titan IV"
     ],
-    "Proton",
-    "Vostok",
-    [
-     "Long March",
-     "Chang Zheng"
-    ],
     "Vega",
-    "New Shepard",
-    "Starship",
-    [
-     "SLS",
-     "Space Launch System"
-    ],
-    "Electron",
-    "Black Arrow",
     "Redstone",
     [
      "Jupiter-C",
@@ -1458,7 +1458,19 @@
    ],
    "text": "Name one of the 14 major allergens that UK food businesses must declare",
    "answers": [
-    "Celery",
+    [
+     "Peanuts",
+     "Peanut",
+     "Groundnuts"
+    ],
+    [
+     "Milk",
+     "Dairy"
+    ],
+    [
+     "Eggs",
+     "Egg"
+    ],
     [
      "Gluten",
      "Cereals containing gluten",
@@ -1467,49 +1479,7 @@
      "Barley",
      "Oats"
     ],
-    [
-     "Crustaceans",
-     "Prawns",
-     "Crab",
-     "Lobster"
-    ],
-    [
-     "Eggs",
-     "Egg"
-    ],
     "Fish",
-    "Lupin",
-    [
-     "Milk",
-     "Dairy"
-    ],
-    [
-     "Molluscs",
-     "Mussels",
-     "Oysters",
-     "Squid"
-    ],
-    "Mustard",
-    [
-     "Peanuts",
-     "Peanut",
-     "Groundnuts"
-    ],
-    [
-     "Sesame",
-     "Sesame seeds"
-    ],
-    [
-     "Soya",
-     "Soy",
-     "Soybeans"
-    ],
-    [
-     "Sulphur dioxide",
-     "Sulphites",
-     "Sulfites",
-     "Sulfur dioxide"
-    ],
     [
      "Tree nuts",
      "Nuts",
@@ -1521,7 +1491,37 @@
      "Brazil nuts",
      "Pistachios",
      "Macadamia"
-    ]
+    ],
+    [
+     "Soya",
+     "Soy",
+     "Soybeans"
+    ],
+    [
+     "Sesame",
+     "Sesame seeds"
+    ],
+    [
+     "Crustaceans",
+     "Prawns",
+     "Crab",
+     "Lobster"
+    ],
+    "Mustard",
+    "Celery",
+    [
+     "Molluscs",
+     "Mussels",
+     "Oysters",
+     "Squid"
+    ],
+    [
+     "Sulphur dioxide",
+     "Sulphites",
+     "Sulfites",
+     "Sulfur dioxide"
+    ],
+    "Lupin"
    ]
   },
   {
@@ -2030,36 +2030,36 @@
     "Paracetamol",
     "Ibuprofen",
     "Aspirin",
-    [
-     "Co-codamol",
-     "Codeine"
-    ],
+    "Nurofen",
+    "Calpol",
+    "Lemsip",
+    "Anadin",
+    "Panadol",
+    "Strepsils",
+    "Sudafed",
+    "Piriton",
+    "Gaviscon",
+    "Rennie",
+    "Cetirizine",
     [
      "Loratadine",
      "Antihistamine"
     ],
-    "Cetirizine",
+    "Savlon",
+    "Germolene",
+    "Sudocrem",
+    [
+     "Co-codamol",
+     "Codeine"
+    ],
     "Fexofenadine",
     [
      "Loperamide",
      "Imodium"
     ],
     "Omeprazole",
-    "Gaviscon",
-    "Rennie",
-    "Lemsip",
     "Beechams",
-    "Strepsils",
     "Benylin",
-    "Sudafed",
-    "Piriton",
-    "Calpol",
-    "Nurofen",
-    "Anadin",
-    "Panadol",
-    "Savlon",
-    "Germolene",
-    "Sudocrem",
     "Dioralyte",
     "Buscopan",
     "Canesten",
@@ -3512,32 +3512,45 @@
    ],
    "text": "Name a freshwater fish found in the UK (native or introduced and established)",
    "answers": [
-    "Roach",
-    "Rudd",
-    "Perch",
     "Pike",
+    "Perch",
     [
      "Carp",
      "Common carp",
      "Mirror carp"
     ],
-    "Crucian carp",
-    "Tench",
+    [
+     "Brown trout",
+     "Trout"
+    ],
+    "Roach",
+    [
+     "Atlantic salmon",
+     "Salmon"
+    ],
+    "Rainbow trout",
+    [
+     "Eel",
+     "European eel"
+    ],
     [
      "Bream",
      "Common bream"
     ],
-    "Silver bream",
+    "Tench",
     "Chub",
-    "Dace",
-    "Barbel",
-    "Gudgeon",
-    "Bleak",
     "Minnow",
     [
      "Three-spined stickleback",
      "Stickleback"
     ],
+    "Rudd",
+    "Crucian carp",
+    "Silver bream",
+    "Dace",
+    "Barbel",
+    "Gudgeon",
+    "Bleak",
     "Ten-spined stickleback",
     [
      "Bullhead",
@@ -3545,20 +3558,7 @@
     ],
     "Stone loach",
     "Spined loach",
-    [
-     "Eel",
-     "European eel"
-    ],
-    [
-     "Brown trout",
-     "Trout"
-    ],
-    "Rainbow trout",
     "Sea trout",
-    [
-     "Atlantic salmon",
-     "Salmon"
-    ],
     "Grayling",
     [
      "Arctic charr",

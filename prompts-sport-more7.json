@@ -198,6 +198,10 @@
    "text": "Name a boxer who has fought Amir Khan as a professional",
    "answers": [
     [
+     "Kell Brook",
+     "Brook"
+    ],
+    [
      "Canelo Álvarez",
      "Canelo",
      "Canelo Alvarez",
@@ -205,16 +209,12 @@
      "Álvarez"
     ],
     [
-     "Kell Brook",
-     "Brook"
+     "Marcos Maidana",
+     "Maidana"
     ],
     [
      "Terence Crawford",
      "Crawford"
-    ],
-    [
-     "Marcos Maidana",
-     "Maidana"
     ],
     [
      "Danny García",
@@ -229,16 +229,16 @@
      "Judah"
     ],
     [
+     "Breidis Prescott",
+     "Prescott"
+    ],
+    [
      "Paulie Malignaggi",
      "Malignaggi"
     ],
     [
      "Marco Antonio Barrera",
      "Barrera"
-    ],
-    [
-     "Breidis Prescott",
-     "Prescott"
     ],
     [
      "Devon Alexander",
@@ -3639,12 +3639,12 @@
      "Van Boening"
     ],
     [
-     "Fedor Gorst",
-     "Gorst"
-    ],
-    [
      "Joshua Filler",
      "Filler"
+    ],
+    [
+     "Fedor Gorst",
+     "Gorst"
     ],
     [
      "Ralf Souquet",
@@ -5894,26 +5894,26 @@
    ],
    "text": "Name a Australian driver who has started a Formula 1 World Championship race (as of November 2026)",
    "answers": [
-    "Jack Brabham",
     [
-     "Alan Jones",
-     "Jones"
+     "Daniel Ricciardo",
+     "Ricciardo"
     ],
     [
      "Mark Webber",
      "Webber"
     ],
     [
-     "Daniel Ricciardo",
-     "Ricciardo"
+     "Oscar Piastri",
+     "Piastri"
+    ],
+    "Jack Brabham",
+    [
+     "Alan Jones",
+     "Jones"
     ],
     [
      "Jack Doohan",
      "Doohan"
-    ],
-    [
-     "Oscar Piastri",
-     "Piastri"
     ],
     [
      "Tim Schenken",
@@ -6030,8 +6030,20 @@
     ],
     "Jos Verstappen",
     [
+     "Nyck de Vries",
+     "de Vries"
+    ],
+    [
      "Christijan Albers",
      "Albers"
+    ],
+    [
+     "Giedo van der Garde",
+     "van der Garde"
+    ],
+    [
+     "Jan Lammers",
+     "Lammers"
     ],
     [
      "Carel Godin de Beaufort",
@@ -6040,18 +6052,6 @@
     [
      "Huub Rothengatter",
      "Rothengatter"
-    ],
-    [
-     "Jan Lammers",
-     "Lammers"
-    ],
-    [
-     "Giedo van der Garde",
-     "van der Garde"
-    ],
-    [
-     "Nyck de Vries",
-     "de Vries"
     ],
     [
      "Gijs van Lennep",
@@ -6091,27 +6091,27 @@
    "text": "Name a Japanese driver who has started a Formula 1 World Championship race (as of November 2026)",
    "answers": [
     [
-     "Ryo Hirakawa",
-     "Hirakawa"
-    ],
-    [
      "Yuki Tsunoda",
      "Tsunoda"
     ],
     [
-     "Ukyo Katayama",
-     "Katayama"
+     "Kamui Kobayashi",
+     "Kobayashi"
     ],
     [
      "Takuma Sato",
      "Sato"
     ],
     [
-     "Kamui Kobayashi",
-     "Kobayashi"
+     "Ukyo Katayama",
+     "Katayama"
     ],
     "Satoru Nakajima",
     "Aguri Suzuki",
+    [
+     "Ryo Hirakawa",
+     "Hirakawa"
+    ],
     "Kazuki Nakajima",
     [
      "Shinji Nakano",
@@ -6294,16 +6294,16 @@
      "Ickx"
     ],
     [
+     "Stoffel Vandoorne",
+     "Vandoorne"
+    ],
+    [
      "Thierry Boutsen",
      "Boutsen"
     ],
     [
      "Bertrand Gachot",
      "Gachot"
-    ],
-    [
-     "Stoffel Vandoorne",
-     "Vandoorne"
     ],
     [
      "Johnny Claes",
@@ -6394,33 +6394,38 @@
      "Rosberg"
     ],
     "Ralf Schumacher",
-    [
-     "Heinz-Harald Frentzen",
-     "Frentzen"
-    ],
-    [
-     "Wolfgang von Trips",
-     "von Trips"
-    ],
+    "Mick Schumacher",
     [
      "Nico Hülkenberg",
      "Hülkenberg"
     ],
     [
-     "Jochen Mass",
-     "Mass"
+     "Heinz-Harald Frentzen",
+     "Frentzen"
     ],
     [
-     "Nick Heidfeld",
-     "Heidfeld"
+     "Timo Glock",
+     "Glock"
     ],
     [
      "Adrian Sutil",
      "Sutil"
     ],
     [
-     "Timo Glock",
-     "Glock"
+     "Nick Heidfeld",
+     "Heidfeld"
+    ],
+    [
+     "Pascal Wehrlein",
+     "Wehrlein"
+    ],
+    [
+     "Wolfgang von Trips",
+     "von Trips"
+    ],
+    [
+     "Jochen Mass",
+     "Mass"
     ],
     "Hans-Joachim Stuck",
     [
@@ -6428,11 +6433,6 @@
      "Stommelen"
     ],
     "Manfred Winkelhock",
-    "Mick Schumacher",
-    [
-     "Pascal Wehrlein",
-     "Wehrlein"
-    ],
     [
      "Christian Danner",
      "Danner"
@@ -6569,16 +6569,16 @@
      "Regazzoni"
     ],
     [
+     "Sébastien Buemi",
+     "Buemi"
+    ],
+    [
      "Jo Siffert",
      "Siffert"
     ],
     [
      "Marc Surer",
      "Surer"
-    ],
-    [
-     "Sébastien Buemi",
-     "Buemi"
     ],
     [
      "Emmanuel de Graffenried",
@@ -6670,16 +6670,16 @@
      "Fangio"
     ],
     [
+     "Franco Colapinto",
+     "Colapinto"
+    ],
+    [
      "Carlos Reutemann",
      "Reutemann"
     ],
     [
      "José Froilán González",
      "González"
-    ],
-    [
-     "Franco Colapinto",
-     "Colapinto"
     ],
     [
      "Gastón Mazzacane",
@@ -6908,14 +6908,14 @@
    "text": "Name a golfer who has won The Open Championship at Royal Birkdale or Royal Lytham & St Annes (1926 to 2026)",
    "answers": [
     [
-     "Tom Watson",
-     "Watson"
-    ],
-    [
      "Seve Ballesteros",
      "Seve",
      "Severiano Ballesteros",
      "Ballesteros"
+    ],
+    [
+     "Tom Watson",
+     "Watson"
     ],
     [
      "Arnold Palmer",
@@ -6950,6 +6950,26 @@
      "Jones"
     ],
     [
+     "Johnny Miller",
+     "Miller"
+    ],
+    [
+     "Ian Baker-Finch",
+     "Baker-Finch"
+    ],
+    [
+     "Mark O'Meara",
+     "O'Meara"
+    ],
+    [
+     "David Duval",
+     "Duval"
+    ],
+    [
+     "Tom Lehman",
+     "Lehman"
+    ],
+    [
      "Ryan Fox",
      "Fox"
     ],
@@ -6964,26 +6984,6 @@
     [
      "Bob Charles",
      "Charles"
-    ],
-    [
-     "Johnny Miller",
-     "Miller"
-    ],
-    [
-     "Ian Baker-Finch",
-     "Baker-Finch"
-    ],
-    [
-     "Tom Lehman",
-     "Lehman"
-    ],
-    [
-     "Mark O'Meara",
-     "O'Meara"
-    ],
-    [
-     "David Duval",
-     "Duval"
     ]
    ]
   },
@@ -7544,15 +7544,19 @@
    "text": "Name a golfer who played in the 2012 Ryder Cup at Medinah (either team)",
    "answers": [
     [
+     "Rory McIlroy",
+     "Rory",
+     "McIlroy"
+    ],
+    [
      "Tiger Woods",
      "Tiger",
      "Eldrick Woods",
      "Woods"
     ],
     [
-     "Rory McIlroy",
-     "Rory",
-     "McIlroy"
+     "Ian Poulter",
+     "Poulter"
     ],
     [
      "Phil Mickelson",
@@ -7560,8 +7564,8 @@
      "Mickelson"
     ],
     [
-     "Ian Poulter",
-     "Poulter"
+     "Justin Rose",
+     "Rose"
     ],
     [
      "Lee Westwood",
@@ -7572,10 +7576,6 @@
      "García"
     ],
     [
-     "Justin Rose",
-     "Rose"
-    ],
-    [
      "Luke Donald",
      "Donald"
     ],
@@ -7583,14 +7583,22 @@
      "Graeme McDowell",
      "McDowell"
     ],
+    [
+     "Martin Kaymer",
+     "Kaymer"
+    ],
+    [
+     "Francesco Molinari",
+     "Molinari"
+    ],
+    [
+     "Paul Lawrie",
+     "Lawrie"
+    ],
     "Zach Johnson",
     [
      "Bubba Watson",
      "Watson"
-    ],
-    [
-     "Martin Kaymer",
-     "Kaymer"
     ],
     [
      "Keegan Bradley",
@@ -7628,14 +7636,6 @@
     [
      "Peter Hanson",
      "Hanson"
-    ],
-    [
-     "Paul Lawrie",
-     "Lawrie"
-    ],
-    [
-     "Francesco Molinari",
-     "Molinari"
     ]
    ]
   },
@@ -7647,15 +7647,15 @@
    "text": "Name a golfer who played in the 2010 Ryder Cup at Celtic Manor (either team)",
    "answers": [
     [
+     "Rory McIlroy",
+     "Rory",
+     "McIlroy"
+    ],
+    [
      "Tiger Woods",
      "Tiger",
      "Eldrick Woods",
      "Woods"
-    ],
-    [
-     "Rory McIlroy",
-     "Rory",
-     "McIlroy"
     ],
     [
      "Phil Mickelson",
@@ -7678,11 +7678,6 @@
      "Graeme McDowell",
      "McDowell"
     ],
-    "Zach Johnson",
-    [
-     "Bubba Watson",
-     "Watson"
-    ],
     [
      "Pádraig Harrington",
      "Harrington"
@@ -7690,6 +7685,11 @@
     [
      "Martin Kaymer",
      "Kaymer"
+    ],
+    "Zach Johnson",
+    [
+     "Bubba Watson",
+     "Watson"
     ],
     [
      "Ross Fisher",
@@ -7755,40 +7755,44 @@
      "Mickelson"
     ],
     [
-     "Lee Westwood",
-     "Westwood"
-    ],
-    [
-     "Sergio García",
-     "García"
+     "Darren Clarke",
+     "Clarke"
     ],
     [
      "Colin Montgomerie",
      "Montgomerie"
     ],
     [
-     "Luke Donald",
-     "Donald"
+     "Sergio García",
+     "García"
     ],
     [
-     "Zach Johnson",
-     "Johnson"
-    ],
-    [
-     "Henrik Stenson",
-     "Stenson"
+     "Lee Westwood",
+     "Westwood"
     ],
     [
      "Pádraig Harrington",
      "Harrington"
     ],
     [
-     "Darren Clarke",
-     "Clarke"
+     "Luke Donald",
+     "Donald"
     ],
     [
      "Paul Casey",
      "Casey"
+    ],
+    [
+     "Henrik Stenson",
+     "Stenson"
+    ],
+    [
+     "Jim Furyk",
+     "Furyk"
+    ],
+    [
+     "Zach Johnson",
+     "Johnson"
     ],
     [
      "David Howell",
@@ -7817,10 +7821,6 @@
     [
      "Chris DiMarco",
      "DiMarco"
-    ],
-    [
-     "Jim Furyk",
-     "Furyk"
     ],
     [
      "J. J. Henry",
@@ -7863,44 +7863,52 @@
      "Mickelson"
     ],
     [
-     "Lee Westwood",
-     "Westwood"
+     "Colin Montgomerie",
+     "Montgomerie"
     ],
     [
      "Sergio García",
      "García"
     ],
     [
-     "Colin Montgomerie",
-     "Montgomerie"
+     "Justin Leonard",
+     "Leonard"
     ],
     [
-     "Pádraig Harrington",
-     "Harrington"
+     "Payne Stewart",
+     "Stewart"
+    ],
+    [
+     "Lee Westwood",
+     "Westwood"
     ],
     [
      "Darren Clarke",
      "Clarke"
     ],
     [
-     "David Duval",
-     "Duval"
+     "Pádraig Harrington",
+     "Harrington"
+    ],
+    [
+     "José María Olazábal",
+     "Olazábal"
+    ],
+    [
+     "Davis Love III",
+     "Love"
     ],
     [
      "Jim Furyk",
      "Furyk"
     ],
     [
+     "David Duval",
+     "Duval"
+    ],
+    [
      "Tom Lehman",
      "Lehman"
-    ],
-    [
-     "Justin Leonard",
-     "Leonard"
-    ],
-    [
-     "Davis Love III",
-     "Love"
     ],
     [
      "Jeff Maggert",
@@ -7913,10 +7921,6 @@
     [
      "Steve Pate",
      "Pate"
-    ],
-    [
-     "Payne Stewart",
-     "Stewart"
     ],
     [
      "Hal Sutton",
@@ -7933,10 +7937,6 @@
     [
      "Paul Lawrie",
      "Lawrie"
-    ],
-    [
-     "José María Olazábal",
-     "Olazábal"
     ],
     [
      "Jesper Parnevik",
@@ -9591,16 +9591,16 @@
    "text": "Name a player who has won the Wimbledon mixed doubles title between 2000 and 2026",
    "answers": [
     [
+     "Jamie Murray",
+     "Murray"
+    ],
+    [
      "Martina Navratilova",
      "Navratilova"
     ],
     [
-     "Leander Paes",
-     "Paes"
-    ],
-    [
-     "Jamie Murray",
-     "Murray"
+     "Heather Watson",
+     "Watson"
     ],
     [
      "Martina Hingis",
@@ -9609,12 +9609,12 @@
     "Bob Bryan",
     "Mike Bryan",
     [
-     "Henri Kontinen",
-     "Kontinen"
+     "Leander Paes",
+     "Paes"
     ],
     [
-     "Heather Watson",
-     "Watson"
+     "Henri Kontinen",
+     "Kontinen"
     ],
     [
      "Jelena Janković",
@@ -13914,41 +13914,18 @@
    "text": "Name a rider who has won the Superbike World Championship (1988 to 2026)",
    "answers": [
     [
-     "Jonathan Rea",
-     "Rea",
-     "Johnny Rea"
-    ],
-    [
      "Carl Fogarty",
      "Foggy",
      "Fogarty"
     ],
     [
+     "Jonathan Rea",
+     "Rea",
+     "Johnny Rea"
+    ],
+    [
      "Troy Bayliss",
      "Bayliss"
-    ],
-    [
-     "Toprak Razgatlıoğlu",
-     "Toprak",
-     "Toprak Razgatlioglu",
-     "Razgatlioglu",
-     "Razgatlıoğlu"
-    ],
-    [
-     "Fred Merkel",
-     "Merkel"
-    ],
-    [
-     "Doug Polen",
-     "Polen"
-    ],
-    [
-     "Troy Corser",
-     "Corser"
-    ],
-    [
-     "Colin Edwards",
-     "Edwards"
     ],
     [
      "James Toseland",
@@ -13959,8 +13936,39 @@
      "Biaggi"
     ],
     [
+     "Toprak Razgatlıoğlu",
+     "Toprak",
+     "Toprak Razgatlioglu",
+     "Razgatlioglu",
+     "Razgatlıoğlu"
+    ],
+    [
+     "Colin Edwards",
+     "Edwards"
+    ],
+    [
+     "Troy Corser",
+     "Corser"
+    ],
+    [
+     "Neil Hodgson",
+     "Hodgson"
+    ],
+    [
      "Álvaro Bautista",
      "Bautista"
+    ],
+    [
+     "Tom Sykes",
+     "Sykes"
+    ],
+    [
+     "Fred Merkel",
+     "Merkel"
+    ],
+    [
+     "Doug Polen",
+     "Polen"
     ],
     [
      "Raymond Roche",
@@ -13975,20 +13983,12 @@
      "Kocinski"
     ],
     [
-     "Neil Hodgson",
-     "Hodgson"
-    ],
-    [
      "Ben Spies",
      "Spies"
     ],
     [
      "Carlos Checa",
      "Checa"
-    ],
-    [
-     "Tom Sykes",
-     "Sykes"
     ],
     [
      "Sylvain Guintoli",
@@ -14169,28 +14169,27 @@
    "answers": [
     "Istabraq",
     [
+     "Constitution Hill",
+     "Hill"
+    ],
+    "Honeysuckle",
+    [
      "Hurricane Fly",
      "Fly"
     ],
     "Faugheen",
-    "Honeysuckle",
     [
-     "Constitution Hill",
-     "Hill"
+     "Rooster Booster",
+     "Booster"
     ],
     [
      "Annie Power",
      "Power"
     ],
     [
-     "Rooster Booster",
-     "Booster"
-    ],
-    [
      "Buveur d'Air",
      "d'Air"
     ],
-    "Epatante",
     [
      "State Man",
      "Man"
@@ -14203,6 +14202,7 @@
      "Brave Inca",
      "Inca"
     ],
+    "Epatante",
     [
      "Hors La Loi III",
      "La Loi"
@@ -14367,6 +14367,10 @@
      "Coppi"
     ],
     [
+     "Miguel Indurain",
+     "Indurain"
+    ],
+    [
      "Alberto Contador",
      "Contador"
     ],
@@ -14379,12 +14383,24 @@
      "Roglic"
     ],
     [
-     "Miguel Indurain",
-     "Indurain"
+     "Simon Yates",
+     "Yates"
     ],
     [
      "Tom Dumoulin",
      "Dumoulin"
+    ],
+    [
+     "Jonas Vingegaard",
+     "Vingegaard"
+    ],
+    [
+     "Chris Froome",
+     "Froome"
+    ],
+    [
+     "Egan Bernal",
+     "Bernal"
     ],
     [
      "Richard Carapaz",
@@ -14395,28 +14411,20 @@
      "Hindley"
     ],
     [
-     "Jonas Vingegaard",
-     "Vingegaard"
-    ],
-    [
-     "Simon Yates",
-     "Yates"
-    ],
-    [
-     "Damiano Cunego",
-     "Cunego"
+     "Felice Gimondi",
+     "Gimondi"
     ],
     [
      "Francesco Moser",
      "Moser"
     ],
     [
-     "Felice Gimondi",
-     "Gimondi"
-    ],
-    [
      "Stephen Roche",
      "Roche"
+    ],
+    [
+     "Damiano Cunego",
+     "Cunego"
     ],
     [
      "Luigi Ganna",
@@ -14628,16 +14636,8 @@
      "Quintana"
     ],
     [
-     "Chris Froome",
-     "Froome"
-    ],
-    [
      "Tao Geoghegan Hart",
      "Geoghegan Hart"
-    ],
-    [
-     "Egan Bernal",
-     "Bernal"
     ],
     [
      "Tadej Pogačar",
@@ -14653,20 +14653,24 @@
    "text": "Name a rider who has won the Vuelta a España general classification (1935 to 2026)",
    "answers": [
     [
-     "Alberto Contador",
-     "Contador"
-    ],
-    [
      "Primož Roglič",
      "Roglic"
+    ],
+    [
+     "Chris Froome",
+     "Froome"
+    ],
+    [
+     "Alberto Contador",
+     "Contador"
     ],
     [
      "Bernard Hinault",
      "Hinault"
     ],
     [
-     "Roberto Heras",
-     "Heras"
+     "Jacques Anquetil",
+     "Anquetil"
     ],
     [
      "Jonas Vingegaard",
@@ -14675,6 +14679,14 @@
     [
      "Remco Evenepoel",
      "Evenepoel"
+    ],
+    [
+     "Simon Yates",
+     "Yates"
+    ],
+    [
+     "Roberto Heras",
+     "Heras"
     ],
     [
      "Tony Rominger",
@@ -14731,10 +14743,6 @@
     [
      "Angelino Soler",
      "Soler"
-    ],
-    [
-     "Jacques Anquetil",
-     "Anquetil"
     ],
     [
      "Raymond Poulidor",
@@ -14887,20 +14895,12 @@
      "Nibali"
     ],
     [
-     "Chris Froome",
-     "Froome"
-    ],
-    [
      "Chris Horner",
      "Horner"
     ],
     [
      "Nairo Quintana",
      "Quintana"
-    ],
-    [
-     "Simon Yates",
-     "Yates"
     ]
    ]
   },
@@ -15796,10 +15796,6 @@
      "The Bambino"
     ],
     [
-     "Lou Gehrig",
-     "Gehrig"
-    ],
-    [
      "Derek Jeter",
      "Jeter"
     ],
@@ -15812,6 +15808,10 @@
      "DiMaggio",
      "Joe Dimaggio",
      "Joltin Joe"
+    ],
+    [
+     "Lou Gehrig",
+     "Gehrig"
     ],
     [
      "Mariano Rivera",
@@ -16935,16 +16935,16 @@
    "text": "Name a rider who has won the Tour de France mountains classification (polka dot jersey, 1933 to 2026)",
    "answers": [
     [
-     "Richard Virenque",
-     "Virenque"
-    ],
-    [
      "Tadej Pogačar",
      "Pogacar"
     ],
     [
      "Chris Froome",
      "Froome"
+    ],
+    [
+     "Richard Virenque",
+     "Virenque"
     ],
     [
      "Eddy Merckx",
@@ -16955,16 +16955,20 @@
      "Hinault"
     ],
     [
+     "Robert Millar",
+     "Millar"
+    ],
+    [
      "Julian Alaphilippe",
      "Alaphilippe"
     ],
     [
-     "Romain Bardet",
-     "Bardet"
-    ],
-    [
      "Thomas Voeckler",
      "Voeckler"
+    ],
+    [
+     "Romain Bardet",
+     "Bardet"
     ],
     [
      "Jonas Vingegaard",
@@ -16979,10 +16983,6 @@
      "Barguil"
     ],
     [
-     "Robert Millar",
-     "Millar"
-    ],
-    [
      "Lucien Van Impe",
      "Van Impe"
     ],
@@ -16991,28 +16991,28 @@
      "Chiappucci"
     ],
     [
-     "Tony Rominger",
-     "Rominger"
-    ],
-    [
-     "Federico Bahamontes",
-     "Bahamontes"
-    ],
-    [
-     "Gino Bartali",
-     "Bartali"
+     "Michael Rasmussen",
+     "Rasmussen"
     ],
     [
      "Fausto Coppi",
      "Coppi"
     ],
     [
-     "Laurent Jalabert",
-     "Jalabert"
+     "Federico Bahamontes",
+     "Bahamontes"
     ],
     [
-     "Michael Rasmussen",
-     "Rasmussen"
+     "Tony Rominger",
+     "Rominger"
+    ],
+    [
+     "Gino Bartali",
+     "Bartali"
+    ],
+    [
+     "Laurent Jalabert",
+     "Jalabert"
     ],
     [
      "Charly Gaul",

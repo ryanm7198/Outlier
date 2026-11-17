@@ -246,27 +246,27 @@
    "text": "Name a Beach Boys single",
    "answers": [
     "Good Vibrations",
-    "I Get Around",
-    "Sloop John B",
     "God Only Knows",
+    "Wouldn't It Be Nice",
+    "California Girls",
+    "I Get Around",
     "Barbara Ann",
+    "Kokomo",
+    "Surfin' U.S.A.",
+    "Sloop John B",
+    "Fun, Fun, Fun",
+    "Help Me, Rhonda",
     "Do It Again",
     "Then I Kissed Her",
     "Break Away",
     "Heroes and Villains",
     "Cottonfields",
     "Lady Lynda",
-    "Wouldn't It Be Nice",
     "Rock and Roll Music",
-    "California Girls",
-    "Help Me, Rhonda",
     "Darlin'",
     "Friends",
     "Getcha Back",
-    "Kokomo",
     "Wild Honey",
-    "Fun, Fun, Fun",
-    "Surfin' U.S.A.",
     "Little Deuce Coupe",
     "Dance, Dance, Dance",
     [
@@ -1149,12 +1149,33 @@
    "answers": [
     "Simon Rattle",
     [
+     "Leonard Bernstein",
+     "Bernstein"
+    ],
+    [
      "Herbert von Karajan",
      "Karajan"
     ],
     [
-     "Leonard Bernstein",
-     "Bernstein"
+     "Gustavo Dudamel",
+     "Dudamel"
+    ],
+    [
+     "Malcolm Sargent",
+     "Sargent"
+    ],
+    "Henry Wood",
+    [
+     "Daniel Barenboim",
+     "Barenboim"
+    ],
+    [
+     "Georg Solti",
+     "Solti"
+    ],
+    [
+     "Marin Alsop",
+     "Alsop"
     ],
     [
      "Arturo Toscanini",
@@ -1163,18 +1184,6 @@
     [
      "Bernard Haitink",
      "Haitink"
-    ],
-    [
-     "Georg Solti",
-     "Solti"
-    ],
-    [
-     "Daniel Barenboim",
-     "Barenboim"
-    ],
-    [
-     "Gustavo Dudamel",
-     "Dudamel"
     ],
     "Colin Davis",
     "Andrew Davis",
@@ -1186,11 +1195,6 @@
     [
      "Thomas Beecham",
      "Beecham"
-    ],
-    "Henry Wood",
-    [
-     "Malcolm Sargent",
-     "Sargent"
     ],
     [
      "John Barbirolli",
@@ -1227,10 +1231,6 @@
     [
      "Esa-Pekka Salonen",
      "Salonen"
-    ],
-    [
-     "Marin Alsop",
-     "Alsop"
     ],
     [
      "Karl Böhm",
@@ -1424,36 +1424,42 @@
      "Domingo"
     ],
     [
-     "José Carreras",
-     "Carreras"
-    ],
-    [
      "Maria Callas",
      "Callas"
     ],
     [
-     "Kiri Te Kanawa",
-     "Te Kanawa"
+     "José Carreras",
+     "Carreras"
     ],
     [
-     "Renée Fleming",
-     "Fleming"
+     "Andrea Bocelli",
+     "Bocelli"
     ],
     [
      "Bryn Terfel",
      "Terfel"
     ],
     [
-     "Joan Sutherland",
-     "Sutherland"
+     "Kiri Te Kanawa",
+     "Te Kanawa"
     ],
-    [
-     "Jonas Kaufmann",
-     "Kaufmann"
-    ],
+    "Katherine Jenkins",
     [
      "Enrico Caruso",
      "Caruso"
+    ],
+    [
+     "Renée Fleming",
+     "Fleming"
+    ],
+    [
+     "Joan Sutherland",
+     "Sutherland"
+    ],
+    "Alfie Boe",
+    [
+     "Jonas Kaufmann",
+     "Kaufmann"
     ],
     [
      "Cecilia Bartoli",
@@ -1471,8 +1477,6 @@
     "Jessye Norman",
     "Janet Baker",
     "Lesley Garrett",
-    "Katherine Jenkins",
-    "Alfie Boe",
     "Russell Watson",
     [
      "Rolando Villazón",
@@ -1504,10 +1508,6 @@
     [
      "Dietrich Fischer-Dieskau",
      "Fischer-Dieskau"
-    ],
-    [
-     "Andrea Bocelli",
-     "Bocelli"
     ],
     [
      "Joyce DiDonato",
@@ -2084,34 +2084,25 @@
    "text": "Name an American composer of classical or concert music",
    "answers": [
     [
-     "Aaron Copland",
-     "Copland"
+     "George Gershwin",
+     "Gershwin"
     ],
     [
      "Leonard Bernstein",
      "Bernstein"
     ],
     [
-     "George Gershwin",
-     "Gershwin"
-    ],
-    [
-     "Samuel Barber",
-     "Barber"
-    ],
-    [
-     "Charles Ives",
-     "Ives"
+     "Aaron Copland",
+     "Copland"
     ],
     [
      "Philip Glass",
      "Glass"
     ],
     [
-     "Steve Reich",
-     "Reich"
+     "Samuel Barber",
+     "Barber"
     ],
-    "John Adams",
     [
      "John Cage",
      "Cage"
@@ -2120,6 +2111,15 @@
      "Scott Joplin",
      "Joplin"
     ],
+    [
+     "Charles Ives",
+     "Ives"
+    ],
+    [
+     "Steve Reich",
+     "Reich"
+    ],
+    "John Adams",
     [
      "John Philip Sousa",
      "Sousa"
@@ -2401,27 +2401,27 @@
    ],
    "text": "Name a country music duo or group",
    "answers": [
+    [
+     "The Chicks",
+     "Dixie Chicks"
+    ],
     "Alabama",
-    "The Judds",
-    "Brooks & Dunn",
+    "Florida Georgia Line",
     "Rascal Flatts",
     [
      "Lady A",
      "Lady Antebellum"
     ],
-    "Florida Georgia Line",
-    [
-     "The Chicks",
-     "Dixie Chicks"
-    ],
+    "The Judds",
     "Little Big Town",
-    "Sugarland",
+    "Zac Brown Band",
+    "Brooks & Dunn",
     [
      "Dan + Shay",
      "Dan and Shay"
     ],
+    "Sugarland",
     "Old Dominion",
-    "Zac Brown Band",
     "The Oak Ridge Boys",
     "The Statler Brothers",
     "Montgomery Gentry",
@@ -2476,24 +2476,24 @@
    ],
    "text": "Name a studio album by Taylor Swift (original or re-recorded version)",
    "answers": [
-    [
-     "Taylor Swift",
-     "Debut"
-    ],
-    "Fearless",
-    "Speak Now",
-    "Red",
     "1989",
-    "Reputation",
-    "Lover",
     "Folklore",
-    "Evermore",
     "Midnights",
+    "Lover",
+    "Fearless",
+    "Reputation",
     [
      "The Tortured Poets Department",
      "TTPD"
     ],
-    "The Life of a Showgirl"
+    "Red",
+    "Evermore",
+    "Speak Now",
+    "The Life of a Showgirl",
+    [
+     "Taylor Swift",
+     "Debut"
+    ]
    ]
   },
   {
@@ -2503,13 +2503,13 @@
    ],
    "text": "Name a Luke Combs single",
    "answers": [
+    "Fast Car",
     "Hurricane",
-    "When It Rains It Pours",
     "Beautiful Crazy",
+    "When It Rains It Pours",
     "Beer Never Broke My Heart",
     "She Got the Best of Me",
     "Forever After All",
-    "Fast Car",
     "Where the Wild Things Are",
     "Even Though I'm Leaving",
     "Better Together",
@@ -2665,27 +2665,27 @@
    "text": "Name a male country singer",
    "answers": [
     "Johnny Cash",
+    "Kenny Rogers",
     "Garth Brooks",
     "Willie Nelson",
-    "Kenny Rogers",
-    "George Strait",
-    "Luke Combs",
     "Morgan Wallen",
-    "Blake Shelton",
+    "Luke Combs",
     "Keith Urban",
+    "Hank Williams",
+    "Blake Shelton",
+    "Chris Stapleton",
     "Tim McGraw",
+    "George Strait",
     "Brad Paisley",
     "Alan Jackson",
     "Merle Haggard",
     "Waylon Jennings",
     "Kris Kristofferson",
-    "Hank Williams",
     "Randy Travis",
     "Toby Keith",
     "Kenny Chesney",
     "Jason Aldean",
     "Luke Bryan",
-    "Chris Stapleton",
     "Eric Church",
     "Dierks Bentley",
     "Thomas Rhett",
@@ -2762,11 +2762,12 @@
    "answers": [
     "Somebody Like You",
     "Days Go By",
-    "Better Life",
-    "Who Wouldn't Wanna Be Me",
     "You'll Think of Me",
     "Making Memories of Us",
+    "Blue Ain't Your Color",
     "Stupid Boy",
+    "Better Life",
+    "Who Wouldn't Wanna Be Me",
     "Once in a Lifetime",
     "Raining on Sunday",
     "Where the Blacktop Ends",
@@ -2780,7 +2781,6 @@
     "Without You",
     "Somewhere in My Car",
     "Cop Car",
-    "Blue Ain't Your Color",
     "The Fighter",
     "Female",
     "Wasted Time",
@@ -2959,16 +2959,16 @@
    ],
    "text": "Name a disco act",
    "answers": [
-    "Donna Summer",
-    "Chic",
-    "Gloria Gaynor",
     "Bee Gees",
+    "Donna Summer",
+    "ABBA",
+    "Village People",
+    "Gloria Gaynor",
+    "Chic",
+    "Boney M.",
     "Sister Sledge",
     "Earth, Wind & Fire",
     "KC and the Sunshine Band",
-    "Village People",
-    "Boney M.",
-    "ABBA",
     "Kool & the Gang",
     "Diana Ross",
     "Thelma Houston",
@@ -3470,13 +3470,13 @@
    "text": "Name a Cardi B single (lead or featured)",
    "answers": [
     "Bodak Yellow",
+    "WAP",
     "I Like It",
     "Be Careful",
     "Money",
-    "Bartier Cardi",
-    "Please Me",
-    "WAP",
     "Up",
+    "Please Me",
+    "Bartier Cardi",
     "Hot Shit",
     "Taki Taki",
     "Press",
@@ -4211,8 +4211,8 @@
    ],
    "text": "Name a song by The Libertines",
    "answers": [
-    "Can't Stand Me Now",
     "Don't Look Back into the Sun",
+    "Can't Stand Me Now",
     "What a Waster",
     "Up the Bracket",
     "Time for Heroes",
@@ -4769,31 +4769,31 @@
    ],
    "text": "Name a metal band from the Nordic countries (Sweden, Norway, Finland, Denmark or Iceland)",
    "answers": [
-    "Opeth",
-    "Amon Amarth",
     "Sabaton",
+    "Ghost",
+    "Nightwish",
+    "Amon Amarth",
+    "Opeth",
     "In Flames",
+    "Dimmu Borgir",
+    "Mayhem",
+    "Children of Bodom",
+    "Arch Enemy",
     "Dark Tranquillity",
     "At the Gates",
     "Entombed",
     "Bathory",
     "HammerFall",
     "Meshuggah",
-    "Arch Enemy",
     "Soilwork",
     "Katatonia",
-    "Ghost",
-    "Mayhem",
     "Emperor",
     "Darkthrone",
     "Burzum",
     "Immortal",
-    "Dimmu Borgir",
     "Satyricon",
     "Enslaved",
     "Gorgoroth",
-    "Nightwish",
-    "Children of Bodom",
     "Sonata Arctica",
     "Stratovarius",
     "Amorphis",
@@ -4843,17 +4843,18 @@
      "Doom metal",
      "Doom"
     ],
+    "Nu metal",
     "Power metal",
-    "Speed metal",
-    [
-     "Progressive metal",
-     "Prog metal"
-    ],
     [
      "Glam metal",
      "Hair metal"
     ],
-    "Nu metal",
+    [
+     "Progressive metal",
+     "Prog metal"
+    ],
+    "Speed metal",
+    "Metalcore",
     "Groove metal",
     [
      "Sludge metal",
@@ -4864,7 +4865,6 @@
      "Stoner rock",
      "Stoner"
     ],
-    "Metalcore",
     "Deathcore",
     "Folk metal",
     "Symphonic metal",
@@ -4913,17 +4913,17 @@
    ],
    "text": "Name a song from 'My Fair Lady'",
    "answers": [
-    "Wouldn't It Be Loverly",
-    "With a Little Bit of Luck",
-    "I'm an Ordinary Man",
-    "Just You Wait",
-    "The Rain in Spain",
     "I Could Have Danced All Night",
+    "The Rain in Spain",
+    "Wouldn't It Be Loverly",
     "On the Street Where You Live",
     "Get Me to the Church on Time",
+    "With a Little Bit of Luck",
+    "I've Grown Accustomed to Her Face",
+    "Just You Wait",
+    "I'm an Ordinary Man",
     "A Hymn to Him",
     "Without You",
-    "I've Grown Accustomed to Her Face",
     "Why Can't the English?",
     "You Did It",
     "Show Me",
@@ -5034,10 +5034,10 @@
    ],
    "text": "Name a song from 'The King and I'",
    "answers": [
-    "I Whistle a Happy Tune",
-    "Hello, Young Lovers",
     "Getting to Know You",
     "Shall We Dance?",
+    "I Whistle a Happy Tune",
+    "Hello, Young Lovers",
     "Something Wonderful",
     "A Puzzlement",
     "March of the Siamese Children",
@@ -5658,20 +5658,22 @@
    "text": "Name a post-punk band",
    "answers": [
     "Joy Division",
+    "Siouxsie and the Banshees",
+    "Talking Heads",
     "The Fall",
     "Gang of Four",
-    "Siouxsie and the Banshees",
+    "Echo & the Bunnymen",
+    "Bauhaus",
     [
      "Public Image Ltd",
      "PiL",
      "Public Image Limited"
     ],
+    "The Cure",
+    "New Order",
     "Wire",
     "Magazine",
     "The Slits",
-    "Bauhaus",
-    "Echo & the Bunnymen",
-    "Talking Heads",
     "Television",
     "Pere Ubu",
     "Killing Joke",
@@ -5696,8 +5698,6 @@
     "Dry Cleaning",
     "Black Midi",
     "Squid",
-    "New Order",
-    "The Cure",
     "The Chameleons",
     "The Sound",
     "Simple Minds",
@@ -6005,16 +6005,16 @@
    ],
    "text": "Name a song by Jimmy Cliff",
    "answers": [
+    "I Can See Clearly Now",
     "Many Rivers to Cross",
-    "The Harder They Come",
     "You Can Get It If You Really Want",
+    "The Harder They Come",
     "Wonderful World, Beautiful People",
-    "Vietnam",
     "Reggae Night",
     "Hakuna Matata",
-    "I Can See Clearly Now",
-    "Sitting in Limbo",
     "Wild World",
+    "Vietnam",
+    "Sitting in Limbo",
     "Struggling Man",
     "Johnny Too Bad",
     "Sunshine in the Music",
@@ -6045,12 +6045,12 @@
    "answers": [
     "Israelites",
     "You Can Get It If You Really Want",
-    "It Mek",
     [
      "007 (Shanty Town)",
      "007",
      "Shanty Town"
     ],
+    "It Mek",
     "Please Don't Bend",
     "Sing a Little Song",
     "Beautiful and Dangerous",
@@ -6620,11 +6620,15 @@
    "text": "Name a Sean Paul single (lead or featured)",
    "answers": [
     "Get Busy",
-    "Gimme the Light",
-    "Like Glue",
-    "We Be Burnin'",
     "Temperature",
+    "Gimme the Light",
+    "Rockabye",
+    "Cheap Thrills",
+    "No Lie",
+    "Like Glue",
     "Baby Boy",
+    "Mad Love",
+    "We Be Burnin'",
     "Break It Off",
     "Ever Blazin'",
     "Never Gonna Be the Same",
@@ -6636,10 +6640,6 @@
     "Got 2 Luv U",
     "Turn It Up",
     "Other Side of Love",
-    "Rockabye",
-    "No Lie",
-    "Mad Love",
-    "Cheap Thrills",
     "Body",
     "Calling on Me",
     "Naked Truth",

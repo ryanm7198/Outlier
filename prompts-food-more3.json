@@ -84,14 +84,16 @@
      "Bell's",
      "Bells"
     ],
+    "Glenfiddich",
     [
-     "Teacher's",
-     "Teachers"
+     "The Glenlivet",
+     "Glenlivet"
     ],
     [
-     "Grant's",
-     "Grants"
+     "The Macallan",
+     "Macallan"
     ],
+    "Laphroaig",
     [
      "Chivas Regal",
      "Chivas"
@@ -99,6 +101,14 @@
     [
      "Dewar's",
      "Dewars"
+    ],
+    [
+     "Grant's",
+     "Grants"
+    ],
+    [
+     "Teacher's",
+     "Teachers"
     ],
     [
      "J&B",
@@ -113,16 +123,6 @@
      "Ballantines"
     ],
     "Cutty Sark",
-    "Glenfiddich",
-    [
-     "The Glenlivet",
-     "Glenlivet"
-    ],
-    [
-     "The Macallan",
-     "Macallan"
-    ],
-    "Laphroaig",
     "Lagavulin",
     "Talisker",
     "Glenmorangie",
@@ -305,20 +305,20 @@
      "Beck's",
      "Becks"
     ],
-    "Warsteiner",
-    "Bitburger",
     "Paulaner",
     "Erdinger",
+    "Warsteiner",
+    "Bitburger",
+    "Holsten",
     [
      "Löwenbräu",
      "Lowenbrau",
      "Lowenbrau"
     ],
     "Krombacher",
-    "Weihenstephaner",
-    "Spaten",
-    "Holsten",
     "Franziskaner",
+    "Spaten",
+    "Weihenstephaner",
     "Augustiner",
     [
      "Hofbräu",
@@ -391,13 +391,13 @@
    "text": "Name a beer brand from Asia",
    "answers": [
     "Tiger",
-    "Singha",
-    "Chang",
-    "Tsingtao",
-    "Kirin",
-    "Asahi",
-    "Sapporo",
     "Kingfisher",
+    "Asahi",
+    "Singha",
+    "Tsingtao",
+    "Chang",
+    "Sapporo",
+    "Kirin",
     "Bintang",
     "Saigon",
     [
@@ -492,28 +492,28 @@
      "Blended",
      "Blended Scotch"
     ],
-    "Blended Malt",
-    "Single Grain",
-    "Grain",
     "Bourbon",
-    "Rye",
-    [
-     "Tennessee",
-     "Tennessee Whiskey"
-    ],
     "Scotch",
     [
      "Irish",
      "Irish Whiskey"
     ],
+    "Rye",
+    "Single Grain",
     [
      "Japanese",
      "Japanese Whisky"
     ],
     [
+     "Tennessee",
+     "Tennessee Whiskey"
+    ],
+    [
      "Canadian",
      "Canadian Whisky"
     ],
+    "Blended Malt",
+    "Grain",
     "Corn",
     "Wheat",
     "Malt",
@@ -576,25 +576,25 @@
    "text": "Name a drink or drinks brand from France (not wine)",
    "answers": [
     "Cognac",
+    "Pernod",
+    "Cointreau",
+    "Grand Marnier",
+    "Absinthe",
     "Armagnac",
     "Calvados",
     "Pastis",
-    "Pernod",
     "Ricard",
     "Chartreuse",
-    "Cointreau",
-    "Grand Marnier",
+    "Kir",
     [
      "Bénédictine",
      "Benedictine"
     ],
-    "Absinthe",
     [
      "Crème de Cassis",
      "Creme de Cassis",
      "Cassis"
     ],
-    "Kir",
     [
      "Pineau des Charentes",
      "Pineau"
@@ -645,28 +645,28 @@
    "text": "Name an Italian drink or drinks brand (not wine)",
    "answers": [
     "Aperol",
+    "Peroni",
     "Campari",
+    "Limoncello",
     [
      "Amaretto",
      "Disaronno"
     ],
-    "Limoncello",
     "Sambuca",
-    "Grappa",
-    "Peroni",
     [
-     "Birra Moretti",
-     "Moretti"
+     "Martini",
+     "Martini Rosso",
+     "Martini & Rossi"
     ],
     [
      "San Pellegrino",
      "Pellegrino"
     ],
     [
-     "Martini",
-     "Martini Rosso",
-     "Martini & Rossi"
+     "Birra Moretti",
+     "Moretti"
     ],
+    "Grappa",
     "Cinzano",
     "Frangelico",
     "Strega",
@@ -877,16 +877,16 @@
      "HP",
      "HP Sauce"
     ],
+    "Hellmann's",
+    "Colman's",
     [
      "Daddies",
      "Daddies Sauce"
     ],
     "Lea & Perrins",
-    "Colman's",
-    "Hellmann's",
     "Branston",
-    "Encona",
     "Tabasco",
+    "Encona",
     "Nando's",
     "Kikkoman",
     "Maggi",
@@ -916,24 +916,24 @@
    ],
    "text": "Name a cooking sauce, gravy or stock brand sold in the UK",
    "answers": [
+    "Bisto",
+    "Oxo",
+    "Knorr",
     "Dolmio",
-    "Ragu",
+    "Homepride",
+    "Old El Paso",
+    "Patak's",
+    "Sharwood's",
     "Loyd Grossman",
+    "Ragu",
     [
      "Uncle Ben's",
      "Ben's Original"
     ],
-    "Old El Paso",
-    "Patak's",
-    "Sharwood's",
     "Blue Dragon",
     "Amoy",
-    "Homepride",
     "Chicken Tonight",
     "Seeds of Change",
-    "Bisto",
-    "Oxo",
-    "Knorr",
     "Schwartz",
     "Colman's",
     "Sacla'",
@@ -959,30 +959,30 @@
      "Nestlé",
      "Nestle"
     ],
-    "Galaxy",
-    [
-     "Hershey's",
-     "Hershey"
-    ],
     "Lindt",
-    "Ferrero",
     [
      "Thorntons",
      "Thornton's"
     ],
     "Hotel Chocolat",
+    "Galaxy",
     [
      "Green & Black's",
      "Green and Blacks"
     ],
+    "Ferrero",
     "Toblerone",
+    [
+     "Hershey's",
+     "Hershey"
+    ],
     "Milka",
     "Godiva",
-    "Ghirardelli",
     [
      "Terry's",
      "Terrys"
     ],
+    "Ghirardelli",
     [
      "Rowntree's",
      "Rowntrees"
@@ -1032,21 +1032,21 @@
     "Nescafé",
     "Kenco",
     "Douwe Egberts",
+    "Gold Blend",
+    "Nespresso",
     "Lavazza",
-    "Illy",
+    "Tassimo",
     [
      "Taylors of Harrogate",
      "Taylors"
     ],
-    "Carte Noire",
     "Maxwell House",
-    "Gold Blend",
-    "Tassimo",
-    "Nespresso",
     [
      "Dolce Gusto",
      "Nescafé Dolce Gusto"
     ],
+    "Illy",
+    "Carte Noire",
     "Percol",
     "Cafédirect",
     "Jacobs",
@@ -1101,27 +1101,27 @@
    ],
    "text": "Name a butter, spread or jam brand sold in the UK",
    "answers": [
-    "Hartley's",
+    "Lurpak",
+    "Flora",
+    "Marmite",
+    "Anchor",
+    "Nutella",
     "Robertson's",
+    "Hartley's",
     "Bonne Maman",
+    "Utterly Butterly",
+    [
+     "I Can't Believe It's Not Butter!",
+     "ICBINB"
+    ],
+    "Clover",
+    "Kerrygold",
+    "Bovril",
     "Tiptree",
     [
      "Wilkin & Sons",
      "Wilkins"
     ],
-    "Marmite",
-    "Bovril",
-    "Nutella",
-    "Lurpak",
-    "Flora",
-    "Anchor",
-    "Utterly Butterly",
-    "Clover",
-    [
-     "I Can't Believe It's Not Butter!",
-     "ICBINB"
-    ],
-    "Kerrygold",
     "Country Life",
     "Stork",
     "Bertolli",
@@ -1152,21 +1152,21 @@
    ],
    "text": "Name a pasta or pasta sauce brand sold in the UK",
    "answers": [
-    "Barilla",
-    "De Cecco",
-    "Napolina",
-    "Buitoni",
     "Dolmio",
-    "Ragu",
+    "Barilla",
+    "Napolina",
     "Loyd Grossman",
+    "Ragu",
+    "Buitoni",
     "Sacla'",
     "Bertolli",
-    "Seeds of Change",
-    "Homepride",
+    "De Cecco",
     [
      "Uncle Ben's",
      "Ben's Original"
     ],
+    "Seeds of Change",
+    "Homepride",
     "Divella",
     "Garofalo",
     [

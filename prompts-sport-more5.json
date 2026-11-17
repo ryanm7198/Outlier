@@ -9,26 +9,57 @@
    "text": "Name a golfer who won the US Open between 1895 and 1999",
    "answers": [
     [
-     "Willie Anderson",
-     "Anderson"
+     "Jack Nicklaus",
+     "Nicklaus"
     ],
-    "Bobby Jones",
     [
      "Ben Hogan",
      "Hogan"
     ],
+    "Bobby Jones",
     [
-     "Jack Nicklaus",
-     "Nicklaus"
+     "Lee Trevino",
+     "Trevino"
+    ],
+    [
+     "Arnold Palmer",
+     "Palmer"
+    ],
+    [
+     "Tom Watson",
+     "Watson"
+    ],
+    [
+     "Gary Player",
+     "Player"
+    ],
+    [
+     "Tony Jacklin",
+     "Jacklin"
+    ],
+    [
+     "Payne Stewart",
+     "Stewart"
+    ],
+    [
+     "Curtis Strange",
+     "Strange"
+    ],
+    [
+     "Ernie Els",
+     "Els"
     ],
     [
      "Hale Irwin",
      "Irwin"
     ],
-    "Alex Smith",
     [
-     "John McDermott",
-     "McDermott"
+     "Johnny Miller",
+     "Miller"
+    ],
+    [
+     "Raymond Floyd",
+     "Floyd"
     ],
     [
      "Walter Hagen",
@@ -37,6 +68,31 @@
     [
      "Gene Sarazen",
      "Sarazen"
+    ],
+    [
+     "Harry Vardon",
+     "Vardon"
+    ],
+    [
+     "Corey Pavin",
+     "Pavin"
+    ],
+    [
+     "Lee Janzen",
+     "Janzen"
+    ],
+    [
+     "Andy North",
+     "North"
+    ],
+    [
+     "Willie Anderson",
+     "Anderson"
+    ],
+    "Alex Smith",
+    [
+     "John McDermott",
+     "McDermott"
     ],
     [
      "Ralph Guldahl",
@@ -55,30 +111,6 @@
      "Casper"
     ],
     [
-     "Lee Trevino",
-     "Trevino"
-    ],
-    [
-     "Andy North",
-     "North"
-    ],
-    [
-     "Curtis Strange",
-     "Strange"
-    ],
-    [
-     "Payne Stewart",
-     "Stewart"
-    ],
-    [
-     "Lee Janzen",
-     "Janzen"
-    ],
-    [
-     "Ernie Els",
-     "Els"
-    ],
-    [
      "Horace Rawlins",
      "Rawlins"
     ],
@@ -95,10 +127,6 @@
      "Herd"
     ],
     "Willie Smith",
-    [
-     "Harry Vardon",
-     "Vardon"
-    ],
     [
      "Laurie Auchterlonie",
      "Auchterlonie"
@@ -207,10 +235,6 @@
      "Bolt"
     ],
     [
-     "Arnold Palmer",
-     "Palmer"
-    ],
-    [
      "Gene Littler",
      "Littler"
     ],
@@ -219,20 +243,8 @@
      "Venturi"
     ],
     [
-     "Gary Player",
-     "Player"
-    ],
-    [
      "Orville Moody",
      "Moody"
-    ],
-    [
-     "Tony Jacklin",
-     "Jacklin"
-    ],
-    [
-     "Johnny Miller",
-     "Miller"
     ],
     "Lou Graham",
     [
@@ -244,18 +256,10 @@
      "Green"
     ],
     "David Graham",
-    [
-     "Tom Watson",
-     "Watson"
-    ],
     "Larry Nelson",
     [
      "Fuzzy Zoeller",
      "Zoeller"
-    ],
-    [
-     "Raymond Floyd",
-     "Floyd"
     ],
     [
      "Scott Simpson",
@@ -264,10 +268,6 @@
     [
      "Tom Kite",
      "Kite"
-    ],
-    [
-     "Corey Pavin",
-     "Pavin"
     ],
     "Steve Jones"
    ]
@@ -284,12 +284,37 @@
      "Vardon"
     ],
     [
-     "John Henry Taylor",
-     "Taylor"
+     "Tom Morris Sr.",
+     "Old Tom Morris",
+     "Tom Morris"
     ],
     [
-     "James Braid",
-     "Braid"
+     "Tom Morris Jr.",
+     "Young Tom Morris"
+    ],
+    [
+     "Bobby Jones",
+     "Jones"
+    ],
+    [
+     "Walter Hagen",
+     "Hagen"
+    ],
+    [
+     "Henry Cotton",
+     "Cotton"
+    ],
+    [
+     "Ben Hogan",
+     "Hogan"
+    ],
+    [
+     "Sam Snead",
+     "Snead"
+    ],
+    [
+     "Gary Player",
+     "Player"
     ],
     [
      "Peter Thomson",
@@ -301,29 +326,20 @@
      "Arthur D'Arcy Locke"
     ],
     [
-     "Walter Hagen",
-     "Hagen"
+     "James Braid",
+     "Braid"
+    ],
+    [
+     "John Henry Taylor",
+     "Taylor"
+    ],
+    [
+     "Max Faulkner",
+     "Faulkner"
     ],
     [
      "Willie Park Sr.",
      "Willie Park"
-    ],
-    [
-     "Tom Morris Jr.",
-     "Young Tom Morris"
-    ],
-    [
-     "Tom Morris Sr.",
-     "Old Tom Morris",
-     "Tom Morris"
-    ],
-    [
-     "Henry Cotton",
-     "Cotton"
-    ],
-    [
-     "Bobby Jones",
-     "Jones"
     ],
     [
      "Bob Ferguson",
@@ -345,24 +361,8 @@
      "Martin"
     ],
     [
-     "Gary Player",
-     "Player"
-    ],
-    [
-     "Ben Hogan",
-     "Hogan"
-    ],
-    [
-     "Max Faulkner",
-     "Faulkner"
-    ],
-    [
      "Fred Daly",
      "Daly"
-    ],
-    [
-     "Sam Snead",
-     "Snead"
     ],
     [
      "Dick Burton",
@@ -480,12 +480,12 @@
      "Woods"
     ],
     [
-     "Walter Hagen",
-     "Hagen"
-    ],
-    [
      "Ben Hogan",
      "Hogan"
+    ],
+    [
+     "Arnold Palmer",
+     "Palmer"
     ],
     [
      "Gary Player",
@@ -496,40 +496,52 @@
      "Watson"
     ],
     [
-     "Harry Vardon",
-     "Vardon"
-    ],
-    [
-     "Bobby Jones",
-     "Jones"
-    ],
-    [
-     "Gene Sarazen",
-     "Sarazen"
-    ],
-    [
-     "Sam Snead",
-     "Snead"
-    ],
-    [
-     "Arnold Palmer",
-     "Palmer"
-    ],
-    [
-     "Lee Trevino",
-     "Trevino"
-    ],
-    [
-     "Nick Faldo",
-     "Faldo"
-    ],
-    [
      "Phil Mickelson",
      "Mickelson"
     ],
     [
      "Rory McIlroy",
      "McIlroy"
+    ],
+    [
+     "Scottie Scheffler",
+     "Scheffler"
+    ],
+    [
+     "Nick Faldo",
+     "Faldo"
+    ],
+    [
+     "Seve Ballesteros",
+     "Ballesteros"
+    ],
+    [
+     "Lee Trevino",
+     "Trevino"
+    ],
+    [
+     "Walter Hagen",
+     "Hagen"
+    ],
+    [
+     "Bobby Jones",
+     "Jones"
+    ],
+    [
+     "Harry Vardon",
+     "Vardon"
+    ],
+    [
+     "Sam Snead",
+     "Snead"
+    ],
+    [
+     "Gene Sarazen",
+     "Sarazen"
+    ],
+    [
+     "Brooks Koepka",
+     "Koepka"
     ],
     [
      "James Braid",
@@ -543,14 +555,6 @@
     [
      "Peter Thomson",
      "Thomson"
-    ],
-    [
-     "Seve Ballesteros",
-     "Ballesteros"
-    ],
-    [
-     "Brooks Koepka",
-     "Koepka"
     ],
     [
      "Tom Morris Sr.",
@@ -581,10 +585,6 @@
     [
      "Ernie Els",
      "Els"
-    ],
-    [
-     "Scottie Scheffler",
-     "Scheffler"
     ],
     "James Anderson",
     [
@@ -659,22 +659,26 @@
    "text": "Name a woman who has won three or more LPGA Tour major championships (to 2026)",
    "answers": [
     [
-     "Patty Berg",
-     "Berg"
-    ],
-    [
-     "Mickey Wright",
-     "Wright"
-    ],
-    [
-     "Louise Suggs",
-     "Suggs"
-    ],
-    [
      "Annika Sörenstam",
      "Sörenstam",
      "Annika Sorenstam",
      "Annika"
+    ],
+    [
+     "Inbee Park",
+     "Park"
+    ],
+    [
+     "Karrie Webb",
+     "Webb"
+    ],
+    [
+     "Laura Davies",
+     "Davies"
+    ],
+    [
+     "Nelly Korda",
+     "Korda"
     ],
     [
      "Babe Zaharias",
@@ -683,28 +687,42 @@
      "Babe Didrikson"
     ],
     [
-     "Betsy Rawls",
-     "Rawls"
-    ],
-    [
      "Juli Inkster",
      "Inkster"
     ],
     [
-     "Karrie Webb",
-     "Webb"
+     "Se Ri Pak",
+     "Pak",
+     "Pak Se-ri",
+     "Se-ri Pak"
     ],
     [
-     "Inbee Park",
-     "Park"
+     "Mickey Wright",
+     "Wright"
+    ],
+    [
+     "Patty Berg",
+     "Berg"
+    ],
+    [
+     "Louise Suggs",
+     "Suggs"
+    ],
+    [
+     "Betsy King",
+     "King"
     ],
     [
      "Pat Bradley",
      "Bradley"
     ],
     [
-     "Betsy King",
-     "King"
+     "Yani Tseng",
+     "Tseng"
+    ],
+    [
+     "Betsy Rawls",
+     "Rawls"
     ],
     [
      "Patty Sheehan",
@@ -719,26 +737,12 @@
      "Alcott"
     ],
     [
-     "Se Ri Pak",
-     "Pak",
-     "Pak Se-ri",
-     "Se-ri Pak"
-    ],
-    [
-     "Yani Tseng",
-     "Tseng"
-    ],
-    [
      "Susie Berning",
      "Berning"
     ],
     [
      "Donna Caponi",
      "Caponi"
-    ],
-    [
-     "Laura Davies",
-     "Davies"
     ],
     [
      "Sandra Haynie",
@@ -751,10 +755,6 @@
     [
      "Hollis Stacy",
      "Stacy"
-    ],
-    [
-     "Nelly Korda",
-     "Korda"
     ],
     [
      "Beverly Hanson",
@@ -817,25 +817,57 @@
      "Palmer"
     ],
     [
-     "Jimmy Demaret",
-     "Demaret"
+     "Phil Mickelson",
+     "Mickelson",
+     "Lefty"
     ],
     [
-     "Sam Snead",
-     "Snead"
+     "Scottie Scheffler",
+     "Scheffler"
     ],
     [
-     "Gary Player",
-     "Player"
+     "Rory McIlroy",
+     "McIlroy"
+    ],
+    [
+     "Seve Ballesteros",
+     "Ballesteros"
     ],
     [
      "Nick Faldo",
      "Faldo"
     ],
     [
-     "Phil Mickelson",
-     "Mickelson",
-     "Lefty"
+     "Bubba Watson"
+    ],
+    [
+     "Gary Player",
+     "Player"
+    ],
+    [
+     "Tom Watson"
+    ],
+    [
+     "Bernhard Langer",
+     "Langer"
+    ],
+    [
+     "Sam Snead",
+     "Snead"
+    ],
+    [
+     "Ben Hogan",
+     "Hogan"
+    ],
+    [
+     "José María Olazábal",
+     "Olazábal",
+     "Jose Maria Olazabal",
+     "Olazabal"
+    ],
+    [
+     "Jimmy Demaret",
+     "Demaret"
     ],
     [
      "Horton Smith",
@@ -846,40 +878,8 @@
      "Nelson"
     ],
     [
-     "Ben Hogan",
-     "Hogan"
-    ],
-    [
-     "Tom Watson"
-    ],
-    [
-     "Seve Ballesteros",
-     "Ballesteros"
-    ],
-    [
-     "Bernhard Langer",
-     "Langer"
-    ],
-    [
      "Ben Crenshaw",
      "Crenshaw"
-    ],
-    [
-     "José María Olazábal",
-     "Olazábal",
-     "Jose Maria Olazabal",
-     "Olazabal"
-    ],
-    [
-     "Bubba Watson"
-    ],
-    [
-     "Scottie Scheffler",
-     "Scheffler"
-    ],
-    [
-     "Rory McIlroy",
-     "McIlroy"
     ]
    ]
   },
@@ -891,6 +891,10 @@
    "text": "Name a driver who won the Formula 1 World Drivers' Championship between 1950 and 1979",
    "answers": [
     [
+     "James Hunt",
+     "Hunt"
+    ],
+    [
      "Niki Lauda",
      "Lauda"
     ],
@@ -899,24 +903,16 @@
      "Stewart"
     ],
     [
-     "Juan Manuel Fangio",
-     "Fangio",
-     "Fangio"
-    ],
-    [
-     "Emerson Fittipaldi",
-     "Fittipaldi"
+     "Graham Hill"
     ],
     [
      "Jim Clark",
      "Clark"
     ],
     [
-     "Graham Hill"
-    ],
-    [
-     "James Hunt",
-     "Hunt"
+     "Juan Manuel Fangio",
+     "Fangio",
+     "Fangio"
     ],
     [
      "Jack Brabham",
@@ -925,29 +921,28 @@
      "Sir Jack Brabham"
     ],
     [
-     "Alberto Ascari",
-     "Ascari"
-    ],
-    [
-     "John Surtees",
-     "Surtees"
+     "Emerson Fittipaldi",
+     "Fittipaldi"
     ],
     [
      "Mario Andretti",
      "Andretti"
     ],
     [
-     "Giuseppe Farina",
-     "Farina",
-     "Nino Farina",
-     "Farina"
+     "John Surtees",
+     "Surtees"
     ],
     [
      "Mike Hawthorn",
      "Hawthorn"
     ],
     [
-     "Phil Hill"
+     "Alberto Ascari",
+     "Ascari"
+    ],
+    [
+     "Jody Scheckter",
+     "Scheckter"
     ],
     [
      "Denny Hulme",
@@ -956,12 +951,17 @@
      "Hulme"
     ],
     [
+     "Phil Hill"
+    ],
+    [
      "Jochen Rindt",
      "Rindt"
     ],
     [
-     "Jody Scheckter",
-     "Scheckter"
+     "Giuseppe Farina",
+     "Farina",
+     "Nino Farina",
+     "Farina"
     ]
    ]
   },
@@ -983,10 +983,6 @@
      "Schumacher"
     ],
     [
-     "Nelson Piquet",
-     "Piquet"
-    ],
-    [
      "Max Verstappen",
      "Verstappen",
      "Verstappen"
@@ -997,26 +993,9 @@
      "Vettel"
     ],
     [
-     "Rubens Barrichello",
-     "Barrichello"
-    ],
-    [
-     "Alain Prost",
-     "Prost",
-     "Prost"
-    ],
-    [
-     "Ronnie Peterson",
-     "Peterson"
-    ],
-    [
-     "Stirling Moss",
-     "Moss"
-    ],
-    [
-     "Juan Manuel Fangio",
-     "Fangio",
-     "Fangio"
+     "Ayrton Senna",
+     "Senna",
+     "Senna"
     ],
     [
      "Charles Leclerc",
@@ -1029,26 +1008,47 @@
      "Alonso"
     ],
     [
-     "Juan Pablo Montoya",
-     "Montoya"
+     "Alain Prost",
+     "Prost",
+     "Prost"
     ],
     "Damon Hill",
     [
-     "Ayrton Senna",
-     "Senna",
-     "Senna"
+     "Nelson Piquet",
+     "Piquet"
+    ],
+    [
+     "Rubens Barrichello",
+     "Barrichello"
     ],
     [
      "Niki Lauda",
      "Lauda"
     ],
     [
-     "Clay Regazzoni",
-     "Regazzoni"
-    ],
-    [
      "Jackie Stewart",
      "Stewart"
+    ],
+    [
+     "Stirling Moss",
+     "Moss"
+    ],
+    [
+     "Juan Manuel Fangio",
+     "Fangio",
+     "Fangio"
+    ],
+    [
+     "Juan Pablo Montoya",
+     "Montoya"
+    ],
+    [
+     "Ronnie Peterson",
+     "Peterson"
+    ],
+    [
+     "Clay Regazzoni",
+     "Regazzoni"
     ],
     [
      "John Surtees",
@@ -1598,56 +1598,72 @@
    ],
    "text": "Name a man who won the Wimbledon singles title between 1877 and 1967",
    "answers": [
-    "William Renshaw",
-    "Laurence Doherty",
-    [
-     "Anthony Wilding",
-     "Wilding"
-    ],
-    "Reginald Doherty",
     [
      "Fred Perry",
      "Perry",
      "Perry"
     ],
     [
-     "Bill Tilden",
-     "Tilden",
-     "Big Bill Tilden"
-    ],
-    "Arthur Gore",
-    [
-     "Wilfred Baddeley",
-     "Baddeley"
+     "Rod Laver",
+     "Laver"
     ],
     [
      "Roy Emerson",
      "Emerson"
     ],
     [
-     "Rod Laver",
-     "Laver"
+     "Don Budge",
+     "Budge"
+    ],
+    [
+     "Bill Tilden",
+     "Tilden",
+     "Big Bill Tilden"
     ],
     [
      "Lew Hoad",
      "Hoad"
     ],
     [
-     "Don Budge",
-     "Budge"
+     "Jack Kramer",
+     "Kramer"
     ],
     [
-     "Henri Cochet",
-     "Cochet"
+     "Neale Fraser",
+     "Fraser"
     ],
+    [
+     "John Newcombe",
+     "Newcombe"
+    ],
+    [
+     "Manuel Santana",
+     "Santana"
+    ],
+    "Laurence Doherty",
+    "Reginald Doherty",
     [
      "René Lacoste",
      "Lacoste",
      "Rene Lacoste"
     ],
     [
+     "Henri Cochet",
+     "Cochet"
+    ],
+    [
      "Jean Borotra",
      "Borotra"
+    ],
+    "William Renshaw",
+    [
+     "Anthony Wilding",
+     "Wilding"
+    ],
+    "Arthur Gore",
+    [
+     "Wilfred Baddeley",
+     "Baddeley"
     ],
     [
      "Gerald Patterson",
@@ -1666,20 +1682,8 @@
      "Hartley"
     ],
     [
-     "John Newcombe",
-     "Newcombe"
-    ],
-    [
-     "Manuel Santana",
-     "Santana"
-    ],
-    [
      "Chuck McKinley",
      "McKinley"
-    ],
-    [
-     "Neale Fraser",
-     "Fraser"
     ],
     [
      "Alex Olmedo",
@@ -1722,10 +1726,6 @@
     [
      "Bob Falkenburg",
      "Falkenburg"
-    ],
-    [
-     "Jack Kramer",
-     "Kramer"
     ],
     [
      "Yvon Petra",
@@ -1791,13 +1791,6 @@
      "Court"
     ],
     [
-     "Helen Wills Moody",
-     "Helen Wills",
-     "Helen Moody",
-     "Helen Wills Moody Roark",
-     "Wills"
-    ],
-    [
      "Suzanne Lenglen",
      "Lenglen"
     ],
@@ -1817,18 +1810,35 @@
      "Connolly"
     ],
     [
-     "Alice Marble",
-     "Marble"
+     "Helen Wills Moody",
+     "Helen Wills",
+     "Helen Moody",
+     "Helen Wills Moody Roark",
+     "Wills"
     ],
     [
-     "Louise Brough",
-     "Louise Brough Clapp",
-     "Brough"
+     "Dorothy Round",
+     "Dorothy Round Little",
+     "Round"
+    ],
+    [
+     "Alice Marble",
+     "Marble"
     ],
     [
      "Lottie Dod",
      "Charlotte Dod",
      "Dod"
+    ],
+    [
+     "Angela Mortimer",
+     "Angela Barrett",
+     "Mortimer"
+    ],
+    [
+     "Louise Brough",
+     "Louise Brough Clapp",
+     "Brough"
     ],
     [
      "Charlotte Cooper Sterry",
@@ -1874,11 +1884,6 @@
      "Cilly Aussem",
      "Aussem"
     ],
-    [
-     "Dorothy Round",
-     "Dorothy Round Little",
-     "Round"
-    ],
     "Helen Jacobs",
     [
      "Pauline Betz",
@@ -1899,11 +1904,6 @@
      "Shirley Fry",
      "Shirley Fry Irvin",
      "Fry"
-    ],
-    [
-     "Angela Mortimer",
-     "Angela Barrett",
-     "Mortimer"
     ],
     [
      "Karen Susman",
@@ -1927,35 +1927,75 @@
      "Federer"
     ],
     [
-     "Pete Sampras",
-     "Sampras",
-     "Sampras"
-    ],
-    [
      "Novak Djokovic",
      "Djokovic",
      "Djokovic"
     ],
     [
-     "William Renshaw",
-     "Renshaw"
+     "Pete Sampras",
+     "Sampras",
+     "Sampras"
     ],
-    "Laurence Doherty",
+    [
+     "Andy Murray",
+     "Murray",
+     "Murray"
+    ],
     [
      "Björn Borg",
      "Borg",
      "Bjorn Borg",
      "Borg"
     ],
-    "Reginald Doherty",
     [
-     "Anthony Wilding",
-     "Wilding"
+     "John McEnroe",
+     "McEnroe",
+     "McEnroe"
+    ],
+    [
+     "Boris Becker",
+     "Becker",
+     "Becker"
+    ],
+    [
+     "Rafael Nadal",
+     "Nadal",
+     "Nadal",
+     "Rafa"
+    ],
+    [
+     "Carlos Alcaraz",
+     "Alcaraz",
+     "Alcaraz"
     ],
     [
      "Rod Laver",
      "Laver",
      "Laver"
+    ],
+    [
+     "Fred Perry",
+     "Perry",
+     "Perry"
+    ],
+    [
+     "Jimmy Connors",
+     "Connors",
+     "Connors"
+    ],
+    [
+     "Don Budge",
+     "Budge"
+    ],
+    [
+     "William Renshaw",
+     "Renshaw"
+    ],
+    "Laurence Doherty",
+    "Reginald Doherty",
+    [
+     "Anthony Wilding",
+     "Wilding"
     ],
     [
      "Wilfred Baddeley",
@@ -1970,24 +2010,9 @@
      "Tilden"
     ],
     [
-     "Fred Perry",
-     "Perry",
-     "Perry"
-    ],
-    [
      "John Newcombe",
      "Newcombe",
      "Newcombe"
-    ],
-    [
-     "John McEnroe",
-     "McEnroe",
-     "McEnroe"
-    ],
-    [
-     "Boris Becker",
-     "Becker",
-     "Becker"
     ],
     [
      "John Hartley",
@@ -2018,10 +2043,6 @@
      "Cochet"
     ],
     [
-     "Don Budge",
-     "Budge"
-    ],
-    [
      "Lew Hoad",
      "Hoad"
     ],
@@ -2030,30 +2051,9 @@
      "Emerson"
     ],
     [
-     "Jimmy Connors",
-     "Connors",
-     "Connors"
-    ],
-    [
      "Stefan Edberg",
      "Edberg",
      "Edberg"
-    ],
-    [
-     "Rafael Nadal",
-     "Nadal",
-     "Nadal",
-     "Rafa"
-    ],
-    [
-     "Andy Murray",
-     "Murray",
-     "Murray"
-    ],
-    [
-     "Carlos Alcaraz",
-     "Alcaraz",
-     "Alcaraz"
     ],
     [
      "Jannik Sinner",
@@ -2070,10 +2070,57 @@
    "text": "Name a woman who has won the Wimbledon singles title more than once (1884 to 2026)",
    "answers": [
     [
+     "Serena Williams",
+     "Serena"
+    ],
+    [
      "Martina Navratilova",
      "Navratilova",
      "Navratilova",
      "Martina"
+    ],
+    [
+     "Steffi Graf",
+     "Graf",
+     "Graf"
+    ],
+    [
+     "Venus Williams",
+     "Venus"
+    ],
+    [
+     "Chris Evert",
+     "Evert",
+     "Evert"
+    ],
+    [
+     "Billie Jean King",
+     "King",
+     "King"
+    ],
+    [
+     "Petra Kvitová",
+     "Kvitová",
+     "Petra Kvitova",
+     "Kvitova"
+    ],
+    [
+     "Margaret Court",
+     "Court",
+     "Court",
+     "Margaret Smith"
+    ],
+    [
+     "Evonne Goolagong",
+     "Goolagong",
+     "Goolagong",
+     "Evonne Goolagong Cawley",
+     "Evonne Cawley"
+    ],
+    [
+     "Suzanne Lenglen",
+     "Lenglen",
+     "Lenglen"
     ],
     [
      "Helen Wills Moody",
@@ -2088,30 +2135,11 @@
      "Lambert Chambers"
     ],
     [
-     "Steffi Graf",
-     "Graf",
-     "Graf"
-    ],
-    [
-     "Serena Williams",
-     "Serena"
-    ],
-    [
      "Blanche Bingley",
      "Bingley",
      "Blanche Hillyard",
      "Blanche Bingley Hillyard",
      "Hillyard"
-    ],
-    [
-     "Suzanne Lenglen",
-     "Lenglen",
-     "Lenglen"
-    ],
-    [
-     "Billie Jean King",
-     "King",
-     "King"
     ],
     [
      "Charlotte Cooper Sterry",
@@ -2123,10 +2151,6 @@
      "Lottie Dod",
      "Dod",
      "Dod"
-    ],
-    [
-     "Venus Williams",
-     "Venus"
     ],
     [
      "Louise Brough",
@@ -2143,17 +2167,6 @@
      "Maria Bueno",
      "Bueno",
      "Bueno"
-    ],
-    [
-     "Margaret Court",
-     "Court",
-     "Court",
-     "Margaret Smith"
-    ],
-    [
-     "Chris Evert",
-     "Evert",
-     "Evert"
     ],
     [
      "Althea Gibson",
@@ -2181,19 +2194,6 @@
      "Maud Watson",
      "Watson",
      "Watson"
-    ],
-    [
-     "Evonne Goolagong",
-     "Goolagong",
-     "Goolagong",
-     "Evonne Goolagong Cawley",
-     "Evonne Cawley"
-    ],
-    [
-     "Petra Kvitová",
-     "Kvitová",
-     "Petra Kvitova",
-     "Kvitova"
     ]
    ]
   },
@@ -2210,17 +2210,14 @@
      "Phelps"
     ],
     [
-     "Johannes Høsflot Klæbo",
-     "Klæbo",
-     "Klaebo",
-     "Johannes Klaebo",
-     "Johannes Klæbo",
-     "Klæbo"
+     "Usain Bolt",
+     "Bolt",
+     "Bolt"
     ],
     [
-     "Larisa Latynina",
-     "Latynina",
-     "Latynina"
+     "Simone Biles",
+     "Biles",
+     "Biles"
     ],
     [
      "Katie Ledecky",
@@ -2228,19 +2225,9 @@
      "Ledecky"
     ],
     [
-     "Paavo Nurmi",
-     "Nurmi",
-     "Nurmi"
-    ],
-    [
      "Mark Spitz",
      "Spitz",
      "Spitz"
-    ],
-    [
-     "Caeleb Dressel",
-     "Dressel",
-     "Dressel"
     ],
     [
      "Carl Lewis",
@@ -2248,15 +2235,38 @@
      "Lewis"
     ],
     [
-     "Isabell Werth",
-     "Werth",
-     "Werth"
+     "Allyson Felix",
+     "Felix",
+     "Felix"
+    ],
+    [
+     "Larisa Latynina",
+     "Latynina",
+     "Latynina"
+    ],
+    [
+     "Paavo Nurmi",
+     "Nurmi",
+     "Nurmi"
+    ],
+    [
+     "Caeleb Dressel",
+     "Dressel",
+     "Dressel"
     ],
     [
      "Marit Bjørgen",
      "Bjørgen",
      "Marit Bjorgen",
      "Bjorgen"
+    ],
+    [
+     "Johannes Høsflot Klæbo",
+     "Klæbo",
+     "Klaebo",
+     "Johannes Klaebo",
+     "Johannes Klæbo",
+     "Klæbo"
     ],
     [
      "Ole Einar Bjørndalen",
@@ -2269,6 +2279,11 @@
      "Dæhlie",
      "Bjorn Daehlie",
      "Daehlie"
+    ],
+    [
+     "Isabell Werth",
+     "Werth",
+     "Werth"
     ],
     [
      "Birgit Fischer",
@@ -2295,11 +2310,6 @@
      "Carrington"
     ],
     [
-     "Usain Bolt",
-     "Bolt",
-     "Bolt"
-    ],
-    [
      "Ray Ewry",
      "Ewry"
     ],
@@ -2318,16 +2328,6 @@
     [
      "Viktor Chukarin",
      "Chukarin"
-    ],
-    [
-     "Allyson Felix",
-     "Felix",
-     "Felix"
-    ],
-    [
-     "Simone Biles",
-     "Biles",
-     "Biles"
     ],
     [
      "Jason Kenny",
@@ -2360,11 +2360,6 @@
    "text": "Name an athlete who has won five or more Winter Olympic gold medals (to the 2026 Winter Olympics)",
    "answers": [
     [
-     "Johannes Høsflot Klæbo",
-     "Klæbo",
-     "Johannes Klaebo"
-    ],
-    [
      "Marit Bjørgen",
      "Bjørgen"
     ],
@@ -2378,6 +2373,37 @@
      "Dæhlie"
     ],
     [
+     "Johannes Høsflot Klæbo",
+     "Klæbo",
+     "Johannes Klaebo"
+    ],
+    [
+     "Eric Heiden",
+     "Heiden"
+    ],
+    [
+     "Bonnie Blair",
+     "Blair"
+    ],
+    [
+     "Martin Fourcade",
+     "Fourcade"
+    ],
+    [
+     "Ireen Wüst",
+     "Wüst"
+    ],
+    [
+     "Claudia Pechstein",
+     "Pechstein"
+    ],
+    [
+     "Johannes Thingnes Bø",
+     "Johannes Bo",
+     "Thingnes Bo",
+     "Bø"
+    ],
+    [
      "Tobias Arlt",
      "Arlt"
     ],
@@ -2386,18 +2412,10 @@
      "Wendl"
     ],
     [
-     "Ireen Wüst",
-     "Wüst"
-    ],
-    [
      "Lyubov Yegorova",
      "Yegorova",
      "Lyubov Egorova",
      "Egorova"
-    ],
-    [
-     "Martin Fourcade",
-     "Fourcade"
     ],
     [
      "Natalie Geisenberger",
@@ -2413,16 +2431,6 @@
      "Fillon Maillet"
     ],
     [
-     "Johannes Thingnes Bø",
-     "Johannes Bo",
-     "Thingnes Bo",
-     "Bø"
-    ],
-    [
-     "Claudia Pechstein",
-     "Pechstein"
-    ],
-    [
      "Larisa Lazutina",
      "Lazutina"
     ],
@@ -2433,14 +2441,6 @@
     [
      "Thomas Alsgaard",
      "Alsgaard"
-    ],
-    [
-     "Bonnie Blair",
-     "Blair"
-    ],
-    [
-     "Eric Heiden",
-     "Heiden"
     ],
     [
      "Thorsten Margis",
@@ -2462,6 +2462,13 @@
    "text": "Name a country that has hosted the Summer Olympics (1896 to 2024; the Soviet Union counts as Russia)",
    "answers": [
     [
+     "United Kingdom",
+     "UK",
+     "Britain",
+     "Great Britain",
+     "England"
+    ],
+    [
      "United States",
      "USA",
      "US",
@@ -2469,23 +2476,17 @@
      "United States of America"
     ],
     "France",
-    "Japan",
+    "Greece",
+    "China",
     "Australia",
-    "Canada",
+    "Japan",
+    "Brazil",
     [
      "Germany",
      "West Germany"
     ],
-    [
-     "United Kingdom",
-     "UK",
-     "Britain",
-     "Great Britain",
-     "England"
-    ],
-    "China",
-    "Greece",
     "Italy",
+    "Canada",
     [
      "Russia",
      "USSR",
@@ -2498,7 +2499,6 @@
      "Republic of Korea"
     ],
     "Belgium",
-    "Brazil",
     "Finland",
     "Mexico",
     [

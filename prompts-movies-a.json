@@ -699,11 +699,35 @@
    ],
    "text": "Name a Hugh Jackman film (up to 2025)",
    "answers": [
+    "Logan",
+    [
+     "The Greatest Showman",
+     "greatest showman"
+    ],
     "X-Men",
+    [
+     "Deadpool & Wolverine",
+     "deadpool 3"
+    ],
+    [
+     "The Wolverine",
+     "wolverine"
+    ],
     [
      "X2",
      "x-men 2",
      "x2: x-men united"
+    ],
+    [
+     "The Prestige",
+     "prestige"
+    ],
+    "Prisoners",
+    "Van Helsing",
+    "Happy Feet",
+    [
+     "X-Men: Days of Future Past",
+     "days of future past"
     ],
     [
      "X-Men: The Last Stand",
@@ -713,37 +737,13 @@
      "X-Men Origins: Wolverine",
      "wolverine origins"
     ],
-    [
-     "The Wolverine",
-     "wolverine"
-    ],
-    [
-     "X-Men: Days of Future Past",
-     "days of future past"
-    ],
-    "Logan",
-    [
-     "Deadpool & Wolverine",
-     "deadpool 3"
-    ],
-    [
-     "The Greatest Showman",
-     "greatest showman"
-    ],
-    "Prisoners",
     "Kate & Leopold",
     "Swordfish",
-    "Van Helsing",
-    [
-     "The Prestige",
-     "prestige"
-    ],
     "Scoop",
     [
      "The Fountain",
      "fountain"
     ],
-    "Happy Feet",
     "Happy Feet Two",
     "Flushed Away",
     "Australia",
@@ -1065,7 +1065,26 @@
    ],
    "text": "Name a Eddie Murphy film (up to 2025)",
    "answers": [
+    "Shrek",
     "Beverly Hills Cop",
+    "Coming to America",
+    "Shrek 2",
+    "Trading Places",
+    [
+     "48 Hrs.",
+     "48 hours",
+     "forty eight hours"
+    ],
+    [
+     "The Nutty Professor",
+     "nutty professor"
+    ],
+    [
+     "Dr. Dolittle",
+     "doctor dolittle"
+    ],
+    "Mulan",
+    "Dreamgirls",
     [
      "Beverly Hills Cop II",
      "beverly hills cop 2"
@@ -1079,24 +1098,13 @@
      "axel f",
      "beverly hills cop 4"
     ],
-    "Coming to America",
     [
      "Coming 2 America",
      "coming to america 2"
     ],
-    "Trading Places",
-    [
-     "48 Hrs.",
-     "48 hours",
-     "forty eight hours"
-    ],
     [
      "Another 48 Hrs.",
      "another 48 hours"
-    ],
-    [
-     "The Nutty Professor",
-     "nutty professor"
     ],
     [
      "Nutty Professor II: The Klumps",
@@ -1104,15 +1112,9 @@
      "the klumps"
     ],
     [
-     "Dr. Dolittle",
-     "doctor dolittle"
-    ],
-    [
      "Dr. Dolittle 2",
      "doctor dolittle 2"
     ],
-    "Shrek",
-    "Shrek 2",
     [
      "Shrek the Third",
      "shrek 3"
@@ -1122,8 +1124,6 @@
      "shrek 4",
      "forever after"
     ],
-    "Mulan",
-    "Dreamgirls",
     "Norbit",
     "Daddy Day Care",
     "Holy Man",
@@ -1262,6 +1262,13 @@
    "text": "Name a Bill Murray film (up to 2025)",
    "answers": [
     "Ghostbusters",
+    "Groundhog Day",
+    "Lost in Translation",
+    "Caddyshack",
+    "Scrooged",
+    "Rushmore",
+    "Garfield",
+    "Stripes",
     [
      "Ghostbusters II",
      "ghostbusters 2"
@@ -1270,15 +1277,9 @@
      "Ghostbusters: Frozen Empire",
      "frozen empire"
     ],
-    "Groundhog Day",
-    "Caddyshack",
-    "Stripes",
     "Meatballs",
-    "Scrooged",
     "Tootsie",
     "What About Bob?",
-    "Lost in Translation",
-    "Rushmore",
     [
      "The Royal Tenenbaums",
      "royal tenenbaums"
@@ -1298,7 +1299,6 @@
      "The French Dispatch",
      "french dispatch"
     ],
-    "Garfield",
     [
      "Garfield: A Tail of Two Kitties",
      "a tail of two kitties",
@@ -1567,27 +1567,33 @@
    ],
    "text": "Name a Scarlett Johansson film (up to 2025)",
    "answers": [
-    "Lost in Translation",
-    "Girl with a Pearl Earring",
-    [
-     "The Prestige",
-     "prestige"
-    ],
-    "Match Point",
-    "Vicky Cristina Barcelona",
-    "Scoop",
-    "Her",
-    "Lucy",
-    "Under the Skin",
-    "Marriage Story",
-    "Jojo Rabbit",
     "Black Widow",
-    "Iron Man 2",
     [
      "The Avengers",
      "avengers assemble",
      "avengers"
     ],
+    "Lost in Translation",
+    "Her",
+    "Marriage Story",
+    "Lucy",
+    "Jojo Rabbit",
+    [
+     "Avengers: Endgame",
+     "endgame"
+    ],
+    "Under the Skin",
+    "Sing",
+    [
+     "The Prestige",
+     "prestige"
+    ],
+    "Girl with a Pearl Earring",
+    "Iron Man 2",
+    "Ghost in the Shell",
+    "Match Point",
+    "Vicky Cristina Barcelona",
+    "Scoop",
     [
      "Captain America: The Winter Soldier",
      "winter soldier"
@@ -1604,17 +1610,11 @@
      "Avengers: Infinity War",
      "infinity war"
     ],
-    [
-     "Avengers: Endgame",
-     "endgame"
-    ],
-    "Ghost in the Shell",
     "Hail, Caesar!",
     [
      "The Jungle Book",
      "jungle book"
     ],
-    "Sing",
     "Sing 2",
     "Isle of Dogs",
     "Rough Night",
@@ -1858,20 +1858,18 @@
    ],
    "text": "Name a Cate Blanchett film (up to 2025)",
    "answers": [
-    "Elizabeth",
-    [
-     "Elizabeth: The Golden Age",
-     "the golden age",
-     "golden age"
-    ],
-    [
-     "The Talented Mr. Ripley",
-     "talented mr ripley"
-    ],
     [
      "The Lord of the Rings: The Fellowship of the Ring",
      "fellowship of the ring"
     ],
+    "Elizabeth",
+    "Thor: Ragnarok",
+    "Blue Jasmine",
+    [
+     "The Aviator",
+     "aviator"
+    ],
+    "Carol",
     [
      "The Lord of the Rings: The Two Towers",
      "two towers"
@@ -1885,35 +1883,38 @@
      "an unexpected journey"
     ],
     [
-     "The Hobbit: The Battle of the Five Armies",
-     "battle of the five armies"
+     "Ocean's 8",
+     "oceans eight"
     ],
-    [
-     "The Aviator",
-     "aviator"
-    ],
-    "Blue Jasmine",
-    "Carol",
-    "Notes on a Scandal",
-    "Babel",
-    "I'm Not There",
+    "Cinderella",
     [
      "Indiana Jones and the Kingdom of the Crystal Skull",
      "kingdom of the crystal skull",
      "crystal skull"
     ],
+    "Tár",
+    [
+     "Elizabeth: The Golden Age",
+     "the golden age",
+     "golden age"
+    ],
+    [
+     "The Talented Mr. Ripley",
+     "talented mr ripley"
+    ],
+    [
+     "The Hobbit: The Battle of the Five Armies",
+     "battle of the five armies"
+    ],
+    "Notes on a Scandal",
+    "Babel",
+    "I'm Not There",
     [
      "The Curious Case of Benjamin Button",
      "benjamin button"
     ],
     "Robin Hood",
     "Hanna",
-    "Cinderella",
-    "Thor: Ragnarok",
-    [
-     "Ocean's 8",
-     "oceans eight"
-    ],
     "Nightmare Alley",
     "Don't Look Up",
     "Pushing Tin",
@@ -1967,8 +1968,7 @@
      "gift"
     ],
     "Little Fish",
-    "Rumours",
-    "Tár"
+    "Rumours"
    ],
    "deep": true
   },

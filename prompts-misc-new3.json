@@ -13,39 +13,39 @@
      "Alpine",
      "Downhill skiing"
     ],
-    "Biathlon",
+    "Curling",
+    "Figure skating",
+    "Ice hockey",
+    [
+     "Snowboarding",
+     "Snowboard"
+    ],
     [
      "Bobsleigh",
      "Bobsled"
     ],
+    "Skeleton",
+    "Ski jumping",
     [
      "Cross-country skiing",
      "Cross country skiing",
      "Cross country"
     ],
-    "Curling",
-    "Figure skating",
+    "Biathlon",
+    "Luge",
     [
      "Freestyle skiing",
      "Freestyle"
     ],
-    "Ice hockey",
-    "Luge",
     "Nordic combined",
     [
      "Short-track speed skating",
      "Short track speed skating",
      "Short track"
     ],
-    "Skeleton",
-    "Ski jumping",
     [
      "Ski mountaineering",
      "Skimo"
-    ],
-    [
-     "Snowboarding",
-     "Snowboard"
     ],
     "Speed skating"
    ]
@@ -58,6 +58,41 @@
    "text": "Name a current (non-obsolete) HTML element, by its tag name without the angle brackets (as defined in the HTML Living Standard in 2025)",
    "answers": [
     [
+     "div",
+     "<div>",
+     "div tag"
+    ],
+    [
+     "p",
+     "<p>",
+     "p tag"
+    ],
+    [
+     "a",
+     "<a>",
+     "a tag"
+    ],
+    [
+     "img",
+     "<img>",
+     "img tag"
+    ],
+    [
+     "span",
+     "<span>",
+     "span tag"
+    ],
+    [
+     "h1",
+     "<h1>",
+     "h1 tag"
+    ],
+    [
+     "body",
+     "<body>",
+     "body tag"
+    ],
+    [
      "html",
      "<html>",
      "html tag"
@@ -66,6 +101,36 @@
      "head",
      "<head>",
      "head tag"
+    ],
+    [
+     "ul",
+     "<ul>",
+     "ul tag"
+    ],
+    [
+     "li",
+     "<li>",
+     "li tag"
+    ],
+    [
+     "table",
+     "<table>",
+     "table tag"
+    ],
+    [
+     "button",
+     "<button>",
+     "button tag"
+    ],
+    [
+     "form",
+     "<form>",
+     "form tag"
+    ],
+    [
+     "input",
+     "<input>",
+     "input tag"
     ],
     [
      "title",
@@ -93,11 +158,6 @@
      "style tag"
     ],
     [
-     "body",
-     "<body>",
-     "body tag"
-    ],
-    [
      "article",
      "<article>",
      "article tag"
@@ -116,11 +176,6 @@
      "aside",
      "<aside>",
      "aside tag"
-    ],
-    [
-     "h1",
-     "<h1>",
-     "h1 tag"
     ],
     [
      "h2",
@@ -168,11 +223,6 @@
      "address tag"
     ],
     [
-     "p",
-     "<p>",
-     "p tag"
-    ],
-    [
      "hr",
      "<hr>",
      "hr tag"
@@ -193,19 +243,9 @@
      "ol tag"
     ],
     [
-     "ul",
-     "<ul>",
-     "ul tag"
-    ],
-    [
      "menu",
      "<menu>",
      "menu tag"
-    ],
-    [
-     "li",
-     "<li>",
-     "li tag"
     ],
     [
      "dl",
@@ -241,16 +281,6 @@
      "search",
      "<search>",
      "search tag"
-    ],
-    [
-     "div",
-     "<div>",
-     "div tag"
-    ],
-    [
-     "a",
-     "<a>",
-     "a tag"
     ],
     [
      "em",
@@ -378,11 +408,6 @@
      "bdo tag"
     ],
     [
-     "span",
-     "<span>",
-     "span tag"
-    ],
-    [
      "br",
      "<br>",
      "br tag"
@@ -411,11 +436,6 @@
      "source",
      "<source>",
      "source tag"
-    ],
-    [
-     "img",
-     "<img>",
-     "img tag"
     ],
     [
      "iframe",
@@ -456,11 +476,6 @@
      "area",
      "<area>",
      "area tag"
-    ],
-    [
-     "table",
-     "<table>",
-     "table tag"
     ],
     [
      "caption",
@@ -508,24 +523,9 @@
      "th tag"
     ],
     [
-     "form",
-     "<form>",
-     "form tag"
-    ],
-    [
      "label",
      "<label>",
      "label tag"
-    ],
-    [
-     "input",
-     "<input>",
-     "input tag"
-    ],
-    [
-     "button",
-     "<button>",
-     "button tag"
     ],
     [
      "select",
@@ -627,20 +627,28 @@
    "text": "Name a Lotus car model (past or present, up to 2025)",
    "answers": [
     [
-     "Seven",
-     "Lotus Seven"
+     "Elise",
+     "Lotus Elise"
     ],
     [
-     "Eleven",
-     "Lotus Eleven"
+     "Esprit",
+     "Lotus Esprit"
     ],
     [
-     "Elite",
-     "Lotus Elite"
+     "Evora",
+     "Lotus Evora"
+    ],
+    [
+     "Exige",
+     "Lotus Exige"
     ],
     [
      "Elan",
      "Lotus Elan"
+    ],
+    [
+     "Seven",
+     "Lotus Seven"
     ],
     [
      "Europa",
@@ -651,24 +659,28 @@
      "Lotus Eclat"
     ],
     [
-     "Esprit",
-     "Lotus Esprit"
+     "Elite",
+     "Lotus Elite"
     ],
     [
      "Excel",
      "Lotus Excel"
     ],
     [
-     "Elise",
-     "Lotus Elise"
+     "Emira",
+     "Lotus Emira"
     ],
     [
-     "Exige",
-     "Lotus Exige"
+     "Eletre",
+     "Lotus Eletre"
     ],
     [
-     "Evora",
-     "Lotus Evora"
+     "Evija",
+     "Lotus Evija"
+    ],
+    [
+     "Eleven",
+     "Lotus Eleven"
     ],
     [
      "340R",
@@ -683,18 +695,6 @@
      "Lotus 3-Eleven"
     ],
     [
-     "Evija",
-     "Lotus Evija"
-    ],
-    [
-     "Emira",
-     "Lotus Emira"
-    ],
-    [
-     "Eletre",
-     "Lotus Eletre"
-    ],
-    [
      "Emeya",
      "Lotus Emeya"
     ]
@@ -707,6 +707,47 @@
    ],
    "text": "Name a Bentley car model (past or present, up to 2025)",
    "answers": [
+    [
+     "Continental",
+     "Bentley Continental"
+    ],
+    [
+     "Bentayga",
+     "Bentley Bentayga"
+    ],
+    [
+     "Flying Spur",
+     "Continental Flying Spur",
+     "Bentley Flying Spur"
+    ],
+    [
+     "Mulsanne",
+     "Bentley Mulsanne"
+    ],
+    [
+     "Arnage",
+     "Bentley Arnage"
+    ],
+    [
+     "Azure",
+     "Bentley Azure"
+    ],
+    [
+     "Turbo R",
+     "Bentley Turbo R"
+    ],
+    [
+     "Brooklands",
+     "Bentley Brooklands"
+    ],
+    [
+     "Continental GT",
+     "Bentley Continental GT"
+    ],
+    [
+     "Speed Six",
+     "Bentley Speed Six"
+    ],
     [
      "3 Litre",
      "3 Liter",
@@ -732,10 +773,6 @@
      "8 Litre",
      "8 Liter",
      "Bentley 8 Litre"
-    ],
-    [
-     "Speed Six",
-     "Bentley Speed Six"
     ],
     [
      "Mark V",
@@ -769,49 +806,12 @@
      "Bentley T-Series"
     ],
     [
-     "Continental",
-     "Bentley Continental"
-    ],
-    [
      "Corniche",
      "Bentley Corniche"
     ],
     [
-     "Mulsanne",
-     "Bentley Mulsanne"
-    ],
-    [
      "Eight",
      "Bentley Eight"
-    ],
-    [
-     "Turbo R",
-     "Bentley Turbo R"
-    ],
-    [
-     "Brooklands",
-     "Bentley Brooklands"
-    ],
-    [
-     "Azure",
-     "Bentley Azure"
-    ],
-    [
-     "Arnage",
-     "Bentley Arnage"
-    ],
-    [
-     "Continental GT",
-     "Bentley Continental GT"
-    ],
-    [
-     "Flying Spur",
-     "Continental Flying Spur",
-     "Bentley Flying Spur"
-    ],
-    [
-     "Bentayga",
-     "Bentley Bentayga"
     ],
     [
      "State Limousine",

@@ -82,17 +82,18 @@
    ],
    "text": "Name a five-player dungeon added in World of Warcraft: Wrath of the Lich King",
    "answers": [
+    [
+     "The Culling of Stratholme",
+     "Culling of Stratholme",
+     "Culling"
+    ],
     "Utgarde Keep",
     [
      "The Nexus",
      "Nexus"
     ],
+    "Halls of Reflection",
     "Azjol-Nerub",
-    [
-     "Ahn'kahet: The Old Kingdom",
-     "Ahnkahet",
-     "Old Kingdom"
-    ],
     [
      "Drak'Tharon Keep",
      "Draktharon Keep"
@@ -102,21 +103,20 @@
      "Violet Hold"
     ],
     "Gundrak",
-    "Halls of Stone",
+    "Trial of the Champion",
+    "Pit of Saron",
     "Halls of Lightning",
     [
      "The Oculus",
      "Oculus"
     ],
-    "Utgarde Pinnacle",
     [
-     "The Culling of Stratholme",
-     "Culling of Stratholme",
-     "Culling"
+     "Ahn'kahet: The Old Kingdom",
+     "Ahnkahet",
+     "Old Kingdom"
     ],
-    "Trial of the Champion",
-    "Halls of Reflection",
-    "Pit of Saron",
+    "Halls of Stone",
+    "Utgarde Pinnacle",
     [
      "The Forge of Souls",
      "Forge of Souls"
@@ -130,6 +130,12 @@
    ],
    "text": "Name a five-player dungeon in World of Warcraft: Cataclysm (patch 4.3)",
    "answers": [
+    [
+     "The Deadmines",
+     "Deadmines"
+    ],
+    "Shadowfang Keep",
+    "Grim Batol",
     "Throne of the Tides",
     "Blackrock Caverns",
     [
@@ -140,17 +146,11 @@
      "The Vortex Pinnacle",
      "Vortex Pinnacle"
     ],
-    "Grim Batol",
-    "Halls of Origination",
-    "Lost City of the Tol'vir",
-    [
-     "The Deadmines",
-     "Deadmines"
-    ],
-    "Shadowfang Keep",
     "Zul'Aman",
     "Zul'Gurub",
     "End Time",
+    "Halls of Origination",
+    "Lost City of the Tol'vir",
     "Well of Eternity",
     "Hour of Twilight"
    ]
@@ -246,45 +246,46 @@
    ],
    "text": "Name a reputation faction introduced in The Burning Crusade (not counting racial capital city factions)",
    "answers": [
+    [
+     "The Aldor",
+     "Aldor"
+    ],
+    [
+     "The Scryers",
+     "Scryers"
+    ],
+    "Netherwing",
     "Honor Hold",
     "Thrallmar",
     [
      "Cenarion Expedition",
      "Cenarion"
     ],
-    [
-     "The Consortium",
-     "Consortium"
-    ],
-    "Keepers of Time",
     "Kurenai",
     [
      "The Mag'har",
      "Mag'har",
      "Maghar"
     ],
-    "Netherwing",
     "Ogri'la",
+    "Sporeggar",
+    "Shattered Sun Offensive",
+    "Lower City",
+    [
+     "The Consortium",
+     "Consortium"
+    ],
+    "Keepers of Time",
     [
      "The Scale of the Sands",
      "Scale of the Sands"
     ],
-    "Sporeggar",
     "Tranquillien",
     [
      "The Violet Eye",
      "Violet Eye"
     ],
     "Ashtongue Deathsworn",
-    [
-     "The Aldor",
-     "Aldor"
-    ],
-    "Lower City",
-    [
-     "The Scryers",
-     "Scryers"
-    ],
     [
      "The Sha'tar",
      "Sha'tar",
@@ -293,8 +294,7 @@
     [
      "Sha'tari Skyguard",
      "Skyguard"
-    ],
-    "Shattered Sun Offensive"
+    ]
    ]
   },
   {
@@ -449,36 +449,36 @@
    ],
    "text": "Name a hunter pet family available in the original World of Warcraft (2004)",
    "answers": [
-    "Bat",
+    "Wolf",
+    "Cat",
     "Bear",
+    "Boar",
+    "Spider",
+    "Raptor",
+    "Bat",
+    "Gorilla",
+    [
+     "Crocolisk",
+     "Crocodile"
+    ],
+    "Turtle",
+    [
+     "Scorpid",
+     "Scorpion"
+    ],
+    "Tallstrider",
+    "Hyena",
+    "Crab",
+    "Wind Serpent",
     [
      "Bird of Prey",
      "Owl",
      "Birds of Prey"
     ],
-    "Boar",
     [
      "Carrion Bird",
      "Vulture"
-    ],
-    "Cat",
-    "Crab",
-    [
-     "Crocolisk",
-     "Crocodile"
-    ],
-    "Gorilla",
-    "Hyena",
-    "Raptor",
-    [
-     "Scorpid",
-     "Scorpion"
-    ],
-    "Spider",
-    "Tallstrider",
-    "Turtle",
-    "Wind Serpent",
-    "Wolf"
+    ]
    ]
   },
   {
@@ -488,19 +488,6 @@
    ],
    "text": "Name a boss in the Deadmines (original or Cataclysm version)",
    "answers": [
-    "Rhahk'Zor",
-    [
-     "Sneed",
-     "Sneed's Shredder",
-     "Sneeds Shredder"
-    ],
-    "Gilnid",
-    [
-     "Mr. Smite",
-     "Mister Smite",
-     "Smite"
-    ],
-    "Captain Greenskin",
     [
      "Edwin VanCleef",
      "VanCleef",
@@ -508,9 +495,22 @@
      "Edwin"
     ],
     [
+     "Mr. Smite",
+     "Mister Smite",
+     "Smite"
+    ],
+    [
      "Cookie",
      "Captain Cookie"
     ],
+    "Rhahk'Zor",
+    [
+     "Sneed",
+     "Sneed's Shredder",
+     "Sneeds Shredder"
+    ],
+    "Captain Greenskin",
+    "Gilnid",
     "Glubtok",
     "Helix Gearbreaker",
     [
@@ -532,25 +532,10 @@
    "text": "Name a boss in the Scarlet Monastery (original or Mists of Pandaria version)",
    "answers": [
     [
-     "Interrogator Vishas",
-     "James Vishas",
-     "Vishas"
+     "High Inquisitor Whitemane",
+     "Whitemane",
+     "Sally Whitemane"
     ],
-    [
-     "Bloodmage Thalnos",
-     "Thalnos",
-     "Thalnos the Soulrender"
-    ],
-    "Azshir the Sleepless",
-    "Fallen Champion",
-    "Ironspine",
-    "Houndmaster Loksey",
-    "Arcanist Doan",
-    [
-     "Herod",
-     "The Scarlet Champion"
-    ],
-    "High Inquisitor Fairbanks",
     [
      "Scarlet Commander Mograine",
      "Mograine",
@@ -558,10 +543,25 @@
      "Renault Mograine"
     ],
     [
-     "High Inquisitor Whitemane",
-     "Whitemane",
-     "Sally Whitemane"
+     "Herod",
+     "The Scarlet Champion"
     ],
+    [
+     "Bloodmage Thalnos",
+     "Thalnos",
+     "Thalnos the Soulrender"
+    ],
+    [
+     "Interrogator Vishas",
+     "James Vishas",
+     "Vishas"
+    ],
+    "Houndmaster Loksey",
+    "Arcanist Doan",
+    "High Inquisitor Fairbanks",
+    "Azshir the Sleepless",
+    "Fallen Champion",
+    "Ironspine",
     [
      "Brother Korloff",
      "Korloff"
@@ -579,30 +579,30 @@
    ],
    "text": "Name a boss in the original Stratholme dungeon",
    "answers": [
-    "Skul",
-    "The Unforgiven",
-    "Hearthsinger Forresten",
-    "Postmaster Malown",
-    "Timmy the Cruel",
-    "Malor the Zealous",
-    "Cannon Master Willey",
-    "Archivist Galford",
+    [
+     "Baron Rivendare",
+     "Rivendare",
+     "Aurius Rivendare"
+    ],
     [
      "Balnazzar",
      "Grand Crusader Dathrohan",
      "Dathrohan"
     ],
     "Baroness Anastari",
-    "Stonespine",
     "Nerub'enkan",
     "Maleki the Pallid",
     "Magistrate Barthilas",
     "Ramstein the Gorger",
-    [
-     "Baron Rivendare",
-     "Rivendare",
-     "Aurius Rivendare"
-    ]
+    "Timmy the Cruel",
+    "Skul",
+    "Archivist Galford",
+    "Cannon Master Willey",
+    "Stonespine",
+    "The Unforgiven",
+    "Hearthsinger Forresten",
+    "Postmaster Malown",
+    "Malor the Zealous"
    ]
   },
   {
@@ -612,9 +612,34 @@
    ],
    "text": "Name a boss in Blackrock Depths (including the Ring of Law and the Seven)",
    "answers": [
-    "High Interrogator Gerstahn",
-    "Houndmaster Grebmar",
+    [
+     "Emperor Dagran Thaurissan",
+     "Emperor Thaurissan",
+     "Dagran Thaurissan",
+     "Thaurissan"
+    ],
+    "General Angerforge",
+    "Ambassador Flamelash",
+    "Lord Incendius",
+    "Fineous Darkvire",
+    "Bael'Gar",
     "Lord Roccor",
+    "High Interrogator Gerstahn",
+    "Pyromancer Loregrain",
+    "Magmus",
+    [
+     "Princess Moira Bronzebeard",
+     "Moira Bronzebeard",
+     "Princess Moira",
+     "High Priestess of Thaurissan"
+    ],
+    [
+     "Phalanx",
+     "Phalanx the golem"
+    ],
+    "Plugger Spazzring",
+    "Houndmaster Grebmar",
+    "Warder Stilgiss",
     "Anub'shiah",
     "Eviscerator",
     "Gorosh the Dervish",
@@ -630,37 +655,12 @@
     "Rezznik",
     "Va'jashni",
     "Volida",
-    "Pyromancer Loregrain",
-    "Warder Stilgiss",
     "Verek",
-    "Fineous Darkvire",
-    "Lord Incendius",
-    "Bael'Gar",
-    "General Angerforge",
     "Golem Lord Argelmach",
     "Hurley Blackbreath",
-    [
-     "Phalanx",
-     "Phalanx the golem"
-    ],
-    "Plugger Spazzring",
     "Ribbly Screwspigot",
-    "Ambassador Flamelash",
     "Panzor the Invincible",
-    "Magmus",
     "Watchman Doomgrip",
-    [
-     "Princess Moira Bronzebeard",
-     "Moira Bronzebeard",
-     "Princess Moira",
-     "High Priestess of Thaurissan"
-    ],
-    [
-     "Emperor Dagran Thaurissan",
-     "Emperor Thaurissan",
-     "Dagran Thaurissan",
-     "Thaurissan"
-    ],
     "Coren Direbrew",
     [
      "Anger'rel",
@@ -706,38 +706,38 @@
    ],
    "text": "Name a boss in Dire Maul",
    "answers": [
-    "Pusillin",
-    "Lethtendris",
-    "Pimgib",
-    "Hydrospawn",
-    "Zevrim Thornhoof",
     [
-     "Alzzin the Wildshaper",
-     "Alzzin"
+     "King Gordok",
+     "Gordok"
     ],
-    "Tendris Warpwood",
-    "Tsu'zee",
-    "Magister Kalendris",
-    "Illyanna Ravenoak",
-    "Ferra",
+    "Prince Tortheldrin",
     [
      "Immol'thar",
      "Immolthar"
     ],
-    "Prince Tortheldrin",
+    [
+     "Alzzin the Wildshaper",
+     "Alzzin"
+    ],
     "Guard Mol'dar",
     "Stomper Kreeg",
-    "Guard Fengus",
-    "Guard Slip'kik",
     "Captain Kromcrush",
     [
      "Cho'Rush the Observer",
      "Cho'Rush"
     ],
-    [
-     "King Gordok",
-     "Gordok"
-    ]
+    "Zevrim Thornhoof",
+    "Hydrospawn",
+    "Lethtendris",
+    "Pusillin",
+    "Pimgib",
+    "Tendris Warpwood",
+    "Tsu'zee",
+    "Magister Kalendris",
+    "Illyanna Ravenoak",
+    "Ferra",
+    "Guard Fengus",
+    "Guard Slip'kik"
    ],
    "deep": true
   },

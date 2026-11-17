@@ -142,17 +142,19 @@
      "Pyramid of Cheops"
     ],
     [
-     "Pyramid of Khafre",
-     "Pyramid of Chephren"
-    ],
-    [
-     "Pyramid of Menkaure",
-     "Pyramid of Mycerinus"
-    ],
-    [
      "Great Sphinx",
      "Sphinx",
      "Sphinx of Giza"
+    ],
+    "Valley of the Kings",
+    [
+     "Karnak",
+     "Karnak Temple"
+    ],
+    "Abu Simbel",
+    [
+     "Luxor Temple",
+     "Luxor"
     ],
     [
      "Step Pyramid of Djoser",
@@ -164,24 +166,22 @@
      "Saqqara",
      "Sakkara"
     ],
-    "Bent Pyramid",
-    "Red Pyramid",
-    "Dahshur",
     [
-     "Karnak",
-     "Karnak Temple"
+     "Pyramid of Khafre",
+     "Pyramid of Chephren"
     ],
     [
-     "Luxor Temple",
-     "Luxor"
+     "Pyramid of Menkaure",
+     "Pyramid of Mycerinus"
     ],
-    "Valley of the Kings",
-    "Valley of the Queens",
-    "Abu Simbel",
     [
      "Philae",
      "Philae Temple"
     ],
+    "Bent Pyramid",
+    "Red Pyramid",
+    "Dahshur",
+    "Valley of the Queens",
     [
      "Deir el-Bahari",
      "Temple of Hatshepsut",
@@ -302,21 +302,26 @@
    "text": "Name a Roman political office, magistracy or priesthood",
    "answers": [
     "Consul",
-    "Praetor",
-    "Quaestor",
-    "Aedile",
+    [
+     "Emperor",
+     "Princeps",
+     "Imperator"
+    ],
+    "Senator",
+    "Dictator",
     [
      "Tribune",
      "Tribune of the Plebs",
      "Plebeian Tribune"
     ],
+    "Praetor",
     "Censor",
-    "Dictator",
-    "Senator",
     [
      "Pontifex Maximus",
      "Pontifex"
     ],
+    "Quaestor",
+    "Aedile",
     "Proconsul",
     "Propraetor",
     [
@@ -328,11 +333,6 @@
      "Praefectus"
     ],
     "Procurator",
-    [
-     "Emperor",
-     "Princeps",
-     "Imperator"
-    ],
     [
      "Magister Equitum",
      "Master of the Horse"
@@ -724,18 +724,6 @@
    "text": "Name a pharaoh who ruled Egypt before the New Kingdom (about 3100 to 1550 BC)",
    "answers": [
     [
-     "Narmer",
-     "Menes"
-    ],
-    [
-     "Djoser",
-     "Zoser"
-    ],
-    [
-     "Sneferu",
-     "Snefru"
-    ],
-    [
      "Khufu",
      "Cheops"
     ],
@@ -747,16 +735,28 @@
      "Menkaure",
      "Mycerinus"
     ],
-    "Userkaf",
-    "Sahure",
-    "Unas",
-    "Teti",
-    "Pepi I",
+    [
+     "Djoser",
+     "Zoser"
+    ],
+    [
+     "Narmer",
+     "Menes"
+    ],
+    [
+     "Sneferu",
+     "Snefru"
+    ],
     "Pepi II",
     [
      "Mentuhotep II",
      "Mentuhotep"
     ],
+    "Userkaf",
+    "Sahure",
+    "Unas",
+    "Teti",
+    "Pepi I",
     "Amenemhat I",
     "Amenemhat III",
     [
@@ -805,7 +805,11 @@
      "Hebrews"
     ],
     "Philistines",
+    "Egyptians",
+    "Babylonians",
+    "Assyrians",
     "Canaanites",
+    "Romans",
     "Hittites",
     "Amorites",
     "Moabites",
@@ -813,9 +817,6 @@
     "Ammonites",
     "Amalekites",
     "Phoenicians",
-    "Assyrians",
-    "Babylonians",
-    "Egyptians",
     "Samaritans",
     "Midianites",
     "Jebusites",
@@ -837,7 +838,6 @@
      "Kushites"
     ],
     "Greeks",
-    "Romans",
     "Galatians"
    ]
   },
@@ -848,17 +848,17 @@
    ],
    "text": "Name a statesman or general of ancient Athens, Sparta or Thebes",
    "answers": [
+    "Leonidas",
     "Pericles",
-    "Solon",
-    "Themistocles",
-    "Cleisthenes",
-    "Draco",
     "Alcibiades",
+    "Themistocles",
+    "Solon",
+    "Lycurgus",
+    "Draco",
+    "Cleisthenes",
     "Miltiades",
     "Cimon",
     "Aristides",
-    "Lycurgus",
-    "Leonidas",
     "Lysander",
     "Pausanias",
     "Agesilaus",
@@ -896,41 +896,41 @@
    "text": "Name a general or politician of the Roman Republic (509 to 27 BC)",
    "answers": [
     [
-     "Scipio Africanus",
-     "Scipio"
+     "Julius Caesar",
+     "Caesar"
     ],
     [
      "Pompey",
      "Pompey the Great",
      "Gnaeus Pompeius"
     ],
-    [
-     "Julius Caesar",
-     "Caesar"
-    ],
-    [
-     "Crassus",
-     "Marcus Crassus"
-    ],
-    [
-     "Marius",
-     "Gaius Marius"
-    ],
-    [
-     "Sulla",
-     "Lucius Sulla"
-    ],
-    [
-     "Cato the Elder",
-     "Cato"
-    ],
-    "Cato the Younger",
     "Cicero",
     [
      "Mark Antony",
      "Marc Antony",
      "Antony"
     ],
+    [
+     "Crassus",
+     "Marcus Crassus"
+    ],
+    [
+     "Scipio Africanus",
+     "Scipio"
+    ],
+    [
+     "Sulla",
+     "Lucius Sulla"
+    ],
+    [
+     "Marius",
+     "Gaius Marius"
+    ],
+    [
+     "Cato the Elder",
+     "Cato"
+    ],
+    "Cato the Younger",
     "Lepidus",
     [
      "Fabius Maximus",
@@ -1041,38 +1041,38 @@
    ],
    "text": "Name a creature from British or Irish folklore",
    "answers": [
-    "Kelpie",
+    "Leprechaun",
     [
      "Banshee",
      "Bean Sidhe"
-    ],
-    "Selkie",
-    "Leprechaun",
-    [
-     "Pixie",
-     "Piskie",
-     "Pisky"
-    ],
-    "Brownie",
-    "Boggart",
-    [
-     "Bogeyman",
-     "Boogeyman"
-    ],
-    [
-     "Will-o'-the-wisp",
-     "Will o the wisp",
-     "Jack-o'-lantern"
-    ],
-    [
-     "Black Shuck",
-     "Shuck"
     ],
     [
      "Loch Ness Monster",
      "Nessie"
     ],
+    [
+     "Pixie",
+     "Piskie",
+     "Pisky"
+    ],
+    "Boggart",
+    "Kelpie",
+    "Selkie",
+    [
+     "Bogeyman",
+     "Boogeyman"
+    ],
+    [
+     "Black Shuck",
+     "Shuck"
+    ],
     "Green Man",
+    "Brownie",
+    [
+     "Will-o'-the-wisp",
+     "Will o the wisp",
+     "Jack-o'-lantern"
+    ],
     "Jenny Greenteeth",
     "Redcap",
     [
@@ -1290,35 +1290,35 @@
    ],
    "text": "Name a woman in the Bible",
    "answers": [
-    "Eve",
-    [
-     "Sarah",
-     "Sarai"
-    ],
-    [
-     "Rebecca",
-     "Rebekah"
-    ],
-    "Rachel",
-    "Leah",
-    "Ruth",
-    "Naomi",
-    "Esther",
-    "Deborah",
-    "Delilah",
-    "Bathsheba",
-    "Jezebel",
     [
      "Mary",
      "Virgin Mary",
      "Mary the mother of Jesus"
     ],
-    "Elizabeth",
-    "Martha",
+    "Eve",
+    "Ruth",
+    "Esther",
     [
      "Mary Magdalene",
      "Magdalene"
     ],
+    "Delilah",
+    "Jezebel",
+    [
+     "Sarah",
+     "Sarai"
+    ],
+    "Martha",
+    "Bathsheba",
+    [
+     "Rebecca",
+     "Rebekah"
+    ],
+    "Elizabeth",
+    "Rachel",
+    "Leah",
+    "Naomi",
+    "Deborah",
     "Hagar",
     "Miriam",
     "Hannah",
@@ -1551,13 +1551,16 @@
    "answers": [
     "Isaiah",
     "Jeremiah",
-    "Ezekiel",
     "Daniel",
+    "Ezekiel",
+    "Jonah",
+    "Elijah",
+    "Moses",
+    "Samuel",
+    "Amos",
     "Hosea",
     "Joel",
-    "Amos",
     "Obadiah",
-    "Jonah",
     "Micah",
     "Nahum",
     "Habakkuk",
@@ -1565,11 +1568,8 @@
     "Haggai",
     "Zechariah",
     "Malachi",
-    "Elijah",
     "Elisha",
-    "Samuel",
     "Nathan",
-    "Moses",
     "Aaron",
     "Miriam",
     "Deborah",
@@ -1592,17 +1592,22 @@
    "text": "Name a famous treaty or peace settlement (by place name, like Versailles)",
    "answers": [
     "Versailles",
-    "Rome",
     "Maastricht",
-    "Lisbon",
-    "Utrecht",
     "Paris",
     "Waitangi",
     "Tordesillas",
     "Westphalia",
+    [
+     "Munich",
+     "Munich Agreement"
+    ],
+    "Lisbon",
+    "Utrecht",
     "Vienna",
+    "Rome",
     "Ghent",
     "Amiens",
+    "Brest-Litovsk",
     [
      "Union",
      "Treaty of Union",
@@ -1612,7 +1617,6 @@
      "Nanking",
      "Nanjing"
     ],
-    "Brest-Litovsk",
     "Trianon",
     [
      "Sèvres",
@@ -1620,10 +1624,6 @@
     ],
     "Lausanne",
     "Locarno",
-    [
-     "Munich",
-     "Munich Agreement"
-    ],
     "Verdun",
     "Troyes",
     [
@@ -1873,20 +1873,16 @@
    ],
    "text": "Name a famous political leader or public figure who was assassinated",
    "answers": [
-    "Julius Caesar",
-    [
-     "Abraham Lincoln",
-     "Lincoln"
-    ],
     [
      "John F. Kennedy",
      "JFK",
      "Kennedy"
     ],
     [
-     "Mahatma Gandhi",
-     "Gandhi"
+     "Abraham Lincoln",
+     "Lincoln"
     ],
+    "Julius Caesar",
     [
      "Archduke Franz Ferdinand",
      "Franz Ferdinand"
@@ -1897,14 +1893,18 @@
      "Martin Luther King Jr"
     ],
     [
+     "Mahatma Gandhi",
+     "Gandhi"
+    ],
+    [
      "John Lennon",
      "Lennon"
     ],
+    "Malcolm X",
     [
      "Spencer Perceval",
      "Perceval"
     ],
-    "Malcolm X",
     [
      "Thomas Becket",
      "Becket"
@@ -2280,40 +2280,6 @@
    "text": "Name a famous war or long conflict",
    "answers": [
     [
-     "Hundred Years' War",
-     "Hundred Years War"
-    ],
-    [
-     "Thirty Years' War",
-     "Thirty Years War"
-    ],
-    "Cold War",
-    "Wars of the Roses",
-    [
-     "Boer War",
-     "Anglo-Boer War",
-     "Second Boer War"
-    ],
-    "Crimean War",
-    "Vietnam War",
-    "Korean War",
-    "Gulf War",
-    [
-     "Napoleonic Wars",
-     "Napoleonic War"
-    ],
-    "Peninsular War",
-    [
-     "Opium Wars",
-     "First Opium War",
-     "Second Opium War"
-    ],
-    [
-     "Punic Wars",
-     "Second Punic War",
-     "First Punic War"
-    ],
-    [
      "First World War",
      "World War One",
      "World War 1",
@@ -2328,13 +2294,51 @@
      "WW2",
      "WWII"
     ],
+    "Vietnam War",
+    "Cold War",
+    "Crimean War",
+    [
+     "Boer War",
+     "Anglo-Boer War",
+     "Second Boer War"
+    ],
+    "Korean War",
+    "Gulf War",
+    [
+     "Hundred Years' War",
+     "Hundred Years War"
+    ],
+    [
+     "Napoleonic Wars",
+     "Napoleonic War"
+    ],
+    "Wars of the Roses",
+    [
+     "Falklands War",
+     "Falklands"
+    ],
+    [
+     "English Civil War",
+     "Civil War"
+    ],
     [
      "American Civil War",
      "US Civil War"
     ],
     [
-     "English Civil War",
-     "Civil War"
+     "Thirty Years' War",
+     "Thirty Years War"
+    ],
+    "Peninsular War",
+    [
+     "Opium Wars",
+     "First Opium War",
+     "Second Opium War"
+    ],
+    [
+     "Punic Wars",
+     "Second Punic War",
+     "First Punic War"
     ],
     [
      "American War of Independence",
@@ -2343,10 +2347,6 @@
     ],
     "War of 1812",
     "Spanish Civil War",
-    [
-     "Falklands War",
-     "Falklands"
-    ],
     "Iraq War",
     [
      "Afghan War",
@@ -2435,26 +2435,12 @@
    "text": "Name a named period or age of history (British or world, like Tudor)",
    "answers": [
     "Stone Age",
-    [
-     "Palaeolithic",
-     "Paleolithic"
-    ],
-    "Mesolithic",
-    "Neolithic",
     "Bronze Age",
     "Iron Age",
+    "Tudor",
     [
-     "Roman Britain",
-     "Roman",
-     "Roman Era"
-    ],
-    [
-     "Anglo-Saxon",
-     "Anglo-Saxon England"
-    ],
-    [
-     "Viking Age",
-     "Viking"
+     "Victorian",
+     "Victorian Era"
     ],
     [
      "Medieval",
@@ -2462,28 +2448,42 @@
      "Medieval Period"
     ],
     [
-     "Norman",
-     "Norman England"
+     "Roman Britain",
+     "Roman",
+     "Roman Era"
     ],
-    "Plantagenet",
-    "Tudor",
-    "Elizabethan",
     "Stuart",
-    "Jacobean",
-    "Restoration",
+    "Elizabethan",
     [
      "Georgian",
      "Georgian Era"
-    ],
-    "Regency",
-    [
-     "Victorian",
-     "Victorian Era"
     ],
     [
      "Edwardian",
      "Edwardian Era"
     ],
+    [
+     "Viking Age",
+     "Viking"
+    ],
+    [
+     "Norman",
+     "Norman England"
+    ],
+    [
+     "Anglo-Saxon",
+     "Anglo-Saxon England"
+    ],
+    "Neolithic",
+    [
+     "Palaeolithic",
+     "Paleolithic"
+    ],
+    "Mesolithic",
+    "Plantagenet",
+    "Jacobean",
+    "Restoration",
+    "Regency",
     [
      "Interwar",
      "Inter-war"

@@ -118,13 +118,12 @@
    "text": "Name an event at the ancient Olympic Games (parts of the pentathlon count)",
    "answers": [
     [
-     "Stadion",
-     "Stade",
-     "Stadium race",
-     "Sprint",
-     "Foot race",
-     "Running",
-     "Footrace"
+     "Discus",
+     "Discus throw"
+    ],
+    [
+     "Javelin",
+     "Javelin throw"
     ],
     [
      "Wrestling",
@@ -142,20 +141,12 @@
      "Four-horse chariot race",
      "Two-horse chariot race"
     ],
-    "Pentathlon",
-    [
-     "Discus",
-     "Discus throw"
-    ],
-    [
-     "Javelin",
-     "Javelin throw"
-    ],
     [
      "Long jump",
      "Jumping",
      "Halma"
     ],
+    "Pentathlon",
     [
      "Pankration",
      "Pancratium"
@@ -164,6 +155,15 @@
      "Horse racing",
      "Horse race",
      "Keles"
+    ],
+    [
+     "Stadion",
+     "Stade",
+     "Stadium race",
+     "Sprint",
+     "Foot race",
+     "Running",
+     "Footrace"
     ],
     "Diaulos",
     [
@@ -626,19 +626,19 @@
    "answers": [
     "Iceni",
     "Brigantes",
+    "Picts",
     "Catuvellauni",
     [
      "Trinovantes",
      "Trinobantes"
     ],
     "Silures",
-    "Ordovices",
-    "Picts",
     [
      "Caledonians",
      "Caledonii",
      "Caledones"
     ],
+    "Ordovices",
     "Durotriges",
     "Dumnonii",
     "Atrebates",
@@ -2051,6 +2051,13 @@
      "Second Battle of the Somme"
     ],
     [
+     "Gallipoli",
+     "Gallipoli Campaign",
+     "Dardanelles",
+     "Dardanelles Campaign",
+     "Battle of Gallipoli"
+    ],
+    [
      "Battle of Ypres",
      "Ypres",
      "Fifth Battle of Ypres",
@@ -2070,20 +2077,6 @@
      "Verdun"
     ],
     [
-     "Gallipoli",
-     "Gallipoli Campaign",
-     "Dardanelles",
-     "Dardanelles Campaign",
-     "Battle of Gallipoli"
-    ],
-    [
-     "Battle of the Marne",
-     "Marne",
-     "Battle of Marne",
-     "First Battle of the Marne",
-     "Second Battle of the Marne"
-    ],
-    [
      "Battle of Jutland",
      "Jutland"
     ],
@@ -2091,6 +2084,13 @@
      "Battle of Mons",
      "Mons",
      "Second Battle of Mons"
+    ],
+    [
+     "Battle of the Marne",
+     "Marne",
+     "Battle of Marne",
+     "First Battle of the Marne",
+     "Second Battle of the Marne"
     ],
     [
      "Battle of Cambrai",
@@ -2438,6 +2438,13 @@
    "text": "Name a battle, siege or notable attack of the Second World War",
    "answers": [
     [
+     "Normandy landings",
+     "D-Day",
+     "Battle of Normandy",
+     "Normandy",
+     "Normandy invasion"
+    ],
+    [
      "Battle of Britain",
      "Britain"
     ],
@@ -2446,11 +2453,16 @@
      "Stalingrad"
     ],
     [
-     "Normandy landings",
-     "D-Day",
-     "Battle of Normandy",
-     "Normandy",
-     "Normandy invasion"
+     "Attack on Pearl Harbor",
+     "Attack of Pearl Harbor",
+     "Pearl Harbor",
+     "Battle of Pearl Harbor",
+     "Pearl Harbour"
+    ],
+    [
+     "Battle of Dunkirk",
+     "Dunkirk",
+     "Dunkirk evacuation"
     ],
     [
      "Battle of El Alamein",
@@ -2468,18 +2480,6 @@
     [
      "Battle of Midway",
      "Midway"
-    ],
-    [
-     "Attack on Pearl Harbor",
-     "Attack of Pearl Harbor",
-     "Pearl Harbor",
-     "Battle of Pearl Harbor",
-     "Pearl Harbour"
-    ],
-    [
-     "Battle of Dunkirk",
-     "Dunkirk",
-     "Dunkirk evacuation"
     ],
     [
      "Battle of Arnhem",
@@ -5975,6 +5975,50 @@
    "text": "Name a Prime Minister of New Zealand since 1935 (as of 2025)",
    "answers": [
     [
+     "Jacinda Ardern",
+     "Ardern"
+    ],
+    [
+     "John Key",
+     "Key"
+    ],
+    [
+     "Helen Clark",
+     "Clark"
+    ],
+    [
+     "Christopher Luxon",
+     "Chris Luxon",
+     "Luxon"
+    ],
+    [
+     "Chris Hipkins",
+     "Christopher Hipkins",
+     "Hipkins"
+    ],
+    [
+     "David Lange",
+     "Lange"
+    ],
+    [
+     "Robert Muldoon",
+     "Rob Muldoon",
+     "Muldoon"
+    ],
+    [
+     "Bill English",
+     "English"
+    ],
+    [
+     "Jim Bolger",
+     "James Bolger",
+     "Bolger"
+    ],
+    [
+     "Jenny Shipley",
+     "Shipley"
+    ],
+    [
      "Michael Joseph Savage",
      "Michael Savage",
      "Savage"
@@ -6010,56 +6054,12 @@
      "Rowling"
     ],
     [
-     "Robert Muldoon",
-     "Rob Muldoon",
-     "Muldoon"
-    ],
-    [
-     "David Lange",
-     "Lange"
-    ],
-    [
      "Geoffrey Palmer",
      "Palmer"
     ],
     [
      "Mike Moore",
      "Moore"
-    ],
-    [
-     "Jim Bolger",
-     "James Bolger",
-     "Bolger"
-    ],
-    [
-     "Jenny Shipley",
-     "Shipley"
-    ],
-    [
-     "Helen Clark",
-     "Clark"
-    ],
-    [
-     "John Key",
-     "Key"
-    ],
-    [
-     "Bill English",
-     "English"
-    ],
-    [
-     "Jacinda Ardern",
-     "Ardern"
-    ],
-    [
-     "Chris Hipkins",
-     "Christopher Hipkins",
-     "Hipkins"
-    ],
-    [
-     "Christopher Luxon",
-     "Chris Luxon",
-     "Luxon"
     ]
    ]
   },
@@ -6250,12 +6250,12 @@
    "text": "Name a Chancellor of Germany between 1871 and 1945",
    "answers": [
     [
-     "Otto von Bismarck",
-     "Bismarck"
-    ],
-    [
      "Adolf Hitler",
      "Hitler"
+    ],
+    [
+     "Otto von Bismarck",
+     "Bismarck"
     ],
     [
      "Leo von Caprivi",
@@ -6556,34 +6556,10 @@
    "text": "Name a Viking-age king, warlord or explorer (793 to 1066)",
    "answers": [
     [
-     "Cnut the Great",
-     "Cnut",
-     "Canute",
-     "Knut",
-     "Knud",
-     "King Canute"
-    ],
-    [
-     "Harald Hardrada",
-     "Hardrada",
-     "Harald Sigurdsson",
-     "Harald III of Norway"
-    ],
-    [
      "Ragnar Lothbrok",
      "Ragnar",
      "Lothbrok",
      "Ragnar Lodbrok"
-    ],
-    [
-     "Ivar the Boneless",
-     "Ivar",
-     "Ivarr"
-    ],
-    [
-     "Erik the Red",
-     "Eric the Red",
-     "Erik Thorvaldsson"
     ],
     [
      "Leif Erikson",
@@ -6592,10 +6568,28 @@
      "Leif"
     ],
     [
-     "Sweyn Forkbeard",
-     "Sweyn",
-     "Svein Forkbeard",
-     "Svein"
+     "Erik the Red",
+     "Eric the Red",
+     "Erik Thorvaldsson"
+    ],
+    [
+     "Ivar the Boneless",
+     "Ivar",
+     "Ivarr"
+    ],
+    [
+     "Harald Hardrada",
+     "Hardrada",
+     "Harald Sigurdsson",
+     "Harald III of Norway"
+    ],
+    [
+     "Cnut the Great",
+     "Cnut",
+     "Canute",
+     "Knut",
+     "Knud",
+     "King Canute"
     ],
     [
      "Eric Bloodaxe",
@@ -6607,15 +6601,21 @@
      "Harald Gormsson"
     ],
     [
-     "Harald Fairhair",
-     "Fairhair",
-     "Harald I of Norway"
-    ],
-    [
      "Rollo",
      "Hrolf",
      "Gange-Rolf",
      "Rolf the Walker"
+    ],
+    [
+     "Sweyn Forkbeard",
+     "Sweyn",
+     "Svein Forkbeard",
+     "Svein"
+    ],
+    [
+     "Harald Fairhair",
+     "Fairhair",
+     "Harald I of Norway"
     ],
     [
      "Olaf Tryggvason",
@@ -6707,6 +6707,46 @@
    "text": "Name a major-party US presidential nominee who lost the election (1960 to 2024)",
    "answers": [
     [
+     "Hillary Clinton",
+     "Clinton",
+     "Hilary Clinton",
+     "Hillary Rodham Clinton"
+    ],
+    [
+     "Mitt Romney",
+     "Romney"
+    ],
+    [
+     "John McCain",
+     "McCain"
+    ],
+    [
+     "John Kerry",
+     "Kerry"
+    ],
+    [
+     "Al Gore",
+     "Gore",
+     "Albert Gore"
+    ],
+    [
+     "Kamala Harris",
+     "Harris"
+    ],
+    [
+     "Bob Dole",
+     "Dole",
+     "Robert Dole"
+    ],
+    [
+     "Michael Dukakis",
+     "Dukakis"
+    ],
+    [
+     "Walter Mondale",
+     "Mondale"
+    ],
+    [
      "Richard Nixon",
      "Nixon"
     ],
@@ -6731,14 +6771,6 @@
      "Carter"
     ],
     [
-     "Walter Mondale",
-     "Mondale"
-    ],
-    [
-     "Michael Dukakis",
-     "Dukakis"
-    ],
-    [
      "George H. W. Bush",
      "George Bush",
      "Bush",
@@ -6747,40 +6779,8 @@
      "George HW Bush"
     ],
     [
-     "Bob Dole",
-     "Dole",
-     "Robert Dole"
-    ],
-    [
-     "Al Gore",
-     "Gore",
-     "Albert Gore"
-    ],
-    [
-     "John Kerry",
-     "Kerry"
-    ],
-    [
-     "John McCain",
-     "McCain"
-    ],
-    [
-     "Mitt Romney",
-     "Romney"
-    ],
-    [
-     "Hillary Clinton",
-     "Clinton",
-     "Hilary Clinton",
-     "Hillary Rodham Clinton"
-    ],
-    [
      "Donald Trump",
      "Trump"
-    ],
-    [
-     "Kamala Harris",
-     "Harris"
     ]
    ]
   },
@@ -6792,9 +6792,9 @@
    "text": "Name a Hindu god or goddess",
    "answers": [
     [
-     "Vishnu",
-     "Narayana",
-     "Hari"
+     "Ganesha",
+     "Ganesh",
+     "Ganapati"
     ],
     [
      "Shiva",
@@ -6802,25 +6802,25 @@
      "Mahadeva",
      "Shankar"
     ],
-    "Brahma",
     [
-     "Ganesha",
-     "Ganesh",
-     "Ganapati"
+     "Vishnu",
+     "Narayana",
+     "Hari"
     ],
     "Krishna",
-    [
-     "Rama",
-     "Ram"
-    ],
     "Hanuman",
     [
      "Lakshmi",
      "Laxmi"
     ],
-    "Parvati",
     "Durga",
     "Kali",
+    "Brahma",
+    [
+     "Rama",
+     "Ram"
+    ],
+    "Parvati",
     [
      "Saraswati",
      "Sarasvati"
@@ -6975,6 +6975,12 @@
    "text": "Name a Jewish holiday, festival or fast day",
    "answers": [
     [
+     "Hanukkah",
+     "Chanukah",
+     "Hanukah",
+     "Festival of Lights"
+    ],
+    [
      "Passover",
      "Pesach"
     ],
@@ -6983,17 +6989,11 @@
      "Day of Atonement"
     ],
     [
-     "Hanukkah",
-     "Chanukah",
-     "Hanukah",
-     "Festival of Lights"
-    ],
-    "Purim",
-    [
      "Rosh Hashanah",
      "Rosh Hashana",
      "Jewish New Year"
     ],
+    "Purim",
     [
      "Sukkot",
      "Succot",
@@ -7644,11 +7644,11 @@
    ],
    "text": "Name a hero of Greek mythology or the Trojan War (a mortal, not a god)",
    "answers": [
+    "Achilles",
     [
      "Heracles",
      "Hercules"
     ],
-    "Achilles",
     [
      "Odysseus",
      "Ulysses"
