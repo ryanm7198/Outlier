@@ -310,6 +310,7 @@ def open_db():
                "PRIMARY KEY (prompt_id, key))")
     DB.execute("CREATE TABLE IF NOT EXISTS scores (seed TEXT, cid TEXT, name TEXT, total INTEGER, pts TEXT, "
                "ts INTEGER, PRIMARY KEY (seed, cid))")
+    DB.execute("CREATE TABLE IF NOT EXISTS daily_pins (cat TEXT, day TEXT, ids TEXT, PRIMARY KEY (cat, day))")
     DB.execute("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, email TEXT UNIQUE, created INTEGER)")
     DB.execute("CREATE TABLE IF NOT EXISTS logins (hash TEXT PRIMARY KEY, email TEXT, created INTEGER, expires INTEGER, used INTEGER DEFAULT 0)")
     DB.execute("CREATE TABLE IF NOT EXISTS sessions (hash TEXT PRIMARY KEY, user_id INTEGER, expires INTEGER)")
@@ -1030,7 +1031,22 @@ def daily_pool(cat, day):
 
 @functools.lru_cache(maxsize=64)
 def daily_ids(cat, day):
-    """Today's prompt ids for a category (worked out once per day and kept)."""
+    """Today's prompt ids for a category. Worked out once per day and pinned in the database, so a deploy that adds
+    prompts mid-day can't reshuffle a daily people are already playing (or split its leaderboard)."""
+    key = (cat, day.isoformat())
+    row = DB.execute("SELECT ids FROM daily_pins WHERE cat = ? AND day = ?", key).fetchone() if DB else None
+    if row:
+        pinned = tuple(i for i in row[0].split(",") if i in PROMPTS)
+        if len(pinned) == len(row[0].split(",")):   # every prompt still exists; otherwise pick afresh
+            return pinned
+    todays = pick_daily(cat, day)
+    if DB and day >= datetime.date.today() - datetime.timedelta(days=1):
+        DB.execute("INSERT OR REPLACE INTO daily_pins VALUES (?, ?, ?)", (*key, ",".join(todays)))
+        DB.commit()
+    return todays
+
+
+def pick_daily(cat, day):
     ids = daily_pool(cat, day)
     n = min(DAILY_N, len(ids))
     cycle, idx = divmod(day.toordinal(), max(1, len(ids) // n))
