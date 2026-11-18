@@ -210,6 +210,13 @@ input.code { text-transform: uppercase; letter-spacing: .3em; text-align: center
 .charcard h3 .av { width: 30px; height: 30px; }
 .mode-ic .av { width: 40px; height: 40px; }
 .lk-row:first-child { margin-top: 0; }
+.lb-head { display: flex; align-items: center; gap: 14px; }
+.lb-head b { display: block; font-size: 1.05rem; }
+.lb-head small { color: var(--muted); }
+.lb li.top1 .rank { color: #ffd166; }
+.lb li.top2 .rank { color: #c9d3e6; }
+.lb li.top3 .rank { color: #e0a370; }
+.lb li.top1 .rank, .lb li.top2 .rank, .lb li.top3 .rank { font-weight: 900; }
 .cc { display: grid; gap: 18px; }
 .cc-stage { position: relative; display: grid; justify-items: center; gap: 8px; padding: 18px 16px 14px; border-radius: 22px; overflow: hidden;
   background: radial-gradient(120% 90% at 50% 0%, color-mix(in srgb, var(--you) 16%, var(--card)) 0%, var(--card) 55%, var(--bg, #0f1023) 100%); border: 1px solid var(--line); }

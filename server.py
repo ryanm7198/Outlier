@@ -1262,12 +1262,12 @@ def bump_streak(body):
     return {"n": n, "best": best, "last": last}
 
 
-def board_out(seed, cid=""):
+def board_out(seed, cid="", size=10):
     seed = clean_seed(seed)
     rows = DB.execute("SELECT cid, name, total FROM scores WHERE seed = ? ORDER BY total DESC, ts ASC", (seed,)).fetchall()
-    top = [{"name": n, "total": t, "me": c == cid} for c, n, t in rows[:10]]
+    top = [{"name": n, "total": t, "me": c == cid} for c, n, t in rows[:size]]
     mine = next((i for i, r in enumerate(rows) if r[0] == cid), None)
-    if mine is not None and mine >= 10:
+    if mine is not None and mine >= size:
         top.append({"name": rows[mine][1], "total": rows[mine][2], "me": True, "rank": mine + 1})
     return {"seed": seed, "count": len(rows), "top": top}
 
@@ -1675,6 +1675,11 @@ def api_get(path, q):
                 "streak": streak_for(user["id"]) if user else None, "today": datetime.date.today().isoformat()}
     if path == "/api/stats":
         return stats()
+    if path == "/api/dailyboard":   # today's Everything daily, for the leaderboard on the main menu
+        today = datetime.date.today()
+        board = board_out("".join(code_for(i) for i in daily_ids("all", today)),
+                          re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32], size=25)
+        return {**board, "date": today.isoformat(), "number": (today - LAUNCH).days + 1}
     if path == "/api/board":
         return board_out(q.get("seed"), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32])
     if path == "/api/room/state":

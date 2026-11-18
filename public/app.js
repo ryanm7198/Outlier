@@ -728,6 +728,7 @@ function home() {
     <div class="modes">
       ${mode('solo', 'user', 'Play solo', 'Daily seven, or a quick game to challenge a friend', true)}
       ${mode('party', 'users', 'Party game', 'Everyone plays together on their own phone')}
+      ${mode('board', 'trophy', 'Leaderboard', "Today's top scores on the Daily seven")}
       <button class="mode" id="character"><span class="mode-ic">${avatar(store.get('outlier.name', '') || 'You', store.get('outlier.color', 0), store.get('outlier.look'))}</span>
         <span class="mode-t"><b>Your character</b><small>Pick how you look in party games</small></span>${ic('right', 'chev')}</button>
     </div>
@@ -746,6 +747,7 @@ function home() {
   $('#solo').onclick = soloMenu;
   $('#party').onclick = () => partyMenu();
   $('#character').onclick = characterMenu;
+  $('#board').onclick = boardMenu;
   accountWire();
 }
 
@@ -1137,6 +1139,28 @@ function gameQuestion(run) {
   $('#quit').onclick = soloMenu;
 }
 
+// ---- the main menu leaderboard: today's Daily seven · Everything, open to anyone
+async function boardMenu() {
+  stopTimer();
+  show(`${topbar('Leaderboard')}
+    <section class="card lb-head"><span class="mode-ic">${ic('trophy')}</span><div><b>Daily seven · Everything</b><small id="lbWhen">Today</small></div></section>
+    <div id="lbBody"><p class="muted center">Loading…</p></div>
+    <div class="stack"><button class="btn primary slim" id="lbPlay">${ic('calendar')}<span>Play today's Daily seven</span></button></div>
+    <p class="fine center">Same seven prompts for everyone. A new board starts at midnight.</p>`);
+  $('#back').onclick = home;
+  $('#lbPlay').onclick = () => startDaily('all');
+  try {
+    const b = await api(`/api/dailyboard?cid=${playerId()}`);
+    if (!$('#lbBody')) return;
+    $('#lbWhen').textContent = `#${b.number} · ${new Date(b.date + 'T12:00').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })}`;
+    $('#lbBody').innerHTML = b.count ? leaderboardHTML(b, 'Today\'s')
+      : `<section class="card center"><p class="muted">No scores yet today. Be the first on the board!</p></section>`;
+    if (b.top.some(r => r.me)) $('#lbPlay').querySelector('span').textContent = 'See today\'s Daily seven';
+  } catch (e) {
+    if ($('#lbBody')) $('#lbBody').innerHTML = `<p class="muted center">Couldn't load the leaderboard. ${esc(e.message)}</p>`;
+  }
+}
+
 // ---- challenge leaderboard: everyone who plays the same seven prompts is ranked together
 function playerId() {
   let id = store.get('outlier.cid', '');
@@ -1147,7 +1171,7 @@ function playerId() {
 function leaderboardHTML(b, title = '') {
   if (!b || !b.count) return '';
   return `<section class="card"><h3>${title ? title + ' ' : ''}leaderboard <small>${b.count} ${b.count === 1 ? 'player' : 'players'}</small></h3>
-    <ol class="rows lb">${b.top.map((r, i) => `<li class="${r.me ? 'me' : ''}"><span class="num rank">${r.rank || i + 1}</span>
+    <ol class="rows lb">${b.top.map((r, i) => `<li class="${r.me ? 'me' : ''}${(r.rank || i + 1) <= 3 ? ` top${r.rank || i + 1}` : ''}"><span class="num rank">${r.rank || i + 1}</span>
       <span class="main"><b>${esc(r.name)}</b>${r.me ? '<small>You</small>' : ''}</span><span class="num">${r.total}</span></li>`).join('')}</ol></section>`;
 }
 
