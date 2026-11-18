@@ -1263,7 +1263,7 @@ function renderParty(s) {
   const host = s.you === s.host;
   const answered = s.phase === 'question' && s.yourAnswer != null;
   const key = [s.phase, s.round, host, answered, s.phase === 'pick' && s.picked, s.phase === 'final' && (s.asks || []).join('.'),
-    s.phase === 'potato' && s.turnId].join('|');
+    s.phase === 'potato' && s.turnId, s.phase === 'potato' && s.breakMs > 0].join('|');
   if (key !== party.key) {
     party.key = key;
     stopTimer();
@@ -1352,7 +1352,7 @@ function modeSettings(seg) {
   if (party.mode === 'potato') return `
     <div class="setting"><span>Lives</span>${seg('lives', [1, 3, 5], party.lives, '')}</div>
     <div class="setting"><span>Time per turn</span>${seg('turn', [5, 10, 15], party.turn, 's')}</div>
-    <p class="fine">${ic('flame')}<span><b>Fumble:</b> take turns naming an answer to the same prompt. Wrong answers and repeats don't count, so keep trying; if the clock runs out you lose a life and the next player gets a new prompt. Every ${250} points from your answers earns an extra life. Last one standing wins.</span></p>`;
+    <p class="fine">${ic('flame')}<span><b>Fumble:</b> take turns naming an answer to the same prompt. Wrong answers and repeats don't count, so keep trying; if the clock runs out you lose a life and the next player gets a new prompt. Points earn extra lives: the first at 250, then each one takes 250 more than the last (500 more, then 750...). Last one standing wins.</span></p>`;
   return `
     <div class="setting"><span>Rounds</span>${seg('rounds', [3, 5, 7, 10], party.rounds, '')}</div>
     <div class="setting"><span>Time to answer</span>${seg('secs', [15, 30, 45, 60], party.secs, 's')}</div>
@@ -1366,7 +1366,7 @@ const hearts = (n, out) => out ? '<span class="pt-out">Out</span>'
 function potatoTable(s) {
   const byN = Object.fromEntries(s.players.map(p => [p.n, p]));
   return `<ul class="pt-table">${s.order.map(n => byN[n]).filter(Boolean).map(p => {
-    const toward = Math.max(0, Math.min(1, (p.score - (p.bonusAt - s.bonus)) / s.bonus));
+    const toward = Math.max(0, Math.min(1, (p.score - (p.bonusAt - p.bonusStep)) / p.bonusStep));
     return `<li class="${p.n === s.current ? 'turn' : ''}${p.out ? ' gone' : ''}${p.n === s.you ? ' me' : ''}">
       ${avatar(p.name, p.color)}<span class="pt-name"><b>${esc(p.name)}</b>${hearts(p.lives, p.out)}</span>
       <span class="pt-pts" title="${p.bonusAt - p.score} points to an extra life"><span class="pt-ring" style="--k:${toward.toFixed(2)}"></span>${p.score}</span></li>`;
@@ -1380,11 +1380,33 @@ function potatoLog(s) {
     <b>${esc(l.answer)}</b><small>${esc(l.name)}</small><span class="pt-p">+${l.points}${l.bonus ? ' <span class="pt-life">+1 life</span>' : ''}</span></li>`).join('')}</ul>`;
 }
 
+// The intermission after someone runs out of time: everyone's name pops up with their lives, and the one who
+// fumbled watches a heart drop away (and an "Out" stamp land if it was their last).
+function potatoBreak(s) {
+  const b = s.boom, byN = Object.fromEntries(s.players.map(p => [p.n, p]));
+  const rows = s.order.map(n => byN[n]).filter(Boolean);
+  const head = b.out ? `${esc(b.name)} is out!` : `${esc(b.name)} fumbled!`;
+  show(`${partyBar(s, 'Fumble')}
+    <section class="pt-break">
+      <p class="eyebrow">${ic('flame')} Time's up</p>
+      <h2 class="pt-bh">${head}</h2>
+      <ul class="pt-roll">${rows.map((p, i) => {
+        const hit = p.n === b.n, d = `--d:${(i * 0.18).toFixed(2)}s`;
+        const lives = hit ? `<span class="pt-hearts">${'<i></i>'.repeat(Math.min(p.lives, 6))}<i class="lose"></i></span>${p.out ? '<span class="pt-out late">Out</span>' : ''}`
+          : hearts(p.lives, p.out);
+        return `<li class="${hit ? 'hit' : ''}${p.out && !hit ? ' gone' : ''}" style="${d}">${avatar(p.name, p.color)}
+          <span class="pt-name"><b>${esc(p.name)}</b>${lives}</span><span class="pt-pts">${p.score}</span></li>`;
+      }).join('')}</ul>
+      <p class="muted center pt-next">${b.end ? 'And that\'s the game…' : 'Next prompt coming up…'}</p>
+    </section>`);
+}
+
 function partyPotato(s) {
+  if (s.boom && s.boom.turn === s.turnId && s.breakMs > 0) return potatoBreak(s);
   const me = s.players.find(p => p.n === s.you) || {};
   const cur = s.players.find(p => p.n === s.current) || {};
   const mine = s.current === s.you && !me.out;
-  const boom = s.boom && s.boom.turn === s.turnId
+  const boom = s.boom && s.boom.turn === s.turnId && !s.boom.end
     ? `<div class="pt-boom">${ic('flame')}<span><b>${esc(s.boom.name)}</b> ${s.boom.out ? 'ran out of time and is <b>out</b>!' : 'ran out of time and lost a life'}</span></div>` : '';
   show(`${partyBar(s, `Fumble · Prompt ${s.round}`)}
     ${boom}

@@ -1435,11 +1435,13 @@ def awards_for(room):
 # ---------------------------------------------------------------- Fumble (party mode; "potato" in the code)
 # Players take turns naming an answer to one prompt. A valid answer nobody has given yet passes the turn on;
 # running out of time costs a life and brings a new prompt. Out of lives = out; the last player standing wins.
-# Every valid answer also earns its usual rarity points, and every POTATO_BONUS points earns an extra life.
+# Every valid answer also earns its usual rarity points, and points earn extra lives: the first at POTATO_BONUS,
+# then each one costs POTATO_BONUS more than the last (250, then 500 more, then 750 more...).
 POTATO_LIVES = (1, 3, 5)
 POTATO_TIMERS = (5, 10, 15)
 POTATO_BONUS = 250
-POTATO_PAUSE = 3          # seconds to read a new prompt (and see who lost a life) before the clock starts
+POTATO_PAUSE = 3          # seconds to read a new prompt before the clock starts
+POTATO_BREAK = 4.5        # the intermission after someone runs out of time: everyone's lives, one heart dropping away
 POTATO_MIN_ANSWERS = 30   # prompts with plenty of answers, so a round can go round the table many times...
 POTATO_FLOOR = 15         # ...and never one with fewer than this
 
@@ -1503,8 +1505,9 @@ def start_potato(room):
     random.shuffle(order)
     for t, p in room["players"].items():
         p.update(score=0, lives=room["lives"] if t in order else 0, out=t not in order, out_at=0,
-                 bonus_at=POTATO_BONUS, double_left=False)
-    room.update(phase="potato", round=0, history=[], asks=[], order=order, said=[], log=[], boom=None, turn_id=0)
+                 bonus_at=POTATO_BONUS, bonus_step=POTATO_BONUS, double_left=False)
+    room.update(phase="potato", round=0, history=[], asks=[], order=order, said=[], log=[], boom=None, turn_id=0,
+                ending=False, break_until=0)
     potato_round(room, order[0])
 
 
@@ -1533,7 +1536,8 @@ def potato_answer(room, token, raw):
     bonus = 0
     while p["score"] >= p["bonus_at"]:
         p["lives"] += 1
-        p["bonus_at"] += POTATO_BONUS
+        p["bonus_step"] += POTATO_BONUS
+        p["bonus_at"] += p["bonus_step"]
         bonus += 1
     room["said"].append(r["canonical"])
     room["log"].append({"n": p["n"], "name": p["name"], "answer": r["canonical"], "points": r["points"],
@@ -1543,20 +1547,26 @@ def potato_answer(room, token, raw):
 
 
 def potato_tick(room):
-    if time.time() < room["deadline"] + GRACE_S:
+    now = time.time()
+    if room.get("ending"):   # the last intermission plays out, then the results
+        if now >= room["break_until"]:
+            room["phase"], room["ending"] = "final", False
+        return
+    if now < room["deadline"] + GRACE_S:
         return
     token = room["current"]
     p = room["players"][token]
     p["lives"] -= 1
     if p["lives"] <= 0:
-        p["lives"], p["out"], p["out_at"] = 0, True, time.time()
+        p["lives"], p["out"], p["out_at"] = 0, True, now
     room["log"].append({"n": p["n"], "name": p["name"], "timeout": True, "out": p["out"], "round": room["round"]})
+    room["break_until"] = now + POTATO_BREAK
     alive = potato_alive(room)
     if not alive or (len(room["order"]) > 1 and len(alive) == 1):
-        room["phase"] = "final"
-        room["boom"] = {"n": p["n"], "name": p["name"], "out": p["out"]}
+        room["ending"] = True
+        room["boom"] = {"n": p["n"], "name": p["name"], "out": p["out"], "turn": room["turn_id"], "end": True}
         return
-    potato_round(room, potato_next(room, token))   # the next player starts the new prompt
+    potato_round(room, potato_next(room, token), POTATO_BREAK + POTATO_PAUSE)   # the next player starts the new prompt
     room["boom"] = {"n": p["n"], "name": p["name"], "out": p["out"], "turn": room["turn_id"]}
 
 
@@ -1598,7 +1608,7 @@ def room_state(room, token):
         "players": [{"n": p["n"], "name": p["name"], "score": p["score"], "online": online(p), "color": p["color"],
                      "answered": p["answer"] is not None, "picked": p["picked"] or not p["double_left"],
                      "doubleLeft": p["double_left"], "lives": p.get("lives", 0), "out": p.get("out", False),
-                     "bonusAt": p.get("bonus_at", POTATO_BONUS)} for p in room["players"].values()],
+                     "bonusAt": p.get("bonus_at", POTATO_BONUS), "bonusStep": p.get("bonus_step", POTATO_BONUS)} for p in room["players"].values()],
         "asks": room["asks"], "mode": room.get("mode", "classic"),
     }
     if room.get("mode") == "potato" and room["phase"] in ("potato", "final"):
@@ -1610,6 +1620,7 @@ def room_state(room, token):
             state.update(prompt=PROMPTS[room["prompt"]]["text"], promptId=room["prompt"], hint=hint_for(room["prompt"]),
                          current=room["players"][room["current"]]["n"], turnId=room["turn_id"], roundMs=room["secs"] * 1000,
                          startsInMs=max(0, int((room["turn_start"] - now) * 1000)),
+                         breakMs=max(0, int((room.get("break_until", 0) - now) * 1000)),
                          remainingMs=max(0, int((room["deadline"] - max(now, room["turn_start"])) * 1000)),
                          said=len(room["said"]))
     left = max(0, int((room["deadline"] - time.time()) * 1000))
