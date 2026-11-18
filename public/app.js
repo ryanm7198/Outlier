@@ -1263,7 +1263,7 @@ function renderParty(s) {
   const host = s.you === s.host;
   const answered = s.phase === 'question' && s.yourAnswer != null;
   const key = [s.phase, s.round, host, answered, s.phase === 'pick' && s.picked, s.phase === 'final' && (s.asks || []).join('.'),
-    s.phase === 'potato' && s.turnId, s.phase === 'potato' && s.breakMs > 0].join('|');
+    s.phase === 'potato' && s.breakMs > 0].join('|');   // Fumble turns update in place (updatePotato)
   if (key !== party.key) {
     party.key = key;
     stopTimer();
@@ -1272,6 +1272,7 @@ function renderParty(s) {
     if (leave) leave.onclick = () => leaveParty();
   }
   if (s.phase === 'question') updateTicker(s); else party.locked = null;
+  if (s.phase === 'potato') updatePotato(s);
   const sw = $('#colors');
   if (sw) sw.innerHTML = colorsHTML(s);
   const list = $('#players');
@@ -1404,54 +1405,106 @@ function potatoBreak(s) {
 function partyPotato(s) {
   if (s.boom && s.boom.turn === s.turnId && s.breakMs > 0) return potatoBreak(s);
   const me = s.players.find(p => p.n === s.you) || {};
-  const cur = s.players.find(p => p.n === s.current) || {};
-  const mine = s.current === s.you && !me.out;
   const boom = s.boom && s.boom.turn === s.turnId && !s.boom.end
     ? `<div class="pt-boom">${ic('flame')}<span><b>${esc(s.boom.name)}</b> ${s.boom.out ? 'ran out of time and is <b>out</b>!' : 'ran out of time and lost a life'}</span></div>` : '';
   show(`${partyBar(s, `Fumble · Prompt ${s.round}`)}
     ${boom}
     <p class="hint">${esc(s.hint)}</p>
     <h2 class="pt-prompt">${esc(s.prompt)}</h2>
-    <div class="pt-turn${mine ? ' mine' : ''}" id="ptTurn">
+    <div class="pt-turn" id="ptTurn">
       <div class="bar"><div class="timer grow"><i id="tbar"></i></div><span class="secs" id="tsecs"></span></div>
-      ${mine ? `<form id="ptForm" class="stack" autocomplete="off">
-          <p class="pt-you">Your turn!</p>
-          <input type="text" id="input" maxlength="60" placeholder="Your answer" enterkeyhint="send" autocapitalize="off" autocorrect="off" spellcheck="false">
+      <div id="ptWho"></div>
+      ${me.out ? '' : `<form id="ptForm" class="stack" autocomplete="off">
+          <input type="text" id="input" maxlength="60" placeholder="Type your answer ready" enterkeyhint="send" autocapitalize="off" autocorrect="off" spellcheck="false">
           <p id="miss" class="miss" role="alert" hidden></p>
-          <button class="btn primary">Pass it on</button></form>`
-        : `<p class="pt-wait">${me.out ? 'You are out. Watch the others battle it out.' : ''}${avatar(cur.name, cur.color)}<span><b>${esc(cur.name || '')}</b>'s turn</span></p>`}
+          <button class="btn primary" id="ptGo">Pass it on</button></form>`}
     </div>
-    ${potatoTable(s)}
-    <section class="card"><h3>Said so far <small>${s.said}</small></h3>${potatoLog(s)}</section>`);
+    <div id="ptTable"></div>
+    <section class="card"><h3>Said so far <small id="ptSaid"></small></h3><div id="ptLog"></div></section>`);
+  party.ptTurn = null;
+  const form = $('#ptForm');
+  if (form) {
+    const input = $('#input'), miss = $('#miss');
+    if (party.draftRound !== s.round) { party.draft = ''; party.draftRound = s.round; }   // a new prompt starts blank
+    input.value = party.draft || '';   // what they typed ready survives screen refreshes
+    input.oninput = () => { miss.hidden = true; party.draft = input.value; };
+    let busy = false;
+    form.onsubmit = async e => {
+      e.preventDefault();
+      const answer = input.value.trim();
+      if (!answer || busy || !party.ptMine) return;
+      busy = true;
+      try {
+        const r = await api('/api/room/potato', { code: party.code, pid: party.pid, answer });
+        if (r.miss) {
+          miss.textContent = r.miss; miss.hidden = false;
+          form.classList.remove('shake'); void form.offsetWidth; form.classList.add('shake');
+          input.select();
+        } else { input.value = ''; party.draft = ''; }
+        if (party) renderParty(r);
+      } catch (err) { toast(err.message); }
+      busy = false;
+    };
+  }
+  updatePotato(s);
+}
+
+// A correct answer flashes up on everyone's screen for a moment.
+function potatoPop(s) {
+  const l = s.log[0];
+  const key = l && !l.timeout ? `${l.round}|${l.n}|${l.answer}` : '';
+  const first = party.ptPop === undefined;
+  if (key === party.ptPop) return;
+  party.ptPop = key;
+  if (first || !key || l.round !== s.round) return;   // nothing new, or it belongs to an earlier prompt
+  const p = s.players.find(x => x.n === l.n) || {};
+  document.querySelectorAll('.pt-pop').forEach(x => x.remove());
+  const el = document.createElement('div');
+  el.className = 'pt-pop' + (l.outlier ? ' outlier' : '');
+  el.setAttribute('aria-live', 'polite');
+  el.innerHTML = `<b>${esc(l.answer)}</b><span>${avatar(p.name || l.name, p.color)}${esc(l.name)} · +${l.points}${l.outlier ? ' · Outlier!' : ''}${l.bonus ? ' · +1 life' : ''}</span>`;
+  document.body.append(el);
+  setTimeout(() => el.remove(), 1400);
+}
+
+// Within one prompt the screen is updated in place, so an answer someone is typing ready isn't wiped when the turn moves.
+function updatePotato(s) {
+  if (!$('#ptTurn')) return;
+  const me = s.players.find(p => p.n === s.you) || {};
+  const cur = s.players.find(p => p.n === s.current) || {};
+  const mine = s.current === s.you && !me.out;
+  $('#ptTable').innerHTML = potatoTable(s);
+  $('#ptLog').innerHTML = potatoLog(s);
+  $('#ptSaid').textContent = s.said;
+  potatoPop(s);
+  if (party.ptTurn === s.turnId) return;   // the rest only changes when the turn does
+  party.ptTurn = s.turnId;
+  party.ptMine = mine;
+  $('#ptTurn').classList.toggle('mine', mine);
+  $('#ptWho').innerHTML = mine ? '<p class="pt-you">Your turn!</p>'
+    : `<p class="pt-wait">${me.out ? 'You are out. Watch the others battle it out. ' : ''}${avatar(cur.name, cur.color)}<span><b>${esc(cur.name || '')}</b>'s turn</span></p>`;
+  const go = $('#ptGo'), input = $('#input'), miss = $('#miss');
+  if (go) {
+    go.textContent = mine ? 'Pass it on' : 'Wait for your turn';
+    go.disabled = !mine;
+    if (miss && !mine) miss.hidden = true;
+  }
   const startIn = s.startsInMs || 0;
-  const go = () => runTimer(s.remainingMs, s.roundMs, () => {});
+  const run = () => runTimer(s.remainingMs, s.roundMs, () => {});
   if (startIn > 0) {
+    stopTimer();
     $('#tsecs').textContent = 'Ready';
-    if ($('#ptForm')) $('#ptForm button').disabled = true;
-    setTimeout(() => { if (party && party.key && $('#ptTurn')) { if ($('#ptForm')) $('#ptForm button').disabled = false; go(); } }, startIn);
-  } else go();
+    if (go) go.disabled = true;
+    const turn = s.turnId;
+    setTimeout(() => {
+      if (!party || party.ptTurn !== turn || !$('#ptTurn')) return;
+      if (go) go.disabled = !mine;
+      runTimer(s.remainingMs, s.roundMs, () => {});
+    }, startIn);
+  } else run();
   if (!mine) return;
   try { if (navigator.vibrate) navigator.vibrate(30); } catch { /* not supported */ }
-  const input = $('#input'), miss = $('#miss'), form = $('#ptForm');
-  input.focus();
-  input.oninput = () => { miss.hidden = true; };
-  let busy = false;
-  form.onsubmit = async e => {
-    e.preventDefault();
-    const answer = input.value.trim();
-    if (!answer || busy) return;
-    busy = true;
-    try {
-      const r = await api('/api/room/potato', { code: party.code, pid: party.pid, answer });
-      if (r.miss) {
-        miss.textContent = r.miss; miss.hidden = false;
-        form.classList.remove('shake'); void form.offsetWidth; form.classList.add('shake');
-        input.select();
-      }
-      if (party) renderParty(r);
-    } catch (err) { toast(err.message); }
-    busy = false;
-  };
+  if (input && document.activeElement !== input) input.focus();
 }
 
 function potatoFinal(s, host) {
