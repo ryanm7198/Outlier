@@ -682,6 +682,8 @@ function home() {
     <div class="modes">
       ${mode('solo', 'user', 'Play solo', 'Daily seven, or a quick game to challenge a friend', true)}
       ${mode('party', 'users', 'Party game', 'Everyone plays together on their own phone')}
+      <button class="mode" id="character"><span class="mode-ic">${avatar(store.get('outlier.name', '') || 'You', store.get('outlier.color', 0), store.get('outlier.look'))}</span>
+        <span class="mode-t"><b>Your character</b><small>Pick how you look in party games</small></span>${ic('right', 'chev')}</button>
     </div>
     ${accountLine()}
     ${streakHTML()}
@@ -697,6 +699,7 @@ function home() {
     ${LEGAL}`);
   $('#solo').onclick = soloMenu;
   $('#party').onclick = () => partyMenu();
+  $('#character').onclick = characterMenu;
   accountWire();
 }
 
@@ -1232,8 +1235,9 @@ function enterParty(code, pid) {
   party = { code, pid, key: null, busy: false, rounds: 5, secs: 30, mode: 'classic', lives: 3, turn: 10 };
   party.poll = setInterval(pollParty, 1000);
   pollParty();
-  const look = store.get('outlier.look');
+  const look = store.get('outlier.look'), color = store.get('outlier.color');
   if (look) api('/api/room/look', { code, pid, look }).catch(() => {});
+  if (Number.isInteger(color)) api('/api/room/color', { code, pid, color }).catch(() => {});   // ignored if someone has it
 }
 
 function leaveParty(msg) {
@@ -1321,15 +1325,9 @@ function renderParty(s) {
   if (s.phase === 'potato') updatePotato(s);
   const sw = $('#colors');
   if (sw) sw.innerHTML = colorsHTML(s);
-  if ($('#looks')) {   // only redraw the character picker when something in it changed
+  if ($('#chMe')) {
     const me = s.players.find(p => p.n === s.you) || {};
-    if (me.look) party.look = me.look;
-    const k = [me.name, me.color, me.look].join('|');
-    if (k !== party.lookKey) {
-      party.lookKey = k;
-      $('#chMe').innerHTML = avatar(me.name, me.color, me.look).replace('class="av ch"', 'class="av ch big"');
-      $('#looks').innerHTML = looksHTML(me);
-    }
+    $('#chMe').innerHTML = avatar(me.name, me.color, me.look);
   }
   const list = $('#players');
   if (list) {
@@ -1337,6 +1335,43 @@ function renderParty(s) {
     const count = list.closest('.card') && list.closest('.card').querySelector('h3 small');
     if (count) count.textContent = s.players.length;
   }
+}
+
+// Your character: picked from the main menu, saved on this device, and brought into every party room you join.
+function characterMenu() {
+  stopTimer();
+  const name = store.get('outlier.name', '') || 'You';
+  const draw = () => {
+    const look = lookFor(name, store.get('outlier.look')), color = store.get('outlier.color', 0);
+    const me = { name, look, color };
+    $('#chMe').innerHTML = avatar(name, color, look).replace('class="av ch"', 'class="av ch big"');
+    $('#chColors').innerHTML = PCOL.map((c, i) => `<button class="swatch${i === color ? ' on' : ''}" data-c="${i}" style="--pc:${c}"
+      aria-label="${PCOL_NAMES[i]}" aria-pressed="${i === color}">${i === color ? ic('check') : ''}</button>`).join('');
+    $('#looks').innerHTML = looksHTML(me);
+  };
+  show(`${topbar('Your character')}
+    <section class="card charcard">
+      <div class="ch-top"><div id="chMe"></div><button class="btn slim" id="chShuffle">${ic('shuffle')}<span>Shuffle</span></button></div>
+      <p class="fine">${ic('users')}<span>This is you in party games. Your colour is used whenever nobody else in the room has it.</span></p>
+    </section>
+    <section class="card"><h3>Colour</h3><div class="swatches" id="chColors"></div></section>
+    <section class="card"><div id="looks"></div></section>`);
+  $('#back').onclick = home;
+  $('#chColors').onclick = e => { const b = e.target.closest('[data-c]'); if (b) { store.set('outlier.color', +b.dataset.c); draw(); } };
+  $('#looks').onclick = e => {
+    const b = e.target.closest('[data-li]');
+    if (!b) return;
+    const cur = [...lookFor(name, store.get('outlier.look'))];
+    cur[+b.dataset.li] = b.dataset.lv;
+    store.set('outlier.look', cur.join(''));
+    draw();
+  };
+  $('#chShuffle').onclick = () => {
+    store.set('outlier.look', LOOK_N.map(n => Math.floor(Math.random() * n)).join(''));
+    store.set('outlier.color', Math.floor(Math.random() * PCOL.length));
+    draw();
+  };
+  draw();
 }
 
 function looksHTML(me) {
@@ -1365,9 +1400,9 @@ function partyLobby(s, host) {
       <button class="btn slim" id="invite">${ic('share')}<span>Share invite link</span></button>
     </section>
     <section class="card"><h3>Players <small>${s.players.length}</small></h3><ul class="rows players" id="players"></ul></section>
-    <section class="card charcard"><h3>Your character</h3>
-      <div class="ch-top"><div id="chMe"></div><button class="btn slim" id="chShuffle">${ic('shuffle')}<span>Shuffle</span></button></div>
-      <div class="swatches" id="colors"></div><div id="looks"></div></section>
+    <section class="card charcard"><h3><span id="chMe"></span>Your colour</h3>
+      <div class="swatches" id="colors"></div>
+      <p class="fine">${ic('user')}<span>Change your character from <b>Your character</b> on the main menu.</span></p></section>
     ${host ? `<section class="sec">${limited() ? `<div class="picker">
         <button class="tile wide on" disabled><span class="tile-ic">${ic('sparkles')}</span><span class="tile-l">Everything</span><span class="tile-n">A mix from every category</span></button>
         <button class="mode" id="partyPlus"><span class="mode-ic">${ic('lock')}</span><span class="mode-t"><b>Choose categories</b><small>Pick any category or mix for your party. Outlier Plus</small></span></button>
@@ -1381,20 +1416,8 @@ function partyLobby(s, host) {
       <div class="cta"><button class="btn primary big" id="start">${ic('play')}<span><b>Start game</b><small>Everyone in the room plays along</small></span></button></div>`
       : `<div class="waiting card"><span class="dots"><i></i><i></i><i></i></span><p>Waiting for the host to pick a category and start</p></div>`}`);
   $('#invite').onclick = () => shareText(`${location.origin}/?room=${s.code}`);
-  $('#colors').onclick = e => { const b = e.target.closest('[data-c]'); if (b && !b.disabled) partyPost('/api/room/color', { color: +b.dataset.c }); };
-  const setLook = look => { store.set('outlier.look', look); partyPost('/api/room/look', { look }); };
-  $('#looks').onclick = e => {
-    const b = e.target.closest('[data-li]');
-    if (!b) return;
-    const me = s.players.find(p => p.n === s.you) || {}, cur = [...lookFor(me.name, party.look || me.look)];
-    cur[+b.dataset.li] = b.dataset.lv;
-    party.look = cur.join('');
-    setLook(party.look);
-  };
-  $('#chShuffle').onclick = () => {
-    party.look = LOOK_N.map(n => Math.floor(Math.random() * n)).join('');
-    setLook(party.look);
-  };
+  $('#colors').onclick = e => { const b = e.target.closest('[data-c]'); if (b && !b.disabled) { store.set('outlier.color', +b.dataset.c); partyPost('/api/room/color', { color: +b.dataset.c }); } };
+
   if (!host) return;
   if (limited()) {   // free hosts play Everything (the server enforces this too)
     $('#partyPlus').onclick = () => toast('Choosing party categories is part of Outlier Plus');

@@ -206,6 +206,10 @@ input.code { text-transform: uppercase; letter-spacing: .3em; text-align: center
 .av.ch { background: color-mix(in srgb, var(--pc, var(--you)) 20%, transparent); overflow: visible; }
 .av.ch svg { width: 100%; height: 100%; display: block; overflow: visible; }
 .av.ch.big { width: 84px; height: 84px; }
+.charcard h3 { display: flex; align-items: center; gap: 10px; }
+.charcard h3 .av { width: 30px; height: 30px; }
+.mode-ic .av { width: 40px; height: 40px; }
+.lk-row:first-child { margin-top: 0; }
 .charcard .ch-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 10px; }
 .lk-row { display: grid; gap: 6px; margin-top: 14px; }
 .lk-l { font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
