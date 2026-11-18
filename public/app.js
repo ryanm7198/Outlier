@@ -112,47 +112,93 @@ const PCOL = ['#ff6b6b', '#ff9f43', '#feca57', '#7bd88f', '#2ed3b7', '#4cc9f0', 
 const PCOL_NAMES = ['Red', 'Orange', 'Yellow', 'Green', 'Teal', 'Sky', 'Blue', 'Violet', 'Purple', 'Pink', 'Silver', 'Sand'];
 // ---- Characters: a little face in the player's colour, built from four parts (head, eyes, mouth, hat), saved as
 // four digits like "2140". Anyone who hasn't picked one gets a character worked out from their name.
-const LOOK_N = [6, 6, 6, 8];
-const LOOK_LABELS = ['Head', 'Eyes', 'Mouth', 'Extra'];
+const LOOK_N = [12, 12, 12, 14, 10];
+const LOOK_LABELS = ['Head', 'Eyes', 'Mouth', 'Hat', 'Face'];
 const INK = '#14152b';
-const inkLine = d => `<path d="${d}" fill="none" stroke="${INK}" stroke-width="1.8" stroke-linecap="round"/>`;
+const inkLine = d => `<path d="${d}" fill="none" stroke="${INK}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>`;
+const PC = 'style="stroke:var(--pc)"';   // a line in the player's colour (antennae and such)
+const PINK = '#ff9fb8', BROWN = '#5a3b22';
 const LOOK_PARTS = [
+  // heads, drawn in the player's colour
   ['<circle cx="20" cy="24" r="13"/>',
     '<rect x="7.5" y="11.5" width="25" height="25" rx="7"/>',
     '<path d="M7 24a13 13 0 0 1 26 0v13l-4.33-3-4.33 3-4.34-3-4.33 3-4.34-3L7 37z"/>',
     '<ellipse cx="20" cy="24" rx="11.5" ry="14"/>',
     '<path d="M8.5 19 9.5 7l8 6zM31.5 19l-1-12-8 6z"/><circle cx="20" cy="24" r="13"/>',
-    '<circle cx="10.5" cy="13.5" r="4.5"/><circle cx="29.5" cy="13.5" r="4.5"/><circle cx="20" cy="24" r="13"/>'],
+    '<circle cx="10.5" cy="13.5" r="4.5"/><circle cx="29.5" cy="13.5" r="4.5"/><circle cx="20" cy="24" r="13"/>',
+    `<path d="M14.5 13 12 5.5M25.5 13 28 5.5" ${PC} stroke-width="2" stroke-linecap="round" fill="none"/><circle cx="12" cy="5" r="2.4"/><circle cx="28" cy="5" r="2.4"/><ellipse cx="20" cy="24.5" rx="14" ry="12.5"/>`,
+    `<rect x="11" y="1" width="6" height="16" rx="3"/><rect x="23" y="1" width="6" height="16" rx="3"/><rect x="12.8" y="3.5" width="2.4" height="9" rx="1.2" fill="${PINK}"/><rect x="24.8" y="3.5" width="2.4" height="9" rx="1.2" fill="${PINK}"/><circle cx="20" cy="24.5" r="12.5"/>`,
+    `<path d="M20 11.5V5.5" ${PC} stroke-width="2"/><circle cx="20" cy="4.5" r="2.3" fill="#ff6b6b"/><rect x="4.5" y="19" width="3.5" height="8" rx="1.5"/><rect x="32" y="19" width="3.5" height="8" rx="1.5"/><rect x="7" y="11" width="26" height="25.5" rx="4"/>`,
+    '<path d="M9.5 17 11.5 6l4.5 6.5L20 3.5l4 9L28.5 6l2 11z"/><circle cx="20" cy="24" r="13"/>',
+    `<circle cx="9" cy="12.5" r="6.5"/><circle cx="31" cy="12.5" r="6.5"/><circle cx="9" cy="12.5" r="3.5" fill="${PINK}"/><circle cx="31" cy="12.5" r="3.5" fill="${PINK}"/><circle cx="20" cy="25" r="12.5"/>`,
+    '<path d="M20 10.5c6 0 8.5 2.5 11 5.5s3.5 8 2.5 12-4.5 9-13.5 9-12.5-4-13.5-8.5 0-9 2.5-12.5 5-5.5 11-5.5z"/>'],
+  // eyes
   [`<circle cx="15" cy="22" r="2" fill="${INK}"/><circle cx="25" cy="22" r="2" fill="${INK}"/>`,
     `<circle cx="15" cy="22" r="3.3" fill="${INK}"/><circle cx="25" cy="22" r="3.3" fill="${INK}"/><circle cx="16" cy="21" r="1.1" fill="#fff"/><circle cx="26" cy="21" r="1.1" fill="#fff"/>`,
     inkLine('M12.5 23q2.5-3.5 5 0M22.5 23q2.5-3.5 5 0'),
     inkLine('M12.5 22.5h5M22.5 22.5h5'),
     `<circle cx="15" cy="22" r="2" fill="${INK}"/>${inkLine('M22.5 23q2.5-3.5 5 0')}`,
-    `<rect x="10" y="19.5" width="8.5" height="5" rx="2" fill="${INK}"/><rect x="21.5" y="19.5" width="8.5" height="5" rx="2" fill="${INK}"/>${inkLine('M18.5 21h3')}`],
+    `<rect x="10" y="19.5" width="8.5" height="5" rx="2" fill="${INK}"/><rect x="21.5" y="19.5" width="8.5" height="5" rx="2" fill="${INK}"/>${inkLine('M18.5 21h3')}`,
+    `<circle cx="15" cy="22.5" r="2" fill="${INK}"/><circle cx="25" cy="22.5" r="2" fill="${INK}"/>${inkLine('M12 18.5l5 2M28 18.5l-5 2')}`,
+    `<circle cx="20" cy="21.5" r="5.2" fill="#fff"/><circle cx="20" cy="22" r="2.7" fill="${INK}"/><circle cx="21" cy="21" r=".9" fill="#fff"/>`,
+    '<path d="M15 25l-2.7-2.6a1.7 1.7 0 0 1 2.7-2.1 1.7 1.7 0 0 1 2.7 2.1zM25 25l-2.7-2.6a1.7 1.7 0 0 1 2.7-2.1 1.7 1.7 0 0 1 2.7 2.1z" fill="#ff4d6d"/>',
+    inkLine('M13 20l4 4M17 20l-4 4M23 20l4 4M27 20l-4 4'),
+    `<ellipse cx="15" cy="22" rx="3.2" ry="3.4" fill="#fff"/><ellipse cx="25" cy="22" rx="3.2" ry="3.4" fill="#fff"/><circle cx="16.4" cy="22.4" r="1.7" fill="${INK}"/><circle cx="26.4" cy="22.4" r="1.7" fill="${INK}"/>`,
+    `<path d="M15 18.6l1 2.4 2.4 1-2.4 1-1 2.4-1-2.4-2.4-1 2.4-1zM25 18.6l1 2.4 2.4 1-2.4 1-1 2.4-1-2.4-2.4-1 2.4-1z" fill="${INK}"/>`],
+  // mouths
   [inkLine('M16 28.5q4 4 8 0'),
     `<path d="M15 28h10a5 5 0 0 1-10 0z" fill="${INK}"/>`,
     `<circle cx="20" cy="30" r="2.2" fill="${INK}"/>`,
     inkLine('M17 30h6'),
     `${inkLine('M16 28.5q4 4 8 0')}<path d="M18.5 30.3h3v1.6a1.5 1.5 0 0 1-3 0z" fill="#ff7b9c"/>`,
-    inkLine('M16 28.5q2 2.2 4 0q2 2.2 4 0')],
+    inkLine('M16 28.5q2 2.2 4 0q2 2.2 4 0'),
+    `${inkLine('M15.5 28q4.5 3.8 9 0')}<path d="M16.9 29l1.1 2.4 1-1.8zM23.1 29l-1.1 2.4-1-1.8z" fill="#fff"/>`,
+    inkLine('M16 31q4-4 8 0'),
+    inkLine('M16.5 29.6q4 1.6 7.5-1.6'),
+    inkLine('M15.5 29.5l1.5-1.2 1.5 1.2 1.5-1.2 1.5 1.2 1.5-1.2 1.5 1.2'),
+    `${inkLine('M16 28q4 2.6 8 0')}<rect x="18.3" y="28.8" width="3.4" height="3" rx=".6" fill="#fff" stroke="${INK}" stroke-width=".8"/>`,
+    `<path d="M14 27.5h12a6 6 0 0 1-12 0z" fill="${INK}"/><path d="M17 31.8a3 2 0 0 1 6 0 5.5 5.5 0 0 1-6 0z" fill="#ff7b9c"/>`],
+  // hats
   ['',
     '<path d="M14.5 13 20 1.5 25.5 13z" fill="#5b8cff"/><path d="M16.3 9.2h7.4" stroke="#ffd166" stroke-width="1.6"/><circle cx="20" cy="1.8" r="1.8" fill="#ffd166"/>',
     `<path d="M11 14V5.5l4.5 4L20 3l4.5 6.5L29 5.5V14z" fill="#ffd166" stroke="${INK}" stroke-width=".8" stroke-linejoin="round"/>`,
-    '<path d="M8.5 16a11.5 9 0 0 1 23 0z" fill="#33417a"/><rect x="22" y="14" width="13" height="3.2" rx="1.6" fill="#232d57"/>',
+    '<path d="M8.5 16a11.5 9 0 0 1 23 0z" fill="#33417a" stroke="#fff" stroke-width=".8"/><path d="M20 7v9" stroke="#fff" stroke-width="1.2"/><rect x="22" y="14" width="13" height="3.2" rx="1.6" fill="#232d57" stroke="#fff" stroke-width=".8"/>',
     '<path d="M8 17a12 12 0 0 1 24 0z" fill="#2ed3b7"/><rect x="7.5" y="15" width="25" height="4" rx="2" fill="#20a891"/><circle cx="20" cy="4.5" r="2.8" fill="#fff"/>',
     `<path d="M8 25a12 13 0 0 1 24 0" fill="none" stroke="${INK}" stroke-width="2.4"/><rect x="5" y="21" width="5" height="9" rx="2.2" fill="#ff9f43"/><rect x="30" y="21" width="5" height="9" rx="2.2" fill="#ff9f43"/>`,
     '<ellipse cx="20" cy="5" rx="8" ry="2.6" fill="none" stroke="#ffd166" stroke-width="2"/>',
-    '<path d="M27 11l-5-4v8zM27 11l5-4v8z" fill="#ff7bd0"/><circle cx="27" cy="11" r="1.8" fill="#d14fa5"/>']];
+    '<path d="M27 11l-5-4v8zM27 11l5-4v8z" fill="#ff7bd0"/><circle cx="27" cy="11" r="1.8" fill="#d14fa5"/>',
+    '<g fill="#3a3f63" stroke="#9aa3c7" stroke-width=".7"><rect x="13" y="1" width="14" height="11.5" rx="1.5"/><rect x="9" y="11.5" width="22" height="3" rx="1.5"/></g><rect x="13.4" y="8.3" width="13.2" height="2.2" fill="#ff6b6b"/>',
+    '<path d="M9.5 14 22 0l8.5 14z" fill="#7b5bff"/><ellipse cx="20" cy="14" rx="13" ry="2.6" fill="#5a3fd6"/><path d="M19 6.5l.6 1.4 1.4.6-1.4.6-.6 1.4-.6-1.4-1.4-.6 1.4-.6z" fill="#ffd166"/><circle cx="23.5" cy="10" r=".9" fill="#ffd166"/>',
+    `<path d="M9.5 14C5.5 12.5 4 8 4.5 3.5c1.5 4 4.5 5.8 7.5 6.5zM30.5 14c4-1.5 5.5-6 5-10.5-1.5 4-4.5 5.8-7.5 6.5z" fill="#fff4dc" stroke="${INK}" stroke-width=".6"/><path d="M8 17a12 11 0 0 1 24 0z" fill="#b8c4d6"/><rect x="7.5" y="15" width="25" height="3" rx="1.5" fill="#8f9bb0"/>`,
+    '<g fill="#ff7bd0"><circle cx="29" cy="7" r="2.6"/><circle cx="32.2" cy="9.4" r="2.6"/><circle cx="31" cy="13" r="2.6"/><circle cx="27" cy="13" r="2.6"/><circle cx="25.8" cy="9.4" r="2.6"/></g><circle cx="29" cy="10.3" r="1.9" fill="#ffd166"/>',
+    '<path d="M12 15.5v-4.5a4.5 4.5 0 0 1 2-8.3A5 5 0 0 1 20 1a5 5 0 0 1 6 1.7 4.5 4.5 0 0 1 2 8.3v4.5z" fill="#fff" stroke="#c9cfdc" stroke-width=".8"/>',
+    `<path d="M9 16a11 10 0 0 1 22 0z" fill="#feca57"/><path d="M14 8.5a11 10 0 0 1 12 0" fill="none" stroke="#ff6b6b" stroke-width="1.6"/><path d="M20 6.2V3.6" stroke="${INK}" stroke-width="1.4"/><path d="M13.5 3h13" stroke="#5b8cff" stroke-width="2.2" stroke-linecap="round"/><circle cx="20" cy="3" r="1.3" fill="${INK}"/>`],
+  // face extras: [drawn under the eyes and mouth, drawn over them]
+  [['', ''],
+    [`<ellipse cx="11.5" cy="27" rx="2.7" ry="1.7" fill="#ff7b9c" opacity=".75"/><ellipse cx="28.5" cy="27" rx="2.7" ry="1.7" fill="#ff7b9c" opacity=".75"/>`, ''],
+    [`<g fill="${BROWN}" opacity=".55"><circle cx="10.5" cy="26" r=".8"/><circle cx="12.6" cy="27.4" r=".8"/><circle cx="10.8" cy="28.6" r=".8"/><circle cx="29.5" cy="26" r=".8"/><circle cx="27.4" cy="27.4" r=".8"/><circle cx="29.2" cy="28.6" r=".8"/></g>`, ''],
+    ['', `<path d="M20 27c-2.3-2.2-6.5-2.4-8.6.6 2.6.4 4.8 2.2 8.6.4 3.8 1.8 6 0 8.6-.4-2.1-3-6.3-2.8-8.6-.6z" fill="${BROWN}"/>`],
+    ['', `<g fill="none" stroke="${INK}" stroke-width="1.3"><circle cx="15" cy="22" r="4.2"/><circle cx="25" cy="22" r="4.2"/><path d="M19.2 22h1.6M10.8 21.5 7.5 20M29.2 21.5l3.3-1.5"/></g>`],
+    ['', `<path d="M8 15.5 32 24" stroke="${INK}" stroke-width="1.2"/><ellipse cx="25" cy="22.2" rx="4.2" ry="3.8" fill="${INK}"/>`],
+    ['', '<rect x="24" y="25.2" width="7.5" height="3.2" rx="1.4" transform="rotate(-25 27.7 26.8)" fill="#f2c39b"/><path d="M26.6 26.2l.4.8m.9-1.3.4.8" stroke="#c99a72" stroke-width=".7"/>'],
+    ['', '<circle cx="20" cy="26" r="2.3" fill="#ff4d4d"/><circle cx="19.3" cy="25.3" r=".6" fill="#fff" opacity=".8"/>'],
+    ['', '<path d="M31.5 13c1.7 2.4 2.5 3.8 2.5 4.8a2.5 2.5 0 0 1-5 0c0-1 .8-2.4 2.5-4.8z" fill="#7fd3ff"/>'],
+    [`<path d="M8 27c1 7 6 11.5 12 11.5S31 34 32 27c-3 3-7 3.2-9 1.6h-6C15 30.2 11 30 8 27z" fill="${BROWN}"/>`, '']]];
+// A look is five characters, one per part (0-9 then a-z), e.g. "2b05c". Old four-part looks get no face extra.
 function lookFor(name, look) {
-  if (/^[0-5][0-5][0-5][0-7]$/.test(look || '')) return look;
+  if (/^[0-9a-z]{4,5}$/.test(look || '')) {
+    const l = (look + '0').slice(0, 5);
+    if ([...l].every((c, i) => parseInt(c, 36) < LOOK_N[i])) return l;
+  }
   let h = 7;
   for (const ch of (name || '?').trim().toLowerCase()) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
-  return LOOK_N.map((n, i) => Math.floor(h / [1, 7, 53, 409][i]) % n).join('');
+  return LOOK_N.map((n, i) => (Math.floor(h / [1, 13, 173, 2251, 31517][i]) % n).toString(36)).join('');
 }
 const avatar = (name, color, look) => {
-  const [hd, ey, mo, ht] = [...lookFor(name, look)].map(Number);
+  const [hd, ey, mo, ht, fc] = [...lookFor(name, look)].map(c => parseInt(c, 36));
+  const [under, over] = LOOK_PARTS[4][fc];
   return `<span class="av ch" style="--pc:${PCOL[color] || PCOL[0]}" role="img" aria-label="${esc(name || '')}"><svg viewBox="0 0 40 40" aria-hidden="true">`
-    + `<g style="fill:var(--pc)">${LOOK_PARTS[0][hd]}</g>${LOOK_PARTS[1][ey]}${LOOK_PARTS[2][mo]}${LOOK_PARTS[3][ht]}</svg></span>`;
+    + `<g style="fill:var(--pc)">${LOOK_PARTS[0][hd]}</g>${under}${LOOK_PARTS[1][ey]}${LOOK_PARTS[2][mo]}${over}${LOOK_PARTS[3][ht]}</svg></span>`;
 };
 const colorOf = (s, n) => (s.players.find(p => p.n === n) || {}).color;
 const lookOf = (s, n) => (s.players.find(p => p.n === n) || {}).look;
@@ -1367,7 +1413,7 @@ function characterMenu() {
     draw();
   };
   $('#chShuffle').onclick = () => {
-    store.set('outlier.look', LOOK_N.map(n => Math.floor(Math.random() * n)).join(''));
+    store.set('outlier.look', LOOK_N.map(n => Math.floor(Math.random() * n).toString(36)).join(''));
     store.set('outlier.color', Math.floor(Math.random() * PCOL.length));
     draw();
   };
@@ -1377,8 +1423,8 @@ function characterMenu() {
 function looksHTML(me) {
   const cur = lookFor(me.name, me.look);
   return LOOK_N.map((n, i) => `<div class="lk-row"><span class="lk-l">${LOOK_LABELS[i]}</span><div class="lk-opts">${Array.from({ length: n }, (_, v) => {
-    const alt = cur.slice(0, i) + v + cur.slice(i + 1);
-    return `<button class="lk${String(v) === cur[i] ? ' on' : ''}" data-li="${i}" data-lv="${v}" aria-pressed="${String(v) === cur[i]}" aria-label="${LOOK_LABELS[i]} ${v + 1}">${avatar(me.name, me.color, alt)}</button>`;
+    const c = v.toString(36), alt = cur.slice(0, i) + c + cur.slice(i + 1);
+    return `<button class="lk${c === cur[i] ? ' on' : ''}" data-li="${i}" data-lv="${c}" aria-pressed="${c === cur[i]}" aria-label="${LOOK_LABELS[i]} ${v + 1}">${avatar(me.name, me.color, alt)}</button>`;
   }).join('')}</div></div>`).join('');
 }
 

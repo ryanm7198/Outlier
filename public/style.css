@@ -213,7 +213,8 @@ input.code { text-transform: uppercase; letter-spacing: .3em; text-align: center
 .charcard .ch-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 10px; }
 .lk-row { display: grid; gap: 6px; margin-top: 14px; }
 .lk-l { font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
-.lk-opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.lk-opts { display: grid; grid-template-columns: repeat(6, minmax(0, 52px)); gap: 8px; }
+.lk { display: grid; place-items: center; }
 .lk { padding: 3px; border-radius: 14px; border: 2px solid transparent; background: var(--card-2); transition: transform .12s, border-color .15s; }
 .lk .av { width: 38px; height: 38px; }
 .lk.on { border-color: var(--text); }

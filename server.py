@@ -42,7 +42,7 @@ PAYWALL = os.environ.get("OUTLIER_PAYWALL") == "1"            # off: everyone ha
 # A secret pass code (set on the host, never in the code): typed into the sign-in email box, it signs that browser
 # into its own new Plus account straight away, no email needed. Unset it to switch every pass account back to free.
 PASS_CODE = os.environ.get("OUTLIER_PASS_CODE", "").strip().lower()
-LOOK_RX = re.compile(r"[0-5][0-5][0-5][0-7]")   # a party character: head, eyes, mouth, hat
+LOOK_RX = re.compile(r"[0-9a-z]{4,5}")   # a party character: head, eyes, mouth, hat, face (one character each)
 PASS_PREFIX = "pass:"   # pass accounts have no email; their "email" column is pass:<random>
 PLUS_EMAILS = {e.strip().lower() for e in os.environ.get("OUTLIER_PLUS_EMAILS", "").split(",") if e.strip()}   # always full access
 STRIPE_KEY = os.environ.get("STRIPE_SECRET_KEY", "")          # Stripe secret key (sk_test_... while testing)
@@ -1755,7 +1755,7 @@ def api_post(path, body):
         if 0 <= c < PLAYER_COLORS and all(p["color"] != c for t, p in room["players"].items() if t != token):
             me["color"] = c
         return room_state(room, token)
-    if path == "/api/room/look":   # the player's little character: head, eyes, mouth and hat, one digit each
+    if path == "/api/room/look":   # the player's little character: head, eyes, mouth, hat and face
         look = str(body.get("look") or "")
         if LOOK_RX.fullmatch(look):
             room["players"][token]["look"] = look
