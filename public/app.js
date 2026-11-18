@@ -378,13 +378,18 @@ function passes(groups, tags, chosenTags) {
   });
 }
 
+// In the party lobby with Fumble picked, only prompts with enough answers for Fumble count (the server's "big").
+const fumbleLobby = () => !!party && party.mode === 'potato' && !!$('#mode');
+const cnt = x => fumbleLobby() && x.big !== undefined ? x.big : x.count;
+
 // How many prompts one category pick gives. Mirrors pool() in server.py.
 function countOne(p) {
   const c = catOf(p.cat);
-  if (!c.tagsets) return c.count;
+  if (!c.tagsets) return cnt(c);
   const kids = kidsOf(c), lead = leadOf(c);
   const subs = kids.length ? p.tags.filter(t => kids.some(k => k.id === t) || lead.tags.some(x => x.id === t)) : [];
   return c.tagsets.filter(tags => {
+    if (fumbleLobby() && tags.includes('~small')) return false;   // too few answers for Fumble
     if (!tags.every(t => !t.startsWith('~only:') || p.tags.includes(t.slice(6)))) return false;   // decade versions need their decade
     let home = c;
     const kid = (tags.find(t => t.startsWith('~cat:')) || '').slice(5);
@@ -400,13 +405,13 @@ function countOne(p) {
 const selsOf = p => Object.entries((p && p.sels) || {});
 function poolCount(p) {
   const sels = selsOf(p);
-  return sels.length ? sels.reduce((n, [cat, tags]) => n + countOne({ cat, tags }), 0) : catOf('all').count;
+  return sels.length ? sels.reduce((n, [cat, tags]) => n + countOne({ cat, tags }), 0) : cnt(catOf('all'));
 }
 
 function labelOne(cat, tags) {
   const c = catOf(cat);
   // A group with every option ticked reads as the whole category, so "Sport" not "Sport · Tennis · Boxing · ...".
-  const named = c.filters.filter(g => !g.tags.filter(t => t.count).every(t => tags.includes(t.id)))
+  const named = c.filters.filter(g => !g.tags.filter(t => cnt(t)).every(t => tags.includes(t.id)))
     .flatMap(g => g.tags).filter(t => tags.includes(t.id)).map(t => t.label);
   return [c.label, ...named].join(' · ');
 }
@@ -485,9 +490,9 @@ function categorySheet(cat, current, done) {
     const chosen = g.tags.filter(t => (current || []).includes(t.id)).map(t => t.id);
     // A new pick starts empty; an existing one shows what it covers (all of a group when none of it was narrowed).
     if (!current) return new Set();
-    return new Set(chosen.length ? chosen : g.tags.filter(t => t.count).map(t => t.id));
+    return new Set(chosen.length ? chosen : g.tags.filter(t => cnt(t)).map(t => t.id));
   });
-  const full = k => c.filters[k].tags.filter(t => t.count).every(t => groups[k].has(t.id));
+  const full = k => c.filters[k].tags.filter(t => cnt(t)).every(t => groups[k].has(t.id));
   const allOn = () => groups.every((_, k) => full(k));
   // A group with nothing ticked means any of it, so just Premier League is Premier League in every era.
   const tags = () => groups.flatMap((g, k) => full(k) || !g.size ? [] : [...g]);
@@ -496,7 +501,7 @@ function categorySheet(cat, current, done) {
     const n = ok() ? countOne({ cat, tags: tags() }) : 0;
     return `<button class="selall${allOn() ? ' on' : ''}" data-all><span class="box">${allOn() ? ic('check') : ''}</span><span><b>Select all</b><small>Everything in ${esc(c.label)}</small></span></button>
       ${c.filters.map((g, k) => `<div class="group"><h4>${esc(g.label)}${groups[k].size ? '' : ' <small>any</small>'}</h4><div class="chips">${g.tags.map(t =>
-        chipHTML(groups[k].has(t.id), `data-k="${k}" data-t="${t.id}"`, t.label, !t.count)).join('')}</div></div>`).join('')}
+        chipHTML(groups[k].has(t.id), `data-k="${k}" data-t="${t.id}"`, t.label, !cnt(t))).join('')}</div></div>`).join('')}
       <div class="sheet-f">
         ${current ? '<button class="btn" data-remove>Remove</button>' : ''}
         <button class="btn primary" data-ok ${ok() ? '' : 'disabled'}>${ok() ? `Confirm · ${n} prompts` : 'Tick some, or Select all'}</button>
@@ -506,7 +511,7 @@ function categorySheet(cat, current, done) {
     if (!b) return;
     if (b.dataset.all !== undefined) {
       const on = !allOn();
-      groups.forEach((g, k) => { g.clear(); if (on) c.filters[k].tags.filter(t => t.count).forEach(t => g.add(t.id)); });
+      groups.forEach((g, k) => { g.clear(); if (on) c.filters[k].tags.filter(t => cnt(t)).forEach(t => g.add(t.id)); });
     } else if (b.dataset.t) {
       const g = groups[+b.dataset.k];
       g.has(b.dataset.t) ? g.delete(b.dataset.t) : g.add(b.dataset.t);
@@ -519,7 +524,7 @@ function categorySheet(cat, current, done) {
 // Sport: every sport as a tickable option. Football (a category of its own) opens its own sheet first.
 function parentSheet(cat, done) {
   const c = catOf(cat), kids = kidsOf(c), lead = leadOf(c);
-  const live = [...kids.filter(k => k.count).map(k => k.id), ...lead.tags.filter(t => t.count).map(t => t.id)];
+  const live = [...kids.filter(k => cnt(k)).map(k => k.id), ...lead.tags.filter(t => cnt(t)).map(t => t.id)];
   const had = live.some(id => id in pick.sels) || cat in pick.sels;
   const ticked = new Set(), kidTags = {};
   if (pick.sels[cat] && !pick.sels[cat].length) live.forEach(id => ticked.add(id));   // all of Sport
@@ -541,9 +546,9 @@ function parentSheet(cat, done) {
     const n = ticked.size ? count() : 0;
     return `<button class="selall${allOn() ? ' on' : ''}" data-all><span class="box">${allOn() ? ic('check') : ''}</span><span><b>Select all</b><small>Every ${esc(c.label.toLowerCase())} question</small></span></button>
       <div class="group"><h4>${esc(lead.label)}</h4><div class="chips">
-        ${kids.map(k => chipHTML(ticked.has(k.id), `data-kid="${k.id}"`, k.label, !k.count,
+        ${kids.map(k => chipHTML(ticked.has(k.id), `data-kid="${k.id}"`, k.label, !cnt(k),
           `<span class="more">${(kidTags[k.id] || []).length ? 'custom' : ''}${ic('right')}</span>`)).join('')}
-        ${lead.tags.map(t => chipHTML(ticked.has(t.id), `data-t="${t.id}"`, t.label, !t.count)).join('')}
+        ${lead.tags.map(t => chipHTML(ticked.has(t.id), `data-t="${t.id}"`, t.label, !cnt(t))).join('')}
       </div></div>
       <p class="fine">${ic('right')}<span>Tap ${kids.map(k => esc(k.label)).join(' or ')} to choose its eras and competitions.</span></p>
       <div class="sheet-f">
@@ -576,9 +581,9 @@ function mountPicker(el, onChange, heading = 'Choose a category') {
   const tile = (x, wide) => {
     const on = x.id === 'all' ? !selsOf(pick).length : sel(x.id);
     const own = pick.sels[x.id];
-    const sub = x.id !== 'all' && on ? (own && !own.length && !kidsOf(x).some(k => k.id in pick.sels) ? 'All of it' : 'Custom') : `${x.count} prompts`;
+    const sub = x.id !== 'all' && on ? (own && !own.length && !kidsOf(x).some(k => k.id in pick.sels) ? 'All of it' : 'Custom') : `${cnt(x)} prompts`;
     return `<button class="tile${wide ? ' wide' : ''}${on ? ' on' : ''}" data-cat="${x.id}" aria-pressed="${on}">
-      <span class="tile-ic">${on && x.id !== 'all' ? ic('check') : ic(CAT_ICON[x.id] || 'sparkles')}</span><span class="tile-l">${esc(x.label)}</span><span class="tile-n">${wide ? `${x.count} prompts · a mix from every category` : sub}</span></button>`;
+      <span class="tile-ic">${on && x.id !== 'all' ? ic('check') : ic(CAT_ICON[x.id] || 'sparkles')}</span><span class="tile-l">${esc(x.label)}</span><span class="tile-n">${wide ? `${cnt(x)} prompts · a mix from every category` : sub}</span></button>`;
   };
   const save = () => { store.set('outlier.pick', pick); draw(); onChange && onChange(); };
   const draw = () => {
@@ -1331,6 +1336,8 @@ function partyLobby(s, host) {
     $('#mode').querySelectorAll('.chip').forEach(x => { x.classList.toggle('on', x === b); x.setAttribute('aria-pressed', x === b); });
     $('#modeset').innerHTML = modeSettings(seg);
     wireMode();
+    if ($('#picker')) mountPicker($('#picker'), () => { $('#start').disabled = !poolCount(pick); });   // Fumble hides short prompts
+    $('#start').disabled = !limited() && !poolCount(pick);
   };
   wireMode();
   $('#start').disabled = !limited() && !poolCount(pick);

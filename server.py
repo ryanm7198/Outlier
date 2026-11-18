@@ -1100,16 +1100,20 @@ def kind_of(pid):
 
 
 def categories():
-    out = [{"id": "all", "label": "Everything", "count": len(pool("all", [])), "filters": []}]
+    every = pool("all", [])
+    out = [{"id": "all", "label": "Everything", "count": len(every), "big": sum(map(potato_ok, every)), "filters": []}]
     for c in CATS:
         ids = pool(c["id"], [])
+        # "big" counts only prompts long enough for Fumble; "~small" marks the rest, so the party lobby can leave them out
         out.append({"id": c["id"], "label": c["label"], "count": len(ids), "parent": c["parent"],
+                    "big": sum(map(potato_ok, ids)),
                     "tagsets": [p["tags"] + (["~deep"] if p["deep"] else []) + ([f'~only:{p["era_only"]}'] if p["era_only"] else [])
                                 + ([f'~cat:{p["cat"]}'] if p["cat"] != c["id"] else [])
+                                + ([] if len(p["names"]) >= POTATO_FLOOR else ["~small"])
                                 for p in PROMPTS.values() if in_cat(p["cat"], c["id"])], "filters": [
             {"label": g["label"], "tags": [
-                {"id": t["id"], "label": t["label"],
-                 "count": len(pool(c["id"], [t["id"]]))} for t in g["tags"]]}
+                {"id": t["id"], "label": t["label"], "count": len(pool(c["id"], [t["id"]])),
+                 "big": sum(map(potato_ok, pool(c["id"], [t["id"]])))} for t in g["tags"]]}
             for g in c["filters"]]})
     return out
 
@@ -1429,12 +1433,18 @@ POTATO_LIVES = (1, 3, 5)
 POTATO_TIMERS = (5, 10, 15)
 POTATO_BONUS = 250
 POTATO_PAUSE = 3          # seconds to read a new prompt (and see who lost a life) before the clock starts
-POTATO_MIN_ANSWERS = 30   # only prompts with plenty of answers, so a round can go round the table many times
+POTATO_MIN_ANSWERS = 30   # prompts with plenty of answers, so a round can go round the table many times...
+POTATO_FLOOR = 15         # ...and never one with fewer than this
+
+
+def potato_ok(pid):
+    return len(PROMPTS[pid]["names"]) >= POTATO_FLOOR
 
 
 def potato_prompt(room):
-    ids = pool(room["cat"], room["tags"])
-    big = [i for i in ids if len(PROMPTS[i]["names"]) >= POTATO_MIN_ANSWERS] or ids
+    ids = [i for i in pool(room["cat"], room["tags"]) if potato_ok(i)]
+    big = [i for i in ids if len(PROMPTS[i]["names"]) >= POTATO_MIN_ANSWERS]
+    big = big if len(big) >= 10 else ids
     if room["cat"] == "all":   # Everything: questions most people can have a go at
         easy = [i for i in big if EASE.get(i.split("--")[0], 0) >= 4]
         big = easy if len(easy) >= 20 else big
@@ -1752,6 +1762,8 @@ def api_post(path, body):
         except (TypeError, ValueError):
             secs = ROUND_S
         if body.get("mode") == "potato":
+            if not any(potato_ok(i) for i in pool(cat, tags)):
+                raise ApiError(400, f"Fumble needs prompts with at least {POTATO_FLOOR} answers. Pick more categories")
             try:
                 lives = int(body.get("lives") or 3)
             except (TypeError, ValueError):
