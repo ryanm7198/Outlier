@@ -67,6 +67,9 @@ EASY_FROM = datetime.date(2026, 11, 17)     # dailies from this day on only use 
 # single artist, show, game or film series only make the daily if they are mega-famous (5); others need 4 or more.
 # Category dailies (Sport, Music...) are allowed one notch harder, as the player chose that topic.
 EASE = {}
+# How far a whole table could go on one question in Fumble (5 = everyone can name several), from fumble_ease.json.
+# Fumble's Everything only uses the deepest, so nobody gets a prompt the whole room is stuck on.
+FUMBLE_EASE = {}
 ONE_THING = re.compile(r"\b(song|single|track|album|b-side) (by|on|from)\b|'s '|character (from|in)|characters? (from|in)|"
                        r"episode|series of|season of|in (the )?[A-Z][\w' ]+ (series|franchise|films?)|\bfrom '", re.I)
 ONE_NAME = re.compile(r"^Name an? (?:[A-Z][\w.'&-]*\s)+(single|song|album|film|track|character)s?\b")   # "Name a Stevie Wonder single"
@@ -148,6 +151,10 @@ def load_ease():
     if os.path.exists(path):
         with open(path, encoding="utf-8") as f:
             EASE.update(json.load(f))
+    path = os.path.join(ROOT, "fumble_ease.json")
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            FUMBLE_EASE.update(json.load(f))
 
 
 def load_prompts():
@@ -1446,8 +1453,14 @@ def potato_prompt(room):
     big = [i for i in ids if len(PROMPTS[i]["names"]) >= POTATO_MIN_ANSWERS]
     big = big if len(big) >= 10 else ids
     if room["cat"] == "all":   # Everything: questions most people can have a go at
-        easy = [i for i in big if EASE.get(i.split("--")[0], 0) >= 4]
-        big = easy if len(easy) >= 20 else big
+        for need in (5, 4):
+            easy = [i for i in big if FUMBLE_EASE.get(i.split("--")[0], 0) >= need]
+            if len(easy) >= 40:
+                big = easy
+                break
+        else:
+            easy = [i for i in big if EASE.get(i.split("--")[0], 0) >= 5]
+            big = easy if len(easy) >= 20 else big
     fresh = [i for i in big if i not in room["used"]] or big
     pid = random.choice(fresh)
     room["used"].append(pid)
