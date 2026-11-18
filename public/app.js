@@ -1469,28 +1469,33 @@ const partyBar = (s, mid) => topbar(mid, `<span class="pill">${esc(s.code)}</spa
 function partyLobby(s, host) {
   const seg = (id, values, current, unit) => `<div class="seg" id="${id}">${values.map(n =>
     `<button class="chip${n === current ? ' on' : ''}" data-n="${n}" aria-pressed="${n === current}">${n}${unit}</button>`).join('')}</div>`;
+  const players = `<section class="card"><h3>Players <small>${s.players.length}</small></h3><ul class="rows players" id="players"></ul></section>`;
+  const colour = `<section class="card charcard"><h3><span id="chMe"></span>Your colour</h3>
+      <div class="swatches" id="colors"></div>
+      <p class="fine">${ic('user')}<span>Change your character from <b>Your character</b> on the main menu.</span></p></section>`;
+  // The host sets things up top-down: the game mode first, then the categories, then who's in.
   show(`${partyBar(s, 'Lobby')}
     <section class="card codecard">
       <p class="eyebrow">Room code</p>
       <div class="roomcode">${esc(s.code)}</div>
       <button class="btn slim" id="invite">${ic('share')}<span>Share invite link</span></button>
     </section>
-    <section class="card"><h3>Players <small>${s.players.length}</small></h3><ul class="rows players" id="players"></ul></section>
-    <section class="card charcard"><h3><span id="chMe"></span>Your colour</h3>
-      <div class="swatches" id="colors"></div>
-      <p class="fine">${ic('user')}<span>Change your character from <b>Your character</b> on the main menu.</span></p></section>
-    ${host ? `<section class="sec">${limited() ? `<div class="picker">
-        <button class="tile wide on" disabled><span class="tile-ic">${ic('sparkles')}</span><span class="tile-l">Everything</span><span class="tile-n">A mix from every category</span></button>
-        <button class="mode" id="partyPlus"><span class="mode-ic">${ic('lock')}</span><span class="mode-t"><b>Choose categories</b><small>Pick any category or mix for your party. Outlier Plus</small></span></button>
-      </div>` : '<div id="picker"></div>'}</section>
-      <section class="card settings">
+    ${host ? `<section class="card settings">
         <div class="setting"><span>Game mode</span><div class="seg" id="mode">
           <button class="chip${party.mode === 'classic' ? ' on' : ''}" data-mode="classic" aria-pressed="${party.mode === 'classic'}">Classic</button>
           <button class="chip${party.mode === 'potato' ? ' on' : ''}" data-mode="potato" aria-pressed="${party.mode === 'potato'}">Fumble</button></div></div>
         <div id="modeset">${modeSettings(seg)}</div>
       </section>
+      <section class="sec">${limited() ? `<div class="picker">
+        <button class="tile wide on" disabled><span class="tile-ic">${ic('sparkles')}</span><span class="tile-l">Everything</span><span class="tile-n">A mix from every category</span></button>
+        <button class="mode" id="partyPlus"><span class="mode-ic">${ic('lock')}</span><span class="mode-t"><b>Choose categories</b><small>Pick any category or mix for your party. Outlier Plus</small></span></button>
+      </div>` : '<div id="picker"></div>'}</section>
+      ${players}
+      ${colour}
       <div class="cta"><button class="btn primary big" id="start">${ic('play')}<span><b>Start game</b><small>Everyone in the room plays along</small></span></button></div>`
-      : `<div class="waiting card"><span class="dots"><i></i><i></i><i></i></span><p>Waiting for the host to pick a category and start</p></div>`}`);
+      : `${players}
+      ${colour}
+      <div class="waiting card"><span class="dots"><i></i><i></i><i></i></span><p>Waiting for the host to pick a category and start</p></div>`}`);
   $('#invite').onclick = () => shareText(`${location.origin}/?room=${s.code}`);
   $('#colors').onclick = e => { const b = e.target.closest('[data-c]'); if (b && !b.disabled) { store.set('outlier.color', +b.dataset.c); partyPost('/api/room/color', { color: +b.dataset.c }); } };
 
