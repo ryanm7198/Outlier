@@ -1383,49 +1383,79 @@ function renderParty(s) {
   }
 }
 
-// Your character: picked from the main menu, saved on this device, and brought into every party room you join.
+// Your character: a creator screen like an MMO's. A big preview on a spotlit stage, and one row per part with arrows
+// to step through the options by name. Saved on this device and brought into every party room you join.
+const LOOK_NAMES = [
+  ['Round', 'Square', 'Ghost', 'Egg', 'Cat', 'Bear', 'Alien', 'Bunny', 'Robot', 'Monster', 'Mouse', 'Blob'],
+  ['Dots', 'Shiny', 'Happy', 'Sleepy', 'Wink', 'Shades', 'Grumpy', 'Cyclops', 'Hearts', 'Dizzy', 'Side-eye', 'Sparkle'],
+  ['Smile', 'Grin', 'Surprised', 'Flat', 'Cheeky', 'Kitty', 'Fangs', 'Frown', 'Smirk', 'Wobbly', 'Buck tooth', 'Laugh'],
+  ['None', 'Party hat', 'Crown', 'Cap', 'Beanie', 'Headphones', 'Halo', 'Bow', 'Top hat', 'Wizard hat', 'Viking helmet', 'Flower', "Chef's hat", 'Propeller cap'],
+  ['None', 'Rosy cheeks', 'Freckles', 'Moustache', 'Glasses', 'Eyepatch', 'Plaster', 'Clown nose', 'Sweat drop', 'Beard']];
+
 function characterMenu() {
   stopTimer();
-  const name = store.get('outlier.name', '') || 'You';
-  const draw = () => {
-    const look = lookFor(name, store.get('outlier.look')), color = store.get('outlier.color', 0);
-    const me = { name, look, color };
-    $('#chMe').innerHTML = avatar(name, color, look).replace('class="av ch"', 'class="av ch big"');
-    $('#chColors').innerHTML = PCOL.map((c, i) => `<button class="swatch${i === color ? ' on' : ''}" data-c="${i}" style="--pc:${c}"
-      aria-label="${PCOL_NAMES[i]}" aria-pressed="${i === color}">${i === color ? ic('check') : ''}</button>`).join('');
-    $('#looks').innerHTML = looksHTML(me);
+  const rows = [['Colour', PCOL.length], ...LOOK_LABELS.map((l, i) => [l, LOOK_N[i]])];
+  const state = () => {
+    const name = store.get('outlier.name', '') || 'You';
+    return { name, look: lookFor(name, store.get('outlier.look')), color: store.get('outlier.color', 0) };
   };
+  const valueOf = (st, k) => k === 0 ? st.color : parseInt(st.look[k - 1], 36);
+  const nameOf = (k, v) => k === 0 ? PCOL_NAMES[v] : LOOK_NAMES[k - 1][v];
   show(`${topbar('Your character')}
-    <section class="card charcard">
-      <div class="ch-top"><div id="chMe"></div><button class="btn slim" id="chShuffle">${ic('shuffle')}<span>Shuffle</span></button></div>
-      <p class="fine">${ic('users')}<span>This is you in party games. Your colour is used whenever nobody else in the room has it.</span></p>
-    </section>
-    <section class="card"><h3>Colour</h3><div class="swatches" id="chColors"></div></section>
-    <section class="card"><div id="looks"></div></section>`);
-  $('#back').onclick = home;
-  $('#chColors').onclick = e => { const b = e.target.closest('[data-c]'); if (b) { store.set('outlier.color', +b.dataset.c); draw(); } };
-  $('#looks').onclick = e => {
-    const b = e.target.closest('[data-li]');
-    if (!b) return;
-    const cur = [...lookFor(name, store.get('outlier.look'))];
-    cur[+b.dataset.li] = b.dataset.lv;
-    store.set('outlier.look', cur.join(''));
+    <section class="cc">
+      <div class="cc-stage">
+        <div class="cc-spot"></div>
+        <div class="cc-hero" id="ccHero"></div>
+        <div class="cc-plinth"></div>
+        <input type="text" id="ccName" class="cc-name" maxlength="16" placeholder="Your name" value="${esc(store.get('outlier.name', ''))}" autocomplete="nickname" aria-label="Your name">
+      </div>
+      <div class="cc-panel">
+        <ul class="cc-rows">${rows.map(([label], k) => `<li class="cc-row" data-k="${k}">
+          <button class="cc-arr" data-k="${k}" data-d="-1" aria-label="Previous ${label.toLowerCase()}">${ic('left')}</button>
+          <span class="cc-mid"><small>${label}</small><b id="ccV${k}"></b><i id="ccN${k}"></i></span>
+          <button class="cc-arr" data-k="${k}" data-d="1" aria-label="Next ${label.toLowerCase()}">${ic('right')}</button></li>`).join('')}</ul>
+        <div class="cc-actions">
+          <button class="btn slim" id="ccRandom">${ic('shuffle')}<span>Randomise</span></button>
+          <button class="btn primary slim" id="ccDone">${ic('check')}<span>Done</span></button>
+        </div>
+      </div>
+    </section>`);
+  const draw = (bump) => {
+    const st = state();
+    $('#ccHero').innerHTML = avatar(st.name, st.color, st.look);
+    if (bump) { const h = $('#ccHero'); h.classList.remove('pop'); void h.offsetWidth; h.classList.add('pop'); }
+    rows.forEach(([, n], k) => {
+      const v = valueOf(st, k);
+      $(`#ccV${k}`).textContent = nameOf(k, v);
+      $(`#ccN${k}`).textContent = `${v + 1} of ${n}`;
+    });
+    $('.cc-row[data-k="0"] .cc-mid b').style.color = PCOL[st.color];
+  };
+  const step = (k, d) => {
+    const st = state(), n = rows[k][1], v = (valueOf(st, k) + d + n) % n;
+    if (k === 0) store.set('outlier.color', v);
+    else { const l = [...st.look]; l[k - 1] = v.toString(36); store.set('outlier.look', l.join('')); }
+    draw(true);
+  };
+  $('.cc-rows').onclick = e => { const b = e.target.closest('.cc-arr'); if (b) step(+b.dataset.k, +b.dataset.d); };
+  $('.cc-rows').onkeydown = e => {   // left and right arrow keys step the focused row
+    const row = e.target.closest('.cc-row');
+    if (row && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) { e.preventDefault(); step(+row.dataset.k, e.key === 'ArrowLeft' ? -1 : 1); }
+  };
+  $('#ccName').oninput = e => {
+    const v = e.target.value.trim();
+    if (!store.get('outlier.look')) store.set('outlier.look', state().look);   // keep the face you see while typing
+    if (v) store.set('outlier.name', v); else store.del('outlier.name');
     draw();
   };
-  $('#chShuffle').onclick = () => {
+  $('#ccRandom').onclick = () => {
     store.set('outlier.look', LOOK_N.map(n => Math.floor(Math.random() * n).toString(36)).join(''));
     store.set('outlier.color', Math.floor(Math.random() * PCOL.length));
-    draw();
+    draw(true);
   };
+  $('#ccDone').onclick = home;
+  $('#back').onclick = home;
   draw();
-}
-
-function looksHTML(me) {
-  const cur = lookFor(me.name, me.look);
-  return LOOK_N.map((n, i) => `<div class="lk-row"><span class="lk-l">${LOOK_LABELS[i]}</span><div class="lk-opts">${Array.from({ length: n }, (_, v) => {
-    const c = v.toString(36), alt = cur.slice(0, i) + c + cur.slice(i + 1);
-    return `<button class="lk${c === cur[i] ? ' on' : ''}" data-li="${i}" data-lv="${c}" aria-pressed="${c === cur[i]}" aria-label="${LOOK_LABELS[i]} ${v + 1}">${avatar(me.name, me.color, alt)}</button>`;
-  }).join('')}</div></div>`).join('');
 }
 
 function colorsHTML(s) {
