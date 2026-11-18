@@ -203,6 +203,29 @@ input.code { text-transform: uppercase; letter-spacing: .3em; text-align: center
 .codecard .btn { width: auto; padding: 0 18px; margin-top: 6px; }
 .players li { gap: 12px; }
 .av { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; flex: none; background: var(--pc, var(--card-2)); color: #14152b; font-weight: 800; font-size: .9rem; }
+.av.ch { background: color-mix(in srgb, var(--pc, var(--you)) 20%, transparent); overflow: visible; }
+.av.ch svg { width: 100%; height: 100%; display: block; overflow: visible; }
+.av.ch.big { width: 84px; height: 84px; }
+.charcard .ch-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 10px; }
+.lk-row { display: grid; gap: 6px; margin-top: 14px; }
+.lk-l { font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.lk-opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.lk { padding: 3px; border-radius: 14px; border: 2px solid transparent; background: var(--card-2); transition: transform .12s, border-color .15s; }
+.lk .av { width: 38px; height: 38px; }
+.lk.on { border-color: var(--text); }
+.lk:active { transform: scale(.9); }
+.pt-seats { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 12px; }
+.seat { position: relative; display: grid; justify-items: center; gap: 3px; padding-top: 13px; transition: transform .2s, opacity .2s; }
+.seat .av { width: 40px; height: 40px; }
+.seat small { max-width: 64px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: .72rem; color: var(--muted); }
+.seat.now { transform: scale(1.12); }
+.seat.now .av { animation: seatbob .55s ease-in-out infinite alternate; box-shadow: 0 0 0 2px var(--bg, #0f1023), 0 0 0 4px var(--you); }
+.seat.now small { color: var(--you); font-weight: 800; }
+.seat.me small { text-decoration: underline; text-underline-offset: 2px; }
+.seat.gone { opacity: .35; filter: grayscale(1); }
+.seat-arrow { position: absolute; top: 0; left: 50%; margin-left: -6px; width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent;
+  border-top: 8px solid var(--you); animation: seatbob .55s ease-in-out infinite alternate; }
+@keyframes seatbob { to { transform: translateY(-4px); } }
 .rows li.me .av, .racer.me .av { box-shadow: 0 0 0 2px var(--card), 0 0 0 4px var(--pc, var(--you)); }
 .settings { display: grid; gap: 14px; }
 .setting { display: grid; gap: 8px; }
@@ -707,4 +730,4 @@ form.shake { animation: shake .35s; }
   25% { transform: translate(-50%, 0) scale(1); } 80% { opacity: 1; transform: translate(-50%, 0); } 100% { opacity: 0; transform: translate(-50%, -14px); } }
 @keyframes heartlose { 0% { transform: none; opacity: 1; } 30% { transform: scale(1.6); opacity: 1; }
   100% { transform: translateY(22px) rotate(35deg) scale(.4); opacity: 0; } }
-@media (prefers-reduced-motion: reduce) { .pt-you, .pt-table li.turn .av, .pt-log li, .pt-boom, form.shake, .pt-bh, .pt-roll li, .pt-next, .pt-pop { animation: none; } .pt-hearts i.lose { animation: none; opacity: .2; } }
+@media (prefers-reduced-motion: reduce) { .pt-you, .pt-table li.turn .av, .pt-log li, .pt-boom, form.shake, .pt-bh, .pt-roll li, .pt-next, .pt-pop, .seat.now .av, .seat-arrow { animation: none; } .pt-hearts i.lose { animation: none; opacity: .2; } }

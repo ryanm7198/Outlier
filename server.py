@@ -42,6 +42,7 @@ PAYWALL = os.environ.get("OUTLIER_PAYWALL") == "1"            # off: everyone ha
 # A secret pass code (set on the host, never in the code): typed into the sign-in email box, it signs that browser
 # into its own new Plus account straight away, no email needed. Unset it to switch every pass account back to free.
 PASS_CODE = os.environ.get("OUTLIER_PASS_CODE", "").strip().lower()
+LOOK_RX = re.compile(r"[0-5][0-5][0-5][0-7]")   # a party character: head, eyes, mouth, hat
 PASS_PREFIX = "pass:"   # pass accounts have no email; their "email" column is pass:<random>
 PLUS_EMAILS = {e.strip().lower() for e in os.environ.get("OUTLIER_PLUS_EMAILS", "").split(",") if e.strip()}   # always full access
 STRIPE_KEY = os.environ.get("STRIPE_SECRET_KEY", "")          # Stripe secret key (sk_test_... while testing)
@@ -1302,7 +1303,7 @@ def add_player(room, name):
     used = {p["color"] for p in room["players"].values()}
     color = next((c for c in range(PLAYER_COLORS) if c not in used), room["seq"] % PLAYER_COLORS)
     room["players"][token] = {"n": room["seq"], "name": name, "score": 0, "answer": None, "last": time.time(),
-                              "double_left": True, "doubling": False, "picked": False, "color": color}
+                              "double_left": True, "doubling": False, "picked": False, "color": color, "look": None}
     return token
 
 
@@ -1606,6 +1607,7 @@ def room_state(room, token):
         "label": describe(room["cat"], room["tags"]),
         "doubleLeft": me["double_left"], "doubling": me["doubling"], "picked": me["picked"],
         "players": [{"n": p["n"], "name": p["name"], "score": p["score"], "online": online(p), "color": p["color"],
+                     "look": p.get("look"),
                      "answered": p["answer"] is not None, "picked": p["picked"] or not p["double_left"],
                      "doubleLeft": p["double_left"], "lives": p.get("lives", 0), "out": p.get("out", False),
                      "bonusAt": p.get("bonus_at", POTATO_BONUS), "bonusStep": p.get("bonus_step", POTATO_BONUS)} for p in room["players"].values()],
@@ -1752,6 +1754,11 @@ def api_post(path, body):
             c = -1
         if 0 <= c < PLAYER_COLORS and all(p["color"] != c for t, p in room["players"].items() if t != token):
             me["color"] = c
+        return room_state(room, token)
+    if path == "/api/room/look":   # the player's little character: head, eyes, mouth and hat, one digit each
+        look = str(body.get("look") or "")
+        if LOOK_RX.fullmatch(look):
+            room["players"][token]["look"] = look
         return room_state(room, token)
     if path == "/api/room/ask":
         me = room["players"][token]

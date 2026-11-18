@@ -110,8 +110,52 @@ const ICON = {
 const ic = (name, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICON[name] || ''}</svg>`;
 const PCOL = ['#ff6b6b', '#ff9f43', '#feca57', '#7bd88f', '#2ed3b7', '#4cc9f0', '#5b8cff', '#9b7bff', '#d77bff', '#ff7bd0', '#b8c4d6', '#c9a27a'];
 const PCOL_NAMES = ['Red', 'Orange', 'Yellow', 'Green', 'Teal', 'Sky', 'Blue', 'Violet', 'Purple', 'Pink', 'Silver', 'Sand'];
-const avatar = (name, color) => `<span class="av" style="--pc:${PCOL[color] || PCOL[0]}">${esc((name || '?').trim().charAt(0).toUpperCase())}</span>`;
+// ---- Characters: a little face in the player's colour, built from four parts (head, eyes, mouth, hat), saved as
+// four digits like "2140". Anyone who hasn't picked one gets a character worked out from their name.
+const LOOK_N = [6, 6, 6, 8];
+const LOOK_LABELS = ['Head', 'Eyes', 'Mouth', 'Extra'];
+const INK = '#14152b';
+const inkLine = d => `<path d="${d}" fill="none" stroke="${INK}" stroke-width="1.8" stroke-linecap="round"/>`;
+const LOOK_PARTS = [
+  ['<circle cx="20" cy="24" r="13"/>',
+    '<rect x="7.5" y="11.5" width="25" height="25" rx="7"/>',
+    '<path d="M7 24a13 13 0 0 1 26 0v13l-4.33-3-4.33 3-4.34-3-4.33 3-4.34-3L7 37z"/>',
+    '<ellipse cx="20" cy="24" rx="11.5" ry="14"/>',
+    '<path d="M8.5 19 9.5 7l8 6zM31.5 19l-1-12-8 6z"/><circle cx="20" cy="24" r="13"/>',
+    '<circle cx="10.5" cy="13.5" r="4.5"/><circle cx="29.5" cy="13.5" r="4.5"/><circle cx="20" cy="24" r="13"/>'],
+  [`<circle cx="15" cy="22" r="2" fill="${INK}"/><circle cx="25" cy="22" r="2" fill="${INK}"/>`,
+    `<circle cx="15" cy="22" r="3.3" fill="${INK}"/><circle cx="25" cy="22" r="3.3" fill="${INK}"/><circle cx="16" cy="21" r="1.1" fill="#fff"/><circle cx="26" cy="21" r="1.1" fill="#fff"/>`,
+    inkLine('M12.5 23q2.5-3.5 5 0M22.5 23q2.5-3.5 5 0'),
+    inkLine('M12.5 22.5h5M22.5 22.5h5'),
+    `<circle cx="15" cy="22" r="2" fill="${INK}"/>${inkLine('M22.5 23q2.5-3.5 5 0')}`,
+    `<rect x="10" y="19.5" width="8.5" height="5" rx="2" fill="${INK}"/><rect x="21.5" y="19.5" width="8.5" height="5" rx="2" fill="${INK}"/>${inkLine('M18.5 21h3')}`],
+  [inkLine('M16 28.5q4 4 8 0'),
+    `<path d="M15 28h10a5 5 0 0 1-10 0z" fill="${INK}"/>`,
+    `<circle cx="20" cy="30" r="2.2" fill="${INK}"/>`,
+    inkLine('M17 30h6'),
+    `${inkLine('M16 28.5q4 4 8 0')}<path d="M18.5 30.3h3v1.6a1.5 1.5 0 0 1-3 0z" fill="#ff7b9c"/>`,
+    inkLine('M16 28.5q2 2.2 4 0q2 2.2 4 0')],
+  ['',
+    '<path d="M14.5 13 20 1.5 25.5 13z" fill="#5b8cff"/><path d="M16.3 9.2h7.4" stroke="#ffd166" stroke-width="1.6"/><circle cx="20" cy="1.8" r="1.8" fill="#ffd166"/>',
+    `<path d="M11 14V5.5l4.5 4L20 3l4.5 6.5L29 5.5V14z" fill="#ffd166" stroke="${INK}" stroke-width=".8" stroke-linejoin="round"/>`,
+    '<path d="M8.5 16a11.5 9 0 0 1 23 0z" fill="#33417a"/><rect x="22" y="14" width="13" height="3.2" rx="1.6" fill="#232d57"/>',
+    '<path d="M8 17a12 12 0 0 1 24 0z" fill="#2ed3b7"/><rect x="7.5" y="15" width="25" height="4" rx="2" fill="#20a891"/><circle cx="20" cy="4.5" r="2.8" fill="#fff"/>',
+    `<path d="M8 25a12 13 0 0 1 24 0" fill="none" stroke="${INK}" stroke-width="2.4"/><rect x="5" y="21" width="5" height="9" rx="2.2" fill="#ff9f43"/><rect x="30" y="21" width="5" height="9" rx="2.2" fill="#ff9f43"/>`,
+    '<ellipse cx="20" cy="5" rx="8" ry="2.6" fill="none" stroke="#ffd166" stroke-width="2"/>',
+    '<path d="M27 11l-5-4v8zM27 11l5-4v8z" fill="#ff7bd0"/><circle cx="27" cy="11" r="1.8" fill="#d14fa5"/>']];
+function lookFor(name, look) {
+  if (/^[0-5][0-5][0-5][0-7]$/.test(look || '')) return look;
+  let h = 7;
+  for (const ch of (name || '?').trim().toLowerCase()) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return LOOK_N.map((n, i) => Math.floor(h / [1, 7, 53, 409][i]) % n).join('');
+}
+const avatar = (name, color, look) => {
+  const [hd, ey, mo, ht] = [...lookFor(name, look)].map(Number);
+  return `<span class="av ch" style="--pc:${PCOL[color] || PCOL[0]}" role="img" aria-label="${esc(name || '')}"><svg viewBox="0 0 40 40" aria-hidden="true">`
+    + `<g style="fill:var(--pc)">${LOOK_PARTS[0][hd]}</g>${LOOK_PARTS[1][ey]}${LOOK_PARTS[2][mo]}${LOOK_PARTS[3][ht]}</svg></span>`;
+};
 const colorOf = (s, n) => (s.players.find(p => p.n === n) || {}).color;
+const lookOf = (s, n) => (s.players.find(p => p.n === n) || {}).look;
 const CAT_ICON = { all: 'sparkles', sport: 'trophy', football: 'ball', music: 'music', film: 'film', gaming: 'gamepad',
   geography: 'globe', history: 'landmark', science: 'flask', food: 'utensils', words: 'book', misc: 'shuffle' };
 const topbar = (title, right = '', back = 'back', icon = 'left') =>
@@ -1188,6 +1232,8 @@ function enterParty(code, pid) {
   party = { code, pid, key: null, busy: false, rounds: 5, secs: 30, mode: 'classic', lives: 3, turn: 10 };
   party.poll = setInterval(pollParty, 1000);
   pollParty();
+  const look = store.get('outlier.look');
+  if (look) api('/api/room/look', { code, pid, look }).catch(() => {});
 }
 
 function leaveParty(msg) {
@@ -1221,7 +1267,7 @@ async function partyPost(path, extra) {
 
 function playersHTML(s) {
   return s.players.map(p => `<li class="${p.n === s.you ? 'me' : ''}${p.online ? '' : ' off'}">
-    ${avatar(p.name, p.color)}
+    ${avatar(p.name, p.color, p.look)}
     <span class="main"><b>${esc(p.name)}</b>${p.n === s.you ? '<small>You</small>' : ''}</span>
     ${p.n === s.host ? '<span class="tag">Host</span>' : ''}
     ${!p.online ? '<span class="tag">Away</span>'
@@ -1237,7 +1283,7 @@ function tickerHTML(s) {
   const live = s.players.filter(p => p.online || p.answered);
   const done = live.filter(p => p.answered).length;
   return `<div class="ticker" id="ticker" aria-live="polite">
-    <div class="tick-avs">${live.map(p => `<span class="tick-av${p.answered ? ' in' : ''}${p.n === s.you ? ' me' : ''}" data-n="${p.n}" title="${esc(p.name)}">${avatar(p.name, p.color)}</span>`).join('')}</div>
+    <div class="tick-avs">${live.map(p => `<span class="tick-av${p.answered ? ' in' : ''}${p.n === s.you ? ' me' : ''}" data-n="${p.n}" title="${esc(p.name)}">${avatar(p.name, p.color, p.look)}</span>`).join('')}</div>
     <p class="tick-line"><b>${done}</b> of ${live.length} locked in<span class="tick-news" id="tickNews"></span></p>
   </div>`;
 }
@@ -1275,12 +1321,30 @@ function renderParty(s) {
   if (s.phase === 'potato') updatePotato(s);
   const sw = $('#colors');
   if (sw) sw.innerHTML = colorsHTML(s);
+  if ($('#looks')) {   // only redraw the character picker when something in it changed
+    const me = s.players.find(p => p.n === s.you) || {};
+    if (me.look) party.look = me.look;
+    const k = [me.name, me.color, me.look].join('|');
+    if (k !== party.lookKey) {
+      party.lookKey = k;
+      $('#chMe').innerHTML = avatar(me.name, me.color, me.look).replace('class="av ch"', 'class="av ch big"');
+      $('#looks').innerHTML = looksHTML(me);
+    }
+  }
   const list = $('#players');
   if (list) {
     list.innerHTML = playersHTML(s);
     const count = list.closest('.card') && list.closest('.card').querySelector('h3 small');
     if (count) count.textContent = s.players.length;
   }
+}
+
+function looksHTML(me) {
+  const cur = lookFor(me.name, me.look);
+  return LOOK_N.map((n, i) => `<div class="lk-row"><span class="lk-l">${LOOK_LABELS[i]}</span><div class="lk-opts">${Array.from({ length: n }, (_, v) => {
+    const alt = cur.slice(0, i) + v + cur.slice(i + 1);
+    return `<button class="lk${String(v) === cur[i] ? ' on' : ''}" data-li="${i}" data-lv="${v}" aria-pressed="${String(v) === cur[i]}" aria-label="${LOOK_LABELS[i]} ${v + 1}">${avatar(me.name, me.color, alt)}</button>`;
+  }).join('')}</div></div>`).join('');
 }
 
 function colorsHTML(s) {
@@ -1301,7 +1365,9 @@ function partyLobby(s, host) {
       <button class="btn slim" id="invite">${ic('share')}<span>Share invite link</span></button>
     </section>
     <section class="card"><h3>Players <small>${s.players.length}</small></h3><ul class="rows players" id="players"></ul></section>
-    <section class="card"><h3>Your colour</h3><div class="swatches" id="colors"></div></section>
+    <section class="card charcard"><h3>Your character</h3>
+      <div class="ch-top"><div id="chMe"></div><button class="btn slim" id="chShuffle">${ic('shuffle')}<span>Shuffle</span></button></div>
+      <div class="swatches" id="colors"></div><div id="looks"></div></section>
     ${host ? `<section class="sec">${limited() ? `<div class="picker">
         <button class="tile wide on" disabled><span class="tile-ic">${ic('sparkles')}</span><span class="tile-l">Everything</span><span class="tile-n">A mix from every category</span></button>
         <button class="mode" id="partyPlus"><span class="mode-ic">${ic('lock')}</span><span class="mode-t"><b>Choose categories</b><small>Pick any category or mix for your party. Outlier Plus</small></span></button>
@@ -1316,6 +1382,19 @@ function partyLobby(s, host) {
       : `<div class="waiting card"><span class="dots"><i></i><i></i><i></i></span><p>Waiting for the host to pick a category and start</p></div>`}`);
   $('#invite').onclick = () => shareText(`${location.origin}/?room=${s.code}`);
   $('#colors').onclick = e => { const b = e.target.closest('[data-c]'); if (b && !b.disabled) partyPost('/api/room/color', { color: +b.dataset.c }); };
+  const setLook = look => { store.set('outlier.look', look); partyPost('/api/room/look', { look }); };
+  $('#looks').onclick = e => {
+    const b = e.target.closest('[data-li]');
+    if (!b) return;
+    const me = s.players.find(p => p.n === s.you) || {}, cur = [...lookFor(me.name, party.look || me.look)];
+    cur[+b.dataset.li] = b.dataset.lv;
+    party.look = cur.join('');
+    setLook(party.look);
+  };
+  $('#chShuffle').onclick = () => {
+    party.look = LOOK_N.map(n => Math.floor(Math.random() * n)).join('');
+    setLook(party.look);
+  };
   if (!host) return;
   if (limited()) {   // free hosts play Everything (the server enforces this too)
     $('#partyPlus').onclick = () => toast('Choosing party categories is part of Outlier Plus');
@@ -1369,7 +1448,7 @@ function potatoTable(s) {
   return `<ul class="pt-table">${s.order.map(n => byN[n]).filter(Boolean).map(p => {
     const toward = Math.max(0, Math.min(1, (p.score - (p.bonusAt - p.bonusStep)) / p.bonusStep));
     return `<li class="${p.n === s.current ? 'turn' : ''}${p.out ? ' gone' : ''}${p.n === s.you ? ' me' : ''}">
-      ${avatar(p.name, p.color)}<span class="pt-name"><b>${esc(p.name)}</b>${hearts(p.lives, p.out)}</span>
+      ${avatar(p.name, p.color, p.look)}<span class="pt-name"><b>${esc(p.name)}</b>${hearts(p.lives, p.out)}</span>
       <span class="pt-pts" title="${p.bonusAt - p.score} points to an extra life"><span class="pt-ring" style="--k:${toward.toFixed(2)}"></span>${p.score}</span></li>`;
   }).join('')}</ul>`;
 }
@@ -1395,7 +1474,7 @@ function potatoBreak(s) {
         const hit = p.n === b.n, d = `--d:${(i * 0.18).toFixed(2)}s`;
         const lives = hit ? `<span class="pt-hearts">${'<i></i>'.repeat(Math.min(p.lives, 6))}<i class="lose"></i></span>${p.out ? '<span class="pt-out late">Out</span>' : ''}`
           : hearts(p.lives, p.out);
-        return `<li class="${hit ? 'hit' : ''}${p.out && !hit ? ' gone' : ''}" style="${d}">${avatar(p.name, p.color)}
+        return `<li class="${hit ? 'hit' : ''}${p.out && !hit ? ' gone' : ''}" style="${d}">${avatar(p.name, p.color, p.look)}
           <span class="pt-name"><b>${esc(p.name)}</b>${lives}</span><span class="pt-pts">${p.score}</span></li>`;
       }).join('')}</ul>
       <p class="muted center pt-next">${b.end ? 'And that\'s the game…' : 'Next prompt coming up…'}</p>
@@ -1409,6 +1488,7 @@ function partyPotato(s) {
     ? `<div class="pt-boom">${ic('flame')}<span><b>${esc(s.boom.name)}</b> ${s.boom.out ? 'ran out of time and is <b>out</b>!' : 'ran out of time and lost a life'}</span></div>` : '';
   show(`${partyBar(s, `Fumble · Prompt ${s.round}`)}
     ${boom}
+    <div class="pt-seats" id="ptSeats"></div>
     <p class="hint">${esc(s.hint)}</p>
     <h2 class="pt-prompt">${esc(s.prompt)}</h2>
     <div class="pt-turn" id="ptTurn">
@@ -1422,6 +1502,7 @@ function partyPotato(s) {
     <div id="ptTable"></div>
     <section class="card"><h3>Said so far <small id="ptSaid"></small></h3><div id="ptLog"></div></section>`);
   party.ptTurn = null;
+  party.seatKey = null;
   const form = $('#ptForm');
   if (form) {
     const input = $('#input'), miss = $('#miss');
@@ -1462,7 +1543,7 @@ function potatoPop(s) {
   const el = document.createElement('div');
   el.className = 'pt-pop' + (l.outlier ? ' outlier' : '');
   el.setAttribute('aria-live', 'polite');
-  el.innerHTML = `<b>${esc(l.answer)}</b><span>${avatar(p.name || l.name, p.color)}${esc(l.name)} · +${l.points}${l.outlier ? ' · Outlier!' : ''}${l.bonus ? ' · +1 life' : ''}</span>`;
+  el.innerHTML = `<b>${esc(l.answer)}</b><span>${avatar(p.name || l.name, p.color, p.look)}${esc(l.name)} · +${l.points}${l.outlier ? ' · Outlier!' : ''}${l.bonus ? ' · +1 life' : ''}</span>`;
   document.body.append(el);
   setTimeout(() => el.remove(), 1400);
 }
@@ -1474,6 +1555,14 @@ function updatePotato(s) {
   const cur = s.players.find(p => p.n === s.current) || {};
   const mine = s.current === s.you && !me.out;
   $('#ptTable').innerHTML = potatoTable(s);
+  const byN = Object.fromEntries(s.players.map(p => [p.n, p]));
+  const seats = s.order.map(n => byN[n]).filter(Boolean);
+  const seatKey = [s.current, ...seats.map(p => `${p.n}${p.out ? 'x' : ''}${p.color}${p.look}`)].join('|');
+  if (seatKey !== party.seatKey) {   // redrawn only when it changes, so the bounce doesn't restart every poll
+    party.seatKey = seatKey;
+    $('#ptSeats').innerHTML = seats.map(p => `<span class="seat${p.n === s.current ? ' now' : ''}${p.out ? ' gone' : ''}${p.n === s.you ? ' me' : ''}">
+      ${p.n === s.current ? '<i class="seat-arrow" aria-hidden="true"></i>' : ''}${avatar(p.name, p.color, p.look)}<small>${esc(p.name)}</small></span>`).join('');
+  }
   $('#ptLog').innerHTML = potatoLog(s);
   $('#ptSaid').textContent = s.said;
   potatoPop(s);
@@ -1482,7 +1571,7 @@ function updatePotato(s) {
   party.ptMine = mine;
   $('#ptTurn').classList.toggle('mine', mine);
   $('#ptWho').innerHTML = mine ? '<p class="pt-you">Your turn!</p>'
-    : `<p class="pt-wait">${me.out ? 'You are out. Watch the others battle it out. ' : ''}${avatar(cur.name, cur.color)}<span><b>${esc(cur.name || '')}</b>'s turn</span></p>`;
+    : `<p class="pt-wait">${me.out ? 'You are out. Watch the others battle it out. ' : ''}${avatar(cur.name, cur.color, cur.look)}<span><b>${esc(cur.name || '')}</b>'s turn</span></p>`;
   const go = $('#ptGo'), input = $('#input'), miss = $('#miss');
   if (go) {
     go.textContent = mine ? 'Pass it on' : 'Wait for your turn';
@@ -1518,7 +1607,7 @@ function potatoFinal(s, host) {
     <div class="center"><p class="muted">Last one standing</p><h2>${esc(win ? win.name : '')}</h2>
       <p class="muted">${win ? `${win.lives} ${win.lives === 1 ? 'life' : 'lives'} left · ${win.score} points` : ''}</p></div>
     <ol class="rows card players">${order.map((p, i) => `<li class="${p.n === s.you ? 'me' : ''}"><span class="num rank">${i + 1}</span>
-      ${avatar(p.name, p.color)}<span class="main"><b>${esc(p.name)}</b><small>${p.out ? 'Out' : 'Still standing'} · ${(k => `${k} answer${k === 1 ? '' : 's'}`)(answers.filter(l => l.n === p.n).length)}</small></span>
+      ${avatar(p.name, p.color, p.look)}<span class="main"><b>${esc(p.name)}</b><small>${p.out ? 'Out' : 'Still standing'} · ${(k => `${k} answer${k === 1 ? '' : 's'}`)(answers.filter(l => l.n === p.n).length)}</small></span>
       <span class="num">${p.score}</span></li>`).join('')}</ol>
     ${best ? `<section class="card"><h3>Best answer</h3><p><b>${esc(best.answer)}</b> by ${esc(best.name)} · +${best.points}${best.outlier ? ' · Outlier!' : ''}</p></section>` : ''}
     ${asked.length ? `<p class="muted center">${asked.map(esc).join(', ')} ${asked.length === 1 ? 'wants' : 'want'} a rematch</p>` : ''}
@@ -1597,7 +1686,7 @@ function revealGroups(s, r) {
 }
 
 function revealCard(s, g, last) {
-  const x = g.x, who = g.who.map(w => `<span class="rv-who">${avatar(w.name, colorOf(s, w.n))}${esc(w.name)}${w.doubled ? ' <b class="dblx">×2</b>' : ''}</span>`).join('');
+  const x = g.x, who = g.who.map(w => `<span class="rv-who">${avatar(w.name, colorOf(s, w.n), lookOf(s, w.n))}${esc(w.name)}${w.doubled ? ' <b class="dblx">×2</b>' : ''}</span>`).join('');
   const t = x.outlier ? 5 : x.valid ? Math.max(1, tier(x.points / (x.doubled ? 2 : 1) * (x.shared ? 2 : 1))) : 0;
   return `<li class="rv-card t${t}${last ? ' finale' : ''}${x.valid ? '' : ' miss'}">
     ${x.outlier ? '<span class="rv-stamp">Outlier!</span>' : ''}
@@ -1675,7 +1764,7 @@ function partyRevealScores(s, host) {
 // so the best answer lands last, and each number pulses and takes the colour of the rarity it just reached.
 function raceHTML(s, r) {
   return `<ul class="race card">${r.results.map(x => `<li class="racer${x.n === s.you ? ' me' : ''}" data-pts="${x.points}" data-out="${x.outlier ? 1 : 0}" data-t="0">
-    ${avatar(x.name, colorOf(s, x.n))}
+    ${avatar(x.name, colorOf(s, x.n), lookOf(s, x.n))}
     <span class="rmain"><b>${esc(x.name)}</b>
       <small class="rsub">${x.valid ? `${esc(x.canonical)} · ${x.share}% said it`
         : x.given ? `<span class="strike">${esc(x.given)}</span> · not on the list` : 'No answer'}</small>
@@ -1745,7 +1834,7 @@ function partyFinal(s, host) {
       <p class="muted">${top.score} paces · ${zoneName(top.score, max)}</p></div>
     <div class="card">${trailHTML(order.map(p => ({ name: p.name, from: 0, to: p.score, me: p.n === s.you, color: p.color })), max)}</div>
     <ol class="rows card players">${order.map((p, i) => `<li class="${p.n === s.you ? 'me' : ''}"><span class="num rank">${i + 1}</span>
-      ${avatar(p.name, p.color)}
+      ${avatar(p.name, p.color, p.look)}
       <span class="main"><b>${esc(p.name)}</b><small>${zoneName(p.score, max)}</small></span><span class="num">${p.score}</span></li>`).join('')}</ol>
     ${awardsHTML(s)}
     ${asked.length ? `<p class="muted center">${asked.map(esc).join(', ')} ${asked.length === 1 ? 'wants' : 'want'} a rematch</p>` : ''}
