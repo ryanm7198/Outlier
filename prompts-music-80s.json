@@ -1,0 +1,1873 @@
+{
+ "cat": "music",
+ "prompts": [
+  {
+   "id": "e80-male-solo-uk-top-10",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a male solo singer who had a UK top 10 single in the 1980s",
+   "answers": [
+    "Michael Jackson",
+    "George Michael",
+    "Prince",
+    "Phil Collins",
+    "Rick Astley",
+    "Elton John",
+    "David Bowie",
+    "Cliff Richard",
+    "Lionel Richie",
+    [
+     "Bruce Springsteen",
+     "Springsteen"
+    ],
+    "Paul McCartney",
+    "Stevie Wonder",
+    [
+     "Shakin' Stevens",
+     "Shaky"
+    ],
+    "Adam Ant",
+    "Billy Ocean",
+    "Jason Donovan",
+    "Paul Young",
+    "Howard Jones",
+    "Nik Kershaw",
+    "Billy Joel",
+    "Rod Stewart",
+    "Boy George",
+    "Morrissey",
+    "Billy Idol",
+    "Chris de Burgh",
+    "Freddie Mercury",
+    "John Lennon",
+    "Bryan Ferry",
+    "Peter Gabriel",
+    "Robert Palmer",
+    "Tom Jones",
+    "Gary Numan",
+    "Midge Ure",
+    "Feargal Sharkey",
+    "Nick Berry",
+    "Paul Simon",
+    "George Harrison",
+    "Roy Orbison",
+    "Marc Almond",
+    "Holly Johnson",
+    "Limahl",
+    "Terence Trent D'Arby",
+    "Alexander O'Neal",
+    "Bobby Brown",
+    "Kenny Rogers",
+    "Paul Hardcastle",
+    "Jermaine Stewart",
+    "Glenn Medeiros",
+    "Richard Marx",
+    "Bobby McFerrin",
+    "Ray Parker Jr.",
+    "Kenny Loggins",
+    "Harold Faltermeyer",
+    "Jan Hammer",
+    "Nick Kamen",
+    "Owen Paul",
+    "Julian Lennon",
+    "Marvin Gaye",
+    "Smokey Robinson",
+    "Ben E. King",
+    "Jackie Wilson",
+    "Sam Cooke",
+    "Percy Sledge",
+    "Bill Withers",
+    "George Benson",
+    "Gregory Abbott",
+    "Jermaine Jackson",
+    "Julio Iglesias",
+    "Barry Manilow",
+    "David Essex",
+    "Leo Sayer",
+    "Don McLean",
+    "Johnny Logan",
+    "Dennis Waterman",
+    "Joe Dolce",
+    "Jona Lewie",
+    "Captain Sensible",
+    "Alvin Stardust",
+    "Michael Ball",
+    "Harry Enfield",
+    "Gene Pitney",
+    [
+     "Philip Oakey",
+     "Phil Oakey"
+    ],
+    "Michael McDonald",
+    "Billy Bragg",
+    "Steve Walsh"
+   ]
+  },
+  {
+   "id": "e80-female-solo-uk-top-10",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a female solo singer who had a UK top 10 single in the 1980s",
+   "answers": [
+    "Madonna",
+    "Whitney Houston",
+    [
+     "Kylie Minogue",
+     "Kylie"
+    ],
+    "Tina Turner",
+    "Cyndi Lauper",
+    "Kim Wilde",
+    "Kate Bush",
+    "Bonnie Tyler",
+    "Belinda Carlisle",
+    "Diana Ross",
+    "Cher",
+    "Janet Jackson",
+    "Gloria Estefan",
+    "Alison Moyet",
+    "Sinitta",
+    "Samantha Fox",
+    "Sonia",
+    "Tiffany",
+    [
+     "Debbie Gibson",
+     "Deborah Gibson"
+    ],
+    "Paula Abdul",
+    "Toyah",
+    "Sheena Easton",
+    "Dolly Parton",
+    "Barbra Streisand",
+    "Olivia Newton-John",
+    "Aretha Franklin",
+    "Donna Summer",
+    "Jennifer Rush",
+    "Irene Cara",
+    "Enya",
+    "Yazz",
+    "Neneh Cherry",
+    "Lisa Stansfield",
+    "Tracy Chapman",
+    "Kirsty MacColl",
+    "Hazell Dean",
+    "Laura Branigan",
+    "Taylor Dayne",
+    "Elaine Paige",
+    "Barbara Dickson",
+    "Sarah Brightman",
+    "Marti Webb",
+    "Tracey Ullman",
+    "Debbie Harry",
+    "Dusty Springfield",
+    "Phyllis Nelson",
+    "Hazel O'Connor",
+    "Kim Carnes",
+    "Natalie Cole",
+    "Patti LaBelle",
+    "Dionne Warwick",
+    "Randy Crawford",
+    "Stephanie Mills",
+    "Teena Marie",
+    "Kelly Marie",
+    "Aneka",
+    "Mari Wilson",
+    "Elkie Brooks",
+    "Lulu",
+    "Sam Brown",
+    "Mica Paris",
+    "Gwen Guthrie",
+    "Jaki Graham",
+    "Sabrina",
+    "Spagna",
+    "Vanessa Paradis",
+    "Taffy"
+   ]
+  },
+  {
+   "id": "e80-bands-uk-top-10",
+   "tags": [
+    "80s",
+    "pop",
+    "rock"
+   ],
+   "text": "Name a band or group that had a UK top 10 single in the 1980s",
+   "answers": [
+    "Duran Duran",
+    "Wham!",
+    "Queen",
+    "U2",
+    "Culture Club",
+    "Spandau Ballet",
+    "Madness",
+    "Bananarama",
+    [
+     "The Human League",
+     "Human League"
+    ],
+    "Pet Shop Boys",
+    "Eurythmics",
+    "Tears for Fears",
+    "Depeche Mode",
+    "Simple Minds",
+    "Dire Straits",
+    [
+     "Frankie Goes to Hollywood",
+     "Frankie"
+    ],
+    [
+     "The Police",
+     "Police"
+    ],
+    "Bon Jovi",
+    "Def Leppard",
+    "Europe",
+    "Bucks Fizz",
+    [
+     "Dexys Midnight Runners",
+     "Dexys"
+    ],
+    "UB40",
+    [
+     "The Specials",
+     "Specials"
+    ],
+    [
+     "The Jam",
+     "Jam"
+    ],
+    "Erasure",
+    "Soft Cell",
+    "A-ha",
+    "Bros",
+    "Wet Wet Wet",
+    "Five Star",
+    "Level 42",
+    "Kajagoogoo",
+    "Thompson Twins",
+    "Simply Red",
+    "Status Quo",
+    "Blondie",
+    "ABBA",
+    [
+     "Adam and the Ants",
+     "Adam & the Ants"
+    ],
+    "Ultravox",
+    "Yazoo",
+    [
+     "OMD",
+     "Orchestral Manoeuvres in the Dark"
+    ],
+    "Heaven 17",
+    "ABC",
+    [
+     "Haircut One Hundred",
+     "Haircut 100"
+    ],
+    [
+     "The Style Council",
+     "Style Council"
+    ],
+    [
+     "The Smiths",
+     "Smiths"
+    ],
+    [
+     "The Cure",
+     "Cure"
+    ],
+    "New Order",
+    [
+     "Siouxsie and the Banshees",
+     "Siouxsie & the Banshees"
+    ],
+    [
+     "The Stranglers",
+     "Stranglers"
+    ],
+    [
+     "The Pogues",
+     "Pogues"
+    ],
+    "Genesis",
+    "Iron Maiden",
+    "Whitesnake",
+    [
+     "Guns N' Roses",
+     "Guns and Roses"
+    ],
+    "Van Halen",
+    "Survivor",
+    "Starship",
+    [
+     "The Bangles",
+     "Bangles"
+    ],
+    "Toto",
+    "Foreigner",
+    "Heart",
+    "Fleetwood Mac",
+    "Kool & the Gang",
+    "Earth, Wind & Fire",
+    "Shalamar",
+    "Imagination",
+    "Odyssey",
+    "Dead or Alive",
+    "Bronski Beat",
+    [
+     "The Communards",
+     "Communards"
+    ],
+    "Black Lace",
+    "Musical Youth",
+    "Altered Images",
+    "Hot Chocolate",
+    [
+     "The Nolans",
+     "Nolans"
+    ],
+    "Dollar",
+    "Tight Fit",
+    "Fun Boy Three",
+    "Bad Manners",
+    [
+     "The Beat",
+     "Beat"
+    ],
+    [
+     "The Housemartins",
+     "Housemartins"
+    ],
+    "Fine Young Cannibals",
+    "Swing Out Sister",
+    "Johnny Hates Jazz",
+    "T'Pau",
+    "Fairground Attraction",
+    "Living in a Box",
+    "Climie Fisher",
+    "Breathe",
+    "Curiosity Killed the Cat",
+    "Big Country",
+    "Deacon Blue",
+    "Hue and Cry",
+    [
+     "The Proclaimers",
+     "Proclaimers"
+    ],
+    "INXS",
+    "Men at Work",
+    "Midnight Oil",
+    "Roxette",
+    "Modern Talking",
+    "Nena",
+    "Kraftwerk",
+    "Trio",
+    "Opus",
+    "Mai Tai",
+    "Japan",
+    "Visage",
+    "China Crisis",
+    [
+     "Echo & the Bunnymen",
+     "Echo and the Bunnymen"
+    ],
+    [
+     "The Teardrop Explodes",
+     "Teardrop Explodes"
+    ],
+    "Bow Wow Wow",
+    [
+     "The Belle Stars",
+     "Belle Stars"
+    ],
+    "Modern Romance",
+    "JoBoxers",
+    [
+     "Kid Creole and the Coconuts",
+     "Kid Creole"
+    ],
+    "Toto Coelo",
+    [
+     "The Bluebells",
+     "Bluebells"
+    ],
+    "Aztec Camera",
+    [
+     "The Christians",
+     "Christians"
+    ],
+    "Danny Wilson",
+    [
+     "The Blow Monkeys",
+     "Blow Monkeys"
+    ],
+    "Go West",
+    "Pepsi & Shirlie",
+    "Mel & Kim",
+    "Brother Beyond",
+    "Big Fun",
+    "S'Express",
+    "Coldcut",
+    "Inner City",
+    "Soul II Soul",
+    "Black Box",
+    "Technotronic",
+    [
+     "Jive Bunny and the Mastermixers",
+     "Jive Bunny"
+    ],
+    [
+     "The Beatmasters",
+     "Beatmasters"
+    ],
+    "Krush",
+    "Salt-N-Pepa",
+    "Run-DMC",
+    [
+     "Mike + the Mechanics",
+     "Mike and the Mechanics"
+    ],
+    "Marillion",
+    "Rainbow",
+    [
+     "Motörhead",
+     "Motorhead"
+    ],
+    [
+     "The Damned",
+     "Damned"
+    ],
+    "Pink Floyd",
+    [
+     "Electric Light Orchestra",
+     "ELO"
+    ],
+    "Roxy Music",
+    "Squeeze",
+    "Scritti Politti",
+    "Talking Heads",
+    [
+     "The Cars",
+     "Cars"
+    ],
+    "REO Speedwagon",
+    [
+     "The Pretenders",
+     "Pretenders"
+    ],
+    "Sister Sledge",
+    [
+     "The Pointer Sisters",
+     "Pointer Sisters"
+    ],
+    [
+     "The Gap Band",
+     "Gap Band"
+    ],
+    "Cameo",
+    "Shakatak",
+    [
+     "The Real Thing",
+     "Real Thing"
+    ],
+    [
+     "The Pasadenas",
+     "Pasadenas"
+    ],
+    "Womack & Womack",
+    "Mental As Anything",
+    [
+     "The Kids from Fame",
+     "Kids from Fame"
+    ],
+    "Chas & Dave",
+    [
+     "Boomtown Rats",
+     "The Boomtown Rats"
+    ],
+    [
+     "The Undertones",
+     "Undertones"
+    ],
+    [
+     "The Vapors",
+     "Vapors"
+    ],
+    "Liquid Gold",
+    "Matchbox",
+    [
+     "The Piranhas",
+     "Piranhas"
+    ],
+    "Splodgenessabounds",
+    "ZZ Top",
+    "Beastie Boys",
+    [
+     "Detroit Spinners",
+     "The Spinners"
+    ],
+    [
+     "The Korgis",
+     "Korgis"
+    ],
+    "Lipps Inc."
+   ]
+  },
+  {
+   "id": "e80-synth-pop-new-romantic",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a New Romantic or synth-pop act from the 1980s",
+   "answers": [
+    "Duran Duran",
+    "Depeche Mode",
+    [
+     "The Human League",
+     "Human League"
+    ],
+    "Pet Shop Boys",
+    "Spandau Ballet",
+    "Soft Cell",
+    "Erasure",
+    "Eurythmics",
+    "Tears for Fears",
+    [
+     "OMD",
+     "Orchestral Manoeuvres in the Dark"
+    ],
+    "Ultravox",
+    "Visage",
+    "Yazoo",
+    "A-ha",
+    "Culture Club",
+    "Gary Numan",
+    "New Order",
+    "Japan",
+    "ABC",
+    "Heaven 17",
+    "Howard Jones",
+    "Thompson Twins",
+    "Kajagoogoo",
+    [
+     "Adam and the Ants",
+     "Adam & the Ants"
+    ],
+    "Nik Kershaw",
+    "Bronski Beat",
+    [
+     "The Communards",
+     "Communards"
+    ],
+    "Blancmange",
+    "Talk Talk",
+    "China Crisis",
+    [
+     "A Flock of Seagulls",
+     "Flock of Seagulls"
+    ],
+    "Alphaville",
+    "Kraftwerk",
+    "Dead or Alive",
+    "Limahl",
+    "Naked Eyes",
+    "Yello",
+    "Thomas Dolby",
+    [
+     "The Associates",
+     "Associates"
+    ],
+    "Classix Nouveaux",
+    "Modern Romance",
+    "Propaganda",
+    "Men Without Hats",
+    [
+     "Art of Noise",
+     "The Art of Noise"
+    ],
+    "Marc Almond",
+    "Fiction Factory",
+    "Landscape",
+    "The Assembly",
+    "Re-Flex",
+    "Freur",
+    "Real Life",
+    "Berlin",
+    "Animotion",
+    "Wang Chung",
+    "Icehouse",
+    "Camouflage",
+    "Blue Zoo",
+    "Fashion"
+   ]
+  },
+  {
+   "id": "e80-stock-aitken-waterman-acts",
+   "tags": [
+    "80s",
+    "90s",
+    "pop"
+   ],
+   "text": "Name an act that had a single written or produced by Stock Aitken Waterman",
+   "answers": [
+    [
+     "Kylie Minogue",
+     "Kylie"
+    ],
+    "Rick Astley",
+    "Jason Donovan",
+    "Bananarama",
+    "Dead or Alive",
+    "Mel & Kim",
+    "Sinitta",
+    "Sonia",
+    "Donna Summer",
+    "Samantha Fox",
+    "Hazell Dean",
+    "Cliff Richard",
+    "Big Fun",
+    "Brother Beyond",
+    "Mandy Smith",
+    "Divine",
+    "Princess",
+    "Lonnie Gordon",
+    [
+     "Pat and Mick",
+     "Pat & Mick"
+    ],
+    [
+     "The Reynolds Girls",
+     "Reynolds Girls"
+    ],
+    "Carol Hitchcock",
+    "Ferry Aid",
+    "Band Aid II",
+    "Brilliant",
+    [
+     "Stock Aitken Waterman",
+     "SAW"
+    ]
+   ]
+  },
+  {
+   "id": "e80-hair-metal-bands",
+   "tags": [
+    "80s",
+    "metal",
+    "rock"
+   ],
+   "text": "Name an 80s glam metal (or 'hair metal') band",
+   "answers": [
+    "Bon Jovi",
+    "Def Leppard",
+    [
+     "Mötley Crüe",
+     "Motley Crue"
+    ],
+    "Poison",
+    "Whitesnake",
+    [
+     "Guns N' Roses",
+     "Guns and Roses"
+    ],
+    "Europe",
+    "Van Halen",
+    "Twisted Sister",
+    "Skid Row",
+    "Kiss",
+    "Warrant",
+    "Cinderella",
+    "Ratt",
+    "Quiet Riot",
+    "Winger",
+    "Extreme",
+    "Great White",
+    "Dokken",
+    [
+     "W.A.S.P.",
+     "WASP"
+    ],
+    [
+     "L.A. Guns",
+     "LA Guns"
+    ],
+    "Faster Pussycat",
+    "White Lion",
+    "Tesla",
+    "Stryper",
+    "Hanoi Rocks",
+    "Britny Fox",
+    "Night Ranger",
+    "Kix",
+    "Autograph",
+    "Vixen",
+    "Mr. Big",
+    "Danger Danger",
+    "Enuff Z'Nuff",
+    "Bulletboys",
+    "Keel",
+    "Black 'n Blue",
+    "Y&T",
+    "Helix",
+    "Tigertailz",
+    "Pretty Boy Floyd",
+    "Lillian Axe",
+    "Bang Tango",
+    "Junkyard",
+    "Vinnie Vincent Invasion",
+    "XYZ"
+   ]
+  },
+  {
+   "id": "e80-duos",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a duo (a two-person act) that had a hit in the 1980s",
+   "answers": [
+    "Wham!",
+    "Eurythmics",
+    "Pet Shop Boys",
+    "Tears for Fears",
+    "Soft Cell",
+    "Yazoo",
+    "Erasure",
+    "Hall & Oates",
+    "Roxette",
+    [
+     "The Proclaimers",
+     "Proclaimers"
+    ],
+    "Mel & Kim",
+    "Pepsi & Shirlie",
+    "Chas & Dave",
+    [
+     "The Communards",
+     "Communards"
+    ],
+    "Everything but the Girl",
+    "Milli Vanilli",
+    "Godley & Creme",
+    "Go West",
+    "Hue and Cry",
+    "Climie Fisher",
+    "Blancmange",
+    "Modern Talking",
+    "Yello",
+    [
+     "The Associates",
+     "Associates"
+    ],
+    "Dollar",
+    "Black Lace",
+    "Air Supply",
+    "Jon & Vangelis",
+    "Strawberry Switchblade",
+    "Shakespears Sister",
+    "Was (Not Was)",
+    "Nu Shooz",
+    "Timbuk 3",
+    "DJ Jazzy Jeff & the Fresh Prince",
+    "Eric B. & Rakim",
+    "Coldcut",
+    "Wee Papa Girl Rappers",
+    [
+     "Renée and Renato",
+     "Renee and Renato"
+    ]
+   ]
+  },
+  {
+   "id": "e80-girls-name-songs",
+   "tags": [
+    "80s",
+    "pop",
+    "rock"
+   ],
+   "text": "Name a song released in the 1980s with a girl's name in the title",
+   "answers": [
+    "Come On Eileen",
+    "Billie Jean",
+    "Gloria",
+    "Rosanna",
+    "Jessie's Girl",
+    "Kayleigh",
+    "Louise",
+    "Joanna",
+    "Bette Davis Eyes",
+    "Carrie",
+    "Nikita",
+    "Valerie",
+    "Veronica",
+    [
+     "867-5309/Jenny",
+     "Jenny",
+     "867-5309"
+    ],
+    "Dear Jessie",
+    "Julia",
+    "Josephine",
+    "Mary's Prayer",
+    "Sara",
+    "Jeanny",
+    "Amanda",
+    "Pamela",
+    "Martha's Harbour",
+    "Dear Prudence",
+    "Christine",
+    "Charlotte Sometimes",
+    "Lorraine",
+    "Sally Cinnamon",
+    "Elizabeth My Dear",
+    "Romeo and Juliet",
+    "Janie's Got a Gun",
+    "Annie I'm Not Your Daddy",
+    "Jennifer She Said",
+    "Marlene on the Wall",
+    "Sally MacLennane",
+    "Marguerita Time",
+    "Maria Magdalena",
+    "Rosie",
+    "Susanna",
+    "Lucretia My Reflection",
+    "Julie Ocean",
+    "Ana Ng"
+   ]
+  },
+  {
+   "id": "e80-colour-songs",
+   "tags": [
+    "80s",
+    "pop",
+    "rock"
+   ],
+   "text": "Name a song released in the 1980s with a colour in the title (gold and silver count)",
+   "answers": [
+    "Purple Rain",
+    "Red Red Wine",
+    [
+     "The Lady in Red",
+     "Lady in Red"
+    ],
+    "Blue Monday",
+    "Golden Brown",
+    "99 Red Balloons",
+    "True Blue",
+    "Back in Black",
+    "Little Red Corvette",
+    "White Wedding",
+    "Fade to Grey",
+    "Gold",
+    "Blue Jean",
+    "Green Door",
+    "Black Velvet",
+    "Pink Cadillac",
+    "Grey Day",
+    "Orange Crush",
+    "Black Celebration",
+    "Blue Eyes",
+    "Red Rain",
+    "Black Coffee in Bed",
+    [
+     "White Lines (Don't Don't Do It)",
+     "White Lines"
+    ],
+    "Electric Blue",
+    "Red Sky",
+    "Pretty in Pink",
+    "Pink Houses",
+    "Silver Dream Machine",
+    "Yellow Pearl",
+    "Blue Hat for a Blue Day",
+    "Black Man Ray",
+    "Red Guitar",
+    "Red Skies"
+   ]
+  },
+  {
+   "id": "e80-film-songs",
+   "tags": [
+    "80s",
+    "pop",
+    "rock"
+   ],
+   "text": "Name a song written or recorded for a 1980s film",
+   "answers": [
+    [
+     "(I've Had) The Time of My Life",
+     "The Time of My Life",
+     "Time of My Life"
+    ],
+    "Eye of the Tiger",
+    "Ghostbusters",
+    "Footloose",
+    "Take My Breath Away",
+    [
+     "Flashdance... What a Feeling",
+     "What a Feeling",
+     "Flashdance"
+    ],
+    "Fame",
+    "The Power of Love",
+    "Danger Zone",
+    [
+     "Don't You (Forget About Me)",
+     "Don't You Forget About Me"
+    ],
+    "Up Where We Belong",
+    "Holding Out for a Hero",
+    "Purple Rain",
+    [
+     "The NeverEnding Story",
+     "Never Ending Story"
+    ],
+    "Axel F",
+    "I Just Called to Say I Love You",
+    [
+     "Against All Odds (Take a Look at Me Now)",
+     "Against All Odds"
+    ],
+    "Hungry Eyes",
+    "She's Like the Wind",
+    "Let's Hear It for the Boy",
+    "Nothing's Gonna Stop Us Now",
+    [
+     "St. Elmo's Fire (Man in Motion)",
+     "St Elmo's Fire",
+     "Man in Motion"
+    ],
+    "A View to a Kill",
+    "The Living Daylights",
+    "For Your Eyes Only",
+    "Flash",
+    "Who Wants to Live Forever",
+    "A Kind of Magic",
+    "Burning Heart",
+    "Living in America",
+    "Together in Electric Dreams",
+    [
+     "We Don't Need Another Hero (Thunderdome)",
+     "We Don't Need Another Hero"
+    ],
+    "Separate Lives",
+    "Say You, Say Me",
+    [
+     "Arthur's Theme (Best That You Can Do)",
+     "Arthur's Theme"
+    ],
+    "Endless Love",
+    "Glory of Love",
+    "Batdance",
+    "When Doves Cry",
+    "Let's Go Crazy",
+    "Crazy for You",
+    "Into the Groove",
+    "Who's That Girl",
+    "Live to Tell",
+    "Absolute Beginners",
+    "Underground",
+    "Magic Dance",
+    "Two Hearts",
+    [
+     "A Groovy Kind of Love",
+     "Groovy Kind of Love"
+    ],
+    "Kokomo",
+    "Let the River Run",
+    [
+     "9 to 5",
+     "Nine to Five"
+    ],
+    "Xanadu",
+    "Magic",
+    "Out Here on My Own",
+    "Maniac",
+    "The Heat Is On",
+    "Weird Science",
+    "If You Leave",
+    [
+     "When the Going Gets Tough, the Tough Get Going",
+     "When the Going Gets Tough"
+    ],
+    "Shakedown",
+    "Somewhere Out There",
+    "Under the Sea",
+    "Part of Your World",
+    "Kiss the Girl",
+    "It Might Be You",
+    "All Time High",
+    "Licence to Kill",
+    "Almost Paradise",
+    "One of the Living",
+    "Back in Time",
+    "Partyman",
+    "Princes of the Universe",
+    "Hello Again",
+    "Love on the Rocks",
+    "Mighty Wings",
+    "Cry Little Sister"
+   ]
+  },
+  {
+   "id": "e80-christmas-songs",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a Christmas song first released in the 1980s (not a cover of an older song)",
+   "answers": [
+    "Last Christmas",
+    "Do They Know It's Christmas?",
+    "Fairytale of New York",
+    "Driving Home for Christmas",
+    "Merry Christmas Everyone",
+    "Mistletoe and Wine",
+    "Stop the Cavalry",
+    "Thank God It's Christmas",
+    "Walking in the Air",
+    "A Winter's Tale",
+    "2000 Miles",
+    "Christmas Wrapping",
+    "The Power of Love",
+    "Christmas in Hollis",
+    "Christmas Time",
+    "Santa Claus Is on the Dole",
+    "Christmas Countdown",
+    "Hard Candy Christmas",
+    "Christmas All Over the World",
+    "Another Lonely Christmas",
+    "Christmas Is the Time to Say I Love You",
+    "One Christmas Catalogue",
+    "Christmas with the Devil"
+   ]
+  },
+  {
+   "id": "e80-power-ballads",
+   "tags": [
+    "80s",
+    "rock"
+   ],
+   "text": "Name an 80s power ballad",
+   "answers": [
+    "Total Eclipse of the Heart",
+    "I Want to Know What Love Is",
+    "Alone",
+    "Is This Love",
+    "The Power of Love",
+    "Every Rose Has Its Thorn",
+    "Home Sweet Home",
+    "Heaven",
+    "Love Bites",
+    "Carrie",
+    "Faithfully",
+    "Open Arms",
+    "Waiting for a Girl Like You",
+    "Keep On Loving You",
+    "Can't Fight This Feeling",
+    "Hard to Say I'm Sorry",
+    "You're the Inspiration",
+    "Still Loving You",
+    "Who Wants to Live Forever",
+    "Listen to Your Heart",
+    "Eternal Flame",
+    "Missing You",
+    "Never Say Goodbye",
+    "I'll Be There for You",
+    "Wanted Dead or Alive",
+    [
+     "Don't Know What You Got (Till It's Gone)",
+     "Don't Know What You Got"
+    ],
+    "I Remember You",
+    "18 and Life",
+    "Patience",
+    "What About Love",
+    "These Dreams",
+    "Right Here Waiting",
+    "Hold On to the Nights",
+    "When I See You Smile",
+    "Glory of Love",
+    "The Search Is Over",
+    "Making Love Out of Nothing at All",
+    "All Out of Love",
+    "Look Away",
+    "When It's Love",
+    "Love Walks In",
+    "Angel",
+    "The Flame",
+    "I Don't Want to Live Without You",
+    "When the Children Cry",
+    "Love Song",
+    "Close My Eyes Forever",
+    "Never Tear Us Apart",
+    "We Belong",
+    "Don't Close Your Eyes",
+    [
+     "The Ballad of Jayne",
+     "Ballad of Jayne"
+    ]
+   ]
+  },
+  {
+   "id": "e80-number-songs",
+   "tags": [
+    "80s",
+    "pop",
+    "rock"
+   ],
+   "text": "Name a song released in the 1980s with a number in the title (in words or digits)",
+   "answers": [
+    [
+     "99 Red Balloons",
+     "99 Luftballons"
+    ],
+    "19",
+    "1999",
+    [
+     "9 to 5",
+     "Nine to Five",
+     "Morning Train"
+    ],
+    "Summer of '69",
+    "Two Tribes",
+    "One Night in Bangkok",
+    "One Moment in Time",
+    "One Vision",
+    "One",
+    "One More Night",
+    "One More Try",
+    "Two Hearts",
+    "Seven Wonders",
+    [
+     "2 Minutes to Midnight",
+     "Two Minutes to Midnight"
+    ],
+    [
+     "867-5309/Jenny",
+     "867-5309"
+    ],
+    "2000 Miles",
+    "1-2-3",
+    "One Day in Your Life",
+    "One Day I'll Fly Away",
+    "Two of Hearts",
+    "One of Us",
+    "One in Ten",
+    "Love Plus One",
+    "18 and Life",
+    "Seventeen",
+    "Two Hearts Beat as One",
+    "One Thing Leads to Another",
+    "Four Letter Word",
+    "Five Get Over Excited",
+    "Seven Seas",
+    "Seven Tears",
+    "Two People",
+    "One Hundred Ways",
+    [
+     "Two Pints of Lager and a Packet of Crisps Please",
+     "Two Pints of Lager"
+    ]
+   ]
+  },
+  {
+   "id": "e80-wham-songs",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a song by Wham!",
+   "answers": [
+    [
+     "Wake Me Up Before You Go-Go",
+     "Wake Me Up Before You Go Go"
+    ],
+    "Last Christmas",
+    "Club Tropicana",
+    "Freedom",
+    "I'm Your Man",
+    [
+     "The Edge of Heaven",
+     "Edge of Heaven"
+    ],
+    [
+     "Young Guns (Go for It!)",
+     "Young Guns"
+    ],
+    "Everything She Wants",
+    "Careless Whisper",
+    [
+     "Wham Rap! (Enjoy What You Do)",
+     "Wham Rap"
+    ],
+    "Bad Boys",
+    "Where Did Your Heart Go?",
+    "Club Fantastic Megamix",
+    "Heartbeat",
+    "Like a Baby",
+    "If You Were There",
+    "Credit Card Baby",
+    "Love Machine",
+    [
+     "A Ray of Sunshine",
+     "Ray of Sunshine"
+    ],
+    "Nothing Looks the Same in the Light",
+    "Come On!",
+    "Battlestations",
+    [
+     "Blue (Armed with Love)",
+     "Blue"
+    ]
+   ]
+  },
+  {
+   "id": "e80-culture-club-songs",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a song by Culture Club",
+   "answers": [
+    "Karma Chameleon",
+    "Do You Really Want to Hurt Me",
+    "Church of the Poison Mind",
+    [
+     "Time (Clock of the Heart)",
+     "Time"
+    ],
+    "Victims",
+    "It's a Miracle",
+    "Miss Me Blind",
+    "I'll Tumble 4 Ya",
+    [
+     "The War Song",
+     "War Song"
+    ],
+    "Move Away",
+    [
+     "The Medal Song",
+     "Medal Song"
+    ],
+    "God Thank You Woman",
+    "Love Is Love",
+    "I Just Wanna Be Loved",
+    "Your Kisses Are Charity",
+    "White Boy",
+    "Black Money",
+    "Mister Man",
+    "Changing Every Day",
+    "That's the Way (I'm Only Trying to Help You)",
+    "Stormkeeper",
+    "Mistake No. 3",
+    "Dangerous Man",
+    "Unfortunate Thing",
+    "Crime Time",
+    "The Dive",
+    "Mannequin",
+    "Don't Talk About It",
+    "Hello Goodbye",
+    "You Know I'm Not Crazy",
+    "Take Control",
+    "Love Twist",
+    "Boy Boy (I'm the Boy)",
+    "I'm Afraid of Me",
+    "White Boys Can't Control It",
+    "I Pray",
+    "Work on Me Baby",
+    "Gusto Blusto",
+    "Heaven's Children",
+    "Reasons",
+    "Too Bad",
+    "Let Somebody Love You",
+    "Life"
+   ]
+  },
+  {
+   "id": "e80-bananarama-songs",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a song by Bananarama",
+   "answers": [
+    "Venus",
+    [
+     "Robert De Niro's Waiting...",
+     "Robert De Niro's Waiting"
+    ],
+    "Cruel Summer",
+    "Love in the First Degree",
+    "Really Saying Something",
+    "Shy Boy",
+    [
+     "Na Na Hey Hey Kiss Him Goodbye",
+     "Na Na Hey Hey"
+    ],
+    "I Heard a Rumour",
+    "Nathan Jones",
+    "I Want You Back",
+    [
+     "It Ain't What You Do (It's the Way That You Do It)",
+     "It Ain't What You Do"
+    ],
+    "Help!",
+    "Rough Justice",
+    "Aie a Mwana",
+    "Cheers Then",
+    "Hotline to Heaven",
+    "Do Not Disturb",
+    "More Than Physical",
+    [
+     "A Trick of the Night",
+     "Trick of the Night"
+    ],
+    "I Can't Help It",
+    "Love, Truth and Honesty",
+    "Only Your Love",
+    "Preacher Man",
+    "Long Train Running",
+    "Movin' On",
+    "Last Thing on My Mind",
+    "More, More, More",
+    "Move in My Direction",
+    [
+     "Look on the Floor (Hypnotic Tango)",
+     "Look on the Floor"
+    ],
+    "The Wild Life"
+   ]
+  },
+  {
+   "id": "e80-simple-minds-songs",
+   "tags": [
+    "80s",
+    "rock"
+   ],
+   "text": "Name a song by Simple Minds",
+   "answers": [
+    [
+     "Don't You (Forget About Me)",
+     "Don't You Forget About Me"
+    ],
+    "Alive and Kicking",
+    "Belfast Child",
+    "Promised You a Miracle",
+    "Waterfront",
+    "Glittering Prize",
+    "Sanctify Yourself",
+    "All the Things She Said",
+    "Mandela Day",
+    "Someone Somewhere in Summertime",
+    "Speed Your Love to Me",
+    "Up on the Catwalk",
+    [
+     "Ghostdancing",
+     "Ghost Dancing"
+    ],
+    "Kick It In",
+    "Let There Be Love",
+    "See the Lights",
+    "She's a River",
+    "Hypnotised",
+    "Stand by Love",
+    "Real Life",
+    "Love Song",
+    "Life in a Day",
+    "Chelsea Girl",
+    "I Travel",
+    "The American",
+    "Sweat in Bullet",
+    "Celebrate",
+    [
+     "New Gold Dream (81-82-83-84)",
+     "New Gold Dream"
+    ],
+    "Theme for Great Cities",
+    "Once Upon a Time",
+    "Oh Jungleland",
+    "This Is Your Land",
+    "Biko",
+    "Book of Brilliant Things",
+    "East at Easter",
+    "Street Fighting Years",
+    "Big Sleep",
+    "Somebody Up There Likes You",
+    "Glitterball",
+    "War Babies",
+    "Home",
+    "Hunter and the Hunted",
+    "Colours Fly and Catherine Wheel",
+    "Seeing Out the Angel",
+    "Magic",
+    "Vision Thing"
+   ]
+  },
+  {
+   "id": "e80-human-league-songs",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a song by The Human League",
+   "answers": [
+    "Don't You Want Me",
+    "Mirror Man",
+    [
+     "(Keep Feeling) Fascination",
+     "Fascination",
+     "Keep Feeling Fascination"
+    ],
+    [
+     "Love Action (I Believe in Love)",
+     "Love Action"
+    ],
+    "Open Your Heart",
+    "Human",
+    "Louise",
+    [
+     "The Lebanon",
+     "Lebanon"
+    ],
+    "Tell Me When",
+    "Being Boiled",
+    [
+     "The Sound of the Crowd",
+     "Sound of the Crowd"
+    ],
+    "Life on Your Own",
+    "Empire State Human",
+    "Seconds",
+    "Love Is All That Matters",
+    "I Need Your Loving",
+    "Heart Like a Wheel",
+    "One Man in My Heart",
+    "Stay with Me Tonight",
+    "Filling Up with Heaven",
+    "Don't You Know I Want You",
+    "Soundtrack to a Generation",
+    "Things That Dreams Are Made Of",
+    "Darkness",
+    "Do or Die",
+    "I Am the Law",
+    "Get Carter",
+    "Hard Times",
+    "Circus of Death",
+    "Night People",
+    "Never Let Me Go",
+    "Only After Dark",
+    "Boys and Girls"
+   ]
+  },
+  {
+   "id": "e80-dire-straits-songs",
+   "tags": [
+    "80s",
+    "rock",
+    "70s"
+   ],
+   "text": "Name a song by Dire Straits",
+   "answers": [
+    "Money for Nothing",
+    "Sultans of Swing",
+    "Walk of Life",
+    "Romeo and Juliet",
+    "Brothers in Arms",
+    "Private Investigations",
+    "So Far Away",
+    "Tunnel of Love",
+    "Calling Elvis",
+    "Your Latest Trick",
+    "Twisting by the Pool",
+    "Lady Writer",
+    "Telegraph Road",
+    "Down to the Waterline",
+    "Water of Love",
+    "Skateaway",
+    "Industrial Disease",
+    "Heavy Fuel",
+    "Expresso Love",
+    "Why Worry",
+    "Ride Across the River",
+    "The Man's Too Strong",
+    "One World",
+    "Wild West End",
+    "Setting Me Up",
+    "Six Blade Knife",
+    "Southbound Again",
+    "In the Gallery",
+    "Once Upon a Time in the West",
+    "News",
+    "Where Do You Think You're Going?",
+    [
+     "Communiqué",
+     "Communique"
+    ],
+    "Angel of Mercy",
+    "Portobello Belle",
+    "Single-Handed Sailor",
+    "Follow Me Home",
+    "Hand in Hand",
+    "Solid Rock",
+    "Les Boys",
+    "Love over Gold",
+    "It Never Rains",
+    "On Every Street",
+    "The Bug",
+    "You and Your Friend",
+    "Fade to Black",
+    "Ticket to Heaven",
+    "My Parties",
+    "Planet of New Orleans",
+    "Iron Hand",
+    "When It Comes to You",
+    "Badges, Posters, Stickers and T-Shirts",
+    "Two Young Lovers"
+   ]
+  },
+  {
+   "id": "e80-tears-for-fears-songs",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a song by Tears for Fears",
+   "answers": [
+    "Everybody Wants to Rule the World",
+    "Shout",
+    "Mad World",
+    "Head over Heels",
+    "Sowing the Seeds of Love",
+    "Pale Shelter",
+    "Change",
+    "Woman in Chains",
+    "Mothers Talk",
+    "I Believe",
+    "Advice for the Young at Heart",
+    "Break It Down Again",
+    [
+     "Laid So Low (Tears Roll Down)",
+     "Laid So Low",
+     "Tears Roll Down"
+    ],
+    "Suffer the Children",
+    "Memories Fade",
+    "The Hurting",
+    "Ideas as Opiates",
+    "Start of the Breakdown",
+    "Watch Me Bleed",
+    "The Prisoner",
+    "Broken",
+    "Listen",
+    "The Working Hour",
+    "Badman's Song",
+    "Famous Last Words",
+    "Swords and Knives",
+    "Year of the Knife",
+    "Standing on the Corner of the Third World",
+    "Elemental",
+    "Goodnight Song",
+    "Cold",
+    "Raoul and the Kings of Spain",
+    "Closest Thing to Heaven",
+    "Everybody Loves a Happy Ending",
+    [
+     "The Tipping Point",
+     "Tipping Point"
+    ],
+    "Break the Man",
+    "No Small Thing",
+    "My Demons",
+    "Rivers of Mercy",
+    "Pharaohs"
+   ]
+  },
+  {
+   "id": "e80-erasure-songs",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a song by Erasure",
+   "answers": [
+    [
+     "A Little Respect",
+     "Little Respect"
+    ],
+    "Sometimes",
+    "Stop!",
+    "Always",
+    "Oh L'amour",
+    "Chains of Love",
+    "Who Needs Love Like That",
+    "Victim of Love",
+    "Ship of Fools",
+    "Drama!",
+    "Blue Savannah",
+    "Star",
+    "Love to Hate You",
+    "Breath of Life",
+    "Take a Chance on Me",
+    "Lay All Your Love on Me",
+    "Run to the Sun",
+    "I Love Saturday",
+    "Stay with Me",
+    [
+     "Fingers & Thumbs (Cold Summer's Day)",
+     "Fingers and Thumbs"
+    ],
+    "In My Arms",
+    "Don't Say Your Love Is Killing Me",
+    "Rain",
+    "Freedom",
+    "Solsbury Hill",
+    [
+     "Make Me Smile (Come Up and See Me)",
+     "Make Me Smile"
+    ],
+    "Breathe",
+    "Here I Go Impossible Again",
+    "Heavenly Action",
+    "Hideaway",
+    "The Circus",
+    "It Doesn't Have to Be",
+    "Moon & the Sky",
+    "I Could Fall in Love with You"
+   ]
+  },
+  {
+   "id": "e80-cyndi-lauper-songs",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a song by Cyndi Lauper",
+   "answers": [
+    "Girls Just Want to Have Fun",
+    "Time After Time",
+    [
+     "True Colors",
+     "True Colours"
+    ],
+    "She Bop",
+    "All Through the Night",
+    "Money Changes Everything",
+    [
+     "The Goonies 'R' Good Enough",
+     "Goonies R Good Enough"
+    ],
+    "Change of Heart",
+    "What's Going On",
+    "I Drove All Night",
+    [
+     "Hey Now (Girls Just Want to Have Fun)",
+     "Hey Now"
+    ],
+    "When You Were Mine",
+    "Witness",
+    "I'm Gonna Be Strong",
+    "Yeah Yeah",
+    "He's So Unusual",
+    "Boy Blue",
+    "Maybe He'll Know",
+    "Calm Inside the Storm",
+    "Iko Iko",
+    "Heading West",
+    "My First Night Without You",
+    "The World Is Stone",
+    "Who Let In the Rain",
+    "Hat Full of Stars",
+    "Sally's Pigeons",
+    "That's What I Think",
+    "Unhook the Stars",
+    "Sisters of Avalon",
+    "You Don't Know",
+    "Shine",
+    "Into the Nightlife",
+    "Same Ol' Story",
+    [
+     "Hole in My Heart (All the Way to China)",
+     "Hole in My Heart"
+    ],
+    "Just Your Fool",
+    "Funnel of Love"
+   ]
+  },
+  {
+   "id": "e80-a-ha-songs",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a song by A-ha",
+   "answers": [
+    "Take On Me",
+    [
+     "The Sun Always Shines on T.V.",
+     "The Sun Always Shines on TV"
+    ],
+    "Hunting High and Low",
+    "The Living Daylights",
+    "Cry Wolf",
+    "Stay on These Roads",
+    "I've Been Losing You",
+    "Train of Thought",
+    "Manhattan Skyline",
+    "Touchy!",
+    "You Are the One",
+    "Crying in the Rain",
+    "The Blood That Moves the Body",
+    [
+     "Analogue (All I Want)",
+     "Analogue"
+    ],
+    "Summer Moved On",
+    "Forever Not Yours",
+    "Minor Earth Major Sky",
+    "Velvet",
+    "Lifelines",
+    "Foot of the Mountain",
+    "Celice",
+    "Cosy Prisons",
+    [
+     "Butterfly, Butterfly (The Last Hurrah)",
+     "Butterfly Butterfly"
+    ],
+    "Move to Memphis",
+    [
+     "Dark Is the Night for All",
+     "Dark Is the Night"
+    ],
+    "Shapes That Go Together",
+    "Scoundrel Days",
+    "Love Is Reason",
+    "Here I Stand and Face the Rain",
+    "Living a Boy's Adventure Tale",
+    [
+     "I Dream Myself Alive",
+     "Dream Myself Alive"
+    ],
+    "The Blue Sky",
+    "And You Tell Me",
+    "Driftwood",
+    "Maybe, Maybe",
+    "Swing of Things",
+    "Out of Blue Comes Green",
+    "There's Never a Forever Thing",
+    "Slender Frame",
+    "Sycamore Leaves",
+    "East of the Sun",
+    "Early Morning",
+    "Angel in the Snow",
+    "Waiting for Her",
+    "Soft Rains of April",
+    "I Call Your Name"
+   ]
+  },
+  {
+   "id": "e80-rick-astley-songs",
+   "tags": [
+    "80s",
+    "pop"
+   ],
+   "text": "Name a song by Rick Astley",
+   "answers": [
+    "Never Gonna Give You Up",
+    "Together Forever",
+    "Whenever You Need Somebody",
+    "Cry for Help",
+    "She Wants to Dance with Me",
+    "Take Me to Your Heart",
+    "When I Fall in Love",
+    "Hold Me in Your Arms",
+    "It Would Take a Strong Strong Man",
+    "Keep Singing",
+    "Angels on My Side",
+    "Beautiful Life",
+    "Giving Up on Love",
+    "Ain't Too Proud to Beg",
+    "Move Right Out",
+    "Hopelessly",
+    "The Ones You Love",
+    "Lights Out",
+    "Don't Say Goodbye",
+    "Slipping Away",
+    "The Love Has Gone",
+    "No More Looking for Love",
+    "You Move Me",
+    [
+     "Till Then (Time Stands Still)",
+     "Till Then"
+    ],
+    "Dial My Number",
+    "I'll Never Let You Down",
+    "I Don't Want to Lose Her"
+   ]
+  },
+  {
+   "id": "e80-tina-turner-80s-songs",
+   "tags": [
+    "80s",
+    "pop",
+    "rock"
+   ],
+   "text": "Name a Tina Turner song released in the 1980s (solo or duet)",
+   "answers": [
+    [
+     "The Best",
+     "Simply the Best"
+    ],
+    "What's Love Got to Do with It",
+    "Private Dancer",
+    [
+     "We Don't Need Another Hero (Thunderdome)",
+     "We Don't Need Another Hero"
+    ],
+    "Let's Stay Together",
+    "Better Be Good to Me",
+    "Typical Male",
+    "Steamy Windows",
+    "I Don't Wanna Lose You",
+    "It's Only Love",
+    "Tonight",
+    "Two People",
+    "What You Get Is What You See",
+    "Show Some Respect",
+    "Help!",
+    "One of the Living",
+    "I Can't Stand the Rain",
+    "Ball of Confusion",
+    "Tearing Us Apart",
+    "Break Every Rule",
+    "Back Where You Started",
+    "Paradise Is Here",
+    "Afterglow",
+    "Girls",
+    "Overnight Sensation",
+    "Till the Right Man Comes Along",
+    "Look Me in the Heart",
+    "Foreign Affair",
+    "Undercover Agent for the Blues",
+    "Ask Me How I Feel",
+    "Falling Like Rain",
+    "Be Tender with Me Baby",
+    "You Can't Stop Me Loving You",
+    "Not Enough Romance",
+    [
+     "You Know Who (Is Doing Something Nice)",
+     "You Know Who"
+    ],
+    "I Might Have Been Queen",
+    "Steel Claw",
+    "1984"
+   ]
+  }
+ ]
+}

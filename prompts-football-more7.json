@@ -1,0 +1,1197 @@
+{
+ "cat": "football",
+ "prompts": [
+  {
+   "id": "fb7-pl-efl-club-nicknames",
+   "tags": [
+    "pl",
+    "efl"
+   ],
+   "text": "Name the nickname of a club that played in the Premier League or EFL in 2024-25",
+   "answers": [
+    [
+     "Gunners",
+     "gooners"
+    ],
+    "Red Devils",
+    [
+     "Toffees",
+     "toffeemen"
+    ],
+    "Magpies",
+    "Hammers",
+    "Saints",
+    "Foxes",
+    [
+     "Seagulls",
+     "gulls"
+    ],
+    "Canaries",
+    "Tractor Boys",
+    "Black Cats",
+    "Baggies",
+    "Owls",
+    "Blades",
+    [
+     "Villans",
+     "villains"
+    ],
+    "Cherries",
+    "Bees",
+    "Eagles",
+    "Cottagers",
+    "Hornets",
+    "Potters",
+    "Rams",
+    "Wolves",
+    "Spurs",
+    "Reds",
+    "Blues",
+    "Sky Blues",
+    [
+     "Citizens",
+     "cityzens"
+    ],
+    [
+     "Toon",
+     "toon army"
+    ],
+    "Lilywhites",
+    "Clarets",
+    "Swans",
+    "Bluebirds",
+    "Tigers",
+    "Robins",
+    "Hatters",
+    "Royals",
+    "Pompey",
+    "Lions",
+    "Posh",
+    "Addicks",
+    "Trotters",
+    "Terriers",
+    "Tykes",
+    "Latics",
+    "Valiants",
+    "Pilgrims",
+    "Gills",
+    "Seasiders",
+    "Tangerines",
+    "Whites",
+    "Hoops",
+    "Irons",
+    "Boro",
+    "Imps",
+    "Shrimps",
+    "Mariners",
+    "Bantams",
+    "Saddlers",
+    "Stags",
+    "Cobblers",
+    "Millers",
+    "Grecians",
+    "Dons",
+    "Wombles",
+    "Chairboys",
+    "Brewers",
+    "Spireites",
+    "Gas",
+    "Pirates",
+    "Red Dragons",
+    "U's",
+    "O's",
+    "Yellows",
+    "Railwaymen",
+    "Cod Army",
+    "Exiles",
+    "Cumbrians",
+    "Shrews",
+    "Ammies",
+    "Jacks",
+    "Throstles",
+    "Peacocks",
+    "Tricky Trees",
+    "Glaziers",
+    "Riversiders",
+    "Sulphurites",
+    "Ravens",
+    "Pensioners"
+   ]
+  },
+  {
+   "id": "fb7-spfl-club-nicknames",
+   "tags": [
+    "scotland"
+   ],
+   "text": "Name the nickname of a club that played in the SPFL (Premiership to League Two) in 2024-25",
+   "answers": [
+    "Gers",
+    "Bhoys",
+    "Hoops",
+    "Dons",
+    [
+     "Jambos",
+     "jam tarts"
+    ],
+    [
+     "Hibees",
+     "hibbies"
+    ],
+    "Arabs",
+    "Terrors",
+    "Dark Blues",
+    "Killie",
+    "Well",
+    "Saints",
+    "Buddies",
+    "Staggies",
+    "Steelmen",
+    "Teddy Bears",
+    "Light Blues",
+    "Celts",
+    "Dee",
+    "Pars",
+    "Bairns",
+    "Accies",
+    "Honest Men",
+    "Jags",
+    [
+     "Caley Jags",
+     "caley thistle",
+     "caley"
+    ],
+    "Spiders",
+    "Ton",
+    "Diamonds",
+    [
+     "Livi",
+     "livvy"
+    ],
+    [
+     "Doonhamers",
+     "queens"
+    ],
+    "Red Lichties",
+    "Gable Endies",
+    "Sons",
+    "Bully Wee",
+    "Blue Toon",
+    "Loons",
+    "Fifers",
+    "Binos",
+    "Wasps",
+    "Warriors",
+    "Galabankies",
+    "Black and Whites",
+    "Citizens",
+    "Rose",
+    "Tangerines",
+    "Reds",
+    "Blues",
+    "Lions"
+   ]
+  },
+  {
+   "id": "fb7-european-cup-semi-finalists-1970-1989",
+   "tags": [
+    "ucl",
+    "70s",
+    "80s"
+   ],
+   "text": "Name a club that reached the European Cup semi-finals from 1970 to 1989 (by year of the final)",
+   "answers": [
+    "Liverpool",
+    "Bayern Munich",
+    "Real Madrid",
+    "Ajax",
+    "Nottingham Forest",
+    "Aston Villa",
+    "Celtic",
+    "Leeds United",
+    "Juventus",
+    "Barcelona",
+    "AC Milan",
+    "Inter Milan",
+    "Benfica",
+    "Porto",
+    "Derby County",
+    "Dundee United",
+    "Hamburg",
+    "Borussia Mönchengladbach",
+    "PSV Eindhoven",
+    "Atlético Madrid",
+    "Steaua Bucharest",
+    "Red Star Belgrade",
+    "Feyenoord",
+    "Roma",
+    "Anderlecht",
+    [
+     "Saint-Étienne",
+     "st etienne"
+    ],
+    [
+     "Club Brugge",
+     "bruges",
+     "brugge"
+    ],
+    "Galatasaray",
+    "Panathinaikos",
+    [
+     "Dynamo Kyiv",
+     "dynamo kiev"
+    ],
+    "Bordeaux",
+    [
+     "Real Sociedad",
+     "sociedad"
+    ],
+    [
+     "Köln",
+     "cologne",
+     "fc koln",
+     "1 fc koln"
+    ],
+    [
+     "Malmö",
+     "malmo ff"
+    ],
+    [
+     "IFK Göteborg",
+     "gothenburg",
+     "ifk gothenburg",
+     "goteborg"
+    ],
+    [
+     "Legia Warsaw",
+     "legia",
+     "legia warszawa"
+    ],
+    [
+     "Austria Vienna",
+     "austria wien"
+    ],
+    [
+     "Widzew Łódź",
+     "widzew",
+     "widzew lodz"
+    ],
+    "CSKA Sofia",
+    [
+     "Dinamo Bucharest",
+     "dinamo bucuresti"
+    ],
+    [
+     "Újpest",
+     "ujpest dozsa"
+    ],
+    [
+     "FC Zürich",
+     "zurich"
+    ]
+   ]
+  },
+  {
+   "id": "fb7-european-cup-semi-finalists-1956-1969",
+   "tags": [
+    "ucl",
+    "60s"
+   ],
+   "text": "Name a club that reached the European Cup semi-finals from 1956 to 1969 (by year of the final)",
+   "answers": [
+    "Real Madrid",
+    "Manchester United",
+    "Benfica",
+    "Celtic",
+    "Liverpool",
+    "Inter Milan",
+    "AC Milan",
+    "Barcelona",
+    "Ajax",
+    "Juventus",
+    "Tottenham Hotspur",
+    "Rangers",
+    "Atlético Madrid",
+    "Eintracht Frankfurt",
+    "Hibernian",
+    "Dundee",
+    "Borussia Dortmund",
+    "Hamburg",
+    "Feyenoord",
+    "Fiorentina",
+    "Red Star Belgrade",
+    [
+     "Partizan Belgrade",
+     "partizan"
+    ],
+    [
+     "Reims",
+     "stade de reims"
+    ],
+    "Young Boys",
+    [
+     "Standard Liège",
+     "standard"
+    ],
+    [
+     "Rapid Vienna",
+     "rapid wien"
+    ],
+    [
+     "FC Zürich",
+     "zurich"
+    ],
+    [
+     "Dukla Prague",
+     "dukla praha"
+    ],
+    "CSKA Sofia",
+    [
+     "Vasas",
+     "vasas budapest"
+    ],
+    [
+     "Győr",
+     "vasas eto gyor",
+     "eto gyor",
+     "raba eto"
+    ],
+    [
+     "Spartak Trnava",
+     "trnava"
+    ]
+   ]
+  },
+  {
+   "id": "fb7-ballon-dor-top-three-1956-1969",
+   "tags": [
+    "europe",
+    "60s"
+   ],
+   "text": "Name a player who finished in the top three of the Ballon d'Or voting from 1956 to 1969",
+   "answers": [
+    [
+     "George Best",
+     "best"
+    ],
+    "Bobby Charlton",
+    [
+     "Eusébio",
+     "eusebio"
+    ],
+    [
+     "Alfredo Di Stéfano",
+     "di stefano"
+    ],
+    [
+     "Ferenc Puskás",
+     "puskas"
+    ],
+    [
+     "Denis Law",
+     "law"
+    ],
+    [
+     "Stanley Matthews",
+     "matthews"
+    ],
+    [
+     "Franz Beckenbauer",
+     "beckenbauer"
+    ],
+    [
+     "Gerd Müller",
+     "muller"
+    ],
+    [
+     "Lev Yashin",
+     "yashin"
+    ],
+    [
+     "Jimmy Greaves",
+     "greaves"
+    ],
+    [
+     "Duncan Edwards",
+     "edwards"
+    ],
+    "Billy Wright",
+    "John Charles",
+    [
+     "Jimmy Johnstone",
+     "jinky"
+    ],
+    [
+     "Raymond Kopa",
+     "kopa"
+    ],
+    [
+     "Just Fontaine",
+     "fontaine"
+    ],
+    [
+     "Gianni Rivera",
+     "rivera"
+    ],
+    [
+     "Luis Suárez Miramontes",
+     "luis suarez"
+    ],
+    [
+     "Giacinto Facchetti",
+     "facchetti"
+    ],
+    [
+     "Omar Sívori",
+     "sivori"
+    ],
+    [
+     "Johnny Haynes",
+     "haynes"
+    ],
+    [
+     "Uwe Seeler",
+     "seeler"
+    ],
+    [
+     "Luigi Riva",
+     "gigi riva",
+     "riva"
+    ],
+    [
+     "Josef Masopust",
+     "masopust"
+    ],
+    [
+     "Helmut Rahn",
+     "rahn"
+    ],
+    [
+     "Karl-Heinz Schnellinger",
+     "schnellinger"
+    ],
+    [
+     "Flórián Albert",
+     "florian albert"
+    ],
+    [
+     "Amancio",
+     "amancio amaro"
+    ],
+    [
+     "Dragan Džajić",
+     "dzajic"
+    ]
+   ]
+  },
+  {
+   "id": "fb7-fa-cup-final-scorers-1960-1989",
+   "tags": [
+    "cups",
+    "60s",
+    "70s",
+    "80s"
+   ],
+   "text": "Name a player who scored in an FA Cup final or replay from 1960 to 1989 (own goals don't count)",
+   "answers": [
+    "Ricky Villa",
+    [
+     "Kevin Keegan",
+     "keegan"
+    ],
+    "Charlie George",
+    [
+     "Norman Whiteside",
+     "whiteside"
+    ],
+    [
+     "Ian Rush",
+     "rush"
+    ],
+    "Bryan Robson",
+    [
+     "Glenn Hoddle",
+     "hoddle"
+    ],
+    [
+     "Gary Lineker",
+     "lineker"
+    ],
+    [
+     "Jimmy Greaves",
+     "greaves"
+    ],
+    [
+     "Geoff Hurst",
+     "hurst"
+    ],
+    [
+     "Denis Law",
+     "law"
+    ],
+    [
+     "Peter Osgood",
+     "osgood"
+    ],
+    [
+     "Trevor Brooking",
+     "brooking"
+    ],
+    [
+     "Lawrie Sanchez",
+     "sanchez"
+    ],
+    [
+     "Bobby Stokes",
+     "stokes"
+    ],
+    [
+     "Jeff Astle",
+     "astle"
+    ],
+    [
+     "Allan Clarke",
+     "sniffer clarke"
+    ],
+    [
+     "Ian Porterfield",
+     "porterfield"
+    ],
+    [
+     "Roger Osborne",
+     "osborne"
+    ],
+    "Alan Sunderland",
+    [
+     "Keith Houchen",
+     "houchen"
+    ],
+    [
+     "Billy Bremner",
+     "bremner"
+    ],
+    "Roger Hunt",
+    [
+     "Ian St John",
+     "st john"
+    ],
+    "Jack Charlton",
+    [
+     "Danny Blanchflower",
+     "blanchflower"
+    ],
+    [
+     "Steve Heighway",
+     "heighway"
+    ],
+    "Jimmy Case",
+    [
+     "Frank Stapleton",
+     "stapleton"
+    ],
+    "Andy Gray",
+    [
+     "Graeme Sharp",
+     "sharp"
+    ],
+    "Clive Allen",
+    [
+     "John Aldridge",
+     "aldridge"
+    ],
+    [
+     "Stuart McCall",
+     "mccall"
+    ],
+    "Craig Johnston",
+    [
+     "Ray Wilkins",
+     "wilkins"
+    ],
+    "Gordon Smith",
+    [
+     "Garth Crooks",
+     "crooks"
+    ],
+    "Tommy Hutchison",
+    [
+     "Steve MacKenzie",
+     "mackenzie"
+    ],
+    [
+     "Kevin Reeves",
+     "reeves"
+    ],
+    [
+     "Terry Fenwick",
+     "fenwick"
+    ],
+    [
+     "Brian Talbot",
+     "talbot"
+    ],
+    [
+     "Gordon McQueen",
+     "mcqueen"
+    ],
+    [
+     "Sammy McIlroy",
+     "mcilroy"
+    ],
+    [
+     "Stuart Pearson",
+     "pancho pearson"
+    ],
+    "Jimmy Greenhoff",
+    "Alan Taylor",
+    "Neil Young",
+    "Mick Jones",
+    "David Webb",
+    "Ian Hutchinson",
+    [
+     "Peter Houseman",
+     "houseman"
+    ],
+    "Eddie Kelly",
+    [
+     "Bobby Tambling",
+     "tambling"
+    ],
+    "Bobby Smith",
+    [
+     "Terry Dyson",
+     "dyson"
+    ],
+    [
+     "David Herd",
+     "herd"
+    ],
+    [
+     "Ken Keyworth",
+     "keyworth"
+    ],
+    [
+     "John Sissons",
+     "johnny sissons",
+     "sissons"
+    ],
+    [
+     "Ronnie Boyce",
+     "boyce"
+    ],
+    [
+     "Mike Trebilcock",
+     "trebilcock"
+    ],
+    "Derek Temple",
+    [
+     "Jim McCalliog",
+     "mccalliog"
+    ],
+    "David Ford",
+    "Jimmy Robertson",
+    "Frank Saul",
+    "Gary Stevens",
+    [
+     "Arnold Mühren",
+     "muhren"
+    ],
+    "Dave Bennett",
+    [
+     "Gary Mabbutt",
+     "mabbutt"
+    ],
+    [
+     "Norman Deeley",
+     "deeley"
+    ],
+    "Jimmy Robson",
+    "Doug Holden",
+    "Alex Dawson"
+   ]
+  },
+  {
+   "id": "fb7-european-cup-winning-managers-1956-1992",
+   "tags": [
+    "ucl",
+    "60s",
+    "70s",
+    "80s"
+   ],
+   "text": "Name a manager who won the European Cup from 1956 to 1992 (before it became the Champions League)",
+   "answers": [
+    [
+     "Bob Paisley",
+     "paisley"
+    ],
+    [
+     "Brian Clough",
+     "clough"
+    ],
+    [
+     "Matt Busby",
+     "sir matt busby",
+     "busby"
+    ],
+    [
+     "Jock Stein",
+     "stein"
+    ],
+    [
+     "Johan Cruyff",
+     "cruyff"
+    ],
+    [
+     "Arrigo Sacchi",
+     "sacchi"
+    ],
+    [
+     "Joe Fagan",
+     "fagan"
+    ],
+    [
+     "Tony Barton",
+     "barton"
+    ],
+    [
+     "Rinus Michels",
+     "michels"
+    ],
+    [
+     "Helenio Herrera",
+     "herrera"
+    ],
+    [
+     "Béla Guttmann",
+     "guttmann"
+    ],
+    [
+     "Miguel Muñoz",
+     "munoz"
+    ],
+    [
+     "Giovanni Trapattoni",
+     "trapattoni",
+     "trap"
+    ],
+    [
+     "Guus Hiddink",
+     "hiddink"
+    ],
+    [
+     "Ernst Happel",
+     "happel"
+    ],
+    [
+     "Udo Lattek",
+     "lattek"
+    ],
+    [
+     "Nereo Rocco",
+     "rocco"
+    ],
+    [
+     "Ștefan Kovács",
+     "kovacs"
+    ],
+    [
+     "Dettmar Cramer",
+     "cramer"
+    ],
+    "Artur Jorge",
+    [
+     "Luis Carniglia",
+     "carniglia"
+    ],
+    [
+     "José Villalonga",
+     "villalonga"
+    ],
+    [
+     "Emerich Jenei",
+     "jenei"
+    ],
+    [
+     "Ljupko Petrović",
+     "petrovic"
+    ]
+   ]
+  },
+  {
+   "id": "fb7-national-team-nicknames",
+   "tags": [
+    "worldcup",
+    "euros"
+   ],
+   "text": "Name the nickname of a national football team (men's or women's)",
+   "answers": [
+    "Three Lions",
+    "Lionesses",
+    [
+     "Seleção",
+     "canarinha"
+    ],
+    [
+     "Azzurri",
+     "gli azzurri"
+    ],
+    [
+     "Les Bleus",
+     "bleus"
+    ],
+    [
+     "Oranje",
+     "orange",
+     "clockwork orange"
+    ],
+    [
+     "La Roja",
+     "roja",
+     "la furia roja",
+     "furia roja"
+    ],
+    [
+     "Die Mannschaft",
+     "mannschaft"
+    ],
+    [
+     "Albiceleste",
+     "la albiceleste"
+    ],
+    [
+     "Red Devils",
+     "diables rouges",
+     "les diables rouges"
+    ],
+    "Socceroos",
+    "Matildas",
+    "Super Eagles",
+    "Black Stars",
+    "Indomitable Lions",
+    [
+     "Elephants",
+     "les elephants"
+    ],
+    "Pharaohs",
+    [
+     "Atlas Lions",
+     "lions of the atlas"
+    ],
+    [
+     "Bafana Bafana",
+     "bafana"
+    ],
+    [
+     "Lions of Teranga",
+     "teranga lions",
+     "lions of the teranga"
+    ],
+    "Samurai Blue",
+    "Taeguk Warriors",
+    [
+     "El Tri",
+     "tri"
+    ],
+    [
+     "Vatreni",
+     "blazers"
+    ],
+    "Danish Dynamite",
+    [
+     "La Celeste",
+     "celeste"
+    ],
+    [
+     "Dragons",
+     "welsh dragons"
+    ],
+    "Boys in Green",
+    "All Whites",
+    "Reggae Boyz",
+    "Soca Warriors",
+    [
+     "Desert Foxes",
+     "fennecs",
+     "les fennecs"
+    ],
+    [
+     "Eagles of Carthage",
+     "carthage eagles"
+    ],
+    "Super Falcons",
+    [
+     "Chipolopolo",
+     "copper bullets"
+    ],
+    [
+     "Leopards",
+     "les leopards"
+    ],
+    [
+     "Los Cafeteros",
+     "cafeteros"
+    ],
+    [
+     "La Vinotinto",
+     "vinotinto"
+    ],
+    [
+     "La Albirroja",
+     "albirroja"
+    ],
+    [
+     "La Blanquirroja",
+     "blanquirroja"
+    ],
+    "La Verde",
+    "La Tri",
+    [
+     "Los Ticos",
+     "ticos"
+    ],
+    [
+     "Los Catrachos",
+     "catrachos"
+    ],
+    [
+     "Los Canaleros",
+     "canaleros"
+    ],
+    [
+     "La Selecta",
+     "selecta"
+    ],
+    "Nati",
+    "Sbornaya",
+    "Blågult",
+    [
+     "Crescent-Stars",
+     "ay yildizlilar"
+    ],
+    "Team Melli",
+    "Green Falcons",
+    "Lions of Mesopotamia",
+    "Chollima",
+    [
+     "Nadeshiko",
+     "nadeshiko japan"
+    ],
+    [
+     "Banyana Banyana",
+     "banyana"
+    ],
+    "Reggae Girlz",
+    [
+     "Football Ferns",
+     "ferns"
+    ],
+    "Steel Roses",
+    "Harambee Stars",
+    [
+     "Cranes",
+     "uganda cranes"
+    ],
+    [
+     "Eagles",
+     "les aigles",
+     "orlovi"
+    ],
+    "Warriors",
+    "Stallions",
+    "Leone Stars",
+    "Lone Star",
+    "Syli Nationale",
+    "Flames",
+    "Mediterranean Knights"
+   ]
+  },
+  {
+   "id": "fb7-named-derbies",
+   "tags": [
+    "pl",
+    "efl",
+    "scotland",
+    "europe"
+   ],
+   "text": "Name a football derby or rivalry that has its own well-known name",
+   "answers": [
+    [
+     "Old Firm",
+     "old firm derby",
+     "glasgow derby"
+    ],
+    [
+     "North London derby",
+     "nld"
+    ],
+    [
+     "Merseyside derby",
+     "liverpool derby"
+    ],
+    [
+     "El Clásico",
+     "clasico"
+    ],
+    "Manchester derby",
+    [
+     "Tyne-Wear derby",
+     "wear tyne derby",
+     "north east derby"
+    ],
+    "Black Country derby",
+    [
+     "Second City derby",
+     "birmingham derby"
+    ],
+    [
+     "Steel City derby",
+     "sheffield derby"
+    ],
+    "North West derby",
+    "Edinburgh derby",
+    "Dundee derby",
+    [
+     "South Coast derby",
+     "hampshire derby"
+    ],
+    "M23 derby",
+    "South Wales derby",
+    [
+     "East Anglian derby",
+     "old farm derby",
+     "old farm"
+    ],
+    [
+     "East Midlands derby",
+     "a52 derby"
+    ],
+    [
+     "Der Klassiker",
+     "klassiker"
+    ],
+    [
+     "Derby della Madonnina",
+     "milan derby",
+     "madonnina"
+    ],
+    [
+     "Derby della Capitale",
+     "rome derby"
+    ],
+    "Superclásico",
+    [
+     "Madrid derby",
+     "derbi madrileno"
+    ],
+    [
+     "Le Classique",
+     "classique"
+    ],
+    [
+     "De Klassieker",
+     "klassieker"
+    ],
+    [
+     "Revierderby",
+     "ruhr derby"
+    ],
+    "Derby d'Italia",
+    [
+     "Seville derby",
+     "sevilla derby",
+     "gran derbi",
+     "el gran derbi"
+    ],
+    "Tees-Wear derby",
+    "Tyne-Tees derby",
+    "Bristol derby",
+    "East Lancashire derby",
+    "West London derby",
+    "Dockers derby",
+    "Potteries derby",
+    "M69 derby",
+    "Severnside derby",
+    "New Firm",
+    "Highland derby",
+    "Lanarkshire derby",
+    "Ayrshire derby",
+    "Renfrewshire derby",
+    "Fife derby",
+    [
+     "Derby della Mole",
+     "turin derby"
+    ],
+    [
+     "Derby della Lanterna",
+     "genoa derby"
+    ],
+    "Basque derby",
+    [
+     "Lisbon derby",
+     "derby de lisboa"
+    ],
+    [
+     "O Clássico",
+     "classico"
+    ],
+    [
+     "Intercontinental derby",
+     "istanbul derby"
+    ],
+    [
+     "Eternal derby",
+     "vecni derbi"
+    ]
+   ]
+  },
+  {
+   "id": "fb7-first-division-clubs-1980s",
+   "tags": [
+    "efl",
+    "80s"
+   ],
+   "text": "Name a club that played in the First Division (top flight) at any point from 1980-81 to 1989-90",
+   "answers": [
+    "Liverpool",
+    "Manchester United",
+    "Everton",
+    "Arsenal",
+    "Tottenham Hotspur",
+    "Nottingham Forest",
+    "Aston Villa",
+    "Chelsea",
+    "West Ham United",
+    "Manchester City",
+    "Ipswich Town",
+    "Leeds United",
+    "Newcastle United",
+    "Southampton",
+    "Coventry City",
+    "Wimbledon",
+    "Luton Town",
+    "Watford",
+    "Queens Park Rangers",
+    "Norwich City",
+    "Sheffield Wednesday",
+    "West Bromwich Albion",
+    "Derby County",
+    "Wolverhampton Wanderers",
+    "Sunderland",
+    "Leicester City",
+    "Middlesbrough",
+    "Birmingham City",
+    "Stoke City",
+    "Charlton Athletic",
+    "Brighton & Hove Albion",
+    "Crystal Palace",
+    "Millwall",
+    "Portsmouth",
+    "Oxford United",
+    [
+     "Notts County",
+     "notts"
+    ],
+    "Swansea City"
+   ]
+  }
+ ]
+}
