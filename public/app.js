@@ -728,7 +728,7 @@ function home() {
     <div class="modes">
       ${mode('solo', 'user', 'Play solo', 'Daily seven, or a quick game to challenge a friend', true)}
       ${mode('party', 'users', 'Party game', 'Everyone plays together on their own phone')}
-      ${mode('board', 'trophy', 'Leaderboard', "Today's top scores on the Daily seven")}
+      ${mode('board', 'trophy', 'Leaderboard', 'Daily seven top scores: today, this week and all time')}
       <button class="mode" id="character"><span class="mode-ic">${avatar(store.get('outlier.name', '') || 'You', store.get('outlier.color', 0), store.get('outlier.look'))}</span>
         <span class="mode-t"><b>Your character</b><small>Pick how you look in party games</small></span>${ic('right', 'chev')}</button>
     </div>
@@ -747,7 +747,8 @@ function home() {
   $('#solo').onclick = soloMenu;
   $('#party').onclick = () => partyMenu();
   $('#character').onclick = characterMenu;
-  $('#board').onclick = boardMenu;
+  $('#board').onclick = () => boardMenu();
+  if ($('#saveStreak')) $('#saveStreak').onclick = () => startDaily('all');
   accountWire();
 }
 
@@ -992,7 +993,7 @@ function dailyQuestion(run) {
     saved.done = saved.results.length >= day.prompts.length;
     saved.total = sum(saved.results);
     store.set(run.key, saved);
-    if (saved.done) bumpStreak(saved.date);
+    if (saved.done) run.streakUp = bumpStreak(saved.date);
     const max = day.prompts.length * 100;
     show(`<header class="bar"><span></span><span>${esc(day.label)} #${day.number} · ${i + 1}/${day.prompts.length}</span><span></span></header>
       <p class="muted center">${esc(res.prompt)}</p>
@@ -1006,7 +1007,8 @@ function dailyQuestion(run) {
         <button class="btn primary" id="next">${saved.done ? 'See your day' : 'Next prompt'}</button>
       </div>`);
     buildUp(res);
-    $('#next').onclick = () => saved.done ? dailySummary(run) : dailyQuestion(run);
+    $('#next').onclick = () => !saved.done ? dailyQuestion(run)
+      : run.streakUp ? streakScreen(run.streakUp, () => { run.streakUp = null; dailySummary(run); }) : dailySummary(run);
   });
   $('#quit').onclick = soloMenu;
 }
@@ -1024,11 +1026,47 @@ function streakNow() {
 
 function bumpStreak(date) {
   const s = store.get('outlier.streak', { n: 0, last: '', best: 0 }) || {};
+  let up = null;
   if (s.last !== date) {
-    const n = s.last === dayBefore(date) ? (s.n || 0) + 1 : 1;
-    store.set('outlier.streak', { n, last: date, best: Math.max(s.best || 0, s.n || 0, n) });
+    const was = s.last === dayBefore(date) ? (s.n || 0) : 0, n = was + 1, best = Math.max(s.best || 0, s.n || 0);
+    store.set('outlier.streak', { n, last: date, best: Math.max(best, n) });
+    up = { from: was, to: n, record: n > best && best > 0 };
   }
   if (me) api('/api/streak', { played: true, carry: store.get('outlier.streak', {}) }).then(adoptStreak).catch(() => {});
+  return up;   // { from, to, record } when today moved the streak on, otherwise null
+}
+
+// The streak screen after a daily that moved your streak on: an ember that catches light, and the count rolling over.
+const STREAK_WORDS = { 1: 'Streak started!', 3: 'Hat-trick!', 7: 'A full week!', 14: 'Two weeks straight!', 30: 'A whole month!', 50: 'Fifty days!', 100: 'One hundred days!', 365: 'A full year!' };
+function streakScreen(up, then) {
+  stopTimer();
+  const head = STREAK_WORDS[up.to] || `${up.to} days in a row!`;
+  const sub = up.to === 1 ? 'Play a daily tomorrow to make it two.'
+    : up.record ? `A new personal best. Come back tomorrow for ${up.to + 1}.` : `Come back tomorrow to make it ${up.to + 1}.`;
+  const sparks = Array.from({ length: 12 }, (_, i) => `<i style="--x:${Math.round(Math.sin(i * 2.4) * 70)}px;--d:${(i % 6) * .12 + .9}s;--s:${4 + (i % 3) * 2}px"></i>`).join('');
+  show(`<section class="sk" role="dialog" aria-label="Streak">
+      <div class="sk-fire" id="skFire">
+        <div class="sk-glow"></div>
+        <div class="sk-sparks">${sparks}</div>
+        <svg class="sk-flame" viewBox="0 0 120 150" aria-hidden="true">
+          <defs>
+            <linearGradient id="skOuter" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ff3d2e"/><stop offset=".55" stop-color="#ff8a1f"/><stop offset="1" stop-color="#ffc53d"/></linearGradient>
+            <linearGradient id="skInner" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ffb12e"/><stop offset=".6" stop-color="#ffe066"/><stop offset="1" stop-color="#fff8d6"/></linearGradient>
+          </defs>
+          <g class="sk-outer"><path fill="url(#skOuter)" d="M60 4C65 32 93 47 97 85c4 37-15 60-37 60S20 124 23 91c2-23 16-31 18-52 10 10 13 19 13 28 9-15 9-37 6-63z"/></g>
+          <g class="sk-inner"><path fill="url(#skInner)" d="M60 62c4 20 21 31 21 52 0 18-10 27-21 27s-21-9-21-25c0-14 10-21 12-33 5 7 7 12 7 17 4-10 4-23 2-38z"/></g>
+        </svg>
+        <div class="sk-num" aria-live="polite"><span class="sk-old">${up.from}</span><span class="sk-new">${up.to}</span></div>
+      </div>
+      <h2 class="sk-head">${esc(head)}</h2>
+      <p class="sk-sub"><b>${up.to}-day streak</b>${up.from ? ` <span class="muted">· up from ${up.from}</span>` : ''}</p>
+      <p class="muted">${esc(sub)}</p>
+      <button class="btn primary" id="skGo">See your day</button>
+    </section>`);
+  const fire = $('#skFire');
+  const light = () => { if (!fire.isConnected) return; fire.classList.add('lit'); if (navigator.vibrate) navigator.vibrate([30, 40, 60]); };
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) light(); else setTimeout(light, 750);
+  $('#skGo').onclick = then;
 }
 
 // A signed-in player's streak lives on their account, so it follows them between devices.
@@ -1041,10 +1079,17 @@ function adoptStreak(srv) {
 function streakHTML() {
   const s = streakNow();
   if (!s.n && !s.best) return '';
+  if (s.n && !s.doneToday) {   // at risk: it ends at midnight unless a daily gets played today
+    const now = new Date(), mid = new Date(now); mid.setHours(24, 0, 0, 0);
+    const hrs = Math.max(0, Math.floor((mid - now) / 3600000)), mins = Math.max(1, Math.round((mid - now) / 60000));
+    const left = hrs >= 1 ? `${hrs} ${hrs === 1 ? 'hour' : 'hours'}` : `${mins} ${mins === 1 ? 'minute' : 'minutes'}`;
+    return `<div class="streak card due risk${hrs < 6 ? ' late' : ''}">${ic('flame')}<span><b>Your ${s.n}-day streak ends in ${left}</b>
+      <small>Play any daily before midnight to keep it alive${s.best > 1 ? ` · Best: ${s.best} days` : ''}</small></span>
+      <button class="btn primary slim" id="saveStreak">Play</button></div>`;
+  }
   const head = s.n ? `<b>${s.n}-day streak</b>` : '<b>No streak right now</b>';
-  const sub = s.n ? (s.doneToday ? 'Today is done. Come back tomorrow to keep it going.' : 'Play a daily today to keep it going.')
-    : 'Play a daily today to start a new one.';
-  return `<div class="streak card${s.n && !s.doneToday ? ' due' : ''}">${ic('flame')}<span>${head}<small>${sub}${s.best > 1 ? ` · Best: ${s.best} days` : ''}</small></span></div>`;
+  const sub = s.n ? 'Today is done. Come back tomorrow to keep it going.' : 'Play a daily today to start a new one.';
+  return `<div class="streak card">${ic('flame')}<span>${head}<small>${sub}${s.best > 1 ? ` · Best: ${s.best} days` : ''}</small></span></div>`;
 }
 
 function dailySummary(run) {
@@ -1054,6 +1099,7 @@ function dailySummary(run) {
   show(`<header class="bar"><button class="link" id="back">‹ Back</button><span>${esc(label)} #${saved.number}</span><span></span></header>
     <div class="total">${saved.total}<small> / ${max * 1.5} paces</small></div>
     <div class="squares">${squares}</div>
+    <p class="beatline" id="beat"></p>
     ${streakNow().n ? `<p class="streakline">${ic('flame')}<b>${streakNow().n}-day streak</b>${streakNow().n > 1 ? ' · keep it going tomorrow' : ' · come back tomorrow to build it'}</p>` : ''}
     <div class="card">${trailHTML([{ name: 'You', from: 0, to: saved.total, me: true }], max)}
       <p class="zone">You ended up: ${zoneName(saved.total, max)}</p></div>
@@ -1070,7 +1116,10 @@ function dailySummary(run) {
       <button class="btn" id="free">Play a quick game</button>
     </div>
     <p class="muted center">New prompts tomorrow.</p>`);
-  const draw = b => { if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(b, 'Today'); };
+  const draw = b => {
+    if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(b, 'Today');
+    if ($('#beat')) $('#beat').innerHTML = beatLine(b);
+  };
   postDaily(run, store.get('outlier.name', '') || 'Player').then(draw);
   $('#setname').onclick = async () => {
     const name = $('#who').value.trim().slice(0, 16);
@@ -1139,23 +1188,37 @@ function gameQuestion(run) {
   $('#quit').onclick = soloMenu;
 }
 
-// ---- the main menu leaderboard: today's Daily seven · Everything, open to anyone
-async function boardMenu() {
+// ---- the main menu leaderboard: the Daily seven · Everything, open to anyone. Today, this week (total of each day's
+// score, Monday to Sunday) or all time (each player's best single day).
+const BOARD_TABS = [['today', 'Today'], ['week', 'This week'], ['all', 'All time']];
+const BOARD_NOTES = {
+  today: 'Same seven prompts for everyone. A new board starts at midnight.',
+  week: "Every Daily seven you play this week adds to your total. Resets on Monday.",
+  all: 'Your best ever Daily seven score counts.' };
+async function boardMenu(period = store.get('outlier.boardTab', 'today')) {
   stopTimer();
+  if (!BOARD_TABS.some(t => t[0] === period)) period = 'today';
+  store.set('outlier.boardTab', period);
   show(`${topbar('Leaderboard')}
-    <section class="card lb-head"><span class="mode-ic">${ic('trophy')}</span><div><b>Daily seven · Everything</b><small id="lbWhen">Today</small></div></section>
+    <section class="card lb-head"><span class="mode-ic">${ic('trophy')}</span><div><b>Daily seven · Everything</b><small id="lbWhen">${period === 'today' ? 'Today' : period === 'week' ? 'This week' : 'All time'}</small></div></section>
+    <div class="seg lb-tabs" id="lbTabs">${BOARD_TABS.map(([k, l]) => `<button class="chip${k === period ? ' on' : ''}" data-p="${k}" aria-pressed="${k === period}">${l}</button>`).join('')}</div>
     <div id="lbBody"><p class="muted center">Loading…</p></div>
-    <div class="stack"><button class="btn primary slim" id="lbPlay">${ic('calendar')}<span>Play today's Daily seven</span></button></div>
-    <p class="fine center">Same seven prompts for everyone. A new board starts at midnight.</p>`);
+    <div class="stack"><button class="btn primary" id="lbPlay">${ic('calendar')}<span>Play today's Daily seven</span></button></div>
+    <p class="fine center">${BOARD_NOTES[period]}</p>`);
   $('#back').onclick = home;
   $('#lbPlay').onclick = () => startDaily('all');
+  $('#lbTabs').onclick = e => { const b = e.target.closest('[data-p]'); if (b && b.dataset.p !== period) boardMenu(b.dataset.p); };
+  const longDate = (d, o) => new Date(d + 'T12:00').toLocaleDateString('en-GB', o);
   try {
-    const b = await api(`/api/dailyboard?cid=${playerId()}`);
-    if (!$('#lbBody')) return;
-    $('#lbWhen').textContent = `#${b.number} · ${new Date(b.date + 'T12:00').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })}`;
-    $('#lbBody').innerHTML = b.count ? leaderboardHTML(b, 'Today\'s')
-      : `<section class="card center"><p class="muted">No scores yet today. Be the first on the board!</p></section>`;
-    if (b.top.some(r => r.me)) $('#lbPlay').querySelector('span').textContent = 'See today\'s Daily seven';
+    const b = await api(`/api/dailyboard?cid=${playerId()}&period=${period}`);
+    if (!$('#lbBody') || store.get('outlier.boardTab') !== period) return;
+    $('#lbWhen').textContent = period === 'today' ? `#${b.number} · ${longDate(b.date, { weekday: 'long', day: 'numeric', month: 'long' })}`
+      : period === 'week' ? `${longDate(b.from, { weekday: 'short', day: 'numeric', month: 'short' })} to ${longDate(b.date, { weekday: 'short', day: 'numeric', month: 'short' })}`
+      : `Since ${longDate(b.from, { day: 'numeric', month: 'long', year: 'numeric' })}`;
+    const extra = r => period === 'week' ? `${r.days} ${r.days === 1 ? 'day' : 'days'}` : period === 'all' && r.day ? longDate(r.day, { day: 'numeric', month: 'short' }) : '';
+    $('#lbBody').innerHTML = b.count ? leaderboardHTML(b, period === 'today' ? "Today's" : period === 'week' ? "This week's" : 'All-time', extra)
+      : `<section class="card center"><p class="muted">${period === 'today' ? 'No scores yet today. Be the first on the board!' : 'No scores yet. Play the Daily seven to get on the board!'}</p></section>`;
+    if (period === 'today' && b.top.some(r => r.me)) $('#lbPlay').querySelector('span').textContent = 'See today\'s Daily seven';
   } catch (e) {
     if ($('#lbBody')) $('#lbBody').innerHTML = `<p class="muted center">Couldn't load the leaderboard. ${esc(e.message)}</p>`;
   }
@@ -1168,11 +1231,20 @@ function playerId() {
   return id;
 }
 
-function leaderboardHTML(b, title = '') {
+function leaderboardHTML(b, title = '', extra = () => '') {
   if (!b || !b.count) return '';
   return `<section class="card"><h3>${title ? title + ' ' : ''}leaderboard <small>${b.count} ${b.count === 1 ? 'player' : 'players'}</small></h3>
-    <ol class="rows lb">${b.top.map((r, i) => `<li class="${r.me ? 'me' : ''}${(r.rank || i + 1) <= 3 ? ` top${r.rank || i + 1}` : ''}"><span class="num rank">${r.rank || i + 1}</span>
-      <span class="main"><b>${esc(r.name)}</b>${r.me ? '<small>You</small>' : ''}</span><span class="num">${r.total}</span></li>`).join('')}</ol></section>`;
+    <ol class="rows lb">${b.top.map((r, i) => { const sub = [r.me ? 'You' : '', extra(r)].filter(Boolean).join(' · ');
+      return `<li class="${r.me ? 'me' : ''}${(r.rank || i + 1) <= 3 ? ` top${r.rank || i + 1}` : ''}"><span class="num rank">${r.rank || i + 1}</span>
+      <span class="main"><b>${esc(r.name)}</b>${sub ? `<small>${esc(sub)}</small>` : ''}</span><span class="num">${r.total}</span></li>`; }).join('')}</ol></section>`;
+}
+
+// "You beat 80% of today's players", from your rank on a leaderboard
+function beatLine(b) {
+  if (!b || !b.rank || b.count < 2) return '';
+  const pct = Math.round((b.count - b.rank) / (b.count - 1) * 100);
+  return b.rank === 1 ? `${ic('trophy')}<span><b>Top of the board!</b> You beat all ${b.count - 1} other ${b.count === 2 ? 'player' : 'players'} today</span>`
+    : `${ic('trophy')}<span>You beat <b>${pct}%</b> of today's players <small>(#${b.rank} of ${b.count})</small></span>`;
 }
 
 async function postDaily(run, name) {

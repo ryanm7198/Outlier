@@ -1285,7 +1285,55 @@ def board_out(seed, cid="", size=10):
     mine = next((i for i, r in enumerate(rows) if r[0] == cid), None)
     if mine is not None and mine >= size:
         top.append({"name": rows[mine][1], "total": rows[mine][2], "me": True, "rank": mine + 1})
-    return {"seed": seed, "count": len(rows), "top": top}
+    return {"seed": seed, "count": len(rows), "top": top, "rank": mine + 1 if mine is not None else None}
+
+
+_PAST_SEEDS = {}
+
+
+def everything_seed(day):
+    """The seed of the Everything daily on a past or present day, without pinning anything new. Days from before
+    pinning existed are worked out again (and cached); they match as long as the prompt pool hasn't moved since."""
+    row = DB.execute("SELECT ids FROM daily_pins WHERE cat = 'all' AND day = ?", (day.isoformat(),)).fetchone()
+    if row:
+        return "".join(code_for(i) for i in row[0].split(",") if i in PROMPTS)
+    if day == datetime.date.today():
+        return "".join(code_for(i) for i in daily_ids("all", day))
+    if day not in _PAST_SEEDS:
+        _PAST_SEEDS[day] = "".join(code_for(i) for i in pick_daily("all", day))
+    return _PAST_SEEDS[day]
+
+
+def period_board(days, cid, best, size=25):
+    """The Daily seven · Everything over several days. best=False adds up each player's days (this week);
+    best=True keeps each player's single best day (all time)."""
+    seeds = {}
+    for d in days:
+        seeds.setdefault(everything_seed(d), d)
+    seeds.pop("", None)
+    if not seeds:
+        return {"count": 0, "top": [], "rank": None}
+    marks = ",".join("?" * len(seeds))
+    rows = DB.execute(f"SELECT seed, cid, name, total, ts FROM scores WHERE seed IN ({marks})", tuple(seeds)).fetchall()
+    per = {}
+    for seed, c, name, total, ts in rows:
+        p = per.setdefault(c, {"name": name, "total": 0, "days": 0, "ts": ts, "last": 0, "day": None})
+        if ts >= p["last"]:   # the latest name a player used
+            p["name"], p["last"] = name, ts
+        p["days"] += 1
+        if best:
+            if total > p["total"] or (total == p["total"] and ts < p["ts"]):
+                p["total"], p["ts"], p["day"] = total, ts, seeds[seed].isoformat()
+        else:
+            p["total"] += total
+            p["ts"] = max(p["ts"], ts)
+    order = sorted(per.items(), key=lambda kv: (-kv[1]["total"], kv[1]["ts"]))
+    out = lambda c, p: {"name": p["name"], "total": p["total"], "me": c == cid, "days": p["days"], "day": p["day"]}
+    top = [out(c, p) for c, p in order[:size]]
+    mine = next((i for i, (c, _) in enumerate(order) if c == cid), None)
+    if mine is not None and mine >= size:
+        top.append({**out(*order[mine]), "rank": mine + 1})
+    return {"count": len(order), "top": top, "rank": mine + 1 if mine is not None else None}
 
 
 def game_out(ids, label):
@@ -1691,11 +1739,19 @@ def api_get(path, q):
                 "streak": streak_for(user["id"]) if user else None, "today": datetime.date.today().isoformat()}
     if path == "/api/stats":
         return stats()
-    if path == "/api/dailyboard":   # today's Everything daily, for the leaderboard on the main menu
+    if path == "/api/dailyboard":   # the Everything daily, for the leaderboard on the main menu: today, this week or all time
         today = datetime.date.today()
-        board = board_out("".join(code_for(i) for i in daily_ids("all", today)),
-                          re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32], size=25)
-        return {**board, "date": today.isoformat(), "number": (today - LAUNCH).days + 1}
+        cid = re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32]
+        period = q.get("period", "today")
+        if period == "week":
+            monday = today - datetime.timedelta(days=today.weekday())
+            board = period_board([monday + datetime.timedelta(days=i) for i in range((today - monday).days + 1)], cid, best=False)
+            return {**board, "period": "week", "from": monday.isoformat(), "date": today.isoformat()}
+        if period == "all":
+            board = period_board([LAUNCH + datetime.timedelta(days=i) for i in range((today - LAUNCH).days + 1)], cid, best=True)
+            return {**board, "period": "all", "from": LAUNCH.isoformat(), "date": today.isoformat()}
+        board = board_out("".join(code_for(i) for i in daily_ids("all", today)), cid, size=25)
+        return {**board, "period": "today", "date": today.isoformat(), "number": (today - LAUNCH).days + 1}
     if path == "/api/board":
         return board_out(q.get("seed"), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32])
     if path == "/api/room/state":
