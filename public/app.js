@@ -2291,7 +2291,7 @@ function runReveal(ctx, s, then) {
     timers.push(setTimeout(() => {
       drum.hidden = true;
       list.insertAdjacentHTML('beforeend', revealCard(s, g, last));
-      list.lastElementChild.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      if (ctx !== tv) list.lastElementChild.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       try { if (last && navigator.vibrate) navigator.vibrate(g.x.outlier ? [70, 50, 140] : 40); } catch { /* not supported */ }
     }, at));
     at += last ? 2200 : 1300;
@@ -2446,6 +2446,8 @@ function enterScreen(code, sid) {
   history.replaceState(null, '', `/?tv=${code}`);
   document.documentElement.classList.add('tv');
   tv = { code, sid, key: null, busy: false, revealTimers: [] };
+  stayAwake(true);
+  window.addEventListener('resize', tvFit);
   tv.poll = setInterval(pollScreen, 1000);
   pollScreen();
 }
@@ -2455,6 +2457,10 @@ function leaveScreen(msg) {
   api('/api/room/screen/leave', { code: tv.code, sid: tv.sid }).catch(() => {});
   clearInterval(tv.poll);
   tv.revealTimers.forEach(clearTimeout);
+  if (tv.ro) tv.ro.disconnect();
+  if (tv.mo) tv.mo.disconnect();
+  window.removeEventListener('resize', tvFit);
+  stayAwake(false);
   tv = null;
   stopTimer();
   store.del('outlier.screen');
@@ -2505,13 +2511,93 @@ function renderScreen(s) {
   if (s.phase === 'potato') tvPotatoUpdate(s);
 }
 
+// Keep a big screen from dimming or starting its screensaver mid-game. Browsers that support it get a screen wake
+// lock (taken again whenever the page comes back into view, since the browser drops it when hidden). TVs whose
+// browsers don't, keep playing a tiny silent video drawn from a canvas, which most TVs treat as "something's playing".
+const awake = { lock: null, video: null, timer: null, on: false };
+async function stayAwake(on) {
+  awake.on = on;
+  if (!on) {
+    try { if (awake.lock) await awake.lock.release(); } catch { /* already gone */ }
+    awake.lock = null;
+    clearInterval(awake.timer);
+    if (awake.video) { awake.video.remove(); awake.video = null; }
+    return;
+  }
+  let locked = false;
+  try { if ('wakeLock' in navigator) { awake.lock = await navigator.wakeLock.request('screen'); locked = true; } } catch { /* refused: fall back */ }
+  if (!locked && !awake.video) {
+    try {
+      const c = document.createElement('canvas');
+      c.width = c.height = 2;
+      const g = c.getContext('2d');
+      awake.timer = setInterval(() => { g.fillStyle = `rgb(${Date.now() % 255},0,0)`; g.fillRect(0, 0, 2, 2); }, 1000);
+      const v = awake.video = Object.assign(document.createElement('video'), { muted: true, playsInline: true, autoplay: true, loop: true });
+      v.setAttribute('aria-hidden', 'true');
+      v.style.cssText = 'position:fixed;width:1px;height:1px;opacity:.01;pointer-events:none;bottom:0;left:0';
+      v.srcObject = c.captureStream(1);
+      document.body.append(v);
+      v.play().catch(() => {});
+    } catch { /* no canvas streams either: nothing more we can do */ }
+  }
+}
+document.addEventListener('visibilitychange', () => { if (awake.on && document.visibilityState === 'visible') stayAwake(true); });
+// The TV's Leave button only shows for a few seconds after the mouse moves or a remote key is pressed.
+let tvWake = null;
+['pointermove', 'pointerdown', 'keydown'].forEach(ev => document.addEventListener(ev, () => {
+  if (!tv) return;
+  document.documentElement.classList.add('tv-poke');
+  clearTimeout(tvWake);
+  tvWake = setTimeout(() => document.documentElement.classList.remove('tv-poke'), 3500);
+}));
+document.addEventListener('pointerdown', () => { if (awake.on && awake.video && awake.video.paused) awake.video.play().catch(() => {}); });
+
 // Every TV screen: the logo, what's happening, the join details, and a small Leave in the corner.
 function tvShow(s, mid, body, cls) {
   show(`<header class="tv-top"><div class="logo">Outl<b>i</b>er</div><span class="tv-mid">${mid}</span>
       <span class="tv-join">${esc(location.host)} · <b>${esc(s.code)}</b></span></header>
-    <section class="tv-main ${cls}">${body}</section>
+    <section class="tv-main"><div class="tv-fit ${cls}" id="tvFit">${body}</div></section>
     <button class="tv-leave" id="tvLeave">${ic('x')}<span>Leave</span></button>`);
   $('#tvLeave').onclick = () => leaveScreen();
+  tvWatchFit();
+}
+
+// A TV never scrolls: whatever a screen holds is shrunk (never grown) to fit the space under the top bar, and
+// re-fitted whenever it changes size (players joining, reveal cards landing, the window resizing).
+// Shrinking widens the box first (width / scale) so text re-wraps into the extra room before it gets smaller.
+function tvFit() {
+  const main = app.querySelector('.tv-main'), fit = $('#tvFit');
+  if (!main || !fit) return;
+  const W = main.clientWidth, H = main.clientHeight;
+  if (!W || !H) return;
+  let k = 1;
+  for (let i = 0; i < 5; i++) {
+    fit.style.width = `${W / k}px`;
+    const h = fit.scrollHeight, next = Math.min(1, H / h);
+    if (Math.abs(next - k) < .005) { k = next; break; }
+    k = next;
+  }
+  fit.style.width = `${W / k}px`;
+  const top = Math.max(0, (H - fit.scrollHeight * k) / 2);   // centred top to bottom when it's shorter than the screen
+  fit.style.transform = `translate(0, ${top}px) scale(${k})`;
+  main.scrollTop = 0;
+}
+
+function tvWatchFit() {
+  if (tv && tv.ro) tv.ro.disconnect();
+  const fit = $('#tvFit');
+  if (!tv || !fit) return;
+  let queued = false;
+  const again = () => { if (queued) return; queued = true; setTimeout(() => { queued = false; tvFit(); }, 30); };   // a timer, not a frame: frames pause when the page isn't drawn
+  if ('ResizeObserver' in window) {
+    tv.ro = new ResizeObserver(again);
+    [...fit.children].forEach(c => tv.ro.observe(c));   // the children, not the box: tvFit itself resizes the box
+    tv.mo = tv.mo || new MutationObserver(again);
+    tv.mo.disconnect();
+    tv.mo.observe(fit, { childList: true, subtree: true });
+  }
+  tvFit();
+  setTimeout(tvFit, 700);   // after entrance animations and fonts settle
 }
 
 const tvRound = s => `Round ${s.round} of ${s.rounds}`;
