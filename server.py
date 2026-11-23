@@ -369,6 +369,10 @@ def open_db():
     # One row per finished party game per browser (round = which game in that room, so rematches count again)
     DB.execute("CREATE TABLE IF NOT EXISTS party_results (cid TEXT, user_id INTEGER, ts INTEGER, mode TEXT, place INTEGER, "
                "players INTEGER, code TEXT, round INTEGER, PRIMARY KEY (cid, code, round))")
+    # Friends leagues: a private Daily seven · Everything board for a group, built from the same scores as the public one
+    DB.execute("CREATE TABLE IF NOT EXISTS leagues (code TEXT PRIMARY KEY, name TEXT, owner_cid TEXT, created INTEGER)")
+    DB.execute("CREATE TABLE IF NOT EXISTS league_members (code TEXT, cid TEXT, name TEXT, joined INTEGER, PRIMARY KEY (code, cid))")
+    DB.execute("CREATE INDEX IF NOT EXISTS league_members_cid ON league_members (cid)")
     try:   # 1 = an answer approved by hand (python server.py approve), which lives only in the database
         DB.execute("ALTER TABLE answers ADD COLUMN extra INTEGER NOT NULL DEFAULT 0")
     except sqlite3.OperationalError:
@@ -1547,6 +1551,8 @@ def post_score(body):
     if seed in past_daily_seeds():   # an archive replay must not land on that day's (or the week's / all-time) board
         raise ApiError(403, "Past dailies don't count for the leaderboard")
     name = " ".join(str(body.get("name") or "").split())[:16] or "Player"
+    if body.get("name"):   # keep league boards in step with the name on the public one
+        DB.execute("UPDATE league_members SET name = ? WHERE cid = ?", (league_player(name), cid))
     total = sum(pts)
     row = DB.execute("SELECT total FROM scores WHERE seed = ? AND cid = ?", (seed, cid)).fetchone()
     if row is None:
@@ -1614,9 +1620,12 @@ def bump_streak(body):
     return {"n": n, "best": best, "last": last}
 
 
-def board_out(seed, cid="", size=10):
+def board_out(seed, cid="", size=10, members=None):
+    """members: {cid: name} keeps only a league's players, under their league names."""
     seed = clean_seed(seed)
     rows = DB.execute("SELECT cid, name, total FROM scores WHERE seed = ? ORDER BY total DESC, ts ASC", (seed,)).fetchall()
+    if members is not None:
+        rows = [(c, members[c], t) for c, n, t in rows if c in members]
     top = [{"name": n, "total": t, "me": c == cid} for c, n, t in rows[:size]]
     mine = next((i for i, r in enumerate(rows) if r[0] == cid), None)
     if mine is not None and mine >= size:
@@ -1664,9 +1673,9 @@ def past_daily_seeds():
     return _PAST_DAILY["seeds"]
 
 
-def period_board(days, cid, best, size=25):
+def period_board(days, cid, best, size=25, members=None):
     """The Daily seven · Everything over several days. best=False adds up each player's days (this week);
-    best=True keeps each player's single best day (all time)."""
+    best=True keeps each player's single best day (all time). members: {cid: name} as in board_out."""
     seeds = {}
     for d in days:
         seeds.setdefault(everything_seed(d), d)
@@ -1675,6 +1684,8 @@ def period_board(days, cid, best, size=25):
         return {"count": 0, "top": [], "rank": None}
     marks = ",".join("?" * len(seeds))
     rows = DB.execute(f"SELECT seed, cid, name, total, ts FROM scores WHERE seed IN ({marks})", tuple(seeds)).fetchall()
+    if members is not None:
+        rows = [(s, c, members[c], t, ts) for s, c, n, t, ts in rows if c in members]
     per = {}
     for seed, c, name, total, ts in rows:
         p = per.setdefault(c, {"name": name, "total": 0, "days": 0, "ts": ts, "last": 0, "day": None})
@@ -1694,6 +1705,161 @@ def period_board(days, cid, best, size=25):
     if mine is not None and mine >= size:
         top.append({**out(*order[mine]), "rank": mine + 1})
     return {"count": len(order), "top": top, "rank": mine + 1 if mine is not None else None}
+
+
+def daily_board(period, cid, size=25, members=None):
+    """The Daily seven · Everything board for today, this week (Monday on) or all time; members narrows it to a league."""
+    today = datetime.date.today()
+    if period == "week":
+        monday = today - datetime.timedelta(days=today.weekday())
+        board = period_board([monday + datetime.timedelta(days=i) for i in range((today - monday).days + 1)], cid, False, size, members)
+        return {**board, "period": "week", "from": monday.isoformat(), "date": today.isoformat()}
+    if period == "all":
+        board = period_board([LAUNCH + datetime.timedelta(days=i) for i in range((today - LAUNCH).days + 1)], cid, True, size, members)
+        return {**board, "period": "all", "from": LAUNCH.isoformat(), "date": today.isoformat()}
+    board = board_out(today_seed(), cid, size, members)
+    return {**board, "period": "today", "date": today.isoformat(), "number": (today - LAUNCH).days + 1}
+
+
+def today_seed():
+    return "".join(code_for(i) for i in daily_ids("all", datetime.date.today()))
+
+
+# ---------------------------------------------------------------- friends leagues
+
+LEAGUE_ALPHABET = "ABCDEFGHJKMNPQRSTUVWXYZ23456789"   # no 0/O, 1/I/L: codes get read out and typed
+LEAGUE_MAX = 50        # members per league
+LEAGUES_PER_CID = 10   # leagues one player can be in
+
+
+def clean_text(s, n):
+    s = "".join(ch for ch in str(s or "") if unicodedata.category(ch)[0] != "C")   # no control or invisible characters
+    return " ".join(s.split())[:n].strip()
+
+
+def league_player(name):
+    return clean_text(name, 16) or "Player"
+
+
+def league_code(code):
+    return re.sub(r"[^0-9A-Za-z]", "", str(code or "")).upper()[:6]
+
+
+def league_row(code):
+    row = DB.execute("SELECT code, name, owner_cid FROM leagues WHERE code = ?", (league_code(code),)).fetchone()
+    if not row:
+        raise ApiError(404, "That league doesn't exist (or everyone has left it)")
+    return row
+
+
+def league_cid(body):
+    cid = clean_cid(body.get("cid"))
+    if len(cid) < 8:
+        raise ApiError(400, "Bad player id")
+    return cid
+
+
+def league_members(code):
+    return DB.execute("SELECT cid, name FROM league_members WHERE code = ? ORDER BY joined, rowid", (code,)).fetchall()
+
+
+def league_room(cid):
+    if DB.execute("SELECT COUNT(*) FROM league_members WHERE cid = ?", (cid,)).fetchone()[0] >= LEAGUES_PER_CID:
+        raise ApiError(400, f"You're in {LEAGUES_PER_CID} leagues already. Leave one to join another.")
+
+
+def league_create(body):
+    cid = league_cid(body)
+    name = clean_text(body.get("name"), 30)
+    if not name:
+        raise ApiError(400, "Give your league a name")
+    league_room(cid)
+    while True:
+        code = "".join(secrets.choice(LEAGUE_ALPHABET) for _ in range(6))
+        if not DB.execute("SELECT 1 FROM leagues WHERE code = ?", (code,)).fetchone():
+            break
+    now = int(time.time())
+    DB.execute("INSERT INTO leagues VALUES (?, ?, ?, ?)", (code, name, cid, now))
+    DB.execute("INSERT INTO league_members VALUES (?, ?, ?, ?)", (code, cid, league_player(body.get("you")), now))
+    DB.commit()
+    return {"code": code, "name": name}
+
+
+def league_join(body):
+    cid = league_cid(body)
+    code, name, _ = league_row(body.get("code"))
+    you = league_player(body.get("you"))
+    if DB.execute("SELECT 1 FROM league_members WHERE code = ? AND cid = ?", (code, cid)).fetchone():
+        DB.execute("UPDATE league_members SET name = ? WHERE code = ? AND cid = ?", (you, code, cid))
+    else:
+        league_room(cid)
+        if len(league_members(code)) >= LEAGUE_MAX:
+            raise ApiError(400, f"That league is full ({LEAGUE_MAX} players)")
+        DB.execute("INSERT INTO league_members VALUES (?, ?, ?, ?)", (code, cid, you, int(time.time())))
+    DB.commit()
+    return {"code": code, "name": name}
+
+
+def league_leave(body):
+    """The owner leaving hands the league to whoever joined first after them; the last one out deletes it."""
+    cid = league_cid(body)
+    code, _, owner = league_row(body.get("code"))
+    DB.execute("DELETE FROM league_members WHERE code = ? AND cid = ?", (code, cid))
+    left = league_members(code)
+    if not left:
+        DB.execute("DELETE FROM leagues WHERE code = ?", (code,))
+    elif owner == cid:
+        DB.execute("UPDATE leagues SET owner_cid = ? WHERE code = ?", (left[0][0], code))
+    DB.commit()
+    return {"ok": True}
+
+
+def league_rename(body):
+    cid = league_cid(body)
+    code, _, owner = league_row(body.get("code"))
+    if owner != cid:
+        raise ApiError(403, "Only the league's owner can rename it")
+    name = clean_text(body.get("name"), 30)
+    if not name:
+        raise ApiError(400, "Give your league a name")
+    DB.execute("UPDATE leagues SET name = ? WHERE code = ?", (name, code))
+    DB.commit()
+    return {"code": code, "name": name}
+
+
+def leagues_mine(q):
+    """Your leagues, with where you are on each one's board today (for the daily results screen)."""
+    cid = clean_cid(q.get("cid"))
+    rows = DB.execute("SELECT l.code, l.name, l.owner_cid FROM league_members m JOIN leagues l ON l.code = m.code "
+                      "WHERE m.cid = ? ORDER BY m.joined", (cid,)).fetchall() if cid else []
+    if not rows:
+        return []
+    today = dict(DB.execute("SELECT cid, total FROM scores WHERE seed = ?", (today_seed(),)).fetchall())
+    out = []
+    for code, name, owner in rows:
+        mem = [c for c, _ in league_members(code)]
+        played = [today[c] for c in mem if c in today]
+        rank = 1 + sum(1 for t in played if t > today[cid]) if cid in today else None
+        out.append({"code": code, "name": name, "members": len(mem), "owner": owner == cid, "rank": rank, "played": len(played)})
+    return out
+
+
+def league_board(q):
+    """A league's own board. Someone who isn't in it (yet) only sees its name and size, for the join screen."""
+    cid = clean_cid(q.get("cid"))
+    code, name, owner = league_row(q.get("code"))
+    mem = league_members(code)
+    head = {"code": code, "name": name, "size": len(mem), "max": LEAGUE_MAX}
+    names = dict(mem)
+    if cid not in names:
+        return {**head, "member": False}
+    board = daily_board(q.get("period", "today"), cid, LEAGUE_MAX, names)
+    if board["period"] == "today":   # who has yet to play today, listed under the board
+        played = {c for (c,) in DB.execute("SELECT cid FROM scores WHERE seed = ?", (board["seed"],))}
+        members = [{"name": n, "me": c == cid, "played": c in played} for c, n in mem]
+    else:
+        members = [{"name": n, "me": c == cid} for c, n in mem]
+    return {**board, **head, "member": True, "owner": owner == cid, "members": members}
 
 
 def game_out(ids, label):
@@ -2244,18 +2410,11 @@ def api_get(path, q):
     if path == "/api/me/stats":
         return my_stats(q)
     if path == "/api/dailyboard":   # the Everything daily, for the leaderboard on the main menu: today, this week or all time
-        today = datetime.date.today()
-        cid = re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32]
-        period = q.get("period", "today")
-        if period == "week":
-            monday = today - datetime.timedelta(days=today.weekday())
-            board = period_board([monday + datetime.timedelta(days=i) for i in range((today - monday).days + 1)], cid, best=False)
-            return {**board, "period": "week", "from": monday.isoformat(), "date": today.isoformat()}
-        if period == "all":
-            board = period_board([LAUNCH + datetime.timedelta(days=i) for i in range((today - LAUNCH).days + 1)], cid, best=True)
-            return {**board, "period": "all", "from": LAUNCH.isoformat(), "date": today.isoformat()}
-        board = board_out("".join(code_for(i) for i in daily_ids("all", today)), cid, size=25)
-        return {**board, "period": "today", "date": today.isoformat(), "number": (today - LAUNCH).days + 1}
+        return daily_board(q.get("period", "today"), clean_cid(q.get("cid", "")))
+    if path == "/api/league/mine":
+        return leagues_mine(q)
+    if path == "/api/league/board":
+        return league_board(q)
     if path == "/api/board":
         return board_out(q.get("seed"), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32])
     if path == "/api/review/queue":
@@ -2334,6 +2493,14 @@ def api_post(path, body):
         return review_done(body)
     if path == "/api/review/retire":
         return retire_override(body)
+    if path == "/api/league/create":
+        return league_create(body)
+    if path == "/api/league/join":
+        return league_join(body)
+    if path == "/api/league/leave":
+        return league_leave(body)
+    if path == "/api/league/rename":
+        return league_rename(body)
     if path == "/api/room/create":
         room, token = create_room(body.get("name"))
         return {"code": room["code"], "pid": token}

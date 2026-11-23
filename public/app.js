@@ -109,6 +109,7 @@ const ICON = {
   shield: '<path d="M12 3l7.5 3v5.5c0 4.6-3.1 8-7.5 9.5-4.4-1.5-7.5-4.9-7.5-9.5V6z"/><path d="M9 12l2.2 2.2L15.5 10"/>',
   star: '<path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.3-4.1 5.9-.9z"/>',
   gem: '<path d="M6.5 4h11l3.5 5-9 11L3 9z"/><path d="M3 9h18M9.5 4 8 9l4 11 4-11-1.5-5"/>',
+  plus: '<path d="M12 5v14M5 12h14"/>',
 };
 const ic = (name, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICON[name] || ''}</svg>`;
 const PCOL = ['#ff6b6b', '#ff9f43', '#feca57', '#7bd88f', '#2ed3b7', '#4cc9f0', '#5b8cff', '#9b7bff', '#d77bff', '#ff7bd0', '#b8c4d6', '#c9a27a'];
@@ -1150,7 +1151,7 @@ function dailySummary(run) {
       <p class="zone">You ended up: ${zoneName(saved.total, max)}</p></div>
     <div class="sidecol"><ul class="rows card">${saved.results.map(r => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : (r.given ? `<span class="strike">${esc(r.given)}</span>` : '<span class="skipped">Skipped</span>')}</b>
       <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}</span></li>`).join('')}</ul>
-    <div id="lb"></div></div>
+    <div id="lb"></div><div id="myLeagues"></div></div>
     <div class="card seed">
       <label for="who">Your name on today's leaderboard</label>
       <input type="text" id="who" maxlength="16" placeholder="Your name" value="${esc(store.get('outlier.name', ''))}" autocomplete="off">
@@ -1167,7 +1168,7 @@ function dailySummary(run) {
     if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(b, 'Today');
     if ($('#beat')) $('#beat').innerHTML = beatLine(b);
   };
-  postDaily(run, store.get('outlier.name', '') || 'Player').then(b => { draw(b); checkBadges(); });
+  postDaily(run, store.get('outlier.name', '') || 'Player').then(b => { draw(b); checkBadges(); dailyLeagues(); });
   $('#setname').onclick = async () => {
     const name = $('#who').value.trim().slice(0, 16);
     if (!name) return toast('Type a name first');
@@ -1303,28 +1304,46 @@ const BOARD_NOTES = {
   today: 'Same seven prompts for everyone. A new board starts at midnight.',
   week: "Every Daily seven you play this week adds to your total. Resets on Monday.",
   all: 'Your best ever Daily seven score counts.' };
+const longDate = (d, o) => new Date(d + 'T12:00').toLocaleDateString('en-GB', o);
+// The note under a name: days played this week, or the day of an all-time best
+const boardExtra = period => r => period === 'week' ? `${r.days} ${r.days === 1 ? 'day' : 'days'}` : period === 'all' && r.day ? longDate(r.day, { day: 'numeric', month: 'short' }) : '';
+const boardWhen = b => b.period === 'today' ? `#${b.number} · ${longDate(b.date, { weekday: 'long', day: 'numeric', month: 'long' })}`
+  : b.period === 'week' ? `${longDate(b.from, { weekday: 'short', day: 'numeric', month: 'short' })} to ${longDate(b.date, { weekday: 'short', day: 'numeric', month: 'short' })}`
+  : `Since ${longDate(b.from, { day: 'numeric', month: 'long', year: 'numeric' })}`;
+const tabsHTML = period => `<div class="seg lb-tabs" id="lbTabs">${BOARD_TABS.map(([k, l]) => `<button class="chip${k === period ? ' on' : ''}" data-p="${k}" aria-pressed="${k === period}">${l}</button>`).join('')}</div>`;
+// Everyone (the public board) or Your leagues; the leaderboard button reopens whichever was last
+const viewHTML = v => `<div class="seg lb-view" id="lbView">${[['all', 'Everyone'], ['leagues', 'Your leagues']].map(([k, l]) =>
+  `<button class="chip${k === v ? ' on' : ''}" data-v="${k}" aria-pressed="${k === v}">${l}</button>`).join('')}</div>`;
+function wireView(v) {
+  $('#lbView').onclick = e => {
+    const b = e.target.closest('[data-v]');
+    if (!b || b.dataset.v === v) return;
+    store.set('outlier.boardView', b.dataset.v);
+    b.dataset.v === 'leagues' ? leaguesMenu() : boardMenu();
+  };
+}
+
 async function boardMenu(period = store.get('outlier.boardTab', 'today')) {
   stopTimer();
+  if (store.get('outlier.boardView') === 'leagues') return leaguesMenu();
   if (!BOARD_TABS.some(t => t[0] === period)) period = 'today';
   store.set('outlier.boardTab', period);
   show(`${topbar('Leaderboard')}
+    ${viewHTML('all')}
     <section class="card lb-head"><span class="mode-ic">${ic('trophy')}</span><div><b>Daily seven · Everything</b><small id="lbWhen">${period === 'today' ? 'Today' : period === 'week' ? 'This week' : 'All time'}</small></div></section>
-    <div class="seg lb-tabs" id="lbTabs">${BOARD_TABS.map(([k, l]) => `<button class="chip${k === period ? ' on' : ''}" data-p="${k}" aria-pressed="${k === period}">${l}</button>`).join('')}</div>
+    ${tabsHTML(period)}
     <div id="lbBody"><p class="muted center">Loading…</p></div>
     <div class="stack"><button class="btn primary" id="lbPlay">${ic('calendar')}<span>Play today's Daily seven</span></button></div>
     <p class="fine center">${BOARD_NOTES[period]}</p>`);
   $('#back').onclick = home;
+  wireView('all');
   $('#lbPlay').onclick = () => startDaily('all');
   $('#lbTabs').onclick = e => { const b = e.target.closest('[data-p]'); if (b && b.dataset.p !== period) boardMenu(b.dataset.p); };
-  const longDate = (d, o) => new Date(d + 'T12:00').toLocaleDateString('en-GB', o);
   try {
     const b = await api(`/api/dailyboard?cid=${playerId()}&period=${period}`);
     if (!$('#lbBody') || store.get('outlier.boardTab') !== period) return;
-    $('#lbWhen').textContent = period === 'today' ? `#${b.number} · ${longDate(b.date, { weekday: 'long', day: 'numeric', month: 'long' })}`
-      : period === 'week' ? `${longDate(b.from, { weekday: 'short', day: 'numeric', month: 'short' })} to ${longDate(b.date, { weekday: 'short', day: 'numeric', month: 'short' })}`
-      : `Since ${longDate(b.from, { day: 'numeric', month: 'long', year: 'numeric' })}`;
-    const extra = r => period === 'week' ? `${r.days} ${r.days === 1 ? 'day' : 'days'}` : period === 'all' && r.day ? longDate(r.day, { day: 'numeric', month: 'short' }) : '';
-    $('#lbBody').innerHTML = b.count ? leaderboardHTML(b, period === 'today' ? "Today's" : period === 'week' ? "This week's" : 'All-time', extra)
+    $('#lbWhen').textContent = boardWhen(b);
+    $('#lbBody').innerHTML = b.count ? leaderboardHTML(b, period === 'today' ? "Today's" : period === 'week' ? "This week's" : 'All-time', boardExtra(period))
       : `<section class="card center"><p class="muted">${period === 'today' ? 'No scores yet today. Be the first on the board!' : 'No scores yet. Play the Daily seven to get on the board!'}</p></section>`;
     if (period === 'today' && b.top.some(r => r.me)) $('#lbPlay').querySelector('span').textContent = 'See today\'s Daily seven';
   } catch (e) {
@@ -1339,12 +1358,12 @@ function playerId() {
   return id;
 }
 
-function leaderboardHTML(b, title = '', extra = () => '') {
-  if (!b || !b.count) return '';
+function leaderboardHTML(b, title = '', extra = () => '', tail = '') {
+  if (!b || (!b.count && !tail)) return '';
   return `<section class="card"><h3>${title ? title + ' ' : ''}leaderboard <small>${b.count} ${b.count === 1 ? 'player' : 'players'}</small></h3>
     <ol class="rows lb">${b.top.map((r, i) => { const sub = [r.me ? 'You' : '', extra(r)].filter(Boolean).join(' · ');
       return `<li class="${r.me ? 'me' : ''}${(r.rank || i + 1) <= 3 ? ` top${r.rank || i + 1}` : ''}"><span class="num rank">${r.rank || i + 1}</span>
-      <span class="main"><b>${esc(r.name)}</b>${sub ? `<small>${esc(sub)}</small>` : ''}</span><span class="num">${r.total}</span></li>`; }).join('')}</ol></section>`;
+      <span class="main"><b>${esc(r.name)}</b>${sub ? `<small>${esc(sub)}</small>` : ''}</span><span class="num">${r.total}</span></li>`; }).join('')}${tail}</ol></section>`;
 }
 
 // "You beat 80% of today's players", from your rank on a leaderboard
@@ -1353,6 +1372,168 @@ function beatLine(b) {
   const pct = Math.round((b.count - b.rank) / (b.count - 1) * 100);
   return b.rank === 1 ? `${ic('trophy')}<span><b>Top of the board!</b> You beat all ${b.count - 1} other ${b.count === 2 ? 'player' : 'players'} today</span>`
     : `${ic('trophy')}<span>You beat <b>${pct}%</b> of today's players <small>(#${b.rank} of ${b.count})</small></span>`;
+}
+
+// ---- friends leagues: the Daily seven · Everything board for just your group, from the same scores as the public one
+const ordinal = n => { const s = ['th', 'st', 'nd', 'rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); };
+const memberCount = n => `${n} ${n === 1 ? 'member' : 'members'}`;
+const playedDaily = () => { const s = store.get('outlier.daily.all'); return !!(s && s.date === todayStr() && s.done); };
+const leagueRowsHTML = list => `<ul class="archlist lg-list">${list.map(l => `<li><button class="arch-day" data-c="${esc(l.code)}">
+  <span class="lg-ic">${ic(l.owner ? 'crown' : 'users')}</span><span class="main"><b>${esc(l.name)}</b><small>${memberCount(l.members)}</small></span>
+  ${l.rank ? `<span class="num">${ordinal(l.rank)}<small>of ${l.members}</small></span>` : '<span class="lg-not">Not played</span>'}${ic('right', 'chev')}</button></li>`).join('')}</ul>`;
+
+async function leaguesMenu() {
+  stopTimer();
+  show(`${topbar('Leaderboard')}
+    ${viewHTML('leagues')}
+    <div id="lgList"><p class="muted center">Loading…</p></div>
+    <div class="stack">
+      <button class="btn slim" id="lgNew">${ic('plus')}<span>Create a league</span></button>
+      <button class="btn slim" id="lgCode">${ic('link')}<span>Join with a code</span></button>
+    </div>
+    <p class="fine center">Free for everyone. Up to 50 friends per league, and you can be in 10.</p>`);
+  $('#back').onclick = home;
+  wireView('leagues');
+  $('#lgNew').onclick = leagueCreateSheet;
+  $('#lgCode').onclick = () => leagueCodeSheet();
+  let list;
+  try { list = await api(`/api/league/mine?cid=${playerId()}`); }
+  catch (e) { if ($('#lgList')) $('#lgList').innerHTML = `<p class="muted center">Couldn't load your leagues. ${esc(e.message)}</p>`; return; }
+  if (!$('#lgList')) return;
+  if (!list.length) {
+    $('#lgList').innerHTML = `<section class="card lb-head"><span class="mode-ic">${ic('users')}</span><div><b>Beat your friends, not just the crowd</b>
+      <small>Make a league, send the link, and get a private leaderboard for the Daily seven: today, this week and all time.</small></div></section>`;
+    $('#lgNew').classList.add('primary');
+    return;
+  }
+  $('#lgList').innerHTML = `<section class="card lg-card">${leagueRowsHTML(list)}</section>`;
+  $('#lgList').onclick = e => { const b = e.target.closest('[data-c]'); if (b) leaguePage(b.dataset.c); };
+}
+
+// A small form in a sheet; submit(values) returns once it's done (or throws, which toasts)
+function leagueSheet(title, fields, label, submit) {
+  const close = openSheet(title, () => `<form id="lgForm" class="stack">${fields.map(f => `<div class="field"><label for="${f.id}">${f.label}</label>
+    <input type="text" id="${f.id}" maxlength="${f.max}" placeholder="${esc(f.ph)}" value="${esc(f.value || '')}" autocomplete="off"${f.code ? ' class="code" autocapitalize="characters"' : ''}></div>`).join('')}
+    <button class="btn primary">${label}</button></form>`, () => {});
+  const form = $('#lgForm');
+  (fields.find(f => !f.value) ? $('#' + fields.find(f => !f.value).id) : form.querySelector('input')).focus();
+  form.onsubmit = async e => {
+    e.preventDefault();
+    const vals = Object.fromEntries(fields.map(f => [f.id, $('#' + f.id).value.trim()]));
+    const empty = fields.find(f => !vals[f.id]);
+    if (empty) { $('#' + empty.id).focus(); return toast(empty.need); }
+    form.querySelector('button').disabled = true;
+    try { await submit(vals); close(); } catch (err) { toast(err.message); form.querySelector('button').disabled = false; }
+  };
+}
+const youField = () => ({ id: 'lgYou', label: 'Your name in the league', max: 16, ph: 'What should your friends call you?', value: store.get('outlier.name', ''), need: 'Enter your name' });
+
+function leagueCreateSheet() {
+  leagueSheet('Create a league', [{ id: 'lgName', label: 'League name', max: 30, ph: 'The Pub Quiz Lot', need: 'Give your league a name' }, youField()],
+    'Create league', async v => {
+      store.set('outlier.name', v.lgYou);
+      const r = await api('/api/league/create', { cid: playerId(), name: v.lgName, you: v.lgYou });
+      leaguePage(r.code, 'today', true);
+    });
+}
+
+function leagueCodeSheet() {
+  leagueSheet('Join a league', [{ id: 'lgJoinCode', label: 'League code', max: 6, ph: 'CODE', code: true, need: 'Enter the 6-character code' }, youField()],
+    'Join league', async v => {
+      store.set('outlier.name', v.lgYou);
+      const r = await api('/api/league/join', { code: v.lgJoinCode, cid: playerId(), you: v.lgYou });
+      toast(`You're in ${r.name}`);
+      leaguePage(r.code, 'today');
+    });
+}
+
+const leagueInvite = (code, name) => shareText(`Join my Outlier league '${name}' — same 7 prompts every day, see who's furthest from the crowd`,
+  `${location.origin}/?league=${code}`);
+
+// The ?league=CODE invite: join (with your name) or, if you're already in, straight to the board
+function leagueJoinScreen(info) {
+  stopTimer();
+  const full = info.size >= info.max;
+  show(`${topbar('Join a league')}
+    <section class="card choice lead">
+      <div class="choice-h"><span class="mode-ic">${ic('users')}</span><div><b>Join ‘${esc(info.name)}’?</b><small>${memberCount(info.size)} · a private leaderboard for the Daily seven</small></div></div>
+      ${full ? '<p class="muted">This league is full.</p>' : `<div class="field"><label for="lgYou">Your name in the league</label>
+        <input type="text" id="lgYou" maxlength="16" placeholder="What should your friends call you?" value="${esc(store.get('outlier.name', ''))}" autocomplete="nickname"></div>
+      <button class="btn primary" id="lgJoin">Join league</button>`}
+      <button class="btn slim" id="lgNo">Not now</button>
+    </section>
+    <p class="fine center">Same seven prompts for everyone, every day. Leagues are free.</p>`);
+  $('#back').onclick = home;
+  $('#lgNo').onclick = home;
+  if (full) return;
+  $('#lgJoin').onclick = async () => {
+    const you = $('#lgYou').value.trim();
+    if (!you) { $('#lgYou').focus(); return toast('Enter your name'); }
+    store.set('outlier.name', you);
+    try { await api('/api/league/join', { code: info.code, cid: playerId(), you }); leaguePage(info.code, 'today'); }
+    catch (e) { toast(e.message); }
+  };
+}
+
+async function leaguePage(code, period = store.get('outlier.leagueTab', 'today'), fresh = false) {
+  stopTimer();
+  if (!BOARD_TABS.some(t => t[0] === period)) period = 'today';
+  store.set('outlier.leagueTab', period);
+  let b;
+  try { b = await api(`/api/league/board?code=${encodeURIComponent(code)}&cid=${playerId()}&period=${period}`); }
+  catch (e) { toast(e.message); return e.status === 404 ? leaguesMenu() : null; }
+  if (!b.member) return leagueJoinScreen(b);
+  const played = (b.members.find(m => m.me) || {}).played || playedDaily();
+  const wait = b.period === 'today' ? b.members.filter(m => !m.played) : [];
+  const tail = wait.map(m => `<li class="off${m.me ? ' me' : ''}"><span class="num rank">–</span><span class="main"><b>${esc(m.name)}</b>
+    <small>${m.me ? 'You · ' : ''}Not played yet today</small></span><span class="num">–</span></li>`).join('');
+  const board = leaderboardHTML(b, period === 'today' ? "Today's" : period === 'week' ? "This week's" : 'All-time', boardExtra(period), tail)
+    || `<section class="card center"><p class="muted">No scores yet. Play the Daily seven to get on the board!</p></section>`;
+  show(`${topbar('League')}
+    <section class="card lb-head"><span class="mode-ic">${ic(b.owner ? 'crown' : 'users')}</span><div class="lg-head"><b>${esc(b.name)}</b>
+      <small>${memberCount(b.size)} · code <b class="lg-code">${esc(b.code)}</b> · ${boardWhen(b)}</small></div>
+      ${b.owner ? '<button class="link lg-ren" id="lgRename">Rename</button>' : ''}</section>
+    ${fresh ? `<p class="fine">${ic('share')}<span>Your league is ready. Send your friends the link so they can join.</span></p>` : ''}
+    ${tabsHTML(period)}
+    ${board}
+    <div class="stack">
+      ${played ? '' : `<button class="btn primary" id="lgPlay">${ic('calendar')}<span>Play today's Daily seven</span></button>`}
+      <button class="btn${played ? ' primary' : ''}" id="lgInvite">Invite friends</button>
+      <button class="btn slim lg-leave" id="lgLeave"><span>Leave league</span></button>
+    </div>
+    <p class="fine center">${BOARD_NOTES[period]}</p>`);
+  $('#back').onclick = () => { store.set('outlier.boardView', 'leagues'); leaguesMenu(); };
+  $('#lbTabs').onclick = e => { const t = e.target.closest('[data-p]'); if (t && t.dataset.p !== period) leaguePage(b.code, t.dataset.p); };
+  $('#lgInvite').onclick = () => leagueInvite(b.code, b.name);
+  if ($('#lgPlay')) $('#lgPlay').onclick = () => startDaily('all');
+  if ($('#lgRename')) $('#lgRename').onclick = () => leagueSheet('Rename league', [{ id: 'lgName', label: 'League name', max: 30, ph: 'The Pub Quiz Lot', value: b.name, need: 'Give your league a name' }],
+    'Save', async v => { await api('/api/league/rename', { code: b.code, cid: playerId(), name: v.lgName }); leaguePage(b.code, period); });
+  $('#lgLeave').onclick = async e => {
+    const btn = e.currentTarget;
+    if (!btn.dataset.sure) {   // a second tap confirms
+      btn.dataset.sure = '1';
+      btn.classList.add('sure');
+      btn.querySelector('span').textContent = b.size === 1 ? 'Tap again: the league will be deleted' : 'Tap again to leave';
+      return;
+    }
+    try { await api('/api/league/leave', { code: b.code, cid: playerId() }); toast(`You left ${b.name}`); store.set('outlier.boardView', 'leagues'); leaguesMenu(); }
+    catch (err) { toast(err.message); }
+  };
+}
+
+// On the daily results: where you stand in each of your leagues today (or a nudge to start one)
+async function dailyLeagues() {
+  let list;
+  try { list = await api(`/api/league/mine?cid=${playerId()}`); } catch { return; }
+  const el = $('#myLeagues');
+  if (!el) return;
+  el.innerHTML = list.length ? `<section class="card lg-card"><h3>Your leagues <small>today</small></h3>${leagueRowsHTML(list)}</section>`
+    : `<button class="archrow" data-new>${ic('users')}<span>Beat your friends, not just the crowd: <b>start a league</b></span>${ic('right', 'chev')}</button>`;
+  el.onclick = e => {
+    const b = e.target.closest('[data-c]');
+    if (b) return leaguePage(b.dataset.c, 'today');
+    if (e.target.closest('[data-new]')) { store.set('outlier.boardView', 'leagues'); leaguesMenu(); }
+  };
 }
 
 async function postDaily(run, name) {
@@ -2429,6 +2610,10 @@ async function pushBoot() {
   if (params.get('play')) {
     history.replaceState(null, '', location.pathname);
     return challengeIntro(params.get('play'), params.get('from') || '', params.get('pts') || '');
+  }
+  if (params.get('league')) {   // a league invite link
+    history.replaceState(null, '', location.pathname);
+    return leaguePage(params.get('league').toUpperCase().slice(0, 6), 'today');
   }
   const saved = store.get('outlier.party');
   if (saved && (!invite || invite.toUpperCase() === saved.code)) enterParty(saved.code, saved.pid);
