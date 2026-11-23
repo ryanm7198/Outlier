@@ -765,7 +765,7 @@ def stats():
         "ratings": ratings(),
         "since": min(list(players) + list(answers) + [day(0)]),
         "paywall": PAYWALL,
-        "db": DB_PATH, "dbPersistent": DB_PATH.startswith("/var/data"),
+        "db": DB_PATH, "dbPersistent": not os.path.abspath(DB_PATH).startswith(ROOT),   # anywhere outside the code folder (a mounted disk)
         "firstAccount": datetime.datetime.fromtimestamp(one("SELECT MIN(created) FROM users")).strftime("%d %b %Y %H:%M") if one("SELECT MIN(created) FROM users") else None,
     }
 
