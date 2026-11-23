@@ -194,11 +194,28 @@ function lookFor(name, look) {
   for (const ch of (name || '?').trim().toLowerCase()) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
   return LOOK_N.map((n, i) => (Math.floor(h / [1, 13, 173, 2251, 31517][i]) % n).toString(36)).join('');
 }
-const avatar = (name, color, look) => {
+// Moods for the party podium: a winner throws their arms up with happy eyes and a big grin; a loser sobs.
+const TEAR = x => `<path d="M${x} 24.5c1.2 1.8 1.8 2.8 1.8 3.6a1.8 1.8 0 0 1-3.6 0c0-.8.6-1.8 1.8-3.6z" fill="#7fd3ff"/>`;
+const MOODS = {
+  cheer: {
+    behind: `<g style="stroke:var(--pc);fill:var(--pc)" stroke-width="3.4" stroke-linecap="round"><g class="arm l"><path d="M10 30 3.5 17.5"/><circle cx="3.2" cy="16.6" r="2.4" stroke="none"/></g>`
+      + `<g class="arm r"><path d="M30 30l6.5-12.5"/><circle cx="36.8" cy="16.6" r="2.4" stroke="none"/></g></g>`,
+    eyes: inkLine('M12.5 23q2.5-3.5 5 0M22.5 23q2.5-3.5 5 0'),
+    mouth: `<path d="M14 27.5h12a6 6 0 0 1-12 0z" fill="${INK}"/><path d="M17 31.8a3 2 0 0 1 6 0 5.5 5.5 0 0 1-6 0z" fill="#ff7b9c"/>`,
+  },
+  cry: {
+    behind: '',
+    eyes: inkLine('M12.5 21.5q2.5 2.5 5 0M22.5 21.5q2.5 2.5 5 0M12 18.5l5-1.5M28 18.5l-5-1.5')
+      + `<g class="tear">${TEAR(15)}</g><g class="tear t2">${TEAR(25)}</g>`,
+    mouth: inkLine('M15.5 31.5q4.5-4.5 9 0'),
+  },
+};
+const avatar = (name, color, look, mood) => {
   const [hd, ey, mo, ht, fc] = [...lookFor(name, look)].map(c => parseInt(c, 36));
   const [under, over] = LOOK_PARTS[4][fc];
-  return `<span class="av ch" style="--pc:${PCOL[color] || PCOL[0]}" role="img" aria-label="${esc(name || '')}"><svg viewBox="0 0 40 40" aria-hidden="true">`
-    + `<g style="fill:var(--pc)">${LOOK_PARTS[0][hd]}</g>${under}${LOOK_PARTS[1][ey]}${LOOK_PARTS[2][mo]}${over}${LOOK_PARTS[3][ht]}</svg></span>`;
+  const m = MOODS[mood];
+  return `<span class="av ch${m ? ` mood-${mood}` : ''}" style="--pc:${PCOL[color] || PCOL[0]}" role="img" aria-label="${esc(name || '')}"><svg viewBox="0 0 40 40" aria-hidden="true">`
+    + `${m ? m.behind : ''}<g style="fill:var(--pc)">${LOOK_PARTS[0][hd]}</g>${under}${m ? m.eyes : LOOK_PARTS[1][ey]}${m ? m.mouth : LOOK_PARTS[2][mo]}${over}${LOOK_PARTS[3][ht]}</svg></span>`;
 };
 const colorOf = (s, n) => (s.players.find(p => p.n === n) || {}).color;
 const lookOf = (s, n) => (s.players.find(p => p.n === n) || {}).look;
@@ -1808,6 +1825,33 @@ function updatePotato(s) {
   if (input && document.activeElement !== input) input.focus();
 }
 
+// The podium at the end of a party game. `ranked` is [{ p, rank }] best first (equal ranks share a step).
+// Firsts and seconds cheer on their steps; everyone below the podium sits in front of it crying, and so does
+// third place in a three-player game (it's last). The steps rise in once per game, then stay put on redraws.
+function podiumHTML(s, ranked, sub) {
+  const total = ranked.length;
+  const mood = r => r.rank === 1 || r.rank === 2 || (r.rank === 3 && total >= 4) ? 'cheer' : 'cry';
+  const step = place => {
+    const here = ranked.filter(r => r.rank === place);
+    if (!here.length) return `<div class="pod p${place} empty"><div class="pod-step"><span>${place}</span></div></div>`;
+    const m = mood(here[0]);
+    return `<div class="pod p${place}">
+      <div class="pod-top">${here.map(r => `<div class="pod-who${r.p.n === s.you ? ' me' : ''}">${avatar(r.p.name, r.p.color, r.p.look, m)}<b>${esc(r.p.name)}</b><small>${esc(sub(r.p))}</small></div>`).join('')}</div>
+      <div class="pod-step"><span>${place}</span></div></div>`;
+  };
+  const floor = ranked.filter(r => r.rank > 3);
+  const stamp = `${s.code}|${s.round}|${ranked.map(r => r.p.n).join('.')}`;
+  const play = party && party.podium !== stamp;
+  if (party) party.podium = stamp;
+  return `<section class="podium${play ? ' play' : ''}" aria-label="Podium">
+    <div class="confetti" aria-hidden="true">${Array.from({ length: 16 }, (_, i) => `<i style="--x:${(i * 37) % 100}%;--d:${(i % 5) * .22}s;--c:${PCOL[i % PCOL.length]}"></i>`).join('')}</div>
+    <div class="pod-steps">${step(2)}${step(1)}${step(3)}</div>
+    ${floor.length ? `<div class="pod-floor">${floor.map(r => `<div class="pod-who${r.p.n === s.you ? ' me' : ''}">${avatar(r.p.name, r.p.color, r.p.look, 'cry')}<b>${esc(r.p.name)}</b><small>${r.rank}th · ${esc(sub(r.p))}</small></div>`).join('')}</div>` : ''}
+  </section>`;
+}
+
+const rankBy = (list, key) => list.map(p => ({ p, rank: 1 + list.filter(o => key(o) > key(p)).length }));
+
 function potatoFinal(s, host) {
   const byN = Object.fromEntries(s.players.map(p => [p.n, p]));
   const order = s.standings.map(n => byN[n]).filter(Boolean), win = order[0];
@@ -1818,6 +1862,7 @@ function potatoFinal(s, host) {
   show(`${partyBar(s, 'Fumble')}
     <div class="center"><p class="muted">Last one standing</p><h2>${esc(win ? win.name : '')}</h2>
       <p class="muted">${win ? `${win.lives} ${win.lives === 1 ? 'life' : 'lives'} left · ${win.score} points` : ''}</p></div>
+    ${podiumHTML(s, order.map((p, i) => ({ p, rank: i + 1 })), p => `${p.score} pts`)}
     <ol class="rows card players">${order.map((p, i) => `<li class="${p.n === s.you ? 'me' : ''}"><span class="num rank">${i + 1}</span>
       ${avatar(p.name, p.color, p.look)}<span class="main"><b>${esc(p.name)}</b><small>${p.out ? 'Out' : 'Still standing'} · ${(k => `${k} answer${k === 1 ? '' : 's'}`)(answers.filter(l => l.n === p.n).length)}</small></span>
       <span class="num">${p.score}</span></li>`).join('')}</ol>
@@ -2044,6 +2089,7 @@ function partyFinal(s, host) {
     <div class="center"><p class="muted">${tied ? 'Furthest from the crowd (tied)' : 'Furthest from the crowd'}</p>
       <h2>${esc(order.filter(p => p.score === top.score).map(p => p.name).join(' & '))}</h2>
       <p class="muted">${top.score} paces · ${zoneName(top.score, max)}</p></div>
+    ${podiumHTML(s, rankBy(order, p => p.score), p => `${p.score} paces`)}
     <div class="card">${trailHTML(order.map(p => ({ name: p.name, from: 0, to: p.score, me: p.n === s.you, color: p.color })), max)}</div>
     <ol class="rows card players">${order.map((p, i) => `<li class="${p.n === s.you ? 'me' : ''}"><span class="num rank">${i + 1}</span>
       ${avatar(p.name, p.color, p.look)}

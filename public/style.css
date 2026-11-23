@@ -823,3 +823,49 @@ form.shake { animation: shake .35s; }
 @keyframes heartlose { 0% { transform: none; opacity: 1; } 30% { transform: scale(1.6); opacity: 1; }
   100% { transform: translateY(22px) rotate(35deg) scale(.4); opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .pt-you, .pt-table li.turn .av, .pt-log li, .pt-boom, form.shake, .pt-bh, .pt-roll li, .pt-next, .pt-pop, .seat.now .av, .seat-arrow { animation: none; } .pt-hearts i.lose { animation: none; opacity: .2; } }
+
+/* ---- party podium: winners cheer on the steps, the rest sob in front */
+.podium { position: relative; margin: 6px 0 14px; padding-top: 18px; overflow: hidden; }
+.pod-steps { display: grid; grid-template-columns: 1fr 1.15fr 1fr; align-items: end; gap: 6px; }
+.pod { display: grid; justify-items: center; min-width: 0; }
+.pod-top { display: flex; justify-content: center; align-items: flex-end; gap: 2px; flex-wrap: wrap; margin-bottom: 4px; }
+.pod-who { display: grid; justify-items: center; text-align: center; min-width: 0; max-width: 100%; }
+.pod-who b { font-size: .85rem; max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pod-who small { font-size: .7rem; color: var(--muted); white-space: nowrap; }
+.pod-who.me b { color: var(--you); }
+.pod .av { width: 58px; height: 58px; background: none; }
+.pod.p1 .av { width: 76px; height: 76px; }
+.pod-step { width: 100%; border-radius: 12px 12px 4px 4px; display: grid; justify-items: center; padding-top: 6px; color: #14152b; font-weight: 900; font-size: 1.5rem;
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, .15); transform-origin: bottom; }
+.p1 .pod-step { height: 104px; background: linear-gradient(#ffe08a, #e0a93a); }
+.p2 .pod-step { height: 76px; background: linear-gradient(#eef2fa, #9aa6bd); }
+.p3 .pod-step { height: 56px; background: linear-gradient(#f2b989, #b86f3a); }
+.pod.empty .pod-step { opacity: .45; }
+.pod-floor { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 14px; margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.pod-floor .av { width: 46px; height: 46px; background: none; }
+.av.mood-cheer, .av.mood-cry { overflow: visible; }
+.av.mood-cheer svg { animation: pdcheer .6s ease-in-out infinite alternate; transform-origin: 50% 100%; }
+.av.mood-cheer .arm { transform-box: fill-box; animation: pdwave .3s ease-in-out infinite alternate; }
+.av.mood-cheer .arm.l { transform-origin: 100% 100%; }
+.av.mood-cheer .arm.r { transform-origin: 0% 100%; animation-delay: .15s; }
+.av.mood-cry svg { animation: pdsob 1.1s ease-in-out infinite; transform-origin: 50% 100%; }
+.av.mood-cry .tear { animation: pdtear 1.2s ease-in infinite; }
+.av.mood-cry .tear.t2 { animation-delay: .6s; }
+@keyframes pdcheer { from { transform: translateY(0); } to { transform: translateY(-7px); } }
+@keyframes pdwave { from { transform: rotate(-14deg); } to { transform: rotate(14deg); } }
+@keyframes pdsob { 0%, 100% { transform: translateX(0) rotate(0); } 20% { transform: translateX(-1.2px) rotate(-3deg); } 40% { transform: translateY(1px); } 60% { transform: translateX(1.2px) rotate(3deg); } }
+@keyframes pdtear { 0% { transform: translateY(-2px); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(11px); opacity: 0; } }
+/* the first time the podium appears: the steps rise in 3-2-1, the players drop on, confetti falls on the winner */
+.podium.play .pod-step { animation: pdrise .55s cubic-bezier(.2, .8, .2, 1.1) both; }
+.podium.play .pod-top { animation: pddrop .5s cubic-bezier(.3, 1.4, .5, 1) both; }
+.podium.play .p3 .pod-step { animation-delay: .1s; } .podium.play .p3 .pod-top { animation-delay: .55s; }
+.podium.play .p2 .pod-step { animation-delay: .45s; } .podium.play .p2 .pod-top { animation-delay: .9s; }
+.podium.play .p1 .pod-step { animation-delay: .8s; } .podium.play .p1 .pod-top { animation-delay: 1.25s; }
+.podium.play .pod-floor { animation: pddrop .5s 1.6s both; }
+.confetti { position: absolute; inset: 0 25% auto; height: 100%; pointer-events: none; }
+.confetti i { position: absolute; top: -10px; left: var(--x); width: 6px; height: 10px; border-radius: 2px; background: var(--c); opacity: 0; }
+.podium.play .confetti i { animation: pdfall 1.8s calc(1.4s + var(--d)) ease-in 2; }
+@keyframes pdrise { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+@keyframes pddrop { from { transform: translateY(-40px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes pdfall { 0% { opacity: 1; transform: translateY(0) rotate(0); } 100% { opacity: 0; transform: translateY(170px) rotate(540deg); } }
+@media (prefers-reduced-motion: reduce) { .av.mood-cheer svg, .av.mood-cheer .arm, .av.mood-cry svg, .av.mood-cry .tear, .podium.play .pod-step, .podium.play .pod-top, .podium.play .pod-floor, .podium.play .confetti i { animation: none; } }
