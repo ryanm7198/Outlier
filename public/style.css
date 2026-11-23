@@ -1036,3 +1036,172 @@ details.how .steps + .fine { margin-top: 14px; }
 .lg-ren { flex: none; align-self: flex-start; color: var(--you); font-weight: 700; font-size: .88rem; }
 .lg-leave { color: var(--muted); }
 .lg-leave.sure { color: #ff6b6b; border-color: #ff6b6b; }
+
+/* ---- big screen: a TV or laptop showing a party game to the room. Built for 16:9 at 1280-1920px and read from
+   the sofa, so the root size grows with the window and everything below is in rem. */
+.tvhint { justify-content: center; text-align: left; margin-top: 8px; }
+.tvhint a { color: var(--you); font-weight: 700; white-space: nowrap; }
+html.tv { font-size: clamp(15px, 1.3vw, 30px); }
+html.tv body { overflow-x: hidden; font-size: 1rem; }
+html.tv #app { max-width: none; min-height: 100dvh; padding: 1.6rem 2.6rem 2.2rem; gap: 1.4rem; }
+.tv-top { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 1.5rem; }
+.tv-top .logo { font-size: 2rem; }
+.tv-mid { font-size: 1.15rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); text-align: center; }
+.tv-join { justify-self: end; font-size: 1.05rem; color: var(--muted); }
+.tv-join b { color: var(--you); letter-spacing: .14em; font-size: 1.3em; }
+.tv-leave { position: fixed; right: 1rem; bottom: 1rem; z-index: 40; display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 99px;
+  background: var(--card); border: 1px solid var(--line); color: var(--muted); font: 600 13px/1 inherit; opacity: .45; transition: opacity .2s; }
+.tv-leave .ic { width: 14px; height: 14px; }
+.tv-leave:hover, .tv-leave:focus-visible { opacity: 1; }
+.tv-main { flex: 1; display: grid; gap: 1.6rem; min-height: 0; }
+.tv-hint { font-size: 1.3rem; font-weight: 700; color: var(--muted); margin: 0; }
+.tv-hint b { color: var(--text); }
+.tv-sub { font-size: 1.15rem; color: var(--muted); margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: .6rem; flex-wrap: wrap; }
+.tv-sub b { color: var(--text); }
+.tv-h { font-size: 1.6rem; margin: 0; }
+.tv-h small { color: var(--muted); font-weight: 700; margin-left: .3rem; }
+html.tv .card { padding: 1.2rem 1.4rem; }
+html.tv .card h3 { font-size: 1.15rem; }
+
+/* lobby: the code huge on the left, the room filling up on the right */
+.tv-lobby { grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); align-items: center; gap: 3rem; }
+.tv-codebox { display: grid; justify-items: center; gap: 1rem; text-align: center; padding: 2.6rem 2rem; border-radius: 2rem; background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow); }
+.tv-roomcode { font-size: min(9rem, 7.5vw); font-weight: 900; line-height: 1; letter-spacing: .16em; padding-left: .16em; color: var(--you); }
+.tv-setup { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; }
+.tv-setup span { padding: .35rem .9rem; border-radius: 99px; background: var(--card-2); border: 1px solid var(--line-2); font-weight: 700; font-size: 1rem; }
+.tv-setup span:first-child { background: var(--you-soft); border-color: var(--you); color: var(--you); }
+.tv-room { display: grid; gap: 1.6rem; justify-items: center; text-align: center; }
+.tv-crowd { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 1.6rem 2rem; }
+.tv-crowd li { display: grid; justify-items: center; gap: .35rem; width: 8.5rem; transition: opacity .3s; }
+.tv-crowd .av { width: 7rem; height: 7rem; }
+.tv-crowd b { font-size: 1.25rem; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tv-crowd small { font-size: .8rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--you); }
+.tv-crowd li.off { opacity: .4; }
+.tv-crowd li.pop { animation: tvpop .6s cubic-bezier(.2, .8, .2, 1.4) both; animation-delay: var(--d, 0s); }
+@keyframes tvpop { from { opacity: 0; transform: translateY(1.2rem) scale(.4); } }
+.tv-sub .dots i { width: .5rem; height: .5rem; }
+
+/* pick and question: centre stage */
+.tv-stage { align-content: center; justify-items: center; text-align: center; gap: 2rem; }
+.tv-hintbig { font-size: 4.6rem; font-weight: 900; line-height: 1.1; letter-spacing: -.02em; text-wrap: balance; max-width: 24ch; }
+.tv-prompt { margin: 0; font-size: clamp(2.6rem, 4.3vw, 7rem); font-weight: 800; line-height: 1.1; letter-spacing: -.02em; text-wrap: balance; max-width: 24ch; }
+.tv-clock { width: min(64rem, 100%); display: flex; align-items: center; gap: 1.4rem; }
+.tv-clock .timer { height: 1.1rem; }
+.tv-clock .secs { font-size: 3rem; font-weight: 900; min-width: 2.2ch; text-align: right; font-variant-numeric: tabular-nums; line-height: 1; }
+.tv-ticks { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 1.2rem 1.6rem; }
+.tv-ticks li { display: grid; justify-items: center; gap: .25rem; width: 7rem; opacity: .35; filter: grayscale(1); transition: opacity .3s, filter .3s; }
+.tv-ticks li.in { opacity: 1; filter: none; }
+.tv-ticks .av { width: 5rem; height: 5rem; }
+.tv-ticks b { font-size: 1.1rem; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tv-ticks small { font-size: .8rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.tv-ticks li.in small { color: var(--good); }
+.tv-ticks li.pop { animation: tickpop .5s cubic-bezier(.2, .8, .2, 1.4); }
+
+/* the reveal, sized up: cards two across, the rarest answer across the full width */
+.tv-rv { align-content: start; }
+html.tv .rv { min-height: 0; max-width: 78rem; width: 100%; margin: 0 auto; cursor: default; gap: 1.2rem; }
+html.tv .rv h2 { font-size: 2.6rem; }
+html.tv .rv .eyebrow { font-size: 1rem; }
+html.tv .rv-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+html.tv .rv-card { padding: 1rem 1.5rem; overflow: hidden; text-align: left; }
+/* on the TV the crowd chart keeps to the top answers and the ones the room gave, so the page fits the screen */
+html.tv .tv-scores .bars li:nth-child(n+5):not(.picked) { display: none; }
+html.tv .rv-card.finale { grid-column: 1 / -1; padding: 1.6rem 2rem; }
+html.tv .rv-ans { font-size: 2.1rem; }
+html.tv .rv-card.finale .rv-ans { font-size: 3.4rem; }
+html.tv .rv-meta { font-size: 1.1rem; }
+html.tv .rv-who { font-size: 1.2rem; gap: .5rem; }
+html.tv .rv-who .av { width: 2.6rem; height: 2.6rem; }
+html.tv .rv-drum { font-size: 2.2rem; }
+html.tv .rv-stamp { font-size: 1.4rem; padding: .4rem 3rem; top: 1.2rem; right: -2.6rem; }
+
+/* scores and finals: two columns */
+.tv-scores, .tv-final, .tv-potato { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: start; gap: 2.2rem; }
+.tv-col { display: grid; gap: 1.2rem; min-width: 0; }
+.tv-foot { grid-column: 1 / -1; }
+html.tv .race { padding: .6rem 1.2rem; }
+html.tv .racer { column-gap: 1rem; padding: .7rem .4rem; }
+html.tv .racer .av { width: 3.6rem; height: 3.6rem; }
+html.tv .racer .rmain b { font-size: 1.35rem; }
+html.tv .racer .rsub { font-size: 1rem; }
+html.tv .racer .rbar { height: .5rem; }
+html.tv .racer .rside { min-width: 6rem; }
+html.tv .racer .rnum { font-size: 2.8rem; }
+html.tv .racer .rlabel { font-size: .8rem; }
+html.tv .bars .bl { font-size: 1.05rem; }
+html.tv .bars .bt { height: .6rem; }
+.tv-standings { list-style: none; margin: .4rem 0 0; padding: 0; display: grid; gap: .2rem; }
+.tv-standings li { display: grid; grid-template-columns: 2rem auto minmax(0, 1fr) auto; align-items: center; gap: .9rem; padding: .45rem 0; border-bottom: 1px solid var(--line); font-size: 1.2rem; }
+.tv-standings li:last-child { border-bottom: 0; }
+.tv-standings .av { width: 2.6rem; height: 2.6rem; }
+.tv-standings b { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tv-standings b small { display: block; font-size: .8rem; color: var(--muted); font-weight: 600; }
+.tv-standings .num { font-weight: 800; font-variant-numeric: tabular-nums; }
+.tv-standings .rank { color: var(--muted); }
+.tv-win { text-align: center; display: grid; gap: .3rem; }
+.tv-win h1 { font-size: 3.2rem; line-height: 1.05; letter-spacing: -.02em; }
+.tv-best { font-size: 1.3rem; }
+html.tv .awards li { gap: 1rem; padding: .7rem 0; }
+html.tv .award-ic { width: 3rem; height: 3rem; }
+html.tv .award-t b { font-size: 1.15rem; }
+html.tv .award-t small { font-size: .95rem; }
+html.tv .award-w { font-size: 1.2rem; max-width: 14rem; }
+html.tv .podium { padding-top: 1.4rem; }
+html.tv .pod-steps { gap: .6rem; }
+html.tv .pod .av { width: 5.5rem; height: 5.5rem; }
+html.tv .pod.p1 .av { width: 7rem; height: 7rem; }
+html.tv .pod-who b { font-size: 1.3rem; }
+/* players sharing a step shrink so they stand side by side */
+html.tv .pod-top:has(> .pod-who:nth-child(2)) .av { width: 5rem; height: 5rem; }
+html.tv .pod-top:has(> .pod-who:nth-child(3)) .av { width: 3.6rem; height: 3.6rem; }
+html.tv .pod-top:has(> .pod-who:nth-child(2)) b { font-size: 1rem; }
+html.tv .pod-top:has(> .pod-who:nth-child(3)) small { display: none; }
+html.tv .pod-who small { font-size: .95rem; }
+html.tv .pod-step { font-size: 2.6rem; border-radius: 1rem 1rem .3rem .3rem; }
+html.tv .p1 .pod-step { height: 8.5rem; }
+html.tv .p2 .pod-step { height: 6.2rem; }
+html.tv .p3 .pod-step { height: 4.6rem; }
+html.tv .pod-floor .av { width: 3.4rem; height: 3.4rem; }
+html.tv .pod-floor { margin-top: .4rem; padding-top: .4rem; }
+html.tv .confetti i { width: .5rem; height: .8rem; }
+
+/* Fumble: whose turn, big, with the prompt and clock; the table and answers on the right */
+.tv-turn { justify-items: center; text-align: center; align-content: center; gap: 1.4rem; }
+.tv-potato .tv-prompt { font-size: clamp(2.2rem, 3.4vw, 5.4rem); }
+.tv-cur { display: grid; justify-items: center; gap: .3rem; }
+.tv-cur .av { width: 10rem; height: 10rem; background: none; animation: seatbob .55s ease-in-out infinite alternate; }
+.tv-cur b { font-size: 2.4rem; line-height: 1.1; }
+.tv-cur span { font-size: 1.2rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; color: var(--you); }
+html.tv .pt-table { gap: .5rem; }
+html.tv .pt-table li { gap: .9rem; padding: .6rem 1rem; }
+html.tv .pt-table .av { width: 3rem; height: 3rem; }
+html.tv .pt-name b { font-size: 1.2rem; }
+html.tv .pt-hearts { gap: .25rem; }
+html.tv .pt-hearts i { width: 1.25rem; height: 1.15rem; }
+html.tv .pt-pts { font-size: 1.2rem; }
+html.tv .pt-ring { width: 1.2rem; height: 1.2rem; }
+.tv-log #ptLog { max-height: 34vh; overflow: hidden; }
+html.tv .pt-log li { padding: .5rem .8rem; font-size: 1.1rem; }
+html.tv .pt-pop { max-width: 40rem; padding: 1.2rem 2rem; }
+html.tv .pt-pop b { font-size: 2.6rem; }
+html.tv .pt-pop span { font-size: 1.2rem; }
+html.tv .pt-pop .av { width: 2.4rem; height: 2.4rem; }
+.tv-break { justify-items: center; align-content: center; }
+html.tv .pt-break { width: min(46rem, 100%); gap: 1.2rem; }
+html.tv .pt-break .eyebrow { font-size: 1.1rem; }
+html.tv .pt-bh { font-size: 3.4rem; }
+html.tv .pt-roll li { padding: .7rem 1.2rem; gap: .9rem; font-size: 1.2rem; }
+html.tv .pt-roll .av { width: 3rem; height: 3rem; }
+html.tv .pt-roll .pt-hearts i { width: 1.5rem; height: 1.35rem; }
+html.tv .pt-next { font-size: 1.2rem; }
+
+/* a laptop window narrower than a TV: stack the columns */
+@media (max-width: 900px) {
+  .tv-lobby, .tv-scores, .tv-final, .tv-potato { grid-template-columns: minmax(0, 1fr); }
+  html.tv #app { padding: 1.2rem 1rem 3.4rem; }
+  .tv-roomcode { font-size: 6rem; }
+  html.tv .rv-list { grid-template-columns: minmax(0, 1fr); }
+  .tv-top { grid-template-columns: auto 1fr; }
+  .tv-top .tv-mid { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .tv-crowd li.pop, .tv-ticks li.pop, .tv-cur .av { animation: none; } }

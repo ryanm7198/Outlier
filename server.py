@@ -1907,7 +1907,7 @@ def create_room(name):
             break
     room = {"code": code, "players": {}, "seq": 0, "host": None, "phase": "lobby", "round": 0, "rounds": 5,
             "cat": "all", "tags": [], "used": [], "prompt": None, "deadline": 0, "reveal": None, "touched": now,
-            "secs": ROUND_S, "history": [], "asks": []}
+            "secs": ROUND_S, "history": [], "asks": [], "screens": {}, "setup": None}
     room["cap"] = PLUS_ROOM if is_plus() else FREE_ROOM   # set by the host's plan
     token = add_player(room, name)
     room["host"] = token
@@ -1927,6 +1927,29 @@ def get_room(code, token=None):
 
 def online(p):
     return time.time() - p["last"] < 8
+
+
+# ---- big screens: a TV or laptop showing the game to the room. A screen is a view-only token kept apart from the
+# players, so it never counts towards the cap, lock-ins, host handover or results.
+SCREEN_TTL = 30   # seconds without a poll before a screen is forgotten
+MAX_SCREENS = 4
+
+
+def live_screens(room):
+    now = time.time()
+    screens = room.setdefault("screens", {})
+    for sid in [s for s, t in screens.items() if now - t > SCREEN_TTL]:
+        del screens[sid]
+    return screens
+
+
+def add_screen(room):
+    screens = live_screens(room)
+    if len(screens) >= MAX_SCREENS:
+        raise ApiError(400, "That room already has enough screens")
+    sid = secrets.token_hex(8)
+    screens[sid] = time.time()
+    return sid
 
 
 def next_question(room):
@@ -2188,15 +2211,12 @@ def tick(room):
         potato_tick(room)
 
 
-def room_state(room, token):
-    room["players"][token]["last"] = time.time()
-    tick(room)
-    me = room["players"][token]
+def shared_state(room):
+    """Everything about the room that every viewer sees: players' phones and big screens alike."""
     state = {
-        "code": room["code"], "phase": room["phase"], "you": me["n"], "host": room["players"][room["host"]]["n"],
+        "code": room["code"], "phase": room["phase"], "host": room["players"][room["host"]]["n"],
         "round": room["round"], "rounds": room["rounds"], "secs": room["secs"], "doubles": room["cat"] == "all",
-        "label": describe(room["cat"], room["tags"]),
-        "doubleLeft": me["double_left"], "doubling": me["doubling"], "picked": me["picked"],
+        "label": describe(room["cat"], room["tags"]), "screens": len(live_screens(room)),
         "players": [{"n": p["n"], "name": p["name"], "score": p["score"], "online": online(p), "color": p["color"],
                      "look": p.get("look"),
                      "answered": p["answer"] is not None, "picked": p["picked"] or not p["double_left"],
@@ -2217,16 +2237,39 @@ def room_state(room, token):
                          remainingMs=max(0, int((room["deadline"] - max(now, room["turn_start"])) * 1000)),
                          said=len(room["said"]))
     left = max(0, int((room["deadline"] - time.time()) * 1000))
+    if room["phase"] == "lobby" and room.get("setup"):
+        state["setup"] = room["setup"]
     if room["phase"] == "pick":
         state.update(hint=hint_for(room["prompt"]), roundMs=PICK_S * 1000, remainingMs=left)
     if room["phase"] == "question":
         state.update(prompt=PROMPTS[room["prompt"]]["text"], promptId=room["prompt"], hint=hint_for(room["prompt"]),
-                     roundMs=room["secs"] * 1000, yourAnswer=me["answer"], remainingMs=left)
+                     roundMs=room["secs"] * 1000, remainingMs=left)
     if room["phase"] == "reveal":
         state["reveal"] = room["reveal"]
     if room["phase"] == "final":
         state["awards"] = awards_for(room)
     return state
+
+
+def room_state(room, token):
+    room["players"][token]["last"] = time.time()
+    tick(room)
+    me = room["players"][token]
+    state = shared_state(room)
+    state.update(you=me["n"], doubleLeft=me["double_left"], doubling=me["doubling"], picked=me["picked"])
+    if room["phase"] == "question":
+        state["yourAnswer"] = me["answer"]
+    return state
+
+
+def screen_state(room, sid):
+    """A big screen's view. Its polls also move the game on, so the TV keeps pace even if phones are slow."""
+    screens = live_screens(room)
+    if sid not in screens:
+        raise ApiError(410, "Screen expired")
+    screens[sid] = time.time()
+    tick(room)
+    return {**shared_state(room), "screen": True}
 
 
 # ---------------------------------------------------------------- the You page: personal stats and badges
@@ -2428,6 +2471,8 @@ def api_get(path, q):
     if path == "/api/room/state":
         room = get_room(q.get("code"), q.get("pid"))
         return room_state(room, q.get("pid"))
+    if path == "/api/room/screen/state":
+        return screen_state(get_room(q.get("code")), str(q.get("sid") or ""))
     raise ApiError(404, "Not found")
 
 
@@ -2507,6 +2552,12 @@ def api_post(path, body):
     if path == "/api/room/join":
         room = get_room(body.get("code"))
         return {"code": room["code"], "pid": add_player(room, body.get("name"))}
+    if path == "/api/room/screen":   # attach a big screen (a TV or laptop) to a room
+        room = get_room(body.get("code"))
+        return {"code": room["code"], "sid": add_screen(room)}
+    if path == "/api/room/screen/leave":   # so phones stop saying a big screen is watching straight away
+        live_screens(get_room(body.get("code"))).pop(str(body.get("sid") or ""), None)
+        return {"ok": True}
 
     token = body.get("pid")
     room = get_room(body.get("code"), token)
@@ -2600,6 +2651,21 @@ def api_post(path, body):
     elif path == "/api/room/lobby":
         if room["phase"] == "final":
             room["phase"] = "lobby"
+    elif path == "/api/room/setup":   # the host's lobby choices, so a big screen can show what's coming
+        mode = "potato" if body.get("mode") == "potato" else "classic"
+        cat, tags = str(body.get("cat") or "all")[:40], [str(t)[:40] for t in body.get("tags") or []][:20]
+        if not is_plus():
+            cat, tags = "all", []
+
+        def num(k, ok, fallback):
+            try:
+                v = int(body.get(k))
+            except (TypeError, ValueError):
+                return fallback
+            return v if v in ok else fallback
+        room["setup"] = {"mode": mode, "label": describe(cat, tags), "rounds": num("rounds", (3, 5, 7, 10), 5),
+                         "secs": num("secs", POTATO_TIMERS if mode == "potato" else TIMERS, 10 if mode == "potato" else ROUND_S),
+                         "lives": num("lives", POTATO_LIVES, 3)}
     else:
         raise ApiError(404, "Not found")
     return room_state(room, token)

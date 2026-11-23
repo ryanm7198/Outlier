@@ -102,6 +102,7 @@ const ICON = {
   flame: '<path d="M12 21.5c3.9 0 6.5-2.7 6.5-6.3 0-3.7-2.6-5.6-3.6-9.7-1.8 1.4-2.8 3.4-2.9 5.4-1-.9-1.8-2.2-2-3.9-2.1 2.1-3.5 4.9-3.5 8.2 0 3.6 2.6 6.3 5.5 6.3z"/>',
   link: '<path d="M10 14a4 4 0 0 0 5.7 0l3.1-3.1a4 4 0 0 0-5.7-5.7l-1.2 1.2"/><path d="M14 10a4 4 0 0 0-5.7 0l-3.1 3.1a4 4 0 0 0 5.7 5.7l1.2-1.2"/>',
   crown: '<path d="M3 8l4.5 4.5L12 5l4.5 7.5L21 8l-2 11H5z"/>',
+  tv: '<rect x="2.5" y="4.5" width="19" height="13" rx="2"/><path d="M8 21h8M12 17.5V21"/>',
   crosshair: '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>',
   zap: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
   check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
@@ -1650,6 +1651,13 @@ function partyMenu(code = '') {
         <input type="text" id="code" class="code" maxlength="4" placeholder="CODE" value="${esc(code)}" autocapitalize="characters" autocomplete="off" aria-label="Room code">
         <button class="btn${code ? ' primary' : ''}">Join</button>
       </form>
+    </section>
+    <section class="card choice">
+      <div class="choice-h"><span class="mode-ic">${ic('tv')}</span><div><b>Big screen</b><small>Show the game on a TV or laptop</small></div></div>
+      <form id="tvJoin" class="row">
+        <input type="text" id="tvCode" class="code" maxlength="4" placeholder="CODE" autocapitalize="characters" autocomplete="off" aria-label="Room code for the big screen">
+        <button class="btn">Show</button>
+      </form>
     </section>`);
   const go = async (path, body) => {
     const name = $('#name').value.trim();
@@ -1660,6 +1668,7 @@ function partyMenu(code = '') {
   $('#back').onclick = home;
   $('#create').onclick = () => go('/api/room/create', {});
   $('#join').onsubmit = e => { e.preventDefault(); go('/api/room/join', { code: $('#code').value.trim() }); };
+  $('#tvJoin').onsubmit = e => { e.preventDefault(); joinScreen($('#tvCode').value); };
 }
 
 function enterParty(code, pid) {
@@ -1779,6 +1788,22 @@ function renderParty(s, seq = Infinity) {
     const count = list.closest('.card') && list.closest('.card').querySelector('h3 small');
     if (count) count.textContent = s.players.length;
   }
+  const hint = $('#tvHint');
+  if (hint && hint.dataset.on !== String(!!s.screens)) { hint.dataset.on = !!s.screens; hint.innerHTML = tvHintHTML(s); }
+  if (s.phase === 'lobby' && host && s.screens) sendSetup();
+}
+
+const tvHintHTML = s => s.screens
+  ? `${ic('tv')}<span><b>Big screen connected.</b> The answers are revealed on the TV.</span>`
+  : `${ic('tv')}<span>Got a TV? Open <b>${esc(location.host)}</b> on it, choose <b>Big screen</b> and enter <b>${esc(s.code)}</b>.
+      <a href="/?tv=${esc(s.code)}" target="_blank" rel="noopener">Open the big screen in a new tab</a></span>`;
+
+// The host's lobby choices go to the server only while a big screen is watching, so the TV can show what's coming.
+function sendSetup() {
+  const body = partySettings(), key = JSON.stringify(body);
+  if (key === party.setupSent) return;
+  party.setupSent = key;
+  api('/api/room/setup', { code: party.code, pid: party.pid, ...body }).catch(() => { if (party) party.setupSent = null; });
 }
 
 // Your character: a creator screen like an MMO's. A big preview on a spotlit stage, and one row per part with arrows
@@ -1876,6 +1901,7 @@ function partyLobby(s, host) {
       <p class="eyebrow">Room code</p>
       <div class="roomcode">${esc(s.code)}</div>
       <button class="btn slim" id="invite">${ic('share')}<span>Share invite link</span></button>
+      ${host ? '<p class="fine tvhint" id="tvHint"></p>' : ''}
     </section>
     ${host ? `<section class="card settings">
         <div class="setting"><span>Game mode</span><div class="seg" id="mode">
@@ -1925,8 +1951,9 @@ function partyLobby(s, host) {
   $('#start').onclick = startParty;
 }
 
-const startParty = () => partyPost('/api/room/start', { ...(limited() ? { cat: 'all', tags: [] } : apiPick(pick)), mode: party.mode,
+const partySettings = () => ({ ...(limited() ? { cat: 'all', tags: [] } : apiPick(pick)), mode: party.mode,
   rounds: party.rounds, secs: party.mode === 'potato' ? party.turn : party.secs, lives: party.lives });
+const startParty = () => partyPost('/api/room/start', partySettings());
 
 // The settings under the game mode: rounds and answer time for Classic; lives and turn time for Fumble.
 function modeSettings(seg) {
@@ -1964,10 +1991,14 @@ function potatoLog(s) {
 // The intermission after someone runs out of time: everyone's name pops up with their lives, and the one who
 // fumbled watches a heart drop away (and an "Out" stamp land if it was their last).
 function potatoBreak(s) {
+  show(`${partyBar(s, 'Fumble')}${potatoBreakHTML(s)}`);
+}
+
+function potatoBreakHTML(s) {
   const b = s.boom, byN = Object.fromEntries(s.players.map(p => [p.n, p]));
   const rows = s.order.map(n => byN[n]).filter(Boolean);
   const head = b.out ? `${esc(b.name)} is out!` : `${esc(b.name)} fumbled!`;
-  show(`${partyBar(s, 'Fumble')}
+  return `
     <section class="pt-break">
       <p class="eyebrow">${ic('flame')} Time's up</p>
       <h2 class="pt-bh">${head}</h2>
@@ -1979,7 +2010,7 @@ function potatoBreak(s) {
           <span class="pt-name"><b>${esc(p.name)}</b>${lives}</span><span class="pt-pts">${p.score}</span></li>`;
       }).join('')}</ul>
       <p class="muted center pt-next">${b.end ? 'And that\'s the game…' : 'Next prompt coming up…'}</p>
-    </section>`);
+    </section>`;
 }
 
 function partyPotato(s) {
@@ -2035,9 +2066,9 @@ function partyPotato(s) {
 function potatoPop(s) {
   const l = s.log[0];
   const key = l && !l.timeout ? `${l.round}|${l.n}|${l.answer}` : '';
-  const first = party.ptPop === undefined;
-  if (key === party.ptPop) return;
-  party.ptPop = key;
+  const ctx = party || tv, first = ctx.ptPop === undefined;
+  if (key === ctx.ptPop) return;
+  ctx.ptPop = key;
   if (first || !key || l.round !== s.round) return;   // nothing new, or it belongs to an earlier prompt
   const p = s.players.find(x => x.n === l.n) || {};
   document.querySelectorAll('.pt-pop').forEach(x => x.remove());
@@ -2113,8 +2144,9 @@ function podiumHTML(s, ranked, sub) {
   };
   const floor = ranked.filter(r => r.rank > 3);
   const stamp = `${s.code}|${s.round}|${ranked.map(r => r.p.n).join('.')}`;
-  const play = party && party.podium !== stamp;
-  if (party) party.podium = stamp;
+  const ctx = party || tv;
+  const play = ctx && ctx.podium !== stamp;
+  if (ctx) ctx.podium = stamp;
   return `<section class="podium${play ? ' play' : ''}" aria-label="Podium">
     <div class="confetti" aria-hidden="true">${Array.from({ length: 16 }, (_, i) => `<i style="--x:${(i * 37) % 100}%;--d:${(i % 5) * .22}s;--c:${PCOL[i % PCOL.length]}"></i>`).join('')}</div>
     <div class="pod-steps">${step(2)}${step(1)}${step(3)}</div>
@@ -2226,23 +2258,29 @@ function revealCard(s, g, last) {
   </li>`;
 }
 
-function dramaticReveal(s, then) {
-  const r = s.reveal;
-  if (party.revealed === s.round || matchMedia('(prefers-reduced-motion: reduce)').matches) return then();
-  party.revealed = s.round;
-  const groups = revealGroups(s, r);
-  show(`${partyBar(s, `Round ${s.round}/${s.rounds}`)}
+const revealShellHTML = (prompt, skip) => `
     <section class="rv" id="rv">
       <p class="eyebrow center">The answers are in</p>
-      <h2 class="center">${esc(r.prompt)}</h2>
+      <h2 class="center">${esc(prompt)}</h2>
       <ul class="rv-list" id="rvList"></ul>
       <p class="rv-drum center" id="rvDrum" hidden>And the rarest answer…</p>
-      <p class="fine center">Tap to skip</p>
-    </section>`);
-  const list = $('#rvList'), drum = $('#rvDrum'), timers = party.revealTimers = [], key = party.key;
+      ${skip ? '<p class="fine center">Tap to skip</p>' : ''}
+    </section>`;
+
+function dramaticReveal(s, then) {
+  if (party.revealed === s.round || matchMedia('(prefers-reduced-motion: reduce)').matches) return then();
+  party.revealed = s.round;
+  show(`${partyBar(s, `Round ${s.round}/${s.rounds}`)}${revealShellHTML(s.reveal.prompt, true)}`);
+  $('#rv').onclick = runReveal(party, s, then);
+}
+
+// Deals the answers into the reveal one at a time for a phone (ctx = party) or the big screen (ctx = tv).
+// Returns a function that skips straight to the end.
+function runReveal(ctx, s, then) {
+  const groups = revealGroups(s, s.reveal);
+  const list = $('#rvList'), drum = $('#rvDrum'), timers = ctx.revealTimers = [], key = ctx.key;
   let done = false;
-  const finish = () => { if (done) return; done = true; timers.forEach(clearTimeout); if (party && party.key === key && $('#rv')) then(); };
-  $('#rv').onclick = finish;
+  const finish = () => { if (done) return; done = true; timers.forEach(clearTimeout); if ((party || tv) === ctx && ctx.key === key && $('#rv')) then(); };
   let at = 700;
   groups.forEach((g, i) => {
     const last = i === groups.length - 1 && groups.length > 1 && g.x.valid;
@@ -2259,10 +2297,12 @@ function dramaticReveal(s, then) {
     at += last ? 2200 : 1300;
   });
   timers.push(setTimeout(finish, at + 600));
+  return finish;
 }
 
 function partyReveal(s, host) {
-  if (party.revealed !== s.round) return dramaticReveal(s, () => partyRevealScores(s, host));
+  // With a big screen in the room the reveal plays on the TV, and phones go straight to their own result.
+  if (party.revealed !== s.round && !s.screens) return dramaticReveal(s, () => partyRevealScores(s, host));
   partyRevealScores(s, host);
 }
 
@@ -2377,6 +2417,261 @@ function partyFinal(s, host) {
   if (!host) { if ($('#ask')) $('#ask').onclick = () => partyPost('/api/room/ask'); return; }
   $('#again').onclick = () => partyPost('/api/room/rematch');
   $('#lobby').onclick = () => partyPost('/api/room/lobby');
+}
+
+// ------------------------------------------------------------ big screen
+// A TV or laptop showing a party game to the room: big type, read from the sofa, and no controls but Leave. Phones
+// still answer and the host's phone still runs the game. The screen has a view-only token of its own (it is never a
+// player) and polls the room much like a phone does; the server forgets it after 30 seconds without a poll.
+
+let tv = null;
+
+async function joinScreen(code) {
+  code = String(code || '').trim().toUpperCase().slice(0, 4);
+  if (code.length < 4) return toast('Enter the 4-letter room code');
+  const saved = store.get('outlier.screen');
+  if (saved && saved.code === code) return enterScreen(code, saved.sid);   // a refreshed TV keeps its token
+  try {
+    const r = await api('/api/room/screen', { code });
+    enterScreen(r.code, r.sid);
+  } catch (e) {
+    toast(e.message);
+    if (!$('#tvJoin')) { history.replaceState(null, '', location.pathname); home(); }   // a stale ?tv= link
+  }
+}
+
+function enterScreen(code, sid) {
+  stopTimer();
+  store.set('outlier.screen', { code, sid });
+  history.replaceState(null, '', `/?tv=${code}`);
+  document.documentElement.classList.add('tv');
+  tv = { code, sid, key: null, busy: false, revealTimers: [] };
+  tv.poll = setInterval(pollScreen, 1000);
+  pollScreen();
+}
+
+function leaveScreen(msg) {
+  if (!tv) return;
+  api('/api/room/screen/leave', { code: tv.code, sid: tv.sid }).catch(() => {});
+  clearInterval(tv.poll);
+  tv.revealTimers.forEach(clearTimeout);
+  tv = null;
+  stopTimer();
+  store.del('outlier.screen');
+  document.documentElement.classList.remove('tv');
+  history.replaceState(null, '', location.pathname);
+  home();
+  if (msg) toast(msg);
+}
+
+async function pollScreen() {
+  const me = tv;
+  if (!me || me.busy) return;
+  me.busy = true;
+  try {
+    const s = await api(`/api/room/screen/state?code=${me.code}&sid=${me.sid}`);
+    if (tv !== me) return;
+    renderScreen(s);
+    const every = s.phase === 'potato' ? 500 : 1000;
+    if (me.every !== every) { clearInterval(me.poll); me.poll = setInterval(pollScreen, every); me.every = every; }
+  } catch (e) {
+    if (tv !== me) return;
+    if (e.status === 410) {   // the tab slept past the server's 30 seconds: sign the screen back in
+      try {
+        const r = await api('/api/room/screen', { code: me.code });
+        me.sid = r.sid;
+        store.set('outlier.screen', { code: me.code, sid: r.sid });
+      } catch (e2) { if (e2.status === 404) leaveScreen('That room has closed'); }
+    } else if (e.status === 404) leaveScreen('That room has closed');
+  } finally { me.busy = false; }
+}
+
+function renderScreen(s) {
+  const key = [s.phase, s.round, s.phase === 'potato' && !!s.boom && s.boom.turn === s.turnId && s.breakMs > 0].join('|');
+  if (key !== tv.key) {
+    tv.key = key;
+    stopTimer();
+    tv.revealTimers.forEach(clearTimeout);
+    tv.revealTimers = [];
+    tv.seenKey = tv.locked = tv.ptTurn = null;
+    ({ lobby: tvLobby, pick: tvPick, question: tvQuestion, reveal: tvReveal, final: tvFinal, potato: tvPotato })[s.phase](s);
+  }
+  if (s.phase === 'lobby') tvLobbyUpdate(s);
+  if (s.phase === 'pick') tvTicks(s, p => p.picked, on => on ? 'Ready' : 'Deciding…');
+  if (s.phase === 'question') {
+    const n = tvTicks(s, p => p.answered, on => on ? 'Locked in' : 'Thinking…');
+    $('#tvLocked').innerHTML = `<b>${n.in}</b> of ${n.all} locked in · answer on your phone`;
+  }
+  if (s.phase === 'potato') tvPotatoUpdate(s);
+}
+
+// Every TV screen: the logo, what's happening, the join details, and a small Leave in the corner.
+function tvShow(s, mid, body, cls) {
+  show(`<header class="tv-top"><div class="logo">Outl<b>i</b>er</div><span class="tv-mid">${mid}</span>
+      <span class="tv-join">${esc(location.host)} · <b>${esc(s.code)}</b></span></header>
+    <section class="tv-main ${cls}">${body}</section>
+    <button class="tv-leave" id="tvLeave">${ic('x')}<span>Leave</span></button>`);
+  $('#tvLeave').onclick = () => leaveScreen();
+}
+
+const tvRound = s => `Round ${s.round} of ${s.rounds}`;
+const tvClock = () => '<div class="tv-clock"><div class="timer grow"><i id="tbar"></i></div><span class="secs" id="tsecs"></span></div>';
+const tvStandings = s => `<ol class="tv-standings">${rankBy(lanes(s), p => p.score).map(({ p, rank }) => `<li>
+    <span class="num rank">${rank}</span>${avatar(p.name, p.color, p.look)}<b>${esc(p.name)}</b><span class="num">${p.score}</span></li>`).join('')}</ol>`;
+
+function tvSetupHTML(s) {
+  const u = s.setup || { mode: s.mode, label: s.label, rounds: s.rounds, secs: s.secs, lives: s.lives || 3 };
+  const bits = u.mode === 'potato' ? ['Fumble', u.label, `${u.lives} ${u.lives === 1 ? 'life' : 'lives'}`, `${u.secs}s turns`]
+    : ['Classic', u.label, `${u.rounds} rounds`, `${u.secs}s to answer`];
+  return bits.map(b => `<span>${esc(b)}</span>`).join('');
+}
+
+function tvLobby(s) {
+  tvShow(s, 'Lobby', `
+    <div class="tv-codebox">
+      <p class="tv-hint">Join at <b>${esc(location.host)}</b> with code</p>
+      <div class="tv-roomcode">${esc(s.code)}</div>
+      <div class="tv-setup" id="tvSetup"></div>
+    </div>
+    <div class="tv-room">
+      <h2 class="tv-h">Who's in <small id="tvCount"></small></h2>
+      <ul class="tv-crowd" id="tvPlayers"></ul>
+      <p class="tv-sub"><span class="dots"><i></i><i></i><i></i></span> Waiting for the host to start the game</p>
+    </div>`, 'tv-lobby');
+}
+
+// Players pop in as they join; the list is only redrawn when someone joins, leaves or changes their look.
+function tvLobbyUpdate(s) {
+  const setup = tvSetupHTML(s);
+  if ($('#tvSetup').innerHTML !== setup) $('#tvSetup').innerHTML = setup;
+  const key = s.host + '|' + s.players.map(p => `${p.n}.${p.name}.${p.color}.${p.look}.${p.online}`).join('|');
+  if (key === tv.seenKey) return;
+  tv.seenKey = key;
+  const seen = tv.seen || new Set();
+  $('#tvPlayers').innerHTML = s.players.map((p, i) => `<li class="${seen.has(p.n) ? '' : 'pop'}${p.online ? '' : ' off'}" style="--d:${(i % 12) * .06}s">
+    ${avatar(p.name, p.color, p.look)}<b>${esc(p.name)}</b>${p.n === s.host ? '<small>Host</small>' : ''}</li>`).join('');
+  tv.seen = new Set(s.players.map(p => p.n));
+  $('#tvCount').textContent = s.players.length;
+}
+
+// A row of avatars that light up as players get done (decided, or locked in). Returns the counts.
+function tvTicks(s, on, label) {
+  const live = s.players.filter(p => p.online || on(p));
+  const now = new Set(live.filter(on).map(p => p.n)), was = tv.locked;
+  tv.locked = now;
+  const el = $('#tvTicks');
+  if (el) el.innerHTML = live.map(p => `<li class="${now.has(p.n) ? 'in' : ''}${was && now.has(p.n) && !was.has(p.n) ? ' pop' : ''}">
+    ${avatar(p.name, p.color, p.look)}<b>${esc(p.name)}</b><small>${label(now.has(p.n))}</small></li>`).join('');
+  return { in: now.size, all: live.length };
+}
+
+function tvPick(s) {
+  tvShow(s, tvRound(s), `
+    <p class="tv-hint">Next prompt is from</p>
+    <div class="tv-hintbig">${esc(s.hint)}</div>
+    ${tvClock()}
+    <p class="tv-sub">Double down or play it straight? Decide on your phone.</p>
+    <ul class="tv-ticks" id="tvTicks"></ul>`, 'tv-stage');
+  runTimer(s.remainingMs, s.roundMs, () => {});
+}
+
+function tvQuestion(s) {
+  tvShow(s, tvRound(s), `
+    <p class="tv-hint">${esc(s.hint)}</p>
+    <h1 class="tv-prompt">${esc(s.prompt)}</h1>
+    ${tvClock()}
+    <ul class="tv-ticks" id="tvTicks"></ul>
+    <p class="tv-sub" id="tvLocked"></p>`, 'tv-stage');
+  runTimer(s.remainingMs, s.roundMs, () => {});
+}
+
+// The reveal plays once a round on the TV (the phones skip theirs), then the score race and standings.
+function tvReveal(s) {
+  if (tv.revealed === s.round || matchMedia('(prefers-reduced-motion: reduce)').matches) return tvScores(s);
+  tv.revealed = s.round;
+  tvShow(s, tvRound(s), revealShellHTML(s.reveal.prompt, false), 'tv-rv');
+  runReveal(tv, s, () => tvScores(s));
+}
+
+function tvScores(s) {
+  const r = s.reveal;
+  tvShow(s, tvRound(s), `
+    <div class="tv-col">
+      <p class="tv-hint">${esc(r.prompt)}</p>
+      ${raceHTML(s, r)}
+    </div>
+    <div class="tv-col">
+      <section class="card"><h3>Standings</h3>${tvStandings(s)}</section>
+      ${crowdChart(r)}
+    </div>
+    <p class="tv-sub tv-foot">Waiting for the host to ${s.round >= s.rounds ? 'show the final standings' : 'start the next round'}</p>`, 'tv-scores');
+  raceUp();
+}
+
+function tvFinal(s) {
+  if (s.mode === 'potato') return tvPotatoFinal(s);
+  const order = lanes(s), max = (s.rounds + 1) * 100, top = order[0];
+  const winners = order.filter(p => p.score === top.score);
+  tvShow(s, 'Final standings', `
+    <div class="tv-col">
+      <div class="tv-win"><p class="tv-hint">${winners.length > 1 ? 'Furthest from the crowd (tied)' : 'Furthest from the crowd'}</p>
+        <h1>${esc(winners.map(p => p.name).join(' & '))}</h1><p class="tv-sub">${top.score} paces · ${zoneName(top.score, max)}</p></div>
+      ${podiumHTML(s, rankBy(order, p => p.score), p => `${p.score} paces`)}
+    </div>
+    <div class="tv-col">${awardsHTML(s)}<section class="card"><h3>Standings</h3>${tvStandings(s)}</section></div>`, 'tv-final');
+}
+
+function tvPotatoFinal(s) {
+  const byN = Object.fromEntries(s.players.map(p => [p.n, p]));
+  const order = s.standings.map(n => byN[n]).filter(Boolean), win = order[0];
+  const answers = s.log.filter(l => !l.timeout);
+  const best = answers.reduce((a, l) => (!a || l.points > a.points ? l : a), null);
+  tvShow(s, 'Fumble · Final', `
+    <div class="tv-col">
+      <div class="tv-win"><p class="tv-hint">Last one standing</p><h1>${esc(win ? win.name : '')}</h1>
+        <p class="tv-sub">${win ? `${win.lives} ${win.lives === 1 ? 'life' : 'lives'} left · ${win.score} points` : ''}</p></div>
+      ${podiumHTML(s, order.map((p, i) => ({ p, rank: i + 1 })), p => `${p.score} pts`)}
+    </div>
+    <div class="tv-col">
+      ${best ? `<section class="card"><h3>Best answer</h3><p class="tv-best"><b>${esc(best.answer)}</b> by ${esc(best.name)} · +${best.points}${best.outlier ? ' · Outlier!' : ''}</p></section>` : ''}
+      <section class="card"><h3>Standings</h3><ol class="tv-standings">${order.map((p, i) => `<li><span class="num rank">${i + 1}</span>
+        ${avatar(p.name, p.color, p.look)}<b>${esc(p.name)}<small>${p.out ? 'Out' : 'Still standing'}</small></b><span class="num">${p.score}</span></li>`).join('')}</ol></section>
+    </div>`, 'tv-final');
+}
+
+// Fumble: whose turn it is, big, with the prompt and the clock; everyone's lives and the answers so far alongside.
+function tvPotato(s) {
+  if (s.boom && s.boom.turn === s.turnId && s.breakMs > 0) return tvShow(s, `Fumble · Prompt ${s.round}`, potatoBreakHTML(s), 'tv-break');
+  tvShow(s, `Fumble · Prompt ${s.round}`, `
+    <div class="tv-col tv-turn">
+      <p class="tv-hint">${esc(s.hint)}</p>
+      <h1 class="tv-prompt">${esc(s.prompt)}</h1>
+      <div class="tv-cur" id="tvCur"></div>
+      ${tvClock()}
+      <p class="tv-sub"><b id="ptSaid"></b> said so far · answer on your phone when it's your turn</p>
+    </div>
+    <div class="tv-col">
+      <div id="ptTable"></div>
+      <section class="card tv-log"><h3>Said so far</h3><div id="ptLog"></div></section>
+    </div>`, 'tv-potato');
+}
+
+function tvPotatoUpdate(s) {
+  if (!$('#tvCur')) return;
+  $('#ptTable').innerHTML = potatoTable(s);
+  $('#ptLog').innerHTML = potatoLog(s);
+  $('#ptSaid').textContent = s.said;
+  potatoPop(s);
+  if (tv.ptTurn === s.turnId) return;   // the rest only changes when the turn does
+  const turn = tv.ptTurn = s.turnId;
+  const cur = s.players.find(p => p.n === s.current) || {};
+  $('#tvCur').innerHTML = `${avatar(cur.name, cur.color, cur.look)}<b>${esc(cur.name || '')}</b><span>Your turn!</span>`;
+  if (s.startsInMs > 0) {   // a new prompt: time to read it before the clock starts
+    stopTimer();
+    $('#tsecs').textContent = 'Ready';
+    $('#tbar').style.width = '100%';
+    setTimeout(() => { if (tv && tv.ptTurn === turn && $('#tvCur')) runTimer(s.remainingMs, s.roundMs, () => {}); }, s.startsInMs);
+  } else runTimer(s.remainingMs, s.roundMs, () => {});
 }
 
 // ------------------------------------------------------------ You: personal stats and badges
@@ -2615,6 +2910,7 @@ async function pushBoot() {
     history.replaceState(null, '', location.pathname);
     return leaguePage(params.get('league').toUpperCase().slice(0, 6), 'today');
   }
+  if (params.get('tv')) return joinScreen(params.get('tv'));
   const saved = store.get('outlier.party');
   if (saved && (!invite || invite.toUpperCase() === saved.code)) enterParty(saved.code, saved.pid);
   else if (invite) partyMenu(invite.toUpperCase().slice(0, 4));
