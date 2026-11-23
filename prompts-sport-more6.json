@@ -667,6 +667,11 @@
      "5-iron",
      "five iron"
     ],
+    "4-iron",
+    "6-iron",
+    "8-iron",
+    "4-wood",
+    "7-wood",
     [
      "3-iron",
      "three iron"
@@ -698,6 +703,35 @@
     [
      "Utility iron",
      "driving iron"
+    ],
+    "2-iron",
+    "1-iron",
+    "9-wood",
+    "Mashie niblick",
+    "Spade mashie",
+    "Belly putter",
+    [
+     "Long putter",
+     "Broomstick putter"
+    ],
+    "Mallet putter",
+    [
+     "Cavity back iron",
+     "Cavity back"
+    ],
+    [
+     "Muscle back iron",
+     "Muscle back"
+    ],
+    "Lofter",
+    [
+     "Rut iron",
+     "Track iron"
+    ],
+    "Metal wood",
+    [
+     "Persimmon wood",
+     "Persimmon"
     ]
    ]
   },
@@ -731,7 +765,11 @@
     [
      "Snowman",
      "eight"
-    ]
+    ],
+    "Sextuple bogey",
+    "Septuple bogey",
+    "Double par",
+    "Ostrich"
    ]
   },
   {
@@ -769,6 +807,9 @@
      "pin",
      "flagstick"
     ],
+    "Fairway bunker",
+    "Greenside bunker",
+    "Trees",
     [
      "Water hazard",
      "pond",
@@ -810,7 +851,34 @@
      "Creek",
      "burn"
     ],
-    "Pro shop"
+    "Pro shop",
+    "Deep rough",
+    "Ditch",
+    "Gorse",
+    "Heather",
+    "Penalty area",
+    "Lateral hazard",
+    "Island green",
+    "Double green",
+    "Chipping green",
+    "Halfway house",
+    "Starter's hut",
+    [
+     "Tee marker",
+     "Tee markers"
+    ],
+    [
+     "Yardage marker",
+     "Marker post"
+    ],
+    "Ball washer",
+    "Car park",
+    "Bridge",
+    "False front",
+    "Swale",
+    "Waste area",
+    "Front nine",
+    "Back nine"
    ]
   },
   {
@@ -881,11 +949,101 @@
      "Women's British Open",
      "Women's Open"
     ],
+    [
+     "Chevron Championship",
+     "ANA Inspiration",
+     "Kraft Nabisco"
+    ],
+    [
+     "Olympic golf",
+     "Olympics"
+    ],
+    "Italian Open",
+    "Spanish Open",
+    [
+     "Dutch Open",
+     "KLM Open"
+    ],
+    "Abu Dhabi Championship",
+    [
+     "Australian Open (golf)",
+     "Australian Open"
+    ],
+    "South African Open",
+    [
+     "Canadian Open",
+     "RBC Canadian Open"
+    ],
+    [
+     "RBC Heritage",
+     "Heritage"
+    ],
+    [
+     "Charles Schwab Challenge",
+     "Colonial"
+    ],
+    "BMW Championship",
+    [
+     "FedEx St. Jude Championship",
+     "Northern Trust"
+    ],
+    [
+     "WGC Bridgestone",
+     "WGC Invitational"
+    ],
+    "WGC-HSBC Champions",
+    [
+     "Byron Nelson",
+     "CJ Cup Byron Nelson"
+    ],
+    "Houston Open",
+    [
+     "Texas Open",
+     "Valero Texas Open"
+    ],
+    "Mexico Open",
+    "Rocket Mortgage Classic",
+    "Wyndham Championship",
+    "RSM Classic",
+    "3M Open",
+    "Shriners Children's Open",
+    "World Cup of Golf",
+    "Seve Trophy",
+    "Eisenhower Trophy",
+    [
+     "The Amateur Championship",
+     "Amateur Championship"
+    ],
+    "US Amateur",
+    "Senior Open",
+    "Junior Ryder Cup",
+    "Hong Kong Open",
+    "Qatar Masters",
+    "Saudi International",
+    "British Masters",
+    [
+     "Wales Open",
+     "Welsh Open"
+    ],
+    [
+     "European Masters",
+     "Omega European Masters"
+    ],
+    "Portugal Masters",
+    "Nedbank Golf Challenge",
+    "Women's Scottish Open",
+    "CME Group Tour Championship",
+    "LIV Golf",
+    "Hero Cup",
+    "Mayakoba Classic",
     "US Women's Open",
     "Women's PGA Championship",
     "Hero World Challenge",
     "Zurich Classic",
-    "Honda Classic",
+    [
+     "Honda Classic",
+     "Cognizant Classic"
+    ],
     "Farmers Insurance Open",
     [
      "AT&T Pebble Beach Pro-Am",
@@ -1522,52 +1680,6 @@
      "Stich"
     ],
     [
-     "Adriano Panatta",
-     "Panatta"
-    ],
-    [
-     "Andrés Gimeno",
-     "Gimeno"
-    ],
-    [
-     "Andrés Gómez",
-     "Gómez"
-    ],
-    [
-     "Bill Bowrey",
-     "William Bowrey",
-     "Bowrey"
-    ],
-    [
-     "Brian Teacher",
-     "Teacher"
-    ],
-    [
-     "Carlos Moyá",
-     "Moyá"
-    ],
-    [
-     "Gustavo Kuerten",
-     "Guga",
-     "Kuerten"
-    ],
-    [
-     "Jan Kodeš",
-     "Kodeš"
-    ],
-    [
-     "Johan Kriek",
-     "Kriek"
-    ],
-    [
-     "Manuel Orantes",
-     "Orantes"
-    ],
-    [
-     "Mark Edmondson",
-     "Edmondson"
-    ],
-    [
      "Pat Cash",
      "Patrick Cash",
      "Cash"
@@ -1578,20 +1690,66 @@
      "Rafter"
     ],
     [
-     "Petr Korda",
-     "Korda"
+     "Gustavo Kuerten",
+     "Guga",
+     "Kuerten"
     ],
     [
-     "Roscoe Tanner",
-     "Tanner"
+     "Carlos Moyá",
+     "Moyá"
     ],
     [
      "Sergi Bruguera",
      "Bruguera"
     ],
     [
+     "Petr Korda",
+     "Korda"
+    ],
+    [
      "Vitas Gerulaitis",
      "Gerulaitis"
+    ],
+    [
+     "Adriano Panatta",
+     "Panatta"
+    ],
+    [
+     "Manuel Orantes",
+     "Orantes"
+    ],
+    [
+     "Jan Kodeš",
+     "Kodeš"
+    ],
+    [
+     "Roscoe Tanner",
+     "Tanner"
+    ],
+    [
+     "Johan Kriek",
+     "Kriek"
+    ],
+    [
+     "Andrés Gómez",
+     "Gómez"
+    ],
+    [
+     "Mark Edmondson",
+     "Edmondson"
+    ],
+    [
+     "Brian Teacher",
+     "Teacher"
+    ],
+    [
+     "Andrés Gimeno",
+     "Gimeno"
+    ],
+    [
+     "Bill Bowrey",
+     "William Bowrey",
+     "Bowrey"
     ]
    ]
   },
@@ -2201,6 +2359,23 @@
     "Backhand",
     "Baseline",
     "Tiebreak",
+    "Grand Slam",
+    "Second serve",
+    "First serve",
+    "Net",
+    [
+     "Umpire",
+     "Chair umpire"
+    ],
+    "Line judge",
+    [
+     "Ball boy",
+     "Ball kid",
+     "Ball girl"
+    ],
+    "Doubles",
+    "Singles",
+    "Love game",
     "Set",
     "Game",
     "Match point",
@@ -2244,7 +2419,71 @@
     [
      "Racket",
      "racquet"
-    ]
+    ],
+    [
+     "Super tiebreak",
+     "Match tiebreak"
+    ],
+    "Double bagel",
+    "Golden set",
+    "Championship point",
+    "Mini-break",
+    "Break back",
+    "Double break",
+    "Service line",
+    "Sideline",
+    "Doubles alley",
+    "Kick serve",
+    "Slice serve",
+    "Flat serve",
+    "Underarm serve",
+    "Serve and volley",
+    "Chip and charge",
+    "Drop volley",
+    "Inside-out forehand",
+    "Two-handed backhand",
+    "One-handed backhand",
+    "Grip",
+    "Continental grip",
+    "Western grip",
+    "Eastern grip",
+    "Sweet spot",
+    "Strings",
+    "Hindrance",
+    "Code violation",
+    "Time violation",
+    "Medical timeout",
+    "Retirement",
+    "Golden Slam",
+    "Career Grand Slam",
+    "Mixed doubles",
+    "Fifteen",
+    "Thirty",
+    "Forty",
+    "Main draw",
+    "Round robin",
+    "Down the line",
+    "Cross-court",
+    "Backspin",
+    "Shank",
+    [
+     "Return of serve",
+     "Return"
+    ],
+    [
+     "Clay court",
+     "Clay"
+    ],
+    [
+     "Grass court",
+     "Grass"
+    ],
+    "Hard court",
+    [
+     "No-ad scoring",
+     "No-ad"
+    ],
+    "Protected ranking"
    ]
   },
   {
@@ -2270,7 +2509,8 @@
     [
      "Court Philippe-Chatrier",
      "Philippe Chatrier",
-     "Chatrier"
+     "Chatrier",
+     "Court Central"
     ],
     [
      "No. 1 Court",
@@ -2313,7 +2553,17 @@
     [
      "Kia Arena",
      "Hisense Arena"
-    ]
+    ],
+    [
+     "No. 12 Court",
+     "Court 12"
+    ],
+    [
+     "No. 18 Court",
+     "Court 18"
+    ],
+    "Court 17",
+    "1573 Arena"
    ]
   },
   {
@@ -2346,7 +2596,22 @@
     "Spalding",
     "Artengo",
     "Black Knight",
-    "Mantis"
+    "Mantis",
+    "Solinco",
+    "Puma",
+    "Adidas",
+    "Rossignol",
+    "Mizuno",
+    "Kawasaki",
+    "Le Coq Sportif",
+    "Lacoste",
+    "Estusa",
+    "Bancroft",
+    "Carlton",
+    "Toalson",
+    "Angell",
+    "Pro Supex",
+    "Weed"
    ]
   },
   {
@@ -3809,6 +4074,18 @@
     "Red card",
     "Advantage",
     "Tackle",
+    "Breakdown",
+    "Line break",
+    "Intercept",
+    "Chip kick",
+    "Cross-field kick",
+    "Place kick",
+    "Penalty kick",
+    "Haka",
+    "Referee",
+    "Forwards",
+    "Backs",
+    "Pack",
     "Offside",
     "Garryowen",
     "Grubber",
@@ -3866,7 +4143,73 @@
     "Grand Slam",
     "Triple Crown",
     "Wooden spoon",
-    "Replacement"
+    "Replacement",
+    [
+     "50:22",
+     "Fifty-22"
+    ],
+    "Pick and go",
+    "Phase",
+    [
+     "Rolling maul",
+     "Driving maul"
+    ],
+    "Collapsed scrum",
+    "Not straight",
+    "Not releasing",
+    "Hands in the ruck",
+    "Sealing off",
+    "Loop",
+    "Switch",
+    [
+     "Miss pass",
+     "Skip pass"
+    ],
+    "Spin pass",
+    "Pop pass",
+    "Chop tackle",
+    "Choke tackle",
+    [
+     "Tip tackle",
+     "Spear tackle"
+    ],
+    "Dump tackle",
+    "Ankle tap",
+    "Charge down",
+    "Restart",
+    [
+     "Touch judge",
+     "Assistant referee"
+    ],
+    "Blood bin",
+    [
+     "HIA",
+     "Head injury assessment"
+    ],
+    "Bomb squad",
+    "Front row",
+    "Back row",
+    "Tight five",
+    "Back three",
+    "Uncontested scrums",
+    "Held up",
+    "Grounding",
+    "Lifting",
+    "Throw-in",
+    [
+     "Quick throw",
+     "Quick throw-in"
+    ],
+    "Overlap",
+    "Truck and trailer",
+    "Obstruction",
+    "Calcutta Cup",
+    "Webb Ellis Cup",
+    "Captain's challenge",
+    [
+     "Bunker review",
+     "Bunker"
+    ]
    ]
   },
   {
@@ -3929,7 +4272,26 @@
     [
      "Los Leones",
      "Leones"
-    ]
+    ],
+    [
+     "Red Rose",
+     "The Red Rose"
+    ],
+    "Canucks",
+    "Bears",
+    "Sables",
+    "Simbas",
+    [
+     "Éléphants",
+     "Elephants"
+    ],
+    "Black Devils",
+    [
+     "Os Tupis",
+     "Tupis"
+    ],
+    "Black Eagles",
+    "Yacarés"
    ]
   },
   {
@@ -4625,6 +4987,50 @@
      "rope"
     ],
     "Scoreboard",
+    "Chest guard",
+    "Inner gloves",
+    [
+     "Grille",
+     "Faceguard"
+    ],
+    [
+     "Neck guard",
+     "Stem guard"
+    ],
+    [
+     "Sun hat",
+     "Floppy hat"
+    ],
+    "Baggy green",
+    "Sunglasses",
+    [
+     "Sunscreen",
+     "Zinc"
+    ],
+    "Bat cover",
+    "Bat oil",
+    [
+     "Knocking-in mallet",
+     "Mallet"
+    ],
+    [
+     "Shin guards",
+     "Shin pads"
+    ],
+    [
+     "Slip cradle",
+     "Catching cradle"
+    ],
+    "Nets",
+    "Stump camera",
+    "Stump mic",
+    "Scorebook",
+    [
+     "Ball counter",
+     "Counter"
+    ],
+    "Light meter",
+    "Coloured clothing",
     [
      "Wicketkeeping gloves",
      "keeper's gloves",
@@ -4641,7 +5047,8 @@
     ],
     [
      "Bat bag",
-     "kit bag"
+     "kit bag",
+     "Cricket bag"
     ],
     "Red ball",
     "White ball",
@@ -5896,6 +6303,13 @@
      "white ball",
      "white"
     ],
+    "In-off",
+    "Long rest",
+    "Snookered",
+    [
+     "Baize",
+     "Cloth"
+    ],
     [
      "Colours",
      "colors"
@@ -5915,7 +6329,50 @@
     "Push shot",
     "Jump shot",
     "Break-off",
-    "Long pot"
+    "Long pot",
+    "Half-butt",
+    [
+     "Cross rest",
+     "X rest"
+    ],
+    "Re-spotted black",
+    "Foul and a miss",
+    "Total clearance",
+    "Frame ball",
+    "Match ball",
+    "Mid-session interval",
+    "Shot clock",
+    [
+     "Thin cut",
+     "Cut"
+    ],
+    "Positional play",
+    "Cue action",
+    "Ferrule",
+    "Butt",
+    "Shaft",
+    "Nap",
+    "Jaws",
+    "Knuckle",
+    "Middle pocket",
+    "Corner pocket",
+    "Brown spot",
+    "Object ball",
+    "Double kiss",
+    "Escape",
+    [
+     "Split",
+     "Opening the pack"
+    ],
+    "Cluster",
+    "Session",
+    "Concede",
+    "Stance",
+    "Follow through",
+    "Deep screw",
+    "Swerve",
+    "Masse",
+    "Plant shot"
    ]
   },
   {
@@ -5999,7 +6456,23 @@
      "Snookerpool",
      "snooker plus"
     ],
-    "Pocket billiards"
+    "Pocket billiards",
+    "Balkline",
+    "Straight rail",
+    "Five-pin billiards",
+    [
+     "Heyball",
+     "Chinese eight-ball"
+    ],
+    "Bagatelle",
+    [
+     "Killer pool",
+     "Killer"
+    ],
+    "Kelly pool",
+    "Bottle pool",
+    "Cowboy pool",
+    "Ten-red snooker"
    ]
   },
   {
@@ -6011,7 +6484,8 @@
    "answers": [
     [
      "World Championship",
-     "World Snooker Championship"
+     "World Snooker Championship",
+     "Crucible"
     ],
     "UK Championship",
     [
@@ -6059,7 +6533,24 @@
     ],
     "World Open",
     "Dubai Classic",
-    "Thailand Masters"
+    "Thailand Masters",
+    "Turkish Masters",
+    "World Mixed Doubles",
+    "World Seniors Championship",
+    "Australian Goldfields Open",
+    "Wuxi Classic",
+    "Bahrain Championship",
+    "Malta Cup",
+    "World Matchplay",
+    [
+     "Classic",
+     "Mercantile Credit Classic"
+    ],
+    "Asian Open",
+    [
+     "World Cup",
+     "Nations Cup"
+    ]
    ]
   },
   {
@@ -6077,7 +6568,11 @@
      "Nine-ball",
      "9-ball"
     ],
-    "Blackball",
+    [
+     "Blackball",
+     "English pool",
+     "UK eight-ball"
+    ],
     [
      "Straight pool",
      "14.1",
@@ -6125,7 +6620,18 @@
     [
      "Fifteen-ball",
      "15-ball"
-    ]
+    ],
+    "Golf",
+    "Three-ball",
+    "Bottle pool",
+    "Cowboy",
+    "Last pocket",
+    [
+     "Heyball",
+     "Chinese eight-ball"
+    ],
+    "Equal offense",
+    "Scotch doubles"
    ]
   },
   {
@@ -6735,7 +7241,6 @@
      "NRG Stadium",
      "Reliant"
     ],
-    "Bank of America Stadium",
     [
      "Empower Field at Mile High",
      "Mile High",
@@ -6744,10 +7249,14 @@
      "Sports Authority Field"
     ],
     [
-     "EverBank Stadium",
-     "TIAA Bank Field",
-     "Everbank Field",
-     "Jacksonville Municipal Stadium"
+     "M&T Bank Stadium",
+     "Ravens Stadium"
+    ],
+    "U.S. Bank Stadium",
+    [
+     "State Farm Stadium",
+     "University of Phoenix Stadium",
+     "Cardinals Stadium"
     ],
     [
      "Highmark Stadium",
@@ -6755,35 +7264,33 @@
      "New Era Field",
      "Bills Stadium"
     ],
-    [
-     "Huntington Bank Field",
-     "FirstEnergy Stadium",
-     "Cleveland Browns Stadium"
-    ],
-    [
-     "M&T Bank Stadium",
-     "Ravens Stadium"
-    ],
+    "Bank of America Stadium",
     [
      "Nissan Stadium",
      "LP Field",
      "Adelphia Coliseum"
     ],
     [
-     "Northwest Stadium",
-     "FedExField",
-     "Jack Kent Cooke Stadium"
-    ],
-    [
      "Paycor Stadium",
      "Paul Brown Stadium"
     ],
     [
-     "State Farm Stadium",
-     "University of Phoenix Stadium",
-     "Cardinals Stadium"
+     "Huntington Bank Field",
+     "FirstEnergy Stadium",
+     "Cleveland Browns Stadium"
     ],
-    "U.S. Bank Stadium"
+    [
+     "Northwest Stadium",
+     "FedExField",
+     "Jack Kent Cooke Stadium",
+     "FedEx Field"
+    ],
+    [
+     "EverBank Stadium",
+     "TIAA Bank Field",
+     "Everbank Field",
+     "Jacksonville Municipal Stadium"
+    ]
    ]
   },
   {
@@ -6914,7 +7421,21 @@
      "Defensive lineman",
      "DL"
     ],
-    "Special teams"
+    "Special teams",
+    "Left tackle",
+    "Right tackle",
+    "Inside linebacker",
+    [
+     "Nickelback",
+     "Nickel corner"
+    ],
+    "Dime back",
+    "H-back",
+    "Wingback",
+    "Gunner",
+    "Split end",
+    "Flanker",
+    "Return specialist"
    ]
   },
   {
@@ -6988,7 +7509,15 @@
      "Setup man",
      "setup pitcher"
     ],
-    "Middle reliever"
+    "Middle reliever",
+    [
+     "Batter",
+     "Hitter"
+    ],
+    "Leadoff hitter",
+    "Cleanup hitter",
+    "Two-way player",
+    "Position player"
    ]
   },
   {
@@ -7037,7 +7566,34 @@
     "Birmingham Bowl",
     "Camping World Bowl",
     "Redbox Bowl",
-    "Foster Farms Bowl"
+    "Foster Farms Bowl",
+    "Military Bowl",
+    "New Mexico Bowl",
+    "New Orleans Bowl",
+    "Arizona Bowl",
+    "Boca Raton Bowl",
+    "Frisco Bowl",
+    "Cure Bowl",
+    "Myrtle Beach Bowl",
+    "LA Bowl",
+    "First Responder Bowl",
+    "Quick Lane Bowl",
+    "Bahamas Bowl",
+    "Camellia Bowl",
+    "Duke's Mayo Bowl",
+    "Guaranteed Rate Bowl",
+    "Pop-Tarts Bowl",
+    "ReliaQuest Bowl",
+    "Bluebonnet Bowl",
+    "Tangerine Bowl",
+    "Hall of Fame Bowl",
+    "Freedom Bowl",
+    "Humanitarian Bowl",
+    "Motor City Bowl",
+    "Champs Sports Bowl",
+    "Blockbuster Bowl",
+    "Emerald Bowl",
+    "Russell Athletic Bowl"
    ]
   },
   {
@@ -7092,7 +7648,19 @@
      "circle change"
     ],
     "Gyroball",
-    "Vulcan changeup"
+    "Vulcan changeup",
+    "Shuuto",
+    "Kick change",
+    "Splinker",
+    [
+     "Brushback pitch",
+     "Brushback"
+    ],
+    "Emery ball",
+    [
+     "Twelve-six curveball",
+     "12-6 curveball"
+    ]
    ]
   },
   {
@@ -7136,6 +7704,18 @@
     "Roughing the passer",
     "Onside kick",
     "Touchback",
+    "End zone",
+    "Goal line",
+    "Third down",
+    [
+     "Incomplete pass",
+     "Incompletion"
+    ],
+    "Spike",
+    "Overtime",
+    "Playoffs",
+    "Draft",
+    "Super Bowl",
     "Fair catch",
     "Lateral",
     "Handoff",
@@ -7176,7 +7756,52 @@
     [
      "Bye week",
      "bye"
-    ]
+    ],
+    [
+     "Goalposts",
+     "Uprights"
+    ],
+    "Yard line",
+    "Gridiron",
+    "Completion",
+    "Yards after catch",
+    [
+     "Hurry-up offense",
+     "No-huddle"
+    ],
+    "Wildcat",
+    "Spread offense",
+    "West Coast offense",
+    "Zone defense",
+    "Man coverage",
+    "Cover 2",
+    "Prevent defense",
+    "Nickel defense",
+    "Stunt",
+    "Squib kick",
+    "Pooch punt",
+    "Fake punt",
+    "Fake field goal",
+    "Hook and ladder",
+    "Philly Special",
+    "Tush push",
+    "Roughing the kicker",
+    "Unnecessary roughness",
+    "Intentional grounding",
+    "Illegal formation",
+    "Illegal motion",
+    "Clipping",
+    "Horse-collar tackle",
+    "Neutral zone infraction",
+    "Challenge flag",
+    "Instant replay",
+    "Wild card",
+    "Combine",
+    "Salary cap",
+    "Franchise tag",
+    "Pro Bowl",
+    "Lombardi Trophy",
+    "Tailgate"
    ]
   },
   {
@@ -7533,10 +8158,6 @@
      "Cobden"
     ],
     [
-     "Dick Francis",
-     "Francis"
-    ],
-    [
      "Fred Winter",
      "Winter"
     ],
@@ -7544,6 +8165,30 @@
      "Jonjo O'Neill",
      "Jonjo",
      "O'Neill"
+    ],
+    [
+     "Dick Francis",
+     "Francis"
+    ],
+    [
+     "Josh Gifford",
+     "Gifford"
+    ],
+    [
+     "Terry Biddlecombe",
+     "Biddlecombe"
+    ],
+    [
+     "Stan Mellor",
+     "Mellor"
+    ],
+    [
+     "Tommy Stack",
+     "Stack"
+    ],
+    [
+     "Ron Barry",
+     "Barry"
     ],
     [
      "Bob Davies",
@@ -7554,32 +8199,12 @@
      "Thorner"
     ],
     [
-     "Josh Gifford",
-     "Gifford"
-    ],
-    [
-     "Ron Barry",
-     "Barry"
-    ],
-    [
-     "Stan Mellor",
-     "Mellor"
-    ],
-    [
-     "Terry Biddlecombe",
-     "Biddlecombe"
-    ],
-    [
      "Tim Brookshaw",
      "Brookshaw"
     ],
     [
      "Tim Molony",
      "Molony"
-    ],
-    [
-     "Tommy Stack",
-     "Stack"
     ]
    ]
   },
@@ -7797,7 +8422,16 @@
      "Acrobatic gymnastics",
      "acro"
     ],
-    "Aerobic gymnastics"
+    "Aerobic gymnastics",
+    [
+     "Double mini-trampoline",
+     "Double mini"
+    ],
+    "Synchronised trampoline",
+    "Springboard",
+    "Rhythmic group",
+    "Mixed pair",
+    "Individual apparatus"
    ]
   },
   {
@@ -7826,7 +8460,8 @@
     [
      "Real tennis",
      "royal tennis",
-     "court tennis"
+     "court tennis",
+     "Jeu de paume"
     ],
     "Rackets",
     "Beach tennis",
@@ -7852,7 +8487,15 @@
      "Jai alai",
      "pelota"
     ],
-    "Frontenis"
+    "Frontenis",
+    [
+     "Racketball",
+     "Squash 57"
+    ],
+    "Squash tennis",
+    "Spec tennis",
+    "Touchtennis",
+    "Hardball squash"
    ]
   },
   {
@@ -7922,7 +8565,43 @@
     "Tour de Pologne",
     "Eschborn-Frankfurt",
     "Tour of Oman",
-    "Tour de Yorkshire"
+    "Tour de Yorkshire",
+    [
+     "Tour of the Basque Country",
+     "Itzulia"
+    ],
+    [
+     "Clásica San Sebastián",
+     "San Sebastian Classic"
+    ],
+    "Kuurne-Brussels-Kuurne",
+    "Scheldeprijs",
+    "Brabantse Pijl",
+    "Paris-Tours",
+    "Hamburg Cyclassics",
+    [
+     "RideLondon Classic",
+     "London-Surrey Classic"
+    ],
+    "Tour of Turkey",
+    "Arctic Race of Norway",
+    "Saudi Tour",
+    "Tour of Guangxi",
+    [
+     "Renewi Tour",
+     "Benelux Tour"
+    ],
+    "GP Québec",
+    "GP Montréal",
+    "Bretagne Classic",
+    "Tour de France Femmes",
+    "Women's Tour",
+    "World Championships road race",
+    "Olympic road race",
+    "Herald Sun Tour",
+    "Tour of Qatar",
+    "Volta ao Algarve",
+    "Étoile de Bessèges"
    ]
   },
   {
@@ -7978,7 +8657,28 @@
     [
      "Solitaire du Figaro",
      "La Solitaire du Figaro"
-    ]
+    ],
+    "Middle Sea Race",
+    "Round Britain and Ireland Race",
+    "Caribbean 600",
+    "Tall Ships Race",
+    "Kiel Week",
+    "Key West Race Week",
+    [
+     "The Transat",
+     "OSTAR"
+    ],
+    [
+     "BT Global Challenge",
+     "Global Challenge"
+    ],
+    [
+     "Velux 5 Oceans",
+     "Around Alone"
+    ],
+    "Prada Cup",
+    "Olympic sailing",
+    "Little America's Cup"
    ]
   },
   {
@@ -8443,7 +9143,9 @@
      "City of Coventry Stadium",
      "Ricoh Arena",
      "Coventry Stadium"
-    ]
+    ],
+    "Hampton Court Palace",
+    "Box Hill"
    ]
   },
   {
@@ -8460,7 +9162,8 @@
      "Great Britain",
      "GB",
      "England",
-     "United Kingdom"
+     "United Kingdom",
+     "UK"
     ],
     "Uruguay",
     "Hungary",
@@ -8556,7 +9259,37 @@
     "Kenjutsu",
     "Kyudo",
     "Shaolin kung fu",
-    "Shotokan"
+    "Shotokan",
+    "Wushu",
+    "Sanda",
+    "Bokator",
+    "Vovinam",
+    "Kalaripayattu",
+    "Pankration",
+    "Catch wrestling",
+    [
+     "Shorinji Kempo",
+     "Kempo"
+    ],
+    "Hung Gar",
+    "Baguazhang",
+    "Bare-knuckle boxing",
+    "Kudo",
+    "Kurash",
+    "Naginata",
+    "Kobudo",
+    "Hwa Rang Do",
+    "Tang Soo Do",
+    "Ssireum",
+    "Oil wrestling",
+    "Cumberland wrestling",
+    "Cornish wrestling",
+    "Schwingen",
+    "Luta Livre",
+    [
+     "Grappling",
+     "Submission wrestling"
+    ]
    ]
   },
   {
@@ -8609,7 +9342,10 @@
      "Minimumweight",
      "strawweight",
      "mini-flyweight"
-    ]
+    ],
+    "Bridgerweight",
+    "Super-heavyweight",
+    "Atomweight"
    ]
   },
   {

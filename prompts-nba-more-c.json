@@ -250,6 +250,10 @@
 "Davis"
 ],
 [
+"Austin Reaves",
+"Reaves"
+],
+[
 "Derek Fisher",
 "Fisher"
 ],
@@ -307,19 +311,18 @@
 ],
 [
 "Bobby Leonard",
-"Leonard"
+"Leonard",
+"Slick Leonard",
+"Bob Leonard"
 ],
 [
 "Byron Scott",
 "Scott"
 ],
 [
-"Austin Reaves",
-"Reaves"
-],
-[
 "A.C. Green",
-"Green"
+"Green",
+"AC Green"
 ],
 [
 "Elden Campbell",
@@ -359,7 +362,8 @@
 ],
 [
 "Hot Rod Hundley",
-"Hundley"
+"Hundley",
+"Rod Hundley"
 ],
 [
 "Devean George",
@@ -367,7 +371,9 @@
 ],
 [
 "Sasha Vujačić",
-"Vujačić"
+"Vujačić",
+"Sasha Vujacic",
+"Vujacic"
 ],
 [
 "LeRoy Ellis",
@@ -383,7 +389,8 @@
 ],
 [
 "Nick Van Exel",
-"Exel"
+"Exel",
+"Van Exel"
 ],
 [
 "Mel Counts",
@@ -403,7 +410,8 @@
 ],
 [
 "Myer Skoog",
-"Skoog"
+"Skoog",
+"Whitey Skoog"
 ],
 [
 "Dick Schnittker",
@@ -683,6 +691,7 @@
 "Kevin Garnett",
 "Garnett"
 ],
+"Ray Allen",
 [
 "John Havlicek",
 "Havlicek"
@@ -692,11 +701,13 @@
 "Tatum"
 ],
 [
+"Jaylen Brown",
+"Jaylen"
+],
+[
 "Bob Cousy",
 "Cousy"
 ],
-"Jaylen Brown",
-"Ray Allen",
 [
 "Dave Cowens",
 "Cowens"
@@ -713,21 +724,37 @@
 "Marcus Smart",
 "Smart"
 ],
+"Derrick White",
+[
+"Payton Pritchard",
+"Pritchard"
+],
+[
+"Sam Hauser",
+"Hauser"
+],
 [
 "Satch Sanders",
-"Sanders"
+"Sanders",
+"Tom Sanders"
 ],
 [
 "Don Nelson",
 "Nelson"
 ],
 "Sam Jones",
+[
 "Jo Jo White",
+"JoJo White"
+],
 [
 "Bill Sharman",
 "Sharman"
 ],
+[
 "K. C. Jones",
+"KC Jones"
+],
 [
 "Tom Heinsohn",
 "Heinsohn"
@@ -754,15 +781,6 @@
 "Bailey Howell",
 "Howell"
 ],
-[
-"Payton Pritchard",
-"Pritchard"
-],
-[
-"Sam Hauser",
-"Hauser"
-],
-"Derrick White",
 [
 "Don Chaney",
 "Chaney"
@@ -827,7 +845,8 @@
 ],
 [
 "M. L. Carr",
-"Carr"
+"Carr",
+"ML Carr"
 ],
 [
 "Ed Pinckney",
@@ -1044,7 +1063,9 @@
 ],
 [
 "Toni Kukoč",
-"Kukoč"
+"Kukoč",
+"Toni Kukoc",
+"Kukoc"
 ],
 [
 "Coby White",
@@ -1056,7 +1077,9 @@
 ],
 [
 "Nikola Vučević",
-"Vučević"
+"Vučević",
+"Nikola Vucevic",
+"Vucevic"
 ],
 [
 "Patrick Williams",
@@ -1108,7 +1131,8 @@
 ],
 [
 "B. J. Armstrong",
-"Armstrong"
+"Armstrong",
+"BJ Armstrong"
 ],
 [
 "Will Perdue",
@@ -1468,7 +1492,9 @@
 "Joe Ellis",
 [
 "Andris Biedriņš",
-"Biedriņš"
+"Biedriņš",
+"Andris Biedrins",
+"Biedrins"
 ],
 [
 "Joe Barry Carroll",
@@ -1519,7 +1545,8 @@
 ],
 [
 "Sleepy Floyd",
-"Floyd"
+"Floyd",
+"Eric Floyd"
 ],
 [
 "Ernie Beck",
@@ -1724,7 +1751,8 @@
 ],
 [
 "Walt Frazier",
-"Frazier"
+"Frazier",
+"Clyde Frazier"
 ],
 [
 "Willis Reed",
@@ -1763,17 +1791,20 @@
 ],
 [
 "Nathaniel Clifton",
-"Clifton"
+"Clifton",
+"Nat Clifton",
+"Sweetwater Clifton",
+"Sweetwater"
 ],
 [
 "Dave DeBusschere",
 "DeBusschere"
 ],
-"Mitchell Robinson",
 [
 "Julius Randle",
 "Randle"
 ],
+"Mitchell Robinson",
 [
 "Charles Oakley",
 "Oakley"
@@ -2043,7 +2074,9 @@
 [
 "Manu Ginóbili",
 "Ginóbili",
-"Manu"
+"Manu",
+"Manu Ginobili",
+"Ginobili"
 ],
 [
 "George Gervin",
@@ -2073,7 +2106,9 @@
 ],
 [
 "Jakob Pöltl",
-"Pöltl"
+"Pöltl",
+"Jakob Poeltl",
+"Poeltl"
 ],
 [
 "Dejounte Murray",
@@ -2312,6 +2347,10 @@
 "Toby Kimball": [
 "60s",
 "70s"
+],
+"Yao Ming": [
+"00s",
+"10s"
 ]
 },
 "answers": [
@@ -2325,6 +2364,10 @@
 [
 "James Harden",
 "Harden"
+],
+[
+"Yao Ming",
+"Yao"
 ],
 [
 "Tracy McGrady",
@@ -2354,7 +2397,9 @@
 ],
 [
 "Alperen Şengün",
-"Şengün"
+"Şengün",
+"Alperen Sengun",
+"Sengun"
 ],
 [
 "Jae'Sean Tate",
@@ -2635,7 +2680,8 @@
 ],
 [
 "Johnny Kerr",
-"Kerr"
+"Kerr",
+"Red Kerr"
 ],
 [
 "Tobias Harris",
@@ -2651,7 +2697,8 @@
 ],
 [
 "T. J. McConnell",
-"McConnell"
+"McConnell",
+"TJ McConnell"
 ],
 [
 "Al Bianchi",
@@ -2683,7 +2730,8 @@
 ],
 [
 "Lucious Jackson",
-"Jackson"
+"Jackson",
+"Luke Jackson"
 ],
 [
 "Thaddeus Young",
@@ -3015,7 +3063,9 @@
 ],
 [
 "Richard Hamilton",
-"Hamilton"
+"Hamilton",
+"Rip Hamilton",
+"Rip"
 ],
 [
 "John Long",
@@ -3144,7 +3194,8 @@
 ],
 [
 "Frank Brian",
-"Brian"
+"Brian",
+"Frankie Brian"
 ],
 [
 "Chucky Atkins",
@@ -3295,7 +3346,9 @@
 ],
 [
 "Goran Dragić",
-"Dragić"
+"Dragić",
+"Goran Dragic",
+"Dragic"
 ],
 [
 "Duncan Robinson",
@@ -3483,7 +3536,9 @@
 [
 "Luka Dončić",
 "Dončić",
-"Luka"
+"Luka",
+"Luka Doncic",
+"Doncic"
 ],
 [
 "Jason Kidd",
@@ -3514,7 +3569,9 @@
 ],
 [
 "José Juan Barea",
-"Barea"
+"Barea",
+"JJ Barea",
+"J.J. Barea"
 ],
 [
 "Rolando Blackman",
@@ -3839,7 +3896,9 @@
 ],
 [
 "Goran Dragić",
-"Dragić"
+"Dragić",
+"Goran Dragic",
+"Dragic"
 ],
 [
 "Tom Chambers",
@@ -3847,7 +3906,8 @@
 ],
 [
 "P. J. Tucker",
-"Tucker"
+"Tucker",
+"PJ Tucker"
 ],
 [
 "Lamar Green",
@@ -4171,7 +4231,9 @@
 ],
 [
 "Anderson Varejão",
-"Varejão"
+"Varejão",
+"Anderson Varejao",
+"Varejao"
 ],
 [
 "Kevin Love",
@@ -4221,7 +4283,8 @@
 ],
 [
 "Hot Rod Williams",
-"Williams"
+"Williams",
+"John Williams"
 ],
 [
 "Austin Carr",
@@ -4313,7 +4376,10 @@
 ],
 [
 "Aleksandar Pavlović",
-"Pavlović"
+"Pavlović",
+"Sasha Pavlovic",
+"Sasha Pavlović",
+"Pavlovic"
 ]
 ],
 "deep": true
@@ -4512,7 +4578,9 @@
 ],
 [
 "Ersan İlyasova",
-"İlyasova"
+"İlyasova",
+"Ersan Ilyasova",
+"Ilyasova"
 ],
 [
 "Brook Lopez",
@@ -4746,7 +4814,8 @@
 ],
 [
 "Bobby Leonard",
-"Leonard"
+"Leonard",
+"Slick Leonard"
 ],
 [
 "Pat Riley",
@@ -4863,7 +4932,8 @@
 ],
 [
 "Satch Sanders",
-"Sanders"
+"Sanders",
+"Tom Sanders"
 ],
 [
 "Don Nelson",
@@ -4878,7 +4948,10 @@
 "Bill Sharman",
 "Sharman"
 ],
+[
 "K. C. Jones",
+"KC Jones"
+],
 [
 "Tom Heinsohn",
 "Heinsohn"
@@ -4907,11 +4980,14 @@
 ],
 [
 "Chuck Cooper",
-"Cooper"
+"Cooper",
+"Charles Cooper"
 ],
 [
 "Dino Rađa",
-"Rađa"
+"Rađa",
+"Dino Radja",
+"Radja"
 ],
 [
 "Paul Westphal",
@@ -5056,7 +5132,9 @@
 ],
 [
 "Nathaniel Clifton",
-"Clifton"
+"Clifton",
+"Nat Clifton",
+"Sweetwater Clifton"
 ],
 [
 "Dave DeBusschere",
@@ -5089,6 +5167,10 @@
 "King"
 ],
 "Al McGuire",
+[
+"Billy Donovan",
+"Donovan"
+],
 [
 "Bob McAdoo",
 "McAdoo"
@@ -5187,7 +5269,9 @@
 ],
 [
 "Šarūnas Marčiulionis",
-"Marčiulionis"
+"Marčiulionis",
+"Sarunas Marciulionis",
+"Marciulionis"
 ],
 [
 "Bernard King",
@@ -5196,6 +5280,10 @@
 [
 "Andy Phillip",
 "Phillip"
+],
+[
+"Larry Costello",
+"Costello"
 ],
 [
 "Jerry Lucas",
@@ -5239,12 +5327,17 @@
 [
 "Manu Ginóbili",
 "Ginóbili",
-"Manu"
+"Manu",
+"Manu Ginobili"
 ],
 [
 "Dennis Rodman",
 "Rodman",
 "The Worm"
+],
+[
+"Pau Gasol",
+"Gasol"
 ],
 [
 "George Gervin",
@@ -5277,6 +5370,10 @@
 [
 "Doc Rivers",
 "Rivers"
+],
+[
+"George Karl",
+"Karl"
 ],
 [
 "Mike D'Antoni",
@@ -5381,7 +5478,9 @@
 ],
 [
 "Nathaniel Clifton",
-"Clifton"
+"Clifton",
+"Nat Clifton",
+"Sweetwater Clifton"
 ],
 [
 "Bob McAdoo",
@@ -5430,6 +5529,10 @@
 "Chamberlain",
 "Wilt",
 "The Big Dipper"
+],
+[
+"Dwight Howard",
+"Howard"
 ],
 [
 "Hal Greer",
@@ -5497,6 +5600,10 @@
 "Howell"
 ],
 [
+"Larry Costello",
+"Costello"
+],
+[
 "Toni Kukoč",
 "Kukoč"
 ],
@@ -5525,6 +5632,10 @@
 "Akeem Olajuwon",
 "Akeem",
 "Hakeem"
+],
+[
+"Yao Ming",
+"Yao"
 ],
 [
 "Scottie Pippen",
@@ -5564,6 +5675,11 @@
 "Malone"
 ],
 [
+"Rudy Tomjanovich",
+"Tomjanovich",
+"Rudy T"
+],
+[
 "Ralph Sampson",
 "Sampson"
 ],
@@ -5578,6 +5694,10 @@
 [
 "Pat Riley",
 "Riley"
+],
+[
+"Rick Adelman",
+"Adelman"
 ]
 ],
 "deep": true
@@ -5701,7 +5821,8 @@
 ],
 [
 "Satch Sanders",
-"Sanders"
+"Sanders",
+"Tom Sanders"
 ],
 [
 "Don Nelson",
@@ -5716,7 +5837,10 @@
 "Bill Sharman",
 "Sharman"
 ],
+[
 "K. C. Jones",
+"KC Jones"
+],
 [
 "Tom Heinsohn",
 "Heinsohn"
@@ -5809,15 +5933,19 @@
 ],
 [
 "Dennis Schröder",
-"Schröder"
+"Schröder",
+"Dennis Schroder",
+"Schroder"
 ],
 [
 "Sviatoslav Mykhailiuk",
-"Mykhailiuk"
+"Mykhailiuk",
+"Svi Mykhailiuk"
 ],
 [
 "Moritz Wagner",
-"Wagner"
+"Wagner",
+"Moe Wagner"
 ],
 [
 "Mel Counts",

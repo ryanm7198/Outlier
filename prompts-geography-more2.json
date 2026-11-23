@@ -78,6 +78,12 @@
     "Kafue",
     "Luangwa",
     "Shire",
+    "Ruzizi",
+    "Logone",
+    "Kaduna",
+    "Sokoto",
+    "Ogun",
+    "Osun",
     [
      "Cubango",
      "Kavango"
@@ -126,7 +132,28 @@
      "Ewaso Nyiro"
     ],
     "Galana",
-    "Athi"
+    "Athi",
+    "Kwilu",
+    "Lulua",
+    "Luvua",
+    "Mbomou",
+    "Kouilou",
+    "Faleme",
+    "Bani",
+    "Molopo",
+    "Nossob",
+    "Breede",
+    "Gamtoos",
+    "Sundays River",
+    "Swakop",
+    "Kuiseb",
+    [
+     "Fish River",
+     "namibian fish river"
+    ],
+    "Nzoia",
+    "Komadugu Yobe",
+    "Ruvubu"
    ]
   },
   {
@@ -151,6 +178,7 @@
     "Okavango Delta",
     "Chobe",
     "Amboseli",
+    "Nairobi National Park",
     "Tsavo",
     [
      "Ngorongoro",
@@ -239,6 +267,18 @@
      "Lake Manyara",
      "Manyara"
     ],
+    "Arusha National Park",
+    "Kilimanjaro National Park",
+    "Mikumi",
+    "Hell's Gate",
+    "Madikwe",
+    "Phinda",
+    "Tsitsikamma",
+    "Shamwari",
+    "Central Kalahari",
+    "Makgadikgadi",
+    "Ras Mohammed",
+    "Bazaruto",
     "Ol Pejeta",
     "Laikipia",
     "Mount Kenya National Park",
@@ -288,7 +328,36 @@
     [
      "Mosi-oa-Tunya",
      "Victoria Falls National Park"
-    ]
+    ],
+    "Meru National Park",
+    "Lake Bogoria",
+    "Katavi",
+    "Augrabies Falls",
+    "Mountain Zebra National Park",
+    "Golden Gate Highlands",
+    "Marakele",
+    "Mapungubwe",
+    "Timbavati",
+    "Klaserie",
+    "Manyeleti",
+    "Nxai Pan",
+    "Bwabwata",
+    "Matusadona",
+    "Gonarezhou",
+    "North Luangwa",
+    "Ranomafana",
+    "Andasibe",
+    "Isalo",
+    "Masoala",
+    "Tsingy de Bemaraha",
+    "Sibiloi",
+    "Nechisar",
+    "Awash National Park",
+    "Niassa",
+    "Quirimbas",
+    "Lake Malawi National Park",
+    "Okonjima",
+    "Sossusvlei"
    ]
   },
   {
@@ -521,7 +590,11 @@
     "Maseru",
     "Bloemfontein",
     "Mbabane",
-    "Lobamba"
+    "Lobamba",
+    [
+     "Ciudad de la Paz",
+     "oyala"
+    ]
    ]
   },
   {
@@ -594,6 +667,19 @@
      "Djibouti City"
     ],
     "Walvis Bay",
+    [
+     "Zanzibar",
+     "stone town"
+    ],
+    "Mossel Bay",
+    "Swakopmund",
+    "Lamu",
+    "Malindi",
+    "Tanga",
+    "Calabar",
+    "Bata",
+    "Mindelo",
+    "Praia",
     "Tunis",
     "Algiers",
     "Tripoli",
@@ -643,7 +729,65 @@
      "Pointe-Noire",
      "Pointe Noire"
     ],
-    "Kribi"
+    "Kribi",
+    "Bissau",
+    [
+     "Victoria",
+     "port victoria"
+    ],
+    "Moroni",
+    "Mahajanga",
+    [
+     "Toliara",
+     "tulear"
+    ],
+    [
+     "Antsiranana",
+     "diego suarez"
+    ],
+    "Saint-Denis",
+    "Lüderitz",
+    "Port Nolloth",
+    "Essaouira",
+    "Larache",
+    "Nador",
+    "Kenitra",
+    "Mohammedia",
+    "Ceuta",
+    "Melilla",
+    "Tobruk",
+    "Sirte",
+    "Ras Lanuf",
+    "Gabès",
+    "Sousse",
+    "Bonny",
+    "Warri",
+    "Apapa",
+    "Lekki",
+    "Cape Coast",
+    "San Pedro",
+    "Buchanan",
+    "Harper",
+    "Malabo",
+    "São Tomé",
+    "Cabinda",
+    "Namibe",
+    "Soyo",
+    "Quelimane",
+    "Pemba",
+    "Inhambane",
+    "Mtwara",
+    "Kismayo",
+    "Bosaso",
+    "Assab",
+    "Suakin",
+    "Safaga",
+    "Ain Sokhna",
+    [
+     "Rosetta",
+     "rashid"
+    ],
+    "Hurghada"
    ]
   },
   {
@@ -655,6 +799,10 @@
    "text": "Name one of South Africa's nine provinces, or one of its three capital cities",
    "answers": [
     "Cape Town",
+    [
+     "Pretoria",
+     "Tshwane"
+    ],
     "Gauteng",
     "Western Cape",
     [
@@ -662,17 +810,13 @@
      "Kwazulu Natal",
      "Natal"
     ],
-    [
-     "Pretoria",
-     "Tshwane"
-    ],
+    "Bloemfontein",
     "Eastern Cape",
-    "Free State",
     "Limpopo",
+    "Free State",
     "Mpumalanga",
-    "North West",
     "Northern Cape",
-    "Bloemfontein"
+    "North West"
    ]
   },
   {
@@ -701,7 +845,10 @@
     "East London",
     "Pietermaritzburg",
     "Kimberley",
-    "Polokwane",
+    [
+     "Polokwane",
+     "pietersburg"
+    ],
     [
      "Nelspruit",
      "Mbombela"
@@ -709,6 +856,19 @@
     "Stellenbosch",
     "Soweto",
     "Sandton",
+    "Sun City",
+    [
+     "Jeffreys Bay",
+     "j bay"
+    ],
+    "Simon's Town",
+    "Hout Bay",
+    "Muizenberg",
+    "Camps Bay",
+    [
+     "Umtata",
+     "mthatha"
+    ],
     "Knysna",
     "George",
     "Paarl",
@@ -745,7 +905,64 @@
     "Umhlanga",
     "Somerset West",
     "Worcester",
-    "Swellendam"
+    "Swellendam",
+    [
+     "Mahikeng",
+     "mafikeng"
+    ],
+    "Klerksdorp",
+    "Krugersdorp",
+    "Roodepoort",
+    "Randburg",
+    "Kempton Park",
+    "Alberton",
+    "Tembisa",
+    "Khayelitsha",
+    "Mitchells Plain",
+    "Umlazi",
+    "Pinetown",
+    [
+     "Witbank",
+     "emalahleni"
+    ],
+    "Middelburg",
+    "Secunda",
+    "Tzaneen",
+    "Phalaborwa",
+    "Hazyview",
+    "White River",
+    "Thohoyandou",
+    "Musina",
+    "Bela-Bela",
+    "Margate",
+    "Scottburgh",
+    "Langebaan",
+    "Saldanha",
+    "Clanwilliam",
+    "Springbok",
+    "Beaufort West",
+    "Robertson",
+    "Montagu",
+    "Wilderness",
+    "Sedgefield",
+    "St Francis Bay",
+    "Port Alfred",
+    "Bellville",
+    "Durbanville",
+    "Dundee",
+    "Vryheid",
+    "Harrismith",
+    "Parys",
+    "Clarens",
+    "Sasolburg",
+    "Kroonstad",
+    "Hartbeespoort",
+    "Howick",
+    "Estcourt",
+    [
+     "Queenstown",
+     "komani"
+    ]
    ]
   },
   {
@@ -787,6 +1004,18 @@
     "Dahab",
     "Marsa Alam",
     "Siwa",
+    "New Cairo",
+    [
+     "6th of October City",
+     "sixth of october"
+    ],
+    "Sheikh Zayed City",
+    "Helwan",
+    "Ain Sokhna",
+    [
+     "Rosetta",
+     "rashid"
+    ],
     "El Gouna",
     "Taba",
     "Nuweiba",
@@ -808,7 +1037,20 @@
     [
      "Arish",
      "El Arish"
-    ]
+    ],
+    "New Administrative Capital",
+    "Shubra El Kheima",
+    "Saint Catherine",
+    "Ras Sudr",
+    "El Tor",
+    "Sahl Hasheesh",
+    "Dakhla",
+    "Kharga",
+    "Esna",
+    "Mallawi",
+    "Rafah",
+    "Port Fuad",
+    "Kafr el-Dawwar"
    ]
   },
   {
@@ -848,6 +1090,20 @@
     "Safi",
     "Kenitra",
     "Nador",
+    "Al Hoceima",
+    "Taghazout",
+    "Saidia",
+    "Mohammedia",
+    "Larache",
+    "Taroudant",
+    "Tiznit",
+    "Zagora",
+    "Ait Benhaddou",
+    "Imlil",
+    "Tinghir",
+    "Errachidia",
+    "Beni Mellal",
+    "Moulay Idriss",
     "Tunis",
     "Sousse",
     "Hammamet",
@@ -868,7 +1124,28 @@
     "Sidi Bou Said",
     "Yasmine Hammamet",
     "Zarzis",
-    "Tataouine"
+    "Tataouine",
+    "El Jem",
+    "Gammarth",
+    "La Marsa",
+    "Kelibia",
+    "Nefta",
+    "Gafsa",
+    "Medenine",
+    "Kasserine",
+    "Sidi Bouzid",
+    "Ain Draham",
+    "Le Kef",
+    "Kebili",
+    "Ariana",
+    "Taza",
+    "Settat",
+    "Khouribga",
+    "Midelt",
+    "Azrou",
+    "Mirleft",
+    "Sidi Ifni",
+    "Guelmim"
    ]
   },
   {
@@ -898,6 +1175,9 @@
      "Zanzibar City",
      "Stone Town"
     ],
+    "Nungwi",
+    "Kendwa",
+    "Paje",
     "Arusha",
     "Dodoma",
     "Mwanza",
@@ -931,7 +1211,45 @@
     "Mtwara",
     "Songea",
     "Singida",
-    "Shinyanga"
+    "Shinyanga",
+    "Jambiani",
+    "Kiwengwa",
+    "Matemwe",
+    "Karatu",
+    "Mto wa Mbu",
+    "Bukoba",
+    "Sumbawanga",
+    "Mpanda",
+    "Kahama",
+    "Geita",
+    "Babati",
+    "Lushoto",
+    "Pangani",
+    "Kisii",
+    "Bungoma",
+    "Busia",
+    "Kitui",
+    "Kiambu",
+    "Ruiru",
+    "Limuru",
+    "Wajir",
+    "Mandera",
+    "Marsabit",
+    "Isiolo",
+    "Lodwar",
+    "Voi",
+    "Ukunda",
+    "Kwale",
+    "Shimoni",
+    "Homa Bay",
+    "Migori",
+    "Narok",
+    "Kajiado",
+    "Namanga",
+    "Athi River",
+    "Mtwapa",
+    "Nyali",
+    "Bamburi"
    ]
   },
   {
@@ -994,7 +1312,8 @@
     [
      "Colombo",
      "Sri Jayawardenepura Kotte",
-     "Kotte"
+     "Kotte",
+     "sri jayawardenepura"
     ],
     [
      "Malé",
@@ -1082,6 +1401,11 @@
      "Lira",
      "Turkish lira"
     ],
+    [
+     "Rouble",
+     "ruble"
+    ],
+    "Euro",
     "Ringgit",
     "Rupiah",
     [
@@ -1141,7 +1465,8 @@
     [
      "Somoni",
      "Tajik somoni"
-    ]
+    ],
+    "Toman"
    ]
   },
   {
@@ -1236,6 +1561,26 @@
     ],
     "Japanese Alps",
     [
+     "Titiwangsa",
+     "main range"
+    ],
+    "Crocker Range",
+    "Taebaek Mountains",
+    [
+     "Central Mountain Range",
+     "chungyang range"
+    ],
+    [
+     "Shivalik",
+     "siwalik",
+     "siwaliks",
+     "shivaliks"
+    ],
+    [
+     "Nilgiri Hills",
+     "nilgiris"
+    ],
+    [
      "Kopet Dag",
      "Kopet Dagh"
     ],
@@ -1260,7 +1605,47 @@
     [
      "Cardamom Mountains",
      "Cardamom"
-    ]
+    ],
+    "Hindu Raj",
+    "Khasi Hills",
+    "Garo Hills",
+    "Naga Hills",
+    "Patkai",
+    "Cordillera Central",
+    "Sierra Madre",
+    "Yablonovy",
+    "Dzhugdzhur",
+    "Koryak Mountains",
+    "Kolyma Mountains",
+    "Altyn-Tagh",
+    "Qilian",
+    "Nyenchen Tanglha",
+    [
+     "Transhimalaya",
+     "gangdise"
+    ],
+    "Tanggula",
+    "Bayan Har",
+    "Wuyi Mountains",
+    "Taihang",
+    "Yin Mountains",
+    "Helan Mountains",
+    "Toba Kakar",
+    [
+     "Spin Ghar",
+     "safed koh"
+    ],
+    "Paropamisus",
+    "Lesser Caucasus",
+    "Anti-Taurus",
+    "Nur Mountains",
+    "Asir Mountains",
+    "Sarawat Mountains",
+    "Dhofar Mountains",
+    "Tenasserim Hills",
+    "Chin Hills",
+    "Shan Hills",
+    "Ou Mountains"
    ]
   },
   {
@@ -1316,6 +1701,11 @@
     [
      "Negev",
      "Negev Desert"
+    ],
+    "Wadi Rum",
+    [
+     "Rann of Kutch",
+     "kutch"
     ],
     [
      "Dasht-e Kavir",
@@ -1383,6 +1773,21 @@
     [
      "Wahiba Sands",
      "Sharqiya Sands"
+    ],
+    [
+     "Lop Desert",
+     "lop nur"
+    ],
+    "Mu Us",
+    "Kubuqi",
+    "Dasht-e Margo",
+    "Maranjab",
+    "Moyynkum",
+    "Ryn Desert",
+    "Black Desert",
+    [
+     "Arava",
+     "arabah"
     ]
    ]
   },
@@ -1413,7 +1818,8 @@
     "Sumba",
     [
      "New Guinea",
-     "Papua"
+     "Papua",
+     "west papua"
     ],
     "Halmahera",
     [
@@ -1432,6 +1838,14 @@
      "Gili Islands",
      "Gili"
     ],
+    "Nusa Penida",
+    "Nusa Lembongan",
+    "Raja Ampat",
+    [
+     "Moluccas",
+     "maluku",
+     "spice islands"
+    ],
     "Luzon",
     "Mindanao",
     "Palawan",
@@ -1444,6 +1858,9 @@
     "Panay",
     "Mindoro",
     "Siargao",
+    "El Nido",
+    "Mactan",
+    "Corregidor",
     "Masbate",
     "Catanduanes",
     "Camiguin",
@@ -1464,7 +1881,58 @@
     "Romblon",
     "Guimaras",
     "Dinagat",
-    "Tawi-Tawi"
+    "Tawi-Tawi",
+    "Waigeo",
+    "Nusa Ceningan",
+    "Bunaken",
+    "Wakatobi",
+    [
+     "Togean Islands",
+     "togian"
+    ],
+    "Kei Islands",
+    "Aru Islands",
+    "Tanimbar",
+    "Banda Islands",
+    "Simeulue",
+    [
+     "Weh",
+     "pulau weh"
+    ],
+    "Riau Islands",
+    "Natuna",
+    "Siberut",
+    "Enggano",
+    "Savu",
+    "Rote",
+    "Wetar",
+    "Obi",
+    "Sangihe",
+    "Talaud",
+    "Banggai",
+    "Bawean",
+    "Karimunjawa",
+    "Thousand Islands",
+    "Moyo",
+    "Bantayan",
+    "Malapascua",
+    "Panglao",
+    "Sibuyan",
+    "Ticao",
+    "Polillo",
+    "Burias",
+    "Busuanga",
+    "Culion",
+    "Bucas Grande",
+    "Biliran",
+    "Lubang",
+    "Cuyo",
+    "Balabac",
+    "Babuyan Islands",
+    "Samal",
+    "Olango",
+    "Apo Island",
+    "Sulu"
    ]
   },
   {
@@ -1483,7 +1951,10 @@
      "Yellow River",
      "Huang He"
     ],
-    "Mekong",
+    [
+     "Mekong",
+     "lancang"
+    ],
     [
      "Ganges",
      "Ganga"
@@ -1541,6 +2012,10 @@
      "Hooghly",
      "Hugli"
     ],
+    "Padma",
+    "Meghna",
+    "Ural",
+    "Angara",
     [
      "Red River",
      "Hong River",
@@ -1602,7 +2077,94 @@
     "Cagayan",
     "Pasig",
     "Agno",
-    "Pampanga"
+    "Pampanga",
+    "Aldan",
+    "Vilyuy",
+    "Indigirka",
+    "Yana",
+    "Khatanga",
+    "Anadyr",
+    "Ussuri",
+    "Tobol",
+    "Ishim",
+    "Selenga",
+    "Kerulen",
+    "Orkhon",
+    [
+     "Xi River",
+     "xi jiang"
+    ],
+    "Min",
+    "Jialing",
+    "Wei",
+    "Gan",
+    "Xiang",
+    "Jinsha",
+    "Hai",
+    "Sumida",
+    "Kiso",
+    "Ishikari",
+    "Kitakami",
+    "Mogami",
+    "Imjin",
+    "Taedong",
+    "Geum",
+    "Sabarmati",
+    "Mahi",
+    "Tungabhadra",
+    "Gandak",
+    "Kosi",
+    "Ghaghara",
+    "Son",
+    "Chambal",
+    "Betwa",
+    "Teesta",
+    "Bagmati",
+    "Karnali",
+    "Chindwin",
+    "Sittaung",
+    "Ping",
+    "Nan",
+    "Mun",
+    "Tonle Sap",
+    "Bassac",
+    [
+     "Perfume River",
+     "huong river"
+    ],
+    "Saigon River",
+    "Klang",
+    "Rajang",
+    "Musi",
+    "Batang Hari",
+    "Mamberamo",
+    "Litani",
+    "Yarmouk",
+    [
+     "Great Zab",
+     "zab"
+    ],
+    "Diyala",
+    "Shatt al-Arab",
+    "Sakarya",
+    "Seyhan",
+    "Ceyhan",
+    [
+     "Menderes",
+     "meander",
+     "maeander"
+    ],
+    "Coruh",
+    "Hari Rud",
+    "Murghab",
+    "Atrek",
+    "Sefid Rud",
+    "Zayandeh",
+    "Panj",
+    "Vakhsh",
+    "Naryn",
+    "Chu",
+    "Talas"
    ]
   },
   {
@@ -1644,7 +2206,8 @@
     [
      "Ha Long",
      "Halong",
-     "Ha Long Bay"
+     "Ha Long Bay",
+     "halong bay"
     ],
     "Phu Quoc",
     "Bien Hoa",
@@ -1656,6 +2219,11 @@
     "Vinh",
     "Ninh Binh",
     "Mui Ne",
+    "Cat Ba",
+    "Tam Coc",
+    "Phong Nha",
+    "Ben Tre",
+    "Cu Chi",
     "Con Dao",
     "Dong Hoi",
     "Pleiku",
@@ -1673,7 +2241,29 @@
     "My Tho",
     "Chau Doc",
     "Ca Mau",
-    "Tay Ninh"
+    "Tay Ninh",
+    "Bac Ninh",
+    "Thai Nguyen",
+    "Hai Duong",
+    "Quang Ngai",
+    "Tuy Hoa",
+    "Kon Tum",
+    "Bao Loc",
+    "Soc Trang",
+    "Bac Lieu",
+    "Vinh Long",
+    "Sa Dec",
+    "Ha Tien",
+    "Mong Cai",
+    "Lang Son",
+    "Tam Dao",
+    "Ho Tram",
+    "Long Hai",
+    "Phan Rang",
+    "Lang Co",
+    "Duong Dong",
+    "Dong Ha",
+    "Thu Dau Mot"
    ]
   },
   {
@@ -1733,6 +2323,21 @@
      "Kas"
     ],
     "Kalkan",
+    "Hisaronu",
+    "Gumbet",
+    "Bitez",
+    "Yalikavak",
+    "Gundogan",
+    "Turunc",
+    "Lara",
+    "Altinkum",
+    "Alacati",
+    "Uzungol",
+    [
+     "Gallipoli",
+     "gelibolu"
+    ],
+    "Denizli",
     [
      "Ölüdeniz",
      "Oludeniz"
@@ -1795,7 +2400,104 @@
      "Antioch"
     ],
     "Tarsus",
-    "Manavgat"
+    "Manavgat",
+    "Konyaalti",
+    "Kadriye",
+    "Bogazkent",
+    "Avsallar",
+    "Mahmutlar",
+    "Okurcalar",
+    "Incekum",
+    "Kizilot",
+    "Colakli",
+    "Sorgun",
+    "Kiris",
+    "Camyuva",
+    "Tekirova",
+    "Beldibi",
+    "Goynuk",
+    "Olympos",
+    "Cirali",
+    "Demre",
+    "Finike",
+    "Patara",
+    "Sarigerme",
+    "Ortaca",
+    "Koycegiz",
+    "Bozburun",
+    "Selimiye",
+    "Orhaniye",
+    "Akbuk",
+    "Gumuldur",
+    "Ozdere",
+    "Foca",
+    "Dikili",
+    "Bergama",
+    "Assos",
+    "Bozcaada",
+    "Uchisar",
+    "Nevsehir",
+    [
+     "Izmit",
+     "kocaeli"
+    ],
+    [
+     "Adapazari",
+     "sakarya"
+    ],
+    "Tekirdag",
+    "Aydin",
+    "Mugla",
+    "Manisa",
+    "Usak",
+    [
+     "Afyon",
+     "afyonkarahisar"
+    ],
+    "Kutahya",
+    "Isparta",
+    "Burdur",
+    "Karaman",
+    "Aksaray",
+    "Nigde",
+    "Kahramanmaras",
+    "Adiyaman",
+    "Batman",
+    "Siirt",
+    "Bitlis",
+    "Mus",
+    "Agri",
+    "Kars",
+    "Igdir",
+    "Ardahan",
+    "Artvin",
+    "Giresun",
+    "Ordu",
+    "Tokat",
+    "Corum",
+    "Yozgat",
+    "Kirsehir",
+    "Kirikkale",
+    "Cankiri",
+    "Kastamonu",
+    "Karabuk",
+    "Zonguldak",
+    "Bartin",
+    "Duzce",
+    "Yalova",
+    "Bilecik",
+    "Balikesir",
+    "Elazig",
+    "Tunceli",
+    "Bingol",
+    "Erzincan",
+    "Gumushane",
+    "Bayburt",
+    "Hakkari",
+    "Sirnak",
+    "Kilis",
+    "Osmaniye",
+    "Iskenderun"
    ]
   },
   {
@@ -1863,7 +2565,59 @@
     "Qeshm",
     "Bandar Anzali",
     "Maragheh",
-    "Khoy"
+    "Khoy",
+    "Ramsar",
+    "Chalus",
+    "Babol",
+    "Amol",
+    "Masuleh",
+    "Bandar Lengeh",
+    "Jask",
+    "Hormuz",
+    "Natanz",
+    "Rafsanjan",
+    "Sirjan",
+    "Jiroft",
+    "Zabol",
+    "Iranshahr",
+    "Saveh",
+    "Varamin",
+    "Shahriar",
+    "Eslamshahr",
+    "Najafabad",
+    "Malayer",
+    "Borujerd",
+    "Nahavand",
+    "Andimeshk",
+    "Shushtar",
+    [
+     "Shush",
+     "susa"
+    ],
+    "Mahabad",
+    "Saqqez",
+    "Marivan",
+    "Bukan",
+    "Bonab",
+    "Marand",
+    "Jolfa",
+    "Astara",
+    "Lahijan",
+    "Shahrud",
+    "Damghan",
+    "Sabzevar",
+    "Torbat-e Heydarieh",
+    "Quchan",
+    "Gonbad-e Kavus",
+    "Asaluyeh",
+    "Lar",
+    "Kazerun",
+    "Marvdasht",
+    "Abadeh",
+    "Ardakan",
+    "Meybod",
+    "Maku",
+    "Tabas"
    ]
   },
   {
@@ -1898,6 +2652,15 @@
     "Unawatuna",
     "Tangalle",
     "Weligama",
+    "Mount Lavinia",
+    "Koggala",
+    "Ahangama",
+    "Hiriketiya",
+    "Kalpitiya",
+    "Pasikudah",
+    "Nilaveli",
+    "Habarana",
+    "Kitulgala",
     "Dehiwala",
     "Moratuwa",
     "Kalutara",
@@ -1916,10 +2679,37 @@
     "Pinnawala",
     [
      "Kotte",
-     "Sri Jayawardenepura Kotte"
+     "Sri Jayawardenepura Kotte",
+     "sri jayawardenepura"
     ],
     "Ambalangoda",
-    "Dikwella"
+    "Dikwella",
+    "Uppuveli",
+    "Matale",
+    "Gampaha",
+    "Ja-Ela",
+    "Kelaniya",
+    "Panadura",
+    "Avissawella",
+    "Hatton",
+    "Bandarawela",
+    "Monaragala",
+    "Ampara",
+    "Kalmunai",
+    "Embilipitiya",
+    [
+     "Tissamaharama",
+     "tissa"
+    ],
+    "Mihintale",
+    "Point Pedro",
+    "Induruwa",
+    "Kosgoda",
+    "Balapitiya",
+    "Talalla",
+    "Gampola",
+    "Peradeniya",
+    "Nawalapitiya"
    ]
   },
   {
@@ -1932,7 +2722,10 @@
    "answers": [
     "Phnom Penh",
     "Siem Reap",
-    "Sihanoukville",
+    [
+     "Sihanoukville",
+     "kampong som"
+    ],
     "Battambang",
     "Kampot",
     "Kep",
@@ -1954,7 +2747,11 @@
      "Naypyidaw",
      "Nay Pyi Taw"
     ],
-    "Nyaungshwe",
+    [
+     "Nyaungshwe",
+     "inle",
+     "inle lake"
+    ],
     [
      "Mawlamyine",
      "Moulmein"
@@ -1984,6 +2781,11 @@
     "Ngapali",
     "Dawei",
     "Mrauk U",
+    "Kalaw",
+    "Hsipaw",
+    "Koh Rong",
+    "Don Det",
+    "Champasak",
     "Monywa",
     [
      "Pyay",
@@ -2006,7 +2808,56 @@
     [
      "Si Phan Don",
      "Four Thousand Islands"
-    ]
+    ],
+    "Kampong Chhnang",
+    "Takeo",
+    "Prey Veng",
+    "Svay Rieng",
+    "Bavet",
+    "Kampong Speu",
+    "Sen Monorom",
+    "Preah Vihear",
+    "Anlong Veng",
+    "Sisophon",
+    "Pailin",
+    [
+     "Xam Neua",
+     "sam neua"
+    ],
+    "Phongsali",
+    "Oudomxay",
+    "Huay Xai",
+    "Sayabouly",
+    "Attapeu",
+    "Salavan",
+    "Paksong",
+    "Don Khong",
+    "Muang Ngoy",
+    "Pak Beng",
+    "Mogok",
+    "Meiktila",
+    "Thanlyin",
+    "Bhamo",
+    "Katha",
+    "Kawthaung",
+    "Myeik",
+    "Myawaddy",
+    "Tachileik",
+    "Pakokku",
+    "Sagaing",
+    "Mingun",
+    "Amarapura",
+    [
+     "Inwa",
+     "ava"
+    ],
+    "Chaung Tha",
+    "Ngwe Saung",
+    "Hinthada",
+    "Taungoo",
+    "Thandwe",
+    "Loikaw",
+    "Hakha"
    ]
   },
   {
@@ -2048,6 +2899,17 @@
      "Al Khobar"
     ],
     "Tabuk",
+    "Dhahran",
+    [
+     "AlUla",
+     "al ula"
+    ],
+    "Diriyah",
+    "Lusail",
+    "Al Rayyan",
+    "Jebel Ali",
+    "Hatta",
+    "Salmiya",
     "Abha",
     "Ajman",
     "Ras Al Khaimah",
@@ -2073,7 +2935,37 @@
     "Buraimi",
     "Khor Fakkan",
     "Kalba",
-    "Dibba"
+    "Dibba",
+    "Qatif",
+    "Khamis Mushait",
+    "Al Bahah",
+    "Al Kharj",
+    "Unaizah",
+    "Arar",
+    "Sakaka",
+    "Rabigh",
+    "King Abdullah Economic City",
+    "Thuwal",
+    "Ruwais",
+    "Madinat Zayed",
+    "Umm Salal",
+    "Mesaieed",
+    "Dukhan",
+    "Jahra",
+    "Farwaniya",
+    "Fahaheel",
+    "Isa Town",
+    "Hamad Town",
+    "Sitra",
+    "Ibri",
+    "Rustaq",
+    "Bahla",
+    "Ibra",
+    "Barka",
+    "Seeb",
+    "Muttrah",
+    "Mirbat",
+    "Shinas"
    ]
   },
   {
@@ -2110,7 +3002,8 @@
     "North Macedonia",
     "Georgia",
     "Armenia",
-    "Azerbaijan"
+    "Azerbaijan",
+    "Kazakhstan"
    ]
   },
   {
@@ -2250,6 +3143,25 @@
     "Humber",
     "Ouse",
     "Avon",
+    "Wear",
+    "Tees",
+    "Forth",
+    "Spey",
+    "Ness",
+    "Ribble",
+    "Derwent",
+    "Usk",
+    "Taff",
+    "Bann",
+    "Foyle",
+    "Lagan",
+    "Somme",
+    [
+     "Scheldt",
+     "schelde",
+     "escaut"
+    ],
+    "Ruhr",
     "Liffey",
     "Lee",
     "Boyne",
@@ -2311,7 +3223,93 @@
     "Tamar",
     "Medway",
     "Cam",
-    "Great Ouse"
+    "Great Ouse",
+    "Nene",
+    "Welland",
+    "Witham",
+    "Aire",
+    "Wharfe",
+    "Swale",
+    "Ure",
+    "Calder",
+    "Eden",
+    "Lune",
+    "Kennet",
+    "Cherwell",
+    "Dart",
+    "Taw",
+    "Torridge",
+    "Fal",
+    [
+     "Towy",
+     "tywi"
+    ],
+    "Teifi",
+    "Conwy",
+    "Nith",
+    "Barrow",
+    "Suir",
+    "Nore",
+    "Blackwater",
+    "Corrib",
+    "Erne",
+    "Slaney",
+    "Aisne",
+    "Yonne",
+    "Charente",
+    "Lot",
+    "Tarn",
+    "Durance",
+    "Isère",
+    "Allier",
+    "Cher",
+    "Vienne",
+    "Sambre",
+    "Lahn",
+    "Mur",
+    "Enns",
+    "Piave",
+    "Brenta",
+    "Ticino",
+    "Adda",
+    "Volturno",
+    "Rubicon",
+    "Mondego",
+    "Struma",
+    [
+     "Maritsa",
+     "evros"
+    ],
+    [
+     "Vardar",
+     "axios"
+    ],
+    "Iskar",
+    "Drina",
+    "Neretva",
+    "Mures",
+    "Olt",
+    "Siret",
+    [
+     "Bug",
+     "western bug"
+    ],
+    "Narew",
+    "Warta",
+    "San",
+    "Pripyat",
+    "Desna",
+    "Southern Bug",
+    "Kuban",
+    "Terek",
+    "Pechora",
+    "Onega",
+    "Svir",
+    "Volkhov",
+    "Gauja",
+    "Oulujoki",
+    "Dalälven",
+    "Klarälven"
    ]
   },
   {
@@ -2343,7 +3341,8 @@
     [
      "Tatra",
      "Tatras",
-     "High Tatras"
+     "High Tatras",
+     "tatra mountains"
     ],
     "Sierra Nevada",
     [
@@ -2382,6 +3381,18 @@
     [
      "Snowdonia",
      "Eryri"
+    ],
+    [
+     "Lake District",
+     "cumbrian mountains"
+    ],
+    "Southern Uplands",
+    "Black Mountains",
+    "Wicklow Mountains",
+    "Picos de Europa",
+    [
+     "Transylvanian Alps",
+     "southern carpathians"
     ],
     [
      "Brecon Beacons",
@@ -2425,10 +3436,43 @@
     "Beskids",
     [
      "Giant Mountains",
-     "Karkonosze"
+     "Karkonosze",
+     "krkonose"
     ],
     "Dovrefjell",
-    "Jotunheimen"
+    "Jotunheimen",
+    "Sperrins",
+    "Galtee Mountains",
+    "Monadhliath",
+    "Cuillin",
+    "Sierra de Gredos",
+    "Serra da Estrela",
+    "Maritime Alps",
+    "Pennine Alps",
+    "Bernese Alps",
+    "Ötztal Alps",
+    "Zillertal Alps",
+    [
+     "Accursed Mountains",
+     "prokletije",
+     "albanian alps"
+    ],
+    "Šar Mountains",
+    "Taygetus",
+    "Apuseni",
+    "Thuringian Forest",
+    "Bavarian Forest",
+    "Low Tatras",
+    "Khibiny",
+    [
+     "Serra de Tramuntana",
+     "tramuntana"
+    ],
+    "Vercors",
+    "Chartreuse",
+    "Mont Blanc Massif",
+    "Écrins",
+    "Cévennes"
    ]
   },
   {
@@ -2475,6 +3519,12 @@
     "Surtsey",
     "Fagradalsfjall",
     [
+     "Reykjanes",
+     "sundhnukur"
+    ],
+    "Timanfaya",
+    "Tajogaite",
+    [
      "Öræfajökull",
      "Oraefajokull"
     ],
@@ -2518,7 +3568,22 @@
     [
      "Kazbek",
      "Mount Kazbek"
-    ]
+    ],
+    "Sete Cidades",
+    "Furnas",
+    "Capelinhos",
+    "Hverfjall",
+    "Lipari",
+    "Pantelleria",
+    "Panarea",
+    "Chaîne des Puys",
+    "Laacher See",
+    "Garrotxa",
+    "Hengill",
+    "Torfajökull",
+    "Herðubreið",
+    "Kolumbo",
+    "Colli Albani"
    ]
   },
   {
@@ -2590,6 +3655,14 @@
     ],
     "Kiruna",
     "Visby",
+    [
+     "Helsingør",
+     "elsinore"
+    ],
+    "Vantaa",
+    "Skagen",
+    "Billund",
+    "Longyearbyen",
     "Kristiansand",
     "Drammen",
     "Fredrikstad",
@@ -2636,7 +3709,62 @@
     [
      "Östersund",
      "Ostersund"
-    ]
+    ],
+    "Borås",
+    "Halmstad",
+    "Växjö",
+    "Södertälje",
+    "Eskilstuna",
+    "Trollhättan",
+    "Skellefteå",
+    "Kristianstad",
+    "Ystad",
+    "Mora",
+    "Nyköping",
+    "Uddevalla",
+    "Skövde",
+    "Varberg",
+    "Haugesund",
+    "Sandnes",
+    "Skien",
+    "Sarpsborg",
+    "Moss",
+    "Hamar",
+    "Gjøvik",
+    "Molde",
+    "Harstad",
+    "Alta",
+    "Kirkenes",
+    "Arendal",
+    "Larvik",
+    "Tønsberg",
+    "Sandefjord",
+    "Halden",
+    "Kongsberg",
+    "Herning",
+    "Silkeborg",
+    "Viborg",
+    "Svendborg",
+    "Hillerød",
+    "Fredericia",
+    "Sønderborg",
+    "Frederikshavn",
+    "Ribe",
+    "Nyborg",
+    "Joensuu",
+    "Kotka",
+    "Hämeenlinna",
+    "Porvoo",
+    "Mikkeli",
+    "Seinäjoki",
+    "Kokkola",
+    "Rauma",
+    "Savonlinna",
+    "Kajaani",
+    "Kemi",
+    "Tornio",
+    "Hanko",
+    "Mariehamn"
    ]
   }
  ]

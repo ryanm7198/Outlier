@@ -168,45 +168,13 @@
     "Undercity",
     "Darnassus",
     "Thunder Bluff",
-    [
-     "Gnomeregan Exiles",
-     "Gnomeregan"
-    ],
-    [
-     "Darkspear Trolls",
-     "Darkspear"
-    ],
     "Argent Dawn",
-    [
-     "Bloodsail Buccaneers",
-     "Bloodsail"
-    ],
-    "Brood of Nozdormu",
-    "Cenarion Circle",
-    [
-     "Gelkis Clan Centaur",
-     "Gelkis"
-    ],
-    [
-     "Magram Clan Centaur",
-     "Magram"
-    ],
-    [
-     "Hydraxian Waterlords",
-     "Hydraxians"
-    ],
-    "Ravenholdt",
-    "Syndicate",
-    "Thorium Brotherhood",
     [
      "Timbermaw Hold",
      "Timbermaw"
     ],
-    [
-     "Wintersaber Trainers",
-     "Wintersaber"
-    ],
-    "Zandalar Tribe",
+    "Cenarion Circle",
+    "Thorium Brotherhood",
     [
      "Frostwolf Clan",
      "Frostwolf"
@@ -215,6 +183,25 @@
      "Stormpike Guard",
      "Stormpike"
     ],
+    [
+     "Darkspear Trolls",
+     "Darkspear"
+    ],
+    [
+     "Gnomeregan Exiles",
+     "Gnomeregan"
+    ],
+    [
+     "Bloodsail Buccaneers",
+     "Bloodsail"
+    ],
+    "Booty Bay",
+    [
+     "Hydraxian Waterlords",
+     "Hydraxians"
+    ],
+    "Zandalar Tribe",
+    "Brood of Nozdormu",
     [
      "Warsong Outriders",
      "Warsong"
@@ -232,10 +219,28 @@
      "Defilers"
     ],
     "Steamwheedle Cartel",
-    "Booty Bay",
-    "Everlook",
+    [
+     "Darkmoon Faire",
+     "Darkmoon"
+    ],
     "Gadgetzan",
-    "Ratchet"
+    "Everlook",
+    "Ratchet",
+    "Ravenholdt",
+    [
+     "Wintersaber Trainers",
+     "Wintersaber"
+    ],
+    "Syndicate",
+    [
+     "Gelkis Clan Centaur",
+     "Gelkis"
+    ],
+    [
+     "Magram Clan Centaur",
+     "Magram"
+    ],
+    "Shen'dralar"
    ],
    "deep": true
   },
@@ -305,15 +310,6 @@
    "text": "Name a reputation faction introduced in Wrath of the Lich King",
    "answers": [
     "Argent Crusade",
-    [
-     "Ashen Verdict",
-     "The Ashen Verdict"
-    ],
-    [
-     "The Kalu'ak",
-     "Kalu'ak",
-     "Kaluak"
-    ],
     "Kirin Tor",
     [
      "Knights of the Ebon Blade",
@@ -326,6 +322,15 @@
     [
      "The Wyrmrest Accord",
      "Wyrmrest Accord"
+    ],
+    [
+     "Ashen Verdict",
+     "The Ashen Verdict"
+    ],
+    [
+     "The Kalu'ak",
+     "Kalu'ak",
+     "Kaluak"
     ],
     "Horde Expedition",
     "Alliance Vanguard",
@@ -521,7 +526,8 @@
     [
      "Vanessa VanCleef",
      "Vanessa"
-    ]
+    ],
+    "Miner Johnson"
    ]
   },
   {
@@ -557,6 +563,7 @@
      "Vishas"
     ],
     "Houndmaster Loksey",
+    "Headless Horseman",
     "Arcanist Doan",
     "High Inquisitor Fairbanks",
     "Azshir the Sleepless",
@@ -569,7 +576,10 @@
     [
      "Commander Durand",
      "Durand"
-    ]
+    ],
+    "Houndmaster Braun",
+    "Armsmaster Harlan",
+    "Flameweaver Koegler"
    ]
   },
   {
@@ -602,7 +612,15 @@
     "The Unforgiven",
     "Hearthsinger Forresten",
     "Postmaster Malown",
-    "Malor the Zealous"
+    "Malor the Zealous",
+    "Fras Siabi",
+    [
+     "Jarien and Sothos",
+     "Jarien",
+     "Sothos"
+    ],
+    "Black Guard Swordsmith",
+    "Crimson Hammersmith"
    ]
   },
   {
@@ -737,7 +755,13 @@
     "Illyanna Ravenoak",
     "Ferra",
     "Guard Fengus",
-    "Guard Slip'kik"
+    "Guard Slip'kik",
+    [
+     "Lord Hel'nurath",
+     "Hel'nurath"
+    ],
+    "Old Ironbark",
+    "Mushgog"
    ],
    "deep": true
   },
@@ -748,35 +772,39 @@
    ],
    "text": "Name a Delve introduced in World of Warcraft: The War Within (as of Midnight, 2026)",
    "answers": [
-    "Archival Assault",
+    "Fungal Folly",
+    "Earthcrawl Mines",
+    "Kriegval's Rest",
+    [
+     "The Waterworks",
+     "Waterworks"
+    ],
+    "Nightfall Sanctum",
     [
      "The Dread Pit",
      "Dread Pit"
     ],
-    "Earthcrawl Mines",
-    "Excavation Site 9",
-    "Fungal Folly",
-    "Kriegval's Rest",
     "Mycomancer Cavern",
-    "Nightfall Sanctum",
-    "Sidestreet Sluice",
+    "Skittering Breach",
     [
      "The Sinkhole",
      "Sinkhole"
     ],
-    "Skittering Breach",
-    [
-     "The Spiral Weave",
-     "Spiral Weave"
-    ],
-    "Tak-Rethan Abyss",
     [
      "The Underkeep",
      "Underkeep"
     ],
     [
-     "The Waterworks",
-     "Waterworks"
+     "The Spiral Weave",
+     "Spiral Weave"
+    ],
+    "Tak-Rethan Abyss",
+    "Excavation Site 9",
+    "Sidestreet Sluice",
+    "Archival Assault",
+    [
+     "Zekvir's Lair",
+     "Zekvir"
     ]
    ]
   }

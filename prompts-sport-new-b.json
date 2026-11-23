@@ -416,13 +416,17 @@
     ],
     "Romania",
     "South Africa",
-    "Brazil",
-    "Bulgaria",
     "India",
     "Japan",
-    "New Zealand",
+    "Brazil",
     "Poland",
-    "Ukraine"
+    "Ukraine",
+    "Bulgaria",
+    "New Zealand",
+    [
+     "Unified Team",
+     "CIS"
+    ]
    ]
   },
   {
@@ -914,13 +918,10 @@
      "Circuit de Catalunya"
     ],
     [
-     "Bahrain International Circuit",
-     "Sakhir",
-     "Bahrain"
-    ],
-    [
-     "Baku City Circuit",
-     "Baku"
+     "Circuit Gilles Villeneuve",
+     "Gilles Villeneuve",
+     "Montreal",
+     "Ile Notre-Dame"
     ],
     [
      "Hungaroring",
@@ -934,22 +935,6 @@
      "Spielberg"
     ],
     [
-     "Circuit of the Americas",
-     "COTA",
-     "Austin"
-    ],
-    [
-     "Zandvoort",
-     "Circuit Zandvoort",
-     "Circuit Park Zandvoort"
-    ],
-    [
-     "Imola",
-     "Autodromo Enzo e Dino Ferrari",
-     "Autodromo Internazionale Enzo e Dino Ferrari",
-     "Enzo and Dino Ferrari"
-    ],
-    [
      "Nürburgring",
      "Nurburgring",
      "Nordschleife",
@@ -959,10 +944,41 @@
      "Hockenheimring",
      "Hockenheim"
     ],
+    [
+     "Imola",
+     "Autodromo Enzo e Dino Ferrari",
+     "Autodromo Internazionale Enzo e Dino Ferrari",
+     "Enzo and Dino Ferrari"
+    ],
+    [
+     "Zandvoort",
+     "Circuit Zandvoort",
+     "Circuit Park Zandvoort"
+    ],
     "Brands Hatch",
     [
-     "Donington Park",
-     "Donington"
+     "Bahrain International Circuit",
+     "Sakhir",
+     "Bahrain"
+    ],
+    [
+     "Marina Bay",
+     "Marina Bay Street Circuit",
+     "Singapore"
+    ],
+    [
+     "Yas Marina Circuit",
+     "Yas Marina",
+     "Abu Dhabi"
+    ],
+    [
+     "Baku City Circuit",
+     "Baku"
+    ],
+    [
+     "Circuit of the Americas",
+     "COTA",
+     "Austin"
     ],
     [
      "Autodromo Hermanos Rodriguez",
@@ -971,144 +987,40 @@
      "Magdalena Mixhuca"
     ],
     [
-     "Adelaide Street Circuit",
-     "Adelaide"
+     "Jeddah Corniche Circuit",
+     "Jeddah",
+     "Jeddah Street Circuit"
     ],
     [
-     "Ain-Diab Circuit",
-     "Ain-Diab",
-     "Ain Diab",
-     "Casablanca"
+     "Las Vegas Strip Circuit",
+     "Las Vegas",
+     "Las Vegas Strip"
+    ],
+    [
+     "Miami International Autodrome",
+     "Miami",
+     "Miami Gardens"
+    ],
+    [
+     "Lusail International Circuit",
+     "Lusail",
+     "Losail"
+    ],
+    [
+     "Shanghai International Circuit",
+     "Shanghai"
+    ],
+    [
+     "Sepang",
+     "Sepang International Circuit"
+    ],
+    [
+     "Donington Park",
+     "Donington"
     ],
     [
      "Aintree",
      "Aintree Motor Racing Circuit"
-    ],
-    [
-     "Algarve International Circuit",
-     "Portimao",
-     "Algarve",
-     "Autodromo Internacional do Algarve"
-    ],
-    [
-     "Estoril",
-     "Autodromo do Estoril"
-    ],
-    [
-     "Jacarepagua",
-     "Autodromo Internacional Nelson Piquet",
-     "Nelson Piquet Circuit",
-     "Rio de Janeiro"
-    ],
-    [
-     "Mugello",
-     "Autodromo Internazionale del Mugello",
-     "Mugello Circuit"
-    ],
-    [
-     "Buenos Aires",
-     "Autodromo Oscar y Juan Galvez",
-     "Oscar Galvez"
-    ],
-    "AVUS",
-    [
-     "Buddh International Circuit",
-     "Buddh",
-     "Greater Noida"
-    ],
-    [
-     "Bugatti Circuit",
-     "Le Mans",
-     "Circuit Bugatti"
-    ],
-    [
-     "Caesars Palace",
-     "Caesars Palace Grand Prix Circuit",
-     "Caesars Palace Grand Prix"
-    ],
-    [
-     "Bremgarten",
-     "Circuit Bremgarten",
-     "Bern"
-    ],
-    [
-     "Charade",
-     "Circuit de Charade",
-     "Clermont-Ferrand"
-    ],
-    [
-     "Magny-Cours",
-     "Circuit de Nevers Magny-Cours",
-     "Nevers Magny-Cours"
-    ],
-    [
-     "Pedralbes",
-     "Circuit de Pedralbes"
-    ],
-    [
-     "Reims-Gueux",
-     "Circuit de Reims-Gueux",
-     "Reims",
-     "Gueux"
-    ],
-    [
-     "Dijon-Prenois",
-     "Circuit Dijon-Prenois",
-     "Dijon"
-    ],
-    [
-     "Circuit Gilles Villeneuve",
-     "Gilles Villeneuve",
-     "Montreal",
-     "Ile Notre-Dame"
-    ],
-    [
-     "Mont-Tremblant",
-     "Circuit Mont-Tremblant",
-     "Mont Tremblant"
-    ],
-    [
-     "Paul Ricard",
-     "Circuit Paul Ricard",
-     "Le Castellet"
-    ],
-    [
-     "Zolder",
-     "Circuit Zolder"
-    ],
-    [
-     "Boavista",
-     "Circuito da Boavista",
-     "Porto",
-     "Oporto"
-    ],
-    [
-     "Monsanto",
-     "Circuito de Monsanto",
-     "Lisbon"
-    ],
-    [
-     "Jerez",
-     "Circuito de Jerez",
-     "Circuito Permanente de Jerez"
-    ],
-    [
-     "Jarama",
-     "Circuito del Jarama",
-     "Circuito Permanente del Jarama"
-    ],
-    [
-     "Dallas Fair Park",
-     "Fair Park",
-     "Dallas"
-    ],
-    [
-     "Detroit Street Circuit",
-     "Detroit"
-    ],
-    [
-     "Fuji Speedway",
-     "Fuji"
     ],
     [
      "Indianapolis Motor Speedway",
@@ -1122,9 +1034,42 @@
      "Istanbul"
     ],
     [
-     "Jeddah Corniche Circuit",
-     "Jeddah",
-     "Jeddah Street Circuit"
+     "Adelaide Street Circuit",
+     "Adelaide"
+    ],
+    [
+     "Magny-Cours",
+     "Circuit de Nevers Magny-Cours",
+     "Nevers Magny-Cours"
+    ],
+    [
+     "Paul Ricard",
+     "Circuit Paul Ricard",
+     "Le Castellet"
+    ],
+    [
+     "Estoril",
+     "Autodromo do Estoril"
+    ],
+    [
+     "Algarve International Circuit",
+     "Portimao",
+     "Algarve",
+     "Autodromo Internacional do Algarve"
+    ],
+    [
+     "Mugello",
+     "Autodromo Internazionale del Mugello",
+     "Mugello Circuit"
+    ],
+    [
+     "Sochi Autodrom",
+     "Sochi",
+     "Sirius Autodrom"
+    ],
+    [
+     "Valencia Street Circuit",
+     "Valencia"
     ],
     [
      "Korea International Circuit",
@@ -1132,37 +1077,39 @@
      "Korean International Circuit"
     ],
     [
+     "Buddh International Circuit",
+     "Buddh",
+     "Greater Noida"
+    ],
+    [
+     "Fuji Speedway",
+     "Fuji"
+    ],
+    [
      "Kyalami",
      "Kyalami Grand Prix Circuit"
     ],
     [
-     "Las Vegas Strip Circuit",
-     "Las Vegas",
-     "Las Vegas Strip"
+     "Watkins Glen",
+     "Watkins Glen International"
     ],
     [
      "Long Beach",
      "Long Beach Street Circuit"
     ],
     [
-     "Lusail International Circuit",
-     "Lusail",
-     "Losail"
+     "Detroit Street Circuit",
+     "Detroit"
     ],
     [
-     "Madring",
-     "Madrid",
-     "IFEMA Madrid"
+     "Jerez",
+     "Circuito de Jerez",
+     "Circuito Permanente de Jerez"
     ],
     [
-     "Marina Bay",
-     "Marina Bay Street Circuit",
-     "Singapore"
-    ],
-    [
-     "Miami International Autodrome",
-     "Miami",
-     "Miami Gardens"
+     "Jarama",
+     "Circuito del Jarama",
+     "Circuito Permanente del Jarama"
     ],
     [
      "Montjuïc",
@@ -1170,30 +1117,15 @@
      "Montjuic Circuit"
     ],
     [
-     "Mosport",
-     "Mosport Park",
-     "Canadian Tire Motorsport Park"
+     "Madring",
+     "Madrid",
+     "IFEMA Madrid"
     ],
     [
-     "Nivelles",
-     "Nivelles-Baulers"
-    ],
-    [
-     "Pescara",
-     "Pescara Circuit"
-    ],
-    [
-     "Phoenix Street Circuit",
-     "Phoenix"
-    ],
-    [
-     "Prince George Circuit",
-     "Prince George",
-     "East London"
-    ],
-    [
-     "Riverside",
-     "Riverside International Raceway"
+     "Reims-Gueux",
+     "Circuit de Reims-Gueux",
+     "Reims",
+     "Gueux"
     ],
     [
      "Rouen-Les-Essarts",
@@ -1201,27 +1133,57 @@
      "Les Essarts"
     ],
     [
+     "Dijon-Prenois",
+     "Circuit Dijon-Prenois",
+     "Dijon"
+    ],
+    [
+     "Zolder",
+     "Circuit Zolder"
+    ],
+    [
+     "Nivelles",
+     "Nivelles-Baulers"
+    ],
+    [
+     "Jacarepagua",
+     "Autodromo Internacional Nelson Piquet",
+     "Nelson Piquet Circuit",
+     "Rio de Janeiro"
+    ],
+    [
+     "Buenos Aires",
+     "Autodromo Oscar y Juan Galvez",
+     "Oscar Galvez"
+    ],
+    [
+     "Mosport",
+     "Mosport Park",
+     "Canadian Tire Motorsport Park"
+    ],
+    [
+     "Mont-Tremblant",
+     "Circuit Mont-Tremblant",
+     "Mont Tremblant"
+    ],
+    [
+     "Caesars Palace",
+     "Caesars Palace Grand Prix Circuit",
+     "Caesars Palace Grand Prix"
+    ],
+    [
+     "Dallas Fair Park",
+     "Fair Park",
+     "Dallas"
+    ],
+    [
+     "Phoenix Street Circuit",
+     "Phoenix"
+    ],
+    [
      "Anderstorp",
      "Scandinavian Raceway",
      "Anderstorp Raceway"
-    ],
-    [
-     "Sebring",
-     "Sebring International Raceway",
-     "Sebring Raceway"
-    ],
-    [
-     "Sepang",
-     "Sepang International Circuit"
-    ],
-    [
-     "Shanghai International Circuit",
-     "Shanghai"
-    ],
-    [
-     "Sochi Autodrom",
-     "Sochi",
-     "Sirius Autodrom"
     ],
     [
      "Aida",
@@ -1230,21 +1192,63 @@
      "Okayama International Circuit"
     ],
     [
-     "Valencia Street Circuit",
-     "Valencia"
+     "Ain-Diab Circuit",
+     "Ain-Diab",
+     "Ain Diab",
+     "Casablanca"
     ],
     [
-     "Watkins Glen",
-     "Watkins Glen International"
+     "Bremgarten",
+     "Circuit Bremgarten",
+     "Bern"
     ],
     [
-     "Yas Marina Circuit",
-     "Yas Marina",
-     "Abu Dhabi"
+     "Pedralbes",
+     "Circuit de Pedralbes"
+    ],
+    [
+     "Boavista",
+     "Circuito da Boavista",
+     "Porto",
+     "Oporto"
+    ],
+    [
+     "Monsanto",
+     "Circuito de Monsanto",
+     "Lisbon"
+    ],
+    [
+     "Charade",
+     "Circuit de Charade",
+     "Clermont-Ferrand"
+    ],
+    [
+     "Bugatti Circuit",
+     "Le Mans",
+     "Circuit Bugatti"
+    ],
+    "AVUS",
+    [
+     "Sebring",
+     "Sebring International Raceway",
+     "Sebring Raceway"
+    ],
+    [
+     "Riverside",
+     "Riverside International Raceway"
     ],
     [
      "Zeltweg",
      "Zeltweg Airfield"
+    ],
+    [
+     "Pescara",
+     "Pescara Circuit"
+    ],
+    [
+     "Prince George Circuit",
+     "Prince George",
+     "East London"
     ]
    ]
   },
@@ -2329,7 +2333,10 @@
    ],
    "text": "Name a sport or discipline contested at the London 2012 Olympic Games",
    "answers": [
-    "Athletics",
+    [
+     "Athletics",
+     "Track and field"
+    ],
     "Swimming",
     "Cycling",
     "Rowing",
@@ -2343,11 +2350,17 @@
      "Hockey",
      "Field hockey"
     ],
-    "Sailing",
+    [
+     "Sailing",
+     "Yachting"
+    ],
     "Diving",
     "Gymnastics",
     "Basketball",
-    "Equestrian",
+    [
+     "Equestrian",
+     "Horse riding"
+    ],
     "Judo",
     "Archery",
     "Badminton",
@@ -2363,7 +2376,13 @@
      "Artistic swimming"
     ],
     "Water polo",
-    "Canoeing",
+    [
+     "Canoeing",
+     "Canoe",
+     "Kayaking",
+     "Kayak",
+     "Canoe/kayak"
+    ],
     [
      "Canoe sprint",
      "Sprint canoeing"
@@ -2407,12 +2426,18 @@
      "Trampoline gymnastics"
     ],
     "Handball",
-    "Modern pentathlon",
+    [
+     "Modern pentathlon",
+     "Pentathlon"
+    ],
     "Shooting",
     "Table tennis",
     "Taekwondo",
     "Triathlon",
-    "Volleyball",
+    [
+     "Volleyball",
+     "Indoor volleyball"
+    ],
     "Beach volleyball",
     "Weightlifting",
     "Wrestling",

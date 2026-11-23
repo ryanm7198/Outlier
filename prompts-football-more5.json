@@ -1225,24 +1225,38 @@
     ],
     "Barnsley",
     [
-     "Lincoln City",
-     "Lincoln"
-    ],
-    [
      "Bradford City",
      "Bradford"
     ],
     [
-     "Burton Albion",
-     "Burton"
+     "Peterborough United",
+     "Peterborough",
+     "Posh"
+    ],
+    [
+     "Lincoln City",
+     "Lincoln"
     ],
     [
      "Doncaster Rovers",
      "Doncaster"
     ],
+    "Port Vale",
     [
-     "Exeter City",
-     "Exeter"
+     "Rotherham United",
+     "Rotherham"
+    ],
+    [
+     "Stockport County",
+     "Stockport"
+    ],
+    [
+     "AFC Wimbledon",
+     "Wimbledon AFC"
+    ],
+    [
+     "Wycombe Wanderers",
+     "Wycombe"
     ],
     [
      "Leyton Orient",
@@ -1250,36 +1264,22 @@
      "Leyton O"
     ],
     [
-     "Mansfield Town",
-     "Mansfield"
+     "Exeter City",
+     "Exeter"
     ],
     [
      "Northampton Town",
      "Northampton"
     ],
     [
-     "Peterborough United",
-     "Peterborough",
-     "Posh"
-    ],
-    "Port Vale",
-    [
-     "Rotherham United",
-     "Rotherham"
-    ],
-    "Stevenage",
-    [
-     "Stockport County",
-     "Stockport"
+     "Mansfield Town",
+     "Mansfield"
     ],
     [
-     "Wycombe Wanderers",
-     "Wycombe"
+     "Burton Albion",
+     "Burton"
     ],
-    [
-     "AFC Wimbledon",
-     "Wimbledon AFC"
-    ]
+    "Stevenage"
    ]
   },
   {
@@ -1291,10 +1291,6 @@
    "answers": [
     "Notts County",
     [
-     "Salford City",
-     "Salford"
-    ],
-    [
      "Milton Keynes Dons",
      "MK Dons"
     ],
@@ -1303,12 +1299,16 @@
      "Swindon"
     ],
     [
-     "Grimsby Town",
-     "Grimsby"
-    ],
-    [
      "Bristol Rovers",
      "Gas"
+    ],
+    [
+     "Salford City",
+     "Salford"
+    ],
+    [
+     "Grimsby Town",
+     "Grimsby"
     ],
     [
      "Crewe Alexandra",
@@ -1318,51 +1318,51 @@
      "Tranmere Rovers",
      "Tranmere"
     ],
+    "Gillingham",
     [
-     "Cheltenham Town",
-     "Cheltenham"
+     "Oldham Athletic",
+     "Oldham"
     ],
     "Walsall",
     [
      "Cambridge United",
      "Cambridge"
     ],
-    "Bromley",
-    [
-     "Accrington Stanley",
-     "Accrington"
-    ],
-    "Barnet",
-    "Barrow",
     "Chesterfield",
     [
      "Colchester United",
      "Colchester"
     ],
     [
+     "Shrewsbury Town",
+     "Shrewsbury"
+    ],
+    [
+     "Cheltenham Town",
+     "Cheltenham"
+    ],
+    [
+     "Accrington Stanley",
+     "Accrington"
+    ],
+    [
      "Crawley Town",
      "Crawley"
-    ],
-    [
-     "Fleetwood Town",
-     "Fleetwood"
-    ],
-    "Gillingham",
-    [
-     "Harrogate Town",
-     "Harrogate"
     ],
     [
      "Newport County",
      "Newport"
     ],
     [
-     "Oldham Athletic",
-     "Oldham"
+     "Fleetwood Town",
+     "Fleetwood"
     ],
+    "Bromley",
+    "Barnet",
+    "Barrow",
     [
-     "Shrewsbury Town",
-     "Shrewsbury"
+     "Harrogate Town",
+     "Harrogate"
     ]
    ]
   },
@@ -2481,7 +2481,8 @@
     [
      "Van de Kerkhof",
      "René van de Kerkhof",
-     "Willy van de Kerkhof"
+     "Willy van de Kerkhof",
+     "de kerkhof"
     ],
     [
      "Wim Suurbier",

@@ -614,16 +614,36 @@
     "Max Ether",
     "Elixir",
     "Max Elixir",
+    "Oran Berry",
+    "Sitrus Berry",
     "Fresh Water",
+    "Lum Berry",
+    "Leppa Berry",
     "Soda Pop",
+    "Pecha Berry",
+    "Cheri Berry",
     "Lemonade",
+    "Chesto Berry",
+    "Rawst Berry",
+    "Aspear Berry",
+    "Persim Berry",
     "Moomoo Milk",
     "Berry Juice",
+    "Lava Cookie",
     "Energy Powder",
+    "Old Gateau",
+    "Rage Candy Bar",
     "Energy Root",
+    "Casteliacone",
+    "Lumiose Galette",
     "Heal Powder",
+    "Shalour Sable",
+    "Big Malasada",
+    "Pewter Crunchies",
+    "Sweet Heart",
     "Revival Herb",
-    "Sacred Ash"
+    "Sacred Ash",
+    "Max Honey"
    ]
   },
   {
@@ -644,15 +664,12 @@
     "Dawn Stone",
     "Ice Stone",
     "Dragon Scale",
-    [
-     "King's Rock",
-     "Kings Rock"
-    ],
+    "King's Rock",
     "Metal Coat",
+    "Rare Candy",
     [
      "Up-Grade",
-     "Upgrade",
-     "Up Grade"
+     "Upgrade"
     ],
     "Protector",
     "Electirizer",
@@ -665,6 +682,7 @@
     "Deep Sea Tooth",
     "Deep Sea Scale",
     "Razor Claw",
+    "Oval Stone",
     "Razor Fang",
     "Sweet Apple",
     "Tart Apple",
@@ -675,11 +693,17 @@
     "Peat Block",
     "Auspicious Armor",
     "Malicious Armor",
+    "Strawberry Sweet",
     "Syrupy Apple",
     "Galarica Cuff",
+    "Leader's Crest",
+    "Metal Alloy",
     "Galarica Wreath",
+    "Unremarkable Teacup",
     "Scroll of Darkness",
-    "Scroll of Waters"
+    "Masterpiece Teacup",
+    "Scroll of Waters",
+    "Gimmighoul Coin"
    ]
   },
   {
@@ -724,6 +748,10 @@
      "Pokken"
     ],
     [
+     "Pokémon Stadium 2",
+     "Stadium 2"
+    ],
+    [
      "Pokémon Ranger",
      "Ranger"
     ],
@@ -749,6 +777,7 @@
      "Pokémon Puzzle League",
      "Puzzle League"
     ],
+    "Detective Pikachu Returns",
     [
      "Pokémon Trozei",
      "Trozei"
@@ -763,6 +792,10 @@
      "Pokémon Café ReMix"
     ],
     [
+     "Pokémon Champions",
+     "Champions"
+    ],
+    [
      "Pokémon Quest",
      "Quest"
     ],
@@ -775,18 +808,39 @@
      "Shuffle"
     ],
     [
+     "Pokémon Picross",
+     "Picross"
+    ],
+    [
+     "Pokémon Art Academy",
+     "Art Academy"
+    ],
+    [
      "Pokémon Duel",
      "Duel"
+    ],
+    "PokéPark 2",
+    [
+     "Pokémon Puzzle Challenge",
+     "Puzzle Challenge"
     ],
     [
      "Pokémon Channel",
      "Channel"
     ],
+    "Pokémon Friends",
     "Hey You, Pikachu!",
+    "Pokémon Typing Adventure",
+    "Pokémon Link!",
     [
      "Pokémon Dash",
      "Dash"
     ],
+    [
+     "Pokémon Dream Radar",
+     "Dream Radar"
+    ],
+    "Pokémon Playhouse",
     [
      "Pokémon Battle Revolution",
      "Battle Revolution"
@@ -803,7 +857,11 @@
      "Pokemon Pocket",
      "Pokémon TCG Pocket"
     ],
-    "Pokémon Smile"
+    "Pokémon Smile",
+    [
+     "Pokémon Tretta",
+     "Tretta"
+    ]
    ]
   },
   {
@@ -840,68 +898,68 @@
      "experience",
      "xp"
     ],
-    "advancement",
-    "attribute",
-    "ban",
-    [
-     "ban-ip",
-     "banip"
-    ],
-    "banlist",
-    "bossbar",
-    "damage",
-    "data",
-    "datapack",
-    "defaultgamemode",
-    "deop",
-    "fillbiome",
-    "forceload",
-    "function",
     "help",
-    "item",
     "kick",
-    "list",
-    "loot",
-    "me",
+    "ban",
+    "deop",
     [
      "msg",
      "tell",
      "w"
     ],
-    "pardon",
-    "particle",
-    "place",
-    "playsound",
-    "publish",
-    "random",
-    "recipe",
-    "reload",
-    "return",
-    "ride",
-    "schedule",
-    "scoreboard",
+    "tellraw",
+    "title",
+    "list",
+    "whitelist",
     "setworldspawn",
     "spawnpoint",
-    "spectate",
-    "spreadplayers",
-    "stop",
-    "stopsound",
-    "tag",
+    "scoreboard",
     "team",
-    "tellraw",
-    "tick",
-    "title",
-    "transfer",
-    "trigger",
-    "whitelist",
+    "tag",
+    "particle",
+    "playsound",
+    "stopsound",
+    "item",
+    "data",
+    "me",
+    "function",
+    "reload",
+    "recipe",
+    "loot",
+    "bossbar",
+    "damage",
+    "ride",
+    "advancement",
+    "attribute",
+    "datapack",
+    "defaultgamemode",
     "worldborder",
-    "jfr",
+    "spreadplayers",
+    "spectate",
+    "stop",
     [
      "save-all",
      "saveall"
     ],
+    "pardon",
+    [
+     "ban-ip",
+     "banip"
+    ],
+    "banlist",
+    "forceload",
+    "random",
+    "place",
+    "tick",
+    "fillbiome",
+    "schedule",
+    "publish",
+    "trigger",
+    "return",
     "teammsg",
+    "transfer",
     "debug",
+    "jfr",
     "setidletimeout"
    ]
   },
@@ -1168,9 +1226,15 @@
      "Slime Ball",
      "Slimeball"
     ],
+    [
+     "Melon Slice",
+     "Melon"
+    ],
     "Bone Meal",
+    "Nether Wart",
     "Resin Clump",
     "Raw Iron",
+    "Bamboo",
     "Raw Gold",
     "Raw Copper",
     "Dried Kelp"
@@ -1281,7 +1345,8 @@
     "Nautilus",
     "Zombie Nautilus",
     "Camel Husk",
-    "Happy Ghast"
+    "Happy Ghast",
+    "Ocelot"
    ]
   },
   {
@@ -1903,7 +1968,8 @@
     ],
     [
      "Ganon",
-     "Ganondorf"
+     "Ganondorf",
+     "Calamity Ganon"
     ],
     "Navi",
     "Epona",
@@ -1948,18 +2014,18 @@
     "Tatl",
     "Medli",
     "Makar",
+    "Yunobo",
     "Linebeck",
     "Ravio",
     "Hilda",
     "Yuga",
     "Marin",
     "Tarin",
+    "Great Fairy",
     "Wind Fish",
-    [
-     "Dampe",
-     "Dampé"
-    ],
+    "Dampe",
     "Mido",
+    "Hylia",
     "Nabooru",
     [
      "King Rhoam",
@@ -1967,9 +2033,16 @@
     ],
     "Riju",
     "Teba",
+    [
+     "Twinrova",
+     "Koume",
+     "Kotake"
+    ],
     "Tulin",
     "Sonia",
     "Bolson",
+    "Kafei",
+    "Anju",
     "Rusl",
     "Ilia",
     "Colin",
@@ -1978,7 +2051,8 @@
     "Demise",
     "Rauru",
     "Skull Kid",
-    "Mineru"
+    "Mineru",
+    "Error"
    ]
   },
   {
@@ -2114,29 +2188,26 @@
    "text": "Name a Mario spin-off game or series (not a Super Mario platformer, Mario Kart or Mario Party)",
    "answers": [
     "Paper Mario",
-    [
-     "Mario & Luigi",
-     "Mario and Luigi"
-    ],
-    [
-     "Luigi's Mansion",
-     "Luigis Mansion"
-    ],
+    "Mario & Luigi",
+    "Luigi's Mansion",
     "Mario Tennis",
+    [
+     "Super Mario RPG",
+     "Mario RPG"
+    ],
     "Mario Golf",
     "Super Mario Maker",
-    [
-     "Dr. Mario",
-     "Dr Mario"
-    ],
+    "Dr. Mario",
     [
      "Mario Strikers",
-     "Super Mario Strikers"
+     "Super Mario Strikers",
+     "Mario Smash Football",
+     "Mario Strikers Charged",
+     "Mario Strikers Battle League"
     ],
     [
      "Mario + Rabbids Kingdom Battle",
      "Mario Rabbids",
-     "Mario + Rabbids",
      "Mario Plus Rabbids"
     ],
     "Super Mario Run",
@@ -2147,18 +2218,20 @@
     ],
     [
      "Mario vs. Donkey Kong",
-     "Mario vs Donkey Kong",
      "Mario versus Donkey Kong"
     ],
     [
      "Captain Toad: Treasure Tracker",
      "Captain Toad"
     ],
-    [
-     "Mario Is Missing!",
-     "Mario is Missing"
-    ],
+    "Princess Peach: Showtime!",
+    "Mario Is Missing!",
+    "Super Princess Peach",
     "Mario Teaches Typing",
+    [
+     "Mario Pinball Land",
+     "Mario Pinball"
+    ],
     [
      "Mario Superstar Baseball",
      "Superstar Baseball"
@@ -2169,25 +2242,30 @@
     ],
     "Mario Sports Mix",
     [
+     "Dance Dance Revolution: Mario Mix",
+     "Mario Mix"
+    ],
+    [
      "Mario Hoops 3-on-3",
      "Mario Hoops"
     ],
+    "Mario Sports Superstars",
     "Mario Slam Basketball",
+    "Wrecking Crew",
     "Mario's Time Machine",
     "Mario's Early Years",
-    [
-     "Mario & Wario",
-     "Mario and Wario"
-    ],
+    "Mario Clash",
+    "Mario & Wario",
+    "Yoshi's Cookie",
     [
      "Mario Bros.",
      "Mario Brothers"
     ],
     [
      "Mario & Sonic at the Olympic Games",
-     "Mario and Sonic",
-     "Mario & Sonic"
-    ]
+     "Mario and Sonic"
+    ],
+    "Mario Artist"
    ]
   },
   {
@@ -2417,14 +2495,55 @@
      "Russman",
      "Sam Russman"
     ],
+    [
+     "Scarlett Rhodes",
+     "Scarlett"
+    ],
+    [
+     "Diego Necalli",
+     "Diego"
+    ],
+    [
+     "Bruno Delacroix",
+     "Bruno"
+    ],
+    [
+     "Stanton Shaw",
+     "Shaw"
+    ],
     "Brutus",
+    [
+     "Grey Weaver",
+     "Weaver"
+    ],
+    [
+     "Sergei Ravenov",
+     "Ravenov"
+    ],
     [
      "Sal DeLuca",
      "Sal"
     ],
     [
+     "Lionel Peck",
+     "Peck"
+    ],
+    [
+     "Maya Aguinaldo",
+     "Maya"
+    ],
+    "Elizabeth Grey",
+    [
      "Billy Handsome",
      "Billy"
+    ],
+    [
+     "Mackenzie Carver",
+     "Carver"
+    ],
+    [
+     "Doctor Monty",
+     "Monty"
     ],
     [
      "Finn O'Leary",
@@ -2433,7 +2552,8 @@
     [
      "Albert Arnold",
      "Weasel"
-    ]
+    ],
+    "The Shadowman"
    ]
   },
   {
@@ -2615,8 +2735,7 @@
     ],
     [
      "Khaled Al-Asad",
-     "Al-Asad",
-     "Al Asad"
+     "Al-Asad"
     ],
     [
      "Raul Menendez",
@@ -2627,6 +2746,10 @@
      "Dragovich"
     ],
     [
+     "Gabriel Rorke",
+     "Rorke"
+    ],
+    [
      "Friedrich Steiner",
      "Steiner"
     ],
@@ -2634,6 +2757,7 @@
      "Lev Kravchenko",
      "Kravchenko"
     ],
+    "Perseus",
     [
      "Jonathan Irons",
      "Irons"
@@ -2644,6 +2768,14 @@
      "Kotch"
     ],
     [
+     "The Butcher",
+     "Jamal Rahar"
+    ],
+    [
+     "The Wolf",
+     "Omar Sulaman"
+    ],
+    [
      "Phillip Graves",
      "Graves"
     ],
@@ -2651,7 +2783,11 @@
      "General Barkov",
      "Barkov"
     ],
-    "Victor Zakhaev"
+    "Victor Zakhaev",
+    [
+     "Hermann Freisinger",
+     "Freisinger"
+    ]
    ]
   },
   {
@@ -3803,56 +3939,86 @@
      "Afterburner"
     ],
     "Paperboy",
+    [
+     "Donkey Kong Jr.",
+     "Donkey Kong Junior"
+    ],
     "Bubble Bobble",
     "Rampage",
-    [
-     "Track & Field",
-     "Track and Field"
-    ],
+    "Track & Field",
     "Pengo",
-    [
-     "Mr. Do!",
-     "Mr Do"
-    ],
+    "Mr. Do!",
     [
      "Ms. Pac-Man",
      "Ms Pacman"
     ],
     "Street Fighter",
-    [
-     "Dragon's Lair",
-     "Dragons Lair"
-    ],
+    "Dragon's Lair",
+    "Commando",
     "Star Wars",
+    "Kung-Fu Master",
     "Battlezone",
+    "Bomb Jack",
     "Xevious",
+    "Contra",
     "1942",
+    "Operation Wolf",
     "Gradius",
+    "Altered Beast",
     "R-Type",
+    "Golden Axe",
+    "Final Fight",
+    "Ghosts 'n Goblins",
     [
-     "Ghosts 'n Goblins",
-     "Ghosts n Goblins"
+     "Teenage Mutant Ninja Turtles",
+     "TMNT"
     ],
+    "Shinobi",
     "Rygar",
+    [
+     "Chase H.Q.",
+     "Chase HQ"
+    ],
     "Marble Madness",
+    "Hang-On",
+    "Super Sprint",
     "Spy Hunter",
+    "Ikari Warriors",
+    "Wonder Boy",
     "Zaxxon",
-    [
-     "BurgerTime",
-     "Burgertime"
-    ],
+    "Rolling Thunder",
+    "Tron",
+    "BurgerTime",
+    "Scramble",
+    "Phoenix",
     "Karate Champ",
-    [
-     "Punch-Out!!",
-     "Punch Out"
-    ],
+    "Lunar Lander",
+    "Gyruss",
+    "Punch-Out!!",
+    "Rally-X",
+    "Mappy",
     "Arkanoid",
+    "Bosconian",
     "Elevator Action",
+    "Pac-Land",
+    "Yie Ar Kung-Fu",
     "Mario Bros.",
+    "Hyper Sports",
+    "Rastan",
     "Time Pilot",
+    [
+     "Bad Dudes",
+     "Bad Dudes vs. DragonNinja"
+    ],
+    "1943",
     "Moon Patrol",
+    "Popeye",
+    "Kangaroo",
     "Tapper",
-    "Sinistar"
+    "Sinistar",
+    "Gun Fight",
+    "Sea Wolf",
+    "Night Driver"
    ]
   },
   {
@@ -4871,25 +5037,45 @@
      "Golem",
      "Stone Golem"
     ],
+    [
+     "Higher Vampire",
+     "Vampire"
+    ],
     "Archgriffin",
     "Arachas",
     "Endrega",
     "Gargoyle",
+    "Djinn",
     "Ekimmara",
     "Alghoul",
+    [
+     "Wight",
+     "Spotted Wight"
+    ],
     "Devil by the Well",
     "Botchling",
+    "Barghest",
     "Fugas",
     "Godling",
+    "Shaelmaar",
     "Ice Giant",
     "Nightwraith",
+    "Hym",
     "Pesta",
     "Gravehag",
+    "Alp",
+    "Garkain",
+    "Bies",
     "Rotfiend",
+    "Chort",
     "Forktail",
     "Sylvan",
     "Kikimore",
-    "Ice Troll"
+    "Ice Troll",
+    [
+     "Hound of the Wild Hunt",
+     "Wild Hunt Hound"
+    ]
    ]
   },
   {
@@ -4910,40 +5096,57 @@
     "Lilith",
     "Andariel",
     "Duriel",
-    [
-     "The Butcher",
-     "Butcher"
-    ],
+    "The Butcher",
     [
      "Leoric",
-     "The Skeleton King",
-     "Skeleton King"
+     "The Skeleton King"
     ],
     "Malthael",
     "Azmodan",
     "Belial",
+    "Leah",
     "Inarius",
     [
      "Zoltun Kulle",
      "Kulle"
     ],
+    "Imperius",
     "Izual",
     "Griswold",
+    "Auriel",
     "Adria",
     "Akarat",
     "Rathma",
+    [
+     "Lorath Nahr",
+     "Lorath"
+    ],
     "Hephasto",
+    "Neyrelle",
     "Lazarus",
     "Uldyssian",
+    "Donan",
     "Gharbad",
     "Wirt",
+    [
+     "Covetous Shen",
+     "Shen"
+    ],
     "Rakanishu",
+    [
+     "Haedrig Eamon",
+     "Haedrig"
+    ],
     "Kashya",
     "Charsi",
+    "Kormac",
+    "Valla",
     "Akara",
+    "Zayl",
     "Gheed",
     "Warriv",
-    "Natalya"
+    "Natalya",
+    "Itherael"
    ]
   },
   {
@@ -4983,10 +5186,17 @@
     ],
     "Rachni",
     "Yahg",
+    [
+     "Keepers",
+     "Keeper"
+    ],
     "Leviathan",
+    "Raloi",
     "Angara",
+    "Varren",
     "Kett",
-    "Remnant"
+    "Remnant",
+    "Thresher Maw"
    ]
   },
   {
@@ -5062,16 +5272,23 @@
     "Hammerfell",
     "Elsweyr",
     "Valenwood",
+    "Vvardenfell",
     "Black Marsh",
     [
      "Summerset Isle",
      "Summerset"
     ],
+    "Nirn",
     "Solstheim",
+    "Orsinium",
     "Akavir",
     "Atmora",
+    "Artaeum",
+    "Stros M'Kai",
     "Yokuda",
-    "Pyandonea"
+    "Roscrea",
+    "Pyandonea",
+    "Thras"
    ]
   },
   {
@@ -5438,10 +5655,7 @@
    "text": "Name a holiday or world event in World of Warcraft",
    "answers": [
     "Brewfest",
-    [
-     "Hallow's End",
-     "Hallows End"
-    ],
+    "Hallow's End",
     [
      "Feast of Winter Veil",
      "Winter Veil"
@@ -5461,7 +5675,11 @@
     "Pirates' Day",
     "Day of the Dead",
     "Fireworks Spectacular",
-    "Call of the Scarab"
+    "Call of the Scarab",
+    [
+     "WoW Anniversary",
+     "Anniversary"
+    ]
    ]
   },
   {
@@ -5776,10 +5994,7 @@
     "Draconic",
     "Titan",
     "Kalimag",
-    [
-     "Shath'Yar",
-     "Shathyar"
-    ],
+    "Shath'Yar",
     "Nerglish",
     "Pandaren",
     [
@@ -5787,7 +6002,8 @@
      "Worgen"
     ],
     "Vulpera",
-    "Eredun"
+    "Eredun",
+    "Shalassian"
    ]
   }
  ]

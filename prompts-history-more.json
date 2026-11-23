@@ -457,32 +457,32 @@
      "Gaul"
     ],
     [
-     "Gladiatrix",
-     "Female gladiator"
-    ],
-    [
      "Bestiarius",
      "Bestiarii"
     ],
     [
+     "Gladiatrix",
+     "Female gladiator"
+    ],
+    "Sagittarius",
+    "Scissor",
+    [
      "Andabata",
      "Andabatae"
     ],
-    [
-     "Arbelas",
-     "Arbelai"
-    ],
-    "Bustuarius",
-    "Crupellarius",
     "Laquearius",
-    "Parmularius",
-    "Rudiarius",
-    "Sagittarius",
-    "Scissor",
-    "Scutarius",
     [
      "Veles",
      "Velites"
+    ],
+    "Rudiarius",
+    "Scutarius",
+    "Parmularius",
+    "Bustuarius",
+    "Crupellarius",
+    [
+     "Arbelas",
+     "Arbelai"
     ]
    ],
    "deep": true
@@ -1266,7 +1266,10 @@
    "text": "Name a town or fort in Roman Britain by its Latin name (full or short form)",
    "answers": [
     "Londinium",
-    "Eboracum",
+    [
+     "Eboracum",
+     "eburacum"
+    ],
     "Aquae Sulis",
     [
      "Deva Victrix",
@@ -1300,7 +1303,8 @@
     "Luguvalium",
     [
      "Mamucium",
-     "Mantio"
+     "Mantio",
+     "mancunium"
     ],
     [
      "Viroconium Cornoviorum",
@@ -1308,43 +1312,66 @@
     ],
     "Segedunum",
     "Pons Aelius",
-    "Dubris",
-    "Arbeia",
-    "Banna",
-    "Branodunum",
-    [
-     "Calleva Atrebatum",
-     "Calleva"
-    ],
-    "Cataractonium",
-    "Cilurnum",
-    "Clausentum",
-    "Danum",
-    "Derventio Brigantum",
-    "Durnovaria",
-    "Isca Augusta",
-    [
-     "Isurium",
-     "Isubrigantum"
-    ],
-    "Lindinis",
-    "Magnis",
-    "Noviomagus Reginorum",
-    "Olicana",
-    "Portus Lemanis",
-    "Regulbium",
-    "Rutupiae",
-    "Segontium",
-    [
-     "Venta Icenorum",
-     "Icinos"
-    ],
-    "Venta Silurum",
     [
      "Vercovicium",
      "Borcovicium"
     ],
-    "Vinovia"
+    "Arbeia",
+    "Isca Augusta",
+    "Rutupiae",
+    "Dubris",
+    "Durnovaria",
+    [
+     "Venta Icenorum",
+     "Icinos"
+    ],
+    "Segontium",
+    [
+     "Calleva Atrebatum",
+     "Calleva"
+    ],
+    "Danum",
+    "Noviomagus Reginorum",
+    "Clausentum",
+    "Regulbium",
+    "Portus Lemanis",
+    "Cilurnum",
+    "Cataractonium",
+    "Branodunum",
+    "Banna",
+    "Derventio Brigantum",
+    [
+     "Isurium",
+     "Isubrigantum"
+    ],
+    "Magnis",
+    "Lindinis",
+    "Olicana",
+    "Venta Silurum",
+    "Vinovia",
+    "Durobrivae",
+    "Sorviodunum",
+    [
+     "Coria",
+     "corstopitum"
+    ],
+    "Moridunum",
+    "Nidum",
+    "Petuaria",
+    "Othona",
+    "Anderitum",
+    "Gariannonum",
+    "Letocetum",
+    "Bremetennacum",
+    "Condate",
+    "Salinae",
+    "Aquae Arnemetiae",
+    "Pontes",
+    "Caesaromagus",
+    "Durolipons",
+    "Alauna",
+    "Lactodurum",
+    "Mediolanum"
    ]
   },
   {
@@ -2192,6 +2219,38 @@
      "Battle of Belleau Wood",
      "Belleau Wood"
     ],
+    "Battle of Le Cateau",
+    "Battle of the Frontiers",
+    "Race to the Sea",
+    [
+     "Battle of Liège",
+     "siege of liege"
+    ],
+    "Siege of Antwerp",
+    "Battle of the Yser",
+    [
+     "Nivelle Offensive",
+     "chemin des dames"
+    ],
+    "Battle of Pozières",
+    "Battle of Mametz Wood",
+    "Battle of Beaumont-Hamel",
+    "Battle of Bullecourt",
+    "Battle of Villers-Bretonneux",
+    [
+     "Landing at Anzac Cove",
+     "anzac cove"
+    ],
+    "Battle of the Nek",
+    [
+     "Raid on Scarborough, Hartlepool and Whitby",
+     "bombardment of scarborough"
+    ],
+    "Fall of Baghdad",
+    "Battle of Sarikamish",
+    "Siege of Przemyśl",
+    "Kerensky Offensive",
+    "Battle of Mount Kemmel",
     [
      "Battle of the Falkland Islands",
      "Falkland Islands",
@@ -2222,46 +2281,28 @@
     ],
     "Brusilov Offensive",
     [
-     "Battle of Aqaba",
-     "Aqaba"
+     "Battle of Gaza",
+     "Gaza",
+     "First Battle of Gaza",
+     "Second Battle of Gaza",
+     "Third Battle of Gaza"
+    ],
+    [
+     "Battle of Galicia",
+     "Galicia"
+    ],
+    [
+     "Battle of Delville Wood",
+     "Delville Wood"
+    ],
+    [
+     "Battle of Fromelles",
+     "Fromelles"
     ],
     [
      "Battle of Artois",
      "Artois",
      "Second Battle of Artois"
-    ],
-    [
-     "Battle of Asiago",
-     "Asiago"
-    ],
-    [
-     "Battle of Aubers",
-     "Aubers"
-    ],
-    [
-     "Battle of Baku",
-     "Baku"
-    ],
-    [
-     "Battle of Basra",
-     "Basra",
-     "Battle of Basra (1914)"
-    ],
-    [
-     "Battle of Bazentin Ridge",
-     "Bazentin Ridge"
-    ],
-    [
-     "Battle of Broodseinde",
-     "Broodseinde"
-    ],
-    [
-     "Battle of Cantigny",
-     "Cantigny"
-    ],
-    [
-     "Battle of Cer",
-     "Cer"
     ],
     [
      "Battle of Champagne",
@@ -2275,13 +2316,9 @@
      "Charleroi"
     ],
     [
-     "Battle of Chunuk Bair",
-     "Chunuk Bair"
-    ],
-    [
-     "Battle of Château-Thierry",
-     "Château-Thierry",
-     "Battle of Château-Thierry (1918)"
+     "Battle of Basra",
+     "Basra",
+     "Battle of Basra (1914)"
     ],
     [
      "Battle of Ctesiphon",
@@ -2289,8 +2326,24 @@
      "Battle of Ctesiphon (1915)"
     ],
     [
-     "Battle of Delville Wood",
-     "Delville Wood"
+     "Battle of Gumbinnen",
+     "Gumbinnen"
+    ],
+    [
+     "Battle of Gheluvelt",
+     "Gheluvelt"
+    ],
+    [
+     "Battle of Festubert",
+     "Festubert"
+    ],
+    [
+     "Battle of Aubers",
+     "Aubers"
+    ],
+    [
+     "Battle of Cer",
+     "Cer"
     ],
     [
      "Battle of Doiran",
@@ -2300,39 +2353,45 @@
      "Battle of Doiran (1918)"
     ],
     [
-     "Battle of Festubert",
-     "Festubert"
+     "Battle of Asiago",
+     "Asiago"
+    ],
+    [
+     "Battle of Cantigny",
+     "Cantigny"
+    ],
+    [
+     "Battle of Château-Thierry",
+     "Château-Thierry",
+     "Battle of Château-Thierry (1918)"
+    ],
+    [
+     "Battle of Chunuk Bair",
+     "Chunuk Bair"
     ],
     [
      "Battle of Flers–Courcelette",
      "Flers–Courcelette"
     ],
     [
-     "Battle of Fromelles",
-     "Fromelles"
-    ],
-    [
-     "Battle of Galicia",
-     "Galicia"
-    ],
-    [
-     "Battle of Gaza",
-     "Gaza",
-     "First Battle of Gaza",
-     "Second Battle of Gaza",
-     "Third Battle of Gaza"
-    ],
-    [
-     "Battle of Gheluvelt",
-     "Gheluvelt"
-    ],
-    [
      "Battle of Guillemont",
      "Guillemont"
     ],
     [
-     "Battle of Gumbinnen",
-     "Gumbinnen"
+     "Battle of Bazentin Ridge",
+     "Bazentin Ridge"
+    ],
+    [
+     "Battle of Broodseinde",
+     "Broodseinde"
+    ],
+    [
+     "Battle of Aqaba",
+     "Aqaba"
+    ],
+    [
+     "Battle of Baku",
+     "Baku"
     ],
     [
      "Battle of Hill 60",
@@ -2427,7 +2486,38 @@
      "Capture of Jerusalem",
      "Jerusalem",
      "Battle of Jerusalem"
-    ]
+    ],
+    "Battle of High Wood",
+    "Battle of Thiepval Ridge",
+    "Battle of the Ancre",
+    "Battle of Polygon Wood",
+    "Battle of the Menin Road",
+    "Battle of Langemarck",
+    "Battle of Poelcappelle",
+    "Battle of Hill 70",
+    "Battle of Lens",
+    "Fort Douaumont",
+    "Battle of Épehy",
+    "Battle of the Canal du Nord",
+    "Battle of the Selle",
+    "Battle of the Sambre",
+    "Battle of Romani",
+    "Battle of Magdhaba",
+    "Battle of Krithia",
+    "Battle of Gully Ravine",
+    "Battle of Kolubara",
+    "Battle of Łódź",
+    "Battle of Mărășești",
+    "Battle of Dobro Pole",
+    "Battle of Monte Grappa",
+    "Battle of Lake Tanganyika",
+    "Battle of Cocos",
+    "Battle of Penang",
+    "Battle of Mahiwa",
+    "Battle of the Dover Strait",
+    "Battle of the Otranto Straits",
+    "Battle of Moon Sound",
+    "Ostend Raid"
    ]
   },
   {
@@ -2475,7 +2565,8 @@
      "Bulge",
      "Battle of Bulge",
      "Ardennes Offensive",
-     "Ardennes"
+     "Ardennes",
+     "battle of the ardennes"
     ],
     [
      "Battle of Midway",
@@ -2488,6 +2579,100 @@
      "Operation Market Garden",
      "A Bridge Too Far"
     ],
+    "The Blitz",
+    [
+     "Dambusters raid",
+     "operation chastise"
+    ],
+    [
+     "Bombing of Hiroshima",
+     "hiroshima"
+    ],
+    [
+     "Bombing of Nagasaki",
+     "nagasaki"
+    ],
+    "Warsaw Uprising",
+    "Omaha Beach",
+    "Sword Beach",
+    "Juno Beach",
+    "Gold Beach",
+    "Utah Beach",
+    "Pegasus Bridge",
+    "Sinking of the Bismarck",
+    "St Nazaire Raid",
+    [
+     "Coventry Blitz",
+     "bombing of coventry"
+    ],
+    "Doolittle Raid",
+    "Battle of Shanghai",
+    [
+     "Battle of Nanking",
+     "battle of nanjing"
+    ],
+    "Battle of Wuhan",
+    "Battle of Khalkhin Gol",
+    "Battle of Westerplatte",
+    "Battle of the Bzura",
+    "Battle of Malaya",
+    "Sinking of Prince of Wales and Repulse",
+    "Bombing of Darwin",
+    "Battle of Kwajalein",
+    "Battle of Guam",
+    "Battle of Ortona",
+    "Gothic Line",
+    "Battle of Villers-Bocage",
+    "Operation Bagration",
+    "Battle of the Dnieper",
+    "Battle of the Caucasus",
+    "Brest Fortress",
+    "Battle of Suomussalmi",
+    "Rotterdam Blitz",
+    "Battle of the Netherlands",
+    "Battle of Greece",
+    "Battle of Keren",
+    "Channel Dash",
+    [
+     "Thousand-bomber raid on Cologne",
+     "bombing of cologne"
+    ],
+    "Schweinfurt–Regensburg mission",
+    "Ploiești raid",
+    "Battle of Leros",
+    "Battle of Madagascar",
+    "Battle of Dakar",
+    "Battle of the Admin Box",
+    "Battle of Meiktila",
+    "Bombing of Tokyo",
+    "Soviet invasion of Manchuria",
+    "Battle of Luzon",
+    "Battle off Samar",
+    "Battle of Surigao Strait",
+    "Battle of the Barents Sea",
+    "Battle of Königsberg",
+    "Battle of Breslau",
+    "Battle of Halbe",
+    "Battle of Debrecen",
+    "Battle of Korsun",
+    "Battle of Tinian",
+    "Battle of Eniwetok",
+    "Battle of Brest",
+    "Battle of Metz",
+    "Battle of Nijmegen",
+    "Battle of the Reichswald",
+    "Battle of the Ruhr Pocket",
+    "Battle of Narva",
+    "Battle of Tali-Ihantala",
+    "Battle of Hannut",
+    "Battle of Gembloux",
+    "Battle of Sidi Barrani",
+    "Battle of Sidi Rezegh",
+    "Battle of Medenine",
+    "Battle of Wadi Akarit",
+    "Battle of Longstop Hill",
+    "Battle of Mandalay",
+    "Battle of Yenangyaung",
     [
      "Battle of Kursk",
      "Kursk"
@@ -2527,7 +2712,8 @@
     ],
     [
      "Battle of Singapore",
-     "Singapore"
+     "Singapore",
+     "fall of singapore"
     ],
     [
      "Siege of Leningrad",
@@ -2660,6 +2846,36 @@
      "Battle of Sydney Harbour"
     ],
     [
+     "Battle of Bastogne",
+     "Bastogne",
+     "Siege of Bastogne"
+    ],
+    [
+     "Battle of Tarawa",
+     "Tarawa"
+    ],
+    [
+     "Battle of Peleliu",
+     "Peleliu"
+    ],
+    [
+     "Battle of Corregidor",
+     "Corregidor"
+    ],
+    [
+     "Battle of Bataan",
+     "Bataan",
+     "Battle of Bataan (1945)"
+    ],
+    [
+     "Battle of Cherbourg",
+     "Cherbourg"
+    ],
+    [
+     "Battle of Carentan",
+     "Carentan"
+    ],
+    [
      "Battle of Aachen",
      "Aachen"
     ],
@@ -2668,19 +2884,12 @@
      "Alam el Halfa"
     ],
     [
-     "Battle of Amba Alagi",
-     "Amba Alagi",
-     "Battle of Amba Alagi (1941)"
+     "Battle of Bir Hakeim",
+     "Bir Hakeim"
     ],
     [
-     "Battle of Attu",
-     "Attu"
-    ],
-    [
-     "Battle of Balikpapan",
-     "Balikpapan",
-     "Battle of Balikpapan (1942)",
-     "Battle of Balikpapan (1945)"
+     "Battle of Beda Fomm",
+     "Beda Fomm"
     ],
     [
      "Battle of Bardia",
@@ -2689,29 +2898,40 @@
      "Raid on Bardia"
     ],
     [
-     "Battle of Bataan",
-     "Bataan",
-     "Battle of Bataan (1945)"
+     "Battle of Casablanca",
+     "Casablanca",
+     "Naval Battle of Casablanca"
     ],
     [
-     "Battle of Beda Fomm",
-     "Beda Fomm"
+     "Battle of Changsha",
+     "Changsha",
+     "Battle of Changsha (1939)",
+     "Battle of Changsha (1941)",
+     "Battle of Changsha (1941-1942)",
+     "Battle of Changsha (1941–1942)",
+     "Battle of Changsha (1944)"
+    ],
+    [
+     "Battle of Attu",
+     "Attu"
     ],
     [
      "Battle of Biak",
      "Biak"
     ],
     [
-     "Battle of Bir Hakeim",
-     "Bir Hakeim"
-    ],
-    [
-     "Battle of Bukit Timah",
-     "Bukit Timah"
+     "Battle of Balikpapan",
+     "Balikpapan",
+     "Battle of Balikpapan (1942)",
+     "Battle of Balikpapan (1945)"
     ],
     [
      "Battle of Buna–Gona",
      "Buna–Gona"
+    ],
+    [
+     "Battle of Bukit Timah",
+     "Bukit Timah"
     ],
     [
      "Battle of Calabria",
@@ -2730,47 +2950,13 @@
      "Cape Spartivento"
     ],
     [
-     "Battle of Carentan",
-     "Carentan"
-    ],
-    [
-     "Battle of Casablanca",
-     "Casablanca",
-     "Naval Battle of Casablanca"
-    ],
-    [
-     "Battle of Changsha",
-     "Changsha",
-     "Battle of Changsha (1939)",
-     "Battle of Changsha (1941)",
-     "Battle of Changsha (1941-1942)",
-     "Battle of Changsha (1941–1942)",
-     "Battle of Changsha (1944)"
-    ],
-    [
-     "Battle of Cherbourg",
-     "Cherbourg"
-    ],
-    [
-     "Battle of Tarawa",
-     "Tarawa"
-    ],
-    [
-     "Battle of Peleliu",
-     "Peleliu"
-    ],
-    [
-     "Battle of Corregidor",
-     "Corregidor"
-    ],
-    [
      "Battle of Manila",
      "Manila"
     ],
     [
-     "Battle of Bastogne",
-     "Bastogne",
-     "Siege of Bastogne"
+     "Battle of Amba Alagi",
+     "Amba Alagi",
+     "Battle of Amba Alagi (1941)"
     ],
     [
      "Battle of Remagen",
@@ -2990,7 +3176,8 @@
     ],
     [
      "Dragoon",
-     "Operation Dragoon"
+     "Operation Dragoon",
+     "anvil"
     ],
     [
      "Pied Piper",
@@ -3183,7 +3370,94 @@
     [
      "Bernhard",
      "Operation Bernhard"
-    ]
+    ],
+    [
+     "Merkur",
+     "mercury"
+    ],
+    "Marita",
+    [
+     "Fall Gelb",
+     "case yellow"
+    ],
+    [
+     "Fall Weiss",
+     "case white"
+    ],
+    [
+     "Fall Blau",
+     "case blue"
+    ],
+    [
+     "Fall Rot",
+     "case red"
+    ],
+    "Catapult",
+    "Judgement",
+    "Rheinübung",
+    "Cerberus",
+    [
+     "Paukenschlag",
+     "drumbeat"
+    ],
+    "Lightfoot",
+    "Supercharge",
+    "Battleaxe",
+    "Brevity",
+    "Diadem",
+    "Bluecoat",
+    "Charnwood",
+    "Deadstick",
+    "Tonga",
+    "Titanic",
+    "Manna",
+    "Chowhound",
+    "Unthinkable",
+    "Source",
+    "Tungsten",
+    "Catechism",
+    "Jaywick",
+    "Ten-Go",
+    "U-Go",
+    "Ichi-Go",
+    "Olympic",
+    "Coronet",
+    "Meetinghouse",
+    "Starvation",
+    "Bolero",
+    "Roundup",
+    "Sledgehammer",
+    "Mars",
+    "Kutuzov",
+    "Little Saturn",
+    [
+     "Frühlingserwachen",
+     "spring awakening"
+    ],
+    "Herkules",
+    "Felix",
+    "Steinbock",
+    [
+     "Argument",
+     "big week"
+    ],
+    "Thunderclap",
+    "Baytown",
+    "Slapstick",
+    "Olive",
+    "Atlantic",
+    "Spring",
+    "Windsor",
+    "Jupiter",
+    "Perch",
+    "Queen",
+    "Lüttich",
+    "Exodus",
+    "Zipper",
+    "Ladbroke",
+    "Fustian",
+    "Rimau",
+    "Gambit"
    ]
   },
   {
@@ -4235,7 +4509,8 @@
     "Barbados",
     [
      "Zimbabwe",
-     "Rhodesia"
+     "Rhodesia",
+     "southern rhodesia"
     ],
     [
      "Sri Lanka",
@@ -4244,67 +4519,66 @@
     "Israel",
     "Egypt",
     "Uganda",
-    "Afghanistan",
+    "Singapore",
     [
-     "Antigua and Barbuda",
-     "Antigua"
-    ],
-    "The Bahamas",
-    "Bahrain",
-    [
-     "Belize",
-     "British Honduras"
+     "United Arab Emirates",
+     "UAE"
     ],
     [
-     "Botswana",
-     "Bechuanaland"
-    ],
-    "Brunei",
-    "Dominica",
-    [
-     "Eswatini",
-     "Swaziland"
-    ],
-    "Fiji",
-    "The Gambia",
-    "Grenada",
-    [
-     "Guyana",
-     "British Guiana"
-    ],
-    "Iraq",
-    "Jordan",
-    [
-     "Kiribati",
-     "Gilbert Islands"
-    ],
-    "Kuwait",
-    [
-     "Lesotho",
-     "Basutoland"
-    ],
-    "Libya",
-    [
-     "Malawi",
-     "Nyasaland"
+     "Trinidad and Tobago",
+     "Trinidad"
     ],
     [
      "Malaya",
      "Malaysia",
      "Federation of Malaya"
     ],
-    "Maldives",
-    "Mauritius",
+    "Sierra Leone",
+    "Fiji",
+    "Iraq",
+    "Jordan",
+    "Kuwait",
+    "Qatar",
+    "Bahrain",
     [
      "Myanmar",
      "Burma"
     ],
-    "Nauru",
-    "Qatar",
+    "Sudan",
+    "Libya",
+    [
+     "Zambia",
+     "Northern Rhodesia"
+    ],
+    [
+     "Malawi",
+     "Nyasaland"
+    ],
+    [
+     "Botswana",
+     "Bechuanaland"
+    ],
+    [
+     "Belize",
+     "British Honduras"
+    ],
+    "The Bahamas",
+    [
+     "Guyana",
+     "British Guiana"
+    ],
+    "Mauritius",
+    "Seychelles",
+    [
+     "Antigua and Barbuda",
+     "Antigua"
+    ],
     [
      "Saint Lucia",
      "St Lucia"
     ],
+    "Grenada",
+    "Dominica",
     [
      "Saint Kitts and Nevis",
      "St Kitts and Nevis",
@@ -4315,50 +4589,52 @@
      "St Vincent and the Grenadines",
      "St Vincent"
     ],
-    "Seychelles",
-    "Sierra Leone",
+    [
+     "Tanganyika",
+     "Tanzania"
+    ],
+    "Brunei",
+    "Maldives",
+    [
+     "Eswatini",
+     "Swaziland"
+    ],
+    [
+     "Lesotho",
+     "Basutoland"
+    ],
+    "The Gambia",
+    "Tonga",
     "Solomon Islands",
+    [
+     "Vanuatu",
+     "New Hebrides"
+    ],
+    [
+     "Kiribati",
+     "Gilbert Islands"
+    ],
+    [
+     "Tuvalu",
+     "Ellice Islands"
+    ],
+    "Nauru",
+    [
+     "South Yemen",
+     "Aden",
+     "Yemen"
+    ],
     [
      "Somaliland",
      "British Somaliland",
      "Somalia"
     ],
     [
-     "South Yemen",
-     "Aden",
-     "Yemen"
-    ],
-    "Sudan",
-    [
-     "Tanganyika",
-     "Tanzania"
-    ],
-    "Tonga",
-    [
-     "Trinidad and Tobago",
-     "Trinidad"
-    ],
-    [
-     "Tuvalu",
-     "Ellice Islands"
-    ],
-    [
-     "United Arab Emirates",
-     "UAE"
-    ],
-    [
-     "Vanuatu",
-     "New Hebrides"
-    ],
-    [
-     "Zambia",
-     "Northern Rhodesia"
-    ],
-    [
      "Sultanate of Zanzibar",
      "Zanzibar"
     ],
-    "Singapore"
+    "Afghanistan",
+    "Cameroon"
    ]
   },
   {
@@ -5321,7 +5597,8 @@
      "First Manassas",
      "Second Manassas",
      "Battle of Manassas",
-     "Second Bull Run"
+     "Second Bull Run",
+     "first bull run"
     ],
     [
      "Battle of Antietam",
@@ -5357,6 +5634,10 @@
      "Atlanta"
     ],
     [
+     "Sherman's March to the Sea",
+     "march to the sea"
+    ],
+    [
      "Battle of Petersburg",
      "Petersburg",
      "First Battle of Petersburg",
@@ -5382,7 +5663,9 @@
     ],
     [
      "Battle of Hampton Roads",
-     "Hampton Roads"
+     "Hampton Roads",
+     "battle of the ironclads",
+     "monitor and merrimack"
     ],
     [
      "Battle of Mobile Bay",
@@ -5419,8 +5702,41 @@
      "Fort Donelson"
     ],
     [
+     "Battle of Bentonville",
+     "Bentonville"
+    ],
+    [
+     "Battle of Cedar Creek",
+     "Cedar Creek"
+    ],
+    [
+     "Battle of Brandy Station",
+     "Brandy Station"
+    ],
+    [
+     "Battle of Corinth",
+     "Corinth",
+     "Second Battle of Corinth"
+    ],
+    [
+     "Battle of Champion Hill",
+     "Champion Hill"
+    ],
+    [
      "Battle of Ball's Bluff",
      "Ball's Bluff"
+    ],
+    [
+     "Battle of Cedar Mountain",
+     "Cedar Mountain"
+    ],
+    [
+     "Battle of Big Bethel",
+     "Big Bethel"
+    ],
+    [
+     "Battle of Chantilly",
+     "Chantilly"
     ],
     [
      "Battle of Baton Rouge",
@@ -5428,45 +5744,12 @@
      "Battle of Baton Rouge (1862)"
     ],
     [
-     "Battle of Belmont",
-     "Belmont"
-    ],
-    [
-     "Battle of Bentonville",
-     "Bentonville"
-    ],
-    [
-     "Battle of Big Bethel",
-     "Big Bethel"
-    ],
-    [
-     "Battle of Brandy Station",
-     "Brandy Station"
-    ],
-    [
      "Battle of Bristoe Station",
      "Bristoe Station"
     ],
     [
-     "Battle of Cedar Creek",
-     "Cedar Creek"
-    ],
-    [
-     "Battle of Cedar Mountain",
-     "Cedar Mountain"
-    ],
-    [
-     "Battle of Champion Hill",
-     "Champion Hill"
-    ],
-    [
-     "Battle of Chantilly",
-     "Chantilly"
-    ],
-    [
-     "Battle of Corinth",
-     "Corinth",
-     "Second Battle of Corinth"
+     "Battle of Belmont",
+     "Belmont"
     ],
     [
      "Battle of Cross Keys",
@@ -5579,7 +5862,37 @@
      "Battle of South Mountain",
      "South Mountain",
      "Boonsboro"
-    ]
+    ],
+    "Battle of Palmito Ranch",
+    "Battle of Olustee",
+    "Battle of Westport",
+    "Battle of Brice's Crossroads",
+    "Battle of Prairie Grove",
+    "Battle of Valverde",
+    "Battle of Picacho Pass",
+    "Battle of Honey Springs",
+    "Battle of Mansfield",
+    "Battle of Pleasant Hill",
+    "Battle of Port Gibson",
+    "Battle of Raymond",
+    "Battle of Big Black River Bridge",
+    "Battle of Fort Stedman",
+    "Battle of Hatcher's Run",
+    "Battle of Kernstown",
+    "Battle of Front Royal",
+    "Battle of McDowell",
+    "Battle of Port Republic",
+    "Battle of New Market",
+    "Battle of Trevilian Station",
+    "Battle of Yellow Tavern",
+    "Battle of North Anna",
+    "Battle of Drewry's Bluff",
+    "Battle of Allatoona",
+    "Battle of Resaca",
+    "Battle of Ezra Church",
+    "Battle of Griswoldville",
+    "Battle of Spring Hill",
+    "Battle of Fort Stevens"
    ]
   },
   {
@@ -5596,12 +5909,16 @@
     [
      "Battle of Lexington and Concord",
      "Lexington and Concord",
-     "Battles of Lexington and Concord"
+     "Battles of Lexington and Concord",
+     "battle of lexington",
+     "battle of concord"
     ],
     [
      "Battle of Saratoga",
      "Saratoga",
-     "Battles of Saratoga"
+     "Battles of Saratoga",
+     "battle of freeman's farm",
+     "battle of bemis heights"
     ],
     [
      "Siege of Yorktown",
@@ -5623,7 +5940,8 @@
     ],
     [
      "Battle of Long Island",
-     "Long Island"
+     "Long Island",
+     "battle of brooklyn"
     ],
     [
      "Battle of Germantown",
@@ -5674,71 +5992,12 @@
      "Bennington"
     ],
     [
-     "Battle of Cape St. Vincent",
-     "Cape St. Vincent",
-     "Battle of Cape St. Vincent (1780)"
-    ],
-    [
-     "Battle of Eutaw Springs",
-     "Eutaw Springs"
-    ],
-    [
-     "Battle of Flamborough Head",
-     "Flamborough Head"
-    ],
-    [
-     "Battle of Fort Washington",
-     "Fort Washington"
-    ],
-    [
-     "Battle of Great Bridge",
-     "Great Bridge"
+     "Battle of White Plains",
+     "White Plains"
     ],
     [
      "Battle of Harlem Heights",
      "Harlem Heights"
-    ],
-    [
-     "Battle of Hobkirk's Hill",
-     "Hobkirk's Hill"
-    ],
-    [
-     "Battle of Hubbardton",
-     "Hubbardton"
-    ],
-    [
-     "Battle of Kettle Creek",
-     "Kettle Creek"
-    ],
-    [
-     "Battle of Moore's Creek Bridge",
-     "Moore's Creek Bridge"
-    ],
-    [
-     "Battle of Oriskany",
-     "Oriskany"
-    ],
-    [
-     "Battle of Paoli",
-     "Paoli"
-    ],
-    [
-     "Battle of Paulus Hook",
-     "Paulus Hook"
-    ],
-    [
-     "Battle of Porto Praya",
-     "Porto Praya"
-    ],
-    [
-     "Battle of Rhode Island",
-     "Rhode Island",
-     "Battle of Newport",
-     "Newport"
-    ],
-    [
-     "Battle of Stony Point",
-     "Stony Point"
     ],
     [
      "Capture of Fort Ticonderoga",
@@ -5747,17 +6006,47 @@
      "Battle of Ticonderoga"
     ],
     [
+     "Battle of Stony Point",
+     "Stony Point"
+    ],
+    [
+     "Battle of Eutaw Springs",
+     "Eutaw Springs"
+    ],
+    [
+     "Battle of Oriskany",
+     "Oriskany"
+    ],
+    [
+     "Battle of Hubbardton",
+     "Hubbardton"
+    ],
+    [
+     "Battle of Paoli",
+     "Paoli"
+    ],
+    [
+     "Battle of Moore's Creek Bridge",
+     "Moore's Creek Bridge"
+    ],
+    [
+     "Battle of Great Bridge",
+     "Great Bridge"
+    ],
+    [
+     "Battle of Fort Washington",
+     "Fort Washington"
+    ],
+    [
+     "Battle of Rhode Island",
+     "Rhode Island",
+     "Battle of Newport",
+     "Newport"
+    ],
+    [
      "Battle of Valcour Island",
      "Valcour Island",
      "Valcour"
-    ],
-    [
-     "Battle of the Waxhaws",
-     "Waxhaws"
-    ],
-    [
-     "Battle of the Saintes",
-     "Saintes"
     ],
     [
      "Battle of the Chesapeake",
@@ -5766,9 +6055,63 @@
      "Chesapeake"
     ],
     [
-     "Battle of White Plains",
-     "White Plains"
-    ]
+     "Battle of the Saintes",
+     "Saintes"
+    ],
+    [
+     "Battle of Flamborough Head",
+     "Flamborough Head"
+    ],
+    [
+     "Battle of the Waxhaws",
+     "Waxhaws"
+    ],
+    [
+     "Battle of Hobkirk's Hill",
+     "Hobkirk's Hill"
+    ],
+    [
+     "Battle of Kettle Creek",
+     "Kettle Creek"
+    ],
+    [
+     "Battle of Paulus Hook",
+     "Paulus Hook"
+    ],
+    [
+     "Battle of Cape St. Vincent",
+     "Cape St. Vincent",
+     "Battle of Cape St. Vincent (1780)"
+    ],
+    [
+     "Battle of Porto Praya",
+     "Porto Praya"
+    ],
+    "Siege of Savannah",
+    "Battle of Sullivan's Island",
+    "Battle of Blue Licks",
+    "Siege of Fort Mifflin",
+    "Battle of Red Bank",
+    "Battle of Springfield",
+    "Battle of Groton Heights",
+    "Battle of Wyoming",
+    "Cherry Valley massacre",
+    "Battle of Newtown",
+    "Battle of Minisink",
+    "Battle of Pell's Point",
+    "Battle of Machias",
+    "Burning of Falmouth",
+    "Battle of Chelsea Creek",
+    "Battle of Musgrove Mill",
+    "Battle of Ramsour's Mill",
+    "Battle of Fishing Creek",
+    "Siege of Ninety-Six",
+    "Battle of Green Spring",
+    "Great Siege of Gibraltar",
+    "Siege of Pensacola",
+    "Battle of Ushant",
+    "Battle of Grenada",
+    "Battle of Martinique"
    ],
    "deep": true
   },
@@ -5964,7 +6307,70 @@
     [
      "Heilsberg",
      "Battle of Heilsberg"
-    ]
+    ],
+    [
+     "Saragossa",
+     "siege of saragossa",
+     "zaragoza"
+    ],
+    [
+     "Douro",
+     "oporto"
+    ],
+    "Eckmühl",
+    "Maloyaroslavets",
+    "Krasnoi",
+    "Polotsk",
+    "Kulm",
+    "Katzbach",
+    "Dennewitz",
+    [
+     "Grossbeeren",
+     "gross beeren"
+    ],
+    "La Rothière",
+    "Laon",
+    "Arcis-sur-Aube",
+    "Fère-Champenoise",
+    "Paris",
+    "Montereau",
+    "Champaubert",
+    "Vauchamps",
+    "Orthez",
+    "Nivelle",
+    "Nive",
+    "San Marcial",
+    "Sorauren",
+    [
+     "Siege of San Sebastián",
+     "san sebastian"
+    ],
+    "Medellín",
+    "Ocaña",
+    "Sahagún",
+    "Benavente",
+    "Roliça",
+    "Sabugal",
+    "Arroyo dos Molinos",
+    "Tolentino",
+    "Grand Port",
+    "San Domingo",
+    "Elchingen",
+    "Dürenstein",
+    "Hollabrunn",
+    "Halle",
+    "Lübeck",
+    "Pułtusk",
+    "Abensberg",
+    [
+     "Ratisbon",
+     "regensburg"
+    ],
+    "Raab",
+    "Znaim",
+    "Vyazma",
+    "Tarutino",
+    "Ostrovno"
    ]
   },
   {
@@ -6345,6 +6751,10 @@
     [
      "Philipp Scheidemann",
      "Scheidemann"
+    ],
+    [
+     "Lutz Graf Schwerin von Krosigk",
+     "schwerin von krosigk"
     ]
    ]
   },
@@ -6545,7 +6955,9 @@
      "Moray",
      "House of Moray",
      "Macbeth"
-    ]
+    ],
+    "Mountbatten-Windsor",
+    "Cerdicing"
    ]
   },
   {
@@ -6695,7 +7107,57 @@
      "Ketil Flatnose",
      "Ketill Flatnose"
     ],
-    "Olof Skotkonung"
+    "Olof Skotkonung",
+    "Egil Skallagrimsson",
+    "Bjarni Herjolfsson",
+    "Ingolfur Arnarson",
+    [
+     "Floki Vilgerdarson",
+     "floki"
+    ],
+    [
+     "Freydis Eiriksdottir",
+     "freydis"
+    ],
+    "Thorvald Eiriksson",
+    "Lagertha",
+    "Sigurd the Stout",
+    "Thorfinn the Mighty",
+    [
+     "Haakon Sigurdsson",
+     "haakon jarl"
+    ],
+    "Sweyn Estridsson",
+    "Harald Greycloak",
+    [
+     "Svyatoslav I",
+     "sviatoslav"
+    ],
+    "Igor of Kiev",
+    "Olga of Kiev",
+    "Vladimir the Great",
+    [
+     "Askold and Dir",
+     "askold"
+    ],
+    "Halfdan the Black",
+    "Olaf the White",
+    [
+     "Sitric Silkbeard",
+     "sigtrygg silkbeard"
+    ],
+    "Olaf Cuaran",
+    [
+     "Turgeis",
+     "thorgest"
+    ],
+    "Harald Klak",
+    "Godfred",
+    "Gardar Svavarsson",
+    "Naddodd",
+    "Styrbjorn the Strong",
+    "Palnatoke",
+    "Erik Anundsson"
    ],
    "deep": true
   },
@@ -6794,13 +7256,16 @@
     [
      "Ganesha",
      "Ganesh",
-     "Ganapati"
+     "Ganapati",
+     "vinayaka"
     ],
     [
      "Shiva",
      "Siva",
      "Mahadeva",
-     "Shankar"
+     "Shankar",
+     "mahadev",
+     "shiv"
     ],
     [
      "Vishnu",
@@ -6881,7 +7346,27 @@
     "Kurma",
     "Varaha",
     "Manasa",
-    "Chamunda"
+    "Chamunda",
+    "Kalki",
+    "Vishwakarma",
+    "Dhanvantari",
+    "Ashvins",
+    "Soma",
+    "Santoshi Mata",
+    "Gayatri",
+    "Bhumi",
+    "Ardhanarishvara",
+    "Harihara",
+    "Mitra",
+    "Pushan",
+    "Rati",
+    "Kamakhya",
+    "Tara",
+    "Bhuvaneshvari",
+    "Lalita",
+    "Khandoba",
+    "Vithoba",
+    "Valli"
    ]
   },
   {
@@ -7398,7 +7883,61 @@
      "St Therese",
      "Therese of Lisieux",
      "Therese"
-    ]
+    ],
+    [
+     "Virgin Mary",
+     "saint mary",
+     "our lady"
+    ],
+    "Saint Joseph",
+    "Our Lady of Guadalupe",
+    "Saint Michael",
+    "Saint Paul",
+    "Saint Peter",
+    "Saint Martin of Tours",
+    "Saint Teresa of Ávila",
+    "Saint Vladimir",
+    "Saint Thomas",
+    "Saint Francis Xavier",
+    "Saint Mark",
+    "Saint John the Baptist",
+    "Saint Lucy",
+    "Saint Christopher",
+    "Saint Vincent",
+    "Saint Agatha",
+    "Saint Barnabas",
+    "Saint Marinus",
+    "Saint Devota",
+    [
+     "Saint Nicholas of Flüe",
+     "nicholas of flue"
+    ],
+    "Saint Benedict",
+    "Saint Bridget of Sweden",
+    "Saint Adalbert",
+    "Saint Ladislaus",
+    "Saint Publius",
+    "Saint Charbel",
+    "Saint Maron",
+    "Saint Frumentius",
+    "Saint Charles Lwanga",
+    "Saint Josephine Bakhita",
+    "Saint Lorenzo Ruiz",
+    "Saint Andrew Kim Taegon",
+    "Saint Paul Miki",
+    "Saint Ninian",
+    "Saint Margaret of Scotland",
+    [
+     "Saint Hedwig",
+     "saint jadwiga"
+    ],
+    "Saint Sergius of Radonezh",
+    "Saint Alexander Nevsky",
+    "Saint Mesrop",
+    "Saint Lazarus",
+    "Saint John of Nepomuk",
+    "Saint Ludmila",
+    "Saint Gerard"
    ]
   },
   {
@@ -7512,6 +8051,23 @@
      "Ironwood",
      "Jarnvidr",
      "Járnviðr"
+    ],
+    "Vingolf",
+    "Idavoll",
+    "Glitnir",
+    "Valaskjalf",
+    "Noatun",
+    "Thrymheim",
+    "Ydalir",
+    "Sokkvabekk",
+    "Landvidi",
+    "Elivagar",
+    "Gjoll",
+    "Gjallarbru",
+    "Gnipahellir",
+    [
+     "Myrkvidr",
+     "mirkwood"
     ]
    ]
   },
@@ -7530,7 +8086,8 @@
     [
      "Easter",
      "Easter Sunday",
-     "Easter Day"
+     "Easter Day",
+     "pascha"
     ],
     "Good Friday",
     "Palm Sunday",
@@ -7548,7 +8105,8 @@
     [
      "Epiphany",
      "Twelfth Night",
-     "Three Kings Day"
+     "Three Kings Day",
+     "theophany"
     ],
     "Advent",
     "Lent",
@@ -7570,7 +8128,9 @@
     [
      "Candlemas",
      "Presentation of Christ",
-     "Presentation in the Temple"
+     "Presentation in the Temple",
+     "presentation of jesus",
+     "presentation of christ in the temple"
     ],
     "Trinity Sunday",
     "Corpus Christi",
@@ -7585,7 +8145,8 @@
     [
      "Assumption",
      "Feast of the Assumption",
-     "Assumption Day"
+     "Assumption Day",
+     "dormition"
     ],
     [
      "Harvest Festival",
@@ -7615,6 +8176,49 @@
      "Boxing Day",
      "St Stephens Day",
      "Feast of Stephen"
+    ],
+    "Christmas Eve",
+    [
+     "Halloween",
+     "all hallows eve"
+    ],
+    [
+     "St Valentine's Day",
+     "valentine's day"
+    ],
+    "St Patrick's Day",
+    "St George's Day",
+    "St Andrew's Day",
+    "St David's Day",
+    "Whit Monday",
+    "Lammas",
+    "Plough Monday",
+    "Feast of the Circumcision",
+    "Baptism of the Lord",
+    [
+     "Feast of the Holy Family",
+     "holy family"
+    ],
+    "Sacred Heart",
+    "Divine Mercy Sunday",
+    "Laetare Sunday",
+    "Gaudete Sunday",
+    "Ember days",
+    "Nativity of Mary",
+    "Visitation",
+    "Saints Peter and Paul",
+    "Reformation Day",
+    "Advent Sunday",
+    "Christingle",
+    "Clean Monday",
+    "Collop Monday",
+    "Spy Wednesday",
+    "Sexagesima",
+    "Quadragesima",
+    [
+     "Midsummer",
+     "feast of st john the baptist",
+     "st john's day"
     ],
     [
      "Martinmas",
@@ -7700,7 +8304,35 @@
      "Ajax the Lesser",
      "Oilean Ajax"
     ],
-    "Cassandra"
+    "Cassandra",
+    "Penelope",
+    [
+     "Helen of Troy",
+     "helen"
+    ],
+    "Andromache",
+    "Hippolyta",
+    "Penthesilea",
+    "Memnon",
+    "Troilus",
+    "Protesilaus",
+    "Palamedes",
+    "Laertes",
+    "Amphitryon",
+    "Pirithous",
+    "Hippolytus",
+    "Ariadne",
+    "Adrastus",
+    "Polynices",
+    "Eteocles",
+    "Amphiaraus",
+    "Capaneus",
+    "Alcmaeon",
+    "Glaucus",
+    "Deiphobus",
+    "Antenor",
+    "Calchas",
+    "Pentheus"
    ]
   }
  ]

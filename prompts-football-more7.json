@@ -83,39 +83,63 @@
     "Boro",
     "Imps",
     "Shrimps",
+    "Albion",
     "Mariners",
     "Bantams",
     "Saddlers",
+    "Rovers",
     "Stags",
     "Cobblers",
     "Millers",
     "Grecians",
+    "R's",
     "Dons",
     "Wombles",
+    [
+     "Argyle",
+     "Green Army"
+    ],
     "Chairboys",
+    [
+     "North End",
+     "Invincibles"
+    ],
     "Brewers",
     "Spireites",
     "Gas",
     "Pirates",
+    "Smoggies",
     "Red Dragons",
     "U's",
+    [
+     "Stanley",
+     "Accy"
+    ],
     "O's",
+    "Alex",
     "Yellows",
     "Railwaymen",
+    "Donny",
     "Cod Army",
     "Exiles",
     "Cumbrians",
     "Shrews",
     "Ammies",
     "Jacks",
+    "Salop",
     "Throstles",
+    "Ironsides",
     "Peacocks",
     "Tricky Trees",
     "Glaziers",
     "Riversiders",
     "Sulphurites",
     "Ravens",
-    "Pensioners"
+    "Pensioners",
+    [
+     "Garibaldis",
+     "Garibaldi Reds"
+    ]
    ]
   },
   {
@@ -167,6 +191,7 @@
      "Livi",
      "livvy"
     ],
+    "Rovers",
     [
      "Doonhamers",
      "queens"
@@ -182,13 +207,19 @@
     "Wasps",
     "Warriors",
     "Galabankies",
+    "Onians",
     "Black and Whites",
     "Citizens",
+    "Spartans",
     "Rose",
     "Tangerines",
     "Reds",
     "Blues",
-    "Lions"
+    "Lions",
+    [
+     "Dandy Dons",
+     "Dandies"
+    ]
    ]
   },
   {
@@ -201,27 +232,80 @@
    "text": "Name a club that reached the European Cup semi-finals from 1970 to 1989 (by year of the final)",
    "answers": [
     "Liverpool",
-    "Bayern Munich",
+    [
+     "Bayern Munich",
+     "Bayern"
+    ],
     "Real Madrid",
     "Ajax",
-    "Nottingham Forest",
-    "Aston Villa",
+    [
+     "Nottingham Forest",
+     "Forest"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
     "Celtic",
-    "Leeds United",
-    "Juventus",
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Juventus",
+     "Juve"
+    ],
     "Barcelona",
-    "AC Milan",
-    "Inter Milan",
+    [
+     "AC Milan",
+     "Milan"
+    ],
+    [
+     "Inter Milan",
+     "Inter",
+     "Internazionale"
+    ],
     "Benfica",
-    "Porto",
-    "Derby County",
-    "Dundee United",
-    "Hamburg",
-    "Borussia Mönchengladbach",
-    "PSV Eindhoven",
-    "Atlético Madrid",
-    "Steaua Bucharest",
-    "Red Star Belgrade",
+    [
+     "Porto",
+     "FC Porto"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Dundee United",
+     "Dundee Utd"
+    ],
+    [
+     "Hamburg",
+     "Hamburger SV",
+     "HSV"
+    ],
+    [
+     "Borussia Mönchengladbach",
+     "Gladbach",
+     "Monchengladbach"
+    ],
+    [
+     "PSV Eindhoven",
+     "PSV"
+    ],
+    [
+     "Atlético Madrid",
+     "Atletico"
+    ],
+    [
+     "Steaua Bucharest",
+     "Steaua",
+     "FCSB"
+    ],
+    [
+     "Red Star Belgrade",
+     "Red Star",
+     "Crvena Zvezda"
+    ],
     "Feyenoord",
     "Roma",
     "Anderlecht",
@@ -272,8 +356,7 @@
     ],
     [
      "Widzew Łódź",
-     "widzew",
-     "widzew lodz"
+     "widzew"
     ],
     "CSKA Sofia",
     [
@@ -299,26 +382,64 @@
    "text": "Name a club that reached the European Cup semi-finals from 1956 to 1969 (by year of the final)",
    "answers": [
     "Real Madrid",
-    "Manchester United",
+    [
+     "Manchester United",
+     "Man Utd",
+     "Man United"
+    ],
     "Benfica",
     "Celtic",
     "Liverpool",
-    "Inter Milan",
-    "AC Milan",
+    [
+     "Inter Milan",
+     "Inter",
+     "Internazionale"
+    ],
+    [
+     "AC Milan",
+     "Milan"
+    ],
     "Barcelona",
     "Ajax",
-    "Juventus",
-    "Tottenham Hotspur",
+    [
+     "Juventus",
+     "Juve"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Spurs",
+     "Tottenham"
+    ],
     "Rangers",
-    "Atlético Madrid",
-    "Eintracht Frankfurt",
-    "Hibernian",
+    [
+     "Atlético Madrid",
+     "Atletico"
+    ],
+    [
+     "Eintracht Frankfurt",
+     "Frankfurt"
+    ],
+    [
+     "Hibernian",
+     "Hibs"
+    ],
     "Dundee",
-    "Borussia Dortmund",
-    "Hamburg",
+    [
+     "Borussia Dortmund",
+     "Dortmund"
+    ],
+    [
+     "Hamburg",
+     "Hamburger SV",
+     "HSV"
+    ],
     "Feyenoord",
     "Fiorentina",
-    "Red Star Belgrade",
+    [
+     "Red Star Belgrade",
+     "Red Star",
+     "Crvena Zvezda"
+    ],
     [
      "Partizan Belgrade",
      "partizan"
@@ -832,7 +953,8 @@
     ],
     [
      "Azzurri",
-     "gli azzurri"
+     "gli azzurri",
+     "Squadra Azzurra"
     ],
     [
      "Les Bleus",
@@ -902,7 +1024,8 @@
     ],
     [
      "Dragons",
-     "welsh dragons"
+     "welsh dragons",
+     "Red Dragons"
     ],
     "Boys in Green",
     "All Whites",
@@ -922,6 +1045,7 @@
      "Chipolopolo",
      "copper bullets"
     ],
+    "Tartan Army",
     [
      "Leopards",
      "les leopards"
@@ -969,6 +1093,12 @@
     ],
     "Team Melli",
     "Green Falcons",
+    [
+     "Mighty Magyars",
+     "Magical Magyars",
+     "Golden Team",
+     "Aranycsapat"
+    ],
     "Lions of Mesopotamia",
     "Chollima",
     [
@@ -979,12 +1109,17 @@
      "Banyana Banyana",
      "banyana"
     ],
+    [
+     "Los Charrúas",
+     "Charruas"
+    ],
     "Reggae Girlz",
     [
      "Football Ferns",
      "ferns"
     ],
     "Steel Roses",
+    "Girls in Green",
     "Harambee Stars",
     [
      "Cranes",
@@ -996,12 +1131,15 @@
      "orlovi"
     ],
     "Warriors",
+    "Black Queens",
     "Stallions",
+    "Atlas Lionesses",
     "Leone Stars",
     "Lone Star",
     "Syli Nationale",
     "Flames",
-    "Mediterranean Knights"
+    "Mediterranean Knights",
+    "Wunderteam"
    ]
   },
   {
@@ -1068,6 +1206,7 @@
      "Der Klassiker",
      "klassiker"
     ],
+    "Yorkshire derby",
     [
      "Derby della Madonnina",
      "milan derby",
@@ -1077,6 +1216,7 @@
      "Derby della Capitale",
      "rome derby"
     ],
+    "Lancashire derby",
     "Superclásico",
     [
      "Madrid derby",
@@ -1085,6 +1225,11 @@
     [
      "Le Classique",
      "classique"
+    ],
+    [
+     "Roses derby",
+     "War of the Roses",
+     "Roses rivalry"
     ],
     [
      "De Klassieker",
@@ -1104,42 +1249,95 @@
     "Tees-Wear derby",
     "Tyne-Tees derby",
     "Bristol derby",
+    [
+     "Nottingham derby",
+     "Trent derby"
+    ],
     "East Lancashire derby",
+    "South London derby",
     "West London derby",
+    "West Lancashire derby",
     "Dockers derby",
     "Potteries derby",
     "M69 derby",
+    "Devon derby",
     "Severnside derby",
+    "Humber derby",
+    "Lincolnshire derby",
     "New Firm",
+    "Essex derby",
+    "South Yorkshire derby",
     "Highland derby",
+    "Cumbrian derby",
+    [
+     "Dee derby",
+     "Cross-border derby"
+    ],
     "Lanarkshire derby",
     "Ayrshire derby",
+    "Munich derby",
+    "Hamburg derby",
     "Renfrewshire derby",
+    [
+     "Nordderby",
+     "North derby"
+    ],
+    [
+     "Rhine derby",
+     "Rheinderby"
+    ],
     "Fife derby",
+    "Derby du Nord",
+    [
+     "Derby du Rhône",
+     "Rhone derby"
+    ],
     [
      "Derby della Mole",
      "turin derby"
+    ],
+    "Derby del Sole",
+    [
+     "Catalan derby",
+     "Barcelona derby"
     ],
     [
      "Derby della Lanterna",
      "genoa derby"
     ],
+    [
+     "Galician derby",
+     "Galicia derby"
+    ],
     "Basque derby",
+    "Fla-Flu",
     [
      "Lisbon derby",
      "derby de lisboa"
     ],
     [
+     "Derby of the Eternal Enemies",
+     "Greek derby",
+     "Athens derby"
+    ],
+    [
      "O Clássico",
      "classico"
     ],
+    "Cairo derby",
+    "Soweto derby",
     [
      "Intercontinental derby",
      "istanbul derby"
     ],
+    "Tehran derby",
     [
      "Eternal derby",
      "vecni derbi"
+    ],
+    [
+     "El Tráfico",
+     "Trafico"
     ]
    ]
   },
@@ -1152,45 +1350,127 @@
    "text": "Name a club that played in the First Division (top flight) at any point from 1980-81 to 1989-90",
    "answers": [
     "Liverpool",
-    "Manchester United",
+    [
+     "Manchester United",
+     "Man Utd",
+     "Man United"
+    ],
     "Everton",
     "Arsenal",
-    "Tottenham Hotspur",
-    "Nottingham Forest",
-    "Aston Villa",
+    [
+     "Tottenham Hotspur",
+     "Spurs",
+     "Tottenham"
+    ],
+    [
+     "Nottingham Forest",
+     "Forest"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
     "Chelsea",
-    "West Ham United",
-    "Manchester City",
-    "Ipswich Town",
-    "Leeds United",
-    "Newcastle United",
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle"
+    ],
     "Southampton",
-    "Coventry City",
+    [
+     "Coventry City",
+     "Coventry"
+    ],
     "Wimbledon",
-    "Luton Town",
+    [
+     "Luton Town",
+     "Luton"
+    ],
     "Watford",
-    "Queens Park Rangers",
-    "Norwich City",
-    "Sheffield Wednesday",
-    "West Bromwich Albion",
-    "Derby County",
-    "Wolverhampton Wanderers",
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Sheffield Wed"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
     "Sunderland",
-    "Leicester City",
-    "Middlesbrough",
-    "Birmingham City",
-    "Stoke City",
-    "Charlton Athletic",
-    "Brighton & Hove Albion",
-    "Crystal Palace",
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Middlesbrough",
+     "Boro"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham"
+    ],
+    [
+     "Stoke City",
+     "Stoke"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    [
+     "Brighton & Hove Albion",
+     "Brighton"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
     "Millwall",
     "Portsmouth",
-    "Oxford United",
+    [
+     "Oxford United",
+     "Oxford"
+    ],
     [
      "Notts County",
      "notts"
     ],
-    "Swansea City"
+    [
+     "Swansea City",
+     "Swansea"
+    ]
    ]
   }
  ]

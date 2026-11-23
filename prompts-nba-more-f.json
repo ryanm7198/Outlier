@@ -1094,7 +1094,10 @@
    ],
    "text": "Name a player drafted in the 2009 NBA draft (selected, whether or not they ever played)",
    "answers": [
-    "Blake Griffin",
+    [
+     "Blake Griffin",
+     "Blake"
+    ],
     [
      "James Harden",
      "Harden"
@@ -4210,7 +4213,8 @@
     [
      "Detroit Pistons",
      "Pistons",
-     "Detroit"
+     "Detroit",
+     "Fort Wayne Pistons"
     ],
     [
      "Portland Trail Blazers",
@@ -4398,7 +4402,8 @@
     [
      "Detroit Pistons",
      "Pistons",
-     "Detroit"
+     "Detroit",
+     "Fort Wayne Pistons"
     ],
     [
      "Portland Trail Blazers",

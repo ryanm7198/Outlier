@@ -134,7 +134,10 @@
      "Kawhi",
      "Leonard"
     ],
-    "Dennis Johnson"
+    [
+     "Dennis Johnson",
+     "DJ"
+    ]
    ],
    "eras": {
     "LeBron James": [
@@ -538,7 +541,8 @@
     ],
     [
      "Rajon Rondo",
-     "Rondo"
+     "Rondo",
+     "Playoff Rondo"
     ],
     [
      "Larry Bird",
@@ -571,10 +575,14 @@
      "Draymond",
      "Green"
     ],
-    "Dennis Johnson",
+    [
+     "Dennis Johnson",
+     "DJ"
+    ],
     [
      "Isiah Thomas",
-     "Thomas"
+     "Thomas",
+     "Zeke"
     ],
     [
      "Jerry West",
@@ -594,7 +602,10 @@
      "Bob Cousy",
      "Cousy"
     ],
-    "Kevin Johnson",
+    [
+     "Kevin Johnson",
+     "KJ"
+    ],
     [
      "Maurice Cheeks",
      "Cheeks"
@@ -772,7 +783,9 @@
     [
      "Manu Ginóbili",
      "Manu",
-     "Ginóbili"
+     "Ginóbili",
+     "Manu Ginobili",
+     "Ginobili"
     ],
     [
      "Reggie Miller",
@@ -784,7 +797,9 @@
     ],
     [
      "Paul George",
-     "George"
+     "George",
+     "PG13",
+     "Playoff P"
     ],
     [
      "Jayson Tatum",
@@ -792,7 +807,8 @@
     ],
     [
      "J.R. Smith",
-     "Smith"
+     "Smith",
+     "JR Smith"
     ],
     [
      "Kobe Bryant",
@@ -1037,7 +1053,9 @@
     [
      "Manu Ginóbili",
      "Manu",
-     "Ginóbili"
+     "Ginóbili",
+     "Manu Ginobili",
+     "Ginobili"
     ],
     [
      "Chris Paul",
@@ -1078,7 +1096,10 @@
      "Kawhi",
      "Leonard"
     ],
-    "Dennis Johnson",
+    [
+     "Dennis Johnson",
+     "DJ"
+    ],
     [
      "Hakeem Olajuwon",
      "Hakeem",
@@ -1284,7 +1305,8 @@
     ],
     [
      "Dikembe Mutombo",
-     "Mutombo"
+     "Mutombo",
+     "Deke"
     ],
     "Ben Wallace",
     [
@@ -1484,7 +1506,8 @@
      "Nikola Jokić",
      "Jokic",
      "Joker",
-     "Nikola"
+     "Nikola",
+     "Nikola Jokic"
     ],
     [
      "Russell Westbrook",
@@ -1502,7 +1525,19 @@
     [
      "Luka Dončić",
      "Luka",
-     "Doncic"
+     "Doncic",
+     "Luka Doncic"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Giannis",
+     "Greek Freak",
+     "Antetokounmpo"
+    ],
+    [
+     "James Harden",
+     "Harden",
+     "The Beard"
     ],
     [
      "Draymond Green",
@@ -1528,12 +1563,6 @@
      "Havlicek"
     ],
     [
-     "Giannis Antetokounmpo",
-     "Giannis",
-     "Greek Freak",
-     "Antetokounmpo"
-    ],
-    [
      "Charles Barkley",
      "Barkley"
     ],
@@ -1548,11 +1577,6 @@
     [
      "Walt Frazier",
      "Frazier"
-    ],
-    [
-     "James Harden",
-     "Harden",
-     "The Beard"
     ],
     [
      "Scottie Pippen",
@@ -1760,7 +1784,8 @@
     ],
     [
      "J. R. Smith",
-     "Smith"
+     "Smith",
+     "JR Smith"
     ],
     [
      "Tristan Thompson",
@@ -1798,7 +1823,8 @@
     ],
     [
      "Timofey Mozgov",
-     "Mozgov"
+     "Mozgov",
+     "Timo Mozgov"
     ]
    ]
   },
@@ -1826,7 +1852,8 @@
     [
      "Manu Ginóbili",
      "Manu",
-     "Ginóbili"
+     "Ginóbili",
+     "Manu Ginobili"
     ],
     [
      "Danny Green",
@@ -1905,7 +1932,9 @@
     ],
     [
      "Glen Davis",
-     "Davis"
+     "Davis",
+     "Big Baby",
+     "Big Baby Davis"
     ],
     [
      "James Posey",
@@ -1918,7 +1947,8 @@
     ],
     [
      "P.J. Brown",
-     "Brown"
+     "Brown",
+     "PJ Brown"
     ],
     [
      "Scot Pollard",
@@ -1934,7 +1964,8 @@
     ],
     [
      "Brian Scalabrine",
-     "Scalabrine"
+     "Scalabrine",
+     "White Mamba"
     ]
    ]
   },
@@ -1985,7 +2016,8 @@
     ],
     [
      "Chris Andersen",
-     "Andersen"
+     "Andersen",
+     "Birdman"
     ],
     [
      "Rashard Lewis",
@@ -2226,7 +2258,8 @@
     ],
     [
      "Vlatko Čančar",
-     "Čančar"
+     "Čančar",
+     "Vlatko Cancar"
     ],
     [
      "Collin Gillespie",
@@ -2306,7 +2339,9 @@
     ],
     [
      "Sviatoslav Mykhailiuk",
-     "Mykhailiuk"
+     "Mykhailiuk",
+     "Svi Mykhailiuk",
+     "Svi"
     ],
     [
      "Drew Peterson",
@@ -2408,7 +2443,9 @@
     ],
     [
      "Isaiah Rider",
-     "Rider"
+     "Rider",
+     "J.R. Rider",
+     "JR Rider"
     ]
    ]
   },
@@ -2427,7 +2464,9 @@
     ],
     [
      "Richard Hamilton",
-     "Hamilton"
+     "Hamilton",
+     "Rip Hamilton",
+     "Rip"
     ],
     "Rasheed Wallace",
     [
@@ -2436,11 +2475,14 @@
     ],
     [
      "Mehmet Okur",
-     "Okur"
+     "Okur",
+     "Memo Okur"
     ],
     [
      "Darko Miličić",
-     "Miličić"
+     "Miličić",
+     "Darko Milicic",
+     "Darko"
     ],
     [
      "Corliss Williamson",
@@ -2501,11 +2543,14 @@
     [
      "Peja Stojaković",
      "Peja",
-     "Stojaković"
+     "Stojaković",
+     "Peja Stojakovic"
     ],
     [
      "José Juan Barea",
-     "Barea"
+     "Barea",
+     "JJ Barea",
+     "J.J. Barea"
     ],
     [
      "Rodrigue Beaubois",
@@ -2664,7 +2709,8 @@
     [
      "Manu Ginóbili",
      "Manu",
-     "Ginóbili"
+     "Ginóbili",
+     "Manu Ginobili"
     ],
     [
      "Pau Gasol",
@@ -2688,6 +2734,14 @@
      "Odom"
     ],
     [
+     "Trevor Ariza",
+     "Ariza"
+    ],
+    [
+     "Andrew Bynum",
+     "Bynum"
+    ],
+    [
      "Derek Fisher",
      "Fisher"
     ],
@@ -2696,6 +2750,19 @@
      "Big Shot Bob",
      "Bob Horry",
      "Horry"
+    ],
+    [
+     "Bruce Bowen",
+     "Bowen"
+    ],
+    "Antoine Walker",
+    [
+     "Jason Williams",
+     "Williams"
+    ],
+    [
+     "Michael Finley",
+     "Finley"
     ],
     [
      "Horace Grant",
@@ -2712,7 +2779,9 @@
     ],
     [
      "Richard Hamilton",
-     "Hamilton"
+     "Hamilton",
+     "Rip Hamilton",
+     "Rip"
     ],
     "Rasheed Wallace",
     [
@@ -2754,7 +2823,8 @@
     ],
     [
      "Glen Davis",
-     "Davis"
+     "Davis",
+     "Big Baby"
     ],
     [
      "James Posey",
@@ -2765,18 +2835,20 @@
      "Eddie House",
      "House"
     ],
-    "P.J. Brown",
     [
-     "Bruce Bowen",
-     "Bowen"
+     "P.J. Brown",
+     "PJ Brown"
     ],
     [
      "Mehmet Okur",
-     "Okur"
+     "Okur",
+     "Memo Okur"
     ],
     [
      "Darko Miličić",
-     "Miličić"
+     "Miličić",
+     "Darko Milicic",
+     "Darko"
     ],
     [
      "Corliss Williamson",
@@ -2841,7 +2913,9 @@
     ],
     [
      "Isaiah Rider",
-     "Rider"
+     "Rider",
+     "J.R. Rider",
+     "JR Rider"
     ],
     [
      "Jelani McCoy",
@@ -2907,7 +2981,8 @@
     ],
     [
      "Rasho Nesterović",
-     "Nesterović"
+     "Nesterović",
+     "Rasho Nesterovic"
     ],
     "Glenn Robinson",
     [
@@ -2932,11 +3007,6 @@
      "Wayne Simien",
      "Simien"
     ],
-    "Antoine Walker",
-    [
-     "Jason Williams",
-     "Williams"
-    ],
     [
      "Dorell Wright",
      "Wright"
@@ -2956,10 +3026,6 @@
     [
      "Melvin Ely",
      "Ely"
-    ],
-    [
-     "Michael Finley",
-     "Finley"
     ],
     [
      "Fabricio Oberto",
@@ -2987,17 +3053,10 @@
     ],
     [
      "Brian Scalabrine",
-     "Scalabrine"
-    ],
-    [
-     "Trevor Ariza",
-     "Ariza"
+     "Scalabrine",
+     "White Mamba"
     ],
     "Shannon Brown",
-    [
-     "Andrew Bynum",
-     "Bynum"
-    ],
     [
      "Jordan Farmar",
      "Farmar"
@@ -3016,7 +3075,8 @@
     ],
     [
      "Sasha Vujačić",
-     "Vujačić"
+     "Vujačić",
+     "Sasha Vujacic"
     ],
     [
      "Luke Walton",
@@ -3101,7 +3161,8 @@
     [
      "Manu Ginóbili",
      "Manu",
-     "Ginóbili"
+     "Ginóbili",
+     "Manu Ginobili"
     ],
     "Pau Gasol",
     [
@@ -3119,6 +3180,26 @@
     [
      "Andre Iguodala",
      "Iguodala"
+    ],
+    "Danny Green",
+    "Tristan Thompson",
+    [
+     "JaVale McGee",
+     "McGee"
+    ],
+    "Harrison Barnes",
+    [
+     "OG Anunoby",
+     "Anunoby"
+    ],
+    [
+     "Jeremy Lin",
+     "Lin"
+    ],
+    "Norman Powell",
+    [
+     "Patty Mills",
+     "Mills"
     ],
     "Marc Gasol",
     [
@@ -3167,13 +3248,14 @@
     [
      "Peja Stojaković",
      "Peja",
-     "Stojaković"
+     "Stojaković",
+     "Peja Stojakovic"
     ],
     [
      "J. R. Smith",
-     "Smith"
+     "Smith",
+     "JR Smith"
     ],
-    "Tristan Thompson",
     [
      "Mo Williams",
      "Williams"
@@ -3207,22 +3289,12 @@
      "West"
     ],
     [
-     "JaVale McGee",
-     "McGee"
-    ],
-    "Harrison Barnes",
-    [
      "Andrew Bogut",
      "Bogut"
     ],
     [
      "Leandro Barbosa",
      "Barbosa"
-    ],
-    "Danny Green",
-    [
-     "Patty Mills",
-     "Mills"
     ],
     [
      "Boris Diaw",
@@ -3251,7 +3323,8 @@
     ],
     [
      "Chris Andersen",
-     "Andersen"
+     "Andersen",
+     "Birdman"
     ],
     [
      "Kevon Looney",
@@ -3310,7 +3383,8 @@
     "Josh Powell",
     [
      "Sasha Vujačić",
-     "Vujačić"
+     "Vujačić",
+     "Sasha Vujacic"
     ],
     [
      "Luke Walton",
@@ -3318,7 +3392,9 @@
     ],
     [
      "José Juan Barea",
-     "Barea"
+     "Barea",
+     "JJ Barea",
+     "J.J. Barea"
     ],
     [
      "Rodrigue Beaubois",
@@ -3397,7 +3473,8 @@
     ],
     [
      "Ognjen Kuzmić",
-     "Kuzmić"
+     "Kuzmić",
+     "Ognjen Kuzmic"
     ],
     [
      "David Lee",
@@ -3422,7 +3499,8 @@
     ],
     [
      "Timofey Mozgov",
-     "Mozgov"
+     "Mozgov",
+     "Timo Mozgov"
     ],
     "Matt Barnes",
     [
@@ -3442,14 +3520,6 @@
      "Young"
     ],
     [
-     "OG Anunoby",
-     "Anunoby"
-    ],
-    [
-     "Jeremy Lin",
-     "Lin"
-    ],
-    [
      "Jordan Loyd",
      "Loyd"
     ],
@@ -3461,8 +3531,7 @@
     [
      "Eric Moreland",
      "Moreland"
-    ],
-    "Norman Powell"
+    ]
    ]
   },
   {
@@ -3514,7 +3583,8 @@
     "David Robinson",
     [
      "Toni Kukoč",
-     "Kukoč"
+     "Kukoč",
+     "Toni Kukoc"
     ],
     [
      "Steve Kerr",
@@ -3544,12 +3614,18 @@
     ],
     [
      "BJ Armstrong",
-     "Armstrong"
+     "Armstrong",
+     "B.J. Armstrong"
     ],
     [
      "John Paxson",
      "Paxson"
     ],
+    [
+     "Bill Laimbeer",
+     "Laimbeer"
+    ],
+    "Vinnie Johnson",
     [
      "Bill Cartwright",
      "Cartwright"
@@ -3638,11 +3714,6 @@
      "Gerald Henderson",
      "Henderson"
     ],
-    "Vinnie Johnson",
-    [
-     "Bill Laimbeer",
-     "Laimbeer"
-    ],
     [
      "Dennis Hopson",
      "Hopson"
@@ -3728,7 +3799,8 @@
     ],
     [
      "Žan Tabak",
-     "Tabak"
+     "Tabak",
+     "Zan Tabak"
     ],
     [
      "Jack Haley",

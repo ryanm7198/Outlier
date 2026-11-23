@@ -13,19 +13,25 @@
      "Lord of the Rings The Fellowship of the Ring",
      "Fellowship",
      "LOTR Fellowship",
-     "Fellowship of the Ring"
+     "Fellowship of the Ring",
+     "Lord of the Rings",
+     "LOTR",
+     "The Lord of the Rings",
+     "Lord of the Rings 1"
     ],
     [
      "The Two Towers",
      "Lord of the Rings The Two Towers",
      "Two Towers",
-     "LOTR Two Towers"
+     "LOTR Two Towers",
+     "Lord of the Rings 2"
     ],
     [
      "The Return of the King",
      "Lord of the Rings The Return of the King",
      "Return of the King",
-     "LOTR Return of the King"
+     "LOTR Return of the King",
+     "Lord of the Rings 3"
     ],
     [
      "King Kong",
@@ -55,7 +61,8 @@
     "Heavenly Creatures",
     [
      "Braindead",
-     "Dead Alive"
+     "Dead Alive",
+     "Brain Dead"
     ],
     "Bad Taste",
     [
@@ -67,7 +74,16 @@
      "Frighteners"
     ],
     "Forgotten Silver",
-    "They Shall Not Grow Old"
+    "They Shall Not Grow Old",
+    [
+     "The Beatles: Get Back",
+     "Get Back",
+     "Beatles Get Back",
+     "The Beatles Get Back The Rooftop Concert"
+    ],
+    [
+     "Crossing the Line"
+    ]
    ]
   },
   {
@@ -85,7 +101,8 @@
     [
      "Dune: Part Two",
      "Dune Part Two",
-     "Dune 2"
+     "Dune 2",
+     "Dune Part 2"
     ],
     "Blade Runner 2049",
     "Arrival",
@@ -100,7 +117,8 @@
     ],
     [
      "August 32nd on Earth",
-     "August 32 on Earth"
+     "August 32 on Earth",
+     "Un 32 aout sur terre"
     ],
     "Barbie",
     "Lady Bird",
@@ -108,7 +126,10 @@
      "Little Women",
      "Little Women 2019"
     ],
-    "Nights and Weekends"
+    "Nights and Weekends",
+    [
+     "Next Floor"
+    ]
    ]
   },
   {
@@ -128,7 +149,8 @@
      "Kingsman: The Secret Service",
      "The Secret Service",
      "Secret Service",
-     "Kingsman 1"
+     "Kingsman 1",
+     "Kingsman"
     ],
     [
      "Kick-Ass",
@@ -136,7 +158,8 @@
     ],
     [
      "Scott Pilgrim vs. the World",
-     "Scott Pilgrim"
+     "Scott Pilgrim",
+     "Scott Pilgrim vs The World"
     ],
     [
      "The World's End",
@@ -191,17 +214,20 @@
     [
      "Back to the Future Part II",
      "Back to the Future 2",
-     "Back to the Future Part 2"
+     "Back to the Future Part 2",
+     "BTTF 2"
     ],
     [
      "Back to the Future Part III",
      "Back to the Future 3",
-     "Back to the Future Part 3"
+     "Back to the Future Part 3",
+     "BTTF 3"
     ],
     "Forrest Gump",
     [
      "Who Framed Roger Rabbit",
-     "Roger Rabbit"
+     "Roger Rabbit",
+     "Who Framed Roger Rabbit?"
     ],
     "Cast Away",
     "Romancing the Stone",
@@ -311,7 +337,16 @@
      "The Dilemma",
      "Dilemma"
     ],
-    "Grand Theft Auto"
+    "Grand Theft Auto",
+    [
+     "Cotton Candy"
+    ],
+    [
+     "Skyward"
+    ],
+    [
+     "Through the Magic Pyramid"
+    ]
    ]
   },
   {
@@ -380,7 +415,8 @@
     ],
     [
      "Shrek the Third",
-     "Shrek 3"
+     "Shrek 3",
+     "Shrek Three"
     ],
     [
      "Shrek Forever After",
@@ -393,6 +429,21 @@
      "The Last Wish",
      "Last Wish",
      "Puss in Boots 2"
+    ],
+    [
+     "The Animatrix",
+     "Animatrix"
+    ],
+    [
+     "Shrek 4-D",
+     "Shrek 4D",
+     "The Ghost of Lord Farquaad"
+    ],
+    [
+     "Shrek the Halls"
+    ],
+    [
+     "Scared Shrekless"
     ]
    ]
   },
@@ -412,11 +463,14 @@
     [
      "A Nightmare on Elm Street",
      "Nightmare on Elm Street",
-     "Elm Street"
+     "Elm Street",
+     "Nightmare on Elm Street 2010",
+     "A Nightmare on Elm Street 2010"
     ],
     [
      "Friday the 13th",
-     "Friday the Thirteenth"
+     "Friday the Thirteenth",
+     "Friday the 13th 2009"
     ],
     [
      "Freddy vs. Jason",
@@ -425,7 +479,10 @@
     ],
     [
      "Halloween II",
-     "Halloween 2"
+     "Halloween 2",
+     "Halloween 2 2009",
+     "Halloween II 2009",
+     "Rob Zombie Halloween 2"
     ],
     [
      "A Nightmare on Elm Street 3: Dream Warriors",
@@ -441,7 +498,8 @@
     ],
     [
      "Wes Craven's New Nightmare",
-     "New Nightmare"
+     "New Nightmare",
+     "Nightmare on Elm Street 7"
     ],
     [
      "Halloween H20: 20 Years Later",
@@ -537,9 +595,13 @@
      "Jason Goes to Hell: The Final Friday",
      "Jason Goes to Hell",
      "The Final Friday",
-     "Final Friday"
+     "Final Friday",
+     "Friday the 13th Part 9"
     ],
-    "Jason X"
+    [
+     "Jason X",
+     "Friday the 13th Part 10"
+    ]
    ]
   },
   {
@@ -553,14 +615,25 @@
      "Saw",
      "Saw 1"
     ],
-    "The Conjuring",
+    [
+     "The Conjuring",
+     "Conjuring",
+     "Conjuring 1"
+    ],
     "Annabelle",
-    "The Conjuring 2",
+    [
+     "The Conjuring 2",
+     "Conjuring 2",
+     "The Enfield Haunting"
+    ],
     [
      "Saw II",
      "Saw 2"
     ],
-    "The Nun",
+    [
+     "The Nun",
+     "Nun"
+    ],
     [
      "Saw III",
      "Saw 3"
@@ -569,10 +642,16 @@
      "Saw X",
      "Saw 10"
     ],
-    "Annabelle: Creation",
+    [
+     "Annabelle: Creation",
+     "Annabelle 2",
+     "Annabelle Creation"
+    ],
     [
      "Jigsaw",
-     "Saw: Legacy"
+     "Saw: Legacy",
+     "Saw 8",
+     "Saw VIII"
     ],
     [
      "Saw IV",
@@ -594,7 +673,9 @@
     ],
     [
      "Spiral: From the Book of Saw",
-     "Spiral"
+     "Spiral",
+     "Saw 9",
+     "Saw IX"
     ],
     [
      "The Conjuring: The Devil Made Me Do It",
@@ -606,7 +687,10 @@
      "Last Rites",
      "Conjuring 4"
     ],
-    "Annabelle Comes Home",
+    [
+     "Annabelle Comes Home",
+     "Annabelle 3"
+    ],
     [
      "The Nun II",
      "The Nun 2"
@@ -669,8 +753,14 @@
      "Holiday Heist",
      "Home Alone 5"
     ],
-    "Home Sweet Home Alone",
-    "Inspector Clouseau",
+    [
+     "Home Sweet Home Alone",
+     "Home Alone 6"
+    ],
+    [
+     "Inspector Clouseau",
+     "Inspector Clouseau 1968"
+    ],
     [
      "The Pink Panther Strikes Again",
      "Pink Panther Strikes Again"
@@ -921,6 +1011,24 @@
      "Batman: The Movie",
      "Batman 1966",
      "Batman (1966)"
+    ],
+    [
+     "Batman (1943 serial)",
+     "Batman 1943",
+     "Batman serial"
+    ],
+    [
+     "Batman and Robin (1949 serial)",
+     "Batman and Robin 1949"
+    ],
+    [
+     "Superman (1948 serial)",
+     "Superman 1948",
+     "Superman serial"
+    ],
+    [
+     "Atom Man vs. Superman",
+     "Atom Man vs Superman"
     ]
    ]
   },
@@ -1000,7 +1108,13 @@
     "Finian's Rainbow",
     "You're a Big Boy Now",
     "Dementia 13",
-    "New York Stories"
+    "New York Stories",
+    [
+     "Captain EO"
+    ],
+    [
+     "Distant Vision"
+    ]
    ]
   },
   {
@@ -1010,7 +1124,10 @@
    ],
    "text": "Name a film directed by Clint Eastwood (1971 to 2024)",
    "answers": [
-    "Unforgiven",
+    [
+     "Unforgiven",
+     "The Unforgiven"
+    ],
     "Million Dollar Baby",
     "Gran Torino",
     "Mystic River",
@@ -1083,7 +1200,10 @@
      "The Eiger Sanction",
      "Eiger Sanction"
     ],
-    "Breezy"
+    "Breezy",
+    [
+     "Piano Blues"
+    ]
    ]
   },
   {
@@ -1159,6 +1279,46 @@
      "Joe's Bed-Stuy Barbershop: We Cut Heads",
      "Joe's Bed-Stuy Barbershop",
      "Bed-Stuy Barbershop"
+    ],
+    [
+     "When the Levees Broke"
+    ],
+    [
+     "A Huey P. Newton Story",
+     "Huey P Newton Story"
+    ],
+    [
+     "Jim Brown: All-American",
+     "Jim Brown All American"
+    ],
+    [
+     "Kobe Doin' Work",
+     "Kobe Doing Work"
+    ],
+    [
+     "Bad 25"
+    ],
+    [
+     "Mike Tyson: Undisputed Truth",
+     "Undisputed Truth"
+    ],
+    [
+     "Michael Jackson's Journey from Motown to Off the Wall"
+    ],
+    [
+     "Rodney King"
+    ],
+    [
+     "Pass Over"
+    ],
+    [
+     "If God Is Willing and da Creek Don't Rise"
+    ],
+    [
+     "Sucker Free City"
+    ],
+    [
+     "Freak"
     ]
    ],
    "deep": true
@@ -1184,7 +1344,10 @@
      "The Doors",
      "Doors"
     ],
-    "Alexander",
+    [
+     "Alexander",
+     "Alexander Revisited"
+    ],
     "Snowden",
     [
      "W.",
@@ -1223,7 +1386,18 @@
      "JFK Revisited"
     ],
     "Nuclear Now",
-    "Lula"
+    "Lula",
+    [
+     "The Putin Interviews",
+     "Putin Interviews"
+    ],
+    [
+     "Castro in Winter"
+    ],
+    [
+     "The Untold History of the United States",
+     "Untold History"
+    ]
    ],
    "deep": true
   },
@@ -1264,6 +1438,10 @@
     [
      "The Loveless",
      "Loveless"
+    ],
+    [
+     "The Set-Up",
+     "The Setup"
     ]
    ]
   },
@@ -1286,7 +1464,8 @@
     "Eraserhead",
     [
      "Dune",
-     "Dune 1984"
+     "Dune 1984",
+     "Dune 1984 Lynch"
     ],
     "Wild at Heart",
     "Lost Highway",
@@ -1321,7 +1500,40 @@
      "One Battle After Another",
      "One Battle After Another 2025"
     ],
-    "Junun"
+    "Junun",
+    [
+     "The Grandmother"
+    ],
+    [
+     "The Alphabet"
+    ],
+    [
+     "Six Men Getting Sick"
+    ],
+    [
+     "The Amputee"
+    ],
+    [
+     "Rabbits"
+    ],
+    [
+     "What Did Jack Do?",
+     "What Did Jack Do"
+    ],
+    [
+     "Premonitions Following an Evil Deed"
+    ],
+    [
+     "Cigarettes & Coffee",
+     "Cigarettes and Coffee"
+    ],
+    [
+     "Anima"
+    ],
+    [
+     "The Dirk Diggler Story",
+     "Dirk Diggler Story"
+    ]
    ],
    "deep": true
   },
@@ -1336,7 +1548,10 @@
      "I, Daniel Blake",
      "I Daniel Blake"
     ],
-    "Kes",
+    [
+     "Kes",
+     "Kestrel for a Knave"
+    ],
     "Sorry We Missed You",
     [
      "The Wind That Shakes the Barley",
@@ -1452,7 +1667,10 @@
      "Mad About the Boy",
      "Bridget Jones 4"
     ],
-    "Paddington",
+    [
+     "Paddington",
+     "Paddington 1"
+    ],
     "Paddington 2",
     [
      "Paddington in Peru",
@@ -1473,7 +1691,9 @@
      "Bean",
      "Bean: The Ultimate Disaster Movie",
      "Mr Bean The Ultimate Disaster Movie",
-     "Bean the Movie"
+     "Bean the Movie",
+     "Mr Bean the Movie",
+     "Mr Bean"
     ],
     [
      "Mr. Bean's Holiday",

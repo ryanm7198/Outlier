@@ -9,6 +9,7 @@
    "text": "Name a Pantone Colour of the Year (2000 to 2026)",
    "answers": [
     "Mocha Mousse",
+    "Cloud Dancer",
     "Peach Fuzz",
     "Viva Magenta",
     "Very Peri",
@@ -20,7 +21,6 @@
     "Emerald",
     "Cerulean",
     "Marsala",
-    "Cloud Dancer",
     "Fuchsia Rose",
     "True Red",
     "Aqua Sky",
@@ -36,11 +36,15 @@
     "Turquoise",
     "Honeysuckle",
     "Tangerine Tango",
-    "Rose Quartz",
+    [
+     "Rose Quartz",
+     "Rose Quartz and Serenity"
+    ],
     "Serenity",
     [
      "Ultimate Gray",
-     "Ultimate Grey"
+     "Ultimate Grey",
+     "Ultimate Gray and Illuminating"
     ],
     [
      "Illuminating",
@@ -61,7 +65,8 @@
     ],
     [
      "Norman Foster",
-     "Foster"
+     "Foster",
+     "Lord Foster"
     ],
     [
      "Frank Gehry",
@@ -73,7 +78,8 @@
     ],
     [
      "Richard Rogers",
-     "Rogers"
+     "Rogers",
+     "Lord Rogers"
     ],
     [
      "I. M. Pei",
@@ -174,7 +180,8 @@
     ],
     [
      "Jacques Herzog",
-     "Herzog"
+     "Herzog",
+     "Herzog & de Meuron"
     ],
     [
      "Pierre de Meuron",
@@ -199,7 +206,8 @@
     ],
     [
      "Kazuyo Sejima",
-     "Sejima"
+     "Sejima",
+     "SANAA"
     ],
     [
      "Ryue Nishizawa",
@@ -228,7 +236,9 @@
     ],
     [
      "Rafael Aranda",
-     "Aranda"
+     "Aranda",
+     "RCR Arquitectes",
+     "RCR"
     ],
     [
      "Carme Pigem",
@@ -249,7 +259,9 @@
     ],
     [
      "Yvonne Farrell",
-     "Farrell"
+     "Farrell",
+     "Grafton Architects",
+     "Grafton"
     ],
     [
      "Shelley McNamara",
@@ -257,7 +269,8 @@
     ],
     [
      "Anne Lacaton",
-     "Lacaton"
+     "Lacaton",
+     "Lacaton & Vassal"
     ],
     [
      "Jean-Philippe Vassal",
@@ -340,7 +353,10 @@
      "Viva",
      "Vauxhall Viva",
      "Opel Viva",
-     "Opel Vauxhall Viva"
+     "Opel Vauxhall Viva",
+     "Viva HA",
+     "Viva HB",
+     "Viva HC"
     ],
     [
      "Mokka",
@@ -352,7 +368,8 @@
      "Carlton",
      "Vauxhall Carlton",
      "Opel Carlton",
-     "Opel Vauxhall Carlton"
+     "Opel Vauxhall Carlton",
+     "Lotus Carlton"
     ],
     [
      "Senator",
@@ -478,6 +495,12 @@
      "Opel Vauxhall Agila"
     ],
     [
+     "Cascada",
+     "Vauxhall Cascada",
+     "Opel Cascada",
+     "Opel Vauxhall Cascada"
+    ],
+    [
      "Meriva",
      "Vauxhall Meriva",
      "Opel Meriva",
@@ -542,6 +565,37 @@
      "Vauxhall Grandland",
      "Opel Grandland",
      "Opel Vauxhall Grandland X"
+    ],
+    [
+     "Combo Life",
+     "Vauxhall Combo Life",
+     "Opel Combo Life",
+     "Opel Vauxhall Combo Life"
+    ],
+    [
+     "Vivaro Life",
+     "Vauxhall Vivaro Life",
+     "Opel Vivaro Life",
+     "Opel Vauxhall Vivaro Life"
+    ],
+    [
+     "VX1800",
+     "Vauxhall VX1800",
+     "Opel VX1800",
+     "Opel Vauxhall VX1800",
+     "VX 1800"
+    ],
+    [
+     "Brava",
+     "Vauxhall Brava",
+     "Opel Brava",
+     "Opel Vauxhall Brava"
+    ],
+    [
+     "Rodeo",
+     "Vauxhall Rodeo",
+     "Opel Rodeo",
+     "Opel Vauxhall Rodeo"
     ]
    ]
   },
@@ -576,12 +630,17 @@
      "Rolls-Royce Phantom VII",
      "Rolls Phantom VII",
      "Rolls-Royce Phantom VIII",
-     "Rolls Phantom VIII"
+     "Rolls Phantom VIII",
+     "Phantom Coupé",
+     "Phantom Drophead Coupé",
+     "Phantom Drophead"
     ],
     [
      "Silver Ghost",
      "Rolls-Royce Silver Ghost",
-     "Rolls Silver Ghost"
+     "Rolls Silver Ghost",
+     "40/50",
+     "40/50 hp"
     ],
     [
      "Ghost",
@@ -591,7 +650,8 @@
     [
      "Silver Shadow",
      "Rolls-Royce Silver Shadow",
-     "Rolls Silver Shadow"
+     "Rolls Silver Shadow",
+     "Silver Shadow II"
     ],
     [
      "Wraith",
@@ -601,12 +661,18 @@
     [
      "Silver Cloud",
      "Rolls-Royce Silver Cloud",
-     "Rolls Silver Cloud"
+     "Rolls Silver Cloud",
+     "Silver Cloud II",
+     "Silver Cloud III"
     ],
     [
      "Corniche",
      "Rolls-Royce Corniche",
-     "Rolls Corniche"
+     "Rolls Corniche",
+     "Corniche II",
+     "Corniche III",
+     "Corniche IV",
+     "Corniche S"
     ],
     [
      "Cullinan",
@@ -621,7 +687,9 @@
     [
      "Silver Spirit",
      "Rolls-Royce Silver Spirit",
-     "Rolls Silver Spirit"
+     "Rolls Silver Spirit",
+     "Silver Spirit II",
+     "Silver Spirit III"
     ],
     [
      "Silver Spur",
@@ -636,12 +704,15 @@
     [
      "Twenty",
      "Rolls-Royce Twenty",
-     "Rolls Twenty"
+     "Rolls Twenty",
+     "20 hp",
+     "Rolls-Royce 20 hp"
     ],
     [
      "Silver Wraith",
      "Rolls-Royce Silver Wraith",
-     "Rolls Silver Wraith"
+     "Rolls Silver Wraith",
+     "Silver Wraith II"
     ],
     [
      "Silver Dawn",
@@ -652,6 +723,26 @@
      "Silver Seraph",
      "Rolls-Royce Silver Seraph",
      "Rolls Silver Seraph"
+    ],
+    [
+     "20/25",
+     "Rolls-Royce 20/25",
+     "Rolls 20/25"
+    ],
+    [
+     "25/30",
+     "Rolls-Royce 25/30",
+     "Rolls 25/30"
+    ],
+    [
+     "Park Ward",
+     "Rolls-Royce Park Ward",
+     "Rolls Park Ward"
+    ],
+    [
+     "Flying Spur",
+     "Rolls-Royce Flying Spur",
+     "Rolls Flying Spur"
     ],
     [
      "Spectre",
@@ -672,6 +763,24 @@
      "Droptail",
      "Rolls-Royce Droptail",
      "Rolls Droptail"
+    ],
+    [
+     "10 hp",
+     "Rolls-Royce 10 hp",
+     "Rolls 10 hp",
+     "10hp"
+    ],
+    [
+     "15 hp",
+     "Rolls-Royce 15 hp",
+     "Rolls 15 hp",
+     "15hp"
+    ],
+    [
+     "30 hp",
+     "Rolls-Royce 30 hp",
+     "Rolls 30 hp",
+     "30hp"
     ]
    ]
   },
@@ -747,6 +856,10 @@
      "Cragg"
     ],
     "Richard Long",
+    [
+     "Howard Hodgkin",
+     "Hodgkin"
+    ],
     [
      "Grenville Davey",
      "Davey"
@@ -835,12 +948,42 @@
    ],
    "text": "Name a book of the Bible (the 66 books of the Protestant canon)",
    "answers": [
-    "Genesis",
-    "Exodus",
-    "Matthew",
-    "Mark",
-    "Luke",
-    "John",
+    [
+     "Genesis",
+     "Book of Genesis"
+    ],
+    [
+     "Exodus",
+     "Book of Exodus"
+    ],
+    [
+     "Matthew",
+     "Book of Matthew",
+     "Gospel of Matthew",
+     "Matthew's Gospel",
+     "Gospel according to Matthew"
+    ],
+    [
+     "Mark",
+     "Book of Mark",
+     "Gospel of Mark",
+     "Mark's Gospel",
+     "Gospel according to Mark"
+    ],
+    [
+     "Luke",
+     "Book of Luke",
+     "Gospel of Luke",
+     "Luke's Gospel",
+     "Gospel according to Luke"
+    ],
+    [
+     "John",
+     "Book of John",
+     "Gospel of John",
+     "John's Gospel",
+     "Gospel according to John"
+    ],
     [
      "Revelation",
      "Revelations",
@@ -848,141 +991,295 @@
     ],
     [
      "Psalms",
-     "Psalm"
+     "Psalm",
+     "Book of Psalms"
     ],
     [
      "Acts",
-     "Acts of the Apostles"
+     "Acts of the Apostles",
+     "Book of Acts"
     ],
-    "Romans",
-    "Proverbs",
-    "Job",
-    "Leviticus",
-    "Numbers",
-    "Deuteronomy",
-    "Joshua",
-    "Judges",
-    "Ruth",
+    [
+     "Proverbs",
+     "Book of Proverbs"
+    ],
+    [
+     "Job",
+     "Book of Job"
+    ],
+    [
+     "Romans",
+     "Book of Romans"
+    ],
+    [
+     "Leviticus",
+     "Book of Leviticus"
+    ],
+    [
+     "Numbers",
+     "Book of Numbers"
+    ],
+    [
+     "Deuteronomy",
+     "Book of Deuteronomy"
+    ],
+    [
+     "Daniel",
+     "Book of Daniel"
+    ],
+    [
+     "Jonah",
+     "Book of Jonah"
+    ],
+    [
+     "Ruth",
+     "Book of Ruth"
+    ],
+    [
+     "Esther",
+     "Book of Esther"
+    ],
+    [
+     "1 Corinthians",
+     "First Corinthians",
+     "I Corinthians",
+     "1st Corinthians",
+     "1Corinthians"
+    ],
+    [
+     "Isaiah",
+     "Book of Isaiah"
+    ],
+    [
+     "Ecclesiastes",
+     "Book of Ecclesiastes"
+    ],
+    [
+     "Song of Solomon",
+     "Song of Songs",
+     "Canticles",
+     "Book of Song of Solomon"
+    ],
+    [
+     "Joshua",
+     "Book of Joshua"
+    ],
+    [
+     "Judges",
+     "Book of Judges"
+    ],
     [
      "1 Samuel",
      "First Samuel",
-     "I Samuel"
+     "I Samuel",
+     "1st Samuel",
+     "1Samuel"
     ],
     [
      "2 Samuel",
      "Second Samuel",
-     "II Samuel"
+     "II Samuel",
+     "2nd Samuel",
+     "2Samuel"
     ],
     [
      "1 Kings",
      "First Kings",
-     "I Kings"
+     "I Kings",
+     "1st Kings",
+     "1Kings"
     ],
     [
      "2 Kings",
      "Second Kings",
-     "II Kings"
+     "II Kings",
+     "2nd Kings",
+     "2Kings"
     ],
     [
-     "1 Chronicles",
-     "First Chronicles",
-     "I Chronicles"
+     "Jeremiah",
+     "Book of Jeremiah"
     ],
     [
-     "2 Chronicles",
-     "Second Chronicles",
-     "II Chronicles"
+     "Ezekiel",
+     "Book of Ezekiel"
     ],
-    "Ezra",
-    "Nehemiah",
-    "Esther",
-    "Ecclesiastes",
     [
-     "Song of Solomon",
-     "Song of Songs",
-     "Canticles"
-    ],
-    "Isaiah",
-    "Jeremiah",
-    "Lamentations",
-    "Ezekiel",
-    "Daniel",
-    "Hosea",
-    "Joel",
-    "Amos",
-    "Obadiah",
-    "Jonah",
-    "Micah",
-    "Nahum",
-    "Habakkuk",
-    "Zephaniah",
-    "Haggai",
-    "Zechariah",
-    "Malachi",
-    [
-     "1 Corinthians",
-     "First Corinthians",
-     "I Corinthians"
+     "Lamentations",
+     "Book of Lamentations"
     ],
     [
      "2 Corinthians",
      "Second Corinthians",
-     "II Corinthians"
-    ],
-    "Galatians",
-    "Ephesians",
-    "Philippians",
-    "Colossians",
-    [
-     "1 Thessalonians",
-     "First Thessalonians",
-     "I Thessalonians"
+     "II Corinthians",
+     "2nd Corinthians",
+     "2Corinthians"
     ],
     [
-     "2 Thessalonians",
-     "Second Thessalonians",
-     "II Thessalonians"
+     "Galatians",
+     "Book of Galatians"
     ],
     [
-     "1 Timothy",
-     "First Timothy",
-     "I Timothy"
+     "Ephesians",
+     "Book of Ephesians"
     ],
     [
-     "2 Timothy",
-     "Second Timothy",
-     "II Timothy"
+     "Hebrews",
+     "Book of Hebrews"
     ],
-    "Titus",
-    "Philemon",
-    "Hebrews",
-    "James",
+    [
+     "James",
+     "Book of James"
+    ],
+    [
+     "Philippians",
+     "Book of Philippians"
+    ],
+    [
+     "Colossians",
+     "Book of Colossians"
+    ],
     [
      "1 Peter",
      "First Peter",
-     "I Peter"
-    ],
-    [
-     "2 Peter",
-     "Second Peter",
-     "II Peter"
+     "I Peter",
+     "1st Peter",
+     "1Peter"
     ],
     [
      "1 John",
      "First John",
-     "I John"
+     "I John",
+     "1st John",
+     "1John"
+    ],
+    [
+     "1 Chronicles",
+     "First Chronicles",
+     "I Chronicles",
+     "1st Chronicles",
+     "1Chronicles"
+    ],
+    [
+     "2 Chronicles",
+     "Second Chronicles",
+     "II Chronicles",
+     "2nd Chronicles",
+     "2Chronicles"
+    ],
+    [
+     "Ezra",
+     "Book of Ezra"
+    ],
+    [
+     "Nehemiah",
+     "Book of Nehemiah"
+    ],
+    [
+     "Hosea",
+     "Book of Hosea"
+    ],
+    [
+     "Joel",
+     "Book of Joel"
+    ],
+    [
+     "Amos",
+     "Book of Amos"
+    ],
+    [
+     "Obadiah",
+     "Book of Obadiah"
+    ],
+    [
+     "Micah",
+     "Book of Micah"
+    ],
+    [
+     "Nahum",
+     "Book of Nahum"
+    ],
+    [
+     "Habakkuk",
+     "Book of Habakkuk"
+    ],
+    [
+     "Zephaniah",
+     "Book of Zephaniah"
+    ],
+    [
+     "Haggai",
+     "Book of Haggai"
+    ],
+    [
+     "Zechariah",
+     "Book of Zechariah"
+    ],
+    [
+     "Malachi",
+     "Book of Malachi"
+    ],
+    [
+     "1 Thessalonians",
+     "First Thessalonians",
+     "I Thessalonians",
+     "1st Thessalonians",
+     "1Thessalonians"
+    ],
+    [
+     "2 Thessalonians",
+     "Second Thessalonians",
+     "II Thessalonians",
+     "2nd Thessalonians",
+     "2Thessalonians"
+    ],
+    [
+     "1 Timothy",
+     "First Timothy",
+     "I Timothy",
+     "1st Timothy",
+     "1Timothy"
+    ],
+    [
+     "2 Timothy",
+     "Second Timothy",
+     "II Timothy",
+     "2nd Timothy",
+     "2Timothy"
+    ],
+    [
+     "Titus",
+     "Book of Titus"
+    ],
+    [
+     "Philemon",
+     "Book of Philemon"
+    ],
+    [
+     "2 Peter",
+     "Second Peter",
+     "II Peter",
+     "2nd Peter",
+     "2Peter"
     ],
     [
      "2 John",
      "Second John",
-     "II John"
+     "II John",
+     "2nd John",
+     "2John"
     ],
     [
      "3 John",
      "Third John",
-     "III John"
+     "III John",
+     "3rd John",
+     "3John"
     ],
-    "Jude"
+    [
+     "Jude",
+     "Book of Jude"
+    ]
    ]
   }
  ]

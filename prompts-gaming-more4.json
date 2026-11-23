@@ -15,7 +15,11 @@
      "Spider"
     ],
     "Wolf",
-    "Bear",
+    [
+     "Bear",
+     "Cave Bear",
+     "Snow Bear"
+    ],
     "Troll",
     "Giant",
     "Mammoth",
@@ -45,10 +49,9 @@
     "Dog",
     "Fox",
     "Goat",
-    [
-     "Nix-Hound",
-     "Nix Hound"
-    ],
+    "Vampire",
+    "Nix-Hound",
+    "Vampire Lord",
     "Rabbit",
     "Slaughterfish",
     [
@@ -59,6 +62,7 @@
      "Frost Atronach",
      "Ice Atronach"
     ],
+    "Elk",
     [
      "Storm Atronach",
      "Lightning Atronach"
@@ -77,11 +81,14 @@
      "Dwarven Sphere",
      "Sphere"
     ],
+    "Dremora",
     "Dwarven Spider",
     "Burnt Spriggan",
+    "Chaurus Hunter",
     "Fire Wyrm",
     "Frost Giant",
     "Gargoyle",
+    "Wispmother",
     "Ice Wraith",
     "Netch",
     "Riekling",
@@ -94,7 +101,8 @@
     "Ghost",
     "Skeleton",
     "Zombie",
-    "Death Hound"
+    "Death Hound",
+    "Hare"
    ]
   },
   {
@@ -128,28 +136,42 @@
     ],
     "Eden",
     "Anima",
+    "Sylph",
     "Valefor",
     "Ixion",
+    "Kirin",
     "Yojimbo",
+    "Tiamat",
     "Hades",
+    "Gilgamesh",
     "Garuda",
+    "Typhon",
+    "Bismarck",
     "Fenrir",
+    "Asura",
     "Chocobo",
+    "Mist Dragon",
+    "Neo Bahamut",
     [
      "Moogle",
      "Mog"
     ],
+    "Kujata",
     [
      "Knights of the Round",
      "Round Table"
     ],
+    "Madeen",
+    "Belias",
     "Magus Sisters",
+    "Catoblepas",
     "Brothers",
     "Pandemona",
     "Doomtrain",
     "Cactuar",
     "Tonberry",
-    "Atomos"
+    "Atomos",
+    "Ark"
    ]
   },
   {
@@ -165,18 +187,18 @@
     "Halfling",
     "Gnome",
     "Dragonborn",
-    [
-     "Half-Elf",
-     "Half Elf"
-    ],
-    [
-     "Half-Orc",
-     "Half Orc"
-    ],
+    "Half-Elf",
+    "Half-Orc",
     "Tiefling",
     "Aasimar",
     "Goliath",
-    "Orc"
+    "Orc",
+    [
+     "Drow",
+     "Dark Elf"
+    ],
+    "High Elf",
+    "Wood Elf"
    ]
   },
   {
@@ -237,6 +259,7 @@
     "Paladin",
     "Dark Knight",
     "Blue Mage",
+    "Onion Knight",
     "Time Mage",
     "Geomancer",
     "Scholar",
@@ -249,17 +272,37 @@
     "Pictomancer",
     "Berserker",
     "Beastmaster",
+    "Necromancer",
     "Mystic Knight",
+    "Cannoneer",
+    "Squire",
     "Chemist",
+    "Viking",
     "Mime",
+    "Magus",
+    "Evoker",
+    "Devout",
     "Archer",
+    "Lancer",
+    "Pugilist",
+    "Marauder",
     "Oracle",
+    "Arcanist",
+    "Conjurer",
     "Freelancer",
+    "Thaumaturge",
     "Ranger",
-    "Calculator",
+    [
+     "Calculator",
+     "Arithmetician"
+    ],
     "Gladiator",
-    "Mediator",
-    "Priest"
+    [
+     "Mediator",
+     "Orator"
+    ],
+    "Priest",
+    "Rogue"
    ]
   },
   {
@@ -381,16 +424,29 @@
     "Eskel",
     "Lambert",
     "Regis",
+    [
+     "Dettlaff",
+     "Detlaff",
+     "Dettlaff van der Eretein"
+    ],
+    [
+     "Syanna",
+     "Sylvia Anna"
+    ],
     "Hjalmar",
+    "Uma",
     "Cerys",
     [
      "Crach an Craite",
      "Crach"
     ],
+    "Imlerith",
+    "Caranthir",
     [
      "Olgierd von Everec",
      "Olgierd"
     ],
+    "Ge'els",
     [
      "Gaunter O'Dimm",
      "Master Mirror"
@@ -398,24 +454,53 @@
     "Shani",
     "Avallac'h",
     [
+     "Iris von Everec",
+     "Iris"
+    ],
+    [
+     "Francis Bedlam",
+     "King of the Beggars"
+    ],
+    [
      "Anna Henrietta",
      "Duchess Anna Henrietta"
     ],
+    [
+     "Carlo Varese",
+     "Cleaver"
+    ],
     "Ermion",
+    [
+     "Ladies of the Wood",
+     "Crones",
+     "Weavess",
+     "Brewess",
+     "Whispess"
+    ],
     "Johnny",
+    [
+     "Tamara Strenger",
+     "Tamara"
+    ],
+    "Anna Strenger",
     "Lugos",
+    "Graden",
     "Whoreson Junior",
+    "Corinne Tilly",
+    "Hattori",
     [
      "Margarita Laux-Antille",
      "Margarita"
     ],
+    "Horst Borsodi",
     "Priscilla",
     "Menge",
     "Ves",
     [
      "Fringilla Vigo",
      "Fringilla"
-    ]
+    ],
+    "Ewald Borsodi"
    ]
   },
   {
@@ -483,10 +568,7 @@
      "Gale of Waterdeep"
     ],
     "Karlach",
-    [
-     "Lae'zel",
-     "Laezel"
-    ],
+    "Lae'zel",
     "Shadowheart",
     "Wyll",
     "Halsin",
@@ -503,7 +585,10 @@
      "Ketheric Thorm",
      "Ketheric"
     ],
-    "Withers",
+    [
+     "Withers",
+     "Jergal"
+    ],
     "Volo",
     [
      "Auntie Ethel",
@@ -514,34 +599,72 @@
     "Alfira",
     [
      "Dame Aylin",
-     "Aylin"
+     "Aylin",
+     "Nightsong"
     ],
-    [
-     "The Emperor",
-     "Emperor"
-    ],
+    "The Emperor",
     "Zevlor",
+    [
+     "Orpheus",
+     "Prince Orpheus"
+    ],
     "Scratch",
     "Owlbear Cub",
     [
-     "Dark Urge",
-     "The Dark Urge"
+     "Us",
+     "Intellect Devourer"
     ],
+    "Dark Urge",
     "Tav",
+    [
+     "Viconia DeVir",
+     "Viconia"
+    ],
     "Lorroakan",
+    [
+     "Kith'rak Voss",
+     "Voss"
+    ],
     "Sceleritas Fel",
+    "Elminster",
+    "Ansur",
+    "Bhaal",
     "Cazador",
+    "Shar",
     "Dammon",
+    "Selûne",
+    "Myrkul",
     "Arabella",
+    "Vlaakith",
+    "Nere",
     "Nettie",
+    "Dror Ragzlin",
     "Rolan",
+    [
+     "Priestess Gut",
+     "Gut"
+    ],
+    "Abdirak",
     [
      "Sovereign Spaw",
      "Spaw"
     ],
+    [
+     "Wulbren Bongle",
+     "Wulbren"
+    ],
+    [
+     "Counsellor Florrick",
+     "Florrick"
+    ],
+    "Yenna",
     "Barcus Wroot",
     "Kagha",
-    "Mol"
+    "Mol",
+    [
+     "Lump the Enlightened",
+     "Lump"
+    ]
    ]
   },
   {
@@ -574,42 +697,48 @@
     "End of the World",
     "Twilight Town",
     "Land of Dragons",
-    [
-     "Beast's Castle",
-     "Beasts Castle"
-    ],
+    "Castle Oblivion",
+    "Beast's Castle",
     [
      "Port Royal",
-     "The Caribbean",
-     "Caribbean"
+     "The Caribbean"
     ],
+    "Christmas Town",
     "Pride Lands",
     "Space Paranoids",
     "Timeless River",
     "Disney Castle",
     "Destiny Islands",
-    [
-     "The World That Never Was",
-     "World That Never Was"
-    ],
+    "The Grid",
+    "The World That Never Was",
+    "Disney Town",
     "Toy Box",
+    "Deep Space",
     [
      "Kingdom of Corona",
      "Corona"
     ],
+    [
+     "Realm of Darkness",
+     "Dark World"
+    ],
     "Monstropolis",
     "Arendelle",
+    "The Final World",
     "San Fransokyo",
     "Land of Departure",
+    "Prankster's Paradise",
+    "La Cité des Cloches",
     "Dwarf Woodlands",
+    "Country of the Musketeers",
+    "Symphony of Sorcery",
     "Castle of Dreams",
+    "Daybreak Town",
     "Enchanted Dominion",
     "Mysterious Tower",
-    [
-     "Scala ad Caelum",
-     "Scala Ad Caelum"
-    ],
-    "Keyblade Graveyard"
+    "Scala ad Caelum",
+    "Keyblade Graveyard",
+    "Quadratum"
    ]
   },
   {
@@ -863,12 +992,11 @@
     "Fearow",
     "Wigglytuff",
     "Persian",
-    [
-     "Farfetch'd",
-     "Farfetchd"
-    ],
+    "Farfetch'd",
     "Doduo",
-    "Dodrio"
+    "Dodrio",
+    "Clefairy",
+    "Clefable"
    ]
   },
   {
@@ -1221,8 +1349,7 @@
    "answers": [
     [
      "Poké Ball",
-     "Pokeball",
-     "Poke Ball"
+     "Pokeball"
     ],
     [
      "Great Ball",
@@ -1337,7 +1464,8 @@
     "Jet Ball",
     "Leaden Ball",
     "Gigaton Ball",
-    "Origin Ball"
+    "Origin Ball",
+    "GS Ball"
    ]
   },
   {
@@ -1505,197 +1633,27 @@
     ],
     "Rubick",
     "Tinker",
-    "Abaddon",
-    "Alchemist",
-    [
-     "Ancient Apparition",
-     "Kaldr"
-    ],
-    "Arc Warden",
-    "Bane",
-    "Batrider",
-    "Beastmaster",
-    "Bloodseeker",
-    "Bounty Hunter",
-    "Brewmaster",
-    "Bristleback",
-    "Broodmother",
-    [
-     "Centaur Warrunner",
-     "Centaur",
-     "Bradwarden"
-    ],
-    "Chaos Knight",
-    "Chen",
-    "Clinkz",
-    [
-     "Clockwerk",
-     "Clock"
-    ],
-    "Dark Seer",
-    "Dark Willow",
-    "Dawnbreaker",
-    "Dazzle",
-    "Death Prophet",
-    "Disruptor",
-    "Doom",
-    [
-     "Dragon Knight",
-     "Davion"
-    ],
-    "Earth Spirit",
-    [
-     "Elder Titan",
-     "Elder Titan"
-    ],
-    "Ember Spirit",
-    "Enchantress",
-    "Enigma",
     [
      "Faceless Void",
      "Void"
     ],
-    "Grimstroke",
-    "Gyrocopter",
-    "Hoodwink",
-    "Huskar",
-    [
-     "Io",
-     "Wisp"
-    ],
-    "Jakiro",
-    [
-     "Keeper of the Light",
-     "Ezalor",
-     "KOTL"
-    ],
-    "Kez",
-    "Kunkka",
-    "Largo",
     [
      "Legion Commander",
      "Tresdin"
     ],
-    "Leshrac",
-    "Lich",
+    "Bristleback",
     [
-     "Lifestealer",
-     "Life Stealer",
-     "Naix"
+     "Templar Assassin",
+     "Lanaya"
     ],
     [
-     "Lone Druid",
-     "Sylla"
-    ],
-    "Luna",
-    "Lycan",
-    "Magnus",
-    "Marci",
-    "Mars",
-    "Medusa",
-    "Meepo",
-    [
-     "Monkey King",
-     "Sun Wukong"
-    ],
-    "Morphling",
-    "Muerta",
-    [
-     "Naga Siren",
-     "Naga"
-    ],
-    [
-     "Nature's Prophet",
-     "Natures Prophet",
-     "Furion"
-    ],
-    "Necrophos",
-    [
-     "Night Stalker",
-     "Balanar"
-    ],
-    [
-     "Nyx Assassin",
-     "Nyx"
+     "Queen of Pain",
+     "Akasha"
     ],
     [
      "Ogre Magi",
      "Ogre"
     ],
-    "Omniknight",
-    "Oracle",
-    [
-     "Outworld Destroyer",
-     "Outworld Devourer"
-    ],
-    "Pangolier",
-    [
-     "Phantom Lancer",
-     "Azwraith"
-    ],
-    "Phoenix",
-    "Primal Beast",
-    "Puck",
-    "Pugna",
-    [
-     "Queen of Pain",
-     "Akasha"
-    ],
-    "Razor",
-    "Ringmaster",
-    [
-     "Sand King",
-     "Crixalis"
-    ],
-    "Shadow Demon",
-    [
-     "Shadow Shaman",
-     "Rhasta"
-    ],
-    "Silencer",
-    [
-     "Skywrath Mage",
-     "Skywrath"
-    ],
-    "Slardar",
-    "Snapfire",
-    "Spectre",
-    [
-     "Templar Assassin",
-     "Lanaya"
-    ],
-    "Terrorblade",
-    "Tidehunter",
-    [
-     "Timbersaw",
-     "Rizzrack"
-    ],
-    [
-     "Treant Protector",
-     "Treant"
-    ],
-    [
-     "Troll Warlord",
-     "Jah'rakal"
-    ],
-    "Tusk",
-    [
-     "Underlord",
-     "Pit Lord"
-    ],
-    "Undying",
-    "Ursa",
-    [
-     "Vengeful Spirit",
-     "Venge"
-    ],
-    "Venomancer",
-    "Viper",
-    "Visage",
-    "Void Spirit",
-    "Warlock",
-    "Weaver",
-    "Winter Wyvern",
     [
      "Witch Doctor",
      "Zharvakko"
@@ -1703,6 +1661,176 @@
     [
      "Wraith King",
      "Skeleton King"
+    ],
+    "Spectre",
+    [
+     "Monkey King",
+     "Sun Wukong"
+    ],
+    "Bloodseeker",
+    "Bounty Hunter",
+    "Morphling",
+    "Ember Spirit",
+    "Puck",
+    "Earth Spirit",
+    "Kunkka",
+    "Medusa",
+    "Meepo",
+    "Necrophos",
+    [
+     "Nature's Prophet",
+     "Natures Prophet",
+     "Furion"
+    ],
+    [
+     "Lifestealer",
+     "Life Stealer",
+     "Naix"
+    ],
+    "Ursa",
+    [
+     "Troll Warlord",
+     "Jah'rakal"
+    ],
+    "Tidehunter",
+    "Magnus",
+    "Lich",
+    [
+     "Dragon Knight",
+     "Davion"
+    ],
+    [
+     "Shadow Shaman",
+     "Rhasta"
+    ],
+    [
+     "Vengeful Spirit",
+     "Venge"
+    ],
+    [
+     "Skywrath Mage",
+     "Skywrath"
+    ],
+    "Enigma",
+    "Tusk",
+    "Alchemist",
+    "Abaddon",
+    "Doom",
+    "Huskar",
+    "Clinkz",
+    "Viper",
+    "Venomancer",
+    "Slardar",
+    [
+     "Sand King",
+     "Crixalis"
+    ],
+    "Silencer",
+    "Luna",
+    "Razor",
+    "Weaver",
+    "Undying",
+    "Dazzle",
+    "Warlock",
+    "Jakiro",
+    "Bane",
+    [
+     "Phantom Lancer",
+     "Azwraith"
+    ],
+    "Terrorblade",
+    [
+     "Timbersaw",
+     "Rizzrack"
+    ],
+    [
+     "Lone Druid",
+     "Sylla"
+    ],
+    [
+     "Night Stalker",
+     "Balanar"
+    ],
+    [
+     "Outworld Destroyer",
+     "Outworld Devourer"
+    ],
+    [
+     "Centaur Warrunner",
+     "Centaur",
+     "Bradwarden"
+    ],
+    "Chaos Knight",
+    "Phoenix",
+    [
+     "Io",
+     "Wisp"
+    ],
+    "Lycan",
+    "Muerta",
+    "Chen",
+    "Marci",
+    [
+     "Ancient Apparition",
+     "Kaldr"
+    ],
+    "Oracle",
+    "Largo",
+    [
+     "Nyx Assassin",
+     "Nyx"
+    ],
+    "Dawnbreaker",
+    [
+     "Elder Titan",
+     "Elder Titan"
+    ],
+    "Void Spirit",
+    "Dark Seer",
+    "Snapfire",
+    "Grimstroke",
+    [
+     "Naga Siren",
+     "Naga"
+    ],
+    "Beastmaster",
+    [
+     "Treant Protector",
+     "Treant"
+    ],
+    "Gyrocopter",
+    "Pangolier",
+    "Brewmaster",
+    "Omniknight",
+    "Death Prophet",
+    "Broodmother",
+    "Arc Warden",
+    "Kez",
+    [
+     "Clockwerk",
+     "Clock"
+    ],
+    "Winter Wyvern",
+    "Shadow Demon",
+    "Ringmaster",
+    "Primal Beast",
+    "Hoodwink",
+    "Batrider",
+    "Enchantress",
+    "Visage",
+    "Pugna",
+    "Dark Willow",
+    "Leshrac",
+    "Disruptor",
+    "Mars",
+    [
+     "Underlord",
+     "Pit Lord"
+    ],
+    [
+     "Keeper of the Light",
+     "Ezalor",
+     "KOTL"
     ]
    ]
   },
@@ -1756,48 +1884,48 @@
      "Welcome to Bloxburg",
      "Bloxburg"
     ],
-    "99 Nights in the Forest",
-    "Dandy's World",
-    "Driving Empire",
-    "Epic Minigames",
-    "Frontlines",
-    "Hide and Seek Extreme",
-    [
-     "The Mimic",
-     "Mimic"
-    ],
-    "Restaurant Tycoon 2",
-    "Rift Royale",
-    "Rivals",
-    "Scuba Diving at Quill Lake",
-    [
-     "SharkBite",
-     "Shark Bite"
-    ],
-    "Speed Run 4",
-    "Steal an Egg",
-    "Super Bomb Survival",
-    [
-     "Theme Park Tycoon 2",
-     "Theme Park Tycoon"
-    ],
-    "The Co-Worker Game",
-    "Notoriety",
-    "Sonic Speed Simulator",
-    "SpongeBob Simulator",
     "Steal a Brainrot",
-    "3008",
-    "Anime Fighting Simulator",
+    "99 Nights in the Forest",
+    "Rivals",
     [
      "BedWars",
      "Bed Wars"
     ],
-    "Poppy Playtime Forever",
+    "Dandy's World",
+    "Hide and Seek Extreme",
+    [
+     "SharkBite",
+     "Shark Bite"
+    ],
+    [
+     "Theme Park Tycoon 2",
+     "Theme Park Tycoon"
+    ],
+    "Speed Run 4",
+    "Epic Minigames",
+    [
+     "The Mimic",
+     "Mimic"
+    ],
+    "3008",
+    "Anime Fighting Simulator",
+    "Driving Empire",
+    "Restaurant Tycoon 2",
+    "Super Bomb Survival",
     [
      "Pokémon Brick Bronze",
      "Brick Bronze"
     ],
-    "Squid Game X"
+    "Notoriety",
+    "Poppy Playtime Forever",
+    "SpongeBob Simulator",
+    "Sonic Speed Simulator",
+    "Squid Game X",
+    "Steal an Egg",
+    "The Co-Worker Game",
+    "Frontlines",
+    "Rift Royale",
+    "Scuba Diving at Quill Lake"
    ]
   },
   {
@@ -1872,19 +2000,37 @@
     "Hyper Scape",
     "Super Animal Royale",
     [
+     "PUBG: New State",
+     "New State"
+    ],
+    [
      "Naraka: Bladepoint",
      "Naraka"
     ],
+    "Stumble Guys",
     "Tetris 99",
+    [
+     "Totally Accurate Battlegrounds",
+     "TABG"
+    ],
     [
      "Fall Guys",
      "Fall Guys: Ultimate Knockout"
     ],
+    [
+     "Super Mario Bros. 35",
+     "Mario 35"
+    ],
     "Darwin Project",
+    "Pac-Man 99",
     "Radical Heights",
+    "F-Zero 99",
+    "Rumbleverse",
     "Ring of Elysium",
     "Knives Out",
+    "Farlight 84",
     "Rules of Survival",
+    "The Culling",
     [
      "Firestorm",
      "Battlefield V Firestorm"
@@ -1895,7 +2041,8 @@
     ],
     "PUBG Mobile",
     "Super People",
-    "Eternal Return"
+    "Eternal Return",
+    "Fear the Wolves"
    ]
   },
   {
@@ -2013,6 +2160,10 @@
      "Nvidia GeForce Now"
     ],
     [
+     "Xbox Live Gold",
+     "Xbox Live"
+    ],
+    [
      "Xbox Cloud Gaming",
      "xCloud",
      "Project xCloud"
@@ -2036,14 +2187,20 @@
      "Prime Gaming",
      "Twitch Prime"
     ],
+    "Google Play Pass",
     [
      "Humble Choice",
      "Humble Monthly"
     ],
+    "Utomik",
     "Boosteroid",
     [
      "PlayStation Plus Premium",
      "PS Plus Premium"
+    ],
+    [
+     "Antstream Arcade",
+     "Antstream"
     ]
    ]
   },
@@ -2125,22 +2282,22 @@
     "Happy Ghast",
     "Glow Squid",
     "Mule",
-    "Camel Husk",
-    "Copper Golem",
-    "Skeleton Horse",
-    "Sniffer",
+    "Villager",
+    "Turtle",
     [
      "Snow Golem",
      "Snow Man"
     ],
-    "Strider",
-    "Sulfur Cube",
-    "Tadpole",
     "Tropical Fish",
-    "Turtle",
-    "Villager",
     "Wandering Trader",
-    "Zombie Horse"
+    "Skeleton Horse",
+    "Zombie Horse",
+    "Tadpole",
+    "Strider",
+    "Sniffer",
+    "Copper Golem",
+    "Camel Husk",
+    "Sulfur Cube"
    ]
   },
   {
@@ -2473,10 +2630,7 @@
      "Spy Plane",
      "Recon Drone"
     ],
-    [
-     "Counter-UAV",
-     "Counter UAV"
-    ],
+    "Counter-UAV",
     [
      "Care Package",
      "Carepackage",
@@ -2508,6 +2662,7 @@
      "Sentry Gun",
      "Sentry"
     ],
+    "Advanced UAV",
     "Emergency Airdrop",
     "Stealth Bomber",
     "Pave Low",
@@ -2527,6 +2682,7 @@
      "Hunter Killer"
     ],
     "Lightning Strike",
+    "Ballistic Vests",
     [
      "Orbital VSAT",
      "VSAT"
@@ -2539,16 +2695,22 @@
      "VTOL Warship",
      "VTOL"
     ],
+    "Hellstorm",
     "Death Machine",
+    "War Machine",
     "Guardian",
+    "Mosquito Drone",
     "Cruise Missile",
+    "White Phosphorus",
     "Mortar Team",
+    "SAM Turret",
     "Reaper",
     "Swarm",
     "Loadout Drop",
     "Shield Turret",
     "Wheelson",
-    "Support Helicopter"
+    "Support Helicopter",
+    "Mortar Strike"
    ]
   },
   {
@@ -2570,35 +2732,47 @@
     "Marathon",
     "Scavenger",
     "Ninja",
-    [
-     "Cold-Blooded",
-     "Cold Blooded"
-    ],
+    "Cold-Blooded",
     "Lightweight",
     "Quickdraw",
+    "Toughness",
     "Commando",
     "Hardline",
     "Danger Close",
+    "Tracker",
     "Bling",
     "One Man Army",
+    "Spotter",
     "Dead Silence",
     "Tactical Mask",
+    "Amped",
     "Scrambler",
+    [
+     "E.O.D.",
+     "EOD"
+    ],
     "Ghost",
     "Assassin",
+    "Restock",
     "Flak Jacket",
+    "Tune Up",
+    "High Alert",
     "Blast Shield",
+    "Engineer",
     "Hardwired",
+    "Hardened",
     "Double Tap",
+    "Quick Fix",
+    "Shrapnel",
     "Extreme Conditioning",
+    "Survivor",
     "Bomb Squad",
+    "Tactician",
     "Sitrep",
     "Dexterity",
     "Fast Hands",
-    [
-     "Gung-Ho",
-     "Gung Ho"
-    ]
+    "Gung-Ho",
+    "Afterburner"
    ]
   },
   {
@@ -3001,37 +3175,120 @@
     "Thwomp",
     "Chain Chomp",
     "Blooper",
+    [
+     "Koopa Paratroopa",
+     "Paratroopa"
+    ],
     "Cheep Cheep",
     "Spiny",
+    [
+     "Paragoomba",
+     "Para-Goomba"
+    ],
     "Wiggler",
     "Dry Bones",
+    "Fire Bro",
+    "Boomerang Bro",
     "Magikoopa",
     "Kamek",
+    "Boom Boom",
+    "Pom Pom",
     [
      "Bob-omb",
      "Bomb-omb",
      "Bobomb"
     ],
+    "Rex",
     "Monty Mole",
+    "Big Boo",
     "Pokey",
+    "Bully",
+    [
+     "King Bob-omb",
+     "King Bomb-omb",
+     "Big Bob-omb"
+    ],
     "Whomp",
+    "Wart",
+    [
+     "Larry Koopa",
+     "Larry"
+    ],
     "Podoboo",
+    [
+     "Morton Koopa Jr.",
+     "Morton"
+    ],
+    [
+     "Wendy O. Koopa",
+     "Wendy"
+    ],
     "Buzzy Beetle",
+    [
+     "Iggy Koopa",
+     "Iggy"
+    ],
+    [
+     "Roy Koopa",
+     "Roy"
+    ],
+    [
+     "Lemmy Koopa",
+     "Lemmy"
+    ],
     "Angry Sun",
+    [
+     "Ludwig von Koopa",
+     "Ludwig"
+    ],
+    "Dry Bowser",
     "Fuzzy",
+    "Snifit",
+    "Ninji",
     [
      "Chargin' Chuck",
      "Charging Chuck"
     ],
+    "Torpedo Ted",
+    "Bony Beetle",
+    "Spike Top",
     "Mechakoopa",
+    "Amp",
+    "Chuckya",
     "Rocky Wrench",
+    "Mr. Blizzard",
+    "Galoomba",
+    "Goombrat",
     "Sumo Bro",
+    "Swoop",
+    "Mega Mole",
+    "Fire Snake",
     "Banzai Bill",
+    "Lava Bubble",
+    "Peepa",
     "Petey Piranha",
+    "Porcupuffer",
+    "Urchin",
+    [
+     "Unagi",
+     "Maw-Ray"
+    ],
     "Koopalings",
+    [
+     "Big Bertha",
+     "Boss Bass"
+    ],
+    "Tatanga",
+    "Fury Bowser",
     "Ant Trooper",
+    "Grrrol",
+    "Fishbone",
     "Biddybud",
-    "Spike"
+    "Spike",
+    "Count Bleck",
+    "Fawful",
+    "Cackletta",
+    "Smithy"
    ]
   },
   {
@@ -3091,18 +3348,47 @@
     "Malygos",
     "Nozdormu",
     "Kalecgos",
+    [
+     "Chromie",
+     "Chronormu"
+    ],
     "Onyxia",
     "Nefarian",
+    "Fyrakk",
+    "Raszageth",
+    "Galakrond",
     "Sindragosa",
+    "Vaelastrasz",
     "Wrathion",
+    [
+     "Ebonhorn",
+     "Ebyssian"
+    ],
+    "Iridikron",
+    "Vyranoth",
     "Sinestra",
+    "Sarkareth",
+    "Ysondre",
+    "Lethon",
     "Korialstrasz",
+    "Emeriss",
+    "Taerar",
+    [
+     "Valithria Dreamwalker",
+     "Valithria"
+    ],
     "Chromatus",
+    "Sartharion",
+    "Halion",
+    "Sabellian",
     "Anachronos",
+    "Merithra",
+    "Tyrygosa",
     "Tyranastrasz",
     "Eranikus",
     "Tarecgosa",
-    "Soridormi"
+    "Soridormi",
+    "Arygos"
    ]
   }
  ]

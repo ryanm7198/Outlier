@@ -16,16 +16,10 @@
      "King James"
     ],
     [
-     "Kareem Abdul-Jabbar",
-     "Abdul-Jabbar",
-     "Kareem",
-     "Lew Alcindor",
-     "Alcindor"
-    ],
-    [
-     "Karl Malone",
-     "The Mailman",
-     "Malone"
+     "Michael Jordan",
+     "Jordan",
+     "MJ",
+     "Mike Jordan"
     ],
     [
      "Kobe Bryant",
@@ -34,15 +28,33 @@
      "Black Mamba"
     ],
     [
+     "Stephen Curry",
+     "Curry",
+     "Steph Curry",
+     "Steph"
+    ],
+    [
+     "Shaquille O'Neal",
+     "O'Neal",
+     "Shaq",
+     "Shaquille"
+    ],
+    [
      "Kevin Durant",
      "Durant",
      "KD"
     ],
     [
-     "Michael Jordan",
-     "Jordan",
-     "MJ",
-     "Mike Jordan"
+     "Kareem Abdul-Jabbar",
+     "Abdul-Jabbar",
+     "Kareem",
+     "Lew Alcindor",
+     "Alcindor"
+    ],
+    [
+     "James Harden",
+     "Harden",
+     "The Beard"
     ],
     [
      "Dirk Nowitzki",
@@ -56,26 +68,9 @@
      "Wilt the Stilt"
     ],
     [
-     "James Harden",
-     "Harden",
-     "The Beard"
-    ],
-    [
-     "Shaquille O'Neal",
-     "O'Neal",
-     "Shaq",
-     "Shaquille"
-    ],
-    [
-     "Carmelo Anthony",
-     "Anthony",
-     "Melo",
-     "Carmelo"
-    ],
-    "Moses Malone",
-    [
-     "Elvin Hayes",
-     "Hayes"
+     "Karl Malone",
+     "The Mailman",
+     "Malone"
     ],
     [
      "Russell Westbrook",
@@ -83,44 +78,22 @@
      "Russ"
     ],
     [
-     "Hakeem Olajuwon",
-     "Olajuwon",
-     "Hakeem",
-     "Akeem Olajuwon",
-     "The Dream"
-    ],
-    [
-     "Stephen Curry",
-     "Curry",
-     "Steph Curry",
-     "Steph"
-    ],
-    [
-     "DeMar DeRozan",
-     "DeRozan"
-    ],
-    [
-     "Oscar Robertson",
-     "Robertson",
-     "Big O",
-     "The Big O"
-    ],
-    [
-     "Dominique Wilkins",
-     "Wilkins"
-    ],
-    [
      "Tim Duncan",
      "Duncan",
      "Timmy"
     ],
     [
-     "Paul Pierce",
-     "Pierce"
+     "Carmelo Anthony",
+     "Anthony",
+     "Melo",
+     "Carmelo"
     ],
     [
-     "John Havlicek",
-     "Havlicek"
+     "Hakeem Olajuwon",
+     "Olajuwon",
+     "Hakeem",
+     "Akeem Olajuwon",
+     "The Dream"
     ],
     [
      "Kevin Garnett",
@@ -133,8 +106,8 @@
      "Vinsanity"
     ],
     [
-     "Alex English",
-     "English"
+     "Paul Pierce",
+     "Pierce"
     ],
     [
      "Reggie Miller",
@@ -145,6 +118,34 @@
      "West",
      "The Logo",
      "Mr. Clutch"
+    ],
+    [
+     "Oscar Robertson",
+     "Robertson",
+     "Big O",
+     "The Big O"
+    ],
+    [
+     "DeMar DeRozan",
+     "DeRozan"
+    ],
+    "Moses Malone",
+    [
+     "Dominique Wilkins",
+     "Wilkins",
+     "Nique"
+    ],
+    [
+     "John Havlicek",
+     "Havlicek"
+    ],
+    [
+     "Elvin Hayes",
+     "Hayes"
+    ],
+    [
+     "Alex English",
+     "English"
     ]
    ],
    "eraText": "Name a player with 25,000 or more career NBA points who played in the {era}",
@@ -290,24 +291,10 @@
    "text": "Name a player with 7,000 or more career NBA regular-season assists (as of November 2026)",
    "answers": [
     [
-     "Chris Paul",
-     "Paul",
-     "CP3"
-    ],
-    [
      "LeBron James",
      "James",
      "LeBron",
      "King James"
-    ],
-    [
-     "John Stockton",
-     "Stockton"
-    ],
-    [
-     "Jason Kidd",
-     "Kidd",
-     "J Kidd"
     ],
     [
      "Magic Johnson",
@@ -316,8 +303,22 @@
      "Earvin Johnson"
     ],
     [
+     "Chris Paul",
+     "Paul",
+     "CP3"
+    ],
+    [
+     "John Stockton",
+     "Stockton"
+    ],
+    [
      "Steve Nash",
      "Nash"
+    ],
+    [
+     "Jason Kidd",
+     "Kidd",
+     "J Kidd"
     ],
     [
      "Russell Westbrook",
@@ -330,46 +331,27 @@
      "The Beard"
     ],
     [
-     "Oscar Robertson",
-     "Robertson",
-     "Big O",
-     "The Big O"
-    ],
-    [
      "Isiah Thomas",
      "Thomas"
     ],
     [
      "Gary Payton",
-     "Payton"
+     "Payton",
+     "The Glove"
     ],
     [
-     "Mark Jackson",
-     "Jackson"
-    ],
-    [
-     "Andre Miller",
-     "Miller"
-    ],
-    [
-     "Rod Strickland",
-     "Strickland"
+     "Tony Parker",
+     "Parker"
     ],
     [
      "Rajon Rondo",
      "Rondo"
     ],
     [
-     "Maurice Cheeks",
-     "Cheeks"
-    ],
-    [
-     "Lenny Wilkens",
-     "Wilkens"
-    ],
-    [
-     "Terry Porter",
-     "Porter"
+     "Oscar Robertson",
+     "Robertson",
+     "Big O",
+     "The Big O"
     ],
     [
      "Kyle Lowry",
@@ -380,8 +362,29 @@
      "Hardaway"
     ],
     [
-     "Tony Parker",
-     "Parker"
+     "Mark Jackson",
+     "Jackson"
+    ],
+    [
+     "Andre Miller",
+     "Miller"
+    ],
+    [
+     "Maurice Cheeks",
+     "Cheeks",
+     "Mo Cheeks"
+    ],
+    [
+     "Lenny Wilkens",
+     "Wilkens"
+    ],
+    [
+     "Rod Strickland",
+     "Strickland"
+    ],
+    [
+     "Terry Porter",
+     "Porter"
     ]
    ],
    "eraText": "Name a player with 7,000 or more career NBA assists who played in the {era}",
@@ -497,14 +500,22 @@
    "text": "Name a player with 12,000 or more career NBA regular-season rebounds (as of November 2026)",
    "answers": [
     [
+     "Shaquille O'Neal",
+     "O'Neal",
+     "Shaq",
+     "Shaquille"
+    ],
+    [
+     "LeBron James",
+     "James",
+     "LeBron",
+     "King James"
+    ],
+    [
      "Wilt Chamberlain",
      "Chamberlain",
      "Wilt",
      "Wilt the Stilt"
-    ],
-    [
-     "Bill Russell",
-     "Russell"
     ],
     [
      "Kareem Abdul-Jabbar",
@@ -514,15 +525,13 @@
      "Alcindor"
     ],
     [
+     "Bill Russell",
+     "Russell"
+    ],
+    [
      "Tim Duncan",
      "Duncan",
      "Timmy"
-    ],
-    [
-     "Shaquille O'Neal",
-     "O'Neal",
-     "Shaq",
-     "Shaquille"
     ],
     [
      "Hakeem Olajuwon",
@@ -532,9 +541,9 @@
      "The Dream"
     ],
     [
-     "Kevin Garnett",
-     "Garnett",
-     "KG"
+     "Charles Barkley",
+     "Barkley",
+     "Sir Charles"
     ],
     [
      "Karl Malone",
@@ -542,15 +551,9 @@
      "Malone"
     ],
     [
-     "Charles Barkley",
-     "Barkley",
-     "Sir Charles"
-    ],
-    [
-     "LeBron James",
-     "James",
-     "LeBron",
-     "King James"
+     "Kevin Garnett",
+     "Garnett",
+     "KG"
     ],
     [
      "Dwight Howard",
@@ -558,12 +561,25 @@
     ],
     "Moses Malone",
     [
+     "Dikembe Mutombo",
+     "Mutombo"
+    ],
+    [
+     "Robert Parish",
+     "Parish",
+     "The Chief"
+    ],
+    [
+     "Charles Oakley",
+     "Oakley"
+    ],
+    [
      "Elvin Hayes",
      "Hayes"
     ],
     [
-     "Robert Parish",
-     "Parish"
+     "Wes Unseld",
+     "Unseld"
     ],
     [
      "Nate Thurmond",
@@ -574,14 +590,6 @@
      "Bellamy"
     ],
     [
-     "Wes Unseld",
-     "Unseld"
-    ],
-    [
-     "Buck Williams",
-     "Williams"
-    ],
-    [
      "Jerry Lucas",
      "Lucas"
     ],
@@ -590,16 +598,12 @@
      "Pettit"
     ],
     [
-     "Dikembe Mutombo",
-     "Mutombo"
+     "Buck Williams",
+     "Williams"
     ],
     [
      "Paul Silas",
      "Silas"
-    ],
-    [
-     "Charles Oakley",
-     "Oakley"
     ]
    ],
    "eraText": "Name a player with 12,000 or more career NBA rebounds who played in the {era}",
@@ -724,18 +728,25 @@
      "Steph"
     ],
     [
+     "Klay Thompson",
+     "Thompson",
+     "Klay"
+    ],
+    [
      "James Harden",
      "Harden",
      "The Beard"
     ],
     [
      "Ray Allen",
-     "Allen"
+     "Allen",
+     "Jesus Shuttlesworth"
     ],
     [
-     "Klay Thompson",
-     "Thompson",
-     "Klay"
+     "LeBron James",
+     "James",
+     "LeBron",
+     "King James"
     ],
     [
      "Damian Lillard",
@@ -744,10 +755,9 @@
      "Dame Lillard"
     ],
     [
-     "LeBron James",
-     "James",
-     "LeBron",
-     "King James"
+     "Kevin Durant",
+     "Durant",
+     "KD"
     ],
     [
      "Reggie Miller",
@@ -764,18 +774,17 @@
      "Korver"
     ],
     [
-     "Kevin Durant",
-     "Durant",
-     "KD"
-    ],
-    [
      "Vince Carter",
      "Carter",
      "Vinsanity"
     ],
     [
-     "Jason Terry",
-     "Terry"
+     "Paul Pierce",
+     "Pierce"
+    ],
+    [
+     "Kyle Lowry",
+     "Lowry"
     ],
     [
      "Jamal Crawford",
@@ -786,16 +795,14 @@
      "Hield"
     ],
     [
-     "Kyle Lowry",
-     "Lowry"
-    ],
-    [
      "CJ McCollum",
-     "McCollum"
+     "McCollum",
+     "C.J. McCollum"
     ],
     [
-     "Paul Pierce",
-     "Pierce"
+     "Jason Terry",
+     "Terry",
+     "JET"
     ],
     [
      "Eric Gordon",
@@ -913,20 +920,6 @@
      "Mike Jordan"
     ],
     [
-     "John Stockton",
-     "Stockton"
-    ],
-    [
-     "Chris Paul",
-     "Paul",
-     "CP3"
-    ],
-    [
-     "Jason Kidd",
-     "Kidd",
-     "J Kidd"
-    ],
-    [
      "LeBron James",
      "James",
      "LeBron",
@@ -939,9 +932,13 @@
      "Black Mamba"
     ],
     [
-     "Allen Iverson",
-     "Iverson",
-     "AI"
+     "Chris Paul",
+     "Paul",
+     "CP3"
+    ],
+    [
+     "John Stockton",
+     "Stockton"
     ],
     [
      "Scottie Pippen",
@@ -949,7 +946,23 @@
     ],
     [
      "Gary Payton",
-     "Payton"
+     "Payton",
+     "The Glove"
+    ],
+    [
+     "Allen Iverson",
+     "Iverson",
+     "AI"
+    ],
+    [
+     "Jason Kidd",
+     "Kidd",
+     "J Kidd"
+    ],
+    [
+     "Russell Westbrook",
+     "Westbrook",
+     "Russ"
     ],
     [
      "Hakeem Olajuwon",
@@ -959,16 +972,9 @@
      "The Dream"
     ],
     [
-     "Maurice Cheeks",
-     "Cheeks"
-    ],
-    [
-     "Clyde Drexler",
-     "Drexler"
-    ],
-    [
-     "Alvin Robertson",
-     "Robertson"
+     "Kevin Garnett",
+     "Garnett",
+     "KG"
     ],
     [
      "Karl Malone",
@@ -976,31 +982,35 @@
      "The Mailman"
     ],
     [
-     "Mookie Blaylock",
-     "Blaylock"
-    ],
-    [
-     "Russell Westbrook",
-     "Westbrook",
-     "Russ"
-    ],
-    [
-     "Derek Harper",
-     "Harper"
+     "James Harden",
+     "Harden",
+     "The Beard"
     ],
     [
      "Isiah Thomas",
      "Thomas"
     ],
     [
-     "Kevin Garnett",
-     "Garnett",
-     "KG"
+     "Clyde Drexler",
+     "Drexler",
+     "Clyde the Glide"
     ],
     [
-     "James Harden",
-     "Harden",
-     "The Beard"
+     "Maurice Cheeks",
+     "Cheeks",
+     "Mo Cheeks"
+    ],
+    [
+     "Mookie Blaylock",
+     "Blaylock"
+    ],
+    [
+     "Alvin Robertson",
+     "Robertson"
+    ],
+    [
+     "Derek Harper",
+     "Harper"
     ]
    ],
    "eraText": "Name a player with 1,800 or more career NBA steals who played in the {era}",
@@ -1111,11 +1121,10 @@
    "text": "Name a player with 1,500 or more career NBA regular-season blocks (as of November 2026)",
    "answers": [
     [
-     "Kareem Abdul-Jabbar",
-     "Abdul-Jabbar",
-     "Kareem",
-     "Lew Alcindor",
-     "Alcindor"
+     "Shaquille O'Neal",
+     "Shaq",
+     "O'Neal",
+     "Shaquille"
     ],
     [
      "Hakeem Olajuwon",
@@ -1125,10 +1134,11 @@
      "The Dream"
     ],
     [
-     "Shaquille O'Neal",
-     "Shaq",
-     "O'Neal",
-     "Shaquille"
+     "Kareem Abdul-Jabbar",
+     "Abdul-Jabbar",
+     "Kareem",
+     "Lew Alcindor",
+     "Alcindor"
     ],
     [
      "Tim Duncan",
@@ -1136,20 +1146,21 @@
      "Timmy"
     ],
     [
-     "David Robinson",
-     "Robinson"
-    ],
-    [
      "Dikembe Mutombo",
      "Mutombo"
     ],
     [
-     "Patrick Ewing",
-     "Ewing"
+     "Dwight Howard",
+     "Howard"
     ],
     [
-     "Alonzo Mourning",
-     "Mourning"
+     "David Robinson",
+     "Robinson",
+     "The Admiral"
+    ],
+    [
+     "Patrick Ewing",
+     "Ewing"
     ],
     [
      "Kevin Garnett",
@@ -1157,86 +1168,68 @@
      "KG"
     ],
     [
-     "Dwight Howard",
-     "Howard"
-    ],
-    [
      "Anthony Davis",
      "Davis",
      "AD"
-    ],
-    [
-     "Mark Eaton",
-     "Eaton"
-    ],
-    [
-     "Tree Rollins",
-     "Rollins"
-    ],
-    [
-     "Robert Parish",
-     "Parish"
-    ],
-    [
-     "Marcus Camby",
-     "Camby"
-    ],
-    [
-     "Brook Lopez",
-     "Lopez"
-    ],
-    [
-     "Ben Wallace",
-     "Wallace"
-    ],
-    [
-     "Shawn Bradley",
-     "Bradley"
-    ],
-    [
-     "Manute Bol",
-     "Bol"
-    ],
-    [
-     "George T. Johnson",
-     "Johnson"
-    ],
-    [
-     "Larry Nance",
-     "Nance"
-    ],
-    [
-     "Theo Ratliff",
-     "Ratliff"
-    ],
-    [
-     "Pau Gasol",
-     "Gasol"
     ],
     [
      "Rudy Gobert",
      "Gobert"
     ],
     [
-     "Elton Brand",
-     "Brand"
+     "Alonzo Mourning",
+     "Mourning",
+     "Zo"
+    ],
+    [
+     "Ben Wallace",
+     "Wallace",
+     "Big Ben"
+    ],
+    [
+     "Pau Gasol",
+     "Gasol"
+    ],
+    [
+     "Manute Bol",
+     "Bol"
+    ],
+    [
+     "Brook Lopez",
+     "Lopez"
+    ],
+    [
+     "Robert Parish",
+     "Parish"
+    ],
+    [
+     "Moses Malone",
+     "Malone"
+    ],
+    [
+     "Marcus Camby",
+     "Camby"
+    ],
+    [
+     "Shawn Bradley",
+     "Bradley"
+    ],
+    [
+     "Mark Eaton",
+     "Eaton"
     ],
     "Jermaine O'Neal",
-    [
-     "Elvin Hayes",
-     "Hayes"
-    ],
     [
      "Serge Ibaka",
      "Ibaka"
     ],
     [
-     "Artis Gilmore",
-     "Gilmore"
+     "DeAndre Jordan",
+     "Jordan"
     ],
     [
-     "Moses Malone",
-     "Malone"
+     "Myles Turner",
+     "Turner"
     ],
     [
      "Josh Smith",
@@ -1251,8 +1244,32 @@
      "Divac"
     ],
     [
-     "Herb Williams",
-     "Williams"
+     "Elton Brand",
+     "Brand"
+    ],
+    [
+     "Elvin Hayes",
+     "Hayes"
+    ],
+    [
+     "Artis Gilmore",
+     "Gilmore"
+    ],
+    [
+     "Theo Ratliff",
+     "Ratliff"
+    ],
+    [
+     "Larry Nance",
+     "Nance"
+    ],
+    [
+     "Tree Rollins",
+     "Rollins"
+    ],
+    [
+     "Samuel Dalembert",
+     "Dalembert"
     ],
     [
      "Elden Campbell",
@@ -1263,16 +1280,12 @@
      "Benjamin"
     ],
     [
-     "DeAndre Jordan",
-     "Jordan"
+     "Herb Williams",
+     "Williams"
     ],
     [
-     "Myles Turner",
-     "Turner"
-    ],
-    [
-     "Samuel Dalembert",
-     "Dalembert"
+     "George T. Johnson",
+     "Johnson"
     ],
     [
      "Wayne Cooper",
@@ -1483,12 +1496,6 @@
    "text": "Name a player who has scored 60 or more points in an NBA regular-season game (to November 2026)",
    "answers": [
     [
-     "Wilt Chamberlain",
-     "Chamberlain",
-     "Wilt",
-     "Wilt the Stilt"
-    ],
-    [
      "Kobe Bryant",
      "Bryant",
      "Kobe",
@@ -1499,6 +1506,12 @@
      "Jordan",
      "MJ",
      "Mike Jordan"
+    ],
+    [
+     "Wilt Chamberlain",
+     "Chamberlain",
+     "Wilt",
+     "Wilt the Stilt"
     ],
     [
      "LeBron James",
@@ -1538,6 +1551,12 @@
      "Thompson"
     ],
     [
+     "Shaquille O'Neal",
+     "O'Neal",
+     "Shaq",
+     "Shaquille"
+    ],
+    [
      "Joel Embiid",
      "Embiid"
     ],
@@ -1548,35 +1567,15 @@
      "Greek Freak"
     ],
     [
-     "Donovan Mitchell",
-     "Mitchell",
-     "Spida"
-    ],
-    [
-     "Shaquille O'Neal",
-     "O'Neal",
-     "Shaq",
-     "Shaquille"
-    ],
-    [
-     "Bam Adebayo",
-     "Adebayo",
-     "Bam"
-    ],
-    [
      "Karl-Anthony Towns",
      "Towns",
      "KAT",
      "Karl Anthony Towns"
     ],
     [
-     "Kyrie Irving",
-     "Irving",
-     "Kyrie"
-    ],
-    [
-     "Jayson Tatum",
-     "Tatum"
+     "Donovan Mitchell",
+     "Mitchell",
+     "Spida"
     ],
     [
      "Carmelo Anthony",
@@ -1590,44 +1589,23 @@
      "AI"
     ],
     [
+     "Kyrie Irving",
+     "Irving",
+     "Kyrie"
+    ],
+    [
+     "Jayson Tatum",
+     "Tatum"
+    ],
+    [
      "Nikola Jokić",
      "Jokić",
      "Joker"
     ],
     [
-     "Jalen Brunson",
-     "Brunson"
-    ],
-    "David Thompson",
-    [
-     "Elgin Baylor",
-     "Baylor"
-    ],
-    [
-     "David Robinson",
-     "Robinson"
-    ],
-    [
-     "Pete Maravich",
-     "Maravich",
-     "Pistol Pete"
-    ],
-    [
-     "Rick Barry",
-     "Barry"
-    ],
-    [
-     "Joe Fulks",
-     "Fulks"
-    ],
-    [
-     "Jerry West",
-     "West",
-     "The Logo"
-    ],
-    [
-     "George Gervin",
-     "Gervin"
+     "Bam Adebayo",
+     "Adebayo",
+     "Bam"
     ],
     [
      "Tracy McGrady",
@@ -1636,8 +1614,16 @@
      "TMac"
     ],
     [
-     "George Mikan",
-     "Mikan"
+     "Larry Bird",
+     "Bird"
+    ],
+    [
+     "Jalen Brunson",
+     "Brunson"
+    ],
+    [
+     "David Robinson",
+     "Robinson"
     ],
     [
      "Karl Malone",
@@ -1645,20 +1631,23 @@
      "The Mailman"
     ],
     [
-     "Bernard King",
-     "King"
+     "Elgin Baylor",
+     "Baylor"
     ],
     [
-     "Larry Bird",
-     "Bird"
+     "Jerry West",
+     "West",
+     "The Logo"
     ],
     [
-     "Tom Chambers",
-     "Chambers"
+     "Pete Maravich",
+     "Maravich",
+     "Pistol Pete"
     ],
     [
      "Gilbert Arenas",
-     "Arenas"
+     "Arenas",
+     "Agent Zero"
     ],
     [
      "Kemba Walker",
@@ -1671,6 +1660,32 @@
     [
      "De'Aaron Fox",
      "Fox"
+    ],
+    [
+     "George Gervin",
+     "Gervin",
+     "The Iceman"
+    ],
+    [
+     "Rick Barry",
+     "Barry"
+    ],
+    [
+     "Bernard King",
+     "King"
+    ],
+    "David Thompson",
+    [
+     "Tom Chambers",
+     "Chambers"
+    ],
+    [
+     "George Mikan",
+     "Mikan"
+    ],
+    [
+     "Joe Fulks",
+     "Fulks"
     ]
    ],
    "eraText": "Name a player who scored 60 or more points in an NBA regular-season game in the {era}",
@@ -1826,32 +1841,6 @@
      "Joker"
     ],
     [
-     "Luka Dončić",
-     "Luka Doncic",
-     "Luka",
-     "Doncic",
-     "Dončić"
-    ],
-    [
-     "James Harden",
-     "Harden"
-    ],
-    [
-     "Jason Kidd",
-     "Kidd",
-     "J Kidd"
-    ],
-    [
-     "Giannis Antetokounmpo",
-     "Antetokounmpo",
-     "Giannis",
-     "Greek Freak"
-    ],
-    [
-     "Larry Bird",
-     "Bird"
-    ],
-    [
      "Michael Jordan",
      "Jordan",
      "MJ",
@@ -1864,10 +1853,49 @@
      "Black Mamba"
     ],
     [
+     "Luka Dončić",
+     "Luka Doncic",
+     "Luka",
+     "Doncic",
+     "Dončić"
+    ],
+    [
+     "James Harden",
+     "Harden"
+    ],
+    [
+     "Larry Bird",
+     "Bird"
+    ],
+    [
+     "Giannis Antetokounmpo",
+     "Antetokounmpo",
+     "Giannis",
+     "Greek Freak"
+    ],
+    [
+     "Jason Kidd",
+     "Kidd",
+     "J Kidd"
+    ],
+    [
      "Oscar Robertson",
      "Robertson",
      "Big O",
      "The Big O"
+    ],
+    [
+     "Wilt Chamberlain",
+     "Chamberlain",
+     "Wilt",
+     "Wilt the Stilt"
+    ],
+    [
+     "Kareem Abdul-Jabbar",
+     "Abdul-Jabbar",
+     "Kareem",
+     "Lew Alcindor",
+     "Alcindor"
     ],
     [
      "Draymond Green",
@@ -1887,18 +1915,12 @@
      "Giddey"
     ],
     [
-     "Kyle Lowry",
-     "Lowry"
-    ],
-    [
      "Rajon Rondo",
      "Rondo"
     ],
     [
-     "Wilt Chamberlain",
-     "Chamberlain",
-     "Wilt",
-     "Wilt the Stilt"
+     "Kyle Lowry",
+     "Lowry"
     ],
     [
      "Clyde Drexler",
@@ -1909,35 +1931,30 @@
      "Hill"
     ],
     [
-     "Kareem Abdul-Jabbar",
-     "Abdul-Jabbar",
-     "Kareem",
-     "Lew Alcindor",
-     "Alcindor"
-    ],
-    [
      "Chris Webber",
      "Webber"
-    ],
-    [
-     "Fat Lever",
-     "Lever"
-    ],
-    [
-     "Walt Frazier",
-     "Frazier"
-    ],
-    [
-     "Elgin Baylor",
-     "Baylor"
     ],
     [
      "John Havlicek",
      "Havlicek"
     ],
     [
+     "Elgin Baylor",
+     "Baylor"
+    ],
+    [
+     "Walt Frazier",
+     "Frazier",
+     "Clyde Frazier"
+    ],
+    [
      "Bob Cousy",
      "Cousy"
+    ],
+    [
+     "Fat Lever",
+     "Lever",
+     "Lafayette Lever"
     ],
     [
      "Micheal Ray Richardson",
@@ -2139,10 +2156,10 @@
      "Akeem Olajuwon",
      "The Dream"
     ],
-    "David Robinson",
     [
-     "Cooper Flagg",
-     "Flagg"
+     "Yao Ming",
+     "Ming",
+     "Yao"
     ],
     [
      "Anthony Davis",
@@ -2163,15 +2180,12 @@
      "Howard"
     ],
     [
-     "Yao Ming",
-     "Ming",
-     "Yao"
+     "Cooper Flagg",
+     "Flagg"
     ],
     [
-     "Karl-Anthony Towns",
-     "Towns",
-     "KAT",
-     "Karl Anthony Towns"
+     "David Robinson",
+     "The Admiral"
     ],
     [
      "Anthony Edwards",
@@ -2180,28 +2194,46 @@
      "Ant-Man"
     ],
     [
-     "Paolo Banchero",
-     "Banchero"
+     "Karl-Anthony Towns",
+     "Towns",
+     "KAT",
+     "Karl Anthony Towns"
     ],
     [
      "Blake Griffin",
      "Griffin"
     ],
     [
+     "Ben Simmons",
+     "Simmons"
+    ],
+    [
      "John Wall",
      "Wall"
+    ],
+    [
+     "Andrew Wiggins",
+     "Wiggins"
+    ],
+    [
+     "Paolo Banchero",
+     "Banchero"
     ],
     [
      "Cade Cunningham",
      "Cunningham"
     ],
     [
-     "Ben Simmons",
-     "Simmons"
+     "Greg Oden",
+     "Oden"
     ],
     [
-     "Andrew Wiggins",
-     "Wiggins"
+     "Chris Webber",
+     "Webber"
+    ],
+    [
+     "Bill Walton",
+     "Walton"
     ],
     [
      "Oscar Robertson",
@@ -2214,45 +2246,25 @@
      "Baylor"
     ],
     [
-     "Bill Walton",
-     "Walton"
-    ],
-    [
-     "Chris Webber",
-     "Webber"
-    ],
-    "Larry Johnson",
-    [
      "James Worthy",
-     "Worthy"
-    ],
-    [
-     "Elvin Hayes",
-     "Hayes"
-    ],
-    [
-     "Bob Lanier",
-     "Lanier"
+     "Worthy",
+     "Big Game James"
     ],
     [
      "Kwame Brown",
      "Brown"
     ],
     [
-     "Greg Oden",
-     "Oden"
-    ],
-    [
      "Markelle Fultz",
      "Fultz"
     ],
     [
-     "Deandre Ayton",
-     "Ayton"
-    ],
-    [
      "Anthony Bennett",
      "Bennett"
+    ],
+    [
+     "Deandre Ayton",
+     "Ayton"
     ],
     [
      "Zaccharie Risacher",
@@ -2274,27 +2286,38 @@
      "Andrew Bogut",
      "Bogut"
     ],
-    "Kenyon Martin",
+    [
+     "Larry Johnson",
+     "Grandmama"
+    ],
+    [
+     "Elvin Hayes",
+     "Hayes"
+    ],
+    [
+     "Ralph Sampson",
+     "Sampson"
+    ],
     [
      "Elton Brand",
      "Brand"
     ],
+    "Kenyon Martin",
     [
      "Michael Olowokandi",
      "Olowokandi"
     ],
     [
+     "Glenn Robinson",
+     "Big Dog"
+    ],
+    [
      "Joe Smith",
      "Smith"
     ],
-    "Glenn Robinson",
     [
      "Derrick Coleman",
      "Coleman"
-    ],
-    [
-     "Pervis Ellison",
-     "Ellison"
     ],
     [
      "Danny Manning",
@@ -2305,43 +2328,51 @@
      "Daugherty"
     ],
     [
-     "Ralph Sampson",
-     "Sampson"
-    ],
-    [
      "Mark Aguirre",
      "Aguirre"
+    ],
+    [
+     "Bob Lanier",
+     "Lanier"
     ],
     [
      "Joe Barry Carroll",
      "Carroll"
     ],
-    "Mychal Thompson",
-    [
-     "Kent Benson",
-     "Benson"
-    ],
-    [
-     "John Lucas",
-     "Lucas"
-    ],
-    "David Thompson",
     [
      "Doug Collins",
      "Collins"
     ],
-    "LaRue Martin",
+    "David Thompson",
+    "Mychal Thompson",
+    [
+     "Pervis Ellison",
+     "Ellison"
+    ],
     [
      "Austin Carr",
      "Carr"
     ],
     [
-     "Jimmy Walker",
-     "Walker"
+     "Walt Bellamy",
+     "Bellamy"
     ],
     [
      "Cazzie Russell",
      "Russell"
+    ],
+    [
+     "John Lucas",
+     "Lucas"
+    ],
+    [
+     "Kent Benson",
+     "Benson"
+    ],
+    "LaRue Martin",
+    [
+     "Jimmy Walker",
+     "Walker"
     ],
     [
      "Fred Hetzel",
@@ -2358,10 +2389,6 @@
     [
      "Bill McGill",
      "McGill"
-    ],
-    [
-     "Walt Bellamy",
-     "Bellamy"
     ],
     [
      "Bob Boozer",
@@ -2646,12 +2673,13 @@
      "KG"
     ],
     [
-     "Dwight Howard",
-     "Howard"
+     "Tracy McGrady",
+     "McGrady",
+     "T-Mac"
     ],
     [
-     "Tracy McGrady",
-     "McGrady"
+     "Dwight Howard",
+     "Howard"
     ],
     [
      "Amar'e Stoudemire",
@@ -2694,12 +2722,23 @@
      "Jefferson"
     ],
     [
+     "Lou Williams",
+     "Williams",
+     "Louis Williams",
+     "Sweet Lou"
+    ],
+    [
      "Shaun Livingston",
      "Livingston"
     ],
     [
      "Kendrick Perkins",
      "Perkins"
+    ],
+    [
+     "Darryl Dawkins",
+     "Dawkins",
+     "Chocolate Thunder"
     ],
     "Darius Miles",
     [
@@ -2711,14 +2750,12 @@
      "Harrington"
     ],
     [
-     "Lou Williams",
-     "Williams",
-     "Louis Williams",
-     "Sweet Lou"
-    ],
-    [
      "Gerald Green",
      "Green"
+    ],
+    [
+     "Sebastian Telfair",
+     "Telfair"
     ],
     [
      "Amir Johnson",
@@ -2729,38 +2766,31 @@
      "Blatche"
     ],
     [
-     "Sebastian Telfair",
-     "Telfair"
+     "Martell Webster",
+     "Webster"
     ],
     [
-     "Darryl Dawkins",
-     "Dawkins"
-    ],
-    [
-     "Bill Willoughby",
-     "Willoughby"
+     "CJ Miles",
+     "C.J. Miles"
     ],
     [
      "DeShawn Stevenson",
      "Stevenson"
     ],
     [
-     "Jonathan Bender",
-     "Bender"
-    ],
-    [
      "Travis Outlaw",
      "Outlaw"
     ],
-    "CJ Miles",
     [
-     "Martell Webster",
-     "Webster"
+     "Jonathan Bender",
+     "Bender"
     ],
     [
      "Dorell Wright",
      "Wright"
     ],
+    "Thon Maker",
+    "Anfernee Simons",
     [
      "Robert Swift",
      "Swift"
@@ -2770,17 +2800,26 @@
      "Diop"
     ],
     [
-     "Ricky Sánchez",
-     "Sánchez"
-    ],
-    [
      "Korleone Young",
      "Young"
+    ],
+    [
+     "Satnam Singh",
+     "Satnam Singh Bhamara",
+     "Singh"
     ],
     "Leon Smith",
     [
      "Ndudi Ebi",
      "Ebi"
+    ],
+    [
+     "Bill Willoughby",
+     "Willoughby"
+    ],
+    [
+     "Ricky Sánchez",
+     "Sánchez"
     ],
     [
      "Ousmane Cisse",
@@ -2790,8 +2829,10 @@
      "James Lang",
      "Lang"
     ],
-    "Thon Maker",
-    "Anfernee Simons"
+    [
+     "Reggie Harding",
+     "Harding"
+    ]
    ]
   },
   {
@@ -2809,15 +2850,21 @@
     ],
     [
      "Tony Parker",
-     "Parker"
+     "Parker",
+     "TP"
     ],
     [
      "Rudy Gobert",
-     "Gobert"
+     "Gobert",
+     "Stifle Tower"
     ],
     [
      "Nicolas Batum",
      "Batum"
+    ],
+    [
+     "Joakim Noah",
+     "Noah"
     ],
     [
      "Boris Diaw",
@@ -2828,33 +2875,128 @@
      "Fournier"
     ],
     [
-     "Joakim Noah",
-     "Noah"
-    ],
-    [
      "Frank Ntilikina",
      "Ntilikina"
     ],
     [
-     "Ian Mahinmi",
-     "Mahinmi"
+     "Zaccharie Risacher",
+     "Risacher"
+    ],
+    [
+     "Alex Sarr",
+     "Alexandre Sarr"
     ],
     [
      "Bilal Coulibaly",
      "Coulibaly"
     ],
     [
-     "Zaccharie Risacher",
-     "Risacher"
+     "Ian Mahinmi",
+     "Mahinmi"
     ],
-    "Alex Sarr",
     [
-     "Adama Bal",
-     "Bal"
+     "Killian Hayes",
+     "Hayes"
     ],
+    [
+     "Guerschon Yabusele",
+     "Yabusele"
+    ],
+    [
+     "Ronny Turiaf",
+     "Turiaf"
+    ],
+    [
+     "Mickaël Piétrus",
+     "Piétrus"
+    ],
+    [
+     "Nando De Colo",
+     "Colo",
+     "De Colo"
+    ],
+    [
+     "Kevin Séraphin",
+     "Séraphin"
+    ],
+    [
+     "Rodrigue Beaubois",
+     "Beaubois"
+    ],
+    [
+     "Johan Petro",
+     "Petro"
+    ],
+    [
+     "Alexis Ajinça",
+     "Ajinça"
+    ],
+    [
+     "Mickaël Gelabale",
+     "Gelabale"
+    ],
+    [
+     "Timothé Luwawu-Cabarrot",
+     "Luwawu-Cabarrot",
+     "TLC"
+    ],
+    [
+     "Ousmane Dieng",
+     "Dieng"
+    ],
+    [
+     "Tidjane Salaün",
+     "Salaün"
+    ],
+    [
+     "Théo Maledon",
+     "Maledon"
+    ],
+    [
+     "Sekou Doumbouya",
+     "Doumbouya"
+    ],
+    [
+     "Élie Okobo",
+     "Okobo"
+    ],
+    [
+     "Joffrey Lauvergne",
+     "Lauvergne"
+    ],
+    [
+     "Tariq Abdul-Wahad",
+     "Abdul-Wahad"
+    ],
+    [
+     "Jérôme Moïso",
+     "Moïso"
+    ],
+    "Yakhouba Diawara",
+    [
+     "Noa Essengue",
+     "Essengue"
+    ],
+    "Nolan Traoré",
     [
      "Joan Beringer",
      "Beringer"
+    ],
+    [
+     "Maxime Raynaud",
+     "Raynaud"
+    ],
+    [
+     "Noah Penda",
+     "Penda"
+    ],
+    [
+     "Moussa Diabaté",
+     "Diabaté"
+    ],
+    [
+     "Rayan Rupert",
+     "Rupert"
     ],
     [
      "Sidy Cissoko",
@@ -2865,49 +3007,40 @@
      "Dadiet"
     ],
     [
-     "Moussa Diabaté",
-     "Diabaté"
+     "Adama Bal",
+     "Bal"
     ],
     "Mohamed Diawara",
+    "Olivier Sarr",
     [
-     "Ousmane Dieng",
-     "Dieng"
+     "Killian Tillie",
+     "Tillie"
     ],
     [
-     "Noa Essengue",
-     "Essengue"
+     "Vincent Poirier",
+     "Poirier"
     ],
     [
-     "Noah Penda",
-     "Penda"
+     "Jaylen Hoard",
+     "Hoard"
     ],
     [
-     "Maxime Raynaud",
-     "Raynaud"
+     "Adam Mokoka",
+     "Mokoka"
     ],
     [
-     "Rayan Rupert",
-     "Rupert"
+     "Axel Toupane",
+     "Toupane"
     ],
     [
-     "Tidjane Salaün",
-     "Salaün"
-    ],
-    "Nolan Traoré",
-    [
-     "Guerschon Yabusele",
-     "Yabusele"
+     "Damien Inglis",
+     "Inglis"
     ],
     "Armel Traoré",
     [
      "Malcolm Cazalon",
      "Cazalon"
     ],
-    [
-     "Théo Maledon",
-     "Maledon"
-    ],
-    "Olivier Sarr",
     [
      "Joël Ayayi",
      "Ayayi"
@@ -2917,109 +3050,24 @@
      "Cornelie"
     ],
     [
-     "Sekou Doumbouya",
-     "Doumbouya"
-    ],
-    [
-     "Jaylen Hoard",
-     "Hoard"
-    ],
-    [
-     "Timothé Luwawu-Cabarrot",
-     "Luwawu-Cabarrot"
-    ],
-    [
      "Yves Pons",
      "Pons"
-    ],
-    [
-     "Killian Tillie",
-     "Tillie"
-    ],
-    [
-     "Adam Mokoka",
-     "Mokoka"
-    ],
-    [
-     "Vincent Poirier",
-     "Poirier"
-    ],
-    [
-     "Axel Toupane",
-     "Toupane"
     ],
     [
      "William Howard",
      "Howard"
     ],
     [
-     "Élie Okobo",
-     "Okobo"
-    ],
-    [
-     "Alexis Ajinça",
-     "Ajinça"
-    ],
-    [
-     "Joffrey Lauvergne",
-     "Lauvergne"
-    ],
-    [
-     "Kevin Séraphin",
-     "Séraphin"
-    ],
-    [
-     "Damien Inglis",
-     "Inglis"
-    ],
-    [
-     "Ronny Turiaf",
-     "Turiaf"
-    ],
-    [
-     "Nando De Colo",
-     "Colo"
-    ],
-    [
-     "Rodrigue Beaubois",
-     "Beaubois"
-    ],
-    [
-     "Mickaël Gelabale",
-     "Gelabale"
-    ],
-    [
-     "Johan Petro",
-     "Petro"
-    ],
-    [
-     "Mickaël Piétrus",
-     "Piétrus"
+     "Antoine Rigaudeau",
+     "Rigaudeau"
     ],
     [
      "Pape Sy",
      "Sy"
     ],
-    "Yakhouba Diawara",
-    [
-     "Jérôme Moïso",
-     "Moïso"
-    ],
-    [
-     "Tariq Abdul-Wahad",
-     "Abdul-Wahad"
-    ],
-    [
-     "Antoine Rigaudeau",
-     "Rigaudeau"
-    ],
     [
      "Howard Carter",
      "Carter"
-    ],
-    [
-     "Killian Hayes",
-     "Hayes"
     ]
    ],
    "eraText": "Name a French player who played in the NBA in the {era}",
@@ -3240,27 +3288,26 @@
     ],
     [
      "Shai Gilgeous-Alexander",
-     "Gilgeous-Alexander"
-    ],
-    [
-     "Andrew Wiggins",
-     "Wiggins"
+     "Gilgeous-Alexander",
+     "SGA",
+     "Shai"
     ],
     [
      "Jamal Murray",
      "Murray"
     ],
     [
+     "Andrew Wiggins",
+     "Wiggins"
+    ],
+    [
      "RJ Barrett",
-     "Barrett"
+     "Barrett",
+     "R.J. Barrett"
     ],
     [
      "Tristan Thompson",
      "Thompson"
-    ],
-    [
-     "Anthony Bennett",
-     "Bennett"
     ],
     [
      "Dillon Brooks",
@@ -3268,21 +3315,47 @@
     ],
     [
      "Luguentz Dort",
-     "Dort"
+     "Dort",
+     "Lu Dort"
     ],
     [
      "Kelly Olynyk",
      "Olynyk"
     ],
+    [
+     "Rick Fox",
+     "Fox"
+    ],
+    [
+     "Anthony Bennett",
+     "Bennett"
+    ],
+    [
+     "Bennedict Mathurin",
+     "Mathurin"
+    ],
+    [
+     "Zach Edey",
+     "Edey"
+    ],
     "Cory Joseph",
     "Andrew Nembhard",
     [
      "Nickeil Alexander-Walker",
-     "Alexander-Walker"
+     "Alexander-Walker",
+     "NAW"
     ],
     [
-     "Dalano Banton",
-     "Banton"
+     "Shaedon Sharpe",
+     "Sharpe"
+    ],
+    [
+     "Trey Lyles",
+     "Lyles"
+    ],
+    [
+     "Dwight Powell",
+     "Powell"
     ],
     [
      "Chris Boucher",
@@ -3293,91 +3366,136 @@
      "Clarke"
     ],
     [
-     "Zach Edey",
-     "Edey"
+     "Samuel Dalembert",
+     "Dalembert"
     ],
     [
-     "Kyshawn George",
-     "George"
+     "Jamaal Magloire",
+     "Magloire"
     ],
     [
-     "Caleb Houstan",
-     "Houstan"
+     "Nik Stauskas",
+     "Stauskas"
     ],
     [
-     "AJ Lawson",
-     "Lawson"
+     "Bill Wennington",
+     "Wennington"
     ],
     [
-     "Bennedict Mathurin",
-     "Mathurin"
-    ],
-    "Emanuel Miller",
-    "Leonard Miller",
-    "Ryan Nembhard",
-    [
-     "Dwight Powell",
-     "Powell"
+     "Joel Anthony",
+     "Anthony"
     ],
     [
-     "Olivier-Maxence Prosper",
-     "Prosper"
-    ],
-    [
-     "Will Riley",
-     "Riley"
-    ],
-    [
-     "Jackson Rowe",
-     "Rowe"
-    ],
-    [
-     "Shaedon Sharpe",
-     "Sharpe"
-    ],
-    [
-     "Jahmyl Telfort",
-     "Telfort"
-    ],
-    [
-     "Oshae Brissett",
-     "Brissett"
-    ],
-    [
-     "Trey Lyles",
-     "Lyles"
-    ],
-    [
-     "Eugene Omoruyi",
-     "Omoruyi"
-    ],
-    [
-     "Joshua Primo",
-     "Primo"
-    ],
-    [
-     "Lindell Wigginton",
-     "Wigginton"
+     "Tyler Ennis",
+     "Ennis"
     ],
     [
      "Khem Birch",
      "Birch"
     ],
     [
+     "Oshae Brissett",
+     "Brissett"
+    ],
+    [
+     "Kyshawn George",
+     "George"
+    ],
+    [
+     "Dalano Banton",
+     "Banton"
+    ],
+    "Ryan Nembhard",
+    [
+     "Will Riley",
+     "Riley"
+    ],
+    [
+     "Olivier-Maxence Prosper",
+     "Prosper",
+     "OMP"
+    ],
+    "Leonard Miller",
+    [
+     "Caleb Houstan",
+     "Houstan"
+    ],
+    [
+     "Joshua Primo",
+     "Primo"
+    ],
+    [
+     "Andrew Nicholson",
+     "Nicholson"
+    ],
+    [
+     "Robert Sacre",
+     "Sacre"
+    ],
+    [
+     "Todd MacCulloch",
+     "MacCulloch"
+    ],
+    "Kris Joseph",
+    [
+     "Sim Bhullar",
+     "Bhullar"
+    ],
+    [
+     "Kyle Wiltjer",
+     "Wiltjer"
+    ],
+    "Andy Rautins",
+    "Leo Rautins",
+    [
+     "Mychal Mulder",
+     "Mulder"
+    ],
+    [
+     "Lindell Wigginton",
+     "Wigginton"
+    ],
+    [
      "Mfiondu Kabengele",
      "Kabengele"
     ],
     [
-     "Mychal Mulder",
-     "Mulder"
+     "Eugene Omoruyi",
+     "Omoruyi"
     ],
     [
      "Kevin Pangos",
      "Pangos"
     ],
     [
-     "Nik Stauskas",
-     "Stauskas"
+     "AJ Lawson",
+     "Lawson",
+     "A.J. Lawson"
+    ],
+    "Emanuel Miller",
+    [
+     "Jackson Rowe",
+     "Rowe"
+    ],
+    [
+     "Jahmyl Telfort",
+     "Telfort"
+    ],
+    [
+     "Emanuel Sharp",
+     "Sharp"
+    ],
+    [
+     "Naz Mitrou-Long",
+     "Mitrou-Long"
+    ],
+    [
+     "Ignas Brazdeikis",
+     "Brazdeikis"
+    ],
+    [
+     "Marial Shayok",
+     "Shayok"
     ],
     [
      "Nate Darling",
@@ -3392,45 +3510,8 @@
      "Alexander"
     ],
     [
-     "Tyler Ennis",
-     "Ennis"
-    ],
-    [
      "Xavier Rathan-Mayes",
      "Rathan-Mayes"
-    ],
-    [
-     "Joel Anthony",
-     "Anthony"
-    ],
-    [
-     "Andrew Nicholson",
-     "Nicholson"
-    ],
-    [
-     "Sim Bhullar",
-     "Bhullar"
-    ],
-    [
-     "Samuel Dalembert",
-     "Dalembert"
-    ],
-    "Kris Joseph",
-    [
-     "Jamaal Magloire",
-     "Magloire"
-    ],
-    [
-     "Rick Fox",
-     "Fox"
-    ],
-    [
-     "Todd MacCulloch",
-     "MacCulloch"
-    ],
-    [
-     "Bill Wennington",
-     "Wennington"
     ],
     [
      "Mike Smrek",
@@ -3443,10 +3524,6 @@
     [
      "Ron Crevier",
      "Crevier"
-    ],
-    [
-     "Leo Rautins",
-     "Rautins"
     ],
     [
      "Jim Zoet",
@@ -3686,6 +3763,29 @@
     ],
     "Lars Hansen": [
      "70s"
+    ],
+    "Robert Sacre": [
+     "10s"
+    ],
+    "Kyle Wiltjer": [
+     "10s"
+    ],
+    "Andy Rautins": [
+     "10s"
+    ],
+    "Emanuel Sharp": [
+     "20s"
+    ],
+    "Naz Mitrou-Long": [
+     "10s"
+    ],
+    "Ignas Brazdeikis": [
+     "10s",
+     "20s"
+    ],
+    "Marial Shayok": [
+     "10s",
+     "20s"
     ]
    }
   },
@@ -3703,7 +3803,8 @@
     ],
     [
      "Patty Mills",
-     "Mills"
+     "Mills",
+     "Patrick Mills"
     ],
     [
      "Andrew Bogut",
@@ -3711,15 +3812,22 @@
     ],
     [
      "Joe Ingles",
-     "Ingles"
+     "Ingles",
+     "Jingles"
     ],
     [
      "Josh Giddey",
      "Giddey"
     ],
     [
+     "Kyrie Irving",
+     "Irving",
+     "Kyrie"
+    ],
+    [
      "Matthew Dellavedova",
-     "Dellavedova"
+     "Dellavedova",
+     "Delly"
     ],
     [
      "Luc Longley",
@@ -3734,8 +3842,8 @@
      "Daniels"
     ],
     [
-     "Johnny Furphy",
-     "Furphy"
+     "Aron Baynes",
+     "Baynes"
     ],
     [
      "Josh Green",
@@ -3746,8 +3854,16 @@
      "Landale"
     ],
     [
-     "Lachlan Olbrich",
-     "Olbrich"
+     "Thon Maker",
+     "Maker"
+    ],
+    [
+     "Andrew Gaze",
+     "Gaze"
+    ],
+    [
+     "Johnny Furphy",
+     "Furphy"
     ],
     [
      "Tyrese Proctor",
@@ -3758,44 +3874,28 @@
      "Reath"
     ],
     [
-     "Luke Travers",
-     "Travers"
-    ],
-    [
-     "Rocco Zikarsky",
-     "Zikarsky"
-    ],
-    [
-     "Alex Ducas",
-     "Ducas"
-    ],
-    [
-     "Jack McVeigh",
-     "McVeigh"
-    ],
-    [
-     "Jack White",
-     "White"
-    ],
-    [
-     "Xavier Cooks",
-     "Cooks"
-    ],
-    [
-     "Aron Baynes",
-     "Baynes"
-    ],
-    [
-     "Will Magnay",
-     "Magnay"
-    ],
-    [
      "Jonah Bolden",
      "Bolden"
     ],
     [
      "Ryan Broekhoff",
      "Broekhoff"
+    ],
+    [
+     "Chris Anstey",
+     "Anstey"
+    ],
+    [
+     "Shane Heal",
+     "Heal"
+    ],
+    [
+     "David Andersen",
+     "Andersen"
+    ],
+    [
+     "Nathan Jawai",
+     "Jawai"
     ],
     [
      "Mitch Creek",
@@ -3810,28 +3910,44 @@
      "Bairstow"
     ],
     [
-     "David Andersen",
-     "Andersen"
+     "Xavier Cooks",
+     "Cooks"
     ],
     [
-     "Nathan Jawai",
-     "Jawai"
+     "Jack White",
+     "White"
+    ],
+    [
+     "Lachlan Olbrich",
+     "Olbrich"
+    ],
+    [
+     "Rocco Zikarsky",
+     "Zikarsky"
+    ],
+    [
+     "Luke Travers",
+     "Travers"
+    ],
+    [
+     "Alex Ducas",
+     "Ducas"
+    ],
+    [
+     "Jack McVeigh",
+     "McVeigh"
+    ],
+    [
+     "Will Magnay",
+     "Magnay"
+    ],
+    [
+     "Deng Adel",
+     "Adel"
     ],
     [
      "Luke Schenscher",
      "Schenscher"
-    ],
-    [
-     "Shane Heal",
-     "Heal"
-    ],
-    [
-     "Chris Anstey",
-     "Anstey"
-    ],
-    [
-     "Andrew Gaze",
-     "Gaze"
     ],
     [
      "Mark Bradtke",
@@ -3955,6 +4071,17 @@
     ],
     "Mark Bradtke": [
      "90s"
+    ],
+    "Kyrie Irving": [
+     "10s",
+     "20s"
+    ],
+    "Thon Maker": [
+     "10s",
+     "20s"
+    ],
+    "Deng Adel": [
+     "10s"
     ]
    }
   },
@@ -3977,15 +4104,24 @@
     ],
     [
      "Peja Stojaković",
-     "Stojaković"
+     "Stojaković",
+     "Peja",
+     "Predrag Stojaković"
     ],
     [
      "Boban Marjanović",
-     "Marjanović"
+     "Marjanović",
+     "Boban"
+    ],
+    [
+     "Bogdan Bogdanović",
+     "Bogdanović",
+     "Bogi"
     ],
     [
      "Darko Miličić",
-     "Miličić"
+     "Miličić",
+     "Darko"
     ],
     [
      "Nikola Jović",
@@ -4000,32 +4136,21 @@
      "Bjelica"
     ],
     [
-     "Bogdan Bogdanović",
-     "Bogdanović"
+     "Vladimir Radmanović",
+     "Radmanović"
     ],
     [
-     "Radisav Ćurčić",
-     "Ćurčić"
+     "Aleksej Pokuševski",
+     "Pokuševski",
+     "Poku"
     ],
     [
-     "Rastko Cvetković",
-     "Cvetković"
+     "Vasilije Micić",
+     "Micić"
     ],
     [
-     "Sasha Danilović",
-     "Danilović"
-    ],
-    [
-     "Aleksandar Djordjevic",
-     "Djordjevic"
-    ],
-    [
-     "Marko Gudurić",
-     "Gudurić"
-    ],
-    [
-     "Mile Ilić",
-     "Ilić"
+     "Nikola Topić",
+     "Topić"
     ],
     [
      "Marko Jarić",
@@ -4036,12 +4161,41 @@
      "Krstić"
     ],
     [
-     "Ognjen Kuzmić",
-     "Kuzmić"
+     "Sasha Pavlović",
+     "Pavlović"
     ],
     [
-     "Vasilije Micić",
-     "Micić"
+     "Sasha Danilović",
+     "Danilović",
+     "Predrag Danilović"
+    ],
+    [
+     "Željko Rebrača",
+     "Rebrača"
+    ],
+    [
+     "Tristan Vukčević",
+     "Vukčević"
+    ],
+    [
+     "Filip Petrušev",
+     "Petrušev"
+    ],
+    [
+     "Alen Smailagić",
+     "Smailagić"
+    ],
+    [
+     "Marko Gudurić",
+     "Gudurić"
+    ],
+    [
+     "Miroslav Raduljica",
+     "Raduljica"
+    ],
+    [
+     "Ognjen Kuzmić",
+     "Kuzmić"
     ],
     [
      "Nemanja Nedović",
@@ -4052,52 +4206,33 @@
      "Paspalj"
     ],
     [
-     "Sasha Pavlović",
-     "Pavlović"
-    ],
-    [
-     "Kosta Perović",
-     "Perović"
-    ],
-    [
-     "Filip Petrušev",
-     "Petrušev"
-    ],
-    [
-     "Aleksej Pokuševski",
-     "Pokuševski"
-    ],
-    [
-     "Vladimir Radmanović",
-     "Radmanović"
-    ],
-    [
-     "Miroslav Raduljica",
-     "Raduljica"
+     "Aleksandar Djordjevic",
+     "Djordjevic",
+     "Aleksandar Đorđević"
     ],
     [
      "Igor Rakočević",
      "Rakočević"
     ],
     [
-     "Željko Rebrača",
-     "Rebrača"
+     "Kosta Perović",
+     "Perović"
     ],
     [
-     "Alen Smailagić",
-     "Smailagić"
+     "Mile Ilić",
+     "Ilić"
     ],
     [
      "Dragan Tarlać",
      "Tarlać"
     ],
     [
-     "Nikola Topić",
-     "Topić"
+     "Radisav Ćurčić",
+     "Ćurčić"
     ],
     [
-     "Tristan Vukčević",
-     "Vukčević"
+     "Rastko Cvetković",
+     "Cvetković"
     ],
     [
      "Miloš Babić",
@@ -4241,66 +4376,62 @@
      "Rubio"
     ],
     [
-     "José Calderón",
-     "Calderón"
-    ],
-    [
      "Serge Ibaka",
      "Ibaka"
     ],
     [
-     "Santi Aldama",
-     "Aldama"
+     "José Calderón",
+     "Calderón"
     ],
-    "Willy Hernangómez",
-    "Juancho Hernangómez",
     [
      "Rudy Fernández",
      "Fernández"
+    ],
+    [
+     "Juancho Hernangómez",
+     "Juancho"
+    ],
+    [
+     "Willy Hernangómez",
+     "Willy"
+    ],
+    [
+     "Santi Aldama",
+     "Aldama"
     ],
     [
      "Nikola Mirotić",
      "Mirotić"
     ],
     [
-     "Hugo González",
-     "González"
-    ],
-    [
-     "Sergio de Larrea",
-     "Larrea"
-    ],
-    [
-     "Aday Mara",
-     "Mara"
-    ],
-    [
-     "Baba Miller",
-     "Miller"
-    ],
-    [
-     "Usman Garuba",
-     "Garuba"
-    ],
-    [
-     "Álex Abrines",
-     "Abrines"
-    ],
-    [
      "Sergio Rodríguez",
-     "Rodríguez"
+     "Rodríguez",
+     "Chacho"
     ],
     [
-     "Victor Claver",
-     "Claver"
+     "Juan Carlos Navarro",
+     "Navarro",
+     "La Bomba"
     ],
     [
      "Jorge Garbajosa",
      "Garbajosa"
     ],
     [
-     "Juan Carlos Navarro",
-     "Navarro"
+     "Álex Abrines",
+     "Abrines"
+    ],
+    [
+     "Hugo González",
+     "González"
+    ],
+    [
+     "Usman Garuba",
+     "Garuba"
+    ],
+    [
+     "Victor Claver",
+     "Claver"
     ],
     [
      "Raül López",
@@ -4309,6 +4440,22 @@
     [
      "Fernando Martín",
      "Martín"
+    ],
+    [
+     "Aday Mara",
+     "Mara"
+    ],
+    [
+     "Sergio de Larrea",
+     "Larrea"
+    ],
+    [
+     "Baba Miller",
+     "Miller"
+    ],
+    [
+     "Lorenzo Brown",
+     "Brown"
     ]
    ],
    "eraText": "Name a Spanish player who played in the NBA in the {era}",
@@ -4389,6 +4536,9 @@
     ],
     "Fernando Martín": [
      "80s"
+    ],
+    "Lorenzo Brown": [
+     "10s"
     ]
    }
   },
@@ -4410,10 +4560,17 @@
      "Schröder"
     ],
     "Franz Wagner",
-    "Moritz Wagner",
+    [
+     "Moritz Wagner",
+     "Moe Wagner"
+    ],
     [
      "Detlef Schrempf",
      "Schrempf"
+    ],
+    [
+     "Isaiah Hartenstein",
+     "Hartenstein"
     ],
     [
      "Maxi Kleber",
@@ -4424,17 +4581,20 @@
      "Theis"
     ],
     [
-     "Isaac Bonga",
-     "Bonga"
+     "Chris Kaman",
+     "Kaman"
     ],
     [
-     "Christian Anderson Jr.",
-     "Christian Anderson",
-     "Anderson"
+     "Shawn Bradley",
+     "Bradley"
     ],
     [
      "Tristan da Silva",
      "Silva"
+    ],
+    [
+     "Isaac Bonga",
+     "Bonga"
     ],
     [
      "Ariel Hukporti",
@@ -4449,6 +4609,15 @@
      "Pleiß"
     ],
     [
+     "Uwe Blab",
+     "Blab"
+    ],
+    [
+     "Chris Welp",
+     "Welp",
+     "Christian Welp"
+    ],
+    [
      "Elias Harris",
      "Harris"
     ],
@@ -4457,16 +4626,13 @@
      "Ohlbrecht"
     ],
     [
-     "Shawn Bradley",
-     "Bradley"
+     "Christian Anderson Jr.",
+     "Christian Anderson",
+     "Anderson"
     ],
     [
-     "Uwe Blab",
-     "Blab"
-    ],
-    [
-     "Chris Welp",
-     "Welp"
+     "Hannes Steinbach",
+     "Steinbach"
     ],
     [
      "Charlie Hoefer",
@@ -4475,14 +4641,6 @@
     [
      "Frido Frey",
      "Frey"
-    ],
-    [
-     "Hannes Steinbach",
-     "Steinbach"
-    ],
-    [
-     "Isaiah Hartenstein",
-     "Hartenstein"
     ]
    ],
    "eraText": "Name a German player who played in the NBA in the {era}",
@@ -4557,6 +4715,10 @@
     "Isaiah Hartenstein": [
      "10s",
      "20s"
+    ],
+    "Chris Kaman": [
+     "00s",
+     "10s"
     ]
    }
   },
@@ -4576,18 +4738,40 @@
     ],
     "Thanasis Antetokounmpo",
     "Kostas Antetokounmpo",
+    "Alex Antetokounmpo",
     [
-     "Kostas Papanikolaou",
-     "Papanikolaou"
+     "Kosta Koufos",
+     "Koufos"
+    ],
+    [
+     "Nick Calathes",
+     "Calathes"
+    ],
+    [
+     "Vassilis Spanoulis",
+     "Spanoulis",
+     "Vasilis Spanoulis"
+    ],
+    [
+     "Tyler Dorsey",
+     "Dorsey"
     ],
     [
      "Georgios Papagiannis",
      "Papagiannis"
     ],
-    "Alex Antetokounmpo",
+    [
+     "Kostas Papanikolaou",
+     "Papanikolaou"
+    ],
     [
      "Jake Tsakalidis",
-     "Tsakalidis"
+     "Tsakalidis",
+     "Iakovos Tsakalidis"
+    ],
+    [
+     "Antonis Fotsis",
+     "Fotsis"
     ],
     [
      "Georgios Kalaitzakis",
@@ -4602,28 +4786,8 @@
      "Glyniadakis"
     ],
     [
-     "Vassilis Spanoulis",
-     "Spanoulis"
-    ],
-    [
      "Efthimios Rentzias",
      "Rentzias"
-    ],
-    [
-     "Antonis Fotsis",
-     "Fotsis"
-    ],
-    [
-     "Kosta Koufos",
-     "Koufos"
-    ],
-    [
-     "Nick Calathes",
-     "Calathes"
-    ],
-    [
-     "Tyler Dorsey",
-     "Dorsey"
     ]
    ],
    "eraText": "Name a Greek player who played in the NBA in the {era}",
@@ -4692,6 +4856,13 @@
    "text": "Name a Nigerian player who has played in the NBA",
    "answers": [
     [
+     "Hakeem Olajuwon",
+     "Olajuwon",
+     "Hakeem",
+     "Akeem Olajuwon",
+     "The Dream"
+    ],
+    [
      "Precious Achiuwa",
      "Achiuwa"
     ],
@@ -4701,26 +4872,72 @@
     ],
     [
      "Michael Olowokandi",
-     "Olowokandi"
+     "Olowokandi",
+     "The Kandi Man"
     ],
     [
      "Festus Ezeli",
      "Ezeli"
     ],
+    [
+     "Al-Farouq Aminu",
+     "Aminu"
+    ],
+    [
+     "Gabe Vincent",
+     "Vincent"
+    ],
+    [
+     "Ike Diogu",
+     "Diogu"
+    ],
+    [
+     "Ekpe Udoh",
+     "Udoh"
+    ],
+    [
+     "Ime Udoka",
+     "Udoka"
+    ],
+    [
+     "Jordan Nwora",
+     "Nwora"
+    ],
     "Udoka Azubuike",
+    "Kelenna Azubuike",
     [
      "Charles Bassey",
      "Bassey"
+    ],
+    [
+     "KZ Okpala",
+     "Okpala",
+     "Kezie Okpala"
+    ],
+    [
+     "Miye Oni",
+     "Oni"
+    ],
+    [
+     "Chimezie Metu",
+     "Metu"
     ],
     [
      "Chima Moneke",
      "Moneke"
     ],
     [
+     "Michael Gbinije",
+     "Gbinije"
+    ],
+    [
+     "Ben Uzoh",
+     "Uzoh"
+    ],
+    [
      "Solomon Alabi",
      "Alabi"
     ],
-    "Kelenna Azubuike",
     [
      "Obinna Ekezie",
      "Ekezie"
@@ -4730,12 +4947,12 @@
      "Oyedeji"
     ],
     [
-     "Peter Aluma",
-     "Aluma"
-    ],
-    [
      "Yinka Dare",
      "Dare"
+    ],
+    [
+     "Peter Aluma",
+     "Aluma"
     ],
     [
      "Julius Nwosu",
@@ -4789,6 +5006,51 @@
     ],
     "Julius Nwosu": [
      "90s"
+    ],
+    "Hakeem Olajuwon": [
+     "80s",
+     "90s",
+     "00s"
+    ],
+    "Al-Farouq Aminu": [
+     "10s",
+     "20s"
+    ],
+    "Gabe Vincent": [
+     "10s",
+     "20s"
+    ],
+    "Ike Diogu": [
+     "00s",
+     "10s"
+    ],
+    "Ekpe Udoh": [
+     "10s"
+    ],
+    "Ime Udoka": [
+     "00s",
+     "10s"
+    ],
+    "Jordan Nwora": [
+     "20s"
+    ],
+    "KZ Okpala": [
+     "10s",
+     "20s"
+    ],
+    "Miye Oni": [
+     "10s",
+     "20s"
+    ],
+    "Chimezie Metu": [
+     "10s",
+     "20s"
+    ],
+    "Michael Gbinije": [
+     "10s"
+    ],
+    "Ben Uzoh": [
+     "10s"
     ]
    }
   },
@@ -4831,56 +5093,56 @@
      "Radja"
     ],
     [
-     "Dalibor Bagarić",
-     "Bagarić"
+     "Dragan Bender",
+     "Bender"
     ],
     [
      "Gordan Giriček",
      "Giriček"
     ],
     [
-     "Mario Kasun",
-     "Kasun"
-    ],
-    [
-     "Karlo Matković",
-     "Matković"
-    ],
-    [
-     "Zoran Planinić",
-     "Planinić"
-    ],
-    [
-     "Damjan Rudež",
-     "Rudež"
-    ],
-    [
-     "Bruno Šundov",
-     "Šundov"
-    ],
-    [
      "Žan Tabak",
      "Tabak"
     ],
     [
-     "Roko Ukić",
-     "Ukić"
-    ],
-    [
-     "Stojko Vranković",
-     "Vranković"
+     "Ante Žižić",
+     "Žižić"
     ],
     [
      "Luka Šamanić",
      "Šamanić"
     ],
     [
-     "Dragan Bender",
-     "Bender"
+     "Karlo Matković",
+     "Matković"
     ],
     [
-     "Ante Žižić",
-     "Žižić"
+     "Stojko Vranković",
+     "Vranković"
+    ],
+    [
+     "Roko Ukić",
+     "Ukić"
+    ],
+    [
+     "Zoran Planinić",
+     "Planinić"
+    ],
+    [
+     "Mario Kasun",
+     "Kasun"
+    ],
+    [
+     "Bruno Šundov",
+     "Šundov"
+    ],
+    [
+     "Damjan Rudež",
+     "Rudež"
+    ],
+    [
+     "Dalibor Bagarić",
+     "Bagarić"
     ],
     [
      "Duje Dukan",
@@ -4978,16 +5240,23 @@
    "text": "Name a Lithuanian player who has played in the NBA",
    "answers": [
     [
-     "Jonas Valančiūnas",
-     "Valančiūnas"
-    ],
-    [
      "Arvydas Sabonis",
      "Sabonis"
     ],
     [
+     "Domantas Sabonis",
+     "Domas Sabonis",
+     "Domas"
+    ],
+    [
+     "Jonas Valančiūnas",
+     "Valančiūnas",
+     "JV"
+    ],
+    [
      "Zydrunas Ilgauskas",
-     "Ilgauskas"
+     "Ilgauskas",
+     "Big Z"
     ],
     [
      "Šarūnas Marčiulionis",
@@ -4998,28 +5267,17 @@
      "Kleiza"
     ],
     [
+     "Šarūnas Jasikevičius",
+     "Jasikevičius",
+     "Saras"
+    ],
+    [
+     "Matas Buzelis",
+     "Buzelis"
+    ],
+    [
      "Donatas Motiejūnas",
      "Motiejūnas"
-    ],
-    [
-     "Martynas Andriuškevičius",
-     "Andriuškevičius"
-    ],
-    [
-     "Kasparas Jakučionis",
-     "Jakučionis"
-    ],
-    [
-     "Šarūnas Jasikevičius",
-     "Jasikevičius"
-    ],
-    [
-     "Mindaugas Kuzminskas",
-     "Kuzminskas"
-    ],
-    [
-     "Arvydas Macijauskas",
-     "Macijauskas"
     ],
     [
      "Darius Songaila",
@@ -5030,6 +5288,18 @@
      "Brazdeikis"
     ],
     [
+     "Kasparas Jakučionis",
+     "Jakučionis"
+    ],
+    [
+     "Mindaugas Kuzminskas",
+     "Kuzminskas"
+    ],
+    [
+     "Arvydas Macijauskas",
+     "Macijauskas"
+    ],
+    [
      "Arnoldas Kulboka",
      "Kulboka"
     ],
@@ -5037,7 +5307,10 @@
      "Deividas Sirvydis",
      "Sirvydis"
     ],
-    "Domantas Sabonis"
+    [
+     "Martynas Andriuškevičius",
+     "Andriuškevičius"
+    ]
    ],
    "eraText": "Name a Lithuanian player who played in the NBA in the {era}",
    "eras": {
@@ -5097,6 +5370,9 @@
     "Domantas Sabonis": [
      "10s",
      "20s"
+    ],
+    "Matas Buzelis": [
+     "20s"
     ]
    }
   },
@@ -5114,16 +5390,22 @@
     ],
     [
      "Leandro Barbosa",
-     "Barbosa"
+     "Barbosa",
+     "The Brazilian Blur"
+    ],
+    [
+     "Nenê",
+     "Nenê Hilário",
+     "Maybyner Hilário"
     ],
     [
      "Tiago Splitter",
      "Splitter"
     ],
-    "Nenê",
     [
      "Raul Neto",
-     "Neto"
+     "Neto",
+     "Raulzinho"
     ],
     [
      "Bruno Caboclo",
@@ -5131,19 +5413,13 @@
     ],
     [
      "Lucas Nogueira",
-     "Nogueira"
+     "Nogueira",
+     "Bebê"
     ],
     [
      "Gui Santos",
-     "Santos"
-    ],
-    [
-     "Mãozinha Pereira",
-     "Pereira"
-    ],
-    [
-     "Didi Louzada",
-     "Louzada"
+     "Santos",
+     "Guilherme Santos"
     ],
     [
      "Cristiano Felício",
@@ -5154,24 +5430,33 @@
      "Huertas"
     ],
     [
-     "Vítor Faverani",
-     "Faverani"
+     "Didi Louzada",
+     "Louzada"
     ],
     [
      "Fab Melo",
      "Melo"
     ],
     [
-     "Marquinhos Vieira",
-     "Vieira"
+     "Rafael Araújo",
+     "Araújo",
+     "Baby"
     ],
     [
-     "Rafael Araújo",
-     "Araújo"
+     "Vítor Faverani",
+     "Faverani"
     ],
     [
      "Alex Garcia",
      "Garcia"
+    ],
+    [
+     "Marquinhos Vieira",
+     "Vieira"
+    ],
+    [
+     "Mãozinha Pereira",
+     "Pereira"
     ],
     [
      "João Vianna",
@@ -5260,24 +5545,9 @@
    "text": "Name a Turkish player who has played in the NBA",
    "answers": [
     [
-     "Alperen Şengün",
-     "Şengün"
-    ],
-    [
      "Hedo Türkoğlu",
-     "Türkoğlu"
-    ],
-    [
-     "Cedi Osman",
-     "Osman"
-    ],
-    [
-     "Mehmet Okur",
-     "Okur"
-    ],
-    [
-     "Ersan İlyasova",
-     "İlyasova"
+     "Türkoğlu",
+     "Hidayet Türkoğlu"
     ],
     [
      "Enes Freedom",
@@ -5287,36 +5557,57 @@
      "Enes Kanter Freedom"
     ],
     [
-     "Adem Bona",
-     "Bona"
+     "Alperen Şengün",
+     "Şengün"
     ],
     [
-     "Mirsad Türkcan",
-     "Türkcan"
+     "Mehmet Okur",
+     "Okur",
+     "Memo"
     ],
     [
-     "Ömer Yurtseven",
-     "Yurtseven"
+     "Cedi Osman",
+     "Osman"
     ],
     [
-     "Onuralp Bitim",
-     "Bitim"
-    ],
-    [
-     "Furkan Korkmaz",
-     "Korkmaz"
+     "Ersan İlyasova",
+     "İlyasova"
     ],
     [
      "Ömer Aşık",
      "Aşık"
     ],
     [
-     "Furkan Aldemir",
-     "Aldemir"
+     "Furkan Korkmaz",
+     "Korkmaz"
+    ],
+    [
+     "Shane Larkin",
+     "Larkin"
     ],
     [
      "Semih Erden",
      "Erden"
+    ],
+    [
+     "Adem Bona",
+     "Bona"
+    ],
+    [
+     "Ömer Yurtseven",
+     "Yurtseven"
+    ],
+    [
+     "Furkan Aldemir",
+     "Aldemir"
+    ],
+    [
+     "Onuralp Bitim",
+     "Bitim"
+    ],
+    [
+     "Mirsad Türkcan",
+     "Türkcan"
     ],
     [
      "Ibo Kutluay",
@@ -5376,6 +5667,9 @@
     ],
     "Ibo Kutluay": [
      "00s"
+    ],
+    "Shane Larkin": [
+     "10s"
     ]
    },
    "deep": true
@@ -5393,17 +5687,18 @@
      "Dieng"
     ],
     [
-     "DeSagana Diop",
-     "Diop"
-    ],
-    [
      "Tacko Fall",
      "Fall"
+    ],
+    [
+     "DeSagana Diop",
+     "Diop"
     ],
     [
      "Mouhamed Gueye",
      "Gueye"
     ],
+    "Hamady N'Diaye",
     [
      "Ibou Badji",
      "Badji"
@@ -5412,10 +5707,14 @@
      "Maurice Ndour",
      "Ndour"
     ],
-    "Hamady N'Diaye",
     [
      "Cheikh Samb",
      "Samb"
+    ],
+    "Mamadou N'Diaye",
+    [
+     "Boniface N'Dong",
+     "N'Dong"
     ],
     [
      "Mouhamed Sene",
@@ -5425,11 +5724,6 @@
      "Pape Sow",
      "Sow"
     ],
-    [
-     "Boniface N'Dong",
-     "N'Dong"
-    ],
-    "Mamadou N'Diaye",
     "Makhtar N'Diaye"
    ],
    "eraText": "Name a Senegalese player who played in the NBA in the {era}",
@@ -5513,6 +5807,11 @@
      "Nash"
     ],
     [
+     "Yao Ming",
+     "Ming",
+     "Yao"
+    ],
+    [
      "Pau Gasol",
      "Gasol"
     ],
@@ -5526,11 +5825,6 @@
      "Manu"
     ],
     [
-     "Yao Ming",
-     "Ming",
-     "Yao"
-    ],
-    [
      "Dikembe Mutombo",
      "Mutombo"
     ],
@@ -5540,12 +5834,12 @@
      "Nique"
     ],
     [
-     "Toni Kukoč",
-     "Kukoč"
-    ],
-    [
      "Dražen Petrović",
      "Petrović"
+    ],
+    [
+     "Toni Kukoč",
+     "Kukoč"
     ],
     [
      "Arvydas Sabonis",
@@ -5556,14 +5850,68 @@
      "Divac"
     ],
     [
+     "Šarūnas Marčiulionis",
+     "Marčiulionis"
+    ],
+    [
      "Dino Rađa",
      "Rađa",
      "Dino Radja",
      "Radja"
     ],
     [
-     "Šarūnas Marčiulionis",
-     "Marčiulionis"
+     "Oscar Schmidt",
+     "Schmidt",
+     "Oscar"
+    ],
+    [
+     "Lauren Jackson",
+     "Jackson"
+    ],
+    [
+     "Sergei Belov",
+     "Belov"
+    ],
+    [
+     "Nikos Galis",
+     "Galis"
+    ],
+    [
+     "Dino Meneghin",
+     "Meneghin"
+    ],
+    [
+     "Krešimir Ćosić",
+     "Kresimir Cosic",
+     "Ćosić"
+    ],
+    [
+     "Uļjana Semjonova",
+     "Uljana Semjonova",
+     "Semjonova"
+    ],
+    [
+     "Dražen Dalipagić",
+     "Drazen Dalipagic",
+     "Dalipagić",
+     "Praja"
+    ],
+    [
+     "Radivoj Korać",
+     "Radivoj Korac",
+     "Korać"
+    ],
+    [
+     "Hortência Marcari",
+     "Hortencia",
+     "Hortência",
+     "Hortencia Marcari",
+     "Marcari"
+    ],
+    [
+     "Ubiratan Pereira Maciel",
+     "Ubiratan",
+     "Maciel"
     ],
     [
      "Bob Houbregs",
@@ -5644,6 +5992,57 @@
     "Šarūnas Marčiulionis": [
      "80s",
      "90s"
+    ],
+    "Oscar Schmidt": [
+     "70s",
+     "80s",
+     "90s"
+    ],
+    "Lauren Jackson": [
+     "90s",
+     "00s",
+     "10s"
+    ],
+    "Sergei Belov": [
+     "60s",
+     "70s"
+    ],
+    "Nikos Galis": [
+     "70s",
+     "80s",
+     "90s"
+    ],
+    "Dino Meneghin": [
+     "60s",
+     "70s",
+     "80s",
+     "90s"
+    ],
+    "Krešimir Ćosić": [
+     "60s",
+     "70s",
+     "80s"
+    ],
+    "Uļjana Semjonova": [
+     "70s",
+     "80s"
+    ],
+    "Dražen Dalipagić": [
+     "70s",
+     "80s"
+    ],
+    "Radivoj Korać": [
+     "60s"
+    ],
+    "Hortência Marcari": [
+     "70s",
+     "80s",
+     "90s"
+    ],
+    "Ubiratan Pereira Maciel": [
+     "60s",
+     "70s",
+     "80s"
     ]
    },
    "deep": true

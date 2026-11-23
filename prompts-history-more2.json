@@ -20,7 +20,9 @@
      "gallia lugdunensis",
      "gallia belgica",
      "narbonensis",
-     "transalpine gaul"
+     "transalpine gaul",
+     "belgica",
+     "lugdunensis"
     ],
     [
      "Aquitania",
@@ -42,7 +44,8 @@
     [
      "Germania",
      "germania superior",
-     "germania inferior"
+     "germania inferior",
+     "germany"
     ],
     [
      "Raetia",
@@ -101,7 +104,8 @@
      "Creta et Cyrenaica",
      "crete and cyrenaica",
      "cyrenaica",
-     "crete"
+     "crete",
+     "Creta"
     ],
     [
      "Africa",
@@ -137,7 +141,19 @@
     [
      "Osroene",
      "osrhoene"
-    ]
+    ],
+    "Britannia Superior",
+    "Britannia Inferior",
+    "Pannonia Superior",
+    "Pannonia Inferior",
+    "Dacia Aureliana",
+    "Alpes Maritimae",
+    "Alpes Cottiae",
+    "Alpes Poeninae",
+    "Syria Palaestina",
+    "Valentia",
+    "Maxima Caesariensis",
+    "Flavia Caesariensis"
    ]
   },
   {
@@ -209,11 +225,37 @@
     "Nisibis",
     "Corinth",
     "Numantia",
-    "Masada",
+    [
+     "Masada",
+     "siege of masada"
+    ],
     "Lake Regillus",
     "Ctesiphon",
     "Naissus",
-    "Vesuvius"
+    "Vesuvius",
+    [
+     "Siege of Jerusalem",
+     "jerusalem"
+    ],
+    "Caudine Forks",
+    "Lake Vadimo",
+    "Beneventum",
+    "Chaeronea",
+    "Orchomenus",
+    "Colline Gate",
+    "Silva Arsia",
+    "Veii",
+    "Fidenae",
+    "Forum Gallorum",
+    "Abritus",
+    "Mursa Major",
+    "Idistaviso",
+    "Angrivarian Wall",
+    "Tapae",
+    "Cremna",
+    "Margus",
+    "Verona",
+    "Turin"
    ],
    "deep": true
   },
@@ -273,7 +315,33 @@
      "quintus of smyrna"
     ],
     "Asclepiades",
-    "Antipater of Sidon"
+    "Antipater of Sidon",
+    "Aesop",
+    "Arion",
+    "Terpander",
+    "Philoxenus",
+    "Timotheus",
+    "Ion of Chios",
+    "Achaeus",
+    "Choerilus",
+    "Pratinas",
+    "Philemon",
+    "Diphilus",
+    "Alexis",
+    "Antiphanes",
+    "Leonidas of Tarentum",
+    "Meleager of Gadara",
+    "Anyte",
+    "Nossis",
+    "Praxilla",
+    "Telesilla",
+    "Musaeus",
+    "Oppian",
+    "Parthenius",
+    "Euphorion",
+    "Rhianus",
+    "Nicander",
+    "Posidippus"
    ]
   },
   {
@@ -300,7 +368,8 @@
      "covid",
      "covid 19",
      "coronavirus",
-     "covid19 pandemic"
+     "covid19 pandemic",
+     "covid pandemic"
     ],
     [
      "Great Plague of London",
@@ -361,7 +430,8 @@
      "Cholera",
      "cholera pandemic",
      "cholera epidemic",
-     "broad street cholera outbreak"
+     "broad street cholera outbreak",
+     "1854 cholera outbreak"
     ],
     [
      "Third plague pandemic",
@@ -431,7 +501,43 @@
      "Typhus epidemic",
      "typhus",
      "epidemic typhus"
-    ]
+    ],
+    [
+     "Bird flu",
+     "avian flu",
+     "h5n1"
+    ],
+    "Measles",
+    "Leprosy",
+    [
+     "Tuberculosis",
+     "consumption"
+    ],
+    "Malaria",
+    [
+     "Dancing plague of 1518",
+     "dancing plague"
+    ],
+    "Great Plague of Seville",
+    "Cholera pandemic of 1832",
+    [
+     "Foot-and-mouth disease",
+     "foot and mouth"
+    ],
+    [
+     "Mad cow disease",
+     "bse"
+    ],
+    "Haiti cholera outbreak",
+    "Diphtheria",
+    "Scarlet fever",
+    "Whooping cough",
+    "Dengue",
+    "Plague of Amwas",
+    "Great Plague of 1738",
+    "Moscow plague of 1771",
+    "Manchurian plague",
+    "London plague of 1563"
    ]
   },
   {
@@ -625,7 +731,56 @@
     [
      "Diego de Almagro",
      "almagro"
-    ]
+    ],
+    [
+     "Henry the Navigator",
+     "prince henry the navigator"
+    ],
+    "Humphrey Gilbert",
+    "Richard Grenville",
+    "Thomas Cavendish",
+    "Richard Chancellor",
+    "Hugh Willoughby",
+    "Sebastian Cabot",
+    "Hernando de Alarcón",
+    "Francisco de Montejo",
+    "Pedro de Valdivia",
+    "Gonzalo Pizarro",
+    "Juan de Grijalva",
+    "Pedro Menéndez de Avilés",
+    "Hendrick Hamel",
+    "Dirk Hartog",
+    "Jacob Le Maire",
+    "Willem Schouten",
+    "Semyon Dezhnev",
+    [
+     "Yermak Timofeyevich",
+     "yermak"
+    ],
+    "Étienne Brûlé",
+    "Louis Jolliet",
+    "Pierre-Esprit Radisson",
+    "Médard des Groseilliers",
+    "Afonso de Albuquerque",
+    "Francisco de Almeida",
+    "Pêro da Covilhã",
+    "Nuno Tristão",
+    "Gil Eanes",
+    "Alvise Cadamosto",
+    "Vicente Yáñez Pinzón",
+    "Martín Alonso Pinzón",
+    "Alonso de Ojeda",
+    "Juan de la Cosa",
+    "Lope de Aguirre",
+    "Gonzalo Jiménez de Quesada",
+    "Pánfilo de Narváez",
+    [
+     "Esteban Dorantes",
+     "estevanico"
+    ],
+    "Matteo Ricci",
+    "Francis Xavier",
+    "William Dampier"
    ]
   },
   {
@@ -731,7 +886,49 @@
      "railways",
      "railroad"
     ],
-    "Carding machine"
+    "Carding machine",
+    [
+     "Bessemer process",
+     "bessemer converter"
+    ],
+    "Penny post",
+    [
+     "Photography",
+     "camera"
+    ],
+    "Electric motor",
+    "Dynamo",
+    "Planing machine",
+    "Steam plough",
+    "Reaping machine",
+    "Mechanical loom",
+    "Self-acting mule",
+    [
+     "Cylinder printing press",
+     "steam printing press"
+    ],
+    "Paper machine",
+    "Atmospheric engine",
+    "Screw propeller",
+    "Suspension bridge",
+    "Portland cement",
+    "Difference engine",
+    [
+     "Lucifer match",
+     "friction match"
+    ],
+    "Lawnmower",
+    "Rubber tyre",
+    [
+     "Mackintosh raincoat",
+     "mackintosh"
+    ],
+    [
+     "Postage stamp",
+     "penny black"
+    ],
+    "Chronometer",
+    "Crucible steel"
    ]
   }
  ]

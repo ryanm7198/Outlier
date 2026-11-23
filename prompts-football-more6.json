@@ -365,7 +365,8 @@
     [
      "Peter Beardsley",
      "Beardsley"
-    ]
+    ],
+    "Dave Watson"
    ]
   },
   {
@@ -431,13 +432,18 @@
      "Hodgkinson"
     ],
     [
+     "Phil Parkes",
+     "Parkes"
+    ],
+    [
      "Jimmy Rimmer",
      "Rimmer"
     ],
     [
      "Nigel Spink",
      "Spink"
-    ]
+    ],
+    "Gordon West"
    ]
   },
   {
@@ -719,6 +725,10 @@
     [
      "Bobby Gould",
      "Gould"
+    ],
+    [
+     "George Curtis",
+     "Curtis"
     ]
    ]
   },
@@ -960,7 +970,12 @@
      "Old Den",
      "The Den"
     ],
-    "Leeds Road"
+    "Leeds Road",
+    [
+     "County Ground (Northampton)",
+     "County Ground",
+     "Northampton County Ground"
+    ]
    ]
   },
   {
@@ -1347,7 +1362,10 @@
    "text": "Name a club that played in the Turkish Süper Lig in 2024-25",
    "answers": [
     "Galatasaray",
-    "Fenerbahçe",
+    [
+     "Fenerbahçe",
+     "Fener"
+    ],
     "Beşiktaş",
     "Trabzonspor",
     [
@@ -1454,7 +1472,10 @@
      "Antoine Griezmann",
      "Griezmann"
     ],
-    "Hugo Sánchez",
+    [
+     "Hugo Sánchez",
+     "Hugo"
+    ],
     [
      "David Villa",
      "Villa"
@@ -1486,6 +1507,7 @@
      "Luis Aragonés",
      "Aragones"
     ],
+    "Rivaldo",
     [
      "Aritz Aduriz",
      "Aduriz"
@@ -1844,7 +1866,6 @@
     "Metz",
     "Guingamp",
     "CASG Paris",
-    "Lens",
     "Olympique de Paris",
     "Bastia",
     "CA Paris",
@@ -1938,7 +1959,12 @@
      "Hannover 96",
      "Hannover"
     ],
-    "1. FC Lokomotive Leipzig",
+    [
+     "1. FC Lokomotive Leipzig",
+     "VfB Leipzig",
+     "Lokomotive Leipzig",
+     "Lok Leipzig"
+    ],
     "Kickers Offenbach",
     "Rapid Wien",
     "Schwarz-Weiss Essen",
@@ -1968,7 +1994,10 @@
     "Fiorentina",
     "Napoli",
     "Torino",
-    "AC Milan",
+    [
+     "AC Milan",
+     "Milan"
+    ],
     "Sampdoria",
     "Bologna",
     "Parma",
@@ -2213,6 +2242,10 @@
      "Newport"
     ],
     "Carmarthen Town",
+    [
+     "Kidderminster Harriers",
+     "Kidderminster"
+    ],
     "Llanelli",
     "Flint Town United",
     "Newtown White Stars",

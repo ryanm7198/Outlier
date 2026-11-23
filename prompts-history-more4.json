@@ -64,7 +64,47 @@
     "Etana",
     "Lugalbanda",
     "Ur-Zababa",
-    "Sin-shar-ishkun"
+    "Sin-shar-ishkun",
+    "Tiglath-Pileser I",
+    "Shalmaneser V",
+    [
+     "Semiramis",
+     "sammu-ramat"
+    ],
+    [
+     "Kubaba",
+     "ku-bau"
+    ],
+    "Enmebaragesi",
+    "Rimush",
+    "Manishtushu",
+    "Shar-kali-sharri",
+    "Utu-hengal",
+    "Ibbi-Sin",
+    "Amar-Sin",
+    "Shu-Sin",
+    "Rim-Sin",
+    "Sumu-abum",
+    "Burna-Buriash II",
+    "Kurigalzu",
+    "Nebuchadnezzar I",
+    [
+     "Amel-Marduk",
+     "evil-merodach"
+    ],
+    "Neriglissar",
+    "Labashi-Marduk",
+    "Ashur-uballit II",
+    "Shamash-shum-ukin",
+    [
+     "Urukagina",
+     "uruinimgina"
+    ],
+    "Enmetena",
+    "Ur-Nanshe",
+    "Adad-nirari II",
+    "Mesannepada",
+    "Erishum I"
    ]
   },
   {
@@ -165,7 +205,37 @@
      "Indo-Scythian",
      "Saka"
     ],
-    "Yadava"
+    "Yadava",
+    "Ahom",
+    "Chandela",
+    "Guhila",
+    "Kalachuri",
+    "Gahadavala",
+    [
+     "Chahamana",
+     "chauhan"
+    ],
+    "Tomara",
+    "Licchavi",
+    "Shakya",
+    "Haryanka",
+    "Shishunaga",
+    "Mahajanapadas",
+    "Kalinga",
+    "Western Satraps",
+    "Maitraka",
+    "Kamarupa",
+    [
+     "Bahmani Sultanate",
+     "bahmani"
+    ],
+    "Bengal Sultanate",
+    "Sangama",
+    "Ikshvaku",
+    "Gujarat Sultanate",
+    "Malwa Sultanate",
+    "Jaunpur Sultanate",
+    "Varman dynasty"
    ]
   },
   {
@@ -202,7 +272,8 @@
     "Catapult",
     [
      "Battering ram",
-     "Ram"
+     "Ram",
+     "Trireme ram"
     ],
     [
      "Greaves",
@@ -244,7 +315,27 @@
     "Lancea",
     "Hasta",
     "Pelta",
-    "Corvus"
+    "Corvus",
+    "Lorica squamata",
+    "Manica",
+    [
+     "Balteus",
+     "cingulum"
+    ],
+    "Thureos",
+    "Makhaira",
+    "Dolabra",
+    "Fustibalus",
+    "Carroballista",
+    "Polybolos",
+    "Oxybeles",
+    "Lithobolos",
+    "Sambuca",
+    "Hoplite helmet",
+    "Chalcidian helmet",
+    "Attic helmet",
+    "Montefortino helmet",
+    "Phrygian helmet"
    ]
   },
   {
@@ -288,7 +379,8 @@
     [
      "Thermae",
      "Baths",
-     "Roman baths"
+     "Roman baths",
+     "bath house"
     ],
     [
      "Hippodrome",
@@ -330,7 +422,49 @@
     "Dome",
     "Vault",
     "Apse",
-    "Pantheon"
+    "Pantheon",
+    "Mosaic",
+    "Fresco",
+    "Lararium",
+    "Triclinium",
+    "Tablinum",
+    "Impluvium",
+    "Exedra",
+    "Rotunda",
+    "Naumachia",
+    "Macellum",
+    "Horreum",
+    "Curia",
+    "Rostra",
+    "Temenos",
+    "Pronaos",
+    "Megaron",
+    "Propylon",
+    "Bouleuterion",
+    "Prytaneion",
+    [
+     "Roman concrete",
+     "opus caementicium"
+    ],
+    "Keystone",
+    "Voussoir",
+    "Barrel vault",
+    "Groin vault",
+    "Oculus",
+    "Coffer",
+    "Dentil",
+    "Egg-and-dart",
+    "Fluting",
+    "Entasis",
+    "Abacus",
+    "Echinus",
+    "Acroterion",
+    "Tympanum",
+    [
+     "Telamon",
+     "atlas"
+    ],
+    "Herm"
    ]
   },
   {
@@ -383,7 +517,10 @@
     "Quirinalia",
     "Liberalia",
     "Cerealia",
-    "Megalesia",
+    [
+     "Megalesia",
+     "ludi megalenses"
+    ],
     "Ludi Apollinares",
     "Ludi Plebeii",
     "Fornacalia",
@@ -398,7 +535,10 @@
     "Thargelia",
     "Adonia",
     "Gymnopaedia",
-    "Heraia",
+    [
+     "Heraia",
+     "heraean games"
+    ],
     "Daedala",
     [
      "Ludi Saeculares",
@@ -417,7 +557,36 @@
     "Fordicidia",
     "Meditrinalia",
     "Ambarvalia",
-    "Veneralia"
+    "Veneralia",
+    "Sigillaria",
+    "Larentalia",
+    "Agonalia",
+    "Equirria",
+    "Tubilustrium",
+    "Vinalia",
+    "Armilustrium",
+    "Portunalia",
+    "Volturnalia",
+    "Opiconsivia",
+    "Septimontium",
+    "Faunalia",
+    "Fontinalia",
+    "Carmentalia",
+    "Sementivae",
+    "Kronia",
+    "Arrhephoria",
+    "Pyanepsia",
+    "Oschophoria",
+    "Apaturia",
+    "Plynteria",
+    "Diasia",
+    "Synoikia",
+    "Hephaestia",
+    "Bendideia",
+    "Delia",
+    "Lykaia",
+    "Asclepieia",
+    "Ptolemaia"
    ]
   },
   {
@@ -450,7 +619,8 @@
     ],
     [
      "Mozi",
-     "Mo Tzu"
+     "Mo Tzu",
+     "mo di"
     ],
     [
      "Han Feizi",
@@ -479,7 +649,29 @@
      "Zengzi",
      "Zeng Shen"
     ],
-    "Yan Hui"
+    "Yan Hui",
+    [
+     "Liu An",
+     "huainanzi"
+    ],
+    "Jia Yi",
+    "Sima Qian",
+    "Yang Xiong",
+    "Zichan",
+    "Zigong",
+    "Zilu",
+    "Zixia",
+    "Fan Li",
+    "Wu Zixu",
+    "Jiang Ziya",
+    "Duke of Zhou",
+    "Yan Ying",
+    "Deng Xi",
+    "Song Xing",
+    "Tian Pian",
+    "Gaozi",
+    "Liu Xiang",
+    "Wang Fu"
    ]
   },
   {
@@ -503,7 +695,8 @@
     "Uxmal",
     [
      "Nazca",
-     "Nasca"
+     "Nasca",
+     "nazca lines"
     ],
     "Copán",
     "Monte Albán",
@@ -515,7 +708,10 @@
     "Caral",
     "Cahokia",
     "Mesa Verde",
-    "Sacsayhuamán",
+    [
+     "Sacsayhuamán",
+     "saksaywaman"
+    ],
     "Ollantaytambo",
     "Calakmul",
     "Tula",
@@ -549,12 +745,80 @@
     "Serpent Mound",
     "Moundville",
     "Poverty Point",
-    "Casas Grandes",
+    [
+     "Casas Grandes",
+     "paquime"
+    ],
     "Hovenweep",
     "Taos Pueblo",
     "Choquequirao",
     "Vilcabamba",
-    "Huánuco Pampa"
+    "Huánuco Pampa",
+    "Templo Mayor",
+    "El Tajín",
+    "Inca Trail",
+    "Moray",
+    "Puma Punku",
+    "L'Anse aux Meadows",
+    "Acoma Pueblo",
+    [
+     "Huacas del Sol y de la Luna",
+     "huaca de la luna"
+    ],
+    [
+     "Ciudad Perdida",
+     "lost city"
+    ],
+    "Xunantunich",
+    "Joya de Cerén",
+    "Ingapirca",
+    "San Agustín",
+    [
+     "Wari",
+     "huari"
+    ],
+    "Canyon de Chelly",
+    "Montezuma Castle",
+    "Head-Smashed-In Buffalo Jump",
+    "Casa Grande",
+    "Mayapán",
+    "Yaxchilan",
+    "Piedras Negras",
+    "Kaminaljuyu",
+    "Takalik Abaj",
+    "Izapa",
+    "Tres Zapotes",
+    "Tzintzuntzan",
+    "Sillustani",
+    "Pikillacta",
+    "Tambomachay",
+    "Tierradentro",
+    "Sechín",
+    "Kotosh",
+    "Tipón",
+    "Wiñay Wayna",
+    "Etowah Mounds",
+    "Ocmulgee",
+    "Spiro Mounds",
+    "Effigy Mounds",
+    "Newark Earthworks",
+    "Aztalan",
+    "Knife River",
+    "Wupatki",
+    "Aztec Ruins",
+    "Pecos Pueblo",
+    "Bandelier",
+    "Gila Cliff Dwellings",
+    "Lamanai",
+    "Cahal Pech",
+    "Lubaantun",
+    "Yaxha",
+    "Uaxactun",
+    "Edzná",
+    "Becan",
+    "Kabah",
+    "Sayil",
+    "Labna"
    ]
   },
   {
@@ -571,7 +835,8 @@
     ],
     [
      "Hieroglyphs",
-     "Hieroglyphics"
+     "Hieroglyphics",
+     "egyptian hieroglyphs"
     ],
     [
      "Ancient Egyptian",
@@ -636,7 +901,51 @@
     "Thracian",
     "Parthian",
     "Middle Persian",
-    "Pahlavi"
+    "Pahlavi",
+    "Koine Greek",
+    [
+     "Old Tamil",
+     "tamil"
+    ],
+    "Prakrit",
+    [
+     "Common Brittonic",
+     "brittonic",
+     "brythonic"
+    ],
+    "Pictish",
+    "Primitive Irish",
+    "Indus script",
+    "Proto-Sinaitic",
+    "Nabataean",
+    "Palmyrene",
+    "Moabite",
+    "Eblaite",
+    "Amorite",
+    "Hattic",
+    "Urartian",
+    "Carian",
+    "Lycian",
+    "Illyrian",
+    "Venetic",
+    "Raetic",
+    "Lepontic",
+    "Iberian",
+    "Tartessian",
+    "Libyco-Berber",
+    "Zapotec script",
+    "Epi-Olmec",
+    "Quipu",
+    "Sogdian",
+    "Bactrian",
+    "Khotanese",
+    "Scythian",
+    [
+     "Classical Armenian",
+     "old armenian"
+    ],
+    "Old Georgian",
+    "Old Arabic"
    ]
   },
   {
@@ -663,10 +972,14 @@
      "Nike of Samothrace"
     ],
     "Apollo Belvedere",
-    "Augustus of Prima Porta",
+    [
+     "Augustus of Prima Porta",
+     "prima porta"
+    ],
     [
      "Capitoline Wolf",
-     "She-Wolf"
+     "She-Wolf",
+     "lupa capitolina"
     ],
     "Colossus of Rhodes",
     [
@@ -714,13 +1027,45 @@
     "Kritios Boy",
     "Peplos Kore",
     "Lion of Amphipolis",
-    "Marcus Aurelius equestrian statue",
+    [
+     "Marcus Aurelius equestrian statue",
+     "equestrian statue of marcus aurelius"
+    ],
     [
      "Boy with Thorn",
      "Spinario"
     ],
     "Warren Cup",
-    "Lycurgus Cup"
+    "Lycurgus Cup",
+    "Mask of Agamemnon",
+    "Bust of Pericles",
+    [
+     "Boxer at Rest",
+     "terme boxer"
+    ],
+    "Apoxyomenos",
+    "Diadumenos",
+    "Kouros",
+    "Kroisos Kouros",
+    [
+     "Moschophoros",
+     "calf-bearer"
+    ],
+    "Nike of Paionios",
+    "Athena Promachos",
+    "Colossus of Constantine",
+    "Alexander Mosaic",
+    "Gemma Augustea",
+    "Mildenhall Treasure",
+    "Hoxne Hoard",
+    "Vindolanda tablets",
+    "Crouching Venus",
+    "Esquiline Venus",
+    "Townley Venus",
+    "Lansdowne Heracles",
+    "Ludovisi Throne",
+    "Medusa Rondanini",
+    "Great Cameo of France"
    ]
   },
   {
@@ -920,7 +1265,8 @@
     "Avro Manchester",
     [
      "Douglas Boston",
-     "Boston"
+     "Boston",
+     "a-20 havoc"
     ],
     [
      "Fairey Fulmar",
@@ -1038,7 +1384,61 @@
      "Mitsubishi G4M Betty",
      "G4M",
      "Betty"
-    ]
+    ],
+    "Junkers Ju 52",
+    "Tiger Moth",
+    "Fieseler Storch",
+    "Avro Anson",
+    "Supermarine Walrus",
+    "Horsa glider",
+    "Heinkel He 162",
+    "Horten Ho 229",
+    "Yak-9",
+    "Polikarpov Po-2",
+    "P-61 Black Widow",
+    "SB2C Helldiver",
+    "TBD Devastator",
+    "F2A Buffalo",
+    "Dewoitine D.520",
+    "PZL P.11",
+    [
+     "Yokosuka MXY-7 Ohka",
+     "ohka"
+    ],
+    "Messerschmitt Me 323 Gigant",
+    "Dornier Do 217",
+    "Junkers Ju 188",
+    "Heinkel He 219 Uhu",
+    "Messerschmitt Me 410",
+    "Focke-Wulf Ta 152",
+    "Blohm & Voss BV 222",
+    "P-80 Shooting Star",
+    "A-26 Invader",
+    "C-46 Commando",
+    "F7F Tigercat",
+    "B-32 Dominator",
+    "Nakajima Ki-84 Hayate",
+    "Kawanishi N1K",
+    "Mitsubishi J2M Raiden",
+    "Kawanishi H8K",
+    "Yokosuka D4Y",
+    "Mitsubishi Ki-21",
+    "Nakajima B6N",
+    "Yakovlev Yak-1",
+    "Lavochkin La-7",
+    "Ilyushin Il-4",
+    "Tupolev Tu-2",
+    "Fiat CR.42",
+    "Fiat G.55",
+    "Macchi C.205",
+    "Reggiane Re.2005",
+    "Morane-Saulnier MS.406",
+    "Bloch MB.152",
+    "Fokker D.XXI",
+    "Airspeed Oxford",
+    "Miles Magister",
+    "GAL Hamilcar",
+    "Waco CG-4"
    ]
   },
   {
@@ -1051,7 +1451,8 @@
     [
      "Tiger",
      "Tiger I",
-     "Tiger 1"
+     "Tiger 1",
+     "panzer vi"
     ],
     [
      "Sherman",
@@ -1075,7 +1476,10 @@
      "Königstiger"
     ],
     "Cromwell",
-    "Matilda",
+    [
+     "Matilda",
+     "matilda ii"
+    ],
     "Valentine",
     [
      "Panzer III",
@@ -1109,15 +1513,18 @@
     ],
     [
      "Chaffee",
-     "M24 Chaffee"
+     "M24 Chaffee",
+     "m24"
     ],
     [
      "Pershing",
-     "M26 Pershing"
+     "M26 Pershing",
+     "m26"
     ],
     [
      "Hellcat",
-     "M18 Hellcat"
+     "M18 Hellcat",
+     "m18"
     ],
     [
      "Wolverine",
@@ -1158,7 +1565,8 @@
     [
      "Half-track",
      "Sd.Kfz. 251",
-     "M3 Half-track"
+     "M3 Half-track",
+     "sdkfz 251"
     ],
     "Humber armoured car",
     [
@@ -1184,7 +1592,10 @@
      "Type 95 Ha-Go",
      "Ha-Go"
     ],
-    "Panzer 38(t)",
+    [
+     "Panzer 38(t)",
+     "lt vz 38"
+    ],
     "Char B1",
     [
      "Somua S35",
@@ -1219,7 +1630,56 @@
      "M8 Greyhound",
      "Greyhound"
     ],
-    "Marmon-Herrington"
+    "Marmon-Herrington",
+    "Jagdtiger",
+    "Brummbär",
+    "Puma",
+    [
+     "Goliath tracked mine",
+     "goliath"
+    ],
+    "Panzer 35(t)",
+    "KV-2",
+    "IS-3",
+    "T-35",
+    "T-28",
+    "T-44",
+    "SU-122",
+    "BA-64",
+    "Priest",
+    "M36 Jackson",
+    "Kangaroo",
+    "Ram",
+    "Sentinel",
+    "DUKW",
+    [
+     "LVT",
+     "amtrac"
+    ],
+    "Churchill AVRE",
+    "Hobart's Funnies",
+    [
+     "DD tank",
+     "duplex drive"
+    ],
+    "Renault R35",
+    "Renault FT",
+    "7TP",
+    "TKS tankette",
+    "L3/35",
+    "Fiat M11/39",
+    "Type 1 Chi-He",
+    "Type 3 Chi-Nu",
+    "Type 89 I-Go",
+    "Toldi",
+    "Turán",
+    "StuG IV",
+    "Jagdpanzer IV",
+    "Panzerjäger I",
+    "AEC armoured car",
+    "Daimler armoured car",
+    "Char D2",
+    "AMR 35"
    ]
   },
   {
@@ -1258,7 +1718,8 @@
     "Arab Spring",
     [
      "Hungarian Uprising",
-     "Hungarian Revolution"
+     "Hungarian Revolution",
+     "hungarian revolution of 1956"
     ],
     [
      "Easter Rising",
@@ -1282,7 +1743,8 @@
     "Mexican Revolution",
     [
      "Xinhai Revolution",
-     "Chinese Revolution"
+     "Chinese Revolution",
+     "Chinese Communist Revolution"
     ],
     "Cultural Revolution",
     "Singing Revolution",
@@ -1304,7 +1766,8 @@
     "July Revolution",
     [
      "Revolutions of 1848",
-     "1848 Revolutions"
+     "1848 Revolutions",
+     "spring of nations"
     ],
     "German Revolution",
     "Irish War of Independence",
@@ -1324,7 +1787,10 @@
      "Eureka Rebellion",
      "Eureka Stockade"
     ],
-    "Sandinista Revolution",
+    [
+     "Sandinista Revolution",
+     "nicaraguan revolution"
+    ],
     "Egyptian Revolution",
     [
      "Tunisian Revolution",
@@ -1344,7 +1810,65 @@
     "Kronstadt Rebellion",
     "Spartacist Uprising",
     "Boer Rebellion",
-    "Rising of the North"
+    "Rising of the North",
+    "Meiji Restoration",
+    "Dutch Revolt",
+    "Belgian Revolution",
+    "Greek War of Independence",
+    "Decembrist revolt",
+    [
+     "Pugachev's Rebellion",
+     "pugachev rebellion"
+    ],
+    "Kościuszko Uprising",
+    "Wyatt's Rebellion",
+    "Cornish Rebellion",
+    "Prayer Book Rebellion",
+    "Newport Rising",
+    "Merthyr Rising",
+    "Swing Riots",
+    "Luddites",
+    "Mau Mau Uprising",
+    "Zapatista uprising",
+    "Philippine Revolution",
+    "People Power Revolution",
+    "Young Turk Revolution",
+    "Satsuma Rebellion",
+    "Shimabara Rebellion",
+    "An Lushan Rebellion",
+    "Yellow Turban Rebellion",
+    "Mahdist revolt",
+    "Maji Maji Rebellion",
+    "Algerian Revolution",
+    "Romanian Revolution",
+    "Bulldozer Revolution",
+    "Cedar Revolution",
+    "Umbrella Revolution",
+    "Scientific Revolution",
+    "Agricultural Revolution",
+    "Neolithic Revolution",
+    "Quiet Revolution",
+    "1905 Russian Revolution",
+    "Syrian revolution",
+    "Libyan Revolution",
+    "Sudanese Revolution",
+    "Fronde",
+    "Essex's Rebellion",
+    "Pentland Rising",
+    [
+     "Razin's Rebellion",
+     "stenka razin"
+    ],
+    "November Uprising",
+    "January Uprising",
+    "Bohemian Revolt",
+    "Herero uprising",
+    "War of the Golden Stool",
+    "Red Turban Rebellion",
+    "Nian Rebellion",
+    "Dungan Revolt",
+    "Bolivarian Revolution",
+    "Digital revolution"
    ]
   },
   {
@@ -1384,7 +1908,8 @@
     ],
     [
      "U-2 incident",
-     "U-2 crisis"
+     "U-2 crisis",
+     "gary powers"
     ],
     "Glasnost",
     "Perestroika",
@@ -1441,7 +1966,59 @@
      "Iron Curtain speech"
     ],
     "Cuban Revolution",
-    "Hotline"
+    "Hotline",
+    "Moon landing",
+    [
+     "Arms race",
+     "nuclear arms race"
+    ],
+    [
+     "Mutually assured destruction",
+     "mad"
+    ],
+    "Cambridge Five",
+    [
+     "Korean Air Lines Flight 007",
+     "kal 007"
+    ],
+    "Pueblo incident",
+    "Invasion of Grenada",
+    "Invasion of Panama",
+    "Tiananmen Square protests",
+    "Helsinki Accords",
+    "Rosenberg trial",
+    "Hollywood blacklist",
+    "Berlin Crisis of 1961",
+    "Taiwan Strait crises",
+    "Congo Crisis",
+    "Ogaden War",
+    "1953 Iranian coup",
+    "1954 Guatemalan coup",
+    "1973 Chilean coup",
+    "Operation Condor",
+    "START",
+    "INF Treaty",
+    "Ostpolitik",
+    "Nixon's visit to China",
+    "Ping-pong diplomacy",
+    "Olympic boycotts",
+    "Miracle on Ice",
+    [
+     "Match of the Century",
+     "fischer spassky"
+    ],
+    "Baltic Way",
+    "Pan-European Picnic",
+    "Malta Summit",
+    "Geneva Summit",
+    "Containment",
+    "Eisenhower Doctrine",
+    "Non-Aligned Movement",
+    "Yom Kippur War",
+    "Chernobyl disaster",
+    "Mozambican Civil War",
+    "Salvadoran Civil War",
+    "Ich bin ein Berliner"
    ]
   },
   {
@@ -1452,7 +2029,10 @@
    "text": "Name a country or territory occupied by Nazi Germany during the Second World War",
    "answers": [
     "Poland",
-    "France",
+    [
+     "France",
+     "vichy france"
+    ],
     [
      "Netherlands",
      "Holland"
@@ -1495,7 +2075,16 @@
      "Guernsey"
     ],
     "Monaco",
-    "Slovakia"
+    "Slovakia",
+    "Austria",
+    "Sudetenland",
+    "Montenegro",
+    "Crete",
+    "Alderney",
+    "Sark",
+    "Tunisia",
+    "Corsica",
+    "San Marino"
    ]
   },
   {
@@ -1508,11 +2097,13 @@
     [
      "Ulysses S. Grant",
      "Grant",
-     "US Grant"
+     "US Grant",
+     "ulysses grant"
     ],
     [
      "Robert E. Lee",
-     "Lee"
+     "Lee",
+     "robert lee"
     ],
     [
      "William Tecumseh Sherman",
@@ -1549,7 +2140,8 @@
     ],
     [
      "J.E.B. Stuart",
-     "Stuart"
+     "Stuart",
+     "jeb stuart"
     ],
     [
      "George Armstrong Custer",
@@ -1692,7 +2284,52 @@
      "John Reynolds",
      "Reynolds"
     ],
-    "Israel Richardson"
+    "Israel Richardson",
+    "John Buford",
+    "Abner Doubleday",
+    "Lewis Armistead",
+    "Joseph Wheeler",
+    "John Gibbon",
+    "Judson Kilpatrick",
+    "James B. McPherson",
+    "John Logan",
+    "Robert Anderson",
+    "Sterling Price",
+    "Richard Taylor",
+    "John B. Magruder",
+    "Turner Ashby",
+    "Stand Watie",
+    "Simon Bolivar Buckner",
+    [
+     "John Brown Gordon",
+     "john gordon"
+    ],
+    "Montgomery Meigs",
+    "Carl Schurz",
+    "Benjamin Grierson",
+    "Jefferson C. Davis",
+    "Alfred Pleasonton",
+    "George Stoneman",
+    "Grenville Dodge",
+    "Gordon Granger",
+    "Alexander McCook",
+    "Thomas Crittenden",
+    "Ben McCulloch",
+    "Lafayette McLaws",
+    "William Mahone",
+    "Gideon Pillow",
+    "Robert Rodes",
+    "Stephen Dodson Ramseur",
+    "Isaac Trimble",
+    "James Kemper",
+    "Richard Garnett",
+    "Joseph Kershaw",
+    "Edward Porter Alexander",
+    "Henry Hunt",
+    "Samuel Curtis",
+    "Francis Barlow",
+    "Romeyn Ayres",
+    "Hiram Berdan"
    ]
   },
   {
@@ -1740,7 +2377,10 @@
     "Hannah Mitchell",
     "Charlotte Despard",
     "Teresa Billington-Greig",
-    "Sophia Duleep Singh",
+    [
+     "Sophia Duleep Singh",
+     "princess sophia"
+    ],
     "Edith Garrud",
     "Kitty Marion",
     "Lilian Lenton",
@@ -1779,7 +2419,53 @@
     "Jane Addams",
     "Josephine Butler",
     "Barbara Bodichon",
-    "Emily Davies"
+    "Emily Davies",
+    "Nancy Astor",
+    "Muriel Matters",
+    "Selina Cooper",
+    "Ada Nield Chew",
+    "Esther Roper",
+    "Eva Gore-Booth",
+    "Elizabeth Wolstenholme Elmy",
+    "Caroline Norton",
+    "Harriet Taylor Mill",
+    "John Stuart Mill",
+    "Frederick Pethick-Lawrence",
+    "Grace Roe",
+    "Leonora Cohen",
+    "Edith Rigby",
+    "Elsie Inglis",
+    "Marie Stopes",
+    "Annie Besant",
+    "Margaret Bondfield",
+    "Ellen Wilkinson",
+    "Chrystal Macmillan",
+    "Frances Power Cobbe",
+    "Mary Phillips",
+    "Olive Wharry",
+    "Helen Fraser",
+    "Frances Balfour",
+    "Kate Frye",
+    "Jessie Stephen",
+    "George Lansbury",
+    "Amelia Bloomer",
+    "Julia Ward Howe",
+    "Anna Howard Shaw",
+    "Victoria Woodhull",
+    "Belva Lockwood",
+    "Frances Harper",
+    "Mary Ann Shadd",
+    "Jeannette Rankin",
+    "Doris Stevens",
+    "Ernestine Rose",
+    "Abigail Scott Duniway",
+    "Esther Morris",
+    "Antoinette Brown Blackwell",
+    "Betty Friedan",
+    "Gloria Steinem",
+    "Shirley Chisholm",
+    "Bella Abzug",
+    "Germaine Greer"
    ]
   },
   {
@@ -1952,7 +2638,50 @@
      "Gooch"
     ],
     "Joseph Locke",
-    "John Fowler"
+    "John Fowler",
+    "John Harrison",
+    "William Armstrong",
+    "Richard Roberts",
+    "George Cayley",
+    "Thomas Highs",
+    "John Lombe",
+    "Thomas Lombe",
+    "Josiah Spode",
+    "Goldsworthy Gurney",
+    "William Symington",
+    "Henry Bell",
+    "Andrew Meikle",
+    "Joseph Aspdin",
+    "Charles Macintosh",
+    "James Beaumont Neilson",
+    "William Fothergill Cooke",
+    "Charles Wheatstone",
+    "Rowland Hill",
+    "Edwin Budding",
+    [
+     "William Henry Fox Talbot",
+     "fox talbot"
+    ],
+    "Thomas Brassey",
+    "George Hudson",
+    "Robert Stevenson",
+    "Joseph Bazalgette",
+    "William Jessop",
+    "Benjamin Outram",
+    [
+     "John Metcalf",
+     "blind jack"
+    ],
+    "Bryan Donkin",
+    "William Cubitt",
+    "Joseph Clement",
+    "Jonathan Hornblower",
+    "Arthur Woolf",
+    "Thomas Boulsover",
+    "Thomas Minton",
+    "Samuel Oldknow",
+    "Patrick Bell",
+    "Walter Hancock"
    ]
   },
   {
@@ -2088,7 +2817,54 @@
     [
      "John a Lasco",
      "Jan Laski"
-    ]
+    ],
+    "Katharina von Bora",
+    "Erasmus",
+    [
+     "Girolamo Savonarola",
+     "savonarola"
+    ],
+    "Thomas Cromwell",
+    "Thomas Bilney",
+    "Robert Barnes",
+    "Anne Askew",
+    "John Hooper",
+    "Edmund Grindal",
+    "John Foxe",
+    "John Jewel",
+    "Thomas Cartwright",
+    "Richard Hooker",
+    "Andrew Melville",
+    "Faustus Socinus",
+    "Michael Servetus",
+    "Sebastian Castellio",
+    "John of Leiden",
+    "Justus Jonas",
+    "Olaus Petri",
+    "Hans Tausen",
+    "Mikael Agricola",
+    "Primož Trubar",
+    "Jerome of Prague",
+    "Lollards",
+    "Marguerite de Navarre",
+    "Jeanne d'Albret",
+    "Gaspard de Coligny",
+    "Pierre Viret",
+    "Guido de Brès",
+    "Zacharias Ursinus",
+    "Bernardino Ochino",
+    "Casiodoro de Reina",
+    "Andreas Osiander",
+    "Matthias Flacius",
+    "Martin Chemnitz",
+    "Melchior Hoffman",
+    "Pilgram Marpeck",
+    "Kaspar Schwenckfeld",
+    "Laurentius Petri",
+    "John Bale",
+    "Caspar Olevianus",
+    "Thomas Erastus",
+    "Juan de Valdés"
    ]
   },
   {
@@ -2138,7 +2914,10 @@
     "Kaikeyi",
     "Kaushalya",
     "Sugriva",
-    "Vali",
+    [
+     "Vali",
+     "bali"
+    ],
     "Jatayu",
     "Shurpanakha",
     "Sumitra",
@@ -2166,7 +2945,56 @@
     "Maricha",
     "Valmiki",
     "Janaka",
-    "Shabari"
+    "Shabari",
+    [
+     "Lava and Kusha",
+     "luv kush"
+    ],
+    "Urmila",
+    "Agastya",
+    "Vasishtha",
+    "Sampati",
+    "Nala",
+    "Trijata",
+    "Tataka",
+    "Kabandha",
+    "Ahiravan",
+    "Shantanu",
+    "Ganga",
+    "Satyavati",
+    "Amba",
+    "Virata",
+    "Drupada",
+    "Dhrishtadyumna",
+    "Kichaka",
+    "Shalya",
+    "Satyaki",
+    "Jarasandha",
+    "Shishupala",
+    "Kansa",
+    "Rukmini",
+    "Barbarika",
+    "Iravan",
+    "Ulupi",
+    "Chitrangada",
+    "Durvasa",
+    "Parashurama",
+    "Bakasura",
+    "Vikarna",
+    "Narada",
+    "Indra",
+    "Surya",
+    "Ambika",
+    "Ambalika",
+    "Babruvahana",
+    "Bhagadatta",
+    "Kritavarma",
+    "Yuyutsu",
+    "Dushala",
+    "Pradyumna",
+    "Nila",
+    "Kalanemi",
+    "Sumali"
    ]
   },
   {
@@ -2177,7 +3005,11 @@
    "text": "Name a Japanese god or goddess (kami)",
    "answers": [
     "Amaterasu",
-    "Susanoo",
+    [
+     "Susanoo",
+     "susano-o",
+     "susanowo"
+    ],
     "Tsukuyomi",
     "Izanagi",
     "Izanami",
@@ -2202,7 +3034,10 @@
     "Fukurokuju",
     "Hotei",
     "Ninigi",
-    "Okuninushi",
+    [
+     "Okuninushi",
+     "okuninushi no mikoto"
+    ],
     [
      "Konohanasakuya-hime",
      "Konohanasakuya"
@@ -2213,7 +3048,10 @@
      "Uzume"
     ],
     "Sarutahiko",
-    "Tenjin",
+    [
+     "Tenjin",
+     "sugawara no michizane"
+    ],
     "Ryujin",
     "Takemikazuchi",
     "Omoikane",
@@ -2233,7 +3071,27 @@
     "Futsunushi",
     "Sukunabikona",
     "Yamato Takeru",
-    "Toyouke"
+    "Toyouke",
+    [
+     "Seven Lucky Gods",
+     "shichifukujin"
+    ],
+    "Kushinadahime",
+    "Takeminakata",
+    "Watatsumi",
+    "Hiruko",
+    "Kuninotokotachi",
+    "Konpira",
+    "Dōsojin",
+    "Kamado-gami",
+    "Ta-no-Kami",
+    "Yama-no-Kami",
+    "Kishijoten",
+    "Kotoshironushi",
+    "Shinatsuhiko",
+    "Mizuhanome",
+    "Emperor Jimmu",
+    "Ame-no-Wakahiko"
    ]
   },
   {
@@ -2303,7 +3161,35 @@
     "Ekeko",
     "Pariacaca",
     "Mama Ocllo",
-    "Manco Capac"
+    "Manco Capac",
+    "Mixcoatl",
+    "Tonantzin",
+    "Chicomecoatl",
+    "Xilonen",
+    "Huehuecoyotl",
+    "Nanahuatzin",
+    "Tecciztecatl",
+    "Tlaltecuhtli",
+    "Chantico",
+    "Ixtab",
+    "Buluc Chabtan",
+    "Hun Batz",
+    "Vucub Caquix",
+    "Zipacna",
+    "Cabrakan",
+    "Xmucane",
+    "K'awiil",
+    [
+     "Maize God",
+     "hun nal ye"
+    ],
+    "Bacabs",
+    "Apu",
+    "Kon",
+    "Coniraya",
+    "Mama Sara",
+    "Catequil",
+    "Chasca"
    ]
   },
   {
@@ -2351,7 +3237,10 @@
      "Hadad",
      "Ishkur"
     ],
-    "Kingu",
+    [
+     "Kingu",
+     "qingu"
+    ],
     "Apsu",
     "Ninurta",
     "Nanshe",
@@ -2383,7 +3272,22 @@
     "Nusku",
     "Shala",
     "Ninmug",
-    "Bau"
+    "Bau",
+    "Ninshubur",
+    "Ningishzida",
+    "Ningirsu",
+    "Erra",
+    "Amurru",
+    "Sarpanit",
+    "Damgalnuna",
+    "Mummu",
+    "Tashmetum",
+    "Ishum",
+    "Asalluhi",
+    "Uttu",
+    "Enbilulu",
+    "Lugalbanda",
+    "Gilgamesh"
    ]
   },
   {
@@ -2477,7 +3381,68 @@
     ],
     "Nireus",
     "Rhesus",
-    "Memnon"
+    "Memnon",
+    "Clytemnestra",
+    "Orestes",
+    "Aegisthus",
+    "Philoctetes",
+    "Neoptolemus",
+    "Ajax the Lesser",
+    "Antilochus",
+    "Protesilaus",
+    "Automedon",
+    "Peleus",
+    "Iris",
+    "Eris",
+    "Hypnos",
+    "Persephone",
+    "Hades",
+    "Proteus",
+    "Calchas",
+    "Helenus",
+    "Antenor",
+    "Anchises",
+    "Lycaon",
+    "Phemius",
+    "Irus",
+    "Melantho",
+    "Anticlea",
+    "Myrmidons",
+    "Suitors",
+    "Pisistratus",
+    "Philoetius",
+    "Sisyphus",
+    "Tantalus",
+    "Orion",
+    "Minos",
+    [
+     "Heracles",
+     "hercules"
+    ],
+    [
+     "Epicaste",
+     "jocasta"
+    ],
+    "Leda",
+    "Ariadne",
+    "Briareus",
+    "Cronus",
+    "Oceanus",
+    "Atlas",
+    "Cattle of Helios",
+    "Xanthus and Balius",
+    "Troilus",
+    "Asteropaeus",
+    "Theoclymenus",
+    "Halitherses",
+    "Mentes",
+    "Hermione",
+    "Megapenthes",
+    "Eupeithes",
+    "Dolius",
+    "Tydeus",
+    "Laodamas",
+    "Euryalus"
    ]
   },
   {
@@ -2644,7 +3609,19 @@
     [
      "The Cost of Discipleship",
      "Tower Builder"
-    ]
+    ],
+    "The Good Shepherd",
+    "New Wine into Old Wineskins",
+    "New Cloth on an Old Garment",
+    "The Strong Man",
+    "The Watchful Servants",
+    "The Thief in the Night",
+    "The King Going to War",
+    "The Lowest Seat",
+    "The Vine and the Branches",
+    "The Unprofitable Servants",
+    "The Doorkeeper",
+    "The Bridegroom"
    ]
   },
   {
@@ -2662,7 +3639,8 @@
     [
      "Feeding the Five Thousand",
      "Loaves and Fishes",
-     "Five Thousand"
+     "Five Thousand",
+     "feeding the 5000"
     ],
     "Walking on Water",
     [
@@ -2772,7 +3750,13 @@
     [
      "Healing the Man with Dropsy",
      "Dropsy"
-    ]
+    ],
+    "Healing the Blind Man of Bethsaida",
+    "Exorcism at the Synagogue in Capernaum",
+    "Healing the Mute Demoniac",
+    "Healing the Blind and Mute Man",
+    "Healing Two Blind Men",
+    "Second Miraculous Catch of Fish"
    ]
   },
   {
@@ -2815,7 +3799,10 @@
      "Cockaigne",
      "Land of Cockaigne"
     ],
-    "Thule",
+    [
+     "Thule",
+     "ultima thule"
+    ],
     [
      "Ys",
      "Ker-Ys"
@@ -2863,7 +3850,78 @@
     ],
     "Prester John's kingdom",
     "Quivira",
-    "Troy"
+    "Troy",
+    "Hell",
+    [
+     "Fairyland",
+     "elfland"
+    ],
+    "Otherworld",
+    "Mag Mell",
+    "Emain Ablach",
+    "Garden of the Hesperides",
+    [
+     "Isles of the Blessed",
+     "fortunate isles"
+    ],
+    "Kunlun",
+    "Penglai",
+    "Takamagahara",
+    "Yomi",
+    "Ryūgū-jō",
+    "Lanka",
+    "Svarga",
+    "Naraka",
+    "Patala",
+    "Vaikuntha",
+    "Duat",
+    [
+     "Aaru",
+     "field of reeds"
+    ],
+    "Dilmun",
+    "Irkalla",
+    "Xibalba",
+    "Mictlan",
+    "Aztlan",
+    "Hawaiki",
+    "Buyan",
+    "Vineta",
+    "Rungholt",
+    [
+     "Iram of the Pillars",
+     "ubar"
+    ],
+    "Mount Qaf",
+    "Sodom and Gomorrah",
+    [
+     "Tower of Babel",
+     "babel"
+    ],
+    "Ophir",
+    "Lost City of Z",
+    "Paititi",
+    "Saint Brendan's Island",
+    "Frisland",
+    "Bimini",
+    "Asphodel Meadows",
+    "Styx",
+    "Lethe",
+    "Erebus",
+    "Themiscyra",
+    "Aeaea",
+    "Ogygia",
+    "Scheria",
+    "Folkvangr",
+    "Bifrost",
+    "Utgard",
+    "Ginnungagap",
+    "Tír Tairngire",
+    "Broceliande",
+    "Corbenic",
+    "Joyous Gard",
+    "Logres",
+    "Sarras"
    ]
   },
   {
@@ -2953,15 +4011,56 @@
     "Milcah",
     "Mahalalel",
     "Jared",
-    "Kenan",
-    "Enosh",
+    [
+     "Kenan",
+     "cainan"
+    ],
+    [
+     "Enosh",
+     "enos"
+    ],
     "Arphaxad",
     "Peleg",
     "Adah",
     "Zillah",
     "Jubal",
     "Tubal-cain",
-    "Jabal"
+    "Jabal",
+    "Naamah",
+    "Mehujael",
+    "Methushael",
+    "Irad",
+    "Basemath",
+    "Judith",
+    "Oholibamah",
+    "Eliphaz",
+    "Amalek",
+    "Uz",
+    "Aram",
+    "Ashkenaz",
+    "Gomer",
+    "Magog",
+    "Javan",
+    "Tubal",
+    "Meshech",
+    "Elam",
+    "Asshur",
+    "Sheba",
+    "Put",
+    "Sidon",
+    "Heth",
+    "Amraphel",
+    "Chedorlaomer",
+    "Phicol",
+    "Deborah",
+    "Potiphera",
+    "Reu",
+    "Serug",
+    "Iscah",
+    "Hirah",
+    "Shua",
+    "Hezron",
+    "Mahalath"
    ]
   },
   {
@@ -2974,7 +4073,11 @@
     "Kappa",
     "Tengu",
     "Oni",
-    "Kitsune",
+    [
+     "Kitsune",
+     "kyubi no kitsune",
+     "nine-tailed fox"
+    ],
     "Tanuki",
     "Yūrei",
     "Nue",
@@ -3028,7 +4131,51 @@
     "Aobozu",
     "Inugami",
     "Kawauso",
-    "Gyuki"
+    "Gyuki",
+    [
+     "Japanese dragon",
+     "ryu"
+    ],
+    "Komainu",
+    "Shisa",
+    "Tsuchigumo",
+    "Yamabiko",
+    [
+     "Yamauba",
+     "yamamba"
+    ],
+    "Amabie",
+    "Teke Teke",
+    [
+     "Hanako-san",
+     "toilet hanako"
+    ],
+    "Chōchin-obake",
+    "Ōmukade",
+    "Nurikabe",
+    "Azukiarai",
+    "Shōjō",
+    "Hitodama",
+    "Onibi",
+    "Kitsunebi",
+    "Funayūrei",
+    "Ubume",
+    "Satori",
+    "Mokumokuren",
+    "Karasu-tengu",
+    "Shikigami",
+    "Jinmenken",
+    "Tsuchinoko",
+    "Okiku",
+    "Oiwa",
+    "Gaki",
+    "Jikininki",
+    "Kasha",
+    "Hyakume",
+    "Sazae-oni",
+    "Kijimuna",
+    "Bakekujira",
+    "Isonade"
    ]
   }
  ]

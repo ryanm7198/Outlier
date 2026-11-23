@@ -18,7 +18,8 @@
     [
      "Blackjack",
      "twenty-one",
-     "vingt-et-un"
+     "vingt-et-un",
+     "21"
     ],
     "Rummy",
     [
@@ -37,7 +38,8 @@
     [
      "Cheat",
      "bluff",
-     "i doubt it"
+     "i doubt it",
+     "bullshit"
     ],
     "Pontoon",
     [
@@ -47,7 +49,8 @@
     [
      "Crazy Eights",
      "switch",
-     "mau mau"
+     "mau mau",
+     "last card"
     ],
     "Hearts",
     "Spades",
@@ -86,6 +89,17 @@
      "kaluki",
      "kalookie"
     ],
+    [
+     "Kings Cup",
+     "ring of fire"
+    ],
+    [
+     "Higher or Lower",
+     "play your cards right"
+    ],
+    "Ride the Bus",
+    "Teen Patti",
+    "Snip Snap Snorem",
     [
      "Shithead",
      "shed",
@@ -166,7 +180,10 @@
      "choh dai di",
      "deuces"
     ],
-    "Tien Len",
+    [
+     "Tien Len",
+     "thirteen"
+    ],
     "Pusoy Dos",
     "Truco",
     "Mus",
@@ -219,7 +236,25 @@
     "Twenty-Nine",
     "Écarté",
     "Cuckoo",
-    "Gleek"
+    "Gleek",
+    "Barbu",
+    "Auction bridge",
+    "Pope Joan",
+    "Commerce",
+    "Lansquenet",
+    "Primero",
+    "Put",
+    "Kings in the Corner",
+    [
+     "Garbage",
+     "trash"
+    ],
+    "Andar Bahar",
+    "Sixty-six",
+    "Schnapsen",
+    "Tute",
+    "Tressette",
+    "Sueca"
    ]
   },
   {
@@ -242,7 +277,9 @@
      "slots",
      "fruit machine",
      "one-armed bandit",
-     "slot machine"
+     "slot machine",
+     "fruit machines",
+     "one-armed bandits"
     ],
     [
      "Craps",
@@ -314,7 +351,10 @@
     "Two-up",
     "Boule",
     "Blackjack Switch",
-    "Dragon Tiger"
+    "Dragon Tiger",
+    "Mahjong",
+    "Razz",
+    "Sports betting"
    ]
   },
   {
@@ -362,7 +402,8 @@
      "Money bag",
      "moneybag",
      "bag of money",
-     "sack of money"
+     "sack of money",
+     "purse"
     ],
     "Penguin",
     [
@@ -375,7 +416,9 @@
      "dinosaur",
      "tyrannosaurus",
      "trex"
-    ]
+    ],
+    "Lantern",
+    "Rocking horse"
    ]
   },
   {
@@ -415,6 +458,17 @@
      "london"
     ],
     [
+     "Queen's Pawn Opening",
+     "queen's pawn game"
+    ],
+    [
+     "King's Pawn Opening",
+     "king's pawn game"
+    ],
+    "Scholar's Mate",
+    "Fool's Mate",
+    "Bongcloud",
+    [
      "English Opening",
      "english"
     ],
@@ -425,7 +479,8 @@
     [
      "Scandinavian Defence",
      "scandinavian",
-     "centre counter"
+     "centre counter",
+     "center counter"
     ],
     [
      "Dutch Defence",
@@ -627,7 +682,34 @@
     [
      "Scheveningen Variation",
      "scheveningen"
-    ]
+    ],
+    "Stafford Gambit",
+    "Leningrad Dutch",
+    "Stonewall Dutch",
+    "Sveshnikov Variation",
+    "Taimanov Variation",
+    "Kan Variation",
+    "Alapin Variation",
+    "Rossolimo Variation",
+    "Grand Prix Attack",
+    "Closed Sicilian",
+    "Winawer Variation",
+    "Advance Variation",
+    "Exchange Variation",
+    "Panov Attack",
+    "Botvinnik Variation",
+    "Meran Variation",
+    [
+     "Sämisch Variation",
+     "samisch"
+    ],
+    "Four Pawns Attack",
+    "Mar del Plata Variation",
+    "Czech Benoni",
+    "Wing Gambit",
+    "Muzio Gambit",
+    "Cochrane Gambit",
+    "Belgrade Gambit"
    ]
   },
   {
@@ -690,7 +772,9 @@
      "Farkle",
      "zilch",
      "ten thousand",
-     "10000"
+     "10000",
+     "greed",
+     "hot dice"
     ],
     "Shut the Box",
     "Pig",
@@ -720,6 +804,21 @@
      "Pass the Pigs",
      "pigmania"
     ],
+    [
+     "Left Centre Right",
+     "lcr",
+     "left center right"
+    ],
+    "Threes",
+    "Chicago",
+    "Fifty",
+    "Going to Boston",
+    "Knucklebones",
+    [
+     "Under and Over 7",
+     "under over"
+    ],
+    "Dice cricket",
     "Zombie Dice",
     "Hazard",
     "Drop Dead",
@@ -741,7 +840,8 @@
     "Qwixx",
     "Owzthat",
     "Martian Dice",
-    "Cacho"
+    "Cacho",
+    "Rory's Story Cubes"
    ]
   },
   {
@@ -753,7 +853,8 @@
    "answers": [
     [
      "Klondike",
-     "klondike solitaire"
+     "klondike solitaire",
+     "solitaire"
     ],
     [
      "Spider",
@@ -781,7 +882,8 @@
     ],
     [
      "Canfield",
-     "Chameleon"
+     "Chameleon",
+     "demon"
     ],
     [
      "La Belle Lucie",
@@ -807,316 +909,318 @@
      "Gaps",
      "Spaces"
     ],
-    "Calculation",
-    "Aces and Kings",
-    "Aces Square",
-    "Acme",
-    "Addiction",
-    "Agnes",
-    "Alaska",
-    "Algerian",
-    "Alhambra",
-    "Amazons",
-    "American Toad",
-    "Apophis",
-    "Appreciate",
-    "Acquaintance",
-    "Archway",
-    "Auld Lang Syne",
-    "Australian Patience",
-    "Babette",
-    "Backbone",
-    "Baker's Game",
-    "Baroness",
-    "Batsford",
-    "Beetle",
-    "Belvedere",
-    "Betsy Ross",
-    "Big Ben",
-    "Big Forty",
-    "Big Harp",
-    "Birthday",
-    "Bisley",
-    "Black Hole",
-    "Block 10",
-    "Blockade",
-    [
-     "Bowling",
-     "Bowling Solitaire"
-    ],
-    "Box Kite",
-    [
-     "Braid",
-     "Plait"
-    ],
-    "Brigade",
-    "Bristol",
-    [
-     "British Constitution",
-     "Constitution"
-    ],
-    "British Square",
-    "Broken Intervals",
-    "Busy Aces",
-    "Capricieuse",
-    "Carpet",
-    "Carthage",
-    "Casket",
-    "Castles in Spain",
-    "Chessboard",
-    "Cicely",
-    "Citadel",
-    "Colorado",
-    "Colours",
-    [
-     "Congress",
-     "Parliament"
-    ],
-    [
-     "Contradance",
-     "Cotillion"
-    ],
-    "Corner Card",
-    "Corner Patience",
-    "Corners",
-    "Corona",
-    [
-     "Courtyard",
-     "Deuces"
-    ],
-    "Crazy Quilt",
-    "Crescent",
-    [
-     "Cribbage solitaire",
-     "Cribbage Solitaire"
-    ],
-    "Cribbage Squares",
-    "Cruel",
-    "Curds and Whey",
-    "Czarina",
-    "Decade",
-    "Devil's Grip",
-    "Diplomat",
-    "Double Canfield",
-    "Doublets",
-    "Downing Street",
-    "Dress Parade",
-    "Duchess",
-    "Eagle Wing",
-    "Easthaven",
-    "Eight Cards",
-    "Eight Off",
-    "Eighteens",
-    "Elevens",
-    "Emperor",
-    "Emperor of Germany",
-    "Escalator",
-    "Exit",
-    "Faerie Queen",
-    "Fifteens",
-    "Five Piles",
-    "Florentine Patience",
-    "Flower Garden",
-    "Fly",
-    "Following",
-    "Fortress",
-    "Fortune's Favor",
-    "Four Corners",
-    "Four Seasons",
-    "Four Winds",
-    [
-     "Fourteen Out",
-     "Take Fourteen"
-    ],
-    "Fourteens",
-    "Frog",
-    "Frustration",
-    "Gargantua",
-    "Gate",
-    "Gavotte",
-    "Gay Gordons",
-    "German Clock",
-    "German Patience",
-    "Giant",
-    "Giza",
-    "Glencoe",
-    "Good Measure",
-    "Good Thirteen",
-    "Grampus",
-    "Granada",
-    "Grand Duchess",
-    "Grandfather's Clock",
-    "Grandfather's Patience",
-    "Grandmother's Patience",
-    "Harp",
-    "Heads and Tails",
-    "Herring-Bone",
-    "Herz zu Herz",
-    "Hide-and-Seek",
-    "Hit or Miss",
-    "House in the Woods",
-    "House on the Hill",
+    "Miss Milligan",
     [
      "Idiot's Delight",
      "King Albert"
     ],
-    "Imaginary Thirteen",
-    "Imperial Guards",
-    "Indian",
-    "Indian Carpet",
-    "Interregnum",
-    "Intrigue",
-    "Josephine",
-    "Jubilee",
-    "King Tut",
-    "Kings in the Corners",
-    "King's Audience",
-    "Kingsdown Eights",
-    "Knockout",
-    "La Chatelaine",
-    "La Croix d'Honneur",
-    "Labyrinth",
-    "Lady Betty",
-    "Lady of the Manor",
-    "Laggard Lady",
-    "Las Vegas Solitaire",
-    "Last Chance",
-    "Leoni's Own",
-    "Limited",
-    "Little Milligan",
-    "Little Spider",
-    "Little Windmill",
-    "Long Braid",
-    "Louis",
-    "Lucas",
-    "Maria",
-    "Martha",
-    "Matrimony",
-    "Maze",
-    "Millie",
-    "Milligan Cell",
-    "Milligan Harp",
-    "Milligan Yukon",
-    "Miss Milligan",
+    "Napoleon's Square",
     "Monte Carlo",
-    "Moojub",
-    "Mount Olympus",
-    "Mrs. Mop",
-    "Narcotic",
+    "Grandfather's Clock",
+    "Flower Garden",
+    "Four Seasons",
+    "Devil's Grip",
+    "Black Hole",
+    "Bisley",
+    "Eight Off",
+    "Labyrinth",
+    "Crescent",
+    "Cruel",
+    "Duchess",
+    "Easthaven",
+    "Josephine",
+    "Little Spider",
+    "Las Vegas Solitaire",
+    "Emperor",
+    "Elevens",
+    "Fortune's Favor",
+    "Baker's Game",
+    "Russian Solitaire",
+    "Somerset",
+    "Calculation",
+    "Kings in the Corners",
+    "Poker Squares",
+    "Pyramid Golf",
+    "Spiderette",
+    "Double Canfield",
+    "Seahaven Towers",
+    "Simple Simon",
+    "Sir Tommy",
     [
      "Napoleon's Favorite",
      "St. Helena",
      "Washington's Favorite"
     ],
-    "Napoleon's Square",
-    "Nestor",
-    "Nine Across",
-    "Ninety-One",
-    "Nivernaise",
-    "Number Ten",
-    "Numerica",
-    "Odd and Even",
-    "Old Fashioned",
-    "Old Mole",
-    "Old Patience",
-    "One234",
-    "Osmosis",
-    "Päckchen",
-    "Parallels",
-    "Parisienne",
-    "Pas de Deux",
-    "Patriarchs",
-    "Penguin",
     "Perpetual Motion",
-    "Perseverance",
-    "Persian Patience",
-    "Persian Rug",
-    "Pharaoh′s Grave",
+    "Tut's Tomb",
+    "Big Ben",
+    "Eagle Wing",
+    "Alhambra",
+    "Beetle",
+    "Fortress",
+    "Penguin",
+    "Mount Olympus",
+    "Royal Flush",
+    "Sixty Thieves",
+    "Streets and Alleys",
+    "Agnes",
+    "Alaska",
+    "Osmosis",
+    "Grandfather's Patience",
+    "Little Milligan",
+    "Rainbow Canfield",
+    "Superior Canfield",
+    [
+     "Cribbage solitaire",
+     "Cribbage Solitaire"
+    ],
+    "Four Corners",
+    "Windmill",
+    "Zodiac",
+    "Frog",
+    "Gargantua",
+    "Busy Aces",
+    "Thirteens",
+    "Red and Black",
+    "King Tut",
+    "Auld Lang Syne",
+    "Crazy Quilt",
+    "Chessboard",
+    "Castles in Spain",
+    "Australian Patience",
+    "Numerica",
+    "Narcotic",
+    "Martha",
+    "Diplomat",
+    "Four Winds",
+    "Interregnum",
+    "Thirteen Down",
+    "House in the Woods",
+    "Herz zu Herz",
+    "Gay Gordons",
+    "Mrs. Mop",
+    "Acme",
+    "Storehouse",
+    "Virginia Reel",
+    "Last Chance",
+    "Emperor of Germany",
+    "Corner Patience",
+    "Royal Cotillion",
+    "Stonewall",
+    "Six By Six",
     [
      "Picture Gallery",
      "Royal Parade"
     ],
-    "Picture Patience",
-    "Pigtail",
-    "Poker Squares",
-    "Portuguese Solitaire",
     "Precedence",
-    "Propeller",
+    [
+     "Congress",
+     "Parliament"
+    ],
+    "Broken Intervals",
+    "Big Harp",
+    "Corners",
+    "Baroness",
+    "Giant",
+    "Persian Rug",
     "Puss in the Corner",
-    "Putt Putt",
-    "Pyramide",
-    "Pyramid Golf",
-    "Quadrille",
-    "Queen of Italy",
-    "Queen's Audience",
-    "Raglan",
-    "Rainbow Canfield",
-    "Rank and File",
-    "Red and Black",
-    "Roosevelt at San Juan",
-    "Rosamund's Bower",
+    "Louis",
+    "One234",
+    "Gavotte",
+    "Old Patience",
     "Rouge et Noir",
-    "Royal Cotillion",
-    "Royal Flush",
-    "Royal Marriage",
-    "Royal Rendezvous",
-    "Russian",
-    "Salic Law",
-    "Seahaven Towers",
-    "Seven Devils",
-    "Shamrocks",
-    "Simple Simon",
-    "Simplicity",
-    "Sir Tommy",
-    "Six By Six",
-    "Sixes and Sevens",
-    "Sixty Thieves",
-    "Sly Fox",
-    "Spanish Patience",
-    "Spiderette",
-    "Spiderwort",
-    "Square",
-    "Stalactites",
-    "Stonewall",
-    "Storehouse",
-    "Strategy",
-    "Streets",
-    "Streets and Alleys",
-    "Sultan",
-    "Super Flower Garden",
-    "Superior Canfield",
-    "Tableau",
-    "Tam O'Shanter",
-    "Tens",
-    "Terrace",
-    "The Fan",
-    "The Plot",
-    "Thirteens",
-    "Thirteen Up",
-    "Thirteen Down",
-    "Three Blind Mice",
-    "Three Shuffles and a Draw",
-    "Thumb and Pouch",
-    "Tournament",
-    "Tower of Hanoy",
-    "Tower of Pisa",
-    "Travellers",
-    "Trefoil",
-    "Triangle",
-    "Tut's Tomb",
-    "Twenty",
-    "Vanishing Cross",
-    "Vertical",
-    "Virginia Reel",
+    "Brigade",
+    "Propeller",
+    "Capricieuse",
     "Wasp",
-    "Watch",
-    "Weavers",
-    "Westcliff",
-    "Whitehead",
-    "Wildflower",
+    "Tower of Hanoy",
+    [
+     "Fourteen Out",
+     "Take Fourteen"
+    ],
+    "Acquaintance",
+    "Addiction",
+    "Matrimony",
+    "Simplicity",
+    "Five Piles",
+    "Patriarchs",
+    "Pharaoh′s Grave",
+    "Birthday",
+    "Old Mole",
+    "Decade",
+    "Streets",
+    [
+     "British Constitution",
+     "Constitution"
+    ],
+    "Aces and Kings",
+    "Rosamund's Bower",
+    "Pyramide",
+    "Archway",
     "Will o' the Wisp",
-    "Windmill",
-    "Zodiac"
+    "Wildflower",
+    "Square",
+    "Jubilee",
+    "Shamrocks",
+    "King's Audience",
+    "Downing Street",
+    "Millie",
+    "Terrace",
+    "The Plot",
+    "Spanish Patience",
+    "German Patience",
+    "Maze",
+    "Limited",
+    "Casket",
+    "Watch",
+    "Trefoil",
+    "Long Braid",
+    "Gate",
+    "Cribbage Squares",
+    "Apophis",
+    [
+     "Braid",
+     "Plait"
+    ],
+    "Milligan Cell",
+    "Russian",
+    "Nivernaise",
+    "Escalator",
+    "Thirteen Up",
+    "Intrigue",
+    "Raglan",
+    "Following",
+    "Thumb and Pouch",
+    "Fourteens",
+    "Nine Across",
+    "Vanishing Cross",
+    "Knockout",
+    "Bristol",
+    "Doublets",
+    "Herring-Bone",
+    "Pigtail",
+    "Imaginary Thirteen",
+    "Number Ten",
+    "Tower of Pisa",
+    "Curds and Whey",
+    "Blockade",
+    "Dress Parade",
+    "Czarina",
+    "Indian",
+    "Persian Patience",
+    "Backbone",
+    "Algerian",
+    "Weavers",
+    "Whitehead",
+    "Citadel",
+    "Betsy Ross",
+    "Parisienne",
+    "Putt Putt",
+    "Super Flower Garden",
+    "Travellers",
+    "Box Kite",
+    "The Fan",
+    "Perseverance",
+    "Imperial Guards",
+    "Roosevelt at San Juan",
+    "Pas de Deux",
+    "Rank and File",
+    "Tournament",
+    "Triangle",
+    "Royal Marriage",
+    "Frustration",
+    "British Square",
+    "Ninety-One",
+    "Three Blind Mice",
+    "Corner Card",
+    "Tens",
+    "Giza",
+    "Lady of the Manor",
+    "Parallels",
+    "Leoni's Own",
+    "Eighteens",
+    "Seven Devils",
+    "Glencoe",
+    "La Chatelaine",
+    "Laggard Lady",
+    "Hit or Miss",
+    "Cicely",
+    "Fly",
+    "Lady Betty",
+    "Picture Patience",
+    "Aces Square",
+    "Corona",
+    "Good Thirteen",
+    "Moojub",
+    "Old Fashioned",
+    "Milligan Yukon",
+    "Grampus",
+    "Appreciate",
+    "Maria",
+    "Nestor",
+    "Exit",
+    [
+     "Courtyard",
+     "Deuces"
+    ],
+    "Päckchen",
+    "Colours",
+    "Salic Law",
+    "Queen of Italy",
+    "Granada",
+    "Tam O'Shanter",
+    [
+     "Bowling",
+     "Bowling Solitaire"
+    ],
+    "Royal Rendezvous",
+    "Harp",
+    "Strategy",
+    "Belvedere",
+    "Grand Duchess",
+    "Block 10",
+    "German Clock",
+    "Queen's Audience",
+    "Faerie Queen",
+    [
+     "Contradance",
+     "Cotillion"
+    ],
+    "Tableau",
+    "Spiderwort",
+    "American Toad",
+    "Heads and Tails",
+    "Sultan",
+    "Three Shuffles and a Draw",
+    "Carthage",
+    "Quadrille",
+    "Vertical",
+    "Westcliff",
+    "Big Forty",
+    "Twenty",
+    "Batsford",
+    "Lucas",
+    "Eight Cards",
+    "Babette",
+    "Amazons",
+    "Good Measure",
+    "Stalactites",
+    "Hide-and-Seek",
+    "Colorado",
+    "House on the Hill",
+    "Kingsdown Eights",
+    "Indian Carpet",
+    "Carpet",
+    "Sixes and Sevens",
+    "Florentine Patience",
+    "Grandmother's Patience",
+    "Odd and Even",
+    "Portuguese Solitaire",
+    "La Croix d'Honneur",
+    "Sly Fox",
+    "Milligan Harp",
+    "Fifteens",
+    "Little Windmill"
    ],
    "deep": true
   },
@@ -1163,7 +1267,10 @@
      "hase und igel"
     ],
     "Focus",
-    "Enchanted Forest",
+    [
+     "Enchanted Forest",
+     "sagaland"
+    ],
     [
      "Railway Rivals",
      "dampfross"
@@ -1185,7 +1292,8 @@
     "Um Reifenbreite",
     [
      "Call My Bluff",
-     "liar's dice"
+     "liar's dice",
+     "bluff"
     ],
     "Manhattan",
     "El Grande",
@@ -1569,6 +1677,23 @@
     "Yubo",
     "Lemon8",
     "Musical.ly",
+    [
+     "KakaoTalk",
+     "kakao talk"
+    ],
+    "Badoo",
+    [
+     "Plenty of Fish",
+     "pof"
+    ],
+    "Match",
+    "Happn",
+    "Feeld",
+    "OnlyFans",
+    "Kick",
+    "Rumble",
+    "Mumsnet",
+    "Google Meet",
     "Picsart",
     "Zoom",
     "FaceTime",
@@ -1576,7 +1701,10 @@
     "AIM",
     "Yahoo! Messenger",
     "BBM",
-    "Google Hangouts",
+    [
+     "Google Hangouts",
+     "hangouts"
+    ],
     "Google Chat",
     "Slack",
     "Tinder",
@@ -1598,7 +1726,21 @@
     "Foursquare",
     "Swarm",
     "Cohost",
-    "Spill"
+    "Spill",
+    "Zalo",
+    "Imo",
+    "Wire",
+    "Threema",
+    "Element",
+    "Session",
+    "GroupMe",
+    "Marco Polo",
+    "Raya",
+    "Her",
+    "Weverse",
+    "Yammer",
+    "Workplace",
+    "Minds"
    ]
   },
   {
@@ -1846,7 +1988,37 @@
     "Gionee",
     "Leica",
     "Teracube",
-    "Light"
+    "Light",
+    [
+     "Amazon",
+     "fire phone"
+    ],
+    "Acer",
+    "Dell",
+    "HP",
+    "Razer",
+    "Black Shark",
+    "Sonim",
+    "Kodak",
+    "Yota",
+    "Jolla",
+    "Purism",
+    [
+     "PinePhone",
+     "pine64"
+    ],
+    "Punkt",
+    "Unihertz",
+    "Crosscall",
+    "Gigaset",
+    "Hisense",
+    "Haier",
+    "Philips",
+    "Toshiba",
+    "NEC",
+    "Casio",
+    "Vodafone",
+    "Orange"
    ]
   },
   {
@@ -2008,12 +2180,28 @@
     "Kiwi Browser",
     "Firefox Focus",
     "Orion",
-    "ChatGPT Atlas",
+    [
+     "ChatGPT Atlas",
+     "Atlas"
+    ],
     "Comet",
     "Sleipnir",
     "Lunascape",
     "AOL Explorer",
-    "HotJava"
+    "HotJava",
+    "Dia",
+    "Thorium",
+    "Mercury",
+    "Basilisk",
+    "Iceweasel",
+    "GNU IceCat",
+    "Torch Browser",
+    "Avast Secure Browser",
+    "Aloha",
+    "Ghostery",
+    "Min",
+    "qutebrowser",
+    "Nyxt"
    ]
   },
   {
@@ -2037,7 +2225,8 @@
     [
      "Ask Jeeves",
      "ask",
-     "ask.com"
+     "ask.com",
+     "jeeves"
     ],
     "Ecosia",
     "Baidu",
@@ -2065,7 +2254,10 @@
     "Cuil",
     "Blekko",
     "Neeva",
-    "MSN Search",
+    [
+     "MSN Search",
+     "msn"
+    ],
     "Live Search",
     "Archie",
     "Veronica",
@@ -2102,7 +2294,8 @@
     "OneSearch",
     "Marginalia",
     "SearchGPT",
-    "ChaCha"
+    "ChaCha",
+    "Google Scholar"
    ]
   },
   {
@@ -2192,7 +2385,16 @@
     "Power Mac G4 Cube",
     "iPhone SE",
     "iPhone mini",
-    "iPod Hi-Fi"
+    "iPod Hi-Fi",
+    "iPhone Air",
+    "EarPods",
+    "Smart Keyboard",
+    "Apple Remote",
+    "Mighty Mouse",
+    "LaserWriter",
+    "StyleWriter",
+    "ImageWriter",
+    "Thunderbolt Display"
    ]
   },
   {
@@ -2440,7 +2642,15 @@
     [
      "Lens",
      "office lens"
-    ]
+    ],
+    "Whiteboard",
+    "Lists",
+    "Viva",
+    "Designer",
+    "Kaizala",
+    "Live Meeting",
+    "Communicator",
+    "Equation Editor"
    ]
   },
   {
@@ -2520,6 +2730,7 @@
      "Right arrow",
      "right"
     ],
+    "Arrow keys",
     [
      "Print Screen",
      "prtsc",
@@ -2699,7 +2910,15 @@
     "Word",
     "Octet",
     "Qubit",
-    "Trit"
+    "Trit",
+    "Kibibit",
+    "Mebibit",
+    "Gibibit",
+    "Petabit",
+    "Exabit",
+    "Zettabit",
+    "Yottabit",
+    "Crumb"
    ]
   },
   {
@@ -3690,7 +3909,34 @@
     "361 Degrees",
     "Peak",
     "Qiaodan",
-    "Prince"
+    "Prince",
+    "Balenciaga",
+    "Gucci",
+    "Alexander McQueen",
+    "Off-White",
+    "Prada",
+    "Louis Vuitton",
+    "Rick Owens",
+    "Y-3",
+    "Ewing",
+    "And1",
+    "Champion",
+    "TOMS",
+    "Rocket Dog",
+    "Kickers",
+    "Admiral",
+    "Penalty",
+    "Topper",
+    "Olympikus",
+    "Yonex",
+    "Babolat",
+    "Wilson",
+    "Head",
+    "Bape",
+    "Norda",
+    "Keen",
+    "Columbia",
+    "The North Face"
    ]
   },
   {
@@ -3831,6 +4077,12 @@
    "answers": [
     "Trench coat",
     "Parka",
+    "Suit jacket",
+    "Hi-vis jacket",
+    [
+     "Lab coat",
+     "white coat"
+    ],
     [
      "Duffel coat",
      "duffle coat"
@@ -3844,13 +4096,15 @@
     [
      "Bomber jacket",
      "bomber",
-     "flight jacket"
+     "flight jacket",
+     "ma-1"
     ],
     "Blazer",
     "Anorak",
     [
      "Cagoule",
-     "kagoule"
+     "kagoule",
+     "kagool"
     ],
     [
      "Mac",
@@ -3875,11 +4129,13 @@
     [
      "Biker jacket",
      "leather jacket",
-     "motorcycle jacket"
+     "motorcycle jacket",
+     "moto jacket"
     ],
     [
      "Denim jacket",
-     "jean jacket"
+     "jean jacket",
+     "trucker jacket"
     ],
     "Fleece",
     [
@@ -3897,11 +4153,15 @@
     "Morning coat",
     [
      "Waxed jacket",
-     "barbour"
+     "barbour",
+     "wax jacket"
     ],
     "Field jacket",
     "Norfolk jacket",
-    "Safari jacket",
+    [
+     "Safari jacket",
+     "bush jacket"
+    ],
     "Nehru jacket",
     "Shacket",
     [
@@ -3978,7 +4238,22 @@
     "Tweed jacket",
     "Corduroy jacket",
     "Suede jacket",
-    "Cropped jacket"
+    "Cropped jacket",
+    "Kimono jacket",
+    "Monkey jacket",
+    "Mao jacket",
+    "Chanel jacket",
+    "Racer jacket",
+    "Sherpa jacket",
+    "Gore-Tex jacket",
+    "Hardshell",
+    "Mountain jacket",
+    "Overshirt",
+    [
+     "Prince Charlie jacket",
+     "argyll jacket"
+    ],
+    "Duvet coat"
    ]
   },
   {
@@ -4051,8 +4326,20 @@
      "Ball gown",
      "ballgown"
     ],
+    "Party dress",
+    "Bridesmaid dress",
+    "Strapless dress",
+    "Backless dress",
+    "One-shoulder dress",
+    "Lace dress",
+    "Sequin dress",
+    "Velvet dress",
+    "Floral dress",
     "Cocktail dress",
-    "Evening gown",
+    [
+     "Evening gown",
+     "gown"
+    ],
     [
      "Empire line",
      "empire waist"
@@ -4081,7 +4368,8 @@
     ],
     [
      "Off-the-shoulder dress",
-     "bardot"
+     "bardot",
+     "bardot dress"
     ],
     [
      "Kaftan",
@@ -4097,7 +4385,10 @@
      "Trapeze dress",
      "trapeze"
     ],
-    "Sweater dress",
+    [
+     "Sweater dress",
+     "knit dress"
+    ],
     "Polo dress",
     "T-shirt dress",
     "Tulip dress",
@@ -4160,7 +4451,17 @@
     [
      "Column dress",
      "column gown"
-    ]
+    ],
+    "Salwar kameez",
+    "Lehenga",
+    "Ruffle dress",
+    "Puff sleeve dress",
+    "Cut-out dress",
+    "Wiggle dress",
+    "Swing dress",
+    "Milkmaid dress",
+    "Christening gown",
+    "Communion dress"
    ]
   },
   {
@@ -5003,7 +5304,8 @@
      "Early May bank holiday",
      "may day",
      "may day bank holiday",
-     "early may"
+     "early may",
+     "may bank holiday"
     ],
     [
      "Spring bank holiday",
@@ -5072,7 +5374,10 @@
     "Crystal",
     "Linen",
     "Silk",
-    "Sugar",
+    [
+     "Sugar",
+     "candy"
+    ],
     "Wool",
     "Copper",
     "Bronze",
@@ -5085,7 +5390,9 @@
     "Fruit",
     "Flowers",
     "Oak",
-    "Willow"
+    "Willow",
+    "Glass",
+    "Jade"
    ]
   },
   {
@@ -5109,7 +5416,8 @@
     ],
     [
      "The Guardian",
-     "guardian"
+     "guardian",
+     "manchester guardian"
     ],
     [
      "Daily Mirror",
@@ -5212,7 +5520,9 @@
     "News on Sunday",
     "The Post",
     "Sunday Today",
-    "The Planet on Sunday"
+    "The Planet on Sunday",
+    "Racing Post",
+    "Sporting Life"
    ]
   },
   {
@@ -5294,6 +5604,24 @@
      "greenwood family park"
     ],
     "Wonderland Pleasure Park",
+    [
+     "Brighton Palace Pier",
+     "brighton pier",
+     "palace pier"
+    ],
+    "Kursaal",
+    "Woodlands Family Theme Park",
+    "Adventure Wonderland",
+    "Longleat",
+    "Knowsley Safari Park",
+    "Woburn Safari Park",
+    "Watermouth Castle",
+    "Milky Way Adventure Park",
+    "Butlin's",
+    "Dobwalls",
+    "Windsor Safari Park",
+    "Granada Studios Tour",
+    "Rotunda Amusement Park",
     "Gulliver's Valley",
     [
      "Brean Theme Park",
@@ -5547,7 +5875,8 @@
      "thruppenny bit",
      "threepenny bit",
      "thrupenny bit",
-     "3d"
+     "3d",
+     "thruppence"
     ],
     [
      "Florin",
@@ -5597,7 +5926,20 @@
     [
      "Rose noble",
      "ryal"
-    ]
+    ],
+    "Angelet",
+    "Half noble",
+    "Quarter noble",
+    "Gold penny",
+    "Sceat",
+    "Thrymsa",
+    "Styca",
+    "Maundy money",
+    "Dandiprat",
+    "Thistle crown",
+    "Spur ryal",
+    "George noble",
+    "Crown of the Rose"
    ],
    "deep": true
   },
@@ -5750,6 +6092,13 @@
      "marks and spencer"
     ],
     "Ocado",
+    "Costco",
+    "Makro",
+    "Booker",
+    "The Food Warehouse",
+    "Jack's",
+    "Dunnes Stores",
+    "SuperValu",
     "Booths",
     "Farmfoods",
     "Spar",
@@ -5769,7 +6118,10 @@
     "Heron Foods",
     "Fulton's Foods",
     "Scotmid",
-    "Wm Low",
+    [
+     "Wm Low",
+     "william low"
+    ],
     "Hillards",
     "Bejam",
     "Victor Value",
@@ -5809,7 +6161,10 @@
     "Quality Fare",
     "Moores Stores",
     "Lowfreeze",
-    "Cordon Bleu Freezer Food Centres"
+    "Cordon Bleu Freezer Food Centres",
+    "Leo's",
+    "Getir",
+    "Gorillas"
    ]
   },
   {
@@ -5819,7 +6174,10 @@
    ],
    "text": "Name a British airline, past or present",
    "answers": [
-    "British Airways",
+    [
+     "British Airways",
+     "ba"
+    ],
     "easyJet",
     [
      "Jet2",
@@ -5833,7 +6191,8 @@
      "TUI Airways",
      "tui",
      "thomson airways",
-     "thomson"
+     "thomson",
+     "thomsonfly"
     ],
     "Loganair",
     "Flybe",
@@ -5924,7 +6283,16 @@
     "Autair",
     "Hunting-Clan",
     "Imperial Airways",
-    "Aer Lingus UK"
+    "Aer Lingus UK",
+    "Global Airlines",
+    "Norse Atlantic UK",
+    "Air Wales",
+    "British Airtours",
+    "BKS Air Transport",
+    "Silver City Airways",
+    "Aquila Airways",
+    "Air Ferry",
+    "Orion Airways"
    ]
   },
   {
@@ -6012,7 +6380,10 @@
      "Royal Bank of Scotland",
      "rbs"
     ],
-    "TSB",
+    [
+     "TSB",
+     "trustee savings bank"
+    ],
     [
      "Nationwide",
      "nationwide building society"
@@ -6101,7 +6472,71 @@
     "Penrith Building Society",
     "Airdrie Savings Bank",
     "Northern Bank",
-    "Cater Allen"
+    "Cater Allen",
+    "Bank of England",
+    "Standard Chartered",
+    "Barings",
+    "Rothschild",
+    "Investec",
+    "Close Brothers",
+    "Shawbrook",
+    "Aldermore",
+    "OakNorth",
+    "Allica",
+    "Zopa",
+    "Kroo",
+    "Chetwood",
+    "Al Rayan Bank",
+    "Unity Trust Bank",
+    "Triodos",
+    "Charity Bank",
+    "Mettle",
+    "Monese",
+    "Post Office Money",
+    "Cambridge Building Society",
+    "Darlington Building Society",
+    "Hinckley & Rugby",
+    "Loughborough Building Society",
+    "Market Harborough Building Society",
+    "Mansfield Building Society",
+    "Melton Mowbray Building Society",
+    "Newbury Building Society",
+    "Stafford Railway Building Society",
+    "Swansea Building Society",
+    "Tipton & Coseley",
+    "Vernon Building Society",
+    "Beverley Building Society",
+    "Bath Building Society",
+    "Buckinghamshire Building Society",
+    "Dudley Building Society",
+    "Earl Shilton Building Society",
+    "Harpenden Building Society",
+    "Holmesdale Building Society",
+    [
+     "Leek Building Society",
+     "leek united"
+    ],
+    "Manchester Building Society",
+    "Family Building Society",
+    "Scottish Building Society",
+    "Norwich & Peterborough",
+    "Chesham Building Society",
+    "Derbyshire Building Society",
+    "Arbuthnot Latham",
+    "Hampden & Co",
+    "Drummonds",
+    "Child & Co",
+    "Adam & Company",
+    "Weatherbys",
+    "Glyn, Mills & Co",
+    "Schroders",
+    "Kleinwort Benson",
+    "Hambros",
+    "Lazard",
+    "BCCI",
+    "Overend, Gurney",
+    "City of Glasgow Bank",
+    "Bank of Wales"
    ]
   },
   {
@@ -6185,21 +6620,65 @@
      "adelphi"
     ],
     [
+     "Apollo Theatre",
+     "apollo"
+    ],
+    [
+     "St Martin's Theatre",
+     "st martin's",
+     "saint martin's theatre"
+    ],
+    [
      "Aldwych Theatre",
      "aldwych"
     ],
     [
-     "Ambassadors Theatre",
-     "ambassadors"
-    ],
-    [
-     "Apollo Theatre",
-     "apollo"
-    ],
-    "Arts Theatre",
-    [
      "Cambridge Theatre",
      "cambridge"
+    ],
+    [
+     "Savoy Theatre",
+     "savoy"
+    ],
+    [
+     "Prince of Wales Theatre",
+     "prince of wales"
+    ],
+    [
+     "Novello Theatre",
+     "novello",
+     "strand theatre"
+    ],
+    [
+     "Gielgud Theatre",
+     "gielgud",
+     "globe theatre"
+    ],
+    [
+     "Phoenix Theatre",
+     "phoenix"
+    ],
+    [
+     "Shaftesbury Theatre",
+     "shaftesbury",
+     "Judi Dench Theatre"
+    ],
+    [
+     "Wyndham's Theatre",
+     "wyndhams"
+    ],
+    [
+     "Garrick Theatre",
+     "garrick"
+    ],
+    [
+     "Piccadilly Theatre",
+     "piccadilly"
+    ],
+    [
+     "Playhouse Theatre",
+     "playhouse",
+     "kit kat club"
     ],
     [
      "Criterion Theatre",
@@ -6212,20 +6691,6 @@
     [
      "Fortune Theatre",
      "fortune"
-    ],
-    [
-     "Garrick Theatre",
-     "garrick"
-    ],
-    [
-     "Gielgud Theatre",
-     "gielgud",
-     "globe theatre"
-    ],
-    [
-     "Gillian Lynne Theatre",
-     "gillian lynne",
-     "new london theatre"
     ],
     [
      "Harold Pinter Theatre",
@@ -6242,47 +6707,9 @@
      "albery theatre"
     ],
     [
-     "Novello Theatre",
-     "novello",
-     "strand theatre"
-    ],
-    [
-     "Phoenix Theatre",
-     "phoenix"
-    ],
-    [
-     "Piccadilly Theatre",
-     "piccadilly"
-    ],
-    [
-     "Playhouse Theatre",
-     "playhouse"
-    ],
-    [
-     "Prince of Wales Theatre",
-     "prince of wales"
-    ],
-    [
-     "Savoy Theatre",
-     "savoy"
-    ],
-    [
-     "Shaftesbury Theatre",
-     "shaftesbury"
-    ],
-    [
-     "@sohoplace",
-     "sohoplace"
-    ],
-    [
      "Sondheim Theatre",
      "sondheim",
      "queen's theatre"
-    ],
-    [
-     "St Martin's Theatre",
-     "st martin's",
-     "saint martin's theatre"
     ],
     [
      "Theatre Royal Haymarket",
@@ -6290,21 +6717,32 @@
      "haymarket theatre"
     ],
     [
-     "Tom Stoppard Theatre",
-     "duke of york's theatre",
-     "duke of yorks"
+     "Ambassadors Theatre",
+     "ambassadors"
+    ],
+    "Arts Theatre",
+    [
+     "Gillian Lynne Theatre",
+     "gillian lynne",
+     "new london theatre"
     ],
     [
      "Trafalgar Theatre",
-     "trafalgar studios"
+     "trafalgar studios",
+     "whitehall theatre"
     ],
     [
      "Vaudeville Theatre",
      "vaudeville"
     ],
     [
-     "Wyndham's Theatre",
-     "wyndhams"
+     "@sohoplace",
+     "sohoplace"
+    ],
+    [
+     "Tom Stoppard Theatre",
+     "duke of york's theatre",
+     "duke of yorks"
     ],
     [
      "London Coliseum",

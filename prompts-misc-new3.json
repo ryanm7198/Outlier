@@ -11,31 +11,51 @@
     [
      "Alpine skiing",
      "Alpine",
-     "Downhill skiing"
+     "Downhill skiing",
+     "Downhill",
+     "Slalom",
+     "Giant slalom",
+     "Super-G",
+     "Alpine combined"
     ],
     "Curling",
-    "Figure skating",
-    "Ice hockey",
+    [
+     "Figure skating",
+     "Ice dancing",
+     "Ice dance",
+     "Pairs skating"
+    ],
+    [
+     "Ice hockey",
+     "Hockey"
+    ],
     [
      "Snowboarding",
      "Snowboard"
     ],
     [
      "Bobsleigh",
-     "Bobsled"
+     "Bobsled",
+     "Bobsledding",
+     "Bob"
     ],
     "Skeleton",
     "Ski jumping",
     [
      "Cross-country skiing",
      "Cross country skiing",
-     "Cross country"
+     "Cross country",
+     "Nordic skiing"
     ],
     "Biathlon",
     "Luge",
     [
      "Freestyle skiing",
-     "Freestyle"
+     "Freestyle",
+     "Moguls",
+     "Aerials",
+     "Ski cross",
+     "Freestyle ski"
     ],
     "Nordic combined",
     [
@@ -45,9 +65,14 @@
     ],
     [
      "Ski mountaineering",
-     "Skimo"
+     "Skimo",
+     "Ski mo"
     ],
-    "Speed skating"
+    [
+     "Speed skating",
+     "Long track speed skating",
+     "Long track"
+    ]
    ]
   },
   {
@@ -138,9 +163,14 @@
      "title tag"
     ],
     [
-     "base",
-     "<base>",
-     "base tag"
+     "script",
+     "<script>",
+     "script tag"
+    ],
+    [
+     "style",
+     "<style>",
+     "style tag"
     ],
     [
      "link",
@@ -153,29 +183,9 @@
      "meta tag"
     ],
     [
-     "style",
-     "<style>",
-     "style tag"
-    ],
-    [
-     "article",
-     "<article>",
-     "article tag"
-    ],
-    [
-     "section",
-     "<section>",
-     "section tag"
-    ],
-    [
-     "nav",
-     "<nav>",
-     "nav tag"
-    ],
-    [
-     "aside",
-     "<aside>",
-     "aside tag"
+     "br",
+     "<br>",
+     "br tag"
     ],
     [
      "h2",
@@ -183,9 +193,274 @@
      "h2 tag"
     ],
     [
+     "nav",
+     "<nav>",
+     "nav tag"
+    ],
+    [
+     "header",
+     "<header>",
+     "header tag"
+    ],
+    [
+     "footer",
+     "<footer>",
+     "footer tag"
+    ],
+    [
+     "section",
+     "<section>",
+     "section tag"
+    ],
+    [
+     "article",
+     "<article>",
+     "article tag"
+    ],
+    [
+     "main",
+     "<main>",
+     "main tag"
+    ],
+    [
+     "ol",
+     "<ol>",
+     "ol tag"
+    ],
+    [
+     "tr",
+     "<tr>",
+     "tr tag"
+    ],
+    [
+     "td",
+     "<td>",
+     "td tag"
+    ],
+    [
+     "th",
+     "<th>",
+     "th tag"
+    ],
+    [
+     "iframe",
+     "<iframe>",
+     "iframe tag"
+    ],
+    [
+     "video",
+     "<video>",
+     "video tag"
+    ],
+    [
+     "audio",
+     "<audio>",
+     "audio tag"
+    ],
+    [
+     "canvas",
+     "<canvas>",
+     "canvas tag"
+    ],
+    [
+     "label",
+     "<label>",
+     "label tag"
+    ],
+    [
+     "select",
+     "<select>",
+     "select tag"
+    ],
+    [
+     "option",
+     "<option>",
+     "option tag"
+    ],
+    [
+     "textarea",
+     "<textarea>",
+     "textarea tag"
+    ],
+    [
+     "strong",
+     "<strong>",
+     "strong tag"
+    ],
+    [
+     "em",
+     "<em>",
+     "em tag"
+    ],
+    [
+     "b",
+     "<b>",
+     "b tag"
+    ],
+    [
+     "i",
+     "<i>",
+     "i tag"
+    ],
+    [
+     "hr",
+     "<hr>",
+     "hr tag"
+    ],
+    [
      "h3",
      "<h3>",
      "h3 tag"
+    ],
+    [
+     "code",
+     "<code>",
+     "code tag"
+    ],
+    [
+     "pre",
+     "<pre>",
+     "pre tag"
+    ],
+    [
+     "aside",
+     "<aside>",
+     "aside tag"
+    ],
+    [
+     "u",
+     "<u>",
+     "u tag"
+    ],
+    [
+     "blockquote",
+     "<blockquote>",
+     "blockquote tag"
+    ],
+    [
+     "figure",
+     "<figure>",
+     "figure tag"
+    ],
+    [
+     "thead",
+     "<thead>",
+     "thead tag"
+    ],
+    [
+     "tbody",
+     "<tbody>",
+     "tbody tag"
+    ],
+    [
+     "source",
+     "<source>",
+     "source tag"
+    ],
+    [
+     "picture",
+     "<picture>",
+     "picture tag"
+    ],
+    [
+     "dialog",
+     "<dialog>",
+     "dialog tag"
+    ],
+    [
+     "details",
+     "<details>",
+     "details tag"
+    ],
+    [
+     "summary",
+     "<summary>",
+     "summary tag"
+    ],
+    [
+     "template",
+     "<template>",
+     "template tag"
+    ],
+    [
+     "noscript",
+     "<noscript>",
+     "noscript tag"
+    ],
+    [
+     "fieldset",
+     "<fieldset>",
+     "fieldset tag"
+    ],
+    [
+     "legend",
+     "<legend>",
+     "legend tag"
+    ],
+    [
+     "small",
+     "<small>",
+     "small tag"
+    ],
+    [
+     "sup",
+     "<sup>",
+     "sup tag"
+    ],
+    [
+     "sub",
+     "<sub>",
+     "sub tag"
+    ],
+    [
+     "mark",
+     "<mark>",
+     "mark tag"
+    ],
+    [
+     "time",
+     "<time>",
+     "time tag"
+    ],
+    [
+     "caption",
+     "<caption>",
+     "caption tag"
+    ],
+    [
+     "progress",
+     "<progress>",
+     "progress tag"
+    ],
+    [
+     "figcaption",
+     "<figcaption>",
+     "figcaption tag"
+    ],
+    [
+     "abbr",
+     "<abbr>",
+     "abbr tag"
+    ],
+    [
+     "cite",
+     "<cite>",
+     "cite tag"
+    ],
+    [
+     "q",
+     "<q>",
+     "q tag"
+    ],
+    [
+     "kbd",
+     "<kbd>",
+     "kbd tag"
+    ],
+    [
+     "base",
+     "<base>",
+     "base tag"
     ],
     [
      "h4",
@@ -208,39 +483,9 @@
      "hgroup tag"
     ],
     [
-     "header",
-     "<header>",
-     "header tag"
-    ],
-    [
-     "footer",
-     "<footer>",
-     "footer tag"
-    ],
-    [
      "address",
      "<address>",
      "address tag"
-    ],
-    [
-     "hr",
-     "<hr>",
-     "hr tag"
-    ],
-    [
-     "pre",
-     "<pre>",
-     "pre tag"
-    ],
-    [
-     "blockquote",
-     "<blockquote>",
-     "blockquote tag"
-    ],
-    [
-     "ol",
-     "<ol>",
-     "ol tag"
     ],
     [
      "menu",
@@ -263,39 +508,9 @@
      "dd tag"
     ],
     [
-     "figure",
-     "<figure>",
-     "figure tag"
-    ],
-    [
-     "figcaption",
-     "<figcaption>",
-     "figcaption tag"
-    ],
-    [
-     "main",
-     "<main>",
-     "main tag"
-    ],
-    [
      "search",
      "<search>",
      "search tag"
-    ],
-    [
-     "em",
-     "<em>",
-     "em tag"
-    ],
-    [
-     "strong",
-     "<strong>",
-     "strong tag"
-    ],
-    [
-     "small",
-     "<small>",
-     "small tag"
     ],
     [
      "s",
@@ -303,24 +518,9 @@
      "s tag"
     ],
     [
-     "cite",
-     "<cite>",
-     "cite tag"
-    ],
-    [
-     "q",
-     "<q>",
-     "q tag"
-    ],
-    [
      "dfn",
      "<dfn>",
      "dfn tag"
-    ],
-    [
-     "abbr",
-     "<abbr>",
-     "abbr tag"
     ],
     [
      "ruby",
@@ -343,16 +543,6 @@
      "data tag"
     ],
     [
-     "time",
-     "<time>",
-     "time tag"
-    ],
-    [
-     "code",
-     "<code>",
-     "code tag"
-    ],
-    [
      "var",
      "<var>",
      "var tag"
@@ -363,41 +553,6 @@
      "samp tag"
     ],
     [
-     "kbd",
-     "<kbd>",
-     "kbd tag"
-    ],
-    [
-     "sub",
-     "<sub>",
-     "sub tag"
-    ],
-    [
-     "sup",
-     "<sup>",
-     "sup tag"
-    ],
-    [
-     "i",
-     "<i>",
-     "i tag"
-    ],
-    [
-     "b",
-     "<b>",
-     "b tag"
-    ],
-    [
-     "u",
-     "<u>",
-     "u tag"
-    ],
-    [
-     "mark",
-     "<mark>",
-     "mark tag"
-    ],
-    [
      "bdi",
      "<bdi>",
      "bdi tag"
@@ -406,11 +561,6 @@
      "bdo",
      "<bdo>",
      "bdo tag"
-    ],
-    [
-     "br",
-     "<br>",
-     "br tag"
     ],
     [
      "wbr",
@@ -428,21 +578,6 @@
      "del tag"
     ],
     [
-     "picture",
-     "<picture>",
-     "picture tag"
-    ],
-    [
-     "source",
-     "<source>",
-     "source tag"
-    ],
-    [
-     "iframe",
-     "<iframe>",
-     "iframe tag"
-    ],
-    [
      "embed",
      "<embed>",
      "embed tag"
@@ -451,16 +586,6 @@
      "object",
      "<object>",
      "object tag"
-    ],
-    [
-     "video",
-     "<video>",
-     "video tag"
-    ],
-    [
-     "audio",
-     "<audio>",
-     "audio tag"
     ],
     [
      "track",
@@ -478,11 +603,6 @@
      "area tag"
     ],
     [
-     "caption",
-     "<caption>",
-     "caption tag"
-    ],
-    [
      "colgroup",
      "<colgroup>",
      "colgroup tag"
@@ -493,44 +613,9 @@
      "col tag"
     ],
     [
-     "tbody",
-     "<tbody>",
-     "tbody tag"
-    ],
-    [
-     "thead",
-     "<thead>",
-     "thead tag"
-    ],
-    [
      "tfoot",
      "<tfoot>",
      "tfoot tag"
-    ],
-    [
-     "tr",
-     "<tr>",
-     "tr tag"
-    ],
-    [
-     "td",
-     "<td>",
-     "td tag"
-    ],
-    [
-     "th",
-     "<th>",
-     "th tag"
-    ],
-    [
-     "label",
-     "<label>",
-     "label tag"
-    ],
-    [
-     "select",
-     "<select>",
-     "select tag"
     ],
     [
      "datalist",
@@ -543,24 +628,9 @@
      "optgroup tag"
     ],
     [
-     "option",
-     "<option>",
-     "option tag"
-    ],
-    [
-     "textarea",
-     "<textarea>",
-     "textarea tag"
-    ],
-    [
      "output",
      "<output>",
      "output tag"
-    ],
-    [
-     "progress",
-     "<progress>",
-     "progress tag"
     ],
     [
      "meter",
@@ -568,54 +638,24 @@
      "meter tag"
     ],
     [
-     "fieldset",
-     "<fieldset>",
-     "fieldset tag"
-    ],
-    [
-     "legend",
-     "<legend>",
-     "legend tag"
-    ],
-    [
-     "details",
-     "<details>",
-     "details tag"
-    ],
-    [
-     "summary",
-     "<summary>",
-     "summary tag"
-    ],
-    [
-     "dialog",
-     "<dialog>",
-     "dialog tag"
-    ],
-    [
-     "script",
-     "<script>",
-     "script tag"
-    ],
-    [
-     "noscript",
-     "<noscript>",
-     "noscript tag"
-    ],
-    [
-     "template",
-     "<template>",
-     "template tag"
-    ],
-    [
      "slot",
      "<slot>",
      "slot tag"
     ],
     [
-     "canvas",
-     "<canvas>",
-     "canvas tag"
+     "selectedcontent",
+     "<selectedcontent>",
+     "selectedcontent tag"
+    ],
+    [
+     "svg",
+     "<svg>",
+     "svg tag"
+    ],
+    [
+     "math",
+     "<math>",
+     "math tag"
     ]
    ]
   },
@@ -628,31 +668,46 @@
    "answers": [
     [
      "Elise",
-     "Lotus Elise"
+     "Lotus Elise",
+     "Elise S1",
+     "Elise 111S"
     ],
     [
      "Esprit",
-     "Lotus Esprit"
+     "Lotus Esprit",
+     "Esprit Turbo",
+     "Esprit V8",
+     "Lotus Esprit Turbo"
     ],
     [
      "Evora",
-     "Lotus Evora"
+     "Lotus Evora",
+     "Evora GT"
     ],
     [
      "Exige",
-     "Lotus Exige"
+     "Lotus Exige",
+     "Exige Cup"
     ],
     [
      "Elan",
-     "Lotus Elan"
+     "Lotus Elan",
+     "Elan M100",
+     "Elan Sprint",
+     "Lotus Elan Sprint"
     ],
     [
      "Seven",
-     "Lotus Seven"
+     "Lotus Seven",
+     "Lotus 7",
+     "Super Seven",
+     "7"
     ],
     [
      "Europa",
-     "Lotus Europa"
+     "Lotus Europa",
+     "Europa S",
+     "Lotus Europa S"
     ],
     [
      "Eclat",
@@ -697,6 +752,31 @@
     [
      "Emeya",
      "Lotus Emeya"
+    ],
+    [
+     "Elan +2",
+     "Elan Plus 2",
+     "Elan Plus Two",
+     "Lotus Elan +2",
+     "Lotus Elan Plus 2"
+    ],
+    [
+     "Lotus Cortina",
+     "Cortina",
+     "Ford Lotus Cortina"
+    ],
+    [
+     "Lotus Carlton",
+     "Lotus Omega",
+     "Vauxhall Lotus Carlton",
+     "Carlton"
+    ],
+    [
+     "Mark VI",
+     "Lotus Mark VI",
+     "Lotus Six",
+     "Six",
+     "Mk VI"
     ]
    ]
   },
@@ -709,7 +789,13 @@
    "answers": [
     [
      "Continental",
-     "Bentley Continental"
+     "Bentley Continental",
+     "Continental R",
+     "Continental T",
+     "Continental S",
+     "Continental Supersports",
+     "R-Type Continental",
+     "Bentley Continental R"
     ],
     [
      "Bentayga",
@@ -723,7 +809,9 @@
     ],
     [
      "Mulsanne",
-     "Bentley Mulsanne"
+     "Bentley Mulsanne",
+     "Mulsanne Turbo",
+     "Mulsanne Speed"
     ],
     [
      "Arnage",
@@ -735,7 +823,9 @@
     ],
     [
      "Turbo R",
-     "Bentley Turbo R"
+     "Bentley Turbo R",
+     "Turbo RT",
+     "Turbo S"
     ],
     [
      "Brooklands",
@@ -743,17 +833,101 @@
     ],
     [
      "Continental GT",
-     "Bentley Continental GT"
+     "Bentley Continental GT",
+     "Continental GTC",
+     "Bentley Continental GTC",
+     "GT",
+     "GTC"
     ],
     [
      "Speed Six",
      "Bentley Speed Six"
     ],
     [
+     "4½ Litre",
+     "4.5 Litre",
+     "4 1/2 Litre",
+     "Bentley 4½ Litre",
+     "Bentley 4.5 Litre",
+     "Bentley 4 1/2 Litre",
+     "Blower",
+     "Blower Bentley",
+     "Bentley Blower"
+    ],
+    [
+     "Corniche",
+     "Bentley Corniche"
+    ],
+    [
      "3 Litre",
      "3 Liter",
      "Bentley 3 Litre",
      "Bentley 3 Liter"
+    ],
+    [
+     "8 Litre",
+     "8 Liter",
+     "Bentley 8 Litre",
+     "Bentley 8 Liter"
+    ],
+    [
+     "State Limousine",
+     "Bentley State Limousine"
+    ],
+    [
+     "Bacalar",
+     "Mulliner Bacalar",
+     "Bentley Bacalar"
+    ],
+    [
+     "Batur",
+     "Mulliner Batur",
+     "Bentley Batur"
+    ],
+    [
+     "R Type",
+     "R-Type",
+     "Bentley R Type"
+    ],
+    [
+     "S1",
+     "Bentley S1"
+    ],
+    [
+     "T-Series",
+     "T Series",
+     "T1",
+     "Bentley T-Series",
+     "Bentley T1",
+     "T2",
+     "Bentley T2"
+    ],
+    [
+     "Mark VI",
+     "Bentley Mark VI"
+    ],
+    [
+     "S2",
+     "Bentley S2"
+    ],
+    [
+     "S3",
+     "Bentley S3"
+    ],
+    [
+     "Eight",
+     "Bentley Eight"
+    ],
+    [
+     "6½ Litre",
+     "6.5 Litre",
+     "6 1/2 Litre",
+     "Bentley 6½ Litre",
+     "Bentley 6.5 Litre"
+    ],
+    [
+     "Mark V",
+     "Bentley Mark V"
     ],
     [
      "3½ Litre",
@@ -768,62 +942,11 @@
      "Bentley 4 Litre"
     ],
     [
-     "4½ Litre",
-     "4.5 Litre",
-     "4 1/2 Litre",
-     "Bentley 4½ Litre",
-     "Bentley 4.5 Litre",
-     "Bentley 4 1/2 Litre"
-    ],
-    [
-     "8 Litre",
-     "8 Liter",
-     "Bentley 8 Litre",
-     "Bentley 8 Liter"
-    ],
-    [
-     "Mark V",
-     "Bentley Mark V"
-    ],
-    [
-     "Mark VI",
-     "Bentley Mark VI"
-    ],
-    [
-     "R Type",
-     "R-Type",
-     "Bentley R Type"
-    ],
-    [
-     "S1",
-     "Bentley S1"
-    ],
-    [
-     "S2",
-     "Bentley S2"
-    ],
-    [
-     "S3",
-     "Bentley S3"
-    ],
-    [
-     "T-Series",
-     "T Series",
-     "T1",
-     "Bentley T-Series",
-     "Bentley T1"
-    ],
-    [
-     "Corniche",
-     "Bentley Corniche"
-    ],
-    [
-     "Eight",
-     "Bentley Eight"
-    ],
-    [
-     "State Limousine",
-     "Bentley State Limousine"
+     "4¼ Litre",
+     "4.25 Litre",
+     "4 1/4 Litre",
+     "Bentley 4¼ Litre",
+     "Bentley 4.25 Litre"
     ]
    ]
   },
@@ -849,7 +972,8 @@
     ],
     [
      "Av",
-     "Ab"
+     "Ab",
+     "Menachem Av"
     ],
     "Elul",
     [
@@ -859,16 +983,26 @@
     [
      "Cheshvan",
      "Marcheshvan",
-     "Heshvan"
+     "Heshvan",
+     "Chesvan",
+     "Marchesvan",
+     "Mar Cheshvan"
     ],
-    "Kislev",
+    [
+     "Kislev",
+     "Chislev",
+     "Kislew"
+    ],
     [
      "Tevet",
-     "Tebeth"
+     "Tebeth",
+     "Teves"
     ],
     [
      "Shevat",
-     "Shebat"
+     "Shebat",
+     "Shvat",
+     "Shvot"
     ],
     "Adar",
     [

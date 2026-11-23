@@ -10,7 +10,8 @@
    "answers": [
     [
      "Dovetail joint",
-     "Dovetail"
+     "Dovetail",
+     "Through dovetail"
     ],
     [
      "Mortise and tenon",
@@ -34,7 +35,8 @@
     [
      "Box joint",
      "Finger joint",
-     "Box"
+     "Box",
+     "Comb joint"
     ],
     [
      "Tongue and groove",
@@ -43,13 +45,46 @@
     ],
     [
      "Lap joint",
-     "Lap"
+     "Lap",
+     "Halving joint",
+     "Halving",
+     "Half lap",
+     "Half lap joint"
     ],
     [
      "Dado joint",
      "Dado",
      "Housing joint",
      "Trench joint"
+    ],
+    [
+     "Biscuit joint",
+     "Biscuit"
+    ],
+    [
+     "Pocket-hole joint",
+     "Pocket hole",
+     "Pocket-hole joinery",
+     "Pocket screw joint"
+    ],
+    [
+     "Rebate joint",
+     "Rabbet joint",
+     "Rebate",
+     "Rabbet"
+    ],
+    [
+     "Half-blind dovetail",
+     "Lapped dovetail",
+     "Half blind dovetail"
+    ],
+    [
+     "Sliding dovetail"
+    ],
+    [
+     "Spline joint",
+     "Spline",
+     "Splined joint"
     ],
     [
      "Bridle joint",
@@ -70,7 +105,9 @@
      "Floating tenon joint",
      "Loose tenon",
      "Floating tenon",
-     "Loose tenon joint"
+     "Loose tenon joint",
+     "Domino joint",
+     "Domino"
     ],
     [
      "Cross dowel joint",
@@ -93,16 +130,92 @@
      "Knapp",
      "Scallop and dowel"
     ],
+    "Stitch and glue",
     [
-     "Pocket-hole joint",
-     "Pocket hole",
-     "Pocket-hole joinery"
+     "Through tenon",
+     "Through mortise and tenon"
     ],
     [
-     "Biscuit joint",
-     "Biscuit"
+     "Stub tenon",
+     "Blind tenon"
     ],
-    "Stitch and glue"
+    [
+     "Haunched tenon",
+     "Haunched mortise and tenon"
+    ],
+    [
+     "Wedged tenon",
+     "Wedged mortise and tenon"
+    ],
+    [
+     "Pinned tenon",
+     "Drawbore",
+     "Drawbore joint"
+    ],
+    [
+     "Tusk tenon",
+     "Tusk tenon joint"
+    ],
+    [
+     "Barefaced tenon"
+    ],
+    [
+     "Secret mitred dovetail",
+     "Secret dovetail",
+     "Mitred dovetail"
+    ],
+    [
+     "Dovetail halving",
+     "Dovetail lap joint"
+    ],
+    [
+     "Mitred halving",
+     "Mitred half lap"
+    ],
+    [
+     "Lock mitre",
+     "Lock miter",
+     "Lock mitre joint"
+    ],
+    [
+     "Keyed mitre",
+     "Keyed miter"
+    ],
+    [
+     "Butterfly key",
+     "Butterfly joint",
+     "Bow tie joint",
+     "Dutchman"
+    ],
+    [
+     "Cogged joint",
+     "Cogging joint",
+     "Cog joint"
+    ],
+    [
+     "Notched joint",
+     "Notch joint"
+    ],
+    [
+     "Saddle joint"
+    ],
+    [
+     "Rule joint"
+    ],
+    [
+     "Knuckle joint",
+     "Finger hinge"
+    ],
+    [
+     "Coped joint",
+     "Scribed joint",
+     "Cope and stick"
+    ],
+    [
+     "Rubbed joint",
+     "Edge joint",
+     "Rub joint"
+    ]
    ]
   },
   {
@@ -112,11 +225,15 @@
    ],
    "text": "Name a tree species native to Great Britain (as listed by Wikipedia; not counting Ireland-only species)",
    "answers": [
-    "Silver birch",
+    [
+     "Silver birch",
+     "Birch"
+    ],
     [
      "Pedunculate oak",
      "English oak",
-     "Common oak"
+     "Common oak",
+     "Oak"
     ],
     [
      "Beech",
@@ -142,7 +259,8 @@
     ],
     [
      "Scots pine",
-     "Scotch pine"
+     "Scotch pine",
+     "Pine"
     ],
     [
      "Hawthorn",
@@ -153,8 +271,30 @@
      "Mountain ash"
     ],
     [
+     "Elder",
+     "Elderberry",
+     "Elderflower",
+     "Common elder"
+    ],
+    [
+     "Blackthorn",
+     "Sloe"
+    ],
+    [
+     "White willow",
+     "Willow"
+    ],
+    [
+     "Crack willow"
+    ],
+    [
+     "Juniper",
+     "Common juniper"
+    ],
+    [
      "Alder",
-     "Common alder"
+     "Common alder",
+     "Black alder"
     ],
     [
      "Hornbeam",
@@ -165,7 +305,10 @@
      "Durmast oak"
     ],
     "Aspen",
-    "Black poplar",
+    [
+     "Black poplar",
+     "Poplar"
+    ],
     "Bay willow",
     [
      "Grey willow",
@@ -177,25 +320,96 @@
      "Sallow"
     ],
     "Downy birch",
-    "Wych elm",
+    [
+     "Wych elm",
+     "Elm",
+     "Scotch elm"
+    ],
     "Field elm",
     "Midland hawthorn",
     [
      "Whitebeam",
      "Common whitebeam"
     ],
-    "Wild service tree",
+    [
+     "Wild service tree",
+     "Chequers tree",
+     "Wild service"
+    ],
     "Service tree",
-    "Crab apple",
+    [
+     "Crab apple",
+     "Wild crab apple",
+     "Wild apple"
+    ],
     [
      "Wild cherry",
-     "Gean"
+     "Gean",
+     "Cherry",
+     "Sweet cherry"
     ],
     "Bird cherry",
     "Box",
-    "Field maple",
-    "Small-leaved lime",
-    "Large-leaved lime"
+    [
+     "Field maple",
+     "Maple"
+    ],
+    [
+     "Small-leaved lime",
+     "Lime",
+     "Linden"
+    ],
+    "Large-leaved lime",
+    [
+     "English elm"
+    ],
+    [
+     "Osier",
+     "Common osier"
+    ],
+    [
+     "Purple willow"
+    ],
+    [
+     "Almond willow"
+    ],
+    [
+     "Eared willow"
+    ],
+    [
+     "Spindle",
+     "Spindle tree"
+    ],
+    [
+     "Purging buckthorn",
+     "Buckthorn",
+     "Common buckthorn"
+    ],
+    [
+     "Alder buckthorn"
+    ],
+    [
+     "Guelder rose"
+    ],
+    [
+     "Dogwood",
+     "Common dogwood"
+    ],
+    [
+     "Wayfaring tree"
+    ],
+    [
+     "Sea buckthorn"
+    ],
+    [
+     "Plymouth pear"
+    ],
+    [
+     "Arran whitebeam"
+    ],
+    [
+     "Rock whitebeam"
+    ]
    ]
   },
   {
@@ -272,6 +486,78 @@
      "502 Bad Gateway"
     ],
     [
+     "I'm a teapot",
+     "418",
+     "418 I'm a teapot",
+     "Teapot"
+    ],
+    [
+     "Too Many Requests",
+     "429",
+     "429 Too Many Requests"
+    ],
+    [
+     "Gateway Timeout",
+     "504",
+     "504 Gateway Timeout"
+    ],
+    [
+     "Not Modified",
+     "304",
+     "304 Not Modified"
+    ],
+    [
+     "Method Not Allowed",
+     "405",
+     "405 Method Not Allowed"
+    ],
+    [
+     "Temporary Redirect",
+     "307",
+     "307 Temporary Redirect"
+    ],
+    [
+     "Request Timeout",
+     "408",
+     "408 Request Timeout"
+    ],
+    [
+     "Conflict",
+     "409",
+     "409 Conflict"
+    ],
+    [
+     "Unprocessable Content",
+     "422",
+     "422 Unprocessable Content",
+     "Unprocessable Entity"
+    ],
+    [
+     "Permanent Redirect",
+     "308",
+     "308 Permanent Redirect"
+    ],
+    [
+     "Payment Required",
+     "402",
+     "402 Payment Required"
+    ],
+    [
+     "Gone",
+     "410",
+     "410 Gone"
+    ],
+    [
+     "Unavailable For Legal Reasons",
+     "451",
+     "451 Unavailable For Legal Reasons"
+    ],
+    [
+     "Partial Content",
+     "206",
+     "206 Partial Content"
+    ],
+    [
      "Continue",
      "100",
      "100 Continue"
@@ -307,11 +593,6 @@
      "205 Reset Content"
     ],
     [
-     "Partial Content",
-     "206",
-     "206 Partial Content"
-    ],
-    [
      "Multi-Status",
      "207",
      "207 Multi-Status"
@@ -337,34 +618,9 @@
      "303 See Other"
     ],
     [
-     "Not Modified",
-     "304",
-     "304 Not Modified"
-    ],
-    [
      "Use Proxy",
      "305",
      "305 Use Proxy"
-    ],
-    [
-     "Temporary Redirect",
-     "307",
-     "307 Temporary Redirect"
-    ],
-    [
-     "Permanent Redirect",
-     "308",
-     "308 Permanent Redirect"
-    ],
-    [
-     "Payment Required",
-     "402",
-     "402 Payment Required"
-    ],
-    [
-     "Method Not Allowed",
-     "405",
-     "405 Method Not Allowed"
     ],
     [
      "Not Acceptable",
@@ -375,21 +631,6 @@
      "Proxy Authentication Required",
      "407",
      "407 Proxy Authentication Required"
-    ],
-    [
-     "Request Timeout",
-     "408",
-     "408 Request Timeout"
-    ],
-    [
-     "Conflict",
-     "409",
-     "409 Conflict"
-    ],
-    [
-     "Gone",
-     "410",
-     "410 Gone"
     ],
     [
      "Length Required",
@@ -430,21 +671,9 @@
      "417 Expectation Failed"
     ],
     [
-     "I'm a teapot",
-     "418",
-     "418 I'm a teapot",
-     "Teapot"
-    ],
-    [
      "Misdirected Request",
      "421",
      "421 Misdirected Request"
-    ],
-    [
-     "Unprocessable Content",
-     "422",
-     "422 Unprocessable Content",
-     "Unprocessable Entity"
     ],
     [
      "Locked",
@@ -472,29 +701,14 @@
      "428 Precondition Required"
     ],
     [
-     "Too Many Requests",
-     "429",
-     "429 Too Many Requests"
-    ],
-    [
      "Request Header Fields Too Large",
      "431",
      "431 Request Header Fields Too Large"
     ],
     [
-     "Unavailable For Legal Reasons",
-     "451",
-     "451 Unavailable For Legal Reasons"
-    ],
-    [
      "Not Implemented",
      "501",
      "501 Not Implemented"
-    ],
-    [
-     "Gateway Timeout",
-     "504",
-     "504 Gateway Timeout"
     ],
     [
      "HTTP Version Not Supported",
@@ -525,6 +739,13 @@
      "Network Authentication Required",
      "511",
      "511 Network Authentication Required"
+    ],
+    [
+     "Switch Proxy",
+     "306",
+     "306 Switch Proxy",
+     "306 Unused",
+     "Unused"
     ]
    ]
   },
@@ -576,7 +797,9 @@
      "Jag E-Type",
      "Jaguar XKE",
      "Jag XKE",
-     "Jag Jaguar E-Type"
+     "Jag Jaguar E-Type",
+     "XK-E",
+     "Lightweight E-Type"
     ],
     [
      "XJ",
@@ -591,7 +814,18 @@
      "Jag XJ8",
      "Jaguar XJ12",
      "Jag XJ12",
-     "Jag Jaguar XJ"
+     "Jag Jaguar XJ",
+     "XJR",
+     "Jaguar XJR",
+     "XJ40",
+     "X300",
+     "X308",
+     "X350",
+     "XJ-C",
+     "XJC",
+     "Sovereign",
+     "Jaguar Sovereign",
+     "XJ Sovereign"
     ],
     [
      "XK",
@@ -613,13 +847,18 @@
      "Jag XJ-S",
      "Jaguar XJS",
      "Jag XJS",
-     "Jag Jaguar XJ-S"
+     "Jag Jaguar XJ-S",
+     "XJ-SC",
+     "XJS Convertible"
     ],
     [
      "XF",
      "Jaguar XF",
      "Jag XF",
-     "Jag Jaguar XF"
+     "Jag Jaguar XF",
+     "XFR",
+     "XF Sportbrake",
+     "Jaguar XFR"
     ],
     [
      "XE",
@@ -665,7 +904,8 @@
      "Jag Mk 2",
      "Jaguar Mark II",
      "Jag Mark II",
-     "Jag Jaguar Mark 2"
+     "Jag Jaguar Mark 2",
+     "Mk2"
     ],
     [
      "XK120",
@@ -758,7 +998,11 @@
      "Jag Mk 1",
      "Jaguar Mark I",
      "Jag Mark I",
-     "Jag Jaguar Mark 1"
+     "Jag Jaguar Mark 1",
+     "2.4 Litre",
+     "3.4 Litre",
+     "Jaguar 2.4",
+     "Mk1"
     ],
     [
      "420",
@@ -821,7 +1065,8 @@
      "Jag XK8",
      "Jaguar XKR",
      "Jag XKR",
-     "Jag Jaguar XK8"
+     "Jag Jaguar XK8",
+     "XKR-S"
     ],
     [
      "E-Pace",
@@ -829,6 +1074,35 @@
      "Jaguar E-Pace",
      "Jag E-Pace",
      "Jag Jaguar E-Pace"
+    ],
+    [
+     "XKSS",
+     "Jaguar XKSS",
+     "Jag XKSS"
+    ],
+    [
+     "XJR-15",
+     "Jaguar XJR-15",
+     "XJR15"
+    ],
+    [
+     "Mark IV",
+     "Mk IV",
+     "Mark 4",
+     "Jaguar Mark IV",
+     "Jaguar Mark 4",
+     "1.5 Litre",
+     "3.5 Litre"
+    ],
+    [
+     "SS1",
+     "SS 1",
+     "SS Jaguar",
+     "Jaguar SS1"
+    ],
+    [
+     "XJ13",
+     "Jaguar XJ13"
     ]
    ]
   },
@@ -841,47 +1115,91 @@
    "answers": [
     [
      "911",
-     "Porsche 911"
+     "Porsche 911",
+     "Carrera",
+     "911 Carrera",
+     "Porsche Carrera",
+     "Porsche 911 Carrera",
+     "Targa",
+     "911 Targa",
+     "GT3",
+     "911 GT3",
+     "GT3 RS",
+     "GT2",
+     "911 GT2",
+     "911 GT2 RS",
+     "901",
+     "964",
+     "993",
+     "996",
+     "997",
+     "991",
+     "992",
+     "911 Dakar",
+     "911 S/T",
+     "Sport Classic"
     ],
     [
      "Boxster",
-     "Porsche Boxster"
+     "Porsche Boxster",
+     "718 Boxster",
+     "Boxster Spyder",
+     "Boxster S"
     ],
     [
      "Cayman",
-     "Porsche Cayman"
+     "Porsche Cayman",
+     "718 Cayman",
+     "Cayman GT4",
+     "Cayman S"
     ],
     [
      "Cayenne",
-     "Porsche Cayenne"
+     "Porsche Cayenne",
+     "Cayenne Coupe",
+     "Cayenne Turbo"
     ],
     [
      "Macan",
-     "Porsche Macan"
+     "Porsche Macan",
+     "Macan Electric",
+     "Macan EV"
     ],
     [
      "Panamera",
-     "Porsche Panamera"
+     "Porsche Panamera",
+     "Panamera Sport Turismo"
     ],
     [
      "Taycan",
-     "Porsche Taycan"
+     "Porsche Taycan",
+     "Taycan Cross Turismo",
+     "Taycan Turbo"
     ],
     [
      "944",
-     "Porsche 944"
+     "Porsche 944",
+     "944 Turbo",
+     "944 S2"
     ],
     [
      "924",
-     "Porsche 924"
+     "Porsche 924",
+     "924 Carrera GT",
+     "924 Turbo"
     ],
     [
      "928",
-     "Porsche 928"
+     "Porsche 928",
+     "928 GTS",
+     "928 S4"
     ],
     [
      "356",
-     "Porsche 356"
+     "Porsche 356",
+     "356 Speedster",
+     "Speedster",
+     "356 Carrera"
     ],
     [
      "718",
@@ -889,7 +1207,9 @@
     ],
     [
      "550",
-     "Porsche 550"
+     "Porsche 550",
+     "550 Spyder",
+     "Porsche 550 Spyder"
     ],
     [
      "904",
@@ -905,7 +1225,9 @@
     ],
     [
      "914",
-     "Porsche 914"
+     "Porsche 914",
+     "914/6",
+     "VW-Porsche 914"
     ],
     [
      "930",
@@ -919,7 +1241,9 @@
     ],
     [
      "968",
-     "Porsche 968"
+     "Porsche 968",
+     "968 Club Sport",
+     "968 CS"
     ],
     [
      "911 GT1",
@@ -936,6 +1260,12 @@
      "918",
      "Porsche 918 Spyder",
      "Porsche 918"
+    ],
+    [
+     "597 Jagdwagen",
+     "Porsche 597",
+     "Jagdwagen",
+     "Porsche 597 Jagdwagen"
     ]
    ]
   },
@@ -966,13 +1296,17 @@
      "488",
      "488 GTB",
      "Ferrari 488",
-     "Ferrari 488 GTB"
+     "Ferrari 488 GTB",
+     "488 Pista",
+     "488 Spider"
     ],
     [
      "458",
      "458 Italia",
      "Ferrari 458",
-     "Ferrari 458 Italia"
+     "Ferrari 458 Italia",
+     "458 Speciale",
+     "458 Spider"
     ],
     [
      "LaFerrari",
@@ -988,43 +1322,66 @@
      "250 GTO",
      "Ferrari 250",
      "Ferrari 250 GT",
-     "Ferrari 250 GTO"
+     "Ferrari 250 GTO",
+     "250 GT Lusso",
+     "Lusso",
+     "250 SWB",
+     "250 California",
+     "250 Europa",
+     "Ferrari 250 California",
+     "Ferrari 250 GT Lusso"
     ],
     [
      "California",
-     "Ferrari California"
+     "Ferrari California",
+     "California T"
     ],
     [
      "Portofino",
-     "Ferrari Portofino"
+     "Ferrari Portofino",
+     "Portofino M"
     ],
     [
      "Roma",
-     "Ferrari Roma"
+     "Ferrari Roma",
+     "Roma Spider"
     ],
     [
      "296",
      "296 GTB",
      "Ferrari 296",
-     "Ferrari 296 GTB"
+     "Ferrari 296 GTB",
+     "296 GTS",
+     "296 Speciale"
     ],
     [
      "SF90 Stradale",
      "SF90",
      "Ferrari SF90 Stradale",
-     "Ferrari SF90"
+     "Ferrari SF90",
+     "SF90 Spider",
+     "SF90 XX"
     ],
     [
      "Inter",
      "166 Inter",
      "Ferrari Inter",
-     "Ferrari 166 Inter"
+     "Ferrari 166 Inter",
+     "195 Inter",
+     "212 Inter"
     ],
     [
      "America",
      "Superamerica",
      "Ferrari America",
-     "Ferrari Superamerica"
+     "Ferrari Superamerica",
+     "340 America",
+     "342 America",
+     "375 America",
+     "330 America",
+     "400 Superamerica",
+     "410 Superamerica",
+     "575 Superamerica"
     ],
     [
      "275",
@@ -1034,13 +1391,19 @@
     ],
     [
      "330",
-     "Ferrari 330"
+     "Ferrari 330",
+     "330 GTC",
+     "330 GT 2+2"
     ],
     [
      "365",
      "365 GTB/4",
      "Ferrari 365",
-     "Ferrari 365 GTB/4"
+     "Ferrari 365 GTB/4",
+     "365 California",
+     "365 GTC/4",
+     "365 GT 2+2",
+     "365 GT4 2+2"
     ],
     [
      "Berlinetta Boxer",
@@ -1048,7 +1411,9 @@
      "365 GT4 BB",
      "Ferrari Berlinetta Boxer",
      "Ferrari 512 BB",
-     "Ferrari 365 GT4 BB"
+     "Ferrari 365 GT4 BB",
+     "512 BBi",
+     "BB 512"
     ],
     [
      "512 TR",
@@ -1080,19 +1445,24 @@
      "360",
      "360 Modena",
      "Ferrari 360",
-     "Ferrari 360 Modena"
+     "Ferrari 360 Modena",
+     "360 Challenge Stradale",
+     "360 Spider"
     ],
     [
      "F430",
      "430",
      "Ferrari F430",
-     "Ferrari 430"
+     "Ferrari 430",
+     "430 Scuderia",
+     "F430 Spider"
     ],
     [
      "F8 Tributo",
      "F8",
      "Ferrari F8 Tributo",
-     "Ferrari F8"
+     "Ferrari F8",
+     "F8 Spider"
     ],
     [
      "849 Testarossa",
@@ -1112,7 +1482,10 @@
      "308",
      "308 GTB",
      "Ferrari 308",
-     "Ferrari 308 GTB"
+     "Ferrari 308 GTB",
+     "308 GT4",
+     "Dino 308 GT4",
+     "308 GTS"
     ],
     [
      "328",
@@ -1142,7 +1515,8 @@
      "456",
      "456 GT",
      "Ferrari 456",
-     "Ferrari 456 GT"
+     "Ferrari 456 GT",
+     "456M"
     ],
     [
      "550 Maranello",
@@ -1162,7 +1536,8 @@
      "599",
      "599 GTB Fiorano",
      "Ferrari 599",
-     "Ferrari 599 GTB Fiorano"
+     "Ferrari 599 GTB Fiorano",
+     "599 GTO"
     ],
     [
      "612 Scaglietti",
@@ -1176,13 +1551,16 @@
      "F12 Berlinetta",
      "Ferrari F12berlinetta",
      "Ferrari F12",
-     "Ferrari F12 Berlinetta"
+     "Ferrari F12 Berlinetta",
+     "F12tdf"
     ],
     [
      "812 Superfast",
      "812",
      "Ferrari 812 Superfast",
-     "Ferrari 812"
+     "Ferrari 812",
+     "812 Competizione",
+     "812 GTS"
     ],
     [
      "12Cilindri",
@@ -1196,11 +1574,27 @@
      "GTC4Lusso",
      "GTC4 Lusso",
      "Ferrari GTC4Lusso",
-     "Ferrari GTC4 Lusso"
+     "Ferrari GTC4 Lusso",
+     "GTC4Lusso T"
     ],
     [
      "Purosangue",
      "Ferrari Purosangue"
+    ],
+    [
+     "Amalfi",
+     "Ferrari Amalfi"
+    ],
+    [
+     "208",
+     "208 GTB",
+     "208 Turbo",
+     "Ferrari 208",
+     "208 GT4"
+    ],
+    [
+     "500 Superfast",
+     "Ferrari 500 Superfast"
     ]
    ]
   },
@@ -1258,10 +1652,6 @@
      "Marquez"
     ],
     [
-     "Seamus Heaney",
-     "Heaney"
-    ],
-    [
      "George Bernard Shaw",
      "Bernard Shaw",
      "Shaw",
@@ -1282,6 +1672,280 @@
     [
      "Jean-Paul Sartre",
      "Sartre"
+    ],
+    [
+     "Hermann Hesse",
+     "Hesse"
+    ],
+    [
+     "Pablo Neruda",
+     "Neruda"
+    ],
+    [
+     "Aleksandr Solzhenitsyn",
+     "Solzhenitsyn",
+     "Alexander Solzhenitsyn",
+     "Solzhenitsin"
+    ],
+    [
+     "Boris Pasternak",
+     "Pasternak"
+    ],
+    [
+     "W. B. Yeats",
+     "Yeats",
+     "WB Yeats"
+    ],
+    [
+     "Thomas Mann",
+     "Mann"
+    ],
+    [
+     "William Faulkner",
+     "Faulkner"
+    ],
+    [
+     "Rabindranath Tagore",
+     "Tagore"
+    ],
+    [
+     "Alice Munro",
+     "Munro"
+    ],
+    [
+     "Saul Bellow",
+     "Bellow"
+    ],
+    [
+     "Annie Ernaux",
+     "Ernaux"
+    ],
+    [
+     "Orhan Pamuk",
+     "Pamuk"
+    ],
+    [
+     "Günter Grass",
+     "Grass"
+    ],
+    [
+     "V. S. Naipaul",
+     "Naipaul",
+     "VS Naipaul"
+    ],
+    [
+     "J. M. Coetzee",
+     "Coetzee",
+     "JM Coetzee"
+    ],
+    [
+     "Eugene O'Neill",
+     "O'Neill",
+     "ONeill"
+    ],
+    [
+     "Bertrand Russell",
+     "Russell"
+    ],
+    [
+     "Pearl S. Buck",
+     "Pearl Buck",
+     "Buck"
+    ],
+    [
+     "Mario Vargas Llosa",
+     "Vargas Llosa",
+     "Llosa"
+    ],
+    [
+     "Wole Soyinka",
+     "Soyinka"
+    ],
+    [
+     "José Saramago",
+     "Saramago"
+    ],
+    [
+     "Nadine Gordimer",
+     "Gordimer"
+    ],
+    [
+     "Derek Walcott",
+     "Walcott"
+    ],
+    [
+     "Octavio Paz",
+     "Paz"
+    ],
+    [
+     "Han Kang"
+    ],
+    [
+     "Abdulrazak Gurnah",
+     "Gurnah"
+    ],
+    [
+     "Louise Glück",
+     "Glück"
+    ],
+    [
+     "Sinclair Lewis",
+     "Lewis"
+    ],
+    [
+     "Naguib Mahfouz",
+     "Mahfouz"
+    ],
+    [
+     "Mo Yan"
+    ],
+    [
+     "Anne Carson",
+     "Carson",
+     "Anne Carlson"
+    ],
+    [
+     "John Galsworthy",
+     "Galsworthy"
+    ],
+    [
+     "Isaac Bashevis Singer",
+     "Singer",
+     "Isaac Singer"
+    ],
+    [
+     "Czesław Miłosz",
+     "Miłosz"
+    ],
+    [
+     "Joseph Brodsky",
+     "Brodsky"
+    ],
+    [
+     "Seamus Heaney",
+     "Heaney"
+    ],
+    [
+     "Knut Hamsun",
+     "Hamsun"
+    ],
+    [
+     "André Gide",
+     "Gide"
+    ],
+    [
+     "Luigi Pirandello",
+     "Pirandello"
+    ],
+    [
+     "Yasunari Kawabata",
+     "Kawabata"
+    ],
+    [
+     "Jon Fosse",
+     "Fosse"
+    ],
+    [
+     "Olga Tokarczuk",
+     "Tokarczuk"
+    ],
+    [
+     "Peter Handke",
+     "Handke"
+    ],
+    [
+     "Svetlana Alexievich",
+     "Alexievich"
+    ],
+    [
+     "Patrick Modiano",
+     "Modiano"
+    ],
+    [
+     "Elias Canetti",
+     "Canetti"
+    ],
+    [
+     "Dario Fo",
+     "Fo"
+    ],
+    [
+     "Wisława Szymborska",
+     "Szymborska"
+    ],
+    [
+     "Heinrich Böll",
+     "Böll"
+    ],
+    [
+     "Patrick White",
+     "White"
+    ],
+    [
+     "Kenzaburō Ōe",
+     "Ōe"
+    ],
+    [
+     "László Krasznahorkai",
+     "Krasznahorkai"
+    ],
+    [
+     "Herta Müller",
+     "Müller"
+    ],
+    [
+     "Elfriede Jelinek",
+     "Jelinek"
+    ],
+    [
+     "Imre Kertész",
+     "Kertész"
+    ],
+    [
+     "Tomas Tranströmer",
+     "Tranströmer"
+    ],
+    [
+     "J. M. G. Le Clézio",
+     "Le Clezio",
+     "Clezio",
+     "JMG Le Clezio",
+     "JMG Le Clézio"
+    ],
+    [
+     "Gao Xingjian",
+     "Gao"
+    ],
+    [
+     "Selma Lagerlöf",
+     "Lagerlöf"
+    ],
+    [
+     "Anatole France",
+     "France"
+    ],
+    [
+     "Henri Bergson",
+     "Bergson"
+    ],
+    [
+     "Maurice Maeterlinck",
+     "Maeterlinck"
+    ],
+    [
+     "Gabriela Mistral"
+    ],
+    [
+     "Mikhail Sholokhov",
+     "Sholokhov"
+    ],
+    [
+     "Ivan Bunin",
+     "Bunin"
+    ],
+    [
+     "Sigrid Undset",
+     "Undset"
     ],
     [
      "Sully Prudhomme",
@@ -1316,24 +1980,12 @@
      "Rudolf Eucken"
     ],
     [
-     "Selma Lagerlöf",
-     "Lagerlöf"
-    ],
-    [
      "Paul Heyse",
      "Heyse"
     ],
     [
-     "Maurice Maeterlinck",
-     "Maeterlinck"
-    ],
-    [
      "Gerhart Hauptmann",
      "Hauptmann"
-    ],
-    [
-     "Rabindranath Tagore",
-     "Tagore"
     ],
     [
      "Romain Rolland",
@@ -1357,21 +2009,8 @@
      "Spitteler"
     ],
     [
-     "Knut Hamsun",
-     "Hamsun"
-    ],
-    [
-     "Anatole France",
-     "France"
-    ],
-    [
      "Jacinto Benavente",
      "Benavente"
-    ],
-    [
-     "W. B. Yeats",
-     "Yeats",
-     "WB Yeats"
     ],
     [
      "Władysław Reymont",
@@ -1382,50 +2021,12 @@
      "Deledda"
     ],
     [
-     "Henri Bergson",
-     "Bergson"
-    ],
-    [
-     "Sigrid Undset",
-     "Undset"
-    ],
-    [
-     "Thomas Mann",
-     "Mann"
-    ],
-    [
-     "Sinclair Lewis",
-     "Lewis"
-    ],
-    [
      "Erik Axel Karlfeldt",
      "Karlfeldt"
     ],
     [
-     "John Galsworthy",
-     "Galsworthy"
-    ],
-    [
-     "Ivan Bunin",
-     "Bunin"
-    ],
-    [
-     "Luigi Pirandello",
-     "Pirandello"
-    ],
-    [
-     "Eugene O'Neill",
-     "O'Neill",
-     "ONeill"
-    ],
-    [
      "Roger Martin du Gard",
      "Martin du Gard"
-    ],
-    [
-     "Pearl S. Buck",
-     "Pearl Buck",
-     "Buck"
     ],
     [
      "Frans Eemil Sillanpää",
@@ -1435,25 +2036,6 @@
      "Johannes Vilhelm Jensen",
      "Johannes V. Jensen",
      "Jensen"
-    ],
-    [
-     "Gabriela Mistral"
-    ],
-    [
-     "Hermann Hesse",
-     "Hesse"
-    ],
-    [
-     "André Gide",
-     "Gide"
-    ],
-    [
-     "William Faulkner",
-     "Faulkner"
-    ],
-    [
-     "Bertrand Russell",
-     "Russell"
     ],
     [
      "Pär Lagerkvist",
@@ -1473,10 +2055,6 @@
      "Juan Ramon Jimenez"
     ],
     [
-     "Boris Pasternak",
-     "Pasternak"
-    ],
-    [
      "Salvatore Quasimodo",
      "Quasimodo"
     ],
@@ -1494,10 +2072,6 @@
      "Seferis"
     ],
     [
-     "Mikhail Sholokhov",
-     "Sholokhov"
-    ],
-    [
      "Shmuel Yosef Agnon",
      "Agnon",
      "S. Y. Agnon"
@@ -1509,26 +2083,6 @@
     [
      "Miguel Ángel Asturias",
      "Asturias"
-    ],
-    [
-     "Yasunari Kawabata",
-     "Kawabata"
-    ],
-    [
-     "Aleksandr Solzhenitsyn",
-     "Solzhenitsyn"
-    ],
-    [
-     "Pablo Neruda",
-     "Neruda"
-    ],
-    [
-     "Heinrich Böll",
-     "Böll"
-    ],
-    [
-     "Patrick White",
-     "White"
     ],
     [
      "Eyvind Johnson",
@@ -1543,29 +2097,12 @@
      "Montale"
     ],
     [
-     "Saul Bellow",
-     "Bellow"
-    ],
-    [
      "Vicente Aleixandre",
      "Aleixandre"
     ],
     [
-     "Isaac Bashevis Singer",
-     "Singer",
-     "Isaac Singer"
-    ],
-    [
      "Odysseas Elytis",
      "Elytis"
-    ],
-    [
-     "Czesław Miłosz",
-     "Miłosz"
-    ],
-    [
-     "Elias Canetti",
-     "Canetti"
     ],
     [
      "Jaroslav Seifert",
@@ -1576,148 +2113,8 @@
      "Simon"
     ],
     [
-     "Wole Soyinka",
-     "Soyinka"
-    ],
-    [
-     "Joseph Brodsky",
-     "Brodsky"
-    ],
-    [
-     "Naguib Mahfouz",
-     "Mahfouz"
-    ],
-    [
      "Camilo José Cela",
      "Cela"
-    ],
-    [
-     "Octavio Paz",
-     "Paz"
-    ],
-    [
-     "Nadine Gordimer",
-     "Gordimer"
-    ],
-    [
-     "Derek Walcott",
-     "Walcott"
-    ],
-    [
-     "Kenzaburō Ōe",
-     "Ōe"
-    ],
-    [
-     "Wisława Szymborska",
-     "Szymborska"
-    ],
-    [
-     "Dario Fo",
-     "Fo"
-    ],
-    [
-     "José Saramago",
-     "Saramago"
-    ],
-    [
-     "Günter Grass",
-     "Grass"
-    ],
-    [
-     "Gao Xingjian",
-     "Gao"
-    ],
-    [
-     "V. S. Naipaul",
-     "Naipaul",
-     "VS Naipaul"
-    ],
-    [
-     "Imre Kertész",
-     "Kertész"
-    ],
-    [
-     "J. M. Coetzee",
-     "Coetzee",
-     "JM Coetzee"
-    ],
-    [
-     "Elfriede Jelinek",
-     "Jelinek"
-    ],
-    [
-     "Orhan Pamuk",
-     "Pamuk"
-    ],
-    [
-     "J. M. G. Le Clézio",
-     "Le Clezio",
-     "Clezio",
-     "JMG Le Clezio",
-     "JMG Le Clézio"
-    ],
-    [
-     "Herta Müller",
-     "Müller"
-    ],
-    [
-     "Mario Vargas Llosa",
-     "Vargas Llosa",
-     "Llosa"
-    ],
-    [
-     "Tomas Tranströmer",
-     "Tranströmer"
-    ],
-    [
-     "Mo Yan"
-    ],
-    [
-     "Alice Munro",
-     "Munro"
-    ],
-    [
-     "Patrick Modiano",
-     "Modiano"
-    ],
-    [
-     "Svetlana Alexievich",
-     "Alexievich"
-    ],
-    [
-     "Olga Tokarczuk",
-     "Tokarczuk"
-    ],
-    [
-     "Peter Handke",
-     "Handke"
-    ],
-    [
-     "Louise Glück",
-     "Glück"
-    ],
-    [
-     "Abdulrazak Gurnah",
-     "Gurnah"
-    ],
-    [
-     "Annie Ernaux",
-     "Ernaux"
-    ],
-    [
-     "Jon Fosse",
-     "Fosse"
-    ],
-    [
-     "Han Kang"
-    ],
-    [
-     "László Krasznahorkai",
-     "Krasznahorkai"
-    ],
-    [
-     "Anne Carson",
-     "Carson"
     ]
    ]
   },
@@ -1737,7 +2134,8 @@
      "St Pauls Cathedral",
      "St Pauls",
      "St Paul's",
-     "Saint Paul's"
+     "Saint Paul's",
+     "Saint Paul's Cathedral"
     ],
     [
      "York Minster",
@@ -1831,7 +2229,8 @@
      "Christ Church Cathedral",
      "Oxford Cathedral",
      "Oxford",
-     "Christ Church Oxford"
+     "Christ Church Oxford",
+     "Christ Church"
     ],
     [
      "Peterborough Cathedral",
@@ -1854,7 +2253,8 @@
      "St Edmundsbury Cathedral",
      "Bury St Edmunds",
      "Bury St Edmunds Cathedral",
-     "St Edmundsbury"
+     "St Edmundsbury",
+     "Bury"
     ],
     [
      "Southwark Cathedral",

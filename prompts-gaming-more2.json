@@ -99,13 +99,9 @@
     [
      "Pokémon Legends: Arceus",
      "Legends Arceus",
-     "Pokemon Arceus",
-     "Pokemon Legends Arceus"
+     "Pokemon Arceus"
     ],
-    [
-     "Luigi's Mansion 3",
-     "Luigis Mansion 3"
-    ],
+    "Luigi's Mansion 3",
     [
      "Mario Party Superstars",
      "Superstars"
@@ -122,6 +118,12 @@
      "Super Mario Party Jamboree",
      "Jamboree",
      "Mario Party Jamboree"
+    ],
+    [
+     "Pokémon Legends: Z-A",
+     "Legends Z-A",
+     "Pokemon Z-A",
+     "Pokemon Legends ZA"
     ]
    ]
   },
@@ -315,12 +317,20 @@
      "New Nintendo 2DS XL",
      "New 2DS XL"
     ],
-    [
-     "Game & Watch",
-     "Game and Watch",
-     "Game&Watch"
-    ],
+    "Game & Watch",
     "Virtual Boy",
+    [
+     "SNES Classic Mini",
+     "Super NES Classic",
+     "SNES Mini",
+     "SNES Classic Edition"
+    ],
+    [
+     "NES Classic Mini",
+     "NES Classic Edition",
+     "NES Mini",
+     "NES Classic"
+    ],
     [
      "Game Boy Pocket",
      "Gameboy Pocket"
@@ -333,15 +343,16 @@
      "Game Boy Micro",
      "Gameboy Micro"
     ],
+    "Famicom Disk System",
+    [
+     "Nintendo 64DD",
+     "64DD"
+    ],
+    "Super Game Boy",
     "Wii Mini",
-    [
-     "Pokémon Mini",
-     "Pokemon Mini"
-    ],
-    [
-     "Color TV-Game",
-     "Color TV Game"
-    ],
+    "Game Boy Player",
+    "Pokémon Mini",
+    "Color TV-Game",
     "Wii Family Edition"
    ]
   },
@@ -457,6 +468,7 @@
     "Orre",
     "Fiore",
     "Almia",
+    "Kitakami",
     "Oblivia",
     "Ransei",
     "Lental",
@@ -535,7 +547,11 @@
     ],
     "Macro Cosmos",
     "Go-Rock Squad",
-    "Team Dim Sun"
+    "Team Dim Sun",
+    [
+     "Pinchers",
+     "Team Pincher"
+    ]
    ]
   },
   {
@@ -587,6 +603,10 @@
      "Turo"
     ],
     [
+     "Professor Sonia",
+     "Sonia"
+    ],
+    [
      "Professor Burnet",
      "Burnet"
     ],
@@ -601,6 +621,14 @@
     [
      "Professor Ivy",
      "Ivy"
+    ],
+    [
+     "Professor Krane",
+     "Krane"
+    ],
+    [
+     "Professor Hastings",
+     "Hastings"
     ]
    ]
   },
@@ -1682,7 +1710,8 @@
     "Piglin Brute",
     "Zoglin",
     "Wither",
-    "Happy Ghast"
+    "Happy Ghast",
+    "Ghastling"
    ]
   },
   {
@@ -1889,30 +1918,30 @@
     ],
     "Wither",
     "Fern",
-    "Backyard",
-    "Baroque",
-    "Bouquet",
-    "Cavebird",
-    "Changing",
-    "Cotan",
-    "Dennis",
     "Earth",
-    "Endboss",
-    "Finding",
     "Fire",
-    "Humble",
-    "Lowmist",
+    "Water",
+    "Wind",
+    "Sunflowers",
+    "Pond",
+    "Bouquet",
+    "Backyard",
     "Meditative",
     "Orb",
-    "Owlemons",
+    "Cavebird",
     "Passage",
-    "Pond",
+    "Endboss",
+    "Changing",
     "Prairie Ride",
-    "Sunflowers",
+    "Humble",
+    "Owlemons",
+    "Baroque",
     "Tides",
+    "Finding",
+    "Lowmist",
+    "Cotan",
     "Unpacked",
-    "Water",
-    "Wind"
+    "Dennis"
    ],
    "deep": true
   },
@@ -1929,6 +1958,10 @@
     "Creative",
     "Reload",
     [
+     "Fortnite OG",
+     "OG"
+    ],
+    [
      "LEGO Fortnite",
      "Lego"
     ],
@@ -1937,11 +1970,14 @@
      "LEGO Odyssey"
     ],
     "Brick Life",
+    "Team Rumble",
     [
      "Expeditions",
      "LEGO Expeditions"
     ],
+    "Arena",
     "Rocket Racing",
+    "Playground",
     [
      "Fortnite Festival",
      "Festival"
@@ -2111,7 +2147,6 @@
    "answers": [
     [
      "Companions",
-     "The Companions",
      "Companions Guild"
     ],
     "Thieves Guild",
@@ -2139,10 +2174,7 @@
     "Bards College",
     "Forsworn",
     "Greybeards",
-    [
-     "Blades",
-     "The Blades"
-    ],
+    "Blades",
     "Thalmor",
     "Penitus Oculatus",
     "Silver Hand",
@@ -2158,6 +2190,7 @@
     "Morag Tong",
     "Summerset Shadows",
     "Blackblood Marauders",
+    "East Empire Company",
     "Blood Horkers",
     "Blackwater Brigands",
     "Nightingales",
@@ -2165,10 +2198,7 @@
     "Synod",
     "Crimson Dirks",
     "Thirsk",
-    [
-     "The Circle",
-     "Circle"
-    ]
+    "The Circle"
    ]
   },
   {
@@ -2208,6 +2238,7 @@
     "Krosis",
     "Morokei",
     "Nahkriin",
+    "Konahrik",
     [
      "Otar the Mad",
      "Otar"
@@ -2301,15 +2332,48 @@
      "Junya Kaneshiro",
      "Kaneshiro"
     ],
+    [
+     "Sadayo Kawakami",
+     "Kawakami"
+    ],
     "Kunikazu Okumura",
+    [
+     "Tae Takemi",
+     "Takemi"
+    ],
+    [
+     "Munehisa Iwai",
+     "Iwai"
+    ],
     [
      "Masayoshi Shido",
      "Shido"
     ],
+    [
+     "Yuuki Mishima",
+     "Mishima"
+    ],
+    [
+     "Chihaya Mifune",
+     "Chihaya"
+    ],
     "Yaldabaoth",
+    [
+     "Ichiko Ohya",
+     "Ohya"
+    ],
+    "Lavenza",
     [
      "Shiho Suzui",
      "Shiho"
+    ],
+    [
+     "Toranosuke Yoshida",
+     "Yoshida"
+    ],
+    [
+     "Shinya Oda",
+     "Shinya"
     ],
     [
      "Takuto Maruki",
@@ -2325,6 +2389,10 @@
     [
      "Hifumi Togo",
      "Hifumi"
+    ],
+    [
+     "Wakaba Isshiki",
+     "Wakaba"
     ]
    ]
   },
@@ -2460,6 +2528,7 @@
      "Vector",
      "Vector the Crocodile"
     ],
+    "Super Sonic",
     [
      "Charmy",
      "Charmy Bee"
@@ -2498,14 +2567,26 @@
      "Maria Robotnik"
     ],
     "Eggman Nega",
+    [
+     "Marine the Raccoon",
+     "Marine"
+    ],
     "Black Doom",
     [
      "Jet",
      "Jet the Hawk"
     ],
     [
+     "Cosmo",
+     "Cosmo the Seedrian"
+    ],
+    [
      "Wave",
      "Wave the Swallow"
+    ],
+    [
+     "Mephiles",
+     "Mephiles the Dark"
     ],
     [
      "Storm",
@@ -2514,6 +2595,7 @@
     "Orbot",
     "Cubot",
     "Sage",
+    "Mecha Sonic",
     [
      "Sally Acorn",
      "Sally"
@@ -2535,12 +2617,30 @@
      "Tangle the Lemur"
     ],
     [
+     "Bean the Dynamite",
+     "Bean"
+    ],
+    [
+     "Bark the Polar Bear",
+     "Bark"
+    ],
+    [
      "Whisper",
      "Whisper the Wolf"
     ],
     "Zavok",
+    [
+     "Surge the Tenrec",
+     "Surge"
+    ],
     "Zazz",
+    "Kit the Fennec",
+    [
+     "Dr. Starline",
+     "Starline"
+    ],
     "Zeena",
+    "Belle the Tinkerer",
     "Zomom",
     "Zor",
     [
@@ -2548,7 +2648,9 @@
      "Zik"
     ],
     "Infinite",
-    "Tikal"
+    "Tikal",
+    "Iblis",
+    "Solaris"
    ]
   },
   {
@@ -2687,8 +2789,7 @@
     ],
     [
      "Dutch van der Linde",
-     "Dutch",
-     "Dutch Van der Linde"
+     "Dutch"
     ],
     [
      "John Marston",
@@ -2774,8 +2875,7 @@
     ],
     [
      "Mary-Beth Gaskill",
-     "Mary-Beth",
-     "Mary Beth"
+     "Mary-Beth"
     ],
     [
      "Tilly Jackson",
@@ -2786,12 +2886,35 @@
      "Karen"
     ],
     [
+     "Catherine Braithwaite",
+     "Braithwaite"
+    ],
+    [
      "Susan Grimshaw",
      "Susan"
     ],
     [
+     "Mary Linton",
+     "Mary"
+    ],
+    [
+     "Hamish Sinclair",
+     "Hamish"
+    ],
+    "Sister Calderón",
+    [
      "Pearson",
-     "Mr Pearson"
+     "Mr Pearson",
+     "Simon Pearson"
+    ],
+    [
+     "Charlotte Balfour",
+     "Charlotte"
+    ],
+    "Albert Mason",
+    [
+     "Marko Dragic",
+     "Dragic"
     ],
     [
      "Strauss",
@@ -2808,6 +2931,11 @@
     [
      "Josiah Trelawny",
      "Trelawny"
+    ],
+    [
+     "Thomas Downes",
+     "Downes",
+     "Mr Downes"
     ]
    ]
   }

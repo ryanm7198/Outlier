@@ -1763,23 +1763,19 @@
     "Ohio State",
     "Oklahoma",
     "Alabama",
-    [
-     "Army",
-     "Army West Point"
-    ],
-    "Auburn",
     "Florida",
     [
      "Florida State",
      "FSU"
     ],
+    "Texas",
+    "Michigan",
+    "Nebraska",
+    "Auburn",
     [
      "LSU",
      "Louisiana State"
     ],
-    "Michigan",
-    "Nebraska",
-    "Colorado",
     "Georgia",
     [
      "Miami",
@@ -1787,51 +1783,55 @@
      "University of Miami",
      "Miami Hurricanes"
     ],
-    "Navy",
-    "Texas",
     [
      "Texas A&M",
      "Texas AM",
      "A&M"
     ],
+    [
+     "Army",
+     "Army West Point"
+    ],
+    "Navy",
+    "Colorado",
     "Wisconsin",
-    "Yale",
+    "Oregon",
     "Baylor",
     [
      "BYU",
      "Brigham Young"
     ],
     "Boston College",
-    [
-     "Chicago",
-     "University of Chicago"
-    ],
-    "Houston",
-    "Indiana",
-    "Iowa",
     "Louisville",
-    "Minnesota",
-    "Oklahoma State",
-    "Oregon",
-    "Oregon State",
-    "Penn State",
     [
      "Pittsburgh",
      "Pitt"
     ],
-    "Princeton",
-    "South Carolina",
-    [
-     "SMU",
-     "Southern Methodist"
-    ],
+    "Penn State",
     "Stanford",
+    "UCLA",
+    "Oklahoma State",
+    "Houston",
     "Syracuse",
     [
      "TCU",
      "Texas Christian"
     ],
-    "UCLA"
+    [
+     "SMU",
+     "Southern Methodist"
+    ],
+    "Indiana",
+    "South Carolina",
+    "Iowa",
+    "Minnesota",
+    "Yale",
+    "Princeton",
+    [
+     "Chicago",
+     "University of Chicago"
+    ],
+    "Oregon State"
    ]
   },
   {
@@ -2273,8 +2273,45 @@
    "text": "Name a man who has won the Olympic decathlon (1912 to 2024, as currently recognised)",
    "answers": [
     [
+     "Daley Thompson",
+     "Thompson"
+    ],
+    [
+     "Caitlyn Jenner",
+     "Bruce Jenner",
+     "Jenner"
+    ],
+    [
      "Jim Thorpe",
      "Thorpe"
+    ],
+    [
+     "Ashton Eaton",
+     "Eaton"
+    ],
+    [
+     "Bob Mathias",
+     "Mathias"
+    ],
+    [
+     "Dan O'Brien",
+     "O'Brien"
+    ],
+    [
+     "Rafer Johnson",
+     "Johnson"
+    ],
+    [
+     "Damian Warner",
+     "Warner"
+    ],
+    [
+     "Roman Šebrle",
+     "Šebrle"
+    ],
+    [
+     "Bryan Clay",
+     "Clay"
     ],
     [
      "Helge Løvland",
@@ -2297,16 +2334,8 @@
      "Morris"
     ],
     [
-     "Bob Mathias",
-     "Mathias"
-    ],
-    [
      "Milt Campbell",
      "Campbell"
-    ],
-    [
-     "Rafer Johnson",
-     "Johnson"
     ],
     [
      "Willi Holdorf",
@@ -2321,10 +2350,6 @@
      "Avilov"
     ],
     [
-     "Daley Thompson",
-     "Thompson"
-    ],
-    [
      "Christian Schenk",
      "Schenk"
     ],
@@ -2333,37 +2358,12 @@
      "Změlík"
     ],
     [
-     "Dan O'Brien",
-     "O'Brien"
-    ],
-    [
      "Erki Nool",
      "Nool"
     ],
     [
-     "Roman Šebrle",
-     "Šebrle"
-    ],
-    [
-     "Bryan Clay",
-     "Clay"
-    ],
-    [
-     "Ashton Eaton",
-     "Eaton"
-    ],
-    [
-     "Damian Warner",
-     "Warner"
-    ],
-    [
      "Markus Rooth",
      "Rooth"
-    ],
-    [
-     "Caitlyn Jenner",
-     "Bruce Jenner",
-     "Jenner"
     ]
    ]
   },
@@ -2374,6 +2374,63 @@
    ],
    "text": "Name a man who has won the Olympic triple jump title (1896 to 2024)",
    "answers": [
+    [
+     "Jonathan Edwards",
+     "Edwards"
+    ],
+    [
+     "Christian Taylor",
+     "Taylor"
+    ],
+    [
+     "Pedro Pichardo",
+     "Pichardo"
+    ],
+    [
+     "Viktor Saneyev",
+     "Saneyev"
+    ],
+    [
+     "Kenny Harrison",
+     "Harrison"
+    ],
+    [
+     "Christian Olsson",
+     "Olsson"
+    ],
+    [
+     "Nelson Évora",
+     "Évora"
+    ],
+    [
+     "Jordan Díaz",
+     "Díaz"
+    ],
+    [
+     "Mike Conley",
+     "Conley"
+    ],
+    [
+     "Al Joyner",
+     "Joyner"
+    ],
+    [
+     "Adhemar da Silva",
+     "Silva",
+     "da Silva"
+    ],
+    [
+     "Józef Szmidt",
+     "Szmidt"
+    ],
+    [
+     "Khristo Markov",
+     "Markov"
+    ],
+    [
+     "Jaak Uudmäe",
+     "Uudmäe"
+    ],
     [
      "James Brendan Connolly",
      "Connolly"
@@ -2413,63 +2470,6 @@
     [
      "Arne Åhman",
      "Åhman"
-    ],
-    [
-     "Adhemar da Silva",
-     "Silva",
-     "da Silva"
-    ],
-    [
-     "Józef Szmidt",
-     "Szmidt"
-    ],
-    [
-     "Viktor Saneyev",
-     "Saneyev"
-    ],
-    [
-     "Jaak Uudmäe",
-     "Uudmäe"
-    ],
-    [
-     "Al Joyner",
-     "Joyner"
-    ],
-    [
-     "Khristo Markov",
-     "Markov"
-    ],
-    [
-     "Mike Conley",
-     "Conley"
-    ],
-    [
-     "Kenny Harrison",
-     "Harrison"
-    ],
-    [
-     "Jonathan Edwards",
-     "Edwards"
-    ],
-    [
-     "Christian Olsson",
-     "Olsson"
-    ],
-    [
-     "Nelson Évora",
-     "Évora"
-    ],
-    [
-     "Christian Taylor",
-     "Taylor"
-    ],
-    [
-     "Pedro Pichardo",
-     "Pichardo"
-    ],
-    [
-     "Jordan Díaz",
-     "Díaz"
     ]
    ]
   },
@@ -2481,48 +2481,47 @@
    "text": "Name a man who has won the Olympic 3000m steeplechase (1920 to 2024)",
    "answers": [
     [
-     "Percy Hodge",
-     "Hodge"
+     "Ezekiel Kemboi",
+     "Kemboi"
     ],
     [
-     "Ville Ritola",
-     "Ritola"
-    ],
-    [
-     "Toivo Loukola",
-     "Loukola"
-    ],
-    [
-     "Volmari Iso-Hollo",
-     "Iso-Hollo"
-    ],
-    [
-     "Tore Sjöstrand",
-     "Sjöstrand"
-    ],
-    [
-     "Horace Ashenfelter",
-     "Ashenfelter"
+     "Soufiane El Bakkali",
+     "Bakkali",
+     "El Bakkali"
     ],
     [
      "Chris Brasher",
      "Brasher"
     ],
     [
-     "Zdzisław Krzyszkowiak",
-     "Krzyszkowiak"
+     "Kipchoge Keino",
+     "Keino"
+    ],
+    "Conseslus Kipruto",
+    "Brimin Kipruto",
+    [
+     "Reuben Kosgei",
+     "Kosgei"
     ],
     [
-     "Gaston Roelants",
-     "Roelants"
+     "Joseph Keter",
+     "Keter"
+    ],
+    [
+     "Matthew Birir",
+     "Birir"
+    ],
+    [
+     "Julius Kariuki",
+     "Kariuki"
+    ],
+    [
+     "Julius Korir",
+     "Korir"
     ],
     [
      "Amos Biwott",
      "Biwott"
-    ],
-    [
-     "Kipchoge Keino",
-     "Keino"
     ],
     [
      "Anders Gärderud",
@@ -2533,35 +2532,36 @@
      "Malinowski"
     ],
     [
-     "Julius Korir",
-     "Korir"
+     "Gaston Roelants",
+     "Roelants"
     ],
     [
-     "Julius Kariuki",
-     "Kariuki"
+     "Horace Ashenfelter",
+     "Ashenfelter"
     ],
     [
-     "Matthew Birir",
-     "Birir"
+     "Volmari Iso-Hollo",
+     "Iso-Hollo"
     ],
     [
-     "Joseph Keter",
-     "Keter"
+     "Ville Ritola",
+     "Ritola"
     ],
     [
-     "Reuben Kosgei",
-     "Kosgei"
+     "Percy Hodge",
+     "Hodge"
     ],
     [
-     "Ezekiel Kemboi",
-     "Kemboi"
+     "Toivo Loukola",
+     "Loukola"
     ],
-    "Brimin Kipruto",
-    "Conseslus Kipruto",
     [
-     "Soufiane El Bakkali",
-     "Bakkali",
-     "El Bakkali"
+     "Tore Sjöstrand",
+     "Sjöstrand"
+    ],
+    [
+     "Zdzisław Krzyszkowiak",
+     "Krzyszkowiak"
     ]
    ]
   },
@@ -2572,6 +2572,69 @@
    ],
    "text": "Name a man who has won the Olympic 400m hurdles title (1900 to 2024)",
    "answers": [
+    [
+     "Edwin Moses",
+     "Moses"
+    ],
+    [
+     "David Hemery",
+     "Hemery"
+    ],
+    [
+     "Karsten Warholm",
+     "Warholm"
+    ],
+    [
+     "Rai Benjamin",
+     "Benjamin"
+    ],
+    [
+     "Kevin Young",
+     "Young"
+    ],
+    [
+     "Félix Sánchez",
+     "Sánchez"
+    ],
+    "Angelo Taylor",
+    [
+     "Kerron Clement",
+     "Clement"
+    ],
+    [
+     "David Burghley",
+     "Burghley",
+     "Lord Burghley",
+     "David Cecil"
+    ],
+    [
+     "John Akii-Bua",
+     "Akii-Bua"
+    ],
+    [
+     "Derrick Adkins",
+     "Adkins"
+    ],
+    [
+     "André Phillips",
+     "Phillips"
+    ],
+    [
+     "Glenn Davis",
+     "Davis"
+    ],
+    [
+     "Bob Tisdall",
+     "Tisdall"
+    ],
+    [
+     "Volker Beck",
+     "Beck"
+    ],
+    [
+     "Rex Cawley",
+     "Cawley"
+    ],
     [
      "Walter Tewksbury",
      "Tewksbury"
@@ -2590,14 +2653,6 @@
     ],
     "Morgan Taylor",
     [
-     "David Burghley",
-     "Burghley"
-    ],
-    [
-     "Bob Tisdall",
-     "Tisdall"
-    ],
-    [
      "Glenn Hardin",
      "Hardin"
     ],
@@ -2608,59 +2663,6 @@
     [
      "Charles Moore",
      "Moore"
-    ],
-    [
-     "Glenn Davis",
-     "Davis"
-    ],
-    [
-     "Rex Cawley",
-     "Cawley"
-    ],
-    [
-     "David Hemery",
-     "Hemery"
-    ],
-    [
-     "John Akii-Bua",
-     "Akii-Bua"
-    ],
-    [
-     "Edwin Moses",
-     "Moses"
-    ],
-    [
-     "Volker Beck",
-     "Beck"
-    ],
-    [
-     "André Phillips",
-     "Phillips"
-    ],
-    [
-     "Kevin Young",
-     "Young"
-    ],
-    [
-     "Derrick Adkins",
-     "Adkins"
-    ],
-    "Angelo Taylor",
-    [
-     "Félix Sánchez",
-     "Sánchez"
-    ],
-    [
-     "Kerron Clement",
-     "Clement"
-    ],
-    [
-     "Karsten Warholm",
-     "Warholm"
-    ],
-    [
-     "Rai Benjamin",
-     "Benjamin"
     ]
    ]
   },
@@ -2672,16 +2674,62 @@
    "text": "Name a man who has won the Olympic discus throw title (1896 to 2024)",
    "answers": [
     [
+     "Al Oerter",
+     "Oerter"
+    ],
+    [
+     "Virgilijus Alekna",
+     "Alekna"
+    ],
+    "Robert Harting",
+    [
+     "Daniel Ståhl",
+     "Ståhl"
+    ],
+    [
+     "Gerd Kanter",
+     "Kanter"
+    ],
+    [
+     "Lars Riedel",
+     "Riedel"
+    ],
+    [
+     "Jürgen Schult",
+     "Schult"
+    ],
+    [
+     "Roje Stona",
+     "Stona"
+    ],
+    "Christoph Harting",
+    [
+     "Mac Wilkins",
+     "Wilkins"
+    ],
+    [
+     "Romas Ubartas",
+     "Ubartas"
+    ],
+    [
+     "Adolfo Consolini",
+     "Consolini"
+    ],
+    [
+     "Ludvík Daněk",
+     "Daněk"
+    ],
+    [
+     "Martin Sheridan",
+     "Sheridan"
+    ],
+    [
      "Robert Garrett",
      "Garrett"
     ],
     [
      "Rudolf Bauer",
      "Bauer"
-    ],
-    [
-     "Martin Sheridan",
-     "Sheridan"
     ],
     [
      "Armas Taipale",
@@ -2704,24 +2752,8 @@
      "Carpenter"
     ],
     [
-     "Adolfo Consolini",
-     "Consolini"
-    ],
-    [
      "Sim Iness",
      "Iness"
-    ],
-    [
-     "Al Oerter",
-     "Oerter"
-    ],
-    [
-     "Ludvík Daněk",
-     "Daněk"
-    ],
-    [
-     "Mac Wilkins",
-     "Wilkins"
     ],
     [
      "Viktor Rashchupkin",
@@ -2730,36 +2762,6 @@
     [
      "Rolf Danneberg",
      "Danneberg"
-    ],
-    [
-     "Jürgen Schult",
-     "Schult"
-    ],
-    [
-     "Romas Ubartas",
-     "Ubartas"
-    ],
-    [
-     "Lars Riedel",
-     "Riedel"
-    ],
-    [
-     "Virgilijus Alekna",
-     "Alekna"
-    ],
-    [
-     "Gerd Kanter",
-     "Kanter"
-    ],
-    "Robert Harting",
-    "Christoph Harting",
-    [
-     "Daniel Ståhl",
-     "Ståhl"
-    ],
-    [
-     "Roje Stona",
-     "Stona"
     ]
    ]
   },
@@ -2771,48 +2773,56 @@
    "text": "Name a rider who has won the Milan-San Remo cycling race between 2000 and 2026",
    "answers": [
     [
-     "Erik Zabel",
-     "Zabel"
+     "Mark Cavendish",
+     "Cavendish"
     ],
     [
-     "Mario Cipollini",
-     "Cipollini"
+     "Tadej Pogačar",
+     "Pogačar"
     ],
     [
-     "Paolo Bettini",
-     "Bettini"
-    ],
-    [
-     "Óscar Freire",
-     "Freire"
-    ],
-    [
-     "Alessandro Petacchi",
-     "Petacchi"
-    ],
-    [
-     "Filippo Pozzato",
-     "Pozzato"
+     "Mathieu van der Poel",
+     "van der Poel"
     ],
     [
      "Fabian Cancellara",
      "Cancellara"
     ],
     [
-     "Mark Cavendish",
-     "Cavendish"
+     "Vincenzo Nibali",
+     "Nibali"
     ],
     [
-     "Matthew Goss",
-     "Goss"
+     "Mario Cipollini",
+     "Cipollini"
     ],
     [
-     "Simon Gerrans",
-     "Gerrans"
+     "Wout van Aert",
+     "van Aert"
     ],
     [
-     "Gerald Ciolek",
-     "Ciolek"
+     "Julian Alaphilippe",
+     "Alaphilippe"
+    ],
+    [
+     "Erik Zabel",
+     "Zabel"
+    ],
+    [
+     "Óscar Freire",
+     "Freire"
+    ],
+    [
+     "Paolo Bettini",
+     "Bettini"
+    ],
+    [
+     "Alessandro Petacchi",
+     "Petacchi"
+    ],
+    [
+     "Michał Kwiatkowski",
+     "Kwiatkowski"
     ],
     [
      "Alexander Kristoff",
@@ -2823,44 +2833,36 @@
      "Degenkolb"
     ],
     [
+     "Jasper Philipsen",
+     "Philipsen"
+    ],
+    [
+     "Simon Gerrans",
+     "Gerrans"
+    ],
+    [
      "Arnaud Démare",
      "Démare"
     ],
     [
-     "Michał Kwiatkowski",
-     "Kwiatkowski"
-    ],
-    [
-     "Vincenzo Nibali",
-     "Nibali"
-    ],
-    [
-     "Julian Alaphilippe",
-     "Alaphilippe"
-    ],
-    [
-     "Wout van Aert",
-     "van Aert"
-    ],
-    [
-     "Jasper Stuyven",
-     "Stuyven"
+     "Filippo Pozzato",
+     "Pozzato"
     ],
     [
      "Matej Mohorič",
      "Mohorič"
     ],
     [
-     "Mathieu van der Poel",
-     "van der Poel"
+     "Jasper Stuyven",
+     "Stuyven"
     ],
     [
-     "Jasper Philipsen",
-     "Philipsen"
+     "Matthew Goss",
+     "Goss"
     ],
     [
-     "Tadej Pogačar",
-     "Pogačar"
+     "Gerald Ciolek",
+     "Ciolek"
     ]
    ]
   },
@@ -2871,32 +2873,35 @@
    ],
    "text": "Name a horse that has won the Kentucky Derby between 2000 and 2025 (official winners)",
    "answers": [
-    "Fusaichi Pegasus",
-    "Monarchos",
-    "War Emblem",
-    "Funny Cide",
+    "American Pharoah",
+    "Justify",
+    "California Chrome",
+    "Rich Strike",
     "Smarty Jones",
-    "Giacomo",
     "Barbaro",
-    "Street Sense",
     "Big Brown",
     "Mine That Bird",
-    "Super Saver",
+    "Funny Cide",
+    "War Emblem",
+    "Fusaichi Pegasus",
     "Animal Kingdom",
-    "I'll Have Another",
-    "Orb",
-    "California Chrome",
-    "American Pharoah",
+    [
+     "I'll Have Another",
+     "Ill Have Another"
+    ],
     "Nyquist",
     "Always Dreaming",
-    "Justify",
     "Country House",
     "Authentic",
-    "Mandaloun",
-    "Rich Strike",
+    "Orb",
+    "Super Saver",
+    "Street Sense",
+    "Giacomo",
+    "Monarchos",
     "Mage",
-    "Mystik Dan",
-    "Sovereignty"
+    "Mandaloun",
+    "Sovereignty",
+    "Mystik Dan"
    ]
   },
   {
@@ -2906,32 +2911,32 @@
    ],
    "text": "Name a horse that has won the Belmont Stakes between 2000 and 2025",
    "answers": [
-    "Commendable",
-    "Point Given",
-    "Sarava",
-    "Empire Maker",
-    "Birdstone",
-    "Afleet Alex",
-    "Jazil",
-    "Rags to Riches",
-    "Da'Tara",
-    "Summer Bird",
-    "Drosselmeyer",
-    "Ruler on Ice",
-    "Union Rags",
-    "Palace Malice",
-    "Tonalist",
     "American Pharoah",
-    "Creator",
-    "Tapwrit",
     "Justify",
-    "Sir Winston",
+    "Rags to Riches",
+    "Sovereignty",
+    "Empire Maker",
+    "Point Given",
+    "Afleet Alex",
+    "Birdstone",
+    "Tonalist",
+    "Union Rags",
+    "Drosselmeyer",
+    "Summer Bird",
+    "Da'Tara",
     "Tiz the Law",
     "Essential Quality",
+    "Creator",
+    "Palace Malice",
+    "Ruler on Ice",
+    "Sir Winston",
+    "Tapwrit",
     "Mo Donegal",
     "Arcangelo",
     "Dornoch",
-    "Sovereignty"
+    "Jazil",
+    "Sarava",
+    "Commendable"
    ]
   }
  ]

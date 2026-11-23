@@ -1845,132 +1845,16 @@
    "text": "Name a player who has led the NBA in minutes per game for a season (up to 2025-26)",
    "answers": [
     [
-     "Paul Arizin",
-     "Arizin"
-    ],
-    [
-     "Neil Johnston",
-     "Johnston"
-    ],
-    [
-     "Jack George",
-     "George"
-    ],
-    [
-     "Dolph Schayes",
-     "Schayes"
-    ],
-    [
-     "Bill Russell",
-     "Russell"
-    ],
-    [
      "Wilt Chamberlain",
      "Wilt",
      "Wilt the Stilt",
      "Chamberlain"
     ],
     [
-     "Oscar Robertson",
-     "The Big O",
-     "Big O",
-     "Robertson"
-    ],
-    [
-     "Elvin Hayes",
-     "Hayes"
-    ],
-    [
-     "John Havlicek",
-     "Hondo",
-     "Havlicek"
-    ],
-    [
-     "Nate \"Tiny\" Archibald",
-     "Archibald"
-    ],
-    [
-     "Bob McAdoo",
-     "McAdoo"
-    ],
-    [
-     "Pete Maravich",
-     "Pistol Pete",
-     "Maravich"
-    ],
-    [
-     "Truck Robinson",
-     "Robinson"
-    ],
-    [
-     "Moses Malone",
-     "Moses",
-     "Malone"
-    ],
-    [
-     "Norm Nixon",
-     "Nixon"
-    ],
-    [
-     "Adrian Dantley",
-     "Dantley"
-    ],
-    [
-     "Kelly Tripucka",
-     "Tripucka"
-    ],
-    [
-     "Jeff Ruland",
-     "Ruland"
-    ],
-    [
-     "Larry Bird",
-     "Bird",
-     "Larry Legend"
-    ],
-    [
-     "Maurice Cheeks",
-     "Cheeks"
-    ],
-    [
      "Michael Jordan",
      "MJ",
      "Air Jordan",
      "Jordan"
-    ],
-    [
-     "Rodney McCray",
-     "McCray"
-    ],
-    [
-     "Chris Mullin",
-     "Mullin"
-    ],
-    [
-     "Larry Johnson",
-     "Johnson"
-    ],
-    [
-     "Latrell Sprewell",
-     "Sprewell"
-    ],
-    [
-     "Vin Baker",
-     "Baker"
-    ],
-    [
-     "Anthony Mason",
-     "Mason"
-    ],
-    [
-     "Michael Finley",
-     "Finley"
-    ],
-    [
-     "Allen Iverson",
-     "AI",
-     "The Answer",
-     "Iverson"
     ],
     [
      "LeBron James",
@@ -1980,16 +1864,30 @@
      "James"
     ],
     [
-     "Andre Iguodala",
-     "Iguodala"
+     "Allen Iverson",
+     "AI",
+     "The Answer",
+     "Iverson"
     ],
     [
-     "Monta Ellis",
-     "Ellis"
+     "Larry Bird",
+     "Bird",
+     "Larry Legend"
     ],
     [
-     "Luol Deng",
-     "Deng"
+     "Bill Russell",
+     "Russell"
+    ],
+    [
+     "Oscar Robertson",
+     "The Big O",
+     "Big O",
+     "Robertson"
+    ],
+    [
+     "James Harden",
+     "The Beard",
+     "Harden"
     ],
     [
      "Carmelo Anthony",
@@ -2002,38 +1900,140 @@
      "Butler"
     ],
     [
-     "James Harden",
-     "The Beard",
-     "Harden"
+     "Damian Lillard",
+     "Dame",
+     "Lillard"
+    ],
+    [
+     "Pete Maravich",
+     "Pistol Pete",
+     "Maravich"
+    ],
+    [
+     "Moses Malone",
+     "Moses",
+     "Malone"
+    ],
+    [
+     "John Havlicek",
+     "Hondo",
+     "Havlicek"
+    ],
+    [
+     "Elvin Hayes",
+     "Hayes"
     ],
     [
      "Bradley Beal",
      "Beal"
     ],
     [
-     "Damian Lillard",
-     "Dame",
-     "Lillard"
-    ],
-    [
-     "Julius Randle",
-     "Randle"
+     "DeMar DeRozan",
+     "DeRozan"
     ],
     [
      "Pascal Siakam",
      "Siakam"
     ],
     [
-     "DeMar DeRozan",
-     "DeRozan"
+     "Julius Randle",
+     "Randle"
+    ],
+    [
+     "Andre Iguodala",
+     "Iguodala"
+    ],
+    [
+     "Latrell Sprewell",
+     "Sprewell"
+    ],
+    [
+     "Chris Mullin",
+     "Mullin"
+    ],
+    [
+     "Larry Johnson",
+     "Johnson"
+    ],
+    [
+     "Tyrese Maxey",
+     "Maxey"
     ],
     [
      "Josh Hart",
      "Hart"
     ],
     [
-     "Tyrese Maxey",
-     "Maxey"
+     "Luol Deng",
+     "Deng"
+    ],
+    [
+     "Monta Ellis",
+     "Ellis"
+    ],
+    [
+     "Bob McAdoo",
+     "McAdoo"
+    ],
+    [
+     "Nate \"Tiny\" Archibald",
+     "Archibald"
+    ],
+    [
+     "Dolph Schayes",
+     "Schayes"
+    ],
+    [
+     "Paul Arizin",
+     "Arizin"
+    ],
+    [
+     "Adrian Dantley",
+     "Dantley"
+    ],
+    [
+     "Maurice Cheeks",
+     "Cheeks"
+    ],
+    [
+     "Vin Baker",
+     "Baker"
+    ],
+    [
+     "Michael Finley",
+     "Finley"
+    ],
+    [
+     "Anthony Mason",
+     "Mason"
+    ],
+    [
+     "Norm Nixon",
+     "Nixon"
+    ],
+    [
+     "Kelly Tripucka",
+     "Tripucka"
+    ],
+    [
+     "Jeff Ruland",
+     "Ruland"
+    ],
+    [
+     "Truck Robinson",
+     "Robinson"
+    ],
+    [
+     "Rodney McCray",
+     "McCray"
+    ],
+    [
+     "Neil Johnston",
+     "Johnston"
+    ],
+    [
+     "Jack George",
+     "George"
     ]
    ]
   },

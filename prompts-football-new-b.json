@@ -297,12 +297,9 @@
      "Dortmund",
      "BVB"
     ],
-    "Ajax",
-    "Atalanta",
     [
-     "Athletic Bilbao",
-     "Athletic Club",
-     "Athletic"
+     "Napoli",
+     "SSC Napoli"
     ],
     [
      "Bayer Leverkusen",
@@ -312,6 +309,59 @@
      "Benfica",
      "SL Benfica"
     ],
+    "Ajax",
+    [
+     "Marseille",
+     "Olympique de Marseille",
+     "OM"
+    ],
+    "Atalanta",
+    [
+     "Monaco",
+     "AS Monaco"
+    ],
+    [
+     "Sporting CP",
+     "Sporting",
+     "Sporting Lisbon"
+    ],
+    [
+     "PSV Eindhoven",
+     "PSV",
+     "Eindhoven"
+    ],
+    "Galatasaray",
+    [
+     "Eintracht Frankfurt",
+     "Frankfurt"
+    ],
+    [
+     "Athletic Bilbao",
+     "Athletic Club",
+     "Athletic"
+    ],
+    "Villarreal",
+    [
+     "Club Brugge",
+     "Brugge"
+    ],
+    "Olympiacos",
+    [
+     "Copenhagen",
+     "FC Copenhagen",
+     "FCK"
+    ],
+    [
+     "Slavia Prague",
+     "Slavia Praha",
+     "Slavia"
+    ],
+    [
+     "Union Saint-Gilloise",
+     "Union SG",
+     "Union Saint Gilloise",
+     "Royale Union Saint-Gilloise"
+    ],
     [
      "Bodø/Glimt",
      "Bodo Glimt",
@@ -320,64 +370,14 @@
      "Bodo"
     ],
     [
-     "Club Brugge",
-     "Brugge"
-    ],
-    [
-     "Copenhagen",
-     "FC Copenhagen",
-     "FCK"
-    ],
-    [
-     "Eintracht Frankfurt",
-     "Frankfurt"
-    ],
-    "Galatasaray",
-    [
-     "Kairat",
-     "Kairat Almaty"
-    ],
-    [
-     "Marseille",
-     "Olympique de Marseille",
-     "OM"
-    ],
-    [
-     "Monaco",
-     "AS Monaco"
-    ],
-    [
-     "Napoli",
-     "SSC Napoli"
-    ],
-    "Olympiacos",
-    "Pafos",
-    [
-     "PSV Eindhoven",
-     "PSV",
-     "Eindhoven"
-    ],
-    [
      "Qarabağ",
      "Qarabag"
     ],
+    "Pafos",
     [
-     "Slavia Prague",
-     "Slavia Praha",
-     "Slavia"
-    ],
-    [
-     "Sporting CP",
-     "Sporting",
-     "Sporting Lisbon"
-    ],
-    [
-     "Union Saint-Gilloise",
-     "Union SG",
-     "Union Saint Gilloise",
-     "Royale Union Saint-Gilloise"
-    ],
-    "Villarreal"
+     "Kairat",
+     "Kairat Almaty"
+    ]
    ]
   },
   {
@@ -423,36 +423,49 @@
     ],
     "Braga",
     "Panathinaikos",
-    "Basel",
+    "Lille",
     "Bologna",
-    "Brann",
     [
-     "Celta Vigo",
-     "Celta"
+     "VfB Stuttgart",
+     "Stuttgart"
+    ],
+    [
+     "Red Star Belgrade",
+     "Crvena Zvezda",
+     "Red Star"
+    ],
+    [
+     "Red Bull Salzburg",
+     "Salzburg",
+     "RB Salzburg"
     ],
     [
      "Dinamo Zagreb",
      "GNK Dinamo Zagreb"
     ],
     [
-     "FCSB",
-     "Steaua Bucharest"
+     "Celta Vigo",
+     "Celta"
+    ],
+    "Basel",
+    "Nice",
+    "PAOK",
+    [
+     "SC Freiburg",
+     "Freiburg"
+    ],
+    [
+     "Young Boys",
+     "BSC Young Boys"
+    ],
+    [
+     "Maccabi Tel Aviv",
+     "Maccabi"
     ],
     [
      "Ferencváros",
      "Ferencvaros",
      "Fradi"
-    ],
-    "Genk",
-    "Go Ahead Eagles",
-    "Lille",
-    [
-     "Ludogorets Razgrad",
-     "Ludogorets"
-    ],
-    [
-     "Maccabi Tel Aviv",
-     "Maccabi"
     ],
     [
      "Malmö FF",
@@ -461,33 +474,10 @@
      "Malmö"
     ],
     "Midtjylland",
-    "Nice",
-    "PAOK",
+    "Genk",
     [
-     "Red Bull Salzburg",
-     "Salzburg",
-     "RB Salzburg"
-    ],
-    [
-     "Red Star Belgrade",
-     "Crvena Zvezda",
-     "Red Star"
-    ],
-    [
-     "SC Freiburg",
-     "Freiburg"
-    ],
-    [
-     "Sturm Graz",
-     "Sturm"
-    ],
-    [
-     "Utrecht",
-     "FC Utrecht"
-    ],
-    [
-     "VfB Stuttgart",
-     "Stuttgart"
+     "FCSB",
+     "Steaua Bucharest"
     ],
     [
      "Viktoria Plzeň",
@@ -496,9 +486,19 @@
      "Plzeň"
     ],
     [
-     "Young Boys",
-     "BSC Young Boys"
-    ]
+     "Ludogorets Razgrad",
+     "Ludogorets"
+    ],
+    [
+     "Utrecht",
+     "FC Utrecht"
+    ],
+    [
+     "Sturm Graz",
+     "Sturm"
+    ],
+    "Brann",
+    "Go Ahead Eagles"
    ]
   },
   {
@@ -552,6 +552,49 @@
     ],
     "Samsunspor",
     [
+     "Strasbourg",
+     "RC Strasbourg"
+    ],
+    [
+     "Sparta Prague",
+     "Sparta Praha",
+     "Sparta"
+    ],
+    [
+     "AZ Alkmaar",
+     "AZ"
+    ],
+    [
+     "Shamrock Rovers",
+     "Shamrock"
+    ],
+    "Shelbourne",
+    [
+     "Lech Poznań",
+     "Lech Poznan",
+     "Lech"
+    ],
+    [
+     "Slovan Bratislava",
+     "Slovan"
+    ],
+    "Rijeka",
+    [
+     "Lincoln Red Imps",
+     "Lincoln"
+    ],
+    [
+     "Raków Częstochowa",
+     "Rakow",
+     "Rakow Czestochowa",
+     "Raków"
+    ],
+    [
+     "Jagiellonia Białystok",
+     "Jagiellonia",
+     "Jagiellonia Bialystok"
+    ],
+    [
      "AEK Larnaca",
      "Larnaca"
     ],
@@ -565,64 +608,13 @@
      "Breiðablik",
      "Breidablik"
     ],
-    "Celje",
-    "Drita",
-    [
-     "Hamrun Spartans",
-     "Hamrun"
-    ],
-    [
-     "Jagiellonia Białystok",
-     "Jagiellonia",
-     "Jagiellonia Bialystok"
-    ],
-    "KuPS",
-    [
-     "Lausanne-Sport",
-     "Lausanne"
-    ],
-    [
-     "Lech Poznań",
-     "Lech Poznan",
-     "Lech"
-    ],
-    [
-     "Lincoln Red Imps",
-     "Lincoln"
-    ],
-    "Noah",
-    [
-     "Raków Częstochowa",
-     "Rakow",
-     "Rakow Czestochowa",
-     "Raków"
-    ],
-    "Rijeka",
-    [
-     "Shamrock Rovers",
-     "Shamrock"
-    ],
-    "Shelbourne",
-    [
-     "Shkëndija",
-     "Shkendija"
-    ],
     [
      "Sigma Olomouc",
      "Sigma"
     ],
     [
-     "Slovan Bratislava",
-     "Slovan"
-    ],
-    [
-     "Sparta Prague",
-     "Sparta Praha",
-     "Sparta"
-    ],
-    [
-     "Strasbourg",
-     "RC Strasbourg"
+     "Lausanne-Sport",
+     "Lausanne"
     ],
     [
      "Universitatea Craiova",
@@ -633,10 +625,18 @@
      "Zrinjski Mostar",
      "Zrinjski"
     ],
+    "Celje",
     [
-     "AZ Alkmaar",
-     "AZ"
-    ]
+     "Hamrun Spartans",
+     "Hamrun"
+    ],
+    "KuPS",
+    [
+     "Shkëndija",
+     "Shkendija"
+    ],
+    "Drita",
+    "Noah"
    ]
   },
   {
@@ -1252,8 +1252,7 @@
     ],
     [
      "Luka Modrić",
-     "Modric",
-     "Luka Modric"
+     "Modric"
     ],
     [
      "Sergio Ramos",
@@ -1274,13 +1273,11 @@
     ],
     [
      "Vitālijs Astafjevs",
-     "Astafjevs",
-     "Vitalijs Astafjevs"
+     "Astafjevs"
     ],
     [
      "Ivan Perišić",
-     "Perisic",
-     "Ivan Perisic"
+     "Perisic"
     ],
     [
      "Konstantin Vassiljev",
@@ -1296,8 +1293,7 @@
     ],
     [
      "Edin Džeko",
-     "Dzeko",
-     "Edin Dzeko"
+     "Dzeko"
     ],
     [
      "Granit Xhaka",
@@ -1309,13 +1305,11 @@
     ],
     [
      "Lothar Matthäus",
-     "Matthaus",
-     "Lothar Matthaus"
+     "Matthaus"
     ],
     [
      "Ricardo Rodriguez",
-     "Rodriguez",
-     "Ricardo Rodríguez"
+     "Rodriguez"
     ],
     [
      "Robbie Keane",
@@ -1323,8 +1317,7 @@
     ],
     [
      "João Moutinho",
-     "Moutinho",
-     "Joao Moutinho"
+     "Moutinho"
     ],
     [
      "Anders Svensson",
@@ -1364,7 +1357,8 @@
     [
      "Axel Witsel",
      "Witsel"
-    ]
+    ],
+    "Steven Davis"
    ],
    "deep": true
   },
@@ -1416,14 +1410,28 @@
      "Hamburger SV",
      "HSV"
     ],
+    "Liverpool",
+    [
+     "Manchester City",
+     "Man City"
+    ],
     "Ajax",
-    "Benfica",
-    "Blackpool",
+    [
+     "Inter Miami",
+     "Miami"
+    ],
     [
      "Borussia Dortmund",
      "Dortmund",
      "BVB"
     ],
+    [
+     "Marseille",
+     "Olympique de Marseille",
+     "OM"
+    ],
+    "Benfica",
+    "Blackpool",
     [
      "Borussia Mönchengladbach",
      "Gladbach",
@@ -1431,32 +1439,18 @@
      "Borussia Monchengladbach"
     ],
     [
+     "Dynamo Moscow",
+     "Dinamo Moscow"
+    ],
+    [
      "Dukla Prague",
      "Dukla Praha",
      "Dukla"
     ],
     [
-     "Dynamo Moscow",
-     "Dinamo Moscow"
-    ],
-    [
      "Ferencváros",
      "Ferencvaros",
      "Fradi"
-    ],
-    [
-     "Inter Miami",
-     "Miami"
-    ],
-    "Liverpool",
-    [
-     "Manchester City",
-     "Man City"
-    ],
-    [
-     "Marseille",
-     "Olympique de Marseille",
-     "OM"
     ]
    ]
   },
@@ -1515,7 +1509,11 @@
      "Stadio Giuseppe Meazza",
      "Meazza"
     ],
-    "Stadio Olimpico",
+    [
+     "Stadio Olimpico",
+     "Olimpico",
+     "Olympic Stadium Rome"
+    ],
     [
      "Allianz Stadium",
      "Juventus Stadium",
@@ -1588,8 +1586,7 @@
     [
      "Mapei Stadium",
      "Mapei",
-     "Città del Tricolore",
-     "Citta del Tricolore"
+     "Città del Tricolore"
     ],
     [
      "Stadio Olimpico Grande Torino",

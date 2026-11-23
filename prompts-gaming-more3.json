@@ -246,6 +246,7 @@
     ],
     "Wither",
     "Warden",
+    "Spider",
     "Blaze",
     "Ghast",
     [
@@ -264,6 +265,7 @@
     "Guardian",
     "Elder guardian",
     "Evoker",
+    "Cave spider",
     "Vindicator",
     "Pillager",
     "Ravager",
@@ -276,7 +278,12 @@
     "Breeze",
     "Bogged",
     "Creaking",
-    "Parched"
+    [
+     "Killer bunny",
+     "Killer rabbit"
+    ],
+    "Parched",
+    "Illusioner"
    ]
   }
  ]
