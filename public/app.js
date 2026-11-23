@@ -107,6 +107,8 @@ const ICON = {
   check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
   bell: '<path d="M6 8.5a6 6 0 0 1 12 0c0 6.5 2.5 8.5 2.5 8.5h-17S6 15 6 8.5z"/><path d="M10.2 20.5a2 2 0 0 0 3.6 0"/>',
   shield: '<path d="M12 3l7.5 3v5.5c0 4.6-3.1 8-7.5 9.5-4.4-1.5-7.5-4.9-7.5-9.5V6z"/><path d="M9 12l2.2 2.2L15.5 10"/>',
+  star: '<path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.3-4.1 5.9-.9z"/>',
+  gem: '<path d="M6.5 4h11l3.5 5-9 11L3 9z"/><path d="M3 9h18M9.5 4 8 9l4 11 4-11-1.5-5"/>',
 };
 const ic = (name, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICON[name] || ''}</svg>`;
 const PCOL = ['#ff6b6b', '#ff9f43', '#feca57', '#7bd88f', '#2ed3b7', '#4cc9f0', '#5b8cff', '#9b7bff', '#d77bff', '#ff7bd0', '#b8c4d6', '#c9a27a'];
@@ -750,7 +752,7 @@ function home() {
       ${mode('party', 'users', 'Party game', 'Everyone plays together on their own phone')}
       <div class="mini-modes">
         <button class="mini" id="board"><span class="mini-ic">${ic('trophy')}</span><b>Leaderboard</b><small>Today, week, all time</small></button>
-        <button class="mini" id="character"><span class="mini-ic">${avatar(store.get('outlier.name', '') || 'You', store.get('outlier.color', 0), store.get('outlier.look'))}</span><b>Your character</b><small>Your look in parties</small></button>
+        <button class="mini" id="you"><span class="mini-ic">${avatar(store.get('outlier.name', '') || 'You', store.get('outlier.color', 0), store.get('outlier.look'))}</span><b>You</b><small>Stats, badges &amp; look</small></button>
       </div>
     </div>
     ${accountLine()}
@@ -766,7 +768,7 @@ function home() {
     ${LEGAL}`);
   $('#solo').onclick = soloMenu;
   $('#party').onclick = () => partyMenu();
-  $('#character').onclick = characterMenu;
+  $('#you').onclick = youPage;
   $('#board').onclick = () => boardMenu();
   $('#dailyHome').onclick = () => startDaily('all');
   remindWire();
@@ -1156,7 +1158,7 @@ function dailySummary(run) {
     if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(b, 'Today');
     if ($('#beat')) $('#beat').innerHTML = beatLine(b);
   };
-  postDaily(run, store.get('outlier.name', '') || 'Player').then(draw);
+  postDaily(run, store.get('outlier.name', '') || 'Player').then(b => { draw(b); checkBadges(); });
   $('#setname').onclick = async () => {
     const name = $('#who').value.trim().slice(0, 16);
     if (!name) return toast('Type a name first');
@@ -1344,6 +1346,7 @@ function gameSummary(run) {
   if (!run.posted) {   // post once; later renders (and name changes) just update the same row
     run.posted = true;
     postScore(run, store.get('outlier.name', '') || 'Player').then(b => { run.board = b; if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(b); });
+    checkBadges();
   } else if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(run.board);
   $('#share').onclick = async () => {
     const name = $('#who').value.trim().slice(0, 16) || 'A friend';
@@ -1537,7 +1540,7 @@ const LOOK_NAMES = [
   ['None', 'Party hat', 'Crown', 'Cap', 'Beanie', 'Headphones', 'Halo', 'Bow', 'Top hat', 'Wizard hat', 'Viking helmet', 'Flower', "Chef's hat", 'Propeller cap'],
   ['None', 'Rosy cheeks', 'Freckles', 'Moustache', 'Glasses', 'Eyepatch', 'Plaster', 'Clown nose', 'Sweat drop', 'Beard']];
 
-function characterMenu() {
+function characterMenu(back = home) {
   stopTimer();
   const rows = [['Colour', PCOL.length], ...LOOK_LABELS.map((l, i) => [l, LOOK_N[i]])];
   const state = () => {
@@ -1598,8 +1601,7 @@ function characterMenu() {
     store.set('outlier.color', Math.floor(Math.random() * PCOL.length));
     draw(true);
   };
-  $('#ccDone').onclick = home;
-  $('#back').onclick = home;
+  $('#ccDone').onclick = $('#back').onclick = () => back();
   draw();
 }
 
@@ -1617,7 +1619,7 @@ function partyLobby(s, host) {
   const players = `<section class="card"><h3>Players <small>${s.players.length}</small></h3><ul class="rows players" id="players"></ul></section>`;
   const colour = `<section class="card charcard"><h3><span id="chMe"></span>Your colour</h3>
       <div class="swatches" id="colors"></div>
-      <p class="fine">${ic('user')}<span>Change your character from <b>Your character</b> on the main menu.</span></p></section>`;
+      <p class="fine">${ic('user')}<span>Change your character from <b>You</b> on the main menu.</span></p></section>`;
   // The host sets things up top-down: the game mode first, then the categories, then who's in.
   show(`${partyBar(s, 'Lobby')}
     <section class="card codecard">
@@ -1879,6 +1881,7 @@ function potatoFinal(s, host) {
   const iAsked = (s.asks || []).includes(s.you);
   const answers = s.log.filter(l => !l.timeout);
   const best = answers.reduce((a, l) => (!a || l.points > a.points ? l : a), null);
+  postPartyResult(s, order.findIndex(p => p.n === s.you) + 1);
   show(`${partyBar(s, 'Fumble')}
     <div class="center"><p class="muted">Last one standing</p><h2>${esc(win ? win.name : '')}</h2>
       <p class="muted">${win ? `${win.lives} ${win.lives === 1 ? 'life' : 'lives'} left · ${win.score} points` : ''}</p></div>
@@ -2105,6 +2108,7 @@ function partyFinal(s, host) {
   const tied = order.filter(p => p.score === top.score).length > 1;
   const asked = (s.asks || []).map(n => (s.players.find(p => p.n === n) || {}).name).filter(Boolean);
   const iAsked = (s.asks || []).includes(s.you);
+  postPartyResult(s, (rankBy(order, p => p.score).find(r => r.p.n === s.you) || {}).rank);
   show(`${partyBar(s, 'Final standings')}
     <div class="center"><p class="muted">${tied ? 'Furthest from the crowd (tied)' : 'Furthest from the crowd'}</p>
       <h2>${esc(order.filter(p => p.score === top.score).map(p => p.name).join(' & '))}</h2>
@@ -2123,6 +2127,112 @@ function partyFinal(s, host) {
   if (!host) { if ($('#ask')) $('#ask').onclick = () => partyPost('/api/room/ask'); return; }
   $('#again').onclick = () => partyPost('/api/room/rematch');
   $('#lobby').onclick = () => partyPost('/api/room/lobby');
+}
+
+// ------------------------------------------------------------ You: personal stats and badges
+// Worked out by the server from every answer this browser (or your account) has given, your dailies and party games.
+
+const statsQuery = () => `/api/me/stats?cid=${encodeURIComponent(playerId())}&streak=${streakNow().best || 0}`;
+const fmtDay = ts => new Date(ts * 1000).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+
+function badgeHTML(b) {
+  return `<li class="badge${b.earned ? ' got' : ''}" title="${esc(b.desc)}">
+    <span class="badge-ic">${ic(b.earned ? b.icon : 'lock')}</span>
+    <b>${esc(b.name)}</b><small>${esc(b.desc)}</small>
+    <span class="badge-p">${b.earned ? (b.earnedAt ? fmtDay(b.earnedAt) : 'Earned') : esc(b.progress)}</span></li>`;
+}
+
+function youPlusHTML(st) {
+  if (st.categories.locked) return `<button class="upsell-row card" id="youPlus"><span class="award-ic">${ic('lock')}</span>
+    <span class="award-t"><b>Your categories and last 50 answers</b><small>How you do in each category, and every answer you gave, with Outlier Plus</small></span>${ic('right', 'chev')}</button>`;
+  const cats = st.categories.filter(c => c.answers);
+  return `<section class="card"><h3>By category</h3>${cats.length ? `<ul class="rows catstats">${cats.map(c => `<li>
+      <span class="award-ic">${ic(CAT_ICON[c.id] || 'sparkles')}</span>
+      <span class="main"><b>${esc(c.label)}</b><small>${c.answers} answer${c.answers === 1 ? '' : 's'} · ${c.avgPoints} pts each</small>
+        <span class="cat-bar" aria-hidden="true"><i style="width:${c.correctPct}%"></i></span></span>
+      <span class="num">${c.correctPct}%<small>right</small></span></li>`).join('')}</ul>` : '<p class="muted">Play a few prompts to see how you do in each category.</p>'}</section>
+    <section class="card"><h3>Your last ${st.recent.length || ''} answers</h3>${st.recent.length ? `<ul class="rows recent-ans">${st.recent.map(r => `<li>
+      <span class="main"><b>${r.valid ? esc(r.answer) : `<span class="strike">${esc(r.answer)}</span>`}${r.outlier ? ' <span class="tag out">Outlier</span>' : ''}</b>
+        <small>${esc(r.prompt)}</small></span>
+      <span class="num">+${r.points}<small>${r.valid ? `${r.share}%` : 'not on the list'}</small></span></li>`).join('')}</ul>` : '<p class="muted">Nothing yet.</p>'}</section>`;
+}
+
+async function youPage() {
+  stopTimer();
+  const name = store.get('outlier.name', '') || 'You';
+  const head = `${topbar('You')}
+    <section class="you-head card">
+      ${avatar(name, store.get('outlier.color', 0), store.get('outlier.look'))}
+      <span class="you-name"><b>${esc(name)}</b><small>${me ? esc(me.email) : 'Stats saved on this device'}</small></span>
+      <button class="btn slim" id="editChar">${ic('user')}<span>Edit character</span></button>
+    </section>`;
+  const wire = () => { $('#back').onclick = home; $('#editChar').onclick = () => characterMenu(youPage); };
+  show(`${head}<p class="muted center" id="youLoad">Totting up your numbers…</p>`);
+  wire();
+  let st;
+  try { st = await api(statsQuery()); } catch (e) { if ($('#youLoad')) $('#youLoad').textContent = 'Could not load your stats. ' + e.message; return; }
+  if (!$('#youLoad')) return;   // moved on while it loaded
+  const h = st.headline;
+  rememberBadges(st, false);
+  const card = (v, l) => `<div class="stat"><b>${v}</b><small>${l}</small></div>`;
+  const got = st.badges.filter(b => b.earned).length;
+  show(`${head}
+    <div class="stat-grid">
+      ${card(h.answers, 'Answers given')}${card(`${h.correctPct}%`, 'Right')}
+      ${card(h.outliers, 'Outliers found')}${card(h.avgPoints, 'Avg points')}
+      ${card(h.dailies, 'Dailies played')}${card(h.bestDaily, 'Best daily')}
+      ${card(h.parties, 'Party games')}${card(h.partyWins, 'Party wins')}
+    </div>
+    ${h.rarest ? `<section class="card rarest"><small>Your rarest answer</small><b>${esc(h.rarest.answer)}</b>
+      <span class="muted">${esc(h.rarest.prompt)} · only ${h.rarest.share}% said it${h.rarest.outlier ? ' · Outlier!' : ''}</span></section>` : ''}
+    <section class="sec"><h2 class="sec-h">Badges <small class="muted">${got} of ${st.badges.length}</small></h2>
+      <ul class="badges">${st.badges.map(badgeHTML).join('')}</ul></section>
+    ${youPlusHTML(st)}`);
+  wire();
+  if ($('#youPlus')) $('#youPlus').onclick = () => upsellScreen('See all your stats with Outlier Plus');
+}
+
+// Remembers which badges this browser has seen. Returns the ones that are new since last time; the very first look
+// only records them, so nobody gets a pile of badges for things they did before badges existed.
+function rememberBadges(st, celebrate = true) {
+  const earned = st.badges.filter(b => b.earned).map(b => b.id), seen = store.get('outlier.badges');
+  store.set('outlier.badges', earned);
+  if (!Array.isArray(seen) || !celebrate) return [];
+  return st.badges.filter(b => b.earned && !seen.includes(b.id));
+}
+
+async function checkBadges() {
+  let st;
+  try { st = await api(statsQuery()); } catch { return; }
+  const fresh = rememberBadges(st);
+  if (fresh.length) badgePop(fresh);
+}
+
+function badgePop(list) {
+  document.querySelector('.badge-pop')?.remove();
+  const el = document.createElement('div');
+  el.className = 'badge-pop';
+  el.setAttribute('role', 'dialog');
+  el.setAttribute('aria-label', 'New badge');
+  el.innerHTML = `<div class="bp-card">
+    <p class="eyebrow">${list.length === 1 ? 'New badge!' : `${list.length} new badges!`}</p>
+    <ul>${list.map(b => `<li><span class="badge-ic">${ic(b.icon)}</span><span><b>${esc(b.name)}</b><small>${esc(b.desc)}</small></span></li>`).join('')}</ul>
+    <div class="bp-btns">${party ? '' : '<button class="btn slim" id="bpSee">See your badges</button>'}<button class="btn primary slim" id="bpOk">Lovely</button></div></div>`;
+  document.body.appendChild(el);
+  const close = () => el.remove();
+  el.onclick = e => { if (e.target === el) close(); };
+  $('#bpOk', el).onclick = close;
+  if ($('#bpSee', el)) $('#bpSee', el).onclick = () => { close(); youPage(); };
+  $('#bpOk', el).focus();
+}
+
+// Each party game is posted once per browser (game = which game this is in the room, so rematches count too)
+function postPartyResult(s, place) {
+  const stamp = `${s.code}|${s.game}`;
+  if (!party || !place || party.resultSent === stamp) return;
+  party.resultSent = stamp;
+  api('/api/party/result', { cid: playerId(), mode: s.mode === 'potato' ? 'potato' : 'classic', place, players: s.players.length, code: s.code, round: s.game || 0 })
+    .then(checkBadges).catch(() => {});
 }
 
 // ------------------------------------------------------------ streak reminders (web push)

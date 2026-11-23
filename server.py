@@ -360,6 +360,15 @@ def open_db():
     DB.execute("CREATE TABLE IF NOT EXISTS push_subs (endpoint TEXT PRIMARY KEY, cid TEXT, p256dh TEXT, auth TEXT, created INTEGER, "
                "user_id INTEGER, n INTEGER NOT NULL DEFAULT 0, last TEXT NOT NULL DEFAULT '', notified TEXT NOT NULL DEFAULT '')")
     DB.execute("CREATE INDEX IF NOT EXISTS push_subs_cid ON push_subs (cid)")
+    # Every solo and daily answer by browser id, for the You page. user_id is set when the player was signed in, which
+    # links that browser to the account: stats then gather every browser the account has played on.
+    DB.execute("CREATE TABLE IF NOT EXISTS cid_plays (cid TEXT, user_id INTEGER, ts INTEGER, day TEXT, prompt_id TEXT, cat TEXT, "
+               "answer TEXT, valid INTEGER, points INTEGER, share REAL, outlier INTEGER)")
+    DB.execute("CREATE INDEX IF NOT EXISTS cid_plays_cid ON cid_plays (cid, ts)")
+    DB.execute("CREATE INDEX IF NOT EXISTS cid_plays_user ON cid_plays (user_id)")
+    # One row per finished party game per browser (round = which game in that room, so rematches count again)
+    DB.execute("CREATE TABLE IF NOT EXISTS party_results (cid TEXT, user_id INTEGER, ts INTEGER, mode TEXT, place INTEGER, "
+               "players INTEGER, code TEXT, round INTEGER, PRIMARY KEY (cid, code, round))")
     try:   # 1 = an answer approved by hand (python server.py approve), which lives only in the database
         DB.execute("ALTER TABLE answers ADD COLUMN extra INTEGER NOT NULL DEFAULT 0")
     except sqlite3.OperationalError:
@@ -1053,11 +1062,17 @@ def review_flags():
     return out
 
 
-def log_play(pid, out):
+def log_play(pid, out, cid=""):
     user = current_user()
     if user and out["given"]:
         DB.execute("INSERT INTO user_plays VALUES (?, ?, ?, ?, ?, ?)",
                    (user["id"], int(time.time()), pid, out["canonical"] or out["given"], out["points"], out["share"]))
+    if out["given"] and (cid or user):
+        cat = PROMPTS[pid]["cat"]
+        DB.execute("INSERT INTO cid_plays VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                   (cid, user["id"] if user else None, int(time.time()), datetime.date.today().isoformat(), pid,
+                    parent_of(cat) or cat, out["canonical"] or out["given"], int(out["valid"]), out["points"],
+                    out["share"], int(out["outlier"])))
 
 
 # ---------------------------------------------------------------- categories
@@ -1908,6 +1923,7 @@ def potato_tick(room):
     if room.get("ending"):   # the last intermission plays out, then the results
         if now >= room["break_until"]:
             room["phase"], room["ending"] = "final", False
+            room["games"] = room.get("games", 0) + 1
         return
     if now < room["deadline"] + GRACE_S:
         return
@@ -1967,7 +1983,7 @@ def room_state(room, token):
                      "answered": p["answer"] is not None, "picked": p["picked"] or not p["double_left"],
                      "doubleLeft": p["double_left"], "lives": p.get("lives", 0), "out": p.get("out", False),
                      "bonusAt": p.get("bonus_at", POTATO_BONUS), "bonusStep": p.get("bonus_step", POTATO_BONUS)} for p in room["players"].values()],
-        "asks": room["asks"], "mode": room.get("mode", "classic"),
+        "asks": room["asks"], "mode": room.get("mode", "classic"), "game": room.get("games", 0),
     }
     if room.get("mode") == "potato" and room["phase"] in ("potato", "final"):
         now = time.time()
@@ -1992,6 +2008,139 @@ def room_state(room, token):
     if room["phase"] == "final":
         state["awards"] = awards_for(room)
     return state
+
+
+# ---------------------------------------------------------------- the You page: personal stats and badges
+
+BIG_DAY = 500   # a daily total worth a badge: seven answers score 10-99 (150 for an Outlier), so 500 is a cracking day
+
+
+def party_result(body):
+    """A finished party game, posted once by each player's browser from the final screen."""
+    cid, code = clean_cid(body.get("cid")), re.sub(r"[^A-Za-z]", "", str(body.get("code") or "")).upper()[:8]
+    mode = body.get("mode") if body.get("mode") in ("classic", "potato") else None
+    try:
+        place, players, rnd = int(body.get("place")), int(body.get("players")), int(body.get("round") or 0)
+    except (TypeError, ValueError):
+        raise ApiError(400, "Bad result")
+    if len(cid) < 8 or not mode or not 1 <= place <= players <= 50:
+        raise ApiError(400, "Bad result")
+    room = ROOMS.get(code)
+    if not room or room["phase"] != "final":   # only from a game that has really just finished
+        raise ApiError(404, "Room not found")
+    user = current_user()
+    DB.execute("INSERT OR IGNORE INTO party_results VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+               (cid, user["id"] if user else None, int(time.time()), mode, place, players, code, rnd))
+    DB.commit()
+    return {"ok": True}
+
+
+_DAILY_SEEDS = {"n": -1, "seeds": set()}
+
+
+def daily_seeds():
+    """Every seed that was a daily (pinned) in any category, to tell dailies apart from other seeded games in `scores`."""
+    n = DB.execute("SELECT COUNT(*) FROM daily_pins").fetchone()[0]
+    if n != _DAILY_SEEDS["n"]:
+        _DAILY_SEEDS.update(n=n, seeds={"".join(code_for(i) for i in ids.split(",")) for (ids,) in DB.execute("SELECT ids FROM daily_pins")})
+    return _DAILY_SEEDS["seeds"]
+
+
+def my_stats(q):
+    cid, user = clean_cid(q.get("cid")), current_user()
+    uid = user["id"] if user else -1
+    # This browser, plus (signed in) every browser the account has played on
+    cids = {cid} if cid else set()
+    if user:
+        cids |= {c for (c,) in DB.execute("SELECT DISTINCT cid FROM cid_plays WHERE user_id = ? AND cid != ''", (uid,))}
+    if not cids and not user:
+        raise ApiError(400, "No player id")
+    marks = ",".join("?" * len(cids)) or "''"
+    # answers and party games: everything from this browser, plus anything played signed in to this account elsewhere
+    # (not other people's games on a shared browser); daily scores have no account, so they come from all its browsers
+    who, args = "(cid = ? OR user_id = ?)", (cid, uid)
+    plays = DB.execute(f"SELECT ts, prompt_id, cat, answer, valid, points, share, outlier FROM cid_plays WHERE {who} ORDER BY ts", args).fetchall()
+    dseeds = daily_seeds()
+    dailies = [(t, ts, [int(x) for x in pts.split(".") if x]) for s, t, pts, ts in
+               DB.execute(f"SELECT seed, total, pts, ts FROM scores WHERE cid IN ({marks}) ORDER BY ts", tuple(cids)) if s in dseeds]
+    party = DB.execute(f"SELECT ts, place FROM party_results WHERE {who} ORDER BY ts", args).fetchall()
+
+    valid = [p for p in plays if p[4]]
+    outs = [p for p in plays if p[7]]
+    rare = min(valid, key=lambda p: (p[6], p[0]), default=None)
+    wins = [p for p in party if p[1] == 1]
+    try:
+        streak = max(0, min(10000, int(q.get("streak") or 0)))   # the browser's best streak
+    except ValueError:
+        streak = 0
+    if user:
+        s = streak_for(uid)
+        streak = max(streak, s["best"] if s else 0)
+    tops = [c for c in CATS if not c["parent"] and pool(c["id"], [])]
+    first_right = {}
+    for p in valid:
+        first_right.setdefault(p[2], p[0])
+    perfect = [d for d in dailies if len(d[2]) == 7 and all(x > 0 for x in d[2])]
+    big = [d for d in dailies if d[0] >= BIG_DAY]
+
+    def nth(rows, n):   # when the nth qualifying row happened
+        return rows[n - 1][0] if len(rows) >= n else None
+
+    def count(id, name, desc, icon, rows, n, at=0):
+        return {"id": id, "name": name, "desc": desc, "icon": icon, "earned": len(rows) >= n,
+                "progress": f"{min(len(rows), n)}/{n}", "earnedAt": nth([(r[at],) for r in rows], n)}
+
+    def streak_badge(n, name, desc):
+        return {"id": f"streak{n}", "name": name, "desc": desc, "icon": "flame", "earned": streak >= n,
+                "progress": f"{min(streak, n)}/{n}", "earnedAt": None}
+
+    got = [c for c in tops if c["id"] in first_right]
+    badges = [
+        count("first", "Off the mark", "Give your first answer", "play", plays, 1),
+        count("outlier1", "Lone wolf", "Find your first Outlier", "crosshair", outs, 1),
+        count("outlier10", "Off the beaten track", "Find 10 Outliers", "sparkles", outs, 10),
+        count("outlier50", "Proper oddball", "Find 50 Outliers", "gem", outs, 50),
+        count("under1", "Needle in a haystack", "A right answer that under 1% of people gave", "zap", [p for p in valid if p[6] < 1], 1),
+        count("century", "Ton up", "100 right answers", "check", valid, 100),
+        count("regular", "Regular", "Play 10 dailies", "calendar", dailies, 10, 1),
+        count("perfect", "Clean sheet", "A daily with all seven answers right", "shield", perfect, 1, 1),
+        count("bigday", "Absolute scenes", f"Score {BIG_DAY}+ in a daily", "star", big, 1, 1),
+        streak_badge(3, "Hat-trick", "A 3-day daily streak"),
+        streak_badge(7, "Week in, week out", "A 7-day daily streak"),
+        streak_badge(30, "Creature of habit", "A 30-day daily streak"),
+        count("partywin", "Life and soul", "Win a party game", "trophy", wins, 1),
+        count("party10", "Party animal", "Play 10 party games", "users", party, 10),
+        {"id": "allround", "name": "Jack of all trades", "desc": "A right answer in every main category", "icon": "globe",
+         "earned": bool(tops) and len(got) == len(tops), "progress": f"{len(got)}/{len(tops)}",
+         "earnedAt": max((first_right[c["id"]] for c in got), default=None) if tops and len(got) == len(tops) else None},
+    ]
+    out = {
+        "headline": {
+            "answers": len(plays), "correct": len(valid),
+            "correctPct": round(100 * len(valid) / len(plays)) if plays else 0,
+            "outliers": len(outs),
+            "rarest": {"answer": rare[3], "share": rare[6], "prompt": PROMPTS[rare[1]]["text"] if rare[1] in PROMPTS else "",
+                       "points": rare[5], "outlier": bool(rare[7])} if rare else None,
+            "avgPoints": round(sum(p[5] for p in plays) / len(plays), 1) if plays else 0,
+            "dailies": len(dailies), "bestDaily": max((d[0] for d in dailies), default=0),
+            "parties": len(party), "partyWins": len(wins), "streakBest": streak,
+        },
+        "badges": badges,
+        "plus": is_plus(user),
+    }
+    if not out["plus"]:
+        out.update(categories={"locked": True}, recent={"locked": True})
+        return out
+    by = {}
+    for p in plays:
+        by.setdefault(p[2], []).append(p)
+    out["categories"] = [{"id": c["id"], "label": c["label"], "answers": len(by.get(c["id"], [])),
+                          "correctPct": round(100 * sum(p[4] for p in by[c["id"]]) / len(by[c["id"]])) if by.get(c["id"]) else 0,
+                          "avgPoints": round(sum(p[5] for p in by[c["id"]]) / len(by[c["id"]]), 1) if by.get(c["id"]) else 0}
+                         for c in tops]
+    out["recent"] = [{"ts": p[0], "prompt": PROMPTS[p[1]]["text"] if p[1] in PROMPTS else "", "cat": p[2], "answer": p[3],
+                      "valid": bool(p[4]), "points": p[5], "share": p[6], "outlier": bool(p[7])} for p in plays[::-1][:50]]
+    return out
 
 
 # ---------------------------------------------------------------- api
@@ -2033,6 +2182,8 @@ def api_get(path, q):
                 "streak": streak_for(user["id"]) if user else None, "today": datetime.date.today().isoformat()}
     if path == "/api/stats":
         return stats()
+    if path == "/api/me/stats":
+        return my_stats(q)
     if path == "/api/dailyboard":   # the Everything daily, for the leaderboard on the main menu: today, this week or all time
         today = datetime.date.today()
         cid = re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32]
@@ -2077,6 +2228,8 @@ def api_post(path, body):
         return push_test(body)
     if path == "/api/score":
         return post_score(body)
+    if path == "/api/party/result":
+        return party_result(body)
     if path == "/api/checkout":
         return start_checkout()
     if path == "/api/portal":
@@ -2101,8 +2254,9 @@ def api_post(path, body):
         out["promptId"] = pid
         if out["given"]:
             record(pid, out["canonical"], out["given"])
-            note_play(re.sub(r"[^0-9A-Za-z]", "", str(body.get("cid") or ""))[:32])
-            log_play(pid, out)
+            cid = clean_cid(body.get("cid"))
+            note_play(cid)
+            log_play(pid, out, cid)
             DB.commit()
         return out
     if path == "/api/check":
@@ -2214,6 +2368,7 @@ def api_post(path, body):
         if room["phase"] == "reveal" and (sent is None or sent == room["round"]):
             if room["round"] >= room["rounds"]:
                 room["phase"] = "final"
+                room["games"] = room.get("games", 0) + 1
             else:
                 next_question(room)
     elif path == "/api/room/lobby":
