@@ -1,0 +1,10737 @@
+{
+ "cat": "football",
+ "prompts": [
+  {
+   "id": "fb8-pl-liverpool-hattricks",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored a Premier League hat-trick for Liverpool (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Mohamed Salah",
+     "Salah",
+     "Mo Salah"
+    ],
+    [
+     "Steven Gerrard",
+     "Gerrard"
+    ],
+    [
+     "Luis Suárez",
+     "Suarez"
+    ],
+    [
+     "Robbie Fowler",
+     "Fowler"
+    ],
+    [
+     "Michael Owen",
+     "Owen"
+    ],
+    [
+     "Fernando Torres",
+     "Torres"
+    ],
+    [
+     "Roberto Firmino",
+     "Firmino"
+    ],
+    [
+     "Daniel Sturridge",
+     "Sturridge"
+    ],
+    [
+     "Peter Crouch",
+     "Crouch"
+    ],
+    [
+     "Dirk Kuyt",
+     "Kuyt"
+    ],
+    [
+     "Emile Heskey",
+     "Heskey"
+    ],
+    [
+     "Yossi Benayoun",
+     "Benayoun"
+    ],
+    [
+     "Milan Baroš",
+     "Baros"
+    ],
+    [
+     "Maxi Rodríguez",
+     "Maxi"
+    ],
+    [
+     "Patrik Berger",
+     "Berger"
+    ],
+    [
+     "Mark Walters",
+     "Walters"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-manutd-hattricks",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored a Premier League hat-trick for Man Utd (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Cristiano Ronaldo",
+     "Ronaldo",
+     "CR7"
+    ],
+    [
+     "Ruud van Nistelrooy",
+     "Van Nistelrooy",
+     "Ruud",
+     "RVN"
+    ],
+    [
+     "Ole Gunnar Solskjær",
+     "Solskjaer",
+     "Ole"
+    ],
+    [
+     "Dimitar Berbatov",
+     "Berbatov"
+    ],
+    [
+     "Andy Cole",
+     "Cole"
+    ],
+    [
+     "Robin van Persie",
+     "Van Persie",
+     "RVP"
+    ],
+    [
+     "Bruno Fernandes",
+     "Bruno",
+     "Fernandes"
+    ],
+    [
+     "Dwight Yorke",
+     "Yorke"
+    ],
+    [
+     "Paul Scholes",
+     "Scholes"
+    ],
+    [
+     "Anthony Martial",
+     "Martial"
+    ],
+    [
+     "Teddy Sheringham",
+     "Sheringham"
+    ],
+    [
+     "Andrei Kanchelskis",
+     "Kanchelskis"
+    ],
+    [
+     "Shinji Kagawa",
+     "Kagawa"
+    ],
+    [
+     "Amad Diallo",
+     "Amad",
+     "Diallo"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-arsenal-hattricks",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored a Premier League hat-trick for Arsenal (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "Ian Wright",
+     "Wright",
+     "Wrighty"
+    ],
+    [
+     "Dennis Bergkamp",
+     "Bergkamp"
+    ],
+    [
+     "Robin van Persie",
+     "Van Persie",
+     "RVP"
+    ],
+    [
+     "Robert Pires",
+     "Pires"
+    ],
+    [
+     "Theo Walcott",
+     "Walcott"
+    ],
+    [
+     "Emmanuel Adebayor",
+     "Adebayor"
+    ],
+    [
+     "Alexis Sánchez",
+     "Alexis",
+     "Sanchez"
+    ],
+    [
+     "Olivier Giroud",
+     "Giroud"
+    ],
+    [
+     "Pierre-Emerick Aubameyang",
+     "Aubameyang",
+     "Auba"
+    ],
+    [
+     "Freddie Ljungberg",
+     "Ljungberg"
+    ],
+    [
+     "Nwankwo Kanu",
+     "Kanu"
+    ],
+    [
+     "Marc Overmars",
+     "Overmars"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Andrei Arshavin",
+     "Arshavin"
+    ],
+    [
+     "Santi Cazorla",
+     "Cazorla"
+    ],
+    [
+     "Aaron Ramsey",
+     "Ramsey"
+    ],
+    [
+     "Eberechi Eze",
+     "Eze"
+    ],
+    [
+     "Sylvain Wiltord",
+     "Wiltord"
+    ],
+    [
+     "Eddie Nketiah",
+     "Nketiah"
+    ],
+    [
+     "Ray Parlour",
+     "Parlour"
+    ],
+    [
+     "Kevin Campbell",
+     "Campbell"
+    ],
+    [
+     "Jermaine Pennant",
+     "Pennant"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-chelsea-hattricks",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored a Premier League hat-trick for Chelsea (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Didier Drogba",
+     "Drogba"
+    ],
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Eden Hazard",
+     "Hazard"
+    ],
+    [
+     "Jimmy Floyd Hasselbaink",
+     "Hasselbaink"
+    ],
+    [
+     "Gianfranco Zola",
+     "Zola"
+    ],
+    [
+     "Fernando Torres",
+     "Torres"
+    ],
+    [
+     "Diego Costa",
+     "Costa"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Samuel Eto'o",
+     "Eto'o"
+    ],
+    [
+     "Álvaro Morata",
+     "Morata"
+    ],
+    [
+     "Mason Mount",
+     "Mount"
+    ],
+    [
+     "Christian Pulisic",
+     "Pulisic"
+    ],
+    [
+     "Tammy Abraham",
+     "Abraham"
+    ],
+    [
+     "Gianluca Vialli",
+     "Vialli"
+    ],
+    [
+     "Eiður Guðjohnsen",
+     "Gudjohnsen",
+     "Eidur"
+    ],
+    [
+     "Mark Hughes",
+     "Hughes"
+    ],
+    [
+     "Nicolas Jackson",
+     "Jackson"
+    ],
+    [
+     "João Pedro",
+     "Joao Pedro"
+    ],
+    [
+     "Noni Madueke",
+     "Madueke"
+    ],
+    [
+     "André Schürrle",
+     "Schurrle"
+    ],
+    [
+     "Salomon Kalou",
+     "Kalou"
+    ],
+    [
+     "Tore André Flo",
+     "Flo"
+    ],
+    [
+     "Gavin Peacock",
+     "Peacock"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-spurs-hattricks",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored a Premier League hat-trick for Spurs (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Son Heung-min",
+     "Son",
+     "Sonny",
+     "Heung-min Son"
+    ],
+    [
+     "Gareth Bale",
+     "Bale"
+    ],
+    [
+     "Jermain Defoe",
+     "Defoe"
+    ],
+    [
+     "Robbie Keane",
+     "Keane"
+    ],
+    [
+     "Teddy Sheringham",
+     "Sheringham"
+    ],
+    [
+     "Jürgen Klinsmann",
+     "Klinsmann"
+    ],
+    [
+     "Dimitar Berbatov",
+     "Berbatov"
+    ],
+    [
+     "Lucas Moura",
+     "Lucas",
+     "Moura"
+    ],
+    [
+     "Les Ferdinand",
+     "Ferdinand",
+     "Sir Les"
+    ],
+    [
+     "Steffen Iversen",
+     "Iversen"
+    ],
+    [
+     "Chris Armstrong",
+     "Armstrong"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-mancity-hattricks",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored a Premier League hat-trick for Man City (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Sergio Agüero",
+     "Aguero",
+     "Kun Aguero"
+    ],
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Carlos Tevez",
+     "Tevez"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    [
+     "Kevin De Bruyne",
+     "De Bruyne",
+     "KDB"
+    ],
+    [
+     "Riyad Mahrez",
+     "Mahrez"
+    ],
+    [
+     "Gabriel Jesus",
+     "Jesus"
+    ],
+    [
+     "Bernardo Silva",
+     "Bernardo"
+    ],
+    [
+     "Yaya Touré",
+     "Yaya Toure",
+     "Toure"
+    ],
+    [
+     "Edin Džeko",
+     "Dzeko"
+    ],
+    [
+     "Mario Balotelli",
+     "Balotelli"
+    ],
+    "Robinho",
+    [
+     "Ferran Torres",
+     "Torres"
+    ],
+    [
+     "Omar Marmoush",
+     "Marmoush"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Paulo Wanchope",
+     "Wanchope"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-newcastle-hattricks",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored a Premier League hat-trick for Newcastle (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Alan Shearer",
+     "Shearer"
+    ],
+    [
+     "Andy Cole",
+     "Cole"
+    ],
+    [
+     "Alexander Isak",
+     "Isak"
+    ],
+    [
+     "Peter Beardsley",
+     "Beardsley"
+    ],
+    [
+     "Les Ferdinand",
+     "Ferdinand",
+     "Sir Les"
+    ],
+    [
+     "Michael Owen",
+     "Owen"
+    ],
+    [
+     "Andy Carroll",
+     "Carroll"
+    ],
+    [
+     "Demba Ba",
+     "Ba"
+    ],
+    [
+     "Georginio Wijnaldum",
+     "Wijnaldum",
+     "Gini Wijnaldum"
+    ],
+    [
+     "Kevin Nolan",
+     "Nolan"
+    ],
+    [
+     "Ayoze Pérez",
+     "Perez"
+    ],
+    [
+     "Leon Best",
+     "Best"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-everton-hattricks",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored a Premier League hat-trick for Everton (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Romelu Lukaku",
+     "Lukaku"
+    ],
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Dominic Calvert-Lewin",
+     "Calvert-Lewin",
+     "DCL"
+    ],
+    [
+     "Duncan Ferguson",
+     "Ferguson",
+     "Big Dunc"
+    ],
+    [
+     "Tony Cottee",
+     "Cottee"
+    ],
+    [
+     "Andrei Kanchelskis",
+     "Kanchelskis"
+    ],
+    [
+     "Gary Speed",
+     "Speed"
+    ],
+    [
+     "Louis Saha",
+     "Saha"
+    ],
+    [
+     "Yakubu",
+     "Yakubu Aiyegbeni"
+    ],
+    [
+     "Kevin Campbell",
+     "Campbell"
+    ],
+    [
+     "Steven Naismith",
+     "Naismith"
+    ],
+    [
+     "Nick Barmby",
+     "Barmby"
+    ],
+    [
+     "Arouna Koné",
+     "Kone"
+    ],
+    [
+     "Steve Watson",
+     "Watson"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-villa-hattricks",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored a Premier League hat-trick for Aston Villa (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Ollie Watkins",
+     "Watkins"
+    ],
+    [
+     "Christian Benteke",
+     "Benteke"
+    ],
+    [
+     "Dwight Yorke",
+     "Yorke"
+    ],
+    [
+     "Gabriel Agbonlahor",
+     "Agbonlahor",
+     "Gabby"
+    ],
+    [
+     "Dion Dublin",
+     "Dublin"
+    ],
+    [
+     "John Carew",
+     "Carew"
+    ],
+    [
+     "Dean Saunders",
+     "Saunders"
+    ],
+    [
+     "Savo Milošević",
+     "Milosevic"
+    ],
+    "Tommy Johnson",
+    [
+     "Luke Moore",
+     "Moore"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-chelsea-keepers",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a goalkeeper who has played for Chelsea in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Petr Čech",
+     "Cech"
+    ],
+    [
+     "Thibaut Courtois",
+     "Courtois"
+    ],
+    [
+     "Kepa Arrizabalaga",
+     "Kepa"
+    ],
+    [
+     "Édouard Mendy",
+     "Mendy"
+    ],
+    [
+     "Carlo Cudicini",
+     "Cudicini"
+    ],
+    [
+     "Robert Sánchez",
+     "Sanchez"
+    ],
+    [
+     "Ed de Goey",
+     "De Goey"
+    ],
+    [
+     "Willy Caballero",
+     "Caballero"
+    ],
+    [
+     "Asmir Begović",
+     "Begovic"
+    ],
+    [
+     "Hilário",
+     "Hilario"
+    ],
+    [
+     "Dmitri Kharine",
+     "Kharine",
+     "Kharin",
+     "Dmitriy Kharin"
+    ],
+    [
+     "Mark Schwarzer",
+     "Schwarzer"
+    ],
+    [
+     "Đorđe Petrović",
+     "Djordje Petrovic",
+     "Petrovic"
+    ],
+    [
+     "Filip Jørgensen",
+     "Jorgensen"
+    ],
+    [
+     "Mark Bosnich",
+     "Bosnich"
+    ],
+    [
+     "Kevin Hitchcock",
+     "Hitchcock"
+    ],
+    [
+     "Dave Beasant",
+     "Beasant"
+    ],
+    [
+     "Ross Turnbull",
+     "Turnbull"
+    ],
+    [
+     "Neil Sullivan",
+     "Sullivan"
+    ],
+    [
+     "Frode Grodås",
+     "Grodas"
+    ],
+    [
+     "Marco Ambrosio",
+     "Ambrosio"
+    ],
+    [
+     "Craig Forrest",
+     "Forrest"
+    ],
+    [
+     "Lenny Pidgeley",
+     "Pidgeley"
+    ],
+    [
+     "Nick Colgan",
+     "Colgan"
+    ],
+    [
+     "Gerry Peyton",
+     "Peyton"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-manutd-keepers",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a goalkeeper who has played for Man Utd in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "David de Gea",
+     "De Gea"
+    ],
+    [
+     "Peter Schmeichel",
+     "Schmeichel"
+    ],
+    [
+     "Edwin van der Sar",
+     "Van der Sar"
+    ],
+    [
+     "Fabien Barthez",
+     "Barthez"
+    ],
+    [
+     "André Onana",
+     "Onana"
+    ],
+    [
+     "Tim Howard",
+     "Howard"
+    ],
+    [
+     "Roy Carroll",
+     "Carroll"
+    ],
+    [
+     "Sergio Romero",
+     "Romero"
+    ],
+    [
+     "Ben Foster",
+     "Foster"
+    ],
+    [
+     "Dean Henderson",
+     "Henderson"
+    ],
+    [
+     "Anders Lindegaard",
+     "Lindegaard"
+    ],
+    [
+     "Tomasz Kuszczak",
+     "Kuszczak"
+    ],
+    [
+     "Mark Bosnich",
+     "Bosnich"
+    ],
+    [
+     "Raimond van der Gouw",
+     "Van der Gouw"
+    ],
+    [
+     "Senne Lammens",
+     "Lammens"
+    ],
+    [
+     "Altay Bayındır",
+     "Bayindir"
+    ],
+    [
+     "Massimo Taibi",
+     "Taibi"
+    ],
+    [
+     "Víctor Valdés",
+     "Valdes"
+    ],
+    [
+     "Andy Goram",
+     "Goram"
+    ],
+    [
+     "Gary Walsh",
+     "Walsh"
+    ],
+    [
+     "Kevin Pilkington",
+     "Pilkington"
+    ],
+    [
+     "Ricardo López",
+     "Ricardo Lopez"
+    ],
+    [
+     "Paul Rachubka",
+     "Rachubka"
+    ],
+    [
+     "Nick Culkin",
+     "Culkin"
+    ],
+    [
+     "Ben Amos",
+     "Amos"
+    ],
+    [
+     "Joel Pereira",
+     "Pereira"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-spurs-keepers",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a goalkeeper who has played for Spurs in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Hugo Lloris",
+     "Lloris"
+    ],
+    [
+     "Guglielmo Vicario",
+     "Vicario"
+    ],
+    [
+     "Paul Robinson",
+     "Robinson"
+    ],
+    [
+     "Brad Friedel",
+     "Friedel"
+    ],
+    [
+     "Heurelho Gomes",
+     "Gomes"
+    ],
+    [
+     "Ian Walker",
+     "Walker"
+    ],
+    [
+     "Carlo Cudicini",
+     "Cudicini"
+    ],
+    [
+     "Kasey Keller",
+     "Keller"
+    ],
+    [
+     "Neil Sullivan",
+     "Sullivan"
+    ],
+    [
+     "Fraser Forster",
+     "Forster"
+    ],
+    [
+     "Erik Thorstvedt",
+     "Thorstvedt"
+    ],
+    [
+     "Michel Vorm",
+     "Vorm"
+    ],
+    [
+     "Paulo Gazzaniga",
+     "Gazzaniga"
+    ],
+    [
+     "Antonín Kinský",
+     "Kinsky"
+    ],
+    [
+     "Radek Černý",
+     "Cerny"
+    ],
+    [
+     "Espen Baardsen",
+     "Baardsen"
+    ],
+    [
+     "Hans Segers",
+     "Segers"
+    ],
+    [
+     "Ben Alnwick",
+     "Alnwick"
+    ],
+    [
+     "Brandon Austin",
+     "Austin"
+    ],
+    [
+     "Kevin Dearden",
+     "Dearden"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-newcastle-keepers",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a goalkeeper who has played for Newcastle in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Shay Given",
+     "Given"
+    ],
+    [
+     "Tim Krul",
+     "Krul"
+    ],
+    [
+     "Nick Pope",
+     "Pope"
+    ],
+    [
+     "Martin Dúbravka",
+     "Dubravka"
+    ],
+    [
+     "Steve Harper",
+     "Harper"
+    ],
+    [
+     "Pavel Srníček",
+     "Srnicek"
+    ],
+    [
+     "Shaka Hislop",
+     "Hislop"
+    ],
+    [
+     "Rob Elliot",
+     "Elliot"
+    ],
+    [
+     "Karl Darlow",
+     "Darlow"
+    ],
+    [
+     "Aaron Ramsdale",
+     "Ramsdale"
+    ],
+    [
+     "Loris Karius",
+     "Karius"
+    ],
+    [
+     "Freddie Woodman",
+     "Woodman"
+    ],
+    [
+     "Mike Hooper",
+     "Hooper"
+    ],
+    [
+     "Tommy Wright",
+     "Wright"
+    ],
+    [
+     "Jak Alnwick",
+     "Alnwick"
+    ],
+    [
+     "John Karelse",
+     "Karelse"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-westham-keepers",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a goalkeeper who has played for West Ham in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Łukasz Fabiański",
+     "Fabianski"
+    ],
+    [
+     "Rob Green",
+     "Green",
+     "Robert Green"
+    ],
+    [
+     "David James",
+     "James"
+    ],
+    [
+     "Joe Hart",
+     "Hart"
+    ],
+    [
+     "Adrián",
+     "Adrian"
+    ],
+    [
+     "Alphonse Areola",
+     "Areola"
+    ],
+    [
+     "Ludek Miklosko",
+     "Miklosko",
+     "Ludo Miklosko"
+    ],
+    [
+     "Shaka Hislop",
+     "Hislop"
+    ],
+    [
+     "Roy Carroll",
+     "Carroll"
+    ],
+    [
+     "Jussi Jääskeläinen",
+     "Jaaskelainen"
+    ],
+    [
+     "Darren Randolph",
+     "Randolph"
+    ],
+    [
+     "Mads Hermansen",
+     "Hermansen"
+    ],
+    [
+     "Bernard Lama",
+     "Lama"
+    ],
+    [
+     "Roberto",
+     "Roberto Jimenez"
+    ],
+    [
+     "Les Sealey",
+     "Sealey"
+    ],
+    [
+     "Craig Forrest",
+     "Forrest"
+    ],
+    [
+     "Stephen Bywater",
+     "Bywater"
+    ],
+    [
+     "David Martin",
+     "Martin"
+    ],
+    [
+     "Neil Finn",
+     "Finn"
+    ],
+    [
+     "Jimmy Walker",
+     "Walker"
+    ],
+    [
+     "Ian Feuer",
+     "Feuer"
+    ],
+    [
+     "Péter Kurucz",
+     "Kurucz"
+    ],
+    [
+     "Steve Mautone",
+     "Mautone"
+    ],
+    [
+     "Saša Ilić",
+     "Ilic"
+    ],
+    [
+     "Ruud Boffin",
+     "Boffin"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-southampton-keepers",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a goalkeeper who has played for Southampton in the Premier League (up to the end of the 2024-25 season)",
+   "answers": [
+    [
+     "Fraser Forster",
+     "Forster"
+    ],
+    [
+     "Alex McCarthy",
+     "McCarthy"
+    ],
+    [
+     "Aaron Ramsdale",
+     "Ramsdale"
+    ],
+    [
+     "Tim Flowers",
+     "Flowers"
+    ],
+    [
+     "Antti Niemi",
+     "Niemi"
+    ],
+    [
+     "Paul Jones",
+     "Jones"
+    ],
+    [
+     "Artur Boruc",
+     "Boruc"
+    ],
+    [
+     "Bruce Grobbelaar",
+     "Grobbelaar"
+    ],
+    [
+     "Dave Beasant",
+     "Beasant"
+    ],
+    [
+     "Gavin Bazunu",
+     "Bazunu"
+    ],
+    [
+     "Kasey Keller",
+     "Keller"
+    ],
+    [
+     "Maarten Stekelenburg",
+     "Stekelenburg"
+    ],
+    [
+     "Angus Gunn",
+     "Gunn"
+    ],
+    [
+     "Paulo Gazzaniga",
+     "Gazzaniga"
+    ],
+    [
+     "Willy Caballero",
+     "Caballero"
+    ],
+    [
+     "Kelvin Davis",
+     "Davis"
+    ],
+    [
+     "Chris Woods",
+     "Woods"
+    ],
+    [
+     "Maik Taylor",
+     "Taylor"
+    ],
+    [
+     "Neil Moss",
+     "Moss"
+    ],
+    [
+     "Joe Lumley",
+     "Lumley"
+    ],
+    [
+     "Paul Smith",
+     "Smith"
+    ],
+    [
+     "Ian Andrews",
+     "Andrews"
+    ],
+    [
+     "Alan Blayney",
+     "Blayney"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-pfa-toty-2020s",
+   "tags": [
+    "pl",
+    "20s"
+   ],
+   "text": "Name a player named in a PFA Premier League Team of the Year from 2020-21 to 2024-25",
+   "answers": [
+    [
+     "Mohamed Salah",
+     "Salah",
+     "Mo Salah"
+    ],
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Kevin De Bruyne",
+     "De Bruyne",
+     "KDB"
+    ],
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Virgil van Dijk",
+     "Van Dijk",
+     "VVD"
+    ],
+    [
+     "Bukayo Saka",
+     "Saka"
+    ],
+    "Rodri",
+    [
+     "Martin Ødegaard",
+     "Odegaard"
+    ],
+    [
+     "Declan Rice",
+     "Rice"
+    ],
+    [
+     "William Saliba",
+     "Saliba"
+    ],
+    [
+     "Bruno Fernandes",
+     "Bruno",
+     "Fernandes"
+    ],
+    [
+     "Son Heung-min",
+     "Son",
+     "Sonny",
+     "Heung-min Son"
+    ],
+    [
+     "Trent Alexander-Arnold",
+     "Alexander-Arnold",
+     "Trent",
+     "TAA"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    [
+     "Cristiano Ronaldo",
+     "Ronaldo",
+     "CR7"
+    ],
+    [
+     "Alisson Becker",
+     "Alisson"
+    ],
+    "Ederson",
+    [
+     "Rúben Dias",
+     "Ruben Dias",
+     "Dias"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Kyle Walker",
+     "Walker"
+    ],
+    [
+     "João Cancelo",
+     "Cancelo"
+    ],
+    [
+     "Gabriel Magalhães",
+     "Gabriel"
+    ],
+    [
+     "Alexander Isak",
+     "Isak"
+    ],
+    [
+     "Ollie Watkins",
+     "Watkins"
+    ],
+    [
+     "Alexis Mac Allister",
+     "Mac Allister"
+    ],
+    [
+     "Ryan Gravenberch",
+     "Gravenberch"
+    ],
+    [
+     "David Raya",
+     "Raya"
+    ],
+    [
+     "Aaron Ramsdale",
+     "Ramsdale"
+    ],
+    [
+     "Luke Shaw",
+     "Shaw"
+    ],
+    [
+     "Kieran Trippier",
+     "Trippier"
+    ],
+    [
+     "Antonio Rüdiger",
+     "Rudiger"
+    ],
+    [
+     "Bernardo Silva",
+     "Bernardo"
+    ],
+    [
+     "Sadio Mané",
+     "Mane"
+    ],
+    [
+     "Thiago Alcântara",
+     "Thiago"
+    ],
+    [
+     "İlkay Gündoğan",
+     "Gundogan"
+    ],
+    [
+     "Milos Kerkez",
+     "Kerkez"
+    ],
+    [
+     "Chris Wood",
+     "Wood"
+    ],
+    [
+     "Matz Sels",
+     "Sels"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-pfa-toty-1990s",
+   "tags": [
+    "pl",
+    "90s"
+   ],
+   "text": "Name a player named in a PFA Premier League Team of the Year from 1992-93 to 1998-99",
+   "answers": [
+    [
+     "Alan Shearer",
+     "Shearer"
+    ],
+    [
+     "David Beckham",
+     "Beckham"
+    ],
+    [
+     "Ryan Giggs",
+     "Giggs"
+    ],
+    [
+     "Roy Keane",
+     "Keane"
+    ],
+    [
+     "Eric Cantona",
+     "Cantona"
+    ],
+    [
+     "Peter Schmeichel",
+     "Schmeichel"
+    ],
+    [
+     "Tony Adams",
+     "Adams"
+    ],
+    [
+     "Dennis Bergkamp",
+     "Bergkamp"
+    ],
+    "Ian Wright",
+    [
+     "Gary Neville",
+     "Neville"
+    ],
+    [
+     "David Seaman",
+     "Seaman"
+    ],
+    [
+     "Michael Owen",
+     "Owen"
+    ],
+    [
+     "Patrick Vieira",
+     "Vieira"
+    ],
+    [
+     "Matt Le Tissier",
+     "Le Tissier"
+    ],
+    [
+     "David Ginola",
+     "Ginola"
+    ],
+    [
+     "Dwight Yorke",
+     "Yorke"
+    ],
+    [
+     "Paul Ince",
+     "Ince"
+    ],
+    [
+     "Denis Irwin",
+     "Irwin"
+    ],
+    [
+     "Gary Pallister",
+     "Pallister"
+    ],
+    [
+     "Jaap Stam",
+     "Stam"
+    ],
+    [
+     "Sol Campbell",
+     "Campbell"
+    ],
+    [
+     "Graeme Le Saux",
+     "Le Saux"
+    ],
+    [
+     "Jürgen Klinsmann",
+     "Klinsmann"
+    ],
+    [
+     "Ruud Gullit",
+     "Gullit"
+    ],
+    [
+     "Les Ferdinand",
+     "Ferdinand",
+     "Sir Les"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Emmanuel Petit",
+     "Petit"
+    ],
+    [
+     "Steve McManaman",
+     "McManaman"
+    ],
+    [
+     "Nicky Butt",
+     "Butt"
+    ],
+    [
+     "David James",
+     "James"
+    ],
+    [
+     "Tim Flowers",
+     "Flowers"
+    ],
+    [
+     "Chris Sutton",
+     "Sutton"
+    ],
+    [
+     "David Batty",
+     "Batty"
+    ],
+    [
+     "Peter Beardsley",
+     "Beardsley"
+    ],
+    [
+     "Gary Speed",
+     "Speed"
+    ],
+    [
+     "Gary McAllister",
+     "McAllister"
+    ],
+    [
+     "Colin Hendry",
+     "Hendry"
+    ],
+    [
+     "Nigel Martyn",
+     "Martyn"
+    ],
+    [
+     "Rob Lee",
+     "Robert Lee"
+    ],
+    [
+     "Tim Sherwood",
+     "Sherwood"
+    ],
+    [
+     "Ugo Ehiogu",
+     "Ehiogu"
+    ],
+    [
+     "Tony Dorigo",
+     "Dorigo"
+    ],
+    [
+     "Paul McGrath",
+     "McGrath"
+    ],
+    [
+     "Gary Kelly",
+     "Kelly"
+    ],
+    "Rob Jones",
+    "Mark Wright",
+    "Alan Wright",
+    [
+     "Steve Stone",
+     "Stone"
+    ],
+    [
+     "Stig Inge Bjørnebye",
+     "Bjornebye"
+    ],
+    [
+     "David Bardsley",
+     "Bardsley"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-potm-2020s",
+   "tags": [
+    "pl",
+    "20s"
+   ],
+   "text": "Name a Premier League Player of the Month winner from 2020-21 to 2025-26",
+   "answers": [
+    [
+     "Mohamed Salah",
+     "Salah",
+     "Mo Salah"
+    ],
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Bruno Fernandes",
+     "Bruno",
+     "Fernandes"
+    ],
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Cristiano Ronaldo",
+     "Ronaldo",
+     "CR7"
+    ],
+    [
+     "Bukayo Saka",
+     "Saka"
+    ],
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Marcus Rashford",
+     "Rashford"
+    ],
+    [
+     "Son Heung-min",
+     "Son",
+     "Sonny",
+     "Heung-min Son"
+    ],
+    [
+     "Trent Alexander-Arnold",
+     "Alexander-Arnold",
+     "Trent",
+     "TAA"
+    ],
+    [
+     "Martin Ødegaard",
+     "Odegaard"
+    ],
+    [
+     "Alexander Isak",
+     "Isak"
+    ],
+    [
+     "Jack Grealish",
+     "Grealish"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "David de Gea",
+     "De Gea"
+    ],
+    [
+     "Harry Maguire",
+     "Maguire"
+    ],
+    [
+     "Diogo Jota",
+     "Jota"
+    ],
+    [
+     "Alexis Mac Allister",
+     "Mac Allister"
+    ],
+    [
+     "James Maddison",
+     "Maddison"
+    ],
+    [
+     "İlkay Gündoğan",
+     "Gundogan"
+    ],
+    [
+     "Dominic Calvert-Lewin",
+     "Calvert-Lewin",
+     "DCL"
+    ],
+    [
+     "Dominic Solanke",
+     "Solanke"
+    ],
+    [
+     "Bryan Mbeumo",
+     "Mbeumo"
+    ],
+    [
+     "Michail Antonio",
+     "Antonio"
+    ],
+    [
+     "Jesse Lingard",
+     "Lingard"
+    ],
+    [
+     "Rasmus Højlund",
+     "Hojlund"
+    ],
+    [
+     "Chris Wood",
+     "Wood"
+    ],
+    [
+     "Antoine Semenyo",
+     "Semenyo"
+    ],
+    [
+     "Morgan Gibbs-White",
+     "Gibbs-White"
+    ],
+    [
+     "Kelechi Iheanacho",
+     "Iheanacho"
+    ],
+    [
+     "Joël Matip",
+     "Matip"
+    ],
+    [
+     "Miguel Almirón",
+     "Almiron"
+    ],
+    [
+     "Justin Kluivert",
+     "Kluivert"
+    ],
+    "Igor Thiago",
+    [
+     "Joe Willock",
+     "Willock"
+    ],
+    [
+     "Rodrigo Muniz",
+     "Muniz"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-potm-1990s",
+   "tags": [
+    "pl",
+    "90s"
+   ],
+   "text": "Name a Premier League Player of the Month winner from the 1990s (1994-95 to 1999-2000)",
+   "answers": [
+    [
+     "Alan Shearer",
+     "Shearer"
+    ],
+    [
+     "David Beckham",
+     "Beckham"
+    ],
+    [
+     "Michael Owen",
+     "Owen"
+    ],
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "Dennis Bergkamp",
+     "Bergkamp"
+    ],
+    [
+     "Eric Cantona",
+     "Cantona"
+    ],
+    [
+     "Robbie Fowler",
+     "Fowler"
+    ],
+    "Roy Keane",
+    [
+     "Ian Wright",
+     "Wright"
+    ],
+    [
+     "Gianfranco Zola",
+     "Zola"
+    ],
+    [
+     "Jürgen Klinsmann",
+     "Klinsmann"
+    ],
+    [
+     "Matt Le Tissier",
+     "Le Tissier"
+    ],
+    [
+     "Dwight Yorke",
+     "Yorke"
+    ],
+    [
+     "David Ginola",
+     "Ginola"
+    ],
+    [
+     "David Seaman",
+     "Seaman"
+    ],
+    [
+     "Andy Cole",
+     "Cole"
+    ],
+    [
+     "Steve McManaman",
+     "McManaman"
+    ],
+    [
+     "Chris Sutton",
+     "Sutton"
+    ],
+    [
+     "Stan Collymore",
+     "Collymore"
+    ],
+    [
+     "Andrei Kanchelskis",
+     "Kanchelskis"
+    ],
+    [
+     "Paul Ince",
+     "Ince"
+    ],
+    [
+     "Emmanuel Petit",
+     "Petit"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Duncan Ferguson",
+     "Ferguson",
+     "Big Dunc"
+    ],
+    [
+     "Dion Dublin",
+     "Dublin"
+    ],
+    [
+     "Tony Yeboah",
+     "Yeboah"
+    ],
+    "Juninho",
+    "Robbie Keane",
+    [
+     "Gareth Southgate",
+     "Southgate"
+    ],
+    [
+     "Paul Merson",
+     "Merson"
+    ],
+    [
+     "Sami Hyypiä",
+     "Hyypia"
+    ],
+    [
+     "Kevin Phillips",
+     "Phillips"
+    ],
+    [
+     "Ray Parlour",
+     "Parlour"
+    ],
+    [
+     "Rob Lee",
+     "Robert Lee"
+    ],
+    [
+     "Chris Waddle",
+     "Waddle"
+    ],
+    [
+     "Patrik Berger",
+     "Berger"
+    ],
+    [
+     "Tim Flowers",
+     "Flowers"
+    ],
+    [
+     "Kevin Campbell",
+     "Campbell"
+    ],
+    [
+     "Kevin Davies",
+     "Davies"
+    ],
+    [
+     "Muzzy Izzet",
+     "Izzet"
+    ],
+    [
+     "Paulo Wanchope",
+     "Wanchope"
+    ],
+    [
+     "Trevor Sinclair",
+     "Sinclair"
+    ],
+    [
+     "Robbie Earle",
+     "Earle"
+    ],
+    [
+     "Alex Manninger",
+     "Manninger"
+    ],
+    [
+     "Mickey Evans",
+     "Micky Evans"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-french-arsenal",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Frenchman who has played for Arsenal in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "Patrick Vieira",
+     "Vieira"
+    ],
+    [
+     "Robert Pires",
+     "Pires"
+    ],
+    [
+     "Olivier Giroud",
+     "Giroud"
+    ],
+    [
+     "Alexandre Lacazette",
+     "Lacazette"
+    ],
+    [
+     "William Saliba",
+     "Saliba"
+    ],
+    [
+     "Laurent Koscielny",
+     "Koscielny"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Emmanuel Petit",
+     "Petit",
+     "Manu Petit"
+    ],
+    [
+     "Sylvain Wiltord",
+     "Wiltord"
+    ],
+    [
+     "Samir Nasri",
+     "Nasri"
+    ],
+    [
+     "Bacary Sagna",
+     "Sagna"
+    ],
+    [
+     "Gaël Clichy",
+     "Clichy"
+    ],
+    [
+     "William Gallas",
+     "Gallas"
+    ],
+    [
+     "Abou Diaby",
+     "Diaby"
+    ],
+    [
+     "Mathieu Flamini",
+     "Flamini"
+    ],
+    [
+     "Francis Coquelin",
+     "Coquelin"
+    ],
+    [
+     "Matteo Guendouzi",
+     "Guendouzi"
+    ],
+    [
+     "Mathieu Debuchy",
+     "Debuchy"
+    ],
+    [
+     "Pascal Cygan",
+     "Cygan"
+    ],
+    [
+     "Gilles Grimandi",
+     "Grimandi"
+    ],
+    [
+     "Lassana Diarra",
+     "Diarra",
+     "Lass Diarra"
+    ],
+    [
+     "Mikaël Silvestre",
+     "Silvestre"
+    ],
+    [
+     "Yaya Sanogo",
+     "Sanogo"
+    ],
+    [
+     "Jérémie Aliadière",
+     "Aliadiere"
+    ],
+    [
+     "Rémi Garde",
+     "Garde"
+    ],
+    [
+     "Sébastien Squillaci",
+     "Squillaci"
+    ],
+    [
+     "David Grondin",
+     "Grondin"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-french-chelsea",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Frenchman who has played for Chelsea in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "N'Golo Kanté",
+     "Kante",
+     "NGolo Kante"
+    ],
+    [
+     "Claude Makélélé",
+     "Makelele"
+    ],
+    [
+     "Marcel Desailly",
+     "Desailly"
+    ],
+    [
+     "Frank Leboeuf",
+     "Leboeuf"
+    ],
+    [
+     "Olivier Giroud",
+     "Giroud"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Florent Malouda",
+     "Malouda"
+    ],
+    [
+     "William Gallas",
+     "Gallas"
+    ],
+    [
+     "Emmanuel Petit",
+     "Petit",
+     "Manu Petit"
+    ],
+    [
+     "Didier Deschamps",
+     "Deschamps"
+    ],
+    [
+     "Kurt Zouma",
+     "Zouma"
+    ],
+    [
+     "Wesley Fofana",
+     "Fofana"
+    ],
+    [
+     "Malo Gusto",
+     "Gusto"
+    ],
+    [
+     "Christopher Nkunku",
+     "Nkunku"
+    ],
+    [
+     "Axel Disasi",
+     "Disasi"
+    ],
+    [
+     "Lassana Diarra",
+     "Diarra",
+     "Lass Diarra"
+    ],
+    [
+     "Loïc Rémy",
+     "Remy"
+    ],
+    [
+     "Tiémoué Bakayoko",
+     "Bakayoko"
+    ],
+    [
+     "Benoît Badiashile",
+     "Badiashile"
+    ],
+    [
+     "Lesley Ugochukwu",
+     "Ugochukwu"
+    ],
+    [
+     "Bernard Lambourde",
+     "Lambourde"
+    ],
+    [
+     "Laurent Charvet",
+     "Charvet"
+    ],
+    [
+     "Mathis Amougou",
+     "Amougou"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-spanish-liverpool",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Spaniard who has played for Liverpool in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Fernando Torres",
+     "Torres"
+    ],
+    [
+     "Xabi Alonso",
+     "Alonso",
+     "Xabi"
+    ],
+    [
+     "Pepe Reina",
+     "Reina",
+     "Jose Reina"
+    ],
+    [
+     "Luis García",
+     "Garcia"
+    ],
+    [
+     "Thiago Alcântara",
+     "Thiago"
+    ],
+    [
+     "Fernando Morientes",
+     "Morientes"
+    ],
+    [
+     "Álvaro Arbeloa",
+     "Arbeloa"
+    ],
+    [
+     "Alberto Moreno",
+     "Moreno"
+    ],
+    [
+     "José Enrique",
+     "Jose Enrique"
+    ],
+    [
+     "Albert Riera",
+     "Riera"
+    ],
+    [
+     "Adrián",
+     "Adrian San Miguel"
+    ],
+    "Suso",
+    [
+     "Iago Aspas",
+     "Aspas"
+    ],
+    [
+     "Stefan Bajcetic",
+     "Bajcetic"
+    ],
+    "Josemi",
+    "Luis Alberto",
+    [
+     "Antonio Núñez",
+     "Nunez"
+    ],
+    [
+     "Javier Manquillo",
+     "Manquillo"
+    ],
+    [
+     "Daniel Ayala",
+     "Ayala"
+    ],
+    [
+     "Sergi Canós",
+     "Canos"
+    ],
+    [
+     "Daniel Pacheco",
+     "Pacheco",
+     "Dani Pacheco"
+    ],
+    [
+     "Pedro Chirivella",
+     "Chirivella"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-brazilian-chelsea",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Brazilian who has played for Chelsea in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    "Willian",
+    "Oscar",
+    [
+     "David Luiz",
+     "Luiz"
+    ],
+    "Ramires",
+    "Thiago Silva",
+    [
+     "Filipe Luís",
+     "Filipe Luis"
+    ],
+    [
+     "João Pedro",
+     "Joao Pedro"
+    ],
+    [
+     "Estêvão",
+     "Estevao",
+     "Estevao Willian"
+    ],
+    [
+     "Alex",
+     "Alex da Costa"
+    ],
+    [
+     "Juliano Belletti",
+     "Belletti"
+    ],
+    "Kenedy",
+    [
+     "Alexandre Pato",
+     "Pato"
+    ],
+    "Andrey Santos",
+    "Mineiro",
+    [
+     "Lucas Piazon",
+     "Piazon"
+    ],
+    "Deivid Washington",
+    [
+     "Emerson Thome",
+     "Thome"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-portuguese-wolves",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Portuguese player who has played for Wolves in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Rúben Neves",
+     "Neves"
+    ],
+    [
+     "Diogo Jota",
+     "Jota"
+    ],
+    [
+     "João Moutinho",
+     "Moutinho"
+    ],
+    [
+     "Rui Patrício",
+     "Patricio"
+    ],
+    [
+     "Pedro Neto",
+     "Neto"
+    ],
+    [
+     "Nélson Semedo",
+     "Semedo"
+    ],
+    [
+     "Daniel Podence",
+     "Podence"
+    ],
+    [
+     "José Sá",
+     "Jose Sa"
+    ],
+    [
+     "Matheus Nunes",
+     "Nunes"
+    ],
+    [
+     "Gonçalo Guedes",
+     "Guedes"
+    ],
+    [
+     "Fábio Silva",
+     "Fabio Silva"
+    ],
+    "Vitinha",
+    [
+     "Rúben Vinagre",
+     "Vinagre"
+    ],
+    [
+     "Toti Gomes",
+     "Toti"
+    ],
+    [
+     "Ivan Cavaleiro",
+     "Cavaleiro"
+    ],
+    [
+     "Francisco Trincão",
+     "Trincao"
+    ],
+    "Rodrigo Gomes",
+    "Chiquinho",
+    [
+     "Carlos Forbs",
+     "Forbs"
+    ],
+    [
+     "Bruno Jordão",
+     "Jordao"
+    ],
+    [
+     "Mateus Mané",
+     "Mane"
+    ],
+    "Silas"
+   ]
+  },
+  {
+   "id": "fb8-pl-dutch-manutd",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Dutchman who has played for Man Utd in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Ruud van Nistelrooy",
+     "Van Nistelrooy",
+     "RVN"
+    ],
+    [
+     "Robin van Persie",
+     "Van Persie",
+     "RVP"
+    ],
+    [
+     "Edwin van der Sar",
+     "Van der Sar"
+    ],
+    [
+     "Jaap Stam",
+     "Stam"
+    ],
+    [
+     "Memphis Depay",
+     "Memphis",
+     "Depay"
+    ],
+    [
+     "Daley Blind",
+     "Blind"
+    ],
+    [
+     "Matthijs de Ligt",
+     "De Ligt"
+    ],
+    [
+     "Joshua Zirkzee",
+     "Zirkzee"
+    ],
+    [
+     "Donny van de Beek",
+     "Van de Beek"
+    ],
+    [
+     "Wout Weghorst",
+     "Weghorst"
+    ],
+    [
+     "Tyrell Malacia",
+     "Malacia"
+    ],
+    [
+     "Jordi Cruyff",
+     "Cruyff"
+    ],
+    [
+     "Alexander Büttner",
+     "Buttner"
+    ],
+    [
+     "Timothy Fosu-Mensah",
+     "Fosu-Mensah"
+    ],
+    [
+     "Raimond van der Gouw",
+     "Van der Gouw"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-argentine-manchester",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name an Argentine who has played in the Premier League for Man City or Man Utd (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Sergio Agüero",
+     "Aguero",
+     "Kun Aguero"
+    ],
+    [
+     "Carlos Tevez",
+     "Tevez"
+    ],
+    [
+     "Pablo Zabaleta",
+     "Zabaleta"
+    ],
+    [
+     "Ángel Di María",
+     "Di Maria"
+    ],
+    [
+     "Nicolás Otamendi",
+     "Otamendi"
+    ],
+    [
+     "Julián Álvarez",
+     "Alvarez"
+    ],
+    [
+     "Lisandro Martínez",
+     "Lisandro",
+     "Martinez"
+    ],
+    [
+     "Alejandro Garnacho",
+     "Garnacho"
+    ],
+    [
+     "Juan Sebastián Verón",
+     "Veron"
+    ],
+    [
+     "Gabriel Heinze",
+     "Heinze"
+    ],
+    [
+     "Marcos Rojo",
+     "Rojo"
+    ],
+    [
+     "Sergio Romero",
+     "Romero"
+    ],
+    [
+     "Martín Demichelis",
+     "Demichelis"
+    ],
+    [
+     "Willy Caballero",
+     "Caballero"
+    ],
+    [
+     "Claudio Echeverri",
+     "Echeverri"
+    ],
+    [
+     "Máximo Perrone",
+     "Perrone"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-italian-chelsea",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name an Italian who has played for Chelsea in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Gianfranco Zola",
+     "Zola"
+    ],
+    [
+     "Gianluca Vialli",
+     "Vialli"
+    ],
+    [
+     "Roberto Di Matteo",
+     "Di Matteo"
+    ],
+    "Jorginho",
+    [
+     "Carlo Cudicini",
+     "Cudicini"
+    ],
+    [
+     "Emerson Palmieri",
+     "Emerson",
+     "Palmieri"
+    ],
+    [
+     "Davide Zappacosta",
+     "Zappacosta"
+    ],
+    [
+     "Fabio Borini",
+     "Borini"
+    ],
+    [
+     "Pierluigi Casiraghi",
+     "Casiraghi"
+    ],
+    [
+     "Christian Panucci",
+     "Panucci"
+    ],
+    [
+     "Cesare Casadei",
+     "Casadei"
+    ],
+    [
+     "Samuele Dalla Bona",
+     "Dalla Bona"
+    ],
+    [
+     "Gabriele Ambrosetti",
+     "Ambrosetti"
+    ],
+    [
+     "Marco Ambrosio",
+     "Ambrosio"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-australians",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name an Australian who has played in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Tim Cahill",
+     "Cahill"
+    ],
+    [
+     "Harry Kewell",
+     "Kewell"
+    ],
+    [
+     "Mark Schwarzer",
+     "Schwarzer"
+    ],
+    [
+     "Mark Viduka",
+     "Viduka"
+    ],
+    [
+     "Lucas Neill",
+     "Neill"
+    ],
+    [
+     "Mat Ryan",
+     "Mathew Ryan",
+     "Maty Ryan"
+    ],
+    [
+     "Brett Emerton",
+     "Emerton"
+    ],
+    [
+     "Mile Jedinak",
+     "Jedinak"
+    ],
+    [
+     "Aaron Mooy",
+     "Mooy"
+    ],
+    [
+     "Mark Bosnich",
+     "Bosnich",
+     "Bozza"
+    ],
+    "Brad Jones",
+    [
+     "Stan Lazaridis",
+     "Lazaridis"
+    ],
+    [
+     "Vince Grella",
+     "Grella"
+    ],
+    [
+     "Paul Okon",
+     "Okon"
+    ],
+    [
+     "Harry Souttar",
+     "Souttar"
+    ],
+    [
+     "Massimo Luongo",
+     "Luongo"
+    ],
+    [
+     "Cameron Burgess",
+     "Burgess"
+    ],
+    "Craig Moore",
+    [
+     "John Aloisi",
+     "Aloisi"
+    ],
+    [
+     "Adam Federici",
+     "Federici"
+    ],
+    "Richard Garcia",
+    [
+     "Brett Holman",
+     "Holman"
+    ],
+    [
+     "Chris Herd",
+     "Herd"
+    ],
+    [
+     "Luke Wilkshire",
+     "Wilkshire"
+    ],
+    [
+     "Josip Skoko",
+     "Skoko"
+    ],
+    [
+     "Tony Popovic",
+     "Popovic"
+    ],
+    [
+     "Danny Tiatto",
+     "Tiatto"
+    ],
+    [
+     "Hayden Foxe",
+     "Foxe"
+    ],
+    [
+     "Kevin Muscat",
+     "Muscat"
+    ],
+    [
+     "John Filan",
+     "Filan"
+    ],
+    [
+     "David Carney",
+     "Carney"
+    ],
+    [
+     "Jason Davidson",
+     "Davidson"
+    ],
+    "Brad Smith",
+    [
+     "Jamie McMaster",
+     "McMaster"
+    ],
+    [
+     "Neil Kilkenny",
+     "Kilkenny"
+    ],
+    [
+     "Mile Sterjovski",
+     "Sterjovski"
+    ],
+    [
+     "Tony Vidmar",
+     "Vidmar"
+    ],
+    [
+     "Robbie Slater",
+     "Slater"
+    ],
+    [
+     "Ned Zelic",
+     "Zelic"
+    ],
+    "Scott McDonald",
+    [
+     "Danny Allsopp",
+     "Allsopp"
+    ],
+    [
+     "Ahmad Elrich",
+     "Elrich"
+    ],
+    [
+     "Steve Mautone",
+     "Mautone"
+    ],
+    [
+     "Jason Kearton",
+     "Kearton"
+    ],
+    [
+     "Adem Poric",
+     "Poric"
+    ],
+    [
+     "Andy Petterson",
+     "Petterson"
+    ],
+    [
+     "Con Blatsis",
+     "Blatsis"
+    ],
+    "Jacob Burns",
+    [
+     "Chris Coyne",
+     "Coyne"
+    ],
+    "Richard Johnson",
+    [
+     "Carl Veart",
+     "Veart"
+    ],
+    "Aiden O'Neill",
+    [
+     "Jordan Lyden",
+     "Lyden"
+    ],
+    "Tyrese Francois",
+    [
+     "Cameron Peupion",
+     "Peupion"
+    ],
+    "Caleb Watts",
+    [
+     "Vlado Bozinovski",
+     "Bozinovski"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-ivorians",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name an Ivorian (Ivory Coast) player who has played in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Didier Drogba",
+     "Drogba"
+    ],
+    [
+     "Yaya Touré",
+     "Yaya"
+    ],
+    [
+     "Kolo Touré",
+     "Kolo"
+    ],
+    [
+     "Wilfried Zaha",
+     "Zaha"
+    ],
+    "Gervinho",
+    [
+     "Emmanuel Eboué",
+     "Eboue"
+    ],
+    [
+     "Salomon Kalou",
+     "Kalou"
+    ],
+    [
+     "Wilfried Bony",
+     "Bony"
+    ],
+    [
+     "Eric Bailly",
+     "Bailly"
+    ],
+    [
+     "Serge Aurier",
+     "Aurier"
+    ],
+    [
+     "Cheick Tioté",
+     "Tiote"
+    ],
+    [
+     "Nicolas Pépé",
+     "Pepe"
+    ],
+    [
+     "Amad Diallo",
+     "Amad",
+     "Diallo"
+    ],
+    [
+     "Jean Michaël Seri",
+     "Seri"
+    ],
+    [
+     "Sébastien Haller",
+     "Haller"
+    ],
+    [
+     "Willy Boly",
+     "Boly"
+    ],
+    [
+     "Simon Adingra",
+     "Adingra"
+    ],
+    [
+     "Ibrahim Sangaré",
+     "Sangare"
+    ],
+    [
+     "Didier Zokora",
+     "Zokora"
+    ],
+    "Arouna Koné",
+    [
+     "Max Gradel",
+     "Gradel"
+    ],
+    [
+     "Emmanuel Agbadou",
+     "Agbadou"
+    ],
+    [
+     "Abdoulaye Méïté",
+     "Meite"
+    ],
+    [
+     "Sol Bamba",
+     "Bamba"
+    ],
+    "Lacina Traoré",
+    [
+     "Seydou Doumbia",
+     "Doumbia"
+    ],
+    [
+     "Maxwel Cornet",
+     "Cornet"
+    ],
+    [
+     "Aruna Dindane",
+     "Dindane"
+    ],
+    [
+     "Steve Gohouri",
+     "Gohouri"
+    ],
+    "Lamine Koné",
+    [
+     "Jean-Philippe Gbamin",
+     "Gbamin"
+    ],
+    [
+     "Jonathan Kodjia",
+     "Kodjia"
+    ],
+    [
+     "Guy Demel",
+     "Demel"
+    ],
+    [
+     "Yannick Sagbo",
+     "Sagbo"
+    ],
+    [
+     "Emerse Faé",
+     "Fae"
+    ],
+    [
+     "Olivier Tébily",
+     "Tebily"
+    ],
+    [
+     "Abdul Razak",
+     "Razak"
+    ],
+    [
+     "Jérémie Boga",
+     "Boga"
+    ],
+    [
+     "Evann Guessand",
+     "Guessand"
+    ],
+    "Hamed Traorè",
+    [
+     "Hassane Kamara",
+     "Kamara"
+    ],
+    [
+     "Siriki Dembélé",
+     "Dembele"
+    ],
+    "Bénie Traoré",
+    [
+     "David Datro Fofana",
+     "Fofana"
+    ],
+    [
+     "Martial Godo",
+     "Godo"
+    ],
+    [
+     "Ibrahima Bakayoko",
+     "Bakayoko"
+    ],
+    [
+     "Jocelin Ta Bi",
+     "Ta Bi"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-senegalese",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Senegalese player who has played in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Sadio Mané",
+     "Mane"
+    ],
+    "El Hadji Diouf",
+    [
+     "Idrissa Gueye",
+     "Gana Gueye",
+     "Gana"
+    ],
+    [
+     "Kalidou Koulibaly",
+     "Koulibaly"
+    ],
+    [
+     "Édouard Mendy",
+     "Edouard Mendy"
+    ],
+    [
+     "Papiss Cissé",
+     "Papiss Cisse"
+    ],
+    "Demba Ba",
+    [
+     "Cheikhou Kouyaté",
+     "Kouyate"
+    ],
+    [
+     "Ismaïla Sarr",
+     "Ismaila Sarr"
+    ],
+    [
+     "Nicolas Jackson",
+     "Jackson"
+    ],
+    "Pape Matar Sarr",
+    "Iliman Ndiaye",
+    [
+     "Papa Bouba Diop",
+     "Diop"
+    ],
+    [
+     "Henri Camara",
+     "Camara"
+    ],
+    [
+     "Salif Diao",
+     "Diao"
+    ],
+    [
+     "Aliou Cissé",
+     "Aliou Cisse"
+    ],
+    "Diafra Sakho",
+    [
+     "Oumar Niasse",
+     "Niasse"
+    ],
+    "Mame Biram Diouf",
+    [
+     "Habib Beye",
+     "Beye"
+    ],
+    "Amdy Faye",
+    "Abdoulaye Faye",
+    [
+     "Khalilou Fadiga",
+     "Fadiga"
+    ],
+    [
+     "Mohamed Diamé",
+     "Diame"
+    ],
+    "Nampalys Mendy",
+    "Ali Dia",
+    [
+     "Pape Souaré",
+     "Souare"
+    ],
+    [
+     "Armand Traoré",
+     "Traore"
+    ],
+    [
+     "Moussa Niakhaté",
+     "Niakhate"
+    ],
+    [
+     "M'Baye Niang",
+     "Niang"
+    ],
+    [
+     "Habib Diarra",
+     "Diarra"
+    ],
+    "El Hadji Malick Diouf",
+    "Alfred N'Diaye",
+    "Badou Ndiaye",
+    [
+     "Dame N'Doye",
+     "N'Doye"
+    ],
+    [
+     "Papy Djilobodji",
+     "Djilobodji"
+    ],
+    [
+     "Kader Mangane",
+     "Mangane"
+    ],
+    [
+     "Diomansy Kamara",
+     "Kamara"
+    ],
+    [
+     "Henri Saivet",
+     "Saivet"
+    ],
+    "Magaye Gueye",
+    "Malang Sarr",
+    "Mamadou Sarr",
+    [
+     "Ibrahima Sonko",
+     "Sonko"
+    ],
+    [
+     "Fodé Ballo-Touré",
+     "Ballo-Toure"
+    ],
+    [
+     "Mbaye Diagne",
+     "Diagne"
+    ],
+    [
+     "Lamine Diatta",
+     "Diatta"
+    ],
+    "Souleymane Diawara",
+    "Djibril Diawara",
+    [
+     "Ferdinand Coly",
+     "Coly"
+    ],
+    "Lamine Sakho"
+   ]
+  },
+  {
+   "id": "fb8-pl-croatians",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Croatian player who has played in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Luka Modrić",
+     "Modric"
+    ],
+    [
+     "Mateo Kovačić",
+     "Kovacic"
+    ],
+    [
+     "Joško Gvardiol",
+     "Gvardiol"
+    ],
+    [
+     "Dejan Lovren",
+     "Lovren"
+    ],
+    [
+     "Ivan Perišić",
+     "Perisic"
+    ],
+    [
+     "Niko Kranjčar",
+     "Kranjcar"
+    ],
+    [
+     "Vedran Ćorluka",
+     "Corluka"
+    ],
+    [
+     "Slaven Bilić",
+     "Bilic"
+    ],
+    [
+     "Davor Šuker",
+     "Suker"
+    ],
+    [
+     "Eduardo",
+     "Eduardo da Silva"
+    ],
+    [
+     "Igor Štimac",
+     "Stimac"
+    ],
+    [
+     "Alen Bokšić",
+     "Boksic"
+    ],
+    [
+     "Nikica Jelavić",
+     "Jelavic"
+    ],
+    [
+     "Igor Bišćan",
+     "Biscan"
+    ],
+    [
+     "Mario Stanić",
+     "Stanic"
+    ],
+    [
+     "Andrej Kramarić",
+     "Kramaric"
+    ],
+    [
+     "Ivan Klasnić",
+     "Klasnic"
+    ],
+    [
+     "Nikola Kalinić",
+     "Kalinic"
+    ],
+    [
+     "Mladen Petrić",
+     "Petric"
+    ],
+    [
+     "Nikola Vlašić",
+     "Vlasic"
+    ],
+    [
+     "Borna Sosa",
+     "Sosa"
+    ],
+    [
+     "Duje Ćaleta-Car",
+     "Caleta-Car"
+    ],
+    [
+     "Mislav Oršić",
+     "Orsic"
+    ],
+    [
+     "Aljoša Asanović",
+     "Asanovic"
+    ],
+    [
+     "Boško Balaban",
+     "Balaban"
+    ],
+    [
+     "Ivica Mornar",
+     "Mornar"
+    ],
+    [
+     "Boris Živković",
+     "Zivkovic"
+    ],
+    [
+     "Silvio Marić",
+     "Maric"
+    ],
+    [
+     "Nikola Jerkan",
+     "Jerkan"
+    ],
+    [
+     "Filip Krovinović",
+     "Krovinovic"
+    ],
+    [
+     "Ivo Grbić",
+     "Grbic"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-japan-korea",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a Japanese or South Korean player who has played in the Premier League (up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Son Heung-min",
+     "Son",
+     "Heung-min Son",
+     "Sonny"
+    ],
+    [
+     "Park Ji-sung",
+     "Ji-sung Park"
+    ],
+    [
+     "Kaoru Mitoma",
+     "Mitoma"
+    ],
+    [
+     "Takumi Minamino",
+     "Minamino"
+    ],
+    [
+     "Wataru Endo",
+     "Endo"
+    ],
+    [
+     "Shinji Kagawa",
+     "Kagawa"
+    ],
+    [
+     "Takehiro Tomiyasu",
+     "Tomiyasu"
+    ],
+    [
+     "Hwang Hee-chan",
+     "Hwang",
+     "Hee-chan Hwang"
+    ],
+    [
+     "Maya Yoshida",
+     "Yoshida"
+    ],
+    [
+     "Shinji Okazaki",
+     "Okazaki"
+    ],
+    [
+     "Ki Sung-yueng",
+     "Sung-yueng Ki"
+    ],
+    [
+     "Lee Chung-yong",
+     "Chung-yong Lee"
+    ],
+    [
+     "Daichi Kamada",
+     "Kamada"
+    ],
+    [
+     "Hidetoshi Nakata",
+     "Nakata"
+    ],
+    [
+     "Junichi Inamoto",
+     "Inamoto"
+    ],
+    [
+     "Park Chu-young",
+     "Chu-young Park"
+    ],
+    [
+     "Lee Young-pyo",
+     "Young-pyo Lee"
+    ],
+    [
+     "Seol Ki-hyeon",
+     "Seol"
+    ],
+    [
+     "Ji Dong-won",
+     "Dong-won Ji"
+    ],
+    [
+     "Ryo Miyaichi",
+     "Miyaichi"
+    ],
+    [
+     "Yoshinori Muto",
+     "Muto"
+    ],
+    [
+     "Ao Tanaka",
+     "Tanaka"
+    ],
+    [
+     "Lee Dong-gook",
+     "Dong-gook Lee"
+    ],
+    [
+     "Kim Bo-kyung",
+     "Bo-kyung Kim"
+    ],
+    [
+     "Kim Ji-soo",
+     "Ji-soo Kim"
+    ],
+    [
+     "Cho Won-hee",
+     "Won-hee Cho"
+    ],
+    [
+     "Kim Do-heon",
+     "Do-heon Kim"
+    ],
+    [
+     "Yun Suk-young",
+     "Suk-young Yun"
+    ],
+    [
+     "Yukinari Sugawara",
+     "Sugawara"
+    ],
+    [
+     "Daiki Hashioka",
+     "Hashioka"
+    ],
+    [
+     "Kazuyuki Toda",
+     "Toda"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-managers-sacked-2020s",
+   "tags": [
+    "pl",
+    "20s"
+   ],
+   "text": "Name a manager sacked by a Premier League club in the 2020s (January 2020 to November 2026; departures by mutual consent count, interim bosses whose spell simply ended don't)",
+   "answers": [
+    [
+     "José Mourinho",
+     "Mourinho",
+     "Jose"
+    ],
+    [
+     "Ole Gunnar Solskjær",
+     "Solskjaer",
+     "Ole"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Erik ten Hag",
+     "Ten Hag"
+    ],
+    [
+     "Thomas Tuchel",
+     "Tuchel"
+    ],
+    [
+     "Graham Potter",
+     "Potter"
+    ],
+    [
+     "Ange Postecoglou",
+     "Postecoglou",
+     "Ange"
+    ],
+    [
+     "Steven Gerrard",
+     "Gerrard"
+    ],
+    [
+     "Antonio Conte",
+     "Conte"
+    ],
+    [
+     "Marcelo Bielsa",
+     "Bielsa"
+    ],
+    [
+     "Brendan Rodgers",
+     "Rodgers"
+    ],
+    [
+     "Ruben Amorim",
+     "Amorim"
+    ],
+    [
+     "Arne Slot",
+     "Slot"
+    ],
+    [
+     "Sean Dyche",
+     "Dyche"
+    ],
+    [
+     "Rafael Benítez",
+     "Benitez",
+     "Rafa Benitez",
+     "Rafa"
+    ],
+    [
+     "Nuno Espírito Santo",
+     "Nuno"
+    ],
+    [
+     "Claudio Ranieri",
+     "Ranieri"
+    ],
+    "Thomas Frank",
+    [
+     "Julen Lopetegui",
+     "Lopetegui"
+    ],
+    [
+     "Mauricio Pochettino",
+     "Pochettino",
+     "Poch"
+    ],
+    [
+     "Enzo Maresca",
+     "Maresca"
+    ],
+    [
+     "Steve Bruce",
+     "Bruce"
+    ],
+    [
+     "Patrick Vieira",
+     "Vieira"
+    ],
+    [
+     "Michael Carrick",
+     "Carrick"
+    ],
+    [
+     "Steve Cooper",
+     "Cooper"
+    ],
+    [
+     "Gary O'Neil",
+     "O'Neil"
+    ],
+    [
+     "Scott Parker",
+     "Parker"
+    ],
+    [
+     "Jesse Marsch",
+     "Marsch"
+    ],
+    [
+     "Ralph Hasenhüttl",
+     "Hasenhuttl",
+     "Hasenhuettl"
+    ],
+    "Dean Smith",
+    [
+     "Daniel Farke",
+     "Farke"
+    ],
+    [
+     "Chris Wilder",
+     "Wilder"
+    ],
+    [
+     "Slaven Bilić",
+     "Bilic"
+    ],
+    [
+     "Roberto De Zerbi",
+     "De Zerbi"
+    ],
+    [
+     "Liam Rosenior",
+     "Rosenior"
+    ],
+    [
+     "Igor Tudor",
+     "Tudor"
+    ],
+    [
+     "Vítor Pereira",
+     "Pereira"
+    ],
+    [
+     "Nigel Pearson",
+     "Pearson"
+    ],
+    [
+     "Xisco Muñoz",
+     "Xisco"
+    ],
+    [
+     "Bruno Lage",
+     "Lage"
+    ],
+    "Nathan Jones",
+    [
+     "Javi Gracia",
+     "Gracia"
+    ],
+    [
+     "Paul Heckingbottom",
+     "Heckingbottom"
+    ],
+    "Russell Martin",
+    [
+     "Ivan Jurić",
+     "Juric"
+    ],
+    [
+     "Pierre Sage",
+     "Sage"
+    ],
+    [
+     "Cristian Stellini",
+     "Stellini"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-managers-two-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a manager who has managed two or more different Premier League clubs in the Premier League (permanent managers, as of November 2026)",
+   "answers": [
+    [
+     "José Mourinho",
+     "Mourinho",
+     "Jose",
+     "The Special One"
+    ],
+    [
+     "Sam Allardyce",
+     "Big Sam",
+     "Allardyce"
+    ],
+    [
+     "Harry Redknapp",
+     "Redknapp",
+     "Arry"
+    ],
+    [
+     "Roy Hodgson",
+     "Hodgson",
+     "Woy"
+    ],
+    [
+     "Mark Hughes",
+     "Hughes",
+     "Sparky"
+    ],
+    [
+     "David Moyes",
+     "Moyes"
+    ],
+    [
+     "Rafael Benítez",
+     "Benitez",
+     "Rafa Benitez",
+     "Rafa"
+    ],
+    [
+     "Claudio Ranieri",
+     "Ranieri",
+     "The Tinkerman"
+    ],
+    [
+     "Mauricio Pochettino",
+     "Pochettino",
+     "Poch"
+    ],
+    [
+     "Kenny Dalglish",
+     "Dalglish",
+     "King Kenny"
+    ],
+    [
+     "Kevin Keegan",
+     "Keegan"
+    ],
+    [
+     "Carlo Ancelotti",
+     "Ancelotti"
+    ],
+    [
+     "Antonio Conte",
+     "Conte"
+    ],
+    [
+     "Ange Postecoglou",
+     "Postecoglou",
+     "Ange"
+    ],
+    [
+     "Unai Emery",
+     "Emery"
+    ],
+    [
+     "Alan Pardew",
+     "Pardew",
+     "Pards"
+    ],
+    [
+     "Steve Bruce",
+     "Bruce"
+    ],
+    [
+     "Tony Pulis",
+     "Pulis"
+    ],
+    [
+     "Neil Warnock",
+     "Warnock"
+    ],
+    [
+     "Glenn Hoddle",
+     "Hoddle"
+    ],
+    [
+     "Graeme Souness",
+     "Souness"
+    ],
+    "George Graham",
+    "Martin O'Neill",
+    [
+     "Brendan Rodgers",
+     "Rodgers"
+    ],
+    [
+     "Graham Potter",
+     "Potter"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Sean Dyche",
+     "Dyche"
+    ],
+    [
+     "Nuno Espírito Santo",
+     "Nuno"
+    ],
+    [
+     "Ruud Gullit",
+     "Gullit"
+    ],
+    [
+     "Manuel Pellegrini",
+     "Pellegrini"
+    ],
+    [
+     "Ronald Koeman",
+     "Koeman"
+    ],
+    [
+     "Roberto Martínez",
+     "Martinez"
+    ],
+    [
+     "Julen Lopetegui",
+     "Lopetegui"
+    ],
+    [
+     "André Villas-Boas",
+     "Villas-Boas",
+     "AVB"
+    ],
+    [
+     "Roberto Di Matteo",
+     "Di Matteo"
+    ],
+    [
+     "Enzo Maresca",
+     "Maresca"
+    ],
+    [
+     "Andoni Iraola",
+     "Iraola"
+    ],
+    [
+     "Roberto De Zerbi",
+     "De Zerbi"
+    ],
+    [
+     "Oliver Glasner",
+     "Glasner"
+    ],
+    "Thomas Frank",
+    [
+     "Eddie Howe",
+     "Howe"
+    ],
+    [
+     "Ole Gunnar Solskjær",
+     "Solskjaer",
+     "Ole"
+    ],
+    [
+     "Gérard Houllier",
+     "Houllier"
+    ],
+    [
+     "Slaven Bilić",
+     "Bilic"
+    ],
+    [
+     "Ron Atkinson",
+     "Big Ron"
+    ],
+    [
+     "Peter Reid",
+     "Reid"
+    ],
+    [
+     "Joe Royle",
+     "Royle"
+    ],
+    [
+     "Steve McClaren",
+     "McClaren"
+    ],
+    [
+     "Steve Cooper",
+     "Cooper"
+    ],
+    [
+     "Scott Parker",
+     "Parker"
+    ],
+    "Gary O'Neil",
+    [
+     "Marco Silva",
+     "Silva"
+    ],
+    "Dean Smith",
+    [
+     "Chris Hughton",
+     "Hughton"
+    ],
+    [
+     "Mick McCarthy",
+     "McCarthy"
+    ],
+    [
+     "Paul Lambert",
+     "Lambert"
+    ],
+    [
+     "Avram Grant",
+     "Grant"
+    ],
+    [
+     "Ian Holloway",
+     "Holloway",
+     "Ollie"
+    ],
+    [
+     "Brian Little",
+     "Little"
+    ],
+    [
+     "Alex McLeish",
+     "McLeish"
+    ],
+    [
+     "Owen Coyle",
+     "Coyle"
+    ],
+    [
+     "Gordon Strachan",
+     "Strachan"
+    ],
+    [
+     "Alan Curbishley",
+     "Curbishley",
+     "Curbs"
+    ],
+    [
+     "Bryan Robson",
+     "Robson"
+    ],
+    [
+     "Glenn Roeder",
+     "Roeder"
+    ],
+    "Gerry Francis",
+    [
+     "Graham Taylor",
+     "Taylor"
+    ],
+    [
+     "Martin Jol",
+     "Jol"
+    ],
+    [
+     "Tim Sherwood",
+     "Sherwood"
+    ],
+    [
+     "Terry Venables",
+     "Venables",
+     "El Tel"
+    ],
+    [
+     "Iain Dowie",
+     "Dowie"
+    ],
+    [
+     "Paul Jewell",
+     "Jewell"
+    ],
+    [
+     "Dave Bassett",
+     "Bassett",
+     "Harry Bassett"
+    ],
+    [
+     "Daniel Farke",
+     "Farke"
+    ],
+    [
+     "Javi Gracia",
+     "Gracia"
+    ],
+    [
+     "Claude Puel",
+     "Puel"
+    ],
+    [
+     "Nigel Pearson",
+     "Pearson"
+    ],
+    [
+     "Nigel Adkins",
+     "Adkins"
+    ],
+    [
+     "Gary Megson",
+     "Megson"
+    ],
+    [
+     "Joe Kinnear",
+     "Kinnear"
+    ],
+    [
+     "David O'Leary",
+     "O'Leary"
+    ],
+    [
+     "John Gregory",
+     "Gregory"
+    ],
+    [
+     "Howard Wilkinson",
+     "Wilkinson",
+     "Sergeant Wilko"
+    ],
+    [
+     "Steve Coppell",
+     "Coppell"
+    ],
+    "Danny Wilson",
+    "Colin Todd",
+    "Dave Jones",
+    [
+     "Vítor Pereira",
+     "Pereira"
+    ],
+    "Rob Edwards",
+    "Alan Ball",
+    "Mike Walker",
+    [
+     "Chris Hutchings",
+     "Hutchings"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-managers-promoted",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a manager who has won promotion to the Premier League (as champions, runners-up or play-off winners, 1992-93 to 2025-26)",
+   "answers": [
+    [
+     "Kevin Keegan",
+     "Keegan"
+    ],
+    [
+     "Sam Allardyce",
+     "Big Sam",
+     "Allardyce"
+    ],
+    [
+     "Harry Redknapp",
+     "Redknapp",
+     "Arry"
+    ],
+    [
+     "Neil Warnock",
+     "Warnock"
+    ],
+    [
+     "Steve Bruce",
+     "Bruce"
+    ],
+    [
+     "Sean Dyche",
+     "Dyche"
+    ],
+    [
+     "Eddie Howe",
+     "Howe"
+    ],
+    [
+     "Rafael Benítez",
+     "Benitez",
+     "Rafa Benitez",
+     "Rafa"
+    ],
+    [
+     "Marcelo Bielsa",
+     "Bielsa"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Enzo Maresca",
+     "Maresca"
+    ],
+    [
+     "Vincent Kompany",
+     "Kompany"
+    ],
+    "Thomas Frank",
+    [
+     "Brendan Rodgers",
+     "Rodgers"
+    ],
+    [
+     "Nuno Espírito Santo",
+     "Nuno"
+    ],
+    [
+     "Glenn Hoddle",
+     "Hoddle"
+    ],
+    [
+     "Roy Keane",
+     "Keane"
+    ],
+    [
+     "Daniel Farke",
+     "Farke"
+    ],
+    [
+     "Scott Parker",
+     "Parker"
+    ],
+    [
+     "Chris Wilder",
+     "Wilder"
+    ],
+    [
+     "Mick McCarthy",
+     "McCarthy"
+    ],
+    [
+     "Ian Holloway",
+     "Holloway",
+     "Ollie"
+    ],
+    [
+     "Tony Pulis",
+     "Pulis"
+    ],
+    [
+     "Alan Pardew",
+     "Pardew",
+     "Pards"
+    ],
+    "Martin O'Neill",
+    [
+     "Kieran McKenna",
+     "McKenna"
+    ],
+    [
+     "Chris Hughton",
+     "Hughton"
+    ],
+    "Dean Smith",
+    [
+     "Steve Cooper",
+     "Cooper"
+    ],
+    [
+     "Marco Silva",
+     "Silva"
+    ],
+    [
+     "Graeme Souness",
+     "Souness"
+    ],
+    [
+     "Peter Reid",
+     "Reid"
+    ],
+    [
+     "Bryan Robson",
+     "Robson"
+    ],
+    [
+     "Joe Royle",
+     "Royle"
+    ],
+    [
+     "Alan Curbishley",
+     "Curbishley",
+     "Curbs"
+    ],
+    [
+     "Paul Lambert",
+     "Lambert"
+    ],
+    [
+     "Alex McLeish",
+     "McLeish"
+    ],
+    [
+     "Owen Coyle",
+     "Coyle"
+    ],
+    [
+     "Roberto Di Matteo",
+     "Di Matteo"
+    ],
+    [
+     "Slaven Bilić",
+     "Bilic"
+    ],
+    [
+     "Nigel Pearson",
+     "Pearson"
+    ],
+    "Rob Edwards",
+    "Russell Martin",
+    [
+     "Régis Le Bris",
+     "Le Bris"
+    ],
+    [
+     "Graham Taylor",
+     "Taylor"
+    ],
+    [
+     "Steve Coppell",
+     "Coppell"
+    ],
+    [
+     "Gary Megson",
+     "Megson"
+    ],
+    [
+     "Iain Dowie",
+     "Dowie"
+    ],
+    [
+     "Paul Jewell",
+     "Jewell"
+    ],
+    [
+     "Jean Tigana",
+     "Tigana"
+    ],
+    "Phil Brown",
+    [
+     "Tony Mowbray",
+     "Mowbray"
+    ],
+    [
+     "Aitor Karanka",
+     "Karanka"
+    ],
+    [
+     "David Wagner",
+     "Wagner"
+    ],
+    [
+     "Slaviša Jokanović",
+     "Jokanovic"
+    ],
+    "Alex Neil",
+    [
+     "Malky Mackay",
+     "Mackay"
+    ],
+    [
+     "Nigel Adkins",
+     "Adkins"
+    ],
+    [
+     "Brian McDermott",
+     "McDermott"
+    ],
+    "Billy Davies",
+    [
+     "Aidy Boothroyd",
+     "Boothroyd"
+    ],
+    [
+     "Dave Bassett",
+     "Bassett",
+     "Harry Bassett"
+    ],
+    [
+     "Bruce Rioch",
+     "Rioch"
+    ],
+    [
+     "Brian Little",
+     "Little"
+    ],
+    "Frank Clark",
+    [
+     "Billy Bonds",
+     "Bonds"
+    ],
+    "Jim Smith",
+    "Danny Wilson",
+    "Colin Todd",
+    [
+     "George Burley",
+     "Burley"
+    ],
+    "Micky Adams",
+    "Dave Jones",
+    [
+     "Nigel Worthington",
+     "Worthington"
+    ],
+    [
+     "Paul Heckingbottom",
+     "Heckingbottom"
+    ],
+    [
+     "Xisco Muñoz",
+     "Xisco"
+    ],
+    "Alan Smith",
+    [
+     "Sergej Jakirović",
+     "Jakirovic"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-managers-celtic-nations",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a manager from Scotland, Wales, Northern Ireland or the Republic of Ireland who has managed a club in the Premier League (permanent managers, up to the end of the 2025-26 season)",
+   "answers": [
+    [
+     "Alex Ferguson",
+     "Ferguson",
+     "Fergie",
+     "Sir Alex"
+    ],
+    [
+     "Kenny Dalglish",
+     "Dalglish",
+     "King Kenny"
+    ],
+    [
+     "David Moyes",
+     "Moyes"
+    ],
+    [
+     "Brendan Rodgers",
+     "Rodgers"
+    ],
+    [
+     "Martin O'Neill",
+     "O'Neill"
+    ],
+    [
+     "Mark Hughes",
+     "Hughes",
+     "Sparky"
+    ],
+    [
+     "Roy Keane",
+     "Keane"
+    ],
+    [
+     "Graeme Souness",
+     "Souness"
+    ],
+    [
+     "George Graham",
+     "Graham"
+    ],
+    [
+     "Tony Pulis",
+     "Pulis"
+    ],
+    [
+     "Gordon Strachan",
+     "Strachan"
+    ],
+    [
+     "Paul Lambert",
+     "Lambert"
+    ],
+    [
+     "Mick McCarthy",
+     "McCarthy"
+    ],
+    [
+     "Chris Hughton",
+     "Hughton"
+    ],
+    [
+     "Alex McLeish",
+     "McLeish"
+    ],
+    [
+     "David O'Leary",
+     "O'Leary"
+    ],
+    [
+     "Steve Clarke",
+     "Clarke"
+    ],
+    [
+     "Kieran McKenna",
+     "McKenna"
+    ],
+    [
+     "Steve Cooper",
+     "Cooper"
+    ],
+    [
+     "Chris Coleman",
+     "Coleman"
+    ],
+    [
+     "Owen Coyle",
+     "Coyle"
+    ],
+    [
+     "Bruce Rioch",
+     "Rioch"
+    ],
+    "Walter Smith",
+    [
+     "Joe Kinnear",
+     "Kinnear"
+    ],
+    [
+     "Iain Dowie",
+     "Dowie"
+    ],
+    "Russell Martin",
+    "Nathan Jones",
+    "Rob Edwards",
+    [
+     "Malky Mackay",
+     "Mackay"
+    ],
+    "Alex Neil",
+    "Billy Davies",
+    [
+     "George Burley",
+     "Burley"
+    ],
+    [
+     "Steve Kean",
+     "Kean"
+    ],
+    [
+     "Lawrie Sanchez",
+     "Sanchez"
+    ],
+    "Danny Wilson",
+    [
+     "Keith Andrews",
+     "Andrews"
+    ],
+    "Mike Walker",
+    [
+     "Nigel Worthington",
+     "Worthington"
+    ],
+    [
+     "Mark McGhee",
+     "McGhee"
+    ],
+    [
+     "Alan Irvine",
+     "Irvine"
+    ],
+    [
+     "Paul Sturrock",
+     "Sturrock"
+    ],
+    [
+     "Ricky Sbragia",
+     "Sbragia"
+    ],
+    [
+     "Jim Jefferies",
+     "Jefferies"
+    ],
+    [
+     "Ian Porterfield",
+     "Porterfield"
+    ],
+    [
+     "John Gorman",
+     "Gorman"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-big-club-captains",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has been the official club captain of Arsenal, Chelsea, Liverpool, Man Utd or Spurs in the Premier League era (as of November 2026)",
+   "answers": [
+    [
+     "Steven Gerrard",
+     "Gerrard",
+     "Stevie G"
+    ],
+    [
+     "John Terry",
+     "Terry",
+     "JT"
+    ],
+    [
+     "Roy Keane",
+     "Keane"
+    ],
+    [
+     "Tony Adams",
+     "Adams"
+    ],
+    [
+     "Patrick Vieira",
+     "Vieira"
+    ],
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "Jordan Henderson",
+     "Henderson",
+     "Hendo"
+    ],
+    [
+     "Virgil van Dijk",
+     "Van Dijk",
+     "VVD"
+    ],
+    [
+     "Gary Neville",
+     "Neville"
+    ],
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Eric Cantona",
+     "Cantona"
+    ],
+    [
+     "Son Heung-min",
+     "Son",
+     "Heung-min Son",
+     "Sonny"
+    ],
+    [
+     "Hugo Lloris",
+     "Lloris"
+    ],
+    [
+     "Ledley King",
+     "Ledley"
+    ],
+    [
+     "Cesc Fàbregas",
+     "Fabregas",
+     "Cesc"
+    ],
+    [
+     "Robin van Persie",
+     "Van Persie",
+     "RVP"
+    ],
+    [
+     "Nemanja Vidić",
+     "Vidic"
+    ],
+    [
+     "Harry Maguire",
+     "Maguire"
+    ],
+    [
+     "Bruno Fernandes",
+     "Bruno"
+    ],
+    [
+     "Martin Ødegaard",
+     "Odegaard"
+    ],
+    [
+     "Dennis Wise",
+     "Wise"
+    ],
+    [
+     "César Azpilicueta",
+     "Azpilicueta",
+     "Azpi"
+    ],
+    "Reece James",
+    [
+     "Gary Cahill",
+     "Cahill"
+    ],
+    [
+     "Marcel Desailly",
+     "Desailly"
+    ],
+    [
+     "Sol Campbell",
+     "Campbell"
+    ],
+    [
+     "Teddy Sheringham",
+     "Sheringham"
+    ],
+    [
+     "Pierre-Emerick Aubameyang",
+     "Aubameyang",
+     "Auba"
+    ],
+    [
+     "Mikel Arteta",
+     "Arteta"
+    ],
+    [
+     "Bryan Robson",
+     "Robson"
+    ],
+    [
+     "Steve Bruce",
+     "Bruce"
+    ],
+    [
+     "Michael Carrick",
+     "Carrick"
+    ],
+    [
+     "Ian Rush",
+     "Rush"
+    ],
+    [
+     "John Barnes",
+     "Barnes"
+    ],
+    [
+     "Paul Ince",
+     "Ince"
+    ],
+    [
+     "Jamie Redknapp",
+     "Redknapp"
+    ],
+    [
+     "Sami Hyypiä",
+     "Hyypia"
+    ],
+    [
+     "Gary Mabbutt",
+     "Mabbutt"
+    ],
+    [
+     "Cristian Romero",
+     "Romero"
+    ],
+    [
+     "Micky van de Ven",
+     "Van de Ven"
+    ],
+    [
+     "Michael Dawson",
+     "Dawson"
+    ],
+    [
+     "Per Mertesacker",
+     "Mertesacker"
+    ],
+    [
+     "Laurent Koscielny",
+     "Koscielny"
+    ],
+    [
+     "Granit Xhaka",
+     "Xhaka"
+    ],
+    [
+     "Thomas Vermaelen",
+     "Vermaelen"
+    ],
+    [
+     "William Gallas",
+     "Gallas"
+    ],
+    [
+     "Antonio Valencia",
+     "Valencia"
+    ],
+    "Ashley Young",
+    [
+     "Younes Kaboul",
+     "Kaboul"
+    ],
+    [
+     "Andy Townsend",
+     "Townsend"
+    ],
+    "Mark Wright"
+   ]
+  },
+  {
+   "id": "fb8-pl-manutd-and-chelsea",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has played in the Premier League for both Man Utd and Chelsea (as of November 2026)",
+   "answers": [
+    [
+     "Juan Mata",
+     "Mata"
+    ],
+    [
+     "Romelu Lukaku",
+     "Lukaku"
+    ],
+    [
+     "Nemanja Matić",
+     "Matic"
+    ],
+    [
+     "Mason Mount",
+     "Mount"
+    ],
+    [
+     "Jadon Sancho",
+     "Sancho"
+    ],
+    [
+     "Mark Hughes",
+     "Hughes",
+     "Sparky"
+    ],
+    [
+     "Juan Sebastián Verón",
+     "Veron"
+    ],
+    [
+     "Radamel Falcao",
+     "Falcao"
+    ],
+    [
+     "Alejandro Garnacho",
+     "Garnacho"
+    ],
+    [
+     "Mark Bosnich",
+     "Bosnich",
+     "Bozza"
+    ],
+    [
+     "Paul Parker",
+     "Parker"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-arsenal-and-mancity",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has played in the Premier League for both Arsenal and Man City (as of November 2026)",
+   "answers": [
+    [
+     "Gabriel Jesus",
+     "Jesus"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Patrick Vieira",
+     "Vieira"
+    ],
+    [
+     "Emmanuel Adebayor",
+     "Adebayor"
+    ],
+    [
+     "Samir Nasri",
+     "Nasri"
+    ],
+    [
+     "Gaël Clichy",
+     "Clichy"
+    ],
+    [
+     "Bacary Sagna",
+     "Sagna"
+    ],
+    [
+     "Kolo Touré",
+     "Toure",
+     "Kolo"
+    ],
+    [
+     "Oleksandr Zinchenko",
+     "Zinchenko"
+    ],
+    [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "David Seaman",
+     "Seaman"
+    ],
+    [
+     "Paul Dickov",
+     "Dickov"
+    ],
+    "Sylvinho"
+   ]
+  },
+  {
+   "id": "fb8-pl-hodgson-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club or national team Roy Hodgson has managed (caretaker spells count)",
+   "answers": [
+    [
+     "England",
+     "England national team"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    [
+     "Liverpool"
+    ],
+    [
+     "Fulham"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Watford"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Inter Milan",
+     "Inter",
+     "Internazionale"
+    ],
+    [
+     "Switzerland"
+    ],
+    [
+     "Finland"
+    ],
+    [
+     "Bristol City"
+    ],
+    [
+     "United Arab Emirates",
+     "UAE"
+    ],
+    [
+     "Udinese"
+    ],
+    [
+     "Malmö",
+     "Malmo FF"
+    ],
+    [
+     "Copenhagen",
+     "FC Copenhagen",
+     "FC Kobenhavn"
+    ],
+    [
+     "Halmstad",
+     "Halmstads BK"
+    ],
+    [
+     "Neuchâtel Xamax",
+     "Xamax",
+     "Neuchatel Xamax"
+    ],
+    [
+     "Grasshoppers",
+     "Grasshopper",
+     "Grasshopper Club Zurich"
+    ],
+    [
+     "Viking",
+     "Viking FK"
+    ],
+    [
+     "Örebro",
+     "Orebro SK"
+    ],
+    [
+     "Oddevold",
+     "IK Oddevold"
+    ],
+    [
+     "England U21",
+     "England Under-21s",
+     "England Under 21"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-ranieri-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club or national team Claudio Ranieri has managed",
+   "answers": [
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Chelsea"
+    ],
+    [
+     "Roma",
+     "AS Roma"
+    ],
+    [
+     "Juventus",
+     "Juve"
+    ],
+    [
+     "Fulham"
+    ],
+    [
+     "Watford"
+    ],
+    [
+     "Valencia"
+    ],
+    [
+     "Inter Milan",
+     "Inter",
+     "Internazionale"
+    ],
+    [
+     "Napoli"
+    ],
+    [
+     "Monaco",
+     "AS Monaco"
+    ],
+    [
+     "Atlético Madrid",
+     "Atletico",
+     "Atleti"
+    ],
+    [
+     "Fiorentina"
+    ],
+    [
+     "Greece"
+    ],
+    [
+     "Cagliari"
+    ],
+    [
+     "Parma"
+    ],
+    [
+     "Sampdoria"
+    ],
+    [
+     "Nantes"
+    ],
+    [
+     "Vigor Lamezia",
+     "Lamezia"
+    ],
+    [
+     "Puteolana",
+     "Campania Puteolana"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-allardyce-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club or national team Sam Allardyce has managed (caretaker spells count)",
+   "answers": [
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "England"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle"
+    ],
+    [
+     "Sunderland"
+    ],
+    [
+     "Everton"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Blackpool"
+    ],
+    [
+     "Notts County"
+    ],
+    [
+     "Preston North End",
+     "Preston"
+    ],
+    [
+     "Limerick",
+     "Limerick FC"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-redknapp-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club or national team Harry Redknapp has managed",
+   "answers": [
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Southampton",
+     "Saints"
+    ],
+    [
+     "Bournemouth",
+     "AFC Bournemouth"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham"
+    ],
+    [
+     "Jordan"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-crouch-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club Peter Crouch played for (loans count)",
+   "answers": [
+    [
+     "Liverpool"
+    ],
+    [
+     "Stoke City",
+     "Stoke"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "Southampton",
+     "Saints"
+    ],
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Burnley"
+    ],
+    [
+     "Norwich City",
+     "Norwich"
+    ],
+    [
+     "Dulwich Hamlet",
+     "Dulwich"
+    ],
+    [
+     "IFK Hässleholm",
+     "Hassleholm",
+     "IFK Hassleholm"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-andy-cole-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club Andy Cole played for (loans count)",
+   "answers": [
+    [
+     "Manchester United",
+     "Man Utd",
+     "Man United"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Arsenal"
+    ],
+    [
+     "Fulham"
+    ],
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Sunderland"
+    ],
+    [
+     "Bristol City"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham"
+    ],
+    [
+     "Nottingham Forest",
+     "Forest"
+    ],
+    [
+     "Burnley"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-robbie-keane-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club Robbie Keane played for (loans count)",
+   "answers": [
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    [
+     "Liverpool"
+    ],
+    [
+     "LA Galaxy",
+     "Galaxy",
+     "Los Angeles Galaxy"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Inter Milan",
+     "Inter",
+     "Internazionale"
+    ],
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    [
+     "Celtic"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "ATK",
+     "Atletico de Kolkata",
+     "ATK Kolkata"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-marcus-bent-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club Marcus Bent played for (loans count)",
+   "answers": [
+    [
+     "Everton"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham"
+    ],
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Sheffield United",
+     "Sheff Utd"
+    ],
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Brentford"
+    ],
+    [
+     "Middlesbrough",
+     "Boro"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Port Vale"
+    ],
+    [
+     "Mitra Kukar"
+    ],
+    [
+     "Wick",
+     "Wick Academy"
+    ],
+    [
+     "Cornard United",
+     "Cornard"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-lukaku-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club Romelu Lukaku has played for (loans count, as of November 2026)",
+   "answers": [
+    [
+     "Chelsea"
+    ],
+    [
+     "Manchester United",
+     "Man Utd",
+     "Man United"
+    ],
+    [
+     "Everton"
+    ],
+    [
+     "Inter Milan",
+     "Inter",
+     "Internazionale"
+    ],
+    [
+     "Napoli"
+    ],
+    [
+     "Roma",
+     "AS Roma"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Anderlecht"
+    ],
+    [
+     "Fenerbahçe",
+     "Fenerbahce",
+     "Fener"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-bellamy-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club Craig Bellamy played for (loans count)",
+   "answers": [
+    [
+     "Liverpool"
+    ],
+    [
+     "Newcastle United",
+     "Newcastle"
+    ],
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Celtic"
+    ],
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Norwich City",
+     "Norwich"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-fowler-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club Robbie Fowler played for (loans count)",
+   "answers": [
+    [
+     "Liverpool"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ],
+    [
+     "Perth Glory",
+     "Perth"
+    ],
+    [
+     "North Queensland Fury",
+     "North Queensland",
+     "NQ Fury"
+    ],
+    [
+     "Muangthong United",
+     "Muangthong",
+     "Muang Thong United"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-sheringham-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club Teddy Sheringham played for (loans count)",
+   "answers": [
+    [
+     "Manchester United",
+     "Man Utd",
+     "Man United"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    [
+     "West Ham United",
+     "West Ham"
+    ],
+    [
+     "Millwall"
+    ],
+    [
+     "Nottingham Forest",
+     "Forest"
+    ],
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Colchester United",
+     "Colchester"
+    ],
+    [
+     "Aldershot"
+    ],
+    [
+     "Djurgården",
+     "Djurgardens IF",
+     "Djurgarden"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-pennant-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club Jermaine Pennant played for (loans count)",
+   "answers": [
+    [
+     "Liverpool"
+    ],
+    [
+     "Arsenal"
+    ],
+    [
+     "Stoke City",
+     "Stoke"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham"
+    ],
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Watford"
+    ],
+    [
+     "Real Zaragoza",
+     "Zaragoza"
+    ],
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves"
+    ],
+    [
+     "Notts County"
+    ],
+    [
+     "Pune City",
+     "FC Pune City"
+    ],
+    [
+     "Bury"
+    ],
+    [
+     "Billericay Town",
+     "Billericay"
+    ],
+    [
+     "Tampines Rovers",
+     "Tampines"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-mourinho-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club José Mourinho has managed (as of November 2026)",
+   "answers": [
+    "Chelsea",
+    [
+     "Man Utd",
+     "manchester united",
+     "man united",
+     "united"
+    ],
+    [
+     "Real Madrid",
+     "real",
+     "madrid"
+    ],
+    [
+     "Spurs",
+     "tottenham",
+     "tottenham hotspur"
+    ],
+    [
+     "Inter Milan",
+     "inter",
+     "internazionale"
+    ],
+    "Porto",
+    [
+     "Roma",
+     "as roma"
+    ],
+    "Benfica",
+    [
+     "Fenerbahçe",
+     "fenerbahce",
+     "fener"
+    ],
+    [
+     "União de Leiria",
+     "uniao de leiria",
+     "leiria"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-benitez-clubs",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a club Rafael Benítez has managed (caretaker and interim spells count, up to the end of 2025-26)",
+   "answers": [
+    "Liverpool",
+    "Newcastle",
+    [
+     "Chelsea",
+     "chelsea"
+    ],
+    "Everton",
+    [
+     "Valencia"
+    ],
+    [
+     "Real Madrid",
+     "real",
+     "madrid"
+    ],
+    [
+     "Inter Milan",
+     "inter",
+     "internazionale"
+    ],
+    "Napoli",
+    [
+     "Celta Vigo",
+     "celta"
+    ],
+    [
+     "Panathinaikos",
+     "pao"
+    ],
+    [
+     "Dalian Professional",
+     "dalian",
+     "dalian yifang",
+     "dalian pro"
+    ],
+    [
+     "Tenerife",
+     "cd tenerife"
+    ],
+    [
+     "Real Valladolid",
+     "valladolid"
+    ],
+    [
+     "Osasuna",
+     "ca osasuna"
+    ],
+    [
+     "Extremadura",
+     "cf extremadura"
+    ],
+    [
+     "Real Madrid Castilla",
+     "castilla",
+     "real madrid b"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-motm-2020s",
+   "tags": [
+    "pl",
+    "20s"
+   ],
+   "text": "Name a Premier League Manager of the Month winner from 2020-21 to 2025-26",
+   "answers": [
+    [
+     "Pep Guardiola",
+     "Guardiola",
+     "Pep"
+    ],
+    [
+     "Mikel Arteta",
+     "Arteta"
+    ],
+    [
+     "Jürgen Klopp",
+     "Klopp"
+    ],
+    [
+     "Arne Slot",
+     "Slot"
+    ],
+    [
+     "Erik ten Hag",
+     "ten Hag"
+    ],
+    [
+     "José Mourinho",
+     "Mourinho"
+    ],
+    [
+     "Thomas Tuchel",
+     "Tuchel"
+    ],
+    [
+     "Ange Postecoglou",
+     "Postecoglou",
+     "Ange"
+    ],
+    [
+     "Unai Emery",
+     "Emery"
+    ],
+    [
+     "Eddie Howe",
+     "Howe"
+    ],
+    [
+     "Nuno Espírito Santo",
+     "Nuno",
+     "Nuno Espirito Santo"
+    ],
+    [
+     "Enzo Maresca",
+     "Maresca"
+    ],
+    [
+     "Ruben Amorim",
+     "Amorim"
+    ],
+    [
+     "Michael Carrick",
+     "Carrick"
+    ],
+    [
+     "Carlo Ancelotti",
+     "Ancelotti"
+    ],
+    [
+     "David Moyes",
+     "Moyes"
+    ],
+    [
+     "Sean Dyche",
+     "Dyche"
+    ],
+    [
+     "Oliver Glasner",
+     "Glasner"
+    ],
+    [
+     "Andoni Iraola",
+     "Iraola"
+    ],
+    [
+     "Steve Bruce",
+     "Bruce"
+    ],
+    [
+     "Dean Smith"
+    ],
+    [
+     "Fabian Hürzeler",
+     "Hurzeler"
+    ],
+    [
+     "Bruno Lage",
+     "Lage"
+    ],
+    [
+     "Vítor Pereira",
+     "Vitor Pereira"
+    ],
+    [
+     "Mike Jackson"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-motd-goal-of-season",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who has scored Match of the Day's Goal of the Season (1992-93 to 2025-26)",
+   "answers": [
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Dennis Bergkamp",
+     "Bergkamp"
+    ],
+    [
+     "Thierry Henry",
+     "Henry"
+    ],
+    [
+     "Steven Gerrard",
+     "Gerrard"
+    ],
+    [
+     "Mohamed Salah",
+     "Salah",
+     "Mo Salah"
+    ],
+    [
+     "Matthew Le Tissier",
+     "Le Tissier",
+     "Le Tiss"
+    ],
+    [
+     "Ryan Giggs",
+     "Giggs"
+    ],
+    [
+     "Paolo Di Canio",
+     "Di Canio"
+    ],
+    [
+     "Robin van Persie",
+     "van Persie",
+     "RVP"
+    ],
+    [
+     "Jack Wilshere",
+     "Wilshere"
+    ],
+    [
+     "Son Heung-min",
+     "Son",
+     "Heung-min Son"
+    ],
+    [
+     "Jamie Vardy",
+     "Vardy"
+    ],
+    [
+     "Vincent Kompany",
+     "Kompany"
+    ],
+    [
+     "Dele Alli",
+     "Dele",
+     "Alli"
+    ],
+    [
+     "Alejandro Garnacho",
+     "Garnacho"
+    ],
+    [
+     "Tony Yeboah",
+     "Yeboah"
+    ],
+    [
+     "Emmanuel Adebayor",
+     "Adebayor"
+    ],
+    [
+     "Erik Lamela",
+     "Lamela"
+    ],
+    [
+     "Papiss Cissé",
+     "Papiss Cisse",
+     "Cisse"
+    ],
+    [
+     "Emre Can"
+    ],
+    [
+     "Kaoru Mitoma",
+     "Mitoma"
+    ],
+    [
+     "Glen Johnson"
+    ],
+    [
+     "Trevor Sinclair",
+     "Sinclair"
+    ],
+    [
+     "Dietmar Hamann",
+     "Hamann",
+     "Didi Hamann"
+    ],
+    [
+     "Julio Enciso",
+     "Enciso"
+    ],
+    [
+     "Harry Wilson"
+    ],
+    [
+     "Dalian Atkinson",
+     "Atkinson"
+    ],
+    [
+     "Rod Wallace"
+    ],
+    [
+     "Shaun Bartlett",
+     "Bartlett"
+    ],
+    [
+     "Maynor Figueroa",
+     "Figueroa"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-big-six-shirt-sponsors",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a company that has been the main shirt sponsor of Arsenal, Chelsea, Liverpool, Man City, Man Utd or Spurs in a Premier League season (as of November 2026)",
+   "answers": [
+    [
+     "Emirates",
+     "Fly Emirates"
+    ],
+    [
+     "Etihad",
+     "Etihad Airways"
+    ],
+    [
+     "Carlsberg"
+    ],
+    [
+     "Standard Chartered"
+    ],
+    [
+     "Sharp"
+    ],
+    [
+     "Vodafone"
+    ],
+    [
+     "Samsung",
+     "Samsung Mobile"
+    ],
+    [
+     "Chevrolet"
+    ],
+    [
+     "AIG"
+    ],
+    [
+     "O2"
+    ],
+    [
+     "AIA"
+    ],
+    [
+     "Holsten"
+    ],
+    [
+     "JVC"
+    ],
+    [
+     "Aon"
+    ],
+    [
+     "TeamViewer"
+    ],
+    [
+     "Three",
+     "3"
+    ],
+    [
+     "Thomas Cook"
+    ],
+    [
+     "Autoglass"
+    ],
+    [
+     "Yokohama",
+     "Yokohama Tyres"
+    ],
+    [
+     "Snapdragon",
+     "Qualcomm Snapdragon",
+     "Qualcomm"
+    ],
+    [
+     "Sega",
+     "Dreamcast",
+     "Sega Dreamcast"
+    ],
+    [
+     "Brother"
+    ],
+    [
+     "Coors"
+    ],
+    [
+     "Commodore",
+     "Amiga"
+    ],
+    [
+     "Thomson",
+     "Thomson Holidays"
+    ],
+    [
+     "Hewlett-Packard",
+     "HP"
+    ],
+    [
+     "Mansion",
+     "Mansion.com"
+    ],
+    [
+     "Infinite Athlete"
+    ],
+    [
+     "Eidos"
+    ],
+    [
+     "First Advice"
+    ],
+    [
+     "Autonomy"
+    ],
+    [
+     "Aurasma"
+    ],
+    [
+     "DAMAC",
+     "DAMAC Properties"
+    ],
+    [
+     "IFS"
+    ],
+    [
+     "USDC"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-kit-makers",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a brand that has made a Premier League club's kit (1992-93 to 2026-27)",
+   "answers": [
+    [
+     "Adidas"
+    ],
+    [
+     "Nike"
+    ],
+    [
+     "Umbro"
+    ],
+    [
+     "Puma"
+    ],
+    [
+     "Reebok"
+    ],
+    [
+     "Kappa"
+    ],
+    [
+     "New Balance"
+    ],
+    [
+     "Under Armour"
+    ],
+    [
+     "Le Coq Sportif"
+    ],
+    [
+     "Hummel"
+    ],
+    [
+     "Castore"
+    ],
+    [
+     "Macron"
+    ],
+    [
+     "Diadora"
+    ],
+    [
+     "Warrior",
+     "Warrior Sports"
+    ],
+    [
+     "Lotto"
+    ],
+    [
+     "Joma"
+    ],
+    [
+     "Erreà",
+     "Errea"
+    ],
+    [
+     "Asics"
+    ],
+    [
+     "Fila"
+    ],
+    [
+     "Admiral"
+    ],
+    [
+     "Pony"
+    ],
+    [
+     "Lonsdale"
+    ],
+    [
+     "Kelme"
+    ],
+    [
+     "Canterbury"
+    ],
+    [
+     "Jako"
+    ],
+    [
+     "Uhlsport"
+    ],
+    [
+     "Avec"
+    ],
+    [
+     "JJB",
+     "JJB Sports"
+    ],
+    [
+     "Airness"
+    ],
+    [
+     "Champion"
+    ],
+    [
+     "Xara"
+    ],
+    [
+     "Burrda"
+    ],
+    [
+     "Carbrini"
+    ],
+    [
+     "Ribero"
+    ],
+    [
+     "Bukta"
+    ],
+    [
+     "Fox Leisure"
+    ],
+    [
+     "Nutmeg"
+    ],
+    [
+     "Clubhouse"
+    ],
+    [
+     "Loki"
+    ],
+    [
+     "Punch"
+    ],
+    [
+     "Pompey Sport"
+    ],
+    [
+     "Xtep"
+    ],
+    [
+     "MiFit"
+    ],
+    [
+     "Vandanel"
+    ],
+    [
+     "Dryworld"
+    ],
+    [
+     "JD Sports",
+     "JD"
+    ],
+    [
+     "Sudu"
+    ],
+    [
+     "OXEN",
+     "OXEN Sports"
+    ],
+    [
+     "View From"
+    ],
+    [
+     "Core"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-saints-to-big-six",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player who joined Arsenal, Chelsea, Liverpool, Man City, Man Utd or Spurs directly from Southampton (permanent transfers, 1992 to November 2026)",
+   "answers": [
+    [
+     "Virgil van Dijk",
+     "van Dijk",
+     "VVD"
+    ],
+    [
+     "Gareth Bale",
+     "Bale"
+    ],
+    [
+     "Sadio Mané",
+     "Mane"
+    ],
+    [
+     "Theo Walcott",
+     "Walcott"
+    ],
+    [
+     "Luke Shaw",
+     "Shaw"
+    ],
+    [
+     "Adam Lallana",
+     "Lallana"
+    ],
+    [
+     "Alex Oxlade-Chamberlain",
+     "Oxlade-Chamberlain",
+     "Chamberlain",
+     "Ox"
+    ],
+    [
+     "Peter Crouch",
+     "Crouch"
+    ],
+    [
+     "Dejan Lovren",
+     "Lovren"
+    ],
+    [
+     "Rickie Lambert",
+     "Lambert"
+    ],
+    [
+     "Nathaniel Clyne",
+     "Clyne"
+    ],
+    [
+     "Morgan Schneiderlin",
+     "Schneiderlin"
+    ],
+    [
+     "Wayne Bridge",
+     "Bridge"
+    ],
+    [
+     "Pierre-Emile Højbjerg",
+     "Hojbjerg"
+    ],
+    [
+     "Victor Wanyama",
+     "Wanyama"
+    ],
+    [
+     "Calum Chambers",
+     "Chambers"
+    ],
+    [
+     "Romeo Lavia",
+     "Lavia"
+    ],
+    [
+     "Fraser Forster",
+     "Forster"
+    ],
+    [
+     "Neil Ruddock",
+     "Ruddock",
+     "Razor Ruddock"
+    ],
+    [
+     "Dean Richards"
+    ],
+    [
+     "Paulo Gazzaniga",
+     "Gazzaniga"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-pl-mancity-40m",
+   "tags": [
+    "pl"
+   ],
+   "text": "Name a player Man City have signed for a reported fee of £40m or more (as of November 2026)",
+   "answers": [
+    [
+     "Jack Grealish",
+     "Grealish"
+    ],
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Kevin De Bruyne",
+     "De Bruyne",
+     "KDB"
+    ],
+    [
+     "Rodri"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Rúben Dias",
+     "Ruben Dias",
+     "Dias"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Kyle Walker",
+     "Walker"
+    ],
+    [
+     "Riyad Mahrez",
+     "Mahrez"
+    ],
+    [
+     "Joško Gvardiol",
+     "Gvardiol"
+    ],
+    [
+     "Bernardo Silva",
+     "Bernardo"
+    ],
+    [
+     "João Cancelo",
+     "Cancelo"
+    ],
+    [
+     "Aymeric Laporte",
+     "Laporte"
+    ],
+    [
+     "Kalvin Phillips",
+     "Phillips"
+    ],
+    [
+     "Enzo Fernández",
+     "Enzo Fernandez",
+     "Enzo"
+    ],
+    [
+     "Elliot Anderson",
+     "Anderson"
+    ],
+    [
+     "Jérémy Doku",
+     "Doku"
+    ],
+    [
+     "Benjamin Mendy",
+     "Mendy"
+    ],
+    [
+     "Omar Marmoush",
+     "Marmoush"
+    ],
+    [
+     "Antoine Semenyo",
+     "Semenyo"
+    ],
+    [
+     "Tijjani Reijnders",
+     "Reijnders"
+    ],
+    [
+     "Matheus Nunes"
+    ],
+    [
+     "Nathan Aké",
+     "Ake"
+    ],
+    [
+     "Nico González",
+     "Nico Gonzalez"
+    ],
+    [
+     "Iliman Ndiaye",
+     "Ndiaye"
+    ],
+    [
+     "Ayyoub Bouaddi",
+     "Bouaddi"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-wc-england-opponents",
+   "tags": [
+    "worldcup"
+   ],
+   "text": "Name a country England's men have played at a World Cup finals (1950 to 2022)",
+   "answers": [
+    [
+     "Germany",
+     "West Germany"
+    ],
+    "Argentina",
+    "Brazil",
+    "France",
+    "Croatia",
+    [
+     "USA",
+     "United States",
+     "America",
+     "US",
+     "United States of America"
+    ],
+    "Portugal",
+    "Italy",
+    "Colombia",
+    "Tunisia",
+    "Wales",
+    "Sweden",
+    "Belgium",
+    "Uruguay",
+    "Spain",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    [
+     "Republic of Ireland",
+     "Ireland",
+     "Eire",
+     "ROI"
+    ],
+    "Cameroon",
+    "Iran",
+    "Senegal",
+    "Panama",
+    "Mexico",
+    "Paraguay",
+    "Denmark",
+    "Nigeria",
+    "Ecuador",
+    [
+     "Trinidad and Tobago",
+     "Trinidad",
+     "Trinidad & Tobago"
+    ],
+    "Algeria",
+    "Slovenia",
+    "Costa Rica",
+    "Egypt",
+    "Morocco",
+    "Poland",
+    "Romania",
+    "Czechoslovakia",
+    "Hungary",
+    "Chile",
+    "Switzerland",
+    [
+     "Soviet Union",
+     "USSR"
+    ],
+    "Austria",
+    "Bulgaria",
+    "Kuwait"
+   ]
+  },
+  {
+   "id": "fb8-wc-england-shootout-takers",
+   "tags": [
+    "worldcup",
+    "euros"
+   ],
+   "text": "Name a player who has taken a penalty for England in a World Cup or Euros shoot-out (1990 to Euro 2024)",
+   "answers": [
+    [
+     "Gareth Southgate",
+     "Southgate"
+    ],
+    [
+     "Bukayo Saka",
+     "Saka"
+    ],
+    [
+     "Marcus Rashford",
+     "Rashford"
+    ],
+    [
+     "Jadon Sancho",
+     "Sancho"
+    ],
+    [
+     "Stuart Pearce",
+     "Pearce",
+     "Psycho"
+    ],
+    [
+     "Chris Waddle",
+     "Waddle"
+    ],
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "David Beckham",
+     "Beckham"
+    ],
+    [
+     "Steven Gerrard",
+     "Gerrard"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Jamie Carragher",
+     "Carragher"
+    ],
+    [
+     "Alan Shearer",
+     "Shearer"
+    ],
+    [
+     "Paul Gascoigne",
+     "Gascoigne",
+     "Gazza"
+    ],
+    [
+     "Michael Owen",
+     "Owen"
+    ],
+    [
+     "Wayne Rooney",
+     "Rooney"
+    ],
+    [
+     "Ashley Cole",
+     "Cole"
+    ],
+    [
+     "Jordan Henderson",
+     "Henderson"
+    ],
+    [
+     "Gary Lineker",
+     "Lineker"
+    ],
+    [
+     "David Batty",
+     "Batty"
+    ],
+    [
+     "Paul Ince",
+     "Ince"
+    ],
+    [
+     "Trent Alexander-Arnold",
+     "Alexander-Arnold",
+     "Trent",
+     "TAA"
+    ],
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Jude Bellingham",
+     "Bellingham"
+    ],
+    [
+     "Ivan Toney",
+     "Toney"
+    ],
+    [
+     "Harry Maguire",
+     "Maguire"
+    ],
+    [
+     "Kieran Trippier",
+     "Trippier"
+    ],
+    [
+     "Eric Dier",
+     "Dier"
+    ],
+    [
+     "Ashley Young",
+     "Young"
+    ],
+    [
+     "John Terry",
+     "Terry"
+    ],
+    [
+     "Owen Hargreaves",
+     "Hargreaves"
+    ],
+    [
+     "Darius Vassell",
+     "Vassell"
+    ],
+    [
+     "Teddy Sheringham",
+     "Sheringham"
+    ],
+    [
+     "David Platt",
+     "Platt"
+    ],
+    [
+     "Peter Beardsley",
+     "Beardsley"
+    ],
+    [
+     "Paul Merson",
+     "Merson"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-wc-england-keepers-since-1990",
+   "tags": [
+    "worldcup"
+   ],
+   "text": "Name a goalkeeper who has played for England's men since 1990 (up to the end of the 2026 World Cup)",
+   "answers": [
+    [
+     "Jordan Pickford",
+     "Pickford"
+    ],
+    [
+     "David Seaman",
+     "Seaman"
+    ],
+    [
+     "Joe Hart",
+     "Hart"
+    ],
+    [
+     "David James",
+     "James"
+    ],
+    [
+     "Paul Robinson",
+     "Robinson"
+    ],
+    [
+     "Rob Green",
+     "Robert Green",
+     "Green"
+    ],
+    [
+     "Peter Shilton",
+     "Shilton"
+    ],
+    [
+     "Nick Pope",
+     "Pope"
+    ],
+    [
+     "Aaron Ramsdale",
+     "Ramsdale"
+    ],
+    [
+     "Dean Henderson",
+     "Henderson"
+    ],
+    [
+     "Ben Foster",
+     "Foster"
+    ],
+    [
+     "Scott Carson",
+     "Carson"
+    ],
+    [
+     "Jack Butland",
+     "Butland"
+    ],
+    [
+     "Fraser Forster",
+     "Forster"
+    ],
+    [
+     "James Trafford",
+     "Trafford"
+    ],
+    [
+     "Chris Woods",
+     "Woods"
+    ],
+    [
+     "Tim Flowers",
+     "Flowers"
+    ],
+    [
+     "Nigel Martyn",
+     "Martyn"
+    ],
+    [
+     "Tom Heaton",
+     "Heaton"
+    ],
+    [
+     "Chris Kirkland",
+     "Kirkland"
+    ],
+    [
+     "Sam Johnstone",
+     "Johnstone"
+    ],
+    [
+     "John Ruddy",
+     "Ruddy"
+    ],
+    [
+     "Ian Walker",
+     "Walker"
+    ],
+    [
+     "Richard Wright",
+     "Wright"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-wc-england-2026-squad",
+   "tags": [
+    "worldcup",
+    "20s"
+   ],
+   "text": "Name a player in England's final 26-man squad for the 2026 World Cup",
+   "answers": [
+    [
+     "Harry Kane",
+     "Kane"
+    ],
+    [
+     "Jude Bellingham",
+     "Bellingham"
+    ],
+    [
+     "Bukayo Saka",
+     "Saka"
+    ],
+    [
+     "Declan Rice",
+     "Rice"
+    ],
+    [
+     "Jordan Pickford",
+     "Pickford"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Marcus Rashford",
+     "Rashford"
+    ],
+    [
+     "Ollie Watkins",
+     "Watkins"
+    ],
+    [
+     "Ivan Toney",
+     "Toney"
+    ],
+    [
+     "Reece James"
+    ],
+    [
+     "Marc Guehi",
+     "Guehi"
+    ],
+    [
+     "Jordan Henderson"
+    ],
+    [
+     "Kobbie Mainoo",
+     "Mainoo"
+    ],
+    [
+     "Eberechi Eze",
+     "Eze"
+    ],
+    [
+     "Anthony Gordon",
+     "Gordon"
+    ],
+    [
+     "Morgan Rogers",
+     "Rogers"
+    ],
+    [
+     "Elliot Anderson",
+     "Anderson"
+    ],
+    [
+     "Noni Madueke",
+     "Madueke"
+    ],
+    [
+     "Dean Henderson"
+    ],
+    [
+     "Ezri Konsa",
+     "Konsa"
+    ],
+    [
+     "Dan Burn",
+     "Burn"
+    ],
+    [
+     "Trevoh Chalobah",
+     "Chalobah"
+    ],
+    [
+     "Jarell Quansah",
+     "Quansah"
+    ],
+    [
+     "Djed Spence",
+     "Spence"
+    ],
+    [
+     "James Trafford",
+     "Trafford"
+    ],
+    [
+     "Nico O'Reilly",
+     "O'Reilly"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-wc-final-venues",
+   "tags": [
+    "worldcup"
+   ],
+   "text": "Name a stadium that has hosted a men's World Cup final (1930 to 2026)",
+   "answers": [
+    [
+     "Wembley Stadium",
+     "Wembley",
+     "Old Wembley"
+    ],
+    [
+     "Maracana",
+     "Estadio do Maracana",
+     "Maracana Stadium"
+    ],
+    [
+     "Estadio Azteca",
+     "Azteca",
+     "Aztec Stadium",
+     "Estadio Banorte"
+    ],
+    [
+     "Stade de France"
+    ],
+    [
+     "Rose Bowl",
+     "Pasadena Rose Bowl"
+    ],
+    [
+     "Olympiastadion (Berlin)",
+     "Berlin Olympic Stadium",
+     "Olympiastadion Berlin",
+     "Olympic Stadium Berlin"
+    ],
+    [
+     "Luzhniki Stadium",
+     "Luzhniki"
+    ],
+    [
+     "Lusail Stadium",
+     "Lusail",
+     "Lusail Iconic Stadium"
+    ],
+    [
+     "Soccer City",
+     "FNB Stadium"
+    ],
+    [
+     "MetLife Stadium",
+     "MetLife",
+     "New York New Jersey Stadium"
+    ],
+    [
+     "Santiago Bernabeu",
+     "Bernabeu",
+     "Estadio Santiago Bernabeu"
+    ],
+    [
+     "Stadio Olimpico",
+     "Olimpico",
+     "Stadio Olimpico Rome"
+    ],
+    [
+     "International Stadium Yokohama",
+     "Nissan Stadium",
+     "Yokohama International Stadium",
+     "Yokohama Stadium"
+    ],
+    [
+     "Olympiastadion (Munich)",
+     "Munich Olympic Stadium",
+     "Olympiastadion Munich",
+     "Olympic Stadium Munich",
+     "Olympiastadion Munchen"
+    ],
+    [
+     "Estadio Monumental",
+     "Monumental",
+     "El Monumental",
+     "River Plate Stadium"
+    ],
+    [
+     "Estadio Centenario",
+     "Centenario"
+    ],
+    [
+     "Wankdorf Stadium",
+     "Wankdorf",
+     "Wankdorfstadion"
+    ],
+    [
+     "Rasunda Stadium",
+     "Rasunda",
+     "Rasundastadion"
+    ],
+    [
+     "Estadio Nacional (Santiago)",
+     "Estadio Nacional",
+     "Estadio Nacional de Chile",
+     "Estadio Nacional Julio Martinez Pradanos"
+    ],
+    [
+     "Stade Olympique de Colombes",
+     "Colombes",
+     "Stade Yves-du-Manoir",
+     "Yves du Manoir"
+    ],
+    [
+     "Stadio Nazionale PNF",
+     "Stadio Nazionale del PNF",
+     "Stadio Nazionale",
+     "Stadio del Partito Nazionale Fascista"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-wc-england-eliminators",
+   "tags": [
+    "worldcup",
+    "euros"
+   ],
+   "text": "Name a country that has knocked England's men out of a World Cup or Euros in a knockout match (1950 to Euro 2024)",
+   "answers": [
+    [
+     "Germany",
+     "West Germany"
+    ],
+    "Argentina",
+    "Portugal",
+    "Italy",
+    "Croatia",
+    "Brazil",
+    "France",
+    "Iceland",
+    "Spain",
+    "Uruguay",
+    "Yugoslavia"
+   ]
+  },
+  {
+   "id": "fb8-euros-hosts",
+   "tags": [
+    "euros"
+   ],
+   "text": "Name a country that has hosted or co-hosted matches at a men's European Championship finals (1960 to 2024)",
+   "answers": [
+    "England",
+    [
+     "Germany",
+     "West Germany"
+    ],
+    "France",
+    "Portugal",
+    "Netherlands",
+    "Belgium",
+    "Spain",
+    "Italy",
+    "Scotland",
+    "Austria",
+    "Switzerland",
+    "Poland",
+    "Ukraine",
+    "Sweden",
+    "Denmark",
+    "Russia",
+    "Hungary",
+    "Romania",
+    "Azerbaijan",
+    "Yugoslavia"
+   ]
+  },
+  {
+   "id": "fb8-euros-final-scorers",
+   "tags": [
+    "euros"
+   ],
+   "text": "Name a player who scored in a men's European Championship final (1960 to 2024; shoot-outs don't count)",
+   "answers": [
+    [
+     "Luke Shaw",
+     "Shaw"
+    ],
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Fernando Torres",
+     "Torres"
+    ],
+    [
+     "Marco van Basten",
+     "Van Basten"
+    ],
+    [
+     "Ruud Gullit",
+     "Gullit"
+    ],
+    [
+     "Leonardo Bonucci",
+     "Bonucci"
+    ],
+    [
+     "Nico Williams",
+     "Williams"
+    ],
+    [
+     "Oliver Bierhoff",
+     "Bierhoff"
+    ],
+    [
+     "Eder",
+     "Ederzito"
+    ],
+    [
+     "Michel Platini",
+     "Platini"
+    ],
+    [
+     "David Trezeguet",
+     "Trezeguet"
+    ],
+    [
+     "Angelos Charisteas",
+     "Charisteas"
+    ],
+    [
+     "Mikel Oyarzabal",
+     "Oyarzabal"
+    ],
+    [
+     "David Silva",
+     "Silva"
+    ],
+    [
+     "Jordi Alba",
+     "Alba"
+    ],
+    [
+     "Juan Mata",
+     "Mata"
+    ],
+    [
+     "Gerd Muller"
+    ],
+    [
+     "Sylvain Wiltord",
+     "Wiltord"
+    ],
+    [
+     "Patrik Berger",
+     "Berger"
+    ],
+    [
+     "John Jensen",
+     "Jensen"
+    ],
+    [
+     "Kim Vilfort",
+     "Vilfort"
+    ],
+    [
+     "Horst Hrubesch",
+     "Hrubesch"
+    ],
+    [
+     "Gigi Riva",
+     "Luigi Riva",
+     "Riva"
+    ],
+    [
+     "Marco Delvecchio",
+     "Delvecchio"
+    ],
+    [
+     "Bruno Bellone",
+     "Bellone"
+    ],
+    [
+     "Rene Vandereycken",
+     "Vandereycken"
+    ],
+    [
+     "Pietro Anastasi",
+     "Anastasi"
+    ],
+    [
+     "Angelo Domenghini",
+     "Domenghini"
+    ],
+    [
+     "Dragan Dzajic",
+     "Dzajic"
+    ],
+    [
+     "Dieter Muller"
+    ],
+    [
+     "Bernd Holzenbein",
+     "Holzenbein"
+    ],
+    [
+     "Herbert Wimmer",
+     "Wimmer"
+    ],
+    [
+     "Jan Svehlik",
+     "Svehlik"
+    ],
+    [
+     "Karol Dobias",
+     "Dobias"
+    ],
+    [
+     "Marcelino",
+     "Marcelino Martinez"
+    ],
+    [
+     "Jesus Maria Pereda",
+     "Pereda"
+    ],
+    [
+     "Galimzyan Khusainov",
+     "Khusainov"
+    ],
+    [
+     "Viktor Ponedelnik",
+     "Ponedelnik"
+    ],
+    [
+     "Slava Metreveli",
+     "Metreveli"
+    ],
+    [
+     "Milan Galic",
+     "Galic"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-euros-winning-managers",
+   "tags": [
+    "euros"
+   ],
+   "text": "Name a manager who won the men's European Championship (1960 to 2024)",
+   "answers": [
+    [
+     "Vicente del Bosque",
+     "Del Bosque"
+    ],
+    [
+     "Roberto Mancini",
+     "Mancini"
+    ],
+    [
+     "Luis de la Fuente",
+     "De la Fuente"
+    ],
+    [
+     "Fernando Santos",
+     "Santos"
+    ],
+    [
+     "Otto Rehhagel",
+     "Rehhagel"
+    ],
+    [
+     "Luis Aragones",
+     "Aragones"
+    ],
+    [
+     "Berti Vogts",
+     "Vogts"
+    ],
+    [
+     "Rinus Michels",
+     "Michels"
+    ],
+    [
+     "Roger Lemerre",
+     "Lemerre"
+    ],
+    [
+     "Helmut Schon",
+     "Schon",
+     "Schoen",
+     "Helmut Schoen"
+    ],
+    [
+     "Michel Hidalgo",
+     "Hidalgo"
+    ],
+    [
+     "Richard Moller Nielsen",
+     "Moller Nielsen",
+     "Richard Moeller Nielsen"
+    ],
+    [
+     "Jupp Derwall",
+     "Derwall"
+    ],
+    [
+     "Ferruccio Valcareggi",
+     "Valcareggi"
+    ],
+    [
+     "Vaclav Jezek",
+     "Jezek"
+    ],
+    [
+     "Jose Villalonga",
+     "Villalonga"
+    ],
+    [
+     "Gavriil Kachalin",
+     "Kachalin"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-efl-warnock-clubs",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club Neil Warnock has managed (caretaker and interim spells count)",
+   "answers": [
+    [
+     "Sheffield United",
+     "Sheff Utd",
+     "Sheffield Utd",
+     "Blades"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Middlesbrough",
+     "Boro"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ],
+    [
+     "Notts County",
+     "Notts"
+    ],
+    [
+     "Rotherham United",
+     "Rotherham"
+    ],
+    [
+     "Plymouth Argyle",
+     "Plymouth"
+    ],
+    [
+     "Bury"
+    ],
+    [
+     "Oldham Athletic",
+     "Oldham"
+    ],
+    [
+     "Aberdeen"
+    ],
+    [
+     "Scarborough"
+    ],
+    [
+     "Torquay United",
+     "Torquay"
+    ],
+    [
+     "Burton Albion",
+     "Burton"
+    ],
+    [
+     "Gainsborough Trinity",
+     "Gainsborough"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-efl-mccarthy-clubs",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club or national team Mick McCarthy has managed",
+   "answers": [
+    [
+     "Republic of Ireland",
+     "Ireland",
+     "Eire",
+     "ROI"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "Wolves",
+     "Wolverhampton"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Sunderland"
+    ],
+    [
+     "Millwall"
+    ],
+    [
+     "Cardiff City",
+     "Cardiff"
+    ],
+    [
+     "Blackpool"
+    ],
+    [
+     "APOEL",
+     "APOEL Nicosia"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-efl-holloway-clubs",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club Ian Holloway has managed",
+   "answers": [
+    [
+     "Blackpool"
+    ],
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    [
+     "Bristol Rovers",
+     "Rovers"
+    ],
+    [
+     "Plymouth Argyle",
+     "Plymouth"
+    ],
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Millwall"
+    ],
+    [
+     "Swindon Town",
+     "Swindon"
+    ],
+    [
+     "Grimsby Town",
+     "Grimsby"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-efl-bruce-clubs",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a club Steve Bruce has managed",
+   "answers": [
+    [
+     "Newcastle United",
+     "Newcastle"
+    ],
+    [
+     "Sunderland"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "Hull City",
+     "Hull"
+    ],
+    [
+     "Birmingham City",
+     "Birmingham"
+    ],
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "West Bromwich Albion",
+     "West Brom",
+     "WBA"
+    ],
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Wednesday"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    [
+     "Blackpool"
+    ],
+    [
+     "Sheffield United",
+     "Sheff Utd",
+     "Sheffield Utd"
+    ],
+    [
+     "Huddersfield Town",
+     "Huddersfield"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-efl-leeds-managers-since-2000",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a permanent Leeds United manager appointed since 2000 (as of November 2026)",
+   "answers": [
+    [
+     "Marcelo Bielsa",
+     "Bielsa"
+    ],
+    [
+     "Daniel Farke",
+     "Farke"
+    ],
+    [
+     "Jesse Marsch",
+     "Marsch"
+    ],
+    [
+     "Sam Allardyce",
+     "Allardyce",
+     "Big Sam"
+    ],
+    [
+     "Neil Warnock",
+     "Warnock"
+    ],
+    [
+     "Simon Grayson",
+     "Grayson"
+    ],
+    [
+     "Dennis Wise",
+     "Wise"
+    ],
+    [
+     "Terry Venables",
+     "Venables",
+     "El Tel"
+    ],
+    [
+     "Garry Monk",
+     "Monk"
+    ],
+    [
+     "Javi Gracia",
+     "Gracia"
+    ],
+    [
+     "Peter Reid",
+     "Reid"
+    ],
+    [
+     "Kevin Blackwell",
+     "Blackwell"
+    ],
+    [
+     "Gary McAllister",
+     "McAllister"
+    ],
+    [
+     "Eddie Gray"
+    ],
+    [
+     "Brian McDermott",
+     "McDermott"
+    ],
+    [
+     "Steve Evans",
+     "Evans"
+    ],
+    [
+     "Paul Heckingbottom",
+     "Heckingbottom",
+     "Hecky"
+    ],
+    [
+     "Thomas Christiansen",
+     "Christiansen"
+    ],
+    [
+     "Neil Redfearn",
+     "Redfearn"
+    ],
+    [
+     "Uwe Rosler",
+     "Rosler"
+    ],
+    [
+     "Dave Hockaday",
+     "Hockaday"
+    ],
+    [
+     "Darko Milanic",
+     "Milanic"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-efl-sunderland-managers-since-2000",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a permanent Sunderland manager appointed since 2000 (as of November 2026)",
+   "answers": [
+    [
+     "Roy Keane",
+     "Keane"
+    ],
+    [
+     "Sam Allardyce",
+     "Allardyce",
+     "Big Sam"
+    ],
+    [
+     "David Moyes",
+     "Moyes"
+    ],
+    [
+     "Paolo Di Canio",
+     "Di Canio"
+    ],
+    [
+     "Martin O'Neill",
+     "O'Neill"
+    ],
+    [
+     "Steve Bruce",
+     "Bruce"
+    ],
+    [
+     "Gus Poyet",
+     "Poyet"
+    ],
+    [
+     "Dick Advocaat",
+     "Advocaat"
+    ],
+    [
+     "Regis Le Bris",
+     "Le Bris"
+    ],
+    [
+     "Mick McCarthy",
+     "McCarthy"
+    ],
+    [
+     "Chris Coleman",
+     "Coleman"
+    ],
+    [
+     "Tony Mowbray",
+     "Mowbray"
+    ],
+    [
+     "Jack Ross",
+     "Ross"
+    ],
+    [
+     "Lee Johnson",
+     "Johnson"
+    ],
+    [
+     "Phil Parkinson",
+     "Parkinson"
+    ],
+    [
+     "Alex Neil",
+     "Neil"
+    ],
+    [
+     "Michael Beale",
+     "Beale"
+    ],
+    [
+     "Simon Grayson",
+     "Grayson"
+    ],
+    [
+     "Niall Quinn",
+     "Quinn"
+    ],
+    [
+     "Howard Wilkinson",
+     "Wilkinson"
+    ],
+    [
+     "Ricky Sbragia",
+     "Sbragia"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-efl-forest-managers-since-1993",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a permanent Nottingham Forest manager appointed since Brian Clough left in 1993 (as of November 2026)",
+   "answers": [
+    [
+     "Nuno Espirito Santo",
+     "Nuno"
+    ],
+    [
+     "Steve Cooper",
+     "Cooper"
+    ],
+    [
+     "Stuart Pearce",
+     "Pearce",
+     "Psycho"
+    ],
+    [
+     "Ange Postecoglou",
+     "Postecoglou",
+     "Ange"
+    ],
+    [
+     "Sean Dyche",
+     "Dyche"
+    ],
+    [
+     "Oliver Glasner",
+     "Glasner"
+    ],
+    [
+     "Martin O'Neill",
+     "O'Neill"
+    ],
+    [
+     "Billy Davies",
+     "Davies"
+    ],
+    [
+     "Frank Clark",
+     "Clark"
+    ],
+    [
+     "Steve McClaren",
+     "McClaren"
+    ],
+    [
+     "Ron Atkinson",
+     "Atkinson",
+     "Big Ron"
+    ],
+    [
+     "David Platt",
+     "Platt"
+    ],
+    [
+     "Chris Hughton",
+     "Hughton"
+    ],
+    [
+     "Aitor Karanka",
+     "Karanka"
+    ],
+    [
+     "Vitor Pereira",
+     "Pereira"
+    ],
+    [
+     "Alex McLeish",
+     "McLeish"
+    ],
+    [
+     "Gary Megson",
+     "Megson"
+    ],
+    [
+     "Dave Bassett",
+     "Bassett",
+     "Harry Bassett"
+    ],
+    [
+     "Joe Kinnear",
+     "Kinnear"
+    ],
+    [
+     "Paul Hart",
+     "Hart"
+    ],
+    [
+     "Colin Calderwood",
+     "Calderwood"
+    ],
+    [
+     "Steve Cotterill",
+     "Cotterill"
+    ],
+    [
+     "Sabri Lamouchi",
+     "Lamouchi"
+    ],
+    [
+     "Mark Warburton",
+     "Warburton"
+    ],
+    [
+     "Dougie Freedman",
+     "Freedman"
+    ],
+    [
+     "Sean O'Driscoll",
+     "O'Driscoll"
+    ],
+    [
+     "Philippe Montanier",
+     "Montanier"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-efl-championship-pots",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a winner of the EFL Championship Player of the Season award (2005-06 to 2025-26)",
+   "answers": [
+    [
+     "Ollie Watkins",
+     "Watkins"
+    ],
+    [
+     "Aleksandar Mitrovic",
+     "Mitrovic",
+     "Mitro"
+    ],
+    [
+     "Teemu Pukki",
+     "Pukki"
+    ],
+    [
+     "Danny Ings",
+     "Ings"
+    ],
+    [
+     "Rickie Lambert",
+     "Lambert"
+    ],
+    [
+     "Patrick Bamford",
+     "Bamford"
+    ],
+    [
+     "Crysencio Summerville",
+     "Summerville"
+    ],
+    [
+     "Kevin Phillips",
+     "Phillips"
+    ],
+    [
+     "Adel Taarabt",
+     "Taarabt"
+    ],
+    [
+     "Emiliano Buendia",
+     "Buendia"
+    ],
+    [
+     "Kevin Nolan",
+     "Nolan"
+    ],
+    [
+     "Phil Jagielka",
+     "Jagielka"
+    ],
+    [
+     "Ryan Sessegnon",
+     "Sessegnon"
+    ],
+    [
+     "Chuba Akpom",
+     "Akpom"
+    ],
+    [
+     "Hayden Hackney",
+     "Hackney"
+    ],
+    [
+     "Gustavo Hamer",
+     "Hamer"
+    ],
+    [
+     "Anthony Knockaert",
+     "Knockaert"
+    ],
+    [
+     "Andre Gray",
+     "Gray"
+    ],
+    [
+     "Matej Vydra",
+     "Vydra"
+    ],
+    [
+     "Sylvan Ebanks-Blake",
+     "Ebanks-Blake"
+    ],
+    [
+     "Jason Koumas",
+     "Koumas"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-efl-administration",
+   "tags": [
+    "efl"
+   ],
+   "text": "Name a Football League (EFL) club that has entered administration while a league member (up to November 2026)",
+   "answers": [
+    [
+     "Portsmouth",
+     "Pompey"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Derby County",
+     "Derby"
+    ],
+    [
+     "Bolton Wanderers",
+     "Bolton"
+    ],
+    [
+     "Sheffield Wednesday",
+     "Sheff Wed",
+     "Wednesday"
+    ],
+    [
+     "Southampton",
+     "Saints"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
+    ],
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Wigan Athletic",
+     "Wigan"
+    ],
+    [
+     "Coventry City",
+     "Coventry"
+    ],
+    [
+     "Luton Town",
+     "Luton"
+    ],
+    [
+     "Bury"
+    ],
+    [
+     "Ipswich Town",
+     "Ipswich"
+    ],
+    [
+     "Queens Park Rangers",
+     "QPR"
+    ],
+    [
+     "Wimbledon",
+     "Wimbledon FC"
+    ],
+    [
+     "Middlesbrough",
+     "Boro"
+    ],
+    [
+     "Plymouth Argyle",
+     "Plymouth"
+    ],
+    [
+     "Bradford City",
+     "Bradford"
+    ],
+    [
+     "Millwall"
+    ],
+    [
+     "Charlton Athletic",
+     "Charlton"
+    ],
+    [
+     "Bournemouth",
+     "AFC Bournemouth"
+    ],
+    [
+     "Hull City",
+     "Hull"
+    ],
+    [
+     "Notts County",
+     "Notts"
+    ],
+    [
+     "Rotherham United",
+     "Rotherham"
+    ],
+    [
+     "Port Vale"
+    ],
+    [
+     "Wrexham"
+    ],
+    [
+     "Darlington"
+    ],
+    [
+     "Barnsley"
+    ],
+    [
+     "Swindon Town",
+     "Swindon"
+    ],
+    [
+     "Stockport County",
+     "Stockport"
+    ],
+    [
+     "Oldham Athletic",
+     "Oldham"
+    ],
+    [
+     "York City",
+     "York"
+    ],
+    [
+     "Chester City",
+     "Chester"
+    ],
+    [
+     "Cambridge United"
+    ],
+    [
+     "Boston United"
+    ],
+    [
+     "Doncaster Rovers",
+     "Doncaster"
+    ],
+    [
+     "Lincoln City",
+     "Lincoln"
+    ],
+    [
+     "Halifax Town",
+     "Halifax"
+    ],
+    [
+     "Tranmere Rovers",
+     "Tranmere"
+    ],
+    [
+     "Gillingham"
+    ],
+    [
+     "Exeter City",
+     "Exeter"
+    ],
+    [
+     "Hartlepool United",
+     "Hartlepool"
+    ],
+    [
+     "Barnet"
+    ],
+    [
+     "Walsall"
+    ],
+    [
+     "Northampton Town",
+     "Northampton"
+    ],
+    [
+     "Chelsea"
+    ],
+    [
+     "Aldershot",
+     "Aldershot Town"
+    ],
+    [
+     "Maidstone United",
+     "Maidstone"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-sco-dundee-utd-managers",
+   "tags": [
+    "scotland"
+   ],
+   "text": "Name a permanent Dundee United manager since 1959 (as of November 2026)",
+   "answers": [
+    [
+     "Jim McLean"
+    ],
+    [
+     "Craig Levein",
+     "Levein"
+    ],
+    [
+     "Paul Sturrock",
+     "Sturrock"
+    ],
+    [
+     "Jim Goodwin",
+     "Goodwin"
+    ],
+    [
+     "Robbie Neilson",
+     "Neilson"
+    ],
+    [
+     "Ivan Golac",
+     "Golac"
+    ],
+    [
+     "Peter Houston",
+     "Houston"
+    ],
+    [
+     "Jackie McNamara",
+     "McNamara"
+    ],
+    [
+     "Jerry Kerr",
+     "Kerr"
+    ],
+    [
+     "Tommy McLean"
+    ],
+    [
+     "Ray McKinnon",
+     "McKinnon"
+    ],
+    [
+     "Craig Brewster",
+     "Brewster"
+    ],
+    [
+     "Micky Mellon",
+     "Mellon"
+    ],
+    [
+     "Tam Courts",
+     "Courts",
+     "Thomas Courts"
+    ],
+    [
+     "Jack Ross",
+     "Ross"
+    ],
+    [
+     "Liam Fox",
+     "Fox"
+    ],
+    [
+     "Mixu Paatelainen",
+     "Paatelainen"
+    ],
+    [
+     "Csaba Laszlo",
+     "Laszlo"
+    ],
+    [
+     "Ian McCall",
+     "McCall"
+    ],
+    [
+     "Alex Smith",
+     "Smith"
+    ],
+    [
+     "Billy Kirkwood",
+     "Kirkwood"
+    ],
+    [
+     "Gordon Chisholm",
+     "Chisholm"
+    ],
+    [
+     "Paul Hegarty",
+     "Hegarty"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-sco-old-firm-managers-since-2010",
+   "tags": [
+    "scotland"
+   ],
+   "text": "Name a manager (interims included) of Celtic or Rangers since 2010 (as of November 2026)",
+   "answers": [
+    [
+     "Brendan Rodgers",
+     "Rodgers"
+    ],
+    [
+     "Steven Gerrard",
+     "Gerrard",
+     "Stevie G"
+    ],
+    [
+     "Ange Postecoglou",
+     "Postecoglou",
+     "Ange"
+    ],
+    [
+     "Neil Lennon",
+     "Lennon"
+    ],
+    [
+     "Ally McCoist",
+     "McCoist",
+     "Coisty"
+    ],
+    [
+     "Martin O'Neill",
+     "O'Neill"
+    ],
+    [
+     "Walter Smith"
+    ],
+    [
+     "Giovanni van Bronckhorst",
+     "Van Bronckhorst",
+     "Gio"
+    ],
+    [
+     "Philippe Clement",
+     "Clement"
+    ],
+    [
+     "Michael Beale",
+     "Beale"
+    ],
+    [
+     "Mark Warburton",
+     "Warburton"
+    ],
+    [
+     "Ronny Deila",
+     "Deila"
+    ],
+    [
+     "Russell Martin"
+    ],
+    [
+     "Derek McInnes",
+     "McInnes"
+    ],
+    [
+     "Pedro Caixinha",
+     "Caixinha"
+    ],
+    [
+     "Barry Ferguson",
+     "Ferguson"
+    ],
+    [
+     "Danny Rohl",
+     "Rohl"
+    ],
+    [
+     "Wilfried Nancy",
+     "Nancy"
+    ],
+    [
+     "Tony Mowbray",
+     "Mowbray"
+    ],
+    [
+     "Stuart McCall",
+     "McCall"
+    ],
+    [
+     "Graeme Murty",
+     "Murty"
+    ],
+    [
+     "John Kennedy",
+     "Kennedy"
+    ],
+    [
+     "Kenny McDowall",
+     "McDowall"
+    ],
+    [
+     "Steven Davis",
+     "Davis"
+    ],
+    [
+     "Shaun Maloney",
+     "Maloney"
+    ],
+    [
+     "Jimmy Nicholl",
+     "Nicholl"
+    ],
+    [
+     "Steven Smith"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-ucl-2022-final",
+   "tags": [
+    "ucl",
+    "20s"
+   ],
+   "text": "Name a player in the 2022 Champions League final, Liverpool v Real Madrid",
+   "answers": [
+    [
+     "Mohamed Salah",
+     "Salah",
+     "Mo Salah"
+    ],
+    [
+     "Vinícius Júnior",
+     "Vinicius",
+     "Vini Jr",
+     "Vini"
+    ],
+    [
+     "Karim Benzema",
+     "Benzema"
+    ],
+    [
+     "Luka Modrić",
+     "Modric"
+    ],
+    [
+     "Toni Kroos",
+     "Kroos"
+    ],
+    [
+     "Thibaut Courtois",
+     "Courtois"
+    ],
+    [
+     "Virgil van Dijk",
+     "Van Dijk",
+     "VVD"
+    ],
+    [
+     "Trent Alexander-Arnold",
+     "Alexander-Arnold",
+     "Trent",
+     "TAA"
+    ],
+    [
+     "Sadio Mané",
+     "Mane"
+    ],
+    "Casemiro",
+    [
+     "Alisson",
+     "Alisson Becker"
+    ],
+    [
+     "Federico Valverde",
+     "Valverde",
+     "Fede Valverde"
+    ],
+    [
+     "Andrew Robertson",
+     "Robertson",
+     "Andy Robertson"
+    ],
+    [
+     "Jordan Henderson",
+     "Henderson"
+    ],
+    "Fabinho",
+    [
+     "Thiago Alcântara",
+     "Thiago",
+     "Thiago Alcantara"
+    ],
+    [
+     "Luis Díaz",
+     "Diaz"
+    ],
+    [
+     "Diogo Jota",
+     "Jota"
+    ],
+    [
+     "Roberto Firmino",
+     "Firmino"
+    ],
+    [
+     "Dani Carvajal",
+     "Carvajal"
+    ],
+    [
+     "David Alaba",
+     "Alaba"
+    ],
+    [
+     "Éder Militão",
+     "Militao"
+    ],
+    [
+     "Ferland Mendy",
+     "Mendy"
+    ],
+    [
+     "Eduardo Camavinga",
+     "Camavinga"
+    ],
+    "Rodrygo",
+    [
+     "Ibrahima Konaté",
+     "Konate"
+    ],
+    [
+     "Naby Keïta",
+     "Keita"
+    ],
+    [
+     "Dani Ceballos",
+     "Ceballos"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-ucl-2024-final",
+   "tags": [
+    "ucl",
+    "20s"
+   ],
+   "text": "Name a player in the 2024 Champions League final, Dortmund v Real Madrid",
+   "answers": [
+    [
+     "Jude Bellingham",
+     "Bellingham"
+    ],
+    [
+     "Vinícius Júnior",
+     "Vinicius",
+     "Vini Jr",
+     "Vini"
+    ],
+    [
+     "Toni Kroos",
+     "Kroos"
+    ],
+    [
+     "Dani Carvajal",
+     "Carvajal"
+    ],
+    [
+     "Luka Modrić",
+     "Modric"
+    ],
+    [
+     "Jadon Sancho",
+     "Sancho"
+    ],
+    [
+     "Thibaut Courtois",
+     "Courtois"
+    ],
+    [
+     "Antonio Rüdiger",
+     "Rudiger"
+    ],
+    [
+     "Mats Hummels",
+     "Hummels"
+    ],
+    [
+     "Marco Reus",
+     "Reus"
+    ],
+    [
+     "Niclas Füllkrug",
+     "Fullkrug"
+    ],
+    [
+     "Federico Valverde",
+     "Valverde",
+     "Fede Valverde"
+    ],
+    [
+     "Eduardo Camavinga",
+     "Camavinga"
+    ],
+    "Rodrygo",
+    "Joselu",
+    [
+     "Gregor Kobel",
+     "Kobel"
+    ],
+    [
+     "Julian Brandt",
+     "Brandt"
+    ],
+    [
+     "Marcel Sabitzer",
+     "Sabitzer"
+    ],
+    "Emre Can",
+    [
+     "Nacho",
+     "Nacho Fernandez"
+    ],
+    [
+     "Ferland Mendy",
+     "Mendy"
+    ],
+    [
+     "Éder Militão",
+     "Militao"
+    ],
+    [
+     "Lucas Vázquez",
+     "Lucas Vazquez",
+     "Vazquez"
+    ],
+    [
+     "Karim Adeyemi",
+     "Adeyemi"
+    ],
+    [
+     "Nico Schlotterbeck",
+     "Schlotterbeck"
+    ],
+    [
+     "Ian Maatsen",
+     "Maatsen"
+    ],
+    [
+     "Donyell Malen",
+     "Malen"
+    ],
+    [
+     "Sébastien Haller",
+     "Haller"
+    ],
+    [
+     "Julian Ryerson",
+     "Ryerson"
+    ],
+    [
+     "Jamie Bynoe-Gittens",
+     "Bynoe-Gittens",
+     "Gittens"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-ucl-2025-final",
+   "tags": [
+    "ucl",
+    "20s"
+   ],
+   "text": "Name a player in the 2025 Champions League final, PSG v Inter Milan",
+   "answers": [
+    [
+     "Ousmane Dembélé",
+     "Dembele"
+    ],
+    [
+     "Achraf Hakimi",
+     "Hakimi"
+    ],
+    [
+     "Désiré Doué",
+     "Doue"
+    ],
+    [
+     "Khvicha Kvaratskhelia",
+     "Kvaratskhelia",
+     "Kvara"
+    ],
+    [
+     "Gianluigi Donnarumma",
+     "Donnarumma"
+    ],
+    [
+     "Lautaro Martínez",
+     "Lautaro",
+     "Martinez"
+    ],
+    "Marquinhos",
+    "Vitinha",
+    [
+     "João Neves",
+     "Joao Neves",
+     "Neves"
+    ],
+    [
+     "Nicolò Barella",
+     "Barella"
+    ],
+    [
+     "Marcus Thuram",
+     "Thuram"
+    ],
+    [
+     "Hakan Çalhanoğlu",
+     "Calhanoglu"
+    ],
+    [
+     "Alessandro Bastoni",
+     "Bastoni"
+    ],
+    [
+     "Denzel Dumfries",
+     "Dumfries"
+    ],
+    [
+     "Yann Sommer",
+     "Sommer"
+    ],
+    [
+     "Henrikh Mkhitaryan",
+     "Mkhitaryan"
+    ],
+    [
+     "Nuno Mendes",
+     "Mendes"
+    ],
+    [
+     "Fabián Ruiz",
+     "Fabian Ruiz",
+     "Ruiz"
+    ],
+    [
+     "Bradley Barcola",
+     "Barcola"
+    ],
+    [
+     "Gonçalo Ramos",
+     "Goncalo Ramos",
+     "Ramos"
+    ],
+    [
+     "Benjamin Pavard",
+     "Pavard"
+    ],
+    [
+     "Francesco Acerbi",
+     "Acerbi"
+    ],
+    [
+     "Federico Dimarco",
+     "Dimarco"
+    ],
+    [
+     "Willian Pacho",
+     "Pacho"
+    ],
+    [
+     "Warren Zaïre-Emery",
+     "Zaire-Emery"
+    ],
+    [
+     "Lucas Hernandez",
+     "Hernandez"
+    ],
+    [
+     "Senny Mayulu",
+     "Mayulu"
+    ],
+    "Carlos Augusto",
+    [
+     "Yann Aurel Bisseck",
+     "Bisseck"
+    ],
+    [
+     "Matteo Darmian",
+     "Darmian"
+    ],
+    [
+     "Kristjan Asllani",
+     "Asllani"
+    ],
+    [
+     "Nicola Zalewski",
+     "Zalewski"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-europe-liverpool-final-opponents",
+   "tags": [
+    "europe",
+    "ucl"
+   ],
+   "text": "Name a club Liverpool have faced in a European final (European Cup/Champions League, UEFA Cup/Europa League, Cup Winners' Cup or UEFA Super Cup, up to November 2026)",
+   "answers": [
+    [
+     "Real Madrid",
+     "Madrid"
+    ],
+    [
+     "AC Milan",
+     "Milan"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    "Chelsea",
+    "Sevilla",
+    [
+     "Roma",
+     "AS Roma"
+    ],
+    [
+     "Juventus",
+     "Juve"
+    ],
+    [
+     "Borussia Dortmund",
+     "Dortmund",
+     "BVB"
+    ],
+    [
+     "Bayern Munich",
+     "Bayern",
+     "Bayern Munchen"
+    ],
+    [
+     "Club Brugge",
+     "Brugge",
+     "Bruges"
+    ],
+    [
+     "Borussia Mönchengladbach",
+     "Monchengladbach",
+     "Gladbach",
+     "Borussia Monchengladbach"
+    ],
+    [
+     "Alavés",
+     "Alaves",
+     "Deportivo Alaves"
+    ],
+    [
+     "CSKA Moscow",
+     "CSKA"
+    ],
+    [
+     "Hamburg",
+     "Hamburger SV",
+     "Hamburg SV"
+    ],
+    "Anderlecht"
+   ]
+  },
+  {
+   "id": "fb8-europe-2021-europa-final",
+   "tags": [
+    "europe",
+    "20s"
+   ],
+   "text": "Name a player in the 2021 Europa League final, Villarreal v Man Utd",
+   "answers": [
+    [
+     "Bruno Fernandes",
+     "Fernandes",
+     "Bruno"
+    ],
+    [
+     "Marcus Rashford",
+     "Rashford"
+    ],
+    [
+     "Paul Pogba",
+     "Pogba"
+    ],
+    [
+     "David de Gea",
+     "De Gea"
+    ],
+    [
+     "Edinson Cavani",
+     "Cavani"
+    ],
+    [
+     "Mason Greenwood",
+     "Greenwood"
+    ],
+    [
+     "Luke Shaw",
+     "Shaw"
+    ],
+    [
+     "Scott McTominay",
+     "McTominay"
+    ],
+    [
+     "Juan Mata",
+     "Mata"
+    ],
+    "Gerard Moreno",
+    "Fred",
+    [
+     "Aaron Wan-Bissaka",
+     "Wan-Bissaka"
+    ],
+    [
+     "Victor Lindelöf",
+     "Lindelof"
+    ],
+    [
+     "Eric Bailly",
+     "Bailly"
+    ],
+    [
+     "Daniel James",
+     "Dan James"
+    ],
+    [
+     "Alex Telles",
+     "Telles"
+    ],
+    [
+     "Axel Tuanzebe",
+     "Tuanzebe"
+    ],
+    [
+     "Gerónimo Rulli",
+     "Rulli"
+    ],
+    [
+     "Raúl Albiol",
+     "Albiol"
+    ],
+    [
+     "Dani Parejo",
+     "Parejo"
+    ],
+    "Pau Torres",
+    [
+     "Carlos Bacca",
+     "Bacca"
+    ],
+    [
+     "Francis Coquelin",
+     "Coquelin"
+    ],
+    [
+     "Étienne Capoue",
+     "Capoue"
+    ],
+    [
+     "Juan Foyth",
+     "Foyth"
+    ],
+    [
+     "Paco Alcácer",
+     "Alcacer"
+    ],
+    [
+     "Manu Trigueros",
+     "Trigueros"
+    ],
+    [
+     "Alfonso Pedraza",
+     "Pedraza"
+    ],
+    [
+     "Yéremy Pino",
+     "Yeremy Pino",
+     "Pino"
+    ],
+    "Alberto Moreno",
+    "Mario Gaspar",
+    [
+     "Moi Gómez",
+     "Moi Gomez"
+    ],
+    [
+     "Dani Raba",
+     "Raba"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-europe-2023-conference-final",
+   "tags": [
+    "europe",
+    "20s"
+   ],
+   "text": "Name a player in the 2023 Conference League final, Fiorentina v West Ham",
+   "answers": [
+    [
+     "Declan Rice",
+     "Rice"
+    ],
+    [
+     "Jarrod Bowen",
+     "Bowen"
+    ],
+    [
+     "Lucas Paquetá",
+     "Paqueta"
+    ],
+    [
+     "Michail Antonio",
+     "Antonio"
+    ],
+    [
+     "Kurt Zouma",
+     "Zouma"
+    ],
+    [
+     "Tomáš Souček",
+     "Soucek"
+    ],
+    [
+     "Saïd Benrahma",
+     "Benrahma"
+    ],
+    [
+     "Alphonse Areola",
+     "Areola"
+    ],
+    [
+     "Emerson Palmieri",
+     "Emerson"
+    ],
+    [
+     "Vladimír Coufal",
+     "Coufal"
+    ],
+    [
+     "Nayef Aguerd",
+     "Aguerd"
+    ],
+    [
+     "Pablo Fornals",
+     "Fornals"
+    ],
+    [
+     "Angelo Ogbonna",
+     "Ogbonna"
+    ],
+    [
+     "Thilo Kehrer",
+     "Kehrer"
+    ],
+    [
+     "Giacomo Bonaventura",
+     "Bonaventura"
+    ],
+    [
+     "Luka Jović",
+     "Jovic"
+    ],
+    [
+     "Sofyan Amrabat",
+     "Amrabat"
+    ],
+    [
+     "Nicolás González",
+     "Nico Gonzalez",
+     "Gonzalez"
+    ],
+    [
+     "Nikola Milenković",
+     "Milenkovic"
+    ],
+    [
+     "Cristiano Biraghi",
+     "Biraghi"
+    ],
+    [
+     "Pietro Terracciano",
+     "Terracciano"
+    ],
+    [
+     "Christian Kouamé",
+     "Kouame"
+    ],
+    [
+     "Rolando Mandragora",
+     "Mandragora"
+    ],
+    [
+     "Arthur Cabral",
+     "Cabral"
+    ],
+    [
+     "Antonín Barák",
+     "Barak"
+    ],
+    [
+     "Dodô",
+     "Dodo"
+    ],
+    [
+     "Luca Ranieri",
+     "Ranieri"
+    ],
+    "Igor",
+    [
+     "Riccardo Saponara",
+     "Saponara"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-europe-2025-conference-final",
+   "tags": [
+    "europe",
+    "20s"
+   ],
+   "text": "Name a player in the 2025 Conference League final, Real Betis v Chelsea",
+   "answers": [
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Enzo Fernández",
+     "Enzo",
+     "Enzo Fernandez"
+    ],
+    [
+     "Jadon Sancho",
+     "Sancho"
+    ],
+    [
+     "Moisés Caicedo",
+     "Caicedo"
+    ],
+    [
+     "Nicolas Jackson",
+     "Jackson"
+    ],
+    "Antony",
+    "Isco",
+    [
+     "Marc Cucurella",
+     "Cucurella"
+    ],
+    [
+     "Reece James",
+     "James"
+    ],
+    [
+     "Noni Madueke",
+     "Madueke"
+    ],
+    [
+     "Pedro Neto",
+     "Neto"
+    ],
+    [
+     "Levi Colwill",
+     "Colwill"
+    ],
+    [
+     "Trevoh Chalobah",
+     "Chalobah"
+    ],
+    [
+     "Malo Gusto",
+     "Gusto"
+    ],
+    [
+     "Filip Jørgensen",
+     "Jorgensen"
+    ],
+    [
+     "Benoît Badiashile",
+     "Badiashile"
+    ],
+    [
+     "Kiernan Dewsbury-Hall",
+     "Dewsbury-Hall"
+    ],
+    [
+     "Marc Guiu",
+     "Guiu"
+    ],
+    [
+     "Abde Ezzalzouli",
+     "Abde",
+     "Ezzalzouli"
+    ],
+    [
+     "Marc Bartra",
+     "Bartra"
+    ],
+    [
+     "Giovani Lo Celso",
+     "Lo Celso"
+    ],
+    [
+     "Pablo Fornals",
+     "Fornals"
+    ],
+    [
+     "Adrián",
+     "Adrian"
+    ],
+    [
+     "Cédric Bakambu",
+     "Bakambu"
+    ],
+    [
+     "Youssouf Sabaly",
+     "Sabaly"
+    ],
+    "Natan",
+    "Ricardo Rodriguez",
+    [
+     "Johnny Cardoso",
+     "Cardoso"
+    ],
+    [
+     "Jesús Rodríguez",
+     "Jesus Rodriguez"
+    ],
+    [
+     "Romain Perraud",
+     "Perraud"
+    ],
+    [
+     "Aitor Ruibal",
+     "Ruibal"
+    ],
+    [
+     "Sergi Altimira",
+     "Altimira"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-europe-english-trophy-managers",
+   "tags": [
+    "europe",
+    "ucl"
+   ],
+   "text": "Name a manager who has won a major European trophy with an English club (European Cup/Champions League, Cup Winners' Cup, Fairs Cup, UEFA Cup/Europa League or Conference League, up to 2025)",
+   "answers": [
+    [
+     "Alex Ferguson",
+     "Sir Alex Ferguson",
+     "Fergie",
+     "Ferguson"
+    ],
+    [
+     "Pep Guardiola",
+     "Guardiola",
+     "Pep"
+    ],
+    [
+     "Jürgen Klopp",
+     "Klopp"
+    ],
+    [
+     "Rafael Benítez",
+     "Rafa Benitez",
+     "Benitez",
+     "Rafa"
+    ],
+    [
+     "José Mourinho",
+     "Mourinho",
+     "Jose Mourinho"
+    ],
+    [
+     "Bob Paisley",
+     "Paisley"
+    ],
+    [
+     "Brian Clough",
+     "Clough"
+    ],
+    [
+     "Thomas Tuchel",
+     "Tuchel"
+    ],
+    [
+     "Matt Busby",
+     "Sir Matt Busby",
+     "Busby"
+    ],
+    [
+     "Roberto Di Matteo",
+     "Di Matteo"
+    ],
+    [
+     "Bill Shankly",
+     "Shankly"
+    ],
+    [
+     "Ange Postecoglou",
+     "Postecoglou",
+     "Ange"
+    ],
+    [
+     "David Moyes",
+     "Moyes"
+    ],
+    [
+     "Enzo Maresca",
+     "Maresca"
+    ],
+    [
+     "Maurizio Sarri",
+     "Sarri"
+    ],
+    [
+     "Gianluca Vialli",
+     "Vialli"
+    ],
+    [
+     "Gérard Houllier",
+     "Houllier",
+     "Gerard Houllier"
+    ],
+    [
+     "George Graham",
+     "Graham"
+    ],
+    [
+     "Don Revie",
+     "Revie"
+    ],
+    [
+     "Bobby Robson",
+     "Sir Bobby Robson",
+     "Robson"
+    ],
+    [
+     "Bill Nicholson",
+     "Nicholson"
+    ],
+    [
+     "Joe Fagan",
+     "Fagan"
+    ],
+    [
+     "Howard Kendall",
+     "Kendall"
+    ],
+    [
+     "Ron Greenwood",
+     "Greenwood"
+    ],
+    [
+     "Tony Barton",
+     "Barton"
+    ],
+    [
+     "Bertie Mee",
+     "Mee"
+    ],
+    [
+     "Joe Mercer",
+     "Mercer"
+    ],
+    [
+     "Dave Sexton",
+     "Sexton"
+    ],
+    [
+     "Keith Burkinshaw",
+     "Burkinshaw"
+    ],
+    [
+     "Joe Harvey",
+     "Harvey"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-ucl-british-clubs-group-stage",
+   "tags": [
+    "ucl"
+   ],
+   "text": "Name a British club that has played in the Champions League group stage or league phase (1992-93 to 2025-26)",
+   "answers": [
+    [
+     "Manchester United",
+     "Man Utd",
+     "Man United",
+     "United"
+    ],
+    "Liverpool",
+    "Chelsea",
+    "Arsenal",
+    [
+     "Manchester City",
+     "Man City",
+     "City"
+    ],
+    [
+     "Tottenham Hotspur",
+     "Tottenham",
+     "Spurs"
+    ],
+    "Celtic",
+    [
+     "Newcastle United",
+     "Newcastle"
+    ],
+    "Rangers",
+    [
+     "Leicester City",
+     "Leicester"
+    ],
+    [
+     "Aston Villa",
+     "Villa"
+    ],
+    [
+     "Leeds United",
+     "Leeds"
+    ],
+    [
+     "Blackburn Rovers",
+     "Blackburn"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-cups-2020-fa-cup-final",
+   "tags": [
+    "cups",
+    "20s"
+   ],
+   "text": "Name a player in the 2020 FA Cup final, Arsenal v Chelsea",
+   "answers": [
+    [
+     "Pierre-Emerick Aubameyang",
+     "Aubameyang",
+     "Auba"
+    ],
+    [
+     "Christian Pulisic",
+     "Pulisic"
+    ],
+    [
+     "Alexandre Lacazette",
+     "Lacazette"
+    ],
+    [
+     "David Luiz",
+     "Luiz"
+    ],
+    [
+     "Mason Mount",
+     "Mount"
+    ],
+    [
+     "Olivier Giroud",
+     "Giroud"
+    ],
+    "Jorginho",
+    [
+     "Granit Xhaka",
+     "Xhaka"
+    ],
+    [
+     "César Azpilicueta",
+     "Azpilicueta",
+     "Azpi"
+    ],
+    [
+     "Nicolas Pépé",
+     "Pepe"
+    ],
+    [
+     "Emiliano Martínez",
+     "Emi Martinez",
+     "Martinez"
+    ],
+    [
+     "Héctor Bellerín",
+     "Bellerin"
+    ],
+    [
+     "Mateo Kovačić",
+     "Kovacic"
+    ],
+    [
+     "Reece James",
+     "James"
+    ],
+    [
+     "Antonio Rüdiger",
+     "Rudiger"
+    ],
+    [
+     "Kieran Tierney",
+     "Tierney"
+    ],
+    [
+     "Dani Ceballos",
+     "Ceballos"
+    ],
+    [
+     "Ainsley Maitland-Niles",
+     "Maitland-Niles"
+    ],
+    [
+     "Tammy Abraham",
+     "Abraham"
+    ],
+    [
+     "Callum Hudson-Odoi",
+     "Hudson-Odoi"
+    ],
+    "Pedro",
+    [
+     "Ross Barkley",
+     "Barkley"
+    ],
+    [
+     "Marcos Alonso",
+     "Alonso"
+    ],
+    [
+     "Kurt Zouma",
+     "Zouma"
+    ],
+    [
+     "Willy Caballero",
+     "Caballero"
+    ],
+    [
+     "Andreas Christensen",
+     "Christensen"
+    ],
+    [
+     "Rob Holding",
+     "Holding"
+    ],
+    [
+     "Sead Kolašinac",
+     "Kolasinac"
+    ],
+    [
+     "Eddie Nketiah",
+     "Nketiah"
+    ],
+    [
+     "Sokratis Papastathopoulos",
+     "Sokratis",
+     "Papastathopoulos"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-cups-2021-fa-cup-final",
+   "tags": [
+    "cups",
+    "20s"
+   ],
+   "text": "Name a player in the 2021 FA Cup final, Chelsea v Leicester City",
+   "answers": [
+    [
+     "Jamie Vardy",
+     "Vardy"
+    ],
+    [
+     "Youri Tielemans",
+     "Tielemans"
+    ],
+    [
+     "Mason Mount",
+     "Mount"
+    ],
+    [
+     "N'Golo Kanté",
+     "Kante"
+    ],
+    [
+     "Kasper Schmeichel",
+     "Schmeichel"
+    ],
+    [
+     "Timo Werner",
+     "Werner"
+    ],
+    [
+     "Kai Havertz",
+     "Havertz"
+    ],
+    [
+     "James Maddison",
+     "Maddison"
+    ],
+    [
+     "Kelechi Iheanacho",
+     "Iheanacho"
+    ],
+    [
+     "Wilfred Ndidi",
+     "Ndidi"
+    ],
+    [
+     "Christian Pulisic",
+     "Pulisic"
+    ],
+    [
+     "Olivier Giroud",
+     "Giroud"
+    ],
+    [
+     "Ben Chilwell",
+     "Chilwell"
+    ],
+    [
+     "Thiago Silva",
+     "Silva"
+    ],
+    [
+     "César Azpilicueta",
+     "Azpilicueta",
+     "Azpi"
+    ],
+    [
+     "Reece James",
+     "James"
+    ],
+    [
+     "Antonio Rüdiger",
+     "Rudiger"
+    ],
+    [
+     "Hakim Ziyech",
+     "Ziyech"
+    ],
+    "Jorginho",
+    [
+     "Kepa Arrizabalaga",
+     "Kepa",
+     "Arrizabalaga"
+    ],
+    [
+     "Callum Hudson-Odoi",
+     "Hudson-Odoi"
+    ],
+    [
+     "Marcos Alonso",
+     "Alonso"
+    ],
+    [
+     "Marc Albrighton",
+     "Albrighton"
+    ],
+    [
+     "Jonny Evans",
+     "Evans"
+    ],
+    [
+     "Çağlar Söyüncü",
+     "Soyuncu"
+    ],
+    [
+     "Timothy Castagne",
+     "Castagne"
+    ],
+    [
+     "Wesley Fofana",
+     "Fofana"
+    ],
+    [
+     "Ayoze Pérez",
+     "Ayoze",
+     "Perez"
+    ],
+    [
+     "Wes Morgan",
+     "Morgan"
+    ],
+    [
+     "Hamza Choudhury",
+     "Choudhury"
+    ],
+    [
+     "Luke Thomas",
+     "Thomas"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-cups-2022-fa-cup-final",
+   "tags": [
+    "cups",
+    "20s"
+   ],
+   "text": "Name a player in the 2022 FA Cup final, Chelsea v Liverpool",
+   "answers": [
+    [
+     "Mohamed Salah",
+     "Salah",
+     "Mo Salah"
+    ],
+    [
+     "Virgil van Dijk",
+     "Van Dijk",
+     "VVD"
+    ],
+    [
+     "Sadio Mané",
+     "Mane"
+    ],
+    [
+     "Trent Alexander-Arnold",
+     "Alexander-Arnold",
+     "Trent",
+     "TAA"
+    ],
+    [
+     "Alisson",
+     "Alisson Becker"
+    ],
+    [
+     "Mason Mount",
+     "Mount"
+    ],
+    [
+     "Romelu Lukaku",
+     "Lukaku"
+    ],
+    [
+     "Jordan Henderson",
+     "Henderson"
+    ],
+    [
+     "Andy Robertson",
+     "Robertson",
+     "Andrew Robertson"
+    ],
+    [
+     "Luis Díaz",
+     "Diaz"
+    ],
+    "Jorginho",
+    [
+     "Thiago Alcântara",
+     "Thiago",
+     "Thiago Alcantara"
+    ],
+    [
+     "N'Golo Kanté",
+     "Kante"
+    ],
+    [
+     "Roberto Firmino",
+     "Firmino"
+    ],
+    [
+     "Diogo Jota",
+     "Jota"
+    ],
+    [
+     "Thiago Silva",
+     "Silva"
+    ],
+    [
+     "Antonio Rüdiger",
+     "Rudiger"
+    ],
+    [
+     "Reece James",
+     "James"
+    ],
+    [
+     "James Milner",
+     "Milner"
+    ],
+    [
+     "Mateo Kovačić",
+     "Kovacic"
+    ],
+    [
+     "Christian Pulisic",
+     "Pulisic"
+    ],
+    [
+     "Édouard Mendy",
+     "Mendy",
+     "Edouard Mendy"
+    ],
+    [
+     "César Azpilicueta",
+     "Azpilicueta",
+     "Azpi"
+    ],
+    [
+     "Marcos Alonso",
+     "Alonso"
+    ],
+    [
+     "Hakim Ziyech",
+     "Ziyech"
+    ],
+    [
+     "Ross Barkley",
+     "Barkley"
+    ],
+    [
+     "Ruben Loftus-Cheek",
+     "Loftus-Cheek"
+    ],
+    [
+     "Ibrahima Konaté",
+     "Konate"
+    ],
+    [
+     "Naby Keïta",
+     "Keita"
+    ],
+    [
+     "Kostas Tsimikas",
+     "Tsimikas"
+    ],
+    [
+     "Joël Matip",
+     "Matip"
+    ],
+    [
+     "Trevoh Chalobah",
+     "Chalobah"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-cups-2023-fa-cup-final",
+   "tags": [
+    "cups",
+    "20s"
+   ],
+   "text": "Name a player in the 2023 FA Cup final, Man City v Man Utd",
+   "answers": [
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "İlkay Gündoğan",
+     "Gundogan"
+    ],
+    [
+     "Kevin De Bruyne",
+     "De Bruyne",
+     "KDB"
+    ],
+    [
+     "Bruno Fernandes",
+     "Fernandes",
+     "Bruno"
+    ],
+    [
+     "Marcus Rashford",
+     "Rashford"
+    ],
+    "Rodri",
+    [
+     "Jack Grealish",
+     "Grealish"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    [
+     "John Stones",
+     "Stones"
+    ],
+    [
+     "Kyle Walker",
+     "Walker"
+    ],
+    "Casemiro",
+    [
+     "David de Gea",
+     "De Gea"
+    ],
+    [
+     "Bernardo Silva",
+     "Bernardo",
+     "Silva"
+    ],
+    [
+     "Rúben Dias",
+     "Dias",
+     "Ruben Dias"
+    ],
+    [
+     "Jadon Sancho",
+     "Sancho"
+    ],
+    [
+     "Alejandro Garnacho",
+     "Garnacho"
+    ],
+    [
+     "Luke Shaw",
+     "Shaw"
+    ],
+    [
+     "Raphaël Varane",
+     "Varane"
+    ],
+    [
+     "Christian Eriksen",
+     "Eriksen"
+    ],
+    [
+     "Stefan Ortega",
+     "Ortega"
+    ],
+    [
+     "Manuel Akanji",
+     "Akanji"
+    ],
+    [
+     "Aaron Wan-Bissaka",
+     "Wan-Bissaka"
+    ],
+    "Fred",
+    [
+     "Victor Lindelöf",
+     "Lindelof"
+    ],
+    [
+     "Scott McTominay",
+     "McTominay"
+    ],
+    [
+     "Wout Weghorst",
+     "Weghorst"
+    ],
+    [
+     "Nathan Aké",
+     "Ake"
+    ],
+    [
+     "Aymeric Laporte",
+     "Laporte"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-cups-2025-fa-cup-final",
+   "tags": [
+    "cups",
+    "20s"
+   ],
+   "text": "Name a player in the 2025 FA Cup final, Crystal Palace v Man City",
+   "answers": [
+    [
+     "Erling Haaland",
+     "Haaland"
+    ],
+    [
+     "Eberechi Eze",
+     "Eze"
+    ],
+    [
+     "Kevin De Bruyne",
+     "De Bruyne",
+     "KDB"
+    ],
+    [
+     "Jean-Philippe Mateta",
+     "Mateta"
+    ],
+    [
+     "Marc Guéhi",
+     "Guehi"
+    ],
+    [
+     "Dean Henderson",
+     "Henderson"
+    ],
+    [
+     "Bernardo Silva",
+     "Bernardo",
+     "Silva"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    [
+     "İlkay Gündoğan",
+     "Gundogan"
+    ],
+    [
+     "Jérémy Doku",
+     "Doku"
+    ],
+    [
+     "Joško Gvardiol",
+     "Gvardiol"
+    ],
+    [
+     "Omar Marmoush",
+     "Marmoush"
+    ],
+    [
+     "Adam Wharton",
+     "Wharton"
+    ],
+    [
+     "Ismaïla Sarr",
+     "Sarr"
+    ],
+    [
+     "Rúben Dias",
+     "Dias",
+     "Ruben Dias"
+    ],
+    [
+     "Stefan Ortega",
+     "Ortega"
+    ],
+    [
+     "Tyrick Mitchell",
+     "Mitchell"
+    ],
+    [
+     "Daniel Muñoz",
+     "Munoz"
+    ],
+    [
+     "Daichi Kamada",
+     "Kamada"
+    ],
+    [
+     "Manuel Akanji",
+     "Akanji"
+    ],
+    "Savinho",
+    [
+     "Nico O'Reilly",
+     "O'Reilly"
+    ],
+    [
+     "Maxence Lacroix",
+     "Lacroix"
+    ],
+    [
+     "Eddie Nketiah",
+     "Nketiah"
+    ],
+    [
+     "Chris Richards",
+     "Richards"
+    ],
+    [
+     "Jefferson Lerma",
+     "Lerma"
+    ],
+    [
+     "Will Hughes",
+     "Hughes"
+    ],
+    [
+     "Claudio Echeverri",
+     "Echeverri"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-cups-2023-league-cup-final",
+   "tags": [
+    "cups",
+    "20s"
+   ],
+   "text": "Name a player in the 2023 League Cup final, Man Utd v Newcastle",
+   "answers": [
+    [
+     "Marcus Rashford",
+     "Rashford"
+    ],
+    "Casemiro",
+    [
+     "Bruno Fernandes",
+     "Fernandes"
+    ],
+    [
+     "David de Gea",
+     "De Gea"
+    ],
+    [
+     "Luke Shaw",
+     "Shaw"
+    ],
+    [
+     "Raphaël Varane",
+     "Varane"
+    ],
+    [
+     "Lisandro Martínez",
+     "Lisandro",
+     "Martinez"
+    ],
+    [
+     "Harry Maguire",
+     "Maguire"
+    ],
+    [
+     "Jadon Sancho",
+     "Sancho"
+    ],
+    "Antony",
+    [
+     "Wout Weghorst",
+     "Weghorst"
+    ],
+    "Fred",
+    [
+     "Diogo Dalot",
+     "Dalot"
+    ],
+    [
+     "Aaron Wan-Bissaka",
+     "Wan-Bissaka"
+    ],
+    [
+     "Scott McTominay",
+     "McTominay"
+    ],
+    [
+     "Marcel Sabitzer",
+     "Sabitzer"
+    ],
+    [
+     "Alexander Isak",
+     "Isak"
+    ],
+    [
+     "Kieran Trippier",
+     "Trippier"
+    ],
+    [
+     "Bruno Guimarães",
+     "Guimaraes"
+    ],
+    [
+     "Sven Botman",
+     "Botman"
+    ],
+    [
+     "Callum Wilson",
+     "Wilson"
+    ],
+    [
+     "Allan Saint-Maximin",
+     "Saint-Maximin",
+     "ASM"
+    ],
+    "Joelinton",
+    [
+     "Miguel Almirón",
+     "Almiron"
+    ],
+    [
+     "Dan Burn",
+     "Burn"
+    ],
+    [
+     "Loris Karius",
+     "Karius"
+    ],
+    [
+     "Sean Longstaff",
+     "Longstaff"
+    ],
+    [
+     "Fabian Schär",
+     "Schar"
+    ],
+    [
+     "Joe Willock",
+     "Willock"
+    ],
+    [
+     "Elliot Anderson",
+     "Anderson"
+    ],
+    [
+     "Jacob Murphy",
+     "Murphy"
+    ],
+    [
+     "Matt Ritchie",
+     "Ritchie"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-cups-2024-league-cup-final",
+   "tags": [
+    "cups",
+    "20s"
+   ],
+   "text": "Name a player in the 2024 League Cup final, Chelsea v Liverpool",
+   "answers": [
+    [
+     "Virgil van Dijk",
+     "Van Dijk",
+     "VVD"
+    ],
+    [
+     "Caoimhín Kelleher",
+     "Kelleher"
+    ],
+    [
+     "Raheem Sterling",
+     "Sterling"
+    ],
+    [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    [
+     "Luis Díaz",
+     "Diaz"
+    ],
+    [
+     "Alexis Mac Allister",
+     "Mac Allister"
+    ],
+    [
+     "Cody Gakpo",
+     "Gakpo"
+    ],
+    [
+     "Enzo Fernández",
+     "Enzo",
+     "Enzo Fernandez"
+    ],
+    [
+     "Moisés Caicedo",
+     "Caicedo"
+    ],
+    [
+     "Andy Robertson",
+     "Robertson",
+     "Andrew Robertson"
+    ],
+    [
+     "Ibrahima Konaté",
+     "Konate"
+    ],
+    [
+     "Harvey Elliott",
+     "Elliott"
+    ],
+    [
+     "Ryan Gravenberch",
+     "Gravenberch"
+    ],
+    [
+     "Wataru Endō",
+     "Endo"
+    ],
+    [
+     "Nicolas Jackson",
+     "Jackson"
+    ],
+    [
+     "Conor Gallagher",
+     "Gallagher"
+    ],
+    [
+     "Ben Chilwell",
+     "Chilwell"
+    ],
+    [
+     "Mykhailo Mudryk",
+     "Mudryk"
+    ],
+    [
+     "Christopher Nkunku",
+     "Nkunku"
+    ],
+    [
+     "Noni Madueke",
+     "Madueke"
+    ],
+    [
+     "Levi Colwill",
+     "Colwill"
+    ],
+    [
+     "Axel Disasi",
+     "Disasi"
+    ],
+    [
+     "Malo Gusto",
+     "Gusto"
+    ],
+    [
+     "Trevoh Chalobah",
+     "Chalobah"
+    ],
+    [
+     "Đorđe Petrović",
+     "Petrovic",
+     "Djordje Petrovic"
+    ],
+    [
+     "Conor Bradley",
+     "Bradley"
+    ],
+    [
+     "Joe Gomez",
+     "Gomez"
+    ],
+    [
+     "Kostas Tsimikas",
+     "Tsimikas"
+    ],
+    [
+     "Jarell Quansah",
+     "Quansah"
+    ],
+    [
+     "Jayden Danns",
+     "Danns"
+    ],
+    [
+     "James McConnell",
+     "McConnell"
+    ],
+    [
+     "Bobby Clark",
+     "Clark"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-cups-2025-league-cup-final",
+   "tags": [
+    "cups",
+    "20s"
+   ],
+   "text": "Name a player in the 2025 League Cup final, Liverpool v Newcastle",
+   "answers": [
+    [
+     "Mohamed Salah",
+     "Salah",
+     "Mo Salah"
+    ],
+    [
+     "Alexander Isak",
+     "Isak"
+    ],
+    [
+     "Virgil van Dijk",
+     "Van Dijk",
+     "VVD"
+    ],
+    [
+     "Dan Burn",
+     "Burn"
+    ],
+    [
+     "Bruno Guimarães",
+     "Bruno",
+     "Guimaraes"
+    ],
+    [
+     "Sandro Tonali",
+     "Tonali"
+    ],
+    [
+     "Alexis Mac Allister",
+     "Mac Allister"
+    ],
+    [
+     "Dominik Szoboszlai",
+     "Szoboszlai"
+    ],
+    [
+     "Cody Gakpo",
+     "Gakpo"
+    ],
+    [
+     "Luis Díaz",
+     "Diaz"
+    ],
+    [
+     "Diogo Jota",
+     "Jota"
+    ],
+    [
+     "Darwin Núñez",
+     "Nunez",
+     "Darwin"
+    ],
+    [
+     "Andy Robertson",
+     "Robertson",
+     "Andrew Robertson"
+    ],
+    [
+     "Kieran Trippier",
+     "Trippier"
+    ],
+    [
+     "Caoimhín Kelleher",
+     "Kelleher"
+    ],
+    [
+     "Nick Pope",
+     "Pope"
+    ],
+    "Joelinton",
+    [
+     "Federico Chiesa",
+     "Chiesa"
+    ],
+    [
+     "Ryan Gravenberch",
+     "Gravenberch"
+    ],
+    [
+     "Ibrahima Konaté",
+     "Konate"
+    ],
+    [
+     "Harvey Elliott",
+     "Elliott"
+    ],
+    [
+     "Curtis Jones",
+     "Jones"
+    ],
+    [
+     "Callum Wilson",
+     "Wilson"
+    ],
+    [
+     "Jacob Murphy",
+     "Murphy"
+    ],
+    [
+     "Harvey Barnes",
+     "Barnes"
+    ],
+    [
+     "Tino Livramento",
+     "Livramento"
+    ],
+    [
+     "Fabian Schär",
+     "Schar"
+    ],
+    [
+     "Joe Willock",
+     "Willock"
+    ],
+    [
+     "Jarell Quansah",
+     "Quansah"
+    ],
+    [
+     "Emil Krafth",
+     "Krafth"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-sco-2006-scottish-cup-final",
+   "tags": [
+    "scotland",
+    "00s"
+   ],
+   "text": "Name a player in the 2006 Scottish Cup final, Hearts v Gretna",
+   "answers": [
+    [
+     "Craig Gordon",
+     "Gordon"
+    ],
+    [
+     "Rudi Skácel",
+     "Skacel"
+    ],
+    [
+     "Paul Hartley",
+     "Hartley"
+    ],
+    [
+     "Steven Pressley",
+     "Pressley"
+    ],
+    [
+     "Robbie Neilson",
+     "Neilson"
+    ],
+    [
+     "Edgaras Jankauskas",
+     "Jankauskas"
+    ],
+    [
+     "Roman Bednář",
+     "Bednar"
+    ],
+    [
+     "Takis Fyssas",
+     "Fyssas"
+    ],
+    [
+     "Ibrahim Tall",
+     "Tall"
+    ],
+    [
+     "Deividas Česnauskis",
+     "Cesnauskis"
+    ],
+    [
+     "Bruno Aguiar",
+     "Aguiar"
+    ],
+    [
+     "Julien Brellier",
+     "Brellier"
+    ],
+    [
+     "Saulius Mikoliūnas",
+     "Mikoliunas"
+    ],
+    [
+     "Michal Pospíšil",
+     "Pospisil"
+    ],
+    [
+     "Kenny Deuchar",
+     "Deuchar"
+    ],
+    [
+     "Ryan McGuffie",
+     "McGuffie"
+    ],
+    [
+     "James Grady",
+     "Grady"
+    ],
+    [
+     "Derek Townsley",
+     "Townsley"
+    ],
+    [
+     "Gavin Skelton",
+     "Skelton"
+    ],
+    [
+     "Steve Tosh",
+     "Tosh"
+    ],
+    [
+     "John O'Neil",
+     "O'Neil"
+    ],
+    [
+     "Chris Innes",
+     "Innes"
+    ],
+    [
+     "Mark Birch",
+     "Birch"
+    ],
+    [
+     "Alan Main",
+     "Main"
+    ],
+    [
+     "David Nicholls",
+     "Nicholls"
+    ],
+    [
+     "Jamie McQuilken",
+     "McQuilken"
+    ],
+    "David Graham"
+   ]
+  },
+  {
+   "id": "fb8-sco-2012-scottish-cup-final",
+   "tags": [
+    "scotland",
+    "10s"
+   ],
+   "text": "Name a player in the 2012 Scottish Cup final, Hearts v Hibernian",
+   "answers": [
+    [
+     "Rudi Skácel",
+     "Skacel"
+    ],
+    [
+     "Leigh Griffiths",
+     "Griffiths"
+    ],
+    [
+     "Matt Doherty",
+     "Doherty"
+    ],
+    [
+     "Danny Grainger",
+     "Grainger"
+    ],
+    [
+     "Darren Barr",
+     "Barr"
+    ],
+    [
+     "Ryan McGowan",
+     "McGowan"
+    ],
+    [
+     "Andy Webster",
+     "Webster"
+    ],
+    [
+     "Jamie MacDonald",
+     "MacDonald"
+    ],
+    [
+     "Ian Black",
+     "Black"
+    ],
+    [
+     "Andrew Driver",
+     "Driver"
+    ],
+    [
+     "Stephen Elliott",
+     "Elliott"
+    ],
+    [
+     "Marius Žaliūkas",
+     "Zaliukas"
+    ],
+    [
+     "Suso Santana",
+     "Suso"
+    ],
+    [
+     "Craig Beattie",
+     "Beattie"
+    ],
+    [
+     "Mehdi Taouil",
+     "Taouil"
+    ],
+    [
+     "Scott Robinson",
+     "Robinson"
+    ],
+    [
+     "James McPake",
+     "McPake"
+    ],
+    [
+     "Garry O'Connor",
+     "O'Connor"
+    ],
+    [
+     "Lewis Stevenson",
+     "Stevenson"
+    ],
+    [
+     "Paul Hanlon",
+     "Hanlon"
+    ],
+    [
+     "Mark Brown",
+     "Brown"
+    ],
+    [
+     "Pa Kujabi",
+     "Kujabi"
+    ],
+    [
+     "Jorge Claros",
+     "Claros"
+    ],
+    [
+     "Tom Soares",
+     "Soares"
+    ],
+    [
+     "Isaiah Osbourne",
+     "Osbourne"
+    ],
+    [
+     "Ivan Sproule",
+     "Sproule"
+    ],
+    [
+     "Eoin Doyle",
+     "Doyle"
+    ],
+    [
+     "George Francomb",
+     "Francomb"
+    ]
+   ]
+  },
+  {
+   "id": "fb8-sco-2022-scottish-cup-final",
+   "tags": [
+    "scotland",
+    "20s"
+   ],
+   "text": "Name a player in the 2022 Scottish Cup final, Rangers v Hearts",
+   "answers": [
+    [
+     "James Tavernier",
+     "Tavernier",
+     "Tav"
+    ],
+    [
+     "Ryan Kent",
+     "Kent"
+    ],
+    [
+     "Joe Aribo",
+     "Aribo"
+    ],
+    [
+     "Calvin Bassey",
+     "Bassey"
+    ],
+    [
+     "Connor Goldson",
+     "Goldson"
+    ],
+    [
+     "Steven Davis",
+     "Davis"
+    ],
+    [
+     "Craig Gordon",
+     "Gordon"
+    ],
+    [
+     "Allan McGregor",
+     "McGregor"
+    ],
+    [
+     "John Lundstram",
+     "Lundstram"
+    ],
+    [
+     "Ryan Jack",
+     "Jack"
+    ],
+    [
+     "Scott Wright",
+     "Wright"
+    ],
+    [
+     "Glen Kamara",
+     "Kamara"
+    ],
+    [
+     "Fashion Sakala",
+     "Sakala"
+    ],
+    [
+     "Scott Arfield",
+     "Arfield"
+    ],
+    [
+     "Amad Diallo",
+     "Amad"
+    ],
+    [
+     "Liam Boyce",
+     "Boyce"
+    ],
+    [
+     "John Souttar",
+     "Souttar"
+    ],
+    [
+     "Craig Halkett",
+     "Halkett"
+    ],
+    [
+     "Ellis Simms",
+     "Simms"
+    ],
+    [
+     "Jon McLaughlin",
+     "McLaughlin"
+    ],
+    [
+     "Leon Balogun",
+     "Balogun"
+    ],
+    [
+     "Stephen Kingsley",
+     "Kingsley"
+    ],
+    [
+     "Peter Haring",
+     "Haring"
+    ],
+    [
+     "Cameron Devlin",
+     "Devlin"
+    ],
+    [
+     "Alex Cochrane",
+     "Cochrane"
+    ],
+    [
+     "Barrie McKay",
+     "McKay"
+    ],
+    [
+     "Nathaniel Atkinson",
+     "Atkinson"
+    ],
+    [
+     "Gary Mackay-Steven",
+     "Mackay-Steven"
+    ],
+    [
+     "Andy Halliday",
+     "Halliday"
+    ],
+    [
+     "Aaron McEneff",
+     "McEneff"
+    ],
+    [
+     "Josh Ginnelly",
+     "Ginnelly"
+    ]
+   ]
+  }
+ ]
+}
