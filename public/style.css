@@ -546,7 +546,7 @@ h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
   #app:has(> .hero) { max-width: 1060px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     column-gap: 72px; row-gap: 18px; align-content: center; align-items: start; }
   #app:has(> .hero) > .hero { grid-column: 1; grid-row: 1 / span 5; align-self: center; padding: 0; }
-  #app:has(> .hero) > .daily-card { grid-column: 2; grid-row: 1; }
+  #app:has(> .hero) > .daily-card, #app:has(> .hero) > .dc-wrap { grid-column: 2; grid-row: 1; }
   #app:has(> .hero) > .hero .logo { font-size: 5.2rem; }
   #app:has(> .hero) > .hero p { font-size: 1.15rem; margin-top: 12px; }
   #app:has(> .hero) > .hero .crowd { max-width: 340px; margin-top: 34px; }
@@ -894,6 +894,27 @@ form.shake { animation: shake .35s; }
 .daily-card.done .dc-ic { background: color-mix(in srgb, #7bd88f 22%, transparent); color: #7bd88f; }
 .daily-card.done .dc-risk { background: var(--card-2); }
 .daily-card.done .dc-streak { color: #ff8a1f; }
+/* the streak reminder bell, on the daily card's top corner */
+.dc-wrap { position: relative; }
+.dc-bell { position: absolute; top: 8px; right: 8px; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(0, 0, 0, .18); color: var(--you-ink); border: 0; padding: 0; }
+.dc-bell .ic { width: 18px; height: 18px; }
+.dc-bell.on { background: var(--you-ink); color: var(--you); }
+.dc-bell.on .ic path:first-child { fill: currentColor; }
+.dc-bell:active { transform: scale(.92); }
+.dc-wrap.done .dc-bell { background: var(--card-2); color: var(--muted); }
+.dc-wrap.done .dc-bell.on { background: var(--you); color: var(--you-ink); }
+/* results: the reminder switch */
+.remind { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px; }
+.remind .mini-ic { margin: 0; }
+.remind .main { display: grid; gap: 2px; min-width: 0; }
+.remind .main small { color: var(--muted); font-size: .82rem; }
+.switch { position: relative; width: 50px; height: 30px; border-radius: 99px; border: 0; padding: 0; background: var(--line-2); transition: background .2s; flex: none; }
+.switch i { position: absolute; top: 3px; left: 3px; width: 24px; height: 24px; border-radius: 50%; background: #fff; transition: transform .2s; }
+.switch.on { background: var(--you); }
+.switch.on i { transform: translateX(20px); }
+.switch:disabled { opacity: .6; }
+@media (prefers-reduced-motion: reduce) { .switch, .switch i { transition: none; } }
 .mini-modes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .mini { display: grid; justify-items: start; gap: 2px; padding: 14px; border-radius: 18px; background: var(--card); border: 1px solid var(--line); color: var(--text); text-align: left; min-width: 0; }
 .mini:active { transform: scale(.97); }

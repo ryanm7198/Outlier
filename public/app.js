@@ -24,12 +24,12 @@ async function api(path, body) {
 }
 
 let toastTimer;
-function toast(msg) {
+function toast(msg, ms = 2600) {
   const el = $('#toast');
   el.textContent = msg;
   el.classList.add('show');
   clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => el.classList.remove('show'), 2600);
+  toastTimer = setTimeout(() => el.classList.remove('show'), ms);
 }
 
 // Markers start where they were; this lets CSS walk them to the new score.
@@ -105,6 +105,7 @@ const ICON = {
   crosshair: '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>',
   zap: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
   check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
+  bell: '<path d="M6 8.5a6 6 0 0 1 12 0c0 6.5 2.5 8.5 2.5 8.5h-17S6 15 6 8.5z"/><path d="M10.2 20.5a2 2 0 0 0 3.6 0"/>',
   shield: '<path d="M12 3l7.5 3v5.5c0 4.6-3.1 8-7.5 9.5-4.4-1.5-7.5-4.9-7.5-9.5V6z"/><path d="M9 12l2.2 2.2L15.5 10"/>',
 };
 const ic = (name, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICON[name] || ''}</svg>`;
@@ -768,6 +769,7 @@ function home() {
   $('#character').onclick = characterMenu;
   $('#board').onclick = () => boardMenu();
   $('#dailyHome').onclick = () => startDaily('all');
+  remindWire();
   accountWire();
 }
 
@@ -789,10 +791,14 @@ function dailyCardHTML() {
   } else if (done && st.n) {
     risk = `<span class="dc-risk ok">${ic('flame')}${st.n}-day streak${st.best > st.n ? ` · best ${st.best}` : ''} · back tomorrow</span>`;
   }
-  return `<button class="daily-card${done ? ' done' : ''}" id="dailyHome">
+  const card = `<button class="daily-card${done ? ' done' : ''}" id="dailyHome">
     <span class="dc-ic">${ic(done ? 'check' : 'calendar')}</span>
     <span class="dc-t"><small>Today's daily</small><b>Daily seven</b><span class="dc-sub">${status}</span>${risk}</span>
     ${st.n ? `<span class="dc-streak" aria-label="${st.n}-day streak">${ic('flame')}${st.n}</span>` : ''}${ic('right', 'chev')}</button>`;
+  const rs = remindState();   // only once there's a streak worth keeping
+  return st.n && ['on', 'off', 'ios'].includes(rs)
+    ? `<div class="dc-wrap${done ? ' done' : ''}">${card}<button class="dc-bell${rs === 'on' ? ' on' : ''}" id="remindBell" aria-pressed="${rs === 'on'}" aria-label="Remind me before my streak ends" title="Remind me before my streak ends">${ic('bell')}</button></div>`
+    : card;
 }
 
 // ------------------------------------------------------------ account
@@ -1077,6 +1083,7 @@ function bumpStreak(date) {
     up = { from: was, to: n, record: n > best && best > 0 };
   }
   if (me) api('/api/streak', { played: true, carry: store.get('outlier.streak', {}) }).then(adoptStreak).catch(() => {});
+  pushState();
   return up;   // { from, to, record } when today moved the streak on, otherwise null
 }
 
@@ -1129,6 +1136,7 @@ function dailySummary(run) {
     <div class="squares">${squares}</div>
     <p class="beatline" id="beat"></p>
     ${streakNow().n ? `<p class="streakline">${ic('flame')}<b>${streakNow().n}-day streak</b>${streakNow().n > 1 ? ' · keep it going tomorrow' : ' · come back tomorrow to build it'}</p>` : ''}
+    ${remindRowHTML()}
     <div class="card">${trailHTML([{ name: 'You', from: 0, to: saved.total, me: true }], max)}
       <p class="zone">You ended up: ${zoneName(saved.total, max)}</p></div>
     <div class="sidecol"><ul class="rows card">${saved.results.map(r => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : (r.given ? `<span class="strike">${esc(r.given)}</span>` : '<span class="skipped">Skipped</span>')}</b>
@@ -1158,6 +1166,7 @@ function dailySummary(run) {
   };
   $('#back').onclick = soloMenu;
   $('#free').onclick = () => startGame();
+  remindWire();
   $('#share').onclick = () => shareText(`Outlier · ${label} #${saved.number}\n${saved.total}/${max * 1.5} paces from the crowd\n${squares}`);
 }
 
@@ -2116,14 +2125,117 @@ function partyFinal(s, host) {
   $('#lobby').onclick = () => partyPost('/api/room/lobby');
 }
 
+// ------------------------------------------------------------ streak reminders (web push)
+// One notification in the UK evening when your streak is alive and today's Daily seven isn't played yet.
+// Needs the server to have reminders switched on, and a browser with push (on iPhone, only once added to the Home Screen).
+
+let pushKey = '';   // the server's public key, when reminders are switched on there
+const pushCan = () => 'serviceWorker' in navigator && 'PushManager' in window && 'Notification' in window;
+const isIOS = () => /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+const standalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+const IOS_NOTE = 'On iPhone, add Outlier to your Home Screen first (Share → Add to Home Screen), then turn reminders on';
+const BLOCKED_NOTE = 'Notifications are blocked for Outlier. Allow them in your browser settings, then try again.';
+const streakOut = () => { const s = store.get('outlier.streak', {}) || {}; return { n: s.n || 0, last: s.last || '' }; };
+
+// 'on', 'off', 'blocked', 'ios' (Home Screen first) or '' (not offered on this browser)
+function remindState() {
+  if (!pushKey) return '';
+  if (!pushCan()) return isIOS() && !standalone() ? 'ios' : '';
+  if (Notification.permission === 'denied') return 'blocked';
+  return store.get('outlier.remind', false) ? 'on' : 'off';
+}
+
+function remindRowHTML() {
+  const rs = remindState();
+  if (!rs) return '';
+  const sub = rs === 'ios' ? IOS_NOTE : rs === 'blocked' ? 'Notifications are blocked for this site in your browser settings'
+    : "One nudge in the evening if you haven't played that day";
+  return `<div class="card remind" id="remindRow"><span class="mini-ic">${ic('bell')}</span>
+    <span class="main"><b>Remind me before my streak ends</b><small>${sub}</small></span>
+    ${rs === 'on' || rs === 'off' ? `<button class="switch${rs === 'on' ? ' on' : ''}" id="remindSw" role="switch" aria-checked="${rs === 'on'}" aria-label="Remind me before my streak ends"><i></i></button>` : ''}</div>`;
+}
+
+// The bell and the switch show the same setting; repaint both in place (no screen redraw).
+function remindPaint() {
+  const on = remindState() === 'on';
+  const bell = $('#remindBell'), sw = $('#remindSw');
+  if (bell) { bell.classList.toggle('on', on); bell.setAttribute('aria-pressed', on); }
+  if (sw) { sw.classList.toggle('on', on); sw.setAttribute('aria-checked', on); }
+}
+
+function remindWire() {
+  for (const el of [$('#remindBell'), $('#remindSw')]) if (el) el.onclick = async () => {
+    el.disabled = true;
+    await remindToggle();
+    el.disabled = false;
+    remindPaint();
+  };
+}
+
+const urlKey = b64 => Uint8Array.from(atob((b64 + '==='.slice((b64.length + 3) % 4)).replace(/-/g, '+').replace(/_/g, '/')), c => c.charCodeAt(0));
+
+async function remindToggle() {
+  const rs = remindState();
+  if (rs === 'ios') return toast(IOS_NOTE, 7000);
+  if (rs === 'blocked') return toast(BLOCKED_NOTE, 5000);
+  if (rs === 'on') {
+    store.set('outlier.remind', false);
+    try {
+      const reg = await navigator.serviceWorker.getRegistration('/');
+      const sub = reg && await reg.pushManager.getSubscription();
+      if (sub) { api('/api/push/unsubscribe', { endpoint: sub.endpoint }).catch(() => {}); await sub.unsubscribe(); }
+    } catch { /* already gone */ }
+    return toast('Streak reminders off');
+  }
+  try {   // permission is only ever asked for here, on a tap
+    if (await Notification.requestPermission() !== 'granted') return toast(BLOCKED_NOTE, 5000);
+    await navigator.serviceWorker.register('/sw.js');
+    const reg = await navigator.serviceWorker.ready;
+    const sub = await reg.pushManager.getSubscription() || await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: urlKey(pushKey) });
+    await api('/api/push/subscribe', { cid: playerId(), subscription: sub.toJSON(), streak: streakOut() });
+    store.set('outlier.remind', true);
+    toast("Reminders on. We'll nudge you in the evening if your streak is at risk.", 4000);
+  } catch (e) {
+    toast(`Couldn't turn reminders on. ${e.message || ''}`.trim(), 4000);
+  }
+}
+
+// Tell the server your streak (after a daily, and on opening the app) so tonight's reminder is only sent if needed.
+function pushState() {
+  if (remindState() !== 'on') return;
+  api('/api/push/state', { cid: playerId(), streak: streakOut() }).then(async r => {
+    if (r.subscribed) return;   // the server has lost this browser (a fresh database, say): sign it up again
+    const reg = await navigator.serviceWorker.getRegistration('/');
+    const sub = reg && await reg.pushManager.getSubscription();
+    if (sub) await api('/api/push/subscribe', { cid: playerId(), subscription: sub.toJSON(), streak: streakOut() });
+  }).catch(() => {});
+}
+
+// On load: ask the server whether reminders are on, register the service worker, and check the browser still has
+// its subscription (it can be dropped, or permission taken away, outside the app).
+async function pushBoot() {
+  try { const r = await api('/api/push/key'); pushKey = r.enabled ? r.key || '' : ''; } catch { pushKey = ''; }
+  if (!pushKey || !pushCan()) return;
+  (async () => {
+    try {
+      const reg = await navigator.serviceWorker.register('/sw.js');
+      const sub = await reg.pushManager.getSubscription();
+      if (store.get('outlier.remind', false) && (!sub || Notification.permission !== 'granted')) { store.set('outlier.remind', false); remindPaint(); }
+      pushState();
+    } catch { /* no service worker here (private mode, say): reminders just aren't offered */ }
+  })();
+}
+
 // ------------------------------------------------------------ boot
 
 (async function boot() {
+  const pushReady = pushBoot();
   try { CATS = await api('/api/categories'); } catch { app.innerHTML = '<p class="center muted">Could not reach the game server.</p>'; return; }
   pick = upgradePick(pick);   // older saved picks ({ cat, tags }) become the new mix shape
   const params = new URLSearchParams(location.search);
   if (params.get('login')) await finishLogin(params.get('login'));
   await loadMe();
+  await pushReady;
   if (params.get('plus')) {
     history.replaceState(null, '', location.pathname);
     for (let i = 0; i < 8 && !plan.subscribed; i++) { await new Promise(r => setTimeout(r, 1500)); await loadMe(); }

@@ -1,1 +1,3 @@
-# Outlier uses only the Python standard library.
+# Outlier runs on the Python standard library. The one extra is optional:
+# pywebpush sends the streak reminder notifications (without it, or without the VAPID keys, reminders are off).
+pywebpush==2.5.0

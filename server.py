@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Outlier - a "rarest answer wins" trivia game. Standard library only.
+"""Outlier - a "rarest answer wins" trivia game. Standard library only (pywebpush, optional, sends streak reminders).
 
 Run:      python server.py            (then open http://localhost:8321)
 Review:   python server.py suggestions
@@ -30,6 +30,16 @@ import zlib
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
+try:   # web push for streak reminders is optional: without pywebpush (or the VAPID keys below) reminders are simply off
+    from pywebpush import WebPushException, webpush
+except Exception:
+    webpush = None
+try:   # reminders go out in the UK evening; without time zone data (pip install tzdata) UTC is close enough
+    from zoneinfo import ZoneInfo
+    UK = ZoneInfo("Europe/London")
+except Exception:
+    UK = datetime.timezone.utc
+
 ROOT = os.path.dirname(os.path.abspath(__file__))
 PUBLIC = os.path.join(ROOT, "public")
 # Where the crowd's answer counts live. On a host with a persistent disk, set OUTLIER_DB to a file on that disk.
@@ -43,6 +53,11 @@ PAYWALL = os.environ.get("OUTLIER_PAYWALL") == "1"            # off: everyone ha
 # into its own new Plus account straight away, no email needed. Unset it to switch every pass account back to free.
 PASS_CODE = os.environ.get("OUTLIER_PASS_CODE", "").strip().lower()
 REVIEW_KEY = os.environ.get("OUTLIER_REVIEW_KEY", "").strip()    # lets the nightly reviewer read and clear rejected answers
+VAPID_PUBLIC = os.environ.get("OUTLIER_VAPID_PUBLIC", "").strip()     # urlsafe base64 P-256 public key: the browser's applicationServerKey
+VAPID_PRIVATE = os.environ.get("OUTLIER_VAPID_PRIVATE", "").strip()   # its private half (urlsafe base64 of the raw 32 bytes)
+VAPID_SUB = os.environ.get("OUTLIER_VAPID_SUB", "").strip() or "mailto:hello@outliertrivia.app"   # who push services can contact
+PUSH = bool(webpush and VAPID_PUBLIC and VAPID_PRIVATE)
+REMIND_HOUR = 19   # UK time from which a streak at risk gets its one reminder of the day
 LOOK_RX = re.compile(r"[0-9a-z]{4,5}")   # a party character: head, eyes, mouth, hat, face (one character each)
 PASS_PREFIX = "pass:"   # pass accounts have no email; their "email" column is pass:<random>
 PLUS_EMAILS = {e.strip().lower() for e in os.environ.get("OUTLIER_PLUS_EMAILS", "").split(",") if e.strip()}   # always full access
@@ -330,6 +345,11 @@ def open_db():
     DB.execute("CREATE TABLE IF NOT EXISTS votes (prompt_id TEXT, cid TEXT, vote INTEGER, ts INTEGER, PRIMARY KEY (prompt_id, cid))")
     DB.execute("CREATE TABLE IF NOT EXISTS streaks (user_id INTEGER PRIMARY KEY, n INTEGER, best INTEGER, last TEXT)")
     DB.execute("CREATE INDEX IF NOT EXISTS user_plays_user ON user_plays (user_id, ts)")
+    # web push subscriptions for streak reminders, with the streak the browser last reported (n, last day played)
+    # and the day it was last reminded; user_id links a signed-in player, whose streak in `streaks` wins
+    DB.execute("CREATE TABLE IF NOT EXISTS push_subs (endpoint TEXT PRIMARY KEY, cid TEXT, p256dh TEXT, auth TEXT, created INTEGER, "
+               "user_id INTEGER, n INTEGER NOT NULL DEFAULT 0, last TEXT NOT NULL DEFAULT '', notified TEXT NOT NULL DEFAULT '')")
+    DB.execute("CREATE INDEX IF NOT EXISTS push_subs_cid ON push_subs (cid)")
     try:   # 1 = an answer approved by hand (python server.py approve), which lives only in the database
         DB.execute("ALTER TABLE answers ADD COLUMN extra INTEGER NOT NULL DEFAULT 0")
     except sqlite3.OperationalError:
@@ -768,6 +788,152 @@ def stats():
         "db": DB_PATH, "dbPersistent": not os.path.abspath(DB_PATH).startswith(ROOT),   # anywhere outside the code folder (a mounted disk)
         "firstAccount": datetime.datetime.fromtimestamp(one("SELECT MIN(created) FROM users")).strftime("%d %b %Y %H:%M") if one("SELECT MIN(created) FROM users") else None,
     }
+
+
+# ---------------------------------------------------------------- streak reminders (web push)
+# A player whose streak is alive (last daily yesterday) and who hasn't played today gets one nudge in the UK evening.
+
+B64URL = re.compile(r"^[A-Za-z0-9_-]{8,200}=*$")
+
+
+def clean_cid(cid):
+    return re.sub(r"[^0-9A-Za-z]", "", str(cid or ""))[:32]
+
+
+def clean_streak(s):
+    """The streak a browser reports, {n, last}. Anything odd counts as no streak."""
+    if not isinstance(s, dict):
+        return 0, ""
+    last = str(s.get("last") or "")[:10]
+    try:
+        n = max(0, min(10000, int(s.get("n") or 0)))
+        datetime.date.fromisoformat(last)
+    except (TypeError, ValueError):
+        return 0, ""
+    return n, last
+
+
+def need_push():
+    if not PUSH:
+        raise ApiError(503, "Reminders are not switched on")
+
+
+def push_subscribe(body):
+    need_push()
+    cid, sub = clean_cid(body.get("cid")), body.get("subscription")
+    sub = sub if isinstance(sub, dict) else {}
+    keys = sub.get("keys") if isinstance(sub.get("keys"), dict) else {}
+    endpoint, p256dh, auth = str(sub.get("endpoint") or ""), str(keys.get("p256dh") or ""), str(keys.get("auth") or "")
+    if not cid or not endpoint.startswith("https://") or len(endpoint) > 1000 or not B64URL.match(p256dh) or not B64URL.match(auth):
+        raise ApiError(400, "Bad subscription")
+    n, last = clean_streak(body.get("streak"))
+    user = current_user()
+    DB.execute("INSERT INTO push_subs (endpoint, cid, p256dh, auth, created, user_id, n, last) VALUES (?, ?, ?, ?, ?, ?, ?, ?) "
+               "ON CONFLICT(endpoint) DO UPDATE SET cid = excluded.cid, p256dh = excluded.p256dh, auth = excluded.auth, created = excluded.created, "
+               "user_id = COALESCE(excluded.user_id, push_subs.user_id), n = excluded.n, last = excluded.last",
+               (endpoint, cid, p256dh, auth, int(time.time()), user["id"] if user else None, n, last))
+    # a browser that rotates its subscription leaves the old one behind: keep only its newest few
+    DB.execute("DELETE FROM push_subs WHERE cid = ? AND endpoint NOT IN "
+               "(SELECT endpoint FROM push_subs WHERE cid = ? ORDER BY created DESC LIMIT 3)", (cid, cid))
+    DB.commit()
+    return {"ok": True}
+
+
+def push_unsubscribe(body):
+    DB.execute("DELETE FROM push_subs WHERE endpoint = ?", (str(body.get("endpoint") or "")[:1000],))
+    DB.commit()
+    return {"ok": True}
+
+
+def push_state(body):
+    """The browser's streak after a daily or on opening the app, so tonight's reminder knows whether it's needed."""
+    cid = clean_cid(body.get("cid"))
+    if not cid:
+        raise ApiError(400, "Missing player id")
+    n, last = clean_streak(body.get("streak"))
+    user = current_user()
+    cur = DB.execute("UPDATE push_subs SET n = ?, last = ?, user_id = COALESCE(?, user_id) WHERE cid = ?",
+                     (n, last, user["id"] if user else None, cid))
+    DB.commit()
+    return {"ok": True, "subscribed": cur.rowcount > 0}
+
+
+def push_due(now, today=None):
+    """Who to remind at `now` (UK time): from REMIND_HOUR on, streak alive, today not played, not reminded today.
+    Returns [(endpoint, p256dh, auth, n)]. `today` is the game's day (the server's date, as the dailies use)."""
+    if now.hour < REMIND_HOUR:
+        return []
+    today = today or datetime.date.today()
+    day, yday = today.isoformat(), (today - datetime.timedelta(days=1)).isoformat()
+    rows = DB.execute("SELECT p.endpoint, p.p256dh, p.auth, p.n, p.last, s.n, s.last FROM push_subs p "
+                      "LEFT JOIN streaks s ON s.user_id = p.user_id WHERE p.notified != ?", (day,)).fetchall()
+    due = []
+    for endpoint, p256dh, auth, n, last, sn, slast in rows:
+        if slast and slast >= (last or ""):   # signed in: the account's streak wins unless this browser has seen a later day
+            n, last = sn, slast
+        if last == yday and n > 0:
+            due.append((endpoint, p256dh, auth, n))
+    return due
+
+
+def push_message(n):
+    return {"title": "Outlier", "body": f"\U0001F525 Your {n}-day streak ends at midnight \u2014 today's Daily seven is waiting",
+            "url": "/", "tag": "streak"}
+
+
+def push_send(sub, payload):
+    """One notification. Returns the push service's HTTP status (201 sent, 404/410 gone), or 0 if it couldn't be reached."""
+    try:
+        r = webpush({"endpoint": sub[0], "keys": {"p256dh": sub[1], "auth": sub[2]}}, json.dumps(payload),
+                    vapid_private_key=VAPID_PRIVATE, vapid_claims={"sub": VAPID_SUB},   # a fresh dict each time: webpush adds aud per endpoint
+                    ttl=4 * 3600, timeout=10)
+        return getattr(r, "status_code", 201)
+    except WebPushException as e:
+        return getattr(e.response, "status_code", 0) or 0
+    except Exception as e:   # network trouble: one line in the log is enough
+        print(f"push failed: {type(e).__name__}: {str(e)[:200]}", flush=True)
+        return 0
+
+
+def push_round(now=None, today=None):
+    """One pass of the reminder thread. Marks before sending (so a slow or failed send is never repeated), sends
+    outside the lock (so the game isn't held up by push services), then forgets subscriptions that have gone."""
+    now = now or datetime.datetime.now(UK)
+    with LOCK:
+        due = push_due(now, today)
+        day = (today or datetime.date.today()).isoformat()
+        DB.executemany("UPDATE push_subs SET notified = ? WHERE endpoint = ?", [(day, d[0]) for d in due])
+        DB.commit()
+    gone = [d[0] for d in due if push_send(d, push_message(d[3])) in (404, 410)]
+    if gone:
+        with LOCK:
+            DB.executemany("DELETE FROM push_subs WHERE endpoint = ?", [(e,) for e in gone])
+            DB.commit()
+    return {"sent": len(due), "gone": len(gone)}
+
+
+def push_loop():
+    while True:
+        try:
+            push_round()
+        except Exception:
+            traceback.print_exc()
+        time.sleep(300)
+
+
+def push_test(body):
+    """For the owner: a test notification now, to one subscription or to all of them (needs X-Review-Key)."""
+    need_review_key()
+    need_push()
+    endpoint = str(body.get("endpoint") or "")
+    rows = DB.execute("SELECT endpoint, p256dh, auth, n FROM push_subs" + (" WHERE endpoint = ?" if endpoint else ""),
+                      (endpoint,) if endpoint else ()).fetchall()
+    payload = {"title": "Outlier", "body": "Test reminder: streak notifications are working.", "url": "/", "tag": "streak"}
+    out = [{"endpoint": r[0][:60], "status": push_send(r, payload)} for r in rows]
+    gone = [r[0] for r, o in zip(rows, out) if o["status"] in (404, 410)]
+    DB.executemany("DELETE FROM push_subs WHERE endpoint = ?", [(e,) for e in gone])
+    DB.commit()
+    return {"sent": len(out), "gone": len(gone), "results": out}
 
 
 # ---------------------------------------------------------------- nightly answer review
@@ -1764,6 +1930,8 @@ def api_get(path, q):
         out = public_prompt(pick_balanced(q.get("cat", "all"), tags, ids, seen, 1)[0])
         out.update(roundMs=ROUND_S * 1000, poolSize=len(ids))
         return out
+    if path == "/api/push/key":
+        return {"enabled": PUSH, "key": VAPID_PUBLIC if PUSH else ""}
     if path == "/api/me":
         user = current_user()
         claim = None
@@ -1809,6 +1977,14 @@ def api_post(path, body):
         return cast_vote(body)
     if path == "/api/streak":
         return bump_streak(body)
+    if path == "/api/push/subscribe":
+        return push_subscribe(body)
+    if path == "/api/push/unsubscribe":
+        return push_unsubscribe(body)
+    if path == "/api/push/state":
+        return push_state(body)
+    if path == "/api/push/test":
+        return push_test(body)
     if path == "/api/score":
         return post_score(body)
     if path == "/api/checkout":
@@ -1962,10 +2138,12 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self, *args):
         pass
 
-    def send_body(self, status, ctype, body, cookie=None):
+    def send_body(self, status, ctype, body, cookie=None, extra=None):
         self.send_response(status)
         if cookie:
             self.send_header("Set-Cookie", cookie)
+        for k, v in (extra or {}).items():
+            self.send_header(k, v)
         self.send_header("Content-Type", ctype)
         self.send_header("Content-Length", str(len(body)))
         self.send_header("Cache-Control", "no-store")
@@ -2016,8 +2194,11 @@ class Handler(BaseHTTPRequestHandler):
             return self.send_body(404, "text/plain", b"Not found")
         with open(full, "rb") as f:
             body = f.read()
+        ctype, extra = MIME.get(os.path.splitext(full)[1], "application/octet-stream"), None
+        if rel == "sw.js":   # the service worker (streak reminders): served from the root so it may cover the whole app
+            ctype, extra = "application/javascript; charset=utf-8", {"Service-Worker-Allowed": "/"}
         try:
-            self.send_body(200, MIME.get(os.path.splitext(full)[1], "application/octet-stream"), body)
+            self.send_body(200, ctype, body, extra=extra)
         except (BrokenPipeError, ConnectionError):
             pass
 
@@ -2086,7 +2267,10 @@ def main():
         return cli(sys.argv[1:])
     server = ThreadingHTTPServer(("0.0.0.0", PORT), Handler)
     server.daemon_threads = True
+    if PUSH:   # streak reminders: checks every few minutes, sends from the UK evening on
+        threading.Thread(target=push_loop, daemon=True).start()
     print(f"Outlier is running with {len(PROMPTS)} prompts.", flush=True)
+    print(f"  Streak reminders:  {'on' if PUSH else 'off (needs pywebpush and OUTLIER_VAPID_PUBLIC/PRIVATE)'}", flush=True)
     print(f"  On this computer:  http://localhost:{PORT}", flush=True)
     try:
         for ip in sorted(set(socket.gethostbyname_ex(socket.gethostname())[2])):
