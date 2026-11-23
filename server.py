@@ -42,6 +42,7 @@ PAYWALL = os.environ.get("OUTLIER_PAYWALL") == "1"            # off: everyone ha
 # A secret pass code (set on the host, never in the code): typed into the sign-in email box, it signs that browser
 # into its own new Plus account straight away, no email needed. Unset it to switch every pass account back to free.
 PASS_CODE = os.environ.get("OUTLIER_PASS_CODE", "").strip().lower()
+REVIEW_KEY = os.environ.get("OUTLIER_REVIEW_KEY", "").strip()    # lets the nightly reviewer read and clear rejected answers
 LOOK_RX = re.compile(r"[0-9a-z]{4,5}")   # a party character: head, eyes, mouth, hat, face (one character each)
 PASS_PREFIX = "pass:"   # pass accounts have no email; their "email" column is pass:<random>
 PLUS_EMAILS = {e.strip().lower() for e in os.environ.get("OUTLIER_PLUS_EMAILS", "").split(",") if e.strip()}   # always full access
@@ -310,6 +311,8 @@ def open_db():
                "PRIMARY KEY (prompt_id, key))")
     DB.execute("CREATE TABLE IF NOT EXISTS scores (seed TEXT, cid TEXT, name TEXT, total INTEGER, pts TEXT, "
                "ts INTEGER, PRIMARY KEY (seed, cid))")
+    DB.execute("CREATE TABLE IF NOT EXISTS review_seen (prompt_id TEXT, key TEXT, verdict TEXT, ts INTEGER, "
+               "PRIMARY KEY (prompt_id, key))")
     DB.execute("CREATE TABLE IF NOT EXISTS daily_pins (cat TEXT, day TEXT, ids TEXT, PRIMARY KEY (cat, day))")
     DB.execute("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, email TEXT UNIQUE, created INTEGER)")
     DB.execute("CREATE TABLE IF NOT EXISTS logins (hash TEXT PRIMARY KEY, email TEXT, created INTEGER, expires INTEGER, used INTEGER DEFAULT 0)")
@@ -765,6 +768,41 @@ def stats():
         "db": DB_PATH, "dbPersistent": DB_PATH.startswith("/var/data"),
         "firstAccount": datetime.datetime.fromtimestamp(one("SELECT MIN(created) FROM users")).strftime("%d %b %Y %H:%M") if one("SELECT MIN(created) FROM users") else None,
     }
+
+
+# ---------------------------------------------------------------- nightly answer review
+# A scheduled agent fetches the answers players typed that weren't on the list, checks each one online, adds the
+# real ones to the prompt files and pushes, then marks everything it looked at so it isn't offered again.
+
+def need_review_key():
+    if not REVIEW_KEY or not hmac.compare_digest(CURRENT.get("review", ""), REVIEW_KEY):
+        raise ApiError(404, "Not found")
+
+
+def review_queue(limit):
+    need_review_key()
+    rows = DB.execute("SELECT s.prompt_id, s.key, s.raw, s.count FROM suggestions s LEFT JOIN review_seen r "
+                      "ON r.prompt_id = s.prompt_id AND r.key = s.key WHERE r.key IS NULL "
+                      "ORDER BY s.count DESC, s.prompt_id LIMIT ?", (limit,)).fetchall()
+    out = []
+    for pid, key, raw, count in rows:
+        if pid in PROMPTS and not match(pid, raw):   # already fixed by a deploy: nothing to review
+            out.append({"promptId": pid, "prompt": PROMPTS[pid]["text"], "key": key, "typed": raw, "times": count,
+                        "baseId": pid.split("--")[0], "answers": len(PROMPTS[pid]["names"])})
+    return {"items": out}
+
+
+def review_done(body):
+    need_review_key()
+    items = body.get("items") or []
+    now = int(time.time())
+    for it in items[:200]:
+        pid, key = str(it.get("promptId") or ""), str(it.get("key") or "")
+        verdict = "added" if it.get("verdict") == "added" else "rejected"
+        DB.execute("INSERT OR REPLACE INTO review_seen VALUES (?, ?, ?, ?)", (pid, key, verdict, now))
+        DB.execute("DELETE FROM suggestions WHERE prompt_id = ? AND key = ?", (pid, key))
+    DB.commit()
+    return {"ok": True, "marked": min(len(items), 200)}
 
 
 def log_play(pid, out):
@@ -1754,6 +1792,12 @@ def api_get(path, q):
         return {**board, "period": "today", "date": today.isoformat(), "number": (today - LAUNCH).days + 1}
     if path == "/api/board":
         return board_out(q.get("seed"), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32])
+    if path == "/api/review/queue":
+        try:
+            limit = max(1, min(int(q.get("limit") or 300), 1000))
+        except ValueError:
+            limit = 300
+        return review_queue(limit)
     if path == "/api/room/state":
         room = get_room(q.get("code"), q.get("pid"))
         return room_state(room, q.get("pid"))
@@ -1807,6 +1851,8 @@ def api_post(path, body):
         if not name:
             record(pid, None, raw)   # rejected attempts still queue for review
         return {"suggest": name, "exact": exact}
+    if path == "/api/review/done":
+        return review_done(body)
     if path == "/api/room/create":
         room, token = create_room(body.get("name"))
         return {"code": room["code"], "pid": token}
@@ -1938,6 +1984,7 @@ class Handler(BaseHTTPRequestHandler):
                 CURRENT["token"] = ((self.headers.get("X-Session") or "") or jar.get("outlier_session", ""))[:80]
                 CURRENT["alt"] = jar.get("outlier_session", "")[:80]
                 CURRENT["host"] = (self.headers.get("Host") or "")[:80]
+                CURRENT["review"] = (self.headers.get("X-Review-Key") or "")[:200]
                 out = fn(*args)
                 cookie = CURRENT["cookie"]
             self.send_json(out, cookie=cookie)
@@ -1980,7 +2027,7 @@ class Handler(BaseHTTPRequestHandler):
             return self.run_api(stripe_event, raw, self.headers.get("Stripe-Signature") or "")
         try:
             length = int(self.headers.get("Content-Length") or 0)
-            body = json.loads(self.rfile.read(min(length, 8192)) or b"{}")
+            body = json.loads(self.rfile.read(min(length, 65536 if self.path.startswith("/api/review/") else 8192)) or b"{}")
             if not isinstance(body, dict):
                 raise ValueError
         except ValueError:
