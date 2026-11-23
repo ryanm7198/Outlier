@@ -1983,10 +1983,20 @@ function potatoTable(s) {
   }).join('')}</ul>`;
 }
 
-function potatoLog(s) {
+// The answers said so far this prompt. Only an answer that's new since the last draw slides in; the rest sit still
+// (the list is redrawn on every poll, so animating them all made the whole list pulse).
+const LOGCTX = () => tv || party;
+function setLog(html) {   // only touch the list when something in it changed
+  const el = $('#ptLog');
+  if (el && el.dataset.html !== html) { el.innerHTML = html; el.dataset.html = html; }
+}
+
+function potatoLog(s, ctx) {
   const rows = s.log.filter(l => l.round === s.round && !l.timeout);
   if (!rows.length) return '<p class="muted center pt-empty">No answers yet. Get it started!</p>';
-  return `<ul class="pt-log">${rows.map(l => `<li${l.outlier ? ' class="out"' : ''}>
+  const keyOf = l => `${l.round}|${l.n}|${l.answer}`, seen = ctx && ctx.logSeen;
+  if (ctx) ctx.logSeen = new Set(rows.map(keyOf));
+  return `<ul class="pt-log">${rows.map(l => `<li class="${l.outlier ? 'out' : ''}${seen && !seen.has(keyOf(l)) ? ' fresh' : ''}">
     <b>${esc(l.answer)}</b><small>${esc(l.name)}</small><span class="pt-p">+${l.points}${l.bonus ? ' <span class="pt-life">+1 life</span>' : ''}</span></li>`).join('')}</ul>`;
 }
 
@@ -2097,7 +2107,7 @@ function updatePotato(s) {
     $('#ptSeats').innerHTML = seats.map(p => `<span class="seat${p.n === s.current ? ' now' : ''}${p.out ? ' gone' : ''}${p.n === s.you ? ' me' : ''}">
       ${p.n === s.current ? '<i class="seat-arrow" aria-hidden="true"></i>' : ''}${avatar(p.name, p.color, p.look)}<small>${esc(p.name)}</small></span>`).join('');
   }
-  $('#ptLog').innerHTML = potatoLog(s);
+  setLog(potatoLog(s, LOGCTX()));
   $('#ptSaid').textContent = s.said;
   potatoPop(s);
   if (party.ptTurn === s.turnId) return;   // the rest only changes when the turn does
@@ -2950,7 +2960,7 @@ function tvPotato(s) {
 function tvPotatoUpdate(s) {
   if (!$('#tvCur')) return;
   $('#ptTable').innerHTML = potatoTable(s);
-  $('#ptLog').innerHTML = potatoLog(s);
+  setLog(potatoLog(s, LOGCTX()));
   $('#ptSaid').textContent = s.said;
   potatoPop(s);
   if (tv.ptSaid !== undefined && s.said > tv.ptSaid) sfx.play('ding');   // a new answer went on the list
