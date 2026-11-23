@@ -1391,12 +1391,17 @@ function leaveParty(msg) {
   if (msg) toast(msg);
 }
 
+// Every party request is numbered. A reply is only drawn if nothing sent after it has been drawn already, so a slow
+// poll that set off before the round moved on can't put an old screen back up.
+let partySeq = 0;
+
 async function pollParty() {
   if (!party || party.busy) return;
   party.busy = true;
   try {
+    const seq = ++partySeq;
     const state = await api(`/api/room/state?code=${party.code}&pid=${party.pid}`);
-    if (party) renderParty(state);
+    if (party) renderParty(state, seq);
     const every = state.phase === 'potato' ? 500 : 1000;
     if (party && party.every !== every) { clearInterval(party.poll); party.poll = setInterval(pollParty, every); party.every = every; }
   } catch (e) {
@@ -1406,8 +1411,9 @@ async function pollParty() {
 
 async function partyPost(path, extra) {
   try {
+    const seq = ++partySeq;
     const state = await api(path, { code: party.code, pid: party.pid, ...extra });
-    if (party) renderParty(state);
+    if (party) renderParty(state, seq);
   } catch (e) { toast(e.message); }
 }
 
@@ -1451,7 +1457,11 @@ function updateTicker(s) {
   } else line.textContent = news;
 }
 
-function renderParty(s) {
+function renderParty(s, seq = Infinity) {
+  if (seq !== Infinity) {
+    if (seq < (party.applied || 0)) return;
+    party.applied = seq;
+  }
   const host = s.you === s.host;
   const answered = s.phase === 'question' && s.yourAnswer != null;
   const key = [s.phase, s.round, host, answered, s.phase === 'pick' && s.picked, s.phase === 'final' && (s.asks || []).join('.'),
@@ -1459,6 +1469,8 @@ function renderParty(s) {
   if (key !== party.key) {
     party.key = key;
     stopTimer();
+    (party.revealTimers || []).forEach(clearTimeout);   // a reveal still playing must never draw over the new screen
+    party.revealTimers = [];
     ({ lobby: partyLobby, pick: partyPick, question: partyQuestion, reveal: partyReveal, final: partyFinal, potato: partyPotato })[s.phase](s, host, answered);
     const leave = $('#leave');
     if (leave) leave.onclick = () => leaveParty();
@@ -1909,9 +1921,9 @@ function dramaticReveal(s, then) {
       <p class="rv-drum center" id="rvDrum" hidden>And the rarest answer…</p>
       <p class="fine center">Tap to skip</p>
     </section>`);
-  const list = $('#rvList'), drum = $('#rvDrum'), timers = [];
+  const list = $('#rvList'), drum = $('#rvDrum'), timers = party.revealTimers = [], key = party.key;
   let done = false;
-  const finish = () => { if (done) return; done = true; timers.forEach(clearTimeout); if (party && party.key && party.revealed === s.round) then(); };
+  const finish = () => { if (done) return; done = true; timers.forEach(clearTimeout); if (party && party.key === key && $('#rv')) then(); };
   $('#rv').onclick = finish;
   let at = 700;
   groups.forEach((g, i) => {
@@ -1957,7 +1969,7 @@ function partyRevealScores(s, host) {
     </div>`);
   if (mine) buildUp(mine);
   raceUp();
-  if (host) $('#next').onclick = () => partyPost('/api/room/next');
+  if (host) $('#next').onclick = e => { e.currentTarget.disabled = true; partyPost('/api/room/next', { round: s.round }); };
 }
 
 // ---- the score race: every player's round score climbs from 0 together. Higher scores take longer,

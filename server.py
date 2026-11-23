@@ -1896,7 +1896,8 @@ def api_post(path, body):
             p["score"], p["double_left"] = 0, True
         next_question(room)
     elif path == "/api/room/next":
-        if room["phase"] == "reveal":
+        sent = body.get("round")   # a repeated tap from the same round must not skip the next one
+        if room["phase"] == "reveal" and (sent is None or sent == room["round"]):
             if room["round"] >= room["rounds"]:
                 room["phase"] = "final"
             else:
