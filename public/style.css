@@ -1050,12 +1050,17 @@ html.tv #app { max-width: none; height: 100vh; height: 100dvh; min-height: 0; pa
 .tv-mid { font-size: 1.15rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); text-align: center; }
 .tv-join { justify-self: end; font-size: 1.05rem; color: var(--muted); }
 .tv-join b { color: var(--you); letter-spacing: .14em; font-size: 1.3em; }
-.tv-leave { position: fixed; right: 1rem; bottom: 1rem; z-index: 40; display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 99px;
+.tv-ctl { position: fixed; right: 1rem; bottom: 1rem; z-index: 40; display: flex; gap: 8px; }
+.tv-leave, .tv-snd { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 99px;
   background: var(--card); border: 1px solid var(--line); color: var(--muted); font: 600 13px/1 inherit; opacity: .45; transition: opacity .2s; }
-.tv-leave .ic { width: 14px; height: 14px; }
-.tv-leave:hover, .tv-leave:focus-visible { opacity: 1; }
-#app > .tv-leave { animation: none; }   /* the page entrance animation would hold it visible */
-html.tv:not(.tv-poke) .tv-leave:not(:focus-visible) { opacity: 0; pointer-events: none; }
+.tv-leave .ic, .tv-snd .ic { width: 14px; height: 14px; }
+.tv-leave:hover, .tv-leave:focus-visible, .tv-snd:hover, .tv-snd:focus-visible { opacity: 1; }
+#app > .tv-ctl { animation: none; }   /* the page entrance animation would hold it visible */
+html.tv:not(.tv-poke) .tv-ctl button:not(:focus-visible) { opacity: 0; pointer-events: none; }
+/* "turn on sound": a TV opened from a link has had no click yet, so its audio is still blocked */
+.tv-sound { position: fixed; left: 50%; bottom: 1rem; transform: translateX(-50%); z-index: 41; display: inline-flex; align-items: center; gap: 8px;
+  padding: 8px 14px; border-radius: 99px; background: var(--card); border: 1px solid var(--line); color: var(--muted); font-size: 14px; font-weight: 600; white-space: nowrap; pointer-events: none; }
+.tv-sound .ic { width: 16px; height: 16px; }
 .tv-main { flex: 1; min-height: 0; position: relative; overflow: hidden; }
 .tv-fit { position: absolute; left: 0; top: 0; width: 100%; display: grid; gap: 1.6rem; transform-origin: 0 0; }
 .tv-top { flex: none; }

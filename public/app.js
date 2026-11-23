@@ -103,6 +103,8 @@ const ICON = {
   link: '<path d="M10 14a4 4 0 0 0 5.7 0l3.1-3.1a4 4 0 0 0-5.7-5.7l-1.2 1.2"/><path d="M14 10a4 4 0 0 0-5.7 0l-3.1 3.1a4 4 0 0 0 5.7 5.7l1.2-1.2"/>',
   crown: '<path d="M3 8l4.5 4.5L12 5l4.5 7.5L21 8l-2 11H5z"/>',
   tv: '<rect x="2.5" y="4.5" width="19" height="13" rx="2"/><path d="M8 21h8M12 17.5V21"/>',
+  vol: '<path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/>',
+  mute: '<path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M16 9.5l5 5M21 9.5l-5 5"/>',
   crosshair: '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>',
   zap: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
   check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
@@ -1668,7 +1670,7 @@ function partyMenu(code = '') {
   $('#back').onclick = home;
   $('#create').onclick = () => go('/api/room/create', {});
   $('#join').onsubmit = e => { e.preventDefault(); go('/api/room/join', { code: $('#code').value.trim() }); };
-  $('#tvJoin').onsubmit = e => { e.preventDefault(); joinScreen($('#tvCode').value); };
+  $('#tvJoin').onsubmit = e => { e.preventDefault(); sfx.start(); joinScreen($('#tvCode').value); };   // a click: sound can start now
 }
 
 function enterParty(code, pid) {
@@ -2285,14 +2287,15 @@ function runReveal(ctx, s, then) {
   groups.forEach((g, i) => {
     const last = i === groups.length - 1 && groups.length > 1 && g.x.valid;
     if (last) {
-      timers.push(setTimeout(() => { drum.hidden = false; }, at));
+      timers.push(setTimeout(() => { drum.hidden = false; if (ctx.fx) ctx.fx.drum(); }, at));
       at += 1600;
     }
     timers.push(setTimeout(() => {
       drum.hidden = true;
       list.insertAdjacentHTML('beforeend', revealCard(s, g, last));
+      if (ctx.fx) ctx.fx.card(g, last);
       if (ctx !== tv) list.lastElementChild.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-      try { if (last && navigator.vibrate) navigator.vibrate(g.x.outlier ? [70, 50, 140] : 40); } catch { /* not supported */ }
+      try { if (last && ctx !== tv && navigator.vibrate) navigator.vibrate(g.x.outlier ? [70, 50, 140] : 40); } catch { /* not supported */ }
     }, at));
     at += last ? 2200 : 1300;
   });
@@ -2426,6 +2429,187 @@ function partyFinal(s, host) {
 
 let tv = null;
 
+// ---- big-screen sound. Only the TV makes noise (phones in the room stay silent), and every sound is synthesised
+// with Web Audio, so there are no files to load. Browsers keep audio off until the page gets a click or key press,
+// so a TV opened from a ?tv= link shows a small "turn on sound" note until someone presses something.
+const sfx = {
+  ctx: null, master: null, noise: null, clockTimer: null,
+  muted: !!store.get('outlier.tvMute', false),
+  log: [],   // in memory only, for debugging: names that played, and (names) that were skipped (muted, hidden, no audio yet)
+
+  // Make or wake the audio context. From a click or key press it starts running; without one it waits, suspended.
+  start() {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return;
+    if (!this.ctx) {
+      try {
+        const c = new AC(), comp = c.createDynamicsCompressor();
+        comp.threshold.value = -18; comp.knee.value = 12; comp.ratio.value = 4; comp.attack.value = .005; comp.release.value = .2;
+        comp.connect(c.destination);
+        this.master = c.createGain();
+        this.master.gain.value = this.muted ? 0 : .5;
+        this.master.connect(comp);
+        const len = c.sampleRate * 2, d = (this.noise = c.createBuffer(1, len, c.sampleRate)).getChannelData(0);
+        for (let i = 0; i < len; i++) d[i] = Math.random() * 2 - 1;
+        c.onstatechange = sfxBanner;
+        this.ctx = c;
+      } catch { return; }
+    }
+    if (this.ctx.state !== 'running') this.ctx.resume().then(sfxBanner, () => {});
+  },
+  live() { return !!(tv && this.ctx && this.ctx.state === 'running' && !this.muted && !document.hidden); },
+  play(name, arg, delay = 0) {
+    const ok = this.live();
+    this.log.push(ok ? name : `(${name})`);
+    if (this.log.length > 400) this.log.shift();
+    if (!ok) return;
+    try { SFX[name](this.ctx.currentTime + .01 + delay, arg); } catch { /* a sound must never break the screen */ }
+  },
+  // Several at once (six phones locking in on the same poll): staggered and capped so they don't blast.
+  many(name, n, gap = .06, cap = 5) { for (let i = 0; i < Math.min(n, cap); i++) this.play(name, undefined, i * gap); },
+  setMute(on) {
+    this.muted = on;
+    store.set('outlier.tvMute', on);
+    if (this.master) this.master.gain.setTargetAtTime(on ? 0 : .5, this.ctx.currentTime, .03);   // also hushes anything already scheduled
+    if (!on) this.start();
+    const b = $('#tvSnd');
+    if (b) { b.innerHTML = ic(on ? 'mute' : 'vol'); b.setAttribute('aria-label', on ? 'Turn sound on' : 'Turn sound off'); }
+    sfxBanner();
+  },
+  // Ticks for the last 10 seconds of a clock, from the TV's own deadline; one interval, cleared on every screen change.
+  clock(ms, buzz) {
+    this.stopClock();
+    if (!(ms > 0)) return;
+    const end = performance.now() + ms;
+    let last = Math.ceil(ms / 1000);
+    this.clockTimer = setInterval(() => {
+      const left = end - performance.now();
+      if (left <= 0) { this.stopClock(); if (buzz) this.play('buzzer'); return; }
+      const n = Math.ceil(left / 1000);
+      if (n !== last) { last = n; if (n <= 10) this.play('tick', n); }
+    }, 50);
+  },
+  stopClock() { clearInterval(this.clockTimer); this.clockTimer = null; },
+  // The end-of-game podium: a thud as each step rises, then a fanfare and a cheer with the confetti (see .podium.play in the CSS).
+  podium() {
+    [.1, .45, .8].forEach((d, i) => this.play('step', i, d));
+    this.play('fanfare', undefined, 1.4);
+    this.play('cheer', undefined, 1.4);
+  },
+};
+
+function sfxBanner() {
+  const need = !!(tv && sfx.ctx && sfx.ctx.state !== 'running' && !sfx.muted);
+  let el = document.getElementById('tvSound');
+  if (need && !el) {
+    el = Object.assign(document.createElement('div'), { id: 'tvSound', className: 'tv-sound', innerHTML: `${ic('vol')}<span>Press OK / click to turn on sound</span>` });
+    document.body.append(el);
+  } else if (!need && el) el.remove();
+}
+['pointerdown', 'keydown'].forEach(ev => document.addEventListener(ev, () => { if (tv && sfx.ctx && sfx.ctx.state !== 'running') sfx.start(); }, true));
+document.addEventListener('keydown', e => {
+  if (!tv || e.repeat || e.ctrlKey || e.metaKey || e.altKey || (e.key !== 'm' && e.key !== 'M')) return;
+  sfx.setMute(!sfx.muted);
+  toast(sfx.muted ? 'Sound off' : 'Sound on');
+});
+
+// Building blocks: a tone with a quick attack and an exponential fade (optionally gliding, optionally low-passed),
+// and a burst of filtered noise.
+function sfxTone(t, f, dur, { type = 'sine', vol = .3, to = 0, attack = .005, lp = 0 } = {}) {
+  const c = sfx.ctx, o = c.createOscillator(), g = c.createGain();
+  o.type = type;
+  o.frequency.setValueAtTime(f, t);
+  if (to) o.frequency.exponentialRampToValueAtTime(to, t + dur);
+  g.gain.setValueAtTime(.0001, t);
+  g.gain.exponentialRampToValueAtTime(vol, t + Math.min(attack, dur * .9));
+  g.gain.exponentialRampToValueAtTime(.0001, t + dur);
+  let out = o;
+  if (lp) { const b = c.createBiquadFilter(); b.type = 'lowpass'; b.frequency.value = lp; out = out.connect(b); }
+  out.connect(g).connect(sfx.master);
+  o.start(t); o.stop(t + dur + .05);
+}
+function sfxNoise(t, dur, { vol = .2, filter = 'bandpass', f = 1000, to = 0, q = 1, attack = .005 } = {}) {
+  const c = sfx.ctx, src = c.createBufferSource(), b = c.createBiquadFilter(), g = c.createGain();
+  src.buffer = sfx.noise; src.loop = true;
+  b.type = filter; b.Q.value = q;
+  b.frequency.setValueAtTime(f, t);
+  if (to) b.frequency.exponentialRampToValueAtTime(to, t + dur);
+  g.gain.setValueAtTime(.0001, t);
+  g.gain.exponentialRampToValueAtTime(vol, t + Math.min(attack, dur * .9));
+  g.gain.exponentialRampToValueAtTime(.0001, t + dur);
+  src.connect(b).connect(g).connect(sfx.master);
+  src.start(t, Math.random() * 1.5); src.stop(t + dur + .05);
+}
+
+const C_MAJ = [523.25, 659.25, 783.99, 1046.5];
+const SFX = {
+  pop(t) { sfxTone(t, 480, .13, { to: 1200, vol: .26 }); sfxTone(t + .03, 1600, .07, { type: 'triangle', vol: .05 }); },
+  sting(t) {
+    [784, 1175, 1568].forEach((f, i) => sfxTone(t + i * .06, f, .55 - i * .1, { type: 'triangle', vol: .16 }));
+    sfxNoise(t, .3, { filter: 'highpass', f: 6000, vol: .05 });
+  },
+  stingSoft(t) { sfxTone(t, 523.25, .35, { type: 'triangle', vol: .12 }); sfxTone(t + .1, 783.99, .5, { vol: .12 }); },
+  tick(t, n) {   // n = seconds left: tick/tock, then higher and louder for the last three
+    const hot = n <= 3;
+    sfxTone(t, hot ? 1760 : n % 2 ? 1250 : 930, hot ? .1 : .06, { type: 'triangle', vol: hot ? .3 : .16, attack: .002 });
+    sfxNoise(t, .02, { filter: 'highpass', f: 4000, vol: hot ? .08 : .04, attack: .001 });
+  },
+  buzzer(t) { [110, 116.5].forEach(f => sfxTone(t, f, .75, { type: 'sawtooth', vol: .2, attack: .01, lp: 1100 })); },
+  lock(t) { sfxTone(t, 660, .1, { to: 1320, vol: .2 }); sfxNoise(t, .03, { filter: 'highpass', f: 3000, vol: .07, attack: .001 }); },
+  swoosh(t) { sfxNoise(t, .34, { f: 450, to: 3600, q: 1.2, vol: .2, attack: .16 }); },
+  thud(t) { sfxTone(t, 140, .3, { to: 48, vol: .38 }); sfxNoise(t, .08, { filter: 'lowpass', f: 400, vol: .12 }); },
+  drumroll(t, dur = 1.6) {   // low hits that speed up and swell, over a building snare hiss
+    for (let at = 0, gap = .11; at < dur - .03; at += gap, gap = Math.max(.045, gap * .93)) {
+      const k = at / dur;
+      sfxTone(t + at, 95, .09, { to: 60, vol: .1 + .25 * k });
+      sfxNoise(t + at, .05, { f: 1800, q: .7, vol: .04 + .1 * k, attack: .002 });
+    }
+    sfxNoise(t, dur, { f: 1500, q: .5, vol: .09, attack: dur * .9 });
+  },
+  hit(t) {
+    sfxTone(t, 160, .5, { to: 45, vol: .5 });
+    sfxNoise(t, .25, { filter: 'lowpass', f: 2500, vol: .22 });
+    [523.25, 783.99].forEach(f => sfxTone(t, f, .7, { type: 'triangle', vol: .09 }));
+  },
+  crash(t) { sfxNoise(t, 1.8, { filter: 'highpass', f: 5000, vol: .2, attack: .003 }); sfxNoise(t, .6, { f: 3000, q: .6, vol: .1 }); },
+  fanfare(t) {
+    C_MAJ.forEach((f, i) => sfxTone(t + i * .1, f, .26, { type: 'triangle', vol: .17 }));
+    C_MAJ.forEach(f => sfxTone(t + .42, f, 1.2, { type: 'sawtooth', vol: .045, lp: 2200, attack: .03 }));
+    sfxTone(t + .42, 261.63, 1.2, { type: 'triangle', vol: .12, attack: .03 });
+  },
+  tally(t, dur = 1.5) {   // ticks rising in pitch while the scores count up
+    const n = Math.max(6, Math.round(dur / .07));
+    for (let i = 0; i < n; i++) sfxTone(t + i * dur / n, 600 * Math.pow(2, 1.5 * i / n), .05, { type: 'triangle', vol: .1, attack: .002 });
+    sfxTone(t + dur, 1700, .25, { type: 'triangle', vol: .1 });
+  },
+  step(t, i = 0) { sfxTone(t, 95 - i * 10, .35, { to: 40, vol: .45 }); sfxNoise(t, .12, { filter: 'lowpass', f: 300, vol: .18 }); },
+  cheer(t) {
+    sfxNoise(t, 2.8, { f: 1100, q: .4, vol: .15, attack: .7 });
+    sfxNoise(t, 2.5, { f: 2600, q: .8, vol: .05, attack: .6 });
+    for (let i = 0; i < 7; i++) {   // a few "whoo"s from the crowd
+      const at = t + .2 + Math.random() * 1.6, f = 650 + Math.random() * 600;
+      sfxTone(at, f, .32, { to: f * 1.7, vol: .045, attack: .04 });
+    }
+  },
+  ding(t) { sfxTone(t, 1318.5, .7, { vol: .2, attack: .003 }); sfxTone(t, 2637, .35, { vol: .05, attack: .003 }); },
+  whoosh(t) { sfxNoise(t, .36, { f: 300, to: 1800, q: 1, vol: .15, attack: .17 }); },
+  boom(t, heavy) {   // a low drop and a burst; heavier when the player is out
+    sfxTone(t, heavy ? 120 : 150, heavy ? 1.2 : .7, { to: 30, vol: .6 });
+    sfxNoise(t, heavy ? 1 : .5, { filter: 'lowpass', f: heavy ? 1400 : 900, to: 100, vol: heavy ? .45 : .3 });
+    if (heavy) sfxTone(t + .15, 60, 1, { to: 25, vol: .4 });
+  },
+};
+
+// Hooks for runReveal on the big screen (the phone's reveal has none).
+const tvRevealFx = {
+  drum: () => sfx.play('drumroll'),
+  card(g, last) {
+    if (g.x.outlier) { sfx.play('hit'); sfx.play('crash'); sfx.play('fanfare', undefined, .15); }
+    else if (last) sfx.play('hit');
+    else sfx.play(g.x.valid ? 'swoosh' : 'thud');
+  },
+};
+
 async function joinScreen(code) {
   code = String(code || '').trim().toUpperCase().slice(0, 4);
   if (code.length < 4) return toast('Enter the 4-letter room code');
@@ -2445,8 +2629,10 @@ function enterScreen(code, sid) {
   store.set('outlier.screen', { code, sid });
   history.replaceState(null, '', `/?tv=${code}`);
   document.documentElement.classList.add('tv');
-  tv = { code, sid, key: null, busy: false, revealTimers: [] };
+  tv = { code, sid, key: null, busy: false, revealTimers: [], fx: tvRevealFx };
   stayAwake(true);
+  sfx.start();
+  setTimeout(sfxBanner, 400);   // still suspended by then: no click opened this screen
   window.addEventListener('resize', tvFit);
   tv.poll = setInterval(pollScreen, 1000);
   pollScreen();
@@ -2463,6 +2649,8 @@ function leaveScreen(msg) {
   stayAwake(false);
   tv = null;
   stopTimer();
+  sfx.stopClock();
+  sfxBanner();
   store.del('outlier.screen');
   document.documentElement.classList.remove('tv');
   history.replaceState(null, '', location.pathname);
@@ -2497,6 +2685,7 @@ function renderScreen(s) {
   if (key !== tv.key) {
     tv.key = key;
     stopTimer();
+    sfx.stopClock();
     tv.revealTimers.forEach(clearTimeout);
     tv.revealTimers = [];
     tv.seenKey = tv.locked = tv.ptTurn = null;
@@ -2557,8 +2746,10 @@ function tvShow(s, mid, body, cls) {
   show(`<header class="tv-top"><div class="logo">Outl<b>i</b>er</div><span class="tv-mid">${mid}</span>
       <span class="tv-join">${esc(location.host)} · <b>${esc(s.code)}</b></span></header>
     <section class="tv-main"><div class="tv-fit ${cls}" id="tvFit">${body}</div></section>
-    <button class="tv-leave" id="tvLeave">${ic('x')}<span>Leave</span></button>`);
+    <div class="tv-ctl"><button class="tv-snd" id="tvSnd" aria-label="${sfx.muted ? 'Turn sound on' : 'Turn sound off'}">${ic(sfx.muted ? 'mute' : 'vol')}</button>
+      <button class="tv-leave" id="tvLeave">${ic('x')}<span>Leave</span></button></div>`);
   $('#tvLeave').onclick = () => leaveScreen();
+  $('#tvSnd').onclick = () => sfx.setMute(!sfx.muted);
   tvWatchFit();
 }
 
@@ -2634,6 +2825,7 @@ function tvLobbyUpdate(s) {
   if (key === tv.seenKey) return;
   tv.seenKey = key;
   const seen = tv.seen || new Set();
+  if (tv.seen) sfx.many('pop', s.players.filter(p => !seen.has(p.n)).length);   // not for everyone already there when the TV opens
   $('#tvPlayers').innerHTML = s.players.map((p, i) => `<li class="${seen.has(p.n) ? '' : 'pop'}${p.online ? '' : ' off'}" style="--d:${(i % 12) * .06}s">
     ${avatar(p.name, p.color, p.look)}<b>${esc(p.name)}</b>${p.n === s.host ? '<small>Host</small>' : ''}</li>`).join('');
   tv.seen = new Set(s.players.map(p => p.n));
@@ -2645,6 +2837,7 @@ function tvTicks(s, on, label) {
   const live = s.players.filter(p => p.online || on(p));
   const now = new Set(live.filter(on).map(p => p.n)), was = tv.locked;
   tv.locked = now;
+  if (was) sfx.many('lock', [...now].filter(n => !was.has(n)).length);
   const el = $('#tvTicks');
   if (el) el.innerHTML = live.map(p => `<li class="${now.has(p.n) ? 'in' : ''}${was && now.has(p.n) && !was.has(p.n) ? ' pop' : ''}">
     ${avatar(p.name, p.color, p.look)}<b>${esc(p.name)}</b><small>${label(now.has(p.n))}</small></li>`).join('');
@@ -2659,6 +2852,8 @@ function tvPick(s) {
     <p class="tv-sub">Double down or play it straight? Decide on your phone.</p>
     <ul class="tv-ticks" id="tvTicks"></ul>`, 'tv-stage');
   runTimer(s.remainingMs, s.roundMs, () => {});
+  sfx.play('stingSoft');
+  sfx.clock(s.remainingMs, false);
 }
 
 function tvQuestion(s) {
@@ -2669,6 +2864,8 @@ function tvQuestion(s) {
     <ul class="tv-ticks" id="tvTicks"></ul>
     <p class="tv-sub" id="tvLocked"></p>`, 'tv-stage');
   runTimer(s.remainingMs, s.roundMs, () => {});
+  sfx.play('sting');
+  sfx.clock(s.remainingMs, true);
 }
 
 // The reveal plays once a round on the TV (the phones skip theirs), then the score race and standings.
@@ -2692,6 +2889,8 @@ function tvScores(s) {
     </div>
     <p class="tv-sub tv-foot">Waiting for the host to ${s.round >= s.rounds ? 'show the final standings' : 'start the next round'}</p>`, 'tv-scores');
   raceUp();
+  const top = Math.max(0, ...r.results.map(x => x.points));   // as long as the slowest racer, within 0.6-2 seconds
+  if (top > 0 && !matchMedia('(prefers-reduced-motion: reduce)').matches) sfx.play('tally', Math.min(2, Math.max(.6, (500 + Math.min(top, 100) * 24) / 1000)));
 }
 
 function tvFinal(s) {
@@ -2705,6 +2904,7 @@ function tvFinal(s) {
       ${podiumHTML(s, rankBy(order, p => p.score), p => `${p.score} paces`)}
     </div>
     <div class="tv-col">${awardsHTML(s)}<section class="card"><h3>Standings</h3>${tvStandings(s)}</section></div>`, 'tv-final');
+  if ($('.podium.play')) sfx.podium();
 }
 
 function tvPotatoFinal(s) {
@@ -2723,11 +2923,16 @@ function tvPotatoFinal(s) {
       <section class="card"><h3>Standings</h3><ol class="tv-standings">${order.map((p, i) => `<li><span class="num rank">${i + 1}</span>
         ${avatar(p.name, p.color, p.look)}<b>${esc(p.name)}<small>${p.out ? 'Out' : 'Still standing'}</small></b><span class="num">${p.score}</span></li>`).join('')}</ol></section>
     </div>`, 'tv-final');
+  if ($('.podium.play')) sfx.podium();
 }
 
 // Fumble: whose turn it is, big, with the prompt and the clock; everyone's lives and the answers so far alongside.
 function tvPotato(s) {
-  if (s.boom && s.boom.turn === s.turnId && s.breakMs > 0) return tvShow(s, `Fumble · Prompt ${s.round}`, potatoBreakHTML(s), 'tv-break');
+  if (s.boom && s.boom.turn === s.turnId && s.breakMs > 0) {
+    tvShow(s, `Fumble · Prompt ${s.round}`, potatoBreakHTML(s), 'tv-break');
+    return sfx.play('boom', !!s.boom.out);
+  }
+  sfx.play('sting');
   tvShow(s, `Fumble · Prompt ${s.round}`, `
     <div class="tv-col tv-turn">
       <p class="tv-hint">${esc(s.hint)}</p>
@@ -2748,16 +2953,20 @@ function tvPotatoUpdate(s) {
   $('#ptLog').innerHTML = potatoLog(s);
   $('#ptSaid').textContent = s.said;
   potatoPop(s);
+  if (tv.ptSaid !== undefined && s.said > tv.ptSaid) sfx.play('ding');   // a new answer went on the list
+  tv.ptSaid = s.said;
   if (tv.ptTurn === s.turnId) return;   // the rest only changes when the turn does
+  if (tv.ptTurn != null) sfx.play('whoosh', undefined, .12);   // passed on (not the first turn of a prompt)
   const turn = tv.ptTurn = s.turnId;
+  sfx.stopClock();
   const cur = s.players.find(p => p.n === s.current) || {};
   $('#tvCur').innerHTML = `${avatar(cur.name, cur.color, cur.look)}<b>${esc(cur.name || '')}</b><span>Your turn!</span>`;
   if (s.startsInMs > 0) {   // a new prompt: time to read it before the clock starts
     stopTimer();
     $('#tsecs').textContent = 'Ready';
     $('#tbar').style.width = '100%';
-    setTimeout(() => { if (tv && tv.ptTurn === turn && $('#tvCur')) runTimer(s.remainingMs, s.roundMs, () => {}); }, s.startsInMs);
-  } else runTimer(s.remainingMs, s.roundMs, () => {});
+    setTimeout(() => { if (tv && tv.ptTurn === turn && $('#tvCur')) { runTimer(s.remainingMs, s.roundMs, () => {}); sfx.clock(s.remainingMs, false); } }, s.startsInMs);
+  } else { runTimer(s.remainingMs, s.roundMs, () => {}); sfx.clock(s.remainingMs, false); }
 }
 
 // ------------------------------------------------------------ You: personal stats and badges
