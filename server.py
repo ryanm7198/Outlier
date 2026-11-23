@@ -95,6 +95,15 @@ STREAM_FROM = datetime.date(2026, 11, 13)   # dailies from this day on use the e
 # the specialist ones. Sport covers football and the NBA too, so it is one share however many questions it has.
 TOP_SHARE = {"geography": 1.5, "history": 0.9, "science": 1.5, "words": 1.5, "misc": 1.5, "food": 1.3,
              "film": 1.0, "music": 0.8, "gaming": 0.6, "sport": 0.6}
+# Question health. A prompt players clearly dislike is retired: it stops coming up in new dailies and in quick,
+# random, party and Fumble games (old challenge links and pinned dailies with it still play). The owner can force
+# either way through /api/review/retire. A prompt whose crowd all says the same thing is only flagged for widening.
+RETIRE_VOTES = 6          # retire only once at least this many players have voted on it...
+RETIRE_DOWN = 0.65        # ...and at least this share of the votes are thumbs down
+RETIRE_TTL = 300          # seconds the retired set is cached (a vote or override refreshes it straight away)
+SPREAD_PLAYS = 40         # low-spread checks need this many real plays on a prompt
+SPREAD_TOP = 0.70         # flagged if the most common answer has more than this share of real plays...
+SPREAD_DISTINCT = 4       # ...or fewer than this many different answers were ever given
 LOCK = threading.RLock()
 
 MIME = {
@@ -344,6 +353,7 @@ def open_db():
     DB.execute("CREATE TABLE IF NOT EXISTS daily_seen (day TEXT, cid TEXT, PRIMARY KEY (day, cid))")
     DB.execute("CREATE TABLE IF NOT EXISTS votes (prompt_id TEXT, cid TEXT, vote INTEGER, ts INTEGER, PRIMARY KEY (prompt_id, cid))")
     DB.execute("CREATE TABLE IF NOT EXISTS streaks (user_id INTEGER PRIMARY KEY, n INTEGER, best INTEGER, last TEXT)")
+    DB.execute("CREATE TABLE IF NOT EXISTS retired_overrides (prompt_id TEXT PRIMARY KEY, state TEXT, ts INTEGER)")   # 'retired' | 'kept'
     DB.execute("CREATE INDEX IF NOT EXISTS user_plays_user ON user_plays (user_id, ts)")
     # web push subscriptions for streak reminders, with the streak the browser last reported (n, last day played)
     # and the day it was last reminded; user_id links a signed-in player, whose streak in `streaks` wins
@@ -783,6 +793,7 @@ def stats():
         "leaderboardScores": one("SELECT COUNT(*) FROM scores"),
         "votes": one("SELECT COUNT(*) FROM votes"),
         "ratings": ratings(),
+        "health": question_health(20),
         "since": min(list(players) + list(answers) + [day(0)]),
         "paywall": PAYWALL,
         "db": DB_PATH, "dbPersistent": not os.path.abspath(DB_PATH).startswith(ROOT),   # anywhere outside the code folder (a mounted disk)
@@ -971,6 +982,77 @@ def review_done(body):
     return {"ok": True, "marked": min(len(items), 200)}
 
 
+# ---------------------------------------------------------------- question health
+
+_RETIRED = {"at": 0.0, "ids": frozenset()}
+
+
+def vote_tally():
+    """{base prompt id: (up, down)} for every prompt anyone has voted on."""
+    return {p: (u or 0, d or 0) for p, u, d in
+            DB.execute("SELECT prompt_id, SUM(vote = 1), SUM(vote = -1) FROM votes GROUP BY prompt_id")}
+
+
+def retired_ids():
+    """Base prompt ids that are retired: disliked by the votes or forced by the owner, minus any the owner kept.
+    Cached for a few minutes, as pool() asks on every game."""
+    if DB is None:
+        return frozenset()
+    if time.time() - _RETIRED["at"] > RETIRE_TTL:
+        out = {p for p, (u, d) in vote_tally().items() if u + d >= RETIRE_VOTES and d >= RETIRE_DOWN * (u + d)}
+        for p, state in DB.execute("SELECT prompt_id, state FROM retired_overrides"):
+            (out.add if state == "retired" else out.discard)(p)
+        _RETIRED.update(at=time.time(), ids=frozenset(out))
+    return _RETIRED["ids"]
+
+
+def is_retired(pid):
+    return pid.split("--")[0] in retired_ids()   # era versions go with the main prompt (votes are on the main one)
+
+
+def retire_override(body):
+    """The owner forces a prompt out ('retired') or keeps it whatever the votes say ('kept'); 'clear' goes back to the votes."""
+    need_review_key()
+    pid = str(body.get("promptId") or "").split("--")[0]
+    state = str(body.get("state") or "")
+    if pid not in PROMPTS or state not in ("retired", "kept", "clear"):
+        raise ApiError(400, "Need a known promptId and state 'retired', 'kept' or 'clear'")
+    if state == "clear":
+        DB.execute("DELETE FROM retired_overrides WHERE prompt_id = ?", (pid,))
+    else:
+        DB.execute("INSERT OR REPLACE INTO retired_overrides VALUES (?, ?, ?)", (pid, state, int(time.time())))
+    DB.commit()
+    _RETIRED["at"] = 0
+    return {"ok": True, "promptId": pid, "state": state, "retired": pid in retired_ids()}
+
+
+def question_health(spread_limit=None):
+    """Retired prompts with their votes, and prompts whose real plays are bunched on one answer (to widen)."""
+    tally = vote_tally()
+    forced = dict(DB.execute("SELECT prompt_id, state FROM retired_overrides").fetchall())
+    retired = [{"promptId": p, "prompt": PROMPTS[p]["text"], "up": tally.get(p, (0, 0))[0], "down": tally.get(p, (0, 0))[1],
+                "forced": forced.get(p) == "retired"} for p in sorted(retired_ids()) if p in PROMPTS]
+    low = []
+    for pid, plays, top, distinct in DB.execute(
+            "SELECT prompt_id, SUM(plays), MAX(plays), SUM(plays > 0) FROM answers GROUP BY prompt_id HAVING SUM(plays) >= ?",
+            (SPREAD_PLAYS,)):
+        if pid not in PROMPTS or not (top > SPREAD_TOP * plays or distinct < SPREAD_DISTINCT):
+            continue
+        name = DB.execute("SELECT name FROM answers WHERE prompt_id = ? ORDER BY plays DESC, name LIMIT 1", (pid,)).fetchone()[0]
+        low.append({"promptId": pid, "prompt": PROMPTS[pid]["text"], "plays": plays, "topAnswer": name,
+                    "topShare": round(top / plays, 3), "distinct": distinct})
+    low.sort(key=lambda r: (-r["topShare"], r["distinct"], -r["plays"]))
+    return {"retired": retired, "lowSpread": low[:spread_limit] if spread_limit else low,
+            "lowSpreadTotal": len(low)}
+
+
+def review_flags():
+    need_review_key()
+    out = question_health()
+    out.pop("lowSpreadTotal")
+    return out
+
+
 def log_play(pid, out):
     user = current_user()
     if user and out["given"]:
@@ -1057,13 +1139,14 @@ def mix_plan(tags, ids):
     return groups, weights
 
 
-def pool(cat, tags, deep=None):
+def pool(cat, tags, deep=None, retired=False):
     """Prompt ids in a category that pass every filter group. Questions marked "deep" (specialist
     ones, like one club's squad in one season) only come up once the player has picked a filter.
     A parent category (Sport) includes its sub-categories (Football). Ticking sports narrows it to those;
-    Football's own filters (Era, Competition) then apply to the football questions only."""
+    Football's own filters (Era, Competition) then apply to the football questions only.
+    Retired prompts are left out unless retired=True, though a pick made up only of retired ones keeps them."""
     if cat == "mix":
-        return sorted({i for c, t in parse_mix(tags) for i in pool(c, t, deep)})
+        return sorted({i for c, t in parse_mix(tags) for i in pool(c, t, deep, retired)})
     tags = set(tags or [])
     kids = children_of(cat)
     lead, subs = sub_choices(cat, tags) if kids else (set(), set())
@@ -1087,6 +1170,8 @@ def pool(cat, tags, deep=None):
         ptags = set(p["tags"])
         if all(group_ok(g, g & tags, ptags) for g in filter_groups(home)):
             out.append(p["id"])
+    if not retired:
+        out = [i for i in out if not is_retired(i)] or out
     return sorted(out)
 
 
@@ -1226,7 +1311,9 @@ def daily_ok(pid, cat):
 
 
 def daily_pool(cat, day):
-    ids = pool(cat, [])
+    # Only days that get pinned now (today on) drop retired prompts: older, never-pinned days are worked out again
+    # for the leaderboards and must come out as they did then.
+    ids = pool(cat, [], retired=day < datetime.date.today() - datetime.timedelta(days=1))
     if day < EASY_FROM or not EASE:
         return ids
     easy = [i for i in ids if daily_ok(i, cat)]
@@ -1448,6 +1535,7 @@ def cast_vote(body):
     else:
         DB.execute("DELETE FROM votes WHERE prompt_id = ? AND cid = ?", (pid, cid))
     DB.commit()
+    _RETIRED["at"] = 0   # work the retired set out again on the next game
     return {"ok": True}
 
 
@@ -1966,6 +2054,8 @@ def api_get(path, q):
         except ValueError:
             limit = 300
         return review_queue(limit)
+    if path == "/api/review/flags":
+        return review_flags()
     if path == "/api/room/state":
         room = get_room(q.get("code"), q.get("pid"))
         return room_state(room, q.get("pid"))
@@ -2029,6 +2119,8 @@ def api_post(path, body):
         return {"suggest": name, "exact": exact}
     if path == "/api/review/done":
         return review_done(body)
+    if path == "/api/review/retire":
+        return retire_override(body)
     if path == "/api/room/create":
         room, token = create_room(body.get("name"))
         return {"code": room["code"], "pid": token}

@@ -54,6 +54,16 @@
   const rate = (title, rows) => !rows || !rows.length ? `<p class="muted">${title}: not enough votes yet (each question needs 3).</p>`
     : `<p class="muted" style="margin:14px 0 4px">${title}</p><table><tr><th>Question</th><th>👍</th><th>👎</th><th>Score</th></tr>
       ${rows.map(r => `<tr><td>${esc(r.text)}<br><span class="muted">${esc(r.id)}</span></td><td>${r.up}</td><td>${r.down}</td><td>${r.score}%</td></tr>`).join('')}</table>`;
+  // Retired questions no longer come up in new games; low-spread ones are bunched on one answer and want widening.
+  const health = h => {
+    const ret = h.retired || [], low = h.lowSpread || [];
+    return (!ret.length ? `<p class="muted">Retired: none. A question retires at 6+ votes with 65%+ thumbs down.</p>`
+      : `<p class="muted" style="margin:14px 0 4px">Retired (${ret.length}): left out of new dailies and games</p><table><tr><th>Question</th><th>👍</th><th>👎</th></tr>
+        ${ret.map(r => `<tr><td>${esc(r.prompt)}<br><span class="muted">${esc(r.promptId)}${r.forced ? ' · retired by hand' : ''}</span></td><td>${r.up}</td><td>${r.down}</td></tr>`).join('')}</table>`)
+      + (!low.length ? `<p class="muted">Low spread: none. Checked once a question has 40 real plays.</p>`
+      : `<p class="muted" style="margin:14px 0 4px">Low spread (top ${low.length} of ${n(h.lowSpreadTotal || low.length)}): one answer dominates or few different answers</p><table><tr><th>Question</th><th>Plays</th><th>Top answer</th><th>Answers</th></tr>
+        ${low.map(r => `<tr><td>${esc(r.prompt)}<br><span class="muted">${esc(r.promptId)}</span></td><td>${n(r.plays)}</td><td>${esc(r.topAnswer)} ${Math.round(100 * r.topShare)}%</td><td>${r.distinct}</td></tr>`).join('')}</table>`);
+  };
   sub.textContent = `Counting since ${d.since}. Players are anonymous browser IDs from solo and daily games, so one person on two devices counts twice. Paywall is ${d.paywall ? 'ON' : 'off'}.`;
   if (!d.dbPersistent) sub.innerHTML += ` <b style="color:var(--you)">Warning: the database is at ${d.db}, which is inside the code folder, not on a persistent disk, so every deploy wipes accounts, sign-ins and stats.</b>`;
   else sub.textContent += ` Database: ${d.db}. First account: ${d.firstAccount || 'none'}.`;
@@ -67,6 +77,8 @@
     <h2>Question ratings <span style="text-transform:none;letter-spacing:0">(${n(d.votes || 0)} votes, ${n((d.ratings || {}).rated || 0)} questions with 3+)</span></h2>
     ${rate('Most liked', (d.ratings || {}).best)}
     ${rate('Least liked', (d.ratings || {}).worst)}
+    <h2>Question health</h2>
+    ${health(d.health || {})}
     <h2>Last 14 days</h2>
     <table><tr><th>Day</th><th>Players</th><th>Answers</th><th style="width:30%"></th></tr>
       ${d.days.map(x => `<tr><td>${x.day}</td><td>${n(x.players)}</td><td>${n(x.answers)}</td><td><div class="bar" style="width:${Math.round(100 * x.players / max)}%"></div></td></tr>`).join('')}
