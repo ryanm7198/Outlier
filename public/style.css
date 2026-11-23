@@ -545,12 +545,15 @@ h1, h2, p, .main b, .tile-l { overflow-wrap: anywhere; }
   /* home: logo and crowd on the left, the choices on the right */
   #app:has(> .hero) { max-width: 1060px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     column-gap: 72px; row-gap: 18px; align-content: center; align-items: start; }
-  #app:has(> .hero) > .hero { grid-column: 1; grid-row: 1 / span 2; align-self: center; padding: 0; }
+  #app:has(> .hero) > .hero { grid-column: 1; grid-row: 1 / span 5; align-self: center; padding: 0; }
+  #app:has(> .hero) > .daily-card { grid-column: 2; grid-row: 1; }
   #app:has(> .hero) > .hero .logo { font-size: 5.2rem; }
   #app:has(> .hero) > .hero p { font-size: 1.15rem; margin-top: 12px; }
   #app:has(> .hero) > .hero .crowd { max-width: 340px; margin-top: 34px; }
-  #app:has(> .hero) > .modes { grid-column: 2; grid-row: 1; align-self: end; }
-  #app:has(> .hero) > .how { grid-column: 2; grid-row: 2; align-self: start; }
+  #app:has(> .hero) > .modes { grid-column: 2; grid-row: 2; }
+  #app:has(> .hero) > .acct { grid-column: 2; grid-row: 3; }
+  #app:has(> .hero) > .how { grid-column: 2; grid-row: 4; align-self: start; }
+  #app:has(> .hero) > .legal { grid-column: 2; grid-row: 5; }
   .mode { padding: 20px; }
 
   /* results: your score on the left, the answers and leaderboards on the right */
@@ -869,3 +872,45 @@ form.shake { animation: shake .35s; }
 @keyframes pddrop { from { transform: translateY(-40px); opacity: 0; } to { transform: none; opacity: 1; } }
 @keyframes pdfall { 0% { opacity: 1; transform: translateY(0) rotate(0); } 100% { opacity: 0; transform: translateY(170px) rotate(540deg); } }
 @media (prefers-reduced-motion: reduce) { .av.mood-cheer svg, .av.mood-cheer .arm, .av.mood-cry svg, .av.mood-cry .tear, .podium.play .pod-step, .podium.play .pod-top, .podium.play .pod-floor, .podium.play .confetti i { animation: none; } }
+
+/* ---- main menu: today's daily first, then the two ways to play, then two small tiles */
+.daily-card { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: 14px; width: 100%; padding: 16px; border-radius: 20px; text-align: left;
+  background: linear-gradient(135deg, var(--you), var(--you-2)); color: var(--you-ink); border: 0; box-shadow: 0 10px 30px -14px var(--you); }
+.daily-card:active { transform: scale(.985); }
+.daily-card .dc-ic { width: 50px; height: 50px; border-radius: 15px; display: grid; place-items: center; background: rgba(255, 255, 255, .22); }
+.daily-card .dc-ic .ic { width: 26px; height: 26px; }
+.dc-t { display: grid; min-width: 0; }
+.dc-t small { font-size: .7rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; opacity: .75; }
+.dc-t b { font-size: 1.3rem; letter-spacing: -.01em; }
+.dc-sub { font-size: .86rem; opacity: .85; }
+.dc-risk { display: inline-flex; align-items: center; gap: 4px; margin-top: 6px; font-size: .8rem; font-weight: 700; padding: 3px 8px 3px 6px; border-radius: 999px; background: rgba(0, 0, 0, .18); justify-self: start; }
+.dc-risk .ic { width: 14px; height: 14px; animation: flick 1.6s ease-in-out infinite; }
+.dc-risk.late { background: #14152b; color: #ffb14a; }
+.dc-risk.ok .ic { animation: none; }
+.dc-streak { display: inline-flex; align-items: center; gap: 2px; font-weight: 900; font-size: 1.05rem; }
+.dc-streak .ic { width: 18px; height: 18px; }
+.daily-card .chev { opacity: .75; }
+.daily-card.done { background: var(--card); color: var(--text); border: 1px solid var(--line); box-shadow: none; }
+.daily-card.done .dc-ic { background: color-mix(in srgb, #7bd88f 22%, transparent); color: #7bd88f; }
+.daily-card.done .dc-risk { background: var(--card-2); }
+.daily-card.done .dc-streak { color: #ff8a1f; }
+.mini-modes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.mini { display: grid; justify-items: start; gap: 2px; padding: 14px; border-radius: 18px; background: var(--card); border: 1px solid var(--line); color: var(--text); text-align: left; min-width: 0; }
+.mini:active { transform: scale(.97); }
+.mini-ic { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: var(--card-2); color: var(--you); margin-bottom: 6px; }
+.mini-ic .av { width: 36px; height: 36px; }
+.mini b { font-size: .98rem; }
+.mini small { color: var(--muted); font-size: .78rem; }
+details.how { gap: 0; }
+details.how summary { display: flex; align-items: center; justify-content: space-between; list-style: none; cursor: pointer; }
+details.how summary::-webkit-details-marker { display: none; }
+details.how summary .chev { color: var(--muted); transition: transform .15s; }
+details.how[open] summary .chev { transform: rotate(90deg); }
+details.how[open] summary { margin-bottom: 14px; }
+details.how .steps + .fine { margin-top: 14px; }
+/* Quick game: Play and Daily side by side in the pinned bar */
+.cta.row2 { grid-template-columns: 1.6fr 1fr; }
+.cta.row2 .btn.big { min-height: 56px; padding-left: 14px; padding-right: 12px; gap: 10px; }
+@media (prefers-reduced-motion: reduce) { .dc-risk .ic { animation: none; } }
+.cta.row2 .btn.big > span { display: grid; min-width: 0; }
+.cta.row2 .btn.big small { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

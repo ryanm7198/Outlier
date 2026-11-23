@@ -742,31 +742,57 @@ function home() {
       <p>Give the answer nobody else did.</p>
       ${crowdHTML(3)}
     </div>
+    ${dailyCardHTML()}
     <div class="modes">
-      ${mode('solo', 'user', 'Play solo', 'Daily seven, or a quick game to challenge a friend', true)}
+      ${limited() ? mode('solo', 'calendar', 'More dailies', "Another category's daily, or any category with Plus")
+        : mode('solo', 'play', 'Quick game', 'Pick categories or a mix, or play a friend’s challenge')}
       ${mode('party', 'users', 'Party game', 'Everyone plays together on their own phone')}
-      ${mode('board', 'trophy', 'Leaderboard', 'Daily seven top scores: today, this week and all time')}
-      <button class="mode" id="character"><span class="mode-ic">${avatar(store.get('outlier.name', '') || 'You', store.get('outlier.color', 0), store.get('outlier.look'))}</span>
-        <span class="mode-t"><b>Your character</b><small>Pick how you look in party games</small></span>${ic('right', 'chev')}</button>
+      <div class="mini-modes">
+        <button class="mini" id="board"><span class="mini-ic">${ic('trophy')}</span><b>Leaderboard</b><small>Today, week, all time</small></button>
+        <button class="mini" id="character"><span class="mini-ic">${avatar(store.get('outlier.name', '') || 'You', store.get('outlier.color', 0), store.get('outlier.look'))}</span><b>Your character</b><small>Your look in parties</small></button>
+      </div>
     </div>
     ${accountLine()}
-    ${streakHTML()}
-    <section class="card how">
-      <h3>How it works</h3>
+    <details class="card how">
+      <summary><h3>How it works</h3>${ic('right', 'chev')}</summary>
       <ol class="steps">
         <li><b>1</b><span>Get a prompt, like <i>Name a Pixar film</i>, and 30 seconds to answer.</span></li>
         <li><b>2</b><span>Any correct answer scores, from 10 for the one everyone says up to 99 for the rarest. The fewer people who say it, the more it is worth.</span></li>
         <li><b>3</b><span>Find the <b>Outlier</b>, the single rarest answer on the list (two on very long lists), for a big 150.</span></li>
       </ol>
       <p class="fine">Every answer played shifts how common it is. In party games, players who give the same answer share half the points.</p>
-    </section>
+    </details>
     ${LEGAL}`);
   $('#solo').onclick = soloMenu;
   $('#party').onclick = () => partyMenu();
   $('#character').onclick = characterMenu;
   $('#board').onclick = () => boardMenu();
-  if ($('#saveStreak')) $('#saveStreak').onclick = () => startDaily('all');
+  $('#dailyHome').onclick = () => startDaily('all');
   accountWire();
+}
+
+// The first thing on the main menu: today's Daily seven · Everything, with where you are in it and your streak.
+// When the streak is alive but today isn't played, it says how long is left before it goes out.
+function dailyCardHTML() {
+  const s = store.get('outlier.daily.all'), today = todayStr(), st = streakNow();
+  const mine = s && s.date === today;
+  const done = mine && s.done, started = mine && !s.done && (s.results || []).length;
+  let status = 'Same seven prompts for everyone today';
+  if (done) status = `Done today · ${s.total} paces · tap to see your day`;
+  else if (started) status = `${s.results.length} of 7 played · tap to carry on`;
+  let risk = '';
+  if (st.n && !st.doneToday) {
+    const now = new Date(), mid = new Date(now); mid.setHours(24, 0, 0, 0);
+    const hrs = Math.floor((mid - now) / 3600000), mins = Math.max(1, Math.round((mid - now) / 60000));
+    const left = hrs >= 1 ? `${hrs} ${hrs === 1 ? 'hour' : 'hours'}` : `${mins} ${mins === 1 ? 'minute' : 'minutes'}`;
+    risk = `<span class="dc-risk${hrs < 6 ? ' late' : ''}">${ic('flame')}Your ${st.n}-day streak ends in ${left}</span>`;
+  } else if (done && st.n) {
+    risk = `<span class="dc-risk ok">${ic('flame')}${st.n}-day streak${st.best > st.n ? ` · best ${st.best}` : ''} · back tomorrow</span>`;
+  }
+  return `<button class="daily-card${done ? ' done' : ''}" id="dailyHome">
+    <span class="dc-ic">${ic(done ? 'check' : 'calendar')}</span>
+    <span class="dc-t"><small>Today's daily</small><b>Daily seven</b><span class="dc-sub">${status}</span>${risk}</span>
+    ${st.n ? `<span class="dc-streak" aria-label="${st.n}-day streak">${ic('flame')}${st.n}</span>` : ''}${ic('right', 'chev')}</button>`;
 }
 
 // ------------------------------------------------------------ account
@@ -897,7 +923,7 @@ function freeSolo() {
     const sub = state(x.id) || (mine ? 'Your free pick today' : shut ? 'Plus' : !me ? 'Free account' : 'Daily seven');
     return `<button class="tile${mine ? ' on' : ''}${shut ? ' shut' : ''}" data-cat="${x.id}"><span class="tile-ic">${ic(shut ? 'lock' : CAT_ICON[x.id] || 'sparkles')}</span><span class="tile-l">${esc(x.label)}</span><span class="tile-n">${esc(sub)}</span></button>`;
   }).join('');
-  show(`${topbar('Play solo')}
+  show(`${topbar('More dailies')}
     <button class="mode primary" id="dailyAll"><span class="mode-ic">${ic('calendar')}</span><span class="mode-t"><b>Daily seven · Everything</b><small>${state('all') || 'Same seven prompts for everyone today'}</small></span>${ic('right', 'chev')}</button>
     <section class="sec"><h2 class="sec-h">Your other daily</h2>
       <p class="fine">${ic('calendar')}<span>${me ? 'Choose one more category to play today.' : 'Sign in (it is free) to play one more category each day.'}</span></p>
@@ -939,12 +965,12 @@ function soloMenu() {
   stopTimer();
   if (limited()) return freeSolo();
   const recent = store.get('outlier.recent', []).map(upgradePick);
-  show(`${topbar('Play solo')}
+  show(`${topbar('Quick game')}
     ${recent.length ? `<section class="sec"><h2 class="sec-h">Jump back in</h2><div class="recent">${recent.map((r, i) =>
       `<button class="recentbtn" data-i="${i}">${ic(CAT_ICON[selsOf(r).length === 1 ? (catOf(selsOf(r)[0][0]).parent || selsOf(r)[0][0]) : 'all'] || 'sparkles')}<span>${esc(pickLabel(r))}</span></button>`).join('')}</div></section>` : ''}
     <section class="sec"><div id="picker"></div></section>
     ${SEEDBOX()}
-    <div class="cta">
+    <div class="cta row2">
       <button class="btn primary big" id="free"></button>
       <button class="btn big" id="daily"></button>
     </div>`);
@@ -953,8 +979,9 @@ function soloMenu() {
     const today = new Date().toLocaleDateString('en-CA');
     const done = saved && saved.date === today && saved.done;
     const n = poolCount(pick);   // the categories themselves are listed in Your mix, so keep this line short
-    $('#free').innerHTML = `${ic('play')}<span><b>Quick game</b><small>${selsOf(pick).length ? 'Custom' : 'Everything'} · ${n} prompt${n === 1 ? '' : 's'}</small></span>`;
-    $('#daily').innerHTML = `${ic('calendar')}<span><b>Daily seven · ${esc(c.label)}</b><small>${done ? `Played today: ${saved.total} paces. Tap to view.` : 'Same seven prompts for everyone today'}</small></span>`;
+    $('#free').innerHTML = `${ic('play')}<span><b>Play</b><small>${n} ${selsOf(pick).length ? "in your mix" : "prompts"}</small></span>`;
+    $('#daily').innerHTML = `${ic(done ? 'check' : 'calendar')}<span><b>Daily</b><small>${esc(c.label)}${done ? ` · ${saved.total}` : ''}</small></span>`;
+    $('#daily').title = done ? `Daily seven · ${c.label}: played today (${saved.total} paces)` : `Daily seven · ${c.label}: same seven prompts for everyone today`;
     $('#free').disabled = !poolCount(pick);
   };
   mountPicker($('#picker'), refresh);
@@ -1091,22 +1118,6 @@ function adoptStreak(srv) {
   if (!srv || !srv.last) return;
   const s = store.get('outlier.streak', { n: 0, last: '', best: 0 }) || {};
   if (srv.last > (s.last || '') || (srv.last === s.last && srv.n >= (s.n || 0))) store.set('outlier.streak', { n: srv.n, last: srv.last, best: Math.max(srv.best || 0, s.best || 0) });
-}
-
-function streakHTML() {
-  const s = streakNow();
-  if (!s.n && !s.best) return '';
-  if (s.n && !s.doneToday) {   // at risk: it ends at midnight unless a daily gets played today
-    const now = new Date(), mid = new Date(now); mid.setHours(24, 0, 0, 0);
-    const hrs = Math.max(0, Math.floor((mid - now) / 3600000)), mins = Math.max(1, Math.round((mid - now) / 60000));
-    const left = hrs >= 1 ? `${hrs} ${hrs === 1 ? 'hour' : 'hours'}` : `${mins} ${mins === 1 ? 'minute' : 'minutes'}`;
-    return `<div class="streak card due risk${hrs < 6 ? ' late' : ''}">${ic('flame')}<span><b>Your ${s.n}-day streak ends in ${left}</b>
-      <small>Play any daily before midnight to keep it alive${s.best > 1 ? ` · Best: ${s.best} days` : ''}</small></span>
-      <button class="btn primary slim" id="saveStreak">Play</button></div>`;
-  }
-  const head = s.n ? `<b>${s.n}-day streak</b>` : '<b>No streak right now</b>';
-  const sub = s.n ? 'Today is done. Come back tomorrow to keep it going.' : 'Play a daily today to start a new one.';
-  return `<div class="streak card">${ic('flame')}<span>${head}<small>${sub}${s.best > 1 ? ` · Best: ${s.best} days` : ''}</small></span></div>`;
 }
 
 function dailySummary(run) {
