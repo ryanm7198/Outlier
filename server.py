@@ -1479,6 +1479,33 @@ def daily(cat):
             "prompts": [public_prompt(i) for i in todays]}
 
 
+def archive_days():
+    """Every Daily seven · Everything before today, newest first (today's is on the main menu)."""
+    today = datetime.date.today()
+    return [{"day": d.isoformat(), "number": (d - LAUNCH).days + 1}
+            for d in (today - datetime.timedelta(days=i) for i in range(1, (today - LAUNCH).days + 1))]
+
+
+def past_daily(date):
+    """A past Daily seven · Everything, for the archive (a Plus perk). Uses the very seven the day's leaderboard is keyed
+    by (everything_seed: the pin, or the same fallback the boards use) and never pins anything new."""
+    try:
+        day = datetime.date.fromisoformat(str(date))
+    except ValueError:
+        raise ApiError(400, "Bad date")
+    if not LAUNCH <= day < datetime.date.today():
+        raise ApiError(404, "No archive daily for that day")
+    if PAYWALL and not is_plus(current_user()):
+        raise ApiError(402, "Past dailies are part of Outlier Plus")
+    seed = everything_seed(day)
+    ids = [CODES[seed[i:i + 4]] for i in range(0, len(seed), 4) if seed[i:i + 4] in CODES]
+    if not ids:
+        raise ApiError(404, "That day's prompts are no longer available")
+    return {"date": day.isoformat(), "number": (day - LAUNCH).days + 1, "cat": "all",
+            "label": describe("all", []), "roundMs": ROUND_S * 1000, "seed": seed, "archive": True,
+            "prompts": [public_prompt(i) for i in ids]}
+
+
 def new_game(cat, tags, seen):
     """Seven prompts, preferring ones this player has not seen (seen is oldest first)."""
     ids = pool(cat, tags)
@@ -1517,6 +1544,8 @@ def post_score(body):
         pts = [max(0, min(150, int(x))) for x in pts]
     except (TypeError, ValueError):
         raise ApiError(400, "Bad score")
+    if seed in past_daily_seeds():   # an archive replay must not land on that day's (or the week's / all-time) board
+        raise ApiError(403, "Past dailies don't count for the leaderboard")
     name = " ".join(str(body.get("name") or "").split())[:16] or "Player"
     total = sum(pts)
     row = DB.execute("SELECT total FROM scores WHERE seed = ? AND cid = ?", (seed, cid)).fetchone()
@@ -1609,6 +1638,30 @@ def everything_seed(day):
     if day not in _PAST_SEEDS:
         _PAST_SEEDS[day] = "".join(code_for(i) for i in pick_daily("all", day))
     return _PAST_SEEDS[day]
+
+
+_PAST_DAILY = {"key": None, "seeds": frozenset()}
+SCORE_GRACE_S = 3600   # a daily started before midnight can still post its score for this long into the next day
+
+
+def past_daily_seeds():
+    """Seeds that were a daily on an earlier day (and aren't also one today): any category's pins, plus the Everything
+    daily of every day since LAUNCH (from before pinning existed too, the same way the leaderboards work them out)."""
+    now = datetime.datetime.now()
+    today = now.date()
+    open_days = {today.isoformat()}
+    if (now - datetime.datetime.combine(today, datetime.time())).total_seconds() < SCORE_GRACE_S:
+        open_days.add((today - datetime.timedelta(days=1)).isoformat())
+    key = (DB.execute("SELECT COUNT(*) FROM daily_pins").fetchone()[0], tuple(sorted(open_days)))
+    if _PAST_DAILY["key"] != key:
+        past, live = set(), set()
+        for day, ids in DB.execute("SELECT day, ids FROM daily_pins"):
+            (live if day in open_days else past).add("".join(code_for(i) for i in ids.split(",")))
+        for n in range((today - LAUNCH).days):
+            d = LAUNCH + datetime.timedelta(days=n)
+            (live if d.isoformat() in open_days else past).add(everything_seed(d))
+        _PAST_DAILY.update(key=key, seeds=frozenset(past - live - {""}))
+    return _PAST_DAILY["seeds"]
 
 
 def period_board(days, cid, best, size=25):
@@ -2149,8 +2202,14 @@ def api_get(path, q):
     if path == "/api/categories":
         return categories()
     if path == "/api/daily":
+        if q.get("date"):   # the archive: a past Daily seven · Everything
+            if q.get("cat", "all") != "all":
+                raise ApiError(400, "The archive only has the Daily seven · Everything")
+            return past_daily(q["date"])
         check_daily(q.get("cat", "all"))
         return daily(q.get("cat", "all"))
+    if path == "/api/archive":
+        return {"days": archive_days(), "today": datetime.date.today().isoformat()}
     if path == "/api/game":
         if q.get("seed"):
             return seeded_game(q["seed"])

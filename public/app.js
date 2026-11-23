@@ -936,12 +936,14 @@ function freeSolo() {
     <section class="sec"><h2 class="sec-h">Your other daily</h2>
       <p class="fine">${ic('calendar')}<span>${me ? 'Choose one more category to play today.' : 'Sign in (it is free) to play one more category each day.'}</span></p>
       <div class="tiles">${tiles}</div></section>
+    ${ARCHROW()}
     <button class="mode" id="quick"><span class="mode-ic">${ic('lock')}</span><span class="mode-t"><b>Quick game</b><small>Pick any category or mix. Outlier Plus</small></span>${ic('right', 'chev')}</button>
     ${SEEDBOX()}`);
   $('#back').onclick = home;
   $('#dailyAll').onclick = () => startDaily('all');
   $('#quick').onclick = () => upsellScreen('Quick games and choosing your own categories are part of Outlier Plus');
   app.querySelector('.tiles').onclick = e => { const b = e.target.closest('[data-cat]'); if (b) startDaily(b.dataset.cat); };
+  $('#archRow').onclick = archiveScreen;
   wireSeed();
 }
 
@@ -958,6 +960,7 @@ function upsellScreen(msg) {
     <section class="card"><h3>With Plus</h3><ul class="awards">
       ${li('play', 'Quick games', 'Any category, sub-category or mix, any time')}
       ${li('calendar', 'Every daily', 'Any category every day, not just one')}
+      ${li('check', 'Daily archive', 'Play any past Daily seven you missed')}
       ${li('users', 'Bigger party rooms', 'Host up to 12 players instead of 4, and pick the categories')}
     </ul></section>
     ${!plan.payments ? '' : me ? `<button class="btn primary" id="subscribe">Get Outlier Plus</button>` : ''}
@@ -977,6 +980,7 @@ function soloMenu() {
     ${recent.length ? `<section class="sec"><h2 class="sec-h">Jump back in</h2><div class="recent">${recent.map((r, i) =>
       `<button class="recentbtn" data-i="${i}">${ic(CAT_ICON[selsOf(r).length === 1 ? (catOf(selsOf(r)[0][0]).parent || selsOf(r)[0][0]) : 'all'] || 'sparkles')}<span>${esc(pickLabel(r))}</span></button>`).join('')}</div></section>` : ''}
     <section class="sec"><div id="picker"></div></section>
+    ${ARCHROW()}
     ${SEEDBOX()}
     <div class="cta row2">
       <button class="btn primary big" id="free"></button>
@@ -997,6 +1001,7 @@ function soloMenu() {
   $('#back').onclick = home;
   $('#daily').onclick = () => startDaily();   // not startDaily directly: the click event would be taken as the category
   $('#free').onclick = () => startGame();
+  $('#archRow').onclick = archiveScreen;
   app.querySelectorAll('.recentbtn').forEach(b => b.onclick = () => {
     pick = JSON.parse(JSON.stringify(recent[+b.dataset.i]));
     store.set('outlier.pick', pick);
@@ -1037,17 +1042,18 @@ function ask(prompt, roundMs, header, onResult) {
 
 function dailyQuestion(run) {
   const { day, saved } = run, i = saved.results.length;
+  const title = run.archive ? `Daily #${day.number} · archive` : `${esc(day.label)} #${day.number}`;
   const header = `<header class="bar"><button class="link" id="quit">✕ Quit</button>
-    <span>${esc(day.label)} #${day.number} · ${i + 1}/${day.prompts.length}</span><span class="pill">${sum(saved.results)}</span></header>`;
+    <span>${title} · ${i + 1}/${day.prompts.length}</span><span class="pill">${sum(saved.results)}</span></header>`;
   ask(day.prompts[i], day.roundMs, header, res => {
     const before = sum(saved.results);
     saved.results.push({ prompt: res.prompt, given: res.given, canonical: res.canonical, valid: res.valid, points: res.points, share: res.share });
     saved.done = saved.results.length >= day.prompts.length;
     saved.total = sum(saved.results);
     store.set(run.key, saved);
-    if (saved.done) run.streakUp = bumpStreak(saved.date);
+    if (saved.done && !run.archive) run.streakUp = bumpStreak(saved.date);   // a past day never moves the streak
     const max = day.prompts.length * 100;
-    show(`<header class="bar"><span></span><span>${esc(day.label)} #${day.number} · ${i + 1}/${day.prompts.length}</span><span></span></header>
+    show(`<header class="bar"><span></span><span>${title} · ${i + 1}/${day.prompts.length}</span><span></span></header>
       <p class="muted center">${esc(res.prompt)}</p>
       ${resultHTML(res)}
       <div class="after wait">
@@ -1062,7 +1068,7 @@ function dailyQuestion(run) {
     $('#next').onclick = () => !saved.done ? dailyQuestion(run)
       : run.streakUp ? streakScreen(run.streakUp, () => { run.streakUp = null; dailySummary(run); }) : dailySummary(run);
   });
-  $('#quit').onclick = soloMenu;
+  $('#quit').onclick = run.archive ? archiveScreen : soloMenu;
 }
 
 const dayBefore = date => { const d = new Date(date + 'T00:00:00Z'); d.setUTCDate(d.getUTCDate() - 1); return d.toISOString().slice(0, 10); };
@@ -1133,6 +1139,7 @@ function dailySummary(run) {
   const { saved } = run, max = saved.results.length * 100;
   const squares = saved.results.map(r => SQUARES[tierOf(r)]).join('');
   const label = saved.label || run.day.label;
+  if (run.archive) return archiveSummary(run, squares, max);
   show(`<header class="bar"><button class="link" id="back">‹ Back</button><span>${esc(label)} #${saved.number}</span><span></span></header>
     <div class="total">${saved.total}<small> / ${max * 1.5} paces</small></div>
     <div class="squares">${squares}</div>
@@ -1152,8 +1159,10 @@ function dailySummary(run) {
     <div class="stack">
       <button class="btn primary" id="share">Share result</button>
       <button class="btn" id="free">Play a quick game</button>
+      <button class="btn slim" id="pastDaily">${ic('calendar')}<span>Play a past daily</span>${limited() ? PLUSTAG : ''}</button>
     </div>
     <p class="muted center">New prompts tomorrow.</p>`);
+  $('#pastDaily').onclick = archiveScreen;
   const draw = b => {
     if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(b, 'Today');
     if ($('#beat')) $('#beat').innerHTML = beatLine(b);
@@ -1170,6 +1179,66 @@ function dailySummary(run) {
   $('#free').onclick = () => startGame();
   remindWire();
   $('#share').onclick = () => shareText(`Outlier · ${label} #${saved.number}\n${saved.total}/${max * 1.5} paces from the crowd\n${squares}`);
+}
+
+// ------------------------------------------------------------ the daily archive (Outlier Plus)
+// Every past Daily seven · Everything, replayable. Archive games never move the streak or touch a leaderboard;
+// results live in this browser under outlier.archive.<date>.
+const PLUSTAG = '<span class="plustag">Plus</span>';
+const ARCHROW = () => `<button class="archrow" id="archRow">${ic('calendar')}<span>Missed a day? <b>Daily archive</b></span>${limited() ? PLUSTAG : ''}${ic('right', 'chev')}</button>`;
+
+async function archiveScreen() {
+  stopTimer();
+  show(`${topbar('Daily archive')}
+    <p class="fine">${ic('calendar')}<span>Every past Daily seven · Everything. Archive games don't count for your streak or the leaderboard.</span></p>
+    <div id="archList"><p class="muted center">Loading…</p></div>`);
+  $('#back').onclick = soloMenu;
+  let list;
+  try { list = await api('/api/archive'); }
+  catch (e) { if ($('#archList')) $('#archList').innerHTML = `<p class="muted center">Couldn't load the archive. ${esc(e.message)}</p>`; return; }
+  if (!$('#archList')) return;
+  const when = d => new Date(d + 'T12:00').toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
+  $('#archList').innerHTML = !list.days.length ? '<section class="card center"><p class="muted">No past dailies yet. Come back tomorrow!</p></section>'
+    : `<ul class="card archlist">${list.days.map(d => {
+      const s = store.get('outlier.archive.' + d.day);
+      const right = s && s.done ? `<span class="num">${s.total}</span>` : `<span class="arch-play">${s && s.results && s.results.length ? 'Resume' : 'Play'}</span>`;
+      return `<li><button class="arch-day${s && s.done ? ' done' : ''}" data-d="${d.day}"><span class="arch-n">#${d.number}</span>
+        <span class="main"><b>${esc(when(d.day))}</b>${s && s.done ? '<small>Played</small>' : ''}</span>${limited() ? PLUSTAG : right}</button></li>`; }).join('')}</ul>`;
+  $('#archList').onclick = e => {
+    const b = e.target.closest('[data-d]');
+    if (b) limited() ? upsellScreen('Past dailies are part of Outlier Plus') : startArchive(b.dataset.d);
+  };
+}
+
+async function startArchive(date) {
+  let day;
+  try { day = await api(`/api/daily?cat=all&date=${encodeURIComponent(date)}`); }
+  catch (e) { return e.status === 402 ? upsellScreen(e.message) : toast(e.message); }
+  const key = 'outlier.archive.' + day.date;
+  let saved = store.get(key);
+  if (!saved || !Array.isArray(saved.results)) saved = { date: day.date, number: day.number, label: day.label, results: [], done: false, total: 0 };
+  const run = { day, key, saved, archive: true };
+  if (saved.done) return dailySummary(run);
+  if (saved.results.length) return dailyQuestion(run);
+  intro(`Daily seven #${day.number}`, `Archive · ${day.prompts.length} prompts · ${Math.round(day.roundMs / 1000)} seconds each`, () => dailyQuestion(run));
+}
+
+function archiveSummary(run, squares, max) {
+  const { saved } = run;
+  show(`<header class="bar"><button class="link" id="back">‹ Archive</button><span>Daily #${saved.number} · archive</span><span></span></header>
+    <div class="total">${saved.total}<small> / ${max * 1.5} paces</small></div>
+    <div class="squares">${squares}</div>
+    <div class="card">${trailHTML([{ name: 'You', from: 0, to: saved.total, me: true }], max)}
+      <p class="zone">You ended up: ${zoneName(saved.total, max)}</p></div>
+    <div class="sidecol"><ul class="rows card">${saved.results.map(r => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : (r.given ? `<span class="strike">${esc(r.given)}</span>` : '<span class="skipped">Skipped</span>')}</b>
+      <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}</span></li>`).join('')}</ul></div>
+    <p class="fine center">${ic('trophy')}<span>Archive games don't count for the leaderboard.</span></p>
+    <div class="stack">
+      <button class="btn primary" id="share">Share result</button>
+      <button class="btn" id="more">Back to the archive</button>
+    </div>`);
+  $('#back').onclick = $('#more').onclick = archiveScreen;
+  $('#share').onclick = () => shareText(`Outlier · Daily seven #${saved.number} (archive)\n${saved.total}/${max * 1.5} paces from the crowd\n${squares}`);
 }
 
 // ------------------------------------------------------------ seven-prompt games
