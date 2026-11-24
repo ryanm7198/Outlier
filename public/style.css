@@ -1265,3 +1265,79 @@ html.calm .switch, html.calm .switch i { transition: none; }
 html.calm .dc-risk .ic { animation: none; }
 html.calm .badge.got::after, html.calm .badge-pop, html.calm .bp-card, html.calm .bp-card li .badge-ic { animation: none; }
 html.calm .tv-crowd li.pop, html.calm .tv-ticks li.pop, html.calm .tv-cur .av { animation: none; }
+
+/* ---- category unlocks: items for your character, earned by playing each category */
+.cc-mid i { text-align: center; }
+.cc-row.locked .cc-mid b { color: var(--muted); }
+.cc-mid .cc-lock { width: 13px; height: 13px; margin-left: 5px; vertical-align: -1px; }
+.cc-hero.trying { opacity: .72; }
+.cc-hero.trying::after { content: 'Trying on'; position: absolute; left: 50%; bottom: -4px; transform: translateX(-50%); font-size: .7rem; font-weight: 700;
+  padding: 2px 8px; border-radius: 99px; background: var(--card-2); color: var(--muted); white-space: nowrap; }
+.unl h3 small { color: var(--muted); font-weight: 600; }
+.unl > .fine { margin: 0 0 6px; }
+.unl-list { list-style: none; margin: 0; padding: 0; display: grid; }
+.unl-list li { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 10px; padding: 10px 0; border-top: 1px solid var(--line); }
+.unl-list li:first-child { border-top: 0; }
+.unl-list .main b { display: block; }
+.unl-list .main small { display: block; color: var(--muted); font-size: .78rem; line-height: 1.3; }
+.unl-prog { display: inline-block; margin-left: 6px; color: var(--text); font-weight: 700; }
+.unl-items { display: flex; gap: 4px; }
+.unl-it { position: relative; width: 40px; height: 40px; padding: 0; border-radius: 12px; border: 1px solid var(--line); background: var(--card-2); display: grid; place-items: center; cursor: pointer; }
+.unl-it .av { width: 34px; height: 34px; }
+.unl-it:not(.got) .av { filter: grayscale(.85) brightness(.85); opacity: .8; }
+.unl-it.on { border-color: var(--you); box-shadow: 0 0 0 1px var(--you); }
+.unl-lock { position: absolute; right: -3px; bottom: -3px; width: 17px; height: 17px; border-radius: 50%; display: grid; place-items: center; background: var(--bg, #0f1023); border: 1px solid var(--line); }
+.unl-lock .ic { width: 10px; height: 10px; color: var(--muted); }
+.badge-ic.bp-av { background: none; }
+.badge-ic.bp-av .av { width: 46px; height: 46px; }
+@media (max-width: 380px) { .unl-it { width: 34px; height: 34px; } .unl-it .av { width: 29px; height: 29px; } }
+
+/* ---- podium emotes (one per category, earned by playing it) */
+.av.mood-emote { overflow: visible; }
+.av.mood-emote svg { overflow: visible; animation: pdcheer .6s ease-in-out infinite alternate; transform-origin: 50% 100%; }
+.av.mood-emote .arm { transform-box: fill-box; }
+.emo-sport svg { animation: emolift .42s ease-in-out infinite alternate; }
+.emo-music svg { animation: emobang .38s ease-in-out infinite alternate; transform-origin: 50% 90%; }
+.emo-music .strum { transform-origin: 0 0; animation: emostrum .19s ease-in-out infinite alternate; }
+.emo-music .note { animation: emofloat 1.4s ease-out infinite; }
+.emo-music .note.n2 { animation-delay: .7s; }
+.emo-film .wave, .emo-history .royal { transform-origin: 0% 100%; animation: pdwave .3s ease-in-out infinite alternate; }
+.emo-history .royal { animation-duration: 1s; }
+.emo-history svg, .emo-geography svg { animation: emosway 2.4s ease-in-out infinite alternate; }
+.emo-film .flash { transform-box: fill-box; transform-origin: center; opacity: 0; animation: emoflash 1.7s var(--d) infinite; }
+.emo-gaming .pump.l { transform-origin: 100% 100%; animation: pdwave .28s ease-in-out infinite alternate; }
+.emo-gaming .pump.r { transform-origin: 0% 100%; animation: pdwave .28s .14s ease-in-out infinite alternate; }
+.emo-gaming .gg { animation: emogg .5s steps(2, jump-none) infinite alternate; }
+.emo-geography .flag { transform-box: fill-box; transform-origin: 0 50%; animation: emoflag .45s ease-in-out infinite alternate; }
+.emo-science .bulb { animation: emobulb 1s ease-in-out infinite; }
+.emo-food .kiss { transform-origin: 100% 100%; animation: emokiss 1.3s ease-in-out infinite; }
+.emo-food .heart { opacity: 0; animation: emofloat 1.3s .55s ease-out infinite; }
+.emo-food .heart.h2 { animation-delay: .8s; }
+.emo-words .jazz.l { transform-origin: 100% 100%; animation: emojazz .1s linear infinite alternate; }
+.emo-words .jazz.r { transform-origin: 0% 100%; animation: emojazz .1s .05s linear infinite alternate; }
+.emo-words .bubble { transform-box: fill-box; transform-origin: 20% 100%; animation: emopop 1.8s ease-out infinite; }
+.emo-misc .popper { transform-box: fill-box; transform-origin: 100% 100%; animation: emokick 1.2s ease-out infinite; }
+.emo-misc .bit { transform-box: fill-box; transform-origin: center; animation: emoburst 1.2s var(--d) ease-out infinite; }
+@keyframes emolift { to { transform: translateY(-9%); } }
+@keyframes emobang { from { transform: rotate(-7deg); } to { transform: rotate(5deg); } }
+@keyframes emostrum { to { transform: rotate(16deg); } }
+@keyframes emofloat { 0% { transform: translateY(5px); opacity: 0; } 30% { opacity: 1; } 100% { transform: translateY(-7px); opacity: 0; } }
+@keyframes emosway { from { transform: rotate(-2deg); } to { transform: rotate(2deg); } }
+@keyframes emoflash { 0%, 100% { opacity: 0; transform: scale(.4); } 6% { opacity: 1; transform: scale(1.25); } 22% { opacity: 0; transform: scale(1); } }
+@keyframes emogg { to { transform: translateY(-2px); } }
+@keyframes emoflag { from { transform: skewY(-9deg) scaleX(.86); } to { transform: skewY(7deg) scaleX(1); } }
+@keyframes emobulb { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
+@keyframes emokiss { 0%, 35% { transform: none; } 55%, 85% { transform: rotate(60deg); } 100% { transform: none; } }
+@keyframes emojazz { from { transform: rotate(-7deg); } to { transform: rotate(7deg); } }
+@keyframes emopop { 0% { transform: scale(0); } 12% { transform: scale(1.15); } 22%, 82% { transform: scale(1); } 100% { transform: scale(0); } }
+@keyframes emokick { 0% { transform: rotate(-12deg); } 10% { transform: rotate(6deg); } 30%, 100% { transform: none; } }
+@keyframes emoburst { 0% { transform: none; opacity: 1; } 100% { transform: translate(var(--dx), var(--dy)) rotate(220deg); opacity: 0; } }
+/* thumbnails and the character preview: emote props reach above the head */
+.unl-it .av svg, .unl-it .av svg * { animation: none !important; }
+.unl-it .emo-film .flash, .unl-it .emo-food .heart { opacity: 1; }
+.unl-it .av.mood-emote { transform: scale(.78); transform-origin: 50% 100%; }
+.cc-hero .av.mood-emote, .cc-hero .av.mood-cheer { transform: scale(.8); transform-origin: 50% 100%; }
+.badge-ic.bp-av .av.mood-emote { transform: scale(.8); transform-origin: 50% 100%; }
+@media (prefers-reduced-motion: reduce) { .av.mood-emote svg, .av.mood-emote svg * { animation: none !important; } .emo-film .flash, .emo-food .heart { opacity: 1; } }
+html.calm .av.mood-emote svg, html.calm .av.mood-emote svg * { animation: none !important; }
+html.calm .emo-film .flash, html.calm .emo-food .heart { opacity: 1; }

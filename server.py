@@ -1633,6 +1633,21 @@ def board_out(seed, cid="", size=10, members=None):
     return {"seed": seed, "count": len(rows), "top": top, "rank": mine + 1 if mine is not None else None}
 
 
+def boards_out(seeds, cid):
+    """Your challenges at a glance: for each seed, how many have played, who leads and where you stand."""
+    out = []
+    for seed in str(seeds).split(",")[:40]:
+        try:
+            seed = clean_seed(seed)
+        except ApiError:
+            continue
+        rows = DB.execute("SELECT cid, name, total FROM scores WHERE seed = ? ORDER BY total DESC, ts ASC", (seed,)).fetchall()
+        mine = next((i for i, r in enumerate(rows) if r[0] == cid), None)
+        out.append({"seed": seed, "count": len(rows), "rank": mine + 1 if mine is not None else None,
+                    "lead": {"name": rows[0][1], "total": rows[0][2], "me": rows[0][0] == cid} if rows else None})
+    return out
+
+
 _PAST_SEEDS = {}
 
 
@@ -2218,7 +2233,7 @@ def shared_state(room):
         "round": room["round"], "rounds": room["rounds"], "secs": room["secs"], "doubles": room["cat"] == "all",
         "label": describe(room["cat"], room["tags"]), "screens": len(live_screens(room)),
         "players": [{"n": p["n"], "name": p["name"], "score": p["score"], "online": online(p), "color": p["color"],
-                     "look": p.get("look"),
+                     "look": p.get("look"), "emote": p.get("emote"),
                      "answered": p["answer"] is not None, "picked": p["picked"] or not p["double_left"],
                      "doubleLeft": p["double_left"], "lives": p.get("lives", 0), "out": p.get("out", False),
                      "bonusAt": p.get("bonus_at", POTATO_BONUS), "bonusStep": p.get("bonus_step", POTATO_BONUS)} for p in room["players"].values()],
@@ -2308,6 +2323,25 @@ def daily_seeds():
     return _DAILY_SEEDS["seeds"]
 
 
+def cat_unlocks(plays, cids):
+    """What the character items for each main category are unlocked by: right answers and Outliers in it, and the
+    best total in a seven-prompt game (quick game, daily or challenge) where every prompt came from it."""
+    out = {c["id"]: {"right": 0, "outliers": 0, "best": 0} for c in CATS if not c["parent"]}
+    for p in plays:
+        if p[2] in out:
+            out[p[2]]["right"] += p[4]
+            out[p[2]]["outliers"] += p[7]
+    if cids:
+        for seed, total in DB.execute(f"SELECT seed, total FROM scores WHERE cid IN ({','.join('?' * len(cids))})", tuple(cids)):
+            ids = [CODES.get(seed[i:i + 4]) for i in range(0, len(seed), 4)]
+            if len(ids) < 7 or not all(i in PROMPTS for i in ids):
+                continue
+            cats = {parent_of(PROMPTS[i]["cat"]) or PROMPTS[i]["cat"] for i in ids}
+            if len(cats) == 1 and (c := cats.pop()) in out:
+                out[c]["best"] = max(out[c]["best"], total)
+    return out
+
+
 def my_stats(q):
     cid, user = clean_cid(q.get("cid")), current_user()
     uid = user["id"] if user else -1
@@ -2389,6 +2423,7 @@ def my_stats(q):
         },
         "badges": badges,
         "plus": is_plus(user),
+        "unlocks": cat_unlocks(plays, cids),
     }
     if not out["plus"]:
         out.update(categories={"locked": True}, recent={"locked": True})
@@ -2459,7 +2494,13 @@ def api_get(path, q):
     if path == "/api/league/board":
         return league_board(q)
     if path == "/api/board":
-        return board_out(q.get("seed"), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32])
+        try:
+            size = max(1, min(int(q.get("size") or 10), 50))
+        except ValueError:
+            size = 10
+        return board_out(q.get("seed"), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32], size)
+    if path == "/api/boards":
+        return boards_out(q.get("seeds", ""), re.sub(r"[^0-9A-Za-z]", "", q.get("cid", ""))[:32])
     if path == "/api/review/queue":
         try:
             limit = max(1, min(int(q.get("limit") or 300), 1000))
@@ -2581,6 +2622,9 @@ def api_post(path, body):
         look = str(body.get("look") or "")
         if LOOK_RX.fullmatch(look):
             room["players"][token]["look"] = look
+        emote = str(body.get("emote") or "")
+        if re.fullmatch(r"[a-z]{2,12}", emote):   # what they do on the podium
+            room["players"][token]["emote"] = emote
         return room_state(room, token)
     if path == "/api/room/ask":
         me = room["players"][token]

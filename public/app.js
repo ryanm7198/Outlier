@@ -141,7 +141,8 @@ const PCOL = ['#ff6b6b', '#ff9f43', '#feca57', '#7bd88f', '#2ed3b7', '#4cc9f0', 
 const PCOL_NAMES = ['Red', 'Orange', 'Yellow', 'Green', 'Teal', 'Sky', 'Blue', 'Violet', 'Purple', 'Pink', 'Silver', 'Sand'];
 // ---- Characters: a little face in the player's colour, built from four parts (head, eyes, mouth, hat), saved as
 // four digits like "2140". Anyone who hasn't picked one gets a character worked out from their name.
-const LOOK_N = [12, 12, 12, 14, 10];
+const LOOK_N = [12, 12, 12, 14, 10];   // grows below as the category items are added to the hat and face rows
+const BASE_N = [...LOOK_N];   // the parts everyone has from the start
 const LOOK_LABELS = ['Head', 'Eyes', 'Mouth', 'Hat', 'Face'];
 const INK = '#14152b';
 const inkLine = d => `<path d="${d}" fill="none" stroke="${INK}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>`;
@@ -213,6 +214,72 @@ const LOOK_PARTS = [
     ['', '<circle cx="20" cy="26" r="2.3" fill="#ff4d4d"/><circle cx="19.3" cy="25.3" r=".6" fill="#fff" opacity=".8"/>'],
     ['', '<path d="M31.5 13c1.7 2.4 2.5 3.8 2.5 4.8a2.5 2.5 0 0 1-5 0c0-1 .8-2.4 2.5-4.8z" fill="#7fd3ff"/>'],
     [`<path d="M8 27c1 7 6 11.5 12 11.5S31 34 32 27c-3 3-7 3.2-9 1.6h-6C15 30.2 11 30 8 27z" fill="${BROWN}"/>`, '']]];
+// ---- category items: three for each main category, earned by playing it (CAT_GOALS). They go on the end of the hat
+// and face rows, so a look is still five characters and party rooms need nothing new.
+const GOLD = 'fill="#ffd166" stroke="#c98f1c" stroke-width=".6"';
+const twinkle = (x, y, r = 1.4) => `<path d="M${x} ${y - r}l${r * .4} ${r * .6} ${r * .6} ${r * .4}-${r * .6} ${r * .4}-${r * .4} ${r * .6}-${r * .4}-${r * .6}-${r * .6}-${r * .4} ${r * .6}-${r * .4}z" fill="#fff"/>`;
+const leaf = (x, y, a) => `<ellipse cx="${x}" cy="${y}" rx="1.4" ry="2.7" transform="rotate(${a} ${x} ${y})"/>`;
+const puff = (list, fill, line) => `<g fill="${fill}" stroke="${line}" stroke-width="1.3">${list.map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r}"/>`).join('')}</g><g fill="${fill}">${list.map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r}"/>`).join('')}</g>`;
+const CAT_ITEMS = [
+  // [category, tier, part (3 = hat, 4 = face), name, drawing; a face is [under the eyes and mouth, over them]]
+  ['sport', 1, 4, 'Face paint', ['<g fill="#fff"><rect x="8.5" y="25" width="5.5" height="1.5" rx=".75"/><rect x="26" y="25" width="5.5" height="1.5" rx=".75"/></g><g fill="#ff4d6d"><rect x="8.5" y="27.2" width="5.5" height="1.5" rx=".75"/><rect x="26" y="27.2" width="5.5" height="1.5" rx=".75"/></g>', '']],
+  ['sport', 2, 3, 'Sweatband', '<rect x="7" y="14.3" width="26" height="4.4" rx="2.2" fill="#fff"/><rect x="7" y="15.7" width="26" height="1.6" fill="#ff4d6d"/>'],
+  ['sport', 3, 3, "Champion's cup", `<g ${GOLD}><path d="M14 2.5h12V6a6 6 0 0 1-12 0z"/><rect x="18.8" y="11.6" width="2.4" height="1.8"/><rect x="15.5" y="13" width="9" height="2.2" rx=".7"/></g><path d="M14 4h-2.2a2.6 2.6 0 0 0 2.9 3.8M26 4h2.2a2.6 2.6 0 0 1-2.9 3.8" fill="none" stroke="#c98f1c" stroke-width="1.2"/>${twinkle(17, 5.5)}`],
+  ['music', 1, 4, 'Microphone', ['', '<rect x="25.2" y="30.5" width="2.8" height="8.5" rx="1.2" transform="rotate(-35 26.6 34.7)" fill="#3a3f63"/><circle cx="24" cy="29.8" r="2.9" fill="#c9d3e6" stroke="#14152b" stroke-width=".7"/><path d="M22.2 29h3.6M22.4 30.6h3.2" stroke="#8f9bb0" stroke-width=".5"/>']],
+  ['music', 2, 3, 'Mohawk', '<path d="M13 14 12 6.5l3.5 3.5L17 2.5l2.5 6.5L21.5 1l1.5 7.5L26.5 4l-.3 6L29 7.5l-2 6.5z" fill="#ff7bd0" stroke="#d14fa5" stroke-width=".7" stroke-linejoin="round"/>'],
+  ['music', 3, 3, 'Disco ball', `<path d="M20 0v1" stroke="#9aa3c7" stroke-width=".8"/><circle cx="20" cy="6.8" r="6" fill="#c9d3e6" stroke="#8f9bb0" stroke-width=".7"/><path d="M14.4 6.8h11.2M15.3 3.7h9.4M15.3 9.9h9.4M20 .8v12M17 1.6q-1.9 5.2 0 10.4M23 1.6q1.9 5.2 0 10.4" stroke="#8f9bb0" stroke-width=".5" fill="none"/><rect x="21" y="3.9" width="2" height="2" fill="#fff" opacity=".8"/>${twinkle(31, 4, 1.6).replace('#fff', '#ffd166')}${twinkle(9, 9, 1.2).replace('#fff', '#ff7bd0')}`],
+  ['film', 1, 4, '3D glasses', ['', '<rect x="10" y="19" width="9" height="6.2" rx="1" fill="#ff4d6d" opacity=".85"/><rect x="21" y="19" width="9" height="6.2" rx="1" fill="#4cc9f0" opacity=".85"/><path d="M10 19h20v6.2H10zM19 21.5h2M10 20.5l-3-1M30 20.5l3-1" fill="none" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/>']],
+  ['film', 2, 3, 'Popcorn bucket', '<path d="M13 15 11.5 5.5h17L27 15z" fill="#fff"/><path d="M14.3 5.5l.8 9.5h2.4l-.3-9.5zM18.8 5.5V15h2.4V5.5zM23.5 5.5l-.3 9.5h2.4l.8-9.5z" fill="#ff4d6d"/><g fill="#fff4cc" stroke="#e8c66a" stroke-width=".5"><circle cx="13.5" cy="4.8" r="2"/><circle cx="17" cy="3.4" r="2.2"/><circle cx="20.5" cy="2.7" r="2.2"/><circle cx="24" cy="3.5" r="2.2"/><circle cx="27" cy="4.9" r="1.9"/></g>'],
+  ['film', 3, 3, 'Gold star', `<path d="M20 .5l2.4 4.9 5.4.8-3.9 3.8.9 5.4L20 12.9l-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z" fill="#ffd166" stroke="#c98f1c" stroke-width=".7" stroke-linejoin="round"/>${twinkle(30.5, 4)}${twinkle(9.5, 6, 1.1)}`],
+  ['gaming', 1, 4, 'Pixel shades', ['', '<g fill="#14152b" shape-rendering="crispEdges"><rect x="9" y="19.5" width="22" height="1.8"/><rect x="10.5" y="21" width="8" height="3"/><rect x="21.5" y="21" width="8" height="3"/><rect x="11.5" y="24" width="6" height="1.3"/><rect x="22.5" y="24" width="6" height="1.3"/></g><g fill="#fff" shape-rendering="crispEdges"><rect x="12" y="21.6" width="1.4" height="1.4"/><rect x="23" y="21.6" width="1.4" height="1.4"/></g>']],
+  ['gaming', 2, 3, 'Gaming headset', '<path d="M8 25a12 13 0 0 1 24 0" fill="none" stroke="#14152b" stroke-width="2.4"/><rect x="4.8" y="20" width="5.6" height="10" rx="2.4" fill="#7bd88f" stroke="#14152b" stroke-width=".7"/><rect x="29.6" y="20" width="5.6" height="10" rx="2.4" fill="#7bd88f" stroke="#14152b" stroke-width=".7"/><path d="M7.6 29.5q1 4.6 7.4 4.2" fill="none" stroke="#14152b" stroke-width="1.2"/><circle cx="15.4" cy="33.6" r="1.5" fill="#14152b"/>'],
+  ['gaming', 3, 3, 'Pixel crown', '<path d="M11 15V6h2v2h2V5h2v3h2V2.5h2V8h2V5h2v3h2V6h2v9z" fill="#ffd166" stroke="#c98f1c" stroke-width=".6" shape-rendering="crispEdges"/><g shape-rendering="crispEdges"><rect x="14" y="11" width="2" height="2" fill="#ff4d6d"/><rect x="19" y="11" width="2" height="2" fill="#4cc9f0"/><rect x="24" y="11" width="2" height="2" fill="#7bd88f"/></g>'],
+  ['geography', 1, 4, 'Binoculars', ['', '<g fill="#3a3f63" stroke="#14152b" stroke-width=".7"><rect x="10.4" y="17.4" width="9.2" height="9.2" rx="2.6"/><rect x="20.4" y="17.4" width="9.2" height="9.2" rx="2.6"/></g><circle cx="15" cy="22" r="2.9" fill="#4cc9f0"/><circle cx="25" cy="22" r="2.9" fill="#4cc9f0"/><circle cx="14" cy="21" r=".9" fill="#fff"/><circle cx="24" cy="21" r=".9" fill="#fff"/>']],
+  ['geography', 2, 3, 'Pith helmet', '<path d="M9.5 15a10.5 9.5 0 0 1 21 0z" fill="#e9d8a6" stroke="#b89d5e" stroke-width=".7"/><rect x="9.9" y="12.2" width="20.2" height="1.9" fill="#8c6f3a"/><ellipse cx="20" cy="15.3" rx="14.5" ry="2.4" fill="#d9c48a" stroke="#b89d5e" stroke-width=".7"/><circle cx="20" cy="5.5" r="1.2" fill="#b89d5e"/>'],
+  ['geography', 3, 3, 'Globe', '<rect x="19" y="9.2" width="2" height="2.4" fill="#c9a27a"/><path d="M15.5 11.8h9" stroke="#c9a27a" stroke-width="1.8" stroke-linecap="round"/><circle cx="20" cy="4.9" r="4.6" fill="#4cc9f0"/><path d="M17.2 2.4c1.4-.6 2.6.2 3 1.3-.6.9.3 2-.9 2.6-1.2-.3-2.1-1.1-2.3-2.2-.5-.5-.3-1.2.2-1.7zM21.8 5.4c1-.3 2.3.3 2.5 1.3-.4 1.1-1.5 1.6-2.3 1.2-.4-.8-.5-1.7-.2-2.5z" fill="#7bd88f"/><path d="M14.6 4.9a5.4 5.4 0 0 0 10.8 0" fill="none" stroke="#c9a27a" stroke-width="1"/>'],
+  ['history', 1, 4, 'Monocle', ['', '<circle cx="25" cy="22" r="4.5" fill="#fff" fill-opacity=".18" stroke="#ffd166" stroke-width="1.4"/><path d="M28.8 24.6c1.4 3 1 6.2-1.4 9.4" fill="none" stroke="#ffd166" stroke-width=".8"/>']],
+  ['history', 2, 3, 'Tricorn hat', '<path d="M6 15.5c3-1 4-6 14-8.5 10 2.5 11 7.5 14 8.5-5 1.6-9 .6-14-1.2-5 1.8-9 2.8-14 1.2z" fill="#2b2d4a" stroke="#ffd166" stroke-width=".9" stroke-linejoin="round"/><circle cx="20" cy="9.6" r="1.3" fill="#ffd166"/>'],
+  ['history', 3, 3, 'Laurel wreath', `<g fill="#ffd166" stroke="#c98f1c" stroke-width=".4">${[[8.6, 16.8, -70], [10.2, 13.6, -52], [12.8, 11.2, -36], [16.2, 9.8, -18], [31.4, 16.8, 70], [29.8, 13.6, 52], [27.2, 11.2, 36], [23.8, 9.8, 18]].map(([x, y, a]) => leaf(x, y, a)).join('')}</g><circle cx="20" cy="9.6" r="1.4" fill="#ff4d6d"/>`],
+  ['science', 1, 4, 'Safety goggles', ['', '<path d="M7 21.5h3M30 21.5h3" stroke="#2ed3b7" stroke-width="2.4"/><g fill="#dff7ff" fill-opacity=".5" stroke="#2ed3b7" stroke-width="1.4"><rect x="9.5" y="17.5" width="10" height="9" rx="4"/><rect x="20.5" y="17.5" width="10" height="9" rx="4"/></g><path d="M11.5 19.5l2-1M22.5 19.5l2-1" stroke="#fff" stroke-width=".9" stroke-linecap="round"/>']],
+  ['science', 2, 3, 'Sprout', '<path d="M20 12.5V5.5" stroke="#4a9d5b" stroke-width="1.4" fill="none"/><path d="M20 7.5c-1-3.5-4.5-4.5-7.5-3.5 1 3.2 4.3 4.6 7.5 3.5zM20 6c1-3.5 4.5-4.6 7.5-3.8-1 3.3-4.3 4.8-7.5 3.8z" fill="#7bd88f" stroke="#4a9d5b" stroke-width=".6"/>'],
+  ['science', 3, 3, 'Mad scientist hair', puff([[20, 11, 5], [7.8, 19, 3.2], [8, 13.6, 3.4], [12, 9, 3.6], [17, 6.6, 3.8], [23, 6.6, 3.8], [28, 9, 3.6], [32, 13.6, 3.4], [32.2, 19, 3.2]], '#f1f3f8', '#c9cfdc')],
+  ['food', 1, 4, 'Milk moustache', ['', '<path d="M14.5 27.2c1.5-1.8 3.8-1.6 5.5-.4 1.7-1.2 4-1.4 5.5.4-.8 1.4-2.3 1.6-3.2 1.1-.8.9-1.6 1-2.3.4-.7.6-1.5.5-2.3-.4-.9.5-2.4.3-3.2-1.1z" fill="#fff"/><path d="M17.2 28.3c.5.9.7 1.4.7 1.8a.7.7 0 0 1-1.4 0c0-.4.2-.9.7-1.8z" fill="#fff"/>']],
+  ['food', 2, 3, 'Fried egg', '<path d="M9.5 13.5c-1-3 1.5-5 4-4.5 1-2.5 4.5-3 6.5-1.5 2-1.8 5.5-1 6.5 1.3 2.8-.3 5 2 4 4.7-1.5 1.5-6 2-10.5 2s-9-.5-10.5-2z" fill="#fff" stroke="#dfe3ec" stroke-width=".6"/><circle cx="20.5" cy="10.8" r="3.4" fill="#ffb627"/><circle cx="19.4" cy="9.7" r=".9" fill="#fff" opacity=".7"/>'],
+  ['food', 3, 3, 'Cupcake', '<path d="M13 15 11.5 8.5h17L27 15z" fill="#c9a27a"/><path d="M14.5 8.5l.8 6.5M18 8.5l.4 6.5M22 8.5l-.4 6.5M25.5 8.5l-.8 6.5" stroke="#a37e55" stroke-width=".7"/><path d="M10.5 9c-1-2.5 1-4.5 3.5-4 .5-2.5 3.5-3.5 6-2 2.5-1.5 5.5-.5 6 2 2.5-.5 4.5 1.5 3.5 4z" fill="#ff9fc8"/><g stroke-width="1" stroke-linecap="round"><path d="M14.5 6.5l1 .6" stroke="#4cc9f0"/><path d="M18.5 4.8l.9-.7" stroke="#feca57"/><path d="M23 5.5l1 .5" stroke="#7bd88f"/><path d="M26.5 7.2l.6-.9" stroke="#fff"/></g><circle cx="20" cy="1.7" r="1.7" fill="#ff4d4d"/>'],
+  ['words', 1, 4, 'Reading glasses', ['', '<g fill="#fff" fill-opacity=".15" stroke="#c9a27a" stroke-width="1.3"><path d="M10.5 22.5h8.5a4.25 3.6 0 0 1-8.5 0zM21 22.5h8.5a4.25 3.6 0 0 1-8.5 0z"/></g><path d="M19 23q1-.8 2 0M10.5 22.5 7.5 21M29.5 22.5l3-1.5" fill="none" stroke="#c9a27a" stroke-width="1.3"/>']],
+  ['words', 2, 3, 'Graduation cap', '<path d="M12.5 10V15h15v-5" fill="#2b2d4a"/><path d="M20 2 5.5 7.5 20 13l14.5-5.5z" fill="#2b2d4a" stroke="#14152b" stroke-width=".6"/><path d="M20 7.5l9.5 1.5v6" stroke="#ffd166" stroke-width=".9" fill="none"/><circle cx="29.5" cy="15.6" r="1.1" fill="#ffd166"/>'],
+  ['words', 3, 3, 'Book stack', '<rect x="11" y="10.6" width="18" height="3.6" rx=".6" fill="#5b8cff"/><rect x="12.5" y="7" width="15" height="3.6" rx=".6" fill="#ff6b6b" transform="rotate(-4 20 8.8)"/><rect x="12" y="3.4" width="16" height="3.6" rx=".6" fill="#7bd88f"/><path d="M12 12.4h16M14 8.8h12M13 5.2h14" stroke="#fff" stroke-width=".6" opacity=".7"/>'],
+  ['misc', 1, 4, 'Disguise', ['', '<g fill="none" stroke="#14152b" stroke-width="1.3"><circle cx="15" cy="22" r="3.8"/><circle cx="25" cy="22" r="3.8"/><path d="M18.8 22h2.4"/></g><path d="M12 17.3q3-2 6 0M22 17.3q3-2 6 0" stroke="#14152b" stroke-width="1.6" fill="none" stroke-linecap="round"/><ellipse cx="20" cy="26" rx="2.6" ry="2.2" fill="#f2c39b" stroke="#c99a72" stroke-width=".6"/><path d="M14.5 29.2c2-1.7 4-1.5 5.5-.5 1.5-1 3.5-1.2 5.5.5-2 .9-3.8 1-5.5.3-1.7.7-3.5.6-5.5-.3z" fill="#14152b"/>']],
+  ['misc', 2, 3, 'Jester hat', '<path d="M8.5 15 6 4.5l8 6L20 2l6 8.5 8-6L31.5 15z" fill="#9b7bff"/><path d="M14 10.5 20 2l6 8.5-6 4.5z" fill="#feca57"/><rect x="8" y="13.4" width="24" height="2.6" rx="1.3" fill="#feca57"/><g fill="#ffd166" stroke="#c98f1c" stroke-width=".5"><circle cx="6" cy="4.5" r="1.8"/><circle cx="20" cy="2" r="1.8"/><circle cx="34" cy="4.5" r="1.8"/></g>'],
+  ['misc', 3, 3, 'Rainbow', `<g fill="none" stroke-width="2"><path d="M7 14.5a13 12 0 0 1 26 0" stroke="#ff6b6b"/><path d="M9 14.5a11 10 0 0 1 22 0" stroke="#feca57"/><path d="M11 14.5a9 8 0 0 1 18 0" stroke="#7bd88f"/><path d="M13 14.5a7 6 0 0 1 14 0" stroke="#5b8cff"/></g>${puff([[6.5, 15, 2.4], [9.4, 15.6, 2], [33.5, 15, 2.4], [30.6, 15.6, 2]], '#fff', '#dfe3ec')}`],
+].map(([cat, tier, part, name, svg]) => ({ cat, tier, part, name, svg }));
+CAT_ITEMS.forEach(it => { it.idx = LOOK_PARTS[it.part].length; LOOK_PARTS[it.part].push(it.svg); LOOK_N[it.part] = LOOK_PARTS[it.part].length; });
+const CAT_LABEL = { sport: 'Sport', music: 'Music', film: 'Film & TV', gaming: 'Gaming', geography: 'Geography', history: 'History',
+  science: 'Science & Nature', food: 'Food & Drink', words: 'Books & Words', misc: 'Pot luck' };
+const CAT_GOALS = [
+  { key: 'right', n: 10, short: '10 right answers', text: l => `10 right answers in ${l}` },
+  { key: 'outliers', n: 3, short: '3 Outliers', text: l => `3 Outliers in ${l}` },
+  { key: 'best', n: 400, short: 'Score 400+ in a seven-prompt game', text: l => `Score 400+ in a seven-prompt ${l} game` }];
+const EMOTE_GOAL = { key: 'right', n: 25, short: '25 right answers', text: l => `25 right answers in ${l}` };
+const goalOf = it => it.emote ? EMOTE_GOAL : CAT_GOALS[it.tier - 1];
+const itemKey = it => it.cat + (it.emote ? 'e' : it.tier);
+const itemGoal = it => goalOf(it).text(CAT_LABEL[it.cat]);
+// everything a category unlocks, easiest first: face item, hat, emote, top hat
+let UNLOCKABLES = [];   // filled in below, once the emotes exist
+const emoteLocked = id => { const e = EMOTES.find(x => x.id === id); return !!(e && e.cat && !store.get('outlier.unlocks', []).includes(e.cat + 'e')); };
+const itemAt = (part, v) => CAT_ITEMS.find(i => i.part === part && i.idx === v);
+const itemLocked = (part, v) => { const it = itemAt(part, v); return it && !store.get('outlier.unlocks', []).includes(itemKey(it)) ? it : null; };
+// From the stats: which items are earned now. Returns the ones that are new since last time.
+function syncUnlocks(st) {
+  if (!st || !st.unlocks) return [];
+  const had = store.get('outlier.unlocks', []);
+  const now = UNLOCKABLES.filter(it => { const c = st.unlocks[it.cat], g = goalOf(it); return c && c[g.key] >= g.n; });
+  store.set('outlier.unlocks', now.map(itemKey));
+  store.set('outlier.unlockStats', st.unlocks);
+  return now.filter(it => !had.includes(itemKey(it)));
+}
+// A look string with one part swapped
+const lookWith = (look, part, v) => { const l = [...look]; l[part] = v.toString(36); return l.join(''); };
 // A look is five characters, one per part (0-9 then a-z), e.g. "2b05c". Old four-part looks get no face extra.
 function lookFor(name, look) {
   if (/^[0-9a-z]{4,5}$/.test(look || '')) {
@@ -221,7 +288,7 @@ function lookFor(name, look) {
   }
   let h = 7;
   for (const ch of (name || '?').trim().toLowerCase()) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
-  return LOOK_N.map((n, i) => (Math.floor(h / [1, 13, 173, 2251, 31517][i]) % n).toString(36)).join('');
+  return BASE_N.map((n, i) => (Math.floor(h / [1, 13, 173, 2251, 31517][i]) % n).toString(36)).join('');
 }
 // Moods for the party podium: a winner throws their arms up with happy eyes and a big grin; a loser sobs.
 const TEAR = x => `<path d="M${x} 24.5c1.2 1.8 1.8 2.8 1.8 3.6a1.8 1.8 0 0 1-3.6 0c0-.8.6-1.8 1.8-3.6z" fill="#7fd3ff"/>`;
@@ -239,12 +306,60 @@ const MOODS = {
     mouth: inkLine('M15.5 31.5q4.5-4.5 9 0'),
   },
 };
+// ---- podium emotes: what you do on the steps when you finish first, second (or third of four or more). Everyone
+// has "Arms up"; each main category has one more, earned with 25 right answers in it.
+const ARMS = inner => `<g style="stroke:var(--pc);fill:var(--pc)" stroke-width="3.4" stroke-linecap="round">${inner}</g>`;
+const arm = (x1, y1, x2, y2, cls = '') => `<g class="arm ${cls}"><path d="M${x1} ${y1} ${x2} ${y2}"/><circle cx="${x2}" cy="${y2}" r="2.4" stroke="none"/></g>`;
+const HAPPY = inkLine('M12.5 23q2.5-3.5 5 0M22.5 23q2.5-3.5 5 0'), BLISS = inkLine('M12.5 22.5q2.5 1.8 5 0M22.5 22.5q2.5 1.8 5 0');
+const GRIN = MOODS.cheer.mouth;
+const heart = (x, y, cls) => `<path class="${cls}" d="M${x} ${y + 1.6}l-2-1.9a1.2 1.2 0 0 1 2-1.5 1.2 1.2 0 0 1 2 1.5z" fill="#ff4d6d"/>`;
+const flash = (x, y, d) => `<g class="flash" style="--d:${d}s"><circle cx="${x}" cy="${y}" r="1.7" fill="#fff"/><path d="M${x} ${y - 4}l.9 3.1 3.1.9-3.1.9-.9 3.1-.9-3.1-3.1-.9 3.1-.9z" fill="#fff"/></g>`;
+const pixels = (rows, x0, y0, sz) => rows.flatMap((r, y) => [...r].map((c, x) => c === '#' ? `<rect x="${x0 + x * sz}" y="${y0 + y * sz}" width="${sz}" height="${sz}"/>` : '')).join('');
+const PIX_G = ['.###', '#...', '#.##', '#..#', '.###'];
+const bits = [[-7, -6, '#ff6b6b', 0], [-3, -9, '#feca57', .15], [2, -8, '#4cc9f0', .3], [-8, -1, '#7bd88f', .1], [4, -4, '#ff7bd0', .25], [-5, -11, '#9b7bff', .4]];
+const EMOTES = [
+  { id: 'cheer', name: 'Arms up' },
+  { id: 'trophy', cat: 'sport', name: 'Trophy lift', eyes: HAPPY, mouth: GRIN,
+    behind: ARMS(arm(9, 29, 13.6, -4.6) + arm(31, 29, 26.4, -4.6)),
+    front: `<g ${GOLD}><path d="M15 -10h10v3.2a5 5 0 0 1-10 0z"/><rect x="18.9" y="-2" width="2.2" height="2"/><rect x="16.5" y="-.3" width="7" height="1.8" rx=".6"/></g><path d="M15 -8.6h-1.6a2.2 2.2 0 0 0 2.3 3.2M25 -8.6h1.6a2.2 2.2 0 0 1-2.3 3.2" fill="none" stroke="#c98f1c" stroke-width="1"/>${twinkle(17.5, -7)}` },
+  { id: 'guitar', cat: 'music', name: 'Guitar solo', eyes: BLISS, mouth: `<ellipse cx="20" cy="30" rx="2.6" ry="2.2" fill="${INK}"/>`, behind: '',
+    front: `<g transform="rotate(-28 20 33)"><rect x="19" y="31.8" width="16" height="2.4" rx=".8" fill="#8c5a2b"/><rect x="34" y="31" width="3.6" height="4" rx="1" fill="#5a3b22"/><path d="M8 33c0-3 2.5-4.4 5-3.6 1.4.5 2.4.4 3.4-.2 2.2-1.2 4.6.6 4.6 3.8s-2.4 5-4.6 3.8c-1-.6-2-.7-3.4-.2C10.5 37.4 8 36 8 33z" fill="#ff6b6b" stroke="${INK}" stroke-width=".7"/><circle cx="15" cy="33" r="1.3" fill="${INK}"/><path d="M15 33h20" stroke="#fff" stroke-width=".3" opacity=".7"/></g>`
+      + ARMS(arm(32, 32, 30.6, 27.4) + arm(9, 30, 15.4, 35.2, 'strum'))
+      + `<g fill="#fff" stroke="#fff"><g class="note"><path d="M31 4V-1l4-1v5" fill="none" stroke-width=".9"/><circle cx="30" cy="4" r="1.3" stroke="none"/><circle cx="34" cy="3" r="1.3" stroke="none"/></g><g class="note n2"><path d="M7 6V1" fill="none" stroke-width=".9"/><path d="M7 1q2.5 1 2.5 3" fill="none" stroke-width=".9"/><circle cx="6" cy="6" r="1.3" stroke="none"/></g></g>` },
+  { id: 'carpet', cat: 'film', name: 'Red carpet', eyes: LOOK_PARTS[1][5], mouth: inkLine('M16.5 29.6q4 1.6 7.5-1.6'),
+    behind: ARMS(arm(30, 30, 35.5, 17.5, 'wave')), front: flash(4, 7, 0) + flash(36, 3, .5) + flash(3, 31, 1) + flash(37, 33, 1.3) },
+  { id: 'gg', cat: 'gaming', name: 'GG', eyes: LOOK_PARTS[1][11], mouth: GRIN,
+    behind: ARMS(arm(9, 30, 3.5, 17.5, 'pump l') + arm(31, 30, 36.5, 17.5, 'pump r')),
+    front: `<g class="gg" fill="#7bd88f" stroke="${INK}" stroke-width=".4" shape-rendering="crispEdges">${pixels(PIX_G, 12.4, -10, 1.7)}${pixels(PIX_G, 20.9, -10, 1.7)}</g><g fill="#ffd166" shape-rendering="crispEdges"><rect x="7" y="-6" width="1.6" height="1.6"/><rect x="32" y="-8" width="1.6" height="1.6"/><rect x="34" y="-2" width="1.2" height="1.2"/></g>` },
+  { id: 'flag', cat: 'geography', name: 'Flag plant', eyes: LOOK_PARTS[1][0], mouth: inkLine('M16 28.5q4 3 8 0'),
+    behind: ARMS(arm(9, 30, 8.4, 17.4)),
+    front: `<path d="M34 -7v45" stroke="#8c6f3a" stroke-width="1.4" stroke-linecap="round"/><path class="flag" d="M34.6 -6.5c2.2 1.2 4 -.8 6.6.4v6.4c-2.6-1.2-4.4.8-6.6-.4z" fill="#ff6b6b"/><circle cx="37.9" cy="-3.3" r="1.3" fill="#fff"/>${ARMS(arm(31, 31, 33.4, 21))}` },
+  { id: 'royal', cat: 'history', name: 'Royal wave', eyes: BLISS, mouth: inkLine('M17.5 29q2.5 1.6 5 0'),
+    behind: ARMS(arm(31, 30, 36, 16, 'royal') + arm(9, 30, 5.2, 26)),
+    front: `<path d="M5.6 33 3 12.5" stroke="#ffd166" stroke-width="1.4" stroke-linecap="round"/><circle cx="2.9" cy="11.2" r="2.3" fill="#ffd166" stroke="#c98f1c" stroke-width=".5"/><circle cx="2.9" cy="11.2" r=".8" fill="#ff4d6d"/>` },
+  { id: 'eureka', cat: 'science', name: 'Eureka!', eyes: LOOK_PARTS[1][1], mouth: `<path d="M16 28h8a4 4 0 0 1-8 0z" fill="${INK}"/>`,
+    behind: ARMS(arm(31, 30, 34, 14) + '<path d="M34 14v-3.6" stroke-width="1.6"/>'),
+    front: `<g class="bulb"><circle cx="20" cy="-5" r="6.5" fill="#ffd166" opacity=".25"/><path d="M20 -10a4.2 4.2 0 0 0-2.4 7.6V-1h4.8v-1.4A4.2 4.2 0 0 0 20 -10z" fill="#ffe08a" stroke="#c98f1c" stroke-width=".6"/><path d="M12.5 -9l1.5 1.2M27.5 -9 26 -7.8M20 -13.5v-1.5M13 -3h-1.5M27 -3h1.5" stroke="#ffd166" stroke-width=".9" stroke-linecap="round"/></g><rect x="17.8" y="-1" width="4.4" height="1.8" rx=".4" fill="#9aa3c7"/>` },
+  { id: 'kiss', cat: 'food', name: "Chef's kiss", eyes: BLISS, mouth: `<circle cx="20.5" cy="29.5" r="1.5" fill="none" stroke="${INK}" stroke-width="1.5"/>`, behind: '',
+    front: ARMS(arm(31, 33, 23.5, 29.8, 'kiss')) + heart(30, 20, 'heart') + heart(34, 15, 'heart h2') + twinkle(27, 14, 1.2) },
+  { id: 'tada', cat: 'words', name: 'Ta-da!', eyes: LOOK_PARTS[1][4], mouth: GRIN,
+    behind: ARMS(arm(9, 30, 2.5, 22, 'jazz l') + arm(31, 30, 37.5, 22, 'jazz r')),
+    front: `<g class="bubble"><path d="M21 -11h17a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-11l-3 3v-3h-3a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2z" fill="#fff"/><text x="29.5" y="-4.4" text-anchor="middle" font-size="5" font-weight="900" fill="${INK}" font-family="system-ui, sans-serif">TA-DA!</text></g>` },
+  { id: 'popper', cat: 'misc', name: 'Party popper', eyes: LOOK_PARTS[1][4], mouth: GRIN,
+    behind: ARMS(arm(9, 30, 7.2, 20) + arm(31, 30, 36.5, 17.5, 'r')),
+    front: `<g class="popper"><path d="M7.8 21 -1 13.4 3.4 9z" fill="#9b7bff" stroke="${INK}" stroke-width=".5" stroke-linejoin="round"/><path d="M1.2 11.3l5 7M.1 12.6l6.5 6.6" stroke="#feca57" stroke-width=".8"/></g>`
+      + bits.map(([dx, dy, c, d], i) => `<rect class="bit" style="--dx:${dx}px;--dy:${dy}px;--d:${d}s" x="${i % 2 ? 1 : 0}" y="${10 + (i % 3)}" width="1.7" height="1" fill="${c}"/>`).join('') },
+];
+EMOTES.forEach(e => { if (e.cat) MOODS['e-' + e.id] = { cls: `mood-emote emo-${e.cat}`, behind: e.behind, eyes: e.eyes, mouth: e.mouth, front: e.front }; });
+const emoteMood = id => id && MOODS['e-' + id] ? 'e-' + id : 'cheer';
+UNLOCKABLES = Object.keys(CAT_LABEL).flatMap(cat => { const t = CAT_ITEMS.filter(it => it.cat === cat);
+  return [t[0], t[1], ...EMOTES.filter(e => e.cat === cat).map(e => ({ cat, emote: e.id, name: e.name })), t[2]]; });
 const avatar = (name, color, look, mood) => {
   const [hd, ey, mo, ht, fc] = [...lookFor(name, look)].map(c => parseInt(c, 36));
   const [under, over] = LOOK_PARTS[4][fc];
   const m = MOODS[mood];
-  return `<span class="av ch${m ? ` mood-${mood}` : ''}" style="--pc:${PCOL[color] || PCOL[0]}" role="img" aria-label="${esc(name || '')}"><svg viewBox="0 0 40 40" aria-hidden="true">`
-    + `${m ? m.behind : ''}<g style="fill:var(--pc)">${LOOK_PARTS[0][hd]}</g>${under}${m ? m.eyes : LOOK_PARTS[1][ey]}${m ? m.mouth : LOOK_PARTS[2][mo]}${over}${LOOK_PARTS[3][ht]}</svg></span>`;
+  return `<span class="av ch${m ? ` ${m.cls || 'mood-' + mood}` : ''}" style="--pc:${PCOL[color] || PCOL[0]}" role="img" aria-label="${esc(name || '')}"><svg viewBox="0 0 40 40" aria-hidden="true">`
+    + `${m ? m.behind : ''}<g style="fill:var(--pc)">${LOOK_PARTS[0][hd]}</g>${under}${m ? m.eyes : LOOK_PARTS[1][ey]}${m ? m.mouth : LOOK_PARTS[2][mo]}${over}${LOOK_PARTS[3][ht]}${m && m.front || ''}</svg></span>`;
 };
 const colorOf = (s, n) => (s.players.find(p => p.n === n) || {}).color;
 const lookOf = (s, n) => (s.players.find(p => p.n === n) || {}).look;
@@ -1420,20 +1535,21 @@ const boardWhen = b => b.period === 'today' ? `#${b.number} · ${longDate(b.date
   : `Since ${longDate(b.from, { day: 'numeric', month: 'long', year: 'numeric' })}`;
 const tabsHTML = period => `<div class="seg lb-tabs" id="lbTabs">${BOARD_TABS.map(([k, l]) => `<button class="chip${k === period ? ' on' : ''}" data-p="${k}" aria-pressed="${k === period}">${l}</button>`).join('')}</div>`;
 // Everyone (the public board) or Your leagues; the leaderboard button reopens whichever was last
-const viewHTML = v => `<div class="seg lb-view" id="lbView">${[['all', 'Everyone'], ['leagues', 'Your leagues']].map(([k, l]) =>
+const viewHTML = v => `<div class="seg lb-view" id="lbView">${[['all', 'Everyone'], ['leagues', 'Leagues'], ['chal', 'Challenges']].map(([k, l]) =>
   `<button class="chip${k === v ? ' on' : ''}" data-v="${k}" aria-pressed="${k === v}">${l}</button>`).join('')}</div>`;
 function wireView(v) {
   $('#lbView').onclick = e => {
     const b = e.target.closest('[data-v]');
     if (!b || b.dataset.v === v) return;
     store.set('outlier.boardView', b.dataset.v);
-    b.dataset.v === 'leagues' ? leaguesMenu() : boardMenu();
+    b.dataset.v === 'leagues' ? leaguesMenu() : b.dataset.v === 'chal' ? challengesMenu() : boardMenu();
   };
 }
 
 async function boardMenu(period = store.get('outlier.boardTab', 'today')) {
   stopTimer();
   if (store.get('outlier.boardView') === 'leagues') return leaguesMenu();
+  if (store.get('outlier.boardView') === 'chal') return challengesMenu();
   if (!BOARD_TABS.some(t => t[0] === period)) period = 'today';
   store.set('outlier.boardTab', period);
   show(`${topbar('Leaderboard')}
@@ -1656,6 +1772,72 @@ async function postScore(run, name) {
   } catch { return null; }   // the leaderboard is a bonus; never block the game on it
 }
 
+// ---- challenges you've sent or played, kept on this device so their leaderboards can be checked later
+function rememberChallenge(run, extra = {}) {
+  const list = store.get('outlier.challenges', []), old = list.find(c => c.seed === run.game.seed) || {};
+  const rec = { ...old, seed: run.game.seed, from: run.rival ? run.rival.name : (old.from || ''), at: old.at || Date.now(),
+    pts: run.results.map(r => r.points), ...extra };
+  store.set('outlier.challenges', [rec, ...list.filter(c => c.seed !== rec.seed)].slice(0, 30));
+}
+const challengeTitle = c => c.from ? `${c.from}'s challenge` : 'Your challenge';
+const shortDate = ms => new Date(ms).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+
+async function challengesMenu() {
+  stopTimer();
+  const list = store.get('outlier.challenges', []);
+  show(`${topbar('Leaderboard')}
+    ${viewHTML('chal')}
+    <div id="chList">${list.length ? '<p class="muted center">Loading…</p>' : `<section class="card lb-head"><span class="mode-ic">${ic('share')}</span><div><b>See how your friends did</b>
+      <small>Finish a quick game, tap Send challenge, and everyone who plays your link lands on its own leaderboard. Challenges friends send you show up here too.</small></div></section>`}</div>
+    <div class="stack"><button class="btn${list.length ? '' : ' primary'}" id="chPlay"><span>Play a quick game</span></button></div>
+    <p class="fine center">Challenges you've played or sent from this device.</p>`);
+  $('#back').onclick = home;
+  wireView('chal');
+  $('#chPlay').onclick = soloMenu;
+  if (!list.length) return;
+  let got = [];
+  try { got = await api(`/api/boards?seeds=${list.map(c => c.seed).join(',')}&cid=${playerId()}`); }
+  catch (e) { if ($('#chList')) $('#chList').innerHTML = `<p class="muted center">Couldn't load your challenges. ${esc(e.message)}</p>`; return; }
+  if (!$('#chList')) return;
+  const by = Object.fromEntries(got.map(b => [b.seed, b]));
+  $('#chList').innerHTML = `<section class="card lg-card"><ul class="archlist lg-list">${list.map(c => { const b = by[c.seed] || { count: 0 };
+    const sub = [shortDate(c.at), `${b.count} ${b.count === 1 ? 'player' : 'players'}`, b.lead && !b.lead.me ? `${b.lead.name} leads` : ''].filter(Boolean).join(' · ');
+    return `<li><button class="arch-day" data-s="${esc(c.seed)}"><span class="lg-ic">${ic(c.from ? 'users' : 'crown')}</span>
+      <span class="main"><b>${esc(challengeTitle(c))}</b><small>${esc(sub)}</small></span>
+      ${b.rank ? `<span class="num">${ordinal(b.rank)}<small>of ${b.count}</small></span>` : '<span class="lg-not">Not played</span>'}${ic('right', 'chev')}</button></li>`; }).join('')}</ul></section>`;
+  $('#chList').onclick = e => { const b = e.target.closest('[data-s]'); if (b) challengeBoard(b.dataset.s); };
+}
+
+// One challenge's full leaderboard: everyone who has played that link
+async function challengeBoard(seed) {
+  stopTimer();
+  const c = store.get('outlier.challenges', []).find(x => x.seed === seed) || { seed, from: '' };
+  show(`${topbar('Challenge')}<p class="muted center">Loading…</p>`);
+  $('#back').onclick = challengesMenu;
+  let b;
+  try { b = await api(`/api/board?seed=${encodeURIComponent(seed)}&cid=${playerId()}&size=50`); }
+  catch (e) { toast(e.message); return challengesMenu(); }
+  const mine = c.pts && c.pts.length ? c.pts.reduce((x, y) => x + y, 0) : null;
+  show(`${topbar('Challenge')}
+    <section class="card lb-head"><span class="mode-ic">${ic('trophy')}</span><div class="lg-head"><b>${esc(challengeTitle(c))}</b>
+      <small>${c.at ? `${shortDate(c.at)} · ` : ''}${b.count} ${b.count === 1 ? 'player' : 'players'}${b.rank ? ` · you're ${ordinal(b.rank)}` : ''}</small></div></section>
+    ${leaderboardHTML(b) || `<section class="card center"><p class="muted">No one's played this one yet.</p></section>`}
+    <div class="stack">
+      ${b.rank ? (mine !== null ? '<button class="btn primary" id="chSend">Send it to more friends</button>' : '')
+        : `<button class="btn primary" id="chGo">Play the challenge<small>Same 7 prompts, 30 seconds each</small></button>`}
+      <button class="btn slim" id="chRefresh"><span>Refresh</span></button>
+    </div>
+    <p class="fine center">Everyone who plays this link is ranked here.</p>`);
+  $('#back').onclick = () => { store.set('outlier.boardView', 'chal'); challengesMenu(); };
+  $('#chRefresh').onclick = () => challengeBoard(seed);
+  if ($('#chGo')) $('#chGo').onclick = () => startGame({ seed, rival: c.from ? { name: c.from, points: [] } : null });
+  if ($('#chSend')) $('#chSend').onclick = () => {
+    const name = store.get('outlier.name', '') || 'A friend';
+    const run = { game: { seed }, results: c.pts.map(points => ({ points })) };
+    shareText(`I scored ${mine} on Outlier\nCan you beat me?`, challengeLink(run, name));
+  };
+}
+
 // A challenge link: /c/<name>/<seed><two base-36 characters of points per prompt>
 function challengeLink(run, name) {
   const who = encodeURIComponent(name.replace(/\s+/g, '_'));
@@ -1697,19 +1879,24 @@ function gameSummary(run) {
       <input type="text" id="who" maxlength="16" placeholder="Your name" value="${esc(store.get('outlier.name', ''))}" autocomplete="off">
       <button class="btn primary" id="share">Send challenge</button>
       <p class="gamecode">Game code <code>${esc(game.seed)}</code></p>
+      ${run.rival || store.get('outlier.challenges', []).some(c => c.seed === game.seed) ? `<button class="btn slim" id="chSee">${ic('trophy')}<span>Challenge leaderboard</span></button>` : ''}
     </div>
     <div class="stack"><button class="btn" id="again">New game</button></div>`);
   $('#back').onclick = soloMenu;
   $('#again').onclick = () => startGame();
+  if ($('#chSee')) $('#chSee').onclick = () => challengeBoard(game.seed);
   if (!run.posted) {   // post once; later renders (and name changes) just update the same row
     run.posted = true;
     postScore(run, store.get('outlier.name', '') || 'Player').then(b => { run.board = b; if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(b); });
+    if (run.rival) rememberChallenge(run);
     checkBadges();
   } else if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(run.board);
   $('#share').onclick = async () => {
     const name = $('#who').value.trim().slice(0, 16) || 'A friend';
     store.set('outlier.name', name);
     postScore(run, name).then(b => { run.board = b; if ($('#lb')) $('#lb').innerHTML = leaderboardHTML(b); });
+    rememberChallenge(run);
+    if (!$('#chNote')) $('#share').insertAdjacentHTML('afterend', `<p class="fine" id="chNote">${ic('trophy')}<span>Check how everyone does under <b>Leaderboard › Challenges</b></span></p>`);
     shareText(`I scored ${total} on Outlier ${squares}\nCan you beat me?`, challengeLink(run, name));
   };
 }
@@ -1717,6 +1904,8 @@ function gameSummary(run) {
 // A challenge link: ?play=<seed>&from=<name>&pts=12.40.100...
 function challengeIntro(seed, from, pts) {
   stopTimer();
+  const known = store.get('outlier.challenges', []).find(c => c.seed === seed);   // played it already: straight to the standings
+  if (known && known.pts) return challengeBoard(seed);
   const points = (pts || '').split('.').map(n => Math.max(0, Math.min(150, parseInt(n, 10) || 0)));
   const rival = from ? { name: from.slice(0, 16), points } : null;
   const total = rival ? points.reduce((a, b) => a + b, 0) : 0;
@@ -1783,8 +1972,8 @@ function enterParty(code, pid) {
   party = { code, pid, key: null, busy: false, rounds: 5, secs: 30, mode: 'classic', lives: 3, turn: 10, fx: tvRevealFx };
   party.poll = setInterval(pollParty, 1000);
   pollParty();
-  const look = store.get('outlier.look'), color = store.get('outlier.color');
-  if (look) api('/api/room/look', { code, pid, look }).catch(() => {});
+  const look = store.get('outlier.look'), color = store.get('outlier.color'), emote = store.get('outlier.emote', '');
+  if (look || emote) api('/api/room/look', { code, pid, look: look || '', emote }).catch(() => {});
   if (Number.isInteger(color)) api('/api/room/color', { code, pid, color }).catch(() => {});   // ignored if someone has it
 }
 
@@ -1923,6 +2112,7 @@ const LOOK_NAMES = [
   ['Smile', 'Grin', 'Surprised', 'Flat', 'Cheeky', 'Kitty', 'Fangs', 'Frown', 'Smirk', 'Wobbly', 'Buck tooth', 'Laugh'],
   ['None', 'Party hat', 'Crown', 'Cap', 'Beanie', 'Headphones', 'Halo', 'Bow', 'Top hat', 'Wizard hat', 'Viking helmet', 'Flower', "Chef's hat", 'Propeller cap'],
   ['None', 'Rosy cheeks', 'Freckles', 'Moustache', 'Glasses', 'Eyepatch', 'Plaster', 'Clown nose', 'Sweat drop', 'Beard']];
+CAT_ITEMS.forEach(it => { LOOK_NAMES[it.part][it.idx] = it.name; });
 
 function characterMenu(back = home) {
   stopTimer();
@@ -1931,7 +2121,11 @@ function characterMenu(back = home) {
     const name = store.get('outlier.name', '') || 'You';
     return { name, look: lookFor(name, store.get('outlier.look')), color: store.get('outlier.color', 0) };
   };
-  const valueOf = (st, k) => k === 0 ? st.color : parseInt(st.look[k - 1], 36);
+  const tries = {};   // locked items being tried on: shown on the preview, never saved
+  let emoTry = null, emoTimer = null;   // the same for a locked emote
+  const emoNow = () => emoTry || (EMOTES.some(e => e.id === store.get('outlier.emote')) ? store.get('outlier.emote') : 'cheer');
+  const valueOf = (st, k) => k === 0 ? st.color : k in tries ? tries[k] : parseInt(st.look[k - 1], 36);
+  const preview = st => Object.entries(tries).reduce((l, [k, v]) => lookWith(l, k - 1, v), st.look);
   const nameOf = (k, v) => k === 0 ? PCOL_NAMES[v] : LOOK_NAMES[k - 1][v];
   show(`${topbar('Your character')}
     <section class="cc">
@@ -1945,34 +2139,91 @@ function characterMenu(back = home) {
         <ul class="cc-rows">${rows.map(([label], k) => `<li class="cc-row" data-k="${k}">
           <button class="cc-arr" data-k="${k}" data-d="-1" aria-label="Previous ${label.toLowerCase()}">${ic('left')}</button>
           <span class="cc-mid"><small>${label}</small><b id="ccV${k}"></b><i id="ccN${k}"></i></span>
-          <button class="cc-arr" data-k="${k}" data-d="1" aria-label="Next ${label.toLowerCase()}">${ic('right')}</button></li>`).join('')}</ul>
+          <button class="cc-arr" data-k="${k}" data-d="1" aria-label="Next ${label.toLowerCase()}">${ic('right')}</button></li>`).join('')}
+          <li class="cc-row" data-k="e"><button class="cc-arr" data-k="e" data-d="-1" aria-label="Previous podium emote">${ic('left')}</button>
+          <span class="cc-mid"><small>Podium emote</small><b id="ccVe"></b><i id="ccNe"></i></span>
+          <button class="cc-arr" data-k="e" data-d="1" aria-label="Next podium emote">${ic('right')}</button></li></ul>
         <div class="cc-actions">
           <button class="btn slim" id="ccRandom">${ic('shuffle')}<span>Randomise</span></button>
           <button class="btn primary slim" id="ccDone">${ic('check')}<span>Done</span></button>
         </div>
       </div>
-    </section>`);
+    </section>
+    <section class="card unl"><h3>Category unlocks <small id="unlCount"></small></h3>
+      <p class="fine">Play a category to earn its items and its podium emote: right answers, Outliers, then a big score in a seven-prompt game of just that category.</p>
+      <ul class="unl-list" id="unlList"></ul></section>`);
+  const drawUnlocks = () => {
+    const st = state(), look = preview(st), have = store.get('outlier.unlocks', []), stats = store.get('outlier.unlockStats', {}) || {};
+    $('#unlCount').textContent = `${have.length} of ${UNLOCKABLES.length}`;
+    $('#unlList').innerHTML = Object.keys(CAT_LABEL).map(cat => {
+      const items = UNLOCKABLES.filter(it => it.cat === cat), next = items.find(it => !have.includes(itemKey(it)));
+      const c = stats[cat] || {}, g = next && goalOf(next);
+      const sub = !next ? 'All four unlocked' : `Next: ${g.short}<b class="unl-prog">${g.key === 'best' ? `best ${c.best || 0}` : `${Math.min(c[g.key] || 0, g.n)}/${g.n}`}</b>`;
+      return `<li><span class="award-ic">${ic(CAT_ICON[cat] || 'sparkles')}</span>
+        <span class="main"><b>${CAT_LABEL[cat]}</b><small>${sub}</small></span>
+        <span class="unl-items">${items.map(it => { const got = have.includes(itemKey(it)), on = it.emote ? emoNow() === it.emote : parseInt(look[it.part], 36) === it.idx;
+          return `<button class="unl-it${got ? ' got' : ''}${on ? ' on' : ''}${it.emote ? ' emo' : ''}" ${it.emote ? `data-e="${it.emote}"` : `data-p="${it.part}" data-i="${it.idx}"`} aria-label="${esc(it.name)}${it.emote ? ' (podium emote)' : ''}${got ? '' : ' (locked)'}" title="${esc(it.name)}${got ? '' : ': ' + esc(itemGoal(it))}">
+            ${it.emote ? avatar(st.name, st.color, BASE_LOOK, 'e-' + it.emote) : avatar(st.name, st.color, lookWith(BASE_LOOK, it.part, it.idx))}${got ? '' : `<span class="unl-lock">${ic('lock')}</span>`}</button>`; }).join('')}</span></li>`;
+    }).join('');
+  };
   const draw = (bump) => {
-    const st = state();
-    $('#ccHero').innerHTML = avatar(st.name, st.color, st.look);
+    const st = state(), look = preview(st);
+    $('#ccHero').innerHTML = avatar(st.name, st.color, look);
     if (bump) { const h = $('#ccHero'); h.classList.remove('pop'); void h.offsetWidth; h.classList.add('pop'); }
     rows.forEach(([, n], k) => {
-      const v = valueOf(st, k);
-      $(`#ccV${k}`).textContent = nameOf(k, v);
-      $(`#ccN${k}`).textContent = `${v + 1} of ${n}`;
+      const v = valueOf(st, k), lock = k && itemLocked(k - 1, v);
+      $(`#ccV${k}`).innerHTML = `${esc(nameOf(k, v))}${lock ? ic('lock', 'cc-lock') : ''}`;
+      $(`#ccN${k}`).textContent = lock ? `Locked · ${itemGoal(lock)}` : `${v + 1} of ${n}`;
+      $(`.cc-row[data-k="${k}"]`).classList.toggle('locked', !!lock);
     });
+    const emo = emoNow(), elock = emoteLocked(emo), en = EMOTES.findIndex(e => e.id === emo);
+    $('#ccVe').innerHTML = `${esc(EMOTES[en].name)}${elock ? ic('lock', 'cc-lock') : ''}`;
+    $('#ccNe').textContent = elock ? `Locked · ${itemGoal(UNLOCKABLES.find(u => u.emote === emo))}` : `${en + 1} of ${EMOTES.length} · tap to see it`;
+    $('.cc-row[data-k="e"]').classList.toggle('locked', elock);
+    $('#ccHero').classList.toggle('trying', Object.keys(tries).length > 0 || !!emoTry);
     $('.cc-row[data-k="0"] .cc-mid b').style.color = PCOL[st.color];
+    drawUnlocks();
   };
-  const step = (k, d) => {
-    const st = state(), n = rows[k][1], v = (valueOf(st, k) + d + n) % n;
+  const set = (k, v) => {   // k is a row (0 = colour); a locked item is only tried on
+    const st = state();
     if (k === 0) store.set('outlier.color', v);
-    else { const l = [...st.look]; l[k - 1] = v.toString(36); store.set('outlier.look', l.join('')); }
+    else if (itemLocked(k - 1, v)) tries[k] = v;
+    else { delete tries[k]; store.set('outlier.look', lookWith(st.look, k - 1, v)); }
     draw(true);
   };
-  $('.cc-rows').onclick = e => { const b = e.target.closest('.cc-arr'); if (b) step(+b.dataset.k, +b.dataset.d); };
+  const step = (k, d) => { const n = rows[k][1]; set(k, (valueOf(state(), k) + d + n) % n); };
+  const playEmote = () => {   // the hero does the emote for a few seconds
+    const st = state();
+    clearTimeout(emoTimer);
+    $('#ccHero').innerHTML = avatar(st.name, st.color, preview(st), emoteMood(emoNow()));
+    emoTimer = setTimeout(() => { if ($('#ccHero')) $('#ccHero').innerHTML = avatar(state().name, state().color, preview(state())); }, 3600);
+  };
+  const setEmote = id => {
+    if (emoteLocked(id)) emoTry = id;
+    else { emoTry = null; store.set('outlier.emote', id); }
+    draw();
+    playEmote();
+  };
+  const stepEmote = d => { const i = EMOTES.findIndex(e => e.id === emoNow()); setEmote(EMOTES[(i + d + EMOTES.length) % EMOTES.length].id); };
+  $('#unlList').onclick = e => {
+    const b = e.target.closest('.unl-it');
+    if (!b) return;
+    if (b.dataset.e) {
+      if (emoteLocked(b.dataset.e)) toast(`Locked: ${itemGoal(UNLOCKABLES.find(u => u.emote === b.dataset.e))}`);
+      return setEmote(emoNow() === b.dataset.e && !emoTry ? 'cheer' : b.dataset.e);
+    }
+    const part = +b.dataset.p, v = +b.dataset.i, k = part + 1, it = itemAt(part, v);
+    if (valueOf(state(), k) === v) set(k, 0);   // tap again to take it off
+    else { set(k, v); if (itemLocked(part, v)) toast(`Locked: ${itemGoal(it)}`); }
+  };
+  $('.cc-rows').onclick = e => {
+    const b = e.target.closest('.cc-arr');
+    if (b) return b.dataset.k === 'e' ? stepEmote(+b.dataset.d) : step(+b.dataset.k, +b.dataset.d);
+    if (e.target.closest('.cc-row[data-k="e"]')) playEmote();
+  };
   $('.cc-rows').onkeydown = e => {   // left and right arrow keys step the focused row
     const row = e.target.closest('.cc-row');
-    if (row && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) { e.preventDefault(); step(+row.dataset.k, e.key === 'ArrowLeft' ? -1 : 1); }
+    if (row && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) { e.preventDefault(); const d = e.key === 'ArrowLeft' ? -1 : 1; row.dataset.k === 'e' ? stepEmote(d) : step(+row.dataset.k, d); }
   };
   $('#ccName').oninput = e => {
     const v = e.target.value.trim();
@@ -1981,13 +2232,16 @@ function characterMenu(back = home) {
     draw();
   };
   $('#ccRandom').onclick = () => {
-    store.set('outlier.look', LOOK_N.map(n => Math.floor(Math.random() * n).toString(36)).join(''));
+    Object.keys(tries).forEach(k => delete tries[k]);
+    store.set('outlier.look', LOOK_N.map((n, i) => { const ok = [...Array(n).keys()].filter(v => !itemLocked(i, v)); return ok[Math.floor(Math.random() * ok.length)].toString(36); }).join(''));
     store.set('outlier.color', Math.floor(Math.random() * PCOL.length));
     draw(true);
   };
   $('#ccDone').onclick = $('#back').onclick = () => back();
   draw();
+  api(statsQuery()).then(st => { syncUnlocks(st); if ($('#unlList')) draw(); }).catch(() => {});
 }
+const BASE_LOOK = '00000';   // the plain character the unlock thumbnails are drawn on
 
 function colorsHTML(s) {
   const mine = colorOf(s, s.you), taken = new Set(s.players.filter(p => p.n !== s.you).map(p => p.color));
@@ -2262,7 +2516,7 @@ function podiumHTML(s, ranked, sub) {
     if (!here.length) return `<div class="pod p${place} empty"><div class="pod-step"><span>${place}</span></div></div>`;
     const m = mood(here[0]);
     return `<div class="pod p${place}">
-      <div class="pod-top">${here.map(r => `<div class="pod-who${r.p.n === s.you ? ' me' : ''}">${avatar(r.p.name, r.p.color, r.p.look, m)}<b>${esc(r.p.name)}</b><small>${esc(sub(r.p))}</small></div>`).join('')}</div>
+      <div class="pod-top">${here.map(r => `<div class="pod-who${r.p.n === s.you ? ' me' : ''}">${avatar(r.p.name, r.p.color, r.p.look, m === 'cheer' ? emoteMood(r.p.emote) : m)}<b>${esc(r.p.name)}</b><small>${esc(sub(r.p))}</small></div>`).join('')}</div>
       <div class="pod-step"><span>${place}</span></div></div>`;
   };
   const floor = ranked.filter(r => r.rank > 3);
@@ -3219,6 +3473,7 @@ async function youPage() {
   if (!$('#youLoad')) return;   // moved on while it loaded
   const h = st.headline;
   rememberBadges(st, false);
+  syncUnlocks(st);
   const card = (v, l) => `<div class="stat"><b>${v}</b><small>${l}</small></div>`;
   const got = st.badges.filter(b => b.earned).length;
   show(`${head}
@@ -3249,8 +3504,13 @@ function rememberBadges(st, celebrate = true) {
 async function checkBadges() {
   let st;
   try { st = await api(statsQuery()); } catch { return; }
-  const fresh = rememberBadges(st);
-  if (fresh.length) badgePop(fresh);
+  const fresh = rememberBadges(st), first = !Array.isArray(store.get('outlier.unlocks'));
+  const items = syncUnlocks(st);
+  const name = store.get('outlier.name', '') || 'You', look = lookFor(name, store.get('outlier.look'));
+  const got = first ? [] : items.map(it => ({ name: it.name, desc: `${it.emote ? 'New podium emote' : 'New for your character'} · ${itemGoal(it)}`, item: true,
+    part: it.part, idx: it.idx, emote: it.emote,
+    html: it.emote ? avatar(name, store.get('outlier.color', 0), look, 'e-' + it.emote) : avatar(name, store.get('outlier.color', 0), lookWith(look, it.part, it.idx)) }));
+  if (fresh.length || got.length) badgePop([...fresh, ...got]);
 }
 
 function badgePop(list) {
@@ -3261,14 +3521,24 @@ function badgePop(list) {
   el.setAttribute('role', 'dialog');
   el.setAttribute('aria-label', 'New badge');
   el.innerHTML = `<div class="bp-card">
-    <p class="eyebrow">${list.length === 1 ? 'New badge!' : `${list.length} new badges!`}</p>
-    <ul>${list.map(b => `<li><span class="badge-ic">${ic(b.icon)}</span><span><b>${esc(b.name)}</b><small>${esc(b.desc)}</small></span></li>`).join('')}</ul>
-    <div class="bp-btns">${party ? '' : '<button class="btn slim" id="bpSee">See your badges</button>'}<button class="btn primary slim" id="bpOk">Lovely</button></div></div>`;
+    <p class="eyebrow">${list.every(b => b.item) ? (list.length === 1 ? 'Unlocked!' : `${list.length} items unlocked!`) : list.length === 1 ? 'New badge!' : `${list.length} new unlocks!`}</p>
+    <ul>${list.slice(0, 5).map(b => `<li><span class="badge-ic${b.item ? ' bp-av' : ''}">${b.html || ic(b.icon)}</span><span><b>${esc(b.name)}</b><small>${esc(b.desc)}</small></span></li>`).join('')}</ul>
+    ${list.length > 5 ? `<p class="fine center">and ${list.length - 5} more</p>` : ''}
+    <div class="bp-btns">${party ? '' : `<button class="btn slim" id="bpSee">${list.some(b => b.item) ? 'Try it on' : 'See your badges'}</button>`}<button class="btn primary slim" id="bpOk">Lovely</button></div></div>`;
   document.body.appendChild(el);
   const close = () => el.remove();
   el.onclick = e => { if (e.target === el) close(); };
   $('#bpOk', el).onclick = close;
-  if ($('#bpSee', el)) $('#bpSee', el).onclick = () => { close(); youPage(); };
+  if ($('#bpSee', el)) $('#bpSee', el).onclick = () => {
+    close();
+    const items = list.filter(b => b.item);
+    if (!items.length) return youPage();
+    const name = store.get('outlier.name', '') || 'You';   // put the new things on, then show the character
+    store.set('outlier.look', items.filter(b => !b.emote).reduce((l, b) => lookWith(l, b.part, b.idx), lookFor(name, store.get('outlier.look'))));
+    const emo = items.find(b => b.emote);
+    if (emo) store.set('outlier.emote', emo.emote);
+    characterMenu(youPage);
+  };
   $('#bpOk', el).focus();
 }
 
