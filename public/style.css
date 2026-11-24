@@ -114,14 +114,14 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 .btn:active:not(:disabled) { transform: scale(.985); }
 .link { color: var(--muted); padding: 8px 4px; font-size: .95rem; }
 .stack { display: flex; flex-direction: column; gap: 10px; }
-input[type=text], input[type=email] {
+input[type=text], input[type=email], input[type=search] {
   width: 100%; min-height: 52px; padding: 12px 16px; border-radius: 14px;
   border: 1.5px solid var(--line-2); background: var(--card); color: var(--text);
   font: inherit; font-size: 1.05rem; /* 16px+ stops iOS zooming on focus */
   transition: border-color .15s, box-shadow .15s;
 }
-input[type=text]::placeholder, input[type=email]::placeholder { color: var(--muted); opacity: .75; }
-input[type=text]:focus, input[type=email]:focus { outline: none; border-color: var(--you); box-shadow: 0 0 0 4px var(--you-soft); }
+input[type=text]::placeholder, input[type=email]::placeholder, input[type=search]::placeholder { color: var(--muted); opacity: .75; }
+input[type=text]:focus, input[type=email]:focus, input[type=search]:focus { outline: none; border-color: var(--you); box-shadow: 0 0 0 4px var(--you-soft); }
 input.code { text-transform: uppercase; letter-spacing: .3em; text-align: center; font-weight: 800; }
 :focus-visible { outline: 2px solid var(--you); outline-offset: 2px; }
 
@@ -1341,3 +1341,30 @@ html.calm .tv-crowd li.pop, html.calm .tv-ticks li.pop, html.calm .tv-cur .av { 
 @media (prefers-reduced-motion: reduce) { .av.mood-emote svg, .av.mood-emote svg * { animation: none !important; } .emo-film .flash, .emo-food .heart { opacity: 1; } }
 html.calm .av.mood-emote svg, html.calm .av.mood-emote svg * { animation: none !important; }
 html.calm .emo-film .flash, html.calm .emo-food .heart { opacity: 1; }
+
+/* End-of-game prompt rows that open every answer, and the searchable answer sheet */
+.rows li.ans-row { padding: 0; }
+.ans-open { all: unset; box-sizing: border-box; display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 0; cursor: pointer; }
+.ans-open:focus-visible { outline: 2px solid var(--you); outline-offset: 2px; border-radius: 8px; }
+.ans-open .chev { color: var(--muted); flex: none; }
+.ans-open:hover .main > b { text-decoration: underline; text-underline-offset: 3px; }
+.ans-hint { justify-content: center; margin-top: 8px; }
+.ans-q { font-weight: 700; font-size: 1.05rem; margin: 0; }
+.ans-you { margin: -10px 0 0; }
+.ans-find { width: 100%; }
+.ans-tiers .chip { gap: 6px; }
+.ans-tiers .chip i { width: 8px; height: 8px; border-radius: 50%; background: var(--tc); }
+.ans-tiers .chip small { opacity: .7; font-size: .75rem; }
+.ans-tiers .chip.on i { background: currentColor; }
+.ans-list { padding-bottom: 16px; }
+.ans-list li { padding: 7px 0; font-size: .92rem; }
+.ans-list li[hidden] { display: none; }
+.ans-list .rank { width: 2.2em; flex: none; color: var(--muted); font-size: .78rem; font-variant-numeric: tabular-nums; }
+.ans-list .share { color: var(--muted); font-variant-numeric: tabular-nums; font-size: .82rem; }
+.ans-pts { min-width: 3.2em; text-align: center; font-weight: 800; font-variant-numeric: tabular-nums; padding: 2px 8px; border-radius: 99px;
+  color: var(--tc); background: color-mix(in srgb, var(--tc) 16%, transparent); }
+.ans-list li.me { background: color-mix(in srgb, var(--you) 10%, transparent); border-radius: 8px; padding-left: 6px; padding-right: 6px; }
+.ans-list li.me .main > b { color: var(--you); }
+.ans-list .t1, .ans-tiers .t1 { --tc: var(--t1); } .ans-list .t2, .ans-tiers .t2 { --tc: var(--t2); } .ans-list .t3, .ans-tiers .t3 { --tc: var(--t3); }
+.ans-list .t4, .ans-tiers .t4 { --tc: var(--t4); } .ans-list .t5, .ans-tiers .t5 { --tc: var(--t5); }
+.ans-find { -webkit-appearance: none; appearance: none; }

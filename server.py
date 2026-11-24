@@ -480,10 +480,10 @@ def share_for(counts, name):
 BOARD_MAX = 150   # long lists send the commonest answers plus the player's own and the Outliers
 
 
-def board_for(counts, keep=()):
+def board_for(counts, keep=(), cap=BOARD_MAX):
     rows, top = sorted(counts, key=lambda n: -counts[n]), outliers_for(counts)
     pts, total = score_map(counts, top), sum(counts.values())
-    if len(rows) > BOARD_MAX:
+    if cap and len(rows) > cap:
         rows = rows[:BOARD_MAX] + [n for n in rows[BOARD_MAX:] if n in top or n in keep]
     return [{"name": n, "share": round(100 * counts[n] / total, 1), "points": pts[n],
              "outlier": n in top} for n in rows]
@@ -2022,7 +2022,7 @@ def resolve(room):
             record(pid, r["canonical"], r["given"])
     room["history"].append([{"n": r["n"], "name": r["name"], "points": r["points"], "valid": r["valid"],
                              "answer": r["canonical"] or r["given"], "share": r["share"], "outlier": r["outlier"],
-                             "shared": r["shared"], "doubled": r["doubled"]} for r in results])
+                             "shared": r["shared"], "doubled": r["doubled"], "pid": pid} for r in results])
     board = board_for(counts, keep={r["canonical"] for r in results if r["valid"]})
     results.sort(key=lambda r: -r["points"])
     # The crowd chart: the most common answers, plus every answer a player in the room gave.
@@ -2266,6 +2266,20 @@ def shared_state(room):
     return state
 
 
+def played_for(room, n):
+    """A finished classic game's prompts, in order, with what player n said to each: the end screen's answer list."""
+    out = []
+    for rnd in room["history"]:
+        pid = rnd[0].get("pid") if rnd else None
+        if pid not in PROMPTS:
+            continue
+        mine = next((h for h in rnd if h["n"] == n), None) or {}
+        out.append({"promptId": pid, "prompt": PROMPTS[pid]["text"], "answer": mine.get("answer"),
+                    "valid": mine.get("valid", False), "points": mine.get("points", 0), "outlier": mine.get("outlier", False),
+                    "doubled": mine.get("doubled", False)})
+    return out
+
+
 def room_state(room, token):
     room["players"][token]["last"] = time.time()
     tick(room)
@@ -2274,6 +2288,8 @@ def room_state(room, token):
     state.update(you=me["n"], doubleLeft=me["double_left"], doubling=me["doubling"], picked=me["picked"])
     if room["phase"] == "question":
         state["yourAnswer"] = me["answer"]
+    if room["phase"] == "final" and room.get("mode", "classic") == "classic":
+        state["played"] = played_for(room, me["n"])
     return state
 
 
@@ -2493,6 +2509,12 @@ def api_get(path, q):
         return leagues_mine(q)
     if path == "/api/league/board":
         return league_board(q)
+    if path == "/api/answers":   # every answer to one prompt, for the end-of-game answer lists
+        pid = q.get("promptId")
+        if pid not in PROMPTS:
+            raise ApiError(404, "Unknown prompt")
+        counts = counts_for(pid)
+        return {"promptId": pid, "prompt": PROMPTS[pid]["text"], "total": len(counts), "board": board_for(counts, cap=0)}
     if path == "/api/board":
         try:
             size = max(1, min(int(q.get("size") or 10), 50))

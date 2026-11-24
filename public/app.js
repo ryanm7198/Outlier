@@ -97,6 +97,7 @@ function intro(title, sub, then) {
 // A small line-icon set, drawn with currentColor so icons follow the text colour.
 const ICON = {
   thumb: '<path d="M7 10v11H4a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1z"/><path d="M7 10l4-7a2.5 2.5 0 0 1 3 3l-1 4h5.5a2 2 0 0 1 2 2.4l-1.5 7A2 2 0 0 1 17 21H7"/>',
+  search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>',
   user: '<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/>',
   users: '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.9 2.9-6 6.5-6s6.5 2.1 6.5 6"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8"/><path d="M18 14.3c2.2.7 3.5 2.6 3.5 5.7"/>',
   trophy: '<path d="M8 21h8M12 17v4"/><path d="M7 4h10v6a5 5 0 0 1-10 0z"/><path d="M17 6h3v1a3 3 0 0 1-3 3M7 6H4v1a3 3 0 0 0 3 3"/>',
@@ -543,12 +544,62 @@ function outlierHTML(list, mine) {
   return `<p class="muted center">${list.length > 1 ? 'The Outliers were' : 'The Outlier was'} ${list.map(o => `<b>${esc(o.name)}</b>`).join(' and ')}</p>`;
 }
 
-function boardHTML(board, mine, total) {
-  const more = total && total > board.length;
-  return `<details class="answers"><summary>${more ? `See the top answers (${total} in all)` : `See every answer (${board.length})`}</summary><ol class="rows board">${board.map(b => `
-    <li class="${b.name === mine ? 'me' : ''}"><span class="main"><b>${esc(b.name)}</b></span>
-    ${b.outlier ? '<span class="tag">Outlier</span>' : ''}<span class="share">${Number(b.share).toFixed(1)}%</span><span class="num">${b.points}</span></li>`).join('')}</ol></details>`;
+// ---- every answer to a prompt, searchable and filterable by rarity. Only opened from the end-of-game screens.
+const ansTier = b => b.outlier ? 5 : Math.max(1, Math.min(4, tier(b.points)));
+const fold = t => String(t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+// One row of an end screen's prompt list; tapping it opens that prompt's answers.
+function ansRowHTML(r, pid, extra = '') {
+  const said = r.valid ? esc(r.canonical) : (r.given ? `<span class="strike">${esc(r.given)}</span>` : '<span class="skipped">Skipped</span>');
+  const body = `<span class="main"><b>${said}</b><small>${esc(r.prompt)}</small></span><span class="num">+${r.points}${extra}</span>`;
+  return pid ? `<li class="ans-row"><button type="button" class="ans-open" data-ans="${esc(pid)}" data-mine="${esc(r.valid ? r.canonical : '')}">${body}${ic('right', 'chev')}</button></li>`
+    : `<li>${body}</li>`;
 }
+const ANS_HINT = `<p class="fine ans-hint">${ic('search')}<span>Tap a prompt to search every possible answer</span></p>`;
+const ANS_FAIL = '<p class="muted center">Couldn\'t load the answers. Try again in a moment.</p>';
+
+function answersSheet(pid, mine) {
+  let data = null, rare = 0, q = '';
+  const list = () => {
+    const rows = data.board.map((b, i) => ({ ...b, i: i + 1, t: ansTier(b), f: fold(b.name) }));
+    const n = t => rows.filter(b => b.t === t).length;
+    return `<p class="ans-q">${esc(data.prompt)}</p>
+      ${mine ? `<p class="muted ans-you">You said <b>${esc(mine)}</b></p>` : ''}
+      <input type="search" id="ansFind" class="ans-find" placeholder="Search ${data.total} answers" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
+      <div class="chips ans-tiers" id="ansTiers"><button class="chip on" data-rare="0">All</button>${[1, 2, 3, 4, 5].filter(n).map(t =>
+        `<button class="chip t${t}" data-rare="${t}"><i></i>${TIERS[t].replace('!', '')}<small>${n(t)}</small></button>`).join('')}</div>
+      <ol class="rows ans-list">${rows.map(b => `<li class="t${b.t}${b.name === mine ? ' me' : ''}" data-t="${b.t}" data-f="${esc(b.f)}">
+        <span class="rank">${b.i}</span><span class="main"><b>${esc(b.name)}</b></span>
+        <span class="share">${Number(b.share) < .1 ? '&lt;0.1' : Number(b.share).toFixed(1)}%</span><span class="ans-pts">${b.points}</span></li>`).join('')}</ol>
+      <p class="muted center" id="ansNone" hidden>No answers match.</p>`;
+  };
+  const filter = () => {
+    const box = $('.ans-list'); if (!box) return;
+    const words = fold(q).split(' ').filter(Boolean);
+    let shown = 0;
+    box.querySelectorAll('li').forEach(li => {
+      const ok = (!rare || +li.dataset.t === rare) && words.every(w => li.dataset.f.includes(w));
+      li.hidden = !ok; shown += ok;
+    });
+    $('#ansNone').hidden = shown > 0;
+  };
+  openSheet('Every answer', () => '<p class="muted center">Loading the answers…</p>', e => {
+    const c = e.target.closest('[data-rare]');
+    if (!c) return;
+    rare = +c.dataset.rare;
+    $('#ansTiers').querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x === c));
+    filter();
+  });
+  api(`/api/answers?promptId=${encodeURIComponent(pid)}`).then(d => { data = d; }, () => {}).then(() => {
+    const b = $('.sheet-bg:last-of-type .sheet-b'); if (!b) return;
+    b.innerHTML = data ? list() : ANS_FAIL;
+    const f = $('#ansFind');
+    if (f) f.oninput = () => { q = f.value; filter(); };
+  });
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-ans]');
+  if (b) answersSheet(b.dataset.ans, b.dataset.mine);
+});
 
 function questionHTML(text) {
   return `<section class="question">
@@ -1271,7 +1322,7 @@ function dailyQuestion(run) {
     <span>${title} · ${i + 1}/${day.prompts.length}</span><span class="pill">${sum(saved.results)}</span></header>`;
   ask(day.prompts[i], day.roundMs, header, res => {
     const before = sum(saved.results);
-    saved.results.push({ prompt: res.prompt, given: res.given, canonical: res.canonical, valid: res.valid, points: res.points, share: res.share });
+    saved.results.push({ prompt: res.prompt, promptId: res.promptId, given: res.given, canonical: res.canonical, valid: res.valid, points: res.points, share: res.share, outlier: res.outlier });
     saved.done = saved.results.length >= day.prompts.length;
     saved.total = sum(saved.results);
     store.set(run.key, saved);
@@ -1284,7 +1335,6 @@ function dailyQuestion(run) {
         <div class="card">${trailHTML([{ name: 'You', from: before, to: saved.total, me: true }], max)}
           <p class="zone">${zoneName(saved.total, max)}<span class="muted">${saved.total} paces from the crowd</span></p></div>
         ${outlierHTML(res.board.filter(b => b.outlier), res.canonical)}
-        ${boardHTML(res.board, res.canonical, res.boardTotal)}
         ${voteHTML(res.promptId)}
         <button class="btn primary" id="next">${saved.done ? 'See your day' : 'Next prompt'}</button>
       </div>`);
@@ -1372,8 +1422,7 @@ function dailySummary(run) {
     ${remindRowHTML()}
     <div class="card">${trailHTML([{ name: 'You', from: 0, to: saved.total, me: true }], max)}
       <p class="zone">You ended up: ${zoneName(saved.total, max)}</p></div>
-    <div class="sidecol"><ul class="rows card">${saved.results.map(r => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : (r.given ? `<span class="strike">${esc(r.given)}</span>` : '<span class="skipped">Skipped</span>')}</b>
-      <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}</span></li>`).join('')}</ul>
+    <div class="sidecol"><div><ul class="rows card">${saved.results.map((r, i) => ansRowHTML(r, r.promptId || ((run.day && run.day.prompts[i]) || {}).id)).join('')}</ul>${ANS_HINT}</div>
     <div id="lb"></div><div id="myLeagues"></div></div>
     <div class="card seed">
       <label for="who">Your name on today's leaderboard</label>
@@ -1454,8 +1503,7 @@ function archiveSummary(run, squares, max) {
     <div class="squares">${squares}</div>
     <div class="card">${trailHTML([{ name: 'You', from: 0, to: saved.total, me: true }], max)}
       <p class="zone">You ended up: ${zoneName(saved.total, max)}</p></div>
-    <div class="sidecol"><ul class="rows card">${saved.results.map(r => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : (r.given ? `<span class="strike">${esc(r.given)}</span>` : '<span class="skipped">Skipped</span>')}</b>
-      <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}</span></li>`).join('')}</ul></div>
+    <div class="sidecol"><div><ul class="rows card">${saved.results.map((r, i) => ansRowHTML(r, r.promptId || ((run.day && run.day.prompts[i]) || {}).id)).join('')}</ul>${ANS_HINT}</div></div>
     <p class="fine center">${ic('trophy')}<span>Archive games don't count for the leaderboard.</span></p>
     <div class="stack">
       <button class="btn primary" id="share">Share result</button>
@@ -1499,7 +1547,7 @@ function gameQuestion(run) {
     <span>${esc(game.label)} · ${i + 1}/${n}</span><span class="pill">${sum(results)}${rival ? ` v ${theirs}` : ''}</span></header>`;
   ask(game.prompts[i], game.roundMs, header, res => {
     const before = sum(results);
-    results.push({ prompt: res.prompt, given: res.given, canonical: res.canonical, valid: res.valid, points: res.points });
+    results.push({ prompt: res.prompt, promptId: res.promptId, given: res.given, canonical: res.canonical, valid: res.valid, points: res.points, outlier: res.outlier });
     const total = sum(results), done = results.length >= n, max = n * 100;
     const lanes = [{ name: 'You', from: before, to: total, me: true }];
     if (rival) lanes.push({ name: rival.name, from: theirs, to: theirs + (rival.points[i] || 0) });
@@ -1510,7 +1558,6 @@ function gameQuestion(run) {
         ${rival ? `<p class="center vs">${esc(rival.name)} scored <b>+${rival.points[i] || 0}</b> here</p>` : ''}
         <div class="card">${trailHTML(lanes, max)}</div>
         ${outlierHTML(res.board.filter(b => b.outlier), res.canonical)}
-        ${boardHTML(res.board, res.canonical, res.boardTotal)}
         ${voteHTML(res.promptId)}
         <button class="btn primary" id="next">${done ? 'See your score' : 'Next prompt'}</button>
       </div>`);
@@ -1871,8 +1918,8 @@ function gameSummary(run) {
     <div class="squares">${squares}</div>
     <div class="card">${trailHTML(lanes, max)}
       <p class="zone">You ended up: ${zoneName(total, max)}</p></div>
-    <div class="sidecol"><ul class="rows card">${results.map((r, i) => `<li><span class="main"><b>${r.valid ? esc(r.canonical) : (r.given ? `<span class="strike">${esc(r.given)}</span>` : '<span class="skipped">Skipped</span>')}</b>
-      <small>${esc(r.prompt)}</small></span><span class="num">+${r.points}${rival ? `<small>${esc(rival.name)} +${rival.points[i] || 0}</small>` : ''}</span></li>`).join('')}</ul>
+    <div class="sidecol"><div><ul class="rows card">${results.map((r, i) => ansRowHTML(r, r.promptId || (game.prompts[i] || {}).id,
+      rival ? `<small>${esc(rival.name)} +${rival.points[i] || 0}</small>` : '')).join('')}</ul>${ANS_HINT}</div>
     <div id="lb"></div></div>
     <div class="card seed">
       <label for="who">Challenge a friend on these 7 prompts</label>
@@ -2789,6 +2836,8 @@ function partyFinal(s, host) {
       ${avatar(p.name, p.color, p.look)}
       <span class="main"><b>${esc(p.name)}</b><small>${zoneName(p.score, max)}</small></span><span class="num">${p.score}</span></li>`).join('')}</ol>
     ${awardsHTML(s)}
+    ${(s.played || []).length ? `<section class="card"><h3>Your answers</h3><ul class="rows">${s.played.map(r => ansRowHTML({ ...r,
+      canonical: r.valid ? r.answer : null, given: r.valid ? '' : r.answer }, r.promptId)).join('')}</ul></section>${ANS_HINT}` : ''}
     ${asked.length ? `<p class="muted center">${asked.map(esc).join(', ')} ${asked.length === 1 ? 'wants' : 'want'} a rematch</p>` : ''}
     ${host ? `<div class="stack"><button class="btn primary" id="again">Rematch<small>Same players and settings, fresh prompts</small></button>
       <button class="btn" id="lobby">Change category</button></div>`
