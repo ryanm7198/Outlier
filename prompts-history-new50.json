@@ -1,0 +1,1418 @@
+{
+ "cat": "history",
+ "prompts": [
+  {
+   "id": "n50-history-tower-executions",
+   "tags": [
+    "royals"
+   ],
+   "text": "Name a person executed at the Tower of London or on nearby Tower Hill (any era up to 1941)",
+   "answers": [
+    [
+     "Anne Boleyn",
+     "Boleyn"
+    ],
+    [
+     "Lady Jane Grey",
+     "Jane Grey"
+    ],
+    [
+     "Catherine Howard",
+     "Kathryn Howard"
+    ],
+    [
+     "Sir Thomas More",
+     "Thomas More"
+    ],
+    [
+     "Thomas Cromwell",
+     "Cromwell"
+    ],
+    [
+     "Robert Devereux, 2nd Earl of Essex",
+     "Earl of Essex",
+     "Robert Devereux"
+    ],
+    [
+     "Margaret Pole, Countess of Salisbury",
+     "Margaret Pole",
+     "Countess of Salisbury"
+    ],
+    [
+     "George Boleyn",
+     "Lord Rochford",
+     "Viscount Rochford"
+    ],
+    [
+     "Jane Boleyn",
+     "Lady Rochford",
+     "Jane Parker"
+    ],
+    [
+     "Bishop John Fisher",
+     "John Fisher"
+    ],
+    [
+     "Lord Guildford Dudley",
+     "Guildford Dudley"
+    ],
+    [
+     "John Dudley, Duke of Northumberland",
+     "Duke of Northumberland",
+     "John Dudley"
+    ],
+    [
+     "Edward Seymour, Duke of Somerset",
+     "Duke of Somerset",
+     "Edward Seymour",
+     "Protector Somerset"
+    ],
+    [
+     "Thomas Seymour",
+     "Lord Seymour of Sudeley"
+    ],
+    [
+     "James Scott, Duke of Monmouth",
+     "Duke of Monmouth",
+     "Monmouth"
+    ],
+    [
+     "Josef Jakobs",
+     "Jakobs"
+    ],
+    [
+     "Archbishop William Laud",
+     "William Laud",
+     "Laud"
+    ],
+    [
+     "Thomas Wentworth, Earl of Strafford",
+     "Earl of Strafford",
+     "Strafford",
+     "Thomas Wentworth"
+    ],
+    [
+     "Simon Fraser, Lord Lovat",
+     "Lord Lovat",
+     "Simon Fraser"
+    ],
+    [
+     "Lord Hastings",
+     "William Hastings"
+    ],
+    [
+     "Edward Stafford, 3rd Duke of Buckingham",
+     "Duke of Buckingham",
+     "Edward Stafford"
+    ],
+    [
+     "Henry Courtenay, Marquess of Exeter",
+     "Marquess of Exeter",
+     "Henry Courtenay"
+    ],
+    [
+     "Sir Edward Neville",
+     "Edward Neville"
+    ],
+    [
+     "Thomas Darcy, Lord Darcy",
+     "Lord Darcy",
+     "Thomas Darcy"
+    ],
+    [
+     "Henry Howard, Earl of Surrey",
+     "Earl of Surrey",
+     "Henry Howard"
+    ],
+    [
+     "Thomas Howard, 4th Duke of Norfolk",
+     "Duke of Norfolk",
+     "Thomas Howard"
+    ],
+    [
+     "Henry Norris",
+     "Sir Henry Norris"
+    ],
+    [
+     "Francis Weston",
+     "Sir Francis Weston"
+    ],
+    "William Brereton",
+    [
+     "Mark Smeaton",
+     "Smeaton"
+    ],
+    [
+     "Edward Plantagenet, 17th Earl of Warwick",
+     "Earl of Warwick",
+     "Edward of Warwick"
+    ],
+    [
+     "Sir Simon de Burley",
+     "Simon de Burley"
+    ],
+    [
+     "Edmund de la Pole, Earl of Suffolk",
+     "Edmund de la Pole"
+    ],
+    [
+     "Henry Grey, Duke of Suffolk",
+     "Duke of Suffolk",
+     "Henry Grey"
+    ],
+    [
+     "Sir Thomas Wyatt the Younger",
+     "Thomas Wyatt"
+    ],
+    [
+     "Earl of Derwentwater",
+     "James Radclyffe"
+    ],
+    [
+     "Earl of Kilmarnock",
+     "William Boyd"
+    ],
+    [
+     "Lord Balmerino",
+     "Arthur Elphinstone"
+    ],
+    "Charles Radclyffe",
+    [
+     "Earl of Kenmure",
+     "Viscount Kenmure"
+    ],
+    [
+     "Sir Henry Vane the Younger",
+     "Henry Vane"
+    ],
+    [
+     "Algernon Sidney",
+     "Algernon Sydney"
+    ],
+    [
+     "Sir John Fenwick",
+     "John Fenwick"
+    ],
+    [
+     "Viscount Stafford",
+     "William Howard, 1st Viscount Stafford"
+    ],
+    [
+     "Carl Lody",
+     "Lody"
+    ],
+    "Carl Muller",
+    "Fernando Buschman",
+    "George Breeckow",
+    "Irving Guy Ries",
+    "Albert Meyer",
+    "Ernst Melin",
+    "Augusto Roggen",
+    "Willem Roos",
+    "Haicke Janssen",
+    [
+     "Walter Hungerford, 1st Baron Hungerford of Heytesbury",
+     "Lord Hungerford",
+     "Walter Hungerford"
+    ]
+   ]
+  },
+  {
+   "id": "n50-history-documents",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a famous historical document, charter, declaration or manuscript (not a peace treaty)",
+   "answers": [
+    [
+     "Magna Carta",
+     "Magna Charta"
+    ],
+    [
+     "Declaration of Independence",
+     "US Declaration of Independence"
+    ],
+    [
+     "Domesday Book",
+     "Doomsday Book",
+     "Domesday"
+    ],
+    [
+     "The Communist Manifesto",
+     "Communist Manifesto"
+    ],
+    [
+     "US Constitution",
+     "Constitution of the United States",
+     "American Constitution"
+    ],
+    [
+     "Bill of Rights",
+     "Bill of Rights 1689",
+     "US Bill of Rights"
+    ],
+    "Dead Sea Scrolls",
+    "Book of Kells",
+    [
+     "Ninety-five Theses",
+     "95 Theses"
+    ],
+    "Emancipation Proclamation",
+    "Mein Kampf",
+    [
+     "Universal Declaration of Human Rights",
+     "UDHR"
+    ],
+    "Gutenberg Bible",
+    "Rosetta Stone",
+    "Anglo-Saxon Chronicle",
+    "Lindisfarne Gospels",
+    "Declaration of Arbroath",
+    [
+     "Act of Union",
+     "Acts of Union"
+    ],
+    "Balfour Declaration",
+    "Zimmermann Telegram",
+    [
+     "Code of Hammurabi",
+     "Hammurabi's Code"
+    ],
+    [
+     "Declaration of the Rights of Man",
+     "Declaration of the Rights of Man and of the Citizen"
+    ],
+    [
+     "Napoleonic Code",
+     "Code Napoleon",
+     "Code Napoléon"
+    ],
+    [
+     "Geneva Conventions",
+     "Geneva Convention"
+    ],
+    "Atlantic Charter",
+    "Beveridge Report",
+    "Petition of Right",
+    [
+     "Habeas Corpus Act",
+     "Habeas Corpus"
+    ],
+    "Articles of Confederation",
+    "Federalist Papers",
+    "Gettysburg Address",
+    "Edict of Nantes",
+    "Edict of Milan",
+    [
+     "Twelve Tables",
+     "Law of the Twelve Tables"
+    ],
+    [
+     "Justinian Code",
+     "Corpus Juris Civilis",
+     "Code of Justinian"
+    ],
+    [
+     "Charter of the United Nations",
+     "UN Charter"
+    ],
+    "Mayflower Compact",
+    [
+     "King James Bible",
+     "Authorised Version"
+    ],
+    "Book of Common Prayer",
+    [
+     "People's Charter",
+     "The Charter",
+     "Chartist petition"
+    ],
+    [
+     "Great Reform Act",
+     "Reform Act 1832",
+     "Reform Act"
+    ],
+    "Voynich manuscript",
+    "Vindolanda tablets",
+    "Codex Sinaiticus",
+    "Codex Leicester",
+    "Dresden Codex",
+    "Popol Vuh",
+    "Gospels of Henry the Lion",
+    "Luttrell Psalter",
+    "Book of Durrow",
+    [
+     "Book of Hours",
+     "Très Riches Heures",
+     "Tres Riches Heures du Duc de Berry"
+    ],
+    [
+     "Molotov–Ribbentrop Pact",
+     "Nazi-Soviet Pact",
+     "Molotov-Ribbentrop Pact"
+    ],
+    "Munich Agreement",
+    [
+     "Wannsee Protocol",
+     "Wannsee Conference minutes"
+    ],
+    "Pentagon Papers",
+    "Truman Doctrine",
+    "Monroe Doctrine",
+    "Northwest Ordinance",
+    "Declaration of Breda",
+    "Instrument of Government",
+    "Agreement of the People",
+    "Solemn League and Covenant",
+    "National Covenant",
+    "Claim of Right",
+    "Act of Settlement",
+    "Act of Supremacy",
+    [
+     "Bull of Excommunication",
+     "Regnans in Excelsis"
+    ],
+    "Laudabiliter",
+    [
+     "Golden Bull of 1356",
+     "Golden Bull"
+    ],
+    "Unam Sanctam",
+    [
+     "Charter of Liberties",
+     "Charter of Liberties of Henry I"
+    ],
+    "Provisions of Oxford",
+    "Statute of Westminster",
+    "Assize of Clarendon",
+    [
+     "Laws of Æthelberht",
+     "Laws of Ethelbert"
+    ],
+    "Cyrus Cylinder",
+    "Behistun Inscription",
+    [
+     "Hereford Mappa Mundi",
+     "Mappa Mundi"
+    ],
+    [
+     "Tabula Peutingeriana",
+     "Peutinger Map"
+    ]
+   ]
+  },
+  {
+   "id": "n50-history-famous-trials",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a famous trial from history (held before 2000; by the defendant's name or the trial's usual name)",
+   "answers": [
+    [
+     "Nuremberg trials",
+     "Nuremberg trial",
+     "Nuremberg"
+    ],
+    [
+     "Salem witch trials",
+     "Salem witch trial",
+     "Salem"
+    ],
+    [
+     "O. J. Simpson",
+     "OJ Simpson",
+     "O.J. Simpson trial"
+    ],
+    [
+     "Oscar Wilde",
+     "Trial of Oscar Wilde"
+    ],
+    [
+     "Lady Chatterley trial",
+     "Lady Chatterley's Lover",
+     "R v Penguin Books"
+    ],
+    [
+     "Scopes Monkey Trial",
+     "Scopes trial",
+     "Monkey trial",
+     "John Scopes"
+    ],
+    [
+     "Socrates",
+     "Trial of Socrates"
+    ],
+    [
+     "Joan of Arc",
+     "Trial of Joan of Arc"
+    ],
+    [
+     "Galileo",
+     "Galileo Galilei",
+     "Trial of Galileo"
+    ],
+    [
+     "Charles I",
+     "King Charles I",
+     "Trial of Charles I"
+    ],
+    [
+     "Pendle witches",
+     "Pendle witch trials",
+     "Lancashire witches"
+    ],
+    [
+     "Guy Fawkes",
+     "Gunpowder Plot trial"
+    ],
+    [
+     "Rivonia Trial",
+     "Nelson Mandela"
+    ],
+    [
+     "Adolf Eichmann",
+     "Eichmann trial",
+     "Eichmann"
+    ],
+    [
+     "Dreyfus affair",
+     "Alfred Dreyfus",
+     "Dreyfus"
+    ],
+    [
+     "The Rosenbergs",
+     "Julius and Ethel Rosenberg",
+     "Rosenberg trial"
+    ],
+    [
+     "Jesus",
+     "Trial of Jesus"
+    ],
+    [
+     "Anne Boleyn",
+     "Trial of Anne Boleyn"
+    ],
+    [
+     "Mary, Queen of Scots",
+     "Mary Queen of Scots"
+    ],
+    [
+     "Sir Thomas More",
+     "Thomas More"
+    ],
+    [
+     "Brown v. Board of Education",
+     "Brown v Board"
+    ],
+    [
+     "Roe v. Wade",
+     "Roe v Wade"
+    ],
+    [
+     "Chicago Seven",
+     "Chicago Eight",
+     "Chicago 7"
+    ],
+    "Sacco and Vanzetti",
+    [
+     "Lindbergh kidnapping trial",
+     "Bruno Hauptmann",
+     "Hauptmann"
+    ],
+    "Birmingham Six",
+    "Guildford Four",
+    "Maguire Seven",
+    "Ruth Ellis",
+    [
+     "Derek Bentley",
+     "Bentley and Craig"
+    ],
+    [
+     "Dr Crippen",
+     "Hawley Harvey Crippen",
+     "Crippen"
+    ],
+    [
+     "The Moors murderers",
+     "Moors murders trial",
+     "Ian Brady",
+     "Myra Hindley",
+     "Brady and Hindley"
+    ],
+    [
+     "The Kray twins",
+     "Krays",
+     "Kray twins"
+    ],
+    [
+     "Great Train Robbers",
+     "Great Train Robbery trial"
+    ],
+    [
+     "Profumo affair",
+     "Stephen Ward"
+    ],
+    "Jeremy Thorpe",
+    [
+     "Peter Sutcliffe",
+     "Yorkshire Ripper"
+    ],
+    [
+     "Oz trial",
+     "Oz obscenity trial"
+    ],
+    "Tolpuddle Martyrs",
+    [
+     "Captain Kidd",
+     "William Kidd"
+    ],
+    [
+     "Warren Hastings",
+     "Impeachment of Warren Hastings"
+    ],
+    [
+     "Titus Oates",
+     "Popish Plot"
+    ],
+    "Bloody Assizes",
+    [
+     "Sir Walter Raleigh",
+     "Walter Raleigh"
+    ],
+    "Lizzie Borden",
+    "Al Capone",
+    [
+     "Charles Manson",
+     "Manson trial",
+     "Manson Family trial"
+    ],
+    "Leopold and Loeb",
+    [
+     "Rodney King",
+     "Rodney King trial"
+    ],
+    [
+     "Bill Clinton",
+     "Clinton impeachment"
+    ],
+    [
+     "Andrew Johnson",
+     "Johnson impeachment"
+    ],
+    [
+     "Tokyo war crimes trial",
+     "Tokyo Trials",
+     "International Military Tribunal for the Far East"
+    ],
+    "Klaus Barbie",
+    [
+     "Nicolae Ceaușescu",
+     "Ceausescu",
+     "Nicolae Ceausescu"
+    ],
+    [
+     "Gang of Four trial",
+     "Gang of Four"
+    ],
+    [
+     "Moscow Trials",
+     "Show trials",
+     "Great Purge trials"
+    ],
+    [
+     "Leipzig trial",
+     "Reichstag fire trial",
+     "Georgi Dimitrov"
+    ],
+    [
+     "Adolf Hitler",
+     "Beer Hall Putsch trial",
+     "Hitler trial"
+    ],
+    [
+     "Louis XVI",
+     "Trial of Louis XVI"
+    ],
+    "Marie Antoinette",
+    [
+     "Thomas Cranmer",
+     "Cranmer"
+    ],
+    "Jan Hus",
+    "William Wallace",
+    [
+     "Earl of Strafford",
+     "Strafford"
+    ],
+    [
+     "Amistad",
+     "Amistad case",
+     "La Amistad"
+    ],
+    [
+     "Dred Scott",
+     "Dred Scott v. Sandford"
+    ],
+    [
+     "Somerset v Stewart",
+     "James Somerset",
+     "Somerset case"
+    ],
+    [
+     "Plessy v. Ferguson",
+     "Plessy v Ferguson"
+    ],
+    [
+     "Miranda v. Arizona",
+     "Miranda"
+    ],
+    "Gideon v. Wainwright",
+    "Marbury v. Madison",
+    "Ted Bundy",
+    "Jeffrey Dahmer",
+    "Bernhard Goetz",
+    "Patty Hearst",
+    "Sam Sheppard",
+    [
+     "Dr Harold Shipman",
+     "Harold Shipman",
+     "Shipman"
+    ],
+    [
+     "Rose West",
+     "Fred and Rose West"
+    ],
+    "Jonathan Aitken",
+    [
+     "Jeffrey Archer",
+     "Archer libel trial"
+    ],
+    [
+     "McLibel",
+     "McLibel case"
+    ],
+    [
+     "Spycatcher",
+     "Spycatcher trial"
+    ],
+    "Clive Ponting",
+    "Stefan Kiszko",
+    "Timothy Evans",
+    [
+     "Edith Thompson",
+     "Thompson and Bywaters"
+    ],
+    [
+     "Florence Maybrick",
+     "Maybrick"
+    ],
+    "Madeleine Smith",
+    "Adelaide Bartlett",
+    "Eugene Aram",
+    [
+     "Queen Caroline",
+     "Trial of Queen Caroline"
+    ]
+   ]
+  },
+  {
+   "id": "n50-history-british-regiments",
+   "tags": [
+    "events"
+   ],
+   "text": "Name a British Army regiment or corps, past or present (like the Black Watch)",
+   "answers": [
+    [
+     "Coldstream Guards",
+     "Coldstream"
+    ],
+    [
+     "Grenadier Guards",
+     "Grenadiers"
+    ],
+    "Scots Guards",
+    "Irish Guards",
+    "Welsh Guards",
+    [
+     "Parachute Regiment",
+     "Paras",
+     "The Paras",
+     "Para Regiment"
+    ],
+    [
+     "Special Air Service",
+     "SAS"
+    ],
+    [
+     "Black Watch",
+     "The Black Watch"
+    ],
+    [
+     "Royal Gurkha Rifles",
+     "Gurkhas",
+     "The Gurkhas",
+     "Gurkha"
+    ],
+    [
+     "The Rifles",
+     "Rifles"
+    ],
+    "Household Cavalry",
+    [
+     "The Life Guards",
+     "Life Guards"
+    ],
+    [
+     "Blues and Royals",
+     "The Blues and Royals"
+    ],
+    [
+     "Royal Scots Greys",
+     "Scots Greys"
+    ],
+    [
+     "Royal Engineers",
+     "Sappers"
+    ],
+    [
+     "Royal Artillery",
+     "Royal Regiment of Artillery",
+     "Gunners"
+    ],
+    [
+     "Royal Green Jackets",
+     "Green Jackets"
+    ],
+    [
+     "Royal Regiment of Fusiliers",
+     "Fusiliers"
+    ],
+    [
+     "Royal Welch Fusiliers",
+     "Royal Welsh Fusiliers"
+    ],
+    [
+     "Royal Welsh",
+     "The Royal Welsh"
+    ],
+    [
+     "Royal Anglian Regiment",
+     "Royal Anglians"
+    ],
+    [
+     "Royal Scots",
+     "The Royal Scots"
+    ],
+    [
+     "Gordon Highlanders",
+     "Gordons"
+    ],
+    [
+     "Argyll and Sutherland Highlanders",
+     "Argylls"
+    ],
+    [
+     "Seaforth Highlanders",
+     "Seaforths"
+    ],
+    [
+     "Cameron Highlanders",
+     "Queen's Own Cameron Highlanders"
+    ],
+    "Royal Highland Fusiliers",
+    [
+     "King's Own Scottish Borderers",
+     "KOSB"
+    ],
+    "Royal Regiment of Scotland",
+    [
+     "Highlanders, Seaforth, Gordons and Camerons",
+     "The Highlanders"
+    ],
+    [
+     "Royal Irish Regiment",
+     "Royal Irish"
+    ],
+    "Connaught Rangers",
+    "Royal Dublin Fusiliers",
+    [
+     "Royal Inniskilling Fusiliers",
+     "Inniskillings"
+    ],
+    "Royal Ulster Rifles",
+    [
+     "Duke of Wellington's Regiment",
+     "Dukes"
+    ],
+    "Yorkshire Regiment",
+    "Green Howards",
+    "Prince of Wales's Own Regiment of Yorkshire",
+    "King's Royal Hussars",
+    "Light Dragoons",
+    "Queen's Royal Hussars",
+    "Royal Dragoon Guards",
+    [
+     "Royal Tank Regiment",
+     "RTR",
+     "Tank Regiment"
+    ],
+    [
+     "Royal Lancers",
+     "Queen's Royal Lancers",
+     "17th/21st Lancers",
+     "17th Lancers",
+     "Death or Glory Boys"
+    ],
+    [
+     "11th Hussars",
+     "Cherrypickers"
+    ],
+    [
+     "Royal Horse Artillery",
+     "King's Troop"
+    ],
+    [
+     "Royal Logistic Corps",
+     "RLC"
+    ],
+    [
+     "Royal Army Medical Corps",
+     "RAMC"
+    ],
+    [
+     "Royal Military Police",
+     "Redcaps",
+     "RMP"
+    ],
+    [
+     "Royal Corps of Signals",
+     "Royal Signals"
+    ],
+    "Army Air Corps",
+    "Intelligence Corps",
+    [
+     "Royal Electrical and Mechanical Engineers",
+     "REME"
+    ],
+    "Adjutant General's Corps",
+    "Royal Army Chaplains' Department",
+    "Royal Army Veterinary Corps",
+    "Small Arms School Corps",
+    "Army Physical Training Corps",
+    "Special Reconnaissance Regiment",
+    [
+     "Ranger Regiment",
+     "The Rangers"
+    ],
+    [
+     "Honourable Artillery Company",
+     "HAC"
+    ],
+    [
+     "Mercian Regiment",
+     "Mercians"
+    ],
+    "Duke of Lancaster's Regiment",
+    [
+     "Princess of Wales's Royal Regiment",
+     "PWRR",
+     "The Tigers"
+    ],
+    [
+     "Cheshire Regiment",
+     "Cheshires"
+    ],
+    [
+     "Worcestershire and Sherwood Foresters",
+     "Sherwood Foresters"
+    ],
+    [
+     "Staffordshire Regiment",
+     "Staffords"
+    ],
+    "Royal Hampshire Regiment",
+    [
+     "Devonshire and Dorset Regiment",
+     "Devon and Dorsets"
+    ],
+    [
+     "Gloucestershire Regiment",
+     "Glosters",
+     "Gloucesters"
+    ],
+    "Light Infantry",
+    "King's Regiment",
+    "King's Own Royal Border Regiment",
+    "Queen's Lancashire Regiment",
+    "Lancashire Fusiliers",
+    [
+     "Middlesex Regiment",
+     "Die-Hards"
+    ],
+    "Royal Sussex Regiment",
+    [
+     "Buffs",
+     "The Buffs",
+     "Royal East Kent Regiment"
+    ],
+    "Queen's Royal Surrey Regiment",
+    "Royal Norfolk Regiment",
+    "Suffolk Regiment",
+    "Essex Regiment",
+    "Royal Berkshire Regiment",
+    "Wiltshire Regiment",
+    [
+     "Oxfordshire and Buckinghamshire Light Infantry",
+     "Ox and Bucks"
+    ],
+    [
+     "Durham Light Infantry",
+     "DLI"
+    ],
+    [
+     "King's Own Yorkshire Light Infantry",
+     "KOYLI"
+    ],
+    "South Wales Borderers",
+    "Royal Warwickshire Regiment",
+    [
+     "Royal Leicestershire Regiment",
+     "Leicestershire Regiment"
+    ],
+    "Lincolnshire Regiment",
+    "Northamptonshire Regiment",
+    "Bedfordshire and Hertfordshire Regiment",
+    "Manchester Regiment",
+    "Border Regiment",
+    "East Lancashire Regiment",
+    "South Lancashire Regiment",
+    [
+     "Loyal Regiment",
+     "Loyal North Lancashire"
+    ],
+    "York and Lancaster Regiment",
+    "West Yorkshire Regiment",
+    "East Yorkshire Regiment",
+    [
+     "Royal Northumberland Fusiliers",
+     "Northumberland Fusiliers"
+    ],
+    [
+     "Royal Munster Fusiliers",
+     "Munsters"
+    ],
+    "Leinster Regiment",
+    "Royal Irish Rifles",
+    "Rifle Brigade",
+    [
+     "King's Royal Rifle Corps",
+     "KRRC",
+     "60th Rifles"
+    ],
+    [
+     "95th Rifles",
+     "95th"
+    ],
+    [
+     "Long Range Desert Group",
+     "LRDG"
+    ],
+    "Chindits",
+    [
+     "Commandos",
+     "Army Commandos",
+     "No. 2 Commando"
+    ],
+    "Glider Pilot Regiment",
+    [
+     "Phantom",
+     "GHQ Liaison Regiment"
+    ],
+    "Chestnut Troop",
+    [
+     "Pals battalions",
+     "Accrington Pals",
+     "Pals"
+    ]
+   ]
+  },
+  {
+   "id": "n50-history-empires-after-500",
+   "tags": [
+    "events"
+   ],
+   "text": "Name an empire that existed at some point after AD 500 (like the Ottoman Empire)",
+   "answers": [
+    [
+     "British Empire",
+     "British"
+    ],
+    [
+     "Ottoman Empire",
+     "Ottoman",
+     "Ottomans"
+    ],
+    [
+     "Mongol Empire",
+     "Mongol",
+     "Mongols"
+    ],
+    [
+     "Holy Roman Empire",
+     "HRE"
+    ],
+    [
+     "Byzantine Empire",
+     "Byzantine",
+     "Byzantium",
+     "Eastern Roman Empire"
+    ],
+    [
+     "Spanish Empire",
+     "Spanish"
+    ],
+    [
+     "Russian Empire",
+     "Russian",
+     "Tsarist Russia"
+    ],
+    [
+     "French Empire",
+     "French colonial empire",
+     "First French Empire",
+     "Napoleonic Empire"
+    ],
+    [
+     "Austro-Hungarian Empire",
+     "Austria-Hungary",
+     "Austro-Hungary"
+    ],
+    [
+     "Aztec Empire",
+     "Aztec",
+     "Aztecs",
+     "Mexica"
+    ],
+    [
+     "Inca Empire",
+     "Inca",
+     "Incas",
+     "Tawantinsuyu"
+    ],
+    [
+     "Mughal Empire",
+     "Mughal",
+     "Mughals",
+     "Moghul Empire"
+    ],
+    [
+     "Portuguese Empire",
+     "Portuguese"
+    ],
+    [
+     "German Empire",
+     "Second Reich",
+     "Kaiserreich"
+    ],
+    [
+     "Empire of Japan",
+     "Japanese Empire",
+     "Imperial Japan"
+    ],
+    [
+     "Third Reich",
+     "Nazi Germany",
+     "Greater German Reich"
+    ],
+    [
+     "Dutch Empire",
+     "Dutch colonial empire"
+    ],
+    "Austrian Empire",
+    [
+     "Carolingian Empire",
+     "Frankish Empire",
+     "Charlemagne's Empire"
+    ],
+    [
+     "Mali Empire",
+     "Mali"
+    ],
+    [
+     "Songhai Empire",
+     "Songhai"
+    ],
+    [
+     "Ghana Empire",
+     "Wagadou"
+    ],
+    [
+     "Qing dynasty",
+     "Qing Empire",
+     "Qing"
+    ],
+    [
+     "Ming dynasty",
+     "Ming Empire",
+     "Ming"
+    ],
+    [
+     "Tang dynasty",
+     "Tang"
+    ],
+    [
+     "Yuan dynasty",
+     "Yuan"
+    ],
+    [
+     "Safavid Empire",
+     "Safavid",
+     "Safavids"
+    ],
+    [
+     "Timurid Empire",
+     "Timurid",
+     "Tamerlane's empire"
+    ],
+    [
+     "Abbasid Caliphate",
+     "Abbasid",
+     "Abbasids"
+    ],
+    [
+     "Umayyad Caliphate",
+     "Umayyad",
+     "Umayyads"
+    ],
+    [
+     "Rashidun Caliphate",
+     "Rashidun"
+    ],
+    [
+     "Fatimid Caliphate",
+     "Fatimid",
+     "Fatimids"
+    ],
+    [
+     "Seljuk Empire",
+     "Seljuk",
+     "Seljuks"
+    ],
+    "Golden Horde",
+    [
+     "Khmer Empire",
+     "Khmer",
+     "Angkor"
+    ],
+    [
+     "Ethiopian Empire",
+     "Abyssinia",
+     "Abyssinian Empire"
+    ],
+    [
+     "Zulu Empire",
+     "Zulu Kingdom",
+     "Zulu"
+    ],
+    [
+     "Benin Empire",
+     "Kingdom of Benin"
+    ],
+    [
+     "Ashanti Empire",
+     "Asante Empire",
+     "Ashanti"
+    ],
+    [
+     "Kanem-Bornu Empire",
+     "Kanem Empire",
+     "Bornu Empire"
+    ],
+    [
+     "Vijayanagara Empire",
+     "Vijayanagara"
+    ],
+    [
+     "Maratha Empire",
+     "Maratha Confederacy",
+     "Marathas"
+    ],
+    [
+     "Sikh Empire",
+     "Sikh"
+    ],
+    "Delhi Sultanate",
+    [
+     "Chola Empire",
+     "Chola dynasty",
+     "Cholas"
+    ],
+    [
+     "Gupta Empire",
+     "Gupta"
+    ],
+    [
+     "Empire of Brazil",
+     "Brazilian Empire"
+    ],
+    [
+     "Mexican Empire",
+     "First Mexican Empire",
+     "Second Mexican Empire"
+    ],
+    [
+     "Angevin Empire",
+     "Angevin"
+    ],
+    [
+     "North Sea Empire",
+     "Cnut's Empire",
+     "Anglo-Scandinavian Empire"
+    ],
+    "Swedish Empire",
+    [
+     "Danish colonial empire",
+     "Danish Empire"
+    ],
+    [
+     "Belgian colonial empire",
+     "Belgian Empire",
+     "Congo Free State"
+    ],
+    [
+     "Italian Empire",
+     "Italian colonial empire"
+    ],
+    "Latin Empire",
+    [
+     "Empire of Trebizond",
+     "Trebizond"
+    ],
+    [
+     "Bulgarian Empire",
+     "First Bulgarian Empire",
+     "Second Bulgarian Empire"
+    ],
+    "Serbian Empire",
+    "Second French Empire",
+    "Korean Empire",
+    [
+     "Majapahit",
+     "Majapahit Empire"
+    ],
+    [
+     "Srivijaya",
+     "Srivijaya Empire"
+    ],
+    [
+     "Ghaznavid Empire",
+     "Ghaznavid",
+     "Ghaznavids"
+    ],
+    [
+     "Khwarazmian Empire",
+     "Khwarazm"
+    ],
+    [
+     "Sasanian Empire",
+     "Sassanid Empire",
+     "Sassanian",
+     "Sassanids"
+    ],
+    [
+     "Göktürk Khaganate",
+     "Gokturk",
+     "Turkic Khaganate"
+    ],
+    "Uyghur Khaganate",
+    "Tibetan Empire",
+    [
+     "Aksumite Empire",
+     "Aksum",
+     "Axum"
+    ],
+    [
+     "Oyo Empire",
+     "Oyo"
+    ],
+    [
+     "Sokoto Caliphate",
+     "Sokoto"
+    ],
+    "Toucouleur Empire",
+    "Wassoulou Empire",
+    [
+     "Mutapa",
+     "Monomotapa",
+     "Kingdom of Mutapa"
+    ],
+    [
+     "Tiwanaku",
+     "Tiwanaku Empire"
+    ],
+    "Wari Empire",
+    [
+     "Chimú Empire",
+     "Chimor"
+    ],
+    [
+     "Toltec Empire",
+     "Toltecs"
+    ],
+    "Ilkhanate",
+    "Chagatai Khanate",
+    "Durrani Empire",
+    [
+     "Afsharid Empire",
+     "Afsharid"
+    ],
+    [
+     "Qajar Empire",
+     "Qajar dynasty",
+     "Qajar"
+    ],
+    [
+     "Mamluk Sultanate",
+     "Mamluks",
+     "Mamluk"
+    ],
+    [
+     "Ayyubid Empire",
+     "Ayyubid dynasty",
+     "Ayyubids"
+    ],
+    [
+     "Almohad Caliphate",
+     "Almohads"
+    ],
+    [
+     "Almoravid Empire",
+     "Almoravids"
+    ],
+    "Central African Empire",
+    "Manchukuo",
+    [
+     "Haitian Empire",
+     "Empire of Haiti"
+    ],
+    [
+     "Empire of Vietnam",
+     "Đại Nam"
+    ],
+    [
+     "Kingdom of Great Zimbabwe",
+     "Great Zimbabwe"
+    ],
+    "Pala Empire",
+    [
+     "Rashtrakuta Empire",
+     "Rashtrakuta"
+    ],
+    [
+     "Harsha's Empire",
+     "Pushyabhuti"
+    ]
+   ]
+  }
+ ]
+}

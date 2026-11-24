@@ -1,5 +1,6 @@
-/* Outlier: dark by default, warm orange for "you", a calm violet-navy for everything else. */
+/* Outlier: always dark, warm orange for "you", a calm violet-navy for everything else. */
 :root {
+  color-scheme: dark;
   --bg: #0e0f22;
   --bg-glow: rgba(255, 122, 89, .10);
   --card: #181a35;
@@ -17,26 +18,6 @@
   --t1: #8c8fb8; --t2: #5fd6a2; --t3: #5fa8ff; --t4: #b98cff; --t5: #ff7a59;
   --shadow: 0 1px 0 rgba(255, 255, 255, .05) inset, 0 10px 30px -12px rgba(0, 0, 0, .55);
   --radius: 18px;
-}
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: #f4f2ec;
-    --bg-glow: rgba(232, 84, 46, .08);
-    --card: #ffffff;
-    --card-2: #f3f1f8;
-    --line: rgba(27, 28, 51, .09);
-    --line-2: rgba(27, 28, 51, .18);
-    --text: #1b1c33;
-    --muted: #63657f;
-    --crowd: #cfcde0;
-    --you: #e8542e;
-    --you-2: #f07a4e;
-    --you-ink: #ffffff;
-    --you-soft: rgba(232, 84, 46, .10);
-    --good: #1c8f5f;
-    --t1: #7d809e; --t2: #1c8f5f; --t3: #2f6fd6; --t4: #7b4ad6; --t5: #e8542e;
-    --shadow: 0 1px 2px rgba(27, 28, 51, .06), 0 10px 28px -14px rgba(27, 28, 51, .22);
-  }
 }
 
 * { box-sizing: border-box; }
@@ -81,7 +62,9 @@ h4 { font-size: .74rem; letter-spacing: .07em; text-transform: uppercase; color:
 .iconbtn:active { transform: scale(.94); }
 
 /* Home */
-.hero { text-align: center; padding: 28px 0 4px; }
+.hero { text-align: center; padding: 28px 0 4px; position: relative; }
+.hero-set { position: absolute; top: 0; right: 0; color: var(--muted); }
+.hero-set:hover { color: var(--text); }
 .logo { font-size: 3.1rem; font-weight: 800; letter-spacing: -.045em; line-height: 1; }
 .logo b { color: var(--you); }
 .hero p { color: var(--muted); margin-top: 8px; font-weight: 500; }
@@ -906,6 +889,15 @@ form.shake { animation: shake .35s; }
 .dc-wrap.done .dc-bell { background: var(--card-2); color: var(--muted); }
 .dc-wrap.done .dc-bell.on { background: var(--you); color: var(--you-ink); }
 /* results: the reminder switch */
+.setrow { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; }
+.setrow .mini-ic { margin: 0; }
+.setrow .main { display: grid; gap: 2px; min-width: 0; }
+.setrow .main small { color: var(--muted); font-size: .82rem; }
+.setrow.vol .main { gap: 8px; }
+.setrow.off { opacity: .5; }
+.setrow.off input, .setrow.off .btn { pointer-events: none; }
+.btn.small { padding: 8px 14px; font-size: .88rem; min-height: 0; width: auto; }
+input[type=range] { width: 100%; min-width: 0; accent-color: var(--you); margin: 0; padding: 0; height: 22px; background: transparent; border: 0; }
 .remind { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px; }
 .remind .mini-ic { margin: 0; }
 .remind .main { display: grid; gap: 2px; min-width: 0; }
@@ -923,6 +915,18 @@ form.shake { animation: shake .35s; }
 .mini-ic .av { width: 36px; height: 36px; }
 .mini b { font-size: .98rem; }
 .mini small { color: var(--muted); font-size: .78rem; }
+/* Home menu: each option gets its own colour so they stand apart. --acc is an "r, g, b" triplet. */
+.modes #solo { --acc: 95, 168, 255; }
+.modes #party { --acc: 185, 140, 255; }
+.modes #board { --acc: 255, 200, 87; }
+.modes #you { --acc: 95, 214, 162; }
+.modes .mode:not(.primary), .modes .mini {
+  background: linear-gradient(135deg, rgba(var(--acc), .26), rgba(var(--acc), .07) 75%), var(--card);
+  border-color: rgba(var(--acc), .5);
+}
+.modes .mode:not(.primary) .mode-ic, .modes .mini-ic { background: rgba(var(--acc), .26); color: rgb(var(--acc)); }
+.modes .mode:not(.primary) .chev { color: rgb(var(--acc)); }
+.modes .mode:not(.primary):hover, .modes .mini:hover { border-color: rgba(var(--acc), .7); }
 details.how { gap: 0; }
 details.how summary { display: flex; align-items: center; justify-content: space-between; list-style: none; cursor: pointer; }
 details.how summary::-webkit-details-marker { display: none; }
@@ -1238,3 +1242,26 @@ html.tv .pt-table:has(> li:nth-child(7)) .pt-name b { font-size: 1.05rem; }
   .tv-top .tv-mid { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { .tv-crowd li.pop, .tv-ticks li.pop, .tv-cur .av { animation: none; } }
+
+/* Settings → Reduce animations: the same as the phone's own reduced-motion setting */
+html.calm .cc-hero, html.calm .cc-hero.pop .av { animation: none; }
+html.calm .dots i { animation: none; opacity: .7; }
+html.calm .result.t5.done .pts { animation: none; }
+html.calm .track .fill, html.calm .track .mark { transition: none; }
+html.calm .timer.urgent, html.calm .secs.urgent { animation: none; }
+html.calm .sheet-bg, html.calm .sheet { transition: none; }
+html.calm .racer.pulse, html.calm .racer.pulse .rnum { animation: none; }
+html.calm .crowd i { transition: none; }
+html.calm .sk-flame, html.calm .sk-glow, html.calm .sk-num span { transition: none; }
+html.calm .sk-fire .sk-flame, html.calm .sk-fire .sk-outer, html.calm .sk-fire .sk-inner, html.calm .sk-fire .sk-glow, html.calm .sk-fire .sk-sparks i, html.calm .streak.card.risk .ic { animation: none !important; }
+html.calm .sk-head, html.calm .sk-sub, html.calm .sk > p.muted, html.calm .sk .btn { animation: none; opacity: 1; transform: none; }
+html.calm .thin .crowd i { transition: none; }
+html.calm #app.enter > *, html.calm .intro-dots .crowd i, html.calm .intro-bar i { animation: none; }
+html.calm .rv-card, html.calm .rv-stamp, html.calm .rv-drum, html.calm .tick-av.pop { animation: none; }
+html.calm .pt-you, html.calm .pt-table li.turn .av, html.calm .pt-log li, html.calm .pt-boom, html.calm form.shake, html.calm .pt-bh, html.calm .pt-roll li, html.calm .pt-next, html.calm .pt-pop, html.calm .seat.now .av, html.calm .seat-arrow { animation: none; }
+html.calm .pt-hearts i.lose { animation: none; opacity: .2; }
+html.calm .av.mood-cheer svg, html.calm .av.mood-cheer .arm, html.calm .av.mood-cry svg, html.calm .av.mood-cry .tear, html.calm .podium.play .pod-step, html.calm .podium.play .pod-top, html.calm .podium.play .pod-floor, html.calm .podium.play .confetti i { animation: none; }
+html.calm .switch, html.calm .switch i { transition: none; }
+html.calm .dc-risk .ic { animation: none; }
+html.calm .badge.got::after, html.calm .badge-pop, html.calm .bp-card, html.calm .bp-card li .badge-ic { animation: none; }
+html.calm .tv-crowd li.pop, html.calm .tv-ticks li.pop, html.calm .tv-cur .av { animation: none; }

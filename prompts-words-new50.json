@@ -1,0 +1,680 @@
+{
+  "cat": "words",
+  "prompts": [
+    {
+      "id": "n50-words-rhymes-time",
+      "tags": [
+        "letters"
+      ],
+      "text": "Name a word that rhymes with time",
+      "answers": [
+        "Lime",
+        "Crime",
+        "Climb",
+        [
+          "Rhyme",
+          "Rime"
+        ],
+        "Dime",
+        "Mime",
+        "Prime",
+        "Slime",
+        "Chime",
+        "Grime",
+        "Thyme",
+        "Sublime",
+        "Bedtime",
+        "Lunchtime",
+        "Daytime",
+        [
+          "Night-time",
+          "Nighttime"
+        ],
+        "Playtime",
+        "Overtime",
+        "Sometime",
+        "Meantime",
+        "Pastime",
+        "Springtime",
+        "Summertime",
+        "Wintertime",
+        "Teatime",
+        "Dinnertime",
+        [
+          "Half-time",
+          "Halftime"
+        ],
+        "Lifetime",
+        "Mealtime",
+        "Showtime",
+        "Anytime",
+        "Ragtime",
+        "Peacetime",
+        "Wartime",
+        "Downtime",
+        "Airtime",
+        "Bathtime",
+        "Storytime",
+        "Pantomime",
+        [
+          "Prime time",
+          "Primetime"
+        ],
+        [
+          "Full-time",
+          "Fulltime"
+        ],
+        [
+          "Part-time",
+          "Parttime"
+        ],
+        "Maritime",
+        "Paradigm",
+        "Quicklime",
+        "Enzyme",
+        "Noontime",
+        "Seedtime",
+        "Begrime",
+        "Birdlime",
+        "Cyme"
+      ]
+    },
+    {
+      "id": "n50-words-rhymes-fun",
+      "tags": [
+        "letters"
+      ],
+      "text": "Name a word that rhymes with fun",
+      "answers": [
+        "Sun",
+        "Run",
+        "Bun",
+        "Gun",
+        "One",
+        "Done",
+        "Son",
+        [
+          "Ton",
+          "Tonne"
+        ],
+        "Won",
+        "None",
+        "Nun",
+        "Spun",
+        "Stun",
+        "Shun",
+        "Pun",
+        "Begun",
+        "Someone",
+        "Everyone",
+        "Anyone",
+        [
+          "No one",
+          "No-one"
+        ],
+        "Undone",
+        "Outdone",
+        "Outrun",
+        "Overrun",
+        "Rerun",
+        "Shotgun",
+        "Handgun",
+        "Popgun",
+        "Hot cross bun",
+        "Honey bun",
+        "Overdone",
+        "Underdone",
+        "Home run",
+        "Fun run",
+        "Dry run",
+        "Number one",
+        "Twenty-one",
+        "Homespun",
+        "Hun",
+        "Hon",
+        "Dun",
+        "Tun"
+      ]
+    },
+    {
+      "id": "n50-words-silent-k",
+      "tags": [
+        "letters"
+      ],
+      "text": "Name a word that begins with a silent K (like knee)",
+      "answers": [
+        [
+          "Knife",
+          "Knives"
+        ],
+        [
+          "Knee",
+          "Knees"
+        ],
+        [
+          "Know",
+          "Knowing"
+        ],
+        "Knock",
+        "Knight",
+        "Knot",
+        [
+          "Knit",
+          "Knitting"
+        ],
+        "Knickers",
+        [
+          "Knuckle",
+          "Knuckles"
+        ],
+        "Knob",
+        "Knowledge",
+        "Kneel",
+        "Knew",
+        "Known",
+        "Knack",
+        "Knead",
+        "Knave",
+        "Knelt",
+        "Knapsack",
+        "Knell",
+        "Knoll",
+        [
+          "Knockout",
+          "Knock-out"
+        ],
+        [
+          "Knick-knack",
+          "Knickknack"
+        ],
+        "Knobbly",
+        "Knucklehead",
+        "Kneecap",
+        "Knighthood",
+        "Knitwear",
+        [
+          "Knee-jerk",
+          "Kneejerk"
+        ],
+        [
+          "Knowhow",
+          "Know-how"
+        ],
+        "Knotweed",
+        [
+          "Know-all",
+          "Know-it-all"
+        ],
+        "Knockers",
+        "Knobhead",
+        [
+          "Knees-up",
+          "Knees up"
+        ],
+        "Knowingly",
+        "Knotty",
+        "Knackered",
+        "Knacker",
+        [
+          "Knickerbocker",
+          "Knickerbockers",
+          "Knickerbocker glory"
+        ],
+        "Knurl",
+        "Knout",
+        "Knop",
+        "Knap",
+        "Knar",
+        "Knawel",
+        "Knur"
+      ]
+    },
+    {
+      "id": "n50-words-ough",
+      "tags": [
+        "letters"
+      ],
+      "text": "Name a word or place name containing the letters OUGH (like cough or Scarborough)",
+      "answers": [
+        "Through",
+        "Though",
+        "Tough",
+        "Rough",
+        "Cough",
+        "Enough",
+        "Thought",
+        "Bought",
+        "Brought",
+        "Fought",
+        "Dough",
+        "Plough",
+        "Bough",
+        "Ought",
+        "Sought",
+        "Nought",
+        "Drought",
+        "Thorough",
+        "Borough",
+        "Trough",
+        "Although",
+        "Throughout",
+        [
+          "Doughnut",
+          "Doughnuts"
+        ],
+        "Breakthrough",
+        "Thoughtful",
+        "Afterthought",
+        "Toughen",
+        "Roughly",
+        [
+          "Ploughman",
+          "Ploughman's"
+        ],
+        "Slough",
+        "Hiccough",
+        "Sough",
+        "Lough",
+        [
+          "Overwrought",
+          "Wrought"
+        ],
+        "Forethought",
+        "Wrought iron",
+        "Roughage",
+        "Thoroughbred",
+        "Thoroughfare",
+        "Ploughshare",
+        "Doughty",
+        "Furlough",
+        "Besought",
+        "Unsought",
+        "Clough",
+        "Chough",
+        "Soughing",
+        "Loughborough",
+        "Middlesbrough",
+        "Scarborough",
+        "Marlborough",
+        "Peterborough",
+        "Gainsborough",
+        "Doughboy",
+        "Roughneck",
+        "Coughing",
+        "Sourdough",
+        "Hough",
+        "Ploughed",
+        "Toughest"
+      ]
+    },
+    {
+      "id": "n50-words-palindromes",
+      "tags": [
+        "language"
+      ],
+      "text": "Name a word or name that is a palindrome (reads the same backwards, like level)",
+      "answers": [
+        [
+          "Racecar",
+          "Race car"
+        ],
+        "Level",
+        "Kayak",
+        "Mum",
+        "Dad",
+        "Noon",
+        "Radar",
+        "Madam",
+        "Civic",
+        "Wow",
+        "Refer",
+        "Rotor",
+        "Eye",
+        "Pop",
+        "Nan",
+        "Anna",
+        "Bob",
+        "Hannah",
+        "Otto",
+        "Eve",
+        "Ava",
+        "Abba",
+        "Peep",
+        "Deed",
+        "Did",
+        "Tenet",
+        "Stats",
+        "Solos",
+        "Sexes",
+        "Minim",
+        "Redder",
+        "Reviver",
+        "Repaper",
+        "Rotator",
+        "Deified",
+        "Reifier",
+        "Sagas",
+        "Shahs",
+        "Kook",
+        "Toot",
+        "Tot",
+        "Pip",
+        "Pup",
+        "Gag",
+        "Gig",
+        "Bib",
+        "Boob",
+        "Poop",
+        "Sees",
+        "Tit",
+        "Nun",
+        "Ewe",
+        "Dud",
+        "Mom",
+        "Pap",
+        "Sis",
+        "Huh",
+        "Hah",
+        "Ere",
+        "Aha",
+        "Elle",
+        "Ada",
+        "Asa",
+        "Lil",
+        "Malayalam",
+        "Rotavator",
+        "Detartrated",
+        "Tattarrattat",
+        "Kinnikinnik",
+        "Degged",
+        "Murdrum"
+      ]
+    },
+    {
+      "id": "n50-words-book-detectives",
+      "tags": [
+        "books"
+      ],
+      "text": "Name a fictional detective who first appeared in a book or short story (not one created for TV or film)",
+      "answers": [
+        [
+          "Sherlock Holmes",
+          "Sherlock",
+          "Holmes"
+        ],
+        [
+          "Hercule Poirot",
+          "Poirot"
+        ],
+        [
+          "Miss Marple",
+          "Jane Marple",
+          "Marple"
+        ],
+        [
+          "Inspector Morse",
+          "Morse",
+          "Endeavour Morse"
+        ],
+        [
+          "John Rebus",
+          "Rebus",
+          "Inspector Rebus"
+        ],
+        "Nancy Drew",
+        [
+          "The Hardy Boys",
+          "Hardy Boys",
+          "Frank Hardy",
+          "Joe Hardy"
+        ],
+        "Father Brown",
+        [
+          "Philip Marlowe",
+          "Marlowe"
+        ],
+        "Sam Spade",
+        [
+          "Cormoran Strike",
+          "Strike"
+        ],
+        [
+          "Jackson Brodie",
+          "Brodie"
+        ],
+        [
+          "Vera Stanhope",
+          "Vera"
+        ],
+        [
+          "Adam Dalgliesh",
+          "Dalgliesh"
+        ],
+        [
+          "Inspector Wexford",
+          "Reg Wexford",
+          "Wexford"
+        ],
+        [
+          "Lord Peter Wimsey",
+          "Peter Wimsey",
+          "Wimsey"
+        ],
+        [
+          "Kurt Wallander",
+          "Wallander"
+        ],
+        [
+          "Jules Maigret",
+          "Maigret",
+          "Inspector Maigret"
+        ],
+        [
+          "Inspector Montalbano",
+          "Montalbano",
+          "Salvo Montalbano"
+        ],
+        [
+          "Precious Ramotswe",
+          "Mma Ramotswe",
+          "Ramotswe"
+        ],
+        [
+          "Harry Bosch",
+          "Bosch"
+        ],
+        [
+          "Kay Scarpetta",
+          "Scarpetta"
+        ],
+        "Alex Cross",
+        [
+          "Jack Frost",
+          "Inspector Frost",
+          "Frost"
+        ],
+        [
+          "Tommy and Tuppence",
+          "Tommy",
+          "Tuppence"
+        ],
+        [
+          "Inspector Lynley",
+          "Thomas Lynley",
+          "Lynley"
+        ],
+        "Roy Grace",
+        "Tony Hill",
+        [
+          "Tom Barnaby",
+          "Inspector Barnaby",
+          "Barnaby"
+        ],
+        [
+          "Phryne Fisher",
+          "Miss Fisher"
+        ],
+        [
+          "Temperance Brennan",
+          "Tempe Brennan"
+        ],
+        [
+          "Armand Gamache",
+          "Inspector Gamache",
+          "Gamache"
+        ],
+        "Encyclopedia Brown",
+        "Dirk Gently",
+        [
+          "Brother Cadfael",
+          "Cadfael"
+        ],
+        [
+          "Shardlake",
+          "Matthew Shardlake"
+        ],
+        [
+          "Alan Banks",
+          "Inspector Banks",
+          "DCI Banks"
+        ],
+        [
+          "Jimmy Perez",
+          "Perez"
+        ],
+        "Ruth Galloway",
+        "Harry Hole",
+        [
+          "Lisbeth Salander",
+          "Salander"
+        ],
+        [
+          "Mikael Blomkvist",
+          "Blomkvist"
+        ],
+        "Lincoln Rhyme",
+        "Mike Hammer",
+        "Nero Wolfe",
+        "Ellery Queen",
+        [
+          "C. Auguste Dupin",
+          "Auguste Dupin",
+          "Dupin"
+        ],
+        [
+          "Albert Campion",
+          "Campion"
+        ],
+        [
+          "Roderick Alleyn",
+          "Alleyn",
+          "Inspector Alleyn"
+        ],
+        [
+          "Flavia de Luce",
+          "Flavia"
+        ],
+        [
+          "Enola Holmes",
+          "Enola"
+        ],
+        "Thursday Next",
+        "Kinsey Millhone",
+        [
+          "V. I. Warshawski",
+          "VI Warshawski",
+          "Warshawski"
+        ],
+        "Cordelia Gray",
+        "Easy Rawlins",
+        "Spenser",
+        "Lew Archer",
+        "Hamish Macbeth",
+        [
+          "Charlie Resnick",
+          "Resnick"
+        ],
+        "Logan McRae",
+        "Jack Caffery",
+        [
+          "Tom Thorne",
+          "Thorne"
+        ],
+        [
+          "Joe Faraday",
+          "Faraday"
+        ],
+        [
+          "Daniel Hawthorne",
+          "Hawthorne"
+        ],
+        [
+          "Joe Leaphorn",
+          "Leaphorn"
+        ],
+        [
+          "Erast Fandorin",
+          "Fandorin"
+        ],
+        "Judge Dee",
+        [
+          "Arkady Renko",
+          "Renko"
+        ],
+        "Bernie Gunther",
+        [
+          "Inspector Ghote",
+          "Ghote"
+        ],
+        "Martin Beck",
+        "Erlendur",
+        [
+          "Sergeant Cribb",
+          "Cribb"
+        ],
+        [
+          "Sergeant Cuff",
+          "Cuff"
+        ],
+        [
+          "Inspector Bucket",
+          "Bucket"
+        ],
+        "Inspector French",
+        [
+          "Dr Thorndyke",
+          "Thorndyke"
+        ],
+        [
+          "Max Carrados",
+          "Carrados"
+        ],
+        [
+          "Lecoq",
+          "Monsieur Lecoq"
+        ],
+        [
+          "Rouletabille",
+          "Joseph Rouletabille"
+        ],
+        [
+          "Mrs Bradley",
+          "Beatrice Adela Lestrange Bradley"
+        ],
+        [
+          "Miss Silver",
+          "Maud Silver"
+        ],
+        [
+          "Inspector Appleby",
+          "Appleby"
+        ],
+        [
+          "Gervase Fen",
+          "Fen"
+        ],
+        "Nigel Strangeways"
+      ]
+    }
+  ]
+}

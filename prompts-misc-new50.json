@@ -1,0 +1,1116 @@
+{
+ "cat": "misc",
+ "prompts": [
+  {
+   "id": "n50-misc-famous-paintings",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a famous painting (by its title)",
+   "answers": [
+    [
+     "Mona Lisa",
+     "La Gioconda",
+     "La Joconde"
+    ],
+    [
+     "The Starry Night",
+     "Starry Night"
+    ],
+    [
+     "The Scream",
+     "Scream"
+    ],
+    [
+     "The Last Supper",
+     "Last Supper"
+    ],
+    "Girl with a Pearl Earring",
+    [
+     "Sunflowers",
+     "Vase with Fifteen Sunflowers"
+    ],
+    [
+     "The Birth of Venus",
+     "Birth of Venus"
+    ],
+    [
+     "The Persistence of Memory",
+     "Persistence of Memory",
+     "Melting clocks"
+    ],
+    [
+     "The Hay Wain",
+     "Hay Wain"
+    ],
+    [
+     "The Night Watch",
+     "Night Watch"
+    ],
+    "Guernica",
+    [
+     "The Creation of Adam",
+     "Creation of Adam",
+     "Sistine Chapel ceiling",
+     "Sistine Chapel"
+    ],
+    [
+     "The Kiss",
+     "Kiss"
+    ],
+    "American Gothic",
+    [
+     "Water Lilies",
+     "Waterlilies",
+     "Nymphéas"
+    ],
+    [
+     "The Fighting Temeraire",
+     "Fighting Temeraire"
+    ],
+    "Las Meninas",
+    [
+     "The Garden of Earthly Delights",
+     "Garden of Earthly Delights"
+    ],
+    "Nighthawks",
+    [
+     "Girl with Balloon",
+     "Balloon Girl",
+     "Love is in the Bin"
+    ],
+    [
+     "The Great Wave off Kanagawa",
+     "The Great Wave",
+     "Great Wave"
+    ],
+    [
+     "Whistler's Mother",
+     "Arrangement in Grey and Black No. 1"
+    ],
+    [
+     "Campbell's Soup Cans",
+     "Campbell's Soup",
+     "Soup Cans"
+    ],
+    [
+     "Marilyn Diptych",
+     "Marilyn Monroe",
+     "Shot Marilyns"
+    ],
+    [
+     "The Arnolfini Portrait",
+     "Arnolfini Portrait",
+     "Arnolfini Wedding"
+    ],
+    "Liberty Leading the People",
+    [
+     "Impression, Sunrise",
+     "Impression Sunrise"
+    ],
+    [
+     "The Son of Man",
+     "Son of Man",
+     "Man in the bowler hat"
+    ],
+    [
+     "The Treachery of Images",
+     "Ceci n'est pas une pipe",
+     "This is not a pipe"
+    ],
+    [
+     "Les Demoiselles d'Avignon",
+     "Demoiselles d'Avignon"
+    ],
+    [
+     "The Laughing Cavalier",
+     "Laughing Cavalier"
+    ],
+    "Ophelia",
+    [
+     "The Lady of Shalott",
+     "Lady of Shalott"
+    ],
+    [
+     "The Ambassadors",
+     "Ambassadors"
+    ],
+    [
+     "Rain, Steam and Speed",
+     "Rain Steam and Speed"
+    ],
+    [
+     "The Blue Boy",
+     "Blue Boy"
+    ],
+    [
+     "Bedroom in Arles",
+     "The Bedroom",
+     "Van Gogh's Bedroom"
+    ],
+    [
+     "Café Terrace at Night",
+     "Cafe Terrace at Night"
+    ],
+    [
+     "The Potato Eaters",
+     "Potato Eaters"
+    ],
+    "Wheatfield with Crows",
+    "Self-Portrait with Bandaged Ear",
+    [
+     "The School of Athens",
+     "School of Athens"
+    ],
+    "Primavera",
+    [
+     "The Raft of the Medusa",
+     "Raft of the Medusa"
+    ],
+    [
+     "The Third of May 1808",
+     "The Third of May",
+     "Third of May"
+    ],
+    "Saturn Devouring His Son",
+    [
+     "A Sunday Afternoon on the Island of La Grande Jatte",
+     "Sunday Afternoon on La Grande Jatte",
+     "La Grande Jatte"
+    ],
+    [
+     "Bal du moulin de la Galette",
+     "Dance at Le Moulin de la Galette"
+    ],
+    "Luncheon of the Boating Party",
+    [
+     "Le Déjeuner sur l'herbe",
+     "Dejeuner sur l'herbe",
+     "Luncheon on the Grass"
+    ],
+    "Olympia",
+    [
+     "A Bar at the Folies-Bergère",
+     "Bar at the Folies-Bergere"
+    ],
+    [
+     "The Card Players",
+     "Card Players"
+    ],
+    [
+     "Wanderer above the Sea of Fog",
+     "Wanderer Above the Sea of Fog"
+    ],
+    [
+     "The Gleaners",
+     "Gleaners"
+    ],
+    "The Angelus",
+    "Christina's World",
+    [
+     "Number 5, 1948",
+     "No. 5, 1948"
+    ],
+    "Blue Poles",
+    [
+     "Composition with Red, Blue and Yellow",
+     "Composition with Red Blue and Yellow"
+    ],
+    [
+     "Whaam!",
+     "Whaam"
+    ],
+    "Drowning Girl",
+    "A Bigger Splash",
+    "Mr and Mrs Clark and Percy",
+    "Flaming June",
+    "The Light of the World",
+    "Work",
+    "The Death of Chatterton",
+    "Bubbles",
+    [
+     "And When Did You Last See Your Father?",
+     "When Did You Last See Your Father"
+    ],
+    "Mr and Mrs Andrews",
+    "Whistlejacket",
+    [
+     "An Experiment on a Bird in the Air Pump",
+     "Experiment on a Bird in the Air Pump"
+    ],
+    [
+     "The Monarch of the Glen",
+     "Monarch of the Glen"
+    ],
+    [
+     "The Skating Minister",
+     "Reverend Robert Walker Skating on Duddingston Loch"
+    ],
+    "Salvator Mundi",
+    [
+     "The Lady with an Ermine",
+     "Lady with an Ermine"
+    ],
+    "Judith Slaying Holofernes",
+    [
+     "The Calling of Saint Matthew",
+     "Calling of St Matthew"
+    ],
+    [
+     "The Anatomy Lesson of Dr. Nicolaes Tulp",
+     "The Anatomy Lesson"
+    ],
+    "The Milkmaid",
+    "View of Delft",
+    "Children's Games",
+    "Netherlandish Proverbs",
+    [
+     "The Hunters in the Snow",
+     "Hunters in the Snow"
+    ],
+    "The Tower of Babel",
+    "Landscape with the Fall of Icarus",
+    "Napoleon Crossing the Alps",
+    "The Death of Marat",
+    "The Oath of the Horatii",
+    "The Swing",
+    "The Two Fridas",
+    "Self-Portrait with Thorn Necklace and Hummingbird",
+    [
+     "Dogs Playing Poker",
+     "A Friend in Need"
+    ],
+    "The Sleeping Gypsy",
+    "The Dream",
+    [
+     "Tiger in a Tropical Storm",
+     "Surprised!"
+    ],
+    "The Elephants",
+    "Swans Reflecting Elephants",
+    "Metamorphosis of Narcissus",
+    "The Lovers",
+    "Golconda",
+    "The Empire of Light",
+    "Black Square",
+    "Composition VIII",
+    "The Blue Rider",
+    "Ivan the Terrible and His Son Ivan",
+    "The Ninth Wave",
+    "Barge Haulers on the Volga",
+    "Isle of the Dead",
+    "The Hireling Shepherd",
+    "Proserpine",
+    "The Bath",
+    [
+     "Nude Descending a Staircase",
+     "Nude Descending a Staircase, No. 2"
+    ],
+    [
+     "Dance",
+     "La Danse"
+    ],
+    "The Snail",
+    [
+     "Le Rêve",
+     "Le Reve"
+    ],
+    "The Old Guitarist",
+    "Weeping Woman",
+    "Massacre in Korea",
+    "Boy with a Pipe"
+   ]
+  },
+  {
+   "id": "n50-misc-painters",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a famous painter (any era, any country)",
+   "answers": [
+    [
+     "Vincent van Gogh",
+     "Van Gogh",
+     "Vincent"
+    ],
+    [
+     "Pablo Picasso",
+     "Picasso"
+    ],
+    [
+     "Leonardo da Vinci",
+     "Da Vinci",
+     "Leonardo"
+    ],
+    [
+     "Claude Monet",
+     "Monet"
+    ],
+    [
+     "Michelangelo",
+     "Michelangelo Buonarroti"
+    ],
+    [
+     "Salvador Dalí",
+     "Dali",
+     "Salvador Dali"
+    ],
+    [
+     "Rembrandt",
+     "Rembrandt van Rijn"
+    ],
+    [
+     "Andy Warhol",
+     "Warhol"
+    ],
+    [
+     "Frida Kahlo",
+     "Frida",
+     "Kahlo"
+    ],
+    [
+     "J. M. W. Turner",
+     "Turner",
+     "JMW Turner",
+     "William Turner"
+    ],
+    [
+     "John Constable",
+     "Constable"
+    ],
+    "Banksy",
+    [
+     "Edvard Munch",
+     "Munch"
+    ],
+    [
+     "Henri Matisse",
+     "Matisse"
+    ],
+    [
+     "Raphael",
+     "Raffaello"
+    ],
+    [
+     "Johannes Vermeer",
+     "Vermeer"
+    ],
+    [
+     "Gustav Klimt",
+     "Klimt"
+    ],
+    [
+     "Paul Cézanne",
+     "Cezanne",
+     "Paul Cezanne"
+    ],
+    [
+     "Pierre-Auguste Renoir",
+     "Renoir"
+    ],
+    [
+     "Edgar Degas",
+     "Degas"
+    ],
+    [
+     "Jackson Pollock",
+     "Pollock"
+    ],
+    "Francis Bacon",
+    [
+     "David Hockney",
+     "Hockney"
+    ],
+    [
+     "L. S. Lowry",
+     "Lowry",
+     "LS Lowry"
+    ],
+    [
+     "Botticelli",
+     "Sandro Botticelli"
+    ],
+    "Caravaggio",
+    [
+     "Édouard Manet",
+     "Manet",
+     "Edouard Manet"
+    ],
+    [
+     "Paul Gauguin",
+     "Gauguin"
+    ],
+    [
+     "Georges Seurat",
+     "Seurat"
+    ],
+    [
+     "Henri de Toulouse-Lautrec",
+     "Toulouse-Lautrec",
+     "Toulouse Lautrec"
+    ],
+    [
+     "René Magritte",
+     "Magritte",
+     "Rene Magritte"
+    ],
+    [
+     "Wassily Kandinsky",
+     "Kandinsky"
+    ],
+    [
+     "Piet Mondrian",
+     "Mondrian"
+    ],
+    [
+     "Roy Lichtenstein",
+     "Lichtenstein"
+    ],
+    [
+     "Mark Rothko",
+     "Rothko"
+    ],
+    [
+     "Edward Hopper",
+     "Hopper"
+    ],
+    [
+     "Francisco Goya",
+     "Goya"
+    ],
+    [
+     "Diego Velázquez",
+     "Velazquez",
+     "Velázquez",
+     "Diego Velazquez"
+    ],
+    "El Greco",
+    [
+     "Peter Paul Rubens",
+     "Rubens"
+    ],
+    "Titian",
+    [
+     "Jan van Eyck",
+     "Van Eyck"
+    ],
+    [
+     "Hieronymus Bosch",
+     "Bosch"
+    ],
+    [
+     "Pieter Bruegel the Elder",
+     "Bruegel",
+     "Brueghel",
+     "Breughel"
+    ],
+    [
+     "Albrecht Dürer",
+     "Durer",
+     "Albrecht Durer"
+    ],
+    [
+     "Hans Holbein the Younger",
+     "Holbein",
+     "Hans Holbein"
+    ],
+    [
+     "Thomas Gainsborough",
+     "Gainsborough"
+    ],
+    [
+     "Joshua Reynolds",
+     "Sir Joshua Reynolds",
+     "Reynolds"
+    ],
+    [
+     "George Stubbs",
+     "Stubbs"
+    ],
+    [
+     "William Hogarth",
+     "Hogarth"
+    ],
+    [
+     "William Blake",
+     "Blake"
+    ],
+    [
+     "Dante Gabriel Rossetti",
+     "Rossetti"
+    ],
+    [
+     "John Everett Millais",
+     "Millais"
+    ],
+    [
+     "Lucian Freud",
+     "Freud"
+    ],
+    [
+     "Damien Hirst",
+     "Hirst"
+    ],
+    [
+     "Tracey Emin",
+     "Emin"
+    ],
+    "Bridget Riley",
+    [
+     "Jack Vettriano",
+     "Vettriano"
+    ],
+    "Bob Ross",
+    "Rolf Harris",
+    [
+     "Georgia O'Keeffe",
+     "O'Keeffe",
+     "Georgia O'Keefe"
+    ],
+    [
+     "Jean-Michel Basquiat",
+     "Basquiat"
+    ],
+    [
+     "Keith Haring",
+     "Haring"
+    ],
+    [
+     "Marc Chagall",
+     "Chagall"
+    ],
+    [
+     "Joan Miró",
+     "Miro",
+     "Joan Miro"
+    ],
+    [
+     "Paul Klee",
+     "Klee"
+    ],
+    [
+     "Egon Schiele",
+     "Schiele"
+    ],
+    [
+     "Amedeo Modigliani",
+     "Modigliani"
+    ],
+    [
+     "Camille Pissarro",
+     "Pissarro"
+    ],
+    [
+     "Alfred Sisley",
+     "Sisley"
+    ],
+    [
+     "Berthe Morisot",
+     "Morisot"
+    ],
+    [
+     "Mary Cassatt",
+     "Cassatt"
+    ],
+    [
+     "James McNeill Whistler",
+     "Whistler"
+    ],
+    [
+     "John Singer Sargent",
+     "Sargent"
+    ],
+    "Winslow Homer",
+    [
+     "Norman Rockwell",
+     "Rockwell"
+    ],
+    "Grant Wood",
+    [
+     "Andrew Wyeth",
+     "Wyeth"
+    ],
+    [
+     "Gerhard Richter",
+     "Richter"
+    ],
+    [
+     "Yayoi Kusama",
+     "Kusama"
+    ],
+    [
+     "Katsushika Hokusai",
+     "Hokusai"
+    ],
+    [
+     "Utagawa Hiroshige",
+     "Hiroshige"
+    ],
+    [
+     "Caspar David Friedrich",
+     "Friedrich"
+    ],
+    [
+     "Eugène Delacroix",
+     "Delacroix",
+     "Eugene Delacroix"
+    ],
+    "Jacques-Louis David",
+    [
+     "Jean-Auguste-Dominique Ingres",
+     "Ingres"
+    ],
+    [
+     "Théodore Géricault",
+     "Gericault",
+     "Theodore Gericault"
+    ],
+    [
+     "Gustave Courbet",
+     "Courbet"
+    ],
+    [
+     "Jean-François Millet",
+     "Millet"
+    ],
+    [
+     "Henri Rousseau",
+     "Rousseau",
+     "Le Douanier Rousseau"
+    ],
+    [
+     "Giotto",
+     "Giotto di Bondone"
+    ],
+    "Fra Angelico",
+    "Piero della Francesca",
+    [
+     "Andrea Mantegna",
+     "Mantegna"
+    ],
+    [
+     "Giovanni Bellini",
+     "Bellini"
+    ],
+    "Tintoretto",
+    [
+     "Paolo Veronese",
+     "Veronese"
+    ],
+    "Canaletto",
+    [
+     "Artemisia Gentileschi",
+     "Gentileschi"
+    ],
+    [
+     "Anthony van Dyck",
+     "Van Dyck"
+    ],
+    [
+     "Frans Hals",
+     "Hals"
+    ],
+    [
+     "Nicolas Poussin",
+     "Poussin"
+    ],
+    "Claude Lorrain",
+    [
+     "Jean-Antoine Watteau",
+     "Watteau"
+    ],
+    [
+     "Jean-Honoré Fragonard",
+     "Fragonard"
+    ],
+    [
+     "Joseph Wright of Derby",
+     "Wright of Derby"
+    ],
+    [
+     "Henry Raeburn",
+     "Raeburn"
+    ],
+    "Allan Ramsay",
+    [
+     "Stanley Spencer",
+     "Spencer"
+    ],
+    "Paul Nash",
+    [
+     "Walter Sickert",
+     "Sickert"
+    ],
+    "Gwen John",
+    "Augustus John",
+    "Ben Nicholson",
+    "Patrick Heron",
+    [
+     "Peter Blake",
+     "Sir Peter Blake"
+    ],
+    [
+     "Howard Hodgkin",
+     "Hodgkin"
+    ],
+    [
+     "Frank Auerbach",
+     "Auerbach"
+    ],
+    "Leon Kossoff",
+    [
+     "Paula Rego",
+     "Rego"
+    ],
+    [
+     "Chris Ofili",
+     "Ofili"
+    ],
+    [
+     "Peter Doig",
+     "Doig"
+    ],
+    [
+     "Jenny Saville",
+     "Saville"
+    ],
+    "Grayson Perry",
+    "Beryl Cook",
+    [
+     "Kazimir Malevich",
+     "Malevich"
+    ],
+    [
+     "Atkinson Grimshaw",
+     "Grimshaw"
+    ]
+   ]
+  },
+  {
+   "id": "n50-misc-fonts",
+   "tags": [
+    "tech"
+   ],
+   "text": "Name a font or typeface (like Arial)",
+   "answers": [
+    [
+     "Times New Roman",
+     "Times"
+    ],
+    "Arial",
+    [
+     "Comic Sans",
+     "Comic Sans MS"
+    ],
+    "Calibri",
+    "Helvetica",
+    "Verdana",
+    [
+     "Courier",
+     "Courier New"
+    ],
+    "Georgia",
+    "Wingdings",
+    "Tahoma",
+    "Garamond",
+    "Impact",
+    "Cambria",
+    "Futura",
+    "Gill Sans",
+    [
+     "Trebuchet MS",
+     "Trebuchet"
+    ],
+    "Century Gothic",
+    "Papyrus",
+    "Baskerville",
+    "Rockwell",
+    "Bodoni",
+    [
+     "Palatino",
+     "Palatino Linotype"
+    ],
+    "Franklin Gothic",
+    [
+     "Lucida",
+     "Lucida Sans",
+     "Lucida Console",
+     "Lucida Handwriting"
+    ],
+    "Book Antiqua",
+    [
+     "Bookman",
+     "Bookman Old Style"
+    ],
+    [
+     "Segoe UI",
+     "Segoe"
+    ],
+    [
+     "San Francisco",
+     "SF Pro"
+    ],
+    "Roboto",
+    "Open Sans",
+    "Lato",
+    "Montserrat",
+    "Gotham",
+    "Proxima Nova",
+    "Avenir",
+    "Didot",
+    "Optima",
+    "Frutiger",
+    "Univers",
+    [
+     "Akzidenz-Grotesk",
+     "Akzidenz Grotesk"
+    ],
+    [
+     "Johnston",
+     "Johnston Sans",
+     "New Johnston"
+    ],
+    "Transport",
+    "Clarendon",
+    "Caslon",
+    "Perpetua",
+    "Bembo",
+    [
+     "Old English",
+     "Old English Text"
+    ],
+    [
+     "Copperplate",
+     "Copperplate Gothic"
+    ],
+    [
+     "Brush Script",
+     "Brush Script MT"
+    ],
+    [
+     "Curlz",
+     "Curlz MT"
+    ],
+    "Jokerman",
+    "Chiller",
+    "Algerian",
+    "Broadway",
+    "Cooper Black",
+    "Bauhaus",
+    "Stencil",
+    "Webdings",
+    "Symbol",
+    "Consolas",
+    "Menlo",
+    "Monaco",
+    "Comic Neue",
+    "Aptos",
+    "Poppins",
+    "Raleway",
+    [
+     "Noto",
+     "Noto Sans"
+    ],
+    [
+     "Source Sans",
+     "Source Sans Pro"
+    ],
+    "Inter",
+    "Ubuntu",
+    [
+     "DejaVu",
+     "DejaVu Sans"
+    ],
+    [
+     "Liberation Sans",
+     "Liberation"
+    ],
+    [
+     "Fira Sans",
+     "Fira Code"
+    ],
+    "Courier Prime",
+    "Lobster",
+    "Pacifico",
+    [
+     "Bebas Neue",
+     "Bebas"
+    ],
+    "Trajan",
+    "Hobo",
+    "Harrington",
+    [
+     "Kristen ITC",
+     "Kristen"
+    ],
+    "Bradley Hand",
+    "Edwardian Script",
+    [
+     "Monotype Corsiva",
+     "Corsiva"
+    ],
+    [
+     "Sassoon",
+     "Sassoon Primary"
+    ],
+    "Rail Alphabet",
+    "Calvert",
+    "Kinnear"
+   ]
+  },
+  {
+   "id": "n50-misc-magicians",
+   "tags": [
+    "culture"
+   ],
+   "text": "Name a famous magician, illusionist or mentalist (real people, any era)",
+   "answers": [
+    [
+     "Harry Houdini",
+     "Houdini"
+    ],
+    [
+     "David Copperfield",
+     "Copperfield"
+    ],
+    [
+     "Dynamo",
+     "Steven Frayne"
+    ],
+    [
+     "Derren Brown",
+     "Derren",
+     "Darren Brown"
+    ],
+    "Paul Daniels",
+    [
+     "David Blaine",
+     "Blaine"
+    ],
+    [
+     "Penn & Teller",
+     "Penn and Teller",
+     "Penn Jillette",
+     "Teller"
+    ],
+    "Tommy Cooper",
+    "Criss Angel",
+    [
+     "Siegfried & Roy",
+     "Siegfried and Roy"
+    ],
+    [
+     "Uri Geller",
+     "Geller"
+    ],
+    "The Amazing Johnathan",
+    "Ricky Jay",
+    "Lance Burton",
+    "Doug Henning",
+    "David Berglas",
+    "Ali Bongo",
+    "Wayne Dobson",
+    "Paul Zenon",
+    "Pete Firman",
+    "Ben Hanlin",
+    [
+     "Barry and Stuart",
+     "Barry & Stuart"
+    ],
+    "Darcy Oake",
+    "Colin Cloud",
+    [
+     "Piff the Magic Dragon",
+     "Piff"
+    ],
+    "Richard Jones",
+    [
+     "Marc Spelman",
+     "Marc Spelmann",
+     "X the magician"
+    ],
+    "Troy Von Scheibner",
+    "Shin Lim",
+    "Mat Franco",
+    "Justin Willman",
+    "Mac King",
+    "Jeff McBride",
+    [
+     "Harry Blackstone",
+     "Blackstone"
+    ],
+    [
+     "Howard Thurston",
+     "Thurston"
+    ],
+    [
+     "Harry Kellar",
+     "Kellar"
+    ],
+    "Chung Ling Soo",
+    [
+     "Jean Eugène Robert-Houdin",
+     "Robert-Houdin",
+     "Robert Houdin"
+    ],
+    [
+     "John Nevil Maskelyne",
+     "Maskelyne"
+    ],
+    "Jasper Maskelyne",
+    "David Devant",
+    [
+     "P. T. Selbit",
+     "Selbit"
+    ],
+    [
+     "The Great Soprendo",
+     "Soprendo",
+     "Geoffrey Durham"
+    ],
+    "Fay Presto",
+    "Marvin Berglas",
+    [
+     "Kreskin",
+     "The Amazing Kreskin"
+    ],
+    [
+     "James Randi",
+     "The Amazing Randi"
+    ],
+    "Juan Tamariz",
+    "Dai Vernon",
+    [
+     "Tony Slydini",
+     "Slydini"
+    ],
+    [
+     "Joseph Dunninger",
+     "Dunninger"
+    ],
+    "The Pendragons",
+    "Max Maven",
+    "Michael Ammar",
+    "Zach King",
+    "Collins Key",
+    "Rob Lake",
+    "Hans Klok",
+    "Mark Wilson",
+    "Channing Pollock",
+    "Ed Alonzo",
+    "Murray Hatfield",
+    "Cardini",
+    [
+     "Ted Annemann",
+     "Annemann"
+    ],
+    "Chan Canasta",
+    "The Zancigs",
+    "Al Koran",
+    "Robert Harbin",
+    "Tommy Wonder",
+    "Fred Kaps"
+   ]
+  }
+ ]
+}

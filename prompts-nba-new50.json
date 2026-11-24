@@ -1,0 +1,1709 @@
+{
+  "cat": "nba",
+  "prompts": [
+    {
+      "id": "n50-nba-college-duke",
+      "tags": [
+        "draft"
+      ],
+      "text": "Name a player drafted into the NBA or BAA from Duke University (drafts up to 2026)",
+      "answers": [
+        [
+          "Kyrie Irving",
+          "Irving"
+        ],
+        [
+          "Zion Williamson",
+          "Williamson"
+        ],
+        [
+          "Jayson Tatum",
+          "Tatum"
+        ],
+        "Grant Hill",
+        [
+          "Christian Laettner",
+          "Laettner"
+        ],
+        [
+          "Cooper Flagg",
+          "Flagg"
+        ],
+        [
+          "Paolo Banchero",
+          "Banchero"
+        ],
+        [
+          "JJ Redick",
+          "Jonathan Redick",
+          "Redick"
+        ],
+        [
+          "Shane Battier",
+          "Battier"
+        ],
+        [
+          "Elton Brand",
+          "Brand"
+        ],
+        [
+          "Brandon Ingram",
+          "Ingram"
+        ],
+        "Carlos Boozer",
+        [
+          "Luol Deng",
+          "Deng"
+        ],
+        [
+          "Jabari Parker",
+          "Parker"
+        ],
+        [
+          "RJ Barrett",
+          "Barrett"
+        ],
+        [
+          "Bobby Hurley",
+          "Hurley"
+        ],
+        "Jay Williams",
+        [
+          "Mike Dunleavy Jr.",
+          "Mike Dunleavy",
+          "Dunleavy"
+        ],
+        [
+          "Corey Maggette",
+          "Maggette"
+        ],
+        [
+          "Johnny Dawkins",
+          "Dawkins"
+        ],
+        [
+          "Danny Ferry",
+          "Ferry"
+        ],
+        [
+          "Marvin Bagley III",
+          "Marvin Bagley",
+          "Bagley"
+        ],
+        [
+          "Wendell Carter Jr.",
+          "Wendell Carter",
+          "Carter"
+        ],
+        "Cameron Boozer",
+        [
+          "Austin Rivers",
+          "Rivers"
+        ],
+        [
+          "Jahlil Okafor",
+          "Okafor"
+        ],
+        [
+          "Justise Winslow",
+          "Winslow"
+        ],
+        "Tyus Jones",
+        "Tre Jones",
+        "Mason Plumlee",
+        "Miles Plumlee",
+        [
+          "Gary Trent Jr.",
+          "Gary Trent",
+          "Trent"
+        ],
+        "Grayson Allen",
+        [
+          "Cam Reddish",
+          "Cameron Reddish",
+          "Reddish"
+        ],
+        [
+          "Jalen Johnson",
+          "Johnson"
+        ],
+        [
+          "Kon Knueppel",
+          "Knueppel"
+        ],
+        [
+          "Dereck Lively II",
+          "Dereck Lively",
+          "Lively"
+        ],
+        [
+          "Jared McCain",
+          "McCain"
+        ],
+        [
+          "Luke Kennard",
+          "Kennard"
+        ],
+        "Mark Williams",
+        [
+          "Mike Gminski",
+          "Gminski"
+        ],
+        [
+          "Art Heyman",
+          "Heyman"
+        ],
+        [
+          "Jeff Mullins",
+          "Mullins"
+        ],
+        [
+          "Dick Groat",
+          "Groat"
+        ],
+        [
+          "Trajan Langdon",
+          "Langdon"
+        ],
+        [
+          "Chris Duhon",
+          "Duhon"
+        ],
+        "Shelden Williams",
+        [
+          "Gerald Henderson",
+          "Gerald Henderson Jr."
+        ],
+        [
+          "Rodney Hood",
+          "Hood"
+        ],
+        [
+          "Josh McRoberts",
+          "McRoberts"
+        ],
+        [
+          "Kyle Singler",
+          "Singler"
+        ],
+        [
+          "Nolan Smith",
+          "Smith"
+        ],
+        [
+          "Harry Giles III",
+          "Harry Giles",
+          "Giles"
+        ],
+        [
+          "Khaman Maluach",
+          "Maluach"
+        ],
+        [
+          "Kyle Filipowski",
+          "Filipowski"
+        ],
+        [
+          "AJ Griffin",
+          "Adrian Griffin Jr.",
+          "Griffin"
+        ],
+        [
+          "Tyrese Proctor",
+          "Proctor"
+        ],
+        "Dahntay Jones",
+        [
+          "Jay Bilas",
+          "Bilas"
+        ],
+        [
+          "Tommy Amaker",
+          "Amaker"
+        ],
+        [
+          "Cherokee Parks",
+          "Parks"
+        ],
+        [
+          "Gene Banks",
+          "Banks"
+        ],
+        [
+          "Jim Spanarkel",
+          "Spanarkel"
+        ],
+        [
+          "Jack Marin",
+          "Marin"
+        ],
+        [
+          "Alaa Abdelnaby",
+          "Abdelnaby"
+        ],
+        [
+          "Isaiah Evans",
+          "Evans"
+        ],
+        [
+          "Wendell Moore Jr.",
+          "Wendell Moore",
+          "Moore"
+        ],
+        [
+          "Trevor Keels",
+          "Keels"
+        ],
+        [
+          "Dariq Whitehead",
+          "Whitehead"
+        ],
+        [
+          "Vernon Carey Jr.",
+          "Vernon Carey",
+          "Carey"
+        ],
+        [
+          "Cassius Stanley",
+          "Stanley"
+        ],
+        [
+          "Frank Jackson",
+          "Jackson"
+        ],
+        [
+          "Sion James",
+          "James"
+        ],
+        [
+          "Maliq Brown",
+          "Brown"
+        ],
+        [
+          "Will Avery",
+          "William Avery",
+          "Avery"
+        ],
+        [
+          "Chris Carrawell",
+          "Carrawell"
+        ],
+        [
+          "Daniel Ewing",
+          "Ewing"
+        ],
+        [
+          "Ryan Kelly",
+          "Kelly"
+        ],
+        [
+          "Roshown McLeod",
+          "McLeod"
+        ],
+        [
+          "Antonio Lang",
+          "Lang"
+        ],
+        "Thomas Hill",
+        [
+          "Mark Alarie",
+          "Alarie"
+        ],
+        "David Henderson",
+        "Phil Henderson",
+        [
+          "Bob Verga",
+          "Verga"
+        ],
+        [
+          "Steve Vacendak",
+          "Vacendak"
+        ],
+        [
+          "Brian Davis",
+          "Davis"
+        ],
+        [
+          "Erik Meek",
+          "Meek"
+        ],
+        [
+          "Danny Meagher",
+          "Meagher"
+        ],
+        [
+          "Kenny Dennard",
+          "Dennard"
+        ],
+        [
+          "Vince Taylor",
+          "Taylor"
+        ],
+        [
+          "Tate Armstrong",
+          "Armstrong"
+        ],
+        [
+          "Mark Crow",
+          "Crow"
+        ],
+        [
+          "Bob Bender",
+          "Bender"
+        ],
+        [
+          "Randy Denton",
+          "Denton"
+        ],
+        [
+          "Gary Melchionni",
+          "Melchionni"
+        ],
+        [
+          "Martin Nessley",
+          "Nessley"
+        ],
+        [
+          "Tom Emma",
+          "Emma"
+        ],
+        [
+          "Bob Fleischer",
+          "Fleischer"
+        ],
+        [
+          "Willie Hodge",
+          "Hodge"
+        ],
+        [
+          "Jay Buckley",
+          "Buckley"
+        ],
+        [
+          "Haskell Tison",
+          "Tison"
+        ],
+        [
+          "Bob Riedy",
+          "Riedy"
+        ],
+        "Mike Lewis",
+        "Joe Kennedy",
+        [
+          "Steve Vandenberg",
+          "Vandenberg"
+        ],
+        [
+          "Fred Lind",
+          "Lind"
+        ],
+        [
+          "Rick Katherman",
+          "Katherman"
+        ],
+        [
+          "Larry Saunders",
+          "Saunders"
+        ],
+        [
+          "Doug Kistler",
+          "Kistler"
+        ],
+        [
+          "Rudy D'Emilio",
+          "D'Emilio"
+        ],
+        [
+          "Ed Koffenberger",
+          "Koffenberger"
+        ],
+        [
+          "Jim Newcome",
+          "Newcome"
+        ],
+        "Bucky Allen"
+      ]
+    },
+    {
+      "id": "n50-nba-college-ucla",
+      "tags": [
+        "draft"
+      ],
+      "text": "Name a player drafted into the NBA or BAA from UCLA (drafts up to 2026)",
+      "answers": [
+        [
+          "Kareem Abdul-Jabbar",
+          "Lew Alcindor",
+          "Kareem",
+          "Alcindor",
+          "Abdul Jabbar"
+        ],
+        [
+          "Russell Westbrook",
+          "Westbrook"
+        ],
+        [
+          "Bill Walton",
+          "Walton"
+        ],
+        [
+          "Reggie Miller",
+          "Miller"
+        ],
+        [
+          "Kevin Love",
+          "Love"
+        ],
+        [
+          "Zach LaVine",
+          "LaVine"
+        ],
+        [
+          "Lonzo Ball",
+          "Lonzo",
+          "Ball"
+        ],
+        "Jrue Holiday",
+        [
+          "Gail Goodrich",
+          "Goodrich"
+        ],
+        [
+          "Jamaal Wilkes",
+          "Keith Wilkes"
+        ],
+        [
+          "Baron Davis",
+          "Davis"
+        ],
+        [
+          "Trevor Ariza",
+          "Ariza"
+        ],
+        [
+          "Marques Johnson",
+          "Johnson"
+        ],
+        [
+          "Kiki Vandeweghe",
+          "Vandeweghe"
+        ],
+        [
+          "Sidney Wicks",
+          "Wicks"
+        ],
+        [
+          "Walt Hazzard",
+          "Hazzard"
+        ],
+        [
+          "Matt Barnes",
+          "Barnes"
+        ],
+        "Kyle Anderson",
+        "Aaron Holiday",
+        [
+          "Jaime Jaquez Jr.",
+          "Jaime Jaquez",
+          "Jaquez"
+        ],
+        [
+          "Arron Afflalo",
+          "Afflalo"
+        ],
+        [
+          "Darren Collison",
+          "Collison"
+        ],
+        [
+          "Jordan Farmar",
+          "Farmar"
+        ],
+        [
+          "Kevon Looney",
+          "Looney"
+        ],
+        [
+          "Norman Powell",
+          "Powell"
+        ],
+        "Ed O'Bannon",
+        [
+          "Mark Eaton",
+          "Eaton"
+        ],
+        [
+          "Shabazz Muhammad",
+          "Muhammad"
+        ],
+        [
+          "Lucius Allen",
+          "Allen"
+        ],
+        [
+          "Henry Bibby",
+          "Bibby"
+        ],
+        [
+          "Tyus Edney",
+          "Edney"
+        ],
+        [
+          "Luc Mbah a Moute",
+          "Moute"
+        ],
+        "Earl Watson",
+        [
+          "Don MacLean",
+          "MacLean"
+        ],
+        [
+          "Tracy Murray",
+          "Murray"
+        ],
+        [
+          "Pooh Richardson",
+          "Richardson"
+        ],
+        [
+          "Jason Kapono",
+          "Kapono"
+        ],
+        [
+          "Dan Gadzuric",
+          "Gadzuric"
+        ],
+        [
+          "Swen Nater",
+          "Nater"
+        ],
+        [
+          "Curtis Rowe",
+          "Rowe"
+        ],
+        [
+          "Keith Erickson",
+          "Erickson"
+        ],
+        [
+          "Willie Naulls",
+          "Naulls"
+        ],
+        "Richard Washington",
+        [
+          "David Greenwood",
+          "Greenwood"
+        ],
+        "Peyton Watson",
+        [
+          "Jelani McCoy",
+          "McCoy"
+        ],
+        "Charles O'Bannon",
+        [
+          "Ryan Hollins",
+          "Hollins"
+        ],
+        [
+          "Dave Meyers",
+          "David Meyers",
+          "Meyers"
+        ],
+        [
+          "Michael Warren",
+          "Warren"
+        ],
+        [
+          "Jack Haley",
+          "Haley"
+        ],
+        [
+          "Rod Foster",
+          "Foster"
+        ],
+        [
+          "Mike Sanders",
+          "Sanders"
+        ],
+        [
+          "Darren Daye",
+          "Daye"
+        ],
+        [
+          "Brad Holland",
+          "Holland"
+        ],
+        [
+          "Roy Hamilton",
+          "Hamilton"
+        ],
+        [
+          "Raymond Townsend",
+          "Townsend"
+        ],
+        [
+          "Kenny Easley",
+          "Easley"
+        ],
+        [
+          "J. R. Henderson",
+          "J.R. Sakuragi",
+          "Sakuragi",
+          "Henderson"
+        ],
+        "Toby Bailey",
+        [
+          "George Zidek",
+          "Jiri Zidek",
+          "Zidek"
+        ],
+        [
+          "Jérôme Moïso",
+          "Moïso"
+        ],
+        [
+          "T. J. Leaf",
+          "Leaf"
+        ],
+        [
+          "Ike Anigbogu",
+          "Anigbogu"
+        ],
+        [
+          "Thomas Welsh",
+          "Welsh"
+        ],
+        [
+          "Jaylen Hands",
+          "Hands"
+        ],
+        [
+          "Moses Brown",
+          "Brown"
+        ],
+        "Amari Bailey",
+        [
+          "Jaylen Clark",
+          "Clark"
+        ],
+        [
+          "Adem Bona",
+          "Bona"
+        ],
+        [
+          "Tyler Bilodeau",
+          "Bilodeau"
+        ],
+        [
+          "Jordan Adams",
+          "Adams"
+        ],
+        "Malcolm Lee",
+        [
+          "Tyler Honeycutt",
+          "Honeycutt"
+        ],
+        [
+          "Dijon Thompson",
+          "Thompson"
+        ],
+        "Kenny Washington",
+        [
+          "Mike Lynn",
+          "Lynn"
+        ],
+        [
+          "Edgar Lacy",
+          "Lacy"
+        ],
+        [
+          "Kenny Heitz",
+          "Heitz"
+        ],
+        [
+          "Bill Sweek",
+          "Sweek"
+        ],
+        [
+          "Lynn Shackelford",
+          "Shackelford"
+        ],
+        [
+          "John Vallely",
+          "Vallely"
+        ],
+        [
+          "Steve Patterson",
+          "Patterson"
+        ],
+        [
+          "Kenny Booker",
+          "Booker"
+        ],
+        [
+          "Larry Hollyfield",
+          "Hollyfield"
+        ],
+        [
+          "Larry Farmer",
+          "Farmer"
+        ],
+        "Greg Lee",
+        [
+          "Tommy Curtis",
+          "Curtis"
+        ],
+        [
+          "Pete Trgovich",
+          "Trgovich"
+        ],
+        [
+          "Andre McCarter",
+          "McCarter"
+        ],
+        [
+          "Ralph Drollinger",
+          "Drollinger"
+        ],
+        [
+          "Marvin Thomas",
+          "Thomas"
+        ],
+        "James Wilkes",
+        [
+          "Darrell Allums",
+          "Allums"
+        ],
+        [
+          "Gig Sims",
+          "Sims"
+        ],
+        [
+          "Vic Sison",
+          "Sison"
+        ],
+        "Tony Anderson",
+        [
+          "Dean Sears",
+          "Sears"
+        ],
+        [
+          "Mike Holton",
+          "Michael Holton",
+          "Holton"
+        ],
+        [
+          "Kenny Fields",
+          "Fields"
+        ],
+        [
+          "Stuart Gray",
+          "Gray"
+        ],
+        [
+          "Ralph Jackson",
+          "Jackson"
+        ],
+        [
+          "Brad Wright",
+          "Wright"
+        ],
+        [
+          "Nigel Miguel",
+          "Miguel"
+        ],
+        [
+          "Gary Maloncon",
+          "Maloncon"
+        ],
+        [
+          "Montel Hatcher",
+          "Hatcher"
+        ],
+        [
+          "Trevor Wilson",
+          "Wilson"
+        ],
+        [
+          "Richard Petruška",
+          "Petruška"
+        ],
+        [
+          "Walt Torrence",
+          "Torrence"
+        ],
+        "John Green",
+        [
+          "Gary Cunningham",
+          "Cunningham"
+        ],
+        [
+          "Alan Sawyer",
+          "Sawyer"
+        ],
+        "George Stanich",
+        "John Stanich",
+        [
+          "Don Bragg",
+          "Bragg"
+        ],
+        "John Moore"
+      ]
+    },
+    {
+      "id": "n50-nba-college-kansas",
+      "tags": [
+        "draft"
+      ],
+      "text": "Name a player drafted into the NBA or BAA from the University of Kansas (drafts up to 2026)",
+      "answers": [
+        [
+          "Wilt Chamberlain",
+          "Wilt",
+          "Wilt the Stilt",
+          "Chamberlain"
+        ],
+        [
+          "Paul Pierce",
+          "Pierce"
+        ],
+        [
+          "Joel Embiid",
+          "Embiid"
+        ],
+        [
+          "Andrew Wiggins",
+          "Wiggins"
+        ],
+        [
+          "Danny Manning",
+          "Manning"
+        ],
+        [
+          "Jo Jo White",
+          "White"
+        ],
+        [
+          "Kirk Hinrich",
+          "Hinrich"
+        ],
+        [
+          "Mario Chalmers",
+          "Chalmers"
+        ],
+        [
+          "Clyde Lovellette",
+          "Lovellette"
+        ],
+        [
+          "Nick Collison",
+          "Collison"
+        ],
+        [
+          "Raef LaFrentz",
+          "LaFrentz"
+        ],
+        [
+          "Drew Gooden",
+          "Gooden"
+        ],
+        [
+          "Kelly Oubre Jr.",
+          "Kelly Oubre",
+          "Oubre"
+        ],
+        "Markieff Morris",
+        [
+          "Marcus Morris",
+          "Marcus Morris Sr."
+        ],
+        [
+          "Devonte' Graham",
+          "Graham"
+        ],
+        [
+          "Christian Braun",
+          "Braun"
+        ],
+        [
+          "Ben McLemore",
+          "McLemore"
+        ],
+        [
+          "Darryn Peterson",
+          "Peterson"
+        ],
+        [
+          "Bill Bridges",
+          "Bridges"
+        ],
+        [
+          "Thomas Robinson",
+          "Robinson"
+        ],
+        "Josh Jackson",
+        [
+          "Svi Mykhailiuk",
+          "Sviatoslav Mykhailiuk",
+          "Svi",
+          "Mykhailiuk"
+        ],
+        [
+          "Gradey Dick",
+          "Dick"
+        ],
+        [
+          "Ochai Agbaji",
+          "Agbaji"
+        ],
+        [
+          "Greg Ostertag",
+          "Ostertag"
+        ],
+        [
+          "Jacque Vaughn",
+          "Vaughn"
+        ],
+        [
+          "Scot Pollard",
+          "Pollard"
+        ],
+        [
+          "Brandon Rush",
+          "Rush"
+        ],
+        [
+          "Darrell Arthur",
+          "Arthur"
+        ],
+        [
+          "Cole Aldrich",
+          "Aldrich"
+        ],
+        "Xavier Henry",
+        [
+          "Julian Wright",
+          "Wright"
+        ],
+        [
+          "Rex Walters",
+          "Walters"
+        ],
+        [
+          "Wayne Simien",
+          "Simien"
+        ],
+        [
+          "Frank Mason III",
+          "Frank Mason",
+          "Mason"
+        ],
+        [
+          "Udoka Azubuike",
+          "Azubuike"
+        ],
+        [
+          "Cheick Diallo",
+          "Diallo"
+        ],
+        [
+          "Kevin McCullar Jr.",
+          "Kevin McCullar",
+          "McCullar"
+        ],
+        [
+          "Johnny Furphy",
+          "Furphy"
+        ],
+        [
+          "Jalen Wilson",
+          "Wilson"
+        ],
+        [
+          "Jeff Withey",
+          "Withey"
+        ],
+        [
+          "Tyshawn Taylor",
+          "Taylor"
+        ],
+        [
+          "Sasha Kaun",
+          "Kaun"
+        ],
+        "Darnell Jackson",
+        [
+          "Josh Selby",
+          "Selby"
+        ],
+        [
+          "Darrin Hancock",
+          "Hancock"
+        ],
+        [
+          "Kevin Pritchard",
+          "Pritchard"
+        ],
+        [
+          "Adonis Jordan",
+          "Jordan"
+        ],
+        [
+          "Mark Randall",
+          "Randall"
+        ],
+        [
+          "Greg Dreiling",
+          "Dreiling"
+        ],
+        [
+          "Ron Kellogg",
+          "Kellogg"
+        ],
+        [
+          "Calvin Thompson",
+          "Thompson"
+        ],
+        [
+          "Darnell Valentine",
+          "Valentine"
+        ],
+        [
+          "Dave Robisch",
+          "Robisch"
+        ],
+        [
+          "Paul Mokeski",
+          "Mokeski"
+        ],
+        [
+          "Bud Stallworth",
+          "Isaac Stallworth",
+          "Stallworth"
+        ],
+        [
+          "Walt Wesley",
+          "Wesley"
+        ],
+        [
+          "Nolen Ellison",
+          "Ellison"
+        ],
+        [
+          "George Unseld",
+          "Unseld"
+        ],
+        [
+          "Ryan Robertson",
+          "Robertson"
+        ],
+        [
+          "Eric Chenowith",
+          "Chenowith"
+        ],
+        [
+          "Archie Marshall",
+          "Marshall"
+        ],
+        [
+          "Wayne Hightower",
+          "Hightower"
+        ],
+        [
+          "Maury King",
+          "Maurice King",
+          "King"
+        ],
+        [
+          "Rick Suttle",
+          "Suttle"
+        ],
+        [
+          "Roger Morningstar",
+          "Morningstar"
+        ],
+        [
+          "Norm Cook",
+          "Cook"
+        ],
+        [
+          "Herb Nobles",
+          "Nobles"
+        ],
+        [
+          "Ken Koenigs",
+          "Koenigs"
+        ],
+        [
+          "John Douglas",
+          "Douglas"
+        ],
+        [
+          "Randy Carroll",
+          "Carroll"
+        ],
+        [
+          "Art Housey",
+          "Housey"
+        ],
+        [
+          "John Crawford",
+          "Crawford"
+        ],
+        [
+          "Dave Magley",
+          "Magley"
+        ],
+        [
+          "Tony Guy",
+          "Guy"
+        ],
+        "Carl Henry",
+        [
+          "Brian Martin",
+          "Martin"
+        ],
+        [
+          "Kelly Knight",
+          "Knight"
+        ],
+        [
+          "Al Lopes",
+          "Lopes"
+        ],
+        [
+          "Ron Franz",
+          "Franz"
+        ],
+        [
+          "Rodger Bohnenstiehl",
+          "Bohnenstiehl"
+        ],
+        [
+          "Dave Nash",
+          "David Nash"
+        ],
+        [
+          "Bruce Sloan",
+          "Sloan"
+        ],
+        "Roger Brown",
+        [
+          "Pierre Russell",
+          "Russell"
+        ],
+        "Aubrey Nash",
+        [
+          "B. H. Born",
+          "Born"
+        ],
+        [
+          "Allen Kelley",
+          "Kelley"
+        ],
+        [
+          "Otto Schnellbacher",
+          "Schnellbacher"
+        ],
+        [
+          "Vernon Vanoy",
+          "Vanoy"
+        ],
+        [
+          "Hal Patterson",
+          "Patterson"
+        ]
+      ]
+    },
+    {
+      "id": "n50-nba-signature-shoes",
+      "tags": [
+        "players"
+      ],
+      "text": "Name an NBA player who has had his own signature shoe line (any brand, up to 2026)",
+      "answers": [
+        [
+          "Michael Jordan",
+          "MJ",
+          "Jordan"
+        ],
+        [
+          "LeBron James",
+          "LeBron",
+          "James"
+        ],
+        [
+          "Kobe Bryant",
+          "Kobe",
+          "Bryant"
+        ],
+        [
+          "Stephen Curry",
+          "Steph Curry",
+          "Curry"
+        ],
+        [
+          "Kevin Durant",
+          "KD",
+          "Durant"
+        ],
+        [
+          "Kyrie Irving",
+          "Irving"
+        ],
+        [
+          "Shaquille O'Neal",
+          "Shaq",
+          "O'Neal"
+        ],
+        [
+          "Allen Iverson",
+          "AI",
+          "Iverson"
+        ],
+        [
+          "Giannis Antetokounmpo",
+          "Giannis",
+          "Antetokounmpo"
+        ],
+        [
+          "Luka Dončić",
+          "Luka",
+          "Dončić"
+        ],
+        [
+          "Ja Morant",
+          "Morant"
+        ],
+        [
+          "Zion Williamson",
+          "Williamson"
+        ],
+        [
+          "Jayson Tatum",
+          "Tatum"
+        ],
+        [
+          "Damian Lillard",
+          "Dame",
+          "Dame Lillard",
+          "Lillard"
+        ],
+        [
+          "James Harden",
+          "Harden"
+        ],
+        [
+          "Derrick Rose",
+          "Rose"
+        ],
+        [
+          "Penny Hardaway",
+          "Anfernee Hardaway",
+          "Hardaway"
+        ],
+        [
+          "Paul George",
+          "George"
+        ],
+        [
+          "Russell Westbrook",
+          "Westbrook"
+        ],
+        [
+          "Chris Paul",
+          "CP3",
+          "Paul"
+        ],
+        [
+          "Carmelo Anthony",
+          "Melo",
+          "Anthony"
+        ],
+        [
+          "Dwyane Wade",
+          "Wade"
+        ],
+        [
+          "Kawhi Leonard",
+          "Leonard"
+        ],
+        [
+          "Klay Thompson",
+          "Thompson"
+        ],
+        [
+          "Vince Carter",
+          "Carter"
+        ],
+        [
+          "Tracy McGrady",
+          "T-Mac",
+          "McGrady"
+        ],
+        [
+          "Devin Booker",
+          "Booker"
+        ],
+        [
+          "Anthony Edwards",
+          "Ant Edwards",
+          "Edwards"
+        ],
+        [
+          "Shai Gilgeous-Alexander",
+          "SGA",
+          "Shai",
+          "Gilgeous-Alexander"
+        ],
+        [
+          "LaMelo Ball",
+          "LaMelo"
+        ],
+        [
+          "Lonzo Ball",
+          "Lonzo"
+        ],
+        [
+          "Charles Barkley",
+          "Barkley"
+        ],
+        [
+          "Scottie Pippen",
+          "Pippen"
+        ],
+        [
+          "Kevin Garnett",
+          "Garnett"
+        ],
+        [
+          "Gary Payton",
+          "Payton"
+        ],
+        [
+          "Joel Embiid",
+          "Embiid"
+        ],
+        [
+          "Donovan Mitchell",
+          "Mitchell"
+        ],
+        [
+          "Trae Young",
+          "Young"
+        ],
+        [
+          "Yao Ming",
+          "Yao",
+          "Ming"
+        ],
+        [
+          "Grant Hill",
+          "Hill"
+        ],
+        [
+          "Patrick Ewing",
+          "Ewing"
+        ],
+        [
+          "Walt Frazier",
+          "Clyde Frazier",
+          "Frazier"
+        ],
+        [
+          "Pete Maravich",
+          "Pistol Pete",
+          "Maravich"
+        ],
+        [
+          "Julius Erving",
+          "Dr. J",
+          "Erving"
+        ],
+        [
+          "Kareem Abdul-Jabbar",
+          "Kareem",
+          "Abdul Jabbar"
+        ],
+        [
+          "Stephon Marbury",
+          "Marbury"
+        ],
+        [
+          "Gilbert Arenas",
+          "Arenas"
+        ],
+        [
+          "De'Aaron Fox",
+          "Fox"
+        ],
+        [
+          "Tyrese Haliburton",
+          "Haliburton"
+        ],
+        [
+          "Nikola Jokić",
+          "Joker",
+          "Jokić"
+        ],
+        [
+          "Dwight Howard",
+          "Howard"
+        ],
+        [
+          "Tony Parker",
+          "Parker"
+        ],
+        [
+          "Jimmy Butler",
+          "Butler"
+        ],
+        [
+          "Rajon Rondo",
+          "Rondo"
+        ],
+        [
+          "Gordon Hayward",
+          "Hayward"
+        ],
+        [
+          "Shawn Kemp",
+          "Kemp"
+        ],
+        [
+          "Hakeem Olajuwon",
+          "Olajuwon"
+        ],
+        [
+          "Jerry Stackhouse",
+          "Stackhouse"
+        ],
+        [
+          "Steve Francis",
+          "Francis"
+        ],
+        [
+          "David Robinson",
+          "Robinson"
+        ],
+        [
+          "Larry Johnson",
+          "Johnson"
+        ],
+        [
+          "John Wall",
+          "Wall"
+        ],
+        [
+          "Scoot Henderson",
+          "Henderson"
+        ],
+        [
+          "Tyrese Maxey",
+          "Maxey"
+        ],
+        [
+          "Aaron Gordon",
+          "Gordon"
+        ],
+        [
+          "Andrew Wiggins",
+          "Wiggins"
+        ],
+        [
+          "Austin Reaves",
+          "Reaves"
+        ],
+        [
+          "Jaylen Brown",
+          "Brown"
+        ],
+        [
+          "CJ McCollum",
+          "McCollum"
+        ],
+        [
+          "Ben Wallace",
+          "Wallace"
+        ],
+        [
+          "Spencer Dinwiddie",
+          "Dinwiddie"
+        ],
+        [
+          "Andre Drummond",
+          "Drummond"
+        ]
+      ]
+    },
+    {
+      "id": "n50-nba-mascots",
+      "tags": [
+        "teams"
+      ],
+      "text": "Name an NBA team mascot, past or present (up to the 2026-27 season)",
+      "answers": [
+        [
+          "Benny the Bull",
+          "Benny"
+        ],
+        [
+          "Go the Gorilla",
+          "The Gorilla",
+          "Gorilla",
+          "Suns Gorilla"
+        ],
+        [
+          "Rocky the Mountain Lion",
+          "Rocky"
+        ],
+        [
+          "Hugo the Hornet",
+          "Hugo"
+        ],
+        [
+          "Lucky the Leprechaun",
+          "Lucky"
+        ],
+        "Burnie",
+        [
+          "Clutch the Bear",
+          "Clutch"
+        ],
+        [
+          "Harry the Hawk",
+          "Harry"
+        ],
+        [
+          "Jazz Bear",
+          "The Jazz Bear"
+        ],
+        [
+          "Bango",
+          "Bango the Buck"
+        ],
+        "Squatch",
+        [
+          "The Coyote",
+          "Coyote",
+          "Spurs Coyote"
+        ],
+        [
+          "The Raptor",
+          "Raptor"
+        ],
+        [
+          "Rumble the Bison",
+          "Rumble"
+        ],
+        [
+          "Stuff the Magic Dragon",
+          "Stuff"
+        ],
+        "Grizz",
+        "Champ",
+        "Moondog",
+        [
+          "Crunch the Wolf",
+          "Crunch"
+        ],
+        [
+          "Pierre the Pelican",
+          "Pierre"
+        ],
+        [
+          "Franklin the Dog",
+          "Franklin"
+        ],
+        "Hooper",
+        "Boomer",
+        [
+          "Chuck the Condor",
+          "Chuck"
+        ],
+        [
+          "Slamson the Lion",
+          "Slamson"
+        ],
+        [
+          "Blaze the Trail Cat",
+          "Blaze"
+        ],
+        "G-Wiz",
+        "King Cake Baby",
+        [
+          "Hip Hop",
+          "Hip Hop the Rabbit"
+        ],
+        [
+          "Sly the Silver Fox",
+          "Sly"
+        ],
+        [
+          "Rufus D. Lynx",
+          "Rufus",
+          "Rufus Lynx",
+          "Rufus the Lynx"
+        ],
+        [
+          "BrooklyKnight",
+          "Brooklyn Knight"
+        ],
+        "Mavs Man",
+        "Sir CC",
+        "Douglas Fur",
+        "Stripes",
+        "Skyhawk",
+        [
+          "Thunder (Warriors)",
+          "Thunder"
+        ],
+        "G-Man",
+        "Hoops",
+        "Da Bull",
+        "Super Hugo",
+        "Mini Benny",
+        [
+          "Duncan the Dragon",
+          "Duncan"
+        ],
+        "SuperDunk",
+        "Sam Dunk",
+        [
+          "Maxie the Miner",
+          "Maxie Miner",
+          "Maxie"
+        ],
+        "Booster",
+        "Turbo",
+        "Berserker",
+        "Whammer",
+        [
+          "The Wizard",
+          "Wizard"
+        ],
+        "Cocky Rocky",
+        [
+          "Sir Slam-A-Lot",
+          "Sir Slamalot"
+        ],
+        "Hoop T. Dunker",
+        "Bowser",
+        [
+          "Pete M. Panther",
+          "Pete the Panther"
+        ],
+        "Sparky",
+        "Bigfoot",
+        [
+          "The Wheedle",
+          "Wheedle"
+        ],
+        "Mini Clutch",
+        "Bango Jr.",
+        "Lil Bear",
+        "Roy Al"
+      ]
+    }
+  ]
+}

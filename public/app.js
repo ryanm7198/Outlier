@@ -12,6 +12,25 @@ const store = {
   del(key) { try { localStorage.removeItem(key); } catch { /* private mode */ } },
 };
 
+// Player settings, kept on this device. Anyone who had muted a big screen before settings existed stays muted.
+const SETTINGS_DEFAULT = { sound: true, volume: .7, ticks: true, vibrate: true, calm: false, music: true, musicVol: .5 };
+const settings = Object.assign({}, SETTINGS_DEFAULT,
+  store.get('outlier.settings') || (store.get('outlier.tvMute', false) ? { sound: false } : {}));
+function setSetting(key, value) {
+  settings[key] = value;
+  store.set('outlier.settings', settings);
+  document.documentElement.classList.toggle('calm', !!settings.calm);
+  sfx.level();
+  music.sync();
+}
+document.documentElement.classList.toggle('calm', !!settings.calm);
+// "Reduce animations" in Settings, or the phone's own reduced-motion setting.
+const calm = () => !!settings.calm || matchMedia('(prefers-reduced-motion: reduce)').matches;
+function buzz(pattern) {
+  if (!settings.vibrate) return;
+  try { if (navigator.vibrate) navigator.vibrate(pattern); } catch { /* not supported */ }
+}
+
 async function api(path, body) {
   const session = store.get('outlier.session', '');
   const headers = session ? { 'X-Session': session } : {};
@@ -48,7 +67,7 @@ function show(html) {
   const fresh = sig !== lastScreen;
   lastScreen = sig;
   app.innerHTML = html;
-  if (fresh && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  if (fresh && !calm()) {
     app.classList.remove('enter');
     void app.offsetWidth;   // restart the animation
     app.classList.add('enter');
@@ -60,7 +79,7 @@ function show(html) {
 // A short title card before a game starts ("Daily seven · Everything", "7 prompts · 30 seconds each"),
 // so jumping into the first question isn't so abrupt. Tap to skip; it is skipped when motion is reduced.
 function intro(title, sub, then) {
-  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return then();
+  if (calm()) return then();
   stopTimer();
   show(`<section class="intro" id="intro">
       <div class="intro-dots">${crowdHTML(3)}</div>
@@ -113,6 +132,9 @@ const ICON = {
   star: '<path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.3-4.1 5.9-.9z"/>',
   gem: '<path d="M6.5 4h11l3.5 5-9 11L3 9z"/><path d="M3 9h18M9.5 4 8 9l4 11 4-11-1.5-5"/>',
   plus: '<path d="M12 5v14M5 12h14"/>',
+  gear: '<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/>',
+  clock: '<circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9.5 2.5h5"/>',
+  wave: '<path d="M3 12h2l2-5 3 10 3-14 3 12 2-3h3"/>',
 };
 const ic = (name, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICON[name] || ''}</svg>`;
 const PCOL = ['#ff6b6b', '#ff9f43', '#feca57', '#7bd88f', '#2ed3b7', '#4cc9f0', '#5b8cff', '#9b7bff', '#d77bff', '#ff7bd0', '#b8c4d6', '#c9a27a'];
@@ -233,12 +255,16 @@ const topbar = (title, right = '', back = 'back', icon = 'left') =>
     <h1>${title}</h1><span class="top-r">${right}</span></header>`;
 
 let timer = null;
-function stopTimer() { clearInterval(timer); timer = null; }
-function runTimer(ms, total, onEnd) {
+function stopTimer() { clearInterval(timer); timer = null; music.energy = 0; }
+function runTimer(ms, total, onEnd, ticks = true) {
   stopTimer();
+  music.energy = 1;
   const end = performance.now() + ms;
+  let shown = Math.ceil(ms / 1000);
   const tick = () => {
     const left = Math.max(0, end - performance.now());
+    const n = Math.ceil(left / 1000);
+    if (n !== shown) { shown = n; if (ticks && !tv && settings.ticks && n > 0 && n <= 5) sfx.play('tick', n); }
     const bar = $('#tbar'), secs = $('#tsecs');
     const urgent = left > 0 && left <= 5000;
     if (bar) { bar.style.width = (100 * left / total) + '%'; bar.classList.toggle('low', left < 6000); bar.parentElement.classList.toggle('urgent', urgent); }
@@ -270,7 +296,7 @@ const SQUARES = ['⬛', '🟫', '🟧', '🟨', '🟩', '🟪'];
 const tier = pts => pts >= 75 ? 4 : pts >= 50 ? 3 : pts >= 25 ? 2 : pts > 0 ? 1 : 0;
 const tierOf = r => r.outlier || (!r.doubled && r.points >= 150) ? 5 : tier(r.points);   // old saved results have no outlier flag
 
-const ZONES = [[0, 'In the crowd'], [.12, 'Side streets'], [.3, 'Back roads'], [.5, 'Open country'], [.7, 'The wilds'], [.9, 'Off the map']];
+const ZONES = [[0, 'One of the herd'], [.12, 'Slightly odd'], [.3, 'Free thinker'], [.5, 'Maverick'], [.7, 'Lone wolf'], [.9, 'True Outlier']];
 const zoneName = (score, max) => ZONES.filter(z => score / max >= z[0]).pop()[1];
 
 // 100 people; the lit ones gave the same answer as you. Each dot has a random rank so the crowd thins evenly.
@@ -292,7 +318,7 @@ function trailHTML(lanes, max) {
       </div>
       <span class="lscore">${l.to}</span>
     </div>`).join('')}
-    <div class="ends"><span>The crowd</span><span>Off the map</span></div>
+    <div class="ends"><span>The crowd</span><span>Outlier</span></div>
   </div>`;
 }
 
@@ -344,19 +370,25 @@ function buildUp(res) {
     if (res.valid) tierEl.innerHTML = `<span class="tierbadge t${t}"><i></i>${TIERS[t]}</span>`;
     else tierEl.textContent = res.given ? 'Not on the list' : 'Skipped';
     // A buzz for the good ones: short for Rare and Ball knowledge, a double for an Outlier.
-    try { if (res.valid && t >= 3 && navigator.vibrate) navigator.vibrate(t === 5 ? [70, 50, 140] : 35); } catch { /* not supported */ }
+    if (res.valid && t >= 3) buzz(t === 5 ? [70, 50, 140] : 35);
+    if (!res.valid) sfx.play('nope');
+    else if (t === 5) { sfx.play('hit'); sfx.play('crash'); sfx.play('fanfare', undefined, .15); }
+    else if (t === 4) sfx.play('hit');
+    else if (t === 3) sfx.play('ding');
+    else sfx.play('pop');
     $('#caption').innerHTML = !res.valid ? 'No distance gained this round.'
       : res.share < 1 ? `Under <b>1%</b> of players said ${esc(res.canonical)}`
         : `<b>${Math.round(res.share)}%</b> of players said ${esc(res.canonical)}`;
     app.querySelectorAll('.wait').forEach(el => el.classList.remove('wait'));
     walk();
   };
-  if (!res.valid || matchMedia('(prefers-reduced-motion: reduce)').matches) return finish();
+  if (!res.valid || calm()) return finish();
   const duration = 1500 + Math.min(res.points, 100) * 35 + Math.max(0, res.points - 100) * 10, start = performance.now();
   let stopped = false;
-  skipBuild = () => { stopped = true; finish(); };
+  const hush = sfx.scoped(() => sfx.play('tally', duration / 1000));
+  skipBuild = () => { stopped = true; hush(); finish(); };
   const frame = now => {
-    if (stopped || !pts.isConnected) return;
+    if (stopped || !pts.isConnected) { hush(); return; }
     const t = Math.min(1, (now - start) / duration), eased = 1 - Math.pow(1 - t, 3);
     const score = Math.round(res.points * eased);
     paint(score, crowdFor(score));
@@ -433,6 +465,7 @@ function wireAnswer(promptId, send) {
     if (sent) return;
     sent = true;
     button.disabled = true;
+    sfx.play(String(text || '').trim() ? 'lock' : 'whoosh');
     Promise.resolve(send(text)).catch(e => { toast(e.message); sent = false; button.disabled = false; });
   };
   form.onsubmit = async e => {
@@ -446,6 +479,7 @@ function wireAnswer(promptId, send) {
     if (sent) return;
     if (check.suggest === null) {   // not on the list: say so and let them try again while the clock runs
       miss.textContent = `"${text}" isn't on the list. Try another answer.`;
+      sfx.play('nope');
       miss.hidden = false;
       input.select();
       return;
@@ -745,6 +779,7 @@ function home() {
   const mode = (id, icon, title, sub, primary) => `<button class="mode${primary ? ' primary' : ''}" id="${id}">
     <span class="mode-ic">${ic(icon)}</span><span class="mode-t"><b>${title}</b><small>${sub}</small></span>${ic('right', 'chev')}</button>`;
   show(`<div class="hero">
+      <button class="iconbtn hero-set" id="settings" aria-label="Settings">${ic('gear')}</button>
       <div class="logo">Outl<b>i</b>er</div>
       <p>Give the answer nobody else did.</p>
       ${crowdHTML(3)}
@@ -774,9 +809,78 @@ function home() {
   $('#party').onclick = () => partyMenu();
   $('#you').onclick = youPage;
   $('#board').onclick = () => boardMenu();
+  $('#settings').onclick = () => settingsScreen();
   $('#dailyHome').onclick = () => startDaily('all');
   remindWire();
   accountWire();
+}
+
+// ------------------------------------------------------------ settings
+
+function settingsScreen() {
+  stopTimer();
+  const row = (id, on, icon, title, sub) => `<div class="card setrow"><span class="mini-ic">${ic(icon)}</span>
+    <span class="main"><b>${title}</b><small>${sub}</small></span>
+    <button class="switch${on ? ' on' : ''}" id="${id}" role="switch" aria-checked="${on}" aria-label="${title}"><i></i></button></div>`;
+  const remind = remindRowHTML();
+  show(`${topbar('Settings')}
+    <section class="sec"><h2 class="sec-h">Sound</h2>
+      ${row('setSound', settings.sound, 'vol', 'Sound effects', 'Countdowns, lock-ins, reveals and fanfares')}
+      <div class="card setrow vol" id="volRow"><span class="mini-ic">${ic('wave')}</span>
+        <label class="main" for="setVol"><b>Volume</b><input type="range" id="setVol" min="0" max="100" step="5" value="${Math.round(settings.volume * 100)}"></label>
+        <button class="btn small" id="setTest" type="button">Test</button></div>
+      ${row('setTicks', settings.ticks, 'clock', 'Countdown ticks', 'A tick for each of the last five seconds')}
+      ${row('setMusic', settings.music, 'music', 'Music', 'A gentle looping track that livens up during questions')}
+      <div class="card setrow vol" id="mvolRow"><span class="mini-ic">${ic('wave')}</span>
+        <label class="main" for="setMvol"><b>Music volume</b><input type="range" id="setMvol" min="0" max="100" step="5" value="${Math.round(settings.musicVol * 100)}"></label>
+        <span></span></div>
+      <p class="fine">On iPhone, sound and music follow the silent switch. In a party with a big screen connected, only the TV plays them.</p>
+    </section>
+    <section class="sec"><h2 class="sec-h">Feel</h2>
+      ${'vibrate' in navigator ? row('setVib', settings.vibrate, 'zap', 'Vibration', 'A buzz for rare answers, your turn and your streak') : ''}
+      ${row('setCalm', settings.calm, 'sparkles', 'Reduce animations', 'Skip the build-ups, count-ups and screen transitions')}
+    </section>
+    ${remind ? `<section class="sec"><h2 class="sec-h">Reminders</h2>${remind}</section>` : ''}
+    <section class="sec"><h2 class="sec-h">You</h2>
+      <button class="archrow" id="setLook">${ic('user')}<span><b>Your character</b> · name, colour and look</span>${ic('right')}</button>
+      <button class="archrow" id="setStats">${ic('trophy')}<span><b>Stats &amp; badges</b></span>${ic('right')}</button>
+    </section>
+    <button class="link center" id="setReset" type="button">Reset to defaults</button>
+    ${LEGAL}`);
+  const paint = () => {
+    [['setSound', 'sound'], ['setTicks', 'ticks'], ['setMusic', 'music'], ['setVib', 'vibrate'], ['setCalm', 'calm']].forEach(([id, k]) => {
+      const b = $('#' + id);
+      if (b) { b.classList.toggle('on', !!settings[k]); b.setAttribute('aria-checked', !!settings[k]); }
+    });
+    $('#volRow').classList.toggle('off', !settings.sound);
+    $('#setTicks').disabled = !settings.sound;
+    $('#setVol').value = Math.round(settings.volume * 100);
+    $('#mvolRow').classList.toggle('off', !settings.music);
+    $('#setMvol').value = Math.round(settings.musicVol * 100);
+  };
+  const flip = (id, key, after) => { const b = $('#' + id); if (b) b.onclick = () => { setSetting(key, !settings[key]); paint(); if (after) after(); }; };
+  flip('setSound', 'sound', () => { if (settings.sound) { sfx.start(); sfx.play('pop'); } });
+  flip('setTicks', 'ticks', () => { if (settings.ticks) sfx.play('tick', 4); });
+  flip('setVib', 'vibrate', () => buzz(40));
+  flip('setMusic', 'music', () => { if (settings.music) sfx.start(); });
+  $('#setMvol').oninput = e => setSetting('musicVol', e.target.value / 100);
+  flip('setCalm', 'calm');
+  let testAt = 0;
+  $('#setVol').oninput = e => {
+    setSetting('volume', e.target.value / 100);
+    if (performance.now() - testAt > 180) { testAt = performance.now(); sfx.play('tick', 9); }   // hear it while dragging
+  };
+  $('#setTest').onclick = () => {
+    if (!settings.sound) return toast('Turn sound effects on first');
+    sfx.start();
+    sfx.play('ding');
+  };
+  $('#setLook').onclick = () => characterMenu(settingsScreen);
+  $('#setStats').onclick = youPage;
+  $('#setReset').onclick = () => { Object.keys(SETTINGS_DEFAULT).forEach(k => setSetting(k, SETTINGS_DEFAULT[k])); paint(); toast('Settings reset'); };
+  $('#back').onclick = home;
+  remindWire();
+  paint();
 }
 
 // The first thing on the main menu: today's Daily seven · Everything, with where you are in it and your streak.
@@ -1040,7 +1144,8 @@ function ask(prompt, roundMs, header, onResult) {
     stopTimer();
     onResult(await api('/api/answer', { promptId: prompt.id, answer: text, cid: playerId() }));
   });
-  runTimer(roundMs, roundMs, onTimeout);
+  sfx.play('stingSoft');
+  runTimer(roundMs, roundMs, () => { sfx.play('buzzer'); onTimeout(); });
   $('#input').focus();
 }
 
@@ -1127,8 +1232,8 @@ function streakScreen(up, then) {
       <button class="btn primary" id="skGo">See your day</button>
     </section>`);
   const fire = $('#skFire');
-  const light = () => { if (!fire.isConnected) return; fire.classList.add('lit'); if (navigator.vibrate) navigator.vibrate([30, 40, 60]); };
-  if (matchMedia('(prefers-reduced-motion: reduce)').matches) light(); else setTimeout(light, 750);
+  const light = () => { if (!fire.isConnected) return; fire.classList.add('lit'); buzz([30, 40, 60]); sfx.play('whoosh'); sfx.play('fanfare', undefined, .25); };
+  if (calm()) light(); else setTimeout(light, 750);
   $('#skGo').onclick = then;
 }
 
@@ -1675,7 +1780,7 @@ function partyMenu(code = '') {
 
 function enterParty(code, pid) {
   store.set('outlier.party', { code, pid });
-  party = { code, pid, key: null, busy: false, rounds: 5, secs: 30, mode: 'classic', lives: 3, turn: 10 };
+  party = { code, pid, key: null, busy: false, rounds: 5, secs: 30, mode: 'classic', lives: 3, turn: 10, fx: tvRevealFx };
   party.poll = setInterval(pollParty, 1000);
   pollParty();
   const look = store.get('outlier.look'), color = store.get('outlier.color');
@@ -1686,6 +1791,7 @@ function enterParty(code, pid) {
 function leaveParty(msg) {
   if (party) clearInterval(party.poll);
   party = null;
+  music.sync();
   store.del('outlier.party');
   history.replaceState(null, '', location.pathname);
   home();
@@ -1754,7 +1860,7 @@ function updateTicker(s) {
   if (fresh.length) {
     line.textContent = ` · ${fresh.map(p => p.name).join(' & ')} just locked in`;
     fresh.forEach(p => { const a = $(`.tick-av[data-n="${p.n}"]`); if (a) a.classList.add('pop'); });
-    try { if (navigator.vibrate) navigator.vibrate(15); } catch { /* not supported */ }
+    buzz(15);
   } else line.textContent = news;
 }
 
@@ -1764,6 +1870,7 @@ function renderParty(s, seq = Infinity) {
     party.applied = seq;
   }
   const host = s.you === s.host;
+  if (party.screens !== !!s.screens) { party.screens = !!s.screens; music.sync(); }   // a big screen in the room does the sounds; phones stay quiet
   const answered = s.phase === 'question' && s.yourAnswer != null;
   const key = [s.phase, s.round, host, answered, s.phase === 'pick' && s.picked, s.phase === 'final' && (s.asks || []).join('.'),
     s.phase === 'potato' && s.breakMs > 0].join('|');   // Fumble turns update in place (updatePotato)
@@ -2026,7 +2133,7 @@ function potatoBreakHTML(s) {
 }
 
 function partyPotato(s) {
-  if (s.boom && s.boom.turn === s.turnId && s.breakMs > 0) return potatoBreak(s);
+  if (s.boom && s.boom.turn === s.turnId && s.breakMs > 0) { sfx.play('boom', !!s.boom.out); return potatoBreak(s); }
   const me = s.players.find(p => p.n === s.you) || {};
   const boom = s.boom && s.boom.turn === s.turnId && !s.boom.end
     ? `<div class="pt-boom">${ic('flame')}<span><b>${esc(s.boom.name)}</b> ${s.boom.out ? 'ran out of time and is <b>out</b>!' : 'ran out of time and lost a life'}</span></div>` : '';
@@ -2062,6 +2169,7 @@ function partyPotato(s) {
       try {
         const r = await api('/api/room/potato', { code: party.code, pid: party.pid, answer });
         if (r.miss) {
+          sfx.play('nope');
           miss.textContent = r.miss; miss.hidden = false;
           form.classList.remove('shake'); void form.offsetWidth; form.classList.add('shake');
           input.select();
@@ -2109,6 +2217,8 @@ function updatePotato(s) {
   }
   setLog(potatoLog(s, LOGCTX()));
   $('#ptSaid').textContent = s.said;
+  if (party.ptSaid !== undefined && s.said > party.ptSaid) sfx.play('ding');
+  party.ptSaid = s.said;
   potatoPop(s);
   if (party.ptTurn === s.turnId) return;   // the rest only changes when the turn does
   party.ptTurn = s.turnId;
@@ -2123,7 +2233,7 @@ function updatePotato(s) {
     if (miss && !mine) miss.hidden = true;
   }
   const startIn = s.startsInMs || 0;
-  const run = () => runTimer(s.remainingMs, s.roundMs, () => {});
+  const run = () => runTimer(s.remainingMs, s.roundMs, () => {}, mine);
   if (startIn > 0) {
     stopTimer();
     $('#tsecs').textContent = 'Ready';
@@ -2132,11 +2242,12 @@ function updatePotato(s) {
     setTimeout(() => {
       if (!party || party.ptTurn !== turn || !$('#ptTurn')) return;
       if (go) go.disabled = !mine;
-      runTimer(s.remainingMs, s.roundMs, () => {});
+      runTimer(s.remainingMs, s.roundMs, () => {}, mine);
     }, startIn);
   } else run();
   if (!mine) return;
-  try { if (navigator.vibrate) navigator.vibrate(30); } catch { /* not supported */ }
+  buzz(30);
+  sfx.play('sting');
   if (input && document.activeElement !== input) input.focus();
 }
 
@@ -2189,6 +2300,7 @@ function potatoFinal(s, host) {
       <button class="btn" id="lobby">Change settings</button></div>`
       : `<button class="btn${iAsked ? '' : ' primary'}" id="ask" ${iAsked ? 'disabled' : ''}>${iAsked ? 'Rematch requested' : 'Ask for a rematch'}</button>
          <p class="muted center">The host starts the next game.</p>`}`);
+  if ($('.podium.play')) sfx.podium();
   if (!host) { if ($('#ask')) $('#ask').onclick = () => partyPost('/api/room/ask'); return; }
   $('#again').onclick = () => partyPost('/api/room/rematch');
   $('#lobby').onclick = () => partyPost('/api/room/lobby');
@@ -2228,7 +2340,8 @@ function partyQuestion(s, host, answered) {
   }
   show(partyBar(s, mid) + tickerHTML(s) + `<p class="hint">${esc(s.hint)}${s.doubling ? ' · <b>Doubling ×2</b>' : ''}</p>` + questionHTML(s.prompt));
   const onTimeout = wireAnswer(s.promptId, text => partyPost('/api/room/answer', { answer: text }));
-  runTimer(s.remainingMs, s.roundMs, onTimeout);
+  if (s.remainingMs > s.roundMs - 3000) sfx.play('stingSoft');   // not when coming back to a question already under way
+  runTimer(s.remainingMs, s.roundMs, () => { sfx.play('buzzer'); onTimeout(); });
   $('#input').focus();
 }
 
@@ -2280,7 +2393,7 @@ const revealShellHTML = (prompt, skip) => `
     </section>`;
 
 function dramaticReveal(s, then) {
-  if (party.revealed === s.round || matchMedia('(prefers-reduced-motion: reduce)').matches) return then();
+  if (party.revealed === s.round || calm()) return then();
   party.revealed = s.round;
   show(`${partyBar(s, `Round ${s.round}/${s.rounds}`)}${revealShellHTML(s.reveal.prompt, true)}`);
   $('#rv').onclick = runReveal(party, s, then);
@@ -2305,7 +2418,7 @@ function runReveal(ctx, s, then) {
       list.insertAdjacentHTML('beforeend', revealCard(s, g, last));
       if (ctx.fx) ctx.fx.card(g, last);
       if (ctx !== tv) list.lastElementChild.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-      try { if (last && ctx !== tv && navigator.vibrate) navigator.vibrate(g.x.outlier ? [70, 50, 140] : 40); } catch { /* not supported */ }
+      if (last && ctx !== tv) buzz(g.x.outlier ? [70, 50, 140] : 40);
     }, at));
     at += last ? 2200 : 1300;
   });
@@ -2378,7 +2491,7 @@ function raceUp() {
     raceSkip = null;
     rows.forEach(r => { mark(r, r.to, true); r.el.classList.add('done'); });
   };
-  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return finish();
+  if (calm()) return finish();
   const start = performance.now();
   const dur = r => 500 + Math.min(r.to, 100) * 24 + Math.max(0, r.to - 100) * 12;   // 100 points takes about 3 seconds; an Outlier a little longer
   let stopped = false;
@@ -2427,6 +2540,7 @@ function partyFinal(s, host) {
       <button class="btn" id="lobby">Change category</button></div>`
       : `<button class="btn${iAsked ? '' : ' primary'}" id="ask" ${iAsked ? 'disabled' : ''}>${iAsked ? 'Rematch requested' : 'Ask for a rematch'}</button>
          <p class="muted center">The host starts the next game.</p>`}`);
+  if ($('.podium.play')) sfx.podium();
   if (!host) { if ($('#ask')) $('#ask').onclick = () => partyPost('/api/room/ask'); return; }
   $('#again').onclick = () => partyPost('/api/room/rematch');
   $('#lobby').onclick = () => partyPost('/api/room/lobby');
@@ -2439,12 +2553,14 @@ function partyFinal(s, host) {
 
 let tv = null;
 
-// ---- big-screen sound. Only the TV makes noise (phones in the room stay silent), and every sound is synthesised
-// with Web Audio, so there are no files to load. Browsers keep audio off until the page gets a click or key press,
+// ---- sound. Phones and the big screen both play it (in a party with a big screen connected, only the TV does), and
+// every sound is synthesised with Web Audio, so there are no files to load. Settings has the switch and the volume. Browsers keep audio off until the page gets a click or key press,
 // so a TV opened from a ?tv= link shows a small "turn on sound" note until someone presses something.
 const sfx = {
-  ctx: null, master: null, noise: null, clockTimer: null,
-  muted: !!store.get('outlier.tvMute', false),
+  ctx: null, master: null, noise: null, clockTimer: null, bus: null,
+  get muted() { return !settings.sound; },
+  gain() { return this.muted ? 0 : .75 * settings.volume; },
+  level() { if (this.master) this.master.gain.setTargetAtTime(this.gain(), this.ctx.currentTime, .03); },
   log: [],   // in memory only, for debugging: names that played, and (names) that were skipped (muted, hidden, no audio yet)
 
   // Make or wake the audio context. From a click or key press it starts running; without one it waits, suspended.
@@ -2452,35 +2568,46 @@ const sfx = {
     const AC = window.AudioContext || window.webkitAudioContext;
     if (!AC) return;
     if (!this.ctx) {
+      try { if (navigator.audioSession) navigator.audioSession.type = 'ambient'; } catch { /* iPhone: follow the silent switch, don't stop music */ }
       try {
         const c = new AC(), comp = c.createDynamicsCompressor();
         comp.threshold.value = -18; comp.knee.value = 12; comp.ratio.value = 4; comp.attack.value = .005; comp.release.value = .2;
         comp.connect(c.destination);
+        this.out = comp;
         this.master = c.createGain();
-        this.master.gain.value = this.muted ? 0 : .5;
+        this.master.gain.value = this.gain();
         this.master.connect(comp);
         const len = c.sampleRate * 2, d = (this.noise = c.createBuffer(1, len, c.sampleRate)).getChannelData(0);
         for (let i = 0; i < len; i++) d[i] = Math.random() * 2 - 1;
-        c.onstatechange = sfxBanner;
+        c.onstatechange = () => { sfxBanner(); music.sync(); };
         this.ctx = c;
       } catch { return; }
     }
     if (this.ctx.state !== 'running') this.ctx.resume().then(sfxBanner, () => {});
   },
-  live() { return !!(tv && this.ctx && this.ctx.state === 'running' && !this.muted && !document.hidden); },
+  live() { return !!(this.ctx && this.ctx.state === 'running' && !this.muted && !document.hidden && (tv || !(party && party.screens))); },
   play(name, arg, delay = 0) {
     const ok = this.live();
     this.log.push(ok ? name : `(${name})`);
     if (this.log.length > 400) this.log.shift();
     if (!ok) return;
+    if (name !== 'tick') music.duck(delay);
     try { SFX[name](this.ctx.currentTime + .01 + delay, arg); } catch { /* a sound must never break the screen */ }
   },
   // Several at once (six phones locking in on the same poll): staggered and capped so they don't blast.
   many(name, n, gap = .06, cap = 5) { for (let i = 0; i < Math.min(n, cap); i++) this.play(name, undefined, i * gap); },
-  setMute(on) {
-    this.muted = on;
-    store.set('outlier.tvMute', on);
-    if (this.master) this.master.gain.setTargetAtTime(on ? 0 : .5, this.ctx.currentTime, .03);   // also hushes anything already scheduled
+  // Plays fn's sounds through a volume knob of their own and returns a function that fades them out (a skipped count-up).
+  scoped(fn) {
+    if (!this.live()) return () => {};
+    const g = this.ctx.createGain();
+    g.connect(this.master);
+    this.bus = g;
+    try { fn(); } finally { this.bus = null; }
+    return () => { try { g.gain.setTargetAtTime(0, this.ctx.currentTime, .02); } catch { /* gone */ } };
+  },
+  setMute(on) {   // the big screen's speaker button and M key: sound effects and music together
+    settings.music = !on;
+    setSetting('sound', !on);   // also hushes anything already scheduled
     if (!on) this.start();
     const b = $('#tvSnd');
     if (b) { b.innerHTML = ic(on ? 'mute' : 'vol'); b.setAttribute('aria-label', on ? 'Turn sound on' : 'Turn sound off'); }
@@ -2516,7 +2643,9 @@ function sfxBanner() {
     document.body.append(el);
   } else if (!need && el) el.remove();
 }
-['pointerdown', 'keydown'].forEach(ev => document.addEventListener(ev, () => { if (tv && sfx.ctx && sfx.ctx.state !== 'running') sfx.start(); }, true));
+// Browsers only allow sound after a tap or key press, so the first one wakes the audio up.
+['pointerdown', 'keydown'].forEach(ev => document.addEventListener(ev, () => { if ((settings.sound || settings.music) && (!sfx.ctx || sfx.ctx.state !== 'running')) sfx.start(); }, true));
+document.addEventListener('visibilitychange', () => music.sync());
 document.addEventListener('keydown', e => {
   if (!tv || e.repeat || e.ctrlKey || e.metaKey || e.altKey || (e.key !== 'm' && e.key !== 'M')) return;
   sfx.setMute(!sfx.muted);
@@ -2535,7 +2664,7 @@ function sfxTone(t, f, dur, { type = 'sine', vol = .3, to = 0, attack = .005, lp
   g.gain.exponentialRampToValueAtTime(.0001, t + dur);
   let out = o;
   if (lp) { const b = c.createBiquadFilter(); b.type = 'lowpass'; b.frequency.value = lp; out = out.connect(b); }
-  out.connect(g).connect(sfx.master);
+  out.connect(g).connect(sfx.bus || sfx.master);
   o.start(t); o.stop(t + dur + .05);
 }
 function sfxNoise(t, dur, { vol = .2, filter = 'bandpass', f = 1000, to = 0, q = 1, attack = .005 } = {}) {
@@ -2547,7 +2676,7 @@ function sfxNoise(t, dur, { vol = .2, filter = 'bandpass', f = 1000, to = 0, q =
   g.gain.setValueAtTime(.0001, t);
   g.gain.exponentialRampToValueAtTime(vol, t + Math.min(attack, dur * .9));
   g.gain.exponentialRampToValueAtTime(.0001, t + dur);
-  src.connect(b).connect(g).connect(sfx.master);
+  src.connect(b).connect(g).connect(sfx.bus || sfx.master);
   src.start(t, Math.random() * 1.5); src.stop(t + dur + .05);
 }
 
@@ -2601,6 +2730,7 @@ const SFX = {
       sfxTone(at, f, .32, { to: f * 1.7, vol: .045, attack: .04 });
     }
   },
+  nope(t) { sfxTone(t, 330, .12, { type: 'triangle', vol: .16 }); sfxTone(t + .1, 233, .2, { type: 'triangle', vol: .16 }); },
   ding(t) { sfxTone(t, 1318.5, .7, { vol: .2, attack: .003 }); sfxTone(t, 2637, .35, { vol: .05, attack: .003 }); },
   whoosh(t) { sfxNoise(t, .36, { f: 300, to: 1800, q: 1, vol: .15, attack: .17 }); },
   boom(t, heavy) {   // a low drop and a burst; heavier when the player is out
@@ -2610,7 +2740,70 @@ const SFX = {
   },
 };
 
-// Hooks for runReveal on the big screen (the phone's reveal has none).
+// ---- background music: a light, bouncy eight-bar loop in C (C, Am, F, G, C, Em, F, G), synthesised like the sound
+// effects and scheduled a moment ahead on the audio clock. Soft chords and an arpeggio on menus; a kick, hats and a
+// bassline join while a clock is running; a little lead tune comes in every other time round. It dips whenever a sound
+// effect plays, follows Settings (on/off, its own volume), stops when the page is hidden, and in a party with a big
+// screen connected only the TV plays it.
+const MIDI = n => 440 * Math.pow(2, (n - 69) / 12);
+const SONG = [[48, [60, 64, 67, 72]], [45, [57, 60, 64, 69]], [41, [57, 60, 65, 69]], [43, [55, 59, 62, 67]],
+  [48, [60, 64, 67, 72]], [40, [55, 59, 64, 67]], [41, [57, 60, 65, 69]], [43, [55, 59, 62, 65]]];
+const ARP = [[0, 2, 1, 3, 2, 1, 3, 2], [0, 1, 2, 3, 1, 2, 3, 1]];
+const TUNE = [[76, 0, 0, 79, 0, 77, 76, 0], [72, 0, 0, 76, 0, 0, 0, 0], [77, 0, 0, 76, 0, 74, 72, 0], [74, 0, 0, 0, 71, 0, 0, 0],
+  [76, 0, 0, 79, 0, 81, 79, 0], [79, 0, 0, 76, 0, 0, 0, 0], [77, 0, 76, 0, 74, 0, 72, 0], [74, 0, 0, 0, 0, 0, 0, 0]];
+const music = {
+  gain: null, timer: null, stopT: null, step: 0, next: 0, energy: 0, BPM: 104,
+  wanted() {
+    return !!(settings.music && sfx.ctx && sfx.ctx.state === 'running' && !document.hidden && (tv || !(party && party.screens)));
+  },
+  target() { return this.wanted() ? .4 * settings.musicVol : 0; },
+  level() { if (this.gain) this.gain.gain.setTargetAtTime(this.target(), sfx.ctx.currentTime, .6); },
+  sync() {
+    if (!sfx.ctx || !sfx.out) return;
+    if (this.wanted()) {
+      if (!this.gain) { this.gain = sfx.ctx.createGain(); this.gain.gain.value = 0; this.gain.connect(sfx.out); }
+      clearTimeout(this.stopT); this.stopT = null;
+      if (!this.timer) { this.next = 0; this.timer = setInterval(() => this.schedule(), 90); this.schedule(); }
+    } else if (this.timer && !this.stopT) {
+      this.stopT = setTimeout(() => { clearInterval(this.timer); this.timer = null; this.stopT = null; }, 2500);   // after the fade
+    }
+    this.level();
+  },
+  // Sound effects sit on top: the music drops back for a moment and comes up again.
+  duck(delay = 0) {
+    if (!this.gain || !this.timer) return;
+    const t = sfx.ctx.currentTime + delay, g = this.gain.gain, base = this.target();
+    g.cancelScheduledValues(t);
+    g.setTargetAtTime(base * .4, t, .03);
+    g.setTargetAtTime(base, t + .5, .35);
+  },
+  schedule() {
+    const c = sfx.ctx, step = 60 / this.BPM / 4;
+    if (this.next < c.currentTime) this.next = c.currentTime + .05;
+    while (this.next < c.currentTime + .3) {
+      sfx.bus = this.gain;
+      try { this.notes(this.step, this.next); } catch { /* never break the page */ } finally { sfx.bus = null; }
+      this.step = (this.step + 1) % 256;
+      this.next += step;
+    }
+  },
+  notes(n, t) {
+    const bar = (n >> 4) % 8, i = n & 15, [root, chord] = SONG[bar], busy = this.energy > 0;
+    if (i % 2 === 0) {   // the arpeggio, on every eighth
+      sfxTone(t, MIDI(chord[ARP[bar % 2][i >> 1]]), .26, { type: 'triangle', vol: busy ? .085 : .07, lp: 2600, attack: .006 });
+      const lead = TUNE[bar][i >> 1];
+      if (lead && (n >> 7) % 2 === 1) sfxTone(t, MIDI(lead), .3, { type: 'square', vol: .028, lp: 1700, attack: .01 });
+    }
+    if (i === 0) chord.slice(0, 3).forEach(m => sfxTone(t, MIDI(m - 12), 2.1, { type: 'sine', vol: .035, attack: .25 }));   // a soft pad under each bar
+    if (!busy) { if (i === 0 || i === 8) sfxTone(t, MIDI(root + 12), .5, { vol: .09 }); return; }
+    if (i === 0 || i === 6 || i === 10) sfxTone(t, MIDI(root + 12), .24, { type: 'triangle', vol: .13, lp: 700 });
+    if (i === 0 || i === 8) sfxTone(t, 115, .16, { to: 48, vol: .2 });
+    if (i === 4 || i === 12) sfxNoise(t, .09, { f: 1700, q: .8, vol: .045, attack: .002 });
+    if (i % 4 === 2) sfxNoise(t, .035, { filter: 'highpass', f: 7500, vol: .04, attack: .001 });
+  },
+};
+
+// Hooks for runReveal, on the big screen and on phones in a party without one.
 const tvRevealFx = {
   drum: () => sfx.play('drumroll'),
   card(g, last) {
@@ -2642,6 +2835,7 @@ function enterScreen(code, sid) {
   tv = { code, sid, key: null, busy: false, revealTimers: [], fx: tvRevealFx };
   stayAwake(true);
   sfx.start();
+  music.sync();
   setTimeout(sfxBanner, 400);   // still suspended by then: no click opened this screen
   window.addEventListener('resize', tvFit);
   tv.poll = setInterval(pollScreen, 1000);
@@ -2658,6 +2852,7 @@ function leaveScreen(msg) {
   window.removeEventListener('resize', tvFit);
   stayAwake(false);
   tv = null;
+  music.sync();
   stopTimer();
   sfx.stopClock();
   sfxBanner();
@@ -2880,7 +3075,7 @@ function tvQuestion(s) {
 
 // The reveal plays once a round on the TV (the phones skip theirs), then the score race and standings.
 function tvReveal(s) {
-  if (tv.revealed === s.round || matchMedia('(prefers-reduced-motion: reduce)').matches) return tvScores(s);
+  if (tv.revealed === s.round || calm()) return tvScores(s);
   tv.revealed = s.round;
   tvShow(s, tvRound(s), revealShellHTML(s.reveal.prompt, false), 'tv-rv');
   runReveal(tv, s, () => tvScores(s));
@@ -2900,7 +3095,7 @@ function tvScores(s) {
     <p class="tv-sub tv-foot">Waiting for the host to ${s.round >= s.rounds ? 'show the final standings' : 'start the next round'}</p>`, 'tv-scores');
   raceUp();
   const top = Math.max(0, ...r.results.map(x => x.points));   // as long as the slowest racer, within 0.6-2 seconds
-  if (top > 0 && !matchMedia('(prefers-reduced-motion: reduce)').matches) sfx.play('tally', Math.min(2, Math.max(.6, (500 + Math.min(top, 100) * 24) / 1000)));
+  if (top > 0 && !calm()) sfx.play('tally', Math.min(2, Math.max(.6, (500 + Math.min(top, 100) * 24) / 1000)));
 }
 
 function tvFinal(s) {
@@ -3060,6 +3255,7 @@ async function checkBadges() {
 
 function badgePop(list) {
   document.querySelector('.badge-pop')?.remove();
+  sfx.play('ding'); sfx.play('fanfare', undefined, .2);
   const el = document.createElement('div');
   el.className = 'badge-pop';
   el.setAttribute('role', 'dialog');

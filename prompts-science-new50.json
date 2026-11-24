@@ -1,0 +1,1087 @@
+{
+ "cat": "science",
+ "prompts": [
+  {
+   "id": "n50-science-insects",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a type of insect",
+   "answers": [
+    [
+     "Bee",
+     "Honeybee",
+     "Honey bee",
+     "Bumblebee",
+     "Bumble bee"
+    ],
+    [
+     "Ant",
+     "Ants"
+    ],
+    "Butterfly",
+    [
+     "Fly",
+     "Housefly",
+     "House fly",
+     "Bluebottle"
+    ],
+    "Wasp",
+    [
+     "Ladybird",
+     "Ladybug"
+    ],
+    [
+     "Mosquito",
+     "Mozzie"
+    ],
+    "Beetle",
+    "Grasshopper",
+    "Moth",
+    "Dragonfly",
+    "Cricket",
+    [
+     "Cockroach",
+     "Roach"
+    ],
+    "Flea",
+    "Caterpillar",
+    "Earwig",
+    [
+     "Ant lion",
+     "Antlion"
+    ],
+    [
+     "Stick insect",
+     "Stick-insect",
+     "Walking stick"
+    ],
+    [
+     "Praying mantis",
+     "Mantis"
+    ],
+    "Termite",
+    "Hornet",
+    "Locust",
+    [
+     "Louse",
+     "Lice",
+     "Head lice"
+    ],
+    "Gnat",
+    [
+     "Midge",
+     "Midges"
+    ],
+    [
+     "Daddy longlegs",
+     "Crane fly",
+     "Daddy long legs"
+    ],
+    [
+     "Firefly",
+     "Glow-worm",
+     "Glow worm",
+     "Lightning bug"
+    ],
+    "Damselfly",
+    "Mayfly",
+    [
+     "Aphid",
+     "Greenfly",
+     "Blackfly"
+    ],
+    "Silverfish",
+    "Weevil",
+    "Stag beetle",
+    "Dung beetle",
+    "Woodworm",
+    [
+     "Scarab",
+     "Scarab beetle"
+    ],
+    "Cicada",
+    [
+     "Horsefly",
+     "Horse fly",
+     "Cleg"
+    ],
+    [
+     "Bedbug",
+     "Bed bug"
+    ],
+    "Fruit fly",
+    [
+     "Hoverfly",
+     "Hover fly"
+    ],
+    "Leafhopper",
+    [
+     "Froghopper",
+     "Spittlebug",
+     "Cuckoo spit"
+    ],
+    "Lacewing",
+    [
+     "Caddisfly",
+     "Caddis fly"
+    ],
+    "Stonefly",
+    "Scorpionfly",
+    "Water boatman",
+    "Pond skater",
+    [
+     "Shieldbug",
+     "Stink bug",
+     "Shield bug"
+    ],
+    "Assassin bug",
+    "Mealybug",
+    "Whitefly",
+    [
+     "Thrips",
+     "Thunderfly",
+     "Thunderbug"
+    ],
+    [
+     "Cockchafer",
+     "Maybug",
+     "May bug",
+     "Doodlebug"
+    ],
+    "Weta",
+    [
+     "Katydid",
+     "Bush cricket"
+    ],
+    "Mole cricket",
+    [
+     "Tsetse fly",
+     "Tsetse"
+    ],
+    [
+     "Botfly",
+     "Bot fly"
+    ],
+    "Sawfly",
+    [
+     "Ichneumon",
+     "Ichneumon wasp"
+    ],
+    "Gall wasp",
+    "Bark beetle",
+    "Click beetle",
+    [
+     "Rove beetle",
+     "Devil's coach horse"
+    ],
+    "Longhorn beetle",
+    [
+     "Diving beetle",
+     "Great diving beetle"
+    ],
+    "Colorado beetle",
+    [
+     "Death's-head hawkmoth",
+     "Hawkmoth",
+     "Hawk moth"
+    ],
+    [
+     "Silkworm",
+     "Silk moth"
+    ],
+    "Firebrat",
+    "Bristletail",
+    [
+     "Booklouse",
+     "Book louse",
+     "Barklouse"
+    ],
+    "Webspinner",
+    "Snakefly",
+    "Alderfly",
+    "Dobsonfly",
+    "Mantisfly",
+    [
+     "Zorapteran",
+     "Angel insect"
+    ]
+   ]
+  },
+  {
+   "id": "n50-science-lizards",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a type of lizard",
+   "answers": [
+    [
+     "Komodo dragon",
+     "Komodo"
+    ],
+    [
+     "Gecko",
+     "Leopard gecko",
+     "Crested gecko",
+     "Tokay gecko",
+     "Tokay",
+     "Day gecko",
+     "Leaf-tailed gecko",
+     "Knob-tailed gecko"
+    ],
+    [
+     "Chameleon",
+     "Chamaeleon",
+     "Panther chameleon",
+     "Veiled chameleon",
+     "Jackson's chameleon"
+    ],
+    [
+     "Iguana",
+     "Green iguana"
+    ],
+    [
+     "Bearded dragon",
+     "Beardie"
+    ],
+    [
+     "Monitor lizard",
+     "Monitor"
+    ],
+    [
+     "Frilled lizard",
+     "Frill-necked lizard",
+     "Frilled dragon"
+    ],
+    "Gila monster",
+    [
+     "Skink",
+     "Blue-tongued skink",
+     "Blue tongue"
+    ],
+    [
+     "Slow worm",
+     "Slowworm",
+     "Slow-worm"
+    ],
+    [
+     "Thorny devil",
+     "Moloch"
+    ],
+    [
+     "Basilisk",
+     "Jesus Christ lizard",
+     "Basilisk lizard"
+    ],
+    [
+     "Anole",
+     "Green anole"
+    ],
+    [
+     "Common lizard",
+     "Viviparous lizard"
+    ],
+    "Sand lizard",
+    [
+     "Water dragon",
+     "Chinese water dragon",
+     "Australian water dragon"
+    ],
+    [
+     "Goanna",
+     "Lace monitor",
+     "Perentie"
+    ],
+    "Nile monitor",
+    "Savannah monitor",
+    [
+     "Tegu",
+     "Argentine tegu"
+    ],
+    [
+     "Horned lizard",
+     "Horny toad",
+     "Horned toad"
+    ],
+    "Marine iguana",
+    [
+     "Wall lizard",
+     "Common wall lizard"
+    ],
+    [
+     "Glass lizard",
+     "Legless lizard",
+     "Glass snake"
+    ],
+    [
+     "Uromastyx",
+     "Spiny-tailed lizard",
+     "Dabb lizard"
+    ],
+    [
+     "Flying dragon",
+     "Draco",
+     "Flying lizard"
+    ],
+    "Collared lizard",
+    "Fence lizard",
+    "Whiptail",
+    "Chuckwalla",
+    [
+     "Mexican beaded lizard",
+     "Beaded lizard"
+    ],
+    "Rhinoceros iguana",
+    "Rock iguana",
+    "Cuban iguana",
+    "Fijian iguana",
+    "Desert iguana",
+    [
+     "Shingleback",
+     "Sleepy lizard",
+     "Stumpy-tailed lizard",
+     "Bobtail"
+    ],
+    [
+     "Armadillo lizard",
+     "Armadillo girdled lizard"
+    ],
+    "Girdled lizard",
+    "Plated lizard",
+    "Alligator lizard",
+    "Night lizard",
+    "Racerunner",
+    [
+     "Agama",
+     "Rainbow agama"
+    ],
+    [
+     "Ocellated lizard",
+     "Jewelled lizard"
+    ],
+    [
+     "Green lizard",
+     "European green lizard",
+     "Western green lizard"
+    ],
+    "Caiman lizard",
+    "Crocodile skink",
+    "Fire skink",
+    "Earless monitor",
+    "Lava lizard",
+    "Galliwasp"
+   ]
+  },
+  {
+   "id": "n50-science-crustaceans",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name a crustacean (like a crab or a woodlouse)",
+   "answers": [
+    "Crab",
+    "Lobster",
+    [
+     "Prawn",
+     "Prawns",
+     "King prawn",
+     "Tiger prawn"
+    ],
+    [
+     "Shrimp",
+     "Shrimps"
+    ],
+    [
+     "Crayfish",
+     "Crawfish",
+     "Crawdad",
+     "Signal crayfish"
+    ],
+    [
+     "Woodlouse",
+     "Woodlice",
+     "Pill bug",
+     "Slater",
+     "Cheesy bug"
+    ],
+    [
+     "Barnacle",
+     "Barnacles"
+    ],
+    "Krill",
+    "Hermit crab",
+    [
+     "Langoustine",
+     "Scampi",
+     "Dublin Bay prawn",
+     "Norway lobster"
+    ],
+    "Spider crab",
+    [
+     "King crab",
+     "Alaskan king crab"
+    ],
+    [
+     "Coconut crab",
+     "Robber crab"
+    ],
+    "Mantis shrimp",
+    [
+     "Brown crab",
+     "Edible crab"
+    ],
+    [
+     "Spiny lobster",
+     "Rock lobster"
+    ],
+    "Fiddler crab",
+    [
+     "Shore crab",
+     "Green crab"
+    ],
+    "Blue crab",
+    "Snow crab",
+    "Dungeness crab",
+    [
+     "Velvet crab",
+     "Velvet swimming crab"
+    ],
+    "Japanese spider crab",
+    [
+     "Christmas Island red crab",
+     "Red crab"
+    ],
+    [
+     "Mitten crab",
+     "Chinese mitten crab"
+    ],
+    "Squat lobster",
+    [
+     "Slipper lobster",
+     "Moreton Bay bug",
+     "Balmain bug"
+    ],
+    "Yabby",
+    "Marron",
+    [
+     "Water flea",
+     "Daphnia"
+    ],
+    "Copepod",
+    [
+     "Brine shrimp",
+     "Sea monkeys",
+     "Sea-Monkeys"
+    ],
+    [
+     "Sand hopper",
+     "Sandhopper",
+     "Beach flea",
+     "Sand flea"
+    ],
+    "Amphipod",
+    [
+     "Isopod",
+     "Giant isopod"
+    ],
+    "Fairy shrimp",
+    [
+     "Tadpole shrimp",
+     "Triops"
+    ],
+    [
+     "Goose barnacle",
+     "Gooseneck barnacle",
+     "Percebes"
+    ],
+    "Pea crab",
+    "Porcelain crab",
+    "Ghost crab",
+    "Mud crab",
+    "Stone crab",
+    "Box crab",
+    "Sponge crab",
+    [
+     "Ostracod",
+     "Seed shrimp"
+    ],
+    [
+     "Fish louse",
+     "Argulus"
+    ],
+    [
+     "Tongue-eating louse",
+     "Cymothoa exigua"
+    ],
+    "Gribble",
+    "Skeleton shrimp",
+    [
+     "Pistol shrimp",
+     "Snapping shrimp"
+    ],
+    "Cleaner shrimp",
+    [
+     "Opossum shrimp",
+     "Mysid"
+    ],
+    "Mole crab",
+    "Remipede",
+    "Cephalocarid"
+   ]
+  },
+  {
+   "id": "n50-science-weather",
+   "tags": [
+    "science"
+   ],
+   "text": "Name a type of weather or weather phenomenon (like drizzle or a heatwave)",
+   "answers": [
+    "Rain",
+    "Snow",
+    [
+     "Thunderstorm",
+     "Thunder",
+     "Storm"
+    ],
+    "Lightning",
+    [
+     "Hail",
+     "Hailstorm",
+     "Hailstones"
+    ],
+    "Fog",
+    "Sleet",
+    "Wind",
+    [
+     "Sunshine",
+     "Sun",
+     "Sunny"
+    ],
+    [
+     "Tornado",
+     "Twister"
+    ],
+    "Hurricane",
+    "Drizzle",
+    "Frost",
+    "Mist",
+    [
+     "Heatwave",
+     "Heat wave"
+    ],
+    "Drought",
+    [
+     "Flood",
+     "Flooding",
+     "Floods"
+    ],
+    "Blizzard",
+    [
+     "Cloud",
+     "Clouds",
+     "Cloudy"
+    ],
+    "Rainbow",
+    [
+     "Gale",
+     "Gales"
+    ],
+    "Typhoon",
+    "Cyclone",
+    "Monsoon",
+    [
+     "Showers",
+     "Shower",
+     "Rain shower"
+    ],
+    [
+     "Ice",
+     "Black ice"
+    ],
+    "Smog",
+    "Haze",
+    "Dew",
+    [
+     "Sandstorm",
+     "Dust storm"
+    ],
+    [
+     "Hoar frost",
+     "Hoarfrost"
+    ],
+    "Freezing rain",
+    "Downpour",
+    "Squall",
+    "Breeze",
+    "Whiteout",
+    "Snowstorm",
+    "Ice storm",
+    "Waterspout",
+    "Heat haze",
+    "Indian summer",
+    "Thaw",
+    "Humidity",
+    "Cold snap",
+    "Mizzle",
+    "Graupel",
+    "Rime",
+    [
+     "Sun shower",
+     "Sunshower"
+    ],
+    "Microburst",
+    "Derecho",
+    "Haboob",
+    "Polar vortex",
+    "Jet stream",
+    "Fogbow",
+    [
+     "Sundog",
+     "Sun dog",
+     "Parhelion"
+    ],
+    "Halo",
+    "Ball lightning",
+    "Sheet lightning",
+    [
+     "Fork lightning",
+     "Forked lightning"
+    ],
+    "Thundersnow",
+    "Dust devil",
+    "Willy-willy",
+    "Diamond dust",
+    "Supercell",
+    [
+     "Temperature inversion",
+     "Inversion"
+    ],
+    "Chinook",
+    [
+     "Föhn",
+     "Foehn"
+    ],
+    "Mistral",
+    "Sirocco",
+    "Bora",
+    "Harmattan",
+    "Khamsin",
+    "Zonda",
+    "Brickfielder",
+    "Haar",
+    [
+     "Sea fret",
+     "Fret"
+    ],
+    "Helm wind",
+    "Scotch mist",
+    [
+     "Pea-souper",
+     "Pea souper"
+    ],
+    "Nor'easter",
+    "Atmospheric river",
+    [
+     "Bomb cyclone",
+     "Weather bomb"
+    ],
+    [
+     "St Elmo's fire",
+     "St. Elmo's fire"
+    ],
+    "Noctilucent clouds",
+    "Mammatus clouds",
+    "Virga",
+    "Heat burst"
+   ]
+  },
+  {
+   "id": "n50-science-extinct-animals",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name an extinct animal that isn't a dinosaur (like the dodo)",
+   "answers": [
+    "Dodo",
+    [
+     "Woolly mammoth",
+     "Mammoth"
+    ],
+    [
+     "Sabre-toothed cat",
+     "Sabre-toothed tiger",
+     "Saber-toothed tiger",
+     "Smilodon",
+     "Sabretooth"
+    ],
+    [
+     "Tasmanian tiger",
+     "Thylacine",
+     "Tasmanian wolf"
+    ],
+    "Passenger pigeon",
+    [
+     "Megalodon",
+     "Otodus megalodon",
+     "Megatooth shark"
+    ],
+    "Great auk",
+    [
+     "Woolly rhinoceros",
+     "Woolly rhino"
+    ],
+    "Mastodon",
+    "Quagga",
+    [
+     "Pterodactyl",
+     "Pterosaur",
+     "Pteranodon"
+    ],
+    "Dire wolf",
+    [
+     "Irish elk",
+     "Giant deer",
+     "Megaloceros"
+    ],
+    "Moa",
+    "Steller's sea cow",
+    "Aurochs",
+    [
+     "Western black rhinoceros",
+     "Western black rhino"
+    ],
+    [
+     "Baiji",
+     "Yangtze river dolphin"
+    ],
+    "Golden toad",
+    "Pyrenean ibex",
+    "Haast's eagle",
+    "Elephant bird",
+    [
+     "Giant ground sloth",
+     "Megatherium"
+    ],
+    "Glyptodon",
+    "Cave bear",
+    "Cave lion",
+    [
+     "Trilobite",
+     "Trilobites"
+    ],
+    [
+     "Ammonite",
+     "Ammonites"
+    ],
+    [
+     "Plesiosaur",
+     "Plesiosaurus"
+    ],
+    [
+     "Ichthyosaur",
+     "Ichthyosaurus"
+    ],
+    [
+     "Mosasaur",
+     "Mosasaurus"
+    ],
+    "Dimetrodon",
+    [
+     "Terror bird",
+     "Phorusrhacid"
+    ],
+    "Carolina parakeet",
+    "Labrador duck",
+    "Heath hen",
+    "Caspian tiger",
+    "Javan tiger",
+    "Bali tiger",
+    "Atlas bear",
+    [
+     "Bluebuck",
+     "Blue buck"
+    ],
+    "Tarpan",
+    [
+     "Falkland Islands wolf",
+     "Warrah"
+    ],
+    "Japanese wolf",
+    "Sea mink",
+    "Caribbean monk seal",
+    "Japanese sea lion",
+    [
+     "Pinta Island tortoise",
+     "Lonesome George"
+    ],
+    "Huia",
+    "Laughing owl",
+    [
+     "Stephens Island wren",
+     "Lyall's wren"
+    ],
+    "Bramble Cay melomys",
+    "Toolache wallaby",
+    "Pig-footed bandicoot",
+    "Desert rat-kangaroo",
+    "Rodrigues solitaire",
+    [
+     "Réunion ibis",
+     "Reunion ibis"
+    ],
+    "Spectacled cormorant",
+    "Eskimo curlew",
+    [
+     "Po'ouli",
+     "Poouli"
+    ],
+    [
+     "Kauai oo",
+     "Kauaʻi ʻōʻō"
+    ],
+    [
+     "Xerces blue",
+     "Xerces blue butterfly"
+    ],
+    "Rocky Mountain locust",
+    "Megalania",
+    "Diprotodon",
+    [
+     "Thylacoleo",
+     "Marsupial lion"
+    ],
+    [
+     "Procoptodon",
+     "Giant short-faced kangaroo"
+    ],
+    "Gigantopithecus",
+    "Andrewsarchus",
+    [
+     "Paraceratherium",
+     "Indricotherium"
+    ],
+    "Deinotherium",
+    "Chalicotherium",
+    "Arthropleura",
+    "Meganeura",
+    "Dunkleosteus",
+    "Helicoprion",
+    "Anomalocaris",
+    [
+     "Eurypterid",
+     "Sea scorpion"
+    ],
+    "Basilosaurus",
+    "Livyatan",
+    "Titanoboa",
+    [
+     "Sarcosuchus",
+     "SuperCroc"
+    ],
+    "Deinosuchus",
+    "Megantereon",
+    [
+     "Hyracotherium",
+     "Eohippus"
+    ],
+    "Moschops",
+    "Lystrosaurus",
+    "Hallucigenia",
+    "Opabinia"
+   ]
+  },
+  {
+   "id": "n50-science-australian-animals",
+   "tags": [
+    "nature"
+   ],
+   "text": "Name an animal native to Australia",
+   "answers": [
+    [
+     "Kangaroo",
+     "Red kangaroo",
+     "Grey kangaroo"
+    ],
+    [
+     "Koala",
+     "Koala bear"
+    ],
+    "Emu",
+    [
+     "Platypus",
+     "Duck-billed platypus"
+    ],
+    "Wombat",
+    "Tasmanian devil",
+    "Dingo",
+    [
+     "Kookaburra",
+     "Laughing kookaburra"
+    ],
+    "Wallaby",
+    [
+     "Echidna",
+     "Spiny anteater",
+     "Short-beaked echidna"
+    ],
+    "Quokka",
+    [
+     "Saltwater crocodile",
+     "Saltie",
+     "Estuarine crocodile"
+    ],
+    "Cassowary",
+    [
+     "Possum",
+     "Brushtail possum",
+     "Ringtail possum"
+    ],
+    "Sugar glider",
+    [
+     "Cockatoo",
+     "Sulphur-crested cockatoo"
+    ],
+    "Galah",
+    [
+     "Budgerigar",
+     "Budgie"
+    ],
+    [
+     "Frilled lizard",
+     "Frill-necked lizard"
+    ],
+    [
+     "Thorny devil",
+     "Moloch"
+    ],
+    [
+     "Funnel-web spider",
+     "Funnel web",
+     "Sydney funnel-web"
+    ],
+    [
+     "Redback spider",
+     "Redback"
+    ],
+    "Box jellyfish",
+    [
+     "Inland taipan",
+     "Taipan",
+     "Coastal taipan"
+    ],
+    [
+     "Eastern brown snake",
+     "Brown snake"
+    ],
+    "Tiger snake",
+    "Wallaroo",
+    "Bandicoot",
+    "Bilby",
+    "Numbat",
+    "Quoll",
+    "Tree kangaroo",
+    "Pademelon",
+    "Potoroo",
+    "Bettong",
+    [
+     "Rock-wallaby",
+     "Rock wallaby"
+    ],
+    [
+     "Lorikeet",
+     "Rainbow lorikeet"
+    ],
+    "Black swan",
+    "Lyrebird",
+    [
+     "Bowerbird",
+     "Satin bowerbird"
+    ],
+    [
+     "Fairy penguin",
+     "Little penguin"
+    ],
+    [
+     "Freshwater crocodile",
+     "Freshie"
+    ],
+    [
+     "Goanna",
+     "Lace monitor"
+    ],
+    "Perentie",
+    "Bearded dragon",
+    [
+     "Blue-tongued lizard",
+     "Blue-tongue"
+    ],
+    "Dugong",
+    "Corroboree frog",
+    [
+     "Green tree frog",
+     "White's tree frog"
+    ],
+    [
+     "Lungfish",
+     "Queensland lungfish"
+    ],
+    "Barramundi",
+    "Murray cod",
+    "Blue-ringed octopus",
+    "Stonefish",
+    [
+     "Huntsman spider",
+     "Huntsman"
+    ],
+    [
+     "Magpie",
+     "Australian magpie"
+    ],
+    [
+     "Ibis",
+     "Bin chicken",
+     "Australian white ibis"
+    ],
+    "Brolga",
+    "Jabiru",
+    "Rosella",
+    "Cockatiel",
+    "Gang-gang cockatoo",
+    "Major Mitchell's cockatoo",
+    "Tawny frogmouth",
+    [
+     "Mallee fowl",
+     "Malleefowl"
+    ],
+    [
+     "Brush turkey",
+     "Australian brush-turkey"
+    ],
+    "Willie wagtail",
+    [
+     "Superb fairywren",
+     "Blue wren"
+    ],
+    "Kingfisher",
+    "Antechinus",
+    "Dunnart",
+    "Marsupial mole",
+    "Kowari",
+    "Mulgara",
+    "Hairy-nosed wombat",
+    "Greater glider",
+    "Feathertail glider",
+    "Spotted-tailed quoll",
+    [
+     "Flying fox",
+     "Fruit bat"
+    ],
+    "Ghost bat",
+    "Leadbeater's possum",
+    "Cuscus",
+    "Musky rat-kangaroo",
+    "Shingleback"
+   ]
+  }
+ ]
+}

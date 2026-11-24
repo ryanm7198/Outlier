@@ -1,0 +1,1128 @@
+{
+ "cat": "film",
+ "prompts": [
+  {
+   "id": "n50-film-christmas-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a Christmas film (a film set at or centred on Christmas, up to 2025)",
+   "answers": [
+    "Home Alone",
+    "Elf",
+    "Love Actually",
+    [
+     "The Muppet Christmas Carol",
+     "Muppet Christmas Carol"
+    ],
+    "It's a Wonderful Life",
+    "Die Hard",
+    "The Snowman",
+    [
+     "The Polar Express",
+     "Polar Express"
+    ],
+    [
+     "The Grinch",
+     "How the Grinch Stole Christmas",
+     "Dr. Seuss' The Grinch",
+     "Grinch"
+    ],
+    "Miracle on 34th Street",
+    "The Holiday",
+    [
+     "Home Alone 2: Lost in New York",
+     "Home Alone 2",
+     "Lost in New York"
+    ],
+    "Arthur Christmas",
+    [
+     "Nativity!",
+     "Nativity"
+    ],
+    "Jingle All the Way",
+    [
+     "The Santa Clause",
+     "Santa Clause"
+    ],
+    "Scrooged",
+    [
+     "A Christmas Carol",
+     "Scrooge",
+     "A Christmas Carol (2009)"
+    ],
+    [
+     "National Lampoon's Christmas Vacation",
+     "Christmas Vacation"
+    ],
+    "Bad Santa",
+    "Gremlins",
+    "White Christmas",
+    "Klaus",
+    [
+     "The Nightmare Before Christmas",
+     "Nightmare Before Christmas"
+    ],
+    "Four Christmases",
+    "Fred Claus",
+    "Last Christmas",
+    "The Night Before",
+    "Office Christmas Party",
+    "Daddy's Home 2",
+    "Jack Frost",
+    "Deck the Halls",
+    "Christmas with the Kranks",
+    "Surviving Christmas",
+    "A Christmas Story",
+    "Holiday Inn",
+    "The Bishop's Wife",
+    "Trading Places",
+    "Edward Scissorhands",
+    "Krampus",
+    "Black Christmas",
+    "Silent Night, Deadly Night",
+    "Get Santa",
+    [
+     "Nativity 2: Danger in the Manger",
+     "Nativity 2"
+    ],
+    [
+     "Nativity 3: Dude, Where's My Donkey?!",
+     "Nativity 3"
+    ],
+    "Noel",
+    "The Family Stone",
+    "Bridget Jones's Diary",
+    "Love the Coopers",
+    "A Bad Moms Christmas",
+    "The Christmas Chronicles",
+    "Violent Night",
+    "Red One",
+    "Spirited",
+    "Happiest Season",
+    "Better Watch Out",
+    "Anna and the Apocalypse",
+    [
+     "Joyeux Noël",
+     "Joyeux Noel"
+    ],
+    "Tokyo Godfathers",
+    "Rise of the Guardians",
+    "Mickey's Christmas Carol",
+    "Mickey's Once Upon a Christmas",
+    "Ernest Saves Christmas",
+    [
+     "Santa Claus: The Movie",
+     "Santa Claus The Movie"
+    ],
+    "Santa Claus Conquers the Martians",
+    "The Holly and the Ivy",
+    "Christmas in Connecticut",
+    "Remember the Night",
+    "The Shop Around the Corner",
+    "Meet Me in St. Louis",
+    "It Happened on Fifth Avenue",
+    "Prancer",
+    "Reindeer Games",
+    "Batman Returns",
+    "Lethal Weapon",
+    "Kiss Kiss Bang Bang",
+    "Eyes Wide Shut",
+    "Carol",
+    "Little Women",
+    "Iron Man 3",
+    "The Apartment",
+    "Tangerine",
+    "The Lion in Winter",
+    "Fanny and Alexander",
+    "Happy Christmas",
+    "The Man Who Invented Christmas",
+    "Christmas Eve",
+    "Elliot the Littlest Reindeer",
+    "Robbie the Reindeer",
+    "Father Christmas",
+    "The Snowman and the Snowdog",
+    "Holiday Affair"
+   ]
+  },
+  {
+   "id": "n50-film-eastenders-characters",
+   "tags": [
+    "tv",
+    "characters"
+   ],
+   "text": "Name a character from EastEnders (1985 to 2025)",
+   "answers": [
+    [
+     "Phil Mitchell",
+     "Phil"
+    ],
+    [
+     "Grant Mitchell",
+     "Grant"
+    ],
+    [
+     "Peggy Mitchell",
+     "Peggy"
+    ],
+    [
+     "Den Watts",
+     "Dirty Den",
+     "Den"
+    ],
+    [
+     "Angie Watts",
+     "Angie"
+    ],
+    [
+     "Pat Butcher",
+     "Pat Evans",
+     "Pat"
+    ],
+    [
+     "Dot Cotton",
+     "Dot Branning",
+     "Dot"
+    ],
+    [
+     "Ian Beale",
+     "Ian"
+    ],
+    [
+     "Pauline Fowler",
+     "Pauline"
+    ],
+    [
+     "Arthur Fowler",
+     "Arthur"
+    ],
+    [
+     "Sharon Watts",
+     "Sharon Mitchell",
+     "Sharon Rickman",
+     "Sharon"
+    ],
+    [
+     "Kat Slater",
+     "Kat Moon",
+     "Kat"
+    ],
+    [
+     "Alfie Moon",
+     "Alfie"
+    ],
+    [
+     "Mick Carter",
+     "Mick"
+    ],
+    [
+     "Linda Carter",
+     "Linda"
+    ],
+    [
+     "Billy Mitchell",
+     "Billy"
+    ],
+    [
+     "Ronnie Mitchell",
+     "Ronnie"
+    ],
+    [
+     "Roxy Mitchell",
+     "Roxy"
+    ],
+    [
+     "Sam Mitchell",
+     "Sam"
+    ],
+    [
+     "Ben Mitchell",
+     "Ben"
+    ],
+    [
+     "Max Branning",
+     "Max"
+    ],
+    [
+     "Bianca Jackson",
+     "Bianca Butcher",
+     "Bianca"
+    ],
+    [
+     "Ricky Butcher",
+     "Ricky"
+    ],
+    [
+     "Frank Butcher",
+     "Frank"
+    ],
+    [
+     "Janine Butcher",
+     "Janine"
+    ],
+    [
+     "Little Mo",
+     "Mo Slater",
+     "Little Mo Mitchell"
+    ],
+    [
+     "Big Mo",
+     "Mo Harris"
+    ],
+    [
+     "Stacey Slater",
+     "Stacey Branning",
+     "Stacey"
+    ],
+    [
+     "Jean Slater",
+     "Jean"
+    ],
+    [
+     "Charlie Slater",
+     "Charlie"
+    ],
+    [
+     "Zoe Slater",
+     "Zoe"
+    ],
+    [
+     "Lynne Slater",
+     "Lynne"
+    ],
+    [
+     "Sonia Fowler",
+     "Sonia Jackson",
+     "Sonia"
+    ],
+    [
+     "Martin Fowler",
+     "Martin"
+    ],
+    [
+     "Michelle Fowler",
+     "Michelle"
+    ],
+    [
+     "Mark Fowler",
+     "Mark"
+    ],
+    [
+     "Lou Beale",
+     "Lou"
+    ],
+    [
+     "Kathy Beale",
+     "Kathy"
+    ],
+    [
+     "Steven Beale",
+     "Steven"
+    ],
+    [
+     "Lucy Beale",
+     "Lucy"
+    ],
+    [
+     "Peter Beale",
+     "Peter"
+    ],
+    [
+     "Bobby Beale",
+     "Bobby"
+    ],
+    [
+     "Jane Beale",
+     "Jane"
+    ],
+    [
+     "Denise Fox",
+     "Denise"
+    ],
+    [
+     "Chelsea Fox",
+     "Chelsea"
+    ],
+    [
+     "Libby Fox",
+     "Libby"
+    ],
+    [
+     "Shirley Carter",
+     "Shirley"
+    ],
+    [
+     "Tina Carter",
+     "Tina"
+    ],
+    [
+     "Dean Wicks",
+     "Dean"
+    ],
+    [
+     "Whitney Dean",
+     "Whitney"
+    ],
+    [
+     "Lauren Branning",
+     "Lauren"
+    ],
+    [
+     "Abi Branning",
+     "Abi"
+    ],
+    [
+     "Tanya Branning",
+     "Tanya"
+    ],
+    [
+     "Jack Branning",
+     "Jack"
+    ],
+    [
+     "Derek Branning",
+     "Derek"
+    ],
+    [
+     "Jim Branning",
+     "Jim"
+    ],
+    [
+     "Carol Jackson",
+     "Carol"
+    ],
+    [
+     "Robbie Jackson",
+     "Robbie"
+    ],
+    "Wellard",
+    [
+     "Nick Cotton",
+     "Nick"
+    ],
+    [
+     "Ethel Skinner",
+     "Ethel"
+    ],
+    [
+     "Archie Mitchell",
+     "Archie"
+    ],
+    [
+     "Stella Crawford",
+     "Stella"
+    ],
+    [
+     "Johnny Allen",
+     "Johnny"
+    ],
+    [
+     "Danielle Jones",
+     "Danielle"
+    ],
+    [
+     "Masood Ahmed",
+     "Masood"
+    ],
+    [
+     "Syed Masood",
+     "Syed"
+    ],
+    [
+     "Christian Clarke",
+     "Christian"
+    ],
+    [
+     "Tamwar Masood",
+     "Tamwar"
+    ],
+    [
+     "Zainab Masood",
+     "Zainab"
+    ],
+    [
+     "Shabnam Masood",
+     "Shabnam"
+    ],
+    [
+     "Kush Kazemi",
+     "Kush"
+    ],
+    [
+     "Carmel Kazemi",
+     "Carmel"
+    ],
+    [
+     "Les Coker",
+     "Les"
+    ],
+    [
+     "Pam Coker",
+     "Pam"
+    ],
+    [
+     "Patrick Trueman",
+     "Patrick"
+    ],
+    [
+     "Yolande Trueman",
+     "Yolande"
+    ],
+    [
+     "Paul Trueman",
+     "Paul"
+    ],
+    [
+     "Anthony Trueman",
+     "Anthony"
+    ],
+    [
+     "Keanu Taylor",
+     "Keanu"
+    ],
+    [
+     "Karen Taylor",
+     "Karen"
+    ],
+    [
+     "Bernadette Taylor",
+     "Bernadette"
+    ],
+    [
+     "Lola Pearce",
+     "Lola"
+    ],
+    [
+     "Jay Brown",
+     "Jay"
+    ],
+    [
+     "Honey Mitchell",
+     "Honey"
+    ],
+    [
+     "Callum Highway",
+     "Callum",
+     "Halfway"
+    ],
+    [
+     "Stuart Highway",
+     "Stuart"
+    ],
+    [
+     "Rainie Cross",
+     "Rainie"
+    ],
+    [
+     "Sean Slater",
+     "Sean"
+    ],
+    [
+     "Mandy Salter",
+     "Mandy"
+    ],
+    [
+     "Aidan Brosnan",
+     "Aidan"
+    ],
+    [
+     "Steve Owen",
+     "Steve"
+    ],
+    [
+     "Mel Owen",
+     "Mel Healy",
+     "Mel"
+    ],
+    [
+     "Jamie Mitchell",
+     "Jamie"
+    ],
+    [
+     "Barry Evans",
+     "Barry"
+    ],
+    [
+     "Natalie Evans",
+     "Natalie"
+    ],
+    [
+     "Lisa Fowler",
+     "Lisa Shaw",
+     "Lisa"
+    ],
+    [
+     "Louise Mitchell",
+     "Louise"
+    ],
+    [
+     "Gavin Sullivan",
+     "Gavin"
+    ],
+    [
+     "Ted Murray",
+     "Ted"
+    ],
+    [
+     "Joyce Murray",
+     "Joyce"
+    ],
+    [
+     "George Knight",
+     "George"
+    ],
+    [
+     "Elaine Peacock",
+     "Elaine"
+    ],
+    [
+     "Eddie Knight",
+     "Eddie"
+    ],
+    [
+     "Anna Knight",
+     "Anna"
+    ],
+    [
+     "Gina Knight",
+     "Gina"
+    ],
+    [
+     "Cindy Beale",
+     "Cindy"
+    ],
+    [
+     "Ruby Allen",
+     "Ruby"
+    ],
+    [
+     "Vincent Hubbard",
+     "Vincent"
+    ],
+    [
+     "Kim Fox",
+     "Kim"
+    ],
+    [
+     "Carly Wicks",
+     "Carly"
+    ],
+    [
+     "Kevin Wicks",
+     "Kevin"
+    ],
+    [
+     "Deano Wicks",
+     "Deano"
+    ],
+    [
+     "David Wicks",
+     "David"
+    ],
+    [
+     "Tiffany Mitchell",
+     "Tiffany Raymond",
+     "Tiffany"
+    ],
+    [
+     "Simon Raymond",
+     "Simon"
+    ],
+    [
+     "Terry Raymond",
+     "Terry"
+    ],
+    [
+     "Tony Hills",
+     "Tony"
+    ],
+    [
+     "Alan Jackson",
+     "Alan"
+    ],
+    [
+     "Ashley Cotton",
+     "Ashley"
+    ],
+    [
+     "Lofty Holloway",
+     "Lofty"
+    ],
+    [
+     "Mary Flaherty",
+     "Mary the Punk",
+     "Mary"
+    ],
+    [
+     "Sue Osman",
+     "Sue"
+    ],
+    [
+     "Ali Osman",
+     "Ali"
+    ],
+    [
+     "Kelvin Carpenter",
+     "Kelvin"
+    ],
+    "Tony Carpenter",
+    [
+     "Hattie Tavernier",
+     "Hattie"
+    ],
+    [
+     "Etta Tavernier",
+     "Etta"
+    ],
+    [
+     "Celestine Tavernier",
+     "Celestine"
+    ],
+    [
+     "Clyde Tavernier",
+     "Clyde"
+    ],
+    [
+     "Nigel Bates",
+     "Nigel"
+    ],
+    [
+     "Debbie Bates",
+     "Debbie"
+    ],
+    [
+     "Clare Bates",
+     "Clare"
+    ],
+    [
+     "Dr Harold Legg",
+     "Dr Legg",
+     "Harold Legg"
+    ],
+    "Reg Cox",
+    "Roly",
+    "Willy",
+    [
+     "Jules Tavernier",
+     "Jules"
+    ],
+    [
+     "Gita Kapoor",
+     "Gita"
+    ],
+    [
+     "Sanjay Kapoor",
+     "Sanjay"
+    ],
+    [
+     "Disa O'Brien",
+     "Disa"
+    ],
+    [
+     "Rosa di Marco",
+     "Rosa"
+    ],
+    [
+     "Beppe di Marco",
+     "Beppe"
+    ],
+    [
+     "Teresa di Marco",
+     "Teresa"
+    ],
+    [
+     "Matthew Rose",
+     "Matthew"
+    ],
+    [
+     "Chrissie Watts",
+     "Chrissie"
+    ],
+    [
+     "Dennis Rickman",
+     "Dennis"
+    ],
+    [
+     "Yusef Khan",
+     "Yusef"
+    ],
+    [
+     "Zsa Zsa Carter",
+     "Zsa Zsa"
+    ],
+    [
+     "Lee Carter",
+     "Lee"
+    ],
+    [
+     "Nancy Carter",
+     "Nancy"
+    ],
+    "Johnny Carter",
+    [
+     "Buster Briggs",
+     "Buster"
+    ],
+    [
+     "Babe Smith",
+     "Babe",
+     "Aunt Babe"
+    ],
+    [
+     "Glenda Mitchell",
+     "Glenda"
+    ],
+    [
+     "Danny Mitchell",
+     "Danny"
+    ],
+    [
+     "Harvey Monroe",
+     "Harvey"
+    ],
+    [
+     "Nish Panesar",
+     "Nish"
+    ],
+    [
+     "Suki Panesar",
+     "Suki"
+    ],
+    [
+     "Ravi Gulati",
+     "Ravi"
+    ],
+    [
+     "Vinny Panesar",
+     "Vinny"
+    ],
+    [
+     "Jags Panesar",
+     "Jags"
+    ],
+    [
+     "Kheerat Panesar",
+     "Kheerat"
+    ],
+    [
+     "Ash Kaur",
+     "Ash"
+    ],
+    [
+     "Priya Nandra-Hart",
+     "Priya"
+    ],
+    [
+     "Eve Unwin",
+     "Eve"
+    ],
+    [
+     "Mitch Baker",
+     "Mitch"
+    ],
+    [
+     "Chantelle Atkins",
+     "Chantelle"
+    ],
+    [
+     "Gray Atkins",
+     "Gray"
+    ],
+    [
+     "Lily Slater",
+     "Lily"
+    ],
+    [
+     "Amy Mitchell",
+     "Amy"
+    ],
+    [
+     "Lexi Pearce",
+     "Lexi"
+    ],
+    [
+     "Nugget Gulati",
+     "Nugget"
+    ],
+    [
+     "Felix Baker",
+     "Felix"
+    ],
+    [
+     "Bailey Baker",
+     "Bailey"
+    ],
+    [
+     "Tiffany Butcher",
+     "Tiffany Butcher-Baker"
+    ],
+    [
+     "Freddie Slater",
+     "Freddie"
+    ],
+    [
+     "Reiss Colwell",
+     "Reiss"
+    ]
+   ]
+  },
+  {
+   "id": "n50-film-horror-films",
+   "tags": [
+    "films"
+   ],
+   "text": "Name a horror film (any era, up to 2025)",
+   "answers": [
+    [
+     "The Exorcist",
+     "Exorcist"
+    ],
+    "Halloween",
+    [
+     "The Shining",
+     "Shining"
+    ],
+    [
+     "A Nightmare on Elm Street",
+     "Nightmare on Elm Street"
+    ],
+    "Scream",
+    "It",
+    [
+     "The Conjuring",
+     "Conjuring"
+    ],
+    "Saw",
+    [
+     "The Texas Chain Saw Massacre",
+     "Texas Chainsaw Massacre",
+     "The Texas Chainsaw Massacre"
+    ],
+    "Friday the 13th",
+    "Psycho",
+    [
+     "The Ring",
+     "Ring",
+     "Ringu"
+    ],
+    "Paranormal Activity",
+    "Get Out",
+    "Hereditary",
+    [
+     "The Blair Witch Project",
+     "Blair Witch Project",
+     "Blair Witch"
+    ],
+    "Annabelle",
+    "Insidious",
+    [
+     "The Omen",
+     "Omen"
+    ],
+    [
+     "Child's Play",
+     "Chucky"
+    ],
+    "Jaws",
+    "Alien",
+    "Carrie",
+    [
+     "The Thing",
+     "Thing"
+    ],
+    "Poltergeist",
+    "Final Destination",
+    [
+     "The Babadook",
+     "Babadook"
+    ],
+    [
+     "A Quiet Place",
+     "Quiet Place"
+    ],
+    [
+     "The Nun",
+     "Nun"
+    ],
+    "Us",
+    "Smile",
+    "Midsommar",
+    "Rosemary's Baby",
+    "Hellraiser",
+    [
+     "The Evil Dead",
+     "Evil Dead"
+    ],
+    "28 Days Later",
+    "Shaun of the Dead",
+    [
+     "The Descent",
+     "Descent"
+    ],
+    [
+     "An American Werewolf in London",
+     "American Werewolf in London"
+    ],
+    [
+     "The Wicker Man",
+     "Wicker Man"
+    ],
+    "Night of the Living Dead",
+    "Dawn of the Dead",
+    [
+     "The Silence of the Lambs",
+     "Silence of the Lambs"
+    ],
+    "Candyman",
+    [
+     "The Hills Have Eyes",
+     "Hills Have Eyes"
+    ],
+    [
+     "The Others",
+     "Others"
+    ],
+    "Sinister",
+    [
+     "The Purge",
+     "Purge"
+    ],
+    "Terrifier",
+    "Barbarian",
+    "It Follows",
+    [
+     "The Witch",
+     "The VVitch"
+    ],
+    "Talk to Me",
+    "Nosferatu",
+    [
+     "Dracula",
+     "Bram Stoker's Dracula"
+    ],
+    "Frankenstein",
+    "The Mummy",
+    "The Invisible Man",
+    "The Wolf Man",
+    "Bride of Frankenstein",
+    [
+     "Cabin in the Woods",
+     "The Cabin in the Woods"
+    ],
+    "The Fog",
+    [
+     "The Amityville Horror",
+     "Amityville Horror",
+     "Amityville"
+    ],
+    "The Strangers",
+    "Wrong Turn",
+    "Hostel",
+    [
+     "The Grudge",
+     "Ju-On"
+    ],
+    [
+     "The Orphanage",
+     "El orfanato"
+    ],
+    [
+     "Pet Sematary",
+     "Pet Cemetery"
+    ],
+    "Misery",
+    "Cujo",
+    "Christine",
+    "Gremlins",
+    "Tremors",
+    [
+     "The Lost Boys",
+     "Lost Boys"
+    ],
+    "Fright Night",
+    "The Fly",
+    "Scanners",
+    "Videodrome",
+    "Suspiria",
+    [
+     "The Devil's Rejects",
+     "Devil's Rejects"
+    ],
+    "House of 1000 Corpses",
+    "Event Horizon",
+    "Jeepers Creepers",
+    "Dead Silence",
+    "Mama",
+    "Lights Out",
+    [
+     "The Conjuring 2",
+     "Conjuring 2"
+    ],
+    "Annabelle Creation",
+    [
+     "M3GAN",
+     "Megan"
+    ],
+    "Five Nights at Freddy's",
+    "Longlegs",
+    "The Substance",
+    "Nope",
+    "X",
+    "Pearl",
+    "Saint Maud",
+    [
+     "The Woman in Black",
+     "Woman in Black"
+    ],
+    "Ghost Stories",
+    "Eden Lake",
+    "Dog Soldiers",
+    "Kill List",
+    "His House",
+    "Censor",
+    "Possum",
+    "Under the Skin",
+    "The Innocents",
+    "Don't Look Now",
+    "Peeping Tom",
+    "Village of the Damned",
+    "The Haunting",
+    "Dead of Night",
+    [
+     "Rec",
+     "[REC]"
+    ],
+    "Train to Busan",
+    "Audition",
+    "Martyrs",
+    "Let the Right One In",
+    [
+     "Inside",
+     "À l'intérieur"
+    ],
+    "Raw",
+    "Tumbbad",
+    "Ichi the Killer",
+    "The Hitcher",
+    "Session 9",
+    "Lake Mungo",
+    "Possession",
+    "The Beyond",
+    [
+     "Zombi 2",
+     "Zombie Flesh Eaters"
+    ],
+    "Cannibal Holocaust",
+    "Basket Case",
+    "Re-Animator",
+    [
+     "Braindead",
+     "Dead Alive"
+    ],
+    "The Brood",
+    "Spider Baby",
+    "Carnival of Souls"
+   ]
+  }
+ ]
+}
