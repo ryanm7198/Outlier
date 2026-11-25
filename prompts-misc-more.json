@@ -6070,16 +6070,26 @@
    ],
    "text": "Name a UK supermarket chain, past or present",
    "answers": [
-    "Tesco",
+    [
+     "Tesco",
+     "Tesco Express"
+    ],
     [
      "Sainsbury's",
-     "sainsburys"
+     "sainsburys",
+     "Sainsbury's Local"
     ],
     "Asda",
-    "Morrisons",
+    [
+     "Morrisons",
+     "Morrisons Daily"
+    ],
     "Aldi",
     "Lidl",
-    "Waitrose",
+    [
+     "Waitrose",
+     "Little Waitrose"
+    ],
     [
      "Co-op",
      "co-operative",
@@ -6089,7 +6099,9 @@
     [
      "Marks & Spencer",
      "m&s",
-     "marks and spencer"
+     "marks and spencer",
+     "M&S Food",
+     "Marks and Spencer Food"
     ],
     "Ocado",
     "Costco",
@@ -6164,7 +6176,17 @@
     "Cordon Bleu Freezer Food Centres",
     "Leo's",
     "Getir",
-    "Gorillas"
+    "Gorillas",
+    "Lifestyle Express",
+    "Family Shopper",
+    [
+     "Best-one",
+     "Bestone"
+    ],
+    "Go Local",
+    "Amazon Go",
+    "Abel & Cole",
+    "Riverford"
    ]
   },
   {
@@ -6353,7 +6375,38 @@
     "Cleveland",
     "Gleaner",
     "Snax 24",
-    "Rix"
+    "Rix",
+    [
+     "Valero"
+    ],
+    [
+     "Essar"
+    ],
+    [
+     "Prax"
+    ],
+    [
+     "Rontec"
+    ],
+    [
+     "Moto"
+    ],
+    [
+     "Welcome Break"
+    ],
+    [
+     "Roadchef"
+    ],
+    [
+     "Topaz"
+    ],
+    [
+     "Certas Energy",
+     "Certas"
+    ],
+    [
+     "Ascona"
+    ]
    ]
   },
   {

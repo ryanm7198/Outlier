@@ -90,6 +90,7 @@ FUMBLE_EASE = {}
 ONE_THING = re.compile(r"\b(song|single|track|album|b-side) (by|on|from)\b|'s '|character (from|in)|characters? (from|in)|"
                        r"episode|series of|season of|in (the )?[A-Z][\w' ]+ (series|franchise|films?)|\bfrom '", re.I)
 ONE_NAME = re.compile(r"^Name an? (?:[A-Z][\w.'&-]*\s)+(single|song|album|film|track|character)s?\b")   # "Name a Stevie Wonder single"
+TEAMS_FROM = datetime.date(2026, 11, 26)   # dailies from this day on keep to one prompt per club or national team
 STREAM_FROM = datetime.date(2026, 11, 13)   # dailies from this day on use the endless mix below (earlier days keep their prompts)
 # How big a share each top-level category gets in an Everything game: mostly general knowledge, with a sprinkle of
 # the specialist ones. Sport covers football and the NBA too, so it is one share however many questions it has.
@@ -1368,6 +1369,8 @@ def pick_daily(cat, day):
     for i in stream[idx * n:] + [j for j in ids if j not in stream[idx * n:]]:   # a small category wrapping inside one day can't repeat a prompt
         if i not in todays:
             todays.append(i)
+    if day >= TEAMS_FROM:
+        return tuple(one_per_team(todays, n))
     return tuple(todays[:n])
 
 
@@ -1387,11 +1390,12 @@ def pick_balanced(cat, tags, ids, seen, n):
         random.shuffle(fresh)
         order.append(fresh + sorted((i for i in b if i.split("--")[0] in last), key=lambda i: last[i.split("--")[0]]))
     taken = [0] * len(order)
-    picked, bases, kinds, spare = [], set(), {}, []
+    picked, bases, kinds, spare, clubs = [], set(), {}, [], set()
 
     def fits(i):
         k = kind_of(i)
-        return i.split("--")[0] not in bases and not (k and kinds.get(k, 0) >= KIND_CAP)
+        return (i.split("--")[0] not in bases and not (k and kinds.get(k, 0) >= KIND_CAP)
+                and not (teams_of(i) & clubs))
 
     while len(picked) < n and any(order):
         # The filter furthest below its fair share goes next; the random nudge lets bigger ones win ties more often.
@@ -1404,23 +1408,78 @@ def pick_balanced(cat, tags, ids, seen, n):
             i = b.pop(0)
             picked.append(i)
             bases.add(i.split("--")[0])
+            clubs.update(teams_of(i))
             if kind_of(i):
                 kinds[kind_of(i)] = kinds.get(kind_of(i), 0) + 1
             taken[k] += 1
-    for i in spare:   # a narrow pick (only shirt numbers, say) still fills the game
-        if len(picked) >= n:
-            break
-        if i not in picked and i.split("--")[0] not in bases:
-            picked.append(i)
-            bases.add(i.split("--")[0])
+    # A narrow pick (only shirt numbers, or one club's filter) still fills the game: first with prompts about a team
+    # not used yet, then with anything left.
+    for strict in (True, False):
+        for i in spare:
+            if len(picked) >= n:
+                break
+            if i not in picked and i.split("--")[0] not in bases and not (strict and teams_of(i) & clubs):
+                picked.append(i)
+                bases.add(i.split("--")[0])
+                clubs.update(teams_of(i))
     random.shuffle(picked)
     return picked
+
+
+def one_per_team(ids, n):
+    """The first n of ids, skipping any prompt about a club or national team already in; skipped ones fill any gap."""
+    out, clubs, later = [], set(), []
+    for i in ids:
+        if len(out) >= n:
+            break
+        if teams_of(i) & clubs:
+            later.append(i)
+            continue
+        out.append(i)
+        clubs.update(teams_of(i))
+    return out + later[:n - len(out)]
 
 
 # Question "kinds" that look alike from one round to the next (Name a Premier League number 14 / number 7 /
 # a Chelsea number 9...): a game gets at most one of each kind, so they come up as a sprinkle, not a run.
 KIND_CAP = 1
 KINDS = [("shirt", re.compile(r"\bnumber (\d+)\b(?! of)", re.I))]
+
+
+# Football prompts about the same team ("a Liverpool player from their 2019-20 title season", "a Liverpool player in
+# the 2019 Champions League final") feel like a repeat, so a game takes one prompt per club or national team.
+# A prompt naming two teams (a final, "played for both...") counts for both.
+_T = lambda *names: re.compile(r"\b(?:" + "|".join(names) + r")\b")
+FOOTBALL_TEAMS = [
+    ("man-utd", _T("Man Utd", "Manchester United", "Man United")), ("man-city", _T("Man City", "Manchester City")),
+    ("liverpool", _T("Liverpool")), ("chelsea", _T("Chelsea")), ("arsenal", _T("Arsenal")),
+    ("spurs", _T("Spurs", "Tottenham")), ("everton", _T("Everton")), ("newcastle", _T("Newcastle")),
+    ("villa", _T("Aston Villa", "Villa")), ("west-ham", _T("West Ham")), ("leeds", _T("Leeds")),
+    ("leicester", _T("Leicester")), ("celtic", _T("Celtic")), ("rangers", re.compile(r"(?<!Queens Park )(?<!Park )\bRangers\b")),
+    ("blackburn", _T("Blackburn")), ("forest", _T("Nottingham Forest", "Forest")), ("derby", _T("Derby")),
+    ("southampton", _T("Southampton")), ("sunderland", _T("Sunderland")), ("wolves", _T("Wolves", "Wolverhampton")),
+    ("palace", _T("Crystal Palace")), ("middlesbrough", _T("Middlesbrough")), ("fulham", _T("Fulham")),
+    ("brighton", _T("Brighton")), ("bolton", _T("Bolton")), ("hearts", _T("Hearts")), ("hibs", _T("Hibs", "Hibernian")),
+    ("aberdeen", _T("Aberdeen")), ("barcelona", _T("Barcelona", "Barça")), ("real-madrid", re.compile(r"Real(?! Betis| Sociedad| Valladolid| Zaragoza| Mallorca| Oviedo)")),
+    ("atletico", _T("Atlético", "Atletico")), ("bayern", _T("Bayern")), ("dortmund", _T("Dortmund")),
+    ("juventus", _T("Juventus")), ("ac-milan", _T("AC Milan")), ("inter", _T("Inter Milan", "Inter")),
+    ("psg", _T("PSG", "Paris Saint-Germain")), ("ajax", _T("Ajax")), ("porto", _T("Porto")), ("benfica", _T("Benfica")),
+    ("england", _T("England", "England's")), ("scotland", _T("Scotland", "Scotland's")), ("wales", _T("Wales", "Wales's")),
+    ("brazil", _T("Brazil", "Brazil's")), ("argentina", _T("Argentina", "Argentina's")), ("germany", _T("Germany", "Germany's")),
+    ("france", _T("France", "France's")), ("spain", _T("Spain", "Spain's")), ("italy", _T("Italy", "Italy's")),
+    ("portugal", _T("Portugal", "Portugal's")), ("netherlands", _T("Netherlands", "Netherlands'")),
+]
+NBA_TEAMS = [(k.lower().replace(" ", "-"), _T(k)) for k in (
+    "Lakers", "Celtics", "Bulls", "Warriors", "Knicks", "Heat", "Spurs", "Pistons", "Rockets", "76ers", "Sixers",
+    "Mavericks", "Suns", "Cavaliers", "Thunder", "Nets", "Clippers", "Jazz", "Trail Blazers", "Bucks", "Nuggets",
+    "Raptors", "Hawks", "Kings", "Magic", "Pacers", "Timberwolves", "Pelicans", "Grizzlies", "Hornets", "Wizards")]
+
+
+@functools.lru_cache(maxsize=None)
+def teams_of(pid):
+    p = PROMPTS[pid]
+    table = FOOTBALL_TEAMS if p["cat"] == "football" else NBA_TEAMS if p["cat"] == "nba" else ()
+    return frozenset(key for key, rx in table if rx.search(p["text"]))
 
 
 def kind_of(pid):
@@ -1978,7 +2037,9 @@ def next_question(room):
     played = [sum(1 for i in b if i in room["used"]) for b in groups]
     choices = [k for k in range(len(groups)) if fresh[k]]
     k = min(choices, key=lambda k: (played[k] + random.random()) / weights[k])
-    room["prompt"] = random.choice(fresh[k])
+    # Not a team this game has already had (round 1 starts the game, so only the rounds since count)
+    recent = set().union(*(teams_of(i) for i in room["used"][-(room["round"]):] if i in PROMPTS)) if room["round"] else set()
+    room["prompt"] = random.choice([i for i in fresh[k] if not teams_of(i) & recent] or fresh[k])
     room["used"].append(room["prompt"])
     room["round"] += 1
     for p in room["players"].values():
