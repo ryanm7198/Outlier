@@ -784,6 +784,29 @@ details.answers .board .num { min-width: 2.4em; text-align: right; }
 .pt-boom { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-radius: var(--radius); background: color-mix(in srgb, var(--you) 18%, var(--card)); border: 1px solid var(--you); animation: rvbig .5s cubic-bezier(.2, .8, .2, 1.3) both; }
 .pt-boom .ic { color: var(--you); }
 form.shake { animation: shake .35s; }
+
+/* Darts checkouts: the dart keypad. Every row has a fixed height, so nothing moves while the clock runs. */
+.dpad { display: grid; gap: 10px; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent; }
+.dpad.shake, .dp-slot.shake { animation: shake .35s; }
+.dp-slots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.dp-slot { height: 62px; border-radius: 14px; background: var(--card); border: 1.5px solid var(--line-2); display: grid; place-content: center; gap: 1px; }
+.dp-slot small { font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.dp-slot b { font-size: 1.35rem; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.dp-slot.on { border-color: var(--you); box-shadow: 0 0 0 3px var(--you-soft); }
+.dp-slot.fin { border-color: var(--good); }
+.dp-slot.fin b { color: var(--good); }
+.dp-left { margin: 0; height: 1.5em; text-align: center; font-weight: 800; font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; }
+.dp-mult { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; padding: 4px; border-radius: 14px; background: var(--card); border: 1px solid var(--line); }
+.dp-mult button { height: 44px; border-radius: 10px; font-weight: 800; font-size: 1.05rem; color: var(--muted); }
+.dp-mult button[aria-pressed="true"] { background: var(--you); color: var(--you-ink); }
+.dp-nums { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.dp-nums button { height: 50px; border-radius: 12px; background: var(--card-2); border: 1px solid var(--line); font-weight: 700; font-size: 1.12rem; font-variant-numeric: tabular-nums; transition: background .1s, transform .08s; }
+.dp-nums button:active { background: var(--you-soft); transform: scale(.96); }
+.dp-nums .dp-25 { grid-column: span 2; }
+.dp-nums .dp-bull { grid-column: span 3; }
+.dp-msg { margin: 0; height: 1.4em; text-align: center; font-size: .9rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dp-msg.bad { color: var(--you); font-weight: 600; }
+@media (max-height: 700px) { .dp-nums button { height: 44px; } .dp-slot { height: 54px; } .dp-mult button { height: 40px; } }
 @keyframes shake { 20%, 60% { transform: translateX(-6px); } 40%, 80% { transform: translateX(6px); } }
 .pt-break { display: grid; gap: 14px; text-align: center; }
 .pt-break .eyebrow { display: inline-flex; align-items: center; justify-content: center; gap: 6px; color: var(--you); margin: 0; }
@@ -809,7 +832,7 @@ form.shake { animation: shake .35s; }
   25% { transform: translate(-50%, 0) scale(1); } 80% { opacity: 1; transform: translate(-50%, 0); } 100% { opacity: 0; transform: translate(-50%, -14px); } }
 @keyframes heartlose { 0% { transform: none; opacity: 1; } 30% { transform: scale(1.6); opacity: 1; }
   100% { transform: translateY(22px) rotate(35deg) scale(.4); opacity: 0; } }
-@media (prefers-reduced-motion: reduce) { .pt-you, .pt-table li.turn .av, .pt-log li, .pt-boom, form.shake, .pt-bh, .pt-roll li, .pt-next, .pt-pop, .seat.now .av, .seat-arrow { animation: none; } .pt-hearts i.lose { animation: none; opacity: .2; } }
+@media (prefers-reduced-motion: reduce) { .pt-you, .pt-table li.turn .av, .pt-log li, .pt-boom, form.shake, .dpad.shake, .dp-slot.shake, .pt-bh, .pt-roll li, .pt-next, .pt-pop, .seat.now .av, .seat-arrow { animation: none; } .pt-hearts i.lose { animation: none; opacity: .2; } }
 
 /* ---- party podium: winners cheer on the steps, the rest sob in front */
 .podium { position: relative; margin: 6px 0 14px; padding-top: 18px; overflow: hidden; }
@@ -1258,7 +1281,7 @@ html.calm .sk-head, html.calm .sk-sub, html.calm .sk > p.muted, html.calm .sk .b
 html.calm .thin .crowd i { transition: none; }
 html.calm #app.enter > *, html.calm .intro-dots .crowd i, html.calm .intro-bar i { animation: none; }
 html.calm .rv-card, html.calm .rv-stamp, html.calm .rv-drum, html.calm .tick-av.pop { animation: none; }
-html.calm .pt-you, html.calm .pt-table li.turn .av, html.calm .pt-log li, html.calm .pt-boom, html.calm form.shake, html.calm .pt-bh, html.calm .pt-roll li, html.calm .pt-next, html.calm .pt-pop, html.calm .seat.now .av, html.calm .seat-arrow { animation: none; }
+html.calm .pt-you, html.calm .pt-table li.turn .av, html.calm .pt-log li, html.calm .pt-boom, html.calm form.shake, html.calm .dpad.shake, html.calm .dp-slot.shake, html.calm .pt-bh, html.calm .pt-roll li, html.calm .pt-next, html.calm .pt-pop, html.calm .seat.now .av, html.calm .seat-arrow { animation: none; }
 html.calm .pt-hearts i.lose { animation: none; opacity: .2; }
 html.calm .av.mood-cheer svg, html.calm .av.mood-cheer .arm, html.calm .av.mood-cry svg, html.calm .av.mood-cry .tear, html.calm .podium.play .pod-step, html.calm .podium.play .pod-top, html.calm .podium.play .pod-floor, html.calm .podium.play .confetti i { animation: none; }
 html.calm .switch, html.calm .switch i { transition: none; }

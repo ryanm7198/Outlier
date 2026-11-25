@@ -30,6 +30,8 @@ import zlib
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
+import checkouts
+
 try:   # web push for streak reminders is optional: without pywebpush (or the VAPID keys below) reminders are simply off
     from pywebpush import WebPushException, webpush
 except Exception:
@@ -78,6 +80,9 @@ MIN_ANSWERS = 8        # prompts with fewer possible answers are left out
 GRACE_S = 2            # leeway for answers sent as the clock hits zero
 PICK_S = 10            # party: seconds to decide whether to double down
 TIMERS = (15, 20, 30, 45, 60)   # party: answer times the host can pick
+# Seconds to answer, by question type, in solo games and dailies (a party keeps the host's timer, and Fumble its own).
+# A type missing here uses ROUND_S. Types: "darts" = "Check out 140 in 3 darts", answered on the dart keypad.
+INPUT_SECS = {"darts": 30}
 LAUNCH = datetime.date(2026, 11, 10)
 EASY_FROM = datetime.date(2026, 11, 17)     # dailies from this day on only use questions most people can answer
 # How easy each question is (1 = specialist, 5 = almost anyone can name one), from daily_ease.json. Questions about a
@@ -210,7 +215,8 @@ def load_prompts():
         for p in data["prompts"]:
             answers = [[a] if isinstance(a, str) else a for a in p["answers"]]
             answers = [a + shared.get(a[0], []) for a in answers]
-            add_prompt(p["id"], p["text"], data["cat"], p.get("tags", []), bool(p.get("deep")), answers)
+            add_prompt(p["id"], p["text"], data["cat"], p.get("tags", []), bool(p.get("deep")), answers,
+                       kind=p.get("input"), target=p.get("target"))
             # Era variants: a broad question whose answers carry decades also comes in one version
             # per decade ("...in the 2010s"), accepting only that decade's answers. They only appear
             # when the player picks that decade.
@@ -224,13 +230,13 @@ def load_prompts():
     CATS.sort(key=lambda c: (c.get("order", 99), c["label"]))   # the picker's order
 
 
-def add_prompt(pid, text, cat, tags, deep, answers, era_only=None):
+def add_prompt(pid, text, cat, tags, deep, answers, era_only=None, kind=None, target=None):
     if pid in PROMPTS:
         raise SystemExit(f"Duplicate prompt id: {pid}")
     if len(answers) < MIN_ANSWERS:
         return
     PROMPTS[pid] = {"id": pid, "text": text, "cat": cat, "tags": tags, "deep": deep, "era_only": era_only,
-                    "names": [a[0] for a in answers]}
+                    "names": [a[0] for a in answers], "input": kind, "target": target}
     LOOKUP[pid] = {}
     if code_for(pid) in CODES:
         print(f"WARNING: {pid} shares a seed code with {CODES[code_for(pid)]}; rename one", flush=True)
@@ -245,6 +251,10 @@ def add_prompt(pid, text, cat, tags, deep, answers, era_only=None):
 
 def match_detail(pid, raw):
     """Return (answer, exact). exact is False when only a near-miss spelling matched."""
+    if PROMPTS[pid].get("input") == "darts":   # a route, in any order: no spelling slack, it adds up or it doesn't
+        route = checkouts.parse(raw, PROMPTS[pid]["target"])
+        hit = route and LOOKUP[pid].get(norm(route))
+        return (hit, True) if hit else (None, False)
     n = norm(raw)
     if not n:
         return None, False
@@ -286,7 +296,7 @@ def near_miss(pid, raw):
     2. a few more typos than the normal match allows;
     3. a fragment that sits inside exactly one answer ("ronaldinh")."""
     n = norm(raw)
-    if len(n) < 3:
+    if len(n) < 3 or PROMPTS[pid].get("input"):
         return None
     words = [w for w in n.split() if w not in HINT_STOP]
     if words and all(len(w) >= 3 for w in words):
@@ -1527,7 +1537,19 @@ def describe(cat, tags):
 
 def public_prompt(pid):
     p = PROMPTS[pid]
-    return {"id": pid, "text": p["text"], "cat": p["cat"]}
+    return {"id": pid, "text": p["text"], "cat": p["cat"], **input_of(pid, solo=True)}
+
+
+def input_of(pid, solo=False):
+    """How a prompt is answered, for the page: nothing for a typed answer; {"input": "darts", "target": 140} for the
+    dart keypad. Solo games and dailies also get the type's own answer time."""
+    p = PROMPTS[pid]
+    if not p.get("input"):
+        return {}
+    out = {"input": p["input"], "target": p["target"]}
+    if solo and p["input"] in INPUT_SECS:
+        out["roundMs"] = INPUT_SECS[p["input"]] * 1000
+    return out
 
 
 def daily(cat):
@@ -2304,6 +2326,7 @@ def shared_state(room):
                      log=room["log"][-60:][::-1], standings=potato_standings(room))
         if room["phase"] == "potato":
             state.update(prompt=PROMPTS[room["prompt"]]["text"], promptId=room["prompt"], hint=hint_for(room["prompt"]),
+                         promptInput=input_of(room["prompt"]),
                          current=room["players"][room["current"]]["n"], turnId=room["turn_id"], roundMs=room["secs"] * 1000,
                          startsInMs=max(0, int((room["turn_start"] - now) * 1000)),
                          breakMs=max(0, int((room.get("break_until", 0) - now) * 1000)),
@@ -2316,7 +2339,7 @@ def shared_state(room):
         state.update(hint=hint_for(room["prompt"]), roundMs=PICK_S * 1000, remainingMs=left)
     if room["phase"] == "question":
         state.update(prompt=PROMPTS[room["prompt"]]["text"], promptId=room["prompt"], hint=hint_for(room["prompt"]),
-                     roundMs=room["secs"] * 1000, remainingMs=left)
+                     promptInput=input_of(room["prompt"]), roundMs=room["secs"] * 1000, remainingMs=left)
     if room["phase"] == "reveal":
         state["reveal"] = room["reveal"]
     if room["phase"] == "final":

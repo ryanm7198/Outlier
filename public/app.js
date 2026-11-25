@@ -601,7 +601,13 @@ document.addEventListener('click', e => {
   if (b) answersSheet(b.dataset.ans, b.dataset.mine);
 });
 
-function questionHTML(text) {
+function questionHTML(text, kind = {}) {
+  if (kind.input === 'darts') return `<section class="question">
+    <div class="bar"><div class="timer grow"><i id="tbar"></i></div><span class="secs" id="tsecs"></span></div>
+    <h2>${esc(text)}</h2>
+    ${dartPadHTML()}
+    <button class="link center" id="skip" type="button">Skip this one (scores 0)</button>
+  </section>`;
   return `<section class="question">
     <div class="bar"><div class="timer grow"><i id="tbar"></i></div><span class="secs" id="tsecs"></span></div>
     <h2>${esc(text)}</h2>
@@ -667,6 +673,159 @@ function wireAnswer(promptId, send) {
     input.select();
   };
   return () => lock(suggestion || input.value);
+}
+
+// ------------------------------------------------------------ darts checkouts: the dart keypad
+// "Check out 140 in 3 darts" is answered on a keypad instead of the text box. The player picks darts 1 and 2
+// (multiplier, then number); as soon as both are in, dart 3 is filled with the double that finishes, if there is one,
+// and the route is sent. Mirrors checkouts.py on the server, which has the final say.
+
+const dartVal = d => d === 'BULL' ? 50 : d === '25' ? 25 : { S: 1, D: 2, T: 3 }[d[0]] * +d.slice(1);
+const dartFinish = left => left === 50 ? 'BULL' : left >= 2 && left <= 40 && left % 2 === 0 ? 'D' + left / 2 : null;
+const dartRank = d => ({ T: 3, D: 2, S: 1 })[d[0]] || 0;
+// Darts 1 and 2 by score, highest first (a tie goes T, D, S, then 25/Bull), then the double: the server's canonical form.
+const dartRoute = (a, b, c) => [a, b].sort((x, y) => dartVal(y) - dartVal(x) || dartRank(y) - dartRank(x)).concat(c).join('-');
+function dartToken(t) {
+  t = t.toLowerCase();
+  if (/^(bull|bullseye|bulls|db|d25|50)$/.test(t)) return 'BULL';
+  if (/^(25|s25|sb|ob|outer)$/.test(t)) return '25';
+  const m = /^([sdt])(\d{1,2})$/.exec(t);
+  return m && +m[2] >= 1 && +m[2] <= 20 ? m[1].toUpperCase() + +m[2] : null;
+}
+
+function dartPadHTML() {
+  return `<div class="dpad" id="dpad">
+    <div class="dp-slots">${[1, 2, 3].map(i => `<button type="button" class="dp-slot" data-slot="${i - 1}" aria-label="Dart ${i}"><small>Dart ${i}</small><b></b></button>`).join('')}</div>
+    <p class="dp-left" id="dpLeft" aria-live="polite"></p>
+    <div class="dp-mult" role="group" aria-label="Single, double or treble">${['S', 'D', 'T'].map(m => `<button type="button" data-m="${m}" aria-label="${{ S: 'Single', D: 'Double', T: 'Treble' }[m]}">${m}</button>`).join('')}</div>
+    <div class="dp-nums">${Array.from({ length: 20 }, (_, i) => `<button type="button" data-n="${i + 1}">${i + 1}</button>`).join('')}
+      <button type="button" class="dp-25" data-seg="25">25</button><button type="button" class="dp-bull" data-seg="BULL">Bull</button></div>
+    <p class="dp-msg" id="dpMsg" role="alert"></p>
+  </div>`;
+}
+
+// Wires the keypad in #dpad. send(route) submits "T20-T16-D16"; it may return a promise. opts.canSend() says whether
+// the player may send right now (Fumble: only on their turn; a finished route waits, and flush() sends it).
+// opts.darts restores darts 1 and 2 after a redraw; opts.onChange(darts) hears every change.
+function dartPad(target, send, opts = {}) {
+  const root = $('#dpad');
+  let darts = [null, null, null], active = 0, mult = 'T', busy = false, typed = '', note = '', bad = false;
+  if (opts.darts) {   // a redraw: darts 1 and 2 come back, and a finished route is ready again
+    darts = [opts.darts[0] || null, opts.darts[1] || null, null];
+    active = darts[0] ? 1 : 0;
+    if (darts[0] && darts[1]) darts[2] = dartFinish(target - dartVal(darts[0]) - dartVal(darts[1]));
+  }
+  const msg = (text, isBad = false) => { note = text; bad = isBad; draw(); };
+  const draw = () => {
+    root.querySelectorAll('.dp-slot').forEach((el, i) => {
+      $('b', el).textContent = darts[i] ? (darts[i] === 'BULL' ? 'Bull' : darts[i]) : '–';
+      el.classList.toggle('on', i === active && !darts[2]);
+      el.classList.toggle('fin', i === 2 && !!darts[2]);
+    });
+    root.querySelectorAll('[data-m]').forEach(el => el.setAttribute('aria-pressed', el.dataset.m === mult));
+    let left = target;
+    const steps = [target];
+    for (const d of darts) if (d) { left -= dartVal(d); steps.push(left); }
+    $('#dpLeft').textContent = steps.length > 1 ? `${steps.join(' → ')}${darts[2] ? '' : ' left'}` : `${target} left`;
+    const m = $('#dpMsg');
+    m.textContent = typed ? `Typing: ${typed}` : note;
+    m.classList.toggle('bad', bad && !typed);
+  };
+  const shake = el => { el.classList.remove('shake'); void el.offsetWidth; el.classList.add('shake'); };
+  const changed = () => opts.onChange && opts.onChange(darts.slice(0, 2));
+  const finish = () => {
+    const left = target - dartVal(darts[0]) - dartVal(darts[1]);
+    const d3 = dartFinish(left);
+    if (!d3) {
+      active = 1;   // the next tap replaces dart 2
+      sfx.play('nope');
+      shake(root.querySelector('[data-slot="1"]'));
+      msg(left < 0 ? `Bust: that's ${-left} too many` : left === 0 ? 'Dart 3 has to be the double' : `${left} left – can't finish`, true);
+      return;
+    }
+    darts[2] = d3;
+    msg('');
+    flush();
+  };
+  const flush = () => {
+    if (!darts[2] || busy) return;
+    if (opts.canSend && !opts.canSend()) return msg('Ready – it goes when it’s your turn');
+    busy = true;
+    Promise.resolve(send(dartRoute(...darts))).finally(() => { busy = false; });
+  };
+  const place = seg => {
+    if (busy) return;
+    if (darts[2]) { darts[2] = null; active = 1; }   // a ready route waiting for a turn can still be changed
+    darts[active] = seg;
+    note = ''; bad = false;
+    changed();
+    if (darts[0] && darts[1]) return finish();
+    active = darts[0] ? 1 : 0;
+    draw();
+  };
+  root.onclick = e => {
+    const b = e.target.closest('button');
+    if (!b || busy) return;
+    if (b.dataset.m) { mult = b.dataset.m; return draw(); }
+    if (b.dataset.n) return place(mult + b.dataset.n);
+    if (b.dataset.seg) return place(b.dataset.seg);   // 25 and Bull ignore the multiplier
+    if (b.dataset.slot) {   // tapping a dart takes it back
+      const i = +b.dataset.slot;
+      if (i === 2) { if (darts[2]) { darts[2] = null; active = 1; } }
+      else { darts[i] = null; darts[2] = null; active = i; changed(); }
+      note = ''; bad = false;
+      draw();
+    }
+  };
+  // Keyboard: "t20 t16" then Enter (s/d/t before each number; 25 and bull on their own). Bare numbers don't count.
+  const onKey = e => {
+    if (!root.isConnected) return document.removeEventListener('keydown', onKey);
+    if (e.ctrlKey || e.metaKey || e.altKey || (e.target.closest && e.target.closest('input, textarea, select'))) return;
+    if (e.key === 'Enter') {
+      if (!typed.trim()) return;
+      e.preventDefault();
+      const toks = typed.trim().split(/[\s,\-+/]+/).filter(Boolean);
+      typed = '';
+      const segs = toks.map(dartToken);
+      if (toks.length < 2 || toks.length > 3) return msg('Type darts 1 and 2, like t20 t16', true);
+      if (segs.includes(null)) return msg(toks.some(t => /^\d+$/.test(t)) ? 'Put s, d or t before each number (t20, d16, s5)' : 'Not a dart: use s, d or t and 1–20, or 25 or bull', true);
+      const d3 = dartFinish(target - dartVal(segs[0]) - dartVal(segs[1]));
+      if (segs[2] && segs[2] !== d3) return msg(d3 ? `That doesn't finish: dart 3 would be ${d3 === 'BULL' ? 'the Bull' : d3}` : 'Dart 3 has to finish on a double', true);
+      darts = [segs[0], segs[1], null];
+      note = ''; bad = false;
+      changed();
+      return finish();
+    }
+    if (e.key === 'Escape') { typed = ''; return draw(); }
+    if (e.key === 'Backspace') { if (typed) { e.preventDefault(); typed = typed.slice(0, -1); draw(); } return; }
+    if (e.key.length === 1 && /[a-z0-9 ,\-+/]/i.test(e.key) && (typed || e.key !== ' ')) {
+      e.preventDefault();
+      typed = (typed + e.key).slice(0, 24);
+      draw();
+    }
+  };
+  document.addEventListener('keydown', onKey);
+  draw();
+  return {
+    reset() { darts = [null, null, null]; active = 0; typed = ''; note = ''; bad = false; changed(); draw(); },
+    fail(text) { darts = [null, null, null]; active = 0; changed(); sfx.play('nope'); shake(root); msg(text, true); },
+    flush,
+  };
+}
+
+// The solo and party question screen's version of wireAnswer for a darts prompt. Returns the timeout handler.
+function wireDarts(prompt, send) {
+  let sent = false;
+  const lock = text => {
+    if (sent) return;
+    sent = true;
+    sfx.play(text ? 'lock' : 'whoosh');
+    return Promise.resolve(send(text)).catch(e => { toast(e.message); sent = false; pad.reset(); });
+  };
+  const pad = dartPad(prompt.target, lock);
+  const skip = $('#skip');
+  if (skip) skip.onclick = () => lock('');
+  return () => lock('');
 }
 
 // ------------------------------------------------------------ category picker
@@ -1305,14 +1464,17 @@ async function startDaily(cat = dailyCat(pick)) {
 const sum = results => results.reduce((n, r) => n + r.points, 0);
 
 function ask(prompt, roundMs, header, onResult) {
-  show(header + questionHTML(prompt.text));
-  const onTimeout = wireAnswer(prompt.id, async text => {
+  show(header + questionHTML(prompt.text, prompt));
+  const submit = async text => {
     stopTimer();
     onResult(await api('/api/answer', { promptId: prompt.id, answer: text, cid: playerId() }));
-  });
+  };
+  const darts = prompt.input === 'darts';
+  const onTimeout = darts ? wireDarts(prompt, submit) : wireAnswer(prompt.id, submit);
+  const ms = prompt.roundMs || roundMs;   // some question types have their own time (INPUT_SECS in server.py)
   sfx.play('stingSoft');
-  runTimer(roundMs, roundMs, () => { sfx.play('buzzer'); onTimeout(); });
-  $('#input').focus();
+  runTimer(ms, ms, () => { sfx.play('buzzer'); onTimeout(); });
+  if (!darts) $('#input').focus();
 }
 
 function dailyQuestion(run) {
@@ -2436,6 +2598,7 @@ function potatoBreakHTML(s) {
 function partyPotato(s) {
   if (s.boom && s.boom.turn === s.turnId && s.breakMs > 0) { sfx.play('boom', !!s.boom.out); return potatoBreak(s); }
   const me = s.players.find(p => p.n === s.you) || {};
+  const kind = s.promptInput || {}, darts = kind.input === 'darts';
   const boom = s.boom && s.boom.turn === s.turnId && !s.boom.end
     ? `<div class="pt-boom">${ic('flame')}<span><b>${esc(s.boom.name)}</b> ${s.boom.out ? 'ran out of time and is <b>out</b>!' : 'ran out of time and lost a life'}</span></div>` : '';
   show(`${partyBar(s, `Fumble · Prompt ${s.round}`)}
@@ -2446,7 +2609,7 @@ function partyPotato(s) {
     <div class="pt-turn" id="ptTurn">
       <div class="bar"><div class="timer grow"><i id="tbar"></i></div><span class="secs" id="tsecs"></span></div>
       <div id="ptWho"></div>
-      ${me.out ? '' : `<form id="ptForm" class="stack" autocomplete="off">
+      ${me.out ? '' : darts ? dartPadHTML() : `<form id="ptForm" class="stack" autocomplete="off">
           <input type="text" id="input" maxlength="60" placeholder="Type your answer ready" enterkeyhint="send" autocapitalize="off" autocorrect="off" spellcheck="false">
           <p id="miss" class="miss" role="alert" hidden></p>
           <button class="btn primary" id="ptGo">Pass it on</button></form>`}
@@ -2455,10 +2618,23 @@ function partyPotato(s) {
     <section class="card"><h3>Said so far <small id="ptSaid"></small></h3><div id="ptLog"></div></section>`);
   party.ptTurn = null;
   party.seatKey = null;
+  party.pad = null;
+  if (party.draftRound !== s.round) { party.draft = ''; party.dartDraft = null; party.draftRound = s.round; }   // a new prompt starts blank
+  if (darts && !me.out) {
+    // The darts keypad: a route can be built ready before the turn comes round, and goes as soon as it does.
+    // A route already said shakes, clears and lets them try again; the clock keeps running, as for typed answers.
+    party.pad = dartPad(kind.target, async answer => {
+      try {
+        const r = await api('/api/room/potato', { code: party.code, pid: party.pid, answer });
+        if (r.miss) party.pad && party.pad.fail(r.miss);
+        else if (party.pad) { party.dartDraft = null; party.pad.reset(); }
+        if (party) renderParty(r);
+      } catch (err) { toast(err.message); }
+    }, { canSend: () => !!party.ptMine, darts: party.dartDraft, onChange: d => { party.dartDraft = d; } });
+  }
   const form = $('#ptForm');
   if (form) {
     const input = $('#input'), miss = $('#miss');
-    if (party.draftRound !== s.round) { party.draft = ''; party.draftRound = s.round; }   // a new prompt starts blank
     input.value = party.draft || '';   // what they typed ready survives screen refreshes
     input.oninput = () => { miss.hidden = true; party.draft = input.value; };
     let busy = false;
@@ -2544,8 +2720,9 @@ function updatePotato(s) {
       if (!party || party.ptTurn !== turn || !$('#ptTurn')) return;
       if (go) go.disabled = !mine;
       runTimer(s.remainingMs, s.roundMs, () => {}, mine);
+      if (mine && party.pad) party.pad.flush();
     }, startIn);
-  } else run();
+  } else { run(); if (mine && party.pad) party.pad.flush(); }
   if (!mine) return;
   buzz(30);
   sfx.play('sting');
@@ -2639,11 +2816,13 @@ function partyQuestion(s, host, answered) {
       <div class="card center"><p class="muted">Locked in</p><h2>${esc(s.yourAnswer) || 'No answer'}</h2></div>`);
     return runTimer(s.remainingMs, s.roundMs, () => {});
   }
-  show(partyBar(s, mid) + tickerHTML(s) + `<p class="hint">${esc(s.hint)}${s.doubling ? ' · <b>Doubling ×2</b>' : ''}</p>` + questionHTML(s.prompt));
-  const onTimeout = wireAnswer(s.promptId, text => partyPost('/api/room/answer', { answer: text }));
+  const kind = s.promptInput || {};
+  show(partyBar(s, mid) + tickerHTML(s) + `<p class="hint">${esc(s.hint)}${s.doubling ? ' · <b>Doubling ×2</b>' : ''}</p>` + questionHTML(s.prompt, kind));
+  const post = text => partyPost('/api/room/answer', { answer: text });
+  const onTimeout = kind.input === 'darts' ? wireDarts(kind, post) : wireAnswer(s.promptId, post);
   if (s.remainingMs > s.roundMs - 3000) sfx.play('stingSoft');   // not when coming back to a question already under way
   runTimer(s.remainingMs, s.roundMs, () => { sfx.play('buzzer'); onTimeout(); });
-  $('#input').focus();
+  if (kind.input !== 'darts') $('#input').focus();
 }
 
 const lanes = s => [...s.players].sort((a, b) => b.score - a.score);
