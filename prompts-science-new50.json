@@ -13,11 +13,17 @@
      "Honeybee",
      "Honey bee",
      "Bumblebee",
-     "Bumble bee"
+     "Bumble bee",
+     "Killer bee",
+     "Africanised bee"
     ],
     [
      "Ant",
-     "Ants"
+     "Ants",
+     "Red ant",
+     "Black ant",
+     "Flying ant",
+     "Wood ant"
     ],
     "Butterfly",
     [
@@ -29,7 +35,9 @@
     "Wasp",
     [
      "Ladybird",
-     "Ladybug"
+     "Ladybug",
+     "Harlequin ladybird",
+     "Seven-spot ladybird"
     ],
     [
      "Mosquito",
@@ -39,18 +47,24 @@
     "Grasshopper",
     "Moth",
     "Dragonfly",
-    "Cricket",
+    [
+     "Cricket",
+     "Field cricket",
+     "House cricket"
+    ],
     [
      "Cockroach",
-     "Roach"
+     "Roach",
+     "German cockroach",
+     "American cockroach"
     ],
-    "Flea",
+    [
+     "Flea",
+     "Cat flea",
+     "Dog flea"
+    ],
     "Caterpillar",
     "Earwig",
-    [
-     "Ant lion",
-     "Antlion"
-    ],
     [
      "Stick insect",
      "Stick-insect",
@@ -60,23 +74,29 @@
      "Praying mantis",
      "Mantis"
     ],
-    "Termite",
     "Hornet",
-    "Locust",
+    "Termite",
     [
-     "Louse",
-     "Lice",
-     "Head lice"
+     "Locust",
+     "Desert locust"
     ],
     "Gnat",
     [
-     "Midge",
-     "Midges"
+     "Louse",
+     "Lice",
+     "Head lice",
+     "Body louse"
     ],
     [
      "Daddy longlegs",
      "Crane fly",
-     "Daddy long legs"
+     "Daddy long legs",
+     "Leatherjacket"
+    ],
+    [
+     "Midge",
+     "Midges",
+     "Bloodworm"
     ],
     [
      "Firefly",
@@ -84,28 +104,27 @@
      "Glow worm",
      "Lightning bug"
     ],
-    "Damselfly",
-    "Mayfly",
     [
      "Aphid",
      "Greenfly",
-     "Blackfly"
+     "Blackfly",
+     "Woolly aphid"
     ],
-    "Silverfish",
-    "Weevil",
-    "Stag beetle",
-    "Dung beetle",
-    "Woodworm",
     [
-     "Scarab",
-     "Scarab beetle"
+     "Maggot",
+     "Maggots"
     ],
-    "Cicada",
+    "Stag beetle",
+    "Damselfly",
+    "Mayfly",
+    "Silverfish",
     [
      "Horsefly",
      "Horse fly",
      "Cleg"
     ],
+    "Cicada",
+    "Dung beetle",
     [
      "Bedbug",
      "Bed bug"
@@ -115,33 +134,91 @@
      "Hoverfly",
      "Hover fly"
     ],
-    "Leafhopper",
+    "Weevil",
+    "Woodworm",
+    "Red admiral",
+    "Peacock butterfly",
     [
-     "Froghopper",
-     "Spittlebug",
-     "Cuckoo spit"
+     "Cabbage white",
+     "Large white",
+     "Small white",
+     "Cabbage butterfly"
     ],
-    "Lacewing",
     [
-     "Caddisfly",
-     "Caddis fly"
+     "Monarch butterfly",
+     "Monarch"
     ],
-    "Stonefly",
-    "Scorpionfly",
-    "Water boatman",
-    "Pond skater",
+    "Painted lady",
     [
-     "Shieldbug",
-     "Stink bug",
-     "Shield bug"
+     "Swallowtail",
+     "Swallowtail butterfly"
     ],
-    "Assassin bug",
-    "Mealybug",
-    "Whitefly",
     [
-     "Thrips",
-     "Thunderfly",
-     "Thunderbug"
+     "Brimstone",
+     "Brimstone butterfly"
+    ],
+    [
+     "Tortoiseshell",
+     "Small tortoiseshell",
+     "Tortoiseshell butterfly"
+    ],
+    "Clothes moth",
+    [
+     "Tiger moth",
+     "Garden tiger",
+     "Woolly bear"
+    ],
+    "Fire ant",
+    "Army ant",
+    "Bullet ant",
+    [
+     "Leafcutter ant",
+     "Leaf-cutter ant"
+    ],
+    "Carpenter ant",
+    [
+     "Asian hornet",
+     "Yellow-legged hornet"
+    ],
+    [
+     "Asian giant hornet",
+     "Murder hornet",
+     "Giant hornet"
+    ],
+    [
+     "Yellowjacket",
+     "Yellow jacket"
+    ],
+    "Carpenter bee",
+    "Mason bee",
+    [
+     "Leafcutter bee",
+     "Leaf-cutter bee"
+    ],
+    [
+     "Scarab",
+     "Scarab beetle"
+    ],
+    [
+     "Rhinoceros beetle",
+     "Rhino beetle"
+    ],
+    "Hercules beetle",
+    "Goliath beetle",
+    "Atlas moth",
+    "Luna moth",
+    "Emperor moth",
+    "Peppered moth",
+    "Hummingbird hawkmoth",
+    "Elephant hawkmoth",
+    [
+     "Death's-head hawkmoth",
+     "Hawkmoth",
+     "Hawk moth"
+    ],
+    [
+     "Silkworm",
+     "Silk moth"
     ],
     [
      "Cockchafer",
@@ -149,12 +226,140 @@
      "May bug",
      "Doodlebug"
     ],
-    "Weta",
     [
-     "Katydid",
-     "Bush cricket"
+     "June bug",
+     "June beetle"
     ],
-    "Mole cricket",
+    [
+     "Leaf insect",
+     "Walking leaf"
+    ],
+    [
+     "Water boatman",
+     "Lesser water boatman"
+    ],
+    [
+     "Pond skater",
+     "Water strider"
+    ],
+    [
+     "Backswimmer",
+     "Greater water boatman"
+    ],
+    [
+     "Shieldbug",
+     "Stink bug",
+     "Shield bug"
+    ],
+    "Assassin bug",
+    [
+     "Kissing bug",
+     "Triatomine"
+    ],
+    [
+     "Diving beetle",
+     "Great diving beetle",
+     "Water beetle"
+    ],
+    "Whirligig beetle",
+    [
+     "Longhorn beetle",
+     "Asian longhorn beetle"
+    ],
+    "Tiger beetle",
+    "Ground beetle",
+    "Bombardier beetle",
+    [
+     "Click beetle",
+     "Wireworm"
+    ],
+    [
+     "Burying beetle",
+     "Sexton beetle"
+    ],
+    "Carpet beetle",
+    "Deathwatch beetle",
+    "Soldier beetle",
+    "Oil beetle",
+    [
+     "Blister beetle",
+     "Spanish fly"
+    ],
+    "Jewel beetle",
+    [
+     "Darkling beetle",
+     "Mealworm",
+     "Mealworm beetle"
+    ],
+    "Leaf beetle",
+    "Flea beetle",
+    "Colorado beetle",
+    "Japanese beetle",
+    "Bloody-nosed beetle",
+    "Christmas beetle",
+    [
+     "Rove beetle",
+     "Devil's coach horse"
+    ],
+    "Bark beetle",
+    "Boll weevil",
+    "Vine weevil",
+    "Grain weevil",
+    "Lacewing",
+    [
+     "Ant lion",
+     "Antlion"
+    ],
+    "Leafhopper",
+    [
+     "Froghopper",
+     "Spittlebug",
+     "Cuckoo spit"
+    ],
+    "Planthopper",
+    "Treehopper",
+    [
+     "Lanternfly",
+     "Spotted lanternfly"
+    ],
+    "Scale insect",
+    "Mealybug",
+    "Whitefly",
+    "Cochineal",
+    [
+     "Thrips",
+     "Thunderfly",
+     "Thunderbug"
+    ],
+    "Greenbottle",
+    "Blowfly",
+    "Sandfly",
+    [
+     "Black soldier fly",
+     "Soldier fly"
+    ],
+    "Robber fly",
+    "Bee fly",
+    "Flesh fly",
+    "Cluster fly",
+    [
+     "Dung fly",
+     "Yellow dung fly"
+    ],
+    "Stable fly",
+    "Deer fly",
+    [
+     "Scuttle fly",
+     "Phorid fly"
+    ],
+    "Tachinid fly",
+    "Snipe fly",
+    "Fungus gnat",
+    "Warble fly",
+    [
+     "Screwworm fly",
+     "Screwworm"
+    ],
     [
      "Tsetse fly",
      "Tsetse"
@@ -165,43 +370,192 @@
     ],
     "Sawfly",
     [
+     "Horntail",
+     "Wood wasp"
+    ],
+    [
      "Ichneumon",
      "Ichneumon wasp"
     ],
     "Gall wasp",
-    "Bark beetle",
-    "Click beetle",
+    "Paper wasp",
+    "Potter wasp",
+    "Mud dauber",
+    "Digger wasp",
+    "Spider wasp",
+    "Tarantula hawk",
     [
-     "Rove beetle",
-     "Devil's coach horse"
-    ],
-    "Longhorn beetle",
-    [
-     "Diving beetle",
-     "Great diving beetle"
-    ],
-    "Colorado beetle",
-    [
-     "Death's-head hawkmoth",
-     "Hawkmoth",
-     "Hawk moth"
+     "Jewel wasp",
+     "Emerald cockroach wasp"
     ],
     [
-     "Silkworm",
-     "Silk moth"
+     "Cuckoo wasp",
+     "Ruby-tailed wasp"
     ],
-    "Firebrat",
-    "Bristletail",
+    "Velvet ant",
+    "Fig wasp",
+    "Fairyfly",
+    "Mining bee",
+    "Sweat bee",
+    "Cuckoo bee",
+    "Orchid bee",
+    "Stingless bee",
+    [
+     "Madagascar hissing cockroach",
+     "Hissing cockroach"
+    ],
+    "Mole cricket",
+    [
+     "Katydid",
+     "Bush cricket"
+    ],
+    [
+     "Camel cricket",
+     "Cave cricket"
+    ],
+    "Jerusalem cricket",
+    "Weta",
+    [
+     "Groundhopper",
+     "Pygmy grasshopper"
+    ],
+    "Purple emperor",
+    "Orange tip",
+    "Holly blue",
+    "Common blue",
+    "Large blue",
+    "Speckled wood",
+    "Meadow brown",
+    "Gatekeeper",
+    "Ringlet",
+    "Marbled white",
+    "Comma butterfly",
+    "Fritillary",
+    [
+     "Skipper",
+     "Skipper butterfly"
+    ],
+    "Hairstreak",
+    "Small copper",
+    "Clouded yellow",
+    [
+     "Camberwell beauty",
+     "Mourning cloak"
+    ],
+    "White admiral",
+    [
+     "Blue morpho",
+     "Morpho"
+    ],
+    "Birdwing",
+    [
+     "Glasswing butterfly",
+     "Glasswing"
+    ],
+    "Cinnabar moth",
+    [
+     "Burnet moth",
+     "Six-spot burnet"
+    ],
+    [
+     "Gypsy moth",
+     "Spongy moth"
+    ],
+    "Codling moth",
+    "Puss moth",
+    "Ermine moth",
+    [
+     "Processionary moth",
+     "Oak processionary moth"
+    ],
+    "Brown-tail moth",
+    "Magpie moth",
+    "Silver Y",
+    "Swift moth",
+    "Plume moth",
+    "Bogong moth",
+    "Leopard moth",
+    "Goat moth",
+    [
+     "Wax moth",
+     "Waxworm"
+    ],
+    [
+     "Underwing",
+     "Large yellow underwing",
+     "Red underwing"
+    ],
+    [
+     "Geometer moth",
+     "Inchworm",
+     "Looper"
+    ],
+    "Bagworm",
+    "Emperor dragonfly",
+    "Squash bug",
+    [
+     "Firebug",
+     "Fire bug"
+    ],
+    "Milkweed bug",
+    "Boxelder bug",
+    "Chinch bug",
+    [
+     "Capsid bug",
+     "Plant bug",
+     "Mirid"
+    ],
+    "Lace bug",
+    "Water scorpion",
+    [
+     "Giant water bug",
+     "Toe-biter"
+    ],
+    [
+     "Psyllid",
+     "Jumping plant louse"
+    ],
     [
      "Booklouse",
      "Book louse",
      "Barklouse"
     ],
-    "Webspinner",
+    [
+     "Pubic louse",
+     "Crab louse"
+    ],
+    [
+     "Chigoe flea",
+     "Jigger"
+    ],
+    [
+     "Caddisfly",
+     "Caddis fly"
+    ],
+    "Stonefly",
+    "Scorpionfly",
+    "Hangingfly",
+    "Owlfly",
     "Snakefly",
     "Alderfly",
     "Dobsonfly",
     "Mantisfly",
+    "Firebrat",
+    "Bristletail",
+    "Webspinner",
+    [
+     "Ice crawler",
+     "Rock crawler",
+     "Grylloblattid"
+    ],
+    [
+     "Heelwalker",
+     "Gladiator insect"
+    ],
+    [
+     "Twisted-wing parasite",
+     "Strepsipteran"
+    ],
     [
      "Zorapteran",
      "Angel insect"
@@ -227,14 +581,21 @@
      "Tokay",
      "Day gecko",
      "Leaf-tailed gecko",
-     "Knob-tailed gecko"
+     "Knob-tailed gecko",
+     "Gargoyle gecko",
+     "Fat-tailed gecko",
+     "House gecko",
+     "Flying gecko",
+     "Mourning gecko",
+     "Leachie"
     ],
     [
      "Chameleon",
      "Chamaeleon",
      "Panther chameleon",
      "Veiled chameleon",
-     "Jackson's chameleon"
+     "Jackson's chameleon",
+     "Pygmy chameleon"
     ],
     [
      "Iguana",
@@ -246,19 +607,24 @@
     ],
     [
      "Monitor lizard",
-     "Monitor"
+     "Monitor",
+     "Green tree monitor"
     ],
     [
      "Frilled lizard",
      "Frill-necked lizard",
      "Frilled dragon"
     ],
-    "Gila monster",
     [
      "Skink",
      "Blue-tongued skink",
-     "Blue tongue"
+     "Blue tongue",
+     "Five-lined skink",
+     "Prehensile-tailed skink",
+     "Monkey-tailed skink",
+     "Blue-tailed skink"
     ],
+    "Gila monster",
     [
      "Slow worm",
      "Slowworm",
@@ -271,11 +637,15 @@
     [
      "Basilisk",
      "Jesus Christ lizard",
-     "Basilisk lizard"
+     "Basilisk lizard",
+     "Plumed basilisk"
     ],
     [
      "Anole",
-     "Green anole"
+     "Green anole",
+     "Brown anole",
+     "Knight anole",
+     "Carolina anole"
     ],
     [
      "Common lizard",
@@ -292,21 +662,34 @@
      "Lace monitor",
      "Perentie"
     ],
-    "Nile monitor",
-    "Savannah monitor",
-    [
-     "Tegu",
-     "Argentine tegu"
-    ],
     [
      "Horned lizard",
      "Horny toad",
-     "Horned toad"
+     "Horned toad",
+     "Texas horned lizard"
     ],
     "Marine iguana",
+    "Nile monitor",
+    [
+     "Water monitor",
+     "Asian water monitor"
+    ],
+    "Savannah monitor",
+    "Crocodile monitor",
+    [
+     "Tegu",
+     "Argentine tegu",
+     "Black and white tegu",
+     "Red tegu"
+    ],
     [
      "Wall lizard",
      "Common wall lizard"
+    ],
+    [
+     "Flying dragon",
+     "Draco",
+     "Flying lizard"
     ],
     [
      "Glass lizard",
@@ -319,17 +702,28 @@
      "Dabb lizard"
     ],
     [
-     "Flying dragon",
-     "Draco",
-     "Flying lizard"
+     "Shingleback",
+     "Sleepy lizard",
+     "Stumpy-tailed lizard",
+     "Bobtail"
     ],
-    "Collared lizard",
-    "Fence lizard",
-    "Whiptail",
     "Chuckwalla",
     [
      "Mexican beaded lizard",
      "Beaded lizard"
+    ],
+    [
+     "Galapagos land iguana",
+     "Land iguana"
+    ],
+    [
+     "Blue iguana",
+     "Grand Cayman blue iguana"
+    ],
+    [
+     "Spiny-tailed iguana",
+     "Ctenosaur",
+     "Black spiny-tailed iguana"
     ],
     "Rhinoceros iguana",
     "Rock iguana",
@@ -337,36 +731,92 @@
     "Fijian iguana",
     "Desert iguana",
     [
-     "Shingleback",
-     "Sleepy lizard",
-     "Stumpy-tailed lizard",
-     "Bobtail"
-    ],
-    [
-     "Armadillo lizard",
-     "Armadillo girdled lizard"
-    ],
-    "Girdled lizard",
-    "Plated lizard",
-    "Alligator lizard",
-    "Night lizard",
-    "Racerunner",
-    [
-     "Agama",
-     "Rainbow agama"
+     "Green lizard",
+     "European green lizard",
+     "Western green lizard"
     ],
     [
      "Ocellated lizard",
      "Jewelled lizard"
     ],
     [
-     "Green lizard",
-     "European green lizard",
-     "Western green lizard"
+     "Ackie monitor",
+     "Ridge-tailed monitor"
     ],
+    "Black-throated monitor",
+    "Mangrove monitor",
+    "Collared lizard",
+    [
+     "Fence lizard",
+     "Western fence lizard",
+     "Eastern fence lizard"
+    ],
+    "Whiptail",
+    "Racerunner",
+    "Alligator lizard",
+    [
+     "Armadillo lizard",
+     "Armadillo girdled lizard"
+    ],
+    [
+     "Sungazer",
+     "Giant girdled lizard"
+    ],
+    "Girdled lizard",
+    "Plated lizard",
+    [
+     "Agama",
+     "Rainbow agama"
+    ],
+    [
+     "Butterfly lizard",
+     "Butterfly agama"
+    ],
+    "Toad-headed agama",
+    [
+     "Sailfin lizard",
+     "Sailfin dragon"
+    ],
+    [
+     "Spiny lizard",
+     "Desert spiny lizard"
+    ],
+    "Side-blotched lizard",
+    "Leopard lizard",
+    "Zebra-tailed lizard",
+    "Earless lizard",
+    "Fringe-toed lizard",
+    "Curly-tailed lizard",
+    [
+     "Casquehead lizard",
+     "Helmeted iguana"
+    ],
+    [
+     "Sandfish",
+     "Sandfish skink"
+    ],
+    [
+     "Flap-footed lizard",
+     "Pygopod",
+     "Burton's legless lizard"
+    ],
+    [
+     "Long-tailed grass lizard",
+     "Grass lizard"
+    ],
+    "Spiny-footed lizard",
+    [
+     "Ameiva",
+     "Jungle runner"
+    ],
+    "Night lizard",
     "Caiman lizard",
     "Crocodile skink",
     "Fire skink",
+    [
+     "Knob-scaled lizard",
+     "Xenosaur"
+    ],
     "Earless monitor",
     "Lava lizard",
     "Galliwasp"
@@ -380,7 +830,12 @@
    "text": "Name a crustacean (like a crab or a woodlouse)",
    "answers": [
     "Crab",
-    "Lobster",
+    [
+     "Lobster",
+     "European lobster",
+     "American lobster",
+     "Maine lobster"
+    ],
     [
      "Prawn",
      "Prawns",
@@ -395,7 +850,9 @@
      "Crayfish",
      "Crawfish",
      "Crawdad",
-     "Signal crayfish"
+     "Signal crayfish",
+     "Crawdaddy",
+     "Mudbug"
     ],
     [
      "Woodlouse",
@@ -453,7 +910,12 @@
     ],
     [
      "Mitten crab",
-     "Chinese mitten crab"
+     "Chinese mitten crab",
+     "Hairy crab"
+    ],
+    [
+     "Brown shrimp",
+     "Common shrimp"
     ],
     "Squat lobster",
     [
@@ -461,46 +923,118 @@
      "Moreton Bay bug",
      "Balmain bug"
     ],
-    "Yabby",
-    "Marron",
-    [
-     "Water flea",
-     "Daphnia"
-    ],
-    "Copepod",
-    [
-     "Brine shrimp",
-     "Sea monkeys",
-     "Sea-Monkeys"
-    ],
     [
      "Sand hopper",
      "Sandhopper",
      "Beach flea",
      "Sand flea"
     ],
-    "Amphipod",
+    [
+     "Water flea",
+     "Daphnia"
+    ],
+    [
+     "Brine shrimp",
+     "Sea monkeys",
+     "Sea-Monkeys"
+    ],
+    [
+     "Copepod",
+     "Cyclops"
+    ],
     [
      "Isopod",
      "Giant isopod"
+    ],
+    "Amphipod",
+    [
+     "Pistol shrimp",
+     "Snapping shrimp"
+    ],
+    "Cleaner shrimp",
+    [
+     "Cherry shrimp",
+     "Red cherry shrimp"
+    ],
+    "Amano shrimp",
+    "Harlequin shrimp",
+    "Peppermint shrimp",
+    [
+     "Coral banded shrimp",
+     "Banded coral shrimp",
+     "Boxer shrimp"
+    ],
+    [
+     "Ghost shrimp",
+     "Mud shrimp"
+    ],
+    "White-clawed crayfish",
+    [
+     "Red swamp crayfish",
+     "Louisiana crayfish"
+    ],
+    [
+     "Redclaw crayfish",
+     "Redclaw"
+    ],
+    "Yabby",
+    "Marron",
+    "Sea slater",
+    [
+     "Water louse",
+     "Hog slater"
+    ],
+    [
+     "Freshwater shrimp",
+     "Gammarus"
+    ],
+    [
+     "Salmon louse",
+     "Sea louse"
+    ],
+    "Whale louse",
+    "Ghost crab",
+    "Mud crab",
+    "Stone crab",
+    "Swimming crab",
+    [
+     "Blue swimmer crab",
+     "Flower crab"
+    ],
+    "Masked crab",
+    "Decorator crab",
+    "Sally Lightfoot crab",
+    [
+     "Boxer crab",
+     "Pom-pom crab"
+    ],
+    "Arrow crab",
+    "Soldier crab",
+    "Land crab",
+    "Vampire crab",
+    "Jonah crab",
+    "Yeti crab",
+    [
+     "Tasmanian giant crab",
+     "Giant crab"
+    ],
+    "Spanner crab",
+    "Pea crab",
+    "Porcelain crab",
+    "Box crab",
+    "Sponge crab",
+    "Mole crab",
+    [
+     "Goose barnacle",
+     "Gooseneck barnacle",
+     "Percebes"
     ],
     "Fairy shrimp",
     [
      "Tadpole shrimp",
      "Triops"
     ],
-    [
-     "Goose barnacle",
-     "Gooseneck barnacle",
-     "Percebes"
-    ],
-    "Pea crab",
-    "Porcelain crab",
-    "Ghost crab",
-    "Mud crab",
-    "Stone crab",
-    "Box crab",
-    "Sponge crab",
+    "Clam shrimp",
     [
      "Ostracod",
      "Seed shrimp"
@@ -516,15 +1050,15 @@
     "Gribble",
     "Skeleton shrimp",
     [
-     "Pistol shrimp",
-     "Snapping shrimp"
-    ],
-    "Cleaner shrimp",
-    [
      "Opossum shrimp",
      "Mysid"
     ],
-    "Mole crab",
+    [
+     "Hooded shrimp",
+     "Cumacean"
+    ],
+    "Tanaid",
+    "Sacculina",
     "Remipede",
     "Cephalocarid"
    ]
