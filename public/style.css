@@ -858,14 +858,14 @@ form.shake { animation: shake .35s; }
 .pod-floor .av { width: 46px; height: 46px; background: none; }
 .av.mood-cheer, .av.mood-cry { overflow: visible; }
 .av.mood-cheer svg { animation: pdcheer .6s ease-in-out infinite alternate; transform-origin: 50% 100%; }
-.av.mood-cheer .arm { transform-box: fill-box; animation: pdwave .3s ease-in-out infinite alternate; }
-.av.mood-cheer .arm.l { transform-origin: 100% 100%; }
-.av.mood-cheer .arm.r { transform-origin: 0% 100%; animation-delay: .15s; }
+.av.mood-cheer .arm { transform-box: view-box; animation: pdcheerarm .5s ease-in-out infinite alternate; }
+.av.mood-cheer .arm.r { animation-delay: .25s; animation-direction: alternate-reverse; }
 .av.mood-cry svg { animation: pdsob 1.1s ease-in-out infinite; transform-origin: 50% 100%; }
 .av.mood-cry .tear { animation: pdtear 1.2s ease-in infinite; }
 .av.mood-cry .tear.t2 { animation-delay: .6s; }
 @keyframes pdcheer { from { transform: translateY(0); } to { transform: translateY(-7px); } }
-@keyframes pdwave { from { transform: rotate(-14deg); } to { transform: rotate(14deg); } }
+@keyframes pdwave { from { transform: rotate(-12deg); } to { transform: rotate(12deg); } }
+@keyframes pdcheerarm { from { transform: rotate(-9deg); } to { transform: rotate(9deg); } }
 @keyframes pdsob { 0%, 100% { transform: translateX(0) rotate(0); } 20% { transform: translateX(-1.2px) rotate(-3deg); } 40% { transform: translateY(1px); } 60% { transform: translateX(1.2px) rotate(3deg); } }
 @keyframes pdtear { 0% { transform: translateY(-2px); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(11px); opacity: 0; } }
 /* the first time the podium appears: the steps rise in 3-2-1, the players drop on, confetti falls on the winner */
@@ -1321,26 +1321,27 @@ html.calm .tv-crowd li.pop, html.calm .tv-ticks li.pop, html.calm .tv-cur .av { 
 /* ---- podium emotes (one per category, earned by playing it) */
 .av.mood-emote { overflow: visible; }
 .av.mood-emote svg { overflow: visible; animation: pdcheer .6s ease-in-out infinite alternate; transform-origin: 50% 100%; }
-.av.mood-emote .arm { transform-box: fill-box; }
+.av.mood-emote .arm { transform-box: view-box; }
+.av.mood-emote .bottle, .av.mood-emote .cue, .av.mood-emote .batarm { transform-box: view-box; }
 .emo-sport svg { animation: emolift .42s ease-in-out infinite alternate; }
 .emo-music svg { animation: emobang .38s ease-in-out infinite alternate; transform-origin: 50% 90%; }
 .emo-music .strum { transform-origin: 0 0; animation: emostrum .19s ease-in-out infinite alternate; }
 .emo-music .note { animation: emofloat 1.4s ease-out infinite; }
 .emo-music .note.n2 { animation-delay: .7s; }
-.emo-film .wave, .emo-history .royal { transform-origin: 0% 100%; animation: pdwave .3s ease-in-out infinite alternate; }
+.emo-film .wave, .emo-history .royal { animation: pdwave .45s ease-in-out infinite alternate; }
 .emo-history .royal { animation-duration: 1s; }
 .emo-history svg, .emo-geography svg { animation: emosway 2.4s ease-in-out infinite alternate; }
 .emo-film .flash { transform-box: fill-box; transform-origin: center; opacity: 0; animation: emoflash 1.7s var(--d) infinite; }
-.emo-gaming .pump.l { transform-origin: 100% 100%; animation: pdwave .28s ease-in-out infinite alternate; }
-.emo-gaming .pump.r { transform-origin: 0% 100%; animation: pdwave .28s .14s ease-in-out infinite alternate; }
+.emo-gaming .pump.l { animation: pdwave .34s ease-in-out infinite alternate; }
+.emo-gaming .pump.r { animation: pdwave .34s .17s ease-in-out infinite alternate-reverse; }
 .emo-gaming .gg { animation: emogg .5s steps(2, jump-none) infinite alternate; }
 .emo-geography .flag { transform-box: fill-box; transform-origin: 0 50%; animation: emoflag .45s ease-in-out infinite alternate; }
 .emo-science .bulb { animation: emobulb 1s ease-in-out infinite; }
-.emo-food .kiss { transform-origin: 100% 100%; animation: emokiss 1.3s ease-in-out infinite; }
+.emo-food .kiss { animation: emokiss 1.3s ease-in-out infinite; }
 .emo-food .heart { opacity: 0; animation: emofloat 1.3s .55s ease-out infinite; }
 .emo-food .heart.h2 { animation-delay: .8s; }
-.emo-words .jazz.l { transform-origin: 100% 100%; animation: emojazz .1s linear infinite alternate; }
-.emo-words .jazz.r { transform-origin: 0% 100%; animation: emojazz .1s .05s linear infinite alternate; }
+.emo-words .jazz.l { animation: emojazz .12s ease-in-out infinite alternate; }
+.emo-words .jazz.r { animation: emojazz .12s .06s ease-in-out infinite alternate; }
 .emo-words .bubble { transform-box: fill-box; transform-origin: 20% 100%; animation: emopop 1.8s ease-out infinite; }
 .emo-misc .popper { transform-box: fill-box; transform-origin: 100% 100%; animation: emokick 1.2s ease-out infinite; }
 .emo-misc .bit { transform-box: fill-box; transform-origin: center; animation: emoburst 1.2s var(--d) ease-out infinite; }
@@ -1353,7 +1354,7 @@ html.calm .tv-crowd li.pop, html.calm .tv-ticks li.pop, html.calm .tv-cur .av { 
 @keyframes emogg { to { transform: translateY(-2px); } }
 @keyframes emoflag { from { transform: skewY(-9deg) scaleX(.86); } to { transform: skewY(7deg) scaleX(1); } }
 @keyframes emobulb { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
-@keyframes emokiss { 0%, 35% { transform: none; } 55%, 85% { transform: rotate(60deg); } 100% { transform: none; } }
+@keyframes emokiss { 0%, 35% { transform: none; } 55%, 85% { transform: rotate(-38deg); } 100% { transform: none; } }
 @keyframes emojazz { from { transform: rotate(-7deg); } to { transform: rotate(7deg); } }
 @keyframes emopop { 0% { transform: scale(0); } 12% { transform: scale(1.15); } 22%, 82% { transform: scale(1); } 100% { transform: scale(0); } }
 @keyframes emokick { 0% { transform: rotate(-12deg); } 10% { transform: rotate(6deg); } 30%, 100% { transform: none; } }
@@ -1394,3 +1395,54 @@ html.calm .emo-film .flash, html.calm .emo-food .heart { opacity: 1; }
 .ans-list .t1, .ans-tiers .t1 { --tc: var(--t1); } .ans-list .t2, .ans-tiers .t2 { --tc: var(--t2); } .ans-list .t3, .ans-tiers .t3 { --tc: var(--t3); }
 .ans-list .t4, .ans-tiers .t4 { --tc: var(--t4); } .ans-list .t5, .ans-tiers .t5 { --tc: var(--t5); }
 .ans-find { -webkit-appearance: none; appearance: none; }
+
+/* Teams (Classic party games) */
+.teams, .tag.team { --team-a: #f0883e; --team-b: #4b9cf0; }
+.tag.team.t0 { color: var(--team-a); border-color: var(--team-a); }
+.tag.team.t1 { color: var(--team-b); border-color: var(--team-b); }
+.players li.swap { cursor: pointer; }
+.teams .tm-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; text-align: center; }
+.teams .tm b { display: block; }
+.teams .tm-n { display: block; font-size: 1.9rem; font-weight: 800; line-height: 1.1; }
+.teams .tm.t0 .tm-n { color: var(--team-a); }
+.teams .tm.t1 .tm-n { color: var(--team-b); }
+.teams .tm small { display: block; color: var(--muted); font-size: .75rem; overflow-wrap: anywhere; }
+.teams .tm-bar { display: flex; height: 8px; border-radius: 99px; overflow: hidden; margin-top: 10px; background: var(--line); }
+.teams .tm-bar i { display: block; height: 100%; transition: width .6s ease; }
+.teams .tm-bar i.t0 { background: var(--team-a); }
+.teams .tm-bar i.t1 { background: var(--team-b); }
+#teamHint a { color: var(--text); font-weight: 700; }
+
+/* Sub-category podium celebrations */
+.emo-darts .pump, .emo-f1 .pump, .emo-cue .pump, .emo-cricket .pump { animation: pdwave .4s ease-in-out infinite alternate; }
+.emo-darts .throw { animation: emothrow 1.8s ease-in-out infinite; }
+.emo-darts .dart { animation: emodart 1.8s ease-in infinite; }
+.emo-darts .ton, .emo-cricket .ton { transform-box: fill-box; transform-origin: center; animation: emoton 1.8s ease-out infinite; }
+.emo-football svg { animation: emobank 1.3s ease-in-out infinite alternate; transform-origin: 50% 85%; }
+.emo-football .wing.l { animation: emoflap .65s ease-in-out infinite alternate; }
+.emo-football .wing.r { animation: emoflap .65s ease-in-out infinite alternate-reverse; }
+.emo-football .trail { animation: emotrail .65s linear infinite; }
+.emo-f1 .bottle { animation: emoshake .22s ease-in-out infinite alternate; }
+.emo-f1 .drop { transform-box: fill-box; transform-origin: center; animation: emospray 1s var(--d) ease-out infinite; }
+.emo-combat svg { animation: emobob .5s ease-in-out infinite alternate; transform-origin: 50% 100%; }
+.emo-combat .jab.l { animation: emojabl .9s ease-in-out infinite; }
+.emo-combat .jab.r { animation: emojabr .9s .45s ease-in-out infinite; }
+.emo-cue .cue { animation: emotwirl 1.2s linear infinite; }
+.emo-cricket .batarm { animation: emobat 1s ease-in-out infinite alternate; }
+.emo-cricket svg, .emo-wwe svg { animation: emolift .45s ease-in-out infinite alternate; }
+.emo-wwe .belt { transform-box: fill-box; transform-origin: center; animation: emobelt .9s ease-in-out infinite alternate; }
+.emo-wwe .arm { animation: emobelt .9s ease-in-out infinite alternate; }
+@keyframes emothrow { 0%, 100% { transform: none; } 12% { transform: rotate(28deg); } 22% { transform: rotate(-34deg); } 40% { transform: rotate(-12deg); } }
+@keyframes emodart { 0%, 20% { transform: translate(24px, 15px); opacity: 0; } 22% { opacity: 1; } 38% { transform: none; } 85% { transform: none; opacity: 1; } 100% { transform: none; opacity: 0; } }
+@keyframes emoton { 0%, 38% { transform: scale(0); } 46% { transform: scale(1.2); } 52%, 86% { transform: scale(1); } 100% { transform: scale(0); } }
+@keyframes emobank { from { transform: rotate(-11deg) translateX(-2px); } to { transform: rotate(11deg) translateX(2px); } }
+@keyframes emoflap { from { transform: rotate(-5deg); } to { transform: rotate(5deg); } }
+@keyframes emotrail { from { opacity: .7; } to { opacity: .15; } }
+@keyframes emoshake { from { transform: rotate(-7deg); } to { transform: rotate(5deg); } }
+@keyframes emospray { 0% { transform: none; opacity: 1; } 100% { transform: translate(var(--dx), var(--dy)) scale(.4); opacity: 0; } }
+@keyframes emobob { from { transform: translateY(0); } to { transform: translateY(-3px); } }
+@keyframes emojabl { 0%, 60%, 100% { transform: none; } 25% { transform: translate(3px, -3px) scale(1.15); } }
+@keyframes emojabr { 0%, 60%, 100% { transform: none; } 25% { transform: translate(-3px, -3px) scale(1.15); } }
+@keyframes emotwirl { to { transform: rotate(360deg); } }
+@keyframes emobat { from { transform: rotate(-8deg); } to { transform: rotate(8deg); } }
+@keyframes emobelt { from { transform: rotate(-4deg); } to { transform: rotate(4deg); } }

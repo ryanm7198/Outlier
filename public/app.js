@@ -157,10 +157,10 @@ const LOOK_PARTS = [
     '<ellipse cx="20" cy="24" rx="11.5" ry="14"/>',
     '<path d="M8.5 19 9.5 7l8 6zM31.5 19l-1-12-8 6z"/><circle cx="20" cy="24" r="13"/>',
     '<circle cx="10.5" cy="13.5" r="4.5"/><circle cx="29.5" cy="13.5" r="4.5"/><circle cx="20" cy="24" r="13"/>',
-    `<path d="M14.5 13 12 5.5M25.5 13 28 5.5" ${PC} stroke-width="2" stroke-linecap="round" fill="none"/><circle cx="12" cy="5" r="2.4"/><circle cx="28" cy="5" r="2.4"/><ellipse cx="20" cy="24.5" rx="14" ry="12.5"/>`,
-    `<rect x="11" y="1" width="6" height="16" rx="3"/><rect x="23" y="1" width="6" height="16" rx="3"/><rect x="12.8" y="3.5" width="2.4" height="9" rx="1.2" fill="${PINK}"/><rect x="24.8" y="3.5" width="2.4" height="9" rx="1.2" fill="${PINK}"/><circle cx="20" cy="24.5" r="12.5"/>`,
-    `<path d="M20 11.5V5.5" ${PC} stroke-width="2"/><circle cx="20" cy="4.5" r="2.3" fill="#ff6b6b"/><rect x="4.5" y="19" width="3.5" height="8" rx="1.5"/><rect x="32" y="19" width="3.5" height="8" rx="1.5"/><rect x="7" y="11" width="26" height="25.5" rx="4"/>`,
-    '<path d="M9.5 17 11.5 6l4.5 6.5L20 3.5l4 9L28.5 6l2 11z"/><circle cx="20" cy="24" r="13"/>',
+    `<g data-top><path d="M14.5 13 12 5.5M25.5 13 28 5.5" ${PC} stroke-width="2" stroke-linecap="round" fill="none"/><circle cx="12" cy="5" r="2.4"/><circle cx="28" cy="5" r="2.4"/></g><ellipse cx="20" cy="24.5" rx="14" ry="12.5"/>`,
+    `<g data-top><rect x="11" y="1" width="6" height="16" rx="3"/><rect x="23" y="1" width="6" height="16" rx="3"/><rect x="12.8" y="3.5" width="2.4" height="9" rx="1.2" fill="${PINK}"/><rect x="24.8" y="3.5" width="2.4" height="9" rx="1.2" fill="${PINK}"/></g><circle cx="20" cy="24.5" r="12.5"/>`,
+    `<g data-top><path d="M20 11.5V5.5" ${PC} stroke-width="2"/><circle cx="20" cy="4.5" r="2.3" fill="#ff6b6b"/></g><g data-side><rect x="4.5" y="19" width="3.5" height="8" rx="1.5"/><rect x="32" y="19" width="3.5" height="8" rx="1.5"/></g><rect x="7" y="11" width="26" height="25.5" rx="4"/>`,
+    '<g data-top><path d="M9.5 17 11.5 6l4.5 6.5L20 3.5l4 9L28.5 6l2 11z"/></g><circle cx="20" cy="24" r="13"/>',
     `<circle cx="9" cy="12.5" r="6.5"/><circle cx="31" cy="12.5" r="6.5"/><circle cx="9" cy="12.5" r="3.5" fill="${PINK}"/><circle cx="31" cy="12.5" r="3.5" fill="${PINK}"/><circle cx="20" cy="25" r="12.5"/>`,
     '<path d="M20 10.5c6 0 8.5 2.5 11 5.5s3.5 8 2.5 12-4.5 9-13.5 9-12.5-4-13.5-8.5 0-9 2.5-12.5 5-5.5 11-5.5z"/>'],
   // eyes
@@ -255,6 +255,12 @@ const CAT_ITEMS = [
   ['misc', 3, 3, 'Rainbow', `<g fill="none" stroke-width="2"><path d="M7 14.5a13 12 0 0 1 26 0" stroke="#ff6b6b"/><path d="M9 14.5a11 10 0 0 1 22 0" stroke="#feca57"/><path d="M11 14.5a9 8 0 0 1 18 0" stroke="#7bd88f"/><path d="M13 14.5a7 6 0 0 1 14 0" stroke="#5b8cff"/></g>${puff([[6.5, 15, 2.4], [9.4, 15.6, 2], [33.5, 15, 2.4], [30.6, 15.6, 2]], '#fff', '#dfe3ec')}`],
 ].map(([cat, tier, part, name, svg]) => ({ cat, tier, part, name, svg }));
 CAT_ITEMS.forEach(it => { it.idx = LOOK_PARTS[it.part].length; LOOK_PARTS[it.part].push(it.svg); LOOK_N[it.part] = LOOK_PARTS[it.part].length; });
+// How each hat sits, so parts fit together: 'cover' sits on the crown (tall ears, antennae and spikes tuck under it),
+// 'side' goes over the ears (the robot's bolts make way), 'band' and 'float' leave the head as it is.
+const HAT_FIT = ['float', 'cover', 'cover', 'cover', 'cover', 'side', 'float', 'float', 'cover', 'cover', 'cover', 'float', 'cover', 'cover'];
+CAT_ITEMS.forEach(it => { if (it.part === 3) HAT_FIT[it.idx] = { Sweatband: 'band', 'Laurel wreath': 'band', 'Gaming headset': 'side' }[it.name] || 'cover'; });
+// The top of each head (hats are drawn for a crown at y = 11), so a hat sits on the head rather than floating or sinking
+const HEAD_TOP = [11, 11.5, 11, 10, 11, 11, 12, 12, 11, 11, 12.5, 10.5];
 const CAT_LABEL = { sport: 'Sport', music: 'Music', film: 'Film & TV', gaming: 'Gaming', geography: 'Geography', history: 'History',
   science: 'Science & Nature', food: 'Food & Drink', words: 'Books & Words', misc: 'Pot luck' };
 const CAT_GOALS = [
@@ -262,19 +268,20 @@ const CAT_GOALS = [
   { key: 'outliers', n: 3, short: '3 Outliers', text: l => `3 Outliers in ${l}` },
   { key: 'best', n: 400, short: 'Score 400+ in a seven-prompt game', text: l => `Score 400+ in a seven-prompt ${l} game` }];
 const EMOTE_GOAL = { key: 'right', n: 25, short: '25 right answers', text: l => `25 right answers in ${l}` };
-const goalOf = it => it.emote ? EMOTE_GOAL : CAT_GOALS[it.tier - 1];
-const itemKey = it => it.cat + (it.emote ? 'e' : it.tier);
-const itemGoal = it => goalOf(it).text(CAT_LABEL[it.cat]);
+const SUB_GOAL = { key: 'right', n: 15, short: '15 right answers', text: l => `15 right answers in ${l}` };
+const goalOf = it => it.sub ? SUB_GOAL : it.emote ? EMOTE_GOAL : CAT_GOALS[it.tier - 1];
+const itemKey = it => it.sub ? 'sub:' + it.sub : it.cat + (it.emote ? 'e' : it.tier);
+const itemGoal = it => goalOf(it).text(it.sub ? SUB_LABEL[it.sub] : CAT_LABEL[it.cat]);
 // everything a category unlocks, easiest first: face item, hat, emote, top hat
 let UNLOCKABLES = [];   // filled in below, once the emotes exist
-const emoteLocked = id => { const e = EMOTES.find(x => x.id === id); return !!(e && e.cat && !store.get('outlier.unlocks', []).includes(e.cat + 'e')); };
+const emoteLocked = id => { const it = UNLOCKABLES.find(x => x.emote === id); return !!(it && !store.get('outlier.unlocks', []).includes(itemKey(it))); };
 const itemAt = (part, v) => CAT_ITEMS.find(i => i.part === part && i.idx === v);
 const itemLocked = (part, v) => { const it = itemAt(part, v); return it && !store.get('outlier.unlocks', []).includes(itemKey(it)) ? it : null; };
 // From the stats: which items are earned now. Returns the ones that are new since last time.
 function syncUnlocks(st) {
   if (!st || !st.unlocks) return [];
   const had = store.get('outlier.unlocks', []);
-  const now = UNLOCKABLES.filter(it => { const c = st.unlocks[it.cat], g = goalOf(it); return c && c[g.key] >= g.n; });
+  const now = UNLOCKABLES.filter(it => { const c = it.sub ? (st.unlocks.subs || {})[it.sub] : st.unlocks[it.cat], g = goalOf(it); return c && c[g.key] >= g.n; });
   store.set('outlier.unlocks', now.map(itemKey));
   store.set('outlier.unlockStats', st.unlocks);
   return now.filter(it => !had.includes(itemKey(it)));
@@ -295,8 +302,7 @@ function lookFor(name, look) {
 const TEAR = x => `<path d="M${x} 24.5c1.2 1.8 1.8 2.8 1.8 3.6a1.8 1.8 0 0 1-3.6 0c0-.8.6-1.8 1.8-3.6z" fill="#7fd3ff"/>`;
 const MOODS = {
   cheer: {
-    behind: `<g style="stroke:var(--pc);fill:var(--pc)" stroke-width="3.4" stroke-linecap="round"><g class="arm l"><path d="M10 30 3.5 17.5"/><circle cx="3.2" cy="16.6" r="2.4" stroke="none"/></g>`
-      + `<g class="arm r"><path d="M30 30l6.5-12.5"/><circle cx="36.8" cy="16.6" r="2.4" stroke="none"/></g></g>`,
+    behind: '',   // arms up: drawn below, once arm() exists
     eyes: inkLine('M12.5 23q2.5-3.5 5 0M22.5 23q2.5-3.5 5 0'),
     mouth: `<path d="M14 27.5h12a6 6 0 0 1-12 0z" fill="${INK}"/><path d="M17 31.8a3 2 0 0 1 6 0 5.5 5.5 0 0 1-6 0z" fill="#ff7b9c"/>`,
   },
@@ -310,9 +316,18 @@ const MOODS = {
 // ---- podium emotes: what you do on the steps when you finish first, second (or third of four or more). Everyone
 // has "Arms up"; each main category has one more, earned with 25 right answers in it.
 const ARMS = inner => `<g style="stroke:var(--pc);fill:var(--pc)" stroke-width="3.4" stroke-linecap="round">${inner}</g>`;
-const arm = (x1, y1, x2, y2, cls = '') => `<g class="arm ${cls}"><path d="M${x1} ${y1} ${x2} ${y2}"/><circle cx="${x2}" cy="${y2}" r="2.4" stroke="none"/></g>`;
+// An arm from the shoulder (x1, y1) to the hand (x2, y2), with a soft bend at the elbow (outwards and down, the way
+// arms hang), turning about the shoulder when it moves. `hand` swaps the round hand for something else (a glove).
+function arm(x1, y1, x2, y2, cls = '', bend = .26, hand = '') {
+  const dx = x2 - x1, dy = y2 - y1, out = x1 < 20 ? -1 : 1;
+  const [px, py] = [[-dy, dx], [dy, -dx]].sort((a, b) => (b[0] * out + b[1]) - (a[0] * out + a[1]))[0];
+  const cx = ((x1 + x2) / 2 + px * bend).toFixed(1), cy = ((y1 + y2) / 2 + py * bend).toFixed(1);
+  return `<g class="arm ${cls}" style="transform-origin:${x1}px ${y1}px"><path d="M${x1} ${y1}Q${cx} ${cy} ${x2} ${y2}" fill="none"/>`
+    + `${hand || `<circle cx="${x2}" cy="${y2}" r="2.5" stroke="none"/>`}</g>`;
+}
 const HAPPY = inkLine('M12.5 23q2.5-3.5 5 0M22.5 23q2.5-3.5 5 0'), BLISS = inkLine('M12.5 22.5q2.5 1.8 5 0M22.5 22.5q2.5 1.8 5 0');
 const GRIN = MOODS.cheer.mouth;
+MOODS.cheer.behind = ARMS(arm(10, 30, 3.4, 16.4, 'l') + arm(30, 30, 36.6, 16.4, 'r'));
 const heart = (x, y, cls) => `<path class="${cls}" d="M${x} ${y + 1.6}l-2-1.9a1.2 1.2 0 0 1 2-1.5 1.2 1.2 0 0 1 2 1.5z" fill="#ff4d6d"/>`;
 const flash = (x, y, d) => `<g class="flash" style="--d:${d}s"><circle cx="${x}" cy="${y}" r="1.7" fill="#fff"/><path d="M${x} ${y - 4}l.9 3.1 3.1.9-3.1.9-.9 3.1-.9-3.1-3.1-.9 3.1-.9z" fill="#fff"/></g>`;
 const pixels = (rows, x0, y0, sz) => rows.flatMap((r, y) => [...r].map((c, x) => c === '#' ? `<rect x="${x0 + x * sz}" y="${y0 + y * sz}" width="${sz}" height="${sz}"/>` : '')).join('');
@@ -321,20 +336,20 @@ const bits = [[-7, -6, '#ff6b6b', 0], [-3, -9, '#feca57', .15], [2, -8, '#4cc9f0
 const EMOTES = [
   { id: 'cheer', name: 'Arms up' },
   { id: 'trophy', cat: 'sport', name: 'Trophy lift', eyes: HAPPY, mouth: GRIN,
-    behind: ARMS(arm(9, 29, 13.6, -4.6) + arm(31, 29, 26.4, -4.6)),
+    behind: ARMS(arm(9, 29, 13.6, -4.6, '', .1) + arm(31, 29, 26.4, -4.6, '', .1)),
     front: `<g ${GOLD}><path d="M15 -10h10v3.2a5 5 0 0 1-10 0z"/><rect x="18.9" y="-2" width="2.2" height="2"/><rect x="16.5" y="-.3" width="7" height="1.8" rx=".6"/></g><path d="M15 -8.6h-1.6a2.2 2.2 0 0 0 2.3 3.2M25 -8.6h1.6a2.2 2.2 0 0 1-2.3 3.2" fill="none" stroke="#c98f1c" stroke-width="1"/>${twinkle(17.5, -7)}` },
   { id: 'guitar', cat: 'music', name: 'Guitar solo', eyes: BLISS, mouth: `<ellipse cx="20" cy="30" rx="2.6" ry="2.2" fill="${INK}"/>`, behind: '',
     front: `<g transform="rotate(-28 20 33)"><rect x="19" y="31.8" width="16" height="2.4" rx=".8" fill="#8c5a2b"/><rect x="34" y="31" width="3.6" height="4" rx="1" fill="#5a3b22"/><path d="M8 33c0-3 2.5-4.4 5-3.6 1.4.5 2.4.4 3.4-.2 2.2-1.2 4.6.6 4.6 3.8s-2.4 5-4.6 3.8c-1-.6-2-.7-3.4-.2C10.5 37.4 8 36 8 33z" fill="#ff6b6b" stroke="${INK}" stroke-width=".7"/><circle cx="15" cy="33" r="1.3" fill="${INK}"/><path d="M15 33h20" stroke="#fff" stroke-width=".3" opacity=".7"/></g>`
       + ARMS(arm(32, 32, 30.6, 27.4) + arm(9, 30, 15.4, 35.2, 'strum'))
       + `<g fill="#fff" stroke="#fff"><g class="note"><path d="M31 4V-1l4-1v5" fill="none" stroke-width=".9"/><circle cx="30" cy="4" r="1.3" stroke="none"/><circle cx="34" cy="3" r="1.3" stroke="none"/></g><g class="note n2"><path d="M7 6V1" fill="none" stroke-width=".9"/><path d="M7 1q2.5 1 2.5 3" fill="none" stroke-width=".9"/><circle cx="6" cy="6" r="1.3" stroke="none"/></g></g>` },
   { id: 'carpet', cat: 'film', name: 'Red carpet', eyes: LOOK_PARTS[1][5], mouth: inkLine('M16.5 29.6q4 1.6 7.5-1.6'),
-    behind: ARMS(arm(30, 30, 35.5, 17.5, 'wave')), front: flash(4, 7, 0) + flash(36, 3, .5) + flash(3, 31, 1) + flash(37, 33, 1.3) },
+    behind: ARMS(arm(30, 30, 37, 16, 'wave')), front: flash(4, 7, 0) + flash(36, 3, .5) + flash(3, 31, 1) + flash(37, 33, 1.3) },
   { id: 'gg', cat: 'gaming', name: 'GG', eyes: LOOK_PARTS[1][11], mouth: GRIN,
     behind: ARMS(arm(9, 30, 3.5, 17.5, 'pump l') + arm(31, 30, 36.5, 17.5, 'pump r')),
     front: `<g class="gg" fill="#7bd88f" stroke="${INK}" stroke-width=".4" shape-rendering="crispEdges">${pixels(PIX_G, 12.4, -10, 1.7)}${pixels(PIX_G, 20.9, -10, 1.7)}</g><g fill="#ffd166" shape-rendering="crispEdges"><rect x="7" y="-6" width="1.6" height="1.6"/><rect x="32" y="-8" width="1.6" height="1.6"/><rect x="34" y="-2" width="1.2" height="1.2"/></g>` },
   { id: 'flag', cat: 'geography', name: 'Flag plant', eyes: LOOK_PARTS[1][0], mouth: inkLine('M16 28.5q4 3 8 0'),
-    behind: ARMS(arm(9, 30, 8.4, 17.4)),
-    front: `<path d="M34 -7v45" stroke="#8c6f3a" stroke-width="1.4" stroke-linecap="round"/><path class="flag" d="M34.6 -6.5c2.2 1.2 4 -.8 6.6.4v6.4c-2.6-1.2-4.4.8-6.6-.4z" fill="#ff6b6b"/><circle cx="37.9" cy="-3.3" r="1.3" fill="#fff"/>${ARMS(arm(31, 31, 33.4, 21))}` },
+    behind: ARMS(arm(9, 30, 3.5, 19)),
+    front: `<path d="M34 -7v45" stroke="#8c6f3a" stroke-width="1.4" stroke-linecap="round"/><path class="flag" d="M34.6 -6.5c2.2 1.2 4 -.8 6.6.4v6.4c-2.6-1.2-4.4.8-6.6-.4z" fill="#ff6b6b"/><circle cx="37.9" cy="-3.3" r="1.3" fill="#fff"/>${ARMS(arm(31, 31, 34.2, 21))}` },
   { id: 'royal', cat: 'history', name: 'Royal wave', eyes: BLISS, mouth: inkLine('M17.5 29q2.5 1.6 5 0'),
     behind: ARMS(arm(31, 30, 36, 16, 'royal') + arm(9, 30, 5.2, 26)),
     front: `<path d="M5.6 33 3 12.5" stroke="#ffd166" stroke-width="1.4" stroke-linecap="round"/><circle cx="2.9" cy="11.2" r="2.3" fill="#ffd166" stroke="#c98f1c" stroke-width=".5"/><circle cx="2.9" cy="11.2" r=".8" fill="#ff4d6d"/>` },
@@ -351,16 +366,52 @@ const EMOTES = [
     front: `<g class="popper"><path d="M7.8 21 -1 13.4 3.4 9z" fill="#9b7bff" stroke="${INK}" stroke-width=".5" stroke-linejoin="round"/><path d="M1.2 11.3l5 7M.1 12.6l6.5 6.6" stroke="#feca57" stroke-width=".8"/></g>`
       + bits.map(([dx, dy, c, d], i) => `<rect class="bit" style="--dx:${dx}px;--dy:${dy}px;--d:${d}s" x="${i % 2 ? 1 : 0}" y="${10 + (i % 3)}" width="1.7" height="1" fill="${c}"/>`).join('') },
 ];
-EMOTES.forEach(e => { if (e.cat) MOODS['e-' + e.id] = { cls: `mood-emote emo-${e.cat}`, behind: e.behind, eyes: e.eyes, mouth: e.mouth, front: e.front }; });
+// Sub-category celebrations, with a bit of the football pitch about them. Each comes with 15 right answers in its sub-category.
+const SUB_LABEL = { football: 'Football', darts: 'Darts', f1: 'Formula 1', combat: 'Boxing', cue: 'Snooker', cricket: 'Cricket', wwe: 'WWE' };
+const SUB_ICON = { football: 'ball', darts: 'crosshair', f1: 'flame', combat: 'shield', cue: 'gem', cricket: 'star', wwe: 'crown' };
+const glove = (x, y) => `<circle cx="${x}" cy="${y}" r="3.9" fill="#ff4d4d" stroke="${INK}" stroke-width=".6"/><path d="M${x - 2.2} ${y + 1.6}q2.2 1.2 4.4 0" stroke="#fff" stroke-width=".7" fill="none" opacity=".8"/>`;
+const drops = [[-3, -9, 0], [2, -11, .12], [6, -8, .25], [-1, -13, .35], [8, -12, .5], [4, -15, .62]];
+EMOTES.push(
+  { id: 'oneeighty', cat: 'sport', sub: 'darts', name: 'One hundred and eighty!', eyes: LOOK_PARTS[1][4], mouth: GRIN,
+    behind: ARMS(arm(9, 30, 5.5, 20, 'pump')),
+    front: `<g transform="translate(5 3)"><circle r="5.6" fill="#14152b"/><circle r="4.4" fill="#f1e3c4"/><circle r="3" fill="#2a7a45"/><circle r="1.8" fill="#f1e3c4"/><circle r=".8" fill="#ff4d4d"/></g>`
+      + `<g class="dart"><path d="M6.5 3h5.2" stroke="#c9d3e6" stroke-width="1"/><path d="M11.4 3l2.6-1.8v3.6z" fill="#ff6b6b"/><path d="M5 3h1.8" stroke="${INK}" stroke-width=".7"/></g>`
+      + ARMS(arm(31, 30, 36.5, 18.5, 'throw'))
+      + `<g class="ton"><rect x="13" y="-11" width="16" height="7" rx="2" fill="#ffd166" stroke="#c98f1c" stroke-width=".6"/><text x="21" y="-5.6" text-anchor="middle" font-size="5.6" font-weight="900" fill="${INK}" font-family="system-ui, sans-serif">180</text></g>` },
+  { id: 'aeroplane', cat: 'sport', sub: 'football', name: 'Aeroplane', eyes: HAPPY, mouth: `<ellipse cx="20" cy="29.8" rx="3.2" ry="2.6" fill="${INK}"/>`,
+    behind: ARMS(arm(9, 30, -2.5, 27, 'wing l', .12) + arm(31, 30, 42.5, 27, 'wing r', .12)),
+    front: `<g class="trail" stroke="#fff" stroke-width=".8" stroke-linecap="round" opacity=".6"><path d="M-6 34h6M-4 37h5M40 34h6M39 37h5"/></g>` },
+  { id: 'champagne', cat: 'sport', sub: 'f1', name: 'Champagne spray', eyes: HAPPY, mouth: GRIN,
+    behind: ARMS(arm(9, 30, 4.5, 19, 'pump')),
+    front: `<g class="bottle" style="transform-origin:31px 30px">${ARMS(arm(31, 30, 33, 18))}<g transform="rotate(28 33.5 15)"><rect x="31.5" y="8" width="4" height="10" rx="1.6" fill="#2f6b3a" stroke="${INK}" stroke-width=".5"/><rect x="32.5" y="4.5" width="2" height="4" fill="#2f6b3a"/><rect x="32.3" y="3.8" width="2.4" height="1.6" rx=".4" fill="#ffd166"/><rect x="31.5" y="11.5" width="4" height="3" fill="#f1e3c4"/></g></g>`
+      + drops.map(([dx, dy, d], i) => `<circle class="drop" style="--dx:${dx}px;--dy:${dy}px;--d:${d}s" cx="${36.5 + (i % 2)}" cy="${2 + (i % 3)}" r="${i % 2 ? .9 : 1.2}" fill="#fff4c2"/>`).join('') },
+  { id: 'gloves', cat: 'sport', sub: 'combat', name: 'Gloves up', eyes: LOOK_PARTS[1][6], mouth: inkLine('M17 30h6'), behind: '',
+    front: ARMS(arm(9, 31, 13.5, 27, 'jab l', .3, glove(13.5, 27)) + arm(31, 31, 26.5, 27, 'jab r', .3, glove(26.5, 27))) },
+  { id: 'cuetwirl', cat: 'sport', sub: 'cue', name: 'Cue twirl', eyes: BLISS, mouth: inkLine('M16.5 29q3.5 2.6 7 0'),
+    behind: ARMS(arm(9, 30, 4, 19, 'pump')),
+    front: `<g class="cue" style="transform-origin:34.5px 20px"><path d="M34.5 -3 34.5 43" stroke="#c9a27a" stroke-width="1.3" stroke-linecap="round"/><path d="M34.5 30v13" stroke="#5a3b22" stroke-width="1.9" stroke-linecap="round"/><path d="M34.5 -3.6v1.4" stroke="#4cc9f0" stroke-width="1.4"/></g>${ARMS(arm(31, 30, 34.5, 20))}` },
+  { id: 'century', cat: 'sport', sub: 'cricket', name: 'Raise the bat', eyes: HAPPY, mouth: GRIN,
+    behind: ARMS(arm(9, 30, 4, 20, 'pump')),
+    front: `<g class="batarm" style="transform-origin:31px 30px"><g transform="rotate(14 34 14)"><rect x="32.4" y="-9" width="4.2" height="16" rx="1.6" fill="#f1e3c4" stroke="#c9a27a" stroke-width=".6"/><rect x="33.6" y="6.5" width="1.8" height="7.5" rx=".8" fill="#5a3b22"/></g>${ARMS(arm(31, 30, 34.5, 15))}</g>`
+      + `<g class="ton"><rect x="9" y="-10" width="14" height="6.6" rx="2" fill="#fff" stroke="#c9cfdc" stroke-width=".6"/><text x="16" y="-5" text-anchor="middle" font-size="5.2" font-weight="900" fill="${INK}" font-family="system-ui, sans-serif">100</text></g>` },
+  { id: 'belt', cat: 'sport', sub: 'wwe', name: 'Title belt', eyes: LOOK_PARTS[1][6], mouth: GRIN,
+    behind: ARMS(arm(9, 29, 9.5, -2.5, '', .1) + arm(31, 29, 30.5, -2.5, '', .1)),
+    front: `<g class="belt"><rect x="5" y="-6" width="30" height="5.6" rx="2.4" fill="#1f2033"/><ellipse cx="20" cy="-3.2" rx="7" ry="5" fill="#ffd166" stroke="#c98f1c" stroke-width=".7"/><ellipse cx="20" cy="-3.2" rx="4" ry="2.8" fill="#ffe08a" stroke="#c98f1c" stroke-width=".5"/><circle cx="20" cy="-3.2" r="1.2" fill="#ff4d6d"/><circle cx="9" cy="-3.2" r="1.3" fill="#ffd166"/><circle cx="31" cy="-3.2" r="1.3" fill="#ffd166"/></g>` });
+EMOTES.forEach(e => { if (e.cat) MOODS['e-' + e.id] = { cls: `mood-emote emo-${e.sub || e.cat}`, behind: e.behind, eyes: e.eyes, mouth: e.mouth, front: e.front }; });
 const emoteMood = id => id && MOODS['e-' + id] ? 'e-' + id : 'cheer';
 UNLOCKABLES = Object.keys(CAT_LABEL).flatMap(cat => { const t = CAT_ITEMS.filter(it => it.cat === cat);
-  return [t[0], t[1], ...EMOTES.filter(e => e.cat === cat).map(e => ({ cat, emote: e.id, name: e.name })), t[2]]; });
+  return [t[0], t[1], ...EMOTES.filter(e => e.cat === cat && !e.sub).map(e => ({ cat, emote: e.id, name: e.name })), t[2]]; })
+  .concat(EMOTES.filter(e => e.sub).map(e => ({ cat: e.cat, sub: e.sub, emote: e.id, name: e.name })));
 const avatar = (name, color, look, mood) => {
   const [hd, ey, mo, ht, fc] = [...lookFor(name, look)].map(c => parseInt(c, 36));
   const [under, over] = LOOK_PARTS[4][fc];
-  const m = MOODS[mood];
+  const m = MOODS[mood], fit = HAT_FIT[ht] || 'cover', dy = (HEAD_TOP[hd] || 11) - 11;
+  let head = LOOK_PARTS[0][hd];
+  if (fit === 'cover') head = head.replace(/<g data-top>.*?<\/g>/g, '');
+  if (fit === 'side') head = head.replace(/<g data-side>.*?<\/g>/g, '');
+  const hat = LOOK_PARTS[3][ht] && dy && fit !== 'float' ? `<g transform="translate(0 ${dy})">${LOOK_PARTS[3][ht]}</g>` : LOOK_PARTS[3][ht];
   return `<span class="av ch${m ? ` ${m.cls || 'mood-' + mood}` : ''}" style="--pc:${PCOL[color] || PCOL[0]}" role="img" aria-label="${esc(name || '')}"><svg viewBox="0 0 40 40" aria-hidden="true">`
-    + `${m ? m.behind : ''}<g style="fill:var(--pc)">${LOOK_PARTS[0][hd]}</g>${under}${m ? m.eyes : LOOK_PARTS[1][ey]}${m ? m.mouth : LOOK_PARTS[2][mo]}${over}${LOOK_PARTS[3][ht]}${m && m.front || ''}</svg></span>`;
+    + `${m ? m.behind : ''}<g style="fill:var(--pc)">${head}</g>${under}${m ? m.eyes : LOOK_PARTS[1][ey]}${m ? m.mouth : LOOK_PARTS[2][mo]}${over}${hat}${m && m.front || ''}</svg></span>`;
 };
 const colorOf = (s, n) => (s.players.find(p => p.n === n) || {}).color;
 const lookOf = (s, n) => (s.players.find(p => p.n === n) || {}).look;
@@ -2142,7 +2193,7 @@ let party = null;
 
 function partyMenu(code = '') {
   stopTimer();
-  show(`${topbar('Party game')}
+  show(`${topbar('Party game', `<button class="iconbtn" id="tvBtn" aria-label="Use this device as the big screen" title="Big screen">${ic('tv')}</button>`)}
     <section class="field"><label for="name">Your name</label>
       <input type="text" id="name" maxlength="16" placeholder="What should everyone call you?" value="${esc(store.get('outlier.name', ''))}" autocomplete="nickname"></section>
     <section class="card choice${code ? '' : ' lead'}">
@@ -2157,8 +2208,8 @@ function partyMenu(code = '') {
         <button class="btn${code ? ' primary' : ''}">Join</button>
       </form>
     </section>
-    <section class="card choice">
-      <div class="choice-h"><span class="mode-ic">${ic('tv')}</span><div><b>Big screen</b><small>Show the game on a TV or laptop</small></div></div>
+    <section class="card choice tvbox" id="tvBox" hidden>
+      <div class="choice-h"><span class="mode-ic">${ic('tv')}</span><div><b>Big screen</b><small>Show the game on this TV or laptop</small></div></div>
       <form id="tvJoin" class="row">
         <input type="text" id="tvCode" class="code" maxlength="4" placeholder="CODE" autocapitalize="characters" autocomplete="off" aria-label="Room code for the big screen">
         <button class="btn">Show</button>
@@ -2168,9 +2219,10 @@ function partyMenu(code = '') {
     const name = $('#name').value.trim();
     if (!name) { $('#name').focus(); return toast('Enter a name first'); }
     store.set('outlier.name', name);
-    try { const r = await api(path, { ...body, name }); enterParty(r.code, r.pid); } catch (e) { toast(e.message); }
+    try { const r = await api(path, { ...body, name, cid: playerId() }); enterParty(r.code, r.pid); } catch (e) { toast(e.message); }
   };
   $('#back').onclick = home;
+  $('#tvBtn').onclick = () => { const box = $('#tvBox'); box.hidden = !box.hidden; if (!box.hidden) { box.scrollIntoView({ block: 'nearest' }); $('#tvCode').focus(); } };
   $('#create').onclick = () => go('/api/room/create', {});
   $('#join').onsubmit = e => { e.preventDefault(); go('/api/room/join', { code: $('#code').value.trim() }); };
   $('#tvJoin').onsubmit = e => { e.preventDefault(); sfx.start(); joinScreen($('#tvCode').value); };   // a click: sound can start now
@@ -2223,9 +2275,13 @@ async function partyPost(path, extra) {
 }
 
 function playersHTML(s) {
-  return s.players.map(p => `<li class="${p.n === s.you ? 'me' : ''}${p.online ? '' : ' off'}">
+  const teams = s.phase === 'lobby' ? s.teamsOn : s.teams && s.mode !== 'potato';
+  const swap = teams && s.phase === 'lobby' && s.you === s.host;
+  const list = teams ? [...s.players].sort((a, b) => (a.team || 0) - (b.team || 0)) : s.players;
+  return list.map(p => `<li class="${p.n === s.you ? 'me' : ''}${p.online ? '' : ' off'}${swap ? ' swap' : ''}"${swap ? ` data-swap="${p.n}" title="Tap to swap team"` : ''}>
     ${avatar(p.name, p.color, p.look)}
     <span class="main"><b>${esc(p.name)}</b>${p.n === s.you ? '<small>You</small>' : ''}</span>
+    ${teams ? teamTag(p.team) : ''}
     ${p.n === s.host ? '<span class="tag">Host</span>' : ''}
     ${!p.online ? '<span class="tag">Away</span>'
       : s.phase === 'question' ? `<span class="tag">${p.answered ? 'Locked in' : 'Thinking'}</span>`
@@ -2283,6 +2339,8 @@ function renderParty(s, seq = Infinity) {
   }
   if (s.phase === 'question') updateTicker(s); else party.locked = null;
   if (s.phase === 'potato') updatePotato(s);
+  party.last = s;
+  teamsUI(s);
   const sw = $('#colors');
   if (sw) sw.innerHTML = colorsHTML(s);
   if ($('#chMe')) {
@@ -2302,7 +2360,7 @@ function renderParty(s, seq = Infinity) {
 
 const tvHintHTML = s => s.screens
   ? `${ic('tv')}<span><b>Big screen connected.</b> The answers are revealed on the TV.</span>`
-  : `${ic('tv')}<span>Got a TV? Open <b>${esc(location.host)}</b> on it, choose <b>Big screen</b> and enter <b>${esc(s.code)}</b>.
+  : `${ic('tv')}<span>Got a TV? Open <b>${esc(location.host)}</b> on it, open <b>Party game</b>, tap the TV icon at the top and enter <b>${esc(s.code)}</b>.
       <a href="/?tv=${esc(s.code)}" target="_blank" rel="noopener">Open the big screen in a new tab</a></span>`;
 
 // The host's lobby choices go to the server only while a big screen is watching, so the TV can show what's coming.
@@ -2364,12 +2422,13 @@ function characterMenu(back = home) {
   const drawUnlocks = () => {
     const st = state(), look = preview(st), have = store.get('outlier.unlocks', []), stats = store.get('outlier.unlockStats', {}) || {};
     $('#unlCount').textContent = `${have.length} of ${UNLOCKABLES.length}`;
-    $('#unlList').innerHTML = Object.keys(CAT_LABEL).map(cat => {
-      const items = UNLOCKABLES.filter(it => it.cat === cat), next = items.find(it => !have.includes(itemKey(it)));
-      const c = stats[cat] || {}, g = next && goalOf(next);
-      const sub = !next ? 'All four unlocked' : `Next: ${g.short}<b class="unl-prog">${g.key === 'best' ? `best ${c.best || 0}` : `${Math.min(c[g.key] || 0, g.n)}/${g.n}`}</b>`;
-      return `<li><span class="award-ic">${ic(CAT_ICON[cat] || 'sparkles')}</span>
-        <span class="main"><b>${CAT_LABEL[cat]}</b><small>${sub}</small></span>
+    $('#unlList').innerHTML = [...Object.keys(CAT_LABEL), ...Object.keys(SUB_LABEL).map(s => 'sub:' + s)].map(cat => {
+      const sb = cat.startsWith('sub:') ? cat.slice(4) : null;
+      const items = UNLOCKABLES.filter(it => (it.sub ? 'sub:' + it.sub : !sb && it.cat) === cat), next = items.find(it => !have.includes(itemKey(it)));
+      const c = (sb ? (stats.subs || {})[sb] : stats[cat]) || {}, g = next && goalOf(next);
+      const sub = !next ? (items.length > 1 ? `All ${items.length} unlocked` : 'Unlocked') : `Next: ${g.short}<b class="unl-prog">${g.key === 'best' ? `best ${c.best || 0}` : `${Math.min(c[g.key] || 0, g.n)}/${g.n}`}</b>`;
+      return `<li><span class="award-ic">${ic(sb ? SUB_ICON[sb] : CAT_ICON[cat] || 'sparkles')}</span>
+        <span class="main"><b>${sb ? `${SUB_LABEL[sb]} celebration` : CAT_LABEL[cat]}</b><small>${sub}</small></span>
         <span class="unl-items">${items.map(it => { const got = have.includes(itemKey(it)), on = it.emote ? emoNow() === it.emote : parseInt(look[it.part], 36) === it.idx;
           return `<button class="unl-it${got ? ' got' : ''}${on ? ' on' : ''}${it.emote ? ' emo' : ''}" ${it.emote ? `data-e="${it.emote}"` : `data-p="${it.part}" data-i="${it.idx}"`} aria-label="${esc(it.name)}${it.emote ? ' (podium emote)' : ''}${got ? '' : ' (locked)'}" title="${esc(it.name)}${got ? '' : ': ' + esc(itemGoal(it))}">
             ${it.emote ? avatar(st.name, st.color, BASE_LOOK, 'e-' + it.emote) : avatar(st.name, st.color, lookWith(BASE_LOOK, it.part, it.idx))}${got ? '' : `<span class="unl-lock">${ic('lock')}</span>`}</button>`; }).join('')}</span></li>`;
@@ -2460,6 +2519,41 @@ function colorsHTML(s) {
 
 const partyBar = (s, mid) => topbar(mid, `<span class="pill">${esc(s.code)}</span>`, 'leave', 'x');
 
+// ---- teams (Classic only): two even teams, offered with 4, 6, 8... players. A team scores its players' points
+// added up, and two teammates giving the same answer both score 0.
+const TEAM = ['Team A', 'Team B'];
+const teamTag = t => `<span class="tag team t${t || 0}">${TEAM[t || 0]}</span>`;
+
+// The host's Teams switch in the lobby, kept in step with the room on every poll.
+function teamsUI(s) {
+  const seg = $('#teams');
+  if (!seg || s.phase !== 'lobby') return;
+  seg.querySelectorAll('.chip').forEach(c => {
+    const v = c.dataset.t === '1';
+    c.classList.toggle('on', v === !!s.teamsOn);
+    c.setAttribute('aria-pressed', v === !!s.teamsOn);
+    if (v) c.disabled = !s.teamsOk;
+  });
+  const hint = $('#teamHint');
+  const n = s.players.length;
+  const html = !s.teamsOk ? `${ic('users')}<span>Teams need an even number of players, 4 or more. There ${n === 1 ? 'is 1 player' : `are ${n} players`} here.</span>`
+    : s.teamsOn ? `${ic('users')}<span>Tap a player to swap their team. If two teammates give the same answer, both score 0. <a href="#" id="shuffle">Shuffle teams</a></span>`
+    : `${ic('users')}<span>Play as two even teams. A team's score is everyone's points added up.</span>`;
+  if (hint && hint.dataset.html !== html) { hint.dataset.html = html; hint.innerHTML = html; }
+}
+
+// Both teams' totals side by side, with a tug-of-war bar.
+function teamBarHTML(s) {
+  if (!s.teams || !s.teamScores) return '';
+  const sc = s.teamScores, tot = Math.max(1, sc[0] + sc[1]);
+  const names = t => s.players.filter(p => p.team === t).map(p => esc(p.name)).join(', ');
+  return `<section class="card teams"><div class="tm-row">${[0, 1].map(t => `<div class="tm t${t}${sc[t] > sc[1 - t] ? ' lead' : ''}">
+      <b>${TEAM[t]}</b><span class="tm-n">${sc[t]}</span><small>${names(t)}</small></div>`).join('')}</div>
+    <div class="tm-bar"><i class="t0" style="width:${(sc[0] / tot * 100).toFixed(1)}%"></i><i class="t1" style="width:${(sc[1] / tot * 100).toFixed(1)}%"></i></div></section>`;
+}
+
+const teamWinner = s => s.teamScores[0] === s.teamScores[1] ? 'It’s a draw!' : `${TEAM[s.teamScores[0] > s.teamScores[1] ? 0 : 1]} wins!`;
+
 function partyLobby(s, host) {
   const seg = (id, values, current, unit) => `<div class="seg" id="${id}">${values.map(n =>
     `<button class="chip${n === current ? ' on' : ''}" data-n="${n}" aria-pressed="${n === current}">${n}${unit}</button>`).join('')}</div>`;
@@ -2515,10 +2609,21 @@ function partyLobby(s, host) {
     $('#mode').querySelectorAll('.chip').forEach(x => { x.classList.toggle('on', x === b); x.setAttribute('aria-pressed', x === b); });
     $('#modeset').innerHTML = modeSettings(seg);
     wireMode();
+    if (party.last) teamsUI(party.last);
     if ($('#picker')) mountPicker($('#picker'), () => { $('#start').disabled = !poolCount(pick); });   // Fumble hides short prompts
     $('#start').disabled = !limited() && !poolCount(pick);
   };
   wireMode();
+  $('#modeset').addEventListener('click', e => {
+    const t = e.target.closest('#teams .chip');
+    if (t && !t.disabled) partyPost('/api/room/team', { on: t.dataset.t === '1' });
+    if (e.target.closest('#shuffle')) { e.preventDefault(); partyPost('/api/room/team', { shuffle: true }); }
+  });
+  $('#players').addEventListener('click', e => {
+    const li = e.target.closest('[data-swap]');
+    if (li) partyPost('/api/room/team', { n: +li.dataset.swap });
+  });
+  teamsUI(s);
   $('#start').disabled = !limited() && !poolCount(pick);
   $('#start').onclick = startParty;
 }
@@ -2536,6 +2641,9 @@ function modeSettings(seg) {
   return `
     <div class="setting"><span>Rounds</span>${seg('rounds', [3, 5, 7, 10], party.rounds, '')}</div>
     <div class="setting"><span>Time to answer</span>${seg('secs', [15, 30, 45, 60], party.secs, 's')}</div>
+    <div class="setting"><span>Teams</span><div class="seg" id="teams">
+      <button class="chip" data-t="0">Off</button><button class="chip" data-t="1">2 teams</button></div></div>
+    <p class="fine" id="teamHint"></p>
     <p class="fine">${ic('zap')}<span>Play <b>Everything</b> to unlock double downs: before each round everyone sees the category and can double that round's score, once per game.</span></p>`;
 }
 
@@ -2918,6 +3026,7 @@ function partyRevealScores(s, host) {
     ${mine ? resultHTML(mine) : ''}
     ${raceHTML(s, r)}
     <div class="after${mine ? ' wait' : ''}">
+    ${teamBarHTML(s)}
     <div class="card">${trailHTML(lanes(s).map(p => {
       const got = r.results.find(x => x.n === p.n);
       return { name: p.name, from: p.score - (got ? got.points : 0), to: p.score, me: p.n === s.you, color: p.color };
@@ -2943,7 +3052,7 @@ function raceHTML(s, r) {
         : x.given ? `<span class="strike">${esc(x.given)}</span> · not on the list` : 'No answer'}</small>
       <span class="rbar"><i></i></span></span>
     <span class="rside"><span class="rnum">0</span><span class="rlabel">&nbsp;</span></span>
-    <span class="rtags">${x.outlier ? '<span class="tag">Outlier</span>' : ''}${x.shared ? '<span class="tag">Shared ½</span>' : ''}${x.doubled ? '<span class="tag dbl">×2</span>' : ''}</span>
+    <span class="rtags">${x.outlier ? '<span class="tag">Outlier</span>' : ''}${x.clash ? '<span class="tag">Teammate clash · 0</span>' : ''}${x.shared ? '<span class="tag">Shared ½</span>' : ''}${x.doubled ? '<span class="tag dbl">×2</span>' : ''}</span>
   </li>`).join('')}</ul>`;
 }
 
@@ -3003,9 +3112,12 @@ function partyFinal(s, host) {
   const iAsked = (s.asks || []).includes(s.you);
   postPartyResult(s, (rankBy(order, p => p.score).find(r => r.p.n === s.you) || {}).rank);
   show(`${partyBar(s, 'Final standings')}
-    <div class="center"><p class="muted">${tied ? 'Furthest from the crowd (tied)' : 'Furthest from the crowd'}</p>
+    ${s.teams && s.teamScores ? `<div class="center"><p class="muted">Team game</p><h2>${teamWinner(s)}</h2>
+      <p class="muted">${s.teamScores[0]} – ${s.teamScores[1]}</p></div>${teamBarHTML(s)}
+      <p class="muted center">Top player: <b>${esc(top.name)}</b> · ${top.score} paces</p>`
+    : `<div class="center"><p class="muted">${tied ? 'Furthest from the crowd (tied)' : 'Furthest from the crowd'}</p>
       <h2>${esc(order.filter(p => p.score === top.score).map(p => p.name).join(' & '))}</h2>
-      <p class="muted">${top.score} paces · ${zoneName(top.score, max)}</p></div>
+      <p class="muted">${top.score} paces · ${zoneName(top.score, max)}</p></div>`}
     ${podiumHTML(s, rankBy(order, p => p.score), p => `${p.score} paces`)}
     <div class="card">${trailHTML(order.map(p => ({ name: p.name, from: 0, to: p.score, me: p.n === s.you, color: p.color })), max)}</div>
     <ol class="rows card players">${order.map((p, i) => `<li class="${p.n === s.you ? 'me' : ''}"><span class="num rank">${i + 1}</span>
@@ -3568,6 +3680,7 @@ function tvScores(s) {
       ${raceHTML(s, r)}
     </div>
     <div class="tv-col">
+      ${teamBarHTML(s)}
       <section class="card"><h3>Standings</h3>${tvStandings(s)}</section>
     </div>
     <p class="tv-sub tv-foot">Waiting for the host to ${s.round >= s.rounds ? 'show the final standings' : 'start the next round'}</p>`, 'tv-scores');
@@ -3582,8 +3695,10 @@ function tvFinal(s) {
   const winners = order.filter(p => p.score === top.score);
   tvShow(s, 'Final standings', `
     <div class="tv-col">
-      <div class="tv-win"><p class="tv-hint">${winners.length > 1 ? 'Furthest from the crowd (tied)' : 'Furthest from the crowd'}</p>
-        <h1>${esc(winners.map(p => p.name).join(' & '))}</h1><p class="tv-sub">${top.score} paces · ${zoneName(top.score, max)}</p></div>
+      ${s.teams && s.teamScores ? `<div class="tv-win"><p class="tv-hint">Team game</p><h1>${teamWinner(s)}</h1>
+        <p class="tv-sub">${s.teamScores[0]} – ${s.teamScores[1]}</p></div>${teamBarHTML(s)}`
+      : `<div class="tv-win"><p class="tv-hint">${winners.length > 1 ? 'Furthest from the crowd (tied)' : 'Furthest from the crowd'}</p>
+        <h1>${esc(winners.map(p => p.name).join(' & '))}</h1><p class="tv-sub">${top.score} paces · ${zoneName(top.score, max)}</p></div>`}
       ${podiumHTML(s, rankBy(order, p => p.score), p => `${p.score} paces`)}
     </div>
     <div class="tv-col">${awardsHTML(s)}<section class="card"><h3>Standings</h3>${tvStandings(s)}</section></div>`, 'tv-final');

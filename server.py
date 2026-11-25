@@ -349,6 +349,7 @@ def open_db():
     DB.execute("CREATE TABLE IF NOT EXISTS review_seen (prompt_id TEXT, key TEXT, verdict TEXT, ts INTEGER, "
                "PRIMARY KEY (prompt_id, key))")
     DB.execute("CREATE TABLE IF NOT EXISTS daily_pins (cat TEXT, day TEXT, ids TEXT, PRIMARY KEY (cat, day))")
+    DB.execute("CREATE TABLE IF NOT EXISTS party_seen (cid TEXT, prompt_id TEXT, ts INTEGER, PRIMARY KEY (cid, prompt_id))")
     DB.execute("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, email TEXT UNIQUE, created INTEGER)")
     DB.execute("CREATE TABLE IF NOT EXISTS logins (hash TEXT PRIMARY KEY, email TEXT, created INTEGER, expires INTEGER, used INTEGER DEFAULT 0)")
     DB.execute("CREATE TABLE IF NOT EXISTS sessions (hash TEXT PRIMARY KEY, user_id INTEGER, expires INTEGER)")
@@ -1978,7 +1979,7 @@ def clean_name(name):
     return name
 
 
-def add_player(room, name):
+def add_player(room, name, cid=None):
     if len(room["players"]) >= room.get("cap", PLUS_ROOM):
         raise ApiError(400, "That room is full")
     name, taken = clean_name(name), {p["name"].lower() for p in room["players"].values()}
@@ -1991,10 +1992,69 @@ def add_player(room, name):
     color = next((c for c in range(PLAYER_COLORS) if c not in used), room["seq"] % PLAYER_COLORS)
     room["players"][token] = {"n": room["seq"], "name": name, "score": 0, "answer": None, "last": time.time(),
                               "double_left": True, "doubling": False, "picked": False, "color": color, "look": None}
+    room["players"][token]["cid"] = str(cid)[:64] if cid else None
+    balance_teams(room)
     return token
 
 
-def create_room(name):
+# ---- no repeats for regular groups: every prompt a party shows is remembered against each player's device, and new
+# prompts are picked from those the fewest people in the room have seen before (ideally nobody).
+def group_seen(room):
+    """How many of the room's players have had each prompt in an earlier party game."""
+    cids = sorted({p.get("cid") for p in room["players"].values() if p.get("cid")})
+    if not cids or not DB:
+        return {}
+    rows = DB.execute(f"SELECT prompt_id, COUNT(*) FROM party_seen WHERE cid IN ({','.join('?' * len(cids))}) "
+                      "GROUP BY prompt_id", cids).fetchall()
+    return dict(rows)
+
+
+def least_seen(lists, seen):
+    """Keep only the prompts the fewest players have seen (each list filtered alike, so the mix of filters holds)."""
+    best = min((seen.get(i, 0) for b in lists for i in b), default=0)
+    return [[i for i in b if seen.get(i, 0) <= best] for b in lists]
+
+
+def mark_seen(room, pid):
+    cids = {p.get("cid") for p in room["players"].values() if p.get("cid")}
+    if cids and DB:
+        now = int(time.time())
+        with DB:
+            DB.executemany("INSERT OR REPLACE INTO party_seen (cid, prompt_id, ts) VALUES (?, ?, ?)",
+                           [(c, pid, now) for c in cids])
+
+
+# ---- teams (Classic only): two even teams, 2v2 up to 4v4 and beyond. Only offered with 4 or more players and an even
+# number of them. A team's score is its players' points added up; two teammates giving the same answer both score 0.
+def teams_ok(room):
+    n = len(room["players"])
+    return n >= 4 and n % 2 == 0
+
+
+def balance_teams(room, shuffle=False):
+    """Give everyone a team (0 or 1) and keep the two sizes within one of each other. The host's swaps are kept
+    unless they leave the teams lopsided."""
+    ps = list(room["players"].values())
+    if shuffle:
+        random.shuffle(ps)
+        for i, p in enumerate(ps):
+            p["team"] = i % 2
+        return
+    for p in ps:
+        if p.get("team") not in (0, 1):
+            p["team"] = 0 if sum(q.get("team") == 0 for q in ps) <= sum(q.get("team") == 1 for q in ps) else 1
+    while True:
+        a, b = [p for p in ps if p["team"] == 0], [p for p in ps if p["team"] == 1]
+        if abs(len(a) - len(b)) <= 1:
+            return
+        random.choice(a if len(a) > len(b) else b)["team"] ^= 1
+
+
+def team_scores(room):
+    return [sum(p["score"] for p in room["players"].values() if p.get("team") == t) for t in (0, 1)]
+
+
+def create_room(name, cid=None):
     now = time.time()
     for code in [c for c, r in ROOMS.items() if now - r["touched"] > 3 * 3600]:
         del ROOMS[code]
@@ -2006,7 +2066,7 @@ def create_room(name):
             "cat": "all", "tags": [], "used": [], "prompt": None, "deadline": 0, "reveal": None, "touched": now,
             "secs": ROUND_S, "history": [], "asks": [], "screens": {}, "setup": None}
     room["cap"] = PLUS_ROOM if is_plus() else FREE_ROOM   # set by the host's plan
-    token = add_player(room, name)
+    token = add_player(room, name, cid)
     room["host"] = token
     ROOMS[code] = room
     return room, token
@@ -2056,7 +2116,7 @@ def next_question(room):
     # Take turns between the chosen filters: the one furthest below its fair share goes next.
     groups = buckets(room["cat"], room["tags"], ids)
     weights = bucket_weights(room["cat"], groups, room["tags"])
-    fresh = [[i for i in b if i not in room["used"]] for b in groups]
+    fresh = least_seen([[i for i in b if i not in room["used"]] for b in groups], group_seen(room))
     played = [sum(1 for i in b if i in room["used"]) for b in groups]
     choices = [k for k in range(len(groups)) if fresh[k]]
     k = min(choices, key=lambda k: (played[k] + random.random()) / weights[k])
@@ -2064,6 +2124,7 @@ def next_question(room):
     recent = set().union(*(teams_of(i) for i in room["used"][-(room["round"]):] if i in PROMPTS)) if room["round"] else set()
     room["prompt"] = random.choice([i for i in fresh[k] if not teams_of(i) & recent] or fresh[k])
     room["used"].append(room["prompt"])
+    mark_seen(room, room["prompt"])
     room["round"] += 1
     for p in room["players"].values():
         p["answer"], p["doubling"], p["picked"] = None, False, False
@@ -2091,12 +2152,17 @@ def resolve(room):
     pid = room["prompt"]
     counts = counts_for(pid)
     results = []
+    teams = bool(room.get("teams"))
     for p in room["players"].values():
         r = judge(pid, p["answer"], counts)
-        r.update(n=p["n"], name=p["name"], shared=False, doubled=p["doubling"])
+        r.update(n=p["n"], name=p["name"], shared=False, doubled=p["doubling"], clash=False,
+                 team=p.get("team") if teams else None)
         results.append(r)
     for r in results:
-        if r["valid"] and sum(1 for o in results if o["canonical"] == r["canonical"]) > 1:
+        same = [o for o in results if o is not r and r["valid"] and o["canonical"] == r["canonical"]]
+        if teams and any(o["team"] == r["team"] for o in same):   # teammates said the same thing: both score 0
+            r["clash"], r["points"] = True, 0
+        elif same:
             r["shared"], r["points"] = True, round(r["points"] / 2)
         if r["doubled"]:
             r["points"] *= 2
@@ -2106,7 +2172,7 @@ def resolve(room):
             record(pid, r["canonical"], r["given"])
     room["history"].append([{"n": r["n"], "name": r["name"], "points": r["points"], "valid": r["valid"],
                              "answer": r["canonical"] or r["given"], "share": r["share"], "outlier": r["outlier"],
-                             "shared": r["shared"], "doubled": r["doubled"], "pid": pid} for r in results])
+                             "shared": r["shared"], "doubled": r["doubled"], "clash": r["clash"], "pid": pid} for r in results])
     board = board_for(counts, keep={r["canonical"] for r in results if r["valid"]})
     results.sort(key=lambda r: -r["points"])
     room["reveal"] = {"prompt": PROMPTS[pid]["text"], "results": results, "answers": len(counts),
@@ -2174,9 +2240,10 @@ def potato_prompt(room):
         else:
             easy = [i for i in big if EASE.get(i.split("--")[0], 0) >= 5]
             big = easy if len(easy) >= 20 else big
-    fresh = [i for i in big if i not in room["used"]] or big
+    fresh = least_seen([[i for i in big if i not in room["used"]] or big], group_seen(room))[0]
     pid = random.choice(fresh)
     room["used"].append(pid)
+    mark_seen(room, pid)
     return pid
 
 
@@ -2323,10 +2390,14 @@ def shared_state(room):
         "players": [{"n": p["n"], "name": p["name"], "score": p["score"], "online": online(p), "color": p["color"],
                      "look": p.get("look"), "emote": p.get("emote"),
                      "answered": p["answer"] is not None, "picked": p["picked"] or not p["double_left"],
-                     "doubleLeft": p["double_left"], "lives": p.get("lives", 0), "out": p.get("out", False),
+                     "doubleLeft": p["double_left"], "lives": p.get("lives", 0), "out": p.get("out", False), "team": p.get("team"),
                      "bonusAt": p.get("bonus_at", POTATO_BONUS), "bonusStep": p.get("bonus_step", POTATO_BONUS)} for p in room["players"].values()],
         "asks": room["asks"], "mode": room.get("mode", "classic"), "game": room.get("games", 0),
+        "teamsOk": teams_ok(room), "teamsOn": bool(room.get("teams_on")) and teams_ok(room),
+        "teams": bool(room.get("teams")) and room.get("mode", "classic") == "classic",
     }
+    if state["teams"]:
+        state["teamScores"] = team_scores(room)
     if room.get("mode") == "potato" and room["phase"] in ("potato", "final"):
         now = time.time()
         state.update(lives=room["lives"], bonus=POTATO_BONUS, boom=room.get("boom"),
@@ -2428,6 +2499,9 @@ def daily_seeds():
     return _DAILY_SEEDS["seeds"]
 
 
+SUB_UNLOCKS = {"football", "darts", "f1", "combat", "cue", "cricket", "wwe"}
+
+
 def cat_unlocks(plays, cids):
     """What the character items for each main category are unlocked by: right answers and Outliers in it, and the
     best total in a seven-prompt game (quick game, daily or challenge) where every prompt came from it."""
@@ -2444,6 +2518,13 @@ def cat_unlocks(plays, cids):
             cats = {parent_of(PROMPTS[i]["cat"]) or PROMPTS[i]["cat"] for i in ids}
             if len(cats) == 1 and (c := cats.pop()) in out:
                 out[c]["best"] = max(out[c]["best"], total)
+    # right answers in each sub-category with a podium celebration (a child category like Football, or a filter tag)
+    subs = {k: {"right": 0} for k in SUB_UNLOCKS}
+    for p in plays:
+        if p[4] and p[1] in PROMPTS:
+            for k in SUB_UNLOCKS & ({PROMPTS[p[1]]["cat"]} | set(PROMPTS[p[1]]["tags"])):
+                subs[k]["right"] += 1
+    out["subs"] = subs
     return out
 
 
@@ -2699,11 +2780,11 @@ def api_post(path, body):
     if path == "/api/league/rename":
         return league_rename(body)
     if path == "/api/room/create":
-        room, token = create_room(body.get("name"))
+        room, token = create_room(body.get("name"), body.get("cid"))
         return {"code": room["code"], "pid": token}
     if path == "/api/room/join":
         room = get_room(body.get("code"))
-        return {"code": room["code"], "pid": add_player(room, body.get("name"))}
+        return {"code": room["code"], "pid": add_player(room, body.get("name"), body.get("cid"))}
     if path == "/api/room/screen":   # attach a big screen (a TV or laptop) to a room
         room = get_room(body.get("code"))
         return {"code": room["code"], "sid": add_screen(room)}
@@ -2752,6 +2833,18 @@ def api_post(path, body):
         return {**room_state(room, token), "miss": miss}
     if token != room["host"]:
         raise ApiError(403, "Only the host can do that")
+    if path == "/api/room/team":   # the lobby's teams: turn on or off, swap one player, or shuffle
+        if room["phase"] not in ("lobby", "final"):
+            raise ApiError(400, "Game already running")
+        if "on" in body:
+            room["teams_on"] = bool(body.get("on"))
+        if body.get("shuffle"):
+            balance_teams(room, shuffle=True)
+        if body.get("n") is not None:
+            p = next((p for p in room["players"].values() if p["n"] == body.get("n")), None)
+            if p:
+                p["team"] = 1 - (p.get("team") or 0)
+        return room_state(room, token)
     if path == "/api/room/start":
         if room["phase"] not in ("lobby", "final"):
             raise ApiError(400, "Game already running")
@@ -2777,9 +2870,12 @@ def api_post(path, body):
             except (TypeError, ValueError):
                 lives = 3
             room.update(mode="potato", cat=cat, tags=tags, lives=lives if lives in POTATO_LIVES else 3,
-                        secs=secs if secs in POTATO_TIMERS else 10)
+                        secs=secs if secs in POTATO_TIMERS else 10, teams=False)
             start_potato(room)
             return room_state(room, token)
+        room["teams"] = bool(room.get("teams_on")) and teams_ok(room)   # an odd number of players plays without teams
+        if room["teams"]:
+            balance_teams(room)
         room.update(mode="classic", cat=cat, tags=tags, rounds=max(1, min(rounds, 10, size)), round=0,
                     secs=secs if secs in TIMERS else ROUND_S, history=[], asks=[])
         for p in room["players"].values():
@@ -2792,6 +2888,10 @@ def api_post(path, body):
             start_potato(room)
             return room_state(room, token)
         room.update(round=0, history=[], asks=[])
+        if room.get("teams"):   # someone may have joined since: odd numbers play without teams
+            room["teams"] = teams_ok(room)
+            if room["teams"]:
+                balance_teams(room)
         for p in room["players"].values():
             p["score"], p["double_left"] = 0, True
         next_question(room)
