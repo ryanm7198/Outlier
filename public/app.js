@@ -2648,17 +2648,6 @@ function partyQuestion(s, host, answered) {
 
 const lanes = s => [...s.players].sort((a, b) => b.score - a.score);
 
-// What the crowd said: bars for the commonest answers, with each player's name on the answer they gave.
-function crowdChart(r) {
-  const top = Math.max(...r.crowd.map(b => b.share), 1);
-  return `<div class="card"><h3>What the crowd said <small class="muted">${r.answers} possible answers</small></h3>
-    <ul class="bars">${r.crowd.map(b => {
-      const who = r.results.filter(x => x.canonical === b.name).map(x => `<span class="who">${esc(x.name)}</span>`).join('');
-      return `<li class="${who ? 'picked' : ''}${b.outlier ? ' out' : ''}"><div class="bl"><b>${esc(b.name)}</b>${who}</div>
-        <div class="bt"><i style="width:${(100 * b.share / top).toFixed(1)}%"></i></div><span class="bs">${b.share}%</span></li>`;
-    }).join('')}</ul></div>`;
-}
-
 // Before the scores: the room's answers are turned over one at a time, from the commonest to the rarest, with a pause
 // before the last one ("And the rarest answer…") and an OUTLIER! stamp if it is one. Tap to skip. Plays once a round.
 function revealGroups(s, r) {
@@ -2741,7 +2730,6 @@ function partyRevealScores(s, host) {
     ${mine ? resultHTML(mine) : ''}
     ${raceHTML(s, r)}
     <div class="after${mine ? ' wait' : ''}">
-    ${crowdChart(r)}
     <div class="card">${trailHTML(lanes(s).map(p => {
       const got = r.results.find(x => x.n === p.n);
       return { name: p.name, from: p.score - (got ? got.points : 0), to: p.score, me: p.n === s.you, color: p.color };
@@ -3393,7 +3381,6 @@ function tvScores(s) {
     </div>
     <div class="tv-col">
       <section class="card"><h3>Standings</h3>${tvStandings(s)}</section>
-      ${crowdChart(r)}
     </div>
     <p class="tv-sub tv-foot">Waiting for the host to ${s.round >= s.rounds ? 'show the final standings' : 'start the next round'}</p>`, 'tv-scores');
   raceUp();

@@ -2025,10 +2025,7 @@ def resolve(room):
                              "shared": r["shared"], "doubled": r["doubled"], "pid": pid} for r in results])
     board = board_for(counts, keep={r["canonical"] for r in results if r["valid"]})
     results.sort(key=lambda r: -r["points"])
-    # The crowd chart: the most common answers, plus every answer a player in the room gave.
-    said = {r["canonical"] for r in results if r["valid"]}
-    crowd = [b for i, b in enumerate(board) if i < 8 or b["name"] in said]
-    room["reveal"] = {"prompt": PROMPTS[pid]["text"], "results": results, "crowd": crowd, "answers": len(counts),
+    room["reveal"] = {"prompt": PROMPTS[pid]["text"], "results": results, "answers": len(counts),
                       "outliers": [b for b in board if b["outlier"]], "commonest": board[0], "promptId": pid}
     room["phase"] = "reveal"
 
