@@ -67,7 +67,7 @@ def scores():
 
 
 def prompt(score):
-    return {"id": f"dc-{score}", "tags": ["checkouts"], "deep": True, "input": "darts", "target": score,
+    return {"id": f"dc-{score}", "tags": ["darts", "checkouts"], "deep": True, "input": "darts", "target": score,
             "text": f"Check out {score} in 3 darts (finish on a double or the Bull)", "answers": ordered(score)}
 
 

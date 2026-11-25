@@ -2579,10 +2579,10 @@ function potatoBreak(s) {
 function potatoBreakHTML(s) {
   const b = s.boom, byN = Object.fromEntries(s.players.map(p => [p.n, p]));
   const rows = s.order.map(n => byN[n]).filter(Boolean);
-  const head = b.out ? `${esc(b.name)} is out!` : `${esc(b.name)} fumbled!`;
+  const head = b.draw ? 'It’s a draw!' : b.out ? `${esc(b.name)} is out!` : `${esc(b.name)} fumbled!`;
   return `
     <section class="pt-break">
-      <p class="eyebrow">${ic('flame')} Time's up</p>
+      <p class="eyebrow">${b.draw ? `${ic('check')} All ${b.count} answers found` : `${ic('flame')} Time's up`}</p>
       <h2 class="pt-bh">${head}</h2>
       <ul class="pt-roll">${rows.map((p, i) => {
         const hit = p.n === b.n, d = `--d:${(i * 0.18).toFixed(2)}s`;
@@ -2596,16 +2596,18 @@ function potatoBreakHTML(s) {
 }
 
 function partyPotato(s) {
-  if (s.boom && s.boom.turn === s.turnId && s.breakMs > 0) { sfx.play('boom', !!s.boom.out); return potatoBreak(s); }
+  if (s.boom && s.boom.turn === s.turnId && s.breakMs > 0) { sfx.play(s.boom.draw ? 'ding' : 'boom', !!s.boom.out); return potatoBreak(s); }
   const me = s.players.find(p => p.n === s.you) || {};
   const kind = s.promptInput || {}, darts = kind.input === 'darts';
   const boom = s.boom && s.boom.turn === s.turnId && !s.boom.end
-    ? `<div class="pt-boom">${ic('flame')}<span><b>${esc(s.boom.name)}</b> ${s.boom.out ? 'ran out of time and is <b>out</b>!' : 'ran out of time and lost a life'}</span></div>` : '';
+    ? `<div class="pt-boom">${s.boom.draw ? `${ic('check')}<span>Every answer was found last prompt, so it was a <b>draw</b></span>`
+      : `${ic('flame')}<span><b>${esc(s.boom.name)}</b> ${s.boom.out ? 'ran out of time and is <b>out</b>!' : 'ran out of time and lost a life'}</span>`}</div>` : '';
   show(`${partyBar(s, `Fumble · Prompt ${s.round}`)}
     ${boom}
     <div class="pt-seats" id="ptSeats"></div>
     <p class="hint">${esc(s.hint)}</p>
     <h2 class="pt-prompt">${esc(s.prompt)}</h2>
+    <p class="pt-left" id="ptLeft" aria-live="polite"></p>
     <div class="pt-turn" id="ptTurn">
       <div class="bar"><div class="timer grow"><i id="tbar"></i></div><span class="secs" id="tsecs"></span></div>
       <div id="ptWho"></div>
@@ -2659,6 +2661,12 @@ function partyPotato(s) {
   updatePotato(s);
 }
 
+// How many answers on the list nobody has said yet this prompt.
+function ptLeft(s) {
+  const el = $('#ptLeft');
+  if (el && typeof s.left === 'number') el.innerHTML = `<b>${s.left}</b> possible answer${s.left === 1 ? '' : 's'} remaining`;
+}
+
 // A correct answer flashes up on everyone's screen for a moment.
 function potatoPop(s) {
   const l = s.log[0];
@@ -2694,6 +2702,7 @@ function updatePotato(s) {
   }
   setLog(potatoLog(s, LOGCTX()));
   $('#ptSaid').textContent = s.said;
+  ptLeft(s);
   if (party.ptSaid !== undefined && s.said > party.ptSaid) sfx.play('ding');
   party.ptSaid = s.said;
   potatoPop(s);
@@ -3604,13 +3613,14 @@ function tvPotatoFinal(s) {
 function tvPotato(s) {
   if (s.boom && s.boom.turn === s.turnId && s.breakMs > 0) {
     tvShow(s, `Fumble · Prompt ${s.round}`, potatoBreakHTML(s), 'tv-break');
-    return sfx.play('boom', !!s.boom.out);
+    return sfx.play(s.boom.draw ? 'ding' : 'boom', !!s.boom.out);
   }
   sfx.play('sting');
   tvShow(s, `Fumble · Prompt ${s.round}`, `
     <div class="tv-col tv-turn">
       <p class="tv-hint">${esc(s.hint)}</p>
       <h1 class="tv-prompt">${esc(s.prompt)}</h1>
+      <p class="pt-left" id="ptLeft"></p>
       <div class="tv-cur" id="tvCur"></div>
       ${tvClock()}
       <p class="tv-sub"><b id="ptSaid"></b> said so far · answer on your phone when it's your turn</p>
@@ -3626,6 +3636,7 @@ function tvPotatoUpdate(s) {
   $('#ptTable').innerHTML = potatoTable(s);
   setLog(potatoLog(s, LOGCTX()));
   $('#ptSaid').textContent = s.said;
+  ptLeft(s);
   potatoPop(s);
   if (tv.ptSaid !== undefined && s.said > tv.ptSaid) sfx.play('ding');   // a new answer went on the list
   tv.ptSaid = s.said;

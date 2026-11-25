@@ -631,7 +631,7 @@
    "tags": [
     "pl"
    ],
-   "text": "Name a player who has scored a Premier League hat-trick for Aston Villa (up to the end of the 2025-26 season)",
+   "text": "Name a player who has scored a Premier League hat-trick for or against Aston Villa (up to the end of the 2025-26 season)",
    "answers": [
     [
      "Ollie Watkins",
@@ -651,6 +651,55 @@
      "Gabby"
     ],
     [
+     "Steven Gerrard",
+     "Gerrard"
+    ],
+    [
+     "Gareth Bale",
+     "Bale"
+    ],
+    [
+     "Robbie Fowler",
+     "Fowler"
+    ],
+    [
+     "Michael Owen",
+     "Owen"
+    ],
+    [
+     "Sergio Agüero",
+     "Aguero",
+     "Agüero",
+     "Kun Aguero"
+    ],
+    [
+     "Frank Lampard",
+     "Lampard"
+    ],
+    [
+     "Robin van Persie",
+     "van Persie",
+     "RVP"
+    ],
+    [
+     "Sadio Mané",
+     "Mane",
+     "Mané"
+    ],
+    [
+     "Phil Foden",
+     "Foden"
+    ],
+    [
+     "Son Heung-min",
+     "Son",
+     "Sonny"
+    ],
+    [
+     "Mario Balotelli",
+     "Balotelli"
+    ],
+    [
      "Dion Dublin",
      "Dublin"
     ],
@@ -659,12 +708,44 @@
      "Carew"
     ],
     [
+     "Andy Carroll",
+     "Carroll"
+    ],
+    [
+     "Olivier Giroud",
+     "Giroud"
+    ],
+    [
      "Dean Saunders",
      "Saunders"
     ],
     [
+     "Nicolas Anelka",
+     "Anelka"
+    ],
+    [
+     "Chris Sutton",
+     "Sutton"
+    ],
+    [
+     "Jean-Philippe Mateta",
+     "Mateta"
+    ],
+    [
+     "Patrick Bamford",
+     "Bamford"
+    ],
+    [
      "Savo Milošević",
      "Milosevic"
+    ],
+    [
+     "Marlon Harewood",
+     "Harewood"
+    ],
+    [
+     "Kevin Gallacher",
+     "Gallacher"
     ],
     "Tommy Johnson",
     [
@@ -4678,7 +4759,7 @@
    "tags": [
     "pl"
    ],
-   "text": "Name a player who has played in the Premier League for both Man Utd and Chelsea (as of November 2026)",
+   "text": "Name a player who has played league football for both Man Utd and Chelsea (any era, as of November 2026)",
    "answers": [
     [
      "Juan Mata",
@@ -4706,6 +4787,11 @@
      "Sparky"
     ],
     [
+     "Ray Wilkins",
+     "Wilkins",
+     "Butch Wilkins"
+    ],
+    [
      "Juan Sebastián Verón",
      "Veron"
     ],
@@ -4725,6 +4811,18 @@
     [
      "Paul Parker",
      "Parker"
+    ],
+    [
+     "George Graham",
+     "Graham"
+    ],
+    [
+     "Mickey Thomas",
+     "Thomas"
+    ],
+    [
+     "Mal Donaghy",
+     "Donaghy"
     ]
    ]
   },
@@ -5025,7 +5123,7 @@
    "tags": [
     "pl"
    ],
-   "text": "Name a club or national team Harry Redknapp has managed",
+   "text": "Name a club or national team Harry Redknapp has managed or played for",
    "answers": [
     [
      "Tottenham Hotspur",
@@ -5058,6 +5156,23 @@
     ],
     [
      "Jordan"
+    ],
+    [
+     "Brentford"
+    ],
+    [
+     "Seattle Sounders",
+     "Seattle"
+    ],
+    [
+     "AP Leamington",
+     "Leamington"
+    ],
+    [
+     "Phoenix Fire"
+    ],
+    [
+     "Cwm Albion"
     ]
    ]
   },
@@ -5066,7 +5181,7 @@
    "tags": [
     "pl"
    ],
-   "text": "Name a club Peter Crouch played for (loans count)",
+   "text": "Name a club or national team Peter Crouch played for (loans count)",
    "answers": [
     [
      "Liverpool"
@@ -5074,6 +5189,9 @@
     [
      "Stoke City",
      "Stoke"
+    ],
+    [
+     "England"
     ],
     [
      "Tottenham Hotspur",
@@ -5172,7 +5290,7 @@
    "tags": [
     "pl"
    ],
-   "text": "Name a club Robbie Keane played for (loans count)",
+   "text": "Name a club or national team Robbie Keane has played for or managed (loans and youth clubs count)",
    "answers": [
     [
      "Tottenham Hotspur",
@@ -5181,6 +5299,12 @@
     ],
     [
      "Liverpool"
+    ],
+    [
+     "Republic of Ireland",
+     "Ireland",
+     "ROI",
+     "Eire"
     ],
     [
      "LA Galaxy",
@@ -5219,6 +5343,19 @@
      "ATK",
      "Atletico de Kolkata",
      "ATK Kolkata"
+    ],
+    [
+     "Maccabi Tel Aviv",
+     "Maccabi"
+    ],
+    [
+     "Ferencváros",
+     "Ferencvaros",
+     "Fradi"
+    ],
+    [
+     "Crumlin United",
+     "Crumlin"
     ]
    ]
   },
@@ -5300,7 +5437,7 @@
    "tags": [
     "pl"
    ],
-   "text": "Name a club Romelu Lukaku has played for (loans count, as of November 2026)",
+   "text": "Name a club or national team Romelu Lukaku has played for (loans and youth clubs count, as of November 2026)",
    "answers": [
     [
      "Chelsea"
@@ -5312,6 +5449,9 @@
     ],
     [
      "Everton"
+    ],
+    [
+     "Belgium"
     ],
     [
      "Inter Milan",
@@ -5337,6 +5477,18 @@
      "Fenerbahçe",
      "Fenerbahce",
      "Fener"
+    ],
+    [
+     "Lierse",
+     "Lierse SK"
+    ],
+    [
+     "Rupel Boom",
+     "Boom"
+    ],
+    [
+     "KFC Wintam",
+     "Wintam"
     ]
    ]
   },
@@ -5345,7 +5497,7 @@
    "tags": [
     "pl"
    ],
-   "text": "Name a club Craig Bellamy played for (loans count)",
+   "text": "Name a club or national team Craig Bellamy has played for, coached or managed (loans and youth clubs count)",
    "answers": [
     [
      "Liverpool"
@@ -5353,6 +5505,9 @@
     [
      "Newcastle United",
      "Newcastle"
+    ],
+    [
+     "Wales"
     ],
     [
      "Manchester City",
@@ -5380,6 +5535,15 @@
     [
      "Norwich City",
      "Norwich"
+    ],
+    [
+     "Burnley"
+    ],
+    [
+     "Anderlecht"
+    ],
+    [
+     "Bristol Rovers"
     ]
    ]
   },
@@ -5388,10 +5552,13 @@
    "tags": [
     "pl"
    ],
-   "text": "Name a club Robbie Fowler played for (loans count)",
+   "text": "Name a club or national team Robbie Fowler has played for or managed (loans count)",
    "answers": [
     [
      "Liverpool"
+    ],
+    [
+     "England"
     ],
     [
      "Leeds United",
@@ -5422,6 +5589,19 @@
      "Muangthong United",
      "Muangthong",
      "Muang Thong United"
+    ],
+    [
+     "Brisbane Roar",
+     "Brisbane"
+    ],
+    [
+     "East Bengal",
+     "SC East Bengal"
+    ],
+    [
+     "Al-Qadsiah",
+     "Al Qadsiah",
+     "Qadsiah"
     ]
    ]
   },
@@ -5430,7 +5610,7 @@
    "tags": [
     "pl"
    ],
-   "text": "Name a club Teddy Sheringham played for (loans count)",
+   "text": "Name a club or national team Teddy Sheringham has played for or managed (loans and youth clubs count)",
    "answers": [
     [
      "Manchester United",
@@ -5441,6 +5621,9 @@
      "Tottenham Hotspur",
      "Tottenham",
      "Spurs"
+    ],
+    [
+     "England"
     ],
     [
      "West Ham United",
@@ -5468,6 +5651,19 @@
      "Djurgården",
      "Djurgardens IF",
      "Djurgarden"
+    ],
+    [
+     "Stevenage"
+    ],
+    [
+     "ATK",
+     "Atletico de Kolkata",
+     "ATK Kolkata"
+    ],
+    [
+     "Leytonstone & Ilford",
+     "Leytonstone",
+     "Leytonstone and Ilford"
     ]
    ]
   },
@@ -5540,7 +5736,7 @@
    "tags": [
     "pl"
    ],
-   "text": "Name a club José Mourinho has managed (as of November 2026)",
+   "text": "Name a club José Mourinho has managed, played for, or worked at as an assistant coach or interpreter (as of November 2026)",
    "answers": [
     "Chelsea",
     [
@@ -5564,7 +5760,17 @@
      "inter",
      "internazionale"
     ],
+    [
+     "Barcelona",
+     "barca",
+     "fc barcelona"
+    ],
     "Porto",
+    [
+     "Sporting CP",
+     "sporting",
+     "sporting lisbon"
+    ],
     [
      "Roma",
      "as roma"
@@ -5579,6 +5785,21 @@
      "União de Leiria",
      "uniao de leiria",
      "leiria"
+    ],
+    [
+     "Belenenses",
+     "os belenenses"
+    ],
+    [
+     "Rio Ave"
+    ],
+    [
+     "Sesimbra",
+     "gd sesimbra"
+    ],
+    [
+     "Comércio e Indústria",
+     "comercio e industria"
     ]
    ]
   },
@@ -6961,7 +7182,7 @@
     "worldcup",
     "euros"
    ],
-   "text": "Name a country that has knocked England's men out of a World Cup or Euros in a knockout match (1950 to Euro 2024)",
+   "text": "Name a country that has knocked England's men out of a World Cup or Euros, in a finals knockout match or in qualifying (1950 to Euro 2024)",
    "answers": [
     [
      "Germany",
@@ -6975,8 +7196,21 @@
     "France",
     "Iceland",
     "Spain",
+    [
+     "Netherlands",
+     "Holland"
+    ],
+    "Poland",
+    "Russia",
     "Uruguay",
-    "Yugoslavia"
+    "Yugoslavia",
+    "Norway",
+    "Denmark",
+    [
+     "Soviet Union",
+     "USSR"
+    ],
+    "Czechoslovakia"
    ]
   },
   {
@@ -7340,7 +7574,7 @@
    "tags": [
     "efl"
    ],
-   "text": "Name a club or national team Mick McCarthy has managed",
+   "text": "Name a club or national team Mick McCarthy has managed or played for",
    "answers": [
     [
      "Republic of Ireland",
@@ -7358,6 +7592,16 @@
      "Ipswich"
     ],
     [
+     "Barnsley"
+    ],
+    [
+     "Celtic"
+    ],
+    [
+     "Manchester City",
+     "Man City"
+    ],
+    [
      "Sunderland"
     ],
     [
@@ -7373,6 +7617,10 @@
     [
      "APOEL",
      "APOEL Nicosia"
+    ],
+    [
+     "Lyon",
+     "Olympique Lyonnais"
     ]
    ]
   },
@@ -7381,7 +7629,7 @@
    "tags": [
     "efl"
    ],
-   "text": "Name a club Ian Holloway has managed",
+   "text": "Name a club Ian Holloway has managed or played for (loans count)",
    "answers": [
     [
      "Blackpool"
@@ -7416,6 +7664,16 @@
     [
      "Grimsby Town",
      "Grimsby"
+    ],
+    [
+     "Wimbledon"
+    ],
+    [
+     "Brentford"
+    ],
+    [
+     "Torquay United",
+     "Torquay"
     ]
    ]
   },

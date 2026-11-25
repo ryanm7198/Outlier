@@ -6,7 +6,7 @@
    "tags": [
     "europe"
    ],
-   "text": "Name a club that has won La Liga",
+   "text": "Name a club that has won La Liga or finished as runner-up",
    "answers": [
     "Real Madrid",
     [
@@ -20,6 +20,9 @@
     ],
     "Valencia",
     "Sevilla",
+    [
+     "Villarreal"
+    ],
     [
      "Athletic Bilbao",
      "Bilbao",
@@ -40,6 +43,24 @@
      "Coruña",
      "deportivo",
      "depor"
+    ],
+    [
+     "Real Zaragoza",
+     "Zaragoza"
+    ],
+    [
+     "Sporting Gijón",
+     "Sporting Gijon",
+     "Gijon",
+     "Sporting"
+    ],
+    [
+     "Las Palmas",
+     "UD Las Palmas"
+    ],
+    [
+     "Racing Santander",
+     "Racing"
     ]
    ],
    "eraText": "Name a club that won La Liga in the {era} (by the season they started)",
@@ -88,7 +109,7 @@
    "tags": [
     "europe"
    ],
-   "text": "Name a club that has won the Dutch Eredivisie (since 1956-57)",
+   "text": "Name a club that has won the Dutch Eredivisie or the KNVB Cup (since 1956-57)",
    "answers": [
     "Ajax",
     [
@@ -107,9 +128,48 @@
      "Twente"
     ],
     [
+     "FC Utrecht",
+     "Utrecht"
+    ],
+    [
+     "Vitesse",
+     "Vitesse Arnhem"
+    ],
+    [
+     "Heerenveen",
+     "sc heerenveen"
+    ],
+    [
+     "FC Groningen",
+     "Groningen"
+    ],
+    [
+     "PEC Zwolle",
+     "Zwolle"
+    ],
+    [
+     "Go Ahead Eagles",
+     "Go Ahead",
+     "GAE"
+    ],
+    [
      "Sparta Rotterdam",
      "Rotterdam",
      "sparta"
+    ],
+    [
+     "Roda JC",
+     "Roda",
+     "Roda JC Kerkrade"
+    ],
+    [
+     "ADO Den Haag",
+     "ADO",
+     "Den Haag"
+    ],
+    [
+     "Willem II",
+     "Willem 2"
     ],
     [
      "DWS",
@@ -118,6 +178,12 @@
     [
      "DOS",
      "dos utrecht"
+    ],
+    [
+     "Fortuna Sittard",
+     "Fortuna '54",
+     "Fortuna 54",
+     "Fortuna"
     ]
    ],
    "eraText": "Name a club that won the Eredivisie in the {era} (by the season they started)",
@@ -2660,7 +2726,7 @@
     "70s",
     "ucl"
    ],
-   "text": "Name a Nottingham Forest player who played in the 1979 European Cup final against Malmo",
+   "text": "Name a Nottingham Forest player who played in the 1979 or 1980 European Cup final",
    "answers": [
     [
      "Trevor Francis",
@@ -2681,6 +2747,11 @@
     [
      "Viv Anderson",
      "Anderson"
+    ],
+    [
+     "Martin O'Neill",
+     "O'Neill",
+     "ONeill"
     ],
     [
      "Garry Birtles",
@@ -2705,6 +2776,23 @@
     [
      "Frank Clark",
      "Clark"
+    ],
+    [
+     "Frank Gray",
+     "Gray"
+    ],
+    [
+     "Gary Mills",
+     "Mills"
+    ],
+    [
+     "John O'Hare",
+     "O'Hare",
+     "OHare"
+    ],
+    [
+     "Bryn Gunn",
+     "Gunn"
     ]
    ]
   },
@@ -2834,7 +2922,7 @@
     "60s",
     "ucl"
    ],
-   "text": "Name a West Ham player in the 1965 European Cup Winners' Cup final against 1860 Munich",
+   "text": "Name a West Ham player in the 1964 FA Cup final or the 1965 European Cup Winners' Cup final",
    "answers": [
     [
      "Bobby Moore",
@@ -2855,6 +2943,15 @@
     [
      "Ronnie Boyce",
      "Boyce"
+    ],
+    [
+     "John Bond",
+     "Bond"
+    ],
+    [
+     "Johnny Byrne",
+     "Byrne",
+     "Budgie Byrne"
     ],
     [
      "Ken Brown",
@@ -2879,6 +2976,14 @@
     [
      "Jack Burkett",
      "Burkett"
+    ],
+    [
+     "Peter Brabrook",
+     "Brabrook"
+    ],
+    [
+     "Eddie Bovington",
+     "Bovington"
     ]
    ]
   },
@@ -3496,7 +3601,7 @@
    "tags": [
     "ucl"
    ],
-   "text": "Name an English club that has played in a European Cup or Champions League final",
+   "text": "Name an English club that has played in a major UEFA final (European Cup/Champions League, Cup Winners' Cup, UEFA Cup/Europa League or Conference League)",
    "answers": [
     "Liverpool",
     "Manchester United",
@@ -3523,6 +3628,28 @@
     [
      "Leeds United",
      "leeds"
+    ],
+    [
+     "West Ham United",
+     "west ham"
+    ],
+    [
+     "Everton"
+    ],
+    [
+     "Ipswich Town",
+     "ipswich"
+    ],
+    [
+     "Wolverhampton Wanderers",
+     "wolves"
+    ],
+    [
+     "Middlesbrough",
+     "boro"
+    ],
+    [
+     "Fulham"
     ]
    ],
    "eraText": "Name an English club that played in a European Cup or Champions League final in the {era}",

@@ -1344,6 +1344,7 @@ def daily_pool(cat, day):
     # Only days that get pinned now (today on) drop retired prompts: older, never-pinned days are worked out again
     # for the leaderboards and must come out as they did then.
     ids = pool(cat, [], retired=day < datetime.date.today() - datetime.timedelta(days=1))
+    ids = [i for i in ids if not PROMPTS[i].get("input")]   # keypad questions (darts checkouts) never go in a daily
     if day < EASY_FROM or not EASE:
         return ids
     easy = [i for i in ids if daily_ok(i, cat)]
@@ -2143,7 +2144,8 @@ def awards_for(room):
 
 # ---------------------------------------------------------------- Fumble (party mode; "potato" in the code)
 # Players take turns naming an answer to one prompt. A valid answer nobody has given yet passes the turn on;
-# running out of time costs a life and brings a new prompt. Out of lives = out; the last player standing wins.
+# running out of time costs a life and brings a new prompt. If every answer on the list gets said, the prompt is a
+# draw: nobody loses a life and a new prompt starts. Out of lives = out; the last player standing wins.
 # Every valid answer also earns its usual rarity points, and points earn extra lives: the first at POTATO_BONUS,
 # then each one costs POTATO_BONUS more than the last (250, then 500 more, then 750 more...).
 POTATO_LIVES = (1, 3, 5)
@@ -2251,6 +2253,12 @@ def potato_answer(room, token, raw):
     room["said"].append(r["canonical"])
     room["log"].append({"n": p["n"], "name": p["name"], "answer": r["canonical"], "points": r["points"],
                         "outlier": r["outlier"], "bonus": bonus, "round": room["round"]})
+    if len(room["said"]) >= len(PROMPTS[pid]["names"]):   # every answer on the list has been said: a draw, nobody
+        room["break_until"] = time.time() + POTATO_BREAK  # loses a life, and the next player starts a new prompt
+        count = len(room["said"])
+        potato_round(room, potato_next(room, token), POTATO_BREAK + POTATO_PAUSE)
+        room["boom"] = {"draw": True, "count": count, "turn": room["turn_id"]}
+        return None
     potato_turn(room, potato_next(room, token))
     return None
 
@@ -2331,7 +2339,7 @@ def shared_state(room):
                          startsInMs=max(0, int((room["turn_start"] - now) * 1000)),
                          breakMs=max(0, int((room.get("break_until", 0) - now) * 1000)),
                          remainingMs=max(0, int((room["deadline"] - max(now, room["turn_start"])) * 1000)),
-                         said=len(room["said"]))
+                         said=len(room["said"]), left=len(PROMPTS[room["prompt"]]["names"]) - len(room["said"]))
     left = max(0, int((room["deadline"] - time.time()) * 1000))
     if room["phase"] == "lobby" and room.get("setup"):
         state["setup"] = room["setup"]

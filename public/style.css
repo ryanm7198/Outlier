@@ -754,6 +754,9 @@ details.answers .board .num { min-width: 2.4em; text-align: right; }
 
 /* hot potato */
 .pt-prompt { margin: 0; }
+.pt-left { margin: 0; text-align: center; font-size: .85rem; color: var(--muted); min-height: 1.2em; }
+.pt-left b { color: var(--text); }
+.tv-turn .pt-left { font-size: 1.15rem; }
 .pt-turn { display: grid; gap: 10px; padding: 14px; border-radius: var(--radius); background: var(--card); border: 1px solid var(--line); }
 .pt-turn.mine { border: 2px solid var(--you); box-shadow: 0 0 0 6px color-mix(in srgb, var(--you) 14%, transparent); }
 .pt-you { margin: 0; font-weight: 900; font-size: 1.3rem; color: var(--you); text-align: center; animation: drum .6s ease-in-out infinite alternate; }
