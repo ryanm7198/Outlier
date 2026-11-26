@@ -393,6 +393,7 @@ def open_db():
     except sqlite3.OperationalError:
         pass
     sync_answers()
+    load_familiarity()
     # Answers approved later live only in the database; make them matchable too.
     for pid, name in DB.execute("SELECT prompt_id, name FROM answers"):
         if pid in LOOKUP:
@@ -446,13 +447,45 @@ PRIOR_PLAYS = 240   # the starting crowd weighs as much as this many real plays 
 PLAY_FLOOR = 0.1    # every answer counts as at least a tenth of a play, so rare ones can't collapse to zero
 
 
+# Cross-prompt familiarity: an answer people keep naming on other prompts in the same category (Wayne Rooney
+# across dozens of football questions) starts a little more common everywhere else it appears, so a famous name
+# deep in a long list isn't scored as a near-Outlier just because nobody has given it on that prompt yet.
+# Each real play elsewhere counts as FAM_WEIGHT of a play here, up to FAM_CAP plays.
+FAM_WEIGHT = 0.1
+FAM_CAP = 3.0
+FAM = {}   # (top-level category, normalised answer) -> real plays across every prompt in that category
+
+
+def fam_key(pid, name):
+    p = PROMPTS.get(pid)
+    if not p or p["input"]:   # keypad answers (darts routes) are specific to their own prompt
+        return None
+    return (parent_of(p["cat"]) or p["cat"], norm(name))
+
+
+def load_familiarity():
+    FAM.clear()
+    for pid, name, plays in DB.execute("SELECT prompt_id, name, plays FROM answers WHERE plays > 0"):
+        k = fam_key(pid, name)
+        if k:
+            FAM[k] = FAM.get(k, 0) + plays
+
+
+def familiarity(pid, name, own_plays):
+    """Extra starting plays from this answer's real plays on other prompts in the category."""
+    k = fam_key(pid, name)
+    return min(FAM_CAP, FAM_WEIGHT * max(0, FAM.get(k, 0) - own_plays)) if k else 0
+
+
 def counts_for(pid):
     """The crowd for one prompt: a fixed-size starting crowd (the list order) plus every real play.
     With few players each play moves things visibly; the more people play, the more the real crowd takes over
-    and the starting crowd fades, so the numbers stay balanced however busy the prompt is."""
+    and the starting crowd fades, so the numbers stay balanced however busy the prompt is.
+    Answers named often on other prompts in the category get a small head start (familiarity, above)."""
     rows = DB.execute("SELECT name, count - plays, plays FROM answers WHERE prompt_id = ?", (pid,)).fetchall()
     prior_total = sum(max(0, p) for _, p, _ in rows) or 1
-    return {n: PRIOR_PLAYS * max(0, p) / prior_total + plays + PLAY_FLOOR for n, p, plays in rows}
+    return {n: PRIOR_PLAYS * max(0, p) / prior_total + plays + familiarity(pid, n, plays) + PLAY_FLOOR
+            for n, p, plays in rows}
 
 
 def outliers_for(counts):
@@ -508,6 +541,9 @@ def record(pid, name, raw):
     """Every entry nudges the crowd: valid answers get more common, unknown ones queue for review."""
     if name:
         DB.execute("UPDATE answers SET count = count + 1, plays = plays + 1 WHERE prompt_id = ? AND name = ?", (pid, name))
+        k = fam_key(pid, name)
+        if k:
+            FAM[k] = FAM.get(k, 0) + 1
     else:
         key = norm(raw)
         if key:
