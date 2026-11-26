@@ -485,8 +485,31 @@ def counts_for(pid):
     Answers named often on other prompts in the category get a small head start (familiarity, above)."""
     rows = DB.execute("SELECT name, count - plays, plays FROM answers WHERE prompt_id = ?", (pid,)).fetchall()
     prior_total = sum(max(0, p) for _, p, _ in rows) or 1
-    return {n: PRIOR_PLAYS * max(0, p) / prior_total + PLAY_WEIGHT * plays + familiarity(pid, n, plays) + PLAY_FLOOR
-            for n, p, plays in rows}
+    out = {n: PRIOR_PLAYS * max(0, p) / prior_total + PLAY_WEIGHT * plays + familiarity(pid, n, plays) + PLAY_FLOOR
+           for n, p, plays in rows}
+    return anchor(pid, out)
+
+
+ANCHOR_SHARE = 0.9   # the first few answers listed never fall below this share of the commonest answer,
+                     # so they stay at the cheap end (about 15 points at most) however players pick
+
+
+def anchor_count(n):
+    """How many of a list's first answers are anchored: 3 on short lists, 5% of longer ones, at most 8."""
+    return min(8, max(3, round(0.05 * n)))
+
+
+def anchor(pid, counts):
+    """The most obvious answers (the top of the list, e.g. Wayne Rooney for Man Utd players) stay among the
+    commonest however players pick, so they always score low; everything below them still moves freely."""
+    p = PROMPTS.get(pid)
+    if not p or not counts or len(counts) < 6:
+        return counts
+    top = max(counts.values())
+    for n in p["names"][:anchor_count(len(p["names"]))]:
+        if n in counts:
+            counts[n] = max(counts[n], ANCHOR_SHARE * top)
+    return counts
 
 
 def outliers_for(counts):
