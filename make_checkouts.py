@@ -67,7 +67,7 @@ def scores():
 
 
 def prompt(score):
-    return {"id": f"dc-{score}", "tags": ["darts", "checkouts"], "deep": True, "input": "darts", "target": score,
+    return {"id": f"dc-{score}", "tags": ["checkouts"], "deep": True, "input": "darts", "target": score,
             "text": f"Check out {score} in 3 darts (finish on a double or the Bull)", "answers": ordered(score)}
 
 
@@ -75,7 +75,7 @@ def main():
     path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "prompts-sport-checkouts.json")
     rows = [prompt(s) for s in scores()]
     with open(path, "w", encoding="utf-8") as f:
-        f.write('{"cat": "sport", "prompts": [\n' + ",\n".join(json.dumps(p) for p in rows) + "\n]}\n")
+        f.write('{"cat": "darts", "prompts": [\n' + ",\n".join(json.dumps(p) for p in rows) + "\n]}\n")
     print(f"Wrote {len(rows)} prompts to {os.path.basename(path)}: "
           + ", ".join(f"{p['target']} ({len(p['answers'])})" for p in rows))
 

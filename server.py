@@ -209,6 +209,9 @@ def load_prompts():
             CATS.append({
                 "id": data["cat"], "label": data["label"], "order": data.get("order", 99),
                 "parent": data.get("parent"),   # e.g. Football sits inside Sport
+                # "open": picking this sub-category on its own brings in its specialist ("deep") questions too, so
+                # Darts means trivia and checkouts, where Football alone still waits for an era or competition
+                "open": bool(data.get("open")),
                 "filters": [{"label": g["label"], "tags": [{"id": t[0], "label": t[1]} for t in g["tags"]]}
                             for g in data.get("filters", [])],
             })
@@ -1122,6 +1125,10 @@ def filter_groups(cat):
     return []
 
 
+def cat_open(cat):
+    return next((c["open"] for c in CATS if c["id"] == cat), False)
+
+
 def parent_of(cat):
     return next((c["parent"] for c in CATS if c["id"] == cat), None)
 
@@ -1187,16 +1194,19 @@ def pool(cat, tags, deep=None, retired=False):
             continue
         if p["era_only"] and p["era_only"] not in tags:   # decade versions need their decade picked
             continue
-        home, mine = cat, tags
+        home, mine, picked = cat, tags, False
         if kids:
             if p["cat"] in kids:
                 if subs and p["cat"] not in subs:
                     continue
                 home = p["cat"]
+                picked = home in subs
             elif subs and not (subs & lead):
                 continue
             mine = tags & {t for g in filter_groups(home) for t in g}   # a filter that applies to this prompt
-        if p["deep"] and not (mine if deep is None else deep):
+        if not kids and parent_of(cat):
+            picked = True   # the sub-category itself was picked (Darts, or Darts inside a mix)
+        if p["deep"] and not ((mine or (picked and cat_open(home))) if deep is None else deep):
             continue
         ptags = set(p["tags"])
         if all(group_ok(g, g & tags, ptags) for g in filter_groups(home)):
@@ -1510,7 +1520,7 @@ def categories():
     for c in CATS:
         ids = pool(c["id"], [])
         # "big" counts only prompts long enough for Fumble; "~small" marks the rest, so the party lobby can leave them out
-        out.append({"id": c["id"], "label": c["label"], "count": len(ids), "parent": c["parent"],
+        out.append({"id": c["id"], "label": c["label"], "count": len(ids), "parent": c["parent"], "open": c["open"],
                     "big": sum(map(potato_ok, ids)),
                     "tagsets": [p["tags"] + (["~deep"] if p["deep"] else []) + ([f'~only:{p["era_only"]}'] if p["era_only"] else [])
                                 + ([f'~cat:{p["cat"]}'] if p["cat"] != c["id"] else [])

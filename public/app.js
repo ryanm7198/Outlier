@@ -933,14 +933,15 @@ function countOne(p) {
   return c.tagsets.filter(tags => {
     if (fumbleLobby() && tags.includes('~small')) return false;   // too few answers for Fumble
     if (!tags.every(t => !t.startsWith('~only:') || p.tags.includes(t.slice(6)))) return false;   // decade versions need their decade
-    let home = c;
+    let home = c, picked = !!c.parent;   // picked: the sub-category (Darts) itself was chosen
     const kid = (tags.find(t => t.startsWith('~cat:')) || '').slice(5);
     if (kid) {
       if (subs.length && !subs.includes(kid)) return false;
       home = catOf(kid);
+      picked = subs.includes(kid);
     } else if (subs.length && !subs.some(t => lead.tags.some(x => x.id === t))) return false;
     const mine = kids.length ? p.tags.filter(t => home.filters.some(g => g.tags.some(x => x.id === t))) : p.tags;
-    return (mine.length || !tags.includes('~deep')) && passes(home.filters, tags, p.tags);
+    return (mine.length || (picked && home.open) || !tags.includes('~deep')) && passes(home.filters, tags, p.tags);
   }).length;
 }
 
@@ -974,7 +975,17 @@ const apiQuery = p => { const a = apiPick(p); return `cat=${encodeURIComponent(a
 // Picks saved by older versions ({ cat, tags }) become the new shape.
 function upgradePick(p) {
   if (!p) return { sels: {} };
-  if (p.sels) return { sels: Object.fromEntries(selsOf(p).filter(([cat]) => CATS.some(c => c.id === cat))) };
+  if (p.sels) {
+    const sels = Object.fromEntries(selsOf(p).filter(([cat]) => CATS.some(c => c.id === cat)));
+    // Darts and Darts checkouts used to be Sport options; Darts is now a sub-category with Trivia and Checkouts.
+    const sp = sels.sport;
+    if (sp && CATS.some(c => c.id === 'darts') && (sp.includes('darts') || sp.includes('checkouts'))) {
+      sels.darts = sp.includes('darts') ? [] : ['checkouts'];
+      sels.sport = sp.filter(t => t !== 'darts' && t !== 'checkouts');
+      if (!sels.sport.length) delete sels.sport;
+    }
+    return { sels };
+  }
   if (!p.cat || p.cat === 'all' || !CATS.some(c => c.id === p.cat)) return { sels: {} };
   const c = catOf(p.cat), kids = kidsOf(c), tags = p.tags || [];
   if (!kids.length) return { sels: { [c.id]: tags } };
@@ -1092,7 +1103,7 @@ function parentSheet(cat, done) {
           `<span class="more">${(kidTags[k.id] || []).length ? 'custom' : ''}${ic('right')}</span>`)).join('')}
         ${lead.tags.map(t => chipHTML(ticked.has(t.id), `data-t="${t.id}"`, t.label, !cnt(t))).join('')}
       </div></div>
-      <p class="fine">${ic('right')}<span>Tap ${kids.map(k => esc(k.label)).join(' or ')} to choose its eras and competitions.</span></p>
+      <p class="fine">${ic('right')}<span>Tap ${kids.map(k => esc(k.label)).join(', ').replace(/, ([^,]*)$/, ' or $1')} to choose what's in it.</span></p>
       <div class="sheet-f">
         ${had ? '<button class="btn" data-remove>Remove</button>' : ''}
         <button class="btn primary" data-ok ${ticked.size ? '' : 'disabled'}>${ticked.size ? `Confirm · ${n} prompts` : 'Tick some, or Select all'}</button>
