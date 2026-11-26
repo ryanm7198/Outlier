@@ -276,6 +276,27 @@ function phones(hd, cup, rim, mic, band2 = '#c9d3e6') {
   return `<g fill="none" stroke-linejoin="round"><path d="${band}" stroke="${INK}" stroke-width="3"/><path d="${band}" stroke="${band2}" stroke-width="1.3"/></g>${cupAt(cl)}${cupAt(cr)}${boom}`;
 }
 const PHONES = { 5: hd => phones(hd, '#ff9f43') };
+// Every other head item is refitted to the head too. Hats are drawn for a round head whose crown is 10.25 either
+// side of the middle, 5 below its top; HEAD_W is each head's width there against that (the robot and rounded-square
+// heads are broader, the egg is narrower). 'wrap' items hug the crown so they take the head's width (caps, beanies,
+// bands, helmets, crowns), 'half' items sit on top and widen only halfway, 'edge' items (bow, flower) slide out to
+// the head's edge without changing size, and everything moves to the head's top.
+const HEAD_W = [1, 1.19, 1, .86, 1, 1, 1.09, .98, 1.22, 1, .98, 1.07];
+const HAT_HUG = { 2: 'wrap', 3: 'wrap', 4: 'wrap', 6: 'half', 7: 'edge', 8: 'half', 9: 'half', 10: 'wrap', 11: 'edge', 12: 'half', 13: 'wrap' };
+CAT_ITEMS.forEach(it => { if (it.part === 3) HAT_HUG[it.idx] = { Sweatband: 'wrap', 'Laurel wreath': 'wrap', 'Pith helmet': 'wrap',
+  'Tricorn hat': 'wrap', 'Jester hat': 'wrap', 'Mad scientist hair': 'wrap', Rainbow: 'wrap', 'Pixel crown': 'wrap', Mohawk: 'half',
+  'Graduation cap': 'half', 'Fried egg': 'half', 'Popcorn bucket': 'half', Cupcake: 'half', 'Book stack': 'half' }[it.name]; });
+function fitHat(svg, ht, hd, dy) {
+  if (!svg) return svg;
+  const w = HEAD_W[hd] || 1, hug = HAT_HUG[ht];
+  const sx = hug === 'wrap' ? w : hug === 'half' ? 1 + (w - 1) / 2 : 1;
+  if (hug === 'edge') {   // the bow and flower sit about 7.5 out from the middle on a round head
+    const dx = +((w - 1) * 7.5).toFixed(2);
+    return dx || dy ? `<g transform="translate(${dx} ${dy})">${svg}</g>` : svg;
+  }
+  if (sx === 1) return dy ? `<g transform="translate(0 ${dy})">${svg}</g>` : svg;
+  return `<g transform="translate(20 ${11 + dy}) scale(${+sx.toFixed(3)} 1) translate(-20 -11)">${svg}</g>`;
+}
 CAT_ITEMS.forEach(it => { if (it.name === 'Gaming headset') PHONES[it.idx] = hd => phones(hd, '#7bd88f', INK, true); });
 const CAT_LABEL = { sport: 'Sport', music: 'Music', film: 'Film & TV', gaming: 'Gaming', geography: 'Geography', history: 'History',
   science: 'Science & Nature', food: 'Food & Drink', words: 'Books & Words', misc: 'Pot luck' };
@@ -427,7 +448,7 @@ const avatar = (name, color, look, mood) => {
   let head = LOOK_PARTS[0][hd];
   if (fit === 'cover') head = head.replace(/<g data-top>.*?<\/g>/g, '');
   if (fit === 'side') head = head.replace(/<g data-side>.*?<\/g>/g, '');
-  const hat = PHONES[ht] ? PHONES[ht](hd) : LOOK_PARTS[3][ht] && dy && fit !== 'float' ?`<g transform="translate(0 ${dy})">${LOOK_PARTS[3][ht]}</g>` : LOOK_PARTS[3][ht];
+  const hat = PHONES[ht] ? PHONES[ht](hd) : fitHat(LOOK_PARTS[3][ht], ht, hd, dy);
   return `<span class="av ch${m ? ` ${m.cls || 'mood-' + mood}` : ''}" style="--pc:${PCOL[color] || PCOL[0]}" role="img" aria-label="${esc(name || '')}"><svg viewBox="0 0 40 40" aria-hidden="true">`
     + `${m ? m.behind : ''}<g style="fill:var(--pc)">${head}</g>${under}${m ? m.eyes : LOOK_PARTS[1][ey]}${m ? m.mouth : LOOK_PARTS[2][mo]}${over}${hat}${m && m.front || ''}</svg></span>`;
 };
