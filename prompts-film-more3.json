@@ -162,7 +162,12 @@
      "Captain Vallenger",
      "Vallenger"
     ],
-    "Maccus"
+    "Maccus",
+    [
+     "Sri Sumbhajee",
+     "Sumbhajee Angria"
+    ],
+    "Tamara"
    ]
   },
   {
@@ -201,8 +206,14 @@
      "Dr Jonathan Crane",
      "Jonathan Crane"
     ],
-    "Poison Ivy",
-    "Harley Quinn",
+    [
+     "Poison Ivy",
+     "Pamela Isley"
+    ],
+    [
+     "Harley Quinn",
+     "Harleen Quinzel"
+    ],
     [
      "Mr. Freeze",
      "Mr Freeze",
@@ -214,13 +225,20 @@
      "Rass al Ghul",
      "Ras al Ghul"
     ],
-    "Clayface",
-    "Killer Croc",
-    "Hush",
+    [
+     "Clayface",
+     "Basil Karlo"
+    ],
+    [
+     "Killer Croc",
+     "Waylon Jones"
+    ],
+    [
+     "Hush",
+     "Thomas Elliot"
+    ],
     "KGBeast",
     "Kite Man",
-    "Mr. Zsasz",
-    "Professor Strange",
     "Azrael",
     "Lock-Up",
     "Max Shreck",
@@ -231,35 +249,57 @@
     "Punchline",
     "Mad Monk",
     "Magpie",
-    "Black Mask",
+    [
+     "Black Mask",
+     "Roman Sionis"
+    ],
     [
      "Mad Hatter",
-     "The Mad Hatter"
+     "The Mad Hatter",
+     "Jervis Tetch"
     ],
     [
      "Man-Bat",
-     "Man Bat"
+     "Man Bat",
+     "Kirk Langstrom"
     ],
-    "Deadshot",
+    [
+     "Deadshot",
+     "Floyd Lawton"
+    ],
     [
      "Talia al Ghul",
      "Talia"
     ],
-    "Hugo Strange",
+    [
+     "Hugo Strange",
+     "Professor Strange",
+     "Professor Hugo Strange"
+    ],
     [
      "Victor Zsasz",
-     "Zsasz"
+     "Zsasz",
+     "Mr. Zsasz"
     ],
-    "Firefly",
+    [
+     "Firefly",
+     "Garfield Lynns"
+    ],
     "Killer Moth",
-    "Calendar Man",
+    [
+     "Calendar Man",
+     "Julian Day"
+    ],
     [
      "Ventriloquist",
      "The Ventriloquist",
      "Arnold Wesker"
     ],
     "Scarface",
-    "Deathstroke",
+    [
+     "Deathstroke",
+     "Slade Wilson"
+    ],
     [
      "Professor Pyg",
      "Pyg"
@@ -351,7 +391,8 @@
     "Rupert Thorne",
     [
      "Red Hood",
-     "Jason Todd"
+     "Jason Todd",
+     "Arkham Knight"
     ],
     "Lady Shiva",
     "Copperhead",
@@ -369,7 +410,14 @@
      "The Court of Owls"
     ],
     "Joe Chill",
-    "Cluemaster"
+    "Cluemaster",
+    "Rag Doll",
+    "The Spook",
+    "Doctor Double X",
+    "Nocturna",
+    "Professor Milo",
+    "Cavalier",
+    "Carl Grissom"
    ]
   },
   {
@@ -416,7 +464,10 @@
     "Roy",
     "Truffles",
     "Sophie",
-    "The Little Red-Haired Girl",
+    [
+     "The Little Red-Haired Girl",
+     "Heather"
+    ],
     "The Great Pumpkin",
     "The Red Baron",
     "Joe Shlabotnik",
@@ -451,7 +502,11 @@
     "Royanne",
     "Thibault",
     "Joe Cool",
-    "Miss Othmar"
+    "Miss Othmar",
+    "Faron",
+    "Cormac",
+    "Olivier",
+    "Raymond"
    ]
   },
   {
@@ -515,6 +570,7 @@
     "Dogpound",
     "Fishface",
     "Kraang",
+    "Utroms",
     "Ice Cream Kitty",
     "Big Mama",
     "Slash",
@@ -598,7 +654,14 @@
     "Wingnut",
     "Screwloose",
     "Dirtbag",
-    "Muckman"
+    "Muckman",
+    "Triceratons",
+    "Super Shredder",
+    "Purple Dragons",
+    "Ace Duck",
+    "Dr. Chaplin",
+    "Napoleon Bonafrog",
+    "Newtralizer"
    ]
   }
  ]

@@ -15,9 +15,7 @@
     "Coco",
     "Up",
     "Inside Out",
-    [
-     "Monsters, Inc."
-    ],
+    "Monsters, Inc.",
     "Spirited Away",
     "Ratatouille",
     "WALL-E",
@@ -29,9 +27,7 @@
     ],
     "Kung Fu Panda",
     "Cars",
-    [
-     "The Incredibles"
-    ],
+    "The Incredibles",
     "Toy Story 4",
     "Ice Age",
     [
@@ -45,7 +41,10 @@
     ],
     "Treasure Planet",
     "Brother Bear",
-    "The Triplets of Belleville",
+    [
+     "The Triplets of Belleville",
+     "Belleville Rendez-vous"
+    ],
     "Shark Tale",
     "Shrek 2",
     [
@@ -133,7 +132,8 @@
     [
      "A Shaun the Sheep Movie: Farmageddon",
      "Farmageddon",
-     "Shaun the Sheep Movie: Farmageddon"
+     "Shaun the Sheep Movie: Farmageddon",
+     "Shaun the Sheep 2"
     ],
     "Wolfwalkers",
     "Flee",
@@ -200,7 +200,11 @@
    ],
    "text": "Name a character from the Kung Fu Panda films",
    "answers": [
-    "Po",
+    [
+     "Po",
+     "Dragon Warrior",
+     "Po Ping"
+    ],
     [
      "Master Shifu",
      "Shifu"
@@ -273,7 +277,11 @@
     [
      "Boss Wolf",
      "Wolf Boss"
-    ]
+    ],
+    "Bao",
+    "Big Fun",
+    "Granny Boar",
+    "Captain Fish"
    ]
   },
   {
@@ -283,7 +291,10 @@
    ],
    "text": "Name a character from the animated How to Train Your Dragon films",
    "answers": [
-    "Hiccup",
+    [
+     "Hiccup",
+     "Hiccup Horrendous Haddock III"
+    ],
     "Toothless",
     "Astrid",
     [
@@ -317,7 +328,14 @@
      "Belch"
     ],
     "Light Fury",
-    "Red Death"
+    "Red Death",
+    "Zephyr",
+    "Nuffink",
+    "Hoark the Haggard",
+    "Phlegma the Fierce",
+    "Ragnar the Rock",
+    "Griselda the Grevious",
+    "Chaghatai Khan"
    ]
   },
   {
@@ -351,7 +369,11 @@
     "Vitaly",
     "Gia",
     "Stefano",
-    "Dave",
+    [
+     "Dave",
+     "Dr. Octavius Brine",
+     "Octavius Brine"
+    ],
     "Classified",
     "Short Fuse",
     "Eva",
@@ -402,12 +424,19 @@
      "Earl of Lemongrab"
     ],
     "Flame Princess",
-    "Gunter",
+    [
+     "Gunter",
+     "Gunther",
+     "Orgalorg"
+    ],
     "Tree Trunks",
     "Lady Rainicorn",
     "Peppermint Butler",
     "Cinnamon Bun",
-    "Simon Petrikov",
+    [
+     "Simon Petrikov",
+     "Simon"
+    ],
     "Marshall Lee",
     "Prince Gumball",
     "Huntress Wizard",
@@ -419,7 +448,10 @@
     "Viola",
     "T.V.",
     "Fern",
-    "Martin Mertens",
+    [
+     "Martin Mertens",
+     "Martin"
+    ],
     "Minerva Campbell",
     "Gumbald",
     "Sweet P",
@@ -449,7 +481,10 @@
     "Princess Monster Wife",
     "Hunson Abadeer",
     "Magic Man",
-    "Betty",
+    [
+     "Betty",
+     "Betty Grof"
+    ],
     [
      "The Lich",
      "Lich"
@@ -464,7 +499,22 @@
     "Starchy",
     "Jermaine",
     "Joshua",
-    "Ricardio"
+    "Ricardio",
+    "Cosmic Owl",
+    "Lemonhope",
+    "Rattleballs",
+    "Banana Man",
+    "Bandit Princess",
+    "Neddy",
+    "Mr. Cupcake",
+    "Ash",
+    "Tiffany",
+    [
+     "The Snail",
+     "Waving Snail"
+    ],
+    "Mr. Pig",
+    "Jay T. Doggzone"
    ]
   },
   {
@@ -494,7 +544,10 @@
      "Grunkle Ford",
      "The Author"
     ],
-    "Soos",
+    [
+     "Soos",
+     "Soos Ramirez"
+    ],
     [
      "Wendy Corduroy",
      "Wendy"
@@ -538,7 +591,10 @@
     ],
     "Lazy Susan",
     "Toby Determined",
-    "Manly Dan",
+    [
+     "Manly Dan",
+     "Dan Corduroy"
+    ],
     "Tambry",
     "Bud Gleeful",
     "Rumble McSkirmish",
@@ -565,7 +621,21 @@
     ],
     "Gompers",
     "Preston Northwest",
-    "Time Baby"
+    "Time Baby",
+    "Agent Powers",
+    "Agent Trigger",
+    "Tyler Cutebiker",
+    "Shandra Jimenez",
+    "Mayor Befufftlefumpter",
+    "Marius von Fundshauser",
+    "Tyrone",
+    "Priscilla Northwest",
+    "Gremloblin",
+    "Love God",
+    "Mr. Poolcheck",
+    "Hand Witch",
+    "Melody",
+    "Abuelita"
    ]
   },
   {
@@ -575,14 +645,21 @@
    ],
    "text": "Name a character from Avatar: The Last Airbender (the animated series)",
    "answers": [
-    "Aang",
+    [
+     "Aang",
+     "Avatar Aang"
+    ],
     "Katara",
     "Sokka",
     [
      "Toph Beifong",
      "Toph"
     ],
-    "Zuko",
+    [
+     "Zuko",
+     "Prince Zuko",
+     "Blue Spirit"
+    ],
     [
      "Iroh",
      "Uncle Iroh"
@@ -636,7 +713,10 @@
     "June",
     "Cabbage Merchant",
     "Kya",
-    "King Kuei",
+    [
+     "King Kuei",
+     "Earth King"
+    ],
     "Bosco",
     "Guru Pathik",
     "Lo and Li",
@@ -700,7 +780,18 @@
     "Koh",
     "Yangchen",
     "Kuruk",
-    "Jeong Jeong"
+    "Jeong Jeong",
+    "Lieutenant Jee",
+    "General Fong",
+    "General How",
+    "Mongke",
+    "Shyu",
+    "Lee",
+    "Ruon-Jian",
+    "Pao",
+    "Tui and La",
+    "Kuzon",
+    "Noren"
    ]
   },
   {
@@ -750,7 +841,10 @@
      "Felix Fischoeder",
      "Felix"
     ],
-    "Gayle",
+    [
+     "Gayle",
+     "Aunt Gayle"
+    ],
     [
      "Regular-Sized Rudy",
      "Rudy"
@@ -936,7 +1030,29 @@
     [
      "Dragon Quest: The Adventure of Dai",
      "Dragon Quest Dai"
-    ]
+    ],
+    "Mazinger Z",
+    "Black Cat",
+    [
+     "Nura: Rise of the Yokai Clan",
+     "Nurarihyon no Mago"
+    ],
+    "Hinomaru Sumo",
+    "Yuuna and the Haunted Hot Springs",
+    "Magical Taruruto-kun",
+    "Jungle King Tar-chan",
+    "Me & Roboco",
+    "Bastard!!",
+    "Midori no Makibao",
+    "Tottemo! Luckyman",
+    "Moeru! Oniisan",
+    "Sexy Commando Gaiden: Sugoiyo!! Masaru-san",
+    [
+     "Dream Soldier Wingman",
+     "Wingman"
+    ],
+    "D·N·A²",
+    "Dokonjo Gaeru"
    ]
   },
   {
@@ -953,17 +1069,31 @@
      "Thomas & Friends",
      "Thomas the Tank Engine"
     ],
+    [
+     "Noddy's Toyland Adventures",
+     "Noddy",
+     "Make Way for Noddy"
+    ],
     "Fireman Sam",
     "Hey Duggee",
     "Bing",
     "Mr Bean: The Animated Series",
     "The Amazing World of Gumball",
-    "Mr. Men",
+    [
+     "Mr. Men",
+     "The Mr. Men Show"
+    ],
     "Spot",
     "Bananaman",
-    "Dennis the Menace and Gnasher",
+    [
+     "Dennis the Menace and Gnasher",
+     "Dennis the Menace"
+    ],
     "The Trap Door",
-    "Morph",
+    [
+     "Morph",
+     "The Amazing Adventures of Morph"
+    ],
     "Funnybones",
     "Shaun the Sheep",
     [
@@ -982,7 +1112,10 @@
     "Danger Mouse",
     "Octonauts",
     "Mr Benn",
-    "Roobarb",
+    [
+     "Roobarb",
+     "Roobarb and Custard"
+    ],
     "Ivor the Engine",
     "Noggin the Nog",
     "Timmy Time",
@@ -1081,7 +1214,47 @@
     [
      "The Raggy Dolls",
      "Raggy Dolls"
-    ]
+    ],
+    "Thunderbirds Are Go",
+    [
+     "Rupert Bear, Follow the Magic...",
+     "Rupert Bear",
+     "Rupert"
+    ],
+    "Little Miss",
+    "Twirlywoos",
+    "Dennis & Gnasher: Unleashed!",
+    "The Rubbish World of Dave Spud",
+    "Strange Hill High",
+    "Frankenstein's Cat",
+    "Pablo",
+    "Supertato",
+    "Colourblocks",
+    "Cloudbabies",
+    "Little Charley Bear",
+    "Dipdap",
+    "Dog Loves Books",
+    "The Large Family",
+    "Towser",
+    "Budgie the Little Helicopter",
+    "Mumfie",
+    "Oscar's Orchestra",
+    "Tube Mice",
+    "Bump",
+    "Pinny's House",
+    "Mop and Smiff",
+    "The Perishers",
+    "Bleep and Booster",
+    "Noah and Nelly in... SkylArk",
+    "The Adventures of Portland Bill",
+    "Rubbadubbers",
+    "Big Knights",
+    "Gordon the Garden Gnome",
+    "Ethelbert the Tiger",
+    "Bounty Hamster",
+    "James the Cat",
+    "Hattytown Tales",
+    "Olly the Little White Van"
    ]
   },
   {
@@ -1135,10 +1308,16 @@
     ],
     "Anomalisa",
     "Missing Link",
-    "Guillermo del Toro's Pinocchio",
+    [
+     "Guillermo del Toro's Pinocchio",
+     "Pinocchio"
+    ],
     "Wendell & Wild",
     "Mary and Max",
-    "My Life as a Courgette",
+    [
+     "My Life as a Courgette",
+     "My Life as a Zucchini"
+    ],
     "Marcel the Shell with Shoes On",
     "The Inventor",
     "Mad Monster Party?",
@@ -1164,7 +1343,28 @@
      "Dawn of the Nugget",
      "Chicken Run 2"
     ],
-    "Memoir of a Snail"
+    "Memoir of a Snail",
+    "Mad God",
+    "Junk Head",
+    [
+     "Pinchcliffe Grand Prix",
+     "Flåklypa Grand Prix"
+    ],
+    "The Miracle Maker",
+    "The Puppetoon Movie",
+    "No Dogs or Italians Allowed",
+    "Toys in the Attic",
+    "The Pied Piper",
+    "Fimfárum",
+    "The Emperor's Nightingale",
+    "Old Czech Legends",
+    "Prince Bayaya",
+    "The New Gulliver",
+    [
+     "The Apostle",
+     "O Apóstolo"
+    ],
+    "Rudolph and Frosty's Christmas in July"
    ]
   },
   {
@@ -1273,7 +1473,8 @@
      "Milo's Return"
     ],
     "Brother Bear 2",
-    "Kronk's New Groove"
+    "Kronk's New Groove",
+    "Winnie the Pooh: Seasons of Giving"
    ]
   },
   {
@@ -1313,10 +1514,16 @@
     "Sam Sheepdog",
     "Claude Cat",
     "Barnyard Dawg",
-    "Rocky",
+    [
+     "Rocky",
+     "Rocky and Mugsy"
+    ],
     "Private Snafu",
     "Hector the Bulldog",
-    "The Goofy Gophers",
+    [
+     "The Goofy Gophers",
+     "Mac and Tosh"
+    ],
     "Henery Hawk",
     "Barney Rubble",
     "Dino",
@@ -1330,7 +1537,16 @@
      "Tasmanian Devil",
      "Taz"
     ],
-    "Sylvester Jr."
+    "Sylvester Jr.",
+    "Gabby Goat",
+    "Nasty Canasta",
+    "Slowpoke Rodriguez",
+    "Hugo the Abominable Snowman",
+    "Count Bloodcount",
+    "Marc Antony",
+    "Mugsy",
+    "Happy Rabbit",
+    "Gideon"
    ]
   },
   {
@@ -1346,7 +1562,8 @@
     ],
     [
      "Héctor",
-     "Hector"
+     "Hector",
+     "Héctor Rivera"
     ],
     [
      "Ernesto de la Cruz",
@@ -1402,7 +1619,14 @@
      "Chicharrón",
      "Chicharron"
     ],
-    "Frida Kahlo"
+    "Frida Kahlo",
+    [
+     "Papá Franco",
+     "Franco Rivera",
+     "Papa Franco",
+     "Franco"
+    ],
+    "Socorro"
    ]
   },
   {
@@ -1414,7 +1638,8 @@
    "answers": [
     [
      "Judy Hopps",
-     "Judy"
+     "Judy",
+     "Officer Hopps"
     ],
     [
      "Nick Wilde",
@@ -1475,7 +1700,11 @@
      "Otterton"
     ],
     "Mrs. Otterton",
-    "Manchas",
+    [
+     "Manchas",
+     "Mr. Manchas",
+     "Renato Manchas"
+    ],
     "Nangi",
     "Priscilla",
     [
@@ -1485,7 +1714,24 @@
     [
      "Pronk Oryx-Antlerson",
      "Pronk"
-    ]
+    ],
+    "Raymond",
+    "Kevin",
+    "Peter Moosebridge",
+    "Fabienne Growley",
+    "Major Friedkin",
+    [
+     "Dr. Madge Honey Badger",
+     "Madge"
+    ],
+    "Sharla",
+    "Gary",
+    "Larry",
+    "Officer Fangmeyer",
+    "Officer Wolfard",
+    "Officer Higgins",
+    "Officer Delgato",
+    "Officer Grizzoli"
    ]
   },
   {
@@ -1587,7 +1833,9 @@
    "answers": [
     [
      "Mulan",
-     "Fa Mulan"
+     "Fa Mulan",
+     "Ping",
+     "Fa Ping"
     ],
     "Mushu",
     [
@@ -1687,7 +1935,18 @@
     "Scratte",
     "Shangri Llama",
     "Soto",
-    "Fast Tony"
+    "Fast Tony",
+    "Egbert",
+    "Shelly",
+    "Yoko",
+    "Uncle Fungus",
+    "Marshall",
+    "Milton",
+    "Eunice",
+    "Roger",
+    "Stu",
+    "Orson",
+    "Zee"
    ]
   },
   {
@@ -1740,7 +1999,8 @@
     "Vegeta",
     [
      "Gohan",
-     "Son Gohan"
+     "Son Gohan",
+     "Great Saiyaman"
     ],
     "Piccolo",
     [
@@ -1770,7 +2030,8 @@
     [
      "Master Roshi",
      "Roshi",
-     "Kame Sennin"
+     "Kame Sennin",
+     "Jackie Chun"
     ],
     [
      "Chi-Chi",
@@ -1786,7 +2047,10 @@
     "Future Trunks",
     "Kid Buu",
     "Super Buu",
-    "Bulla",
+    [
+     "Bulla",
+     "Bra"
+    ],
     "Marron",
     "Grandpa Gohan",
     "Android 21",
@@ -1797,7 +2061,10 @@
     "Janemba",
     "Champa",
     "Vados",
-    "Zeno",
+    [
+     "Zeno",
+     "Zen-Oh"
+    ],
     "Granolah",
     "Moro",
     "Gas",
@@ -1810,12 +2077,17 @@
     ],
     "Oolong",
     "Puar",
-    "Launch",
+    [
+     "Launch",
+     "Lunch"
+    ],
     "Shenron",
     "Dende",
     "Kami",
     "King Kai",
     "Broly",
+    "Paragus",
+    "Bojack",
     "Jiren",
     "Zamasu",
     "Gotenks",
@@ -1852,7 +2124,10 @@
     "Guldo",
     "Jeice",
     "Burter",
-    "Mercenary Tao",
+    [
+     "Mercenary Tao",
+     "Tao Pai Pai"
+    ],
     "Nam",
     "Giran",
     "Garlic Jr.",
@@ -1860,7 +2135,10 @@
     "Android 13",
     "Hirudegarn",
     "Baby",
-    "Omega Shenron",
+    [
+     "Omega Shenron",
+     "Syn Shenron"
+    ],
     "Super 17",
     "Goku Jr.",
     "Tarble",
@@ -1890,7 +2168,10 @@
     "Colonel Silver",
     "Staff Officer Black",
     "Ninja Murasaki",
-    "Android 8",
+    [
+     "Android 8",
+     "Eighter"
+    ],
     "Glorio",
     "Gomah",
     "Panzy",
@@ -1919,7 +2200,49 @@
     [
      "Mr. Popo",
      "Mr Popo"
-    ]
+    ],
+    "Grand Priest",
+    "Cell Jr.",
+    "Android 14",
+    "Android 15",
+    "Dr. Wheelo",
+    "Zangya",
+    "Tapion",
+    "Hatchiyack",
+    "Dr. Arinsu",
+    "Majin Kuu",
+    "Majin Duu",
+    "General Rilldo",
+    "Nuova Shenron",
+    "Dr. Myuu",
+    "Giru",
+    "Sharpner",
+    "Erasa",
+    "Bee",
+    "Jaco",
+    "Sorbet",
+    "Tagoma",
+    "Grand Kai",
+    "King Yemma",
+    "Princess Snake",
+    "Bubbles",
+    "Monaka",
+    "Appule",
+    "Cui",
+    "Porunga",
+    "Botamo",
+    "Magetta",
+    "Elec",
+    "Vegeta Jr.",
+    "Pikkon",
+    "Suno",
+    "Dr. Brief",
+    "Panchy",
+    "Tights",
+    "Master Shen",
+    "Piano",
+    "Marcarita",
+    "Fasha"
    ]
   },
   {
@@ -2162,7 +2485,52 @@
      "Kyuubi"
     ],
     "Jugo",
-    "Suigetsu"
+    "Suigetsu",
+    "Gamakichi",
+    "Katsuyu",
+    "Manda",
+    "Ukon",
+    "Han",
+    "Fu",
+    "Shikaku Nara",
+    "Inoichi Yamanaka",
+    "Choza Akimichi",
+    "Tsume Inuzuka",
+    "Shibi Aburame",
+    [
+     "Ay",
+     "Fourth Raikage",
+     "Raikage"
+    ],
+    "Mifune",
+    "Izuna Uchiha",
+    "Hamura Otsutsuki",
+    "Toneri Otsutsuki",
+    "Shin Uchiha",
+    "Urashiki Otsutsuki",
+    "Kashin Koji",
+    "Amado",
+    "Ada",
+    "Sumire Kakei",
+    "Denki Kaminarimon",
+    "Iwabee Yuino",
+    "Kagura Karatachi",
+    "Mirai Sarutobi",
+    "Yugao Uzuki",
+    "Dan Kato",
+    "Nawaki",
+    "Mito Uzumaki",
+    "Fukasaku",
+    "Enma",
+    "Matatabi",
+    "Isobu",
+    "Kokuo",
+    "Saiken",
+    "Chomei",
+    "Koharu Utatane",
+    "Homura Mitokado",
+    "Akatsuchi",
+    "Torune"
    ]
   },
   {
@@ -2289,7 +2657,13 @@
     ],
     "Gretchen",
     "Milly",
-    "Meap"
+    "Meap",
+    "Dr. Diminutive",
+    "Aloyse von Roddenstein",
+    "Biff",
+    "Klimpaloon",
+    "Danny",
+    "Bob Webber"
    ]
   },
   {
@@ -2332,7 +2706,8 @@
     "Onion",
     [
      "Mr. Smiley",
-     "Mr Smiley"
+     "Mr Smiley",
+     "Harold Smiley"
     ],
     "Yellow Diamond",
     "Blue Diamond",
@@ -2353,7 +2728,8 @@
     ],
     [
      "Mayor Dewey",
-     "Dewey"
+     "Dewey",
+     "Bill Dewey"
     ],
     [
      "Ronaldo Fryman",
@@ -2410,7 +2786,21 @@
     [
      "Holly Blue Agate",
      "Holly Blue"
-    ]
+    ],
+    "Mr. Fryman",
+    "Vidalia",
+    "Yellowtail",
+    "Marty",
+    "Eyeball",
+    "Shep",
+    "Steg",
+    [
+     "The Cluster",
+     "Cluster"
+    ],
+    "Watermelon Steven",
+    "Carnelian",
+    "Skinny Jasper"
    ]
   },
   {
@@ -2486,7 +2876,13 @@
     "Silico",
     "Mitch Mitchelson",
     "Elmer Sglue",
-    "Robin Snyder"
+    "Robin Snyder",
+    "Bullet",
+    "Octi",
+    [
+     "Mr. Mime",
+     "Rainbow the Clown"
+    ]
    ]
   },
   {
@@ -2587,7 +2983,16 @@
     [
      "Sparky",
      "Experiment 221"
-    ]
+    ],
+    "Moses Puloki",
+    [
+     "627",
+     "Experiment 627"
+    ],
+    "Morpholomew",
+    "Ploot",
+    "Yaarp",
+    "Sample"
    ]
   },
   {
@@ -2648,7 +3053,8 @@
     ],
     [
      "Aqua Teen Hunger Force",
-     "Aqua Teen"
+     "Aqua Teen",
+     "ATHF"
     ],
     [
      "The Venture Bros.",
@@ -2781,7 +3187,42 @@
     [
      "Mr. Pickles",
      "Mr Pickles"
-    ]
+    ],
+    "The Ren & Stimpy \"Adult Party Cartoon\"",
+    "M.O.D.O.K.",
+    "Little Demon",
+    "Mr. Birchum",
+    "The Life & Times of Tim",
+    "Out There",
+    "Stone Quackers",
+    "Chozen",
+    "Lucas Bros. Moving Co.",
+    "Hot Streets",
+    "The Jellies!",
+    "Apollo Gauntlet",
+    "JJ Villard's Fairy Tales",
+    "Tigtone",
+    "Off the Air",
+    "SuperMansion",
+    "The Shivering Truth",
+    "Farzar",
+    "Captain Fall",
+    "Pantheon",
+    "Blue Eye Samurai",
+    "Twilight of the Gods",
+    "Creature Commandos",
+    "The Prince",
+    "Chicago Party Aunt",
+    "The Head",
+    "3 South",
+    "Where My Dogs At?",
+    "DJ & the Fro",
+    "Stripperella",
+    "Perfect Hair Forever",
+    "Spy Groove",
+    "Fish Police",
+    "Gary & Mike",
+    "Sammy"
    ]
   },
   {
@@ -2828,11 +3269,6 @@
     ],
     "Postman Pat",
     "Fireman Sam",
-    [
-     "Thomas the Tank Engine & Friends",
-     "Thomas the Tank Engine",
-     "Thomas and Friends"
-    ],
     "Around the World with Willy Fog",
     "The Trap Door",
     "Henry's Cat",
@@ -3019,7 +3455,39 @@
     [
      "A Pup Named Scooby-Doo",
      "Pup Named Scooby-Doo"
-    ]
+    ],
+    [
+     "Ghostbusters",
+     "Filmation's Ghostbusters"
+    ],
+    "Yogi's Treasure Hunt",
+    "Richie Rich",
+    "The Kwicky Koala Show",
+    "Monchhichis",
+    "The Little Rascals",
+    "The 13 Ghosts of Scooby-Doo",
+    "The New Scooby-Doo Mysteries",
+    "TigerSharks",
+    "Hulk Hogan's Rock 'n' Wrestling",
+    "Maple Town",
+    "Anpanman",
+    "Fantastic Max",
+    "Pigeon Street",
+    "Gran",
+    "King Rollo",
+    "Towser",
+    "James the Cat",
+    "Mop and Smiff",
+    "Tube Mice",
+    "Pinny's House",
+    "The Adventures of Portland Bill",
+    "Grimm's Fairy Tale Classics",
+    "Noozles",
+    "Trollkins",
+    "Ovide and the Gang",
+    "Lazer Tag Academy",
+    "Dink, the Little Dinosaur",
+    "The Adventures of the Little Koala"
    ]
   },
   {
@@ -3124,6 +3592,13 @@
     [
      "George Stacy",
      "Captain Stacy"
+    ],
+    "Gayatri Singh",
+    "Inspector Singh",
+    "Lego Spider-Man",
+    [
+     "Miles G. Morales",
+     "Earth-42 Miles"
     ]
    ]
   },

@@ -17,6 +17,7 @@
     ],
     "It's a Wonderful Life",
     "Die Hard",
+    "Die Hard 2",
     "The Snowman",
     [
      "The Polar Express",
@@ -35,6 +36,7 @@
      "Home Alone 2",
      "Lost in New York"
     ],
+    "Home Alone 3",
     "Arthur Christmas",
     [
      "Nativity!",
@@ -44,6 +46,10 @@
     [
      "The Santa Clause",
      "Santa Clause"
+    ],
+    [
+     "The Santa Clause 2",
+     "Santa Clause 2"
     ],
     "Scrooged",
     [
@@ -59,6 +65,8 @@
     "Gremlins",
     "White Christmas",
     "Klaus",
+    "That Christmas",
+    "Jingle Jangle: A Christmas Journey",
     [
      "The Nightmare Before Christmas",
      "Nightmare Before Christmas"
@@ -66,6 +74,7 @@
     "Four Christmases",
     "Fred Claus",
     "Last Christmas",
+    "The Holdovers",
     "The Night Before",
     "Office Christmas Party",
     "Daddy's Home 2",
@@ -93,7 +102,10 @@
     "Noel",
     "The Family Stone",
     "Bridget Jones's Diary",
-    "Love the Coopers",
+    [
+     "Love the Coopers",
+     "Christmas with the Coopers"
+    ],
     "A Bad Moms Christmas",
     "The Christmas Chronicles",
     "Violent Night",
@@ -142,7 +154,52 @@
     "Robbie the Reindeer",
     "Father Christmas",
     "The Snowman and the Snowdog",
-    "Holiday Affair"
+    "Holiday Affair",
+    "The Santa Clause 3: The Escape Clause",
+    "Home Sweet Home Alone",
+    "Home Alone 4",
+    "Bad Santa 2",
+    "The Christmas Chronicles 2",
+    "Noelle",
+    "A Boy Called Christmas",
+    "Single All the Way",
+    "The Princess Switch",
+    "A Christmas Prince",
+    "Falling for Christmas",
+    "Love Hard",
+    [
+     "Your Christmas or Mine?",
+     "Your Christmas or Mine"
+    ],
+    "Your Christmas or Mine 2",
+    "Silent Night",
+    "Boxing Day",
+    "Spencer",
+    "While You Were Sleeping",
+    "Serendipity",
+    "Last Holiday",
+    "The Family Man",
+    "The Preacher's Wife",
+    "Mixed Nuts",
+    "The Ref",
+    "Unaccompanied Minors",
+    "The Nutcracker and the Four Realms",
+    "A Christmas Story Christmas",
+    "Scrooge: A Christmas Carol",
+    "Beauty and the Beast: The Enchanted Christmas",
+    "Mickey's Twice Upon a Christmas",
+    "Nativity Rocks!",
+    "Christmas Carol: The Movie",
+    "Stick Man",
+    "A Charlie Brown Christmas",
+    "Rudolph the Red-Nosed Reindeer",
+    "Frosty the Snowman",
+    "We're No Angels",
+    "Babes in Toyland",
+    "Christmas Evil",
+    "Rare Exports",
+    "It's a Wonderful Knife",
+    "Terrifier 3"
    ]
   },
   {
@@ -291,6 +348,10 @@
      "Lynne"
     ],
     [
+     "Hayley Slater",
+     "Hayley"
+    ],
+    [
      "Sonia Fowler",
      "Sonia Jackson",
      "Sonia"
@@ -302,6 +363,10 @@
     [
      "Michelle Fowler",
      "Michelle"
+    ],
+    [
+     "Vicki Fowler",
+     "Vicki"
     ],
     [
      "Mark Fowler",
@@ -327,6 +392,7 @@
      "Peter Beale",
      "Peter"
     ],
+    "Pete Beale",
     [
      "Bobby Beale",
      "Bobby"
@@ -357,7 +423,9 @@
     ],
     [
      "Dean Wicks",
-     "Dean"
+     "Dean",
+     "Deano Wicks",
+     "Deano"
     ],
     [
      "Whitney Dean",
@@ -366,6 +434,10 @@
     [
      "Lauren Branning",
      "Lauren"
+    ],
+    [
+     "Bradley Branning",
+     "Bradley"
     ],
     [
      "Abi Branning",
@@ -612,12 +684,12 @@
      "Kevin"
     ],
     [
-     "Deano Wicks",
-     "Deano"
-    ],
-    [
      "David Wicks",
      "David"
+    ],
+    [
+     "Simon Wicks",
+     "Wicksy"
     ],
     [
      "Tiffany Mitchell",
@@ -863,7 +935,60 @@
     [
      "Reiss Colwell",
      "Reiss"
-    ]
+    ],
+    [
+     "Bex Fowler",
+     "Rebecca Fowler",
+     "Bex"
+    ],
+    "Debbie Wilkins",
+    "Andy O'Brien",
+    "Saeed Jeffery",
+    "Naima Jeffery",
+    "Mehmet Osman",
+    "Diane Butcher",
+    "Mo Butcher",
+    "Joe Wicks",
+    "Ruth Fowler",
+    "Billie Jackson",
+    "Blossom Jackson",
+    "Gus Smith",
+    "Trevor Morgan",
+    [
+     "Spencer Moon",
+     "Spencer"
+    ],
+    "Nana Moon",
+    [
+     "Garry Hobbs",
+     "Garry"
+    ],
+    [
+     "Minty Peterson",
+     "Minty"
+    ],
+    "Oscar Branning",
+    "Paul Coker",
+    [
+     "Fatboy",
+     "Arthur Chubb"
+    ],
+    "Mercy Olubunmi",
+    "Ryan Malloy",
+    "Poppy Meadow",
+    "Dexter Hartman",
+    "Denny Rickman",
+    "Lucas Johnson",
+    [
+     "Stan Carter",
+     "Stan"
+    ],
+    "Sylvie Carter",
+    "Keegan Baker",
+    "Zack Hudson",
+    "Rocky Cotton",
+    "Frankie Lewis",
+    "Penny Branning"
    ]
   },
   {
@@ -888,6 +1013,7 @@
     ],
     "Scream",
     "It",
+    "It Chapter Two",
     [
      "The Conjuring",
      "Conjuring"
@@ -900,6 +1026,7 @@
     ],
     "Friday the 13th",
     "Psycho",
+    "The Birds",
     [
      "The Ring",
      "Ring",
@@ -925,6 +1052,7 @@
     ],
     "Jaws",
     "Alien",
+    "Aliens",
     "Carrie",
     [
      "The Thing",
@@ -932,6 +1060,7 @@
     ],
     "Poltergeist",
     "Final Destination",
+    "I Know What You Did Last Summer",
     [
      "The Babadook",
      "Babadook"
@@ -953,6 +1082,7 @@
      "The Evil Dead",
      "Evil Dead"
     ],
+    "Evil Dead II",
     "28 Days Later",
     "Shaun of the Dead",
     [
@@ -982,6 +1112,7 @@
      "The Others",
      "Others"
     ],
+    "The Sixth Sense",
     "Sinister",
     [
      "The Purge",
@@ -1121,7 +1252,163 @@
     ],
     "The Brood",
     "Spider Baby",
-    "Carnival of Souls"
+    "Carnival of Souls",
+    "Jacob's Ladder",
+    "Split",
+    "The Visit",
+    "Happy Death Day",
+    "Ready or Not",
+    "Last Night in Soho",
+    "The Black Phone",
+    "Evil Dead Rise",
+    "Army of Darkness",
+    "Drag Me to Hell",
+    "Orphan",
+    "Jennifer's Body",
+    "Zombieland",
+    "What We Do in the Shadows",
+    "Don't Breathe",
+    "Green Room",
+    "Doctor Sleep",
+    "1408",
+    "The Mist",
+    "Salem's Lot",
+    "Children of the Corn",
+    "Creepshow",
+    "Prince of Darkness",
+    "In the Mouth of Madness",
+    "The Last House on the Left",
+    "The People Under the Stairs",
+    "Phantasm",
+    "The Changeling",
+    "The Howling",
+    "The Entity",
+    "Leprechaun",
+    "Bride of Chucky",
+    "Freddy vs. Jason",
+    "Urban Legend",
+    "The Faculty",
+    "The Craft",
+    "Cube",
+    "Sleepy Hollow",
+    "Thir13en Ghosts",
+    "House of Wax",
+    "Ghost Ship",
+    "Cabin Fever",
+    "Trick 'r Treat",
+    "You're Next",
+    "Oculus",
+    "Ouija",
+    "Annabelle Comes Home",
+    "The Conjuring: The Devil Made Me Do It",
+    "The Conjuring: Last Rites",
+    "The Nun II",
+    "Insidious: Chapter 2",
+    "Saw II",
+    "Smile 2",
+    "Terrifier 2",
+    "Saw X",
+    "Scream VI",
+    "Final Destination Bloodlines",
+    "A Quiet Place Part II",
+    "A Quiet Place: Day One",
+    "The Exorcism of Emily Rose",
+    "The Autopsy of Jane Doe",
+    "Gerald's Game",
+    "Malignant",
+    "Men",
+    "Late Night with the Devil",
+    "Heretic",
+    "Weapons",
+    "Sinners",
+    "Bring Her Back",
+    "The Monkey",
+    "Abigail",
+    "Immaculate",
+    "MaXXXine",
+    "Alien: Romulus",
+    "The First Omen",
+    "Thanksgiving",
+    "The Lighthouse",
+    "Skinamarink",
+    "Speak No Evil",
+    "The Ritual",
+    "Apostle",
+    "Severance",
+    "Creep",
+    "Triangle",
+    "The Awakening",
+    "Host",
+    "Ghostwatch",
+    "Nightbreed",
+    "The Company of Wolves",
+    "Quatermass and the Pit",
+    "Night of the Demon",
+    "Repulsion",
+    "The Abominable Dr. Phibes",
+    "Theatre of Blood",
+    "Witchfinder General",
+    "The Blood on Satan's Claw",
+    "The Devil Rides Out",
+    "The Curse of Frankenstein",
+    "Tales from the Crypt",
+    "28 Weeks Later",
+    "28 Years Later",
+    "Resident Evil",
+    "Silent Hill",
+    "Return of the Living Dead",
+    "Day of the Dead",
+    "Slither",
+    "From Dusk till Dawn",
+    "Interview with the Vampire",
+    "30 Days of Night",
+    "Near Dark",
+    "Let Me In",
+    "Ginger Snaps",
+    "The Serpent and the Rainbow",
+    "Prom Night",
+    "My Bloody Valentine",
+    "Funny Games",
+    "High Tension",
+    "Shutter",
+    "Pulse",
+    "Dark Water",
+    "Kwaidan",
+    "Onibaba",
+    [
+     "House",
+     "Hausu"
+    ],
+    "Cure",
+    "A Tale of Two Sisters",
+    "The Wailing",
+    "Exhuma",
+    "Incantation",
+    "The Devil's Backbone",
+    "Crimson Peak",
+    "Veronica",
+    "Deep Red",
+    "Tenebrae",
+    "Inferno",
+    "Black Sunday",
+    "Eyes Without a Face",
+    "Les Diaboliques",
+    "The Cabinet of Dr. Caligari",
+    "Vampyr",
+    "Freaks",
+    "The Phantom of the Opera",
+    "Cat People",
+    "I Walked with a Zombie",
+    "Creature from the Black Lagoon",
+    "House on Haunted Hill",
+    "The Masque of the Red Death",
+    "The Pit and the Pendulum",
+    "Wolf Creek",
+    "The Loved Ones",
+    "Noroi",
+    "Hell House LLC",
+    "V/H/S",
+    "Grave Encounters"
    ]
   }
  ]

@@ -10,7 +10,6 @@
    "answers": [
     [
      "Scooby-Doo",
-     "Scooby Doo",
      "Scooby"
     ],
     [
@@ -49,7 +48,10 @@
     "Gargamel",
     "Fred Jones",
     "Captain Planet",
-    "Mr. Spacely",
+    [
+     "Mr. Spacely",
+     "Cosmo Spacely"
+    ],
     "Brain",
     "Officer Dibble",
     "Dino",
@@ -57,10 +59,7 @@
      "Yogi Bear",
      "Yogi"
     ],
-    [
-     "Boo-Boo",
-     "Boo Boo"
-    ],
+    "Boo-Boo",
     [
      "Huckleberry Hound",
      "Huckleberry"
@@ -71,7 +70,10 @@
      "Benny"
     ],
     "Jabberjaw",
-    "Hong Kong Phooey",
+    [
+     "Hong Kong Phooey",
+     "Penrod Pooch"
+    ],
     "Captain Caveman",
     [
      "Dick Dastardly",
@@ -87,7 +89,11 @@
     "Fancy-Fancy",
     "Spook",
     "Baba Looey",
-    "Snooper and Blabber",
+    [
+     "Snooper and Blabber",
+     "Super Snooper",
+     "Blabber Mouse"
+    ],
     "El Kabong",
     "Morocco Mole",
     "Grape Ape",
@@ -200,7 +206,6 @@
     ],
     [
      "Scrappy-Doo",
-     "Scrappy Doo",
      "Scrappy"
     ],
     "Wally Gator",
@@ -216,35 +221,80 @@
      "Pixie",
      "Dixie"
     ],
-    [
-     "Mr. Jinks",
-     "Mr Jinks"
-    ],
+    "Mr. Jinks",
     "Ranger Smith",
     "Cindy Bear",
     "Hokey Wolf",
-    [
-     "Touché Turtle",
-     "Touche Turtle"
-    ],
+    "Touché Turtle",
     [
      "Lippy the Lion",
      "Lippy"
     ],
     "Hardy Har Har",
     "Ricochet Rabbit",
-    [
-     "Augie Doggie",
-     "Doggie Daddy"
-    ],
+    "Augie Doggie",
+    "Doggie Daddy",
     [
      "The Great Gazoo",
      "Gazoo"
     ],
-    [
-     "Mr. Slate",
-     "Mr Slate"
-    ]
+    "Mr. Slate",
+    "The Hooded Claw",
+    "Sylvester Sneekly",
+    "Blubber Bear",
+    "Sawtooth",
+    "Clyde",
+    "Lazy Smurf",
+    "Greedy Smurf",
+    "Harmony Smurf",
+    "Poet Smurf",
+    "Painter Smurf",
+    "Farmer Smurf",
+    "Dreamy Smurf",
+    "Grandpa Smurf",
+    "Sassette",
+    "Casey Kelp",
+    "Daffney Gillfin",
+    "Tooter",
+    "Junior Wetworth",
+    "Mumbly",
+    "Dread Baron",
+    "Mildew Wolf",
+    "Baby Puss",
+    "Red Herring",
+    "Chopper",
+    "Fibber Fox",
+    "Snuffles",
+    "Loopy De Loop",
+    "Paw Rugg",
+    "Chief Winchley",
+    "Buzz Conroy",
+    "Granny Sweet",
+    "Zandor",
+    "Igoo",
+    "Tundro",
+    "Gloop and Gleep",
+    "Jan",
+    "Jace",
+    "Blip",
+    "Bubi Bear",
+    "Square Bear",
+    "Mr. Peevly",
+    "The Funky Phantom",
+    "Godzooky",
+    "Wheelie",
+    "Johnny Bravo",
+    "Dexter",
+    "Blossom",
+    "Bubbles",
+    "Buttercup",
+    "Mojo Jojo",
+    "Professor Utonium",
+    "Cow",
+    "Chicken",
+    "I.M. Weasel",
+    "T-Bone",
+    "Razor"
    ]
   },
   {
@@ -273,12 +323,12 @@
      "Professor Farnsworth",
      "Farnsworth",
      "Hubert Farnsworth",
-     "The Professor"
+     "The Professor",
+     "Hubert J. Farnsworth"
     ],
     [
      "Dr. Zoidberg",
-     "Zoidberg",
-     "Dr Zoidberg"
+     "Zoidberg"
     ],
     [
      "Amy Wong",
@@ -297,13 +347,22 @@
      "Kif"
     ],
     "Mom",
-    "Nibbler",
+    [
+     "Nibbler",
+     "Lord Nibbler"
+    ],
     "Scruffy",
     "Calculon",
     "Slurms MacKenzie",
     "Brain Slugs",
-    "Morris",
-    "Munda",
+    [
+     "Morris",
+     "Turanga Morris"
+    ],
+    [
+     "Munda",
+     "Turanga Munda"
+    ],
     "LaBarbara Conrad",
     "Dwight Conrad",
     "Inez Wong",
@@ -353,7 +412,8 @@
     [
      "Dr. Wernstrom",
      "Wernstrom",
-     "Professor Wernstrom"
+     "Professor Wernstrom",
+     "Ogden Wernstrom"
     ],
     "Donbot",
     "Walt",
@@ -370,7 +430,14 @@
     "Joey Mousepad",
     "Lars",
     "Yancy Fry",
-    "Leo Wong"
+    "Leo Wong",
+    "Mr. Panucci",
+    "Gunther",
+    "Big Brain",
+    "Raoul",
+    "Vyolet",
+    "Mrs. Fry",
+    "Bev"
    ]
   },
   {
@@ -407,7 +474,8 @@
     ],
     [
      "Glenn Quagmire",
-     "Quagmire"
+     "Quagmire",
+     "Glen Quagmire"
     ],
     [
      "Cleveland Brown",
@@ -447,7 +515,10 @@
     "Death",
     "Evil Monkey",
     "Consuela",
-    "Dr. Hartman",
+    [
+     "Dr. Hartman",
+     "Elmer Hartman"
+    ],
     "Rallo Tubbs",
     "Donna Tubbs",
     "Cleveland Jr.",
@@ -471,7 +542,8 @@
     "Jesus",
     [
      "Ernie the Giant Chicken",
-     "Giant Chicken"
+     "Giant Chicken",
+     "Ernie"
     ],
     "Seamus",
     "Bruce",
@@ -505,10 +577,13 @@
      "Thelma Griffin",
      "Thelma"
     ],
-    [
-     "Susie Swanson",
-     "Susie Swanson"
-    ]
+    "Susie Swanson",
+    "Mr. Weed",
+    "Horace",
+    "Olivia Fuller",
+    "Dylan Flannigan",
+    "Jesse",
+    "Pawtucket Pat"
    ]
   },
   {
@@ -547,14 +622,10 @@
     ],
     [
      "Mr. Garrison",
-     "Mr Garrison",
      "Herbert Garrison",
      "Mrs. Garrison"
     ],
-    [
-     "Mr. Mackey",
-     "Mr Mackey"
-    ],
+    "Mr. Mackey",
     "Chef",
     [
      "Timmy Burch",
@@ -588,7 +659,10 @@
     "Officer Barbrady",
     "Mayor McDaniels",
     "Shelly Marsh",
-    "Marvin Marsh",
+    [
+     "Marvin Marsh",
+     "Grandpa Marsh"
+    ],
     "Ms. Choksondik",
     "Scott Malkinson",
     "Kevin Stoley",
@@ -621,10 +695,7 @@
     "Kyle Schwartz",
     "Steve Black",
     "Nichole Daniels",
-    [
-     "Mr. Hankey",
-     "Mr Hankey"
-    ],
+    "Mr. Hankey",
     "Towelie",
     [
      "Terrance and Phillip",
@@ -633,6 +704,9 @@
     ],
     "Satan",
     "Big Gay Al",
+    "Damien",
+    "Santa Claus",
+    "Sparky",
     [
      "Sheila Broflovski",
      "Sheila"
@@ -653,16 +727,14 @@
      "Pip Pirrup",
      "Pip"
     ],
-    [
-     "Principal Victoria",
-     "Principal Victoria"
-    ],
+    "Principal Victoria",
     "PC Principal",
+    "Mr. Slave",
     [
-     "Mr. Slave",
-     "Mr Slave"
+     "Mephesto",
+     "Dr. Mephesto",
+     "Dr Mephisto"
     ],
-    "Mephesto",
     [
      "Scott Tenorman",
      "Scott"
@@ -672,10 +744,7 @@
      "Bebe Stevens",
      "Bebe"
     ],
-    [
-     "Mr. Hat",
-     "Mr Hat"
-    ],
+    "Mr. Hat",
     [
      "Gerald Broflovski",
      "Gerald"
@@ -694,7 +763,16 @@
      "Ned"
     ],
     "Nathan",
-    "Mimsy"
+    "Mimsy",
+    "Mr. Adler",
+    "Mr. Twig",
+    "Clyde Frog",
+    "Mecha-Streisand",
+    "Cthulhu",
+    "Scuzzlebutt",
+    "Jason White",
+    "Ms. Ellen",
+    "Thomas"
    ]
   },
   {
@@ -706,7 +784,8 @@
    "answers": [
     [
      "Rick Sanchez",
-     "Rick"
+     "Rick",
+     "Rick C-137"
     ],
     [
      "Morty Smith",
@@ -726,7 +805,6 @@
     ],
     [
      "Mr. Meeseeks",
-     "Mr Meeseeks",
      "Meeseeks"
     ],
     [
@@ -791,10 +869,7 @@
     "Dr. Wong",
     "Council of Ricks",
     "Cronenbergs",
-    [
-     "Noob-Noob",
-     "Noob Noob"
-    ],
+    "Noob-Noob",
     "Abradolf Lincler",
     [
      "Mr. Goldenfold",
@@ -813,11 +888,25 @@
     "Tiny Rick",
     "Ants in My Eyes Johnson",
     "Jaguar",
-    "King Jellybean",
+    [
+     "King Jellybean",
+     "Mr. Jellybean"
+    ],
     "Glootie",
     "Phoenixperson",
     "Reverse Giraffe",
-    "Rick Prime"
+    "Rick Prime",
+    [
+     "Mr. Needful",
+     "Lucius Needful"
+    ],
+    "Scroopy Noopers",
+    "Leonard Smith",
+    "Joyce Smith",
+    "Tricia Lange",
+    "Hemorrhage",
+    "Arthricia",
+    "Dr. Xenon Bloom"
    ]
   },
   {
@@ -844,7 +933,6 @@
     "Margo",
     [
      "Dr. Nefario",
-     "Dr Nefario",
      "Nefario"
     ],
     "Vector",
@@ -858,7 +946,10 @@
      "Balthazar Bratt",
      "Bratt"
     ],
-    "El Macho",
+    [
+     "El Macho",
+     "Eduardo Perez"
+    ],
     "Dru",
     "Silas Ramsbottom",
     "Wild Knuckles",
@@ -874,10 +965,7 @@
     "Otto",
     "Marlena Gru",
     "Mega Minions",
-    [
-     "Mr. Perkins",
-     "Mr Perkins"
-    ],
+    "Mr. Perkins",
     "Miss Hattie",
     "Mel",
     [
@@ -898,7 +986,12 @@
     [
      "Poppy Prescott",
      "Poppy"
-    ]
+    ],
+    "Shannon",
+    "Niko",
+    "Walter Nelson",
+    "Madge Nelson",
+    "Professor Flux"
    ]
   },
   {
@@ -918,6 +1011,9 @@
     "Mushu",
     "Abu",
     "Iago",
+    "Flotsam and Jetsam",
+    "Pain and Panic",
+    "Shenzi, Banzai and Ed",
     "Rajah",
     "Pascal",
     "Maximus",
@@ -937,7 +1033,12 @@
     "Sisu",
     "Max",
     "Scuttle",
-    "Hugo, Victor and Laverne",
+    [
+     "Hugo, Victor and Laverne",
+     "Hugo",
+     "Victor",
+     "Laverne"
+    ],
     "Sir Hiss",
     "Fidget",
     "Djali",
@@ -987,12 +1088,35 @@
     "Kronk",
     "Bagheera",
     "Terk",
-    "Smee",
+    [
+     "Smee",
+     "Mr. Smee"
+    ],
     "Nana",
     [
      "Tinker Bell",
      "Tinkerbell"
-    ]
+    ],
+    "Lucifer",
+    "Major",
+    "Pleakley",
+    "Jumba",
+    "Bucky",
+    "Rhino",
+    "Bruni",
+    "Diablo",
+    "Samson",
+    "Horace and Jasper",
+    "Sergeant Tibbs",
+    "Dinah",
+    "Rutt and Tuke",
+    "B.E.N.",
+    "Morph",
+    "Big Mama",
+    "Dinky and Boomer",
+    "Valentino",
+    "Splat",
+    "Mole"
    ]
   },
   {
@@ -1044,7 +1168,11 @@
      "Francesco Bernoulli",
      "Francesco"
     ],
-    "Van and Minny",
+    [
+     "Van and Minny",
+     "Van",
+     "Minny"
+    ],
     "Frank",
     "Acer",
     "Grem",
@@ -1095,7 +1223,21 @@
      "Rod Redline",
      "Rod 'Torque' Redline"
     ],
-    "Siddeley"
+    "Siddeley",
+    "Rusty Rust-eze",
+    "Max Schnell",
+    "Carla Veloso",
+    "Nigel Gearsley",
+    "Lewis Hamilton",
+    "Rip Clutchgoneski",
+    "Miguel Camino",
+    "Bobby Swift",
+    "Brick Yardley",
+    "Danny Swervez",
+    "Chase Racelott",
+    "Leland Turbo",
+    "Tubbs Pacer",
+    "Vladimir Trunkov"
    ]
   },
   {
@@ -1154,11 +1296,17 @@
      "Don Carlton",
      "Don"
     ],
-    "Claws Ward",
+    [
+     "Claws Ward",
+     "Pete Claws Ward"
+    ],
     "Ms. Flint",
     "Jerry",
     "Charlie",
-    "Bile",
+    [
+     "Bile",
+     "Thaddeus Bile"
+    ],
     "Archie the Scare Pig",
     "Karen Graves",
     "Brock Pearson",
@@ -1194,7 +1342,8 @@
     [
      "George Sanderson",
      "George"
-    ]
+    ],
+    "Ted"
    ]
   },
   {
@@ -1242,10 +1391,16 @@
     "Coach Roberts",
     "Deja Vu",
     "Grace",
-    "Valentina",
+    [
+     "Valentina",
+     "Val",
+     "Val Ortiz",
+     "Valentina Ortiz"
+    ],
     "Pouchy",
     "Rainbow Unicorn",
-    "Forgetters"
+    "Forgetters",
+    "Meg"
    ]
   },
   {
@@ -1303,14 +1458,8 @@
     "Babs",
     "Bunty",
     "Fowler",
-    [
-     "Mrs. Tweedy",
-     "Mrs Tweedy"
-    ],
-    [
-     "Mr. Tweedy",
-     "Mr Tweedy"
-    ],
+    "Mrs. Tweedy",
+    "Mr. Tweedy",
     "Nick",
     "Fetcher",
     [
@@ -1354,7 +1503,19 @@
     "Fluffles",
     "Lady Tottington",
     "Victor Quartermaine",
-    "Philip"
+    "Philip",
+    "Mrs. Mulch",
+    "Mr. Growbag",
+    "Malcolm Claus",
+    "Margaret Claus",
+    "Black Bellamy",
+    "Cutlass Liz",
+    "Queen Victoria",
+    "Treebor",
+    "Bobnar",
+    "Magma",
+    "Dr. Fry",
+    "Angry Kid"
    ]
   },
   {
@@ -1387,7 +1548,8 @@
     ],
     [
      "Hawkeye",
-     "Clint Barton"
+     "Clint Barton",
+     "Ronin"
     ],
     "Vision",
     [
@@ -1404,9 +1566,7 @@
     "Wolverine",
     "Beast",
     "Hellcat",
-    [
-     "Kate Bishop"
-    ],
+    "Kate Bishop",
     "Blade",
     "Ghost Rider",
     [
@@ -1462,7 +1622,11 @@
     "Invisible Woman",
     "Crystal",
     "Quasar",
-    "Spectrum",
+    [
+     "Spectrum",
+     "Monica Rambeau",
+     "Photon"
+    ],
     "Echo",
     "Firestar",
     "Justice",
@@ -1512,7 +1676,33 @@
     ],
     "Luke Cage",
     "Jessica Jones",
-    "Tigra"
+    "Tigra",
+    "Miles Morales",
+    "Nova",
+    "Starbrand",
+    "Nightmask",
+    "Jane Foster",
+    "Red Hulk",
+    "Agent Venom",
+    "Protector",
+    "Quake",
+    "Blue Marvel",
+    "Mister Fantastic",
+    "Jocasta",
+    "Rage",
+    "Marrina",
+    "Patriot",
+    "Stature",
+    "Speed",
+    [
+     "America Chavez",
+     "Miss America"
+    ],
+    "Doctor Voodoo",
+    "Captain Universe",
+    "Smasher",
+    "Manifold",
+    "Power Man"
    ]
   },
   {
@@ -1729,7 +1919,37 @@
      "Laura Kinney"
     ],
     "Magik",
-    "Cannonball"
+    "Cannonball",
+    "Strong Guy",
+    [
+     "Madelyne Pryor",
+     "Goblin Queen"
+    ],
+    "Elixir",
+    "Hellion",
+    "Prodigy",
+    "Surge",
+    "Mercury",
+    "Anole",
+    "Rockslide",
+    "Dust",
+    "Blindfold",
+    "Wither",
+    "Ink",
+    "Broo",
+    "Oya",
+    "Shadow King",
+    "Lockheed",
+    "Doop",
+    "Omega Sentinel",
+    "Stepford Cuckoos",
+    "Cecilia Reyes",
+    "Vulcan",
+    "Destiny",
+    "Masque",
+    "Leech",
+    "Mimic",
+    "Magma"
    ]
   },
   {
@@ -1754,7 +1974,6 @@
     ],
     [
      "The Flash",
-     "Flash",
      "Barry Allen"
     ],
     [
@@ -1853,7 +2072,30 @@
     "Plastic Man",
     "Booster Gold",
     "Blue Beetle",
-    "Batwoman"
+    "Batwoman",
+    [
+     "Atom (Ryan Choi)",
+     "Ryan Choi"
+    ],
+    "Rocket Red",
+    "Godiva",
+    "August General in Iron",
+    "The Ray",
+    "Lobo",
+    "Killer Frost",
+    "Donna Troy",
+    "Doctor Light",
+    "Geo-Force",
+    "Congorilla",
+    "Mon-El",
+    "Starman",
+    "Black Orchid",
+    "Frankenstein",
+    "Detective Chimp",
+    "Hippolyta",
+    "General Glory",
+    "Crimson Fox",
+    "Silver Sorceress"
    ]
   },
   {
@@ -1865,7 +2107,8 @@
    "answers": [
     [
      "Green Goblin",
-     "Norman Osborn"
+     "Norman Osborn",
+     "Harry Osborn"
     ],
     [
      "Doctor Octopus",
@@ -1983,7 +2226,20 @@
     "Boomerang",
     "Crime Master",
     "Puma",
-    "Man-Wolf"
+    "Man-Wolf",
+    "Menace",
+    "Screwball",
+    "Paper Doll",
+    "Freak",
+    "Spencer Smythe",
+    "Will-o'-the-Wisp",
+    "Massacre",
+    "Styx and Stone",
+    "Looter",
+    "Ringer",
+    "Shathra",
+    "The Rose",
+    "Red Goblin"
    ]
   },
   {
@@ -2067,7 +2323,8 @@
     "Q",
     [
      "Seven of Nine",
-     "Seven"
+     "Seven",
+     "Annika Hansen"
     ],
     "Odo",
     "Quark",
@@ -2284,7 +2541,40 @@
     [
      "Raffi Musiker",
      "Raffi"
-    ]
+    ],
+    "Tribbles",
+    "T'Pau",
+    "Ilia",
+    "Will Decker",
+    "V'Ger",
+    "Gary Mitchell",
+    "Trelane",
+    "Balok",
+    "Edith Keeler",
+    "Cyrano Jones",
+    "Kang",
+    "Koloth",
+    "Rachel Garrett",
+    "Elizabeth Shelby",
+    "Thomas Riker",
+    "Edward Jellico",
+    "Alynna Nechayev",
+    "Vash",
+    "Mr. Homn",
+    "Kurn",
+    "Captain Braxton",
+    "Joseph Sisko",
+    "Kai Opaka",
+    "Vedek Bareil",
+    "Charles Vance",
+    "Narek",
+    "Narissa",
+    "Sidney La Forge",
+    "Kestra Troi-Riker",
+    "Porthos",
+    "Soval",
+    "Silik",
+    "George Kirk"
    ]
   },
   {
@@ -2294,8 +2584,15 @@
    ],
    "text": "Name a character from the Star Wars sequel trilogy (2015 to 2019)",
    "answers": [
-    "Rey",
-    "Finn",
+    [
+     "Rey",
+     "Rey Skywalker",
+     "Rey Palpatine"
+    ],
+    [
+     "Finn",
+     "FN-2187"
+    ],
     [
      "Poe Dameron",
      "Poe"
@@ -2336,7 +2633,8 @@
     ],
     [
      "General Hux",
-     "Hux"
+     "Hux",
+     "Armitage Hux"
     ],
     [
      "Captain Phasma",
@@ -2378,7 +2676,10 @@
      "Holdo",
      "Amilyn Holdo"
     ],
-    "DJ",
+    [
+     "DJ",
+     "Master Codebreaker"
+    ],
     [
      "Zorii Bliss",
      "Zorii"
@@ -2412,7 +2713,12 @@
      "Kaydel Ko Connix",
      "Kaydel"
     ],
-    "Admiral Statura"
+    "Admiral Statura",
+    "Captain Peavey",
+    "Tallie Lintra",
+    "Colonel Datoo",
+    "Vober Dand",
+    "Boolio"
    ]
   },
   {
@@ -2461,7 +2767,10 @@
     "Mr. Slow",
     "Mr. Topsy-Turvy",
     "Mr. Tall",
-    "Mr. Persnickety",
+    [
+     "Mr. Pernickety",
+     "Mr. Persnickety"
+    ],
     "Mr. Adventure",
     "Mr. Marvellous",
     "Mr. Birthday",
@@ -2477,6 +2786,30 @@
     "Mr. Calm",
     "Mr. Nonsense",
     "Mr. Busy",
+    "Mr. Scatterbrain",
+    "Mr. Stubborn",
+    "Mr. Fun",
+    "Mr. Nervous",
+    "Mr. Brilliant",
+    "Mr. Crosspatch",
+    "Mr. Miserable",
+    "Mr. Right",
+    "Mr. Quiffy",
+    "Mr. Fib",
+    "Mr. Spendy",
+    "Mr. Thrifty",
+    "Mr. Try",
+    "Mr. Walk",
+    "Mr. Metal",
+    "Mr. Stupid",
+    "Mr. No",
+    "Mr. Mo",
+    "Mr. Glug",
+    "Mr. Gap",
+    "Mr. Bolt",
+    "Mr. Beefeater",
+    "Mr. Poirot",
+    "Mr. All-goes-Wrong",
     [
      "Little Miss Sunshine",
      "Miss Sunshine"
@@ -2611,7 +2944,139 @@
     "Little Miss Sparkle",
     "Little Miss Calamity",
     "Little Miss Christmas",
-    "Little Miss Birthday"
+    "Little Miss Birthday",
+    [
+     "Little Miss Fabulous",
+     "Miss Fabulous"
+    ],
+    [
+     "Little Miss Jealous",
+     "Miss Jealous"
+    ],
+    [
+     "Little Miss Show-Off",
+     "Miss Show-Off"
+    ],
+    [
+     "Little Miss Careful",
+     "Miss Careful"
+    ],
+    [
+     "Little Miss Daredevil",
+     "Miss Daredevil"
+    ],
+    [
+     "Little Miss Energy",
+     "Miss Energy"
+    ],
+    [
+     "Little Miss Explorer",
+     "Miss Explorer"
+    ],
+    [
+     "Little Miss Fashion",
+     "Miss Fashion"
+    ],
+    [
+     "Little Miss Carefree",
+     "Miss Carefree"
+    ],
+    [
+     "Little Miss Brilliant",
+     "Miss Brilliant"
+    ],
+    [
+     "Little Miss Busy-Body",
+     "Miss Busy-Body"
+    ],
+    [
+     "Little Miss Loud",
+     "Miss Loud"
+    ],
+    [
+     "Little Miss Pretty",
+     "Miss Pretty"
+    ],
+    [
+     "Little Miss Prim",
+     "Miss Prim"
+    ],
+    [
+     "Little Miss Plump",
+     "Miss Plump"
+    ],
+    [
+     "Little Miss Sporty",
+     "Miss Sporty"
+    ],
+    [
+     "Little Miss Surprise",
+     "Miss Surprise"
+    ],
+    [
+     "Little Miss Thrifty",
+     "Miss Thrifty"
+    ],
+    [
+     "Little Miss Unbelievable",
+     "Miss Unbelievable"
+    ],
+    [
+     "Little Miss Valentine",
+     "Miss Valentine"
+    ],
+    [
+     "Little Miss Yes",
+     "Miss Yes"
+    ],
+    [
+     "Little Miss Nobody",
+     "Miss Nobody"
+    ],
+    [
+     "Little Miss Baby",
+     "Miss Baby"
+    ],
+    [
+     "Little Miss Ginger",
+     "Miss Ginger"
+    ],
+    [
+     "Little Miss Miracle",
+     "Miss Miracle"
+    ],
+    [
+     "Little Miss Prudence",
+     "Miss Prudence"
+    ],
+    [
+     "Little Miss Stella",
+     "Miss Stella"
+    ],
+    [
+     "Little Miss Voyager",
+     "Miss Voyager"
+    ],
+    [
+     "Little Miss Waste Less",
+     "Miss Waste Less"
+    ],
+    [
+     "Little Miss Penny",
+     "Miss Penny"
+    ],
+    [
+     "Little Miss Cawaii",
+     "Miss Cawaii"
+    ],
+    [
+     "Little Miss Gap",
+     "Miss Gap"
+    ],
+    [
+     "Little Miss Marple",
+     "Miss Marple"
+    ]
    ]
   },
   {
@@ -2632,9 +3097,7 @@
      "Lord Percy",
      "Percy"
     ],
-    [
-     "Lord Melchett"
-    ],
+    "Lord Melchett",
     [
      "Captain Darling",
      "Darling",
@@ -2660,16 +3123,12 @@
      "Prince George",
      "Prince Regent"
     ],
-    [
-     "Mrs. Miggins",
-     "Mrs Miggins"
-    ],
+    "Mrs. Miggins",
     "Bob",
     "Kate",
     "Bishop of Bath and Wells",
     [
      "Dr. Johnson",
-     "Dr Johnson",
      "Samuel Johnson"
     ],
     [
@@ -2682,7 +3141,10 @@
      "Raleigh"
     ],
     "Mad Gerald",
-    "Duke of Wellington",
+    [
+     "Duke of Wellington",
+     "Wellington"
+    ],
     "Amy Hardwood",
     "Captain Rum",
     "Lord Topper",
@@ -2693,7 +3155,8 @@
     "Bernard",
     [
      "Ludwig the Indestructible",
-     "Ludwig"
+     "Ludwig",
+     "Prince Ludwig"
     ],
     [
      "Richard IV",
@@ -2701,13 +3164,19 @@
     ],
     [
      "Harry",
-     "Prince Harry"
+     "Prince Harry",
+     "Prince Henry"
     ],
     [
      "Lord Whiteadder",
      "Whiteadder"
     ],
-    "Pitt the Younger"
+    "Pitt the Younger",
+    "Queen Gertrude",
+    "Lady Whiteadder",
+    "Sir Wilfred Death",
+    "Mr. Hardwood",
+    "Sally Cheapside"
    ]
   },
   {
@@ -2763,14 +3232,12 @@
     ],
     [
      "The Vicar",
-     "Reverend Farthing",
-     "Vicar"
+     "Reverend Farthing"
     ],
     [
      "The Verger",
      "Mr. Yeatman",
-     "Yeatman",
-     "Verger"
+     "Yeatman"
     ],
     "Private Cheeseman",
     "Mr. Gordon",
@@ -2783,17 +3250,13 @@
     "Edith Parish",
     [
      "Mrs. Pike",
-     "Mrs Pike",
      "Mavis Pike"
     ],
     [
      "Colonel Pringle",
      "Pringle"
     ],
-    [
-     "Mrs. Fox",
-     "Mrs Fox"
-    ],
+    "Mrs. Fox",
     [
      "Private Sponge",
      "Sponge"
@@ -2801,7 +3264,8 @@
     [
      "Mrs. Mainwaring",
      "Elizabeth Mainwaring"
-    ]
+    ],
+    "The Colonel"
    ]
   },
   {
@@ -2819,10 +3283,7 @@
      "Arnold Rimmer",
      "Rimmer"
     ],
-    [
-     "Cat",
-     "The Cat"
-    ],
+    "Cat",
     "Kryten",
     "Holly",
     [
@@ -2870,20 +3331,20 @@
      "Hudzen"
     ],
     "Able",
-    [
-     "Mr. Flibble",
-     "Mr Flibble"
-    ],
+    "Mr. Flibble",
     "Frankenstein",
     "Kill Crazy",
     "Binks",
     "Bob",
     "Ackerman",
     "Chen",
-    [
-     "The Inquisitor",
-     "Inquisitor"
-    ]
+    "The Inquisitor",
+    "Todhunter",
+    "McIntyre",
+    "John Rimmer",
+    "Lise Yates",
+    "Professor Mamet",
+    "Psiren"
    ]
   },
   {
@@ -2912,7 +3373,8 @@
     ],
     [
      "Mr. Gilbert",
-     "Gilbert"
+     "Gilbert",
+     "Phil Gilbert"
     ],
     [
      "Carli D'Amato",
@@ -2967,33 +3429,18 @@
     "Porridge",
     "Red Dwarf",
     "The Office",
-    [
-     "Gavin & Stacey",
-     "Gavin and Stacey"
-    ],
+    "Gavin & Stacey",
     "Peep Show",
     "Phoenix Nights",
     "Father Ted",
-    [
-     "The Vicar of Dibley",
-     "Vicar of Dibley"
-    ],
+    "The Vicar of Dibley",
     "Keeping Up Appearances",
     "One Foot in the Grave",
     "Open All Hours",
     "Last of the Summer Wine",
-    [
-     "'Allo 'Allo!",
-     "Allo Allo"
-    ],
-    [
-     "Are You Being Served?",
-     "Are You Being Served"
-    ],
-    [
-     "Yes Minister",
-     "Yes, Minister"
-    ],
+    "'Allo 'Allo!",
+    "Are You Being Served?",
+    "Yes Minister",
     [
      "Absolutely Fabulous",
      "Ab Fab"
@@ -3023,14 +3470,8 @@
     "Love Thy Neighbour",
     "George and Mildred",
     "Black Books",
-    [
-     "The IT Crowd",
-     "IT Crowd"
-    ],
-    [
-     "The Inbetweeners",
-     "Inbetweeners"
-    ],
+    "The IT Crowd",
+    "The Inbetweeners",
     "Miranda",
     "Not Going Out",
     "Outnumbered",
@@ -3048,10 +3489,7 @@
     "Rising Damp",
     "Steptoe and Son",
     "Till Death Us Do Part",
-    [
-     "Hi-de-Hi!",
-     "Hi-de-Hi"
-    ],
+    "Hi-de-Hi!",
     "Dinnerladies",
     "Spaced",
     "Green Wing",
@@ -3061,19 +3499,14 @@
      "Two Pints of Lager"
     ],
     "My Family",
-    [
-     "Mrs. Brown's Boys",
-     "Mrs Brown's Boys"
-    ],
+    "Mrs. Brown's Boys",
     "Bottom",
-    [
-     "The Young Ones",
-     "Young Ones"
-    ],
+    "The Young Ones",
     "Drop the Dead Donkey",
     "Citizen Smith",
     "Butterflies",
     "The Good Life",
+    "To the Manor Born",
     "Man About the House",
     "Mind Your Language",
     "On the Buses",
@@ -3085,10 +3518,7 @@
     "Plebs",
     "W1A",
     "Twenty Twelve",
-    [
-     "Rev.",
-     "Rev"
-    ],
+    "Rev.",
     "Whatever Happened to the Likely Lads?",
     "Only When I Laugh",
     "Please Sir!",
@@ -3162,10 +3592,7 @@
     "Feel Good",
     "Back to Life",
     "Cuckoo",
-    [
-     "The Thick of It",
-     "Thick of It"
-    ],
+    "The Thick of It",
     [
      "I'm Alan Partridge",
      "Alan Partridge"
@@ -3175,15 +3602,9 @@
      "Car Share"
     ],
     "Early Doors",
-    [
-     "The Royle Family",
-     "Royle Family"
-    ],
+    "The Royle Family",
     "Shameless",
-    [
-     "The Brittas Empire",
-     "Brittas Empire"
-    ],
+    "The Brittas Empire",
     "As Time Goes By",
     "2point4 Children",
     "Fresh Meat",
@@ -3191,7 +3612,36 @@
     "Bad Education",
     "Count Arthur Strong",
     "Upstart Crow",
-    "Boomers"
+    "Boomers",
+    "The Liver Birds",
+    "Sykes",
+    "Doctor in the House",
+    "Father, Dear Father",
+    "The Rag Trade",
+    "Happy Ever After",
+    "Solo",
+    "Shine on Harvey Moon",
+    "Episodes",
+    "Raised by Wolves",
+    "Lovesick",
+    "Crashing",
+    "Breeders",
+    "Staged",
+    "Getting On",
+    "Man Down",
+    "Spy",
+    "Nathan Barley",
+    "Hyperdrive",
+    "Hippies",
+    "Hullraisers",
+    "Alma's Not Normal",
+    "Avoidance",
+    "Henpocalypse",
+    "Extraordinary",
+    "Big Boys",
+    "Everyone Else Burns",
+    "The Change",
+    "Dead Pixels"
    ]
   },
   {
@@ -3207,7 +3657,10 @@
      "Inspector Morse",
      "Morse"
     ],
-    "Lewis",
+    [
+     "Lewis",
+     "Inspector Lewis"
+    ],
     "Endeavour",
     "Vera",
     "Luther",
@@ -3241,7 +3694,11 @@
     "Murphy's Law",
     "Trial & Retribution",
     "Wycliffe",
-    "The Ruth Rendell Mysteries",
+    [
+     "The Ruth Rendell Mysteries",
+     "Inspector Wexford",
+     "Wexford"
+    ],
     "Dempsey and Makepeace",
     "Shoestring",
     "Boon",
@@ -3250,7 +3707,6 @@
     "Campion",
     "Hetty Wainthropp Investigates",
     "Waking the Dead",
-    "Spooks",
     "Bodyguard",
     "Shetland",
     "Death in Paradise",
@@ -3335,7 +3791,28 @@
     "Cadfael",
     "Hamish Macbeth",
     "Strike",
-    "Hinterland"
+    "Hinterland",
+    "Trigger Point",
+    "The Capture",
+    "Prey",
+    "Paranoid",
+    "Dirk Gently",
+    "Sister Boniface Mysteries",
+    "The Marlow Murder Club",
+    "Ludwig",
+    "Hope Street",
+    "Mrs Sidhu Investigates",
+    "Whitstable Pearl",
+    "The Body Farm",
+    "The Commander",
+    "The Last Detective",
+    "Second Sight",
+    "Touching Evil",
+    "Dangerfield",
+    "The Vice",
+    "River",
+    "Murder in Provence",
+    "Shardlake"
    ]
   },
   {
@@ -3431,6 +3908,12 @@
     "The Good Place",
     "Veep",
     "The Simpsons",
+    "Family Guy",
+    "American Dad!",
+    "King of the Hill",
+    "Futurama",
+    "Bob's Burgers",
+    "South Park",
     "Taxi",
     "Mork & Mindy",
     "The Cosby Show",
@@ -3542,7 +4025,65 @@
     "Night Court",
     "Mr. Belvedere",
     "Diff'rent Strokes",
-    "The Jeffersons"
+    "The Jeffersons",
+    "Only Murders in the Building",
+    "My Name Is Earl",
+    "Drake & Josh",
+    "Zoey 101",
+    "Victorious",
+    "The Suite Life of Zack & Cody",
+    "Good Luck Charlie",
+    "Jessie",
+    "Austin & Ally",
+    "Girl Meets World",
+    "Even Stevens",
+    "Clarissa Explains It All",
+    "Blossom",
+    "Dinosaurs",
+    "The Steve Harvey Show",
+    "The Parkers",
+    "The Jamie Foxx Show",
+    "Party Down",
+    "Broad City",
+    "Atlanta",
+    "Dave",
+    "Reservation Dogs",
+    "Grace and Frankie",
+    "Speechless",
+    "Grown-ish",
+    "Man with a Plan",
+    "How I Met Your Father",
+    "Empty Nest",
+    "Unhappily Ever After",
+    "That '90s Show",
+    "Less than Perfect",
+    "Two Guys and a Girl",
+    "Suburgatory",
+    "Anger Management",
+    "The Ranch",
+    "One Day at a Time",
+    "The Partridge Family",
+    "The Odd Couple",
+    "Petticoat Junction",
+    "My Three Sons",
+    "The Patty Duke Show",
+    "Mister Ed",
+    [
+     "The Phil Silvers Show",
+     "Sgt. Bilko",
+     "Bilko"
+    ],
+    "McHale's Navy",
+    "Gomer Pyle, U.S.M.C.",
+    "Maude",
+    "Evening Shade",
+    "Major Dad",
+    "Shrinking",
+    "Girls5eva",
+    "St. Denis Medical",
+    "Nobody Wants This",
+    "Rick and Morty",
+    "The Cleveland Show"
    ]
   },
   {
@@ -3553,20 +4094,11 @@
    "text": "Name a US TV drama series",
    "answers": [
     "Breaking Bad",
-    [
-     "The Sopranos",
-     "Sopranos"
-    ],
-    [
-     "The Wire",
-     "Wire"
-    ],
+    "The Sopranos",
+    "The Wire",
     "Mad Men",
     "Game of Thrones",
-    [
-     "The West Wing",
-     "West Wing"
-    ],
+    "The West Wing",
     "Lost",
     "24",
     [
@@ -3574,27 +4106,18 @@
      "House M.D."
     ],
     "ER",
-    [
-     "Grey's Anatomy",
-     "Greys Anatomy"
-    ],
+    "Grey's Anatomy",
     "Dexter",
     "Succession",
     "Better Call Saul",
-    [
-     "The Walking Dead",
-     "Walking Dead"
-    ],
+    "The Walking Dead",
     "Homeland",
     "Boardwalk Empire",
     "True Detective",
     "Six Feet Under",
     "Deadwood",
     "Twin Peaks",
-    [
-     "The X-Files",
-     "X-Files"
-    ],
+    "The X-Files",
     [
      "Buffy the Vampire Slayer",
      "Buffy"
@@ -3678,10 +4201,7 @@
     "Fringe",
     "Westworld",
     "Yellowstone",
-    [
-     "The Handmaid's Tale",
-     "Handmaid's Tale"
-    ],
+    "The Handmaid's Tale",
     "Severance",
     "The Last of Us",
     "Ozark",
@@ -3697,16 +4217,10 @@
     "The Americans",
     "The Bear",
     "Euphoria",
-    [
-     "The White Lotus",
-     "White Lotus"
-    ],
+    "The White Lotus",
     "Fargo",
     "Hannibal",
-    [
-     "The Good Wife",
-     "Good Wife"
-    ],
+    "The Good Wife",
     "Suits",
     "Law & Order",
     [
@@ -3717,10 +4231,7 @@
     "Criminal Minds",
     "Bones",
     "Castle",
-    [
-     "The Mentalist",
-     "Mentalist"
-    ],
+    "The Mentalist",
     "Monk",
     "The Practice",
     "L.A. Law",
@@ -3810,10 +4321,7 @@
     "How to Get Away with Murder",
     "Pretty Little Liars",
     "One Tree Hill",
-    [
-     "Dawson's Creek",
-     "Dawsons Creek"
-    ],
+    "Dawson's Creek",
     "90210",
     "Beverly Hills 90210",
     "Melrose Place",
@@ -3826,7 +4334,49 @@
     "Riverdale",
     "Yellowjackets",
     "Shogun",
-    "Andor"
+    "Andor",
+    "Star Trek",
+    "Star Trek: The Next Generation",
+    "The Mandalorian",
+    "Narcos",
+    "Orange Is the New Black",
+    "You",
+    "Masters of the Air",
+    "Lonesome Dove",
+    "Roots",
+    "Falcon Crest",
+    "Knots Landing",
+    "My So-Called Life",
+    "Angel",
+    "Fear the Walking Dead",
+    "Bates Motel",
+    "The Following",
+    "CSI: Miami",
+    "CSI: NY",
+    "NCIS: Los Angeles",
+    "Law & Order: Criminal Intent",
+    "Burn Notice",
+    "White Collar",
+    "Leverage",
+    "The Good Fight",
+    "Damages",
+    "The Resident",
+    "Airwolf",
+    "Walker, Texas Ranger",
+    "The Expanse",
+    "Firefly",
+    "Babylon 5",
+    "The Outer Limits",
+    "The Untouchables",
+    "Dragnet",
+    "Rawhide",
+    "Highway to Heaven",
+    "Touched by an Angel",
+    "Dr. Quinn, Medicine Woman",
+    "Parenthood",
+    "Brothers & Sisters",
+    "Peacemaker",
+    "Chicago Justice"
    ]
   },
   {
@@ -3837,7 +4387,10 @@
    "text": "Name a British TV panel show",
    "answers": [
     "Have I Got News for You",
-    "QI",
+    [
+     "QI",
+     "QI XL"
+    ],
     "Mock the Week",
     "8 Out of 10 Cats",
     "Would I Lie to You?",
@@ -3875,9 +4428,6 @@
     "Your Face or Mine?",
     "Ask Rhod Gilbert",
     "It's Not What You Know",
-    "I'm Sorry I Haven't a Clue",
-    "The News Quiz",
-    "Loose Women",
     "A Question of Sport",
     "Room 101",
     "Insert Name Here",
@@ -3890,7 +4440,15 @@
     "Duck Quacks Don't Echo",
     "Whose Line Is It Anyway?",
     "Argumental",
-    "8 Out of 10 Cats Does Countdown"
+    "8 Out of 10 Cats Does Countdown",
+    "Never Mind the Full Stops",
+    "What Do Kids Know?",
+    "If I Ruled the World",
+    "Does the Team Think?",
+    "Guessable?",
+    "School of Hard Sums",
+    "Alan Davies: As Yet Untitled",
+    "Mel Giedroyc: Unforgivable"
    ]
   },
   {
@@ -3924,7 +4482,7 @@
     "Squid Game: The Challenge",
     "Dahmer – Monster: The Jeffrey Dahmer Story",
     "The Diplomat",
-    "Lincoln Lawyer",
+    "The Lincoln Lawyer",
     "The Last Kingdom",
     "Daredevil",
     "The Punisher",
@@ -3952,16 +4510,10 @@
     "The Fall of the House of Usher",
     "Lupin",
     "Tiger King",
-    [
-     "The Queen's Gambit",
-     "Queen's Gambit"
-    ],
+    "The Queen's Gambit",
     "Baby Reindeer",
     "Adolescence",
-    [
-     "BoJack Horseman",
-     "Bojack Horseman"
-    ],
+    "BoJack Horseman",
     "Big Mouth",
     "Love Is Blind",
     "Too Hot to Handle",
@@ -3970,18 +4522,12 @@
      "Drive to Survive",
      "F1 Drive to Survive"
     ],
-    [
-     "The Umbrella Academy",
-     "Umbrella Academy"
-    ],
+    "The Umbrella Academy",
     "You",
     "13 Reasons Why",
     "Elite",
     "Emily in Paris",
-    [
-     "Ginny & Georgia",
-     "Ginny and Georgia"
-    ],
+    "Ginny & Georgia",
     "Outer Banks",
     "One Piece",
     "Arcane",
@@ -3992,10 +4538,7 @@
     "Beef",
     "Kaos",
     "Mindhunter",
-    [
-     "The Haunting of Hill House",
-     "Haunting of Hill House"
-    ],
+    "The Haunting of Hill House",
     "The Haunting of Bly Manor",
     "Midnight Mass",
     "Maid",
@@ -4109,7 +4652,37 @@
     "The Sandman",
     "Shadow and Bone",
     "Vikings: Valhalla",
-    "Cuphead Show"
+    "The Cuphead Show!",
+    "Beckham",
+    "Harry & Meghan",
+    "Perfect Match",
+    "The Ultimatum: Marry or Move On",
+    "XO, Kitty",
+    "Berlin",
+    "Sky Rojo",
+    "Cable Girls",
+    "Monsters: The Lyle and Erik Menendez Story",
+    "Ratched",
+    "Hollywood",
+    "The Politician",
+    "Halston",
+    "Inventing Anna",
+    "The Recruit",
+    "1899",
+    "How to Sell Drugs Online (Fast)",
+    "Marseille",
+    "Who Killed Sara?",
+    "Hellbound",
+    "The Glory",
+    "D.P.",
+    "My Name",
+    "Heeramandi",
+    "Blood of Zeus",
+    "Tuca & Bertie",
+    "Human Resources",
+    "Q-Force",
+    "Special",
+    "Girlboss"
    ]
   }
  ]
