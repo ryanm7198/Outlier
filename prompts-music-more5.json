@@ -2801,9 +2801,7 @@
     ],
     [
      "Cymbals",
-     "Cymbal",
-     "Crash cymbals",
-     "Suspended cymbal"
+     "Cymbal"
     ],
     [
      "Triangle",
@@ -2884,7 +2882,11 @@
     "Guiro",
     "Wind machine",
     "Thunder sheet",
-    "Clash cymbals",
+    [
+     "Clash cymbals",
+     "Crash cymbals"
+    ],
+    "Suspended cymbal",
     "Tenor drum",
     "Field drum",
     "Bell tree",

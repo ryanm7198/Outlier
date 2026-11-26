@@ -10,8 +10,11 @@
    "answers": [
     [
      "Dovetail joint",
-     "Dovetail",
-     "Through dovetail"
+     "Dovetail"
+    ],
+    [
+     "Through dovetail",
+     "through dovetail joint"
     ],
     [
      "Mortise and tenon",
@@ -45,11 +48,13 @@
     ],
     [
      "Lap joint",
-     "Lap",
+     "Lap"
+    ],
+    [
      "Halving joint",
+     "half lap joint",
      "Halving",
-     "Half lap",
-     "Half lap joint"
+     "Half lap"
     ],
     [
      "Dado joint",
@@ -75,11 +80,11 @@
     ],
     [
      "Half-blind dovetail",
-     "Lapped dovetail",
-     "Half blind dovetail"
+     "Lapped dovetail"
     ],
     [
-     "Sliding dovetail"
+     "Sliding dovetail",
+     "dovetail housing"
     ],
     [
      "Spline joint",
@@ -98,8 +103,7 @@
     ],
     [
      "Cross lap joint",
-     "Cross lap",
-     "Cross-lap"
+     "Cross lap"
     ],
     [
      "Floating tenon joint",
@@ -156,9 +160,7 @@
      "Tusk tenon",
      "Tusk tenon joint"
     ],
-    [
-     "Barefaced tenon"
-    ],
+    "Barefaced tenon",
     [
      "Secret mitred dovetail",
      "Secret dovetail",
@@ -196,12 +198,8 @@
      "Notched joint",
      "Notch joint"
     ],
-    [
-     "Saddle joint"
-    ],
-    [
-     "Rule joint"
-    ],
+    "Saddle joint",
+    "Rule joint",
     [
      "Knuckle joint",
      "Finger hinge"
@@ -213,9 +211,52 @@
     ],
     [
      "Rubbed joint",
-     "Edge joint",
      "Rub joint"
-    ]
+    ],
+    [
+     "Edge joint",
+     "edge-to-edge joint"
+    ],
+    "Twin tenon",
+    "Double tenon",
+    [
+     "Fox wedged tenon",
+     "fox tail tenon"
+    ],
+    "Corner bridle",
+    "T-bridle",
+    "Dovetail bridle",
+    [
+     "T-halving",
+     "tee halving"
+    ],
+    "Corner halving",
+    [
+     "Stopped housing",
+     "stopped dado"
+    ],
+    "Through housing",
+    [
+     "Splined mitre",
+     "splined miter"
+    ],
+    "Corner block joint",
+    [
+     "Locking rabbet",
+     "locking rebate"
+    ],
+    "Drawer lock joint",
+    [
+     "Rabbet and dado",
+     "rebate and housing"
+    ],
+    [
+     "Double-lapped dovetail",
+     "secret lapped dovetail"
+    ],
+    "Hammer-headed tenon",
+    "Mitred mortise and tenon",
+    "Dowelled mitre"
    ]
   },
   {
@@ -225,16 +266,14 @@
    ],
    "text": "Name a tree species native to Great Britain (as listed by Wikipedia; not counting Ireland-only species)",
    "answers": [
-    [
-     "Silver birch",
-     "Birch"
-    ],
+    "Silver birch",
+    "Birch",
     [
      "Pedunculate oak",
      "English oak",
-     "Common oak",
-     "Oak"
+     "Common oak"
     ],
+    "Oak",
     [
      "Beech",
      "European beech",
@@ -280,13 +319,9 @@
      "Blackthorn",
      "Sloe"
     ],
-    [
-     "White willow",
-     "Willow"
-    ],
-    [
-     "Crack willow"
-    ],
+    "White willow",
+    "Willow",
+    "Crack willow",
     [
      "Juniper",
      "Common juniper"
@@ -305,10 +340,8 @@
      "Durmast oak"
     ],
     "Aspen",
-    [
-     "Black poplar",
-     "Poplar"
-    ],
+    "Black poplar",
+    "Poplar",
     "Bay willow",
     [
      "Grey willow",
@@ -322,9 +355,9 @@
     "Downy birch",
     [
      "Wych elm",
-     "Elm",
      "Scotch elm"
     ],
+    "Elm",
     "Field elm",
     "Midland hawthorn",
     [
@@ -345,71 +378,60 @@
     [
      "Wild cherry",
      "Gean",
-     "Cherry",
      "Sweet cherry"
     ],
+    "Cherry",
     "Bird cherry",
     "Box",
+    "Field maple",
+    "Maple",
+    "Small-leaved lime",
     [
-     "Field maple",
-     "Maple"
-    ],
-    [
-     "Small-leaved lime",
      "Lime",
+     "lime tree",
      "Linden"
     ],
     "Large-leaved lime",
-    [
-     "English elm"
-    ],
+    "English elm",
     [
      "Osier",
      "Common osier"
     ],
-    [
-     "Purple willow"
-    ],
-    [
-     "Almond willow"
-    ],
-    [
-     "Eared willow"
-    ],
+    "Purple willow",
+    "Almond willow",
+    "Eared willow",
     [
      "Spindle",
      "Spindle tree"
     ],
     [
      "Purging buckthorn",
-     "Buckthorn",
      "Common buckthorn"
     ],
-    [
-     "Alder buckthorn"
-    ],
-    [
-     "Guelder rose"
-    ],
+    "Buckthorn",
+    "Alder buckthorn",
+    "Guelder rose",
     [
      "Dogwood",
      "Common dogwood"
     ],
+    "Wayfaring tree",
+    "Sea buckthorn",
+    "Plymouth pear",
+    "Arran whitebeam",
+    "Rock whitebeam",
+    "Tea-leaved willow",
+    "Dark-leaved willow",
+    "English whitebeam",
+    "Bristol whitebeam",
+    "Ley's whitebeam",
+    "Lancastrian whitebeam",
+    "Devon whitebeam",
     [
-     "Wayfaring tree"
+     "Arran service tree",
+     "arran cut-leaved whitebeam"
     ],
-    [
-     "Sea buckthorn"
-    ],
-    [
-     "Plymouth pear"
-    ],
-    [
-     "Arran whitebeam"
-    ],
-    [
-     "Rock whitebeam"
-    ]
+    "Catacol whitebeam"
    ]
   },
   {
@@ -835,10 +857,11 @@
     ],
     [
      "F-Type",
-     "F Type",
      "Jaguar F-Type",
      "Jag F-Type",
-     "Jag Jaguar F-Type"
+     "Jag Jaguar F-Type",
+     "f-type project 7",
+     "project 7"
     ],
     [
      "XJ-S",
@@ -864,32 +887,30 @@
      "XE",
      "Jaguar XE",
      "Jag XE",
-     "Jag Jaguar XE"
+     "Jag Jaguar XE",
+     "xe sv project 8",
+     "project 8"
     ],
     [
      "F-Pace",
-     "F Pace",
      "Jaguar F-Pace",
      "Jag F-Pace",
      "Jag Jaguar F-Pace"
     ],
     [
      "I-Pace",
-     "I Pace",
      "Jaguar I-Pace",
      "Jag I-Pace",
      "Jag Jaguar I-Pace"
     ],
     [
      "S-Type",
-     "S Type",
      "Jaguar S-Type",
      "Jag S-Type",
      "Jag Jaguar S-Type"
     ],
     [
      "X-Type",
-     "X Type",
      "Jaguar X-Type",
      "Jag X-Type",
      "Jag Jaguar X-Type"
@@ -1070,7 +1091,6 @@
     ],
     [
      "E-Pace",
-     "E Pace",
      "Jaguar E-Pace",
      "Jag E-Pace",
      "Jag Jaguar E-Pace"
@@ -1097,12 +1117,19 @@
     [
      "SS1",
      "SS 1",
-     "SS Jaguar",
      "Jaguar SS1"
     ],
     [
      "XJ13",
      "Jaguar XJ13"
+    ],
+    [
+     "SS 90",
+     "jaguar ss 90"
+    ],
+    [
+     "SS2",
+     "ss 2"
     ]
    ]
   },
@@ -1595,6 +1622,59 @@
     [
      "500 Superfast",
      "Ferrari 500 Superfast"
+    ],
+    [
+     "Sergio",
+     "ferrari sergio"
+    ],
+    [
+     "F60America",
+     "f60 america"
+    ],
+    [
+     "SA Aperta",
+     "ferrari sa aperta"
+    ],
+    [
+     "J50",
+     "ferrari j50"
+    ],
+    [
+     "SP38",
+     "ferrari sp38"
+    ],
+    [
+     "Omologata",
+     "ferrari omologata"
+    ],
+    [
+     "P4/5",
+     "ferrari p4/5"
+    ],
+    [
+     "BR20",
+     "ferrari br20"
+    ],
+    [
+     "SP51",
+     "ferrari sp51"
+    ],
+    [
+     "GG50",
+     "ferrari gg50"
+    ],
+    [
+     "SP3JC",
+     "ferrari sp3jc"
+    ],
+    [
+     "SP-8",
+     "ferrari sp-8",
+     "sp8"
+    ],
+    [
+     "SP12 EC",
+     "ferrari sp12 ec"
     ]
    ]
   },

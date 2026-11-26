@@ -4089,10 +4089,8 @@
     "Offside",
     "Garryowen",
     "Grubber",
-    [
-     "Up and under",
-     "box kick"
-    ],
+    "Up and under",
+    "Box kick",
     [
      "Hand-off",
      "fend"
@@ -4132,9 +4130,10 @@
     "Free kick",
     "Penalty try",
     "Hooker's throw",
+    "Crossbar",
     [
-     "Crossbar",
-     "posts"
+     "Posts",
+     "goalposts"
     ],
     "Try line",
     "In-goal",
@@ -4973,8 +4972,7 @@
     ],
     [
      "Cap",
-     "baggy cap",
-     "sunhat"
+     "baggy cap"
     ],
     "Sight screen",
     "Roller",
@@ -6292,11 +6290,9 @@
      "Re-spot",
      "respotted black"
     ],
-    [
-     "Pink spot",
-     "black spot",
-     "blue spot"
-    ],
+    "Pink spot",
+    "Black spot",
+    "Blue spot",
     "Cannon",
     [
      "Cue ball",
@@ -6547,10 +6543,8 @@
      "Mercantile Credit Classic"
     ],
     "Asian Open",
-    [
-     "World Cup",
-     "Nations Cup"
-    ]
+    "World Cup",
+    "Nations Cup"
    ]
   },
   {
@@ -8465,10 +8459,8 @@
     ],
     "Rackets",
     "Beach tennis",
-    [
-     "Platform tennis",
-     "paddle tennis"
-    ],
+    "Platform tennis",
+    "Paddle tennis",
     "Soft tennis",
     [
      "Speedminton",

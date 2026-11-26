@@ -26,10 +26,7 @@
           "Beef burgundy"
         ],
         "Ratatouille",
-        [
-          "Quiche Lorraine",
-          "Quiche"
-        ],
+        "Quiche Lorraine",
         [
           "French onion soup",
           "Soupe à l'oignon",
@@ -63,8 +60,8 @@
         [
           "Moules marinières",
           "Moules mariniere",
-          "Moules frites",
-          "Mussels"
+          "Moules marinière",
+          "Mussels marinière"
         ],
         [
           "Pain au chocolat",
@@ -252,10 +249,7 @@
           "Béarnaise"
         ],
         "Hollandaise",
-        [
-          "Bisque",
-          "Lobster bisque"
-        ],
+        "Bisque",
         [
           "Lobster thermidor",
           "Thermidor"
@@ -271,7 +265,6 @@
         "Andouillette",
         [
           "Boudin noir",
-          "Boudin blanc",
           "Boudin"
         ],
         "Garbure",
@@ -297,7 +290,394 @@
           "Petit sale"
         ],
         "Baeckeoffe",
-        "Potée"
+        "Potée",
+        [
+          "Quiche",
+          "Quiches"
+        ],
+        [
+          "Moules frites",
+          "Mussels and chips",
+          "Mussels and fries"
+        ],
+        "Boudin blanc",
+        "Lobster bisque",
+        [
+          "Mussels",
+          "Moules"
+        ],
+        [
+          "Croissant aux amandes",
+          "Almond croissant",
+          "Almond croissants"
+        ],
+        "Pain aux raisins",
+        [
+          "Pain perdu",
+          "French toast"
+        ],
+        "Crème anglaise",
+        [
+          "Tarte aux pommes",
+          "French apple tart",
+          "Tarte aux pommes normande"
+        ],
+        [
+          "Tarte aux fraises",
+          "Strawberry tart"
+        ],
+        "Tarte normande",
+        "Gâteau Basque",
+        [
+          "Bûche de Noël",
+          "Yule log"
+        ],
+        [
+          "Galette des rois",
+          "King cake"
+        ],
+        [
+          "Pithivier",
+          "Pithiviers"
+        ],
+        [
+          "Chouquettes",
+          "Chouquette"
+        ],
+        [
+          "Palmiers",
+          "Palmier",
+          "Elephant ears"
+        ],
+        "Mont Blanc",
+        [
+          "Saint-Honoré",
+          "St Honore",
+          "Gâteau Saint-Honoré"
+        ],
+        [
+          "Charlotte",
+          "Charlotte russe"
+        ],
+        [
+          "Bavarois",
+          "Bavarian cream"
+        ],
+        "Vacherin",
+        "Dacquoise",
+        [
+          "Nougat",
+          "Nougat de Montélimar",
+          "Montelimar nougat"
+        ],
+        [
+          "Calissons",
+          "Calisson"
+        ],
+        [
+          "Tuiles",
+          "Tuile"
+        ],
+        [
+          "Sablés",
+          "Sable biscuits",
+          "Sablé"
+        ],
+        "Langues de chat",
+        "Marrons glacés",
+        [
+          "Pots de crème",
+          "Pot de creme"
+        ],
+        [
+          "Fondant au chocolat",
+          "Chocolate fondant"
+        ],
+        [
+          "Petits fours",
+          "Petit four"
+        ],
+        "Religieuse",
+        "Savarin",
+        [
+          "Baba au rhum",
+          "Rum baba",
+          "Baba"
+        ],
+        [
+          "Kouglof",
+          "Kugelhopf",
+          "Kougelhopf"
+        ],
+        [
+          "Beignets",
+          "Beignet"
+        ],
+        "Bugnes",
+        "Pain d'épices",
+        [
+          "Tarte Bourdaloue",
+          "Pear and almond tart",
+          "Bourdaloue"
+        ],
+        [
+          "Flan pâtissier",
+          "Flan parisien"
+        ],
+        "Gâteau au chocolat",
+        "Meringue",
+        [
+          "Crème Chantilly",
+          "Chantilly cream"
+        ],
+        "Galette complète",
+        "Salade lyonnaise",
+        [
+          "Salade de chèvre chaud",
+          "Warm goat's cheese salad",
+          "Chevre chaud"
+        ],
+        "Soupe au pistou",
+        [
+          "Soupe de poisson",
+          "Fish soup"
+        ],
+        "Bourride",
+        "Tapenade",
+        "Aïoli",
+        "Rouille",
+        "Anchoïade",
+        "Pan bagnat",
+        "Jambon-beurre",
+        [
+          "Tarte à l'oignon",
+          "Onion tart"
+        ],
+        "Pâté en croûte",
+        [
+          "Pâté de campagne",
+          "Country pâté"
+        ],
+        [
+          "Magret de canard",
+          "Magret",
+          "Duck breast"
+        ],
+        [
+          "Poulet basquaise",
+          "Basque chicken",
+          "Chicken basquaise"
+        ],
+        [
+          "Poulet à l'estragon",
+          "Tarragon chicken"
+        ],
+        [
+          "Fricassée",
+          "Chicken fricassee"
+        ],
+        [
+          "Lapin à la moutarde",
+          "Rabbit in mustard sauce"
+        ],
+        [
+          "Civet",
+          "Civet de lièvre",
+          "Civet de lapin"
+        ],
+        [
+          "Gigot d'agneau",
+          "Gigot"
+        ],
+        [
+          "Carré d'agneau",
+          "Rack of lamb"
+        ],
+        [
+          "Steak au poivre",
+          "Peppered steak",
+          "Steak with peppercorn sauce"
+        ],
+        "Entrecôte",
+        "Châteaubriand",
+        [
+          "Tournedos Rossini",
+          "Tournedos"
+        ],
+        "Steak haché",
+        "Bœuf à la mode",
+        "Truffade",
+        [
+          "Endives au jambon",
+          "Chicory with ham"
+        ],
+        [
+          "Pommes boulangère",
+          "Boulangère potatoes"
+        ],
+        [
+          "Pommes duchesse",
+          "Duchess potatoes",
+          "Duchesse potatoes"
+        ],
+        "Pommes dauphine",
+        [
+          "Pommes soufflées",
+          "Pommes souffles"
+        ],
+        [
+          "Pommes purée",
+          "Pomme puree",
+          "Purée"
+        ],
+        [
+          "Pommes sarladaises",
+          "Sarladaise potatoes"
+        ],
+        [
+          "Petits pois à la française",
+          "French-style peas"
+        ],
+        "Tian",
+        "Piperade",
+        [
+          "Œufs mayonnaise",
+          "Eggs mayonnaise"
+        ],
+        [
+          "Œufs en cocotte",
+          "Oeuf cocotte"
+        ],
+        [
+          "Omelette",
+          "French omelette",
+          "Omelette aux fines herbes"
+        ],
+        [
+          "Cheese soufflé",
+          "Soufflé au fromage"
+        ],
+        [
+          "Plateau de fruits de mer",
+          "Seafood platter"
+        ],
+        [
+          "Truite aux amandes",
+          "Trout amandine",
+          "Truite amandine"
+        ],
+        [
+          "Raie au beurre noir",
+          "Skate with black butter"
+        ],
+        [
+          "Homard",
+          "Lobster"
+        ],
+        "Rillons",
+        "Tête de veau",
+        [
+          "Ris de veau",
+          "Sweetbreads"
+        ],
+        [
+          "Chicken Marengo",
+          "Poulet Marengo",
+          "Veal Marengo"
+        ],
+        "Poule au pot",
+        "Panisse",
+        "Fougasse",
+        [
+          "Vol-au-vent",
+          "Vol-au-vents"
+        ],
+        "Bouchée à la reine",
+        "Œufs à la neige",
+        "Velouté",
+        "Consommé",
+        "Potage Parmentier",
+        [
+          "Béchamel",
+          "Béchamel sauce"
+        ],
+        "Beurre blanc",
+        [
+          "Mornay",
+          "Sauce Mornay",
+          "Mornay sauce"
+        ],
+        [
+          "Bordelaise",
+          "Sauce bordelaise"
+        ],
+        [
+          "Sauce au poivre",
+          "Peppercorn sauce"
+        ],
+        [
+          "Mayonnaise",
+          "Mayo"
+        ],
+        [
+          "Vinaigrette",
+          "French dressing"
+        ],
+        [
+          "Salade frisée aux lardons",
+          "Frisée aux lardons",
+          "Frisee salad"
+        ],
+        "Crudités",
+        "Gâteau Breton",
+        "Crêpe complète",
+        "Pain de mie",
+        "Pain de campagne",
+        "Ficelle",
+        "Croûte au fromage",
+        [
+          "Escalope à la crème",
+          "Escalope normande"
+        ],
+        "Sole normande",
+        "Croquettes",
+        "Bouillon",
+        "Cordon bleu",
+        [
+          "Quiche aux poireaux",
+          "Leek quiche"
+        ],
+        "Flamiche",
+        "Potjevleesch",
+        [
+          "Carbonnade flamande",
+          "Carbonade",
+          "Carbonnade"
+        ],
+        [
+          "Welsh à la française",
+          "Le Welsh"
+        ],
+        "Ficelle picarde",
+        "Tourte",
+        "Tourtière",
+        "Pâte de fruits",
+        "Crêpe dentelle",
+        "Cassoulet de Castelnaudary",
+        "Garbure béarnaise",
+        [
+          "Poulet Vallée d'Auge",
+          "Chicken Vallee d'Auge"
+        ],
+        [
+          "Pâté de foie",
+          "Liver pâté"
+        ],
+        [
+          "Gratin de pommes de terre",
+          "Potato gratin",
+          "Gratin"
+        ]
       ]
     },
     {
@@ -320,7 +700,7 @@
         ],
         [
           "Shawarma",
-          "Shawarma wrap"
+          "Shawarmas"
         ],
         "Baklava",
         [
@@ -340,8 +720,11 @@
         ],
         [
           "Doner kebab",
+          "Doner",
           "Döner",
-          "Doner"
+          "Donner",
+          "Döner kebab",
+          "Donner kebab"
         ],
         [
           "Shish kebab",
@@ -370,7 +753,11 @@
         [
           "Dolma",
           "Dolmades",
-          "Stuffed vine leaves"
+          "Stuffed vine leaves",
+          "Warak enab",
+          "Yaprak sarma",
+          "Vine leaves",
+          "Dolmas"
         ],
         [
           "Kibbeh",
@@ -473,10 +860,7 @@
           "Ma'amoul",
           "Maamoul"
         ],
-        [
-          "Basbousa",
-          "Revani"
-        ],
+        "Basbousa",
         "Umm Ali",
         [
           "Muhallebi",
@@ -526,7 +910,412 @@
         "Amba",
         "Harissa",
         "Sumac",
-        "Kleicha"
+        "Kleicha",
+        [
+          "Shawarma wrap",
+          "Shawarma wraps"
+        ],
+        "Chicken shawarma",
+        "Revani",
+        [
+          "Namoura",
+          "Nammoura"
+        ],
+        "Urfa kebab",
+        [
+          "Beyti kebab",
+          "Beyti"
+        ],
+        "Testi kebab",
+        "Cağ kebab",
+        "Tantuni",
+        [
+          "Kokoreç",
+          "Kokoretsi"
+        ],
+        [
+          "Midye dolma",
+          "Stuffed mussels"
+        ],
+        [
+          "Balık ekmek",
+          "Fish sandwich"
+        ],
+        "Gözleme",
+        [
+          "Mantı",
+          "Turkish dumplings"
+        ],
+        "Çiğ köfte",
+        "İçli köfte",
+        "Su böreği",
+        [
+          "Sigara böreği",
+          "Cheese rolls"
+        ],
+        "Poğaça",
+        "Açma",
+        [
+          "Kaymak",
+          "Clotted cream"
+        ],
+        [
+          "Turkish breakfast",
+          "Kahvaltı"
+        ],
+        [
+          "Mercimek çorbası",
+          "Mercimek",
+          "Lentil soup",
+          "Turkish lentil soup",
+          "Red lentil soup"
+        ],
+        [
+          "Ezogelin soup",
+          "Ezogelin"
+        ],
+        "Tarhana",
+        "Karnıyarık",
+        [
+          "Hünkar beğendi",
+          "Sultan's delight"
+        ],
+        [
+          "Ezme",
+          "Acılı ezme"
+        ],
+        [
+          "Çoban salatası",
+          "Shepherd's salad"
+        ],
+        "Cacık",
+        "Haydari",
+        "Piyaz",
+        "Kısır",
+        [
+          "Bulgur pilavı",
+          "Bulgur pilaf",
+          "Bulgur pilav"
+        ],
+        [
+          "Pilaf",
+          "Pilav",
+          "Turkish rice"
+        ],
+        "Turkish coffee",
+        [
+          "Turkish tea",
+          "Çay"
+        ],
+        [
+          "Salep",
+          "Sahlep",
+          "Sahlab",
+          "Sahleb"
+        ],
+        "Şalgam",
+        "Rakı",
+        [
+          "Arak",
+          "Araq"
+        ],
+        [
+          "Kadayıf",
+          "Kataifi"
+        ],
+        [
+          "Sütlaç",
+          "Turkish rice pudding"
+        ],
+        "Kazandibi",
+        "Tavuk göğsü",
+        [
+          "Aşure",
+          "Noah's pudding"
+        ],
+        "Lokma",
+        "Tulumba",
+        "Şekerpare",
+        [
+          "Dondurma",
+          "Turkish ice cream"
+        ],
+        "Pişmaniye",
+        "Güllaç",
+        [
+          "Kabak tatlısı",
+          "Pumpkin dessert"
+        ],
+        [
+          "Kibbeh nayyeh",
+          "Raw kibbeh"
+        ],
+        "Fatayer",
+        [
+          "Sfiha",
+          "Sfeeha",
+          "Lahm bi ajeen"
+        ],
+        "Shish barak",
+        [
+          "Kafta",
+          "Kofta kebab"
+        ],
+        "Arayes",
+        [
+          "Mahshi",
+          "Stuffed vegetables",
+          "Dolmeh"
+        ],
+        [
+          "Kousa mahshi",
+          "Stuffed courgettes",
+          "Stuffed zucchini"
+        ],
+        "Ka'ak",
+        "Halawet el jibn",
+        [
+          "Qatayef",
+          "Atayef"
+        ],
+        "Jallab",
+        [
+          "Toum",
+          "Garlic sauce"
+        ],
+        [
+          "Torshi",
+          "Pickled turnips",
+          "Lift"
+        ],
+        "Shanklish",
+        "Akkawi",
+        [
+          "Nabulsi cheese",
+          "Nabulsi"
+        ],
+        "Kishk",
+        "Makdous",
+        [
+          "Batata harra",
+          "Spicy potatoes"
+        ],
+        [
+          "Fasolia",
+          "Fasoulia"
+        ],
+        [
+          "Bamia",
+          "Okra stew",
+          "Bamya"
+        ],
+        "Daoud basha",
+        [
+          "Sayadieh",
+          "Sayadiyah"
+        ],
+        "Samke harra",
+        "Msabbaha",
+        "Rugelach",
+        "Babka",
+        [
+          "Sufganiyah",
+          "Sufganiyot"
+        ],
+        "Israeli salad",
+        [
+          "Jerusalem mixed grill",
+          "Me'orav Yerushalmi"
+        ],
+        "Matbucha",
+        "Bamba",
+        "Laffa",
+        "Kubaneh",
+        [
+          "Cholent",
+          "Hamin"
+        ],
+        [
+          "Ptitim",
+          "Israeli couscous",
+          "Pearl couscous"
+        ],
+        "Schnitzel",
+        [
+          "Joojeh kabab",
+          "Joojeh kebab",
+          "Jujeh kabab"
+        ],
+        [
+          "Koobideh",
+          "Kabab koobideh",
+          "Kubideh"
+        ],
+        [
+          "Barg kabab",
+          "Kabab barg",
+          "Barg"
+        ],
+        [
+          "Zereshk polo",
+          "Barberry rice"
+        ],
+        "Baghali polo",
+        "Sabzi polo",
+        [
+          "Tahchin",
+          "Tachin"
+        ],
+        [
+          "Mirza ghasemi",
+          "Mirza ghassemi"
+        ],
+        [
+          "Khoresh bademjan",
+          "Khoresh-e bademjan"
+        ],
+        [
+          "Gheymeh",
+          "Khoresh gheymeh"
+        ],
+        [
+          "Abgoosht",
+          "Dizi"
+        ],
+        [
+          "Kuku sabzi",
+          "Kookoo sabzi",
+          "Kuku"
+        ],
+        "Sabzi khordan",
+        [
+          "Mast-o-khiar",
+          "Maast o khiar"
+        ],
+        "Borani",
+        "Shirazi salad",
+        [
+          "Sholeh zard",
+          "Persian saffron rice pudding"
+        ],
+        [
+          "Faloodeh",
+          "Paloodeh"
+        ],
+        [
+          "Bastani",
+          "Persian ice cream",
+          "Bastani sonnati"
+        ],
+        [
+          "Gaz",
+          "Persian nougat"
+        ],
+        "Sohan",
+        [
+          "Zoolbia",
+          "Zulbia"
+        ],
+        "Bamieh",
+        "Taftoon",
+        "Doogh",
+        [
+          "Harees",
+          "Harris"
+        ],
+        "Saloona",
+        [
+          "Thareed",
+          "Tharid"
+        ],
+        [
+          "Luqaimat",
+          "Lugaimat"
+        ],
+        "Margoog",
+        [
+          "Mutabbaq",
+          "Murtabak",
+          "Mutabbak"
+        ],
+        [
+          "Ouzi",
+          "Oozie",
+          "Quzi"
+        ],
+        "Haneeth",
+        "Jareesh",
+        "Balaleet",
+        "Khameer",
+        "Chebab",
+        [
+          "Dates",
+          "Date",
+          "Medjool dates"
+        ],
+        [
+          "Arabic coffee",
+          "Gahwa",
+          "Qahwa"
+        ],
+        [
+          "Karak tea",
+          "Karak chai",
+          "Karak"
+        ],
+        "Saleeg",
+        "Masgouf",
+        "Tashreeb",
+        [
+          "Kubba",
+          "Kubbah"
+        ],
+        [
+          "Saltah",
+          "Saltah stew"
+        ],
+        "Fahsa",
+        [
+          "Bint al-sahn",
+          "Honey cake"
+        ],
+        "Mandi rice",
+        "Shakshouka with merguez",
+        "Pomegranate molasses",
+        "Baharat",
+        [
+          "Dukkah",
+          "Duqqa"
+        ],
+        [
+          "Bulgur",
+          "Bulgur wheat",
+          "Burghul"
+        ],
+        [
+          "Pistachio",
+          "Pistachios"
+        ],
+        "Labneh balls",
+        "Halloumi wrap",
+        "Mixed grill",
+        "Lamb kofta",
+        "Chicken kofta",
+        "Falafel wrap",
+        [
+          "Pitta chips",
+          "Pita chips"
+        ],
+        [
+          "Moussaka",
+          "Musakka",
+          "Musaka"
+        ],
+        "Turkish pide",
+        [
+          "Hummus with meat",
+          "Hummus bil lahmeh"
+        ]
       ]
     },
     {
@@ -565,9 +1354,9 @@
         ],
         [
           "Bologna",
-          "Spaghetti Bolognese",
-          "Bolognese",
-          "Spag bol"
+          "Bologna sausage",
+          "Baloney",
+          "Boloney"
         ],
         [
           "Brussels sprouts",
@@ -597,8 +1386,7 @@
         ],
         [
           "Bath bun",
-          "Bath buns",
-          "Bath Oliver"
+          "Bath buns"
         ],
         "Swiss roll",
         [
@@ -678,11 +1466,7 @@
         ],
         "Cumberland sausage",
         "Lincolnshire sausage",
-        [
-          "Bombay mix",
-          "Bombay potatoes",
-          "Bombay aloo"
-        ],
+        "Bombay mix",
         "Singapore noodles",
         "Peking duck",
         "Hawaiian pizza",
@@ -713,8 +1497,7 @@
         "Turkish delight",
         [
           "Jaffa cake",
-          "Jaffa cakes",
-          "Jaffa orange"
+          "Jaffa cakes"
         ],
         "Tangerine",
         "Cantaloupe",
@@ -744,10 +1527,7 @@
         ],
         "Evian",
         "Malvern water",
-        [
-          "Vichyssoise",
-          "Vichy water"
-        ],
+        "Vichyssoise",
         [
           "Kobe beef",
           "Kobe"
@@ -784,22 +1564,18 @@
         "Java",
         [
           "Wiener schnitzel",
-          "Wiener",
-          "Wienerwurst"
+          "Wiener Schnitzel"
         ],
         [
           "Neapolitan ice cream",
-          "Neapolitan",
-          "Neapolitan pizza"
+          "Neapolitan"
         ],
-        [
-          "Genoa cake",
-          "Genoa salami"
-        ],
+        "Genoa cake",
         [
           "Milanese",
-          "Risotto alla milanese",
-          "Veal Milanese"
+          "Veal Milanese",
+          "Cotoletta alla milanese",
+          "Chicken Milanese"
         ],
         [
           "Florentine",
@@ -812,8 +1588,7 @@
         "Bayonne ham",
         [
           "Valencia orange",
-          "Seville orange",
-          "Seville oranges"
+          "Valencia oranges"
         ],
         "Satsuma",
         [
@@ -845,12 +1620,7 @@
           "Nice biscuit",
           "Nice biscuits"
         ],
-        [
-          "Cornish cream tea",
-          "Cornish clotted cream",
-          "Devonshire cream tea",
-          "Devon cream tea"
-        ],
+        "Cornish cream tea",
         [
           "Jersey Royal",
           "Jersey Royals"
@@ -887,7 +1657,525 @@
         "Selkirk bannock",
         "Pitcaithly bannock",
         "Ecclefechan tart",
-        "Cullen skink"
+        "Cullen skink",
+        [
+          "Spaghetti Bolognese",
+          "Bolognese",
+          "Spag bol",
+          "Spaghetti bolognaise",
+          "Bolognese sauce"
+        ],
+        [
+          "Bath Oliver",
+          "Bath Olivers"
+        ],
+        [
+          "Bombay potatoes",
+          "Bombay aloo"
+        ],
+        "Bombay duck",
+        [
+          "Jaffa orange",
+          "Jaffa oranges"
+        ],
+        "Vichy water",
+        [
+          "Vichy carrots",
+          "Carrots Vichy"
+        ],
+        [
+          "Wiener",
+          "Wienerwurst",
+          "Vienna sausage",
+          "Vienna sausages"
+        ],
+        [
+          "Neapolitan pizza",
+          "Pizza napoletana"
+        ],
+        "Genoa salami",
+        [
+          "Risotto alla milanese",
+          "Risotto milanese"
+        ],
+        [
+          "Seville orange",
+          "Seville oranges",
+          "Seville orange marmalade"
+        ],
+        [
+          "Devon cream tea",
+          "Devonshire cream tea"
+        ],
+        [
+          "Cornish clotted cream",
+          "Clotted cream"
+        ],
+        "French toast",
+        "French fries",
+        "French dressing",
+        "French onion soup",
+        "Spanish omelette",
+        "Spanish onion",
+        "Swedish meatballs",
+        [
+          "Swede",
+          "Swedish turnip"
+        ],
+        [
+          "Belgian waffle",
+          "Belgian waffles"
+        ],
+        "Liège waffle",
+        "Greek salad",
+        [
+          "Greek yoghurt",
+          "Greek yogurt"
+        ],
+        "Russian salad",
+        "Russian dressing",
+        "Irish stew",
+        "Irish coffee",
+        "Irish soda bread",
+        [
+          "Scotch pancakes",
+          "Scotch pancake"
+        ],
+        "Scotch pie",
+        "Scotch whisky",
+        "Scotch bonnet",
+        [
+          "Welsh cakes",
+          "Welsh cake"
+        ],
+        "English mustard",
+        [
+          "English breakfast",
+          "Full English"
+        ],
+        "English breakfast tea",
+        "Swiss cheese",
+        "Danish blue",
+        "Turkish coffee",
+        "Turkey",
+        "Guinea fowl",
+        "Muscovy duck",
+        "Brussels pâté",
+        [
+          "Hollandaise sauce",
+          "Hollandaise"
+        ],
+        [
+          "Béarnaise sauce",
+          "Béarnaise"
+        ],
+        [
+          "Chantilly cream",
+          "Crème Chantilly"
+        ],
+        "Quiche Lorraine",
+        [
+          "Salade niçoise",
+          "Nicoise salad"
+        ],
+        [
+          "Beef bourguignon",
+          "Boeuf bourguignon"
+        ],
+        "Lyonnaise sauce",
+        [
+          "Bordelaise sauce",
+          "Bordelaise"
+        ],
+        [
+          "Provençale",
+          "Provencal",
+          "Sauce provençale"
+        ],
+        [
+          "Thousand Island dressing",
+          "Thousand Island"
+        ],
+        "Cumberland sauce",
+        "Cumberland rum butter",
+        "Tewkesbury mustard",
+        "Sriracha",
+        [
+          "Szechuan sauce",
+          "Sichuan sauce"
+        ],
+        [
+          "Sichuan pepper",
+          "Szechuan pepper",
+          "Sichuan peppercorns"
+        ],
+        "Hunan chicken",
+        "Shanghai noodles",
+        "Mongolian beef",
+        "Mongolian lamb",
+        [
+          "Madras",
+          "Madras curry",
+          "Chicken madras"
+        ],
+        "Hyderabadi biryani",
+        "Mysore pak",
+        [
+          "Darjeeling",
+          "Darjeeling tea"
+        ],
+        [
+          "Assam",
+          "Assam tea"
+        ],
+        [
+          "Ceylon tea",
+          "Ceylon"
+        ],
+        [
+          "Keemun",
+          "Keemun tea"
+        ],
+        "Yunnan tea",
+        "Kona coffee",
+        [
+          "Jamaica Blue Mountain",
+          "Blue Mountain coffee"
+        ],
+        [
+          "Jamaica ginger cake",
+          "Jamaican ginger cake"
+        ],
+        [
+          "Jamaican patty",
+          "Jamaican patties"
+        ],
+        [
+          "Demerara sugar",
+          "Demerara"
+        ],
+        [
+          "Angostura bitters",
+          "Angostura"
+        ],
+        [
+          "Curaçao",
+          "Blue Curaçao"
+        ],
+        "Malibu",
+        "Cuba libre",
+        "Daiquiri",
+        "Singapore sling",
+        "Moscow mule",
+        "Kentucky Fried Chicken",
+        "Tennessee whiskey",
+        "Boston baked beans",
+        "Boston cream pie",
+        "New England clam chowder",
+        "Manhattan clam chowder",
+        "Key lime pie",
+        "Mississippi mud pie",
+        [
+          "Denver omelette",
+          "Denver omelet"
+        ],
+        "Texas toast",
+        [
+          "Chicago-style pizza",
+          "Chicago deep dish",
+          "Chicago deep-dish pizza"
+        ],
+        [
+          "Detroit-style pizza",
+          "Detroit pizza"
+        ],
+        [
+          "New York pizza",
+          "New York-style pizza"
+        ],
+        "California roll",
+        [
+          "Nanaimo bar",
+          "Nanaimo bars"
+        ],
+        "Canadian bacon",
+        "Montreal smoked meat",
+        [
+          "Jalapeño",
+          "Jalapeños"
+        ],
+        [
+          "Habanero",
+          "Habaneros"
+        ],
+        [
+          "Poblano",
+          "Poblano pepper"
+        ],
+        "Mole poblano",
+        [
+          "Padrón peppers",
+          "Pimientos de Padrón"
+        ],
+        [
+          "Sardines",
+          "Sardine"
+        ],
+        [
+          "Currants",
+          "Currant"
+        ],
+        [
+          "Kalamata olives",
+          "Kalamata olive",
+          "Kalamata"
+        ],
+        [
+          "San Marzano tomatoes",
+          "San Marzano"
+        ],
+        "Bermuda onion",
+        "Vidalia onion",
+        [
+          "Chantenay carrots",
+          "Chantenay carrot"
+        ],
+        [
+          "Puy lentils",
+          "Lentilles du Puy"
+        ],
+        [
+          "Jerusalem artichoke",
+          "Jerusalem artichokes"
+        ],
+        "Dover sole",
+        [
+          "Finnan haddie",
+          "Finnan haddock"
+        ],
+        "Dublin Bay prawns",
+        [
+          "Manx kippers",
+          "Manx kipper"
+        ],
+        "Galway oysters",
+        "Aylesbury duck",
+        "Gressingham duck",
+        "Hereford beef",
+        "Galloway beef",
+        [
+          "Bresse chicken",
+          "Poulet de Bresse"
+        ],
+        "York ham",
+        [
+          "Wiltshire ham",
+          "Wiltshire bacon"
+        ],
+        "Ayrshire bacon",
+        "Westphalian ham",
+        "Black Forest ham",
+        "Prague ham",
+        "Toulouse sausage",
+        "Morteau sausage",
+        "Frankfurt sausage",
+        [
+          "Thüringer",
+          "Thuringian sausage",
+          "Thüringer Rostbratwurst"
+        ],
+        [
+          "Nuremberg sausage",
+          "Nürnberger Rostbratwurst",
+          "Nurnberger"
+        ],
+        [
+          "Krakowska",
+          "Kraków sausage"
+        ],
+        [
+          "Jamón ibérico",
+          "Iberico ham"
+        ],
+        [
+          "Prosciutto di San Daniele",
+          "San Daniele ham"
+        ],
+        "Pecorino Romano",
+        "Grana Padano",
+        "Asiago",
+        "Taleggio",
+        "Manchego",
+        "Comté",
+        [
+          "Munster",
+          "Muenster"
+        ],
+        "Pont-l'Évêque",
+        "Livarot",
+        "Neufchâtel",
+        "Époisses",
+        [
+          "Saint-Nectaire",
+          "St Nectaire"
+        ],
+        "Cantal",
+        "Leerdammer",
+        "Limburger",
+        [
+          "Tilsit",
+          "Tilsiter"
+        ],
+        "Appenzeller",
+        "Jarlsberg",
+        "Monterey Jack",
+        "Colby",
+        [
+          "Philadelphia",
+          "Philadelphia cream cheese"
+        ],
+        "Shropshire Blue",
+        "Lincolnshire Poacher",
+        "Swaledale",
+        [
+          "Sage Derby",
+          "Derby cheese"
+        ],
+        [
+          "Dorset Blue Vinny",
+          "Blue Vinny"
+        ],
+        [
+          "Saint-Émilion",
+          "St Emilion"
+        ],
+        "Châteauneuf-du-Pape",
+        "Côtes du Rhône",
+        "Médoc",
+        "Margaux",
+        "Pauillac",
+        "Graves",
+        "Meursault",
+        "Mâcon",
+        "Pouilly-Fuissé",
+        "Pouilly-Fumé",
+        "Barolo",
+        "Barbaresco",
+        "Valpolicella",
+        "Soave",
+        "Frascati",
+        "Montepulciano",
+        "Franciacorta",
+        [
+          "Mosel",
+          "Moselle"
+        ],
+        "Ribera del Duero",
+        [
+          "Málaga wine",
+          "Malaga"
+        ],
+        "Pisco",
+        "Budweiser",
+        "Kölsch",
+        "Dortmunder",
+        "Burton ale",
+        "Vittel",
+        "Volvic",
+        "Contrex",
+        "Spa water",
+        "Buxton water",
+        "Harrogate water",
+        "Madeira cake",
+        [
+          "Pastel de Belém",
+          "Pasteis de Belem"
+        ],
+        "Tarta de Santiago",
+        "Crema catalana",
+        [
+          "Panforte",
+          "Panforte di Siena"
+        ],
+        [
+          "Amaretto di Saronno",
+          "Disaronno"
+        ],
+        [
+          "Dresden stollen",
+          "Dresdner Stollen"
+        ],
+        "Salzburger Nockerl",
+        [
+          "Viennese whirl",
+          "Viennese whirls"
+        ],
+        [
+          "Vienna bread",
+          "Vienna loaf"
+        ],
+        [
+          "Battenberg",
+          "Battenberg cake"
+        ],
+        "Paris-Brest",
+        [
+          "Nougat de Montélimar",
+          "Montélimar nougat"
+        ],
+        [
+          "Agen prunes",
+          "Pruneaux d'Agen"
+        ],
+        "Coburg loaf",
+        "Belfast bap",
+        [
+          "Aberdeen butteries",
+          "Rowies",
+          "Aberdeen rowies"
+        ],
+        "Edinburgh rock",
+        "Moffat toffee",
+        "Hawick balls",
+        "Jethart snails",
+        "Berwick cockles",
+        "Grasmere gingerbread",
+        "Ormskirk gingerbread",
+        [
+          "Goosnargh cakes",
+          "Goosnargh cake"
+        ],
+        "Everton toffee",
+        "Everton mints",
+        "Manchester tart",
+        [
+          "Coventry godcakes",
+          "Godcakes"
+        ],
+        [
+          "Cornish fairings",
+          "Fairings"
+        ],
+        "Cornish saffron cake",
+        "Shrewsbury cake",
+        "Staffordshire oatcakes",
+        "Lincolnshire plum bread",
+        "Dorset knob",
+        "Dorset apple cake",
+        [
+          "Glamorgan sausage",
+          "Glamorgan sausages"
+        ],
+        "Anglesey eggs",
+        "Ulster fry",
+        [
+          "Armagh Bramley apple",
+          "Armagh Bramley"
+        ],
+        "Dublin coddle",
+        "Yorkshire tea",
+        "Yorkshire parkin",
+        "Worcester Pearmain"
       ]
     },
     {
@@ -929,7 +2217,7 @@
         "Jonagold",
         [
           "Egremont Russet",
-          "Russet"
+          "Egremont"
         ],
         [
           "Envy",
@@ -966,7 +2254,7 @@
         "Blenheim Orange",
         [
           "Laxton's Superb",
-          "Laxton's Fortune"
+          "Laxtons Superb"
         ],
         "Ribston Pippin",
         "Newton Wonder",
@@ -991,7 +2279,10 @@
         "Red Windsor",
         "Scrumptious",
         "Falstaff",
-        "Fiesta",
+        [
+          "Fiesta",
+          "Red Pippin"
+        ],
         "Sunset",
         "Kidd's Orange Red",
         "Court Pendu Plat",
@@ -1009,15 +2300,211 @@
         "Gravenstein",
         "Pink Pearl",
         "Calville Blanc",
-        [
-          "Reinette",
-          "Reine des Reinettes"
-        ],
+        "Reinette",
         "Kingston Black",
         "Dabinett",
         "Yarlington Mill",
         "Costard",
-        "Devonshire Quarrenden"
+        "Devonshire Quarrenden",
+        [
+          "Russet",
+          "Russet apple"
+        ],
+        "Laxton's Fortune",
+        "Reine des Reinettes",
+        [
+          "Idared",
+          "Ida Red"
+        ],
+        "Jonagored",
+        "Red Falstaff",
+        "Santana",
+        "Topaz",
+        "Rubinola",
+        "Evelina",
+        "Wellant",
+        "Kiku",
+        "Rockit",
+        "Natyra",
+        [
+          "Pinova",
+          "Piñata"
+        ],
+        "Crimson Crisp",
+        "Zestar",
+        "SnapDragon",
+        "Pazazz",
+        "Autumn Glory",
+        "Shinano Gold",
+        "Orin",
+        "Tsugaru",
+        "Golden Russet",
+        "Roxbury Russet",
+        "Baldwin",
+        "Rhode Island Greening",
+        [
+          "Newtown Pippin",
+          "Albemarle Pippin"
+        ],
+        [
+          "Esopus Spitzenburg",
+          "Spitzenburg"
+        ],
+        "Cortland",
+        "Macoun",
+        "Paula Red",
+        "Lodi",
+        [
+          "Stayman",
+          "Stayman Winesap"
+        ],
+        "York Imperial",
+        "Arkansas Black",
+        "Ginger Gold",
+        "Wolf River",
+        [
+          "Snow apple",
+          "Fameuse"
+        ],
+        "Haralson",
+        "Liberty",
+        "Freedom",
+        "Enterprise",
+        "GoldRush",
+        "Pristine",
+        "Sweet Sixteen",
+        "Adam's Pearmain",
+        "Allington Pippin",
+        "American Mother",
+        "Bountiful",
+        "Bess Pool",
+        "Brownlees Russet",
+        "Cornish Gilliflower",
+        "Cox's Pomona",
+        "D'Arcy Spice",
+        "Duke of Devonshire",
+        "Exeter Cross",
+        "Gascoyne's Scarlet",
+        "George Cave",
+        "Greensleeves",
+        "Herefordshire Russet",
+        "Irish Peach",
+        "Jupiter",
+        "King of the Pippins",
+        "Lane's Prince Albert",
+        "Lord Burghley",
+        "Lord Hindlip",
+        "Margil",
+        [
+          "Norfolk Beefing",
+          "Norfolk Biffin"
+        ],
+        "Orleans Reinette",
+        "Peasgood's Nonsuch",
+        "Pitmaston Pineapple",
+        "Red Devil",
+        [
+          "Reverend W. Wilks",
+          "Rev W Wilks"
+        ],
+        "Rosemary Russet",
+        [
+          "St Edmund's Pippin",
+          "St Edmund's Russet"
+        ],
+        [
+          "Sturmer Pippin",
+          "Sturmer"
+        ],
+        "Suntan",
+        [
+          "Tydeman's Early Worcester",
+          "Tydeman's Early"
+        ],
+        "Tydeman's Late Orange",
+        "Warner's King",
+        "Wyken Pippin",
+        "Winston",
+        "Crawley Beauty",
+        [
+          "Dumelow's Seedling",
+          "Wellington"
+        ],
+        "Keswick Codlin",
+        "Lady Henniker",
+        "Bismarck",
+        [
+          "Emneth Early",
+          "Early Victoria"
+        ],
+        "Stirling Castle",
+        "Hawthornden",
+        "Christmas Pippin",
+        [
+          "Bardsey apple",
+          "Bardsey Island apple"
+        ],
+        "Tom Putt",
+        "Catshead",
+        "Scotch Bridget",
+        "Galloway Pippin",
+        "Lady Sudeley",
+        "Lord Suffield",
+        "Mère de Ménage",
+        "Beauty of Kent",
+        "Kentish Fillbasket",
+        "Cornish Aromatic",
+        "Court of Wick",
+        "Golden Harvey",
+        "Claygate Pearmain",
+        "Michelin",
+        "Brown Snout",
+        "Foxwhelp",
+        "Harry Masters Jersey",
+        "Somerset Redstreak",
+        "Tremlett's Bitter",
+        "Ellis Bitter",
+        "Sweet Coppin",
+        "Chisel Jersey",
+        "Stoke Red",
+        [
+          "Browns apple",
+          "Browns"
+        ],
+        [
+          "Crab apple",
+          "Crabapple"
+        ],
+        [
+          "Belle de Boskoop",
+          "Boskoop"
+        ],
+        "Antonovka",
+        "Rubinette",
+        "Melba",
+        "Red Astrachan",
+        "Sunrise",
+        [
+          "Delcorf",
+          "Delbarestivale"
+        ],
+        "Akane",
+        "Jonamac",
+        "Spigold",
+        "Red Prince",
+        "Ruby Frost",
+        "Sweetie",
+        [
+          "Smoothee",
+          "Golden Smoothee"
+        ],
+        "Dalinette",
+        "Modi",
+        "Bloss",
+        [
+          "Story",
+          "Inored"
+        ]
       ]
     },
     {
@@ -1029,7 +2516,8 @@
       "answers": [
         [
           "King Edward",
-          "King Edwards"
+          "King Edwards",
+          "King Edward VII"
         ],
         "Maris Piper",
         "Charlotte",
@@ -1047,7 +2535,8 @@
         [
           "Russet Burbank",
           "Russet",
-          "Idaho"
+          "Idaho",
+          "Idaho potato"
         ],
         "Yukon Gold",
         "Anya",
@@ -1119,7 +2608,99 @@
         "Cultra",
         "Arran Banner",
         "Champion",
-        "Lumper"
+        "Lumper",
+        "Russet Norkotah",
+        "Ranger Russet",
+        "Umatilla Russet",
+        "Shepody",
+        "Atlantic",
+        "Superior",
+        [
+          "Red Norland",
+          "Norland",
+          "Dark Red Norland"
+        ],
+        "Adirondack Blue",
+        "Adirondack Red",
+        "All Blue",
+        "Russian Banana",
+        "French Fingerling",
+        "Purple Peruvian",
+        "Mountain Rose",
+        "Chieftain",
+        "Katahdin",
+        "Irish Cobbler",
+        "Green Mountain",
+        "German Butterball",
+        "Carola",
+        "BF15",
+        "Amandine",
+        "Annabelle",
+        "Agata",
+        "Monalisa",
+        "Spunta",
+        "Ballydoon",
+        "Navan",
+        "Maris Bard",
+        "Arran Comet",
+        "Arran Consul",
+        "Ailsa",
+        "Pentland Squire",
+        "Pentland Ivory",
+        "Pentland Hawk",
+        "Pentland Marble",
+        "Pentland Beauty",
+        "Ulster Prince",
+        "Ulster Chieftain",
+        "Red King Edward",
+        "Mayan Gold",
+        "Apache",
+        "Blue Danube",
+        "Blue Belle",
+        "Linzer Delikatess",
+        "Juliette",
+        "Gemson",
+        "Abbot",
+        "Lady Claire",
+        "Marabel",
+        "Osprey",
+        "Sagitta",
+        "Cabaret",
+        "Alouette",
+        "Carolus",
+        "Sarpo Axona",
+        "Sarpo Una",
+        "Picasso",
+        "Druid",
+        "Romano",
+        "Mimi",
+        [
+          "Vitelotte",
+          "Negresse",
+          "Vitelotte Noire"
+        ],
+        "Edzell Blue",
+        "Congo",
+        "Premiere",
+        "Exquisa",
+        "Pink Gypsy",
+        "Harmony",
+        "Nadine",
+        "Yellow Finn",
+        "Arran Chief",
+        "Dunbar Standard",
+        "Dunbar Rover",
+        "Lady Olympia",
+        "Innovator",
+        "Fontane",
+        "Asterix",
+        "Nectar",
+        "Jelly",
+        "Gourmandine",
+        "Roseval",
+        "Pompadour",
+        "Violetta",
+        "Red Emmalie"
       ]
     },
     {
@@ -1156,7 +2737,9 @@
           "Ghost pepper",
           "Bhut jolokia",
           "Ghost chilli",
-          "Naga jolokia"
+          "Naga jolokia",
+          "Raja mircha",
+          "Bhut jolokia pepper"
         ],
         [
           "Cayenne",
@@ -1169,8 +2752,7 @@
         [
           "Scorpion",
           "Trinidad Scorpion",
-          "Trinidad Moruga Scorpion",
-          "Moruga Scorpion"
+          "Scorpion pepper"
         ],
         "Naga Viper",
         "Pepper X",
@@ -1198,8 +2780,8 @@
         ],
         [
           "Banana pepper",
-          "Hungarian wax",
-          "Hungarian wax pepper"
+          "Banana peppers",
+          "Banana chilli"
         ],
         [
           "Pepperoncini",
@@ -1258,8 +2840,7 @@
         [
           "7 Pot",
           "Seven Pot",
-          "7 Pot Douglah",
-          "7 Pot Primo"
+          "7 Pot chilli"
         ],
         [
           "Trinidad Scorpion Butch T",
@@ -1298,7 +2879,232 @@
         "Bulgarian carrot",
         "Lombardo",
         "Biquinho",
-        "Tiger Paw"
+        "Tiger Paw",
+        [
+          "Trinidad Moruga Scorpion",
+          "Moruga Scorpion",
+          "Moruga"
+        ],
+        [
+          "Hungarian wax",
+          "Hungarian wax pepper",
+          "Hungarian hot wax",
+          "Hot wax"
+        ],
+        [
+          "7 Pot Douglah",
+          "Douglah",
+          "Chocolate 7 Pot"
+        ],
+        [
+          "7 Pot Primo",
+          "Primo"
+        ],
+        [
+          "7 Pot Brain Strain",
+          "Brain Strain"
+        ],
+        [
+          "Peperoncino",
+          "Italian peperoncino"
+        ],
+        "Bishop's crown",
+        "Ají dulce",
+        [
+          "Ají charapita",
+          "Charapita"
+        ],
+        "Ají panca",
+        [
+          "Ají mirasol",
+          "Mirasol"
+        ],
+        "Ají cristal",
+        [
+          "Big Jim",
+          "NuMex Big Jim"
+        ],
+        "Black Pearl",
+        "Bolivian Rainbow",
+        "Brazilian Starfish",
+        "Charleston Hot",
+        "Chilaca",
+        "Chimayo",
+        [
+          "Chocolate Bhutlah",
+          "Bhutlah"
+        ],
+        "Costeño",
+        "Cubanelle",
+        "Devil's Tongue",
+        "Fish pepper",
+        [
+          "Guindilla",
+          "Guindillas"
+        ],
+        "Habanada",
+        "Hot Paper Lantern",
+        "Hungarian Black",
+        [
+          "Jwala",
+          "Jwala chilli"
+        ],
+        "Morita",
+        "Prairie Fire",
+        "Primotalii",
+        "Puya",
+        "Santa Fe Grande",
+        "Takanotsume",
+        [
+          "Er jing tiao",
+          "Erjingtiao"
+        ],
+        [
+          "Tien Tsin",
+          "Tianjin chilli",
+          "Tientsin"
+        ],
+        "Chilhuacle",
+        "Chile de agua",
+        "Trinidad Perfume",
+        "Naga Morich",
+        [
+          "Spanish Naga",
+          "Gibraltar"
+        ],
+        [
+          "Mundu",
+          "Ramnad Mundu"
+        ],
+        "Pimenta de cheiro",
+        "Wiri wiri",
+        "Kambuzi",
+        "Dundicut",
+        "Sannam",
+        "Reshampatti",
+        [
+          "Gorria",
+          "Piment d'Espelette Gorria"
+        ],
+        "Nora",
+        "Choricero",
+        [
+          "Piquillo",
+          "Piquillo pepper"
+        ],
+        [
+          "Anaheim Colorado",
+          "Chile Colorado"
+        ],
+        "Sandia",
+        [
+          "Joe's Long",
+          "Joe's Long Cayenne"
+        ],
+        "Ring of Fire",
+        "Thai Hot",
+        [
+          "Prik chee fah",
+          "Prik chi fa"
+        ],
+        "Prik jinda",
+        [
+          "Korean chilli",
+          "Gochu"
+        ],
+        [
+          "Cheongyang",
+          "Cheongyang chilli"
+        ],
+        [
+          "Naga King",
+          "King Naga"
+        ],
+        "Carolina Cayenne",
+        "Aji Pineapple",
+        [
+          "Sugar Rush Peach",
+          "Sugar Rush"
+        ],
+        [
+          "Lemon Spice Jalapeño",
+          "Lemon Spice"
+        ],
+        [
+          "Fooled You",
+          "Fooled You jalapeño"
+        ],
+        [
+          "TAM Jalapeño",
+          "TAM mild jalapeño"
+        ],
+        "Purple jalapeño",
+        "Jalafuego",
+        "Early Jalapeño",
+        "Mucho Nacho",
+        "Aci Sivri",
+        [
+          "Aleppo Halaby",
+          "Halaby pepper"
+        ],
+        [
+          "Marash",
+          "Maraş biber",
+          "Maras pepper"
+        ],
+        [
+          "Isot",
+          "Isot biber"
+        ],
+        [
+          "Calabrian chilli",
+          "Calabrian pepper",
+          "Peperoncino di Calabria"
+        ],
+        [
+          "Cayenne Long Slim",
+          "Long Slim Cayenne"
+        ],
+        "Basket of Fire",
+        "Apache",
+        [
+          "Numex Twilight",
+          "Twilight"
+        ],
+        "Medusa",
+        "Loco",
+        "Hot Lemon",
+        "Jamaican Hot Chocolate",
+        [
+          "Red Habanero",
+          "Red Caribbean habanero"
+        ],
+        [
+          "White habanero",
+          "Peruvian white habanero"
+        ],
+        "Orange habanero",
+        [
+          "Habanero Peach",
+          "Peach habanero"
+        ],
+        [
+          "Bhut Jolokia Chocolate",
+          "Chocolate ghost pepper"
+        ],
+        [
+          "Yellow ghost pepper",
+          "Yellow Bhut"
+        ],
+        [
+          "Moruga Chocolate",
+          "Chocolate Scorpion"
+        ],
+        "Death Spiral",
+        [
+          "Reaper Chocolate",
+          "Chocolate Reaper"
+        ]
       ]
     }
   ]

@@ -43,9 +43,7 @@
     "Ski jumping",
     [
      "Cross-country skiing",
-     "Cross country skiing",
-     "Cross country",
-     "Nordic skiing"
+     "Cross country"
     ],
     "Biathlon",
     "Luge",
@@ -60,7 +58,6 @@
     "Nordic combined",
     [
      "Short-track speed skating",
-     "Short track speed skating",
      "Short track"
     ],
     [
@@ -777,6 +774,11 @@
      "Lotus Six",
      "Six",
      "Mk VI"
+    ],
+    [
+     "Sunbeam Lotus",
+     "talbot sunbeam lotus",
+     "lotus sunbeam"
     ]
    ]
   },
@@ -790,12 +792,24 @@
     [
      "Continental",
      "Bentley Continental",
-     "Continental R",
-     "Continental T",
-     "Continental S",
+     "Continental S"
+    ],
+    [
      "Continental Supersports",
-     "R-Type Continental",
+     "supersports",
+     "bentley supersports"
+    ],
+    [
+     "Continental T",
+     "bentley continental t"
+    ],
+    [
+     "Continental R",
      "Bentley Continental R"
+    ],
+    [
+     "R-Type Continental",
+     "bentley r-type continental"
     ],
     [
      "Bentayga",
@@ -841,7 +855,8 @@
     ],
     [
      "Speed Six",
-     "Bentley Speed Six"
+     "Bentley Speed Six",
+     "blue train"
     ],
     [
      "4½ Litre",
@@ -886,16 +901,15 @@
     ],
     [
      "R Type",
-     "R-Type",
      "Bentley R Type"
     ],
     [
      "S1",
-     "Bentley S1"
+     "Bentley S1",
+     "s1 continental"
     ],
     [
      "T-Series",
-     "T Series",
      "T1",
      "Bentley T-Series",
      "Bentley T1",

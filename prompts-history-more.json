@@ -2364,8 +2364,7 @@
     [
      "Battle of the Somme",
      "Somme",
-     "Battle of Somme",
-     "Second Battle of the Somme"
+     "Battle of Somme"
     ],
     [
      "Gallipoli",
@@ -2377,17 +2376,15 @@
     [
      "Battle of Ypres",
      "Ypres",
-     "Fifth Battle of Ypres",
-     "First Battle of Ypres",
-     "Fourth Battle of Ypres",
-     "Second Battle of Ypres",
-     "Third Battle of Ypres"
+     "First Battle of Ypres"
     ],
+    "Second Battle of Ypres",
     [
      "Battle of Passchendaele",
      "Passchendaele",
      "First Battle of Passchendaele",
-     "Second Battle of Passchendaele"
+     "Second Battle of Passchendaele",
+     "Third Battle of Ypres"
     ],
     [
      "Battle of Verdun",
@@ -2399,16 +2396,15 @@
     ],
     [
      "Battle of Mons",
-     "Mons",
-     "Second Battle of Mons"
+     "Mons"
     ],
     [
      "Battle of the Marne",
      "Marne",
      "Battle of Marne",
-     "First Battle of the Marne",
-     "Second Battle of the Marne"
+     "First Battle of the Marne"
     ],
+    "Second Battle of the Marne",
     [
      "Battle of Cambrai",
      "Cambrai",
@@ -2448,7 +2444,8 @@
     ],
     [
      "Battle of Caporetto",
-     "Caporetto"
+     "Caporetto",
+     "Twelfth Battle of the Isonzo"
     ],
     [
      "Battle of Neuve Chapelle",
@@ -2459,26 +2456,13 @@
      "Isonzo",
      "Battle of Isonzo",
      "Battles of the Isonzo",
-     "Eighth Battle of the Isonzo",
-     "Eleventh Battle of the Isonzo",
-     "Fifth Battle of the Isonzo",
-     "First Battle of the Isonzo",
-     "Fourth Battle of the Isonzo",
-     "Ninth Battle of the Isonzo",
-     "Second Battle of the Isonzo",
-     "Seventh Battle of the Isonzo",
-     "Sixth Battle of the Isonzo",
-     "Tenth Battle of the Isonzo",
-     "Third Battle of the Isonzo",
-     "Twelfth Battle of the Isonzo"
+     "First Battle of the Isonzo"
     ],
     [
      "Battle of the Aisne",
      "Aisne",
      "Battle of Aisne",
-     "First Battle of the Aisne",
-     "Second Battle of the Aisne",
-     "Third Battle of the Aisne"
+     "First Battle of the Aisne"
     ],
     [
      "Hundred Days Offensive",
@@ -2492,8 +2476,7 @@
     ],
     [
      "Battle of Kut",
-     "Kut",
-     "Second Battle of Kut"
+     "Kut"
     ],
     [
      "Battle of Beersheba",
@@ -2554,8 +2537,7 @@
     [
      "Battle of Heligoland Bight",
      "Heligoland Bight",
-     "Battle of Heligoland Bight (1914)",
-     "Second Battle of Heligoland Bight"
+     "Battle of Heligoland Bight (1914)"
     ],
     [
      "Battle of Coronel",
@@ -2566,16 +2548,13 @@
      "Battle of the Masurian Lakes",
      "Masurian Lakes",
      "Battle of Masurian Lakes",
-     "First Battle of the Masurian Lakes",
-     "Second Battle of the Masurian Lakes"
+     "First Battle of the Masurian Lakes"
     ],
     "Brusilov Offensive",
     [
      "Battle of Gaza",
      "Gaza",
-     "First Battle of Gaza",
-     "Second Battle of Gaza",
-     "Third Battle of Gaza"
+     "First Battle of Gaza"
     ],
     [
      "Battle of Galicia",
@@ -2591,15 +2570,12 @@
     ],
     [
      "Battle of Artois",
-     "Artois",
-     "Second Battle of Artois"
+     "Artois"
     ],
     [
      "Battle of Champagne",
      "Champagne",
-     "First Battle of Champagne",
-     "Second Battle of Champagne",
-     "Third Battle of Champagne"
+     "First Battle of Champagne"
     ],
     [
      "Battle of Charleroi",
@@ -2722,7 +2698,8 @@
     [
      "Battle of the Lys",
      "Lys",
-     "Battle of Lys"
+     "Battle of Lys",
+     "Fourth Battle of Ypres"
     ],
     [
      "Battle of Hamel",
@@ -2807,7 +2784,30 @@
     "Battle of the Dover Strait",
     "Battle of the Otranto Straits",
     "Battle of Moon Sound",
-    "Ostend Raid"
+    "Ostend Raid",
+    "Fifth Battle of Ypres",
+    "Second Battle of the Somme",
+    "Second Battle of Mons",
+    "Second Battle of the Isonzo",
+    "Third Battle of the Isonzo",
+    "Fourth Battle of the Isonzo",
+    "Fifth Battle of the Isonzo",
+    "Sixth Battle of the Isonzo",
+    "Seventh Battle of the Isonzo",
+    "Eighth Battle of the Isonzo",
+    "Ninth Battle of the Isonzo",
+    "Tenth Battle of the Isonzo",
+    "Eleventh Battle of the Isonzo",
+    "Second Battle of the Aisne",
+    "Third Battle of the Aisne",
+    "Second Battle of Kut",
+    "Second Battle of Heligoland Bight",
+    "Second Battle of the Masurian Lakes",
+    "Second Battle of Gaza",
+    "Third Battle of Gaza",
+    "Second Battle of Artois",
+    "Second Battle of Champagne",
+    "Third Battle of Champagne"
    ]
   },
   {
@@ -2847,9 +2847,9 @@
     [
      "Battle of El Alamein",
      "El Alamein",
-     "First Battle of El Alamein",
      "Second Battle of El Alamein"
     ],
+    "First Battle of El Alamein",
     [
      "Battle of the Bulge",
      "Bulge",
@@ -3062,10 +3062,7 @@
     [
      "Battle of Kharkov",
      "Kharkov",
-     "First Battle of Kharkov",
-     "Fourth Battle of Kharkov",
-     "Second Battle of Kharkov",
-     "Third Battle of Kharkov"
+     "First Battle of Kharkov"
     ],
     [
      "Battle of Narvik",
@@ -3387,7 +3384,10 @@
     [
      "Battle of Vienna",
      "Vienna"
-    ]
+    ],
+    "Second Battle of Kharkov",
+    "Third Battle of Kharkov",
+    "Fourth Battle of Kharkov"
    ]
   },
   {
@@ -3799,9 +3799,9 @@
     [
      "Battle of Newbury",
      "Newbury",
-     "First Battle of Newbury",
-     "Second Battle of Newbury"
+     "First Battle of Newbury"
     ],
+    "Second Battle of Newbury",
     [
      "Battle of Preston",
      "Preston",
@@ -4288,9 +4288,9 @@
     [
      "Battle of St Albans",
      "St Albans",
-     "First Battle of St Albans",
-     "Second Battle of St Albans"
+     "First Battle of St Albans"
     ],
+    "Second Battle of St Albans",
     [
      "Battle of Wakefield",
      "Wakefield"
@@ -5875,20 +5875,21 @@
     ],
     [
      "Battle of Fort Sumter",
-     "Fort Sumter",
-     "Second Battle of Fort Sumter"
+     "Fort Sumter"
     ],
     [
      "Battle of Bull Run",
      "Bull Run",
      "First Battle of Bull Run",
-     "Second Battle of Bull Run",
      "Manassas",
      "First Manassas",
-     "Second Manassas",
      "Battle of Manassas",
-     "Second Bull Run",
      "first bull run"
+    ],
+    [
+     "Second Battle of Bull Run",
+     "Second Manassas",
+     "Second Bull Run"
     ],
     [
      "Battle of Antietam",
@@ -5908,8 +5909,7 @@
     ],
     [
      "Battle of Fredericksburg",
-     "Fredericksburg",
-     "Second Battle of Fredericksburg"
+     "Fredericksburg"
     ],
     [
      "Battle of Chancellorsville",
@@ -5930,9 +5930,7 @@
     [
      "Battle of Petersburg",
      "Petersburg",
-     "First Battle of Petersburg",
-     "Second Battle of Petersburg",
-     "Third Battle of Petersburg"
+     "First Battle of Petersburg"
     ],
     [
      "Battle of the Wilderness",
@@ -5978,8 +5976,7 @@
     [
      "Battle of Chattanooga",
      "Chattanooga",
-     "First Battle of Chattanooga",
-     "Second Battle of Chattanooga"
+     "First Battle of Chattanooga"
     ],
     [
      "Battle of Seven Pines",
@@ -6005,8 +6002,7 @@
     ],
     [
      "Battle of Corinth",
-     "Corinth",
-     "Second Battle of Corinth"
+     "Corinth"
     ],
     [
      "Battle of Champion Hill",
@@ -6182,7 +6178,13 @@
     "Battle of Ezra Church",
     "Battle of Griswoldville",
     "Battle of Spring Hill",
-    "Battle of Fort Stevens"
+    "Battle of Fort Stevens",
+    "Second Battle of Fort Sumter",
+    "Second Battle of Fredericksburg",
+    "Second Battle of Petersburg",
+    "Third Battle of Petersburg",
+    "Second Battle of Chattanooga",
+    "Second Battle of Corinth"
    ]
   },
   {
@@ -6217,8 +6219,7 @@
     ],
     [
      "Battle of Trenton",
-     "Trenton",
-     "Second Battle of Trenton"
+     "Trenton"
     ],
     [
      "Battle of Princeton",
@@ -6401,7 +6402,8 @@
     "Siege of Pensacola",
     "Battle of Ushant",
     "Battle of Grenada",
-    "Battle of Martinique"
+    "Battle of Martinique",
+    "Second Battle of Trenton"
    ],
    "deep": true
   },

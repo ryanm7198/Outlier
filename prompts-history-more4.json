@@ -272,8 +272,7 @@
     "Catapult",
     [
      "Battering ram",
-     "Ram",
-     "Trireme ram"
+     "Ram"
     ],
     [
      "Greaves",
@@ -335,7 +334,8 @@
     "Chalcidian helmet",
     "Attic helmet",
     "Montefortino helmet",
-    "Phrygian helmet"
+    "Phrygian helmet",
+    "Trireme ram"
    ]
   },
   {
@@ -865,10 +865,8 @@
     "Hieratic",
     "Ugaritic",
     "Syriac",
-    [
-     "Old Chinese",
-     "Classical Chinese"
-    ],
+    "Old Chinese",
+    "Classical Chinese",
     "Oracle bone script",
     [
      "Maya script",
@@ -1695,9 +1693,11 @@
     ],
     [
      "Russian Revolution",
-     "Russian",
-     "Bolshevik Revolution",
-     "October Revolution"
+     "Russian"
+    ],
+    [
+     "October Revolution",
+     "Bolshevik Revolution"
     ],
     [
      "American Revolution",
@@ -1743,9 +1743,9 @@
     "Mexican Revolution",
     [
      "Xinhai Revolution",
-     "Chinese Revolution",
-     "Chinese Communist Revolution"
+     "Chinese Revolution"
     ],
+    "Chinese Communist Revolution",
     "Cultural Revolution",
     "Singing Revolution",
     "February Revolution",
@@ -3529,8 +3529,10 @@
     ],
     [
      "The Wedding Feast",
-     "Wedding Banquet",
-     "Great Banquet",
+     "Wedding Banquet"
+    ],
+    [
+     "The Great Banquet",
      "Great Feast"
     ],
     [

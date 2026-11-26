@@ -8,7 +8,10 @@
    ],
    "text": "Name a type or name of sparkling wine",
    "answers": [
-    "Champagne",
+    [
+     "Champagne",
+     "Champers"
+    ],
     "Prosecco",
     "Cava",
     "Crémant",
@@ -27,7 +30,11 @@
     "Extra Brut",
     "Demi-sec",
     "Freixenet",
-    "Moët",
+    [
+     "Moët",
+     "Moët & Chandon",
+     "Moet Chandon"
+    ],
     "Nyetimber",
     "Chapel Down",
     "Ridgeview",
@@ -103,9 +110,9 @@
     ],
     [
      "Moscato d'Asti",
-     "Moscato",
      "Moscato frizzante"
     ],
+    "Moscato",
     [
      "Pétillant Naturel",
      "Pet-Nat"
@@ -143,7 +150,230 @@
     ],
     "Crémant de Limoux",
     "Blanc de Blancs",
-    "Blanc de Noirs"
+    "Blanc de Noirs",
+    [
+     "Bubbly",
+     "Bubbles"
+    ],
+    [
+     "Brut Nature",
+     "Zero Dosage",
+     "Pas Dosé",
+     "Non Dosé"
+    ],
+    "Extra Dry",
+    "Sec",
+    "Doux",
+    [
+     "Non-vintage Champagne",
+     "NV Champagne"
+    ],
+    "Pink Champagne",
+    [
+     "Louis Roederer",
+     "Roederer"
+    ],
+    "Charles Heidsieck",
+    "Pommery",
+    "Billecart-Salmon",
+    "Deutz",
+    "Gosset",
+    "Ayala",
+    "Drappier",
+    "Jacquart",
+    "Duval-Leroy",
+    "Thiénot",
+    "Joseph Perrier",
+    "Pannier",
+    "Alfred Gratien",
+    "Henriot",
+    "Delamotte",
+    "Salon",
+    "Philipponnat",
+    "Jacquesson",
+    "Vranken",
+    "Besserat de Bellefon",
+    "De Venoge",
+    "Bruno Paillard",
+    "Palmer & Co",
+    "Devaux",
+    [
+     "Heidsieck & Co Monopole",
+     "Heidsieck Monopole"
+    ],
+    "Montaudon",
+    [
+     "Champagne de Castelnau",
+     "Castelnau"
+    ],
+    [
+     "Armand de Brignac",
+     "Ace of Spades"
+    ],
+    "Moët Ice Impérial",
+    [
+     "Jacques Selosse",
+     "Selosse"
+    ],
+    "Egly-Ouriet",
+    "Comte de Senneval",
+    "Veuve Monsigny",
+    "Grower Champagne",
+    "Bottega Gold",
+    [
+     "Zonin Prosecco",
+     "Zonin"
+    ],
+    "Villa Sandi",
+    "Santa Margherita",
+    "Bisol",
+    "Nino Franco",
+    "Adami",
+    "Carpenè Malvolti",
+    "Canti",
+    "Freixenet Prosecco",
+    "Freixenet Italian Rosé",
+    "Belstar",
+    "Ruffino Prosecco",
+    "Cinzano Prosecco",
+    "Cinzano Asti",
+    "Gancia",
+    "I Heart Prosecco",
+    "Cordon Negro",
+    "Segura Viudas",
+    "Jaume Serra",
+    [
+     "Juvé y Camps",
+     "Juvé & Camps"
+    ],
+    "Gramona",
+    "Raventós i Blanc",
+    "Castillo Perelada",
+    "Anna de Codorníu",
+    "Hambledon",
+    "Exton Park",
+    "Wiston",
+    "Hattingley Valley",
+    "Rathfinny",
+    "Bolney",
+    "Furleigh",
+    "Coates & Seely",
+    "Digby",
+    "Harrow & Hope",
+    "Simpsons",
+    "Black Chalk",
+    "Balfour",
+    "Hush Heath",
+    "Denbies",
+    "Three Choirs",
+    "Breaky Bottom",
+    "Bluebell",
+    "Sugrue",
+    "Greyfriars",
+    "Squerryes",
+    "Jenkyn Place",
+    "Graham Beck",
+    "Pongrácz",
+    "Simonsig Kaapse Vonkel",
+    [
+     "Chandon",
+     "Domaine Chandon"
+    ],
+    "Jansz",
+    "Croser",
+    "Seppelt",
+    "Yellowglen",
+    "Pelorus",
+    "Lindauer",
+    "Schramsberg",
+    "Roederer Estate",
+    "Gloria Ferrer",
+    "Mumm Napa",
+    "Domaine Carneros",
+    "Korbel",
+    "Cook's",
+    "Barefoot Bubbly",
+    "Rotkäppchen",
+    "Söhnlein Brillant",
+    "Kupferberg",
+    "Faber",
+    "Schlumberger",
+    "Törley",
+    "Hungaria",
+    [
+     "Krimsekt",
+     "Crimean sparkling wine"
+    ],
+    "Abrau-Durso",
+    "Metodo Classico",
+    "Méthode Champenoise",
+    [
+     "Charmat Method",
+     "Tank Method",
+     "Martinotti Method"
+    ],
+    [
+     "Vin Mousseux",
+     "Mousseux"
+    ],
+    "Lambrusco Grasparossa",
+    "Lambrusco Salamino",
+    "Lambrusco Rosato",
+    [
+     "Pink Moscato",
+     "Moscato Rosa"
+    ],
+    "Sparkling Sauvignon Blanc",
+    "Sparkling Pinot Noir",
+    "Sparkling Red",
+    "Sparkling White",
+    "Bairrada Espumante",
+    "Asti DOCG",
+    "Cava Reserva",
+    "Cava Gran Reserva",
+    "Cava de Paraje Calificado",
+    "Crémant de Wallonie",
+    [
+     "Franciacorta Satèn",
+     "Satèn"
+    ],
+    "Vintage Cava",
+    "Tasmanian sparkling wine",
+    "English Sparkling Rosé",
+    "Welsh sparkling wine",
+    "Prosecco Spumante",
+    "Prosecco Frizzante",
+    "Asolo Prosecco",
+    [
+     "Durello",
+     "Lessini Durello"
+    ],
+    "Malvasia frizzante",
+    "Pignoletto",
+    "Gutturnio frizzante",
+    "Brachetto",
+    "Sparkling Malbec",
+    [
+     "Espumante Brasileiro",
+     "Brazilian sparkling wine"
+    ],
+    "Sparkling Mead",
+    "Champagne Brut",
+    "Champagne Demi-Sec",
+    "Blanc de Noirs Champagne",
+    "Cuvée Prestige",
+    "Louis Roederer Cristal",
+    "Krug Grande Cuvée",
+    "Laurent-Perrier Rosé",
+    "Bollinger Special Cuvée",
+    [
+     "Veuve Clicquot Yellow Label",
+     "Yellow Label"
+    ],
+    [
+     "Moët Brut Impérial",
+     "Brut Impérial"
+    ]
    ]
   },
   {
@@ -345,7 +575,209 @@
      "Glenrothes"
     ],
     "Scapa",
-    "Tamdhu"
+    "Tamdhu",
+    "Glen Garioch",
+    "Glenturret",
+    "Glenglassaugh",
+    "Glen Keith",
+    "Glentauchers",
+    "Glenburgie",
+    "Glendullan",
+    "Glenlossie",
+    "Glencadam",
+    "Glen Spey",
+    "Inchgower",
+    "Benrinnes",
+    "Balmenach",
+    "Blair Athol",
+    "Braeval",
+    "Allt-a-Bhainne",
+    [
+     "Auchroisk",
+     "Singleton of Auchroisk"
+    ],
+    "Ben Nevis",
+    "Caperdonich",
+    "Coleburn",
+    "Convalmore",
+    "Dailuaine",
+    "Dalmunach",
+    "Dornoch",
+    "Glen Albyn",
+    "Glenesk",
+    "Glen Mhor",
+    "Glenugie",
+    "Glenury Royal",
+    "Glenlochy",
+    "Imperial",
+    "Inchmurrin",
+    "Inchmoan",
+    "Kininvie",
+    "Knockdhu",
+    "Linkwood",
+    "Littlemill",
+    "Lochside",
+    "Macduff",
+    "Mannochmore",
+    "Miltonduff",
+    "Millburn",
+    "Mosstowie",
+    "Pittyvaich",
+    "Port Ellen",
+    "Brora",
+    "Rosebank",
+    "St Magdalene",
+    "Speyside",
+    "Strathmill",
+    "Tamnavulin",
+    "Teaninich",
+    "Tomintoul",
+    "Tormore",
+    "Ladyburn",
+    "Kinclaith",
+    "Banff",
+    "Dallas Dhu",
+    "Glen Flagler",
+    "Lochnagar",
+    "Ardnahoe",
+    "Lagg",
+    "Kilchoman Machir Bay",
+    "Port Askaig",
+    "Smokehead",
+    "Elements of Islay",
+    "Ileach",
+    "Finlaggan",
+    "Islay Storm",
+    "Laphroaig Quarter Cask",
+    "Ardbeg Uigeadail",
+    "Lagavulin 16",
+    "Talisker 10",
+    "Macallan 12",
+    "Glenfiddich 12",
+    "Glenlivet Founder's Reserve",
+    "Highland Park 12",
+    "The Deveron",
+    "The Glen Grant Major's Reserve",
+    "Bell's Special Reserve",
+    "Grant's Family Reserve",
+    "Dewar's White Label",
+    "Teacher's Highland Cream",
+    "Chivas Regal 12",
+    "Royal Household",
+    "Johnnie Walker Green Label",
+    "Johnnie Walker Gold Label",
+    "Johnnie Walker 18",
+    "Johnnie Walker King George V",
+    "Johnnie Walker White Walker",
+    "Monkey Shoulder Smokey Monkey",
+    "The Famous Grouse Smoky Black",
+    "Whyte & Mackay Special",
+    "Jura Journey",
+    "Isle of Jura Superstition",
+    "Old Smuggler",
+    "Lang's",
+    "Highland Queen",
+    "Highland Mist",
+    "Glen Talloch",
+    "Glen Orrin",
+    "Glen Marnoch",
+    "Glen Moray Classic",
+    "Highland Black",
+    "Ben Bracken",
+    "Queen Margot",
+    "Scottish Leader",
+    "Muirhead's",
+    "Stewart's Cream of the Barley",
+    "Grand Macnish",
+    "Inver House",
+    "King Robert II",
+    "Clan MacGregor",
+    "Hankey Bannister",
+    "Usher's",
+    "Something Special",
+    "Long John",
+    "Catto's",
+    [
+     "Dimple",
+     "Pinch"
+    ],
+    "Haig Gold Label",
+    "Crawford's",
+    "Johnnie Walker Swing",
+    "Bailie Nicol Jarvie",
+    "Mackinlay's Rare Old Highland",
+    "Duncan Taylor",
+    "Hunter Laing",
+    "That Boutique-y Whisky Company",
+    "Adelphi",
+    "Murray McDavid",
+    "Berry Bros & Rudd",
+    "Gordon & MacPhail Connoisseurs Choice",
+    "The Character of Islay",
+    [
+     "Glasgow Distillery",
+     "1770"
+    ],
+    "Clydeside",
+    "Holyrood",
+    [
+     "Borders Distillery",
+     "The Borders"
+    ],
+    "Eden Mill",
+    "Arbikie",
+    "Inchdairnie",
+    "Strathearn",
+    [
+     "Isle of Harris",
+     "Hearach"
+    ],
+    "Abhainn Dearg",
+    "Ardross",
+    "Glen Wyvis",
+    "Cairn",
+    "Ballindalloch",
+    "Loch Lomond Inchmurrin",
+    "Scapa Skiren",
+    "Glengoyne 12",
+    [
+     "Tomatin Cu Bocan",
+     "Cù Bòcan"
+    ],
+    "Old Particular",
+    "Wemyss",
+    "Scotch Malt Whisky Society",
+    "Johnnie Walker Blonde",
+    "Bell's Signature",
+    "Teacher's Origin",
+    "Ballantine's Finest",
+    "Glenmorangie Original",
+    "Glenmorangie Signet",
+    "Glenmorangie Lasanta",
+    "Glenmorangie Quinta Ruban",
+    "Glenmorangie Nectar d'Or",
+    "Dalmore 12",
+    [
+     "Balvenie DoubleWood",
+     "DoubleWood"
+    ],
+    [
+     "Aberlour A'bunadh",
+     "A'bunadh"
+    ],
+    "Laphroaig 10",
+    "Bowmore 12",
+    "Caol Ila 12",
+    "Oban 14",
+    "Talisker Skye",
+    "Talisker Distillers Edition",
+    "Lagavulin Distillers Edition",
+    "Royal Lochnagar 12",
+    "Cardhu 12",
+    "Glenkinchie 12",
+    "Clynelish 14",
+    "Singleton of Glendullan",
+    "Singleton of Glen Ord"
    ]
   },
   {
@@ -439,7 +871,99 @@
      "Potato milk"
     ],
     "Barley",
-    "Peanut"
+    "Peanut",
+    [
+     "Barista oat milk",
+     "Oat barista"
+    ],
+    "Oatly Barista",
+    "Alpro Oat",
+    "Alpro Soya",
+    "Alpro Almond",
+    "Alpro Coconut",
+    "Alpro Cashew",
+    "Alpro Hazelnut",
+    "Alpro Rice",
+    "Oatly Whole",
+    "Oatly Semi",
+    "Oatly Skinny",
+    "Vitasoy",
+    "So Delicious",
+    [
+     "Blue Diamond",
+     "Almond Breeze"
+    ],
+    "Ripple",
+    "Elmhurst",
+    "Good Hemp",
+    "Provamel",
+    "Ecomil",
+    "Isola Bio",
+    "Kara",
+    [
+     "Arla Jörd",
+     "Jörd"
+    ],
+    "Moma",
+    "Oato",
+    "Rude Health Almond",
+    "Rude Health Oat",
+    "Plenish Cashew",
+    [
+     "Glebe Farm",
+     "PureOaty"
+    ],
+    [
+     "Dug",
+     "DUG potato milk"
+    ],
+    "Soy Dream",
+    "Rice Dream",
+    "Pacific Foods",
+    "Sproud",
+    "Chocolate oat milk",
+    "Chocolate soya milk",
+    "Chocolate almond milk",
+    "Vanilla soya milk",
+    "Banana oat milk",
+    "Strawberry soya milk",
+    "Hazelnut chocolate milk",
+    "Coconut rice milk",
+    "Oat and coconut",
+    "Almond and coconut",
+    "Hemp seed milk",
+    "Tiger nut horchata",
+    "Mylk",
+    "Nut milk",
+    "Seed milk",
+    "Grain milk",
+    "Legume milk",
+    "Chickpea milk",
+    "Fava bean milk",
+    "Lentil milk",
+    "Mung bean milk",
+    "Black soybean milk",
+    "Red bean milk",
+    "Peanut soy milk",
+    "Brown rice milk",
+    "Black rice milk",
+    "Sweet potato milk",
+    "Cassava milk",
+    "Pine nut milk",
+    "Brazil nut milk",
+    [
+     "Doujiang",
+     "Soy bean milk"
+    ],
+    "Hemp and oat",
+    "Barley oat milk",
+    "Rice and coconut",
+    "Oat and almond",
+    "Oat and pea",
+    [
+     "Pea protein milk",
+     "Pea protein drink"
+    ]
    ]
   },
   {
@@ -553,7 +1077,6 @@
     "Kwaremont",
     "Omer",
     "Hopus",
-    "La Trappe",
     "Malheur",
     "Pauwel Kwak",
     "Tripel d'Anvers",
@@ -595,7 +1118,203 @@
     "Maes Pils",
     "Cristal",
     "Leffe Ruby",
-    "Chimay Rouge"
+    "Chimay Rouge",
+    "Westmalle Dubbel",
+    [
+     "Chimay Tripel",
+     "Chimay Blanche"
+    ],
+    "Chimay Dorée",
+    "Rochefort 8",
+    "Rochefort 6",
+    "Achel Blond",
+    "Leffe Triple",
+    "Leffe Radieuse",
+    "Leffe Nectar",
+    "Leffe 0.0",
+    "Hoegaarden Grand Cru",
+    "Hoegaarden 0.0",
+    [
+     "Verboden Vrucht",
+     "Forbidden Fruit"
+    ],
+    "Julius",
+    "Delirium Nocturnum",
+    "Delirium Red",
+    "Brugse Zot Dubbel",
+    [
+     "Brugs",
+     "Brugs Tarwebier"
+    ],
+    "Dentergems",
+    "Straffe Hendrik Quadrupel",
+    "Gouden Carolus Classic",
+    "Gouden Carolus Tripel",
+    "Het Anker",
+    "De Halve Maan",
+    "Huyghe",
+    "Van Steenberge",
+    "Van Honsebrouck",
+    [
+     "Brasserie d'Achouffe",
+     "Achouffe"
+    ],
+    "N'Ice Chouffe",
+    "De Brabandere",
+    "Verhaeghe",
+    "Bockor",
+    "Strubbe",
+    "Slaapmutske",
+    [
+     "De Dolle Brouwers",
+     "De Dolle",
+     "Oerbier"
+    ],
+    [
+     "Struise",
+     "De Struise Brouwers"
+    ],
+    "Fantôme",
+    "Abbaye des Rocs",
+    "Blaugies",
+    "Lupulus",
+    [
+     "Goliath",
+     "Brasserie des Légendes"
+    ],
+    "Caracole",
+    "Nostradamus",
+    "Steenbrugge",
+    "St. Feuillien Tripel",
+    "Averbode",
+    [
+     "Keizer Karel",
+     "Charles Quint"
+    ],
+    "Kasteel Donker",
+    "Kasteel Tripel",
+    "Wilderen",
+    "Het Kapittel",
+    "Pannepot",
+    "Liefmans Goudenband",
+    "Liefmans Kriek-Brut",
+    "Boon Oude Geuze",
+    "De Cam",
+    "Lambiek Fabriek",
+    "Mort Subite Gueuze",
+    "St. Louis",
+    "Belle-Vue Kriek",
+    "Lindemans Pêcheresse",
+    "Lindemans Cassis",
+    "Lindemans Kriek",
+    "Timmermans Kriek",
+    "Petrus Aged Pale",
+    "Petrus Red",
+    "Cantillon Rosé de Gambrinus",
+    "3 Fonteinen Oude Kriek",
+    "Jupiler Blue",
+    "Stella Artois 0.0",
+    "Stella Artois Unfiltered",
+    "Brigand",
+    "Bornem",
+    "Quintine",
+    "Rulles",
+    "Bink",
+    "Kerel",
+    [
+     "Hommelbier",
+     "Poperings Hommelbier"
+    ],
+    "Van Eecke",
+    [
+     "La Corne du Bois des Pendus",
+     "La Corne"
+    ],
+    "Waterloo",
+    "Saison de Pipaix",
+    "Vapeur",
+    [
+     "De Ranke XX Bitter",
+     "XX Bitter"
+    ],
+    "Guldenberg",
+    "Scotch de Silly",
+    "Silly Saison",
+    "Ambiorix",
+    "Gentse Strop",
+    "Abbaye d'Aulne",
+    [
+     "St. Bernardus Abt 12",
+     "Abt 12"
+    ],
+    "St. Bernardus Tripel",
+    "Westmalle Extra",
+    "Orval Petite",
+    "Rochefort Triple Extra",
+    "Kwak Rouge",
+    "Tripel Karmeliet 0.0",
+    "Brugge Tripel",
+    "Chouffe Blanche",
+    "Chouffe Cherry",
+    [
+     "Duvel 6.66",
+     "Duvel 666"
+    ],
+    "Delirium Argentum",
+    "Floris Kriek",
+    "Floris Apple",
+    "Leffe Rituel 9",
+    [
+     "Grimbergen Double-Ambrée",
+     "Grimbergen Dubbel"
+    ],
+    "Affligem Tripel",
+    "Affligem Dubbel",
+    "Tongerlo Prior",
+    "Maredsous 10",
+    "Maredsous Blonde",
+    "Ename Tripel",
+    "Corsendonk Pater",
+    "Corsendonk Agnus",
+    "Brugse Zot Blond",
+    "Bacchus Kriek",
+    "Kasteel Barista",
+    "Kasteel Hoppy",
+    "Wittekerke Rosé",
+    "Hoegaarden Wit",
+    "Jupiler Pils",
+    "Maes 0.0",
+    "Cristal Alken",
+    "Haacht Primus",
+    "Super des Fagnes",
+    "Val-Dieu Grand Cru",
+    "La Chouffe Blonde",
+    [
+     "Brasserie de Bastogne",
+     "Trouffette"
+    ],
+    [
+     "Brasserie de Brunehaut",
+     "Brunehaut"
+    ],
+    [
+     "Brasserie du Bocq",
+     "Du Bocq"
+    ],
+    "Saint-Monon",
+    [
+     "Brasserie de Jandrain-Jandrenouille",
+     "IV Saison"
+    ],
+    "Brussels Beer Project",
+    "En Stoemelings",
+    "No Science",
+    [
+     "Brouwerij Alvinne",
+     "Alvinne"
+    ],
+    "De Ryck",
+    "Timmermans Faro"
    ]
   },
   {
@@ -752,7 +1471,163 @@
     [
      "Lübzer",
      "Lubzer"
-    ]
+    ],
+    "Paulaner Weissbier",
+    "Paulaner Oktoberfest Bier",
+    "Erdinger Dunkel",
+    "Erdinger Urweisse",
+    "Warsteiner Premium",
+    "Bitburger Premium Pils",
+    "Krombacher Pils",
+    "Beck's Blue",
+    "Beck's Vier",
+    "Beck's Gold",
+    "Beck's Green Lemon",
+    "Holsten Pils",
+    "Diebels Alt",
+    "Dom Kölsch",
+    "Peters Kölsch",
+    "Hannen Alt",
+    "Gatzweilers",
+    "Bolten",
+    "Kloster Scheyern",
+    "Kuchlbauer",
+    "Hopf",
+    "Plank",
+    "Riegele",
+    "Härle",
+    "Meckatzer",
+    "Allgäuer",
+    "Wulle",
+    [
+     "Alpirsbacher Klosterbräu",
+     "Alpirsbacher"
+    ],
+    "Hochdorfer",
+    "Eichbaum",
+    "Park Brauerei",
+    "Wolters",
+    "Hasseröder Premium Pils",
+    "Rostocker",
+    "Ratsherrn",
+    [
+     "Augustiner Edelstoff",
+     "Edelstoff"
+    ],
+    "Löwenbräu Original",
+    "Spaten Oktoberfestbier",
+    "Hofbräu Original",
+    [
+     "Spezial",
+     "Brauerei Spezial"
+    ],
+    "Keesmann",
+    "Fässla",
+    "Klosterbräu Bamberg",
+    "Greifenklau",
+    "Kaiserdom",
+    "EKU",
+    "Zirndorfer",
+    "Lederer",
+    "Patrizier",
+    "Weissenoher",
+    [
+     "Neumarkter Lammsbräu",
+     "Lammsbräu"
+    ],
+    "Arcobräu",
+    "Kneitinger",
+    "Hacklberg",
+    "Innstadt",
+    "Krombacher 0.0",
+    "Schöfferhofer Grapefruit",
+    "Veltins V+",
+    "Grevensteiner",
+    "Pülleken",
+    "Römer Pils",
+    "Pfungstädter",
+    "Darmstädter",
+    "Schmucker",
+    "Hansa Pils",
+    "Thier Pils",
+    "Stauder",
+    [
+     "König Ludwig",
+     "König Ludwig Weissbier"
+    ],
+    "Kaltenberg",
+    "Jever Fun",
+    "Bitburger 0.0",
+    "Hövels",
+    "Ganter",
+    "Hirsch",
+    [
+     "Fiege",
+     "Moritz Fiege"
+    ],
+    "Barre",
+    "Rolinck",
+    "Herforder",
+    "Erzquell",
+    [
+     "Neuzeller Kloster-Bräu",
+     "Neuzeller"
+    ],
+    "Schwarzer Abt",
+    "Landskron",
+    "Einsiedler",
+    "Hartmannsdorfer",
+    "Altenburger",
+    "Ur-Krostitzer",
+    [
+     "Paulaner Original Münchner Hell",
+     "Paulaner Hell"
+    ],
+    "Augustiner Lagerbier Hell",
+    "Hacker-Pschorr Weisse",
+    "Franziskaner Weissbier",
+    "Franziskaner Dunkel",
+    "Weihenstephaner Vitus",
+    "Weihenstephaner Original",
+    "Schneider Weisse Tap 7",
+    "Ayinger Bräuweisse",
+    "Ayinger Jahrhundert",
+    "Tegernseer Hell",
+    "Andechser Doppelbock Dunkel",
+    "Kostritzer Schwarzbier",
+    "Erdinger Weissbier",
+    "Bayerischer Bahnhof",
+    "Bayreuther Hell",
+    "Rhaner Pils",
+    "Bitburger Radler",
+    "Veltins Radler",
+    "Warsteiner Radler",
+    "Krombacher Weizen",
+    "Benediktiner Weissbier",
+    "Kapuziner Weissbier",
+    "Kulmbacher Edelherb",
+    "Mönchshof Kellerbier",
+    "Tucher Helles Hefe Weizen",
+    "Radeberger Pilsner",
+    "Astra Urtyp",
+    "Astra Rotlicht",
+    "Jever Pilsener",
+    "Flensburger Pilsener",
+    "Holsten Edel",
+    "Hacker-Pschorr Münchner Gold",
+    "Spaten Premium Lager",
+    "Löwenbräu Triumphator",
+    "Paulaner Salvator Doppelbock",
+    [
+     "Schlenkerla Rauchbier",
+     "Aecht Schlenkerla"
+    ],
+    "Ayinger Celebrator Doppelbock",
+    "Ettaler Kloster Dunkel",
+    "Faust",
+    "Wernesgrüner Pils",
+    "Störtebeker Atlantik-Ale",
+    "Lübzer Pils"
    ]
   },
   {
@@ -763,6 +1638,7 @@
    "text": "Name a beer brand from Asia",
    "answers": [
     "Tiger",
+    "San Miguel",
     "Kingfisher",
     [
      "Asahi",
@@ -816,10 +1692,12 @@
     "Myanmar Beer",
     "Mandalay",
     "Dagon",
-    "San Miguel Pale Pilsen",
+    [
+     "San Miguel Pale Pilsen",
+     "Pale Pilsen"
+    ],
     "San Mig Light",
     "Red Horse Extra Strong",
-    "Pale Pilsen",
     "Gold Eagle",
     "Colt 45",
     "Tsingtao Pure Draft",
@@ -842,7 +1720,6 @@
     "Everest",
     "Nepal Ice",
     "Druk",
-    "Lion Lager",
     "Three Coins",
     "Carlsberg Sri Lanka",
     "Kingfisher Ultra",
@@ -890,7 +1767,141 @@
      "Ba Ba Ba"
     ],
     "Red Horse",
-    "Lion"
+    [
+     "Lion",
+     "Lion Lager"
+    ],
+    "Kirin Tanrei",
+    "Asahi Dry Zero",
+    "Asahi Dry Black",
+    "Sapporo Black Label",
+    "Sapporo Classic",
+    "Orion Draft",
+    [
+     "Suntory Kin Mugi",
+     "Kin Mugi"
+    ],
+    "Baird Beer",
+    "Minoh Beer",
+    [
+     "Yo-Ho Brewing",
+     "Yona Yona Ale"
+    ],
+    "Kiuchi",
+    "Shiga Kogen",
+    "Ise Kadoya",
+    "Reeb",
+    "Sedrin",
+    "Laoshan",
+    "Jinxing",
+    "Chongqing Beer",
+    [
+     "Pearl River",
+     "Pearl River Beer"
+    ],
+    "Tsingtao Lager",
+    "18 Days Draft",
+    "Kelly",
+    "Blue Girl",
+    "Young Master",
+    "San Miguel Hong Kong",
+    "Baron's Strong Brew",
+    "Skol Malaysia",
+    "Royal Stout",
+    "Thai Beer",
+    "Archa",
+    "U Beer",
+    "Tapper",
+    "Saigon Special",
+    "Saigon Red",
+    "Saigon Lager",
+    "Cerveza Negra",
+    "Beer na Beer",
+    "Storm Beer",
+    "Knock Out",
+    "Royal Challenge",
+    "White Owl",
+    "Thunderbolt",
+    "Zingaro",
+    "Haywards 2000",
+    "Kingfisher Premium",
+    "Tuborg Nepal",
+    "Andaman Gold",
+    "Chinggis Beer",
+    "Borgio",
+    "Khan Bräu",
+    "Black Panther",
+    "Namkhong",
+    "Bomonti",
+    "Marmara",
+    "Efes Pilsen",
+    "Natakhtari",
+    "Argo",
+    "Zedazeni",
+    "Kotayk",
+    "Gyumri",
+    "Kilikia",
+    "Sarbast",
+    "Karagandinskoe",
+    "Tian-Shan",
+    "Kirin Ichiban Shibori",
+    "Suntory Malt's",
+    "Sapporo Silver",
+    "Asahi Kuronama",
+    "Kirin Classic Lager",
+    "Orion Premium Draft",
+    "Hite Extra Cold",
+    "Cass Light",
+    "Terra Light",
+    "Kloud Draft",
+    "OB Lager",
+    "Hanmac",
+    "Filite",
+    "Tsingtao Wheat",
+    "Snow Brave the World",
+    "Harbin Ice Draft",
+    "Yanjing Beer",
+    "Taiwan Beer Gold Medal",
+    "Zhujiang Beer",
+    "Hong Kong Beer Co",
+    "Tiger Black",
+    "Tiger Radler",
+    "Archipelago Summer Ale",
+    "Chang Espresso",
+    "Leo Lager",
+    "Singha Lager",
+    "Phuket Lager",
+    "Bintang Pilsener",
+    "Anker Bir",
+    "Bali Hai Premium",
+    "Prost Bir",
+    "Hanoi Lager",
+    "Larue Export",
+    "Bia Hoi",
+    "Kingfisher Lager",
+    "Cobra Zero",
+    "Bira 91 White",
+    "Simba Wit",
+    "Kalyani",
+    "Haywards Black",
+    "Murree Classic",
+    "Lion Stout",
+    "Lion Imperial",
+    "Druk 11000",
+    "Gorkha Strong",
+    "Everest Premium",
+    "Myanmar Lager",
+    "Mandalay Strong",
+    "Beerlao Lager",
+    "Beerlao Gold",
+    "Angkor Beer",
+    "Cambodia Lager",
+    "Maccabee Premium",
+    "Taybeh Golden",
+    "Almaza Pilsener",
+    "961 Beer",
+    "Efes Dark",
+    "Bomonti Filtresiz"
    ]
   },
   {
@@ -915,12 +1926,13 @@
      "XX"
     ],
     "Tecate",
-    [
-     "Pacifico"
-    ],
+    "Pacifico",
     "Victoria",
     "Bohemia",
-    "Negra Modelo",
+    [
+     "Negra Modelo",
+     "Modelo Negra"
+    ],
     "Indio",
     "Superior",
     "Brahma",
@@ -1042,7 +2054,71 @@
     "Kaiser",
     "Itaipava",
     "Eisenbahn",
-    "Devassa"
+    "Devassa",
+    "Corona Light",
+    "Corona Cero",
+    "Corona Familiar",
+    "Modelo Chelada",
+    "Noche Buena",
+    "Tecate Titanium",
+    "Bohemia Obscura",
+    "Minerva",
+    "Cucapá",
+    "Baja Brewing",
+    "Colima",
+    "Tempus",
+    "Wendlandt",
+    "Calavera",
+    "Red Stripe",
+    "Carib",
+    "Banks",
+    "Dragon Stout",
+    "Dorada",
+    "Monte Carlo",
+    "Brahva",
+    "Barena",
+    "Rock Ice",
+    "Soberana",
+    "Polar Ice",
+    "Club Premium",
+    "Barbarian",
+    "Potosina",
+    "Baltica",
+    "Kross",
+    "Torobayo",
+    "Schneider",
+    "Palermo",
+    "Santa Fe",
+    "Antares",
+    "Baviera",
+    "Ouro Fino",
+    "Proibida",
+    "Brahma Duplo Malte",
+    "Skol Beats",
+    "Bodebrown",
+    "Way Beer",
+    "Dama Bier",
+    "Cervejaria Bamberg",
+    "Andina",
+    [
+     "Bogotá Beer Company",
+     "BBC"
+    ],
+    "Quilmes Stout",
+    "Patagonia Amber Lager",
+    "Brahma Chopp",
+    "Bohemia Weiss",
+    "Colorado Appia",
+    "Corona Sunbrew",
+    "Dos Equis Lager Especial",
+    "Modelo Reserva",
+    "León Negra",
+    [
+     "Imperial Costa Rica Silver",
+     "Imperial Silver"
+    ],
+    "Atlas Golden Light",
+    "Bucanero Max"
    ]
   },
   {
@@ -1082,10 +2158,18 @@
     "Rye whiskey",
     "Wheated bourbon",
     "High rye bourbon",
-    "Bottled in bond",
+    [
+     "Bottled in bond",
+     "Bonded whiskey",
+     "Bonded"
+    ],
     "Sour mash",
     "Moonshine",
-    "White dog",
+    [
+     "White dog",
+     "White whiskey",
+     "White whisky"
+    ],
     "Unaged whiskey",
     "Light whiskey",
     "Spirit whiskey",
@@ -1139,11 +2223,97 @@
     "Wheat",
     "Malt",
     "Cask Strength",
-    "Peated",
+    [
+     "Peated",
+     "Peaty"
+    ],
     "Single Cask",
     "Small Batch",
     "Straight Bourbon",
-    "Pot Still"
+    "Pot Still",
+    "Kentucky Bourbon",
+    "Straight Rye",
+    "Straight whiskey",
+    [
+     "Cask finish",
+     "Finished whisky"
+    ],
+    "Sherry finish",
+    "Madeira finish",
+    "Wine finish",
+    "Cognac cask finish",
+    "Virgin oak",
+    "Ex-bourbon cask",
+    "First fill",
+    "Unpeated",
+    "Heavily peated",
+    "Lightly peated",
+    "Islay malt",
+    "Speyside malt",
+    "Highland malt",
+    "Lowland malt",
+    "Island malt",
+    "Campbeltown malt",
+    "Irish single malt",
+    [
+     "Irish blend",
+     "Blended Irish"
+    ],
+    "Irish single grain",
+    "Japanese single malt",
+    "Japanese blended",
+    "American single malt",
+    "Indian single malt",
+    "Swedish whisky",
+    "French whisky",
+    "German whisky",
+    "Danish whisky",
+    "Dutch whisky",
+    "Belgian whisky",
+    "Swiss whisky",
+    "Austrian whisky",
+    "Spanish whisky",
+    "Finnish whisky",
+    "Icelandic whisky",
+    "Israeli whisky",
+    "South African whisky",
+    "New Zealand whisky",
+    "Tasmanian whisky",
+    "Scandinavian whisky",
+    "Nordic whisky",
+    "Texas whiskey",
+    "Kentucky whiskey",
+    "Apple whisky",
+    "Peanut butter whiskey",
+    "Cherry whiskey",
+    "Maple whisky",
+    "Spiced whisky",
+    [
+     "Whisky cream liqueur",
+     "Cream whiskey"
+    ],
+    "Rice whisky",
+    "Millet whisky",
+    "Sorghum whiskey",
+    "Spelt whisky",
+    "Quinoa whiskey",
+    "Buckwheat whisky",
+    "Triticale whisky",
+    "Four grain bourbon",
+    "Malted rye",
+    "Craft whiskey",
+    "Blended Scotch whisky",
+    "Blended malt Scotch",
+    "Malt Scotch",
+    "Grain Scotch",
+    "Port cask",
+    "Oloroso cask",
+    [
+     "PX cask",
+     "Pedro Ximénez cask"
+    ],
+    "Sauternes cask",
+    "Single estate"
    ]
   },
   {
@@ -1167,12 +2337,8 @@
     "India",
     "Taiwan",
     "Wales",
-    [
-     "England",
-     "UK",
-     "United Kingdom",
-     "Britain"
-    ],
+    "England",
+    "UK",
     "Australia",
     "Northern Ireland",
     "Italy",
@@ -1237,7 +2403,11 @@
      "Czechia"
     ],
     "Israel",
-    "Spain"
+    "Spain",
+    [
+     "Myanmar",
+     "Burma"
+    ]
    ]
   },
   {
@@ -1253,7 +2423,10 @@
     "Grand Marnier",
     "Absinthe",
     "Armagnac",
-    "Calvados",
+    [
+     "Calvados",
+     "Calva"
+    ],
     "Pastis",
     "Ricard",
     "Chartreuse",
@@ -1276,7 +2449,11 @@
     "Calvados Pays d'Auge",
     "Pommeau",
     "Kir Royal",
-    "Cider",
+    [
+     "Cider",
+     "Cidre",
+     "Breton Cider"
+    ],
     "Cidre Bouché",
     "Poiré",
     "Pastis 51",
@@ -1374,9 +2551,7 @@
     "Elixia",
     "Breizh Cola",
     "Corsica Cola",
-    "Café de Paris",
     "Kir Breton",
-    "Calva",
     "Marc",
     "Marc de Bourgogne",
     "Fine Bourgogne",
@@ -1413,13 +2588,159 @@
      "St-Germain",
      "St Germain"
     ],
-    [
-     "Cidre",
-     "Breton Cider"
-    ],
     "Get 27",
     "Cusenier",
-    "Cristaline"
+    "Cristaline",
+    "Pernod Ricard",
+    "Lillet Rosé",
+    "Combier",
+    "Frapin",
+    "Delamain",
+    [
+     "Pierre Ferrand",
+     "Ferrand"
+    ],
+    "Bisquit",
+    "Larsen",
+    "Meukow",
+    "Tesseron",
+    "Louis XIII",
+    "ABK6",
+    "Prunier",
+    "HSE",
+    "Depaz",
+    "La Favorite",
+    "Longueteau",
+    "Père Labat",
+    "Karukera",
+    "Savanna",
+    "Charrette",
+    "Isautier",
+    "Joseph Cartron",
+    "Lejay",
+    "Védrenne",
+    "Briottet",
+    "Boudier",
+    "Janot",
+    "Jade",
+    "Emile Pernot",
+    "Vieux Pontarlier",
+    "La Fée",
+    "Lemercier",
+    "Roger Groult",
+    "Lecompte",
+    "Château de Laubade",
+    "Baron de Sigognac",
+    "Dartigalongue",
+    "Gallia",
+    [
+     "Page 24",
+     "Brasserie Saint-Germain"
+    ],
+    "Thiriez",
+    "Mützig",
+    "Pietra",
+    "Colomba",
+    "Licorne",
+    "Adelscott",
+    "Tourtel",
+    "Trois Monts",
+    "Ninkasi",
+    "Mont Blanc beer",
+    "Loïc Raison",
+    "Ecusson",
+    "Kerisac",
+    "Val de Rance",
+    "Sassy",
+    "Cidre Brut",
+    "Cidre Doux",
+    "Joker",
+    "Tropico",
+    "Banania",
+    "Poulain",
+    "Ricoré",
+    "Grand-Mère",
+    "Malongo",
+    "Kusmi Tea",
+    "Mariage Frères",
+    "Dammann Frères",
+    "Le Palais des Thés",
+    "Thonon",
+    "Saint-Amand",
+    "Mont Roucous",
+    "Arvie",
+    "Café au lait",
+    "Chocolat chaud",
+    "Diabolo menthe",
+    "Diabolo",
+    "Citron pressé",
+    "Menthe à l'eau",
+    "Panaché",
+    "Monaco",
+    "French 75",
+    "Café crème",
+    "Tisane",
+    "Crème de menthe",
+    "Crème de mûre",
+    "Crème de framboise",
+    "Crème de pêche",
+    "Crème de violette",
+    "Crème de cacao",
+    "Crème de banane",
+    "Crème de châtaigne",
+    "Liqueur de noix",
+    "Vieille Prune",
+    "Floc de Gascogne",
+    "Guignolet",
+    "Arquebuse",
+    "Ambassadeur",
+    "Rinquinquin",
+    "Quinquina",
+    [
+     "Cap Corse",
+     "Mattei"
+    ],
+    "Magellan Gin",
+    "Diplôme Gin",
+    "Armorik",
+    "Eddu",
+    "Bastille Whisky",
+    "Rozelieures",
+    "Brenne",
+    "Kornog",
+    "Glann ar Mor",
+    "Guillon",
+    "French whisky",
+    "French brandy",
+    "Lillet Rouge",
+    "Picon Bière",
+    "Pelforth Brune",
+    [
+     "Cidre de Normandie",
+     "Normandy cider"
+    ],
+    "Cidre Breton",
+    "Poiré Domfrontais",
+    "Pommeau de Normandie",
+    "Calvados Domfrontais",
+    "Eau-de-vie de cidre",
+    "Marc d'Alsace",
+    "Marc de Champagne",
+    "Fine Champagne",
+    "Bas-Armagnac",
+    "Ténarèze",
+    "Blanche Armagnac",
+    "Lillet Spritz",
+    "Suze Tonic",
+    [
+     "Pastis Mauresque",
+     "Mauresque"
+    ],
+    "Perroquet",
+    [
+     "Tomate",
+     "Pastis tomate"
+    ]
    ]
   },
   {
@@ -1433,16 +2754,13 @@
     "Peroni",
     "Campari",
     "Limoncello",
-    [
-     "Amaretto",
-     "Disaronno"
-    ],
+    "Amaretto",
     "Sambuca",
     [
      "Martini",
-     "Martini Rosso",
      "Martini & Rossi"
     ],
+    "Martini Rosso",
     [
      "San Pellegrino",
      "Pellegrino"
@@ -1456,7 +2774,12 @@
     "Frangelico",
     "Aperol Spritz",
     "Campari Soda",
-    "Amaretto Disaronno",
+    [
+     "Amaretto Disaronno",
+     "Disaronno",
+     "Disaronno Originale",
+     "Amaretto di Saronno"
+    ],
     "Lazzaroni",
     "Luxardo Maraschino",
     "Martini Bianco",
@@ -1484,7 +2807,10 @@
     "Amaro Lucano",
     "Amaro del Capo",
     "Braulio",
-    "Ramazzotti",
+    [
+     "Ramazzotti",
+     "Amaro Ramazzotti"
+    ],
     "Branca Menta",
     "Jefferson Amaro",
     "Amaro Ciociaro",
@@ -1573,14 +2899,15 @@
     "Menabrea",
     "Ichnusa",
     "Messina",
-    "Averna",
+    [
+     "Averna",
+     "Amaro Averna"
+    ],
     "Montenegro",
     "Select",
     "Punt e Mes",
-    [
-     "Maraschino",
-     "Luxardo"
-    ],
+    "Maraschino",
+    "Luxardo",
     "Chinotto",
     "Illy",
     "Lavazza",
@@ -1588,7 +2915,164 @@
      "Sanbittèr",
      "Sanbitter"
     ],
-    "Aranciata"
+    "Aranciata",
+    "Cocchi Americano",
+    "Cocchi Vermouth di Torino",
+    "Del Professore",
+    "Mancino",
+    "Martini Riserva Speciale",
+    "Martini Fiero",
+    "Martini Extra Dry",
+    "Martini Rosato",
+    "Cinzano Rosso",
+    "Cinzano Bianco",
+    [
+     "Amaro Meletti",
+     "Meletti"
+    ],
+    "Amaro Sibilla",
+    "Varnelli",
+    "Amaro dell'Etna",
+    "Amaro Santa Maria al Monte",
+    "Amaro Abano",
+    "Amaro Nardini",
+    "Fernet Stock",
+    [
+     "Pallini",
+     "Pallini Limoncello"
+    ],
+    "Villa Massa",
+    "Limoncello di Capri",
+    "Vov",
+    "Bombardino",
+    "Alchermes",
+    "Centerbe",
+    "Genziana",
+    "Italicus",
+    "Malfy",
+    "Engine Gin",
+    [
+     "Grappa Berta",
+     "Berta"
+    ],
+    "Bocchino",
+    "Marolo",
+    "Sibona",
+    "Mazzetti",
+    "Bottega Grappa",
+    "Moretti La Rossa",
+    "Birra Moretti Zero",
+    [
+     "Peroni 0.0",
+     "Peroni Libera"
+    ],
+    "Peroni Capri",
+    "Birrificio Italiano",
+    "Lambrate",
+    "Birra del Borgo",
+    "Toccalmatto",
+    [
+     "Birra Amarcord",
+     "Amarcord"
+    ],
+    "Wührer",
+    "Birra Antoniana",
+    [
+     "San Pellegrino Limonata",
+     "Limonata"
+    ],
+    "San Pellegrino Melograno e Arancia",
+    "Pompelmo",
+    [
+     "Cedrata",
+     "Cedrata Tassoni",
+     "Tassoni"
+    ],
+    "Galvanina",
+    "Lurisia",
+    "Chinò",
+    "Beverly",
+    "Uliveto",
+    "Rocchetta",
+    "Vera",
+    "Fiuggi",
+    "Sangemini",
+    "Nepi",
+    "Norda",
+    "Smeraldina",
+    "Surgiva",
+    "Lauretana",
+    "Boario",
+    "Recoaro",
+    "Pellini",
+    "Danesi",
+    "Saquella",
+    "Hausbrandt",
+    "Passalacqua",
+    "Mokarabia",
+    [
+     "Caffè Borbone",
+     "Borbone"
+    ],
+    "Carraro",
+    "Bialetti",
+    "Caffè latte",
+    [
+     "Caffè macchiato",
+     "Macchiato"
+    ],
+    "Ristretto",
+    "Lungo",
+    "Caffè freddo",
+    [
+     "Caffè shakerato",
+     "Shakerato"
+    ],
+    [
+     "Caffè d'orzo",
+     "Orzo"
+    ],
+    [
+     "Cioccolata calda",
+     "Italian hot chocolate"
+    ],
+    "Cappuccino freddo",
+    "Ammazzacaffè",
+    [
+     "Negroni Sbagliato",
+     "Sbagliato"
+    ],
+    "Garibaldi",
+    "Puccini",
+    "Tintoretto",
+    "Limoncello Spritz",
+    "Campari Spritz",
+    "Campari Orange",
+    "Select Spritz",
+    "Cardinale",
+    "Americano Perfecto",
+    [
+     "Sambuca con la mosca",
+     "Con la mosca"
+    ],
+    "Grappa di Barolo",
+    "Grappa di Prosecco",
+    "Grappa barricata",
+    "Liquore al caffè",
+    [
+     "Liquore alla liquirizia",
+     "Liquirizia"
+    ],
+    [
+     "Liquore di finocchietto",
+     "Finocchietto"
+    ],
+    [
+     "Crema di pistacchio",
+     "Pistachio liqueur"
+    ],
+    "Crema di melone",
+    "Nocino di Modena"
    ]
   },
   {
@@ -1601,7 +3085,10 @@
     "Warburtons",
     "Hovis",
     "Kingsmill",
-    "Allinson",
+    [
+     "Allinson",
+     "Allinson's"
+    ],
     "Mother's Pride",
     "Sunblest",
     "Roberts",
@@ -1653,7 +3140,57 @@
     "Rudi's",
     "The Village Bakery",
     "Wonderloaf",
-    "Fletchers"
+    "Fletchers",
+    "Rowan Hill",
+    "Gail's",
+    "Karaway",
+    "Mestemacher",
+    "Schneider Brot",
+    "Delba",
+    "Old El Paso",
+    "Discovery",
+    "Santa Maria",
+    "Sharwood's naan",
+    "Irwin's",
+    "Jones Village Bakery",
+    "Livwell",
+    "Juvela",
+    "Glutafin",
+    "Bread Ahead",
+    "Hobbs House",
+    "Daren",
+    "Bermaline",
+    "Turog",
+    "Procea",
+    "Vitbe",
+    "Slimcea",
+    "Energen",
+    "Ryvita",
+    "McGhee's",
+    [
+     "Kingsmill 50/50",
+     "50/50"
+    ],
+    [
+     "Hovis Best of Both",
+     "Best of Both"
+    ],
+    "Warburtons Toastie",
+    [
+     "Warburtons Seeded Batch",
+     "Seeded Batch"
+    ],
+    [
+     "Hovis Granary",
+     "Granary"
+    ],
+    "Warburtons Crumpets",
+    [
+     "Warburtons Sandwich Thins",
+     "Sandwich Thins"
+    ],
+    "Kingsmill Little Big Loaf",
+    "Hovis Soft White"
    ]
   },
   {
@@ -1767,7 +3304,76 @@
     "Galbani",
     "Castello",
     "Violife",
-    "Wensleydale Creamery"
+    "Wensleydale Creamery",
+    "Wexford",
+    "Coleraine",
+    "Charleville",
+    "Taw Valley",
+    "Tuxford & Tebbutt",
+    "Websters",
+    "Hartington",
+    "Blacksticks Blue",
+    "Mrs Kirkham's",
+    "Dewlay",
+    "Singletons",
+    "Shorrocks",
+    "Lincolnshire Poacher",
+    "Montgomery's",
+    "Westcombe",
+    "Caws Cenarth",
+    "Teifi",
+    "Mexicana",
+    "Norseland",
+    "Joseph Heler",
+    "Belton Farm",
+    "Cornish Yarg",
+    "Wookey Hole",
+    "Apetina",
+    [
+     "Arla Buko",
+     "Buko"
+    ],
+    "Dodoni",
+    "Salakis",
+    [
+     "Société",
+     "Société Roquefort"
+    ],
+    "Papillon",
+    "Ile de France",
+    "Le Rustique",
+    "Coeur de Lion",
+    "Paysan Breton",
+    "Chavroux",
+    "Soignon",
+    "St Môret",
+    "Tartare",
+    "Caprice des Dieux",
+    "Chaumes",
+    "Entremont",
+    "Kiri",
+    "Old Amsterdam",
+    "Beemster",
+    "Frico",
+    "Hochland",
+    "Grünländer",
+    "Emmi",
+    "Cypressa",
+    "Yamas",
+    "Amul",
+    "Nanak's",
+    "Mlekovita",
+    "Nurishh",
+    "Follow Your Heart",
+    "Tyne Chease",
+    "Kinda Co",
+    "I Am Nut OK",
+    "Wilmersburger",
+    "Vegusto",
+    "Koko Dairy Free",
+    "Santa Lucia",
+    "Lactalis",
+    "Bel"
    ]
   },
   {
@@ -1777,9 +3383,7 @@
    ],
    "text": "Name a yoghurt or dessert brand sold in the UK",
    "answers": [
-    [
-     "Müller"
-    ],
+    "Müller",
     [
      "Yeo Valley",
      "Yeo"
@@ -1858,10 +3462,8 @@
      "Rachel's Organic"
     ],
     "Alpro",
-    [
-     "Arla Skyr",
-     "Skyr"
-    ],
+    "Arla Skyr",
+    "Skyr",
     "Ambrosia",
     "Angel Delight",
     [
@@ -1886,7 +3488,58 @@
      "Bird's Custard"
     ],
     "Mullerice",
-    "Yoplait"
+    "Yoplait",
+    "Ben & Jerry's",
+    "Häagen-Dazs",
+    "Wall's",
+    "Carte d'Or",
+    "Viennetta",
+    "Magnum",
+    "Cornetto",
+    "Mackie's",
+    [
+     "Kelly's of Cornwall",
+     "Kelly's"
+    ],
+    "Halo Top",
+    "Little Moons",
+    "Jude's",
+    "Northern Bloc",
+    "Yorvale",
+    "Booja-Booja",
+    "Swedish Glace",
+    "Oppo",
+    "Bonne Maman",
+    "Eden Vale",
+    [
+     "Müller Froop",
+     "Froop"
+    ],
+    "Müller Rice",
+    "Müller Amore",
+    "St Ivel",
+    [
+     "Danone YoPro",
+     "YoPro"
+    ],
+    "Ehrmann High Protein",
+    [
+     "Oatly Oatgurt",
+     "Oatgurt"
+    ],
+    "Alpro Dessert",
+    "Dr. Oetker",
+    "Aunt Bessie's",
+    "Sara Lee",
+    "Heinz Sponge Puddings",
+    "Mr Kipling",
+    "Llaeth y Llan",
+    "Glenilen",
+    "Abbot Kinney's",
+    "Instant Whip",
+    "Chivers",
+    "Arla",
+    "Nestlé"
    ]
   },
   {
@@ -1973,7 +3626,57 @@
      "Wall's",
      "Walls"
     ],
-    "Ristorante"
+    "Ristorante",
+    "Cornetto",
+    "Solero",
+    "Mackie's",
+    [
+     "Kelly's of Cornwall",
+     "Kelly's"
+    ],
+    "Halo Top",
+    "Oppo",
+    "Jude's",
+    "Northern Bloc",
+    "Yeo Valley ice cream",
+    "Swedish Glace",
+    "Crosta & Mollica",
+    "Gino D'Acampo",
+    "Harry Ramsden's",
+    "Big Al's",
+    [
+     "Jus-Rol",
+     "Jusrol"
+    ],
+    "Itsu",
+    "Wagamama",
+    "Kirsty's",
+    "Lean Cuisine",
+    "Weight Watchers",
+    [
+     "Iceland Slimming World",
+     "Slimming World"
+    ],
+    [
+     "Fry's",
+     "Fry Family Food"
+    ],
+    "VBites",
+    "Meatless Farm",
+    "Plant Menu",
+    "Wicked Kitchen",
+    "Sara Lee",
+    "Saucy Fish",
+    "Cauli Rice",
+    [
+     "Rowntree's ice lollies",
+     "Rowntree's"
+    ],
+    "Mövenpick",
+    "Grom",
+    "Roskilly's",
+    "Purbeck",
+    "Bibigo"
    ]
   },
   {
@@ -1983,29 +3686,48 @@
    ],
    "text": "Name a condiment or table sauce brand sold in the UK",
    "answers": [
-    "Heinz",
+    [
+     "Heinz",
+     "Heinz Ketchup",
+     "Heinz Tomato Ketchup",
+     "Heinz Salad Cream",
+     "Heinz Mayo",
+     "Heinz Mayonnaise"
+    ],
     [
      "HP",
      "HP Sauce"
     ],
     [
-     "Hellmann's"
+     "Hellmann's",
+     "Hellmann's Mayo",
+     "Hellmann's Mayonnaise",
+     "Hellmann's Real"
     ],
     [
-     "Colman's"
+     "Colman's",
+     "Colman's Mustard",
+     "Colman's English Mustard"
     ],
     [
      "Daddies",
      "Daddies Sauce"
     ],
-    "Lea & Perrins",
+    [
+     "Lea & Perrins",
+     "Lea & Perrins Worcestershire Sauce"
+    ],
     [
      "Branston",
      "Branston Pickle"
     ],
     "Tabasco",
     "Encona",
-    "Nando's",
+    [
+     "Nando's",
+     "Nando's Peri-Peri",
+     "Nando's Peri Peri Sauce"
+    ],
     "French's",
     "Grey Poupon",
     "Maille",
@@ -2037,7 +3759,11 @@
     "Bulldog Sauce",
     "Hammonds",
     "Duerr's",
-    "Kewpie",
+    [
+     "Kewpie",
+     "Kewpie Mayo",
+     "Kewpie Mayonnaise"
+    ],
     "Kraft",
     "Bull's-Eye",
     "Jack Daniel's Sauce",
@@ -2064,16 +3790,50 @@
      "Reggae Reggae",
      "Reggae Reggae Sauce"
     ],
-    [
-     "Sarson's"
-    ],
+    "Sarson's",
     "Chef",
     [
      "OK Sauce",
      "O.K. Sauce"
     ],
     "Crosse & Blackwell",
-    "Baxters"
+    "Baxters",
+    "Tracklements",
+    "Rubies in the Rubble",
+    "Mr Singh's",
+    "Yellowbird",
+    "El Yucateco",
+    "Tapatío",
+    "Gran Luchito",
+    "Mae Ploy",
+    "Thai Taste",
+    "Yutaka",
+    "Clearspring",
+    "Baron",
+    "Matouk's",
+    "Texas Pete",
+    "Louisiana Hot Sauce",
+    "Crystal Hot Sauce",
+    "Biona",
+    "Mrs Bridges",
+    "Epicure",
+    "Pan Yan",
+    "Burgess",
+    "Elsenham",
+    "Lao Gan Ma",
+    "Fly By Jing",
+    "Bibigo",
+    "Sempio",
+    "Thomy",
+    "Bénédicta",
+    "Amora",
+    "Calvé",
+    "Remia",
+    "Duke's",
+    "Hot-Headz",
+    "Wiltshire Chilli Farm",
+    "Capsicana",
+    "Wilkin & Sons"
    ]
   },
   {
@@ -2083,22 +3843,29 @@
    ],
    "text": "Name a cooking sauce, gravy or stock brand sold in the UK",
    "answers": [
-    "Bisto",
-    "Oxo",
-    "Knorr",
+    [
+     "Bisto",
+     "Bisto Gravy",
+     "Bisto Gravy Granules",
+     "Bisto Best"
+    ],
+    [
+     "Oxo",
+     "Oxo Cubes",
+     "Oxo Stock Cubes"
+    ],
+    [
+     "Knorr",
+     "Knorr Stock Pots",
+     "Knorr Stock Cubes"
+    ],
     "Dolmio",
     "Homepride",
     "Old El Paso",
-    [
-     "Patak's"
-    ],
-    [
-     "Sharwood's"
-    ],
+    "Patak's",
+    "Sharwood's",
     "Loyd Grossman",
-    [
-     "Ragu"
-    ],
+    "Ragu",
     "Discovery Foods",
     "Santa Maria",
     "Capsicana",
@@ -2151,13 +3918,31 @@
     "Seeds of Change",
     "Schwartz",
     "Colman's",
-    [
-     "Sacla'"
-    ],
+    "Sacla'",
     "Newman's Own",
     "Maggi",
     "Bovril",
-    "Kallo"
+    "Kallo",
+    "Yutaka",
+    "Thai Kitchen",
+    "Blue Elephant",
+    "Mae Ploy",
+    "Ken Hom",
+    "Wagamama",
+    "Asian Home Gourmet",
+    "Shan",
+    "National",
+    "Levi Roots",
+    "Walkerswood",
+    "Gallina Blanca",
+    "Star",
+    "Massel",
+    "Gran Luchito",
+    [
+     "SimplyCook",
+     "Simply Cook"
+    ],
+    "Bramwells"
    ]
   },
   {
@@ -2262,7 +4047,6 @@
     "Hu",
     "Daim",
     "Kex",
-    "Milka Oreo",
     "Wonka",
     "Mackintosh",
     "Tunnock's",
@@ -2318,7 +4102,119 @@
      "Lily OBriens"
     ],
     "Booja-Booja",
-    "Kinder"
+    "Kinder",
+    "Moser Roth",
+    "Storck",
+    "Merci",
+    "Hachez",
+    "Feodora",
+    "Sarotti",
+    "Stollwerck",
+    "Schogetten",
+    "Rausch",
+    "Zotter",
+    "Camille Bloch",
+    "Favarger",
+    "Alprose",
+    "Maestrani",
+    "Felchlin",
+    "Tobler",
+    "Cémoi",
+    "Poulain",
+    "Michel Cluizel",
+    "Bonnat",
+    "La Maison du Chocolat",
+    "Patrick Roger",
+    "Jean-Paul Hévin",
+    "Weiss",
+    "Révillon",
+    "Menier",
+    "Barry Callebaut",
+    "Belcolade",
+    "Dumon",
+    "Corné Port-Royal",
+    "Daskalidès",
+    "Jeff de Bruges",
+    "Duc d'O",
+    "Libeert",
+    "Belvas",
+    "Dolfin",
+    "Droste",
+    "Verkade",
+    "Van Houten",
+    "Majani",
+    "Peyrano",
+    "Guido Gobino",
+    "Slitti",
+    "Icam",
+    "Vanini",
+    "Valor",
+    "Lacasa",
+    "Simón Coll",
+    "Blanxart",
+    "Torras",
+    "Gubor",
+    "Niederegger",
+    "Mirabell",
+    "Heindl",
+    "Cloetta",
+    "Panda",
+    "Kalev",
+    "Laima",
+    [
+     "Wedel",
+     "E. Wedel"
+    ],
+    "Wawel",
+    "Goplana",
+    "Orion",
+    "Figaro",
+    "Kraš",
+    "Gorenjka",
+    "Rot Front",
+    [
+     "Red October",
+     "Krasny Oktyabr"
+    ],
+    "Roshen",
+    "Svitoch",
+    "Ülker",
+    "Elite",
+    "Patchi",
+    "Scharffen Berger",
+    "Guittard",
+    "Endangered Species",
+    "Theo",
+    "Vosges",
+    "Lake Champlain",
+    "Whitman's",
+    "Fannie May",
+    "Garoto",
+    "Arcor",
+    "Ibarra",
+    "Abuelita",
+    "Luker",
+    "El Rey",
+    "Glico",
+    "Amul",
+    "Beryl's",
+    "Delfi",
+    "SilverQueen",
+    "Haigh's",
+    "Darrell Lea",
+    "Golden Tree",
+    "Beyers",
+    "Whitakers",
+    "Beech's",
+    "Holdsworth",
+    "Love Cocoa",
+    "Artisan du Chocolat",
+    "Choc on Choc",
+    "Monty Bojangles",
+    "Kinnerton",
+    "Choceur",
+    "J.D. Gross",
+    "Fin Carré"
    ]
   },
   {
@@ -2329,10 +4225,22 @@
    "text": "Name a coffee brand sold in the UK",
    "answers": [
     [
-     "Nescafé"
+     "Nescafé",
+     "Nescafé Original",
+     "Nescafé Azera",
+     "Azera"
     ],
-    "Kenco",
-    "Douwe Egberts",
+    [
+     "Kenco",
+     "Kenco Millicano",
+     "Millicano",
+     "Kenco Smooth"
+    ],
+    [
+     "Douwe Egberts",
+     "Douwe Egberts Pure Gold",
+     "DE"
+    ],
     [
      "Gold Blend",
      "Nescafe Gold",
@@ -2421,9 +4329,7 @@
      "Camp"
     ],
     "Mellow Birds",
-    [
-     "Bewley's"
-    ],
+    "Bewley's",
     "Monsoon Estates",
     "Alta Rica",
     "Kimbo",
@@ -2450,7 +4356,53 @@
     [
      "Aldi Barissimo",
      "Barissimo"
-    ]
+    ],
+    "Workshop Coffee",
+    "Monmouth",
+    "Caravan",
+    "Ozone",
+    "Assembly",
+    "Dark Arts",
+    "Extract Coffee",
+    "Two Chimps",
+    "Horsham Coffee Roaster",
+    "Clifton Coffee",
+    "Girls Who Grind",
+    "Round Hill",
+    "Dear Green",
+    "Artisan Roast",
+    "Bellarom",
+    "Café Royal",
+    "Gourmesso",
+    [
+     "Pret",
+     "Pret at Home"
+    ],
+    [
+     "Café Hag",
+     "Kaffee HAG"
+    ],
+    "Red Mountain",
+    "Bru",
+    "Davidoff",
+    [
+     "Café Najjar",
+     "Najjar"
+    ],
+    [
+     "Kurukahveci Mehmet Efendi",
+     "Mehmet Efendi"
+    ],
+    "Trung Nguyên",
+    "UCC",
+    "Minor Figures",
+    "Equal Exchange",
+    "Traidcraft",
+    [
+     "H.R. Higgins",
+     "Higgins"
+    ],
+    "Fortnum & Mason"
    ]
   },
   {
@@ -2464,7 +4416,13 @@
      "Lurpak",
      "Lurpak Spreadable"
     ],
-    "Flora",
+    [
+     "Flora",
+     "Flora Buttery",
+     "Flora Light",
+     "Flora Pro.Activ",
+     "Flora ProActiv"
+    ],
     "Marmite",
     "Anchor",
     "Nutella",
@@ -2535,9 +4493,7 @@
      "Pure",
      "Pure Dairy Free"
     ],
-    [
-     "Sun-Pat"
-    ],
+    "Sun-Pat",
     "Skippy",
     "Meridian",
     "Whole Earth",
@@ -2553,7 +4509,50 @@
     "Frank Cooper's",
     "Chivers",
     "Gales",
-    "Smucker's"
+    "Smucker's",
+    "Président",
+    "Graham's",
+    "Arla",
+    "Lactofree",
+    [
+     "Isigny Sainte-Mère",
+     "Isigny"
+    ],
+    "Échiré",
+    "Cornish Country",
+    "Rodda's",
+    "Trewithen Dairy",
+    [
+     "St Ivel Gold",
+     "Gold"
+    ],
+    "Outline",
+    "Delight",
+    "Flora Plant",
+    "Hero",
+    "Andros",
+    "Darbo",
+    "Zuegg",
+    [
+     "Rigoni di Asiago",
+     "Fiordifrutta"
+    ],
+    "Nocciolata",
+    "Nutkao",
+    "Comvita",
+    "Manuka Doctor",
+    "Wedderspoon",
+    "Steens",
+    "Jif",
+    "Pic's",
+    "Primula",
+    [
+     "Heinz Sandwich Spread",
+     "Heinz"
+    ],
+    "Biona",
+    "Mrs Darlington's",
+    "Bramwells"
    ]
   },
   {
@@ -2570,13 +4569,9 @@
      "Loyd Grossman",
      "Lloyd Grossman"
     ],
-    [
-     "Ragu"
-    ],
+    "Ragu",
     "Buitoni",
-    [
-     "Sacla'"
-    ],
+    "Sacla'",
     "Bertolli",
     "De Cecco",
     [
@@ -2638,7 +4633,35 @@
     "Chicken Tonight",
     "Filippo Berio",
     "Cirio",
-    "La Doria"
+    "La Doria",
+    [
+     "Heinz",
+     "Heinz Spaghetti",
+     "Heinz Spaghetti Hoops"
+    ],
+    "Afeltra",
+    "Setaro",
+    [
+     "Mancini",
+     "Pasta Mancini"
+    ],
+    "Benedetto Cavalieri",
+    "Faella",
+    "Verrigni",
+    "Liguori",
+    "Pasta Reggia",
+    "Antonio Amato",
+    "Pastificio dei Campi",
+    "La Fabbrica della Pasta",
+    "Profusion",
+    "Orgran",
+    "Schär",
+    "Mr Organic",
+    "Gino D'Acampo",
+    "Belazu",
+    "Pot Pasta",
+    "Mug Shot",
+    "Old El Paso"
    ]
   },
   {
@@ -2648,11 +4671,21 @@
    ],
    "text": "Name a tinned or canned food brand sold in the UK",
    "answers": [
-    "Heinz",
+    [
+     "Heinz",
+     "Heinz Beanz",
+     "Heinz Baked Beans",
+     "Heinz Spaghetti Hoops",
+     "Heinz Soup"
+    ],
     "Baxters",
     "Princes",
     "John West",
-    "Batchelors",
+    [
+     "Batchelors",
+     "Batchelors Mushy Peas",
+     "Bachelors"
+    ],
     "Napolina",
     "Branston",
     "Crosse & Blackwell",
@@ -2701,14 +4734,41 @@
     "Tate & Lyle",
     "Spam",
     "Ambrosia",
-    "Carnation",
+    [
+     "Carnation",
+     "Nestlé Carnation"
+    ],
     "Libby's",
     "Del Monte",
     "Dole",
     "Hormel",
     "Glenryck",
     "Bonduelle",
-    "Green Giant"
+    [
+     "Green Giant",
+     "Jolly Green Giant"
+    ],
+    [
+     "HP Beans",
+     "HP Baked Beans"
+    ],
+    "Ye Olde Oak",
+    "King Oscar",
+    "Smedley's",
+    "Chesswood",
+    "Old El Paso",
+    [
+     "Ideal",
+     "Ideal Milk"
+    ],
+    "Milkmaid",
+    "Ramón Peña",
+    "Cuca",
+    "Nuri",
+    "Fish4Ever",
+    "Petit Navire",
+    "La Belle-Iloise",
+    "La Doria"
    ]
   },
   {
@@ -2732,7 +4792,11 @@
      "Planters Punch"
     ],
     "Zombie",
-    "Malibu and pineapple",
+    [
+     "Malibu and pineapple",
+     "Malibu Pineapple",
+     "Malibu and pineapple juice"
+    ],
     "Sex on the Beach",
     "Hurricane",
     "Mai Tai",
@@ -2745,20 +4809,15 @@
     "Tiki punch",
     "Jungle Juice",
     "Algonquin",
-    "Tequila Sunrise",
-    "Woo Woo",
     "Scorpion",
     "Navy Grog",
     "Mary Pickford",
     "Missionary's Downfall",
-    "Saturn",
-    "Pearl Diver",
     "Fog Cutter",
     "Dr Funk",
     "Goombay Smash",
     "Bushwacker",
     "Tropical Itch",
-    "Ward Eight",
     "Hawaiian Punch",
     "Pink Panther",
     "Jägermeister pineapple",
@@ -2781,7 +4840,45 @@
     "Electric Shark",
     "Gunga Din",
     "Chuck Yeager",
-    "Yaka Hula Hickey Dula"
+    "Yaka Hula Hickey Dula",
+    [
+     "Virgin Piña Colada",
+     "Virgin Colada"
+    ],
+    "Miami Vice",
+    "Strawberry Colada",
+    "Flamingo",
+    [
+     "Hawaiian",
+     "Hawaiian Cocktail"
+    ],
+    "Royal Hawaiian",
+    [
+     "Pineapple Upside Down Cake",
+     "Pineapple Upside Down shot"
+    ],
+    "Pineapple Collins",
+    "Pineapple Mule",
+    "Pineapple Martini",
+    "Pineapple Mimosa",
+    [
+     "Pineapple Caipirinha",
+     "Caipirinha de Abacaxi"
+    ],
+    "Batida de Abacaxi",
+    "Pineapple Paloma",
+    "Pineapple Sangria",
+    "Pineapple Rum Punch",
+    [
+     "Pineapple Whiskey Sour",
+     "Pineapple Whisky Sour"
+    ],
+    "Pineapple Smash",
+    "Kamehameha Rum Punch",
+    "Rum Swizzle",
+    "Hawaiian Iced Tea",
+    "Melon Ball",
+    "Polynesian Paralysis"
    ]
   },
   {
@@ -2804,16 +4901,17 @@
      "Gin-Gin Mule",
      "Gin Gin Mule"
     ],
-    "Mexican Mule",
+    [
+     "Mexican Mule",
+     "Tequila Mule"
+    ],
     "Whisky and ginger",
     "Rum and ginger",
     "Brandy and ginger",
     "Gin and ginger",
     "Vodka and ginger beer",
     "Pimm's",
-    "Bermuda Rum Swizzle",
     "Jäger Mule",
-    "Tequila Mule",
     "Pisco Mule",
     "Apple Mule",
     "Cider Mule",
@@ -2822,7 +4920,10 @@
     "Suffering Bastard",
     "El Diablo",
     "Rum Buck",
-    "Chilcano",
+    [
+     "Chilcano",
+     "Pisco Buck"
+    ],
     "Irish Buck",
     "Bourbon Buck",
     "Scotch Buck",
@@ -2830,7 +4931,6 @@
     "Shandy Gaff",
     "Ginger Shandy",
     "Ginger beer shandy",
-    "Roy Rogers",
     "Ginger Rogers",
     "Ginger Fizz",
     "Horse Feathers",
@@ -2842,7 +4942,6 @@
     "Ginger Highball",
     "Mezcal Mule",
     "Fernet and ginger",
-    "Whisky Mac",
     "London Mule",
     "Irish Mule",
     [
@@ -2851,13 +4950,37 @@
     ],
     [
      "Gin Buck",
-     "Buck"
+     "London Buck"
     ],
+    "Buck",
     "Jamaican Mule",
     "Foghorn",
     "Presbyterian",
     "Shirley Temple",
-    "Mule"
+    "Mule",
+    "Cranberry Mule",
+    "Mistletoe Mule",
+    "Aperol Mule",
+    "Campari Mule",
+    "Amaretto Mule",
+    "Disaronno Mule",
+    "Pineapple Mule",
+    [
+     "Jameson Ginger & Lime",
+     "Jameson and ginger ale",
+     "Jameson Ginger"
+    ],
+    "Bourbon and ginger ale",
+    "Rye and Ginger",
+    "Vodka and ginger ale",
+    "Cablegram",
+    "Dead Bastard",
+    "Amaretto Ginger",
+    [
+     "Spiced rum and ginger beer",
+     "Spiced rum and ginger"
+    ],
+    "Ginger Ale Highball"
    ]
   },
   {
@@ -2948,7 +5071,63 @@
     ],
     "Red Eye",
     "Blue Margarita",
-    "White Negroni"
+    "White Negroni",
+    "Blue Lady",
+    [
+     "Blue Long Island",
+     "Blue Long Island Iced Tea"
+    ],
+    "Bluebird",
+    "Green Beast",
+    "Green Russian",
+    "Greenpoint",
+    "Red Lion",
+    "Red Hook",
+    [
+     "Vodka Red Bull",
+     "Vodka Redbull",
+     "Vodka and Red Bull"
+    ],
+    [
+     "Snakebite and Black",
+     "Snakebite Black"
+    ],
+    [
+     "Lager and Black",
+     "Lager Black"
+    ],
+    "Cider and Black",
+    "Guinness and Black",
+    "Black Cat",
+    "White Elephant",
+    [
+     "White Port and Tonic",
+     "Portonic"
+    ],
+    "White Linen",
+    [
+     "White Tea Shot",
+     "White Tea"
+    ],
+    "Pink Gin and Lemonade",
+    "Pink Elephant",
+    "Pink Pussycat",
+    "Purple Hooter",
+    "Purple Cow",
+    "Yellow Parrot",
+    "Agent Orange",
+    "Orange Whip",
+    "Vodka Orange",
+    "Campari Orange",
+    "Brown Bear",
+    "Golden Dawn",
+    "Silver Fox",
+    [
+     "Earl Grey MarTEAni",
+     "Earl Grey Martini"
+    ],
+    "Greyhound",
+    "Red, White and Blue"
    ]
   }
  ]

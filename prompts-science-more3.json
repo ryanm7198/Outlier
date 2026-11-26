@@ -1534,25 +1534,18 @@
     "Chang'e 6",
     "Tianwen-1",
     "Tianwen-2",
-    [
-     "Shenzhou",
-     "Shenzhou 5"
-    ],
-    [
-     "Tiangong",
-     "Tiangong-1",
-     "Tiangong-2"
-    ],
+    "Shenzhou",
+    "Shenzhou 5",
+    "Tiangong",
+    "Tiangong-1",
+    "Tiangong-2",
     [
      "Yutu",
-     "Yutu-2",
      "Jade Rabbit"
     ],
+    "Yutu-2",
     "Zhurong",
-    [
-     "Tianhe",
-     "Tianhe-1"
-    ],
+    "Tianhe",
     "Wentian",
     "Mengtian",
     "Tianzhou",
@@ -1564,8 +1557,7 @@
     "Kibo",
     [
      "HTV",
-     "Kounotori",
-     "HTV-1"
+     "Kounotori"
     ],
     [
      "Hinode",
@@ -1656,7 +1648,8 @@
     "Megha-Tropiques",
     "Resourcesat",
     "Scatsat",
-    "Jugnu"
+    "Jugnu",
+    "HTV-1"
    ]
   },
   {
@@ -2082,10 +2075,7 @@
      "Spine",
      "Vertebral joint"
     ],
-    [
-     "Thumb joint",
-     "Saddle joint"
-    ],
+    "Thumb joint",
     [
      "Finger joint",
      "Interphalangeal joint"
@@ -2119,6 +2109,7 @@
     "Midtarsal joint",
     "Ball and socket joint",
     "Hinge joint",
+    "Saddle joint",
     "Pivot joint",
     [
      "Gliding joint",
@@ -2613,10 +2604,8 @@
      "Glucose test",
      "HbA1c"
     ],
-    [
-     "Allergy test",
-     "Skin prick test"
-    ],
+    "Allergy test",
+    "Skin prick test",
     [
      "Eye test",
      "Eye exam"
@@ -2653,10 +2642,7 @@
     ],
     "PSA test",
     "Pregnancy test",
-    [
-     "Lateral flow test",
-     "Covid test"
-    ],
+    "Lateral flow test",
     "HIV test",
     [
      "Genetic test",
@@ -4780,10 +4766,8 @@
     "Gas jar",
     "Syringe",
     "Splint",
-    [
-     "Litmus paper",
-     "Indicator paper"
-    ],
+    "Litmus paper",
+    "Indicator paper",
     "Universal indicator",
     "Magnifying glass",
     "Gloves",
@@ -6183,9 +6167,9 @@
     "Smelt",
     [
      "Allis shad",
-     "Twaite shad",
      "Shad"
     ],
+    "Twaite shad",
     "Pumpkinseed",
     "Sunbleak",
     "Bitterling",

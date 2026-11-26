@@ -17,8 +17,7 @@
     [
      "Cargo trousers",
      "Cargos",
-     "Cargo pants",
-     "Combats"
+     "Cargo pants"
     ],
     [
      "Flares",
@@ -50,7 +49,10 @@
      "Skinny jeans",
      "Skinnies"
     ],
-    "Ripped jeans",
+    [
+     "Ripped jeans",
+     "distressed jeans"
+    ],
     [
      "Baggy jeans",
      "Baggies"
@@ -60,7 +62,12 @@
      "Crops",
      "Three-quarter lengths"
     ],
-    "Combat trousers",
+    [
+     "Combat trousers",
+     "fatigues",
+     "military trousers",
+     "combats"
+    ],
     "High-waisted trousers",
     "Cigarette trousers",
     "Shorts",
@@ -71,17 +78,16 @@
     [
      "Harem pants",
      "Harem trousers",
-     "Aladdin pants"
+     "Aladdin pants",
+     "sarouel"
     ],
     [
      "Dungarees",
      "Overalls"
     ],
     "Jodhpurs",
-    [
-     "Plus fours",
-     "Knickerbockers"
-    ],
+    "Plus fours",
+    "Knickerbockers",
     [
      "Breeches",
      "Riding breeches"
@@ -90,10 +96,7 @@
      "Cords",
      "Corduroys"
     ],
-    [
-     "Bell-bottoms",
-     "Bell bottoms"
-    ],
+    "Bell-bottoms",
     [
      "Hot pants",
      "Hotpants"
@@ -101,7 +104,10 @@
     "Bermuda shorts",
     "Pedal pushers",
     "Jeggings",
-    "Oxford bags",
+    [
+     "Oxford bags",
+     "bags"
+    ],
     [
      "Drainpipes",
      "Drainpipe trousers",
@@ -114,11 +120,11 @@
      "Ski trousers"
     ],
     "Sweatpants",
+    "Wide-leg trousers",
     [
-     "Wide-leg trousers",
-     "Wide leg trousers"
+     "Cycling shorts",
+     "bike shorts"
     ],
-    "Cycling shorts",
     "Lederhosen",
     "Chaps",
     "Boyfriend jeans",
@@ -132,16 +138,18 @@
     ],
     [
      "Parachute trousers",
-     "Parachute pants",
-     "MC Hammer pants",
-     "Hammer pants"
+     "Parachute pants"
+    ],
+    [
+     "Hammer pants",
+     "MC Hammer pants"
     ],
     "Dhoti",
     [
      "Pyjama bottoms",
-     "Lounge pants",
      "Pyjama trousers"
     ],
+    "Lounge pants",
     "Moleskins",
     "Flannels",
     [
@@ -150,13 +158,9 @@
     ],
     [
      "Hipsters",
-     "Low-rise jeans",
-     "Low rise jeans"
+     "Low-rise jeans"
     ],
-    [
-     "Straight-leg jeans",
-     "Straight leg jeans"
-    ],
+    "Straight-leg jeans",
     "Tapered trousers",
     "Board shorts",
     "Hakama",
@@ -193,7 +197,66 @@
     "Churidar",
     "Treggings",
     "Clam diggers",
-    "Waders"
+    "Waders",
+    "Cargo shorts",
+    "Chino shorts",
+    [
+     "Denim shorts",
+     "jorts"
+    ],
+    "Running shorts",
+    "Swim shorts",
+    [
+     "Carpenter trousers",
+     "carpenter jeans"
+    ],
+    "Work trousers",
+    "Utility trousers",
+    [
+     "Barrel-leg jeans",
+     "barrel jeans",
+     "horseshoe jeans"
+    ],
+    "Balloon trousers",
+    "Wide-leg jeans",
+    "Flared leggings",
+    "Kick flares",
+    "Baggy trousers",
+    [
+     "Patiala salwar",
+     "patiala"
+    ],
+    [
+     "Trews",
+     "tartan trousers"
+    ],
+    "Leather trousers",
+    "Linen trousers",
+    [
+     "Stirrup trousers",
+     "stirrup leggings"
+    ],
+    "Snow trousers",
+    "Toreador pants",
+    "Flat-front trousers",
+    "Girlfriend jeans",
+    "Dad jeans",
+    [
+     "Slim jeans",
+     "slim-fit jeans"
+    ],
+    "Acid wash jeans",
+    "Stonewash jeans",
+    "Carrot jeans",
+    "Zouave trousers",
+    "Pantaloons",
+    "Bloomers",
+    "Trunk hose",
+    [
+     "Loons",
+     "loon pants"
+    ],
+    "Monpe"
    ]
   },
   {
@@ -219,10 +282,7 @@
      "Pencil",
      "Pencil skirt"
     ],
-    [
-     "A-line",
-     "A line"
-    ],
+    "A-line",
     [
      "Pleated",
      "Pleated skirt"
@@ -239,7 +299,9 @@
     ],
     [
      "Puffball",
-     "Pouf"
+     "Pouf",
+     "Bubble skirt",
+     "balloon skirt"
     ],
     [
      "Circle skirt",
@@ -270,11 +332,11 @@
     "Pelmet",
     [
      "Sarong",
-     "Pareo"
+     "Pareo",
+     "Sarong skirt"
     ],
     "Skort",
     "Tulip skirt",
-    "Bubble skirt",
     [
      "Tiered skirt",
      "Tiered"
@@ -307,12 +369,12 @@
     "Godet",
     "Gored skirt",
     "Gathered skirt",
+    "Handkerchief skirt",
     [
-     "Handkerchief skirt",
-     "Asymmetric skirt",
-     "Hi-lo skirt",
-     "High-low skirt"
+     "High-low skirt",
+     "hi-lo skirt"
     ],
+    "Asymmetric skirt",
     "Tube skirt",
     "Dirndl",
     "Poodle skirt",
@@ -320,13 +382,18 @@
     "Bustle",
     "Hoop skirt",
     "Leather skirt",
-    "Tartan skirt",
+    [
+     "Tartan skirt",
+     "plaid skirt"
+    ],
     "Sheath",
     "Slip skirt",
     "Bandage skirt",
     "Cargo skirt",
-    "Sarong skirt",
-    "Culotte skirt",
+    [
+     "Culotte skirt",
+     "divided skirt"
+    ],
     "Layered skirt",
     [
      "Corduroy skirt",
@@ -342,7 +409,8 @@
     ],
     [
      "Petticoat",
-     "Underskirt"
+     "Underskirt",
+     "half-slip"
     ],
     [
      "Lehenga",
@@ -351,7 +419,47 @@
     "Lungi",
     "Sequin skirt",
     "Tweed skirt",
-    "Suede skirt"
+    "Suede skirt",
+    "Peplum skirt",
+    "Scuba skirt",
+    "Satin skirt",
+    "Midaxi skirt",
+    "Fustanella",
+    "Mundu",
+    "Longyi",
+    "Sampot",
+    "Cheerleader skirt",
+    "Netball skirt",
+    "Golf skirt",
+    "School skirt",
+    "Utility skirt",
+    "Bell skirt",
+    [
+     "Peg skirt",
+     "pegged skirt"
+    ],
+    "Draped skirt",
+    "Ruched skirt",
+    "Ruffle skirt",
+    "Lace skirt",
+    "Velvet skirt",
+    "Silk skirt",
+    "PVC skirt",
+    "Knitted skirt",
+    "Jersey skirt",
+    "Linen skirt",
+    "Floral skirt",
+    "Polka dot skirt",
+    "Leopard print skirt",
+    "Accordion pleated skirt",
+    "Knife-pleated skirt",
+    "Sunray pleated skirt",
+    "Inverted pleat skirt",
+    "Yoke skirt",
+    "Tea-length skirt",
+    "Overskirt",
+    "Panniers",
+    "Farthingale"
    ]
   },
   {
@@ -363,8 +471,7 @@
    "answers": [
     [
      "T-shirt",
-     "Tee",
-     "T shirt"
+     "Tee"
     ],
     [
      "Hoodie",
@@ -384,19 +491,21 @@
      "Vest",
      "Singlet",
      "Vest top",
-     "Undershirt"
+     "Undershirt",
+     "tank"
     ],
     [
      "Polo shirt",
-     "Polo"
+     "Polo",
+     "golf shirt"
     ],
     "Sweatshirt",
     "Crop top",
     [
      "Tank top",
-     "Tank",
      "Sleeveless jumper",
-     "Sweater vest"
+     "Sweater vest",
+     "slipover"
     ],
     "Tunic",
     [
@@ -420,7 +529,11 @@
     "Bra",
     "Sports bra",
     "Bikini top",
-    "Christmas jumper",
+    [
+     "Christmas jumper",
+     "ugly sweater",
+     "christmas sweater"
+    ],
     [
      "Tracksuit top",
      "Track top",
@@ -468,9 +581,9 @@
     [
      "Football shirt",
      "Football top",
-     "Footy top",
-     "Jersey"
+     "Footy top"
     ],
+    "Jersey",
     "Poncho",
     "Cape",
     "Corset",
@@ -526,16 +639,21 @@
      "Guernsey",
      "Gansey"
     ],
-    "Quarter-zip",
+    [
+     "Quarter-zip",
+     "half zip"
+    ],
     "Oxford shirt",
     "Short-sleeved shirt",
     [
      "Breton top",
      "Sailor top"
     ],
+    "Band T-shirt",
     [
-     "Band T-shirt",
-     "Graphic tee"
+     "Graphic tee",
+     "graphic t-shirt",
+     "slogan t-shirt"
     ],
     "Cold-shoulder top",
     "Wrap top",
@@ -553,7 +671,85 @@
     "Mock neck",
     "Jerkin",
     "Doublet",
-    "Choli"
+    "Choli",
+    [
+     "Ringer T-shirt",
+     "ringer tee"
+    ],
+    "V-neck T-shirt",
+    "Cycling jersey",
+    [
+     "Cricket jumper",
+     "tennis jumper"
+    ],
+    "Button-down shirt",
+    [
+     "Check shirt",
+     "checked shirt"
+    ],
+    [
+     "Western shirt",
+     "cowboy shirt"
+    ],
+    "Bowling shirt",
+    [
+     "Cuban shirt",
+     "camp shirt"
+    ],
+    "Safari shirt",
+    "Utility shirt",
+    "Chambray shirt",
+    "Linen shirt",
+    "Silk shirt",
+    [
+     "Tuxedo shirt",
+     "dinner shirt",
+     "evening shirt"
+    ],
+    "Collarless shirt",
+    "Kurti",
+    "Kameez",
+    "Kebaya",
+    [
+     "Barong Tagalog",
+     "barong"
+    ],
+    "Guayabera",
+    "Dashiki",
+    "Happi",
+    "Stole",
+    [
+     "Crew neck jumper",
+     "crewneck"
+    ],
+    "V-neck jumper",
+    [
+     "Cable-knit jumper",
+     "cable knit sweater"
+    ],
+    "Batwing top",
+    "One-shoulder top",
+    "Racerback top",
+    "Puff sleeve top",
+    "Bell sleeve top",
+    "Babydoll top",
+    "Smock top",
+    "Ruffle blouse",
+    "Sheer blouse",
+    "Tie-front top",
+    "Corset top",
+    "Bodice",
+    "Chemise",
+    "Push-up bra",
+    [
+     "Basketball jersey",
+     "basketball vest"
+    ],
+    [
+     "Hi-vis vest",
+     "high visibility vest"
+    ],
+    "Surplice"
    ]
   },
   {
@@ -563,10 +759,7 @@
    ],
    "text": "Name a style of neckline or collar",
    "answers": [
-    [
-     "V-neck",
-     "V neck"
-    ],
+    "V-neck",
     [
      "Crew neck",
      "Round neck"
@@ -595,8 +788,7 @@
     "Sweetheart",
     [
      "Off-the-shoulder",
-     "Bardot",
-     "Off the shoulder"
+     "Bardot"
     ],
     "Square neck",
     "High neck",
@@ -622,7 +814,8 @@
     [
      "Mandarin collar",
      "Mandarin",
-     "Chinese collar"
+     "Chinese collar",
+     "mao collar"
     ],
     [
      "Button-down collar",
@@ -647,17 +840,16 @@
     [
      "Notch lapel",
      "Notch",
-     "Notched lapel"
+     "Notched lapel",
+     "notched collar"
     ],
     [
      "Peak lapel",
      "Peaked lapel"
     ],
     "Keyhole",
-    [
-     "One-shoulder",
-     "Asymmetric neckline"
-    ],
+    "One-shoulder",
+    "Asymmetric neckline",
     [
      "Jewel neck",
      "Jewel"
@@ -674,9 +866,9 @@
     ],
     [
      "Band collar",
-     "Grandad collar",
-     "Collarless"
+     "Grandad collar"
     ],
+    "Collarless",
     "Roll collar",
     [
      "Funnel neck",
@@ -685,7 +877,8 @@
     "Queen Anne",
     [
      "Surplice",
-     "Wrap neck"
+     "Wrap neck",
+     "crossover neckline"
     ],
     "Strapless",
     [
@@ -697,7 +890,10 @@
      "Point collar",
      "Pointed collar"
     ],
-    "Stand collar",
+    [
+     "Stand collar",
+     "military collar"
+    ],
     "Bertha collar",
     "Ruffle neck",
     [
@@ -714,7 +910,8 @@
     ],
     [
      "Pussy bow",
-     "Bow collar"
+     "Bow collar",
+     "tie neck"
     ],
     [
      "Zip neck",
@@ -729,12 +926,30 @@
     "Jabot",
     "Portrait collar",
     "Bib collar",
-    "Puritan collar",
+    [
+     "Puritan collar",
+     "pilgrim collar"
+    ],
     "Chelsea collar",
     "Johnny collar",
     "Pin collar",
     "Drawstring neck",
-    "Envelope neck"
+    "Envelope neck",
+    "Rugby collar",
+    "Convertible collar",
+    "Ulster collar",
+    "Napoleon collar",
+    "Medici collar",
+    "Flat collar",
+    "Detachable collar",
+    "Peasant neckline",
+    "Fichu",
+    [
+     "Clerical collar",
+     "dog collar",
+     "roman collar"
+    ],
+    "Cape collar"
    ]
   },
   {
@@ -746,7 +961,8 @@
    "answers": [
     [
      "Backpack",
-     "Rucksack"
+     "Rucksack",
+     "knapsack"
     ],
     "Handbag",
     [
@@ -764,10 +980,14 @@
      "Envelope clutch"
     ],
     "Shoulder bag",
-    "Satchel",
+    [
+     "Satchel",
+     "cambridge satchel"
+    ],
     [
      "Messenger bag",
-     "Messenger"
+     "Messenger",
+     "courier bag"
     ],
     "Holdall",
     [
@@ -779,7 +999,8 @@
      "Bumbag",
      "Fanny pack",
      "Waist bag",
-     "Bum bag"
+     "Bum bag",
+     "belt bag"
     ],
     "Briefcase",
     "Shopping bag",
@@ -825,7 +1046,9 @@
     [
      "Wash bag",
      "Toilet bag",
-     "Sponge bag"
+     "Sponge bag",
+     "toiletry bag",
+     "dopp kit"
     ],
     [
      "Make-up bag",
@@ -882,10 +1105,18 @@
     "Bag for life",
     [
      "Nappy bag",
-     "Changing bag"
+     "Changing bag",
+     "diaper bag",
+     "baby bag"
     ],
     "Lunch bag",
-    "Bin bag",
+    [
+     "Bin bag",
+     "rubbish bag",
+     "black bag",
+     "bin liner",
+     "refuse sack"
+    ],
     "Tool bag",
     "Overnight bag",
     "Box bag",
@@ -899,14 +1130,15 @@
     ],
     [
      "Party bag",
-     "Goody bag"
+     "Goody bag",
+     "loot bag"
     ],
     "Gift bag",
     [
      "Freezer bag",
-     "Sandwich bag",
      "Ziploc bag"
     ],
+    "Sandwich bag",
     [
      "Cool bag",
      "Picnic bag"
@@ -937,7 +1169,8 @@
     "Canvas bag",
     [
      "String bag",
-     "Mesh bag"
+     "Mesh bag",
+     "net bag"
     ],
     "Barrel bag",
     [
@@ -958,7 +1191,99 @@
     [
      "Air bag",
      "Airbag"
-    ]
+    ],
+    [
+     "Kelly bag",
+     "kelly"
+    ],
+    "Boston bag",
+    [
+     "Frame bag",
+     "kiss-lock bag",
+     "clasp bag"
+    ],
+    "Envelope bag",
+    "Chest bag",
+    "Phone bag",
+    [
+     "Hydration pack",
+     "camelbak"
+    ],
+    [
+     "Grab bag",
+     "go bag",
+     "bug-out bag"
+    ],
+    "Portmanteau",
+    "Valise",
+    "Steamer trunk",
+    "Portfolio",
+    [
+     "Swimming bag",
+     "swim bag"
+    ],
+    [
+     "Boot bag",
+     "football boot bag"
+    ],
+    "Shoe bag",
+    "Cricket bag",
+    [
+     "Racket bag",
+     "tennis bag"
+    ],
+    "Ski bag",
+    "Game bag",
+    "Haversack",
+    "Musette bag",
+    "Sporran",
+    "Reticule",
+    "Dorothy bag",
+    "Pochette",
+    [
+     "Straw bag",
+     "raffia bag",
+     "basket bag"
+    ],
+    "Recycling bag",
+    "Garden waste bag",
+    "Bivvy bag",
+    "Stuff sack",
+    "Chalk bag",
+    [
+     "Hoover bag",
+     "vacuum cleaner bag"
+    ],
+    [
+     "Dog poo bag",
+     "poo bag"
+    ],
+    [
+     "Sick bag",
+     "airsick bag"
+    ],
+    "Colostomy bag",
+    [
+     "IV bag",
+     "drip bag"
+    ],
+    "Diplomatic bag",
+    [
+     "Money bag",
+     "cash bag"
+    ],
+    "Swag bag",
+    "Knitting bag",
+    [
+     "Piping bag",
+     "icing bag"
+    ],
+    [
+     "Nosebag",
+     "feed bag"
+    ],
+    "Half-moon bag",
+    "Top-handle bag"
    ]
   },
   {
@@ -1022,15 +1347,16 @@
      "Gingham",
      "Gingham check"
     ],
+    "Plaid",
     [
-     "Plaid",
      "Buffalo check",
-     "Buffalo plaid"
+     "buffalo plaid"
     ],
     [
      "Houndstooth",
      "Dogtooth",
-     "Hounds"
+     "Hounds",
+     "pied-de-poule"
     ],
     "Tie-dye",
     "Herringbone",
@@ -1147,7 +1473,73 @@
     "Logo print",
     "Slogan print",
     "Awning stripe",
-    "Regimental stripe"
+    "Regimental stripe",
+    "Pin dot",
+    "Chalk stripe",
+    "Bengal stripe",
+    "Ticking stripe",
+    "Pencil stripe",
+    [
+     "Rugby stripe",
+     "hoops",
+     "hooped"
+    ],
+    "Shepherd's check",
+    "Gun club check",
+    "Black Watch",
+    "Royal Stewart",
+    "Aran",
+    "Jacquard",
+    "Rose print",
+    "Daisy print",
+    "Palm print",
+    "Leaf print",
+    "Lemon print",
+    "Strawberry print",
+    "Butterfly print",
+    "Dinosaur print",
+    [
+     "Novelty print",
+     "conversational print"
+    ],
+    "Mudcloth",
+    "Bandhani",
+    [
+     "Galaxy print",
+     "space print"
+    ],
+    [
+     "Flames",
+     "flame print"
+    ],
+    [
+     "Colour block",
+     "color block",
+     "colourblock"
+    ],
+    "Patchwork",
+    [
+     "Photo print",
+     "photographic print"
+    ],
+    [
+     "Fish scale",
+     "mermaid scale"
+    ],
+    "Honeycomb",
+    "Basketweave",
+    "Bird's eye",
+    "Nailhead",
+    "Trellis",
+    "Quatrefoil",
+    "Ogee",
+    "Baroque print",
+    "Greek key",
+    "Fleur-de-lis",
+    [
+     "Union Jack",
+     "union flag"
+    ]
    ]
   },
   {
@@ -1166,7 +1558,7 @@
     "Chess",
     [
      "Snakes and Ladders",
-     "Snakes & Ladders"
+     "chutes and ladders"
     ],
     "Ludo",
     "Risk",
@@ -1189,10 +1581,7 @@
      "Mouse Trap",
      "Mousetrap"
     ],
-    [
-     "Guess Who",
-     "Guess Who?"
-    ],
+    "Guess Who",
     "Twister",
     "Jenga",
     "Uno",
@@ -1214,13 +1603,9 @@
     "Buckaroo",
     [
      "The Game of Life",
-     "Game of Life",
      "Life"
     ],
-    [
-     "Sorry!",
-     "Sorry"
-    ],
+    "Sorry!",
     [
      "Othello",
      "Reversi"
@@ -1234,7 +1619,10 @@
     ],
     "Go",
     "Frustration",
-    "Trouble",
+    [
+     "Trouble",
+     "pop-o-matic trouble"
+    ],
     [
      "Hungry Hippos",
      "Hungry Hungry Hippos"
@@ -1262,10 +1650,7 @@
     "Tiddlywinks",
     "Halma",
     "Chinese Checkers",
-    [
-     "Nine Men's Morris",
-     "Nine Mens Morris"
-    ],
+    "Nine Men's Morris",
     "Shogi",
     "Xiangqi",
     "Mancala",
@@ -1285,8 +1670,13 @@
     ],
     [
      "Warhammer",
+     "warhammer fantasy battle",
+     "warhammer fantasy"
+    ],
+    [
      "Warhammer 40,000",
-     "Warhammer 40k"
+     "warhammer 40k",
+     "40k"
     ],
     "Talisman",
     "Upwords",
@@ -1305,7 +1695,8 @@
     ],
     [
      "Pick-up sticks",
-     "Jackstraws"
+     "Jackstraws",
+     "spillikins"
     ],
     "Rummy",
     "Happy Families",
@@ -1323,8 +1714,135 @@
     "Mine a Million",
     "Senet",
     "Royal Game of Ur",
-    "Hnefatafl",
-    "Liar's dice"
+    [
+     "Hnefatafl",
+     "tafl"
+    ],
+    "Liar's dice",
+    "Kensington",
+    "Scotland Yard",
+    "Hare and Tortoise",
+    "Civilization",
+    "Junta",
+    "Dune",
+    "Illuminati",
+    "Car Wars",
+    "Fury of Dracula",
+    "Arkham Horror",
+    "Ogre",
+    "Squad Leader",
+    "Tactics",
+    "PanzerBlitz",
+    [
+     "Samurai Swords",
+     "shogun"
+    ],
+    "Fortress America",
+    "Conquest of the Empire",
+    "Broadsides and Boarding Parties",
+    "Dark Tower",
+    "Mall Madness",
+    "Electronic Detective",
+    "Girl Talk",
+    "Mystery Date",
+    "Candy Land",
+    "Hi Ho! Cherry-O",
+    "Cootie",
+    "Win, Lose or Draw",
+    "Therapy",
+    "Scruples",
+    "Go for Broke",
+    "Formula 1",
+    "1830",
+    "Rail Baron",
+    "Empire Builder",
+    "Stock Ticker",
+    "Square Mile",
+    "Go to the Head of the Class",
+    "Rat Race",
+    [
+     "Sherlock Holmes: Consulting Detective",
+     "consulting detective"
+    ],
+    "221B Baker Street",
+    "Mystery Mansion",
+    "Which Witch?",
+    "Haunted House",
+    "Dungeon!",
+    "Call of Cthulhu",
+    "Traveller",
+    "RuneQuest",
+    "Dark Future",
+    "Chainmail",
+    "Star Fleet Battles",
+    "BattleTech",
+    "Campaign",
+    "Kriegsspiel",
+    "Little Wars",
+    "The Landlord's Game",
+    "Carrom",
+    [
+     "Shove ha'penny",
+     "shove halfpenny"
+    ],
+    "Bagatelle",
+    "Crokinole",
+    "Fanorona",
+    "Alquerque",
+    "Pente",
+    "Gomoku",
+    "Abalone",
+    "Score Four",
+    "Hex",
+    "TwixT",
+    "Kalah",
+    "Oware",
+    "Uckers",
+    "Aggravation",
+    [
+     "Game of the Goose",
+     "game of goose"
+    ],
+    "Can't Stop",
+    "Titan",
+    "Magic Realm",
+    "Kremlin",
+    [
+     "Heimlich & Co.",
+     "top secret spies"
+    ],
+    "Barbarossa",
+    "Cafe International",
+    "Auf Achse",
+    "Focus",
+    [
+     "Enchanted Forest",
+     "sagaland"
+    ],
+    [
+     "Railway Rivals",
+     "dampfross"
+    ],
+    "Stop Thief",
+    "Mr. Mouth",
+    "Ants in the Pants",
+    "Don't Spill the Beans",
+    "Striker",
+    "Test Match",
+    "Owzthat",
+    "Escalado",
+    "Labyrinth",
+    "Wiz-War",
+    "Nuclear War",
+    "Mille Bornes",
+    "Skip-Bo",
+    "Phase 10",
+    "Rook",
+    "Pit",
+    "Flinch",
+    "Racko",
+    "Dutch Blitz",
+    "Lexicon"
    ]
   },
   {
@@ -1335,12 +1853,14 @@
    "text": "Name a craft or making hobby",
    "answers": [
     "Knitting",
+    "Painting",
+    "Acrylic painting",
+    "Oil painting",
     [
-     "Painting",
-     "Watercolour",
-     "Watercolours",
-     "Oil painting",
-     "Acrylic painting"
+     "Watercolour painting",
+     "watercolour",
+     "watercolours",
+     "watercolor"
     ],
     "Sewing",
     "Crochet",
@@ -1348,10 +1868,7 @@
      "Drawing",
      "Sketching"
     ],
-    [
-     "Cross-stitch",
-     "Cross stitch"
-    ],
+    "Cross-stitch",
     "Embroidery",
     [
      "Pottery",
@@ -1368,10 +1885,8 @@
      "Papier-mâché",
      "Paper mache"
     ],
-    [
-     "Upcycling",
-     "Furniture restoration"
-    ],
+    "Upcycling",
+    "Furniture restoration",
     [
      "Woodwork",
      "Woodworking",
@@ -1380,15 +1895,10 @@
     "Origami",
     "Scrapbooking",
     "Quilting",
-    [
-     "Macramé",
-     "Macrame"
-    ],
+    "Macramé",
     "Calligraphy",
-    [
-     "Jewellery making",
-     "Beading"
-    ],
+    "Jewellery making",
+    "Beading",
     "Candle making",
     "Soap making",
     "Weaving",
@@ -1398,11 +1908,9 @@
      "Paper crafts"
     ],
     "Card making",
-    [
-     "Felting",
-     "Needle felting",
-     "Wet felting"
-    ],
+    "Felting",
+    "Wet felting",
+    "Needle felting",
     "Tapestry",
     "Patchwork",
     [
@@ -1421,24 +1929,26 @@
     "Stained glass",
     "Glassblowing",
     "Mosaic",
+    "Rug making",
     [
-     "Rug making",
-     "Rug hooking",
-     "Rag rugs"
+     "Rag rugging",
+     "rag rugs"
     ],
+    "Rug hooking",
     "Tie-dye",
     "Batik",
     [
      "Sculpture",
-     "Sculpting",
-     "Clay modelling"
+     "Sculpting"
     ],
+    "Clay modelling",
+    "Printmaking",
+    "Etching",
+    "Block printing",
     [
-     "Printmaking",
      "Lino printing",
-     "Block printing",
-     "Lino cutting",
-     "Etching"
+     "lino cutting",
+     "linocut"
     ],
     "Resin art",
     "Pyrography",
@@ -1472,9 +1982,10 @@
      "Leatherwork",
      "Leathercraft"
     ],
+    "Blacksmithing",
     [
-     "Blacksmithing",
-     "Metalwork"
+     "Metalwork",
+     "metalworking"
     ],
     "Diamond painting",
     "Paint by numbers",
@@ -1506,17 +2017,21 @@
      "Miniature painting",
      "Warhammer painting"
     ],
+    "Miniatures",
     [
-     "Miniatures",
-     "Dolls' houses"
+     "Dolls' houses",
+     "dolls house"
     ],
     "Cosplay",
     "3D printing",
     "Wreath making",
     [
      "Flower pressing",
-     "Pressed flowers",
-     "Dried flowers"
+     "Pressed flowers"
+    ],
+    [
+     "Dried flower arranging",
+     "dried flowers"
     ],
     [
      "Millinery",
@@ -1543,15 +2058,158 @@
      "Vinyl cutting",
      "Cricut"
     ],
+    "Bullet journaling",
     [
-     "Bullet journaling",
-     "Journaling"
+     "Journaling",
+     "journalling"
     ],
     "Loom bands",
     "Pom-pom making",
     "Nail art",
     "Shoemaking",
-    "Tailoring"
+    "Tailoring",
+    "Tunisian crochet",
+    "Loom knitting",
+    "Arm knitting",
+    "Finger knitting",
+    [
+     "French knitting",
+     "knitting nancy"
+    ],
+    "Machine knitting",
+    "Tablet weaving",
+    "English paper piecing",
+    "Boro",
+    [
+     "Crewel work",
+     "crewelwork"
+    ],
+    "Blackwork",
+    "Goldwork",
+    "Stumpwork",
+    "Hardanger",
+    "Punch needle",
+    [
+     "Tufting",
+     "rug tufting"
+    ],
+    "Kumihimo",
+    "Wire wrapping",
+    [
+     "Metal clay",
+     "silver clay"
+    ],
+    "Goldsmithing",
+    [
+     "Lapidary",
+     "gem cutting"
+    ],
+    "Raku",
+    "Kintsugi",
+    "Stone carving",
+    "Ice sculpture",
+    "Sand sculpture",
+    "Chip carving",
+    "Spoon carving",
+    "Parquetry",
+    "Fretwork",
+    "Furniture making",
+    "Cabinet making",
+    "Chair caning",
+    "Willow weaving",
+    "Boat building",
+    "Diorama making",
+    "Kite making",
+    "Kirigami",
+    "Paper cutting",
+    "Junk journaling",
+    "Illumination",
+    "Woodcut",
+    "Monoprinting",
+    "Cyanotype",
+    "Gouache",
+    "Pastels",
+    "Zentangle",
+    "Dot painting",
+    [
+     "Acrylic pouring",
+     "pour painting",
+     "paint pouring"
+    ],
+    "Alcohol ink art",
+    "Encaustic art",
+    "Lampworking",
+    "Glass engraving",
+    "Wax melts",
+    "Perfume making",
+    [
+     "Cookie decorating",
+     "biscuit decorating"
+    ],
+    "Chocolate making",
+    "Pickling",
+    "Cheese making",
+    [
+     "Bread making",
+     "sourdough baking"
+    ],
+    [
+     "Wine making",
+     "winemaking"
+    ],
+    "Cider making",
+    [
+     "Terrarium making",
+     "terrariums"
+    ],
+    "Bonsai",
+    "Ikebana",
+    "Kokedama",
+    "Saddlery",
+    "Corsetry",
+    "Prop making",
+    "Costume making",
+    "Mask making",
+    "Puppet making",
+    "Doll making",
+    "Teddy bear making",
+    "Soft toy making",
+    [
+     "Furniture painting",
+     "chalk painting"
+    ],
+    "Picture framing",
+    "Taxidermy",
+    [
+     "Bladesmithing",
+     "knife making"
+    ],
+    "Watchmaking",
+    "Laser cutting",
+    "Embossing",
+    "Stencilling",
+    "Sign writing",
+    "Face painting",
+    [
+     "Henna",
+     "mehndi"
+    ],
+    [
+     "Egg decorating",
+     "pysanky"
+    ],
+    "Tassel making",
+    [
+     "Hama beads",
+     "perler beads",
+     "fuse beads"
+    ],
+    "Shrinky Dinks",
+    "Slime making",
+    "Sand art",
+    "Air-dry clay",
+    "Salt dough",
+    "Lace knitting"
    ]
   },
   {
@@ -1564,12 +2222,10 @@
     [
      "Downward dog",
      "Downward-facing dog",
-     "Downward facing dog",
      "Adho Mukha Svanasana"
     ],
     [
      "Child's pose",
-     "Childs pose",
      "Balasana",
      "Child",
      "Extended child's pose"
@@ -1598,10 +2254,9 @@
     ],
     [
      "Cat",
-     "Cat pose",
-     "Cat-cow",
-     "Cat cow"
+     "Cat pose"
     ],
+    "Cat-cow",
     [
      "Cow",
      "Cow pose"
@@ -1636,7 +2291,6 @@
     ],
     [
      "Low lunge",
-     "Crescent lunge",
      "Anjaneyasana",
      "Lunge"
     ],
@@ -1668,7 +2322,8 @@
     ],
     [
      "Puppy pose",
-     "Puppy"
+     "Puppy",
+     "melting heart"
     ],
     [
      "Tabletop",
@@ -1735,7 +2390,6 @@
     ],
     [
      "Upward-facing dog",
-     "Upward facing dog",
      "Upward dog"
     ],
     [
@@ -1754,9 +2408,9 @@
     ],
     [
      "Headstand",
-     "Sirsasana",
-     "Tripod headstand"
+     "Sirsasana"
     ],
+    "Tripod headstand",
     [
      "Shoulder stand",
      "Sarvangasana"
@@ -1783,16 +2437,27 @@
      "Malasana",
      "Yogi squat"
     ],
-    "Extended side angle",
+    [
+     "Extended side angle",
+     "utthita parsvakonasana"
+    ],
     [
      "Butterfly",
-     "Reclining bound angle",
      "Cobbler's pose",
      "Bound angle",
-     "Baddha Konasana"
+     "Baddha Konasana",
+     "Cobbler"
+    ],
+    [
+     "Reclining bound angle",
+     "reclining butterfly",
+     "supta baddha konasana"
     ],
     "Handstand",
-    "Firefly",
+    [
+     "Firefly",
+     "tittibhasana"
+    ],
     [
      "Sphinx",
      "Sphinx pose"
@@ -1806,21 +2471,29 @@
      "Dandasana"
     ],
     "Revolved triangle",
-    "Monkey pose",
     [
      "Splits",
-     "Hanumanasana"
+     "Hanumanasana",
+     "Monkey pose"
     ],
     "Thread the needle",
-    "Cobbler",
-    "Fire log",
-    "Pyramid",
+    [
+     "Fire log",
+     "square pose"
+    ],
+    [
+     "Pyramid",
+     "parsvottanasana"
+    ],
     "Side plank",
     [
      "Reverse plank",
      "Upward plank"
     ],
-    "High lunge",
+    [
+     "High lunge",
+     "crescent lunge"
+    ],
     "Half lotus",
     [
      "Supine twist",
@@ -1854,7 +2527,10 @@
      "Peacock",
      "Mayurasana"
     ],
-    "King pigeon",
+    [
+     "King pigeon",
+     "one-legged king pigeon"
+    ],
     [
      "Wild thing",
      "Flip dog"
@@ -1884,8 +2560,110 @@
      "Lion pose",
      "Simhasana"
     ],
-    "Eight-angle pose",
-    "Mermaid"
+    [
+     "Eight-angle pose",
+     "astavakrasana"
+    ],
+    "Mermaid",
+    "Bharadvaja's twist",
+    [
+     "Marichyasana",
+     "marichi's pose",
+     "sage marichi"
+    ],
+    "Compass pose",
+    "Flying pigeon",
+    "Fallen angel",
+    "Koundinyasana",
+    "Flying crow",
+    [
+     "Tortoise pose",
+     "kurmasana"
+    ],
+    "Supported bridge",
+    [
+     "Ear pressure pose",
+     "karnapidasana"
+    ],
+    "Bound lotus",
+    [
+     "Thunderbolt pose",
+     "vajrasana",
+     "diamond pose"
+    ],
+    "Toe squat",
+    "Runner's lunge",
+    [
+     "Half splits",
+     "ardha hanumanasana"
+    ],
+    [
+     "Extended hand-to-big-toe",
+     "utthita hasta padangusthasana"
+    ],
+    [
+     "Reclining hand-to-big-toe",
+     "supta padangusthasana"
+    ],
+    [
+     "Big toe pose",
+     "padangusthasana"
+    ],
+    [
+     "Hand under foot",
+     "padahastasana"
+    ],
+    [
+     "Halfway lift",
+     "standing half forward bend",
+     "ardha uttanasana"
+    ],
+    [
+     "Star pose",
+     "five-pointed star"
+    ],
+    "Sugarcane pose",
+    "Airplane pose",
+    "Bird dog",
+    "Baby cobra",
+    "Shoelace pose",
+    "Dragon pose",
+    "Swan pose",
+    "Sleeping swan",
+    "Caterpillar pose",
+    "Dragonfly pose",
+    "Saddle pose",
+    "Snail pose",
+    "Bananasana",
+    "Deer pose",
+    "Seal pose",
+    [
+     "Crocodile pose",
+     "makarasana"
+    ],
+    "Half boat",
+    "Dolphin plank",
+    [
+     "Accomplished pose",
+     "siddhasana"
+    ],
+    "Revolved head-to-knee",
+    [
+     "Seated wide-legged forward bend",
+     "upavistha konasana"
+    ],
+    [
+     "Noose pose",
+     "pasasana"
+    ],
+    [
+     "Heron pose",
+     "krounchasana"
+    ],
+    [
+     "Side lunge",
+     "skandasana"
+    ]
    ]
   },
   {
@@ -1900,8 +2678,11 @@
     "Play-Doh",
     [
      "Teddy bear",
-     "Teddy",
-     "Paddington Bear"
+     "Teddy"
+    ],
+    [
+     "Paddington Bear",
+     "paddington"
     ],
     "Action Man",
     "Hot Wheels",
@@ -2024,7 +2805,10 @@
     "Micro Machines",
     "Tiny Tears",
     "Baby Born",
-    "Trolls",
+    [
+     "Trolls",
+     "troll dolls"
+    ],
     "Stickle Bricks",
     "Big Trak",
     "Lincoln Logs",
@@ -2041,10 +2825,19 @@
      "Pokémon"
     ],
     "Beyblade",
-    "Loom bands",
+    [
+     "Loom bands",
+     "rainbow loom"
+    ],
     "Hungry Hungry Hippos",
     "Teletubbies",
-    "Cuddly toy",
+    [
+     "Cuddly toy",
+     "soft toy",
+     "stuffed animal",
+     "plush",
+     "plushie"
+    ],
     "Doll",
     "Dolls house",
     "Toy soldiers",
@@ -2117,7 +2910,187 @@
     "Sooty",
     "Fingerlings",
     "Glo Worm",
-    "Pound Puppies"
+    "Pound Puppies",
+    "Mighty Max",
+    "Thunderbirds",
+    "Digimon",
+    "Bakugan",
+    "Ben 10",
+    "Gormiti",
+    "Bionicle",
+    "Aquadoodle",
+    "Moon sand",
+    "Aquabeads",
+    "Whip and top",
+    "Diabolo",
+    "Kendama",
+    "Clackers",
+    [
+     "Raleigh Chopper",
+     "chopper bike",
+     "chopper"
+    ],
+    [
+     "Raleigh Grifter",
+     "grifter"
+    ],
+    "BMX",
+    [
+     "Tricycle",
+     "trike"
+    ],
+    "Balance bike",
+    "Micro Scooter",
+    "Rollerblades",
+    "Heelys",
+    [
+     "Go-kart",
+     "go-cart"
+    ],
+    [
+     "Sledge",
+     "sled"
+    ],
+    "Cap gun",
+    "Lightsaber",
+    "GI Joe",
+    "Action Force",
+    [
+     "Go-Bots",
+     "gobots"
+    ],
+    "She-Ra",
+    "ThunderCats",
+    "M.A.S.K.",
+    "Bob the Builder",
+    "Postman Pat",
+    "Fireman Sam",
+    [
+     "In the Night Garden",
+     "igglepiggle"
+    ],
+    "Tweenies",
+    "Bagpuss",
+    "Winnie the Pooh",
+    "Peter Rabbit",
+    "Noddy",
+    "Wombles",
+    "Bluey",
+    "Hey Duggee",
+    "Octonauts",
+    [
+     "Daleks",
+     "dalek"
+    ],
+    "Ken",
+    "Tressy",
+    "Pippa",
+    "Girl's World",
+    "Rainbow Brite",
+    "Strawberry Shortcake",
+    "Popples",
+    "Puppy in My Pocket",
+    "Littlest Pet Shop",
+    "Monster High",
+    "Giga Pets",
+    "Robosapien",
+    "Zhu Zhu Pets",
+    "Teksta",
+    "Poo-Chi",
+    "Game & Watch",
+    "Dinky",
+    "Britains",
+    "Majorette",
+    "Siku",
+    "Bruder",
+    "Tomy",
+    "Geomag",
+    "Magformers",
+    "Kapla",
+    "Revell",
+    "Tamiya",
+    "Warhammer",
+    "Conkers",
+    "Pop It",
+    "Squishies",
+    "Ty",
+    "Rubik's Magic",
+    "Kaleidoscope",
+    "Silly Putty",
+    "Ant farm",
+    "Chemistry set",
+    "Magic set",
+    [
+     "Jigsaw puzzle",
+     "jigsaw"
+    ],
+    "Ravensburger",
+    "Orchard Toys",
+    "Galt",
+    [
+     "Early Learning Centre",
+     "elc"
+    ],
+    "Melissa & Doug",
+    "Hape",
+    "Le Toy Van",
+    "Bigjigs",
+    "Step2",
+    "Mattel",
+    "Hasbro",
+    "Spin Master",
+    "Bandai",
+    "Chad Valley",
+    "Palitoy",
+    "Pedigree",
+    [
+     "Tri-ang",
+     "lines bros"
+    ],
+    "Denys Fisher",
+    "Waddingtons",
+    "MB Games",
+    "Spear's Games",
+    "Ideal",
+    "Kenner",
+    "Bluebird Toys",
+    "Hobby horse",
+    [
+     "Wendy house",
+     "playhouse"
+    ],
+    "Trampoline",
+    "Paddling pool",
+    "Bucket and spade",
+    "Ride-on car",
+    "Pedal car",
+    "Boomerang",
+    "Rubber duck",
+    [
+     "Wind-up toy",
+     "clockwork toy"
+    ],
+    "Pull-along toy",
+    [
+     "Russian dolls",
+     "matryoshka",
+     "babushka dolls"
+    ],
+    "Paper dolls",
+    "Marionette",
+    "Glove puppet",
+    "Finger puppets",
+    "Barbie Dreamhouse",
+    [
+     "Toy till",
+     "toy cash register"
+    ],
+    "Toy telephone",
+    [
+     "Toy tool set",
+     "toolbench"
+    ],
+    "Drone"
    ]
   }
  ]

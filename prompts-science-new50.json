@@ -140,10 +140,10 @@
     "Peacock butterfly",
     [
      "Cabbage white",
-     "Large white",
-     "Small white",
      "Cabbage butterfly"
     ],
+    "Large white",
+    "Small white",
     [
      "Monarch butterfly",
      "Monarch"
@@ -615,14 +615,10 @@
      "Frill-necked lizard",
      "Frilled dragon"
     ],
+    "Skink",
     [
-     "Skink",
      "Blue-tongued skink",
-     "Blue tongue",
-     "Five-lined skink",
-     "Prehensile-tailed skink",
-     "Monkey-tailed skink",
-     "Blue-tailed skink"
+     "Blue tongue"
     ],
     "Gila monster",
     [
@@ -797,8 +793,7 @@
     ],
     [
      "Flap-footed lizard",
-     "Pygopod",
-     "Burton's legless lizard"
+     "Pygopod"
     ],
     [
      "Long-tailed grass lizard",
@@ -819,7 +814,14 @@
     ],
     "Earless monitor",
     "Lava lizard",
-    "Galliwasp"
+    "Galliwasp",
+    "Burton's legless lizard",
+    "Five-lined skink",
+    [
+     "Prehensile-tailed skink",
+     "Monkey-tailed skink"
+    ],
+    "Blue-tailed skink"
    ]
   },
   {
@@ -1500,9 +1502,9 @@
     "Box jellyfish",
     [
      "Inland taipan",
-     "Taipan",
-     "Coastal taipan"
+     "Taipan"
     ],
+    "Coastal taipan",
     [
      "Eastern brown snake",
      "Brown snake"

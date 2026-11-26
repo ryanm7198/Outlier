@@ -11,6 +11,7 @@
         "Lime",
         "Crime",
         "Climb",
+        "Thyme",
         [
           "Rhyme",
           "Rime"
@@ -48,7 +49,69 @@
         "Begrime",
         "Birdlime",
         "Cyme",
-        "Chyme"
+        "Chyme",
+        "Bedtime",
+        "Daytime",
+        "Lifetime",
+        "Overtime",
+        "Meantime",
+        [
+          "Sometime",
+          "Sometimes"
+        ],
+        "Anytime",
+        "Pastime",
+        [
+          "Prime time",
+          "Primetime"
+        ],
+        "Lunchtime",
+        "Teatime",
+        "Playtime",
+        [
+          "Half-time",
+          "Halftime"
+        ],
+        "Showtime",
+        "Summertime",
+        "Springtime",
+        "Wintertime",
+        "Wartime",
+        "Peacetime",
+        [
+          "Night-time",
+          "Nighttime"
+        ],
+        "Mealtime",
+        "Dinnertime",
+        [
+          "Bathtime",
+          "Bath time"
+        ],
+        [
+          "Full-time",
+          "Fulltime"
+        ],
+        [
+          "Part-time",
+          "Parttime"
+        ],
+        "Ragtime",
+        "Airtime",
+        "Downtime",
+        "Uptime",
+        "Runtime",
+        "Flexitime",
+        "Noontime",
+        "Big-time",
+        "Small-time",
+        "Two-time",
+        "Old-time",
+        "Longtime",
+        "Real-time",
+        "Christmastime",
+        "Coenzyme",
+        "Lysozyme"
       ]
     },
     {
@@ -81,8 +144,7 @@
         "Everyone",
         "Anyone",
         [
-          "No one",
-          "No-one"
+          "No one"
         ],
         "Well done",
         "Number one",
@@ -110,8 +172,7 @@
         "All-in-one",
         "Loved one",
         [
-          "Hit and run",
-          "Hit-and-run"
+          "Hit and run"
         ],
         "School run",
         "Trial run",
@@ -148,7 +209,45 @@
         "Hun",
         "Hon",
         "Dun",
-        "Tun"
+        "Tun",
+        "Outgun",
+        "Top gun",
+        "Smoking gun",
+        "Son of a gun",
+        "Hired gun",
+        "Big gun",
+        "Young gun",
+        "Squirt gun",
+        "Tommy gun",
+        "Spray gun",
+        "Flare gun",
+        "Laser gun",
+        "Six-gun",
+        "Gatling gun",
+        "Paintball gun",
+        "Fun run",
+        "Milk run",
+        "Chicken run",
+        "Bank run",
+        "Ski run",
+        "Print run",
+        "Dummy run",
+        "Bull run",
+        "Beer run",
+        "Midnight sun",
+        "Morning sun",
+        "Setting sun",
+        "Bath bun",
+        "Hot dog bun",
+        "Brioche bun",
+        "Handspun",
+        "Half-done",
+        "Little one",
+        "One-on-one",
+        "Hundred and one",
+        "Cut and run",
+        "Attila the Hun",
+        "Unspun"
       ]
     },
     {
@@ -160,40 +259,102 @@
       "answers": [
         [
           "Knife",
-          "Knives"
+          "Knives",
+          "knifes",
+          "knifed",
+          "knifing"
         ],
         [
           "Knee",
-          "Knees"
+          "Knees",
+          "kneed",
+          "kneeing"
         ],
         [
           "Know",
-          "Knowing"
+          "Knowing",
+          "knows"
         ],
-        "Knock",
-        "Knight",
-        "Knot",
+        [
+          "Knock",
+          "knocks",
+          "knocked",
+          "knocking"
+        ],
+        [
+          "Knight",
+          "knights",
+          "knighted",
+          "knighting"
+        ],
+        [
+          "Knot",
+          "knots",
+          "knotted",
+          "knotting"
+        ],
         [
           "Knit",
-          "Knitting"
+          "Knitting",
+          "knits",
+          "knitted"
         ],
         "Knickers",
         [
           "Knuckle",
-          "Knuckles"
+          "Knuckles",
+          "knuckled",
+          "knuckling"
         ],
-        "Knob",
-        "Knowledge",
-        "Kneel",
+        [
+          "Knob",
+          "knobs"
+        ],
+        [
+          "Knowledge",
+          "knowledges"
+        ],
+        [
+          "Kneel",
+          "kneels",
+          "kneeling"
+        ],
         "Knew",
-        "Known",
-        "Knack",
-        "Knead",
-        "Knave",
+        [
+          "Known",
+          "knowns"
+        ],
+        [
+          "Knack",
+          "knacks"
+        ],
+        [
+          "Knead",
+          "kneads",
+          "kneaded",
+          "kneading"
+        ],
+        [
+          "Knave",
+          "knaves"
+        ],
         "Knelt",
-        "Knapsack",
-        "Knell",
-        "Knoll",
+        [
+          "Knapsack",
+          "knapsacks"
+        ],
+        [
+          "Knell",
+          "knells",
+          "knelled",
+          "knelling"
+        ],
+        [
+          "Knoll",
+          "knolls",
+          "knolled",
+          "knolling"
+        ],
         [
           "Knockout",
           "Knock-out"
@@ -204,8 +365,16 @@
         ],
         "Knobbly",
         "Knucklehead",
-        "Kneecap",
-        "Knighthood",
+        [
+          "Kneecap",
+          "kneecaps",
+          "kneecapped",
+          "kneecapping"
+        ],
+        [
+          "Knighthood",
+          "knighthoods"
+        ],
         "Knitwear",
         [
           "Knee-jerk",
@@ -223,25 +392,117 @@
         "Knockers",
         "Knobhead",
         [
-          "Knees-up",
-          "Knees up"
+          "Knees-up"
         ],
         "Knowingly",
-        "Knotty",
+        [
+          "Knotty",
+          "knottier",
+          "knottiest"
+        ],
         "Knackered",
-        "Knacker",
+        [
+          "Knacker",
+          "knackers"
+        ],
         [
           "Knickerbocker",
           "Knickerbockers",
           "Knickerbocker glory"
         ],
-        "Knurl",
+        [
+          "Knurl",
+          "knurls",
+          "knurled"
+        ],
         "Knout",
         "Knop",
         "Knap",
         "Knar",
         "Knawel",
-        "Knur"
+        "Knur",
+        "Knackers yard",
+        [
+          "Knock-off",
+          "Knockoff"
+        ],
+        [
+          "Knock-on",
+          "Knock on effect"
+        ],
+        [
+          "Knuckleduster",
+          "Knuckle-duster",
+          "knuckledusters"
+        ],
+        "Knock-kneed",
+        "Knee-high",
+        "Knee-length",
+        [
+          "Knitting needle",
+          "Knitting needles"
+        ],
+        [
+          "Knowledgeable",
+          "Knowledgable"
+        ],
+        "Knightly",
+        [
+          "Knitter",
+          "knitters"
+        ],
+        [
+          "Kneeler",
+          "kneelers"
+        ],
+        "Knockabout",
+        [
+          "Knothole",
+          "knotholes"
+        ],
+        [
+          "Knavery",
+          "knaveries"
+        ],
+        [
+          "Knavish",
+          "knavishly"
+        ],
+        "Knowable",
+        [
+          "Knobby",
+          "knobbier",
+          "knobbiest"
+        ],
+        [
+          "Knucklebone",
+          "Knucklebones"
+        ],
+        "Knuckle sandwich",
+        "Knight errant",
+        [
+          "Knish",
+          "knishes"
+        ],
+        "Knowledgeably",
+        "Knowingness",
+        "Knottiness",
+        [
+          "Knightliness",
+          "knightlinesses"
+        ],
+        "Knackery",
+        "Knackish",
+        [
+          "Kneader",
+          "kneaders"
+        ],
+        "Knower",
+        "Knobkerrie",
+        [
+          "Knackwurst",
+          "Knockwurst"
+        ]
       ]
     },
     {
@@ -253,60 +514,149 @@
       "answers": [
         "Through",
         "Though",
-        "Tough",
-        "Rough",
-        "Cough",
+        [
+          "Tough",
+          "Toughest",
+          "toughs",
+          "toughed",
+          "tougher",
+          "toughing"
+        ],
+        [
+          "Rough",
+          "roughs",
+          "roughed",
+          "rougher",
+          "roughing",
+          "roughest"
+        ],
+        [
+          "Cough",
+          "Coughing",
+          "coughs",
+          "coughed"
+        ],
         "Enough",
-        "Thought",
+        [
+          "Thought",
+          "thoughts"
+        ],
         "Bought",
         "Brought",
         "Fought",
-        "Dough",
-        "Plough",
-        "Bough",
+        [
+          "Dough",
+          "doughs"
+        ],
+        [
+          "Plough",
+          "Ploughed",
+          "ploughs",
+          "ploughing"
+        ],
+        [
+          "Bough",
+          "boughs"
+        ],
         "Ought",
         "Sought",
-        "Nought",
-        "Drought",
+        [
+          "Nought",
+          "noughts"
+        ],
+        [
+          "Drought",
+          "droughts"
+        ],
         "Thorough",
-        "Borough",
-        "Trough",
+        [
+          "Borough",
+          "boroughs"
+        ],
+        [
+          "Trough",
+          "troughs"
+        ],
         "Although",
         "Throughout",
         [
           "Doughnut",
-          "Doughnuts"
+          "Doughnuts",
+          "doughnutted",
+          "doughnutting"
         ],
-        "Breakthrough",
+        [
+          "Breakthrough",
+          "breakthroughs"
+        ],
         "Thoughtful",
-        "Afterthought",
-        "Toughen",
+        [
+          "Afterthought",
+          "afterthoughts"
+        ],
+        [
+          "Toughen",
+          "toughens",
+          "toughened",
+          "toughening"
+        ],
         "Roughly",
         [
           "Ploughman",
-          "Ploughman's"
+          "Ploughman's",
+          "Ploughmen"
         ],
-        "Slough",
+        [
+          "Slough",
+          "sloughs",
+          "sloughed",
+          "sloughing"
+        ],
         "Hiccough",
-        "Sough",
+        [
+          "Sough",
+          "Soughing",
+          "soughs",
+          "soughed"
+        ],
         "Lough",
         [
-          "Overwrought",
-          "Wrought"
+          "Overwrought"
         ],
-        "Forethought",
+        [
+          "Forethought",
+          "forethoughts"
+        ],
         "Wrought iron",
-        "Roughage",
-        "Thoroughbred",
-        "Thoroughfare",
-        "Ploughshare",
-        "Doughty",
-        "Furlough",
+        [
+          "Roughage",
+          "roughages"
+        ],
+        [
+          "Thoroughbred",
+          "thoroughbreds"
+        ],
+        [
+          "Thoroughfare",
+          "thoroughfares"
+        ],
+        [
+          "Ploughshare",
+          "ploughshares"
+        ],
+        [
+          "Doughty",
+          "doughtier",
+          "doughtiest"
+        ],
+        [
+          "Furlough",
+          "furloughs"
+        ],
         "Besought",
         "Unsought",
         "Clough",
         "Chough",
-        "Soughing",
         "Loughborough",
         "Middlesbrough",
         "Scarborough",
@@ -314,12 +664,144 @@
         "Peterborough",
         "Gainsborough",
         "Doughboy",
-        "Roughneck",
-        "Coughing",
+        [
+          "Roughneck",
+          "roughnecks"
+        ],
         "Sourdough",
         "Hough",
-        "Ploughed",
-        "Toughest"
+        "Wrought",
+        "Thoughtless",
+        "Roughness",
+        "Toughness",
+        "Thoroughly",
+        [
+          "Snowplough",
+          "Snow plough",
+          "snowploughs",
+          "snowploughed",
+          "snowploughing"
+        ],
+        [
+          "Drive-through",
+          "Drive-thru"
+        ],
+        [
+          "Walkthrough",
+          "Walk-through"
+        ],
+        "See-through",
+        "Follow-through",
+        "Run-through",
+        [
+          "Playdough",
+          "Play dough"
+        ],
+        "Cookie dough",
+        [
+          "Doughball",
+          "Doughballs",
+          "Dough balls"
+        ],
+        "Thoughtfully",
+        [
+          "Dreadnought",
+          "dreadnoughts"
+        ],
+        [
+          "Roughen",
+          "roughens",
+          "roughened",
+          "roughening"
+        ],
+        "Roughshod",
+        "Thoughtlessly",
+        "Thoughtfulness",
+        "Thoughtlessness",
+        "Thoroughness",
+        [
+          "Throughput",
+          "throughputs"
+        ],
+        [
+          "Doughy",
+          "doughier",
+          "doughiest"
+        ],
+        "Rethought",
+        "Unthought",
+        [
+          "Aforethought",
+          "Malice aforethought"
+        ],
+        "Bethought",
+        "Roughcast",
+        "Roughhouse",
+        "Rough diamond",
+        "Ploughland",
+        "Thoroughgoing",
+        "Roughish",
+        "Toughly",
+        "Unploughed",
+        "Unthoughtful",
+        "Outfought",
+        "Dogfought",
+        "Overbought",
+        "Inwrought",
+        "Methought",
+        [
+          "Brougham",
+          "broughams"
+        ],
+        [
+          "Plougher",
+          "ploughers"
+        ],
+        "Cougher",
+        "Farnborough",
+        "Hillsborough",
+        "Knaresborough",
+        "Wellingborough",
+        [
+          "Market Harborough",
+          "Harborough"
+        ],
+        "Loughton",
+        "Broughton",
+        [
+          "Houghton",
+          "Houghton-le-Spring"
+        ],
+        [
+          "Flamborough",
+          "Flamborough Head"
+        ],
+        "Attenborough",
+        "Attleborough",
+        "Guisborough",
+        "Mexborough",
+        "Southborough",
+        "Desborough",
+        "Narborough",
+        "Boroughbridge",
+        "Conisbrough",
+        "Brough",
+        "Broughty Ferry",
+        "Lough Neagh",
+        "Lough Erne",
+        "Lough Foyle",
+        "Lough Derg",
+        "Lough Ree",
+        "Loughrea",
+        "Loughgall",
+        "Loughor",
+        "Bilborough",
+        "Aldborough",
+        "Poughkeepsie",
+        "Boroughmuir",
+        "Coughton",
+        "Roughton",
+        "Hough-on-the-Hill"
       ]
     },
     {
@@ -402,7 +884,47 @@
         "Tattarrattat",
         "Kinnikinnik",
         "Degged",
-        "Murdrum"
+        "Murdrum",
+        [
+          "Tut",
+          "Tut-tut"
+        ],
+        "Yay",
+        "Lol",
+        "SOS",
+        "Mam",
+        "Sus",
+        "Aka",
+        "Eke",
+        "Pep",
+        "Tat",
+        "Oho",
+        "Heh",
+        "Stets",
+        "Dewed",
+        "Denned",
+        "Sememes",
+        "Redivider",
+        "Aibohphobia",
+        "Tacocat",
+        "Viv",
+        "Emme",
+        "Aviva",
+        "Natan",
+        "Ana",
+        "Aya",
+        "Idi",
+        "Navan",
+        "Laval",
+        "Glenelg",
+        "Oxo",
+        "Xanax",
+        "Seles",
+        "Akasaka",
+        "Bub",
+        "Tet",
+        "Ma'am",
+        "Alula"
       ]
     },
     {
@@ -415,7 +937,8 @@
         [
           "Sherlock Holmes",
           "Sherlock",
-          "Holmes"
+          "Holmes",
+          "Young Sherlock"
         ],
         [
           "Hercule Poirot",
@@ -439,7 +962,6 @@
         "Nancy Drew",
         [
           "The Hardy Boys",
-          "Hardy Boys",
           "Frank Hardy",
           "Joe Hardy"
         ],
@@ -688,7 +1210,281 @@
           "Gervase Fen",
           "Fen"
         ],
-        "Nigel Strangeways"
+        "Nigel Strangeways",
+        [
+          "Agatha Raisin",
+          "Raisin"
+        ],
+        [
+          "Robbie Lewis",
+          "Sergeant Lewis",
+          "DS Lewis",
+          "Inspector Lewis"
+        ],
+        [
+          "Robin Ellacott",
+          "Ellacott"
+        ],
+        "Dalziel and Pascoe",
+        [
+          "Andy Dalziel",
+          "Dalziel"
+        ],
+        [
+          "Peter Pascoe",
+          "Pascoe"
+        ],
+        [
+          "Barbara Havers",
+          "Havers"
+        ],
+        [
+          "Inspector Japp",
+          "Japp"
+        ],
+        "Ariadne Oliver",
+        [
+          "Jack Reacher",
+          "Reacher"
+        ],
+        "Perry Mason",
+        "Charlie Chan",
+        [
+          "Elizabeth Best",
+          "Thursday Murder Club"
+        ],
+        "Joyce Meadowcroft",
+        [
+          "George Gently",
+          "Inspector George Gently",
+          "Inspector Gently"
+        ],
+        [
+          "Wycliffe",
+          "Inspector Wycliffe",
+          "Charles Wycliffe"
+        ],
+        "Sidney Chambers",
+        [
+          "Walt Longmire",
+          "Longmire"
+        ],
+        [
+          "Inspector Lestrade",
+          "Lestrade"
+        ],
+        "Sexton Blake",
+        [
+          "Sam Vimes",
+          "Commander Vimes",
+          "Samuel Vimes"
+        ],
+        "Harriet Vane",
+        [
+          "Alan Grant",
+          "Inspector Alan Grant"
+        ],
+        "Superintendent Battle",
+        "Parker Pyne",
+        [
+          "Harley Quin",
+          "Mr Quin"
+        ],
+        "Karen Pirie",
+        "Carol Jordan",
+        "Malcolm Fox",
+        "Siobhan Clarke",
+        "Matthew Venn",
+        "Harbinder Kaur",
+        "Susan Ryeland",
+        "Judith Potts",
+        [
+          "Pip Fitz-Amobi",
+          "Pippa Fitz-Amobi"
+        ],
+        "Christopher Boone",
+        "Philo Vance",
+        [
+          "Nick and Nora Charles",
+          "Nick Charles",
+          "Nora Charles"
+        ],
+        "The Continental Op",
+        "Archie Goodwin",
+        [
+          "Clarice Starling",
+          "Starling"
+        ],
+        "Travis McGee",
+        "Jesse Stone",
+        [
+          "Steve Carella",
+          "Carella"
+        ],
+        "Lucas Davenport",
+        [
+          "Matt Scudder",
+          "Matthew Scudder"
+        ],
+        "Elvis Cole",
+        [
+          "Dave Robicheaux",
+          "Robicheaux"
+        ],
+        [
+          "Patrick Kenzie",
+          "Kenzie and Gennaro"
+        ],
+        "Myron Bolitar",
+        "Alex Delaware",
+        "Eve Dallas",
+        "Lindsay Boxer",
+        "Renee Ballard",
+        "Amos Decker",
+        "Jim Chee",
+        [
+          "Harry Dresden",
+          "Dresden"
+        ],
+        "Peter Grant",
+        "Elijah Baley",
+        [
+          "Gideon Fell",
+          "Dr Fell",
+          "Dr Gideon Fell"
+        ],
+        [
+          "Sir Henry Merrivale",
+          "Merrivale"
+        ],
+        "Roger Sheringham",
+        [
+          "Philip Trent",
+          "Trent"
+        ],
+        [
+          "Inspector Cockrill",
+          "Cockie"
+        ],
+        [
+          "Richard Jury",
+          "Inspector Jury"
+        ],
+        "Peter Diamond",
+        [
+          "Guido Brunetti",
+          "Brunetti",
+          "Commissario Brunetti"
+        ],
+        "Aurelio Zen",
+        [
+          "Commissaire Adamsberg",
+          "Adamsberg"
+        ],
+        "William of Baskerville",
+        "Carl Morck",
+        "Erica Falck",
+        "Patrik Hedstrom",
+        "Isabel Dalhousie",
+        [
+          "Napoleon Bonaparte (Bony)",
+          "Bony",
+          "Inspector Bonaparte"
+        ],
+        [
+          "Marcus Didius Falco",
+          "Falco"
+        ],
+        [
+          "Gordianus the Finder",
+          "Gordianus"
+        ],
+        [
+          "Sister Fidelma",
+          "Fidelma"
+        ],
+        "Brother Athelstan",
+        "William Monk",
+        [
+          "Thomas Pitt",
+          "Inspector Pitt"
+        ],
+        "Amelia Peabody",
+        "Mary Russell",
+        "Maisie Dobbs",
+        "Ian Rutledge",
+        "Bob Skinner",
+        "Jack Taylor",
+        "Quirke",
+        "Sean Duffy",
+        "Fin Macleod",
+        "Cassie Maddox",
+        "George Felse",
+        "Martin Hewitt",
+        [
+          "The Thinking Machine",
+          "Professor Van Dusen",
+          "Augustus Van Dusen"
+        ],
+        "The Old Man in the Corner",
+        "Lady Molly",
+        "Loveday Brooke",
+        "Uncle Abner",
+        [
+          "Inspector Hanaud",
+          "Hanaud"
+        ],
+        "Hildegarde Withers",
+        "Reggie Fortune",
+        "Dr Priestley",
+        "Father Dowling",
+        "Craig Kennedy",
+        [
+          "Inspector Jack Spratt",
+          "Jack Spratt"
+        ],
+        "Kate Brannigan",
+        "Lindsay Gordon",
+        "Alex Morrow",
+        "Paddy Meehan",
+        "Wesley Peterson",
+        "Edgar Stephens",
+        "Molly Murphy",
+        [
+          "Coffin Ed Johnson",
+          "Coffin Ed"
+        ],
+        "Grave Digger Jones",
+        [
+          "Mickey Haller",
+          "Lincoln Lawyer"
+        ],
+        "Joe Pickett",
+        "Virgil Flowers",
+        "Kate Daniels",
+        [
+          "Basil of Baker Street",
+          "Basil the Great Mouse Detective"
+        ],
+        [
+          "Emil Tischbein",
+          "Emil and the Detectives"
+        ],
+        "Nate the Great",
+        "Cam Jansen",
+        "Trixie Belden",
+        [
+          "The Three Investigators",
+          "Jupiter Jones"
+        ],
+        [
+          "The Five Find-Outers",
+          "Fatty Trotteville"
+        ],
+        "The Secret Seven",
+        "The Famous Five",
+        "Daisy Wells",
+        "Hazel Wong"
       ]
     }
   ]

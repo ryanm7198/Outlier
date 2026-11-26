@@ -368,8 +368,12 @@
      "Carlton",
      "Vauxhall Carlton",
      "Opel Carlton",
-     "Opel Vauxhall Carlton",
-     "Lotus Carlton"
+     "Opel Vauxhall Carlton"
+    ],
+    [
+     "Lotus Carlton",
+     "Vauxhall Lotus Carlton",
+     "Lotus Omega"
     ],
     [
      "Senator",
@@ -432,13 +436,16 @@
      "Opel VX4/90",
      "Vauxhall VX 4 90",
      "Opel VX 4 90",
-     "Opel Vauxhall VX4/90"
+     "Opel Vauxhall VX4/90",
+     "vx four ninety"
     ],
     [
      "Firenza",
      "Vauxhall Firenza",
      "Opel Firenza",
-     "Opel Vauxhall Firenza"
+     "Opel Vauxhall Firenza",
+     "droopsnoot",
+     "firenza droopsnoot"
     ],
     [
      "Magnum",
@@ -608,32 +615,50 @@
    "answers": [
     [
      "Phantom",
-     "Phantom II",
-     "Phantom III",
-     "Phantom IV",
-     "Phantom V",
-     "Phantom VI",
      "Phantom VII",
      "Phantom VIII",
      "Rolls-Royce Phantom",
      "Rolls Phantom",
-     "Rolls-Royce Phantom II",
-     "Rolls Phantom II",
-     "Rolls-Royce Phantom III",
-     "Rolls Phantom III",
-     "Rolls-Royce Phantom IV",
-     "Rolls Phantom IV",
-     "Rolls-Royce Phantom V",
-     "Rolls Phantom V",
-     "Rolls-Royce Phantom VI",
-     "Rolls Phantom VI",
      "Rolls-Royce Phantom VII",
      "Rolls Phantom VII",
      "Rolls-Royce Phantom VIII",
      "Rolls Phantom VIII",
-     "Phantom Coupé",
+     "phantom i",
+     "new phantom"
+    ],
+    [
      "Phantom Drophead Coupé",
-     "Phantom Drophead"
+     "Phantom Drophead",
+     "Rolls-Royce Phantom Drophead Coupé"
+    ],
+    [
+     "Phantom Coupé",
+     "Rolls-Royce Phantom Coupé"
+    ],
+    [
+     "Phantom VI",
+     "Rolls-Royce Phantom VI",
+     "Rolls Phantom VI"
+    ],
+    [
+     "Phantom V",
+     "Rolls-Royce Phantom V",
+     "Rolls Phantom V"
+    ],
+    [
+     "Phantom IV",
+     "Rolls-Royce Phantom IV",
+     "Rolls Phantom IV"
+    ],
+    [
+     "Phantom III",
+     "Rolls-Royce Phantom III",
+     "Rolls Phantom III"
+    ],
+    [
+     "Phantom II",
+     "Rolls-Royce Phantom II",
+     "Rolls Phantom II"
     ],
     [
      "Silver Ghost",
@@ -694,7 +719,9 @@
     [
      "Silver Spur",
      "Rolls-Royce Silver Spur",
-     "Rolls Silver Spur"
+     "Rolls Silver Spur",
+     "silver spur ii",
+     "silver spur iii"
     ],
     [
      "Camargue",
@@ -781,6 +808,12 @@
      "Rolls-Royce 30 hp",
      "Rolls 30 hp",
      "30hp"
+    ],
+    [
+     "Legalimit",
+     "rolls-royce legalimit",
+     "v-8",
+     "invisible engine"
     ]
    ]
   },

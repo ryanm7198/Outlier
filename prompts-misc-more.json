@@ -9,11 +9,11 @@
    "text": "Name a card game played with ordinary playing cards",
    "answers": [
     "Snap",
+    "Poker",
     [
-     "Poker",
-     "texas hold em",
-     "texas holdem",
-     "hold em"
+     "Texas Hold'em",
+     "hold em",
+     "texas hold em"
     ],
     [
      "Blackjack",
@@ -28,13 +28,15 @@
     ],
     [
      "Bridge",
-     "contract bridge"
+     "contract bridge",
+     "rubber bridge",
+     "duplicate bridge"
     ],
+    "Whist",
     [
-     "Whist",
-     "solo whist"
+     "Go Fish",
+     "fish"
     ],
-    "Go Fish",
     [
      "Cheat",
      "bluff",
@@ -49,8 +51,16 @@
     [
      "Crazy Eights",
      "switch",
-     "mau mau",
      "last card"
+    ],
+    "Mau Mau",
+    [
+     "Solo Whist",
+     "solo"
+    ],
+    [
+     "Klondike",
+     "klondike solitaire"
     ],
     "Hearts",
     "Spades",
@@ -68,7 +78,8 @@
     [
      "Beggar My Neighbour",
      "beggar thy neighbour",
-     "strip jack naked"
+     "strip jack naked",
+     "beat your neighbour out of doors"
     ],
     [
      "War",
@@ -82,7 +93,8 @@
     [
      "Racing Demon",
      "nertz",
-     "nerts"
+     "nerts",
+     "pounce"
     ],
     [
      "Kalooki",
@@ -109,7 +121,9 @@
     [
      "President",
      "arsehole",
-     "scum"
+     "scum",
+     "daifugo",
+     "scumbag"
     ],
     [
      "Brag",
@@ -133,8 +147,11 @@
     "Euchre",
     [
      "Baccarat",
-     "punto banco",
-     "chemin de fer"
+     "punto banco"
+    ],
+    [
+     "Chemin de Fer",
+     "chemmy"
     ],
     "Pinochle",
     "Piquet",
@@ -142,10 +159,8 @@
     "Skat",
     "Sheepshead",
     "Cassino",
-    [
-     "Spoons",
-     "pig"
-    ],
+    "Spoons",
+    "Pig",
     [
      "Pairs",
      "memory",
@@ -154,7 +169,10 @@
     ],
     "Ninety-Nine",
     "German Whist",
-    "Black Maria",
+    [
+     "Black Maria",
+     "black lady"
+    ],
     [
      "Chase the Ace",
      "ranter go round"
@@ -195,7 +213,10 @@
      "Egyptian Ratscrew",
      "egyptian ratslap"
     ],
-    "Booray",
+    [
+     "Booray",
+     "bourre"
+    ],
     [
      "Scat",
      "thirty-one"
@@ -204,7 +225,8 @@
     [
      "Pitch",
      "high low jack",
-     "all fours"
+     "all fours",
+     "seven up"
     ],
     "Loo",
     "Faro",
@@ -254,7 +276,162 @@
     "Schnapsen",
     "Tute",
     "Tressette",
-    "Sueca"
+    "Sueca",
+    [
+     "Omaha",
+     "omaha hold em",
+     "omaha poker"
+    ],
+    [
+     "Seven Card Stud",
+     "7 card stud"
+    ],
+    [
+     "Five Card Draw",
+     "5 card draw",
+     "draw poker"
+    ],
+    [
+     "Spider Solitaire",
+     "spider"
+    ],
+    [
+     "FreeCell",
+     "free cell"
+    ],
+    "Pyramid Solitaire",
+    "Irish Snap",
+    "Bid Whist",
+    "Israeli Whist",
+    "Romanian Whist",
+    [
+     "Indian Rummy",
+     "13 card rummy",
+     "thirteen card rummy"
+    ],
+    [
+     "Shanghai Rummy",
+     "shanghai"
+    ],
+    "Liverpool Rummy",
+    "Oklahoma Gin",
+    "Hollywood Gin",
+    [
+     "Conquian",
+     "coon can"
+    ],
+    [
+     "Panguingue",
+     "pan"
+    ],
+    "Samba",
+    "Bolivia",
+    "Burraco",
+    "Buraco",
+    "Pinnacola",
+    "Machiavelli",
+    "Bid Euchre",
+    "Railroad Euchre",
+    "Pedro",
+    "Cinch",
+    "Smear",
+    "Guts",
+    "Bouillotte",
+    "Post and Pair",
+    "Nine Card Brag",
+    "Seven Card Brag",
+    "Crazy Nines",
+    "Go Boom",
+    "Mao",
+    "Bartok",
+    "Authors",
+    [
+     "Russian Bank",
+     "crapette"
+    ],
+    "Double Solitaire",
+    "Rickety Kate",
+    [
+     "Polignac",
+     "jacks"
+    ],
+    "Stops",
+    "Comet",
+    "Spinado",
+    "Lottery",
+    "Rolling Stone",
+    [
+     "Minibridge",
+     "mini bridge"
+    ],
+    "Chicago Bridge",
+    "Honeymoon Bridge",
+    "Boston",
+    "Quadrille",
+    "Coinche",
+    "Doppelkopf",
+    "Schafkopf",
+    "Watten",
+    "Gaigel",
+    "Mariage",
+    [
+     "Preferans",
+     "preference"
+    ],
+    [
+     "Thousand",
+     "1000",
+     "tysiacha"
+    ],
+    "Tarneeb",
+    "Trix",
+    "Baloot",
+    "Hokm",
+    [
+     "Pishti",
+     "pisti"
+    ],
+    "Basra",
+    [
+     "Seep",
+     "sweep"
+    ],
+    "Mendikot",
+    [
+     "Court Piece",
+     "rang"
+    ],
+    [
+     "Twenty-Eight",
+     "28"
+    ],
+    "Call Bridge",
+    "Chinchon",
+    "Escoba",
+    "Scopone",
+    "Bisca",
+    "Guinote",
+    "Zheng Shangyou",
+    "Gin Poker",
+    "Badugi",
+    "Razz",
+    "Pineapple",
+    "Crazy Pineapple",
+    [
+     "Short Deck Hold'em",
+     "six plus hold em"
+    ],
+    [
+     "Red Dog",
+     "acey deucey",
+     "in between"
+    ],
+    "Fuck the Dealer",
+    "Horse Race",
+    "Bus Driver",
+    "Irish Poker",
+    "Old Sledge",
+    "Cuttle"
    ]
   },
   {
@@ -268,9 +445,9 @@
     [
      "Blackjack",
      "twenty-one",
-     "vingt-et-un",
-     "pontoon"
+     "vingt-et-un"
     ],
+    "Pontoon",
     "Poker",
     [
      "Slot machines",
@@ -281,19 +458,18 @@
      "fruit machines",
      "one-armed bandits"
     ],
-    [
-     "Craps",
-     "dice"
-    ],
+    "Craps",
     [
      "Baccarat",
-     "punto banco",
-     "chemin de fer",
-     "mini baccarat"
+     "punto banco"
+    ],
+    "Mini baccarat",
+    [
+     "Chemin de fer",
+     "chemmy"
     ],
     [
      "Texas Hold'em",
-     "texas holdem",
      "hold em"
     ],
     "Keno",
@@ -410,7 +586,69 @@
     "Book of Ra",
     "Monopoly slots",
     "Stud poker",
-    "Omaha hi-lo"
+    "Omaha hi-lo",
+    "Mini roulette",
+    "Double ball roulette",
+    "Immersive Roulette",
+    "Speed Roulette",
+    "Auto Roulette",
+    "Infinite Blackjack",
+    "Lightning Blackjack",
+    "Power Blackjack",
+    "Crazy Time",
+    "Monopoly Live",
+    "Dream Catcher",
+    "Deal or No Deal Live",
+    "Mega Ball",
+    "Funky Time",
+    "Bac Bo",
+    "Speed Baccarat",
+    "Lightning Baccarat",
+    "Casino stud poker",
+    "Caribbean Hold'em",
+    "Oasis poker",
+    "Bubble craps",
+    "Hazard",
+    "Wheel of Fortune slots",
+    "Starburst",
+    "Gonzo's Quest",
+    "Book of Dead",
+    "Big Bass Bonanza",
+    "Mega Moolah",
+    "Fishin' Frenzy",
+    "Eye of Horus",
+    "Sweet Bonanza",
+    "Gates of Olympus",
+    "Wolf Gold",
+    "Dead or Alive",
+    "Bonanza",
+    "Double Diamond",
+    "Triple Diamond",
+    [
+     "Blazing 7s",
+     "blazing sevens"
+    ],
+    "Quick Hit",
+    "Dancing Drums",
+    "Huff N' Puff",
+    "Lobstermania",
+    "Jackpot King",
+    [
+     "Progressive slots",
+     "progressive jackpot slots"
+    ],
+    "Electronic bingo",
+    [
+     "Poker tournaments",
+     "poker tournament"
+    ],
+    "Cash game poker",
+    "Sit and go",
+    [
+     "Pachislo",
+     "pachi-slot"
+    ],
+    "Heads Up Hold'em"
    ]
   },
   {
@@ -567,7 +805,8 @@
     ],
     [
      "Modern Defence",
-     "modern"
+     "modern",
+     "robatsch"
     ],
     [
      "Alekhine's Defence",
@@ -687,7 +926,10 @@
      "Berlin Defence",
      "berlin"
     ],
-    "Latvian Gambit",
+    [
+     "Latvian Gambit",
+     "greco counter gambit"
+    ],
     "Elephant Gambit",
     "Englund Gambit",
     "Owen's Defence",
@@ -727,10 +969,7 @@
      "wilkes-barre"
     ],
     "Hungarian Defence",
-    [
-     "Göring Gambit",
-     "goring gambit"
-    ],
+    "Göring Gambit",
     "Halloween Gambit",
     "Jobava London",
     "Vienna Gambit",
@@ -765,7 +1004,206 @@
     "Wing Gambit",
     "Muzio Gambit",
     "Cochrane Gambit",
-    "Belgrade Gambit"
+    "Belgrade Gambit",
+    "Nimzowitsch Defence",
+    [
+     "St. George Defence",
+     "st george"
+    ],
+    [
+     "Pterodactyl Defence",
+     "pterodactyl"
+    ],
+    "Rat Defence",
+    [
+     "Borg Defence",
+     "borg"
+    ],
+    [
+     "Amar Opening",
+     "amar",
+     "paris opening"
+    ],
+    "Clemenz Opening",
+    [
+     "Ware Opening",
+     "ware"
+    ],
+    "Saragossa Opening",
+    [
+     "Van 't Kruijs Opening",
+     "van t kruijs"
+    ],
+    "Mieses Opening",
+    [
+     "Anderssen's Opening",
+     "anderssen"
+    ],
+    [
+     "Durkin Opening",
+     "durkin attack"
+    ],
+    "Barnes Opening",
+    "Sodium Attack",
+    [
+     "Van Geet Opening",
+     "dunst opening"
+    ],
+    [
+     "Hungarian Opening",
+     "kings fianchetto opening"
+    ],
+    "Benko Opening",
+    [
+     "Damiano Defence",
+     "damiano"
+    ],
+    "Portuguese Opening",
+    "Scotch Gambit",
+    [
+     "Frankenstein-Dracula Variation",
+     "frankenstein dracula"
+    ],
+    "Urusov Gambit",
+    "Giuoco Pianissimo",
+    [
+     "Breyer Variation",
+     "breyer"
+    ],
+    [
+     "Zaitsev Variation",
+     "zaitsev"
+    ],
+    "Chigorin Variation",
+    [
+     "Open Ruy Lopez",
+     "open spanish"
+    ],
+    [
+     "Closed Ruy Lopez",
+     "closed spanish"
+    ],
+    "Exchange Ruy Lopez",
+    "Steinitz Defence",
+    "Cozio Defence",
+    "Bird's Defence",
+    "Arkhangelsk Variation",
+    "Anti-Marshall",
+    [
+     "Kalashnikov Variation",
+     "kalashnikov"
+    ],
+    "Classical Sicilian",
+    [
+     "Richter-Rauzer Attack",
+     "richter rauzer"
+    ],
+    "Four Knights Sicilian",
+    "Hyperaccelerated Dragon",
+    "Moscow Variation",
+    "Yugoslav Attack",
+    "English Attack",
+    "Velimirovic Attack",
+    [
+     "Sozin Attack",
+     "fischer sozin"
+    ],
+    [
+     "Poisoned Pawn Variation",
+     "poisoned pawn"
+    ],
+    "Tarrasch Variation",
+    "Classical French",
+    "Rubinstein Variation",
+    [
+     "MacCutcheon Variation",
+     "maccutcheon"
+    ],
+    "Exchange French",
+    "Advance French",
+    "Advance Caro-Kann",
+    "Fantasy Variation",
+    "Orthodox Defence",
+    "Lasker Defence",
+    [
+     "Tartakower Defence",
+     "tartakower"
+    ],
+    [
+     "Cambridge Springs Defence",
+     "cambridge springs"
+    ],
+    [
+     "Chebanenko Slav",
+     "chebanenko"
+    ],
+    "Baltic Defence",
+    "Marshall Defence",
+    "Symmetrical Defence",
+    "Classical Dutch",
+    "Averbakh Variation",
+    "Petrosian Variation",
+    "Fianchetto Variation",
+    "Bayonet Attack",
+    "Leningrad Variation",
+    "Blumenfeld Gambit",
+    "Fajarowicz Gambit",
+    "Open Catalan",
+    "Closed Catalan",
+    "Symmetrical English",
+    "Reversed Sicilian",
+    "Botvinnik System",
+    "Anglo-Indian Defence",
+    [
+     "Colle-Zukertort System",
+     "colle zukertort"
+    ],
+    [
+     "Colle-Koltanowski System",
+     "colle koltanowski"
+    ],
+    "Barry Attack",
+    [
+     "150 Attack",
+     "british siberian attack"
+    ],
+    "Austrian Attack",
+    "Lion Defence",
+    "Icelandic Gambit",
+    "Portuguese Variation",
+    [
+     "Kieseritzky Gambit",
+     "kieseritzky"
+    ],
+    "Allgaier Gambit",
+    "Fischer Defence",
+    "Bishop's Gambit",
+    "Salvio Gambit",
+    "Cunningham Defence",
+    "Jerome Gambit",
+    "Tennison Gambit",
+    "Lisitsin Gambit",
+    [
+     "Von Hennig-Schara Gambit",
+     "schara gambit"
+    ],
+    "Marshall Gambit",
+    "Hanham Variation",
+    "Wilkes-Barre Variation",
+    "Double Bongcloud",
+    [
+     "Mexican Defence",
+     "black knights tango"
+    ],
+    "Ware Defence",
+    "Barnes Defence",
+    "Indian Game",
+    [
+     "Keres Defence",
+     "kangaroo defence"
+    ],
+    "Two Knights Caro-Kann",
+    "Classical Caro-Kann"
    ]
   },
   {
@@ -814,8 +1252,9 @@
     [
      "Yahtzee",
      "yatzy",
-     "yacht"
+     "kniffel"
     ],
+    "Yacht",
     "Craps",
     [
      "Liar's Dice",
@@ -836,7 +1275,10 @@
     "Pig",
     "Bunco",
     "Poker Dice",
-    "Sic Bo",
+    [
+     "Sic Bo",
+     "dai siu"
+    ],
     [
      "Chuck-a-luck",
      "birdcage"
@@ -844,12 +1286,22 @@
     "Crown and Anchor",
     [
      "Ship, Captain and Crew",
-     "ship captain crew"
+     "ship captain crew",
+     "six five four",
+     "ship captain mate and crew"
     ],
-    "Cee-lo",
+    [
+     "Cee-lo",
+     "chinchirorin",
+     "chinchiro",
+     "four five six",
+     "456"
+    ],
     [
      "Mexico",
-     "mia"
+     "mia",
+     "meyer",
+     "maxchen"
     ],
     [
      "Beetle",
@@ -897,7 +1349,29 @@
     "Owzthat",
     "Martian Dice",
     "Cacho",
-    "Rory's Story Cubes"
+    "Rory's Story Cubes",
+    [
+     "Thirty-Six",
+     "36"
+    ],
+    "Barbudi",
+    "Hooligan",
+    "Sequences",
+    "Big Pig",
+    "Two-Dice Pig",
+    "Dix Mille",
+    "Bidou",
+    "Crag",
+    "Cheerio",
+    "Indian Dice",
+    "Schocken",
+    "Beat That!",
+    "Round the Clock",
+    "Dice Baseball",
+    "Bank",
+    "Toss Up!",
+    "Grand Hazard",
+    "Qwinto"
    ]
   },
   {
@@ -928,8 +1402,7 @@
     ],
     [
      "Clock Patience",
-     "The Clock",
-     "Clock"
+     "The Clock"
     ],
     "Yukon",
     [
@@ -938,9 +1411,9 @@
     ],
     [
      "Canfield",
-     "Chameleon",
      "demon"
     ],
+    "Chameleon",
     [
      "La Belle Lucie",
      "Lovely Lucy"
@@ -956,9 +1429,9 @@
     [
      "Beleaguered Castle",
      "Laying Siege",
-     "Sham Battle",
-     "Stronghold"
+     "Sham Battle"
     ],
+    "Stronghold",
     "Accordion",
     [
      "Montana",
@@ -999,7 +1472,10 @@
     "Pyramid Golf",
     "Spiderette",
     "Double Canfield",
-    "Seahaven Towers",
+    [
+     "Seahaven Towers",
+     "sea haven"
+    ],
     "Simple Simon",
     "Sir Tommy",
     [
@@ -1026,15 +1502,15 @@
     "Little Milligan",
     "Rainbow Canfield",
     "Superior Canfield",
-    [
-     "Cribbage solitaire",
-     "Cribbage Solitaire"
-    ],
+    "Cribbage solitaire",
     "Four Corners",
     "Windmill",
     "Zodiac",
     "Frog",
-    "Gargantua",
+    [
+     "Gargantua",
+     "double klondike"
+    ],
     "Busy Aces",
     "Thirteens",
     "Red and Black",
@@ -1276,7 +1752,20 @@
     "Sly Fox",
     "Milligan Harp",
     "Fifteens",
-    "Little Windmill"
+    "Little Windmill",
+    "Thieves of Egypt",
+    "Paganini",
+    "Gold Rush",
+    "Saratoga",
+    "Forty and Eight",
+    "Famous Fifty",
+    "Selective Castle",
+    "Pinwheel",
+    "Agnes Bernauer",
+    "Agnes Sorel",
+    "Forecell",
+    "Double Spider",
+    "Tarantula"
    ],
    "deep": true
   },
@@ -1690,10 +2179,15 @@
     "Quora",
     "iMessage",
     "Skype",
-    "MSN Messenger",
+    [
+     "MSN Messenger",
+     "msn",
+     "windows live messenger"
+    ],
     [
      "Microsoft Teams",
-     "teams"
+     "teams",
+     "ms teams"
     ],
     "Line",
     "Kik",
@@ -1701,7 +2195,10 @@
     "QQ",
     "Qzone",
     "Douyin",
-    "Kuaishou",
+    [
+     "Kuaishou",
+     "kwai"
+    ],
     "Likee",
     "Clubhouse",
     "Periscope",
@@ -1796,7 +2293,186 @@
     "Weverse",
     "Yammer",
     "Workplace",
-    "Minds"
+    "Minds",
+    [
+     "Google Talk",
+     "gtalk"
+    ],
+    "Google Allo",
+    "Google Duo",
+    "Google Wave",
+    "Google Buzz",
+    "Faceparty",
+    "Piczo",
+    "Tagged",
+    [
+     "WeHeartIt",
+     "we heart it"
+    ],
+    "Polyvore",
+    "Vimeo",
+    "Dailymotion",
+    "Mixer",
+    "Justin.tv",
+    "Ustream",
+    "YouNow",
+    [
+     "Bigo Live",
+     "bigo"
+    ],
+    "Triller",
+    "Byte",
+    "Dubsmash",
+    "VSCO",
+    "Dispo",
+    "Poparazzi",
+    "Locket",
+    "Gas",
+    "tbh",
+    "NGL",
+    "Sendit",
+    "Monkey",
+    "Omegle",
+    "Chatroulette",
+    "Whisper",
+    "Secret",
+    "Sarahah",
+    "Tellonym",
+    "Formspring",
+    "Blogger",
+    "Diaryland",
+    "Post News",
+    [
+     "Pebble",
+     "t2"
+    ],
+    "Hive Social",
+    "Spoutible",
+    "Farcaster",
+    "Warpcast",
+    "Nostr",
+    "Damus",
+    "MeWe",
+    "Diaspora",
+    "Friendica",
+    "Pixelfed",
+    "Lemmy",
+    "Kbin",
+    "Gettr",
+    "Briar",
+    "Wickr",
+    "Keybase",
+    "Matrix",
+    "Rocket.Chat",
+    "Mattermost",
+    "Zulip",
+    [
+     "Webex",
+     "cisco webex"
+    ],
+    [
+     "GoTo Meeting",
+     "gotomeeting"
+    ],
+    "Jitsi",
+    [
+     "Skype for Business",
+     "lync"
+    ],
+    "Tango",
+    "Hike",
+    "ShareChat",
+    "Moj",
+    "Josh",
+    "Koo",
+    "Chingari",
+    "Roposo",
+    "Taringa",
+    "Mixi",
+    "Ameba",
+    "Cyworld",
+    [
+     "Band",
+     "naver band"
+    ],
+    "Douban",
+    "Renren",
+    "Zhihu",
+    "Momo",
+    "Soul",
+    "Guilded",
+    "TeamSpeak",
+    "Ventrilo",
+    "Mumble",
+    [
+     "IRC",
+     "internet relay chat"
+    ],
+    "mIRC",
+    "Trillian",
+    "Meebo",
+    "Palringo",
+    "Nimbuzz",
+    "Fring",
+    "eBuddy",
+    "OkCupid",
+    "eHarmony",
+    "Zoosk",
+    "Coffee Meets Bagel",
+    "Muzz",
+    "Inner Circle",
+    "Scruff",
+    "Jack'd",
+    "Lumen",
+    "Netmums",
+    "Gransnet",
+    "Fark",
+    "Slashdot",
+    "Hacker News",
+    "4chan",
+    [
+     "8chan",
+     "8kun"
+    ],
+    "Something Awful",
+    "Stack Overflow",
+    "Yahoo Answers",
+    "Untappd",
+    "Last.fm",
+    "SoundCloud",
+    "500px",
+    "DeviantArt",
+    "ArtStation",
+    "Behance",
+    "Dribbble",
+    "Fansly",
+    "Fizz",
+    "Jodel",
+    "Meerkat",
+    [
+     "Classmates.com",
+     "classmates"
+    ],
+    "Genes Reunited",
+    "Ning",
+    "Xing",
+    "Viadeo",
+    "Gowalla",
+    "Brightkite",
+    "Google Currents",
+    "Chatter",
+    "Jive",
+    "BitChute",
+    "Odysee",
+    "Snack Video",
+    "Zepeto",
+    "Airchat",
+    "Noplace",
+    "IRL",
+    "Facebook Lite",
+    "Instagram Lite",
+    "Messenger Kids",
+    "WhatsApp Business"
    ]
   },
   {
@@ -1806,8 +2482,15 @@
    ],
    "text": "Name a programming language",
    "answers": [
-    "Python",
-    "JavaScript",
+    [
+     "Python",
+     "python 3"
+    ],
+    [
+     "JavaScript",
+     "js",
+     "ecmascript"
+    ],
     "Java",
     "C",
     [
@@ -1834,14 +2517,25 @@
     [
      "Visual Basic",
      "vb",
-     "vb.net"
+     "vb.net",
+     "visual basic .net"
     ],
     "Perl",
     "COBOL",
     "Fortran",
     "Pascal",
     "Delphi",
-    "Assembly",
+    [
+     "Assembly",
+     "assembly language",
+     "assembler",
+     "asm",
+     "x86 assembly",
+     "arm assembly",
+     "6502 assembly",
+     "z80 assembly",
+     "masm"
+    ],
     "Scratch",
     "Lua",
     "MATLAB",
@@ -1850,7 +2544,11 @@
     "Prolog",
     "Scala",
     "Dart",
-    "Objective-C",
+    [
+     "Objective-C",
+     "obj-c",
+     "objc"
+    ],
     "Ada",
     "ALGOL",
     "Erlang",
@@ -1923,7 +2621,10 @@
     "Agda",
     "Coq",
     "Lean",
-    "Standard ML",
+    [
+     "Standard ML",
+     "sml"
+    ],
     "ML",
     "Miranda",
     "Clean",
@@ -1961,7 +2662,236 @@
     "GDScript",
     "UnrealScript",
     "Papyrus",
-    "Pawn"
+    "Pawn",
+    [
+     "PL/SQL",
+     "plsql"
+    ],
+    [
+     "T-SQL",
+     "transact-sql",
+     "tsql"
+    ],
+    "Modula-3",
+    "Object Pascal",
+    [
+     "Visual FoxPro",
+     "foxpro"
+    ],
+    "dBase",
+    "Clipper",
+    "PowerBuilder",
+    "REXX",
+    "MUMPS",
+    "PL/M",
+    "JOVIAL",
+    [
+     "CORAL 66",
+     "coral"
+    ],
+    "POP-2",
+    "Autocode",
+    "Plankalkul",
+    [
+     "FLOW-MATIC",
+     "flowmatic"
+    ],
+    [
+     "Emacs Lisp",
+     "elisp"
+    ],
+    "AutoLISP",
+    "Arc",
+    "Hy",
+    "ClojureScript",
+    "MoonScript",
+    "Fennel",
+    "Squirrel",
+    "AngelScript",
+    "Wren",
+    "Boo",
+    "Nemerle",
+    "Ceylon",
+    "Xtend",
+    "Gosu",
+    "Frege",
+    [
+     "F*",
+     "f star"
+    ],
+    "Dafny",
+    "ATS",
+    "Cyclone",
+    "Odin",
+    "Jai",
+    "Hare",
+    "C3",
+    "Vale",
+    "Roc",
+    "Unison",
+    "Koka",
+    "Grain",
+    "Inko",
+    "X10",
+    "Fortress",
+    [
+     "GNU Octave",
+     "octave"
+    ],
+    "Scilab",
+    "IDL",
+    "S",
+    "Maple",
+    "Maxima",
+    [
+     "Q sharp (Q#)",
+     "q sharp",
+     "qsharp"
+    ],
+    [
+     "OpenQASM",
+     "qasm"
+    ],
+    "Silq",
+    "Mercury",
+    "Datalog",
+    "Curry",
+    "Oz",
+    "LFE",
+    "Joy",
+    "Factor",
+    "PostScript",
+    "RPL",
+    "StarLogo",
+    "NetLogo",
+    "Squeak",
+    "Pharo",
+    "Newspeak",
+    "Lingo",
+    "HyperTalk",
+    "SuperCollider",
+    "Csound",
+    "ChucK",
+    "Processing",
+    "Arduino",
+    "MicroPython",
+    "Cython",
+    "Starlark",
+    "Nix",
+    "Zsh",
+    "Fish",
+    [
+     "KornShell",
+     "ksh"
+    ],
+    [
+     "C shell",
+     "csh"
+    ],
+    [
+     "Bourne shell",
+     "sh"
+    ],
+    "sed",
+    "Expect",
+    "JScript",
+    "LiveScript",
+    "ReScript",
+    [
+     "CFML",
+     "coldfusion"
+    ],
+    "X++",
+    "Structured Text",
+    [
+     "G-code",
+     "gcode"
+    ],
+    "SystemVerilog",
+    "Chisel",
+    "SystemC",
+    "Bluespec",
+    "Metal Shading Language",
+    "WGSL",
+    "Cg",
+    "SYCL",
+    "Halide",
+    "Vyper",
+    "Move",
+    "Cairo",
+    "Clarity",
+    "Michelson",
+    "Plutus",
+    "App Inventor",
+    "Small Basic",
+    "QuickBASIC",
+    "GW-BASIC",
+    "Sinclair BASIC",
+    "Commodore BASIC",
+    "Applesoft BASIC",
+    "Atari BASIC",
+    "Locomotive BASIC",
+    "STOS",
+    "PureBasic",
+    "FreeBASIC",
+    "DarkBASIC",
+    "True BASIC",
+    "PowerBASIC",
+    [
+     "Xojo",
+     "realbasic"
+    ],
+    "Liberty BASIC",
+    "COMAL",
+    "PILOT",
+    "Sather",
+    "Euclid",
+    "Mesa",
+    "CLU",
+    "Unicon",
+    "SPITBOL",
+    "BLISS",
+    "CPL",
+    "Limbo",
+    "Alef",
+    "Newsqueak",
+    "Genie",
+    "Objective-J",
+    "Caml",
+    "Hope",
+    "Dylan",
+    "Lasso",
+    "AutoHotkey",
+    "AutoIt",
+    "LotusScript",
+    "Power Fx",
+    "DAX",
+    "SPARQL",
+    "Cypher",
+    "GraphQL",
+    "XQuery",
+    "XSLT",
+    "PL/pgSQL",
+    "Esterel",
+    "Lustre",
+    "SPARK",
+    "Bend",
+    "Befunge",
+    "Piet",
+    "Chef",
+    "Shakespeare",
+    "INTERCAL",
+    "Ook!",
+    "ArnoldC",
+    "Rockstar",
+    "Emojicode",
+    "JSFuck",
+    "Algol 68",
+    "Simula 67",
+    [
+     "WebAssembly",
+     "wasm"
+    ]
    ]
   },
   {
@@ -1988,9 +2918,19 @@
     "Huawei",
     "Xiaomi",
     "OnePlus",
-    "Nokia",
-    "Motorola",
-    "Sony",
+    [
+     "Nokia",
+     "hmd nokia"
+    ],
+    [
+     "Motorola",
+     "moto"
+    ],
+    [
+     "Sony",
+     "xperia",
+     "sony xperia"
+    ],
     "Oppo",
     "Vivo",
     "Honor",
@@ -2000,7 +2940,11 @@
     "LG",
     "Nothing",
     "Fairphone",
-    "Asus",
+    [
+     "Asus",
+     "zenfone",
+     "rog phone"
+    ],
     "ZTE",
     "Alcatel",
     "Doro",
@@ -2012,7 +2956,10 @@
     "Meizu",
     "Lenovo",
     "TCL",
-    "Sharp",
+    [
+     "Sharp",
+     "aquos"
+    ],
     "Kyocera",
     "Fujitsu",
     [
@@ -2025,7 +2972,11 @@
     "Sony Ericsson",
     "Panasonic",
     "Wileyfox",
-    "Cat",
+    [
+     "Cat",
+     "caterpillar",
+     "cat phones"
+    ],
     "Ulefone",
     "Doogee",
     "Oukitel",
@@ -2058,7 +3009,10 @@
     "Kodak",
     "Yota",
     "Jolla",
-    "Purism",
+    [
+     "Purism",
+     "librem"
+    ],
     [
      "PinePhone",
      "pine64"
@@ -2074,7 +3028,104 @@
     "NEC",
     "Casio",
     "Vodafone",
-    "Orange"
+    "Orange",
+    [
+     "HMD",
+     "hmd global"
+    ],
+    "BenQ",
+    "BenQ-Siemens",
+    "Sagem",
+    "T-Mobile",
+    [
+     "O2",
+     "xda"
+    ],
+    "EE",
+    "Emporia",
+    "Binatone",
+    "Bush",
+    "Alba",
+    "Kazam",
+    "Kogan",
+    "Archos",
+    "Prestigio",
+    "Allview",
+    "Umidigi",
+    "Cubot",
+    "Elephone",
+    "Leagoo",
+    "Homtom",
+    "Bluboo",
+    "Hotwav",
+    "AGM",
+    "Land Rover Explore",
+    "Bullitt",
+    "Energizer",
+    "Meitu",
+    "Smartisan",
+    [
+     "LeEco",
+     "letv"
+    ],
+    "Hitachi",
+    "Sanyo",
+    "Mitsubishi",
+    "Balmuda",
+    "Pantech",
+    "Karbonn",
+    "Intex",
+    "Spice",
+    "YU",
+    [
+     "Jio",
+     "jiophone"
+    ],
+    "Xolo",
+    "Celkon",
+    "Symphony",
+    "Walton",
+    "QMobile",
+    "Cherry Mobile",
+    "MyPhone",
+    "Advan",
+    "Evercoss",
+    "Condor",
+    "Mobicel",
+    "Positivo",
+    "Multilaser",
+    "Lanix",
+    "BQ",
+    [
+     "Shift",
+     "shiftphone"
+    ],
+    "Volla",
+    "Murena",
+    "Mudita",
+    "Handspring",
+    [
+     "Danger",
+     "sidekick"
+    ],
+    "Polaroid",
+    "Yezz",
+    "OSOM",
+    "Sirin Labs",
+    "Nextbit",
+    "Obi Worldphone",
+    "Qtek",
+    "i-mate",
+    "Garmin-Asus",
+    "Benefon",
+    "Geeksphone",
+    "Openmoko",
+    "Neonode",
+    "Hammer",
+    [
+     "Nuu Mobile",
+     "nuu"
+    ]
    ]
   },
   {
@@ -2154,7 +3205,9 @@
     "Safari",
     [
      "Mozilla Firefox",
-     "firefox"
+     "firefox",
+     "phoenix",
+     "firebird"
     ],
     [
      "Microsoft Edge",
@@ -2162,12 +3215,18 @@
     ],
     [
      "Internet Explorer",
-     "ie"
+     "ie",
+     "microsoft internet explorer"
     ],
-    "Opera",
+    [
+     "Opera",
+     "opera one"
+    ],
     [
      "Netscape Navigator",
-     "netscape"
+     "netscape",
+     "netscape communicator",
+     "mosaic netscape"
     ],
     "Brave",
     "Vivaldi",
@@ -2213,7 +3272,10 @@
     "LibreWolf",
     "Mullvad Browser",
     "Floorp",
-    "Silk",
+    [
+     "Silk",
+     "amazon silk"
+    ],
     "QQ Browser",
     "360 Secure Browser",
     "Naver Whale",
@@ -2257,7 +3319,102 @@
     "Ghostery",
     "Min",
     "qutebrowser",
-    "Nyxt"
+    "Nyxt",
+    "Opera Neon",
+    "Opera Touch",
+    "Opera Coast",
+    "Opera Mobile",
+    "Sogou Explorer",
+    "Baidu Browser",
+    [
+     "Liebao",
+     "cheetah browser"
+    ],
+    "CM Browser",
+    [
+     "Mi Browser",
+     "xiaomi browser"
+    ],
+    "Huawei Browser",
+    "Vivo Browser",
+    "Phoenix Browser",
+    "APUS Browser",
+    "Ecosia Browser",
+    "Atom Browser",
+    "Sputnik",
+    "Cent Browser",
+    "Slimjet",
+    "Iridium",
+    "Colibri",
+    "Beaker Browser",
+    "Polypane",
+    "Sidekick",
+    "Wavebox",
+    "Shift",
+    "Ghost Browser",
+    "Blisk",
+    "Citrio",
+    "Fennec",
+    "Minimo",
+    "Skyfire",
+    "Bolt Browser",
+    "Openwave",
+    "NetFront",
+    "Obigo",
+    "Blazer",
+    [
+     "Pocket Internet Explorer",
+     "internet explorer mobile"
+    ],
+    "BlackBerry Browser",
+    "Nokia Browser",
+    "Steel",
+    "Galeon",
+    "Kazehakase",
+    "Arora",
+    "Rekonq",
+    "Uzbl",
+    "Surf",
+    "Luakit",
+    "Vimb",
+    "Otter Browser",
+    [
+     "Mozilla Application Suite",
+     "mozilla suite"
+    ],
+    "Spyglass Mosaic",
+    "Cello",
+    "ViolaWWW",
+    "Erwise",
+    "MidasWWW",
+    "Arena",
+    "Amaya",
+    "Cyberdog",
+    "Internet Explorer for Mac",
+    "Arachne",
+    "IBrowse",
+    "AWeb",
+    "Voyager",
+    "NetPositive",
+    "WebPositive",
+    "Oregano",
+    "Fresco",
+    "MSN Explorer",
+    "WebTV",
+    "Orbitum",
+    "Amigo",
+    "Via Browser",
+    "Lemur Browser",
+    "Bromite",
+    "Cromite",
+    "Mull",
+    "IronFox",
+    "Onion Browser",
+    "SigmaOS",
+    "Stack Browser",
+    "Mighty",
+    "Island",
+    "Opera Air"
    ]
   },
   {
@@ -2274,7 +3431,6 @@
     ],
     [
      "Yahoo!",
-     "yahoo",
      "yahoo search"
     ],
     "DuckDuckGo",
@@ -2314,10 +3470,16 @@
      "MSN Search",
      "msn"
     ],
-    "Live Search",
+    [
+     "Live Search",
+     "windows live search"
+    ],
     "Archie",
     "Veronica",
-    "AllTheWeb",
+    [
+     "AllTheWeb",
+     "fast search"
+    ],
     "Gigablast",
     "Teoma",
     "MetaCrawler",
@@ -2337,21 +3499,87 @@
     "GoTo.com",
     "Looksmart",
     "Galaxy",
-    "Yippy",
+    [
+     "Yippy",
+     "clusty"
+    ],
     "Info.com",
     "Rambler",
     "Petal Search",
     "Soso",
     "Shenma",
-    "Haosou",
+    [
+     "Haosou",
+     "360 search",
+     "so.com"
+    ],
     "Goo",
     "Ecocho",
     "Forestle",
     "OneSearch",
     "Marginalia",
-    "SearchGPT",
+    [
+     "SearchGPT",
+     "chatgpt search"
+    ],
     "ChaCha",
-    "Google Scholar"
+    "Google Scholar",
+    "Gibiru",
+    "Search Encrypt",
+    "Oscobo",
+    "Ekoru",
+    "OceanHero",
+    "Givero",
+    "Lilo",
+    "Elliot for Water",
+    "Ghostery Private Search",
+    "Exalead",
+    "Entireweb",
+    "Vivisimo",
+    "Aliweb",
+    "JumpStation",
+    "World Wide Web Worm",
+    "RBSE Spider",
+    "Hakia",
+    "Powerset",
+    "Wikia Search",
+    "Kosmix",
+    "Netscape Search",
+    "Ask Kids",
+    "KidRex",
+    "Kiddle",
+    "Swiggle",
+    "InfoSpace",
+    "Search.com",
+    "Mail.ru",
+    "Nate",
+    "Zum",
+    "Yahoo! Japan",
+    "Yaani",
+    "Fireball",
+    "Web.de",
+    "Search.ch",
+    "Virgilio",
+    "Voila",
+    "Andi",
+    "Phind",
+    "Komo",
+    "Microsoft Academic",
+    "Semantic Scholar",
+    "Direct Hit",
+    "Snap.com",
+    [
+     "A9.com",
+     "a9"
+    ],
+    "Accoona",
+    "Blinkx",
+    "Truveo",
+    "YaCy",
+    "Wiby",
+    "Stract",
+    "Open Text",
+    "Copernic"
    ]
   },
   {
@@ -2377,7 +3605,10 @@
      "watch"
     ],
     "AirPods",
-    "Apple TV",
+    [
+     "Apple TV",
+     "apple tv 4k"
+    ],
     "HomePod",
     "AirTag",
     [
@@ -2402,25 +3633,35 @@
     "AirPods Pro",
     "AirPods Max",
     "HomePod mini",
+    "Macintosh",
     [
-     "Macintosh",
+     "Macintosh Classic",
      "mac classic"
     ],
     "iBook",
     "PowerBook",
-    "Power Mac",
+    [
+     "Power Mac",
+     "power macintosh"
+    ],
     "eMac",
     "Xserve",
-    "Newton",
-    "Lisa",
+    [
+     "Newton",
+     "messagepad",
+     "newton messagepad"
+    ],
+    [
+     "Lisa",
+     "apple lisa"
+    ],
     [
      "Apple I",
      "apple 1"
     ],
     [
      "Apple II",
-     "apple 2",
-     "apple ii"
+     "apple 2"
     ],
     [
      "Apple III",
@@ -2428,7 +3669,10 @@
     ],
     "AirPort",
     "Time Capsule",
-    "Pippin",
+    [
+     "Pippin",
+     "bandai pippin"
+    ],
     "QuickTake",
     "iSight",
     "Studio Display",
@@ -2446,11 +3690,53 @@
     "EarPods",
     "Smart Keyboard",
     "Apple Remote",
+    "Siri Remote",
     "Mighty Mouse",
     "LaserWriter",
     "StyleWriter",
     "ImageWriter",
-    "Thunderbolt Display"
+    "Thunderbolt Display",
+    "iMac Pro",
+    "Apple Watch Ultra",
+    "Apple Watch SE",
+    "Twentieth Anniversary Macintosh",
+    "Macintosh Portable",
+    "PowerBook Duo",
+    "Macintosh SE",
+    "Macintosh Plus",
+    "Macintosh 128K",
+    "Macintosh II",
+    "Macintosh XL",
+    "iMac G3",
+    "iMac G4",
+    "Power Mac G5",
+    "Apple IIe",
+    "Apple IIc",
+    "Apple IIGS",
+    [
+     "eMate 300",
+     "emate"
+    ],
+    "AirPort Express",
+    "AirPort Extreme",
+    "Apple Pro Speakers",
+    "Apple Keyboard",
+    "Apple Mouse",
+    "MagSafe Charger",
+    "MagSafe Battery Pack",
+    "Smart Battery Case",
+    "Smart Cover",
+    "Smart Folio",
+    "Disk II",
+    "ProFile",
+    "Apple Network Server",
+    "Workgroup Server",
+    "PowerCD",
+    "AppleDesign Powered Speakers",
+    "Apple Interactive Television Box",
+    "Apple Extended Keyboard",
+    "iPhone Pro",
+    "iPhone Plus"
    ]
   },
   {
@@ -2478,12 +3764,19 @@
     "Google Calendar",
     "Google Meet",
     "Pixel",
-    "Google Play",
+    [
+     "Google Play",
+     "google play store",
+     "play store"
+    ],
     [
      "Google Assistant",
      "assistant"
     ],
-    "Gemini",
+    [
+     "Gemini",
+     "google gemini"
+    ],
     [
      "Bard",
      "google bard"
@@ -2502,7 +3795,11 @@
     "Google Forms",
     "Google Keep",
     "Google Lens",
-    "Google Pay",
+    [
+     "Google Pay",
+     "android pay",
+     "google tez"
+    ],
     "Google Wallet",
     "Google Analytics",
     [
@@ -2513,14 +3810,23 @@
     "Google Cloud",
     "Waze",
     "Fitbit",
-    "Google Fi",
+    [
+     "Google Fi",
+     "project fi"
+    ],
     "Google Fiber",
     "YouTube Music",
-    "Google Play Music",
+    [
+     "Google Play Music",
+     "google music"
+    ],
     "Google+",
     "Google Reader",
     "Google Glass",
-    "Stadia",
+    [
+     "Stadia",
+     "google stadia"
+    ],
     "Google Hangouts",
     "Google Chat",
     "Google Duo",
@@ -2543,9 +3849,16 @@
     "Google Voice",
     "Google Tasks",
     "Google Workspace",
-    "G Suite",
+    [
+     "G Suite",
+     "google apps for work"
+    ],
     "Google One",
-    "Google Shopping",
+    [
+     "Google Shopping",
+     "froogle",
+     "google product search"
+    ],
     "Google Podcasts",
     "Google Health",
     "Google Desktop",
@@ -2565,12 +3878,195 @@
     "Daydream",
     "Cardboard",
     "Google Inbox",
-    "Nexus",
+    [
+     "Nexus",
+     "google nexus"
+    ],
     "Google Answers",
     "Google Base",
     "Dodgeball",
     "Jaiku",
-    "Knol"
+    "Knol",
+    "Google Messages",
+    "Google Phone",
+    "Google Contacts",
+    [
+     "Google Search Console",
+     "webmaster tools"
+    ],
+    "Google Tag Manager",
+    [
+     "Google Business Profile",
+     "google my business"
+    ],
+    "Google Merchant Center",
+    "Google Optimize",
+    [
+     "Looker Studio",
+     "google data studio"
+    ],
+    "Looker",
+    "BigQuery",
+    "Google App Engine",
+    "Kubernetes",
+    [
+     "Go",
+     "golang"
+    ],
+    "Dart",
+    "Flutter",
+    "Angular",
+    "Android Studio",
+    "Chrome Web Store",
+    "Chrome Remote Desktop",
+    [
+     "Google SketchUp",
+     "sketchup"
+    ],
+    "Google Code",
+    "Google Code Jam",
+    "Google Summer of Code",
+    "Google Lively",
+    "Google Notebook",
+    "Google Page Creator",
+    "Google Catalogs",
+    "Google Labs",
+    "Google Squared",
+    "Google PowerMeter",
+    "Google Latitude",
+    "Google Pack",
+    "Google Gears",
+    "Google Web Accelerator",
+    "Google Friend Connect",
+    "iGoogle",
+    "Google Bookmarks",
+    "Google Sidewiki",
+    "Google Moderator",
+    "Google Spaces",
+    [
+     "Google Talk",
+     "gtalk"
+    ],
+    "Nexus Q",
+    "Nexus Player",
+    "Pixelbook",
+    "Pixel Watch",
+    "Pixel Buds",
+    "Pixel Tablet",
+    "Pixel Slate",
+    "Chromebook Pixel",
+    "Nest Hub",
+    "Nest Thermostat",
+    "Nest Cam",
+    "Nest Doorbell",
+    "Nest Protect",
+    "Nest Wifi",
+    "Dropcam",
+    "Google Home Mini",
+    "Google Clips",
+    "Project Ara",
+    [
+     "Loon",
+     "project loon"
+    ],
+    "Waymo",
+    "Wing",
+    "Google Goggles",
+    "Google Now",
+    "Google Checkout",
+    "Google Play Movies",
+    "Google Play Books",
+    "Google Play Games",
+    "Google Play Newsstand",
+    "Google Currents",
+    "Google Expeditions",
+    "Tilt Brush",
+    "Google Poly",
+    "Google Sky",
+    "Google Moon",
+    "Google Mars",
+    "Google Earth Engine",
+    "Google My Maps",
+    "Google Transit",
+    "Google Ngram Viewer",
+    "Google Patents",
+    "Google Public DNS",
+    "Google Domains",
+    "Google Offers",
+    "Google Express",
+    "Google Hotels",
+    "Google Travel",
+    "Google Trips",
+    "Google Blog Search",
+    "Google Input Tools",
+    [
+     "Gboard",
+     "google keyboard"
+    ],
+    "Google Family Link",
+    "Find My Device",
+    "Android Auto",
+    "Android TV",
+    [
+     "Wear OS",
+     "android wear"
+    ],
+    "Fuchsia",
+    "Google Cast",
+    [
+     "YouTube Premium",
+     "youtube red"
+    ],
+    "YouTube Studio",
+    "YouTube Shorts",
+    "YouTube Gaming",
+    "Google Station",
+    "Snapseed",
+    "Nik Collection",
+    "Panoramio",
+    "Google Image Labeler",
+    "Google Correlate",
+    "Google Insights for Search",
+    "Google Dictionary",
+    "Google Translator Toolkit",
+    "Imagen",
+    "Veo",
+    "Google AI Studio",
+    "Vertex AI",
+    "Teachable Machine",
+    "Kaggle",
+    "Google Cloud Storage",
+    "Google Compute Engine",
+    "Google Charts",
+    "reCAPTCHA",
+    "Google Safe Browsing",
+    "Titan Security Key",
+    "Google Password Manager",
+    "Chrome Frame",
+    "Google Bulletin",
+    "Google Hire",
+    "Google Jump",
+    [
+     "goo.gl",
+     "google url shortener"
+    ],
+    "Google Fusion Tables",
+    "Google Cloud Print",
+    "Songza",
+    "AdMob",
+    "DoubleClick",
+    "Google Marketing Platform",
+    "Google Ad Manager",
+    [
+     "Google Surveys",
+     "google consumer surveys"
+    ],
+    [
+     "Files by Google",
+     "google files"
+    ],
+    "Google Go",
+    "YouTube Go"
    ]
   },
   {
@@ -2636,9 +4132,10 @@
      "Forms",
      "microsoft forms"
     ],
+    "SharePoint Designer",
     [
-     "SharePoint Designer",
-     "sharepoint"
+     "SharePoint",
+     "microsoft sharepoint"
     ],
     [
      "Groove",
@@ -2706,7 +4203,54 @@
     "Kaizala",
     "Live Meeting",
     "Communicator",
-    "Equation Editor"
+    "Equation Editor",
+    [
+     "Microsoft Graph",
+     "ms graph"
+    ],
+    "WordArt",
+    [
+     "Microsoft Organization Chart",
+     "org chart"
+    ],
+    [
+     "Photo Editor",
+     "microsoft photo editor"
+    ],
+    [
+     "Office Accounting",
+     "microsoft office accounting",
+     "small business accounting"
+    ],
+    "Business Contact Manager",
+    [
+     "Document Imaging",
+     "microsoft office document imaging"
+    ],
+    [
+     "Office Mix",
+     "microsoft office mix"
+    ],
+    "Office Remote",
+    [
+     "Vizact",
+     "microsoft vizact"
+    ],
+    [
+     "MapPoint",
+     "microsoft mappoint"
+    ],
+    "Office Shortcut Bar",
+    "Microsoft Office Manager",
+    [
+     "StaffHub",
+     "microsoft staffhub"
+    ],
+    [
+     "Live Workspace",
+     "office live workspace"
+    ],
+    "Office Live"
    ]
   },
   {
@@ -2825,6 +4369,14 @@
     [
      "Copilot key",
      "copilot"
+    ],
+    [
+     "Function keys",
+     "f keys"
+    ],
+    [
+     "Numpad Enter",
+     "keypad enter"
     ]
    ]
   },
@@ -2840,7 +4392,10 @@
      "microsoft solitaire",
      "klondike"
     ],
-    "Minesweeper",
+    [
+     "Minesweeper",
+     "microsoft minesweeper"
+    ],
     [
      "FreeCell",
      "free cell"
@@ -2854,10 +4409,17 @@
      "3D Pinball Space Cadet",
      "pinball",
      "space cadet",
-     "3d pinball"
+     "3d pinball",
+     "windows pinball",
+     "full tilt pinball"
     ],
     "Reversi",
-    "Purble Place",
+    [
+     "Purble Place",
+     "comfy cakes",
+     "purble pairs",
+     "purble shop"
+    ],
     "Chess Titans",
     "Mahjong Titans",
     "InkBall",
@@ -2880,7 +4442,10 @@
     [
      "Candy Crush Saga",
      "candy crush"
-    ]
+    ],
+    "Candy Crush Soda Saga",
+    "Bubble Witch 3 Saga",
+    "March of Empires"
    ]
   },
   {
@@ -2974,7 +4539,38 @@
     "Exabit",
     "Zettabit",
     "Yottabit",
-    "Crumb"
+    "Crumb",
+    "Tebibit",
+    "Pebibit",
+    "Exbibit",
+    "Zebibit",
+    "Yobibit",
+    "Ronnabit",
+    "Quettabit",
+    "Shannon",
+    [
+     "Nat",
+     "nit",
+     "natural unit of information"
+    ],
+    [
+     "Hartley",
+     "ban",
+     "dit"
+    ],
+    [
+     "Doubleword",
+     "dword",
+     "double word"
+    ],
+    [
+     "Quadword",
+     "qword"
+    ],
+    [
+     "Halfword",
+     "half word"
+    ]
    ]
   },
   {
@@ -2986,10 +4582,15 @@
    "answers": [
     "EE",
     "O2",
-    "Vodafone",
+    [
+     "Vodafone",
+     "racal vodafone"
+    ],
     [
      "Three",
-     "3"
+     "3",
+     "hutchison 3g",
+     "3 uk"
     ],
     "Tesco Mobile",
     "giffgaff",
@@ -3001,7 +4602,11 @@
     "Lycamobile",
     "Smarty",
     "Voxi",
-    "Orange",
+    [
+     "Orange",
+     "orange uk",
+     "hutchison orange"
+    ],
     "T-Mobile",
     [
      "One2One",
@@ -3027,7 +4632,15 @@
     "Co-op Mobile",
     "Delight Mobile",
     "Now Mobile",
-    "Vectone"
+    "Vectone",
+    "TalkTalk Mobile",
+    "Fresh Mobile",
+    [
+     "The People's Operator",
+     "tpo",
+     "tpo mobile"
+    ],
+    "Age UK Mobile"
    ]
   },
   {
@@ -3062,7 +4675,8 @@
     ".asia",
     ".cat",
     ".post",
-    ".xxx"
+    ".xxx",
+    ".nato"
    ],
    "deep": true
   },
@@ -3449,10 +5063,15 @@
      "rhel",
      "red hat"
     ],
-    "CentOS",
+    [
+     "CentOS",
+     "centos stream"
+    ],
     [
      "openSUSE",
-     "opensuse"
+     "opensuse tumbleweed",
+     "opensuse leap",
+     "tumbleweed"
     ],
     [
      "SUSE Linux Enterprise",
@@ -3472,7 +5091,6 @@
     ],
     [
      "Pop!_OS",
-     "pop os",
      "popos"
     ],
     [
@@ -3602,15 +5220,150 @@
     "ALT Linux",
     "ROSA Linux",
     "Pardus",
-    [
-     "Kylin",
-     "ubuntu kylin"
-    ],
+    "Kylin",
+    "Ubuntu Kylin",
     "Tizen",
     "Sailfish OS",
     "OpenWrt",
     "Omarchy",
-    "Vanilla OS"
+    "Vanilla OS",
+    "Ubuntu Budgie",
+    "Ubuntu Unity",
+    "Ubuntu Cinnamon",
+    "Funtoo",
+    "Calculate Linux",
+    "Redcore Linux",
+    "Exherbo",
+    "CRUX",
+    "KISS Linux",
+    "postmarketOS",
+    "Ubuntu Touch",
+    [
+     "ChromiumOS",
+     "chromium os"
+    ],
+    "Fedora CoreOS",
+    [
+     "CoreOS",
+     "container linux"
+    ],
+    [
+     "Flatcar Container Linux",
+     "flatcar"
+    ],
+    "RancherOS",
+    "Talos Linux",
+    "Bottlerocket",
+    "Photon OS",
+    "Wolfi",
+    "Ubuntu Core",
+    "Pentoo",
+    "BackBox",
+    "CAINE",
+    "DEFT Linux",
+    "REMnux",
+    "Security Onion",
+    "Kodachi",
+    [
+     "Linux Mint Debian Edition",
+     "lmde"
+    ],
+    "Feren OS",
+    "KaOS",
+    "Netrunner",
+    [
+     "UOS",
+     "deepin uos"
+    ],
+    "openKylin",
+    "NeoKylin",
+    "Red Flag Linux",
+    "EulerOS",
+    "openEuler",
+    "Anolis OS",
+    "OpenCloudOS",
+    "EuroLinux",
+    "Springdale Linux",
+    "ClearOS",
+    "OpenMandriva",
+    "Salix",
+    "Zenwalk",
+    "Vector Linux",
+    "Absolute Linux",
+    "FatDog64",
+    "EasyOS",
+    "LXLE",
+    "Q4OS",
+    [
+     "SparkyLinux",
+     "sparky linux"
+    ],
+    "BunsenLabs",
+    "ArchLabs",
+    "ArcoLinux",
+    "Archcraft",
+    "Parabola",
+    "Hyperbola",
+    "blendOS",
+    "RebornOS",
+    "Antergos",
+    "Bedrock Linux",
+    [
+     "openSUSE MicroOS",
+     "microos"
+    ],
+    "ChimeraOS",
+    "AV Linux",
+    [
+     "Debian Edu",
+     "skolelinux"
+    ],
+    "DietPi",
+    "Armbian",
+    "OSMC",
+    "LibreELEC",
+    "OpenELEC",
+    "RetroPie",
+    "Batocera",
+    "Recalbox",
+    "Lakka",
+    "DD-WRT",
+    "Tomato",
+    "webOS",
+    "MeeGo",
+    "Maemo",
+    "Moblin",
+    "Mobian",
+    "gNewSense",
+    "Dragora",
+    "Freespire",
+    "Yggdrasil Linux",
+    [
+     "Softlanding Linux System",
+     "sls"
+    ],
+    "MCC Interim Linux",
+    "Kanotix",
+    [
+     "MEPIS",
+     "simplymepis"
+    ],
+    [
+     "aptosid",
+     "sidux"
+    ],
+    "Elive",
+    "Pear OS",
+    "Endless OS",
+    "Rhino Linux",
+    "Regolith",
+    "Ultramarine Linux",
+    "Aurora",
+    "Bluefin",
+    [
+     "Kinoite",
+     "fedora kinoite"
+    ]
    ],
    "deep": true
   },
@@ -3649,13 +5402,9 @@
     ],
     [
      "Dolce & Gabbana",
-     "dolce and gabbana",
      "d&g"
     ],
-    [
-     "Hermès",
-     "hermes"
-    ],
+    "Hermès",
     "Givenchy",
     "Balenciaga",
     "Fendi",
@@ -3692,15 +5441,9 @@
     "Moschino",
     "Miu Miu",
     "Bottega Veneta",
-    [
-     "Céline",
-     "celine"
-    ],
+    "Céline",
     "Loewe",
-    [
-     "Chloé",
-     "chloe"
-    ],
+    "Chloé",
     "Balmain",
     "Kenzo",
     "Lanvin",
@@ -3722,14 +5465,11 @@
      "ferragamo"
     ],
     "Tom Ford",
-    [
-     "Donna Karan",
-     "dkny"
-    ],
+    "Donna Karan",
+    "DKNY",
     [
      "Diane von Fürstenberg",
-     "dvf",
-     "diane von furstenberg"
+     "dvf"
     ],
     "Oscar de la Renta",
     "Carolina Herrera",
@@ -3747,10 +5487,7 @@
      "Emilio Pucci",
      "pucci"
     ],
-    [
-     "Tod's",
-     "tods"
-    ],
+    "Tod's",
     "Brioni",
     [
      "Zegna",
@@ -3767,7 +5504,6 @@
     ],
     [
      "Comme des Garçons",
-     "comme des garcons",
      "cdg"
     ],
     "Issey Miyake",
@@ -3802,20 +5538,14 @@
     "Barbour",
     "Belstaff",
     "Ozwald Boateng",
-    [
-     "Gieves & Hawkes",
-     "gieves and hawkes"
-    ],
+    "Gieves & Hawkes",
     "Anya Hindmarch",
     "Jacquemus",
     [
      "Ami Paris",
      "ami"
     ],
-    [
-     "Courrèges",
-     "courreges"
-    ],
+    "Courrèges",
     "Schiaparelli",
     "Pierre Cardin",
     "Hardy Amies",
@@ -3857,7 +5587,238 @@
     "Wales Bonner",
     "Molly Goddard",
     "Richard Quinn",
-    "Craig Green"
+    "Craig Green",
+    [
+     "Bvlgari",
+     "bulgari"
+    ],
+    "Rochas",
+    "Carven",
+    [
+     "Patou",
+     "jean patou"
+    ],
+    "Guy Laroche",
+    [
+     "Vionnet",
+     "madeleine vionnet"
+    ],
+    [
+     "Poiret",
+     "paul poiret"
+    ],
+    [
+     "House of Worth",
+     "worth",
+     "charles frederick worth"
+    ],
+    "Mainbocher",
+    "Jacques Fath",
+    [
+     "Christian Lacroix",
+     "lacroix"
+    ],
+    "Claude Montana",
+    [
+     "Emanuel Ungaro",
+     "ungaro"
+    ],
+    "Louis Feraud",
+    "Ted Lapidus",
+    "Agnes b.",
+    [
+     "A.P.C.",
+     "apc"
+    ],
+    "Maison Kitsune",
+    "Zadig & Voltaire",
+    "The Kooples",
+    "Lemaire",
+    "Haider Ackermann",
+    "Ann Demeulemeester",
+    "Dries Van Noten",
+    "Raf Simons",
+    "Walter Van Beirendonck",
+    "Dirk Bikkembergs",
+    [
+     "3.1 Phillip Lim",
+     "phillip lim"
+    ],
+    "Jason Wu",
+    "Prabal Gurung",
+    "Derek Lam",
+    "Anna Sui",
+    "Betsey Johnson",
+    "Badgley Mischka",
+    "Marchesa",
+    "Reem Acra",
+    "Monique Lhuillier",
+    "Zac Posen",
+    "Halston",
+    "Bill Blass",
+    "Geoffrey Beene",
+    "Norman Norell",
+    "Perry Ellis",
+    "Isaac Mizrahi",
+    "Kenneth Cole",
+    "Rag & Bone",
+    "Theory",
+    "Vince",
+    "Altuzarra",
+    "The Row",
+    "Khaite",
+    "Gabriela Hearst",
+    "Brandon Maxwell",
+    "Christopher John Rogers",
+    "Pyer Moss",
+    "Telfar",
+    "Hood By Air",
+    "Heron Preston",
+    "Rhude",
+    "Vetements",
+    "Gosha Rubchinskiy",
+    "A-Cold-Wall*",
+    "Martine Rose",
+    "Matthew Williamson",
+    "Julien Macdonald",
+    "Roland Mouret",
+    "Roksanda",
+    "Peter Pilotto",
+    "Preen",
+    "House of Holland",
+    "Giles Deacon",
+    "Gareth Pugh",
+    "Zandra Rhodes",
+    "Ossie Clark",
+    "Biba",
+    "Mary Quant",
+    "Jean Muir",
+    "Bruce Oldfield",
+    "Caroline Charles",
+    "Catherine Walker",
+    "Bellville Sassoon",
+    [
+     "Norman Hartnell",
+     "hartnell"
+    ],
+    [
+     "John Galliano",
+     "galliano"
+    ],
+    [
+     "Hussein Chalayan",
+     "chalayan"
+    ],
+    "Jasper Conran",
+    "Amanda Wakeley",
+    "Joseph",
+    "Nicole Farhi",
+    "Margaret Howell",
+    "Betty Jackson",
+    "Katharine Hamnett",
+    [
+     "Pringle of Scotland",
+     "pringle"
+    ],
+    "Daks",
+    "Turnbull & Asser",
+    "Huntsman",
+    "Henry Poole",
+    "Kilgour",
+    "Richard James",
+    "Lulu Guinness",
+    "Charlotte Olympia",
+    "Sophia Webster",
+    "Rupert Sanderson",
+    "Nicholas Kirkwood",
+    "Emilia Wickstead",
+    "Self-Portrait",
+    "Kiton",
+    "Canali",
+    "Corneliani",
+    "MSGM",
+    "Blumarine",
+    "Alberta Ferretti",
+    "Ermanno Scervino",
+    "Elisabetta Franchi",
+    [
+     "Gianfranco Ferre",
+     "ferre"
+    ],
+    "Trussardi",
+    "Iceberg",
+    "Fiorucci",
+    "Krizia",
+    "Laura Biagiotti",
+    "Byblos",
+    "Furla",
+    "Valextra",
+    "Sergio Rossi",
+    "Giuseppe Zanotti",
+    "Rene Caovilla",
+    "Aquazzura",
+    "Gianvito Rossi",
+    "Herno",
+    "Delpozo",
+    "Escada",
+    "MCM",
+    "JOOP!",
+    "Strenesse",
+    [
+     "Karl Lagerfeld",
+     "lagerfeld"
+    ],
+    "Sacai",
+    "Undercover",
+    "Junya Watanabe",
+    "Hanae Mori",
+    "Kansai Yamamoto",
+    "Tsumori Chisato",
+    "Visvim",
+    [
+     "A Bathing Ape",
+     "bape"
+    ],
+    "Akris",
+    "Elie Saab",
+    "Zuhair Murad",
+    "Rabih Kayrouz",
+    "Georges Hobeika",
+    "Ralph & Russo",
+    "Sabyasachi",
+    "Manish Malhotra",
+    "Tarun Tahiliani",
+    "Guo Pei",
+    "Shiatzy Chen",
+    "Iris van Herpen",
+    "Viktor & Rolf",
+    "Coperni",
+    "Marine Serre",
+    "Y/Project",
+    "Koche",
+    "Ludovic de Saint Sernin",
+    "Goyard",
+    "Moynat",
+    "Delvaux",
+    "Longchamp",
+    "Lancel",
+    "Berluti",
+    "Charvet",
+    "John Lobb",
+    "Roger Vivier",
+    "Stuart Weitzman",
+    "Jeremy Scott",
+    "Rodarte",
+    "Chrome Hearts",
+    "Gallery Dept",
+    "Wooyoungmi",
+    "Ader Error",
+    "Toteme",
+    "Nanushka",
+    "By Malene Birger",
+    "Stine Goya",
+    "Cecilie Bahnsen",
+    "Filippa K"
    ]
   },
   {
@@ -3868,14 +5829,20 @@
    "text": "Name a brand of trainers",
    "answers": [
     "Nike",
-    "Adidas",
+    [
+     "Adidas",
+     "adidas originals"
+    ],
     "Puma",
     "Reebok",
     "New Balance",
     "Converse",
     "Vans",
     "Asics",
-    "Skechers",
+    [
+     "Skechers",
+     "sketchers"
+    ],
     "Fila",
     "Le Coq Sportif",
     "Diadora",
@@ -3898,7 +5865,8 @@
     "Lacoste",
     [
      "Onitsuka Tiger",
-     "tiger"
+     "tiger",
+     "asics tiger"
     ],
     "Umbro",
     "Kappa",
@@ -3918,7 +5886,10 @@
     "Airwalk",
     "Fred Perry",
     "Superga",
-    "Keds",
+    [
+     "Keds",
+     "pro-keds"
+    ],
     "Hummel",
     "Joma",
     "Lotto",
@@ -3992,7 +5963,86 @@
     "Norda",
     "Keen",
     "Columbia",
-    "The North Face"
+    "The North Face",
+    "Starter",
+    "Sergio Tacchini",
+    "Etonic",
+    "Avia",
+    "Valentino",
+    "Dior",
+    [
+     "Saint Laurent",
+     "ysl"
+    ],
+    "Givenchy",
+    "Versace",
+    "Lanvin",
+    [
+     "Maison Margiela",
+     "margiela"
+    ],
+    "Filling Pieces",
+    "Koio",
+    "Oliver Cabell",
+    "Greats",
+    "Clae",
+    "Garment Project",
+    "Kenzo",
+    "Moncler",
+    "Burberry",
+    [
+     "Hugo Boss",
+     "boss"
+    ],
+    [
+     "Armani",
+     "emporio armani",
+     "ea7"
+    ],
+    "Michael Kors",
+    "Calvin Klein",
+    "Tommy Hilfiger",
+    [
+     "Ralph Lauren",
+     "polo ralph lauren"
+    ],
+    "Ted Baker",
+    "Original Penguin",
+    "Ben Sherman",
+    "Timberland",
+    "La Sportiva",
+    "Scarpa",
+    "Arc'teryx",
+    "Topo Athletic",
+    "Newton Running",
+    "Vivobarefoot",
+    "Xero Shoes",
+    "Erke",
+    "Kalenji",
+    "Everlast",
+    "Donnay",
+    "Troop",
+    "PF Flyers",
+    "es",
+    "Circa",
+    "Adio",
+    "DVS",
+    "Fallen",
+    "Ecoalf",
+    "Kelme",
+    "Munich",
+    "Victoria",
+    "Palladium",
+    "Ash",
+    "Hogan",
+    "Philippe Model",
+    "P448",
+    "Premiata",
+    [
+     "APL",
+     "athletic propulsion labs"
+    ],
+    "Diesel"
    ]
   },
   {
@@ -4007,10 +6057,13 @@
     [
      "Marks & Spencer",
      "m&s",
-     "marks and spencer",
      "marks"
     ],
-    "H&M",
+    [
+     "H&M",
+     "hennes",
+     "hennes and mauritz"
+    ],
     "Zara",
     "River Island",
     "New Look",
@@ -4022,7 +6075,9 @@
     "Dorothy Perkins",
     [
      "Burton",
-     "burtons"
+     "burtons",
+     "burton menswear",
+     "montague burton"
     ],
     "Miss Selfridge",
     "Wallis",
@@ -4038,7 +6093,10 @@
     "TK Maxx",
     "Matalan",
     "Peacocks",
-    "Bonmarché",
+    [
+     "Bonmarché",
+     "bon marche"
+    ],
     "Jack Wills",
     "Superdry",
     "Hollister",
@@ -4052,7 +6110,10 @@
     "Oasis",
     "Warehouse",
     "Principles",
-    "Richards",
+    [
+     "Richards",
+     "richard shops"
+    ],
     "Etam",
     "Jane Norman",
     "Chelsea Girl",
@@ -4088,8 +6149,14 @@
     "Sports Direct",
     "USC",
     "F&F",
-    "George",
-    "Tu",
+    [
+     "George",
+     "george at asda"
+    ],
+    [
+     "Tu",
+     "tu clothing"
+    ],
     "Pep&Co",
     "Mountain Warehouse",
     "Seasalt",
@@ -4121,7 +6188,111 @@
     "Sandro",
     "Maje",
     "AllSaints",
-    "American Eagle"
+    "American Eagle",
+    "Ann Summers",
+    "La Senza",
+    "Bravissimo",
+    "Boux Avenue",
+    "Victoria's Secret",
+    "Hunkemoller",
+    "Forever 21",
+    "Banana Republic",
+    "American Apparel",
+    "Jack & Jones",
+    "Only",
+    "Vero Moda",
+    "Desigual",
+    "Ben Sherman",
+    "Original Penguin",
+    "Pretty Green",
+    "Animal",
+    "Quiksilver",
+    "O'Neill",
+    "Saltrock",
+    "Weird Fish",
+    "Joe Browns",
+    "Crew Clothing",
+    "Regatta",
+    "Trespass",
+    "Blacks",
+    "Millets",
+    "Go Outdoors",
+    "Cotswold Outdoor",
+    "Sweaty Betty",
+    "Lululemon",
+    "Gymshark",
+    "Lucy & Yak",
+    "LK Bennett",
+    "Planet",
+    "Windsmoor",
+    "Precis Petite",
+    "Viyella",
+    "Alexon",
+    "Eastex",
+    "Dash",
+    "Kaliko",
+    "Country Casuals",
+    "Jacques Vert",
+    "East",
+    "Miss Sixty",
+    "Morgan",
+    "Kookai",
+    [
+     "Tammy",
+     "tammy girl"
+    ],
+    [
+     "Adams",
+     "adams kids"
+    ],
+    "Pumpkin Patch",
+    "Racing Green",
+    "Hawkshead",
+    "Hawes & Curtis",
+    [
+     "Thomas Pink",
+     "pink"
+    ],
+    "Suitsupply",
+    "Slaters",
+    "Ciro Citterio",
+    "Cult",
+    "Jean Machine",
+    [
+     "Foster Brothers",
+     "fosters"
+    ],
+    [
+     "John Collier",
+     "fifty shilling tailors"
+    ],
+    "Hepworths",
+    "Dunn & Co",
+    "Horne Brothers",
+    "Jackson the Tailor",
+    "Lord John",
+    "Take Six",
+    "Biba",
+    "Peter Robinson",
+    "Footasylum",
+    "Flannels",
+    "Monki",
+    "Reserved",
+    [
+     "Dunnes Stores",
+     "dunnes"
+    ],
+    "Mint Velvet",
+    "Oliver Bonas",
+    "Anthropologie",
+    "Free People",
+    "Claudie Pierlot",
+    "The Kooples",
+    "Zadig & Voltaire",
+    "Toast",
+    "Me+Em",
+    "Kew",
+    "Size?"
    ]
   },
   {
@@ -4165,13 +6336,14 @@
     [
      "Mac",
      "mackintosh",
-     "macintosh",
-     "raincoat"
+     "macintosh"
     ],
+    "Raincoat",
     [
      "Puffer jacket",
      "puffer",
-     "puffa"
+     "puffa",
+     "puffer coat"
     ],
     [
      "Gilet",
@@ -4180,20 +6352,29 @@
     ],
     "Overcoat",
     "Crombie",
-    "Harrington jacket",
+    [
+     "Harrington jacket",
+     "golf jacket",
+     "baracuta",
+     "g9"
+    ],
     "Donkey jacket",
     [
      "Biker jacket",
-     "leather jacket",
      "motorcycle jacket",
-     "moto jacket"
+     "moto jacket",
+     "perfecto"
     ],
+    "Leather jacket",
     [
      "Denim jacket",
      "jean jacket",
      "trucker jacket"
     ],
-    "Fleece",
+    [
+     "Fleece",
+     "fleece jacket"
+    ],
     [
      "Windbreaker",
      "windcheater"
@@ -4206,11 +6387,17 @@
     ],
     "Tailcoat",
     "Frock coat",
-    "Morning coat",
+    [
+     "Morning coat",
+     "cutaway"
+    ],
     [
      "Waxed jacket",
-     "barbour",
      "wax jacket"
+    ],
+    [
+     "Barbour jacket",
+     "barbour"
     ],
     "Field jacket",
     "Norfolk jacket",
@@ -4242,6 +6429,10 @@
     "Afghan coat",
     "Teddy coat",
     "Fur coat",
+    [
+     "Mink coat",
+     "mink"
+    ],
     "Ski jacket",
     "Softshell",
     "Quilted jacket",
@@ -4268,7 +6459,11 @@
     "Hunting jacket",
     "Haori",
     "Pac-a-mac",
-    "Rain jacket",
+    [
+     "Rain jacket",
+     "waterproof",
+     "waterproof jacket"
+    ],
     "Down jacket",
     "Camel coat",
     "Covert coat",
@@ -4280,9 +6475,16 @@
     "Military jacket",
     "Combat jacket",
     "Utility jacket",
-    "Track jacket",
+    [
+     "Track jacket",
+     "tracksuit top",
+     "tracksuit jacket"
+    ],
     "Coach jacket",
-    "Fishtail parka",
+    [
+     "Fishtail parka",
+     "mod parka"
+    ],
     "Snorkel parka",
     "Bridge coat",
     "Cloak",
@@ -4297,19 +6499,116 @@
     "Cropped jacket",
     "Kimono jacket",
     "Monkey jacket",
-    "Mao jacket",
+    [
+     "Mao jacket",
+     "zhongshan suit"
+    ],
     "Chanel jacket",
-    "Racer jacket",
-    "Sherpa jacket",
+    [
+     "Racer jacket",
+     "cafe racer jacket"
+    ],
+    [
+     "Sherpa jacket",
+     "borg jacket"
+    ],
     "Gore-Tex jacket",
     "Hardshell",
     "Mountain jacket",
     "Overshirt",
+    "Prince Charlie jacket",
+    "Argyll jacket",
+    "Duvet coat",
+    "Happi coat",
+    "Hanten",
+    "Chapan",
+    "Chokha",
+    "Burnous",
+    "Sherwani",
+    "Achkan",
     [
-     "Prince Charlie jacket",
-     "argyll jacket"
+     "Bandhgala",
+     "jodhpuri coat",
+     "jodhpuri"
     ],
-    "Duvet coat"
+    "Mandarin jacket",
+    "Tulup",
+    "Telogreika",
+    "Bekesha",
+    "Kontusz",
+    "Hussar jacket",
+    "Doublet",
+    "Jerkin",
+    "Surcoat",
+    "Houppelande",
+    "Justaucorps",
+    "Banyan",
+    "Carrick coat",
+    "Sack coat",
+    "Lounge jacket",
+    [
+     "Stroller",
+     "stresemann"
+    ],
+    "Shell jacket",
+    "Patrol jacket",
+    "British warm",
+    [
+     "Oilskin",
+     "oilskin coat"
+    ],
+    "Smock",
+    "Rain cape",
+    "Cycling jacket",
+    "Running jacket",
+    "Members Only jacket",
+    "A-2 jacket",
+    "B-3 jacket",
+    "Irvin jacket",
+    [
+     "Faux fur coat",
+     "fake fur coat"
+    ],
+    "Arctic parka",
+    "Wind jacket",
+    "Topcoat",
+    "Capelet",
+    "Blanket coat",
+    "Trapeze coat",
+    "Princess coat",
+    "Barn jacket",
+    [
+     "Chef's jacket",
+     "chefs whites",
+     "chef whites"
+    ],
+    [
+     "Dust coat",
+     "warehouse coat",
+     "brown coat"
+    ],
+    "Snowboard jacket",
+    "Belay jacket",
+    "Insulated jacket",
+    "Sailing jacket",
+    [
+     "Life jacket",
+     "lifejacket"
+    ],
+    [
+     "Straitjacket",
+     "straight jacket"
+    ],
+    "Flak jacket",
+    [
+     "Eton jacket",
+     "bum freezer"
+    ],
+    "School blazer",
+    "Boating blazer",
+    "CPO jacket",
+    "Velvet jacket",
+    "Linen jacket"
    ]
   },
   {
@@ -4372,7 +6671,7 @@
     [
      "Pinafore",
      "pinafore dress",
-     "jumper dress"
+     "dungaree dress"
     ],
     [
      "Little black dress",
@@ -4398,7 +6697,9 @@
     ],
     [
      "Empire line",
-     "empire waist"
+     "empire waist",
+     "regency dress",
+     "empire dress"
     ],
     [
      "Mermaid dress",
@@ -4420,7 +6721,8 @@
     ],
     [
      "Bandeau dress",
-     "strapless"
+     "tube dress",
+     "boob tube dress"
     ],
     [
      "Off-the-shoulder dress",
@@ -4439,25 +6741,29 @@
     ],
     [
      "Trapeze dress",
-     "trapeze"
+     "trapeze",
+     "tent dress"
     ],
     [
      "Sweater dress",
-     "knit dress"
+     "knit dress",
+     "knitted dress",
+     "jumper dress"
     ],
     "Polo dress",
     "T-shirt dress",
     "Tulip dress",
     [
      "Bubble dress",
-     "puffball"
+     "puffball",
+     "pouf dress"
     ],
     "Peplum dress",
     [
      "Drop waist dress",
-     "drop waist",
-     "flapper dress"
+     "drop waist"
     ],
+    "Flapper dress",
     [
      "Qipao",
      "cheongsam"
@@ -4482,7 +6788,10 @@
      "Wedding dress",
      "bridal gown"
     ],
-    "Sack dress",
+    [
+     "Sack dress",
+     "chemise dress"
+    ],
     "Pencil dress",
     "Blazer dress",
     "Denim dress",
@@ -4491,7 +6800,10 @@
      "Handkerchief hem dress",
      "handkerchief dress"
     ],
-    "High-low dress",
+    [
+     "High-low dress",
+     "mullet dress"
+    ],
     "Cami dress",
     "Sailor dress",
     "Robe de style",
@@ -4517,7 +6829,102 @@
     "Swing dress",
     "Milkmaid dress",
     "Christening gown",
-    "Communion dress"
+    "Communion dress",
+    [
+     "Midaxi dress",
+     "midaxi"
+    ],
+    [
+     "Micro dress",
+     "micro mini dress"
+    ],
+    "Tea-length dress",
+    [
+     "Polka dot dress",
+     "spotty dress"
+    ],
+    "Striped dress",
+    "Leopard print dress",
+    "Gingham dress",
+    "Jersey dress",
+    "Satin dress",
+    "Silk dress",
+    "Linen dress",
+    "Leather dress",
+    "PVC dress",
+    "Latex dress",
+    "Chiffon dress",
+    "Tulle dress",
+    "Crochet dress",
+    "Broderie anglaise dress",
+    "Sweetheart dress",
+    "Square neck dress",
+    "V-neck dress",
+    "High neck dress",
+    "Cowl neck dress",
+    "Long-sleeve dress",
+    "Sleeveless dress",
+    "Bell sleeve dress",
+    [
+     "Button-through dress",
+     "button-front dress"
+    ],
+    "Ruched dress",
+    "Draped dress",
+    "Pleated dress",
+    "Tutu dress",
+    "Feather dress",
+    [
+     "Fringe dress",
+     "fringed dress"
+    ],
+    "Bandage dress",
+    "Cold shoulder dress",
+    "Mesh dress",
+    "Coat dress",
+    "Tuxedo dress",
+    "Trench dress",
+    "Utility dress",
+    "Hoodie dress",
+    "Sweatshirt dress",
+    "Tennis dress",
+    [
+     "Housedress",
+     "house dress"
+    ],
+    "Kebaya",
+    "Anarkali",
+    "Hanfu",
+    "Yukata",
+    "Boubou",
+    "Sarafan",
+    "Baju kurung",
+    "Huipil",
+    "Quinceanera dress",
+    [
+     "Flamenco dress",
+     "traje de flamenca"
+    ],
+    "Ballroom dress",
+    "Mother of the bride dress",
+    "Flower girl dress",
+    "Rockabilly dress",
+    [
+     "Robe a la francaise",
+     "sack-back gown"
+    ],
+    "Robe a l'anglaise",
+    "Polonaise",
+    "Tea gown",
+    "Day dress",
+    [
+     "Grecian dress",
+     "goddess dress",
+     "toga dress"
+    ],
+    "Nap dress",
+    "Shirred dress",
+    "Trumpet dress"
    ]
   },
   {
@@ -4527,7 +6934,10 @@
    ],
    "text": "Name a hairstyle",
    "answers": [
-    "Ponytail",
+    [
+     "Ponytail",
+     "pony"
+    ],
     "Bob",
     "Mullet",
     "Bun",
@@ -4571,11 +6981,13 @@
     "Chignon",
     "Top knot",
     "Man bun",
-    "Undercut",
     [
-     "Fade",
-     "skin fade"
+     "Undercut",
+     "peaky blinders haircut",
+     "peaky blinders cut"
     ],
+    "Fade",
+    "Skin fade",
     "Side parting",
     "Curtains",
     [
@@ -4584,12 +6996,22 @@
     ],
     [
      "The Rachel",
-     "rachel"
+     "jennifer aniston haircut"
     ],
     "Shag",
-    "Wedge",
-    "Perm",
-    "Jheri curl",
+    [
+     "Wedge",
+     "dorothy hamill"
+    ],
+    [
+     "Perm",
+     "curly perm"
+    ],
+    [
+     "Jheri curl",
+     "gerry curl",
+     "jerry curl"
+    ],
     [
      "Fringe",
      "bangs"
@@ -4614,19 +7036,30 @@
      "long bob"
     ],
     "Layers",
-    "Feathered hair",
+    [
+     "Feathered hair",
+     "farrah flick",
+     "farrah fawcett"
+    ],
     "Flick",
     "Croydon facelift",
     "Rat tail",
     [
      "Space buns",
-     "princess leia buns"
+     "princess leia buns",
+     "double buns",
+     "odango"
     ],
     "Marcel wave",
     "Bettie bangs",
     "Asymmetric bob",
     "Inverted bob",
-    "Hi-top fade",
+    [
+     "Hi-top fade",
+     "high top",
+     "hi top",
+     "box fade"
+    ],
     "Box braids",
     "Bantu knots",
     [
@@ -4638,18 +7071,29 @@
     "Bedhead",
     [
      "Ducktail",
-     "duck's arse"
+     "duck's arse",
+     "da"
     ],
     "Wolf cut",
     "Butterfly cut",
-    "Curtain bangs",
-    "Shaved head",
+    [
+     "Curtain bangs",
+     "curtain fringe"
+    ],
+    [
+     "Shaved head",
+     "bald",
+     "bald head"
+    ],
     [
      "Skinhead",
      "number one"
     ],
     "Faux hawk",
-    "Edgar cut",
+    [
+     "Edgar cut",
+     "takuache"
+    ],
     "Taper",
     "Textured crop",
     "Wet look",
@@ -4657,18 +7101,34 @@
     "Blowout",
     "Half-up half-down",
     "Waterfall braid",
-    "Dutch braid",
+    [
+     "Dutch braid",
+     "boxer braids"
+    ],
     "Crown braid",
-    "Milkmaid braids",
+    [
+     "Milkmaid braids",
+     "heidi braids"
+    ],
     "Ringlets",
     "Pin curls",
     "Feather cut",
-    "Moptop",
+    [
+     "Moptop",
+     "beatle cut",
+     "mop top"
+    ],
     "Shingle",
-    "Pageboy",
+    [
+     "Pageboy",
+     "dutch boy"
+    ],
     "Mushroom cut",
     "Hime cut",
-    "Frohawk",
+    [
+     "Frohawk",
+     "afro hawk"
+    ],
     "Senegalese twists",
     "Faux locs",
     "Sisterlocks",
@@ -4678,12 +7138,21 @@
     "Halo braid",
     "Chonmage",
     "Queue",
-    "Tonsure",
-    "Side shave",
+    [
+     "Tonsure",
+     "monk's haircut"
+    ],
+    [
+     "Side shave",
+     "half-shaved"
+    ],
     "Brush cut",
     "Short back and sides",
     "Jellyroll",
-    "Conk",
+    [
+     "Conk",
+     "process"
+    ],
     "Chelsea cut",
     "Gibson girl",
     "Bubble ponytail",
@@ -4693,7 +7162,162 @@
     "Sock bun",
     "French twist",
     "Updo",
-    "Shullet"
+    "Shullet",
+    "Blunt bob",
+    "French bob",
+    "Graduated bob",
+    "Bixie",
+    "Italian bob",
+    "Wavy bob",
+    "Shaggy bob",
+    [
+     "Pob",
+     "posh spice bob",
+     "victoria beckham bob"
+    ],
+    [
+     "Sassoon bob",
+     "five-point cut",
+     "geometric bob"
+    ],
+    "Octopus cut",
+    "Jellyfish cut",
+    "Hush cut",
+    "Bottleneck bangs",
+    "Birkin bangs",
+    [
+     "Baby bangs",
+     "micro fringe"
+    ],
+    [
+     "Side fringe",
+     "side-swept fringe"
+    ],
+    "Blunt fringe",
+    "Wispy fringe",
+    "Long layers",
+    "Modern mullet",
+    "Induction cut",
+    "Butch cut",
+    "Princeton",
+    "Low fade",
+    "Mid fade",
+    "High fade",
+    "Drop fade",
+    "Burst fade",
+    "Taper fade",
+    "Bald fade",
+    [
+     "Line-up",
+     "shape-up",
+     "edge-up"
+    ],
+    "Hard part",
+    [
+     "360 waves",
+     "waves"
+    ],
+    "Twist out",
+    "Braid out",
+    "Wash and go",
+    [
+     "TWA",
+     "teeny weeny afro"
+    ],
+    [
+     "Afro puff",
+     "puff"
+    ],
+    "Flat twists",
+    "Passion twists",
+    "Marley twists",
+    "Havana twists",
+    "Spring twists",
+    "Kinky twists",
+    "Crochet braids",
+    "Goddess braids",
+    "Tribal braids",
+    "Lemonade braids",
+    "Stitch braids",
+    "Feed-in braids",
+    "Micro braids",
+    "Jumbo braids",
+    "Pop smoke braids",
+    "Freeform locs",
+    "Starter locs",
+    "Butterfly locs",
+    "Goddess locs",
+    "Silk press",
+    "Finger coils",
+    "Comb coils",
+    "Spiral perm",
+    "Body wave",
+    "Digital perm",
+    "Mod cut",
+    "Purdey",
+    "Tony Curtis",
+    "Poodle cut",
+    "The Flip",
+    "Deathhawk",
+    "Suedehead",
+    "Gumby",
+    [
+     "Tramlines",
+     "hair tattoo",
+     "shaved lines"
+    ],
+    [
+     "Middle parting",
+     "centre parting",
+     "center parting"
+    ],
+    "Zigzag parting",
+    [
+     "Payot",
+     "sidelocks",
+     "peyot"
+    ],
+    "Shikha",
+    [
+     "Oseledets",
+     "chupryna"
+    ],
+    [
+     "Flow",
+     "hockey flow"
+    ],
+    [
+     "Broccoli haircut",
+     "broccoli cut"
+    ],
+    "Mixie",
+    "Low bun",
+    [
+     "Sleek bun",
+     "slick bun",
+     "clean girl bun"
+    ],
+    "Low ponytail",
+    "Sleek ponytail",
+    "Side ponytail",
+    "Braided ponytail",
+    "Rope braid",
+    "Lace braid",
+    "Four-strand braid",
+    "Five-strand braid",
+    "Pull-through braid",
+    "Bubble braids",
+    "Viking braids",
+    "Mermaid braid",
+    "Twisted bun",
+    "Gibson tuck",
+    "Bardot bouffant",
+    "Pompadour fade",
+    "Textured fringe",
+    "Disconnected undercut",
+    "Curly shag",
+    "Afro fade",
+    "Tapered afro"
    ]
   },
   {
@@ -4709,7 +7333,10 @@
     "Linen",
     "Denim",
     "Polyester",
-    "Nylon",
+    [
+     "Nylon",
+     "polyamide"
+    ],
     "Velvet",
     "Satin",
     "Chiffon",
@@ -4717,13 +7344,17 @@
     [
      "Corduroy",
      "cord",
-     "cords"
+     "cords",
+     "needlecord"
     ],
     "Cashmere",
     "Lace",
     "Leather",
     "Suede",
-    "Fleece",
+    [
+     "Fleece",
+     "polar fleece"
+    ],
     "Lycra",
     [
      "Spandex",
@@ -4739,11 +7370,14 @@
     "Taffeta",
     [
      "Crêpe",
-     "crepe"
+     "crape"
     ],
     "Georgette",
     "Gingham",
-    "Tartan",
+    [
+     "Tartan",
+     "plaid"
+    ],
     "Chambray",
     "Canvas",
     "Calico",
@@ -4762,14 +7396,8 @@
     "Angora",
     "Alpaca",
     "Camel hair",
-    [
-     "Vicuña",
-     "vicuna"
-    ],
-    [
-     "Bouclé",
-     "boucle"
-    ],
+    "Vicuña",
+    "Bouclé",
     "Chenille",
     [
      "Terry",
@@ -4789,7 +7417,11 @@
     "Modal",
     "Bamboo",
     "Hemp",
-    "Jute",
+    [
+     "Jute",
+     "hessian",
+     "burlap"
+    ],
     "Ramie",
     "Cheesecloth",
     "Voile",
@@ -4809,10 +7441,7 @@
     "Harris Tweed",
     "Donegal tweed",
     "Herringbone",
-    [
-     "Piqué",
-     "pique"
-    ],
+    "Piqué",
     "Ripstop",
     "Cordura",
     "PVC",
@@ -4834,10 +7463,7 @@
     "Charmeuse",
     "Faille",
     "Grosgrain",
-    [
-     "Moiré",
-     "moire"
-    ],
+    "Moiré",
     "Barathea",
     "Melton",
     "Loden",
@@ -4860,7 +7486,164 @@
     "Crimplene",
     "Bri-Nylon",
     "Polycotton",
-    "Microfibre"
+    "Microfibre",
+    "Crushed velvet",
+    "Velveteen",
+    "Panne velvet",
+    [
+     "Devore",
+     "burnout velvet"
+    ],
+    "Interlock",
+    [
+     "Rib knit",
+     "ribbing"
+    ],
+    [
+     "French terry",
+     "loopback"
+    ],
+    [
+     "Sherpa",
+     "borg",
+     "teddy fabric"
+    ],
+    [
+     "Faux leather",
+     "pu leather",
+     "pleather",
+     "vegan leather"
+    ],
+    "Nubuck",
+    "Patent leather",
+    "Lambskin",
+    "Chamois",
+    "Buckskin",
+    "Doeskin",
+    "Pashmina",
+    "Qiviut",
+    "Yak wool",
+    [
+     "Lambswool",
+     "lambs wool"
+    ],
+    "Shetland wool",
+    "Boiled wool",
+    [
+     "Astrakhan",
+     "karakul"
+    ],
+    "Crepe de Chine",
+    "Silk noil",
+    "Raw silk",
+    "Mikado",
+    "Peau de soie",
+    "Duchess satin",
+    "Ottoman",
+    "Bengaline",
+    "Egyptian cotton",
+    [
+     "Pima cotton",
+     "supima"
+    ],
+    "Sea Island cotton",
+    "Cambric",
+    "Nainsook",
+    [
+     "Dotted Swiss",
+     "swiss dot"
+    ],
+    [
+     "Broderie anglaise",
+     "eyelet"
+    ],
+    "Plisse",
+    "End-on-end",
+    "Brushed cotton",
+    "Winceyette",
+    "Viyella",
+    "Wincey",
+    [
+     "Chino",
+     "chino cloth"
+    ],
+    "Khaki",
+    "Cretonne",
+    "Ticking",
+    "Supplex",
+    "Coolmax",
+    "Tactel",
+    "Ventile",
+    "Waxed cotton",
+    "Ballistic nylon",
+    [
+     "Power mesh",
+     "powernet"
+    ],
+    [
+     "Terylene",
+     "dacron"
+    ],
+    "Orlon",
+    "Acetate",
+    "Triacetate",
+    "Tricel",
+    [
+     "Cupro",
+     "bemberg"
+    ],
+    "Challis",
+    "Matelasse",
+    "Cloque",
+    "Lurex",
+    [
+     "Sequin fabric",
+     "sequins"
+    ],
+    "Chantilly lace",
+    [
+     "Guipure lace",
+     "guipure"
+    ],
+    "Alencon lace",
+    "Crochet",
+    "Net",
+    "Covert cloth",
+    "Tropical wool",
+    "Fresco",
+    "Hopsack",
+    "Frieze",
+    "Duffel",
+    "Nettle",
+    "Pina",
+    "Pinatex",
+    [
+     "Ankara",
+     "african wax print",
+     "dutch wax print",
+     "wax print"
+    ],
+    "Kente",
+    [
+     "Mudcloth",
+     "bogolanfini"
+    ],
+    [
+     "Kanga",
+     "khanga"
+    ],
+    "Adire",
+    "Aso oke",
+    "Songket",
+    "Khadi",
+    "Banarasi silk",
+    "Muga silk",
+    "Sackcloth",
+    "Homespun",
+    "Bombazine",
+    "Tarlatan",
+    "Marquisette",
+    "Lisle"
    ]
   },
   {
@@ -4906,8 +7689,7 @@
     "Breguet",
     [
      "A. Lange & Söhne",
-     "lange",
-     "a lange and sohne"
+     "lange"
     ],
     "Bremont",
     "Christopher Ward",
@@ -4924,7 +7706,10 @@
     "Frederique Constant",
     "Baume & Mercier",
     "Hamilton",
-    "Glashütte Original",
+    [
+     "Glashütte Original",
+     "glashutte"
+    ],
     "Nomos",
     "F.P. Journe",
     "H. Moser & Cie",
@@ -4966,7 +7751,10 @@
     "Certina",
     "Mido",
     "Edox",
-    "Victorinox",
+    [
+     "Victorinox",
+     "swiss army"
+    ],
     "Sinn",
     "Junghans",
     "Stowa",
@@ -4991,7 +7779,171 @@
     "Czapek",
     "Louis Erard",
     "Farer",
-    "Baltic"
+    "Baltic",
+    [
+     "Swiss Military Hanowa",
+     "swiss military"
+    ],
+    "Ted Baker",
+    [
+     "Hugo Boss",
+     "boss"
+    ],
+    "Emporio Armani",
+    "Tommy Hilfiger",
+    "Calvin Klein",
+    "DKNY",
+    "Lacoste",
+    "Diesel",
+    "Police",
+    "Radley",
+    "Olivia Burton",
+    "Kate Spade",
+    "Marc Jacobs",
+    "Coach",
+    "Gucci",
+    "Chanel",
+    "Louis Vuitton",
+    "Hermes",
+    "Dior",
+    [
+     "Bvlgari",
+     "bulgari"
+    ],
+    "Van Cleef & Arpels",
+    "Harry Winston",
+    [
+     "Tiffany & Co",
+     "tiffany"
+    ],
+    "Jaquet Droz",
+    "Tutima",
+    "Damasko",
+    "Muhle-Glashutte",
+    "Hanhart",
+    "Fortis",
+    "Eterna",
+    "Alpina",
+    "Revue Thommen",
+    "Zodiac",
+    "Favre-Leuba",
+    "Gallet",
+    "Universal Geneve",
+    "Enicar",
+    "Wittnauer",
+    "Benrus",
+    "Elgin",
+    "Waltham",
+    "Gruen",
+    "Shinola",
+    "Weiss",
+    "RGM",
+    "Ball",
+    "Luminox",
+    "Marathon",
+    "MWC",
+    "CWC",
+    [
+     "Roger W. Smith",
+     "roger smith"
+    ],
+    "Pinion",
+    "Fears",
+    "Garrick",
+    "Larsson & Jennings",
+    [
+     "Studio Underd0g",
+     "studio underdog"
+    ],
+    "Elliot Brown",
+    "Marloe",
+    "Nodus",
+    "Lorier",
+    "Zelos",
+    "Halios",
+    "Monta",
+    "Autodromo",
+    "Unimatic",
+    "Serica",
+    "Yema",
+    "Lip",
+    "Herbelin",
+    "Briston",
+    "March LA.B",
+    [
+     "Samsung Galaxy Watch",
+     "samsung"
+    ],
+    "Huawei",
+    "Xiaomi",
+    [
+     "Amazfit",
+     "huami"
+    ],
+    "Withings",
+    [
+     "TicWatch",
+     "mobvoi"
+    ],
+    "Pebble",
+    "Coros",
+    [
+     "Pixel Watch",
+     "google pixel watch"
+    ],
+    "Flik Flak",
+    "Balmain",
+    "Credor",
+    "King Seiko",
+    "Baby-G",
+    "Pro Trek",
+    "Edifice",
+    "Alba",
+    "Q&Q",
+    "Wenger",
+    "Mondaine",
+    "Philip Stein",
+    "Bomberg",
+    "U-Boat",
+    "Perrelet",
+    "Cvstos",
+    "Hysek",
+    "Romain Jerome",
+    "Vulcain",
+    "Sector",
+    "Breil",
+    "Lotus",
+    "Caravelle",
+    "Armitron",
+    "Westclox",
+    "Archimede",
+    "Steinhart",
+    "Slava",
+    "Pobeda",
+    "Sturmanskie",
+    "Rossini",
+    "Fiyta",
+    "HMT",
+    "Titan",
+    "Fastrack",
+    "Sonata",
+    "Ernest Borel",
+    "Eberhard & Co",
+    [
+     "Carl F. Bucherer",
+     "bucherer"
+    ],
+    "Kurono Tokyo",
+    "Ressence",
+    "Laurent Ferrier",
+    [
+     "Kari Voutilainen",
+     "voutilainen"
+    ],
+    "Moritz Grossmann",
+    "Christophe Claret",
+    "Hautlence",
+    "Louis Moinet"
    ]
   },
   {
@@ -5002,22 +7954,18 @@
    "text": "Name a make-up brand",
    "answers": [
     "Maybelline",
-    "Rimmel",
     [
-     "L'Oréal",
-     "loreal",
-     "l'oreal"
+     "Rimmel",
+     "rimmel london"
     ],
+    "L'Oréal",
     [
      "MAC",
      "m.a.c"
     ],
     "Benefit",
     "Clinique",
-    [
-     "Estée Lauder",
-     "estee lauder"
-    ],
+    "Estée Lauder",
     "Max Factor",
     "Revlon",
     "No7",
@@ -5030,16 +7978,16 @@
      "fenty"
     ],
     "Bobbi Brown",
-    [
-     "Lancôme",
-     "lancome"
-    ],
+    "Lancôme",
     "Dior",
     "Chanel",
     "Nars",
     "Too Faced",
     "Barry M",
-    "Collection",
+    [
+     "Collection",
+     "collection 2000"
+    ],
     "Sleek",
     [
      "Seventeen",
@@ -5080,7 +8028,8 @@
     "Catrice",
     [
      "Makeup Revolution",
-     "revolution"
+     "revolution",
+     "revolution beauty"
     ],
     "W7",
     "Natasha Denona",
@@ -5111,10 +8060,7 @@
     "Constance Carroll",
     "Miss Sporty",
     "Gosh",
-    [
-     "The Body Shop",
-     "body shop"
-    ],
+    "The Body Shop",
     "Burt's Bees",
     "Physicians Formula",
     "Sephora Collection",
@@ -5132,7 +8078,117 @@
     "Essie",
     "Sally Hansen",
     "Eylure",
-    "Real Techniques"
+    "Real Techniques",
+    [
+     "MUA",
+     "makeup academy"
+    ],
+    "Technic",
+    "BH Cosmetics",
+    "Juvia's Place",
+    "Ofra",
+    "Beauty Bakerie",
+    "Danessa Myricks",
+    "Uoma Beauty",
+    "Black Opal",
+    "Iman Cosmetics",
+    "Fashion Fair",
+    "Milk Makeup",
+    "KKW Beauty",
+    [
+     "R.E.M. Beauty",
+     "rem beauty"
+    ],
+    "Patrick Ta",
+    "Makeup by Mario",
+    "Tower 28",
+    "Rhode",
+    "RMS Beauty",
+    "Kjaer Weis",
+    "Gucci Beauty",
+    "Prada Beauty",
+    "Valentino Beauty",
+    "Dolce & Gabbana Beauty",
+    "Burberry Beauty",
+    [
+     "Christian Louboutin Beauty",
+     "louboutin beauty"
+    ],
+    "Hermes Beauty",
+    "Kanebo",
+    "Kose",
+    "Suqqu",
+    "Lunasol",
+    "RMK",
+    "Addiction",
+    "Canmake",
+    "Cezanne",
+    "Kate Tokyo",
+    "Kiss Me",
+    "Majolica Majorca",
+    [
+     "Etude House",
+     "etude"
+    ],
+    "Missha",
+    "Innisfree",
+    "Laneige",
+    "Clio",
+    "Peripera",
+    [
+     "Rom&nd",
+     "romand"
+    ],
+    "Banila Co",
+    "3CE",
+    "Hera",
+    "Espoir",
+    [
+     "Tony Moly",
+     "tonymoly"
+    ],
+    "The Face Shop",
+    "Holika Holika",
+    "Florasis",
+    "Perfect Diary",
+    "Judydoll",
+    "Zeesea",
+    "Almay",
+    "Hard Candy",
+    "Jordana",
+    "Flower Beauty",
+    "Bonne Bell",
+    "Neutrogena",
+    "Oriflame",
+    "Younique",
+    "Arbonne",
+    "Prescriptives",
+    "Jane Iredale",
+    "Lily Lolo",
+    "Delilah",
+    "By Terry",
+    "Bperfect",
+    "Viseart",
+    "Inglot",
+    "Pupa",
+    "Deborah Milano",
+    "Collistar",
+    "Wycon",
+    "Manhattan",
+    "Artdeco",
+    "Lumene",
+    "Isadora",
+    [
+     "KVD Beauty",
+     "kat von d"
+    ],
+    "Bite Beauty",
+    "Buxom",
+    "Lorac",
+    "Wander Beauty",
+    "Eyeko",
+    "Sugarpill",
+    "Melt Cosmetics"
    ]
   },
   {
@@ -5149,12 +8205,10 @@
     ],
     [
      "Half Windsor",
-     "half-windsor",
      "single windsor"
     ],
     [
      "Four-in-hand",
-     "four in hand",
      "simple knot",
      "schoolboy knot"
     ],
@@ -5194,7 +8248,23 @@
      "Merovingian",
      "ediety"
     ],
-    "Atlantic"
+    "Atlantic",
+    "Van Wijk",
+    "Murrell",
+    "Onassis",
+    "Rosette",
+    [
+     "Diagonal",
+     "diagonal knot"
+    ],
+    "Truelove",
+    "Vidalenc",
+    [
+     "Cafe",
+     "cafe knot"
+    ],
+    "Fishbone",
+    "Ellie"
    ],
    "deep": true
   },
@@ -5348,11 +8418,13 @@
      "Christmas Day",
      "christmas"
     ],
-    "Boxing Day",
+    [
+     "Boxing Day",
+     "st stephen's day"
+    ],
     [
      "New Year's Day",
-     "new year",
-     "new years day"
+     "new year"
     ],
     "Good Friday",
     "Easter Monday",
@@ -5367,7 +8439,9 @@
      "Spring bank holiday",
      "whit monday",
      "late may bank holiday",
-     "spring bank"
+     "spring bank",
+     "whitsun",
+     "whit bank holiday"
     ],
     [
      "Summer bank holiday",
@@ -5448,7 +8522,14 @@
     "Oak",
     "Willow",
     "Glass",
-    "Jade"
+    "Jade",
+    "Fur",
+    "Brass",
+    "Nickel",
+    "Amethyst",
+    "Opal",
+    "Alabaster",
+    "Tourmaline"
    ]
   },
   {
@@ -5458,47 +8539,37 @@
    ],
    "text": "Name a UK national newspaper, past or present",
    "answers": [
-    [
-     "The Sun",
-     "sun"
-    ],
+    "The Sun",
     [
      "Daily Mail",
      "mail"
     ],
     [
      "The Times",
-     "times"
+     "daily universal register"
     ],
     [
      "The Guardian",
-     "guardian",
      "manchester guardian"
     ],
     [
      "Daily Mirror",
-     "mirror",
-     "the mirror"
+     "mirror"
     ],
     [
      "The Daily Telegraph",
-     "telegraph",
-     "the telegraph",
-     "daily telegraph"
+     "telegraph"
     ],
     [
      "Daily Express",
-     "express",
-     "the express"
+     "express"
     ],
     [
      "Daily Star",
-     "star",
-     "the star"
+     "star"
     ],
     [
      "The Independent",
-     "independent",
      "indy"
     ],
     [
@@ -5508,39 +8579,21 @@
     "Metro",
     [
      "i",
-     "the i",
-     "i paper",
-     "the i paper"
+     "i paper"
     ],
-    [
-     "The Observer",
-     "observer"
-    ],
-    [
-     "The Sunday Times",
-     "sunday times"
-    ],
-    [
-     "The Mail on Sunday",
-     "mail on sunday"
-    ],
+    "The Observer",
+    "The Sunday Times",
+    "The Mail on Sunday",
     [
      "Sunday Mirror",
      "sunday pictorial"
     ],
-    [
-     "The Sunday Telegraph",
-     "sunday telegraph"
-    ],
-    [
-     "The Sun on Sunday",
-     "sun on sunday"
-    ],
+    "The Sunday Telegraph",
+    "The Sun on Sunday",
     "Sunday Express",
     [
      "The People",
-     "sunday people",
-     "people"
+     "sunday people"
     ],
     "Daily Star Sunday",
     [
@@ -5563,7 +8616,10 @@
     "Sunday Correspondent",
     "The New European",
     "Daily Graphic",
-    "Sunday Dispatch",
+    [
+     "Sunday Dispatch",
+     "weekly dispatch"
+    ],
     "Reynolds News",
     "Sunday Business",
     "Sunday Chronicle",
@@ -5578,7 +8634,19 @@
     "Sunday Today",
     "The Planet on Sunday",
     "Racing Post",
-    "Sporting Life"
+    "Sporting Life",
+    "Daily Citizen",
+    "Daily Despatch",
+    [
+     "Lloyd's Weekly News",
+     "lloyds weekly"
+    ],
+    "Morning Chronicle",
+    "Morning Herald",
+    "Morning Leader",
+    "Sunday Referee",
+    "Sporting Chronicle",
+    "The Sportsman"
    ]
   },
   {
@@ -5623,8 +8691,6 @@
     ],
     [
      "M&D's",
-     "m and d's",
-     "m&ds",
      "Scotland's Theme Park"
     ],
     [
@@ -5734,7 +8800,6 @@
     "Spanish City",
     [
      "Codona's",
-     "codonas",
      "codona's amusement park"
     ],
     [
@@ -5805,7 +8870,14 @@
     [
      "Marvel's Amusement Park",
      "marvels scarborough"
-    ]
+    ],
+    "Happy Mount Park",
+    "Britannia Park",
+    [
+     "Rainbow Park",
+     "hunstanton rainbow park"
+    ],
+    "Walton Pier"
    ]
   },
   {
@@ -5821,7 +8893,10 @@
      "Volkswagen",
      "vw"
     ],
-    "BMW",
+    [
+     "BMW",
+     "beemer"
+    ],
     [
      "Mercedes-Benz",
      "mercedes",
@@ -5833,10 +8908,7 @@
     "Honda",
     "Peugeot",
     "Renault",
-    [
-     "Citroën",
-     "citroen"
-    ],
+    "Citroën",
     "Fiat",
     "Kia",
     "Hyundai",
@@ -5847,18 +8919,34 @@
     "Mini",
     "Land Rover",
     "Range Rover",
-    "Jaguar",
+    [
+     "Jaguar",
+     "jag"
+    ],
     "Tesla",
     "Porsche",
     "Ferrari",
-    "Lamborghini",
+    [
+     "Lamborghini",
+     "lambo"
+    ],
     "Bentley",
-    "Rolls-Royce",
-    "Aston Martin",
+    [
+     "Rolls-Royce",
+     "rolls",
+     "roller"
+    ],
+    [
+     "Aston Martin",
+     "aston"
+    ],
     "McLaren",
     "Lotus",
     "Maserati",
-    "Alfa Romeo",
+    [
+     "Alfa Romeo",
+     "alfa"
+    ],
     "Jeep",
     "Suzuki",
     "Mitsubishi",
@@ -5871,7 +8959,10 @@
     "BYD",
     "Smart",
     "DS",
-    "Chevrolet",
+    [
+     "Chevrolet",
+     "chevy"
+    ],
     "Dodge",
     "Chrysler",
     "Cadillac",
@@ -5932,7 +9023,10 @@
     "Daihatsu",
     "Chery",
     "Geely",
-    "Great Wall",
+    [
+     "Great Wall",
+     "gwm"
+    ],
     "GWM Ora",
     "Haval",
     "NIO",
@@ -5985,7 +9079,224 @@
     "Holden",
     "Scion",
     "Eagle",
-    "Vanden Plas"
+    "Vanden Plas",
+    "Alvis",
+    "Armstrong Siddeley",
+    "Allard",
+    "Bond",
+    "Berkeley",
+    "Clan",
+    "Gilbern",
+    "Gordon-Keeble",
+    "Healey",
+    "Invicta",
+    "Jowett",
+    "Lanchester",
+    "Lea-Francis",
+    "Marcos",
+    "Metropolitan",
+    "Peerless",
+    "Rochdale",
+    [
+     "SS Cars",
+     "swallow sidecar"
+    ],
+    "Turner",
+    "Trojan",
+    "Westfield",
+    "Radical",
+    "Ultima",
+    "BAC",
+    "Zenos",
+    "Elemental",
+    "Arash",
+    "Keating",
+    "Trident",
+    "Lister",
+    "Frazer Nash",
+    "HRG",
+    "Dutton",
+    "Marlin",
+    "Robin Hood",
+    "GTM",
+    "Midas",
+    "Davrian",
+    "Peel",
+    [
+     "LEVC",
+     "london electric vehicle company",
+     "london taxi company"
+    ],
+    "Carbodies",
+    "Metrocab",
+    "Munro",
+    "DeSoto",
+    "Edsel",
+    "Imperial",
+    "Kaiser",
+    "Willys",
+    "Duesenberg",
+    "Cord",
+    "Auburn",
+    "Pierce-Arrow",
+    "LaSalle",
+    "Stutz",
+    "Marmon",
+    "Franklin",
+    "Hupmobile",
+    "REO",
+    "Checker",
+    "Crosley",
+    "Rambler",
+    "Excalibur",
+    "Saleen",
+    "Shelby",
+    "SSC",
+    "Hennessey",
+    "Panoz",
+    "Vector",
+    "Mosler",
+    "Karma",
+    "Faraday Future",
+    "VinFast",
+    "Scout",
+    "Ram",
+    "Wiesmann",
+    [
+     "Apollo",
+     "gumpert"
+    ],
+    "Ruf",
+    "Brabus",
+    "Alpina",
+    "Artega",
+    "Messerschmitt",
+    [
+     "Glas",
+     "goggomobil"
+    ],
+    "Heinkel",
+    "Adler",
+    "Lloyd",
+    "Hansa",
+    "Melkus",
+    "Delahaye",
+    "Delage",
+    "Talbot-Lago",
+    "Hotchkiss",
+    "Aixam",
+    "Ligier",
+    "Microcar",
+    "Venturi",
+    "De Dion-Bouton",
+    "Darracq",
+    "Voisin",
+    "Salmson",
+    "Amilcar",
+    "Iso",
+    "Bizzarrini",
+    "Autobianchi",
+    "Innocenti",
+    "Cisitalia",
+    "OSCA",
+    "Siata",
+    [
+     "Pininfarina",
+     "automobili pininfarina"
+    ],
+    "Dallara",
+    "DR Automobiles",
+    "Pegaso",
+    "DAF",
+    "Donkervoort",
+    "Lightyear",
+    "Praga",
+    "ZiL",
+    "ZAZ",
+    "Aurus",
+    "Izh",
+    "ARO",
+    "Oltcit",
+    "FSO",
+    "Polski Fiat",
+    "Syrena",
+    "Barkas",
+    "Mitsuoka",
+    "Prince",
+    "Hino",
+    "Eunos",
+    "Autozam",
+    [
+     "Samsung Motors",
+     "renault samsung"
+    ],
+    "Asia Motors",
+    "SAIC",
+    "Roewe",
+    [
+     "Maxus",
+     "ldv"
+    ],
+    "Wuling",
+    "Baojun",
+    "Dongfeng",
+    "Voyah",
+    "Changan",
+    "Deepal",
+    "Avatr",
+    "GAC",
+    "Aion",
+    "Trumpchi",
+    "JAC",
+    "BAIC",
+    "Arcfox",
+    "Brilliance",
+    "FAW",
+    "Bestune",
+    "Haima",
+    "Jetour",
+    "Exeed",
+    "Denza",
+    "Yangwang",
+    "Fangchengbao",
+    [
+     "Aito",
+     "seres"
+    ],
+    "Neta",
+    "Tank",
+    "Wey",
+    "Skywell",
+    "Ebro",
+    "Firefly",
+    [
+     "Hindustan Motors",
+     "hindustan"
+    ],
+    "Premier",
+    "Force Motors",
+    "Elfin",
+    "Bolwell",
+    "Togg",
+    "Anadol",
+    "Iran Khodro",
+    "Saipa",
+    "Luxgen",
+    "Gurgel",
+    "Troller",
+    "Bricklin",
+    "Birkin",
+    "Zenvo",
+    "W Motors",
+    "Czinger",
+    "Drako",
+    "Aspark",
+    "Rezvani",
+    [
+     "Mercedes-AMG",
+     "amg"
+    ],
+    "Aiways"
    ]
   },
   {
@@ -5998,7 +9309,9 @@
     [
      "Penny",
      "1d",
-     "old penny"
+     "old penny",
+     "cartwheel penny",
+     "bun penny"
     ],
     [
      "Shilling",
@@ -6013,13 +9326,11 @@
     [
      "Half crown",
      "half a crown",
-     "half-crown",
      "half a dollar"
     ],
     [
      "Halfpenny",
-     "ha'penny",
-     "hapenny"
+     "ha'penny"
     ],
     [
      "Threepence",
@@ -6033,11 +9344,15 @@
      "Florin",
      "two shillings",
      "two bob",
-     "two bob bit"
+     "two bob bit",
+     "godless florin"
     ],
     [
      "Crown",
-     "five shillings"
+     "five shillings",
+     "churchill crown",
+     "gothic crown",
+     "dollar"
     ],
     "Guinea",
     "Sovereign",
@@ -6045,7 +9360,8 @@
     "Half guinea",
     [
      "Groat",
-     "fourpence"
+     "fourpence",
+     "joey"
     ],
     "Double florin",
     "Double sovereign",
@@ -6090,7 +9406,30 @@
     "Thistle crown",
     "Spur ryal",
     "George noble",
-    "Crown of the Rose"
+    "Crown of the Rose",
+    [
+     "Two pounds",
+     "two pound coin",
+     "£2 coin"
+    ],
+    "Half groat",
+    "Double crown",
+    "Britain crown",
+    "Half angel",
+    "Quarter angel",
+    "Half ryal",
+    "Triple unite",
+    "Silver pound",
+    "Half pound",
+    "Three farthings",
+    "Leopard",
+    "Helm",
+    "Mancus",
+    "Half laurel",
+    "Quarter laurel",
+    "Rose ryal",
+    "Bank of England dollar",
+    "Half unite"
    ],
    "deep": true
   },
@@ -6107,22 +9446,27 @@
     ],
     "Harrods",
     "Selfridges",
-    "Debenhams",
+    [
+     "Debenhams",
+     "debenham & freebody"
+    ],
     "House of Fraser",
     "Liberty",
     [
      "Fortnum & Mason",
      "fortnums"
     ],
-    "Harvey Nichols",
+    [
+     "Harvey Nichols",
+     "harvey nicks"
+    ],
     [
      "BHS",
      "british home stores"
     ],
     [
      "Marks & Spencer",
-     "m&s",
-     "marks and spencer"
+     "m&s"
     ],
     "Fenwick",
     "Beales",
@@ -6211,7 +9555,47 @@
     "Watt & Grant",
     "Esslemont & Macintosh",
     "R. W. Forsyth",
-    "Patrick Thomson"
+    "Patrick Thomson",
+    "George Henry Lee",
+    "Blacklers",
+    "Greys",
+    "Jessops",
+    "Griffin & Spalding",
+    "Walsh's",
+    "Cockaynes",
+    "Banners",
+    "Joshua Taylor",
+    "Heelas",
+    [
+     "Jacksons of Reading",
+     "jacksons"
+    ],
+    "Spooners",
+    "Pophams",
+    "Colmers",
+    "Caleys",
+    "Bonds",
+    "Garlands",
+    "Doggarts",
+    "Shephards",
+    "Arnotts",
+    "Goldbergs",
+    "Draffens",
+    "G. L. Wilson",
+    [
+     "McEwens of Perth",
+     "mcewens"
+    ],
+    "Isaac Benzie",
+    "Howells",
+    "David Morgan",
+    "Ben Evans",
+    "Boswells",
+    "Elliston & Cavell",
+    [
+     "Co-op department store",
+     "co-operative department store"
+    ]
    ]
   },
   {
@@ -6223,11 +9607,12 @@
    "answers": [
     [
      "Tesco",
-     "Tesco Express"
+     "Tesco Express",
+     "tesco metro",
+     "tesco extra"
     ],
     [
      "Sainsbury's",
-     "sainsburys",
      "Sainsbury's Local"
     ],
     "Asda",
@@ -6250,7 +9635,6 @@
     [
      "Marks & Spencer",
      "m&s",
-     "marks and spencer",
      "M&S Food",
      "Marks and Spencer Food"
     ],
@@ -6337,7 +9721,27 @@
     "Go Local",
     "Amazon Go",
     "Abel & Cole",
-    "Riverford"
+    "Riverford",
+    "Pricerite",
+    "Shoppers Paradise",
+    "Allied Suppliers",
+    [
+     "Maypole Dairy",
+     "maypole"
+    ],
+    "Pioneer",
+    "Lennons",
+    "Cullens",
+    "Europa Foods",
+    "As Nature Intended",
+    "Fresh & Wild",
+    "Simply Fresh",
+    "Bestway",
+    "Batleys",
+    "Parfetts",
+    "Milk & More",
+    "Zapp",
+    "Weezy"
    ]
   },
   {
@@ -6370,8 +9774,12 @@
     "Loganair",
     "Flybe",
     "Monarch",
-    "BMI",
-    "British Midland",
+    [
+     "BMI",
+     "British Midland",
+     "derby airways",
+     "british midland international"
+    ],
     [
      "British Caledonian",
      "b cal"
@@ -6382,8 +9790,14 @@
      "laker",
      "skytrain"
     ],
-    "BOAC",
-    "BEA",
+    [
+     "BOAC",
+     "british overseas airways corporation"
+    ],
+    [
+     "BEA",
+     "british european airways"
+    ],
     [
      "Thomas Cook Airlines",
      "thomas cook"
@@ -6465,7 +9879,67 @@
     "Silver City Airways",
     "Aquila Airways",
     "Air Ferry",
-    "Orion Airways"
+    "Orion Airways",
+    [
+     "Flyglobespan",
+     "globespan"
+    ],
+    [
+     "BA Euroflyer",
+     "euroflyer"
+    ],
+    "GB Airways",
+    [
+     "British Mediterranean Airways",
+     "bmed"
+    ],
+    "Maersk Air UK",
+    [
+     "JMC Air",
+     "jmc"
+    ],
+    "Virgin Sun",
+    "Leisure International Airways",
+    "Paramount Airways",
+    "Inter European Airways",
+    "Lloyd International Airways",
+    "Air Charter",
+    "Transmeridian Air Cargo",
+    "Cunard Eagle",
+    "Jersey Airlines",
+    "Railway Air Services",
+    "Instone Air Line",
+    "Handley Page Transport",
+    "Aircraft Transport and Travel",
+    "Daimler Airway",
+    "British Marine Air Navigation",
+    "Hillman's Airways",
+    "Spartan Air Lines",
+    "Allied Airways",
+    "Scottish Airways",
+    "Aberdeen Airways",
+    "Olley Air Service",
+    "Air Kruise",
+    "Dragon Airways",
+    "Starways",
+    "Air UK Leisure",
+    "BA Connect",
+    "British Regional Airlines",
+    "Norwegian Air UK",
+    "Channel Express",
+    "Air Atlantique",
+    "Atlantic Airlines",
+    "Air Foyle",
+    "HeavyLift Cargo Airlines",
+    "DHL Air UK",
+    "Emerald Airways",
+    "Air Ecosse",
+    "Air Anglia",
+    "Tradewinds Airways",
+    "British Air Ferries",
+    "Hunting Cargo Airlines",
+    "Morton Air Services",
+    "Scillonia Airways"
    ]
   },
   {
@@ -6481,10 +9955,7 @@
     "Texaco",
     "Tesco",
     "Asda",
-    [
-     "Sainsbury's",
-     "sainsburys"
-    ],
+    "Sainsbury's",
     "Morrisons",
     "Jet",
     "Gulf",
@@ -6495,7 +9966,10 @@
     "Murco",
     "Q8",
     "Mobil",
-    "Fina",
+    [
+     "Fina",
+     "petrofina"
+    ],
     "Elf",
     "Save",
     "Applegreen",
@@ -6527,37 +10001,41 @@
     "Gleaner",
     "Snax 24",
     "Rix",
-    [
-     "Valero"
-    ],
-    [
-     "Essar"
-    ],
-    [
-     "Prax"
-    ],
-    [
-     "Rontec"
-    ],
-    [
-     "Moto"
-    ],
-    [
-     "Welcome Break"
-    ],
-    [
-     "Roadchef"
-    ],
-    [
-     "Topaz"
-    ],
+    "Valero",
+    "Essar",
+    "Prax",
+    "Rontec",
+    "Moto",
+    "Welcome Break",
+    "Roadchef",
+    "Topaz",
     [
      "Certas Energy",
      "Certas"
     ],
+    "Ascona",
     [
-     "Ascona"
-    ]
+     "ROP",
+     "russian oil products"
+    ],
+    "Pratts",
+    [
+     "Shell-Mex and BP",
+     "shell mex"
+    ],
+    "Heron",
+    [
+     "VIP Petroleum",
+     "vip"
+    ],
+    "Safeway",
+    "Co-op",
+    "Park Garage Group",
+    [
+     "Sewell on the Go",
+     "sewells"
+    ],
+    "Highland Fuels"
    ]
   },
   {
@@ -6578,7 +10056,10 @@
      "NatWest",
      "national westminster"
     ],
-    "Santander",
+    [
+     "Santander",
+     "santander uk"
+    ],
     "Halifax",
     [
      "Royal Bank of Scotland",
@@ -6590,7 +10071,8 @@
     ],
     [
      "Nationwide",
-     "nationwide building society"
+     "nationwide building society",
+     "nationwide anglia"
     ],
     "Metro Bank",
     [
@@ -6616,13 +10098,18 @@
     "Starling",
     "Virgin Money",
     "Clydesdale Bank",
-    "Yorkshire Bank",
+    [
+     "Yorkshire Bank",
+     "yorkshire penny bank"
+    ],
     "Ulster Bank",
     "Danske Bank",
     "Bank of Ireland",
     [
      "AIB",
-     "first trust"
+     "first trust",
+     "allied irish bank",
+     "allied irish banks"
     ],
     "Coutts",
     "Cheltenham & Gloucester",
@@ -6737,10 +10224,80 @@
     "Kleinwort Benson",
     "Hambros",
     "Lazard",
-    "BCCI",
+    [
+     "BCCI",
+     "bank of credit and commerce international"
+    ],
     "Overend, Gurney",
     "City of Glasgow Bank",
-    "Bank of Wales"
+    "Bank of Wales",
+    [
+     "National Savings",
+     "ns&i",
+     "national savings and investments"
+    ],
+    "Post Office Savings Bank",
+    "Alliance Building Society",
+    "Leicester Building Society",
+    "Abbey Road Building Society",
+    "National Building Society",
+    "Anglia Building Society",
+    "Town and Country Building Society",
+    "Gateway Building Society",
+    "Universal Building Society",
+    "Stroud & Swindon",
+    "Catholic Building Society",
+    "Scarborough Building Society",
+    "Barnsley Building Society",
+    "Chorley Building Society",
+    "Ipswich Building Society",
+    "Bank of London",
+    "Hampshire Trust Bank",
+    "Secure Trust Bank",
+    "Paragon Bank",
+    "United Trust Bank",
+    "Cynergy Bank",
+    "Recognise Bank",
+    "Gatehouse Bank",
+    "Vanquis Bank",
+    [
+     "Capital One UK",
+     "capital one"
+    ],
+    "Marcus",
+    "Monument Bank",
+    [
+     "Zempler Bank",
+     "cashplus"
+    ],
+    [
+     "Tandem Bank",
+     "tandem"
+    ],
+    "Williams Deacon's Bank",
+    "Parr's Bank",
+    "Grindlays Bank",
+    "Hill Samuel",
+    "Samuel Montagu",
+    "Morgan Grenfell",
+    [
+     "S. G. Warburg",
+     "warburg"
+    ],
+    [
+     "Robert Fleming & Co",
+     "flemings"
+    ],
+    "Brown Shipley",
+    "Guinness Mahon",
+    "Singer & Friedlander",
+    "British Linen Bank",
+    "Commercial Bank of Scotland",
+    "National Commercial Bank of Scotland",
+    "Union Bank of Scotland",
+    "North of Scotland Bank",
+    "Belfast Banking Company",
+    "Birmingham Municipal Bank"
    ]
   },
   {
@@ -6786,8 +10343,7 @@
     ],
     [
      "Theatre Royal, Drury Lane",
-     "drury lane",
-     "theatre royal drury lane"
+     "drury lane"
     ],
     [
      "Lyceum Theatre",
@@ -6939,10 +10495,7 @@
      "Vaudeville Theatre",
      "vaudeville"
     ],
-    [
-     "@sohoplace",
-     "sohoplace"
-    ],
+    "@sohoplace",
     [
      "Tom Stoppard Theatre",
      "duke of york's theatre",
@@ -6950,12 +10503,15 @@
     ],
     [
      "London Coliseum",
-     "Coliseum",
-     "English National Opera"
+     "Coliseum"
     ],
     [
      "Peacock Theatre",
      "Peacock"
+    ],
+    [
+     "Royal Opera House",
+     "covent garden opera house"
     ]
    ],
    "deep": true
