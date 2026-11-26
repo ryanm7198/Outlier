@@ -1392,7 +1392,9 @@
      "Romans",
      "Roman Empire",
      "Ancient Rome",
-     "Roman"
+     "Roman",
+     "Roman Republic",
+     "Western Roman Empire"
     ],
     [
      "Greece",
@@ -1414,13 +1416,15 @@
      "Babylonians",
      "Babylonia",
      "Babylonian Empire",
-     "Babylonian"
+     "Babylonian",
+     "Neo-Babylonian Empire"
     ],
     [
      "Assyria",
      "Assyrians",
      "Assyrian Empire",
-     "Assyrian"
+     "Assyrian",
+     "Neo-Assyrian Empire"
     ],
     [
      "Sumer",
@@ -1447,6 +1451,33 @@
      "Carthage",
      "Carthaginians",
      "Carthaginian Empire"
+    ],
+    [
+     "Mesopotamia",
+     "Mesopotamians",
+     "Ancient Mesopotamia"
+    ],
+    [
+     "Ancient China",
+     "China",
+     "Chinese"
+    ],
+    [
+     "Han dynasty",
+     "Han",
+     "Han Empire",
+     "Han China"
+    ],
+    [
+     "Byzantine Empire",
+     "Byzantium",
+     "Byzantines",
+     "Eastern Roman Empire"
+    ],
+    [
+     "Qin dynasty",
+     "Qin",
+     "Qin Empire"
     ],
     [
      "Minoans",
@@ -1491,6 +1522,29 @@
      "Olmecs"
     ],
     [
+     "Shang dynasty",
+     "Shang",
+     "Shang China"
+    ],
+    [
+     "Zhou dynasty",
+     "Zhou"
+    ],
+    [
+     "Aksum",
+     "Axum",
+     "Aksumite Empire",
+     "Kingdom of Aksum",
+     "Aksumites"
+    ],
+    [
+     "Nabataeans",
+     "Nabataea",
+     "Nabateans",
+     "Nabataean Kingdom",
+     "Petra"
+    ],
+    [
      "Celts",
      "Celtic",
      "Celt"
@@ -1500,7 +1554,9 @@
      "Nubians",
      "Kush",
      "Kingdom of Kush",
-     "Kushites"
+     "Kushites",
+     "Meroe",
+     "Kingdom of Meroe"
     ],
     [
      "Parthia",
@@ -1522,6 +1578,31 @@
      "Mauryan Empire",
      "Maurya",
      "Mauryans"
+    ],
+    [
+     "Sasanian Empire",
+     "Sassanid Empire",
+     "Sasanians",
+     "Sassanids",
+     "Sassanian Empire"
+    ],
+    [
+     "Gupta Empire",
+     "Gupta",
+     "Guptas"
+    ],
+    [
+     "Huns",
+     "Hunnic Empire",
+     "Hun"
+    ],
+    [
+     "Ancient Israel",
+     "Israelites",
+     "Kingdom of Israel",
+     "Hebrews",
+     "Kingdom of Judah",
+     "Judah"
     ],
     [
      "Elam",
@@ -1566,6 +1647,215 @@
      "Ptolemaic Egypt",
      "Ptolemaic Kingdom",
      "Ptolemies"
+    ],
+    [
+     "Kushan Empire",
+     "Kushans"
+    ],
+    [
+     "Xia dynasty",
+     "Xia"
+    ],
+    [
+     "Canaanites",
+     "Canaan"
+    ],
+    [
+     "Philistines",
+     "Philistia"
+    ],
+    [
+     "Amorites",
+     "Amorite"
+    ],
+    [
+     "Arameans",
+     "Aramaeans",
+     "Aram"
+    ],
+    [
+     "Kassites",
+     "Kassite"
+    ],
+    [
+     "Mitanni",
+     "Hurrians"
+    ],
+    "Ebla",
+    [
+     "Phrygia",
+     "Phrygians"
+    ],
+    [
+     "Lycia",
+     "Lycians"
+    ],
+    [
+     "Thracians",
+     "Thrace",
+     "Odrysian Kingdom"
+    ],
+    [
+     "Dacians",
+     "Dacia"
+    ],
+    [
+     "Sarmatians",
+     "Sarmatia"
+    ],
+    [
+     "Pontus",
+     "Kingdom of Pontus"
+    ],
+    [
+     "Bactria",
+     "Greco-Bactrian Kingdom",
+     "Bactrians"
+    ],
+    [
+     "Pergamon",
+     "Pergamum",
+     "Attalid Kingdom"
+    ],
+    [
+     "Kingdom of Armenia",
+     "Ancient Armenia"
+    ],
+    "Colchis",
+    [
+     "Palmyra",
+     "Palmyrene Empire"
+    ],
+    [
+     "Saba",
+     "Sabaeans",
+     "Sheba",
+     "Kingdom of Sheba"
+    ],
+    [
+     "Himyar",
+     "Himyarites",
+     "Himyarite Kingdom"
+    ],
+    "Dilmun",
+    [
+     "Garamantes",
+     "Garamantian"
+    ],
+    [
+     "Numidia",
+     "Numidians"
+    ],
+    [
+     "Nok",
+     "Nok culture"
+    ],
+    [
+     "Kerma",
+     "Kerma culture"
+    ],
+    [
+     "Cycladic civilisation",
+     "Cycladic",
+     "Cyclades",
+     "Cycladic civilization"
+    ],
+    [
+     "Nuragic civilisation",
+     "Nuragic",
+     "Nuraghi",
+     "Nuragic civilization"
+    ],
+    [
+     "Vedic civilisation",
+     "Vedic period",
+     "Vedic",
+     "Vedic civilization"
+    ],
+    [
+     "Magadha",
+     "Kingdom of Magadha"
+    ],
+    [
+     "Nanda Empire",
+     "Nanda",
+     "Nandas"
+    ],
+    [
+     "Satavahana",
+     "Satavahanas",
+     "Satavahana Empire"
+    ],
+    "Gandhara",
+    "Xiongnu",
+    [
+     "Gojoseon",
+     "Old Joseon"
+    ],
+    [
+     "Goguryeo",
+     "Koguryo"
+    ],
+    [
+     "Baekje",
+     "Paekche"
+    ],
+    "Silla",
+    [
+     "Jomon",
+     "Jomon period"
+    ],
+    [
+     "Yayoi",
+     "Yayoi period"
+    ],
+    [
+     "Funan",
+     "Kingdom of Funan"
+    ],
+    [
+     "Dong Son",
+     "Dong Son culture"
+    ],
+    [
+     "Oxus civilisation",
+     "BMAC",
+     "Bactria-Margiana Archaeological Complex",
+     "Oxus civilization"
+    ],
+    [
+     "Norte Chico",
+     "Caral",
+     "Caral-Supe"
+    ],
+    [
+     "Paracas",
+     "Paracas culture"
+    ],
+    [
+     "Tiwanaku",
+     "Tiahuanaco"
+    ],
+    [
+     "Mixtec",
+     "Mixtecs"
+    ],
+    [
+     "Hopewell",
+     "Hopewell culture"
+    ],
+    [
+     "Adena",
+     "Adena culture"
+    ],
+    [
+     "Hallstatt culture",
+     "Hallstatt"
+    ],
+    [
+     "La Tene culture",
+     "La Tène",
+     "La Tene"
     ]
    ]
   },
