@@ -992,15 +992,23 @@
     "Tanta",
     [
      "Faiyum",
-     "Fayoum"
+     "Fayoum",
+     "Fayum"
     ],
     "Ismailia",
     [
      "Asyut",
      "Assiut"
     ],
-    "Damietta",
-    "Minya",
+    [
+     "Damietta",
+     "Dumyat"
+    ],
+    [
+     "Minya",
+     "El Minya",
+     "Minia"
+    ],
     "Sohag",
     "Zagazig",
     "Qena",
@@ -1027,7 +1035,8 @@
     "Soma Bay",
     [
      "Marsa Matruh",
-     "Mersa Matruh"
+     "Mersa Matruh",
+     "Matrouh"
     ],
     "El Alamein",
     "Edfu",
@@ -1035,25 +1044,150 @@
     "Abu Simbel",
     "Beni Suef",
     "Damanhur",
-    "Banha",
+    [
+     "Banha",
+     "Benha"
+    ],
     "Kafr El Sheikh",
     [
      "Arish",
      "El Arish"
     ],
-    "New Administrative Capital",
+    [
+     "New Administrative Capital",
+     "New Capital"
+    ],
     "Shubra El Kheima",
     "Saint Catherine",
-    "Ras Sudr",
+    [
+     "Ras Sudr",
+     "Ras Sedr"
+    ],
     "El Tor",
     "Sahl Hasheesh",
     "Dakhla",
     "Kharga",
-    "Esna",
+    [
+     "Esna",
+     "Isna"
+    ],
     "Mallawi",
     "Rafah",
     "Port Fuad",
-    "Kafr el-Dawwar"
+    "Kafr el-Dawwar",
+    [
+     "El Quseir",
+     "Quseir",
+     "Al Qusayr",
+     "Quseer"
+    ],
+    "Heliopolis",
+    "Maadi",
+    [
+     "New Alamein",
+     "New El Alamein"
+    ],
+    [
+     "El Mahalla El Kubra",
+     "Mahalla",
+     "El Mahalla"
+    ],
+    [
+     "Abu Qir",
+     "Aboukir"
+    ],
+    "Port Ghalib",
+    [
+     "Berenice",
+     "Berenis"
+    ],
+    [
+     "10th of Ramadan City",
+     "tenth of ramadan"
+    ],
+    [
+     "Obour City",
+     "El Obour",
+     "Obour"
+    ],
+    "Sadat City",
+    "Badr City",
+    [
+     "El Shorouk",
+     "Shorouk City",
+     "Shorouk"
+    ],
+    "Borg El Arab",
+    [
+     "Shibin El Kom",
+     "Shebin El Kom"
+    ],
+    "Ras El Bar",
+    "New Damietta",
+    "Agami",
+    "Ras El Hekma",
+    "Sidi Abdel Rahman",
+    [
+     "Sallum",
+     "Salloum"
+    ],
+    "Sidi Barrani",
+    "El Dabaa",
+    "Ras Gharib",
+    "Zafarana",
+    "Abu Zenima",
+    "Abu Rudeis",
+    "Sheikh Zuweid",
+    [
+     "El Qantara",
+     "Qantara"
+    ],
+    "Fayed",
+    "Port Tawfik",
+    [
+     "Bilbeis",
+     "Belbeis"
+    ],
+    "Faqous",
+    "Mit Ghamr",
+    "Talkha",
+    [
+     "Desouk",
+     "Disuq"
+    ],
+    "Baltim",
+    "Edku",
+    "Kafr El Zayat",
+    "Zifta",
+    "Menouf",
+    "Qalyub",
+    "Akhmim",
+    "Girga",
+    "Tahta",
+    "Nag Hammadi",
+    "Qus",
+    "Armant",
+    "Daraw",
+    "Dendera",
+    "Manfalut",
+    "Abu Tig",
+    "Dayrut",
+    "Samalut",
+    "Beni Mazar",
+    "Maghagha",
+    "Toshka",
+    "Farafra",
+    [
+     "Bawiti",
+     "Bahariya"
+    ],
+    [
+     "Shalateen",
+     "Shalatin"
+    ],
+    "Wadi El Natrun",
+    "Hawamdeya",
+    "Kirdasa"
    ]
   },
   {
