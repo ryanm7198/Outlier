@@ -3802,17 +3802,14 @@ function badgeHTML(b) {
 
 function youPlusHTML(st) {
   if (st.categories.locked) return `<button class="upsell-row card" id="youPlus"><span class="award-ic">${ic('lock')}</span>
-    <span class="award-t"><b>Your categories and last 50 answers</b><small>How you do in each category, and every answer you gave, with Outlier Plus</small></span>${ic('right', 'chev')}</button>`;
+    <span class="award-t"><b>Your categories</b><small>Your average score in each category, with Outlier Plus</small></span>${ic('right', 'chev')}</button>`;
   const cats = st.categories.filter(c => c.answers);
+  const best = Math.max(1, ...cats.map(c => c.avgPoints));   // bars are measured against your best category
   return `<section class="card"><h3>By category</h3>${cats.length ? `<ul class="rows catstats">${cats.map(c => `<li>
       <span class="award-ic">${ic(CAT_ICON[c.id] || 'sparkles')}</span>
-      <span class="main"><b>${esc(c.label)}</b><small>${c.answers} answer${c.answers === 1 ? '' : 's'} · ${c.avgPoints} pts each</small>
-        <span class="cat-bar" aria-hidden="true"><i style="width:${c.correctPct}%"></i></span></span>
-      <span class="num">${c.correctPct}%<small>right</small></span></li>`).join('')}</ul>` : '<p class="muted">Play a few prompts to see how you do in each category.</p>'}</section>
-    <section class="card"><h3>Your last ${st.recent.length || ''} answers</h3>${st.recent.length ? `<ul class="rows recent-ans">${st.recent.map(r => `<li>
-      <span class="main"><b>${r.valid ? esc(r.answer) : `<span class="strike">${esc(r.answer)}</span>`}${r.outlier ? ' <span class="tag out">Outlier</span>' : ''}</b>
-        <small>${esc(r.prompt)}</small></span>
-      <span class="num">+${r.points}<small>${r.valid ? `${r.share}%` : 'not on the list'}</small></span></li>`).join('')}</ul>` : '<p class="muted">Nothing yet.</p>'}</section>`;
+      <span class="main"><b>${esc(c.label)}</b><small>${c.answers} answer${c.answers === 1 ? '' : 's'} · ${c.correctPct}% right</small>
+        <span class="cat-bar" aria-hidden="true"><i style="width:${(100 * c.avgPoints / best).toFixed(1)}%"></i></span></span>
+      <span class="num">${c.avgPoints}<small>avg score</small></span></li>`).join('')}</ul>` : '<p class="muted">Play a few prompts to see how you do in each category.</p>'}</section>`;
 }
 
 async function youPage() {

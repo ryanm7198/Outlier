@@ -2612,7 +2612,7 @@ def my_stats(q):
         "unlocks": cat_unlocks(plays, cids),
     }
     if not out["plus"]:
-        out.update(categories={"locked": True}, recent={"locked": True})
+        out.update(categories={"locked": True})
         return out
     by = {}
     for p in plays:
@@ -2621,8 +2621,6 @@ def my_stats(q):
                           "correctPct": round(100 * sum(p[4] for p in by[c["id"]]) / len(by[c["id"]])) if by.get(c["id"]) else 0,
                           "avgPoints": round(sum(p[5] for p in by[c["id"]]) / len(by[c["id"]]), 1) if by.get(c["id"]) else 0}
                          for c in tops]
-    out["recent"] = [{"ts": p[0], "prompt": PROMPTS[p[1]]["text"] if p[1] in PROMPTS else "", "cat": p[2], "answer": p[3],
-                      "valid": bool(p[4]), "points": p[5], "share": p[6], "outlier": bool(p[7])} for p in plays[::-1][:50]]
     return out
 
 

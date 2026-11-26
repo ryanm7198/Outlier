@@ -1009,7 +1009,6 @@ details.how .steps + .fine { margin-top: 14px; }
 .catstats .award-ic { width: 34px; height: 34px; }
 .cat-bar { display: block; height: 5px; border-radius: 9px; background: var(--card-2); margin-top: 6px; overflow: hidden; }
 .cat-bar i { display: block; height: 100%; border-radius: 9px; background: linear-gradient(90deg, var(--you), var(--you-2)); }
-.recent-ans .main small { white-space: normal; }
 .tag.out { color: var(--you); border-color: var(--you); margin-left: 4px; vertical-align: 2px; }
 .badge-pop { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; padding: 16px; background: rgba(8, 9, 22, .6); animation: bpFade .25s ease both; }
 .bp-card { width: min(100%, 360px); background: var(--card); border: 1px solid var(--line-2); border-radius: 22px; padding: 22px 18px 18px; text-align: center;
