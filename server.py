@@ -442,7 +442,7 @@ def sync_answers():
         print(f"  Answer lists synced with the question files ({changed} changes)", flush=True)
 
 
-PRIOR_PLAYS = 300   # the starting crowd weighs as much as this many real plays on a prompt
+PRIOR_PLAYS = 240   # the starting crowd weighs as much as this many real plays on a prompt
 PLAY_FLOOR = 0.1    # every answer counts as at least a tenth of a play, so rare ones can't collapse to zero
 
 
