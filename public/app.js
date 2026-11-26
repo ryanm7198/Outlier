@@ -331,7 +331,9 @@ const MOODS = {
 };
 // ---- podium emotes: what you do on the steps when you finish first, second (or third of four or more). Everyone
 // has "Arms up"; each main category has one more, earned with 25 right answers in it.
-const ARMS = inner => `<g style="stroke:var(--pc);fill:var(--pc)" stroke-width="3.4" stroke-linecap="round">${inner}</g>`;
+// Arms are a shade darker than the head so they stand out against it (and against the same-coloured background tint)
+const ARM_COL = 'color-mix(in srgb, var(--pc) 72%, #14152b)';
+const ARMS = inner => `<g style="stroke:${ARM_COL};fill:${ARM_COL}" stroke-width="3.4" stroke-linecap="round">${inner}</g>`;
 // An arm from the shoulder (x1, y1) to the hand (x2, y2), with a soft bend at the elbow (outwards and down, the way
 // arms hang), turning about the shoulder when it moves. `hand` swaps the round hand for something else (a glove).
 function arm(x1, y1, x2, y2, cls = '', bend = .26, hand = '') {
