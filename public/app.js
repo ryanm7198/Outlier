@@ -261,6 +261,22 @@ const HAT_FIT = ['float', 'cover', 'cover', 'cover', 'cover', 'side', 'float', '
 CAT_ITEMS.forEach(it => { if (it.part === 3) HAT_FIT[it.idx] = { Sweatband: 'band', 'Laurel wreath': 'band', 'Gaming headset': 'side' }[it.name] || 'cover'; });
 // The top of each head (hats are drawn for a crown at y = 11), so a hat sits on the head rather than floating or sinking
 const HEAD_TOP = [11, 11.5, 11, 10, 11, 11, 12, 12, 11, 11, 12.5, 10.5];
+// Headphones and headsets are drawn for each head: the band hugs just outside that head's outline (rounded-square
+// heads get a squared band) and the cups sit on its sides. [left x, right x, band top y, cup centre y, corner radius]
+const PHONES_FIT = [[6.4, 33.6, 9.8, 24], [6.3, 33.7, 10.2, 24, 8], [6.4, 33.6, 9.8, 24], [7.6, 32.4, 8.8, 24],
+  [6.4, 33.6, 9.8, 24], [6.4, 33.6, 9.8, 24], [5.2, 34.8, 10.8, 24.5], [6.7, 33.3, 10.8, 24.5],
+  [5.7, 34.3, 9.7, 24, 5.3], [6.4, 33.6, 9.8, 24], [6.7, 33.3, 11.3, 25], [5.6, 34.4, 9.2, 24]];
+function phones(hd, cup, rim, mic, band2 = '#c9d3e6') {
+  const [l, r, top, cy, rad] = PHONES_FIT[hd] || PHONES_FIT[0], end = cy + 1;
+  const band = rad ? `M${l} ${end}V${top + rad}a${rad} ${rad} 0 0 1 ${rad}-${rad}H${r - rad}a${rad} ${rad} 0 0 1 ${rad} ${rad}V${end}`
+    : `M${l} ${end}A${(r - l) / 2} ${end - top} 0 0 1 ${r} ${end}`;
+  const w = mic ? 5.6 : 5, h = mic ? 10 : 9, cl = l + 1 - w / 2, cr = r - 1 - w / 2, y = cy + 1.5 - h / 2;
+  const cupAt = x => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="2.3" fill="${cup}"${rim ? ` stroke="${rim}" stroke-width=".7"` : ''}/>`;
+  const boom = mic ? `<path d="M${l + 1} ${y + h - .5}q1 4.4 7.4 4" fill="none" stroke="${INK}" stroke-width="1.2"/><circle cx="${l + 8.6}" cy="${y + h + 3.5}" r="1.5" fill="${INK}"/>` : '';
+  return `<g fill="none" stroke-linejoin="round"><path d="${band}" stroke="${INK}" stroke-width="3"/><path d="${band}" stroke="${band2}" stroke-width="1.3"/></g>${cupAt(cl)}${cupAt(cr)}${boom}`;
+}
+const PHONES = { 5: hd => phones(hd, '#ff9f43') };
+CAT_ITEMS.forEach(it => { if (it.name === 'Gaming headset') PHONES[it.idx] = hd => phones(hd, '#7bd88f', INK, true); });
 const CAT_LABEL = { sport: 'Sport', music: 'Music', film: 'Film & TV', gaming: 'Gaming', geography: 'Geography', history: 'History',
   science: 'Science & Nature', food: 'Food & Drink', words: 'Books & Words', misc: 'Pot luck' };
 const CAT_GOALS = [
@@ -409,7 +425,7 @@ const avatar = (name, color, look, mood) => {
   let head = LOOK_PARTS[0][hd];
   if (fit === 'cover') head = head.replace(/<g data-top>.*?<\/g>/g, '');
   if (fit === 'side') head = head.replace(/<g data-side>.*?<\/g>/g, '');
-  const hat = LOOK_PARTS[3][ht] && dy && fit !== 'float' ? `<g transform="translate(0 ${dy})">${LOOK_PARTS[3][ht]}</g>` : LOOK_PARTS[3][ht];
+  const hat = PHONES[ht] ? PHONES[ht](hd) : LOOK_PARTS[3][ht] && dy && fit !== 'float' ?`<g transform="translate(0 ${dy})">${LOOK_PARTS[3][ht]}</g>` : LOOK_PARTS[3][ht];
   return `<span class="av ch${m ? ` ${m.cls || 'mood-' + mood}` : ''}" style="--pc:${PCOL[color] || PCOL[0]}" role="img" aria-label="${esc(name || '')}"><svg viewBox="0 0 40 40" aria-hidden="true">`
     + `${m ? m.behind : ''}<g style="fill:var(--pc)">${head}</g>${under}${m ? m.eyes : LOOK_PARTS[1][ey]}${m ? m.mouth : LOOK_PARTS[2][mo]}${over}${hat}${m && m.front || ''}</svg></span>`;
 };
