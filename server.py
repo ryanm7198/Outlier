@@ -8,6 +8,7 @@ Approve:  python server.py approve <prompt-id> <answer text>
 import datetime
 import functools
 import glob
+import gzip
 import hashlib
 import hmac
 import json
@@ -271,11 +272,34 @@ def match_detail(pid, raw):
     best, names = cap + 1, set()
     for key, name in table.items():
         d = lev(n, key, cap)
+        if d <= cap and word_swap(n, key):
+            continue
         if d < best:
             best, names = d, {name}
         elif d == best:
             names.add(name)
     return (names.pop(), False) if best <= cap and len(names) == 1 else (None, False)
+
+
+try:   # British English word forms (from the Hunspell en_GB dictionary), used to stop typo-matching one real word to another
+    WORDS = set(gzip.open(os.path.join(ROOT, "words-gb.txt.gz"), "rt", encoding="utf-8").read().split())
+except OSError:
+    WORDS = set()
+
+
+def word_swap(typed, key):
+    """True when a near-miss would turn one real word into a different real word ("toffee" -> "coffee",
+    "beer" -> "bear"): that's a different answer, not a typo, so it mustn't match."""
+    a, b = typed.split(), key.split()
+    if len(b) > 3:          # in a long title a slip like "he" for "the" is just a typo
+        return False
+    if len(a) != len(b):
+        a, b = [typed.replace(" ", "")], [key.replace(" ", "")]
+    for x, y in zip(a, b):
+        same = x == y or singular(x) == singular(y) or {x, y} & {y + "s", y + "es", x + "s", x + "es"}
+        if not same and min(len(x), len(y)) >= 3 and x in WORDS and y in WORDS:
+            return True
+    return False
 
 
 def match(pid, raw):
