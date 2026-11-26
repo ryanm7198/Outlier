@@ -372,12 +372,12 @@ const SUB_ICON = { football: 'ball', darts: 'crosshair', f1: 'flame', combat: 's
 const glove = (x, y) => `<circle cx="${x}" cy="${y}" r="3.9" fill="#ff4d4d" stroke="${INK}" stroke-width=".6"/><path d="M${x - 2.2} ${y + 1.6}q2.2 1.2 4.4 0" stroke="#fff" stroke-width=".7" fill="none" opacity=".8"/>`;
 const drops = [[-3, -9, 0], [2, -11, .12], [6, -8, .25], [-1, -13, .35], [8, -12, .5], [4, -15, .62]];
 EMOTES.push(
-  { id: 'oneeighty', cat: 'sport', sub: 'darts', name: 'One hundred and eighty!', eyes: LOOK_PARTS[1][4], mouth: GRIN,
+  { id: 'oneeighty', cat: 'sport', sub: 'darts', name: 'Bullseye!', eyes: LOOK_PARTS[1][4], mouth: GRIN,
     behind: ARMS(arm(9, 30, 5.5, 20, 'pump')),
     front: `<g transform="translate(5 3)"><circle r="5.6" fill="#14152b"/><circle r="4.4" fill="#f1e3c4"/><circle r="3" fill="#2a7a45"/><circle r="1.8" fill="#f1e3c4"/><circle r=".8" fill="#ff4d4d"/></g>`
       + `<g class="dart"><path d="M6.5 3h5.2" stroke="#c9d3e6" stroke-width="1"/><path d="M11.4 3l2.6-1.8v3.6z" fill="#ff6b6b"/><path d="M5 3h1.8" stroke="${INK}" stroke-width=".7"/></g>`
       + ARMS(arm(31, 30, 36.5, 18.5, 'throw'))
-      + `<g class="ton"><rect x="13" y="-11" width="16" height="7" rx="2" fill="#ffd166" stroke="#c98f1c" stroke-width=".6"/><text x="21" y="-5.6" text-anchor="middle" font-size="5.6" font-weight="900" fill="${INK}" font-family="system-ui, sans-serif">180</text></g>` },
+      + `<g class="ton"><rect x="8" y="-11" width="26" height="7" rx="2" fill="#ffd166" stroke="#c98f1c" stroke-width=".6"/><text x="21" y="-6" text-anchor="middle" font-size="4.3" font-weight="900" fill="${INK}" font-family="system-ui, sans-serif">BULLSEYE</text></g>` },
   { id: 'aeroplane', cat: 'sport', sub: 'football', name: 'Aeroplane', eyes: HAPPY, mouth: `<ellipse cx="20" cy="29.8" rx="3.2" ry="2.6" fill="${INK}"/>`,
     behind: ARMS(arm(9, 30, -2.5, 27, 'wing l', .12) + arm(31, 30, 42.5, 27, 'wing r', .12)),
     front: `<g class="trail" stroke="#fff" stroke-width=".8" stroke-linecap="round" opacity=".6"><path d="M-6 34h6M-4 37h5M40 34h6M39 37h5"/></g>` },
