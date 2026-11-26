@@ -444,6 +444,7 @@ def sync_answers():
 
 
 PRIOR_PLAYS = 240   # the starting crowd weighs as much as this many real plays on a prompt
+PLAY_WEIGHT = 0.6   # each real pick moves an answer this much of a full play, so scores shift in gentler steps
 PLAY_FLOOR = 0.1    # every answer counts as at least a tenth of a play, so rare ones can't collapse to zero
 
 
@@ -484,7 +485,7 @@ def counts_for(pid):
     Answers named often on other prompts in the category get a small head start (familiarity, above)."""
     rows = DB.execute("SELECT name, count - plays, plays FROM answers WHERE prompt_id = ?", (pid,)).fetchall()
     prior_total = sum(max(0, p) for _, p, _ in rows) or 1
-    return {n: PRIOR_PLAYS * max(0, p) / prior_total + plays + familiarity(pid, n, plays) + PLAY_FLOOR
+    return {n: PRIOR_PLAYS * max(0, p) / prior_total + PLAY_WEIGHT * plays + familiarity(pid, n, plays) + PLAY_FLOOR
             for n, p, plays in rows}
 
 
