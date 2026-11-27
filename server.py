@@ -136,6 +136,9 @@ SPECIAL = str.maketrans({"æ": "ae", "Æ": "AE", "œ": "oe", "Œ": "OE", "ø": "
 
 def norm(s):
     s = str(s).replace("’", "").replace("'", "").replace("&", " and ").translate(SPECIAL)
+    # A lone note letter with a sharp or flat sign is a musical key: "F# major" must not read as "F major"
+    s = re.sub(r"(?<![A-Za-z])([A-Ga-g])\s?[#♯](?![A-Za-z0-9])", r"\1 sharp", s)
+    s = re.sub(r"(?<![A-Za-z])([A-Ga-g])\s?♭(?![A-Za-z0-9])", r"\1 flat", s)
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"[^a-z0-9]+", " ", s).strip()
     s = re.sub(r"^(the|a|an) ", "", s)

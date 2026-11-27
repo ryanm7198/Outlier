@@ -629,6 +629,28 @@
     [
      "Professor Hastings",
      "Hastings"
+    ],
+    [
+     "Professor Cerise",
+     "Cerise",
+     "Professor Sakuragi",
+     "Sakuragi"
+    ],
+    [
+     "Professor Friede",
+     "Friede"
+    ],
+    [
+     "Professor Mirror",
+     "Mirror"
+    ],
+    [
+     "Professor Neroli",
+     "Neroli"
+    ],
+    [
+     "Cedric Juniper",
+     "Professor Cedric Juniper"
     ]
    ]
   },
@@ -647,10 +669,10 @@
     "Winona",
     [
      "Tate and Liza",
-     "Tate",
-     "Liza",
      "Tate & Liza"
     ],
+    "Tate",
+    "Liza",
     "Wallace",
     "Juan",
     "Roark",
@@ -899,7 +921,29 @@
     [
      "Ivan Alexeev",
      "Alexeev"
-    ]
+    ],
+    "König",
+    "Horangi",
+    "Krueger",
+    "Bale",
+    "Talon",
+    "Grinch",
+    "Zeus",
+    "Charly",
+    "Otter",
+    "Domino",
+    "Raines",
+    "Wyatt",
+    "Golem",
+    "Azur",
+    "Rodion",
+    "Minotaur",
+    "Mace",
+    "Iskra",
+    "Zane",
+    "Hutch",
+    "Reyes",
+    "Oni"
    ]
   },
   {
@@ -964,7 +1008,24 @@
     [
      "Bill Clinton",
      "Clinton"
-    ]
+    ],
+    [
+     "Grey Weaver",
+     "Weaver"
+    ],
+    [
+     "Maya Aguinaldo",
+     "Maya"
+    ],
+    [
+     "Elizabeth Grey",
+     "Grey"
+    ],
+    [
+     "Mackenzie Carver",
+     "Carver"
+    ],
+    "The Replacer"
    ],
    "deep": true
   },
@@ -1097,7 +1158,12 @@
      "Magni"
     ],
     "Antonidas",
-    "Varis"
+    "Varis",
+    [
+     "Varian Wrynn",
+     "Varian",
+     "Prince Varian"
+    ]
    ]
   },
   {
@@ -1213,7 +1279,8 @@
    "answers": [
     [
      "Arthas",
-     "Arthas Menethil"
+     "Arthas Menethil",
+     "Prince Arthas"
     ],
     [
      "Jaina Proudmoore",
@@ -1247,7 +1314,8 @@
     ],
     [
      "Malfurion Stormrage",
-     "Malfurion"
+     "Malfurion",
+     "Furion"
     ],
     [
      "Maiev Shadowsong",
@@ -1319,7 +1387,35 @@
     [
      "Drek'Thar",
      "Drekthar"
-    ]
+    ],
+    [
+     "Medivh",
+     "The Prophet"
+    ],
+    [
+     "Ner'zhul",
+     "The Lich King"
+    ],
+    [
+     "Terenas Menethil",
+     "King Terenas",
+     "Terenas"
+    ],
+    "Falric",
+    "Marwyn",
+    "Azgalor",
+    "Anetheron",
+    "Kaz'rogal",
+    "Detheroc",
+    [
+     "Shandris Feathermoon",
+     "Shandris"
+    ],
+    "Naisha",
+    "Nazgrel",
+    "Vol'jin",
+    "Gazlowe",
+    "Misha"
    ]
   },
   {
@@ -2307,7 +2403,8 @@
     [
      "Goro Akechi",
      "Akechi",
-     "Crow"
+     "Crow",
+     "Black Mask"
     ],
     [
      "Sojiro Sakura",
@@ -2357,7 +2454,11 @@
      "Chihaya Mifune",
      "Chihaya"
     ],
-    "Yaldabaoth",
+    [
+     "Yaldabaoth",
+     "The Holy Grail",
+     "God of Control"
+    ],
     [
      "Ichiko Ohya",
      "Ohya"
@@ -2393,7 +2494,43 @@
     [
      "Wakaba Isshiki",
      "Wakaba"
-    ]
+    ],
+    [
+     "Kaoru Iwai",
+     "Kaoru"
+    ],
+    [
+     "Principal Kobayakawa",
+     "Kobayakawa"
+    ],
+    [
+     "Mr. Ushimaru",
+     "Ushimaru"
+    ],
+    "Sugimura",
+    [
+     "Natsuhiko Nakanohara",
+     "Nakanohara"
+    ],
+    "Jose",
+    [
+     "Lala Escargot",
+     "Lala-chan"
+    ],
+    "Arsène",
+    "Satanael",
+    "Captain Kidd",
+    "Carmen",
+    "Zorro",
+    "Goemon",
+    "Johanna",
+    "Necronomicon",
+    "Milady",
+    "Robin Hood",
+    "Loki",
+    "Cendrillon",
+    "Jack Frost",
+    "Pixie"
    ]
   },
   {
@@ -2470,7 +2607,15 @@
    "answers": [
     [
      "Sonic",
-     "Sonic the Hedgehog"
+     "Sonic the Hedgehog",
+     "Super Sonic",
+     "Hyper Sonic",
+     "Classic Sonic",
+     "Modern Sonic",
+     "Sonic the Werehog",
+     "Werehog",
+     "Darkspine Sonic",
+     "Excalibur Sonic"
     ],
     [
      "Tails",
@@ -2479,7 +2624,8 @@
     ],
     [
      "Knuckles",
-     "Knuckles the Echidna"
+     "Knuckles the Echidna",
+     "Hyper Knuckles"
     ],
     [
      "Dr. Eggman",
@@ -2496,7 +2642,8 @@
     ],
     [
      "Shadow",
-     "Shadow the Hedgehog"
+     "Shadow the Hedgehog",
+     "Super Shadow"
     ],
     [
      "Rouge",
@@ -2513,13 +2660,19 @@
     ],
     [
      "Silver",
-     "Silver the Hedgehog"
+     "Silver the Hedgehog",
+     "Super Silver"
     ],
     [
      "Blaze",
-     "Blaze the Cat"
+     "Blaze the Cat",
+     "Burning Blaze"
     ],
-    "Metal Sonic",
+    [
+     "Metal Sonic",
+     "Metal Overlord",
+     "Neo Metal Sonic"
+    ],
     [
      "Espio",
      "Espio the Chameleon"
@@ -2528,7 +2681,6 @@
      "Vector",
      "Vector the Crocodile"
     ],
-    "Super Sonic",
     [
      "Charmy",
      "Charmy Bee"
@@ -2555,7 +2707,11 @@
      "Gamma",
      "E-102 Gamma"
     ],
-    "Chaos",
+    [
+     "Chaos",
+     "Perfect Chaos",
+     "Chaos Zero"
+    ],
     "Omochao",
     "Chao",
     [
@@ -2650,7 +2806,232 @@
     "Infinite",
     "Tikal",
     "Iblis",
-    "Solaris"
+    "Solaris",
+    [
+     "Elise",
+     "Princess Elise"
+    ],
+    "Emerl",
+    "Chocola",
+    "Froggy",
+    [
+     "E-101 Beta",
+     "Beta"
+    ],
+    [
+     "E-103 Delta",
+     "Delta"
+    ],
+    [
+     "E-104 Epsilon",
+     "Epsilon"
+    ],
+    [
+     "E-105 Zeta",
+     "Zeta"
+    ],
+    "Hard-Boiled Heavies",
+    "Heavy King",
+    "Heavy Gunner",
+    "Heavy Shinobi",
+    "Heavy Magician",
+    "Heavy Rider",
+    [
+     "Chip",
+     "Light Gaia"
+    ],
+    "Dark Gaia",
+    "Professor Pickle",
+    "Yacker",
+    "Time Eater",
+    "The End",
+    [
+     "Kocos",
+     "Koco"
+    ],
+    [
+     "Erazor Djinn",
+     "Erazor"
+    ],
+    "Shahra",
+    "Merlina",
+    "King Arthur",
+    "Caliburn",
+    "Sir Lancelot",
+    "Sir Gawain",
+    "Sir Percival",
+    "Nimue",
+    [
+     "Shade the Echidna",
+     "Shade"
+    ],
+    "Ix",
+    [
+     "Lumina Flowlight",
+     "Lumina"
+    ],
+    "Void",
+    [
+     "Trip the Sungazer",
+     "Trip"
+    ],
+    [
+     "Wisps",
+     "Wisp"
+    ],
+    "Mecha Knuckles",
+    "Tails Doll",
+    "Dark Oak",
+    "Bokkun",
+    "Bocoe",
+    "Decoe",
+    [
+     "Tom Wachowski",
+     "Tom"
+    ],
+    [
+     "Maddie Wachowski",
+     "Maddie"
+    ],
+    [
+     "Agent Stone",
+     "Stone"
+    ],
+    "Rachel",
+    [
+     "Wade Whipple",
+     "Wade"
+    ],
+    "Longclaw",
+    [
+     "Commander Walters",
+     "Walters"
+    ],
+    "Crazy Carl",
+    "Scratch",
+    "Grounder",
+    "Coconuts",
+    [
+     "Antoine",
+     "Antoine D'Coolette"
+    ],
+    [
+     "Bunnie Rabbot",
+     "Bunnie"
+    ],
+    [
+     "Rotor",
+     "Rotor Walrus"
+    ],
+    [
+     "Snively",
+     "Snively Robotnik"
+    ],
+    [
+     "Uncle Chuck",
+     "Sir Charles Hedgehog"
+    ],
+    "NICOLE",
+    "Dulcy",
+    "Sonia",
+    "Manic",
+    [
+     "Queen Aleena",
+     "Aleena"
+    ],
+    "Sleet",
+    "Dingo",
+    "Chuck Thorndyke",
+    "Helen",
+    "Tanaka",
+    "Ella",
+    "Dave the Intern",
+    "Comedy Chimp",
+    "Fastidious Beaver",
+    "Lady Walrus",
+    "Mayor Fink",
+    "Nine",
+    "Rusty Rose",
+    "Thorn Rose",
+    "Renegade Knucks",
+    "Black Rose",
+    "Dread",
+    "Gnarly Knuckles",
+    "Chaos Council",
+    "Shard",
+    [
+     "Scourge the Hedgehog",
+     "Scourge"
+    ],
+    [
+     "Fiona Fox",
+     "Fiona"
+    ],
+    [
+     "Mina Mongoose",
+     "Mina"
+    ],
+    "Julie-Su",
+    "Lien-Da",
+    "Locke",
+    "Monkey Khan",
+    "Geoffrey St. John",
+    "Mammoth Mogul",
+    [
+     "Dr. Finitevus",
+     "Finitevus"
+    ],
+    "Mecha Sally",
+    [
+     "Ixis Naugus",
+     "Naugus"
+    ],
+    [
+     "King Max Acorn",
+     "King Acorn"
+    ],
+    "Elias Acorn",
+    "Tommy Turtle",
+    [
+     "Jewel the Beetle",
+     "Jewel"
+    ],
+    "Mr. Tinker",
+    [
+     "Clove the Pronghorn",
+     "Clove"
+    ],
+    "Rough and Tumble",
+    [
+     "Lanolin the Sheep",
+     "Lanolin"
+    ],
+    [
+     "Mimic the Octopus",
+     "Mimic"
+    ],
+    "Johnny Lightfoot",
+    "Porker Lewis",
+    [
+     "Tekno the Canary",
+     "Tekno"
+    ],
+    "Pachacamac",
+    [
+     "G.U.N. Commander",
+     "GUN Commander"
+    ],
+    "Doom's Eye",
+    "Captain Whisker",
+    "Johnny",
+    [
+     "ZERO",
+     "E-100 Alpha"
+    ],
+    [
+     "Rookie",
+     "Avatar"
+    ]
    ]
   },
   {
@@ -2936,7 +3317,73 @@
      "Thomas Downes",
      "Downes",
      "Mr Downes"
-    ]
+    ],
+    [
+     "Hercule Fontaine",
+     "Fontaine"
+    ],
+    [
+     "Edith Downes",
+     "Mrs Downes"
+    ],
+    [
+     "Archie Downes",
+     "Archie"
+    ],
+    [
+     "Jamie Linton",
+     "Jamie"
+    ],
+    [
+     "Sheriff Malloy",
+     "Curtis Malloy"
+    ],
+    [
+     "Leigh Gray",
+     "Sheriff Gray"
+    ],
+    "Tavish Gray",
+    [
+     "Beau Gray",
+     "Beau"
+    ],
+    [
+     "Penelope Braithwaite",
+     "Penelope"
+    ],
+    "Jimmy Brooks",
+    "Francis Sinclair",
+    "Algernon Wasp",
+    [
+     "Edmund Lowry Jr.",
+     "Edmund Lowry"
+    ],
+    "Black Belle",
+    "Jessica LeClerk",
+    "Cleet",
+    "Brother Dorkins",
+    "Tom Davies",
+    "Benedict Allbright",
+    [
+     "Jim Calloway",
+     "Jim Boy Calloway"
+    ],
+    "Emmet Granger",
+    "Flaco Hernandez",
+    "Billy Midnight",
+    [
+     "Davey Callender",
+     "Davey"
+    ],
+    "Cain",
+    "Taima",
+    "Boadicea",
+    [
+     "Gavin's Friend",
+     "Nigel"
+    ],
+    "Monroe",
+    "Paytah"
    ]
   }
  ]

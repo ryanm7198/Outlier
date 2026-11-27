@@ -195,7 +195,11 @@
     "Axolotl",
     "Tadpole",
     "Nautilus",
-    "Zombie nautilus"
+    "Zombie nautilus",
+    [
+     "Frog",
+     "Frogs"
+    ]
    ]
   },
   {
@@ -238,11 +242,15 @@
    "text": "Name a hostile mob (including bosses) in Minecraft (as listed on the Minecraft Wiki, 2026)",
    "answers": [
     "Creeper",
-    "Zombie",
+    [
+     "Zombie",
+     "Baby zombie"
+    ],
     "Skeleton",
     [
      "Ender dragon",
-     "Enderdragon"
+     "Enderdragon",
+     "Dragon"
     ],
     "Wither",
     "Warden",
@@ -283,7 +291,17 @@
      "Killer rabbit"
     ],
     "Parched",
-    "Illusioner"
+    "Illusioner",
+    "Chicken jockey",
+    "Spider jockey",
+    [
+     "Skeleton horseman",
+     "Skeleton trap"
+    ],
+    [
+     "Giant",
+     "Giant zombie"
+    ]
    ]
   }
  ]

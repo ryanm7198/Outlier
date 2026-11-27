@@ -1346,7 +1346,8 @@
     "Zombie Nautilus",
     "Camel Husk",
     "Happy Ghast",
-    "Ocelot"
+    "Ocelot",
+    "Fox"
    ]
   },
   {
@@ -1961,7 +1962,16 @@
    ],
    "text": "Name a character from The Legend of Zelda series",
    "answers": [
-    "Link",
+    [
+     "Link",
+     "Toon Link",
+     "Young Link",
+     "Wolf Link",
+     "Fierce Deity Link",
+     "Fierce Deity",
+     "Hero of Time",
+     "Hero of Winds"
+    ],
     [
      "Zelda",
      "Princess Zelda"
@@ -1969,12 +1979,18 @@
     [
      "Ganon",
      "Ganondorf",
-     "Calamity Ganon"
+     "Calamity Ganon",
+     "Dark Beast Ganon",
+     "Demon King Ganondorf",
+     "Demon King"
     ],
     "Navi",
     "Epona",
     "Midna",
-    "Tingle",
+    [
+     "Tingle",
+     "Mister Tingle"
+    ],
     "Impa",
     "Sheik",
     "Saria",
@@ -1993,12 +2009,20 @@
     "Zant",
     "Vaati",
     "Agahnim",
-    "King of Red Lions",
+    [
+     "King of Red Lions",
+     "King Daphnes",
+     "Daphnes Nohansen Hyrule"
+    ],
     [
      "Great Deku Tree",
-     "Deku Tree"
+     "Deku Tree",
+     "The Great Deku Tree"
     ],
-    "Kaepora Gaebora",
+    [
+     "Kaepora Gaebora",
+     "Kaepora"
+    ],
     "Mipha",
     "Daruk",
     "Revali",
@@ -2027,17 +2051,15 @@
     "Mido",
     "Hylia",
     "Nabooru",
+    "Twinrova",
+    "Koume",
+    "Kotake",
     [
      "King Rhoam",
      "Rhoam"
     ],
     "Riju",
     "Teba",
-    [
-     "Twinrova",
-     "Koume",
-     "Kotake"
-    ],
     "Tulin",
     "Sonia",
     "Bolson",
@@ -2052,7 +2074,461 @@
     "Rauru",
     "Skull Kid",
     "Mineru",
-    "Error"
+    "Error",
+    [
+     "Dark Link",
+     "Shadow Link"
+    ],
+    "Cucco",
+    "Korok",
+    "Goron",
+    "Zora",
+    "Moblin",
+    "Bokoblin",
+    "Octorok",
+    "Lynel",
+    "Guardian",
+    "Stalfos",
+    "Keese",
+    "Like Like",
+    "ReDead",
+    "Deku Scrub",
+    "Hinox",
+    "Darknut",
+    "Iron Knuckle",
+    "Wallmaster",
+    "Lizalfos",
+    "Chuchu",
+    "Wizzrobe",
+    "Poe",
+    "Gibdo",
+    "Skulltula",
+    [
+     "Gold Skulltula",
+     "Golden Skulltula"
+    ],
+    "Deku Baba",
+    "Peahat",
+    "Tektite",
+    "Leever",
+    "Armos",
+    "Beamos",
+    "Kokiri",
+    "Rito",
+    "Gerudo",
+    "Sheikah",
+    "Yiga Clan",
+    [
+     "Master Kohga",
+     "Kohga"
+    ],
+    "Phantom Ganon",
+    "King Dodongo",
+    [
+     "Gohma",
+     "Queen Gohma"
+    ],
+    "Volvagia",
+    "Bongo Bongo",
+    "Morpha",
+    "Barinade",
+    "Dodongo",
+    "Biggoron",
+    "Medigoron",
+    [
+     "King Zora",
+     "King Zora de Bon"
+    ],
+    [
+     "Lord Jabu-Jabu",
+     "Jabu-Jabu"
+    ],
+    "Ingo",
+    "Deku Tree Sprout",
+    "Fado",
+    "Poe Collector",
+    "Guru-Guru",
+    "Big Poe",
+    "Tael",
+    "The Moon",
+    "Odolwa",
+    "Goht",
+    "Gyorg",
+    "Twinmold",
+    "Cremia",
+    "Romani",
+    "Darmani",
+    "Mikau",
+    "Kamaro",
+    [
+     "Deku Butler",
+     "Butler"
+    ],
+    "Deku Princess",
+    "Deku King",
+    "Pamela",
+    [
+     "Igos du Ikana",
+     "King Igos du Ikana",
+     "Igos"
+    ],
+    "Captain Keeta",
+    "Lulu",
+    "Japas",
+    "Evan",
+    "Tijo",
+    [
+     "Mayor Dotour",
+     "Dotour"
+    ],
+    "Madame Aroma",
+    "Gorman Brothers",
+    "Gorman",
+    "Sakon",
+    "Shiro",
+    "Gabora",
+    "Zubora",
+    "Toto",
+    [
+     "The Giants",
+     "Four Giants"
+    ],
+    "Viscen",
+    "Mutoh",
+    "Postman",
+    "Aryll",
+    [
+     "Grandma",
+     "Link's Grandma"
+    ],
+    "Orca",
+    "Sturgeon",
+    "Quill",
+    [
+     "Prince Komali",
+     "Komali"
+    ],
+    "Valoo",
+    "Jabun",
+    "Niko",
+    "Gonzo",
+    "Senza",
+    "Mako",
+    "Nudge",
+    "Zuko",
+    "Helmaroc King",
+    "Ankle",
+    "David Jr.",
+    "Salvatore",
+    "Zunari",
+    "Doc Bandam",
+    "Mrs. Marie",
+    "Lenzo",
+    "Mila",
+    "Maggie",
+    "Laruto",
+    "Gohdan",
+    "Kalle Demos",
+    "Jalhalla",
+    "Molgera",
+    "Fishman",
+    [
+     "Mayor Bo",
+     "Bo"
+    ],
+    "Talo",
+    "Malo",
+    "Beth",
+    "Uli",
+    "Jaggle",
+    "Pergie",
+    "Hanch",
+    "Sera",
+    "Barnes",
+    "Renado",
+    "Luda",
+    "Telma",
+    "Auru",
+    "Ashei",
+    "Shad",
+    "Gor Coron",
+    "Darbus",
+    [
+     "Prince Ralis",
+     "Ralis"
+    ],
+    [
+     "Queen Rutela",
+     "Rutela"
+    ],
+    "Agitha",
+    "Purlo",
+    "Falbi",
+    "Jovani",
+    "Gengle",
+    "Yeta",
+    "Yeto",
+    "Ooccoo",
+    "Ooccoo Jr.",
+    "Chudley",
+    "Ordona",
+    "King Bulblin",
+    "Ook",
+    "Dangoro",
+    "Death Sword",
+    "Darkhammer",
+    "Armogohma",
+    "Argorok",
+    "Stallord",
+    "Blizzeta",
+    "Fyrus",
+    "Morpheel",
+    "Diababa",
+    "Bulblin",
+    "Twili",
+    "Shadow Beast",
+    "Zant's Hand",
+    "Lanayru",
+    "Faron",
+    "Eldin",
+    "The Imprisoned",
+    [
+     "Gaepora",
+     "Headmaster Gaepora"
+    ],
+    "Pipit",
+    "Karane",
+    "Cawlin",
+    "Strich",
+    "Fledge",
+    "Owlan",
+    "Horwell",
+    "Batreaux",
+    "Scrapper",
+    "Machi",
+    "Gorko",
+    "Bucha",
+    "Kina",
+    "Peatrice",
+    "Peater",
+    "Gondo",
+    "Levias",
+    "Koloktos",
+    "Scaldera",
+    "Moldarach",
+    "Tentalus",
+    "Kikwi",
+    "Ledd",
+    "Mogma",
+    "Guld",
+    "Skipper",
+    "Crimson Loftwing",
+    "Loftwing",
+    "Sahasrahla",
+    "Aginah",
+    [
+     "Link's Uncle",
+     "Uncle"
+    ],
+    "Blind the Thief",
+    "Moldorm",
+    "Armos Knights",
+    "Lanmola",
+    "Arrghus",
+    "Helmasaur King",
+    "Mothula",
+    "Kholdstare",
+    "Vitreous",
+    "Trinexx",
+    "Flute Boy",
+    "Stumpy",
+    "Aquamentus",
+    "Manhandla",
+    "Digdogger",
+    "Gleeok",
+    "Patra",
+    "Bagu",
+    "Thunderbird",
+    "Barba",
+    "Horsehead",
+    "Carock",
+    "Gooma",
+    "Helmethead",
+    "Rebonack",
+    [
+     "BowWow",
+     "Bow-Wow"
+    ],
+    [
+     "Madam MeowMeow",
+     "Madame MeowMeow"
+    ],
+    "Richard",
+    "Crazy Tracy",
+    [
+     "Grandma Ulrira",
+     "Ulrira"
+    ],
+    "Schule Donavitch",
+    "Christine",
+    "Papahl",
+    "Mr. Write",
+    "Manbo",
+    "Mamu",
+    "Slime Eel",
+    "Facade",
+    "Angler Fish",
+    "Evil Eagle",
+    "Shadow Nightmare",
+    "Din",
+    "Nayru",
+    "Farore",
+    [
+     "General Onox",
+     "Onox"
+    ],
+    "Veran",
+    "Maku Tree",
+    "Ricky",
+    "Dimitri",
+    "Moosh",
+    "Ralph",
+    "Rosa",
+    "Maple",
+    "Vasu",
+    "Blaino",
+    "Subrosian",
+    [
+     "King Daltus",
+     "Daltus"
+    ],
+    "Minister Potho",
+    "Gentari",
+    "Melari",
+    "Festari",
+    "Swiftblade",
+    "Belari",
+    "Picori",
+    [
+     "Smith",
+     "Link's Grandfather"
+    ],
+    "Ciela",
+    "Oshus",
+    "Bellum",
+    "Jolene",
+    "Zauz",
+    "Byrne",
+    [
+     "Chancellor Cole",
+     "Cole"
+    ],
+    "Malladus",
+    "Alfonso",
+    "Anjean",
+    "Gage",
+    "Kagoron",
+    "Leaf",
+    "Neri",
+    "Irene",
+    "Gulley",
+    "Seres",
+    "Osfala",
+    "Oren",
+    "Rosso",
+    [
+     "Mother Maiamai",
+     "Maiamai"
+    ],
+    "Waterblight Ganon",
+    "Fireblight Ganon",
+    "Thunderblight Ganon",
+    "Windblight Ganon",
+    "Hudson",
+    "Kilton",
+    [
+     "King Dorephan",
+     "Dorephan"
+    ],
+    "Muzu",
+    "Buliara",
+    "Kaneli",
+    "Bludo",
+    "Dorian",
+    "Cado",
+    "Koko",
+    "Cottla",
+    "Pikango",
+    "Granté",
+    "Terrako",
+    "Astor",
+    "Harbinger Ganon",
+    "Sooga",
+    "Molduga",
+    [
+     "Stone Talus",
+     "Talus"
+    ],
+    "Yiga Footsoldier",
+    "Rhondson",
+    "Brigo",
+    [
+     "Monk Maz Koshia",
+     "Maz Koshia"
+    ],
+    "Yona",
+    "Josha",
+    "Captain Hoz",
+    "Addison",
+    "Penn",
+    "Queen Gibdo",
+    "Colgera",
+    "Marbled Gohma",
+    "Mucktorok",
+    "Seized Construct",
+    "Zonai",
+    "Steward Construct",
+    "Gloom Hands",
+    "Tri",
+    "Null",
+    "Lueberry",
+    "Linkle",
+    "Lana",
+    "Cia",
+    "Volga",
+    "Wizzro",
+    "Cadence",
+    "Octavo",
+    "Morshu",
+    "King Harkinian",
+    "Gwonam",
+    "Duke Onkled",
+    "Madame Couture",
+    "Lady Maud",
+    "Floormaster",
+    "Dinolfos",
+    "Freezard",
+    "Pols Voice",
+    "Zol",
+    "Gel",
+    "Rope",
+    "Ghini",
+    "Goriya",
+    "Vire",
+    "Bari",
+    "Stalchild",
+    "Wolfos",
+    "White Wolfos",
+    "Horriblin",
+    "Boss Bokoblin",
+    "Business Scrub",
+    "Garo",
+    "Bubble",
+    "Deku Scrub Salesman",
+    "Phantom",
+    "Pebblit",
+    "Evermean",
+    "Frox"
    ]
   },
   {
@@ -2383,7 +2859,8 @@
     "Kirby",
     [
      "King Dedede",
-     "Dedede"
+     "Dedede",
+     "Masked Dedede"
     ],
     [
      "Meta Knight",
@@ -2393,9 +2870,15 @@
     "Whispy Woods",
     "Waddle Doo",
     "Gooey",
-    "Marx",
+    [
+     "Marx",
+     "Marx Soul"
+    ],
     "Kracko",
-    "Dark Matter",
+    [
+     "Dark Matter",
+     "Dark Matter Blade"
+    ],
     [
      "Bandana Waddle Dee",
      "Bandana Dee"
@@ -2403,18 +2886,31 @@
     "Rick",
     "Kine",
     "Coo",
-    "Magolor",
+    [
+     "Magolor",
+     "Magolor Soul",
+     "Magolor EX"
+    ],
     "Zero",
     [
      "Zero Two",
-     "02"
+     "02",
+     "0²",
+     "Zero 2"
     ],
     "Susie",
-    "Adeleine",
+    [
+     "Adeleine",
+     "Ado"
+    ],
     "Ribbon",
     "Taranza",
     "Morpho Knight",
-    "Nightmare",
+    [
+     "Nightmare",
+     "Nightmare Wizard",
+     "Nightmare Orb"
+    ],
     "Daroach",
     "Sir Kibble",
     "Gordo",
@@ -2424,13 +2920,28 @@
     "Francisca",
     "Flamberge",
     "Zan Partizanne",
-    "Sectonia",
+    [
+     "Sectonia",
+     "Queen Sectonia",
+     "Soul of Sectonia"
+    ],
     "Landia",
     "Elfilin",
-    "Void Termina",
-    "Haltmann",
+    [
+     "Void Termina",
+     "Void Soul",
+     "Void"
+    ],
+    [
+     "Haltmann",
+     "President Haltmann",
+     "Max Profitt Haltmann"
+    ],
     "Dark Meta Knight",
-    "Chef Kawasaki",
+    [
+     "Chef Kawasaki",
+     "Kawasaki"
+    ],
     "Mr. Shine",
     "Mr. Bright",
     "Paint Roller",
@@ -2442,7 +2953,140 @@
     "Sword Knight",
     "Mike",
     "Hot Head",
-    "Chilly"
+    "Chilly",
+    "Shadow Kirby",
+    "Dark Mind",
+    "Drawcia",
+    "Star Dream",
+    "Hyness",
+    "Queen Ripple",
+    "Miracle Matter",
+    "Kracko Jr.",
+    [
+     "Lololo",
+     "Lolo"
+    ],
+    [
+     "Lalala",
+     "Lala"
+    ],
+    "Mr. Frosty",
+    "Bonkers",
+    "Bugzzy",
+    "Poppy Bros. Sr.",
+    "Mr. Tick-Tock",
+    "Fatty Whale",
+    "Heavy Mole",
+    "Kabula",
+    "Captain Stitch",
+    "Iron Mam",
+    "Fire Lion",
+    "Ice Dragon",
+    "Dyna Blade",
+    "Dyna Chick",
+    "Wham Bam Rock",
+    "Wham Bam Jewel",
+    "Heavy Lobster",
+    "Twin Woods",
+    "Computer Virus",
+    "Reactor",
+    "Chameleo Arm",
+    "Gigant Edge",
+    "Grand Wheelie",
+    "Flowery Woods",
+    "Pyribbit",
+    "Paintra",
+    "Coily Rattler",
+    "Clanky Woods",
+    "Holo Defense API",
+    "Mecha Knight",
+    "Grand Doomer",
+    "Leongar",
+    "Sillydillo",
+    "Clawroline",
+    "Gorimondo",
+    "Tropic Woods",
+    "Fecto Forgo",
+    [
+     "Fecto Elfilis",
+     "Chaos Elfilis",
+     "Elfilis"
+    ],
+    "Beast Pack",
+    "Necrodeus",
+    "Strato Patrol EOS",
+    "Dark Nebula",
+    "Spinni",
+    "Doc",
+    "Storo",
+    "King Golem",
+    "Moley",
+    "Wiz",
+    "Master Hand",
+    "Crazy Hand",
+    "Prince Fluff",
+    "Yin-Yarn",
+    "Dom Woole",
+    "Keeby",
+    "Gryll",
+    "Nago",
+    "ChuChu",
+    "Pitch",
+    "Axe Knight",
+    "Mace Knight",
+    "Javelin Knight",
+    "Trident Knight",
+    "Captain Vul",
+    "Pon & Con",
+    "Krackle",
+    "Lowell",
+    "Magman",
+    "Acro",
+    "Sweet Stuff",
+    "Pix",
+    "Mage-Sisters",
+    "Knuckle Joe",
+    "Kabu",
+    "Cappy",
+    "Twizzy",
+    "Blipper",
+    "Squishy",
+    "Glunk",
+    "Sparky",
+    "Rocky",
+    "Noddy",
+    "Broom Hatter",
+    "Cool Spook",
+    "Flamer",
+    "Laser Ball",
+    "Wheelie",
+    "Starman",
+    "UFO",
+    "Simirror",
+    "Tac",
+    "Pengy",
+    "Plasma Wisp",
+    "Bio Spark",
+    "Parasol Waddle Dee",
+    "Shotzo",
+    "Bomber",
+    "Box Boxer",
+    "Gim",
+    "Wapod",
+    "Bobo",
+    "Togezo",
+    "Needlous",
+    "Nruff",
+    "Pacto",
+    "Burning Leo",
+    "Galbo",
+    "Grizzo",
+    "Leap",
+    "Walky",
+    "Bouncy",
+    "Foley",
+    "Kookler",
+    "Mumbies"
    ]
   },
   {
@@ -2454,7 +3098,9 @@
    "answers": [
     [
      "Richtofen",
-     "Edward Richtofen"
+     "Edward Richtofen",
+     "Primis Richtofen",
+     "Ultimis Richtofen"
     ],
     [
      "Dempsey",
@@ -2550,10 +3196,67 @@
      "Finn"
     ],
     [
+     "Albert Arlington",
+     "Weasel",
      "Albert Arnold",
-     "Weasel"
+     "Al Arlington",
+     "The Weasel"
     ],
-    "The Shadowman"
+    "The Shadowman",
+    [
+     "Peter McCain",
+     "Peter"
+    ],
+    [
+     "Eddie",
+     "Little Eddie",
+     "Young Richtofen"
+    ],
+    [
+     "Nero Blackstone",
+     "Nero"
+    ],
+    [
+     "Jessica Rose",
+     "Jessica"
+    ],
+    [
+     "Jack Vincent",
+     "Jack"
+    ],
+    [
+     "Floyd Campbell",
+     "Floyd"
+    ],
+    [
+     "John F. Kennedy",
+     "JFK",
+     "Kennedy"
+    ],
+    [
+     "Robert McNamara",
+     "McNamara"
+    ],
+    [
+     "Richard Nixon",
+     "Nixon"
+    ],
+    [
+     "Fidel Castro",
+     "Castro"
+    ],
+    "Sarah Michelle Gellar",
+    "Danny Trejo",
+    "Robert Englund",
+    "Michael Rooker",
+    [
+     "George A. Romero",
+     "Romero"
+    ],
+    [
+     "The Keeper",
+     "Keepers"
+    ]
    ]
   },
   {
@@ -2570,7 +3273,8 @@
     ],
     [
      "Panzer Soldat",
-     "Panzer"
+     "Panzer",
+     "Mechz"
     ],
     "Brutus",
     [
@@ -2596,7 +3300,74 @@
     "Abomination",
     "Amalgam",
     "Avogadro",
-    "Mimic"
+    "Mimic",
+    [
+     "Space Monkey",
+     "Space Monkeys"
+    ],
+    [
+     "Cosmonaut",
+     "Phasing Cosmonaut"
+    ],
+    [
+     "Jumping Jack",
+     "Jumping Jacks"
+    ],
+    [
+     "Denizen",
+     "Denizens"
+    ],
+    [
+     "Thief Zombie",
+     "Thief",
+     "Pentagon Thief"
+    ],
+    [
+     "Spider",
+     "Spiders"
+    ],
+    [
+     "Parasite",
+     "Parasites"
+    ],
+    [
+     "Meatball",
+     "Meatballs"
+    ],
+    [
+     "Wasp",
+     "Wasps"
+    ],
+    "Sentinel Drone",
+    "Valkyrie Drone",
+    [
+     "Catalyst",
+     "Catalyst Zombie"
+    ],
+    [
+     "Blood Vampire",
+     "Blood Vampires"
+    ],
+    [
+     "Gladiator",
+     "Gladiators"
+    ],
+    "Megaton",
+    "Orda",
+    "Tempest",
+    "Disciple",
+    [
+     "Plaguehound",
+     "Plague Hound",
+     "Plaguehounds"
+    ],
+    [
+     "Nova Crawler",
+     "Nova 6 Crawler"
+    ],
+    "Doppelghast",
+    "Vermin",
+    "Shock Mimic"
    ]
   },
   {
@@ -2787,6 +3558,64 @@
     [
      "Hermann Freisinger",
      "Freisinger"
+    ],
+    [
+     "Jane Harrow",
+     "Harrow"
+    ],
+    [
+     "Valeria Garza",
+     "Valeria",
+     "El Sin Nombre"
+    ],
+    [
+     "Hassan Zyani",
+     "Hassan"
+    ],
+    [
+     "Alejandro Rojas",
+     "Rojas"
+    ],
+    [
+     "Volk",
+     "Dmitri Volk"
+    ],
+    [
+     "Javier Salazar",
+     "Salazar"
+    ],
+    "DeFalco",
+    [
+     "Manuel Noriega",
+     "Noriega"
+    ],
+    [
+     "Diego Almagro",
+     "Almagro"
+    ],
+    "Hades",
+    "Corvus",
+    [
+     "Heinrich Amsel",
+     "General Amsel",
+     "Amsel"
+    ],
+    [
+     "Jannick Richter",
+     "Richter"
+    ],
+    [
+     "Colonel Metz",
+     "Metz"
+    ],
+    "Dylan Stone",
+    [
+     "Sebastian Krueger",
+     "Krueger"
+    ],
+    [
+     "Emma Kagan",
+     "Kagan"
     ]
    ]
   },
@@ -4523,21 +5352,31 @@
     [
      "Master Chief",
      "John-117",
-     "Chief"
+     "Chief",
+     "John",
+     "Sierra-117",
+     "Master Chief Petty Officer John-117"
     ],
     "Cortana",
     [
      "Arbiter",
      "Thel 'Vadam",
-     "Thel Vadam"
+     "Thel Vadam",
+     "The Arbiter",
+     "Thel 'Vadamee",
+     "Thel Vadamee"
     ],
     [
      "Sergeant Johnson",
      "Sgt Johnson",
      "Avery Johnson",
-     "Johnson"
+     "Johnson",
+     "Sergeant Major Johnson"
     ],
-    "Miranda Keyes",
+    [
+     "Miranda Keyes",
+     "Commander Keyes"
+    ],
     [
      "Captain Keyes",
      "Jacob Keyes"
@@ -4549,22 +5388,36 @@
     "Gravemind",
     [
      "Noble Six",
-     "Six"
+     "Six",
+     "Sierra-B312",
+     "B312"
     ],
     [
      "Kat",
-     "Catherine-B320"
+     "Catherine-B320",
+     "Kat-B320"
     ],
     [
      "Carter",
      "Carter-A259"
     ],
-    "Jorge",
-    "Emile",
-    "Jun",
+    [
+     "Jorge",
+     "Jorge-052"
+    ],
+    [
+     "Emile",
+     "Emile-A239"
+    ],
+    [
+     "Jun",
+     "Jun-A266"
+    ],
     [
      "Lord Hood",
-     "Hood"
+     "Hood",
+     "Terrence Hood",
+     "Admiral Hood"
     ],
     "Atriox",
     "Escharum",
@@ -4583,7 +5436,8 @@
     ],
     [
      "Sarah Palmer",
-     "Palmer"
+     "Palmer",
+     "Commander Palmer"
     ],
     [
      "The Weapon",
@@ -4591,7 +5445,8 @@
     ],
     [
      "The Didact",
-     "Didact"
+     "Didact",
+     "Ur-Didact"
     ],
     [
      "The Librarian",
@@ -4628,11 +5483,156 @@
      "Kelly-087",
      "Kelly"
     ],
-    "Mendicant Bias",
     [
      "Rtas 'Vadum",
-     "Rtas Vadum"
-    ]
+     "Rtas Vadum",
+     "Half-Jaw",
+     "Shipmaster"
+    ],
+    [
+     "Thomas Lasky",
+     "Lasky",
+     "Commander Lasky",
+     "Captain Lasky"
+    ],
+    [
+     "The Pilot",
+     "Fernando Esparza",
+     "Echo-216"
+    ],
+    "Jul 'Mdama",
+    [
+     "Warden Eternal",
+     "The Warden"
+    ],
+    [
+     "Olympia Vale",
+     "Vale"
+    ],
+    [
+     "Holly Tanaka",
+     "Tanaka"
+    ],
+    "The Rookie",
+    [
+     "Dutch",
+     "Taylor Miles"
+    ],
+    [
+     "Mickey",
+     "Michael Crespo"
+    ],
+    [
+     "Romeo",
+     "Kojo Agu"
+    ],
+    [
+     "Vergil",
+     "Superintendent"
+    ],
+    [
+     "Captain Cutter",
+     "James Cutter",
+     "Cutter"
+    ],
+    "Serina",
+    [
+     "Sergeant Forge",
+     "John Forge",
+     "Forge"
+    ],
+    [
+     "Ellen Anders",
+     "Professor Anders",
+     "Anders"
+    ],
+    "Isabel",
+    "Decimus",
+    "Pavium",
+    "Voridus",
+    "Colony",
+    [
+     "Jerome-092",
+     "Jerome"
+    ],
+    [
+     "Alice-130",
+     "Alice"
+    ],
+    [
+     "Douglas-042",
+     "Douglas"
+    ],
+    "Ripa 'Moramee",
+    [
+     "Sesa 'Refumee",
+     "Heretic Leader",
+     "The Heretic"
+    ],
+    [
+     "Sergeant Stacker",
+     "Marcus Stacker",
+     "Stacker"
+    ],
+    [
+     "Sergeant Reynolds",
+     "Reynolds"
+    ],
+    [
+     "Chips Dubbo",
+     "Private Dubbo"
+    ],
+    "Private Jenkins",
+    [
+     "Colonel Holland",
+     "Urban Holland"
+    ],
+    [
+     "Captain Del Rio",
+     "Andrew Del Rio",
+     "Del Rio"
+    ],
+    [
+     "Henry Glassman",
+     "Dr Glassman"
+    ],
+    [
+     "Gabriel Thorne",
+     "Spartan Thorne",
+     "Thorne"
+    ],
+    "The Harbinger",
+    "Exuberant Witness",
+    "Yapyap",
+    "Hyperius",
+    "Tovarus",
+    "Bassus",
+    "Chak 'Lok",
+    "Jega 'Rdomnai",
+    [
+     "Adjutant Resolution",
+     "Adjutant"
+    ],
+    "Grunt",
+    "Elite",
+    "Brute",
+    "Jackal",
+    "Hunter",
+    "Drone",
+    "Engineer",
+    "Skirmisher",
+    "Flood",
+    "Sentinel",
+    [
+     "Promethean Knight",
+     "Knight"
+    ],
+    "Crawler",
+    "Watcher",
+    "Prophet",
+    "Spartan",
+    "ODST",
+    "Marine"
    ]
   },
   {
@@ -5458,7 +6458,82 @@
     [
      "Grace Ashcroft",
      "Grace"
-    ]
+    ],
+    [
+     "Ashley Graham",
+     "Ashley"
+    ],
+    [
+     "Moira Burton",
+     "Moira"
+    ],
+    [
+     "Natalia Korda",
+     "Natalia"
+    ],
+    "Tofu",
+    [
+     "Ark Thompson",
+     "Ark"
+    ],
+    "Joe Baker",
+    [
+     "Clancy Jarvis",
+     "Clancy"
+    ],
+    [
+     "Bruce McGivern",
+     "Bruce"
+    ],
+    "Fong Ling",
+    [
+     "Parker Luciani",
+     "Parker"
+    ],
+    [
+     "Jessica Sherawat",
+     "Jessica"
+    ],
+    [
+     "Kevin Ryman",
+     "Kevin"
+    ],
+    "Mark Wilkins",
+    "Jim Chapman",
+    "George Hamilton",
+    "David King",
+    [
+     "Alyssa Ashcroft",
+     "Alyssa"
+    ],
+    [
+     "Yoko Suzuki",
+     "Yoko"
+    ],
+    [
+     "Cindy Lennox",
+     "Cindy"
+    ],
+    [
+     "Keith Lumley",
+     "Keith"
+    ],
+    [
+     "Quint Ketcham",
+     "Quint"
+    ],
+    "Vector",
+    "Beltway",
+    "Bertha",
+    "Lupo",
+    "Spectre",
+    "Four Eyes",
+    "Valerie Harmon",
+    "January Van Sant",
+    "Samuel Jordan",
+    "Martin Sandwich",
+    "Tyrone Henry",
+    "Becky McKinley"
    ]
   },
   {
@@ -5474,12 +6549,13 @@
     ],
     [
      "Nemesis",
-     "Nemesis-T Type"
+     "Nemesis-T Type",
+     "Pursuer"
     ],
     [
      "Mr. X",
-     "Tyrant",
-     "T-103"
+     "T-103",
+     "Tyrant T-103"
     ],
     [
      "Lady Dimitrescu",
@@ -5489,7 +6565,9 @@
     [
      "William Birkin",
      "Birkin",
-     "Dr Birkin"
+     "Dr Birkin",
+     "G-Birkin",
+     "G"
     ],
     [
      "Osmund Saddler",
@@ -5570,12 +6648,77 @@
     ],
     [
      "James Marcus",
-     "Marcus"
+     "Marcus",
+     "Queen Leech"
     ],
     [
      "Bitores Mendez",
      "Mendez"
-    ]
+    ],
+    [
+     "Tyrant",
+     "T-002",
+     "Tyrant T-002"
+    ],
+    [
+     "Brian Irons",
+     "Chief Irons",
+     "Irons"
+    ],
+    [
+     "Lisa Trevor",
+     "Lisa"
+    ],
+    [
+     "Carla Radames",
+     "Carla"
+    ],
+    "Ustanak",
+    [
+     "Morgan Lansdale",
+     "Lansdale"
+    ],
+    [
+     "Jack Norman",
+     "Norman"
+    ],
+    [
+     "Bela Dimitrescu",
+     "Bela"
+    ],
+    [
+     "Cassandra Dimitrescu",
+     "Cassandra"
+    ],
+    [
+     "Daniela Dimitrescu",
+     "Daniela"
+    ],
+    "Angie",
+    "Verdugo",
+    "U-3",
+    [
+     "Morpheus D. Duvall",
+     "Morpheus Duvall",
+     "Duvall"
+    ],
+    [
+     "Vincent Goldman",
+     "Vincent"
+    ],
+    [
+     "Javier Hidalgo",
+     "Javier"
+    ],
+    "Ivan",
+    "Alexander Ashford",
+    [
+     "Dr. Salvador",
+     "Chainsaw Man",
+     "Salvador"
+    ],
+    "Del Lago",
+    "El Gigante"
    ]
   },
   {
@@ -5893,7 +7036,92 @@
     "Bloodworm",
     "Mongrel",
     "Fog Crawler",
-    "Angler"
+    "Angler",
+    "Liberty Prime",
+    "Codsworth",
+    [
+     "Synth",
+     "Synths"
+    ],
+    "Glowing One",
+    "Mirelurk King",
+    "Mirelurk Queen",
+    "Mirelurk Hunter",
+    "Scorchbeast",
+    "Scorchbeast Queen",
+    "Snallygaster",
+    "Grafton Monster",
+    "Wendigo",
+    "Flatwoods Monster",
+    "Sheepsquatch",
+    [
+     "Mega Sloth",
+     "Megasloth"
+    ],
+    "Mutant Hound",
+    "Floater",
+    "Spore Carrier",
+    "Spore Plant",
+    "Lakelurk",
+    "Nightkin",
+    "Tunneler",
+    "Trog",
+    "Swamplurk",
+    "Ghost People",
+    "Marked Men",
+    "Lobotomite",
+    [
+     "Roboscorpion",
+     "Robo-scorpion"
+    ],
+    "Cyberdog",
+    [
+     "Alien",
+     "Zetan"
+    ],
+    "Gulper",
+    "Lurk",
+    "Hermit Crab",
+    "Gatorclaw",
+    "Bighorner",
+    "Golden Gecko",
+    "Fire Gecko",
+    [
+     "Giant Mantis",
+     "Mantis"
+    ],
+    [
+     "Rad Rat",
+     "Radrat"
+    ],
+    "Radtoad",
+    [
+     "Radrabbit",
+     "Rad Rabbit"
+    ],
+    "Scorched",
+    "Mole Miner",
+    "Honey Beast",
+    "Miss Nanny",
+    "Courser",
+    "Turret",
+    "Vertibot",
+    "Coyote",
+    [
+     "Dog",
+     "Wild Dog"
+    ],
+    [
+     "Rad Ant",
+     "Radant"
+    ],
+    "Ghoul Reaver",
+    "Super Mutant Master",
+    "Radchicken",
+    "Ogua",
+    "Wolf",
+    "Earle Williams",
+    "Ultracite Titan"
    ]
   },
   {
@@ -5911,7 +7139,8 @@
     "Nekker",
     [
      "Leshen",
-     "Leshy"
+     "Leshy",
+     "Ancient Leshen"
     ],
     "Ghoul",
     "Wyvern",
@@ -5962,8 +7191,14 @@
     "Ice Giant",
     "Nightwraith",
     "Hym",
-    "Pesta",
-    "Gravehag",
+    [
+     "Pesta",
+     "Plague Maiden"
+    ],
+    [
+     "Gravehag",
+     "Grave Hag"
+    ],
     "Alp",
     "Garkain",
     "Bies",
@@ -5976,7 +7211,40 @@
     [
      "Hound of the Wild Hunt",
      "Wild Hunt Hound"
-    ]
+    ],
+    "Drowned Dead",
+    "Devourer",
+    "Scurver",
+    "Archespore",
+    [
+     "Giant Centipede",
+     "Centipede"
+    ],
+    "Pale Widow",
+    "Arachnomorph",
+    "Penitent",
+    "Fleder",
+    "Protofleder",
+    "Lubberkin",
+    "Cyclops",
+    "Erynia",
+    "Celaeno Harpy",
+    "Succubus",
+    "Earth Elemental",
+    "Fire Elemental",
+    "Ice Elemental",
+    "Royal Wyvern",
+    "Slyzard",
+    "Armored Arachas",
+    "Venomous Arachas",
+    "Kikimore Warrior",
+    "Kikimore Worker",
+    [
+     "Toad Prince",
+     "Frog Prince"
+    ],
+    "Bullvore",
+    "Morvudd"
    ]
   },
   {
@@ -5986,9 +7254,19 @@
    ],
    "text": "Name a character or boss from the Diablo series",
    "answers": [
-    "Diablo",
-    "Mephisto",
-    "Baal",
+    [
+     "Diablo",
+     "Uber Diablo",
+     "Lord of Terror"
+    ],
+    [
+     "Mephisto",
+     "Lord of Hatred"
+    ],
+    [
+     "Baal",
+     "Lord of Destruction"
+    ],
     [
      "Deckard Cain",
      "Cain"
@@ -6000,7 +7278,8 @@
     "The Butcher",
     [
      "Leoric",
-     "The Skeleton King"
+     "The Skeleton King",
+     "King Leoric"
     ],
     "Malthael",
     "Azmodan",
@@ -6017,17 +7296,21 @@
     "Auriel",
     "Adria",
     "Akarat",
-    "Rathma",
     [
      "Lorath Nahr",
      "Lorath"
     ],
     "Hephasto",
     "Neyrelle",
-    "Lazarus",
-    "Uldyssian",
+    [
+     "Lazarus",
+     "Archbishop Lazarus"
+    ],
     "Donan",
-    "Gharbad",
+    [
+     "Gharbad",
+     "Gharbad the Weak"
+    ],
     "Wirt",
     [
      "Covetous Shen",
@@ -6047,7 +7330,146 @@
     "Gheed",
     "Warriv",
     "Natalya",
-    "Itherael"
+    "Itherael",
+    "The Cow King",
+    [
+     "Prince Aidan",
+     "Aidan",
+     "The Dark Wanderer"
+    ],
+    [
+     "Prince Albrecht",
+     "Albrecht"
+    ],
+    "Tal Rasha",
+    "Marius",
+    "The Countess",
+    "Blood Raven",
+    "Astaroth",
+    "Elias",
+    "Maghda",
+    "Ogden",
+    "Pepin",
+    "Gillian",
+    "Farnham",
+    "Lachdanan",
+    "Hratli",
+    "Ormus",
+    "Alkor",
+    "Asheara",
+    "Meshif",
+    "Elzix",
+    "Atma",
+    "Fara",
+    "Lysander",
+    "Drognan",
+    "Greiz",
+    "Jerhyn",
+    "Kaelan",
+    "Geglash",
+    "Halbu",
+    "Jamella",
+    "Malah",
+    "Qual-Kehk",
+    "Larzuk",
+    "Anya",
+    "Nihlathak",
+    "Hadriel",
+    "Flavie",
+    "Bishibosh",
+    "Corpsefire",
+    "The Smith",
+    "Radament",
+    [
+     "Coldworm the Burrower",
+     "Coldworm"
+    ],
+    "The Summoner",
+    [
+     "Bloodwitch the Wild",
+     "Bloodwitch"
+    ],
+    "Fangskin",
+    "Beetleburst",
+    [
+     "Witch Doctor Endugu",
+     "Endugu"
+    ],
+    "Stormtree",
+    "Ismail Vilehand",
+    "Geleb Flamefinger",
+    "Toorc Icefist",
+    "Bremm Sparkfist",
+    "Wyand Voidbringer",
+    "Maffer Dragonhand",
+    "Grand Vizier of Chaos",
+    "Lord De Seis",
+    "Infector of Souls",
+    [
+     "Shenk the Overseer",
+     "Shenk"
+    ],
+    [
+     "Eldritch the Rectifier",
+     "Eldritch"
+    ],
+    "Thresh Socket",
+    "Pindleskin",
+    "Talic",
+    "Madawc",
+    "Korlic",
+    [
+     "Lister the Tormentor",
+     "Lister"
+    ],
+    "Treehead Woodfist",
+    [
+     "Zhar the Mad",
+     "Zhar"
+    ],
+    "Snotspill",
+    "Warlord of Blood",
+    "Black Jade",
+    "Red Vex",
+    "Na-Krul",
+    "Ghom",
+    [
+     "Siegebreaker Assault Beast",
+     "Siegebreaker"
+    ],
+    "Cydaea",
+    "Rakanoth",
+    "Iskatu",
+    [
+     "Queen Araneae",
+     "Araneae"
+    ],
+    "Urzael",
+    [
+     "Captain Rumford",
+     "Rumford"
+    ],
+    "Lyndon",
+    "Eirena",
+    [
+     "Myriam Jahzia",
+     "Myriam"
+    ],
+    "Prava",
+    "Ashava",
+    "Avarice",
+    "Wandering Death",
+    "Varshan",
+    "Grigoire",
+    "Beast in the Ice",
+    [
+     "Lord Zir",
+     "Zir"
+    ],
+    "Echo of Lilith",
+    "Skarn",
+    "Mira Eamon",
+    "Humbart Wessel"
    ]
   },
   {
@@ -6204,7 +7626,11 @@
      "Johnny",
      "Silverhand"
     ],
-    "V",
+    [
+     "V",
+     "Vincent",
+     "Valerie"
+    ],
     [
      "Jackie Welles",
      "Jackie"
@@ -6243,12 +7669,14 @@
     ],
     [
      "Dexter DeShawn",
-     "Dex"
+     "Dex",
+     "DeShawn"
     ],
     [
      "Viktor Vektor",
      "Viktor",
-     "Vik"
+     "Vik",
+     "Vic"
     ],
     [
      "Misty Olszewski",
@@ -6260,7 +7688,11 @@
     ],
     "Mama Welles",
     "T-Bug",
-    "Songbird",
+    [
+     "Songbird",
+     "Song So Mi",
+     "So Mi"
+    ],
     [
      "Alt Cunningham",
      "Alt"
@@ -6299,11 +7731,105 @@
      "Reed"
     ],
     [
-     "Fred Myers",
-     "Myers"
+     "Rosalind Myers",
+     "Myers",
+     "President Myers"
     ],
     "Kurt Hansen",
-    "Mr. Hands"
+    "Mr. Hands",
+    "Brendan",
+    "Sasquatch",
+    "Royce",
+    "Dum Dum",
+    [
+     "Maman Brigitte",
+     "Brigitte"
+    ],
+    "Nix",
+    [
+     "Jefferson Peralez",
+     "Jeff Peralez"
+    ],
+    "Elizabeth Peralez",
+    "Joshua Stephenson",
+    [
+     "Garry the Prophet",
+     "Garry"
+    ],
+    "Sandra Dorsett",
+    [
+     "Barry Lewis",
+     "Barry"
+    ],
+    [
+     "Carol Emeka",
+     "Carol"
+    ],
+    [
+     "Saul Bright",
+     "Saul"
+    ],
+    [
+     "Ozob Bozo",
+     "Ozob"
+    ],
+    [
+     "Kirk Sawyer",
+     "Kirk"
+    ],
+    "Brick",
+    [
+     "Dakota Smith",
+     "Dakota"
+    ],
+    [
+     "Mr. Blue Eyes",
+     "Blue Eyes"
+    ],
+    [
+     "Anders Hellman",
+     "Hellman"
+    ],
+    [
+     "Nancy Hartley",
+     "Bes Isis"
+    ],
+    "Henry",
+    "Denny",
+    [
+     "Sebastian Ibarra",
+     "Padre"
+    ],
+    [
+     "Muamar Reyes",
+     "El Capitán"
+    ],
+    [
+     "Alex",
+     "Alena Xenakis"
+    ],
+    "Oda",
+    "Skippy",
+    "Scorpion",
+    [
+     "Cassidy Righter",
+     "Cassidy"
+    ],
+    "Blue Moon",
+    "Purple Force",
+    "Red Menace",
+    [
+     "Maiko Maeda",
+     "Maiko"
+    ],
+    "Woodman",
+    "Nibbles",
+    [
+     "Dino Dinovic",
+     "Dino"
+    ],
+    "Fingers",
+    "Wilson"
    ]
   },
   {
@@ -6437,7 +7963,51 @@
     "Scourge",
     "Defiler",
     "Guardian",
-    "Devourer"
+    "Devourer",
+    "Larva",
+    "Broodling",
+    "Interceptor",
+    "Spider Mine",
+    "Scarab",
+    "Infested Terran",
+    "Locust",
+    "Changeling",
+    "Auto-Turret",
+    "Point Defense Drone",
+    "Nydus Worm",
+    "Spectre",
+    "Diamondback",
+    "Predator",
+    "Hercules",
+    "Odin",
+    "War Pig",
+    "Hybrid",
+    "Leviathan",
+    "Brutalisk",
+    "Omegalisk",
+    "Aberration",
+    "Impaler",
+    "Swarm Queen",
+    "Torrasque",
+    "Hunter Killer",
+    "Centurion",
+    "Sentinel",
+    "Purifier",
+    "Annihilator",
+    "Vanguard",
+    "Energizer",
+    "Mirage",
+    "Destroyer",
+    "Avenger",
+    "Slayer",
+    "Blood Hunter",
+    "Ascendant",
+    "Wrathwalker",
+    "Havoc",
+    "Supplicant",
+    "Instigator",
+    "Conservator",
+    "Warbringer"
    ]
   },
   {
@@ -6450,7 +8020,10 @@
     [
      "Sarah Kerrigan",
      "Kerrigan",
-     "Queen of Blades"
+     "Queen of Blades",
+     "Infested Kerrigan",
+     "Primal Kerrigan",
+     "Kerrigan the Queen of Blades"
     ],
     [
      "Jim Raynor",
@@ -6461,9 +8034,16 @@
      "Arcturus Mengsk",
      "Mengsk"
     ],
-    "Artanis",
+    [
+     "Artanis",
+     "Hierarch Artanis"
+    ],
     "Tassadar",
-    "Fenix",
+    [
+     "Fenix",
+     "Talandar",
+     "Purifier Fenix"
+    ],
     [
      "Tychus Findlay",
      "Tychus"
@@ -6473,15 +8053,22 @@
      "Nova",
      "Nova Terra"
     ],
-    "Alarak",
+    [
+     "Alarak",
+     "Highlord Alarak"
+    ],
     [
      "Matt Horner",
      "Horner"
     ],
-    "Aldaris",
+    [
+     "Aldaris",
+     "Judicator Aldaris"
+    ],
     [
      "Alexei Stukov",
-     "Stukov"
+     "Stukov",
+     "Infested Stukov"
     ],
     [
      "Edmund Duke",
@@ -6491,7 +8078,10 @@
      "Valerian Mengsk",
      "Valerian"
     ],
-    "Selendis",
+    [
+     "Selendis",
+     "Executor Selendis"
+    ],
     "Rohana",
     "Dehaka",
     "Izsha",
@@ -6512,14 +8102,56 @@
      "Duran"
     ],
     "Mira Han",
-    "Hanson",
-    "Warfield",
+    [
+     "Hanson",
+     "Ariel Hanson",
+     "Dr. Hanson"
+    ],
+    [
+     "Warfield",
+     "Horace Warfield",
+     "General Warfield"
+    ],
     "Amon",
     "Ulrezaj",
     "Karax",
     "Vorazun",
-    "Stetmann",
-    "Zasz"
+    [
+     "Stetmann",
+     "Egon Stetmann"
+    ],
+    "Zasz",
+    "The Overmind",
+    [
+     "Gerard DuGalle",
+     "DuGalle",
+     "Admiral DuGalle"
+    ],
+    [
+     "Kate Lockwell",
+     "Lockwell"
+    ],
+    "Donny Vermillion",
+    "Cooper",
+    "Zurvan",
+    "Brakk",
+    "Yagdra",
+    "Slivan",
+    "Kraith",
+    "Niadra",
+    "Naktul",
+    "Kilysa",
+    "Ouros",
+    "Mohandar",
+    "Urun",
+    "Kaldalis",
+    "Clolarion",
+    [
+     "Ma'lash",
+     "Ascendant Ma'lash"
+    ],
+    "Ji'nara",
+    "The Magistrate"
    ]
   },
   {
@@ -6666,6 +8298,139 @@
     [
      "Giant",
      "Giants"
+    ],
+    "Wolvar",
+    [
+     "Gorloc",
+     "Gorlocs"
+    ],
+    "Magnataur",
+    "Kvaldir",
+    [
+     "Iron Dwarf",
+     "Iron Dwarves"
+    ],
+    "Frost Giant",
+    "Stone Giant",
+    "Sea Giant",
+    "Wendigo",
+    "Yeti",
+    "Sasquatch",
+    "Silithid",
+    "Qiraji",
+    "Anubisath",
+    "Aqir",
+    [
+     "Faceless One",
+     "Faceless Ones"
+    ],
+    "Highborne",
+    "Shen'dralar",
+    "Makrura",
+    [
+     "Gilblin",
+     "Gilblins"
+    ],
+    [
+     "Sporeling",
+     "Sporelings"
+    ],
+    "Fungal Giant",
+    [
+     "Lost One",
+     "Lost Ones"
+    ],
+    "Saberon",
+    "Botani",
+    "Podling",
+    "Mok'nathal",
+    "Ogre Mage",
+    "Two-headed Ogre",
+    [
+     "Leper Gnome",
+     "Leper Gnomes"
+    ],
+    "Virmen",
+    "Ankoan",
+    [
+     "Tortollan",
+     "Tortollans"
+    ],
+    "Drust",
+    "Wyrmtongue",
+    "Drogbar",
+    "Djaradin",
+    "Niffen",
+    "Kobyss",
+    [
+     "Drakonid",
+     "Drakonids"
+    ],
+    "Dragonspawn",
+    [
+     "Dragon",
+     "Dragons"
+    ],
+    [
+     "Nathrezim",
+     "Dreadlord",
+     "Dreadlords"
+    ],
+    "Eredar",
+    "Mo'arg",
+    "Shivarra",
+    [
+     "Annihilan",
+     "Pit Lord",
+     "Pit Lords"
+    ],
+    [
+     "Sayaad",
+     "Succubus"
+    ],
+    "Drakkari",
+    [
+     "Amani",
+     "Forest Troll",
+     "Forest Trolls"
+    ],
+    [
+     "Ice Troll",
+     "Ice Trolls"
+    ],
+    [
+     "Sand Troll",
+     "Sand Trolls"
+    ],
+    "Kyrian",
+    "Venthyr",
+    [
+     "Broker",
+     "Brokers"
+    ],
+    "Automa",
+    "Wildkin",
+    [
+     "Treant",
+     "Treants"
+    ],
+    [
+     "Wisp",
+     "Wisps"
+    ],
+    [
+     "Keeper of the Grove",
+     "Keepers of the Grove"
+    ],
+    [
+     "Ancient",
+     "Ancients"
+    ],
+    "Titan-forged",
+    "Haranir",
+    [
+     "Fel Orc",
+     "Fel Orcs"
     ]
    ]
   },
@@ -6676,7 +8441,10 @@
    ],
    "text": "Name a Titan, Old God or Titan-related being in Warcraft lore",
    "answers": [
-    "Sargeras",
+    [
+     "Sargeras",
+     "Avatar of Sargeras"
+    ],
     [
      "C'Thun",
      "Cthun"
@@ -6708,12 +8476,37 @@
     "Mimiron",
     "Tyr",
     "Odyn",
-    "Ra-den",
+    [
+     "Ra-den",
+     "Ra",
+     "Keeper Ra"
+    ],
     "Algalon",
     [
      "Y'Shaarj",
      "Yshaarj"
-    ]
+    ],
+    "G'huun",
+    "Archaedas",
+    "Ironaya",
+    "Eyir",
+    "Helya",
+    [
+     "The Keepers",
+     "Titanic Watchers",
+     "Watchers"
+    ],
+    [
+     "Titan-forged",
+     "Titanforged"
+    ],
+    "Earthen",
+    "Il'gynoth",
+    "Sha",
+    "Mechagnome",
+    "Tol'vir",
+    "Vrykul",
+    "Mogu"
    ]
   },
   {
@@ -6819,6 +8612,225 @@
     [
      "Grom Hellscream",
      "Grom"
+    ],
+    [
+     "Arthas Menethil",
+     "Arthas",
+     "The Lich King"
+    ],
+    [
+     "Queen Azshara",
+     "Azshara"
+    ],
+    [
+     "Kael'thas Sunstrider",
+     "Kael'thas"
+    ],
+    [
+     "Bolvar Fordragon",
+     "Bolvar"
+    ],
+    "Ner'zhul",
+    [
+     "Alexstrasza",
+     "Dragonqueen Alexstrasza"
+    ],
+    "Zul'jin",
+    [
+     "King Rastakhan",
+     "Rastakhan"
+    ],
+    [
+     "Talanji",
+     "Queen Talanji"
+    ],
+    [
+     "Daelin Proudmoore",
+     "Admiral Proudmoore"
+    ],
+    [
+     "Katherine Proudmoore",
+     "Lady Katherine"
+    ],
+    [
+     "Anasterian Sunstrider",
+     "Anasterian"
+    ],
+    [
+     "Muradin Bronzebeard",
+     "Muradin"
+    ],
+    [
+     "Falstad Wildhammer",
+     "Falstad"
+    ],
+    [
+     "Dagran Thaurissan",
+     "Emperor Thaurissan"
+    ],
+    "Anub'arak",
+    "Kel'Thuzad",
+    "Kil'jaeden",
+    "Archimonde",
+    "Sargeras",
+    [
+     "Ragnaros",
+     "Ragnaros the Firelord"
+    ],
+    [
+     "Deathwing",
+     "Neltharion"
+    ],
+    "Ysera",
+    "Nozdormu",
+    "Malygos",
+    "Kalecgos",
+    "Wrathion",
+    [
+     "Anduin Lothar",
+     "Lothar"
+    ],
+    [
+     "Thoras Trollbane",
+     "Trollbane"
+    ],
+    "Galen Trollbane",
+    [
+     "Aiden Perenolde",
+     "Perenolde"
+    ],
+    [
+     "Calia Menethil",
+     "Calia"
+    ],
+    "Turalyon",
+    "Antonidas",
+    "Rhonin",
+    "Modera",
+    [
+     "Fandral Staghelm",
+     "Fandral"
+    ],
+    [
+     "Thalyssra",
+     "First Arcanist Thalyssra"
+    ],
+    [
+     "Elisande",
+     "Grand Magistrix Elisande"
+    ],
+    [
+     "Mayla Highmountain",
+     "Mayla"
+    ],
+    [
+     "Huln Highmountain",
+     "Huln"
+    ],
+    [
+     "Magatha Grimtotem",
+     "Magatha"
+    ],
+    [
+     "Geya'rah",
+     "Overlord Geya'rah"
+    ],
+    [
+     "Kilrogg Deadeye",
+     "Kilrogg"
+    ],
+    [
+     "Kargath Bladefist",
+     "Kargath"
+    ],
+    [
+     "Rend Blackhand",
+     "Rend"
+    ],
+    "Zuluhed",
+    "Garad",
+    "Sen'jin",
+    "Cho'gall",
+    [
+     "Gruul",
+     "High King Gruul"
+    ],
+    [
+     "Imperator Mar'gok",
+     "Mar'gok"
+    ],
+    [
+     "King Ymiron",
+     "Ymiron"
+    ],
+    [
+     "Queen Ansurek",
+     "Ansurek"
+    ],
+    [
+     "Lei Shen",
+     "The Thunder King"
+    ],
+    [
+     "Shaohao",
+     "Emperor Shaohao"
+    ],
+    [
+     "Grand Empress Shek'zeer",
+     "Shek'zeer"
+    ],
+    "Taran Zhu",
+    "Ji Firepaw",
+    "Aysa Cloudsinger",
+    [
+     "King Mechagon",
+     "Mechagon"
+    ],
+    [
+     "Prince Erazmin",
+     "Erazmin"
+    ],
+    [
+     "Magister Umbric",
+     "Umbric"
+    ],
+    [
+     "Sicco Thermaplugg",
+     "Thermaplugg"
+    ],
+    "Al'Akir",
+    "Neptulon",
+    "Therazane",
+    [
+     "Lady Vashj",
+     "Vashj"
+    ],
+    [
+     "Liadrin",
+     "Lady Liadrin"
+    ],
+    [
+     "Denathrius",
+     "Sire Denathrius"
+    ],
+    [
+     "The Jailer",
+     "Zovaal"
+    ],
+    "The Primus",
+    "The Arbiter",
+    "Winter Queen",
+    [
+     "Kyrestia",
+     "Archon Kyrestia",
+     "The Archon"
+    ],
+    "Fyrakk",
+    "Raszageth",
+    "Iridikron",
+    [
+     "Hamuul Runetotem",
+     "Hamuul"
     ]
    ]
   },
@@ -6867,7 +8879,95 @@
      "Terestian"
     ],
     "Brutallus",
-    "Mephistroth"
+    "Mephistroth",
+    "Anetheron",
+    "Kaz'rogal",
+    "Xavius",
+    [
+     "Highlord Kruul",
+     "Kruul"
+    ],
+    "Hakkar the Houndmaster",
+    "Supremus",
+    [
+     "Mother Shahraz",
+     "Shahraz"
+    ],
+    [
+     "Prince Malchezaar",
+     "Malchezaar"
+    ],
+    [
+     "Lady Sacrolash",
+     "Sacrolash"
+    ],
+    [
+     "Grand Warlock Alythess",
+     "Alythess"
+    ],
+    "Kathra'natir",
+    [
+     "Lord Banehollow",
+     "Banehollow"
+    ],
+    [
+     "Lord Hel'nurath",
+     "Hel'nurath"
+    ],
+    "Socrethar",
+    [
+     "Fel Lord Zakuun",
+     "Zakuun"
+    ],
+    [
+     "Tyrant Velhari",
+     "Velhari"
+    ],
+    "Kin'garoth",
+    "Admiral Svirax",
+    [
+     "Imonar the Soulhunter",
+     "Imonar"
+    ],
+    "F'harg",
+    "Shatug",
+    [
+     "Portal Keeper Hasabel",
+     "Hasabel"
+    ],
+    "Noura",
+    "Asara",
+    "Diima",
+    "Thu'raya",
+    [
+     "Mistress Sassz'ine",
+     "Sassz'ine"
+    ],
+    "Goroth",
+    "Atrigan",
+    "Belac",
+    [
+     "Inquisitor Variss",
+     "Variss"
+    ],
+    "Lothraxion",
+    [
+     "Argus the Unmaker",
+     "Argus"
+    ],
+    "Aggramar",
+    "Kil'rek",
+    "Dalvengyr",
+    "Doomwalker",
+    "Infernal",
+    "Doomguard",
+    "Felguard",
+    "Imp",
+    "Succubus",
+    "Felhound",
+    "Dreadlord",
+    "Pit Lord",
+    "Eredar"
    ]
   },
   {

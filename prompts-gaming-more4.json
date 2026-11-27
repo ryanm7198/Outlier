@@ -29,10 +29,8 @@
     ],
     "Mudcrab",
     "Horker",
-    [
-     "Chaurus",
-     "Chaurus Reaper"
-    ],
+    "Chaurus",
+    "Chaurus Reaper",
     "Falmer",
     "Deer",
     "Horse",
@@ -100,7 +98,68 @@
     "Skeleton",
     "Zombie",
     "Death Hound",
-    "Hare"
+    "Hare",
+    "Bandit",
+    "Forsworn",
+    "Necromancer",
+    "Thalmor",
+    "Silver Hand",
+    "Warlock",
+    "Vampire Thrall",
+    [
+     "Cultist",
+     "Dragonborn Cultist"
+    ],
+    "Blood Dragon",
+    "Frost Dragon",
+    "Elder Dragon",
+    "Ancient Dragon",
+    "Revered Dragon",
+    "Legendary Dragon",
+    "Serpentine Dragon",
+    "Skeletal Dragon",
+    [
+     "Draugr Deathlord",
+     "Deathlord"
+    ],
+    "Draugr Overlord",
+    "Draugr Wight",
+    "Draugr Scourge",
+    "Restless Draugr",
+    "Giant Frostbite Spider",
+    "Albino Spider",
+    "Frost Troll",
+    "Armored Troll",
+    "Ice Wolf",
+    [
+     "Snowy Sabre Cat",
+     "Snowy Sabrecat"
+    ],
+    [
+     "Vale Sabre Cat",
+     "Vale Sabrecat"
+    ],
+    "Vale Deer",
+    "Spriggan Matron",
+    "Spriggan Earth Mother",
+    "Werebear",
+    "Mistman",
+    "Wrathman",
+    "Boneman",
+    "Keeper",
+    "Bull Netch",
+    "Betty Netch",
+    "Torchbug",
+    "Butterfly",
+    "Moth",
+    "Dragonfly",
+    "Salmon",
+    "Bee",
+    [
+     "Wisp Shade",
+     "Shade"
+    ],
+    "Draugr Thrall"
    ]
   },
   {
@@ -125,7 +184,10 @@
      "Diablos"
     ],
     "Siren",
-    "Golem",
+    [
+     "Golem",
+     "Terrato"
+    ],
     "Cerberus",
     [
      "Quezacotl",
@@ -154,7 +216,10 @@
      "Moogle",
      "Mog"
     ],
-    "Kujata",
+    [
+     "Kujata",
+     "Kjata"
+    ],
     [
      "Knights of the Round",
      "Round Table"
@@ -162,14 +227,90 @@
     "Madeen",
     "Belias",
     "Magus Sisters",
-    "Catoblepas",
+    [
+     "Catoblepas",
+     "Shoat"
+    ],
     "Brothers",
     "Pandemona",
     "Doomtrain",
     "Cactuar",
     "Tonberry",
     "Atomos",
-    "Ark"
+    "Ark",
+    "Bahamut ZERO",
+    "Choco/Mog",
+    "Cindy",
+    "Sandy",
+    "Mindy",
+    "Boko",
+    [
+     "MiniMog",
+     "Mini Mog"
+    ],
+    "Moomba",
+    "Mateus",
+    "Adrammelech",
+    "Zalera",
+    "Cúchulainn",
+    "Hashmal",
+    "Famfrit",
+    "Chaos",
+    "Ultima",
+    "Zeromus",
+    "Exodus",
+    "Zodiark",
+    "Shemhazai",
+    "Brynhildr",
+    "Hecatoncheir",
+    "Stiria",
+    "Nix",
+    "Unicorn",
+    "Maduin",
+    "Phantom",
+    [
+     "Cait Sith",
+     "Stray"
+    ],
+    "Palidor",
+    "Tritoch",
+    "Raiden",
+    [
+     "Crusader",
+     "Jihad"
+    ],
+    "Ragnarok",
+    "Zona Seeker",
+    "Seraph",
+    "Quetzalli",
+    "Starlet",
+    "Valigarmanda",
+    "Midgardsormr",
+    "Lakshmi",
+    "Goblin",
+    "Bomb",
+    "Cockatrice",
+    "Mindflayer",
+    "Remora",
+    "Syldra",
+    "Fat Chocobo",
+    "Chocobo Chick",
+    "Ravana",
+    "Susano",
+    "Byakko",
+    "Suzaku",
+    "Seiryu",
+    "Tsukuyomi",
+    "Titania",
+    "Sephirot",
+    "Sophia",
+    "Zurvan",
+    "Shinryu",
+    [
+     "King Thordan",
+     "Thordan"
+    ],
+    "Fat Moogle"
    ]
   },
   {
@@ -411,7 +552,8 @@
     ],
     [
      "Dijkstra",
-     "Sigismund Dijkstra"
+     "Sigismund Dijkstra",
+     "Sigi Reuven"
     ],
     [
      "Philippa Eilhart",
@@ -421,7 +563,10 @@
     "Letho",
     "Eskel",
     "Lambert",
-    "Regis",
+    [
+     "Regis",
+     "Emiel Regis"
+    ],
     [
      "Dettlaff",
      "Detlaff",
@@ -450,7 +595,11 @@
      "Master Mirror"
     ],
     "Shani",
-    "Avallac'h",
+    [
+     "Avallac'h",
+     "The Mysterious Elf",
+     "Crevan Espane"
+    ],
     [
      "Iris von Everec",
      "Iris"
@@ -467,7 +616,10 @@
      "Carlo Varese",
      "Cleaver"
     ],
-    "Ermion",
+    [
+     "Ermion",
+     "Mousesack"
+    ],
     [
      "Ladies of the Wood",
      "Crones",
@@ -481,9 +633,15 @@
      "Tamara"
     ],
     "Anna Strenger",
-    "Lugos",
+    [
+     "Lugos",
+     "Madman Lugos"
+    ],
     "Graden",
-    "Whoreson Junior",
+    [
+     "Whoreson Junior",
+     "Cyprian Wiley"
+    ],
     "Corinne Tilly",
     "Hattori",
     [
@@ -492,13 +650,109 @@
     ],
     "Horst Borsodi",
     "Priscilla",
-    "Menge",
+    [
+     "Menge",
+     "Caleb Menge"
+    ],
     "Ves",
     [
      "Fringilla Vigo",
      "Fringilla"
     ],
-    "Ewald Borsodi"
+    "Ewald Borsodi",
+    "Roach",
+    [
+     "Dudu Biberveldt",
+     "Dudu"
+    ],
+    "Marquise Serenity",
+    "Elihal",
+    "Thaler",
+    [
+     "Nathaniel Pastodi",
+     "Pastodi"
+    ],
+    [
+     "Rosa var Attre",
+     "Rosa"
+    ],
+    [
+     "Morvran Voorhis",
+     "Voorhis"
+    ],
+    [
+     "Birna Bran",
+     "Birna"
+    ],
+    "Udalryk",
+    "Svanrige",
+    [
+     "Holger Blackhand",
+     "Holger"
+    ],
+    [
+     "Jutta an Dimun",
+     "Jutta"
+    ],
+    [
+     "Blueboy Lugos",
+     "Blueboy"
+    ],
+    [
+     "Donar an Hindar",
+     "Donar"
+    ],
+    "Morkvarg",
+    "Skjall",
+    [
+     "Vlodimir von Everec",
+     "Vlodimir"
+    ],
+    [
+     "Damien de la Tour",
+     "Damien"
+    ],
+    [
+     "Palmerin de Launfal",
+     "Palmerin"
+    ],
+    [
+     "Milton de Peyrac-Peyran",
+     "Milton"
+    ],
+    [
+     "Guillaume de Launfal",
+     "Guillaume"
+    ],
+    [
+     "Vivienne de Tabris",
+     "Vivienne"
+    ],
+    [
+     "Barnabas-Basil Foremans",
+     "Barnabas-Basil"
+    ],
+    [
+     "Marlene de Trastamara",
+     "Marlene"
+    ],
+    "Orianna",
+    "The Unseen Elder",
+    "Lady of the Lake",
+    [
+     "Gregoire de Gorgon",
+     "Gregoire"
+    ],
+    "The Pellar",
+    [
+     "Bart the Troll",
+     "Bart"
+    ],
+    "Tomira",
+    "Peter Saar Gwynleve",
+    "Ihuarraquax",
+    "Sigrdrifa",
+    "Valdo Marx"
    ]
   },
   {
@@ -512,45 +766,131 @@
      "Noctis",
      "Noctis Lucis Caelum"
     ],
-    "Cecil",
-    "Terra",
-    "Locke",
-    "Kain",
+    [
+     "Cecil",
+     "Cecil Harvey"
+    ],
+    [
+     "Terra",
+     "Terra Branford",
+     "Tina"
+    ],
+    [
+     "Locke",
+     "Locke Cole"
+    ],
+    [
+     "Kain",
+     "Kain Highwind"
+    ],
     "Rydia",
-    "Rosa",
+    [
+     "Rosa",
+     "Rosa Farrell"
+    ],
     [
      "Prompto",
      "Prompto Argentum"
     ],
-    "Ignis",
+    [
+     "Ignis",
+     "Ignis Scientia"
+    ],
     [
      "Gladiolus",
-     "Gladio"
+     "Gladio",
+     "Gladiolus Amicitia"
     ],
-    "Cyan",
-    "Edgar",
-    "Sabin",
-    "Celes",
-    "Bartz",
+    [
+     "Cyan",
+     "Cyan Garamonde"
+    ],
+    [
+     "Edgar",
+     "Edgar Figaro"
+    ],
+    [
+     "Sabin",
+     "Sabin Figaro",
+     "Mash"
+    ],
+    [
+     "Celes",
+     "Celes Chere"
+    ],
+    [
+     "Bartz",
+     "Bartz Klauser",
+     "Butz"
+    ],
     "Edge",
     "Tellah",
     "Palom",
     "Porom",
     "Yang",
     "FuSoYa",
-    "Edward",
-    "Lenna",
-    "Faris",
+    [
+     "Edward",
+     "Gilbert"
+    ],
+    [
+     "Lenna",
+     "Lenna Charlotte Tycoon",
+     "Reina"
+    ],
+    [
+     "Faris",
+     "Faris Scherwiz"
+    ],
     "Galuf",
-    "Krile",
+    [
+     "Krile",
+     "Krile Mayer Baldesion"
+    ],
     "Shadow",
     "Gau",
-    "Setzer",
-    "Strago",
-    "Relm",
+    [
+     "Setzer",
+     "Setzer Gabbiani"
+    ],
+    [
+     "Strago",
+     "Strago Magus"
+    ],
+    [
+     "Relm",
+     "Relm Arrowny"
+    ],
     "Mog",
     "Umaro",
-    "Gogo"
+    "Gogo",
+    [
+     "Cid",
+     "Cid Pollendina"
+    ],
+    "Banon",
+    [
+     "Leo",
+     "General Leo"
+    ],
+    "Biggs",
+    "Wedge",
+    [
+     "Aranea",
+     "Aranea Highwind"
+    ],
+    [
+     "Iris",
+     "Iris Amicitia"
+    ],
+    [
+     "Cor",
+     "Cor Leonis"
+    ],
+    [
+     "Ardyn",
+     "Ardyn Izunia"
+    ]
    ]
   },
   {
@@ -568,13 +908,20 @@
     "Karlach",
     "Lae'zel",
     "Shadowheart",
-    "Wyll",
+    [
+     "Wyll",
+     "Wyll Ravengard",
+     "Blade of Frontiers"
+    ],
     "Halsin",
     "Minthara",
     "Jaheira",
     "Minsc",
     "Raphael",
-    "Orin",
+    [
+     "Orin",
+     "Orin the Red"
+    ],
     [
      "Gortash",
      "Enver Gortash"
@@ -587,7 +934,10 @@
      "Withers",
      "Jergal"
     ],
-    "Volo",
+    [
+     "Volo",
+     "Volothamp Geddarm"
+    ],
     [
      "Auntie Ethel",
      "Ethel"
@@ -600,7 +950,12 @@
      "Aylin",
      "Nightsong"
     ],
-    "The Emperor",
+    [
+     "The Emperor",
+     "Balduran",
+     "Dream Guardian",
+     "Dream Visitor"
+    ],
     "Zevlor",
     [
      "Orpheus",
@@ -628,9 +983,7 @@
     "Ansur",
     "Bhaal",
     "Cazador",
-    "Shar",
     "Dammon",
-    "Selûne",
     "Myrkul",
     "Arabella",
     "Vlaakith",
@@ -662,7 +1015,96 @@
     [
      "Lump the Enlightened",
      "Lump"
-    ]
+    ],
+    [
+     "Elder Brain",
+     "Netherbrain",
+     "The Absolute"
+    ],
+    [
+     "Ulder Ravengard",
+     "Duke Ravengard"
+    ],
+    [
+     "Sarevok",
+     "Sarevok Anchev"
+    ],
+    "Hope",
+    "Haarlep",
+    "Yurgir",
+    "Rath",
+    "Aradin",
+    "Thaniel",
+    "Oliver",
+    "Balthazar",
+    "Mayrina",
+    "Thulla",
+    "Glut",
+    [
+     "Grat the Trader",
+     "Grat"
+    ],
+    [
+     "Gerringothe Thorm",
+     "Gerringothe"
+    ],
+    [
+     "Thisobald Thorm",
+     "Thisobald"
+    ],
+    [
+     "Malus Thorm",
+     "Malus"
+    ],
+    "Z'rell",
+    [
+     "Dribbles the Clown",
+     "Dribbles"
+    ],
+    "Cal",
+    "Lia",
+    "Omeluum",
+    "Blurg",
+    [
+     "Derryth Bonecloak",
+     "Derryth"
+    ],
+    [
+     "Baelen Bonecloak",
+     "Baelen"
+    ],
+    "Lakrissa",
+    "Mattis",
+    "Tara",
+    "Edowin",
+    [
+     "Commander Zhalk",
+     "Zhalk"
+    ],
+    "Ghustil Stillhope",
+    [
+     "Lady Esther",
+     "Esther"
+    ],
+    [
+     "Oskar Fevras",
+     "Oskar"
+    ],
+    "Godey",
+    "Violet",
+    "Petras",
+    "Aurelia",
+    "Strange Ox",
+    "Gimblebock",
+    "Barnabus",
+    [
+     "Jenevelle Hallowleaf",
+     "Jenevelle"
+    ],
+    "Helsik",
+    "Kar'niss",
+    "Art Cullagh",
+    "Sazza"
    ]
   },
   {
@@ -1672,7 +2114,10 @@
     "Kunkka",
     "Medusa",
     "Meepo",
-    "Necrophos",
+    [
+     "Necrophos",
+     "Necrolyte"
+    ],
     [
      "Nature's Prophet",
      "Natures Prophet",
@@ -1688,8 +2133,14 @@
      "Troll Warlord",
      "Jah'rakal"
     ],
-    "Tidehunter",
-    "Magnus",
+    [
+     "Tidehunter",
+     "Leviathan"
+    ],
+    [
+     "Magnus",
+     "Magnataur"
+    ],
     "Lich",
     [
      "Dragon Knight",
@@ -1711,7 +2162,10 @@
     "Tusk",
     "Alchemist",
     "Abaddon",
-    "Doom",
+    [
+     "Doom",
+     "Doom Bringer"
+    ],
     "Huskar",
     "Clinkz",
     "Viper",
@@ -1762,7 +2216,10 @@
      "Io",
      "Wisp"
     ],
-    "Lycan",
+    [
+     "Lycan",
+     "Lycanthrope"
+    ],
     "Muerta",
     "Chen",
     "Marci",
@@ -2293,7 +2750,8 @@
     "Sniffer",
     "Copper Golem",
     "Camel Husk",
-    "Sulfur Cube"
+    "Sulfur Cube",
+    "Pufferfish"
    ]
   },
   {
@@ -3162,10 +3620,17 @@
      "Koopa Troopa",
      "Koopa"
     ],
-    "Bowser",
+    [
+     "Bowser",
+     "Fury Bowser",
+     "Giga Bowser",
+     "Meowser",
+     "King Koopa"
+    ],
     [
      "Bowser Jr.",
-     "Bowser Junior"
+     "Bowser Junior",
+     "Shadow Mario"
     ],
     "Piranha Plant",
     "Bullet Bill",
@@ -3179,7 +3644,10 @@
     ],
     "Thwomp",
     "Chain Chomp",
-    "Blooper",
+    [
+     "Blooper",
+     "Bloober"
+    ],
     [
      "Koopa Paratroopa",
      "Paratroopa"
@@ -3219,7 +3687,10 @@
      "Larry Koopa",
      "Larry"
     ],
-    "Podoboo",
+    [
+     "Podoboo",
+     "Lava Bubble"
+    ],
     [
      "Morton Koopa Jr.",
      "Morton"
@@ -3269,22 +3740,18 @@
     "Mega Mole",
     "Fire Snake",
     "Banzai Bill",
-    "Lava Bubble",
     "Peepa",
     "Petey Piranha",
     "Porcupuffer",
     "Urchin",
-    [
-     "Unagi",
-     "Maw-Ray"
-    ],
+    "Unagi",
+    "Maw-Ray",
     "Koopalings",
     [
      "Big Bertha",
      "Boss Bass"
     ],
     "Tatanga",
-    "Fury Bowser",
     "Ant Trooper",
     "Grrrol",
     "Fishbone",
@@ -3293,7 +3760,232 @@
     "Count Bleck",
     "Fawful",
     "Cackletta",
-    "Smithy"
+    "Smithy",
+    "Birdo",
+    "Wario",
+    "Kammy Koopa",
+    [
+     "Sledge Bro",
+     "Sledge Brother"
+    ],
+    "Ice Bro",
+    "Fly Guy",
+    "Mouser",
+    "Tryclyde",
+    "Fryguy",
+    "Clawgrip",
+    "Pidgit",
+    "Phanto",
+    "Beezo",
+    "Tweeter",
+    "Hoopster",
+    "Panser",
+    "Porcupo",
+    "Flurry",
+    "Albatoss",
+    "Ostro",
+    "Autobomb",
+    "Cobrat",
+    "Reznor",
+    "Blargg",
+    "Super Koopa",
+    "Dino Rhino",
+    "Dino Torch",
+    "Volcano Lotus",
+    "Rip Van Fish",
+    "Thwimp",
+    "Grinder",
+    "Ball 'n' Chain",
+    "Lil Sparky",
+    "Hothead",
+    "Eerie",
+    "Fishin' Boo",
+    "Fishin' Lakitu",
+    [
+     "Venus Fire Trap",
+     "Fire Piranha Plant"
+    ],
+    "Ptooie",
+    "Muncher",
+    "Nipper Plant",
+    "Rotodisc",
+    "Stretch",
+    "Hot Foot",
+    "Buster Beetle",
+    "Para-Beetle",
+    "Jelectro",
+    "Lava Lotus",
+    "Fire Chomp",
+    "Jumping Piranha Plant",
+    [
+     "Whomp King",
+     "King Whomp"
+    ],
+    "Big Bully",
+    "Chill Bully",
+    "Eyerok",
+    "Klepto",
+    "Spindrift",
+    "Mr. I",
+    "Bookend",
+    "Scuttlebug",
+    "Skeeter",
+    "Snufit",
+    "Mad Piano",
+    "Heave-Ho",
+    "Spindel",
+    "Bub",
+    "Moneybags",
+    "Gooper Blooper",
+    "Mecha-Bowser",
+    "Strollin' Stu",
+    "Electrokoopa",
+    "Phantamanta",
+    "Plungelo",
+    "Swoopin' Stu",
+    "Proto Piranha",
+    "Eely-Mouth",
+    "Cataquack",
+    "Kamella",
+    "Megaleg",
+    "Dino Piranha",
+    "King Kaliente",
+    "Bouldergeist",
+    "Tarantox",
+    "Baron Brrr",
+    "Topmaniac",
+    "Major Burrows",
+    "Kingfin",
+    "Bugaboom",
+    "Undergrunt Gunner",
+    "Topman",
+    "Octoomba",
+    "Octoguy",
+    "Mandibug",
+    "Gringill",
+    "Prince Pikante",
+    "Glamdozer",
+    "Squizzard",
+    "Boomsday Machine",
+    "Peewee Piranha",
+    "Rollodillo",
+    "Sorbetti",
+    "Gobblegut",
+    "Megahammer",
+    "Fiery Dino Piranha",
+    "Digga-Leg",
+    "Glaptop",
+    "Hisstocrat",
+    "Prince Bully",
+    "Motley Bossblob",
+    "Draglet",
+    "Skipsqueak",
+    "Cat Goomba",
+    "Cat Bullet Bill",
+    "Conkdor",
+    "Piranha Creeper",
+    "Fizzlit",
+    "Ty-foo",
+    "Broodals",
+    "Topper",
+    "Harriet",
+    "Rango",
+    "Spewart",
+    "Madame Broode",
+    "Chain Chompikins",
+    "Cookatiel",
+    "Knucklotec",
+    "Torkdrift",
+    "Mechawiggler",
+    "Ruined Dragon",
+    "Chincho",
+    "Uproot",
+    "Lord of Lightning",
+    "Mollusque-Lanceur",
+    "Hoppycat",
+    "Bulrush",
+    "Smogrin",
+    "Condarts",
+    "Konk",
+    "Rrrumba",
+    "Maw-Maw",
+    "Gnawsher",
+    "Trottin' Piranha Plant",
+    "Bramball",
+    "Foo",
+    "Broozer",
+    "Huckit Crab",
+    "Nabbit",
+    "Splunkin",
+    "Mini Goomba",
+    "Spike Bass",
+    "Stone Spike",
+    "Kab-omb",
+    "Cooligan",
+    "Waddlewing",
+    "Lakithunder",
+    "Mummipokey",
+    "Cheepskipper",
+    "Monty Tank",
+    "Stalking Piranha Plant",
+    "Spiny Cheep Cheep",
+    "Cheep Chomp",
+    "Dimentio",
+    "O'Chunks",
+    "Mimi",
+    "Nastasia",
+    [
+     "Sir Grodus",
+     "Grodus"
+    ],
+    "Shadow Queen",
+    [
+     "Lord Crump",
+     "Crump"
+    ],
+    "Hooktail",
+    "Gloomtail",
+    "Bonetail",
+    "Beldam",
+    "Marilyn",
+    "Doopliss",
+    "Macho Grubba",
+    [
+     "X-Naut",
+     "X-Nauts"
+    ],
+    "Tubba Blubba",
+    "Huff N. Puff",
+    "General Guy",
+    "Lava Piranha",
+    "Crystal King",
+    "Tutankoopa",
+    "Jr. Troopa",
+    "Princess Shroob",
+    "Elder Princess Shroob",
+    "Shroob",
+    "Dark Star",
+    "Antasma",
+    "Midbus",
+    "Popple",
+    "Jojora",
+    "Exor",
+    "Mack",
+    "Bowyer",
+    "Yaridovich",
+    "Belome",
+    "Czar Dragon",
+    "Valentina",
+    "Punchinello",
+    "Culex",
+    "Dark Fawful",
+    "Paper Bowser",
+    [
+     "King Olly",
+     "Olly"
+    ],
+    "Black Bowser",
+    "Koopa Kid"
    ]
   },
   {
@@ -3346,19 +4038,31 @@
    "answers": [
     [
      "Deathwing",
-     "Neltharion"
+     "Neltharion",
+     "Echo of Neltharion"
     ],
     "Alexstrasza",
     "Ysera",
     "Malygos",
     "Nozdormu",
-    "Kalecgos",
+    [
+     "Kalecgos",
+     "Kalec"
+    ],
     [
      "Chromie",
      "Chronormu"
     ],
-    "Onyxia",
-    "Nefarian",
+    [
+     "Onyxia",
+     "Katrana Prestor",
+     "Lady Prestor"
+    ],
+    [
+     "Nefarian",
+     "Lord Victor Nefarius",
+     "Victor Nefarius"
+    ],
     "Fyrakk",
     "Raszageth",
     "Galakrond",
@@ -3371,11 +4075,18 @@
     ],
     "Iridikron",
     "Vyranoth",
-    "Sinestra",
+    [
+     "Sinestra",
+     "Sintharia",
+     "Lady Sinestra"
+    ],
     "Sarkareth",
     "Ysondre",
     "Lethon",
-    "Korialstrasz",
+    [
+     "Korialstrasz",
+     "Krasus"
+    ],
     "Emeriss",
     "Taerar",
     [
@@ -3390,10 +4101,49 @@
     "Merithra",
     "Tyrygosa",
     "Tyranastrasz",
-    "Eranikus",
+    [
+     "Eranikus",
+     "Shade of Eranikus"
+    ],
     "Tarecgosa",
     "Soridormi",
-    "Arygos"
+    "Arygos",
+    "Azuregos",
+    "Sapphiron",
+    "Chromaggus",
+    "Saragosa",
+    "Cyanigosa",
+    "Keristrasza",
+    "Senegos",
+    "Stellagosa",
+    "Flamegor",
+    "Ebonroc",
+    "Firemaw",
+    [
+     "Razorgore the Untamed",
+     "Razorgore"
+    ],
+    "Shadron",
+    "Tenebron",
+    "Vesperon",
+    "Baltharus",
+    [
+     "Saviana Ragefire",
+     "Saviana"
+    ],
+    "Theralion",
+    "Valiona",
+    "Ultraxion",
+    "Kairozdormu",
+    "Murozond",
+    [
+     "Lord Afrasastrasz",
+     "Afrasastrasz"
+    ],
+    "Caelestrasz",
+    "Itharius",
+    "Torastrasza",
+    "Tariolstrasz"
    ]
   }
  ]
