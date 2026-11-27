@@ -40,11 +40,14 @@
     "Jim Diamond",
     "Nat King Cole",
     "Elvis Presley",
+    "Eddy Grant",
     "Jimmy Somerville",
     "Joe Cocker",
     "Mike Oldfield",
     "Malcolm McLaren",
     "Billy Joel",
+    "Meat Loaf",
+    "Frank Sinatra",
     "Rod Stewart",
     "Boy George",
     "Morrissey",
@@ -53,6 +56,8 @@
     "Freddie Mercury",
     "John Lennon",
     "Bryan Ferry",
+    "Bruce Willis",
+    "Iggy Pop",
     "Peter Gabriel",
     "Robert Palmer",
     "Tom Jones",
@@ -126,7 +131,111 @@
     "Steve 'Silk' Hurley",
     "Farley Jackmaster Funk",
     "Gary Glitter",
-    "Phil Everly"
+    "Phil Everly",
+    "Elvis Costello",
+    "Falco",
+    "James Brown",
+    "Bing Crosby",
+    "Chubby Checker",
+    "Alice Cooper",
+    "Christopher Cross",
+    "LL Cool J",
+    [
+     "Grandmaster Melle Mel",
+     "Melle Mel"
+    ],
+    "Peter Cetera",
+    "John Parr",
+    "Maxi Priest",
+    "John Waite",
+    "Aled Jones",
+    "Michael Crawford",
+    "Al Jarreau",
+    "Labi Siffre",
+    "Roger Whittaker",
+    "Des O'Connor",
+    "David Cassidy",
+    "Philip Bailey",
+    "Matthew Wilder",
+    "Rockwell",
+    "Gary Moore",
+    "Phil Lynott",
+    "Steve Harley",
+    "B.B. King",
+    "Gerry Marsden",
+    "Aaron Neville",
+    "James Ingram",
+    "Bill Medley",
+    "Billy Preston",
+    "Donny Hathaway",
+    "Jimmy Ruffin",
+    [
+     "Narada Michael Walden",
+     "Narada"
+    ],
+    "Mike Berry",
+    "Fred Wedlock",
+    "Graham Bonnet",
+    "Sugar Minott",
+    "Red Sovine",
+    "Adrian Gurvitz",
+    [
+     "Junior",
+     "Junior Giscombe"
+    ],
+    "Kevin Rowland",
+    "David Christie",
+    "F. R. David",
+    "Booker Newberry III",
+    "Tom Robinson",
+    "Gary Byrd",
+    "David Grant",
+    "Peabo Bryson",
+    "Ryan Paris",
+    [
+     "Marilyn",
+     "Peter Robinson"
+    ],
+    "Snowy White",
+    [
+     "Neil",
+     "Nigel Planer"
+    ],
+    "Trevor Walters",
+    [
+     "Stephen 'Tin Tin' Duffy",
+     "Stephen Duffy",
+     "Tin Tin Duffy",
+     "Tin Tin"
+    ],
+    "Steve Arrington",
+    "Colonel Abrams",
+    "Doug E. Fresh",
+    "Stan Ridgway",
+    "Boris Gardiner",
+    "MC Miker G",
+    "Darryl Pandy",
+    "Oran 'Juice' Jones",
+    "John Farnham",
+    "Freddie McGregor",
+    "Karel Fialka",
+    "Angry Anderson",
+    "Gary Haisman",
+    [
+     "Robert Howard",
+     "Dr Robert"
+    ],
+    "Lil Louis",
+    "Damian",
+    "Rebel MC",
+    "Andy Stewart",
+    "Forrest",
+    "Bobby Thurston",
+    "Lobo",
+    "Keith Harris",
+    "Paul Miles-Kingston",
+    "Mel Smith",
+    "Phil Fearon"
    ]
   },
   {
@@ -183,6 +292,11 @@
     "Neneh Cherry",
     "Lisa Stansfield",
     "Tracy Chapman",
+    "Nina Simone",
+    "Gladys Knight",
+    "Petula Clark",
+    "Liza Minnelli",
+    "Tanita Tikaram",
     "Kirsty MacColl",
     "Hazell Dean",
     "Laura Branigan",
@@ -230,7 +344,46 @@
     "Nicole",
     "Tracie",
     "Joyce Sims",
-    "Kym Mazelle"
+    "Kym Mazelle",
+    "Roberta Flack",
+    "Linda Ronstadt",
+    "Toni Basil",
+    "Stacy Lattisaw",
+    [
+     "Syreeta",
+     "Syreeta Wright"
+    ],
+    "Kate Robbins",
+    "Laurie Anderson",
+    "Barbara Gaskin",
+    "Patrice Rushen",
+    "Charlene",
+    "Natasha",
+    "Valerie Landsburg",
+    "Denise LaSalle",
+    "Dee C. Lee",
+    "Chrissie Hynde",
+    "Marilyn Martin",
+    "Sophia George",
+    "Cherrelle",
+    "Nana Mouskouri",
+    "Judy Boucher",
+    "Donna Allen",
+    "Siedah Garrett",
+    "Elisa Fiorillo",
+    "Montserrat Caballé",
+    "Taja Sevelle",
+    "Pebbles",
+    "Desireless",
+    "Robin Beck",
+    [
+     "Maureen",
+     "Maureen Walsh"
+    ],
+    "Caron Wheeler",
+    "Lynne Hamilton",
+    "Alyson Williams",
+    "Betty Boo"
    ]
   },
   {
@@ -250,24 +403,20 @@
     "Spandau Ballet",
     "Madness",
     "Bananarama",
-    [
-     "The Human League",
-     "Human League"
-    ],
+    "The Human League",
     "Pet Shop Boys",
     "Eurythmics",
     "Tears for Fears",
     "Depeche Mode",
     "Simple Minds",
-    "Dire Straits",
     [
      "Frankie Goes to Hollywood",
      "Frankie"
     ],
-    [
-     "The Police",
-     "Police"
-    ],
+    "Dire Straits",
+    "The Rolling Stones",
+    "The Beatles",
+    "The Police",
     "Bon Jovi",
     "Def Leppard",
     "Europe",
@@ -277,17 +426,14 @@
      "Dexys"
     ],
     "UB40",
-    [
-     "The Specials",
-     "Specials"
-    ],
-    [
-     "The Jam",
-     "Jam"
-    ],
+    "The Specials",
+    "The Jam",
     "Erasure",
     "Soft Cell",
     "A-ha",
+    "The Who",
+    "Slade",
+    "Bee Gees",
     "Bros",
     "Wet Wet Wet",
     "Five Star",
@@ -295,10 +441,10 @@
     "Kajagoogoo",
     "Thompson Twins",
     "Simply Red",
+    "Bob Marley and the Wailers",
     "The Stone Roses",
     [
      "Hall & Oates",
-     "hall and oates",
      "daryl hall and john oates"
     ],
     "Huey Lewis and the News",
@@ -314,10 +460,7 @@
     "Status Quo",
     "Blondie",
     "ABBA",
-    [
-     "Adam and the Ants",
-     "Adam & the Ants"
-    ],
+    "Adam and the Ants",
     "Ultravox",
     "Yazoo",
     [
@@ -330,31 +473,13 @@
      "Haircut One Hundred",
      "Haircut 100"
     ],
-    [
-     "The Style Council",
-     "Style Council"
-    ],
-    [
-     "The Smiths",
-     "Smiths"
-    ],
-    [
-     "The Cure",
-     "Cure"
-    ],
+    "The Style Council",
+    "The Smiths",
+    "The Cure",
     "New Order",
-    [
-     "Siouxsie and the Banshees",
-     "Siouxsie & the Banshees"
-    ],
-    [
-     "The Stranglers",
-     "Stranglers"
-    ],
-    [
-     "The Pogues",
-     "Pogues"
-    ],
+    "Siouxsie and the Banshees",
+    "The Stranglers",
+    "The Pogues",
     "Genesis",
     "Iron Maiden",
     "Whitesnake",
@@ -365,10 +490,7 @@
     "Van Halen",
     "Survivor",
     "Starship",
-    [
-     "The Bangles",
-     "Bangles"
-    ],
+    "The Bangles",
     "Toto",
     "Foreigner",
     "Heart",
@@ -380,30 +502,18 @@
     "Odyssey",
     "Dead or Alive",
     "Bronski Beat",
-    [
-     "The Communards",
-     "Communards"
-    ],
+    "The Communards",
     "Black Lace",
     "Musical Youth",
     "Altered Images",
     "Hot Chocolate",
-    [
-     "The Nolans",
-     "Nolans"
-    ],
+    "The Nolans",
     "Dollar",
     "Tight Fit",
     "Fun Boy Three",
     "Bad Manners",
-    [
-     "The Beat",
-     "Beat"
-    ],
-    [
-     "The Housemartins",
-     "Housemartins"
-    ],
+    "The Beat",
+    "The Housemartins",
     "Fine Young Cannibals",
     "Swing Out Sister",
     "Johnny Hates Jazz",
@@ -416,10 +526,7 @@
     "Big Country",
     "Deacon Blue",
     "Hue and Cry",
-    [
-     "The Proclaimers",
-     "Proclaimers"
-    ],
+    "The Proclaimers",
     "INXS",
     "Men at Work",
     "Midnight Oil",
@@ -433,19 +540,10 @@
     "Japan",
     "Visage",
     "China Crisis",
-    [
-     "Echo & the Bunnymen",
-     "Echo and the Bunnymen"
-    ],
-    [
-     "The Teardrop Explodes",
-     "Teardrop Explodes"
-    ],
+    "Echo & the Bunnymen",
+    "The Teardrop Explodes",
     "Bow Wow Wow",
-    [
-     "The Belle Stars",
-     "Belle Stars"
-    ],
+    "The Belle Stars",
     "Modern Romance",
     "JoBoxers",
     [
@@ -453,20 +551,11 @@
      "Kid Creole"
     ],
     "Toto Coelo",
-    [
-     "The Bluebells",
-     "Bluebells"
-    ],
+    "The Bluebells",
     "Aztec Camera",
-    [
-     "The Christians",
-     "Christians"
-    ],
+    "The Christians",
     "Danny Wilson",
-    [
-     "The Blow Monkeys",
-     "Blow Monkeys"
-    ],
+    "The Blow Monkeys",
     "Go West",
     "Pepsi & Shirlie",
     "Mel & Kim",
@@ -482,10 +571,7 @@
      "Jive Bunny and the Mastermixers",
      "Jive Bunny"
     ],
-    [
-     "The Beatmasters",
-     "Beatmasters"
-    ],
+    "The Beatmasters",
     "Krush",
     "Salt-N-Pepa",
     "Run-DMC",
@@ -495,14 +581,8 @@
     ],
     "Marillion",
     "Rainbow",
-    [
-     "Motörhead",
-     "Motorhead"
-    ],
-    [
-     "The Damned",
-     "Damned"
-    ],
+    "Motörhead",
+    "The Damned",
     "Pink Floyd",
     [
      "Electric Light Orchestra",
@@ -512,59 +592,26 @@
     "Squeeze",
     "Scritti Politti",
     "Talking Heads",
-    [
-     "The Cars",
-     "Cars"
-    ],
+    "The Cars",
     "REO Speedwagon",
-    [
-     "The Pretenders",
-     "Pretenders"
-    ],
+    "The Pretenders",
     "Sister Sledge",
-    [
-     "The Pointer Sisters",
-     "Pointer Sisters"
-    ],
-    [
-     "The Gap Band",
-     "Gap Band"
-    ],
+    "The Pointer Sisters",
+    "The Gap Band",
     "Cameo",
     "Shakatak",
-    [
-     "The Real Thing",
-     "Real Thing"
-    ],
-    [
-     "The Pasadenas",
-     "Pasadenas"
-    ],
+    "The Real Thing",
+    "The Pasadenas",
     "Womack & Womack",
     "Mental As Anything",
-    [
-     "The Kids from Fame",
-     "Kids from Fame"
-    ],
+    "The Kids from Fame",
     "Chas & Dave",
-    [
-     "Boomtown Rats",
-     "The Boomtown Rats"
-    ],
-    [
-     "The Undertones",
-     "Undertones"
-    ],
-    [
-     "The Vapors",
-     "Vapors"
-    ],
+    "Boomtown Rats",
+    "The Undertones",
+    "The Vapors",
     "Liquid Gold",
     "Matchbox",
-    [
-     "The Piranhas",
-     "Piranhas"
-    ],
+    "The Piranhas",
     "Splodgenessabounds",
     "ZZ Top",
     "Beastie Boys",
@@ -572,10 +619,7 @@
      "Detroit Spinners",
      "The Spinners"
     ],
-    [
-     "The Korgis",
-     "Korgis"
-    ],
+    "The Korgis",
     "Lipps Inc.",
     "The Associates",
     "Orange Juice",
@@ -603,15 +647,152 @@
     "Landscape",
     "Tenpole Tudor",
     "Yarbrough & Peoples",
-    [
-     "Dr. Hook",
-     "dr hook"
-    ],
+    "Dr. Hook",
     "Freeez",
     "Linx",
     "Phil Fearon and Galaxy",
     "Amazulu",
-    "Eighth Wonder"
+    "Eighth Wonder",
+    "Four Tops",
+    "The Jacksons",
+    "Commodores",
+    "Chicago",
+    "Band Aid",
+    "Kiss",
+    "Aswad",
+    "Texas",
+    "The Beach Boys",
+    "The Hollies",
+    "New Kids on the Block",
+    "Shakespears Sister",
+    "Roachford",
+    "XTC",
+    "Prefab Sprout",
+    "Miami Sound Machine",
+    "Katrina and the Waves",
+    "Doctor and the Medics",
+    "The Flying Pickets",
+    "Public Image Ltd",
+    "New Edition",
+    "Clannad",
+    "Blancmange",
+    "A Flock of Seagulls",
+    "The Sisters of Mercy",
+    "Los Lobos",
+    "The Dubliners",
+    "London Boys",
+    "Kaoma",
+    "808 State",
+    "Band Aid II",
+    "Ferry Aid",
+    "USA for Africa",
+    "Grandmaster Flash and the Furious Five",
+    "King",
+    "Art of Noise",
+    "Red Box",
+    "Ashford & Simpson",
+    "DeBarge",
+    "Animotion",
+    "Trans-X",
+    "Baltimora",
+    "Arcadia",
+    "Far Corporation",
+    "Full Force",
+    "Mr. Mister",
+    "Double",
+    "Whistle",
+    "Atlantic Starr",
+    "Spitting Image",
+    "Sly Fox",
+    "It Bites",
+    "Midnight Star",
+    "Berlin",
+    "Man 2 Man",
+    "The Jets",
+    "Club Nouveau",
+    "Mirage",
+    "Boogie Box High",
+    "Pseudo Echo",
+    "LeVert",
+    "Fatback Band",
+    "Morris Minor and the Majors",
+    "Cookie Crew",
+    "Jack 'N' Chill",
+    "L.A. Mix",
+    "The Mac Band",
+    "B.V.S.M.P.",
+    "All About Eve",
+    "Will to Power",
+    "Ten City",
+    "Kon Kan",
+    "The Reynolds Girls",
+    "Pat and Mick",
+    "Edelweiss",
+    "Starlight",
+    "Fresh 4",
+    "Mixmaster",
+    "Gibson Brothers",
+    "The Tourists",
+    "The Sugarhill Gang",
+    "The Three Degrees",
+    "Fiddler's Dram",
+    "KC and the Sunshine Band",
+    "Styx",
+    "Booker T. & the M.G.'s",
+    "The Whispers",
+    "Jon and Vangelis",
+    "Ramones",
+    "Captain & Tennille",
+    "Martha and the Muffins",
+    "The Brothers Johnson",
+    "Sky",
+    "The Mash",
+    "Crown Heights Affair",
+    "Black Slate",
+    "Sweet People",
+    "St Winifred's School Choir",
+    "The Look",
+    "Headgirl",
+    "Coast to Coast",
+    "Starsound",
+    "Champaign",
+    "Tom Tom Club",
+    "Third World",
+    "The Tweets",
+    "Mobiles",
+    "The J. Geils Band",
+    "Goombay Dance Band",
+    "Derek and the Dominos",
+    "Pigbag",
+    "Ph.D.",
+    "Joan Jett & the Blackhearts",
+    "Steve Miller Band",
+    "Boys Town Gang",
+    "Rockers Revenge",
+    "Pinkees",
+    "The Maisonettes",
+    "Flash and the Pan",
+    "Funk Masters",
+    "Rock Steady Crew",
+    "Men Without Hats",
+    "The Assembly",
+    "Wah!",
+    "Break Machine",
+    "The Weather Girls",
+    "The Special AKA",
+    [
+     "Rufus",
+     "Rufus and Chaka Khan"
+    ],
+    "Ollie & Jerry",
+    "Alphaville",
+    "Toy Dolls",
+    "The Crowd",
+    "Grange Hill Cast",
+    "The Matchroom Mob",
+    "The Young Ones",
+    "The House Master Boyz",
+    "Sade"
    ]
   },
   {
@@ -624,10 +805,7 @@
    "answers": [
     "Duran Duran",
     "Depeche Mode",
-    [
-     "The Human League",
-     "Human League"
-    ],
+    "The Human League",
     "Pet Shop Boys",
     "Spandau Ballet",
     "Soft Cell",
@@ -651,10 +829,7 @@
     "Howard Jones",
     "Thompson Twins",
     "Kajagoogoo",
-    [
-     "Adam and the Ants",
-     "Adam & the Ants"
-    ],
+    "Adam and the Ants",
     "Nik Kershaw",
     "Bronski Beat",
     "Frankie Goes to Hollywood",
@@ -666,17 +841,11 @@
     "Strawberry Switchblade",
     "Tubeway Army",
     "Sparks",
-    [
-     "The Communards",
-     "Communards"
-    ],
+    "The Communards",
     "Blancmange",
     "Talk Talk",
     "China Crisis",
-    [
-     "A Flock of Seagulls",
-     "Flock of Seagulls"
-    ],
+    "A Flock of Seagulls",
     "Alphaville",
     "Kraftwerk",
     "Dead or Alive",
@@ -684,18 +853,12 @@
     "Naked Eyes",
     "Yello",
     "Thomas Dolby",
-    [
-     "The Associates",
-     "Associates"
-    ],
+    "The Associates",
     "Classix Nouveaux",
     "Modern Romance",
     "Propaganda",
     "Men Without Hats",
-    [
-     "Art of Noise",
-     "The Art of Noise"
-    ],
+    "Art of Noise",
     "Marc Almond",
     "Fiction Factory",
     "Landscape",
@@ -722,7 +885,40 @@
     "Ryan Paris",
     "Gazebo",
     "Sandra",
-    "Philip Oakey & Giorgio Moroder"
+    "Philip Oakey & Giorgio Moroder",
+    "Boy George",
+    "Adam Ant",
+    "Steve Strange",
+    "Vince Clarke",
+    "Billy Mackenzie",
+    "Haysi Fantayzee",
+    "Laid Back",
+    "Peter Schilling",
+    "Hubert Kah",
+    "Trans-X",
+    "Kon Kan",
+    "Devo",
+    "Ministry",
+    "Telex",
+    "Mi-Sex",
+    "Our Daughter's Wedding",
+    "Vicious Pink",
+    "Cabaret Voltaire",
+    "Strange Advance",
+    "Baltimora",
+    "Bad Boys Blue",
+    "C. C. Catch",
+    "Righeira",
+    "Den Harrow",
+    "Fancy",
+    "B.E.F.",
+    "Shock",
+    "Tik and Tok",
+    "Endgames",
+    "Red Flag",
+    "Cetu Javu",
+    "Giorgio Moroder",
+    "Phil Oakey"
    ]
   },
   {
@@ -755,14 +951,8 @@
     "Divine",
     "Princess",
     "Lonnie Gordon",
-    [
-     "Pat and Mick",
-     "Pat & Mick"
-    ],
-    [
-     "The Reynolds Girls",
-     "Reynolds Girls"
-    ],
+    "Pat and Mick",
+    "The Reynolds Girls",
     "Carol Hitchcock",
     "Ferry Aid",
     "Band Aid II",
@@ -776,7 +966,79 @@
     "Haywoode",
     "Delage",
     "Boy Krazy",
-    "Yell!"
+    "Yell!",
+    "Pepsi & Shirlie",
+    "Sabrina",
+    "Phil Fearon",
+    "Steve Walsh",
+    "The Three Degrees",
+    "Gloria Gaynor",
+    "Edwin Starr",
+    "Laura Branigan",
+    "Debbie Harry",
+    "Neneh Cherry",
+    "Malcolm McLaren",
+    "Errol Brown",
+    "Georgie Fame",
+    "Bill Tarmey",
+    "Roland Rat",
+    "Morgan-McVey",
+    "Lananeeneenoonoo",
+    "England Football Team",
+    "WWF Superstars",
+    "Alison Limerick",
+    "Andy Paul",
+    "Austin Howard",
+    "Barrio Boyzz",
+    "Canton",
+    "Dolly Dots",
+    "E.G. Daily",
+    "Edwina Laurie",
+    "Einstein",
+    "Erik",
+    "Fresh",
+    "Girl Talk",
+    "Grand Plaz",
+    "Jeb Million",
+    "Josh Dubovie",
+    "Kahal & Kahal",
+    "Kakko",
+    "Keith Washington",
+    "Key West",
+    "L.A. Mood",
+    "Lisa Fabien",
+    "Michael Davidson",
+    "Michael Prince",
+    "Mondo Kane",
+    "Nancy Davis",
+    "Nick Straker",
+    "O'Chi Brown",
+    "Paul Lekakis",
+    "Paul Varney",
+    "Precious Wilson",
+    "Rick Le Vay",
+    "Rin Tin Tin",
+    "Romi & Jazz",
+    "Sequal",
+    "Slamm",
+    "Spelt Like This",
+    "Splash",
+    "Stephan Remmler",
+    "Suzette Charles",
+    "The Cool Notes",
+    "The Danse Society",
+    "The Fat Slags",
+    "The Lewis's",
+    "The Mint Juleps",
+    "The Sheilas",
+    "The Twins",
+    "Visionmasters",
+    "West End",
+    "Worlds Apart",
+    "The Christians",
+    "Holly Johnson",
+    "Paul McCartney",
+    "Gerry Marsden"
    ]
   },
   {
@@ -790,10 +1052,7 @@
    "answers": [
     "Bon Jovi",
     "Def Leppard",
-    [
-     "Mötley Crüe",
-     "Motley Crue"
-    ],
+    "Mötley Crüe",
     "Poison",
     "Whitesnake",
     [
@@ -864,7 +1123,42 @@
     "Rough Cutt",
     "Steeler",
     "Vain",
-    "Love/Hate"
+    "Love/Hate",
+    "Krokus",
+    "Lynch Mob",
+    "Badlands",
+    "Blue Murder",
+    "Bonham",
+    "House of Lords",
+    "Nitro",
+    "Wildside",
+    "Babylon A.D.",
+    "Tora Tora",
+    "Roxx Gang",
+    "Spread Eagle",
+    "Every Mother's Nightmare",
+    "Electric Angels",
+    "Kick Axe",
+    "Icon",
+    "Dirty Looks",
+    "Alleycat Scratch",
+    "Tyketto",
+    "Shotgun Messiah",
+    "Swedish Erotica",
+    "TNT",
+    "Treat",
+    "The Quireboys",
+    "The Dogs D'Amour",
+    "Little Angels",
+    "Girl",
+    "Femme Fatale",
+    "Madam X",
+    "Precious Metal",
+    "Bad English",
+    "Smashed Gladys",
+    "Sea Hags",
+    "Kik Tracee",
+    "White Sister"
    ]
   },
   {
@@ -884,17 +1178,11 @@
     "Erasure",
     "Hall & Oates",
     "Roxette",
-    [
-     "The Proclaimers",
-     "Proclaimers"
-    ],
+    "The Proclaimers",
     "Mel & Kim",
     "Pepsi & Shirlie",
     "Chas & Dave",
-    [
-     "The Communards",
-     "Communards"
-    ],
+    "The Communards",
     "Everything but the Girl",
     "Milli Vanilli",
     "Godley & Creme",
@@ -913,10 +1201,7 @@
     "Blancmange",
     "Modern Talking",
     "Yello",
-    [
-     "The Associates",
-     "Associates"
-    ],
+    "The Associates",
     "Black Lace",
     "Air Supply",
     "Jon & Vangelis",
@@ -936,10 +1221,7 @@
     "René & Angela",
     "Waterfront",
     "Bardo",
-    [
-     "Renée and Renato",
-     "Renee and Renato"
-    ],
+    "Renée and Renato",
     "Dave Stewart and Barbara Gaskin",
     "Kylie and Jason",
     "Elaine Paige and Barbara Dickson",
@@ -949,7 +1231,87 @@
     "Bill Medley and Jennifer Warnes",
     "Patti LaBelle and Michael McDonald",
     "George Michael and Aretha Franklin",
-    "Rob Base and DJ E-Z Rock"
+    "Rob Base and DJ E-Z Rock",
+    "Yarbrough & Peoples",
+    "Captain & Tennille",
+    "The Weather Girls",
+    "Sparks",
+    "Double",
+    "Laid Back",
+    "Haysi Fantayzee",
+    [
+     "Glenn and Chris",
+     "Hoddle and Waddle"
+    ],
+    "Kon Kan",
+    "Pat and Mick",
+    "The System",
+    [
+     "Kenny Rogers and Dolly Parton",
+     "Dolly Parton and Kenny Rogers"
+    ],
+    [
+     "Diana Ross and Lionel Richie",
+     "Lionel Richie and Diana Ross"
+    ],
+    [
+     "Paul McCartney and Stevie Wonder",
+     "Stevie Wonder and Paul McCartney"
+    ],
+    [
+     "Paul McCartney and Michael Jackson",
+     "Michael Jackson and Paul McCartney"
+    ],
+    [
+     "David Bowie and Bing Crosby",
+     "Bing Crosby and David Bowie"
+    ],
+    "Freddie Mercury and Montserrat Caballé",
+    "Cliff Richard and Sarah Brightman",
+    [
+     "Phil Everly and Cliff Richard",
+     "Cliff Richard and Phil Everly"
+    ],
+    [
+     "Shakin' Stevens and Bonnie Tyler",
+     "Shaky and Bonnie Tyler"
+    ],
+    [
+     "Peter Gabriel and Kate Bush",
+     "Kate Bush and Peter Gabriel"
+    ],
+    "Linda Ronstadt and Aaron Neville",
+    "Linda Ronstadt and James Ingram",
+    "Patti Austin and James Ingram",
+    [
+     "Barbra Streisand and Barry Gibb",
+     "Barry Gibb and Barbra Streisand"
+    ],
+    "Billy Preston and Syreeta",
+    "Roberta Flack and Donny Hathaway",
+    "Peabo Bryson and Roberta Flack",
+    [
+     "Joe Cocker and Jennifer Warnes",
+     "Jennifer Warnes and Joe Cocker"
+    ],
+    "Phil Collins and Marilyn Martin",
+    "Gary Moore and Phil Lynott",
+    "David Grant and Jaki Graham",
+    "Sarah Brightman and Steve Harley",
+    "Robert Howard and Kym Mazelle",
+    "Kim Wilde and Junior",
+    "Cherrelle and Alexander O'Neal",
+    [
+     "Marc Almond and Gene Pitney",
+     "Gene Pitney and Marc Almond"
+    ],
+    "Annie Lennox and Al Green",
+    "Michael Jackson and Siedah Garrett",
+    [
+     "Giorgio Moroder and Philip Oakey",
+     "Philip Oakey and Giorgio Moroder",
+     "Phil Oakey and Giorgio Moroder"
+    ]
    ]
   },
   {
@@ -1016,7 +1378,35 @@
     "Susanna",
     "Lucretia My Reflection",
     "Julie Ocean",
-    "Ana Ng"
+    "Ana Ng",
+    "Jack & Diane",
+    "Dirty Diana",
+    "Diana",
+    "Oh Sheila",
+    "Darling Nikki",
+    "Gimme Hope Jo'anna",
+    "Oh Julie",
+    "Shirley",
+    "Alice, I Want You Just for Me",
+    "Joan of Arc",
+    [
+     "Maid of Orleans (The Waltz Joan of Arc)",
+     "Maid of Orleans"
+    ],
+    "Baby Jane",
+    "Blue Jean",
+    "Laura",
+    "Sherry Darling",
+    "Little Suzi",
+    "Margaret on the Guillotine",
+    "Cath",
+    "Charlotte Street",
+    "Annie Get Your Gun",
+    "Alice",
+    [
+     "Do Nothing/Maggie's Farm",
+     "Maggie's Farm"
+    ]
    ]
   },
   {
@@ -1030,10 +1420,7 @@
    "answers": [
     "Purple Rain",
     "Red Red Wine",
-    [
-     "The Lady in Red",
-     "Lady in Red"
-    ],
+    "The Lady in Red",
     "Blue Monday",
     "Golden Brown",
     "99 Red Balloons",
@@ -1073,7 +1460,35 @@
     "Blue Hat for a Blue Day",
     "Black Man Ray",
     "Red Guitar",
-    "Red Skies"
+    "Red Skies",
+    "Fools Gold",
+    "Love over Gold",
+    "Silver and Gold",
+    "The Golden Years",
+    "Midnight Blue",
+    "Blue Light",
+    "Blue Hotel",
+    "Blue Spanish Sky",
+    "Out of the Blue",
+    "The Blue Sky",
+    "Fade to Black",
+    "Black Heart",
+    "White Horse",
+    "White Boy",
+    "White Boys and Heroes",
+    "Red Light",
+    "Red Barchetta",
+    "Red Sector A",
+    [
+     "Roses Are Red",
+     "Roses Are Red (My Love)"
+    ],
+    "Scarlet",
+    "Crimson and Clover",
+    "Lavender",
+    "Ruby Red",
+    "Yellow Moon",
+    "Blue Monday 1988"
    ]
   },
   {
@@ -1087,8 +1502,7 @@
    "answers": [
     [
      "(I've Had) The Time of My Life",
-     "The Time of My Life",
-     "Time of My Life"
+     "The Time of My Life"
     ],
     "Eye of the Tiger",
     "Ghostbusters",
@@ -1102,10 +1516,7 @@
     "Fame",
     "The Power of Love",
     "Danger Zone",
-    [
-     "Don't You (Forget About Me)",
-     "Don't You Forget About Me"
-    ],
+    "Don't You (Forget About Me)",
     "Up Where We Belong",
     "Holding Out for a Hero",
     "Purple Rain",
@@ -1160,10 +1571,7 @@
     "Underground",
     "Magic Dance",
     "Two Hearts",
-    [
-     "A Groovy Kind of Love",
-     "Groovy Kind of Love"
-    ],
+    "A Groovy Kind of Love",
     "Kokomo",
     "Let the River Run",
     [
@@ -1229,7 +1637,98 @@
     "Hello Again",
     "Love on the Rocks",
     "Mighty Wings",
-    "Cry Little Sister"
+    "Cry Little Sister",
+    "Call Me",
+    "Kiss",
+    "Wind Beneath My Wings",
+    "I Want Your Sex",
+    "Heaven",
+    "This Woman's Work",
+    "Spies Like Us",
+    "No More Lonely Nights",
+    "Coming Around Again",
+    "Gambler",
+    "Who's Johnny",
+    "Rhythm of the Night",
+    "Silent Running",
+    "Sweet Freedom",
+    "Invincible",
+    "Love Light in Flight",
+    "Love Is Love",
+    "When the Tigers Broke Free",
+    "When the Wind Blows",
+    "Is Your Love Strong Enough",
+    "Papa, Can You Hear Me?",
+    "The Way He Makes Me Feel",
+    "Ruthless People",
+    "Cross My Broken Heart",
+    "Only the Young",
+    "Hot Summer Nights",
+    "Moment of Truth",
+    "Winner Takes It All",
+    "Meet Me Half Way",
+    "I'm Alright",
+    "Nobody's Fool",
+    "Somebody's Baby",
+    "Lookin' for Love",
+    "If We Hold On Together",
+    "Why Should I Worry?",
+    "Once Upon a Time in New York City",
+    "Les Poissons",
+    "Poor Unfortunate Souls",
+    "Coming to America",
+    "Wild Again",
+    "Twins",
+    "Fright Night",
+    "Romancing the Stone",
+    "Left of Center",
+    "Shellshock",
+    "Tonight Is What It Means to Be Young",
+    "Cool Rider",
+    "Mean Green Mother from Outer Space",
+    "Computer Blue",
+    "Darling Nikki",
+    "The Beautiful Ones",
+    "Baby I'm a Star",
+    "Mountains",
+    "Girls & Boys",
+    "The Future",
+    "Electric Chair",
+    "Trust",
+    "Lemon Crush",
+    "Vicki Waiting",
+    "The Hero",
+    "One Year of Love",
+    "Don't Lose Your Head",
+    "Within You",
+    "Chilly Down",
+    "Have You Ever Had It Blue",
+    "Killer Blow",
+    "Quiet Life",
+    "Good Times",
+    "People Are Strange",
+    "Lost in the Shadows",
+    "Love Theme from St. Elmo's Fire",
+    "Imagination",
+    "Romeo",
+    "Red Light",
+    "Hot Lunch Jam",
+    "I Sing the Body Electric",
+    "Come On, Let's Go",
+    "Why",
+    "America",
+    "Walking in the Air",
+    "We All Stand Together",
+    "Another Part of Me",
+    "Let's Go to the Movies",
+    "Back to School Again",
+    "Gremlins... Mega Madness",
+    "Never",
+    "The Girl Gets Around",
+    "Somebody's Eyes",
+    "Lady, Lady, Lady",
+    "Manhunt",
+    "Kellerman's Anthem"
    ]
   },
   {
@@ -1264,7 +1763,17 @@
     "One Christmas Catalogue",
     "Christmas with the Devil",
     "There's No One Quite Like Grandma",
-    "Merry Christmas (I Don't Want to Fight Tonight)"
+    "Merry Christmas (I Don't Want to Fight Tonight)",
+    "Another Rock and Roll Christmas",
+    "Christmas Rapping",
+    [
+     "Peace on Earth/Little Drummer Boy",
+     "Peace on Earth"
+    ],
+    "Christmas at Ground Zero",
+    "Christmas in Dreadland",
+    "Christmas in the Trenches",
+    "Christmas in Dixie"
    ]
   },
   {
@@ -1287,6 +1796,8 @@
     "Carrie",
     "Faithfully",
     "Open Arms",
+    "Against All Odds (Take a Look at Me Now)",
+    "Purple Rain",
     "Waiting for a Girl Like You",
     "Keep On Loving You",
     "Can't Fight This Feeling",
@@ -1295,6 +1806,7 @@
     "Still Loving You",
     "Who Wants to Live Forever",
     "Listen to Your Heart",
+    "Here I Go Again",
     "Eternal Flame",
     "Missing You",
     "Never Say Goodbye",
@@ -1346,10 +1858,36 @@
     "Never Tear Us Apart",
     "We Belong",
     "Don't Close Your Eyes",
-    [
-     "The Ballad of Jayne",
-     "Ballad of Jayne"
-    ]
+    "The Ballad of Jayne",
+    "It Must Have Been Love",
+    "Without You",
+    "Fly High Michelle",
+    "Nobody's Fool",
+    "Coming Home",
+    "I Still Love You",
+    "That Was Yesterday",
+    "The Deeper the Love",
+    "Love Ain't No Stranger",
+    "Bringin' On the Heartbreak",
+    "You're All I Need",
+    "Sometimes She Cries",
+    "I Can't Hold Back",
+    "Angelia",
+    "Will You Still Love Me?",
+    "Hard Habit to Break",
+    "I Won't Hold You Back",
+    "Open Your Heart",
+    "Lost in Love",
+    "Every Woman in the World",
+    "Sara",
+    "Heaven in Your Eyes",
+    "This Could Be the Night",
+    "I'll Be Over You",
+    "Edge of a Broken Heart",
+    "When the Smoke Is Going Down",
+    "Reason to Live",
+    "Living in Sin",
+    "Here I Am (Just When I Thought I Was Over You)"
    ]
   },
   {
@@ -1423,7 +1961,22 @@
     [
      "Two Pints of Lager and a Packet of Crisps Please",
      "Two Pints of Lager"
-    ]
+    ],
+    "One Night Love Affair",
+    "Sweet Sixteen",
+    "Hey Nineteen",
+    "Six Months in a Leaky Boat",
+    [
+     "Eighth Day",
+     "8th Day"
+    ],
+    [
+     "40",
+     "Forty"
+    ],
+    "Two Strong Hearts",
+    "21st Century Boy",
+    "Two Minute Warning"
    ]
   },
   {
@@ -1434,18 +1987,12 @@
    ],
    "text": "Name a song by Wham!",
    "answers": [
-    [
-     "Wake Me Up Before You Go-Go",
-     "Wake Me Up Before You Go Go"
-    ],
+    "Wake Me Up Before You Go-Go",
     "Last Christmas",
     "Club Tropicana",
     "Freedom",
     "I'm Your Man",
-    [
-     "The Edge of Heaven",
-     "Edge of Heaven"
-    ],
+    "The Edge of Heaven",
     [
      "Young Guns (Go for It!)",
      "Young Guns"
@@ -1454,7 +2001,8 @@
     "Careless Whisper",
     [
      "Wham Rap! (Enjoy What You Do)",
-     "Wham Rap"
+     "Wham Rap",
+     "Wham Rap 86"
     ],
     "Bad Boys",
     "Where Did Your Heart Go?",
@@ -1464,17 +2012,15 @@
     "If You Were There",
     "Credit Card Baby",
     "Love Machine",
-    [
-     "A Ray of Sunshine",
-     "Ray of Sunshine"
-    ],
+    "A Ray of Sunshine",
     "Nothing Looks the Same in the Light",
     "Come On!",
     "Battlestations",
     [
      "Blue (Armed with Love)",
      "Blue"
-    ]
+    ],
+    "Do It Right"
    ]
   },
   {
@@ -1496,15 +2042,9 @@
     "It's a Miracle",
     "Miss Me Blind",
     "I'll Tumble 4 Ya",
-    [
-     "The War Song",
-     "War Song"
-    ],
+    "The War Song",
     "Move Away",
-    [
-     "The Medal Song",
-     "Medal Song"
-    ],
+    "The Medal Song",
     "God Thank You Woman",
     "Love Is Love",
     "I Just Wanna Be Loved",
@@ -1536,7 +2076,29 @@
     "Reasons",
     "Too Bad",
     "Let Somebody Love You",
-    "Life"
+    "Life",
+    "Melting Pot",
+    "Come On in from the Outside",
+    "Sexuality",
+    "Cold Shoulder",
+    "Starman",
+    "Bad Blood",
+    "Different Man",
+    "Runaway Train",
+    "Human Zoo",
+    "Oil & Water",
+    "Resting Place",
+    "God & Love",
+    "What Does Love Mean?",
+    "More Than Silence",
+    "Murder Rap Trap",
+    "Mystery Boy",
+    "Man-Shake",
+    [
+     "Love Is Cold (You Were Never No Good)",
+     "Love Is Cold"
+    ],
+    "Romance Beyond the Alphabet"
    ]
   },
   {
@@ -1548,10 +2110,7 @@
    "text": "Name a song by Bananarama",
    "answers": [
     "Venus",
-    [
-     "Robert De Niro's Waiting...",
-     "Robert De Niro's Waiting"
-    ],
+    "Robert De Niro's Waiting...",
     "Cruel Summer",
     "Love in the First Degree",
     "Really Saying Something",
@@ -1574,10 +2133,7 @@
     "Hotline to Heaven",
     "Do Not Disturb",
     "More Than Physical",
-    [
-     "A Trick of the Night",
-     "Trick of the Night"
-    ],
+    "A Trick of the Night",
     "I Can't Help It",
     "Love, Truth and Honesty",
     "Only Your Love",
@@ -1591,7 +2147,22 @@
      "Look on the Floor (Hypnotic Tango)",
      "Look on the Floor"
     ],
-    "The Wild Life"
+    "The Wild Life",
+    "Young at Heart",
+    "Hey Young London",
+    "Dream Baby",
+    "King of the Jungle",
+    "Promised Land",
+    "Dance with a Stranger",
+    "Ready or Not",
+    "Strike It Rich",
+    "Some Girls",
+    "Tripping on Your Love",
+    "Every Shade of Blue",
+    "Love Comes",
+    "Dance Music",
+    "Doctor Love",
+    "Boy Trouble"
    ]
   },
   {
@@ -1602,10 +2173,7 @@
    ],
    "text": "Name a song by Simple Minds",
    "answers": [
-    [
-     "Don't You (Forget About Me)",
-     "Don't You Forget About Me"
-    ],
+    "Don't You (Forget About Me)",
     "Alive and Kicking",
     "Belfast Child",
     "Promised You a Miracle",
@@ -1656,7 +2224,56 @@
     "Colours Fly and Catherine Wheel",
     "Seeing Out the Angel",
     "Magic",
-    "Vision Thing"
+    "Vision Thing",
+    "Changeling",
+    "Factory",
+    "Premonition",
+    "Thirty Frames a Second",
+    "Kant-Kino",
+    "Today I Died Again",
+    "In Trance as Mission",
+    "The Kick Inside of Me",
+    "C Moon Cry Like a Baby",
+    "Shake Off the Ghosts",
+    "White Hot Day",
+    "King Is White and in the Crowd",
+    "Come a Long Way",
+    "Soul Crying Out",
+    "Wall of Love",
+    "Take a Step Back",
+    "Let It All Come Down",
+    "Travelling Man",
+    "African Skies",
+    "Ghostrider",
+    "Rivers of Ice",
+    "Banging on the Door",
+    "Great Leap Forward",
+    "And the Band Played On",
+    "7 Deadly Sins",
+    "Stay Visible",
+    "Different World",
+    "The Jeweller",
+    "Kiss the Ground",
+    "Dolphins",
+    "Too Many Prophets",
+    "Honest Town",
+    "Blindfolded",
+    "Midnight Walking",
+    "Let the Day Begin",
+    "Big Music",
+    "Blood Diamonds",
+    "Sense of Discovery",
+    "Summer",
+    "Utopia",
+    "The Signal and the Noise",
+    "In Dreams",
+    "Barrowland Star",
+    "Walk Between Worlds",
+    "First You Jump",
+    "Act of Love",
+    "Solstice Kiss",
+    "Who Killed Truth?",
+    "Cry"
    ]
   },
   {
@@ -1671,8 +2288,7 @@
     "Mirror Man",
     [
      "(Keep Feeling) Fascination",
-     "Fascination",
-     "Keep Feeling Fascination"
+     "Fascination"
     ],
     [
      "Love Action (I Believe in Love)",
@@ -1681,16 +2297,10 @@
     "Open Your Heart",
     "Human",
     "Louise",
-    [
-     "The Lebanon",
-     "Lebanon"
-    ],
+    "The Lebanon",
     "Tell Me When",
     "Being Boiled",
-    [
-     "The Sound of the Crowd",
-     "Sound of the Crowd"
-    ],
+    "The Sound of the Crowd",
     "Life on Your Own",
     "Empire State Human",
     "Seconds",
@@ -1712,7 +2322,50 @@
     "Night People",
     "Never Let Me Go",
     "Only After Dark",
-    "Boys and Girls"
+    "Boys and Girls",
+    "Almost Medieval",
+    "The Path of Least Resistance",
+    "Blind Youth",
+    "The Word Before Last",
+    "Zero as a Limit",
+    "You've Lost That Loving Feeling",
+    "Austerity/Girl One",
+    "The Black Hit of Space",
+    "Life Kills",
+    "Dreams of Leaving",
+    "Toyota City",
+    "Crow and a Baby",
+    "The Touchables",
+    "Gordon's Gin",
+    "WXJL Tonight",
+    "Marianne",
+    "Dancevision",
+    "I'm Coming Back",
+    "I Love You Too Much",
+    "Rock Me Again and Again and Again and Again and Again and Again",
+    "Betrayed",
+    "The Sign",
+    "So Hurt",
+    "Swang",
+    "Jam",
+    "Are You Ever Coming Back?",
+    "The Real Thing",
+    "Love on the Run",
+    "Kiss the Future",
+    "A Doorway",
+    "These Are the Days",
+    "Words",
+    "Cruel Young Lover",
+    "House Full of Nothing",
+    "John Cleese; Is He Funny?",
+    "All I Ever Wanted",
+    "Love Me Madly?",
+    "Shameless",
+    "Never Again",
+    "Egomaniac",
+    "Sky",
+    "Electric Shock",
+    "Into the Night"
    ]
   },
   {
@@ -1755,10 +2408,7 @@
     "Once Upon a Time in the West",
     "News",
     "Where Do You Think You're Going?",
-    [
-     "Communiqué",
-     "Communique"
-    ],
+    "Communiqué",
     "Angel of Mercy",
     "Portobello Belle",
     "Single-Handed Sailor",
@@ -1778,7 +2428,12 @@
     "Iron Hand",
     "When It Comes to You",
     "Badges, Posters, Stickers and T-Shirts",
-    "Two Young Lovers"
+    "Two Young Lovers",
+    "Lions",
+    "If I Had You",
+    "How Long",
+    "Eastbound Train",
+    "What's the Matter Baby?"
    ]
   },
   {
@@ -1807,6 +2462,7 @@
      "Tears Roll Down"
     ],
     "Suffer the Children",
+    "Everybody Wants to Run the World",
     "Memories Fade",
     "The Hurting",
     "Ideas as Opiates",
@@ -1827,15 +2483,38 @@
     "Raoul and the Kings of Spain",
     "Closest Thing to Heaven",
     "Everybody Loves a Happy Ending",
-    [
-     "The Tipping Point",
-     "Tipping Point"
-    ],
+    "The Tipping Point",
     "Break the Man",
     "No Small Thing",
     "My Demons",
     "Rivers of Mercy",
-    "Pharaohs"
+    "Pharaohs",
+    "The Way You Are",
+    "Mr. Pessimist",
+    "Fish Out of Water",
+    "Gas Giants",
+    "Power",
+    "Brian Wilson Said",
+    "Dog's a Best Friend's Dog",
+    "Falling Down",
+    "Secrets",
+    "God's Mistake",
+    "Sketches of Pain",
+    "I Choose You",
+    "Don't Drink the Water",
+    "Call Me Mellow",
+    "Who You Are",
+    "Quiet Ones",
+    "Secret World",
+    "Killing with Kindness",
+    "Ladybird",
+    "Long, Long, Long Time",
+    "Please Be Happy",
+    "Master Plan",
+    "End of Night",
+    "When in Love with a Blind Man",
+    "The Big Chair",
+    "Johnny Panic and the Bible of Dreams"
    ]
   },
   {
@@ -1846,10 +2525,7 @@
    ],
    "text": "Name a song by Erasure",
    "answers": [
-    [
-     "A Little Respect",
-     "Little Respect"
-    ],
+    "A Little Respect",
     "Sometimes",
     "Stop!",
     "Always",
@@ -1891,7 +2567,41 @@
     "I Could Fall in Love with You",
     "Chorus",
     "Am I Right?",
-    "You Surround Me"
+    "You Surround Me",
+    "Voulez-Vous",
+    [
+     "S.O.S.",
+     "SOS"
+    ],
+    "Piano Song",
+    "Storm Chaser",
+    "Be with You",
+    "Sweet Summer Loving",
+    "Fill Us with Fire",
+    "When I Start to (Break It All Down)",
+    "Gaudete",
+    "Sacred",
+    "Hey Now (Think I Got a Feeling)",
+    "Love You to the Sky",
+    "Oh What a World",
+    "Loveboat",
+    "Elevation",
+    "Phantom Bride",
+    "Sunday Girl",
+    "Reunion",
+    "Push Me Shove Me",
+    "Senseless",
+    "Yahoo!",
+    "Imagination",
+    "Weight of the World",
+    "Hallowed Ground",
+    "Waiting for the Day",
+    "Joan",
+    "Siren Song",
+    "Home",
+    "Man in the Moon",
+    "Blues Away",
+    "Take Me Back"
    ]
   },
   {
@@ -1911,10 +2621,7 @@
     "She Bop",
     "All Through the Night",
     "Money Changes Everything",
-    [
-     "The Goonies 'R' Good Enough",
-     "Goonies R Good Enough"
-    ],
+    "The Goonies 'R' Good Enough",
     "Change of Heart",
     "What's Going On",
     "I Drove All Night",
@@ -1949,7 +2656,52 @@
      "Hole in My Heart"
     ],
     "Just Your Fool",
-    "Funnel of Love"
+    "Funnel of Love",
+    "I'll Kiss You",
+    "The Faraway Nearby",
+    "911",
+    "One Track Mind",
+    "Primitive",
+    "Like a Cat",
+    "A Night to Remember",
+    "Unconditional Love",
+    "Insecurious",
+    "Dancing with a Stranger",
+    "Kindred Spirit",
+    "Product of Misery",
+    "Lies",
+    "Broken Glass",
+    "Feels Like Christmas",
+    "Dear John",
+    "Someone Like Me",
+    "A Part Hate",
+    "Love to Hate",
+    "Ballad of Cleo and Joe",
+    "Fall Into Your Dreams",
+    "Searching",
+    "Mother",
+    "Say a Prayer",
+    "Early Christmas Morning",
+    "Madonna Whore",
+    "At Last",
+    "Walk On By",
+    "Set Your Heart",
+    "Echo",
+    "Rocking Chair",
+    "Shattered Dreams",
+    "Early in the Mornin'",
+    "Romance in the Dark",
+    "Heartaches by the Number",
+    "Misty Blue",
+    "I Fall to Pieces",
+    "Walkin' After Midnight",
+    "Hard Candy Christmas",
+    "Night Life",
+    "Begging to You",
+    "Detour",
+    "Disco Inferno",
+    "Brimstone and Fire",
+    "Hot Gets a Little Cold"
    ]
   },
   {
@@ -2020,7 +2772,83 @@
     "Angel in the Snow",
     "Waiting for Her",
     "Soft Rains of April",
-    "I Call Your Name"
+    "I Call Your Name",
+    "October",
+    "We're Looking for the Whales",
+    "The Weight of the Wind",
+    "This Alone Is Love",
+    "Hurry Home",
+    "You'll End Up Crying",
+    "Cold River",
+    "The Way We Talk",
+    "Rolling Thunder",
+    "(Seemingly) Nonstop July",
+    "Cold as Stone",
+    "Locust",
+    "Lie Down in Darkness",
+    "How Sweet It Was",
+    "Lamb to the Slaughter",
+    "Between Your Mama and Yourself",
+    "Memorial Beach",
+    "Little Black Heart",
+    "The Sun Never Shone That Day",
+    "To Let You Win",
+    "The Company Man",
+    "Thought That It Was You",
+    "I Wish I Cared",
+    "Barely Hanging On",
+    "You'll Never Get Over Me",
+    "I Won't Forget Her",
+    "Mary Ellen Makes the Moment Count",
+    "You Wanted More",
+    "There's a Reason for It",
+    "Time & Again",
+    "Did Anyone Approach You?",
+    "Afternoon High",
+    "Oranges on Appletrees",
+    "A Little Bit",
+    "Less Than Pure",
+    "Turn the Lights Down",
+    "Cannot Hide",
+    "White Dwarf",
+    "Dragonfly",
+    "Solace",
+    "Don't Do Me Any Favours",
+    "Birthright",
+    "Holy Ground",
+    "Halfway Through the Tour",
+    "Keeper of the Flame",
+    "Make It Soon",
+    "Over the Treetops",
+    "The Bandstand",
+    "Riding the Crest",
+    "What There Is",
+    "Real Meaning",
+    "Shadowside",
+    "Nothing Is Keeping You Here",
+    "Mother Nature Goes to Heaven",
+    "Start the Simulator",
+    "Cast in Steel",
+    "Under the Makeup",
+    "The Wake",
+    "Forest Fire",
+    "Objects in the Mirror",
+    "Door Ajar",
+    "Living at the End of the World",
+    "Mythomaniac",
+    "She's Humming a Tune",
+    "Giving Up the Ghost",
+    "Goodbye Thompson",
+    "I'm In",
+    "Hunter in the Hills",
+    "You Have What It Takes",
+    "Bumblebee",
+    "Between the Halo and the Horn",
+    "Forest for the Trees",
+    "Make Me Understand",
+    "Summer Rain",
+    "Bluebird",
+    "I'm Not Afraid"
    ]
   },
   {
@@ -2060,7 +2888,29 @@
     ],
     "Dial My Number",
     "I'll Never Let You Down",
-    "I Don't Want to Lose Her"
+    "I Don't Want to Lose Her",
+    "Never Knew Love",
+    "Be with You",
+    "In the Name of Love",
+    "This Must Be Heaven",
+    "Wonderful You",
+    "Waiting for the Bell to Ring",
+    "Enough Is Enough",
+    "Remember the Days",
+    "Sleeping",
+    "Keep It Turned On",
+    "Chance to Dance",
+    "She Makes Me",
+    "Last Night on Earth",
+    "Pray with Me",
+    "Let It Rain",
+    "This Old House",
+    "Dance",
+    "Wish Away",
+    "I Like the Sun",
+    "Dippin My Feet",
+    "Never Gonna Stop",
+    "Forever and More"
    ]
   },
   {
@@ -2118,7 +2968,11 @@
     ],
     "I Might Have Been Queen",
     "Steel Claw",
-    "1984"
+    "1984",
+    "Addicted to Love",
+    "Don't Turn Around",
+    "I'll Be Thunder",
+    "Let's Pretend We're Married"
    ]
   }
  ]
