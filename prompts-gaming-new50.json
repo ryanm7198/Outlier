@@ -362,24 +362,19 @@
       ],
       "text": "Name a villain who appears in the Batman: Arkham games (Asylum, City, Origins, Origins Blackgate or Knight)",
       "answers": [
-        [
-          "The Joker",
-          "Joker"
-        ],
+        "The Joker",
         [
           "Harley Quinn",
           "Harley"
         ],
         [
           "The Riddler",
-          "Riddler",
           "Edward Nygma",
           "Edward Nashton",
           "Enigma"
         ],
         [
           "Two-Face",
-          "Two Face",
           "Harvey Dent"
         ],
         [
@@ -388,7 +383,6 @@
         ],
         [
           "The Penguin",
-          "Penguin",
           "Oswald Cobblepot"
         ],
         "Bane",
@@ -413,7 +407,6 @@
         ],
         [
           "Ra's al Ghul",
-          "Ras al Ghul",
           "Ra's"
         ],
         [
@@ -468,7 +461,6 @@
         ],
         [
           "Man-Bat",
-          "Man Bat",
           "Kirk Langstrom"
         ],
         [
@@ -500,6 +492,32 @@
         [
           "Abramovici Twins",
           "Abramovici"
+        ],
+        [
+          "Quincy Sharp",
+          "Spirit of Arkham",
+          "Warden Sharp"
+        ],
+        "Amanda Waller",
+        [
+          "Gillian Loeb",
+          "Commissioner Loeb",
+          "Gillian B. Loeb"
+        ],
+        "Bird",
+        "Simon Stagg",
+        "Warden Ranken",
+        [
+          "Mr. Hammer",
+          "Mister Hammer"
+        ],
+        "Sickle",
+        "Albert King",
+        "Christina Bell",
+        "Johnny Charisma",
+        [
+          "Dollotrons",
+          "Dollotron"
         ]
       ]
     },
@@ -539,7 +557,6 @@
         [
           "Doctor N. Gin",
           "N. Gin",
-          "N Gin",
           "Dr N Gin"
         ],
         [
@@ -561,7 +578,6 @@
         [
           "Doctor Nefarious Tropy",
           "N. Tropy",
-          "N Tropy",
           "Dr N Tropy",
           "Nefarious Tropy"
         ],
@@ -598,28 +614,18 @@
           "Small Norm"
         ],
         "Real Velo",
-        [
-          "Lani-Loli",
-          "Lani Loli"
-        ],
-        [
-          "Kupuna-Wa",
-          "Kupuna Wa"
-        ],
+        "Lani-Loli",
+        "Kupuna-Wa",
         "Akano",
+        "Ika-Ika",
         [
-          "Ika-Ika",
-          "Ika Ika"
-        ],
-        [
-          "Victor and Moritz",
           "Evil Twins",
-          "Victor",
-          "Moritz"
+          "Victor and Moritz"
         ],
         [
           "Madame Amberly",
-          "Amberly"
+          "Amberly",
+          "Madame Amberley"
         ],
         "Rilla Roo",
         [
@@ -643,27 +649,300 @@
         "Ami",
         "Liz",
         "Isabella",
-        [
-          "Rok-Ko",
-          "Rok Ko"
-        ],
-        [
-          "Wa-Wa",
-          "Wa Wa"
-        ],
-        [
-          "Py-Ro",
-          "Py Ro"
-        ],
-        [
-          "Lo-Lo",
-          "Lo Lo"
-        ],
+        "Rok-Ko",
+        "Wa-Wa",
+        "Py-Ro",
+        "Lo-Lo",
         "Spike",
         "Ratcicle",
         "Baby Crash",
         "Baby Coco",
-        "Baby Cortex"
+        "Baby Cortex",
+        [
+          "N. Trance",
+          "Doctor N. Trance",
+          "Dr N Trance"
+        ],
+        [
+          "Spyro",
+          "Spyro the Dragon"
+        ],
+        [
+          "Hunter (Spyro)",
+          "Hunter"
+        ],
+        "Ripto",
+        [
+          "Willie Wumpa Cheeks",
+          "Willy Wumpa Cat",
+          "Willie Wumpa"
+        ],
+        "Rusty Walrus",
+        "Catbat",
+        "Scorporilla",
+        "Magmadon",
+        "Sludge",
+        "Snipe",
+        "Rhinoroller",
+        [
+          "Victor (Evil Twins)",
+          "Victor Von Ebil"
+        ],
+        [
+          "Moritz (Evil Twins)",
+          "Moritz Von Ebil"
+        ],
+        [
+          "Komodo Brothers",
+          "Komodo Bros"
+        ],
+        "Fake Coco",
+        "Carbon Crash",
+        "Evil Crash",
+        "Megamix",
+        [
+          "Robo Neo Cortex",
+          "Robo Cortex"
+        ],
+        "Mecha-Bandicoot",
+        [
+          "Female N. Tropy",
+          "N. Tropy (female)"
+        ],
+        "Geary",
+        "King Chicken",
+        "Hasty",
+        "Viscount",
+        "Mr. Crool",
+        "Mr. Crumb",
+        "Louise",
+        "Digger",
+        "Grumbler",
+        "Velo Mask",
+        "Apo-Apo",
+        "Tiki Mask",
+        [
+          "Elementals",
+          "Elemental Masks"
+        ],
+        "Crush",
+        "Gulp",
+        "Arachnina",
+        "Yuktopus",
+        "Shellephant",
+        "Grimly",
+        "Sharkbite",
+        "Thorn Thing",
+        "Pink Elephant",
+        "Totem God",
+        "Chimera",
+        [
+          "Velo Minion",
+          "Velo Minions"
+        ],
+        [
+          "Park Drone",
+          "Park Drones"
+        ],
+        [
+          "Lab Assistant",
+          "Lab Assistants"
+        ],
+        "Sparx",
+        "Agent 9",
+        [
+          "Sgt. Byrd",
+          "Sergeant Byrd"
+        ],
+        "Bianca",
+        "Elora",
+        "Moneybags",
+        "Professor (Spyro)",
+        "Blinky",
+        "Dark Spyro",
+        "Gnasty Gnorc",
+        "Bob the Flagkeeper",
+        "The Noid",
+        "Farmer Ernest",
+        "Polar's father",
+        "Junior",
+        "Armydillo",
+        "Hypnotized Bandicoot",
+        [
+          "Shnurgle",
+          "Shnurgles"
+        ],
+        "Cortexbot",
+        "Doominator",
+        "Ancient Lantern",
+        "Animal Villager",
+        "Ankylosaurus",
+        "Ant Drone",
+        "Anubis-Vicious",
+        "Arabian Cocktail Waitress",
+        "Araknid",
+        "Armadillo",
+        "B. Honda",
+        "Bandifish",
+        "Barrel Buccaneer",
+        "Bat",
+        "Battler",
+        "Bear",
+        "Beaver",
+        "Bee",
+        "Bermugulan Jellyfish",
+        "Berserk Bomber",
+        "Blob",
+        "Bouncer",
+        "Brat",
+        "Bratgirl",
+        "Chop Shop",
+        "Cleaning Bots",
+        "Cockroach",
+        "Cortex's Robot",
+        "Crab",
+        "Crane",
+        "Crocodile",
+        "Crush and Gulp",
+        "Dimbo",
+        "Donkey",
+        "Dragon",
+        "Ee-Lectric",
+        "Eel",
+        "Evil Hand",
+        "Fat",
+        "Fish",
+        "Frog",
+        "Frog N. Stein",
+        "Frozen Fisherman",
+        "Gasmoxian",
+        "Gasmoxian rat",
+        "Gecko",
+        "Ghoul in a Box",
+        "Giant Sand Worms",
+        "Goar",
+        "Goat",
+        "Gold Miner",
+        "Gong Ringer",
+        "Gorilla",
+        "Green Robot",
+        "Grizzly Frog",
+        "Guard Dog",
+        "Hall Monitor",
+        "Hippo",
+        "Hot Rod",
+        "Iguana",
+        "Inflating Cactus",
+        "Jar Monkey",
+        "Jawslehoff",
+        "Jellyfish",
+        "Joe Blow",
+        "Jungle Spirit",
+        "K. Modo",
+        "Killer Wasp",
+        "Koo-ala",
+        "Lion",
+        "Lizard",
+        "Man-Eating Plant",
+        "Minebot",
+        "Mini Robot",
+        "Missile Robot",
+        "Moat Monster",
+        "Mole",
+        "Monitor Lizard",
+        "Monkey",
+        "Narwhale",
+        "Nina Cortex/Crash of the Titans",
+        "Ninja Penguin",
+        "Nitro Drone",
+        "Orca",
+        "Pandebra",
+        "Parrot",
+        "Penguin",
+        "Phoenix",
+        "Piganna",
+        "Plug",
+        "Polar Bear",
+        "Polartooth",
+        "Porcupine",
+        "Porcurilla",
+        "Possum",
+        "Privateel",
+        "Projectile Monkey",
+        "Psycho-Mandrake",
+        "Pterodactyl",
+        "Pufferfish",
+        "Rambler",
+        "Rat",
+        "Ratnician",
+        "Rhino Pirate",
+        "Rhinostrich",
+        "Rickshaw driver",
+        "Riptoc",
+        "Robot Turtle",
+        "Robot Walker",
+        "Robotic Janitor",
+        "Scarab",
+        "Scorpion",
+        "Scrubber",
+        "Seagull",
+        "Seal",
+        "Self-Destruct Robot",
+        "Sewer Mech",
+        "Shark",
+        "Sinister Sea Dog",
+        "Six tentacle robot",
+        "Skeleton Performer",
+        "Skulldugging Seahorse",
+        "Skunk",
+        "Slagvork",
+        "Slap-E",
+        "Slim",
+        "Snake",
+        "Spider",
+        "Spider-Monkey",
+        "Spiked Saucer",
+        "Spiked Shell",
+        "Spitter Plant",
+        "Spot",
+        "Spybot",
+        "Squid",
+        "Starfish Trap",
+        "Stench",
+        "Stone Guardian",
+        "Surveillance Robot",
+        "Swingin' Spectre",
+        "Swordfish Spearman",
+        "T-Rex",
+        "Tank",
+        "Tentacled Marauder",
+        "The Evil Twins' mech",
+        "Three Legendary Titans",
+        "Tiki M.",
+        "Titan",
+        "TK",
+        "Totem god minions",
+        "Trash-o-Tron 4000",
+        "Tribesman",
+        "Tricera Beetle",
+        "Triceratops",
+        "Turtle",
+        "Umbrella-Shaped Robot",
+        "Venus Fly Trap",
+        "Vicious Viner",
+        "Voodoo Bunny",
+        "Vulture",
+        "Warthog",
+        "Whalephant",
+        "Wild Boar",
+        "Witch Doctor",
+        "Worm",
+        "Wumpashiner",
+        "Yellow Robot",
+        "Yeti",
+        "Yokai Spirit",
+        "Znu",
+        "Zombot"
       ]
     },
     {
@@ -892,17 +1171,22 @@
         [
           "Spider-Man",
           "Spiderman",
-          "Peter Parker"
+          "Peter Parker",
+          "Iron Spider",
+          "Spider-Man Zero"
         ],
         "Travis Scott",
         "Marshmello",
         [
           "Batman",
-          "Bruce Wayne"
+          "Bruce Wayne",
+          "Batman Zero",
+          "The Dark Knight"
         ],
         [
           "Ninja",
-          "Tyler Blevins"
+          "Tyler Blevins",
+          "Ninja Blevins"
         ],
         [
           "Goku",
@@ -914,7 +1198,10 @@
         ],
         [
           "Eminem",
-          "Slim Shady"
+          "Slim Shady",
+          "Marshall Mathers",
+          "Rap Boy",
+          "Marshall Never More"
         ],
         [
           "Ariana Grande",
@@ -922,7 +1209,8 @@
         ],
         [
           "Iron Man",
-          "Tony Stark"
+          "Tony Stark",
+          "Iron Man Zero"
         ],
         [
           "Naruto",
@@ -930,7 +1218,9 @@
         ],
         [
           "Snoop Dogg",
-          "Snoop"
+          "Snoop",
+          "Snoop Lion",
+          "Santa Dogg"
         ],
         "Master Chief",
         "Kratos",
@@ -939,7 +1229,6 @@
         "Harley Quinn",
         [
           "The Mandalorian",
-          "Mandalorian",
           "Mando",
           "Din Djarin"
         ],
@@ -948,16 +1237,17 @@
           "Clark Kent"
         ],
         "Wonder Woman",
-        [
-          "The Joker",
-          "Joker"
-        ],
+        "The Joker",
         "Lara Croft",
         "Venom",
-        "Thor",
+        [
+          "Thor",
+          "Thor Odinson"
+        ],
         [
           "Wolverine",
-          "Logan"
+          "Logan",
+          "Weapon X"
         ],
         "Captain America",
         "Black Panther",
@@ -975,10 +1265,7 @@
           "LeBron James",
           "LeBron"
         ],
-        [
-          "The Weeknd",
-          "Weeknd"
-        ],
+        "The Weeknd",
         "Lady Gaga",
         "Ice Spice",
         "Olivia Rodrigo",
@@ -1003,8 +1290,8 @@
         ],
         [
           "Star-Lord",
-          "Star Lord",
-          "Peter Quill"
+          "Peter Quill",
+          "Starlord"
         ],
         "Gamora",
         "Storm",
@@ -1014,21 +1301,26 @@
         "Carnage",
         [
           "She-Hulk",
-          "She Hulk"
+          "Jennifer Walters"
         ],
         [
           "Bruce Banner",
           "Hulk"
         ],
-        "Loki",
+        [
+          "Loki",
+          "Loki Laufeyson"
+        ],
         "Miles Morales",
         [
           "Spider-Gwen",
-          "Spider Gwen",
           "Gwen Stacy"
         ],
         "Vegeta",
-        "Gohan",
+        [
+          "Gohan",
+          "Son Gohan"
+        ],
         "Bulma",
         "Beerus",
         [
@@ -1036,8 +1328,8 @@
           "Sasuke Uchiha"
         ],
         [
-          "Sakura",
-          "Sakura Haruno"
+          "Sakura Haruno",
+          "Sakura"
         ],
         [
           "Kakashi",
@@ -1054,7 +1346,8 @@
         [
           "Eren Jaeger",
           "Eren Yeager",
-          "Eren"
+          "Eren",
+          "Eren Yaeger"
         ],
         [
           "Levi",
@@ -1062,7 +1355,8 @@
         ],
         [
           "Mikasa",
-          "Mikasa Ackerman"
+          "Mikasa Ackerman",
+          "Mikasa Ackermann"
         ],
         [
           "Luke Skywalker",
@@ -1085,8 +1379,7 @@
         "Finn",
         [
           "Obi-Wan Kenobi",
-          "Obi-Wan",
-          "Obi Wan"
+          "Obi-Wan"
         ],
         "Boba Fett",
         [
@@ -1113,14 +1406,16 @@
         ],
         "Demogorgon",
         "Predator",
-        "Xenomorph",
+        [
+          "Xenomorph",
+          "Alien"
+        ],
         [
           "Ripley",
           "Ellen Ripley"
         ],
         [
           "The Terminator",
-          "Terminator",
           "T-800"
         ],
         "Sarah Connor",
@@ -1139,24 +1434,45 @@
           "Snake"
         ],
         "Ryu",
-        [
-          "Chun-Li",
-          "Chun Li"
-        ],
+        "Chun-Li",
         "Cammy",
         "Guile",
-        "Jinx",
-        "Vi",
-        "Leonardo",
-        "Raphael",
-        "Donatello",
-        "Michelangelo",
+        [
+          "Jinx",
+          "Arcane Jinx"
+        ],
+        [
+          "Vi",
+          "Arcane Vi"
+        ],
+        [
+          "Leonardo",
+          "Leo"
+        ],
+        [
+          "Raphael",
+          "Raph"
+        ],
+        [
+          "Donatello",
+          "Donnie"
+        ],
+        [
+          "Michelangelo",
+          "Mikey"
+        ],
         "Aang",
         "Katara",
-        "Toph",
+        [
+          "Toph",
+          "Toph Beifong"
+        ],
         "Zuko",
         "Optimus Prime",
-        "Godzilla",
+        [
+          "Godzilla",
+          "Godzilla Evolved"
+        ],
         [
           "King Kong",
           "Kong"
@@ -1170,13 +1486,939 @@
         "TheGrefg",
         "Lachlan",
         "Loserfruit",
-        [
-          "Ali-A",
-          "Ali A"
-        ],
+        "Ali-A",
         "SypherPK",
         "Chica",
-        "Naomi Osaka"
+        "Naomi Osaka",
+        [
+          "Black Widow",
+          "Natasha Romanoff"
+        ],
+        [
+          "Hawkeye",
+          "Clint Barton"
+        ],
+        [
+          "Captain Marvel",
+          "Carol Danvers"
+        ],
+        [
+          "Ant-Man",
+          "Scott Lang"
+        ],
+        "Nick Fury",
+        "Shang-Chi",
+        [
+          "War Machine",
+          "James Rhodes"
+        ],
+        [
+          "Sam Wilson",
+          "Captain America (Sam Wilson)",
+          "Falcon"
+        ],
+        [
+          "Mighty Thor",
+          "Jane Foster"
+        ],
+        [
+          "Drax",
+          "Drax the Destroyer"
+        ],
+        "Mantis",
+        [
+          "Doctor Doom",
+          "Dr Doom",
+          "Victor von Doom"
+        ],
+        "Silver Surfer",
+        [
+          "Green Goblin",
+          "Norman Osborn"
+        ],
+        "Mysterio",
+        [
+          "Black Cat",
+          "Felicia Hardy"
+        ],
+        "Prowler",
+        "Taskmaster",
+        "Ghost Rider",
+        "Blade",
+        [
+          "The Punisher",
+          "Frank Castle"
+        ],
+        [
+          "Mary Jane Watson",
+          "Mary Jane"
+        ],
+        [
+          "MJ (No Way Home)",
+          "MJ",
+          "Michelle Jones"
+        ],
+        [
+          "Spider-Man 2099",
+          "Miguel O'Hara",
+          "Spiderman 2099"
+        ],
+        [
+          "Spider-Punk",
+          "Hobie Brown"
+        ],
+        [
+          "Spider-Man Noir",
+          "Spiderman Noir"
+        ],
+        "Peter B. Parker",
+        [
+          "Spider-Woman",
+          "Jessica Drew"
+        ],
+        "Eddie Brock",
+        "She-Venom",
+        "Agony",
+        "Kate Bishop",
+        "Shuri",
+        [
+          "Sylvie",
+          "Sylvie Laufeydottir"
+        ],
+        [
+          "Hela",
+          "Hela Odinsdottir"
+        ],
+        "Mephisto",
+        [
+          "White Widow",
+          "Yelena Belova"
+        ],
+        [
+          "Winter Soldier",
+          "Bucky Barnes"
+        ],
+        [
+          "Cyclops",
+          "Scott Summers"
+        ],
+        [
+          "Jean Grey",
+          "Dark Phoenix",
+          "Phoenix"
+        ],
+        "Rogue",
+        "Gambit",
+        "Magneto",
+        "Jubilee",
+        "Colossus",
+        "Emma Frost",
+        [
+          "Magik",
+          "Illyana Rasputina"
+        ],
+        [
+          "X-23",
+          "Laura Kinney"
+        ],
+        "Psylocke",
+        "Cable",
+        "Domino",
+        "Gwenpool",
+        "Luna Snow",
+        [
+          "Mister Fantastic",
+          "Reed Richards",
+          "Mr Fantastic"
+        ],
+        [
+          "Invisible Woman",
+          "Susan Storm",
+          "Sue Storm"
+        ],
+        [
+          "Human Torch",
+          "Johnny Storm"
+        ],
+        [
+          "The Thing",
+          "Ben Grimm"
+        ],
+        [
+          "Catwoman",
+          "Selina Kyle"
+        ],
+        "Poison Ivy",
+        [
+          "Deathstroke",
+          "Slade Wilson"
+        ],
+        [
+          "Aquaman",
+          "Arthur Curry"
+        ],
+        "Black Manta",
+        "Black Adam",
+        "Cyborg",
+        "Robin",
+        "Starfire",
+        [
+          "Green Arrow",
+          "Oliver Queen"
+        ],
+        [
+          "The Flash",
+          "Barry Allen"
+        ],
+        "The Batman Who Laughs",
+        [
+          "Batman Beyond",
+          "Terry McGinnis"
+        ],
+        "Bloodsport",
+        "Peacemaker",
+        "Supergirl",
+        "Lobo",
+        [
+          "Mister Terrific",
+          "Mr Terrific"
+        ],
+        "The Engineer",
+        [
+          "Anakin Skywalker",
+          "Anakin"
+        ],
+        [
+          "Padmé Amidala",
+          "Padme"
+        ],
+        [
+          "Stormtrooper",
+          "Imperial Stormtrooper",
+          "Storm Trooper"
+        ],
+        [
+          "Clone Trooper",
+          "501st Trooper",
+          "212th Battalion Trooper"
+        ],
+        [
+          "Emperor Palpatine",
+          "Palpatine",
+          "Darth Sidious",
+          "Chancellor Palpatine",
+          "The Emperor"
+        ],
+        "Mace Windu",
+        [
+          "General Grievous",
+          "Grievous"
+        ],
+        [
+          "Jar Jar Binks",
+          "Jar Jar",
+          "Darth Jar Jar"
+        ],
+        [
+          "Lando Calrissian",
+          "Lando"
+        ],
+        [
+          "Poe Dameron",
+          "Poe"
+        ],
+        [
+          "Captain Phasma",
+          "Phasma"
+        ],
+        "Sith Trooper",
+        "First Order Stormtrooper",
+        "Zorii Bliss",
+        "Fennec Shand",
+        [
+          "Krrsantan",
+          "Black Krrsantan"
+        ],
+        "IG-11",
+        "Moff Gideon",
+        "Tarfful",
+        "Piccolo",
+        [
+          "Frieza",
+          "Freeza"
+        ],
+        "Cell",
+        "Goku Black",
+        "Trunks",
+        "Android 17",
+        "Android 18",
+        "Gaara",
+        "Orochimaru",
+        [
+          "Izuku Midoriya",
+          "Deku"
+        ],
+        "All Might",
+        [
+          "Katsuki Bakugo",
+          "Bakugo"
+        ],
+        [
+          "Ochaco Uraraka",
+          "Uraraka"
+        ],
+        [
+          "Shoto Todoroki",
+          "Todoroki"
+        ],
+        [
+          "Eijiro Kirishima",
+          "Kirishima"
+        ],
+        "Mina Ashido",
+        "Dabi",
+        [
+          "Himiko Toga",
+          "Toga"
+        ],
+        [
+          "Tomura Shigaraki",
+          "Shigaraki"
+        ],
+        [
+          "Satoru Gojo",
+          "Gojo"
+        ],
+        [
+          "Yuji Itadori",
+          "Itadori"
+        ],
+        [
+          "Megumi Fushiguro",
+          "Megumi"
+        ],
+        [
+          "Nobara Kugisaki",
+          "Nobara"
+        ],
+        [
+          "Ryomen Sukuna",
+          "Sukuna"
+        ],
+        "Mahito",
+        [
+          "Toji Fushiguro",
+          "Toji"
+        ],
+        [
+          "Ichigo Kurosaki",
+          "Ichigo"
+        ],
+        [
+          "Rukia Kuchiki",
+          "Rukia"
+        ],
+        [
+          "Orihime Inoue",
+          "Orihime"
+        ],
+        [
+          "Uryu Ishida",
+          "Uryu"
+        ],
+        [
+          "Kisuke Urahara",
+          "Urahara"
+        ],
+        [
+          "Yoruichi Shihoin",
+          "Yoruichi"
+        ],
+        "Saitama",
+        "Genos",
+        [
+          "Tatsumaki",
+          "Terrible Tornado"
+        ],
+        "Kafka Hibino",
+        "Kikoru Shinomiya",
+        "Reno Ichikawa",
+        [
+          "Sung Jinwoo",
+          "Jinwoo",
+          "Sung Jin-woo"
+        ],
+        "Cha Hae-In",
+        "Igris",
+        "Spike Spiegel",
+        "Faye Valentine",
+        "Korra",
+        "Kizuna AI",
+        "Hoshimachi Suisei",
+        [
+          "Doom Slayer",
+          "Doomguy"
+        ],
+        [
+          "Ezio Auditore",
+          "Ezio"
+        ],
+        "Eivor",
+        [
+          "Geralt of Rivia",
+          "Geralt"
+        ],
+        [
+          "Ciri",
+          "Cirilla"
+        ],
+        [
+          "Yennefer",
+          "Yennefer of Vengerberg"
+        ],
+        [
+          "Leon S. Kennedy",
+          "Leon Kennedy"
+        ],
+        "Chris Redfield",
+        "Jill Valentine",
+        "Claire Redfield",
+        "Grace Ashcroft",
+        [
+          "Sonic the Hedgehog",
+          "Sonic"
+        ],
+        [
+          "Shadow the Hedgehog",
+          "Shadow"
+        ],
+        [
+          "Knuckles",
+          "Knuckles the Echidna"
+        ],
+        [
+          "Doctor Eggman",
+          "Dr. Eggman",
+          "Eggman",
+          "Dr Robotnik"
+        ],
+        "Sub-Zero",
+        "Scorpion",
+        [
+          "Raiden (Mortal Kombat)",
+          "Raiden"
+        ],
+        "Kitana",
+        "Raiden (Metal Gear)",
+        "Blanka",
+        [
+          "Sakura (Street Fighter)",
+          "Sakura Kasugano"
+        ],
+        "Isaac Clarke",
+        "Alan Wake",
+        "Johnny Silverhand",
+        "V (Cyberpunk 2077)",
+        "Adam Smasher",
+        [
+          "Commander Zavala",
+          "Zavala"
+        ],
+        [
+          "Ikora Rey",
+          "Ikora"
+        ],
+        "Exo Stranger",
+        "Tracer",
+        [
+          "D.Va",
+          "DVa"
+        ],
+        "Mercy",
+        "Genji",
+        [
+          "Psycho (Borderlands)",
+          "Psycho Bandit"
+        ],
+        [
+          "Mad Moxxi",
+          "Moxxi"
+        ],
+        [
+          "Freddy Fazbear",
+          "Freddy"
+        ],
+        [
+          "Bonnie",
+          "Bonnie the Rabbit"
+        ],
+        "Chica the Chicken",
+        [
+          "Foxy",
+          "Foxy the Pirate"
+        ],
+        "Huggy Wuggy",
+        "Excalibur (Warframe)",
+        [
+          "Dave the Diver",
+          "Dave"
+        ],
+        "Semibot",
+        "Pomni",
+        "Jax (The Amazing Digital Circus)",
+        "Blade (Honkai: Star Rail)",
+        "Kafka (Honkai: Star Rail)",
+        "Perlica",
+        "Paul Atreides",
+        "Chani",
+        [
+          "Jack Sparrow",
+          "Captain Jack Sparrow"
+        ],
+        [
+          "Captain Barbossa",
+          "Hector Barbossa",
+          "Barbossa"
+        ],
+        "Davy Jones",
+        "Elizabeth Swann",
+        "Marty McFly",
+        [
+          "Doc Brown",
+          "Emmett Brown"
+        ],
+        [
+          "John Rambo",
+          "Rambo"
+        ],
+        "RoboCop",
+        "Jason Voorhees",
+        "Leatherface",
+        "Art the Clown",
+        "The Grabber",
+        "Ash Williams",
+        [
+          "Frankenstein's Monster",
+          "Frankenstein"
+        ],
+        [
+          "The Bride of Frankenstein",
+          "Frankenstein's Bride"
+        ],
+        "The Mummy",
+        "Edward Scissorhands",
+        [
+          "Jack Skellington",
+          "Pumpkin King"
+        ],
+        "Sally (The Nightmare Before Christmas)",
+        [
+          "Billy the Puppet",
+          "Billy (Saw)"
+        ],
+        "Dude (Free Guy)",
+        "Mike Lowrey",
+        "Jules Winnfield",
+        "Vincent Vega",
+        [
+          "The Bride (Kill Bill)",
+          "Beatrix Kiddo",
+          "The Bride"
+        ],
+        "Gogo Yubari",
+        "Yuki Yubari",
+        [
+          "Adonis Creed",
+          "Creed"
+        ],
+        "Jake Sully",
+        "Neytiri",
+        "Ares (Tron)",
+        "Odysseus",
+        "Agamemnon",
+        "Mike Wheeler",
+        "Dustin Henderson",
+        "Lucas Sinclair",
+        "Will Byers",
+        "Vecna",
+        "Rick Grimes",
+        "Daryl Dixon",
+        "Michonne",
+        "Negan",
+        "Jon Snow",
+        [
+          "Daenerys Targaryen",
+          "Daenerys"
+        ],
+        "Night King",
+        [
+          "Wednesday Addams",
+          "Wednesday"
+        ],
+        "Michael Scott",
+        "Dwight Schrute",
+        [
+          "Front Man (Squid Game)",
+          "Front Man"
+        ],
+        [
+          "Invincible",
+          "Mark Grayson"
+        ],
+        [
+          "Omni-Man",
+          "Omniman",
+          "Nolan Grayson"
+        ],
+        "Atom Eve",
+        "Allen the Alien",
+        "Dupli-Kate",
+        "Rumi",
+        "Mira",
+        "Zoey",
+        "Jinu",
+        "Hercules",
+        [
+          "Megara",
+          "Meg"
+        ],
+        "Hades",
+        "Maleficent",
+        [
+          "Cruella de Vil",
+          "Cruella"
+        ],
+        "Captain Hook",
+        [
+          "Mr. Incredible",
+          "Bob Parr"
+        ],
+        [
+          "Mrs. Incredible",
+          "Elastigirl",
+          "Helen Parr"
+        ],
+        "Frozone",
+        "Baymax",
+        [
+          "Buzz Lightyear",
+          "Buzz"
+        ],
+        [
+          "Emperor Zurg",
+          "Zurg"
+        ],
+        [
+          "Homer Simpson",
+          "Homer"
+        ],
+        [
+          "Marge Simpson",
+          "Marge"
+        ],
+        [
+          "Bart Simpson",
+          "Bart"
+        ],
+        [
+          "Lisa Simpson",
+          "Lisa"
+        ],
+        [
+          "Krusty the Clown",
+          "Krusty"
+        ],
+        [
+          "Moe Szyslak",
+          "Moe"
+        ],
+        [
+          "Ned Flanders",
+          "Flanders"
+        ],
+        "Scratchy",
+        [
+          "Lois Griffin",
+          "Lois"
+        ],
+        [
+          "Cleveland Brown",
+          "Cleveland"
+        ],
+        [
+          "Giant Chicken",
+          "Ernie the Giant Chicken"
+        ],
+        "Stan Smith",
+        "Francine Smith",
+        "Hank Hill",
+        "Peggy Hill",
+        "Bob Belcher",
+        "Linda Belcher",
+        [
+          "Philip J. Fry",
+          "Fry"
+        ],
+        [
+          "Turanga Leela",
+          "Leela"
+        ],
+        "Bender",
+        [
+          "Eric Cartman",
+          "Cartman"
+        ],
+        "Stan Marsh",
+        "Kyle Broflovski",
+        [
+          "Kenny McCormick",
+          "Kenny"
+        ],
+        [
+          "Butters Stotch",
+          "Butters"
+        ],
+        "Beavis",
+        [
+          "Butt-Head",
+          "Butthead"
+        ],
+        [
+          "Mr. Meeseeks",
+          "Meeseeks"
+        ],
+        [
+          "Summer Smith",
+          "Summer"
+        ],
+        [
+          "Beth Smith",
+          "Space Beth"
+        ],
+        "Rick Prime",
+        [
+          "Scooby-Doo",
+          "Scooby"
+        ],
+        [
+          "Shaggy Rogers",
+          "Shaggy"
+        ],
+        "Fred Jones",
+        [
+          "Daphne Blake",
+          "Daphne"
+        ],
+        [
+          "Velma Dinkley",
+          "Velma"
+        ],
+        "Bugs Bunny",
+        "Daffy Duck",
+        "Lola Bunny",
+        "Finn the Human",
+        "Jake the Dog",
+        "Princess Bubblegum",
+        "Marceline",
+        "Ice King",
+        [
+          "Fionna",
+          "Fionna the Human"
+        ],
+        "Cake the Cat",
+        [
+          "Earl of Lemongrab",
+          "Lemongrab"
+        ],
+        "Mordecai",
+        "Skips",
+        "Samurai Jack",
+        [
+          "Danny Phantom",
+          "Danny Fenton"
+        ],
+        "Sam Manson",
+        [
+          "Ben Tennyson",
+          "Ben 10"
+        ],
+        "Gwen Tennyson",
+        [
+          "Dr. Doofenshmirtz",
+          "Doofenshmirtz",
+          "Heinz Doofenshmirtz"
+        ],
+        [
+          "Perry the Platypus",
+          "Perry"
+        ],
+        "Ed (Ed, Edd n Eddy)",
+        "April O'Neil",
+        "Casey Jones",
+        [
+          "Shredder",
+          "Super Shredder"
+        ],
+        "Splinter",
+        "Bebop",
+        "Rocksteady",
+        "Krang",
+        "Megatron",
+        "Bumblebee",
+        "Optimus Primal",
+        "Mechagodzilla",
+        "He-Man",
+        "Skeletor",
+        "She-Ra",
+        "Red Ranger",
+        "Blue Ranger",
+        "Black Ranger",
+        "Pink Ranger",
+        "Yellow Ranger",
+        "Green Ranger",
+        [
+          "White Ranger",
+          "White Dino Ranger"
+        ],
+        "Black Dino Ranger",
+        "Lord Zedd",
+        [
+          "Megazord",
+          "Dino Megazord"
+        ],
+        "Snake Eyes",
+        "Kelsier",
+        [
+          "El Chapulín Colorado",
+          "Chapulin Colorado"
+        ],
+        "Kai (Ninjago)",
+        "Cole (Ninjago)",
+        "Jay (Ninjago)",
+        "Zane (Ninjago)",
+        "Guggimon",
+        "Tung Tung Tung Sahur",
+        "Ballerina Cappuccina",
+        "Doja Cat",
+        "Bruno Mars",
+        "Anderson .Paak",
+        "J Balvin",
+        "Major Lazer",
+        "James Hetfield",
+        "Lars Ulrich",
+        "Kirk Hammett",
+        "Robert Trujillo",
+        [
+          "Lisa (Blackpink)",
+          "Lalisa Manobal",
+          "Lalisa"
+        ],
+        "Chappell Roan",
+        "Tyler, the Creator",
+        "Playboi Carti",
+        "The Kid LAROI",
+        "Lil Tecca",
+        "Laufey",
+        "deadmau5",
+        [
+          "A$AP Rocky",
+          "ASAP Rocky"
+        ],
+        "EsDeeKid",
+        [
+          "Thomas Bangalter",
+          "TB3"
+        ],
+        [
+          "Guy-Manuel de Homem-Christo",
+          "GM08"
+        ],
+        "2D",
+        [
+          "Murdoc",
+          "Murdoc Niccals"
+        ],
+        "Noodle",
+        [
+          "Russel",
+          "Russel Hobbs"
+        ],
+        [
+          "Lionel Messi",
+          "Messi"
+        ],
+        "Lewis Hamilton",
+        [
+          "Patrick Mahomes",
+          "Mahomes"
+        ],
+        [
+          "Shaquille O'Neal",
+          "Shaq"
+        ],
+        [
+          "Giannis Antetokounmpo",
+          "Giannis"
+        ],
+        [
+          "Shohei Ohtani",
+          "Ohtani"
+        ],
+        [
+          "Son Heung-min",
+          "Sonny",
+          "Son"
+        ],
+        [
+          "David Beckham",
+          "Beckham"
+        ],
+        [
+          "Vinícius Júnior",
+          "Vini Jr",
+          "Vinicius Jr"
+        ],
+        "Marco Reus",
+        "Chloe Kim",
+        "John Cena",
+        "The Undertaker",
+        [
+          "Stone Cold Steve Austin",
+          "Steve Austin",
+          "Stone Cold"
+        ],
+        "Cody Rhodes",
+        "Becky Lynch",
+        "Bianca Belair",
+        "Liv Morgan",
+        [
+          "MrBeast",
+          "Mr Beast",
+          "Jimmy Donaldson"
+        ],
+        [
+          "IShowSpeed",
+          "Speed"
+        ],
+        "Kai Cenat",
+        "Khaby Lame",
+        "Kim Kardashian",
+        "Addison Rae",
+        "Typical Gamer",
+        "LazarBeam",
+        "Clix",
+        "Mongraal",
+        "MrSavage",
+        "Nick Eh 30",
+        [
+          "CouRage",
+          "CouRageJD"
+        ],
+        [
+          "Rubius",
+          "El Rubius"
+        ],
+        "Flakes Power"
       ]
     },
     {
@@ -1686,8 +2928,7 @@
         "Mancubus",
         [
           "Arch-vile",
-          "Archvile",
-          "Arch Vile"
+          "Archvile"
         ],
         "Hell Knight",
         [
@@ -1736,16 +2977,12 @@
         "Khan Maykr",
         [
           "The Dark Lord",
-          "Dark Lord",
           "Davoth"
         ],
         "Unwilling",
         "Cueball",
         "Maykr Drone",
-        [
-          "Spirit",
-          "Buff Totem"
-        ],
+        "Spirit",
         "Blood Maykr",
         [
           "Armored Baron",
@@ -1765,7 +3002,10 @@
         "Vulgar",
         "Bruiser",
         "Cherub",
-        "Guardian",
+        [
+          "Guardian of Hell",
+          "Guardian"
+        ],
         "Sabaoth",
         "Vagary",
         "Hunter",
@@ -1773,9 +3013,146 @@
         "Kreed Maykr",
         [
           "Prince Ahzrak",
-          "Ahzrak"
+          "Ahzrak",
+          "Azrak",
+          "Enhanced Azrak"
         ],
-        "Agaddon Hunter"
+        "Agaddon Hunter",
+        "Buff Totem",
+        "Dread Knight",
+        "Cyber-Mancubus",
+        "Possessed Engineer",
+        "Possessed Security",
+        "Possessed Scientist",
+        "Possessed Worker",
+        [
+          "Hell Guard",
+          "Hell Guards"
+        ],
+        "Harvester",
+        [
+          "Soldier (Doom Eternal)",
+          "Soldier",
+          "Shield Soldier"
+        ],
+        "Riot Soldier",
+        [
+          "Screecher Zombie",
+          "Screecher"
+        ],
+        "Stone Imp",
+        "Whiplash Spectre",
+        "Cursed Prowler",
+        [
+          "Samur Maykr",
+          "Samuur Maykr"
+        ],
+        [
+          "Maligog",
+          "Trial of Maligog"
+        ],
+        "Turret",
+        "Tentacle",
+        "Demonic Trooper",
+        "Zombie",
+        "Fat Zombie",
+        "Flaming Zombie",
+        "Chainsaw Zombie",
+        [
+          "Boney Zombie",
+          "Boney"
+        ],
+        "Morgue Zombie",
+        "Bio-Suit Zombie",
+        [
+          "Z-Sec",
+          "Zombie Security"
+        ],
+        [
+          "Zombie Commando",
+          "Commando"
+        ],
+        "Tentacle Commando",
+        "Chaingun Commando",
+        "Tick",
+        "Seeker",
+        "Forgotten One",
+        "Hell Hunter",
+        "Helltime Hunter",
+        "Berserk Hunter",
+        "Invulnerability Hunter",
+        "Nightmare Imp",
+        "Nightmare Spectre",
+        "Ghoul",
+        "Banshee",
+        "Shocktrooper",
+        "Mindweaver",
+        "Vassago",
+        "Imp Stalker",
+        [
+          "Armored Mancubus",
+          "Armoured Mancubus"
+        ],
+        "Pinky Rider",
+        "Ballistatron",
+        "Cacodemon Hybrid",
+        "Giant Cacodemon",
+        "Acolyte",
+        "Hell Cultist",
+        "Battle Knight",
+        "Cosmic Baron",
+        "Titan",
+        "Shield Titan",
+        "Cyclops Titan",
+        "Komodo",
+        [
+          "Old One",
+          "Old Ones"
+        ],
+        "Chaingunner Soldier",
+        "Kronos",
+        "Pinkinator",
+        [
+          "VIOS",
+          "Virtual Icon of Sin"
+        ],
+        "Zombie Private",
+        "Zombie Lieutenant",
+        "Zombie Captain",
+        "Troop",
+        "Assassin",
+        "Impling",
+        "Imp Lord",
+        "Phantom",
+        "Nightmare",
+        "Bull Demon",
+        "Belphegor",
+        "Malwrath",
+        "Wretched",
+        "Beholder",
+        "Rahovart",
+        "Fiend",
+        "Behemoth",
+        "Druj",
+        "Infernis",
+        "Apollyon",
+        "Ogre",
+        "Hellhound",
+        "Cerberus",
+        "Demon Wolf",
+        [
+          "Lesser Sawcubus",
+          "Sawcubus"
+        ],
+        "Greater Sawcubus",
+        "Chainstrosity",
+        "Brier",
+        "Watcher",
+        "Sentinel",
+        "Zombie Civilian",
+        "Zombie Worker",
+        "Zombie Tech",
+        "Sentry Bot"
       ]
     },
     {
@@ -1987,8 +3364,7 @@
         ],
         [
           "Zoran Lazarević",
-          "Lazarevic",
-          "Zoran Lazarevic"
+          "Lazarevic"
         ],
         [
           "Harry Flynn",
@@ -2010,22 +3386,18 @@
         "Asav",
         [
           "Cassie Drake",
-          "Cassie"
+          "Cassie",
+          "Cassandra Morgan",
+          "Cassandra Drake"
         ],
         [
           "Hector Alcázar",
-          "Hector Alcazar",
           "Alcazar"
         ],
         "Tenzin",
         [
           "Karl Schäfer",
-          "Karl Schafer",
           "Schafer"
-        ],
-        [
-          "Sir Francis Drake",
-          "Francis Drake"
         ],
         [
           "Henry Avery",
@@ -2047,7 +3419,70 @@
           "Thomas Tew",
           "Tew"
         ],
-        "Vargas"
+        [
+          "Vargas",
+          "Gustavo Vargas",
+          "Gustavo"
+        ],
+        [
+          "Jeff",
+          "Jeff Wynia"
+        ],
+        "Salim",
+        "Rameses",
+        [
+          "Sister Catherine",
+          "Catherine"
+        ],
+        "Orca",
+        "Knot",
+        "Jameson",
+        "Evelyn",
+        "Pema",
+        "Draza",
+        "Dragan",
+        "Lovac",
+        "Vodnik",
+        "Sark",
+        "Tetram",
+        "Meenu",
+        "Sandeep",
+        "Wasim",
+        "Daud",
+        "Harris",
+        "Vincent Perez",
+        "Jose",
+        "Chihopotex",
+        "Itzicaltli",
+        "Ryan Duffy",
+        "Vicky",
+        "Blaine",
+        "Dillon",
+        "Dutch",
+        "Javier",
+        "Skelzor",
+        "Zorskel",
+        "Glowzor",
+        "Doughnut Drake",
+        "Doughnut Talbot",
+        "Lord Godfrey",
+        "Agent 13",
+        "Agent 44",
+        "Agent 99",
+        [
+          "Brute",
+          "Brutes"
+        ],
+        [
+          "Descendants",
+          "Descendant"
+        ],
+        [
+          "Guardians of Shambhala",
+          "Shambhala Guardians",
+          "Guardians"
+        ],
+        "Djinn"
       ]
     },
     {
