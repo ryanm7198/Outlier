@@ -15,14 +15,7 @@
     ],
     [
      "Gaul",
-     "gallia",
-     "gallia narbonensis",
-     "gallia lugdunensis",
-     "gallia belgica",
-     "narbonensis",
-     "transalpine gaul",
-     "belgica",
-     "lugdunensis"
+     "gallia"
     ],
     [
      "Aquitania",
@@ -30,10 +23,6 @@
     ],
     [
      "Hispania",
-     "hispania tarraconensis",
-     "tarraconensis",
-     "hispania citerior",
-     "hispania ulterior",
      "spain"
     ],
     "Lusitania",
@@ -43,8 +32,6 @@
     ],
     [
      "Germania",
-     "germania superior",
-     "germania inferior",
      "germany"
     ],
     [
@@ -56,9 +43,7 @@
     "Dalmatia",
     "Illyricum",
     [
-     "Moesia",
-     "moesia superior",
-     "moesia inferior"
+     "Moesia"
     ],
     "Dacia",
     [
@@ -102,10 +87,7 @@
     "Cyprus",
     [
      "Creta et Cyrenaica",
-     "crete and cyrenaica",
-     "cyrenaica",
-     "crete",
-     "Creta"
+     "crete and cyrenaica"
     ],
     [
      "Africa",
@@ -113,9 +95,7 @@
     ],
     "Numidia",
     [
-     "Mauretania",
-     "mauretania tingitana",
-     "mauretania caesariensis"
+     "Mauretania"
     ],
     [
      "Sicilia",
@@ -123,9 +103,7 @@
     ],
     [
      "Sardinia et Corsica",
-     "sardinia and corsica",
-     "sardinia",
-     "corsica"
+     "sardinia and corsica"
     ],
     "Mesopotamia",
     "Armenia",
@@ -153,7 +131,384 @@
     "Syria Palaestina",
     "Valentia",
     "Maxima Caesariensis",
-    "Flavia Caesariensis"
+    "Flavia Caesariensis",
+    [
+     "Gallia Narbonensis",
+     "narbonensis",
+     "transalpine gaul",
+     "gallia transalpina"
+    ],
+    [
+     "Gallia Lugdunensis",
+     "lugdunensis"
+    ],
+    [
+     "Gallia Belgica",
+     "belgica"
+    ],
+    [
+     "Hispania Tarraconensis",
+     "tarraconensis"
+    ],
+    [
+     "Hispania Citerior",
+     "nearer spain"
+    ],
+    [
+     "Hispania Ulterior",
+     "further spain"
+    ],
+    [
+     "Germania Superior",
+     "upper germany"
+    ],
+    [
+     "Germania Inferior",
+     "lower germany"
+    ],
+    [
+     "Moesia Superior",
+     "upper moesia"
+    ],
+    [
+     "Moesia Inferior",
+     "lower moesia"
+    ],
+    [
+     "Mauretania Tingitana",
+     "tingitana"
+    ],
+    [
+     "Mauretania Caesariensis"
+    ],
+    [
+     "Cyrenaica",
+     "libya superior",
+     "libya pentapolis"
+    ],
+    [
+     "Creta",
+     "crete"
+    ],
+    [
+     "Sardinia"
+    ],
+    [
+     "Corsica"
+    ],
+    [
+     "Dacia Porolissensis"
+    ],
+    [
+     "Dacia Apulensis"
+    ],
+    [
+     "Dacia Malvensis"
+    ],
+    [
+     "Dacia Superior"
+    ],
+    [
+     "Dacia Inferior"
+    ],
+    [
+     "Dacia Ripensis"
+    ],
+    [
+     "Dacia Mediterranea"
+    ],
+    [
+     "Dardania"
+    ],
+    [
+     "Praevalitana",
+     "praevalis"
+    ],
+    [
+     "Epirus Nova"
+    ],
+    [
+     "Epirus Vetus"
+    ],
+    [
+     "Thessalia",
+     "thessaly"
+    ],
+    [
+     "Macedonia Salutaris"
+    ],
+    [
+     "Pannonia Prima"
+    ],
+    [
+     "Pannonia Secunda"
+    ],
+    [
+     "Valeria"
+    ],
+    [
+     "Savia",
+     "pannonia savia"
+    ],
+    [
+     "Noricum Ripense"
+    ],
+    [
+     "Noricum Mediterraneum"
+    ],
+    [
+     "Raetia Prima"
+    ],
+    [
+     "Raetia Secunda"
+    ],
+    [
+     "Germania Prima"
+    ],
+    [
+     "Germania Secunda"
+    ],
+    [
+     "Belgica Prima"
+    ],
+    [
+     "Belgica Secunda"
+    ],
+    [
+     "Lugdunensis Prima"
+    ],
+    [
+     "Lugdunensis Secunda"
+    ],
+    [
+     "Lugdunensis Tertia"
+    ],
+    [
+     "Lugdunensis Senonia",
+     "senonia"
+    ],
+    [
+     "Maxima Sequanorum",
+     "sequania"
+    ],
+    [
+     "Alpes Graiae",
+     "alpes graiae et poeninae"
+    ],
+    [
+     "Viennensis"
+    ],
+    [
+     "Narbonensis Prima"
+    ],
+    [
+     "Narbonensis Secunda"
+    ],
+    [
+     "Aquitanica Prima"
+    ],
+    [
+     "Aquitanica Secunda"
+    ],
+    [
+     "Novempopulana"
+    ],
+    [
+     "Britannia Prima"
+    ],
+    [
+     "Britannia Secunda"
+    ],
+    [
+     "Gallaecia"
+    ],
+    [
+     "Carthaginiensis",
+     "hispania carthaginiensis"
+    ],
+    [
+     "Balearica",
+     "baleares",
+     "balearic islands"
+    ],
+    [
+     "Byzacena",
+     "byzacium"
+    ],
+    [
+     "Tripolitania"
+    ],
+    [
+     "Mauretania Sitifensis"
+    ],
+    [
+     "Africa Vetus"
+    ],
+    [
+     "Africa Nova"
+    ],
+    [
+     "Libya Inferior",
+     "marmarica"
+    ],
+    [
+     "Thebais"
+    ],
+    [
+     "Augustamnica"
+    ],
+    [
+     "Aegyptus Iovia"
+    ],
+    [
+     "Aegyptus Herculia"
+    ],
+    [
+     "Arcadia Aegypti",
+     "arcadia"
+    ],
+    [
+     "Palaestina Prima"
+    ],
+    [
+     "Palaestina Secunda"
+    ],
+    [
+     "Palaestina Salutaris",
+     "palaestina tertia"
+    ],
+    [
+     "Phoenice Libanensis"
+    ],
+    [
+     "Coele-Syria",
+     "syria coele"
+    ],
+    [
+     "Syria Prima"
+    ],
+    [
+     "Syria Secunda",
+     "syria salutaris"
+    ],
+    [
+     "Euphratensis",
+     "augusta euphratensis"
+    ],
+    [
+     "Isauria"
+    ],
+    [
+     "Lycaonia"
+    ],
+    [
+     "Pisidia"
+    ],
+    [
+     "Phrygia"
+    ],
+    [
+     "Phrygia Pacatiana"
+    ],
+    [
+     "Phrygia Salutaris"
+    ],
+    [
+     "Caria"
+    ],
+    [
+     "Lydia"
+    ],
+    [
+     "Hellespontus"
+    ],
+    [
+     "Paphlagonia"
+    ],
+    [
+     "Honorias"
+    ],
+    [
+     "Helenopontus"
+    ],
+    [
+     "Pontus Polemoniacus"
+    ],
+    [
+     "Armenia Minor",
+     "lesser armenia"
+    ],
+    [
+     "Armenia Prima"
+    ],
+    [
+     "Armenia Secunda"
+    ],
+    [
+     "Galatia Salutaris"
+    ],
+    [
+     "Cappadocia Prima"
+    ],
+    [
+     "Cappadocia Secunda"
+    ],
+    [
+     "Cilicia Secunda"
+    ],
+    [
+     "Rhodope"
+    ],
+    [
+     "Haemimontus"
+    ],
+    [
+     "Europa"
+    ],
+    [
+     "Scythia Minor",
+     "scythia"
+    ],
+    [
+     "Moesia Secunda"
+    ],
+    [
+     "Insulae",
+     "provincia insularum"
+    ],
+    [
+     "Campania"
+    ],
+    [
+     "Tuscia et Umbria"
+    ],
+    [
+     "Apulia et Calabria"
+    ],
+    [
+     "Lucania et Bruttii"
+    ],
+    [
+     "Samnium"
+    ],
+    [
+     "Picenum"
+    ],
+    [
+     "Flaminia et Picenum"
+    ],
+    [
+     "Aemilia"
+    ],
+    [
+     "Liguria"
+    ],
+    [
+     "Venetia et Histria"
+    ],
+    [
+     "Moesia Prima"
+    ]
    ]
   },
   {
@@ -171,7 +526,9 @@
     [
      "Teutoburg Forest",
      "teutoburg",
-     "varian disaster"
+     "varian disaster",
+     "battle of the teutoburg forest",
+     "varus"
     ],
     "Alesia",
     "Philippi",
@@ -184,8 +541,15 @@
     "Pydna",
     "Cynoscephalae",
     "Magnesia",
-    "Mons Graupius",
-    "Watling Street",
+    [
+     "Mons Graupius",
+     "battle of mons graupius"
+    ],
+    [
+     "Watling Street",
+     "boudica's last battle",
+     "battle of watling street"
+    ],
     "Thapsus",
     "Munda",
     "Allia",
@@ -204,7 +568,10 @@
     "Zela",
     "Gergovia",
     "Bibracte",
-    "Medway",
+    [
+     "Medway",
+     "battle of the medway"
+    ],
     "Dyrrhachium",
     "Ilerda",
     "Mutina",
@@ -219,7 +586,8 @@
     "Frigidus",
     [
      "Strasbourg",
-     "argentoratum"
+     "argentoratum",
+     "battle of strasbourg"
     ],
     "Edessa",
     "Nisibis",
@@ -255,7 +623,467 @@
     "Cremna",
     "Margus",
     "Verona",
-    "Turin"
+    "Turin",
+    [
+     "Avaricum",
+     "siege of avaricum"
+    ],
+    [
+     "Uxellodunum",
+     "siege of uxellodunum"
+    ],
+    [
+     "Sabis",
+     "battle of the sabis",
+     "sambre"
+    ],
+    [
+     "Vosges",
+     "battle of vosges",
+     "battle against ariovistus"
+    ],
+    [
+     "Axona",
+     "battle of the axona",
+     "aisne"
+    ],
+    [
+     "Morbihan",
+     "battle of morbihan",
+     "battle against the veneti"
+    ],
+    [
+     "Lutetia",
+     "battle of lutetia"
+    ],
+    [
+     "Arar",
+     "battle of the arar"
+    ],
+    [
+     "Octodurus",
+     "battle of octodurus"
+    ],
+    [
+     "Massilia",
+     "siege of massilia"
+    ],
+    [
+     "Utica",
+     "battle of utica"
+    ],
+    [
+     "Bagradas River",
+     "battle of the bagradas river",
+     "bagradas"
+    ],
+    [
+     "Nile",
+     "battle of the nile (47 bc)"
+    ],
+    [
+     "Ruspina",
+     "battle of ruspina"
+    ],
+    [
+     "Alexandria",
+     "siege of alexandria",
+     "alexandrian war"
+    ],
+    [
+     "Tauroento",
+     "battle of tauroento"
+    ],
+    [
+     "Perusia",
+     "siege of perusia",
+     "perusine war"
+    ],
+    [
+     "Mylae",
+     "battle of mylae"
+    ],
+    [
+     "First Battle of Bedriacum",
+     "first bedriacum"
+    ],
+    [
+     "Telamon",
+     "battle of telamon"
+    ],
+    [
+     "Clastidium",
+     "battle of clastidium"
+    ],
+    [
+     "Faesulae",
+     "battle of faesulae"
+    ],
+    [
+     "Aous",
+     "battle of the aous"
+    ],
+    [
+     "Thermopylae (191 BC)",
+     "battle of thermopylae 191 bc"
+    ],
+    [
+     "Callinicus",
+     "battle of callinicus"
+    ],
+    [
+     "Myonessus",
+     "battle of myonessus"
+    ],
+    [
+     "Corycus",
+     "battle of corycus"
+    ],
+    [
+     "Eurymedon (190 BC)",
+     "battle of the eurymedon 190 bc"
+    ],
+    [
+     "Muthul",
+     "battle of the muthul"
+    ],
+    [
+     "Suthul",
+     "battle of suthul"
+    ],
+    [
+     "Cirta",
+     "battle of cirta"
+    ],
+    [
+     "Sacriporto",
+     "sacriportus",
+     "battle of sacriporto"
+    ],
+    [
+     "Nicopolis (66 BC)",
+     "battle of the lycus",
+     "lycus"
+    ],
+    [
+     "Cabira",
+     "battle of cabira"
+    ],
+    [
+     "Cyzicus",
+     "siege of cyzicus"
+    ],
+    [
+     "Artaxata",
+     "battle of artaxata"
+    ],
+    [
+     "Tenedos",
+     "battle of tenedos"
+    ],
+    [
+     "Lemnos",
+     "battle of lemnos"
+    ],
+    [
+     "Silarius River",
+     "battle of the silarius river",
+     "silarus"
+    ],
+    [
+     "Mount Garganus",
+     "battle of mount garganus"
+    ],
+    [
+     "Lauron",
+     "battle of lauron"
+    ],
+    [
+     "Sucro",
+     "battle of sucro"
+    ],
+    [
+     "Segontia",
+     "battle of segontia"
+    ],
+    [
+     "Italica",
+     "battle of italica"
+    ],
+    [
+     "Cilician Gates",
+     "battle of the cilician gates"
+    ],
+    [
+     "Mount Gindarus",
+     "battle of mount gindarus",
+     "gindarus"
+    ],
+    [
+     "Rhandeia",
+     "battle of rhandeia"
+    ],
+    [
+     "Hatra",
+     "siege of hatra"
+    ],
+    [
+     "Caer Caradoc",
+     "battle of caer caradoc",
+     "caratacus' last stand"
+    ],
+    [
+     "Anglesey",
+     "menai strait",
+     "invasion of anglesey",
+     "mona"
+    ],
+    [
+     "Jotapata",
+     "siege of jotapata",
+     "yodfat"
+    ],
+    [
+     "Gamla",
+     "siege of gamla"
+    ],
+    [
+     "Beth Horon",
+     "battle of beth horon"
+    ],
+    [
+     "Betar",
+     "siege of betar"
+    ],
+    [
+     "Adamclisi",
+     "battle of adamclisi"
+    ],
+    [
+     "Sarmizegetusa",
+     "siege of sarmizegetusa"
+    ],
+    [
+     "Harzhorn",
+     "battle at the harzhorn"
+    ],
+    [
+     "Issus (194)",
+     "battle of issus 194"
+    ],
+    [
+     "Nicaea (193)",
+     "battle of nicaea 193"
+    ],
+    [
+     "Antioch (218)",
+     "battle of antioch 218"
+    ],
+    [
+     "Misiche",
+     "battle of misiche"
+    ],
+    [
+     "Barbalissos",
+     "battle of barbalissos"
+    ],
+    [
+     "Beroe",
+     "battle of beroe"
+    ],
+    [
+     "Philippopolis",
+     "siege of philippopolis"
+    ],
+    [
+     "Mediolanum",
+     "battle of mediolanum"
+    ],
+    [
+     "Augsburg (260)",
+     "battle of augsburg 260"
+    ],
+    [
+     "Lake Benacus",
+     "battle of lake benacus"
+    ],
+    [
+     "Placentia",
+     "battle of placentia"
+    ],
+    [
+     "Fanum Fortunae",
+     "battle of fanum fortunae"
+    ],
+    [
+     "Immae",
+     "battle of immae"
+    ],
+    [
+     "Emesa",
+     "battle of emesa"
+    ],
+    [
+     "Lingones",
+     "battle of lingones"
+    ],
+    [
+     "Satala",
+     "battle of satala"
+    ],
+    [
+     "Dura-Europos",
+     "siege of dura-europos"
+    ],
+    [
+     "Tzirallum",
+     "battle of tzirallum"
+    ],
+    [
+     "Cibalae",
+     "battle of cibalae"
+    ],
+    [
+     "Mardia",
+     "battle of mardia",
+     "campus ardiensis"
+    ],
+    [
+     "Chrysopolis",
+     "battle of chrysopolis"
+    ],
+    [
+     "Hellespont (324)",
+     "battle of the hellespont"
+    ],
+    [
+     "Singara",
+     "battle of singara"
+    ],
+    [
+     "Mons Seleucus",
+     "battle of mons seleucus"
+    ],
+    [
+     "Amida",
+     "siege of amida"
+    ],
+    [
+     "Samarra",
+     "battle of samarra"
+    ],
+    [
+     "Maranga",
+     "battle of maranga"
+    ],
+    [
+     "Solicinium",
+     "battle of solicinium"
+    ],
+    [
+     "Ad Salices",
+     "battle of ad salices"
+    ],
+    [
+     "Marcianople",
+     "battle of marcianople"
+    ],
+    [
+     "Argentovaria",
+     "battle of argentovaria"
+    ],
+    [
+     "Save",
+     "battle of the save",
+     "poetovio"
+    ],
+    [
+     "Pollentia",
+     "battle of pollentia"
+    ],
+    [
+     "Cape Bon",
+     "battle of cape bon"
+    ],
+    [
+     "Vicus Helena",
+     "battle of vicus helena"
+    ],
+    [
+     "Dara",
+     "battle of dara"
+    ],
+    [
+     "Callinicum",
+     "battle of callinicum"
+    ],
+    [
+     "Ad Decimum",
+     "battle of ad decimum"
+    ],
+    [
+     "Tricamarum",
+     "battle of tricamarum"
+    ],
+    [
+     "Taginae",
+     "battle of taginae",
+     "busta gallorum"
+    ],
+    [
+     "Mons Lactarius",
+     "battle of mons lactarius"
+    ],
+    [
+     "Volturnus",
+     "battle of the volturnus",
+     "casilinum"
+    ],
+    [
+     "Cremera",
+     "battle of the cremera"
+    ],
+    [
+     "Mount Algidus",
+     "battle of mount algidus",
+     "algidus"
+    ],
+    [
+     "Corbio",
+     "battle of corbio"
+    ],
+    [
+     "Mount Gaurus",
+     "battle of mount gaurus"
+    ],
+    [
+     "Suessula",
+     "battle of suessula"
+    ],
+    [
+     "Trifanum",
+     "battle of trifanum"
+    ],
+    [
+     "Lautulae",
+     "battle of lautulae"
+    ],
+    [
+     "Bovianum",
+     "battle of bovianum"
+    ],
+    [
+     "Aquilonia",
+     "battle of aquilonia"
+    ],
+    [
+     "Arretium",
+     "battle of arretium"
+    ],
+    [
+     "Populonia",
+     "battle of populonia"
+    ]
    ],
    "deep": true
   },
@@ -341,7 +1169,257 @@
     "Euphorion",
     "Rhianus",
     "Nicander",
-    "Posidippus"
+    "Posidippus",
+    [
+     "Epicharmus"
+    ],
+    [
+     "Crates"
+    ],
+    [
+     "Magnes"
+    ],
+    [
+     "Chionides"
+    ],
+    [
+     "Pherecrates"
+    ],
+    [
+     "Plato Comicus",
+     "plato the comic poet"
+    ],
+    [
+     "Hermippus"
+    ],
+    [
+     "Telecleides"
+    ],
+    [
+     "Ameipsias"
+    ],
+    [
+     "Strattis"
+    ],
+    [
+     "Anaxandrides"
+    ],
+    [
+     "Eubulus"
+    ],
+    [
+     "Timocles"
+    ],
+    [
+     "Apollodorus of Carystus"
+    ],
+    [
+     "Philippides"
+    ],
+    [
+     "Sophron"
+    ],
+    [
+     "Rhinthon"
+    ],
+    [
+     "Machon"
+    ],
+    [
+     "Iophon"
+    ],
+    [
+     "Euphorion of Athens"
+    ],
+    [
+     "Xenocles"
+    ],
+    [
+     "Morsimus"
+    ],
+    [
+     "Philocles"
+    ],
+    [
+     "Aristarchus of Tegea"
+    ],
+    [
+     "Neophron"
+    ],
+    [
+     "Critias"
+    ],
+    [
+     "Carcinus"
+    ],
+    [
+     "Chaeremon"
+    ],
+    [
+     "Astydamas"
+    ],
+    [
+     "Theodectes"
+    ],
+    [
+     "Moschion"
+    ],
+    [
+     "Sositheus"
+    ],
+    [
+     "Ezekiel the Tragedian"
+    ],
+    [
+     "Panyassis"
+    ],
+    [
+     "Antimachus"
+    ],
+    [
+     "Eumelus"
+    ],
+    [
+     "Arctinus",
+     "arctinus of miletus"
+    ],
+    [
+     "Lesches"
+    ],
+    [
+     "Stasinus"
+    ],
+    [
+     "Eugammon"
+    ],
+    [
+     "Peisander"
+    ],
+    [
+     "Creophylus"
+    ],
+    [
+     "Choerilus of Samos"
+    ],
+    [
+     "Phocylides"
+    ],
+    [
+     "Ananius"
+    ],
+    [
+     "Timocreon"
+    ],
+    [
+     "Lasus",
+     "lasus of hermione"
+    ],
+    [
+     "Myrtis"
+    ],
+    [
+     "Cleobulina"
+    ],
+    [
+     "Parmenides"
+    ],
+    [
+     "Empedocles"
+    ],
+    [
+     "Philitas of Cos",
+     "philetas",
+     "philitas"
+    ],
+    [
+     "Hermesianax"
+    ],
+    [
+     "Phanocles"
+    ],
+    [
+     "Alexander Aetolus"
+    ],
+    [
+     "Hedylus"
+    ],
+    [
+     "Simias of Rhodes"
+    ],
+    [
+     "Dosiadas"
+    ],
+    [
+     "Timon of Phlius",
+     "timon"
+    ],
+    [
+     "Cercidas"
+    ],
+    [
+     "Phoenix of Colophon"
+    ],
+    [
+     "Moero",
+     "myro"
+    ],
+    [
+     "Philodemus"
+    ],
+    [
+     "Antipater of Thessalonica"
+    ],
+    [
+     "Crinagoras"
+    ],
+    [
+     "Archias"
+    ],
+    [
+     "Lucillius"
+    ],
+    [
+     "Palladas"
+    ],
+    [
+     "Agathias"
+    ],
+    [
+     "Paul the Silentiary",
+     "paulus silentiarius"
+    ],
+    [
+     "Colluthus"
+    ],
+    [
+     "Tryphiodorus",
+     "triphiodorus"
+    ],
+    [
+     "Babrius"
+    ],
+    [
+     "Dionysius Periegetes"
+    ],
+    [
+     "Asius of Samos"
+    ],
+    [
+     "Dioscorides"
+    ],
+    [
+     "Mnasalcas"
+    ],
+    [
+     "Mesomedes"
+    ],
+    [
+     "Gregory of Nazianzus",
+     "gregory nazianzen"
+    ],
+    [
+     "Synesius"
+    ]
    ]
   },
   {
@@ -355,7 +1433,11 @@
      "Black Death",
      "black plague",
      "the plague",
-     "bubonic plague"
+     "bubonic plague",
+     "great mortality",
+     "great pestilence",
+     "pestilence",
+     "plague of 1348"
     ],
     [
      "Spanish flu",
@@ -385,7 +1467,11 @@
      "Antonine Plague",
      "plague of galen"
     ],
-    "Plague of Athens",
+    [
+     "Plague of Athens",
+     "athenian plague",
+     "plague of thucydides"
+    ],
     "Plague of Cyprian",
     [
      "Asian flu",
@@ -429,9 +1515,7 @@
     [
      "Cholera",
      "cholera pandemic",
-     "cholera epidemic",
-     "broad street cholera outbreak",
-     "1854 cholera outbreak"
+     "cholera epidemic"
     ],
     [
      "Third plague pandemic",
@@ -440,7 +1524,8 @@
     ],
     [
      "Smallpox",
-     "smallpox epidemic"
+     "smallpox epidemic",
+     "variola"
     ],
     [
      "Sweating sickness",
@@ -474,14 +1559,13 @@
      "mers outbreak"
     ],
     [
-     "Yellow fever epidemic",
-     "philadelphia yellow fever",
-     "1793 yellow fever"
+     "Yellow fever epidemic"
     ],
     [
      "Polio",
      "polio epidemic",
-     "poliomyelitis epidemic"
+     "poliomyelitis epidemic",
+     "poliomyelitis"
     ],
     [
      "Encephalitis lethargica",
@@ -526,18 +1610,181 @@
     ],
     [
      "Mad cow disease",
-     "bse"
+     "bse",
+     "bovine spongiform encephalopathy"
     ],
     "Haiti cholera outbreak",
     "Diphtheria",
     "Scarlet fever",
-    "Whooping cough",
+    [
+     "Whooping cough",
+     "pertussis"
+    ],
     "Dengue",
-    "Plague of Amwas",
+    [
+     "Plague of Amwas",
+     "plague of emmaus"
+    ],
     "Great Plague of 1738",
     "Moscow plague of 1771",
     "Manchurian plague",
-    "London plague of 1563"
+    "London plague of 1563",
+    [
+     "Influenza",
+     "flu",
+     "flu pandemic",
+     "influenza pandemic",
+     "influenza epidemic",
+     "flu epidemic"
+    ],
+    [
+     "Typhoid",
+     "typhoid fever",
+     "typhoid epidemic"
+    ],
+    [
+     "Broad Street cholera outbreak",
+     "1854 cholera outbreak",
+     "soho cholera outbreak",
+     "broad street pump"
+    ],
+    [
+     "Philadelphia yellow fever epidemic",
+     "philadelphia yellow fever",
+     "1793 yellow fever",
+     "1793 philadelphia yellow fever epidemic"
+    ],
+    [
+     "Yellow fever",
+     "yellow jack"
+    ],
+    [
+     "Syphilis",
+     "syphilis epidemic",
+     "great pox",
+     "french disease",
+     "french pox"
+    ],
+    [
+     "Legionnaires' disease",
+     "1976 legionnaires outbreak"
+    ],
+    [
+     "Rubella",
+     "german measles",
+     "rubella epidemic"
+    ],
+    [
+     "Mumps"
+    ],
+    [
+     "Chickenpox",
+     "chicken pox"
+    ],
+    [
+     "Meningitis",
+     "meningitis epidemic"
+    ],
+    [
+     "Sleeping sickness",
+     "african trypanosomiasis"
+    ],
+    [
+     "Ergotism",
+     "st anthony's fire",
+     "saint anthony's fire",
+     "ergot poisoning"
+    ],
+    [
+     "Chikungunya",
+     "chikungunya epidemic"
+    ],
+    [
+     "Marburg virus",
+     "marburg",
+     "marburg virus disease"
+    ],
+    [
+     "Lassa fever"
+    ],
+    [
+     "Nipah virus",
+     "nipah"
+    ],
+    [
+     "Rinderpest",
+     "cattle plague"
+    ],
+    [
+     "Russian flu of 1977",
+     "1977 russian flu",
+     "1977 flu"
+    ],
+    [
+     "Third cholera pandemic",
+     "1846 cholera pandemic"
+    ],
+    [
+     "Great Plague of 1592",
+     "1592 london plague"
+    ],
+    [
+     "Plague of Ashdod",
+     "philistine plague"
+    ],
+    [
+     "Great Plague of Malta",
+     "malta plague of 1813",
+     "1813 malta plague"
+    ],
+    [
+     "Plague of Eyam",
+     "eyam plague",
+     "eyam"
+    ],
+    [
+     "Second plague pandemic",
+     "second pandemic"
+    ],
+    [
+     "First plague pandemic",
+     "first pandemic"
+    ],
+    [
+     "Cholera in London",
+     "1849 cholera epidemic",
+     "london cholera epidemic of 1849"
+    ],
+    [
+     "Swine flu outbreak of 1976",
+     "1976 swine flu",
+     "fort dix swine flu"
+    ],
+    [
+     "Ebola outbreak of 1976",
+     "1976 ebola",
+     "yambuku ebola"
+    ],
+    [
+     "Hantavirus",
+     "hantavirus outbreak",
+     "four corners outbreak"
+    ],
+    [
+     "Monkeypox outbreak of 2022",
+     "2022 mpox outbreak",
+     "2022 monkeypox"
+    ],
+    [
+     "Smallpox in the Americas",
+     "american smallpox epidemic",
+     "new world smallpox"
+    ],
+    [
+     "Diphtheria epidemic of 1925",
+     "serum run",
+     "nome serum run"
+    ]
    ]
   },
   {
@@ -734,13 +1981,24 @@
     ],
     [
      "Henry the Navigator",
-     "prince henry the navigator"
+     "prince henry the navigator",
+     "prince henry",
+     "infante dom henrique"
     ],
-    "Humphrey Gilbert",
-    "Richard Grenville",
+    [
+     "Humphrey Gilbert",
+     "sir humphrey gilbert"
+    ],
+    [
+     "Richard Grenville",
+     "sir richard grenville"
+    ],
     "Thomas Cavendish",
     "Richard Chancellor",
-    "Hugh Willoughby",
+    [
+     "Hugh Willoughby",
+     "sir hugh willoughby"
+    ],
     "Sebastian Cabot",
     "Hernando de Alarcón",
     "Francisco de Montejo",
@@ -780,7 +2038,743 @@
     ],
     "Matteo Ricci",
     "Francis Xavier",
-    "William Dampier"
+    "William Dampier",
+    [
+     "Pedro Teixeira"
+    ],
+    [
+     "Christopher Newport"
+    ],
+    [
+     "Bartholomew Gosnold",
+     "gosnold"
+    ],
+    [
+     "John White"
+    ],
+    [
+     "Thomas Button"
+    ],
+    [
+     "Luke Foxe",
+     "luke fox"
+    ],
+    [
+     "Thomas James"
+    ],
+    [
+     "Jens Munk"
+    ],
+    [
+     "Stephen Borough"
+    ],
+    [
+     "Anthony Jenkinson"
+    ],
+    [
+     "John Hawkins",
+     "sir john hawkins",
+     "hawkins"
+    ],
+    [
+     "Bartholomew Columbus"
+    ],
+    [
+     "Juan Díaz de Solís",
+     "solis"
+    ],
+    [
+     "Rodrigo de Bastidas"
+    ],
+    [
+     "Diego de Nicuesa"
+    ],
+    [
+     "Francisco Hernández de Córdoba"
+    ],
+    [
+     "Alonso Álvarez de Pineda"
+    ],
+    [
+     "Lucas Vázquez de Ayllón"
+    ],
+    [
+     "Esteban Gómez"
+    ],
+    [
+     "García Jofre de Loaísa",
+     "loaisa"
+    ],
+    [
+     "Álvaro de Saavedra"
+    ],
+    [
+     "Andrés de Urdaneta",
+     "urdaneta"
+    ],
+    [
+     "Miguel López de Legazpi",
+     "legazpi"
+    ],
+    [
+     "Juan Fernández"
+    ],
+    [
+     "Sebastián Vizcaíno",
+     "vizcaino"
+    ],
+    [
+     "Juan de Oñate",
+     "onate"
+    ],
+    [
+     "Antonio de Espejo"
+    ],
+    [
+     "Marcos de Niza",
+     "fray marcos"
+    ],
+    [
+     "García López de Cárdenas"
+    ],
+    [
+     "Francisco de Ulloa"
+    ],
+    [
+     "Pedro de Mendoza"
+    ],
+    [
+     "Sebastián de Belalcázar",
+     "belalcazar"
+    ],
+    [
+     "Nikolaus Federmann",
+     "federmann"
+    ],
+    [
+     "Ambrosius Ehinger"
+    ],
+    [
+     "Diego de Ordaz"
+    ],
+    [
+     "Pedro de Ursúa"
+    ],
+    [
+     "Antonio de Berrío"
+    ],
+    [
+     "Pedro Sarmiento de Gamboa",
+     "sarmiento de gamboa"
+    ],
+    [
+     "Fernão Mendes Pinto",
+     "mendes pinto"
+    ],
+    [
+     "Bento de Góis",
+     "benedict goes"
+    ],
+    [
+     "António de Andrade"
+    ],
+    [
+     "Pêro de Alenquer"
+    ],
+    [
+     "João Fernandes Lavrador"
+    ],
+    [
+     "Miguel Corte-Real"
+    ],
+    [
+     "João Vaz Corte-Real"
+    ],
+    [
+     "Tristão da Cunha"
+    ],
+    [
+     "Diogo Dias"
+    ],
+    [
+     "João Gonçalves Zarco",
+     "zarco"
+    ],
+    [
+     "Tristão Vaz Teixeira"
+    ],
+    [
+     "Diogo de Silves"
+    ],
+    [
+     "Gonçalo Velho Cabral"
+    ],
+    [
+     "Dinis Dias",
+     "dinis diaz"
+    ],
+    [
+     "Pedro de Sintra",
+     "pedro de cintra"
+    ],
+    [
+     "Fernão do Pó",
+     "fernando po"
+    ],
+    [
+     "Lopo Gonçalves"
+    ],
+    [
+     "João de Santarém"
+    ],
+    [
+     "Diogo Gomes"
+    ],
+    [
+     "António de Noli",
+     "antonio da noli"
+    ],
+    [
+     "Jorge Álvares"
+    ],
+    [
+     "Fernão Pires de Andrade"
+    ],
+    [
+     "António de Abreu"
+    ],
+    [
+     "Francisco Serrão"
+    ],
+    [
+     "Diogo Lopes de Sequeira"
+    ],
+    [
+     "João da Nova"
+    ],
+    [
+     "Duarte Barbosa"
+    ],
+    [
+     "Cristóvão da Gama"
+    ],
+    [
+     "Estêvão da Gama"
+    ],
+    [
+     "Pedro Páez"
+    ],
+    [
+     "Jerónimo Lobo"
+    ],
+    [
+     "Leo Africanus"
+    ],
+    [
+     "Afanasy Nikitin",
+     "athanasius nikitin",
+     "nikitin"
+    ],
+    [
+     "Niccolò de' Conti",
+     "nicolo de conti"
+    ],
+    [
+     "Antonio Pigafetta",
+     "pigafetta"
+    ],
+    [
+     "Olivier van Noort",
+     "van noort"
+    ],
+    [
+     "Cornelis de Houtman",
+     "de houtman"
+    ],
+    [
+     "Frederick de Houtman"
+    ],
+    [
+     "Jacob van Neck"
+    ],
+    [
+     "Jan Huyghen van Linschoten",
+     "linschoten"
+    ],
+    [
+     "Adriaen Block"
+    ],
+    [
+     "Cornelius Jacobsen Mey",
+     "cornelius mey"
+    ],
+    [
+     "Jan Carstenszoon",
+     "jan carstensz"
+    ],
+    [
+     "Pieter Nuyts"
+    ],
+    [
+     "François Thijssen"
+    ],
+    [
+     "Willem de Vlamingh",
+     "de vlamingh",
+     "vlamingh"
+    ],
+    [
+     "Joris van Spilbergen",
+     "spilbergen"
+    ],
+    [
+     "Maarten Gerritsz Vries",
+     "maarten de vries",
+     "maarten vries"
+    ],
+    [
+     "Jacob van Heemskerck",
+     "heemskerck"
+    ],
+    [
+     "Jean Ribault",
+     "jean ribaut"
+    ],
+    [
+     "René Goulaine de Laudonnière",
+     "laudonniere",
+     "rene de laudonniere"
+    ],
+    [
+     "Jean-François de La Rocque de Roberval",
+     "roberval"
+    ],
+    [
+     "Pierre Dugua de Mons",
+     "pierre de mons",
+     "sieur de mons"
+    ],
+    [
+     "Jean de Béthencourt",
+     "bethencourt"
+    ],
+    [
+     "Binot Paulmier de Gonneville",
+     "paulmier de gonneville"
+    ],
+    [
+     "Jean Parmentier"
+    ],
+    [
+     "Nicolas Durand de Villegaignon",
+     "villegaignon"
+    ],
+    [
+     "Jean Alfonse",
+     "jean fonteneau"
+    ],
+    [
+     "Daniel Greysolon, Sieur du Lhut",
+     "daniel greysolon",
+     "sieur du lhut",
+     "duluth"
+    ],
+    [
+     "Louis Hennepin",
+     "father hennepin"
+    ],
+    [
+     "Henri de Tonti",
+     "henri de tonty",
+     "tonti"
+    ],
+    [
+     "Nicolas Perrot"
+    ],
+    [
+     "Pierre-Charles Le Sueur",
+     "le sueur"
+    ],
+    [
+     "Pierre Le Moyne d'Iberville",
+     "iberville",
+     "d'iberville"
+    ],
+    [
+     "Henry Kelsey"
+    ],
+    [
+     "George Weymouth",
+     "george waymouth"
+    ],
+    [
+     "Martin Pring"
+    ],
+    [
+     "Bartholomew Gilbert"
+    ],
+    [
+     "Arthur Barlowe"
+    ],
+    [
+     "Philip Amadas"
+    ],
+    [
+     "Ralph Lane"
+    ],
+    [
+     "Edward Fenton"
+    ],
+    [
+     "John Oxenham"
+    ],
+    [
+     "James Lancaster",
+     "sir james lancaster"
+    ],
+    [
+     "Henry Middleton",
+     "sir henry middleton"
+    ],
+    [
+     "John Saris"
+    ],
+    [
+     "William Adams",
+     "anjin",
+     "miura anjin"
+    ],
+    [
+     "Ralph Fitch"
+    ],
+    [
+     "Thomas Stevens"
+    ],
+    [
+     "John Mildenhall"
+    ],
+    [
+     "Jonas Poole"
+    ],
+    [
+     "Robert Bylot",
+     "bylot"
+    ],
+    [
+     "John Knight"
+    ],
+    [
+     "Edward Hayes"
+    ],
+    [
+     "Andrew Battell"
+    ],
+    [
+     "William Hawkins"
+    ],
+    [
+     "John Narborough",
+     "sir john narborough"
+    ],
+    [
+     "Bartholomew Sharp"
+    ],
+    [
+     "Lionel Wafer"
+    ],
+    [
+     "Basil Ringrose"
+    ],
+    [
+     "Ivan Moskvitin",
+     "moskvitin"
+    ],
+    [
+     "Vasily Poyarkov",
+     "poyarkov"
+    ],
+    [
+     "Yerofey Khabarov",
+     "khabarov"
+    ],
+    [
+     "Mikhail Stadukhin",
+     "stadukhin"
+    ],
+    [
+     "Fedot Alekseyevich Popov",
+     "fedot popov"
+    ],
+    [
+     "Vladimir Atlasov",
+     "atlasov"
+    ],
+    [
+     "Pyotr Beketov",
+     "beketov"
+    ],
+    [
+     "Johann Grueber"
+    ],
+    [
+     "Albert Dorville"
+    ],
+    [
+     "Ippolito Desideri",
+     "desideri"
+    ],
+    [
+     "Jean-Baptiste Tavernier",
+     "tavernier"
+    ],
+    [
+     "François Bernier"
+    ],
+    [
+     "Jean Chardin",
+     "sir john chardin"
+    ],
+    [
+     "Engelbert Kaempfer",
+     "kaempfer"
+    ],
+    [
+     "Bernal Díaz del Castillo",
+     "bernal diaz"
+    ],
+    [
+     "Gonzalo Fernández de Oviedo",
+     "oviedo"
+    ],
+    [
+     "Bartolomé de las Casas",
+     "las casas"
+    ],
+    [
+     "Hernando Pizarro"
+    ],
+    [
+     "Juan Pizarro"
+    ],
+    [
+     "Francisco de Aguirre"
+    ],
+    [
+     "Diego de Rojas"
+    ],
+    [
+     "Juan de Ayolas"
+    ],
+    [
+     "Domingo Martínez de Irala",
+     "irala"
+    ],
+    [
+     "Juan de Garay"
+    ],
+    [
+     "Pedro de Heredia"
+    ],
+    [
+     "Rodrigo de Triana"
+    ],
+    [
+     "Diego de Lepe"
+    ],
+    [
+     "Cristóbal Guerra"
+    ],
+    [
+     "Pero Niño",
+     "peralonso nino"
+    ],
+    [
+     "Francisco de Ibarra"
+    ],
+    [
+     "Melchor Díaz"
+    ],
+    [
+     "Tristán de Luna y Arellano",
+     "tristan de luna"
+    ],
+    [
+     "Juan Pardo"
+    ],
+    [
+     "Hernando de Escalante Fontaneda",
+     "fontaneda"
+    ],
+    [
+     "Bartolomé Ruiz"
+    ],
+    [
+     "Gaspar de Espinosa"
+    ],
+    [
+     "Pascual de Andagoya",
+     "andagoya"
+    ],
+    [
+     "Andrés Niño"
+    ],
+    [
+     "Gil González Dávila"
+    ],
+    [
+     "Cristóbal de Olid"
+    ],
+    [
+     "Gonzalo de Sandoval"
+    ],
+    [
+     "Ahmad ibn Majid",
+     "ibn majid"
+    ],
+    [
+     "Piri Reis"
+    ],
+    [
+     "Seydi Ali Reis"
+    ],
+    [
+     "Evliya Çelebi"
+    ],
+    [
+     "Hasekura Tsunenaga",
+     "hasekura"
+    ],
+    [
+     "Tenjiku Tokubei"
+    ],
+    [
+     "Ma Huan"
+    ],
+    [
+     "Fei Xin"
+    ],
+    [
+     "Wang Jinghong"
+    ],
+    [
+     "Xu Xiake"
+    ],
+    [
+     "Étienne de Flacourt"
+    ],
+    [
+     "François Caron"
+    ],
+    [
+     "Hendrick Brouwer",
+     "brouwer"
+    ],
+    [
+     "Gerrit de Veer"
+    ],
+    [
+     "Steven van der Hagen"
+    ],
+    [
+     "Guillaume Le Testu",
+     "le testu"
+    ],
+    [
+     "André Thevet"
+    ],
+    [
+     "Jean de Léry"
+    ],
+    [
+     "Hans Staden"
+    ],
+    [
+     "Ulrich Schmidl",
+     "ulrich schmidel"
+    ],
+    [
+     "Philipp von Hutten"
+    ],
+    [
+     "Martin Behaim",
+     "behaim"
+    ],
+    [
+     "Diogo Fernandes Pereira"
+    ],
+    [
+     "Paulo da Gama"
+    ],
+    [
+     "Nicolau Coelho"
+    ],
+    [
+     "Francisco Álvares"
+    ],
+    [
+     "Afonso de Paiva"
+    ],
+    [
+     "Álvaro Fernandes"
+    ],
+    [
+     "Lançarote de Freitas",
+     "lancelot of lagos"
+    ],
+    [
+     "Gonçalo Coelho"
+    ],
+    [
+     "Fernão Gomes"
+    ],
+    [
+     "Pedro Escobar",
+     "pero escobar"
+    ],
+    [
+     "João de Lisboa"
+    ],
+    [
+     "Diego Velázquez de Cuéllar",
+     "diego velazquez"
+    ],
+    [
+     "Nicolás de Ovando"
+    ],
+    [
+     "Juan de Esquivel"
+    ],
+    [
+     "Sebastián de Ocampo"
+    ],
+    [
+     "Martín Fernández de Enciso",
+     "enciso"
+    ],
+    [
+     "Pedrarias Dávila",
+     "pedro arias de avila"
+    ],
+    [
+     "Juan de Salcedo"
+    ],
+    [
+     "Martín de Goiti"
+    ],
+    [
+     "Ruy González de Clavijo",
+     "clavijo"
+    ],
+    [
+     "Pêro Vaz de Caminha",
+     "caminha"
+    ],
+    [
+     "Francisco Martín Pinzón"
+    ],
+    [
+     "Pedro de Teixeira"
+    ]
    ]
   },
   {
@@ -797,7 +2791,8 @@
     ],
     [
      "Spinning jenny",
-     "jenny"
+     "jenny",
+     "hargreaves' spinning jenny"
     ],
     [
      "Locomotive",
@@ -809,7 +2804,10 @@
      "Stephenson's Rocket",
      "rocket"
     ],
-    "Power loom",
+    [
+     "Power loom",
+     "cartwright's power loom"
+    ],
     [
      "Spinning mule",
      "mule",
@@ -820,10 +2818,14 @@
      "Water frame",
      "arkwright's water frame"
     ],
-    "Flying shuttle",
+    [
+     "Flying shuttle",
+     "kay's flying shuttle"
+    ],
     [
      "Telegraph",
-     "electric telegraph"
+     "electric telegraph",
+     "cooke and wheatstone telegraph"
     ],
     [
      "Steamship",
@@ -860,7 +2862,8 @@
     ],
     [
      "Screw-cutting lathe",
-     "lathe"
+     "lathe",
+     "maudslay lathe"
     ],
     "Steam hammer",
     [
@@ -905,7 +2908,11 @@
      "Cylinder printing press",
      "steam printing press"
     ],
-    "Paper machine",
+    [
+     "Paper machine",
+     "fourdrinier machine",
+     "fourdrinier"
+    ],
     [
      "Atmospheric engine",
      "newcomen engine",
@@ -929,8 +2936,191 @@
      "Postage stamp",
      "penny black"
     ],
-    "Chronometer",
-    "Crucible steel"
+    [
+     "Chronometer",
+     "marine chronometer",
+     "harrison's chronometer"
+    ],
+    "Crucible steel",
+    [
+     "Locomotion No. 1",
+     "locomotion"
+    ],
+    [
+     "Penydarren locomotive",
+     "trevithick's locomotive",
+     "penydarren"
+    ],
+    [
+     "Puffing Devil"
+    ],
+    [
+     "Catch Me Who Can"
+    ],
+    [
+     "Salamanca",
+     "salamanca locomotive"
+    ],
+    [
+     "Geordie lamp",
+     "stephenson lamp"
+    ],
+    [
+     "Smallpox vaccine",
+     "vaccination",
+     "vaccine"
+    ],
+    [
+     "Carbonated water",
+     "soda water",
+     "fizzy water"
+    ],
+    [
+     "Analytical engine"
+    ],
+    [
+     "Calotype",
+     "talbotype"
+    ],
+    [
+     "Electromagnet"
+    ],
+    [
+     "Fuel cell"
+    ],
+    [
+     "Vulcanised rubber",
+     "vulcanized rubber"
+    ],
+    [
+     "Pneumatic tyre",
+     "pneumatic tire"
+    ],
+    [
+     "Flushing toilet",
+     "flush toilet",
+     "water closet"
+    ],
+    [
+     "Bramah lock",
+     "bramah's lock"
+    ],
+    [
+     "Cylinder boring machine",
+     "boring machine"
+    ],
+    [
+     "Block-making machinery",
+     "portsmouth block mills",
+     "block mills"
+    ],
+    [
+     "Lace machine",
+     "bobbinet machine"
+    ],
+    [
+     "Tin can",
+     "canned food"
+    ],
+    [
+     "Daniell cell"
+    ],
+    [
+     "Fire extinguisher"
+    ],
+    [
+     "Lifeboat"
+    ],
+    [
+     "Hydraulic crane"
+    ],
+    [
+     "Electric clock"
+    ],
+    [
+     "Kaleidoscope"
+    ],
+    [
+     "Stereoscope"
+    ],
+    [
+     "Concertina"
+    ],
+    [
+     "Rotherham plough",
+     "rotherham swing plough"
+    ],
+    [
+     "Horse hoe",
+     "horse-drawn hoe"
+    ],
+    [
+     "Octant",
+     "hadley's octant",
+     "sextant"
+    ],
+    [
+     "Roller spinning machine",
+     "roller spinning"
+    ],
+    [
+     "PS Comet",
+     "comet steamboat"
+    ],
+    [
+     "Charlotte Dundas"
+    ],
+    [
+     "SS Great Western",
+     "great western steamship"
+    ],
+    [
+     "Spinning frame"
+    ],
+    [
+     "Cotton mill",
+     "factory",
+     "mill"
+    ],
+    [
+     "Canal",
+     "canals"
+    ],
+    [
+     "Steam pump",
+     "steam-powered pump"
+    ],
+    [
+     "Steam crane"
+    ],
+    [
+     "Iron steamship"
+    ],
+    [
+     "Wrought iron rails",
+     "iron rails"
+    ],
+    [
+     "Steam tug",
+     "tugboat"
+    ],
+    [
+     "Electric generator",
+     "generator"
+    ],
+    [
+     "Transformer",
+     "induction ring"
+    ],
+    [
+     "Semaphore"
+    ],
+    [
+     "Coal gas"
+    ],
+    [
+     "Micrometer"
+    ]
    ]
   }
  ]
