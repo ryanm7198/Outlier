@@ -154,7 +154,6 @@
     ],
     [
      "Sparta Rotterdam",
-     "Rotterdam",
      "sparta"
     ],
     [
@@ -184,6 +183,16 @@
      "Fortuna '54",
      "Fortuna 54",
      "Fortuna"
+    ],
+    [
+     "NAC Breda",
+     "NAC",
+     "Breda"
+    ],
+    [
+     "VVV-Venlo",
+     "VVV",
+     "Venlo"
     ]
    ],
    "eraText": "Name a club that won the Eredivisie in the {era} (by the season they started)",
@@ -193,6 +202,7 @@
      "70s",
      "80s",
      "90s",
+     "00s",
      "10s",
      "20s"
     ],
@@ -3649,6 +3659,10 @@
     ],
     [
      "Fulham"
+    ],
+    [
+     "Crystal Palace",
+     "Palace"
     ]
    ],
    "eraText": "Name an English club that played in a European Cup or Champions League final in the {era}",
