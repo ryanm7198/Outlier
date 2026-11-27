@@ -310,7 +310,8 @@
     ],
     [
      "Dickie Beal",
-     "Beal"
+     "Beal",
+     "Dicky Beal"
     ],
     [
      "Jim Master",
@@ -554,6 +555,30 @@
     [
      "Otega Oweh",
      "Oweh"
+    ],
+    [
+     "Tom Payne",
+     "Payne"
+    ],
+    [
+     "Tom Parker",
+     "Parker"
+    ],
+    [
+     "Jim Andrews",
+     "Andrews"
+    ],
+    [
+     "Kent Hollenbeck",
+     "Hollenbeck"
+    ],
+    [
+     "Jim Dinwiddie",
+     "Dinwiddie"
+    ],
+    [
+     "Adrian Smith",
+     "Smith"
     ]
    ],
    "eraText": "Name a player from Kentucky who was drafted into the NBA in the {era}",
@@ -893,6 +918,21 @@
     ],
     "Otega Oweh": [
      "20s"
+    ],
+    "Tom Payne": [
+     "70s"
+    ],
+    "Tom Parker": [
+     "70s"
+    ],
+    "Jim Andrews": [
+     "70s"
+    ],
+    "Kent Hollenbeck": [
+     "70s"
+    ],
+    "Jim Dinwiddie": [
+     "70s"
     ]
    }
   },
@@ -1338,6 +1378,25 @@
     [
      "Henri Veesaar",
      "Veesaar"
+    ],
+    "Tom LaGarde",
+    "Geoff Crompton",
+    "James Braddock",
+    [
+     "Tom Zaliagiris",
+     "Zaliagiris"
+    ],
+    [
+     "Kim Huband",
+     "Huband"
+    ],
+    [
+     "Craig Corson",
+     "Corson"
+    ],
+    [
+     "Donn Johnston",
+     "Johnston"
     ]
    ],
    "eraText": "Name a player from North Carolina who was drafted into the NBA in the {era}",
@@ -1656,6 +1715,27 @@
     ],
     "Henri Veesaar": [
      "20s"
+    ],
+    "Tom LaGarde": [
+     "70s"
+    ],
+    "Geoff Crompton": [
+     "70s"
+    ],
+    "James Braddock": [
+     "80s"
+    ],
+    "Tom Zaliagiris": [
+     "70s"
+    ],
+    "Kim Huband": [
+     "70s"
+    ],
+    "Craig Corson": [
+     "70s"
+    ],
+    "Donn Johnston": [
+     "70s"
     ]
    }
   },
@@ -2455,7 +2535,17 @@
     [
      "Lou Watson",
      "Watson"
-    ]
+    ],
+    [
+     "Ward Williams",
+     "Williams"
+    ],
+    "Bob Wilkerson",
+    [
+     "Lee McCullough",
+     "McCullough"
+    ],
+    "Bubbles Harris"
    ],
    "eraText": "Name a player from Indiana who was drafted into the NBA in the {era}",
    "eras": {
@@ -2596,6 +2686,15 @@
     ],
     "Frank Radovich": [
      "60s"
+    ],
+    "Bob Wilkerson": [
+     "70s"
+    ],
+    "Lee McCullough": [
+     "70s"
+    ],
+    "Bubbles Harris": [
+     "70s"
     ]
    },
    "deep": true
@@ -2910,6 +3009,10 @@
     [
      "Bob Harrison",
      "Harrison"
+    ],
+    [
+     "Thad Garner",
+     "Garner"
     ]
    ],
    "eraText": "Name a player from Michigan who was drafted into the NBA in the {era}",
@@ -3105,6 +3208,9 @@
     ],
     "Dan Fife": [
      "70s"
+    ],
+    "Thad Garner": [
+     "80s"
     ]
    },
    "deep": true
@@ -4627,14 +4733,20 @@
      "LeBron James",
      "LeBron",
      "James",
-     "The King"
+     "The King",
+     "The Chosen One",
+     "LBJ",
+     "The Akron Hammer",
+     "LeBronto"
     ],
     [
      "Black Mamba",
      "Kobe Bryant",
      "Kobe",
      "Bryant",
-     "Mamba"
+     "Mamba",
+     "KB-24",
+     "Vino"
     ],
     [
      "Air Jordan",
@@ -4642,12 +4754,15 @@
      "Jordan",
      "MJ",
      "His Airness",
-     "Air"
+     "Air",
+     "The G.O.A.T",
+     "The Black Cat"
     ],
     [
      "Magic",
      "Magic Johnson",
-     "Earvin Johnson"
+     "Earvin Johnson",
+     "Buck"
     ],
     [
      "Shaq",
@@ -4656,35 +4771,51 @@
      "Shaq Diesel",
      "The Big Aristotle",
      "Big Aristotle",
-     "Big Diesel"
+     "Big Diesel",
+     "Shaq Daddy",
+     "MDE",
+     "The Big Maravich",
+     "The Big Fella",
+     "The Big Shaqtus",
+     "Shaq Attack",
+     "The Shnaq"
     ],
     [
      "The Big Fundamental",
      "Tim Duncan",
-     "Duncan"
+     "Duncan",
+     "Slam Duncan",
+     "Old Man Riverwalk"
     ],
     [
      "The Greek Freak",
      "Giannis Antetokounmpo",
      "Giannis",
-     "Antetokounmpo"
+     "Antetokounmpo",
+     "The Alphabet"
     ],
     [
      "The Beard",
      "James Harden",
-     "Harden"
+     "Harden",
+     "El Chapo"
     ],
     [
      "The Glove",
      "Gary Payton",
      "Payton",
-     "Glove"
+     "Glove",
+     "GP",
+     "The Mitten"
     ],
     [
      "Melo",
      "Carmelo Anthony",
      "Carmelo",
-     "Anthony"
+     "Anthony",
+     "Captain America",
+     "The Patriot",
+     "Hoodie Melo"
     ],
     [
      "CP3",
@@ -4701,7 +4832,8 @@
     [
      "Superman",
      "Dwight Howard",
-     "Howard"
+     "Howard",
+     "D12"
     ],
     [
      "T-Mac",
@@ -4712,7 +4844,8 @@
     [
      "The Mailman",
      "Karl Malone",
-     "Malone"
+     "Malone",
+     "The Nasty Man"
     ],
     [
      "The Dream",
@@ -4737,7 +4870,14 @@
      "Sir Charles",
      "Charles Barkley",
      "Barkley",
-     "Round Mound of Rebound"
+     "Round Mound of Rebound",
+     "Chuck",
+     "Prince Charles",
+     "Leaning Tower of Pizza",
+     "Pillsbury Dough Boy",
+     "The Human Refrigerator",
+     "The Flying Coke Machine",
+     "The Crisco Kid"
     ],
     [
      "The Admiral",
@@ -4749,7 +4889,8 @@
      "Vince Carter",
      "Half Man Half Amazing",
      "Air Canada",
-     "VC"
+     "VC",
+     "Old Man Vince"
     ],
     [
      "The Joker",
@@ -4762,7 +4903,8 @@
      "Larry Legend",
      "Larry Bird",
      "Bird",
-     "Legend"
+     "Legend",
+     "The Great White Hope"
     ],
     [
      "The Worm",
@@ -4792,19 +4934,23 @@
      "Kevin Garnett",
      "Garnett",
      "KG",
-     "Big Ticket"
+     "Big Ticket",
+     "The Kid"
     ],
     [
      "Dame Time",
      "Damian Lillard",
      "Lillard",
      "Dame",
-     "Dame Dolla"
+     "Dame Dolla",
+     "Sub Zero",
+     "Logo Lillard"
     ],
     [
      "The Brow",
      "Anthony Davis",
-     "The Unibrow"
+     "The Unibrow",
+     "AD"
     ],
     [
      "Slim Reaper",
@@ -4813,20 +4959,24 @@
      "KD",
      "Easy Money Sniper",
      "Durantula",
-     "The Durantula"
+     "The Durantula",
+     "The Servant"
     ],
     [
      "The Claw",
      "Kawhi Leonard",
      "Kawhi",
      "Leonard",
-     "The Klaw"
+     "The Klaw",
+     "Sugar K"
     ],
     [
      "Uncle Drew",
      "Kyrie Irving",
      "Kyrie",
-     "Irving"
+     "Irving",
+     "Kyriediculous",
+     "The Ankletaker"
     ],
     [
      "Clyde the Glide",
@@ -4837,7 +4987,9 @@
     [
      "The Iceman",
      "George Gervin",
-     "Gervin"
+     "Gervin",
+     "Iceberg Slim",
+     "Ice"
     ],
     [
      "Big Game James",
@@ -4875,7 +5027,9 @@
      "The Pearl",
      "Earl Monroe",
      "Monroe",
-     "Earl the Pearl"
+     "Earl the Pearl",
+     "Black Magic",
+     "Black Jesus"
     ],
     [
      "Penny",
@@ -4898,7 +5052,9 @@
      "Reign Man",
      "Shawn Kemp",
      "Kemp",
-     "The Reign Man"
+     "The Reign Man",
+     "The Reignman",
+     "The Family Man"
     ],
     [
      "Muggsy",
@@ -4927,13 +5083,20 @@
      "Kristaps Porzingis",
      "Kristaps Porziņģis",
      "Porzingis",
-     "KP"
+     "KP",
+     "Tingus Pingus",
+     "Tingus Pingus"
     ],
     [
      "Agent Zero",
      "Gilbert Arenas",
      "Arenas",
-     "Hibachi"
+     "Hibachi",
+     "Black President",
+     "Nacho",
+     "Gil",
+     "High-Noon",
+     "The Gambler"
     ],
     [
      "White Chocolate",
@@ -5030,7 +5193,8 @@
      "D-Rose",
      "Derrick Rose",
      "Rose",
-     "Pooh"
+     "Pooh",
+     "Windy City Assassin"
     ],
     [
      "Spida",
@@ -5065,7 +5229,8 @@
      "Curry",
      "Steph",
      "Chef Curry",
-     "Chef"
+     "Chef",
+     "The Golden Boy"
     ],
     [
      "The Process",
@@ -5075,7 +5240,8 @@
     ],
     [
      "Zeke",
-     "Isiah Thomas"
+     "Isiah Thomas",
+     "Cuts"
     ],
     [
      "Ant-Man",
@@ -5089,7 +5255,8 @@
      "Russell Westbrook",
      "Westbrook",
      "Russ",
-     "Mr. Triple-Double"
+     "Mr. Triple-Double",
+     "Beastbrook"
     ],
     [
      "SGA",
@@ -5105,7 +5272,8 @@
      "Jimmy Buckets",
      "Jimmy Butler",
      "Butler",
-     "Playoff Jimmy"
+     "Playoff Jimmy",
+     "Jimmy Jordan"
     ],
     [
      "Wemby",
@@ -5118,14 +5286,17 @@
     [
      "The Stifle Tower",
      "Rudy Gobert",
-     "Gobert"
+     "Gobert",
+     "The French Rejection"
     ],
     [
      "Playoff P",
      "Paul George",
      "George",
      "PG13",
-     "PG"
+     "PG",
+     "PG-13",
+     "Young Trece"
     ],
     [
      "Hondo",
@@ -5142,7 +5313,8 @@
      "Big Shot Bob",
      "Robert Horry",
      "Horry",
-     "Bob Horry"
+     "Bob Horry",
+     "Big Shot Rob"
     ],
     [
      "The Iron Man",
@@ -5159,7 +5331,9 @@
     [
      "World B. Free",
      "Lloyd Free",
-     "World B Free"
+     "World B Free",
+     "World",
+     "The Prince of Midair"
     ],
     [
      "Dr. Dunkenstein",
@@ -5170,7 +5344,8 @@
      "The Big E",
      "Elvin Hayes",
      "Hayes",
-     "Big E"
+     "Big E",
+     "The Big Enigma"
     ],
     [
      "Chairman of the Boards",
@@ -5179,7 +5354,8 @@
     [
      "Mr. Basketball",
      "George Mikan",
-     "Mikan"
+     "Mikan",
+     "The Big Number"
     ],
     [
      "The Kangaroo Kid",
@@ -5200,18 +5376,21 @@
     [
      "Hoya Destroya",
      "Patrick Ewing",
-     "Ewing"
+     "Ewing",
+     "The Beast of the East"
     ],
     [
      "Mount Mutombo",
      "Dikembe Mutombo",
      "Mutombo",
-     "Deke"
+     "Deke",
+     "Mt. Mutombo"
     ],
     [
      "The Dunking Dutchman",
      "Rik Smits",
-     "Smits"
+     "Smits",
+     "The Dunkin' Dutchman"
     ],
     [
      "Mozart",
@@ -5222,7 +5401,9 @@
     [
      "Nick the Quick",
      "Nick Van Exel",
-     "Van Exel"
+     "Van Exel",
+     "Nasty Nick",
+     "Nick Van Excellent"
     ],
     [
      "Steady Freddie",
@@ -5231,7 +5412,8 @@
     ],
     [
      "Big Spain",
-     "Marc Gasol"
+     "Marc Gasol",
+     "The Big Burrito"
     ],
     [
      "KryptoNate",
@@ -5249,24 +5431,29 @@
     ],
     [
      "Crash",
-     "Gerald Wallace"
+     "Gerald Wallace",
+     "G-Force"
     ],
     [
      "The Pink Panther",
      "Toni Kukoč",
      "Toni Kukoc",
      "Kukoc",
-     "Croatian Sensation"
+     "Croatian Sensation",
+     "The Waiter",
+     "Euro-Magic"
     ],
     [
      "Sam I Am",
      "Sam Cassell",
-     "Cassell"
+     "Cassell",
+     "The Space-man"
     ],
     [
      "Big Smooth",
      "Sam Perkins",
-     "Perkins"
+     "Perkins",
+     "Sleepy Sam"
     ],
     [
      "Sleepy",
@@ -5287,6 +5474,1130 @@
      "Bob Cousy",
      "Cousy",
      "Cooz"
+    ],
+    [
+     "The Captain",
+     "Captain Hook",
+     "Kareem Abdul-Jabbar"
+    ],
+    [
+     "The German Wunderkind",
+     "Tall Baller From The G",
+     "Dirty",
+     "The German Racecar",
+     "Bavarian Bomber",
+     "Dirk Diggler",
+     "The Berlin Tall",
+     "Dirk Savage",
+     "The Germinator",
+     "The Big German",
+     "Dirk Nowitzki"
+    ],
+    [
+     "J-Kidd",
+     "Jason Kidd"
+    ],
+    [
+     "The Anomaly",
+     "Jayson Tatum"
+    ],
+    [
+     "Game 6 Klay",
+     "Klay Thompson"
+    ],
+    [
+     "Jesus Shuttlesworth",
+     "Ray Ray",
+     "Sugar Ray",
+     "Ray Allen"
+    ],
+    [
+     "Luka Magic",
+     "The Don",
+     "Luka Dončić"
+    ],
+    [
+     "Hair Canada",
+     "Steve Nash"
+    ],
+    [
+     "KAT",
+     "The Big Meow",
+     "The Big Bodega",
+     "Karl-Anthony Towns"
+    ],
+    [
+     "The Magician",
+     "Gino",
+     "El Contusione",
+     "Manudona",
+     "Manu Ginóbili"
+    ],
+    [
+     "Rajon Rondo",
+     "Swag",
+     "Fedex"
+    ],
+    [
+     "The Black Hole",
+     "Kevin McHale"
+    ],
+    [
+     "The Knick Killer",
+     "Reggie Miller"
+    ],
+    [
+     "Fresh Prince",
+     "Ben 10",
+     "Ben Simmons"
+    ],
+    [
+     "Pitchin' Paul",
+     "Paul Arizin"
+    ],
+    [
+     "D-Fish",
+     "Derek Fisher"
+    ],
+    [
+     "Maple Jordan",
+     "Andrew Wiggins"
+    ],
+    [
+     "Deebo",
+     "DeMar DeRozan"
+    ],
+    [
+     "Spicy P",
+     "Pascal Siakam"
+    ],
+    [
+     "Bam Adebayo",
+     "Bam",
+     "The Onomatopoeia"
+    ],
+    [
+     "G-money",
+     "Grant Hill"
+    ],
+    [
+     "IT",
+     "Isaiah Thomas"
+    ],
+    [
+     "Captain Clutch",
+     "King of New York",
+     "Jalen Brunson"
+    ],
+    [
+     "The Haliban",
+     "Tyrese Haliburton"
+    ],
+    [
+     "I-block-a",
+     "Serge Protector",
+     "Air Congo",
+     "Serge Ibaka"
+    ],
+    [
+     "The Blue Arrow",
+     "Jamal Murray"
+    ],
+    [
+     "Swipa",
+     "De'Aaron Fox"
+    ],
+    [
+     "A Train",
+     "Artis Gilmore"
+    ],
+    [
+     "Sad Sam",
+     "The Shooter",
+     "Sam Jones"
+    ],
+    [
+     "G12",
+     "Ja Warrant",
+     "Ja Wick",
+     "Ja Dropper",
+     "Ja Morant"
+    ],
+    [
+     "Nate The Great",
+     "Nate Thurmond"
+    ],
+    [
+     "Ming Dynasty",
+     "Chairman Yao",
+     "Shaquie Chan",
+     "The Great Wall of China",
+     "Yao Ming"
+    ],
+    [
+     "The Black Falcon",
+     "Harrison Barnes"
+    ],
+    [
+     "CB4",
+     "The Boshtrich",
+     "Chris Bosh"
+    ],
+    [
+     "Baby Goat",
+     "Boy Wonder",
+     "Tyler Herro"
+    ],
+    [
+     "The Black Panther",
+     "Beyblade",
+     "Julius Randle"
+    ],
+    [
+     "The Rock",
+     "Mitch Richmond"
+    ],
+    [
+     "Sabas Jr.",
+     "Domas",
+     "Domantas Sabonis"
+    ],
+    [
+     "Spider",
+     "John Salley"
+    ],
+    [
+     "JR Swish",
+     "J. R. Smith"
+    ],
+    [
+     "Cardiac Kemba",
+     "Kemba Walker"
+    ],
+    [
+     "Silk",
+     "Jamaal Wilkes"
+    ],
+    [
+     "Big Panda",
+     "Bradley Beal"
+    ],
+    [
+     "Bells",
+     "Walt Bellamy"
+    ],
+    [
+     "The Dragon",
+     "Gold Dragon",
+     "Goran Dragic"
+    ],
+    [
+     "Big Penguin",
+     "Andre Drummond"
+    ],
+    [
+     "Buddy Love",
+     "Buddy Hield"
+    ],
+    [
+     "B.I.",
+     "Sleepy Reaper",
+     "Brandon Ingram"
+    ],
+    [
+     "Mid-Range Assassin",
+     "Shaun Livingston"
+    ],
+    [
+     "Splash Mountain",
+     "Brook Lopez"
+    ],
+    [
+     "The Enormous Mormon",
+     "Shawn Bradley"
+    ],
+    [
+     "J Crossover",
+     "Crawssover Crawford",
+     "L.A.'s Dance Instructor",
+     "Mr And-One",
+     "Jamal Crawford"
+    ],
+    [
+     "The Great Barrier Thief",
+     "Dyson Daniels"
+    ],
+    [
+     "Tea Time",
+     "Boris Diaw"
+    ],
+    [
+     "The Horse",
+     "Harry Gallatin"
+    ],
+    [
+     "U.D.",
+     "Udonis Haslem"
+    ],
+    [
+     "Stack",
+     "House",
+     "Jerry Stackhouse"
+    ],
+    [
+     "The Buffalo",
+     "D-White",
+     "Derrick White"
+    ],
+    [
+     "D-Will",
+     "Deron Williams"
+    ],
+    [
+     "Switchblade",
+     "Athreeza",
+     "Trevor Ariza"
+    ],
+    [
+     "Beli",
+     "Marco Belinelli"
+    ],
+    [
+     "Slimm Duck",
+     "Chris Boucher"
+    ],
+    [
+     "The Warden",
+     "Brooklyn Bridges",
+     "Mikal Bridges"
+    ],
+    [
+     "KCP",
+     "Kentavious Caldwell-Pope"
+    ],
+    [
+     "Delly",
+     "The Curry Stopper",
+     "Matthew Dellavedova"
+    ],
+    [
+     "Air Gordon",
+     "Aaron Gordon"
+    ],
+    [
+     "Rip Hamilton",
+     "Rip",
+     "Richard Hamilton"
+    ],
+    [
+     "The Konman",
+     "Kon Knueppel"
+    ],
+    [
+     "Jungle Jim",
+     "Jim Loscutoff"
+    ],
+    [
+     "Jah",
+     "Big J",
+     "Little Sully",
+     "Jahlil Okafor"
+    ],
+    [
+     "Memo",
+     "The Moneyman",
+     "Mehmet Okur"
+    ],
+    [
+     "J.O",
+     "Jermaine O'Neal"
+    ],
+    [
+     "Kandi Man",
+     "Michael Olowokandi"
+    ],
+    [
+     "J-Smoove",
+     "Josh Smith"
+    ],
+    [
+     "Vooch",
+     "Nikola Vučević"
+    ],
+    [
+     "J-Dub",
+     "Jalen Williams"
+    ],
+    [
+     "Satch Sanders",
+     "Satch",
+     "Tom Sanders"
+    ],
+    [
+     "Il Mago",
+     "Andrea Bargnani"
+    ],
+    [
+     "Fall Back Baby",
+     "Dick Barnett"
+    ],
+    [
+     "Bones",
+     "Brent Barry"
+    ],
+    [
+     "Bizzy Bo",
+     "Bismack Biyombo"
+    ],
+    [
+     "Dorture Chamber",
+     "Dortress",
+     "Luguentz Dort"
+    ],
+    [
+     "MKG",
+     "Michael Kidd-Gilchrist"
+    ],
+    [
+     "Mad Dog",
+     "Mark Madsen"
+    ],
+    [
+     "K-Mart",
+     "Kenyon Martin"
+    ],
+    [
+     "Tricky Dick",
+     "Dick McGuire"
+    ],
+    [
+     "Sid the Squid",
+     "Sir Sid",
+     "El Sid",
+     "Sidney Moncrief"
+    ],
+    [
+     "The French Prince",
+     "Frank Ntilikina"
+    ],
+    [
+     "Plumdog Millionaire",
+     "Mason Plumlee"
+    ],
+    [
+     "Doc Rivers",
+     "Doc",
+     "Glenn Rivers"
+    ],
+    [
+     "DLo",
+     "D'Angelo Russell"
+    ],
+    [
+     "Sauce Castillo",
+     "Nik Stauskas"
+    ],
+    [
+     "JV",
+     "Lithuanian Lightning",
+     "Jonas Valančiūnas"
+    ],
+    [
+     "OG Anunoby",
+     "OG",
+     "Ogugua Anunoby"
+    ],
+    [
+     "RJ Barrett",
+     "RJ",
+     "Rowan Alexander Barrett Jr."
+    ],
+    [
+     "The Bledshow",
+     "Eric Bledsoe"
+    ],
+    [
+     "The Custodian",
+     "Brian Cardinal"
+    ],
+    [
+     "The Bald Mamba",
+     "Carushow",
+     "Alex Caruso"
+    ],
+    [
+     "Sweetwater Clifton",
+     "Sweetwater",
+     "Nathaniel Clifton"
+    ],
+    [
+     "Bite Bite",
+     "Mike Conley",
+     "Mike Conley Jr."
+    ],
+    [
+     "The Greyhound",
+     "The Candyman",
+     "Sweet D",
+     "The Man with the Velvet Touch",
+     "Walter Davis"
+    ],
+    [
+     "Quick Wash",
+     "Markelle Fultz"
+    ],
+    [
+     "Il Gallo",
+     "The Rooster",
+     "Danilo Gallinari"
+    ],
+    [
+     "Hartenstein's Monster",
+     "Isaiah Hartenstein"
+    ],
+    [
+     "The Hawk",
+     "Connie Hawkins"
+    ],
+    [
+     "Super Mario",
+     "Mario Hezonja"
+    ],
+    [
+     "Turkish Thunder",
+     "Ghostface Ilya",
+     "Ersan İlyasova"
+    ],
+    [
+     "Iso Joe",
+     "Joe Johnson"
+    ],
+    [
+     "Furk the Turk",
+     "Furkan Korkmaz"
+    ],
+    [
+     "The Kum Bucket",
+     "Jonathan Kuminga"
+    ],
+    [
+     "Dice",
+     "Antonio McDyess"
+    ],
+    [
+     "Moose",
+     "Greg Monroe"
+    ],
+    [
+     "Mook",
+     "Marcus Morris"
+    ],
+    [
+     "The Giant",
+     "Gheorghe Mureșan"
+    ],
+    [
+     "Big Paper Daddy",
+     "Ricky Pierce"
+    ],
+    [
+     "Little Drummer Boy",
+     "Kevin Porter"
+    ],
+    [
+     "The Natural",
+     "Brandon Roy"
+    ],
+    [
+     "Ice Cream Man",
+     "Luis Scola"
+    ],
+    [
+     "Shump",
+     "Iman Shumpert"
+    ],
+    [
+     "Mo' Buckets",
+     "Marreese Speights"
+    ],
+    [
+     "Big Mo",
+     "Maurice Stokes"
+    ],
+    [
+     "Wild Thing",
+     "Anderson Varejão"
+    ],
+    [
+     "Big Nasty",
+     "Corliss Williamson"
+    ],
+    [
+     "The Dancing Bear",
+     "Guerschon Yabusele"
+    ],
+    [
+     "Swaggy P",
+     "Uncle P",
+     "Bean Burrito",
+     "Nick Young"
+    ],
+    [
+     "Slats",
+     "Max Zaslofsky"
+    ],
+    [
+     "Mookie Blaylock",
+     "Mookie",
+     "Daron Blaylock"
+    ],
+    [
+     "Skip To My Lou",
+     "Rafer Alston"
+    ],
+    [
+     "Grand Theft Alvarado",
+     "Jose Alvarado"
+    ],
+    [
+     "Birdman",
+     "Chris Andersen"
+    ],
+    [
+     "B-Easy",
+     "Big Mike",
+     "Super Cool Beas",
+     "Michael Beasley"
+    ],
+    [
+     "Dollar Bill",
+     "The Secretary of State",
+     "Mr. President",
+     "Bill Bradley"
+    ],
+    [
+     "Downtown Freddie",
+     "Fred Brown"
+    ],
+    [
+     "Joe Barely Cares",
+     "Joe Barry Carroll"
+    ],
+    [
+     "Bobby D",
+     "Bob Dandridge"
+    ],
+    [
+     "Never Nervous Pervis",
+     "Pervis Ellison"
+    ],
+    [
+     "Boobie",
+     "Daniel Gibson"
+    ],
+    [
+     "The Polish Hammer",
+     "Marcin Gortat"
+    ],
+    [
+     "Uncle Jeff",
+     "Jeff Green"
+    ],
+    [
+     "The Minister of Defense",
+     "Jonathan Isaac"
+    ],
+    [
+     "Strokin’ Joe",
+     "Zai",
+     "Isaiah Joe"
+    ],
+    [
+     "The Alaskan Assassin",
+     "Trajan Langdon"
+    ],
+    [
+     "Meyers Legend",
+     "Meyers Leonard"
+    ],
+    [
+     "Deuce",
+     "Miles McBride"
+    ],
+    [
+     "Jonny Mac",
+     "Jon McGlocklin"
+    ],
+    [
+     "Money Merrill",
+     "Sammy Buckets",
+     "Sam Merrill"
+    ],
+    [
+     "The Bosnian Beast",
+     "Jusuf Nurkić"
+    ],
+    [
+     "Wave Papi",
+     "Kelly Oubre Jr."
+    ],
+    [
+     "The Whopper",
+     "Billy Paultz"
+    ],
+    [
+     "Ukraine Train",
+     "Vitaly Potapenko"
+    ],
+    [
+     "Z-Bo",
+     "Zach Randolph"
+    ],
+    [
+     "Hillbilly Kobe",
+     "AR-15",
+     "Austin Reaves"
+    ],
+    [
+     "El Chacho",
+     "Sergio Rodríguez"
+    ],
+    [
+     "Tree Rollins",
+     "Tree",
+     "Wayne Rollins"
+    ],
+    [
+     "3D",
+     "Dennis Scott"
+    ],
+    [
+     "Kill Bill",
+     "V-Span",
+     "Vassilis Spanoulis"
+    ],
+    [
+     "The Rave",
+     "Dave Stallworth"
+    ],
+    [
+     "Beef Stew",
+     "Isaiah Stewart"
+    ],
+    [
+     "Tractor Traylor",
+     "Robert Traylor"
+    ],
+    [
+     "Golden Arches",
+     "Melvin Turpin"
+    ],
+    [
+     "Zel",
+     "Denzel Valentine"
+    ],
+    [
+     "The Original Sun",
+     "Dick Van Arsdale"
+    ],
+    [
+     "Wiggs",
+     "The Man Who Saved Basketball",
+     "Aaron Wiggins"
+    ],
+    [
+     "Jay Will",
+     "Boom",
+     "Jaylin Williams"
+    ],
+    [
+     "Obi Toppin",
+     "Obi",
+     "Obadiah Richard Toppin Jr."
+    ],
+    [
+     "The Brockness Monster",
+     "Jon Brockman"
+    ],
+    [
+     "Pogo",
+     "Jumping Joe",
+     "Joe Caldwell"
+    ],
+    [
+     "Ricky Buckets",
+     "Get Buckets",
+     "Ricky Davis"
+    ],
+    [
+     "Jimmer Fredette",
+     "Jimmer",
+     "The Lonely Master",
+     "Jimo Dashen",
+     "The Lonely God",
+     "James Taft Fredette"
+    ],
+    [
+     "The Hammer",
+     "Armen Gilliam"
+    ],
+    [
+     "Ack Ack",
+     "Tommy Heinsohn"
+    ],
+    [
+     "Dr. Dunk",
+     "Darnell Hillman"
+    ],
+    [
+     "Dutch",
+     "Charlie Hoefer"
+    ],
+    [
+     "The Mayor",
+     "Fred Hoiberg"
+    ],
+    [
+     "Red Velvet",
+     "Kevin Huerter"
+    ],
+    [
+     "Honeycomb",
+     "Gus Johnson"
+    ],
+    [
+     "Fat Lever",
+     "Fat",
+     "Lafayette Lever"
+    ],
+    [
+     "RoLo",
+     "Robin Lopez"
+    ],
+    [
+     "Butterbean",
+     "Bob Love"
+    ],
+    [
+     "The X-Man",
+     "Xavier McDaniel"
+    ],
+    [
+     "Baby Jordan",
+     "Harold Miner"
+    ],
+    [
+     "Uncle E",
+     "E'Twaun Moore"
+    ],
+    [
+     "Mighty Mouse",
+     "Jameer Nelson"
+    ],
+    [
+     "The Minivan",
+     "G Wagon",
+     "Georges Niang"
+    ],
+    [
+     "Piculin",
+     "Jose Ortiz",
+     "José Ortiz"
+    ],
+    [
+     "The Kobe Stopper",
+     "Ruben Patterson"
+    ],
+    [
+     "The Rifleman",
+     "Chuck Person"
+    ],
+    [
+     "Vanilla Gorilla",
+     "Joel Przybilla"
+    ],
+    [
+     "BBall Paul",
+     "Paul Reed"
+    ],
+    [
+     "Scary Terry",
+     "Terry Rozier"
+    ],
+    [
+     "Mão Santa",
+     "Holy Hand",
+     "Oscar Schmidt"
+    ],
+    [
+     "Baby Shaq",
+     "Big Sofo",
+     "Sofoklis Schortsanitis"
+    ],
+    [
+     "Captain Late",
+     "The Late Mr. Silas",
+     "James Silas"
+    ],
+    [
+     "Rhino",
+     "Craig Smith"
+    ],
+    [
+     "Mr. Mean",
+     "Larry Smith"
+    ],
+    [
+     "Born Ready",
+     "Lance Stephenson"
+    ],
+    [
+     "Peja",
+     "Predrag Stojakovic"
+    ],
+    [
+     "Michael Jordan Of Japan",
+     "Yuta Tabuse"
+    ],
+    [
+     "Mid Life",
+     "Dirty Kurt",
+     "Big Sexy",
+     "Kurt Thomas"
+    ],
+    [
+     "The Thief",
+     "Sedale Threatt"
+    ],
+    [
+     "The Boston Strangler",
+     "Andrew Toney"
+    ],
+    [
+     "Junkyard Dog",
+     "Jerome Williams"
+    ],
+    [
+     "Hot Plate",
+     "John Sam Williams"
+    ],
+    [
+     "Kenny Hustle",
+     "Kenrich Williams"
+    ],
+    [
+     "Time Lord",
+     "Robert Williams",
+     "Robert Williams III"
+    ],
+    [
+     "Sim Bhullar",
+     "Sim",
+     "Gursimrana Singh Bhullar"
+    ],
+    [
+     "Kay Felder",
+     "Kay",
+     "Kahlil Ameer Felder Jr."
+    ],
+    [
+     "Happy Hairston",
+     "Happy",
+     "Harold Hairston"
+    ],
+    [
+     "Trey Jemison",
+     "Trey",
+     "Richard Lee Jemison III"
+    ],
+    [
+     "Shake Milton",
+     "Shake",
+     "Malik Milton"
+    ],
+    [
+     "Bingo Smith",
+     "Bingo",
+     "Bobby Smith"
+    ],
+    [
+     "Edy Tavares",
+     "Edy",
+     "Walter Samuel Tavares da Veiga"
+    ],
+    [
+     "Cadillac",
+     "Greg Anderson",
+     "Cadillac Anderson"
+    ],
+    [
+     "Plastic Man",
+     "Stacey Augmon"
+    ],
+    [
+     "The Manimal",
+     "Ken Bannister"
+    ],
+    [
+     "Hound",
+     "Jerry Baskerville"
+    ],
+    [
+     "Butch Beard",
+     "Butch",
+     "Alfred Beard"
+    ],
+    [
+     "Jellybean",
+     "Joe Bryant"
+    ],
+    [
+     "Big Dawg",
+     "Antoine Carr"
+    ],
+    [
+     "Band-Aid",
+     "Derrick Chievous"
+    ],
+    [
+     "Speedy Claxton",
+     "Speedy",
+     "Craig Claxton"
+    ],
+    [
+     "Bimbo Coles",
+     "Bimbo",
+     "Vernal Coles"
+    ],
+    [
+     "Chubby Cox",
+     "Chubby",
+     "John Arthur Cox III"
+    ],
+    [
+     "Killer",
+     "Mel Davis"
+    ],
+    [
+     "The Mechanic",
+     "Dewayne Dedmon"
+    ],
+    [
+     "Blue Edwards",
+     "Blue",
+     "Theodore Edwards"
+    ],
+    [
+     "Machine Gun",
+     "Travis Grant"
+    ],
+    [
+     "Googs",
+     "Tom Gugliotta"
+    ],
+    [
+     "Swede Halbrook",
+     "Swede",
+     "Harvey Wade Halbrook"
+    ],
+    [
+     "The Terminator",
+     "Tom Hammonds"
+    ],
+    [
+     "Juancho",
+     "Bo Cruz",
+     "Cruz Missile",
+     "Juan Hernangómez"
+    ],
+    [
+     "Mister",
+     "Keith Jennings"
+    ],
+    [
+     "The World's Greatest Shooter",
+     "Damon Jones"
+    ],
+    [
+     "Popeye Jones",
+     "Popeye",
+     "Ronald Jones"
+    ],
+    [
+     "The Owl without a Vowel",
+     "Bill Mlkvy"
+    ],
+    [
+     "Buckshot",
+     "Ralph O'Brien"
+    ],
+    [
+     "Scrub",
+     "Smush Parker"
+    ],
+    [
+     "Socks",
+     "Elliot Perry"
+    ],
+    [
+     "Big Country",
+     "Bryant Reeves"
+    ],
+    [
+     "Rags",
+     "Mike Riordan"
+    ],
+    [
+     "Truck Robinson",
+     "Truck",
+     "Len Robinson"
+    ],
+    [
+     "Juice",
+     "Jonathon Simmons"
+    ],
+    [
+     "Lickface",
+     "Henry Sims"
+    ],
+    [
+     "PJ Tucker",
+     "PJ",
+     "Anthony Leon Tucker"
+    ],
+    [
+     "Sasha Vujacic",
+     "Sasha",
+     "Aleksandar Vujacic",
+     "The Machine"
+    ],
+    [
+     "Pip",
+     "Scottie Pippen",
+     "Pippen",
+     "No Tippin' Pippen"
+    ],
+    [
+     "Dray",
+     "Draymond Green",
+     "Draymond"
+    ],
+    [
+     "Hot Rod",
+     "Hot Rod Williams"
+    ],
+    [
+     "The Human Eraser",
+     "Marvin Webster"
+    ],
+    [
+     "Uncle Cliffy",
+     "Cliff Robinson",
+     "Clifford Robinson"
+    ],
+    [
+     "Manute Bol",
+     "Manute"
     ]
    ]
   }
