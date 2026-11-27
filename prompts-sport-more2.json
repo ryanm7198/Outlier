@@ -236,8 +236,7 @@
     [
      "Carlos Sainz Jr.",
      "Carlos Sainz",
-     "Sainz",
-     "Jr."
+     "Sainz"
     ],
     [
      "Kimi Antonelli",
@@ -413,6 +412,10 @@
      "Pat O'Connor",
      "Pat OConnor",
      "O'Connor"
+    ],
+    [
+     "Lance Stroll",
+     "Stroll"
     ]
    ],
    "deep": true
@@ -442,7 +445,10 @@
      "Scotland"
     ],
     "France",
-    "Germany",
+    [
+     "Germany",
+     "West Germany"
+    ],
     "Switzerland",
     "Sweden",
     "Serbia",
@@ -937,6 +943,12 @@
     [
      "Willoughby Hamilton",
      "Hamilton"
+    ],
+    [
+     "Josiah Ritchie",
+     "Major Ritchie",
+     "Ritchie",
+     "M. J. G. Ritchie"
     ]
    ],
    "deep": true
@@ -1045,8 +1057,7 @@
     ],
     [
      "Davis Love III",
-     "Davis Love",
-     "III"
+     "Davis Love"
     ],
     [
      "Keegan Bradley",
@@ -1214,8 +1225,7 @@
    "answers": [
     [
      "Pebble Beach",
-     "Pebble Beach Golf Links",
-     "Beach"
+     "Pebble Beach Golf Links"
     ],
     [
      "Oakmont",
@@ -1234,22 +1244,12 @@
     [
      "Bethpage Black",
      "Bethpage",
-     "Bethpage State Park",
-     "Black"
+     "Bethpage State Park"
     ],
-    [
-     "Winged Foot",
-     "Foot"
-    ],
-    [
-     "Torrey Pines",
-     "Pines"
-    ],
+    "Winged Foot",
+    "Torrey Pines",
     "Southern Hills",
-    [
-     "Olympia Fields",
-     "Fields"
-    ],
+    "Olympia Fields",
     [
      "Congressional",
      "Congressional Country Club"
@@ -1262,10 +1262,7 @@
      "Merion",
      "Merion Golf Club"
     ],
-    [
-     "Chambers Bay",
-     "Bay"
-    ],
+    "Chambers Bay",
     "Erin Hills",
     [
      "Los Angeles Country Club",

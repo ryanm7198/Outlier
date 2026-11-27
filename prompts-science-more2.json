@@ -859,8 +859,14 @@
      "bubonic plague",
      "black death"
     ],
-    "Anthrax",
-    "Lyme disease",
+    [
+     "Anthrax",
+     "Woolsorters' disease"
+    ],
+    [
+     "Lyme disease",
+     "Lyme borreliosis"
+    ],
     [
      "Salmonella",
      "salmonellosis"
@@ -874,7 +880,8 @@
      "Legionnaires' disease",
      "legionnaires disease",
      "legionnaires",
-     "legionella"
+     "legionella",
+     "Legionellosis"
     ],
     "Food poisoning",
     [
@@ -893,7 +900,8 @@
     ],
     [
      "C. diff infection",
-     "c diff"
+     "c diff",
+     "Clostridium difficile infection"
     ],
     "Q fever",
     [
@@ -903,7 +911,10 @@
     "Rheumatic fever",
     "Gas gangrene",
     "Gangrene",
-    "Scarlet fever",
+    [
+     "Scarlet fever",
+     "Scarlatina"
+    ],
     [
      "Strep throat",
      "streptococcal sore throat"
@@ -934,7 +945,11 @@
      "gingivitis"
     ],
     "Trachoma",
-    "Brucellosis",
+    [
+     "Brucellosis",
+     "Undulant fever",
+     "Malta fever"
+    ],
     [
      "Tularaemia",
      "tularemia",
@@ -947,7 +962,8 @@
     [
      "Bacillary dysentery",
      "dysentery",
-     "shigellosis"
+     "shigellosis",
+     "Bacterial dysentery"
     ],
     [
      "Tooth decay",
@@ -965,7 +981,10 @@
      "necrotizing fasciitis",
      "flesh-eating disease"
     ],
-    "Toxic shock syndrome",
+    [
+     "Toxic shock syndrome",
+     "Toxic shock"
+    ],
     "Yaws",
     "Pneumonic plague",
     "Septicaemic plague",
@@ -990,8 +1009,10 @@
     "Nocardiosis",
     "Actinomycosis",
     "Whipple's disease",
-    "Psittacosis",
-    "Ornithosis",
+    [
+     "Psittacosis",
+     "Ornithosis"
+    ],
     "Rocky Mountain spotted fever",
     "Scrub typhus",
     "Trench fever",
@@ -1003,51 +1024,124 @@
     "Donovanosis",
     "Chancroid",
     "Lymphogranuloma venereum",
-    "Mycoplasma pneumonia",
-    "Walking pneumonia",
+    [
+     "Mycoplasma pneumonia",
+     "Walking pneumonia"
+    ],
     "Ehrlichiosis",
     "Anaplasmosis",
     "Buruli ulcer",
     "Mycobacterium avium complex",
-    "Clostridium difficile infection",
     "Hospital-acquired infection",
     "Neonatal sepsis",
     "Group B strep infection",
-    "Puerperal fever",
-    "Childbed fever",
-    "Scarlatina",
+    [
+     "Puerperal fever",
+     "Childbed fever"
+    ],
     "Strep A infection",
     "Invasive group A strep",
     "Staph infection",
     "Stye",
-    "Lyme borreliosis",
-    "Bacterial dysentery",
     "Traveller's diarrhoea",
-    "Scrofula",
-    "King's evil",
+    [
+     "Scrofula",
+     "King's evil"
+    ],
     "Pott's disease",
     "Tabes dorsalis",
     "Neurosyphilis",
     "Gonococcal arthritis",
     "Mastitis",
-    "Kidney infection",
-    "Pyelonephritis",
+    [
+     "Kidney infection",
+     "Pyelonephritis"
+    ],
     "Prostatitis",
-    "Wound infection",
-    "Infected wound",
+    [
+     "Wound infection",
+     "Infected wound"
+    ],
     "Infant botulism",
     "Wound botulism",
-    "Legionellosis",
     "Pontiac fever",
-    "Woolsorters' disease",
-    "Undulant fever",
-    "Malta fever",
     "Epidemic typhus",
     "Murine typhus",
     "Bacterial gastroenteritis",
     "E. coli O157",
     "Haemolytic uraemic syndrome",
-    "Toxic shock"
+    [
+     "Pneumococcal disease",
+     "pneumococcal infection"
+    ],
+    [
+     "Meningococcal disease",
+     "meningococcal septicaemia",
+     "meningococcal meningitis"
+    ],
+    [
+     "Hib disease",
+     "haemophilus influenzae type b"
+    ],
+    "Mycoplasma genitalium",
+    "Bacterial conjunctivitis",
+    [
+     "Dental abscess",
+     "tooth abscess"
+    ],
+    [
+     "H. pylori infection",
+     "helicobacter pylori"
+    ],
+    [
+     "Miliary tuberculosis",
+     "miliary tb"
+    ],
+    [
+     "Bovine tuberculosis",
+     "bovine tb"
+    ],
+    "Erysipeloid",
+    "Lemierre's syndrome",
+    "Impetigo contagiosa",
+    [
+     "Carbuncle",
+     "carbuncles"
+    ],
+    [
+     "Staphylococcal scalded skin syndrome",
+     "scalded skin syndrome"
+    ],
+    [
+     "Mediterranean spotted fever",
+     "boutonneuse fever"
+    ],
+    "African tick bite fever",
+    "Rickettsialpox",
+    [
+     "Trench mouth",
+     "acute necrotising gingivitis"
+    ],
+    "Ophthalmia neonatorum",
+    "Pseudomonas infection",
+    "Klebsiella pneumonia",
+    "Rhinoscleroma",
+    [
+     "Infective endocarditis",
+     "bacterial endocarditis"
+    ],
+    "Strangles",
+    "American foulbrood",
+    "European foulbrood",
+    "Fire blight",
+    "Johne's disease",
+    "Crown gall",
+    "Swine erysipelas",
+    [
+     "Citrus greening",
+     "huanglongbing"
+    ],
+    "Bacterial wilt"
    ]
   },
   {
@@ -1062,7 +1156,8 @@
      "covid",
      "covid 19",
      "coronavirus",
-     "covid19"
+     "covid19",
+     "SARS-CoV-2"
     ],
     [
      "Influenza",
@@ -1085,7 +1180,10 @@
      "hiv/aids",
      "hiv aids"
     ],
-    "Measles",
+    [
+     "Measles",
+     "Rubeola"
+    ],
     "Mumps",
     [
      "Shingles",
@@ -1099,31 +1197,51 @@
      "Rubella",
      "german measles"
     ],
-    "Ebola",
+    [
+     "Ebola",
+     "Ebola haemorrhagic fever"
+    ],
     "Rabies",
     [
      "Hepatitis",
-     "hepatitis a",
-     "hepatitis b",
-     "hepatitis c"
+     "viral hepatitis"
     ],
-    "Smallpox",
+    [
+     "Smallpox",
+     "Variola"
+    ],
     "Yellow fever",
     [
      "Dengue",
-     "dengue fever"
+     "dengue fever",
+     "Breakbone fever"
     ],
-    "Verrucas",
+    [
+     "Verrucas",
+     "verruca",
+     "plantar wart"
+    ],
     [
      "Bird flu",
-     "avian flu"
+     "avian flu",
+     "H5N1"
     ],
     "Swine flu",
-    "Spanish flu",
+    [
+     "Spanish flu",
+     "Spanish influenza"
+    ],
     "Stomach bug",
     "Viral meningitis",
-    "Roseola",
-    "Gastroenteritis",
+    [
+     "Roseola",
+     "Exanthem subitum",
+     "Sixth disease"
+    ],
+    [
+     "Gastroenteritis",
+     "Viral gastroenteritis"
+    ],
     [
      "Zika",
      "zika virus"
@@ -1142,16 +1260,11 @@
     ],
     [
      "HPV",
-     "human papillomavirus",
-     "genital warts",
-     "warts",
-     "verruca"
+     "human papillomavirus"
     ],
     [
      "Herpes",
-     "cold sore",
-     "cold sores",
-     "genital herpes"
+     "herpes simplex"
     ],
     [
      "RSV",
@@ -1163,10 +1276,14 @@
      "Mpox",
      "monkeypox"
     ],
-    "Lassa fever",
+    [
+     "Lassa fever",
+     "Lassa"
+    ],
     [
      "Marburg",
-     "marburg virus"
+     "marburg virus",
+     "Marburg haemorrhagic fever"
     ],
     [
      "Hand, foot and mouth disease",
@@ -1183,9 +1300,14 @@
     [
      "Fifth disease",
      "slapped cheek",
-     "slapped cheek syndrome"
+     "slapped cheek syndrome",
+     "Erythema infectiosum",
+     "Parvovirus B19"
     ],
-    "Molluscum contagiosum",
+    [
+     "Molluscum contagiosum",
+     "Mollusca"
+    ],
     [
      "Cytomegalovirus",
      "cmv"
@@ -1194,24 +1316,27 @@
     "Tick-borne encephalitis",
     "Hepatitis D",
     "Hepatitis E",
-    "Herpes simplex",
     "Epstein-Barr virus",
     "Viral pneumonia",
     "Viral conjunctivitis",
-    "Viral gastroenteritis",
-    "Viral encephalitis",
-    "Encephalitis",
-    "Viral hepatitis",
+    [
+     "Encephalitis",
+     "Viral encephalitis"
+    ],
     "Crimean-Congo haemorrhagic fever",
     "Rift Valley fever",
     "Hantavirus pulmonary syndrome",
     "Nipah virus",
     "Hendra virus",
     "Lujo",
-    "Machupo",
-    "Bolivian haemorrhagic fever",
-    "Argentine haemorrhagic fever",
-    "Junin",
+    [
+     "Machupo",
+     "Bolivian haemorrhagic fever"
+    ],
+    [
+     "Junin",
+     "Argentine haemorrhagic fever"
+    ],
     "Kyasanur Forest disease",
     "Omsk haemorrhagic fever",
     "Sandfly fever",
@@ -1233,11 +1358,9 @@
     "Progressive multifocal leukoencephalopathy",
     "Subacute sclerosing panencephalitis",
     "Tropical spastic paraparesis",
-    "Viral wart",
     "Orf",
     "Cowpox",
     "Vaccinia",
-    "Variola",
     "Alastrim",
     "Herpangina",
     "Coxsackie",
@@ -1248,32 +1371,95 @@
     "Parainfluenza",
     "Human metapneumovirus",
     "Bocavirus",
-    "Parvovirus B19",
-    "Erythema infectiosum",
-    "Sixth disease",
-    "Exanthem subitum",
     "Congenital rubella",
     "Congenital CMV",
     "Viral haemorrhagic fever",
     "Dengue haemorrhagic fever",
-    "Breakbone fever",
     "Long COVID",
     "Post-polio syndrome",
-    "Rubeola",
-    "Common wart",
-    "Plantar wart",
-    "Mollusca",
     "Hairy leukoplakia",
-    "Ebola haemorrhagic fever",
-    "Marburg haemorrhagic fever",
-    "Lassa",
-    "SARS-CoV-2",
-    "H5N1",
     "H1N1",
-    "Spanish influenza",
     "Asian flu",
     "Hong Kong flu",
-    "Russian flu"
+    "Russian flu",
+    [
+     "Hepatitis A",
+     "hep a"
+    ],
+    [
+     "Hepatitis B",
+     "hep b"
+    ],
+    [
+     "Hepatitis C",
+     "hep c"
+    ],
+    [
+     "Warts",
+     "wart",
+     "viral wart",
+     "common wart"
+    ],
+    "Genital warts",
+    [
+     "Cold sores",
+     "cold sore"
+    ],
+    "Genital herpes",
+    [
+     "Foot-and-mouth disease",
+     "foot and mouth"
+    ],
+    "Bluetongue",
+    [
+     "Myxomatosis",
+     "myxi"
+    ],
+    [
+     "Canine distemper",
+     "distemper"
+    ],
+    [
+     "Canine parvovirus",
+     "parvo"
+    ],
+    [
+     "Rinderpest",
+     "cattle plague"
+    ],
+    "Newcastle disease",
+    "African swine fever",
+    [
+     "Classical swine fever",
+     "hog cholera"
+    ],
+    [
+     "Rabbit haemorrhagic disease",
+     "RHD",
+     "rabbit calicivirus"
+    ],
+    [
+     "Equine influenza",
+     "equine flu"
+    ],
+    [
+     "Feline immunodeficiency virus",
+     "FIV"
+    ],
+    [
+     "Feline leukaemia",
+     "FeLV",
+     "feline leukemia"
+    ],
+    [
+     "Tobacco mosaic",
+     "tobacco mosaic virus"
+    ],
+    [
+     "Schmallenberg virus",
+     "schmallenberg"
+    ],
+    "Kennel cough"
    ]
   },
   {
@@ -1293,7 +1479,10 @@
      "Phosphorus",
      "phosphate"
     ],
-    "Iodine",
+    [
+     "Iodine",
+     "Iodide"
+    ],
     "Selenium",
     "Copper",
     "Manganese",
@@ -1318,8 +1507,7 @@
     "Nickel",
     "Vanadium",
     "Lithium",
-    "Bromine",
-    "Iodide"
+    "Bromine"
    ]
   },
   {
@@ -1332,7 +1520,10 @@
     "Algebra",
     "Geometry",
     "Calculus",
-    "Trigonometry",
+    [
+     "Trigonometry",
+     "trig"
+    ],
     [
      "Statistics",
      "stats"
@@ -1350,8 +1541,7 @@
     "Graph theory",
     [
      "Analysis",
-     "mathematical analysis",
-     "real analysis"
+     "mathematical analysis"
     ],
     "Group theory",
     "Linear algebra",
@@ -1413,7 +1603,11 @@
     "Field theory",
     "Galois theory",
     "Representation theory",
-    "Lie theory",
+    [
+     "Lie theory",
+     "lie groups",
+     "lie algebras"
+    ],
     "Homological algebra",
     "Commutative algebra",
     "Boolean algebra",
@@ -1438,7 +1632,11 @@
     "Biostatistics",
     "Econometrics",
     "Actuarial science",
-    "Financial mathematics",
+    [
+     "Financial mathematics",
+     "mathematical finance",
+     "financial maths"
+    ],
     "Stochastic calculus",
     "Stochastic processes",
     "Queueing theory",
@@ -1479,7 +1677,113 @@
     "Vectors",
     "Matrices",
     "Sequences and series",
-    "Numeracy"
+    "Numeracy",
+    "Real analysis",
+    [
+     "Decision mathematics",
+     "decision maths",
+     "D1"
+    ],
+    "Spherical trigonometry",
+    "Non-standard analysis",
+    "Convex geometry",
+    "Discrete geometry",
+    "Computational geometry",
+    "Integral geometry",
+    "Riemannian geometry",
+    "Symplectic geometry",
+    "Complex geometry",
+    "Finite geometry",
+    "Incidence geometry",
+    "Absolute geometry",
+    "Synthetic geometry",
+    "Enumerative geometry",
+    "Descriptive geometry",
+    "Diophantine geometry",
+    "Algebraic combinatorics",
+    "Enumerative combinatorics",
+    "Extremal combinatorics",
+    "Probabilistic combinatorics",
+    "Additive combinatorics",
+    "Design theory",
+    "Matroid theory",
+    [
+     "Combinatorial optimisation",
+     "combinatorial optimization"
+    ],
+    [
+     "Convex optimisation",
+     "convex optimization"
+    ],
+    "Nonlinear programming",
+    "Integer programming",
+    "Mathematical economics",
+    "Random matrix theory",
+    "Percolation theory",
+    "Several complex variables",
+    "Global analysis",
+    "Microlocal analysis",
+    "Stochastic analysis",
+    "Numerical linear algebra",
+    "Scientific computing",
+    [
+     "Mathematical modelling",
+     "mathematical modeling"
+    ],
+    "Systems theory",
+    "Network theory",
+    [
+     "Fuzzy mathematics",
+     "fuzzy logic"
+    ],
+    "Modal logic",
+    "Intuitionistic logic",
+    "Predicate logic",
+    "Propositional logic",
+    "Descriptive set theory",
+    "Geometric topology",
+    "Low-dimensional topology",
+    [
+     "Modular arithmetic",
+     "clock arithmetic"
+    ],
+    "Elementary number theory",
+    "Computational number theory",
+    "Probabilistic number theory",
+    "Additive number theory",
+    "Geometry of numbers",
+    "Transcendental number theory",
+    "Multilinear algebra",
+    [
+     "Geometric algebra",
+     "clifford algebra"
+    ],
+    "Vector algebra",
+    "Operator algebras",
+    "Invariant theory",
+    "Module theory",
+    "Semigroup theory",
+    "Algebraic statistics",
+    "Spatial statistics",
+    "Time series analysis",
+    "Multivariate statistics",
+    "Nonparametric statistics",
+    "Survival analysis",
+    "Celestial mechanics",
+    "Automata theory",
+    [
+     "Computational complexity theory",
+     "complexity theory"
+    ],
+    "Formal language theory",
+    "Lambda calculus",
+    "Mathematical chemistry",
+    "Mathematical psychology",
+    "Mathematical linguistics",
+    "Topological graph theory",
+    "Spectral graph theory",
+    "Algebraic graph theory",
+    "Probability theory"
    ]
   },
   {
@@ -1722,7 +2026,78 @@
     "Reciprocal",
     "Multiple",
     "Factor",
-    "Prime factor"
+    "Prime factor",
+    "Octal",
+    "Duodecimal",
+    [
+     "Floating-point number",
+     "floating point"
+    ],
+    [
+     "Standard form",
+     "scientific notation"
+    ],
+    "Algebraic integer",
+    "Hypercomplex number",
+    "Sedenion",
+    "Transfinite number",
+    "Vampire number",
+    "Keith number",
+    "Self number",
+    "Frugal number",
+    "Extravagant number",
+    "Equidigital number",
+    "Sphenic number",
+    "Smooth number",
+    "Rough number",
+    [
+     "Semiperfect number",
+     "pseudoperfect number"
+    ],
+    [
+     "Harmonic divisor number",
+     "Ore number"
+    ],
+    "Superabundant number",
+    "Colossally abundant number",
+    "Highly abundant number",
+    "Refactorable number",
+    "Square triangular number",
+    "Centred hexagonal number",
+    "Centred triangular number",
+    "Octahedral number",
+    "Square pyramidal number",
+    "Heptagonal number",
+    "Octagonal number",
+    "Decagonal number",
+    "Lychrel number",
+    "Strobogrammatic number",
+    "Pandigital number",
+    "Munchausen number",
+    "Fortunate number",
+    "Proth number",
+    "Woodall number",
+    "Cullen number",
+    "Leyland number",
+    "Thabit number",
+    "Sierpinski number",
+    "Riesel number",
+    "Wolstenholme prime",
+    "Strong prime",
+    "Isolated prime",
+    "Prime triplet",
+    "Pythagorean prime",
+    "Pythagorean triple",
+    "Perfect totient number",
+    "Singly even number",
+    "Doubly even number",
+    "Evil number",
+    "Odious number",
+    [
+     "Regular number",
+     "Hamming number",
+     "5-smooth number"
+    ]
    ]
   },
   {
@@ -1751,9 +2126,7 @@
     ],
     [
      "Quartile",
-     "quartiles",
-     "lower quartile",
-     "upper quartile"
+     "quartiles"
     ],
     "Geometric mean",
     "Harmonic mean",
@@ -1780,9 +2153,14 @@
     ],
     [
      "Mean absolute deviation",
-     "mad"
+     "mad",
+     "average absolute deviation"
     ],
-    "Standard error",
+    [
+     "Standard error",
+     "standard error of the mean",
+     "SEM"
+    ],
     "Decile",
     [
      "Moving average",
@@ -1842,7 +2220,58 @@
     "Sample mean",
     "Exponential moving average",
     "Index number",
-    "Mean deviation"
+    "Mean deviation",
+    [
+     "Lower quartile",
+     "Q1",
+     "first quartile"
+    ],
+    [
+     "Upper quartile",
+     "Q3",
+     "third quartile"
+    ],
+    [
+     "Mean squared error",
+     "MSE"
+    ],
+    [
+     "Root mean square error",
+     "RMSE"
+    ],
+    "Sum of squares",
+    "Gini coefficient",
+    "Index of dispersion",
+    "Quintile",
+    "Tercile",
+    "Logarithmic mean",
+    [
+     "Power mean",
+     "generalised mean",
+     "generalized mean"
+    ],
+    "Grand mean",
+    "Sample variance",
+    "Sample standard deviation",
+    "Pooled standard deviation",
+    [
+     "Mean absolute error",
+     "MAE"
+    ],
+    [
+     "Effect size",
+     "Cohen's d"
+    ],
+    "Regression coefficient",
+    [
+     "Line of best fit",
+     "regression line"
+    ],
+    "Weighted median",
+    "Geometric standard deviation",
+    "Hazard ratio",
+    "Likelihood ratio",
+    "Number needed to treat"
    ]
   },
   {
@@ -1911,8 +2340,8 @@
     [
      "Radar chart",
      "spider chart",
-     "spider diagram",
-     "radar graph"
+     "radar graph",
+     "star chart"
     ],
     [
      "Bubble chart",
@@ -1952,26 +2381,35 @@
     "Dot plot",
     [
      "Stacked bar chart",
-     "stacked bar"
+     "stacked bar",
+     "Compound bar chart",
+     "Composite bar chart"
     ],
     "Carroll diagram",
     "Funnel chart",
     "Violin plot",
     "Column chart",
-    "Bar line graph",
-    "Vertical line chart",
-    "Dual bar chart",
-    "Compound bar chart",
-    "Composite bar chart",
-    "Comparative bar chart",
-    "Grouped bar chart",
+    [
+     "Bar line graph",
+     "Vertical line chart"
+    ],
+    [
+     "Grouped bar chart",
+     "Dual bar chart",
+     "Comparative bar chart"
+    ],
     "Horizontal bar chart",
     "Population pyramid",
-    "Flow chart",
-    "Flowchart",
+    [
+     "Flow chart",
+     "Flowchart"
+    ],
     "Organisation chart",
     "Mind map",
-    "Network diagram",
+    [
+     "Network diagram",
+     "network graph"
+    ],
     "Timeline",
     "Dot map",
     "Flow map",
@@ -1982,19 +2420,25 @@
     "Hythergraph",
     "Wind rose",
     "Rose diagram",
-    "Polar area diagram",
-    "Nightingale rose",
-    "Coxcomb chart",
-    "Ternary diagram",
-    "Triangular graph",
+    [
+     "Polar area diagram",
+     "Nightingale rose",
+     "Coxcomb chart"
+    ],
+    [
+     "Ternary diagram",
+     "Triangular graph"
+    ],
     "Kite diagram",
     "Infographic",
     "Word cloud",
     "Sparkline",
     "Bullet graph",
-    "Gauge chart",
-    "Dial chart",
-    "Speedometer chart",
+    [
+     "Gauge chart",
+     "Dial chart",
+     "Speedometer chart"
+    ],
     "Step chart",
     "Range chart",
     "Error bar chart",
@@ -2005,16 +2449,20 @@
     "Residual plot",
     "Control chart",
     "Run chart",
-    "Ishikawa diagram",
-    "Fishbone diagram",
+    [
+     "Ishikawa diagram",
+     "Fishbone diagram"
+    ],
     "Chord diagram",
     "Arc diagram",
     "Alluvial diagram",
     "Parallel coordinates",
     "Streamgraph",
     "Stacked area chart",
-    "Ridgeline plot",
-    "Joy plot",
+    [
+     "Ridgeline plot",
+     "Joy plot"
+    ],
     "Hexbin plot",
     "Contour plot",
     "Surface plot",
@@ -2026,17 +2474,79 @@
     "Dendrogram",
     "Sunburst chart",
     "Icicle chart",
-    "Kaplan-Meier curve",
-    "Survival curve",
+    [
+     "Kaplan-Meier curve",
+     "Survival curve"
+    ],
     "Lorenz curve",
     "Probability tree",
     "Sample space diagram",
     "Argand diagram",
     "Cartesian graph",
-    "Distance-time graph",
+    [
+     "Distance-time graph",
+     "Travel graph"
+    ],
     "Velocity-time graph",
     "Conversion graph",
-    "Travel graph"
+    "Time series graph",
+    "Frequency diagram",
+    "Block graph",
+    "Nomogram",
+    "PERT chart",
+    "Burndown chart",
+    [
+     "Slope chart",
+     "slopegraph"
+    ],
+    "Dumbbell chart",
+    "Lollipop chart",
+    "Bump chart",
+    "Beeswarm plot",
+    "Strip plot",
+    [
+     "Density plot",
+     "kernel density plot"
+    ],
+    "Cartogram",
+    "Proportional symbol map",
+    "Exploded pie chart",
+    "Line plot",
+    [
+     "Multiple line graph",
+     "multi-line graph"
+    ],
+    "Stacked column chart",
+    "100% stacked bar chart",
+    "Clustered column chart",
+    "Combo chart",
+    [
+     "Scatter plot matrix",
+     "pair plot",
+     "scatterplot matrix"
+    ],
+    "Correlogram",
+    "Biplot",
+    "Bode plot",
+    "Nyquist plot",
+    "Smith chart",
+    "Manhattan plot",
+    "Volcano plot",
+    "Bland-Altman plot",
+    "ROC curve",
+    "OHLC chart",
+    "Renko chart",
+    "Point and figure chart",
+    "Kagi chart",
+    "Heikin-Ashi chart",
+    "Circle packing",
+    "Voronoi diagram",
+    "Decision tree",
+    "Euler diagram",
+    "Swimlane diagram",
+    "Desire line map",
+    "Radial bar chart",
+    "Spider diagram"
    ]
   },
   {
@@ -2072,7 +2582,8 @@
     ],
     [
      "Tangent curve",
-     "tangent graph"
+     "tangent graph",
+     "Tan graph"
     ],
     [
      "Exponential curve",
@@ -2090,10 +2601,7 @@
     "Spiral",
     "Archimedean spiral",
     "Logarithmic spiral",
-    [
-     "Golden spiral",
-     "fibonacci spiral"
-    ],
+    "Golden spiral",
     "Helix",
     [
      "Lemniscate",
@@ -2106,7 +2614,8 @@
      "Bell curve",
      "normal distribution",
      "gaussian",
-     "normal curve"
+     "normal curve",
+     "Gaussian curve"
     ],
     [
      "Cubic curve",
@@ -2114,7 +2623,8 @@
     ],
     [
      "Reciprocal graph",
-     "reciprocal"
+     "reciprocal",
+     "Reciprocal curve"
     ],
     "Epicycloid",
     "Hypocycloid",
@@ -2134,7 +2644,8 @@
     ],
     [
      "Clothoid",
-     "euler spiral"
+     "euler spiral",
+     "Cornu spiral"
     ],
     "Witch of Agnesi",
     "Trochoid",
@@ -2146,23 +2657,22 @@
     "Curve",
     "Arc",
     "Wave",
-    "Tan graph",
     "Exponential decay",
     "U-shaped curve",
-    "Gaussian curve",
     "Quartic",
     "Polynomial curve",
-    "Reciprocal curve",
     "Rectangular hyperbola",
     "Conic section",
     "Oval",
     "Egg curve",
     "Fermat's spiral",
     "Hyperbolic spiral",
-    "Cornu spiral",
     "Involute",
     "Evolute",
-    "Deltoid",
+    [
+     "Deltoid",
+     "tricuspoid"
+    ],
     "Nephroid",
     "Conchoid",
     "Cissoid",
@@ -2173,9 +2683,11 @@
     "Trisectrix",
     "Lemniscate of Bernoulli",
     "Cassini oval",
-    "Superellipse",
+    [
+     "Superellipse",
+     "Lamé curve"
+    ],
     "Squircle",
-    "Lamé curve",
     "Bézier curve",
     "Spline",
     "B-spline",
@@ -2187,7 +2699,10 @@
     "Space-filling curve",
     "Sierpinski curve",
     "Fractal curve",
-    "Blancmange curve",
+    [
+     "Blancmange curve",
+     "takagi curve"
+    ],
     "Weierstrass function",
     "Brachistochrone",
     "Tautochrone",
@@ -2200,7 +2715,10 @@
     "Square wave",
     "Sawtooth wave",
     "Triangle wave",
-    "Step function",
+    [
+     "Step function",
+     "heaviside step function"
+    ],
     "Damped sine wave",
     "Butterfly curve",
     "Heart curve",
@@ -2216,7 +2734,55 @@
     "Bicorn",
     "Lemniscate of Gerono",
     "Maurer rose",
-    "Hyperbolic cosine curve"
+    "Hyperbolic cosine curve",
+    "Fibonacci spiral",
+    "Quintic",
+    "Cosecant curve",
+    "Secant curve",
+    "Cotangent curve",
+    "Hyperbolic sine curve",
+    "Hyperbolic tangent curve",
+    [
+     "Modulus graph",
+     "absolute value graph",
+     "v-shaped graph"
+    ],
+    "Square root curve",
+    "Semicircle",
+    [
+     "Semicubical parabola",
+     "Neile's parabola"
+    ],
+    "Ranunculoid",
+    "Watt's curve",
+    "Trefoil curve",
+    "Torus knot",
+    "Viviani's curve",
+    [
+     "Loxodrome",
+     "rhumb line"
+    ],
+    "Geodesic",
+    "Great circle",
+    "Lévy C curve",
+    "Gosper curve",
+    [
+     "Cantor function",
+     "devil's staircase"
+    ],
+    "Sinc function",
+    "Floor function",
+    "J-curve",
+    "Spiral of Theodorus",
+    "Conical spiral",
+    "Cartesian oval",
+    "Pedal curve",
+    "Caustic",
+    "Roulette",
+    "Plane curve",
+    "Space curve",
+    "Algebraic curve",
+    "Jordan curve"
    ],
    "deep": true
   },
@@ -2232,12 +2798,15 @@
      "halley",
      "halleys comet",
      "comet halley",
-     "halley's"
+     "halley's",
+     "1P/Halley",
+     "1P"
     ],
     [
      "Hale-Bopp",
      "hale bopp",
-     "comet hale-bopp"
+     "comet hale-bopp",
+     "C/1995 O1"
     ],
     [
      "Hyakutake",
@@ -2252,16 +2821,20 @@
     [
      "Encke",
      "comet encke",
-     "encke's comet"
+     "encke's comet",
+     "2P/Encke",
+     "2P"
     ],
     [
      "Swift-Tuttle",
      "swift tuttle",
-     "comet swift-tuttle"
+     "comet swift-tuttle",
+     "109P"
     ],
     [
      "Tempel-Tuttle",
-     "tempel tuttle"
+     "tempel tuttle",
+     "55P"
     ],
     [
      "67P/Churyumov-Gerasimenko",
@@ -2271,19 +2844,25 @@
      "rosetta comet",
      "comet 67p"
     ],
-    "Borrelly",
+    [
+     "Borrelly",
+     "19P"
+    ],
     [
      "Wild 2",
-     "comet wild 2"
+     "comet wild 2",
+     "81P"
     ],
     [
      "Tempel 1",
-     "comet tempel 1"
+     "comet tempel 1",
+     "9P"
     ],
     [
      "McNaught",
      "comet mcnaught",
-     "great comet of 2007"
+     "great comet of 2007",
+     "C/2006 P1"
     ],
     [
      "Oumuamua",
@@ -2295,11 +2874,13 @@
     ],
     [
      "NEOWISE",
-     "comet neowise"
+     "comet neowise",
+     "C/2020 F3"
     ],
     [
      "ISON",
-     "comet ison"
+     "comet ison",
+     "C/2012 S1"
     ],
     [
      "West",
@@ -2321,15 +2902,18 @@
     [
      "Tsuchinshan-ATLAS",
      "tsuchinshan atlas",
-     "comet tsuchinshan-atlas"
+     "comet tsuchinshan-atlas",
+     "C/2023 A3"
     ],
     [
      "Hartley 2",
-     "comet hartley 2"
+     "comet hartley 2",
+     "103P"
     ],
     [
      "Giacobini-Zinner",
-     "giacobini zinner"
+     "giacobini zinner",
+     "21P"
     ],
     [
      "Wirtanen",
@@ -2344,7 +2928,7 @@
     [
      "3I/ATLAS",
      "3i atlas",
-     "comet atlas"
+     "C/2025 N1"
     ],
     "Great Comet of 1811",
     "Great Comet of 1882",
@@ -2372,10 +2956,19 @@
     "Pons-Brooks",
     "12P/Pons-Brooks",
     "Crommelin",
-    "Schwassmann-Wachmann 1",
-    "Schwassmann-Wachmann 3",
+    [
+     "Schwassmann-Wachmann 1",
+     "29P"
+    ],
+    [
+     "Schwassmann-Wachmann 3",
+     "73P"
+    ],
     "Chiron",
-    "Kreutz sungrazers",
+    [
+     "Kreutz sungrazers",
+     "Kreutz"
+    ],
     "Great September Comet",
     "Great Comet of 1680",
     "Kirch's Comet",
@@ -2445,7 +3038,36 @@
     "Swift",
     "Tuttle-Giacobini-Kresák",
     "SWAN",
-    "Kreutz"
+    [
+     "Lemmon",
+     "comet lemmon",
+     "C/2025 A6"
+    ],
+    [
+     "Bernardinelli-Bernstein",
+     "C/2014 UN271"
+    ],
+    [
+     "C/2024 G3",
+     "C/2024 G3 ATLAS"
+    ],
+    [
+     "Wierzchos",
+     "C/2024 E1"
+    ],
+    "Ikeya-Murakami",
+    "Pons-Gambart",
+    "Great Comet of 1264",
+    "Great Comet of 1106",
+    "Great Comet of 1618",
+    [
+     "Caesar's Comet",
+     "great comet of 44 bc"
+    ],
+    "Wilson-Harrington",
+    "Humason",
+    "Burnham",
+    "Kobayashi-Berger-Milon"
    ]
   },
   {
@@ -2568,7 +3190,8 @@
     "Norwegian Space Agency",
     [
      "CONAE",
-     "argentine space agency"
+     "argentine space agency",
+     "National Space Activities Commission"
     ],
     "Glavkosmos",
     "NASDA",
@@ -2576,35 +3199,51 @@
     "NAL",
     "ESRO",
     "ELDO",
-    "BNSC",
-    "British National Space Centre",
+    [
+     "BNSC",
+     "British National Space Centre"
+    ],
     "Netherlands Space Office",
-    "Belgian Federal Science Policy Office",
-    "BELSPO",
-    "Austrian Space Agency",
-    "ALR",
+    [
+     "Belgian Federal Science Policy Office",
+     "BELSPO"
+    ],
+    [
+     "Austrian Space Agency",
+     "ALR"
+    ],
     "Swiss Space Office",
     "Danish National Space Center",
     "Finnish Space Agency",
-    "Portuguese Space Agency",
-    "Portugal Space",
-    "Enterprise Ireland",
-    "Greek Space Agency",
-    "Hellenic Space Center",
-    "Romanian Space Agency",
-    "ROSA",
+    [
+     "Portuguese Space Agency",
+     "Portugal Space"
+    ],
+    [
+     "Greek Space Agency",
+     "Hellenic Space Center"
+    ],
+    [
+     "Romanian Space Agency",
+     "ROSA"
+    ],
     "Czech Space Office",
     "Hungarian Space Office",
     "Lithuanian Space Agency",
     "Estonian Space Office",
     "Bulgarian Space Agency",
-    "Azerbaijan Space Agency",
-    "Azercosmos",
-    "Kazakh Space Agency",
-    "Kazcosmos",
-    "Saudi Space Agency",
-    "Saudi Space Commission",
-    "Bahrain Space Agency",
+    [
+     "Azerbaijan Space Agency",
+     "Azercosmos"
+    ],
+    [
+     "Kazakh Space Agency",
+     "Kazcosmos"
+    ],
+    [
+     "Saudi Space Agency",
+     "Saudi Space Commission"
+    ],
     "Kenya Space Agency",
     "Ethiopian Space Science and Technology Institute",
     "Rwanda Space Agency",
@@ -2613,47 +3252,76 @@
     "Zimbabwe National Geospatial and Space Agency",
     "Algerian Space Agency",
     "Moroccan Royal Centre for Remote Sensing",
-    "National Space Activities Commission",
-    "Bolivarian Agency for Space Activities",
-    "ABAE",
+    [
+     "Bolivarian Agency for Space Activities",
+     "ABAE"
+    ],
     "Colombian Space Agency",
-    "Peruvian Space Agency",
-    "CONIDA",
+    [
+     "Peruvian Space Agency",
+     "CONIDA"
+    ],
     "Chilean Space Agency",
     "Paraguayan Space Agency",
     "Costa Rican Space Agency",
-    "Philippine Space Agency",
-    "PhilSA",
-    "LAPAN",
+    [
+     "Philippine Space Agency",
+     "PhilSA"
+    ],
     "BRIN",
-    "Indonesian Space Agency",
-    "MYSA",
-    "Malaysian Space Agency",
-    "GISTDA",
-    "Thai Space Agency",
+    [
+     "Indonesian Space Agency",
+     "LAPAN"
+    ],
+    [
+     "Malaysian Space Agency",
+     "MYSA"
+    ],
+    [
+     "GISTDA",
+     "Thai Space Agency"
+    ],
     "Vietnam National Space Center",
-    "Bangladesh Space Research and Remote Sensing Organization",
-    "SPARRSO",
+    [
+     "Bangladesh Space Research and Remote Sensing Organization",
+     "SPARRSO"
+    ],
     "Sri Lanka Space Agency",
     "New Zealand Space Agency",
-    "National Space Science Agency",
-    "NSSA",
-    "Taiwan Space Agency",
-    "TASA",
-    "NSPO",
-    "North Korean space agency",
-    "NADA",
+    [
+     "National Space Science Agency",
+     "NSSA",
+     "Bahrain Space Agency"
+    ],
+    [
+     "Taiwan Space Agency",
+     "TASA",
+     "NSPO"
+    ],
+    [
+     "North Korean space agency",
+     "NADA"
+    ],
     "KCST",
     "Iranian Space Research Center",
-    "Space Force",
-    "US Space Force",
-    "NOAA",
     "EUMETSAT",
     "Asia-Pacific Space Cooperation Organization",
     "APSCO",
     "Arab Space Coordination Group",
     "United Nations Office for Outer Space Affairs",
-    "UNOOSA"
+    "UNOOSA",
+    [
+     "Uzbekistan Space Agency",
+     "Uzbekcosmos"
+    ],
+    [
+     "Senegalese Space Agency",
+     "ASES"
+    ],
+    [
+     "Latin American and Caribbean Space Agency",
+     "ALCE"
+    ]
    ]
   },
   {

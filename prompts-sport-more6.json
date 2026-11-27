@@ -732,6 +732,58 @@
     [
      "Persimmon wood",
      "Persimmon"
+    ],
+    [
+     "2-wood",
+     "two wood"
+    ],
+    "6-wood",
+    "11-wood",
+    "3-hybrid",
+    "4-hybrid",
+    "5-hybrid",
+    "Blade putter",
+    [
+     "Centre-shafted putter",
+     "center shafted putter"
+    ],
+    "Counterbalanced putter",
+    "Mid-mashie",
+    "Driving cleek",
+    "Short spoon",
+    "Long spoon",
+    [
+     "Play club",
+     "playclub"
+    ],
+    [
+     "Long nose",
+     "longnose"
+    ],
+    "Driving mashie",
+    "Sammy",
+    [
+     "Bulger driver",
+     "bulger"
+    ],
+    "Putting cleek",
+    "Putting iron",
+    [
+     "Schenectady putter",
+     "Schenectady"
+    ],
+    [
+     "Forged iron",
+     "forged irons"
+    ],
+    "Players iron",
+    "Game improvement iron",
+    "Super game improvement iron",
+    "Hollow body iron",
+    "Mini driver",
+    [
+     "Crossover iron",
+     "crossover"
     ]
    ]
   },
@@ -769,7 +821,11 @@
     "Sextuple bogey",
     "Septuple bogey",
     "Double par",
-    "Ostrich"
+    "Ostrich",
+    "Net par",
+    "Net birdie",
+    "Net eagle",
+    "Gross par"
    ]
   },
   {
@@ -878,7 +934,159 @@
     "Swale",
     "Waste area",
     "Front nine",
-    "Back nine"
+    "Back nine",
+    "Bench",
+    "Practice bunker",
+    "Short game area",
+    [
+     "Approach",
+     "approach area"
+    ],
+    "Plateau green",
+    "Elevated tee",
+    "Elevated green",
+    [
+     "Two-tier green",
+     "tiered green",
+     "tier"
+    ],
+    "Ridge",
+    [
+     "Mound",
+     "mounds"
+    ],
+    "Hollow",
+    "Valley of Sin",
+    "Road Hole",
+    "Swilcan Bridge",
+    "Postage Stamp",
+    "Amen Corner",
+    "Church pews",
+    "Stream",
+    "River",
+    "Sea",
+    "Beach",
+    [
+     "Dunes",
+     "sand dunes"
+    ],
+    "Bracken",
+    "Rough grass",
+    [
+     "Out of bounds stakes",
+     "OB stakes",
+     "white stakes"
+    ],
+    "Red stakes",
+    "Yellow stakes",
+    "Drop zone",
+    [
+     "Ground under repair",
+     "GUR"
+    ],
+    [
+     "Distance marker",
+     "150 marker",
+     "150-yard marker"
+    ],
+    "Sprinkler head",
+    [
+     "Back tee",
+     "championship tee",
+     "tips",
+     "back tees"
+    ],
+    [
+     "Forward tee",
+     "ladies' tee",
+     "front tee"
+    ],
+    [
+     "Men's tee",
+     "men's tees"
+    ],
+    "White tees",
+    "Blue tees",
+    "Green tees",
+    [
+     "Par 3",
+     "par three"
+    ],
+    [
+     "Par 4",
+     "par four"
+    ],
+    [
+     "Par 5",
+     "par five"
+    ],
+    "Par 6",
+    "Signature hole",
+    [
+     "Pin position",
+     "pin placement"
+    ],
+    [
+     "Flagpole",
+     "flag pole"
+    ],
+    [
+     "Hole cup",
+     "hole liner"
+    ],
+    "Cross bunker",
+    "Waste bunker",
+    "Grass bunker",
+    "Revetted bunker",
+    [
+     "Bunker rake",
+     "rake"
+    ],
+    [
+     "Bunker face",
+     "bunker lip",
+     "lip"
+    ],
+    [
+     "Fairway landing area",
+     "landing area"
+    ],
+    "Layup area",
+    "Tree line",
+    "Woods",
+    [
+     "Shelter",
+     "rain shelter"
+    ],
+    [
+     "Toilet block",
+     "toilets"
+    ],
+    "Locker room",
+    "Bar",
+    [
+     "Buggy shed",
+     "cart barn"
+    ],
+    [
+     "Greenkeeper's shed",
+     "maintenance shed"
+    ],
+    [
+     "Practice net",
+     "practice nets"
+    ],
+    "Practice ground",
+    [
+     "1st tee",
+     "first tee"
+    ],
+    [
+     "18th green",
+     "eighteenth green"
+    ],
+    "Red tees",
+    "Yellow tees"
    ]
   },
   {
@@ -914,7 +1122,9 @@
     [
      "BMW PGA Championship",
      "BMW PGA",
-     "Wentworth"
+     "Wentworth",
+     "Volvo PGA Championship",
+     "Volvo PGA"
     ],
     "Scottish Open",
     "Irish Open",
@@ -952,7 +1162,10 @@
     [
      "Chevron Championship",
      "ANA Inspiration",
-     "Kraft Nabisco"
+     "Kraft Nabisco",
+     "Dinah Shore",
+     "Nabisco Dinah Shore",
+     "Nabisco Championship"
     ],
     [
      "Olympic golf",
@@ -969,7 +1182,10 @@
      "Australian Open (golf)",
      "Australian Open"
     ],
-    "South African Open",
+    [
+     "South African Open",
+     "SA Open"
+    ],
     [
      "Canadian Open",
      "RBC Canadian Open"
@@ -1007,20 +1223,34 @@
     "RSM Classic",
     "3M Open",
     "Shriners Children's Open",
-    "World Cup of Golf",
-    "Seve Trophy",
+    [
+     "World Cup of Golf",
+     "Canada Cup",
+     "World Cup"
+    ],
+    [
+     "Seve Trophy",
+     "Vivendi Trophy"
+    ],
     "Eisenhower Trophy",
     [
      "The Amateur Championship",
      "Amateur Championship"
     ],
     "US Amateur",
-    "Senior Open",
+    [
+     "Senior Open",
+     "Senior Open Championship",
+     "Seniors Open"
+    ],
     "Junior Ryder Cup",
     "Hong Kong Open",
     "Qatar Masters",
     "Saudi International",
-    "British Masters",
+    [
+     "British Masters",
+     "Betfred British Masters"
+    ],
     [
      "Wales Open",
      "Welsh Open"
@@ -1030,21 +1260,40 @@
      "Omega European Masters"
     ],
     "Portugal Masters",
-    "Nedbank Golf Challenge",
-    "Women's Scottish Open",
-    "CME Group Tour Championship",
+    [
+     "Nedbank Golf Challenge",
+     "Nedbank Challenge",
+     "Million Dollar Challenge",
+     "Sun City Million Dollar Challenge"
+    ],
+    [
+     "Women's Scottish Open",
+     "Ladies Scottish Open"
+    ],
+    [
+     "CME Group Tour Championship",
+     "LPGA Tour Championship"
+    ],
     "LIV Golf",
     "Hero Cup",
     "Mayakoba Classic",
     "US Women's Open",
-    "Women's PGA Championship",
+    [
+     "Women's PGA Championship",
+     "KPMG Women's PGA",
+     "Women's PGA",
+     "LPGA Championship"
+    ],
     "Hero World Challenge",
     "Zurich Classic",
     [
      "Honda Classic",
      "Cognizant Classic"
     ],
-    "Farmers Insurance Open",
+    [
+     "Farmers Insurance Open",
+     "Buick Invitational"
+    ],
     [
      "AT&T Pebble Beach Pro-Am",
      "Pebble Beach Pro-Am"
@@ -1052,9 +1301,15 @@
     "Wells Fargo Championship",
     [
      "WGC Match Play",
-     "Match Play"
+     "Match Play",
+     "WGC Dell Match Play",
+     "WGC-Dell Technologies Match Play"
     ],
-    "World Match Play Championship",
+    [
+     "World Match Play Championship",
+     "Volvo World Match Play",
+     "World Match Play"
+    ],
     "DP World Tour Championship",
     "Sony Open",
     [
@@ -1062,8 +1317,159 @@
      "Tournament of Champions"
     ],
     "Valspar Championship",
-    "Travelers Championship",
-    "John Deere Classic"
+    [
+     "Travelers Championship",
+     "Greater Hartford Open"
+    ],
+    "John Deere Classic",
+    [
+     "US PGA Championship",
+     "US PGA"
+    ],
+    "Senior PGA Championship",
+    "US Senior Open",
+    "The Senior Players Championship",
+    "Dunlop Masters",
+    "Volvo Masters",
+    [
+     "Volvo China Open",
+     "China Open"
+    ],
+    "Singapore Open",
+    [
+     "Indian Open",
+     "Hero Indian Open"
+    ],
+    "Alfred Dunhill Championship",
+    "Dubai Invitational",
+    "Ras Al Khaimah Championship",
+    "Bahrain Championship",
+    "Kenya Savannah Classic",
+    "Czech Masters",
+    [
+     "Danish Golf Championship",
+     "Made in HimmerLand"
+    ],
+    "Austrian Open",
+    "Scandinavian Mixed",
+    "Irish PGA Championship",
+    "Horizon Irish Open",
+    "Genesis Scottish Open",
+    "Barbasol Championship",
+    "Barracuda Championship",
+    "ISCO Championship",
+    "Puerto Rico Open",
+    "Corales Puntacana Championship",
+    "Sanderson Farms Championship",
+    "Black Desert Championship",
+    [
+     "Procore Championship",
+     "Fortinet Championship"
+    ],
+    "ZOZO Championship",
+    "World Wide Technology Championship",
+    "Butterfield Bermuda Championship",
+    "Western Open",
+    "Kemper Open",
+    "Macau Open",
+    "Japan Open",
+    "Dunlop Phoenix",
+    "Australian PGA Championship",
+    "Australian Masters",
+    "New Zealand Open",
+    "Johnnie Walker Classic",
+    "Heineken Classic",
+    "Perth International",
+    "Skins Game",
+    [
+     "Grand Slam of Golf",
+     "PGA Grand Slam of Golf"
+    ],
+    [
+     "Father/Son Challenge",
+     "PNC Championship"
+    ],
+    [
+     "Shark Shootout",
+     "QBE Shootout",
+     "Grant Thornton Invitational"
+    ],
+    "Wendy's 3-Tour Challenge",
+    "Royal Trophy",
+    "EurAsia Cup",
+    [
+     "Alfred Dunhill Cup",
+     "Dunhill Cup"
+    ],
+    [
+     "Andalucia Masters",
+     "Valderrama Masters",
+     "Andalucia Valderrama Masters"
+    ],
+    [
+     "Scandinavian Masters",
+     "Volvo Scandinavian Masters"
+    ],
+    "German Open",
+    "BMW International Open",
+    [
+     "Kenya Open",
+     "Magical Kenya Open"
+    ],
+    "Joburg Open",
+    [
+     "The American Express",
+     "Bob Hope Classic",
+     "Bob Hope Chrysler Classic",
+     "Humana Challenge",
+     "CareerBuilder Challenge"
+    ],
+    [
+     "WGC Championship",
+     "WGC Mexico Championship",
+     "WGC Cadillac Championship"
+    ],
+    "Truist Championship",
+    "Junior Solheim Cup",
+    "Palmer Cup",
+    "St Andrews Trophy",
+    "Jacques Léglise Trophy",
+    "Bonallack Trophy",
+    "Augusta National Women's Amateur",
+    "Women's British Amateur",
+    "US Women's Amateur",
+    "Brabazon Trophy",
+    "English Amateur",
+    "Lytham Trophy",
+    "Boys Amateur Championship",
+    "Ladies European Masters",
+    "du Maurier Classic",
+    "Women's World Cup of Golf",
+    "Hilton Grand Vacations Tournament of Champions",
+    "Kia Classic",
+    "Meijer LPGA Classic",
+    "Lotte Championship",
+    "Aramco Team Series",
+    "Abu Dhabi HSBC Championship",
+    "LIV Golf London",
+    "LIV Golf Adelaide",
+    "LIV Team Championship",
+    "TGL",
+    "Saudi Ladies International",
+    "ISPS Handa World Invitational",
+    "Northern Ireland Open",
+    "English Championship",
+    "Hero Open",
+    "Celtic Classic",
+    "Madeira Islands Open",
+    "Tshwane Open",
+    "Korn Ferry Tour Championship",
+    "Challenge Tour Grand Final",
+    [
+     "Q School",
+     "Qualifying School"
+    ],
+    "PGA Tour Q-School"
    ]
   },
   {
@@ -2483,7 +2889,211 @@
      "No-ad scoring",
      "No-ad"
     ],
-    "Protected ranking"
+    "Protected ranking",
+    "Match",
+    "Tournament",
+    [
+     "Grand Slam tournament",
+     "Major"
+    ],
+    "Davis Cup",
+    [
+     "Billie Jean King Cup",
+     "Fed Cup"
+    ],
+    "ATP",
+    "WTA",
+    "ATP Finals",
+    [
+     "Masters 1000",
+     "Masters"
+    ],
+    [
+     "Ranking",
+     "rankings"
+    ],
+    [
+     "World number one",
+     "number one"
+    ],
+    "Out",
+    "Let cord",
+    "Service let",
+    [
+     "Ball",
+     "tennis ball"
+    ],
+    "Court",
+    "Service box",
+    "Centre mark",
+    [
+     "Centre line",
+     "center line"
+    ],
+    "Alley",
+    "No man's land",
+    "Serve-volley",
+    "Service winner",
+    "Return winner",
+    "Forced error",
+    "Lob volley",
+    [
+     "Swing volley",
+     "swinging volley"
+    ],
+    [
+     "Slice backhand",
+     "backhand slice"
+    ],
+    [
+     "Wide serve",
+     "serve out wide",
+     "out wide"
+    ],
+    [
+     "Top seed",
+     "number one seed"
+    ],
+    "Squash shot",
+    "Topspin lob",
+    "Flat",
+    "Twist serve",
+    "American twist",
+    "Body serve",
+    "Down the T",
+    "Seven-point tiebreak",
+    "Final set tiebreak",
+    [
+     "Fifth set",
+     "deciding set"
+    ],
+    "Best of five",
+    "Best of three",
+    "Straight sets",
+    "Upset",
+    "Defending champion",
+    "Draw",
+    "Quarter-final",
+    "Semi-final",
+    "Final",
+    "Special exempt",
+    "Alternate",
+    "Default",
+    "Disqualification",
+    "Point penalty",
+    "Game penalty",
+    "Racket abuse",
+    "Ball abuse",
+    "Audible obscenity",
+    "Coaching",
+    "Coaching violation",
+    [
+     "Toilet break",
+     "bathroom break"
+    ],
+    "Changeover",
+    "Set break",
+    [
+     "Ball toss",
+     "toss"
+    ],
+    "Racquet head",
+    "Throat",
+    "Handle",
+    "Overgrip",
+    "Grip size",
+    "String tension",
+    [
+     "Gut",
+     "natural gut"
+    ],
+    [
+     "Polyester strings",
+     "poly"
+    ],
+    "Restring",
+    [
+     "Dampener",
+     "vibration dampener"
+    ],
+    [
+     "Sweatband",
+     "wristband"
+    ],
+    "Headband",
+    "Tennis shoes",
+    "Ball machine",
+    "Ball hopper",
+    "Net post",
+    "Singles sticks",
+    "Net strap",
+    "Umpire's chair",
+    "Baseline judge",
+    "Service line judge",
+    "Net judge",
+    "Electronic line calling",
+    "Cyclops",
+    "Shot clock",
+    "Out call",
+    "Overrule",
+    "Doubles team",
+    "Doubles partner",
+    "Australian formation",
+    "I formation",
+    "Poach",
+    "Both up",
+    "One up one back",
+    "Split step",
+    "Footwork",
+    "Open stance",
+    "Closed stance",
+    "Semi-western grip",
+    "Hammer grip",
+    "Inside-in forehand",
+    "Running forehand",
+    "Jump smash",
+    "Skyhook",
+    "Dead ball",
+    "Carpet",
+    "Surface",
+    "Fast court",
+    "Slow court",
+    "Lefty",
+    "Grinder",
+    "Counterpuncher",
+    "Big server",
+    "Serve-and-volleyer",
+    "Baseliner",
+    "All-court player",
+    "Ranking points",
+    "Prize money",
+    "Seeding",
+    "Withdrawal",
+    "Calendar Grand Slam",
+    "Channel Slam",
+    "Sunshine Double",
+    "Big Three",
+    "Big Four",
+    "Golden Masters",
+    "Career Golden Slam",
+    "Triple crown",
+    "Boxed set",
+    [
+     "Mishit",
+     "framed shot",
+     "frame"
+    ],
+    "Net rusher",
+    "Junk ball",
+    "Pusher",
+    "Dink",
+    "Short angle",
+    "Angle",
+    "Depth",
+    "Pace",
+    "Spin",
+    "Sidespin",
+    "Underspin"
    ]
   },
   {
@@ -2544,16 +3154,15 @@
     ],
     [
      "John Cain Arena",
-     "Melbourne Arena"
+     "Melbourne Arena",
+     "Hisense Arena",
+     "Vodafone Arena"
     ],
     [
      "Grandstand",
      "Grandstand Court"
     ],
-    [
-     "Kia Arena",
-     "Hisense Arena"
-    ],
+    "Kia Arena",
     [
      "No. 12 Court",
      "Court 12"
@@ -2563,7 +3172,21 @@
      "Court 18"
     ],
     "Court 17",
-    "1573 Arena"
+    "1573 Arena",
+    "Show Court 3",
+    [
+     "Court 14",
+     "Court Fourteen"
+    ],
+    [
+     "Court 7",
+     "Court Seven"
+    ],
+    [
+     "Old Court 1",
+     "Old No. 1 Court"
+    ],
+    "Old Grandstand"
    ]
   },
   {
@@ -2586,7 +3209,11 @@
     ],
     "Völkl",
     "Donnay",
-    "Pro Kennex",
+    [
+     "Pro Kennex",
+     "ProKennex",
+     "Kennex"
+    ],
     "Gamma",
     "Pacific",
     "Diadora",
@@ -2611,7 +3238,22 @@
     "Toalson",
     "Angell",
     "Pro Supex",
-    "Weed"
+    "Weed",
+    "Yamaha",
+    "Diadem",
+    [
+     "Grays",
+     "Grays of Cambridge"
+    ],
+    [
+     "Jaques",
+     "Jaques of London"
+    ],
+    "Chemold",
+    "Davis",
+    "Oliver",
+    "MacGregor",
+    "Bosworth"
    ]
   },
   {
@@ -4208,7 +4850,236 @@
     [
      "Bunker review",
      "Bunker"
-    ]
+    ],
+    "Lock",
+    "Prop",
+    "Hooker",
+    "Flanker",
+    [
+     "Number 8",
+     "number eight"
+    ],
+    "Scrum-half",
+    [
+     "Fly-half",
+     "outside half",
+     "stand-off"
+    ],
+    [
+     "Centre",
+     "center"
+    ],
+    [
+     "Wing",
+     "winger"
+    ],
+    [
+     "Full-back",
+     "fullback"
+    ],
+    [
+     "Loosehead",
+     "loosehead prop"
+    ],
+    [
+     "Tighthead",
+     "tighthead prop"
+    ],
+    [
+     "Blindside",
+     "blindside flanker"
+    ],
+    [
+     "Openside",
+     "openside flanker"
+    ],
+    "Inside centre",
+    "Outside centre",
+    "Second row",
+    "Back five",
+    [
+     "Half-backs",
+     "halves"
+    ],
+    "Captain",
+    "Bind",
+    "Feed",
+    "Channel one",
+    "Strike",
+    "Pushover try",
+    "Lifter",
+    "Jumper",
+    "Peel",
+    "Short lineout",
+    "Lineout call",
+    [
+     "Wheel",
+     "wheeled scrum"
+    ],
+    [
+     "Crouch, bind, set",
+     "crouch touch pause engage",
+     "engage"
+    ],
+    [
+     "Joining from the side",
+     "side entry",
+     "coming in at the side"
+    ],
+    "Penalty goal",
+    [
+     "Decoy runner",
+     "dummy runner"
+    ],
+    [
+     "Scrum cap",
+     "headgear"
+    ],
+    "Studs",
+    "Catch and drive",
+    "Offside line",
+    "Hindmost foot",
+    "Gate",
+    [
+     "Clearout",
+     "clear-out"
+    ],
+    "Counter-ruck",
+    [
+     "Poach",
+     "poacher"
+    ],
+    "Slow ball",
+    [
+     "Quick ball",
+     "front-foot ball"
+    ],
+    "Recycle",
+    "Kick chase",
+    "Contestable kick",
+    "Territory",
+    [
+     "Kicking tee",
+     "tee"
+    ],
+    [
+     "Touch kick",
+     "kick to touch"
+    ],
+    "Touchfinder",
+    "Penalty to the corner",
+    "Kick at goal",
+    "Drift defence",
+    [
+     "Rush defence",
+     "blitz defence"
+    ],
+    "Line speed",
+    "Tackle area",
+    "Double tackle",
+    "Missed tackle",
+    "Big hit",
+    "Try-saver",
+    "Soak tackle",
+    "Ball carrier",
+    "Carry",
+    "Metres made",
+    "Pod",
+    "Crash ball",
+    "Inside pass",
+    "Flat pass",
+    "Long pass",
+    "Scissors",
+    "Strike move",
+    "Set piece",
+    "Counter-attack",
+    "Broken play",
+    "Kick tennis",
+    "Bomb",
+    "Wipers kick",
+    [
+     "Torpedo kick",
+     "spiral kick"
+    ],
+    "Drop kick",
+    "Punt",
+    "Banana kick",
+    "Five-metre scrum",
+    [
+     "Twenty-two",
+     "22"
+    ],
+    "Ten-metre line",
+    "Halfway line",
+    "Five-metre line",
+    "Fifteen-metre line",
+    "Corner flag",
+    "Touch in goal",
+    "Double movement",
+    "Hat-trick",
+    [
+     "Man of the match",
+     "player of the match"
+    ],
+    "Cap",
+    [
+     "Test match",
+     "test"
+    ],
+    "Lions tour",
+    "Six Nations",
+    "Rugby World Cup",
+    [
+     "Autumn internationals",
+     "autumn nations series"
+    ],
+    "Summer tour",
+    "Barbarians",
+    "Sevens",
+    "Professional foul",
+    "Deliberate knock-on",
+    "Repeated infringement",
+    "Team warning",
+    [
+     "Twenty-minute red card",
+     "20-minute red card"
+    ],
+    "Citing",
+    "Foul play",
+    "Dangerous tackle",
+    "Neck roll",
+    "Late tackle",
+    "Shoulder charge",
+    "Tackle without the ball",
+    "Off the feet",
+    "Killing the ball",
+    "Lying on",
+    "Holding on",
+    "Not rolling away",
+    "Not releasing the tackler",
+    "Crossing",
+    "Flying wedge",
+    "Advantage over",
+    "Play on",
+    "Water carrier",
+    [
+     "Gumshield",
+     "mouthguard"
+    ],
+    "Shoulder pads",
+    "Rugby ball",
+    "Tackle bag",
+    "Scrum machine",
+    "Bench",
+    [
+     "Impact sub",
+     "finisher"
+    ],
+    "Starting XV",
+    "Matchday squad",
+    "Front-row union",
+    "Le Crunch",
+    "Mid-week game"
    ]
   },
   {
@@ -4230,7 +5101,9 @@
     ],
     [
      "Les Bleus",
-     "Le XV de France"
+     "Le XV de France",
+     "Les Tricolores",
+     "Tricolores"
     ],
     "Azzurri",
     [
@@ -4246,7 +5119,10 @@
      "Fiji Airways Flying Fijians"
     ],
     "Manu Samoa",
-    "Ikale Tahi",
+    [
+     "Ikale Tahi",
+     "Sea Eagles"
+    ],
     [
      "Lelos",
      "Lelo"
@@ -4290,7 +5166,20 @@
      "Tupis"
     ],
     "Black Eagles",
-    "Yacarés"
+    "Yacarés",
+    [
+     "Rugby Cranes",
+     "Cranes"
+    ],
+    "Makis",
+    [
+     "Los Tucanes",
+     "Tucanes"
+    ],
+    [
+     "Dragons",
+     "Welsh Dragons"
+    ]
    ]
   },
   {
@@ -4680,6 +5569,11 @@
      "Mohammed Siraj",
      "Siraj"
     ],
+    [
+     "Hardik Pandya",
+     "Hardik",
+     "Pandya"
+    ],
     "Kuldeep Yadav",
     [
      "Shreyas Iyer",
@@ -4975,7 +5869,12 @@
      "baggy cap"
     ],
     "Sight screen",
-    "Roller",
+    [
+     "Roller",
+     "pitch roller",
+     "heavy roller",
+     "light roller"
+    ],
     [
      "Covers",
      "pitch covers"
@@ -5051,7 +5950,125 @@
     "Red ball",
     "White ball",
     "Pink ball",
-    "Bowling machine"
+    "Bowling machine",
+    [
+     "Trousers",
+     "cricket trousers",
+     "flannels"
+    ],
+    [
+     "Shirt",
+     "cricket shirt"
+    ],
+    [
+     "Socks",
+     "cricket socks"
+    ],
+    "Belt",
+    "Jockstrap",
+    "Compression shorts",
+    [
+     "Wristband",
+     "sweatband"
+    ],
+    "Headband",
+    "Skull cap",
+    "Elbow guard",
+    [
+     "Wicketkeeper's helmet",
+     "keeper's helmet"
+    ],
+    [
+     "Wicketkeeping pads",
+     "keeper's pads"
+    ],
+    "Inner thigh pad",
+    [
+     "Fielding helmet",
+     "short leg helmet"
+    ],
+    [
+     "Bat toe guard",
+     "toe guard"
+    ],
+    [
+     "Anti-scuff sheet",
+     "bat face tape"
+    ],
+    "Bat tape",
+    "Bat handle",
+    "Willow",
+    "English willow",
+    "Kashmir willow",
+    "Training bat",
+    "Catching mitt",
+    [
+     "Throw-down stick",
+     "sidearm",
+     "dog stick"
+    ],
+    "Tennis ball",
+    "Tape ball",
+    [
+     "Incrediball",
+     "soft ball"
+    ],
+    "Windball",
+    "Plastic stumps",
+    "Spring-back stumps",
+    "Stump stand",
+    [
+     "Bowling marker",
+     "marker disc"
+    ],
+    "Line marker",
+    "Whitewash",
+    [
+     "Mower",
+     "pitch mower"
+    ],
+    "Hover cover",
+    [
+     "Mat",
+     "matting pitch"
+    ],
+    "Artificial pitch",
+    [
+     "Umpire's coat",
+     "umpire coat"
+    ],
+    "Umpire's hat",
+    "Sawdust",
+    [
+     "Rubber soles",
+     "rubbers"
+    ],
+    "Wicketkeeping inners",
+    [
+     "Snickometer",
+     "Snicko"
+    ],
+    "Hawk-Eye",
+    "UltraEdge",
+    "Hot Spot",
+    "Speed gun",
+    [
+     "Zing bails",
+     "LED bails",
+     "light-up bails"
+    ],
+    [
+     "Zing stumps",
+     "LED stumps"
+    ],
+    [
+     "Boundary marker",
+     "boundary flags"
+    ],
+    "Fielding cone",
+    "Slip catching board",
+    "Ball bag",
+    "Blazer"
    ]
   },
   {
@@ -5685,7 +6702,6 @@
     ],
     [
      "Stephen Maguire",
-     "Snooker Maguire",
      "Maguire"
     ],
     "Jak Jones",
@@ -5825,7 +6841,6 @@
     ],
     [
      "Stephen Maguire",
-     "Snooker Maguire",
      "Maguire"
     ],
     [
@@ -5940,7 +6955,6 @@
     ],
     [
      "Stephen Maguire",
-     "Snooker Maguire",
      "Maguire"
     ],
     [
@@ -6090,7 +7104,6 @@
     ],
     [
      "Stephen Maguire",
-     "Snooker Maguire",
      "Maguire"
     ],
     [
@@ -6234,7 +7247,9 @@
     [
      "Maximum",
      "147",
-     "maximum break"
+     "maximum break",
+     "max",
+     "147 break"
     ],
     "Cue",
     "Frame",
@@ -6368,7 +7383,93 @@
     "Deep screw",
     "Swerve",
     "Masse",
-    "Plant shot"
+    "Plant shot",
+    "Yellow spot",
+    "Green spot",
+    "Pyramid spot",
+    "Hook rest",
+    "Cue case",
+    "Tip shaper",
+    "Scuffer",
+    "Ball marker",
+    "Bow tie",
+    "Waistcoat",
+    "Marker",
+    "Scoreboard",
+    "Snookers required",
+    "Frame-winning break",
+    [
+     "Fifty break",
+     "half-century"
+    ],
+    "Re-rack",
+    "Visit",
+    "Full ball",
+    "Half ball",
+    "Quarter ball",
+    "Throw",
+    "Cocked hat double",
+    "Cross double",
+    "Treble",
+    "Set",
+    "Combination",
+    "Pack",
+    "Bag",
+    [
+     "Back-cut",
+     "cut back"
+    ],
+    [
+     "Off the table",
+     "ball off the table"
+    ],
+    [
+     "Decider",
+     "deciding frame",
+     "final-frame decider"
+    ],
+    [
+     "White gloves",
+     "gloves"
+    ],
+    "Hanger",
+    [
+     "Rattle",
+     "rattled in the jaws"
+    ],
+    "Sitter",
+    "Shot to nothing",
+    "Double hit",
+    "Feathering",
+    "Miscue",
+    "Miss rule",
+    "Three-miss rule",
+    "Put back",
+    "Play again",
+    "Ball in hand",
+    "Penalty points",
+    [
+     "Four-point penalty",
+     "four away"
+    ],
+    [
+     "Seven-point penalty",
+     "seven away"
+    ],
+    "Best of 35",
+    "Crucible curse",
+    "One-table setup",
+    "Two-table setup",
+    "Ranking event",
+    "Invitational",
+    "Triple Crown",
+    "Ranking points",
+    "Seeding",
+    "Top 16",
+    "Qualifiers",
+    "Q School",
+    "Tour card",
+    "Century of centuries"
    ]
   },
   {
@@ -6418,7 +7519,9 @@
     ],
     [
      "Blackball",
-     "black ball pool"
+     "black ball pool",
+     "English pool",
+     "UK eight-ball"
     ],
     "Bar billiards",
     [
@@ -6468,7 +7571,23 @@
     "Kelly pool",
     "Bottle pool",
     "Cowboy pool",
-    "Ten-red snooker"
+    "Ten-red snooker",
+    "Cribbage pool",
+    "Golf billiards",
+    "Bowlliards",
+    "One-cushion billiards",
+    "Novuss",
+    "Speed pool",
+    "Golf pool",
+    "Fifteen-ball pool",
+    "Cushion caroms",
+    [
+     "Goriziana",
+     "nine-pin billiards",
+     "Italian nine-pin"
+    ],
+    "Power snooker",
+    "Snooker shoot-out"
    ]
   },
   {
@@ -6481,7 +7600,9 @@
     [
      "World Championship",
      "World Snooker Championship",
-     "Crucible"
+     "Crucible",
+     "Embassy World Championship",
+     "World Snooker"
     ],
     "UK Championship",
     [
@@ -6496,7 +7617,11 @@
     "Shanghai Masters",
     "China Open",
     "International Championship",
-    "Players Championship",
+    [
+     "Players Championship",
+     "Players Tour Championship Finals",
+     "PTC Finals"
+    ],
     "Tour Championship",
     "Champion of Champions",
     "Hong Kong Masters",
@@ -6522,7 +7647,12 @@
     "Pot Black",
     "Benson & Hedges Masters",
     "Northern Ireland Trophy",
-    "Grand Prix",
+    [
+     "Grand Prix",
+     "Rothmans Grand Prix",
+     "LG Cup",
+     "LG Cup Grand Prix"
+    ],
     [
      "Premier League Snooker",
      "Premier League"
@@ -6544,7 +7674,48 @@
     ],
     "Asian Open",
     "World Cup",
-    "Nations Cup"
+    "Nations Cup",
+    "Scottish Masters",
+    "European Open",
+    [
+     "Jameson International",
+     "International Open"
+    ],
+    "Professional Players Tournament",
+    "Canadian Masters",
+    "Matchroom League",
+    "Charity Challenge",
+    "Australian Open",
+    "Australian Masters",
+    "Thailand Open",
+    "Asian Classic",
+    "Malta Grand Prix",
+    [
+     "Players Tour Championship",
+     "PTC"
+    ],
+    "Brazil Masters",
+    "Haikou World Open",
+    "Yixing Open",
+    "Macau Masters",
+    "Hong Kong Open",
+    "World Masters",
+    [
+     "World Doubles Championship",
+     "World Doubles"
+    ],
+    "World Team Classic",
+    "Kent Classic",
+    "Pontins Professional",
+    "Scottish Professional Championship",
+    "English Professional Championship",
+    "Irish Professional Championship",
+    "Welsh Professional Championship",
+    "Strachan Challenge",
+    "Seniors Masters",
+    "WST Classic",
+    "Six-red World Cup",
+    "World Women's Championship"
    ]
   },
   {
@@ -6609,7 +7780,9 @@
     ],
     [
      "Kelly pool",
-     "Kelly"
+     "Kelly",
+     "pea pool",
+     "pill pool"
     ],
     [
      "Fifteen-ball",
@@ -6625,7 +7798,25 @@
      "Chinese eight-ball"
     ],
     "Equal offense",
-    "Scotch doubles"
+    "Scotch doubles",
+    [
+     "Ghost",
+     "nine-ball ghost"
+    ],
+    [
+     "Cribbage",
+     "cribbage pool"
+    ],
+    [
+     "Basic pocket billiards",
+     "BPB"
+    ],
+    "One-ball",
+    "Ultimate Pool",
+    [
+     "Bank the eight",
+     "bank the 8"
+    ]
    ]
   },
   {
@@ -7060,7 +8251,8 @@
     ],
     [
      "Martin St. Louis",
-     "Louis"
+     "Marty St. Louis",
+     "St. Louis"
     ],
     [
      "Joe Thornton",
@@ -7183,7 +8375,9 @@
     ],
     [
      "Arrowhead Stadium",
-     "Arrowhead"
+     "Arrowhead",
+     "GEHA Field at Arrowhead Stadium",
+     "GEHA Field"
     ],
     [
      "MetLife Stadium",
@@ -7337,7 +8531,8 @@
     ],
     [
      "Center",
-     "C"
+     "C",
+     "Centre"
     ],
     [
      "Guard",
@@ -7372,7 +8567,9 @@
     ],
     [
      "Middle linebacker",
-     "MLB"
+     "MLB",
+     "Mike linebacker",
+     "Mike"
     ],
     [
      "Outside linebacker",
@@ -7429,7 +8626,44 @@
     "Gunner",
     "Split end",
     "Flanker",
-    "Return specialist"
+    "Return specialist",
+    [
+     "Slot cornerback",
+     "slot corner"
+    ],
+    [
+     "Weakside linebacker",
+     "Will linebacker",
+     "Will"
+    ],
+    [
+     "Strongside linebacker",
+     "Sam linebacker",
+     "Sam"
+    ],
+    [
+     "Three-technique",
+     "3-technique"
+    ],
+    "Five-technique",
+    "Rush linebacker",
+    "Box safety",
+    "Kickoff specialist",
+    "Personal protector",
+    "Upback",
+    "Jammer",
+    "Wedge buster",
+    "X receiver",
+    "Y receiver",
+    "Z receiver",
+    "Third-down back",
+    "Scatback",
+    "Blocking back",
+    "Swing tackle",
+    "Left guard",
+    "Right guard",
+    "Interior lineman",
+    "Rover"
    ]
   },
   {
@@ -7511,7 +8745,28 @@
     "Leadoff hitter",
     "Cleanup hitter",
     "Two-way player",
-    "Position player"
+    "Position player",
+    [
+     "Left-handed specialist",
+     "LOOGY"
+    ],
+    [
+     "Long reliever",
+     "long man"
+    ],
+    "Opener",
+    "Swingman",
+    "Bullpen catcher",
+    "Backup catcher",
+    "Fourth outfielder",
+    "Ace",
+    [
+     "Fifth starter",
+     "number five starter"
+    ],
+    "Corner infielder",
+    "Middle infielder",
+    "Corner outfielder"
    ]
   },
   {
@@ -7521,73 +8776,212 @@
    ],
    "text": "Name a college football bowl game (past or present)",
    "answers": [
-    "Rose Bowl",
+    [
+     "Rose Bowl",
+     "Rose Bowl Game"
+    ],
     "Orange Bowl",
     "Sugar Bowl",
-    "Cotton Bowl",
+    [
+     "Cotton Bowl",
+     "Cotton Bowl Classic"
+    ],
     "Fiesta Bowl",
-    "Peach Bowl",
-    "Citrus Bowl",
-    "Gator Bowl",
-    "Holiday Bowl",
-    "Alamo Bowl",
-    "Liberty Bowl",
-    "Sun Bowl",
-    "Outback Bowl",
-    "Music City Bowl",
+    [
+     "Peach Bowl",
+     "Chick-fil-A Bowl"
+    ],
+    [
+     "Citrus Bowl",
+     "Capital One Bowl",
+     "Florida Citrus Bowl"
+    ],
+    [
+     "Gator Bowl",
+     "TaxSlayer Bowl"
+    ],
+    [
+     "Holiday Bowl",
+     "SDCCU Holiday Bowl"
+    ],
+    [
+     "Alamo Bowl",
+     "Valero Alamo Bowl"
+    ],
+    [
+     "Liberty Bowl",
+     "AutoZone Liberty Bowl"
+    ],
+    [
+     "Sun Bowl",
+     "John Hancock Bowl"
+    ],
+    [
+     "Outback Bowl",
+     "ReliaQuest Bowl",
+     "Hall of Fame Bowl"
+    ],
+    [
+     "Music City Bowl",
+     "Franklin American Mortgage Music City Bowl"
+    ],
     "Las Vegas Bowl",
-    "Pinstripe Bowl",
+    [
+     "Pinstripe Bowl",
+     "New Era Pinstripe Bowl"
+    ],
     "Independence Bowl",
-    "Armed Forces Bowl",
+    [
+     "Armed Forces Bowl",
+     "Fort Worth Bowl"
+    ],
     "Cheez-It Bowl",
-    "Texas Bowl",
+    [
+     "Texas Bowl",
+     "AdvoCare V100 Texas Bowl"
+    ],
     "Hawaii Bowl",
     "Poinsettia Bowl",
-    "Insight Bowl",
     "Aloha Bowl",
-    "Copper Bowl",
-    "Gasparilla Bowl",
+    [
+     "Gasparilla Bowl",
+     "St. Petersburg Bowl",
+     "Beef 'O' Brady's Bowl",
+     "Bitcoin Bowl",
+     "Magicjack St. Petersburg Bowl"
+    ],
     [
      "Mobile Alabama Bowl",
      "Mobile Bowl",
-     "GMAC Bowl"
+     "GMAC Bowl",
+     "GoDaddy Bowl",
+     "GoDaddy.com Bowl",
+     "Dollar General Bowl",
+     "LendingTree Bowl",
+     "68 Ventures Bowl"
     ],
     [
      "Famous Idaho Potato Bowl",
-     "Potato Bowl"
+     "Potato Bowl",
+     "Humanitarian Bowl",
+     "MPC Computers Bowl",
+     "Idaho Potato Bowl"
     ],
     "Fenway Bowl",
-    "Birmingham Bowl",
-    "Camping World Bowl",
-    "Redbox Bowl",
-    "Foster Farms Bowl",
-    "Military Bowl",
+    [
+     "Birmingham Bowl",
+     "BBVA Compass Bowl",
+     "Papajohns.com Bowl"
+    ],
+    [
+     "Redbox Bowl",
+     "Foster Farms Bowl",
+     "Kraft Fight Hunger Bowl",
+     "Fight Hunger Bowl",
+     "Emerald Bowl",
+     "San Francisco Bowl"
+    ],
+    [
+     "Military Bowl",
+     "EagleBank Bowl",
+     "Congressional Bowl"
+    ],
     "New Mexico Bowl",
     "New Orleans Bowl",
     "Arizona Bowl",
     "Boca Raton Bowl",
     "Frisco Bowl",
-    "Cure Bowl",
+    [
+     "Cure Bowl",
+     "AutoNation Cure Bowl"
+    ],
     "Myrtle Beach Bowl",
-    "LA Bowl",
-    "First Responder Bowl",
+    [
+     "LA Bowl",
+     "Jimmy Kimmel LA Bowl"
+    ],
+    [
+     "First Responder Bowl",
+     "Heart of Dallas Bowl",
+     "TicketCity Bowl",
+     "Dallas Football Classic"
+    ],
     "Quick Lane Bowl",
     "Bahamas Bowl",
     "Camellia Bowl",
-    "Duke's Mayo Bowl",
-    "Guaranteed Rate Bowl",
-    "Pop-Tarts Bowl",
-    "ReliaQuest Bowl",
+    [
+     "Duke's Mayo Bowl",
+     "Belk Bowl",
+     "Meineke Car Care Bowl",
+     "Continental Tire Bowl",
+     "Queen City Bowl"
+    ],
+    [
+     "Guaranteed Rate Bowl",
+     "Rate Bowl",
+     "Copper Bowl",
+     "Insight Bowl",
+     "Insight.com Bowl",
+     "Buffalo Wild Wings Bowl",
+     "Cactus Bowl"
+    ],
+    [
+     "Pop-Tarts Bowl",
+     "Champs Sports Bowl",
+     "Russell Athletic Bowl",
+     "Camping World Bowl",
+     "Blockbuster Bowl",
+     "Carquest Bowl",
+     "MicronPC Bowl"
+    ],
     "Bluebonnet Bowl",
     "Tangerine Bowl",
-    "Hall of Fame Bowl",
     "Freedom Bowl",
-    "Humanitarian Bowl",
-    "Motor City Bowl",
-    "Champs Sports Bowl",
-    "Blockbuster Bowl",
-    "Emerald Bowl",
-    "Russell Athletic Bowl"
+    [
+     "Motor City Bowl",
+     "Little Caesars Pizza Bowl",
+     "Little Caesars Bowl"
+    ],
+    [
+     "Houston Bowl",
+     "galleryfurniture.com Bowl"
+    ],
+    "Oahu Bowl",
+    "Seattle Bowl",
+    [
+     "Silicon Valley Bowl",
+     "Silicon Valley Football Classic"
+    ],
+    "Celebration Bowl",
+    "Garden State Bowl",
+    "Cherry Bowl",
+    "California Bowl",
+    "Raisin Bowl",
+    "Salad Bowl",
+    "Bluegrass Bowl",
+    "Gotham Bowl",
+    "Bacardi Bowl",
+    "Delta Bowl",
+    "Dixie Bowl",
+    "Harbor Bowl",
+    "Great Lakes Bowl",
+    "Oil Bowl",
+    [
+     "Pasadena Bowl",
+     "Junior Rose Bowl"
+    ],
+    [
+     "All-American Bowl",
+     "Hall of Fame Classic"
+    ],
+    [
+     "Senior Bowl",
+     "Reese's Senior Bowl"
+    ],
+    [
+     "East-West Shrine Bowl",
+     "Shrine Bowl"
+    ]
    ]
   },
   {
@@ -7597,7 +8991,10 @@
    ],
    "text": "Name a type of pitch in baseball",
    "answers": [
-    "Fastball",
+    [
+     "Fastball",
+     "heater"
+    ],
     [
      "Curveball",
      "curve"
@@ -7635,7 +9032,10 @@
      "eephus pitch"
     ],
     "Palmball",
-    "Spitball",
+    [
+     "Spitball",
+     "spitter"
+    ],
     "Knuckle curve",
     [
      "Circle changeup",
@@ -7654,7 +9054,42 @@
     [
      "Twelve-six curveball",
      "12-6 curveball"
-    ]
+    ],
+    [
+     "Split-change",
+     "splitchange"
+    ],
+    "Slow curve",
+    [
+     "Backdoor slider",
+     "back-door slider"
+    ],
+    "Straight change",
+    "Fosh",
+    [
+     "Rising fastball",
+     "riser"
+    ],
+    [
+     "Beanball",
+     "bean ball"
+    ],
+    "Shine ball",
+    "Mud ball",
+    [
+     "Scuffball",
+     "scuff ball"
+    ],
+    "Vaseline ball",
+    "Puff ball",
+    "Hesitation pitch",
+    "Quick pitch",
+    "Fadeaway",
+    "Drop ball",
+    "Slutter",
+    "Pitchout",
+    "Junk ball",
+    "Purpose pitch"
    ]
   },
   {
@@ -7685,7 +9120,9 @@
     "Two-point conversion",
     [
      "Extra point",
-     "point after"
+     "point after",
+     "PAT",
+     "point after touchdown"
     ],
     "Pass interference",
     "Holding",
@@ -7795,7 +9232,401 @@
     "Franchise tag",
     "Pro Bowl",
     "Lombardi Trophy",
-    "Tailgate"
+    "Tailgate",
+    [
+     "Quarterback",
+     "QB"
+    ],
+    "Running back",
+    "Wide receiver",
+    "Tight end",
+    "Linebacker",
+    "Cornerback",
+    [
+     "Offensive line",
+     "O-line"
+    ],
+    [
+     "Defensive line",
+     "D-line"
+    ],
+    "Secondary",
+    "Special teams",
+    "Offense",
+    "Defense",
+    "Pigskin",
+    "Helmet",
+    "Shoulder pads",
+    "Chinstrap",
+    "Mouthguard",
+    "Jersey",
+    "Yardage",
+    "Yards",
+    "Rushing yards",
+    "Passing yards",
+    "Receiving yards",
+    "Touchdown pass",
+    "Rushing touchdown",
+    [
+     "Passer rating",
+     "QB rating"
+    ],
+    "Completion percentage",
+    "Conversion",
+    "Fourth and inches",
+    "Third and long",
+    "Fourth and goal",
+    "Goal-line stand",
+    "Goal to go",
+    "Chains",
+    [
+     "Chain crew",
+     "chain gang"
+    ],
+    "Down marker",
+    "First down marker",
+    "Sticks",
+    [
+     "Hash marks",
+     "hashes"
+    ],
+    "Sideline",
+    "Out of bounds",
+    [
+     "Spot of the ball",
+     "spot"
+    ],
+    "Measurement",
+    "Penalty",
+    [
+     "Flag",
+     "penalty flag",
+     "yellow flag"
+    ],
+    "Referee",
+    "Umpire",
+    "Line judge",
+    "Back judge",
+    "Side judge",
+    "Field judge",
+    [
+     "Down judge",
+     "head linesman"
+    ],
+    [
+     "Officials",
+     "zebras"
+    ],
+    "Coin toss",
+    "Opening kickoff",
+    "Kick return",
+    "Punt return",
+    "Return touchdown",
+    "Muffed punt",
+    "Fumble recovery",
+    "Strip sack",
+    "Scoop and score",
+    "Defensive touchdown",
+    "Coffin corner",
+    "Fair catch kick",
+    "Free kick",
+    "Drop kick",
+    "Field goal attempt",
+    "Blocked kick",
+    "Blocked punt",
+    "Missed field goal",
+    "Doink",
+    "Wide left",
+    "Wide right",
+    "Hook",
+    "Shank",
+    "Long snap",
+    "Snap count",
+    "Hard count",
+    "Cadence",
+    "Hut",
+    "Under center",
+    [
+     "Pistol formation",
+     "pistol"
+    ],
+    "I-formation",
+    "Single back",
+    [
+     "Empty backfield",
+     "empty set"
+    ],
+    "Trips",
+    "Bunch formation",
+    "Air raid",
+    "Run and shoot",
+    "Pro style",
+    "Option offense",
+    "Triple option",
+    "Read option",
+    [
+     "RPO",
+     "run-pass option"
+    ],
+    "Zone read",
+    "Power run",
+    "Counter",
+    "Sweep",
+    "Toss",
+    "Pitch",
+    "Dive",
+    "Trap",
+    [
+     "Isolation",
+     "iso"
+    ],
+    "Off tackle",
+    "Stretch",
+    "Outside zone",
+    "Inside zone",
+    [
+     "Pull",
+     "pulling guard"
+    ],
+    "Pancake block",
+    "Chop block",
+    "Cut block",
+    "Block in the back",
+    "Crackback block",
+    "Double team",
+    [
+     "Pass protection",
+     "pass pro"
+    ],
+    "Pocket presence",
+    "Scramble",
+    "Rollout",
+    "Throwaway",
+    [
+     "Deep ball",
+     "bomb"
+    ],
+    [
+     "Go route",
+     "fly route",
+     "streak"
+    ],
+    [
+     "Post route",
+     "post"
+    ],
+    "Corner route",
+    "Slant",
+    "Out route",
+    [
+     "In route",
+     "dig"
+    ],
+    "Curl",
+    "Comeback route",
+    "Hitch",
+    "Wheel route",
+    "Seam route",
+    "Fade",
+    "Back-shoulder throw",
+    [
+     "Crossing route",
+     "drag"
+    ],
+    "Mesh",
+    "Route tree",
+    "Pick play",
+    "Jet sweep",
+    "End-around",
+    "Statue of Liberty play",
+    "Fumblerooski",
+    "Trick play",
+    "Halfback pass",
+    "Double pass",
+    "Surprise onside kick",
+    "Pylon",
+    "Crossbar",
+    [
+     "Midfield",
+     "50-yard line"
+    ],
+    "Red-zone offense",
+    "Two-minute drill",
+    "Clock management",
+    "Running the clock",
+    "Game clock",
+    "Play clock",
+    [
+     "Too many men on the field",
+     "12 men on the field"
+    ],
+    "Ineligible receiver downfield",
+    "Illegal contact",
+    "Defensive holding",
+    "Offensive holding",
+    "Illegal use of hands",
+    "Roughing the snapper",
+    "Running into the kicker",
+    "Targeting",
+    "Spearing",
+    "Taunting",
+    "Unsportsmanlike conduct",
+    "Excessive celebration",
+    "Leaping",
+    "Ejection",
+    "Offsetting penalties",
+    "Declined penalty",
+    "Automatic first down",
+    "Loss of down",
+    "Replay the down",
+    "Turnover on downs",
+    "Punt formation",
+    "Coverage sack",
+    "Coverage unit",
+    "Blitz package",
+    "Zone blitz",
+    "Corner blitz",
+    "Cover 0",
+    "Cover 1",
+    "Cover 3",
+    [
+     "Cover 4",
+     "quarters"
+    ],
+    "Tampa 2",
+    "Press coverage",
+    "Bump and run",
+    "Off coverage",
+    "Dime defense",
+    "Quarter defense",
+    "4-3 defense",
+    "3-4 defense",
+    "46 defense",
+    "Stack the box",
+    "Eight in the box",
+    "Gap",
+    "B gap",
+    "Contain",
+    "Pursuit",
+    [
+     "Tackle for loss",
+     "TFL"
+    ],
+    [
+     "Quarterback hit",
+     "QB hit"
+    ],
+    "Pressure",
+    "Hurry",
+    "Pass deflection",
+    "Pass breakup",
+    "Interception return",
+    "Fumble return",
+    "Forced fumble",
+    "Ball security",
+    "Fumbled snap",
+    "Drop",
+    "Catch",
+    "Reception",
+    "Contested catch",
+    "Toe-tap catch",
+    "Diving catch",
+    "One-handed catch",
+    "Helmet catch",
+    "Yards after contact",
+    "Stiff arm",
+    "Juke",
+    "Spin move",
+    "Hurdle",
+    "Truck",
+    "Broken tackle",
+    "Missed tackle",
+    "Gang tackle",
+    "Tackle",
+    "Wrap up",
+    "Form tackle",
+    "Big hit",
+    "Concussion protocol",
+    [
+     "Injured reserve",
+     "IR"
+    ],
+    "Practice squad",
+    "Roster",
+    "53-man roster",
+    "Depth chart",
+    "Rookie",
+    [
+     "Free agency",
+     "free agent"
+    ],
+    "Trade deadline",
+    [
+     "Waiver wire",
+     "waivers"
+    ],
+    "Holdout",
+    "Signing bonus",
+    "Dead money",
+    "Rookie contract",
+    "Fifth-year option",
+    [
+     "Undrafted free agent",
+     "UDFA"
+    ],
+    "Draft pick",
+    "First-round pick",
+    "Mr. Irrelevant",
+    "Mock draft",
+    "Pro day",
+    "Training camp",
+    "Preseason",
+    "Regular season",
+    "Postseason",
+    "Divisional round",
+    "Conference championship",
+    "AFC",
+    "NFC",
+    "Division",
+    "Seeding",
+    "Home-field advantage",
+    "Thanksgiving game",
+    "Monday Night Football",
+    "Thursday Night Football",
+    "Sunday Night Football",
+    "International Series",
+    "Super Bowl ring",
+    "Super Bowl MVP",
+    "MVP",
+    "Rookie of the Year",
+    "Hall of Fame",
+    "Heisman Trophy",
+    "Bowl game",
+    "Fantasy football",
+    "Cheerleaders",
+    "Halftime show",
+    "Gatorade shower",
+    [
+     "Touchdown celebration",
+     "end zone dance"
+    ],
+    "Lambeau Leap",
+    "Ice the kicker",
+    "Coach's challenge",
+    "Booth review",
+    "Overtime rules",
+    "Sudden death",
+    "Tie",
+    "Garbage time",
+    "Game-winning drive",
+    "Game-winning field goal",
+    "Three and out",
+    "Field position",
+    "Short field",
+    "Long field",
+    "Takeaway",
+    "Giveaway",
+    "Turnover differential"
    ]
   },
   {
@@ -8375,7 +10206,10 @@
      "asymmetric bars",
      "asymmetrical bars"
     ],
-    "Pommel horse",
+    [
+     "Pommel horse",
+     "side horse"
+    ],
     [
      "Rings",
      "still rings"
@@ -8425,7 +10259,42 @@
     "Springboard",
     "Rhythmic group",
     "Mixed pair",
-    "Individual apparatus"
+    "Individual apparatus",
+    [
+     "Vaulting horse",
+     "horse",
+     "vaulting table"
+    ],
+    [
+     "Rope climbing",
+     "rope climb"
+    ],
+    [
+     "Club swinging",
+     "Indian clubs"
+    ],
+    "Buck",
+    "Tumble track",
+    "Air track",
+    "Rod floor",
+    [
+     "Mini trampoline",
+     "mini-tramp"
+    ],
+    "Mushroom",
+    "Wall bars",
+    [
+     "Vaulting box",
+     "box"
+    ],
+    "Balance bench",
+    "Artistic gymnastics",
+    "Rhythmic gymnastics",
+    "Parkour",
+    [
+     "Apparatus final",
+     "event final"
+    ]
    ]
   },
   {
@@ -8460,15 +10329,14 @@
     "Rackets",
     "Beach tennis",
     "Platform tennis",
-    "Paddle tennis",
+    [
+     "Paddle tennis",
+     "POP tennis"
+    ],
     "Soft tennis",
     [
      "Speedminton",
      "crossminton"
-    ],
-    [
-     "Eton fives",
-     "fives"
     ],
     [
      "Short tennis",
@@ -8487,7 +10355,22 @@
     "Squash tennis",
     "Spec tennis",
     "Touchtennis",
-    "Hardball squash"
+    "Hardball squash",
+    "Wheelchair tennis",
+    "Beach badminton",
+    "Air badminton",
+    "Paddleball",
+    "Xare",
+    [
+     "Pala",
+     "paleta"
+    ],
+    [
+     "Battledore and shuttlecock",
+     "battledore"
+    ],
+    "Ball badminton",
+    "Swingball"
    ]
   },
   {
@@ -8508,7 +10391,13 @@
      "Tour of Spain"
     ],
     "Paris-Roubaix",
-    "Tour of Britain",
+    [
+     "Tour of Britain",
+     "Milk Race",
+     "Kellogg's Tour of Britain",
+     "PruTour",
+     "Lloyds Tour of Britain"
+    ],
     [
      "Tour of Flanders",
      "Ronde van Vlaanderen"
@@ -8517,7 +10406,8 @@
     "Liege-Bastogne-Liege",
     [
      "Il Lombardia",
-     "Tour of Lombardy"
+     "Tour of Lombardy",
+     "Giro di Lombardia"
     ],
     "Paris-Nice",
     "Tour Down Under",
@@ -8539,7 +10429,8 @@
     "Gent-Wevelgem",
     [
      "Omloop Het Nieuwsblad",
-     "Omloop"
+     "Omloop",
+     "Omloop Het Volk"
     ],
     "UAE Tour",
     "Tour de Romandie",
@@ -8555,7 +10446,12 @@
     ],
     "Dwars door Vlaanderen",
     "Tour de Pologne",
-    "Eschborn-Frankfurt",
+    [
+     "Eschborn-Frankfurt",
+     "GP Frankfurt",
+     "Henninger Turm",
+     "Rund um den Finanzplatz"
+    ],
     "Tour of Oman",
     "Tour de Yorkshire",
     [
@@ -8570,7 +10466,13 @@
     "Scheldeprijs",
     "Brabantse Pijl",
     "Paris-Tours",
-    "Hamburg Cyclassics",
+    [
+     "Hamburg Cyclassics",
+     "Vattenfall Cyclassics",
+     "EuroEyes Cyclassics",
+     "Bemer Cyclassics",
+     "Cyclassics"
+    ],
     [
      "RideLondon Classic",
      "London-Surrey Classic"
@@ -8581,11 +10483,23 @@
     "Tour of Guangxi",
     [
      "Renewi Tour",
-     "Benelux Tour"
+     "Benelux Tour",
+     "Eneco Tour",
+     "BinckBank Tour"
     ],
-    "GP Québec",
-    "GP Montréal",
-    "Bretagne Classic",
+    [
+     "GP Québec",
+     "Grand Prix Cycliste de Québec"
+    ],
+    [
+     "GP Montréal",
+     "Grand Prix Cycliste de Montréal"
+    ],
+    [
+     "Bretagne Classic",
+     "GP de Plouay",
+     "GP Ouest-France"
+    ],
     "Tour de France Femmes",
     "Women's Tour",
     "World Championships road race",
@@ -8593,7 +10507,236 @@
     "Herald Sun Tour",
     "Tour of Qatar",
     "Volta ao Algarve",
-    "Étoile de Bessèges"
+    "Étoile de Bessèges",
+    [
+     "Milano-Torino",
+     "Milan-Turin"
+    ],
+    "Gran Piemonte",
+    "Giro dell'Emilia",
+    "Tre Valli Varesine",
+    "Coppa Bernocchi",
+    "Coppa Agostoni",
+    "Milano-Sanremo Donne",
+    "Trofeo Laigueglia",
+    "Settimana Coppi e Bartali",
+    [
+     "Tour of the Alps",
+     "Giro del Trentino"
+    ],
+    "Giro di Sicilia",
+    "Adriatica Ionica Race",
+    [
+     "Tour of Austria",
+     "Österreich-Rundfahrt"
+    ],
+    "Tour of Slovenia",
+    "Tour of Norway",
+    [
+     "Tour of Denmark",
+     "Danmark Rundt"
+    ],
+    [
+     "Tour of Belgium",
+     "Baloise Belgium Tour"
+    ],
+    "Tour of Luxembourg",
+    [
+     "Deutschland Tour",
+     "Tour of Germany"
+    ],
+    [
+     "Bayern Rundfahrt",
+     "Tour of Bavaria"
+    ],
+    "Ster ZLM Toer",
+    "Omloop van het Hageland",
+    "Nokere Koerse",
+    [
+     "Bredene Koksijde Classic",
+     "Handzame Classic"
+    ],
+    "Le Samyn",
+    "Dwars door het Hageland",
+    "Paris-Camembert",
+    "Tour du Doubs",
+    "Paris-Bourges",
+    "Polynormande",
+    "Tour du Limousin",
+    "Tour de l'Ain",
+    [
+     "Route d'Occitanie",
+     "Route du Sud"
+    ],
+    "Tour de la Provence",
+    [
+     "Tour des Alpes-Maritimes",
+     "Tour du Var",
+     "Tour du Haut Var"
+    ],
+    [
+     "Grand Prix La Marseillaise",
+     "GP La Marseillaise"
+    ],
+    "Faun-Ardèche Classic",
+    "Drôme Classic",
+    "Classic Grand Besançon Doubs",
+    "Tour du Jura",
+    "Circuit de la Sarthe",
+    "Boucles de la Mayenne",
+    "Paris-Arras",
+    [
+     "Four Days of Dunkirk",
+     "4 Jours de Dunkerque"
+    ],
+    "Tour de Wallonie",
+    "Grand Prix de Wallonie",
+    "Druivenkoers Overijse",
+    "Gooikse Pijl",
+    "Primus Classic",
+    "Antwerp Port Epic",
+    "Ronde van Limburg",
+    "Heistse Pijl",
+    "Omloop Mandel-Leie-Schelde",
+    "Elfstedenronde",
+    "Tour of Antalya",
+    "Tour of Rwanda",
+    "La Tropicale Amissa Bongo",
+    "Tour du Faso",
+    "Tour of Taihu Lake",
+    "Tour of Hainan",
+    "Tour of Japan",
+    "Tour de Langkawi",
+    "Cadel Evans Great Ocean Road Race",
+    "Santos Festival of Cycling",
+    "Tour of Utah",
+    [
+     "Tour of Colorado",
+     "USA Pro Cycling Challenge"
+    ],
+    "Tour of Missouri",
+    "Tour of Georgia",
+    [
+     "Philadelphia International Championship",
+     "Philadelphia Classic"
+    ],
+    "Maryland Cycling Classic",
+    "Tour of Alberta",
+    "Tour de Beauce",
+    "Vuelta a San Juan",
+    "Tour Colombia",
+    "Vuelta a Colombia",
+    "Vuelta al Táchira",
+    "Vuelta a Burgos",
+    [
+     "Vuelta a Andalucía",
+     "Ruta del Sol"
+    ],
+    "Vuelta a Murcia",
+    [
+     "Vuelta a la Comunidad Valenciana",
+     "Volta a la Comunitat Valenciana"
+    ],
+    "Vuelta a Asturias",
+    "Vuelta a Castilla y León",
+    "Vuelta a Aragón",
+    "Clásica de Almería",
+    "Clásica Jaén",
+    [
+     "Gran Premio Miguel Induráin",
+     "GP Miguel Indurain"
+    ],
+    "Circuito de Getxo",
+    "Prueba Villafranca",
+    "Gran Premio de Llodio",
+    [
+     "Trofeo Mallorca",
+     "Challenge Mallorca"
+    ],
+    "Volta a Portugal",
+    "Volta ao Alentejo",
+    "Grand Prix de Denain",
+    "Tour de Picardie",
+    "Paris-Brussels",
+    "Circuit Franco-Belge",
+    "Kampioenschap van Vlaanderen",
+    "Grote Prijs Jef Scherens",
+    "Rund um Köln",
+    [
+     "Sparkassen Münsterland Giro",
+     "Münsterland Giro"
+    ],
+    "Tour of Qinghai Lake",
+    "Tour of Hellas",
+    "Tour of Croatia",
+    "Tour of Hungary",
+    [
+     "Tour of Czechia",
+     "Czech Tour"
+    ],
+    "Tour of Slovakia",
+    "Tour of Estonia",
+    "Baltic Chain Tour",
+    "Sibiu Cycling Tour",
+    "CRO Race",
+    "Tour of Ireland",
+    [
+     "Rás Tailteann",
+     "Rás",
+     "An Post Rás"
+    ],
+    "Tour of Scotland",
+    "Tour Series",
+    [
+     "National Road Championships",
+     "British National Road Race Championships",
+     "National Road Race Championships",
+     "National Championships"
+    ],
+    "Commonwealth Games road race",
+    "European Championships road race",
+    "World Championships time trial",
+    "Olympic time trial",
+    [
+     "Giro d'Italia Women",
+     "Giro Donne"
+    ],
+    "La Vuelta Femenina",
+    "Paris-Roubaix Femmes",
+    "Tour of Flanders for Women",
+    [
+     "La Course by Le Tour de France",
+     "La Course"
+    ],
+    "Women's Tour de Suisse",
+    [
+     "Simac Ladies Tour",
+     "Holland Ladies Tour"
+    ],
+    "Thüringen Ladies Tour",
+    "Lotto Belgium Tour",
+    "Trofeo Alfredo Binda",
+    "Emakumeen Bira",
+    "Itzulia Women",
+    "Tour of Chongming Island",
+    "Strade Bianche Donne",
+    "Liège-Bastogne-Liège Femmes",
+    "Flèche Wallonne Féminine",
+    "Amstel Gold Race Ladies",
+    "Gent-Wevelgem Women",
+    "Omloop Het Nieuwsblad Women",
+    "Ronde van Drenthe",
+    "Drentse 8",
+    "Healthy Ageing Tour",
+    "Women's Tour Down Under",
+    [
+     "Classic Brugge-De Panne",
+     "Three Days of Bruges-De Panne",
+     "Driedaagse De Panne"
+    ],
+    "Ronde van Nederland",
+    "Tour de Normandie",
+    "Tour de Bretagne"
    ]
   },
   {
@@ -8607,9 +10750,13 @@
     "Vendee Globe",
     [
      "Fastnet",
-     "Fastnet Race"
+     "Fastnet Race",
+     "Rolex Fastnet Race"
     ],
-    "Cowes Week",
+    [
+     "Cowes Week",
+     "Cowes"
+    ],
     [
      "The Ocean Race",
      "Volvo Ocean Race",
@@ -8618,24 +10765,44 @@
     ],
     [
      "Sydney to Hobart",
-     "Sydney Hobart"
+     "Sydney Hobart",
+     "Rolex Sydney Hobart"
     ],
-    "Round the Island Race",
+    [
+     "Round the Island Race",
+     "Round the Island",
+     "Round the Isle of Wight"
+    ],
     "SailGP",
     [
      "Clipper Round the World Yacht Race",
      "Clipper Race"
     ],
-    "Golden Globe Race",
+    [
+     "Golden Globe Race",
+     "Sunday Times Golden Globe Race"
+    ],
     "Admiral's Cup",
-    "Route du Rhum",
-    "Transat Jacques Vabre",
-    "Jules Verne Trophy",
+    [
+     "Route du Rhum",
+     "Route du Rhum-Destination Guadeloupe"
+    ],
+    [
+     "Transat Jacques Vabre",
+     "Transat Café L'Or"
+    ],
+    [
+     "Jules Verne Trophy",
+     "Jules Verne"
+    ],
     [
      "ARC",
      "Atlantic Rally for Cruisers"
     ],
-    "Louis Vuitton Cup",
+    [
+     "Louis Vuitton Cup",
+     "Louis Vuitton Challenger Series"
+    ],
     [
      "Transpac",
      "Transpacific Yacht Race"
@@ -8648,13 +10815,31 @@
     "Mini Transat",
     [
      "Solitaire du Figaro",
-     "La Solitaire du Figaro"
+     "La Solitaire du Figaro",
+     "Solitaire URGO Le Figaro"
     ],
-    "Middle Sea Race",
-    "Round Britain and Ireland Race",
-    "Caribbean 600",
-    "Tall Ships Race",
-    "Kiel Week",
+    [
+     "Middle Sea Race",
+     "Rolex Middle Sea Race"
+    ],
+    [
+     "Round Britain and Ireland Race",
+     "Round Britain",
+     "Sevenstar Round Britain and Ireland"
+    ],
+    [
+     "Caribbean 600",
+     "RORC Caribbean 600"
+    ],
+    [
+     "Tall Ships Race",
+     "Tall Ships",
+     "Tall Ships Races"
+    ],
+    [
+     "Kiel Week",
+     "Kieler Woche"
+    ],
     "Key West Race Week",
     [
      "The Transat",
@@ -8666,11 +10851,120 @@
     ],
     [
      "Velux 5 Oceans",
-     "Around Alone"
+     "Around Alone",
+     "BOC Challenge"
     ],
     "Prada Cup",
-    "Olympic sailing",
-    "Little America's Cup"
+    [
+     "Olympic sailing",
+     "Olympic regatta"
+    ],
+    "Little America's Cup",
+    "Vendée Arctique",
+    "Transat Québec-Saint-Malo",
+    "Ocean Globe Race",
+    "Global Solo Challenge",
+    "Oryx Quest",
+    "The Race",
+    "Brest Atlantiques",
+    "Arkea Ultim Challenge",
+    "Melbourne to Osaka Race",
+    "Auckland to Fiji Race",
+    [
+     "Cape to Rio",
+     "Cape to Rio Race"
+    ],
+    "Pacific Cup",
+    [
+     "Chicago to Mackinac",
+     "Race to Mackinac"
+    ],
+    [
+     "Bayview Mackinac Race",
+     "Port Huron to Mackinac"
+    ],
+    "Annapolis to Bermuda",
+    "Marblehead to Halifax",
+    [
+     "Giraglia",
+     "Rolex Giraglia"
+    ],
+    "Maxi Yacht Rolex Cup",
+    "Rolex Swan Cup",
+    "Les Voiles de Saint-Tropez",
+    "Copa del Rey",
+    "Antigua Sailing Week",
+    [
+     "Heineken Regatta",
+     "St Maarten Heineken Regatta"
+    ],
+    "Hamble Winter Series",
+    [
+     "Round Ireland Race",
+     "Volvo Round Ireland"
+    ],
+    "Scottish Series",
+    "Dun Laoghaire Regatta",
+    "One Ton Cup",
+    "Kenwood Cup",
+    "Southern Cross Cup",
+    "Onion Patch",
+    "Sardinia Cup",
+    "Commodore's Cup",
+    "America's Cup World Series",
+    "Youth America's Cup",
+    [
+     "Puig Women's America's Cup",
+     "Women's America's Cup"
+    ],
+    "Extreme Sailing Series",
+    "GC32 Racing Tour",
+    [
+     "TP52 Super Series",
+     "52 Super Series"
+    ],
+    "Star Sailors League",
+    "World Match Racing Tour",
+    "Congressional Cup",
+    "Paralympic sailing",
+    "Sailing World Cup",
+    "Sailing World Championships",
+    "Finn Gold Cup",
+    [
+     "Laser World Championships",
+     "ILCA World Championships"
+    ],
+    "Optimist World Championships",
+    "470 World Championships",
+    "49er World Championships",
+    "Nacra 17 World Championships",
+    "iQFOiL World Championships",
+    "Moth World Championships",
+    "Etchells World Championships",
+    "Dragon Gold Cup",
+    "Star Worlds",
+    "Travemünde Week",
+    [
+     "Gotland Runt",
+     "Round Gotland Race"
+    ],
+    "Tjörn Runt",
+    [
+     "Bol d'Or",
+     "Bol d'Or Mirabaud"
+    ],
+    "Spi Ouest-France",
+    [
+     "Tour de France à la voile",
+     "Tour Voile"
+    ],
+    "Transat AG2R",
+    "Défi Azimut",
+    "Transatlantic Race",
+    "Blue Water Rally",
+    "World ARC",
+    "Thames Barge Match",
+    "J/70 World Championship"
    ]
   },
   {
@@ -8711,13 +11005,23 @@
     "Tramore",
     "Wexford",
     "Thurles",
-    "Dundalk",
+    [
+     "Dundalk",
+     "Dundalk Stadium"
+    ],
     "Laytown",
     "Ballinrobe",
     "Bellewstown",
-    "Clonmel",
+    [
+     "Clonmel",
+     "Powerstown Park"
+    ],
     "Kilbeggan",
-    "Tralee"
+    "Tralee",
+    "Phoenix Park",
+    "Baldoyle",
+    "Mullingar",
+    "Maze"
    ]
   },
   {
@@ -9161,8 +11465,7 @@
     "Hungary",
     [
      "Soviet Union",
-     "USSR",
-     "Russia"
+     "USSR"
     ],
     "Nigeria",
     "Italy",
@@ -9191,13 +11494,23 @@
     "Boxing",
     "Karate",
     "Judo",
-    "Taekwondo",
+    [
+     "Taekwondo",
+     "Tae kwon do",
+     "TKD"
+    ],
     "Kung fu",
     [
      "Brazilian jiu-jitsu",
      "BJJ",
+     "Gracie jiu-jitsu"
+    ],
+    [
+     "Jujutsu",
+     "ju-jitsu",
      "jiu-jitsu",
-     "ju-jitsu"
+     "jujitsu",
+     "Japanese jiu-jitsu"
     ],
     [
      "MMA",
@@ -9224,11 +11537,18 @@
      "Tai chi",
      "tai chi chuan"
     ],
-    "Wing Chun",
+    [
+     "Wing Chun",
+     "Ving Tsun",
+     "Wing Tsun"
+    ],
     "Ninjutsu",
     "Fencing",
     "Jeet Kune Do",
-    "Kyokushin",
+    [
+     "Kyokushin",
+     "Kyokushin karate"
+    ],
     "Taekkyon",
     "Krabi krabong",
     [
@@ -9253,7 +11573,10 @@
     "Shaolin kung fu",
     "Shotokan",
     "Wushu",
-    "Sanda",
+    [
+     "Sanda",
+     "Sanshou"
+    ],
     "Bokator",
     "Vovinam",
     "Kalaripayattu",
@@ -9281,7 +11604,184 @@
     [
      "Grappling",
      "Submission wrestling"
-    ]
+    ],
+    "Goju-ryu",
+    "Wado-ryu",
+    "Shito-ryu",
+    "Uechi-ryu",
+    "Isshin-ryu",
+    [
+     "Kenpo",
+     "American Kenpo"
+    ],
+    "Kajukenbo",
+    "Choy Li Fut",
+    [
+     "Praying mantis kung fu",
+     "mantis"
+    ],
+    "Eagle claw",
+    "Monkey kung fu",
+    "Tiger crane",
+    "White crane",
+    [
+     "Xingyiquan",
+     "xing yi"
+    ],
+    "Bajiquan",
+    "Chen-style tai chi",
+    "Yang-style tai chi",
+    "Shuai jiao",
+    "Bujinkan",
+    "Jōdō",
+    "Okinawan karate",
+    "K-1",
+    "Dutch kickboxing",
+    "Sport karate",
+    "Seido",
+    "Enshin",
+    [
+     "Daito-ryu Aiki-jujutsu",
+     "Daito-ryu"
+    ],
+    "Yoshinkan aikido",
+    "Hakko-ryu",
+    "Combat sambo",
+    "Combatives",
+    "Bando",
+    "Muay Boran",
+    "Muay Lao",
+    "Tomoi",
+    "Silambam",
+    "Gatka",
+    [
+     "Kushti",
+     "pehlwani"
+    ],
+    "Varma kalai",
+    "Mardani khel",
+    "Thang-ta",
+    "Dambe",
+    "Nguni stick-fighting",
+    [
+     "Laamb",
+     "Senegalese wrestling"
+    ],
+    "Coreeda",
+    "Bōjutsu",
+    "Sōjutsu",
+    "Battōjutsu",
+    "Shurikenjutsu",
+    "Tessenjutsu",
+    "Hojōjutsu",
+    "Kusarigamajutsu",
+    "Taijutsu",
+    "Bajutsu",
+    "Kuk Sool Won",
+    "Gongkwon Yusul",
+    "Hankido",
+    [
+     "Gumdo",
+     "kumdo"
+    ],
+    "Subak",
+    "Dumog",
+    "Sikaran",
+    "Yaw-Yan",
+    "Kombatan",
+    "Bersilat",
+    "Silek",
+    "Kuntao",
+    [
+     "Kun Khmer",
+     "Pradal serey",
+     "Khmer kickboxing"
+    ],
+    [
+     "Defendu",
+     "Fairbairn system"
+    ],
+    "Tarung derajat",
+    [
+     "Bokh",
+     "Mongolian wrestling"
+    ],
+    "Chidaoba",
+    "Khridoli",
+    "Lucha libre",
+    "Lucha canaria",
+    [
+     "Gouren",
+     "Breton wrestling"
+    ],
+    [
+     "Backhold",
+     "Scottish backhold"
+    ],
+    "Devon wrestling",
+    "Collar-and-elbow",
+    [
+     "Folkstyle wrestling",
+     "collegiate wrestling"
+    ],
+    "Professional wrestling",
+    "Shoot wrestling",
+    [
+     "La canne",
+     "canne de combat"
+    ],
+    "Jogo do pau",
+    "Juego del palo",
+    "Bataireacht",
+    "Singlestick",
+    "Quarterstaff",
+    [
+     "Historical European martial arts",
+     "HEMA"
+    ],
+    "Stick fighting",
+    "52 Blocks",
+    [
+     "Marine Corps Martial Arts Program",
+     "MCMAP"
+    ],
+    [
+     "Keysi Fighting Method",
+     "KFM"
+    ],
+    "Haidong Gumdo",
+    "Lau Gar",
+    "Southern Praying Mantis",
+    "Northern Shaolin",
+    "Wudang",
+    [
+     "Long fist",
+     "Changquan"
+    ],
+    "Nanquan",
+    [
+     "Drunken boxing",
+     "Zui quan"
+    ],
+    "Snake kung fu",
+    "Leopard kung fu",
+    "Dragon kung fu",
+    "Liuhebafa",
+    "Yiquan",
+    "Belt wrestling",
+    "Submission grappling",
+    "Vale tudo",
+    "Banshay",
+    "Naban",
+    "Shidokan",
+    "Shoot boxing",
+    "Yoseikan budo",
+    "Nippon Kempo",
+    "Taido",
+    "Capoeira Angola",
+    "Capoeira Regional",
+    "Maculelê",
+    "Huka-huka"
    ]
   },
   {
